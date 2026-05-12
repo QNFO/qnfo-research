@@ -1,0 +1,387 @@
+{
+  "version": "0.7.0",
+  "paths": [
+    "A: Mutual Exclusion Deepening",
+    "B: Scientific Register Comparison"
+  ],
+  "path_a": {
+    "domains": [
+      "epistemic",
+      "ontological",
+      "categorical",
+      "spatial",
+      "tense",
+      "aspect",
+      "number",
+      "definiteness"
+    ],
+    "zero_intersection_pairs": [
+      [
+        "epistemic",
+        "ontological"
+      ],
+      [
+        "epistemic",
+        "categorical"
+      ],
+      [
+        "epistemic",
+        "spatial"
+      ],
+      [
+        "epistemic",
+        "definiteness"
+      ],
+      [
+        "ontological",
+        "categorical"
+      ],
+      [
+        "ontological",
+        "spatial"
+      ],
+      [
+        "categorical",
+        "spatial"
+      ],
+      [
+        "categorical",
+        "number"
+      ],
+      [
+        "categorical",
+        "definiteness"
+      ],
+      [
+        "spatial",
+        "definiteness"
+      ]
+    ],
+    "n_zero_pairs": 10,
+    "n_pairs_total": 28,
+    "pairwise": {
+      "epistemic+ontological": {
+        "both": 0,
+        "a_only": 5,
+        "b_only": 7,
+        "neither": 10,
+        "status": "*** EMPTY ***"
+      },
+      "epistemic+categorical": {
+        "both": 0,
+        "a_only": 5,
+        "b_only": 3,
+        "neither": 14,
+        "status": "*** EMPTY ***"
+      },
+      "epistemic+spatial": {
+        "both": 0,
+        "a_only": 5,
+        "b_only": 2,
+        "neither": 15,
+        "status": "*** EMPTY ***"
+      },
+      "epistemic+tense": {
+        "both": 5,
+        "a_only": 0,
+        "b_only": 13,
+        "neither": 4,
+        "status": "Partial"
+      },
+      "epistemic+aspect": {
+        "both": 2,
+        "a_only": 3,
+        "b_only": 11,
+        "neither": 6,
+        "status": "Near-empty"
+      },
+      "epistemic+number": {
+        "both": 3,
+        "a_only": 2,
+        "b_only": 13,
+        "neither": 4,
+        "status": "Partial"
+      },
+      "epistemic+definiteness": {
+        "both": 0,
+        "a_only": 5,
+        "b_only": 8,
+        "neither": 9,
+        "status": "*** EMPTY ***"
+      },
+      "ontological+categorical": {
+        "both": 0,
+        "a_only": 7,
+        "b_only": 3,
+        "neither": 12,
+        "status": "*** EMPTY ***"
+      },
+      "ontological+spatial": {
+        "both": 0,
+        "a_only": 7,
+        "b_only": 2,
+        "neither": 13,
+        "status": "*** EMPTY ***"
+      },
+      "ontological+tense": {
+        "both": 7,
+        "a_only": 0,
+        "b_only": 11,
+        "neither": 4,
+        "status": "Partial"
+      },
+      "ontological+aspect": {
+        "both": 4,
+        "a_only": 3,
+        "b_only": 9,
+        "neither": 6,
+        "status": "Partial"
+      },
+      "ontological+number": {
+        "both": 7,
+        "a_only": 0,
+        "b_only": 9,
+        "neither": 6,
+        "status": "Partial"
+      },
+      "ontological+definiteness": {
+        "both": 5,
+        "a_only": 2,
+        "b_only": 3,
+        "neither": 12,
+        "status": "Partial"
+      },
+      "categorical+spatial": {
+        "both": 0,
+        "a_only": 3,
+        "b_only": 2,
+        "neither": 17,
+        "status": "*** EMPTY ***"
+      },
+      "categorical+tense": {
+        "both": 1,
+        "a_only": 2,
+        "b_only": 17,
+        "neither": 2,
+        "status": "Near-empty"
+      },
+      "categorical+aspect": {
+        "both": 3,
+        "a_only": 0,
+        "b_only": 10,
+        "neither": 9,
+        "status": "Partial"
+      },
+      "categorical+number": {
+        "both": 0,
+        "a_only": 3,
+        "b_only": 16,
+        "neither": 3,
+        "status": "*** EMPTY ***"
+      },
+      "categorical+definiteness": {
+        "both": 0,
+        "a_only": 3,
+        "b_only": 8,
+        "neither": 11,
+        "status": "*** EMPTY ***"
+      },
+      "spatial+tense": {
+        "both": 2,
+        "a_only": 0,
+        "b_only": 16,
+        "neither": 4,
+        "status": "Near-empty"
+      },
+      "spatial+aspect": {
+        "both": 2,
+        "a_only": 0,
+        "b_only": 11,
+        "neither": 9,
+        "status": "Near-empty"
+      },
+      "spatial+number": {
+        "both": 2,
+        "a_only": 0,
+        "b_only": 14,
+        "neither": 6,
+        "status": "Near-empty"
+      },
+      "spatial+definiteness": {
+        "both": 0,
+        "a_only": 2,
+        "b_only": 8,
+        "neither": 12,
+        "status": "*** EMPTY ***"
+      },
+      "tense+aspect": {
+        "both": 10,
+        "a_only": 8,
+        "b_only": 3,
+        "neither": 1,
+        "status": "Partial"
+      },
+      "tense+number": {
+        "both": 15,
+        "a_only": 3,
+        "b_only": 1,
+        "neither": 3,
+        "status": "Co-occurring"
+      },
+      "tense+definiteness": {
+        "both": 7,
+        "a_only": 11,
+        "b_only": 1,
+        "neither": 3,
+        "status": "Partial"
+      },
+      "aspect+number": {
+        "both": 8,
+        "a_only": 5,
+        "b_only": 8,
+        "neither": 1,
+        "status": "Partial"
+      },
+      "aspect+definiteness": {
+        "both": 4,
+        "a_only": 9,
+        "b_only": 4,
+        "neither": 5,
+        "status": "Partial"
+      },
+      "number+definiteness": {
+        "both": 8,
+        "a_only": 8,
+        "b_only": 0,
+        "neither": 6,
+        "status": "Partial"
+      }
+    },
+    "permutation_test": {
+      "real_zeros": 10,
+      "n_pairs": 28,
+      "mean_perm_zeros": 3.695,
+      "p_value": 0.0
+    },
+    "correlation_matrix": [
+      [
+        0.9999999999999998,
+        -0.4143564145398636,
+        -0.22555540423765938,
+        -0.18110709528236693,
+        0.13874575644222617,
+        -0.38212597352217403,
+        -0.3547977494913345,
+        -0.37054524645058207
+      ],
+      [
+        -0.4143564145398636,
+        1.0,
+        -0.2834427221600656,
+        -0.22758704568766724,
+        0.5839195336117297,
+        0.16272059775127207,
+        0.8264593445806077,
+        0.7296927261719858
+      ],
+      [
+        -0.22555540423765938,
+        -0.28344272216006566,
+        1.0,
+        -0.12388727744529184,
+        -0.5285461127096004,
+        0.13649103698807707,
+        -0.5364126709516497,
+        -0.2791672813761953
+      ],
+      [
+        -0.18110709528236693,
+        -0.22758704568766724,
+        -0.12388727744529184,
+        1.0,
+        -0.27156742092594927,
+        0.20802873275048192,
+        -0.07851025156285922,
+        -0.20787891273987616
+      ],
+      [
+        0.13874575644222617,
+        0.5839195336117297,
+        -0.5285461127096005,
+        -0.27156742092594927,
+        1.0,
+        -0.15064312896062038,
+        0.7659244245390616,
+        0.5389655988319804
+      ],
+      [
+        -0.38212597352217403,
+        0.16272059775127207,
+        0.13649103698807705,
+        0.20802873275048192,
+        -0.15064312896062038,
+        1.0,
+        0.07038713432302107,
+        -0.07258538911894584
+      ],
+      [
+        -0.3547977494913345,
+        0.8264593445806078,
+        -0.5364126709516496,
+        -0.07851025156285922,
+        0.7659244245390616,
+        0.07038713432302107,
+        1.0,
+        0.7699482533476162
+      ],
+      [
+        -0.37054524645058207,
+        0.7296927261719858,
+        -0.2791672813761953,
+        -0.20787891273987616,
+        0.5389655988319804,
+        -0.07258538911894584,
+        0.7699482533476162,
+        1.0
+      ]
+    ]
+  },
+  "path_b": {
+    "languages": [
+      "English",
+      "German",
+      "French",
+      "Japanese",
+      "Mandarin",
+      "Russian",
+      "Arabic",
+      "Korean"
+    ],
+    "entropy_convergence": {
+      "sd_baseline_H": 0.20813259295341469,
+      "sd_sci_H": 0.22134265853954643,
+      "converged": false,
+      "epistemic_ratio": 8.758750000000001
+    },
+    "scientific_entropies": {
+      "English": 6.599896915767724,
+      "German": 6.328719465038697,
+      "French": 6.244280939795611,
+      "Japanese": 6.516738815129363,
+      "Mandarin": 6.651457852707858,
+      "Russian": 6.116794800360293,
+      "Arabic": 6.592866321110312,
+      "Korean": 6.832052173062809
+    },
+    "baseline_entropies": {
+      "English": 6.279073341218656,
+      "German": 6.327553499847249,
+      "French": 6.002830865759373,
+      "Japanese": 6.551026179645346,
+      "Mandarin": 6.583184790040358,
+      "Russian": 6.2496941080290505,
+      "Arabic": 6.422709876281914,
+      "Korean": 6.7005561625848635
+    }
+  }
+}

@@ -1,0 +1,963 @@
+{
+  "version": "0.5.0",
+  "seed": 42,
+  "theoretical_framework": "Jakobson/Shannon/Grice/Greenberg",
+  "n_languages": 22,
+  "entropy": {
+    "English": {
+      "entropy_H": 6.279073341218656,
+      "entropy_norm": 0.8214536204407202,
+      "N_effective": 77.65857562702928,
+      "concentration_C5": 0.34844672048721537,
+      "top_word_p1": 0.1584274062671169,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.6935725536580333,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "French": {
+      "entropy_H": 6.002830865759373,
+      "entropy_norm": 0.7853144691274321,
+      "N_effective": 64.12570451243815,
+      "concentration_C5": 0.40026501474836246,
+      "top_word_p1": 0.19555067683998956,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.531076979858455,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Spanish": {
+      "entropy_H": 6.309987738801324,
+      "entropy_norm": 0.8254979662283898,
+      "N_effective": 79.34061849196797,
+      "concentration_C5": 0.34082198014201726,
+      "top_word_p1": 0.1521546157051501,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.7117574934125432,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "German": {
+      "entropy_H": 6.327553499847249,
+      "entropy_norm": 0.8277959897141565,
+      "N_effective": 80.31254763912399,
+      "concentration_C5": 0.33935872471239614,
+      "top_word_p1": 0.15669618410188335,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.722090294027794,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Russian": {
+      "entropy_H": 6.2496941080290505,
+      "entropy_norm": 0.8176101110313063,
+      "N_effective": 76.0931197656734,
+      "concentration_C5": 0.35144073035860846,
+      "top_word_p1": 0.1637625539268954,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.6762906517817946,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Hindi": {
+      "entropy_H": 6.449225358156857,
+      "entropy_norm": 0.8437135914179104,
+      "N_effective": 87.3796461360815,
+      "concentration_C5": 0.3089177786830872,
+      "top_word_p1": 0.13485859406533293,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.793661975386387,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Mandarin": {
+      "entropy_H": 6.583184790040358,
+      "entropy_norm": 0.8612387029006068,
+      "N_effective": 95.8817801970345,
+      "concentration_C5": 0.2950336586625158,
+      "top_word_p1": 0.1215302344759374,
+      "morph_complexity": 1,
+      "morphemes_per_word": 1.1,
+      "H_per_morpheme": 5.984713445491233,
+      "morph_type": "isolating",
+      "family": "Sino-Tibetan"
+    },
+    "Cantonese": {
+      "entropy_H": 6.473428353277775,
+      "entropy_norm": 0.8468799245513483,
+      "N_effective": 88.8579130695243,
+      "concentration_C5": 0.311548613183381,
+      "top_word_p1": 0.13534127883821068,
+      "morph_complexity": 1,
+      "morphemes_per_word": 1.1,
+      "H_per_morpheme": 5.884934866616159,
+      "morph_type": "isolating",
+      "family": "Sino-Tibetan"
+    },
+    "Turkish": {
+      "entropy_H": 6.630822178305827,
+      "entropy_norm": 0.8674708175666564,
+      "N_effective": 99.10062000633317,
+      "concentration_C5": 0.2811618166978058,
+      "top_word_p1": 0.1154837957091023,
+      "morph_complexity": 4,
+      "morphemes_per_word": 2.5,
+      "H_per_morpheme": 2.652328871322331,
+      "morph_type": "agglutinative",
+      "family": "Turkic"
+    },
+    "Uzbek": {
+      "entropy_H": 6.710691419391691,
+      "entropy_norm": 0.8779196328115986,
+      "N_effective": 104.74164946980171,
+      "concentration_C5": 0.26392050208783335,
+      "top_word_p1": 0.10980767176774195,
+      "morph_complexity": 4,
+      "morphemes_per_word": 2.5,
+      "H_per_morpheme": 2.6842765677566764,
+      "morph_type": "agglutinative",
+      "family": "Turkic"
+    },
+    "Finnish": {
+      "entropy_H": 6.719798678560487,
+      "entropy_norm": 0.8791110810731421,
+      "N_effective": 105.40494041060468,
+      "concentration_C5": 0.26213752680237346,
+      "top_word_p1": 0.10185884852264568,
+      "morph_complexity": 4,
+      "morphemes_per_word": 2.5,
+      "H_per_morpheme": 2.6879194714241947,
+      "morph_type": "agglutinative",
+      "family": "Uralic"
+    },
+    "Hungarian": {
+      "entropy_H": 6.730205482144575,
+      "entropy_norm": 0.8804725409601045,
+      "N_effective": 106.16802223186299,
+      "concentration_C5": 0.2529190126035898,
+      "top_word_p1": 0.10208734537761115,
+      "morph_complexity": 4,
+      "morphemes_per_word": 2.5,
+      "H_per_morpheme": 2.69208219285783,
+      "morph_type": "agglutinative",
+      "family": "Uralic"
+    },
+    "Japanese": {
+      "entropy_H": 6.551026179645346,
+      "entropy_norm": 0.8570315841902848,
+      "N_effective": 93.76815750924469,
+      "concentration_C5": 0.2906250464722574,
+      "top_word_p1": 0.12196998375092835,
+      "morph_complexity": 3,
+      "morphemes_per_word": 2.0,
+      "H_per_morpheme": 3.275513089822673,
+      "morph_type": "mixed",
+      "family": "Japonic"
+    },
+    "Korean": {
+      "entropy_H": 6.7005561625848635,
+      "entropy_norm": 0.8765936977658313,
+      "N_effective": 104.00839450510964,
+      "concentration_C5": 0.258251730895439,
+      "top_word_p1": 0.1111751391565939,
+      "morph_complexity": 3,
+      "morphemes_per_word": 2.0,
+      "H_per_morpheme": 3.3502780812924318,
+      "morph_type": "mixed",
+      "family": "Koreanic"
+    },
+    "Indonesian": {
+      "entropy_H": 6.376768805103379,
+      "entropy_norm": 0.8342345338251728,
+      "N_effective": 83.0995526305772,
+      "concentration_C5": 0.33106333128965726,
+      "top_word_p1": 0.14586017548944202,
+      "morph_complexity": 1,
+      "morphemes_per_word": 1.1,
+      "H_per_morpheme": 5.7970625500939805,
+      "morph_type": "isolating",
+      "family": "Austronesian"
+    },
+    "Tagalog": {
+      "entropy_H": 6.771304256494311,
+      "entropy_norm": 0.8858492478642342,
+      "N_effective": 109.23597539912011,
+      "concentration_C5": 0.24433995940876413,
+      "top_word_p1": 0.09783545475777793,
+      "morph_complexity": 4,
+      "morphemes_per_word": 2.5,
+      "H_per_morpheme": 2.708521702597724,
+      "morph_type": "agglutinative",
+      "family": "Austronesian"
+    },
+    "Arabic": {
+      "entropy_H": 6.422709876281914,
+      "entropy_norm": 0.8402447294696161,
+      "N_effective": 85.78835222279737,
+      "concentration_C5": 0.32244713919545964,
+      "top_word_p1": 0.14047263480719355,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.7780646331070082,
+      "morph_type": "fusional",
+      "family": "Afro-Asiatic"
+    },
+    "Hebrew": {
+      "entropy_H": 6.453750412113925,
+      "entropy_norm": 0.8443055771702223,
+      "N_effective": 87.6541451390088,
+      "concentration_C5": 0.3201125837508804,
+      "top_word_p1": 0.1413546883863191,
+      "morph_complexity": 2,
+      "morphemes_per_word": 1.7,
+      "H_per_morpheme": 3.7963237718317204,
+      "morph_type": "fusional",
+      "family": "Afro-Asiatic"
+    },
+    "Greenlandic": {
+      "entropy_H": 7.024975156113353,
+      "entropy_norm": 0.919035494873745,
+      "N_effective": 130.23515785920677,
+      "concentration_C5": 0.19179793230934347,
+      "top_word_p1": 0.07117939768771223,
+      "morph_complexity": 5,
+      "morphemes_per_word": 4.0,
+      "H_per_morpheme": 1.7562437890283382,
+      "morph_type": "polysynthetic",
+      "family": "Eskimo-Aleut"
+    },
+    "Navajo": {
+      "entropy_H": 6.565218408294664,
+      "entropy_norm": 0.8588882686041416,
+      "N_effective": 94.69513531754711,
+      "concentration_C5": 0.2905923952426833,
+      "top_word_p1": 0.12282917137661406,
+      "morph_complexity": 5,
+      "morphemes_per_word": 4.0,
+      "H_per_morpheme": 1.641304602073666,
+      "morph_type": "polysynthetic",
+      "family": "Na-Dene"
+    },
+    "Quechua": {
+      "entropy_H": 6.531066038919418,
+      "entropy_norm": 0.8544203183278227,
+      "N_effective": 92.47977860349063,
+      "concentration_C5": 0.29886469834448015,
+      "top_word_p1": 0.12429574475984466,
+      "morph_complexity": 4,
+      "morphemes_per_word": 2.5,
+      "H_per_morpheme": 2.612426415567767,
+      "morph_type": "agglutinative",
+      "family": "Quechuan"
+    },
+    "Tibetan": {
+      "entropy_H": 6.771300733032098,
+      "entropy_norm": 0.885848786910741,
+      "N_effective": 109.23570861483745,
+      "concentration_C5": 0.25053960490160027,
+      "top_word_p1": 0.10034631590795713,
+      "morph_complexity": 4,
+      "morphemes_per_word": 2.5,
+      "H_per_morpheme": 2.7085202932128394,
+      "morph_type": "agglutinative",
+      "family": "Sino-Tibetan"
+    }
+  },
+  "mandatory_architecture": {
+    "English": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.016383616383616385,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.016383616383616385,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "French": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.03436563436563437,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.03436563436563437,
+      "epistemic_oblig": false,
+      "ontological_oblig": true,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Spanish": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.03926073926073926,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.03926073926073926,
+      "epistemic_oblig": false,
+      "ontological_oblig": true,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "German": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.04755244755244755,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.04755244755244755,
+      "epistemic_oblig": false,
+      "ontological_oblig": true,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Russian": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.042757242757242755,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.042757242757242755,
+      "epistemic_oblig": false,
+      "ontological_oblig": true,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Hindi": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.03266733266733267,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.03266733266733267,
+      "epistemic_oblig": false,
+      "ontological_oblig": true,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Mandarin": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.0,
+      "categorical_load": 0.029670329670329666,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.029670329670329666,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": true,
+      "spatial_oblig": false,
+      "morph_type": "isolating",
+      "family": "Sino-Tibetan"
+    },
+    "Cantonese": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.0,
+      "categorical_load": 0.025274725274725275,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.025274725274725275,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": true,
+      "spatial_oblig": false,
+      "morph_type": "isolating",
+      "family": "Sino-Tibetan"
+    },
+    "Turkish": {
+      "epistemic_load": 0.01928071928071928,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.01928071928071928,
+      "epistemic_oblig": true,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "agglutinative",
+      "family": "Turkic"
+    },
+    "Uzbek": {
+      "epistemic_load": 0.017482517482517484,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.017482517482517484,
+      "epistemic_oblig": true,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "agglutinative",
+      "family": "Turkic"
+    },
+    "Finnish": {
+      "epistemic_load": 0.0033966033966033966,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.0033966033966033966,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "agglutinative",
+      "family": "Uralic"
+    },
+    "Hungarian": {
+      "epistemic_load": 0.0023976023976023976,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.0023976023976023976,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "agglutinative",
+      "family": "Uralic"
+    },
+    "Japanese": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.0,
+      "categorical_load": 0.020879120879120874,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.020879120879120874,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": true,
+      "spatial_oblig": false,
+      "morph_type": "mixed",
+      "family": "Japonic"
+    },
+    "Korean": {
+      "epistemic_load": 0.023176823176823177,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.023176823176823177,
+      "epistemic_oblig": true,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "mixed",
+      "family": "Koreanic"
+    },
+    "Indonesian": {
+      "epistemic_load": 0.0015984015984015984,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.0015984015984015984,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "isolating",
+      "family": "Austronesian"
+    },
+    "Tagalog": {
+      "epistemic_load": 0.0001998001998001998,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.0001998001998001998,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "agglutinative",
+      "family": "Austronesian"
+    },
+    "Arabic": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.046153846153846156,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.046153846153846156,
+      "epistemic_oblig": false,
+      "ontological_oblig": true,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Afro-Asiatic"
+    },
+    "Hebrew": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.04105894105894106,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.04105894105894106,
+      "epistemic_oblig": false,
+      "ontological_oblig": true,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "fusional",
+      "family": "Afro-Asiatic"
+    },
+    "Greenlandic": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.025474525474525476,
+      "total_mandatory": 0.025474525474525476,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": true,
+      "morph_type": "polysynthetic",
+      "family": "Eskimo-Aleut"
+    },
+    "Navajo": {
+      "epistemic_load": 0.0,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.02927072927072927,
+      "total_mandatory": 0.02927072927072927,
+      "epistemic_oblig": false,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": true,
+      "morph_type": "polysynthetic",
+      "family": "Na-Dene"
+    },
+    "Quechua": {
+      "epistemic_load": 0.029970029970029972,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.029970029970029972,
+      "epistemic_oblig": true,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "agglutinative",
+      "family": "Quechuan"
+    },
+    "Tibetan": {
+      "epistemic_load": 0.023076923076923078,
+      "ontological_load": 0.0,
+      "categorical_load": 0.0,
+      "spatial_load": 0.0,
+      "total_mandatory": 0.023076923076923078,
+      "epistemic_oblig": true,
+      "ontological_oblig": false,
+      "categorical_oblig": false,
+      "spatial_oblig": false,
+      "morph_type": "agglutinative",
+      "family": "Sino-Tibetan"
+    }
+  },
+  "gricean_surplus": {
+    "English": {
+      "epistemic": 0.0,
+      "ontological": 0.016383616383616385,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.016383616383616385,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "French": {
+      "epistemic": 0.0,
+      "ontological": 0.03436563436563437,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.03436563436563437,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Spanish": {
+      "epistemic": 0.0,
+      "ontological": 0.03926073926073926,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.03926073926073926,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "German": {
+      "epistemic": 0.0,
+      "ontological": 0.04755244755244755,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.04755244755244755,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Russian": {
+      "epistemic": 0.0,
+      "ontological": 0.042757242757242755,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.042757242757242755,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Hindi": {
+      "epistemic": 0.0,
+      "ontological": 0.03266733266733267,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.03266733266733267,
+      "morph_type": "fusional",
+      "family": "Indo-European"
+    },
+    "Mandarin": {
+      "epistemic": 0.0,
+      "ontological": 0.0,
+      "categorical": 0.029670329670329666,
+      "spatial": 0.0,
+      "total_surplus": 0.029670329670329666,
+      "morph_type": "isolating",
+      "family": "Sino-Tibetan"
+    },
+    "Cantonese": {
+      "epistemic": 0.0,
+      "ontological": 0.0,
+      "categorical": 0.025274725274725275,
+      "spatial": 0.0,
+      "total_surplus": 0.025274725274725275,
+      "morph_type": "isolating",
+      "family": "Sino-Tibetan"
+    },
+    "Turkish": {
+      "epistemic": 0.01928071928071928,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.01928071928071928,
+      "morph_type": "agglutinative",
+      "family": "Turkic"
+    },
+    "Uzbek": {
+      "epistemic": 0.017482517482517484,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.017482517482517484,
+      "morph_type": "agglutinative",
+      "family": "Turkic"
+    },
+    "Finnish": {
+      "epistemic": 0.0033966033966033966,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.0033966033966033966,
+      "morph_type": "agglutinative",
+      "family": "Uralic"
+    },
+    "Hungarian": {
+      "epistemic": 0.0023976023976023976,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.0023976023976023976,
+      "morph_type": "agglutinative",
+      "family": "Uralic"
+    },
+    "Japanese": {
+      "epistemic": 0.0,
+      "ontological": 0.0,
+      "categorical": 0.020879120879120874,
+      "spatial": 0.0,
+      "total_surplus": 0.020879120879120874,
+      "morph_type": "mixed",
+      "family": "Japonic"
+    },
+    "Korean": {
+      "epistemic": 0.023176823176823177,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.023176823176823177,
+      "morph_type": "mixed",
+      "family": "Koreanic"
+    },
+    "Indonesian": {
+      "epistemic": 0.0015984015984015984,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.0015984015984015984,
+      "morph_type": "isolating",
+      "family": "Austronesian"
+    },
+    "Tagalog": {
+      "epistemic": 0.0001998001998001998,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.0001998001998001998,
+      "morph_type": "agglutinative",
+      "family": "Austronesian"
+    },
+    "Arabic": {
+      "epistemic": 0.0,
+      "ontological": 0.046153846153846156,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.046153846153846156,
+      "morph_type": "fusional",
+      "family": "Afro-Asiatic"
+    },
+    "Hebrew": {
+      "epistemic": 0.0,
+      "ontological": 0.04105894105894106,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.04105894105894106,
+      "morph_type": "fusional",
+      "family": "Afro-Asiatic"
+    },
+    "Greenlandic": {
+      "epistemic": 0.0,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.025474525474525476,
+      "total_surplus": 0.025474525474525476,
+      "morph_type": "polysynthetic",
+      "family": "Eskimo-Aleut"
+    },
+    "Navajo": {
+      "epistemic": 0.0,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.02927072927072927,
+      "total_surplus": 0.02927072927072927,
+      "morph_type": "polysynthetic",
+      "family": "Na-Dene"
+    },
+    "Quechua": {
+      "epistemic": 0.029970029970029972,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.029970029970029972,
+      "morph_type": "agglutinative",
+      "family": "Quechuan"
+    },
+    "Tibetan": {
+      "epistemic": 0.023076923076923078,
+      "ontological": 0.0,
+      "categorical": 0.0,
+      "spatial": 0.0,
+      "total_surplus": 0.023076923076923078,
+      "morph_type": "agglutinative",
+      "family": "Sino-Tibetan"
+    }
+  },
+  "tradeoff": {
+    "corr_H_load": -0.4838786861777243,
+    "corr_Hnorm_load": -0.48387868617772417,
+    "corr_complexity_load": -0.34548895209563035,
+    "type_corrs": {
+      "epistemic": 0.14971305000408033,
+      "ontological": 0.22217603389284601,
+      "categorical": 0.28497229426565107,
+      "spatial": NaN
+    }
+  },
+  "greenbergian": {
+    "corr_matrix": [
+      [
+        0.9999999999999998,
+        -0.4143564145398636,
+        -0.22555540423765938,
+        -0.18110709528236693
+      ],
+      [
+        -0.4143564145398636,
+        1.0,
+        -0.2834427221600656,
+        -0.22758704568766724
+      ],
+      [
+        -0.22555540423765938,
+        -0.28344272216006566,
+        1.0,
+        -0.12388727744529184
+      ],
+      [
+        -0.18110709528236693,
+        -0.22758704568766724,
+        -0.12388727744529184,
+        1.0
+      ]
+    ],
+    "type_names": [
+      "Epistemic",
+      "Ontological",
+      "Categorical",
+      "Spatial"
+    ]
+  },
+  "design_space": {
+    "pc_coords": [
+      [
+        -1.7003857915673515,
+        0.7300901337912445
+      ],
+      [
+        -0.9958295423650639,
+        -2.840539754613452
+      ],
+      [
+        -1.699297309749321,
+        0.2986364188784367
+      ],
+      [
+        1.4502365215598625,
+        0.03412083355654108
+      ],
+      [
+        -3.3292833830406616,
+        0.9789717330084824
+      ],
+      [
+        -2.1578321788868324,
+        0.8681877748951212
+      ],
+      [
+        3.9110519915160613,
+        0.6628036719870074
+      ],
+      [
+        -1.4505387943217827,
+        0.5919365094799827
+      ],
+      [
+        -1.288812550941796,
+        0.42873598631368603
+      ],
+      [
+        1.4699932441907724,
+        0.012068794650516383
+      ],
+      [
+        -1.2244127117856827,
+        -0.3970679137280259
+      ],
+      [
+        0.10496629351490544,
+        -1.9876789896779923
+      ],
+      [
+        1.535404586172878,
+        -0.015181040742433038
+      ],
+      [
+        -0.5313896595837678,
+        -3.370173318525304
+      ],
+      [
+        1.9697211261047123,
+        1.3055233896725933
+      ],
+      [
+        1.3200898985609213,
+        0.5188520320253541
+      ],
+      [
+        -2.403280984075906,
+        0.8619662546877069
+      ],
+      [
+        -2.0568059145246784,
+        0.7220708530326875
+      ],
+      [
+        1.5951653448622687,
+        -0.05749402780143495
+      ],
+      [
+        2.2123948481988394,
+        0.17194666080349938
+      ],
+      [
+        1.479435529190628,
+        0.2963039709145033
+      ],
+      [
+        1.7894094369710736,
+        0.18592002739125799
+      ]
+    ],
+    "var_explained": [
+      0.5093838700768433,
+      0.19634982347664792,
+      0.1729479097473248,
+      0.06754204485832048,
+      0.03286297250728777,
+      0.020913379333575833,
+      2.384187744680404e-31
+    ],
+    "feature_loadings_pc1": [
+      0.4957013651407826,
+      0.49570136514078256,
+      0.25752886563653266,
+      -0.41021232430600924,
+      -0.056289610262383716,
+      0.25413155994181635,
+      0.4541075594664754
+    ],
+    "feature_loadings_pc2": [
+      -0.1276959087501527,
+      -0.12769590875015302,
+      0.09572620371895114,
+      0.37955590693782143,
+      -0.8039044923935739,
+      0.23094953151015077,
+      0.33846890287260295
+    ],
+    "feature_names": [
+      "H_entropy",
+      "H_norm",
+      "Epistemic",
+      "Ontological",
+      "Categorical",
+      "Spatial",
+      "MorphComplexity"
+    ]
+  },
+  "synthesis": {
+    "info_density_gradient": {
+      "fusional": 6.311853150026044,
+      "isolating": 6.477793982807171,
+      "agglutinative": 6.695026969549772,
+      "mixed": 6.625791171115105,
+      "polysynthetic": 6.795096782204008
+    },
+    "mandatory_load_range": [
+      0.0001998001998001998,
+      0.04755244755244755
+    ],
+    "tradeoff_correlation": -0.4838786861777243,
+    "design_space_variance": 0.7057336935534912,
+    "gricean_surplus_top3": [
+      [
+        "German",
+        0.04755244755244755
+      ],
+      [
+        "Arabic",
+        0.046153846153846156
+      ],
+      [
+        "Russian",
+        0.042757242757242755
+      ]
+    ],
+    "mutual_constraint_count": 0
+  }
+}
