@@ -32,3 +32,17 @@
 - **Solution:** Continue the convention. Next output files should be 0.2.0.md, etc.
 - **Prevention:** Use Python to scan for next available version before creating any file.
 - **Cross-Project:** YES (this is standardized in the system prompt)
+
+### L5: Reader-testing catches contradictions invisible to the author
+- **Category:** METHODOLOGY
+- **Issue:** The manuscript's Section 5.2 specified an 8-hour experiment cap, while Section 5.4 used 200-hour effect size estimates. This logical contradiction was undetected through two rounds of self-review but immediately obvious to a reader who didn't know the case study's background.
+- **Solution:** Run every manuscript through a blind reader test (fresh LLM with zero context). Catch contradictions before human readers do.
+- **Prevention:** After every substantive manuscript edit, feed the document to a SELF-CLONE with targeted reader questions. Fix issues before declaring the document complete.
+- **Cross-Project:** YES (applies to all document production)
+
+### L6: Describe the architecture that WAS used, not the one you wish you'd used
+- **Category:** METHODOLOGY
+- **Issue:** The manuscript's Section 3 originally described a Docker/API/Overleaf stack that was never used to produce any results. The actual architecture—DeepChat conversation with integrated file I/O, Python execution, and git—was simpler, faster (zero setup vs. 15 minutes), and had already produced two published papers. Describing an aspirational stack as if it were the actual implementation undermines credibility and obscures the real methodological insight: all you need is an LLM interface that can read/write files and run code.
+- **Solution:** Rewrote Section 3 to describe the real architecture. Kept the Docker specification in Appendix C labeled as aspirational/future deployment. Added the Language as Information Architecture paper [26] as a second validation case study confirming the same architecture worked in a completely different domain.
+- **Prevention:** When documenting methodology, audit every architectural claim: "Did we actually use this, or did we only design it?" Only the former belongs in the main text. Aspirational designs go in appendices or Future Work.
+- **Cross-Project:** YES (applies to all methodology papers and technical documentation)

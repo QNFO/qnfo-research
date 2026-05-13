@@ -4,7 +4,32 @@
 
 ---
 
-## 2026-05-13 — Session: Expand Mini-Paper into Full Manuscript (Sprint 1)
+## 2026-05-13 — Session: Architecture Correction (Post Reader-Test)
+
+**What Changed:**
+- **Section 3 complete rewrite:** Replaced aspirational Docker/API/Overleaf stack with actual architecture (unified conversation environment — LLM + file I/O + Python + git)
+- **Section 4.5 added:** Language as Information Architecture as independent second validation case study [26]
+- **Section 7.2:** Added "Aspirational Architecture Description" limitation
+- **Appendix C:** Renamed to "Dockerfile (Aspirational)" with disclaimer
+- **Abstract & Conclusion:** Updated to reference real architecture, harmonized speedup numbers (25× case study, 17× power analysis)
+- **LEARNINGS.md:** Added L5 (reader-testing) and L6 (describe-real-architecture)
+- **Reference [26]:** Added Language as Information Architecture Zenodo preprint
+
+**Root cause:** The original manuscript described a Docker/API/Overleaf toolchain that was never used. The actual production architecture — DeepChat conversation with integrated file I/O, Python execution, and git — was simpler, faster, and had already produced two published papers (this one + Language as Information Architecture). This correction was triggered by human review pointing out the discrepancy.
+
+**Files Changed:**
+- `0.2.md` — EDIT (Sections 3, 4.5, 7.2, 8, Abstract, Appendix C, References)
+- `LEARNINGS.md` — EDIT (L5, L6 added)
+- `CHANGELOG.md` — EDIT (this entry)
+- `PROJECT STATE.md` — EDIT (updated architecture description)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commit: `278352c`
+
+---
+
+## 2026-05-13 — Session: Reader Test Fixes
 
 **What Changed:**
 - Created expanded manuscript `0.2.md` — comprehensive journal-ready paper (789 lines, ~47K chars)

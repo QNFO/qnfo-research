@@ -5,8 +5,8 @@
 > **Repo:** Standalone (`G:\My Drive\projects\LLM Force Multiplier\.git`)
 
 ## High-Level Status
-**Phase:** Core deliverables produced. Ready for human review and publication decisions.
-**Active Sprint:** Sprint 1 — ✅ Complete (Expanded Manuscript)
+**Phase:** Core deliverables produced. Architecture corrected to reflect actual implementation. Ready for human review and publication decisions.
+**Active Sprint:** Sprint 1 — ✅ Complete (Expanded Manuscript + Architecture Correction)
 
 ## What Exists (Output Files)
 
@@ -23,12 +23,13 @@
 
 | Deliverable | Status | Notes |
 |:------------|:-------|:------|
-| Force-Multiplier Protocol | ✅ Defined | Sections 2-3 of 0.2.md; formalised with task decomposition and verification cycle |
-| Solo-Research Stack | ✅ Specified | Dockerfile + docker-compose in 0.2.md Appendix C; not yet containerised |
+| Force-Multiplier Protocol | ✅ Defined | Sections 2-3 of 0.2.md; formalised with task decomposition and verification cycle; architecture now describes actual unified-conversation environment |
+| Solo-Research Stack | ✅ Corrected | Section 3.1 describes actual architecture (LLM + file I/O + Python + git); Docker spec in Appendix C labeled aspirational |
 | Prompt Library | ✅ Extracted | 5 core templates in 0.2.md Appendix A; LLM-ready reusable format |
 | Flagship Paper | ✅ Expanded | 0.2.md — 8 sections, 3 appendices, 25+ references, $[CODE-EXECUTED]$ statistics |
 | Controlled Experiment Design | ✅ Designed | 0.2.md §5 — 3-condition between-subjects, power analysis, procedural controls |
 | Cross-Domain Case Studies | ✅ Outlined | 0.2.md §6 — comp bio, pure math, philosophy with speedup estimates |
+| Second Validation (Linguistics) | ✅ Added | 0.2.md §4.5 — Language as Information Architecture Zenodo preprint [26] confirms architecture generality |
 | SymPy Derivation Notebook | ✅ Delivered | 0.2.py — standalone, human-verified, 3-cycle derivation history |
 
 ## Key Metrics `[CODE-EXECUTED]`
