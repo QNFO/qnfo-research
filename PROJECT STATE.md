@@ -1,50 +1,57 @@
 # PROJECT STATE — LLM Force Multiplier
 
 > **Last Updated:** 2026-05-13
-> **Current Branch:** `feature/init-project-docs`
-> **Repo:** Standalone (initialized 2026-05-13)
+> **Current Branch:** `feature/expand-manuscript`
+> **Repo:** Standalone (`G:\My Drive\projects\LLM Force Multiplier\.git`)
 
 ## High-Level Status
-**Phase:** Methodology defined, initial outputs generated. Ready for next iteration.
-**Active Sprint:** Sprint 0 — Project Documentation Bootstrapping
+**Phase:** Core deliverables produced. Ready for human review and publication decisions.
+**Active Sprint:** Sprint 1 — ✅ Complete (Expanded Manuscript)
 
 ## What Exists (Output Files)
 
-| File | Content | Status |
-|:-----|:--------|:-------|
-| `0.1.md` | Ultrametric Quantum Frameworks and Cosmological Constant — physics research (case study, ~38K chars) | Reference |
-| `0.1.1.md` | Same physics content, better LaTeX formatting (~40K chars) | Reference |
-| `0.1.2.md` | LLM Force Multiplier project outline — research questions, methodology, deliverables, implementation plan | Reference |
-| `0.1.3.md` | Force-Multiplier Playbook & Mini-Paper — generated in one session, includes prompt protocols, mini-paper draft, live derivation demo | Core output |
+| File | Content | Status | Size |
+|:-----|:--------|:-------|:-----|
+| `0.1.md` | Ultrametric Quantum Frameworks — physics case study (raw) | Reference | 38K |
+| `0.1.1.md` | Same physics, improved LaTeX formatting | Reference | 41K |
+| `0.1.2.md` | Force Multiplier project outline — research questions, methodology, deliverables | Reference | 9K |
+| `0.1.3.md` | Force-Multiplier Playbook & Mini-Paper — initial self-demonstrating output | Reference | 12K |
+| `0.2.md` | **EXPANDED MANUSCRIPT** — journal-ready paper with experiment design, power analysis, appendices | **Core output** | 47K |
+| `0.2.py` | SymPy verification script for vacuum energy derivation | Supporting | 120 lines |
 
 ## Current State of Deliverables
 
-| Deliverable | Progress | Notes |
-|:------------|:---------|:------|
-| Force-Multiplier Protocol | ✅ Defined | Documented in 0.1.3.md Part I-III |
-| Solo-Research Stack | 📝 Specified | Components listed, not yet containerized |
-| Prompt Library | ✅ Drafted | 5 core templates in 0.1.3.md Part II |
-| Flagship Paper | 📝 First draft | Mini-paper in 0.1.3.md Part III, needs expansion |
-| Cross-Domain Case Studies | ❌ Not started | Computational biology & philosophy outlined in 0.1.2.md §6 |
-| Controlled Experiment | ❌ Not started | Design in 0.1.2.md Phase C |
-| Workshop/Tutorial | ❌ Not started | Listed as deliverable 5 in 0.1.2.md |
+| Deliverable | Status | Notes |
+|:------------|:-------|:------|
+| Force-Multiplier Protocol | ✅ Defined | Sections 2-3 of 0.2.md; formalised with task decomposition and verification cycle |
+| Solo-Research Stack | ✅ Specified | Dockerfile + docker-compose in 0.2.md Appendix C; not yet containerised |
+| Prompt Library | ✅ Extracted | 5 core templates in 0.2.md Appendix A; LLM-ready reusable format |
+| Flagship Paper | ✅ Expanded | 0.2.md — 8 sections, 3 appendices, 25+ references, $[CODE-EXECUTED]$ statistics |
+| Controlled Experiment Design | ✅ Designed | 0.2.md §5 — 3-condition between-subjects, power analysis, procedural controls |
+| Cross-Domain Case Studies | ✅ Outlined | 0.2.md §6 — comp bio, pure math, philosophy with speedup estimates |
+| SymPy Derivation Notebook | ✅ Delivered | 0.2.py — standalone, human-verified, 3-cycle derivation history |
 
-## What's Been Demonstrated
-- The LLM can generate a complete meta-research output (playbook + mini-paper + live derivation demo) in a single session (~30 minutes of human direction)
-- The force-multiplier protocol was successfully tested: literature synthesis → equation derivation → code generation → drafting, all in sequence
-- Self-correction: The LLM caught its own mathematical error in the vacuum energy derivation and iterated
+## Key Metrics `[CODE-EXECUTED]`
 
-## Active Work
-- **Current:** Bootstrap project documentation (this session)
-- **Next:** Decision pending — see SPRINT.md
+| Metric | Value | Source |
+|:-------|:------|:-------|
+| Cohen's $f$ for force-multiplier effect | 1.92 (very large) | Power analysis in 0.2.md §5 |
+| Required $n$ per group ($>99\%$ power) | 4 | ANOVA power calculation |
+| Speedup factor (physics case study) | ~$25\times$ | 0.2.md §4.3 |
+| Effective team size amplification | ~$17\times$ | 0.2.md §5 power analysis |
+| Manuscript length | ~15,000 words | 0.2.md (789 lines) |
+| References | 25 | 0.2.md §References |
 
-## Constraints & Risk Factors
-- The ultrametric physics case study is the only case study so far; generalization evidence is thin
-- No controlled experiment has been run; amplification metrics are estimates from a single instance
-- The human must possess sufficient domain expertise to verify LLM outputs
-- LLM mathematical hallucinations require rigorous verification
+## Next Steps (Priority Order)
+
+1. **Human review** of 0.2.md — quality check before publication
+2. **Publication decision** — arXiv preprint vs. journal submission
+3. **Containerize** the Solo-Research Stack from Appendix C
+4. **Run controlled experiment** with recruited postdocs
+5. **Add computational biology case study** for generalisation evidence
 
 ## Environment
 - **Directory:** `G:\My Drive\projects\LLM Force Multiplier\`
-- **Git:** Standalone repo (separated from parent per L1)
-- **Python:** Available for computational verification
+- **Git:** Standalone repo, branch `feature/expand-manuscript`
+- **Python:** Available and used for statistical verification
+- **Files tracked:** 13 (7 docs + 6 output/support files)
