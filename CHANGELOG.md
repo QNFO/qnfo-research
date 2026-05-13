@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-05-13 — Session: Final Version 0.3
+
+**What Changed:**
+- Generated `0.3.md` — clean final publication version from 0.2.md
+- Removed sprint/status metadata from header; replaced with clean publication header (Version, Venue, License)
+- All prior corrections preserved: real architecture (§3), DeepSeek attribution, API key accuracy, speedup caveats (§4.3, §7.2), Zenodo metadata
+- All 13 sections verified; math formatting scan passed
+
+**Files Changed:**
+- `0.3.md` — CREATE (final publication version, 819 lines, ~57K chars)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commit: `9da1d0e`
+
+---
+
 ## 2026-05-13 — Session: Zenodo Preparation & Backlog Cleanup (Sprint 2)
 
 **What Changed:**

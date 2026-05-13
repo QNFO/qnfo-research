@@ -16,7 +16,8 @@
 | `0.1.1.md` | Same physics, improved LaTeX formatting | Reference | 41K |
 | `0.1.2.md` | Force Multiplier project outline | Reference | 9K |
 | `0.1.3.md` | Force-Multiplier Playbook & Mini-Paper | Reference | 12K |
-| `0.2.md` | **MANUSCRIPT** — journal-ready, architecture-corrected, Zenodo metadata | **Core output** | ~50K |
+| `0.2.md` | **MANUSCRIPT** — journal-ready, architecture-corrected, Zenodo metadata | Working | ~57K |
+| `0.3.md` | **FINAL** — clean publication version, all corrections applied, ready for upload | **Publication** | ~57K |
 | `0.2.py` | SymPy verification script | Supporting | 120 lines |
 | `0.2_abstract.md` | Standalone abstract for Zenodo submission | Submission | ~1K |
 | `0.2_cover_letter.md` | Journal cover letter template | Submission | ~1K |
