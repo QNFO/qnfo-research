@@ -46,3 +46,10 @@
 - **Solution:** Rewrote Section 3 to describe the real architecture. Kept the Docker specification in Appendix C labeled as aspirational/future deployment. Added the Language as Information Architecture paper [26] as a second validation case study confirming the same architecture worked in a completely different domain.
 - **Prevention:** When documenting methodology, audit every architectural claim: "Did we actually use this, or did we only design it?" Only the former belongs in the main text. Aspirational designs go in appendices or Future Work.
 - **Cross-Project:** YES (applies to all methodology papers and technical documentation)
+
+### L7: Cite the actual tools used, not aspirational ones
+- **Category:** METHODOLOGY
+- **Issue:** The manuscript's Acknowledgments claimed "The LLM (Claude, Anthropic) served as..." but the actual work was executed with DeepSeek V4 Pro in the DeepChat desktop application on a standard Windows laptop. The docker-compose.yml hardcoded `claude-sonnet-4-20250514` as the default model. Reference [22] cited "& Claude" instead of "& DeepSeek." Like L6, this describes tools that were never used — falsely attributing the work to a different platform.
+- **Solution:** Corrected Acknowledgments to credit DeepSeek V4 Pro + DeepChat with explicit environment details (platform-native desktop app, integrated Python/PowerShell/filesystem, no Docker). Fixed Reference [22] and docker-compose model default. The platform-native aspect matters: DeepChat's agentic capabilities (code execution, PowerShell, filesystem operations) enable the task execution/completion/iteration cycle within a single LLM chat thread — this is architecturally significant, not cosmetic.
+- **Prevention:** Before finalizing any paper, audit every platform/tool/vendor name: "Did we actually use this, or is this what the original template said?" Templates and skill files may describe a different platform than the one executing the work.
+- **Cross-Project:** YES (applies whenever methodology papers describe tools)

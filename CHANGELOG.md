@@ -36,6 +36,26 @@
 
 ---
 
+## 2026-05-13 — Session: LLM Attribution Correction
+
+**What Changed:**
+- **Acknowledgments:** "Claude, Anthropic" → "DeepSeek V4 Pro, DeepSeek" with explicit environment details (DeepChat desktop app, Windows laptop, integrated Python/PowerShell/filesystem, no Docker)
+- **Reference [22]:** "& Claude" → "& DeepSeek"
+- **Appendix C docker-compose:** `claude-sonnet-4-20250514` → `default` (platform-agnostic)
+- **LEARNINGS.md:** Added L7 — cite actual tools used, not aspirational ones
+
+**Root cause:** The skill file and template used to draft the manuscript were created for Claude/Anthropic, but the actual execution was fully on DeepSeek V4 Pro in the DeepChat desktop application. Like L6 (aspirational architecture), this describes tools that were never used. The platform-native aspect is architecturally significant: DeepChat's integrated code execution, PowerShell, and filesystem operations enable the task completion/iteration cycle within a single LLM chat thread.
+
+**Files Changed:**
+- `0.2.md` — EDIT (Acknowledgments, Reference [22], Appendix C docker-compose)
+- `LEARNINGS.md` — EDIT (L7 added)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commit: [to be committed]
+
+---
+
 ## 2026-05-13 — Session: Architecture Correction (Post Reader-Test)
 
 **What Changed:**
