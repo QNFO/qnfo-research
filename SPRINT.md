@@ -3,39 +3,54 @@
 ## Sprint 0 — ✅ COMPLETE: Project Documentation Bootstrapping
 > **Started:** 2026-05-13 | **Completed:** 2026-05-13 | **Branch:** `feature/init-project-docs`
 
-All 7 mandatory documentation files created. Pre-existing outputs (0.1.x series) committed. Standalone git repo initialized.
+All 7 mandatory documentation files created. Pre-existing outputs committed. Standalone git repo initialized.
 
 ---
 
 ## Sprint 1 — ✅ COMPLETE: Expand Mini-Paper into Full Manuscript
 > **Started:** 2026-05-13 | **Completed:** 2026-05-13 | **Branch:** `feature/expand-manuscript`
-> **Output:** `0.2.md` (789 lines, ~47K chars) + `0.2.py` (120 lines)
 
-The mini-paper from 0.1.3.md was expanded into a comprehensive, journal-ready manuscript including a controlled experiment design with $[CODE-EXECUTED]$ statistical power analysis (Cohen's $f = 1.92$, $n = 4$/group for $>99\%$ power), cross-domain generalisation to three additional fields, and three full appendices.
+Expanded 0.1.3.md into 0.2.md (journal-ready manuscript). Reader-tested (4 issues found and fixed). Architecture corrected from aspirational Docker to real conversation environment. Language paper added as second validation case.
+
+---
+
+## Sprint 2 — 🔄 ACTIVE: arXiv Submission Preparation
+> **Started:** 2026-05-13 | **Branch:** `feature/expand-manuscript`
+> **Goal:** Prepare manuscript for immediate arXiv submission. Clean backlog. Final human review.
 
 | # | Task | Status | Output |
 |:--|:-----|:-------|:-------|
-| 1.1 | Create expanded manuscript structure | ✅ Done | `0.2.md` — 8 sections + 3 appendices |
-| 1.2 | Write Introduction with literature review | ✅ Done | `0.2.md` §1 (14 refs, crisis-of-scale + LLM emergence) |
-| 1.3 | Expand Force-Multiplier Framework | ✅ Done | `0.2.md` §2 (task decomposition, verification cycle, prompt engineering, versioning) |
-| 1.4 | Detail the Solo-Research Stack | ✅ Done | `0.2.md` §3 (4-layer architecture, 15-min setup, cost comparison table) |
-| 1.5 | Expand physics case study walkthrough | ✅ Done | `0.2.md` §4 (hour-by-hour walkthrough, quality assessment, speedup table) |
-| 1.6 | Design controlled experiment (NEW) | ✅ Done | `0.2.md` §5 (3-condition between-subjects, power analysis [CODE-EXECUTED], hypotheses) |
-| 1.7 | Expand generalisation to other domains | ✅ Done | `0.2.md` §6 (comp bio, pure math, philosophy + cross-domain patterns) |
-| 1.8 | Write full Discussion section | ✅ Done | `0.2.md` §7 (shifting bottleneck, limitations, ethics, future directions) |
-| 1.9 | Create Appendix A: Prompt Library | ✅ Done | `0.2.md` App A (5 core templates with role/context/output/verification) |
-| 1.10 | Create Appendix B: SymPy derivation | ✅ Done | `0.2.py` (standalone script, verified against manual calculations) |
-| 1.11 | Create Appendix C: Docker/Solo-Stack spec | ✅ Done | `0.2.md` App C (Dockerfile + docker-compose.yml) |
-| 1.12 | Polish, verify, and final review | ✅ Done | Math formatting scan passed; all sections cross-referenced |
+| 2.1 | Update BACKLOG.md — mark completed items, add new discoveries | 🔄 In Progress | BACKLOG.md |
+| 2.2 | Add arXiv metadata to 0.2.md (title, authors, abstract, keywords) | ⬜ Pending | 0.2.md header |
+| 2.3 | Create standalone abstract file for arXiv submission | ⬜ Pending | abstract.txt or 0.2_abstract.md |
+| 2.4 | Generate submission checklist (formatting, references, disclosures) | ⬜ Pending | SPRINT.md this file |
+| 2.5 | Final human review of 0.2.md | ⬜ Pending | Human action |
+| 2.6 | Commit all Sprint 2 changes | ⬜ Pending | Git |
 
-## Next Sprint Candidates (from BACKLOG)
-| Priority | Task | Rationale |
-|:---------|:-----|:----------|
-| P0 | Human review of 0.2.md | Quality check before arXiv/journal submission |
-| P1 | Containerize Solo-Research Stack | B-005 — Docker build from App C spec |
-| P1 | Submit expanded manuscript to arXiv | B-013 — immediate publication |
-| P2 | Run controlled experiment with participants | B-008 — requires recruitment |
-| P2 | Write computational biology case study | B-010 — generalisation evidence |
+## Submission Checklist
+
+| # | Item | Status |
+|:--|:-----|:-------|
+| S-1 | Title matches arXiv conventions (< 200 chars) | ✅ |
+| S-2 | Author list complete with affiliations | ✅ [Human Researcher] |
+| S-3 | Abstract < 1,920 chars (arXiv limit) | ✅ |
+| S-4 | All references have DOI or URL where available | ⚠️ 24/26 have DOIs |
+| S-5 | LLM use disclosed in Acknowledgments | ✅ |
+| S-6 | No copyrighted figures (all original) | ✅ |
+| S-7 | Cross-references between sections are valid | ✅ |
+| S-8 | All $[CODE-EXECUTED]$ claims verified with Python | ✅ |
+| S-9 | Math formatting scan passed (no bare Unicode) | ✅ |
+| S-10 | Competitor papers cited (AI Scientist, etc.) | ✅ §1.4 |
+
+## Post-Sprint Candidates
+
+| Priority | Task |
+|:---------|:-----|
+| P1 | Containerize Solo-Research Stack (B-005) |
+| P1 | Develop verification checklist (B-007) |
+| P2 | Write computational biology case study (B-010) |
+| P2 | Recruit participants for controlled experiment (B-009) |
+| P3 | Format as LaTeX for journal submission (B-021) |
 
 ## Blockers
-- None. Awaiting human review and direction on next sprint.
+- None. Awaiting human final review and arXiv upload.
