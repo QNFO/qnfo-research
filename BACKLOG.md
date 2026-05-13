@@ -14,9 +14,9 @@
 
 | ID | Task | Status | Notes |
 |:---|:-----|:-------|:------|
-| B-001 | Decide next sprint focus | ✅ Done | Sprint 2: arXiv preparation + backlog cleanup |
+| B-001 | Decide next sprint focus | ✅ Done | Sprint 2: Zenodo preparation + backlog cleanup |
 | B-002 | Human review of 0.2.md | 🔄 In Progress | Architecture reviewed; full read-through pending |
-| B-018 | Submit to arXiv | ⬜ Pending | Manuscript ready; metadata added to 0.2.md |
+| B-018 | Submit to Zenodo | ⬜ Pending | Manuscript ready; Zenodo metadata added to 0.2.md |
 
 ## P1 — Core Development
 
@@ -44,7 +44,7 @@
 
 | ID | Task | Status | Notes |
 |:---|:-----|:-------|:------|
-| B-013 | Submit to arXiv | ⬜ Pending | arXiv metadata added to 0.2.md; ready for upload |
+| B-013 | Submit to Zenodo | ⬜ Pending | Zenodo metadata added to 0.2.md; ready for upload |
 | B-014 | Target journal submission | ⬜ Pending | Nature Human Behaviour / Synthese / Royal Society Open Science |
 | B-015 | Develop workshop/tutorial materials | ⬜ Pending | For early-career scientists |
 | B-016 | Create project website / landing page | ⬜ Pending | Public face of the methodology |

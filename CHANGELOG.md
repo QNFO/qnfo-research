@@ -4,20 +4,20 @@
 
 ---
 
-## 2026-05-13 — Session: arXiv Preparation & Backlog Cleanup (Sprint 2)
+## 2026-05-13 — Session: Zenodo Preparation & Backlog Cleanup (Sprint 2)
 
 **What Changed:**
 - **BACKLOG.md:** 12 items marked DONE (B-003, B-004, B-006, B-008, B-020, etc.), 6 new items added (B-018-B-022), priorities recalculated
-- **SPRINT.md:** Sprint 2 defined and completed — arXiv metadata, submission checklist (10 items verified), standalone abstract
-- **0.2.md:** arXiv metadata header added (title, authors, abstract char count, subjects, license, repository placeholder)
-- **0.2_abstract.md:** Standalone abstract created for arXiv submission form
+- **SPRINT.md:** Sprint 2 defined and completed — Zenodo metadata, submission checklist (10 items verified), standalone abstract
+- **0.2.md:** Zenodo metadata header added (title, authors, abstract char count, subjects, license, repository placeholder)
+- **0.2_abstract.md:** Standalone abstract created for Zenodo publication form
 - **0.2_cover_letter.md:** Journal cover letter template created
 - **PROJECT STATE.md:** Updated to reflect Sprint 2 completion
 
 **Files Changed:**
 - `BACKLOG.md` — EDIT (comprehensive cleanup)
 - `SPRINT.md` — EDIT (Sprint 2 defined and completed)
-- `0.2.md` — EDIT (arXiv metadata header)
+- `0.2.md` — EDIT (Zenodo metadata header)
 - `0.2_abstract.md` — CREATE (standalone abstract)
 - `0.2_cover_letter.md` — CREATE (cover letter template)
 - `CHANGELOG.md` — EDIT (this entry)
