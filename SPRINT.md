@@ -2,7 +2,7 @@
 
 > **Sprint 0:** Project Documentation Bootstrapping
 > **Started:** 2026-05-13
-> **Status:** In Progress
+> **Status:** ✅ Complete
 
 ## Sprint 0 Tasks
 
@@ -12,13 +12,13 @@
 | 0.2 | Create feature branch | ✅ Done | `feature/init-project-docs` |
 | 0.3 | Create README.md | ✅ Done | Project identity and thesis |
 | 0.4 | Create PROJECT STATE.md | ✅ Done | Handoff document |
-| 0.5 | Create SPRINT.md | 🔄 In Progress | This file |
-| 0.6 | Create CHANGELOG.md | ⬜ Pending | |
-| 0.7 | Create BACKLOG.md | ⬜ Pending | |
-| 0.8 | Create LEARNINGS.md | ⬜ Pending | |
-| 0.9 | Create DECISIONS.md | ⬜ Pending | |
-| 0.10 | Add and commit existing output files (0.1.x series) | ⬜ Pending | |
-| 0.11 | Verify all 7 docs + outputs committed | ⬜ Pending | |
+| 0.5 | Create SPRINT.md | ✅ Done | This file |
+| 0.6 | Create CHANGELOG.md | ✅ Done | Chronological log with prior session context |
+| 0.7 | Create BACKLOG.md | ✅ Done | 17 prioritized items across P0-P3 |
+| 0.8 | Create LEARNINGS.md | ✅ Done | 4 project-specific lessons |
+| 0.9 | Create DECISIONS.md | ✅ Done | 5 architecture/design decisions |
+| 0.10 | Add and commit existing output files (0.1.x series) | ✅ Done | 4 files: 0.1.md, 0.1.1.md, 0.1.2.md, 0.1.3.md |
+| 0.11 | Verify all 7 docs + outputs committed | ✅ Done | 8 commits, working tree clean |
 
 ## Next Sprint Candidates (from BACKLOG)
 
