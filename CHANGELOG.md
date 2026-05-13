@@ -1,4 +1,4 @@
-# CHANGELOG — LLM Force Multiplier
+# CHANGELOG — Amplifying the Solo Scientist
 
 > Chronological versioned change log. One entry per session.
 

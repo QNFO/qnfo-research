@@ -1,4 +1,4 @@
-# DECISIONS — LLM Force Multiplier
+# DECISIONS — Amplifying the Solo Scientist
 
 > Architecture and design decisions with rationale. Recorded as they are made.
 
@@ -24,7 +24,7 @@
 
 ### D-004: Git repo isolation — standalone per project
 - **Date:** 2026-05-13
-- **Decision:** Initialize a standalone `.git` repository inside `LLM Force Multiplier\` rather than using the shared parent repo at `G:\My Drive\projects\`.
+- **Decision:** Initialize a standalone `.git` repository inside `Amplifying the Solo Scientist\` rather than using the shared parent repo at `G:\My Drive\projects\`.
 - **Rationale:** Cross-Project Learning L1 documented that shared parent repos cause cross-project contamination (staged deletions from Language-Info-Architecture appeared on this branch). Each project needs its own git history.
 - **Implications:** Git operations are now scoped to this project. The parent remains a container directory only.
 

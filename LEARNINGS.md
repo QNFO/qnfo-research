@@ -1,4 +1,4 @@
-# LEARNINGS — LLM Force Multiplier
+# LEARNINGS — Amplifying the Solo Scientist
 
 > Project-specific lessons. Machine-readable format for kaizen engine.
 > Cross-Project: YES lessons are candidates for `_shared/CROSS-PROJECT-LEARNINGS.md`.
@@ -8,7 +8,7 @@
 ### L1: Self-contained git repos prevent cross-project contamination
 - **Category:** GIT
 - **Issue:** Project was in a shared parent repo at `G:\My Drive\projects\.git`, mixing multiple projects on the same branches. Cross-project file deletions from Language-Info-Architecture were staged on the branch.
-- **Solution:** Initialized standalone `.git` inside `G:\My Drive\projects\LLM Force Multiplier\`. Now fully isolated.
+- **Solution:** Initialized standalone `.git` inside `G:\My Drive\projects\Amplifying the Solo Scientist\`. Now fully isolated.
 - **Prevention:** Agent startup checks `git rev-parse --show-toplevel` must equal project path.
 - **Cross-Project:** YES (already documented as CPL L1)
 

@@ -1,4 +1,4 @@
-# BACKLOG — LLM Force Multiplier
+# BACKLOG — Amplifying the Solo Scientist
 
 > Prioritized future work queue. Items move to SPRINT.md when activated.
 

@@ -1,4 +1,4 @@
-# LLM Force Multiplier
+# Amplifying the Solo Scientist
 
 ## Identity
 **Type:** Meta-research / Methodology

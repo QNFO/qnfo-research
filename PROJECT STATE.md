@@ -1,8 +1,8 @@
-# PROJECT STATE — LLM Force Multiplier
+# PROJECT STATE — Amplifying the Solo Scientist
 
 > **Last Updated:** 2026-05-13
 > **Current Branch:** `feature/expand-manuscript`
-> **Repo:** Standalone (`G:\My Drive\projects\LLM Force Multiplier\.git`)
+> **Repo:** Standalone (`G:\My Drive\projects\Amplifying the Solo Scientist\.git`)
 
 ## High-Level Status
 **Phase:** Manuscript complete, Zenodo-ready. Awaiting human final review and upload.
@@ -61,7 +61,7 @@
 | 6 | Journal submission (B-014) | Human | After Zenodo posting and community feedback |
 
 ## Environment
-- **Directory:** `G:\My Drive\projects\LLM Force Multiplier\`
+- **Directory:** `G:\My Drive\projects\Amplifying the Solo Scientist\`
 - **Git:** Standalone repo, branch `feature/expand-manuscript`
 - **Python:** Available and used for statistical verification
 - **Files tracked:** 15 files (7 docs + 8 output/support files)

@@ -1,4 +1,4 @@
-# SPRINT — LLM Force Multiplier
+# SPRINT — Amplifying the Solo Scientist
 
 ## Sprint 0 — ✅ COMPLETE: Project Documentation Bootstrapping
 > **Started:** 2026-05-13 | **Completed:** 2026-05-13 | **Branch:** `feature/init-project-docs`
