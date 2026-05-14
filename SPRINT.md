@@ -54,5 +54,18 @@ Expanded 0.1.3.md into 0.2.md (journal-ready manuscript). Reader-tested (4 issue
 | P2 | Recruit participants for controlled experiment (B-009) |
 | P3 | Cross-post to ResearchGate for searchability |
 
+---
+
+## Sprint 3 — ⬜ IN PROGRESS: Live Force-Multiplier Demonstration (Physics Sprint)
+> **Started:** 2026-05-14 | **Branch:** `feature/expand-manuscript`
+> **Goal:** Execute the 2-day LLM-orchestrated sprint plan (0.5.1.md, 0.5.2.md) on the physics case study. This serves as a live demonstration of the force-multiplier methodology — the very thesis of the manuscript.
+
+| # | Task | Status | Output |
+|:--|:-----|:-------|:-------|
+| 3.1 | Monte Carlo p-value assessment for near-matches | 🔄 In Progress | 0.6.py, 0.6.md |
+| 3.2 | Extended scale ratio scanning (≥100 scales) | ⬜ Pending | 0.7.py |
+| 3.3 | Analyze scan results + write-up | ⬜ Pending | 0.8.md |
+| 3.4 | Sprint log + amplification metrics | ⬜ Pending | sprint_log.md |
+
 ## Blockers
-- None. Awaiting human final review and Zenodo upload.
+- None. Sprint 3 active.
