@@ -17,6 +17,7 @@
 | B-001 | Decide next sprint focus | ✅ Done | Sprint 2: Zenodo preparation + backlog cleanup |
 | B-002 | Human review of 0.2.md | 🔄 In Progress | Architecture reviewed; full read-through pending |
 | B-018 | Submit to Zenodo | ⬜ Pending | Manuscript ready; Zenodo metadata added to 0.2.md |
+| B-023 | Migrate physics execution artifacts to new project | ⬜ Pending | See MIGRATION.md — 0.6.py, 0.7.py, 0.8.md, sprint_log.md, outputs/ → `ultrametric-physics-sprint\` |
 
 ## P1 — Core Development
 
