@@ -1,12 +1,12 @@
 # PROJECT STATE — Amplifying the Solo Scientist
 
-> **Last Updated:** 2026-05-13
+> **Last Updated:** 2026-05-14
 > **Current Branch:** `feature/expand-manuscript`
 > **Repo:** Standalone (`G:\My Drive\projects\Amplifying the Solo Scientist\.git`)
 
 ## High-Level Status
-**Phase:** Manuscript complete, Zenodo-ready. Awaiting human final review and upload.
-**Active Sprint:** Sprint 2 — ✅ Complete (Zenodo Preparation & Backlog Cleanup)
+**Phase:** Sprint 3 active — Live Force-Multiplier Demonstration (Tasks 3.1-3.3 complete)
+**Active Sprint:** Sprint 3 — 🔄 In Progress
 
 ## What Exists (Output Files)
 
@@ -21,6 +21,18 @@
 | `0.2.py` | SymPy verification script | Supporting | 120 lines |
 | `0.2_abstract.md` | Standalone abstract for Zenodo submission | Submission | ~1K |
 | `0.2_cover_letter.md` | Journal cover letter template | Submission | ~1K |
+| `0.4.md` | Manuscript draft v0.4 | Reference | ~59K |
+| `0.5.md` | Manuscript draft v0.5 (reader-tested) | Reference | ~58K |
+| `0.5.1.md` | 2-day LLM-orchestrated sprint plan (brief) | Sprint 3 | ~8K |
+| `0.5.2.md` | 2-day LLM-orchestrated sprint plan (detailed) | Sprint 3 | ~15K |
+| `0.6.py` | Monte Carlo p-value script (Sprint 3.1) | Sprint 3 | ~250 lines |
+| `0.7.py` | Extended scale ratio scan (Sprint 3.2) | Sprint 3 | ~280 lines |
+| `0.8.md` | Consolidated statistical analysis (Sprint 3.3) | Sprint 3 | ~7K |
+| `sprint_log.md` | Sprint 3 execution log + amplification metrics | Sprint 3 | ~3K |
+| `outputs/mc_results.json` | Monte Carlo results (p=0.000589) | Data | ~1K |
+| `outputs/mc_histogram.png` | Histogram + survival function plot | Figure | 76KB |
+| `outputs/scales.json` | 102-scale physics library | Data | ~8K |
+| `outputs/scan_results.json` | Pairwise ratio scan results (5,151 ratios) | Data | ~200K |
 
 ## Current State of Deliverables
 
@@ -40,25 +52,29 @@
 
 | Metric | Value | Source |
 |:-------|:------|:-------|
-| Cohen's $f$ (σ = 40h) | 1.92 (very large) | 0.2.md §5.4 |
-| Cohen's $f$ (σ = 80h) | 1.28 (very large) | Sensitivity analysis |
-| Cohen's $f$ (σ = 120h) | 0.90 (large) | Sensitivity analysis |
+| Cohen's $f$ ($\sigma$ = 40h) | 1.92 (very large) | 0.2.md §5.4 |
+| Cohen's $f$ ($\sigma$ = 80h) | 1.28 (very large) | Sensitivity analysis |
+| Cohen's $f$ ($\sigma$ = 120h) | 0.90 (large) | Sensitivity analysis |
 | Speedup factor (physics case study) | ~$25\times$ | 0.2.md §4.3 |
 | Effective team size amplification | ~$17\times$ | 0.2.md §5 power analysis |
+| **Monte Carlo p-value** | **$p = 0.000589$** | 0.6.py (Sprint 3.1) `[CODE-EXECUTED]` |
+| **Scales in library** | **102** | 0.7.py (Sprint 3.2) `[CODE-EXECUTED]` |
+| **Pairwise ratios computed** | **5,151** | 0.7.py (Sprint 3.2) `[CODE-EXECUTED]` |
+| **Sprint 3 speedup factor** | **~150-300$\times$** | sprint_log.md |
 | Manuscript length | ~15,000 words | 0.2.md |
 | References | 26 | 0.2.md §References |
-| Total commits | 17 | Git history |
+| Total commits | 21 | Git history |
 
 ## Next Steps
 
 | # | Step | Type | Notes |
 |:--|:-----|:-----|:------|
-| 1 | **Human final review** of 0.2.md | Human | Read-through for accuracy, tone, completeness |
-| 2 | **Zenodo upload** | Human | zenodo.org — metadata pre-filled in 0.2.md header |
-| 3 | Containerize stack (B-005) | Engineering | Docker build from Appendix C |
-| 4 | Verification checklist (B-007) | Writing | Critical for scientific integrity |
-| 5 | Comp bio case study (B-010) | Writing | Would strengthen §6 |
-| 6 | Journal submission (B-014) | Human | After Zenodo posting and community feedback |
+| 1 | **Cross-ratio scan** (Task 3.3 extension) | Code | Extend 0.7.py to compute all ~4M cross-ratios from 102 scales |
+| 2 | **Look-elsewhere correction** | Analysis | Estimate effective number of trials for proper p-value |
+| 3 | **Integrate results into physics document** | Writing | Add §6 subsection to 0.1.md with statistical assessment |
+| 4 | Human final review of 0.2.md | Human | Read-through for accuracy, tone, completeness |
+| 5 | Zenodo upload | Human | zenodo.org — metadata pre-filled in 0.2.md header |
+| 6 | Containerize stack (B-005) | Engineering | Docker build from Appendix C |
 
 ## Environment
 - **Directory:** `G:\My Drive\projects\Amplifying the Solo Scientist\`

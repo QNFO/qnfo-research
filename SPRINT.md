@@ -62,10 +62,10 @@ Expanded 0.1.3.md into 0.2.md (journal-ready manuscript). Reader-tested (4 issue
 
 | # | Task | Status | Output |
 |:--|:-----|:-------|:-------|
-| 3.1 | Monte Carlo p-value assessment for near-matches | 🔄 In Progress | 0.6.py, 0.6.md |
-| 3.2 | Extended scale ratio scanning (≥100 scales) | ⬜ Pending | 0.7.py |
-| 3.3 | Analyze scan results + write-up | ⬜ Pending | 0.8.md |
-| 3.4 | Sprint log + amplification metrics | ⬜ Pending | sprint_log.md |
+| 3.1 | Monte Carlo p-value assessment for near-matches | ✅ Complete | 0.6.py, outputs/mc_results.json,outputs/mc_histogram.png |
+| 3.2 | Extended scale ratio scanning (≥100 scales) | ✅ Complete | 0.7.py, outputs/scales.json,outputs/scan_results.json |
+| 3.3 | Analyze scan results + write-up | 🔄 In Progress | 0.8.md |
+| 3.4 | Sprint log + amplification metrics | ✅ Complete | sprint_log.md |
 
 ## Blockers
 - None. Sprint 3 active.

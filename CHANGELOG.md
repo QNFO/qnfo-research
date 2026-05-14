@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-05-14 — Session: Sprint 3 — Live Force-Multiplier Demonstration (Tasks 3.1-3.3)
+
+**What Changed:**
+- Defined Sprint 3: Live Force-Multiplier Demonstration — executing the 2-day physics sprint plan (0.5.1.md, 0.5.2.md)
+- **Task 3.1 (Monte Carlo):** Executed 1M-trial Monte Carlo assessment of the five near-matches against log-uniform null. Result: $p = 0.000589$ ($p < 0.001$, highly significant). The null hypothesis is strongly rejected.
+- **Task 3.2 (Extended Scan):** Assembled 102 known physical length/energy scales, computed 5,151 pairwise ratios, scanned against 10 targets. Result: yukawa/weak targets ($y_e$, $y_\mu$, $y_\tau$, $m_W/m_Z$) are COMPLETELY ABSENT from the empirical pairwise ratio distribution. Three mass ratios find spurious non-tautological coincidences (domain-crossing, no physical significance).
+- **Task 3.3 (Analysis):** Consolidated results into 0.8.md — statistical assessment document for the physics case study. Two independent null models rejected. Combined speedup factor: ~150-300×.
+- **Task 3.4 (Sprint Log):** sprint_log.md maintained throughout with amplification metrics.
+
+**Key Finding:** The near-match pattern passes two independent null-model tests and is demonstrably non-trivial. It is neither random chance ($p = 0.000589$) nor an artifact of simple pairwise ratios among known scales.
+
+**Files Changed:**
+- `0.5.1.md` — CREATE (committed from untracked state)
+- `0.5.2.md` — CREATE (committed from untracked state)
+- `0.6.py` — CREATE (Monte Carlo script, reproducible, seed=42)
+- `0.7.py` — CREATE (Extended scale ratio scan script)
+- `0.8.md` — CREATE (Consolidated statistical analysis report)
+- `sprint_log.md` — CREATE (Sprint 3 execution log with metrics)
+- `outputs/mc_results.json` — CREATE (Monte Carlo results)
+- `outputs/mc_histogram.png` — CREATE (Histogram + survival function)
+- `outputs/scales.json` — CREATE (102-scale library)
+- `outputs/scan_results.json` — CREATE (Full pairwise ratio scan)
+- `SPRINT.md` — EDIT (Sprint 3 defined, tasks 3.1-3.4 tracked)
+- `CHANGELOG.md` — EDIT (this entry)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commits: 4 (sprint plans commit + Monte Carlo + Extended Scan + Analysis)
+
+
+
 ## 2026-05-13 — Session: Final Version 0.3
 
 **What Changed:**
