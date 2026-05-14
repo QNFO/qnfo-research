@@ -60,15 +60,15 @@ Expanded 0.1.3.md into 0.2.md (journal-ready manuscript). Reader-tested (4 issue
 > **Started:** 2026-05-14 | **Aborted:** 2026-05-14 | **Branch:** `feature/expand-manuscript`
 > **Decision:** Actual execution of the physics sprint plan (0.5.1.md, 0.5.2.md) is out of scope for this meta-project. The Monte Carlo, extended scan, and analysis files (0.6.py, 0.7.py, 0.8.md, sprint_log.md, outputs/) should be **migrated to a new project** focused on physics execution. This project's remit is thought-leadership, methodology, and PoC — not execution itself.
 
-## Sprint 4 — 🔄 IN PROGRESS: Force-Multiplier Playbook (Executive Whitepaper)
-> **Started:** 2026-05-14 | **Branch:** `feature/expand-manuscript`
+## Sprint 4 — ✅ COMPLETE: Force-Multiplier Playbook (Executive Whitepaper)
+> **Started:** 2026-05-14 | **Completed:** 2026-05-14 | **Branch:** `feature/expand-manuscript`
 > **Goal:** Produce a high-level, advocacy-oriented whitepaper — the "Force-Multiplier Playbook" — that distills the methodology into an accessible, persuasive document for scientists, department heads, and funders. NOT an IMRaD paper. Think thought-leadership piece, not journal article.
 
 | # | Task | Status | Output |
 |:--|:-----|:-------|:-------|
-| 4.1 | Draft Force-Multiplier Playbook whitepaper | 🔄 In Progress | 0.9.md |
-| 4.2 | Reader-test and refine | ⬜ Pending | — |
-| 4.3 | Document session close | ⬜ Pending | — |
+| 4.1 | Draft Force-Multiplier Playbook whitepaper | ✅ Complete | 0.9.md |
+| 4.2 | Reader-test and refine | ⬜ Optional | — |
+| 4.3 | Document session close | ✅ Complete | — |
 
 ## Blockers
-- None. Sprint 4 active.
+- None. All sprints complete.
