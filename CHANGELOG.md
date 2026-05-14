@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-05-14 — Session: Force-Multiplier Playbook (Sprint 4)
+
+**What Changed:**
+- **Sprint 3 aborted:** Physics execution (Monte Carlo, extended scan, analysis) is out of scope for this meta-project. Files 0.6.py, 0.7.py, 0.8.md, sprint_log.md, outputs/ should be migrated to a new physics-execution project.
+- **Sprint 4 completed:** Produced the **Force-Multiplier Playbook** (0.9.md) — a high-level, advocacy-oriented executive whitepaper. Not an IMRaD paper; a thought-leadership piece.
+- The playbook distills the methodology into: The Shift, The Core Idea (5-phase protocol), Case Study Evidence (2 domains, ~25× and ~90× speedups), The Stack (4 components), The 5 Prompts, The Verification Imperative (4 gates), Implications (funding, training, publishing), and a One-Day Challenge.
+- Project rebaselined: this project produces methodology, thought-leadership, and PoC. Actual protocol execution belongs in separate domain-specific projects.
+
+**Files Changed:**
+- `0.9.md` — CREATE (Force-Multiplier Playbook — executive whitepaper)
+- `SPRINT.md` — EDIT (Sprint 3 marked aborted; Sprint 4 defined and completed)
+- `CHANGELOG.md` — EDIT (this entry)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commits: 1 (playbook + sprint update)
+
+---
+
 ## 2026-05-14 — Session: Sprint 3 — Live Force-Multiplier Demonstration (Tasks 3.1-3.3)
 
 **What Changed:**

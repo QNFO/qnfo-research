@@ -5,8 +5,10 @@
 > **Repo:** Standalone (`G:\My Drive\projects\Amplifying the Solo Scientist\.git`)
 
 ## High-Level Status
-**Phase:** Sprint 3 active — Live Force-Multiplier Demonstration (Tasks 3.1-3.3 complete)
-**Active Sprint:** Sprint 3 — 🔄 In Progress
+**Phase:** Force-Multiplier Playbook delivered. Sprint 4 active (reader testing pending).
+**Active Sprint:** Sprint 4 — Force-Multiplier Playbook (Executive Whitepaper)
+**Key Deliverable:** `0.9.md` — The Force-Multiplier Playbook (whitepaper)
+**Note:** Sprint 3 (physics execution) aborted — out of scope. Physics files tagged for migration to new project.
 
 ## What Exists (Output Files)
 
@@ -27,8 +29,9 @@
 | `0.5.2.md` | 2-day LLM-orchestrated sprint plan (detailed) | Sprint 3 | ~15K |
 | `0.6.py` | Monte Carlo p-value script (Sprint 3.1) | Sprint 3 | ~250 lines |
 | `0.7.py` | Extended scale ratio scan (Sprint 3.2) | Sprint 3 | ~280 lines |
-| `0.8.md` | Consolidated statistical analysis (Sprint 3.3) | Sprint 3 | ~7K |
-| `sprint_log.md` | Sprint 3 execution log + amplification metrics | Sprint 3 | ~3K |
+| `0.8.md` | Consolidated statistical analysis (Sprint 3.3 — MIGRATE) | Sprint 3 | ~10K |
+| `0.9.md` | **Force-Multiplier Playbook** — executive whitepaper | **Sprint 4** | ~8K |
+| `sprint_log.md` | Sprint 3 execution log (MIGRATE) | Sprint 3 | ~3K |
 | `outputs/mc_results.json` | Monte Carlo results (p=0.000589) | Data | ~1K |
 | `outputs/mc_histogram.png` | Histogram + survival function plot | Figure | 76KB |
 | `outputs/scales.json` | 102-scale physics library | Data | ~8K |
@@ -56,25 +59,25 @@
 | Cohen's $f$ ($\sigma$ = 80h) | 1.28 (very large) | Sensitivity analysis |
 | Cohen's $f$ ($\sigma$ = 120h) | 0.90 (large) | Sensitivity analysis |
 | Speedup factor (physics case study) | ~$25\times$ | 0.2.md §4.3 |
+| Speedup factor (linguistics case study) | ~$90\times$ | 0.2.md §4.5 |
 | Effective team size amplification | ~$17\times$ | 0.2.md §5 power analysis |
-| **Monte Carlo p-value** | **$p = 0.000589$** | 0.6.py (Sprint 3.1) `[CODE-EXECUTED]` |
-| **Scales in library** | **102** | 0.7.py (Sprint 3.2) `[CODE-EXECUTED]` |
-| **Pairwise ratios computed** | **5,151** | 0.7.py (Sprint 3.2) `[CODE-EXECUTED]` |
-| **Sprint 3 speedup factor** | **~150-300$\times$** | sprint_log.md |
-| Manuscript length | ~15,000 words | 0.2.md |
+| Manuscript length (journal) | ~15,000 words | 0.2.md |
+| Playbook length (whitepaper) | ~2,500 words | 0.9.md |
 | References | 26 | 0.2.md §References |
-| Total commits | 21 | Git history |
+| Total commits | 22 | Git history |
+| Core prompts (playbook) | 5 | 0.9.md §5 |
+| Verification gates (playbook) | 4 | 0.9.md §6 |
 
 ## Next Steps
 
 | # | Step | Type | Notes |
 |:--|:-----|:-----|:------|
-| 1 | **Cross-ratio scan** (Task 3.3 extension) | Code | Extend 0.7.py to compute all ~4M cross-ratios from 102 scales |
-| 2 | **Look-elsewhere correction** | Analysis | Estimate effective number of trials for proper p-value |
-| 3 | **Integrate results into physics document** | Writing | Add §6 subsection to 0.1.md with statistical assessment |
-| 4 | Human final review of 0.2.md | Human | Read-through for accuracy, tone, completeness |
-| 5 | Zenodo upload | Human | zenodo.org — metadata pre-filled in 0.2.md header |
-| 6 | Containerize stack (B-005) | Engineering | Docker build from Appendix C |
+| 1 | **Reader-test the Playbook** (0.9.md) | Verification | Blind reader test to catch gaps |
+| 2 | Human final review of 0.2.md | Human | Read-through for accuracy |
+| 3 | Zenodo upload of manuscript | Human | Metadata pre-filled in 0.2.md |
+| 4 | **Migrate physics execution files** to new project | Migration | 0.6.py, 0.7.py, 0.8.md, sprint_log.md, outputs/ |
+| 5 | Containerize stack (B-005) | Engineering | Docker build from Appendix C |
+| 6 | New domain case studies (B-010-B-012) | Writing | Comp bio, pure math, philosophy |
 
 ## Environment
 - **Directory:** `G:\My Drive\projects\Amplifying the Solo Scientist\`
