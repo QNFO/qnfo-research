@@ -4,7 +4,7 @@ Sprint 3, Task 3.1: Live Force-Multiplier Demonstration
 Specification from 0.5.2.md Day 1 Morning
 
 Null hypothesis: ratios are uniformly distributed in log space
-over the range ln(1e-6) to ln(1e22) ≈ [-13.8, 50.7].
+over the range ln(1e-6) to ln(1e22) ~ [-13.8, 50.7].
 
 For each of 1M trials:
   - Generate 600 random log-uniform ratios
@@ -19,6 +19,11 @@ Outputs:
   - Histogram of match counts
   - Cumulative distribution
 """
+
+import sys
+import io
+# Force UTF-8 to avoid cp1252 UnicodeEncodeError on Windows
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 import numpy as np
 import json
