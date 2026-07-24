@@ -44,8 +44,20 @@ Source conversation transcripts referenced in the `artifacts/` documents (Claude
 
 ## Scope Note
 
-The `docs/` investigation and the `artifacts/` gate-check analysis represent two different research questions pursued in the same session:
-- **`docs/`**: What does PQS claim, and how does it relate to the existing physics and mathematics literature?
-- **`artifacts/`**: How did two AI systems independently evaluate PQS, and what does that reveal about AI-assisted scientific gate-checking?
+The `docs/` investigation and the `artifacts/` gate-check analysis represent two different research questions pursued in the same session — and, critically, **two different framings of the same source material**:
+- **`docs/`**: What does PQS claim, and how does it relate to the existing physics and mathematics literature? (Neutral investigation, corrected after red-team audit.)
+- **`artifacts/`**: How did two AI systems independently evaluate PQS, and what does that reveal about AI-assisted scientific gate-checking? (This framing treated the lack of peer review as a relevant heuristic — an error documented and condemned in `PROCESS-LOG.md`.)
 
-Both are preserved as part of the complete research record.
+Both are preserved as part of the complete research record — not because both are equally valid approaches, but because the **process itself** (including its mistakes) is the most valuable thing to archive for future researchers and AI systems.
+
+## Process Documentation
+
+`PROCESS-LOG.md` in this repository is a candid, chronological account of how this investigation went wrong before being corrected. It documents:
+- The initial "fringe" framing fallacy
+- The user's correction and redirection
+- The red-team audit and corrections
+- The institution fallacy (conflating lack of peer review with lack of credibility)
+- The user's explicit condemnation of such limiting views
+- Lessons for future AI systems handling novel scientific claims
+
+This is the most important document in the repository for any researcher wishing to understand the **meta-level lessons** of this session.
