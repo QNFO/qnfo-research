@@ -1,0 +1,10 @@
+_*.py
+_*.js
+_*.json
+.env
+*.token
+keys.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
