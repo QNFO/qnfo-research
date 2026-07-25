@@ -1,77 +1,43 @@
 %
 % The Macroscopic Boundary Problem in Quantum Reconstructions
-% Formatted per Foundations of Physics (Springer) requirements
-% For submission: replace \documentclass{article} with \documentclass[twocolumn]{svjour3}
-% after installing svjour3.cls from CTAN (ctan.org/pkg/svjour3)
+% Formatted per Foundations of Physics (Springer Nature) requirements
+% using the OFFICIAL Springer Nature LaTeX Template (sn-jnl.cls, v3.1, Dec 2024)
+% downloaded from https://www.springernature.com/gp/authors/campaigns/latex-author-support
 %
-\documentclass[12pt,a4paper,twoside]{article}
+% BUILD: place sn-jnl.cls and sn-mathphys-num.bst in this directory, then:
+%   pdflatex paper && bibtex paper && pdflatex paper && pdflatex paper
+%
+\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}% Math and Physical Sciences Numbered Reference Style
 
-% --- Springer-style formatting ---
-\usepackage[english]{babel}
-\usepackage[T1]{fontenc}
-\usepackage{amsmath,amssymb}
-\usepackage[text={13cm,21cm},centering]{geometry}
-\usepackage{fancyhdr}
-\usepackage{setspace}
-\setstretch{1.1}
+\usepackage{graphicx}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{booktabs}%
 
-% --- Running headers (Springer style) ---
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[LE]{\small\itshape The Macroscopic Boundary Problem in Quantum Reconstructions}
-\fancyhead[RO]{\small\itshape The Macroscopic Boundary Problem in Quantum Reconstructions}
-\fancyfoot[LE,RO]{\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-
-% --- Numbered bibliography ---
-\usepackage[numbers,sort&compress]{natbib}
-\bibliographystyle{unsrtnat}
-
-% --- Hyperlinks ---
-\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-
-\makeatletter
-\def\@maketitle{%
-  \newpage\null\vspace*{-2cm}%
-  \begin{center}%
-    \let\footnote\thanks
-    {\LARGE\bfseries\@title\par}%
-    \vskip 1.5em%
-    {\large\@author\par}%
-    \vskip 0.5em%
-    {\normalsize\@date\par}%
-  \end{center}%
-  \par\vskip 1.5em%
-}
-\makeatother
+\raggedbottom
 
 \begin{document}
 
-\title{The Macroscopic Boundary Problem in\\Quantum Reconstructions}
+\title[The Macroscopic Boundary Problem]{The Macroscopic Boundary Problem in Quantum Reconstructions}
 
-\author{Rowan Brad Quni-Gudzinas}
+\author*[1]{\fnm{Rowan Brad} \sur{Quni-Gudzinas}}\email{author@qnfo.org}
 
-\date{2026-07-22\\[0.3em]\small\texttt{DOI: 10.5281/zenodo.21571691}}
+\affil*[1]{\orgname{QNFO}, \orgaddress{\country{}}}
+
+\abstract{The information-theoretic reconstruction program has derived the formal structure of quantum theory from operational axioms, achieving a remarkable unification of the Hilbert-space formalism. However, we identify a persistent and underappreciated gap that cuts across all major reconstruction approaches: each implicitly imports classical macroscopic boundary conditions---classical measurement outcomes, classical communication channels, and laboratory procedures---as primitive notions that the operational framework requires but never derives. We survey five major reconstruction approaches---Hardy (2001); Chiribella--D'Ariano--Perinotti (2011); Masanes--M\"{u}ller (2011); Selby, Scandolo, and Coecke (2021); and the Operational Probabilistic Theories framework---and demonstrate that each treats macroscopic classicality as a precondition rather than a consequence. We argue that this is not a minor technical oversight but a fundamental obstacle: any reconstruction that presupposes classical macroscopic boundary conditions as primitive cannot claim to derive quantum theory from purely operational or information-theoretic principles. We propose a positive criterion---the \emph{closure criterion}---that a maximally honest reconstruction must satisfy, and suggest directions for research that may address the macroscopic boundary problem without abandoning the reconstruction program's core achievements.}
+
+\keywords{quantum foundations, quantum reconstruction, operational probabilistic theories, measurement problem, classical limit}
 
 \maketitle
-
-% --- Abstract ---
-\begin{center}
-{\large\bfseries Abstract}
-\end{center}
-\vspace{-0.5em}
-\noindent
-The information-theoretic reconstruction program has derived the formal structure of quantum theory from operational axioms, achieving a remarkable unification of the Hilbert-space formalism. However, we identify a persistent and underappreciated gap that cuts across all major reconstruction approaches: each implicitly imports classical macroscopic boundary conditions---classical measurement outcomes, classical communication channels, and laboratory procedures---as primitive notions that the operational framework requires but never derives. We survey five major reconstruction approaches---Hardy (2001); Chiribella--D'Ariano--Perinotti (2011); Masanes--M\"{u}ller (2011); Selby, Scandolo, and Coecke (2021); and the Operational Probabilistic Theories framework---and demonstrate that each treats macroscopic classicality as a precondition rather than a consequence. We argue that this is not a minor technical oversight but a fundamental obstacle: any reconstruction that presupposes classical macroscopic boundary conditions as primitive cannot claim to derive quantum theory from purely operational or information-theoretic principles. We propose a positive criterion---the \emph{closure criterion}---that a maximally honest reconstruction must satisfy, and suggest directions for research that may address the macroscopic boundary problem without abandoning the reconstruction program's core achievements.
-
-\vspace{1em}
-\noindent{\bfseries Keywords:} quantum foundations, quantum reconstruction, operational probabilistic theories, measurement problem, classical limit
-
-\newpage
 
 % ======================================================================
 % 1. INTRODUCTION
 % ======================================================================
-\section{Introduction}
+\section{Introduction}\label{sec1}
 
 The program of deriving---or ``reconstructing''---quantum theory from operational or information-theoretic axioms has been one of the most ambitious and productive research directions in the foundations of physics over the past quarter-century. Beginning with Hardy's seminal ``Quantum Theory From Five Reasonable Axioms'' \cite{Hardy2001}, and continuing through the informational derivation of Chiribella, D'Ariano, and Perinotti \cite{Chiribella2011,DAriano2017}, the probabilistic framework of Masanes and M\"{u}ller \cite{Masanes2011}, and the categorical approaches advanced by Coecke and collaborators \cite{Coecke2010,Selby2021}, the reconstruction program has succeeded in showing that much of the mathematical machinery of quantum mechanics---Hilbert spaces, unitary evolution, the Born rule, and even properties such as entanglement and nonlocality---can be derived from a surprisingly small set of operationally motivated axioms.
 
@@ -81,12 +47,12 @@ Yet there is a persistent feature of the reconstruction literature that, we argu
 
 We call this the \emph{macroscopic boundary problem}. It is not the familiar measurement problem of quantum mechanics---the question of how definite outcomes arise from superpositions---but a conceptually prior difficulty: the reconstruction program presupposes the very classical/macroscopic domain whose relationship to quantum theory it seeks to explain. Bell \cite{Bell1990} famously argued that the concept of ``measurement'' in quantum mechanics is fundamentally ambiguous when left unanalyzed, and that any theory taking measurement as primitive is incomplete. The macroscopic boundary problem extends this critique to the reconstruction program: if the goal is to show that quantum theory follows from purely operational or information-theoretic principles, then the operational framework itself cannot be allowed to smuggle in a classical macroscopic realm as primitive.
 
-The structure of this paper is as follows. In Section~2, we survey five major reconstruction approaches, documenting precisely how each relies on macroscopic boundary conditions. In Section~3, we formalize the macroscopic boundary problem and argue that it constitutes a fundamental gap rather than a minor technicality. In Section~4, we propose the \emph{closure criterion}---a positive condition that a maximally honest reconstruction must satisfy---and examine which existing approaches come closest to meeting it. In Section~5, we discuss possible strategies for addressing the gap, including relational approaches, epistemic interpretations, and recent work on quantum reference frames. Section~6 concludes.
+The structure of this paper is as follows. In Section~\ref{sec2}, we survey five major reconstruction approaches, documenting precisely how each relies on macroscopic boundary conditions. In Section~\ref{sec3}, we formalize the macroscopic boundary problem and argue that it constitutes a fundamental gap rather than a minor technicality. In Section~\ref{sec4}, we propose the \emph{closure criterion}---a positive condition that a maximally honest reconstruction must satisfy---and examine which existing approaches come closest to meeting it. In Section~\ref{sec5}, we discuss possible strategies for addressing the gap, including relational approaches, epistemic interpretations, and recent work on quantum reference frames. Section~\ref{sec6} concludes.
 
 % ======================================================================
 % 2. A SURVEY OF RECONSTRUCTION APPROACHES
 % ======================================================================
-\section{A Survey of Reconstruction Approaches}
+\section{A Survey of Reconstruction Approaches}\label{sec2}
 
 \subsection{Hardy's Five Reasonable Axioms}
 
@@ -129,7 +95,7 @@ The OPT framework is explicitly built around the preparation-measurement dichoto
 % ======================================================================
 % 3. THE MACROSCOPIC BOUNDARY PROBLEM
 % ======================================================================
-\section{The Macroscopic Boundary Problem}
+\section{The Macroscopic Boundary Problem}\label{sec3}
 
 \subsection{Diagnosis}
 
@@ -174,7 +140,7 @@ Third, it may point toward \emph{new physics}. If the classical macroscopic doma
 % ======================================================================
 % 4. THE CLOSURE CRITERION
 % ======================================================================
-\section{The Closure Criterion}
+\section{The Closure Criterion}\label{sec4}
 
 We propose the following positive condition, which we call the \emph{closure criterion}:
 
@@ -201,7 +167,7 @@ These strategies are not mutually exclusive, and none is currently complete. But
 % ======================================================================
 % 5. DISCUSSION
 % ======================================================================
-\section{Discussion}
+\section{Discussion}\label{sec5}
 
 The macroscopic boundary problem sits at the intersection of several active research areas. In quantum foundations, the reconstruction program continues to refine its axioms and extend its scope \cite{DAriano2017,Barnum2014}. In quantum gravity, the problem of time and the problem of observables raise analogous issues: what does it mean to formulate a physical theory without an external classical background \cite{Rovelli2004}? In the physics of complex systems, the emergence of classicality from underlying quantum dynamics has been studied through decoherence, quantum Darwinism, and the quantum-to-classical transition \cite{Zurek2009,Brandao2015}. The macroscopic boundary problem provides a unifying perspective on these otherwise disparate investigations.
 
@@ -214,7 +180,7 @@ The most promising path forward, in our view, combines elements of all three str
 % ======================================================================
 % 6. CONCLUSION
 % ======================================================================
-\section{Conclusion}
+\section{Conclusion}\label{sec6}
 
 The information-theoretic reconstruction of quantum theory is one of the signal achievements of modern foundational physics. It has shown that the mathematical structure of quantum mechanics---which for decades was regarded as simply given---can be derived from a handful of operationally motivated axioms. This is a genuine advance in our understanding of why the quantum formalism works.
 
@@ -235,14 +201,26 @@ This research received no external funding and was conducted as part of the QNFO
 \subsection*{Conflicts of Interest}
 The author declares no conflicts of interest.
 
+\subsection*{Ethics Approval and Consent to Participate}
+Not applicable.
+
+\subsection*{Consent for Publication}
+Not applicable.
+
 \subsection*{Author Contributions}
 R.B.Q.-G. conceived the argument, verified all claims against primary sources, and takes full responsibility for the content of this manuscript.
 
 \subsection*{Data Availability}
 No experimental data were generated or analyzed in this study. All cited literature is publicly available via their respective publishers or preprint servers.
 
+\subsection*{Materials Availability}
+Not applicable.
+
+\subsection*{Code Availability}
+Not applicable.
+
 \subsection*{Use of Artificial Intelligence}
-This manuscript was drafted with the assistance of the DeepChat large language model (deepseek-v4-pro), which conducted literature search support, composed initial text drafts, and formatted references. Per the Springer Nature policy on AI-assisted authoring \cite{SpringerAI2024}, this use is disclosed here in the Declarations section. All substantive claims, arguments, and citations were verified by the author against primary sources. The author takes full accountability for the final version of the text and attests that all citations reference genuine, published works. No large language model is listed as an author.
+This manuscript was drafted with the assistance of the DeepChat large language model, which conducted literature search support, composed initial text drafts, and formatted references. Per the Springer Nature policy on AI-assisted authoring \cite{SpringerAI2024}, this use is disclosed here in the Declarations section. All substantive claims, arguments, and citations were verified by the author against primary sources. The author takes full accountability for the final version of the text and attests that all citations reference genuine, published works. No large language model is listed as an author.
 
 % ======================================================================
 % BIBLIOGRAPHY
