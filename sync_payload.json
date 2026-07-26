@@ -1,0 +1,346 @@
+﻿{
+    "edges":  [
+
+              ],
+    "action":  "bulk",
+    "nodes":  [
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "10-philosophical-foundations",
+                                         "doi":  "10.5281/zenodo.21017064",
+                                         "authors":  "[\"Rowan Brad Quni-Gudzinas\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "10 Philosophical Foundations",
+                      "id":  "paper-10-philosophical-foundations"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "11-ethical-considerations",
+                                         "doi":  "10.5281/zenodo.21017110",
+                                         "authors":  "[\"Rowan Brad Quni-Gudzinas\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "11 Ethical Considerations",
+                      "id":  "paper-11-ethical-considerations"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "silent-radix",
+                                         "doi":  "",
+                                         "authors":  "Rowan Brad Quni-Gudzinas",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Silent Radix",
+                      "id":  "paper-silent-radix"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "quantum-laws-of-form",
+                                         "doi":  "10.5281/zenodo.21206074",
+                                         "authors":  "[\"QNFO Research\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Quantum Laws of Form",
+                      "id":  "paper-quantum-laws-of-form"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "p-adic-braid-groups-bruhat-tits",
+                                         "doi":  "10.5281/zenodo.21208366",
+                                         "authors":  "Rowan Brad Quni-Gudzinas",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "p-Adic Braid Groups on Bruhat-Tits Buildings",
+                      "id":  "paper-p-adic-braid-groups-bruhat-tits"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "p-adic-temperley-lieb-parameter",
+                                         "doi":  "10.5281/zenodo.21208368",
+                                         "authors":  "Rowan Brad Quni-Gudzinas",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial",
+                      "id":  "paper-p-adic-temperley-lieb-parameter"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "p-adic-anyon-fusion-braiding",
+                                         "doi":  "10.5281/zenodo.21208491",
+                                         "authors":  "Rowan Brad Quni-Gudzinas",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity",
+                      "id":  "paper-p-adic-anyon-fusion-braiding"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "adelic-synthesis-pattern-particle",
+                                         "doi":  "10.5281/zenodo.21208568",
+                                         "authors":  "Rowan Brad Quni-Gudzinas",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons",
+                      "id":  "paper-adelic-synthesis-pattern-particle"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "zbw-majorana-tqc-p5-adelic-qec",
+                                         "doi":  "10.5281/zenodo.21336099",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Adelic Quantum Error Correction: Intrinsic Qubit Protection from Ostrowski",
+                      "id":  "paper-zbw-majorana-tqc-p5-adelic-qec"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "zbw-majorana-tqc-p6-ultrametric-engine",
+                                         "doi":  "10.5281/zenodo.21336105",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Ultrametric Engine: Deploying a 20-Principle p-Adic Discovery Worker",
+                      "id":  "paper-zbw-majorana-tqc-p6-ultrametric-engine"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "zbw-majorana-tqc-p7-grand-synthesis",
+                                         "doi":  "10.5281/zenodo.21336119",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "The Adelic Physics Program: A Grand Synthesis",
+                      "id":  "paper-zbw-majorana-tqc-p7-grand-synthesis"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "rq1-zbw-amplification",
+                                         "doi":  "10.5281/zenodo.21336123",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Vortex-Enhanced Zitterbewegung: Amplification Feasibility for Trapped-Ion Dirac Simulators",
+                      "id":  "paper-rq1-zbw-amplification"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "zbw-majorana-tqc-p1-zbw-padic-observable",
+                                         "doi":  "10.5281/zenodo.21335853",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Zitterbewegung as a p-Adic Observable: Ultrametric Readout and Intrinsic Topological Protection",
+                      "id":  "paper-zbw-majorana-tqc-p1-zbw-padic-observable"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "zbw-majorana-tqc-p2-majorana-zbw-correlator",
+                                         "doi":  "10.5281/zenodo.21336045",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Majorana Zitterbewegung Current Correlator: Vanishing ZBW Signal as a Z2 Topological Invariant",
+                      "id":  "paper-zbw-majorana-tqc-p2-majorana-zbw-correlator"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "zbw-majorana-tqc-p3-bruhat-tits-readout",
+                                         "doi":  "10.5281/zenodo.21336081",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Bruhat-Tits Readout Protocol: Measuring the ZBW Z2 Invariant in Majorana Systems",
+                      "id":  "paper-zbw-majorana-tqc-p3-bruhat-tits-readout"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "zbw-majorana-tqc-p4-zbw-anyon-braiding",
+                                         "doi":  "10.5281/zenodo.21336087",
+                                         "authors":  "Rowan Quni",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding",
+                      "id":  "paper-zbw-majorana-tqc-p4-zbw-anyon-braiding"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "fine-structure-constant-cross-ratio",
+                                         "doi":  "10.5281/zenodo.20108536",
+                                         "authors":  "Rowan Brad Quni-Gudzinas",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "active"
+                                     },
+                      "name":  "Fine-Structure Constant as a Cross-Ratio: A Geometric Reframing of α",
+                      "id":  "paper-fine-structure-constant-cross-ratio"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "paper-the-qubit-delusion",
+                                         "doi":  "10.5281/zenodo.21254143",
+                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "The Qubit Delusion: How Particle Ontology Sabotaged Quantum Computing",
+                      "id":  "paper-paper-the-qubit-delusion"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "paper-beyond-the-qubit",
+                                         "doi":  "10.5281/zenodo.21254901",
+                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Beyond the Qubit: Constructive Paradigms for Post-Particle Computation",
+                      "id":  "paper-paper-beyond-the-qubit"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "paper-physics-of-computation",
+                                         "doi":  "10.5281/zenodo.21255013",
+                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing",
+                      "id":  "paper-paper-physics-of-computation"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "paper-problem-substrate-mapping",
+                                         "doi":  "10.5281/zenodo.21255346",
+                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "The Problem-Substrate Mapping: A Framework for Honest Computational Investment",
+                      "id":  "paper-paper-problem-substrate-mapping"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "paper-institutional-reform",
+                                         "doi":  "10.5281/zenodo.21299211",
+                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Institutional Reform: Fixing the Epistemic Incentive Structure of Post-Classical Computing",
+                      "id":  "paper-paper-institutional-reform"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "paper-manifesto-honest-computation",
+                                         "doi":  "10.5281/zenodo.21299278",
+                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Manifesto for Honest Computation",
+                      "id":  "paper-paper-manifesto-honest-computation"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "psii-quantum-coherence",
+                                         "doi":  "10.5281/zenodo.21304627",
+                                         "authors":  "QNFO Research Collective",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Quantum Coherence in Photosystem II: Environment-Assisted Transport and the Role of Vibronic Coupling in Biological Light-Harvesting",
+                      "id":  "paper-psii-quantum-coherence"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "cryptochrome-magnetoreception",
+                                         "doi":  "10.5281/zenodo.21304629",
+                                         "authors":  "QNFO Research Collective",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Cryptochrome Magnetoreception: The Radical Pair Mechanism and Its Implications for Quantum Biology",
+                      "id":  "paper-cryptochrome-magnetoreception"
+                  },
+                  {
+                      "label":  "Paper",
+                      "properties":  {
+                                         "slug":  "spin-glasses-complexity",
+                                         "doi":  "10.5281/zenodo.21304631",
+                                         "authors":  "QNFO Research Collective",
+                                         "source":  "living-paper-d1",
+                                         "distribution_status":  "draft",
+                                         "status":  "published"
+                                     },
+                      "name":  "Spin Glasses and Complexity: Replica Symmetry Breaking, Frustration, and the Statistical Mechanics of Disordered Systems",
+                      "id":  "paper-spin-glasses-complexity"
+                  }
+              ]
+}
