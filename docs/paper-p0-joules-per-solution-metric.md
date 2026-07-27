@@ -8,7 +8,7 @@
 
 ## Abstract
 
-The global computational infrastructure spans seven distinct paradigms — from classical CPUs to quantum processors, from AI accelerators to neuromorphic chips — yet no universal metric exists for comparing their computational value. Every paradigm benchmarks itself on its own terms: quantum volume for quantum computing, FLOPs per second for AI accelerators, SPEC scores for CPUs, and Power Usage Effectiveness for data centers. None of these are honest proxies for what physics charges: energy. This paper proposes the **joules-per-solution metric** — the total system-level energy required to produce a correct solution to a computational task at a specified correctness threshold — as the universal, physics-grounded, falsifiable arbiter of computational advantage. We provide a formal definition with closed-form measurement equations, a measurement protocol covering computation, cooling, power conversion, networking, and amortized manufacturing energy, and a comprehensive anti-gaming framework with adversarial validation, pre-registration requirements, and Pareto frontier reporting. We survey 14 existing domain-specific benchmarks — NeuroBench, ML.ENERGY, SPECpower, Green500, MLPerf Power, ULPMark, TPC-Energy, Green Graph 500, CoreMark-Pro, CloudSuite, HPCG, and the Sustainable Quantum Computing carbon framework — and demonstrate that while each measures energy within its silo, none provides cross-domain comparability. We argue that the absence of a universal, physics-grounded benchmark has enabled systematic overstatement of computational value, most visibly in quantum computing ($35B invested, zero commercially viable machines meeting the joules-per-solution criterion), and propose an 8-item calibration register with 2028–2035 checkpoints to enable independent verification of our framework's predictive power.
+The global computational infrastructure spans seven distinct paradigms — from classical CPUs to quantum processors, from AI accelerators to neuromorphic chips — yet no universal metric exists for comparing their computational value. Every paradigm benchmarks itself on its own terms: quantum volume for quantum computing, FLOPs per second for AI accelerators, SPEC scores for CPUs, and Power Usage Effectiveness for data centers. None of these are honest proxies for what physics charges: energy. This paper proposes [my conjecture] the **joules-per-solution metric** — the total system-level energy required to produce a correct solution to a computational task at a specified correctness threshold — as the universal, physics-grounded, falsifiable arbiter of computational advantage. We provide a formal definition with closed-form measurement equations, a measurement protocol covering computation, cooling, power conversion, networking, and amortized manufacturing energy, and a comprehensive anti-gaming framework with adversarial validation, pre-registration requirements, and Pareto frontier reporting. We survey 14 existing domain-specific benchmarks — NeuroBench, ML.ENERGY, SPECpower, Green500, MLPerf Power, ULPMark, TPC-Energy, Green Graph 500, CoreMark-Pro, CloudSuite, HPCG, and the Sustainable Quantum Computing carbon framework — and demonstrate that while each measures energy within its silo, none provides cross-domain comparability. We argue that the absence of a universal, physics-grounded benchmark has enabled systematic overstatement of computational value, most visibly in quantum computing ($35B invested, zero commercially viable machines meeting the joules-per-solution criterion), and propose an 8-item calibration register with 2028–2035 checkpoints to enable independent verification of our framework's predictive power.
 
 **Keywords:** computational benchmarking, energy efficiency, joules per operation, Landauer limit, honest computation, quantum computing, neuromorphic computing, AI energy, green computing
 
@@ -29,7 +29,7 @@ Between these extremes lie six additional computational paradigms, each operatin
 - **Thermodynamic and reversible computing** approaches the Landauer limit theoretically but has produced no commercially viable near-Landauer prototype at scale.
 - **Edge and IoT devices** operate under battery constraints where joules-per-inference directly determines device lifetime, yet no cross-platform benchmark exists for comparing inference energy across heterogeneous hardware.
 
-The critical observation is not merely that these paradigms span fifteen orders of magnitude in energy efficiency. It is that **investment is inversely correlated with energy efficiency.** The least energy-efficient paradigm — gate-model quantum computing — has absorbed approximately $35 billion in global investment [@paper-the-qubit-delusion], while the most energy-efficient paradigms — neuromorphic and thermodynamic computing — receive orders of magnitude less funding.
+The critical observation is not only that these paradigms span fifteen orders of magnitude in energy efficiency. It is that **investment is inversely correlated with energy efficiency.** The least energy-efficient paradigm — gate-model quantum computing — has absorbed approximately $35 billion in global investment [@paper-the-qubit-delusion], while the most energy-efficient paradigms — neuromorphic and thermodynamic computing — receive orders of magnitude less funding.
 
 ### 1.2 The Blind Spot
 
@@ -55,17 +55,17 @@ This claim is falsifiable. It would be disconfirmed if, for a representative sam
 
 ### 2.1 Physical Foundations
 
-The physics of computation establishes three fundamental limits relevant to this work.
+The physics of computation establishes three mathematically derived limits relevant to this work.
 
-**The Landauer bound** (1961): any logically irreversible operation — such as erasing a bit — dissipates at minimum $kT \ln 2$ joules of energy as heat [@Landauer1961]. This is not an engineering limit but a consequence of the Second Law of Thermodynamics. Reversible computing can, in principle, approach zero energy dissipation per operation by avoiding logical irreversibility, but all current practical computing systems — classical and quantum — operate far above this bound [@1806.10183].
+**The Landauer bound** [established] (1961): any logically irreversible operation — such as erasing a bit — dissipates at minimum $kT \ln 2$ joules of energy as heat [@Landauer1961]. This is not an engineering limit but a consequence of the Second Law of Thermodynamics. Reversible computing can, in principle, approach zero energy dissipation per operation by avoiding logical irreversibility, but all current practical computing systems — classical and quantum — operate far above this bound [@1806.10183].
 
-**The Margolus–Levitin theorem** (1998): a quantum system with average energy $E$ requires at least $\Delta t \geq h/(4E)$ to evolve between two distinguishable states [@MargolusLevitin1998]. This bounds the maximum computational speed of any quantum device and, combined with the Landauer bound, establishes a minimum energy-time product for computation.
+**The Margolus–Levitin theorem** [established] (1998): a quantum system with average energy $E$ requires at least $\Delta t \geq h/(4E)$ to evolve between two distinguishable states [@MargolusLevitin1998]. This bounds the maximum computational speed of any quantum device and, combined with the Landauer bound, establishes a minimum energy-time product for computation.
 
-**The Bremermann limit** (1962): a material system of mass $m$ cannot process information faster than $mc^2/h \approx 1.36 \times 10^{50}$ bits per second per kilogram [@Bremermann1962]. This is the ultimate speed limit, far beyond current technology, but it establishes the envelope within which all computation must occur.
+**The Bremermann limit** [established] (1962): a material system of mass $m$ cannot process information faster than $mc^2/h \approx 1.36 \times 10^{50}$ bits per second per kilogram [@Bremermann1962]. This is the ultimate speed limit, far beyond current technology, but it establishes the envelope within which all computation must occur.
 
 These three bounds — thermodynamic (Landauer), dynamical (Margolus–Levitin), and throughput (Bremermann) — define the honest boundaries within which any claim of computational advantage must be assessed [@paper-physics-of-computation].
 
-### 2.2 Domain-Specific Benchmarking: A Survey of Fourteen Competitors
+### 2.2 Domain-Specific Benchmarking [established]: A Survey of Fourteen Competitors
 
 We surveyed fourteen existing benchmarks that measure energy or energy-proxy metrics for specific computational domains. Table 1 summarizes our findings.
 
@@ -103,7 +103,7 @@ These are not hypothetical questions. They are the questions that a procurement 
 
 ---
 
-## 3. The Joules-per-Solution Metric
+## 3. The Joules-per-Solution Metric [my conjecture]
 
 ### 3.1 Formal Definition
 
@@ -184,7 +184,7 @@ All joules-per-solution measurements must report:
 
 ---
 
-## 4. Anti-Gaming Provisions
+## 4. Anti-Gaming Provisions [speculative]
 
 The history of computational benchmarking is a history of gaming. Every benchmark that becomes consequential — SPEC, LINPACK, MLPerf — has been optimized against in ways that inflate reported performance relative to real-world utility. A joules-per-solution benchmark that lacks anti-gaming provisions would be particularly vulnerable: energy measurements can be manipulated by adjusting clock frequencies, disabling components, cherry-picking inputs, or reporting chip power instead of system power.
 
@@ -219,7 +219,7 @@ Benchmarks become stale. SPEC2006 is not comparable to SPEC2017. A joules-per-so
 
 ---
 
-## 5. Cross-Domain Comparison Framework
+## 5. Cross-Domain Comparison Framework [speculative]
 
 ### 5.1 The Comparative Atlas
 
@@ -251,7 +251,7 @@ The invariant across all six domains is: **self-reported metrics without indepen
 
 ---
 
-## 6. Calibration Register
+## 6. Calibration Register [speculative]
 
 To enable independent verification of our framework's predictive power, we pre-register the following predictions. Each prediction has a defined checkpoint date and falsification condition.
 
