@@ -1,0 +1,2277 @@
+{
+  "B01-NeuroBench": [
+    {
+      "title": "NeuroBench: A Framework for Benchmarking Neuromorphic Computing Algorithms and Systems",
+      "arxiv_id": "2304.04640v5",
+      "year": "2023",
+      "authors": [
+        "Jason Yik",
+        "Korneel Van den Berghe",
+        "Douwe den Blanken",
+        "Younes Bouhadjar"
+      ],
+      "summary": "Neuromorphic computing shows promise for advancing computing efficiency and capabilities of AI applications using brain-inspired principles. However, the neuromorphic research field currently lacks standardized benchmarks, making it difficult to accu"
+    },
+    {
+      "title": "Synthetic Biology meets Neuromorphic Computing: Towards a bio-inspired Olfactory Perception System",
+      "arxiv_id": "2504.10053v2",
+      "year": "2025",
+      "authors": [
+        "Kevin Max",
+        "Larissa Sames",
+        "Shimeng Ye",
+        "Jan Steinkühler"
+      ],
+      "summary": "In this study, we explore how the combination of synthetic biology, neuroscience modeling, and neuromorphic electronic systems offers a new approach to creating an artificial system that mimics the natural sense of smell. We argue that a co-design ap"
+    },
+    {
+      "title": "Event Encryption: Rethinking Privacy Exposure for Neuromorphic Imaging",
+      "arxiv_id": "2306.03369v3",
+      "year": "2023",
+      "authors": [
+        "Pei Zhang",
+        "Shuo Zhu",
+        "Edmund Y. Lam"
+      ],
+      "summary": "Bio-inspired neuromorphic cameras sense illumination changes on a per-pixel basis and generate spatiotemporal streaming events within microseconds in response, offering visual information with high temporal resolution over a high dynamic range. Such "
+    },
+    {
+      "title": "NeuroMorse: A Temporally Structured Dataset For Neuromorphic Computing",
+      "arxiv_id": "2502.20729v1",
+      "year": "2025",
+      "authors": [
+        "Ben Walters",
+        "Yeshwanth Bethi",
+        "Taylor Kergan",
+        "Binh Nguyen"
+      ],
+      "summary": "Neuromorphic engineering aims to advance computing by mimicking the brain's efficient processing, where data is encoded as asynchronous temporal events. This eliminates the need for a synchronisation clock and minimises power consumption when no data"
+    },
+    {
+      "title": "Line-based Event Preprocessing: Towards Low-Energy Neuromorphic Computer Vision",
+      "arxiv_id": "2601.10742v1",
+      "year": "2026",
+      "authors": [
+        "Amélie Gruel",
+        "Pierre Lewden",
+        "Adrien F. Vincent",
+        "Sylvain Saïghi"
+      ],
+      "summary": "Neuromorphic vision made significant progress in recent years, thanks to the natural match between spiking neural networks and event data in terms of biological inspiration, energy savings, latency and memory use for dynamic visual data processing. H"
+    },
+    {
+      "title": "NEUROSEC: FPGA-Based Neuromorphic Audio Security",
+      "arxiv_id": "2401.12055v1",
+      "year": "2024",
+      "authors": [
+        "Murat Isik",
+        "Hiruna Vishwamith",
+        "Yusuf Sur",
+        "Kayode Inadagbo"
+      ],
+      "summary": "Neuromorphic systems, inspired by the complexity and functionality of the human brain, have gained interest in academic and industrial attention due to their unparalleled potential across a wide range of applications. While their capabilities herald "
+    },
+    {
+      "title": "Neuromorphic computing for attitude estimation onboard quadrotors",
+      "arxiv_id": "2304.08802v1",
+      "year": "2023",
+      "authors": [
+        "Stein Stroobants",
+        "Julien Dupeyroux",
+        "Guido C. H. E. de Croon"
+      ],
+      "summary": "Compelling evidence has been given for the high energy efficiency and update rates of neuromorphic processors, with performance beyond what standard Von Neumann architectures can achieve. Such promising features could be advantageous in critical embe"
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    }
+  ],
+  "B02-MLENERGY": [
+    {
+      "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+      "arxiv_id": "2505.06371v2",
+      "year": "2025",
+      "authors": [
+        "Jae-Won Chung",
+        "Jeff J. Ma",
+        "Ruofan Wu",
+        "Jiachen Liu"
+      ],
+      "summary": "As the adoption of Generative AI in real-world services grow explosively, energy has emerged as a critical bottleneck resource. However, energy remains a metric that is often overlooked, under-explored, or poorly understood in the context of building"
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Calibration of centre-of-mass energies at LEP 2 for a precise measurement of the W boson mass",
+      "arxiv_id": "hep-ex/0410026v1",
+      "year": "2004",
+      "authors": [
+        " LEP Energy Working Group",
+        "R. Assmann"
+      ],
+      "summary": "The determination of the centre-of-mass energies for all LEP 2 running is presented. Accurate knowledge of these energies is of primary importance to set the absolute energy scale for the measurement of the W boson mass. The beam energy between 80 an"
+    },
+    {
+      "title": "Compute and Energy Consumption Trends in Deep Learning Inference",
+      "arxiv_id": "2109.05472v2",
+      "year": "2021",
+      "authors": [
+        "Radosvet Desislavov",
+        "Fernando Martínez-Plumed",
+        "José Hernández-Orallo"
+      ],
+      "summary": "The progress of some AI paradigms such as deep learning is said to be linked to an exponential growth in the number of parameters. There are many studies corroborating these trends, but does this translate into an exponential increase in energy consu"
+    },
+    {
+      "title": "Evaluation of the LEP Centre-of-Mass Energy Above the W-Pair Production Threshold",
+      "arxiv_id": "hep-ex/9901002v2",
+      "year": "1999",
+      "authors": [
+        " The LEP Energy Working Group"
+      ],
+      "summary": "Knowledge of the centre-of-mass energy at LEP2 is of primary importance to set the absolute energy scale for the measurement of the W-boson mass. The beam energy above 80 GeV is derived from continuous measurements of the magnetic bending field by 16"
+    },
+    {
+      "title": "Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph",
+      "arxiv_id": "astro-ph/0507457v2",
+      "year": "2005",
+      "authors": [
+        "Karl Glazebrook",
+        "Daniel Eisenstein",
+        "Arjun Dey",
+        "Bob Nichol"
+      ],
+      "summary": "This white paper gives an overview of the proposed Gemini/Subaru Wide-Field Multi-Object Spectrograph (WFMOS) and the proposed redshift surveys of 2.6 million galaxies with 0.5<z<3.3 over 2000 deg^2 of sky. These surveys will probe the baryonic acous"
+    },
+    {
+      "title": "Dark Energy Survey: 2.1% measurement of the Baryon Acoustic Oscillation scale from the final dataset",
+      "arxiv_id": "2409.08759v1",
+      "year": "2024",
+      "authors": [
+        "Juan Mena-Fernández",
+        "Dark Energy Survey Collaboration"
+      ],
+      "summary": "Here, we present the angular diameter distance measurement obtained from the measurement of the Baryonic Acoustic Oscillation (BAO) feature using the completed Dark Energy Survey (DES) data, summarizing the main results of [Phys. Rev. D 110, 063514] "
+    }
+  ],
+  "B03-SPECpower": [
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Design of Robust and Efficient Edge Server Placement and Server Scheduling Policies: Extended Version",
+      "arxiv_id": "2104.14256v1",
+      "year": "2021",
+      "authors": [
+        "Shizhen Zhao",
+        "Xiao Zhang",
+        "Peirui Cao",
+        "Xinbing Wang"
+      ],
+      "summary": "We study how to design edge server placement and server scheduling policies under workload uncertainty for 5G networks. We introduce a new metric called resource pooling factor to handle unexpected workload bursts. Maximizing this metric offers a str"
+    },
+    {
+      "title": "Server Structure Proposal and Automatic Verification Technology on IaaS Cloud of Plural Type Servers",
+      "arxiv_id": "1611.09569v2",
+      "year": "2016",
+      "authors": [
+        "Yoji Yamato"
+      ],
+      "summary": "In this paper, we propose a server structure proposal and automatic performance verification technology which proposes and verifies an appropriate server structure on Infrastructure as a Service (IaaS) cloud with baremetal servers, container based vi"
+    },
+    {
+      "title": "Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph",
+      "arxiv_id": "astro-ph/0507457v2",
+      "year": "2005",
+      "authors": [
+        "Karl Glazebrook",
+        "Daniel Eisenstein",
+        "Arjun Dey",
+        "Bob Nichol"
+      ],
+      "summary": "This white paper gives an overview of the proposed Gemini/Subaru Wide-Field Multi-Object Spectrograph (WFMOS) and the proposed redshift surveys of 2.6 million galaxies with 0.5<z<3.3 over 2000 deg^2 of sky. These surveys will probe the baryonic acous"
+    },
+    {
+      "title": "Energy-Efficient Strategies for Cooperative Multi-Channel MAC Protocols",
+      "arxiv_id": "1411.6521v2",
+      "year": "2014",
+      "authors": [
+        "Tie Luo",
+        "Mehul Motani",
+        "Vikram Srinivasan"
+      ],
+      "summary": "Distributed Information SHaring (DISH) is a new cooperative approach to designing multi-channel MAC protocols. It aids nodes in their decision making processes by compensating for their missing information via information sharing through other neighb"
+    },
+    {
+      "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+      "arxiv_id": "2505.06371v2",
+      "year": "2025",
+      "authors": [
+        "Jae-Won Chung",
+        "Jeff J. Ma",
+        "Ruofan Wu",
+        "Jiachen Liu"
+      ],
+      "summary": "As the adoption of Generative AI in real-world services grow explosively, energy has emerged as a critical bottleneck resource. However, energy remains a metric that is often overlooked, under-explored, or poorly understood in the context of building"
+    },
+    {
+      "title": "Evaluation of the LEP Centre-of-Mass Energy Above the W-Pair Production Threshold",
+      "arxiv_id": "hep-ex/9901002v2",
+      "year": "1999",
+      "authors": [
+        " The LEP Energy Working Group"
+      ],
+      "summary": "Knowledge of the centre-of-mass energy at LEP2 is of primary importance to set the absolute energy scale for the measurement of the W-boson mass. The beam energy above 80 GeV is derived from continuous measurements of the magnetic bending field by 16"
+    }
+  ],
+  "B04-Green500": [
+    {
+      "title": "The L-CSC cluster: greenest supercomputer in the world in Green500 list of November 2014",
+      "arxiv_id": "1712.09431v1",
+      "year": "2017",
+      "authors": [
+        "D. Rohr",
+        "G. Neskovic",
+        "M. Radtke",
+        "V. Lindenstruth"
+      ],
+      "summary": "The L-CSC (Lattice Computer for Scientific Computing) is a general purpose compute cluster built of commodity hardware installed at GSI. Its main operational purpose is Lattice QCD (LQCD) calculations for physics simulations. Quantum Chromo Dynamics "
+    },
+    {
+      "title": "The L-CSC cluster: Optimizing power efficiency to become the greenest supercomputer in the world in the Green500 list of November 2014",
+      "arxiv_id": "1811.11475v1",
+      "year": "2018",
+      "authors": [
+        "David Rohr",
+        "Gvozden Neskovic",
+        "Volker Lindenstruth"
+      ],
+      "summary": "The L-CSC (Lattice Computer for Scientific Computing) is a general purpose compute cluster built with commodity hardware installed at GSI. Its main operational purpose is Lattice QCD (LQCD) calculations for physics simulations. Quantum Chromo Dynamic"
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Information-Theoretic Characterization of Vowel Harmony: A Cross-Linguistic Study on Word Lists",
+      "arxiv_id": "2308.04885v1",
+      "year": "2023",
+      "authors": [
+        "Julius Steuer",
+        "Badr Abdullah",
+        "Johann-Mattis List",
+        "Dietrich Klakow"
+      ],
+      "summary": "We present a cross-linguistic study that aims to quantify vowel harmony using data-driven computational modeling. Concretely, we define an information-theoretic measure of harmonicity based on the predictability of vowels in a natural language lexico"
+    },
+    {
+      "title": "Maximum-Entropy Analog Computing Approaching ExaOPS-per-Watt Energy-efficiency at the RF-Edge",
+      "arxiv_id": "2510.24975v1",
+      "year": "2025",
+      "authors": [
+        "Aswin Undavalli",
+        "Kareem Rashed",
+        "Zhili Xiao",
+        "Arun Natarajan"
+      ],
+      "summary": "In this paper, we demonstrate how the physics of entropy production, when combined with symmetry constraints, can be used for implementing high-performance and energy-efficient analog computing systems. At the core of the proposed framework is a gene"
+    },
+    {
+      "title": "Finally, how many efficiencies supercomputers have? And, what do they measure?",
+      "arxiv_id": "2001.01266v9",
+      "year": "2020",
+      "authors": [
+        "János Végh"
+      ],
+      "summary": "Using an extremely large number of processing elements in computing systems leads to unexpected phenomena, such as different efficiencies of the same system for different tasks, that cannot be explained in the frame of classical computing paradigm. T"
+    },
+    {
+      "title": "Watts-Per-Intelligence: Part I (Energy Efficiency)",
+      "arxiv_id": "2504.05328v2",
+      "year": "2025",
+      "authors": [
+        "Elija Perrier"
+      ],
+      "summary": "We present a mathematical framework for quantifying energy efficiency in intelligent systems by linking energy consumption to information-processing capacity. We introduce a watts-per-intelligence metric that integrates algorithmic thermodynamic prin"
+    }
+  ],
+  "B05-MLPerfPower": [
+    {
+      "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+      "arxiv_id": "2306.04338v1",
+      "year": "2023",
+      "authors": [
+        "Cedric De Boom",
+        "Michael Reusens"
+      ],
+      "summary": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, mo"
+    },
+    {
+      "title": "DOME: Recommendations for supervised machine learning validation in biology",
+      "arxiv_id": "2006.16189v4",
+      "year": "2020",
+      "authors": [
+        "Ian Walsh",
+        "Dmytro Fishman",
+        "Dario Garcia-Gasulla",
+        "Tiina Titma"
+      ],
+      "summary": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wi"
+    },
+    {
+      "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+      "arxiv_id": "2201.12150v2",
+      "year": "2022",
+      "authors": [
+        "Felix Mohr",
+        "Jan N. van Rijn"
+      ],
+      "summary": "Learning curves are a concept from social sciences that has been adopted in the context of machine learning to assess the performance of a learning algorithm with respect to a certain resource, e.g., the number of training examples or the number of t"
+    },
+    {
+      "title": "MEMe: An Accurate Maximum Entropy Method for Efficient Approximations in Large-Scale Machine Learning",
+      "arxiv_id": "1906.01101v1",
+      "year": "2019",
+      "authors": [
+        "Diego Granziol",
+        "Binxin Ru",
+        "Stefan Zohren",
+        "Xiaowen Doing"
+      ],
+      "summary": "Efficient approximation lies at the heart of large-scale machine learning problems. In this paper, we propose a novel, robust maximum entropy algorithm, which is capable of dealing with hundreds of moments and allows for computationally efficient app"
+    },
+    {
+      "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+      "arxiv_id": "2303.15563v1",
+      "year": "2023",
+      "authors": [
+        "Alejandro Guerra-Manzanares",
+        "L. Julian Lechuga Lopez",
+        "Michail Maniatakos",
+        "Farah E. Shamout"
+      ],
+      "summary": "Machine Learning (ML) has recently shown tremendous success in modeling various healthcare prediction tasks, ranging from disease diagnosis and prognosis to patient treatment. Due to the sensitive nature of medical data, privacy must be considered al"
+    },
+    {
+      "title": "Active learning for data streams: a survey",
+      "arxiv_id": "2302.08893v4",
+      "year": "2023",
+      "authors": [
+        "Davide Cacciarelli",
+        "Murat Kulahci"
+      ],
+      "summary": "Online active learning is a paradigm in machine learning that aims to select the most informative data points to label from a data stream. The problem of minimizing the cost associated with collecting labeled observations has gained a lot of attentio"
+    },
+    {
+      "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+      "arxiv_id": "2304.02381v2",
+      "year": "2023",
+      "authors": [
+        "Maximilian P Niroomand",
+        "David J Wales"
+      ],
+      "summary": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in u"
+    },
+    {
+      "title": "A Benchmark Study of Machine Learning Models for Online Fake News Detection",
+      "arxiv_id": "1905.04749v2",
+      "year": "2019",
+      "authors": [
+        "Junaed Younus Khan",
+        "Md. Tawkat Islam Khondaker",
+        "Sadia Afroz",
+        "Gias Uddin"
+      ],
+      "summary": "The proliferation of fake news and its propagation on social media has become a major concern due to its ability to create devastating impacts. Different machine learning approaches have been suggested to detect fake news. However, most of those focu"
+    }
+  ],
+  "B06-ULPMark": [
+    {
+      "title": "Benchmarking Distributed Stream Processing Platforms for IoT Applications",
+      "arxiv_id": "1606.07621v2",
+      "year": "2016",
+      "authors": [
+        "Anshu Shukla",
+        "Yogesh Simmhan"
+      ],
+      "summary": "Internet of Things (IoT) is a technology paradigm where millions of sensors monitor, and help inform or manage, physical, envi- ronmental and human systems in real-time. The inherent closed-loop re- sponsiveness and decision making of IoT application"
+    },
+    {
+      "title": "Marine IoT Systems with Space-Air-Sea Integrated Networks: Hybrid LEO and UAV Edge Computing",
+      "arxiv_id": "2301.03815v1",
+      "year": "2023",
+      "authors": [
+        "Sooyeob Jung",
+        "Seongah Jeong",
+        "Jinkyu Kang",
+        "Joonhyuk Kang"
+      ],
+      "summary": "Marine Internet of Things (IoT) systems have grown substantially with the development of non-terrestrial networks (NTN) via aerial and space vehicles in the upcoming sixth-generation (6G), thereby assisting environment protection, military reconnaiss"
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Security for the Industrial IoT: The Case for Information-Centric Networking",
+      "arxiv_id": "1810.04645v2",
+      "year": "2018",
+      "authors": [
+        "Michael Frey",
+        "Cenk Gündoğan",
+        "Peter Kietzmann",
+        "Martine Lenders"
+      ],
+      "summary": "Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded contr"
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Introduction to IoT",
+      "arxiv_id": "2312.06689v2",
+      "year": "2023",
+      "authors": [
+        "Tajkia Nuri Ananna",
+        "Munshi Saifuzzaman"
+      ],
+      "summary": "The Internet of Things has rapidly transformed the 21st century, enhancing decision-making processes and introducing innovative consumer services such as pay-as-you-use models. The integration of smart devices and automation technologies has revoluti"
+    },
+    {
+      "title": "Microcontroller Based Testing of Digital IP-Core",
+      "arxiv_id": "1205.1866v1",
+      "year": "2012",
+      "authors": [
+        "Amandeep Singh",
+        "Balwinder Singh"
+      ],
+      "summary": "Testing core based System on Chip is a challenge for the test engineers. To test the complete SOC at one time with maximum fault coverage, test engineers prefer to test each IP-core separately. At speed testing using external testers is more expensiv"
+    },
+    {
+      "title": "Towards Smart Healthcare: Challenges and Opportunities in IoT and ML",
+      "arxiv_id": "2312.05530v2",
+      "year": "2023",
+      "authors": [
+        "Munshi Saifuzzaman",
+        "Tajkia Nuri Ananna"
+      ],
+      "summary": "The COVID-19 pandemic and other ongoing health crises have underscored the need for prompt healthcare services worldwide. The traditional healthcare system, centered around hospitals and clinics, has proven inadequate in the face of such challenges. "
+    }
+  ],
+  "B07-TPCEnergy": [
+    {
+      "title": "Optimal Consumption under Habit Formation In Markets with Transaction Costs and Random Endowments",
+      "arxiv_id": "1408.1382v6",
+      "year": "2014",
+      "authors": [
+        "Xiang Yu"
+      ],
+      "summary": "This paper studies the optimal consumption under the addictive habit formation preference in markets with transaction costs and unbounded random endowments. To model the proportional transaction costs, we adopt the Kabanov's multi-asset framework wit"
+    },
+    {
+      "title": "Compute and Energy Consumption Trends in Deep Learning Inference",
+      "arxiv_id": "2109.05472v2",
+      "year": "2021",
+      "authors": [
+        "Radosvet Desislavov",
+        "Fernando Martínez-Plumed",
+        "José Hernández-Orallo"
+      ],
+      "summary": "The progress of some AI paradigms such as deep learning is said to be linked to an exponential growth in the number of parameters. There are many studies corroborating these trends, but does this translate into an exponential increase in energy consu"
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Power-consumption Backdoor in Quantum Key Distribution",
+      "arxiv_id": "2503.11767v1",
+      "year": "2025",
+      "authors": [
+        "Beatriz Lopes da Costa",
+        "Matías R. Bolaños",
+        "Ricardo Chaves",
+        "Claudio Narduzzi"
+      ],
+      "summary": "Over the last decades, Quantum Key Distribution (QKD) has risen as a promising solution for secure communications. However, like all cryptographic protocols, QKD implementations can open security vulnerabilities. Until now, the study of physical vuln"
+    },
+    {
+      "title": "A simulink circuit model for measurement of consumption of electric energy using frequency method",
+      "arxiv_id": "1811.07144v1",
+      "year": "2018",
+      "authors": [
+        "Emmanouil Markoulakis",
+        "Emmanuel Antonidakis",
+        "George S. Stavrakakis"
+      ],
+      "summary": "The following analysis and presentation summarizes the implementation in Matlab / Simulink environment of a prototype model digital energy circuit for measurement of the consumption of electric energy of an electrification network in the installation"
+    },
+    {
+      "title": "A Linear LMP Model for Active and Reactive Power with Power Loss",
+      "arxiv_id": "1910.02400v1",
+      "year": "2019",
+      "authors": [
+        "Yanghao Yu",
+        "Qingchun Hou",
+        "Yi Ge",
+        "Guojing Liu"
+      ],
+      "summary": "Pricing the reactive power is more necessary than ever before because of the increasing challenge of renewable energy integration on reactive power balance and voltage control. However, reactive power price is hard to be efficiently calculated becaus"
+    },
+    {
+      "title": "Advanced YOLO-based Real-time Power Line Detection for Vegetation Management",
+      "arxiv_id": "2503.00044v1",
+      "year": "2025",
+      "authors": [
+        "Shuaiang Rong",
+        "Lina He",
+        "Salih Furkan Atici",
+        "Ahmet Enis Cetin"
+      ],
+      "summary": "Power line infrastructure is a key component of the power system, and it is rapidly expanding to meet growing energy demands. Vegetation encroachment is a significant threat to the safe operation of power lines, requiring reliable and timely manageme"
+    }
+  ],
+  "B08-GreenGraph500": [
+    {
+      "title": "Counting cliques without generalized theta graphs",
+      "arxiv_id": "2311.15289v2",
+      "year": "2023",
+      "authors": [
+        "Jun Gao",
+        "Zhuo Wu",
+        "Yisai Xue"
+      ],
+      "summary": "The \\textit{generalized Turán number} $\\mathrm{ex}(n, T, F)$ is the maximum possible number of copies of $T$ in an $F$-free graph on $n$ vertices for any two graphs $T$ and $F$. For the book graph $B_t$, there is a close connection between $\\ex(n,K_3"
+    },
+    {
+      "title": "Planar Induced Subgraphs of Sparse Graphs",
+      "arxiv_id": "1408.5939v2",
+      "year": "2014",
+      "authors": [
+        "Glencora Borradaile",
+        "David Eppstein",
+        "Pingan Zhu"
+      ],
+      "summary": "We show that every graph has an induced pseudoforest of at least $n-m/4.5$ vertices, an induced partial 2-tree of at least $n-m/5$ vertices, and an induced planar subgraph of at least $n-m/5.2174$ vertices. These results are constructive, implying li"
+    },
+    {
+      "title": "Partitioning Perfect Graphs into Stars",
+      "arxiv_id": "1402.2589v3",
+      "year": "2014",
+      "authors": [
+        "René van Bevern",
+        "Robert Bredereck",
+        "Laurent Bulteau",
+        "Jiehua Chen"
+      ],
+      "summary": "The partition of graphs into \"nice\" subgraphs is a central algorithmic problem with strong ties to matching theory. We study the partitioning of undirected graphs into same-size stars, a problem known to be NP-complete even for the case of stars on t"
+    },
+    {
+      "title": "Every longest circuit of a 3-connected, $K_{3,3}$-minor free graph has a chord",
+      "arxiv_id": "0711.2360v2",
+      "year": "2007",
+      "authors": [
+        "E. Birmelé"
+      ],
+      "summary": "Carsten Thomassen conjectured that every longest circuit in a 3-connected graph has a chord. We prove the conjecture for graphs having no $K_{3,3}$ minor, and consequently for planar graphs."
+    },
+    {
+      "title": "PDNS-Net: A Large Heterogeneous Graph Benchmark Dataset of Network Resolutions for Graph Learning",
+      "arxiv_id": "2203.07969v1",
+      "year": "2022",
+      "authors": [
+        "Udesh Kumarasinghe",
+        "Fatih Deniz",
+        "Mohamed Nabeel"
+      ],
+      "summary": "In order to advance the state of the art in graph learning algorithms, it is necessary to construct large real-world datasets. While there are many benchmark datasets for homogeneous graphs, only a few of them are available for heterogeneous graphs. "
+    },
+    {
+      "title": "Template-Based Graph Clustering",
+      "arxiv_id": "2107.01994v1",
+      "year": "2021",
+      "authors": [
+        "Mateus Riva",
+        "Florian Yger",
+        "Pietro Gori",
+        "Roberto M. Cesar"
+      ],
+      "summary": "We propose a novel graph clustering method guided by additional information on the underlying structure of the clusters (or communities). The problem is formulated as the matching of a graph to a template with smaller dimension, hence matching $n$ ve"
+    },
+    {
+      "title": "The Galois Complexity of Graph Drawing: Why Numerical Solutions are Ubiquitous for Force-Directed, Spectral, and Circle Packing Drawings",
+      "arxiv_id": "1408.1422v1",
+      "year": "2014",
+      "authors": [
+        "Michael J. Bannister",
+        "William E. Devanny",
+        "David Eppstein",
+        "Michael T. Goodrich"
+      ],
+      "summary": "Many well-known graph drawing techniques, including force directed drawings, spectral graph layouts, multidimensional scaling, and circle packings, have algebraic formulations. However, practical methods for producing such drawings ubiquitously use i"
+    },
+    {
+      "title": "Crossing Minimization for 1-page and 2-page Drawings of Graphs with Bounded Treewidth",
+      "arxiv_id": "1408.6321v1",
+      "year": "2014",
+      "authors": [
+        "Michael J. Bannister",
+        "David Eppstein"
+      ],
+      "summary": "We investigate crossing minimization for 1-page and 2-page book drawings. We show that computing the 1-page crossing number is fixed-parameter tractable with respect to the number of crossings, that testing 2-page planarity is fixed-parameter tractab"
+    }
+  ],
+  "B09-CoreMarkPro": [
+    {
+      "title": "OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning",
+      "arxiv_id": "2603.08655v1",
+      "year": "2026",
+      "authors": [
+        "Krista Opsahl-Ong",
+        "Arnav Singhvi",
+        "Jasmine Collins",
+        "Ivan Zhou"
+      ],
+      "summary": "We introduce OfficeQA Pro, a benchmark for evaluating AI agents on grounded, multi-document reasoning over a large and heterogeneous document corpus. The corpus consists of U.S. Treasury Bulletins spanning nearly 100 years, comprising 89,000 pages an"
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph",
+      "arxiv_id": "astro-ph/0507457v2",
+      "year": "2005",
+      "authors": [
+        "Karl Glazebrook",
+        "Daniel Eisenstein",
+        "Arjun Dey",
+        "Bob Nichol"
+      ],
+      "summary": "This white paper gives an overview of the proposed Gemini/Subaru Wide-Field Multi-Object Spectrograph (WFMOS) and the proposed redshift surveys of 2.6 million galaxies with 0.5<z<3.3 over 2000 deg^2 of sky. These surveys will probe the baryonic acous"
+    },
+    {
+      "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+      "arxiv_id": "2607.18213v1",
+      "year": "2026",
+      "authors": [
+        "Yuhang Wang",
+        "Yuling Shi",
+        "Shaoqiu Zhang",
+        "Jialiang Liang"
+      ],
+      "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes inte"
+    },
+    {
+      "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+      "arxiv_id": "2505.06371v2",
+      "year": "2025",
+      "authors": [
+        "Jae-Won Chung",
+        "Jeff J. Ma",
+        "Ruofan Wu",
+        "Jiachen Liu"
+      ],
+      "summary": "As the adoption of Generative AI in real-world services grow explosively, energy has emerged as a critical bottleneck resource. However, energy remains a metric that is often overlooked, under-explored, or poorly understood in the context of building"
+    },
+    {
+      "title": "Evaluation of the LEP Centre-of-Mass Energy Above the W-Pair Production Threshold",
+      "arxiv_id": "hep-ex/9901002v2",
+      "year": "1999",
+      "authors": [
+        " The LEP Energy Working Group"
+      ],
+      "summary": "Knowledge of the centre-of-mass energy at LEP2 is of primary importance to set the absolute energy scale for the measurement of the W-boson mass. The beam energy above 80 GeV is derived from continuous measurements of the magnetic bending field by 16"
+    },
+    {
+      "title": "CoreMark: Toward Robust and Universal Text Watermarking Technique",
+      "arxiv_id": "2506.23066v2",
+      "year": "2025",
+      "authors": [
+        "Jiale Meng",
+        "Yiming Li",
+        "Zheming Lu",
+        "Zewei He"
+      ],
+      "summary": "Text watermarking schemes have gained considerable attention in recent years, yet still face critical challenges in achieving simultaneous robustness, generalizability, and imperceptibility. This paper introduces a new embedding paradigm,termed CORE,"
+    }
+  ],
+  "B10-CloudSuite": [
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Calibration of centre-of-mass energies at LEP 2 for a precise measurement of the W boson mass",
+      "arxiv_id": "hep-ex/0410026v1",
+      "year": "2004",
+      "authors": [
+        " LEP Energy Working Group",
+        "R. Assmann"
+      ],
+      "summary": "The determination of the centre-of-mass energies for all LEP 2 running is presented. Accurate knowledge of these energies is of primary importance to set the absolute energy scale for the measurement of the W boson mass. The beam energy between 80 an"
+    },
+    {
+      "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+      "arxiv_id": "2505.06371v2",
+      "year": "2025",
+      "authors": [
+        "Jae-Won Chung",
+        "Jeff J. Ma",
+        "Ruofan Wu",
+        "Jiachen Liu"
+      ],
+      "summary": "As the adoption of Generative AI in real-world services grow explosively, energy has emerged as a critical bottleneck resource. However, energy remains a metric that is often overlooked, under-explored, or poorly understood in the context of building"
+    },
+    {
+      "title": "Evaluation of the LEP Centre-of-Mass Energy Above the W-Pair Production Threshold",
+      "arxiv_id": "hep-ex/9901002v2",
+      "year": "1999",
+      "authors": [
+        " The LEP Energy Working Group"
+      ],
+      "summary": "Knowledge of the centre-of-mass energy at LEP2 is of primary importance to set the absolute energy scale for the measurement of the W-boson mass. The beam energy above 80 GeV is derived from continuous measurements of the magnetic bending field by 16"
+    },
+    {
+      "title": "Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph",
+      "arxiv_id": "astro-ph/0507457v2",
+      "year": "2005",
+      "authors": [
+        "Karl Glazebrook",
+        "Daniel Eisenstein",
+        "Arjun Dey",
+        "Bob Nichol"
+      ],
+      "summary": "This white paper gives an overview of the proposed Gemini/Subaru Wide-Field Multi-Object Spectrograph (WFMOS) and the proposed redshift surveys of 2.6 million galaxies with 0.5<z<3.3 over 2000 deg^2 of sky. These surveys will probe the baryonic acous"
+    },
+    {
+      "title": "Dark Energy Survey: 2.1% measurement of the Baryon Acoustic Oscillation scale from the final dataset",
+      "arxiv_id": "2409.08759v1",
+      "year": "2024",
+      "authors": [
+        "Juan Mena-Fernández",
+        "Dark Energy Survey Collaboration"
+      ],
+      "summary": "Here, we present the angular diameter distance measurement obtained from the measurement of the Baryonic Acoustic Oscillation (BAO) feature using the completed Dark Energy Survey (DES) data, summarizing the main results of [Phys. Rev. D 110, 063514] "
+    },
+    {
+      "title": "Optical Flow Method for Measuring Deformation of Soil Specimen Subjected to Torsional Shearing",
+      "arxiv_id": "2101.07005v2",
+      "year": "2021",
+      "authors": [
+        "Piotr E. Srokosz",
+        "Marcin Bujko",
+        "Marta Bocheńska",
+        "Rafał Ossowski"
+      ],
+      "summary": "In this study optical flow method was used for soil small deformation measurement in laboratory tests. The main objective was to observe how the deformation distributes along the whole height of cylindrical soil specimen subjected to torsional sheari"
+    }
+  ],
+  "B11-HPCG": [
+    {
+      "title": "An analysis of transverse momentum spectra of various jets produced in high energy collisions",
+      "arxiv_id": "2008.12554v2",
+      "year": "2020",
+      "authors": [
+        "Yang-Ming Tai",
+        "Pei-Pin Yang",
+        "Fu-Hu Liu"
+      ],
+      "summary": "With the framework of the multi-source thermal model, we analyze the experimental transverse momentum spectra of various jets produced in different collisions at high energies. Two energy sources, a projectile participant quark and a target participa"
+    },
+    {
+      "title": "On Extracting Thermal Parameters and Scenario in High-Energy Collisions",
+      "arxiv_id": "2410.20945v3",
+      "year": "2024",
+      "authors": [
+        "Ting-Ting Duan",
+        "Sahanaa Büriechin",
+        "Hai-Ling Lao",
+        "Fu-Hu Liu"
+      ],
+      "summary": "In this minireview article, we examine the inconsistent results of thermal parameters derived from various models in high-energy collisions. Through a comprehensive literature review and based on the average transverse momentum or the root-mean-squar"
+    },
+    {
+      "title": "On the Square Speed of Sound in High-Energy Collisions: Range of Values and How to Understand It",
+      "arxiv_id": "2412.01467v3",
+      "year": "2024",
+      "authors": [
+        "Ting-Ting Duan",
+        "Fu-Hu Liu",
+        "Khusniddin K. Olimov"
+      ],
+      "summary": "After reviewing the sound speeds in various forms and conditions of matter, we investigate the sound speed of hadronic matter that has decoupled from the hot and dense system formed during high-energy collisions. We comprehensively consider factors s"
+    },
+    {
+      "title": "Random statistical analysis of transverse momentum spectra of strange particles and dependence of related parameters on centrality in high energy collisions at the LHC",
+      "arxiv_id": "2209.03894v2",
+      "year": "2022",
+      "authors": [
+        "Xu-Hong Zhang",
+        "Fu-Hu Liu",
+        "Khusniddin K. Olimov",
+        "Airton Deppman"
+      ],
+      "summary": "We have studied the transverse momentum ($p_T$) spectra of the final-state strange particles, including $K^{\\pm}$, $φ$, $\\itΞ$, and $\\itΩ$, produced in high energy lead-lead (Pb-Pb), proton-lead ($p$-Pb), xenon-xenon (Xe-Xe) collisions at the Large H"
+    },
+    {
+      "title": "Excitation functions of related parameters from transverse momentum (mass) spectra in high energy collisions",
+      "arxiv_id": "1911.07419v2",
+      "year": "2019",
+      "authors": [
+        "Li-Li Li",
+        "Fu-Hu Liu",
+        "Muhammad Waqas",
+        "Rasha Al-Yusufi"
+      ],
+      "summary": "Transverse momentum (mass) spectra of positively and negatively charged pions, positively and negatively charged kaons, protons and antiprotons produced at mid-(pseudo)rapidity in various collisions at high energies are analyzed in this work. The exp"
+    },
+    {
+      "title": "Trapped fireshell (halo) of photons and pairs around black-hole horizon: source for ultra-high-energy particles",
+      "arxiv_id": "2512.03702v3",
+      "year": "2025",
+      "authors": [
+        "She-Sheng Xue"
+      ],
+      "summary": "We study the Compton-rocket effect of strong radiation force accelerating electrons in an opaque fireshell (or fire spot) of dense photons and electron-positron pairs, whose temperature is spatially inhomogeneous and exceeds the electron mass. We fin"
+    },
+    {
+      "title": "A new description of transverse momentum spectra of identified particles produced in proton-proton collisions at high energies",
+      "arxiv_id": "1909.13235v5",
+      "year": "2019",
+      "authors": [
+        "Pei-Pin Yang",
+        "Fu-Hu Liu",
+        "Raghunath Sahoo"
+      ],
+      "summary": "The transverse momentum spectra of identified particles produced in high energy proton-proton ($p+p$) collisions are empirically described by a new method with the framework of participant quark model or the multisource model at the quark level, in w"
+    },
+    {
+      "title": "Multi-Source Thermal Model Describing Transverse Momentum Spectra of Final-State Particles in High Energy Collisions",
+      "arxiv_id": "2111.13433v2",
+      "year": "2021",
+      "authors": [
+        "Fu-Hu Liu",
+        "Jia-Yu Chen",
+        "Qiang Zhang"
+      ],
+      "summary": "In this mini review article, the transverse momentum spectra of final-state particles produced in high energy hadron-hadron, hadron-nucleus, and nucleus-nucleus collisions described by the multi-source thermal model at the quark or parton level is su"
+    }
+  ],
+  "B12-SQC": [
+    {
+      "title": "Sustainable Quantum Computing: Opportunities and Challenges of Benchmarking Carbon in the Quantum Computing Lifecycle",
+      "arxiv_id": "2408.05679v2",
+      "year": "2024",
+      "authors": [
+        "Nivedita Arora",
+        "Prem Kumar"
+      ],
+      "summary": "While researchers in both industry and academia are racing to build Quantum Computing (QC) platforms with viable performance and functionality, the environmental impacts of this endeavor, such as its carbon footprint, e-waste generation, mineral use,"
+    },
+    {
+      "title": "Quantum Computing: Vision and Challenges",
+      "arxiv_id": "2403.02240v5",
+      "year": "2024",
+      "authors": [
+        "Sukhpal Singh Gill",
+        "Oktay Cetinkaya",
+        "Stefano Marrone",
+        "Daniel Claudino"
+      ],
+      "summary": "The recent development of quantum computing, which uses entanglement, superposition, and other quantum fundamental concepts, can provide substantial processing advantages over traditional computing. These quantum features help solve many complex prob"
+    },
+    {
+      "title": "Quantum Software Development Lifecycle",
+      "arxiv_id": "2106.09323v1",
+      "year": "2021",
+      "authors": [
+        "Benjamin Weder",
+        "Johanna Barzen",
+        "Frank Leymann",
+        "Daniel Vietz"
+      ],
+      "summary": "With recent advances in the development of more powerful quantum computers, the research area of quantum software engineering is emerging, having the goal to provide concepts, principles, and guidelines to develop high-quality quantum applications. I"
+    },
+    {
+      "title": "Tierkreis: A Dataflow Framework for Hybrid Quantum-Classical Computing",
+      "arxiv_id": "2211.02350v1",
+      "year": "2022",
+      "authors": [
+        "Seyon Sivarajah",
+        "Lukas Heidemann",
+        "Alan Lawrence",
+        "Ross Duncan"
+      ],
+      "summary": "We present Tierkreis, a higher-order dataflow graph program representation and runtime designed for compositional, quantum-classical hybrid algorithms. The design of the system is motivated by the remote nature of quantum computers, the need for hybr"
+    },
+    {
+      "title": "Evaluating Computing Platforms for Sustainability: A Comparative Analysis of FPGAs against ASICs, GPUs, and CPUs",
+      "arxiv_id": "2604.20638v1",
+      "year": "2026",
+      "authors": [
+        "Chetan Choppali Sudarshan",
+        "Aman Arora",
+        "Vidya A Chhabria"
+      ],
+      "summary": "Climate change concerns emphasize the need for sustainable computing. Modeling the carbon footprint (CFP), including operational and embodied CFP from semiconductor use, manufacture and design, is essential. Field programmable gate arrays (FPGAs) sta"
+    },
+    {
+      "title": "Toxicity of Carbon Nanomaterials",
+      "arxiv_id": "2109.13918v1",
+      "year": "2021",
+      "authors": [
+        "Arpita Adhikari",
+        "Joydip Sengupta"
+      ],
+      "summary": "The outstanding multidisciplinary applicability of nanomaterials has paved the path for the rapid advancement of nanoscience during the last few decades. Such technological progress subsequently results in an inevitable environmental exposure of nano"
+    },
+    {
+      "title": "WaterWise: Co-optimizing Carbon- and Water-Footprint Toward Environmentally Sustainable Cloud Computing",
+      "arxiv_id": "2501.17944v2",
+      "year": "2025",
+      "authors": [
+        "Yankai Jiang",
+        "Rohan Basu Roy",
+        "Raghavendra Kanakagiri",
+        "Devesh Tiwari"
+      ],
+      "summary": "The carbon and water footprint of large-scale computing systems poses serious environmental sustainability risks. In this study, we discover that, unfortunately, carbon and water sustainability are at odds with each other - and, optimizing one alone "
+    },
+    {
+      "title": "Environmental sustainability in basic research: a perspective from HECAP+",
+      "arxiv_id": "2306.02837v2",
+      "year": "2023",
+      "authors": [
+        "Sustainable HECAP+ Initiative",
+        " :",
+        "Shankha Banerjee",
+        "Thomas Y. Chen"
+      ],
+      "summary": "The climate crisis and the degradation of the world's ecosystems require humanity to take immediate action. The international scientific community has a responsibility to limit the negative environmental impacts of basic research. The HECAP+ communit"
+    }
+  ],
+  "B13-ApproxSurvey": [
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Dark Energy Survey: 2.1% measurement of the Baryon Acoustic Oscillation scale from the final dataset",
+      "arxiv_id": "2409.08759v1",
+      "year": "2024",
+      "authors": [
+        "Juan Mena-Fernández",
+        "Dark Energy Survey Collaboration"
+      ],
+      "summary": "Here, we present the angular diameter distance measurement obtained from the measurement of the Baryonic Acoustic Oscillation (BAO) feature using the completed Dark Energy Survey (DES) data, summarizing the main results of [Phys. Rev. D 110, 063514] "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "The Dark Energy Survey Data Processing and Calibration System",
+      "arxiv_id": "1207.3189v1",
+      "year": "2012",
+      "authors": [
+        "Joseph J. Mohr",
+        "Robert Armstrong",
+        "Emmanuel Bertin",
+        "Gregory E. Daues"
+      ],
+      "summary": "The Dark Energy Survey (DES) is a 5000 deg2 grizY survey reaching characteristic photometric depths of 24th magnitude (10 sigma) and enabling accurate photometry and morphology of objects ten times fainter than in SDSS. Preparations for DES have incl"
+    },
+    {
+      "title": "Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications",
+      "arxiv_id": "2307.11128v2",
+      "year": "2023",
+      "authors": [
+        "Vasileios Leon",
+        "Muhammad Abdullah Hanif",
+        "Giorgos Armeniakos",
+        "Xun Jiao"
+      ],
+      "summary": "The challenging deployment of compute-intensive applications from domains such as Artificial Intelligence (AI) and Digital Signal Processing (DSP), forces the community of computing systems to explore new design approaches. Approximate Computing appe"
+    },
+    {
+      "title": "Approximate Computing Survey, Part I: Terminology and Software & Hardware Approximation Techniques",
+      "arxiv_id": "2307.11124v2",
+      "year": "2023",
+      "authors": [
+        "Vasileios Leon",
+        "Muhammad Abdullah Hanif",
+        "Giorgos Armeniakos",
+        "Xun Jiao"
+      ],
+      "summary": "The rapid growth of demanding applications in domains applying multimedia processing and machine learning has marked a new era for edge and cloud computing. These applications involve massive data and compute-intensive tasks, and thus, typical comput"
+    },
+    {
+      "title": "Approximate Computing for Robotic path planning -- Experimentation, Case Study and Practical Implications",
+      "arxiv_id": "2104.05773v2",
+      "year": "2021",
+      "authors": [
+        "Hrishav Bakul Barua"
+      ],
+      "summary": "Approximate computing is a computation domain which can be used to trade time and energy with quality and therefore is useful in embedded systems. Energy is the prime resource in battery-driven embedded systems, like robots. Approximate computing can"
+    },
+    {
+      "title": "AIn't Nothing But a Survey? Using Large Language Models for Coding German Open-Ended Survey Responses on Survey Motivation",
+      "arxiv_id": "2506.14634v3",
+      "year": "2025",
+      "authors": [
+        "Leah von der Heyde",
+        "Anna-Carolina Haensch",
+        "Bernd Weiß",
+        "Jessica Daikeler"
+      ],
+      "summary": "The recent development and wider accessibility of LLMs have spurred discussions about how they can be used in survey research, including classifying open-ended survey responses. Due to their linguistic capacities, it is possible that LLMs are an effi"
+    }
+  ],
+  "B14-GoogleMLCarbon": [
+    {
+      "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+      "arxiv_id": "2306.04338v1",
+      "year": "2023",
+      "authors": [
+        "Cedric De Boom",
+        "Michael Reusens"
+      ],
+      "summary": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, mo"
+    },
+    {
+      "title": "DOME: Recommendations for supervised machine learning validation in biology",
+      "arxiv_id": "2006.16189v4",
+      "year": "2020",
+      "authors": [
+        "Ian Walsh",
+        "Dmytro Fishman",
+        "Dario Garcia-Gasulla",
+        "Tiina Titma"
+      ],
+      "summary": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wi"
+    },
+    {
+      "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+      "arxiv_id": "2201.12150v2",
+      "year": "2022",
+      "authors": [
+        "Felix Mohr",
+        "Jan N. van Rijn"
+      ],
+      "summary": "Learning curves are a concept from social sciences that has been adopted in the context of machine learning to assess the performance of a learning algorithm with respect to a certain resource, e.g., the number of training examples or the number of t"
+    },
+    {
+      "title": "Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models",
+      "arxiv_id": "2007.03051v1",
+      "year": "2020",
+      "authors": [
+        "Lasse F. Wolff Anthony",
+        "Benjamin Kanding",
+        "Raghavendra Selvan"
+      ],
+      "summary": "Deep learning (DL) can achieve impressive results across a wide variety of tasks, but this often comes at the cost of training models for extensive periods on specialized hardware accelerators. This energy-intensive workload has seen immense growth i"
+    },
+    {
+      "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+      "arxiv_id": "2304.02381v2",
+      "year": "2023",
+      "authors": [
+        "Maximilian P Niroomand",
+        "David J Wales"
+      ],
+      "summary": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in u"
+    },
+    {
+      "title": "Active learning for data streams: a survey",
+      "arxiv_id": "2302.08893v4",
+      "year": "2023",
+      "authors": [
+        "Davide Cacciarelli",
+        "Murat Kulahci"
+      ],
+      "summary": "Online active learning is a paradigm in machine learning that aims to select the most informative data points to label from a data stream. The problem of minimizing the cost associated with collecting labeled observations has gained a lot of attentio"
+    },
+    {
+      "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+      "arxiv_id": "2303.15563v1",
+      "year": "2023",
+      "authors": [
+        "Alejandro Guerra-Manzanares",
+        "L. Julian Lechuga Lopez",
+        "Michail Maniatakos",
+        "Farah E. Shamout"
+      ],
+      "summary": "Machine Learning (ML) has recently shown tremendous success in modeling various healthcare prediction tasks, ranging from disease diagnosis and prognosis to patient treatment. Due to the sensitive nature of medical data, privacy must be considered al"
+    },
+    {
+      "title": "A Benchmark Study of Machine Learning Models for Online Fake News Detection",
+      "arxiv_id": "1905.04749v2",
+      "year": "2019",
+      "authors": [
+        "Junaed Younus Khan",
+        "Md. Tawkat Islam Khondaker",
+        "Sadia Afroz",
+        "Gias Uddin"
+      ],
+      "summary": "The proliferation of fake news and its propagation on social media has become a major concern due to its ability to create devastating impacts. Different machine learning approaches have been suggested to detect fake news. However, most of those focu"
+    }
+  ],
+  "C1-QC-Advantage": [
+    {
+      "title": "The EAGLE simulations of galaxy formation: Public release of particle data",
+      "arxiv_id": "1706.09899v1",
+      "year": "2017",
+      "authors": [
+        " The EAGLE team"
+      ],
+      "summary": "This manual accompanies the release of the particle data for 24 simulations of the EAGLE suite of cosmological hydrodynamical simulations of galaxy formation by the virgo consortium. It describes how to download these snapshots and how to extract dat"
+    },
+    {
+      "title": "Complete characterization of the directly implementable quantum gates used in the IBM quantum processors",
+      "arxiv_id": "1805.07185v2",
+      "year": "2018",
+      "authors": [
+        "Abhishek Shukla",
+        "Mitali Sisodia",
+        "Anirban Pathak"
+      ],
+      "summary": "Quantum process tomography of each directly implementable quantum gate used in the IBM quantum processors is performed to compute gate error in order to check viability of complex quantum operations in the superconductivity-based quantum computers in"
+    },
+    {
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "arxiv_id": "2512.10504v2",
+      "year": "2025",
+      "authors": [
+        " Tianyan Quantum Group"
+      ],
+      "summary": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 q"
+    },
+    {
+      "title": "United Nation Security Council in Quantum World: Experimental Realization of Quantum Anonymous Veto Protocols using IBM Quantum Computer",
+      "arxiv_id": "2111.09028v1",
+      "year": "2021",
+      "authors": [
+        "Satish Kumar",
+        "Anirban Pathak"
+      ],
+      "summary": "United Nation (UN) security council has fifteen members, out of which five permanent members of the council can use their veto power against any unfavorable decision taken by the council. In certain situation, a member using right to veto may prefer "
+    },
+    {
+      "title": "Partial Loopholes Free Device Independent Quantum Random Number Generator Using IBM's Quantum Computers",
+      "arxiv_id": "2309.05299v2",
+      "year": "2023",
+      "authors": [
+        "Abhishek Yadav",
+        "Sandeep Mishra",
+        "Anirban Pathak"
+      ],
+      "summary": "Random numbers form an intrinsic part of modern day computing with applications in a wide variety of fields. But due to their limitations, the use of pseudo random number generators (PRNGs) is certainly not desirable for sensitive applications. Quant"
+    },
+    {
+      "title": "Google's Quantum Supremacy Claim: Data, Documentation, and Discussion",
+      "arxiv_id": "2210.12753v3",
+      "year": "2022",
+      "authors": [
+        "Gil Kalai",
+        "Yosef Rinott",
+        "Tomer Shoham"
+      ],
+      "summary": "In October 2019, Nature published a paper describing an experiment that took place at Google. The paper claims to demonstrate quantum (computational) supremacy on a 53-qubit quantum computer. Since September 2019 we have been involved in a long-term "
+    },
+    {
+      "title": "Digital quantum simulation of cosmological particle creation with IBM quantum computers",
+      "arxiv_id": "2410.02412v2",
+      "year": "2024",
+      "authors": [
+        "Marco Díaz Maceda",
+        "Carlos Sabín"
+      ],
+      "summary": "We use digital quantum computing to simulate the creation of particles in a dynamic spacetime. We consider a system consisting of a minimally coupled massive quantum scalar field in a spacetime undergoing homogeneous and isotropic expansion, transiti"
+    },
+    {
+      "title": "Noisy three-player dilemma game: Robustness of the quantum advantage",
+      "arxiv_id": "2004.04533v1",
+      "year": "2020",
+      "authors": [
+        "Pranav Kairon",
+        "Kishore Thapliyal",
+        "R. Srikanth",
+        "Anirban Pathak"
+      ],
+      "summary": "Games involving quantum strategies often yield higher payoff. Here, we study a practical realization of the three-player dilemma game using the superconductivity-based quantum processors provided by IBM Q Experience. We analyze the persistence of the"
+    }
+  ],
+  "C2-QC-Roadmap": [
+    {
+      "title": "An introduction to Fault-tolerant Quantum Computing",
+      "arxiv_id": "1508.03695v1",
+      "year": "2015",
+      "authors": [
+        "Alexandru Paler",
+        "Simon J. Devitt"
+      ],
+      "summary": "In this paper we provide a basic introduction of the core ideas and theories surrounding fault-tolerant quantum computation. These concepts underly the theoretical framework of large-scale quantum computation and communications and are the driving fo"
+    },
+    {
+      "title": "Continuous-time quantum error correction",
+      "arxiv_id": "1311.2485v2",
+      "year": "2013",
+      "authors": [
+        "Ognyan Oreshkov"
+      ],
+      "summary": "Continuous-time quantum error correction (CTQEC) is an approach to protecting quantum information from noise in which both the noise and the error correcting operations are treated as processes that are continuous in time. This chapter investigates C"
+    },
+    {
+      "title": "Fault-tolerant quantum computation with constant overhead for general noise",
+      "arxiv_id": "2512.02760v1",
+      "year": "2025",
+      "authors": [
+        "Matthias Christandl",
+        "Omar Fawzi",
+        "Ashutosh Goswami"
+      ],
+      "summary": "Fault-tolerant quantum computation traditionally incurs substantial resource overhead, with both qubit and time overheads scaling polylogarithmically with the size of the computation. While prior work by Gottesman showed that constant qubit overhead "
+    },
+    {
+      "title": "Entanglement-Assisted Quantum Error-Correcting Codes",
+      "arxiv_id": "1610.04013v1",
+      "year": "2016",
+      "authors": [
+        "Todd Brun",
+        "Min-Hsiu Hsieh"
+      ],
+      "summary": "We provide a self-contained introduction for entanglement-assisted quantum error-correcting codes in this book chapter."
+    },
+    {
+      "title": "Fault-tolerant quantum error detection",
+      "arxiv_id": "1611.06946v2",
+      "year": "2016",
+      "authors": [
+        "N. M. Linke",
+        "M. Gutierrez",
+        "K. A. Landsman",
+        "C. Figgatt"
+      ],
+      "summary": "Quantum computers will eventually reach a size at which quantum error correction becomes imperative. Quantum information can be protected from qubit imperfections and flawed control operations by encoding a single logical qubit in multiple physical q"
+    },
+    {
+      "title": "Fault-tolerant quantum input/output",
+      "arxiv_id": "2408.05260v3",
+      "year": "2024",
+      "authors": [
+        "Matthias Christandl",
+        "Omar Fawzi",
+        "Ashutosh Goswami"
+      ],
+      "summary": "Usual scenarios of fault-tolerant computation are concerned with the fault-tolerant realization of quantum algorithms that compute classical functions, such as Shor's algorithm for factoring. In particular, this means that input and output to the qua"
+    },
+    {
+      "title": "Fault tolerance for holonomic quantum computation",
+      "arxiv_id": "1312.0165v1",
+      "year": "2013",
+      "authors": [
+        "Ognyan Oreshkov",
+        "Todd A. Brun",
+        "Daniel A. Lidar"
+      ],
+      "summary": "We review an approach to fault-tolerant holonomic quantum computation on stabilizer codes. We explain its workings as based on adiabatic dragging of the subsystem containing the logical information around suitable loops along which the information re"
+    },
+    {
+      "title": "Fault-tolerant Quantum Error Correction Using a Linear Array of Emitters",
+      "arxiv_id": "2403.01376v2",
+      "year": "2024",
+      "authors": [
+        "Jintae Kim",
+        "Jung Hoon Han",
+        "Isaac H. Kim"
+      ],
+      "summary": "We propose a fault-tolerant quantum error correction architecture consisting of a linear array of emitters and delay lines. In our scheme, a resource state for fault-tolerant quantum computation is generated by letting the emitters interact with a st"
+    }
+  ],
+  "C3-DWave-Revenue": [
+    {
+      "title": "An energetic perspective on rapid quenches in quantum annealing",
+      "arxiv_id": "2007.11599v5",
+      "year": "2020",
+      "authors": [
+        "Adam Callison",
+        "Max Festenstein",
+        "Jie Chen",
+        "Laurentiu Nita"
+      ],
+      "summary": "There are well developed theoretical tools to analyse how quantum dynamics can solve computational problems by varying Hamiltonian parameters slowly, near the adiabatic limit. On the other hand, there are relatively few tools to understand the opposi"
+    },
+    {
+      "title": "Benchmarking Hamiltonian Noise in the D-Wave Quantum Annealer",
+      "arxiv_id": "2006.16421v3",
+      "year": "2020",
+      "authors": [
+        "Tristan Zaborniak",
+        "Rogério de Sousa"
+      ],
+      "summary": "Various sources of noise limit the performance of quantum computers by altering qubit states in an uncontrolled manner throughout computations and reducing their coherence time. In quantum annealers, this noise introduces additional fluctuations to t"
+    },
+    {
+      "title": "Applications of Quantum Annealing in Statistics",
+      "arxiv_id": "1904.06819v2",
+      "year": "2019",
+      "authors": [
+        "Robert C. Foster",
+        "Brian Weaver",
+        "James Gattiker"
+      ],
+      "summary": "Quantum computation offers exciting new possibilities for statistics. This paper explores the use of the D-Wave machine, a specialized type of quantum computer, which performs quantum annealing. A general description of quantum annealing through the "
+    },
+    {
+      "title": "Quantum Annealing - Foundations and Frontiers",
+      "arxiv_id": "1408.5784v1",
+      "year": "2014",
+      "authors": [
+        "Eliahu Cohen",
+        "Boaz Tamir"
+      ],
+      "summary": "We briefly review various computational methods for the solution of optimization problems. First, several classical methods such as Metropolis algorithm and simulated annealing are discussed. We continue with a description of quantum methods, namely "
+    },
+    {
+      "title": "Multivariable Optimization: Quantum Annealing & Computation",
+      "arxiv_id": "1408.3262v3",
+      "year": "2014",
+      "authors": [
+        "Sudip Mukherjee",
+        "Bikas K. Chakrabarti"
+      ],
+      "summary": "Recent developments in quantum annealing techniques have been indicating potential advantage of quantum annealing for solving NP-hard optimization problems. In this article we briefly indicate and discuss the beneficial features of quantum annealing "
+    },
+    {
+      "title": "Graver Bases via Quantum Annealing with Application to Non-Linear Integer Programs",
+      "arxiv_id": "1902.04215v1",
+      "year": "2019",
+      "authors": [
+        "Hedayat Alghassi",
+        "Raouf Dridi",
+        "Sridhar Tayur"
+      ],
+      "summary": "We propose a novel hybrid quantum-classical approach to calculate Graver bases, which have the potential to solve a variety of hard linear and non-linear integer programs, as they form a test set (optimality certificate) with very appealing propertie"
+    },
+    {
+      "title": "Modernizing Quantum Annealing using Local Searches",
+      "arxiv_id": "1606.06833v6",
+      "year": "2016",
+      "authors": [
+        "Nicholas Chancellor"
+      ],
+      "summary": "I describe how real quantum annealers may be used to perform local (in state space) searches around specified states, rather than the global searches traditionally implemented in the quantum annealing algorithm. Such protocols will have numerous adva"
+    },
+    {
+      "title": "Quantum Annealing and Computation",
+      "arxiv_id": "2203.15839v1",
+      "year": "2022",
+      "authors": [
+        "Bikas K Chakrabarti",
+        "Sudip Mukherjee"
+      ],
+      "summary": "We introduce and review briefly the phenomenon of quantum annealing and analog computation. The role of quantum fluctuation (tunneling) in random systems with rugged (free) energy landscapes having macroscopic barriers are discussed to demonstrate th"
+    }
+  ],
+  "C4-QC-Defense": [
+    {
+      "title": "Tierkreis: A Dataflow Framework for Hybrid Quantum-Classical Computing",
+      "arxiv_id": "2211.02350v1",
+      "year": "2022",
+      "authors": [
+        "Seyon Sivarajah",
+        "Lukas Heidemann",
+        "Alan Lawrence",
+        "Ross Duncan"
+      ],
+      "summary": "We present Tierkreis, a higher-order dataflow graph program representation and runtime designed for compositional, quantum-classical hybrid algorithms. The design of the system is motivated by the remote nature of quantum computers, the need for hybr"
+    },
+    {
+      "title": "Quantum Computing: Vision and Challenges",
+      "arxiv_id": "2403.02240v5",
+      "year": "2024",
+      "authors": [
+        "Sukhpal Singh Gill",
+        "Oktay Cetinkaya",
+        "Stefano Marrone",
+        "Daniel Claudino"
+      ],
+      "summary": "The recent development of quantum computing, which uses entanglement, superposition, and other quantum fundamental concepts, can provide substantial processing advantages over traditional computing. These quantum features help solve many complex prob"
+    },
+    {
+      "title": "Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations",
+      "arxiv_id": "2207.14810v3",
+      "year": "2022",
+      "authors": [
+        "Duarte Magano",
+        "Miguel Murça"
+      ],
+      "summary": "The problem of Phase Estimation (or Amplitude Estimation) admits a quadratic quantum speedup. Wang, Higgott and Brierley [2019, Phys. Rev. Lett. 122 140504] have shown that there is a continuous trade-off between quantum speedup and circuit depth (by"
+    },
+    {
+      "title": "Entangling Disciplines: Causality, Entropy and Time-Travel Paradoxes on a Quantum Computer",
+      "arxiv_id": "2506.15909v1",
+      "year": "2025",
+      "authors": [
+        "Maria Violaris"
+      ],
+      "summary": "Merging disciplines has led to incredible learnings and breakthroughs throughout history, including the discovery of quantum computing: a cross between computation and quantum physics. In this paper, I will discuss how we can cross quantum computing "
+    },
+    {
+      "title": "Unifying communication paradigms in measurement-based delegated quantum computing",
+      "arxiv_id": "2506.21988v2",
+      "year": "2025",
+      "authors": [
+        "Fabian Wiesner",
+        "Jens Eisert",
+        "Anna Pappa"
+      ],
+      "summary": "Delegated quantum computing (DQC) allows clients with low quantum capabilities to outsource computations to a server hosting a quantum computer. This process is often envisioned within the measurement-based quantum computing framework, as it naturall"
+    },
+    {
+      "title": "Strengths and Weaknesses of Quantum Computing",
+      "arxiv_id": "quant-ph/9701001v1",
+      "year": "1997",
+      "authors": [
+        "Charles H. Bennett",
+        "Ethan Bernstein",
+        "Gilles Brassard",
+        "Umesh Vazirani"
+      ],
+      "summary": "Recently a great deal of attention has focused on quantum computation following a sequence of results suggesting that quantum computers are more powerful than classical probabilistic computers. Following Shor's result that factoring and the extractio"
+    },
+    {
+      "title": "A Unified Combination of Classical and Quantum Systems",
+      "arxiv_id": "2010.03984v2",
+      "year": "2020",
+      "authors": [
+        "John R. Klauder"
+      ],
+      "summary": "Any particular classical system and its quantum version are normally viewed as separate formulations that are strictly distinct. Our goal is to overcome the two separate languages and create a smooth and common procedure that provides a clear and con"
+    },
+    {
+      "title": "Quantum Computing in the NISQ era and beyond",
+      "arxiv_id": "1801.00862v3",
+      "year": "2018",
+      "authors": [
+        "John Preskill"
+      ],
+      "summary": "Noisy Intermediate-Scale Quantum (NISQ) technology will be available in the near future. Quantum computers with 50-100 qubits may be able to perform tasks which surpass the capabilities of today's classical digital computers, but noise in quantum gat"
+    }
+  ],
+  "C5-Landauer-Challenge": [
+    {
+      "title": "Continuous-time quantum error correction",
+      "arxiv_id": "1311.2485v2",
+      "year": "2013",
+      "authors": [
+        "Ognyan Oreshkov"
+      ],
+      "summary": "Continuous-time quantum error correction (CTQEC) is an approach to protecting quantum information from noise in which both the noise and the error correcting operations are treated as processes that are continuous in time. This chapter investigates C"
+    },
+    {
+      "title": "Thermodynamic Recycling of Algorithmic Failure Branches: Quantum-Computer Demonstration with Quantum Error Correction",
+      "arxiv_id": "2601.07522v2",
+      "year": "2026",
+      "authors": [
+        "Nobumasa Ishida",
+        "Yoshihiko Hasegawa"
+      ],
+      "summary": "Thermodynamic trade-off relations dictate fundamental limits on the performance of thermodynamic tasks through costs such as heat dissipation. Here, we propose a framework called thermodynamic recycling to circumvent these limits in quantum processor"
+    },
+    {
+      "title": "Entanglement-Assisted Quantum Error-Correcting Codes",
+      "arxiv_id": "1610.04013v1",
+      "year": "2016",
+      "authors": [
+        "Todd Brun",
+        "Min-Hsiu Hsieh"
+      ],
+      "summary": "We provide a self-contained introduction for entanglement-assisted quantum error-correcting codes in this book chapter."
+    },
+    {
+      "title": "Generalized Reversible Computing",
+      "arxiv_id": "1806.10183v1",
+      "year": "2018",
+      "authors": [
+        "Michael P. Frank"
+      ],
+      "summary": "Landauer's Principle that information loss from a computation implies entropy increase can be rigorously proved from mathematical physics. However, carefully examining its detailed formulation reveals that the traditional identification of logically "
+    },
+    {
+      "title": "Quantum error correction with the toric code",
+      "arxiv_id": "2606.04079v1",
+      "year": "2026",
+      "authors": [
+        "Atom Computing",
+        " Collaborators"
+      ],
+      "summary": "Quantum computing platforms based on arrays of tweezer-confined neutral atoms have recently emerged as a competitive modality thanks to a direct path toward high qubit count, rapidly advancing operation fidelities, and their ability to execute circui"
+    },
+    {
+      "title": "Quantum Computing and Error Correction",
+      "arxiv_id": "quant-ph/0304016v2",
+      "year": "2003",
+      "authors": [
+        "A. M. Steane"
+      ],
+      "summary": "The main ideas of quantum error correction are introduced. These are encoding, extraction of syndromes, error operators, and code construction. It is shown that general noise and relaxation of a set of 2-state quantum systems can always be understood"
+    },
+    {
+      "title": "Quantum error correction beyond qubits",
+      "arxiv_id": "0811.3734v1",
+      "year": "2008",
+      "authors": [
+        "Takao Aoki",
+        "Go Takahashi",
+        "Tadashi Kajiya",
+        "Jun-ichi Yoshikawa"
+      ],
+      "summary": "Quantum computation and communication rely on the ability to manipulate quantum states robustly and with high fidelity. Thus, some form of error correction is needed to protect fragile quantum superposition states from corruption by so-called decoher"
+    },
+    {
+      "title": "Error suppression and error correction in adiabatic quantum computation I: techniques and challenges",
+      "arxiv_id": "1307.5893v3",
+      "year": "2013",
+      "authors": [
+        "Kevin C. Young",
+        "Mohan Sarovar",
+        "Robin Blume-Kohout"
+      ],
+      "summary": "Adiabatic quantum computation (AQC) is known to possess some intrinsic robustness, though it is likely that some form of error correction will be necessary for large scale computations. Error handling routines developed for circuit-model quantum comp"
+    }
+  ],
+  "S1-EnergyMetric": [
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+      "arxiv_id": "2505.06371v2",
+      "year": "2025",
+      "authors": [
+        "Jae-Won Chung",
+        "Jeff J. Ma",
+        "Ruofan Wu",
+        "Jiachen Liu"
+      ],
+      "summary": "As the adoption of Generative AI in real-world services grow explosively, energy has emerged as a critical bottleneck resource. However, energy remains a metric that is often overlooked, under-explored, or poorly understood in the context of building"
+    },
+    {
+      "title": "Characterisation of honest times and optional semimartingales of class-($Σ$)",
+      "arxiv_id": "1801.03873v5",
+      "year": "2018",
+      "authors": [
+        "Libo Li"
+      ],
+      "summary": "Given a finite honest time, we first show that the associated Azéma optional supermartingale can be expressed as the drawdown and the relative drawdown of some local optional supermartingales with continuous running supremum. The relative drawdown re"
+    },
+    {
+      "title": "Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph",
+      "arxiv_id": "astro-ph/0507457v2",
+      "year": "2005",
+      "authors": [
+        "Karl Glazebrook",
+        "Daniel Eisenstein",
+        "Arjun Dey",
+        "Bob Nichol"
+      ],
+      "summary": "This white paper gives an overview of the proposed Gemini/Subaru Wide-Field Multi-Object Spectrograph (WFMOS) and the proposed redshift surveys of 2.6 million galaxies with 0.5<z<3.3 over 2000 deg^2 of sky. These surveys will probe the baryonic acous"
+    },
+    {
+      "title": "Sequential operators in computability logic",
+      "arxiv_id": "0712.1345v2",
+      "year": "2007",
+      "authors": [
+        "Giorgi Japaridze"
+      ],
+      "summary": "Computability logic (CL) (see http://www.cis.upenn.edu/~giorgi/cl.html) is a semantical platform and research program for redeveloping logic as a formal theory of computability, as opposed to the formal theory of truth which it has more traditionally"
+    },
+    {
+      "title": "Evaluation of the LEP Centre-of-Mass Energy Above the W-Pair Production Threshold",
+      "arxiv_id": "hep-ex/9901002v2",
+      "year": "1999",
+      "authors": [
+        " The LEP Energy Working Group"
+      ],
+      "summary": "Knowledge of the centre-of-mass energy at LEP2 is of primary importance to set the absolute energy scale for the measurement of the W-boson mass. The beam energy above 80 GeV is derived from continuous measurements of the magnetic bending field by 16"
+    },
+    {
+      "title": "Calibration of centre-of-mass energies at LEP 2 for a precise measurement of the W boson mass",
+      "arxiv_id": "hep-ex/0410026v1",
+      "year": "2004",
+      "authors": [
+        " LEP Energy Working Group",
+        "R. Assmann"
+      ],
+      "summary": "The determination of the centre-of-mass energies for all LEP 2 running is presented. Accurate knowledge of these energies is of primary importance to set the absolute energy scale for the measurement of the W boson mass. The beam energy between 80 an"
+    }
+  ],
+  "S2-CarbonQC": [
+    {
+      "title": "Compute and Energy Consumption Trends in Deep Learning Inference",
+      "arxiv_id": "2109.05472v2",
+      "year": "2021",
+      "authors": [
+        "Radosvet Desislavov",
+        "Fernando Martínez-Plumed",
+        "José Hernández-Orallo"
+      ],
+      "summary": "The progress of some AI paradigms such as deep learning is said to be linked to an exponential growth in the number of parameters. There are many studies corroborating these trends, but does this translate into an exponential increase in energy consu"
+    },
+    {
+      "title": "Quantum Software Development Lifecycle",
+      "arxiv_id": "2106.09323v1",
+      "year": "2021",
+      "authors": [
+        "Benjamin Weder",
+        "Johanna Barzen",
+        "Frank Leymann",
+        "Daniel Vietz"
+      ],
+      "summary": "With recent advances in the development of more powerful quantum computers, the research area of quantum software engineering is emerging, having the goal to provide concepts, principles, and guidelines to develop high-quality quantum applications. I"
+    },
+    {
+      "title": "Tierkreis: A Dataflow Framework for Hybrid Quantum-Classical Computing",
+      "arxiv_id": "2211.02350v1",
+      "year": "2022",
+      "authors": [
+        "Seyon Sivarajah",
+        "Lukas Heidemann",
+        "Alan Lawrence",
+        "Ross Duncan"
+      ],
+      "summary": "We present Tierkreis, a higher-order dataflow graph program representation and runtime designed for compositional, quantum-classical hybrid algorithms. The design of the system is motivated by the remote nature of quantum computers, the need for hybr"
+    },
+    {
+      "title": "Quantum Computing: Vision and Challenges",
+      "arxiv_id": "2403.02240v5",
+      "year": "2024",
+      "authors": [
+        "Sukhpal Singh Gill",
+        "Oktay Cetinkaya",
+        "Stefano Marrone",
+        "Daniel Claudino"
+      ],
+      "summary": "The recent development of quantum computing, which uses entanglement, superposition, and other quantum fundamental concepts, can provide substantial processing advantages over traditional computing. These quantum features help solve many complex prob"
+    },
+    {
+      "title": "Toxicity of Carbon Nanomaterials",
+      "arxiv_id": "2109.13918v1",
+      "year": "2021",
+      "authors": [
+        "Arpita Adhikari",
+        "Joydip Sengupta"
+      ],
+      "summary": "The outstanding multidisciplinary applicability of nanomaterials has paved the path for the rapid advancement of nanoscience during the last few decades. Such technological progress subsequently results in an inevitable environmental exposure of nano"
+    },
+    {
+      "title": "The Sunk Carbon Fallacy: Rethinking Carbon Footprint Metrics for Effective Carbon-Aware Scheduling",
+      "arxiv_id": "2410.15087v1",
+      "year": "2024",
+      "authors": [
+        "Noman Bashir",
+        "Varun Gohil",
+        "Anagha Belavadi",
+        "Mohammad Shahrad"
+      ],
+      "summary": "The rapid increase in computing demand and its corresponding energy consumption have focused attention on computing's impact on the climate and sustainability. Prior work proposes metrics that quantify computing's carbon footprint across several life"
+    },
+    {
+      "title": "Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes",
+      "arxiv_id": "cond-mat/0602636v1",
+      "year": "2006",
+      "authors": [
+        "F. Simon",
+        "H. Kuzmany",
+        "J. Bernardi",
+        "F. Hauke"
+      ],
+      "summary": "Filling of single-wall carbon nanotubes with C59N azafullerene derivatives is reported from toluene solvent at ambient temperature. The filling is characterized by high resolution transmission electron microscopy and Raman spectroscopy. The filling e"
+    },
+    {
+      "title": "Entangling Disciplines: Causality, Entropy and Time-Travel Paradoxes on a Quantum Computer",
+      "arxiv_id": "2506.15909v1",
+      "year": "2025",
+      "authors": [
+        "Maria Violaris"
+      ],
+      "summary": "Merging disciplines has led to incredible learnings and breakthroughs throughout history, including the discovery of quantum computing: a cross between computation and quantum physics. In this paper, I will discuss how we can cross quantum computing "
+    }
+  ],
+  "S3-AITraining": [
+    {
+      "title": "Compute and Energy Consumption Trends in Deep Learning Inference",
+      "arxiv_id": "2109.05472v2",
+      "year": "2021",
+      "authors": [
+        "Radosvet Desislavov",
+        "Fernando Martínez-Plumed",
+        "José Hernández-Orallo"
+      ],
+      "summary": "The progress of some AI paradigms such as deep learning is said to be linked to an exponential growth in the number of parameters. There are many studies corroborating these trends, but does this translate into an exponential increase in energy consu"
+    },
+    {
+      "title": "Toxicity of Carbon Nanomaterials",
+      "arxiv_id": "2109.13918v1",
+      "year": "2021",
+      "authors": [
+        "Arpita Adhikari",
+        "Joydip Sengupta"
+      ],
+      "summary": "The outstanding multidisciplinary applicability of nanomaterials has paved the path for the rapid advancement of nanoscience during the last few decades. Such technological progress subsequently results in an inevitable environmental exposure of nano"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "arxiv_id": "2501.02842v1",
+      "year": "2025",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-qu"
+    },
+    {
+      "title": "Faith in AI can narrow the futures individuals consider",
+      "arxiv_id": "2603.28944v2",
+      "year": "2026",
+      "authors": [
+        "Aoi Naito",
+        "Hirokazu Shirado"
+      ],
+      "summary": "Artificial intelligence (AI) predictions are increasingly used to inform human decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI predictions can also shape the reasoning people "
+    },
+    {
+      "title": "Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes",
+      "arxiv_id": "cond-mat/0602636v1",
+      "year": "2006",
+      "authors": [
+        "F. Simon",
+        "H. Kuzmany",
+        "J. Bernardi",
+        "F. Hauke"
+      ],
+      "summary": "Filling of single-wall carbon nanotubes with C59N azafullerene derivatives is reported from toluene solvent at ambient temperature. The filling is characterized by high resolution transmission electron microscopy and Raman spectroscopy. The filling e"
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Making AI Less \"Thirsty\": Uncovering and Addressing the Secret Water Footprint of AI Models",
+      "arxiv_id": "2304.03271v5",
+      "year": "2023",
+      "authors": [
+        "Pengfei Li",
+        "Jianyi Yang",
+        "Mohammad A. Islam",
+        "Shaolei Ren"
+      ],
+      "summary": "The growing carbon footprint of artificial intelligence (AI) has been undergoing public scrutiny. Nonetheless, the equally important water (withdrawal and consumption) footprint of AI has largely remained under the radar. For example, training the GP"
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    }
+  ],
+  "S4-DataCenterEfficiency": [
+    {
+      "title": "Data Encoding for Byzantine-Resilient Distributed Optimization",
+      "arxiv_id": "1907.02664v2",
+      "year": "2019",
+      "authors": [
+        "Deepesh Data",
+        "Linqi Song",
+        "Suhas Diggavi"
+      ],
+      "summary": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from"
+    },
+    {
+      "title": "Constraints on dark energy from H II starburst galaxy apparent magnitude versus redshift data",
+      "arxiv_id": "1110.5626v1",
+      "year": "2011",
+      "authors": [
+        "Data Mania",
+        "Bharat Ratra"
+      ],
+      "summary": "In this paper we use H II starburst galaxy apparent magnitude versus redshift data from Siegel et al. (2005) to constrain dark energy cosmological model parameters. These constraints are generally consistent with those derived using other data sets, "
+    },
+    {
+      "title": "Byzantine-Resilient SGD in High Dimensions on Heterogeneous Data",
+      "arxiv_id": "2005.07866v1",
+      "year": "2020",
+      "authors": [
+        "Deepesh Data",
+        "Suhas Diggavi"
+      ],
+      "summary": "We study distributed stochastic gradient descent (SGD) in the master-worker architecture under Byzantine attacks. We consider the heterogeneous data model, where different workers may have different local datasets, and we do not make any probabilisti"
+    },
+    {
+      "title": "On the Energy Consumption Forecasting of Data Centers Based on Weather Conditions: Remote Sensing and Machine Learning Approach",
+      "arxiv_id": "1804.01754v2",
+      "year": "2018",
+      "authors": [
+        "Georgios Smpokos",
+        "Mohamed A. Elshatshat",
+        "Athanasios Lioumpas",
+        "Ilias Iliopoulos"
+      ],
+      "summary": "The energy consumption of Data Centers (DCs) is a very important figure for the telecommunications operators, not only in terms of cost, but also in terms of operational reliability. A relation between the energy consumption and the weather condition"
+    },
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "TerraGen: A Unified Multi-Task Layout Generation Framework for Remote Sensing Data Augmentation",
+      "arxiv_id": "2510.21391v1",
+      "year": "2025",
+      "authors": [
+        "Datao Tang",
+        "Hao Wang",
+        "Yudeng Xin",
+        "Hui Qiao"
+      ],
+      "summary": "Remote sensing vision tasks require extensive labeled data across multiple, interconnected domains. However, current generative data augmentation frameworks are task-isolated, i.e., each vision task requires training an independent generative model, "
+    },
+    {
+      "title": "Small Data Explainer -- The impact of small data methods in everyday life",
+      "arxiv_id": "2507.11773v1",
+      "year": "2025",
+      "authors": [
+        "Maren Hackenberg",
+        "Sophia G. Connor",
+        "Fabian Kabus",
+        "June Brawner"
+      ],
+      "summary": "The emergence of breakthrough artificial intelligence (AI) techniques has led to a renewed focus on how small data settings, i.e., settings with limited information, can benefit from such developments. This includes societal issues such as how best t"
+    }
+  ],
+  "S5-NeuromorphicAdvantage": [
+    {
+      "title": "Synthetic Biology meets Neuromorphic Computing: Towards a bio-inspired Olfactory Perception System",
+      "arxiv_id": "2504.10053v2",
+      "year": "2025",
+      "authors": [
+        "Kevin Max",
+        "Larissa Sames",
+        "Shimeng Ye",
+        "Jan Steinkühler"
+      ],
+      "summary": "In this study, we explore how the combination of synthetic biology, neuroscience modeling, and neuromorphic electronic systems offers a new approach to creating an artificial system that mimics the natural sense of smell. We argue that a co-design ap"
+    },
+    {
+      "title": "Event Encryption: Rethinking Privacy Exposure for Neuromorphic Imaging",
+      "arxiv_id": "2306.03369v3",
+      "year": "2023",
+      "authors": [
+        "Pei Zhang",
+        "Shuo Zhu",
+        "Edmund Y. Lam"
+      ],
+      "summary": "Bio-inspired neuromorphic cameras sense illumination changes on a per-pixel basis and generate spatiotemporal streaming events within microseconds in response, offering visual information with high temporal resolution over a high dynamic range. Such "
+    },
+    {
+      "title": "NeuroBench: A Framework for Benchmarking Neuromorphic Computing Algorithms and Systems",
+      "arxiv_id": "2304.04640v5",
+      "year": "2023",
+      "authors": [
+        "Jason Yik",
+        "Korneel Van den Berghe",
+        "Douwe den Blanken",
+        "Younes Bouhadjar"
+      ],
+      "summary": "Neuromorphic computing shows promise for advancing computing efficiency and capabilities of AI applications using brain-inspired principles. However, the neuromorphic research field currently lacks standardized benchmarks, making it difficult to accu"
+    },
+    {
+      "title": "Neuromorphic Programming: Emerging Directions for Brain-Inspired Hardware",
+      "arxiv_id": "2410.22352v1",
+      "year": "2024",
+      "authors": [
+        "Steven Abreu",
+        "Jens E. Pedersen"
+      ],
+      "summary": "The value of brain-inspired neuromorphic computers critically depends on our ability to program them for relevant tasks. Currently, neuromorphic hardware often relies on machine learning methods adapted from deep learning. However, neuromorphic compu"
+    },
+    {
+      "title": "NeuroMorse: A Temporally Structured Dataset For Neuromorphic Computing",
+      "arxiv_id": "2502.20729v1",
+      "year": "2025",
+      "authors": [
+        "Ben Walters",
+        "Yeshwanth Bethi",
+        "Taylor Kergan",
+        "Binh Nguyen"
+      ],
+      "summary": "Neuromorphic engineering aims to advance computing by mimicking the brain's efficient processing, where data is encoded as asynchronous temporal events. This eliminates the need for a synchronisation clock and minimises power consumption when no data"
+    },
+    {
+      "title": "Line-based Event Preprocessing: Towards Low-Energy Neuromorphic Computer Vision",
+      "arxiv_id": "2601.10742v1",
+      "year": "2026",
+      "authors": [
+        "Amélie Gruel",
+        "Pierre Lewden",
+        "Adrien F. Vincent",
+        "Sylvain Saïghi"
+      ],
+      "summary": "Neuromorphic vision made significant progress in recent years, thanks to the natural match between spiking neural networks and event data in terms of biological inspiration, energy savings, latency and memory use for dynamic visual data processing. H"
+    },
+    {
+      "title": "NEUROSEC: FPGA-Based Neuromorphic Audio Security",
+      "arxiv_id": "2401.12055v1",
+      "year": "2024",
+      "authors": [
+        "Murat Isik",
+        "Hiruna Vishwamith",
+        "Yusuf Sur",
+        "Kayode Inadagbo"
+      ],
+      "summary": "Neuromorphic systems, inspired by the complexity and functionality of the human brain, have gained interest in academic and industrial attention due to their unparalleled potential across a wide range of applications. While their capabilities herald "
+    },
+    {
+      "title": "Neuromorphic Computing for Low-Power Artificial Intelligence",
+      "arxiv_id": "2604.04727v1",
+      "year": "2026",
+      "authors": [
+        "Keshava Katti",
+        "Pratik Chaudhari",
+        "Deep Jariwala"
+      ],
+      "summary": "Classical computing is beginning to encounter fundamental limits of energy efficiency. This presents a challenge that can no longer be solved by strategies such as increasing circuit density or refining standard semiconductor processes. The growing c"
+    }
+  ],
+  "X1-CrossDomain": [
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "Compression ratios based on the Universal Similarity Metric still yield protein distances far from CATH distances",
+      "arxiv_id": "q-bio/0603007v2",
+      "year": "2006",
+      "authors": [
+        "Jairo Rocha",
+        "Francesc Rosselló",
+        "Joan Segura"
+      ],
+      "summary": "Kolmogorov complexity has inspired several alignment-free distance measures, based on the comparison of lengths of compressions, which have been applied successfully in many areas. One of these measures, the so-called Universal Similarity Metric (USM"
+    },
+    {
+      "title": "Universal Workers: A Vision for Eliminating Cold Starts in Serverless Computing",
+      "arxiv_id": "2505.19880v2",
+      "year": "2025",
+      "authors": [
+        "Saman Akbari",
+        "Manfred Hauswirth"
+      ],
+      "summary": "Serverless computing enables developers to deploy code without managing infrastructure, but suffers from cold start overhead when initializing new function instances. Existing solutions such as \"keep-alive\" or \"pre-warming\" are costly and unreliable "
+    },
+    {
+      "title": "Measurement of the high-energy all-flavor neutrino-nucleon cross section with IceCube",
+      "arxiv_id": "2011.03560v1",
+      "year": "2020",
+      "authors": [
+        "R. Abbasi",
+        "M. Ackermann",
+        "J. Adams",
+        "J. A. Aguilar"
+      ],
+      "summary": "The flux of high-energy neutrinos passing through the Earth is attenuated due to their interactions with matter. The interaction rate is modulated by the neutrino interaction cross section and affects the flux arriving at the IceCube Neutrino Observa"
+    },
+    {
+      "title": "Cross-domain Compositing with Pretrained Diffusion Models",
+      "arxiv_id": "2302.10167v2",
+      "year": "2023",
+      "authors": [
+        "Roy Hachnochi",
+        "Mingrui Zhao",
+        "Nadav Orzech",
+        "Rinon Gal"
+      ],
+      "summary": "Diffusion models have enabled high-quality, conditional image editing capabilities. We propose to expand their arsenal, and demonstrate that off-the-shelf diffusion models can be used for a wide range of cross-domain compositing tasks. Among numerous"
+    },
+    {
+      "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+      "arxiv_id": "2505.06371v2",
+      "year": "2025",
+      "authors": [
+        "Jae-Won Chung",
+        "Jeff J. Ma",
+        "Ruofan Wu",
+        "Jiachen Liu"
+      ],
+      "summary": "As the adoption of Generative AI in real-world services grow explosively, energy has emerged as a critical bottleneck resource. However, energy remains a metric that is often overlooked, under-explored, or poorly understood in the context of building"
+    },
+    {
+      "title": "Universal Representations: A Unified Look at Multiple Task and Domain Learning",
+      "arxiv_id": "2204.02744v2",
+      "year": "2022",
+      "authors": [
+        "Wei-Hong Li",
+        "Xialei Liu",
+        "Hakan Bilen"
+      ],
+      "summary": "We propose a unified look at jointly learning multiple vision tasks and visual domains through universal representations, a single deep neural network. Learning multiple problems simultaneously involves minimizing a weighted sum of multiple loss func"
+    }
+  ],
+  "X2-EnergyAwareBenchmark": [
+    {
+      "title": "The Dark Energy Survey",
+      "arxiv_id": "astro-ph/0510346v1",
+      "year": "2005",
+      "authors": [
+        " The Dark Energy Survey Collaboration"
+      ],
+      "summary": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro "
+    },
+    {
+      "title": "Dark Energy Survey: 2.1% measurement of the Baryon Acoustic Oscillation scale from the final dataset",
+      "arxiv_id": "2409.08759v1",
+      "year": "2024",
+      "authors": [
+        "Juan Mena-Fernández",
+        "Dark Energy Survey Collaboration"
+      ],
+      "summary": "Here, we present the angular diameter distance measurement obtained from the measurement of the Baryonic Acoustic Oscillation (BAO) feature using the completed Dark Energy Survey (DES) data, summarizing the main results of [Phys. Rev. D 110, 063514] "
+    },
+    {
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "arxiv_id": "1211.0310v1",
+      "year": "2012",
+      "authors": [
+        " LSST Dark Energy Science Collaboration"
+      ],
+      "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark "
+    },
+    {
+      "title": "The Dark Energy Survey Data Processing and Calibration System",
+      "arxiv_id": "1207.3189v1",
+      "year": "2012",
+      "authors": [
+        "Joseph J. Mohr",
+        "Robert Armstrong",
+        "Emmanuel Bertin",
+        "Gregory E. Daues"
+      ],
+      "summary": "The Dark Energy Survey (DES) is a 5000 deg2 grizY survey reaching characteristic photometric depths of 24th magnitude (10 sigma) and enabling accurate photometry and morphology of objects ten times fainter than in SDSS. Preparations for DES have incl"
+    },
+    {
+      "title": "AIn't Nothing But a Survey? Using Large Language Models for Coding German Open-Ended Survey Responses on Survey Motivation",
+      "arxiv_id": "2506.14634v3",
+      "year": "2025",
+      "authors": [
+        "Leah von der Heyde",
+        "Anna-Carolina Haensch",
+        "Bernd Weiß",
+        "Jessica Daikeler"
+      ],
+      "summary": "The recent development and wider accessibility of LLMs have spurred discussions about how they can be used in survey research, including classifying open-ended survey responses. Due to their linguistic capacities, it is possible that LLMs are an effi"
+    },
+    {
+      "title": "A rich bounty of AGN in the 9 square degree Bootes survey: high-z obscured AGN and large-scale structure",
+      "arxiv_id": "astro-ph/0611654v1",
+      "year": "2006",
+      "authors": [
+        "R. C. Hickox",
+        "C. Jones",
+        "W. R. Forman",
+        "S. S. Murray"
+      ],
+      "summary": "We use observations from the 9 square degree multiwavelength survey in Bootes to identify hundreds of obscured active galactic nuclei (AGN) with high redshifts (z > 0.7), luminosities (L_bol > 10^45 ergs/s), and moderate obscuring columns (N_H > 10^2"
+    },
+    {
+      "title": "Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph",
+      "arxiv_id": "astro-ph/0507457v2",
+      "year": "2005",
+      "authors": [
+        "Karl Glazebrook",
+        "Daniel Eisenstein",
+        "Arjun Dey",
+        "Bob Nichol"
+      ],
+      "summary": "This white paper gives an overview of the proposed Gemini/Subaru Wide-Field Multi-Object Spectrograph (WFMOS) and the proposed redshift surveys of 2.6 million galaxies with 0.5<z<3.3 over 2000 deg^2 of sky. These surveys will probe the baryonic acous"
+    },
+    {
+      "title": "DES Y3 + KiDS-1000: Consistent cosmology combining cosmic shear surveys",
+      "arxiv_id": "2305.17173v2",
+      "year": "2023",
+      "authors": [
+        "Dark Energy Survey",
+        "Kilo-Degree Survey Collaboration",
+        " :",
+        "T. M. C. Abbott"
+      ],
+      "summary": "We present a joint cosmic shear analysis of the Dark Energy Survey (DES Y3) and the Kilo-Degree Survey (KiDS-1000) in a collaborative effort between the two survey teams. We find consistent cosmological parameter constraints between DES Y3 and KiDS-1"
+    }
+  ]
+}
