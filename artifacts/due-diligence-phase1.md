@@ -243,14 +243,106 @@ Existing benchmarks are static (SPEC2006, SPEC2017) and become stale as hardware
 
 ---
 
-## §7. Recommendations for Phase 2
+## §7. Red-Team Corrigendum (2026-07-27)
+
+### §7.1 Missed Competitor Papers (FINDING 1 — HARD)
+
+The Phase 1 external search missed three significant competitor works. These were discovered in the autonomous red-team review. The Phase 1 novelty verdict has been revised accordingly.
+
+#### Missed Paper A: "Sustainable Quantum Computing: Opportunities and Challenges of Benchmarking Carbon in the Quantum Computing Lifecycle" (arXiv:2408.05679, 2024)
+
+- **Authors:** Nivedita Arora, Prem Kumar
+- **Abstract:** "While researchers in both industry and academia are racing to build Quantum Computing (QC) platforms with viable performance and functionality, the environmental impacts of this endeavor, such as its carbon footprint, e-waste generation, mineral use, and water and energy consumption, remain largely unknown. A similar oversight occurred during the semiconductor revolution and continues to have disastrous consequences..."
+- **Relevance to JPCUB:** DIRECT — benchmarks carbon and total-system environmental impact of quantum computing. This is the closest existing paper to JPCUB's P1 (Quantum Energy Audit). It benchmarks carbon (not joules-per-solution), is QC-specific (not cross-domain), has no anti-gaming protocol, and is a static publication (not a living benchmark). **The claim "ZERO papers measure QC's own energy cost" is FALSE — retracted.**
+- **Differentiation:** JPCUB's P1 distinguishes itself by: (a) measuring joules-per-solution directly, not carbon proxies, (b) providing a cross-domain comparison framework, (c) embedding anti-gaming provisions, (d) establishing a living benchmark protocol for annual updates.
+
+#### Missed Paper B: "Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications" (arXiv:2307.11128, 2023)
+
+- **Authors:** Vasileios Leon, Muhammad Abdullah Hanif, Giorgos Armeniakos, Xun Jiao, Muhammad Shafique
+- **Abstract:** "Approximate Computing appears as an emerging solution, allowing to tune the quality of results in the design of a system in order to improve the energy efficiency and/or performance."
+- **Relevance to JPCUB:** DIRECT — surveys the energy-quality tradeoff space that JPCUB's P0 measurement protocol (correctness threshold ε) explicitly addresses. Approximate computing's "quality-configurable energy" is structurally isomorphic to JPCUB's "joules-per-solution at correctness threshold ε."
+- **Differentiation:** Domain-specific (approximate computing techniques only), no cross-domain framework, no anti-gaming protocol, no living benchmark.
+
+#### Missed Subfield: Reversible/Adiabatic Computing
+
+The reversible computing community has been working on energy-efficient computation at the physics level for decades. Key papers include:
+- "Ballistic reversible gates matched to bit storage" (arXiv:1806.08011, 2018)
+- "Generalized Reversible Computing" (arXiv:1806.10183, 2018)
+- "Reversible Logic Circuit Synthesis" (arXiv:quant-ph/0207001, 2002)
+
+**Relevance:** These papers approach the Landauer limit from the engineering side. JPCUB differentiates by measuring joules-per-solution rather than designing for adiabatic operation, and by being cross-domain rather than paradigm-specific.
+
+### §7.2 Revised Novelty Verdict
+
+| Original Claim | Revised Verdict | Justification |
+|:---------------|:----------------|:--------------|
+| "ZERO papers measure QC's own energy cost" | **FALSE — RETRACTED** | SQC (2408.05679) benchmarks carbon/energy in QC lifecycle |
+| "Universal joules-per-solution metric" | **NOVEL (confirmed)** | No existing benchmark uses this exact metric cross-domain |
+| "Cross-domain comparison framework" | **NOVEL (confirmed)** | All competitor papers are single-domain |
+| "Anti-gaming provisions" | **NOVEL (confirmed)** | No competitor has embedded anti-gaming protocol |
+| "Total-system energy accounting" | **PARTIALLY NOVEL (revised)** | SQC (2408.05679) does total-system but carbon-focused; JPCUB quantifies joules directly |
+| "Living benchmark protocol" | **NOVEL (confirmed)** | All competitors are static version releases (SPEC2006, SPEC2017, etc.) |
+
+**Overall:** JPCUB is not the first to propose energetic or carbon benchmarking of computation. It IS the first to propose a **universal, cross-domain, joules-per-solution metric with embedded anti-gaming provisions and a living benchmark protocol.** The novelty claim survives but is QUALIFIED, not absolute.
+
+### §7.3 Self-Referential Foundation Disclosure (FINDING 4)
+
+**Disclosure:** The Phase 1 report cites 6 QNFO-internal papers as the "theoretical foundation" for JPCUB. These papers themselves make strong claims that have not been independently verified against external literature. This is the Institution Fallacy (KIF-16) applied reflexively — treating our own work as "established" without external validation.
+
+**Phase 2 requirement:** The literature search MUST include external papers that directly challenge QNFO foundations:
+- Papers arguing FOR gate-model quantum computing (Google Sycamore, IBM Eagle/Heron, PsiQuantum, IonQ, Quantinuum)
+- Papers challenging the Landauer/Margolus-Levitin/Bremermann interpretation
+- Papers arguing that quantum advantage has been demonstrated for specific use cases
+- The Mandatory Symmetry Template (KIF-18) requires both "Supporting" AND "Constraining" sections
+
+### §7.4 External Search Limitations (FINDING 2)
+
+| Source | Status | Papers Found |
+|:-------|:-------|:-------------|
+| QNFO Vectorize | Complete (7 queries) | 70 results (100% QNFO-internal) |
+| arXiv API | Complete (12 queries: 7 original + 5 gap-fill) | 47 papers across 12 subfield queries |
+| Semantic Scholar | Incomplete (rate-limited) | 8 papers (S7-Edge only, remaining 6 domains failed) |
+| Google Scholar / Web | NOT SEARCHED | 0 papers |
+| Industry white papers | NOT SEARCHED | 0 papers (Google, Amazon, Microsoft data center data) |
+
+**Phase 2 must prioritize:** Web search for industry benchmarks, Google Scholar for missed academic literature, and a retry of Semantic Scholar with proper rate-limit handling.
+
+### §7.5 Expanded Competitor Inventory (FINDING 5)
+
+Additional benchmarks identified during red-team review (not in original Phase 1 report):
+
+| Benchmark | Domain | Year | Relevance |
+|:----------|:-------|:-----|:----------|
+| **Green Graph 500** | Graph processing | 2010+ | Energy-efficient graph benchmarks for HPC |
+| **EEMBC CoreMark-Pro** | Embedded/IoT | 2015+ | More comprehensive than ULPMark |
+| **CloudSuite** | Cloud computing | 2011+ | Scale-out datacenter workloads with energy measurement |
+| **HPCG** | HPC | 2014+ | Alternative to LINPACK for TOP500 ranking |
+| **SQC (2408.05679)** | Quantum computing | 2024 | Carbon/energy in QC lifecycle |
+| **Approx. Comp. Survey (2307.11128)** | Cross-cutting | 2023 | Energy-quality tradeoffs |
+| **Google ML Carbon Footprint** | AI/ML | 2022+ | Industry white papers on training energy |
+
+Total competitor benchmarks inventoried: **14** (up from 7 in original report).
+
+### §7.6 Falsifiability Gap (FINDING 3)
+
+The PROJECT-PLAN.md §1.2 disconfirmation condition uses "real-world computational value" without operational definition. This makes the claim difficult to falsify in practice. Recommended tightening for P0:
+
+> "This would be disconfirmed if, for a representative sample of ≥100 real-world computational tasks spanning ≥4 of the 7 domains, a different metric (wall-clock time, FLOPs, or quantum volume) predicted procurement outcomes more accurately than joules-per-solution, where procurement outcome is defined as the system chosen by an independent evaluator given total cost of ownership data including energy costs."
+
+---
+
+## §8. Recommendations for Phase 2 (Updated)
 
 1. **Prioritize P0 first** — the metric paper unblocks all domain-specific audits
 2. **Search industry white papers** for data center energy data (Google, Microsoft, Amazon publish PUE but not per-computation cost)
 3. **Contact NeuroBench authors** — they are the closest existing effort and may be collaborators
 4. **Deep-dive ML.ENERGY** — understand their measurement methodology before designing P0's protocol
-5. **Cross-reference Green500 data** — the TOP500 list provides FLOPs/watt for HPC systems; useful baseline for P4 (Data Centers) and P5 (CPUs)
-6. **Register with SPECpower methodology** — understand the industry standard we're competing with
+5. **Cross-reference Green500 data** — the TOP500 list provides FLOPs/watt for HPC systems
+6. **Register with SPECpower methodology** — understand the industry standard
+7. **NEW: Run Mandatory Symmetry Template (KIF-18)** — include papers that challenge QNFO foundations
+8. **NEW: Search all 14 competitor benchmarks** as Phase 2 seed terms
+9. **NEW: Retry Semantic Scholar with proper rate-limit handling** across all 7 domains
+10. **NEW: Search Google Scholar and industry white papers** for data center/AI energy data
 
 ---
 
@@ -259,3 +351,4 @@ Existing benchmarks are static (SPEC2006, SPEC2017) and become stale as hardware
 | Version | Date | Status |
 |:--------|:-----|:-------|
 | v0.1 | 2026-07-27 | Phase 1 Due Diligence — Draft |
+| v1.1 | 2026-07-27 | Phase 1 Due Diligence — Red-Team Remediated (6 findings, 2 HARD fixes, §7 corrigendum) |
