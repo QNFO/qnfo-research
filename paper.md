@@ -6,7 +6,6 @@ license: "QNFO Unified License Agreement (QNFO-ULA)"
 status: "draft"
 doi: "TBD"
 bibliography: "docs/bibliography.bib"
-csl: "nature"
 ---
 
 **Author:** QNFO Research
