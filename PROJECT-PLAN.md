@@ -130,8 +130,52 @@ Preliminary assessment (to be verified in Phase 1 Due Diligence):
 
 ---
 
-## §6 Version History
+## §6 Laws of Form Connection (Phase 0 Synthesis)
+
+### §6.1 Spencer-Brown × Autaxys
+
+Spencer-Brown's _Laws of Form_ (1969) + QNFO's _Quantum Laws of Form_ (2026) provide the formal calculus underlying the D/R+OC vocabulary. The primitives map as:
+
+| LoF Primitive | Autaxys Mapping | Role in This Project |
+|---------------|-----------------|---------------------|
+| Mark `#` | **D** (Distinction) | Measurement outcome: "this, not that" |
+| Enclosure `[ ]` | **R** (Relation) | Physical procedure connecting states |
+| Calling `## = #` | Resonance/Coherence | Idempotent measurement repeats |
+| Crossing `[#]` = void | **OC** (Ontological Closure) | Finitely undoable distinctions are not physically new |
+| Re-entry `f = [f]` | Feedback Dynamics | The math↔physics reflexive loop itself |
+
+### §6.2 Numbers as Built, Not Discovered
+
+Numbers are constructed from distinction operations (LoF Number Builder; Silent Radix):
+- ℕ = repeated Calling
+- ℚ = nested enclosures
+- ℝ_comp = limits of computable enclosure sequences
+- ℝ = Monna-map projection (creates non-computable artifacts)
+- ℚ_p = alternative enclosure algebras (p-adic valuation)
+- 𝔸 = all enclosure algebras simultaneously (adèlic)
+
+### §6.3 The Fixed Point
+
+The reflexive loop "math abstracts from physics, physics is filtered by math" is a Re-entering form. Its fixed point under finite enclosure operations is ℝ_comp — the computable reals. This is the boundary between physics (can reduce to void by finite Calling/Crossing) and Cognitive Fiction (internally consistent but irreducible by any finite sequence).
+
+### §6.4 Cognitive Fiction (Formal Definition)
+
+A **Cognitive Fiction** is a formal system ℱ such that:
+1. ℱ is expressible in enclosure algebra (`#`, `[ ]`, Calling, Crossing)
+2. ℱ is internally consistent
+3. ℱ cannot be reduced to void by any finite Calling/Crossing sequence
+
+This places ℝ\ℝ_comp, non-measurable sets, and creative fiction in the same category.
+
+### §6.5 Synthesis Document
+
+Full synthesis with research architecture, red-team audit, and historical stratigraphy in `SYNTHESIS.md` and `artifacts/red-team-phase0.md`.
+
+---
+
+## §7 Version History
 
 | Version | Date | Phase | Description |
 |:--------|:-----|:------|:------------|
 | v0.1 | 2026-07-28 | 0 | Project initialization — scaffold, charter, core claim lock, WBS, registers |
+| v0.1.1 | 2026-07-28 | 0 | Phase 0 finalization — Laws of Form integration, synthesis, red-team audit complete |
