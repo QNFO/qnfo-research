@@ -4,7 +4,7 @@ author: "QNFO Research"
 date: "2026-07-28"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 status: "draft"
-doi: "TBD"
+doi: "10.5281/zenodo.21645350"
 bibliography: "docs/bibliography.bib"
 ---
 
