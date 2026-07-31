@@ -36,3 +36,6 @@ keys.json
 *.tmp
 *.bak
 ~$*
+
+# --- Wrangler ephemeral state ---
+.wrangler/
