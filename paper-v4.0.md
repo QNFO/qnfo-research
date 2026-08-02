@@ -3,7 +3,7 @@ title: "The Adelic Cross-Domain Program: From the Fine-Structure Constant to the
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-07-23"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21539547"
+doi: "10.5281/zenodo.21753830"
 status: "published"
 version: "4.0"
 ---
