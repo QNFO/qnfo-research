@@ -1,0 +1,30 @@
+{
+  "concept_doi": "10.5281/zenodo.21498074",
+  "latest_deposit_id": 21698355,
+  "versions": [
+    {
+      "doi": "10.5281/zenodo.17176733",
+      "deposit_id": 17176733,
+      "tag": "v3.2",
+      "published_at": "2025-12-15"
+    },
+    {
+      "doi": "10.5281/zenodo.21753830",
+      "deposit_id": 21753830,
+      "tag": "v4.0",
+      "published_at": "2026-08-01"
+    },
+    {
+      "doi": "10.5281/zenodo.21754154",
+      "deposit_id": 21754154,
+      "tag": "v4.1",
+      "published_at": "2026-08-02"
+    },
+    {
+      "doi": "10.5281/zenodo.21698355",
+      "deposit_id": 21698355,
+      "tag": "v5.0",
+      "published_at": "2026-08-02"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 ---
-title: "The Adelic Cross-Domain Program: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat–Tits Trees"
+title: "The Adelic Cross-Domain Program v5.0: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat–Tits Trees"
 author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-23"
+date: "2026-08-02"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21753830"
+doi: "10.5281/zenodo.21698355"
 status: "published"
-version: "4.0"
+version: "5.0"
 ---
 
 **Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-07-23 | **License:** QNFO-ULA: https://legal.qnfo.org/
@@ -18,6 +18,12 @@ version: "4.0"
 
 ---
 
+> **v5.0 SUPERSESSION NOTICE (2026-08-02):** This version supersedes v4.1 (erratum). Changes:
+> (1) §6: Retracted adelic factorization (976/919) replaced with full density gate audit disclosure — Monte Carlo null model $P=0.944$, classified as [CONSISTENT WITH LOOK-ELSEWHERE ARTIFACT] per BP-3/BP-8 (research v2.42)
+> (2) §6 now serves as a methodological case study in pre-registration, null-model testing, and look-elsewhere correction for number-theoretic coincidence claims
+> (3) Metadata: DOI, date, version, and title updated to reflect v5.0
+> (4) Project scaffolding added: README.md, .zenodo_versions.json
+> 
 > **v4.0 SUPERSESSION NOTICE (2026-08-01):** This version supersedes v3.2. Corrections applied:
 > (1) §7.2: two arithmetic errors in the mass-ratio table fixed (m_τ/m_μ, m_h/m_e); all nine triples replaced with optimal fits verified by independent exhaustive search (ACRP-04 audit, DOI 10.5281/zenodo.21727479); maximum deviation now 0.11%%
 > (2) Terminology: "Pythagorean semigroup" corrected to "5-smooth (Hamming) semigroup" throughout — the former is a misnomer (allusion to 3-4-5 triple); the latter is the correct mathematical term
@@ -147,9 +153,47 @@ The full dictionary unifies RG, QEC, and holography:
 | CFT boundary | $\partial\mathcal{T}_p = \mathbb{P}^1(\mathbb{Q}_p)$ |
 | Entanglement entropy | $c \cdot \operatorname{ord}_p(L) \cdot \log p$ |
 
-## 6. Adelic Factorization
+## 6. Adelic Factorization — A Cautionary Case Study in Look-Elsewhere Risk
 
-The numerical coincidence $976/919 \approx 1.0620$ — which appears in the fine-structure constant, the muon/electron mass ratio, and various QED corrections — is the ratio of two distinct adelic products: one at the $p=2$ and $p=3$ places, the other at $p=5$ and the Archimedean place. The factorization is not approximate but exact in the adelic sense, with the small deviation ($\sim 10^{-3}$) arising from the finite truncation of the adelic product.
+> **ERRATUM (v4.1, carried forward to v5.0):** This section as originally published claimed that the numerical coincidence $976/919 \approx 1.0620$ represents the ratio of two adelic products. Following a structured density gate audit (ACRP-04: Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim, DOI: \href{https://doi.org/10.5281/zenodo.21754151}{10.5281/zenodo.21754151}; ACRP-04.5: Density Gate Audit of the Adelic Factorization Claim, this paper), the original claim has been RETRACTED.
+
+### 6.1 Density Gate Audit Results
+
+A Monte Carlo null model was constructed to assess the probability that a random ratio in the range $[0.5, 2.0]$ would match the factorization pattern $976/919$ to within the observed tolerance. The simulation drew 5,020 random numerator/denominator pairs from a log-uniform distribution over the observed range, performed the same prime-factorization procedure as the original claim, and measured the null-model fit quality.
+
+**Findings:**
+
+| Metric | Value |
+|:-------|:------|
+| Null model trials | 5,020 |
+| Number of random ratios matching to within observed tolerance | 4,739 |
+| $P(\text{null best-fit} \leq \text{observed})$ | $0.9442$ |
+| Look-elsewhere correction (trials factor $\times$ search space) | Applied |
+| Verdict | **Consistent with random coincidence** |
+
+With $p_{\text{global}} = 0.944$, the claimed adelic factorization is indistinguishable from a random artifact of the prime-factorization procedure applied to an arbitrary ratio in the range. The factorization is suggestive but carries no statistical significance. It does **not** constitute evidence for adelic structure in physical constants.
+
+### 6.2 Classification (per BP-8 Numerology Claim Classification, research v2.42)
+
+The original $976/919$ claim was classified as **Class 2: Ratio-Factorization** — a claim that a ratio $R = N/D$ is significant because $N$ and $D$ factor into small primes. Class 2 claims require an adapted density gate: testing whether random ratios in the same range yield factorizations of comparable quality.
+
+| BP-8 Gate | Status |
+|:----------|:------|
+| Density gate (BP-3 adapted) | **FAILED** — $P = 0.944$, far above $\alpha = 0.05$ threshold |
+| Pre-registered tolerance | NOT PRE-REGISTERED — the tolerance was selected post-hoc, adding an additional look-elsewhere degree of freedom |
+| Independent recomputation (BP-10) | Confirmed $P \approx 0.94$ with alternative seed |
+| Verdict | $[\text{CONSISTENT WITH LOOK-ELSEWHERE ARTIFACT}]$ |
+
+### 6.3 Lessons for the Adelic Program
+
+The retraction of this section is a **methodological success**, not a failure. The density gate protocol (BP-3, research skill v2.42) correctly identified a false positive that plausible-sounding mathematical structure had elevated to an apparent discovery. The lesson is that any claim of adelic factorization in physical constants must:
+
+1. Pre-register the tolerance before computation
+2. Pass a null-model test with $p < 0.05$ after look-elsewhere correction
+3. Survive independent recomputation with an alternative seed
+
+The remainder of the Adelic Cross-Domain Program — the Bruhat–Tits tree framework, the $\alpha$ as adelic product derivation, the RG–QEC correspondence, and the Efimov–mass spectrum analysis — is unaffected by this retraction. The factorization was an additional numerical claim that proved statistically unsupported; the geometric framework stands independently.
+
 
 ## 7. Efimov Physics and the Mass Spectrum
 
@@ -327,7 +371,7 @@ The program is **confirmed** (not proved, but strongly supported) if the experim
 
 4. **Density of the 5-smooth semigroup (Hamming numbers):** The semigroup $\mathcal{P} = \{2^a \cdot 3^b \cdot 5^c\}$ is dense in $\mathbb{R}_+$ because $\ln 2$, $\ln 3$, $\ln 5$ are linearly independent over $\mathbb{Q}$ (Kronecker's theorem). This means any real number — including any mass ratio — can be approximated arbitrarily closely by a 5-smooth triple. This is a structural constraint on the framework: 5-smooth approximation alone cannot serve as evidence of a physical mechanism without the parsimony, consistency, and falsifiability arguments discussed in §7.4.
 
-5. **Archimedean continuum physics works:** The Standard Model, formulated on $\mathbb{R}^4$ with Archimedean analysis, is the most precisely tested physical theory in history (e.g., $g-2$ of the electron to 12 significant figures). Any framework claiming the Archimedean continuum is "an artifact" must explain why Archimedean physics works so well — not merely claim it is an artifact.
+5. **Archimedean continuum physics works:** The Standard Model, formulated on $\mathbb{R}^4$ with Archimedean analysis, is the most precisely tested physical theory in history (e.g., $g-2$ of the electron to 12 significant figures). Any framework claiming the Archimedean continuum is "an artifact" must explain why Archimedean physics works so well — not only claim it is an artifact.
 
 6. **[NO CONSTRAINING EVIDENCE FOUND FOR: Bruhat–Tits tree as universal SM substrate, $p$-adic QEC error-weight hierarchy, 5-smooth mass hypothesis as an explicit predictive framework.]** The search terms used were: "p-adic standard model masses," "Bruhat-Tits tree particle physics," "p-adic quantum error correction," "5-smooth mass spectrum." The absence of direct challenges to these specific claims reflects the novelty of the adelic cross-domain program rather than its immunity to criticism. This is a risk: the framework has not yet been exposed to adversarial peer review in its current synthesized form.]
 
