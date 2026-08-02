@@ -5,7 +5,7 @@ date: "2026-07-23"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21539547"
 status: "published"
-version: "3.2"
+version: "4.0"
 ---
 
 **Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-07-23 | **License:** QNFO-ULA: https://legal.qnfo.org/
