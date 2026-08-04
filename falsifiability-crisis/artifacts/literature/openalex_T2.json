@@ -1,0 +1,41 @@
+{
+  "query": "Kennefick testing relativity 1919 eclipse",
+  "count": 106,
+  "results": [
+    {
+      "title": "The Confrontation between General Relativity and Experiment",
+      "doi": "https://doi.org/10.12942/lrr-2014-4",
+      "year": 2014,
+      "cited_by": 3911,
+      "type": "article"
+    },
+    {
+      "title": "The Confrontation between General Relativity and Experiment",
+      "doi": "https://doi.org/10.12942/lrr-2006-3",
+      "year": 2006,
+      "cited_by": 1606,
+      "type": "article"
+    },
+    {
+      "title": "The Confrontation between General Relativity and Experiment",
+      "doi": "https://doi.org/10.12942/lrr-2001-4",
+      "year": 2001,
+      "cited_by": 528,
+      "type": "article"
+    },
+    {
+      "title": "Experimental tests of general relativity: recent progress and future directions",
+      "doi": "https://doi.org/10.3367/ufne.0179.200901a.0003",
+      "year": 2009,
+      "cited_by": 115,
+      "type": "article"
+    },
+    {
+      "title": "Predicting the corona for the 21 August 2017 total solar eclipse",
+      "doi": "https://doi.org/10.1038/s41550-018-0562-5",
+      "year": 2018,
+      "cited_by": 163,
+      "type": "article"
+    }
+  ]
+}
