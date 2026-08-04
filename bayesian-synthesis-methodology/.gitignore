@@ -1,0 +1,11 @@
+# Default .gitignore for QNFO.RES.001
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.log
+temp/
+*.tmp
+.DS_Store
+Thumbs.db
+node_modules/
