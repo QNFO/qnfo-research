@@ -3,7 +3,8 @@ title: "Bayesian Guardrails for Cross-Domain Synthesis: A Self-Critical Audit of
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-04"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
+doi: "10.5281/zenodo.21789784"
+status: "published"
 ---
 
 # Bayesian Guardrails for Cross-Domain Synthesis
