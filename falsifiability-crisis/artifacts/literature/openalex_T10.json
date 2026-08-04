@@ -1,0 +1,41 @@
+{
+  "query": "Merritt cosmology crisis falsifiability dark matter",
+  "count": 10,
+  "results": [
+    {
+      "title": "Ultralight scalars as cosmological dark matter",
+      "doi": "https://doi.org/10.1103/physrevd.95.043541",
+      "year": 2017,
+      "cited_by": 1720,
+      "type": "article"
+    },
+    {
+      "title": "Cosmology and Convention",
+      "doi": null,
+      "year": 2017,
+      "cited_by": 38,
+      "type": "preprint"
+    },
+    {
+      "title": "A Philosophical Approach to MOND: Assessing the Milgromian Research Program in Cosmology",
+      "doi": "https://doi.org/10.1017/9781108610926",
+      "year": 2020,
+      "cited_by": 17,
+      "type": "preprint"
+    },
+    {
+      "title": "The Application of Popperian Methodology to Contemporary Cosmology",
+      "doi": "https://doi.org/10.1007/978-3-030-67036-8_6",
+      "year": 2021,
+      "cited_by": 1,
+      "type": "book-chapter"
+    },
+    {
+      "title": "String theory, Einstein, and the identity of physics: Theory assessment in absence of the empirical",
+      "doi": "https://doi.org/10.1016/j.shpsa.2021.06.017",
+      "year": 2021,
+      "cited_by": 13,
+      "type": "article"
+    }
+  ]
+}

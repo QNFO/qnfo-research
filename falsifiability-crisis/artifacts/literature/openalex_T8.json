@@ -1,0 +1,41 @@
+{
+  "query": "Smeenk cosmological knowledge structure",
+  "count": 170,
+  "results": [
+    {
+      "title": "Three problems about multi-scale modelling in cosmology",
+      "doi": "https://doi.org/10.1016/j.shpsb.2018.04.002",
+      "year": 2018,
+      "cited_by": 42,
+      "type": "article"
+    },
+    {
+      "title": "False Vacuum: Early Universe Cosmology and the Development of Inflation",
+      "doi": "https://doi.org/10.1007/0-8176-4454-7_13",
+      "year": 2005,
+      "cited_by": 39,
+      "type": "book-chapter"
+    },
+    {
+      "title": "Big Bang Singularity Resolution In Quantum Cosmology",
+      "doi": "https://doi.org/10.48550/arxiv.2209.05905",
+      "year": 2022,
+      "cited_by": 18,
+      "type": "preprint"
+    },
+    {
+      "title": "Epistemic Justification and Methodological Luck in Inflationary Cosmology",
+      "doi": "https://doi.org/10.1093/bjps/axy014",
+      "year": 2018,
+      "cited_by": 13,
+      "type": "article"
+    },
+    {
+      "title": "Measure, Topology and Probabilistic Reasoning in Cosmology",
+      "doi": "https://doi.org/10.48550/arxiv.1509.01878",
+      "year": 2015,
+      "cited_by": 12,
+      "type": "preprint"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "query": "Whewell consilience inductions philosophy",
+  "count": 193,
+  "results": [
+    {
+      "title": "William Whewell on the Consilience of Inductions",
+      "doi": "https://doi.org/10.5840/monist197155318",
+      "year": 1971,
+      "cited_by": 79,
+      "type": "article"
+    },
+    {
+      "title": "Falsifiability, Consilience, and Systematics",
+      "doi": "https://doi.org/10.2307/sysbio/28.4.530",
+      "year": 1979,
+      "cited_by": 31,
+      "type": "article"
+    },
+    {
+      "title": "William Whewell on the Consilience of Inductions",
+      "doi": "https://doi.org/10.1007/978-94-015-7288-0_10",
+      "year": 1981,
+      "cited_by": 9,
+      "type": "book-chapter"
+    },
+    {
+      "title": "Calibration, Coherence, and Consilience in Radiometric Measures of Geologic Time",
+      "doi": "https://doi.org/10.1086/708690",
+      "year": 2020,
+      "cited_by": 51,
+      "type": "article"
+    },
+    {
+      "title": "The Philosophy of Nosology",
+      "doi": "https://doi.org/10.1146/annurev-clinpsy-032816-045020",
+      "year": 2017,
+      "cited_by": 112,
+      "type": "article"
+    }
+  ]
+}

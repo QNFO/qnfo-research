@@ -1,0 +1,41 @@
+{
+  "query": "Ellis Silk defend integrity physics",
+  "count": 152,
+  "results": [
+    {
+      "title": "Scientific method: Defend the integrity of physics",
+      "doi": "https://doi.org/10.1038/516321a",
+      "year": 2014,
+      "cited_by": 218,
+      "type": "article"
+    },
+    {
+      "title": "How dark matter came to matter",
+      "doi": "https://doi.org/10.1038/s41550-017-0059",
+      "year": 2017,
+      "cited_by": 170,
+      "type": "article"
+    },
+    {
+      "title": "String theory, Einstein, and the identity of physics: Theory assessment in absence of the empirical",
+      "doi": "https://doi.org/10.1016/j.shpsa.2021.06.017",
+      "year": 2021,
+      "cited_by": 13,
+      "type": "article"
+    },
+    {
+      "title": "The Deluge of Spurious Correlations in Big Data",
+      "doi": "https://doi.org/10.1007/s10699-016-9489-4",
+      "year": 2016,
+      "cited_by": 380,
+      "type": "article"
+    },
+    {
+      "title": "Spiders spin silk, reflections of missionary kids at midlife",
+      "doi": null,
+      "year": 2000,
+      "cited_by": 4,
+      "type": "dissertation"
+    }
+  ]
+}
