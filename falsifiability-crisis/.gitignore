@@ -1,0 +1,20 @@
+# Build artifacts
+*.pdf
+*.html
+*.log
+*.aux
+*.out
+*.toc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*~
