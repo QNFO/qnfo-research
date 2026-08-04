@@ -1,0 +1,4 @@
+﻿Working directory: Desktop/PBO/
+Environment: Windows, PowerShell
+Publication date: 2026-07-16
+Reformulation: Autaxic Table of Patterns v2.0 -> Pattern Hierarchy v3.0

@@ -1,0 +1,617 @@
+{
+  "n_scales": 102,
+  "scales": [
+    {
+      "name": "electron Compton \u03bb",
+      "value_m": 2.426310238015166e-12,
+      "category": "E",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "electron reduced Compton \u03bb\u0304",
+      "value_m": 3.861592678545868e-13,
+      "category": "E",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "muon Compton \u03bb",
+      "value_m": 1.1734441210810034e-14,
+      "category": "E",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "muon reduced Compton \u03bb\u0304",
+      "value_m": 1.8675943231216623e-15,
+      "category": "E",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "tau Compton \u03bb",
+      "value_m": 6.977713404545097e-16,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "tau reduced Compton \u03bb\u0304",
+      "value_m": 1.1105375798119301e-16,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "up quark Compton \u03bb (~2.2 MeV)",
+      "value_m": 5.635645381818182e-13,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "down quark Compton \u03bb (~4.7 MeV)",
+      "value_m": 2.6379616680851063e-13,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "strange quark Compton \u03bb (~96 MeV)",
+      "value_m": 1.2915020666666667e-14,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "charm quark Compton \u03bb (~1.27 GeV)",
+      "value_m": 9.762535307086614e-16,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "bottom quark Compton \u03bb (~4.18 GeV)",
+      "value_m": 2.966129148325359e-16,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "top quark Compton \u03bb (~172.5 GeV)",
+      "value_m": 7.187489762318841e-18,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "W boson Compton \u03bb",
+      "value_m": 1.5425332918621e-17,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Z boson Compton \u03bb",
+      "value_m": 1.3596607258004376e-17,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Higgs boson Compton \u03bb",
+      "value_m": 9.898937996007984e-18,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "neutrino mass limit Compton \u03bb (~0.8 eV)",
+      "value_m": 1.5498024799999999e-06,
+      "category": "E",
+      "source": "KATRIN/cosmology upper bound"
+    },
+    {
+      "name": "neutrino mass limit Compton \u03bb (~0.12 eV)",
+      "value_m": 1.0332016533333334e-05,
+      "category": "E",
+      "source": "cosmology \u2211m_\u03bd upper bound"
+    },
+    {
+      "name": "proton Compton \u03bb",
+      "value_m": 1.3214098552615156e-15,
+      "category": "H",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "proton reduced Compton \u03bb\u0304",
+      "value_m": 2.1030891031521618e-16,
+      "category": "H",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "neutron Compton \u03bb",
+      "value_m": 1.3195909061872456e-15,
+      "category": "H",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "pion (\u03c0\u00b1) Compton \u03bb",
+      "value_m": 8.883273766018709e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "pion (\u03c00) Compton \u03bb",
+      "value_m": 9.185593257507956e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "kaon (K\u00b1) Compton \u03bb",
+      "value_m": 2.511443684838467e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "kaon (K0) Compton \u03bb",
+      "value_m": 2.491588779186955e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "eta meson Compton \u03bb",
+      "value_m": 2.263055265742103e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "rho meson Compton \u03bb",
+      "value_m": 1.5992595825916467e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "omega meson Compton \u03bb",
+      "value_m": 1.5841386860194721e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "phi meson Compton \u03bb",
+      "value_m": 1.2161740213701162e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "J/psi Compton \u03bb",
+      "value_m": 4.003493764732474e-16,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Upsilon(1S) Compton \u03bb",
+      "value_m": 1.3105736435419595e-16,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Delta++ Compton \u03bb",
+      "value_m": 1.0063652467532468e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "pion decay constant f_\u03c0 (~92.2 MeV)",
+      "value_m": 1.3447310021691974e-14,
+      "category": "H",
+      "source": "f_\u03c0 from PDG"
+    },
+    {
+      "name": "nucleon radius r_p (~0.84 fm)",
+      "value_m": 8.4e-16,
+      "category": "H",
+      "source": "CODATA/electron scattering"
+    },
+    {
+      "name": "nuclear force range (~1.4 fm)",
+      "value_m": 1.4e-15,
+      "category": "H",
+      "source": "from pion Compton \u03bb"
+    },
+    {
+      "name": "QCD scale 1/\u039b_QCD (~4.5e-16 m)",
+      "value_m": 3.589934072393174e-14,
+      "category": "H",
+      "source": "\u039b_QCD ~ 217 MeV, \u03bb = 2\u03c0\u0127c/\u039b"
+    },
+    {
+      "name": "QCD string tension sqrt(\u03c3) (~440 MeV)",
+      "value_m": 2.817822690909091e-15,
+      "category": "H",
+      "source": "lattice QCD"
+    },
+    {
+      "name": "Sommer scale r_0 (~0.47 fm)",
+      "value_m": 4.7e-16,
+      "category": "H",
+      "source": "lattice QCD"
+    },
+    {
+      "name": "Sommer scale r_1 (~0.31 fm)",
+      "value_m": 3.1e-16,
+      "category": "H",
+      "source": "lattice QCD"
+    },
+    {
+      "name": "deuteron binding energy Compton \u03bb",
+      "value_m": 5.573410651785562e-13,
+      "category": "H",
+      "source": "nuclear"
+    },
+    {
+      "name": "alpha particle binding energy Compton \u03bb",
+      "value_m": 4.38173703802698e-14,
+      "category": "H",
+      "source": "nuclear"
+    },
+    {
+      "name": "Fermi momentum k_F (~250 MeV)",
+      "value_m": 4.959367936e-15,
+      "category": "H",
+      "source": "nuclear matter"
+    },
+    {
+      "name": "hadronization scale ~1 GeV",
+      "value_m": 1.239841984e-15,
+      "category": "H",
+      "source": "QCD"
+    },
+    {
+      "name": "Fermi scale v = 246 GeV",
+      "value_m": 5.035504768093574e-18,
+      "category": "W",
+      "source": "electroweak VEV"
+    },
+    {
+      "name": "W mass scale 1/m_W",
+      "value_m": 2.455017982836665e-18,
+      "category": "W",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Z mass scale 1/m_Z",
+      "value_m": 2.163967254390538e-18,
+      "category": "W",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Higgs mass scale 1/m_H",
+      "value_m": 1.5754649134248512e-18,
+      "category": "W",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "electroweak unification scale ~100 GeV",
+      "value_m": 1.239841984e-17,
+      "category": "W",
+      "source": "theory"
+    },
+    {
+      "name": "Planck length l_P",
+      "value_m": 1.616255e-35,
+      "category": "G",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "Planck mass M_P reduced Compton \u03bb\u0304",
+      "value_m": 3.199243095315477e-33,
+      "category": "G",
+      "source": "M_P = 2.435e18 GeV/c\u00b2"
+    },
+    {
+      "name": "Schwarzschild radius of proton (~2.5e-54 m)",
+      "value_m": 2.5e-54,
+      "category": "G",
+      "source": "r_S = 2GM/c\u00b2 for m_p"
+    },
+    {
+      "name": "Schwarzschild radius of electron (~1.35e-57 m)",
+      "value_m": 1.35e-57,
+      "category": "G",
+      "source": "r_S = 2GM/c\u00b2 for m_e"
+    },
+    {
+      "name": "gravitational coupling ~1/\u03b1_G scale",
+      "value_m": 7.4160360876811585e-37,
+      "category": "G",
+      "source": "\u03b1_G = Gm_p\u00b2/\u0127c"
+    },
+    {
+      "name": "Bohr radius a_0",
+      "value_m": 5.29177210903e-11,
+      "category": "A",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "classical electron radius r_e",
+      "value_m": 2.8179403262e-15,
+      "category": "A",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "Rydberg energy Compton \u03bb",
+      "value_m": 1.8225341171522833e-13,
+      "category": "A",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "Hartree energy Compton \u03bb",
+      "value_m": 9.112670585761416e-14,
+      "category": "A",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "hydrogen ground state size ~1 \u00c5",
+      "value_m": 1e-10,
+      "category": "A",
+      "source": "atomic"
+    },
+    {
+      "name": "fine-structure wavelength",
+      "value_m": 3.422512268336701e-09,
+      "category": "A",
+      "source": "\u03b1\u00b2\u00b7Rydberg"
+    },
+    {
+      "name": "Lamb shift energy ~1057 MHz => \u03bb",
+      "value_m": 0.2836258357988537,
+      "category": "A",
+      "source": "QED"
+    },
+    {
+      "name": "hyperfine splitting 21 cm line",
+      "value_m": 0.21,
+      "category": "A",
+      "source": "hydrogen 21cm"
+    },
+    {
+      "name": "Thomson scattering cross-section sqrt",
+      "value_m": 8.15626017240745e-15,
+      "category": "A",
+      "source": "classical"
+    },
+    {
+      "name": "positronium Bohr radius",
+      "value_m": 1.058354421806e-10,
+      "category": "A",
+      "source": "2a_0 for Ps"
+    },
+    {
+      "name": "muonic hydrogen Lamb shift scale",
+      "value_m": 2.479683968e-11,
+      "category": "A",
+      "source": "proton radius puzzle"
+    },
+    {
+      "name": "electron g-2 anomaly energy ~1.16e-3",
+      "value_m": 2.092270140047345e-09,
+      "category": "A",
+      "source": "QED anomalous moment"
+    },
+    {
+      "name": "Casimir force scale ~1 \u03bcm",
+      "value_m": 1e-06,
+      "category": "A",
+      "source": "Casimir effect"
+    },
+    {
+      "name": "Hubble radius c/H_0 (~1.3e26 m)",
+      "value_m": 1.3e+26,
+      "category": "C",
+      "source": "H_0 \u2248 70 km/s/Mpc"
+    },
+    {
+      "name": "dark energy scale (CC) \u03bb",
+      "value_m": 0.000539061732173913,
+      "category": "C",
+      "source": "\u03c1_\u039b^(1/4) ~ 2.3 meV"
+    },
+    {
+      "name": "CMB temperature energy ~2.35e-4 eV",
+      "value_m": 0.005275923336170213,
+      "category": "C",
+      "source": "T_CMB = 2.725 K"
+    },
+    {
+      "name": "recombination energy ~0.3 eV",
+      "value_m": 4.1328066133333335e-06,
+      "category": "C",
+      "source": "z ~ 1100"
+    },
+    {
+      "name": "nucleosynthesis energy ~0.1 MeV",
+      "value_m": 1.239841984e-11,
+      "category": "C",
+      "source": "BBN"
+    },
+    {
+      "name": "GUT scale ~10^16 GeV",
+      "value_m": 1.239841984e-31,
+      "category": "C",
+      "source": "theory"
+    },
+    {
+      "name": "inflation scale ~10^16 GeV",
+      "value_m": 1.239841984e-31,
+      "category": "C",
+      "source": "theory, r ~ 0.05"
+    },
+    {
+      "name": "QCD phase transition ~150 MeV",
+      "value_m": 8.265613226666667e-15,
+      "category": "C",
+      "source": "crossover"
+    },
+    {
+      "name": "electroweak phase transition ~100 GeV",
+      "value_m": 1.239841984e-17,
+      "category": "C",
+      "source": "theory"
+    },
+    {
+      "name": "visible light ~550 nm",
+      "value_m": 5.5e-07,
+      "category": "M",
+      "source": "reference"
+    },
+    {
+      "name": "X-ray ~0.1 nm",
+      "value_m": 1e-10,
+      "category": "M",
+      "source": "reference"
+    },
+    {
+      "name": "gamma ray ~1 pm",
+      "value_m": 1e-12,
+      "category": "M",
+      "source": "reference"
+    },
+    {
+      "name": "LHC collision energy 13 TeV Compton \u03bb",
+      "value_m": 9.537246030769231e-20,
+      "category": "M",
+      "source": "accelerator"
+    },
+    {
+      "name": "cosmic ray GZK cutoff ~5e19 eV",
+      "value_m": 2.479683968e-26,
+      "category": "M",
+      "source": "astroparticle"
+    },
+    {
+      "name": "neutron star density scale ~1 fm interparticle",
+      "value_m": 1e-15,
+      "category": "M",
+      "source": "nuclear density"
+    },
+    {
+      "name": "axion mass ~1e-5 eV Compton \u03bb",
+      "value_m": 0.1239841984,
+      "category": "E",
+      "source": "axion DM window"
+    },
+    {
+      "name": "sterile neutrino ~7 keV Compton \u03bb",
+      "value_m": 1.7712028342857142e-10,
+      "category": "E",
+      "source": "DM candidate"
+    },
+    {
+      "name": "WIMP mass ~100 GeV Compton \u03bb",
+      "value_m": 1.239841984e-17,
+      "category": "E",
+      "source": "DM candidate"
+    },
+    {
+      "name": "Planck mass M_P",
+      "value_m": 1.0155230888941673e-34,
+      "category": "G",
+      "source": "CODATA 2018"
+    },
+    {
+      "name": "Fermi constant G_F^(1/2) scale",
+      "value_m": 4.234433005464481e-18,
+      "category": "W",
+      "source": "G_F = 1.1663787e-5 GeV^-2"
+    },
+    {
+      "name": "confinement scale \u039b_QCD ~217 MeV (Compton)",
+      "value_m": 5.713557529953917e-15,
+      "category": "H",
+      "source": "lattice"
+    },
+    {
+      "name": "nuclear saturation density n_0^(-1/3) (~1.1 fm)",
+      "value_m": 1.1e-15,
+      "category": "H",
+      "source": "n_0 = 0.16 fm^-3"
+    },
+    {
+      "name": "delta-nucleon mass splitting Compton \u03bb",
+      "value_m": 4.231542607508532e-15,
+      "category": "H",
+      "source": "N-\u0394 splitting"
+    },
+    {
+      "name": "thorium-229 nuclear transition ~8.4 eV \u03bb",
+      "value_m": 1.476002361904762e-07,
+      "category": "A",
+      "source": "nuclear clock"
+    },
+    {
+      "name": "superconducting gap ~1 meV Compton \u03bb",
+      "value_m": 0.001239841984,
+      "category": "A",
+      "source": "BCS"
+    },
+    {
+      "name": "Fermi wavelength in metal ~0.5 nm",
+      "value_m": 5e-10,
+      "category": "A",
+      "source": "condensed matter"
+    },
+    {
+      "name": "eta_prime meson Compton \u03bb",
+      "value_m": 1.2944955877132536e-15,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "D0 meson Compton \u03bb",
+      "value_m": 6.648516677033954e-16,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "D\u00b1 meson Compton \u03bb",
+      "value_m": 6.63137674229539e-16,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "B0 meson Compton \u03bb",
+      "value_m": 2.3483367944147917e-16,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "B\u00b1 meson Compton \u03bb",
+      "value_m": 2.348479135649532e-16,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Bs meson Compton \u03bb",
+      "value_m": 2.3101555156402553e-16,
+      "category": "H",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "muonic atom 2P-2S transition ~0.05 eV \u03bb",
+      "value_m": 2.4796839679999998e-05,
+      "category": "A",
+      "source": "muonic hydrogen"
+    },
+    {
+      "name": "antihydrogen 1S-2S transition \u03bb",
+      "value_m": 2.8958247031141875e-15,
+      "category": "A",
+      "source": "CERN ALPHA"
+    },
+    {
+      "name": "Z boson width \u0393_Z ~2.5 GeV \u03bb",
+      "value_m": 4.959367936e-16,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "W boson width \u0393_W ~2.1 GeV \u03bb",
+      "value_m": 5.904009447619047e-16,
+      "category": "E",
+      "source": "PDG 2022"
+    },
+    {
+      "name": "Higgs width \u0393_H ~4.1 MeV \u03bb",
+      "value_m": 3.0240048390243903e-13,
+      "category": "E",
+      "source": "SM prediction"
+    }
+  ]
+}
