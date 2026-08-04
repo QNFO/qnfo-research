@@ -1,0 +1,47 @@
+{
+  "parameters": {
+    "targets": {
+      "y_e": 2.94e-06,
+      "y_\u03bc": 0.000607,
+      "y_\u03c4": 0.01021,
+      "m_W/m_Z": 0.8814
+    },
+    "tolerances": {
+      "y_e": 0.0093,
+      "y_\u03bc": 0.0082,
+      "y_\u03c4": 0.0089,
+      "m_W/m_Z": 0.0089
+    },
+    "n_ratios": 600,
+    "log_range": [
+      -13.815510557964274,
+      50.65687204586901
+    ],
+    "linear_range": [
+      1e-06,
+      1e+22
+    ],
+    "n_trials": 1000000,
+    "observed_matches": 5,
+    "seed": 42
+  },
+  "results": {
+    "p_value": 0.000589,
+    "p_value_poisson_approx": 0.9999999999999407,
+    "n_extreme_trials": 589,
+    "mean_matches": 0.65807,
+    "median_matches": 0.0,
+    "std_matches": 0.8109327192190484,
+    "min_matches": 0,
+    "max_matches": 7,
+    "expected_matches_per_target": [
+      11.159999999999998,
+      9.840000000000002,
+      10.68,
+      10.68
+    ],
+    "expected_total": 42.36,
+    "significance": "p < 0.001 (highly significant)",
+    "computation_time_seconds": 19.470239877700806
+  }
+}

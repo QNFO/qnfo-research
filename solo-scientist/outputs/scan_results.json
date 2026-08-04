@@ -1,0 +1,132 @@
+{
+  "n_scales": 102,
+  "n_ratios": 5151,
+  "targets": [
+    {
+      "target": "m_p/m_e",
+      "target_value": 1836.15267343,
+      "closest_ratio": 1836.1526731121462,
+      "relative_error": 1.7310861506992635e-10,
+      "numerator": "electron Compton \u03bb",
+      "denominator": "proton Compton \u03bb",
+      "num_category": "E",
+      "den_category": "H",
+      "match_type": "tautological",
+      "tautology_reason": "proton/electron Compton ratio = mass ratio (tautological)"
+    },
+    {
+      "target": "m_\u03bc/m_e",
+      "target_value": 206.768283,
+      "closest_ratio": 206.76828103071446,
+      "relative_error": 9.524118042040521e-09,
+      "numerator": "electron reduced Compton \u03bb\u0304",
+      "denominator": "muon reduced Compton \u03bb\u0304",
+      "num_category": "E",
+      "den_category": "E",
+      "match_type": "tautological",
+      "tautology_reason": "muon/electron Compton ratio = mass ratio (tautological)"
+    },
+    {
+      "target": "m_\u03c4/m_e",
+      "target_value": 3477.23,
+      "closest_ratio": 3477.2282800189705,
+      "relative_error": 4.9464114525345e-07,
+      "numerator": "electron Compton \u03bb",
+      "denominator": "tau Compton \u03bb",
+      "num_category": "E",
+      "den_category": "E",
+      "match_type": "tautological",
+      "tautology_reason": "tau/electron Compton ratio = mass ratio (tautological)"
+    },
+    {
+      "target": "m_t/m_e",
+      "target_value": 345000.0,
+      "closest_ratio": 341404.65219548385,
+      "relative_error": 0.010421297984104773,
+      "numerator": "positronium Bohr radius",
+      "denominator": "Sommer scale r_1 (~0.31 fm)",
+      "num_category": "A",
+      "den_category": "H",
+      "match_type": "non-tautological",
+      "tautology_reason": ""
+    },
+    {
+      "target": "m_b/m_e",
+      "target_value": 8270.0,
+      "closest_ratio": 8265.613226666666,
+      "relative_error": 0.0005304441757356254,
+      "numerator": "recombination energy ~0.3 eV",
+      "denominator": "Fermi wavelength in metal ~0.5 nm",
+      "num_category": "C",
+      "den_category": "A",
+      "match_type": "non-tautological",
+      "tautology_reason": ""
+    },
+    {
+      "target": "m_c/m_e",
+      "target_value": 2060.0,
+      "closest_ratio": 2092.270140047345,
+      "relative_error": 0.01566511652783747,
+      "numerator": "electron g-2 anomaly energy ~1.16e-3",
+      "denominator": "gamma ray ~1 pm",
+      "num_category": "A",
+      "den_category": "M",
+      "match_type": "non-tautological",
+      "tautology_reason": ""
+    },
+    {
+      "target": "y_e (2.94e-6)",
+      "target_value": 2.94e-06,
+      "closest_ratio": 1.0,
+      "relative_error": 340135.05442176876,
+      "numerator": "electroweak unification scale ~100 GeV",
+      "denominator": "electroweak phase transition ~100 GeV",
+      "num_category": "W",
+      "den_category": "C",
+      "match_type": "non-tautological",
+      "tautology_reason": ""
+    },
+    {
+      "target": "y_\u03bc (6.07e-4)",
+      "target_value": 0.000607,
+      "closest_ratio": 1.0,
+      "relative_error": 1646.4464579901153,
+      "numerator": "electroweak unification scale ~100 GeV",
+      "denominator": "electroweak phase transition ~100 GeV",
+      "num_category": "W",
+      "den_category": "C",
+      "match_type": "non-tautological",
+      "tautology_reason": ""
+    },
+    {
+      "target": "y_\u03c4 (0.01021)",
+      "target_value": 0.01021,
+      "closest_ratio": 1.0,
+      "relative_error": 96.9431929480901,
+      "numerator": "electroweak unification scale ~100 GeV",
+      "denominator": "electroweak phase transition ~100 GeV",
+      "num_category": "W",
+      "den_category": "C",
+      "match_type": "non-tautological",
+      "tautology_reason": ""
+    },
+    {
+      "target": "m_W/m_Z (0.8814)",
+      "target_value": 0.8814,
+      "closest_ratio": 1.0,
+      "relative_error": 0.13455865668255054,
+      "numerator": "electroweak unification scale ~100 GeV",
+      "denominator": "electroweak phase transition ~100 GeV",
+      "num_category": "W",
+      "den_category": "C",
+      "match_type": "non-tautological",
+      "tautology_reason": ""
+    }
+  ],
+  "tautological_count": 3,
+  "non_tautological_count": 7,
+  "log_ratio_range": [
+    0.0,
+    82.98360958381183
+  ]
+}
