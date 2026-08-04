@@ -1,0 +1,1307 @@
+{
+  "summary": {
+    "total_raw": 208,
+    "total_unique": 135,
+    "duplicates": 73,
+    "classification": {
+      "core": 35,
+      "supporting": 0,
+      "background": 84,
+      "reject": 16
+    },
+    "cross_domain_gap": "CONFIRMED — no cross-domain energy benchmark survey on arXiv"
+  },
+  "mandatory_symmetry": {
+    "supporting": [
+      {
+        "title": "NeuroBench: A Framework for Benchmarking Neuromorphic Computing Algorithms and Systems",
+        "arxiv_id": "2304.04640v5",
+        "year": "2023"
+      },
+      {
+        "title": "Line-based Event Preprocessing: Towards Low-Energy Neuromorphic Computer Vision",
+        "arxiv_id": "2601.10742v1",
+        "year": "2026"
+      },
+      {
+        "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+        "arxiv_id": "2505.06371v2",
+        "year": "2025"
+      },
+      {
+        "title": "Compute and Energy Consumption Trends in Deep Learning Inference",
+        "arxiv_id": "2109.05472v2",
+        "year": "2021"
+      },
+      {
+        "title": "Quantum Computing: Vision and Challenges",
+        "arxiv_id": "2403.02240v5",
+        "year": "2024"
+      },
+      {
+        "title": "The Sunk Carbon Fallacy: Rethinking Carbon Footprint Metrics for Effective Carbon-Aware Scheduling",
+        "arxiv_id": "2410.15087v1",
+        "year": "2024"
+      },
+      {
+        "title": "Making AI Less \"Thirsty\": Uncovering and Addressing the Secret Water Footprint of AI Models",
+        "arxiv_id": "2304.03271v5",
+        "year": "2023"
+      },
+      {
+        "title": "Neuromorphic Computing for Low-Power Artificial Intelligence",
+        "arxiv_id": "2604.04727v1",
+        "year": "2026"
+      }
+    ],
+    "constraining": [
+      {
+        "title": "Quantum Computing: Vision and Challenges",
+        "arxiv_id": "2403.02240v5",
+        "year": "2024"
+      },
+      {
+        "title": "Tianyan: Cloud services with quantum advantage",
+        "arxiv_id": "2512.10504v2",
+        "year": "2025"
+      },
+      {
+        "title": "Noisy three-player dilemma game: Robustness of the quantum advantage",
+        "arxiv_id": "2004.04533v1",
+        "year": "2020"
+      },
+      {
+        "title": "An introduction to Fault-tolerant Quantum Computing",
+        "arxiv_id": "1508.03695v1",
+        "year": "2015"
+      },
+      {
+        "title": "Continuous-time quantum error correction",
+        "arxiv_id": "1311.2485v2",
+        "year": "2013"
+      },
+      {
+        "title": "Fault-tolerant quantum computation with constant overhead for general noise",
+        "arxiv_id": "2512.02760v1",
+        "year": "2025"
+      },
+      {
+        "title": "Fault-tolerant quantum error detection",
+        "arxiv_id": "1611.06946v2",
+        "year": "2016"
+      },
+      {
+        "title": "Fault-tolerant quantum input/output",
+        "arxiv_id": "2408.05260v3",
+        "year": "2024"
+      },
+      {
+        "title": "Fault tolerance for holonomic quantum computation",
+        "arxiv_id": "1312.0165v1",
+        "year": "2013"
+      },
+      {
+        "title": "Fault-tolerant Quantum Error Correction Using a Linear Array of Emitters",
+        "arxiv_id": "2403.01376v2",
+        "year": "2024"
+      },
+      {
+        "title": "Unifying communication paradigms in measurement-based delegated quantum computing",
+        "arxiv_id": "2506.21988v2",
+        "year": "2025"
+      },
+      {
+        "title": "Thermodynamic Recycling of Algorithmic Failure Branches: Quantum-Computer Demonstration with Quantum Error Correction",
+        "arxiv_id": "2601.07522v2",
+        "year": "2026"
+      },
+      {
+        "title": "Generalized Reversible Computing",
+        "arxiv_id": "1806.10183v1",
+        "year": "2018"
+      },
+      {
+        "title": "Quantum error correction with the toric code",
+        "arxiv_id": "2606.04079v1",
+        "year": "2026"
+      },
+      {
+        "title": "Quantum Computing and Error Correction",
+        "arxiv_id": "quant-ph/0304016v2",
+        "year": "2003"
+      },
+      {
+        "title": "Quantum error correction beyond qubits",
+        "arxiv_id": "0811.3734v1",
+        "year": "2008"
+      },
+      {
+        "title": "Error suppression and error correction in adiabatic quantum computation I: techniques and challenges",
+        "arxiv_id": "1307.5893v3",
+        "year": "2013"
+      }
+    ]
+  },
+  "classified": {
+    "core": [
+      {
+        "title": "NeuroBench: A Framework for Benchmarking Neuromorphic Computing Algorithms and Systems",
+        "arxiv_id": "2304.04640v5",
+        "year": "2023",
+        "queries": [
+          "B01-NeuroBench",
+          "S5-NeuromorphicAdvantage"
+        ]
+      },
+      {
+        "title": "Line-based Event Preprocessing: Towards Low-Energy Neuromorphic Computer Vision",
+        "arxiv_id": "2601.10742v1",
+        "year": "2026",
+        "queries": [
+          "B01-NeuroBench",
+          "S5-NeuromorphicAdvantage"
+        ]
+      },
+      {
+        "title": "Neuromorphic computing for attitude estimation onboard quadrotors",
+        "arxiv_id": "2304.08802v1",
+        "year": "2023",
+        "queries": [
+          "B01-NeuroBench"
+        ]
+      },
+      {
+        "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+        "arxiv_id": "2505.06371v2",
+        "year": "2025",
+        "queries": [
+          "B02-MLENERGY",
+          "B03-SPECpower",
+          "B09-CoreMarkPro",
+          "B10-CloudSuite",
+          "S1-EnergyMetric",
+          "X1-CrossDomain"
+        ]
+      },
+      {
+        "title": "Compute and Energy Consumption Trends in Deep Learning Inference",
+        "arxiv_id": "2109.05472v2",
+        "year": "2021",
+        "queries": [
+          "B02-MLENERGY",
+          "B07-TPCEnergy",
+          "S2-CarbonQC",
+          "S3-AITraining"
+        ]
+      },
+      {
+        "title": "The L-CSC cluster: greenest supercomputer in the world in Green500 list of November 2014",
+        "arxiv_id": "1712.09431v1",
+        "year": "2017",
+        "queries": [
+          "B04-Green500"
+        ]
+      },
+      {
+        "title": "The L-CSC cluster: Optimizing power efficiency to become the greenest supercomputer in the world in the Green500 list of November 2014",
+        "arxiv_id": "1811.11475v1",
+        "year": "2018",
+        "queries": [
+          "B04-Green500"
+        ]
+      },
+      {
+        "title": "Watts-Per-Intelligence: Part I (Energy Efficiency)",
+        "arxiv_id": "2504.05328v2",
+        "year": "2025",
+        "queries": [
+          "B04-Green500"
+        ]
+      },
+      {
+        "title": "CoreMark: Toward Robust and Universal Text Watermarking Technique",
+        "arxiv_id": "2506.23066v2",
+        "year": "2025",
+        "queries": [
+          "B09-CoreMarkPro"
+        ]
+      },
+      {
+        "title": "Sustainable Quantum Computing: Opportunities and Challenges of Benchmarking Carbon in the Quantum Computing Lifecycle",
+        "arxiv_id": "2408.05679v2",
+        "year": "2024",
+        "queries": [
+          "B12-SQC"
+        ]
+      },
+      {
+        "title": "Quantum Computing: Vision and Challenges",
+        "arxiv_id": "2403.02240v5",
+        "year": "2024",
+        "queries": [
+          "B12-SQC",
+          "C4-QC-Defense",
+          "S2-CarbonQC"
+        ]
+      },
+      {
+        "title": "Evaluating Computing Platforms for Sustainability: A Comparative Analysis of FPGAs against ASICs, GPUs, and CPUs",
+        "arxiv_id": "2604.20638v1",
+        "year": "2026",
+        "queries": [
+          "B12-SQC"
+        ]
+      },
+      {
+        "title": "Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications",
+        "arxiv_id": "2307.11128v2",
+        "year": "2023",
+        "queries": [
+          "B13-ApproxSurvey"
+        ]
+      },
+      {
+        "title": "Approximate Computing Survey, Part I: Terminology and Software & Hardware Approximation Techniques",
+        "arxiv_id": "2307.11124v2",
+        "year": "2023",
+        "queries": [
+          "B13-ApproxSurvey"
+        ]
+      },
+      {
+        "title": "Approximate Computing for Robotic path planning -- Experimentation, Case Study and Practical Implications",
+        "arxiv_id": "2104.05773v2",
+        "year": "2021",
+        "queries": [
+          "B13-ApproxSurvey"
+        ]
+      },
+      {
+        "title": "Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models",
+        "arxiv_id": "2007.03051v1",
+        "year": "2020",
+        "queries": [
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "Tianyan: Cloud services with quantum advantage",
+        "arxiv_id": "2512.10504v2",
+        "year": "2025",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "Noisy three-player dilemma game: Robustness of the quantum advantage",
+        "arxiv_id": "2004.04533v1",
+        "year": "2020",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "An introduction to Fault-tolerant Quantum Computing",
+        "arxiv_id": "1508.03695v1",
+        "year": "2015",
+        "queries": [
+          "C2-QC-Roadmap"
+        ]
+      },
+      {
+        "title": "Continuous-time quantum error correction",
+        "arxiv_id": "1311.2485v2",
+        "year": "2013",
+        "queries": [
+          "C2-QC-Roadmap",
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "Fault-tolerant quantum computation with constant overhead for general noise",
+        "arxiv_id": "2512.02760v1",
+        "year": "2025",
+        "queries": [
+          "C2-QC-Roadmap"
+        ]
+      },
+      {
+        "title": "Fault-tolerant quantum error detection",
+        "arxiv_id": "1611.06946v2",
+        "year": "2016",
+        "queries": [
+          "C2-QC-Roadmap"
+        ]
+      },
+      {
+        "title": "Fault-tolerant quantum input/output",
+        "arxiv_id": "2408.05260v3",
+        "year": "2024",
+        "queries": [
+          "C2-QC-Roadmap"
+        ]
+      },
+      {
+        "title": "Fault tolerance for holonomic quantum computation",
+        "arxiv_id": "1312.0165v1",
+        "year": "2013",
+        "queries": [
+          "C2-QC-Roadmap"
+        ]
+      },
+      {
+        "title": "Fault-tolerant Quantum Error Correction Using a Linear Array of Emitters",
+        "arxiv_id": "2403.01376v2",
+        "year": "2024",
+        "queries": [
+          "C2-QC-Roadmap"
+        ]
+      },
+      {
+        "title": "Unifying communication paradigms in measurement-based delegated quantum computing",
+        "arxiv_id": "2506.21988v2",
+        "year": "2025",
+        "queries": [
+          "C4-QC-Defense"
+        ]
+      },
+      {
+        "title": "Thermodynamic Recycling of Algorithmic Failure Branches: Quantum-Computer Demonstration with Quantum Error Correction",
+        "arxiv_id": "2601.07522v2",
+        "year": "2026",
+        "queries": [
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "Generalized Reversible Computing",
+        "arxiv_id": "1806.10183v1",
+        "year": "2018",
+        "queries": [
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "Quantum error correction with the toric code",
+        "arxiv_id": "2606.04079v1",
+        "year": "2026",
+        "queries": [
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "Quantum Computing and Error Correction",
+        "arxiv_id": "quant-ph/0304016v2",
+        "year": "2003",
+        "queries": [
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "Quantum error correction beyond qubits",
+        "arxiv_id": "0811.3734v1",
+        "year": "2008",
+        "queries": [
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "Error suppression and error correction in adiabatic quantum computation I: techniques and challenges",
+        "arxiv_id": "1307.5893v3",
+        "year": "2013",
+        "queries": [
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "The Sunk Carbon Fallacy: Rethinking Carbon Footprint Metrics for Effective Carbon-Aware Scheduling",
+        "arxiv_id": "2410.15087v1",
+        "year": "2024",
+        "queries": [
+          "S2-CarbonQC"
+        ]
+      },
+      {
+        "title": "Making AI Less \"Thirsty\": Uncovering and Addressing the Secret Water Footprint of AI Models",
+        "arxiv_id": "2304.03271v5",
+        "year": "2023",
+        "queries": [
+          "S3-AITraining"
+        ]
+      },
+      {
+        "title": "Neuromorphic Computing for Low-Power Artificial Intelligence",
+        "arxiv_id": "2604.04727v1",
+        "year": "2026",
+        "queries": [
+          "S5-NeuromorphicAdvantage"
+        ]
+      }
+    ],
+    "supporting": [],
+    "background": [
+      {
+        "title": "Synthetic Biology meets Neuromorphic Computing: Towards a bio-inspired Olfactory Perception System",
+        "arxiv_id": "2504.10053v2",
+        "year": "2025",
+        "queries": [
+          "B01-NeuroBench",
+          "S5-NeuromorphicAdvantage"
+        ]
+      },
+      {
+        "title": "Event Encryption: Rethinking Privacy Exposure for Neuromorphic Imaging",
+        "arxiv_id": "2306.03369v3",
+        "year": "2023",
+        "queries": [
+          "B01-NeuroBench",
+          "S5-NeuromorphicAdvantage"
+        ]
+      },
+      {
+        "title": "NeuroMorse: A Temporally Structured Dataset For Neuromorphic Computing",
+        "arxiv_id": "2502.20729v1",
+        "year": "2025",
+        "queries": [
+          "B01-NeuroBench",
+          "S5-NeuromorphicAdvantage"
+        ]
+      },
+      {
+        "title": "NEUROSEC: FPGA-Based Neuromorphic Audio Security",
+        "arxiv_id": "2401.12055v1",
+        "year": "2024",
+        "queries": [
+          "B01-NeuroBench",
+          "S5-NeuromorphicAdvantage"
+        ]
+      },
+      {
+        "title": "Design of Robust and Efficient Edge Server Placement and Server Scheduling Policies: Extended Version",
+        "arxiv_id": "2104.14256v1",
+        "year": "2021",
+        "queries": [
+          "B03-SPECpower"
+        ]
+      },
+      {
+        "title": "Server Structure Proposal and Automatic Verification Technology on IaaS Cloud of Plural Type Servers",
+        "arxiv_id": "1611.09569v2",
+        "year": "2016",
+        "queries": [
+          "B03-SPECpower"
+        ]
+      },
+      {
+        "title": "Energy-Efficient Strategies for Cooperative Multi-Channel MAC Protocols",
+        "arxiv_id": "1411.6521v2",
+        "year": "2014",
+        "queries": [
+          "B03-SPECpower"
+        ]
+      },
+      {
+        "title": "Information-Theoretic Characterization of Vowel Harmony: A Cross-Linguistic Study on Word Lists",
+        "arxiv_id": "2308.04885v1",
+        "year": "2023",
+        "queries": [
+          "B04-Green500"
+        ]
+      },
+      {
+        "title": "Maximum-Entropy Analog Computing Approaching ExaOPS-per-Watt Energy-efficiency at the RF-Edge",
+        "arxiv_id": "2510.24975v1",
+        "year": "2025",
+        "queries": [
+          "B04-Green500"
+        ]
+      },
+      {
+        "title": "Finally, how many efficiencies supercomputers have? And, what do they measure?",
+        "arxiv_id": "2001.01266v9",
+        "year": "2020",
+        "queries": [
+          "B04-Green500"
+        ]
+      },
+      {
+        "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+        "arxiv_id": "2306.04338v1",
+        "year": "2023",
+        "queries": [
+          "B05-MLPerfPower",
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "DOME: Recommendations for supervised machine learning validation in biology",
+        "arxiv_id": "2006.16189v4",
+        "year": "2020",
+        "queries": [
+          "B05-MLPerfPower",
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+        "arxiv_id": "2201.12150v2",
+        "year": "2022",
+        "queries": [
+          "B05-MLPerfPower",
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "MEMe: An Accurate Maximum Entropy Method for Efficient Approximations in Large-Scale Machine Learning",
+        "arxiv_id": "1906.01101v1",
+        "year": "2019",
+        "queries": [
+          "B05-MLPerfPower"
+        ]
+      },
+      {
+        "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+        "arxiv_id": "2303.15563v1",
+        "year": "2023",
+        "queries": [
+          "B05-MLPerfPower",
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "Active learning for data streams: a survey",
+        "arxiv_id": "2302.08893v4",
+        "year": "2023",
+        "queries": [
+          "B05-MLPerfPower",
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+        "arxiv_id": "2304.02381v2",
+        "year": "2023",
+        "queries": [
+          "B05-MLPerfPower",
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "A Benchmark Study of Machine Learning Models for Online Fake News Detection",
+        "arxiv_id": "1905.04749v2",
+        "year": "2019",
+        "queries": [
+          "B05-MLPerfPower",
+          "B14-GoogleMLCarbon"
+        ]
+      },
+      {
+        "title": "Benchmarking Distributed Stream Processing Platforms for IoT Applications",
+        "arxiv_id": "1606.07621v2",
+        "year": "2016",
+        "queries": [
+          "B06-ULPMark"
+        ]
+      },
+      {
+        "title": "Marine IoT Systems with Space-Air-Sea Integrated Networks: Hybrid LEO and UAV Edge Computing",
+        "arxiv_id": "2301.03815v1",
+        "year": "2023",
+        "queries": [
+          "B06-ULPMark"
+        ]
+      },
+      {
+        "title": "Security for the Industrial IoT: The Case for Information-Centric Networking",
+        "arxiv_id": "1810.04645v2",
+        "year": "2018",
+        "queries": [
+          "B06-ULPMark"
+        ]
+      },
+      {
+        "title": "Introduction to IoT",
+        "arxiv_id": "2312.06689v2",
+        "year": "2023",
+        "queries": [
+          "B06-ULPMark"
+        ]
+      },
+      {
+        "title": "Microcontroller Based Testing of Digital IP-Core",
+        "arxiv_id": "1205.1866v1",
+        "year": "2012",
+        "queries": [
+          "B06-ULPMark"
+        ]
+      },
+      {
+        "title": "Towards Smart Healthcare: Challenges and Opportunities in IoT and ML",
+        "arxiv_id": "2312.05530v2",
+        "year": "2023",
+        "queries": [
+          "B06-ULPMark"
+        ]
+      },
+      {
+        "title": "Optimal Consumption under Habit Formation In Markets with Transaction Costs and Random Endowments",
+        "arxiv_id": "1408.1382v6",
+        "year": "2014",
+        "queries": [
+          "B07-TPCEnergy"
+        ]
+      },
+      {
+        "title": "Power-consumption Backdoor in Quantum Key Distribution",
+        "arxiv_id": "2503.11767v1",
+        "year": "2025",
+        "queries": [
+          "B07-TPCEnergy"
+        ]
+      },
+      {
+        "title": "A simulink circuit model for measurement of consumption of electric energy using frequency method",
+        "arxiv_id": "1811.07144v1",
+        "year": "2018",
+        "queries": [
+          "B07-TPCEnergy"
+        ]
+      },
+      {
+        "title": "A Linear LMP Model for Active and Reactive Power with Power Loss",
+        "arxiv_id": "1910.02400v1",
+        "year": "2019",
+        "queries": [
+          "B07-TPCEnergy"
+        ]
+      },
+      {
+        "title": "Advanced YOLO-based Real-time Power Line Detection for Vegetation Management",
+        "arxiv_id": "2503.00044v1",
+        "year": "2025",
+        "queries": [
+          "B07-TPCEnergy"
+        ]
+      },
+      {
+        "title": "Counting cliques without generalized theta graphs",
+        "arxiv_id": "2311.15289v2",
+        "year": "2023",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "Planar Induced Subgraphs of Sparse Graphs",
+        "arxiv_id": "1408.5939v2",
+        "year": "2014",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "Partitioning Perfect Graphs into Stars",
+        "arxiv_id": "1402.2589v3",
+        "year": "2014",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "Every longest circuit of a 3-connected, $K_{3,3}$-minor free graph has a chord",
+        "arxiv_id": "0711.2360v2",
+        "year": "2007",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "PDNS-Net: A Large Heterogeneous Graph Benchmark Dataset of Network Resolutions for Graph Learning",
+        "arxiv_id": "2203.07969v1",
+        "year": "2022",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "Template-Based Graph Clustering",
+        "arxiv_id": "2107.01994v1",
+        "year": "2021",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "The Galois Complexity of Graph Drawing: Why Numerical Solutions are Ubiquitous for Force-Directed, Spectral, and Circle Packing Drawings",
+        "arxiv_id": "1408.1422v1",
+        "year": "2014",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "Crossing Minimization for 1-page and 2-page Drawings of Graphs with Bounded Treewidth",
+        "arxiv_id": "1408.6321v1",
+        "year": "2014",
+        "queries": [
+          "B08-GreenGraph500"
+        ]
+      },
+      {
+        "title": "OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning",
+        "arxiv_id": "2603.08655v1",
+        "year": "2026",
+        "queries": [
+          "B09-CoreMarkPro"
+        ]
+      },
+      {
+        "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+        "arxiv_id": "2607.18213v1",
+        "year": "2026",
+        "queries": [
+          "B09-CoreMarkPro"
+        ]
+      },
+      {
+        "title": "Optical Flow Method for Measuring Deformation of Soil Specimen Subjected to Torsional Shearing",
+        "arxiv_id": "2101.07005v2",
+        "year": "2021",
+        "queries": [
+          "B10-CloudSuite"
+        ]
+      },
+      {
+        "title": "An analysis of transverse momentum spectra of various jets produced in high energy collisions",
+        "arxiv_id": "2008.12554v2",
+        "year": "2020",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "On Extracting Thermal Parameters and Scenario in High-Energy Collisions",
+        "arxiv_id": "2410.20945v3",
+        "year": "2024",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "On the Square Speed of Sound in High-Energy Collisions: Range of Values and How to Understand It",
+        "arxiv_id": "2412.01467v3",
+        "year": "2024",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "Random statistical analysis of transverse momentum spectra of strange particles and dependence of related parameters on centrality in high energy collisions at the LHC",
+        "arxiv_id": "2209.03894v2",
+        "year": "2022",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "Excitation functions of related parameters from transverse momentum (mass) spectra in high energy collisions",
+        "arxiv_id": "1911.07419v2",
+        "year": "2019",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "Trapped fireshell (halo) of photons and pairs around black-hole horizon: source for ultra-high-energy particles",
+        "arxiv_id": "2512.03702v3",
+        "year": "2025",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "A new description of transverse momentum spectra of identified particles produced in proton-proton collisions at high energies",
+        "arxiv_id": "1909.13235v5",
+        "year": "2019",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "Multi-Source Thermal Model Describing Transverse Momentum Spectra of Final-State Particles in High Energy Collisions",
+        "arxiv_id": "2111.13433v2",
+        "year": "2021",
+        "queries": [
+          "B11-HPCG"
+        ]
+      },
+      {
+        "title": "Quantum Software Development Lifecycle",
+        "arxiv_id": "2106.09323v1",
+        "year": "2021",
+        "queries": [
+          "B12-SQC",
+          "S2-CarbonQC"
+        ]
+      },
+      {
+        "title": "Tierkreis: A Dataflow Framework for Hybrid Quantum-Classical Computing",
+        "arxiv_id": "2211.02350v1",
+        "year": "2022",
+        "queries": [
+          "B12-SQC",
+          "C4-QC-Defense",
+          "S2-CarbonQC"
+        ]
+      },
+      {
+        "title": "WaterWise: Co-optimizing Carbon- and Water-Footprint Toward Environmentally Sustainable Cloud Computing",
+        "arxiv_id": "2501.17944v2",
+        "year": "2025",
+        "queries": [
+          "B12-SQC"
+        ]
+      },
+      {
+        "title": "Environmental sustainability in basic research: a perspective from HECAP+",
+        "arxiv_id": "2306.02837v2",
+        "year": "2023",
+        "queries": [
+          "B12-SQC"
+        ]
+      },
+      {
+        "title": "AIn't Nothing But a Survey? Using Large Language Models for Coding German Open-Ended Survey Responses on Survey Motivation",
+        "arxiv_id": "2506.14634v3",
+        "year": "2025",
+        "queries": [
+          "B13-ApproxSurvey",
+          "X2-EnergyAwareBenchmark"
+        ]
+      },
+      {
+        "title": "Complete characterization of the directly implementable quantum gates used in the IBM quantum processors",
+        "arxiv_id": "1805.07185v2",
+        "year": "2018",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "United Nation Security Council in Quantum World: Experimental Realization of Quantum Anonymous Veto Protocols using IBM Quantum Computer",
+        "arxiv_id": "2111.09028v1",
+        "year": "2021",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "Partial Loopholes Free Device Independent Quantum Random Number Generator Using IBM's Quantum Computers",
+        "arxiv_id": "2309.05299v2",
+        "year": "2023",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "Google's Quantum Supremacy Claim: Data, Documentation, and Discussion",
+        "arxiv_id": "2210.12753v3",
+        "year": "2022",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "Entanglement-Assisted Quantum Error-Correcting Codes",
+        "arxiv_id": "1610.04013v1",
+        "year": "2016",
+        "queries": [
+          "C2-QC-Roadmap",
+          "C5-Landauer-Challenge"
+        ]
+      },
+      {
+        "title": "An energetic perspective on rapid quenches in quantum annealing",
+        "arxiv_id": "2007.11599v5",
+        "year": "2020",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Benchmarking Hamiltonian Noise in the D-Wave Quantum Annealer",
+        "arxiv_id": "2006.16421v3",
+        "year": "2020",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Applications of Quantum Annealing in Statistics",
+        "arxiv_id": "1904.06819v2",
+        "year": "2019",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Quantum Annealing - Foundations and Frontiers",
+        "arxiv_id": "1408.5784v1",
+        "year": "2014",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Multivariable Optimization: Quantum Annealing & Computation",
+        "arxiv_id": "1408.3262v3",
+        "year": "2014",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Graver Bases via Quantum Annealing with Application to Non-Linear Integer Programs",
+        "arxiv_id": "1902.04215v1",
+        "year": "2019",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Modernizing Quantum Annealing using Local Searches",
+        "arxiv_id": "1606.06833v6",
+        "year": "2016",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Quantum Annealing and Computation",
+        "arxiv_id": "2203.15839v1",
+        "year": "2022",
+        "queries": [
+          "C3-DWave-Revenue"
+        ]
+      },
+      {
+        "title": "Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations",
+        "arxiv_id": "2207.14810v3",
+        "year": "2022",
+        "queries": [
+          "C4-QC-Defense"
+        ]
+      },
+      {
+        "title": "Entangling Disciplines: Causality, Entropy and Time-Travel Paradoxes on a Quantum Computer",
+        "arxiv_id": "2506.15909v1",
+        "year": "2025",
+        "queries": [
+          "C4-QC-Defense",
+          "S2-CarbonQC"
+        ]
+      },
+      {
+        "title": "Strengths and Weaknesses of Quantum Computing",
+        "arxiv_id": "quant-ph/9701001v1",
+        "year": "1997",
+        "queries": [
+          "C4-QC-Defense"
+        ]
+      },
+      {
+        "title": "A Unified Combination of Classical and Quantum Systems",
+        "arxiv_id": "2010.03984v2",
+        "year": "2020",
+        "queries": [
+          "C4-QC-Defense"
+        ]
+      },
+      {
+        "title": "Quantum Computing in the NISQ era and beyond",
+        "arxiv_id": "1801.00862v3",
+        "year": "2018",
+        "queries": [
+          "C4-QC-Defense"
+        ]
+      },
+      {
+        "title": "Sequential operators in computability logic",
+        "arxiv_id": "0712.1345v2",
+        "year": "2007",
+        "queries": [
+          "S1-EnergyMetric"
+        ]
+      },
+      {
+        "title": "Foundations of GenIR",
+        "arxiv_id": "2501.02842v1",
+        "year": "2025",
+        "queries": [
+          "S3-AITraining"
+        ]
+      },
+      {
+        "title": "Faith in AI can narrow the futures individuals consider",
+        "arxiv_id": "2603.28944v2",
+        "year": "2026",
+        "queries": [
+          "S3-AITraining"
+        ]
+      },
+      {
+        "title": "Data Encoding for Byzantine-Resilient Distributed Optimization",
+        "arxiv_id": "1907.02664v2",
+        "year": "2019",
+        "queries": [
+          "S4-DataCenterEfficiency"
+        ]
+      },
+      {
+        "title": "Byzantine-Resilient SGD in High Dimensions on Heterogeneous Data",
+        "arxiv_id": "2005.07866v1",
+        "year": "2020",
+        "queries": [
+          "S4-DataCenterEfficiency"
+        ]
+      },
+      {
+        "title": "On the Energy Consumption Forecasting of Data Centers Based on Weather Conditions: Remote Sensing and Machine Learning Approach",
+        "arxiv_id": "1804.01754v2",
+        "year": "2018",
+        "queries": [
+          "S4-DataCenterEfficiency"
+        ]
+      },
+      {
+        "title": "TerraGen: A Unified Multi-Task Layout Generation Framework for Remote Sensing Data Augmentation",
+        "arxiv_id": "2510.21391v1",
+        "year": "2025",
+        "queries": [
+          "S4-DataCenterEfficiency"
+        ]
+      },
+      {
+        "title": "Small Data Explainer -- The impact of small data methods in everyday life",
+        "arxiv_id": "2507.11773v1",
+        "year": "2025",
+        "queries": [
+          "S4-DataCenterEfficiency"
+        ]
+      },
+      {
+        "title": "Neuromorphic Programming: Emerging Directions for Brain-Inspired Hardware",
+        "arxiv_id": "2410.22352v1",
+        "year": "2024",
+        "queries": [
+          "S5-NeuromorphicAdvantage"
+        ]
+      },
+      {
+        "title": "Universal Workers: A Vision for Eliminating Cold Starts in Serverless Computing",
+        "arxiv_id": "2505.19880v2",
+        "year": "2025",
+        "queries": [
+          "X1-CrossDomain"
+        ]
+      },
+      {
+        "title": "Cross-domain Compositing with Pretrained Diffusion Models",
+        "arxiv_id": "2302.10167v2",
+        "year": "2023",
+        "queries": [
+          "X1-CrossDomain"
+        ]
+      },
+      {
+        "title": "Universal Representations: A Unified Look at Multiple Task and Domain Learning",
+        "arxiv_id": "2204.02744v2",
+        "year": "2022",
+        "queries": [
+          "X1-CrossDomain"
+        ]
+      },
+      {
+        "title": "A rich bounty of AGN in the 9 square degree Bootes survey: high-z obscured AGN and large-scale structure",
+        "arxiv_id": "astro-ph/0611654v1",
+        "year": "2006",
+        "queries": [
+          "X2-EnergyAwareBenchmark"
+        ]
+      }
+    ],
+    "reject": [
+      {
+        "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+        "arxiv_id": "1211.0310v1",
+        "year": "2012",
+        "queries": [
+          "B01-NeuroBench",
+          "B02-MLENERGY",
+          "B03-SPECpower",
+          "B04-Green500",
+          "B06-ULPMark",
+          "B07-TPCEnergy",
+          "B09-CoreMarkPro",
+          "B10-CloudSuite",
+          "B13-ApproxSurvey",
+          "S1-EnergyMetric",
+          "S3-AITraining",
+          "S4-DataCenterEfficiency",
+          "X1-CrossDomain",
+          "X2-EnergyAwareBenchmark"
+        ]
+      },
+      {
+        "title": "The Dark Energy Survey",
+        "arxiv_id": "astro-ph/0510346v1",
+        "year": "2005",
+        "queries": [
+          "B02-MLENERGY",
+          "B03-SPECpower",
+          "B04-Green500",
+          "B06-ULPMark",
+          "B07-TPCEnergy",
+          "B09-CoreMarkPro",
+          "B10-CloudSuite",
+          "B13-ApproxSurvey",
+          "S1-EnergyMetric",
+          "S3-AITraining",
+          "S4-DataCenterEfficiency",
+          "X1-CrossDomain",
+          "X2-EnergyAwareBenchmark"
+        ]
+      },
+      {
+        "title": "Calibration of centre-of-mass energies at LEP 2 for a precise measurement of the W boson mass",
+        "arxiv_id": "hep-ex/0410026v1",
+        "year": "2004",
+        "queries": [
+          "B02-MLENERGY",
+          "B10-CloudSuite",
+          "S1-EnergyMetric"
+        ]
+      },
+      {
+        "title": "Evaluation of the LEP Centre-of-Mass Energy Above the W-Pair Production Threshold",
+        "arxiv_id": "hep-ex/9901002v2",
+        "year": "1999",
+        "queries": [
+          "B02-MLENERGY",
+          "B03-SPECpower",
+          "B09-CoreMarkPro",
+          "B10-CloudSuite",
+          "S1-EnergyMetric"
+        ]
+      },
+      {
+        "title": "Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph",
+        "arxiv_id": "astro-ph/0507457v2",
+        "year": "2005",
+        "queries": [
+          "B02-MLENERGY",
+          "B03-SPECpower",
+          "B09-CoreMarkPro",
+          "B10-CloudSuite",
+          "S1-EnergyMetric",
+          "X2-EnergyAwareBenchmark"
+        ]
+      },
+      {
+        "title": "Dark Energy Survey: 2.1% measurement of the Baryon Acoustic Oscillation scale from the final dataset",
+        "arxiv_id": "2409.08759v1",
+        "year": "2024",
+        "queries": [
+          "B02-MLENERGY",
+          "B10-CloudSuite",
+          "B13-ApproxSurvey",
+          "X2-EnergyAwareBenchmark"
+        ]
+      },
+      {
+        "title": "Toxicity of Carbon Nanomaterials",
+        "arxiv_id": "2109.13918v1",
+        "year": "2021",
+        "queries": [
+          "B12-SQC",
+          "S2-CarbonQC",
+          "S3-AITraining"
+        ]
+      },
+      {
+        "title": "The Dark Energy Survey Data Processing and Calibration System",
+        "arxiv_id": "1207.3189v1",
+        "year": "2012",
+        "queries": [
+          "B13-ApproxSurvey",
+          "X2-EnergyAwareBenchmark"
+        ]
+      },
+      {
+        "title": "The EAGLE simulations of galaxy formation: Public release of particle data",
+        "arxiv_id": "1706.09899v1",
+        "year": "2017",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "Digital quantum simulation of cosmological particle creation with IBM quantum computers",
+        "arxiv_id": "2410.02412v2",
+        "year": "2024",
+        "queries": [
+          "C1-QC-Advantage"
+        ]
+      },
+      {
+        "title": "Characterisation of honest times and optional semimartingales of class-($Σ$)",
+        "arxiv_id": "1801.03873v5",
+        "year": "2018",
+        "queries": [
+          "S1-EnergyMetric"
+        ]
+      },
+      {
+        "title": "Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes",
+        "arxiv_id": "cond-mat/0602636v1",
+        "year": "2006",
+        "queries": [
+          "S2-CarbonQC",
+          "S3-AITraining"
+        ]
+      },
+      {
+        "title": "Constraints on dark energy from H II starburst galaxy apparent magnitude versus redshift data",
+        "arxiv_id": "1110.5626v1",
+        "year": "2011",
+        "queries": [
+          "S4-DataCenterEfficiency"
+        ]
+      },
+      {
+        "title": "Compression ratios based on the Universal Similarity Metric still yield protein distances far from CATH distances",
+        "arxiv_id": "q-bio/0603007v2",
+        "year": "2006",
+        "queries": [
+          "X1-CrossDomain"
+        ]
+      },
+      {
+        "title": "Measurement of the high-energy all-flavor neutrino-nucleon cross section with IceCube",
+        "arxiv_id": "2011.03560v1",
+        "year": "2020",
+        "queries": [
+          "X1-CrossDomain"
+        ]
+      },
+      {
+        "title": "DES Y3 + KiDS-1000: Consistent cosmology combining cosmic shear surveys",
+        "arxiv_id": "2305.17173v2",
+        "year": "2023",
+        "queries": [
+          "X2-EnergyAwareBenchmark"
+        ]
+      }
+    ]
+  }
+}

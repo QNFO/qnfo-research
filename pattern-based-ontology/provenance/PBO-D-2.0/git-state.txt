@@ -1,0 +1,4 @@
+﻿Working directory: Desktop/PBO/
+Environment: Windows, PowerShell
+Publication date: 2026-07-16
+Reformulation: Autaxys Master Plan v3.0 -> PBO Research Roadmap v1.0
