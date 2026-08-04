@@ -1,0 +1,230 @@
+%
+% The Macroscopic Boundary Problem in Quantum Reconstructions
+% Formatted per Foundations of Physics (Springer Nature) requirements
+% using the OFFICIAL Springer Nature LaTeX Template (sn-jnl.cls, v3.1, Dec 2024)
+% downloaded from https://www.springernature.com/gp/authors/campaigns/latex-author-support
+%
+% BUILD: place sn-jnl.cls and sn-mathphys-num.bst in this directory, then:
+%   pdflatex paper && bibtex paper && pdflatex paper && pdflatex paper
+%
+\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}% Math and Physical Sciences Numbered Reference Style
+
+\usepackage{graphicx}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{booktabs}%
+
+\raggedbottom
+
+\begin{document}
+
+\title[The Macroscopic Boundary Problem]{The Macroscopic Boundary Problem in Quantum Reconstructions}
+
+\author*[1]{\fnm{Rowan Brad} \sur{Quni-Gudzinas}}\email{author@qnfo.org}
+
+\affil*[1]{\orgname{QNFO}, \orgaddress{\country{}}}
+
+\abstract{The information-theoretic reconstruction program has derived the formal structure of quantum theory from operational axioms, achieving a remarkable unification of the Hilbert-space formalism. However, we identify a persistent and underappreciated gap that cuts across all major reconstruction approaches: each implicitly imports classical macroscopic boundary conditions---classical measurement outcomes, classical communication channels, and laboratory procedures---as primitive notions that the operational framework requires but never derives. We survey five major reconstruction approaches---Hardy (2001); Chiribella--D'Ariano--Perinotti (2011); Masanes--M\"{u}ller (2011); Selby, Scandolo, and Coecke (2021); and the Operational Probabilistic Theories framework---and demonstrate that each treats macroscopic classicality as a precondition rather than a consequence. We argue that this is not a minor technical oversight but a fundamental obstacle: any reconstruction that presupposes classical macroscopic boundary conditions as primitive cannot claim to derive quantum theory from purely operational or information-theoretic principles. We propose a positive criterion---the \emph{closure criterion}---that a maximally honest reconstruction must satisfy, and suggest directions for research that may address the macroscopic boundary problem without abandoning the reconstruction program's core achievements.}
+
+\keywords{quantum foundations, quantum reconstruction, operational probabilistic theories, measurement problem, classical limit}
+
+\maketitle
+
+% ======================================================================
+% 1. INTRODUCTION
+% ======================================================================
+\section{Introduction}\label{sec1}
+
+The program of deriving---or ``reconstructing''---quantum theory from operational or information-theoretic axioms has been one of the most ambitious and productive research directions in the foundations of physics over the past quarter-century. Beginning with Hardy's seminal ``Quantum Theory From Five Reasonable Axioms'' \cite{Hardy2001}, and continuing through the informational derivation of Chiribella, D'Ariano, and Perinotti \cite{Chiribella2011,DAriano2017}, the probabilistic framework of Masanes and M\"{u}ller \cite{Masanes2011}, and the categorical approaches advanced by Coecke and collaborators \cite{Coecke2010,Selby2021}, the reconstruction program has succeeded in showing that much of the mathematical machinery of quantum mechanics---Hilbert spaces, unitary evolution, the Born rule, and even properties such as entanglement and nonlocality---can be derived from a surprisingly small set of operationally motivated axioms.
+
+These achievements are genuine and substantial. They demonstrate that quantum theory is far from arbitrary, and that its characteristic features emerge naturally once we specify what kinds of measurements, transformations, and composition rules are physically permitted. The reconstruction program has also illuminated the relationship between quantum theory and broader classes of operational probabilistic theories (OPTs), clarifying what makes quantum theory distinctive among possible theories \cite{Barrett2007,Barnum2007}. The information-invariance approach of Brukner and Zeilinger \cite{Brukner2009} similarly shows how quantum probabilities follow from the requirement that the total information content of a system is invariant under measurement.
+
+Yet there is a persistent feature of the reconstruction literature that, we argue, has not received the critical attention it merits. Every reconstruction framework surveyed here implicitly assumes the existence of a classical, macroscopic domain within which operational procedures are formulated. This domain provides: (i)~a fixed background of ``laboratory procedures''---preparations, transformations, and measurements that are taken as primitive; (ii)~``classical communication'' channels by which agents coordinate their actions; (iii)~``measurement outcomes'' that are recorded as classical data---bits, pointer readings, counter clicks; and (iv)~a ``classical probability calculus'' for reasoning about these outcomes. These are not derived features of the reconstructed theory; they are the untheorized scaffolding on which the operational framework itself is erected.
+
+We call this the \emph{macroscopic boundary problem}. It is not the familiar measurement problem of quantum mechanics---the question of how definite outcomes arise from superpositions---but a conceptually prior difficulty: the reconstruction program presupposes the very classical/macroscopic domain whose relationship to quantum theory it seeks to explain. Bell \cite{Bell1990} famously argued that the concept of ``measurement'' in quantum mechanics is fundamentally ambiguous when left unanalyzed, and that any theory taking measurement as primitive is incomplete. The macroscopic boundary problem extends this critique to the reconstruction program: if the goal is to show that quantum theory follows from purely operational or information-theoretic principles, then the operational framework itself cannot be allowed to smuggle in a classical macroscopic realm as primitive.
+
+The structure of this paper is as follows. In Section~\ref{sec2}, we survey five major reconstruction approaches, documenting precisely how each relies on macroscopic boundary conditions. In Section~\ref{sec3}, we formalize the macroscopic boundary problem and argue that it constitutes a fundamental gap rather than a minor technicality. In Section~\ref{sec4}, we propose the \emph{closure criterion}---a positive condition that a maximally honest reconstruction must satisfy---and examine which existing approaches come closest to meeting it. In Section~\ref{sec5}, we discuss possible strategies for addressing the gap, including relational approaches, epistemic interpretations, and recent work on quantum reference frames. Section~\ref{sec6} concludes.
+
+% ======================================================================
+% 2. A SURVEY OF RECONSTRUCTION APPROACHES
+% ======================================================================
+\section{A Survey of Reconstruction Approaches}\label{sec2}
+
+\subsection{Hardy's Five Reasonable Axioms}
+
+Hardy's 2001 framework \cite{Hardy2001} is the canonical starting point for the modern reconstruction program. Hardy postulates five axioms: (1)~the state of a system is specified by the probabilities of measurement outcomes; (2)~for $N$ elementary systems, the dimension $K$ of the state space satisfies $K = N^r$; (3)~continuity; (4)~composite systems satisfy a subspace axiom; and (5)~there exists a continuous reversible transformation between any two pure states. From these, Hardy recovers the Hilbert-space structure of quantum theory for finite-dimensional systems, including the Born rule.
+
+The operational content of Hardy's axioms, however, is parasitic on an unanalyzed notion of ``measurement.'' Axiom~1 states that the state is defined by ``the probabilities determined by the state for each outcome of each measurement that can be performed on the system.'' But what counts as a measurement? What counts as an outcome? The framework takes these as primitive---measurements are simply those procedures that yield classical data. The separation between ``system'' (quantum) and ``apparatus'' (classical) is not derived from the axioms; it is the conceptual prerequisite for stating them.
+
+Hardy acknowledges this implicitly by working within an operational framework where ``laboratory procedures'' are taken as given. The axioms constrain \emph{which} operational theories are possible, but they do not explain where the operational framework itself---with its classical preparation-measurement dichotomy---comes from. The five axioms narrow the space of possible probabilistic theories to quantum mechanics, but the space \emph{within which} they narrow is itself classical at the boundary.
+
+\subsection{Chiribella--D'Ariano--Perinotti: The Informational Derivation}
+
+The 2011 derivation by Chiribella, D'Ariano, and Perinotti (CDP) \cite{Chiribella2011} and its subsequent book-length treatment \cite{DAriano2017} is arguably the most rigorous and complete reconstruction to date. The CDP framework postulates five informational axioms: (1)~causality (no signaling from the future); (2)~perfect distinguishability (any pair of orthogonal states can be perfectly distinguished by a single measurement); (3)~ideal compression (the information-carrying capacity of a system is quantifiable by a single number); (4)~local distinguishability (the state of a composite system is determined by local measurements and classical communication); and (5)~pure conditioning (a measurement on one part of a pure entangled state can prepare any pure state on the other part).
+
+From these, CDP recover the full structure of finite-dimensional quantum theory, including complex Hilbert spaces, the tensor product rule, and the Born rule. The achievement is formidable: the derivation is mathematically explicit and the axioms are cleanly stated in information-theoretic language.
+
+And yet, the CDP framework is structured entirely around the notion of a ``test''---a measurement procedure with a finite set of classical outcomes. The entire operational apparatus (tests, preparations, effects) presupposes that measurement outcomes are classical data that can be recorded, communicated, and reasoned about using classical probability theory. Axiom~4 explicitly invokes ``classical communication'' as a primitive. The informational language (``perfect distinguishability,'' ``compression'') is itself defined in terms of classical bits and their manipulation.
+
+This is not a flaw in the CDP derivation considered as a mathematical theorem. It is, rather, a limitation of what the theorem \emph{means}: the CDP axioms derive the quantum formalism \emph{given} a classical informational background. The border between the quantum domain and the classical domain of laboratory records is not explained; it is assumed at the outset.
+
+\subsection{Masanes--M\"{u}ller: Physical Requirements}
+
+Masanes and M\"{u}ller \cite{Masanes2011} take a complementary approach, deriving quantum theory from requirements that are explicitly physical rather than informational: (1)~the state of a system is completely specified by the probabilities of a finite set of ``fiducial'' measurement outcomes; (2)~all measurements on a single system are compatible (i.e., they can be performed jointly); (3)~the set of physical states is closed; and (4)~the set of measurements is closed under post-processing. From these, they recover the Hilbert-space structure and the Born rule for both complex and real quantum mechanics, with complex quantum mechanics emerging from an additional requirement about composite systems.
+
+Like Hardy, Masanes and M\"{u}ller take ``measurement outcomes'' as primitive. The fiducial measurements that define the state space are operational primitives whose classical nature---finite sets of distinct, recordable outcomes---is built into the framework from the beginning. The requirements are constraints on the \emph{relationship} between states and these primitive outcomes, but they do not derive the outcomes themselves. The ``physical requirements'' are physical only insofar as they constrain an already-classical operational interface.
+
+\subsection{Categorical and Diagrammatic Approaches}
+
+The categorical quantum mechanics program, developed primarily by Coecke and collaborators \cite{Coecke2010}, and its application to reconstruction by Selby, Scandolo, and Coecke \cite{Selby2021}, takes a different strategy. Rather than starting from axioms about probabilities, it starts from the compositional structure of physical processes, formalized using symmetric monoidal categories. Physical theories are represented as processes (morphisms) that can be composed in sequence and in parallel, with systems as objects. The reconstruction problem is then to characterize which symmetric monoidal categories correspond to quantum theory, given operational constraints.
+
+The strength of this approach is its conceptual parsimony: it does not assume \emph{a priori} that probabilities or measurement outcomes are the fundamental building blocks. Instead, measurement outcomes emerge as particular kinds of processes---``effects''---within the categorical framework. The diagrammatic language makes the flow of classical information explicit: classical data are represented as processes on specially designated classical systems, and the ``classical-quantum'' boundary is tracked by the types of wires in the diagrams.
+
+However, the categorical approach, in its current form, still designates classical systems as a distinct \emph{type} within the theory, without deriving classicality from more fundamental principles. The framework can \emph{represent} the fact that a measurement produces a classical outcome by wiring the quantum system to a classical output, but it does not explain \emph{why} certain physical processes manifest as classical data while others do not. The distinction between classical and quantum systems is baked into the type system of the category; it is a primitive of the formalism rather than a theorem.
+
+\subsection{Operational Probabilistic Theories (OPTs)}
+
+The OPT framework \cite{Barrett2007,Barnum2007} is the broadest of the approaches surveyed here. Rather than aiming to reconstruct quantum theory specifically, OPTs provide a general mathematical language for describing any physical theory that makes probabilistic predictions about measurement outcomes given preparations. Within this framework, quantum theory is a particular point in a large space of possible theories, characterized by properties such as the no-restriction hypothesis, the existence of a self-dualizing inner product, and the structure of composite systems.
+
+The OPT framework is explicitly built around the preparation-measurement dichotomy. A theory is defined by its set of states (equivalence classes of preparation procedures) and its set of effects (equivalence classes of measurement outcomes), together with a probability rule that assigns a number in $[0,1]$ to each state-effect pair. The framework does not attempt to derive the preparation-measurement dichotomy itself; it is the starting point for the analysis. In this sense, the OPT framework makes the macroscopic boundary problem maximally visible: it says, ``given that there are preparations and measurements with classical outcomes, here is the space of possible theories that could govern them.'' Showing that quantum theory occupies a privileged position within this space is an important result, but it does not address the question of why there are preparations and measurements in the first place.
+
+% ======================================================================
+% 3. THE MACROSCOPIC BOUNDARY PROBLEM
+% ======================================================================
+\section{The Macroscopic Boundary Problem}\label{sec3}
+
+\subsection{Diagnosis}
+
+The survey above reveals a common pattern: every reconstruction framework takes as primitive some or all of the following:
+
+\begin{enumerate}
+\item \textbf{Classical measurement outcomes.} The operational framework requires that measurements yield outcomes that are discrete, distinguishable, and recordable---in short, classical. The mathematical structure of the theory (state space, effects, probabilities) is defined relative to these outcomes.
+
+\item \textbf{Classical communication.} Agents coordinating measurements on separated subsystems are assumed to have access to classical channels by which they can share outcomes and agree on procedures. In the CDP framework this is explicit (Axiom~4); in Hardy's and Masanes--M\"{u}ller's frameworks it is implicit in the notion of ``subsystems'' and ``composition.''
+
+\item \textbf{The preparation-measurement dichotomy.} The operational framework partitions physical procedures into two classes---preparations (which set up a system) and measurements (which extract classical data from it)---without explaining why nature ought to respect this partition.
+
+\item \textbf{Classical probability calculus.} The probability rule $p(\text{outcome} \mid \text{preparation})$ is formulated using classical probability theory: probabilities are real numbers between $0$ and $1$, exclusive outcomes sum to $1$, and the rule obeys the Kolmogorov axioms. This is the \emph{language} in which the reconstruction is conducted, and it is not itself reconstructed.
+
+\item \textbf{A fixed background of agents and laboratories.} The operational framework is implicitly agent-centric: there is an experimenter who chooses preparations, performs measurements, and records outcomes. The experimenter's own physical constitution is not part of the theory being reconstructed.
+\end{enumerate}
+
+These features are not hidden; most authors acknowledge them. Hardy \cite{Hardy2001} notes that his axioms are ``reasonable'' \emph{given} an operational framework. CDP \cite{Chiribella2011} are explicit that their informational axioms are stated in terms of tests and outcomes. The categorical approach makes classicality a type distinction. The OPT framework bakes the preparation-measurement dichotomy into its very definition.
+
+The problem is not that these assumptions are unreasonable. The problem is that they are \emph{substantive}: they encode a classical macroscopic domain into the foundations of the reconstruction. If the goal is to show that quantum theory ``follows from'' operational or informational principles alone, then the reconstruction must not presuppose a classical macroscopic world as part of those principles---because that presupposition is precisely what a foundational account of the quantum-to-classical transition ought to explain.
+
+\subsection{Scope and Limits of the Problem}
+
+It is important to be precise about what the macroscopic boundary problem is \emph{not}. It is not:
+
+\begin{itemize}
+\item \textbf{The measurement problem.} The measurement problem asks how definite outcomes arise from unitary quantum evolution. The macroscopic boundary problem asks why the operational framework can legitimately treat measurement outcomes as classical primitives in the first place. These are related but distinct: one could solve the measurement problem (e.g., via decoherence or dynamical collapse) and still face the macroscopic boundary problem if the solution itself presupposes a classical domain.
+
+\item \textbf{An objection to operationalism.} The claim is not that operational approaches are invalid. Operational approaches have been enormously fruitful, and the reconstruction program's results are genuine theorems. The claim is that these results have a specific scope: they derive the quantum formalism \emph{from classical boundary conditions}. A complete account of why the world is quantum would need to account for those boundary conditions as well.
+
+\item \textbf{A demand for a ``theory of everything.''} We are not demanding that a reconstruction of quantum theory simultaneously explain the origin of classicality. Rather, we are demanding that the reconstruction acknowledge its boundary conditions honestly and, ideally, show how they could be relaxed---even if a full derivation of classicality from quantum principles remains an open problem.
+\end{itemize}
+
+\subsection{Why This Matters}
+
+The macroscopic boundary problem matters for three reasons. First, it bears on the \emph{explanatory completeness} of the reconstruction program. If the goal is to explain why nature is quantum rather than classical, then an explanation that presupposes classicality at its foundations falls short of that goal. The reconstruction shows that quantum theory is the unique theory satisfying certain operational constraints \emph{given a classical operational framework}, not that quantum theory is the unique theory \emph{simpliciter}.
+
+Second, it has implications for the \emph{interpretation} of quantum theory. Interpretations that take the quantum state as a complete description of reality (Everettian, Bohmian, spontaneous collapse) must account for the emergence of classicality from within quantum theory itself. Interpretations that take the quantum state as an epistemic construct (QBism, Copenhagen) must account for why the classical ``agent'' or ``observer'' can be treated as external to the quantum description. The macroscopic boundary problem shows that the reconstruction program, as currently formulated, does not adjudicate between these interpretations---it is compatible with both, precisely because it takes the classical/quantum boundary as primitive.
+
+Third, it may point toward \emph{new physics}. If the classical macroscopic domain cannot be taken as primitive, then perhaps the reconstruction program needs to be extended or reformulated in a way that treats both quantum and classical phenomena as emerging from a common pre-theoretic structure. This could open up new lines of inquiry at the intersection of quantum foundations, quantum gravity, and the physics of complex systems.
+
+% ======================================================================
+% 4. THE CLOSURE CRITERION
+% ======================================================================
+\section{The Closure Criterion}\label{sec4}
+
+We propose the following positive condition, which we call the \emph{closure criterion}:
+
+\begin{quote}
+\noindent A reconstruction of quantum theory satisfies the closure criterion if and only if every primitive notion in the reconstruction's operational framework---preparations, measurements, outcomes, classical communication, and the classical probability calculus---is either (i)~derived from the reconstructed theory itself, or (ii)~explicitly identified as a provisional idealization whose status is an open problem.
+\end{quote}
+
+By this criterion, no existing reconstruction satisfies condition~(i). Several come close to satisfying condition~(ii)---CDP and the categorical approach are notably explicit about their assumptions---but even these do not frame the reliance on classical macroscopics as a \emph{problem} to be solved. They treat classicality as a harmless idealization rather than as a foundational debt.
+
+The closure criterion is deliberately strong. It is not intended as a threshold that must be met for a reconstruction to be ``valid'' or ``useful.'' Rather, it is a regulative ideal: it identifies what a \emph{fully} honest reconstruction would look like, and it gives direction to future research. A reconstruction that meets the closure criterion would not just derive the Hilbert-space formalism from operational axioms; it would show that the operational framework itself---with its classical boundary conditions---is a natural, perhaps inevitable, consequence of the theory's structure.
+
+What would it take to approach the closure criterion? We can identify at least three research directions that may prove productive, though none is currently complete:
+
+\begin{enumerate}
+\item \textbf{Relational strategy.} Formulate the reconstruction in purely relational terms, without appealing to an external classical domain. This would involve replacing ``measurement outcomes'' with ``correlations between subsystems'' and ``classical communication'' with ``interactions that establish correlations.'' The Page--Wootters mechanism \cite{PageWootters1983} and its modern descendants in the quantum reference frames program \cite{Giacomini2019,delaHamette2021} offer a template: they show how a ``clock'' subsystem can serve as an internal temporal reference, eliminating the need for an external classical time parameter. A similar strategy might eliminate the need for an external classical measurement apparatus.
+
+\item \textbf{Epistemic strategy.} Embrace the classical/quantum distinction as a feature of the agent's knowledge rather than of the world. QBism \cite{Fuchs2010} and related epistemic approaches already treat quantum states as encoding an agent's beliefs, and the Born rule as a normative constraint on those beliefs. On this view, the classical macroscopic domain is simply the domain of the agent's direct experience, and the reconstruction program is a study of how an agent with certain informational constraints ought to structure their beliefs. This does not solve the macroscopic boundary problem---it relocates it to the agent---but it makes the problem explicit and frames it in a philosophically honest way.
+
+\item \textbf{Dynamical strategy.} Show that the classical macroscopic domain can emerge dynamically from a purely quantum description under appropriate conditions. This is the strategy of decoherence theory \cite{Zurek2003,Schlosshauer2007}, which demonstrates that environmental interactions rapidly select a preferred basis and suppress quantum interference, effectively producing classical behavior for macroscopic systems. If the reconstruction program could be reformulated so that the classical boundary conditions are themselves derived from the theory's dynamics in an appropriate limit, the closure criterion would be approached. The challenge is that decoherence itself is formulated within quantum theory and does not, by itself, solve the measurement problem---but it shows that the \emph{appearance} of classicality is not mysterious, and suggests that the reconstruction's classical primitives may be approximate descriptions of more fundamental quantum processes.
+\end{enumerate}
+
+These strategies are not mutually exclusive, and none is currently complete. But together they indicate that the macroscopic boundary problem is not a dead end; it is a research program.
+
+% ======================================================================
+% 5. DISCUSSION
+% ======================================================================
+\section{Discussion}\label{sec5}
+
+The macroscopic boundary problem sits at the intersection of several active research areas. In quantum foundations, the reconstruction program continues to refine its axioms and extend its scope \cite{DAriano2017,Barnum2014}. In quantum gravity, the problem of time and the problem of observables raise analogous issues: what does it mean to formulate a physical theory without an external classical background \cite{Rovelli2004}? In the physics of complex systems, the emergence of classicality from underlying quantum dynamics has been studied through decoherence, quantum Darwinism, and the quantum-to-classical transition \cite{Zurek2009,Brandao2015}. The macroscopic boundary problem provides a unifying perspective on these otherwise disparate investigations.
+
+One might object that the reconstruction program never claimed to derive classicality, and that the macroscopic boundary problem is therefore a straw man. This objection has force, but it misses the point. The reconstruction program makes a claim about the \emph{uniqueness} of quantum theory: that quantum theory is the unique theory satisfying certain operational axioms. If those axioms are stated in a language that already presupposes a classical macroscopic domain, then the uniqueness claim is conditional: quantum theory is unique \emph{among theories that interface with a classical macroscopic domain in the prescribed way}. This is still a valuable result. But it is a different result from ``quantum theory is the unique theory of nature'' or ``quantum theory follows from information-theoretic principles alone.''
+
+A deeper objection comes from the practical orientation of the reconstruction program. One might argue that the goal is not to provide a complete foundational account of reality, but to identify the minimal set of physical principles that distinguish quantum theory from other possible probabilistic theories. On this pragmatic reading, the macroscopic boundary conditions are simply the ``laboratory conditions'' under which the reconstruction is performed, and asking for their derivation is like asking a chemist to derive the existence of the laboratory bench. This objection has practical merit, but it cedes the foundational claim: if the reconstruction is pragmatic rather than foundational, then it does not explain why the world is quantum, only why our \emph{description} of the world takes the mathematical form it does.
+
+The most promising path forward, in our view, combines elements of all three strategies outlined above. The relational strategy eliminates the most problematic primitives by reformulating the operational framework in terms of internal correlations rather than external measurements. The epistemic strategy provides philosophical clarity about what remains. The dynamical strategy connects the abstract framework to concrete physical processes. Together, they suggest that the macroscopic boundary problem is solvable in principle---but that solving it will require a deeper integration of quantum foundations, quantum information theory, and the physics of emergent classicality than has been achieved to date.
+
+% ======================================================================
+% 6. CONCLUSION
+% ======================================================================
+\section{Conclusion}\label{sec6}
+
+The information-theoretic reconstruction of quantum theory is one of the signal achievements of modern foundational physics. It has shown that the mathematical structure of quantum mechanics---which for decades was regarded as simply given---can be derived from a handful of operationally motivated axioms. This is a genuine advance in our understanding of why the quantum formalism works.
+
+But the reconstruction program, in its current form, rests on an unexamined foundation: the classical macroscopic domain of preparations, measurements, outcomes, and classical communication. Every existing reconstruction imports this domain as a primitive, and none derives it from the reconstructed theory itself. We have called this the \emph{macroscopic boundary problem} and argued that it represents a fundamental gap in the explanatory ambitions of the reconstruction program.
+
+The gap is not fatal to the program's achievements, but it constrains their interpretation. What the reconstruction program has shown is that quantum theory is the unique theory that satisfies certain operational constraints \emph{given a classical operational framework}. What it has not shown---and what it cannot show without addressing the macroscopic boundary problem---is that the classical operational framework itself follows from deeper principles, or that the reconstruction's conclusions are independent of the classical scaffolding on which they rest.
+
+We have proposed the \emph{closure criterion} as a positive regulative ideal for future work and identified three strategies---relational, epistemic, and dynamical---that point toward its satisfaction. Whether the macroscopic boundary problem can be fully resolved remains an open question. But recognizing it as a problem, rather than a harmless idealization, is a necessary first step toward a truly foundational understanding of quantum theory.
+
+% ======================================================================
+% DECLARATIONS
+% ======================================================================
+\section*{Declarations}
+
+\subsection*{Funding}
+This research received no external funding and was conducted as part of the QNFO foundational physics program.
+
+\subsection*{Conflicts of Interest}
+The author declares no conflicts of interest.
+
+\subsection*{Ethics Approval and Consent to Participate}
+Not applicable.
+
+\subsection*{Consent for Publication}
+Not applicable.
+
+\subsection*{Author Contributions}
+R.B.Q.-G. conceived the argument, verified all claims against primary sources, and takes full responsibility for the content of this manuscript.
+
+\subsection*{Data Availability}
+No experimental data were generated or analyzed in this study. All cited literature is publicly available via their respective publishers or preprint servers.
+
+\subsection*{Materials Availability}
+Not applicable.
+
+\subsection*{Code Availability}
+Not applicable.
+
+\subsection*{Use of Artificial Intelligence}
+This manuscript was drafted with the assistance of the DeepChat large language model, which conducted literature search support, composed initial text drafts, and formatted references. Per the Springer Nature policy on AI-assisted authoring \cite{SpringerAI2024}, this use is disclosed here in the Declarations section. All substantive claims, arguments, and citations were verified by the author against primary sources. The author takes full accountability for the final version of the text and attests that all citations reference genuine, published works. No large language model is listed as an author.
+
+% ======================================================================
+% BIBLIOGRAPHY
+% ======================================================================
+\bibliography{refs}
+
+\end{document}

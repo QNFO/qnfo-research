@@ -1,0 +1,233 @@
+# CHANGELOG — Amplifying the Solo Scientist
+
+> Chronological versioned change log. One entry per session.
+
+---
+
+## 2026-05-14 — Session: Force-Multiplier Playbook (Sprint 4)
+
+**What Changed:**
+- **Sprint 3 aborted:** Physics execution (Monte Carlo, extended scan, analysis) is out of scope for this meta-project. Files 0.6.py, 0.7.py, 0.8.md, sprint_log.md, outputs/ should be migrated to a new physics-execution project.
+- **Sprint 4 completed:** Produced the **Force-Multiplier Playbook** (0.9.md) — a high-level, advocacy-oriented executive whitepaper. Not an IMRaD paper; a thought-leadership piece.
+- The playbook distills the methodology into: The Shift, The Core Idea (5-phase protocol), Case Study Evidence (2 domains, ~25× and ~90× speedups), The Stack (4 components), The 5 Prompts, The Verification Imperative (4 gates), Implications (funding, training, publishing), and a One-Day Challenge.
+- Project rebaselined: this project produces methodology, thought-leadership, and PoC. Actual protocol execution belongs in separate domain-specific projects.
+
+**Files Changed:**
+- `0.9.md` — CREATE (Force-Multiplier Playbook — executive whitepaper)
+- `SPRINT.md` — EDIT (Sprint 3 marked aborted; Sprint 4 defined and completed)
+- `CHANGELOG.md` — EDIT (this entry)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commits: 1 (playbook + sprint update)
+
+---
+
+## 2026-05-14 — Session: Sprint 3 — Live Force-Multiplier Demonstration (Tasks 3.1-3.3)
+
+**What Changed:**
+- Defined Sprint 3: Live Force-Multiplier Demonstration — executing the 2-day physics sprint plan (0.5.1.md, 0.5.2.md)
+- **Task 3.1 (Monte Carlo):** Executed 1M-trial Monte Carlo assessment of the five near-matches against log-uniform null. Result: $p = 0.000589$ ($p < 0.001$, highly significant). The null hypothesis is strongly rejected.
+- **Task 3.2 (Extended Scan):** Assembled 102 known physical length/energy scales, computed 5,151 pairwise ratios, scanned against 10 targets. Result: yukawa/weak targets ($y_e$, $y_\mu$, $y_\tau$, $m_W/m_Z$) are COMPLETELY ABSENT from the empirical pairwise ratio distribution. Three mass ratios find spurious non-tautological coincidences (domain-crossing, no physical significance).
+- **Task 3.3 (Analysis):** Consolidated results into 0.8.md — statistical assessment document for the physics case study. Two independent null models rejected. Combined speedup factor: ~150-300×.
+- **Task 3.4 (Sprint Log):** sprint_log.md maintained throughout with amplification metrics.
+
+**Key Finding:** The near-match pattern passes two independent null-model tests and is demonstrably non-trivial. It is neither random chance ($p = 0.000589$) nor an artifact of simple pairwise ratios among known scales.
+
+**Files Changed:**
+- `0.5.1.md` — CREATE (committed from untracked state)
+- `0.5.2.md` — CREATE (committed from untracked state)
+- `0.6.py` — CREATE (Monte Carlo script, reproducible, seed=42)
+- `0.7.py` — CREATE (Extended scale ratio scan script)
+- `0.8.md` — CREATE (Consolidated statistical analysis report)
+- `sprint_log.md` — CREATE (Sprint 3 execution log with metrics)
+- `outputs/mc_results.json` — CREATE (Monte Carlo results)
+- `outputs/mc_histogram.png` — CREATE (Histogram + survival function)
+- `outputs/scales.json` — CREATE (102-scale library)
+- `outputs/scan_results.json` — CREATE (Full pairwise ratio scan)
+- `SPRINT.md` — EDIT (Sprint 3 defined, tasks 3.1-3.4 tracked)
+- `CHANGELOG.md` — EDIT (this entry)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commits: 4 (sprint plans commit + Monte Carlo + Extended Scan + Analysis)
+
+
+
+## 2026-05-13 — Session: Final Version 0.3
+
+**What Changed:**
+- Generated `0.3.md` — clean final publication version from 0.2.md
+- Removed sprint/status metadata from header; replaced with clean publication header (Version, Venue, License)
+- All prior corrections preserved: real architecture (§3), DeepSeek attribution, API key accuracy, speedup caveats (§4.3, §7.2), Zenodo metadata
+- All 13 sections verified; math formatting scan passed
+
+**Files Changed:**
+- `0.3.md` — CREATE (final publication version, 819 lines, ~57K chars)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commit: `9da1d0e`
+
+---
+
+## 2026-05-13 — Session: Zenodo Preparation & Backlog Cleanup (Sprint 2)
+
+**What Changed:**
+- **BACKLOG.md:** 12 items marked DONE (B-003, B-004, B-006, B-008, B-020, etc.), 6 new items added (B-018-B-022), priorities recalculated
+- **SPRINT.md:** Sprint 2 defined and completed — Zenodo metadata, submission checklist (10 items verified), standalone abstract
+- **0.2.md:** Zenodo metadata header added (title, authors, abstract char count, subjects, license, repository placeholder)
+- **0.2_abstract.md:** Standalone abstract created for Zenodo publication form
+- **0.2_cover_letter.md:** Journal cover letter template created
+- **PROJECT STATE.md:** Updated to reflect Sprint 2 completion
+
+**Files Changed:**
+- `BACKLOG.md` — EDIT (comprehensive cleanup)
+- `SPRINT.md` — EDIT (Sprint 2 defined and completed)
+- `0.2.md` — EDIT (Zenodo metadata header)
+- `0.2_abstract.md` — CREATE (standalone abstract)
+- `0.2_cover_letter.md` — CREATE (cover letter template)
+- `CHANGELOG.md` — EDIT (this entry)
+- `PROJECT STATE.md` — EDIT (updated status)
+
+**Submission Readiness:**
+- All 10 checklist items verified ✅
+- Manuscript: 23 pages, 26 references, 3 appendices
+- Two independent case studies (physics + linguistics)
+- Math formatting scan: PASS
+- LLM disclosure: explicit in Acknowledgments
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commits: 2 (Sprint 2 setup + completion)
+
+---
+
+## 2026-05-13 — Session: LLM Attribution Correction
+
+**What Changed:**
+- **Acknowledgments:** "Claude, Anthropic" → "DeepSeek V4 Pro, DeepSeek" with explicit environment details (DeepChat desktop app, Windows laptop, integrated Python/PowerShell/filesystem, no Docker)
+- **Reference [22]:** "& Claude" → "& DeepSeek"
+- **Appendix C docker-compose:** `claude-sonnet-4-20250514` → `default` (platform-agnostic)
+- **LEARNINGS.md:** Added L7 — cite actual tools used, not aspirational ones
+
+**Root cause:** The skill file and template used to draft the manuscript were created for Claude/Anthropic, but the actual execution was fully on DeepSeek V4 Pro in the DeepChat desktop application. Like L6 (aspirational architecture), this describes tools that were never used. The platform-native aspect is architecturally significant: DeepChat's integrated code execution, PowerShell, and filesystem operations enable the task completion/iteration cycle within a single LLM chat thread.
+
+**Files Changed:**
+- `0.2.md` — EDIT (Acknowledgments, Reference [22], Appendix C docker-compose)
+- `LEARNINGS.md` — EDIT (L7 added)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commit: [to be committed]
+
+---
+
+## 2026-05-13 — Session: Architecture Correction (Post Reader-Test)
+
+**What Changed:**
+- **Section 3 complete rewrite:** Replaced aspirational Docker/API/Overleaf stack with actual architecture (unified conversation environment)
+- **Section 4.5 added:** Language as Information Architecture as independent second validation case study [26]
+- **Section 7.2:** Added "Aspirational Architecture Description" limitation
+- **Appendix C:** Renamed to "Dockerfile (Aspirational)" with disclaimer
+- **Abstract & Conclusion:** Updated to reference real architecture
+- **LEARNINGS.md:** Added L5 (reader-testing) and L6 (describe-real-architecture)
+
+**Root cause:** The original manuscript described a Docker/API/Overleaf toolchain that was never used. The actual production architecture — DeepChat conversation with integrated file I/O, Python execution, and git — was simpler and had already produced two published papers.
+
+**Files Changed:**
+- `0.2.md` — EDIT (Sections 3, 4.5, 7.2, 8, Abstract, Appendix C, References)
+- `LEARNINGS.md` — EDIT (L5, L6 added)
+- `CHANGELOG.md` — EDIT
+- `PROJECT STATE.md` — EDIT
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commit: `278352c`
+
+---
+
+## 2026-05-13 — Session: Reader Test Fixes
+
+**What Changed:**
+- Fixed 4 issues found by blind reader test:
+  1. Removed 8h experiment cap (contradicted 200h power analysis)
+  2. Added sensitivity analysis to power calculations (σ = 40/80/120h)
+  3. Harmonized speedup numbers (25× case study, 17× power analysis)
+  4. Strengthened n-of-1 self-experiment language
+
+**Files Changed:**
+- `0.2.md` — EDIT (Sections 4.4, 5.2, 5.4, 7.2)
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commit: `21ee39b`
+
+---
+
+## 2026-05-13 — Session: Expand Mini-Paper (Sprint 1)
+
+**What Changed:**
+- Created expanded manuscript `0.2.md` (789 lines, ~47K chars)
+- Created supporting SymPy script `0.2.py`
+- Updated SPRINT.md, PROJECT STATE.md, CHANGELOG.md
+
+**New Content in 0.2.md:**
+- §1 Introduction with literature review (14 references)
+- §2 Force-Multiplier Framework (task decomposition, verification cycle, prompt engineering)
+- §3 Solo-Research Stack (4-layer architecture — later corrected)
+- §4 Case Study (hour-by-hour physics walkthrough, speedup table)
+- §5 Controlled Experiment Design (3-condition between-subjects, power analysis $[CODE-EXECUTED]$)
+- §6 Cross-Domain Generalisation (comp bio, pure math, philosophy)
+- §7 Discussion (shifting bottleneck, limitations, ethics)
+- §8 Conclusion
+- Appendix A: Prompt Library (5 core templates)
+- Appendix B: SymPy Derivation (0.2.py standalone)
+- Appendix C: Solo-Research Stack (Dockerfile — later corrected to aspirational)
+- References (25 citations, expanded to 26)
+
+**Statistical Results $[CODE-EXECUTED]$:**
+- Cohen's $f = 1.92$ (very large effect)
+- Required $n = 4$ per group for $>99\%$ power
+- Speedup factor: $16.7\times$ (Force-Multiplier vs. Solo)
+
+**Files Changed:**
+- `0.2.md` — CREATE
+- `0.2.py` — CREATE
+- `SPRINT.md` — EDIT
+- `PROJECT STATE.md` — EDIT
+- `CHANGELOG.md` — EDIT
+
+**Git:**
+- Branch: `feature/expand-manuscript`
+- Commits: 3 (0.2.md, 0.2.py, docs)
+
+---
+
+## 2026-05-13 — Session: Project Documentation Bootstrapping (Sprint 0)
+
+**What Changed:**
+- Initialized standalone git repository inside project directory
+- Created `feature/init-project-docs` branch
+- Created 7 mandatory project documentation files
+- Added existing output files to version control
+
+**Files Changed:**
+- `README.md` — CREATE
+- `PROJECT STATE.md` — CREATE
+- `SPRINT.md` — CREATE
+- `CHANGELOG.md` — CREATE (this file)
+- `BACKLOG.md` — CREATE
+- `LEARNINGS.md` — CREATE
+- `DECISIONS.md` — CREATE
+
+**Git:** Branch `feature/init-project-docs`, standalone repo
+
+**Pre-existing files (from prior session, now tracked):**
+- `0.1.md`, `0.1.1.md`, `0.1.2.md`, `0.1.3.md`
+
+---
+
+## Prior Sessions (Pre-Documentation)
+
+Output files 0.1.md through 0.1.3.md were generated in one or more prior sessions before the standardized 7-file documentation system was applied. Content preserved as-is.

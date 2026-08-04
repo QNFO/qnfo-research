@@ -1,0 +1,46 @@
+# ============================================================================
+# .gitignore for joules-per-compute-benchmark
+# Based on research skill template v2.6 (kaizen fix A4)
+# ============================================================================
+
+# --- Ephemeral / JIT scratch scripts (NEVER durable, may contain tokens) ---
+_*.py
+_*.js
+_*.sh
+__pycache__/
+*.pyc
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# --- Build artifacts (rebuild from source, don't version binaries) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+build/
+
+# --- Credentials ---
+*.token
+*_token
+*_secret
+.env
+.env.*
+keys.json
+
+# --- Local-only working files ---
+*.tmp
+*.bak
+~$*
+
+# --- Project-specific ---
+*.zip
+*.pdf
+
+# --- Ephemeral JSON results from API queries ---
+_*.json
