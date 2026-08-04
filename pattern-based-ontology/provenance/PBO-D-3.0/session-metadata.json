@@ -1,0 +1,12 @@
+﻿{
+  "export_timestamp": "2026-07-16T08:45:00Z",
+  "session_id": "C7emX3HLc7Ns8kdud5tU6",
+  "agent": "QNFO Research Agent (DeepSeek v4 Pro)",
+  "model": "deepseek-v4-pro",
+  "project": "Pattern Hierarchy v3.0",
+  "wbs_id": "PBO-D-3.0",
+  "publication_title": "Pattern Hierarchy: A Generative Framework v3.0",
+  "publication_version": "3.0",
+  "zenodo_doi": "10.5281/zenodo.21389703",
+  "predecessor_doi": "10.5281/zenodo.21369319"
+}
