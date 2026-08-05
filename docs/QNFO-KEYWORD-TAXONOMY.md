@@ -173,6 +173,14 @@ https://github.com/search?q=consilience+OR+cross-domain+OR+interdisciplinary+OR+
 > remaining 21 targets were successfully starred on rwnq8.
 
 
+> **Staleness pass (2026-08-05, per Part 6 iteration protocol):** The following
+> starred entries were verified as NOT FOUND on GitHub during a star-execution
+> pass and are annotated with ⚠️ repo not found — candidates for removal or
+> replacement at next review: `pascalmolin/sage-padic`, `davidm-adm/adelic`,
+> `kwccoin/ultrametric`, `jvoight/arithmetic`, `blazzm74/agent-zero`. 16 of the
+> remaining 21 targets were successfully starred on rwnq8.
+
+
 Repos you should star **today**, organized by account:
 
 ### For `QNFO` org (research-pure signal)
