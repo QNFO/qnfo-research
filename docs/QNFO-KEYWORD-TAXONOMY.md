@@ -165,6 +165,14 @@ https://github.com/search?q=consilience+OR+cross-domain+OR+interdisciplinary+OR+
 
 ## Part 5: Priority Star Targets (Repo-Level)
 
+> **Staleness pass (2026-08-05, per Part 6 iteration protocol):** The following
+> starred entries were verified as NOT FOUND on GitHub during a star-execution
+> pass and are annotated with ⚠️ repo not found — candidates for removal or
+> replacement at next review: `pascalmolin/sage-padic`, `davidm-adm/adelic`,
+> `kwccoin/ultrametric`, `jvoight/arithmetic`, `blazzm74/agent-zero`. 16 of the
+> remaining 21 targets were successfully starred on rwnq8.
+
+
 Repos you should star **today**, organized by account:
 
 ### For `QNFO` org (research-pure signal)
@@ -175,11 +183,11 @@ Repos you should star **today**, organized by account:
 | | `quantumlib/Cirq` | Quantum — Google's framework |
 | | `PennyLaneAI/pennylane` | Quantum ML |
 | | `sagemath/sage` | UMP — p-adic computation |
-| | `pascalmolin/sage-padic` | UMP — p-adic Sage tools |
+| | `pascalmolin/sage-padic` | UMP — p-adic Sage tools | ⚠️ repo not found
 | | `LMFDB/lmfdb` | UMP — L-functions database |
-| | `davidm-adm/adelic` | UMP — adelic computation |
-| | `kwccoin/ultrametric` | UMP — ultrametric clustering |
-| | `jvoight/arithmetic` | UMP — arithmetic geometry |
+| | `davidm-adm/adelic` | UMP — adelic computation | ⚠️ repo not found
+| | `kwccoin/ultrametric` | UMP — ultrametric clustering | ⚠️ repo not found
+| | `jvoight/arithmetic` | UMP — arithmetic geometry | ⚠️ repo not found
 | | `qosf/awesome-quantum-software` | Quantum reference |
 | | `inQWIRE/SQIR` | Quantum IR |
 
@@ -194,7 +202,7 @@ Repos you should star **today**, organized by account:
 | | `plandex-ai/plandex` | Terminal AI coding |
 | | `run-llama/llama_index` | RAG framework |
 | | `langchain-ai/langchain` | LLM framework |
-| | `blazzm74/agent-zero` | Minimal agent design |
+| | `blazzm74/agent-zero` | Minimal agent design | ⚠️ repo not found
 
 ---
 
