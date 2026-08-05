@@ -3,7 +3,8 @@ title: "The Digital Straw Man: An Audit of Jeremy Heffner's 'Digital Psychopath'
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-05"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
+doi: "10.5281/zenodo.21812511"
+status: "published"
 ---
 
 # The Digital Straw Man: An Audit of Jeremy Heffner's "Digital Psychopath" Argument
