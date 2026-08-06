@@ -8,7 +8,7 @@ status: "published"
 series: "Joules-per-Compute Universal Benchmark (JPCUB) — Companion to P0"
 parent-doi: "10.5281/zenodo.21637028"
 wbs: "QNFO.RES.JPCUB-CL"
-doi: "10.5281/zenodo.21821143"
+doi: "10.5281/zenodo.21821316"
 ---
 
 ## Abstract
