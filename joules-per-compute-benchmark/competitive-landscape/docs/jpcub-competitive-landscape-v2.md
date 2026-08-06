@@ -3,12 +3,12 @@ title: 'JPCUB Competitive Landscape v2.0: System-Level Joules-per-Solution Estim
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-06"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-version: "v2.0"
+version: "v2.2"
 status: "published"
 series: "Joules-per-Compute Universal Benchmark (JPCUB) — Companion to P0"
 parent-doi: "10.5281/zenodo.21637028"
 wbs: "QNFO.RES.JPCUB-CL"
-doi: "10.5281/zenodo.21821316"
+doi: "10.5281/zenodo.21821507"
 ---
 
 ## Abstract
@@ -311,7 +311,105 @@ None of the estimates in this paper (except IBM's published P0 value) are based 
 The success probability model ($p_{\text{succ}} = f_{2Q}^{N_{2Q}}$) does not account for error mitigation, dynamical decoupling, circuit optimization, or the difference between randomized benchmarking fidelity and algorithmic fidelity. It represents a lower bound on success probability and therefore an upper bound on JPCUB.
 
 
-## 8. Conclusion
+## 8. JPCUB Baselines: Existing Computing Architectures
+
+### 8.1 Same-Task Baselines (Factoring $N = 15$)
+
+To anchor the quantum-platform estimates of Section 4, the same task (factoring $N = 15 = 3 \times 5$, $\varepsilon = 0.95$) is measured against existing computing architectures. Factoring 15 is a trivially small task for classical hardware: approximately $5 \times 10^3$ integer operations on a modern device, at $10^{-10}$–$10^{-9}$ J per integer operation.
+
+| Architecture | Operations | J/op | JPCUB (J/solution) |
+|:-------------|:-----------|:-----|:-------------------|
+| Microcontroller (Cortex-M) | $5 \times 10^3$ | $10^{-9}$ | $5 \times 10^{-6}$ |
+| Smartphone ARM core | $5 \times 10^3$ | $5 \times 10^{-10}$ | $2.5 \times 10^{-6}$ |
+| Server CPU (x86) | $5 \times 10^3$ | $2 \times 10^{-9}$ | $10^{-5}$ |
+| GPU (integer path) | $5 \times 10^3$ | $5 \times 10^{-10}$ | $2.5 \times 10^{-6}$ |
+| **IBM Eagle r3 (published)** | — | — | **$0.89$** $[$established — JPCUB P0$]$ |
+| **QWAV (design target)** | — | — | **$<10^{-3}$** |
+
+**The same-task penalty:** IBM Eagle at $0.89$ J/solution is $9 \times 10^4$–$3.6 \times 10^5$ times worse than any classical device on this task. This is not an implementation flaw — it is structural. The NISQ-era quantum platform must keep a 15 kW cryogenic infrastructure at steady state to execute a circuit that a smartphone completes in nanoseconds. For every task a current quantum computer can perform, the classical alternative achieves lower joules-per-solution. `[established — direct consequence of the published P0 measurement]`
+
+### 8.2 Cross-Paradigm Atlas (Per-Operation, Relative to Landauer)
+
+The JPCUB P0 Comparative Atlas $[$established — JPCUB P0 §5.1$]$ places all paradigms on a common per-operation scale relative to the Landauer bound ($kT \ln 2 \approx 2.9 \times 10^{-21}$ J at 300 K; the relevant bound for 15 mK quantum hardware is $kT \ln 2 \approx 1.4 \times 10^{-25}$ J):
+
+| Paradigm | Approximate cost (× Landauer) | Dominant cost driver |
+|:---------|:------------------------------|:---------------------|
+| Thermodynamic (theoretical) | $1$–$10^2$ | Adiabatic switching |
+| Neuromorphic | $10$–$10^2$ | Leakage, routing |
+| CMOS CPU | $10^3$–$10^4$ | Dynamic switching, leakage |
+| AI accelerator | $10^4$–$10^5$ | Memory bandwidth |
+| Data center | $\sim 10^5$ | Cooling, networking |
+| Post-quantum cryptography | $10^4$–$10^6$ | Key/signature size |
+| **Fault-tolerant quantum** | **$10^{12}$–$10^{15}$** | **Cryogenic cooling, QEC overhead** |
+
+The fault-tolerant quantum paradigm is the least energy-efficient paradigm per useful operation by 7–11 orders of magnitude — an inversion of the investment pattern ($35B vs. $1–2B for neuromorphic). `[established — JPCUB P0 §5.1; Auffèves, PRX Quantum 3, 020101 (2022)]`
+
+
+## 9. Total Joules for Classically-Infeasible Problems
+
+The competitive landscape of Section 4 uses a task (factoring 15) that classical hardware trivially solves. The claims of quantum advantage rest on problems that are *infeasible* for classical hardware. This section computes the total joules such computations would require on proposed fault-tolerant quantum architectures, and compares them to the classical thermodynamic cost.
+
+### 9.1 RSA-2048 Factoring: The Shor Regime
+
+**Reference architecture:** Gidney and Ekerå [@gidney-ekera-2021] — "How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits" (arXiv:1905.09749, DOI: 10.22331/q-2021-04-15-433). The architecture requires 20 million physical qubits with surface-code error correction and runs for 8 hours.
+
+**Classical alternative (GNFS):** Number field sieve complexity for RSA-2048 is approximately $2^{112}$ bit operations (112-bit security level, NIST SP 800-57 [@nist-sp800-57]), corresponding to approximately $10^9$ core-years on modern hardware:
+
+$$E_{\text{classical}} \approx 10^9 \text{ core-years} \times 200\ \text{W} \times 3.16 \times 10^7 \text{ s/yr} \approx 6.3 \times 10^{18}\ \text{J}$$
+
+This is approximately 5.8% of world annual electricity production ($\approx 1.08 \times 10^{20}$ J) — genuinely infeasible, which is precisely why RSA-2048 remains unbroken after three decades.
+
+**Quantum cost (Gidney–Ekerå architecture):**
+
+| Power model | Power | Time | Total joules |
+|:------------|:------|:-----|:-------------|
+| Control electronics only (4 mW/qubit cryo-CMOS [@yoo-cryocmos-2023]) | 80 kW | 8 h | $2.3 \times 10^9$ J |
+| Full system, low estimate | 0.5 MW | 8 h | $1.44 \times 10^{10}$ J |
+| Full system, high estimate | 1.0 MW | 8 h | $2.88 \times 10^{10}$ J |
+
+$$E_{\text{quantum}} \approx 1.4 \times 10^{10} \text{ – } 2.9 \times 10^{10}\ \text{J} \ (4\text{–}8\ \text{MWh})$$
+
+**Honest comparison:** the quantum cost is $2.2 \times 10^8$ times lower than the classical cost *for this specific problem*. Shor's algorithm is the one known regime where a (hypothetical) fault-tolerant quantum computer would win thermodynamically. `[established — arithmetic on published resource estimates; the machine does not exist]`
+
+**Why this does not rescue the paradigm:** three independent objections.
+
+1. **The machine is 20,000× beyond the state of the art.** Twenty million physical qubits versus the approximately 1,000 qubits of current processors [@ibm-quantum]. No roadmap reaches this within two decades, and the cryogenic infrastructure for 20M qubits (multi-fridge dilution refrigeration, MW-scale power, QEC decoders at classical co-processor scale) has no demonstration at even 1% of the requirement.
+
+2. **Per-operation efficiency is 20 orders of magnitude above Landauer.** The $\sim 10^{15}$ physical gates of the Gidney–Ekerå circuit at $2.9 \times 10^{10}$ J total imply $2.9 \times 10^{-5}$ J per physical gate — $2 \times 10^{20}$ times the 15 mK Landauer bound of $1.4 \times 10^{-25}$ J. The quantum machine achieves a task-level win over classical *despite* being the least efficient paradigm per operation, because the classical alternative is exponentially worse on this one task.
+
+3. **The target is being retired.** NIST standardized post-quantum key encapsulation (FIPS 203 ML-KEM [@nist-fips203]) in 2024; migration of TLS/PKI to PQC makes RSA-2048 factoring obsolete within the decade. The $\sim$10 GJ computation solves a problem the world is eliminating — a thermodynamic investment in a vanishing target.
+
+### 9.2 AES-256 Key Search: The Grover Regime — Thermodynamically Immune
+
+For symmetric cryptography (AES-256), quantum attack uses Grover's algorithm, which provides only a *quadratic* speedup: approximately $2^{128} \approx 3.4 \times 10^{38}$ oracle evaluations are required, versus $2^{256}$ for classical brute force.
+
+$$E_{\text{Grover-AES256}} \approx 3.4 \times 10^{38}\ \text{ops} \times 10^{-15}\ \text{J/op} \approx 3.4 \times 10^{23}\ \text{J} \approx 3{,}200\times \text{ world annual electricity}$$
+
+$$T_{\text{Grover-AES256}} \approx \frac{3.4 \times 10^{38}}{10^{10}\ \text{gates/s}} \approx 1.1 \times 10^{21}\ \text{years} \ (7.8 \times 10^{10}\times\ \text{the age of the universe})$$
+
+**AES-256 is thermodynamically and temporally immune to quantum attack.** Grover's quadratic speedup is structurally insufficient: at the most optimistic fault-tolerant gate rate ($10^{10}$ gates/s) and per-operation energy ($10^{-15}$ J), the computation exceeds world energy production by three orders of magnitude and cosmic time by eleven orders of magnitude. `[established — arithmetic; Grover complexity is textbook]`
+
+### 9.3 The Current NISQ Fleet: 33 GWh per Year for Zero Useful Solutions
+
+The approximately 200–300 gate-model quantum systems deployed worldwide (IBM, Google, IonQ, Rigetti, Quantinuum, neutral-atom vendors) each idle at 10–25 kW (dilution refrigerator dominant for superconducting):
+
+$$E_{\text{fleet}} \approx 250\ \text{systems} \times 15\ \text{kW} \times 3.16 \times 10^7\ \text{s} \approx 1.2 \times 10^{14}\ \text{J} \approx 33\ \text{GWh/yr}$$
+
+At the JPCUB P0 calibration register's current status, no deployed NISQ system has demonstrated lower joules-per-solution than the best classical alternative for any commercially relevant task (CAL-01: pending, 2030 checkpoint). The fleet's annual idle energy is spent producing zero solutions that beat classical on JPCUB — the thermodynamic cost of an unvalidated paradigm.
+
+### 9.4 Summary: The Thermodynamic Inversion
+
+| Problem | Classical cost (J) | Quantum cost (J) | Verdict |
+|:--------|:-------------------|:-----------------|:--------|
+| Factoring 15 | $10^{-6}$–$10^{-5}$ | $0.89$ (IBM, published) | **Classical wins $10^5$–$10^6$×** |
+| RSA-2048 factoring | $6.3 \times 10^{18}$ (infeasible) | $1.4$–$2.9 \times 10^{10}$ (machine does not exist) | Quantum wins $2 \times 10^8$× *if built* |
+| AES-256 key search | $2^{256}$ ops (infeasible) | $3.4 \times 10^{23}$ J, $10^{21}$ yr | **Immune — quantum infeasible** |
+| Any current NISQ task | lower by $10^5$–$10^6$× | higher | Classical wins on every deployed task |
+
+The thermodynamic picture is inverted relative to the investment pattern. For the one problem class where quantum would win (RSA-2048), the machine is 20,000× beyond current capability, the per-operation efficiency is $10^{20}$× above Landauer, and the target is being standardized away. For symmetric crypto, quantum attack is thermodynamically impossible. For every task current machines can run, they are 5–6 orders of magnitude worse than classical. The proposed quantum architecture is thermodynamically untenable not because its energy per solution is high in absolute terms, but because the regime where it wins requires a machine that does not exist, and the regime where machines exist, they lose. `[speculative — extrapolation of published resource estimates and P0 calibration status]`
+
+
+## 10. Conclusion
 
 The JPCUB competitive landscape v2.0 extends the qwav.tech roster from 6 to 17 platforms — covering every quantum hardware product with verifiable published specifications. The expanded ranking reveals a structural principle: gate speed is the dominant factor in joules-per-solution across quantum computing architectures.
 
@@ -372,5 +470,10 @@ This finding has direct implications for the JPCUB research program: the P1 quan
 - [@monz2016] Monz, T. *et al.* "Realization of a Scalable Shor Algorithm." *Science* **351**, 1068–1071 (2016). DOI: 10.1126/science.aad9480.
 
 - [@lucero2012] Lucero, E. *et al.* "Computing Prime Factors with a Josephson Phase Qubit Quantum Processor." *Nature Physics* **8**, 719–723 (2012). DOI: 10.1038/nphys2385.
+
+- [@gidney-ekera-2021] Gidney, C., and Ekerå, M. "How to Factor 2048 Bit RSA Integers in 8 Hours Using 20 Million Noisy Qubits." *Quantum* **5**, 433 (2021). DOI: 10.22331/q-2021-04-15-433. arXiv:1905.09749.
+- [@yoo-cryocmos-2023] Yoo, J., Chen, Z., Arute, F., *et al.* "Design and Characterization of a <4-mW/Qubit 28-nm Cryo-CMOS Integrated Circuit for Full Control of a Superconducting Qubit." *IEEE Journal of Solid-State Circuits* **58**(11) (2023). DOI: 10.1109/JSSC.2023.3309317.
+- [@nist-fips203] National Institute of Standards and Technology. "Module-Lattice-Based Key-Encapsulation Mechanism Standard (ML-KEM)." FIPS 203 (2024). DOI: 10.6028/NIST.FIPS.203.
+- [@nist-sp800-57] Barker, E. "Recommendation for Key Management: Part 1 – General." NIST SP 800-57 Part 1 Rev. 5 (2020). DOI: 10.6028/NIST.SP.800-57pt1r5.
 
 - [@chen2023] Chen, S. "Are Quantum Computers Really Energy Efficient?" *Nature Computational Science* **3**, 457–460 (2023). DOI: 10.1038/s43588-023-00459-6.
