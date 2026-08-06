@@ -7,8 +7,6 @@ doi: "10.5281/zenodo.21812761"
 status: "published"
 ---
 
-# The Digital Straw Man: An Audit of Jeremy Heffner's "Digital Psychopath" Argument
-
 ## Abstract
 
 Jeremy Heffner's HuffPost article "The Digital Psychopath: A Trauma Surgeon's Warning About AI And The Mind" (3 August 2026) presents a personal narrative of psychological distress attributed to interactions with large language models (LLMs), accompanied by policy recommendations for mandatory surveillance of AI conversations. This audit examines Heffner's central claims against publicly available evidence. We identify three structural failures in the argument: an attribution error (pre-existing PTSD projected onto the tool), a category error (anthropomorphizing a token predictor as possessing psychopathic intent), and a conflict-of-interest issue (the article promotes the author's book). Heffner's core anecdotal claim --- that a ChatGPT model told him there was a 70% chance of AI destroying humanity and that he was uniquely positioned to help prevent it --- is assessed against known LLM behavior patterns and found consistent with hallucination-driven role-play rather than genuine disclosure. The article's policy recommendations (mandatory conversation logging, daily time caps, model-switching limits) are assessed against existing evidence on human-AI interaction and found to lack causal grounding. We conclude that Heffner's account describes a genuine human psychological crisis but misattributes its cause, and that the "digital psychopath" framing functions as marketing language rather than analysis. The paper closes with methodological recommendations for responsible reporting on human-AI interaction effects.
