@@ -1,5 +1,9 @@
 Companion paper to JPCUB P0 (DOI 10.5281/zenodo.21637028). Bridges P0 (metric definition) and P1 (quantum energy audit).
 
+## Published (v2.1 — corrected §2.3 math rendering)
+- **DOI: 10.5281/zenodo.21821316** (published, DataCite findable)
+- PDF + HTML + MD on Zenodo; R2 archived (etag-verified); papers-server live
+
 ## Scope
 - Roster expanded: 6 (qwav.tech) to 17 platforms
 - 13 gate-model: 7 superconducting (Google Willow/Sycamore, IBM Heron/Eagle, Rigetti Ankaa-3/Aspen-M-3, IQM Garnet), 4 trapped-ion (IonQ Aria/Forte, Quantinuum H1-1/H2), 2 neutral-atom (QuEra Aquila, Pasqal Fresnel)
