@@ -89,9 +89,9 @@ where:
 
 System power ($P_{\text{sys}}$) is sourced from the peer-reviewed literature or company documentation:
 
-- **Superconducting:** Dilution refrigerator ($\approx$10–15 kW) + control electronics ($\approx$5–10 kW). Total $\approx$12–25 kW per published estimates [@fellous-asiani2022; @auffeves2022].
-- **Trapped ions:** Room-temperature operation. Lasers ($\approx$1.5–2 kW), control electronics ($\approx$1 kW), vacuum pumps ($\approx$0.5 kW), miscellaneous ($\approx$0.5 kW). Total $\approx$3–4.5 kW [@ionq-specs].
-- **Neutral atoms:** Room-temperature operation. Lasers for optical tweezers and Rydberg excitation ($\approx$2–3 kW), control electronics ($\approx$1 kW). Total $\approx$4 kW [@fellous-asiani2022].
+- **Superconducting:** Dilution refrigerator ($\approx 10\text{–}15$ kW) + control electronics ($\approx 5\text{–}10$ kW). Total $\approx 12\text{–}25$ kW per published estimates [@fellous-asiani2022; @auffeves2022].
+- **Trapped ions:** Room-temperature operation. Lasers ($\approx 1.5\text{–}2$ kW), control electronics ($\approx 1$ kW), vacuum pumps ($\approx 0.5$ kW), miscellaneous ($\approx 0.5$ kW). Total $\approx 3\text{–}4.5$ kW [@ionq-specs].
+- **Neutral atoms:** Room-temperature operation. Lasers for optical tweezers and Rydberg excitation ($\approx 2\text{–}3$ kW), control electronics ($\approx 1$ kW). Total $\approx 4$ kW [@fellous-asiani2022].
 
 ### 2.4 Conservative Bound vs. Published P0 Value
 
