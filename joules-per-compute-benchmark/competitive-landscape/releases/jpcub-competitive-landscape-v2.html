@@ -1310,10 +1310,18 @@ Baselines: Existing Computing Architectures</h2>
 (factoring <span class="math inline">\(N = 15 = 3 \times 5\)</span>,
 <span class="math inline">\(\varepsilon = 0.95\)</span>) is measured
 against existing computing architectures. Factoring 15 is a trivially
-small task for classical hardware: approximately <span
-class="math inline">\(5 \times 10^3\)</span> integer operations on a
-modern device, at <span class="math inline">\(10^{-10}\)</span>–<span
-class="math inline">\(10^{-9}\)</span> J per integer operation.</p>
+small task for classical hardware: trial division to <span
+class="math inline">\(\sqrt{15} \approx 3.9\)</span> requires testing
+two divisors (2 and 3), i.e. approximately <span
+class="math inline">\(10\)</span>–<span
+class="math inline">\(10^2\)</span> integer operations including loop
+and function-call overhead, at <span class="math inline">\(5 \times
+10^{-10}\)</span>–<span class="math inline">\(2 \times 10^{-9}\)</span>
+J per integer operation (chip-level operating energy). <span
+class="math inline">\([\)</span>established — the earlier <span
+class="math inline">\(5 \times 10^3\)</span> op figure was a 50–500×
+overestimate; the correct count <em>strengthens</em> the classical-side
+conclusion, M1<span class="math inline">\(]\)</span></p>
 <table>
 <colgroup>
 <col style="width: 26%" />
@@ -1332,39 +1340,39 @@ class="math inline">\(10^{-9}\)</span> J per integer operation.</p>
 <tbody>
 <tr>
 <td style="text-align: left;">Microcontroller (Cortex-M)</td>
-<td style="text-align: left;"><span class="math inline">\(5 \times
-10^3\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^2\)</span></td>
 <td style="text-align: left;"><span
 class="math inline">\(10^{-9}\)</span></td>
-<td style="text-align: left;"><span class="math inline">\(5 \times
-10^{-6}\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^{-7}\)</span></td>
 </tr>
 <tr>
 <td style="text-align: left;">Smartphone ARM core</td>
-<td style="text-align: left;"><span class="math inline">\(5 \times
-10^3\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^2\)</span></td>
 <td style="text-align: left;"><span class="math inline">\(5 \times
 10^{-10}\)</span></td>
-<td style="text-align: left;"><span class="math inline">\(2.5 \times
-10^{-6}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(5 \times
+10^{-8}\)</span></td>
 </tr>
 <tr>
 <td style="text-align: left;">Server CPU (x86)</td>
-<td style="text-align: left;"><span class="math inline">\(5 \times
-10^3\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^2\)</span></td>
 <td style="text-align: left;"><span class="math inline">\(2 \times
 10^{-9}\)</span></td>
-<td style="text-align: left;"><span
-class="math inline">\(10^{-5}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(2 \times
+10^{-7}\)</span></td>
 </tr>
 <tr>
 <td style="text-align: left;">GPU (integer path)</td>
-<td style="text-align: left;"><span class="math inline">\(5 \times
-10^3\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(10^2\)</span></td>
 <td style="text-align: left;"><span class="math inline">\(5 \times
 10^{-10}\)</span></td>
-<td style="text-align: left;"><span class="math inline">\(2.5 \times
-10^{-6}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(5 \times
+10^{-8}\)</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>IBM Eagle r3
@@ -1387,14 +1395,28 @@ class="math inline">\(&lt;10^{-3}\)</span></strong></td>
 </table>
 <p><strong>The same-task penalty:</strong> IBM Eagle at <span
 class="math inline">\(0.89\)</span> J/solution is <span
-class="math inline">\(9 \times 10^4\)</span>–<span
-class="math inline">\(3.6 \times 10^5\)</span> times worse than any
-classical device on this task. This is not an implementation flaw — it
-is structural. The NISQ-era quantum platform must keep a 15 kW cryogenic
-infrastructure at steady state to execute a circuit that a smartphone
-completes in nanoseconds. For every task a current quantum computer can
-perform, the classical alternative achieves lower joules-per-solution.
-<code>[established — direct consequence of the published P0 measurement]</code></p>
+class="math inline">\(4.5 \times 10^6\)</span>–<span
+class="math inline">\(1.8 \times 10^7\)</span> times worse than any
+classical device on this task (with the corrected <span
+class="math inline">\(10^2\)</span>-op classical budget; the earlier
+<span class="math inline">\(9 \times 10^4\)</span>–<span
+class="math inline">\(3.6 \times 10^5\times\)</span> range used the
+inflated <span class="math inline">\(5 \times 10^3\)</span>-op count).
+<span class="math inline">\([\)</span>established — M1
+recomputation<span class="math inline">\(]\)</span> This is not an
+implementation flaw — it is structural. The NISQ-era quantum platform
+must keep a 15 kW cryogenic infrastructure at steady state to execute a
+circuit that a smartphone completes in nanoseconds. For every task a
+current quantum computer can perform, the classical alternative achieves
+lower joules-per-solution. <strong>Comparison-basis caveat:</strong> the
+<span class="math inline">\(0.89\)</span> J value is the P0 protocol’s
+incremental energy above idle baseline (P0 §3.3), excluding the ~15 kW
+steady-state cryogenic draw, while the classical rows are chip-level
+operating energy. Both conventions favor the quantum platform, so the
+penalty ratios are conservative lower bounds; on a uniform full-system
+basis the conclusion is unchanged. <span
+class="math inline">\([\)</span>established — direct consequence of the
+published P0 measurement; M3<span class="math inline">\(]\)</span></p>
 <h3 id="cross-paradigm-atlas-per-operation-relative-to-landauer">8.2
 Cross-Paradigm Atlas (Per-Operation, Relative to Landauer)</h3>
 <p>The JPCUB P0 Comparative Atlas <span
@@ -1437,7 +1459,7 @@ class="math inline">\(10^2\)</span></td>
 <td style="text-align: left;">CMOS CPU</td>
 <td style="text-align: left;"><span
 class="math inline">\(10^3\)</span>–<span
-class="math inline">\(10^4\)</span></td>
+class="math inline">\(10^4\)</span> (per-transistor theoretical)</td>
 <td style="text-align: left;">Dynamic switching, leakage</td>
 </tr>
 <tr>
@@ -1474,7 +1496,18 @@ overhead</strong></td>
 <p>The fault-tolerant quantum paradigm is the least energy-efficient
 paradigm per useful operation by 7–11 orders of magnitude — an inversion
 of the investment pattern ($35B vs. $1–2B for neuromorphic).
-<code>[established — JPCUB P0 §5.1; Auffèves, PRX Quantum 3, 020101 (2022)]</code></p>
+<strong>Basis note (H2):</strong> the atlas multiples are marginal
+per-logical-operation energies on an active-energy basis, excluding the
+multi-MW steady-state cryogenic idle draw. Section 9.1’s full-system
+figure — <span class="math inline">\(2 \times 10^{20}\)</span> ×
+Landauer(15 mK) per <em>physical</em> gate, or <span
+class="math inline">\(\sim 7.7 \times 10^{25}\)</span> × Landauer per
+<em>logical</em> Toffoli — is 5–13 orders of magnitude higher once QEC
+overhead and idle power are included. The two figures are directionally
+consistent; the atlas <em>understates</em> full-system cost. <span
+class="math inline">\([\)</span>established — JPCUB P0 §5.1; Auffèves,
+PRX Quantum 3, 020101 (2022); §9.1 recomputation<span
+class="math inline">\(]\)</span></p>
 <h2 id="total-joules-for-classically-infeasible-problems">9. Total
 Joules for Classically-Infeasible Problems</h2>
 <p>The competitive landscape of Section 4 uses a task (factoring 15)
@@ -1496,16 +1529,37 @@ and runs for 8 hours.</p>
 complexity for RSA-2048 is approximately <span
 class="math inline">\(2^{112}\)</span> bit operations (112-bit security
 level, NIST SP 800-57 <span class="citation"
-data-cites="nist-sp800-57">[@nist-sp800-57]</span>), corresponding to
-approximately <span class="math inline">\(10^9\)</span> core-years on
-modern hardware:</p>
-<p><span class="math display">\[E_{\text{classical}} \approx 10^9 \text{
-core-years} \times 200\ \text{W} \times 3.16 \times 10^7 \text{ s/yr}
-\approx 6.3 \times 10^{18}\ \text{J}\]</span></p>
-<p>This is approximately 5.8% of world annual electricity production
-(<span class="math inline">\(\approx 1.08 \times 10^{20}\)</span> J) —
+data-cites="nist-sp800-57">[@nist-sp800-57]</span>). Converting 2^{112}
+bit operations to core-years at realistic per-core throughput (<span
+class="math inline">\(10^8\)</span>–<span
+class="math inline">\(10^{10}\)</span> ops/s) yields <span
+class="math inline">\(1.6 \times 10^{16}\)</span>–<span
+class="math inline">\(1.6 \times 10^{18}\)</span> core-years; the
+empirical RSA-768 anchor (Lenstra <em>et al.</em>, 2009: <span
+class="math inline">\(\sim 2 \times 10^{20}\)</span> ops in <span
+class="math inline">\(\sim 10^4\)</span> core-years) scales to
+approximately <span class="math inline">\(2.6 \times 10^{17}\)</span>
+core-years. <span class="math inline">\([\)</span>established —
+independent recomputation; the frequently-cited <span
+class="math inline">\(10^9\)</span> core-year figure is a
+security-equivalence convention, not a raw bit-op conversion<span
+class="math inline">\(]\)</span>:</p>
+<p><span class="math display">\[E_{\text{classical}} \approx 2.6 \times
+10^{17} \text{ core-years} \times 200\ \text{W} \times 3.16 \times 10^7
+\text{ s/yr} \approx 1.6 \times 10^{27}\ \text{J} \ (\text{range }
+10^{26}\text{–}10^{28}\ \text{J})\]</span></p>
+<p>This is approximately <span class="math inline">\(1.6 \times
+10^7\)</span> times world annual electricity production (<span
+class="math inline">\(\approx 1.08 \times 10^{20}\)</span> J) —
 genuinely infeasible, which is precisely why RSA-2048 remains unbroken
-after three decades.</p>
+after three decades. Even with fantasy-class hardware (<span
+class="math inline">\(10^{13}\)</span> ops/s per machine, <span
+class="math inline">\(\sim 10^3\times\)</span> a modern core), the
+classical cost cannot drop below <span class="math inline">\(\sim
+10^{23}\)</span> J, i.e. <span class="math inline">\(\sim
+10^3\times\)</span> world annual electricity. <span
+class="math inline">\([\)</span>established — recomputation, C1<span
+class="math inline">\(]\)</span></p>
 <p><strong>Quantum cost (Gidney–Ekerå architecture):</strong></p>
 <table>
 <colgroup>
@@ -1533,28 +1587,44 @@ data-cites="yoo-cryocmos-2023">[@yoo-cryocmos-2023]</span>)</td>
 10^9\)</span> J</td>
 </tr>
 <tr>
-<td style="text-align: left;">Full system, low estimate</td>
+<td style="text-align: left;">Full system, optimistic floor</td>
 <td style="text-align: left;">0.5 MW</td>
 <td style="text-align: left;">8 h</td>
 <td style="text-align: left;"><span class="math inline">\(1.44 \times
 10^{10}\)</span> J</td>
 </tr>
 <tr>
-<td style="text-align: left;">Full system, high estimate</td>
-<td style="text-align: left;">1.0 MW</td>
+<td style="text-align: left;">Full system, central estimate</td>
+<td style="text-align: left;">1–5 MW</td>
 <td style="text-align: left;">8 h</td>
-<td style="text-align: left;"><span class="math inline">\(2.88 \times
-10^{10}\)</span> J</td>
+<td style="text-align: left;"><span class="math inline">\(2.9 \times
+10^{10}\)</span>–<span class="math inline">\(1.4 \times 10^{11}\)</span>
+J</td>
+</tr>
+<tr>
+<td style="text-align: left;">Full system, pessimistic (incl. decoder
+farm)</td>
+<td style="text-align: left;">10 MW</td>
+<td style="text-align: left;">8 h</td>
+<td style="text-align: left;"><span class="math inline">\(2.9 \times
+10^{11}\)</span> J</td>
 </tr>
 </tbody>
 </table>
 <p><span class="math display">\[E_{\text{quantum}} \approx 1.4 \times
-10^{10} \text{ – } 2.9 \times 10^{10}\ \text{J} \ (4\text{–}8\
-\text{MWh})\]</span></p>
-<p><strong>Honest comparison:</strong> the quantum cost is <span
-class="math inline">\(2.2 \times 10^8\)</span> times lower than the
-classical cost <em>for this specific problem</em>. Shor’s algorithm is
-the one known regime where a (hypothetical) fault-tolerant quantum
+10^{10} \text{ – } 2.9 \times 10^{11}\ \text{J} \ (4\text{–}80\
+\text{MWh}) \ (0.5\text{–}10\ \text{MW} \times 8\ \text{h})\]</span></p>
+<p><strong>Honest comparison:</strong> the quantum cost is approximately
+<span class="math inline">\(1.7 \times 10^{27} / 2.9 \times 10^{10}
+\approx 6 \times 10^{16}\)</span> times lower than the classical cost
+<em>for this specific problem</em> (defensible ratio range <span
+class="math inline">\(10^{14}\)</span>–<span
+class="math inline">\(10^{18}\)</span>; the widely-quoted <span
+class="math inline">\(2.2 \times 10^8\times\)</span> figure used the
+flawed <span class="math inline">\(10^9\)</span> core-year classical
+baseline). <span class="math inline">\([\)</span>established —
+recomputation, C1<span class="math inline">\(]\)</span> Shor’s algorithm
+is the one known regime where a (hypothetical) fault-tolerant quantum
 computer would win thermodynamically.
 <code>[established — arithmetic on published resource estimates; the machine does not exist]</code></p>
 <p><strong>Why this does not rescue the paradigm:</strong> three
@@ -1564,21 +1634,29 @@ independent objections.</p>
 art.</strong> Twenty million physical qubits versus the approximately
 1,000 qubits of current processors <span class="citation"
 data-cites="ibm-quantum">[@ibm-quantum]</span>. No roadmap reaches this
-within two decades, and the cryogenic infrastructure for 20M qubits
-(multi-fridge dilution refrigeration, MW-scale power, QEC decoders at
-classical co-processor scale) has no demonstration at even 1% of the
-requirement.</p></li>
+within two decades <span class="math inline">\([\)</span>speculative —
+opinion, not established<span class="math inline">\(]\)</span>, and the
+cryogenic infrastructure for 20M qubits (multi-fridge dilution
+refrigeration, MW-scale power, QEC decoders at classical co-processor
+scale) has no demonstration at even 1% of the requirement.</p></li>
 <li><p><strong>Per-operation efficiency is 20 orders of magnitude above
 Landauer.</strong> The <span class="math inline">\(\sim 10^{15}\)</span>
-physical gates of the Gidney–Ekerå circuit at <span
+physical gates of the QEC-inclusive Gidney–Ekerå circuit (the abstract
+circuit model counts <span class="math inline">\(\sim 2.6 \times
+10^9\)</span> logical Toffoli gates; the <span
+class="math inline">\(\sim 10^{15}\)</span> figure includes surface-code
+overhead, per Gidney and Ekerå, Quantum 5, 433, 2021) at <span
 class="math inline">\(2.9 \times 10^{10}\)</span> J total imply <span
 class="math inline">\(2.9 \times 10^{-5}\)</span> J per physical gate —
 <span class="math inline">\(2 \times 10^{20}\)</span> times the 15 mK
 Landauer bound of <span class="math inline">\(1.4 \times
-10^{-25}\)</span> J. The quantum machine achieves a task-level win over
-classical <em>despite</em> being the least efficient paradigm per
-operation, because the classical alternative is exponentially worse on
-this one task.</p></li>
+10^{-25}\)</span> J (range <span class="math inline">\(4 \times
+10^{19}\)</span>–<span class="math inline">\(10^{21}\times\)</span>
+across the <span class="math inline">\(10^{15}\)</span>–<span
+class="math inline">\(10^{17}\)</span> gate-count band). The quantum
+machine achieves a task-level win over classical <em>despite</em> being
+the least efficient paradigm per operation, because the classical
+alternative is exponentially worse on this one task.</p></li>
 <li><p><strong>The target is being retired.</strong> NIST standardized
 post-quantum key encapsulation (FIPS 203 ML-KEM <span class="citation"
 data-cites="nist-fips203">[@nist-fips203]</span>) in 2024; migration of
@@ -1592,24 +1670,42 @@ AES-256 Key Search: The Grover Regime — Thermodynamically Immune</h3>
 <p>For symmetric cryptography (AES-256), quantum attack uses Grover’s
 algorithm, which provides only a <em>quadratic</em> speedup:
 approximately <span class="math inline">\(2^{128} \approx 3.4 \times
-10^{38}\)</span> oracle evaluations are required, versus <span
-class="math inline">\(2^{256}\)</span> for classical brute force.</p>
+10^{38}\)</span> oracle evaluations are required (the exact Grover
+iteration count is <span class="math inline">\(\lceil \pi/4 \cdot
+2^{128} \rceil \approx 2.7 \times 10^{38}\)</span>, so <span
+class="math inline">\(2^{128}\)</span> is a conservative upper bound),
+versus <span class="math inline">\(2^{256}\)</span> for classical brute
+force. <span class="math inline">\([\)</span>established — Grover
+complexity; L1<span class="math inline">\(]\)</span></p>
 <p><span class="math display">\[E_{\text{Grover-AES256}} \approx 3.4
-\times 10^{38}\ \text{ops} \times 10^{-15}\ \text{J/op} \approx 3.4
-\times 10^{23}\ \text{J} \approx 3{,}200\times \text{ world annual
-electricity}\]</span></p>
+\times 10^{38}\ \text{ops} \times 2.9 \times 10^{-5}\ \text{J/gate}
+\approx 9.9 \times 10^{33}\ \text{J} \approx 9 \times 10^{13}\times
+\text{ world annual electricity}\]</span></p>
 <p><span class="math display">\[T_{\text{Grover-AES256}} \approx
-\frac{3.4 \times 10^{38}}{10^{10}\ \text{gates/s}} \approx 1.1 \times
-10^{21}\ \text{years} \ (7.8 \times 10^{10}\times\ \text{the age of the
+\frac{3.4 \times 10^{38}}{10^{6}\ \text{gates/s}} \approx 1.1 \times
+10^{25}\ \text{years} \ (7.8 \times 10^{14}\times\ \text{the age of the
 universe})\]</span></p>
 <p><strong>AES-256 is thermodynamically and temporally immune to quantum
 attack.</strong> Grover’s quadratic speedup is structurally
-insufficient: at the most optimistic fault-tolerant gate rate (<span
-class="math inline">\(10^{10}\)</span> gates/s) and per-operation energy
-(<span class="math inline">\(10^{-15}\)</span> J), the computation
-exceeds world energy production by three orders of magnitude and cosmic
-time by eleven orders of magnitude.
-<code>[established — arithmetic; Grover complexity is textbook]</code></p>
+insufficient. Using the full-stack per-gate energy of §9.1 (<span
+class="math inline">\(2.9 \times 10^{-5}\)</span> J/gate) — the only
+internally consistent model — the computation requires <span
+class="math inline">\(\sim 9.9 \times 10^{33}\)</span> J, approximately
+<span class="math inline">\(10^{14}\times\)</span> world annual
+electricity (the earlier <span class="math inline">\(10^{-15}\)</span>
+J/op figure implied a <span class="math inline">\(10\ \mu\)</span>W
+fault-tolerant machine, inconsistent with §9.1’s <span
+class="math inline">\(0.5\)</span>–<span
+class="math inline">\(1\)</span> MW). On time, at the Gidney–Ekerå
+logical gate rate (<span class="math inline">\(\sim 10^6\)</span>
+gates/s) the computation takes <span class="math inline">\(\sim 1.1
+\times 10^{25}\)</span> years (<span class="math inline">\(\sim
+10^{15}\times\)</span> the age of the universe); counting the full
+per-oracle AES-256 circuit (NISTIR 8105: <span
+class="math inline">\(\sim 2^{150}\)</span> total operations) <span
+class="math inline">\(\sim 10^{27}\)</span> years. <span
+class="math inline">\([\)</span>established — recomputation on §9.1’s
+power model, C2/H1<span class="math inline">\(]\)</span></p>
 <h3
 id="the-current-nisq-fleet-33-gwh-per-year-for-zero-useful-solutions">9.3
 The Current NISQ Fleet: 33 GWh per Year for Zero Useful Solutions</h3>
@@ -1619,8 +1715,9 @@ each idle at 10–25 kW (dilution refrigerator dominant for
 superconducting):</p>
 <p><span class="math display">\[E_{\text{fleet}} \approx 250\
 \text{systems} \times 15\ \text{kW} \times 3.16 \times 10^7\ \text{s}
-\approx 1.2 \times 10^{14}\ \text{J} \approx 33\
-\text{GWh/yr}\]</span></p>
+\approx 1.2 \times 10^{14}\ \text{J} \approx 33\ \text{GWh/yr} \
+(\text{upper bound; sensitivity } 17.5\text{–}65.8\ \text{GWh/yr across
+} 200\text{–}300 \times 10\text{–}25\ \text{kW})\]</span></p>
 <p>At the JPCUB P0 calibration register’s current status, no deployed
 NISQ system has demonstrated lower joules-per-solution than the best
 classical alternative for any commercially relevant task (CAL-01:
@@ -1658,13 +1755,13 @@ class="math inline">\(10^6\)</span>×</strong></td>
 </tr>
 <tr>
 <td style="text-align: left;">RSA-2048 factoring</td>
-<td style="text-align: left;"><span class="math inline">\(6.3 \times
-10^{18}\)</span> (infeasible)</td>
-<td style="text-align: left;"><span
-class="math inline">\(1.4\)</span>–<span class="math inline">\(2.9
-\times 10^{10}\)</span> (machine does not exist)</td>
-<td style="text-align: left;">Quantum wins <span class="math inline">\(2
-\times 10^8\)</span>× <em>if built</em></td>
+<td style="text-align: left;"><span class="math inline">\(\sim 1.6
+\times 10^{27}\)</span> (infeasible)</td>
+<td style="text-align: left;"><span class="math inline">\(1.4 \times
+10^{10}\)</span>–<span class="math inline">\(2.9 \times 10^{11}\)</span>
+(machine does not exist)</td>
+<td style="text-align: left;">Quantum wins <span
+class="math inline">\(\sim 10^{16}\)</span>× <em>if built</em></td>
 </tr>
 <tr>
 <td style="text-align: left;">AES-256 key search</td>
@@ -1678,8 +1775,8 @@ infeasible</strong></td>
 <tr>
 <td style="text-align: left;">Any current NISQ task</td>
 <td style="text-align: left;">lower by <span
-class="math inline">\(10^5\)</span>–<span
-class="math inline">\(10^6\)</span>×</td>
+class="math inline">\(10^6\)</span>–<span
+class="math inline">\(10^7\)</span>×</td>
 <td style="text-align: left;">higher</td>
 <td style="text-align: left;">Classical wins on every deployed task</td>
 </tr>
@@ -1772,10 +1869,10 @@ Technologies Need a Quantum Energy Initiative.” <em>PRX Quantum</em>
 10.1103/PRXQuantum.3.020101.</p></li>
 <li><p><span class="citation"
 data-cites="fellous-asiani2022">[@fellous-asiani2022]</span>
-Fellous-Asiani, M., Chai, J. H., Whitney, R. S., Auffèves, A., and Ng,
-H. K. “Optimizing Resource Efficiencies for Scalable Full-Stack Quantum
-Computers.” arXiv:2209.05469 (2022). Published as <em>PRX Quantum</em>
-<strong>4</strong>, 040319 (2023). DOI:
+Fellous-Asiani, M., Chai, J. H., Thonnart, Y., Whitney, R. S., Auffèves,
+A., and Ng, H. K. “Optimizing Resource Efficiencies for Scalable
+Full-Stack Quantum Computers.” arXiv:2209.05469 (2022). Published as
+<em>PRX Quantum</em> <strong>4</strong>, 040319 (2023). DOI:
 10.1103/PRXQuantum.4.040319.</p></li>
 <li><p><span class="citation"
 data-cites="ibm-quantum">[@ibm-quantum]</span> IBM Quantum. “Quantum
@@ -1790,7 +1887,7 @@ Processor.” <em>Nature</em> <strong>574</strong>, 505–510 (2019). DOI:
 <li><p><span class="citation"
 data-cites="google-nature-2025">[@google-nature-2025]</span> Google
 Quantum AI. “Quantum Error Correction Below the Surface Code Threshold.”
-<em>Nature</em> <strong>638</strong>, 920–926 (2025). DOI:
+<em>Nature</em> <strong>638</strong>, 920–926 (2024). DOI:
 10.1038/s41586-024-08449-y.</p></li>
 <li><p><span class="citation"
 data-cites="ionq-specs">[@ionq-specs]</span> IonQ. “IonQ Forte and Aria:
@@ -1860,8 +1957,9 @@ DOI: 10.22331/q-2021-04-15-433. arXiv:1905.09749.</p></li>
 data-cites="yoo-cryocmos-2023">[@yoo-cryocmos-2023]</span> Yoo, J.,
 Chen, Z., Arute, F., <em>et al.</em> “Design and Characterization of a
 &lt;4-mW/Qubit 28-nm Cryo-CMOS Integrated Circuit for Full Control of a
-Superconducting Qubit.” <em>IEEE Journal of Solid-State Circuits</em>
-<strong>58</strong>(11) (2023). DOI: 10.1109/JSSC.2023.3309317.</p></li>
+Superconducting Quantum Processor Unit Cell.” <em>IEEE Journal of
+Solid-State Circuits</em> <strong>58</strong>(11) (2023). DOI:
+10.1109/JSSC.2023.3309317.</p></li>
 <li><p><span class="citation"
 data-cites="nist-fips203">[@nist-fips203]</span> National Institute of
 Standards and Technology. “Module-Lattice-Based Key-Encapsulation
