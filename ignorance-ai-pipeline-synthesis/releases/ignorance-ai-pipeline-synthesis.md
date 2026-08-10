@@ -3,8 +3,8 @@ title: "Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-10"
 license: "CC BY-NC-SA 4.0"
-doi: "TBD"
-status: "draft"
+doi: "10.5281/zenodo.21878977"
+status: "published"
 ---
 
 ## Abstract
