@@ -438,16 +438,17 @@ Benchmarking</h2>
 class="math inline">\(d^{*}\)</span> is the minimum qudit dimension at
 which the encoding-density benefit of a qudit (which carries <span
 class="math inline">\(\log_2 d\)</span> bits per physical system)
-overcomes the per-gate fidelity penalty. The measured fidelity staircase
+overcomes the per-gate fidelity penalty; this framing follows the
+benchmarking framework defined in [1]. The measured fidelity staircase
 above provides an empirical anchor for this parameter: the per-gate
 error grows approximately quadratically in <span
 class="math inline">\(d\)</span> while the encoding density grows only
 logarithmically. At the demonstrated operating point (<span
 class="math inline">\(d = 3\)</span> with <span
 class="math inline">\(98.7\%\)</span> gate fidelity), the
-encoding-density gain is <span class="math inline">\(\log_2 3
-\approx 1.58\)</span> bits per system, which offsets the reduced
-per-gate fidelity relative to qubits only if the algorithmic depth is
+encoding-density gain is <span class="math inline">\(\log_2 3 \approx
+1.58\)</span> bits per system, which offsets the reduced per-gate
+fidelity relative to qubits only if the algorithmic depth is
 correspondingly reduced or the encoding overhead is otherwise exploited.
 The 2024 lattice gauge theory simulation is a concrete demonstration of
 the reduced circuit-depth argument: qudit encoding directly compresses
@@ -477,5 +478,12 @@ here.</li>
 superconducting, neutral-atom) or the broader qudit error-correction
 literature.</li>
 </ul>
+<h2 id="references">References</h2>
+<ol type="1">
+<li>Quni-Gudzinas, R. B. The Qudit Advantage: System-Level
+Joules-per-Solution Comparison of a Qudit Architecture Against 17
+Conventional Qubit Quantum Computing Platforms. Zenodo,
+doi:10.5281/zenodo.21827737 (2026).</li>
+</ol>
 </body>
 </html>

@@ -3,7 +3,7 @@ title: "Trapped-Ion Qudit Quantum Computing: Due-Diligence Assessment of the Rin
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-10"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21879122"
+doi: "10.5281/zenodo.21879231"
 status: "published"
 keywords:
   - qudit
@@ -154,17 +154,17 @@ significantly exceeds the maximal possible value for any qubit state.
 
 The dimensional-advantage crossover parameter $d^{*}$ is the minimum qudit
 dimension at which the encoding-density benefit of a qudit (which carries
-$\log_2 d$ bits per physical system) overcomes the per-gate fidelity penalty.
-The measured fidelity staircase above provides an empirical anchor for this
-parameter: the per-gate error grows approximately quadratically in $d$ while the
-encoding density grows only logarithmically. At the demonstrated operating point
-($d = 3$ with $98.7\%$ gate fidelity), the encoding-density gain is $\log_2 3
-\approx 1.58$ bits per system, which offsets the reduced per-gate fidelity
-relative to qubits only if the algorithmic depth is correspondingly reduced or
-the encoding overhead is otherwise exploited. The 2024 lattice gauge theory
-simulation is a concrete demonstration of the reduced circuit-depth argument:
-qudit encoding directly compresses the simulation register for a non-abelian
-gauge theory.
+$\log_2 d$ bits per physical system) overcomes the per-gate fidelity penalty;
+this framing follows the benchmarking framework defined in [1]. The measured
+fidelity staircase above provides an empirical anchor for this parameter: the
+per-gate error grows approximately quadratically in $d$ while the encoding
+density grows only logarithmically. At the demonstrated operating point ($d = 3$
+with $98.7\%$ gate fidelity), the encoding-density gain is $\log_2 3 \approx
+1.58$ bits per system, which offsets the reduced per-gate fidelity relative to
+qubits only if the algorithmic depth is correspondingly reduced or the encoding
+overhead is otherwise exploited. The 2024 lattice gauge theory simulation is a
+concrete demonstration of the reduced circuit-depth argument: qudit encoding
+directly compresses the simulation register for a non-abelian gauge theory.
 
 No quantitative claim about a specific crossover value is made in this note; the
 purpose of Section 4 is to record the empirical fidelity curve as a benchmark
@@ -187,3 +187,10 @@ No citation in this note is drawn from unverified memory of the literature.
   numeric error model is cited but not independently recomputed here.
 - This note does not review competing qudit platforms (photonic, superconducting,
   neutral-atom) or the broader qudit error-correction literature.
+
+## References
+
+1. Quni-Gudzinas, R. B. The Qudit Advantage: System-Level Joules-per-Solution
+   Comparison of a Qudit Architecture Against 17 Conventional Qubit Quantum
+   Computing Platforms. Zenodo, doi:10.5281/zenodo.21827737 (2026).
+
