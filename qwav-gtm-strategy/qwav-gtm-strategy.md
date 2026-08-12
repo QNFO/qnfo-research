@@ -3,8 +3,8 @@ title: 'QWAV Go-to-Market, R&D, and Strategy: Consortium Formation, Grant-Funded
 author: 'QNFO Research Collective'
 date: '2026-08-12'
 license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: 'TBD'
-status: 'draft'
+doi: '10.5281/zenodo.21904464'
+status: 'published'
 genre: 'B — Commercial/Strategy'
 wbs: 'QNFO.RES.004'
 ---
