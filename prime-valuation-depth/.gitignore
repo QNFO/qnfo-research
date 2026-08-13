@@ -1,0 +1,10 @@
+# QNFO research project ignore rules
+*.pyc
+__pycache__/
+*.log
+.env
+.keys
+keys.json
+.DS_Store
+Thumbs.db
+node_modules/
