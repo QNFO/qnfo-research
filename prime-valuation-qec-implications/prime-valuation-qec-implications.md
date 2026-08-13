@@ -1,19 +1,31 @@
-# Implications for Computing and Quantum Error Correction
+---
+title: "Implications for Computing and Quantum Error Correction"
+author: "Quni-Gudzinas, Rowan Brad"
+orcid: "0009-0002-4317-5604"
+affiliation: "QNFO Research Collective"
+date: "2026-08-13"
+version: "v0.2"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.21923000"
+status: "published"
+keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "no-cloning theorem", "branch depth", "ultrametric"]
+---
 
 **Author:** Quni-Gudzinas, Rowan Brad (QNFO Research Collective)
 **ORCID:** 0009-0002-4317-5604
-**WBS:** QNFO.RES.006
 **Date:** 2026-08-13
 **Version:** v0.2
-**License:** CC-BY-4.0\n**Changelog:** v0.2 (2026-08-13) — §6 precision patch (83% per-family breakdown; rule-based Algorithm 4.4 reframing; reproduction protocol pointer) + reference corrections (Gubser–Knaute venue; Bhattacharyya DOI) per P4 red-team (see artifacts/red-team-P4.md, artifacts/rq3-reproduction-protocol.md).
+**License:** CC-BY-4.0
+**Keywords:** p-adic valuation; quantum error correction; stabilizer codes; no-cloning theorem; branch depth; ultrametric
+**Changelog:** v0.2 (2026-08-13) — §6 precision patch: per-family 83% breakdown, rule-based Algorithm 4.4 reframing, first reproduction attempt documented (Mahler leg not reproduced at n ≤ 18; K–N leg blocked by under-specification), reference corrections (Gubser–Knaute; Bhattacharyya).
 
-**Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (QNFO.RES.005, DOI 10.5281/zenodo.21918838).
+**Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (DOI 10.5281/zenodo.21918838).
 
 ---
 
 ## Abstract
 
-The anchor paper introduced the *branch-depth reading*: the p-adic valuation v_p(n) is a measure of depth along a prime branch of the integer factorization tree (not a measure of size), and because the tensor product multiplies Hilbert-space dimensions, v_2(dim H) = n counts tensor-branch depth for n qubits. This follow-on subjects that reading to its own stated falsifiability condition in the two domains the anchor flagged but did not pursue — computing and quantum error correction. The central finding is a *correction, not a confirmation*: the naive mapping of a [[n,k,d]] stabilizer code to branch depths, n = v_2(dim H) and k = v_2(dim H_L), is **trivially true by definition** (a code is defined on n qubits encoding 2^k logical states) and therefore carries no new content; and the code distance d — a minimum operator *weight*, not a *depth* — does not admit a valuation reading at all. The genuinely open question is whether there exists a **non-trivial** valuation invariant of stabilizer codes beyond the definitional n and k, and it is here — not in the naive mapping — that the existing QNFO "83% classification accuracy" claim (Kodaira–Néron classifier, DOI 10.5281/zenodo.21193487) lives and must be independently reproduced. The structural no-cloning reading is retained but repositioned honestly: it is a known categorical result (Abramsky 2009; Coecke 2009), which the branch-depth vocabulary re-expresses rather than discovers. Every non-empirical claim below carries an explicit falsifiability condition.
+The anchor paper introduced the *branch-depth reading*: the p-adic valuation $v_p(n)$ is a measure of depth along a prime branch of the integer factorization tree (not a measure of size), and because the tensor product multiplies Hilbert-space dimensions, $v_2(\dim H) = n$ counts tensor-branch depth for n qubits. This follow-on subjects that reading to its own stated falsifiability condition in the two domains the anchor flagged but did not pursue — computing and quantum error correction. The central finding is a *correction, not a confirmation*: the naive mapping of a $[[n,k,d]]$ stabilizer code to branch depths, $n = v_2(\dim H)$ and $k = v_2(\dim H_L)$, is **trivially true by definition** (a code is defined on n qubits encoding $2^k$ logical states) and therefore carries no new content; and the code distance d — a minimum operator *weight*, not a *depth* — does not admit a valuation reading at all. The genuinely open question is whether there exists a **non-trivial** valuation invariant of stabilizer codes beyond the definitional n and k, and it is here — not in the naive mapping — that the existing "83% classification accuracy" claim (Kodaira–Néron classifier, DOI 10.5281/zenodo.21193487) lives and must be independently reproduced; a first reproduction attempt is documented in §6 and failed at $n \le 18$. The structural no-cloning reading is retained but repositioned honestly: it is a known categorical result (Abramsky 2009; Coecke 2009), which the branch-depth vocabulary re-expresses rather than discovers. Every non-empirical claim below carries an explicit falsifiability condition.
 
 ---
 
@@ -23,13 +35,13 @@ The anchor paper introduced the *branch-depth reading*: the p-adic valuation v_p
 
 *Prime Valuation Depth* developed three claims, each with a stated falsifiability condition:
 
-1. **[TERRITORY — established, Ostrowski 1916]** Every positive integer is a finite product of prime powers; v_p(n) is depth along the prime-p branch, not size.
+1. **[TERRITORY — established, Ostrowski 1916]** Every positive integer is a finite product of prime powers; $v_p(n)$ is depth along the prime-p branch, not size.
 2. **[MAP — interpretive]** The valuation-as-depth reading is a bridge between the calculus of indications (branching distinctions) and number theory (the prime divisor tree).
-3. **[MAP — interpretive]** The tensor product multiplies dimensions, so prime factorization of dim H labels branch types and v_p(dim H) counts branch depth; the no-cloning theorem is then the impossibility of a linear diagonal map — cloning is nonlinear in the amplitudes, and quantum evolution preserves only linear structure.
+3. **[MAP — interpretive]** The tensor product multiplies dimensions, so prime factorization of dim H labels branch types and $v_p(\dim H)$ counts branch depth; the no-cloning theorem is then the impossibility of a linear diagonal map — cloning is nonlinear in the amplitudes, and quantum evolution preserves only linear structure.
 
 ### 1.2 The honest starting point of this paper
 
-The anchor paper labels its own quantum reading as "interpretive rather than new physics" and attaches the falsifiability condition: *disconfirmed if the reading yields no explanatory or predictive content beyond the standard formalism — i.e., if it is pure relabeling.* This follow-on takes that condition seriously and applies it to the two domains the anchor flagged for later work. The result, reported here without flinching, is that **the most obvious extension — reading [[n,k,d]] parameters as valuations — is largely pure relabeling.** This is not a failure of the program; it is the falsifiability machinery doing its job, and it sharpens the question to the one place where the branch-depth vocabulary could carry real weight.
+The anchor paper labels its own quantum reading as "interpretive rather than new physics" and attaches the falsifiability condition: *disconfirmed if the reading yields no explanatory or predictive content beyond the standard formalism — i.e., if it is pure relabeling.* This follow-on takes that condition seriously and applies it to the two domains the anchor flagged for later work. The result, reported here without flinching, is that **the most obvious extension — reading $[[n,k,d]]$ parameters as valuations — is largely pure relabeling.** This is not a failure of the program; it is the falsifiability machinery doing its job, and it sharpens the question to the one place where the branch-depth vocabulary could carry real weight.
 
 ### 1.3 External precedent (confirmation-bias correction)
 
@@ -39,9 +51,9 @@ The anchor's quantum reading does not occur in a vacuum. The categorical content
 
 ## 2. The Branch-Depth Reading, Restated
 
-Let n ∈ ℤ⁺ factor as n = ∏ pᵢ^{aᵢ}. The anchor's reading: each prime pᵢ is a *branch type*, and the exponent aᵢ = v_{pᵢ}(n) is the *depth* of nesting along that branch. A tensor product of Hilbert spaces multiplies dimensions: dim(H₁ ⊗ H₂) = dim(H₁)·dim(H₂). Hence for n qubits, dim H = 2ⁿ and
+Let $n \in \mathbb{Z}^+$ factor as $n = \prod p_i^{a_i}$. The anchor's reading: each prime $p_i$ is a *branch type*, and the exponent $a_i = v_{p_i}(n)$ is the *depth* of nesting along that branch. A tensor product of Hilbert spaces multiplies dimensions: $\dim(H_1 \otimes H_2) = \dim(H_1)\cdot\dim(H_2)$. Hence for n qubits, $\dim H = 2^n$ and
 
-v₂(dim H) = n.
+$$v_2(\dim H) = n.$$
 
 This is the single quantitative bridge the anchor supplies. The question this paper asks is: **what does it buy us?**
 
@@ -51,26 +63,26 @@ This is the single quantitative bridge the anchor supplies. The question this pa
 
 ### 3.1 The definitional facts
 
-A [[n,k,d]] stabilizer code is a 2ᵏ-dimensional subspace (the codespace) of an n-qubit Hilbert space H ≅ (ℂ²)^⊗n, with dim H = 2ⁿ. Two identities follow immediately:
+A $[[n,k,d]]$ stabilizer code is a $2^k$-dimensional subspace (the codespace) of an n-qubit Hilbert space $H \cong (\mathbb{C}^2)^{\otimes n}$, with $\dim H = 2^n$. Two identities follow immediately:
 
-n = v₂(dim H) = v₂(2ⁿ) = n,
-k = v₂(dim H_L) = v₂(2ᵏ) = k.
+$$n = v_2(\dim H) = v_2(2^n) = n,$$
+$$k = v_2(\dim H_L) = v_2(2^k) = k.$$
 
 **Claim [MAP — to be tested]:** these identities constitute a "branch-depth reading" of the code parameters.
 
-**Finding [SELF-CORRECTION]:** the identities are *definitional*. n is the number of qubits *by construction*, and k is the number of logical qubits *by construction*. Restating them as v₂ of a dimension adds nothing: the valuation is doing no work that the exponent of 2 in "2ⁿ" and "2ᵏ" was not already doing. This is the anchor's own falsifiability condition, triggered: **the n and k mappings are pure relabeling.**
+**Finding [SELF-CORRECTION]:** the identities are *definitional*. n is the number of qubits *by construction*, and k is the number of logical qubits *by construction*. Restating them as $v_2$ of a dimension adds nothing: the valuation is doing no work that the exponent of 2 in "$2^n$" and "$2^k$" was not already doing. This is the anchor's own falsifiability condition, triggered: **the n and k mappings are pure relabeling.**
 
 ### 3.2 The distance d does not have a valuation reading
 
-The code distance d is the minimum weight (number of non-identity Pauli factors) of a non-trivial logical operator. It is a **Hamming weight** — a count of tensor factors an error touches — not a p-adic depth. There is no integer whose valuation yields d in the way 2ⁿ yields n. The tempting phrase "d = branch-crossing error weight" is a metaphor, not a valuation identity, and must not be presented as mathematics. **[Falsifiability condition: disconfirmed if any specific valuation identity for d is claimed; d is a weight, and the burden of proof for any valuation-based bound on d is on the claimer.]**
+The code distance d is the minimum weight (number of non-identity Pauli factors) of a non-trivial logical operator. It is a **Hamming weight** — a count of tensor factors an error touches — not a p-adic depth. There is no integer whose valuation yields d in the way $2^n$ yields n. The tempting phrase "d = branch-crossing error weight" is a metaphor, not a valuation identity, and must not be presented as mathematics. **[Falsifiability condition: disconfirmed if any specific valuation identity for d is claimed; d is a weight, and the burden of proof for any valuation-based bound on d is on the claimer.]**
 
 ### 3.3 What is left after the relabeling is stripped away
 
 Stripping the definitional n and k mappings and the unavailable d mapping leaves a single, precise, and genuinely open question:
 
-> **Does there exist a non-trivial valuation invariant of a stabilizer code — one not equal to v₂(dim H) or v₂(dim H_L) — that carries classification or predictive power across code families?**
+> **Does there exist a non-trivial valuation invariant of a stabilizer code — one not equal to $v_2(\dim H)$ or $v_2(\dim H_L)$ — that carries classification or predictive power across code families?**
 
-This is where the existing QNFO result attaches.
+This is where the existing internal result attaches.
 
 ---
 
@@ -88,7 +100,7 @@ The anchor's computing leg was left as a flagged direction. The honest scope is 
 
 ### 5.1 The honest attribution
 
-The claim "cloning would require a nonlinear diagonal map, and quantum evolution preserves only linear structure" is a known categorical result. In the categorical quantum mechanics framework, a compact-closed category is **non-Cartesian**: the monoidal product ⊗ is not a categorical product, so there is no natural diagonal Δ: A → A ⊗ A that is linear (a morphism in the category). No-cloning is the physical statement of the absence of this linear diagonal [Abramsky 2009; Coecke 2009]. The anchor paper's contribution is the *vocabulary* — expressing the same fact as "multiplicative branching cannot be linearly duplicated" — not the *result*.
+The claim "cloning would require a nonlinear diagonal map, and quantum evolution preserves only linear structure" is a known categorical result. In the categorical quantum mechanics framework, a compact-closed category is **non-Cartesian**: the monoidal product $\otimes$ is not a categorical product, so there is no natural diagonal $\Delta: A \to A \otimes A$ that is linear (a morphism in the category). No-cloning is the physical statement of the absence of this linear diagonal [Abramsky 2009; Coecke 2009]. The anchor paper's contribution is the *vocabulary* — expressing the same fact as "multiplicative branching cannot be linearly duplicated" — not the *result*.
 
 **Claim [MAP — re-expression]:** the branch-depth vocabulary re-expresses no-cloning as: *a branch (tensor factor) cannot be duplicated by a linear process, so redundancy — the resource QEC consumes — must be carried in non-orthogonal (entangled) configurations, never in clones.*
 
@@ -96,46 +108,46 @@ The claim "cloning would require a nonlinear diagonal map, and quantum evolution
 
 ### 5.2 The one place the framing could bite
 
-A candidate consequence, stated as a falsifiable hypothesis: **if redundancy is non-cloneable, then the overhead (physical-to-logical qubit ratio) of a QEC code is bounded below by a function of the code's own valuation structure.** Whether this bound is tighter than, equivalent to, or weaker than the quantum Singleton bound n − k ≥ 2(d−1) is the test. **[UNTESTED — no bound has been derived; deriving one, and comparing it to the Singleton bound, is the concrete task that would elevate this framing from metaphor to mathematics.]**
+A candidate consequence, stated as a falsifiable hypothesis: **if redundancy is non-cloneable, then the overhead (physical-to-logical qubit ratio) of a QEC code is bounded below by a function of the code's own valuation structure.** Whether this bound is tighter than, equivalent to, or weaker than the quantum Singleton bound $n - k \ge 2(d-1)$ is the test. **[UNTESTED — no bound has been derived; deriving one, and comparing it to the Singleton bound, is the concrete task that would elevate this framing from metaphor to mathematics.]**
 
 ---
 
 ## 6. The 83% Classification Claim: Status and Reproduction Requirement
 
-QNFO.UF reports (NTOF, DOI 10.5281/zenodo.21193487) that a **rule-based** Kodaira–Néron-fiber
+A prior internal report (NTOF, DOI 10.5281/zenodo.21193487) claims that a **rule-based** Kodaira–Néron-fiber
 classifier (Algorithm 4.4: binary symplectic form H → Cox ring R_C → Weierstrass coefficients →
 degenerate loci → fiber type) assigns code families with **166/200 (83%)** correct on 50 test codes
 per family: Surface 46/50 (92%), CSS 39/50 (78%), Optimal 45/50 (90%), Random 36/50 (72%), with
-Mahler v_p^max = 28 for optimal versus v_p^max = 4 for random ensembles. The source itself records
+Mahler $v_p^{max} = 28$ for optimal versus $v_p^{max} = 4$ for random ensembles. The source itself records
 a documented partial failure — "FAIL for surface codes (systematic mismatch in the I_n*
 classification boundaries)" — so the aggregate 83% conceals a known per-family defect. The NTOF
 record ships no dataset, no implementation, and no baseline; the classifier is deterministic
-rule-based, not a learned ML classifier. The program registry's summary "p-adic valuations
+rule-based, not a learned ML classifier. A program-registry summary's phrase "p-adic valuations
 classify QEC codes at 83% accuracy" is therefore a compressed (and partially misleading)
 rendering of this state of affairs.
 
 **Status [UNVERIFIED-INTERNAL]:** this is an internal report. It has not, to this author's knowledge, been independently reproduced on a fresh, held-out test set with a stated leakage-control protocol. Until it is, the 83% figure is a claim to be tested, not a result to be built upon.
 
 **First reproduction attempt (2026-08-13, this pipeline's P4.2):** the Mahler
-spectral leg (C7.3') was independently implemented and run on 55 verified codes (CSS
-[[7,1,3]], [[15,7,3]]; toric surface L=2,3; optimal [[5,1,3]]; 50 random [[10,4]]). The
-claimed separation (v_p^max optimal ~ 28 vs random ~ 4, gap >= 10) did **not** reproduce
-at n <= 18 under the weight-enumerator Mahler normalization: observed optimal 4, random
+spectral leg ($C7.3'$) was independently implemented and run on 55 verified codes (CSS
+$[[7,1,3]]$, $[[15,7,3]]$; toric surface L=2,3; optimal $[[5,1,3]]$; 50 random $[[10,4]]$). The
+claimed separation ($v_p^{max}$ optimal ~ 28 vs random ~ 4, gap >= 10) did **not** reproduce
+at $n \le 18$ under the weight-enumerator Mahler normalization: observed optimal 4, random
 median 3 (max 6, which exceeds optimal). Two source under-specifications block a decisive
 test: the Mahler target function is undefined in NTOF, and Algorithm 4.4's Cox-ring ideal
-I_C is unspecified. See artifacts/rq3-reproduction-report.md. C8 remains
+$I_C$ is unspecified. See the reproduction report in the companion artifacts. C8 remains
 [UNVERIFIED-INTERNAL] pending source clarification.
 
 **Reproduction requirement (this paper's P4 critical path):** because the classifier is
 rule-based and the source ships no implementation, the reproduction is a **re-implementation from
 specification** (Algorithm 4.4) plus **fresh code-family generation** (50 per family; surface, CSS,
 optimal, random) with (i) a stated generation protocol and seeds, (ii) an independent computation
-of the v_p-spectral invariant, (iii) baselines (majority-class and random-assignment) reported
+of the $v_p$-spectral invariant, (iii) baselines (majority-class and random-assignment) reported
 alongside, and (iv) the source's documented surface-code boundary defect tested explicitly.
-Full protocol: artifacts/rq3-reproduction-protocol.md. Success is reproduction *within stated
+Full protocol: companion artifacts. Success is reproduction *within stated
 confidence* (pre-registered acceptance criteria); failure is reported honestly either way.
 
-**Falsifiability condition:** the "83% accuracy" claim is disconfirmed if independent reproduction fails to exceed a stated baseline by a pre-registered margin. **[The reproduction is out of scope for this v0.1 manuscript and is deferred to P4; its absence is disclosed, not hidden.]**
+**Falsifiability condition:** the "83% accuracy" claim is disconfirmed if independent reproduction fails to exceed a stated baseline by a pre-registered margin. **[Status: first reproduction attempt executed (P4.2, 2026-08-13) did not reproduce the claimed spectral separation at $n \le 18$; the decisive test remains blocked by source under-specification. This is disclosed, not hidden.]**
 
 ---
 
@@ -143,43 +155,65 @@ confidence* (pre-registered acceptance criteria); failure is reported honestly e
 
 | # | Claim | Type | Falsifiability condition | Current status |
 |:--|:------|:-----|:--------------------------|:---------------|
-| C1 | v_p(n) is depth along a prime branch | established (Ostrowski) | — | established |
-| C2 | n = v₂(dim H), k = v₂(dim H_L) is a "branch-depth reading" of [[n,k,d]] | MAP | disconfirmed (pure relabeling) | **SELF-CORRECTED** |
+| C1 | $v_p(n)$ is depth along a prime branch | established (Ostrowski) | — | established |
+| C2 | $n = v_2(\dim H)$, $k = v_2(\dim H_L)$ is a "branch-depth reading" of $[[n,k,d]]$ | MAP | disconfirmed (pure relabeling) | **SELF-CORRECTED** |
 | C3 | d admits a valuation reading | MAP | no valuation identity exists | **REJECTED** |
 | C4 | a non-trivial valuation invariant of codes exists | open question | no such invariant found ⇒ program fails | OPEN |
 | C5 | computing = path-tracing, with valuation-based complexity content | MAP | no valuation-based complexity characterization produced | PROMISSORY |
 | C6 | no-cloning re-expressed as non-cloneable redundancy | re-expression | no new checkable consequence ⇒ relabeling | RISK-HIGH |
 | C7 | overhead bounded by valuation structure | hypothesis | compare to Singleton bound | UNTESTED |
-| C8 | Kodaira–Néron classifier is 83% accurate | empirical (internal) | independent reproduction vs baseline | UNVERIFIED-INTERNAL |
+| C8 | Kodaira–Néron classifier is 83% accurate | empirical (internal) | independent reproduction vs baseline; first attempt (P4.2) not reproduced at $n \le 18$ | UNVERIFIED-INTERNAL |
 
 ---
 
 ## 8. Relation to Prior Work (External)
 
 - **Categorical QM / no-cloning:** Abramsky & Coecke (2004) *A categorical semantics of quantum protocols*; Abramsky (2009) *No-Cloning in Categorical Quantum Mechanics*; Coecke (2009) *Quantum Pictorialism*; Coecke & Duncan (2011) *Interacting Quantum Observables*. The no-cloning content of §5 is theirs; this paper adds only vocabulary.
-- **p-adic holographic QEC:** Heydeman, Marcolli, Saberi & Stoica (2018) *Tensor networks, p-adic fields, and algebraic curves* (ATMP 22:93); Bhattacharyya, Hung, Lei & Li (2018) *Tensor network and (p-adic) AdS/CFT*; Gubser & Knaute (2017) *p-Adic AdS/CFT*. The p-adic/QEC connection is theirs; this paper's branch-depth framing is a distinct, narrower lens.
+- **p-adic holographic QEC:** Heydeman, Marcolli, Saberi & Stoica (2018) *Tensor networks, p-adic fields, and algebraic curves* (ATMP 22:93); Bhattacharyya, Hung, Lei & Li (2018) *Tensor network and (p-adic) AdS/CFT* (JHEP 2018(1):139, DOI 10.1007/jhep01(2018)139); Gubser & Knaute (2017) *A p-adic version of AdS/CFT* (ATMP 21(7):1655–1683, DOI 10.4310/atmp.2017.v21.n7.a3). The p-adic/QEC connection is theirs; this paper's branch-depth framing is a distinct, narrower lens.
 - **Stabilizer methods:** Bravyi, Browne, Calpin, Campbell, Gosset & Howard (2019) *Simulation of quantum circuits by low-rank stabilizer decompositions* — the working background for §3–§4.
 
-**Relation to QNFO internal corpus:** the p-adic QEC space is densely worked internally (see artifacts/due-diligence.md §2 for the DOI list). This paper's narrow differentiation is the branch-depth vocabulary and the self-correction of §3, which the existing corpus (which treats valuation as a *classifier weight*, not a *depth*) does not perform.
+**Relation to the internal corpus:** the p-adic QEC space is densely worked internally (see the due-diligence appendix for the DOI list). This paper's narrow differentiation is the branch-depth vocabulary and the self-correction of §3, which the existing corpus (which treats valuation as a *classifier weight*, not a *depth*) does not perform.
 
 ---
 
 ## 9. Conclusion
 
-The branch-depth reading, applied honestly to computing and quantum error correction, yields a **negative and a positive result**. The negative result: the obvious extension — reading [[n,k,d]] parameters as valuations — is definitional for n and k and unavailable for d; it is, in the anchor's own terms, pure relabeling, and this paper says so rather than papering over it. The positive result: stripping the relabeling leaves one precise open question — *does a non-trivial valuation invariant of stabilizer codes exist?* — and one concrete falsifiable task — *derive a valuation-based QEC-overhead bound and compare it to the Singleton bound.* The 83% classification claim is a testable hypothesis at the center of that question, and it must be independently reproduced before it is treated as established. This is the honest state of the program: a sharp question, a clear test, and a prior claim awaiting verification.
+The branch-depth reading, applied honestly to computing and quantum error correction, yields a **negative and a positive result**. The negative result: the obvious extension — reading $[[n,k,d]]$ parameters as valuations — is definitional for n and k and unavailable for d; it is, in the anchor's own terms, pure relabeling, and this paper says so rather than papering over it. The positive result: stripping the relabeling leaves one precise open question — *does a non-trivial valuation invariant of stabilizer codes exist?* — and one concrete falsifiable task — *derive a valuation-based QEC-overhead bound and compare it to the Singleton bound.* The 83% classification claim is a testable hypothesis at the center of that question; the first reproduction attempt documented in §6 failed at $n \le 18$ and remains blocked by source under-specification, so the claim must still be independently reproduced before it is treated as established. This is the honest state of the program: a sharp question, a clear test, and a prior claim awaiting verification.
+
+---
+
+## Declarations
+
+**Funding:** This research received no external funding.
+
+**Conflicts of Interest:** The author declares no conflict of interest.
+
+**Data Availability:** Reproduction scripts, raw results, and the reproduction report are included as companion artifacts of this record (rq3-mahler-reproduction.py, rq3-results.json, rq3-reproduction-report.md, rq3-reproduction-protocol.md).
+
+**Code Availability:** The Mahler spectral reproduction implementation is available in the project repository under notebooks/rq3-mahler-reproduction.py.
+
+**Author Contributions:** Sole author.
+
+**Ethics Approval:** Not applicable (no human or animal subjects; mathematical and philosophical research).
+
+**Consent to Participate:** Not applicable.
+
+**Consent for Publication:** Not applicable.
+
+**Acknowledgements:** The author thanks the reviewers of the companion paper whose falsifiability conditions this work takes up directly.
 
 ---
 
 ## References
 
-1. Abramsky, S., & Coecke, B. (2004). A categorical semantics of quantum protocols. *LICS 2004*.
-2. Abramsky, S. (2009). No-Cloning in Categorical Quantum Mechanics. In *Semantic Techniques in Quantum Computation*.
-3. Coecke, B. (2009). Quantum Pictorialism. *Contemporary Physics*.
-4. Coecke, B., & Duncan, R. (2011). Interacting Quantum Observables: Categorical Algebra and Diagrammatics. *New Journal of Physics*.
-5. Heydeman, M., Marcolli, M., Saberi, I., & Stoica, B. (2018). Tensor networks, p-adic fields, and algebraic curves. *Adv. Theor. Math. Phys.* 22:93. arXiv:1605.07639.
-6. Bhattacharyya, A., Hung, L.-Y., Lei, Y., & Li, W. (2018). Tensor network and (p-adic) AdS/CFT. *JHEP* 2018(1):139. arXiv:1703.05445. DOI 10.1007/jhep01(2018)139.
+1. Abramsky, S., & Coecke, B. (2004). A categorical semantics of quantum protocols. *Proceedings of the 19th Annual IEEE Symposium on Logic in Computer Science (LICS)*.
+2. Abramsky, S. (2009). No-Cloning in Categorical Quantum Mechanics. In *Semantic Techniques in Quantum Computation*, Cambridge University Press. DOI 10.1017/cbo9781139193313.002.
+3. Coecke, B. (2009). Quantum Pictorialism. *Contemporary Physics*. DOI 10.1080/00107510903257624.
+4. Coecke, B., & Duncan, R. (2011). Interacting Quantum Observables: Categorical Algebra and Diagrammatics. *New Journal of Physics* 13:043016. DOI 10.1088/1367-2630/13/4/043016.
+5. Heydeman, M., Marcolli, M., Saberi, I., & Stoica, B. (2018). Tensor networks, p-adic fields, and algebraic curves: arithmetic and the AdS$_3$/CFT$_2$ correspondence. *Adv. Theor. Math. Phys.* 22(1):93–176. DOI 10.4310/atmp.2018.v22.n1.a4. arXiv:1605.07639.
+6. Bhattacharyya, A., Hung, L.-Y., Lei, Y., & Li, W. (2018). Tensor network and (p-adic) AdS/CFT. *JHEP* 2018(1):139. DOI 10.1007/jhep01(2018)139. arXiv:1703.05445.
 7. Gubser, S. S., & Knaute, J. (2017). A p-adic version of AdS/CFT. *Adv. Theor. Math. Phys.* 21(7):1655–1683. DOI 10.4310/atmp.2017.v21.n7.a3.
-8. Bravyi, S., Browne, D., Calpin, P., Campbell, E., Gosset, D., & Howard, M. (2019). Simulation of quantum circuits by low-rank stabilizer decompositions. *Quantum* 3:181.
-9. Ostrowski, A. (1916). Über einige Lösungen der Funktionalgleichung φ(x)φ(y)=φ(xy). *Acta Mathematica*.
+8. Bravyi, S., Browne, D., Calpin, P., Campbell, E., Gosset, D., & Howard, M. (2019). Simulation of quantum circuits by low-rank stabilizer decompositions. *Quantum* 3:181. DOI 10.22331/q-2019-09-02-181.
+9. Ostrowski, A. (1916). Über einige Lösungen der Funktionalgleichung φ(x)φ(y)=φ(xy). *Acta Mathematica* 41:271–284.
 10. Quni-Gudzinas, R. B. (2026). Prime Valuation Depth. Zenodo. DOI 10.5281/zenodo.21918838.
 11. QNFO Research Collective (2026). Number-Theoretic Ultrametric Foundations. Zenodo. DOI 10.5281/zenodo.21193487.
