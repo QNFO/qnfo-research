@@ -92,3 +92,34 @@ commit (commit hash below) re-ships the data files from the verified-good run:
 - `notebooks/rq3-mahler-reproduction.py`: fixed version (rank-based toric verification; standard
   [[5,1,3]] Laflamme generator set; random Clifford with one gate per iteration and CNOT t != q).
 The fix was verified by re-reading the committed files from the remote, not just the push hash.
+
+## 8. Limitations (red-team, direct audit — same session)
+
+Direct adversarial re-review of §1–§7 (the negative result was attacked, not confirmed):
+
+**L1 — Enumerator is the stabilizer-group enumerator, not the full Shor–Laflamme A-enumerator.**
+Disclosed in §2 ("restricted to the stabilizer group"); the negative result is therefore scoped to
+this normalization and must not be read as testing the (undefined) NTOF Mahler target directly.
+The magnitude argument (F2) is unaffected: it relies only on coefficient magnitude being bounded
+by the group size 2^(n−k), which holds for any group-derived enumerator.
+
+**L2 — Random family is NOT distance-filtered (NTOF's Lemma 10 context assumes d >= 3).**
+Committed JSON check: of the 50 random [[10,4]] codes, N codes have min_stab_weight <= 2 (see
+counts above). Low-distance codes add low-weight contributions to the enumerator that can raise
+v_p^max and bias the family upward; this WEAKENS the apples-to-apples comparison with NTOF's
+random family (d >= 3). It does not rescue the magnitude claim (28 is still unattainable at n <= 18
+under this normalization), but a distance-filtered random re-run is listed in next steps.
+
+**L3 — Optimal family is a single code ([[5,1,3]], n = 5).** The separation test is underpowered
+(1 vs 50 codes); the observed optimal v_p^max = 4 is one sample. The decisive finding is the
+magnitude incompatibility (F2), which is size-independent, not the per-family median comparison.
+A larger optimal table (n = 5..30) is required before any claim about family-level separation
+medians is made.
+
+**L4 — Overclaim guard.** The report's headline "NOT REPRODUCED" is scoped by §1/F3 to "under the
+weight-enumerator normalization at n <= 18"; the manuscript §6 note carries the same scoping.
+No broader claim is made.
+
+Verdict: the negative result STANDS as scoped; L2/L3 weaken the separation-test leg but not the
+magnitude argument. Follow-ups: distance-filter random re-run; larger optimal table; source
+clarification of the Mahler target.
