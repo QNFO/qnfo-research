@@ -3,8 +3,8 @@ title: "Prime Valuation Depth: Multiplication as Branching, the Calculus of Indi
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-13"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "TBD"
-status: "draft"
+doi: "10.5281/zenodo.21918032"
+status: "published"
 version: "v0.1-draft"
 keywords:
   - p-adic valuation
@@ -25,9 +25,9 @@ This paper develops a structural reading of the p-adic valuation as a measure of
 
 Multiplication is standardly defined by recursive addition, yet recursion obscures a structural fact: multiplication generates a new dimension of distinctions. The product of two positive integers is the count of pairs, and counting pairs requires pairing — a new level of distinction between the two factors. This paper takes that observation literally. Prime factorization makes the branching explicit: every positive integer is a finite product of prime powers, each prime is a distinct branch type, and the exponent counts the depth of nesting along that branch. The p-adic valuation $v_p(n)$ is therefore a measure of depth along a prime branch, not a measure of size.
 
-This reading of valuation as depth is proposed as a bridge between two structures that developed independently: the calculus of indications of Spencer-Brown [@spencerbrown1969], in which a distinction is the primitive act and nesting produces form, and number theory, in which the fundamental theorem of arithmetic produces the tree of prime divisors. The bridge is grounded in Ostrowski's theorem [@ostrowski1916]: the only nontrivial absolute values on the rationals are the Archimedean one and the p-adic ones, so the prime-depth valuations are exhaustive among the non-Archimedean measures of closeness.
+This reading of valuation as depth is proposed as a bridge between two structures that developed independently: the calculus of indications of Spencer-Brown [2], in which a distinction is the primitive act and nesting produces form, and number theory, in which the fundamental theorem of arithmetic produces the tree of prime divisors. The bridge is grounded in Ostrowski's theorem [1]: the only nontrivial absolute values on the rationals are the Archimedean one and the p-adic ones, so the prime-depth valuations are exhaustive among the non-Archimedean measures of closeness.
 
-The reading is then extended to quantum mechanics. The tensor product is not a Cartesian product; it multiplies dimensions and thereby generates paired distinctions. Prime factorization of a Hilbert-space dimension identifies the branch types, and for $n$ qubits the dimension is $2^n$, so the 2-adic valuation $v_2(\dim H) = n$ is exactly the number of tensor factors. Within this vocabulary, the no-cloning theorem [@wootters1982; @dieks1982] is expressed structurally: cloning would require a diagonal map sending a state to its tensor square, which is nonlinear in the amplitudes, and the image of such a map is not a linear subspace. The tensor product is monoidal but not Cartesian, and no linear map can duplicate multiplicative branching.
+The reading is then extended to quantum mechanics. The tensor product is not a Cartesian product; it multiplies dimensions and thereby generates paired distinctions. Prime factorization of a Hilbert-space dimension identifies the branch types, and for $n$ qubits the dimension is $2^n$, so the 2-adic valuation $v_2(\dim H) = n$ is exactly the number of tensor factors. Within this vocabulary, the no-cloning theorem [3, 4] is expressed structurally: cloning would require a diagonal map sending a state to its tensor square, which is nonlinear in the amplitudes, and the image of such a map is not a linear subspace. The tensor product is monoidal but not Cartesian, and no linear map can duplicate multiplicative branching.
 
 The paper is organized as follows. Section 2 develops the valuation-as-depth reading and its Ostrowski grounding. Section 3 states the correspondence between the calculus of indications and the prime tree. Section 4 translates the reading to the tensor product. Section 5 gives the structural no-cloning statement and its adjacent theorems. Section 6 discusses the adelic frontier and the limits of the reading. Section 7 concludes.
 
@@ -53,7 +53,7 @@ The tree picture is direct: the integer $n$ occupies the node reached from the r
 
 ### 2.2 Ostrowski's Exhaustiveness
 
-Ostrowski's theorem [@ostrowski1916] states that every nontrivial absolute value on the rationals is equivalent either to the usual Archimedean absolute value or to a p-adic absolute value of the form
+Ostrowski's theorem [1] states that every nontrivial absolute value on the rationals is equivalent either to the usual Archimedean absolute value or to a p-adic absolute value of the form
 
 $$\lvert x \rvert_p = p^{-v_p(x)}.$$
 
@@ -65,7 +65,7 @@ The p-adic absolute value inverts depth: the deeper along the $p$-branch a ratio
 
 ### 3.1 The Correspondence
 
-The calculus of indications [@spencerbrown1969] takes the act of distinction as primitive. A mark distinguishes an inside from an outside; the act of calling a distinction again is the act of crossing; nesting of distinctions generates form. The formal literature includes three-valued interpretations [@varela1979], recursive distinctioning [@isaacson2016], and connections to self-reference and quantum mechanics [@rapoport2009].
+The calculus of indications [2] takes the act of distinction as primitive. A mark distinguishes an inside from an outside; the act of calling a distinction again is the act of crossing; nesting of distinctions generates form. The formal literature includes three-valued interpretations [10], recursive distinctioning [16], and connections to self-reference and quantum mechanics [11].
 
 The correspondence proposed here maps the two structures term by term:
 
@@ -94,7 +94,7 @@ is the same statement: the depth of a sum never exceeds the minimum depth of its
 
 $$v_p(mn) = v_p(m) + v_p(n).$$
 
-Depth along a branch adds under composition in both structures. For composite bases the multiplicative law fails [@heydeman2018], which is precisely why primes are the branch types: prime labels are the ones for which depth is additive.
+Depth along a branch adds under composition in both structures. For composite bases the multiplicative law fails [9], which is precisely why primes are the branch types: prime labels are the ones for which depth is additive.
 
 **Statement 2 [MAP — interpretive reading, defended].** The valuation-as-depth reading is a structure-preserving correspondence between the calculus of indications and the prime tree, in the sense that both structures satisfy a nesting/hierarchy law and a multiplicativity-of-depth law. *Falsifiability condition: the correspondence is disconfirmed if the shared laws reduce to relabeling — that is, if for every structural property of the prime tree there is a property of the calculus of indications that is preserved only by definition. The two laws above are offered as the test; a critic must show either that they are vacuous or that they hold between any two nested structures whatsoever.*
 
@@ -112,7 +112,7 @@ $$\dim H = 2^n, \qquad v_2(\dim H) = n.$$
 
 The 2-adic valuation of the dimension is the number of qubit tensor factors: it is the tensor-branch depth. For a general finite-dimensional system of dimension $d = \prod_p p^{e_p}$, the branch-depth is the tuple $(v_p(d))_p$ over all primes; the no-cloning diagonal argument of Section 5 holds for any $d > 1$ and does not depend on the valuation — the valuation provides the reading, not the proof. The tensor product is not a Cartesian product; it is a pairing that generates a new level of structure, exactly as multiplication generates a new dimension of distinctions in the arithmetic case.
 
-The p-adic dimension-depth reading connects to the established p-adic structures in physics: p-adic string theory [@volovich1987], p-adic CFT as holographic tensor networks [@hung2019], and tensor networks over p-adic fields [@heydeman2018]. In those frameworks the p-adic tree is the geometry; here the p-adic valuation of dimension is the depth measure.
+The p-adic dimension-depth reading connects to the established p-adic structures in physics: p-adic string theory [5], p-adic CFT as holographic tensor networks [8], and tensor networks over p-adic fields [9]. In those frameworks the p-adic tree is the geometry; here the p-adic valuation of dimension is the depth measure.
 
 **Statement 3 [MAP — interpretive reading, developed].** For a composite quantum system, the prime factorization of the Hilbert-space dimension identifies the branch types of the tensor product, and $v_p(\dim H)$ counts the depth along the $p$-branch. *Falsifiability condition: this reading is disconfirmed if it yields no structural content beyond the standard multiplicativity of dimensions — that is, if $v_p(\dim H)$ tracks no feature of the tensor-product structure other than the dimension number itself. The candidate structural content is stated in Section 5 (the diagonal map and its absence).*
 
@@ -120,7 +120,7 @@ The p-adic dimension-depth reading connects to the established p-adic structures
 
 ### 5.1 The Diagonal Map Is Nonlinear
 
-The no-cloning theorem [@wootters1982; @dieks1982] states that there is no linear map (and no unitary map, with an ancilla) that sends every unknown state $\lvert\psi\rangle$ to its tensor square $\lvert\psi\rangle \otimes \lvert\psi\rangle$. The standard proof is a linearity argument. In the branch-depth vocabulary the statement acquires a structural form.
+The no-cloning theorem [3, 4] states that there is no linear map (and no unitary map, with an ancilla) that sends every unknown state $\lvert\psi\rangle$ to its tensor square $\lvert\psi\rangle \otimes \lvert\psi\rangle$. The standard proof is a linearity argument. In the branch-depth vocabulary the statement acquires a structural form.
 
 Let $H$ have dimension $d > 1$, and consider the diagonal map
 
@@ -140,7 +140,7 @@ is not a linear subspace of $H \otimes H$ when $d > 1$: it is the Veronese embed
 
 ### 5.2 The Category-Theoretic Statement
 
-The categorical formulation is established: the category of Hilbert spaces with the tensor product is monoidal but not Cartesian [@coeckeduncan2011; @coeckepaquette2010]. In a Cartesian category every object has a natural diagonal map; in a monoidal category that is not Cartesian, no such natural diagonal exists. The no-cloning theorem is the physical face of this categorical fact. The forbidden diagonal is the same nonlinear map of Section 5.1. Related no-go results in the same family include the forbidden quantum adder [@alvarez2015], which proves that a natural nonlinear-looking operation on amplitudes is impossible under linearity.
+The categorical formulation is established: the category of Hilbert spaces with the tensor product is monoidal but not Cartesian [6, 7]. In a Cartesian category every object has a natural diagonal map; in a monoidal category that is not Cartesian, no such natural diagonal exists. The no-cloning theorem is the physical face of this categorical fact. The forbidden diagonal is the same nonlinear map of Section 5.1. Related no-go results in the same family include the forbidden quantum adder [13], which proves that a natural nonlinear-looking operation on amplitudes is impossible under linearity.
 
 The structural reading does not change the theorem. The contribution of the vocabulary is interpretive: the no-cloning theorem is read as the impossibility of linearly duplicating multiplicative branching. You cannot copy a distinction without drawing a new distinction.
 
@@ -158,13 +158,13 @@ The no-broadcasting theorem and the monogamy of entanglement are adjacent no-go 
 
 ### 6.1 Ostrowski and the Adelic Picture
 
-Ostrowski's theorem provides the Archimedean and the p-adic absolute values as the only completions of the rationals. Standard quantum mechanics lives on the Archimedean branch: complex amplitudes and the Born rule depend on the usual absolute value. The p-adic branches are explored in p-adic string theory [@volovich1987] and p-adic holography [@hung2019; @heydeman2018]. An adelic formulation would treat all completions together.
+Ostrowski's theorem provides the Archimedean and the p-adic absolute values as the only completions of the rationals. Standard quantum mechanics lives on the Archimedean branch: complex amplitudes and the Born rule depend on the usual absolute value. The p-adic branches are explored in p-adic string theory [5] and p-adic holography [8, 9]. An adelic formulation would treat all completions together.
 
 The frontier question is whether the adelic completion of state space constrains any measurable prediction beyond the standard formalism. At present the question is open, and no falsifiable prediction is offered. The honest position is that the structural reading is an interpretation, and an adelic quantum mechanics that yields new predictions has not been constructed here.
 
 ### 6.2 Known Limits
 
-Three limits are acknowledged. First, the categorical content of the structural no-cloning reading is established in the literature [@coeckeduncan2011; @coeckepaquette2010]; the present paper claims the vocabulary, not the fact. Second, the p-adic-QM and no-cloning intersection has no direct literature anchor found in the search for this paper: the statement that no-cloning holds in p-adic Hilbert spaces follows from linearity, but no source was located that states it, so it is not asserted as a literature-backed result. Third, a claim that a two-component Bose-Einstein condensate can bypass the no-cloning theorem [@datta2022] is noted adversarially: any bypass must involve nonlinear or effective dynamics or a different notion of cloning, and the standard linearity theorem is not contradicted.
+Three limits are acknowledged. First, the categorical content of the structural no-cloning reading is established in the literature [6, 7]; the present paper claims the vocabulary, not the fact. Second, the p-adic-QM and no-cloning intersection has no direct literature anchor found in the search for this paper: the statement that no-cloning holds in p-adic Hilbert spaces follows from linearity, but no source was located that states it, so it is not asserted as a literature-backed result. Third, a claim that a two-component Bose-Einstein condensate can bypass the no-cloning theorem [14] is noted adversarially: any bypass must involve nonlinear or effective dynamics or a different notion of cloning, and the standard linearity theorem is not contradicted.
 
 ## 7. Conclusion
 
