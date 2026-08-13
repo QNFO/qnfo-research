@@ -104,7 +104,7 @@ The magnitude argument (F2) is unaffected: it relies only on coefficient magnitu
 by the group size 2^(n−k), which holds for any group-derived enumerator.
 
 **L2 — Random family is NOT distance-filtered (NTOF's Lemma 10 context assumes d >= 3).**
-Committed JSON check: of the 50 random [[10,4]] codes, N codes have min_stab_weight <= 2 (see
+Committed JSON check: of the 50 random [[10,4]] codes, 35 have min_stab_weight <= 2 (see
 counts above). Low-distance codes add low-weight contributions to the enumerator that can raise
 v_p^max and bias the family upward; this WEAKENS the apples-to-apples comparison with NTOF's
 random family (d >= 3). It does not rescue the magnitude claim (28 is still unattainable at n <= 18
