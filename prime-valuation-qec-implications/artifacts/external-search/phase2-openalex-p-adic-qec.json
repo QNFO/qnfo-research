@@ -1,0 +1,77 @@
+{
+ "source": "OpenAlex",
+ "query": "p-adic quantum error correction",
+ "count": 700,
+ "results": [
+  {
+   "id": "https://openalex.org/W2345923978",
+   "title": "p-Adic AdS/CFT",
+   "year": 2017,
+   "doi": "https://doi.org/10.1007/s00220-016-2813-6",
+   "cited": 89
+  },
+  {
+   "id": "https://openalex.org/W2963917554",
+   "title": "Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $\\mathrm{AdS}_3 / \\mathrm{CFT}_2$ correspondence",
+   "year": 2018,
+   "doi": "https://doi.org/10.4310/atmp.2018.v22.n1.a4",
+   "cited": 56
+  },
+  {
+   "id": "https://openalex.org/W4213356397",
+   "title": "Quantum gravity phenomenology at the dawn of the multi-messenger era—A review",
+   "year": 2022,
+   "doi": "https://doi.org/10.5167/uzh-230734",
+   "cited": 458
+  },
+  {
+   "id": "https://openalex.org/W2601486110",
+   "title": "Tensor network and (p-adic) AdS/CFT",
+   "year": 2018,
+   "doi": "https://doi.org/10.1007/jhep01(2018)139",
+   "cited": 44
+  },
+  {
+   "id": "https://openalex.org/W2395717319",
+   "title": "Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the AdS$_3$/CFT$_2$ correspondence",
+   "year": 2016,
+   "doi": "https://doi.org/10.48550/arxiv.1605.07639",
+   "cited": 27
+  },
+  {
+   "id": "https://openalex.org/W1587192161",
+   "title": "Quantum Black Holes, Wall Crossing, and Mock Modular Forms",
+   "year": 2012,
+   "doi": "https://doi.org/10.48550/arxiv.1208.4074",
+   "cited": 237
+  },
+  {
+   "id": "https://openalex.org/W3177212243",
+   "title": "A Survey of Quantum Error Correction",
+   "year": 2021,
+   "doi": "https://doi.org/10.1587/transfun.2021eai0001",
+   "cited": 14
+  },
+  {
+   "id": "https://openalex.org/W7163671572",
+   "title": "Toward p-adic Quantum Error Correction: The Metric Mismatch Hypothesis",
+   "year": 2026,
+   "doi": "https://doi.org/10.5281/zenodo.20556326",
+   "cited": 0
+  },
+  {
+   "id": "https://openalex.org/W7163649588",
+   "title": "Toward p-adic Quantum Error Correction: The Metric Mismatch Hypothesis",
+   "year": 2026,
+   "doi": "https://doi.org/10.5281/zenodo.20556327",
+   "cited": 0
+  },
+  {
+   "id": "https://openalex.org/W7171873760",
+   "title": "p-Adic Quantum Error Correction Classifier Verification: A Computational Methodology",
+   "year": 2026,
+   "doi": "https://doi.org/10.5281/zenodo.21698281",
+   "cited": 0
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "source": "Europe PMC",
+ "query": "qudit quantum error correction",
+ "hitCount": 114,
+ "results": [
+  {
+   "id": "42061980",
+   "title": "Absolutely maximally entangled pure states of multipartite quantum systems.",
+   "year": "2026",
+   "doi": "10.1088/1361-6633/ae672a",
+   "authors": "Rajchel-Mieldzioć G, Bistroń R, Rico A, Lakshminarayan A, Życzkowski K."
+  },
+  {
+   "id": "41963489",
+   "title": "Navigating entanglement via Ruderman-Kittel-Kasuya-Yosida exchange: oscillatory, boundary-residing, pulsed, and damping-stabilized trajectories.",
+   "year": "2026",
+   "doi": "10.1038/s41598-026-47292-1",
+   "authors": "Chen SH, Tan SG, Chang CR."
+  },
+  {
+   "id": "41410820",
+   "title": "Photonic variational quantum eigensolver for NISQ-compatible quantum technology.",
+   "year": "2025",
+   "doi": "10.1186/s40580-025-00525-x",
+   "authors": "Hu KM, Namkung M, Lim HT."
+  },
+  {
+   "id": "41201827",
+   "title": "Quantum higher-order Fourier analysis and the Clifford hierarchy.",
+   "year": "2025",
+   "doi": "10.1073/pnas.2515667122",
+   "authors": "Bu K, Gu W, Jaffe A."
+  },
+  {
+   "id": "40369140",
+   "title": "Quantum error correction of qudits beyond break-even.",
+   "year": "2025",
+   "doi": "10.1038/s41586-025-08899-y",
+   "authors": "Brock BL, Singh S, Eickbusch A, Sivak VV, Ding AZ, Frunzio L, Girvin SM, Devoret MH."
+  },
+  {
+   "id": "41187447",
+   "title": "Entanglement witnesses for stabilizer states and subspaces beyond qubits.",
+   "year": "2025",
+   "doi": "10.1088/1361-6633/ae1b67",
+   "authors": "Szczepaniak J, Makuta O, Augusiak R."
+  },
+  {
+   "id": "40234377",
+   "title": "Unconditional advantage of noisy qudit quantum circuits over biased threshold circuits in constant depth.",
+   "year": "2025",
+   "doi": "10.1038/s41467-025-58545-4",
+   "authors": "de Oliveira M, Subramanian S, Mendes L, Hsieh MH."
+  },
+  {
+   "id": "41110041",
+   "title": "Tessellation Codes: Encoded Quantum Gates by Geometric Rotation.",
+   "year": "2025",
+   "doi": "10.1103/tljb-f7tt",
+   "authors": "Wang Y, Xu Y, Liu ZW."
+  },
+  {
+   "id": "41198654",
+   "title": "Effective descriptions of bosonic systems can be considered complete.",
+   "year": "2025",
+   "doi": "10.1038/s41467-025-64872-3",
+   "authors": "Arzani F, Booth RI, Chabaud U."
+  },
+  {
+   "id": "40184473",
+   "title": "Inverse Design of Molecular Qudits for Quantum Circuitry.",
+   "year": "2025",
+   "doi": "10.1021/acs.inorgchem.5c00298",
+   "authors": "Latham E, Bowen AM, Cox N, Chilton NF."
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "source": "Crossref",
+ "query": "qudit quantum error correction",
+ "results": [
+  {
+   "doi": "10.1103/physreva.103.042420",
+   "title": "Quantum error correction architecture for qudit stabilizer codes",
+   "year": 2021,
+   "cited": 22,
+   "authors": [
+    "Nadkarni",
+    "Garani"
+   ]
+  },
+  {
+   "doi": "10.1103/7q6l-d4qh",
+   "title": "Designing quantum error correction codes for practical spin qudit systems",
+   "year": 2025,
+   "cited": 5,
+   "authors": [
+    "Lim",
+    "Ardavan"
+   ]
+  },
+  {
+   "doi": "10.1088/1367-2630/17/3/035017",
+   "title": "Improved HDRG decoders for qudit and non-Abelian quantum error correction",
+   "year": 2015,
+   "cited": 35,
+   "authors": [
+    "Hutter",
+    "Loss",
+    "Wootton"
+   ]
+  },
+  {
+   "doi": "10.1103/physreva.84.052306",
+   "title": "Tripartite entanglement in qudit stabilizer states and application in quantum error correction",
+   "year": 2011,
+   "cited": 17,
+   "authors": [
+    "Looi",
+    "Griffiths"
+   ]
+  },
+  {
+   "doi": "10.1017/cbo9781139034807.023",
+   "title": "Experimental quantum error correction",
+   "year": 2013,
+   "cited": 2,
+   "authors": [
+    "Bacon"
+   ]
+  },
+  {
+   "doi": "10.1109/qce60285.2024.00021",
+   "title": "Non-Binary Hypergraph Product Codes for Qudit Error Correction",
+   "year": 2024,
+   "cited": 2,
+   "authors": [
+    "Borah",
+    "Pradhan",
+    "Raveendran"
+   ]
+  },
+  {
+   "doi": "10.1017/cbo9781139034807.015",
+   "title": "Optimization-based quantum error correction",
+   "year": 2013,
+   "cited": 0,
+   "authors": [
+    "Fletcher"
+   ]
+  },
+  {
+   "doi": "10.1017/cbo9781139034807.026",
+   "title": "Error correction in quantum communication",
+   "year": 2013,
+   "cited": 0,
+   "authors": [
+    "Wilde"
+   ]
+  },
+  {
+   "doi": "10.1016/b978-0-12-385491-9.00007-1",
+   "title": "Quantum Error Correction",
+   "year": 2012,
+   "cited": 20,
+   "authors": [
+    "Djordjevic"
+   ]
+  },
+  {
+   "doi": "10.1017/cbo9781139034807.010",
+   "title": "Continuous-time quantum error correction",
+   "year": 2013,
+   "cited": 2,
+   "authors": [
+    "Oreshkov"
+   ]
+  }
+ ]
+}

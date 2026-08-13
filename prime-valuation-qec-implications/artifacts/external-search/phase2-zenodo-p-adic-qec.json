@@ -1,0 +1,101 @@
+{
+ "source": "Zenodo",
+ "query": "\"p-adic\" \"error correction\"",
+ "total": 4938,
+ "results": [
+  {
+   "id": 21921147,
+   "title": "Banks as Qubits: Quantum Circuit Dynamics in a Warped Economic Standard Model",
+   "publication_date": "2026-08-13",
+   "doi": "10.5281/zenodo.21921147",
+   "creators": [
+    "Bonan, Antonino Claudio"
+   ]
+  },
+  {
+   "id": 21916748,
+   "title": "Physical Limit of Quantum Error Correction (PLQEC): Foundations, Thermodynamic Bounds, and Fundamental Constraints",
+   "publication_date": "2026-08-13",
+   "doi": "10.5281/zenodo.21916748",
+   "creators": [
+    "Zhang, Jincheng"
+   ]
+  },
+  {
+   "id": 21914048,
+   "title": "Macroeconomic Drivers of Fiscal Deficit Dynamics in Uganda",
+   "publication_date": "2026-06-27",
+   "doi": "10.5281/zenodo.21914048",
+   "creators": [
+    "John Ssengonzi",
+    "Yasin Kuso Ghabon, PhD"
+   ]
+  },
+  {
+   "id": 21911827,
+   "title": "Terminus Mathematics — Mathematics of Limit  A Compressed Limit Representation System for Finite-Surface, Carrier-Preserved Mathematical Representation",
+   "publication_date": "2026-08-13",
+   "doi": "10.5281/zenodo.21911827",
+   "creators": [
+    "de Leon, Jannjhay",
+    "islahprojects"
+   ]
+  },
+  {
+   "id": 21911447,
+   "title": "Modular Grids and Lattices of Cyclic Subgroups: Arithmetic Fibers Associated with GCD and LCM",
+   "publication_date": "2026-08-13",
+   "doi": "10.5281/zenodo.21911447",
+   "creators": [
+    "cotimbo, girolamo"
+   ]
+  },
+  {
+   "id": 21901376,
+   "title": "Algorithmic Cognitive Theory: Reconfiguring Human Agency, Learning, and Self-Regulation in AI-Mediated Environments",
+   "publication_date": "2026-08-12",
+   "doi": "10.5281/zenodo.21901376",
+   "creators": [
+    "Baik, Seunghyun",
+    "Yoon, Yong Hun"
+   ]
+  },
+  {
+   "id": 21891987,
+   "title": "Hybrid Digital-Exponent / Analog-Significand Memory Cells with Column-Shared Range Normalisation",
+   "publication_date": "2026-08-11",
+   "doi": "10.5281/zenodo.21891987",
+   "creators": [
+    "Culaj, Mark"
+   ]
+  },
+  {
+   "id": 21890585,
+   "title": "Metatranscriptome processing pipeline for T. rotula and A. macleodii co-culture experiments",
+   "publication_date": "2026-08-11",
+   "doi": "10.5281/zenodo.21890585",
+   "creators": [
+    "Martínez-Pérez, Clara",
+    "Short, Isobel"
+   ]
+  },
+  {
+   "id": 21884794,
+   "title": "Decoherence-Reversal Criticality: A Paradigm Shift in Open Quantum Systems",
+   "publication_date": "2026-08-11",
+   "doi": "10.5281/zenodo.21884794",
+   "creators": [
+    "Zhang, Jincheng"
+   ]
+  },
+  {
+   "id": 21446453,
+   "title": "Universal quantum computation and error correction with global control",
+   "publication_date": "2026-07-20",
+   "doi": "10.5281/zenodo.21446453",
+   "creators": [
+    "Menta, Roberto"
+   ]
+  }
+ ]
+}

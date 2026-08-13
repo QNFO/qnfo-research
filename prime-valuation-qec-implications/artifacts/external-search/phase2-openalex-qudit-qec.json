@@ -1,0 +1,77 @@
+{
+ "source": "OpenAlex",
+ "query": "qudit quantum error correction",
+ "count": 5406,
+ "results": [
+  {
+   "id": "https://openalex.org/W4410362117",
+   "title": "Quantum error correction of qudits beyond break-even",
+   "year": 2025,
+   "doi": "https://doi.org/10.1038/s41586-025-08899-y",
+   "cited": 51
+  },
+  {
+   "id": "https://openalex.org/W4285411430",
+   "title": "Quantum error correction with molecular spin qudits",
+   "year": 2022,
+   "doi": "https://doi.org/10.1039/d2cp01228f",
+   "cited": 45
+  },
+  {
+   "id": "https://openalex.org/W3046716817",
+   "title": "Qudits and High-Dimensional Quantum Computing",
+   "year": 2020,
+   "doi": "https://doi.org/10.3389/fphy.2020.589504",
+   "cited": 493
+  },
+  {
+   "id": "https://openalex.org/W2064875352",
+   "title": "Improved HDRG decoders for qudit and non-Abelian quantum error correction",
+   "year": 2015,
+   "doi": "https://doi.org/10.1088/1367-2630/17/3/035017",
+   "cited": 37
+  },
+  {
+   "id": "https://openalex.org/W4285043439",
+   "title": "Theoretical Design of Optimal Molecular Qudits for Quantum Error Correction",
+   "year": 2022,
+   "doi": "https://doi.org/10.1021/acs.jpclett.2c01602",
+   "cited": 33
+  },
+  {
+   "id": "https://openalex.org/W3158576136",
+   "title": "Quantum error correction architecture for qudit stabilizer codes",
+   "year": 2021,
+   "doi": "https://doi.org/10.1103/physreva.103.042420",
+   "cited": 19
+  },
+  {
+   "id": "https://openalex.org/W4214944326",
+   "title": "A programmable qudit-based quantum processor",
+   "year": 2022,
+   "doi": "https://doi.org/10.1038/s41467-022-28767-x",
+   "cited": 264
+  },
+  {
+   "id": "https://openalex.org/W1675244148",
+   "title": "An introduction to quantum error correction and fault-tolerant quantum computation",
+   "year": 2010,
+   "doi": "https://doi.org/10.1090/psapm/068/2762145",
+   "cited": 375
+  },
+  {
+   "id": "https://openalex.org/W2754786087",
+   "title": "Provably secure and high-rate quantum key distribution with time-bin qudits",
+   "year": 2017,
+   "doi": "https://doi.org/10.1126/sciadv.1701491",
+   "cited": 357
+  },
+  {
+   "id": "https://openalex.org/W2071632752",
+   "title": "Tripartite entanglement in qudit stabilizer states and application in quantum error correction",
+   "year": 2011,
+   "doi": "https://doi.org/10.1103/physreva.84.052306",
+   "cited": 22
+  }
+ ]
+}
