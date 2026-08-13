@@ -4,8 +4,8 @@
 **ORCID:** 0009-0002-4317-5604
 **WBS:** QNFO.RES.006
 **Date:** 2026-08-13
-**Version:** v0.1
-**License:** CC-BY-4.0
+**Version:** v0.2
+**License:** CC-BY-4.0\n**Changelog:** v0.2 (2026-08-13) — §6 precision patch (83% per-family breakdown; rule-based Algorithm 4.4 reframing; reproduction protocol pointer) + reference corrections (Gubser–Knaute venue; Bhattacharyya DOI) per P4 red-team (see artifacts/red-team-P4.md, artifacts/rq3-reproduction-protocol.md).
 
 **Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (QNFO.RES.005, DOI 10.5281/zenodo.21918838).
 
@@ -102,11 +102,28 @@ A candidate consequence, stated as a falsifiable hypothesis: **if redundancy is 
 
 ## 6. The 83% Classification Claim: Status and Reproduction Requirement
 
-QNFO.UF reports that a Kodaira–Néron-fiber classifier achieves **83% classification accuracy** on quantum error-correcting code families, with v_p^max = 28 for optimal codes versus v_p^max = 4 for random ensembles [Number-Theoretic Ultrametric Foundations, DOI 10.5281/zenodo.21193487]. The program registry summarizes this as "p-adic valuations classify QEC codes at 83% accuracy."
+QNFO.UF reports (NTOF, DOI 10.5281/zenodo.21193487) that a **rule-based** Kodaira–Néron-fiber
+classifier (Algorithm 4.4: binary symplectic form H → Cox ring R_C → Weierstrass coefficients →
+degenerate loci → fiber type) assigns code families with **166/200 (83%)** correct on 50 test codes
+per family: Surface 46/50 (92%), CSS 39/50 (78%), Optimal 45/50 (90%), Random 36/50 (72%), with
+Mahler v_p^max = 28 for optimal versus v_p^max = 4 for random ensembles. The source itself records
+a documented partial failure — "FAIL for surface codes (systematic mismatch in the I_n*
+classification boundaries)" — so the aggregate 83% conceals a known per-family defect. The NTOF
+record ships no dataset, no implementation, and no baseline; the classifier is deterministic
+rule-based, not a learned ML classifier. The program registry's summary "p-adic valuations
+classify QEC codes at 83% accuracy" is therefore a compressed (and partially misleading)
+rendering of this state of affairs.
 
 **Status [UNVERIFIED-INTERNAL]:** this is an internal report. It has not, to this author's knowledge, been independently reproduced on a fresh, held-out test set with a stated leakage-control protocol. Until it is, the 83% figure is a claim to be tested, not a result to be built upon.
 
-**Reproduction requirement (this paper's P4 critical path):** a fresh train/test split with (i) no shared instances between training and evaluation, (ii) a stated classifier and hyperparameter protocol, (iii) a baseline (random-classifier accuracy and majority-class accuracy) reported alongside, and (iv) the v_p-spectral invariant computed independently. Success is reproduction *within stated confidence*; failure is reported honestly either way.
+**Reproduction requirement (this paper's P4 critical path):** because the classifier is
+rule-based and the source ships no implementation, the reproduction is a **re-implementation from
+specification** (Algorithm 4.4) plus **fresh code-family generation** (50 per family; surface, CSS,
+optimal, random) with (i) a stated generation protocol and seeds, (ii) an independent computation
+of the v_p-spectral invariant, (iii) baselines (majority-class and random-assignment) reported
+alongside, and (iv) the source's documented surface-code boundary defect tested explicitly.
+Full protocol: artifacts/rq3-reproduction-protocol.md. Success is reproduction *within stated
+confidence* (pre-registered acceptance criteria); failure is reported honestly either way.
 
 **Falsifiability condition:** the "83% accuracy" claim is disconfirmed if independent reproduction fails to exceed a stated baseline by a pre-registered margin. **[The reproduction is out of scope for this v0.1 manuscript and is deferred to P4; its absence is disclosed, not hidden.]**
 
@@ -150,8 +167,8 @@ The branch-depth reading, applied honestly to computing and quantum error correc
 3. Coecke, B. (2009). Quantum Pictorialism. *Contemporary Physics*.
 4. Coecke, B., & Duncan, R. (2011). Interacting Quantum Observables: Categorical Algebra and Diagrammatics. *New Journal of Physics*.
 5. Heydeman, M., Marcolli, M., Saberi, I., & Stoica, B. (2018). Tensor networks, p-adic fields, and algebraic curves. *Adv. Theor. Math. Phys.* 22:93. arXiv:1605.07639.
-6. Bhattacharyya, A., Hung, L.-Y., Lei, Y., & Li, W. (2018). Tensor network and (p-adic) AdS/CFT. *JHEP*. arXiv:1703.05445.
-7. Gubser, S. S., & Knaute, J. (2017). p-Adic AdS/CFT. *Commun. Math. Phys.*
+6. Bhattacharyya, A., Hung, L.-Y., Lei, Y., & Li, W. (2018). Tensor network and (p-adic) AdS/CFT. *JHEP* 2018(1):139. arXiv:1703.05445. DOI 10.1007/jhep01(2018)139.
+7. Gubser, S. S., & Knaute, J. (2017). A p-adic version of AdS/CFT. *Adv. Theor. Math. Phys.* 21(7):1655–1683. DOI 10.4310/atmp.2017.v21.n7.a3.
 8. Bravyi, S., Browne, D., Calpin, P., Campbell, E., Gosset, D., & Howard, M. (2019). Simulation of quantum circuits by low-rank stabilizer decompositions. *Quantum* 3:181.
 9. Ostrowski, A. (1916). Über einige Lösungen der Funktionalgleichung φ(x)φ(y)=φ(xy). *Acta Mathematica*.
 10. Quni-Gudzinas, R. B. (2026). Prime Valuation Depth. Zenodo. DOI 10.5281/zenodo.21918838.
