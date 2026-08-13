@@ -35,7 +35,7 @@ with optimal ≥ 28 and random ≈ 4.
 | Random | 50/50 | 1..6 | 3 |
 
 **C7.3' acceptance:** gap ≥ 10 with optimal ≈ 28, random ≈ 4.
-**Observed:** optimal = 4, random median = 3 (max = 6), gap = 1 → **NOT REPRODUCED.**
+**Observed:** optimal = 4, random median = 3 (max = 6), gap = 1 → **NOT REPRODUCED** (empirically, at n <= 18, under the implemented normalization).
 
 ## 4. Findings
 
@@ -43,12 +43,16 @@ with optimal ≥ 28 and random ≈ 4.
 At n ≤ 18, the weight-enumerator Mahler v_2-spectrum does not separate optimal from random by
 the claimed margin: random codes reach v_p^max = 6 > optimal 4.
 
-**F2 — Magnitude incompatibility.** v_p^max = 28 requires a Mahler coefficient with |c_j| ≥ 2^28.
-Weight-enumerator coefficients are bounded by the group size 2^(n−k), so v_2 = 28 needs
-n−k ≥ 28 (n ≥ 29 for k ≥ 1) — beyond every code size in the NTOF tables (n ≤ 18). Under the
-weight-enumerator normalization the claim is unattainable at the reported sizes: either NTOF used
-a different Mahler target (distance enumerator, enumerator evaluated at integers, Clifford-representation
-polynomial, or a different normalization) or the claim is inconsistent as stated.
+**F2 — Magnitude gap (EMPIRICAL, corrected 2026-08-13).** The claimed v_p^max = 28 is far above
+every value observed: across 55 verified codes at n <= 18 the maximum observed v_p^max was 6
+(random family), with the optimal code at 4. An earlier draft of this report argued that
+|c_j| >= 2^28 is impossible because enumerator coefficients are bounded by the group size
+2^(n-k); a red-team reviewer (CMD RED TEAM SUB 2026-08-13) correctly showed that bound is NOT
+generally valid — the finite-difference (binomial-weighted) transform can produce coefficients
+larger than any single A_i (max |c_j| <= 2^(n-k) * max_i C(j,i)). The correct claim is empirical:
+at these sizes and under this normalization, no code approached 28 and the family separation was
+not reproduced. Whether NTOF's 28 is attainable under its (undefined) Mahler target at larger n
+remains open.
 
 **F3 — Source under-determination.** NTOF never defines which function undergoes the Mahler expansion.
 "a code's Mahler expansion" is ambiguous (weight vs distance vs other invariants), which blocks a
@@ -120,6 +124,11 @@ medians is made.
 weight-enumerator normalization at n <= 18"; the manuscript §6 note carries the same scoping.
 No broader claim is made.
 
-Verdict: the negative result STANDS as scoped; L2/L3 weaken the separation-test leg but not the
-magnitude argument. Follow-ups: distance-filter random re-run; larger optimal table; source
+**R5 — Robustness (reviewer correlation, 2026-08-13):** the negative result is robust to the
+L2 distance caveat: the 15 random codes with min_stab_weight >= 3 still show median 3, max 6, and the
+6 cleanest (min_stab_weight = 4) reach v_p^max 5-6, exceeding the optimal code's 4. Low-distance codes
+do NOT explain the separation failure.
+
+Verdict: the empirical negative result STANDS; F2's theoretical-magnitude argument was corrected to an
+empirical statement (see F2). Follow-ups: distance-filter random re-run; larger optimal table; source
 clarification of the Mahler target.

@@ -32,7 +32,7 @@ The KG + Vectorize reveal a substantial existing QNFO corpus at the exact inters
 - p-Adic QEC Classifier Verification: A Computational Methodology — 10.5281/zenodo.21698279
 - Adelic QEC: Code Constructions Beyond the Stabilizer Formalism — 10.5281/zenodo.21205100
 - Adelic QEC: Intrinsic Qubit Protection from Ostrowski — 10.5281/zenodo.21336099
-- Ultrametric Code Spaces: Bruhat-Tits Tree as a Geometry for QEC — 10.5281/zenodo.21819232
+- Ultrametric Code Spaces: Bruhat-Tits Tree as a Geometry for QEC — 10.5281/zenodo.21824195 (corrected per CMD RED TEAM SUB 2026-08-13; 21819232 is Archimedean Shadows)
 - Toward p-adic QEC: The Metric Mismatch Hypothesis — 10.5281/zenodo.20556327
 - Ultrametric Information Geometry: From p-Adic Spaces to QEC — 10.5281/zenodo.21204115
 - Adelic QEC: A Synthesis Across All Primes — 10.5281/zenodo.20570212

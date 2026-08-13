@@ -10,7 +10,7 @@
 
 | Source | Entity | Relevance |
 |:-------|:-------|:----------|
-| D1 program_registry | QNFO.UF — "Ultrametric Foundations", desc: "p-adic valuations classify QEC codes at 83% accuracy" (DOI 10.5281/zenodo.21046993) | Anchor for the QEC leg; the 83% claim is the empirical gate (RQ3) |
+| D1 program_registry | QNFO.UF — "Ultrametric Foundations", desc: "p-adic valuations classify QEC codes at 83% accuracy" (DOI 10.5281/zenodo.21193487 — canonical 83% source; the D1 registry description row still carried the stale 21046993 at write time; corrected per CMD RED TEAM SUB 2026-08-13) | Anchor for the QEC leg; the 83% claim is the empirical gate (RQ3) |
 | KG Paper | `paper:padic-qec-classifier` — "p-Adic QEC Classifier Verification: A Computational Methodology" | Methodological prior for reproducing the 83% claim |
 | KG Paper | "Ultrametric Code Spaces: The Bruhat–Tits Tree as a QEC Geometry" (DOI 10.5281/zenodo.21824195) | Geometric substrate for the depth reading |
 | KG Paper | "Toward p-adic QEC: The Metric Mismatch Hypothesis" | First explicit p-adic-metric QEC framing (Rowan 2026) |

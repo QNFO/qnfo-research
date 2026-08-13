@@ -2,57 +2,61 @@
 
 **Project:** QNFO.RES.006 | **Slug:** prime-valuation-qec-implications
 **Date:** 2026-08-13 (2nd cycle of the publish-then-audit loop)
-**Audited artifacts:** Zenodo 10.5281/zenodo.21922813 (v0.1, prior) and 10.5281/zenodo.21923000 (v0.2, current, published mid-audit) + GitHub branch `res/paper/prime-valuation-qec-implications`
-**Protocol:** CMD RED TEAM SUB — 3 reviewer subagents dispatched (Accuracy / Completeness / Dependency), queued but no output after bounded wait; per fallback, **direct parent-agent audit** executed with live tool verification covering all three dimensions. READ-ONLY vs published records.
+**Audited artifacts:** Zenodo 10.5281/zenodo.21922813 (v0.1, prior), 10.5281/zenodo.21923000 (v0.2, current) + GitHub branch deliverables
+**Protocol:** CMD RED TEAM SUB — 3 reviewer subagents dispatched (Accuracy / Completeness / Dependency) plus findings from two completed prior-cycle reviewers; direct parent-agent audit executed as fallback; **all completed reviewer findings incorporated** (READ-ONLY vs published records).
 
-## 1. Accuracy (live-verified)
+## 1. Findings incorporated from dispatched reviewers
 
-| Check | Result |
-|:------|:-------|
-| Record 21922813: title/version v0.1/date 2026-08-13/DOI/license cc-by-4.0 | PASS |
-| 21922813 file count 14 + related_identifiers (isSupplementTo GitHub branch, isDerivedFrom 21918838) | PASS |
-| Deposited manuscript lags branch: 21922813 carries pre-YAML v0.1 (16,107 chars); branch head v0.2 (20,409 chars) | CONFIRMED — but see REMEDIATION below (21923000 carries v0.2) |
-| rq3-results.json: 55 codes, 55 valid, 0 invalid; CSS [1,1], Surface [1,3], Optimal [4], Random median 3 max 6 | PASS |
-| L2 claim 35/50 random codes min_stab_weight <= 2 (dist 18@1, 17@2, 9@3, 6@4) | PASS (35 of 50) |
-| Reference DOIs: 10.1038/299802a0, 10.1007/jhep01(2018)139, 10.4310/atmp.2017.v21.n7.a3 | PASS (after method fix, see S1) |
-| 83% source 21193487 + distinct paper 21046993 | PASS (titles verified) |
-| Newversion 21923000: status published, version v0.2, 41 files, YAML-frontmatter manuscript (20,628 chars), isSupplementTo + isDerivedFrom | PASS — published mid-audit |
+**HARD (3) — all in BRANCH deliverables, all FIXED this cycle (commit below):**
 
-## 2. Completeness
+**H1 — due-diligence-phase1.md §1 stale 83% DOI (reviewer 8bvnvYY6lp7g2aKl0FHR5).**
+§1 attributed the QNFO.UF 83%-accuracy result to 10.5281/zenodo.21046993. Live: 21046993 = "Ultrametric
+Quantum Computing: Tree-Topology Error Correction" — NOT the 83% classifier paper. Canonical source =
+10.5281/zenodo.21193487 ("Number-Theoretic Ultrametric Foundations"), which PROJECT-PLAN/core-claim cite
+correctly. Root cause: the D1 program_registry QNFO.UF row still carries the stale DOI. FIXED in the
+artifact; D1 registry row updated (see Dependency).
 
-| Check | Result |
-|:------|:-------|
-| Record 21922813 provenance set: 13/14 required files present; missing citation-audit.md | SOFT (S2 below) |
-| Newversion 21923000 provenance set: 41 files incl. citation-audit.md, RESEARCH-CONTINUITY-REGISTRY, red-team-P4, calibration-register, rq3-* (report+json+notebook), post-publication-audit-21922813.md, external-search evidence, HTML+PDF | PASS — full PUBLICATION-SOURCE-COMPLETENESS-1 set |
-| Branch artifacts 7/7: citation-audit, red-team-P4, calibration-register, rq3-report, rq3-results, post-publication-audit, notebook | PASS |
-| Manuscript C1–C8 falsifiability register complete | PASS |
-| Negative reproduction (C7.3' NOT reproduced at n<=18) disclosed in manuscript | PASS |
-| 83% labeled UNVERIFIED-INTERNAL | PASS |
+**H2 — due-diligence.md §2 "Ultrametric Code Spaces" DOI (reviewer 8bvnvYY6lp7g2aKl0FHR5).**
+Listed 10.5281/zenodo.21819232, which is "Archimedean Shadows: The QEC-Darwinism Tradeoff". Correct DOI =
+21824195 ("Ultrametric Code Spaces: The Bruhat-Tits Tree..."). Each due-diligence artifact carried exactly
+one wrong DOI, in opposite directions. FIXED in the artifact.
 
-## 3. Dependency
+**H3 — rq3-reproduction-report.md F2 magnitude argument mathematically invalid (reviewer D8nsljceeOgHQ7XhJGz3N).**
+The claim "v_p^max = 28 impossible at n <= 18 because |c_j| is bounded by 2^(n-k)" is NOT generally valid:
+the binomial-weighted finite-difference transform can exceed any single A_i (max |c_j| <= 2^(n-k) * max_i C(j,i)).
+F2 rewritten as an EMPIRICAL claim (max observed v_p^max = 6 across 55 codes, nowhere near 28). The empirical
+negative result STANDS; the theoretical leg was over-claimed and is corrected.
 
-| Check | Result |
-|:------|:-------|
-| references.bib: 46 keys; all 14 manuscript References items map (author-year heuristic) | PASS |
-| citation-audit: 21193487 canonical 83% source | PASS |
-| KG node paper:prime-valuation-qec-implications + edges BELONGS_TO prog-res, CITES paper:prime-valuation-depth | PASS |
-| D1 living-paper row (doi 21922813, kg_node_id backfilled) | PASS |
-| GitHub branch exists (HTTP 200) | PASS |
-| Newversion 21923000 published (remediates H3/S1/S2 of the prior audit) | PASS |
+## 2. Direct parent-agent audit (fallback, live-verified)
 
-## 4. Findings
+**Accuracy:** record 21922813 (v0.1, 14 files, isSupplementTo+isDerivedFrom) PASS; newversion 21923000
+published mid-audit (v0.2, 41 files, full provenance incl. rq3-* and this cycle's audit) PASS;
+rq3-results.json 55/55 valid, family values PASS; DOI spot-checks PASS (Gubser-Knaute 403 = HEAD-method
+artifact; CrossRef + GET resolve ATMP 21:1655-1678).
+**Completeness:** branch artifacts 7/7 present; C1-C8 register complete; negative result disclosed;
+83% labeled UNVERIFIED-INTERNAL. PASS.
+**Dependency:** 46 bib keys map to 14 manuscript references; citation-audit 21193487 canonical;
+KG node + BELONGS_TO/CITES edges; D1 row + kg_node_id; branch exists. PASS.
 
-**HARD: 0.** The single candidate (Gubser-Knaute DOI 403) was an audit-method artifact — doi.org HEAD rejected by the publisher (International Press); CrossRef + doi.org GET both resolve (ATMP 21:1655-1678, "A $p$-adic version of AdS/CFT"). Per BLAME-EXTERNAL-1 / API-FAILURE PROTOCOL: bug was my method, not the reference.
+## 3. Remediation executed this cycle (branch only; published records untouched)
 
-**SOFT: 3**
-- S1 (audit process): doi.org HEAD is unreliable for this publisher; use GET with browser UA. Recorded for future audits.
-- S2 (completeness): record 21922813 (v0.1) lacks citation-audit.md; moot now — 21923000 (v0.2) contains it.
-- S3 (consistency, minor): references.bib GubserKnaute2017 page range 1655-1683 vs CrossRef 1655-1678; branch citation-audit.md (concurrent version) omits the explicit 21046993 attribution-artifact sentence (info survives in red-team-phase1.md + post-publication-audit-21922813.md). Non-blocking; fix at next cycle.
+1. due-diligence-phase1.md §1 83% DOI -> 21193487.
+2. due-diligence.md §2 Ultrametric Code Spaces -> 21824195.
+3. rq3-reproduction-report.md F2 rewritten empirical; §3 headline qualified; R5 robustness added.
+4. D1 program_registry QNFO.UF zenodo_doi -> 10.5281/zenodo.21193487 (root-cause metadata fix).
+5. This report revised to include reviewer findings.
 
-**DESIGN: 2**
-- D1 (positive): the publish-then-audit loop CLOSED this cycle — publish 21922813 → audit (3 HARD) → remediate 21923000 (v0.2, full provenance incl. reproduction artifacts + audit) → re-audit (this pass: clean, 0 HARD). This is the canonical execution of the post-publication adversarial analysis gate.
-- D2: reviewer subagents continue to stall in this environment (6th consecutive session-wide pattern); the direct parent-agent audit remains the reliable enforcement path. Logged for kaizen.
+## 4. Residual items (next cycle)
+
+- Branch now diverges from published records 21922813/21923000 on the three fixed artifacts; a future
+  newversion (or post-publication note) should carry the corrections (per publish-then-audit loop).
+- Reviewer D8nsljceeOgHQ7XhJGz3N also noted: min_stab_weight is only a crude distance proxy; the notebook
+  never computes true code distance d — comparability with NTOF Lemma 10 (d >= 3) remains unverified.
+- Three current-cycle reviewers (Accuracy/Completeness/Dependency) were still running at aggregation time;
+  their output, if any, will be folded into the next cycle.
 
 ## 5. Verdict
 
-**PASS (0 HARD).** Both records verified live; the current canonical record 21923000 (v0.2) carries the full provenance set and the corrected manuscript. The reproduction artifacts and this audit are deposited. Remaining items are SOFT/process-only and non-blocking.
+**FAIL-GATES on branch deliverables (3 HARD) — all FIXED and re-verified this cycle.** Published records
+21922813/21923000 remain read-only; the fixes feed the next newversion. The RQ3 empirical negative result
+stands; its theoretical magnitude argument is corrected to empirical scope.
