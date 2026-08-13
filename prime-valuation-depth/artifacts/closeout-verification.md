@@ -1,6 +1,6 @@
-# Consolidated Closeout Verification — QNFO.RES.004 Prime Valuation Depth
+# Consolidated Closeout Verification — QNFO.RES.005 Prime Valuation Depth
 
-**Date:** 2026-08-13 · **Phase:** P8 · **WBS:** QNFO.RES.004.P8
+**Date:** 2026-08-13 · **Phase:** P8 · **WBS:** QNFO.RES.005.P8
 **Method:** Consolidated Publication Closeout Verification gate (research v2.95/v2.96) — same-turn re-proof of all distribution layers.
 
 ## Result: 13/13 PASS — PUBLISHED
@@ -52,12 +52,12 @@ Primary proof at P6 (same day): `GET /webhook?slug=prime-valuation-depth` → `{
 | Concept DOI | 10.5281/zenodo.21918031 |
 | Version | v0.1-draft |
 | License | cc-by-nc-sa-4.0 |
-| WBS | QNFO.RES.004 (Research Archive, QNFO/qnfo-research, res/paper/prime-valuation-depth) |
+| WBS | QNFO.RES.005 (Research Archive, QNFO/qnfo-research, res/paper/prime-valuation-depth) |
 | Date | 2026-08-13 |
 
 ## Phase gates passed (full pipeline)
 
-- P0 Init: branch, scaffold, PROJECT-PLAN.md (first line `# WBS: QNFO.RES.004`), core-claim lock, D1 + KG registration, memory
+- P0 Init: branch, scaffold, PROJECT-PLAN.md (first line `# WBS: QNFO.RES.005`), core-claim lock, D1 + KG registration, memory
 - P1 Due diligence: KG stats (8,267 nodes), 10 related papers, gap analysis, KIF-29 consilience gate (Silo Cost table, KIF-60 retrodiction cap), confirmation-bias disclosure
 - P2 Literature: 8-source search (OpenAlex/Crossref/arXiv/Zenodo/EuropePMC/web/Vectorize/KG), 20 evidence files, classification (3 Core / 8 Supporting / 8 Background / 6 Reject), KIF-18 Mandatory Symmetry Template
 - P3 Citations: 17 verified BibTeX entries (P3.AUTHOR-GATE), 4 fabrication risks caught + corrected, duplicate-key check 0

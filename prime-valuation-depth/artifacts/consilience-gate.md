@@ -1,4 +1,4 @@
-# Consilience Gate Audit — QNFO.RES.004 Prime Valuation Depth (KIF-29, HARD)
+# Consilience Gate Audit — QNFO.RES.005 Prime Valuation Depth (KIF-29, HARD)
 
 **Date:** 2026-08-13 · **Phase:** P1 · **Gate:** KIF-29 Cross-Domain Consilience + KIF-60 Bayesian Evidential Weight
 

@@ -1,6 +1,6 @@
-# Citation Audit — QNFO.RES.004 Prime Valuation Depth
+# Citation Audit — QNFO.RES.005 Prime Valuation Depth
 
-**Date:** 2026-08-13 · **Phase:** P3 · **WBS:** QNFO.RES.004.P3
+**Date:** 2026-08-13 · **Phase:** P3 · **WBS:** QNFO.RES.005.P3
 **Gate:** P3.AUTHOR-GATE (HARD — every entry verified against live Crossref/OpenAlex/arXiv)
 
 ## 1. Verification Method

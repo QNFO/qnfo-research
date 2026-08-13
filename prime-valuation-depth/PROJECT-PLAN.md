@@ -1,9 +1,9 @@
-# WBS: QNFO.RES.004
+# WBS: QNFO.RES.005
 
 # Prime Valuation Depth — Project Plan
 
 **Project:** Prime Valuation Depth — valuation as depth: the bridge between the calculus of indications and number theory, with quantum-mechanical consequences
-**WBS:** QNFO.RES.004
+**WBS:** QNFO.RES.005
 **Program:** QNFO.RES (QNFO Research Archive)
 **Repo:** QNFO/qnfo-research
 **Branch:** res/paper/prime-valuation-depth

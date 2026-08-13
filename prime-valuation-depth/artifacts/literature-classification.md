@@ -1,6 +1,6 @@
-# Literature Classification — QNFO.RES.004 Prime Valuation Depth
+# Literature Classification — QNFO.RES.005 Prime Valuation Depth
 
-**Date:** 2026-08-13 · **Phase:** P2 · **WBS:** QNFO.RES.004.P2
+**Date:** 2026-08-13 · **Phase:** P2 · **WBS:** QNFO.RES.005.P2
 **Evidence:** `artifacts/external-search/` — 20 files, 8 sources (OpenAlex, Crossref, arXiv, Zenodo records, Europe PMC, web, QNFO Vectorize, QNFO KG)
 
 ## 1. Multi-Source Search Log

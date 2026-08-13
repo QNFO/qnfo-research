@@ -1,6 +1,6 @@
-# RESEARCH CONTINUITY REGISTRY — QNFO.RES.004 Prime Valuation Depth
+# RESEARCH CONTINUITY REGISTRY — QNFO.RES.005 Prime Valuation Depth
 
-**Maintained:** 2026-08-13 · **WBS:** QNFO.RES.004 · **Source paper:** `prime-valuation-depth.md` (v0.1-draft)
+**Maintained:** 2026-08-13 · **WBS:** QNFO.RES.005 · **Source paper:** `prime-valuation-depth.md` (v0.1-draft)
 **Protocol:** Research Continuity Registry Protocol (research v2.64, HARD)
 
 ---

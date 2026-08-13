@@ -1,4 +1,4 @@
-# Red-Team Audit — QNFO.RES.004 Prime Valuation Depth (P4 Stage 3, 5-Adversary)
+# Red-Team Audit — QNFO.RES.005 Prime Valuation Depth (P4 Stage 3, 5-Adversary)
 
 **Date:** 2026-08-13 · **Phase:** P4 · **Audited artifact:** `prime-valuation-depth.md` (v0.1-draft) + `artifacts/consilience-gate.md` + `RESEARCH-CONTINUITY-REGISTRY.md`
 **Method:** 5 adversary positions against the draft's claims; every finding graded HARD/SOFT/DESIGN and adjudicated.

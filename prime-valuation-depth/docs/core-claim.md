@@ -1,6 +1,6 @@
 # Core Claim (LOCKED — P6, Phase 0)
 
-**Project:** Prime Valuation Depth — QNFO.RES.004
+**Project:** Prime Valuation Depth — QNFO.RES.005
 **Locked:** 2026-08-13
 
 ## Claim 1 [TERRITORY — established]

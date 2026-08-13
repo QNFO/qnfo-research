@@ -1,6 +1,6 @@
-# Due Diligence Report — QNFO.RES.004 Prime Valuation Depth
+# Due Diligence Report — QNFO.RES.005 Prime Valuation Depth
 
-**Date:** 2026-08-13 · **Phase:** P1 · **WBS:** QNFO.RES.004.P1
+**Date:** 2026-08-13 · **Phase:** P1 · **WBS:** QNFO.RES.005.P1
 
 ## 1. QNFO Cross-Reference (KG + Vectorize + D1 + Memory)
 
