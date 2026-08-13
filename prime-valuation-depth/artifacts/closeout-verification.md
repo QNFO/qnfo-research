@@ -72,3 +72,13 @@ Primary proof at P6 (same day): `GET /webhook?slug=prime-valuation-depth` → `{
 - **Internet Archive save:** `https://web.archive.org/save/https://papers.qnfo.org/papers/prime-valuation-depth` returned 404 on 2026-08-13 (Wayback save endpoint transient; availability API rate-limited 429). Re-run in a later session: `web.archive.org/save/...` or via browser. Not a distribution blocker — the paper is already in Zenodo/DataCite/OpenAlex, GitHub, R2, D1, KG, Vectorize.
 - **Adelic frontier (FQ4/REG-RES004-002):** open; retirement decision due 2028-08-13 per calibration register.
 - **Correspondence non-vacuity (FQ1/REG-RES004-001):** open; adjudication due 2027-08-13.
+
+
+---
+
+## REMEDIATION v0.2 (2026-08-13) — post-publication audit S1/S2 fixes
+
+- **S2 (D1 hygiene):** literal `"None"` strings NULL-normalized in `program_registry` for RES.002/003/004 (kg_node_id, d1_slug, current_version). Verified: zero literal `'None'` remain.
+- **S1 (citation hygiene):** uncited references 12 (Almheiri), 15 (Niestegge), 17 (Ji) removed; citations renumbered to a contiguous 1–14 set (13→12, 14→13, 16→14). `cited == listed == {1..14}`, zero orphans.
+- **Zenodo newversion:** v0.2 published as **10.5281/zenodo.21918838** (concept 10.5281/zenodo.21918031 preserved; parent DOI auto-resolves). P5.FRESH PASS (deposited .md carries own DOI + status published). Metadata repaired via deposit-API shape (DataCite subjects=8, rights=1, findable).
+- **Files:** prime-valuation-depth.md (23,068 chars) / .html (2,307,472 B) / .pdf (290,642 B, 126 math, 0 U+FFFD/FFFF).

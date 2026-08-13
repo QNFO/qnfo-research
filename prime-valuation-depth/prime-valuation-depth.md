@@ -3,9 +3,9 @@ title: "Prime Valuation Depth: Multiplication as Branching, the Calculus of Indi
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-13"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21918032"
+doi: "10.5281/zenodo.21918838"
 status: "published"
-version: "v0.1-draft"
+version: "v0.2"
 keywords:
   - p-adic valuation
   - laws of form
@@ -65,7 +65,7 @@ The p-adic absolute value inverts depth: the deeper along the $p$-branch a ratio
 
 ### 3.1 The Correspondence
 
-The calculus of indications [2] takes the act of distinction as primitive. A mark distinguishes an inside from an outside; the act of calling a distinction again is the act of crossing; nesting of distinctions generates form. The formal literature includes three-valued interpretations [10], recursive distinctioning [16], and connections to self-reference and quantum mechanics [11].
+The calculus of indications [2] takes the act of distinction as primitive. A mark distinguishes an inside from an outside; the act of calling a distinction again is the act of crossing; nesting of distinctions generates form. The formal literature includes three-valued interpretations [10], recursive distinctioning [14], and connections to self-reference and quantum mechanics [11].
 
 The correspondence proposed here maps the two structures term by term:
 
@@ -140,7 +140,7 @@ is not a linear subspace of $H \otimes H$ when $d > 1$: it is the Veronese embed
 
 ### 5.2 The Category-Theoretic Statement
 
-The categorical formulation is established: the category of Hilbert spaces with the tensor product is monoidal but not Cartesian [6, 7]. In a Cartesian category every object has a natural diagonal map; in a monoidal category that is not Cartesian, no such natural diagonal exists. The no-cloning theorem is the physical face of this categorical fact. The forbidden diagonal is the same nonlinear map of Section 5.1. Related no-go results in the same family include the forbidden quantum adder [13], which proves that a natural nonlinear-looking operation on amplitudes is impossible under linearity.
+The categorical formulation is established: the category of Hilbert spaces with the tensor product is monoidal but not Cartesian [6, 7]. In a Cartesian category every object has a natural diagonal map; in a monoidal category that is not Cartesian, no such natural diagonal exists. The no-cloning theorem is the physical face of this categorical fact. The forbidden diagonal is the same nonlinear map of Section 5.1. Related no-go results in the same family include the forbidden quantum adder [12], which proves that a natural nonlinear-looking operation on amplitudes is impossible under linearity.
 
 The structural reading does not change the theorem. The contribution of the vocabulary is interpretive: the no-cloning theorem is read as the impossibility of linearly duplicating multiplicative branching. You cannot copy a distinction without drawing a new distinction.
 
@@ -164,7 +164,7 @@ The frontier question is whether the adelic completion of state space constrains
 
 ### 6.2 Known Limits
 
-Three limits are acknowledged. First, the categorical content of the structural no-cloning reading is established in the literature [6, 7]; the present paper claims the vocabulary, not the fact. Second, the p-adic-QM and no-cloning intersection has no direct literature anchor found in the search for this paper: the statement that no-cloning holds in p-adic Hilbert spaces follows from linearity, but no source was located that states it, so it is not asserted as a literature-backed result. Third, a claim that a two-component Bose-Einstein condensate can bypass the no-cloning theorem [14] is noted adversarially: any bypass must involve nonlinear or effective dynamics or a different notion of cloning, and the standard linearity theorem is not contradicted.
+Three limits are acknowledged. First, the categorical content of the structural no-cloning reading is established in the literature [6, 7]; the present paper claims the vocabulary, not the fact. Second, the p-adic-QM and no-cloning intersection has no direct literature anchor found in the search for this paper: the statement that no-cloning holds in p-adic Hilbert spaces follows from linearity, but no source was located that states it, so it is not asserted as a literature-backed result. Third, a claim that a two-component Bose-Einstein condensate can bypass the no-cloning theorem [13] is noted adversarially: any bypass must involve nonlinear or effective dynamics or a different notion of cloning, and the standard linearity theorem is not contradicted.
 
 ## 7. Conclusion
 
@@ -205,9 +205,6 @@ The reading is offered with explicit epistemic labels. The valuation-as-depth fa
 9. M. Heydeman, M. Marcolli, I. A. Saberi, and B. Stoica. Tensor networks, p-adic fields, and algebraic curves: arithmetic and the AdS3/CFT2 correspondence. *Advances in Theoretical and Mathematical Physics*, 22(1):93–176, 2018. doi:10.4310/atmp.2018.v22.n1.a4.
 10. F. J. Varela. The extended calculus of indications interpreted as a three-valued logic. *Notre Dame Journal of Formal Logic*, 20(1):141–146, 1979. doi:10.1305/ndjfl/1093882412.
 11. D. L. Rapoport. Surmounting the Cartesian cut through philosophy, physics, logic, cybernetics, and geometry: self-reference, torsion, the Klein bottle, the time operator, multivalued logics and quantum mechanics. *Foundations of Physics*, 39:767–800, 2009. doi:10.1007/s10701-009-9334-5.
-12. A. Almheiri, X. Dong, and D. Harlow. Bulk locality and quantum error correction in AdS/CFT. *Journal of High Energy Physics*, 2015(04):163, 2015. doi:10.1007/jhep04(2015)163.
-13. U. Alvarez-Rodriguez, M. Sanz, L. Lamata, and E. Solano. The Forbidden Quantum Adder. *Scientific Reports*, 5:11983, 2015. doi:10.1038/srep11983.
-14. S. Datta. A two-component Bose-Einstein condensate can 'bypass' the no-cloning theorem. TechRxiv preprint, 2022. doi:10.36227/techrxiv.21716615.v1.
-15. G. Niestegge. Non-classical conditional probability and the quantum no-cloning theorem. arXiv:1502.02151, 2015.
-16. J. Isaacson and L. H. Kauffman. Recursive distinctioning. arXiv:1606.06965, 2016.
-17. Z. Ji, Y.-K. Liu, and F. Song. Pseudorandom states, non-cloning theorems and quantum money. arXiv:1711.00385, 2017.
+12. U. Alvarez-Rodriguez, M. Sanz, L. Lamata, and E. Solano. The Forbidden Quantum Adder. *Scientific Reports*, 5:11983, 2015. doi:10.1038/srep11983.
+13. S. Datta. A two-component Bose-Einstein condensate can 'bypass' the no-cloning theorem. TechRxiv preprint, 2022. doi:10.36227/techrxiv.21716615.v1.
+14. J. Isaacson and L. H. Kauffman. Recursive distinctioning. arXiv:1606.06965, 2016.

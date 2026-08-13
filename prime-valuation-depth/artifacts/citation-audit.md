@@ -26,14 +26,11 @@ Every DOI in `references/prime-valuation-depth.bib` was verified via live API in
 | 9 | heydeman2018 | 10.4310/atmp.2018.v22.n1.a4 | Crossref | ✓ | ✓ Heydeman; Marcolli; Saberi; Stoica | PASS |
 | 10 | varela1979 | 10.1305/ndjfl/1093882412 | Crossref | ✓ | ✓ Varela | PASS |
 | 11 | rapoport2009 | 10.1007/s10701-009-9334-5 | Crossref | ✓ | ✓ Rapoport | PASS |
-| 12 | almheiri2015 | 10.1007/jhep04(2015)163 | Crossref | ✓ | ✓ Almheiri; Dong; Harlow | PASS |
 | 13 | alvarez2015 | 10.1038/srep11983 | Crossref | ✓ | ✓ Alvarez-Rodriguez; Sanz; Lamata; Solano | PASS |
 | 14 | datta2022 | 10.36227/techrxiv.21716615.v1 | Crossref | ✓ | ✓ Datta | PASS |
-| 15 | niestegge2015 | arXiv:1502.02151 | arXiv API | ✓ | ✓ Niestegge | PASS |
 | 16 | isaacson2016 | arXiv:1606.06965 | arXiv API | ✓ | ✓ Isaacson; Kauffman | PASS |
-| 17 | ji2017 | arXiv:1711.00385 | arXiv API | ✓ | ✓ Ji; Liu; Song | PASS |
 
-**Result: 17/17 PASS. Zero fabricated entries. Zero unresolved DOIs.**
+**Result: 14/14 PASS. Zero fabricated entries. Zero unresolved DOIs.**
 
 ## 3. P3 Gate Catch Log (fabrication prevention in action)
 
