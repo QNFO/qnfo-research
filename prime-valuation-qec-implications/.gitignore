@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+node_modules/
+*.log
+.DS_Store
+releases/*.tmp
+notebooks/.ipynb_checkpoints/
