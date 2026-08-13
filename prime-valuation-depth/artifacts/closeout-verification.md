@@ -82,3 +82,5 @@ Primary proof at P6 (same day): `GET /webhook?slug=prime-valuation-depth` → `{
 - **S1 (citation hygiene):** uncited references 12 (Almheiri), 15 (Niestegge), 17 (Ji) removed; citations renumbered to a contiguous 1–14 set (13→12, 14→13, 16→14). `cited == listed == {1..14}`, zero orphans.
 - **Zenodo newversion:** v0.2 published as **10.5281/zenodo.21918838** (concept 10.5281/zenodo.21918031 preserved; parent DOI auto-resolves). P5.FRESH PASS (deposited .md carries own DOI + status published). Metadata repaired via deposit-API shape (DataCite subjects=8, rights=1, findable).
 - **Files:** prime-valuation-depth.md (23,068 chars) / .html (2,307,472 B) / .pdf (290,642 B, 126 math, 0 U+FFFD/FFFF).
+
+- **L7 Vectorize re-index (v0.2):** D1 `body_md` updated to the corrected v0.2 body (23,062 chars; changes=5); webhook re-index returned `{indexed:true, skipped:false, chunks:33, body_len:23062, errors:0}`; subsequent webhook `skipped:true, reason:"unchanged"` confirms the new content hash is embedded. L7 PASS (16/16 consolidated).
