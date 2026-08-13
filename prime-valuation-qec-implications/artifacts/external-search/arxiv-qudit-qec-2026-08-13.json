@@ -1,0 +1,197 @@
+{
+ "query": "\"quantum error correction\" AND \"qudit\"",
+ "categories": [
+  "quant-ph"
+ ],
+ "window": "2024-01-01..2026-08-13",
+ "count": 15,
+ "engine": "arxiv-mcp-server search_papers",
+ "date": "2026-08-13",
+ "results": [
+  {
+   "id": "2607.13784",
+   "title": "Foliated Quantum Error Correction for Qudits",
+   "authors": [
+    "Gözde Üstün",
+    "Simon J. Devitt",
+    "Jason Saied"
+   ],
+   "published": "2026-07-15",
+   "url": "https://arxiv.org/pdf/2607.13784v1",
+   "note": "foliating any Pauli-based QEC code over prime-dimensional qudits; qudit toric thresholds comparable to non-foliated"
+  },
+  {
+   "id": "2409.15065",
+   "title": "Quantum Error Correction of Qudits Beyond Break-even",
+   "authors": [
+    "Benjamin L. Brock",
+    "Shraddha Singh",
+    "Alec Eickbusch",
+    "Volodymyr V. Sivak",
+    "Andy Z. Ding",
+    "Luigi Frunzio",
+    "Steven M. Girvin",
+    "Michel H. Devoret"
+   ],
+   "published": "2024-09-23",
+   "url": "https://arxiv.org/pdf/2409.15065v2",
+   "note": "GKP qutrit/ququart, gain 1.82/1.87; Yale experiment"
+  },
+  {
+   "id": "2410.02407",
+   "title": "Qudit-based quantum error-correcting codes from irreducible representations of SU(d)",
+   "authors": [
+    "Robert Frederik Uy",
+    "Dorian A. Gangloff"
+   ],
+   "published": "2024-10-03",
+   "url": "https://arxiv.org/pdf/2410.02407v1",
+   "note": "SU(d) irreps, odd d>=3, Weyl character formula branching"
+  },
+  {
+   "id": "2412.19653",
+   "title": "Celestial Quantum Error Correction II: From Qudits to Celestial CFT",
+   "authors": [
+    "Alfredo Guevara",
+    "Yangrui Hu"
+   ],
+   "published": "2024-12-27",
+   "url": "https://arxiv.org/pdf/2412.19653v3",
+   "note": "qudit chain in Klein spacetime, GKP code, BMS hair"
+  },
+  {
+   "id": "2405.03559",
+   "title": "Homological Quantum Error Correction with Torsion",
+   "authors": [
+    "Samo Novák"
+   ],
+   "published": "2024-05-06",
+   "url": "https://arxiv.org/pdf/2405.03559v1",
+   "note": "qudit logical spaces with torsion; Structure Theorem for Qudit Logical Space"
+  },
+  {
+   "id": "2505.06082",
+   "title": "Algebraic Topology Principles behind Topological Quantum Error Correction",
+   "authors": [
+    "Xiang Zou",
+    "Hoi-Kwong Lo"
+   ],
+   "published": "2025-05-09",
+   "url": "https://arxiv.org/pdf/2505.06082v2",
+   "note": "homology/cohomology framework; qudit TQEC on 2D cell complexes"
+  },
+  {
+   "id": "2604.05871",
+   "title": "Dynamical decoupling and quantum error correction with SU(d) symmetries",
+   "authors": [
+    "Colin Read",
+    "Eduardo Serrano-Ensástiga",
+    "John Martin"
+   ],
+   "published": "2026-04-07",
+   "url": "https://arxiv.org/pdf/2604.05871v2",
+   "note": "decoupling groups among finite subgroups of SU(d); QEC via symmetry sectors"
+  },
+  {
+   "id": "2510.06495",
+   "title": "Qudit low-density parity-check codes",
+   "authors": [
+    "Daniel J. Spencer",
+    "Andrew Tanggara",
+    "Tobias Haug",
+    "Derek Khu",
+    "Kishor Bharti"
+   ],
+   "published": "2025-10-07",
+   "url": "https://arxiv.org/pdf/2510.06495v2",
+   "note": "bivariate bicycle, hypergraph product, SHYPS, expander, fiber bundle over qudits"
+  },
+  {
+   "id": "2605.29137",
+   "title": "Quantum error correction and fault tolerance: A comprehensive tutorial",
+   "authors": [
+    "Daniel J. Spencer",
+    "Shubham P. Jain",
+    "Andrew Tanggara",
+    "Zeen Sun",
+    "Tobias Haug",
+    "Derek Khu",
+    "Kishor Bharti"
+   ],
+   "published": "2026-05-27",
+   "url": "https://arxiv.org/pdf/2605.29137v1",
+   "note": "tutorial; qudit codes + qLDPC sections"
+  },
+  {
+   "id": "2512.09745",
+   "title": "Quantum error correction via purification using a single auxiliary",
+   "authors": [
+    "Chandrima B. Pushpan",
+    "Tanoy Kanti Konar",
+    "Aditi Sen De",
+    "Amit Kumar Pal"
+   ],
+   "published": "2025-12-10",
+   "url": "https://arxiv.org/pdf/2512.09745v1",
+   "note": "auxiliary qudit vs qubit comparison"
+  },
+  {
+   "id": "2602.20661",
+   "title": "Qudit stabiliser codes for Z_N lattice gauge theories with matter",
+   "authors": [
+    "Luca Spagnoli",
+    "Alessandro Roggero",
+    "Nathan Wiebe"
+   ],
+   "published": "2026-02-24",
+   "url": "https://arxiv.org/pdf/2602.20661v1",
+   "note": "prime dimension N; Z_N LGT as qudit stabilizer code"
+  },
+  {
+   "id": "2607.15559",
+   "title": "Agnostic learning of qudit stabilizer states",
+   "authors": [
+    "Wentao Qi",
+    "Boyan Xu",
+    "Shiguang Feng",
+    "Lvzhou Li"
+   ],
+   "published": "2026-07-17",
+   "url": "https://arxiv.org/pdf/2607.15559v1",
+   "note": "stabilizer bootstrapping generalized to odd-prime qudits"
+  },
+  {
+   "id": "2406.02444",
+   "title": "Noise-adapted qudit codes for amplitude-damping noise",
+   "authors": [
+    "Sourav Dutta",
+    "Debjyoti Biswas",
+    "Prabha Mandayam"
+   ],
+   "published": "2024-06-04",
+   "url": "https://arxiv.org/pdf/2406.02444v2",
+   "note": "[4,1] qudit code vs 4-qubit code; Petz recovery"
+  },
+  {
+   "id": "2605.18981",
+   "title": "A Review of Galois Qudits",
+   "authors": [
+    "Adam Wills"
+   ],
+   "published": "2026-05-18",
+   "url": "https://arxiv.org/pdf/2605.18981v1",
+   "note": "KEY: Galois qudit of dimension q=2^s is exactly s qubits in Hilbert space, Pauli group, Clifford hierarchy — external corroboration that tensor-product structure is not intrinsic"
+  },
+  {
+   "id": "2503.12142",
+   "title": "Designing quantum error correction codes for practical spin qudit",
+   "authors": [
+    "Sumin Lim",
+    "Arzhang Ardavan"
+   ],
+   "published": "2025-03-15",
+   "url": "https://arxiv.org/pdf/2503.12142v1",
+   "note": "spin-7/2, spin-9/2 nuclei; electric+magnetic field noise compensation"
+  }
+ ]
+}

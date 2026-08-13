@@ -81,3 +81,13 @@ SOFT finding: the UF anchor record (DOI 10.5281/zenodo.21046993) is titled
 DESCRIPTION in D1 program_registry, not the record title. P4/RQ3 must pin the
 exact section/table inside the record where the 83% number appears before any
 reproduction attempt.
+
+## 8. Companion Report (concurrent session)
+
+This report complements `due-diligence.md` (commit 021f07f, concurrent session),
+which carries the full QNFO-internal DOI corpus for p-adic QEC and p-adic
+computing. Split of labor: due-diligence.md = internal corpus cross-reference;
+due-diligence-phase1.md = external arXiv novelty check + gap analysis + consilience
+gate summary. RQ3 provenance note: the 83% claim is attributed to DOI
+10.5281/zenodo.21046993 in the registry but to 10.5281/zenodo.21193487 in
+due-diligence.md — see red-team-phase1.md, SOFT finding (open).

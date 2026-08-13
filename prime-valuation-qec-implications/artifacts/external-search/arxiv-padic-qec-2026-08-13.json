@@ -1,0 +1,173 @@
+{
+ "query": "p-adic OR \"prime valuation\" AND \"quantum error correction\"",
+ "categories": [
+  "quant-ph",
+  "math-ph"
+ ],
+ "count": 15,
+ "engine": "arxiv-mcp-server search_papers",
+ "date": "2026-08-13",
+ "finding": "NO external work on valuation-based classification of QEC codes found; p-adic-depth QEC framing is QNFO-internal only (CONFIRMATION-BIAS-RISK)",
+ "results": [
+  {
+   "id": "math-ph/0512018v2",
+   "title": "On Phase Transitions for P-Adic Potts Model with Competing Interactions on a Cayley Tree",
+   "authors": [
+    "Farrukh Mukhamedov",
+    "Utkir Rozikov",
+    "Jose Fernando F. Mendes"
+   ],
+   "published": "2005-12-07",
+   "url": "https://arxiv.org/pdf/math-ph/0512018v2.pdf",
+   "note": "p-adic Gibbs measures on Cayley tree — NOT QEC; adjacent ultrametric stat-mech"
+  },
+  {
+   "id": "2408.00810v3",
+   "title": "p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound",
+   "authors": [
+    "K. Mahesh Krishna"
+   ],
+   "published": "2024-08-01",
+   "url": "https://arxiv.org/pdf/2408.00810v3.pdf",
+   "note": "p-adic analogue of van Lint-Seidel bound — closest external 'p-adic coding' result"
+  },
+  {
+   "id": "hep-th/9410058v3",
+   "title": "p-Adic description of Higgs mechanism I: p-Adic square root and p-adic light cone",
+   "authors": [
+    "M. Pitkänen"
+   ],
+   "published": "1994-10-10",
+   "url": "https://arxiv.org/pdf/hep-th/9410058v3.pdf",
+   "note": "p-adic TGD — not QEC"
+  },
+  {
+   "id": "hep-th/9506097v2",
+   "title": "p-Adic TGD: Mathematical Ideas",
+   "authors": [
+    "M. Pitkänen"
+   ],
+   "published": "1995-06-15",
+   "url": "https://arxiv.org/pdf/hep-th/9506097v2.pdf",
+   "note": "p-adic Hilbert spaces, canonical identification"
+  },
+  {
+   "id": "1508.07185v2",
+   "title": "Fundamentals of p-adic multiple L-functions and evaluation of their special values",
+   "authors": [
+    "Hidekazu Furusho",
+    "Yasushi Komori",
+    "Kohji Matsumoto",
+    "Hirofumi Tsumura"
+   ],
+   "published": "2015-08-28",
+   "url": "https://arxiv.org/pdf/1508.07185v2.pdf",
+   "note": "number theory only"
+  },
+  {
+   "id": "1908.08424v1",
+   "title": "An introduction to p-adic period rings",
+   "authors": [
+    "Xavier Caruso"
+   ],
+   "published": "2019-08-22",
+   "url": "https://arxiv.org/pdf/1908.08424v1.pdf",
+   "note": "number theory only"
+  },
+  {
+   "id": "hep-th/0602044v1",
+   "title": "p-Adic and Adelic Cosmology: p-Adic Origin of Dark Energy and Dark Matter",
+   "authors": [
+    "Branko Dragovich"
+   ],
+   "published": "2006-02-04",
+   "url": "https://arxiv.org/pdf/hep-th/0602044v1.pdf",
+   "note": "adelic cosmology"
+  },
+  {
+   "id": "1010.0349v2",
+   "title": "On p-adic lattices and Grassmannians",
+   "authors": [
+    "Martin Kreidl"
+   ],
+   "published": "2010-10-02",
+   "url": "https://arxiv.org/pdf/1010.0349v2.pdf",
+   "note": "p-adic affine Grassmannian — not QEC"
+  },
+  {
+   "id": "0707.3682v2",
+   "title": "On the p-adic Beilinson conjecture for number fields",
+   "authors": [
+    "Amnon Besser",
+    "Paul Buckingham",
+    "Rob de Jeu",
+    "Xavier-Francois Roblot"
+   ],
+   "published": "2007-07-25",
+   "url": "https://arxiv.org/pdf/0707.3682v2.pdf",
+   "note": "number theory only"
+  },
+  {
+   "id": "1501.05760v2",
+   "title": "On integrality of p-adic iterated integrals",
+   "authors": [
+    "Andre Chatzistamatiou"
+   ],
+   "published": "2015-01-23",
+   "url": "https://arxiv.org/pdf/1501.05760v2.pdf",
+   "note": "number theory only"
+  },
+  {
+   "id": "1901.01957v6",
+   "title": "(p-adic) L-functions and (p-adic) (multiple) zeta values",
+   "authors": [
+    "Nikolaj Glazunov"
+   ],
+   "published": "2019-01-07",
+   "url": "https://arxiv.org/pdf/1901.01957v6.pdf",
+   "note": "number theory only"
+  },
+  {
+   "id": "hep-th/0312046v1",
+   "title": "p-Adic and Adelic Quantum Mechanics",
+   "authors": [
+    "Branko Dragovich"
+   ],
+   "published": "2003-12-04",
+   "url": "https://arxiv.org/pdf/hep-th/0312046v1.pdf",
+   "note": "p-adic QM review — the external anchor for p-adic quantum theory"
+  },
+  {
+   "id": "1701.07658v2",
+   "title": "On unitarity of some representations of classical p-adic groups I",
+   "authors": [
+    "Marko Tadic"
+   ],
+   "published": "2017-01-26",
+   "url": "https://arxiv.org/pdf/1701.07658v2.pdf",
+   "note": "representation theory only"
+  },
+  {
+   "id": "2308.04364v3",
+   "title": "Turing patterns in a p-adic FitzHugh-Nagumo system on the unit ball",
+   "authors": [
+    "L. F. Chacón-Cortés",
+    "C. A. Garcia-Bibiano",
+    "W. A. Zúñiga-Galindo"
+   ],
+   "published": "2023-08-08",
+   "url": "https://arxiv.org/pdf/2308.04364v3.pdf",
+   "note": "p-adic PDE patterns — not QEC"
+  },
+  {
+   "id": "1204.3878v1",
+   "title": "Analytic constructions of p-adic L-functions and Eisenstein series",
+   "authors": [
+    "Alexei Pantchichkine"
+   ],
+   "published": "2012-04-17",
+   "url": "https://arxiv.org/pdf/1204.3878v1.pdf",
+   "note": "number theory only"
+  }
+ ]
+}
