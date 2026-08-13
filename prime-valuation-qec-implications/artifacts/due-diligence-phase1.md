@@ -72,3 +72,12 @@ A paper that only re-derives standard qudit stabilizer theory in new words fails
 - arXiv p-adic QEC search: 15 results, all irrelevant to valuation-based QEC (saved for provenance).
 - KG cross-reference: nodes/edges queries this session (graph-api.qnfo.org/query).
 - D1 program_registry rows: RES.001–RES.006 (portfolio-state).
+
+## 7. Post-Audit Provenance Note (direct red-team, 2026-08-13)
+
+SOFT finding: the UF anchor record (DOI 10.5281/zenodo.21046993) is titled
+"Ultrametric Quantum Computing: Tree-Topology Error Correction" — the phrase
+"p-adic valuations classify QEC codes at 83% accuracy" is the QNFO.UF program
+DESCRIPTION in D1 program_registry, not the record title. P4/RQ3 must pin the
+exact section/table inside the record where the 83% number appears before any
+reproduction attempt.
