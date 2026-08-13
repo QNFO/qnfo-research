@@ -1,0 +1,1269 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1327748,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T04:26:20Z",
+          "timestamp": 1684211180886
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "9781108933049",
+            "type": "electronic"
+          },
+          {
+            "value": "9781108831963",
+            "type": "print"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2023-05-16T00:00:00Z",
+              "timestamp": 1684195200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 110,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1017/9781108933049.005",
+        "type": "book-part",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:39Z",
+          "timestamp": 1684195539000
+        },
+        "page": "139-140",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Bruhat–Tits Theory"
+        ],
+        "prefix": "10.1017",
+        "member": "56",
+        "container-title": [
+          "Bruhat–Tits Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:48Z",
+          "timestamp": 1684195548000
+        },
+        "score": 36.741405,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781108933049%23ptl2/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781108933049",
+          "9781108831963"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781108933049.005",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T04:41:13Z",
+          "timestamp": 1684212073009
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "9781108933049",
+            "type": "electronic"
+          },
+          {
+            "value": "9781108831963",
+            "type": "print"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2023-05-16T00:00:00Z",
+              "timestamp": 1684195200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 110,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1017/9781108933049.007",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:39Z",
+          "timestamp": 1684195539000
+        },
+        "page": "157-185",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Overview and Summary of Bruhat–Tits Theory"
+        ],
+        "prefix": "10.1017",
+        "member": "56",
+        "container-title": [
+          "Bruhat–Tits Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:57Z",
+          "timestamp": 1684195557000
+        },
+        "score": 34.952095,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781108933049%23c4/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781108933049",
+          "9781108831963"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781108933049.007",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T04:39:44Z",
+          "timestamp": 1684211984239
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "9781108933049",
+            "type": "electronic"
+          },
+          {
+            "value": "9781108831963",
+            "type": "print"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2023-05-16T00:00:00Z",
+              "timestamp": 1684195200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 110,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1017/9781108933049.010",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:39Z",
+          "timestamp": 1684195539000
+        },
+        "page": "235-282",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "The Bruhat–Tits Building for a Valuation of the Root Datum"
+        ],
+        "prefix": "10.1017",
+        "member": "56",
+        "container-title": [
+          "Bruhat–Tits Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:06:01Z",
+          "timestamp": 1684195561000
+        },
+        "score": 34.22986,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781108933049%23c7/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781108933049",
+          "9781108831963"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781108933049.010",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              29
+            ]
+          ],
+          "date-time": "2022-03-29T09:14:11Z",
+          "timestamp": 1648545251403
+        },
+        "reference-count": 0,
+        "publisher": "Princeton University Press",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              19
+            ]
+          ]
+        },
+        "abstract": "<p>This chapter summarizes the results about the residues of Bruhat-Tits buildings other than those associated with the exceptional Moufang quadrangles examined in previous chapters. It first considers cases, for which it assumes that Λ‎ is complete with respect to a discrete valuation in an appropriate sense. It then presents the Coxeter diagram of Ξ‎ and the vertex set <italic>S</italic> of such diagram, along with the <italic>J</italic>-residue of the building Ξ‎, which is called a gem if <italic>J</italic> is the complement in the <italic>S</italic> of a special vertex. The chapter also discusses the structure of the gems of Ξ‎ as well as cases in which the pseudo-quadratic space is defined to be ramified or unramified.</p>",
+        "DOI": "10.23943/princeton/9780691166902.003.0018",
+        "type": "book",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              21
+            ]
+          ],
+          "date-time": "2017-11-21T08:43:47Z",
+          "timestamp": 1511253827000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "The Other Bruhat-Tits Buildings"
+        ],
+        "prefix": "10.23943",
+        "author": [
+          {
+            "given": "Bernhard",
+            "family": "M¨uhlherr",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Holger P.",
+            "family": "Petersson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Richard M.",
+            "family": "Weiss",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "10341",
+        "container-title": [
+          "Princeton University Press"
+        ],
+        "original-title": [
+          "The Other Bruhat-Tits Buildings"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              21
+            ]
+          ],
+          "date-time": "2017-11-21T08:43:47Z",
+          "timestamp": 1511253827000
+        },
+        "score": 33.104828,
+        "resource": {
+          "primary": {
+            "URL": "http://princeton.universitypressscholarship.com/view/10.23943/princeton/9780691166902.001.0001/upso-9780691166902-chapter-018"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              19
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.23943/princeton/9780691166902.003.0018",
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              29
+            ]
+          ],
+          "date-time": "2022-03-29T21:35:46Z",
+          "timestamp": 1648589746740
+        },
+        "reference-count": 0,
+        "publisher": "Princeton University Press",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              19
+            ]
+          ]
+        },
+        "abstract": "<p>This chapter considers the affine Tits indices for exceptional Bruhat-Tits buildings. It begins with a few small observations and some notations dealing with the relative type of the affine Tits indices, the canonical correspondence between the circles in a Tits index and the vertices of its relative Coxeter diagram, and Moufang sets. It then presents a proposition about an involutory set, a quaternion division algebra, a root group sequence, and standard involution. It also describes Θ‎-orbits in <italic>S</italic> which are disjoint from <italic>A</italic> and which correspond to the vertices of the Coxeter diagram of Ξ‎ and hence to the types of the panels of Ξ‎. Finally, it shows how it is possible in many cases to determine properties of the Moufang set and the Tits index for all exceptional Bruhat-Tits buildings of type other than Latin Capital Letter <italic>G</italic> with Tilde₂.</p>",
+        "DOI": "10.23943/princeton/9780691166902.003.0036",
+        "type": "book",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              21
+            ]
+          ],
+          "date-time": "2017-11-21T08:44:05Z",
+          "timestamp": 1511253845000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Indices for the Exceptional Bruhat-Tits Buildings"
+        ],
+        "prefix": "10.23943",
+        "author": [
+          {
+            "given": "Bernhard",
+            "family": "M¨uhlherr",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Holger P.",
+            "family": "Petersson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Richard M.",
+            "family": "Weiss",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "10341",
+        "container-title": [
+          "Princeton University Press"
+        ],
+        "original-title": [
+          "Indices for the Exceptional Bruhat-Tits Buildings"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              21
+            ]
+          ],
+          "date-time": "2017-11-21T08:44:05Z",
+          "timestamp": 1511253845000
+        },
+        "score": 32.5915,
+        "resource": {
+          "primary": {
+            "URL": "http://princeton.universitypressscholarship.com/view/10.23943/princeton/9780691166902.001.0001/upso-9780691166902-chapter-036"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              19
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.23943/princeton/9780691166902.003.0036",
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T04:39:45Z",
+          "timestamp": 1684211985585
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "9781108933049",
+            "type": "electronic"
+          },
+          {
+            "value": "9781108831963",
+            "type": "print"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2023-05-16T00:00:00Z",
+              "timestamp": 1684195200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 110,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1017/9781108933049.008",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:39Z",
+          "timestamp": 1684195539000
+        },
+        "page": "186-194",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Bruhat, Cartan, and Iwasawa Decompositions"
+        ],
+        "prefix": "10.1017",
+        "member": "56",
+        "container-title": [
+          "Bruhat–Tits Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:58Z",
+          "timestamp": 1684195558000
+        },
+        "score": 32.567726,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781108933049%23c5/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781108933049",
+          "9781108831963"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781108933049.008",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "institution": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/042tfbd02",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Institut polytechnique de Paris"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2026-07-30T15:04:36Z",
+          "timestamp": 1785423876135,
+          "version": "3.56.0"
+        },
+        "reference-count": 0,
+        "publisher": "Agence Bibliographique de l'Enseignement Supérieur",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:title>Compactifications analytiques d'immeubles de Bruhat-Tits</jats:title>\n                <jats:p xml:lang=\"fr\">Dans cette thèse, on s’intéresse aux immeubles de Bruhat-Tits et leurs compactifications. Précisément, on construit des compactifications équivariantes d’immeubles de Bruhat-Tits de groupes réductifs puis quasi-réductifs G en les plongeant dans des espaces analytiques associés à certains G-espaces. Ce manuscrit comprend trois chapitres. Le chapitre introductif 1 se donne pour but d’introduire les objets mathématiques en jeu dans les deux chapitres suivants. Le chapitre 2 est une reproduction de l’article [Cha20], à paraître dans Israel Journal of Mathematics. Le résultat principal consiste en un théorème de comparaison entre la géométrie du bord de la compactification de Satake maximale de l’immeuble de Bruhat-Tits d’un groupe semi-simple adjoint G sur un corps local et la géométrie de la compactification magnifique du groupe G. Le chapitre 3 est une reproduction de la prépublication [Cha22]. On y construit des compactifications équivariantes d’immeubles de Bruhat-Tits de groupes quasi-réductifs G sur des corps locaux en les plongeant dans des espaces de Berkovich associés à des espaces homogènes de la forme G/P , avec P un sous-groupe pseudo-parabolique de G. Au cours de la construction du plongement, on est amenéà établir un résultat de fonctorialité de l’immeuble de Bruhat-Tits d’un groupe quasi-réductif en le corps de base.</jats:p>",
+        "DOI": "10.70675/b7bce2a4z9f68z4e1azbd4fzd08f7f236097",
+        "type": "dissertation",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T09:39:18Z",
+          "timestamp": 1775554758000
+        },
+        "approved": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              12
+            ]
+          ]
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Analytic constructions of compactifications of Bruhat-Tits buildings"
+        ],
+        "prefix": "10.70675",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0222-0803",
+            "authenticated-orcid": false,
+            "given": "Dorian",
+            "family": "Chanfi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/042tfbd02",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Institut polytechnique de Paris"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "51494",
+        "contributor": [
+          {
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              null
+            ]
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T09:40:20Z",
+          "timestamp": 1775554820000
+        },
+        "score": 31.47174,
+        "degree": [
+          "Doctorat ès Mathématiques fondamentales",
+          "PhD"
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://theses.fr/2022IPPAX118"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "2022IPPAX118"
+        ],
+        "URL": "https://doi.org/10.70675/b7bce2a4z9f68z4e1azbd4fzd08f7f236097"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              9
+            ]
+          ],
+          "date-time": "2024-01-09T19:25:57Z",
+          "timestamp": 1704828357376
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  9,
+                  5
+                ]
+              ],
+              "date-time": "2013-09-05T00:00:00Z",
+              "timestamp": 1378339200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              9,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1017/cbo9781139034807.023",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2013-09-05T05:03:20Z",
+          "timestamp": 1378357400000
+        },
+        "page": "509-518",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Experimental quantum error correction"
+        ],
+        "prefix": "10.1017",
+        "author": [
+          {
+            "given": "Dave",
+            "family": "Bacon",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "56",
+        "container-title": [
+          "Quantum Error Correction"
+        ],
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EE0515761096A0C6BFFE5245E10607BF",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              12
+            ]
+          ],
+          "date-time": "2022-06-12T00:52:34Z",
+          "timestamp": 1654995154000
+        },
+        "score": 31.16475,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/CBO9781139034807A173/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              9,
+              12
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/cbo9781139034807.023",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              9,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T04:47:40Z",
+          "timestamp": 1684212460786
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "9781108933049",
+            "type": "electronic"
+          },
+          {
+            "value": "9781108831963",
+            "type": "print"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2023-05-16T00:00:00Z",
+              "timestamp": 1684195200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 110,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1017/9781108933049.001",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:39Z",
+          "timestamp": 1684195539000
+        },
+        "page": "xv-xxx",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Introduction"
+        ],
+        "prefix": "10.1017",
+        "member": "56",
+        "container-title": [
+          "Bruhat–Tits Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:43Z",
+          "timestamp": 1684195543000
+        },
+        "score": 31.1251,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781108933049%23int1/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781108933049",
+          "9781108831963"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781108933049.001",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T04:39:15Z",
+          "timestamp": 1684211955025
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "9781108933049",
+            "type": "electronic"
+          },
+          {
+            "value": "9781108831963",
+            "type": "print"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2023-05-16T00:00:00Z",
+              "timestamp": 1684195200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 110,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1017/9781108933049.024",
+        "type": "book-part",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:05:39Z",
+          "timestamp": 1684195539000
+        },
+        "page": "591-592",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Appendices"
+        ],
+        "prefix": "10.1017",
+        "member": "56",
+        "container-title": [
+          "Bruhat–Tits Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:06:33Z",
+          "timestamp": 1684195593000
+        },
+        "score": 31.033241,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781108933049%23ptl5/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781108933049",
+          "9781108831963"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781108933049.024",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              26
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 10,
+    "query": {
+      "start-index": 0,
+      "search-terms": "Bruhat-Tits quantum error correction"
+    }
+  }
+}

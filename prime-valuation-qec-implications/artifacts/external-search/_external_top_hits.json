@@ -1,0 +1,457 @@
+[
+  {
+    "title": "The Kuramoto model: A simple paradigm for synchronization phenomena",
+    "year": 2005,
+    "doi": "10.1103/revmodphys.77.137",
+    "venue": "Reviews of Modern Physics",
+    "authors": [
+      "Juan A. Acebrón",
+      "L. L. Bonilla",
+      "C. J. Pérez Vicente",
+      "Félix Ritort",
+      "Renato Spigler"
+    ],
+    "cited_by": 3559
+  },
+  {
+    "title": "Quantum gravity phenomenology at the dawn of the multi-messenger era—A review",
+    "year": 2022,
+    "doi": "10.5167/uzh-230734",
+    "venue": "Zurich Open Repository and Archive (University of Zurich)",
+    "authors": [
+      "Philippe Jetzer",
+      "Jaime Álvarez-Muñiz",
+      "Rafael Alves Batista",
+      "Giovanni Amelino-Camelia",
+      "V. Antonelli"
+    ],
+    "cited_by": 458
+  },
+  {
+    "title": "Interacting Quantum Observables: Categorical Algebra and Diagrammatics",
+    "year": 2009,
+    "doi": "",
+    "venue": "Strathprints: The University of Strathclyde institutional repository (University of Strathclyde)",
+    "authors": [
+      "Coecke, B",
+      "Duncan, R"
+    ],
+    "cited_by": 382
+  },
+  {
+    "title": "Interacting quantum observables: categorical algebra and diagrammatics",
+    "year": 2011,
+    "doi": "10.1088/1367-2630/13/4/043016",
+    "venue": "New Journal of Physics",
+    "authors": [
+      "Bob Coecke",
+      "Ross Duncan"
+    ],
+    "cited_by": 302
+  },
+  {
+    "title": "Simulation of quantum circuits by low-rank stabilizer decompositions",
+    "year": 2019,
+    "doi": "10.22331/q-2019-09-02-181",
+    "venue": "Quantum",
+    "authors": [
+      "Sergey Bravyi",
+      "Dan Browne",
+      "Padraic Calpin",
+      "Earl Campbell",
+      "David Gosset"
+    ],
+    "cited_by": 286
+  },
+  {
+    "title": "Quantum Black Holes, Wall Crossing, and Mock Modular Forms",
+    "year": 2012,
+    "doi": "10.48550/arxiv.1208.4074",
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Atish Dabholkar",
+      "Sameer Murthy",
+      "Don Zagier"
+    ],
+    "cited_by": 237
+  },
+  {
+    "title": "Quantum picturalism",
+    "year": 2009,
+    "doi": "10.1080/00107510903257624",
+    "venue": "Contemporary Physics",
+    "authors": [
+      "Bob Coecke"
+    ],
+    "cited_by": 177
+  },
+  {
+    "title": "The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads",
+    "year": 2007,
+    "doi": "10.1016/j.entcs.2007.02.019",
+    "venue": "Electronic Notes in Theoretical Computer Science",
+    "authors": [
+      "Martin Hyland",
+      "John Power"
+    ],
+    "cited_by": 133
+  },
+  {
+    "title": "Elementary abelian p-subgroups of algebraic groups",
+    "year": 1991,
+    "doi": "10.1007/bf00150757",
+    "venue": "Geometriae Dedicata",
+    "authors": [
+      "Robert L. Griess"
+    ],
+    "cited_by": 111
+  },
+  {
+    "title": "p-Adic AdS/CFT",
+    "year": 2017,
+    "doi": "10.1007/s00220-016-2813-6",
+    "venue": "Communications in Mathematical Physics",
+    "authors": [
+      "Steven S. Gubser",
+      "Johannes Knaute",
+      "Sarthak Parikh",
+      "Andreas Samberg",
+      "Przemek Witaszczyk"
+    ],
+    "cited_by": 89
+  },
+  {
+    "title": "Quantum Communication Systems: Vision, Protocols, Applications, and Challenges",
+    "year": 2023,
+    "doi": "10.1109/access.2023.3244395",
+    "venue": "IEEE Access",
+    "authors": [
+      "Syed Rakib Hasan",
+      "Mostafa Zaman Chowdhury",
+      "Md. Saiam",
+      "Yeong Min Jang"
+    ],
+    "cited_by": 77
+  },
+  {
+    "title": "Categories of quantum and classical channels",
+    "year": 2014,
+    "doi": "10.1007/s11128-014-0837-4",
+    "venue": "Quantum Information Processing",
+    "authors": [
+      "Bob Coecke",
+      "Chris Heunen",
+      "Aleks Kissinger"
+    ],
+    "cited_by": 72
+  },
+  {
+    "title": "Elliptic curves over ℚ $\\mathbb {Q}$ and 2-adic images of Galois",
+    "year": 2015,
+    "doi": "10.1007/s40993-015-0013-7",
+    "venue": "Research in Number Theory",
+    "authors": [
+      "Jeremy Rouse",
+      "David Zureick-Brown"
+    ],
+    "cited_by": 65
+  },
+  {
+    "title": "No-Cloning in Categorical Quantum Mechanics",
+    "year": 2009,
+    "doi": "10.1017/cbo9781139193313.002",
+    "venue": "Cambridge University Press eBooks",
+    "authors": [
+      "Samson Abramsky"
+    ],
+    "cited_by": 62
+  },
+  {
+    "title": "Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $\\mathrm{AdS}_3 / \\mathrm{CFT}_2$ correspondence",
+    "year": 2018,
+    "doi": "10.4310/atmp.2018.v22.n1.a4",
+    "venue": "Advances in Theoretical and Mathematical Physics",
+    "authors": [
+      "Matthew Heydeman",
+      "Matilde Marcolli",
+      "Ingmar Saberi",
+      "Bogdan Stoica"
+    ],
+    "cited_by": 56
+  },
+  {
+    "title": "Double construction for monoidal categories",
+    "year": 1995,
+    "doi": "10.1007/bf02392485",
+    "venue": "Acta Mathematica",
+    "authors": [
+      "Christian Kassel",
+      "Vladimir Turaev"
+    ],
+    "cited_by": 50
+  },
+  {
+    "title": "Tensor network and (p-adic) AdS/CFT",
+    "year": 2018,
+    "doi": "10.1007/jhep01(2018)139",
+    "venue": "Journal of High Energy Physics",
+    "authors": [
+      "Arpan Bhattacharyya",
+      "Ling-Yan Hung",
+      "Yang Lei",
+      "Wei Li"
+    ],
+    "cited_by": 44
+  },
+  {
+    "title": "Bifurcating entanglement-renormalization group flows of fracton stabilizer models",
+    "year": 2020,
+    "doi": "10.1103/physrevresearch.2.033021",
+    "venue": "Physical Review Research",
+    "authors": [
+      "Arpit Dua",
+      "Pratyush Sarkar",
+      "Dominic J. Williamson",
+      "Meng Cheng"
+    ],
+    "cited_by": 41
+  },
+  {
+    "title": "Security of the decoy state method for quantum key distribution",
+    "year": 2020,
+    "doi": "10.3367/ufne.2020.11.038882",
+    "venue": "Physics-Uspekhi",
+    "authors": [
+      "A S Trushechkin",
+      "E O Kiktenko",
+      "D A Kronberg",
+      "A K Fedorov"
+    ],
+    "cited_by": 40
+  },
+  {
+    "title": "Entanglement and Replica Symmetry Breaking in a Driven-Dissipative Quantum Spin Glass",
+    "year": 2024,
+    "doi": "10.1103/physrevx.14.011026",
+    "venue": "Physical Review X",
+    "authors": [
+      "Brendan Marsh",
+      "Ronen M. Kroeze",
+      "Surya Ganguli",
+      "Sarang Gopalakrishnan",
+      "Jonathan Keeling"
+    ],
+    "cited_by": 39
+  },
+  {
+    "title": "Relative pseudomonads, Kleisli bicategories, and substitution monoidal structures",
+    "year": 2017,
+    "doi": "10.1007/s00029-017-0361-3",
+    "venue": "Selecta Mathematica",
+    "authors": [
+      "Marcelo Fiore",
+      "Nicola Gambino",
+      "Martin Hyland",
+      "Glynn Winskel"
+    ],
+    "cited_by": 32
+  },
+  {
+    "title": "Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the AdS$_3$/CFT$_2$ correspondence",
+    "year": 2016,
+    "doi": "10.48550/arxiv.1605.07639",
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Matthew Heydeman",
+      "Matilde Marcolli",
+      "Ingmar Saberi",
+      "Bogdan Stoica"
+    ],
+    "cited_by": 27
+  },
+  {
+    "title": "Sporadic groups, code loops and nonvanishing cohomology",
+    "year": 1987,
+    "doi": "10.1016/0022-4049(87)90024-7",
+    "venue": "Journal of Pure and Applied Algebra",
+    "authors": [
+      "Robert L. Griess"
+    ],
+    "cited_by": 25
+  },
+  {
+    "title": "Uncomputability and complexity of quantum control",
+    "year": 2020,
+    "doi": "10.1038/s41598-019-56804-1",
+    "venue": "Scientific Reports",
+    "authors": [
+      "Denys I. Bondar",
+      "Alexander N. Pechen"
+    ],
+    "cited_by": 16
+  },
+  {
+    "title": "The potential of quantum annealing for rapid solution structure identification",
+    "year": 2020,
+    "doi": "10.1007/s10601-020-09315-0",
+    "venue": "Constraints",
+    "authors": [
+      "Yuchen Pang",
+      "Carleton Coffrin",
+      "Andrey Y. Lokhov",
+      "Marc Vuffray"
+    ],
+    "cited_by": 16
+  },
+  {
+    "title": "Monoidal indeterminates and categories of possible worlds",
+    "year": 2012,
+    "doi": "10.1016/j.tcs.2012.01.001",
+    "venue": "Theoretical Computer Science",
+    "authors": [
+      "Claudio Hermida",
+      "R. D. Tennent"
+    ],
+    "cited_by": 16
+  },
+  {
+    "title": "A Survey of Quantum Error Correction",
+    "year": 2021,
+    "doi": "10.1587/transfun.2021eai0001",
+    "venue": "IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences",
+    "authors": [
+      "Ryutaroh Matsumoto",
+      "Manabu Hagiwara"
+    ],
+    "cited_by": 14
+  },
+  {
+    "title": "Wilson line networks in p-adic AdS/CFT",
+    "year": 2019,
+    "doi": "10.1007/jhep05(2019)118",
+    "venue": "Journal of High Energy Physics",
+    "authors": [
+      "Ling-Yan Hung",
+      "Wei Li",
+      "Charles M. Melby-Thompson"
+    ],
+    "cited_by": 12
+  },
+  {
+    "title": "Constructions of &lt;i&gt;ℓ&lt;/i&gt;-Adic &lt;i&gt;t&lt;/i&gt;-Deletion-Correcting Quantum Codes",
+    "year": 2021,
+    "doi": "10.1587/transfun.2021eap1034",
+    "venue": "IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences",
+    "authors": [
+      "Ryutaroh Matsumoto",
+      "Manabu Hagiwara"
+    ],
+    "cited_by": 8
+  },
+  {
+    "title": "Tracing the Man in the Middle in Monoidal Categories",
+    "year": 2012,
+    "doi": "10.1007/978-3-642-32784-1_11",
+    "venue": "Lecture notes in computer science",
+    "authors": [
+      "Duško Pavlović"
+    ],
+    "cited_by": 7
+  },
+  {
+    "title": "Small field chaos in spin glasses: Universal predictions from the ultrametric tree and comparison with numerical simulations",
+    "year": 2024,
+    "doi": "10.1073/pnas.2404973121",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "authors": [
+      "Miguel Aguilar-Janita",
+      "Silvio Franz",
+      "V. Martı́n-Mayor",
+      "J. Moreno-Gordo",
+      "Giorgio Parisi"
+    ],
+    "cited_by": 5
+  },
+  {
+    "title": "Stabilizer Codes with Exotic Local-dimensions",
+    "year": 2024,
+    "doi": "10.22331/q-2024-02-12-1249",
+    "venue": "Quantum",
+    "authors": [
+      "Lane G. Gunderman"
+    ],
+    "cited_by": 4
+  },
+  {
+    "title": "<i>p</i>-adic class invariants",
+    "year": 2011,
+    "doi": "10.1112/s1461157009000175",
+    "venue": "LMS Journal of Computation and Mathematics",
+    "authors": [
+      "Reinier Bröker"
+    ],
+    "cited_by": 3
+  },
+  {
+    "title": "Some model theory and topological dynamics of p-adic algebraic groups",
+    "year": 2017,
+    "doi": "10.48550/arxiv.1704.07764",
+    "venue": "CLOK (University of Central Lancashire)",
+    "authors": [
+      "Davide Penazzi",
+      "Anand Pillay",
+      "Ningyuan Yao"
+    ],
+    "cited_by": 3
+  },
+  {
+    "title": "Toward p-adic Quantum Error Correction: The Metric Mismatch Hypothesis",
+    "year": 2026,
+    "doi": "10.5281/zenodo.20556326",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "authors": [
+      "Rowan Quni-Gudzinas"
+    ],
+    "cited_by": 0
+  },
+  {
+    "title": "Toward p-adic Quantum Error Correction: The Metric Mismatch Hypothesis",
+    "year": 2026,
+    "doi": "10.5281/zenodo.20556327",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "authors": [
+      "Rowan Quni-Gudzinas"
+    ],
+    "cited_by": 0
+  },
+  {
+    "title": "p-Adic Quantum Error Correction Classifier Verification: A Computational Methodology",
+    "year": 2026,
+    "doi": "10.5281/zenodo.21698281",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "authors": [
+      "Rowan Brad Quni-Gudzinas"
+    ],
+    "cited_by": 0
+  },
+  {
+    "title": "Ultrametric Quantum Computing: Tree-Topology Error Correction",
+    "year": 2026,
+    "doi": "10.5281/zenodo.21046993",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "authors": [
+      "Rowan Brad Quni-Gudzinas"
+    ],
+    "cited_by": 0
+  },
+  {
+    "title": "Ultrametric Quantum Computing: Tree-Topology Error Correction",
+    "year": 2026,
+    "doi": "10.5281/zenodo.21046992",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "authors": [
+      "Rowan Brad Quni-Gudzinas"
+    ],
+    "cited_by": 0
+  }
+]

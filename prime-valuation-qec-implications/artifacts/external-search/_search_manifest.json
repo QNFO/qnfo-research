@@ -1,0 +1,51 @@
+[
+  {
+    "source": "openalex",
+    "term": "p-adic quantum error correction",
+    "count": 700,
+    "file": "openalex_p_adic_quantum_error_correction.json",
+    "status": "ok"
+  },
+  {
+    "source": "openalex",
+    "term": "ultrametric quantum error correction",
+    "count": 246,
+    "file": "openalex_ultrametric_quantum_error_correction.json",
+    "status": "ok"
+  },
+  {
+    "source": "openalex",
+    "term": "p-adic stabilizer code",
+    "count": 577,
+    "file": "openalex_p_adic_stabilizer_code.json",
+    "status": "ok"
+  },
+  {
+    "source": "openalex",
+    "term": "no-cloning theorem monoidal category",
+    "count": 391,
+    "file": "openalex_no_cloning_theorem_monoidal_category.json",
+    "status": "ok"
+  },
+  {
+    "source": "crossref",
+    "term": "p-adic quantum error correction",
+    "count": 10,
+    "file": "crossref_p_adic_quantum_error_correction.json",
+    "status": "ok"
+  },
+  {
+    "source": "crossref",
+    "term": "Bruhat-Tits quantum error correction",
+    "count": 10,
+    "file": "crossref_Bruhat_Tits_quantum_error_correction.json",
+    "status": "ok"
+  },
+  {
+    "source": "crossref",
+    "term": "no-cloning monoidal category",
+    "count": 10,
+    "file": "crossref_no_cloning_monoidal_category.json",
+    "status": "ok"
+  }
+]
