@@ -74,3 +74,15 @@ Cross-source unique top hits after dedup: "Quantum Error Correction of Qudits Be
 - Verify DOI of "Physical Limit of Quantum Error Correction (PLQEC)" — resolve whether internal (QNFO) or external before citation.
 - Verify DOI of "Qudit Quantum Error Correction" 10.5281/zenodo.21046993 vs 83%-source 10.5281/zenodo.21193487 (RQ3 reconciliation carried from red-team-phase1.md).
 - arXiv 2605.18981 (Galois Qudits) + 2607.13784 (foliated qudit QEC) + 2510.06495 (qudit LDPC) + 2409.15065 (beyond break-even) are the primary external anchors for P4.
+
+## 7. Post-Review Update (concurrent session, same day)
+
+Commit 4e8d56a added `prime-valuation-qec-implications.md` (P4 manuscript v0.1) with an
+honest self-correction consistent with this review: the naive [[n,k,d]] mapping is pure
+relabeling (n,k definitional; d is a minimum operator *weight*, not a depth), the no-cloning
+structural reading is repositioned as re-expressing Abramsky 2009 / Coecke 2009, and the
+83% source is pinned to DOI 10.5281/zenodo.21193487 (Kodaira-Néron classifier). This review's
+novelty conclusion (vocabulary-novel, substrate-mature) and its P4 handoff remain valid; the
+RQ3 83% DOI reconciliation flagged in red-team-phase1.md now leans toward 21193487 (both
+due-diligence.md and the manuscript cite it); the registry description pointing at 21046993
+should be treated as an attribution artifact until P4 pins the exact section/table.
