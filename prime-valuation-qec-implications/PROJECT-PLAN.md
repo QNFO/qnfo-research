@@ -18,7 +18,7 @@
 
 The anchor paper, *Prime Valuation Depth*, established that the p-adic valuation v_p(n) is a measure of **depth along a prime branch** of the integer factorization tree (not size), grounded in Ostrowski's classification, and transferred that reading to quantum mechanics: because the tensor product **multiplies** Hilbert-space dimensions, v_2(dim H) = n counts tensor-branch depth for n qubits, and the no-cloning theorem becomes structural — cloning would require a nonlinear diagonal map in a monoidal-but-not-Cartesian category.
 
-This follow-on develops the two consequences the anchor paper flagged but did not pursue: **(1) computing** — what it means for computation to be path-tracing through a multiplicative branch structure; and **(2) quantum error correction** — how the branch-depth reading lands on the structure of QEC codes. The QEC leg is anchored by an existing QNFO prior result (QNFO.UF, "p-adic valuations classify QEC codes at 83% accuracy", DOI 10.5281/zenodo.21046993), which this project must reproduce, stress-test, and extend or correct.
+This follow-on develops the two consequences the anchor paper flagged but did not pursue: **(1) computing** — what it means for computation to be path-tracing through a multiplicative branch structure; and **(2) quantum error correction** — how the branch-depth reading lands on the structure of QEC codes. The QEC leg is anchored by an existing QNFO prior result (QNFO.UF, "Number-Theoretic Ultrametric Foundations: A Unified p-adic Framework for Error-Correcting Code Classification" — Kodaira-Néron classifier at 83% accuracy, DOI 10.5281/zenodo.21193487), which this project must reproduce, stress-test, and extend or correct.
 
 ## §2 Core Claim (LOCKED — P6)
 

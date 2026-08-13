@@ -18,6 +18,6 @@ Quantum error correction is the structural response to the anchor paper's no-clo
 
 ## Extension claim [MAP — speculative, to be developed]
 
-The branch-depth vocabulary yields a classification invariant for QEC code families that connects to QNFO.UF's reported 83%-accuracy result, and clarifies how no-cloning sets the fundamental limits of error correction.
+The branch-depth vocabulary yields a classification invariant for QEC code families that connects to QNFO.UF's reported 83%-accuracy result (Number-Theoretic Ultrametric Foundations, DOI 10.5281/zenodo.21193487), and clarifies how no-cloning sets the fundamental limits of error correction.
 
 **Falsifiability condition:** the 83% claim must be reproduced or refuted on a fresh, independent test set; the classification invariant must be checkable on known code families and falsifiable on constructed counterexamples.

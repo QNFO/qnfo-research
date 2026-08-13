@@ -7,6 +7,6 @@ Follow-on to [Prime Valuation Depth](https://doi.org/10.5281/zenodo.21918838) (Q
 This project develops two flagged consequences:
 
 1. **Computing** — computation as path-tracing through multiplicative branch structure.
-2. **Quantum error correction** — the branch-depth reading of [[n,k,d]] stabilizer codes, anchored on QNFO.UF's prior result ("p-adic valuations classify QEC codes at 83% accuracy", DOI 10.5281/zenodo.21046993).
+2. **Quantum error correction** — the branch-depth reading of [[n,k,d]] stabilizer codes, anchored on QNFO.UF's prior result ("Number-Theoretic Ultrametric Foundations" — p-adic QEC classification at 83% accuracy, DOI 10.5281/zenodo.21193487).
 
 See [PROJECT-PLAN.md](./PROJECT-PLAN.md) for the charter, locked core claim, and phase schedule.
