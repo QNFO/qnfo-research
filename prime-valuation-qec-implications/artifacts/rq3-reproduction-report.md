@@ -1,0 +1,79 @@
+# RQ3 Reproduction Report — Mahler v_p-Spectral Leg (C7.3')
+
+**Project:** QNFO.RES.006 | **Slug:** prime-valuation-qec-implications
+**Date:** 2026-08-13 | **Status:** M1b (Mahler spectral leg) EXECUTED; M1a (Kodaira-Néron Cox-ring leg) BLOCKED by source under-specification
+
+## 1. What was tested
+
+The C7.3' conjecture as stated in NTOF (DOI 10.5281/zenodo.21193487): "the v_p-spectral profile
+of a code's Mahler expansion provides a discriminant between code families. Optimal codes
+achieve v_p^max = 28 while random codes cluster [at 4]". Reproduction acceptance (pre-registered in
+artifacts/rq3-reproduction-protocol.md): family separation (optimal vs random) ≥ 10 in v_p^max,
+with optimal ≥ 28 and random ≈ 4.
+
+## 2. Implementation (notebooks/rq3-mahler-reproduction.py)
+
+- **Weight enumerator:** full stabilizer-group weight enumerator A_i (Shor–Laflamme enumerator
+  restricted to the stabilizer group), brute-force over all 2^m group elements (m = n−k).
+- **Mahler expansion:** f(x) = Σ_j c_j binom(x,j) with c_j = Σ_{i≤j} (−1)^{j−i} binom(j,i) A_i
+  (finite differences).
+- **v_p spectrum:** v_2(|c_j|); v_p^max = max_j v_2(|c_j|).
+- **Code generation:** CSS = quantum Hamming [[7,1,3]], [[15,7,3]] built from self-orthogonal
+  Hamming parity-check rows (columns = all nonzero m-bit vectors); Surface = toric L=2, L=3;
+  Optimal = [[5,1,3]] perfect code (standard Laflamme generator set); Random = 50 random [[10,4]]
+  stabilizer codes via a random Clifford circuit applied to an X-basis code (fixed CNOT, H, S).
+- **Verification:** every code checked pairwise-commuting, rank = n−k, group size = 2^rank,
+  enumerator sums to group size. **55/55 codes valid.**
+
+## 3. Results
+
+| Family | # valid | v_p^max values | median |
+|:-------|:-------:|:---------------|:------:|
+| CSS | 2/2 | [1, 1] | 1 |
+| Surface | 2/2 | [1, 3] | 2 |
+| Optimal | 1/1 | [4] | 4 |
+| Random | 50/50 | 1..6 | 3 |
+
+**C7.3' acceptance:** gap ≥ 10 with optimal ≈ 28, random ≈ 4.
+**Observed:** optimal = 4, random median = 3 (max = 6), gap = 1 → **NOT REPRODUCED.**
+
+## 4. Findings
+
+**F1 — Negative result (separation direction only weakly correct, magnitude fails).**
+At n ≤ 18, the weight-enumerator Mahler v_2-spectrum does not separate optimal from random by
+the claimed margin: random codes reach v_p^max = 6 > optimal 4.
+
+**F2 — Magnitude incompatibility.** v_p^max = 28 requires a Mahler coefficient with |c_j| ≥ 2^28.
+Weight-enumerator coefficients are bounded by the group size 2^(n−k), so v_2 = 28 needs
+n−k ≥ 28 (n ≥ 29 for k ≥ 1) — beyond every code size in the NTOF tables (n ≤ 18). Under the
+weight-enumerator normalization the claim is unattainable at the reported sizes: either NTOF used
+a different Mahler target (distance enumerator, enumerator evaluated at integers, Clifford-representation
+polynomial, or a different normalization) or the claim is inconsistent as stated.
+
+**F3 — Source under-determination.** NTOF never defines which function undergoes the Mahler expansion.
+"a code's Mahler expansion" is ambiguous (weight vs distance vs other invariants), which blocks a
+faithful reproduction of absolute numbers even when the direction test runs.
+
+**F4 — K-N leg blocked.** Algorithm 4.4 Step 2 ("Construct the Cox ring R_C = C[x_1,...,x_n]/I_C")
+does not specify the ideal I_C. Without it, the Kodaira-Néron classification leg cannot be
+independently re-implemented from the shipped specification; the 83% aggregate is unreproducible
+from spec alone (no dataset, no implementation, no baseline are shipped).
+
+## 5. Verdict
+
+- **C7.3' (Mahler separation): NOT REPRODUCED at n ≤ 18** under the weight-enumerator normalization.
+  Direction weakly correct (optimal median 4 > random median 3) but violated by individual random
+  codes; claimed magnitude (28) incompatible with reported code sizes under this normalization.
+- **C5.1 / C8 (Kodaira-Néron 83%): NOT REPRODUCIBLE FROM SHIPPED SPEC** — ideal I_C unspecified,
+  no dataset, no implementation.
+- The 83% and 28-vs-4 claims remain **[UNVERIFIED-INTERNAL]** with a documented failed first
+  reproduction (per manuscript C8 and the protocol's honest-failure requirement).
+
+## 6. Next steps
+
+1. Clarify with the NTOF source: (a) exact Mahler target function + normalization; (b) I_C
+   construction for Algorithm 4.4; (c) the 50-code-per-family generation protocol.
+2. If the Mahler target is clarified, extend to n ≤ 30 (larger surface/optimal tables) where
+   v_2 ≥ 28 becomes attainable.
+3. Manuscript §6/C8 updated to REPRODUCTION-ATTEMPTED (2026-08-13): failed at n ≤ 18 under the
+   weight-enumerator normalization; status remains [UNVERIFIED-INTERNAL] pending source clarification.

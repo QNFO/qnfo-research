@@ -116,6 +116,16 @@ rendering of this state of affairs.
 
 **Status [UNVERIFIED-INTERNAL]:** this is an internal report. It has not, to this author's knowledge, been independently reproduced on a fresh, held-out test set with a stated leakage-control protocol. Until it is, the 83% figure is a claim to be tested, not a result to be built upon.
 
+**First reproduction attempt (2026-08-13, this pipeline's P4.2):** the Mahler
+spectral leg (C7.3') was independently implemented and run on 55 verified codes (CSS
+[[7,1,3]], [[15,7,3]]; toric surface L=2,3; optimal [[5,1,3]]; 50 random [[10,4]]). The
+claimed separation (v_p^max optimal ~ 28 vs random ~ 4, gap >= 10) did **not** reproduce
+at n <= 18 under the weight-enumerator Mahler normalization: observed optimal 4, random
+median 3 (max 6, which exceeds optimal). Two source under-specifications block a decisive
+test: the Mahler target function is undefined in NTOF, and Algorithm 4.4's Cox-ring ideal
+I_C is unspecified. See artifacts/rq3-reproduction-report.md. C8 remains
+[UNVERIFIED-INTERNAL] pending source clarification.
+
 **Reproduction requirement (this paper's P4 critical path):** because the classifier is
 rule-based and the source ships no implementation, the reproduction is a **re-implementation from
 specification** (Algorithm 4.4) plus **fresh code-family generation** (50 per family; surface, CSS,

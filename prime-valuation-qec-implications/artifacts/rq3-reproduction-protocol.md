@@ -51,3 +51,9 @@ Report per-family table matching the NTOF format for direct comparison.
 - Cox-ring/Weierstrass arithmetic is heavy for n ≳ 20 → start n ≤ 16, 50 codes, scale only if stable.
 - The NTOF §13.2 documents a surface-code I_n* boundary mismatch — reproduction may reproduce the
   defect (that is itself a finding: is the 83% aggregate hiding a systematic family-level failure?).
+
+## Status Update (2026-08-13)
+
+M1b (Mahler spectral leg) **EXECUTED** — see `rq3-reproduction-report.md`.
+Result: C7.3' NOT reproduced at n ≤ 18 (optimal v_p^max = 4, random median 3, max 6; claimed 28 vs 4).
+M1a (Kodaira-Néron Cox-ring leg) **BLOCKED** by source under-specification (ideal I_C undefined).
