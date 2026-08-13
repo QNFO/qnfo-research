@@ -1,0 +1,62 @@
+{
+ "query": "\"no-cloning theorem\" AND tensor AND linearity",
+ "count": 1349,
+ "items": [
+  {
+   "title": "Bulk locality and quantum error correction in AdS/CFT",
+   "doi": "10.1007/jhep04(2015)163",
+   "year": 2015,
+   "cited": 796,
+   "type": "article"
+  },
+  {
+   "title": "Unifying neural-network quantum states and correlator product states via tensor networks",
+   "doi": "10.1088/1751-8121/aaaaf2",
+   "year": 2018,
+   "cited": 71,
+   "type": "article"
+  },
+  {
+   "title": "Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies, Challenges, and Research Directions",
+   "doi": "10.1109/comst.2023.3294240",
+   "year": 2023,
+   "cited": 127,
+   "type": "article"
+  },
+  {
+   "title": "Lineal: A linear-algebraic Lambda-calculus",
+   "doi": "10.23638/lmcs-13(1:8)2017",
+   "year": 2017,
+   "cited": 38,
+   "type": "article"
+  },
+  {
+   "title": "The Forbidden Quantum Adder",
+   "doi": "10.1038/srep11983",
+   "year": 2015,
+   "cited": 35,
+   "type": "article"
+  },
+  {
+   "title": "Quantum measurements without sums",
+   "doi": "10.1201/9781584889007-24",
+   "year": 2007,
+   "cited": 132,
+   "type": "book-chapter"
+  },
+  {
+   "title": "Pseudorandom States, Non-Cloning Theorems and Quantum Money",
+   "doi": "10.48550/arxiv.1711.00385",
+   "year": 2017,
+   "cited": 3,
+   "type": "preprint"
+  },
+  {
+   "title": "Selfcomplementary Quantum Channels",
+   "doi": "10.1142/s1230161216500141",
+   "year": 2016,
+   "cited": 27,
+   "type": "article"
+  }
+ ]
+}

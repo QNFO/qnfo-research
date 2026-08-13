@@ -1,0 +1,54 @@
+{
+ "query": "Ostrowski AND \"absolute values\" AND p-adic",
+ "count": 368427,
+ "items": [
+  {
+   "title": "ABSOLUTE VALUES AND NORMS",
+   "doi": "10.1142/9789812831019_0001",
+   "year": 1995,
+   "container": "Analytic Elements in P-Adic Analysis"
+  },
+  {
+   "title": "ABSOLUTE VALUES ON H(D)",
+   "doi": "10.1142/9789812831019_0040",
+   "year": 1995,
+   "container": "Analytic Elements in P-Adic Analysis"
+  },
+  {
+   "title": "Ultrametric absolute values for rational functions",
+   "doi": "10.1142/9789814730112_0003",
+   "year": 2015,
+   "container": "Value Distribution in p-adic Analysis"
+  },
+  {
+   "title": "ULTRAMETRIC ABSOLUTE VALUES AND VALUATION FUNCTIONS \u03bd(h, \u03bc) ON K(x)",
+   "doi": "10.1142/9789812831019_0004",
+   "year": 1995,
+   "container": "Analytic Elements in P-Adic Analysis"
+  },
+  {
+   "title": "On absolute convergence of linear iteration processes",
+   "doi": "10.6028/nbs.rpt.1728",
+   "year": 1952,
+   "container": ""
+  },
+  {
+   "title": "On generalized Ostrowski-type inequalities for functions whose first derivatives absolute values are convex",
+   "doi": "10.3906/mat-1504-56",
+   "year": 2016,
+   "container": "TURKISH JOURNAL OF MATHEMATICS"
+  },
+  {
+   "title": "Computing the decomposition of primes p and p-adic absolute values in semi-simple algebras over \u211a",
+   "doi": "10.1016/s0747-7171(87)80048-2",
+   "year": 1987,
+   "container": "Journal of Symbolic Computation"
+  },
+  {
+   "title": "$p$-adic multiple zeta values, $p$-adic multiple $L$-values, and motivic Galois groups",
+   "doi": "10.2969/aspm/06310629",
+   "year": null,
+   "container": "Advanced Studies in Pure Mathematics"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "query": "\"p-adic quantum mechanics\" AND \"no-cloning\"",
+ "count": 1632698,
+ "items": [
+  {
+   "title": "No-Cloning Theorem and Quantum Cloning Machines",
+   "doi": "10.1201/9781003172192-11",
+   "year": 2022,
+   "container": "Quantum Mechanics II"
+  },
+  {
+   "title": "No-cloning Theorem and Quantum Copying",
+   "doi": "10.1093/oso/9780198854227.003.0011",
+   "year": 2020,
+   "container": "Quantum Mechanics for Beginners"
+  },
+  {
+   "title": "<i>p</i>-adic quantum mechanics with <i>p</i>-adic valued functions",
+   "doi": "10.1063/1.529353",
+   "year": 1991,
+   "container": "Journal of Mathematical Physics"
+  },
+  {
+   "title": "No-Cloning in Categorical Quantum Mechanics",
+   "doi": "10.1017/cbo9781139193313.002",
+   "year": 2009,
+   "container": "Semantic Techniques in Quantum Computation"
+  },
+  {
+   "title": "Entanglement, Nonlocality, Superluminal Signaling and Cloning",
+   "doi": "10.5772/56429",
+   "year": 2013,
+   "container": "Advances in Quantum Mechanics"
+  },
+  {
+   "title": "Quantum Mechanics for Non-Archimedean Wave Functions",
+   "doi": "10.1007/978-94-015-8356-5_4",
+   "year": 1994,
+   "container": "p-Adic Valued Distributions in Mathematical Physics"
+  },
+  {
+   "title": "Some Mathematical Problems of p-adic Quantum Theory",
+   "doi": "10.1007/978-3-0348-8545-4_41",
+   "year": 1994,
+   "container": "Operator Theory: Advances and Applications"
+  },
+  {
+   "title": "A discretization ofp-adic quantum mechanics",
+   "doi": "10.1007/bf02098045",
+   "year": 1991,
+   "container": "Communications in Mathematical Physics"
+  }
+ ]
+}

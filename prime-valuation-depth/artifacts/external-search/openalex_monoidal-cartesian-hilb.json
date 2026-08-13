@@ -1,0 +1,62 @@
+{
+ "query": "\"monoidal category\" AND \"not Cartesian\" AND Hilbert",
+ "count": 857,
+ "items": [
+  {
+   "title": "Interacting Quantum Observables: Categorical Algebra and Diagrammatics",
+   "doi": "",
+   "year": 2009,
+   "cited": 382,
+   "type": "article"
+  },
+  {
+   "title": "Interacting quantum observables: categorical algebra and diagrammatics",
+   "doi": "10.1088/1367-2630/13/4/043016",
+   "year": 2011,
+   "cited": 302,
+   "type": "article"
+  },
+  {
+   "title": "Categories for the Practising Physicist",
+   "doi": "10.1007/978-3-642-12821-9_3",
+   "year": 2010,
+   "cited": 98,
+   "type": "book-chapter"
+  },
+  {
+   "title": "Drinfeld center of enriched monoidal categories",
+   "doi": "10.1016/j.aim.2017.10.038",
+   "year": 2017,
+   "cited": 32,
+   "type": "article"
+  },
+  {
+   "title": "Autonomization of Monoidal Categories",
+   "doi": "10.4204/eptcs.323.3",
+   "year": 2020,
+   "cited": 9,
+   "type": "article"
+  },
+  {
+   "title": "Nuclear and trace ideals in tensored \u2217-categories",
+   "doi": "10.1016/s0022-4049(98)00106-6",
+   "year": 1999,
+   "cited": 78,
+   "type": "article"
+  },
+  {
+   "title": "Categories for the practising physicist",
+   "doi": "10.48550/arxiv.0905.3010",
+   "year": 2009,
+   "cited": 38,
+   "type": "preprint"
+  },
+  {
+   "title": "Physical Traces",
+   "doi": "10.1016/s1571-0661(04)80556-5",
+   "year": 2003,
+   "cited": 44,
+   "type": "article"
+  }
+ ]
+}

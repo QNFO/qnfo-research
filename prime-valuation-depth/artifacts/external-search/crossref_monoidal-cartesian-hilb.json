@@ -1,0 +1,54 @@
+{
+ "query": "\"monoidal category\" AND \"not Cartesian\" AND Hilbert",
+ "count": 92180,
+ "items": [
+  {
+   "title": "Monoidal Categories",
+   "doi": "10.1142/9789811286018_0006",
+   "year": 2024,
+   "container": "Starting Category Theory"
+  },
+  {
+   "title": "Notions of monoidal category",
+   "doi": "10.1017/cbo9780511525896.006",
+   "year": 2004,
+   "container": "Higher Operads, Higher Categories"
+  },
+  {
+   "title": "The center of a monoidal category",
+   "doi": "10.1007/978-3-319-49834-8_5",
+   "year": 2017,
+   "container": "Progress in Mathematics"
+  },
+  {
+   "title": "Derived Functors and Abelian Monoidal Model Structures",
+   "doi": "10.1017/9781009449489.009",
+   "year": 2024,
+   "container": "Abelian Model Category Theory"
+  },
+  {
+   "title": "Category-Theoretic Control Theory: Differentiable Monoidal Dynamics for Trainable Quantum Generators",
+   "doi": "10.33774/coe-2025-mqqfp",
+   "year": 2025,
+   "container": ""
+  },
+  {
+   "title": "Resource Theories: Monoidal Preorders and Enrichment",
+   "doi": "10.1017/9781108668804.003",
+   "year": 2019,
+   "container": "An Invitation to Applied Category Theory"
+  },
+  {
+   "title": "Symmetric Monoidal Closed Category of G-G-Categories",
+   "doi": "10.1017/9781009775175.004",
+   "year": 2026,
+   "container": "Multifunctorial Equivariant Algebraic K-Theory"
+  },
+  {
+   "title": "MULTIPLAYERS' GAMES COMPOSITIONAL STRUCTURE IN THE MONOIDAL CATEGORY OF BINARY RELATIONS",
+   "doi": "10.14357/19922264230203",
+   "year": 2023,
+   "container": "Informatics and Applications"
+  }
+ ]
+}

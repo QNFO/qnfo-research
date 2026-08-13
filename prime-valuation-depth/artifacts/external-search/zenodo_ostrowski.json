@@ -1,0 +1,38 @@
+{
+ "query": "Ostrowski p-adic valuation",
+ "count": 751947,
+ "items": [
+  {
+   "title": "\\(p\\)-Adic Valuation of \\(\\prod_{k=m+1}^{n} (k^2-m^2)\\)",
+   "doi": "10.5281/zenodo.8214818"
+  },
+  {
+   "title": "GDeLaurentis/pyadic: v0.3.0",
+   "doi": "10.5281/zenodo.18881428"
+  },
+  {
+   "title": "New Results on the p-Adic Valuation of Stirling Numbers",
+   "doi": "10.5281/zenodo.10995993"
+  },
+  {
+   "title": "Valuations and Combinatorics of Truncated Exponential Sums",
+   "doi": "10.5281/zenodo.10183978"
+  },
+  {
+   "title": "Lema de densidad 2-\u00e1dica en la trayectoria impar de Collatz",
+   "doi": "10.5281/zenodo.18035347"
+  },
+  {
+   "title": "Unified p-Adic Bounds and Computation for the Erd\u0151s\u2013Moser Equation",
+   "doi": "10.5281/zenodo.15738443"
+  },
+  {
+   "title": "The Beal Symmetry Collision: A Machine-Certified Solution via p-adic Valuations",
+   "doi": "10.5281/zenodo.19289605"
+  },
+  {
+   "title": "Radix-\\(r\\) Congruence Speed Verification Tool (Python Script)",
+   "doi": "10.5281/zenodo.18366408"
+  }
+ ]
+}

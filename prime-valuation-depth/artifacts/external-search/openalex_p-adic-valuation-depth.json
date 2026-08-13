@@ -1,0 +1,62 @@
+{
+ "query": "\"p-adic valuation\" AND depth AND prime",
+ "count": 257,
+ "items": [
+  {
+   "title": "Pseudo real closed fields, pseudo p-adically closed fields and NTP2",
+   "doi": "10.1016/j.apal.2016.09.004",
+   "year": 2016,
+   "cited": 21,
+   "type": "article"
+  },
+  {
+   "title": "Iwasawa theory of p-adic Lie extensions",
+   "doi": "10.11588/heidok.00001451",
+   "year": 2001,
+   "cited": 10,
+   "type": "dissertation"
+  },
+  {
+   "title": "The complexity of linear problems in fields",
+   "doi": "10.1016/s0747-7171(88)80003-8",
+   "year": 1988,
+   "cited": 259,
+   "type": "article"
+  },
+  {
+   "title": "Arithmetic properties of generalized Fibonacci sequences",
+   "doi": "10.48550/arxiv.1407.8086",
+   "year": 2014,
+   "cited": 5,
+   "type": "preprint"
+  },
+  {
+   "title": "A New Computational Approach to Ideal Theory in Number Fields",
+   "doi": "10.1007/s10208-012-9137-5",
+   "year": 2012,
+   "cited": 34,
+   "type": "article"
+  },
+  {
+   "title": "Local computation of differents and discriminants",
+   "doi": "10.48550/arxiv.1205.1340",
+   "year": 2012,
+   "cited": 2,
+   "type": "preprint"
+  },
+  {
+   "title": "Good reduction of Puiseux series and applications",
+   "doi": "10.1016/j.jsc.2011.08.008",
+   "year": 2011,
+   "cited": 27,
+   "type": "article"
+  },
+  {
+   "title": "Power sums with applications to multizeta and zeta zero distribution for <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si1.gif\" overflow=\"scroll\"><mml:msub><mml:mi mathvariant=\"double-struck\">F</mml:mi><mml:mi>q</mml:mi></mml:msub><mml:mo stretchy=\"false\">[</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy=\"false\">]</mml:mo></mml:math>",
+   "doi": "10.1016/j.ffa.2009.04.002",
+   "year": 2009,
+   "cited": 40,
+   "type": "article"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "query": "\"laws of form\" OR \"calculus of indications\" AND distinction",
+ "count": 70,
+ "items": [
+  {
+   "title": "The extended calculus of indications interpreted as a three-valued logic.",
+   "doi": "10.1305/ndjfl/1093882412",
+   "year": 1979,
+   "cited": 22,
+   "type": "article"
+  },
+  {
+   "title": "Surmounting the Cartesian Cut Through Philosophy, Physics, Logic, Cybernetics, and Geometry: Self-reference, Torsion, the Klein Bottle, the Time Operator, Multivalued Logics and Quantum Mechanics",
+   "doi": "10.1007/s10701-009-9334-5",
+   "year": 2009,
+   "cited": 24,
+   "type": "article"
+  },
+  {
+   "title": "A Sociological Reading of George Spencer-Brown's Laws of Form",
+   "doi": "10.2139/ssrn.3678663",
+   "year": 2020,
+   "cited": 2,
+   "type": "preprint"
+  },
+  {
+   "title": "On the distinction between distinction and division",
+   "doi": "10.1386/tear.13.3.245_1",
+   "year": 2015,
+   "cited": 3,
+   "type": "article"
+  },
+  {
+   "title": "Guiding distinctions of social theory. Analogue guidelines or digital transformers? An introduction",
+   "doi": "10.1177/00113921251341658",
+   "year": 2025,
+   "cited": 3,
+   "type": "article"
+  },
+  {
+   "title": "Recursive Distinctioning",
+   "doi": "10.48550/arxiv.1606.06965",
+   "year": 2016,
+   "cited": 1,
+   "type": "preprint"
+  },
+  {
+   "title": "A Calculus of Negation in Communication",
+   "doi": "",
+   "year": 2017,
+   "cited": 2,
+   "type": "preprint"
+  },
+  {
+   "title": "Triplicity in Spencer-Brown, Lacan, and Poe",
+   "doi": "10.1007/978-3-319-63817-1_8",
+   "year": 2018,
+   "cited": 2,
+   "type": "book-chapter"
+  }
+ ]
+}

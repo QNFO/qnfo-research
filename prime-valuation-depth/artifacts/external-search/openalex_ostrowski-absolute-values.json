@@ -1,0 +1,62 @@
+{
+ "query": "Ostrowski AND \"absolute values\" AND p-adic",
+ "count": 165,
+ "items": [
+  {
+   "title": "p-adic string",
+   "doi": "10.1088/0264-9381/4/4/003",
+   "year": 1987,
+   "cited": 425,
+   "type": "article"
+  },
+  {
+   "title": "A construction for absolute values in polynomial rings",
+   "doi": "10.1090/s0002-9947-1936-1501879-8",
+   "year": 1936,
+   "cited": 190,
+   "type": "article"
+  },
+  {
+   "title": "A Construction for Absolute Values in Polynomial Rings",
+   "doi": "10.2307/1989629",
+   "year": 1936,
+   "cited": 57,
+   "type": "article"
+  },
+  {
+   "title": "p-adic CFT is a holographic tensor network",
+   "doi": "10.1007/jhep04(2019)170",
+   "year": 2019,
+   "cited": 43,
+   "type": "article"
+  },
+  {
+   "title": "Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $\\mathrm{AdS}_3 / \\mathrm{CFT}_2$ correspondence",
+   "doi": "10.4310/atmp.2018.v22.n1.a4",
+   "year": 2018,
+   "cited": 56,
+   "type": "article"
+  },
+  {
+   "title": "Estimates for p-adic fractional integral operator and its commutators on p-adic Morrey\u2013Herz spaces",
+   "doi": "10.1186/s13660-022-02829-6",
+   "year": 2022,
+   "cited": 10,
+   "type": "article"
+  },
+  {
+   "title": "A p-Adic Matter in a Closed Universe",
+   "doi": "10.3390/sym14010073",
+   "year": 2022,
+   "cited": 10,
+   "type": "article"
+  },
+  {
+   "title": "Value groups, residue fields, and bad places of rational function fields",
+   "doi": "10.1090/s0002-9947-04-03463-4",
+   "year": 2004,
+   "cited": 85,
+   "type": "article"
+  }
+ ]
+}

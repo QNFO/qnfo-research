@@ -1,0 +1,54 @@
+{
+ "query": "\"no-cloning theorem\" AND tensor AND linearity",
+ "count": 225417,
+ "items": [
+  {
+   "title": "No-Cloning Theorem and Quantum Cloning Machines",
+   "doi": "10.1201/9781003172192-11",
+   "year": 2022,
+   "container": "Quantum Mechanics II"
+  },
+  {
+   "title": "Independent Events and Tensor Products",
+   "doi": "10.1007/0-387-26369-1_11",
+   "year": null,
+   "container": "Undergraduate Texts in Mathematics"
+  },
+  {
+   "title": "The Non-Linearity of Scientific Description and the Non-Probativity Theorem",
+   "doi": "10.1037/e627242011-001",
+   "year": 2000,
+   "container": "PsycEXTRA Dataset"
+  },
+  {
+   "title": "The Wigner-Eckart Theorem",
+   "doi": "10.1016/b978-0-12-643650-1.50011-1",
+   "year": 1976,
+   "container": "Irreducible Tensor Methods"
+  },
+  {
+   "title": "Test of Linearity in Ke and Kd as Claimed in M&amp;M Theorem: Evidence from KSE-Pakistan",
+   "doi": "10.2139/ssrn.1549465",
+   "year": 2010,
+   "container": ""
+  },
+  {
+   "title": "Frobenius kernels of algebraic supergroups and Steinberg's tensor product theorem",
+   "doi": "10.21203/rs.3.rs-2357622/v1",
+   "year": 2022,
+   "container": ""
+  },
+  {
+   "title": "A two-component Bose-Einstein condensate can \u2018bypass\u2019 the no-cloning theorem",
+   "doi": "10.36227/techrxiv.21716615.v1",
+   "year": 2022,
+   "container": ""
+  },
+  {
+   "title": "A two-component Bose-Einstein condensate can \u2018bypass\u2019 the no-cloning theorem",
+   "doi": "10.36227/techrxiv.21716615",
+   "year": 2022,
+   "container": ""
+  }
+ ]
+}

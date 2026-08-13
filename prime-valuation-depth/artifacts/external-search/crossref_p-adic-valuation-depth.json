@@ -1,0 +1,54 @@
+{
+ "query": "\"p-adic valuation\" AND depth AND prime",
+ "count": 254980,
+ "items": [
+  {
+   "title": "The\n            <i>p</i>\n            -adic Valuation of Lucas Sequences When\n            <i>p</i>\n            Is a Special Prime",
+   "doi": "10.1080/00150517.2019.12427650",
+   "year": 2019,
+   "container": "The Fibonacci Quarterly"
+  },
+  {
+   "title": "Errata - The\n            <i>p</i>\n            -adic Valuation of Lucas Sequences When\n            <i>p</i>\n            Is a Special Prime",
+   "doi": "10.1080/00150517.2019.12427639",
+   "year": 2019,
+   "container": "The Fibonacci Quarterly"
+  },
+  {
+   "title": "A Canonical Two-Class Partition of Pythagorean Triples via 3-Adic Valuation",
+   "doi": "10.2139/ssrn.6631638",
+   "year": 2026,
+   "container": ""
+  },
+  {
+   "title": "On ergodicity of p-adic dynamical systems for arbitrary prime p",
+   "doi": "10.1134/s2070046613030072",
+   "year": 2013,
+   "container": "P-Adic Numbers, Ultrametric Analysis, and Applications"
+  },
+  {
+   "title": "p-adic valuation of exponential sums associated to trinomials and some consequences",
+   "doi": "10.1134/s2070046617040021",
+   "year": 2017,
+   "container": "p-Adic Numbers, Ultrametric Analysis and Applications"
+  },
+  {
+   "title": "VALUATION FUNCTIONS FOR ANALYTIC ELEMENTS",
+   "doi": "10.1142/9789812831019_0020",
+   "year": 1995,
+   "container": "Analytic Elements in P-Adic Analysis"
+  },
+  {
+   "title": "The2-adic and3-adic valuation of the Tripell sequence and an application",
+   "doi": "10.3906/mat-1907-40",
+   "year": 2020,
+   "container": "TURKISH JOURNAL OF MATHEMATICS"
+  },
+  {
+   "title": "Vertex Edge Neighborhood Prime Valuation of Union of Graphs",
+   "doi": "10.5373/jardcs/v12i7/20202044",
+   "year": 2020,
+   "container": "Journal of Advanced Research in Dynamical and Control Systems"
+  }
+ ]
+}

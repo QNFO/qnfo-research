@@ -1,0 +1,46 @@
+{
+ "query": "no-cloning theorem quantum",
+ "count": 370,
+ "items": [
+  {
+   "title": "No cloning of quantum ensembles.",
+   "doi": "10.1038/s41467-026-74924-x",
+   "year": "2026"
+  },
+  {
+   "title": "Autoencoding-Assisted Quantum Cloning Machine.",
+   "doi": "10.3390/e28050563",
+   "year": "2026"
+  },
+  {
+   "title": "Encrypted Qubits Can Be Cloned.",
+   "doi": "10.1103/y4y1-1ll6",
+   "year": "2026"
+  },
+  {
+   "title": "Fault-Injection Probing: A Causal Interpretability Framework for Quantum Machine Learning Models",
+   "doi": "10.21203/rs.3.rs-8766996/v1",
+   "year": "2026"
+  },
+  {
+   "title": "Thermal-State Continuous-Variable Quantum Key Distribution Under the Effects of Gravity.",
+   "doi": "10.3390/e28050501",
+   "year": "2026"
+  },
+  {
+   "title": "On the equivalence between classically verifiable position verification and certified randomness.",
+   "doi": "10.1038/s41467-026-70628-4",
+   "year": "2026"
+  },
+  {
+   "title": "Experimental masking of qubit states on arbitrary disks",
+   "doi": "10.21203/rs.3.rs-7150114/v1",
+   "year": "2025"
+  },
+  {
+   "title": "Quantum-entangled neuro-symbolic swarm federation for privacy-preserving IoMT-driven multimodal healthcare.",
+   "doi": "10.1038/s41598-025-31820-6",
+   "year": "2025"
+  }
+ ]
+}

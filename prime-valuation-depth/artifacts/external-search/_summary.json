@@ -1,0 +1,21 @@
+{
+ "openalex:p-adic-valuation-depth": 8,
+ "crossref:p-adic-valuation-depth": 8,
+ "openalex:ostrowski-absolute-values": 8,
+ "crossref:ostrowski-absolute-values": 8,
+ "openalex:calculus-of-indications": 8,
+ "crossref:calculus-of-indications": 8,
+ "openalex:p-adic-quantum-mechanics": 0,
+ "crossref:p-adic-quantum-mechanics": 8,
+ "openalex:no-cloning-structural": 8,
+ "crossref:no-cloning-structural": 8,
+ "openalex:monoidal-cartesian-hilb": 8,
+ "crossref:monoidal-cartesian-hilb": 8,
+ "arxiv:p-adic-quantum-mechanics": 0,
+ "arxiv:ostrowski-absolute-values": 8,
+ "arxiv:no-cloning-structural": 8,
+ "zenodo:ostrowski": 8,
+ "zenodo:no-cloning": 8,
+ "europepmc:no-cloning": 8,
+ "web:padic-lof-bridge": 1
+}
