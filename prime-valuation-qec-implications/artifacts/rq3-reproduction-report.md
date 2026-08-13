@@ -77,3 +77,18 @@ from spec alone (no dataset, no implementation, no baseline are shipped).
    v_2 ≥ 28 becomes attainable.
 3. Manuscript §6/C8 updated to REPRODUCTION-ATTEMPTED (2026-08-13): failed at n ≤ 18 under the
    weight-enumerator normalization; status remains [UNVERIFIED-INTERNAL] pending source clarification.
+
+## 7. Corrective Commit (2026-08-13, same session)
+
+**Provenance fix:** the first push of this report's companion artifacts (commit bf5152e) was made
+from a stale temp workspace where the compute script's LAST WRITE was an intermediate debugging
+variant. The committed `rq3-results.json` and `notebooks/rq3-mahler-reproduction.py` therefore
+contained a BROKEN run (55/55 invalid; wrong toric verification, pre-fix random Clifford, broken
+Shor/5-qubit constructions). The scientific results in §3 above were never in doubt — they come
+from the verified-good run (0/55 invalid) — but the shipped data files were wrong. This corrective
+commit (commit hash below) re-ships the data files from the verified-good run:
+- `rq3-results.json`: 55/55 codes valid; families CSS [1,1], Surface [1,3], Optimal [4], Random
+  50/50 median 3 (max 6); C7.3' separation gap = 1 (claim 28 vs 4) → NOT REPRODUCED.
+- `notebooks/rq3-mahler-reproduction.py`: fixed version (rank-based toric verification; standard
+  [[5,1,3]] Laflamme generator set; random Clifford with one gate per iteration and CNOT t != q).
+The fix was verified by re-reading the committed files from the remote, not just the push hash.

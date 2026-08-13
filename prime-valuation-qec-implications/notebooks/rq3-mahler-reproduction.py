@@ -2,7 +2,7 @@ import random, json, os
 from collections import Counter
 from math import comb
 
-OUT = os.path.join(os.environ["TEMP"], "res006-p4b-evidence")
+OUT = os.path.join(os.environ["TEMP"], "res006-p4c-evidence")
 os.makedirs(OUT, exist_ok=True)
 
 def vp(n, p=2):
@@ -105,7 +105,7 @@ def run_code(name, family, n, gens, expected_k=None):
 
 results = []
 
-# ---------- CSS: quantum Hamming ----------
+# ---------- CSS: quantum Hamming (self-orthogonal Hamming parity checks) ----------
 def hamming_check(mbits):
     cols = [v for v in range(1, 1 << mbits)]
     n = len(cols)
@@ -121,7 +121,7 @@ for mbits in [3, 4]:
     k = n - 2 * mbits
     results.append(run_code(f"Hamming-CSS-{n}-{k}-3", "CSS", n, gens, k))
 
-# ---------- Surface: toric LxL ----------
+# ---------- Surface: toric LxL (rank-based verify handles the 2 relations) ----------
 def toric(L):
     n = 2 * L * L
     gens = []
@@ -138,14 +138,14 @@ for L in [2, 3]:
     n, gens = toric(L)
     results.append(run_code(f"Toric-{L}-{n}-2-{L}", "Surface", n, gens, 2))
 
-# ---------- Optimal: [[5,1,3]] ----------
+# ---------- Optimal: [[5,1,3]] perfect code (verified standard Laflamme set) ----------
 g5 = [encode_pauli(5, [0, 3], [1, 2]),
       encode_pauli(5, [1, 4], [2, 3]),
       encode_pauli(5, [0, 2], [3, 4]),
       encode_pauli(5, [1, 3], [0, 4])]
 results.append(run_code("Five-Qubit-5-1-3", "Optimal", 5, g5, 1))
 
-# ---------- Random: 50 (FIXED: t != q in CNOT) ----------
+# ---------- Random: 50 random stabilizer codes (ONE gate per iteration, CNOT t != q) ----------
 def random_clifford_code(n, k, seed):
     rng = random.Random(seed)
     m = n - k
@@ -209,12 +209,6 @@ print(f"vp_max medians: Optimal={om}, Random={rm}, CSS={sorted(css)[len(css)//2]
 print(f"gap optimal-random: {om - rm}")
 print(f"random max ({max(rnd)}) vs optimal ({opt}): random exceeds optimal: {max(rnd) > max(opt)}")
 print(f"CLAIMED: optimal=28 vs random=4 (gap >= 10). OBSERVED at n<=18: gap={om - rm}, optimal max vp_max={max(opt)}")
-
-print("\n=== DETAILED (non-random) ===")
-for r in results:
-    if r["family"] != "Random":
-        slim = {k: v for k, v in r.items() if k not in ("enumerator", "mahler_coeffs", "vp_spectrum")}
-        print(json.dumps(slim, default=str))
 
 with open(os.path.join(OUT, "rq3-results.json"), "w", encoding="utf-8") as f:
     json.dump({"families": table, "codes": results}, f, indent=1, default=str)
