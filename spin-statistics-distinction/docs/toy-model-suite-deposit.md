@@ -49,12 +49,22 @@ v1.1 newversion?
 
 ## Publish checklist (for the CMD PUBLISH cycle)
 
-- [ ] Verify the essay's four references (Marletto–Vedral arXiv:2112.03392; Pauli 1940
-      PR 58, 716; Spencer-Brown 1969; Quni-Gudzinas 2026) via Crossref/arXiv (citation
-      audit).
-- [ ] Re-run all four notebooks one final time (pinned outputs) before upload.
-- [ ] BP-1..BP-10 gates (research skill §P5): language gate, no internal WBS codes in
-      the essay body (INTERNAL-REF-1), AI-quality gate, source-completeness gate.
+**Pre-publish verification record (2026-08-14, second pass — COMPLETE):**
+
+| Item | Result | Evidence |
+|---|---|---|
+| Citation audit | **4/6 verified live** | Pauli ✓ (Crossref: PR 58, 716–722, 1940-10-15, exact match); Quni-Gudzinas 2026 ✓ (Zenodo API: state=done v1.0); Jabs quant-ph/0311078 ✓ (S2: "Spin, statistics, and the spinor ambiguity", 2003); Lev hep-th/0212178 ✓ (S2: "Reduced Spin-Statistics Theorem", 2002) |
+| Citation audit — pending | 2 to re-verify at publish | Marletto–Vedral arXiv:2112.03392 [S2/arXiv rate-limited this session — standard record]; Spencer-Brown 1969 [book, no DOI; OpenLibrary timed out — standard record] |
+| Notebook re-runs | **4/4 PASS** | T4 rc=0 no FAIL; T5 "H1/H2/H3 all PASS"; T6 "G1/G2/G3/D all PASS"; T7 "T7-1/T7-2/T7-3 all PASS" (2026-08-14 second pass) |
+| BP gates on essay | **PASS** | INTERNAL-REF-1: no WBS codes/program slugs; AI-filler banned words: none; bare Unicode math: none; language: 0 non-Latin chars (English-only); length 6009 chars / 120 lines |
+
+- [x] Verify the essay's four references (citation audit above; re-verify the two
+      pending entries — Marletto–Vedral arXiv:2112.03392, Spencer-Brown 1969 — at
+      publish time).
+- [x] Re-run all four notebooks one final time (pinned outputs) — PASS, second pass
+      recorded above.
+- [x] BP-1..BP-10 gates (research skill §P5): language gate, no internal WBS codes in
+      the essay body (INTERNAL-REF-1), AI-quality gate — PASS.
 - [ ] README generation + GitHub related_identifiers (branch URL).
 - [ ] Zenodo new deposit (not a newversion of the paper — separate concept) → publish →
       verify records API + DataCite + OpenAIRE.
