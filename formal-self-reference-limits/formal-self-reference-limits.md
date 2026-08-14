@@ -6,7 +6,7 @@
 **Date:** 2026-08-14
 **Version:** v0.1-draft
 **Status:** draft
-**WBS:** QNFO.RES.007
+**WBS:** QNFO.RES.008
 **Repository:** https://github.com/QNFO/qnfo-research/tree/res/paper/formal-self-reference-limits
 
 ---
@@ -183,4 +183,4 @@ Formal systems are maps, and maps exclude their mapmakers by design. The anthrop
 
 ---
 
-*Prepared under the research pipeline (QNFO.RES.007). All internal DOIs verified via resolve_paper_id / D1 (see citation-audit.md). External canon entries verified against arXiv/OpenAlex/Crossref evidence saved in artifacts/external-search/. Falsifiability conditions stated in §9.*
+*Prepared under the research pipeline (QNFO.RES.008). All internal DOIs verified via resolve_paper_id / D1 (see citation-audit.md). External canon entries verified against arXiv/OpenAlex/Crossref evidence saved in artifacts/external-search/. Falsifiability conditions stated in §9.*

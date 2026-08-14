@@ -1,6 +1,6 @@
-# Gap Analysis — QNFO.RES.007 Formal Self-Reference Limits
+# Gap Analysis — QNFO.RES.008 Formal Self-Reference Limits
 
-**WBS:** QNFO.RES.007.P1 (Due Diligence) — §1(c) Gap Analysis
+**WBS:** QNFO.RES.008.P1 (Due Diligence) — §1(c) Gap Analysis
 **Date:** 2026-08-14
 
 ## 1. What the QNFO corpus already covers

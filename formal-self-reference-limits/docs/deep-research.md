@@ -1,6 +1,6 @@
-# Deep Research — QNFO.RES.007 Formal Self-Reference Limits
+# Deep Research — QNFO.RES.008 Formal Self-Reference Limits
 
-**WBS:** QNFO.RES.007.P1 (Due Diligence)
+**WBS:** QNFO.RES.008.P1 (Due Diligence)
 **Date:** 2026-08-14
 **Seed question:** "Why are our formal quantitative systems uncomfortable with self-reference when they are also inherently anthropocentric, from base-10 pentadactylity to length of time (heartbeat Hertz) and space? Can we not truly see ourselves?"
 

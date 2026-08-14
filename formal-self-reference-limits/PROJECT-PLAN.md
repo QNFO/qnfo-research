@@ -1,9 +1,9 @@
-# WBS: QNFO.RES.007
+# WBS: QNFO.RES.008
 
 # Formal Self-Reference Limits — Project Plan
 
 **Project:** Formal Self-Reference Limits — why formal quantitative systems are "uncomfortable" with self-reference despite their anthropocentric origins, and what this implies for self-knowledge
-**WBS:** QNFO.RES.007
+**WBS:** QNFO.RES.008
 **Program:** QNFO.RES (QNFO Research Archive)
 **Repo:** QNFO/qnfo-research
 **Branch:** res/paper/formal-self-reference-limits
@@ -43,14 +43,14 @@ Distinction from the map–territory canon (KIF-60 / MAP-TERRITORY-1): the seed 
 
 | Phase | WBS | Milestone | Gate criteria |
 |:------|:----|:----------|:--------------|
-| 0 | QNFO.RES.007.P0 | Scaffold | Branch, PROJECT-PLAN.md, P6 locked, committed/tagged/pushed |
-| 1 | QNFO.RES.007.P1 | Due diligence | KG + full-corpus + external search, gap analysis, KIF-29 consilience gate, evidence files in artifacts/external-search/ |
-| 2 | QNFO.RES.007.P2 | Draft | Seed note distilled into formal paper draft (MD) with references |
-| 3 | QNFO.RES.007.P3 | Author gate | Citation integrity (P3.AUTHOR-GATE), no fabrication risks |
-| 4 | QNFO.RES.007.P4 | Red-team | 5-adversary + UIA 15Q audit; HARD findings fixed |
-| 5 | QNFO.RES.007.P5 | Publication | Zenodo deposit (all source files + GitHub provenance), D1, Vectorize, KG node, papers.qnfo.org |
-| 6 | QNFO.RES.007.P6 | Distribution | 4-D: IPFS/Arweave/DNSLink/Internet Archive, R2 archive, IndexNow |
-| 7 | QNFO.RES.007.P7 | Closeout | Consolidated verification, memory log, tags |
+| 0 | QNFO.RES.008.P0 | Scaffold | Branch, PROJECT-PLAN.md, P6 locked, committed/tagged/pushed |
+| 1 | QNFO.RES.008.P1 | Due diligence | KG + full-corpus + external search, gap analysis, KIF-29 consilience gate, evidence files in artifacts/external-search/ |
+| 2 | QNFO.RES.008.P2 | Draft | Seed note distilled into formal paper draft (MD) with references |
+| 3 | QNFO.RES.008.P3 | Author gate | Citation integrity (P3.AUTHOR-GATE), no fabrication risks |
+| 4 | QNFO.RES.008.P4 | Red-team | 5-adversary + UIA 15Q audit; HARD findings fixed |
+| 5 | QNFO.RES.008.P5 | Publication | Zenodo deposit (all source files + GitHub provenance), D1, Vectorize, KG node, papers.qnfo.org |
+| 6 | QNFO.RES.008.P6 | Distribution | 4-D: IPFS/Arweave/DNSLink/Internet Archive, R2 archive, IndexNow |
+| 7 | QNFO.RES.008.P7 | Closeout | Consolidated verification, memory log, tags |
 
 ---
 

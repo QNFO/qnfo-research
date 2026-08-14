@@ -1,6 +1,6 @@
-# Red-Team Audit — QNFO.RES.007 Formal Self-Reference Limits (Phase 4)
+# Red-Team Audit — QNFO.RES.008 Formal Self-Reference Limits (Phase 4)
 
-**WBS:** QNFO.RES.007.P4
+**WBS:** QNFO.RES.008.P4
 **Date:** 2026-08-14
 **Method:** Reviewer subagent dispatched (delegation 9zuk0tnuy7ikUgJBLwUUO) — stalled at revision 3 after ~2 min (documented environment pattern; per Mandate 3 fallback, direct parent-agent audit executed covering all three dimensions with live tool verification).
 

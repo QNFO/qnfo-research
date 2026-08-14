@@ -1,6 +1,6 @@
-# Citation Audit — QNFO.RES.007 Formal Self-Reference Limits
+# Citation Audit — QNFO.RES.008 Formal Self-Reference Limits
 
-**WBS:** QNFO.RES.007.P2 (Draft) — P3.AUTHOR-GATE
+**WBS:** QNFO.RES.008.P2 (Draft) — P3.AUTHOR-GATE
 **Date:** 2026-08-14
 **Method:** Every reference verified against primary source (resolve_paper_id / D1 body / arXiv metadata / OpenAlex-Crossref-Zenodo evidence in artifacts/external-search/). No unverified attributions.
 
