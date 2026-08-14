@@ -1,0 +1,32 @@
+{
+  "query_date": "2026-08-14",
+  "wbs": "QNFO.RES.009",
+  "source": "arxiv-mcp-server (export.arxiv.org API)",
+  "queries": [
+    {"q": "ti:\"spin-statistics\"", "categories": ["quant-ph","math-ph","hep-th"], "results": 15},
+    {"q": "\"spin-statistics\" AND (\"braided\" OR \"anyons\" OR \"topological order\")", "categories": ["quant-ph","math-ph","hep-th","math.CT"], "results": 15},
+    {"q": "au:\"Leinaas\" AND (\"anyons\" OR \"fractional statistics\")", "categories": ["quant-ph","math-ph"], "results": 10}
+  ],
+  "anchors": [
+    {"arxiv_id": "1507.06297", "title": "Spin, statistics, orientations, unitarity", "author": "Theo Johnson-Freyd"},
+    {"arxiv_id": "quant-ph/0110169", "title": "Spin-Statistics Theorem and Geometric Quantisation", "author": "Charis Anastopoulos"},
+    {"arxiv_id": "quant-ph/0208151", "title": "Spin & Statistics in Nonrelativistic Quantum Mechanics, I", "author": "Bernd Kuckert"},
+    {"arxiv_id": "quant-ph/0411197", "title": "Spin & Statistics in Nonrelativistic Quantum Mechanics, II", "author": "Kuckert, Mund"},
+    {"arxiv_id": "0801.3621", "title": "The Spin-Statistics Theorem for Anyons and Plektons in d=2+1", "author": "Jens Mund"},
+    {"arxiv_id": "hep-th/0008072", "title": "The Quantum Geometry of Spin and Statistics", "author": "Robert Oeckl"},
+    {"arxiv_id": "hep-th/0106122", "title": "Quantum Geometry of Supersymmetry and the Generalized Group Extension Problem", "author": "Robert Oeckl"},
+    {"arxiv_id": "cond-mat/9903329", "title": "Spin and Statistics for Quantum Hall Quasi-Particles", "author": "Jon Magne Leinaas"},
+    {"arxiv_id": "2208.13786", "title": "Spin-statistics relation and the Abelian braiding phase for anyons in fractional quantum Hall effect", "author": "Trung, Wang, Yang"},
+    {"arxiv_id": "2211.07788", "title": "Spin-statistics relation for quantum Hall states", "author": "Nardin, Ardonne, Mazza"},
+    {"arxiv_id": "2112.02901", "title": "Measurable fractional spin for quantum Hall quasiparticles on the disk", "author": "Comparin et al."},
+    {"arxiv_id": "hep-th/9202052", "title": "Topological Spin-Statistics Theorem for Strings", "author": "Balachandran, McGlinn, O'Raifeartaigh, Sen, Sorkin, Srivastava"},
+    {"arxiv_id": "hep-th/9711085", "title": "Spin-Statistics and CPT for solitons", "author": "Karl-Henning Rehren"},
+    {"arxiv_id": "hep-th/9412130", "title": "A New Approach to Spin and Statistics", "author": "Bernd Kuckert"},
+    {"arxiv_id": "1609.01470", "title": "Localisation in Quantum Field Theory", "author": "A. P. Balachandran"},
+    {"arxiv_id": "2112.03392", "title": "Spin, Statistics, Spacetime and Quantum Gravity", "author": "Marletto, Vedral"},
+    {"arxiv_id": "1008.5382", "title": "Generalized Spin-Statistics Theorem", "author": "Lauri J. Suoranta"},
+    {"arxiv_id": "hep-th/0212178", "title": "Reduced Spin-Statistics Theorem", "author": "Felix M. Lev"},
+    {"arxiv_id": "1308.5984", "title": "Braiding Statistics and Congruent Invariance of Twist Defects", "author": "Teo, Roy, Chen"},
+    {"arxiv_id": "1404.7854", "title": "Non-Abelian String and Particle Braiding in Topological Order: Modular SL(3,Z)", "author": "Wang, Wen"}
+  ]
+}
