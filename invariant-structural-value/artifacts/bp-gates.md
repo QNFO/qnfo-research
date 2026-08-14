@@ -50,8 +50,9 @@ phase2-literature-review.md §4 (KIF-18) with equal kill-criteria (KIF-60, 2026-
 
 ## BP-10 Independent-Recompute — PASS (HARD)
 All numerical claims re-derived independently via Python (fit-verify.txt) rather than copied
-from the draft or prior papers. Citation DOIs verified against live Crossref/OpenAlex (P3.AUTHOR-GATE,
-51/51 — citation-audit.md).
+from the draft or prior papers. Citation DOIs verified against live Crossref/DataCite/arXiv
+registries (P3.AUTHOR-GATE — citation-audit.md: 42 unique works, 40 live-verified + 1 canonical
+book without DOI + 2 preprints; 6 wrong/synthetic DOIs corrected).
 
 ---
 

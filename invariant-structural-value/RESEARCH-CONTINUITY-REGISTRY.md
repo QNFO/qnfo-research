@@ -44,7 +44,7 @@ Created: 2026-08-14 · Living document — maintained with version bumps. Branch
 |:---------|:-------|:-----------|:-------|
 | P0 | ~~P4 formal derivation of C3 (fixed-point equations from mark/distinction)~~ **DONE 2026-08-14 (01f4018)** — FQ1 closed; verify derivation against BP-1/BP-6/BP-10 in P5 | Draft §5 | 2026-08-31 |
 | P0 | P5 BP-1..BP-10 gates (fit-verify, terminology, density, consistency, overdetermined, derived recompute, sigma, numerology classification, audit-the-auditor, independent recompute) | P4 draft | 2026-09-07 |
-| P1 | P5 citation re-verification of 5 FLAGGED entries (2 preprints, Worrall 1989, Joyal-Street 1991, Spencer-Brown 1969) | citation-audit.md | 2026-09-07 |
+| P1 | P5 citation re-verification of 5 FLAGGED entries (2 preprints, Worrall 1989, Joyal-Street 1993 [bib key joyalstreet1993], Spencer-Brown 1969) | citation-audit.md | 2026-09-07 |
 | P1 | P5 Zenodo publication + GitHub provenance + D1/KG/Vectorize deployment | BP gates | 2026-09-14 |
 
 ## 7. SESSION LOG + MAINTENANCE PROTOCOL

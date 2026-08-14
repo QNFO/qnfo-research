@@ -5,20 +5,22 @@
 **Branch:** res/paper/invariant-structural-value
 **WBS:** QNFO.RES.007
 **Gate:** P3.AUTHOR-GATE (HARD) — every entry verified against live registry metadata before commit
+**Post-publication audit:** reviewer-subagent red-team (2026-08-14) found HARD-1 (duplicate work + synthetic DOI), HARD-2 (work-level accounting), HARD-3 (BP-10 count) — all remediated in this revision (v0.2, newversion 21929480). See §8.
 
 ## 1. Summary
 
 | Metric | Value |
 |:-------|:------|
-| Bibliography entries (`artifacts/references.bib`) | **43** |
-| Live-verified via Crossref API | 12 |
+| Bibliography entries (`artifacts/references.bib`) | **42** (unique works) |
+| Live-verified via Crossref API | 14 (incl. Worrall 1989, French-Ladyman 2003, Joyal-Street 1993) |
 | Live-verified via DataCite API (Zenodo records) | 16 |
 | Live-verified via arXiv API | 10 |
-| Canonical entries (books, fixed metadata) | 3 (Worrall 1989, Joyal-Street 1986, Spencer-Brown 1969) |
-| Manually constructed entries | 2 (Joyal-Street 1986, Spencer-Brown 1969 — canonical books without resolvable DOI; flagged MANUAL in evidence) |
-| DOI corrections applied (P3.AUTHOR-GATE caught) | **5** |
+| Canonical/manual entries (books w/o DOI) | 1 (Spencer-Brown 1969 — no DOI exists; flagged MANUAL) |
+| Preprints verified as preprints | 2 (Abbas 2026, Zhang et al. 2026 — Crossref-verified, cited as preprints) |
+| DOI corrections applied (P3.AUTHOR-GATE caught) | **6** |
 | Duplicate keys | 0 |
-| Wrong-DOI entries removed | 1 (10.1086/289085 — resolved to McMillan book, NOT Worrall) |
+| Duplicate works (post-fix) | 0 (1 found + removed: joyal1986) |
+| Synthetic DOIs (post-fix) | 0 (1 found + fixed: joyalstreet1986 -> 10.1006/aima.1993.1055) |
 
 ## 2. P3.AUTHOR-GATE Findings (DOI corrections — all evidence saved)
 
@@ -29,35 +31,45 @@
 | Esfeld & Lam, *Moderate structural realism about space-time* (2008) | 10.1007/s11229-006-9076-8 (404) | **10.1007/s11229-006-9076-2** (Synthese) | phase3-datacite-verification.json |
 | Kapustin & Witten, *Electric-magnetic duality and the geometric Langlands program* (2007) | 10.4310/cntp.2007.v1.n1 (404) | **10.4310/CNTP.2007.v1.n1.a1** | phase3-datacite-verification.json |
 | Peebles & Ratra, *The cosmological constant and dark energy* (2003) | 10.1103/revmodphys.75.55 (404) | **10.1103/RevModPhys.75.559** | phase3-datacite-verification.json |
-
-**Removed:** `10.1086/289085` never appears in references.bib — the wrong-Worrall guess was identified and stripped (mcmillan1982 entry removed).
+| Joyal & Street, *Braided Tensor Categories* (1993) | `doi = {joyalstreet1986}` (citation key masquerading as DOI — synthetic anchor, 404 both registries) | **10.1006/aima.1993.1055** (Adv. Math. 102:20–78, 1993) | reviewer-subagent live check; phase3-canonical-verification.json |
 
 ## 3. Verification Method Per Entry
 
-- **Zenodo (16 entries):** live DataCite API (`api.datacite.org/dois/<doi>`) — title, creators, year, publisher confirmed. All QNFO-owned records verified: ODR v4.0.4, QM-IGS, α as Cross-Ratio, Syntactic Token Calculus, α-π-Helix, Quantum Laws of Form, Calculus of Distinction, Computable Real Boundary, Base-Invariant Patterns, Winding Numbers, Strange Loop Theory, Notation Problem, Adelic Core Synthesis, Adelic Constraints Project, plus R1/R2 rejection-contrast records (correctly attributed to their real authors — Panahi, not QNFO).
-- **Crossref (12 entries):** live Crossref API (`api.crossref.org/works/<doi>`) — title + author list + journal + volume + year + DOI match. Includes Worrall 1989 and French-Ladyman 2003 (re-verified after correction).
-- **arXiv (10 entries):** live arXiv API (`export.arxiv.org/api/query?id_list=<id>`) — title, authors, raw XML saved.
-- **Canonical books (2):** Joyal-Street 1986 (*Braided monoidal categories*, Adv. Math. 102:20–78) and Spencer-Brown 1969 (*Laws of Form*, Allen & Unwin) — fixed canonical metadata, flagged MANUAL in phase3-canonical-verification.json (books predate DOI registration).
-- **Preprints (2):** Domain Projection (10.21203/rs.3.rs-8629054/v1, Abbas 2026) and Z3-graded framework (10.20944/preprints202512.2527.v2, Zhang et al. 2026) — verified via Crossref; cited as preprints (deficit register item 3 honored).
+- **Crossref (14 entries):** live Crossref API — title + author list + journal + volume + year + DOI match. Includes Worrall 1989, French-Ladyman 2003, Joyal-Street 1993 (re-verified after correction).
+- **DataCite/Zenodo (16 entries):** live DataCite API — all QNFO-owned records verified (ODR v4.0.4, QM-IGS, α Cross-Ratio, STC, α-π-Helix, QLoF, Calculus of Distinction, Computable Real Boundary, Base-Invariant, Winding Numbers, Strange Loop, Notation Problem, Adelic Core, Adelic Constraints, R1/R2 contrast records with correct real authors).
+- **arXiv (10 entries):** live arXiv API — title, authors, raw XML saved.
+- **Canonical (1):** Spencer-Brown 1969, *Laws of Form* (Allen & Unwin) — no DOI registered (book predates DOI); flagged MANUAL.
+- **Preprints (2):** Abbas 2026 (Research Square), Zhang et al. 2026 (Preprints.org) — Crossref-verified, cited as preprints per deficit register.
 
 ## 4. Three-Count Audit (P3.SOURCE-DISCIPLINE)
 
-- Queries sent: 29 DOI verifications (Crossref) + 16 (DataCite) + 10 (arXiv) + 2 (Crossref canonical search) = **57**
-- Sources received (verified unique works): **43**
-- Sources cited in references.bib: **43**
+- Queries sent: 29 (Crossref) + 16 (DataCite) + 10 (arXiv) + 2 (Crossref canonical search) = **57**
+- Sources received (verified unique works): **42**
+- Sources cited in references.bib: **42**
 - Cited > received? **NO** — no fabrication possible.
 
 ## 5. Duplicate Check
 
-- `bibtexparser`/`biber`: not installed (documented per P3.AUTHOR-GATE rule 4).
-- Regex duplicate-key detection run on final file: **43 unique keys, 0 duplicates** (previous build had 1 dup `adelic2026` — fixed in final build; wrong-DOI entry `mcmillan1982` removed).
+- Regex key-level scan: **42 unique keys, 0 duplicates**.
+- Work-level scan (normalized title+author+year): **42 unique works, 0 duplicates** — 1 duplicate (joyal1986, same work as joyalstreet1986) was found by the reviewer subagent post-publication and **removed** in this revision.
+- DOI-format scan: **0 non-DOI strings in doi fields** — the synthetic `doi = {joyalstreet1986}` was fixed to the real DOI.
 
-## 6. Open Items (deferred to P4)
+## 6. Open Items (deferred)
 
-1. **Adelic Constraints Project null (R3)** — full engagement required in C1 section (deficit register item 2).
-2. **C3 constructive derivation** — the [UNIQUE-CLAIM] burden: exhibit fixed-point equations for e (self-application) and π (self-closure), with KIF-60 surprise accounting.
-3. **BP-10 independent recompute** of any α-adjacent numeric claims if the manuscript makes them (deficit register item 4).
+1. **Adelic Constraints Project null (R3)** — full engagement in C1 section (deficit register item 2). P4 manuscript addresses structurally (C1 = role, not derivation).
+2. **C3 constructive derivation** — completed in P4 (01f4018): fixed-point equations for e (self-application) and π (self-closure), KIF-60 surprise accounting in BP-8.
+3. **BP-10 independent recompute** — completed: fit-verify.txt (e series/limit, Machin/Leibniz π, Euler identity, periodicity, f′=f).
 
 ## 7. Conclusion
 
-P3 complete: 43-entry bibliography, all entries live-verified, 5 wrong/stale DOIs corrected (the exact failure class P3.AUTHOR-GATE exists to catch — two guessed canonical DOIs would have shipped wrong without live verification). **Proceed to P4 (Deep Research & Structured Forecast) with the deficit register as input.**
+P3 complete: 42-entry bibliography (unique works), all entries live-verified, 6 wrong/synthetic DOIs corrected (the exact failure class P3.AUTHOR-GATE exists to catch), 0 duplicates, 0 synthetic anchors.
+
+## 8. Post-Publication Audit Remediation (v0.2)
+
+Reviewer subagent (2026-08-14, red-team) returned FAIL on the published v0.1 bibliography:
+- HARD-1: duplicate work joyal1986 (doi={joyalstreet1986} synthetic) — FIXED (removed dup; real DOI 10.1006/aima.1993.1055 added).
+- HARD-2: accounting double-counted Joyal-Street + Worrall 1989 mislabeled canonical — FIXED (§1, §4 corrected to 42 unique works).
+- HARD-3: BP-10 claimed "51/51" and "OpenAlex" — FIXED in bp-gates.md (correct counts, Crossref/DataCite/arXiv only).
+- HARD-4: registry year drift "Joyal-Street 1991" vs 1986/1993 — FIXED (bib key joyalstreet1993 referenced).
+- SOFT: ladyman2007 "and and", ladyman2013 publisher spacing, landry/worrall entry types — FIXED.
+All fixes committed (post-audit commit); newversion 21929480 carries the corrected artifacts. Original published record 21929479 untouched.
