@@ -1,4 +1,13 @@
-# Formal Self-Reference Limits: Objectification, Anthropocentric Conventions, and the Partial Self-Knowledge of Formal Systems
+---
+title: "Formal Self-Reference Limits: Objectification, Anthropocentric Conventions, and the Partial Self-Knowledge of Formal Systems"
+author: "Rowan Brad Quni-Gudzinas"
+date: "2026-08-14"
+license: "QNFO Unified License Agreement (QNFO-ULA)"
+doi: "10.5281/zenodo.21929689"
+status: "published"
+---
+
+## Formal Self-Reference Limits: Objectification, Anthropocentric Conventions, and the Partial Self-Knowledge of Formal Systems
 
 **Author:** Rowan Brad Quni-Gudzinas
 **Affiliation:** QNFO
@@ -6,7 +15,6 @@
 **Date:** 2026-08-14
 **Version:** v0.1-draft
 **Status:** draft
-**WBS:** QNFO.RES.008
 **Repository:** https://github.com/QNFO/qnfo-research/tree/res/paper/formal-self-reference-limits
 
 ---
@@ -55,9 +63,9 @@ The discomfort is real and structural. The liar sentence ("this sentence is fals
 
 It is essential to be precise about "uncomfortable." Formal systems are not allergic to self-reference per se; they are allergic to *uncontrolled* self-reference. A rich toolkit manages self-reference productively: recursive functions with base cases; Gödel numbering (the system "sees" its own syntax as arithmetic); quines in computation (programs printing their own source); fixed-point combinators in the lambda calculus; Tarski's hierarchy of meta-languages; Russell's type theory; non-well-founded set theory (hypersets) [18]; and paraconsistent logics that tolerate local contradictions [19]. The QNFO corpus has its own extensive treatment: *The Universal Computational Topos and Strange Loops* unifies computational self-reference through the Computational Trinity Principle (Object/Model/Meta computation) and topos theory, proving that strange loops are essential features rather than pathological exceptions, with fixed-point spectra as the productive management tool [20]. *The Void Is Not False* recovers the unmarked state in logic from the calculus of indications [21]. The point is that self-reference becomes "comfortable" only when it is *stratified* — when the system that speaks is not the system spoken about. The cost of stratification is precisely that no single level contains the whole truth about itself.
 
-## 4. The Objectification Thesis (Core Claim P6)
+## 4. The Objectification Thesis (Core Claim)
 
-**P6 (locked core claim):** *The discomfort of formal quantitative systems with self-reference is a structural consequence of objectification, not a defect of anthropocentric origin: a formal system is a third-person map, and it can represent itself only at the cost of incompleteness or inconsistency (Gödel, Tarski), while its anthropocentric traces (base-10 notation, heartbeat-second, body-meter) are convention-layer residues that never enter the formal core. Consequently, "truly seeing ourselves" is possible only as partial self-representation through meta-levels — true but never total, consistent only when stratified.*
+**Core claim (locked):** *The discomfort of formal quantitative systems with self-reference is a structural consequence of objectification, not a defect of anthropocentric origin: a formal system is a third-person map, and it can represent itself only at the cost of incompleteness or inconsistency (Gödel, Tarski), while its anthropocentric traces (base-10 notation, heartbeat-second, body-meter) are convention-layer residues that never enter the formal core. Consequently, "truly seeing ourselves" is possible only as partial self-representation through meta-levels — true but never total, consistent only when stratified.*
 
 The thesis has three components.
 
@@ -67,7 +75,7 @@ The thesis has three components.
 
 **(C) The anthropocentric traces are not the cause.** If the discomfort were caused by anthropocentrism, then de-anthropocentrizing the units (natural units, adelic freedom [8]) should remove it. It does not: physics in natural units still cannot decide its own truth predicate; arithmetic in binary still has Gödel sentences. The two phenomena are orthogonal, and the seed question's conjunction — "uncomfortable *when also* anthropocentric" — is the very confusion the thesis diagnoses: it treats convention-layer residue as if it were formal-core content.
 
-This diagnosis is *not* the mere truism "the map is not the territory" (MAP-TERRITORY-1 discipline [3, 4]). The map–territory distinction says a description differs from what it describes. The objectification thesis says something stronger and more specific: **the exclusion of the mapmaker is a design choice, and every structural limit of self-representation (incompleteness, undefinability, undecidability) is the ledger entry for that choice.** A map is not merely different from its territory; a map cannot contain a complete map of its mapmaker, because the mapmaker is the thing drawing.
+This diagnosis is *not* the mere truism "the map is not the territory" (map–territory discipline [3, 4]). The map–territory distinction says a description differs from what it describes. The objectification thesis says something stronger and more specific: **the exclusion of the mapmaker is a design choice, and every structural limit of self-representation (incompleteness, undefinability, undecidability) is the ledger entry for that choice.** A map is not merely different from its territory; a map cannot contain a complete map of its mapmaker, because the mapmaker is the thing drawing.
 
 ## 5. The Convention-Layer Distinction
 
@@ -85,7 +93,7 @@ Section 2 established the phenomenology; here we sharpen the principle.
 
 **Corollary (partial self-knowledge).** *We can truly see ourselves, but never totally: a complete, consistent self-model from inside is impossible; self-knowledge is real and partial, delivered through meta-levels, mirrors, and stratification — true at every level, total at none.*
 
-The corollary follows from P6 plus the classical results. A Gödel sentence is *true* — we see it from outside the system — and *unprovable inside* — the system cannot see it from within. That is the structure of genuine but partial self-knowledge: the truth is available, the totality is not. Tarski's hierarchy is the same structure generalized: every truth predicate lives one level up, and no level contains the truth about all levels. Hofstadter's strange loops are the same structure aestheticized: the loop of self-reference is real, but its "resolution" always requires the reader outside the system [20, 22].
+The corollary follows from the core claim plus the classical results. A Gödel sentence is *true* — we see it from outside the system — and *unprovable inside* — the system cannot see it from within. That is the structure of genuine but partial self-knowledge: the truth is available, the totality is not. Tarski's hierarchy is the same structure generalized: every truth predicate lives one level up, and no level contains the truth about all levels. Hofstadter's strange loops are the same structure aestheticized: the loop of self-reference is real, but its "resolution" always requires the reader outside the system [20, 22].
 
 Two independent corroborations from the QNFO corpus strengthen the corollary.
 
@@ -95,7 +103,7 @@ Two independent corroborations from the QNFO corpus strengthen the corollary.
 
 Together with the quantum-measurement observer literature (S10 inside/outside; RQM/QBism comparisons in [23]) and the intuitionistic-time anthropocentrism analysis of van der Lugt as applied in the finite-precision program [25], the corollary is consilient across logic, computation, and measurement: every attempt to draw the mapmaker into the map produces a residual outside.
 
-## 7. Cross-Domain Consilience (KIF-29)
+## 7. Cross-Domain Consilience
 
 Following the research pipeline's consilience gate, we map the thesis across five evidence-selected domains.
 
@@ -105,7 +113,7 @@ Following the research pipeline's consilience gate, we map the thesis across fiv
 | Computation | Halting problem; quines; stably-computable incompleteness | No universal decider of self-behavior; same diagonal structure [14, 15, 16] |
 | Quantum measurement / physics | S10 observer inside/outside | Residual external perspective relocates, never eliminates [23] |
 | Embodied cognition | Pentadactyly; heartbeat-second; body-meter | Convention-layer residues, replaceable without theorem change [2, 5, 8, 10] |
-| Epistemology | Map/territory; MAP-TERRITORY-1 | The mapmaker cannot fully draw the mapmaker into the map [3, 4] |
+| Epistemology | Map/territory cartography | The mapmaker cannot fully draw the mapmaker into the map [3, 4] |
 
 **Minimum-viable-findings (one per domain):** logic — the blind spot is structural (Sections 3.1); computation — the blind spot is invariant under model of computation [15]; measurement — the blind spot relocates to global topology [23]; embodiment — the conventions are removable without changing formal content (Section 5); epistemology — total self-inclusion is impossible by construction [3, 4].
 
@@ -113,7 +121,7 @@ Following the research pipeline's consilience gate, we map the thesis across fiv
 
 **Meta-principle (synthesis):** *Objectification buys objectivity at the price of self-totality* — the third-person stance that makes formal systems universally shareable is the same stance that makes them unable to contain their own complete truth.
 
-**Frontier question (deferred):** Can the self-knowledge bound of a formal system be characterized uniformly — Gödel-numbering style — across logic, computation, and measurement as a single invariant, in the way that depth unified valuation (RES.005) [26]?
+**Frontier question (deferred):** Can the self-knowledge bound of a formal system be characterized uniformly — Gödel-numbering style — across logic, computation, and measurement as a single invariant, in the way that depth unified valuation in the prime-valuation program [26]?
 
 ## 8. Answering the Seed Question
 
@@ -129,7 +137,7 @@ We can — truly, but not totally. Gödel's sentence is true even though the sys
 
 Per the locked core claim, the thesis is falsifiable on two independent conditions:
 
-1. **Truth-predicate disconfirmation (against C3/P6):** exhibit a sufficiently strong, consistent, recursively axiomatizable formal system that defines its own truth predicate and proves all its own true statements. This contradicts Tarski and Gödel and would be a landmark result; its absence is not evidence of our cleverness but of the structure's stability (extended recently to non-computably-enumerable systems [15, 16, 17]).
+1. **Truth-predicate disconfirmation (against the core claim):** exhibit a sufficiently strong, consistent, recursively axiomatizable formal system that defines its own truth predicate and proves all its own true statements. This contradicts Tarski and Gödel and would be a landmark result; its absence is not evidence of our cleverness but of the structure's stability (extended recently to non-computably-enumerable systems [15, 16, 17]).
 
 2. **Convention-dependence disconfirmation (against C1):** exhibit an anthropocentric convention whose change alters a formal *theorem* rather than only its representation — e.g., arithmetic whose theorems depend on base choice. The silent-radix result [7] and the radix-agnostic DSI null [6] are direct negative evidence: the base is invisible to the numeral, and no physical radix is privileged.
 
@@ -151,10 +159,10 @@ Formal systems are maps, and maps exclude their mapmakers by design. The anthrop
 
 ## References
 
-[1] QNFO Research Collective. *Formal Self-Reference Limits* (seed note, 2026-08-14). Provenance artifact, artifacts/seed-note-2026-08-14.md, QNFO/qnfo-research.
-[2] QNFO Research. *Ten-Fingered Trap: How Our Decimal Dependence Constrains Scientific Advancement* (2025-01). R2: qnfo/releases/2025/00/Ten-Fingered Trap.md; identifier qnfo-2025-00-ten-fingered-trap.
+[1] QNFO Research Collective. *Formal Self-Reference Limits* (seed note, 2026-08-14). Provenance artifact included in this deposit (artifacts/seed-note-2026-08-14.md).
+[2] QNFO Research. *Ten-Fingered Trap: How Our Decimal Dependence Constrains Scientific Advancement* (2025-01). QNFO release archive.
 [3] Quni-Gudzinas, R. B. *Math is NOT the Universe: A Map is Not the Universe: Understanding the Manifold, from Fractal Geometry to Deterministic Reality* (2025-09-11). DOI: 10.5281/zenodo.17099937.
-[4] QNFO Research. *Map–Territory cartography discipline* (MAP-TERRITORY-1; qnfo-core). See PROJECT-PLAN.md §7.
+[4] QNFO Research. *Map–Territory cartography discipline* (QNFO internal governance reference, 2026).
 [5] Quni-Gudzinas, R. B. *Scaffolds and Invariants: An Epistemic Hygiene Audit of pi, Number Bases, and Geometric Centers* (QUNSAI). DOI: 10.5281/zenodo.21255344.
 [6] Quni-Gudzinas, R. B. *Radix-Agnostic Detection of Discrete Scale Invariance: A Certified Three-Stage Protocol and a Null Result from Planck 2018* (2026). DOI: 10.5281/zenodo.21902891.
 [7] Quni-Gudzinas, R. B. *Silent-Radix Cryptography: Exploiting the Base Ambiguity of Positional Notation as a Cryptographic Primitive* (2026). DOI: 10.5281/zenodo.21046734.
@@ -176,11 +184,11 @@ Formal systems are maps, and maps exclude their mapmakers by design. The anthrop
 [23] QNFO Research Collective. *The Observer Inside the Tree: Can Self-Location in an Ultrametric Structure Resolve the Inside/Outside Schism?* (2026-07-21). DOI: 10.5281/zenodo.21473899.
 [24] QNFO Research. *The Hidden Fractures: Self-Referential Calibration and the 29 Schisms of Physics* (2026). DOI: 10.5281/zenodo.21458373.
 [25] Quni-Gudzinas, R. B. *Finite Specification, Ontological Indeterminism: The Gisin–Del Santo Program Converges with Autaxys Ontological Closure* (2026-07-28). DOI: 10.5281/zenodo.21647362. (Anchoring van der Lugt (2021) on intuitionistic anthropocentric time.)
-[26] Quni-Gudzinas, R. B. *Prime Valuation Depth* (RES.005, 2026-08-13). DOI: 10.5281/zenodo.21918838.
-[27] Quni-Gudzinas, R. B. *The Universal Ignorance Audit: A Fifteen-Question Method* (RES.002, v0.3). DOI: 10.5281/zenodo.21901984.
-[28] Quni-Gudzinas, R. B. *Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-Assisted Research Pipeline* (RES.003, v0.3). DOI: 10.5281/zenodo.21901983.
+[26] Quni-Gudzinas, R. B. *Prime Valuation Depth* (2026-08-13). DOI: 10.5281/zenodo.21918838.
+[27] Quni-Gudzinas, R. B. *The Universal Ignorance Audit: A Fifteen-Question Method* (v0.3). DOI: 10.5281/zenodo.21901984.
+[28] Quni-Gudzinas, R. B. *Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-Assisted Research Pipeline* (v0.3). DOI: 10.5281/zenodo.21901983.
 [29] Ifrah, G. (2000). *The Universal History of Numbers: From Prehistory to the Invention of the Computer*. New York: Wiley.
 
 ---
 
-*Prepared under the research pipeline (QNFO.RES.008). All internal DOIs verified via resolve_paper_id / D1 (see citation-audit.md). External canon entries verified against arXiv/OpenAlex/Crossref evidence saved in artifacts/external-search/. Falsifiability conditions stated in §9.*
+*Prepared under the QNFO research pipeline. All internal DOIs verified against primary sources (see citation-audit.md). External canon entries verified against arXiv/OpenAlex/Crossref evidence saved in artifacts/external-search/. Falsifiability conditions stated in §9.*
