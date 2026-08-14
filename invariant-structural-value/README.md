@@ -19,4 +19,10 @@ self-closure) on a primitive mark/distinction; Euler identity is their joint fix
 
 ## Status
 
-Phase 0 (scaffold). See [PROJECT-PLAN.md](PROJECT-PLAN.md) for the full plan.
+- **Phase 0** (scaffold): complete — WBS QNFO.RES.007 locked, core claims C1–C3, tag `invariant-structural-value-v0.1-phase0` (f718fae).
+- **Phase 1** (due diligence): complete — [due-diligence-phase1.md](artifacts/due-diligence-phase1.md) + KIF-29 [consilience-gate.md](artifacts/consilience-gate.md); evidence in [artifacts/external-search/](artifacts/external-search/) (18 files, DUE-DILIGENCE-DEPTH-1).
+- **Phase 2** (literature search): complete — [phase2-literature-review.md](artifacts/phase2-literature-review.md) (37 classified works, KIF-18 symmetry template).
+
+Next: **Phase 3** (citation management — reference audit, DOI verification, BibTeX with P3.AUTHOR-GATE).
+
+See [PROJECT-PLAN.md](PROJECT-PLAN.md) for the full plan.
