@@ -4,9 +4,9 @@ author: "Quni-Gudzinas, Rowan Brad"
 orcid: "0009-0002-4317-5604"
 affiliation: "QNFO Research Collective"
 date: "2026-08-13"
-version: "v0.2"
+version: "v0.3"
 license: "CC-BY-4.0"
-doi: "10.5281/zenodo.21923000"
+doi: "10.5281/zenodo.21928947"
 status: "published"
 keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "no-cloning theorem", "branch depth", "ultrametric"]
 ---
@@ -14,10 +14,10 @@ keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "
 **Author:** Quni-Gudzinas, Rowan Brad (QNFO Research Collective)
 **ORCID:** 0009-0002-4317-5604
 **Date:** 2026-08-13
-**Version:** v0.2
+**Version:** v0.3
 **License:** CC-BY-4.0
 **Keywords:** p-adic valuation; quantum error correction; stabilizer codes; no-cloning theorem; branch depth; ultrametric
-**Changelog:** v0.2 (2026-08-13) — §6 precision patch: per-family 83% breakdown, rule-based Algorithm 4.4 reframing, first reproduction attempt documented (Mahler leg not reproduced at n ≤ 18; K–N leg blocked by under-specification), reference corrections (Gubser–Knaute; Bhattacharyya).
+**Changelog:** v0.3 (2026-08-14) — falsifiability register resolved by derivation: C7 overhead bound DISCONFIRMED (FQ2: valuation data (n,k,q)-only, d inexpressible, bound strictly weaker than Singleton), C5 complexity characterization DISCONFIRMED (FQ3: candidate identities genuine but complexity-vacuous), C6 no-cloning consequence DISCONFIRMED (FQ4: relabels Abramsky's categorical no-cloning; no new QEC consequence). Outcome derivations: artifacts/fq2-overhead-bound.md, artifacts/fq3-complexity-characterization.md, artifacts/fq4-no-cloning-consequence.md. Only C4/FQ1 (non-trivial valuation invariant) remains open. v0.2 (2026-08-13) — §6 precision patch: per-family 83% breakdown, rule-based Algorithm 4.4 reframing, first reproduction attempt documented (Mahler leg not reproduced at n ≤ 18; K–N leg blocked by under-specification), reference corrections (Gubser–Knaute; Bhattacharyya).
 
 **Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (DOI 10.5281/zenodo.21918838).
 
@@ -108,7 +108,7 @@ The claim "cloning would require a nonlinear diagonal map, and quantum evolution
 
 ### 5.2 The one place the framing could bite
 
-A candidate consequence, stated as a falsifiable hypothesis: **if redundancy is non-cloneable, then the overhead (physical-to-logical qubit ratio) of a QEC code is bounded below by a function of the code's own valuation structure.** Whether this bound is tighter than, equivalent to, or weaker than the quantum Singleton bound $n - k \ge 2(d-1)$ is the test. **[UNTESTED — no bound has been derived; deriving one, and comparing it to the Singleton bound, is the concrete task that would elevate this framing from metaphor to mathematics.]**
+A candidate consequence, stated as a falsifiable hypothesis: **if redundancy is non-cloneable, then the overhead (physical-to-logical qubit ratio) of a QEC code is bounded below by a function of the code's own valuation structure.** Whether this bound is tighter than, equivalent to, or weaker than the quantum Singleton bound $n - k \ge 2(d-1)$ is the test. **[RESOLVED — DISCONFIRMED (FQ2, 2026-08-14): the bound has been derived and is strictly weaker than Singleton. The valuation data of a $[[n,k,d]]$ code — $v_2(\dim H)$, $v_2(\dim H_L)$, $v_2(\|S\|)$ — reduce to functions of (n, k, q) only; the Singleton input d is a Hamming weight with no valuation reading (C3, rejected); the sharpest valuation-only bound is $n/k \ge 1$, strictly weaker than Singleton's $n/k \ge n/(n-2(d-1))$ for every code with $d \ge 2$ (378/378 codes in scan). Full derivation: artifacts/fq2-overhead-bound.md.]**
 
 ---
 
@@ -159,9 +159,9 @@ confidence* (pre-registered acceptance criteria); failure is reported honestly e
 | C2 | $n = v_2(\dim H)$, $k = v_2(\dim H_L)$ is a "branch-depth reading" of $[[n,k,d]]$ | MAP | disconfirmed (pure relabeling) | **SELF-CORRECTED** |
 | C3 | d admits a valuation reading | MAP | no valuation identity exists | **REJECTED** |
 | C4 | a non-trivial valuation invariant of codes exists | open question | no such invariant found ⇒ program fails | OPEN |
-| C5 | computing = path-tracing, with valuation-based complexity content | MAP | no valuation-based complexity characterization produced | PROMISSORY |
-| C6 | no-cloning re-expressed as non-cloneable redundancy | re-expression | no new checkable consequence ⇒ relabeling | RISK-HIGH |
-| C7 | overhead bounded by valuation structure | hypothesis | compare to Singleton bound | UNTESTED |
+| C5 | computing = path-tracing, with valuation-based complexity content | MAP | no valuation-based complexity characterization produced | **DISCONFIRMED** (FQ3, 2026-08-14 — candidate identities genuine but complexity-vacuous; artifacts/fq3-complexity-characterization.md) |
+| C6 | no-cloning re-expressed as non-cloneable redundancy | re-expression | no new checkable consequence ⇒ relabeling | **DISCONFIRMED** (FQ4, 2026-08-14 — relabels Abramsky's categorical no-cloning; no new QEC consequence; artifacts/fq4-no-cloning-consequence.md) |
+| C7 | overhead bounded by valuation structure | hypothesis | compare to Singleton bound | **DISCONFIRMED** (FQ2, 2026-08-14 — valuation data (n,k,q)-only, d inexpressible, bound strictly weaker than Singleton; artifacts/fq2-overhead-bound.md) |
 | C8 | Kodaira–Néron classifier is 83% accurate | empirical (internal) | independent reproduction vs baseline; first attempt (P4.2) not reproduced at $n \le 18$ | UNVERIFIED-INTERNAL |
 
 ---
@@ -178,7 +178,7 @@ confidence* (pre-registered acceptance criteria); failure is reported honestly e
 
 ## 9. Conclusion
 
-The branch-depth reading, applied honestly to computing and quantum error correction, yields a **negative and a positive result**. The negative result: the obvious extension — reading $[[n,k,d]]$ parameters as valuations — is definitional for n and k and unavailable for d; it is, in the anchor's own terms, pure relabeling, and this paper says so rather than papering over it. The positive result: stripping the relabeling leaves one precise open question — *does a non-trivial valuation invariant of stabilizer codes exist?* — and one concrete falsifiable task — *derive a valuation-based QEC-overhead bound and compare it to the Singleton bound.* The 83% classification claim is a testable hypothesis at the center of that question; the first reproduction attempt documented in §6 failed at $n \le 18$ and remains blocked by source under-specification, so the claim must still be independently reproduced before it is treated as established. This is the honest state of the program: a sharp question, a clear test, and a prior claim awaiting verification.
+The branch-depth reading, applied honestly to computing and quantum error correction, yields a **negative result and a sharpened open question**. The negative result: the obvious extension — reading $[[n,k,d]]$ parameters as valuations — is definitional for n and k and unavailable for d; it is, in the anchor's own terms, pure relabeling, and this paper says so rather than papering over it. The three falsifiable consequences of the reading have now been derived and each is **disconfirmed**: the valuation-based overhead bound is strictly weaker than the quantum Singleton bound (FQ2), the valuation-based complexity characterization is complexity-vacuous (FQ3), and the no-cloning re-expression yields no new checkable consequence beyond the standard categorical result (FQ4). What remains is the single precise open question — *does a non-trivial valuation invariant of stabilizer codes exist?* — where the 83% classification claim (Kodaira–Néron classifier, DOI 10.5281/zenodo.21193487) is the testable hypothesis at the center. The first reproduction attempt documented in §6 failed at $n \le 18$ and remains blocked by source under-specification, so the claim must still be independently reproduced before it is treated as established. This is the honest state of the program: a family of falsifiable claims tested, a sharp question remaining, and a prior claim awaiting verification.
 
 ---
 

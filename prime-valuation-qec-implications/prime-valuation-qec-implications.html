@@ -220,14 +220,24 @@ Correction</h1>
 </header>
 <p><strong>Author:</strong> Quni-Gudzinas, Rowan Brad (QNFO Research
 Collective) <strong>ORCID:</strong> 0009-0002-4317-5604
-<strong>Date:</strong> 2026-08-13 <strong>Version:</strong> v0.2
+<strong>Date:</strong> 2026-08-13 <strong>Version:</strong> v0.3
 <strong>License:</strong> CC-BY-4.0 <strong>Keywords:</strong> p-adic
 valuation; quantum error correction; stabilizer codes; no-cloning
-theorem; branch depth; ultrametric <strong>Changelog:</strong> v0.2
-(2026-08-13) — §6 precision patch: per-family 83% breakdown, rule-based
-Algorithm 4.4 reframing, first reproduction attempt documented (Mahler
-leg not reproduced at n ≤ 18; K–N leg blocked by under-specification),
-reference corrections (Gubser–Knaute; Bhattacharyya).</p>
+theorem; branch depth; ultrametric <strong>Changelog:</strong> v0.3
+(2026-08-14) — falsifiability register resolved by derivation: C7
+overhead bound DISCONFIRMED (FQ2: valuation data (n,k,q)-only, d
+inexpressible, bound strictly weaker than Singleton), C5 complexity
+characterization DISCONFIRMED (FQ3: candidate identities genuine but
+complexity-vacuous), C6 no-cloning consequence DISCONFIRMED (FQ4:
+relabels Abramsky’s categorical no-cloning; no new QEC consequence).
+Outcome derivations: artifacts/fq2-overhead-bound.md,
+artifacts/fq3-complexity-characterization.md,
+artifacts/fq4-no-cloning-consequence.md. Only C4/FQ1 (non-trivial
+valuation invariant) remains open. v0.2 (2026-08-13) — §6 precision
+patch: per-family 83% breakdown, rule-based Algorithm 4.4 reframing,
+first reproduction attempt documented (Mahler leg not reproduced at n ≤
+18; K–N leg blocked by under-specification), reference corrections
+(Gubser–Knaute; Bhattacharyya).</p>
 <p><strong>Anchor:</strong> <em>Prime Valuation Depth: Multiplication as
 Branching, the Calculus of Indications, and the Structural No-Cloning
 Reading</em> (DOI 10.5281/zenodo.21918838).</p>
@@ -432,9 +442,19 @@ framing could bite</h3>
 function of the code’s own valuation structure.</strong> Whether this
 bound is tighter than, equivalent to, or weaker than the quantum
 Singleton bound <span class="math inline">\(n - k \ge 2(d-1)\)</span> is
-the test. <strong>[UNTESTED — no bound has been derived; deriving one,
-and comparing it to the Singleton bound, is the concrete task that would
-elevate this framing from metaphor to mathematics.]</strong></p>
+the test. <strong>[RESOLVED — DISCONFIRMED (FQ2, 2026-08-14): the bound
+has been derived and is strictly weaker than Singleton. The valuation
+data of a <span class="math inline">\([[n,k,d]]\)</span> code — <span
+class="math inline">\(v_2(\dim H)\)</span>, <span
+class="math inline">\(v_2(\dim H_L)\)</span>, <span
+class="math inline">\(v_2(\|S\|)\)</span> — reduce to functions of (n,
+k, q) only; the Singleton input d is a Hamming weight with no valuation
+reading (C3, rejected); the sharpest valuation-only bound is <span
+class="math inline">\(n/k \ge 1\)</span>, strictly weaker than
+Singleton’s <span class="math inline">\(n/k \ge n/(n-2(d-1))\)</span>
+for every code with <span class="math inline">\(d \ge 2\)</span>
+(378/378 codes in scan). Full derivation:
+artifacts/fq2-overhead-bound.md.]</strong></p>
 <hr />
 <h2
 id="the-83-classification-claim-status-and-reproduction-requirement">6.
@@ -559,7 +579,9 @@ valuation-based complexity content</td>
 <td style="text-align: left;">MAP</td>
 <td style="text-align: left;">no valuation-based complexity
 characterization produced</td>
-<td style="text-align: left;">PROMISSORY</td>
+<td style="text-align: left;"><strong>DISCONFIRMED</strong> (FQ3,
+2026-08-14 — candidate identities genuine but complexity-vacuous;
+artifacts/fq3-complexity-characterization.md)</td>
 </tr>
 <tr>
 <td style="text-align: left;">C6</td>
@@ -568,7 +590,9 @@ redundancy</td>
 <td style="text-align: left;">re-expression</td>
 <td style="text-align: left;">no new checkable consequence ⇒
 relabeling</td>
-<td style="text-align: left;">RISK-HIGH</td>
+<td style="text-align: left;"><strong>DISCONFIRMED</strong> (FQ4,
+2026-08-14 — relabels Abramsky’s categorical no-cloning; no new QEC
+consequence; artifacts/fq4-no-cloning-consequence.md)</td>
 </tr>
 <tr>
 <td style="text-align: left;">C7</td>
@@ -576,7 +600,9 @@ relabeling</td>
 structure</td>
 <td style="text-align: left;">hypothesis</td>
 <td style="text-align: left;">compare to Singleton bound</td>
-<td style="text-align: left;">UNTESTED</td>
+<td style="text-align: left;"><strong>DISCONFIRMED</strong> (FQ2,
+2026-08-14 — valuation data (n,k,q)-only, d inexpressible, bound
+strictly weaker than Singleton; artifacts/fq2-overhead-bound.md)</td>
 </tr>
 <tr>
 <td style="text-align: left;">C8</td>
@@ -622,22 +648,27 @@ vocabulary and the self-correction of §3, which the existing corpus
 <hr />
 <h2 id="conclusion">9. Conclusion</h2>
 <p>The branch-depth reading, applied honestly to computing and quantum
-error correction, yields a <strong>negative and a positive
-result</strong>. The negative result: the obvious extension — reading
+error correction, yields a <strong>negative result and a sharpened open
+question</strong>. The negative result: the obvious extension — reading
 <span class="math inline">\([[n,k,d]]\)</span> parameters as valuations
 — is definitional for n and k and unavailable for d; it is, in the
 anchor’s own terms, pure relabeling, and this paper says so rather than
-papering over it. The positive result: stripping the relabeling leaves
-one precise open question — <em>does a non-trivial valuation invariant
-of stabilizer codes exist?</em> — and one concrete falsifiable task —
-<em>derive a valuation-based QEC-overhead bound and compare it to the
-Singleton bound.</em> The 83% classification claim is a testable
-hypothesis at the center of that question; the first reproduction
-attempt documented in §6 failed at <span class="math inline">\(n \le
-18\)</span> and remains blocked by source under-specification, so the
-claim must still be independently reproduced before it is treated as
-established. This is the honest state of the program: a sharp question,
-a clear test, and a prior claim awaiting verification.</p>
+papering over it. The three falsifiable consequences of the reading have
+now been derived and each is <strong>disconfirmed</strong>: the
+valuation-based overhead bound is strictly weaker than the quantum
+Singleton bound (FQ2), the valuation-based complexity characterization
+is complexity-vacuous (FQ3), and the no-cloning re-expression yields no
+new checkable consequence beyond the standard categorical result (FQ4).
+What remains is the single precise open question — <em>does a
+non-trivial valuation invariant of stabilizer codes exist?</em> — where
+the 83% classification claim (Kodaira–Néron classifier, DOI
+10.5281/zenodo.21193487) is the testable hypothesis at the center. The
+first reproduction attempt documented in §6 failed at <span
+class="math inline">\(n \le 18\)</span> and remains blocked by source
+under-specification, so the claim must still be independently reproduced
+before it is treated as established. This is the honest state of the
+program: a family of falsifiable claims tested, a sharp question
+remaining, and a prior claim awaiting verification.</p>
 <hr />
 <h2 id="declarations">Declarations</h2>
 <p><strong>Funding:</strong> This research received no external
