@@ -1,0 +1,141 @@
+{
+  "duck_sudarshan_1998": {
+    "doi": "10.1119/1.18860",
+    "title": "Toward an understanding of the spin-statistics theorem",
+    "authors": [
+      "Duck, Ian",
+      "Sudarshan, E. C. G."
+    ],
+    "year": 1998,
+    "container": "American Journal of Physics",
+    "volume": "66",
+    "page": "284-303",
+    "type": "journal-article"
+  },
+  "verch_2001": {
+    "doi": "10.1007/s002200100526",
+    "title": "A Spin-Statistics Theorem for Quantum Fields\u00b6on Curved Spacetime Manifolds\u00b6in a Generally Covariant Framework",
+    "authors": [
+      "Verch, Rainer"
+    ],
+    "year": 2001,
+    "container": "Communications in Mathematical Physics",
+    "volume": "223",
+    "page": "261-288",
+    "type": "journal-article"
+  },
+  "sst_planar_braid_1991": {
+    "doi": "10.1016/0550-3213(91)90378-b",
+    "title": "Spin-statistics theorem and scattering in planar quantum field theories with braid statistics",
+    "authors": [
+      "Fr\u00f6hlich, J.",
+      "Marchetti, P.A."
+    ],
+    "year": 1991,
+    "container": "Nuclear Physics B",
+    "volume": "356",
+    "page": "533-573",
+    "type": "journal-article"
+  },
+  "balachandran_1990": {
+    "doi": "10.1142/s0217732390001797",
+    "title": "A TOPOLOGICAL SPIN-STATISTICS THEOREM OR A USE OF THE ANTIPARTICLE",
+    "authors": [
+      "BALACHANDRAN, A.P.",
+      "DAUGHTON, A.",
+      "GU, Z.-C.",
+      "MARMO, G.",
+      "SORKIN, R.D.",
+      "SRIVASTAVA, A.M."
+    ],
+    "year": 1990,
+    "container": "Modern Physics Letters A",
+    "volume": "05",
+    "page": "1575-1585",
+    "type": "journal-article"
+  },
+  "bruillard_2009": {
+    "doi": "10.1007/s00220-009-0908-z",
+    "title": "On Classification of Modular Tensor Categories",
+    "authors": [
+      "Rowell, Eric",
+      "Stong, Richard",
+      "Wang, Zhenghan"
+    ],
+    "year": 2009,
+    "container": "Communications in Mathematical Physics",
+    "volume": "292",
+    "page": "343-389",
+    "type": "journal-article"
+  },
+  "nayak_2015": {
+    "doi": "10.1038/npjqi.2015.1",
+    "title": "Majorana zero modes and topological quantum computation",
+    "authors": [
+      "Sarma, Sankar Das",
+      "Freedman, Michael",
+      "Nayak, Chetan"
+    ],
+    "year": 2015,
+    "container": "npj Quantum Information",
+    "volume": "1",
+    "page": "",
+    "type": "journal-article"
+  },
+  "weinberg_proof_2003": {
+    "doi": "10.1016/s1355-2198(03)00066-2",
+    "title": "Weinberg's proof of the spin-statistics theorem",
+    "authors": [
+      "Massimi, Michela",
+      "Redhead, Michael"
+    ],
+    "year": 2003,
+    "container": "Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics",
+    "volume": "34",
+    "page": "621-650",
+    "type": "journal-article"
+  },
+  "duck_sudarshan_book": {
+    "doi": "10.1142/3457",
+    "title": "Pauli and the Spin-Statistics Theorem",
+    "authors": [
+      "Duck, Ian",
+      "Sudarshan, E C G"
+    ],
+    "year": 1998,
+    "container": "",
+    "volume": "",
+    "page": "",
+    "type": "monograph"
+  },
+  "cambridge_sst_2019": {
+    "doi": "10.1017/9781108569392.016",
+    "title": "Statistics, Symmetry, and the Spin-Statistics Theorem",
+    "authors": [],
+    "year": 2019,
+    "container": "Classical Field Theory",
+    "volume": "",
+    "page": "108-117",
+    "type": "book-chapter"
+  },
+  "fractional_stats_2d": {
+    "doi": "10.1007/978-3-540-47466-1_2",
+    "title": "Introduction to Fractional Statistics in Two Dimensions",
+    "authors": [],
+    "year": 1992,
+    "container": "Lecture Notes in Physics Monographs",
+    "volume": "",
+    "page": "5-21",
+    "type": "book-chapter"
+  },
+  "anyons_qm": {
+    "doi": "10.1142/9789812567758_0003",
+    "title": "Quantum Mechanics of Anyons",
+    "authors": [],
+    "year": 2005,
+    "container": "Fractional Statistics and Quantum Theory",
+    "volume": "",
+    "page": "43-102",
+    "type": "book-chapter"
+  }
+}
