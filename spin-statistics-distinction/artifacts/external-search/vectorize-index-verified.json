@@ -1,0 +1,10 @@
+{
+  "query_date": "2026-08-14",
+  "wbs": "QNFO.RES.009",
+  "endpoint": "https://qnfo-paper-indexer.q08.workers.dev/webhook?slug=spin-statistics-distinction",
+  "method": "GET with X-Index-Token + browser User-Agent (VECTORIZE-403-MISDIAGNOSIS discipline)",
+  "response_first_trigger": {"success": true, "indexed": true, "skipped": false, "chunks": 25, "body_len": 17822, "errors": 0},
+  "response_retrigger": {"success": true, "indexed": false, "skipped": true, "reason": "unchanged"},
+  "verification": "VECTORIZE-WEBHOOK-VERIFY-1 PASS: indexed=true, 25 chunks, 0 errors; body_len 17822 matches D1 body_md length",
+  "bulk_index_endpoint": "/index?slug=... returned bulk reindexer state (478 total, 63% pct, idempotent skips)"
+}
