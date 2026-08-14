@@ -12,7 +12,7 @@
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |:---|:---------|:-------|:------------|:-----------------|
 | FQ1 | Does there exist a non-trivial valuation invariant of stabilizer codes (≠ v₂(dim H), v₂(dim H_L)) with classification or predictive power? | OPEN | Resolve NTOF under-specification; re-implement Algorithm 4.4; fresh 50/family generation | YES (REG-RES006-001) |
-| FQ2 | Is the QEC overhead (physical:logical qubits) bounded below by a valuation-structure function, and how does it compare to the quantum Singleton bound? | UNTESTED | Derive candidate bound; compare to Singleton; red-team | YES |
+| FQ2 | Is the QEC overhead (physical:logical qubits) bounded below by a valuation-structure function, and how does it compare to the quantum Singleton bound? | **ANSWERED (DISCONFIRMED)** 2026-08-14 — valuation data is (n,k,q)-only; d inexpressible; bound strictly weaker than Singleton (artifacts/fq2-overhead-bound.md) | CLOSED — see FQ2 outcome doc | YES |
 | FQ3 | Is there a valuation-based complexity characterization of reversible/Clifford computation that differs from (or tightens) the standard one? | PROMISSORY | Define the characterization; test on concrete tasks | YES |
 | FQ4 | Does the no-cloning re-expression (non-cloneable redundancy) yield a checkable consequence for QEC limits beyond the standard no-cloning statement? | RISK-HIGH | Identify one consequence; test | YES |
 
@@ -23,12 +23,12 @@
 | P1 | The naive [[n,k,d]]→branch-depth mapping (n,k) carries no new content | 2026-08 (done) | Definitional analysis (§3) | Claimed extra content beyond relabeling | CONFIRMED (self-corrected) |
 | P2 | C7.3' Mahler spectral separation (v_p^max optimal≈28 vs random≈4, gap≥10) reproduces | 2026-08-13 (attempted) | rq3-mahler-reproduction.py, 55 codes | gap ≥ 10 at n ≤ 18 | **NOT REPRODUCED** (optimal 4, random 3/6) |
 | P3 | 83% Kodaira–Néron classifier accuracy reproduces above a stated baseline | P4 (next cycle) | REG-RES006-001 re-implementation | fails to exceed baseline by pre-registered margin | UNVERIFIED-INTERNAL |
-| P4 | A valuation-based overhead bound is tighter than the Singleton bound | P4-P5 | derivation + code-family scan | bound weaker than/equal to Singleton | UNTESTED |
+| P4 | A valuation-based overhead bound is tighter than the Singleton bound | 2026-08-14 (done) | derivation + arithmetic scan (fq2_check.py) | bound weaker than/equal to Singleton | **DISCONFIRMED** (bound strictly weaker; obstruction d) |
 
 ## 3. PER-RQ FALSIFIABILITY CONDITIONS
 
 - **RQ1 (FQ1):** disconfirmed if no non-trivial valuation invariant is found after the re-implementation and fresh generation.
-- **RQ2 (FQ2):** disconfirmed if the overhead bound is not tighter than or equivalent to the quantum Singleton bound.
+- **RQ2 (FQ2):** disconfirmed if the overhead bound is not tighter than or equivalent to the quantum Singleton bound. **DISCONFIRMED 2026-08-14** — valuation data (n,k,q)-only, d inexpressible (C3), bound strictly weaker; see artifacts/fq2-overhead-bound.md.
 - **RQ3 (FQ3):** disconfirmed if no valuation-based complexity characterization is produced.
 - **RQ4 (FQ4):** disconfirmed if the no-cloning re-expression yields no new checkable consequence.
 - **RQ5 (C8):** disconfirmed if independent reproduction fails to exceed baseline by pre-registered margin.
@@ -48,6 +48,7 @@
 |:-----|:-----------|:---------|:--------|
 | 2026-08-13 | C2/C3 relabeling finding | strong (definitional) | CONFIRMED |
 | 2026-08-13 | P2 Mahler separation | medium | NOT REPRODUCED at n ≤ 18 |
+| 2026-08-14 | P4 valuation-overhead bound | strong (derivation) | DISCONFIRMED (strictly weaker than Singleton; obstruction d) |
 
 ## 6. NEXT ACTIONS (Prioritized)
 
@@ -56,7 +57,7 @@
 | P0 | Obtain NTOF source clarification (Mahler target function; I_C ideal) | none | source author / NTOF record |
 | P1 | Complete K–N leg re-implementation (I_C resolution) | P0 | next P4 cycle |
 | P2 | Fresh 50/family code generation with seeds | P1 | REG-RES006-001 |
-| P3 | Derive valuation-based overhead bound; compare to Singleton | none | FQ2 |
+| P3 | Derive valuation-based overhead bound; compare to Singleton | none | FQ2 — **DONE 2026-08-14, DISCONFIRMED** (artifacts/fq2-overhead-bound.md) |
 | P4 | Update this registry after each attempt | every cycle | living doc |
 
 ## 7. SESSION LOG + MAINTENANCE PROTOCOL
