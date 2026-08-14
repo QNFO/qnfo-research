@@ -1,0 +1,3230 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 783352,
+    "items": [
+      {
+        "institution": [
+          {
+            "name": "University of Rhode Island",
+            "acronym": [
+              "URI"
+            ],
+            "place": [
+              "Kingston, RI"
+            ]
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2025-03-05T05:46:23Z",
+          "timestamp": 1741153583766,
+          "version": "3.38.0"
+        },
+        "reference-count": 0,
+        "publisher": "University of Rhode Island",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.23860/diss-2628",
+        "type": "dissertation",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              4
+            ]
+          ],
+          "date-time": "2025-03-04T19:41:13Z",
+          "timestamp": 1741117273000
+        },
+        "approved": {
+          "date-parts": [
+            [
+              1972
+            ]
+          ]
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "CLASSIFICATION OF INVARIANT SETS AND VARIATION OF CONSTANTS FORMULA"
+        ],
+        "prefix": "10.23860",
+        "author": [
+          {
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "GANGARAM",
+            "family": "LADDE",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "9949",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              4
+            ]
+          ],
+          "date-time": "2025-03-04T19:51:46Z",
+          "timestamp": 1741117906000
+        },
+        "score": 21.870783,
+        "resource": {
+          "primary": {
+            "URL": "https://digitalcommons.uri.edu/oa_diss/2628"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.23860/diss-2628"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2024-09-07T13:00:45Z",
+          "timestamp": 1725714045750
+        },
+        "publisher-location": "Boston, MA",
+        "reference-count": 2,
+        "publisher": "Springer US",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781468426847"
+          },
+          {
+            "type": "electronic",
+            "value": "9781468426823"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1976
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-1-4684-2682-3_95",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              1,
+              24
+            ]
+          ],
+          "date-time": "2013-01-24T07:52:09Z",
+          "timestamp": 1359013929000
+        },
+        "page": "650-654",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Understanding the Fundamental Constants"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Brandon",
+            "family": "Carter",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "95_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "440",
+            "DOI": "10.1038/192440a0",
+            "volume": "192",
+            "author": "RH Dicke",
+            "year": "1961",
+            "unstructured": "R.H. DICKE(1961) Nature 192, 440.",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "95_CR2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "B. CARTER(1974) in Confrontations of Cosmological Theories with Observational Data. P-P.291–298. Proceedings of 1963 IAU. Symposium, ed. M.Longair).",
+            "DOI": "10.1007/978-94-010-2220-0_25"
+          }
+        ],
+        "container-title": [
+          "Atomic Masses and Fundamental Constants 5"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4684-2682-3_95",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2022-02-06T18:10:23Z",
+          "timestamp": 1644171023000
+        },
+        "score": 21.09266,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-1-4684-2682-3_95"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1976
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781468426847",
+          "9781468426823"
+        ],
+        "references-count": 2,
+        "URL": "https://doi.org/10.1007/978-1-4684-2682-3_95",
+        "published": {
+          "date-parts": [
+            [
+              1976
+            ]
+          ]
+        }
+      },
+      {
+        "institution": [
+          {
+            "name": "McGraw-Hill Education",
+            "acronym": [
+              "MHE"
+            ]
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2023-04-26T04:15:33Z",
+          "timestamp": 1682482533498
+        },
+        "reference-count": 0,
+        "publisher": "McGraw-Hill Professional",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1036/1097-8542.275450",
+        "type": "dataset",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              7,
+              10
+            ]
+          ],
+          "date-time": "2015-07-10T15:46:54Z",
+          "timestamp": 1436543214000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Fundamental constants"
+        ],
+        "prefix": "10.1036",
+        "member": "7599",
+        "container-title": [
+          "AccessScience"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              25
+            ]
+          ],
+          "date-time": "2023-04-25T18:37:09Z",
+          "timestamp": 1682447829000
+        },
+        "score": 21.08939,
+        "resource": {
+          "primary": {
+            "URL": "https://www.accessscience.com/content/article/a275450"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1036/1097-8542.275450"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2026-03-27T11:39:55Z",
+          "timestamp": 1774611595167,
+          "version": "3.50.1"
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 148,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "value": "9789401078290",
+            "type": "print"
+          },
+          {
+            "value": "9789400929555",
+            "type": "electronic"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-009-2955-5_5",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              28
+            ]
+          ],
+          "date-time": "2012-07-28T20:57:27Z",
+          "timestamp": 1343509047000
+        },
+        "page": "59-89",
+        "source": "Crossref",
+        "is-referenced-by-count": 16,
+        "title": [
+          "Fundamental Physical Constants"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "E. Richard",
+            "family": "Cohen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "5_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "1234",
+            "DOI": "10.1103/PhysRevLett.47.1234",
+            "volume": "47",
+            "author": "SR Amin",
+            "year": "1981",
+            "unstructured": "Amin, S. R., C. D. Caldwell and W. Lichten, 1981. Phys. Rev. Lett. 47, 1234",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR2",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "117",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "SR Amin",
+            "year": "1984",
+            "unstructured": "Amin, S. R., C. D. Caldwell and W. Lichten, 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 117"
+          },
+          {
+            "key": "5_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1016/0550-3213(79)90292-X",
+            "volume": "150",
+            "author": "J Bailey",
+            "year": "1979",
+            "unstructured": "Bailey, J., et al., 1979. Nucl. Phys. B 150, 1",
+            "journal-title": "Nucl. Phys. B"
+          },
+          {
+            "key": "5_CR4",
+            "first-page": "24",
+            "volume": "24",
+            "author": "JD Barrow",
+            "year": "1983",
+            "unstructured": "Barrow, J. D., 1983. Quarterly Journal Roy. Astron. Soc. 24, 24",
+            "journal-title": "Quarterly Journal Roy. Astron. Soc."
+          },
+          {
+            "key": "5_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "1540",
+            "DOI": "10.1103/PhysRevLett.46.1540",
+            "volume": "46",
+            "author": "P Becker",
+            "year": "1981",
+            "unstructured": "Becker, P., et al., 1981. Phys. Rev. Lett. 46, 1540",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "17",
+            "DOI": "10.1007/BF02026423",
+            "volume": "48",
+            "author": "P Becker",
+            "year": "1982",
+            "unstructured": "Becker, P., P. Seyfried and H. Siegert, 1982. Z. Phys. B 48, 17",
+            "journal-title": "Z. Phys. B"
+          },
+          {
+            "key": "5_CR7",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "317",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "P Becker",
+            "year": "1984",
+            "unstructured": "Becker, P., and H. Siegert, 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 317"
+          },
+          {
+            "key": "5_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1088/0026-1394/10/1/002",
+            "volume": "10",
+            "author": "D Bender",
+            "year": "1974",
+            "unstructured": "Bender, D., and W. Schlesok, 1974. Metrologia 10, 1",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR9",
+            "unstructured": "BIPM, 1983. Comptes Rendus des séances de la 17 e CGPM, 1983 (BIPM, Sèvres, France)"
+          },
+          {
+            "key": "5_CR10",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1103/RevModPhys.1.1",
+            "volume": "1",
+            "author": "RT Birge",
+            "year": "1929",
+            "unstructured": "Birge, R. T., 1929. The Physical Review Supplement (Reviews of Modern Physics) 1, 1",
+            "journal-title": "The Physical Review Supplement (Reviews of Modern Physics)"
+          },
+          {
+            "key": "5_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "15",
+            "DOI": "10.1088/0026-1394/7/1/003",
+            "volume": "7",
+            "author": "WR Blevin",
+            "year": "1971",
+            "unstructured": "Blevin, W. R., and W. J. Brown, 1971. Metrologia 7, 15",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "304",
+            "DOI": "10.1109/TIM.1985.4315330",
+            "volume": "IM-34",
+            "author": "L Bliek",
+            "year": "1985",
+            "unstructured": "Bliek, L., et al, 1985. IEEE Trans. Instrum. Meas. IM-34, 304; and private communication",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "issue": "3",
+            "key": "5_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "723",
+            "DOI": "10.1103/RevModPhys.57.723",
+            "volume": "57",
+            "author": "GT Bodwin",
+            "year": "1985",
+            "unstructured": "Bodwin, G. T., D. R. Yennie and M. A. Gregorio, 1985. Rev. Mod. Phys. 57 (3), Pt. 1, 723",
+            "journal-title": "Rev. Mod. Phys."
+          },
+          {
+            "key": "5_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "175",
+            "DOI": "10.6028/jres.085.009",
+            "volume": "85",
+            "author": "VE Bower",
+            "year": "1980",
+            "unstructured": "Bower, V. E., and R. S. Davis, 1980. J. Res. Natl. Bur. Stand. 85, 175",
+            "journal-title": "J. Res. Natl. Bur. Stand."
+          },
+          {
+            "key": "5_CR15",
+            "doi-asserted-by": "crossref",
+            "first-page": "75",
+            "DOI": "10.6028/NBS.IR.75-768",
+            "volume-title": "Reevaluation of the densities of the four NBS silicon crystal standards",
+            "author": "HA Bowman",
+            "year": "1975",
+            "unstructured": "Bowman, H. A., R. M. Schoonover, and C. L. Carroll, 1975. Reevaluation of the densities of the four NBS silicon crystal standards, Natl. Bur. Stand. Report NBSIR 75–768"
+          },
+          {
+            "key": "5_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "3204",
+            "DOI": "10.1103/PhysRevA.32.3204",
+            "volume": "32",
+            "author": "LS Brown",
+            "year": "1985",
+            "unstructured": "Brown, L. S., G. Gabrielse, K. Helmerson and J. Tan, 1985. Phys. Rev. 32, 3204",
+            "journal-title": "Phys. Rev."
+          },
+          {
+            "key": "5_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "301",
+            "DOI": "10.1109/TIM.1985.4315329",
+            "volume": "IM-34",
+            "author": "ME Cage",
+            "year": "1985",
+            "unstructured": "Cage, M. E., R. F. Dziubaan and B. F. Field, 1985. IEEE Trans. Instrum. Meas. IM-34, 301; and private communication",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "238",
+            "DOI": "10.1109/TIM.1980.4314926",
+            "volume": "IM-29",
+            "author": "WC Chiao",
+            "year": "1980",
+            "unstructured": "Chiao, W. C., R. M. Liu and P. Shen, 1980. IEEE Trans. Instrum. Meas. IM-29, 238",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "400",
+            "DOI": "10.1016/0370-2693(71)90637-X",
+            "volume": "34B",
+            "author": "FE Close",
+            "year": "1971",
+            "unstructured": "Close, F. E., and H. Osborne, 1971. Phys. Lett. 34B, 400",
+            "journal-title": "Phys. Lett."
+          },
+          {
+            "key": "5_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "181",
+            "DOI": "10.1088/0026-1394/1/4/005",
+            "volume": "1",
+            "author": "WK Clothier",
+            "year": "1965",
+            "unstructured": "Clothier, W. K., 1965. Metrologia 1, 181",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR21",
+            "series-title": "CODATA Bulletin",
+            "volume-title": "Recommended consistent values of the fundamental physical constants, 1973",
+            "author": "CODATA",
+            "year": "1973",
+            "unstructured": "CODATA, 1973. Recommended consistent values of the fundamental physical constants, 1973, CODATA Bulletin No. 11 (International Council of Scientific Unions --- Committee on Data for Science and Technology, 51 Blvd de Montmorency, 75016 Paris, France, Dec. 1973)"
+          },
+          {
+            "key": "5_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "706",
+            "DOI": "10.1103/RevModPhys.25.709",
+            "volume": "25",
+            "author": "ER Cohen",
+            "year": "1953",
+            "unstructured": "Cohen, E. R., 1953. Rev. Mod. Phys. 25, 706",
+            "journal-title": "Rev. Mod. Phys."
+          },
+          {
+            "key": "5_CR23",
+            "first-page": "581",
+            "volume-title": "Metrology and Fundamental Constants",
+            "author": "ER Cohen",
+            "year": "1980",
+            "unstructured": "Cohen, E. R., 1980. in Metrology and Fundamental Constants, Proceedings of the International School of Physics ‘Enrico Fermi’, Course LXVIII, A. Ferro-Milone, P. Giacomo and S. Leschiutta, eds. (North-Holland, Amsterdam), p. 581"
+          },
+          {
+            "key": "5_CR24",
+            "series-title": "Natl. Bur. Stand (US), Spec. Publ.",
+            "first-page": "391",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "ER Cohen",
+            "year": "1984",
+            "unstructured": "Cohen E R, 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand (US), Spec. Publ 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 391"
+          },
+          {
+            "key": "5_CR25",
+            "volume-title": "Fundamental Constants of Physics",
+            "author": "EB Cohen",
+            "year": "1957",
+            "unstructured": "Cohen, E. B., K. M. Crowe and J. W. M. Dond, 1957. Fundamental Constants of Physics (Interscience Publishers, New York)"
+          },
+          {
+            "key": "5_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "663",
+            "DOI": "10.1063/1.3253130",
+            "volume": "2",
+            "author": "ER Cohen",
+            "year": "1973",
+            "unstructured": "Cohen, E. R., and B. N. Taylor, 1973. J. Phys. Chem. Ref. Data 2, 663",
+            "journal-title": "J. Phys. Chem. Ref. Data"
+          },
+          {
+            "key": "5_CR27",
+            "series-title": "CODATA Bulletin",
+            "volume-title": "The 1986 Adjustment of the Fundamental Physical Constants",
+            "author": "ER Cohen",
+            "year": "1986",
+            "unstructured": "Cohen E. R., and B. N. Taylor, 1986. The 1986 Adjustment of the Fundamental Physical Constants, CODATA Bulletin No. 63 (International Council of Scientific Unions --- Committee on Data for Science and Technology, 51 Blvd de Montmorency, 75016 Paris, France, Nov. 1986)"
+          },
+          {
+            "key": "5_CR28",
+            "doi-asserted-by": "crossref",
+            "first-page": "85",
+            "DOI": "10.6028/jres.092.010",
+            "volume": "92",
+            "author": "ER Cohen",
+            "year": "1987",
+            "unstructured": "Cohen, E. R., and B. N. Taylor, 1987a. J. Res. Natl. Bur. Stand. 92, 85",
+            "journal-title": "J. Res. Natl. Bur. Stand."
+          },
+          {
+            "key": "5_CR29",
+            "unstructured": "Cohen, E. R., and B. N. Taylor, 1987b. Rev. Mod. Phys. (to be published)"
+          },
+          {
+            "key": "5_CR30",
+            "first-page": "28",
+            "volume": "42",
+            "author": "AR Colclough",
+            "year": "1979",
+            "unstructured": "Colclough, A. R., 1979. Acustica 42, 28",
+            "journal-title": "Acustica"
+          },
+          {
+            "key": "5_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "125",
+            "DOI": "10.1098/rspa.1979.0119",
+            "volume": "368",
+            "author": "AR Colclough",
+            "year": "1979",
+            "unstructured": "Colclough, A. R., T. J. Quinnan. R. D. Chandler, 1979. Proc. R. Soc. London, Ser. A: 368, 125",
+            "journal-title": "Proc. R. Soc. London, Ser. A"
+          },
+          {
+            "key": "5_CR32",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "263",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "AR Colcloueh",
+            "year": "1984",
+            "unstructured": "Colcloueh A. R., 1984. in Precision Measurement and Fundamental Constants II, B.N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 263"
+          },
+          {
+            "key": "5_CR33",
+            "volume-title": "private communication",
+            "author": "AR Colclough",
+            "year": "1984",
+            "unstructured": "Colclough, A. R., 1984. private communication"
+          },
+          {
+            "key": "5_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "305",
+            "DOI": "10.1109/TIM.1974.4314299",
+            "volume": "IM-23",
+            "author": "RD Cutkosky",
+            "year": "1974",
+            "unstructured": "Cutkosky, R. D., 1974. IEEE Trans. Instrum. Meas. IM-23, 305",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR35",
+            "doi-asserted-by": "publisher",
+            "first-page": "5",
+            "DOI": "10.1109/TIM.1983.4314999",
+            "volume": "IM-32",
+            "author": "SL Dahake",
+            "year": "1983",
+            "unstructured": "Dahake, S. L., etal, 1983. IEEE Trans. Instrum. Meas. IM-32, 5; private communication",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "809",
+            "DOI": "10.1063/1.555720",
+            "volume": "13",
+            "author": "P deBièvre",
+            "year": "1984",
+            "unstructured": "deBièvre, P., M. Gallet, N. E. Holden and I. L. Barnes, 1984. J. Phys. Chem. Ref. Data 13, 809",
+            "journal-title": "J. Phys. Chem. Ref. Data"
+          },
+          {
+            "key": "5_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "103",
+            "DOI": "10.1088/0026-1394/22/2/005",
+            "volume": "22",
+            "author": "F Delahaye",
+            "year": "1986",
+            "unstructured": "Delahaye, F., et al, 1986. Metrologia 22, 103",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "463",
+            "DOI": "10.1103/PhysRevLett.33.463",
+            "volume": "33",
+            "author": "RD Deslattes",
+            "year": "1974",
+            "unstructured": "Deslattes, R. D., et al, 1974. Phys. Rev. Lett. 33, 463",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR39",
+            "doi-asserted-by": "publisher",
+            "first-page": "898",
+            "DOI": "10.1103/PhysRevLett.36.898",
+            "volume": "36",
+            "author": "RD Deslattes",
+            "year": "1976",
+            "unstructured": "Deslattes, R. D., et al, 1976. Phys. Rev. Lett. 36, 898",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR40",
+            "first-page": "38",
+            "volume-title": "Metrology and Fundamental Constants",
+            "author": "RD Deslattes",
+            "year": "1980",
+            "unstructured": "Deslattes, R. D., 1980a. in Metrology and Fundamental Constants, Proceedings of the International School of Physics ‘Enrico Fermi’, Course LXVIII, A. Ferro-Milone, P. Giacomo and S. Leschiutta, eds. (North-Holland, Amsterdam), p. 38"
+          },
+          {
+            "key": "5_CR41",
+            "doi-asserted-by": "publisher",
+            "first-page": "435",
+            "DOI": "10.1146/annurev.pc.31.100180.002251",
+            "volume": "31",
+            "author": "RD Deslattes",
+            "year": "1980",
+            "unstructured": "Deslattes, R. D., 1980b. Ann. Rev. Phys. Chem. 31, 435",
+            "journal-title": "Ann. Rev. Phys. Chem."
+          },
+          {
+            "key": "5_CR42",
+            "doi-asserted-by": "publisher",
+            "first-page": "972",
+            "DOI": "10.1103/PhysRevLett.31.972",
+            "volume": "31",
+            "author": "RD Deslattes",
+            "year": "1973",
+            "unstructured": "Deslattes, R. D., and A. Henins, 1973. Phys. Rev. Lett. 31, 972",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR43",
+            "volume-title": "private communication",
+            "author": "RD Deslattes",
+            "year": "1984",
+            "unstructured": "Deslattes, R. D., and A. Henins, 1984. private communication"
+          },
+          {
+            "key": "5_CR44",
+            "doi-asserted-by": "crossref",
+            "first-page": "297",
+            "DOI": "10.6028/jres.060.032",
+            "volume": "60",
+            "author": "RL Driscoll",
+            "year": "1958",
+            "unstructured": "Driscoll, R. L., and R. D. Cutkosky, 1958. J. Res. Natl. Bur. Stand. 60, 297",
+            "journal-title": "J. Res. Natl. Bur. Stand."
+          },
+          {
+            "key": "5_CR45",
+            "unstructured": "Driscoll, R. L., and P. T. Olsen, 1968. Document CCE/68–7, submitted to CCE, CIPM, 12 e session (October 1968)"
+          },
+          {
+            "key": "5_CR46",
+            "volume-title": "private communication",
+            "author": "RS Dyck Van Jr",
+            "year": "1985",
+            "unstructured": "Van Dyck, R. S., jr, 1985. private communication"
+          },
+          {
+            "key": "5_CR47",
+            "first-page": "244",
+            "volume": "31",
+            "author": "RS Dyck van",
+            "year": "1986",
+            "unstructured": "van Dyck, R. S., jr, F. L. Moore, D. L. Farnum and P. B. Schwinberg, 1986. Bull. Am. Phys. Soc. 31, 244",
+            "journal-title": "Bull. Am. Phys. Soc."
+          },
+          {
+            "key": "5_CR48",
+            "first-page": "53",
+            "volume-title": "Atomic Physics 9",
+            "author": "RS Dyck van",
+            "year": "1984",
+            "unstructured": "van Dyck, R. S., jr, P. B. Schvinberg and H. G. Dehmelt, 1984. in Atomic Physics 9, R. S. van Dyck, jr and E. N. Fortson, eds. (World Scientific Publishing Co., Singapore), p. 53"
+          },
+          {
+            "key": "5_CR49",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "465",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "N Elnékavé",
+            "year": "1984",
+            "unstructured": "Elnékavé, N., and A. Fau, 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 465"
+          },
+          {
+            "key": "5_CR50",
+            "unstructured": "Elnékavé, N., and A. Fau, 1984 Document CCE/83–2, submitted to CCE, CIPM, 16 e session, March, 1983"
+          },
+          {
+            "key": "5_CR51",
+            "unstructured": "Elnékavé, N., and A. Fau, private communication (1984)"
+          },
+          {
+            "key": "5_CR52",
+            "doi-asserted-by": "publisher",
+            "first-page": "831",
+            "DOI": "10.1063/1.555557",
+            "volume": "6",
+            "author": "GW Erickson",
+            "year": "1977",
+            "unstructured": "Erickson, G. W., 1977. J. Phys. Chem. Ref. Data 6, 831",
+            "journal-title": "J. Phys. Chem. Ref. Data"
+          },
+          {
+            "key": "5_CR53",
+            "volume-title": "private communication",
+            "author": "GW Erickson",
+            "year": "1983",
+            "unstructured": "Erickson, G. W., 1983. private communication"
+          },
+          {
+            "key": "5_CR54",
+            "first-page": "15",
+            "volume": "270",
+            "author": "L Facy",
+            "year": "1970",
+            "unstructured": "Facy, L., and C. Pontikis, 1970. Comptes Rendus Acad. Sci., Ser. B: 270, 15",
+            "journal-title": "Comptes Rendus Acad. Sci., Ser. B"
+          },
+          {
+            "key": "5_CR55",
+            "first-page": "1397",
+            "volume": "272",
+            "author": "L Facy",
+            "year": "1971",
+            "unstructured": "Facy, L., and C. Pontikis, 1971. Comptes Rendus Acad. Sci., Ser. B: 272, 1397",
+            "journal-title": "Comptes Rendus Acad. Sci., Ser. B"
+          },
+          {
+            "key": "5_CR56",
+            "doi-asserted-by": "publisher",
+            "first-page": "60",
+            "DOI": "10.1126/science.158.3797.60",
+            "volume": "158",
+            "author": "JE Faller",
+            "year": "1967",
+            "unstructured": "Faller, J. E., 1967. Science 158, 60",
+            "journal-title": "Science"
+          },
+          {
+            "key": "5_CR57",
+            "doi-asserted-by": "crossref",
+            "first-page": "422",
+            "DOI": "10.1016/0370-2693(70)90621-0",
+            "volume": "33B",
+            "author": "R Faustov",
+            "year": "1970",
+            "unstructured": "Faustov, R., 1970. Phys. Lett. 33B, 422",
+            "journal-title": "Phys. Lett."
+          },
+          {
+            "key": "5_CR58",
+            "doi-asserted-by": "publisher",
+            "first-page": "279",
+            "DOI": "10.1103/PhysRevA.24.279",
+            "volume": "24",
+            "author": "W Frieze",
+            "year": "1981",
+            "unstructured": "Frieze, W., E. A. Hinds, V. W. Hughes and F. M. J. Pichanick, 1981. Phys. Rev. A, 24, 279",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "key": "5_CR59",
+            "doi-asserted-by": "publisher",
+            "first-page": "69",
+            "DOI": "10.1088/0026-1394/17/2/007",
+            "volume": "17",
+            "author": "P Giacomo",
+            "year": "1981",
+            "unstructured": "Giacomo, P., 1981. Metrologia 17, 69",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR60",
+            "doi-asserted-by": "publisher",
+            "first-page": "1525",
+            "DOI": "10.1103/PhysRevLett.41.1525",
+            "volume": "41",
+            "author": "JE Goldsmith",
+            "year": "1979",
+            "unstructured": "Goldsmith, J. E., E. W. Weber and T. W. Hänsch, 1979. Phys. Rev. Lett. 41, 1525",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR61",
+            "volume-title": "private communication",
+            "author": "SV Gorbatsevich",
+            "year": "1973",
+            "unstructured": "Gorbatsevich, S. V., 1973. private communication"
+          },
+          {
+            "key": "5_CR62",
+            "doi-asserted-by": "crossref",
+            "first-page": "35",
+            "DOI": "10.1007/BF01414243",
+            "volume": "A297",
+            "author": "G Gräff",
+            "year": "1980",
+            "unstructured": "Gräff, G., H. Kalinowsky and J. Traut, 1980. Z. Physik A297, 35",
+            "journal-title": "Z. Physik"
+          },
+          {
+            "key": "5_CR63",
+            "doi-asserted-by": "publisher",
+            "first-page": "59",
+            "DOI": "10.1103/PhysRevA.4.59",
+            "volume": "4",
+            "author": "H Grotch",
+            "year": "1971",
+            "unstructured": "Grotch, H., and R. Hegstrom, 1971. Phys. Rev. A 4, 59",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "key": "5_CR64",
+            "doi-asserted-by": "publisher",
+            "first-page": "597",
+            "DOI": "10.1109/JQE.1967.1074413",
+            "volume": "QE-3",
+            "author": "JA Hammond",
+            "year": "1967",
+            "unstructured": "Hammond, J. A., and J. E. Faller, 1967. IEEE J. Quantum Electr. QE-3, 597",
+            "journal-title": "IEEE J. Quantum Electr."
+          },
+          {
+            "key": "5_CR65",
+            "doi-asserted-by": "publisher",
+            "first-page": "1336",
+            "DOI": "10.1103/PhysRevLett.32.1336",
+            "volume": "32",
+            "author": "TW Hänsch",
+            "year": "1974",
+            "unstructured": "Hänsch, T. W., et al., 1974. Phys. Rev. Lett. 32, 1336",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR66",
+            "unstructured": "Hara, K., H. Nakamura, T. Sakai and N. Koizumi, 1968. unpublished report"
+          },
+          {
+            "key": "5_CR67",
+            "doi-asserted-by": "publisher",
+            "first-page": "309",
+            "DOI": "10.1109/TIM.1985.4315332",
+            "volume": "IM-34",
+            "author": "A Hartland",
+            "year": "1985",
+            "unstructured": "Hartland, A., G. J. Davies and D. R. Wood, 1985. IEEE Trans. Instrum. Meas. IM-34, 309",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR68",
+            "doi-asserted-by": "crossref",
+            "first-page": "1243",
+            "DOI": "10.6028/jres.005.074",
+            "volume": "5",
+            "author": "PR Heyl",
+            "year": "1930",
+            "unstructured": "Heyl, P. R., 1930. J. Res. Nat. Bur. Stand. 5, 1243",
+            "journal-title": "J. Res. Nat. Bur. Stand."
+          },
+          {
+            "key": "5_CR69",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.6028/jres.029.001",
+            "volume": "29",
+            "author": "PR Heyl",
+            "year": "1942",
+            "unstructured": "Heyl, P. R., and P. Chrzanovski, 1942. J. Res. Nat. Bur. Stand. 29, 1",
+            "journal-title": "J. Res. Nat. Bur. Stand."
+          },
+          {
+            "key": "5_CR70",
+            "doi-asserted-by": "publisher",
+            "first-page": "653",
+            "DOI": "10.1351/pac198456060653",
+            "volume": "56",
+            "author": "NE Holden",
+            "year": "1984",
+            "unstructured": "Holden, N. E., and R. L. Martin, 1984. Pure Appl. Chem. 56, 653",
+            "journal-title": "Pure Appl. Chem."
+          },
+          {
+            "key": "5_CR71",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hudson, R. P., 1984. (editor), Metrologia 19, 163",
+            "DOI": "10.1088/0026-1394/19/4/004"
+          },
+          {
+            "key": "5_CR72",
+            "doi-asserted-by": "publisher",
+            "first-page": "226",
+            "DOI": "10.1109/TIM.1968.4313711",
+            "volume": "IM-17",
+            "author": "T Igarashi",
+            "year": "1968",
+            "unstructured": "Igarashi, T., Y. Koizumi and M. Kanno, 1968. IEEE Trans. Instrum. Meas. IM-17, 226",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR73",
+            "unstructured": "Igarashi, T., H. Nishinaka and K. Murakami, 1978. Document CCE/78–12, submitted to CCE, CIPM, 15 e session"
+          },
+          {
+            "key": "5_CR74",
+            "volume-title": "private communication",
+            "author": "T Igarashi",
+            "year": "1983",
+            "unstructured": "Igarashi, T., 1983. private communication"
+          },
+          {
+            "key": "5_CR75",
+            "volume-title": "private communication",
+            "author": "T Igarashi",
+            "year": "1984",
+            "unstructured": "Igarashi, T., 1984. private communication"
+          },
+          {
+            "key": "5_CR76",
+            "doi-asserted-by": "publisher",
+            "first-page": "181",
+            "DOI": "10.1109/TIM.1985.4315296",
+            "volume": "IM-34",
+            "author": "RG Jones",
+            "year": "1985",
+            "unstructured": "Jones, R. G., and B. P. Kibble, 1985. IEEE Trans. Instrum. Meas. IM-34, 181",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR77",
+            "first-page": "106",
+            "volume": "12",
+            "author": "OV Karagioz",
+            "year": "1976",
+            "unstructured": "Karagioz, O. V., et al, 1976. Izv. Acad. Nauk SSSR, Fiz. Zemli 12, 106",
+            "journal-title": "Izv.Acad. Nauk SSSR, Fiz. Zemli"
+          },
+          {
+            "key": "5_CR78",
+            "first-page": "351",
+            "volume": "12",
+            "author": "OV Karagioz",
+            "year": "1976",
+            "unstructured": "Karagioz, O. V., et al Engl, transl.: Izv. Acad. Sci. USSR, Phys. Solid Earth 12, 351 (1976)",
+            "journal-title": "Engl, transl.: Izv. Acad. Sci. USSR,Phys. Solid Earth"
+          },
+          {
+            "key": "5_CR79",
+            "first-page": "92",
+            "volume": "17",
+            "author": "OV Karagioz",
+            "year": "1981",
+            "unstructured": "Karagioz, O. V., A. A. Silin and V. P. Izmaylov, 1981. Izv. Acad. Nauk SSSR, Fiz. Zemli 17, 92",
+            "journal-title": "Izv. Acad. Nauk SSSR, Fiz. Zemli"
+          },
+          {
+            "key": "5_CR80",
+            "first-page": "66",
+            "volume": "17",
+            "author": "OV Karagioz",
+            "year": "1976",
+            "unstructured": "Karagioz, O. V., A. A. Silin and V. P. Izmaylov Engl, transl.: Izv. Acad. Sci. USSR, Phys. Solid Earth 17, 66 (1976)",
+            "journal-title": "Engl, transl.: Izv. Acad. Sci. USSR, Phys. Solid Earth"
+          },
+          {
+            "key": "5_CR81",
+            "doi-asserted-by": "publisher",
+            "first-page": "215",
+            "DOI": "10.1103/PhysRevA.19.215",
+            "volume": "19",
+            "author": "EG Kessler Jr",
+            "year": "1979",
+            "unstructured": "Kessler, jr, E. G., R. D. Deslattes and A. Henins, 1979. Phys. Rev. A 19, 215",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "key": "5_CR82",
+            "doi-asserted-by": "publisher",
+            "first-page": "5",
+            "DOI": "10.1088/0026-1394/15/1/002",
+            "volume": "15",
+            "author": "BP Kibble",
+            "year": "1979",
+            "unstructured": "Kibble, B. P., and G. J. Hunt, 1979. Metrologia 15, 5 (1979)",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR83",
+            "doi-asserted-by": "publisher",
+            "first-page": "1573",
+            "DOI": "10.1103/PhysRevLett.47.1573",
+            "volume": "47",
+            "author": "T Kinoshita",
+            "year": "1981",
+            "unstructured": "Kinoshita T., and W. B. Lindquist, 1981a. Phys. Rev. Lett. 47, 1573",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR84",
+            "volume-title": "Eighth order magnetic moment of the electron, IV, Report CLNS--81/509, and V, Report CLNS--81/510",
+            "author": "T Kinoshita",
+            "year": "1981",
+            "unstructured": "Kinoshita T., and W. B. Lindquist, 1981b. Eighth order magnetic moment of the electron, IV, Report CLNS--81/509, and V, Report CLNS--81/510, Cornell University (Newman Laboratory of Nuclear Studies, Sept. 1981)"
+          },
+          {
+            "key": "5_CR85",
+            "doi-asserted-by": "publisher",
+            "first-page": "867",
+            "DOI": "10.1103/PhysRevD.27.867",
+            "volume": "27",
+            "author": "T Kinoshita",
+            "year": "1983",
+            "unstructured": "Kinoshita T., and W. B. Lindquist, 1983. Phys. Rev. D 27, 867, 877, 886",
+            "journal-title": "Phys. Rev. D"
+          },
+          {
+            "key": "5_CR86",
+            "doi-asserted-by": "publisher",
+            "first-page": "652",
+            "DOI": "10.1103/PhysRevD.25.652",
+            "volume": "25",
+            "author": "E Klempt",
+            "year": "1982",
+            "unstructured": "Klempt, E., et al, 1982. Phys. Rev. D 25, 652",
+            "journal-title": "Phys. Rev. D"
+          },
+          {
+            "key": "5_CR87",
+            "doi-asserted-by": "publisher",
+            "first-page": "519",
+            "DOI": "10.1103/RevModPhys.58.519",
+            "volume": "58",
+            "author": "K Klitzing von",
+            "year": "1986",
+            "unstructured": "von Klitzing, K., 1986. Rev. Mod. Phys. 58, 519",
+            "journal-title": "Rev. Mod. Phys."
+          },
+          {
+            "key": "5_CR88",
+            "doi-asserted-by": "publisher",
+            "first-page": "494",
+            "DOI": "10.1103/PhysRevLett.45.494",
+            "volume": "45",
+            "author": "K Klitzing von",
+            "year": "1980",
+            "unstructured": "von Klitzing, K., G. Dorda and Pepper, 1980. Phys. Rev. Lett. 45, 494",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR89",
+            "doi-asserted-by": "publisher",
+            "first-page": "264",
+            "DOI": "10.1103/PhysRevA.24.264",
+            "volume": "24",
+            "author": "A Kponou",
+            "year": "1981",
+            "unstructured": "Kponou, A., et al, 1981. Phys. Rev. A, 24, 264",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "key": "5_CR90",
+            "first-page": "2701",
+            "volume": "104",
+            "author": "DG Lampard",
+            "year": "1957",
+            "unstructured": "Lampard, D. G., 1957. Proc. Inst. Elec. Eng. (London) Part C 104, 2701",
+            "journal-title": "Proc. Inst.Elec. Eng. (London) Part C"
+          },
+          {
+            "key": "5_CR91",
+            "doi-asserted-by": "publisher",
+            "first-page": "867",
+            "DOI": "10.1103/PhysRevA.18.867",
+            "volume": "18",
+            "author": "ML Lewis",
+            "year": "1978",
+            "unstructured": "Lewis, M. L., and P. H. Serafino, 1978. Phys. Rev. A, 18, 867",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "key": "5_CR92",
+            "doi-asserted-by": "publisher",
+            "first-page": "86",
+            "DOI": "10.1103/PhysRevA.2.86",
+            "volume": "2",
+            "author": "SA Lewis",
+            "year": "1970",
+            "unstructured": "Lewis, S. A., F. M. J. Pichanick and V. W. Hughes, 1970. Phys. Rev. A, 2, 86",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "key": "5_CR93",
+            "volume-title": "private communication",
+            "author": "W Lichten",
+            "year": "1985",
+            "unstructured": "Lichten, W., 1985. private communication"
+          },
+          {
+            "key": "5_CR94",
+            "doi-asserted-by": "publisher",
+            "first-page": "121",
+            "DOI": "10.1103/PhysRevLett.48.121",
+            "volume": "48",
+            "author": "G Luther",
+            "year": "1982",
+            "unstructured": "Luther, G., and W. R. Towler, 1982. Phys. Rev. Lett. 48, 121",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR95",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "573",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "G Luther",
+            "year": "1984",
+            "unstructured": "Luther, G., and W. R. Towler also in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 573"
+          },
+          {
+            "key": "5_CR96",
+            "first-page": "1978",
+            "volume": "84",
+            "author": "BA Mamyrin",
+            "year": "1983",
+            "unstructured": "Mamyrin, B. A., N. N. Aruyev and S.A. Alekseenko, 1983. Zh. Eksp. Teor. Fiz. 84, 1978",
+            "journal-title": "Zh. Eksp. Teor. Fiz."
+          },
+          {
+            "key": "5_CR97",
+            "first-page": "1152",
+            "volume": "57",
+            "author": "BA Mamyrin",
+            "year": "1983",
+            "unstructured": "Mamyrin, B. A., N. N. Aruyev and S.A. Alekseenko Engl, transl.: Sov. Phys.-JETP 57, 1152 (1983)",
+            "journal-title": "Engl, transl.: Sov. Phys.-JETP"
+          },
+          {
+            "key": "5_CR98",
+            "volume-title": "High precision measurement of the muonium ground-state hyperfine interval and the muon magnetic moment",
+            "author": "FG Mariam",
+            "year": "1981",
+            "unstructured": "Mariam, F. G., 1981. High precision measurement of the muonium ground-state hyperfine interval and the muon magnetic moment (Ph. D. thesis, Yale University, 1981)"
+          },
+          {
+            "key": "5_CR99",
+            "doi-asserted-by": "publisher",
+            "first-page": "993",
+            "DOI": "10.1103/PhysRevLett.49.993",
+            "volume": "49",
+            "author": "FG Mariam",
+            "year": "1982",
+            "unstructured": "Mariam, F. G., et al, 1982. Phys. Rev. Lett. 49, 993",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR100",
+            "doi-asserted-by": "crossref",
+            "first-page": "1241",
+            "DOI": "10.1515/zna-1971-0730",
+            "volume": "26a",
+            "author": "CE Melton",
+            "year": "1971",
+            "unstructured": "Melton, C. E., W. Massey and B. N. Abels, 1971. Z. Naturforsch. 26a, 1241",
+            "journal-title": "Z. Naturforsch."
+          },
+          {
+            "key": "5_CR101",
+            "volume-title": "The International Gravity Standardization Net 1971 (IGSN71),Publ. Spéc.",
+            "author": "C Morelli",
+            "year": "1974",
+            "unstructured": "Morelli, C., et al, 1974. The International Gravity Standardization Net 1971 (IGSN71), Publ. Spéc. No. 4, (Bur. central de l’assoc. int. de géodesie, Paris)"
+          },
+          {
+            "key": "5_CR102",
+            "doi-asserted-by": "publisher",
+            "first-page": "789",
+            "DOI": "10.1103/PhysRev.77.789",
+            "volume": "77",
+            "author": "AO Nier",
+            "year": "1950",
+            "unstructured": "Nier, A. O., 1950. Phys. Rev. 77, 789",
+            "journal-title": "Phys. Rev."
+          },
+          {
+            "key": "5_CR103",
+            "first-page": "1",
+            "volume": "13",
+            "author": "LJ Pauw van der",
+            "year": "1958",
+            "unstructured": "van der Pauw, L. J., 1958. Philips Res. Repts. 13, 1",
+            "journal-title": "Philips Res. Repts."
+          },
+          {
+            "key": "5_CR104",
+            "doi-asserted-by": "publisher",
+            "first-page": "81",
+            "DOI": "10.1088/0026-1394/20/3/002",
+            "volume": "20",
+            "author": "BW Petley",
+            "year": "1984",
+            "unstructured": "Petley, B. W., and R. W. Donaldson, 1984. Metrologia 20, 81",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR105",
+            "doi-asserted-by": "publisher",
+            "first-page": "167",
+            "DOI": "10.1088/0305-4470/7/2/002",
+            "volume": "7",
+            "author": "BW Petley",
+            "year": "1974",
+            "unstructured": "Petley, B. W., and K. Morris, 1974. J. Phys. A 7, 167",
+            "journal-title": "J. Phys. A"
+          },
+          {
+            "key": "5_CR106",
+            "doi-asserted-by": "publisher",
+            "first-page": "141",
+            "DOI": "10.1038/279141a0",
+            "volume": "279",
+            "author": "BW Petley",
+            "year": "1979",
+            "unstructured": "Petley, B. W., and K. Morris, 1979. Nature (London), 279, 141",
+            "journal-title": "Nature (London)"
+          },
+          {
+            "key": "5_CR107",
+            "doi-asserted-by": "publisher",
+            "first-page": "3099",
+            "DOI": "10.1088/0022-3700/13/16/008",
+            "volume": "13",
+            "author": "BW Petley",
+            "year": "1980",
+            "unstructured": "Petley, B. W., K. Morris and R. E. Shawyer, 1980. J. Phys. B 13, 3099",
+            "journal-title": "J. Phys. B"
+          },
+          {
+            "key": "5_CR108",
+            "doi-asserted-by": "publisher",
+            "first-page": "179",
+            "DOI": "10.1088/0026-1394/13/4/005",
+            "volume": "13",
+            "author": "WD Phillips",
+            "year": "1977",
+            "unstructured": "Phillips, W. D., W. E. Cooke and D. Kleppner, 1977. Metrologia 13, 179",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR109",
+            "first-page": "437",
+            "volume": "274",
+            "author": "C Pontikis",
+            "year": "1972",
+            "unstructured": "Pontikis, C., 1972. Comptes Rendus Acad. Sci., Ser. B: 274, 437",
+            "journal-title": "Comptes Rendus Acad. Sci., Ser. B"
+          },
+          {
+            "key": "5_CR110",
+            "doi-asserted-by": "crossref",
+            "first-page": "9",
+            "DOI": "10.6028/jres.087.002",
+            "volume": "87",
+            "author": "LJ Powell",
+            "year": "1982",
+            "unstructured": "Powell, L. J., T. J. Murphy and J. W. Gramlich, 1982. J. Res. Nat. Bur. Stand. 87, 9",
+            "journal-title": "J. Res. Nat. Bur. Stand."
+          },
+          {
+            "key": "5_CR111",
+            "doi-asserted-by": "publisher",
+            "first-page": "367",
+            "DOI": "10.1098/rsta.1976.0090",
+            "volume": "283",
+            "author": "TJ Quinn",
+            "year": "1976",
+            "unstructured": "Quinn, T. J., A. R. Colclough and T. R. D. Chandler, 1976. Philos. Trans. R. Soc. London, Ser. A: 283, 367",
+            "journal-title": "Philos. Trans. R. Soc. London, Ser. A"
+          },
+          {
+            "key": "5_CR112",
+            "doi-asserted-by": "publisher",
+            "first-page": "85",
+            "DOI": "10.1098/rsta.1985.0058",
+            "volume": "316",
+            "author": "TJ Quinn",
+            "year": "1985",
+            "unstructured": "Quinn, T. J., and J. E. Martin, 1985. Philos. Trans. R. Soc. London, Ser. A: 316, 85",
+            "journal-title": "Philos. Trans. R. Soc. London, Ser. A"
+          },
+          {
+            "key": "5_CR113",
+            "doi-asserted-by": "publisher",
+            "first-page": "655",
+            "DOI": "10.1103/PhysRevLett.23.655",
+            "volume": "23",
+            "author": "RD Rose",
+            "year": "1969",
+            "unstructured": "Rose, R. D., et al, 1969. Phys. Rev. Lett. 23, 655",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR114",
+            "first-page": "567",
+            "volume": "245",
+            "author": "MU Sagitov",
+            "year": "1979",
+            "unstructured": "Sagitov, M. U., et al, 1979. Dokl. Acad. Nauk SSSR 245, 567",
+            "journal-title": "Dokl. Acad. Nauk SSSR"
+          },
+          {
+            "key": "5_CR115",
+            "first-page": "20",
+            "volume": "245",
+            "author": "MU Sagitov",
+            "year": "1981",
+            "unstructured": "Sagitov, M. U., et al Engl, transl.: Sov. Phys.-Dokl. (Earth Sci.) 245, 20 (1981)",
+            "journal-title": "Engl, transl.: Sov. Phys.-Dokl. (Earth Sci.)"
+          },
+          {
+            "key": "5_CR116",
+            "doi-asserted-by": "publisher",
+            "first-page": "2290",
+            "DOI": "10.1103/PhysRevD.29.2290",
+            "volume": "29",
+            "author": "JR Sapirstein",
+            "year": "1984",
+            "unstructured": "Sapirstein, J. R., E. A. Terray and D. R. Yennie, 1984. Phys. Rev. D 29, 2290",
+            "journal-title": "Phys. Rev. D"
+          },
+          {
+            "key": "5_CR117",
+            "doi-asserted-by": "publisher",
+            "first-page": "173",
+            "DOI": "10.1109/TIM.1985.4315294",
+            "volume": "IM-34",
+            "author": "W Schlesok",
+            "year": "1985",
+            "unstructured": "Schlesok W., and J. Forkert, 1985. IEEE Trans. Instrum. Meas. IM-34, 173",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR118",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "313",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "P Seyfried",
+            "year": "1984",
+            "unstructured": "Seyfried, P., 1984. in Precision Measurement and Fundamental Constants II. B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 313"
+          },
+          {
+            "key": "5_CR119",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "321",
+            "volume-title": "Precision Measurement and Fundamental Constants",
+            "author": "H Siegert",
+            "year": "1984",
+            "unstructured": "Siegert, H., and P. Becker, 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 321"
+          },
+          {
+            "key": "5_CR120",
+            "doi-asserted-by": "publisher",
+            "first-page": "273",
+            "DOI": "10.1007/BF01306634",
+            "volume": "56",
+            "author": "H Siegert",
+            "year": "1984",
+            "unstructured": "Siegert, H., P. Becker and P. Seyfried, 1984. Z. Phys. B 56, 273",
+            "journal-title": "Z. Phys. B"
+          },
+          {
+            "key": "5_CR121",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "469",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "GJ Sloggett",
+            "year": "1984",
+            "unstructured": "Sloggett, G. J., et al., 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 469"
+          },
+          {
+            "key": "5_CR122",
+            "doi-asserted-by": "publisher",
+            "first-page": "187",
+            "DOI": "10.1109/TIM.1985.4315298",
+            "volume": "IM-34",
+            "author": "GJ Sloggett",
+            "year": "1985",
+            "unstructured": "Sloggett, G. J., et al., 1985. IEEE Trans. Instrum. Meas. IM-34, 187; (and private communication)",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR123",
+            "doi-asserted-by": "publisher",
+            "first-page": "3237",
+            "DOI": "10.1103/PhysRevLett.57.3237",
+            "volume": "57",
+            "author": "GJ Sloggett",
+            "year": "1986",
+            "unstructured": "Sloggett, G. J., W. K. Clothier and B. W. Ricketts, 1986. Phys. Rev. Lett. 57, 3237",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "issue": "6",
+            "key": "5_CR124",
+            "first-page": "56",
+            "volume": "1981",
+            "author": "NV Studentsov",
+            "year": "1981",
+            "unstructured": "Studentsov, N. V., V. N. Khorev and V. Ya. Shifrin, 1981. Izmeritel. Tekh. 1981 (6) p. 56",
+            "journal-title": "Izmeritel. Tekh."
+          },
+          {
+            "key": "5_CR125",
+            "first-page": "501",
+            "volume": "24",
+            "author": "NV Studentsov",
+            "year": "1981",
+            "unstructured": "Studentsov, N. V., V. N. Khorev and V. Ya. Shifrin Engl, transl.: Meas. Tech. 24, 501 (1981)]",
+            "journal-title": "Engl, transl.: Meas. Tech."
+          },
+          {
+            "key": "5_CR126",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "483",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "YUV Tarbeyev",
+            "year": "1984",
+            "unstructured": "Tarbeyev, Yu. V., 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 483"
+          },
+          {
+            "key": "5_CR127",
+            "doi-asserted-by": "crossref",
+            "first-page": "91",
+            "DOI": "10.6028/jres.090.006",
+            "volume": "90",
+            "author": "BN Taylor",
+            "year": "1985",
+            "unstructured": "B. N. Taylor, 1985. J. Res. Natl. Bur. Stand. 90, 91 (1985)",
+            "journal-title": "J. Res. Natl. Bur. Stand."
+          },
+          {
+            "key": "5_CR128",
+            "volume-title": "Numerical comparisons of several algorithms for treating inconsistent data in a least-squares adjustment of the fundamental constants",
+            "author": "BN Taylor",
+            "year": "1982",
+            "unstructured": "Taylor, B. N., 1982. Numerical comparisons of several algorithms for treating inconsistent data in a least-squares adjustment of the fundamental constants, Natl. Bur. Stand. Report NBSIR 81–2426"
+          },
+          {
+            "key": "5_CR129",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1088/0026-1394/4/1/002",
+            "volume": "4",
+            "author": "AM Thompson",
+            "year": "1968",
+            "unstructured": "Thompson, A. M., 1968. Metrologia 4, 1; Procès Verbaux des séances CIPM 51, p. 57, 72 e session, 1983 (BIPM, Sèvres, France, 1983); ibid. 53, p. 83, 74 e session, 1985",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "5_CR130",
+            "doi-asserted-by": "publisher",
+            "first-page": "888",
+            "DOI": "10.1038/177888a0",
+            "volume": "177",
+            "author": "AM Thompson",
+            "year": "1956",
+            "unstructured": "Thompson, A.M., and D. G. Lampard, 1956. Nature 177, 888",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "5_CR131",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "485",
+            "volume-title": "Precision Measurement and Fundamental Constants",
+            "author": "WR Tovler",
+            "year": "1971",
+            "unstructured": "Tovler, W. R., et al., 1971. in Precision Measurement and Fundamental Constants, D. N. Langenberg and B. N. Taylor, eds., Natl. Bur. Stand. (US), Spec. Publ. 343 (U. S. Govt. Printing Office, Washington, DC), p. 485"
+          },
+          {
+            "key": "5_CR132",
+            "volume-title": "Concerning changes in the methods for adjusting the physical constants",
+            "author": "VS Tuninskii",
+            "year": "1975",
+            "unstructured": "Tuninskii, V. S., and S. V. Kholin, 1975. Concerning changes in the methods for adjusting the physical constants, Internal Report, Mendeleev Research Institute of Metrology (VNIIM), Leningrad"
+          },
+          {
+            "issue": "8",
+            "key": "5_CR133",
+            "first-page": "3",
+            "volume": "1975",
+            "author": "VS Tuninskii",
+            "year": "1975",
+            "unstructured": "Tuninskii, V. S., and S. V. Kholin Metrologiya 1975 (8), 3 (1975) [in Russian]",
+            "journal-title": "Metrologiya"
+          },
+          {
+            "key": "5_CR134",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1088/0026-1394/1/1/003",
+            "volume": "1",
+            "author": "P Vigoureux",
+            "year": "1965",
+            "unstructured": "Vigoureux, P., 1965. Metrologial 1, 3",
+            "journal-title": "Metrologial"
+          },
+          {
+            "key": "5_CR135",
+            "unstructured": "Vigoureux, P., an. Dupuy, 1973. Report Qu-26 (NPL Quantum Metrology Division)"
+          },
+          {
+            "key": "5_CR136",
+            "unstructured": "Vigoureux, P., and N. Dupuy, 1980. Report DES-59 (NPL Quantum Metrology Division)"
+          },
+          {
+            "key": "5_CR137",
+            "doi-asserted-by": "publisher",
+            "first-page": "306",
+            "DOI": "10.1109/TIM.1985.4315331",
+            "volume": "IM-34",
+            "author": "T Wada",
+            "year": "1985",
+            "unstructured": "Wada, T., K. Shida, H. Nishinaka and T. Igarashi, 1985. IEEE Trans. Instrum. Meas. IM-34, 306",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR138",
+            "series-title": "Natl. Bur. Stand. (US), Spec. Publ.",
+            "first-page": "505",
+            "volume-title": "Precision Measurement and Fundamental Constants II",
+            "author": "ZX Wang",
+            "year": "1984",
+            "unstructured": "Wang Z. X., 1984. in Precision Measurement and Fundamental Constants II, B. N. Taylor and W. D. Phillips, eds., Natl. Bur. Stand. (US), Spec. Publ. 617 (U. S. Govt. Printing Office, Washington, DC, 1984), p. 505"
+          },
+          {
+            "key": "5_CR139",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1016/0375-9474(85)90283-0",
+            "volume": "432",
+            "author": "AH Wapstra",
+            "year": "1985",
+            "unstructured": "Wapstra, A. H., and G. Audi, 1985. Nucl. Phys. A 432, 1",
+            "journal-title": "Nucl. Phys. A"
+          },
+          {
+            "key": "5_CR140",
+            "doi-asserted-by": "crossref",
+            "first-page": "314",
+            "DOI": "10.1109/TIM.1985.4315333",
+            "volume": "IM-34",
+            "author": "W Wel van der",
+            "year": "1985",
+            "unstructured": "van der Wel, W., K. J. P. M. Harmans, R. Kaarls and J. E. Mooij, 1985. IEEE Trans. Instrum. Meas. IM-34, 314",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "5_CR141",
+            "doi-asserted-by": "publisher",
+            "first-page": "1575",
+            "DOI": "10.1103/PhysRevLett.42.1575",
+            "volume": "42",
+            "author": "ER Williams",
+            "year": "1979",
+            "unstructured": "Williams, E. R., and P. T. Olsen, 1979. Phys. Rev. Lett. 42, 1575",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "5_CR142",
+            "doi-asserted-by": "publisher",
+            "first-page": "83",
+            "DOI": "10.1103/PhysRevA.5.83",
+            "volume": "5",
+            "author": "PF Winkler",
+            "year": "1972",
+            "unstructured": "Winkler, P. F., D. Kleppner, T. Myintan. G. Walther, 1972. Phys. Rev. A 5, 83",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "issue": "5",
+            "key": "5_CR143",
+            "first-page": "24",
+            "volume": "1962",
+            "author": "GK Yagola",
+            "year": "1962",
+            "unstructured": "Yagola, G. K., V. I. Zingerman and V. N. Sepetyi, 1962. Izmeritel. Tekh. 1962 (5), p. 24",
+            "journal-title": "Izmeritel. Tekh."
+          },
+          {
+            "key": "5_CR144",
+            "first-page": "387",
+            "volume": "1962",
+            "author": "GK Yagola",
+            "year": "1966",
+            "unstructured": "Yagola, G. K., V. I. Zingerman and V. N. Sepetyi Engl. transl.: Meas. Tech. 1962, 387 (1962) (1966)]",
+            "journal-title": "Engl. transl.: Meas. Tech."
+          },
+          {
+            "issue": "7",
+            "key": "5_CR145",
+            "first-page": "44",
+            "volume": "1966",
+            "author": "GK Yagola",
+            "year": "1966",
+            "unstructured": "Yagola, G. K., V. I. Zingerman and V. N. Sepetyi, 1966. Izmeritel. Tekh. 1966 (7), p. 44",
+            "journal-title": "Izmeritel. Tekh."
+          },
+          {
+            "key": "5_CR146",
+            "first-page": "914",
+            "volume": "1966",
+            "author": "GK Yagola",
+            "year": "1966",
+            "unstructured": "Yagola, G. K., V. I. Zingerman and V. N. Sepetyi Engl. transl.: Meas. Tech. 1966, 914 (1966)",
+            "journal-title": "Engl. transl.: Meas. Tech."
+          },
+          {
+            "key": "5_CR147",
+            "doi-asserted-by": "publisher",
+            "first-page": "5138",
+            "DOI": "10.1103/PhysRevA.34.5138",
+            "volume": "34",
+            "author": "Z Ping",
+            "year": "1986",
+            "unstructured": "Zhao Ping, W. Lichten, H. P. Layer and J. C. Bergquist, 1986. Phys. Rev. A 34, 5138",
+            "journal-title": "Phys. Rev. A"
+          },
+          {
+            "key": "5_CR148",
+            "doi-asserted-by": "publisher",
+            "first-page": "1293",
+            "DOI": "10.1103/PhysRevLett.58.1293",
+            "volume": "58",
+            "author": "Z Ping",
+            "year": "1987",
+            "unstructured": "Zhao Ping, W. Lichten, H. P. Layer and J. C. Bergquist, 1987. Phys. Rev. Lett. 58, 1293",
+            "journal-title": "Phys. Rev. Lett."
+          }
+        ],
+        "container-title": [
+          "Gravitational Measurements, Fundamental Metrology and Constants"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-94-009-2955-5_5.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              23
+            ]
+          ],
+          "date-time": "2022-01-23T20:39:19Z",
+          "timestamp": 1642970359000
+        },
+        "score": 20.941555,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-94-009-2955-5_5"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789401078290",
+          "9789400929555"
+        ],
+        "references-count": 148,
+        "URL": "https://doi.org/10.1007/978-94-009-2955-5_5",
+        "published": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2024-09-06T23:23:40Z",
+          "timestamp": 1725665020527
+        },
+        "publisher-location": "Boston, MA",
+        "reference-count": 33,
+        "publisher": "Springer US",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781468437188"
+          },
+          {
+            "type": "electronic",
+            "value": "9781468437164"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1980
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-1-4684-3716-4_56",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2012-02-28T14:27:03Z",
+          "timestamp": 1330439223000
+        },
+        "page": "525-540",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Status of the Fundamental Constants"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "E. Richard",
+            "family": "Cohen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "56_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "663",
+            "DOI": "10.1063/1.3253130",
+            "volume": "2",
+            "author": "E Richard Cohen",
+            "year": "1973",
+            "unstructured": "E. Richard Cohen and B.N. Taylor, J. Phys. and Chem. Reference Data, 2, 663–734 (1973).",
+            "journal-title": "J. Phys. and Chem. Reference Data"
+          },
+          {
+            "key": "56_CR2",
+            "series-title": "CODATA Bulletin 11",
+            "volume-title": "CODATA Task Group on Fundamental Constants",
+            "author": "E Richard Cohen",
+            "year": "1973",
+            "unstructured": "E. Richard Cohen, CODATA Task Group on Fundamental Constants, CODATA Bulletin 11, December 1973."
+          },
+          {
+            "key": "56_CR3",
+            "doi-asserted-by": "crossref",
+            "first-page": "663",
+            "DOI": "10.1007/978-1-4684-2682-3_97",
+            "volume-title": "Atomic Masses and Fundamental Constants 5",
+            "author": "BN Taylor",
+            "year": "1976",
+            "unstructured": "B.N. Taylor and E. Richard Cohen, in “Atomic Masses and Fundamental Constants 5,” J.H. Sanders and A.H. Wapstra, editors, Plenum Press (New York; London) 1976; pp. 663–673. See also, in particular, pp. 48–53, 450–614, for papers on specific experiments."
+          },
+          {
+            "key": "56_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "75",
+            "DOI": "10.1088/0026-1394/10/2/007",
+            "volume": "10",
+            "author": "J Terrien",
+            "year": "1974",
+            "unstructured": "J. Terrien, Metrologia, 10, 75 (1974).",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "56_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "192",
+            "DOI": "10.1063/1.1654607",
+            "volume": "22",
+            "author": "KM Evenson",
+            "year": "1973",
+            "unstructured": "K.M. Evenson, J.S. Wells, F.R. Petersen, B.L. Danielson and G.W. Day, Appl. Phys. Lett. 22, 192 (1973).",
+            "journal-title": "Appl. Phys. Lett."
+          },
+          {
+            "key": "56_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "89",
+            "DOI": "10.1098/rspa.1977.0088",
+            "volume": "A355",
+            "author": "TG Blaney",
+            "year": "1977",
+            "unstructured": "T.G. Blaney, C.C. Bradley, G.J. Edwards, B.W. Joliffe, D.J.E. Knight, W.R.C. Rowley, K.C. Shotten and P.T. Woods, Proc. Roy. Soc. (London) A355, 89 (1977).",
+            "journal-title": "Proc. Roy. Soc. (London)"
+          },
+          {
+            "key": "56_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "1048",
+            "DOI": "10.1364/AO.17.001048",
+            "volume": "17",
+            "author": "PT Woods",
+            "year": "1978",
+            "unstructured": "P.T. Woods, K.C. Shotten and W.R.C. Rowley, Applied Optics 17, 1048 (1978).",
+            "journal-title": "Applied Optics"
+          },
+          {
+            "key": "56_CR8",
+            "unstructured": "H. Preston-Thomas (private communication, 13 September 1979)."
+          },
+          {
+            "key": "56_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "5",
+            "DOI": "10.1364/OL.1.000005",
+            "volume": "1",
+            "author": "JP Monchalin",
+            "year": "1977",
+            "unstructured": "J.P. Monchalin, M.J. Kelly, J.E. Thomas, N.A. Kurnit, A. Szoke, A. Javan, F. Zernicke and P.H. Lee, Optics Letters 1, 5 (1977).",
+            "journal-title": "Optics Letters"
+          },
+          {
+            "key": "56_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "1525",
+            "DOI": "10.1103/PhysRevLett.41.1525",
+            "volume": "41",
+            "author": "JEM Goldsmith",
+            "year": "1978",
+            "unstructured": "J.E.M. Goldsmith, E.W. Weber and T.W. Hansch, Phys. Rev. Lett. 41, 1525 (1978).",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "56_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "2927",
+            "DOI": "10.1364/AO.12.002927",
+            "volume": "12",
+            "author": "WG Schweitzer",
+            "year": "1973",
+            "unstructured": "W.G. Schweitzer, E.G. Kessler, R.D. Deslattes, H.P. Layer and J.R. Whetstone, Applied Optics 12, 2927 (1973).",
+            "journal-title": "Applied Optics"
+          },
+          {
+            "key": "56_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "734",
+            "DOI": "10.1364/AO.15.000734",
+            "volume": "15",
+            "author": "HP Layer",
+            "year": "1976",
+            "unstructured": "H.P. Layer, R.D. Deslattes and W.G. Schweitzer, Applied Optics 15, 734 (1976).",
+            "journal-title": "Applied Optics"
+          },
+          {
+            "key": "56_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "141",
+            "DOI": "10.1038/279141a0",
+            "volume": "279",
+            "author": "BW Petley",
+            "year": "1979",
+            "unstructured": "B.W. Petley and K. Morris, Nature 279, 141 (1979).",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "56_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "608",
+            "DOI": "10.1007/978-1-4684-2682-3_89",
+            "volume-title": "Atomic Masses and Fundamental Constants 5",
+            "author": "TJ Quinn",
+            "year": "1976",
+            "unstructured": "T.J. Quinn, A.R. Colclough and T.R.D. Chandler, “Atomic Masses and Fundamental Constants 5,” J.H. Sanders and A.H. Wapstra (editors), Plenum Press (New York, London) 1976, p. 608."
+          },
+          {
+            "key": "56_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "367",
+            "DOI": "10.1098/rsta.1976.0090",
+            "volume": "283",
+            "author": "TJ Quinn",
+            "year": "1976",
+            "unstructured": "T.J. Quinn, A.R. Colclough and T.R.D. Chandler, Phil. Trans. Roy. Soc. London 283, 367 (1976).",
+            "journal-title": "Phil. Trans. Roy. Soc. London"
+          },
+          {
+            "key": "56_CR16",
+            "first-page": "281",
+            "volume": "A358",
+            "author": "JS Rowlinson",
+            "year": "1977",
+            "unstructured": "J.S. Rowlinson and D.J. Tildesley, Proc. Roy. Soc. London A358, 281 (1977).",
+            "journal-title": "Proc. Roy. Soc. London"
+          },
+          {
+            "key": "56_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "349",
+            "DOI": "10.1098/rspa.1979.0022",
+            "volume": "A365",
+            "author": "AR Colclough",
+            "year": "1979",
+            "unstructured": "A.R. Colclough, Proc. Roy. Soc. London A365, 349 (1979).",
+            "journal-title": "Proc. Roy. Soc. London"
+          },
+          {
+            "key": "56_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "2556",
+            "DOI": "10.1063/1.432508",
+            "volume": "64",
+            "author": "BE Gammon",
+            "year": "1976",
+            "unstructured": "B.E. Gammon, J. Chem. Phys. 64, 2556 (1976).",
+            "journal-title": "J. Chem. Phys."
+          },
+          {
+            "key": "56_CR19",
+            "first-page": "28",
+            "volume": "42",
+            "author": "AR Colclough",
+            "year": "1978",
+            "unstructured": "A.R. Colclough and T.J. Quinn (private communication, to be published); A.R. Colclough, Acustica 42, 28 (1978).",
+            "journal-title": "Acustica"
+          },
+          {
+            "key": "56_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "146",
+            "DOI": "10.1007/BF02724774",
+            "volume": "6",
+            "author": "RD Huntoon",
+            "year": "1957",
+            "unstructured": "R.D. Huntoon and A.G. McNish, Nuovo Cimento, Suppl. 6, 146 (1957).",
+            "journal-title": "Nuovo Cimento"
+          },
+          {
+            "key": "56_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "545",
+            "DOI": "10.1007/978-1-4684-2682-3_80",
+            "volume-title": "Atomic Masses and Fundamental Constants 5",
+            "author": "BP Kibble",
+            "year": "1976",
+            "unstructured": "B.P. Kibble, in “Atomic Masses and Fundamental Constants 5,” J.H. Sanders and A.H. Wapstra, editors, Plenum Press, New York-London (1976) p. 545;"
+          },
+          {
+            "key": "56_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "5",
+            "DOI": "10.1088/0026-1394/15/1/002",
+            "volume": "15",
+            "author": "BP Kibble",
+            "year": "1979",
+            "unstructured": "B.P. Kibble and G.J. Hunt, Metrologia 15, 5 (1979).",
+            "journal-title": "Metrologia"
+          },
+          {
+            "key": "56_CR23",
+            "first-page": "538",
+            "volume-title": "Atomic Masses and Fundamental Constants 5",
+            "author": "ER Williams",
+            "year": "1976",
+            "unstructured": "E.R. Williams and P.T. Olsen, in “Atomic Masses and Fundamental Constants 5,” J.H. Sanders and A.H. Wapstra, editors, Plenum Press, New York-London (1976) p. 538."
+          },
+          {
+            "key": "56_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "1575",
+            "DOI": "10.1103/PhysRevLett.42.1575",
+            "volume": "42",
+            "author": "ER Williams",
+            "year": "1979",
+            "unstructured": "E.R. Williams and P.T. Olsen, Phys. Rev. Lett. 42, 1575 (1979).",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "56_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "21",
+            "DOI": "10.1103/RevModPhys.49.21",
+            "volume": "49",
+            "author": "J Calmet",
+            "year": "1977",
+            "unstructured": "J. Calmet, S. Narison, M. Perrottet and E. de Rafael, Rev. Mod. Phys. 49, 21 (1977).",
+            "journal-title": "Rev. Mod. Phys."
+          },
+          {
+            "key": "56_CR26",
+            "first-page": "4007",
+            "volume": "D10",
+            "author": "P Cvitanovic",
+            "year": "1974",
+            "unstructured": "P. Cvitanovic and T. Kinoshita, Phys. Rev. D10, 4007 (1974).",
+            "journal-title": "Phys. Rev."
+          },
+          {
+            "key": "56_CR27",
+            "doi-asserted-by": "publisher",
+            "first-page": "310",
+            "DOI": "10.1103/PhysRevLett.38.310",
+            "volume": "38",
+            "author": "RS Dyck van",
+            "year": "1977",
+            "unstructured": "R.S. van Dyck, P.B. Schwinberg and H.G. Dehmelt, Phys. Rev. Lett. 38, 310 (1977);",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "issue": "5",
+            "key": "56_CR28",
+            "first-page": "758",
+            "volume": "24",
+            "author": "RS Dyck van",
+            "year": "1979",
+            "unstructured": "R.S. van Dyck, P.B. Schwinberg and H.G. Dehmelt, Bull. Am. Phys. Soc. 24(5), 758 (1979) Abstract D5.",
+            "journal-title": "Bull. Am. Phys. Soc."
+          },
+          {
+            "key": "56_CR29",
+            "volume-title": "Metrology and Fundamental Constants",
+            "author": "RD Deslattes",
+            "year": "1976",
+            "unstructured": "R.D. Deslattes, in “Metrology and Fundamental Constants,” — Course LXVII, Enrico Fermi Summer School, Varenna (1976) — to be published; see also contribution to this conference."
+          },
+          {
+            "key": "56_CR30",
+            "unstructured": "Ref. 1, eq. (33.1)."
+          },
+          {
+            "key": "56_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "171",
+            "DOI": "10.1103/PhysRevLett.40.171",
+            "volume": "40",
+            "author": "EG Kessler",
+            "year": "1978",
+            "unstructured": "E.G. Kessler, R.D. Deslattes, A. Henins, and W.C. Sauder, Phys. Rev. Lett. 40, 171 (1978).",
+            "journal-title": "Phys. Rev. Lett."
+          },
+          {
+            "key": "56_CR32",
+            "unstructured": "R.G. Helmer, P.H.M. van Assche and C. van der Leun, Atomic Data and Nuclear Data Tables (to be published); also C. van der Leun, this conference."
+          },
+          {
+            "key": "56_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "177",
+            "DOI": "10.1016/0092-640X(77)90020-1",
+            "volume": "19",
+            "author": "AH Wapstra",
+            "year": "1977",
+            "unstructured": "A.H. Wapstra and K. Bos, Atomic Data and Nuclear Data Tables 19, 177 (1977).",
+            "journal-title": "Atomic Data and Nuclear Data Tables"
+          }
+        ],
+        "container-title": [
+          "Atomic Masses and Fundamental Constants 6"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4684-3716-4_56.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2021-05-01T13:26:58Z",
+          "timestamp": 1619875618000
+        },
+        "score": 20.673893,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-1-4684-3716-4_56"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1980
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781468437188",
+          "9781468437164"
+        ],
+        "references-count": 33,
+        "URL": "https://doi.org/10.1007/978-1-4684-3716-4_56",
+        "published": {
+          "date-parts": [
+            [
+              1980
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2024-09-07T07:37:24Z",
+          "timestamp": 1725694644080
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 27,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789401078290"
+          },
+          {
+            "type": "electronic",
+            "value": "9789400929555"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-009-2955-5_9",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              28
+            ]
+          ],
+          "date-time": "2012-07-28T20:57:27Z",
+          "timestamp": 1343509047000
+        },
+        "page": "131-142",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Quantum Electrodynamics and Fundamental Constants"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "R. N.",
+            "family": "Faustov",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "9_CR1",
+            "first-page": "22",
+            "volume": "7",
+            "author": "RN Faustov",
+            "year": "1984",
+            "unstructured": "R.N. Faustov, Izmeritel naya Tekhnika No. 7, p.22 (1984), English translation Measurement Techniques 27, 595 (1984)",
+            "journal-title": "Izmeritel naya Tekhnika"
+          },
+          {
+            "key": "9_CR2",
+            "unstructured": "N.A. Bojkova, Yu.N. Tyukhtyaev, and R.N. Faustov, in Proceedings of the International Seminar on High Energy Physics and Quantum Field Theory vol.1, p.116, IHEP, Protvino, 1983, (in Russian)."
+          },
+          {
+            "key": "9_CR3",
+            "unstructured": "N.E. Nyun ko, Yu.N. Tyukhtyaev, and R.N. Faustov, ibid, p.104, (in Russian)."
+          },
+          {
+            "key": "9_CR4",
+            "first-page": "770",
+            "volume": "45",
+            "author": "AP Martynenko",
+            "year": "1987",
+            "unstructured": "A.P. Martynenko and R.N. Faustov, Yadernaya Fizika 45, 770 (1987).",
+            "journal-title": "Yadernaya Fizika"
+          },
+          {
+            "key": "9_CR5",
+            "first-page": "39",
+            "volume": "7-85",
+            "author": "VV Starshenko",
+            "year": "1985",
+            "unstructured": "V.V. Starshenko and R.N. Faustov, JINR Rapid Communications No.7–85, p.39, Dubna, 1985.",
+            "journal-title": "JINR Rapid Communications"
+          },
+          {
+            "key": "9_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "241",
+            "DOI": "10.1016/0370-2693(84)91026-8",
+            "volume": "B146",
+            "author": "MI Eides",
+            "year": "1984",
+            "unstructured": "M.I. Eides and V.A. Shelyuto, Phys.Lett. B146, 241 (1984)",
+            "journal-title": "Phys.Lett."
+          },
+          {
+            "key": "9_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "425",
+            "DOI": "10.1016/0370-2693(86)90782-3",
+            "volume": "B177",
+            "author": "MI Eides",
+            "year": "1986",
+            "unstructured": "M.I. Eides, S.G. Karshenboim, and V.A. shelyuto, Phys. Lett. B177, 425 (1986).",
+            "journal-title": "Phys. Lett."
+          },
+          {
+            "key": "9_CR8",
+            "unstructured": "M.Ya. Amusia, M.Yu. Kuchiev, and V.L. Yakhontov, PTI preprint 883, Leningrad, 1983."
+          },
+          {
+            "key": "9_CR9",
+            "first-page": "38",
+            "volume-title": "Atomic Physics",
+            "author": "T Kinoshita",
+            "year": "1984",
+            "unstructured": "T. Kinoshita and J. Sapirstein, in Atomic Physics 9, p.38, World Scientific, Singapore, 1984."
+          },
+          {
+            "key": "9_CR10",
+            "unstructured": "R.S. Van Dyck, Jr. et al., ibid., p.53."
+          },
+          {
+            "key": "9_CR11",
+            "unstructured": "C.J. Oram, ibid., p.75."
+          },
+          {
+            "key": "9_CR12",
+            "unstructured": "A. Badertscher et al., ibid., p.83."
+          },
+          {
+            "key": "9_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "993",
+            "DOI": "10.1103/PhysRevLett.49.993",
+            "volume": "19",
+            "author": "FG Mariam",
+            "year": "1982",
+            "unstructured": "F.G. Mariam et al., Phys.Rev.Lett. 19, 993 (1982).",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "1328",
+            "DOI": "10.1103/PhysRevLett.58.1328",
+            "volume": "58",
+            "author": "CI Westbrook",
+            "year": "1987",
+            "unstructured": "C.I. Westbrook et al., Phys.Rev.Lett. 58, 1328 (1987).",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "1689",
+            "DOI": "10.1103/PhysRevLett.52.1689",
+            "volume": "52",
+            "author": "S Chu",
+            "year": "1984",
+            "unstructured": "S. Chu et al., Phys.Rev.Lett., 52, 1689 (1984).",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR16",
+            "doi-asserted-by": "crossref",
+            "first-page": "1331",
+            "DOI": "10.1103/PhysRevA.30.1331",
+            "volume": "A30",
+            "author": "MW Ritter",
+            "year": "1984",
+            "unstructured": "M.W. Ritter et al., Phys.Rev. A30, 1331 (1984).",
+            "journal-title": "Phys.Rev."
+          },
+          {
+            "key": "9_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "1168",
+            "DOI": "10.1103/PhysRevLett.48.1168",
+            "volume": "48",
+            "author": "CJ Gardner",
+            "year": "1982",
+            "unstructured": "C.J. Gardner et al., Phys.Rev.Lett. 48, 1168 (1982).",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "576",
+            "DOI": "10.1103/PhysRevLett.56.576",
+            "volume": "56",
+            "author": "EA Hildum",
+            "year": "1986",
+            "unstructured": "E.A. Hildum et al., Phys.Rev.Lett. 56, 576 (1986).",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "580",
+            "DOI": "10.1103/PhysRevLett.56.580",
+            "volume": "56",
+            "author": "JR Barr",
+            "year": "1986",
+            "unstructured": "J.R. Barr et al., Phys.Rev.Lett. 56, 580 (1986).",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR20",
+            "volume-title": "Proceedings of CLEO 86-IQEC 86",
+            "author": "F Biraben",
+            "year": "1986",
+            "unstructured": "F. Biraben et al., in Proceedings of CLEO 86-IQEC 86, San Francisko, California, 1986."
+          },
+          {
+            "key": "9_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "5138",
+            "DOI": "10.1103/PhysRevA.34.5138",
+            "volume": "A34",
+            "author": "P Zhao",
+            "year": "1986",
+            "unstructured": "Ping Zhao et al., Phvs.Rev. A34, 5138 (1986); Phys.Rev. Lett. 58, 1293 (1987).",
+            "journal-title": "Phvs.Rev."
+          },
+          {
+            "key": "9_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "831",
+            "DOI": "10.1063/1.555557",
+            "volume": "6",
+            "author": "GW Erickson",
+            "year": "1977",
+            "unstructured": "G.W. Erickson, J.Phys.Chem.Ref.Data 6, 831 (1977).",
+            "journal-title": "J.Phys.Chem.Ref.Data"
+          },
+          {
+            "key": "9_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "1723",
+            "DOI": "10.1103/PhysRevLett.47.1723",
+            "volume": "47",
+            "author": "J Sapirstein",
+            "year": "1981",
+            "unstructured": "J. Sapirstein, Phys.Rev.Lett. 47, 1723 (1981); in AIP Conference Proceedings No.136, p.100, N.-Y., 1985.",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "3133",
+            "DOI": "10.1103/PhysRevLett.57.3133",
+            "volume": "57",
+            "author": "MA Samuel",
+            "year": "1986",
+            "unstructured": "M.A. Samuel, Phys.Rev.Lett. 57, 3133 (1986).",
+            "journal-title": "Phys.Rev.Lett."
+          },
+          {
+            "key": "9_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "3237",
+            "DOI": "10.1103/PhysRevLett.57.3237",
+            "volume": "57",
+            "author": "GJ Sloggett",
+            "year": "1986",
+            "unstructured": "G.J. Sloggett et al., Phvs.Rev.Lett. 57, 3237 (1986).",
+            "journal-title": "Phvs.Rev.Lett."
+          },
+          {
+            "key": "9_CR26",
+            "volume-title": "CODATA Bulletin",
+            "author": "ER Cohen",
+            "year": "1986",
+            "unstructured": "E.R. Cohen and B.N. Taylor, The 1986 Adjustment of the Fundamental Physical Constants, CODATA Bulletin No.63, Nov. 1986."
+          },
+          {
+            "key": "9_CR27",
+            "doi-asserted-by": "crossref",
+            "first-page": "91",
+            "DOI": "10.6028/jres.090.006",
+            "volume": "90",
+            "author": "BN Taylor",
+            "year": "1985",
+            "unstructured": "B.N. Taylor, J.Res.Natl.Bur.Stand.U.S. 90, 91 (1985).",
+            "journal-title": "J.Res.Natl.Bur.Stand.U.S."
+          }
+        ],
+        "container-title": [
+          "Gravitational Measurements, Fundamental Metrology and Constants"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-94-009-2955-5_9.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              27
+            ]
+          ],
+          "date-time": "2020-11-27T12:54:24Z",
+          "timestamp": 1606481664000
+        },
+        "score": 20.635338,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-94-009-2955-5_9"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789401078290",
+          "9789400929555"
+        ],
+        "references-count": 27,
+        "URL": "https://doi.org/10.1007/978-94-009-2955-5_9",
+        "published": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2024-09-07T07:37:33Z",
+          "timestamp": 1725694653111
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 31,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789401078290"
+          },
+          {
+            "type": "electronic",
+            "value": "9789400929555"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-009-2955-5_8",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              28
+            ]
+          ],
+          "date-time": "2012-07-28T20:57:27Z",
+          "timestamp": 1343509047000
+        },
+        "page": "115-129",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "title": [
+          "On the Relations Between Fundamental Constants"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Venzo",
+            "family": "Sabbata",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "8_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "658",
+            "DOI": "10.1038/159658a0",
+            "volume": "159",
+            "author": "PMS Blackett",
+            "year": "1947",
+            "unstructured": "P.M.S. Blackett - Nature (London) 159, 658 (1947)",
+            "journal-title": "Nature (London)"
+          },
+          {
+            "key": "8_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "406",
+            "DOI": "10.1007/BF02786999",
+            "volume": "23",
+            "author": "D Ahluwalia",
+            "year": "1978",
+            "unstructured": "D. Ahluwalia and T.Y. Wu - Lett.Nuovo Cimento 23, 406 (1978)",
+            "journal-title": "Lett.Nuovo Cimento"
+          },
+          {
+            "key": "8_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "358",
+            "DOI": "10.1038/278535a0",
+            "volume": "278",
+            "author": "SP Sirag",
+            "year": "1979",
+            "unstructured": "S.P. Sirag - Nature (London) 278, 358 (1979)",
+            "journal-title": "Nature (London)"
+          },
+          {
+            "key": "8_CR4",
+            "first-page": "375",
+            "volume-title": "Spin, Torsion, Rotation and Supergravity",
+            "author": "P Brosche",
+            "year": "1980",
+            "unstructured": "P. Brosche - in “Spin, Torsion, Rotation and Supergravity” ed. by Peter G. Bergmann and Venzo de Sabbata, Plenum N.Y. pg. 375–382 (1980)"
+          },
+          {
+            "key": "8_CR5",
+            "first-page": "1730",
+            "volume": "D23",
+            "author": "PS Wesson",
+            "year": "1981",
+            "unstructured": "P.S. Wesson - Phys.Rev. D23, 1730 (1981)",
+            "journal-title": "Phys.Rev."
+          },
+          {
+            "key": "8_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "93",
+            "DOI": "10.1007/BF02815975",
+            "volume": "38",
+            "author": "V Sabbata de",
+            "year": "1983",
+            "unstructured": "V. de Sabbata and M. Gasperini - Lett.Nuovo Cimento 38, 93 (1983)",
+            "journal-title": "Lett.Nuovo Cimento"
+          },
+          {
+            "key": "8_CR7",
+            "first-page": "55",
+            "volume": "1",
+            "author": "V Sabbata de",
+            "year": "1983",
+            "unstructured": "V. de Sabbata and M. Gasperini - Proc. of Einstein Int.Found. 1, 55 (1983)",
+            "journal-title": "Proc. of Einstein Int.Found."
+          },
+          {
+            "key": "8_CR8",
+            "first-page": "79",
+            "volume": "12",
+            "author": "V Sabbata de",
+            "year": "1983",
+            "unstructured": "V. de Sabbata and M. Gasperini - Acta Cosmological (Poland) 12, 79 (1983)",
+            "journal-title": "Acta Cosmological (Poland)"
+          },
+          {
+            "key": "8_CR9",
+            "doi-asserted-by": "crossref",
+            "first-page": "300",
+            "DOI": "10.1016/0375-9601(80)90701-X",
+            "volume": "77A",
+            "author": "V Sabbata de",
+            "year": "1980",
+            "unstructured": "V. de Sabbata and M. Gasperini - Phys.Lett. 77A, 300 (1980)",
+            "journal-title": "Phys.Lett."
+          },
+          {
+            "key": "8_CR10",
+            "first-page": "268",
+            "volume-title": "Introduction to Gravitation",
+            "author": "V Sabbata de",
+            "year": "1985",
+            "unstructured": "V. de Sabbata and M. Gasperini – “Introduction to Gravitation” World Sci. Singapore 1985, pg.268"
+          },
+          {
+            "key": "8_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "193",
+            "DOI": "10.1007/BF02817056",
+            "volume": "30",
+            "author": "V Sabbata de",
+            "year": "1981",
+            "unstructured": "V. de Sabbata and M. Gasperini - Lett.Nuovo Cimento 30, 193 (1981)",
+            "journal-title": "Lett.Nuovo Cimento"
+          },
+          {
+            "key": "8_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "229",
+            "DOI": "10.1007/BF02770214",
+            "volume": "28",
+            "author": "V Sabbata de",
+            "year": "1980",
+            "unstructured": "V. de Sabbata and M. Gasperini - Lett. Nuovo Cimento 28, 229 (1980)",
+            "journal-title": "Lett. Nuovo Cimento"
+          },
+          {
+            "key": "8_CR13",
+            "doi-asserted-by": "crossref",
+            "first-page": "115",
+            "DOI": "10.1016/0375-9601(81)90510-7",
+            "volume": "83A",
+            "author": "V Sabbata de",
+            "year": "1981",
+            "unstructured": "V. de Sabbata and M. Gasperini - Phys.Lett. 83A, 115 (1981)",
+            "journal-title": "Phys.Lett."
+          },
+          {
+            "key": "8_CR14",
+            "first-page": "2116",
+            "volume": "D23",
+            "author": "V Sabbata de",
+            "year": "1981",
+            "unstructured": "V. de Sabbata and M. Gasperini - Phys.Rev. D23, 2116 (1981)",
+            "journal-title": "Phys.Rev."
+          },
+          {
+            "key": "8_CR15",
+            "first-page": "1373",
+            "volume": "25",
+            "author": "V Sabbata de",
+            "year": "1980",
+            "unstructured": "V. de Sabbata and M. Gasperini - Nukleonika (Poland) 25, 1373 (1980)",
+            "journal-title": "Nukleonika (Poland)"
+          },
+          {
+            "key": "8_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "363",
+            "DOI": "10.1007/BF02817088",
+            "volume": "30",
+            "author": "V Sabbata de",
+            "year": "1981",
+            "unstructured": "V. de Sabbata and M. Gasperini - Lett. Nuovo Cimento 30, 363 (1981)",
+            "journal-title": "Lett. Nuovo Cimento"
+          },
+          {
+            "key": "8_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "105",
+            "DOI": "10.1016/0375-9601(76)90755-6",
+            "volume": "59A",
+            "author": "M Novello",
+            "year": "1976",
+            "unstructured": "M. Novello - Phys.Lett. 59A, 105 (1976)",
+            "journal-title": "Phys.Lett."
+          },
+          {
+            "key": "8_CR18",
+            "first-page": "3141",
+            "volume": "D17",
+            "author": "S Hojman",
+            "year": "1978",
+            "unstructured": "S. Hojman, M. Rosenbaum, M.P. Ryan and L.C. Shepley - Phys.Rev. D17, 3141 (1978)",
+            "journal-title": "Phys.Rev."
+          },
+          {
+            "key": "8_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "199",
+            "DOI": "10.1098/rspa.1938.0053",
+            "volume": "165A",
+            "author": "PAM Dirac",
+            "year": "1938",
+            "unstructured": "P.A.M. Dirac - Proc.Roy.Soc. 165A, 199 (1938)",
+            "journal-title": "Proc.Roy.Soc."
+          },
+          {
+            "key": "8_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "525",
+            "DOI": "10.1007/BF02789676",
+            "volume": "20",
+            "author": "V Sabbata de",
+            "year": "1977",
+            "unstructured": "V. de Sabbata and P. Rizzati - Lett.Nuovo Cimento 20, 525 (1977)",
+            "journal-title": "Lett.Nuovo Cimento"
+          },
+          {
+            "key": "8_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "181",
+            "DOI": "10.1016/0370-2693(76)90418-4",
+            "volume": "60B",
+            "author": "C Sivaram",
+            "year": "1976",
+            "unstructured": "C. Sivaram and K. Sinha - Phys.Lett. 60B, 181 (1976)",
+            "journal-title": "Phys.Lett."
+          },
+          {
+            "key": "8_CR22",
+            "first-page": "867",
+            "volume": "D3",
+            "author": "C Isham",
+            "year": "1971",
+            "unstructured": "C. Isham, A. Salam and J. Strathdee - Phys.Rev. D3, 867 (1971)",
+            "journal-title": "Phys.Rev."
+          },
+          {
+            "key": "8_CR23",
+            "doi-asserted-by": "crossref",
+            "unstructured": "R.M. Muradyan - preprint E2–9804 (Dubna 1977)",
+            "DOI": "10.5179/benthos1970.1977.13-14_e2"
+          },
+          {
+            "key": "8_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "447",
+            "DOI": "10.1103/RevModPhys.21.447",
+            "volume": "21",
+            "author": "K Godei",
+            "year": "1949",
+            "unstructured": "K. Godei - Rev.Mod.Phys. 21, 447 (1949)",
+            "journal-title": "Rev.Mod.Phys."
+          },
+          {
+            "key": "8_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "489",
+            "DOI": "10.1007/BF02790665",
+            "volume": "25",
+            "author": "V Sabbata de",
+            "year": "1979",
+            "unstructured": "V. de Sabbata and M. Gasperini - Lett.Nuovo Cimento 25, 489 (1979)",
+            "journal-title": "Lett.Nuovo Cimento"
+          },
+          {
+            "key": "8_CR26",
+            "volume-title": "Astron",
+            "author": "D Ivanenko",
+            "year": "1983",
+            "unstructured": "D. Ivanenko - Astron. Circulae A.Sci. USSR, Moscow N.1254, April 1983."
+          },
+          {
+            "key": "8_CR27",
+            "first-page": "170",
+            "volume-title": "Proc.Eddington Centenary Symposium",
+            "author": "D Ivanenko",
+            "year": "1984",
+            "unstructured": "D. Ivanenko - in “Proc.Eddington Centenary Symposium Vol.1 ed. by Venzo de Sabbata and T.M. Karade, World Sci. Singapore 1984, pg.170"
+          },
+          {
+            "key": "8_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "133",
+            "DOI": "10.1007/BF02817122",
+            "volume": "27",
+            "author": "V Sabbata de",
+            "year": "1980",
+            "unstructured": "V. de Sabbata and M. Gasperini - Lett.Nuovo Cimento 27, 133 (1980)",
+            "journal-title": "Lett.Nuovo Cimento"
+          },
+          {
+            "key": "8_CR29",
+            "first-page": "181",
+            "volume-title": "Origin of Galaxies",
+            "author": "V Sabbata de",
+            "year": "1981",
+            "unstructured": "V. de Sabbata and M. Gasperini - in “Origin of Galaxies” ed. by Venzo de Sabbata, World Sci. Singapore 1981, pg.181"
+          },
+          {
+            "key": "8_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "309",
+            "DOI": "10.1098/rsta.1952.0024",
+            "volume": "A245",
+            "author": "PMS Blackett",
+            "year": "1952",
+            "unstructured": "P.M.S. Blackett - Phil.Trans.Roy.Soc.London Ser. A245, 309 (1952)",
+            "journal-title": "Phil.Trans.Roy.Soc.London Ser."
+          },
+          {
+            "key": "8_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "449",
+            "DOI": "10.1007/BF02750316",
+            "volume": "27",
+            "author": "V Sabbata de",
+            "year": "1980",
+            "unstructured": "V. de Sabbata and M. Gasperini - Lett.Nuovo Cimento 27, 449 (1980)",
+            "journal-title": "Lett.Nuovo Cimento"
+          }
+        ],
+        "container-title": [
+          "Gravitational Measurements, Fundamental Metrology and Constants"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-94-009-2955-5_8.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              27
+            ]
+          ],
+          "date-time": "2020-11-27T12:54:23Z",
+          "timestamp": 1606481663000
+        },
+        "score": 20.619148,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-94-009-2955-5_8"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789401078290",
+          "9789400929555"
+        ],
+        "references-count": 31,
+        "URL": "https://doi.org/10.1007/978-94-009-2955-5_8",
+        "published": {
+          "date-parts": [
+            [
+              1988
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              31
+            ]
+          ],
+          "date-time": "2022-03-31T01:49:06Z",
+          "timestamp": 1648691346300
+        },
+        "edition-number": "2",
+        "reference-count": 0,
+        "publisher": "WORLD SCIENTIFIC",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1142/9789812774286_0012",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2010-03-01T21:49:49Z",
+          "timestamp": 1267480189000
+        },
+        "page": "158-169",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Invariant Actions in Relativity Theories and Truly Fundamental Constants"
+        ],
+        "prefix": "10.1142",
+        "member": "219",
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Advanced Series on Theoretical Physical Science",
+          "A Broader View of Relativity"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2016,
+              11,
+              30
+            ]
+          ],
+          "date-time": "2016-11-30T16:19:00Z",
+          "timestamp": 1480522740000
+        },
+        "score": 20.5579,
+        "resource": {
+          "primary": {
+            "URL": "http://www.worldscientific.com/doi/abs/10.1142/9789812774286_0012"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "10.1142/9789812774286_0012",
+          "10.1142/ASTPS",
+          "10.1142/6021"
+        ],
+        "URL": "https://doi.org/10.1142/9789812774286_0012",
+        "ISSN": [
+          "1793-1495"
+        ],
+        "issn-type": [
+          {
+            "value": "1793-1495",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 8,
+    "query": {
+      "start-index": 0,
+      "search-terms": "fundamental constants invariant"
+    }
+  }
+}

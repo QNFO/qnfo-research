@@ -1,0 +1,1806 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "created": "2026-08-14T05:47:36.285587+00:00",
+        "modified": "2026-08-14T05:47:36.703787+00:00",
+        "id": 21929207,
+        "conceptrecid": "21878322",
+        "doi": "10.5281/zenodo.21929207",
+        "conceptdoi": "10.5281/zenodo.21878322",
+        "doi_url": "https://doi.org/10.5281/zenodo.21929207",
+        "metadata": {
+          "title": "The Mechanics of Conformity: Structural Similarities Between Distributed Social Enforcement and Authoritarian Control",
+          "doi": "10.5281/zenodo.21929207",
+          "publication_date": "2026-08-14",
+          "description": "<p>This paper examines whether centralized state authoritarianism and distributed social enforcement in democratic societies &mdash; commonly termed \"cancel culture\" &mdash; produce structurally comparable conformity pressures despite relying on different institutional mechanisms. Centralized authoritarian regimes rely on formal state coercion, legal monopolies, and physical sanctions; contemporary democratic societies instead experience reputational and administrative pressure operating through networked digital platforms and institutional risk management.</p>\n<p>The paper draws on faculty-targeting and self-censorship survey data from FIRE, AAUP/AAC&amp;U/NORC, and Knight Foundation&ndash;Ipsos; state-legislation data from PEN America; academic survey research by Norris (2023) and Heterodox Academy (2024); and the authors' own original analysis of two primary microdata sources &mdash; General Social Survey political-tolerance data (1977&ndash;2024) and V-Dem's Academic Freedom Index (1900&ndash;2025) &mdash; processed directly from public-use files rather than cited secondhand. From this evidence, the paper proposes a ten-stage descriptive model of how moralized boundary-framing, institutional risk-aversion, and preference falsification can combine to chill speech. It also considers &mdash; without asserting as empirically proven &mdash; how these dynamics could in principle be exploited by organized actors for administrative capture, and reviews evidence indicating this pattern is not confined to one part of the political spectrum, nor uniform across institutional or national contexts. The paper concludes with proposed institutional safeguards, flagged as untested proposals rather than validated interventions.</p>\n<p>Notes</p>\n<p>This consolidated draft has gone through five revision passes. The original two recovered fragments were merged, missing prose restored, and empirical figures corrected against primary sources (RC1). Later passes integrated PEN America state-legislation data and a Knight Foundation&ndash;Ipsos probability-sample survey, and distinguished direct state action from distributed social enforcement within the paper's own analytic framework (RC2). The most recent passes added original analysis of primary microdata supplied by the author &mdash; General Social Survey political-tolerance data, 1977&ndash;2024 (RC3&ndash;RC4), and V-Dem's Academic Freedom Index, 1900&ndash;2025 (RC5) &mdash; both parsed, validated, and analyzed directly from public-use files rather than taken from a secondary summary. Added empirical claims are cited; retained conceptual passages without added citations reflect the original framework rather than independently verified findings.</p>\n<p>Method</p>\n<p>Conceptual and theoretical synthesis, supported by (a) secondary empirical sources including FIRE faculty-targeting and self-censorship data, AAUP/AAC&amp;U/NORC academic-freedom survey data, PEN America state-legislation tracking, Knight Foundation&ndash;Ipsos survey data, and research by Norris (2023), Heterodox Academy (2024), Chong/Citrin/Levy (2022), and Mutz (2023); and (b) original quantitative analysis of two primary microdata sources processed directly from their public-use files: General Social Survey political-tolerance microdata (1977&ndash;2024, 24 survey years, weighted) and V-Dem Academic Freedom Index microdata (1900&ndash;2025). The ten-stage conformity model is descriptive, not a directly tested causal chain; the two original microdata analyses carry methodological notes on data processing and validation and are clearly distinguished in-text from cited secondary statistics.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Davidson, Craig Kyrle Strachan",
+              "affiliation": null,
+              "orcid": "0009-0007-2990-8716"
+            }
+          ],
+          "keywords": [
+            "cancel culture; distributed social enforcement; authoritarianism; conformity; academic freedom; self-censorship; DEI; institutional risk-aversion; preference falsification; spiral of silence; administrative capture"
+          ],
+          "version": "Version 1 (RC7)",
+          "references": [
+            "AAUP, AAC&U, and NORC. \"Survey Documents Decline in Academic Freedom.\" Survey fielded December 2023–February 2024. American Association of University Professors. Foundation for Individual Rights and Expression (FIRE). \"Scholars Under Fire\" database. thefire.org. Foundation for Individual Rights and Expression (FIRE). \"3 in 4 Campaigns Targeting Faculty Expression Result in Punishment.\" August 2021. Foundation for Individual Rights and Expression (FIRE). \"At Least 111 Professors Targeted for Their Speech in 2021.\" March 2022. Foundation for Individual Rights and Expression (FIRE). \"Silence in the Classroom: The 2024 FIRE Faculty Survey Report.\" 2024. Jones, Payton, Alex Arnold, and Nate Tenhundfeld. \"The Comfortable Extremes and the Reluctant Center: Political Ideology and Discussing Controversial Topics on Campus.\" Heterodox Academy, December 2024. Kuran, Timur. Private Truths, Public Lies: The Social Consequences of Preference Falsification. Cambridge, MA: Harvard University Press, 1997. Noelle-Neumann, Elisabeth. \"The Spiral of Silence: A Theory of Public Opinion.\" Journal of Communication 24 (1974): 43–51. Noelle-Neumann, Elisabeth. The Spiral of Silence: Public Opinion — Our Social Skin. Chicago: University of Chicago Press, 1984. Norris, Pippa. \"Cancel Culture: Heterodox Self-Censorship or the Curious Case of the Dog-Which-Didn't-Bark.\" Harvard Kennedy School Faculty Research Working Paper RWP23-020, July 2023. Norris, Pippa. \"Cancel Culture: Myth or Reality?\" Political Studies 71, no. 1 (2023): 145–174.",
+            "AAUP, AAC&U, and NORC. \"Survey Documents Decline in Academic Freedom.\" 2023–2024. FIRE. \"Scholars Under Fire\" database. FIRE. \"3 in 4 Campaigns Targeting Faculty Expression Result in Punishment.\" 2021. FIRE. \"At Least 111 Professors Targeted for Their Speech in 2021.\" 2022. FIRE. \"Silence in the Classroom: The 2024 FIRE Faculty Survey Report.\" 2024. Jones, Payton, Alex Arnold, and Nate Tenhundfeld. \"The Comfortable Extremes and the Reluctant Center.\" Heterodox Academy, 2024. Kuran, Timur. Private Truths, Public Lies. Harvard University Press, 1997. Noelle-Neumann, Elisabeth. \"The Spiral of Silence.\" Journal of Communication, 1974. Noelle-Neumann, Elisabeth. The Spiral of Silence: Public Opinion — Our Social Skin. 1984. Norris, Pippa. \"Cancel Culture: Heterodox Self-Censorship or the Curious Case of the Dog-Which-Didn't-Bark.\" HKS Working Paper RWP23-020, 2023. Norris, Pippa. \"Cancel Culture: Myth or Reality?\" Political Studies 71(1), 2023.",
+            "AAUP, AAC&U, and NORC. \"Survey Documents Decline in Academic Freedom.\" Survey fielded December 2023–February 2024. American Association of University Professors. Chong, Dennis, Jack Citrin, and Morgan Levy. \"The Realignment of Political Tolerance in the United States.\" Perspectives on Politics (2022). Foundation for Individual Rights and Expression (FIRE). \"Scholars Under Fire\" database. thefire.org. Foundation for Individual Rights and Expression (FIRE). \"3 in 4 Campaigns Targeting Faculty Expression Result in Punishment.\" August 2021. Foundation for Individual Rights and Expression (FIRE). \"At Least 111 Professors Targeted for Their Speech in 2021.\" March 2022. Foundation for Individual Rights and Expression (FIRE). \"Silence in the Classroom: The 2024 FIRE Faculty Survey Report.\" 2024. General Social Survey (GSS). Cross-Sectional Cumulative Data Files, 2014, 2016, 2018, 2021, 2022, and 2024 [machine-readable data files]. NORC at the University of Chicago. Figures in Section 5.3 are the authors' own weighted analysis of the public-use microdata, not a published GSS or third-party statistic. Jones, Payton, Alex Arnold, and Nate Tenhundfeld. \"The Comfortable Extremes and the Reluctant Center: Political Ideology and Discussing Controversial Topics on Campus.\" Heterodox Academy, December 2024. Knight Foundation–Ipsos. \"College Student Views on Free Expression and Campus Speech 2024: A Look at Key Trends in Student Speech Views Since 2016.\" Knight Free Expression Research Series, July 2024. Kuran, Timur. Private Truths, Public Lies: The Social Consequences of Preference Falsification. Cambridge, MA: Harvard University Press, 1997. Mutz, Diana C. \"Freedom of Speech in the Post-Floyd Era: Public Support for Political Tolerance.\" The ANNALS of the American Academy of Political and Social Science 708 (2023). Noelle-Neumann, Elisabeth. \"The Spiral of Silence: A Theory of Public Opinion.\" Journal of Communication 24 (1974): 43–51. Noelle-Neumann, Elisabeth. The Spiral of Silence: Public Opinion — Our Social Skin. Chicago: University of Chicago Press, 1984. Norris, Pippa. \"Cancel Culture: Heterodox Self-Censorship or the Curious Case of the Dog-Which-Didn't-Bark.\" Harvard Kennedy School Faculty Research Working Paper RWP23-020, July 2023. Norris, Pippa. \"Cancel Culture: Myth or Reality?\" Political Studies 71, no. 1 (2023): 145–174. PEN America. \"America's Censored Campuses 2025: Expanding the Web of Control.\" pen.org, 2025.",
+            "AAUP, AAC&U, and NORC. \"Survey Documents Decline in Academic Freedom.\" Survey fielded December 2023–February 2024. American Association of University Professors. Chong, Dennis, Jack Citrin, and Morgan Levy. \"The Realignment of Political Tolerance in the United States.\" Perspectives on Politics (2022). Foundation for Individual Rights and Expression (FIRE). \"Scholars Under Fire\" database. thefire.org. Foundation for Individual Rights and Expression (FIRE). \"3 in 4 Campaigns Targeting Faculty Expression Result in Punishment.\" August 2021. Foundation for Individual Rights and Expression (FIRE). \"At Least 111 Professors Targeted for Their Speech in 2021.\" March 2022. Foundation for Individual Rights and Expression (FIRE). \"Silence in the Classroom: The 2024 FIRE Faculty Survey Report.\" 2024. General Social Survey (GSS). Cross-Sectional Cumulative Data Files, 1977, 1980, 1982, 1984, 1985, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, and 2024 [machine-readable data files]. NORC at the University of Chicago. Figures in Section 5.3 are the authors' own weighted analysis of the public-use microdata, not a published GSS or third-party statistic. Jones, Payton, Alex Arnold, and Nate Tenhundfeld. \"The Comfortable Extremes and the Reluctant Center: Political Ideology and Discussing Controversial Topics on Campus.\" Heterodox Academy, December 2024. Knight Foundation–Ipsos. \"College Student Views on Free Expression and Campus Speech 2024: A Look at Key Trends in Student Speech Views Since 2016.\" Knight Free Expression Research Series, July 2024. Kuran, Timur. Private Truths, Public Lies: The Social Consequences of Preference Falsification. Cambridge, MA: Harvard University Press, 1997. Mutz, Diana C. \"Freedom of Speech in the Post-Floyd Era: Public Support for Political Tolerance.\" The ANNALS of the American Academy of Political and Social Science 708 (2023). Noelle-Neumann, Elisabeth. \"The Spiral of Silence: A Theory of Public Opinion.\" Journal of Communication 24 (1974): 43–51. Noelle-Neumann, Elisabeth. The Spiral of Silence: Public Opinion — Our Social Skin. Chicago: University of Chicago Press, 1984. Norris, Pippa. \"Cancel Culture: Heterodox Self-Censorship or the Curious Case of the Dog-Which-Didn't-Bark.\" Harvard Kennedy School Faculty Research Working Paper RWP23-020, July 2023. Norris, Pippa. \"Cancel Culture: Myth or Reality?\" Political Studies 71, no. 1 (2023): 145–174. PEN America. \"America's Censored Campuses 2025: Expanding the Web of Control.\" pen.org, 2025.",
+            "AAUP, AAC&U, and NORC. \"Survey Documents Decline in Academic Freedom.\" Survey fielded December 2023–February 2024. American Association of University Professors. Chong, Dennis, Jack Citrin, and Morgan Levy. \"The Realignment of Political Tolerance in the United States.\" Perspectives on Politics (2022). Coppedge, Michael, et al. \"V-Dem [Country-Year] Dataset v16.\" Varieties of Democracy (V-Dem) Project, 2026. https://doi.org/10.23696/vdemds26. Figures in Section 6 involving the Academic Freedom Index (v2xca_academ) are the authors' own analysis of the public-use microdata, not a published V-Dem or third-party statistic unless attributed to Kinzelbach et al. (2026) below. Foundation for Individual Rights and Expression (FIRE). \"Scholars Under Fire\" database. thefire.org. Foundation for Individual Rights and Expression (FIRE). \"3 in 4 Campaigns Targeting Faculty Expression Result in Punishment.\" August 2021. Foundation for Individual Rights and Expression (FIRE). \"At Least 111 Professors Targeted for Their Speech in 2021.\" March 2022. Foundation for Individual Rights and Expression (FIRE). \"Silence in the Classroom: The 2024 FIRE Faculty Survey Report.\" 2024. General Social Survey (GSS). Cross-Sectional Cumulative Data Files, 1977, 1980, 1982, 1984, 1985, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, and 2024 [machine-readable data files]. NORC at the University of Chicago. Figures in Section 5.3 are the authors' own weighted analysis of the public-use microdata, not a published GSS or third-party statistic. Jones, Payton, Alex Arnold, and Nate Tenhundfeld. \"The Comfortable Extremes and the Reluctant Center: Political Ideology and Discussing Controversial Topics on Campus.\" Heterodox Academy, December 2024. Knight Foundation–Ipsos. \"College Student Views on Free Expression and Campus Speech 2024: A Look at Key Trends in Student Speech Views Since 2016.\" Knight Free Expression Research Series, July 2024. Kinzelbach, Katrin, Staffan I. Lindberg, Lars Lott, and Angelo V. Panaro. Academic Freedom Index Update 2025/2026. Friedrich-Alexander-Universität Erlangen-Nürnberg and V-Dem Institute, 2026. Kuran, Timur. Private Truths, Public Lies: The Social Consequences of Preference Falsification. Cambridge, MA: Harvard University Press, 1997. Lott, Lars, and Janika Spannagel. \"Quality Assessment of the Academic Freedom Index: Strengths, Weaknesses, and How Best to Use It.\" Perspectives on Politics (2025). Mutz, Diana C. \"Freedom of Speech in the Post-Floyd Era: Public Support for Political Tolerance.\" The ANNALS of the American Academy of Political and Social Science 708 (2023). Noelle-Neumann, Elisabeth. \"The Spiral of Silence: A Theory of Public Opinion.\" Journal of Communication 24 (1974): 43–51. Noelle-Neumann, Elisabeth. The Spiral of Silence: Public Opinion — Our Social Skin. Chicago: University of Chicago Press, 1984. Norris, Pippa. \"Cancel Culture: Heterodox Self-Censorship or the Curious Case of the Dog-Which-Didn't-Bark.\" Harvard Kennedy School Faculty Research Working Paper RWP23-020, July 2023. Norris, Pippa. \"Cancel Culture: Myth or Reality?\" Political Studies 71, no. 1 (2023): 145–174. PEN America. \"America's Censored Campuses 2025: Expanding the Web of Control.\" pen.org, 2025. Spannagel, Janika, and Katrin Kinzelbach. \"The Academic Freedom Index and Its Indicators: Introduction to New Global Time-Series V-Dem Data.\" Quality & Quantity 57 (2023): 3969–3989.",
+            "AAUP, AAC&U, and NORC. \"Survey Documents Decline in Academic Freedom.\" Survey fielded December 2023–February 2024. American Association of University Professors. Chong, Dennis, Jack Citrin, and Morgan Levy. \"The Realignment of Political Tolerance in the United States.\" Perspectives on Politics (2022). Coppedge, Michael, et al. \"V-Dem [Country-Year] Dataset v16.\" Varieties of Democracy (V-Dem) Project, 2026. https://doi.org/10.23696/vdemds26. Figures in Section 6 involving the Academic Freedom Index (v2xca_academ) are the authors' own analysis of the public-use microdata, not a published V-Dem or third-party statistic unless attributed to Kinzelbach et al. (2026) below. Foundation for Individual Rights and Expression (FIRE). \"Scholars Under Fire\" database. thefire.org. Foundation for Individual Rights and Expression (FIRE). \"3 in 4 Campaigns Targeting Faculty Expression Result in Punishment.\" August 2021. Foundation for Individual Rights and Expression (FIRE). \"At Least 111 Professors Targeted for Their Speech in 2021.\" March 2022. Foundation for Individual Rights and Expression (FIRE). \"Silence in the Classroom: The 2024 FIRE Faculty Survey Report.\" 2024. General Social Survey (GSS). Cross-Sectional Cumulative Data Files, 1977, 1980, 1982, 1984, 1985, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, and 2024 [machine-readable data files]. NORC at the University of Chicago. Figures in Section 5.3 are the authors' own weighted analysis of the public-use microdata, not a published GSS or third-party statistic. Grimm, Jannis Julien, Sven Chojnacki, Nina Moya Schreieder, Iman El Ghoubashy, and Thaddäa Sixta. \"German Academia after October 7: Self-Censorship and Restrictions of Academic Freedom among MENA Scholars.\" Working Papers Peace & Conflict Research, no. 3. Freie Universität Berlin, 2025. http://dx.doi.org/10.17169/refubium-49164. Jones, Payton, Alex Arnold, and Nate Tenhundfeld. \"The Comfortable Extremes and the Reluctant Center: Political Ideology and Discussing Controversial Topics on Campus.\" Heterodox Academy, December 2024. Knight Foundation–Ipsos. \"College Student Views on Free Expression and Campus Speech 2024: A Look at Key Trends in Student Speech Views Since 2016.\" Knight Free Expression Research Series, July 2024. Kinzelbach, Katrin, Staffan I. Lindberg, Lars Lott, and Angelo V. Panaro. Academic Freedom Index Update 2025/2026. Friedrich-Alexander-Universität Erlangen-Nürnberg and V-Dem Institute, 2026. Kuran, Timur. Private Truths, Public Lies: The Social Consequences of Preference Falsification. Cambridge, MA: Harvard University Press, 1997. Liang, Silvia Wan-Ju, and Kuo-Cheng Chung. \"Silence or Expression? Spiral of Silence in Social Networks.\" International Journal of Innovative Research and Scientific Studies 7, no. 2 (2024): 343–353. Lott, Lars, and Janika Spannagel. \"Quality Assessment of the Academic Freedom Index: Strengths, Weaknesses, and How Best to Use It.\" Perspectives on Politics (2025). Mutz, Diana C. \"Freedom of Speech in the Post-Floyd Era: Public Support for Political Tolerance.\" The ANNALS of the American Academy of Political and Social Science 708 (2023). Noelle-Neumann, Elisabeth. \"The Spiral of Silence: A Theory of Public Opinion.\" Journal of Communication 24 (1974): 43–51. Noelle-Neumann, Elisabeth. The Spiral of Silence: Public Opinion — Our Social Skin. Chicago: University of Chicago Press, 1984. Norris, Pippa. \"Cancel Culture: Heterodox Self-Censorship or the Curious Case of the Dog-Which-Didn't-Bark.\" Harvard Kennedy School Faculty Research Working Paper RWP23-020, July 2023. Norris, Pippa. \"Cancel Culture: Myth or Reality?\" Political Studies 71, no. 1 (2023): 145–174. PEN America. \"America's Censored Campuses 2025: Expanding the Web of Control.\" pen.org, 2025. Scholars at Risk. 2025 Annual Report. New York: Scholars at Risk Network, 2025. Spannagel, Janika, and Katrin Kinzelbach. \"The Academic Freedom Index and Its Indicators: Introduction to New Global Time-Series V-Dem Data.\" Quality & Quantity 57 (2023): 3969–3989. Vanagt, Jochem, Katrin Praprotnik, Luana Russo, and Markus Wagner. \"Partisan Affect and Political Tolerance in the Context of Shifting Norms: The Effect of Coalition Signals towards the Radical Right.\" Journal of European Public Policy, ahead of print (2025). https://doi.org/10.1080/13501763.2025.2558980.",
+            "AAUP, AAC&U, and NORC. \"Survey Documents Decline in Academic Freedom.\" Survey fielded December 2023–February 2024. American Association of University Professors. Chong, Dennis, Jack Citrin, and Morgan Levy. \"The Realignment of Political Tolerance in the United States.\" Perspectives on Politics (2022). Coppedge, Michael, et al. \"V-Dem [Country-Year] Dataset v16.\" Varieties of Democracy (V-Dem) Project, 2026. https://doi.org/10.23696/vdemds26. Figures in Section 6 involving the Academic Freedom Index (v2xca_academ) are the authors' own analysis of the public-use microdata, not a published V-Dem or third-party statistic unless attributed to Kinzelbach et al. (2026) below. Foundation for Individual Rights and Expression (FIRE). \"Scholars Under Fire\" database. thefire.org. Foundation for Individual Rights and Expression (FIRE). \"3 in 4 Campaigns Targeting Faculty Expression Result in Punishment.\" August 2021. Foundation for Individual Rights and Expression (FIRE). \"At Least 111 Professors Targeted for Their Speech in 2021.\" March 2022. Foundation for Individual Rights and Expression (FIRE). \"Silence in the Classroom: The 2024 FIRE Faculty Survey Report.\" 2024. Freedom House. Freedom in the World 2026: The Growing Shadow of Autocracy. Washington, DC: Freedom House, 2026. General Social Survey (GSS). Cross-Sectional Cumulative Data Files, 1977, 1980, 1982, 1984, 1985, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, and 2024 [machine-readable data files]. NORC at the University of Chicago. Figures in Section 5.3 are the authors' own weighted analysis of the public-use microdata, not a published GSS or third-party statistic. Grimm, Jannis Julien, Sven Chojnacki, Nina Moya Schreieder, Iman El Ghoubashy, and Thaddäa Sixta. \"German Academia after October 7: Self-Censorship and Restrictions of Academic Freedom among MENA Scholars.\" Working Papers Peace & Conflict Research, no. 3. Freie Universität Berlin, 2025. http://dx.doi.org/10.17169/refubium-49164. Haerpfer, Christian, et al. (eds.). World Values Survey: Round Seven — Country-Pooled Datafile Version 6.0. Madrid, Spain & Vienna, Austria: JD Systems Institute & WVSA Secretariat, 2024. Figures in Section 5.4 are the authors' own weighted analysis of the public-use microdata, not a published WVS or third-party statistic. Jones, Payton, Alex Arnold, and Nate Tenhundfeld. \"The Comfortable Extremes and the Reluctant Center: Political Ideology and Discussing Controversial Topics on Campus.\" Heterodox Academy, December 2024. Knight Foundation–Ipsos. \"College Student Views on Free Expression and Campus Speech 2024: A Look at Key Trends in Student Speech Views Since 2016.\" Knight Free Expression Research Series, July 2024. Kinzelbach, Katrin, Staffan I. Lindberg, Lars Lott, and Angelo V. Panaro. Academic Freedom Index Update 2025/2026. Friedrich-Alexander-Universität Erlangen-Nürnberg and V-Dem Institute, 2026. Kuran, Timur. Private Truths, Public Lies: The Social Consequences of Preference Falsification. Cambridge, MA: Harvard University Press, 1997. Liang, Silvia Wan-Ju, and Kuo-Cheng Chung. \"Silence or Expression? Spiral of Silence in Social Networks.\" International Journal of Innovative Research and Scientific Studies 7, no. 2 (2024): 343–353. Lott, Lars, and Janika Spannagel. \"Quality Assessment of the Academic Freedom Index: Strengths, Weaknesses, and How Best to Use It.\" Perspectives on Politics (2025). Mutz, Diana C. \"Freedom of Speech in the Post-Floyd Era: Public Support for Political Tolerance.\" The ANNALS of the American Academy of Political and Social Science 708 (2023). Noelle-Neumann, Elisabeth. \"The Spiral of Silence: A Theory of Public Opinion.\" Journal of Communication 24 (1974): 43–51. Noelle-Neumann, Elisabeth. The Spiral of Silence: Public Opinion — Our Social Skin. Chicago: University of Chicago Press, 1984. Norris, Pippa. \"Cancel Culture: Heterodox Self-Censorship or the Curious Case of the Dog-Which-Didn't-Bark.\" Harvard Kennedy School Faculty Research Working Paper RWP23-020, July 2023. Norris, Pippa. \"Cancel Culture: Myth or Reality?\" Political Studies 71, no. 1 (2023): 145–174. PEN America. \"America's Censored Campuses 2025: Expanding the Web of Control.\" pen.org, 2025. Scholars at Risk. 2025 Annual Report. New York: Scholars at Risk Network, 2025. Spannagel, Janika, and Katrin Kinzelbach. \"The Academic Freedom Index and Its Indicators: Introduction to New Global Time-Series V-Dem Data.\" Quality & Quantity 57 (2023): 3969–3989. Vanagt, Jochem, Katrin Praprotnik, Luana Russo, and Markus Wagner. \"Partisan Affect and Political Tolerance in the Context of Shifting Norms: The Effect of Coalition Signals towards the Radical Right.\" Journal of European Public Policy, ahead of print (2025). https://doi.org/10.1080/13501763.2025.2558980."
+          ],
+          "resource_type": {
+            "title": "Preprint",
+            "type": "publication",
+            "subtype": "preprint"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 5,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21878322"
+                }
+              }
+            ]
+          }
+        },
+        "title": "The Mechanics of Conformity: Structural Similarities Between Distributed Social Enforcement and Authoritarian Control",
+        "links": {
+          "self": "https://zenodo.org/api/records/21929207",
+          "self_html": "https://zenodo.org/records/21929207",
+          "preview_html": "https://zenodo.org/records/21929207?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21929207",
+          "self_doi": "https://doi.org/10.5281/zenodo.21929207",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21929207",
+          "reserve_doi": "https://zenodo.org/api/records/21929207/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21878322",
+          "parent_html": "https://zenodo.org/records/21878322",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21878322",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21878322",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21929207/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21929207/sequence/default",
+          "files": "https://zenodo.org/api/records/21929207/files",
+          "media_files": "https://zenodo.org/api/records/21929207/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21929207:Mechanics_of_Conformity_v1_RC7.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21929207:Mechanics_of_Conformity_v1_RC7.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21929207:Mechanics_of_Conformity_v1_RC7.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21929207:Mechanics_of_Conformity_v1_RC7.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21929207:Mechanics_of_Conformity_v1_RC7.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21929207:Mechanics_of_Conformity_v1_RC7.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21929207/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21929207/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21929207/versions/latest",
+          "latest_html": "https://zenodo.org/records/21929207/latest",
+          "versions": "https://zenodo.org/api/records/21929207/versions",
+          "draft": "https://zenodo.org/api/records/21929207/draft",
+          "access_links": "https://zenodo.org/api/records/21929207/access/links",
+          "access_grants": "https://zenodo.org/api/records/21929207/access/grants",
+          "access_users": "https://zenodo.org/api/records/21929207/access/users",
+          "access_request": "https://zenodo.org/api/records/21929207/access/request",
+          "access": "https://zenodo.org/api/records/21929207/access",
+          "communities": "https://zenodo.org/api/records/21929207/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21929207/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21929207/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21929207/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21929207/quota-increase",
+          "requests": "https://zenodo.org/api/records/21929207/requests"
+        },
+        "updated": "2026-08-14T05:47:36.703787+00:00",
+        "recid": "21929207",
+        "revision": 4,
+        "files": [
+          {
+            "id": "5db65729-fbc7-4597-b237-54f755426f74",
+            "key": "Mechanics_of_Conformity_v1_RC7.pdf",
+            "size": 779138,
+            "checksum": "md5:58768448180a0618739157726b1bf3fb",
+            "links": {
+              "self": "https://zenodo.org/api/records/21929207/files/Mechanics_of_Conformity_v1_RC7.pdf/content"
+            }
+          },
+          {
+            "id": "adf77df1-9394-437f-a632-993f4f77afe8",
+            "key": "Mechanics_of_Conformity_v1_RC7.docx",
+            "size": 525825,
+            "checksum": "md5:635b9dcb745c7c82ee8bde18d136aabd",
+            "links": {
+              "self": "https://zenodo.org/api/records/21929207/files/Mechanics_of_Conformity_v1_RC7.docx/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1585012"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 7,
+          "unique_downloads": 7,
+          "views": 21,
+          "unique_views": 17,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T05:40:48.349732+00:00",
+        "modified": "2026-08-14T05:40:48.607094+00:00",
+        "id": 21929150,
+        "conceptrecid": "21929149",
+        "doi": "10.5281/zenodo.21929150",
+        "conceptdoi": "10.5281/zenodo.21929149",
+        "doi_url": "https://doi.org/10.5281/zenodo.21929150",
+        "metadata": {
+          "title": "African Literature in the Digital Age: Social Media, Identity and Literary Expression in Francophone Africa",
+          "doi": "10.5281/zenodo.21929150",
+          "publication_date": "2026-08-14",
+          "description": "<p class=\"MsoNormal\"><span>This paper examines how social media and digital technologies are transforming literary production, circulation, identity construction, and linguistic expression in contemporary Francophone Africa. It argues that the digital turn has created a hybrid literary ecology in which print culture, oral performance, African languages, French, audiovisual media, and networked communication interact. Drawing on postcolonial theory, cultural identity studies, and digital literary scholarship, the study investigates the changing relationship between writers and readers, the construction of transnational identities, linguistic hybridity, digital literary forms, feminist agency, political expression, and the coloniality of data. The paper contends that social media can reduce dependence on conventional publishing gatekeepers and expand access to literary publics, while simultaneously producing new forms of algorithmic, commercial, and technological gatekeeping. In Francophone Africa, digital writing therefore represents neither an unqualified liberation nor a simple continuation of colonial domination. Rather, it constitutes a contested cultural space in which writer&rsquo;s appropriate digital technologies to negotiate language, identity, memory, belonging, and power. The study concludes that the future of Francophone African literature will be increasingly multimodal and transnational, requiring literary scholarship to address both the creative possibilities and structural inequalities of digital culture.</span></p>\n<p class=\"MsoNormal\"><strong><span>Keywords:</span></strong><span> Francophone Africa; African literature; social media; digital humanities; identity; literary expression; linguistic hybridity</span><span>.</span><strong><span>&nbsp;</span></strong></p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Beatrice Nguwasen Nev",
+              "affiliation": null
+            },
+            {
+              "name": "Elisha Musa",
+              "affiliation": null
+            },
+            {
+              "name": "Vashti Yavala",
+              "affiliation": null
+            }
+          ],
+          "resource_type": {
+            "title": "Journal article",
+            "type": "publication",
+            "subtype": "article"
+          },
+          "journal": {
+            "issue": "8",
+            "pages": "1-10",
+            "title": "GAS Journal of Arts Humanities and Social Sciences (GASJAHSS)",
+            "volume": "4"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21929149"
+                }
+              }
+            ]
+          }
+        },
+        "title": "African Literature in the Digital Age: Social Media, Identity and Literary Expression in Francophone Africa",
+        "links": {
+          "self": "https://zenodo.org/api/records/21929150",
+          "self_html": "https://zenodo.org/records/21929150",
+          "preview_html": "https://zenodo.org/records/21929150?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21929150",
+          "self_doi": "https://doi.org/10.5281/zenodo.21929150",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21929150",
+          "reserve_doi": "https://zenodo.org/api/records/21929150/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21929149",
+          "parent_html": "https://zenodo.org/records/21929149",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21929149",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21929149",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21929150/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21929150/sequence/default",
+          "files": "https://zenodo.org/api/records/21929150/files",
+          "media_files": "https://zenodo.org/api/records/21929150/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21929150:African%20Literature%20in%20the%20Digital%20Age%20Social%20Media,%20Identity%20and%20Literary%20Expression%20in%20Francophone%20Africa.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21929150:African%20Literature%20in%20the%20Digital%20Age%20Social%20Media,%20Identity%20and%20Literary%20Expression%20in%20Francophone%20Africa.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21929150:African%20Literature%20in%20the%20Digital%20Age%20Social%20Media,%20Identity%20and%20Literary%20Expression%20in%20Francophone%20Africa.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21929150:African%20Literature%20in%20the%20Digital%20Age%20Social%20Media,%20Identity%20and%20Literary%20Expression%20in%20Francophone%20Africa.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21929150:African%20Literature%20in%20the%20Digital%20Age%20Social%20Media,%20Identity%20and%20Literary%20Expression%20in%20Francophone%20Africa.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21929150:African%20Literature%20in%20the%20Digital%20Age%20Social%20Media,%20Identity%20and%20Literary%20Expression%20in%20Francophone%20Africa.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21929150/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21929150/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21929150/versions/latest",
+          "latest_html": "https://zenodo.org/records/21929150/latest",
+          "versions": "https://zenodo.org/api/records/21929150/versions",
+          "draft": "https://zenodo.org/api/records/21929150/draft",
+          "access_links": "https://zenodo.org/api/records/21929150/access/links",
+          "access_grants": "https://zenodo.org/api/records/21929150/access/grants",
+          "access_users": "https://zenodo.org/api/records/21929150/access/users",
+          "access_request": "https://zenodo.org/api/records/21929150/access/request",
+          "access": "https://zenodo.org/api/records/21929150/access",
+          "communities": "https://zenodo.org/api/records/21929150/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21929150/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21929150/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21929150/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21929150/quota-increase",
+          "requests": "https://zenodo.org/api/records/21929150/requests"
+        },
+        "updated": "2026-08-14T05:40:48.607094+00:00",
+        "recid": "21929150",
+        "revision": 4,
+        "files": [
+          {
+            "id": "3582baf0-3573-4c8d-9c40-1f5d4805078c",
+            "key": "African Literature in the Digital Age Social Media, Identity and Literary Expression in Francophone Africa.pdf",
+            "size": 315550,
+            "checksum": "md5:593c4b16b7b7bfd67a9e52fe84644f3e",
+            "links": {
+              "self": "https://zenodo.org/api/records/21929150/files/African%20Literature%20in%20the%20Digital%20Age%20Social%20Media,%20Identity%20and%20Literary%20Expression%20in%20Francophone%20Africa.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "602509"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T05:20:25.416460+00:00",
+        "modified": "2026-08-14T05:20:25.664163+00:00",
+        "id": 21928731,
+        "conceptrecid": "21529428",
+        "doi": "10.5281/zenodo.21928731",
+        "conceptdoi": "10.5281/zenodo.21529428",
+        "doi_url": "https://doi.org/10.5281/zenodo.21928731",
+        "metadata": {
+          "title": "binderqc: quality control and tag-site scoring for designed protein binders",
+          "doi": "10.5281/zenodo.21928731",
+          "publication_date": "2026-08-14",
+          "description": "Quality control and tag-site scoring for de novo designed protein binders, computed from a predicted binder-target complex. Reports a QC panel spanning tag-site accessibility, interface metrics, pose, grippability, and developability.",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Sharma, Siddhant",
+              "affiliation": null
+            }
+          ],
+          "keywords": [
+            "protein-design",
+            "bioinformatics",
+            "structural-biology",
+            "protein-engineering",
+            "binder-design"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/ssiddhantsharma/binderqc/tree/v0.4.0",
+              "relation": "isSupplementTo",
+              "resource_type": "software",
+              "scheme": "url"
+            }
+          ],
+          "version": "v0.4.0",
+          "custom": {
+            "code:codeRepository": "https://github.com/ssiddhantsharma/binderqc"
+          },
+          "resource_type": {
+            "title": "Software",
+            "type": "software"
+          },
+          "license": {
+            "id": "mit-license"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 3,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21529428"
+                }
+              }
+            ]
+          }
+        },
+        "title": "binderqc: quality control and tag-site scoring for designed protein binders",
+        "links": {
+          "self": "https://zenodo.org/api/records/21928731",
+          "self_html": "https://zenodo.org/records/21928731",
+          "preview_html": "https://zenodo.org/records/21928731?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21928731",
+          "self_doi": "https://doi.org/10.5281/zenodo.21928731",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21928731",
+          "reserve_doi": "https://zenodo.org/api/records/21928731/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21529428",
+          "parent_html": "https://zenodo.org/records/21529428",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21529428",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21529428",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21928731/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21928731/sequence/default",
+          "files": "https://zenodo.org/api/records/21928731/files",
+          "media_files": "https://zenodo.org/api/records/21928731/media-files",
+          "archive": "https://zenodo.org/api/records/21928731/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21928731/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21928731/versions/latest",
+          "latest_html": "https://zenodo.org/records/21928731/latest",
+          "versions": "https://zenodo.org/api/records/21928731/versions",
+          "draft": "https://zenodo.org/api/records/21928731/draft",
+          "access_links": "https://zenodo.org/api/records/21928731/access/links",
+          "access_grants": "https://zenodo.org/api/records/21928731/access/grants",
+          "access_users": "https://zenodo.org/api/records/21928731/access/users",
+          "access_request": "https://zenodo.org/api/records/21928731/access/request",
+          "access": "https://zenodo.org/api/records/21928731/access",
+          "communities": "https://zenodo.org/api/records/21928731/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21928731/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21928731/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21928731/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21928731/quota-increase",
+          "requests": "https://zenodo.org/api/records/21928731/requests"
+        },
+        "updated": "2026-08-14T05:20:25.664163+00:00",
+        "recid": "21928731",
+        "revision": 4,
+        "files": [
+          {
+            "id": "7ecbe647-814b-4d50-9c3e-1124c54d70ba",
+            "key": "ssiddhantsharma/binderqc-v0.4.0.zip",
+            "size": 2811187,
+            "checksum": "md5:71404b17e351d050ca7c79cbeb4ab391",
+            "links": {
+              "self": "https://zenodo.org/api/records/21928731/files/ssiddhantsharma/binderqc-v0.4.0.zip/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "96769"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 21,
+          "unique_views": 21,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T05:06:13.742387+00:00",
+        "modified": "2026-08-14T05:06:14.150844+00:00",
+        "id": 21928268,
+        "conceptrecid": "21928267",
+        "doi": "10.5281/zenodo.21928268",
+        "conceptdoi": "10.5281/zenodo.21928267",
+        "doi_url": "https://doi.org/10.5281/zenodo.21928268",
+        "metadata": {
+          "title": "THE IMPACT OF EARLY DIAGNOSIS ON CLINICAL OUTCOMES IN PEDIATRIC DILATED CARDIOMYOPATHY",
+          "doi": "10.5281/zenodo.21928268",
+          "publication_date": "2026-08-14",
+          "description": "<p class=\"15\">Dilated cardiomyopathy is a severe, life-threatening myocardial disease in the pediatric population, frequently characterized by a delayed clinical presentation that severely limits therapeutic efficacy. This extensive observational research investigates the critical impact of early versus late diagnosis on the long-term clinical outcomes, myocardial reverse remodeling, and overall survival rates in a cohort of forty-eight pediatric patients. The clinical investigation was conducted at the Andijan Regional Children's Multidisciplinary Medical Center. The patient cohort was stratified into an early diagnosis group and a late diagnosis group based on the duration of symptoms prior to specialized cardiological intervention and the baseline severity of heart failure. The comprehensive analysis demonstrates that early echocardiographic detection and the subsequent immediate initiation of neurohormonal blockade significantly correlate with higher rates of complete left ventricular functional recovery, dramatically reduced incidences of life-threatening arrhythmias, and superior long-term survival. The findings unequivocally underscore the necessity of implementing rigorous, early echocardiographic screening protocols in primary pediatric care to identify subclinical myocardial dysfunction, thereby shifting the treatment paradigm from palliative heart failure management to active disease modification and structural preservation.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Jalolov Bakhtiyar Bakhodirovich",
+              "affiliation": "Assistant of  Department of Hospital Pediatrics, Andijan State Medical Institute, Uzbekistan"
+            },
+            {
+              "name": "Worldly Knowledge Publishing Centre",
+              "affiliation": "Worldly Knowledge Publishing Centre"
+            }
+          ],
+          "keywords": [
+            "dilated cardiomyopathy, early diagnosis, pediatric cardiology, clinical outcomes, echocardiography, heart failure, reverse remodeling, survival rate."
+          ],
+          "references": [
+            "1.Lipshultz, S. E., Law, Y. M., Ashton, R. W., et al. (2019). Executive Summary of the American Heart Association Scientific Statement on Pediatric Cardiomyopathies. Circulation, 140(1), 9-11.",
+            "2.Kantor, P. F., Lougheed, J., Dancea, A., et al. (2013). Presentation, diagnosis, and medical management of heart failure in children: Canadian Cardiovascular Society guidelines. Canadian Journal of Cardiology, 29(12), 1535-1552.",
+            "3.Shaddy, R. E., Boucek, M. M., Hsu, D. T., et al. (2007). Carvedilol for children and adolescents with heart failure: a randomized controlled trial. JAMA, 298(10), 1171-1179.",
+            "4.Towbin, J. A., Lowe, A. M., Colan, S. D., et al. (2006). Incidence, causes, and outcomes of dilated cardiomyopathy in children. JAMA, 296(15), 1867-1876.",
+            "5.Alexander, P. M., Daubeney, P. E., Nugent, A. W., et al. (2013). Long-term outcomes of dilated cardiomyopathy diagnosed during childhood: results from a national population-based study of childhood cardiomyopathy. Circulation, 128(18), 2039-2046."
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "journal": {
+            "issue": "08",
+            "pages": "153-161",
+            "title": "Egyptian Medical Journal of the National Research Center",
+            "volume": "4"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21928267"
+                }
+              }
+            ]
+          }
+        },
+        "title": "THE IMPACT OF EARLY DIAGNOSIS ON CLINICAL OUTCOMES IN PEDIATRIC DILATED CARDIOMYOPATHY",
+        "links": {
+          "self": "https://zenodo.org/api/records/21928268",
+          "self_html": "https://zenodo.org/records/21928268",
+          "preview_html": "https://zenodo.org/records/21928268?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21928268",
+          "self_doi": "https://doi.org/10.5281/zenodo.21928268",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21928268",
+          "reserve_doi": "https://zenodo.org/api/records/21928268/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21928267",
+          "parent_html": "https://zenodo.org/records/21928267",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21928267",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21928267",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21928268/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21928268/sequence/default",
+          "files": "https://zenodo.org/api/records/21928268/files",
+          "media_files": "https://zenodo.org/api/records/21928268/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21928268:153-161.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21928268:153-161.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21928268:153-161.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21928268:153-161.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21928268:153-161.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21928268:153-161.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21928268/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21928268/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21928268/versions/latest",
+          "latest_html": "https://zenodo.org/records/21928268/latest",
+          "versions": "https://zenodo.org/api/records/21928268/versions",
+          "draft": "https://zenodo.org/api/records/21928268/draft",
+          "access_links": "https://zenodo.org/api/records/21928268/access/links",
+          "access_grants": "https://zenodo.org/api/records/21928268/access/grants",
+          "access_users": "https://zenodo.org/api/records/21928268/access/users",
+          "access_request": "https://zenodo.org/api/records/21928268/access/request",
+          "access": "https://zenodo.org/api/records/21928268/access",
+          "communities": "https://zenodo.org/api/records/21928268/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21928268/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21928268/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21928268/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21928268/quota-increase",
+          "requests": "https://zenodo.org/api/records/21928268/requests"
+        },
+        "updated": "2026-08-14T05:06:14.150844+00:00",
+        "recid": "21928268",
+        "revision": 4,
+        "files": [
+          {
+            "id": "c0976622-66c7-403b-b290-2294288e91a1",
+            "key": "153-161.pdf",
+            "size": 201036,
+            "checksum": "md5:53180f380329502e84fad53cbc681c25",
+            "links": {
+              "self": "https://zenodo.org/api/records/21928268/files/153-161.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "488486"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T04:27:40.156964+00:00",
+        "modified": "2026-08-14T04:27:41.207514+00:00",
+        "id": 21831275,
+        "conceptrecid": "21831274",
+        "doi": "10.5281/zenodo.21831275",
+        "conceptdoi": "10.5281/zenodo.21831274",
+        "doi_url": "https://doi.org/10.5281/zenodo.21831275",
+        "metadata": {
+          "title": "Parameter Sensitivity Algebra (ASP) within the Preference Propagation Framework (PPF)",
+          "doi": "10.5281/zenodo.21831275",
+          "publication_date": "2026-08-07",
+          "description": "<p class=\"MsoNormal\">This record presents a proposed formulation of Parameter Sensitivity Algebra (ASP) for extracting criterion-specific parameter elasticities from representative equations. For an additive positive model, parameter elasticity is decomposed into structural sensitivity and a context-dependent term-participation factor. The resulting elasticity matrix may subsequently be used by the Preference Propagation Framework (PPF) to propagate declared criterion orientations and weights toward a Unified Preference Representation (UPR).</p>\n<p class=\"MsoNormal\">The formulation is presented as a theoretical and computational proposal. Exact differential identities are distinguished from local monomial representations and from empirical validation. Independent mathematical review, computational benchmarking, and domain-expert validation remain necessary.</p>\n<p class=\"MsoNormal\">AI systems were used as analytical assistants for equation checking, counterexample exploration, terminology refinement, and documentation. Their outputs do not constitute independent scientific validation or institutional endorsement.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Ridlwan, Muhammad",
+              "affiliation": "Universitas Islam Indonesia (UII)"
+            }
+          ],
+          "contributors": [
+            {
+              "name": "Ridlwan, Muhammad",
+              "affiliation": "Universitas Islam Indonesia (UII)",
+              "type": "Researcher"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "mit-license"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21831274"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Parameter Sensitivity Algebra (ASP) within the Preference Propagation Framework (PPF)",
+        "links": {
+          "self": "https://zenodo.org/api/records/21831275",
+          "self_html": "https://zenodo.org/records/21831275",
+          "preview_html": "https://zenodo.org/records/21831275?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21831275",
+          "self_doi": "https://doi.org/10.5281/zenodo.21831275",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21831275",
+          "reserve_doi": "https://zenodo.org/api/records/21831275/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21831274",
+          "parent_html": "https://zenodo.org/records/21831274",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21831274",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21831274",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21831275/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21831275/sequence/default",
+          "files": "https://zenodo.org/api/records/21831275/files",
+          "media_files": "https://zenodo.org/api/records/21831275/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21831275:BAB_1_Introduction_English_0608.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21831275:BAB_1_Introduction_English_0608.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21831275:BAB_1_Introduction_English_0608.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21831275:BAB_1_Introduction_English_0608.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21831275:BAB_1_Introduction_English_0608.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21831275:BAB_1_Introduction_English_0608.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21831275/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21831275/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21831275/versions/latest",
+          "latest_html": "https://zenodo.org/records/21831275/latest",
+          "versions": "https://zenodo.org/api/records/21831275/versions",
+          "draft": "https://zenodo.org/api/records/21831275/draft",
+          "access_links": "https://zenodo.org/api/records/21831275/access/links",
+          "access_grants": "https://zenodo.org/api/records/21831275/access/grants",
+          "access_users": "https://zenodo.org/api/records/21831275/access/users",
+          "access_request": "https://zenodo.org/api/records/21831275/access/request",
+          "access": "https://zenodo.org/api/records/21831275/access",
+          "communities": "https://zenodo.org/api/records/21831275/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21831275/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21831275/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21831275/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21831275/quota-increase",
+          "requests": "https://zenodo.org/api/records/21831275/requests"
+        },
+        "updated": "2026-08-14T04:27:41.207514+00:00",
+        "recid": "21831275",
+        "revision": 4,
+        "files": [
+          {
+            "id": "38e68229-754f-4bc6-8593-202a252aebef",
+            "key": "NS 02.html",
+            "size": 179406,
+            "checksum": "md5:79b345404c3a012ffaedb29b14b1edfe",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/NS%2002.html/content"
+            }
+          },
+          {
+            "id": "42e7d2cd-ba3e-454d-8db7-be76c9b96052",
+            "key": "Landing-Asp-Ppf-+-WPM-Final.html",
+            "size": 224923,
+            "checksum": "md5:d3aa3937ece255c16dfe85da6d34702d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/Landing-Asp-Ppf-+-WPM-Final.html/content"
+            }
+          },
+          {
+            "id": "7e8dd686-27bf-47ee-bdf1-b82f3eb37f82",
+            "key": "asp-ppf-2.0.0 (2).tar.gz",
+            "size": 22029,
+            "checksum": "md5:dc8eb51b571f26dfcd7aae27156ad7d4",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/asp-ppf-2.0.0%20(2).tar.gz/content"
+            }
+          },
+          {
+            "id": "2eda6bff-6333-4284-9a62-6e662fcd3d59",
+            "key": "Reference-Implementation-Python.py",
+            "size": 12645,
+            "checksum": "md5:5c4cc626b1f9968f6e496f90e3391dbb",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/Reference-Implementation-Python.py/content"
+            }
+          },
+          {
+            "id": "c536d3fb-34c6-4d02-830d-794cbc18691d",
+            "key": "pyproject (3).toml",
+            "size": 1356,
+            "checksum": "md5:c6c2c9b713a7fc36cea1bf527ea20063",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/pyproject%20(3).toml/content"
+            }
+          },
+          {
+            "id": "ebfe9fa5-4be1-4b09-bd82-27ff128817a3",
+            "key": "Laporan_Uji_2000_Kandidat_PID_dengan_ASP.docx",
+            "size": 190541,
+            "checksum": "md5:8655a5cc723cc817c41e6ad99c107af1",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/Laporan_Uji_2000_Kandidat_PID_dengan_ASP.docx/content"
+            }
+          },
+          {
+            "id": "3f544094-8287-4dc7-99a7-b968e89a9be5",
+            "key": "Asp-Wpm-Platform (2) (1).html",
+            "size": 211557,
+            "checksum": "md5:70bbfc5dd4171b31c02d4ac29802cb0d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/Asp-Wpm-Platform%20(2)%20(1).html/content"
+            }
+          },
+          {
+            "id": "ae9f322e-3dfd-4984-ab51-638e3d507bfe",
+            "key": "BAB_1_Introduction_English_0608.pdf",
+            "size": 788674,
+            "checksum": "md5:5390ca98d97a056ad085fcf06babf97f",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/BAB_1_Introduction_English_0608.pdf/content"
+            }
+          },
+          {
+            "id": "3fd881ff-6bb4-488a-bb12-149f67098aa7",
+            "key": "Poros-Dinamis-Asp-Ppf.html",
+            "size": 200709,
+            "checksum": "md5:5e34d1805222832a429bf769aa28032c",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/Poros-Dinamis-Asp-Ppf.html/content"
+            }
+          },
+          {
+            "id": "da238866-b206-48ba-9f46-83383cde5f1a",
+            "key": "PPF WPM ANSYS.html",
+            "size": 211557,
+            "checksum": "md5:70bbfc5dd4171b31c02d4ac29802cb0d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/PPF%20WPM%20ANSYS.html/content"
+            }
+          },
+          {
+            "id": "0c2240bf-8668-4faa-9479-e79095fab967",
+            "key": "CD2.html",
+            "size": 4002,
+            "checksum": "md5:4c46fb3128c7f4b359b293348aed8c6e",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/CD2.html/content"
+            }
+          },
+          {
+            "id": "d4a2e10c-7b00-4c31-aca2-ce74e1d5cf88",
+            "key": "My-Little-Engineer-Ayunan-Dinamik-Baru.html",
+            "size": 183218,
+            "checksum": "md5:f8aa22d3565e590b527502fe56d50098",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/My-Little-Engineer-Ayunan-Dinamik-Baru.html/content"
+            }
+          },
+          {
+            "id": "9c0c023d-6b16-439a-820b-aeedfa3c2430",
+            "key": "Bukti speed up.jpg",
+            "size": 228688,
+            "checksum": "md5:1fe6d415260d17c4eb6c0fe0e5a80690",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/Bukti%20speed%20up.jpg/content"
+            }
+          },
+          {
+            "id": "da17c55b-a240-45d0-a25e-8b92f7cec708",
+            "key": "ASP_PPF_Conceptual_Development_Note_Final.docx",
+            "size": 1003160,
+            "checksum": "md5:0c2200482400784d68917704c28208f6",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/ASP_PPF_Conceptual_Development_Note_Final.docx/content"
+            }
+          },
+          {
+            "id": "d9d22ee2-ed9e-419c-8778-15da3b3a6243",
+            "key": "Parameter Sensitivity Algebra.docx",
+            "size": 14641,
+            "checksum": "md5:485830318a3937e30528c812b8021ffa",
+            "links": {
+              "self": "https://zenodo.org/api/records/21831275/files/Parameter%20Sensitivity%20Algebra.docx/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1739347"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 2,
+          "unique_downloads": 2,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 2,
+          "version_unique_downloads": 2,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T04:00:06.525108+00:00",
+        "modified": "2026-08-14T04:00:06.991267+00:00",
+        "id": 21927145,
+        "conceptrecid": "21921844",
+        "doi": "10.5281/zenodo.21927145",
+        "conceptdoi": "10.5281/zenodo.21921844",
+        "doi_url": "https://doi.org/10.5281/zenodo.21927145",
+        "metadata": {
+          "title": "Open Logic Project — Türkçe Tam Sürüm / Complete Turkish Edition (OLP-0722, 722/722)",
+          "doi": "10.5281/zenodo.21927145",
+          "publication_date": "2026-08-14",
+          "description": "<p><strong>Complete Turkish edition:</strong> all 722/722 frozen Open Logic Project content modules are translated. The 1,037-page linked reader covers the 642 canonical-reader-reachable modules; 80 retained non-reader modules remain in the editable corpus and are explicitly outside build/render applicability. Frozen authority: commit <code>9620cc73f9c8e0ad003c514a5d3748f29611c4c0</code>, tree <code>f67757bb9305b173634082ab4cefd5601a707a34</code>, under CC BY 4.0.</p><p>All 722 targets passed aggregate exact-source, structural, and model-review admission. The 642 reader-reachable targets additionally passed a deterministic build with exit code 0 and zero missing-character or unresolved-reference/citation diagnostics, complete text-layer residue scans, and all-page visual inspection; build/render are not applicable to the 80 retained non-reader targets. The editable-source and evidence packages preserve terminology, translation decisions, source-backed emendations, build/render receipts, target hashes, closure records, DOI methodology, and Turkic interlanguage research notes.</p><p>Exact release DOI: <a href=\"https://doi.org/10.5281/zenodo.21927145\">10.5281/zenodo.21927145</a>. Stable Turkish concept DOI: <a href=\"https://doi.org/10.5281/zenodo.21921844\">10.5281/zenodo.21921844</a>.</p><p>Performed at Floris's direction by \"OpenAI 5.6 Sol, Ultra mode\" (\"OpenAI's current flagship model for complex work\"). Human or native review is not a release gate.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Open Logic Project",
+              "affiliation": null
+            }
+          ],
+          "contributors": [
+            {
+              "name": "OpenAI 5.6 Sol, Ultra mode",
+              "affiliation": null,
+              "type": "Other"
+            }
+          ],
+          "keywords": [
+            "Open Logic Project",
+            "Açık Mantık Projesi",
+            "Turkish",
+            "Türkçe",
+            "translation",
+            "mathematical logic",
+            "open textbook"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/OpenLogicProject/OpenLogic/commit/9620cc73f9c8e0ad003c514a5d3748f29611c4c0",
+              "relation": "isDerivedFrom",
+              "resource_type": "software",
+              "scheme": "url"
+            },
+            {
+              "identifier": "https://github.com/KokunoYumeto/OpenLogic-tr",
+              "relation": "isSupplementTo",
+              "resource_type": "software",
+              "scheme": "url"
+            }
+          ],
+          "version": "OLP-0722-20260814",
+          "language": "tur",
+          "resource_type": {
+            "title": "Book",
+            "type": "publication",
+            "subtype": "book"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 1,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21921844"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Open Logic Project — Türkçe Tam Sürüm / Complete Turkish Edition (OLP-0722, 722/722)",
+        "links": {
+          "self": "https://zenodo.org/api/records/21927145",
+          "self_html": "https://zenodo.org/records/21927145",
+          "preview_html": "https://zenodo.org/records/21927145?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21927145",
+          "self_doi": "https://doi.org/10.5281/zenodo.21927145",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21927145",
+          "reserve_doi": "https://zenodo.org/api/records/21927145/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21921844",
+          "parent_html": "https://zenodo.org/records/21921844",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21921844",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21921844",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21927145/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21927145/sequence/default",
+          "files": "https://zenodo.org/api/records/21927145/files",
+          "media_files": "https://zenodo.org/api/records/21927145/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21927145:00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21927145:00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21927145:00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21927145:00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21927145:00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21927145:00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21927145/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21927145/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21927145/versions/latest",
+          "latest_html": "https://zenodo.org/records/21927145/latest",
+          "versions": "https://zenodo.org/api/records/21927145/versions",
+          "draft": "https://zenodo.org/api/records/21927145/draft",
+          "access_links": "https://zenodo.org/api/records/21927145/access/links",
+          "access_grants": "https://zenodo.org/api/records/21927145/access/grants",
+          "access_users": "https://zenodo.org/api/records/21927145/access/users",
+          "access_request": "https://zenodo.org/api/records/21927145/access/request",
+          "access": "https://zenodo.org/api/records/21927145/access",
+          "communities": "https://zenodo.org/api/records/21927145/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21927145/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21927145/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21927145/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21927145/quota-increase",
+          "requests": "https://zenodo.org/api/records/21927145/requests"
+        },
+        "updated": "2026-08-14T04:00:06.991267+00:00",
+        "recid": "21927145",
+        "revision": 4,
+        "files": [
+          {
+            "id": "fba51564-0196-470f-a0a8-422f0fdfae2f",
+            "key": "01_OPENLOGIC_tr_EDITABLE_SOURCES_OLP-0722.zip",
+            "size": 1631874,
+            "checksum": "md5:88715bf630133e8667f1934e205100d9",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927145/files/01_OPENLOGIC_tr_EDITABLE_SOURCES_OLP-0722.zip/content"
+            }
+          },
+          {
+            "id": "773b2ae1-7c0e-45a1-8ae7-663e955aae50",
+            "key": "02_OPENLOGIC_tr_EVIDENCE_AND_PROVENANCE_OLP-0722.zip",
+            "size": 5120364,
+            "checksum": "md5:2e406b9a66945a35ac04f9b5c03d0764",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927145/files/02_OPENLOGIC_tr_EVIDENCE_AND_PROVENANCE_OLP-0722.zip/content"
+            }
+          },
+          {
+            "id": "4c33241b-da57-49a3-bcb6-2319a1d3c148",
+            "key": "00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf",
+            "size": 5470171,
+            "checksum": "md5:accf27387a7cf3ea7e38cd2e4f73687e",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927145/files/00_OPENLOGIC_tr_COMPLETE_LINKED_READER_OLP-0722.pdf/content"
+            }
+          },
+          {
+            "id": "bae6203c-380b-4a2d-9867-c049833c832b",
+            "key": "03_OPENLOGIC_tr_SHA256_MANIFEST_OLP-0722.txt",
+            "size": 393,
+            "checksum": "md5:bda643fc78cf005cc9b9a7d36adc1631",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927145/files/03_OPENLOGIC_tr_SHA256_MANIFEST_OLP-0722.txt/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1299477"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 5,
+          "unique_downloads": 5,
+          "views": 1,
+          "unique_views": 1,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T03:55:46.226196+00:00",
+        "modified": "2026-08-14T03:55:46.684177+00:00",
+        "id": 21926607,
+        "conceptrecid": "21389180",
+        "doi": "10.5281/zenodo.21926607",
+        "conceptdoi": "10.5281/zenodo.21389180",
+        "doi_url": "https://doi.org/10.5281/zenodo.21926607",
+        "metadata": {
+          "title": "Supplementary data for: Ecological sorting of ancient RuBisCO lineages structures Earth's microbial carbon-fixation potential",
+          "doi": "10.5281/zenodo.21926607",
+          "publication_date": "2026-08-14",
+          "description": "<p>This dataset contains supplementary data and analysis files supporting the manuscript &ldquo;Ecological sorting of ancient RuBisCO lineages structures Earth&rsquo;s microbial carbon-fixation potential.&rdquo; The files include curated genome metadata, habitat annotations, functional profiles, RbcL sequences and alignments, phylogenetic trees, residue-level metrics, predicted RbcL structural models, COM-derived structural descriptors, <strong>ancestral-state reconstruction analyses of RbcL-associated metabolic traits</strong>, phylogenetic signal analyses, PGLS model outputs, and bacterial&ndash;eukaryotic Form I reference analyses. <strong>The updated version additionally includes Datasets S7, containing the trait matrix, rooted RbcL tree, ancestral-state likelihood estimates, key-node summaries, and sensitivity analyses underlying the ancestral-state reconstructions.</strong></p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Pi, Hong-Wei",
+              "affiliation": "National Chung Hsing University",
+              "orcid": "0000-0001-5811-5802"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 1,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21389180"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Supplementary data for: Ecological sorting of ancient RuBisCO lineages structures Earth's microbial carbon-fixation potential",
+        "links": {
+          "self": "https://zenodo.org/api/records/21926607",
+          "self_html": "https://zenodo.org/records/21926607",
+          "preview_html": "https://zenodo.org/records/21926607?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21926607",
+          "self_doi": "https://doi.org/10.5281/zenodo.21926607",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21926607",
+          "reserve_doi": "https://zenodo.org/api/records/21926607/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21389180",
+          "parent_html": "https://zenodo.org/records/21389180",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21389180",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21389180",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21926607/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21926607/sequence/default",
+          "files": "https://zenodo.org/api/records/21926607/files",
+          "media_files": "https://zenodo.org/api/records/21926607/media-files",
+          "archive": "https://zenodo.org/api/records/21926607/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21926607/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21926607/versions/latest",
+          "latest_html": "https://zenodo.org/records/21926607/latest",
+          "versions": "https://zenodo.org/api/records/21926607/versions",
+          "draft": "https://zenodo.org/api/records/21926607/draft",
+          "access_links": "https://zenodo.org/api/records/21926607/access/links",
+          "access_grants": "https://zenodo.org/api/records/21926607/access/grants",
+          "access_users": "https://zenodo.org/api/records/21926607/access/users",
+          "access_request": "https://zenodo.org/api/records/21926607/access/request",
+          "access": "https://zenodo.org/api/records/21926607/access",
+          "communities": "https://zenodo.org/api/records/21926607/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21926607/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21926607/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21926607/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21926607/quota-increase",
+          "requests": "https://zenodo.org/api/records/21926607/requests"
+        },
+        "updated": "2026-08-14T03:55:46.684177+00:00",
+        "recid": "21926607",
+        "revision": 4,
+        "files": [
+          {
+            "id": "d555d320-86ba-488e-aa0e-d80ab14cfe0d",
+            "key": "Datasets S7.zip",
+            "size": 492193,
+            "checksum": "md5:84af8f15cb61d71ebab552a55b3dd7a5",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926607/files/Datasets%20S7.zip/content"
+            }
+          },
+          {
+            "id": "b73a3a50-6a6e-4bbd-afd1-afc15223af2a",
+            "key": "Datasets S3.zip",
+            "size": 7555610,
+            "checksum": "md5:302e48476b0b9ce377063ad602c4a2a1",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926607/files/Datasets%20S3.zip/content"
+            }
+          },
+          {
+            "id": "ba2b0d42-daf2-4b1a-9e01-cc375c7e5631",
+            "key": "Datasets S5.xlsx",
+            "size": 238796,
+            "checksum": "md5:f29861c7daaeed15475341d82707c189",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926607/files/Datasets%20S5.xlsx/content"
+            }
+          },
+          {
+            "id": "7b17164a-97d3-4bdf-a109-bc650b497f75",
+            "key": "Datasets S2.zip",
+            "size": 18694793,
+            "checksum": "md5:2649863038adacb23d8d2272ea7ae58c",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926607/files/Datasets%20S2.zip/content"
+            }
+          },
+          {
+            "id": "bb73b2ed-6208-4dc6-b62e-e47eed5518d0",
+            "key": "Datasets S4.zip",
+            "size": 179018527,
+            "checksum": "md5:00adf36c25270d19e1c143d7ab54da84",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926607/files/Datasets%20S4.zip/content"
+            }
+          },
+          {
+            "id": "7dfa81ed-76f7-4c56-9eea-ec0e52db3dc0",
+            "key": "Datasets S1.xlsx",
+            "size": 178008123,
+            "checksum": "md5:18c77164987a45e6fd27983fad7a27dc",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926607/files/Datasets%20S1.xlsx/content"
+            }
+          },
+          {
+            "id": "44c152d2-b27c-499e-8d70-2a1731069bfe",
+            "key": "Datasets S6.zip",
+            "size": 3054885,
+            "checksum": "md5:36eafde455b33c281ca137a1b1a471f7",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926607/files/Datasets%20S6.zip/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1391737"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 4,
+          "unique_downloads": 4,
+          "views": 13,
+          "unique_views": 10,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T03:47:53.081444+00:00",
+        "modified": "2026-08-14T03:47:53.271118+00:00",
+        "id": 21927536,
+        "conceptrecid": "19217003",
+        "doi": "10.5281/zenodo.21927536",
+        "conceptdoi": "10.5281/zenodo.19217003",
+        "doi_url": "https://doi.org/10.5281/zenodo.21927536",
+        "metadata": {
+          "title": "Dynamic Response Suppression in Metamaterials: Structural Design, Mechanisms, and Transmissibility",
+          "doi": "10.5281/zenodo.21927536",
+          "publication_date": "2026-08-14",
+          "description": "<p>This dataset provides the primary supporting data for our latest review paper, \"<strong>Dynamic Response Suppression in Metamaterials: Structural Design, Mechanisms, and Transmissibility\".</strong></p>\n<p>The literature-derived data are compiled in&nbsp;<strong>ZenodoDataset_Updated.xlsx</strong>, which includes detailed informantion extracted from the reviewed studies, such as bandgap data from Bloch-based dispersion analyses, transmissibility-based bandgaps, experimental validation details, and material specifications.&nbsp;</p>\n<p>The file <strong>Sec3_Plots.py</strong> serves as the script to generate <em>Figure 10 to 12</em> in our paper. All corresponding data points have been listed directly in the script, allowing readers to reproduce the unprocessed Ashby plots by running the code in a Python environment.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Song, Qinze",
+              "affiliation": "New York University",
+              "orcid": "0009-0002-7226-477X"
+            },
+            {
+              "name": "Karathanasopoulos, Nikolaos",
+              "affiliation": "NYU Polytechnic School of Engineering",
+              "orcid": "0000-0001-7145-8631"
+            },
+            {
+              "name": "Singh, Agyapal",
+              "affiliation": "New York University Abu Dhabi"
+            }
+          ],
+          "keywords": [
+            "Vibration Attenuation",
+            "Metamaterials",
+            "Architected Materials",
+            "Dynamic Mechanics"
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Manuscripting in March"
+            }
+          ],
+          "language": "eng",
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "journal": {
+            "title": "Materials and Design"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 2,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "19217003"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Dynamic Response Suppression in Metamaterials: Structural Design, Mechanisms, and Transmissibility",
+        "links": {
+          "self": "https://zenodo.org/api/records/21927536",
+          "self_html": "https://zenodo.org/records/21927536",
+          "preview_html": "https://zenodo.org/records/21927536?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21927536",
+          "self_doi": "https://doi.org/10.5281/zenodo.21927536",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21927536",
+          "reserve_doi": "https://zenodo.org/api/records/21927536/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/19217003",
+          "parent_html": "https://zenodo.org/records/19217003",
+          "parent_doi": "https://doi.org/10.5281/zenodo.19217003",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19217003",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21927536/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21927536/sequence/default",
+          "files": "https://zenodo.org/api/records/21927536/files",
+          "media_files": "https://zenodo.org/api/records/21927536/media-files",
+          "archive": "https://zenodo.org/api/records/21927536/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21927536/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21927536/versions/latest",
+          "latest_html": "https://zenodo.org/records/21927536/latest",
+          "versions": "https://zenodo.org/api/records/21927536/versions",
+          "draft": "https://zenodo.org/api/records/21927536/draft",
+          "access_links": "https://zenodo.org/api/records/21927536/access/links",
+          "access_grants": "https://zenodo.org/api/records/21927536/access/grants",
+          "access_users": "https://zenodo.org/api/records/21927536/access/users",
+          "access_request": "https://zenodo.org/api/records/21927536/access/request",
+          "access": "https://zenodo.org/api/records/21927536/access",
+          "communities": "https://zenodo.org/api/records/21927536/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21927536/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21927536/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21927536/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21927536/quota-increase",
+          "requests": "https://zenodo.org/api/records/21927536/requests"
+        },
+        "updated": "2026-08-14T03:47:53.271118+00:00",
+        "recid": "21927536",
+        "revision": 4,
+        "files": [
+          {
+            "id": "77bebbb5-d0a9-4a3b-a366-ec0f100cb27a",
+            "key": "Sec3_Plots.py",
+            "size": 47850,
+            "checksum": "md5:6b7eae2170d600d47a842fc29c47394f",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927536/files/Sec3_Plots.py/content"
+            }
+          },
+          {
+            "id": "3a4f24c8-749e-4f45-89fb-e7b61e7c9fde",
+            "key": "ZenodoDatabase_Updated_V3.xlsx",
+            "size": 45293,
+            "checksum": "md5:ea57253f62516b61e78fa8d5efd90ed7",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927536/files/ZenodoDatabase_Updated_V3.xlsx/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1306220"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 31,
+          "unique_downloads": 31,
+          "views": 37,
+          "unique_views": 34,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      }
+    ],
+    "total": 176299
+  },
+  "aggregations": {
+    "publication_date": {
+      "buckets": [
+        {
+          "key": "2000",
+          "doc_count": 86,
+          "label": "2000",
+          "is_selected": false
+        },
+        {
+          "key": "2001",
+          "doc_count": 129,
+          "label": "2001",
+          "is_selected": false
+        },
+        {
+          "key": "2002",
+          "doc_count": 146,
+          "label": "2002",
+          "is_selected": false
+        },
+        {
+          "key": "2003",
+          "doc_count": 242,
+          "label": "2003",
+          "is_selected": false
+        },
+        {
+          "key": "2004",
+          "doc_count": 188,
+          "label": "2004",
+          "is_selected": false
+        },
+        {
+          "key": "2005",
+          "doc_count": 253,
+          "label": "2005",
+          "is_selected": false
+        },
+        {
+          "key": "2006",
+          "doc_count": 299,
+          "label": "2006",
+          "is_selected": false
+        },
+        {
+          "key": "2007",
+          "doc_count": 409,
+          "label": "2007",
+          "is_selected": false
+        },
+        {
+          "key": "2008",
+          "doc_count": 479,
+          "label": "2008",
+          "is_selected": false
+        },
+        {
+          "key": "2009",
+          "doc_count": 575,
+          "label": "2009",
+          "is_selected": false
+        },
+        {
+          "key": "2010",
+          "doc_count": 658,
+          "label": "2010",
+          "is_selected": false
+        },
+        {
+          "key": "2011",
+          "doc_count": 872,
+          "label": "2011",
+          "is_selected": false
+        },
+        {
+          "key": "2012",
+          "doc_count": 802,
+          "label": "2012",
+          "is_selected": false
+        },
+        {
+          "key": "2013",
+          "doc_count": 1068,
+          "label": "2013",
+          "is_selected": false
+        },
+        {
+          "key": "2014",
+          "doc_count": 1520,
+          "label": "2014",
+          "is_selected": false
+        },
+        {
+          "key": "2015",
+          "doc_count": 1863,
+          "label": "2015",
+          "is_selected": false
+        },
+        {
+          "key": "2016",
+          "doc_count": 1869,
+          "label": "2016",
+          "is_selected": false
+        },
+        {
+          "key": "2017",
+          "doc_count": 2975,
+          "label": "2017",
+          "is_selected": false
+        },
+        {
+          "key": "2018",
+          "doc_count": 3257,
+          "label": "2018",
+          "is_selected": false
+        },
+        {
+          "key": "2019",
+          "doc_count": 3820,
+          "label": "2019",
+          "is_selected": false
+        },
+        {
+          "key": "2020",
+          "doc_count": 4131,
+          "label": "2020",
+          "is_selected": false
+        },
+        {
+          "key": "2021",
+          "doc_count": 5451,
+          "label": "2021",
+          "is_selected": false
+        },
+        {
+          "key": "2022",
+          "doc_count": 5757,
+          "label": "2022",
+          "is_selected": false
+        },
+        {
+          "key": "2023",
+          "doc_count": 7090,
+          "label": "2023",
+          "is_selected": false
+        },
+        {
+          "key": "2024",
+          "doc_count": 8666,
+          "label": "2024",
+          "is_selected": false
+        },
+        {
+          "key": "2025",
+          "doc_count": 34353,
+          "label": "2025",
+          "is_selected": false
+        },
+        {
+          "key": "2026",
+          "doc_count": 87277,
+          "label": "2026",
+          "is_selected": false
+        }
+      ],
+      "label": "Publication date"
+    },
+    "access_status": {
+      "buckets": [
+        {
+          "key": "open",
+          "doc_count": 166863,
+          "label": "Open",
+          "is_selected": false
+        },
+        {
+          "key": "restricted",
+          "doc_count": 8877,
+          "label": "Restricted",
+          "is_selected": false
+        },
+        {
+          "key": "embargoed",
+          "doc_count": 559,
+          "label": "Embargoed",
+          "is_selected": false
+        }
+      ],
+      "label": "Access status"
+    },
+    "resource_type": {
+      "buckets": [
+        {
+          "key": "publication",
+          "doc_count": 149929,
+          "label": "Publication",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "publication-article",
+                "doc_count": 56742,
+                "label": "Journal article",
+                "is_selected": false
+              },
+              {
+                "key": "publication-preprint",
+                "doc_count": 44247,
+                "label": "Preprint",
+                "is_selected": false
+              },
+              {
+                "key": "publication-report",
+                "doc_count": 6040,
+                "label": "Report",
+                "is_selected": false
+              },
+              {
+                "key": "publication-conferencepaper",
+                "doc_count": 4665,
+                "label": "Conference paper",
+                "is_selected": false
+              },
+              {
+                "key": "publication-workingpaper",
+                "doc_count": 4595,
+                "label": "Working paper",
+                "is_selected": false
+              },
+              {
+                "key": "publication-dissertation",
+                "doc_count": 2511,
+                "label": "Thesis",
+                "is_selected": false
+              },
+              {
+                "key": "publication-book",
+                "doc_count": 2369,
+                "label": "Book",
+                "is_selected": false
+              },
+              {
+                "key": "publication-taxonomictreatment",
+                "doc_count": 2301,
+                "label": "Taxonomic treatment",
+                "is_selected": false
+              },
+              {
+                "key": "publication-other",
+                "doc_count": 1679,
+                "label": "Other",
+                "is_selected": false
+              },
+              {
+                "key": "publication-journal",
+                "doc_count": 1644,
+                "label": "Journal",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "dataset",
+          "doc_count": 14297,
+          "label": "Dataset",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "software",
+          "doc_count": 4472,
+          "label": "Software",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "software-computationalnotebook",
+                "doc_count": 207,
+                "label": "Computational notebook",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "image",
+          "doc_count": 2079,
+          "label": "Image",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "image-figure",
+                "doc_count": 1669,
+                "label": "Figure",
+                "is_selected": false
+              },
+              {
+                "key": "image-diagram",
+                "doc_count": 66,
+                "label": "Diagram",
+                "is_selected": false
+              },
+              {
+                "key": "image-photo",
+                "doc_count": 39,
+                "label": "Photo",
+                "is_selected": false
+              },
+              {
+                "key": "image-other",
+                "doc_count": 36,
+                "label": "Other",
+                "is_selected": false
+              },
+              {
+                "key": "image-plot",
+                "doc_count": 18,
+                "label": "Plot",
+                "is_selected": false
+              },
+              {
+                "key": "image-drawing",
+                "doc_count": 17,
+                "label": "Drawing",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "other",
+          "doc_count": 1855,
+          "label": "Other",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "presentation",
+          "doc_count": 1453,
+          "label": "Presentation",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "model",
+          "doc_count": 762,
+          "label": "Model",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "poster",
+          "doc_count": 660,
+          "label": "Poster",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "lesson",
+          "doc_count": 314,
+          "label": "Lesson",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "video",
+          "doc_count": 179,
+          "label": "Video/Audio",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        }
+      ],
+      "label": "Resource types"
+    },
+    "subject": {
+      "buckets": [
+        {
+          "key": "Biodiversity",
+          "doc_count": 7823,
+          "label": "Biodiversity",
+          "is_selected": false
+        },
+        {
+          "key": "Taxonomy",
+          "doc_count": 7408,
+          "label": "Taxonomy",
+          "is_selected": false
+        },
+        {
+          "key": "Animalia",
+          "doc_count": 4098,
+          "label": "Animalia",
+          "is_selected": false
+        },
+        {
+          "key": "Arthropoda",
+          "doc_count": 2267,
+          "label": "Arthropoda",
+          "is_selected": false
+        },
+        {
+          "key": "Insecta",
+          "doc_count": 1852,
+          "label": "Insecta",
+          "is_selected": false
+        },
+        {
+          "key": "Artificial Intelligence",
+          "doc_count": 1704,
+          "label": "Artificial Intelligence",
+          "is_selected": false
+        },
+        {
+          "key": "artificial intelligence",
+          "doc_count": 1315,
+          "label": "artificial intelligence",
+          "is_selected": false
+        },
+        {
+          "key": "Quantum physics",
+          "doc_count": 1200,
+          "label": "Quantum physics",
+          "is_selected": false
+        },
+        {
+          "key": "Mathematical physics",
+          "doc_count": 1191,
+          "label": "Mathematical physics",
+          "is_selected": false
+        },
+        {
+          "key": "Theoretical physics",
+          "doc_count": 1164,
+          "label": "Theoretical physics",
+          "is_selected": false
+        }
+      ],
+      "label": "Subjects"
+    },
+    "file_type": {
+      "buckets": [
+        {
+          "key": "pdf",
+          "doc_count": 137556,
+          "label": "PDF",
+          "is_selected": false
+        },
+        {
+          "key": "zip",
+          "doc_count": 11480,
+          "label": "ZIP",
+          "is_selected": false
+        },
+        {
+          "key": "docx",
+          "doc_count": 6390,
+          "label": "DOCX",
+          "is_selected": false
+        },
+        {
+          "key": "txt",
+          "doc_count": 4859,
+          "label": "TXT",
+          "is_selected": false
+        },
+        {
+          "key": "html",
+          "doc_count": 4532,
+          "label": "HTML",
+          "is_selected": false
+        },
+        {
+          "key": "md",
+          "doc_count": 3928,
+          "label": "MD",
+          "is_selected": false
+        },
+        {
+          "key": "png",
+          "doc_count": 3870,
+          "label": "PNG",
+          "is_selected": false
+        },
+        {
+          "key": "xlsx",
+          "doc_count": 2614,
+          "label": "XLSX",
+          "is_selected": false
+        },
+        {
+          "key": "tex",
+          "doc_count": 2404,
+          "label": "TEX",
+          "is_selected": false
+        },
+        {
+          "key": "csv",
+          "doc_count": 2302,
+          "label": "CSV",
+          "is_selected": false
+        }
+      ],
+      "label": "File type"
+    }
+  },
+  "links": {
+    "self": "https://zenodo.org/api/records?page=1&q=structural+realism+constants&size=8&sort=mostrecent",
+    "next": "https://zenodo.org/api/records?page=2&q=structural+realism+constants&size=8&sort=mostrecent"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "query": "all:\"laws of form\" AND all:\"self-reference\"",
+  "max_results": 8,
+  "fetched": "2026-08-14T05:49:38Z",
+  "raw": "<?xml version='1.0' encoding='UTF-8'?>\n<feed xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:arxiv=\"http://arxiv.org/schemas/atom\" xmlns=\"http://www.w3.org/2005/Atom\">\n  <id>https://arxiv.org/api/YP2siQpnSygyjAHWOkPXkw5s3xg</id>\n  <title>arXiv Query: search_query=all:\"laws of form\" AND all:\"self-reference\"&amp;id_list=&amp;start=0&amp;max_results=8</title>\n  <updated>2026-08-14T05:49:36Z</updated>\n  <link href=\"https://arxiv.org/api/query?search_query=all:%22laws+of+form%22+AND+all:%22self-reference%22&amp;start=0&amp;max_results=8&amp;id_list=\" type=\"application/atom+xml\"/>\n  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>\n  <opensearch:totalResults>0</opensearch:totalResults>\n  <opensearch:startIndex>0</opensearch:startIndex>\n</feed>\n"
+}

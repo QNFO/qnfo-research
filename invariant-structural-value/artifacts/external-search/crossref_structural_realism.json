@@ -1,0 +1,4367 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5095899,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2026-04-06T18:28:52Z",
+          "timestamp": 1775500132308,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Oxford University Press",
+        "isbn-type": [
+          {
+            "value": "9780199276196",
+            "type": "print"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              6,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1093/acprof:oso/9780199276196.003.0003",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              9,
+              18
+            ]
+          ],
+          "date-time": "2007-09-18T10:06:31Z",
+          "timestamp": 1190109991000
+        },
+        "page": "130-189",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "Ontic Structural Realism and the Philosophy of Physics"
+        ],
+        "prefix": "10.1093",
+        "author": [
+          {
+            "given": "James",
+            "family": "Ladyman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Don",
+            "family": "Ross",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "David",
+            "family": "Spurrett",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "John",
+            "family": "Collier",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "container-title": [
+          "Every Thing Must Go"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              2
+            ]
+          ],
+          "date-time": "2022-08-02T23:45:06Z",
+          "timestamp": 1659483906000
+        },
+        "score": 27.102478,
+        "resource": {
+          "primary": {
+            "URL": "https://academic.oup.com/book/8595/chapter/154518533"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2007,
+              6,
+              1
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780199276196"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1093/acprof:oso/9780199276196.003.0003",
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              6,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T20:30:15Z",
+          "timestamp": 1782937815555,
+          "version": "3.54.5"
+        },
+        "edition-number": "1",
+        "reference-count": 85,
+        "publisher": "Oxford University PressNew York, NY",
+        "isbn-type": [
+          {
+            "value": "9780197859131",
+            "type": "electronic"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1093/obo/9780195396577-0154",
+        "type": "reference-entry",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              12
+            ]
+          ],
+          "date-time": "2013-06-12T13:01:09Z",
+          "timestamp": 1371042069000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "Structural Realism"
+        ],
+        "prefix": "10.1093",
+        "author": [
+          {
+            "given": "James",
+            "family": "Ladyman",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Professor, Philosophy, University of Bristol"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "reference": [
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0001",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/289080",
+            "article-title": "In Defense of Convergent Realism.",
+            "author": "",
+            "year": "1982",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0002",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0039-3681(98)80129-5",
+            "article-title": "What is Structural Realism?",
+            "author": "",
+            "year": "1998",
+            "journal-title": "Studies in History and Philosophy of Science, Part A"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0003",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/288975",
+            "article-title": "A Confutation of Convergent Realism.",
+            "author": "",
+            "year": "1981",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0004",
+            "volume-title": "Scientific Realism: How Science Tracks Truth",
+            "author": "",
+            "year": "1999"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0005",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511622847",
+            "volume-title": "From Physics to Metaphysics",
+            "author": "",
+            "year": "1995"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0006",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/377377",
+            "article-title": "No Refuge for Realism: Selective Confirmation and the History of Science.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0007",
+            "article-title": "Pyrrhic Victories for Scientific Realism.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Journal of Philosophy"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0008",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1746-8361.1989.tb00933.x",
+            "article-title": "Structural Realism: The Best of Both Worlds?",
+            "author": "",
+            "year": "1989",
+            "journal-title": "Dialectica"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0009",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bain, Jonathan, and John D. Norton. “What Should Philosophers of Science Learn from the History of the Electron?” In Histories of the Electron: The Birth of Microphysics. Edited by Jed Z. Buchwald and Andrew Warwick, 451–465. Cambridge, MA: MIT Press, 2001.",
+            "DOI": "10.7551/mitpress/3526.003.0022"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0010",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/508976",
+            "article-title": "Structural Distinctions: Entities, Structures, and Changes in Science.",
+            "author": "",
+            "year": "2005",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0011",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/377376",
+            "article-title": "Preservative Realism and Its Discontents: Revisiting Caloric.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0012",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-94-017-1185-2",
+            "volume-title": "Correspondence, Invariance and Heuristics: Essays in Honour of Heinz Post",
+            "author": "",
+            "year": "1993"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0013",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0039-3681(71)90042-2",
+            "article-title": "Correspondence, Invariance and Heuristics.",
+            "author": "",
+            "year": "1971",
+            "journal-title": "Studies in History and Philosophy of Science, Part A"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0014",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsa.2005.07.007",
+            "article-title": "Reconsidering the Fresnel–Maxwell Theory Shift: How the Realist Can Have Her Cake and EAT It Too.",
+            "author": "",
+            "year": "2005",
+            "journal-title": "Studies in History and Philosophy of Science, Part A"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0015",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Saunders, Simon. “To What Physics Corresponds.” In Correspondence, Invariance and Heuristics: Essays in Honour of Heinz Post. Edited by Steven French and Harmke Kamminga, 295–325. Boston Studies in the Philosophy of Science 148. Dordrecht, The Netherlands, and Boston: Kluwer Academic, 1993.10.1007/978-94-017-1185-2_15",
+            "DOI": "10.1007/978-94-017-1185-2_15"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0016",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axn049",
+            "article-title": "When Empirical Success Implies Theoretical Reference: A Structural Correspondence Theorem.",
+            "author": "",
+            "year": "2009",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0017",
+            "unstructured": "French, Steven, and James Ladyman. “In Defence of Ontic Structural Realism.” In Scientific Structuralism. Edited by Alisa Bokulich and Peter Bokulich, 25–42. Boston Studies in the Philosophy of Science 281. Dordrecht, The Netherlands: Springer, 2011.10.1007/978-90-481-9597-8"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0018",
+            "article-title": "Science, Metaphysics and Structural Realism.",
+            "author": "",
+            "year": "2002",
+            "journal-title": "Philosophica"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0019",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780199276196.001.0001",
+            "volume-title": "Every Thing Must Go: Metaphysics Naturalized",
+            "author": "",
+            "year": "2007"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0020",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s13194-011-0025-7",
+            "article-title": "Everything You Always Wanted to Know About Structural Realism but Were Afraid to Ask.",
+            "author": "",
+            "year": "2011",
+            "journal-title": "European Journal for Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0021",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/B:SYNT.0000047712.39407.c3",
+            "article-title": "On the Preferability of Epistemic Structural Realism.",
+            "author": "",
+            "year": "2004",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0022",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/508974",
+            "article-title": "The Upward Path to Structural Realism.",
+            "author": "",
+            "year": "2005",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0023",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S1358246107000173",
+            "article-title": "Miracles and Models: Why Reports of the Death of Structural Realism May Be Exaggerated.",
+            "author": "",
+            "year": "2007",
+            "journal-title": "Royal Institute of Philosophy Supplements"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0024",
+            "volume-title": "Why Science Needs Metaphysics: A Plea for Structural Realism",
+            "author": "",
+            "year": "2007"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0025",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsa.2006.09.006",
+            "article-title": "Looking for Structure in all the Wrong Places: Ramsey Sentences, Multiple Realisability, and Structure.",
+            "author": "",
+            "year": "2006",
+            "journal-title": "Studies in History and Philosophy of Science, Part A"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0026",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsa.2005.07.006",
+            "article-title": "Ramsey Sentences, Structural Realism and Trivial Realization.",
+            "author": "",
+            "year": "2005",
+            "journal-title": "Studies in History and Philosophy of Science, Part A"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0027",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axq021",
+            "article-title": "Three Views of Theoretical Knowledge.",
+            "author": "",
+            "year": "2011",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0028",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/2025109",
+            "article-title": "Underdetermination: Craig and Ramsey.",
+            "author": "",
+            "year": "1973",
+            "journal-title": "Journal of Philosophy"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0029",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11229-009-9604-y",
+            "article-title": "Carnap on Theoretical Terms: Structuralism Without Metaphysics.",
+            "author": "",
+            "year": "2011",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0030",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/2023861",
+            "article-title": "How to Define Theoretical Terms.",
+            "author": "",
+            "year": "1970",
+            "journal-title": "Journal of Philosophy"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0031",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lewis, David Kellogg. “Ramseyan Humility.” In Conceptual Analysis and Philosophical Naturalism. Edited by David Braddon-Mitchell and Robert Nola, 203–222. Cambridge, MA: MIT Press, 2009.",
+            "DOI": "10.7551/mitpress/7507.003.0012"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0032",
+            "unstructured": "Zahar, Elie. “Ramseyfication and Structural Realism.” In Poincaré’s Philosophy: From Conventionalism to Phenomenology. By Elie Zahar, 236–251. Chicago: Open Court, 2001."
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0033",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axn051",
+            "article-title": "Newman’s Objection.",
+            "author": "",
+            "year": "2009",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0034",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/289281",
+            "author": "",
+            "year": "1985",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0035",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/55.2.287",
+            "article-title": "Empirical Adequacy and Ramsification.",
+            "author": "",
+            "year": "2004",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0036",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axl020",
+            "article-title": "Ramseyfication and Theoretical Content.",
+            "author": "",
+            "year": "2006",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0037",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/mind/XXXVII.146.137",
+            "author": "",
+            "year": "1928",
+            "journal-title": "Mind"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0038",
+            "volume-title": "The Analysis of Matter",
+            "author": "",
+            "year": "2007"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0039",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/289505",
+            "article-title": "An Addendum to Demopoulos and Friedman.",
+            "author": "",
+            "year": "1989",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0040",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/377374",
+            "article-title": "Is Structure Not Enough?",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0041",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/518327",
+            "article-title": "Scientific Structuralism: Presentation and Representation.",
+            "author": "",
+            "year": "2006",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0042",
+            "article-title": "What is Structural Empiricism? Scientific Change in an Empiricist Setting.",
+            "author": "",
+            "year": "1999",
+            "journal-title": "Erkenntnis"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0043",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/02698599908573612",
+            "article-title": "Reinflating the Semantic Approach.",
+            "author": "",
+            "year": "1999",
+            "journal-title": "International Studies in the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0044",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axl002",
+            "article-title": "Structure: Its Shadow and Substance.",
+            "author": "",
+            "year": "2006",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0045",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1467-8349.2007.00150.x",
+            "article-title": "Scientific Structuralism: Structuralism(s) About Science: Some Common Problems.",
+            "author": "",
+            "year": "2007",
+            "journal-title": "Aristotelian Society Supplementary Volume"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0046",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780199278220.001.0001",
+            "volume-title": "Scientific Representation: Paradoxes of Perspective",
+            "author": "",
+            "year": "2008"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0047",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1024112417545",
+            "article-title": "Can We Dissolve Physical Entities into Mathematical Structures?",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0048",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1024139713910",
+            "article-title": "Structural Realism and the Interpretation of Quantum Field Theory.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0049",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1024116502524",
+            "article-title": "The Dissolution of Objects: Between Platonism and Phenomenalism.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0050",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1024156116636",
+            "article-title": "Remodelling Structural Realism: Quantum Physics and the Metaphysics of Structure.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0051",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S1355-2198(03)00067-4",
+            "article-title": "The Priority of Internal Symmetries in Particle Physics.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0052",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsb.2004.07.004",
+            "author": "",
+            "year": "2004",
+            "journal-title": "Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0053",
+            "volume-title": "The Structure and Interpretation of the Standard Model",
+            "author": "",
+            "year": "2007"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0054",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1024180822088",
+            "article-title": "Structural Realism, Again.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0055",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsb.2004.04.008",
+            "article-title": "Quantum Entanglement and a Metaphysics of Relations.",
+            "author": "",
+            "year": "2004",
+            "journal-title": "Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0056",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00048408912343951",
+            "article-title": "Identity and Individuality in Classical and Quantum Physics.",
+            "author": "",
+            "year": "1989",
+            "journal-title": "Australasian Journal of Philosophy"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0057",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/39.2.233",
+            "article-title": "Quantum Physics and the Identity of Indiscernibles.",
+            "author": "",
+            "year": "1988",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0058",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axq009",
+            "article-title": "Group Structural Realism.",
+            "author": "",
+            "year": "2011",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0059",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S1355-2198(02)00085-0",
+            "article-title": "Everett and Structure.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0060",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsb.2003.10.004",
+            "article-title": "Theories of Newtonian Gravity and Empirical Indistinguishability.",
+            "author": "",
+            "year": "2004",
+            "journal-title": "Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0061",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/45.1.265",
+            "article-title": "On Dynamics, Indiscernibility, and Spacetime Ontology.",
+            "author": "",
+            "year": "1994",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0062",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1026442015519",
+            "article-title": "Substantivalism, Relationism, and Structural Spacetime Realism.",
+            "author": "",
+            "year": "2000",
+            "journal-title": "Foundations of Physics"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0063",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11229-006-9076-2",
+            "article-title": "Moderate Structural Realism about Space-Time.",
+            "author": "",
+            "year": "2008",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0064",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/2941016",
+            "article-title": "The Metaphysics of Space-Time Substantivalism.",
+            "author": "",
+            "year": "1996",
+            "journal-title": "Journal of Philosophy"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0065",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pooley, Oliver. “Points, Particles, and Structural Realism.” In The Structural Foundations of Quantum Gravity. Edited by Dean Rickles, Steven French, and Juha Saatsi, 83–120. Oxford: Oxford University Press, 2006.10.1093/acprof:oso/9780199269693.001.0001",
+            "DOI": "10.1093/acprof:oso/9780199269693.003.0004"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0066",
+            "unstructured": "Stachel, John. “‘The Relations Between Things’ versus ‘The Things Between Relations’: The Deeper Meaning of the Hole Argument.” In Reading Natural Philosophy: Essays in the History and Philosophy of Science and Mathematics. Edited by David B. Malament, 231–266. Chicago: Open Court, 2002."
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0067",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Stachel, John. “Structure, Individuality, and Quantum Gravity.” In The Structural Foundations of Quantum Gravity. Edited by Dean Rickles, Steven French, and Juha Saatsi, 53–82. Oxford: Oxford University Press, 2006.10.1093/acprof:oso/9780199269693.001.0001",
+            "DOI": "10.1093/acprof:oso/9780199269693.003.0003"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0068",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/0269859032000169433",
+            "article-title": "What Structures Could Not Be.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "International Studies in the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0069",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/0269859042000296503",
+            "article-title": "Structuralism as a Form of Scientific Realism.",
+            "author": "",
+            "year": "2004",
+            "journal-title": "International Studies in the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0070",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1746-8361.1995.tb00113.x",
+            "article-title": "Is Structural Realism the Best of Both Worlds?",
+            "author": "",
+            "year": "1995",
+            "journal-title": "Dialectica"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0071",
+            "article-title": "Is Structural Realism Possible?",
+            "author": "",
+            "year": "2001",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0072",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/518326",
+            "author": "",
+            "year": "2006",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0073",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axr041",
+            "article-title": "Do Objects Depend on Structures?",
+            "author": "",
+            "year": "2012",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0074",
+            "volume-title": "Interpreting Bodies: Classical and Quantum Objects in Modern Physics",
+            "author": "",
+            "year": "1998"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0075",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/377373",
+            "article-title": "The Structuralist Conception of Objects.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0076",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Esfeld, Michael, and Vincent Lam. “Ontic Structural Realism as a Metaphysics of Objects.” In Scientific Structuralism. Edited by Alisa Bokulich and Peter Bokulich, 143–160. Boston Studies in the Philosophy of Science 281. Dordrecht, The Netherlands: Springer, 2010.",
+            "DOI": "10.1007/978-90-481-9597-8_8"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0077",
+            "doi-asserted-by": "crossref",
+            "unstructured": "French, Steven. “On the Withering Away of Physical Objects.” In Interpreting Bodies: Classical and Quantum Objects in Modern Physics. Edited by Elena Castellani, 93–113. Princeton, NJ: Princeton University Press, 1998.",
+            "DOI": "10.1515/9780691222042-009"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0078",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S1355-2198(03)00006-6",
+            "article-title": "Scribbling on the Blank Sheet: Eddington’s Structuralist Conception of Objects.",
+            "author": "",
+            "year": "2003",
+            "journal-title": "Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0079",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/0199278245.001.0001",
+            "volume-title": "Identity in Physics: A Historical, Philosophical, and Formal Analysis",
+            "author": "",
+            "year": "2006"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0080",
+            "article-title": "On the Identity and Diversity of Individuals.",
+            "author": "",
+            "year": "2007",
+            "journal-title": "Aristotelian Society Supplementary Volume"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0081",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/analys/66.1.52",
+            "article-title": "Are Quantum Particles Objects?",
+            "author": "",
+            "year": "2006",
+            "journal-title": "Analysis"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0082",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsc.2010.11.023",
+            "article-title": "Shifting to Structures in Physics and Biology: A Prophylactic for Promiscuous Realism.",
+            "author": "",
+            "year": "2011",
+            "journal-title": "Studies in History and Philosophy of Science, Part C: Studies in History and Philosophy of Biological and Biomedical Sciences"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0083",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/594517",
+            "article-title": "Structural Realism and the Social Sciences.",
+            "author": "",
+            "year": "2008",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0084",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/594520",
+            "article-title": "Structural Realism and the Relationship Between the Special Sciences and Physics.",
+            "author": "",
+            "year": "2008",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2026062908173237700_obo-9780195396577-0154-bibItem-0085",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/594518",
+            "article-title": "Ontic Structural Realism and Economics.",
+            "author": "",
+            "year": "2008",
+            "journal-title": "Philosophy of Science"
+          }
+        ],
+        "container-title": [
+          "Oxford Bibliographies in Philosophy"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://academic.oup.com/reference/62401/reference-article/555546588",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T18:55:42Z",
+          "timestamp": 1782932142000
+        },
+        "score": 26.927935,
+        "resource": {
+          "primary": {
+            "URL": "https://academic.oup.com/reference/62401/reference-article/555546588"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              26
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780197859131"
+        ],
+        "references-count": 85,
+        "URL": "https://doi.org/10.1093/obo/9780195396577-0154",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2026-02-11T14:12:30Z",
+          "timestamp": 1770819150633,
+          "version": "3.50.1"
+        },
+        "reference-count": 39,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  1
+                ]
+              ],
+              "date-time": "2016-10-01T00:00:00Z",
+              "timestamp": 1475280000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Studies in History and Philosophy of Science Part A"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.shpsa.2016.06.008",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              13
+            ]
+          ],
+          "date-time": "2016-09-13T10:49:20Z",
+          "timestamp": 1473763760000
+        },
+        "page": "106-114",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "special_numbering": "C",
+        "title": [
+          "Structural realism beyond physics"
+        ],
+        "prefix": "10.1016",
+        "volume": "59",
+        "author": [
+          {
+            "given": "Dana",
+            "family": "Tulodziecki",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "1",
+            "key": "10.1016/j.shpsa.2016.06.008_bib43",
+            "doi-asserted-by": "crossref",
+            "first-page": "7",
+            "DOI": "10.1093/ije/dyn254",
+            "article-title": "Anticontagionism between 1821 and 1867. The Fielding H. Garrison lecture",
+            "volume": "38",
+            "author": "Ackerknecht",
+            "year": "2009",
+            "journal-title": "International Journal of Epidemiology"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib1",
+            "series-title": "Dissertations on malaria, contagion, and cholera",
+            "author": "Aiton",
+            "year": "1832"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib2",
+            "series-title": "Contagion and the state in Europe, 1830–1930",
+            "author": "Baldwin",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "571",
+            "DOI": "10.1086/518327",
+            "article-title": "Scientific structuralism: Presentation and representation",
+            "volume": "73",
+            "author": "Brading",
+            "year": "2006",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib37",
+            "doi-asserted-by": "crossref",
+            "first-page": "250",
+            "DOI": "10.1136/bmj.2.2850.250",
+            "article-title": "Historical note on Farr’s theory of the epidemic",
+            "volume": "ii",
+            "author": "Brownlee",
+            "year": "1915",
+            "journal-title": "British Medical Journal"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib5",
+            "series-title": "Justus von Liebig: The chemical gatekeeper",
+            "author": "Brock",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "391",
+            "DOI": "10.1016/S0039-3681(98)00013-2",
+            "article-title": "Semirealism",
+            "volume": "29",
+            "author": "Chakravartty",
+            "year": "1998",
+            "journal-title": "Studies in History and Philosophy of Modern Science"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib7",
+            "series-title": "Structures, objects and causality",
+            "article-title": "Ontological priority: The conceptual basis of non-eliminative, ontic structural realism",
+            "author": "Chakravartty",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib38",
+            "first-page": "855",
+            "article-title": "On the laws of sickness, according to age, exhibiting a double coincidence between the laws of sickness and the laws of mortality",
+            "volume": "1",
+            "author": "Edmonds",
+            "year": "1835",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib8",
+            "series-title": "Victorian social medicine: The ideas and methods of William Farr",
+            "author": "Eyler",
+            "year": "1979"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib39",
+            "first-page": "79",
+            "article-title": "William Farr on the cholera: the sanitarian's disease theory and the statistician's method",
+            "author": "Eyler",
+            "year": "1973",
+            "journal-title": "Journal of the History of Medicine"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "225",
+            "DOI": "10.1007/BF01593177",
+            "article-title": "The changing assessments of John Snow's and William Farr's cholera studies",
+            "volume": "46",
+            "author": "Eyler",
+            "year": "2001",
+            "journal-title": "Sozial- und Präventivmedizin"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib40",
+            "first-page": "1",
+            "article-title": "The conceptual origins of William Farr's epidemiology: Numerical methods and social thought in the 1830s",
+            "volume": "4",
+            "author": "Eyler",
+            "year": "1980",
+            "journal-title": "The Henry E. Sigerist Supplements to the Bulletin of the History of Medicine"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.shpsa.2016.06.008_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "219",
+            "DOI": "10.1007/s00038-003-3004-8",
+            "article-title": "On prognosis (British medical almanack 1838; supplement 199-216)",
+            "volume": "48",
+            "author": "Farr",
+            "year": "1838",
+            "journal-title": "Sozial- und Präventivmedizin"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib11",
+            "series-title": "Appendix to the second annual report of the registrar-general",
+            "author": "Farr",
+            "year": "1840"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "155",
+            "DOI": "10.2307/2338305",
+            "article-title": "Influence of elevation on the fatality of cholera",
+            "author": "Farr",
+            "year": "1852",
+            "journal-title": "Journal of the Statistical Society of London"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib13",
+            "series-title": "Report on the mortality of cholera in England",
+            "author": "Farr",
+            "year": "1852"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.shpsa.2016.06.008_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "164",
+            "DOI": "10.1016/j.shpsc.2010.11.023",
+            "article-title": "Shifting to structures in physics and biology: A prophylactic for promiscuous realism",
+            "volume": "42",
+            "author": "French",
+            "year": "2011",
+            "journal-title": "Studies in History and Philosophy of Science C"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib15",
+            "series-title": "Scientific structuralism, Boston studies in philosophy of science",
+            "first-page": "25",
+            "article-title": "In defence of ontic structural realism",
+            "author": "French",
+            "year": "2011"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.shpsa.2016.06.008_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "227",
+            "DOI": "10.1007/s13194-011-0025-7",
+            "article-title": "Everything you always wanted to know about structural realism but were afraid to ask",
+            "volume": "1",
+            "author": "Frigg",
+            "year": "2011",
+            "journal-title": "European Journal for Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib17",
+            "series-title": "Cholera: The biography",
+            "author": "Hamlin",
+            "year": "2009"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "720",
+            "DOI": "10.1086/594517",
+            "article-title": "Structural realism and the social sciences",
+            "volume": "75",
+            "author": "Kincaid",
+            "year": "2008",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib19",
+            "series-title": "The advancement of science",
+            "author": "Kitcher",
+            "year": "1993"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "409",
+            "DOI": "10.1016/S0039-3681(98)80129-5",
+            "article-title": "What is structural realism?",
+            "volume": "29",
+            "author": "Ladyman",
+            "year": "1998",
+            "journal-title": "Studies in History and Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib22",
+            "series-title": "The Stanford Encyclopedia of Philosophy",
+            "article-title": "Structural realism",
+            "author": "Ladyman",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib23",
+            "series-title": "Every thing must go: Metaphysics naturalised",
+            "author": "Ladyman",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib41",
+            "doi-asserted-by": "crossref",
+            "first-page": "173",
+            "DOI": "10.1128/MMBR.25.3.173-181.1961",
+            "article-title": "Epidemiology of airborne infection",
+            "volume": "25",
+            "author": "Langmuir",
+            "year": "1961",
+            "journal-title": "Bacteriological Reviews"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.shpsa.2016.06.008_bib42",
+            "doi-asserted-by": "crossref",
+            "first-page": "19",
+            "DOI": "10.1086/288975",
+            "article-title": "A confutation of convergent realism",
+            "volume": "48",
+            "author": "Laudan",
+            "year": "1981",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib25",
+            "series-title": "Chemistry in its application to agriculture and physiology",
+            "author": "Liebig",
+            "year": "1842"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib26",
+            "series-title": "Animal chemistry: or organic chemistry in its application to physiology and pathology",
+            "author": "Liebig",
+            "year": "1843"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib27",
+            "series-title": "De Lamar Lectures 1925-1926 of the School of Hygiene and Public Health",
+            "article-title": "William Farr, father of English vital statistics",
+            "author": "Newsholme",
+            "year": "1926"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib28",
+            "series-title": "Cholera, fever and English medicine: 1825–1865",
+            "author": "Pelling",
+            "year": "1978"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib29",
+            "series-title": "Contagion",
+            "article-title": "The meaning of contagion",
+            "author": "Pelling",
+            "year": "2002"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib30",
+            "series-title": "Scientific realism: How science tracks truth",
+            "author": "Psillos",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "731",
+            "DOI": "10.1086/594518",
+            "article-title": "Ontic structural realism and economics",
+            "volume": "75",
+            "author": "Ross",
+            "year": "2008",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib33",
+            "series-title": "The philosophy of historical case-studies, Boston studies in philosophy of science",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-319-30229-4_13",
+            "article-title": "From zymes to germs: Discarding the realist/anti-realist framework",
+            "author": "Tulodziecki",
+            "year": "2016"
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib34",
+            "unstructured": "Tulodziecki, D. (forthcoming). Against selective realism(s). Philosophy of Science."
+          },
+          {
+            "key": "10.1016/j.shpsa.2016.06.008_bib35",
+            "series-title": "Spreading germs: Diseases, theories, and medical pactice in Britain, 1865–1900",
+            "author": "Worboys",
+            "year": "2000"
+          },
+          {
+            "issue": "1–2",
+            "key": "10.1016/j.shpsa.2016.06.008_bib36",
+            "doi-asserted-by": "crossref",
+            "first-page": "99",
+            "DOI": "10.1111/j.1746-8361.1989.tb00933.x",
+            "article-title": "Structural realism: The best of both worlds?",
+            "volume": "43",
+            "author": "Worrall",
+            "year": "1989",
+            "journal-title": "Dialectica"
+          }
+        ],
+        "container-title": [
+          "Studies in History and Philosophy of Science Part A"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0039368116300279?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0039368116300279?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2020-09-25T20:31:39Z",
+          "timestamp": 1601065899000
+        },
+        "score": 26.536839,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0039368116300279"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              10
+            ]
+          ]
+        },
+        "references-count": 39,
+        "alternative-id": [
+          "S0039368116300279"
+        ],
+        "URL": "https://doi.org/10.1016/j.shpsa.2016.06.008",
+        "ISSN": [
+          "0039-3681"
+        ],
+        "issn-type": [
+          {
+            "value": "0039-3681",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              10
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Structural realism beyond physics",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Studies in History and Philosophy of Science Part A",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.shpsa.2016.06.008",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2016 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2025-03-27T06:10:02Z",
+          "timestamp": 1743055802197,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 85,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789400725782"
+          },
+          {
+            "type": "electronic",
+            "value": "9789400725799"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  11,
+                  25
+                ]
+              ],
+              "date-time": "2011-11-25T00:00:00Z",
+              "timestamp": 1322179200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  11,
+                  25
+                ]
+              ],
+              "date-time": "2011-11-25T00:00:00Z",
+              "timestamp": 1322179200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-007-2579-9_2",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              1,
+              3
+            ]
+          ],
+          "date-time": "2012-01-03T13:37:09Z",
+          "timestamp": 1325597829000
+        },
+        "page": "29-57",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Methodological Structural Realism"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Elaine M.",
+            "family": "Landry",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2_CR1",
+            "first-page": "272",
+            "volume-title": "Philosophy of Mathematics",
+            "author": "P. Benacerraf",
+            "year": "1965",
+            "unstructured": "Benacerraf, P. (1965) What Numbers Could Not Be. In P. Benacerraf and H. Putnam (eds.), Philosophy of Mathematics, 2nd ed. (pp. 272–294). Cambridge: Cambridge University Press, 1991.",
+            "edition": "2"
+          },
+          {
+            "key": "2_CR2",
+            "first-page": "496",
+            "volume-title": "The Encyclopedia of Philosophy",
+            "author": "P. Bernays",
+            "year": "1967",
+            "unstructured": "Bernays, P. (1967) Hilbert, David. In P. Edwards (ed.), The Encyclopedia of Philosophy, Vol. 3 (pp. 496–504). New York: Macmillan."
+          },
+          {
+            "key": "2_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "303",
+            "DOI": "10.2307/2185445",
+            "volume": "XCVII",
+            "author": "J. Bogen",
+            "year": "1988",
+            "unstructured": "Bogen, J. and J. Woodward (1988) Saving the Phenomena. The Philosophical Review XCVII: 303–352.",
+            "journal-title": "The Philosophical Review"
+          },
+          {
+            "key": "2_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "609",
+            "DOI": "10.1086/376927",
+            "volume": "70",
+            "author": "A. Bokulich",
+            "year": "2003",
+            "unstructured": "Bokulich, A. (2003) Horizontal Models: From Bakers to Cats. Philosophy of Science 70: 609–627.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2_CR5",
+            "first-page": "187",
+            "volume-title": "Interpreting Bodies: Classical and Quantum Objects in Modern Physics",
+            "author": "M. Born",
+            "year": "1953",
+            "unstructured": "Born, M. (1953) Physical Reality. In E. Castellani (ed.), Interpreting Bodies: Classical and Quantum Objects in Modern Physics (pp. 187–203). Princeton: Princeton University Press, 1998."
+          },
+          {
+            "key": "2_CR6",
+            "first-page": "43",
+            "volume-title": "Scientific Structuralism",
+            "author": "K. Brading",
+            "year": "2011",
+            "unstructured": "Brading, K. (2011) Structuralist Approaches to Physics: Objects, Models and Modality. In A. Bokulich and P. Bokulich (eds.), Scientific Structuralism (pp. 43–65). Boston Studies in the Philosophy of Science, 281. New York: Springer."
+          },
+          {
+            "key": "2_CR7",
+            "first-page": "130",
+            "volume-title": "Vanishing Matter and the Laws of Motion Descartes and Beyond",
+            "author": "K. Brading",
+            "year": "2010",
+            "unstructured": "Brading, K. (2010) On Composite Systems: Newton, Descartes and the Law-Constitutive Approach. In P. Anstey and D. Jalobeanu (eds.), Vanishing Matter and the Laws of Motion Descartes and Beyond (pp. 130–152). New York: Routledge."
+          },
+          {
+            "issue": "5",
+            "key": "2_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "571",
+            "DOI": "10.1086/518327",
+            "volume": "73",
+            "author": "K. Brading",
+            "year": "2007",
+            "unstructured": "Brading, K. and E. Landry (2007) Scientific Structuralism: Presentation and Representation. Philosophy of Science 73(5): 571–581.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2_CR9",
+            "first-page": "225",
+            "volume-title": "Philosophical Foundations of Physics: An Introduction to the Philosophy of Science",
+            "author": "R. Carnap",
+            "year": "1966",
+            "unstructured": "Carnap, R. (1966) The Nature of Theories. In M. Gardner (ed.), Philosophical Foundations of Physics: An Introduction to the Philosophy of Science (pp. 225–246). New York: Basic Books."
+          },
+          {
+            "key": "2_CR10",
+            "first-page": "241",
+            "volume-title": "Philosophy of Mathematics",
+            "author": "R. Carnap",
+            "year": "1956",
+            "unstructured": "Carnap, R. (1956) Empiricism, Semantics, and Ontology. In P. Benacerraf and H. Putnam (eds.), Philosophy of Mathematics (pp. 241–257), 2nd ed. Cambridge: Cambridge University Press, 1991.",
+            "edition": "2"
+          },
+          {
+            "key": "2_CR11",
+            "volume-title": "The Logical Syntax of Language",
+            "author": "R. Carnap",
+            "year": "1934",
+            "unstructured": "Carnap, R. (1934) The Logical Syntax of Language, A. Smeaton (trans.). London: Kegan Paul, 1937."
+          },
+          {
+            "key": "2_CR12",
+            "volume-title": "The Logical Structure of the World",
+            "author": "R. Carnap",
+            "year": "1928",
+            "unstructured": "Carnap, R. (1928) The Logical Structure of the World, R.A. George, (trans.). London: Routledge & Kegan Paul, London, 1967."
+          },
+          {
+            "key": "2_CR13",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9781139167093",
+            "volume-title": "The Dappled World: A Study of the Boundaries of Science",
+            "author": "N. Cartwright",
+            "year": "1999",
+            "unstructured": "Cartwright, N. (1999) The Dappled World: A Study of the Boundaries of Science. Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "2_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "251",
+            "DOI": "10.1016/S1355-2198(02)00003-5",
+            "volume": "33",
+            "author": "E. Castellani",
+            "year": "2002",
+            "unstructured": "Castellani, E. (2002) Reductionism, Emergence, and Effective Field Theories. Studies In History and Philosophy of Modern Physics 33: 251–267.",
+            "journal-title": "Studies In History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "2_CR15",
+            "volume-title": "Interpreting Bodies: Classical and Quantum Objects in Modern Physics",
+            "author": "E. Castellani",
+            "year": "1998",
+            "unstructured": "Castellani, E. (1998a) Galilean Particles: An Example of Constitution of Objects. In E. Castellani, (ed.), Interpreting Bodies: Classical and Quantum Objects in Modern Physics. Princeton: Princeton University Press."
+          },
+          {
+            "volume-title": "Interpreting Bodies: Classical and Quantum Objects in Modern Physics",
+            "year": "1998",
+            "key": "2_CR16",
+            "unstructured": "Castellani, E., ed. (1998b) Interpreting Bodies: Classical and Quantum Objects in Modern Physics. Princeton: Princeton University Press."
+          },
+          {
+            "key": "2_CR17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511487354",
+            "volume-title": "A Metaphysics for Scientific Realism: Knowing the Unobservable",
+            "author": "A. Chakravartty",
+            "year": "2007",
+            "unstructured": "Chakravartty, A. (2007) A Metaphysics for Scientific Realism: Knowing the Unobservable. Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "2_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "867",
+            "DOI": "10.1086/377373",
+            "volume": "70",
+            "author": "A. Chakravartty",
+            "year": "2003",
+            "unstructured": "Chakravartty, A. (2003) The Structuralist Conception of Objects. Philosophy of Science 70: 867–878.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "391",
+            "DOI": "10.1016/S0039-3681(98)00013-2",
+            "volume": "29",
+            "author": "A. Chakravartty",
+            "year": "1998",
+            "unstructured": "Chakravartty, A. (1998) Semirealism. Studies in History and Philosophy of Science 29: 391–408.",
+            "journal-title": "Studies in History and Philosophy of Science"
+          },
+          {
+            "key": "2_CR20",
+            "volume-title": "The Semantic Tradition for Kant to Carnap: To the Vienna Station",
+            "author": "J. A. Coffa",
+            "year": "1993",
+            "unstructured": "Coffa, J. A. (1993) The Semantic Tradition for Kant to Carnap: To the Vienna Station. Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "2_CR21",
+            "volume-title": "The Aim and Structure of Physical Theory",
+            "author": "P. Duhem",
+            "year": "1906",
+            "unstructured": "Duhem, P. (1906) The Aim and Structure of Physical Theory, P. Wiener (trans.). Princeton: Princeton University Press, 1954."
+          },
+          {
+            "key": "2_CR22",
+            "volume-title": "From Kant to Hilbert: A Source Book in the Foundations of Mathematics, Volume II",
+            "author": "W. Ewald",
+            "year": "1996",
+            "unstructured": "Ewald, W. (1996) From Kant to Hilbert: A Source Book in the Foundations of Mathematics, Volume II. Oxford: Oxford University Press."
+          },
+          {
+            "key": "2_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "35",
+            "DOI": "10.1086/287065",
+            "volume": "17",
+            "author": "H. Feigl",
+            "year": "1950",
+            "unstructured": "Feigl, H. (1950) Existential Hypotheses: Realistic versus Phenomenalistic Interpretations. Philosophy of Science 17: 35–62.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2_CR24",
+            "volume-title": "The Foundations of Arithmetic",
+            "author": "G. Frege",
+            "year": "1884",
+            "unstructured": "Frege, G. (1884) The Foundations of Arithmetic, J.L. Austin (trans.). Evanston, IL: Northwestern University Press, 1986."
+          },
+          {
+            "key": "2_CR25",
+            "first-page": "47",
+            "volume-title": "Posthumous Writings",
+            "author": "G. Frege",
+            "year": "1882",
+            "unstructured": "Frege, G. (1882) Boole’s Logical Formula-language and my Concept-script. In P. Long and R. White (eds.), Posthumous Writings (pp. 47–52). Oxford: Blackwell, 1979."
+          },
+          {
+            "key": "2_CR26",
+            "first-page": "9",
+            "volume-title": "Posthumous Writings",
+            "author": "G. Frege",
+            "year": "1880",
+            "unstructured": "Frege, G. (1880/81) Boole’s Logical Calculus and the Concept-script. In P. Long and R. White (eds.), Posthumous Writings (pp. 9–46). Oxford: Blackwell, 1979."
+          },
+          {
+            "key": "2_CR27",
+            "first-page": "101",
+            "volume-title": "Conceptual Notation and Related Articles",
+            "author": "G. Frege",
+            "year": "1879",
+            "unstructured": "Frege, G. (1879) Begriffsschrift. In T.W. Bynum (trans. & ed.), Conceptual Notation and Related Articles (pp. 101–203). Oxford: Oxford University Press, 1972."
+          },
+          {
+            "key": "2_CR28",
+            "volume-title": "Kant and the Exact Sciences",
+            "author": "M. Friedman",
+            "year": "1994",
+            "unstructured": "Friedman, M. (1994) Kant and the Exact Sciences, 2nd ed. Cambridge, MA: Harvard University Press.",
+            "edition": "2"
+          },
+          {
+            "key": "2_CR29",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1111/j.1467-9264.2006.00192.x",
+            "volume": "106",
+            "author": "S. French",
+            "year": "2006",
+            "unstructured": "French, S. (2006) Structure as a Weapon of the Realist. Proceedings of the Aristotelian Society 106: 1–19.",
+            "journal-title": "Proceedings of the Aristotelian Society"
+          },
+          {
+            "key": "2_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "103",
+            "DOI": "10.1023/A:1005246608001",
+            "volume": "125",
+            "author": "S. French",
+            "year": "2000",
+            "unstructured": "French, S. (2000) The Reasonable Effectiveness of Mathematics: Partial Structures and the Application of Group Theory to Physics. Synthèse 125: 103–120.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "2_CR31",
+            "unstructured": "French, S. (1999) Theories, Models and Structures: Thirty Years On. Philosophy of Science, Supplement: Proceedings of PSA 1998."
+          },
+          {
+            "key": "2_CR32",
+            "doi-asserted-by": "crossref",
+            "first-page": "187",
+            "DOI": "10.1017/CBO9780511597947.010",
+            "volume-title": "From Physics to Philosophy",
+            "author": "S. French",
+            "year": "1999",
+            "unstructured": "French, S. (1999) Models and Mathematics in Physics: The Role of Group Theory. In J. Butterfield and C. Pagonis (eds.), From Physics to Philosophy (pp. 187–207). Cambridge: Cambridge University Press."
+          },
+          {
+            "issue": "1",
+            "key": "2_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "31",
+            "DOI": "10.1023/A:1024156116636",
+            "volume": "136",
+            "author": "S. French",
+            "year": "2003",
+            "unstructured": "French, S. and J. Ladyman (2003) Remodelling Structural Realism: Quantum Physics and the Metaphysics of Structure. Synthèse 136(1): 31–56.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "2_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "29",
+            "DOI": "10.1023/A:1005499609332",
+            "volume": "52",
+            "author": "B. Glymour",
+            "year": "2000",
+            "unstructured": "Glymour, B. (2000) Data and Phenomena: A Distinction Reconsidered. Erkenntnis 52: 29–37.",
+            "journal-title": "Erkenntnis"
+          },
+          {
+            "key": "2_CR35",
+            "doi-asserted-by": "crossref",
+            "first-page": "25",
+            "DOI": "10.1093/019513916X.003.0002",
+            "volume-title": "Futures Past: Reflections on the History and Nature of Analytic Philosophy",
+            "author": "W. Goldfarb",
+            "year": "2001",
+            "unstructured": "Goldfarb, W. (2001) Frege’s Conception of Logic. In J. Floyd and S. Shieh (eds.), Futures Past: Reflections on the History and Nature of Analytic Philosophy (pp. 25–43). Cambridge, MA: Harvard University Press."
+          },
+          {
+            "key": "2_CR36",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hallett, M. (2007) Reflections on the Purity of Method in Hilbert’s. Grundlagen der Geometrie. Unpublished manuscript.",
+            "DOI": "10.1093/acprof:oso/9780199296453.003.0009"
+          },
+          {
+            "key": "2_CR37",
+            "doi-asserted-by": "crossref",
+            "first-page": "158",
+            "DOI": "10.1093/oso/9780195079296.003.0008",
+            "volume-title": "Mathematics and Mind",
+            "author": "M. Hallett",
+            "year": "1994",
+            "unstructured": "Hallett, M. (1994) Hilbert’s Axiomatic Method and the Laws of Thought. In A. George (ed.), Mathematics and Mind (pp. 158–200). Oxford: Oxford University Press."
+          },
+          {
+            "key": "2_CR38",
+            "first-page": "361",
+            "volume": "14",
+            "author": "J. Hawthorne",
+            "year": "2001",
+            "unstructured": "Hawthorne, J. (2001) Causal Structuralism. Philosophical Perspectives 14: 361–78.",
+            "journal-title": "Philosophical Perspectives"
+          },
+          {
+            "issue": "9",
+            "key": "2_CR39",
+            "doi-asserted-by": "crossref",
+            "first-page": "184",
+            "DOI": "10.1093/philmat/9.2.184",
+            "volume": "3",
+            "author": "G. Hellman",
+            "year": "2001",
+            "unstructured": "Hellman, G. (2001) Three Varieties of Mathematical Structuralism. Philosophia Mathematica 3(9): 184–211.",
+            "journal-title": "Philosophia Mathematica"
+          },
+          {
+            "issue": "4",
+            "key": "2_CR40",
+            "doi-asserted-by": "crossref",
+            "first-page": "100",
+            "DOI": "10.1093/philmat/4.2.100",
+            "volume": "2",
+            "author": "G. Hellman",
+            "year": "1996",
+            "unstructured": "Hellman, G. (1996) Structuralism Without Structures. Philosophia Mathematica 2(4): 100–123.",
+            "journal-title": "Philosophia Mathematica"
+          },
+          {
+            "key": "2_CR41",
+            "volume-title": "The Development of Logic",
+            "author": "W. Kneale",
+            "year": "1984",
+            "unstructured": "Kneale W. and M. Kneale (1984) The Development of Logic. Oxford: Oxford University Press."
+          },
+          {
+            "key": "2_CR42",
+            "doi-asserted-by": "publisher",
+            "first-page": "23",
+            "DOI": "10.1111/j.1467-8349.2007.00149.x",
+            "volume": "81",
+            "author": "J. Ladyman",
+            "year": "2007",
+            "unstructured": "Ladyman, J. (2007) On the Identity and Diversity of Objects in a Structure. Proceedings of the Aristotelian Society 81: 23–43.",
+            "journal-title": "Proceedings of the Aristotelian Society"
+          },
+          {
+            "key": "2_CR43",
+            "volume-title": "Understanding Philosophy of Science",
+            "author": "J. Ladyman",
+            "year": "2002",
+            "unstructured": "Ladyman, J. (2002) Understanding Philosophy of Science. New York: Routledge."
+          },
+          {
+            "key": "2_CR44",
+            "doi-asserted-by": "publisher",
+            "first-page": "409",
+            "DOI": "10.1016/S0039-3681(98)80129-5",
+            "volume": "29",
+            "author": "J. Ladyman",
+            "year": "1998",
+            "unstructured": "Ladyman, J. (1998) What is Structural Realism? Studies in the History and Philosophy of Science 29: 409–424.",
+            "journal-title": "Studies in the History and Philosophy of Science"
+          },
+          {
+            "key": "2_CR45",
+            "first-page": "361",
+            "volume-title": "Logic, Mathematics, Philosophy, Vintage Enthusiasms: Essays in Honour of John Bell",
+            "author": "E. Landry",
+            "year": "2010",
+            "unstructured": "Landry, E. (2010) A Silly Answer to a Psillos Question. In D. DeVidi, M. Hallett, and P. Clarke (eds.), Logic, Mathematics, Philosophy, Vintage Enthusiasms: Essays in Honour of John Bell (pp. 361–389). Western Ontario Series for Philosophy of Science. New York: Reidel."
+          },
+          {
+            "key": "2_CR46",
+            "doi-asserted-by": "publisher",
+            "first-page": "435",
+            "DOI": "10.1007/s11229-009-9691-9",
+            "volume": "179",
+            "author": "E. Landry",
+            "year": "2009",
+            "unstructured": "Landry, E. (2009) How to be a Structuralist All The Way Down. Synthèse 179: 435–454.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "2_CR47",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1007/s11229-006-9047-7",
+            "volume": "158",
+            "author": "E. Landry",
+            "year": "2007",
+            "unstructured": "Landry, E. (2007) Shared Structure Need Not Be Shared Set-Structure. Synthèse 158: 1–17.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "2_CR48",
+            "doi-asserted-by": "crossref",
+            "first-page": "163",
+            "DOI": "10.1007/978-1-4020-5012-7_12",
+            "volume-title": "The Age of Alternative Logics: Assessing Philosophy of Logic and Mathematics Today",
+            "author": "E. Landry",
+            "year": "2006",
+            "unstructured": "Landry, E. (2006a) Category Theory as a Framework for an In Re Interpretation of Mathematical Structuralism. In J. van Benthem, G. Heinzmann, M. Rebuschi, and H. Visser (eds.), The Age of Alternative Logics: Assessing Philosophy of Logic and Mathematics Today (pp. 163–177). New York: Kluwer."
+          },
+          {
+            "key": "2_CR49",
+            "doi-asserted-by": "publisher",
+            "first-page": "133",
+            "DOI": "10.1007/1-4020-4040-7_7",
+            "volume-title": "Intuition and the Axiomatic Method",
+            "author": "E. Landry",
+            "year": "2006",
+            "unstructured": "Landry, E. (2006b) Intuition, Objectivity and Structure. In E. Carson and R. Huber (eds.), Intuition and the Axiomatic Method (pp. 133–153). Western Ontario Series for Philosophy of Science. New York: Reidel."
+          },
+          {
+            "key": "2_CR50",
+            "doi-asserted-by": "publisher",
+            "first-page": "S14",
+            "DOI": "10.1086/392712",
+            "volume": "66",
+            "author": "E. Landry",
+            "year": "1999",
+            "unstructured": "Landry, E. (1999) Category Theory: The Language of Mathematics. Philosophy of Science 66 Supplement: S14–S27.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "issue": "1",
+            "key": "2_CR51",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1093/philmat/nki005",
+            "volume": "13",
+            "author": "E. Landry",
+            "year": "2005",
+            "unstructured": "Landry, E. and J.-P. Marquis (2005) Categories in Context: Historical, Foundational and Philosophical. Philosophia Mathematica 13(1): 1–43.",
+            "journal-title": "Philosophia Mathematica"
+          },
+          {
+            "key": "2_CR52",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780199273669.001.0001",
+            "volume-title": "Second Philosophy",
+            "author": "P. Maddy",
+            "year": "2007",
+            "unstructured": "Maddy, P. (2007) Second Philosophy. New York: Oxford University Press."
+          },
+          {
+            "volume-title": "From Hilbert to Brouwer. The Debate on the Foundations of Mathematics in the 1920s",
+            "year": "1998",
+            "key": "2_CR53",
+            "unstructured": "Mancosu, P., ed., (1998) From Hilbert to Brouwer. The Debate on the Foundations of Mathematics in the 1920s. Oxford: Oxford University Press."
+          },
+          {
+            "key": "2_CR54",
+            "doi-asserted-by": "publisher",
+            "first-page": "217",
+            "DOI": "10.1023/A:1005387021520",
+            "volume": "47",
+            "author": "J. McAllister",
+            "year": "1997",
+            "unstructured": "McAllister, J. (1997) Phenomena and Patterns in Data Sets. Erkenntnis 47: 217–228.",
+            "journal-title": "Erkenntnis"
+          },
+          {
+            "volume-title": "Models as Mediators: Perspectives on Natural and Social Science",
+            "year": "1999",
+            "key": "2_CR55",
+            "unstructured": "Morgan, M. and M. Morrison, eds. (1999) Models as Mediators: Perspectives on Natural and Social Science. Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "2_CR56",
+            "doi-asserted-by": "publisher",
+            "first-page": "303",
+            "DOI": "10.1007/BF00485186",
+            "volume": "84",
+            "author": "C. Parsons",
+            "year": "1990",
+            "unstructured": "Parsons, C. (1990) The Structuralist View of Mathematical Objects. Synthèse 84: 303–346.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "issue": "5",
+            "key": "2_CR57",
+            "doi-asserted-by": "publisher",
+            "first-page": "560",
+            "DOI": "10.1086/518326",
+            "volume": "73",
+            "author": "S. Psillos",
+            "year": "2006",
+            "unstructured": "Psillos, S. (2006) The Structure, the Whole Structure and Nothing but the Structure? Philosophy of Science 73(5): 560–570.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2_CR58",
+            "doi-asserted-by": "publisher",
+            "first-page": "13",
+            "DOI": "10.1086/392894",
+            "volume": "68",
+            "author": "S. Psillos",
+            "year": "2001",
+            "unstructured": "Psillos, S. (2001) Is Structural Realism Possible? Philosophy of Science 68: 13–24.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2_CR59",
+            "volume-title": "Scientific Realism: How Science Tracks Truth",
+            "author": "S. Psillos",
+            "year": "1999",
+            "unstructured": "Psillos, S. (1999) Scientific Realism: How Science Tracks Truth. London: Routledge."
+          },
+          {
+            "key": "2_CR60",
+            "doi-asserted-by": "publisher",
+            "first-page": "15",
+            "DOI": "10.1111/j.1746-8361.1995.tb00113.x",
+            "volume": "49",
+            "author": "S. Psillos",
+            "year": "1995",
+            "unstructured": "Psillos, S. (1995) Is Structural Realism the Best of Both Worlds? Dialectica 49: 15–46.",
+            "journal-title": "Dialectica"
+          },
+          {
+            "key": "2_CR61",
+            "first-page": "31",
+            "volume-title": "The Philosophy of Mathematics",
+            "author": "W.V.O. Quine",
+            "year": "1951",
+            "unstructured": "Quine, W.V.O. (1951) Two Dogmas of Empiricism. In W. D. Hart (ed.), The Philosophy of Mathematics (pp. 31–51). Oxford: Oxford University Press, 1996."
+          },
+          {
+            "key": "2_CR62",
+            "volume-title": "Carnap’s Construction of the World",
+            "author": "A. Richardson",
+            "year": "1998",
+            "unstructured": "Richardson, A. (1998) Carnap’s Construction of the World. Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "2_CR63",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1093/acprof:oso/9780199269693.003.0001",
+            "volume-title": "The Structural Foundations of Quantum Gravity",
+            "author": "D. Rickles",
+            "year": "2006",
+            "unstructured": "Rickles, D. and S. French (2006) Quantum Gravity Meets Structuralism: Interweaving Relations in the Foundations of Physics. In S. French, D. Rickles, and J. Saatsi (eds.), The Structural Foundations of Quantum Gravity (pp. 1–39). Oxford: Oxford University Press."
+          },
+          {
+            "key": "2_CR64",
+            "volume-title": "Human Knowledge: Its Scope and Limits",
+            "author": "B. Russell",
+            "year": "1948",
+            "unstructured": "Russell, B. (1948) Human Knowledge: Its Scope and Limits. London: George Allen and Unwin, 2009."
+          },
+          {
+            "key": "2_CR65",
+            "first-page": "177",
+            "volume-title": "Logic and Knowledge",
+            "author": "B. Russell",
+            "year": "1918",
+            "unstructured": "Russell, B. (1918) The Philosophy of Logical Atomism. In Logic and Knowledge (pp. 177–283). New York: Capricorn Books."
+          },
+          {
+            "key": "2_CR66",
+            "doi-asserted-by": "publisher",
+            "first-page": "509",
+            "DOI": "10.1016/j.shpsa.2005.07.007",
+            "volume": "36",
+            "author": "J. Saatsi",
+            "year": "2005",
+            "unstructured": "Saatsi, J. (2005) Reconsidering the Fresnel-Maxwell Theory Shift: How the Realist can have her Cake and EAT it too. Studies In History and Philosophy of Science 36: 509–538.",
+            "journal-title": "Studies In History and Philosophy of Science"
+          },
+          {
+            "key": "2_CR67",
+            "doi-asserted-by": "publisher",
+            "first-page": "52",
+            "DOI": "10.1093/analys/66.1.52",
+            "volume": "66",
+            "author": "S. Saunders",
+            "year": "2006",
+            "unstructured": "Saunders, S. (2006) Are Quantum Particles Objects? Analysis 66: 52–63.",
+            "journal-title": "Analysis"
+          },
+          {
+            "key": "2_CR68",
+            "doi-asserted-by": "publisher",
+            "first-page": "289",
+            "DOI": "10.1017/CBO9780511535369.017",
+            "volume-title": "Symmetries in Physics: Philosophical Reflections",
+            "author": "S. Saunders",
+            "year": "2003",
+            "unstructured": "Saunders, S. (2003) Physics and Leibniz’s Principles. In K. Brading and E.Castellani (eds.), Symmetries in Physics: Philosophical Reflections (pp. 289–308). Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "2_CR69",
+            "doi-asserted-by": "publisher",
+            "first-page": "127",
+            "DOI": "10.1023/A:1024180822088",
+            "volume": "136",
+            "author": "S. Saunders",
+            "year": "2003",
+            "unstructured": "Saunders, S. (2003) Structural Realism, Again. Synthèse 136: 127–133.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "2_CR70",
+            "doi-asserted-by": "publisher",
+            "first-page": "160",
+            "DOI": "10.1016/j.shpsa.2006.12.009",
+            "volume": "38",
+            "author": "S. Schindler",
+            "year": "2007",
+            "unstructured": "Schindler, S. (2007) Rehabilitating Theory: Refusal of the ‘Bottom-up’ Construction of Scientific Phenomena. Studies in History and Philosophy of Science 38: 160–184.",
+            "journal-title": "Studies in History and Philosophy of Science"
+          },
+          {
+            "issue": "1",
+            "key": "2_CR71",
+            "doi-asserted-by": "publisher",
+            "first-page": "61",
+            "DOI": "10.1093/philmat/nki007",
+            "volume": "13",
+            "author": "S. Shapiro",
+            "year": "2005",
+            "unstructured": "Shapiro, S. (2005) Categories, Structures, and the Frege-Hilbert Controversy: The status of Meta-Mathematics. Philosophia Mathematica 13(1): 61–77.",
+            "journal-title": "Philosophia Mathematica"
+          },
+          {
+            "key": "2_CR72",
+            "volume-title": "Philosophy of Mathematics: Structure and Ontology",
+            "author": "S. Shapiro",
+            "year": "1997",
+            "unstructured": "Shapiro, S. (1997) Philosophy of Mathematics: Structure and Ontology. Oxford: Oxford University Press."
+          },
+          {
+            "issue": "4",
+            "key": "2_CR73",
+            "doi-asserted-by": "crossref",
+            "first-page": "148",
+            "DOI": "10.1093/philmat/4.2.148",
+            "volume": "3",
+            "author": "S. Shapiro",
+            "year": "1996",
+            "unstructured": "Shapiro, S. (1996) Space, Number and Structure: A Tale of Two Debates, Philosophia Mathematica 3(4): 148–173.",
+            "journal-title": "Philosophia Mathematica"
+          },
+          {
+            "key": "2_CR74",
+            "volume-title": "Set-Theoretical Structures in Science",
+            "author": "P. Suppes",
+            "year": "1967",
+            "unstructured": "Suppes, P. (1967) Set-Theoretical Structures in Science. Stanford: Stanford University Press."
+          },
+          {
+            "key": "2_CR75",
+            "first-page": "253",
+            "volume-title": "Logic, Methodology and Philosophy of Science",
+            "author": "P. Suppes",
+            "year": "1962",
+            "unstructured": "Suppes, P. (1962) Models of Data. In E. Nagel, P. Suppes, and A. Tarski (eds.), Logic, Methodology and Philosophy of Science (pp. 253–261). Stanford: Stanford University Press."
+          },
+          {
+            "key": "2_CR76",
+            "doi-asserted-by": "publisher",
+            "first-page": "287",
+            "DOI": "10.1007/BF00485107",
+            "volume": "12",
+            "author": "P. Suppes",
+            "year": "1960",
+            "unstructured": "Suppes, P. (1960) A Comparison of the Meaning and Uses of Models in Mathematics and the Empirical Sciences. Synthèse 12: 287–301.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "2_CR77",
+            "doi-asserted-by": "publisher",
+            "first-page": "425",
+            "DOI": "10.1086/423625",
+            "volume": "71",
+            "author": "P. Teller",
+            "year": "2004",
+            "unstructured": "Teller, P. (2004) How we Dapple the World. Philosophy of Science 71: 425–447.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "2_CR78",
+            "first-page": "114",
+            "volume-title": "Interpreting Bodies: Classical and Quantum Objects in Modern Physics",
+            "author": "P. Teller",
+            "year": "1998",
+            "unstructured": "Teller, P. (1998) Quantum Mechanics and Haecceities. In E. Castellani (ed.), Interpreting Bodies: Classical and Quantum Objects in Modern Physics (pp. 114–141). Princeton: Princeton University Press."
+          },
+          {
+            "key": "2_CR79",
+            "volume-title": "An Interpretative Introduction to Quantum Field Theory",
+            "author": "P. Teller",
+            "year": "1995",
+            "unstructured": "Teller, P. (1995) An Interpretative Introduction to Quantum Field Theory. Princeton: Princeton University Press."
+          },
+          {
+            "key": "2_CR80",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9781139172981",
+            "volume-title": "The Philosophy of Physics",
+            "author": "R. Toretti",
+            "year": "1999",
+            "unstructured": "Toretti, R. (1999) The Philosophy of Physics. Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "2_CR81",
+            "volume-title": "The Empirical Stance",
+            "author": "B. van Fraassen",
+            "year": "2002",
+            "unstructured": "van Fraassen, B. (2002) The Empirical Stance. New Haven, Yale University Press."
+          },
+          {
+            "key": "2_CR82",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/0198248601.001.0001",
+            "volume-title": "Laws and Symmetry",
+            "author": "B. van Fraassen",
+            "year": "1989",
+            "unstructured": "van Fraassen, B. (1989) Laws and Symmetry. Oxford: Oxford University Press."
+          },
+          {
+            "key": "2_CR83",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1515/9781400874347",
+            "volume-title": "Symmetry",
+            "author": "H. Weyl",
+            "year": "1952",
+            "unstructured": "Weyl, H. (1952) Symmetry. Princeton: Princeton University Press."
+          },
+          {
+            "key": "2_CR84",
+            "volume-title": "Tractatus Logico-Philosophicus",
+            "author": "L. Wittgenstein",
+            "year": "1921",
+            "unstructured": "Wittgenstein, L. (1921) Tractatus Logico-Philosophicus, D.F. Pears, and B.F. McGuinness (trans.). London: Routledge & Kegan Paul, 1992."
+          },
+          {
+            "key": "2_CR85",
+            "doi-asserted-by": "publisher",
+            "first-page": "99",
+            "DOI": "10.1111/j.1746-8361.1989.tb00933.x",
+            "volume": "43",
+            "author": "J. Worrall",
+            "year": "1989",
+            "unstructured": "Worrall, J. (1989) Structural Realism: The Best of Both Worlds? Dialectica 43: 99–124.",
+            "journal-title": "Dialectica"
+          }
+        ],
+        "container-title": [
+          "The Western Ontario Series in Philosophy of Science",
+          "Structural Realism"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-94-007-2579-9_2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              16
+            ]
+          ],
+          "date-time": "2024-04-16T23:22:47Z",
+          "timestamp": 1713309767000
+        },
+        "score": 26.31287,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-94-007-2579-9_2"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              25
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789400725782",
+          "9789400725799"
+        ],
+        "references-count": 85,
+        "URL": "https://doi.org/10.1007/978-94-007-2579-9_2",
+        "ISSN": [
+          "1566-659X"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "1566-659X"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              25
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "25 November 2011",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2026-07-02T06:24:21Z",
+          "timestamp": 1782973461191,
+          "version": "3.54.5"
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 26,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "value": "9789400725782",
+            "type": "print"
+          },
+          {
+            "value": "9789400725799",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  11,
+                  25
+                ]
+              ],
+              "date-time": "2011-11-25T00:00:00Z",
+              "timestamp": 1322179200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  11,
+                  25
+                ]
+              ],
+              "date-time": "2011-11-25T00:00:00Z",
+              "timestamp": 1322179200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-007-2579-9_4",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              1,
+              3
+            ]
+          ],
+          "date-time": "2012-01-03T13:37:09Z",
+          "timestamp": 1325597829000
+        },
+        "page": "77-95",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "Miracles and Structural Realism"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "John",
+            "family": "Worrall",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "4_CR1",
+            "doi-asserted-by": "crossref",
+            "first-page": "41",
+            "DOI": "10.1525/9780520337442-004",
+            "volume-title": "Scientific Realism",
+            "author": "R. Boyd",
+            "year": "1984",
+            "unstructured": "Boyd, R. (1984) The Current Status of the Scientific Realism Debate. In J. Leplin (ed.), Scientific Realism (pp. 41–82). Berkeley, CA: University of California Press."
+          },
+          {
+            "key": "4_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "621",
+            "DOI": "10.1086/289281",
+            "volume": "52",
+            "author": "W. Demopoulos",
+            "year": "1985",
+            "unstructured": "Demopoulos, W. and M. Friedman (1985) Critical Notice: Bertrand Russell’s The Analysis of Matter: Its Historical Context and Contemporary Interest. Philosophy of Science\n                  52: 621–639.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "4_CR3",
+            "volume-title": "The Aim and Structure of Physical Theory",
+            "author": "P. Duhem",
+            "year": "1906",
+            "unstructured": "Duhem, P. (1906) The Aim and Structure of Physical Theory, P. Wiener (trans.), Princeton, NJ: Princeton University Press, 1954."
+          },
+          {
+            "key": "4_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "83",
+            "DOI": "10.1525/9780520337442-005",
+            "volume-title": "Scientific Realism",
+            "author": "A. Fine",
+            "year": "1984",
+            "unstructured": "Fine, A. (1984) The Natural Ontological Attitude. In J. Leplin (ed.), Scientific Realism (pp. 83–107). Berkeley, CA: University of California Press."
+          },
+          {
+            "key": "4_CR5",
+            "volume-title": "Reckoning with Risk: Learning to Live with Uncertainty",
+            "author": "G. Gigerenzer",
+            "year": "2002",
+            "unstructured": "Gigerenzer, G. (2002) Reckoning with Risk: Learning to Live with Uncertainty. London: Penguin."
+          },
+          {
+            "key": "4_CR6",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1093/0198250371.001.0001",
+            "volume-title": "Hume’s Problem",
+            "author": "C. Howson",
+            "year": "2000",
+            "unstructured": "Howson, C. (2000) Hume’s Problem. Oxford: Oxford University Press."
+          },
+          {
+            "key": "4_CR7",
+            "volume-title": "Scientific Reasoning: The Bayesian Approach",
+            "author": "C. Howson",
+            "year": "2007",
+            "unstructured": "Howson, C. and P.M. Urbach (2007) Scientific Reasoning: The Bayesian Approach, 3rd edn. Chicago and La Salle, II: Open Court.",
+            "edition": "3"
+          },
+          {
+            "key": "4_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "430",
+            "DOI": "10.1016/0010-0285(72)90016-3",
+            "volume": "3",
+            "author": "D. Kahneman",
+            "year": "1972",
+            "unstructured": "Kahneman, D. and A. Tversky (1972) Subjective Probability: A Judgement of Representativeness. Cognitive Psychology\n                  3: 430–454.",
+            "journal-title": "Cognitive Psychology"
+          },
+          {
+            "key": "4_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "287",
+            "DOI": "10.1093/bjps/55.2.287",
+            "volume": "55",
+            "author": "J. Ketland",
+            "year": "2004",
+            "unstructured": "Ketland, J. (2004) Empirical Adequacy and Ramsification. British Journal for the Philosophy of Science\n                  55: 287–300.",
+            "journal-title": "British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "4_CR10",
+            "first-page": "139",
+            "volume-title": "The Philosophy of Science",
+            "author": "L. Laudan",
+            "year": "1981",
+            "unstructured": "Laudan, L. (1981) A Confutation of Convergent Realism. In D. Papineau (ed.), The Philosophy of Science. (pp. 139–165) Oxford: Oxford University Press, 1996."
+          },
+          {
+            "key": "4_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "371",
+            "DOI": "10.1023/A:1013139410613",
+            "volume": "12",
+            "author": "P. Lewis",
+            "year": "2001",
+            "unstructured": "Lewis, P. (2001) Why the Pessimistic Induction is a Fallacy. Synthèse\n                  12: 371–380.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "4_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "179",
+            "DOI": "10.1111/1467-8349.00069",
+            "volume": "LXXIV",
+            "author": "P. Lipton",
+            "year": "2000",
+            "unstructured": "Lipton, P. (2000) Tracking Track Records. Proceedings of the Aristotelian Society. Supplementary Volume LXXIV: 179–205.",
+            "journal-title": "Proceedings of the Aristotelian Society."
+          },
+          {
+            "key": "4_CR13",
+            "volume-title": "Inference to the Best Explanation",
+            "author": "P. Lipton",
+            "year": "2004",
+            "unstructured": "Lipton, P. (2004) Inference to the Best Explanation, 2nd edn. London: Routledge.",
+            "edition": "2"
+          },
+          {
+            "key": "4_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "320",
+            "DOI": "10.1086/421536",
+            "volume": "71",
+            "author": "P. D. Magnus",
+            "year": "2004",
+            "unstructured": "Magnus P. D. and C. Callender (2004) Realist Ennui and the Base Rate Fallacy. Philosophy of Science\n                  71: 320–338.",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "4_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "137",
+            "DOI": "10.1093/mind/XXXVII.146.137",
+            "volume": "37",
+            "author": "M.H.A. Newman",
+            "year": "1928",
+            "unstructured": "Newman, M.H.A. (1928) Mr. Russell’s Causal Theory of Perception. Mind\n                  37: 137–148.",
+            "journal-title": "Mind"
+          },
+          {
+            "key": "4_CR16",
+            "unstructured": "Poincaré, H. (1905). Science and Hypothesis. Reprinted, New York: Dover, 1952."
+          },
+          {
+            "key": "4_CR17",
+            "volume-title": "Scientific Realism—How Science Tracks Truth",
+            "author": "S. Psillos",
+            "year": "1999",
+            "unstructured": "Psillos, S. (1999) Scientific Realism—How Science Tracks Truth. London and New York: Routledge."
+          },
+          {
+            "key": "4_CR18",
+            "volume-title": "Meaning and the Moral Sciences",
+            "author": "H. Putnam",
+            "year": "1978",
+            "unstructured": "Putnam, H. (1978). Meaning and the Moral Sciences. Boston MA,: Routledge and Kegan Paul."
+          },
+          {
+            "key": "4_CR19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/0195174089.001.0001",
+            "volume-title": "Exceeding our Grasp: Science, History and the Problem of Unconceived Alternatives",
+            "author": "P.K. Stanford",
+            "year": "2006",
+            "unstructured": "Stanford, P.K. (2006). Exceeding our Grasp: Science, History and the Problem of Unconceived Alternatives. New York and Oxford: Oxford University Press."
+          },
+          {
+            "key": "4_CR20",
+            "first-page": "135",
+            "volume-title": "The Uses of Experiment",
+            "author": "J. Worrall",
+            "year": "1989",
+            "unstructured": "Worrall, J. (1989) Fresnel, Poisson and the White Spot: The Role of Successful Predictions in the Acceptance of Scientific Theories. In D. Gooding, T. Pinch, and S. Shaffer (eds.), The Uses of Experiment (pp. 135–157). Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "4_CR21",
+            "unstructured": "Worrall, J. (1989) Structural Realism: The Best of Both Worlds. Reprinted in D. Papineau (ed.), The Philosophy of Science (pp. 139–165). Oxford: Oxford University Press, 1996."
+          },
+          {
+            "key": "4_CR22",
+            "first-page": "206",
+            "volume": "LXXIV",
+            "author": "J. Worrall",
+            "year": "2000",
+            "unstructured": "Worrall, J. (2000) Tracking Track Records: A Response to Lipton. Proceedings of the Aristotelian Society. Supplementary Volume LXXIV: 206–220.",
+            "journal-title": "Proceedings of the Aristotelian Society."
+          },
+          {
+            "key": "4_CR23",
+            "first-page": "191",
+            "volume-title": "In the Scope of Logic, Methodology and Philosophy of Science",
+            "author": "J. Worrall",
+            "year": "2002",
+            "unstructured": "Worrall, J. (2002). New Evidence for Old. In P. Gärdenfors et al. (eds.), In the Scope of Logic, Methodology and Philosophy of Science (pp. 191–209). Amsterdam: Kluwer."
+          },
+          {
+            "issue": "2",
+            "key": "4_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "157",
+            "DOI": "10.1007/s11229-009-9599-4",
+            "volume": "180",
+            "author": "J. Worrall",
+            "year": "2011",
+            "unstructured": "Worrall, J. (2011) Underdetermination, Realism and Empirical Equivalence. Synthèse\n                  180(2): 157–172.",
+            "journal-title": "Synthèse"
+          },
+          {
+            "key": "4_CR25",
+            "unstructured": "Worrall, J. (forthcoming) Defending Structural Realism, Or: The ‘Newman Objection’ What Objection?"
+          },
+          {
+            "key": "4_CR26",
+            "unstructured": "Worrall, J. (forthcoming) Avoiding Pessimism the Structural Realist Way."
+          }
+        ],
+        "container-title": [
+          "The Western Ontario Series in Philosophy of Science",
+          "Structural Realism"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-94-007-2579-9_4",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2023-02-11T13:25:48Z",
+          "timestamp": 1676121948000
+        },
+        "score": 26.296284,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-94-007-2579-9_4"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              25
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789400725782",
+          "9789400725799"
+        ],
+        "references-count": 26,
+        "URL": "https://doi.org/10.1007/978-94-007-2579-9_4",
+        "ISSN": [
+          "1566-659X"
+        ],
+        "issn-type": [
+          {
+            "value": "1566-659X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              25
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "25 November 2011",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2026-07-02T08:04:44Z",
+          "timestamp": 1782979484373,
+          "version": "3.54.5"
+        },
+        "reference-count": 44,
+        "publisher": "Elsevier BV",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2010-01-01T00:00:00Z",
+              "timestamp": 1262304000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.shpsb.2009.11.001",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              2,
+              9
+            ]
+          ],
+          "date-time": "2010-02-09T15:34:47Z",
+          "timestamp": 1265729687000
+        },
+        "page": "50-57",
+        "source": "Crossref",
+        "is-referenced-by-count": 38,
+        "title": [
+          "What is ontic structural realism?"
+        ],
+        "prefix": "10.1016",
+        "volume": "41",
+        "author": [
+          {
+            "given": "Peter Mark",
+            "family": "Ainsworth",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "345",
+            "DOI": "10.1016/j.shpsb.2003.10.004",
+            "article-title": "Theories of Newtonian gravity and empirical indistinguishability",
+            "volume": "35",
+            "author": "Bain",
+            "year": "2004",
+            "journal-title": "Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.shpsb.2009.11.001_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "211",
+            "DOI": "10.1080/0269859032000169433",
+            "article-title": "What structures could not be",
+            "volume": "17",
+            "author": "Busch",
+            "year": "2003",
+            "journal-title": "International Studies in the Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "57",
+            "DOI": "10.1023/A:1024112417545",
+            "article-title": "Can we dissolve physical entities into mathematical structures?",
+            "volume": "136",
+            "author": "Cao",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "867",
+            "DOI": "10.1086/377373",
+            "article-title": "The structuralist conception of objects",
+            "volume": "70",
+            "author": "Chakravartty",
+            "year": "2003",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib5",
+            "series-title": "A metaphysics for scientific realism: Knowing the unobservable",
+            "author": "Chakravartty",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib6",
+            "series-title": "World enough and space–time: Absolute versus relational theories of space and time",
+            "author": "Earman",
+            "year": "1989"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "515",
+            "DOI": "10.1093/bjps/38.4.515",
+            "article-title": "What price space–time substantivalism? The hole story",
+            "volume": "38",
+            "author": "Earman",
+            "year": "1987",
+            "journal-title": "The British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib8",
+            "unstructured": "Einstein, A. (1954). Relativity: The special and the general theory (15th ed.). London: Methuen (translated by R. W. Lawson)."
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "601",
+            "DOI": "10.1016/j.shpsb.2004.04.008",
+            "article-title": "Quantum entanglement and a metaphysics of relations",
+            "volume": "35",
+            "author": "Esfeld",
+            "year": "2004",
+            "journal-title": "Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "27",
+            "DOI": "10.1007/s11229-006-9076-2",
+            "article-title": "Moderate structural realism about space–time",
+            "volume": "160",
+            "author": "Esfeld",
+            "year": "2008",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib11",
+            "series-title": "Interpreting bodies: Classical and quantum objects in modern physics",
+            "first-page": "93",
+            "article-title": "On the withering away of physical objects",
+            "author": "French",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib12",
+            "series-title": "From philosophy to physics",
+            "first-page": "187",
+            "article-title": "Models and mathematics in physics: The role of group theory",
+            "author": "French",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib13",
+            "unstructured": "French, S. (2006a). Identity and individuality in quantum theory. Stanford encyclopedia of philosophy, 〈http://plato.stanford.edu〉."
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "169",
+            "DOI": "10.1111/j.1467-9264.2006.00192.x",
+            "article-title": "Structure as a weapon of the realist",
+            "volume": "106",
+            "author": "French",
+            "year": "2006",
+            "journal-title": "Proceedings of the Aristotelian Society"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib15",
+            "series-title": "Identity in physics: A historical, philosophical, and formal analysis",
+            "author": "French",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "31",
+            "DOI": "10.1023/A:1024156116636",
+            "article-title": "Remodelling structural realism: Quantum physics and the metaphysics of structure",
+            "volume": "136",
+            "author": "French",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib17",
+            "doi-asserted-by": "crossref",
+            "first-page": "73",
+            "DOI": "10.1023/A:1024116502524",
+            "article-title": "The dissolution of objects: Between platonism and phenomenalism",
+            "volume": "136",
+            "author": "French",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.shpsb.2009.11.001_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "233",
+            "DOI": "10.1093/bjps/39.2.233",
+            "article-title": "Quantum physics and the identity of indiscernibles",
+            "volume": "39",
+            "author": "French",
+            "year": "1988",
+            "journal-title": "The British Journal for the Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib19",
+            "unstructured": "Ghirardi, G. (2007). Quantum mechanics: Collapse theories. Stanford encyclopedia of philosophy, 〈http://plato.stanford.edu〉."
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "5",
+            "DOI": "10.2307/2941016",
+            "article-title": "The metaphysics of space–time substantivalism",
+            "volume": "93",
+            "author": "Hoefer",
+            "year": "1996",
+            "journal-title": "Journal of Philosophy"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "5",
+            "DOI": "10.2307/2564646",
+            "article-title": "Atomic metaphysics",
+            "volume": "96",
+            "author": "Huggett",
+            "year": "1999",
+            "journal-title": "Journal of Philosophy"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib22",
+            "series-title": "From metaphysics to ethics: A defence of conceptual analysis",
+            "author": "Jackson",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "651",
+            "DOI": "10.1016/S1355-2198(03)00067-4",
+            "article-title": "The priority of internal symmetries in particle physics",
+            "volume": "34",
+            "author": "Kantorovich",
+            "year": "2003",
+            "journal-title": "Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "402",
+            "DOI": "10.1305/ndjfl/1093634404",
+            "article-title": "On a quasi-set theory",
+            "volume": "33",
+            "author": "Krause",
+            "year": "1992",
+            "journal-title": "Notre Dame Journal of Formal Logic"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "195",
+            "DOI": "10.1007/BF01063905",
+            "article-title": "A formal framework for quantum non-individuality",
+            "volume": "102",
+            "author": "Krause",
+            "year": "1995",
+            "journal-title": "Synthese"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.shpsb.2009.11.001_bib26",
+            "doi-asserted-by": "crossref",
+            "first-page": "409",
+            "DOI": "10.1016/S0039-3681(98)80129-5",
+            "article-title": "What is structural realism?",
+            "volume": "29",
+            "author": "Ladyman",
+            "year": "1998",
+            "journal-title": "Studies in the History and Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "57",
+            "DOI": "10.21825/philosophica.82261",
+            "article-title": "Science, metaphysics and structural realism",
+            "volume": "67",
+            "author": "Ladyman",
+            "year": "2001",
+            "journal-title": "Philosophica"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib28",
+            "unstructured": "Ladyman, J. (2007). Structural realism. Stanford encyclopaedia of philosophy, 〈http://plato.stanford.edu〉"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib29",
+            "series-title": "Everything must go",
+            "author": "Ladyman",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib30",
+            "doi-asserted-by": "crossref",
+            "first-page": "643",
+            "DOI": "10.1016/j.shpsb.2004.07.004",
+            "article-title": "Holism and structuralism in U(1) Gauge theory",
+            "volume": "35",
+            "author": "Lyre",
+            "year": "2004",
+            "journal-title": "Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib31",
+            "unstructured": "Morganti, M. (2007). Individual particles, properties and quantum statistics, talk given at the European Philosophy of Science Association meeting. Available online: 〈http://philsci-archive.pitt.edu/archive/00003613〉"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib33",
+            "unstructured": "Newton, I. (1962) De Gravitatione et Aequipondio Fluidorum. In A. R. Hall, & M. B. Hall (Eds.), (1962). Unpublished scientific papers of Isaac Newton (pp. 89–156). Cambridge: Cambridge University Press."
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib34",
+            "series-title": "Structural foundations of quantum gravity",
+            "first-page": "83",
+            "article-title": "Points, particles and structural realism",
+            "author": "Pooley",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib35",
+            "unstructured": "Psillos, S. (2004). The structure, the whole structure and nothing but the structure?. In Proceedings of the Philosophy of Science Association, 19th biennial meeting—PSA2004: PSA 2004 symposia."
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib36",
+            "doi-asserted-by": "crossref",
+            "first-page": "701",
+            "DOI": "10.2307/2017667",
+            "article-title": "Designation and existence",
+            "volume": "36",
+            "author": "Quine",
+            "year": "1939",
+            "journal-title": "Journal of Philosophy"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib37",
+            "first-page": "21",
+            "article-title": "On what there is",
+            "volume": "2",
+            "author": "Quine",
+            "year": "1948",
+            "journal-title": "Review of Metaphysics"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.shpsb.2009.11.001_bib38",
+            "doi-asserted-by": "crossref",
+            "first-page": "20",
+            "DOI": "10.2307/2181906",
+            "article-title": "Main trends in recent philosophy: Two dogmas of empiricism",
+            "volume": "60",
+            "author": "Quine",
+            "year": "1951",
+            "journal-title": "The Philosophical Review"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib39",
+            "series-title": "The analysis of matter",
+            "author": "Russell",
+            "year": "1927"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib41",
+            "series-title": "Ontological aspects of quantum field theory",
+            "article-title": "Candidate general ontologies for situating quantum field theory",
+            "author": "Simons",
+            "year": "2002"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib42",
+            "series-title": "Reading natural philosophy: Essays in the history and philosophy of science and mathematics",
+            "first-page": "231",
+            "article-title": "‘The relations between things’ versus ‘the things between relations’: The deeper meaning of the hole argument",
+            "author": "Stachel",
+            "year": "2002"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib43",
+            "series-title": "Structural foundations of quantum gravity",
+            "first-page": "53",
+            "article-title": "Structure, individuality and quantum gravity",
+            "author": "Stachel",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib44",
+            "series-title": "An interpretative introduction to quantum field theory",
+            "author": "Teller",
+            "year": "1995"
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib45",
+            "unstructured": "Weyl, H. (1931) (reprinted 1950). The theory of groups and quantum mechanics. New York: Courier Dover Publications (translated by H.P. Robertson)."
+          },
+          {
+            "key": "10.1016/j.shpsb.2009.11.001_bib46",
+            "doi-asserted-by": "crossref",
+            "first-page": "99",
+            "DOI": "10.1111/j.1746-8361.1989.tb00933.x",
+            "article-title": "Structural realism: The best of both worlds?",
+            "volume": "43",
+            "author": "Worrall",
+            "year": "1989",
+            "journal-title": "Dialectica"
+          }
+        ],
+        "container-title": [
+          "Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1355219809000604?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1355219809000604?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2023-05-30T04:39:25Z",
+          "timestamp": 1685421565000
+        },
+        "score": 25.930407,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1355219809000604"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              1
+            ]
+          ]
+        },
+        "references-count": 44,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2010,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S1355219809000604"
+        ],
+        "URL": "https://doi.org/10.1016/j.shpsb.2009.11.001",
+        "ISSN": [
+          "1355-2198"
+        ],
+        "issn-type": [
+          {
+            "value": "1355-2198",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              31
+            ]
+          ],
+          "date-time": "2026-07-31T17:57:07Z",
+          "timestamp": 1785520627419,
+          "version": "3.56.0"
+        },
+        "reference-count": 40,
+        "publisher": "Wiley",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2017,
+                  4,
+                  6
+                ]
+              ],
+              "date-time": "2017-04-06T00:00:00Z",
+              "timestamp": 1491436800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 5,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "compass.onlinelibrary.wiley.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Philosophy Compass"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Ontic structural realism (OSR) is at its core the view that “structure is ontologically fundamental.” Informed from its inception by the scientific revolutions that punctuated the 20th century, its advocates often present the position as the perspective on ontology best befitting of modern physics. But the idea that structure is fundamental has proved difficult to articulate adequately, and what OSR's claimed naturalistic credentials consist in is hard to precisify as well. Nor is it clear that the position is actually supported by our most fundamental physical theories. What is clear, however, is that structuralists have revealed a seam of material at the core of modern physics that is replete with implications for metaphysics. This article will survey some positions subsumed under the rubric of OSR, considering both their warrant and the interconnections that exist between them. It will be argued that the fundamental kind properties pose a challenge to ontic structuralism, because it seems that these properties do not supervene upon the relevant structures. But it will also be argued that the development of structuralist metaphysics will require both an engagement with the details of modern physical theories and the deployment of tools more typically developed in a priori metaphysics. As such, it seems armchair metaphysicians have not just a stake in whether OSR's claims may ultimately be shown to stand up, but a crucial role to play in getting them to the point where they can be subjected to scrutiny in the first place.</jats:p>",
+        "DOI": "10.1111/phc3.12399",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2017-04-06T03:00:36Z",
+          "timestamp": 1491447636000
+        },
+        "update-policy": "https://doi.org/10.1002/crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 22,
+        "title": [
+          "Ontic Structural Realism"
+        ],
+        "prefix": "10.1111",
+        "volume": "12",
+        "author": [
+          {
+            "given": "Kerry",
+            "family": "McKenzie",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of California, San Diego"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              4,
+              6
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_7_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s13194-014-0100-y"
+          },
+          {
+            "key": "e_1_2_7_3_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5840/jphil20121091232"
+          },
+          {
+            "key": "e_1_2_7_4_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1747-9991.2010.00361.x"
+          },
+          {
+            "key": "e_1_2_7_5_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/mind/fzt001"
+          },
+          {
+            "key": "e_1_2_7_6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/378865"
+          },
+          {
+            "key": "e_1_2_7_7_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0039-3681(93)90037-K"
+          },
+          {
+            "key": "e_1_2_7_8_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/377373"
+          },
+          {
+            "key": "e_1_2_7_9_1",
+            "volume-title": "Scientific Structuralism",
+            "author": "Esfeld M.",
+            "year": "2011"
+          },
+          {
+            "issue": "1",
+            "key": "e_1_2_7_10_1",
+            "first-page": "1",
+            "article-title": "The question of realism",
+            "volume": "1",
+            "author": "Fine K.",
+            "year": "2001",
+            "journal-title": "Philosophers' Imprint"
+          },
+          {
+            "key": "e_1_2_7_11_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1467-9264.2006.00192.x"
+          },
+          {
+            "key": "e_1_2_7_12_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11229-010-9734-2"
+          },
+          {
+            "key": "e_1_2_7_13_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780199684847.001.0001"
+          },
+          {
+            "key": "e_1_2_7_14_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/0199278245.001.0001"
+          },
+          {
+            "key": "e_1_2_7_15_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1024156116636"
+          },
+          {
+            "key": "e_1_2_7_16_1",
+            "volume-title": "Scientific Structuralism",
+            "author": "French S.",
+            "year": "2011"
+          },
+          {
+            "key": "e_1_2_7_17_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1163/9789004310827_003"
+          },
+          {
+            "key": "e_1_2_7_18_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/39.2.233"
+          },
+          {
+            "key": "e_1_2_7_19_1",
+            "article-title": "Quantum holism:Nonseparability as common ground",
+            "author": "Ismael Jenann",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "e_1_2_7_20_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780199276196.001.0001"
+          },
+          {
+            "key": "e_1_2_7_21_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0039-3681(98)80129-5"
+          },
+          {
+            "key": "e_1_2_7_22_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ladyman J. (2007). “On the identity and diversity of individuals ”The Proceedings of the Aristotelian Society Supplementary Volume81:23–43.",
+            "DOI": "10.1111/j.1467-8349.2007.00149.x"
+          },
+          {
+            "key": "e_1_2_7_23_1",
+            "volume-title": "The Stanford Encyclopedia of Philosophy",
+            "author": "Ladyman J",
+            "year": "2014"
+          },
+          {
+            "key": "e_1_2_7_24_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511621123"
+          },
+          {
+            "key": "e_1_2_7_25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00048408312341131"
+          },
+          {
+            "key": "e_1_2_7_26_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsb.2004.07.004"
+          },
+          {
+            "key": "e_1_2_7_27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780199218219.001.0001"
+          },
+          {
+            "key": "e_1_2_7_28_1",
+            "first-page": "181",
+            "article-title": "Structural realism and the meaning of theoretical terms",
+            "volume": "4",
+            "author": "Maxwell G.",
+            "year": "1971",
+            "journal-title": "Minnesota Studies in the Philosophy of Science"
+          },
+          {
+            "key": "e_1_2_7_29_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsb.2011.09.002"
+          },
+          {
+            "key": "e_1_2_7_30_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axt017"
+          },
+          {
+            "key": "e_1_2_7_31_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.shpsa.2016.06.005"
+          },
+          {
+            "key": "e_1_2_7_32_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11098-012-9906-7"
+          },
+          {
+            "key": "e_1_2_7_33_1",
+            "volume-title": "Scientific Realism: How Science Tracks Truth",
+            "author": "Psillos S.",
+            "year": "1999"
+          },
+          {
+            "key": "e_1_2_7_34_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/392894"
+          },
+          {
+            "key": "e_1_2_7_35_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511535369.017"
+          },
+          {
+            "key": "e_1_2_7_36_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780195145649.003.0006"
+          },
+          {
+            "key": "e_1_2_7_37_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780199697908.001.0001"
+          },
+          {
+            "key": "e_1_2_7_38_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/oxfordjournals.bjps/37.1.71"
+          },
+          {
+            "key": "e_1_2_7_39_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axl002"
+          },
+          {
+            "key": "e_1_2_7_40_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bjps/axr041"
+          },
+          {
+            "key": "e_1_2_7_41_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1746-8361.1989.tb00933.x"
+          }
+        ],
+        "container-title": [
+          "Philosophy Compass"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fphc3.12399",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://compass.onlinelibrary.wiley.com/doi/pdf/10.1111/phc3.12399",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              4
+            ]
+          ],
+          "date-time": "2025-11-04T10:23:49Z",
+          "timestamp": 1762251829000
+        },
+        "score": 25.921501,
+        "resource": {
+          "primary": {
+            "URL": "https://compass.onlinelibrary.wiley.com/doi/10.1111/phc3.12399"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        },
+        "references-count": 40,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                4
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1111/phc3.12399"
+        ],
+        "URL": "https://doi.org/10.1111/phc3.12399",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "1747-9991",
+          "1747-9991"
+        ],
+        "issn-type": [
+          {
+            "value": "1747-9991",
+            "type": "print"
+          },
+          {
+            "value": "1747-9991",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2016-09-12",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2016-11-18",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2017-04-06",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "article-number": "e12399"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              14
+            ]
+          ],
+          "date-time": "2026-02-14T10:39:25Z",
+          "timestamp": 1771065565079,
+          "version": "3.50.1"
+        },
+        "reference-count": 34,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2015-02-01T00:00:00Z",
+              "timestamp": 1422748800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100004895",
+            "name": "European Social Fund",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100004895",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.shpsb.2015.01.003",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              2,
+              13
+            ]
+          ],
+          "date-time": "2015-02-13T20:47:58Z",
+          "timestamp": 1423860478000
+        },
+        "page": "84-101",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "special_numbering": "C",
+        "title": [
+          "For or against structural realism? A verdict from high energy physics"
+        ],
+        "prefix": "10.1016",
+        "volume": "49",
+        "author": [
+          {
+            "given": "Antigone M.",
+            "family": "Nounou",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "1",
+            "key": "10.1016/j.shpsb.2015.01.003_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "50",
+            "DOI": "10.1016/j.shpsb.2009.11.001",
+            "article-title": "What is ontic structural realism?",
+            "volume": "41",
+            "author": "Ainsworth",
+            "year": "2010",
+            "journal-title": "Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib2",
+            "series-title": "Scientific structuralism, Boston studies in the philosophy of science",
+            "article-title": "Structuralist approaches to physics: objects, models and modality",
+            "author": "Brading",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1016/S1355-2198(01)00033-8",
+            "article-title": "Which symmetry? Noether, Weyl and conservation of electric charge",
+            "volume": "33",
+            "author": "Brading",
+            "year": "2003",
+            "journal-title": "History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib4",
+            "series-title": "Symmetries in physics: Philosophical reflections",
+            "first-page": "89",
+            "article-title": "Symmetries and Noether׳s theorems",
+            "author": "Brading",
+            "year": "2002"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.shpsb.2015.01.003_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "571",
+            "DOI": "10.1086/518327",
+            "article-title": "Scientific structuralism: Presentation and representation",
+            "volume": "73",
+            "author": "Brading",
+            "year": "2006",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib6",
+            "unstructured": "Brading, K. & Skiles, A. (2012). Underdetermination as a path to ontic structural realism. In E. Landry & D. Rickles (Eds.), Structure, object, and causality: proceedings of the Banff workshop on structural realism (pp. 99–116). University of Western Ontario Series in Philosophy of Science, Springer."
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib7",
+            "series-title": "Smoke and mirrors: How science reflects reality",
+            "author": "Brown",
+            "year": "1994"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib8",
+            "series-title": "Interpreting bodies",
+            "author": "Castellani",
+            "year": "1998"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.shpsb.2015.01.003_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "867",
+            "DOI": "10.1086/377373",
+            "article-title": "The structuralist conception of objects",
+            "volume": "70",
+            "author": "Chakravartty",
+            "year": "2003",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib10",
+            "series-title": "Structural realism: Structure, object and causality, the Western Ontario series in philosophy of science",
+            "article-title": "Ontological priority: The conceptual basis of non-eliminative, ontic structural realism",
+            "author": "Chakravartty",
+            "year": "2012"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.shpsb.2015.01.003_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "205",
+            "DOI": "10.1007/s11229-009-9598-5",
+            "article-title": "Metaphysical underdetermination: Why worry?",
+            "volume": "180",
+            "author": "French",
+            "year": "2009",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "31",
+            "DOI": "10.1023/A:1024156116636",
+            "article-title": "Remodelling structural realism: Quantum physics and the metaphysics of structure",
+            "volume": "136",
+            "author": "French",
+            "year": "2003",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib13",
+            "series-title": "The Quark and the Jaguar: Adventures in the simple and the complex",
+            "author": "Gell-Mann",
+            "year": "1994"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib14",
+            "series-title": "Gauging Whatís real: The conceptual foundations of contemporary gauge theories",
+            "author": "Healey",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "651",
+            "DOI": "10.1016/S1355-2198(03)00067-4",
+            "article-title": "The priority of internal symmetries in particle physics",
+            "volume": "34",
+            "author": "Kantorovich",
+            "year": "2003",
+            "journal-title": "Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib17",
+            "unstructured": "Ladyman, J. (2009). In Edward N. Zalta (Ed.), “Structural Realism”, The Stanford encyclopedia of philosophy (Summer 2009 edition). URL: 〈http://plato.stanford.edu/archives/sum2009/entries/structural-realism/〉."
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib18",
+            "series-title": "Everything must go: Metaphysics naturalized",
+            "author": "Ladyman",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "643",
+            "DOI": "10.1016/j.shpsb.2004.07.004",
+            "article-title": "Holism and structuralism in U(1) gauge theory",
+            "volume": "35",
+            "author": "Lyre",
+            "year": "2004",
+            "journal-title": "Studies in History and Philosophy of Modern Physics"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "S221",
+            "DOI": "10.1086/341848",
+            "article-title": "Gauge principles, gauge argument and the logic of nature",
+            "volume": "69",
+            "author": "Martin",
+            "year": "2002",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib21",
+            "first-page": "1",
+            "article-title": "Priority and particle physics: Ontic structural realism as a fundamentality thesis",
+            "volume": "0",
+            "author": "McKenzie",
+            "year": "2012",
+            "journal-title": "British Journal for Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib22",
+            "series-title": "Models as mediators: Perspectives on natural and social science",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib23",
+            "series-title": "Models as mediators: Perspectives on natural and social science",
+            "first-page": "38",
+            "article-title": "Models as autonomous agents",
+            "author": "Morrison",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib24",
+            "unstructured": "Nounou, A. (2012). Varieties of properties and kinds of objects. In E. Landry, D. Rickles (Eds.), Structure, object, and causality: Proceedings of the Banff workshop on structural realism (pp. 117–134). University of Western Ontario Series in Philosophy of Science, Springer."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.shpsb.2015.01.003_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "387",
+            "DOI": "10.1007/s10670-010-9212-8",
+            "article-title": "Holonomy Interpretation and Time: an Incompatible Match?",
+            "volume": "72",
+            "author": "Nounou",
+            "year": "2010",
+            "journal-title": "Erkenntnis"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib26",
+            "series-title": "The structural foundations of quantum gravity",
+            "first-page": "83",
+            "article-title": "Points, particles and structural realism",
+            "author": "Pooley",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1007/s11229-009-9563-3",
+            "article-title": "Living with the abstract: Realism and models",
+            "volume": "180",
+            "author": "Psillos",
+            "year": "2011",
+            "journal-title": "Synthese"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "47",
+            "DOI": "10.1093/bjps/axq009",
+            "article-title": "Group structural realism",
+            "volume": "62",
+            "author": "Roberts",
+            "year": "2011",
+            "journal-title": "British Journal for Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib29",
+            "series-title": "Philosophy of mathematics: Structure and ontology",
+            "author": "Shapiro",
+            "year": "1997"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib30",
+            "series-title": "Thinking about mathematics: The philosophy of mathematics",
+            "author": "Shaprio",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "657",
+            "DOI": "10.1038/nature12954",
+            "article-title": "Observation of Dirac monopoles in a synthetic magnetic field",
+            "volume": "505",
+            "author": "Ray",
+            "year": "2014",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib32",
+            "series-title": "Fifty years of Yang-Mills theory",
+            "year": "2005"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "S466",
+            "DOI": "10.1086/392839",
+            "article-title": "The gauge argument",
+            "volume": "67",
+            "author": "Teller",
+            "year": "2000",
+            "journal-title": "Philosophy of Science"
+          },
+          {
+            "key": "10.1016/j.shpsb.2015.01.003_bib34",
+            "series-title": "Fifty years of Yang-Mills theory",
+            "article-title": "The making of the standard model",
+            "author": "Weinberg",
+            "year": "2005"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.shpsb.2015.01.003_bib35",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.2307/1968551",
+            "article-title": "On unitary representations of the inhomogeneous Lorentz group",
+            "volume": "40",
+            "author": "Wigner",
+            "year": "1939",
+            "journal-title": "The Annals of Mathematics"
+          }
+        ],
+        "container-title": [
+          "Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1355219815000040?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1355219815000040?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2018-09-25T03:00:14Z",
+          "timestamp": 1537844414000
+        },
+        "score": 25.696468,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1355219815000040"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              2
+            ]
+          ]
+        },
+        "references-count": 34,
+        "alternative-id": [
+          "S1355219815000040"
+        ],
+        "URL": "https://doi.org/10.1016/j.shpsb.2015.01.003",
+        "ISSN": [
+          "1355-2198"
+        ],
+        "issn-type": [
+          {
+            "value": "1355-2198",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              2
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "For or against structural realism? A verdict from high energy physics",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.shpsb.2015.01.003",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2015 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 8,
+    "query": {
+      "start-index": 0,
+      "search-terms": "structural realism physics philosophy"
+    }
+  }
+}

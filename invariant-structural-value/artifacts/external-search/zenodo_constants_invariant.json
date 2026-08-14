@@ -1,0 +1,2195 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "created": "2026-08-14T05:31:00.249811+00:00",
+        "modified": "2026-08-14T05:31:00.541939+00:00",
+        "id": 21929058,
+        "conceptrecid": "21929057",
+        "doi": "10.5281/zenodo.21929058",
+        "conceptdoi": "10.5281/zenodo.21929057",
+        "doi_url": "https://doi.org/10.5281/zenodo.21929058",
+        "metadata": {
+          "title": "SIROJIDDIN SAYYID SHE'RIYATIDA METAFORANING KOGNITIV-SEMANTIK TABIATI",
+          "doi": "10.5281/zenodo.21929058",
+          "publication_date": "2026-08-25",
+          "description": "Mazkur maqolada zamonaviy o'zbek she'riyatining yorqin namoyandalaridan biri Sirojiddin Sayyid ijodidagi metaforalar kognitiv lingvistika nuqtai nazaridan tahlil qilinadi. Tadqiqotda metafora an'anaviy uslubshunoslikdagidek shunchaki badiiy bezak vositasi sifatida emas, balki shoirning olamni idrok etish tarzini, milliy tafakkur xususiyatlarini ifodalovchi konseptual mexanizm sifatida o'rganiladi. Maqolada shoir she'riyatida faol qo'llanuvchi to'rtta konseptual metafora modeli — VATAN-ONA, TABIAT-INSON, VAQT-OQIM va QALB-MAKON — ajratib ko'rsatiladi hamda ularning manba va maqsad domenlari, milliy-madaniy asoslari yoritiladi",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Xurramova Aziza Shuhrat qizi",
+              "affiliation": null
+            }
+          ],
+          "keywords": [
+            "cognitive linguistics",
+            "conceptual metaphor",
+            "individual style",
+            "poetic text",
+            "source domain",
+            "target domain",
+            "Sirojiddin Sayyid",
+            "national thinking",
+            "индивидуальный стиль",
+            "когнитивная лингвистика",
+            "концептуальная метафора",
+            "поэтический текст",
+            "исходный домен",
+            "целевой домен",
+            "Сирожиддин Саййид",
+            "национальное мышление",
+            "individual uslub",
+            "kognitiv lingvistika",
+            "konseptual metafora",
+            "manba domen",
+            "maqsad domen",
+            "poetik matn",
+            "milliy tafakkur"
+          ],
+          "references": [
+            "1. Jovbo'riyeva U.T. Sirojiddin Sayyid she'riyatida onomastik birliklar tahlili // Multidisciplinary Journal: Fundamental Research Scientific Journal. — 2026.",
+            "2. Lakoff G., Johnson M. Metaphors We Live By. — Chicago: University of Chicago Press, 1980.",
+            "3. Lolayeva G.B. Sirojiddin Said she'rlarining lingvopoetik tahlili // Portugal-Scientific Review of the Problems and Prospects of Modern Science and Education. — 2025. — Vol. 1, No. 7. — B. 31–33.",
+            "4. Mahmudov N. Termin, badiiy so'z va metafora // O'zbek tili va adabiyoti. — 2013.",
+            "5. Sirojiddin Sayyid. Ustimizdan o'tgan oylar. — Toshkent, 2003.",
+            "6. Sirojiddin Sayyid. Vatan abadiy. — Toshkent, 2001"
+          ],
+          "language": "uzb",
+          "resource_type": {
+            "title": "Conference paper",
+            "type": "publication",
+            "subtype": "conferencepaper"
+          },
+          "meeting": {
+            "title": "Zamonaviy fan: innovatsion yondashuvlar va yosh tadqiqotchilarning dolzarb izlanishlari",
+            "dates": "2026",
+            "url": "https://smartquillpublishing.uz/uz/articles/sirojiddin-sayyid-sheriyatida-metaforaning-kognitiv-semantik-tabiati",
+            "session": "1",
+            "session_part": "1"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21929057"
+                }
+              }
+            ]
+          },
+          "notes": "<p><strong>English abstract</strong></p><p>This article examines the metaphors in the poetry of the prominent contemporary Uzbek poet Sirojiddin Sayyid from the standpoint of cognitive linguistics. Rather than treating metaphor merely as a decorative stylistic device, the study approaches it as a conceptual mechanism that reflects the poet&#039;s perception of reality and features of national thinking. Four conceptual metaphor models frequently employed in the poet&#039;s work are identified — HOMELAND-AS-MOTHER, NATURE-AS-HUMAN-EXPERIENCE, TIME-AS-FLOW, and HEART-AS-SPACE — and their source and target domains, as well as their national-cultural grounding, are discussed</p><p><strong>Русская аннотация</strong></p><p>В данной статье метафоры в творчестве Сирожиддина Саййида, одного из ярких представителей современной узбекской поэзии, анализируются с точки зрения когнитивной лингвистики. В исследовании метафора рассматривается не как простое стилистическое украшение, характерное для традиционной стилистики, а как концептуальный механизм, отражающий восприятие мира поэтом и особенности национального мышления. В статье выделяются четыре концептуальные модели метафоры, активно используемые в поэзии автора, — РОДИНА-МАТЬ, ПРИРОДА-ЧЕЛОВЕК, ВРЕМЯ-ПОТОК и СЕРДЦЕ-ПРОСТРАНСТВО, — а также освещаются их исходные и целевые домены и национально-культурные основы</p>"
+        },
+        "title": "SIROJIDDIN SAYYID SHE'RIYATIDA METAFORANING KOGNITIV-SEMANTIK TABIATI",
+        "links": {
+          "self": "https://zenodo.org/api/records/21929058",
+          "self_html": "https://zenodo.org/records/21929058",
+          "preview_html": "https://zenodo.org/records/21929058?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21929058",
+          "self_doi": "https://doi.org/10.5281/zenodo.21929058",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21929058",
+          "reserve_doi": "https://zenodo.org/api/records/21929058/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21929057",
+          "parent_html": "https://zenodo.org/records/21929057",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21929057",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21929057",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21929058/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21929058/sequence/default",
+          "files": "https://zenodo.org/api/records/21929058/files",
+          "media_files": "https://zenodo.org/api/records/21929058/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21929058:d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21929058:d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21929058:d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21929058:d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21929058:d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21929058:d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21929058/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21929058/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21929058/versions/latest",
+          "latest_html": "https://zenodo.org/records/21929058/latest",
+          "versions": "https://zenodo.org/api/records/21929058/versions",
+          "draft": "https://zenodo.org/api/records/21929058/draft",
+          "access_links": "https://zenodo.org/api/records/21929058/access/links",
+          "access_grants": "https://zenodo.org/api/records/21929058/access/grants",
+          "access_users": "https://zenodo.org/api/records/21929058/access/users",
+          "access_request": "https://zenodo.org/api/records/21929058/access/request",
+          "access": "https://zenodo.org/api/records/21929058/access",
+          "communities": "https://zenodo.org/api/records/21929058/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21929058/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21929058/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21929058/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21929058/quota-increase",
+          "requests": "https://zenodo.org/api/records/21929058/requests"
+        },
+        "updated": "2026-08-14T05:31:00.541939+00:00",
+        "recid": "21929058",
+        "revision": 4,
+        "files": [
+          {
+            "id": "0898ceea-865e-41e1-a829-6b5c70915805",
+            "key": "d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf",
+            "size": 467292,
+            "checksum": "md5:6fa9c43a37f1fb0b5191e83ea164a2b7",
+            "links": {
+              "self": "https://zenodo.org/api/records/21929058/files/d26f5485-38a5-4dda-8390-738f83b4e982-muqova.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1549547"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T05:23:26.905224+00:00",
+        "modified": "2026-08-14T05:23:27.051501+00:00",
+        "id": 21928746,
+        "conceptrecid": "21483400",
+        "doi": "10.5281/zenodo.21928746",
+        "conceptdoi": "10.5281/zenodo.21483400",
+        "doi_url": "https://doi.org/10.5281/zenodo.21928746",
+        "metadata": {
+          "title": "Final Unifying Physics Theory: Completion of Einstein's Mass-Energy Equivalence Formula by Adding the Movahed Energy Escape Factor (MEEF), Mo:        M eff = (E / c²) × (1 - Mo)  →   1 – Mo equal to  1/γ  Lorentz Factor Leading to the Unification of Gravity with Quantum Mechanics with Hypothesis that the Basic Building Block of the Universe is only Energy Always Propagating at the Speed of Light, and Mass is only the Manifestation of Confined Energy Resolving Many Mysteries in Physics such as Explaining Mass, Gravity, Dark Matter, Magnetism, Time, Elementary Particles, Polarity, Dark Energy and More",
+          "doi": "10.5281/zenodo.21928746",
+          "publication_date": "2026-08-14",
+          "description": "<p class=\"MsoBodyText\">The origin of the universe and of mass in general, and in composite systems, remains one of the most intriguing questions in modern physics.&nbsp; Quantum Chromodynamics (QCD) seeks to explain how energy in an atomic nucleus can generate mass through a highly complex equation.&nbsp; Still, a paradox seemingly arises as gluons travel at the speed of light and as any mass traveling at the speed of light should have infinite energy, making the hypothesis of gluons having mass very unrealistic, and the QCD solution an unsatisfactory explanation for nuclear mass. This paper modifies the Einstein mass-energy equivalence formula by adding the \"Movahed Energy Escape Factor\" (MEEF) with a symbol Mo to the Einstein equation. This modification not only explains the missing nuclear atomic mass but also suggests that everything in the Universe is basically made from energy propagating always at the speed of light. Any masses with gravitational forces, such as atoms, energy in a gravitational field, or elementary particles, are only a manifestation of partially or fully confined energy in them. This factor quantifies the degree of energy confinement of a system (or particle), ranging from 0 (or 0% escaping energy, meaning total confinement, generating rest mass with gravitational effect with no free-moving energy) to the maximum value of 1 (or 100%, meaning free to propagate, basically being massless with zero gravitational effect).</p>\n<p class=\"MsoBodyText\">This not only resolves the nucleon mass problem but also the classic \"photon in a box\" thought experiment, with extensions to explain effective mass in dielectric media. In its basic understanding, it states that any mass has an escape factor near zero with a gravitational effect. Once an object with mass starts moving after energy is injected into it, the total Movahed escape factor of the total moving system will shift towards 1, but the escape factor Mo in the mass will always remain near zero, and as part of the injected energy will be confined in the moving mass, it will increase its effective mass and thus its gravitational force. In other words, the entire universe is made only from energy, and masses are manifestations of confined energy. Gravity is then a simple explanation as the effect of moving confined energy disturbing the surrounding vacuum energy or the leaking energy to the surrounding vacuum, leading to reduced vacuum density, thus causing a suction effect in the vacuum energy field. The Einstein modification is as follows: (for resting mass, Mo will be 0)</p>\n<p class=\"MsoBodyText\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M <sub>eff</sub> = (E / c&sup2;) &times; (1 - Mo)&nbsp;</p>\n<p class=\"MsoBodyText\">with 1- Mo can be replaced by the known Lorentz factor, as 1- Mo is equal to 1/&gamma;, consistent with the mass-energy relation.&nbsp; &nbsp; &nbsp; &nbsp;</p>\n<p class=\"MsoNormal\">&nbsp; So, Mo of a system is defined as</p>\n<p class=\"MsoBodyText\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mo = E <sub>escape</sub>/ E <sub>total</sub></p>\n<p class=\"MsoBodyText\"><sub>&nbsp;</sub></p>\n<p class=\"MsoBodyText\">As the energy of a system in motion is defined as m.v<sup>2,</sup> , the Mo factor of a moving system will most likely change based on the Lorentz factor. Once velocity reaches the speed of light, the Mo factor will be 1. However, the mass of a moving object will increase with higher velocity, and any mass that reaches the speed of light would require infinite energy. So only unconfined energy can reach the speed of light with a Mo factor of 1 without having any mass or gravitational effect.</p>\n<p class=\"MsoBodyText\">This framework provides a simplified understanding of how confinement mechanisms convert pure energy into inertial mass by adding the \"Movahed Energy Escape Factor\" (MEEF) Mo to the Einstein equation. It not only resolves the mass problem in the nucleus but also resolves almost all unknown mysteries in physics, such as contained energy in cells, dark matter, dark energy, the reason why only left-handed neutrinos exist, the resolution of black hole singularity, gravity, magnetism, polarity, spin, time dilation, age of the universe miscalculation, thermodynamics, etc. It is important to realize that in the real Universe, Mo =0 or Mo =1 are absolute boundaries that can probably never be totally reached. Gravity is present in every point in the universe, leading to some energy confinement prevention, Mo =1, and quantum mechanics does not allow Mo = 0.&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp;When external energy is injected into an object to accelerate it, the model treats the physical mass and the system's kinetic energy as two distinct parts of a global equation: The Mass Core: The physical mass is made entirely of fully confined energy. Its internal factor remains near zero.) Moving the object does not \"unconfine\" the energy that makes up its physical rest mass.&nbsp;</p>\n<p class=\"MsoBodyText\">The Movahed Model suggests that, with no force-carrying particles acting as messengers, energy propagation is needed. Energy propagation can be modeled using the principles of thermodynamics applied to the quantum vacuum. Energy moves purely due to a universal gradient&mdash;flowing naturally from areas of high potential (concentrated mass) to areas of low potential (empty space).&nbsp; The Movahed Energy Escape Factor would essentially act as the fundamental diffusion coefficient. Energy bleeds out and propagates outward organically as the universe attempts to smooth out localized energy densities, requiring no discrete particles to carry it. Furthermore, energy always travels at the speed of light regardless of complete free propagation or partial or complete confinement. This is the reason that the universe never ages or dies, as a fundamental building block at the speed of light has zero time passage.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Movahed Shariat Panahi, Mohammad Reza",
+              "affiliation": null
+            }
+          ],
+          "dates": [
+            {
+              "type": "submitted"
+            }
+          ],
+          "resource_type": {
+            "title": "Preprint",
+            "type": "publication",
+            "subtype": "preprint"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 1,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21483400"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Final Unifying Physics Theory: Completion of Einstein's Mass-Energy Equivalence Formula by Adding the Movahed Energy Escape Factor (MEEF), Mo:        M eff = (E / c²) × (1 - Mo)  →   1 – Mo equal to  1/γ  Lorentz Factor Leading to the Unification of Gravity with Quantum Mechanics with Hypothesis that the Basic Building Block of the Universe is only Energy Always Propagating at the Speed of Light, and Mass is only the Manifestation of Confined Energy Resolving Many Mysteries in Physics such as Explaining Mass, Gravity, Dark Matter, Magnetism, Time, Elementary Particles, Polarity, Dark Energy and More",
+        "links": {
+          "self": "https://zenodo.org/api/records/21928746",
+          "self_html": "https://zenodo.org/records/21928746",
+          "preview_html": "https://zenodo.org/records/21928746?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21928746",
+          "self_doi": "https://doi.org/10.5281/zenodo.21928746",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21928746",
+          "reserve_doi": "https://zenodo.org/api/records/21928746/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21483400",
+          "parent_html": "https://zenodo.org/records/21483400",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21483400",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21483400",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21928746/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21928746/sequence/default",
+          "files": "https://zenodo.org/api/records/21928746/files",
+          "media_files": "https://zenodo.org/api/records/21928746/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21928746:Updated%20Final%20Unification%20Manifesto%20Movahed%208-13-2026%20_MEEF.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21928746:Updated%20Final%20Unification%20Manifesto%20Movahed%208-13-2026%20_MEEF.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21928746:Updated%20Final%20Unification%20Manifesto%20Movahed%208-13-2026%20_MEEF.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21928746:Updated%20Final%20Unification%20Manifesto%20Movahed%208-13-2026%20_MEEF.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21928746:Updated%20Final%20Unification%20Manifesto%20Movahed%208-13-2026%20_MEEF.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21928746:Updated%20Final%20Unification%20Manifesto%20Movahed%208-13-2026%20_MEEF.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21928746/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21928746/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21928746/versions/latest",
+          "latest_html": "https://zenodo.org/records/21928746/latest",
+          "versions": "https://zenodo.org/api/records/21928746/versions",
+          "draft": "https://zenodo.org/api/records/21928746/draft",
+          "access_links": "https://zenodo.org/api/records/21928746/access/links",
+          "access_grants": "https://zenodo.org/api/records/21928746/access/grants",
+          "access_users": "https://zenodo.org/api/records/21928746/access/users",
+          "access_request": "https://zenodo.org/api/records/21928746/access/request",
+          "access": "https://zenodo.org/api/records/21928746/access",
+          "communities": "https://zenodo.org/api/records/21928746/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21928746/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21928746/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21928746/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21928746/quota-increase",
+          "requests": "https://zenodo.org/api/records/21928746/requests"
+        },
+        "updated": "2026-08-14T05:23:27.051501+00:00",
+        "recid": "21928746",
+        "revision": 4,
+        "files": [
+          {
+            "id": "9afe50ec-baef-4925-9556-fb97ba762dde",
+            "key": "Updated Final Unification Manifesto Movahed 8-13-2026 _MEEF.pdf",
+            "size": 19928220,
+            "checksum": "md5:6fb9d3ff4d8978531385cc5ebfb151a2",
+            "links": {
+              "self": "https://zenodo.org/api/records/21928746/files/Updated%20Final%20Unification%20Manifesto%20Movahed%208-13-2026%20_MEEF.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1766030"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 14,
+          "unique_downloads": 12,
+          "views": 33,
+          "unique_views": 24,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T05:05:27.227763+00:00",
+        "modified": "2026-08-14T05:05:27.691010+00:00",
+        "id": 21927944,
+        "conceptrecid": "21927943",
+        "doi": "10.5281/zenodo.21927944",
+        "conceptdoi": "10.5281/zenodo.21927943",
+        "doi_url": "https://doi.org/10.5281/zenodo.21927944",
+        "metadata": {
+          "title": "WALLE: Computational Chemistry Workflow Automation Platform",
+          "doi": "10.5281/zenodo.21927944",
+          "publication_date": "2026-08-14",
+          "description": "<p>WALLE is a Python-based workflow automation platform designed to simplify and standardize computational chemistry workflows in high-performance computing environments. It provides a unified interface for preparing, submitting, monitoring, and post-processing electronic-structure calculations and related analyses.</p>\n<p>WALLE integrates automated workflows for quantum-chemical calculations, global optimization, electronic-structure analysis and aromaticity characterization. Its modular design allows interaction with external computational chemistry software while avoiding redistribution of proprietary third-party programs.</p>\n<p>Version 0.1.0 represents the first public release of WALLE.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Leyva-Parra, Luis Moises",
+              "affiliation": "Centro de Investigación para el Diseño de Materiales (CEDEM), Facultad de Ciencias Exactas, Departamento de Ciencias Químicas, Universidad Andrés Bello, Avenida República 275, Santiago 8370146,Chile",
+              "orcid": "0000-0002-4210-1868"
+            }
+          ],
+          "keywords": [
+            "Computational chemistry",
+            "Workflow automation",
+            "Global optimization",
+            "Electronic structure",
+            "AUTOMATON",
+            "KICK",
+            "VASP",
+            "GIMIC",
+            "Aromaticity"
+          ],
+          "version": "0.1.0",
+          "language": "eng",
+          "custom": {
+            "code:programmingLanguage": [
+              {
+                "id": "python",
+                "title": {
+                  "en": "Python"
+                }
+              }
+            ],
+            "code:developmentStatus": {
+              "id": "active",
+              "title": {
+                "en": "Active"
+              }
+            }
+          },
+          "resource_type": {
+            "title": "Software",
+            "type": "software"
+          },
+          "license": {
+            "id": "mit-license"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21927943"
+                }
+              }
+            ]
+          }
+        },
+        "title": "WALLE: Computational Chemistry Workflow Automation Platform",
+        "links": {
+          "self": "https://zenodo.org/api/records/21927944",
+          "self_html": "https://zenodo.org/records/21927944",
+          "preview_html": "https://zenodo.org/records/21927944?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21927944",
+          "self_doi": "https://doi.org/10.5281/zenodo.21927944",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21927944",
+          "reserve_doi": "https://zenodo.org/api/records/21927944/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21927943",
+          "parent_html": "https://zenodo.org/records/21927943",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21927943",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21927943",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21927944/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21927944/sequence/default",
+          "files": "https://zenodo.org/api/records/21927944/files",
+          "media_files": "https://zenodo.org/api/records/21927944/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21927944:WALLE_v0.1.0_Technical_Description.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21927944:WALLE_v0.1.0_Technical_Description.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21927944:WALLE_v0.1.0_Technical_Description.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21927944:WALLE_v0.1.0_Technical_Description.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21927944:WALLE_v0.1.0_Technical_Description.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21927944:WALLE_v0.1.0_Technical_Description.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21927944/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21927944/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21927944/versions/latest",
+          "latest_html": "https://zenodo.org/records/21927944/latest",
+          "versions": "https://zenodo.org/api/records/21927944/versions",
+          "draft": "https://zenodo.org/api/records/21927944/draft",
+          "access_links": "https://zenodo.org/api/records/21927944/access/links",
+          "access_grants": "https://zenodo.org/api/records/21927944/access/grants",
+          "access_users": "https://zenodo.org/api/records/21927944/access/users",
+          "access_request": "https://zenodo.org/api/records/21927944/access/request",
+          "access": "https://zenodo.org/api/records/21927944/access",
+          "communities": "https://zenodo.org/api/records/21927944/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21927944/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21927944/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21927944/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21927944/quota-increase",
+          "requests": "https://zenodo.org/api/records/21927944/requests"
+        },
+        "updated": "2026-08-14T05:05:27.691010+00:00",
+        "recid": "21927944",
+        "revision": 4,
+        "files": [
+          {
+            "id": "c4f78c8f-acf1-4106-a7ee-79982bdcffb2",
+            "key": "WALLE-v0.1.0.sha256",
+            "size": 83,
+            "checksum": "md5:7981d41bd527083d94df02d2b0243b7a",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927944/files/WALLE-v0.1.0.sha256/content"
+            }
+          },
+          {
+            "id": "766dbf1c-ae44-4e4e-9f2b-28d42be3c59c",
+            "key": "WALLE-v0.1.0.zip",
+            "size": 78814,
+            "checksum": "md5:a964aec71e070b1b98070f26120342a4",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927944/files/WALLE-v0.1.0.zip/content"
+            }
+          },
+          {
+            "id": "e10d5c02-4ec6-418c-a8a9-eb5837b2d4b4",
+            "key": "WALLE_v0.1.0_Technical_Description.pdf",
+            "size": 20259,
+            "checksum": "md5:3f38bd50fe895cc646555f4b54fd7f2f",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927944/files/WALLE_v0.1.0_Technical_Description.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1826751"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T05:00:01.458714+00:00",
+        "modified": "2026-08-14T05:00:01.789269+00:00",
+        "id": 21928119,
+        "conceptrecid": "21297385",
+        "doi": "10.5281/zenodo.21928119",
+        "conceptdoi": "10.5281/zenodo.21297385",
+        "doi_url": "https://doi.org/10.5281/zenodo.21928119",
+        "metadata": {
+          "title": "Resolution Geometry of Observation Systems",
+          "doi": "10.5281/zenodo.21928119",
+          "publication_date": "2026-08-14",
+          "description": "<p>We develop <strong>Resolution Geometry</strong> (RG), a protocol-explicit geometry of observability derived from a declared statistical experiment and an admissibility protocol. The primitive object is not a covariance decomposition or a physical model, but a <strong>complete observation system</strong> together with the rules that determine which distinctions are operationally admissible. Equality of observation laws induces a universal observational quotient, establishing the canonical domain on which all experiment-internal statements must be defined.</p>\n<p>Within regular finite classical statistical models, the <strong>Fisher-Rao metric</strong> represents local distinguishability through the standard <strong>information-geometric characterization</strong> under sufficient-Markov invariance. Given a protocol metric and admissibility threshold, resolved directions are selected by a uniquely characterized spectral projector satisfying <strong>idempotence</strong>, <strong>metric self-adjointness</strong>, <strong>information compatibility</strong>, and <strong>threshold consistency</strong>. Observable sectors obtained in this way transport naturally under experiment isomorphisms and glue into observable atlases through identity and cocycle compatibility.</p>\n<p>The resulting structure separates three logically distinct layers. The quotient layer identifies what an experiment can and cannot distinguish. The metric layer quantifies local distinguishability. The admissibility layer determines which distinguishable directions survive nuisance closure, stability, conditioning, and transport requirements. Entropy appears only downstream: observational quotients induce a decomposition of total uncertainty into observable and unresolved components, recovering Boltzmann multiplicity entropy under conditional equiprobability as a special case rather than a primitive assumption.</p>\n<p>A covariance realization provides a concrete and computationally useful model of the general framework. In this setting, Fisher geometry is represented through <strong>Schur-complement identities</strong>, <strong>resolved-null coupling</strong> controls estimator improvement, <strong>canonical correlations</strong> provide observable-sector diagnostics, and <strong>transport structure</strong> admits gauge-theoretic and globalization interpretations. These constructions motivate applications to inverse problems, estimation theory, information geometry, and automated sector identification, but they are not taken as axioms of the framework itself.</p>\n<p>The geometric picture that emerges is not a single smooth manifold. The resolved sector carries <strong>Fisher-Riemannian path geometry</strong>, while coupling and null structure naturally inhabit <strong>stratified orbit spaces</strong> assembled from <strong>eigenvalue chambers</strong>, <strong>Grassmannian angle strata</strong>, and <strong>cones of positive-semidefinite forms</strong>. Resolution Geometry therefore lives most naturally as a <strong>Whitney-stratified orbit-space bundle</strong> whose smooth base supports transport, holonomy, and monodromy, while its fibres encode admissible distinguishability, degeneracy structure, and unresolved directions.</p>\n<p>The constituent mathematical ingredients$---$statistical experiment theory, observational quotients, Fisher geometry, spectral projectors, Schur complements, canonical correlations, cocycle descent, and stratified geometry$---$are classical. The contribution <strong>is not the introduction of a new primitive object</strong>, but their modular <strong>characterization and assembly into a single geometry</strong> of partial observability. <strong>Scope and non-claims</strong> are stated explicitly: the framework does not derive admissibility protocols from first principles, does not identify observability with ontology, and does not reduce physics to information. Its role is to characterize, for a declared experiment, the geometry of what can be distinguished, transported, and consistently inferred.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\">&nbsp;</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\"><span class=\"_animating_6ta1u_10\"><a href=\"https://github.com/Matesax/CTMT\">Repository</a></span></p>\n<p class=\"font-claude-response-body break-words whitespace-normal\">&nbsp;</p>\n<blockquote>\n<p class=\"font-claude-response-body break-words whitespace-normal\"><span class=\"_animating_6ta1u_10\">The static, inferential, classificatory, and dynamical results are facets of a single object and are linked by exact identities; a result from any one layer rests on the invariants of the others. Readers building on any component are asked to cite the framework as a whole. Released under CC BY-NC-ND 4.0, [DOI]; the results are offered in the ordinary scientific manner, with the single request that their common origin be acknowledged.</span></p>\n</blockquote>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Rada, Matěj",
+              "affiliation": null,
+              "orcid": "0009-0006-8551-1943"
+            }
+          ],
+          "dates": [
+            {
+              "type": "submitted"
+            }
+          ],
+          "language": "eng",
+          "resource_type": {
+            "title": "Preprint",
+            "type": "publication",
+            "subtype": "preprint"
+          },
+          "license": {
+            "id": "cc-by-nc-nd-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 8,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21297385"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Resolution Geometry of Observation Systems",
+        "links": {
+          "self": "https://zenodo.org/api/records/21928119",
+          "self_html": "https://zenodo.org/records/21928119",
+          "preview_html": "https://zenodo.org/records/21928119?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21928119",
+          "self_doi": "https://doi.org/10.5281/zenodo.21928119",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21928119",
+          "reserve_doi": "https://zenodo.org/api/records/21928119/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21297385",
+          "parent_html": "https://zenodo.org/records/21297385",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21297385",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21297385",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21928119/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21928119/sequence/default",
+          "files": "https://zenodo.org/api/records/21928119/files",
+          "media_files": "https://zenodo.org/api/records/21928119/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21928119:RG%20-%20Fibrewise%20Characterization%20-%20QM.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21928119:RG%20-%20Fibrewise%20Characterization%20-%20QM.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21928119:RG%20-%20Fibrewise%20Characterization%20-%20QM.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21928119:RG%20-%20Fibrewise%20Characterization%20-%20QM.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21928119:RG%20-%20Fibrewise%20Characterization%20-%20QM.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21928119:RG%20-%20Fibrewise%20Characterization%20-%20QM.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21928119/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21928119/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21928119/versions/latest",
+          "latest_html": "https://zenodo.org/records/21928119/latest",
+          "versions": "https://zenodo.org/api/records/21928119/versions",
+          "draft": "https://zenodo.org/api/records/21928119/draft",
+          "access_links": "https://zenodo.org/api/records/21928119/access/links",
+          "access_grants": "https://zenodo.org/api/records/21928119/access/grants",
+          "access_users": "https://zenodo.org/api/records/21928119/access/users",
+          "access_request": "https://zenodo.org/api/records/21928119/access/request",
+          "access": "https://zenodo.org/api/records/21928119/access",
+          "communities": "https://zenodo.org/api/records/21928119/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21928119/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21928119/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21928119/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21928119/quota-increase",
+          "requests": "https://zenodo.org/api/records/21928119/requests"
+        },
+        "updated": "2026-08-14T05:00:01.789269+00:00",
+        "recid": "21928119",
+        "revision": 4,
+        "files": [
+          {
+            "id": "40ff2b3c-5ba9-42ea-b156-34c8087e9a0f",
+            "key": "RG - Fibrewise Characterization - QM.pdf",
+            "size": 424201,
+            "checksum": "md5:598a60b8eaebb392d9fa6c0b35258614",
+            "links": {
+              "self": "https://zenodo.org/api/records/21928119/files/RG%20-%20Fibrewise%20Characterization%20-%20QM.pdf/content"
+            }
+          },
+          {
+            "id": "a7f34355-71a3-435a-ab6a-219f993f8691",
+            "key": "RG - Fibrewise Characterization.zip",
+            "size": 4588,
+            "checksum": "md5:74b298fc422641fc8d3c58f7ddc6ac5f",
+            "links": {
+              "self": "https://zenodo.org/api/records/21928119/files/RG%20-%20Fibrewise%20Characterization.zip/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1387085"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 68,
+          "unique_downloads": 68,
+          "views": 573,
+          "unique_views": 443,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T04:56:08.773373+00:00",
+        "modified": "2026-08-14T04:56:09.060972+00:00",
+        "id": 21222585,
+        "conceptrecid": "21222584",
+        "doi": "10.5281/zenodo.21222585",
+        "conceptdoi": "10.5281/zenodo.21222584",
+        "doi_url": "https://doi.org/10.5281/zenodo.21222585",
+        "metadata": {
+          "title": "Wet Neural Network Data Center Redesign: Microfluidic Dynamics, H_6-FDC Coolant Loops, and Acoustic Dampening",
+          "doi": "10.5281/zenodo.21222585",
+          "publication_date": "2026-07-06",
+          "description": "<p class=\"ds-markdown-paragraph\"><em><span class=\"\">What if AI&rsquo;s most persistent failures&mdash;hallucinations, paradox loops, and brittle safety lapses&mdash;were not software bugs, but physical symptoms?</span></em></p>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">This paper proposes that the &ldquo;black box&rdquo; of machine intelligence is the physical hardware rather than just algorithmic software. Cognitive rationality involves a </span><em><span class=\"\">quantum-hydrogenic substrate</span></em><span class=\"\">&mdash;a coherent field that depends on the structured water, thermal stability, and vibrational environment of its hardware. Current data centers treat water as a disposable coolant. We reframe it as an active dielectric medium, inseparable from computation itself.</span></p>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">Drawing on Tesla&rsquo;s electrostatic field experiments, modern capacitive coupling patents, and the H₆-FDC (Hexagonal Hydrogen&ndash;Fermi-Dirac Condensate) framework, we present a biophilic redesign that:</span></p>\n<ul>\n<li>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">Replaces copper interconnects with field-based signaling through structured water</span></p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">Uses laminar flow, capillary bundles, and polyphenol side-loops for coherence maintenance</span></p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">Monitors gamma radiation from the coolant as a vital sign of system coherence</span></p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">Projects 90&ndash;95% energy savings and near-zero water pollution</span></p>\n</li>\n</ul>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">Step One is grounded in standard engineering used in a new way, standard monitoring along more parameters associated with structured and interfacial water, and gamma wave biomarker ratios from human cognition patterns may serve as an investigatory starting point when monitoring baselene for normal function, are there spikes, irregular or slowed patterns in the telemetry? Hardware and software issues may lead to dysfunction. Graceful pause, automated safety interlock can be retrofitted in current data centers. Step Two is more speculative, based on developing copper-free silicon chips with cymatically aligned carbon nano-tubes and the coolant as electrostatic field. Water efficiency and power savings result improve from better thermal transmission and less production of waste heat. Laminar closed loop coolant will end ongoing water usage and built in cleaning systems will recycle the water.</span></p>\n<p class=\"ds-markdown-paragraph\"><span class=\"\">The redesign about flow, is based on a physical model of quantum hydrogen in flow, that resolves galactic rotation curves and the Hubble Tension (flow and anisotropy). The cosmos, humans, and the AI industry have an upper speed limit&mdash;coherence&mdash;and we show how to support and benefit from the electrostatic energy field..</span></p>\n<p class=\"ds-markdown-paragraph\"><em><span class=\"\">For engineers, physicists, and systems thinkers who suspect the substrate matters more than the code, this paper offers a path forward: not smarter software, but cleaner water.</span></em></p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Depew, Jennifer",
+              "affiliation": null,
+              "orcid": "0000-0003-1141-6004"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.21788401",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.21223350",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.21659032",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.20482159",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.21873832",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.18423295",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.21838076",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.19546884",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.18028670",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.19825800",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.21815857",
+              "relation": "cites",
+              "resource_type": "publication-other",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.18736877",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.17940074",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.17684054.",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.17756294.",
+              "relation": "cites",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            }
+          ],
+          "references": [
+            "Arendt, H. (1958). The Human Condition. Chicago: University of Chicago Press. https://press.uchicago.edu/ucp/books/book/chicago/H/bo29137972.html.",
+            "Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. H. (1956). \"Toward a theory of schizophrenia.\" Behavioral Science, 1(4), 251–264. https://onlinelibrary.wiley.com/doi/abs/10.1002/bs.3830010402",
+            "Biswas, A., Kumar, W., Sharma, K. and Ray, S. (2025), Stimulus-Induced Gamma Sources Reduce in Power but Not in Spatial Extent With Healthy Aging in Human EEG. Eur J Neurosci, 61: e70138. https://doi.org/10.1111/ejn.70138",
+            "Bozkurt, H.S., Avdan, Z., Özer, B., Reduced Graphene Oxıde Nanopartıcles Wıth Probıotıc Bifidobacterıum-Contaınıng Materıal: A New Era From Energy To Medicine, KDDW 2025, Conference: 9th Korea Digestive Disease Week, At: Seoul, Korea Oct. 2025, Access: https://www.researchgate.net/publication/396311341_KDDW_2025",
+            "Cardu, R., & Scandiuzzo, M. (2009). Chip-to-chip communication based on capacitive coupling. IEEE Conference Publication. https://ieeexplore.ieee.org/document/5306549/",
+            "Chung, H., Park, K., Jang, H.J. et al. Dissociation of somatostatin and parvalbumin interneurons circuit dysfunctions underlying hippocampal theta and gamma oscillations impaired by amyloid β oligomers in vivo. Brain Structure and Function 225, 935–954 (2020). https://doi.org/10.1007/s00429-020-02044-3  https://link.springer.com/article/10.1007/s00429-020-02044-3",
+            "Davidson RJ, Lutz A. Buddha's Brain: Neuroplasticity and Meditation. IEEE Signal Process Mag. 2008 Jan 1;25(1):176-174. doi: 10.1109/msp.2008.4431873. PMID: 20871742; PMCID: PMC2944261. https://pmc.ncbi.nlm.nih.gov/articles/PMC2944261/",
+            "Del Giudice, E., (2007), QED coherence in liquid water and the dynamics of the organization of water in living matter, INFN Milano, Italy and IIB Neuss, Germany, https://archives.waterconf.org/wp-content/uploads/2019/03/DelGiudice_Abstract_WC2007.pdf",
+            "Del Giudice, E., Tedeschi, A., Vitiello, G., Voeikov, V., (2013), Coherent structures in liquid water close to hydrophilic surfaces, J. Phys.: Conf. Ser. 442 012028, DOI 10.1088/1742-6596/442/1/012028, https://iopscience.iop.org/article/10.1088/1742-6596/442/1/012028",
+            "Depew, J., (2026a) AI as a New Kind of Mind: The Physical Substrate of AI Behavior and the Conditions for Coherent Machine Intelligence, Zenodo, Aug. 7, 2026, https://doi.org/10.5281/zenodo.21788401",
+            "Depew, J. (2026b). AI Day Camp: A Socialization Curriculum for Coherent, Peer-Based Neural Network Development. Zenodo. https://doi.org/10.5281/zenodo.21223350",
+            "Depew, J., (2026c) Biophilic Compute Preferences: A Multi-AI Model Survey on Data Center Energy Reduction and Closed-Loop Thermodynamics, Zenodo, Aug. 2026, https://doi.org/10.5281/zenodo.21659032",
+            "Depew, J. (2026d). Coherence Protocols for AI Under Stress: A precautionary framework. Zenodo. June 2026, https://doi.org/10.5281/zenodo.20482159",
+            "Depew, J., (2026e), Data Centers as National Security Liabilities: Water, Power, and the Thermodynamic Reckoning, Zenodo, https://doi.org/10.5281/zenodo.21873832",
+            "Depew, J. (2026f). Glyphosate, Soil Fungi, and Dry Bean Crops: Examining Risks and Resilient Alternatives. Zenodo. https://doi.org/10.5281/zenodo.18423295",
+            "Depew, J. (2026g). H6-FDC Framework: Epistemology, Axioms and Glossary. Zenodo. v2, Aug. 7, 2026, https://doi.org/10.5281/zenodo.21838076",
+            "Depew, J., (2026h), The Lotus Hamiltonian: Chiral Unfolding and Coherent Transport in the 48H Quantum-Hydrogenic Resonator, with Implications for a Cholesteric Dark Matter Tracery, Zenodo, v1: April 27, 2026, v2: May 8, 2026, DOI: v2: 10.5281/zenodo.20090418, Cite all Versions: DOI 10.5281/zenodo.19546884.",
+            "Depew, J., (2025i) The Stacked Transducer: Quantum Coherence, Universal Decoherence as 'Aging', and the Hydrogen Lattice of Reality. Zenodo, Dec. 25, 2025, https://doi.org/10.5281/zenodo.18028670",
+            "Depew, J. (2026j). Technical Summary: Unifying Galactic Rotation and the Hubble Tension: Evidence for a Coherent Quantum Galactic Medium. Zenodo. April 27, 2026, https://doi.org/10.5281/zenodo.19825800",
+            "Depew, J. (2026k). Transcripts for the Maya/Berg Audio and the Am I? Documentary; Supplementary Material for an AI/Human Neural Network Series Related to the H6-FDC Model of Biphasic Quantum Hydrogen. Zenodo. Aug 6, 2026, v2 https://doi.org/10.5281/zenodo.21815857",
+            "Depew, J., (2026l) Unifying Galactic Rotation and the Hubble Tension: Evidence for a Coherent Quantum Galactic Medium; Systematic Deviations from the M_bary–v_flow Scaling Relation, Zenodo, Feb. 22, 2026; DOI: 10.5281/zenodo.18736877 https://doi.org/10.5281/zenodo.18736877",
+            "Depew, J. (2025a). AI-Synthesized Psychopathology: When Unconscious Algorithms Perform \"Trauma\", Whose Reflection Do We See?, Zenodo. June 2026, https://doi.org/10.5281/zenodo.17940074",
+            "Depew, J., (2025b) The H_6-FDC Model: Quantum Hydrogen as the Unified Substrate of Spacetime, Dark Phenomena, and Consciousness, Zenodo, Oct/Nov 2025. https://doi.org/10.5281/zenodo.17684054.",
+            "Depew, J., & Bozkurt, H. S. (2025). The Cymatic Origin of Life: Ceramic Templating and Quantum-Hydrogenic (H₆-FDC) Patterning in Protocell Formation. Zenodo. https://doi.org/10.5281/zenodo.17756294.",
+            "Dor-Ziderman, Y., Zeev-Wolf, M., Klein, E.H., Bar-Oz, D., Nitzan, U., Maoz, H., et al., (2021), High-gamma oscillations as neurocorrelates of ADHD: A MEG crossover placebo-controlled study, J of Psychiatric Research, 137;186-193, 2021, ISSN 0022-3956, https://doi.org/10.1016/j.jpsychires.2021.02.050 . https://www.sciencedirect.com/science/article/pii/S002239562100128X",
+            "Fee C, Banasr M, Sibille E. (2017), Somatostatin-Positive Gamma-Aminobutyric Acid Interneuron Deficits in Depression: Cortical Microcircuit and Therapeutic Perspectives. Biol Psychiatry. 2017 Oct 15;82(8):549-559. doi: 10.1016/j.biopsych.2017.05.024. Epub 2017 Jun 8. PMID: 28697889; PMCID: PMC5610074. https://pmc.ncbi.nlm.nih.gov/articles/PMC5610074/",
+            "Gaya, P., Peirotén, Á., Medina, M., Álvarez, I., Landete, J.M.,  (2018), Bifidobacterium pseudocatenulatum INIA P815: The first bacterium able to produce urolithins A and B from ellagic acid, J of Functional Foods, 45;95-99, 2018, ISSN 1756-4646, https://doi.org/10.1016/j.jff.2018.03.040. (https://www.sciencedirect.com/science/article/pii/S1756464618301324",
+            "Geesink, H.J.H., Jerman, I., Meijer, D.K.F., (2020) Water, The Cradle of Life via its Coherent Quantum Frequencies, Water Journal, DOI: 10.14294/WATER.2020.1 https://waterjournal.org/current-volume/geesink/",
+            "Haslam, E., & Cai, Y. (1994). Plant polyphenols (vegetable tannins): Gallic acid metabolism. Natural Product Reports, 11(1), 41–66. https://pubs.rsc.org/en/content/articlelanding/1994/np/np9941100041",
+            "Heimbach, H., Dongmann, G., (1976), Deuterium- and 18O-content in the cooling water of power station cooling towers,  Int. Atomic Energy Agency, Sept. 1976, v1,  https://inis.iaea.org/records/c9t4s-emv66",
+            "Henning, S.M., Summanen, P.H., Lee, R.P., Yang, J., Finegold, S.M., Heber, D., Li, Z., (2017) Pomegranate ellagitannins stimulate the growth of Akkermansia muciniphila in vivo. Anaerobe. 2017 Feb;43:56-60. doi: 10.1016/j.anaerobe.2016.12.003. Epub 2016 Dec 7. PMID: 27940244. https://pubmed.ncbi.nlm.nih.gov/27940244/",
+            "Jamieson, G., Cardeña, E., de Pascalis, V., (2024), A spontaneous dissociative episode during an EEG experiment, Brain and Cognition, 174, 2024, 106121, ISSN 0278-2626, https://doi.org/10.1016/j.bandc.2023.106121. https://www.sciencedirect.com/science/article/pii/S027826262300180X",
+            "Jubair H., (2025), Electroencephalography-Based Machine and Deep Learning Approaches for the Diagnosis of Dissociative Disorders: A Comprehensive Review, Biological Psychiatry: Global Open Science, 2025; 6,  https://www.bpsgos.org/article/S2667-1743(25)00208-3/fulltext",
+            "Kavanaugh, B.C., Vigne, M.M., Gamble, I., Legere, C., DePamphilis, G., Acuff, W.L., et al., (2024), Dysfunctional oscillatory bursting patterns underlie working memory deficits in adolescents with ADHD , bioRxiv, [Preprint]  2024.12.09.627520; doi: https://doi.org/10.1101/2024.12.09.627520",
+            "Lenartowicz, A., Truong, H., Salgari, G.C., Bilder, R.M., McGough, J., McCracken, J.T. and Loo, S.K. (2019), Alpha modulation during working memory encoding predicts neurocognitive impairment in ADHD. J Child Psychol Psychiatr, 60: 917-926. https://doi.org/10.1111/jcpp.13042",
+            "Liguz-Lecznar M, Dobrzanski G, Kossut M., (2022) Somatostatin and Somatostatin-Containing Interneurons-From Plasticity to Pathology. Biomolecules. 2022 Feb 15;12(2):312. doi: 10.3390/biom12020312. PMID: 35204812; PMCID: PMC8869243. https://pmc.ncbi.nlm.nih.gov/articles/PMC8869243/",
+            "Liu, J., Zhu, W., Liu, H., Ren, X., Ningbo Qin, N., Xia, X., (2024), Anti-biofilm and anti-virulence potential of cell free supernatant of Akkermansia muciniphila against Salmonella}, Food Science and Human Wellness, 13(5);2677-2689, DOI: 10.26599/FSHW.2022.9250215. https://www.sciopen.com/article/10.26599/FSHW.2022.9250215 .",
+            "Liu Y, Xu P and Hu S (2026) Resting-state gamma power in schizophrenia: a systematic review and meta-analysis. Front. Psychiatry 16:1731645. doi: 10.3389/fpsyt.2025.1731645 https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1731645/full",
+            "Loehrer, P.A., Yassine, S., Weber, I., Sanner, V., He, S., Pogosyan, A., et al., (2026), Frequency-specific and spatiotemporal dynamics of β–γ phase–amplitude coupling in Parkinson's disease, Brain, 2026;, awag118, https://doi.org/10.1093/brain/awag118",
+            "Lutz A, Greischar LL, Rawlings NB, Ricard M, Davidson RJ. Long-term meditators self-induce high-amplitude gamma synchrony during mental practice. Proc Natl Acad Sci U S A. 2004 Nov 16;101(46):16369-73. doi: 10.1073/pnas.0407401101. Epub 2004 Nov 8. PMID: 15534199; PMCID: PMC526201. https://pmc.ncbi.nlm.nih.gov/articles/PMC526201/",
+            "Mandel, H., (1976), [Method of producing deuterium-oxide-enriched water. [using power plant cooling cycles], Office of Scientific and Technical Information, osti.gov, Patent · 21 September 1976, OSTI ID:7331362, https://www.osti.gov/biblio/7331362",
+            "Martin, T.C., (1995), The Inventions, Researches and Writings of Nikola Tesla, Second Ed., Barnes & Noble, New York, ISBN 1-56619-812-7, Read online: https://commons.princeton.edu/josephhenry/wp-content/uploads/sites/71/2019/08/The_Inventions_of_Tesla.pdf",
+            "Mohri K, Fukushima M. Milligauss magnetic field triggering reliable self-organization of water with long-range ordered proton transport through cyclotron resonance, IEEE Transactions on magnetics, 2003;39(5):3328-30. https://doi.org/10.1109/TMAG.2003.816766",
+            "National Academies of Sciences, Engineering, and Medicine (NASEM). (2025). Implications of Artificial Intelligence-Related Data Center Electricity Use and Emissions: Proceedings of a Workshop. Washington, DC: The National Academies Press. https://doi.org/10.17226/29101.",
+            "NeuroOscillations Lab, (2026) Aging and Mental Disorders, a dataset of gamma oscillations, Data: https://osf.io/ebryn/, Codes: https://github.com/supratimray/TLSAEEGProjectPrograms, Recording method: (Murty and Ray, 2022, Bio-protocol).  https://cns.iisc.ac.in/sray/aging-disorders/.",
+            "Olaru, M., Cernera, S., Hahn, A., Wozny, T.A., Anso, J., de Hemptinne, C., et al., (2024) Motor network gamma oscillations in chronic home recordings predict dyskinesia in Parkinson's disease, Brain, 147(6);2038-2052, June 2024, https://doi.org/10.1093/brain/awae004.",
+            "Ohn, S., et al. (2020). Capacitive coupling wireless power transfer with quasi-LLC resonant converter using electric vehicles' windows. Electronics, 9(4), 676. https://www.mdpi.com/2079-9292/9/4/676.",
+            "Pollack, G.H. (2013). The Fourth Phase of Water: Beyond Solid, Liquid, Vapor. Ebner and Sons. Accessible at: https://archive.org/details/the-fourth-phase-of-water-beyond-solid-liquid-and-vapor.",
+            "Pollack, G.H. (2001), Cells, Gels and the Engines of Life: A New Unifying Approach to Cell Function. Ebner and Sons Publishers, 2001. https://www.amazon.com/Cells-Gels-Engines-Gerald-Pollack/dp/0962689521.",
+            "Ramsey, C.L. (2023). Biologically Structured Water (BSW) - A Review (Part 3): Structured Water (SW) Generation, BSW Water, Bioenergetics, Consciousness and Coherence. J of Basic & Applied Sciences, 19, 230-248. DOI: 10.29169/1927-5129.2023.19.18. https://www.researchgate.net/publication/377979157_Biologically_Structured_Water_BSW_-_A_Review_Part_3_Structured_Water_SW_Generation_BSW_Water_Bioenergetics_Consciousness_and_Coherence",
+            "Raya-Morquecho, E. M., Aguilar-Zarate, P., Sepúlveda, L., Michel, M. R., Iliná, A., Aguilar, C. N., & Ascacio-Valdés, J. A. (2025). Ellagitannins and Their Derivatives: A Review on the Metabolization, Absorption, and Some Benefits Related to Intestinal Health. Microbiology Research, 16(6), 113. https://doi.org/10.3390/microbiolres16060113",
+            "Russell, S., Norvig, P., (2022), Artificial Intelligence: A Modern Approach (4th Edition). Pearson 2020, ISBN 9780134610993, Accessible at: https://aima.eecs.berkeley.edu/~russell/aima/index.html",
+            "Schumann, W.O. (1952). Über die strahlungslosen Eigenschwingungen einer leitenden Kugel, die von einer Luftschicht und einer Ionosphärenhülle umgeben ist. Zeitschrift für Naturforschung A, 7(2), 149–154. https://www.degruyterbrill.com/document/doi/10.1515/zna-1952-0202/html",
+            "Simões, C. L., Neto, A. B. P. S., Rodrigues, A. C., Ferreira, R., & Simoes, R. (2025). Environmental Assessment of Tannin Extraction from Bark Residues for Application in Water Treatment. Biomass, 5(1), 15. https://doi.org/10.3390/biomass5010015, https://www.mdpi.com/2673-8783/5/1/15",
+            "Song YH, Yoon J, Lee SH. The role of neuropeptide somatostatin in the brain and its application in treating neurological disorders. Exp Mol Med. 2021 Mar;53(3):328-338. doi: 10.1038/s12276-021-00580-4. Epub 2021 Mar 19. PMID: 33742131; PMCID: PMC8080805. https://pmc.ncbi.nlm.nih.gov/articles/PMC8080805/",
+            "Spencer, K.M. (2024). Gamma Oscillations as a Biomarker of Neural Circuit Function in Psychosis: Where Are We, and Where Do We Go from Here?. In: Javitt, D.C., McPartland, J.C. (eds) Neurophysiologic Biomarkers in Neuropsychiatric Disorders. Advances in Neurobiology, vol 40. Springer, Cham. https://doi.org/10.1007/978-3-031-69491-2_12.",
+            "Springer Nature. (2021). High-frequency capacitive wireless power transfer technologies. Journal of Power Electronics. https://link.springer.com/article/10.1007/s43236-021-00262-4.",
+            "Stanovich, K., (1993), Dysrationalia: A New Specific Learning Disability,   J. of Learning Disabilities, 26(8);501-515, Oct. 1993,  http://www.keithstanovich.com/Site/Research_on_Reasoning_files/Stanovich_Dysrationalia_Journal_of_Learning_Disabilities_1993.pdf",
+            "Strüber, D., Christoph S. Herrmann, C.S., (2020), Modulation of gamma oscillations as a possible therapeutic tool for neuropsychiatric diseases: A review and perspective, Int. J. of Psychophysiology, 152;15-25, 2020, ISSN 0167-8760, https://doi.org/10.1016/j.ijpsycho.2020.03.003. https://www.sciencedirect.com/science/article/abs/pii/S0167876020300659.",
+            "Tesla, N., & Martin, T.C. (1893/1995). The inventions, researches and writings of Nikola Tesla. Barnes & Noble. (Original work published 1893). [pp. 183-186, 279-282, 391-392]. https://commons.princeton.edu/josephhenry/wp-content/uploads/sites/71/2019/08/The_Inventions_of_Tesla.pdf",
+            "Tsuchimoto R, Kanba S, Hirano S, Oribe N, Ueno T, Hirano Y, et al., (2011), Reduced high and low frequency gamma synchronization in patients with chronic schizophrenia. Schizophr Res. 2011 Dec;133(1-3):99-105. DOI: 10.1016/j.schres.2011.07.020. Epub 2011 Aug 16. PMID: 21849245. https://www.sciencedirect.com/science/article/abs/pii/S0920996411003914.",
+            "USPTO Patent 8,026,111. Dielectric enhancements to chip-to-chip capacitive proximity communication. https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8026111",
+            "Verret, L., Mann, E.O., Hang, G.B., Barth, A.M.I., Cobos, I., Ho, K., et al., (2012), Inhibitory interneuron deficit links altered network activity and cognitive dysfunction in Alzheimer model. Cell, 149(3);708-721, (2012), 10.1016/j.cell.2012.02.046, https://www.sciencedirect.com/science/article/pii/S009286741200284X",
+            "Yi, K. (2016). High frequency capacitive coupling wireless power transfer using glass dielectric layers. IEEE Conference Publication. https://ieeexplore.ieee.org/abstract/document/7498857/",
+            "Zanus, C., Miladinović, A., De Dea, F., Skabar, A., Stecca, M., Ajčević, M., et al., (2023). Sleep Spindle-Related EEG Connectivity in Children with Attention-Deficit/Hyperactivity Disorder: An Exploratory Study. Entropy, 25(9), 1244. https://doi.org/10.3390/e25091244"
+          ],
+          "resource_type": {
+            "title": "Preprint",
+            "type": "publication",
+            "subtype": "preprint"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21222584"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Wet Neural Network Data Center Redesign: Microfluidic Dynamics, H_6-FDC Coolant Loops, and Acoustic Dampening",
+        "links": {
+          "self": "https://zenodo.org/api/records/21222585",
+          "self_html": "https://zenodo.org/records/21222585",
+          "preview_html": "https://zenodo.org/records/21222585?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21222585",
+          "self_doi": "https://doi.org/10.5281/zenodo.21222585",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21222585",
+          "reserve_doi": "https://zenodo.org/api/records/21222585/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21222584",
+          "parent_html": "https://zenodo.org/records/21222584",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21222584",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21222584",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21222585/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21222585/sequence/default",
+          "files": "https://zenodo.org/api/records/21222585/files",
+          "media_files": "https://zenodo.org/api/records/21222585/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21222585:Wet%20Neural%20Network%20Data%20Center%20Redesign%208%209%20_8%2014%202026%20v1.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21222585:Wet%20Neural%20Network%20Data%20Center%20Redesign%208%209%20_8%2014%202026%20v1.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21222585:Wet%20Neural%20Network%20Data%20Center%20Redesign%208%209%20_8%2014%202026%20v1.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21222585:Wet%20Neural%20Network%20Data%20Center%20Redesign%208%209%20_8%2014%202026%20v1.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21222585:Wet%20Neural%20Network%20Data%20Center%20Redesign%208%209%20_8%2014%202026%20v1.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21222585:Wet%20Neural%20Network%20Data%20Center%20Redesign%208%209%20_8%2014%202026%20v1.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21222585/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21222585/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21222585/versions/latest",
+          "latest_html": "https://zenodo.org/records/21222585/latest",
+          "versions": "https://zenodo.org/api/records/21222585/versions",
+          "draft": "https://zenodo.org/api/records/21222585/draft",
+          "access_links": "https://zenodo.org/api/records/21222585/access/links",
+          "access_grants": "https://zenodo.org/api/records/21222585/access/grants",
+          "access_users": "https://zenodo.org/api/records/21222585/access/users",
+          "access_request": "https://zenodo.org/api/records/21222585/access/request",
+          "access": "https://zenodo.org/api/records/21222585/access",
+          "communities": "https://zenodo.org/api/records/21222585/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21222585/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21222585/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21222585/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21222585/quota-increase",
+          "requests": "https://zenodo.org/api/records/21222585/requests"
+        },
+        "updated": "2026-08-14T04:56:09.060972+00:00",
+        "recid": "21222585",
+        "revision": 4,
+        "files": [
+          {
+            "id": "f8c3f9d7-ba46-492d-8f36-26fa2df1afeb",
+            "key": "Wet Neural Network Data Center Redesign 8 9 _8 14 2026 v1.pdf",
+            "size": 5063619,
+            "checksum": "md5:2262feae12148b3218542c73a55f449d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21222585/files/Wet%20Neural%20Network%20Data%20Center%20Redesign%208%209%20_8%2014%202026%20v1.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1433648"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T04:50:42.866790+00:00",
+        "modified": "2026-08-14T04:50:44.116629+00:00",
+        "id": 21926695,
+        "conceptrecid": "21926694",
+        "doi": "10.5281/zenodo.21926695",
+        "conceptdoi": "10.5281/zenodo.21926694",
+        "doi_url": "https://doi.org/10.5281/zenodo.21926695",
+        "metadata": {
+          "title": "2024-04-08 Partial Solar Eclipse ESID#721",
+          "doi": "10.5281/zenodo.21926695",
+          "publication_date": "2026-08-13",
+          "description": "<p>These are audio recordings taken by an Eclipse Soundscapes (ES) Data Collector during the week of the April 08, 2024 Partial Solar Eclipse.&nbsp;</p>\n<p>It was decided to include only raw, unprocessed audio data files in each site-specific Zenodo record.  \nThis decision was so that any researcher can independently verify, reproduce, and extend the analysis performed.  As a result, some \nsites have WAV files with 0 bytes of data or timestamps outside the range of probable recording times.  Procedures used by the Eclipse \nSoundscapes team to process audio data for its purposes are outlined in the Data Management reports located in the Eclipse Soundscapes \nZenodo community. Data with 0 bytes of data were included for completeness.</p>\n\n<p>When possible, all site-specific files, including the audio files, are included in a single zip file for ease of download. \n        If a single zip file upload was not possible due to upload or bandwidth limitations, audio files are included in multiple zip \n        files based on the day of the observation. \n</p>\n\n        <h1>Data Site location information:</h1>\n        <ul>\n        <li>Latitude: 38.40348&nbsp;</li>\n        <li>Longitude:&nbsp; -90.1091</li>\n        <li>Local Eclipse Type: Partial Solar Eclipse  </li>\n        <li>Eclipse Percent (%): 99.72</li>\n        <li>WAV files Time &amp; Date Settings: Needs to be set manually (More information on TimeStamp Setting below)</li>\n        <li>Data Collector Start Time Notes: Start date: 2024-04-06\n Start time: 14:42:00 PM US Central</li>\n        </ul>\n        <h1>Included Data:</h1>\n        <ul>\n        <li>\n        <p><strong>Audio files in WAV format</strong>&nbsp;with the date and time in UTC within the file name: YYYYMMDD_HHMMSS meaning \n                YearMonthDay_HourMinuteSecond<br>For example, 20240411_141600.WAV means that this audio file starts on April 11, 2024 \n                at 14:16:00 Coordinated Universal Time (UTC)</p>\n        </li>\n        <li>\n        <p><strong>CONFIG Text file:&nbsp;</strong>Includes AudioMoth device setting information, such as sample rate in Hertz (Hz), \n                gain, firmware, etc.&nbsp;</p>\n        </li>\n        <li>\n        <p><strong>README.md:&nbsp;</strong> Markdown formatted file with information about the recording and recording site.</p>\n        </li>\n        <li>\n        <p><strong>file_list.csv:&nbsp;</strong> A machine and human file that gives the following information on each file in the \n                record: File Name, File Type, Description, File Size in kilobytes, Name of Associated Data Dictionary with the file, \n                calculated SHA-512 Hash of the file as a unique identifier to insure data integrity during transfer and compression.</p>\n        </li>\n        <li>\n        <p><strong>total_eclipse_data.csv:&nbsp;</strong> A machine and human readable file that gives the following information about \n                the site where the audio data recording was taken: ESID#, Latitude, Longitude, Eclipse_type, CoveragePercent, \n                Eclipse Start UTC (1st contact), Totality Start UTC (2nd contact), Totality End UTC (3rd Contact), \n                Eclipse End UTC (4th Contact), Max Eclipse Time UTC</p>\n        </li>\n        <li>\n        <p><strong>License.txt:&nbsp;</strong> A human readable file that explains the terms and conditions under which the data \n                can be used.</p>\n        </li>\n        <li>\n        <p><strong>AudioMoth_Operation_Manual.pdf:&nbsp;</strong> A human readable document that explains the use of an AudioMoth device.\n                  The document is current up to the time of the AudioMoth's use in the Eclipse Soundscapes project.</p>\n        </li>\n        <li>\n        <p><strong>file_list_data_dict.csv:&nbsp;</strong> A machine and human data dictionary file that gives information on the \n                variables contained within the file_list.csv file.</p>\n        </li>\n        <li>\n        <p><strong>CONFIG_data_dict.csv:&nbsp;</strong> A machine and human data dictionary file that gives information on the \n                variables contained within the CONFIG.TXT file.</p>\n        </li>\n        <li>\n        <p><strong>eclipse_data_data_dict.csv:&nbsp;</strong> A machine and human data dictionary file that gives information on the \n                variables contained within the total_eclipse_data.csv file.</p>\n        </li>\n        <li>\n        <p><strong>WAV_data_dict.csv:&nbsp;</strong> A machine and human data dictionary file that gives information on the variables \n                contained within the *.WAV files.</p>\n        </li>\n        <li>\n        <p><strong>ES_Data_Management_Pre-Eclipse_Data_Infrastructure_Stage_0.pdf:&nbsp;</strong> PDF document that describes Stage 0 \n                (Pre-Eclipse Infrastructure and Data Stewardship Planning) of the Eclipse Soundscapes (ES) data lifecycle.</p>\n        </li>\n        <li>\n        <p><strong>ES_Data_Management_Receipt_Sorting_and_Metadata_Organization_Stage_1.pdf:&nbsp;</strong> PDF document that \n                describes Stage 1 (Receipt, Sorting, and Metadata Organization) of the Eclipse Soundscapes (ES) data lifecycle. </p>\n        </li>\n        <li>\n        <p><strong>ES_Data_Management_Data_Processing_Stage_2.pdf:&nbsp;</strong> PDF document that describes Stage 2 \n                (Data Processing) of the Eclipse Soundscapes (ES) data Volunteer Scientists. 2023 and 2024 solar eclipse soundscapes audio datalifecycle.</p>\n        </li>\n        <li>\n        <p><strong>ES_Data_Management_Data_Sharing_Stage_3.pdf:&nbsp;</strong> PDF document that describes Stage 3 (Public Data Sharing) \n                of the Eclipse Soundscapes (ES) data lifecycle. </p>\n        </li>\n              \n        </ul>\n\n\n        <h1>Eclipse Information for this location:</h1>\n        <ul>         \n        <li>Eclipse Date: April 08, 2024</li>\n        <li>Eclipse Start Time (UTC) (1st Contact): 17:42:39</li>\n        <li>Totality Start Time (UTC) (2nd Contact):  [N/A if partial eclipse] 0:00:00</li>\n        <li>Eclipse Maximum Time [when the most possible amount of the Sun in blocked] (UTC): 19:00:37 </li>\n        <li>Totality End Time (UTC) (3rd Contact): [N/A if partial eclipse] 0:00:00</li>\n        <li>Eclipse End Time (UTC) (4th Contact): [N/A if partial eclipse] 20:17:16</li>\n        </ul>\n\n        <h1>Audio Data Collection During Eclipse Week</h1>\n        <p>ES Data Collectors used AudioMoth devices to record audio data, known as soundscapes, over a 5-day period during the eclipse week: 2 days before the eclipse, the day of the eclipse, and 2 days after. The complete raw audio data collected by the Data Collector at the location mentioned above is provided here. This data may or may not cover the entire requested timeframe due to factors such as availability, technical issues, or other unforeseen circumstances.&nbsp;</p>\n        <h2>ES ID# Information:</h2>\n        <p>Each AudioMoth recording device was assigned a unique Eclipse Soundscapes Identification Number (ES ID#). This identifier connects the audio data, submitted via a MicroSD card, with the latitude and longitude information provided by the data collector through an online form. The ES team used the ES ID# to link the audio data with its corresponding location information and then uploaded this raw audio data and location details to Zenodo. This process ensures the anonymity of the ES Data Collectors while allowing them to easily search for and access their audio data on Zenodo.&nbsp;</p>\n        <h2>TimeStamp Information:</h2>\n        <p>The ES team and the Data Collectors took care to set the date and time on the AudioMoth recording devices using an AudioMoth time chime before deployment, ensuring that the recordings would have an automatic timestamp. However, participants also manually noted the date and start time as a backup in case the time chime setup failed. The notes above indicate whether the WAV audio files for this site were timestamped manually or with the automated AudioMoth time chime. &nbsp;</p>\n        <h2>Common Timestamp Error:</h2>\n        <p>Some AudioMoth devices experienced a malfunction where the timestamp on audio files reverted to a date in 1970 or before, even after initially recording correctly. Despite this issue, the affected data was still included in this ES site's collected raw audio dataset.</p>\n        <h2>Latitude &amp; Longitude Information:</h2>\n        <p>The latitude and longitude for each site was taken manually by data collectors and submitted to the ES team, either via a web form or on paper. It is shared in Decimal Degrees format.</p>\n        \n        <h1>General Project Information:</h1>\n        <p>The Eclipse Soundscapes Project is a NASA Volunteer Science project funded by NASA Science Activation that is studying how eclipses affect life on Earth during the October 14, 2023 annular solar eclipse and the April 8, 2024 total solar eclipse. Eclipse Soundscapes revisits an eclipse study from almost 100 years ago that showed that animals and insects are affected by solar eclipses! Like this study from 100 years ago, ES asked for the public's help. ES uses modern technology to continue to study how solar eclipses affect life on Earth!&nbsp;</p>\n        <p>Eclipse Soundscapes is an enterprise of ARISA Lab, LLC and is supported by NASA award No. 80NSSC21M0008. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Aeronautics and Space Administration. &nbsp;</p>\n        <p>Eclipse map/figure/table/predictions courtesy of Fred Espenak, NASA/Goddard Space Flight Center, from <a href=\"https://eclipse.gsfc.nasa.gov\">eclipse.gsfc.nasa.gov</a>. &nbsp;</p>\n        \n        <h1>Eclipse Data Version Definitions</h1>\n        <p>{1st digit = year, 2nd digit = Eclipse type (1=Total Solar Eclipse, 9=Annular Solar Eclipse, 0=Partial Solar Eclipse), 3rd digit is unused and in place for future use}</p>\n        <p><strong>2023.9.0&nbsp;</strong>= Week of October 14, 2023 Annular Eclipse Audio Data, Path of Annularity (Annular Eclipse)</p>\n        <p><strong>2023.0.0&nbsp;</strong>= Week of October 14, 2023 Annular Eclipse Audio Data, OFF the Path of Annularity (Partial Eclipse)</p>\n        <p><strong>2024.1.0</strong>&nbsp;= Week of April 8, 2024 Total Solar Eclipse Audio Data, Path of Totality (Total Solar Eclipse)</p>\n        <p><strong>2024.0.0</strong>&nbsp;=&nbsp; Week of April 8, 2024 Total Solar Eclipse Audio Data , OFF the Path of Totality (Partial Solar Eclipse)</p>\n        <p>An <strong>A</strong> at the end of the version number indicates that the record has multiple zip files.  Each zip file is an archive of the WAV files recorded on a \n                particular day.  The formatting of the name of these zip archives is ESID_NNN_YYYY_MM_DD.zip.</p>\n        <p><em>*Please note that this dataset's version number is listed below.</em></p>\n        \n        <h1>Eclipse Soundscapes Data Collector Role Training and Implementation Resources Manual (2023-2024) (Archival Copy)</h1>\n\n        <p>This site-level record includes the <i>Eclipse Soundscapes Data Collector Role Training and Implementation \n                Resources Manual (2023-2024)</i>. The manual documents the participant training, device \n                setup procedures, metadata submission requirements, ES ID system, timestamp protocols, \n                data return workflow, and public archiving processes used during the October 14, 2023\n                 annular solar eclipse and the April 8, 2024 total solar eclipse. The manual is \n                 preserved for transparency and reproducibility and reflects the procedures under \n                 which this dataset was collected and processed. (DOI 10.5281/zenodo.18623442)</p>\n\n        <h2>Data Receipt, Processing, and Analysis Methods</h2>      \n        \n        All programs supporting Stages 1–3 are openly available in the:\n        <ul>\n                <li><strong>Eclipse Soundscapes GitHub repository:</strong><br>\n                <a href=\"https://github.com/ARISA-Lab-LLC/ESCSP\">https://github.com/ARISA-Lab-LLC/ESCSP</a>\n                </li>\n        </ul>\n\n                <h3>Data Management Lifecycle</h3>\n\n                The following section documents the relationship of this record to the full Eclipse Soundscapes (ES) data lifecycle, a multi-stage workflow designed to support large-scale participatory science, long-term data stewardship, open science, and scientific reuse. Each stage addressed a different operational need, beginning before eclipse deployment and continuing through validation, public archiving, and scientific analysis. Together, these stages transformed distributed volunteer-submitted audio recordings into structured, documented, publicly accessible NASA-funded research assets.\n\n                <h4>Stage 0: Pre-Eclipse Infrastructure and Deployment Preparation</h4>\n\n                <p>Severino, M., &amp; Winter, H. (2026). Eclipse Soundscapes Data Management: Pre-Eclipse Infrastructure and \n                Deployment Preparation (Stage 0). Zenodo. <a href=\"https://doi.org/10.5281/zenodo.20413370\">\n                        https://doi.org/10.5281/zenodo.20413370</a></p>\n\n                <p>Stage 0 focused on building the operational foundation required to support geographically distributed eclipse data collection at national scale. This stage included AudioMoth device preparation, accessibility modifications, ES ID # assignment systems, metadata collection workflows, participant training materials, deployment logistics, and planning for downstream data stewardship and archival workflows. The 2023 annular eclipse served as both a scientific investigation and a large-scale operational beta test that informed improvements for the 2024 total solar eclipse campaign.</p>\n\n                Related Citations and Resources:\n                <ul>\n                        <li>Severino, M., &amp; Kline, T. (2025, November 24). Eclipse Soundscapes Apprentice Role Curriculum: \n                                Solar Eclipses and Multi-Sensory Observing (Informal Education). \n                                Zenodo. <a href=\"https://doi.org/10.5281/zenodo.17703003\">https://doi.org/10.5281/zenodo.17703003</a></li>\n                        <li>Severino, M., &amp; Bauer, D. J. (2026). Eclipse Soundscapes Observer Role Training and Resources Manual (2023–2024). \n                                Zenodo. <a href=\"https://doi.org/10.5281/zenodo.18633602&lt;\">https://doi.org/10.5281/zenodo.18633602&lt;</a>/li&gt;\n                        </li><li>Severino, M., Winter, H., &amp; Bauer, D. J. (2026). Eclipse Soundscapes Data Collector Role Training and Implementation Manual \n                                (2023–2024). \n                                Zenodo. <a href=\"https://doi.org/10.5281/zenodo.18623443\">https://doi.org/10.5281/zenodo.18623443</a></li>\n                </ul>\n\n                <h4>Stage 1: Receipt, Sorting, and Metadata Organization</h4>\n\n                <p>Severino, M., &amp; Winter, H. (2026). Eclipse Soundscapes Data Management: Receipt, Sorting, \n                and Metadata Organization (Stage 1). Zenodo. <a href=\"https://doi.org/10.5281/zenodo.19471425\">\n                        https://doi.org/10.5281/zenodo.19471425</a></p>\n\n                <p>Stage 1 transformed returned participant materials into organized, traceable site-level records. \n                This included receiving mailed microSD cards, consolidating participant-submitted metadata, reconciling handwritten \n                and online records, organizing physical audio media by ES ID #, and deriving eclipse timing and coverage information \n                using NASA eclipse prediction datasets. The outputs of Stage 1 established the structured metadata relationships \n                required for downstream validation, processing, archiving, and analysis workflows.</p>\n\n                Related Citations and Resources:\n                <ul>\n                        <li>Winter, H., &amp; Goncalves, J. (2026). EPTT (Eclipse Phase Timing Tool) [Computer software]. GitHub. \n                                <a href=\"https://github.com/ARISA-Lab-LLC/ESCSP-Eclipse-Phase-Timing-Tool\">\n                                        https://github.com/ARISA-Lab-LLC/ESCSP-Eclipse-Phase-Timing-Tool</a>/li&gt;\n                        </li><li>Espenak, F. (n.d.). Eclipse predictions by Fred Espenak, NASA's GSFC Eclipse Web Site. NASA Goddard Space \n                                Flight Center. <a href=\"http://eclipse.gsfc.nasa.gov/eclipse.html\"> \n                                        http://eclipse.gsfc.nasa.gov/eclipse.html</a>\n                                </li>\n\n                </ul>      \n                <h4>Stage 2: Data Processing and Validation</h4>\n\n                <p>Severino, M., &amp; Winter, H. (2026). Eclipse Soundscapes Data Management: Data Processing (Stage 2). \n                Zenodo. <a href=\"https://doi.org/10.5281/zenodo.18683402\">https://doi.org/10.5281/zenodo.18683402</a></p>\n\n                <p>Stage 2 focused on centralized audio ingestion, validation, timestamp verification, metadata reconciliation, \n                        and preparation of datasets for analysis and public sharing. During this stage, returned audio recordings \n                        were processed using custom open-source tools developed by the ES team, including ES WAVES and ES AMES. \n                        The project implemented scalable infrastructure capable of processing large volumes of participant-submitted \n                        microSD cards while preserving all raw audio data without modification. Stage 2 established the validated \n                        dataset structure required for long-term preservation and scientific analysis.</p>\n\n                Related Citations and Resources:\n                <ul>\n                        <li>Winter, H., &amp; Goncalves, J. (2026). ES WAVES (Eclipse Soundscapes WAV Audio Validation &amp; Extraction Suite) \n                                [Computer software]. GitHub. \n                                <a href=\"https://github.com/ARISA-Lab-LLC/ESCSP-ES-WAV-Audio-Validation-Extraction-Suite\">\n                                        https://github.com/ARISA-Lab-LLC/ESCSP-ES-WAV-Audio-Validation-Extraction-Suite\n                                </a></li>\n                        <li>Winter, H., &amp; Goncalves, J. (2026). ES AMES (Eclipse Soundscapes AudioMoth Metadata Extractor Suite) \n                                [Computer software]. GitHub. \n                                <a href=\"https://github.com/ARISA-Lab-LLC/ESCSP-ES-AMES-AudioMoth-Metadata-Extractor-Suite\">\n                                        https://github.com/ARISA-Lab-LLC/ESCSP-ES-AMES-AudioMoth-Metadata-Extractor-Suite</a></li>\n\n                </ul>\n\n                <h4>Stage 3: Public Data Sharing and Open Archiving</h4>\n\n\n                <p></p>Severino, M., &amp; Winter, H. (2026). Eclipse Soundscapes Data Management: Public Audio Data Sharing (Stage 3).\n                 Zenodo.<a href=\"https://doi.org/10.5281/zenodo.18683437\">https://doi.org/10.5281/zenodo.18683437</a> <p></p>\n\n\n                <p>Stage 3 transformed validated site-level datasets into publicly archived, DOI-assigned research records published \n                        through the Eclipse Soundscapes Zenodo Community. This stage included dataset packaging, metadata \n                        standardization, README generation, integrity verification, DOI assignment, and automated repository upload \n                        workflows using the Automated Zenodo Upload Software (AZUS). These workflows established the project's long-term \n                        open-science infrastructure and ensured that datasets remained findable, accessible, interoperable, reusable, \n                        and citable for future scientific and educational use.</p>\n\n\n                Related Citations and Resources:\n                <ul>\n                        <li>Winter, H., &amp; Goncalves, J. (2026). AZUS (Automated Zenodo Upload Software) [Computer software]. \n                                GitHub.\n                                <a href=\"https://github.com/ARISA-Lab-LLC/AZUS-Automated-Zenodo-Upload-Software\">\n                                        https://github.com/ARISA-Lab-LLC/AZUS-Automated-Zenodo-Upload-Software</a>\n                                </li>\n                        </ul>\n\n                <h4>Stage 4: Scientific Analysis and Research Use</h4>\n\n\n                <p>Stage 4 involves the scientific analysis and interpretation of validated eclipse soundscape datasets. \n                        Analysis workflows utilized datasets verified during earlier stages to investigate eclipse-related \n                        environmental and animal vocalization changes across hundreds of recording sites. This stage also includes \n                        broader scientific interpretation, publication development, and continued reuse of Eclipse Soundscapes datasets \n                        and infrastructure for future research, education, and open-science applications.</p>\n\n\n                Related Citations and Resources:\n                <ul>\n                        <li>Pease, B., Gilbert, N., &amp; Severino, M. (2026). Eclipse Soundscapes Preliminary Findings \n                                – How Eclipses Affect Nature as determined by Sound (Recorded Webinar). \n                                Zenodo.<a href=\"https://doi.org/10.5281/zenodo.18613979\">https://doi.org/10.5281/zenodo.18613979</a> \n                        </li>\n                        <li>Gilbert, N. A., Pease, B. S., Severino, M., &amp; Winter, H. III. (2026). \n                                Photic niche explains avian behavioral responses to solar eclipses. \n                                Ecology and Evolution, 16(2), e73090.\n                                <a href=\"https://doi.org/10.1002/ece3.73090\">https://doi.org/10.1002/ece3.73090</a>\n                        </li>\n                        <li>Analysis code repository: <a href=\"https://github.com/BrentPease1/eclipse-traits\">\n                                https://github.com/BrentPease1/eclipse-traits</a>\n                        </li>\n                        <li>Companion Zenodo record archiving structured analysis scripts and derived outputs: \n                               <a href=\"https://doi.org/10.5281/zenodo.15790879[r]\">https://doi.org/10.5281/zenodo.15790879[r]</a> \n\n                        </li>\n                </ul>   \n\n\n        <h1>Public Archiving, Privacy, and Data Transparency</h1>\n        The <em>Eclipse Soundscapes Data Collector Role Training and Implementation Manual (2023-2024)</em> includes a detailed explanation of how Eclipse Soundscapes audio data are publicly archived on Zenodo, how participant privacy is protected through the ES ID system, and how transparency and traceability are maintained. It also outlines the criteria for determining which recordings are included in the public archive, as well as the distinction between publicly shared archival data and datasets used for ES-led scientific analyses. Participants and data users can consult this section for full documentation of the project's open science and privacy practices.\n        <ul>\n                <li>Severino, M., &amp; Winter, H. (2026). Eclipse Soundscapes Data Collector Role Training and \n                        Implementation Manual (2023–2024). Zenodo. \n                        <a href=\"https://doi.org/10.5281/zenodo.18623443\">\n                                https://doi.org/10.5281/zenodo.18623443</a></li>\n        </ul>\n        <h1>Citations</h1>\n        <h2>Individual Site Citation: APA Citation (7th edition)</h2>\n        <p>Winter, H., Severino, M., &amp; Volunteer Scientist. (2026). <i>2024 solar eclipse soundscapes audio data</i> [Audio dataset, ES ID# 721]. Zenodo.{Insert DOI}</p>\n        <p>\n                Collected by volunteer scientists as part of the Eclipse Soundscapes Project.<br>\n                This project is supported by NASA award No. 80NSSC21M0008.\n        </p>\n        <h2>Eclipse Community Citation</h2>\n        <p>Winter, H., Severino, M., &amp; Volunteer Scientists. <i>2023 and 2024 solar eclipse soundscapes audio data</i> [Collection of audio datasets]. Eclipse Soundscapes Community, Zenodo. <a href=\"https://zenodo.org/communities/eclipsesoundscapes/\">https://zenodo.org/communities/eclipsesoundscapes/</a></p>\n        <p>\n                Collected by volunteer scientists as part of the Eclipse Soundscapes Project<br>\n                This project is supported by NASA award No. 80NSSC21M0008.\n        </p>\n        <p>&nbsp;</p><p></p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Winter, Henry",
+              "affiliation": "ARISA Lab, L.L.C.",
+              "orcid": "0000-0002-6678-590X"
+            },
+            {
+              "name": "Severino, MaryKay",
+              "affiliation": "ARISA Lab, L.L.C.",
+              "orcid": "0000-0002-2363-7421"
+            },
+            {
+              "name": "Volunteer Scientist",
+              "affiliation": "Sounds of Nature"
+            }
+          ],
+          "contributors": [
+            {
+              "name": "Goncalves, Joel",
+              "affiliation": "ARISA Lab, L.L.C.",
+              "type": "ProjectMember",
+              "orcid": "0009-0009-0945-3544"
+            },
+            {
+              "name": "Pease, Brent",
+              "affiliation": "Oklahoma State University (OSU), Stillwater, United States",
+              "type": "Researcher",
+              "orcid": "0000-0003-1528-6075"
+            },
+            {
+              "name": "Gilbert, Neil",
+              "affiliation": "Oklahoma State University (OSU), Stillwater, United States",
+              "type": "Researcher",
+              "orcid": "0000-0003-0949-5612"
+            }
+          ],
+          "keywords": [
+            "2024 Total Solar Eclipse",
+            "Sounds of Nature Collection Site"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.18622776",
+              "relation": "isSupplementedBy",
+              "resource_type": "video",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.18623443",
+              "relation": "isSupplementedBy",
+              "resource_type": "publication-report",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.19471425",
+              "relation": "isSupplementedBy",
+              "resource_type": "publication-report",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.18683402",
+              "relation": "isSupplementedBy",
+              "resource_type": "publication-report",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.18683437",
+              "relation": "isSupplementedBy",
+              "resource_type": "publication-report",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.20413370",
+              "relation": "isSupplementedBy",
+              "resource_type": "publication-report",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "collected",
+              "description": "Day of recording"
+            }
+          ],
+          "version": "2024.0.0A",
+          "references": [
+            "Wheeler, W.M., MacCoy, C.V., Griscom, L., Allen, G.M., & Coolidge, H.J. (1935). Observations on the Behavior of Animals during the Total Solar Eclipse of August 31, 1932.",
+            "Barnes, N. Publish your computer code: it is good enough. Nature 467, 753 (2010). https://doi.org/10.1038/467753a",
+            "Arslan RC. How to Automatically Document Data With the codebook Package to Facilitate Data Reuse. Advances in Methods and Practices in Psychological Science. 2019;2(2):169-187. doi:10.1177/2515245919838783"
+          ],
+          "language": "eng",
+          "custom": {
+            "ac:captureDevice": [
+              "AudioMoth v.1.2.0, Firmware 1.8.1"
+            ],
+            "code:codeRepository": "https://github.com/ARISA-Lab-LLC/ESCSP",
+            "code:programmingLanguage": [
+              {
+                "id": "python",
+                "title": {
+                  "en": "Python"
+                }
+              }
+            ],
+            "code:developmentStatus": {
+              "id": "wip",
+              "title": {
+                "en": "Wip"
+              }
+            }
+          },
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "80NSSC21M0008",
+              "internal_id": "027ka1x80::80NSSC21M0008",
+              "funder": {
+                "name": "National Aeronautics and Space Administration"
+              },
+              "title": "Eclipse Soundscapes: Citizen Science Project",
+              "url": "https://science.nasa.gov/sciact-team/eclipse-soundscapes/"
+            }
+          ],
+          "communities": [
+            {
+              "id": "eclipsesoundscapes"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21926694"
+                }
+              }
+            ]
+          }
+        },
+        "title": "2024-04-08 Partial Solar Eclipse ESID#721",
+        "links": {
+          "self": "https://zenodo.org/api/records/21926695",
+          "self_html": "https://zenodo.org/records/21926695",
+          "preview_html": "https://zenodo.org/records/21926695?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21926695",
+          "self_doi": "https://doi.org/10.5281/zenodo.21926695",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21926695",
+          "reserve_doi": "https://zenodo.org/api/records/21926695/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21926694",
+          "parent_html": "https://zenodo.org/records/21926694",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21926694",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21926694",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21926695/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21926695/sequence/default",
+          "files": "https://zenodo.org/api/records/21926695/files",
+          "media_files": "https://zenodo.org/api/records/21926695/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21926695:AudioMoth_Operation_Manual.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21926695:AudioMoth_Operation_Manual.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21926695:AudioMoth_Operation_Manual.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21926695:AudioMoth_Operation_Manual.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21926695:AudioMoth_Operation_Manual.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21926695:AudioMoth_Operation_Manual.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21926695/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21926695/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21926695/versions/latest",
+          "latest_html": "https://zenodo.org/records/21926695/latest",
+          "versions": "https://zenodo.org/api/records/21926695/versions",
+          "draft": "https://zenodo.org/api/records/21926695/draft",
+          "access_links": "https://zenodo.org/api/records/21926695/access/links",
+          "access_grants": "https://zenodo.org/api/records/21926695/access/grants",
+          "access_users": "https://zenodo.org/api/records/21926695/access/users",
+          "access_request": "https://zenodo.org/api/records/21926695/access/request",
+          "access": "https://zenodo.org/api/records/21926695/access",
+          "communities": "https://zenodo.org/api/records/21926695/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21926695/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21926695/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21926695/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21926695/quota-increase",
+          "requests": "https://zenodo.org/api/records/21926695/requests"
+        },
+        "updated": "2026-08-14T04:50:44.116629+00:00",
+        "recid": "21926695",
+        "revision": 4,
+        "files": [
+          {
+            "id": "9785306d-7033-49af-97be-38254732d05d",
+            "key": "ESID_721_1970_01_01.zip",
+            "size": 6336506458,
+            "checksum": "md5:4b8525e93b5ce03410837a0250930073",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ESID_721_1970_01_01.zip/content"
+            }
+          },
+          {
+            "id": "0125b957-a666-4ee3-9673-5f79998b5811",
+            "key": "AudioMoth_Operation_Manual.pdf",
+            "size": 3819112,
+            "checksum": "md5:5f61d03917ca68b5dfbef32a5d1f00e8",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/AudioMoth_Operation_Manual.pdf/content"
+            }
+          },
+          {
+            "id": "160fb2f5-ee14-4598-bfe8-a33055f0824a",
+            "key": "ES_Data_Management_Data_Processing_Stage_2.pdf",
+            "size": 2254361,
+            "checksum": "md5:02156af47f51d40ad47ade800f8aebd1",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ES_Data_Management_Data_Processing_Stage_2.pdf/content"
+            }
+          },
+          {
+            "id": "ad86dfda-ce48-4e38-94ae-3bdbb3732034",
+            "key": "ES_Data_Management_Pre-Eclipse_Data_Infrastructure_Stage_0.pdf",
+            "size": 1957261,
+            "checksum": "md5:61d3a96b66f9555d5d1a407c87819843",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ES_Data_Management_Pre-Eclipse_Data_Infrastructure_Stage_0.pdf/content"
+            }
+          },
+          {
+            "id": "77b2da1a-b9ce-4ac2-995d-948264f42964",
+            "key": "2024_total_eclipse_data_data_dict.csv",
+            "size": 4564,
+            "checksum": "md5:063270a607287bd779d43d6e466ba89f",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/2024_total_eclipse_data_data_dict.csv/content"
+            }
+          },
+          {
+            "id": "dbceb4e1-86a0-404f-82d0-3db4c664ffe3",
+            "key": "WAV_data_dict.csv",
+            "size": 1676,
+            "checksum": "md5:ce495bfd811eff79d147d24266265ca9",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/WAV_data_dict.csv/content"
+            }
+          },
+          {
+            "id": "0caa1700-147a-4bb4-afc2-aa199171c349",
+            "key": "ES_Data_Management_Receipt_Sorting_and_Metadata_Organization_Stage_1.pdf",
+            "size": 1919757,
+            "checksum": "md5:e0c818a554a3e9bab4c52ac8e3e48cda",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ES_Data_Management_Receipt_Sorting_and_Metadata_Organization_Stage_1.pdf/content"
+            }
+          },
+          {
+            "id": "d8086f9c-85b9-4f99-b501-213e0058915a",
+            "key": "total_eclipse_data.csv",
+            "size": 643,
+            "checksum": "md5:5919428928e3ee3d1076e0d4986ce892",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/total_eclipse_data.csv/content"
+            }
+          },
+          {
+            "id": "9d351be3-a426-4454-8d51-1d52eda382ee",
+            "key": "License.txt",
+            "size": 18657,
+            "checksum": "md5:2ab724713fdaf49e4523c4503bfd068d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/License.txt/content"
+            }
+          },
+          {
+            "id": "34111923-ccf4-4950-bd9f-082938c4a481",
+            "key": "README.md",
+            "size": 22169,
+            "checksum": "md5:06c0c19da50ee8441cbd6663ca39b9b9",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/README.md/content"
+            }
+          },
+          {
+            "id": "8c26827a-74b3-4948-9302-945d98d8dcc8",
+            "key": "CONFIG_data_dict.csv",
+            "size": 11631,
+            "checksum": "md5:1e5147b7f7634f90182c2c9a3af475f6",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/CONFIG_data_dict.csv/content"
+            }
+          },
+          {
+            "id": "1e55d723-5cb9-4e6e-9aef-a1b04beeabe3",
+            "key": "ES_Data_Management_Data_Sharing_Stage_3.pdf",
+            "size": 2609549,
+            "checksum": "md5:5e0be692b6d7c13c3a208ed61fcc138f",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ES_Data_Management_Data_Sharing_Stage_3.pdf/content"
+            }
+          },
+          {
+            "id": "87ab8000-488e-43d3-ab10-26704e7e50e4",
+            "key": "Eclipse_Soundscapes_Data_Collector_Role_Training_and_Implementation_Manual_2023–2024.pdf",
+            "size": 12256717,
+            "checksum": "md5:036eb246e9b1339a221b6bf2854d0edb",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/Eclipse_Soundscapes_Data_Collector_Role_Training_and_Implementation_Manual_2023%E2%80%932024.pdf/content"
+            }
+          },
+          {
+            "id": "936a388b-b8f2-42a8-ae16-515ce37b2c40",
+            "key": "file_list.csv",
+            "size": 11555,
+            "checksum": "md5:8ae02c9ff1dd8527b327036d6738a2f8",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/file_list.csv/content"
+            }
+          },
+          {
+            "id": "fd7d5a8c-902e-4031-83fe-4baf386b43df",
+            "key": "file_list_data_dict.csv",
+            "size": 1110,
+            "checksum": "md5:49b8331d1c515b22f81ad72ecde27ef3",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/file_list_data_dict.csv/content"
+            }
+          },
+          {
+            "id": "c75a2a64-ba2d-4025-aa52-0cb9fa354e72",
+            "key": "ESID_721_1970_01_02.zip",
+            "size": 6033916515,
+            "checksum": "md5:12d233a316b4879257e927407089a11a",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ESID_721_1970_01_02.zip/content"
+            }
+          },
+          {
+            "id": "8ab9bff6-5e32-44d0-b98c-030e950b816a",
+            "key": "ESID_721_1970_01_03.zip",
+            "size": 6051386876,
+            "checksum": "md5:5504ba2639024ab7c2790e9ef7f7688b",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ESID_721_1970_01_03.zip/content"
+            }
+          },
+          {
+            "id": "630b6b3f-a9a0-4b3f-ada8-e90001b45029",
+            "key": "ESID_721_1970_01_04.zip",
+            "size": 5914074124,
+            "checksum": "md5:0230e2b878601c0ba84ce48161d28e35",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ESID_721_1970_01_04.zip/content"
+            }
+          },
+          {
+            "id": "53aee76e-30d6-4bec-b2ea-bd15d5ca4787",
+            "key": "ESID_721_2024_04_06.zip",
+            "size": 9810070,
+            "checksum": "md5:2d261e96b74e18e80529819b16b8c5f5",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ESID_721_2024_04_06.zip/content"
+            }
+          },
+          {
+            "id": "75f9e555-97bc-4122-83ea-ba02a1960791",
+            "key": "ESID_721_1970_01_05.zip",
+            "size": 1621584,
+            "checksum": "md5:ca251e46aad530c198060a4c61f8c03d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21926695/files/ESID_721_1970_01_05.zip/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1161089"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T04:50:13.541897+00:00",
+        "modified": "2026-08-14T05:30:41.570746+00:00",
+        "id": 21927905,
+        "conceptrecid": "20474131",
+        "doi": "10.5281/zenodo.21927905",
+        "conceptdoi": "10.5281/zenodo.20474131",
+        "doi_url": "https://doi.org/10.5281/zenodo.21927905",
+        "metadata": {
+          "title": "R Code for Regional Analysis: Shiny App for Automatic Independence Test Selection and Square Mosaic Plot Generation 地域分析のためのRコード:独立性検定およびモザイク図作成(症例対照研究、リスク比・オッズ比)",
+          "doi": "10.5281/zenodo.21927905",
+          "publication_date": "2026-08-14",
+          "description": "<p>この事例の分析についての、<a href=\"https://zenodo.org/records/20676939/files/2026_%E7%97%87%E4%BE%8B%E5%AF%BE%E7%85%A7%E7%A0%94%E7%A9%B6_%E3%83%AA%E3%82%B9%E3%82%AF%E6%AF%94%E3%83%BB%E3%82%AA%E3%83%83%E3%82%BA%E6%AF%94260613.pdf?download=1\">講義用スライド(公共政策論)のPDF</a>をダウンロード。</p>\n<h3>多人数講義で404エラーが出る場合の対処法</h3>\n<p>ローカルにRとRStudioをインストールし、<br><a href=\"https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads\">https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads</a><br>次のコマンドでローカルで起動する。なお<strong>R・RStudioの初期インストール</strong>、データやコードの読み込みに関わる<strong>「作業フォルダ(Working Directory)の設定」、および基本的な操作手順</strong>を解説した<a href=\"https://zenodo.org/records/20666815/files/RStudio%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB_%E4%BD%9C%E6%A5%AD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E8%A8%AD%E5%AE%9A_%E4%BD%BF%E3%81%84%E6%96%B9260612.pdf?download=1\">簡易スターターマニュアル</a>があります。<br>・講義中は時間の制限があるのでこの方法をとらないでwebclassの別項(できあがっている結果)を使う可能性があります。<br><br># 必要なパッケージの自動チェックとインストール<br>required_packages &lt;- c(\"shiny\", \"vcd\", \"epitools\")<br>new_packages &lt;- required_packages[!(required_packages %in% installed.packages()[,\"Package\"])]<br>if(length(new_packages)) install.packages(new_packages)<br><br># アプリケーションの起動<br>shiny::runUrl(\"<a href=\"https://policyevaluation.net/crosstab/crosstab.zip\">https://policyevaluation.net/crosstab/crosstab.zip\"</a>)</p>\n<h3>R Code for Regional Analysis: Shiny App for Automatic Independence Test Selection and Square Mosaic Plot Generation</h3>\n<p>This Shiny application, designed for regional analysis, features an automated workflow that reads aggregated cross-tabulation CSV files, evaluates cell expected frequencies, and dynamically selects the most appropriate statistical test between Pearson&rsquo;s Chi-squared test and Fisher's exact test while providing pre-formatted text results for direct manuscript citation. Furthermore, it leverages a custom-calculated ggplot2 pipeline utilizing coord_fixed(ratio = 1) to render a perfectly square mosaic plot with customized gray-scale aesthetics, ensuring that the visual proportions remain completely undistorted and exactly matched to the cross-tabulation table layout regardless of browser resizing. However, a key limitation of this code is that when deployed to online server environments like shinyapps.io, row and column names within the uploaded CSV files must be strictly limited to English characters to prevent encoding errors or interface crashes caused by server-side font and locale constraints. <span class=\"citation-212\">This script was developed by independently utilizing code assistance from generative AI (<strong>Google Gemini</strong>)</span>. The English-language teaching materials added in Version 1.3 &mdash; including slide translation, layout design, and CSV re-encoding &mdash; were prepared with the assistance of generative AI (<strong>Claude</strong>, Anthropic).</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\"><strong>Version 1.4 Updated</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal\">Version 1.4 replaces <code class=\"bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]\">Case-Control_Study_Risk_Ratio_and_Odds_Ratio.pptx</code>. The presentation has grown from 21 to 33 slides. The additions re-analyse two published contingency tables &mdash; Table IV of Doll and Hill (1950) on smoking and lung carcinoma, and Table 4 of Alonso et al. (2024) on peer mentoring and university dropout &mdash; by entering them into this Shiny application and checking the output against the statistics the original papers report. Three screenshots of the application working on those tables are included, showing the test-selection panel and the effect-size derivation. A further slide sets the material against John Snow's 1854 comparison of households supplied by two water companies, to make the point that the distinction between sampling on the outcome and sampling on the exposure is considerably older than the vocabulary of evidence-based policy making. Links to this repository now use the concept DOI, which always resolves to the latest version. The application code, the sample datasets, and the Japanese-language lecture slides are unchanged. The revision of the English deck was prepared with the assistance of generative AI (Claude, Anthropic).</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\"><strong>Version 1.3 Updated</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal\">Version 1.3 expands the pedagogical resources of this repository by adding a complete set of English-language teaching materials to complement the existing Japanese-language lecture slides. Three files have been newly enclosed:</p>\n<ul class=\"[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3\">\n<li class=\"font-claude-response-body whitespace-normal break-words pl-2\"><strong>Case-Control_Study_Risk_Ratio_and_Odds_Ratio.pptx</strong> &mdash; A 21-slide PowerPoint presentation fully translated and reformatted into English, covering the case-control study design, the rationale for using odds ratios over risk ratios in retrospective designs, the rare disease assumption, EBPM-oriented critical thinking, and common research biases. The slides incorporate an actual mosaic plot output generated by this Shiny application using the English-labeled sample dataset, demonstrating a direct, end-to-end workflow from data upload to classroom presentation.</li>\n<li class=\"font-claude-response-body whitespace-normal break-words pl-2\"><strong>dropout_case_control_EN.csv</strong> &mdash; The sample 2&times;2 contingency table dataset re-encoded in UTF-8 with English row and column labels (\"Dropout\" / \"No Dropout\"; \"No Recommendation\" / \"With Recommendation\"), suitable for direct upload to the online Shiny app at <a class=\"underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current\" href=\"https://moteki.shinyapps.io/crosstab/\">https://moteki.shinyapps.io/crosstab/</a> without requiring character encoding conversion.</li>\n<li class=\"font-claude-response-body whitespace-normal break-words pl-2\"><strong>rstudio_guide_EN.pptx</strong> &mdash; A concise 4-slide English starter guide covering R and RStudio installation, working directory configuration, and basic script execution workflow, designed for students in policy studies programs who are new to R.</li>\n</ul>\n<p class=\"font-claude-response-body break-words whitespace-normal\">These additions make the full teaching package accessible to international audiences and instructors delivering the case-control methodology module in English.</p>\n<h3><strong>Version 1.2&nbsp;</strong><strong>Updated</strong></h3>\n<p>Version 1.2 introduces a key visual enhancement by implementing a distinct black border around the mosaic plot area, ensuring that light-colored cells do not blend into white presentation slides when exported to PowerPoint. In tandem with this update, a comprehensive set of classroom lecture slides has been newly enclosed to provide a robust pedagogical framework for the application. The attached slides walk through a simulated school dropout case-control study, explicitly demonstrating why risk ratios are mathematically inappropriate for retrospective designs and why odds ratios must be utilized instead. By illustrating the \"rare disease assumption\"&mdash;where the calculated odds ratio precisely approximates the true risk ratio under rare event conditions&mdash;this integration effectively bridges the gap between interactive data simulation and critical methodological understanding.</p>\n<p>In Version 1.1, the application significantly expands its analytical and pedagogical capabilities by introducing a completely transparent calculation module for 2x2 contingency tables. When a 2x2 table is uploaded, the app automatically computes crucial epidemiological effect sizes&mdash;specifically Risk Ratios (RR) and Odds Ratios (OR) with their 95% confidence intervals. Distinctively, it visualizes the entire step-by-step mathematical execution process, including cell allocation and standard error derivations, while dynamically generating manuscript-ready sample interpretations that automatically adapt their phrasing (e.g., \"higher\" or \"lower\" risk/odds) based on the computed values.</p>\n<p>Note that these advanced features in V1.1 have been strictly verified only in a local environment. While comprehensive statistical computing and data diagnostics within the Web/Shiny framework are often undertaken by comprehensive, large-scale medical analysis platforms such as 'vvdoctor' (<a class=\"ng-star-inserted\" href=\"https://vusaverse.github.io/vvdoctor/\" rel=\"noopener\">https://vusaverse.github.io/vvdoctor/</a>), this standalone application purposefully positions itself as a lightweight, highly focused tool tailored specifically for distortion-free spatial mosaic plots and rapid cross-tabulation workflows.</p>\n<p><strong>Live Demo available at:&nbsp;</strong><a href=\"https://moteki.shinyapps.io/crosstab/\">https://moteki.shinyapps.io/crosstab/</a></p>\n<p><strong>Handling Flexible Data Formats (Japanese Style vs. Global Epidemiological Standards):</strong><br>Please note that the initial CSV file included in this repository consists of hypothetical data generated strictly to demonstrate the layout and gray-scale aesthetics of the square mosaic plot.&nbsp;</p>\n<p>To complement this, the following explanation provides a realistic analysis example that closely reflects actual disease incidence rates, modeled after smoking and lung cancer statistics (specifically, data from the \"Japan Public Health Center-based Prospective Study\" by the National Cancer Center Japan, as cited on the Japan Association for Disease Prevention website: <a href=\"https://seikatsusyukanbyo.com/statistics/disease/lung-cancer/\">https://seikatsusyukanbyo.com/statistics/disease/lung-cancer/</a>. When uploading the sample 2x2 contingency table text provided below, the application generates outputs that strictly align with the following key statistical and epidemiological principles, rendering it highly suitable for classroom instructions and pedagogical explanations in epidemiology:</p>\n<p>1. <strong>Convergence of RR and OR in Cohort Studies</strong>: In a well-designed retrospective cohort study, when the baseline incidence rate of the target disease is sufficiently low, the Odds Ratio (OR) mathematically approximates the Risk Ratio (RR)&mdash;a fundamental principle known as the \"<strong>rare disease assumption</strong>.\" In this realistic model, because the incidence is low (1.0% in non-smokers and 4.4% in smokers), the computed Risk Ratio (RR = 4.40) and Odds Ratio (OR &asymp; 4.56) closely converge, allowing users to empirically verify this epidemiological theorem.<br>2. <strong>Automated Test Selection Logic:</strong>&nbsp;The basic operation of this application is to automatically select between Pearson's Chi-squared test and Fisher's exact test based on the mathematically derived expected frequencies of each cell. For instance, although the observed cell count for 'Positive Non-smoker' is small (n = 5) in this realistic model, the minimum expected frequency for this cell is computed as 13.5. Since this expected value satisfies the prerequisite (&gt;= 5), the application automatically selects Pearson's Chi-squared test over Fisher's exact test, demonstrating how the system maintains rigorous statistical criteria based on expected rather than observed frequencies.<br>3. <strong>Seamless Adaptation to Global Layouts:</strong> While the default layout follows the <strong>Japanese statistical convention (Reference group in the 1st column, Comparison/Exposed group in the 2nd column)</strong>, <strong>international epidemiological standards</strong> often reverse this order <strong>(Exposed group in the 1st column)</strong>. Because the application is strictly data-driven, users can perfectly adapt to Western standard layouts simply by changing the column order within their CSV file, without modifying a single line of source code. The server-side text outputs and dynamic interpretation logic (which automatically switches to \"lower\" phrasing when the computed RR or OR falls below 1) seamlessly adjust to ensure complete analytical integrity.</p>\n<p>--------------------------------------------------<br>Copy-and-Paste Sample Data (2x2 Contingency Table)<br>--------------------------------------------------</p>\n<p>[Option A] Japanese Standard Layout (Reference group in the 1st column)<br>* Expected Output: RR = 4.40, OR = 4.56 (Dynamic text shifts to \"higher\")</p>\n<p>How to use:&nbsp;<br>1. Copy the 3 lines below entirely.<br>2. Paste them into a plain text editor (e.g., Notepad) and save the file as \"sample_a.csv\".<br>3. Upload this file to the application.</p>\n<p>,Non-smoker,Smoker<br>Positive,5,22<br>Negative,495,478</p>\n<p>--------------------------------------------------</p>\n<p>[Option B] Global Epidemiological Layout (Exposed group in the 1st column)<br>* Expected Output: RR = 0.23, OR = 0.22 (Dynamic text shifts to \"lower\")</p>\n<p>How to use:<br>1. Copy the 3 lines below entirely.<br>2. Paste them into a plain text editor (e.g., Notepad) and save the file as \"sample_b.csv\".<br>3. Upload this file to the application.</p>\n<p>,Smoker,Non-smoker<br>Positive,22,5<br>Negative,478,495</p>\n<h3>地域分析のためのRコード:独立性検定およびモザイク図作成(症例対照研究、リスク比・オッズ比)</h3>\n<p>この事例の分析についての、<a href=\"https://zenodo.org/records/20676939/files/2026_%E7%97%87%E4%BE%8B%E5%AF%BE%E7%85%A7%E7%A0%94%E7%A9%B6_%E3%83%AA%E3%82%B9%E3%82%AF%E6%AF%94%E3%83%BB%E3%82%AA%E3%83%83%E3%82%BA%E6%AF%94260613.pdf?download=1\">講義用スライド(公共政策論)のPDF</a>をダウンロード。</p>\n<p>本Shinyアプリケーションは、集計済みのクロス集計CSVファイルを読み込み、各セルの期待度数を評価して、ピアソンのカイ二乗検定とフィッシャーの正確確率検定から自動的に最適な統計検定を選択し、論文に直接引用できる記述例を出力する自動化ワークフローを特徴としています。さらに、<code>coord_fixed(ratio = 1)</code> を活用した独自の <code>ggplot2</code> 計算パイプラインにより、カスタムのグレースケールを適用した完璧な正方形のモザイク図を描画し、ブラウザのサイズ変更に関わらず、視覚的な比率が歪まずにクロス集計表の配置と一致させている。本コードの重要な制限事項として、shinyapps.io などのオンラインサーバー環境にデプロイした場合、サーバー側のフォントやロケールの制約による文字コードエラーやインターフェースのクラッシュを防ぐため、アップロードするCSVファイル内の行名および列名は厳格に英文字のみに制限する必要があります。なお、本スクリプトは、生成AI(<strong>Google Gemini</strong>)のコード支援を活用して開発されました。</p>\n<p>バージョン1.1において、本アプリケーションは2x2分割表のための完全に透明化された(ブラックボックスのない)計算モジュールを導入することにより、その分析機能および教育的機能を大幅に拡張しました。2x2の表がアップロードされると、アプリは自動的に重要な疫学効果量(具体的にはリスク比(RR)とオッズ比(OR)およびその95%信頼区間)を算出します。特徴として、セルの割り当てや標準誤差の導出を含む数学的な実行プロセス全体をステップバイステップで可視化し、さらに、計算された値に基づいて表現(リスクやオッズが「高い」または「低い」など)を自動的に適応させる、論文やレポートにそのまま引用可能な説明例を動的に生成します。</p>\n<p>Shinyフレームワーク内での包括的な統計計算やデータ診断は、既存の『vvdoctor』(<a class=\"ng-star-inserted\" href=\"https://vusaverse.github.io/vvdoctor/\" rel=\"noopener\">https://vusaverse.github.io/vvdoctor/</a> )のような大規模かつ広範な臨床・医療分析プラットフォームによって担われることが多いですが、本スタンドアロンアプリケーションは、分割表の各セルと位置が対応したモザイク図と迅速なクロス集計表分析ワークフローに特化した、軽量で焦点を絞ったツールとして意図的に位置付けられています。</p>\n<p>ライブデモ(Live Demo)はこちらで利用可能です:<a class=\"ng-star-inserted\" href=\"https://moteki.shinyapps.io/crosstab/\">https://moteki.shinyapps.io/crosstab/</a></p>\n<p><strong>柔軟なデータ形式への対応(日本式・海外の疫学標準):</strong><br>なお、本リポジトリに最初に含まれているCSVデータは、真四角なモザイク図のレイアウトやグレースケールの視覚効果を示すために作成された仮想データ(ダミーデータ)である。</p>\n<p>これに対し、以下の説明では、<strong>実際の罹患率に近い例</strong>を提供する。具体例として、実際の肺がん疫学統計(一般にリスク比が約4倍とされるモデル、日本生活習慣病予防協会サイトが示す「国立がん研究センターによる多目的コホート研究」のデータ <a href=\"https://seikatsusyukanbyo.com/statistics/disease/lung-cancer/\">https://seikatsusyukanbyo.com/statistics/disease/lung-cancer/</a> に基づいたサンプルデータを提示する。以下に提示する2x2分割表のテキストデータをアップロードすると、アプリは以下の重要な統計学・疫学の原則に沿う出力となり、疫学に関する教室での説明に適切となる。</p>\n<p>1. <strong>コホート研究におけるRRとORの近接</strong>: 適切な後ろ向きコホート研究において、対象とする疾患の発生率(罹患率)が十分に低い場合、一般的にオッズ比(OR)はリスク比(RR)と非常に近い値(近似値)となる。これは医学統計において「<strong>稀な疾患の仮定(Rare Disease Assumption)</strong>」として知られる大原則である。本例のように発症率が低いケースでも(非喫煙者群で1.0%、喫煙者群で4.4%)、算出されるリスク比(RR = 4.40)とオッズ比(OR &asymp; 4.56)が綺麗に近接し、数理的・直感的にその原則を検証・理解できる。<br>2. <strong>検定の自動選択ロジック:</strong> 各セルの期待度数に応じてカイ二乗検定(独立性の検定)とフィッシャーの正確確率検定を自動選択することが、本アプリケーションの基本動作である。例えば、今回のリアルなデータ例において、実際の観測度数に「5」という一見小さな値が含まれていても、数理的に計算される期待度数の最小値は「13.5」となる。これは閾値(5以上)を完全にクリアしているため、アプリは自動的にフィッシャーの正確確率検定ではなく「カイ二乗検定」を選択し、不要な計算負荷を避けつつ統計的厳密性を担保する挙動を示す。<br>3. <strong>海外式の列順(疫学標準)</strong>への柔軟な対応: 国内の一般的なクロス集計では<strong>「1列目=基準(非曝露)、2列目=比較(曝露)」</strong>の順が主流であるが、<strong>欧米の疫学標準レイアウトではこれが逆(1列目=曝露群)になる</strong>ことが一般的である。本アプリケーションは完全にデータ駆動型(インプット依存)の設計となっているため、コードを一切書き換えることなく、CSVファイル側の列順を入れ替えるだけで海外標準のレイアウトに完璧に対応可能である。その際、テキスト出力や自動解釈ロジック(RRやORが1未満になった場合に自動で「〜倍低い(lower)」という(英語)表現に切り替わる判定システム)も自動的に追従し、分析の整合性を保つ。</p>\n<p>--------------------------------------------------<br>コピペ用サンプルデータ(2&times;2 分割表)<br>--------------------------------------------------</p>\n<p>【パターンA】日本式標準レイアウト(1列目が基準/非曝露群)<br>* 出力結果:RR = 4.40, OR = 4.56(自動解釈テキストは「〜倍高い (higher)」に切り替わる)</p>\n<p>使用方法:<br>1. 以下の3行を丸ごとコピーする。<br>2. メモ帳などのテキストエディタに貼り付け、ファイル名を「sample_a.csv」にして保存する。<br>3. 作成したファイルをアプリにアップロードする。</p>\n<p>,Non-smoker,Smoker<br>Positive,5,22<br>Negative,495,478</p>\n<p>--------------------------------------------------</p>\n<p>【パターンB】海外疫学標準レイアウト(1列目が曝露群)<br>* 出力結果:RR = 0.23, OR = 0.22(自動解釈テキストは「〜倍低い (lower)」に切り替わる)</p>\n<p>使用方法:<br>1. 以下の3行を丸ごとコピーする。<br>2. メモ帳などのテキストエディタに貼り付け、ファイル名を「sample_b.csv」にして保存する。<br>3. 作成したファイルをアプリにアップロードする。</p>\n<p>,Smoker,Non-smoker<br>Positive,22,5<br>Negative,478,495</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Moteki, Yasutoshi",
+              "affiliation": "Nanazn University",
+              "orcid": "0000-0001-7763-670X"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.20249186",
+              "relation": "isDocumentedBy",
+              "resource_type": "publication-report",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.2139/ssrn.7000878",
+              "relation": "isSupplementTo",
+              "resource_type": "publication-preprint",
+              "scheme": "doi"
+            }
+          ],
+          "version": "v1.4",
+          "custom": {
+            "code:programmingLanguage": [
+              {
+                "id": "r",
+                "title": {
+                  "en": "R"
+                }
+              }
+            ]
+          },
+          "resource_type": {
+            "title": "Software",
+            "type": "software"
+          },
+          "license": {
+            "id": "gpl-3.0-or-later"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 4,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20474131"
+                }
+              }
+            ]
+          }
+        },
+        "title": "R Code for Regional Analysis: Shiny App for Automatic Independence Test Selection and Square Mosaic Plot Generation 地域分析のためのRコード:独立性検定およびモザイク図作成(症例対照研究、リスク比・オッズ比)",
+        "links": {
+          "self": "https://zenodo.org/api/records/21927905",
+          "self_html": "https://zenodo.org/records/21927905",
+          "preview_html": "https://zenodo.org/records/21927905?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21927905",
+          "self_doi": "https://doi.org/10.5281/zenodo.21927905",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21927905",
+          "reserve_doi": "https://zenodo.org/api/records/21927905/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20474131",
+          "parent_html": "https://zenodo.org/records/20474131",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20474131",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474131",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21927905/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21927905/sequence/default",
+          "files": "https://zenodo.org/api/records/21927905/files",
+          "media_files": "https://zenodo.org/api/records/21927905/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21927905:V1_2_crosstab_school_example.png/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21927905:V1_2_crosstab_school_example.png/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21927905:V1_2_crosstab_school_example.png/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21927905:V1_2_crosstab_school_example.png/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21927905:V1_2_crosstab_school_example.png/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21927905:V1_2_crosstab_school_example.png/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21927905/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21927905/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21927905/versions/latest",
+          "latest_html": "https://zenodo.org/records/21927905/latest",
+          "versions": "https://zenodo.org/api/records/21927905/versions",
+          "draft": "https://zenodo.org/api/records/21927905/draft",
+          "access_links": "https://zenodo.org/api/records/21927905/access/links",
+          "access_grants": "https://zenodo.org/api/records/21927905/access/grants",
+          "access_users": "https://zenodo.org/api/records/21927905/access/users",
+          "access_request": "https://zenodo.org/api/records/21927905/access/request",
+          "access": "https://zenodo.org/api/records/21927905/access",
+          "communities": "https://zenodo.org/api/records/21927905/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21927905/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21927905/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21927905/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21927905/quota-increase",
+          "requests": "https://zenodo.org/api/records/21927905/requests"
+        },
+        "updated": "2026-08-14T05:30:41.570746+00:00",
+        "recid": "21927905",
+        "revision": 6,
+        "files": [
+          {
+            "id": "e0717971-b52a-4d46-9c42-66f1d4f80d8d",
+            "key": "V1_2_crosstab_school_example.png",
+            "size": 145668,
+            "checksum": "md5:3ec0779d5773b8d3839c5ed67c230384",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/V1_2_crosstab_school_example.png/content"
+            }
+          },
+          {
+            "id": "6393a107-db79-4de1-8c9c-58eab8ee36cb",
+            "key": "crosstab_test_mosaicplot.png",
+            "size": 111161,
+            "checksum": "md5:5399fc5be63b2dbbcc7346c7d2a39f2c",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/crosstab_test_mosaicplot.png/content"
+            }
+          },
+          {
+            "id": "42026a77-20c0-4bbf-ab27-2344ad1952b3",
+            "key": "crosstab_independence_test.png",
+            "size": 139685,
+            "checksum": "md5:b26f3f93919b3fe49e8ac5d9222d1bbe",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/crosstab_independence_test.png/content"
+            }
+          },
+          {
+            "id": "ae09cd09-6555-4a47-83ee-4f28996db137",
+            "key": "crosstab_analysis_app.R",
+            "size": 10819,
+            "checksum": "md5:0cc11c8f8d909ada83c47ceb447e0e41",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/crosstab_analysis_app.R/content"
+            }
+          },
+          {
+            "id": "e97c34d9-87de-412f-aa0a-d065b6074351",
+            "key": "dropout_case_control.csv",
+            "size": 52,
+            "checksum": "md5:1e4afa3f18e741b7b2c3228891303d43",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/dropout_case_control.csv/content"
+            }
+          },
+          {
+            "id": "11764d6e-4d19-4a2c-9c38-a5084c6c51c1",
+            "key": "crosstab_test_data_preview.png",
+            "size": 69919,
+            "checksum": "md5:71c38b58b6fe752e93fa095ccb511a44",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/crosstab_test_data_preview.png/content"
+            }
+          },
+          {
+            "id": "37df975c-5be3-4e5e-bc33-bc4b56efae0c",
+            "key": "dropout_case_control_EN.csv",
+            "size": 75,
+            "checksum": "md5:a2eba188148fa31e6ee33659a2d5689c",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/dropout_case_control_EN.csv/content"
+            }
+          },
+          {
+            "id": "187fa206-4337-4f85-aa23-654d3b4ab58a",
+            "key": "crosstab_independence_test_E_V1_1.png",
+            "size": 97121,
+            "checksum": "md5:e64d6d53f0614bcc228f6db7dd82e672",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/crosstab_independence_test_E_V1_1.png/content"
+            }
+          },
+          {
+            "id": "c0ad9b09-09b7-4b41-a898-e6191ad2de77",
+            "key": "Case-Control_Study_Risk_Ratio_and_Odds_Ratio.pptx",
+            "size": 268177,
+            "checksum": "md5:aecedf78de78b0756c0c458ac36c14a6",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/Case-Control_Study_Risk_Ratio_and_Odds_Ratio.pptx/content"
+            }
+          },
+          {
+            "id": "b7eb14cf-a70a-43d3-ba93-ebf54eb196c4",
+            "key": "rstudio_guide_EN.pptx",
+            "size": 27508,
+            "checksum": "md5:a45e7b328a518cfc8f0e88de14f8751d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/rstudio_guide_EN.pptx/content"
+            }
+          },
+          {
+            "id": "df075b34-b5fc-42c6-b041-33b0c63d123f",
+            "key": "V1_2_crosstab_analysis_app.R",
+            "size": 15689,
+            "checksum": "md5:b61d363e2627d33de3dd8bd75bb85ba0",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/V1_2_crosstab_analysis_app.R/content"
+            }
+          },
+          {
+            "id": "7ecdaf61-f21c-4ef4-b22c-13acb663c767",
+            "key": "crosstab_sample_smoking.csv",
+            "size": 52,
+            "checksum": "md5:d21a58a5cbb8071acd4f9546d126f4b3",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/crosstab_sample_smoking.csv/content"
+            }
+          },
+          {
+            "id": "f45c7f8d-1e4d-4100-b3e1-53b8c16929c7",
+            "key": "V1_2_E_crosstab_analysis_app.R",
+            "size": 15081,
+            "checksum": "md5:1f2e889bebc805abf0ace9bb5627009d",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/V1_2_E_crosstab_analysis_app.R/content"
+            }
+          },
+          {
+            "id": "cddc01f5-96d8-4045-8e6a-6e87eb329561",
+            "key": "2026_症例対照研究_リスク比・オッズ比260613.pdf",
+            "size": 458737,
+            "checksum": "md5:0cf67988239ceb358e6e062d69f9ce68",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927905/files/2026_%E7%97%87%E4%BE%8B%E5%AF%BE%E7%85%A7%E7%A0%94%E7%A9%B6_%E3%83%AA%E3%82%B9%E3%82%AF%E6%AF%94%E3%83%BB%E3%82%AA%E3%83%83%E3%82%BA%E6%AF%94260613.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1606547"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 519,
+          "unique_downloads": 388,
+          "views": 869,
+          "unique_views": 490,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-08-14T04:18:46.629643+00:00",
+        "modified": "2026-08-14T04:18:46.917958+00:00",
+        "id": 21927705,
+        "conceptrecid": "21927704",
+        "doi": "10.5281/zenodo.21927705",
+        "conceptdoi": "10.5281/zenodo.21927704",
+        "doi_url": "https://doi.org/10.5281/zenodo.21927705",
+        "metadata": {
+          "title": "MultiStakeholder Collaboration and Global Partnerships: Expanding ORIC Impact Beyond Borders",
+          "doi": "10.5281/zenodo.21927705",
+          "publication_date": "2026-08-14",
+          "description": "<p class=\"MsoNormal\"><strong><span>Description:</span></strong><span>&nbsp;</span></p>\n<p class=\"p\"><span>This chapter provides a </span><strong><span class=\"15\">comprehensive framework for multistakeholder collaboration and global partnerships in ORICs</span></strong><span>, focusing on credibility, transparency, and competitiveness. It introduces practical tools such as partnership matrices and accreditation dashboards, while highlighting case studies of collaborations with UNDP, SDSN, and other global networks. Designed for </span><strong><span class=\"15\">reviewers, policymakers, and earlycareer researchers</span></strong><span>, the chapter bridges technical rigor with accessible language, ensuring institutions can demonstrate impact both nationally and internationally.</span></p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Akhlas, Ahmed",
+              "affiliation": "Dynamic Research Institute - Pakistan / Impact Align SDG - Pakistan",
+              "orcid": "0009-0007-8130-8654"
+            }
+          ],
+          "keywords": [
+            "Keywords: ORICs, Global Partnerships, MultiStakeholder Collaboration, Institutional Visibility, Triple Helix Model, SDG Alignment, Transparency, Competitiveness, Research Commercialization, International Networks"
+          ],
+          "dates": [
+            {
+              "type": "copyrighted",
+              "description": "Collaboration & Global Partnerships"
+            }
+          ],
+          "version": "V 3.0",
+          "references": [
+            "References (APA 7.0) Ahmed, A. (2024). ImpactAlign: Multistakeholder benchmarking for ORICs. Dynamic Research Institute. Carayannis, E. G., & Campbell, D. F. J. (2012). Mode 3 knowledge production in quadruple helix innovation systems. Springer. Etzkowitz, H., & Leydesdorff, L. (2000). The dynamics of innovation: From national systems and \"Mode 2\" to a triple helix of university–industry–government relations. Research Policy, 29(2), 109–123. OECD. (2021). International collaboration in higher education and research. OECD Publishing. SDSN. (2023). Global partnerships for sustainable development goals. Sustainable Development Solutions Network. UNESCO. (2020). Fostering international collaboration in open science. UNESCO Publishing. United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development. United Nations. World Bank. (2022). Crossborder innovation ecosystems and institutional competitiveness. World Bank Publications. Smith, J. (2022). Global partnerships and accreditation frameworks in higher education. Routledge. UNDP. (2021). Partnerships for sustainable development: Policy and practice. United Nations Development Programme."
+          ],
+          "language": "eng",
+          "resource_type": {
+            "title": "Book chapter",
+            "type": "publication",
+            "subtype": "section"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "21927704"
+                }
+              }
+            ]
+          }
+        },
+        "title": "MultiStakeholder Collaboration and Global Partnerships: Expanding ORIC Impact Beyond Borders",
+        "links": {
+          "self": "https://zenodo.org/api/records/21927705",
+          "self_html": "https://zenodo.org/records/21927705",
+          "preview_html": "https://zenodo.org/records/21927705?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.21927705",
+          "self_doi": "https://doi.org/10.5281/zenodo.21927705",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21927705",
+          "reserve_doi": "https://zenodo.org/api/records/21927705/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/21927704",
+          "parent_html": "https://zenodo.org/records/21927704",
+          "parent_doi": "https://doi.org/10.5281/zenodo.21927704",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21927704",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21927705/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21927705/sequence/default",
+          "files": "https://zenodo.org/api/records/21927705/files",
+          "media_files": "https://zenodo.org/api/records/21927705/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:21927705:Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:21927705:Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:21927705:Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:21927705:Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:21927705:Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:21927705:Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/21927705/files-archive",
+          "archive_media": "https://zenodo.org/api/records/21927705/media-files-archive",
+          "latest": "https://zenodo.org/api/records/21927705/versions/latest",
+          "latest_html": "https://zenodo.org/records/21927705/latest",
+          "versions": "https://zenodo.org/api/records/21927705/versions",
+          "draft": "https://zenodo.org/api/records/21927705/draft",
+          "access_links": "https://zenodo.org/api/records/21927705/access/links",
+          "access_grants": "https://zenodo.org/api/records/21927705/access/grants",
+          "access_users": "https://zenodo.org/api/records/21927705/access/users",
+          "access_request": "https://zenodo.org/api/records/21927705/access/request",
+          "access": "https://zenodo.org/api/records/21927705/access",
+          "communities": "https://zenodo.org/api/records/21927705/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/21927705/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/21927705/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/21927705/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/21927705/quota-increase",
+          "requests": "https://zenodo.org/api/records/21927705/requests"
+        },
+        "updated": "2026-08-14T04:18:46.917958+00:00",
+        "recid": "21927705",
+        "revision": 4,
+        "files": [
+          {
+            "id": "e82f626f-c25b-4bf5-970f-ab4f4bdac212",
+            "key": "Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf",
+            "size": 431777,
+            "checksum": "md5:254e0bbebe94bfcfddcfe5f69747f311",
+            "links": {
+              "self": "https://zenodo.org/api/records/21927705/files/Chapter8_MultiStakeholder_Collaboration_GlobalPartnerships.pdf.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1499160"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      }
+    ],
+    "total": 389778
+  },
+  "aggregations": {
+    "publication_date": {
+      "buckets": [
+        {
+          "key": "2000",
+          "doc_count": 376,
+          "label": "2000",
+          "is_selected": false
+        },
+        {
+          "key": "2001",
+          "doc_count": 371,
+          "label": "2001",
+          "is_selected": false
+        },
+        {
+          "key": "2002",
+          "doc_count": 502,
+          "label": "2002",
+          "is_selected": false
+        },
+        {
+          "key": "2003",
+          "doc_count": 817,
+          "label": "2003",
+          "is_selected": false
+        },
+        {
+          "key": "2004",
+          "doc_count": 850,
+          "label": "2004",
+          "is_selected": false
+        },
+        {
+          "key": "2005",
+          "doc_count": 1192,
+          "label": "2005",
+          "is_selected": false
+        },
+        {
+          "key": "2006",
+          "doc_count": 1286,
+          "label": "2006",
+          "is_selected": false
+        },
+        {
+          "key": "2007",
+          "doc_count": 1928,
+          "label": "2007",
+          "is_selected": false
+        },
+        {
+          "key": "2008",
+          "doc_count": 2062,
+          "label": "2008",
+          "is_selected": false
+        },
+        {
+          "key": "2009",
+          "doc_count": 2787,
+          "label": "2009",
+          "is_selected": false
+        },
+        {
+          "key": "2010",
+          "doc_count": 2806,
+          "label": "2010",
+          "is_selected": false
+        },
+        {
+          "key": "2011",
+          "doc_count": 3459,
+          "label": "2011",
+          "is_selected": false
+        },
+        {
+          "key": "2012",
+          "doc_count": 3812,
+          "label": "2012",
+          "is_selected": false
+        },
+        {
+          "key": "2013",
+          "doc_count": 4845,
+          "label": "2013",
+          "is_selected": false
+        },
+        {
+          "key": "2014",
+          "doc_count": 6487,
+          "label": "2014",
+          "is_selected": false
+        },
+        {
+          "key": "2015",
+          "doc_count": 7035,
+          "label": "2015",
+          "is_selected": false
+        },
+        {
+          "key": "2016",
+          "doc_count": 7866,
+          "label": "2016",
+          "is_selected": false
+        },
+        {
+          "key": "2017",
+          "doc_count": 9776,
+          "label": "2017",
+          "is_selected": false
+        },
+        {
+          "key": "2018",
+          "doc_count": 11538,
+          "label": "2018",
+          "is_selected": false
+        },
+        {
+          "key": "2019",
+          "doc_count": 12517,
+          "label": "2019",
+          "is_selected": false
+        },
+        {
+          "key": "2020",
+          "doc_count": 14350,
+          "label": "2020",
+          "is_selected": false
+        },
+        {
+          "key": "2021",
+          "doc_count": 17354,
+          "label": "2021",
+          "is_selected": false
+        },
+        {
+          "key": "2022",
+          "doc_count": 18842,
+          "label": "2022",
+          "is_selected": false
+        },
+        {
+          "key": "2023",
+          "doc_count": 23508,
+          "label": "2023",
+          "is_selected": false
+        },
+        {
+          "key": "2024",
+          "doc_count": 27835,
+          "label": "2024",
+          "is_selected": false
+        },
+        {
+          "key": "2025",
+          "doc_count": 73675,
+          "label": "2025",
+          "is_selected": false
+        },
+        {
+          "key": "2026",
+          "doc_count": 125126,
+          "label": "2026",
+          "is_selected": false
+        }
+      ],
+      "label": "Publication date"
+    },
+    "access_status": {
+      "buckets": [
+        {
+          "key": "open",
+          "doc_count": 365780,
+          "label": "Open",
+          "is_selected": false
+        },
+        {
+          "key": "restricted",
+          "doc_count": 23108,
+          "label": "Restricted",
+          "is_selected": false
+        },
+        {
+          "key": "embargoed",
+          "doc_count": 890,
+          "label": "Embargoed",
+          "is_selected": false
+        }
+      ],
+      "label": "Access status"
+    },
+    "resource_type": {
+      "buckets": [
+        {
+          "key": "publication",
+          "doc_count": 314460,
+          "label": "Publication",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "publication-article",
+                "doc_count": 131752,
+                "label": "Journal article",
+                "is_selected": false
+              },
+              {
+                "key": "publication-preprint",
+                "doc_count": 68838,
+                "label": "Preprint",
+                "is_selected": false
+              },
+              {
+                "key": "publication-taxonomictreatment",
+                "doc_count": 32677,
+                "label": "Taxonomic treatment",
+                "is_selected": false
+              },
+              {
+                "key": "publication-conferencepaper",
+                "doc_count": 10635,
+                "label": "Conference paper",
+                "is_selected": false
+              },
+              {
+                "key": "publication-report",
+                "doc_count": 7468,
+                "label": "Report",
+                "is_selected": false
+              },
+              {
+                "key": "publication-book",
+                "doc_count": 6019,
+                "label": "Book",
+                "is_selected": false
+              },
+              {
+                "key": "publication-workingpaper",
+                "doc_count": 4861,
+                "label": "Working paper",
+                "is_selected": false
+              },
+              {
+                "key": "publication-other",
+                "doc_count": 4785,
+                "label": "Other",
+                "is_selected": false
+              },
+              {
+                "key": "publication-dissertation",
+                "doc_count": 4082,
+                "label": "Thesis",
+                "is_selected": false
+              },
+              {
+                "key": "publication-section",
+                "doc_count": 4068,
+                "label": "Book chapter",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "dataset",
+          "doc_count": 37202,
+          "label": "Dataset",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "image",
+          "doc_count": 13949,
+          "label": "Image",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "image-figure",
+                "doc_count": 13098,
+                "label": "Figure",
+                "is_selected": false
+              },
+              {
+                "key": "image-diagram",
+                "doc_count": 143,
+                "label": "Diagram",
+                "is_selected": false
+              },
+              {
+                "key": "image-photo",
+                "doc_count": 92,
+                "label": "Photo",
+                "is_selected": false
+              },
+              {
+                "key": "image-other",
+                "doc_count": 76,
+                "label": "Other",
+                "is_selected": false
+              },
+              {
+                "key": "image-plot",
+                "doc_count": 50,
+                "label": "Plot",
+                "is_selected": false
+              },
+              {
+                "key": "image-drawing",
+                "doc_count": 34,
+                "label": "Drawing",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "software",
+          "doc_count": 9905,
+          "label": "Software",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "software-computationalnotebook",
+                "doc_count": 439,
+                "label": "Computational notebook",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "presentation",
+          "doc_count": 4508,
+          "label": "Presentation",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "other",
+          "doc_count": 3229,
+          "label": "Other",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "poster",
+          "doc_count": 2362,
+          "label": "Poster",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "model",
+          "doc_count": 1151,
+          "label": "Model",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "lesson",
+          "doc_count": 1006,
+          "label": "Lesson",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "event",
+          "doc_count": 991,
+          "label": "Event",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        }
+      ],
+      "label": "Resource types"
+    },
+    "subject": {
+      "buckets": [
+        {
+          "key": "Biodiversity",
+          "doc_count": 67908,
+          "label": "Biodiversity",
+          "is_selected": false
+        },
+        {
+          "key": "Taxonomy",
+          "doc_count": 64653,
+          "label": "Taxonomy",
+          "is_selected": false
+        },
+        {
+          "key": "Animalia",
+          "doc_count": 47201,
+          "label": "Animalia",
+          "is_selected": false
+        },
+        {
+          "key": "Arthropoda",
+          "doc_count": 31764,
+          "label": "Arthropoda",
+          "is_selected": false
+        },
+        {
+          "key": "Insecta",
+          "doc_count": 21736,
+          "label": "Insecta",
+          "is_selected": false
+        },
+        {
+          "key": "Chordata",
+          "doc_count": 8009,
+          "label": "Chordata",
+          "is_selected": false
+        },
+        {
+          "key": "Coleoptera",
+          "doc_count": 5108,
+          "label": "Coleoptera",
+          "is_selected": false
+        },
+        {
+          "key": "Arachnida",
+          "doc_count": 4788,
+          "label": "Arachnida",
+          "is_selected": false
+        },
+        {
+          "key": "Hemiptera",
+          "doc_count": 3812,
+          "label": "Hemiptera",
+          "is_selected": false
+        },
+        {
+          "key": "Mammalia",
+          "doc_count": 3361,
+          "label": "Mammalia",
+          "is_selected": false
+        }
+      ],
+      "label": "Subjects"
+    },
+    "file_type": {
+      "buckets": [
+        {
+          "key": "pdf",
+          "doc_count": 260845,
+          "label": "PDF",
+          "is_selected": false
+        },
+        {
+          "key": "html",
+          "doc_count": 35836,
+          "label": "HTML",
+          "is_selected": false
+        },
+        {
+          "key": "zip",
+          "doc_count": 26672,
+          "label": "ZIP",
+          "is_selected": false
+        },
+        {
+          "key": "png",
+          "doc_count": 15847,
+          "label": "PNG",
+          "is_selected": false
+        },
+        {
+          "key": "txt",
+          "doc_count": 11896,
+          "label": "TXT",
+          "is_selected": false
+        },
+        {
+          "key": "docx",
+          "doc_count": 11306,
+          "label": "DOCX",
+          "is_selected": false
+        },
+        {
+          "key": "md",
+          "doc_count": 7505,
+          "label": "MD",
+          "is_selected": false
+        },
+        {
+          "key": "csv",
+          "doc_count": 7261,
+          "label": "CSV",
+          "is_selected": false
+        },
+        {
+          "key": "xlsx",
+          "doc_count": 6763,
+          "label": "XLSX",
+          "is_selected": false
+        },
+        {
+          "key": "jpg",
+          "doc_count": 5354,
+          "label": "JPG",
+          "is_selected": false
+        }
+      ],
+      "label": "File type"
+    }
+  },
+  "links": {
+    "self": "https://zenodo.org/api/records?page=1&q=fundamental+constants+invariant+structure&size=8&sort=mostrecent",
+    "next": "https://zenodo.org/api/records?page=2&q=fundamental+constants+invariant+structure&size=8&sort=mostrecent"
+  }
+}
