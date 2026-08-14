@@ -13,7 +13,7 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |---|---|---|---|---|
 | FQ1 | **What is the cost of drawing a boundary?** (Landauer) — the mark calculus treats boundary-drawing as free, but creating a distinction may cost free energy; if so, entropy/energy precede distinction. | OPEN | Extend the T4 toy-model with a boundary-cost term; formalize the second-law-first inversion. | YES |
-| FQ2 | **Can the spin-statistics *connection* (which exchange eigenvalue maps to which spin) be derived from the mark calculus, and is the minimal extra structure exactly Lorentz + microcausality?** | OPEN (paper §5 boundary) | Complete T1/T2: full digling/dereliction/promotion check for the two modal exponentials in DiLL. | YES |
+| FQ2 | **Can the spin-statistics *connection* (which exchange eigenvalue maps to which spin) be derived from the mark calculus, and is the minimal extra structure exactly Lorentz + microcausality?** | SHARPENED (paper §5 boundary) | T1/T2 DiLL full check COMPLETE (2026-08-14, `artifacts/notebooks/t1-t2-dill-full-check.md`). Finding: minimal extra structure = {self-duality, abelian-pair, symmetric braiding} for statistics + {Lorentz, microcausality, positive energy} for the connection — one postulate wider than §5 states. Next: decide v1.1 amend of §5/F2. | YES |
 | FQ3 | **Does the braid-derived framework recover time-irreversibility and measurement?** (the zero-temperature idealization gap; note _26226215159 Q3/Q11) | OPEN | Map the irreversibility wobble; candidate inversion: derive braids from the second law. | YES |
 
 ---
@@ -24,7 +24,7 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 |---|---|---|---|---|
 | P1 | A discrete syntactic exchange model (two indistinguishable tokens + "draw boundary" operation) reproduces the braid relation σ₁σ₂σ₁ = σ₂σ₁σ₂ and the ±1 collapse (3D semantics) vs fractional phase (2D semantics) *without a hand-imposed sign*. | 2026-08-14 | `artifacts/notebooks/t4-toy-model.py` | If the sign must be hardcoded externally rather than emerging from the syntactic rules. |
 | P2 | No stable, local, relativistic 3+1D excitation exists with exchange phase η ≠ e^{2πis} (e.g., a spin-½ boson or spin-0 fermion). | ongoing | any experimental QFT survey | Observation of such a particle. |
-| P3 | The mark calculus reproduces the two 1D characters of S_n from distinction + compact closure + involutive braiding alone. | 2026-12-14 | T1/T2 full derivation | Impossibility proof (additional postulate required). |
+| P3 | The mark calculus reproduces the two 1D characters of S_n from distinction + compact closure + involutive braiding alone. | 2026-12-14 | T1/T2 full derivation | Impossibility proof (additional postulate required). **2026-08-14 check result:** holds **iff** the abelian-pair postulate is added; Yang–Baxter forces phase uniformity across pairs (no extra postulate needed for that). Restate P3 postulate set accordingly. |
 
 ---
 
@@ -67,6 +67,8 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 ## 7. SESSION LOG
 
 - **2026-08-14 (P9):** Registry created from the red-team audit of the evening deep-inquiry notes (findings S-1..S-10, D-1..D-2). T4 toy-model written and executed (P1 verified: braid relations + ±1 collapse + fractional-phase anyon mode all reproduced syntactically). Companion-essay draft committed with the labeling discipline restored.
+
+- **2026-08-14 (P1 continuation):** T1/T2 DiLL full check COMPLETE — `artifacts/notebooks/t1-t2-dill-full-check.md`. Results: (1) both !_S and !_Λ verified as DiLL exponentials (dereliction/digging/promotion/contraction/weakening/Seely); (2) parity identification Sym_gr(A_odd) ≅ Λ(A_odd) — the two exponentials are two branches of one construction; (3) ribbon identity gives θ_M = η·id for abelian self-dual M; (4) Yang–Baxter forces phase uniformity across pairs (η_1 = η_2 derivation); (5) FINDING: abelian-pair postulate required to exclude parastatistics-class sectors — §5 boundary is one postulate wider than stated; F2/P3 restated accordingly. Self-verification caught + fixed one eigenspace-label error (odd-mark parity swap) and one citation correction (Greenberg–Messiah 1965). Also re-ran t4-toy-model.py this session: all checks True (P1 re-verified). Next: decide v1.1 (amend §5 + F2), then FQ1 boundary-cost term (T5), then FQ3 irreversibility mapping.
 
 ## MAINTENANCE PROTOCOL
 Update this file at each phase closeout; bump the date. Any published paper claiming frontier questions or pre-registered predictions must link back here.
