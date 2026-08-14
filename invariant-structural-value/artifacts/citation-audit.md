@@ -72,4 +72,4 @@ Reviewer subagent (2026-08-14, red-team) returned FAIL on the published v0.1 bib
 - HARD-3: BP-10 claimed "51/51" and "OpenAlex" — FIXED in bp-gates.md (correct counts, Crossref/DataCite/arXiv only).
 - HARD-4: registry year drift "Joyal-Street 1991" vs 1986/1993 — FIXED (bib key joyalstreet1993 referenced).
 - SOFT: ladyman2007 "and and", ladyman2013 publisher spacing, landry/worrall entry types — FIXED.
-All fixes committed (post-audit commit); newversion 21929480 carries the corrected artifacts. Original published record 21929479 untouched.
+All fixes committed (post-audit commit 09af444); newversion **21929590** (DOI 10.5281/zenodo.21929590, v0.2) carries the corrected artifacts. Original published record 21929479 untouched.
