@@ -35,7 +35,9 @@
 
 **Domains covered:** SLB (Laws of Form / treatise / STC), UMP (p-adic spin, anyons, ZBW), INM-adjacent (statistics-of-possibility) → **3 domains (>=2 required)**.
 
-**Report:** QNFO Cross-Reference: Found 12+ related papers across 3 domains (corpus: 8,283 nodes, 1,624 Paper records).
+**Full-corpus D1 sweep (fallback; qnfo-memory-mcp 500'd at 18:31-18:36Z):** living-paper papers table = **989 records** (K=989); title-keyword sweep (spin/statistic/fermion/boson/anyon, LIMIT 40) = **19 hits**, evidence: artifacts/external-search/d1_living-paper_sweep.json. Additional anchors found: adelic-synthesis-pattern-particle (Complete Arithmetic Theory of Anyons, 10.5281/zenodo.21208568), zbw-p5-capstone / zbw-fw-null-test (Topological Fermion Distinction, 10.5281/zenodo.21574555), zbw-majorana-tqc-p4 (p-adic anyon braiding, 10.5281/zenodo.21336087), acrp04-five-smooth-audit (10.5281/zenodo.21754151).
+
+**Report:** QNFO Cross-Reference: Found 19+ related papers across 3 domains (corpus: 989 D1 records; KG 8,283 nodes / 1,624 Paper records).
 
 ## (b) External Verification
 

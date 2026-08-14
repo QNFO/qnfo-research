@@ -1,0 +1,103 @@
+{
+  "query_date": "2026-08-14",
+  "wbs": "QNFO.RES.009",
+  "tool_note": "qnfo-memory-mcp search_papers + search_papers_enriched returned Error 1101 (worker threw exception) at 18:31-18:36Z; direct D1 living-paper sweep used as canonical fallback (knowledge v2.10 PAPER-CONTEXT-TOOL-EMPTY-1 discipline)",
+  "papers_table_count": 989,
+  "title_keyword_hits": [
+    {
+      "slug": "acrp04-five-smooth-audit",
+      "doi": "10.5281/zenodo.21754151",
+      "title": "Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim"
+    },
+    {
+      "slug": "adelic-synthesis-pattern-particle",
+      "doi": "10.5281/zenodo.21208568",
+      "title": "Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons"
+    },
+    {
+      "slug": "continuum-trilogy-02-padic-spin",
+      "doi": "10.5281/zenodo.21672990",
+      "title": "P-adic Spin, Information, and Ultrametric Internal Quantum Numbers"
+    },
+    {
+      "slug": "geometric-spin-charge",
+      "doi": null,
+      "title": "Geometric Spin-Charge"
+    },
+    {
+      "slug": "hydrodynamic-gating-of-nuclear-spin-coherence",
+      "doi": null,
+      "title": "Hydrodynamic Gating of Nuclear Spin Coherence v2"
+    },
+    {
+      "slug": "non-markovian-hamiltonian-dynamics-of-boson-mediated-energy-transfer",
+      "doi": null,
+      "title": "Non-Markovian Hamiltonian Dynamics of Boson-Mediated Energy Transfer"
+    },
+    {
+      "slug": "p-adic-anyon-fusion-braiding",
+      "doi": "10.5281/zenodo.21208491",
+      "title": "p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity"
+    },
+    {
+      "slug": "projective-geometric-frameworks-for-semantic-structures-addressing-the-gap-between-statistical-approximation-and-formal-",
+      "doi": "10.5281/zenodo.19564092",
+      "title": "Projective Geometric Frameworks for Semantic Structures: Addressing the Gap Between Statistical Approximation and Formal"
+    },
+    {
+      "slug": "resonant-spinor-topology-and-the-vacuum-horizon",
+      "doi": null,
+      "title": "Resonant Spinor Topology and the Vacuum Horizon"
+    },
+    {
+      "slug": "spin-glasses-complexity",
+      "doi": "10.5281/zenodo.21304631",
+      "title": "Spin Glasses and Complexity: Replica Symmetry Breaking, Frustration, and the Statistical Mechanics of Disordered Systems"
+    },
+    {
+      "slug": "statistical-genesis-of-appearance-a-first-principles-investigation",
+      "doi": "10.5281/zenodo.20182910",
+      "title": "Statistical Genesis of Appearance \u00e2\u20ac\u201d A First-Principles Investigation"
+    },
+    {
+      "slug": "statistics-of-possibility",
+      "doi": null,
+      "title": "Statistics is the Bridge"
+    },
+    {
+      "slug": "the-spin-free-substrate-trapped-ion-quantum-simulation-of-posner-molecule-nuclear-spin-dynamics",
+      "doi": "10.5281/zenodo.20411734",
+      "title": "The Spin-Free Substrate: Trapped-Ion Quantum Simulation of Posner Molecule Nuclear Spin Dynamics"
+    },
+    {
+      "slug": "viscoelastic-gating-of-nuclear-spin-coherence",
+      "doi": null,
+      "title": "Viscoelastic Gating of Nuclear Spin Coherence"
+    },
+    {
+      "slug": "x3.3-bosonic-codes-native-encoding",
+      "doi": "pending",
+      "title": "Bosonic Codes as the Native Encoding: Resource-Commensurable Comparison of Cat, GKP, Binomial, and Surface Codes"
+    },
+    {
+      "slug": "zbw-fw-null-test",
+      "doi": "10.5281/zenodo.21574555",
+      "title": "Vanishing ZBW Signal: The ZBW-Majorana Hypothesis as a Unified Framework for Topological Fermion Distinction"
+    },
+    {
+      "slug": "zbw-majorana-tqc-p4-zbw-anyon-braiding",
+      "doi": "10.5281/zenodo.21336087",
+      "title": "Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding"
+    },
+    {
+      "slug": "zbw-p5-capstone",
+      "doi": "10.5281/zenodo.21609223",
+      "title": "Vanishing ZBW Signal: The ZBW-Majorana Hypothesis as a Unified Framework for Topological Fermion Distinction"
+    },
+    {
+      "slug": "zbw-p5-capstone-synthesis",
+      "doi": "10.5281/zenodo.21574555",
+      "title": "Vanishing ZBW Signal: The ZBW-Majorana Hypothesis as a Unified Framework for Topological Fermion Distinction"
+    }
+  ]
+}
