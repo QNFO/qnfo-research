@@ -12,9 +12,9 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |---|---|---|---|---|
-| FQ1 | **What is the cost of drawing a boundary?** (Landauer) — the mark calculus treats boundary-drawing as free, but creating a distinction may cost free energy; if so, entropy/energy precede distinction. | SHARPENED (T5, 2026-08-14) | T5 boundary-cost model EXECUTED (`artifacts/notebooks/t5-boundary-cost-model.py`, REG-009-002): the cost applies to erasure/maintenance, NOT reversible drawing; distinction (grammar) and dissipation (resource) are dual descriptions, not competitors. Next: T6 capacity bound ΔS/k_B ln 2 as a physical ceiling on maintained distinctions. | YES |
+| FQ1 | **What is the cost of drawing a boundary?** (Landauer) — the mark calculus treats boundary-drawing as free, but creating a distinction may cost free energy; if so, entropy/energy precede distinction. | CLOSED in ceiling form (T5→T6, 2026-08-14) | T5 (REG-009-002) + T6 (REG-009-003) EXECUTED: cost applies to erasure/maintenance, NOT reversible drawing; capacity ceiling floor(ΔS/k_B ln 2); steady state min(N, P/p); entropy balance verified. Answer: grammar is primitive, capacity to maintain it is thermodynamically priced — dual descriptions, not competitors. Next: T7 (P6) second-law-gated braid implementation. | YES |
 | FQ2 | **Can the spin-statistics *connection* (which exchange eigenvalue maps to which spin) be derived from the mark calculus, and is the minimal extra structure exactly Lorentz + microcausality?** | SHARPENED (paper §5 boundary) | T1/T2 DiLL full check COMPLETE (2026-08-14, `artifacts/notebooks/t1-t2-dill-full-check.md`). Finding: minimal extra structure = {self-duality, abelian-pair, symmetric braiding} for statistics + {Lorentz, microcausality, positive energy} for the connection — one postulate wider than §5 states. Next: v1.1 amendment DRAFTED (`docs/v1.1-amendment-draft.md`, decision YES 2026-08-14); Zenodo newversion publish pending (CMD PUBLISH cycle). | YES |
-| FQ3 | **Does the braid-derived framework recover time-irreversibility and measurement?** (the zero-temperature idealization gap; note _26226215159 Q3/Q11) | OPEN | Map the irreversibility wobble; candidate inversion: derive braids from the second law. | YES |
+| FQ3 | **Does the braid-derived framework recover time-irreversibility and measurement?** (the zero-temperature idealization gap; note _26226215159 Q3/Q11) | SEEDED (2026-08-14) | Mapping seed COMPLETE (`docs/fq3-irreversibility-mapping.md`): the arrow enters at the erasure gate (T5 H2); grammar time-symmetric, resource account asymmetric; the idealization gap = the erasure-cost gap. Next: T7 second-law-gated braid implementation (P6). | YES |
 
 ---
 
@@ -50,6 +50,12 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 - **Data:** `artifacts/notebooks/t5-boundary-cost-model.py` output (run 2026-08-14).
 - **Deadline:** 2026-08-14 (executed same-day; see §7).
 
+**REG-009-003 — Capacity ceiling (T6, FQ1 formal).**
+- **Hypothesis:** G1 ceiling floor(ΔS / k_B ln 2); G2 steady state min(N, P/p) with entropy balance (fixes == reservoir gain); G3 statistics unchanged at the ceiling.
+- **Falsification:** G2a fails if the steady state deviates from min(N, P/p) beyond tolerance; G2b fails if fixes ≠ reservoir gain; G3 fails if a budget term enters the exchange eigenvalues. G1 is definitional — demonstration only [KIF-60].
+- **Data:** `artifacts/notebooks/t6-capacity-bound.py` output (run 2026-08-14; first run FAILED G2a by design — simulation bug caught by the pre-registered test, fixed, re-run PASS — see notebook "Modeling note").
+- **Deadline:** 2026-08-14 (executed same-day; see §7).
+
 ---
 
 ## 5. CALIBRATION REGISTER
@@ -68,8 +74,9 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 - **P1:** T1/T2 DiLL full check — DONE 2026-08-14 (`artifacts/notebooks/t1-t2-dill-full-check.md`).
 - **P2:** Disciplined companion essay — draft committed (`docs/companion-essay-draft.md`); publication decision pending.
 - **P3:** v1.1 amendment publish (CMD PUBLISH): apply `docs/v1.1-amendment-draft.md` (abelian-pair in §5/F2), Zenodo newversion per NEWVERSION-FRONTMATTER-CARRYOVER-1.
-- **P4:** FQ1 follow-up T6 — capacity bound ΔS/k_B ln 2 as a physical ceiling on maintained distinctions.
-- **P5:** FQ3 irreversibility mapping — seed: T5 H2 (erasure is the irreversibility gate).
+- **P4:** FQ1 capacity ceiling — DONE 2026-08-14 (T6, REG-009-003; `artifacts/notebooks/t6-capacity-bound.py`).
+- **P5:** FQ3 irreversibility mapping — SEEDED 2026-08-14 (`docs/fq3-irreversibility-mapping.md`).
+- **P6:** T7 second-law-gated braid implementation (FQ3 full-derivation candidate): implement a braid as a sequence of maintained distinctions under a power budget; derive the implementable braid set as a function of (p, P, T).
 
 ---
 
@@ -80,6 +87,8 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 - **2026-08-14 (P1 continuation):** T1/T2 DiLL full check COMPLETE — `artifacts/notebooks/t1-t2-dill-full-check.md`. Results: (1) both !_S and !_Λ verified as DiLL exponentials (dereliction/digging/promotion/contraction/weakening/Seely); (2) parity identification Sym_gr(A_odd) ≅ Λ(A_odd) — the two exponentials are two branches of one construction; (3) ribbon identity gives θ_M = η·id for abelian self-dual M; (4) Yang–Baxter forces phase uniformity across pairs (η_1 = η_2 derivation); (5) FINDING: abelian-pair postulate required to exclude parastatistics-class sectors — §5 boundary is one postulate wider than stated; F2/P3 restated accordingly. Self-verification caught + fixed one eigenspace-label error (odd-mark parity swap) and one citation correction (Greenberg–Messiah 1965). Also re-ran t4-toy-model.py this session: all checks True (P1 re-verified). Next: decide v1.1 (amend §5 + F2), then FQ1 boundary-cost term (T5), then FQ3 irreversibility mapping.
 
 - **2026-08-14 (P9 continuation, T5):** FQ1 boundary-cost model EXECUTED — H1/H2/H3 all PASS (REG-009-002). Key result: the Landauer inversion (Note 3 Layer 1) holds ONLY for erasure/maintenance, NOT for reversible drawing → distinction (grammar) and dissipation (resource) are DUAL descriptions; the second law prices the mark's upkeep, it does not dethrone it. v1.1 amendment DRAFTED (decision YES: abelian-pair postulate in §5/F2) — Zenodo newversion publish pending. Next: CMD PUBLISH v1.1; T6 capacity bound; FQ3 irreversibility mapping.
+
+- **2026-08-14 (P9 continuation, T6 + FQ3 seed):** T6 capacity ceiling EXECUTED — G1/G2/G3 all PASS (REG-009-003; first G2a run FAILED by design — simulation state-reset bug caught by the pre-registered test, fixed, re-run PASS, documented in notebook). FQ1 CLOSED in ceiling form: ceiling floor(ΔS/k_B ln 2), steady state min(N, P/p), entropy balance verified; grammar untouched at the ceiling. FQ3 SEEDED (`docs/fq3-irreversibility-mapping.md`): the arrow enters at the erasure gate; idealization gap = erasure-cost gap. Next: P6 T7 second-law-gated braid implementation; CMD PUBLISH v1.1.
 
 ## MAINTENANCE PROTOCOL
 Update this file at each phase closeout; bump the date. Any published paper claiming frontier questions or pre-registered predictions must link back here.
