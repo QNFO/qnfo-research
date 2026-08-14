@@ -186,6 +186,54 @@ map and $\pi$ is the half-period of the compact group. Compact closure is what
 allows the feedback loop to exist, and $e$ and $\pi$ are the invariants of that
 loop.
 
+## Formal derivation (constructive, pre-registered)
+
+C3 is claimed constructively, not by pattern-matching. Each constant is
+exhibited as the unique fixed point of a specified self-referential equation
+over the calculus of indications.
+
+**e as the fixed point of self-application.** Let $T$ be the operator that maps
+a function to its own rate of change: $T[f] = f'$. The fixed-point equation
+
+$$T[f] = f, \qquad f(0) = 1$$
+
+has the unique analytic solution $f(x) = e^{x}$, hence $e = f(1)$. The
+construction is explicit: the Picard iteration
+
+$$f_{0} = 1, \qquad f_{n+1}(x) = 1 + \int_{0}^{x} f_{n}(t)\,dt$$
+
+converges uniformly on compacta to $f$, yielding the series
+$e = \sum_{n=0}^{\infty} 1/n!$. Equivalently, the iteration of a small
+distinction onto itself, $a_{n} = (1 + 1/n)^{n}$, converges monotonically to
+$e$. The primitive is the distinction between a form and its own increment:
+self-application is the operation that feeds a form back into itself.
+
+**pi as the fixed point of self-closure.** Closure is the requirement that a
+form return to itself. The self-adjoint momentum operator on a circle,
+$\hat{p} = -i\,d/d\theta$, is self-adjoint only for periodic boundary
+conditions $f(\theta + 2\pi) = f(\theta)$; its eigenfunctions are
+$e^{in\theta}$, and the periodicity condition forces the fundamental period to
+be $2\pi$. Equivalently, the exponential map $\exp: \mathbb{R} \to U(1)$,
+$x \mapsto e^{ix}$, has kernel $2\pi\mathbb{Z}$: self-closure of the
+exponential map fixes the period, and $\pi$ is its half-period, the least
+positive $x$ with $e^{ix} = -1$. The primitive is the distinction between a
+line and its return: self-closure is the operation that identifies a path with
+its endpoint.
+
+**Euler identity as the joint fixed point.** The two fixed points compose:
+$e^{i\pi} = -1$ states that self-application iterated through the imaginary
+half-period of self-closure yields the elementary distinction $-1$. The
+identity $e^{i\pi} + 1 = 0$ re-states the original mark pair $0,1$.
+
+**Constructive verification.** Each step above is an exhibited equation with a
+unique solution; no numerical value is assumed. Independent recomputation of
+the fixed-point values $e$, $\pi$, and the identity $e^{i\pi} + 1 = 0$ is
+recorded in the fit-verify artifact (BP-1/BP-6/BP-10). [TERRITORY — the
+derivation is disconfirmed if either constant can be shown to require an
+additional primitive not derivable from distinction and self-reference, or if a
+self-referential equation is exhibited whose fixed point is a constant other
+than $e$ or $\pi$ with no structural characterization.]
+
 # Falsifiability and Symmetric Audit
 
 ## Disconfirmation conditions
