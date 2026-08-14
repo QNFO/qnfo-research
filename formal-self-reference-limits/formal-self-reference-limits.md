@@ -101,7 +101,7 @@ Following the research pipeline's consilience gate, we map the thesis across fiv
 
 | Domain | Fragment | Structure found |
 |:-------|:---------|:----------------|
-| Logic | Gödel incompleteness; Tarski undefinability | A consistent system cannot define its own truth → structural blind spot [12, 13] |
+| Logic | Gödel incompleteness; Tarski undefinability | A consistent system cannot define its own truth; the blind spot is structural [12, 13] |
 | Computation | Halting problem; quines; stably-computable incompleteness | No universal decider of self-behavior; same diagonal structure [14, 15, 16] |
 | Quantum measurement / physics | S10 observer inside/outside | Residual external perspective relocates, never eliminates [23] |
 | Embodied cognition | Pentadactyly; heartbeat-second; body-meter | Convention-layer residues, replaceable without theorem change [2, 5, 8, 10] |
@@ -139,7 +139,7 @@ Neither condition is met by any known system; both are stated so that a single c
 
 **QNFO-internal anchors** (all cited and verified): Ten-Fingered Trap [2]; QUNSAI Scaffolds and Invariants [5]; Radix-Agnostic DSI Detection [6]; Silent-Radix Cryptography [7]; From Decimal Fingers to Adelic Freedom [8]; The Decryption Key [9]; Non-Anthropocentric Natural Units [10]; map-is-not-the-universe / Math is NOT the Universe [3]; A Map is Not the Universe (companion cartography discipline) [4]; Universal Computational Topos [20]; Void Is Not False [21]; Strange Loop of Being [22]; Observer Inside the Tree [23]; 29-Schisms Synthesis [24]; finite-precision/OC convergence (Gisin–Del Santo, van der Lugt application) [25]; Prime Valuation Depth (RES.005) [26]; Universal Ignorance Audit (RES.002) [27]; Knowing What We Do Not Know (RES.003) [28].
 
-**External canon:** Russell's theory of types [11]; Gödel 1931 [12]; Tarski 1936 [13]; Turing 1936 [14]; Savelyev stably-computable incompleteness [15]; Savelyev stably-consistent incompleteness [16]; Visser Tarski→Gödel self-reference-free [17]; Aczel non-well-founded sets [18]; Priest paraconsistent logic [19]; Hofstadter GEB [22]; van der Lugt intuitionistic anthropocentric time [25]; Ifrah history of numbers (base contingency) [29].
+**External canon:** Russell's theory of types [11]; Gödel 1931 [12]; Tarski 1936 [13]; Turing 1936 [14]; Savelyev stably-computable incompleteness [15]; Savelyev stably-consistent incompleteness [16]; Visser, Tarski-to-Gödel derivation [17]; Aczel non-well-founded sets [18]; Priest paraconsistent logic [19]; Hofstadter GEB [22]; van der Lugt intuitionistic anthropocentric time [25]; Ifrah history of numbers (base contingency) [29].
 
 **Novelty statement.** The fragments are classical (self-reference limits) or internal (anthropocentric conventions). The synthesis is new: the objectification thesis (P6) unifies them by locating the anthropocentrism at the convention layer and the self-reference limits at the formal core, and derives the partial-self-knowledge corollary. No external work connects convention-layer anthropocentrism to the structural self-reference limits of objectified formal systems with this corollary (evidence: OpenAlex/Crossref/Zenodo/arXiv sweeps, saved in artifacts/external-search/).
 
