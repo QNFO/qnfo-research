@@ -3,7 +3,7 @@ title: "Invariant Structural Value: Fundamental Constants and Formulas as Invari
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-14"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21929902"
+doi: "10.5281/zenodo.21929590"
 status: "published"
 abstract: "We develop the thesis that the fundamental constants and formulas of physics encode invariant relations rather than unit-dependent magnitudes. Measurable physics is characterized as the invariant quotient of a larger non-measurable mathematical structure modulo redundancy groups: units, coordinates, gauge, basis, and scale. The exponential constant e and the circle constant pi are shown to be fixed points of two canonical self-referential operations on a primitive mark-and-distinction: e of self-application and pi of self-closure. The Euler identity is the joint fixed point of these operations. Every claim carries an explicit disconfirmation condition."
 ---
