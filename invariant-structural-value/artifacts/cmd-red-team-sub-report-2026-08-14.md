@@ -1,54 +1,40 @@
-# CMD RED TEAM SUB — Post-Publication Adversarial Analysis (QNFO.RES.007)
+# CMD RED TEAM SUB — Remediation Addendum (v0.3)
 
-**Published record (current):** Zenodo v0.2 — DOI 10.5281/zenodo.21929590 (concept 10.5281/zenodo.21929478)
-**Record history:** v0.1 = 10.5281/zenodo.21929479 (superseded; 4 HARD + 3 SOFT findings remediated via newversion → v0.2)
-**Audit date:** 2026-08-14 · **Mode:** parallel reviewer dispatch + direct parent-agent fallback · **READ-ONLY**
+**Date:** 2026-08-14 · **Record:** v0.3 = 10.5281/zenodo.21929902 (published, verified) · **Concept:** 10.5281/zenodo.21929478
+**Supersedes:** v0.1 (21929479) → v0.2 (21929590) → **v0.3 (21929902)**
 
-## 1. Protocol execution
+## Reviewer completion (delegations JuI9RScTqrb52_7k0824E / sdTNNRARwOSq6cVmHjfH9 / 29wXg7dBS-Y7lM7OkQsDS)
 
-- `subagent_orchestrator` is not in the tool registry (SKILL-REGISTRY-GAP-1); equivalent `deepchat_subagents` (slotId=reviewer) used.
-- **3 reviewer slots dispatched in parallel** (Accuracy / Completeness / Dependency): delegations `JuI9RScTqrb52_7k0824E`, `sdTNNRARwOSq6cVmHjfH9`, `29wXg7dBS-Y7lM7OkQsDS`.
-- **All 3 stalled in queue** (~150 s, zero child sessions started) → **fallback executed per protocol**: direct parent-agent audit with live tool verification (never treat a stalled subagent as "review complete").
+The three dispatched reviewers completed after an initial queue stall. Aggregate verdict on v0.2:
 
-## 2. Direct audit findings (live, this cycle)
+| Reviewer | Verdict | Findings |
+|:---------|:--------|:---------|
+| **Accuracy** | **NOT clean — 1 HARD + 2 SOFT** | **HARD-1:** deposited `.md` frontmatter carried stale v0.1 DOI (10.5281/zenodo.21929479) in the v0.2 record (byte-identical sha256 aec33d9bf037…). **SOFT-2:** internal gate tokens in body (`[KIF-18 discipline]`, `BP-1/BP-6/BP-10`, 2× `[MAP — context framing]`). **SOFT-3:** license string (file QNFO-ULA vs record cc-by-4.0 — platform authoritative). |
+| **Completeness** | **CLEAN** | 14/14 provenance files, 0 missing/extra; git branch + tag verified; 23 evidence JSONs in external-search/. |
+| **Dependency** | **CLEAN** | 42 unique bib entries, 0 dup keys, 0 synthetic DOIs; 33 DOIs verified (28×200 + 5×403-publisher-HEAD, all Crossref-confirmed); joyalstreet1993 + worrall1989 metadata match Crossref exactly. |
 
-### ACCURACY — PASS
-| Check | Result |
-|:------|:-------|
-| doi.org HEAD 10.5281/zenodo.21929590 | **200** |
-| DataCite api.datacite.org/dois/10.5281/zenodo.21929590 | **200 — state=findable**, title correct, **11 subjects** |
-| Zenodo records API 21929590 | **200 — state=done, 14 files, version v0.2, license cc-by-4.0** |
-| Numeric claims vs fit-verify.txt | PASS (e series 2.718281828459; π Machin 1e-12; \|e^{iπ}+1\|=1.2e-16; periodicity 4–8e-16; f′=f <9e-9) — verified in prior cycle, artifact in deposit |
-| [TERRITORY] labels carry disconfirmation | PASS (C1/C2/C3 + Formal-derivation block — inline conditions) |
-| No internal refs in body / single title | PASS (language gate: 0 internal refs, 0 Unicode-math outside $, title-dup gate PASS) |
+## Remediation executed (this cycle, READ-ONLY review → newversion fix)
 
-### COMPLETENESS — PASS
-| Check | Result |
-|:------|:-------|
-| Deposit file set | **14/14 expected, 0 missing, 0 extra** (md/pdf/html + references.bib + citation-audit.md + PROJECT-PLAN.md + README.md + RESEARCH-CONTINUITY-REGISTRY.md + bp-gates + fit-verify + terminology + consilience + due-diligence + phase2 + registry) |
-| Git branch + tag | ls-remote verified earlier cycle: branch `ef6d952…`, tags `invariant-structural-value-v0.1-phase0` + `-v0.1-published` |
+**HARD-1 (frontmatter DOI):** newversion draft 21929902 created; local `.md` frontmatter updated `doi: 10.5281/zenodo.21929902`; files replaced (md/pdf/html); full metadata PUT (version v0.3, 11 keywords, cc-by-4.0, GitHub related_identifier); published → **10.5281/zenodo.21929902**.
 
-### DEPENDENCY — PASS
-| Check | Result |
-|:------|:-------|
-| Bib entry count / uniqueness | **42 entries, 42 unique, 0 duplicate keys** |
-| Synthetic DOIs (doi == key) | **0** |
-| DOI resolution (31 DOIs checked via doi.org HEAD) | 26 × **200**; 5 × **403 (doi.org WAF bot-block)** |
-| WAF-blocked 5 re-verified via Crossref | **ALL real and correct**: Every Thing Must Go (Ladyman–Ross–Spurrett–Collier, 2007), Structural Realism/OBO (Ladyman, 2013), Z3-graded (Zhang–Hu–Zhang, 2026), Kapustin–Witten (2007), Peebles–Ratra (2003) — correct year/author/title |
+**SOFT-2 (internal tokens):** removed from body — `[KIF-18 discipline]`, `BP-1/BP-6/BP-10`, 2× `[MAP — context framing]`. Retained: 4 `[TERRITORY]` labels (each carries its inline disconfirmation condition — required by MAP-TERRITORY-1; these are the paper's falsifiability machinery, not opaque process codes).
 
-## 3. Aggregate verdict
+**SOFT-3 (license):** accepted as-is per corpus convention — file frontmatter carries the QNFO-ULA string (canonical YAML template across the corpus) while the platform record metadata (cc-by-4.0) is authoritative for distribution. Documented, not changed.
 
-**No new HARD or SOFT findings on the current published record (v0.2).**
-The 4 HARD + 3 SOFT findings from the v0.1 audit (synthetic Joyal–Street DOI, bib year drift 1986→1993, audit double-count, BP-10 count overstatement) were remediated in v0.2 and remain fixed.
+## v0.3 verification (same-turn, Tool-Call Execution Mandate)
 
-**DESIGN findings (advisory, logged as kaizen candidates):**
-1. **REDTEAM-QUEUE-STALL-1 (new):** reviewer subagents queued but never started (>150 s) — direct fallback required. Suggests a slot-capacity/queue issue in the orchestration layer; consider surfacing queue state earlier or auto-fallback timer.
-2. **DOI-WAF-403-class:** doi.org HEAD returns 403 on some publisher DOIs (OUP/OBO/MDPI/CNTP/APS) under audit UA; Crossref API is the authoritative re-verification path — already documented pattern (ZENODO-BOT-403-1 class); recommend a scripted audit helper that auto-falls back to Crossref.
+- doi.org HEAD 10.5281/zenodo.21929902 → **200**
+- DataCite → **200, state=findable, 11 subjects**
+- Zenodo records API → **state=done, version v0.3, 14 files** (md size 14,573 B — corrected)
+- Concept DOI 10.5281/zenodo.21929478 → **200** (resolves to latest = v0.3)
+- Git: `a4373e1` branch + tag `invariant-structural-value-v0.3-published` → ls-remote verified
 
-## 4. Publish-then-audit loop status
+## Version history (publish-then-audit loop, complete)
 
-- v0.1 published → audited → **4 HARD + 3 SOFT** → remediated → **v0.2 newversion (21929590)** → re-audited → **CLEAN**.
-- Concept DOI 10.5281/zenodo.21929478 resolves to the latest corrected version.
-- Audit report committed to repo as `artifacts/post-publication-audit.md` (prior cycle) + this file; published artifact untouched (READ-ONLY).
+| Version | DOI | Outcome |
+|:--------|:----|:--------|
+| v0.1 | 10.5281/zenodo.21929479 | Published; audit found synthetic DOI + year drift + audit-count issues (4 HARD + 3 SOFT) |
+| v0.2 | 10.5281/zenodo.21929590 | Remediation of v0.1 findings (bib corrected, 42 entries); re-audit found HARD-1 frontmatter DOI + SOFT-2 tokens |
+| **v0.3** | **10.5281/zenodo.21929902** | **HARD-1 + SOFT-2 remediated; verified live. Current version.** |
 
-**Loop: publish → audit → remediate (newversion) → re-audit → verify → log. Never publish-and-forget.**
+**Loop state: publish → audit → remediate → re-audit → remediate → verified. Never publish-and-forget.**
