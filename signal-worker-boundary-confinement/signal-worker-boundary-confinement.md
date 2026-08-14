@@ -4,17 +4,17 @@ author: "Quni-Gudzinas, Rowan Brad"
 orcid: "0009-0002-4317-5604"
 affiliation: "QNFO Research Collective"
 date: "2026-08-14"
-version: "v0.1-draft"
+version: "v0.1"
 license: "CC-BY-4.0"
-doi: "pending"
-status: "draft"
+doi: "10.5281/zenodo.21931225"
+status: "published"
 keywords: ["Signal-Worker ontology", "topological insulators", "bulk-boundary correspondence", "Meissner effect", "quantum Hall effect", "non-Hermitian skin effect", "Weyl semimetals", "Cooper pairs", "spin-statistics theorem"]
 ---
 
 **Author:** Quni-Gudzinas, Rowan Brad (QNFO Research Collective)
 **ORCID:** 0009-0002-4317-5604
 **Date:** 2026-08-14
-**Version:** v0.1-draft
+**Version:** v0.1
 **WBS:** QNFO.INM.001 · **Slug:** signal-worker-boundary-confinement
 **Status:** Phase 2 draft (post red-team)
 
