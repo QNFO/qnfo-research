@@ -6,7 +6,7 @@ affiliation: "QNFO Research Collective"
 date: "2026-08-14"
 version: "v0.4"
 license: "CC-BY-4.0"
-doi: "10.5281/zenodo.21928947"
+doi: "10.5281/zenodo.21929626"
 status: "published"
 keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "no-cloning theorem", "branch depth", "ultrametric"]
 ---
