@@ -32,6 +32,17 @@ Target shortlist and cover-letter protocol documented separately in
 not initiated in this cycle — journal submission requires user decision on
 shortlist (see strategy doc).
 
+
+## 3a. Targeted Outreach (research v2.88 — 2026-08-14)
+
+| Recipient | Verified via | Their paper | Connection | Message ID | D1 id | Status |
+|:----------|:-------------|:------------|:-----------|:-----------|:------|:-------|
+| Christian de Ronde (cderonde@gmail.com) | arXiv source tarball 2306.13975 (.tex email) | Bohr's Anti-Realist Realism (2306.13975) | Symmetric-audit constraining literature for C2; adversarial validation invited | 05d503f4-eab3-41e1-ac4d-dde99a9ec57a | 138 | sent (2026-08-14T07:48:01Z) |
+
+Test-send to own mailbox: id=137 (rwnquni@outlook.com), message_id 60c60f6f-1c22-4344-ad56-f781fda4b176.
+Excluded (no email in arXiv source — CONNECTION-POINT-UNVERIFIED-1): De Haro & Butterfield (2508.01616), Knuth (1504.06686), Rovelli (1805.10602).
+Full record: qnfo-skills `email-composer/references/outreach-log.md` (commit d1a9a17).
+
 ## 4. PhilPapers / Scholarly Indexes
 
 - Zenodo → DataCite → CrossRef → PhilPapers/OpenAlex pipeline: record v0.2 has
