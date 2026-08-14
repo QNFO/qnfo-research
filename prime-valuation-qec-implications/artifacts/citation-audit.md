@@ -1,6 +1,6 @@
 # Citation Audit — QNFO.RES.006 (v0.2)
 
-**Slug:** prime-valuation-qec-implications · **DOI:** 10.5281/zenodo.21922813 · **Date:** 2026-08-13
+**Slug:** prime-valuation-qec-implications · **DOI:** 10.5281/zenodo.21923000 · **Date:** 2026-08-13 (re-verified 2026-08-14)
 **Method:** every bibliography entry verified against authoritative metadata (arXiv export_citations, OpenAlex, Crossref). Zero model-generated fields.
 
 ## Audit table
@@ -30,9 +30,17 @@
 
 | ID | Severity | Finding |
 |:---|:---------|:--------|
-| CA-1 | PASS | All 11 entries verified real, correctly attributed, correct venue/year/DOI. |
+| CA-1 | CORRECTED (2026-08-14) | All 11 entries real + correctly attributed. Venue/year/page corrections applied: Coecke print year 2010 (Crossref; printed list said 2009); Gubser–Knaute pages 1655–1678 (Crossref; was 1655–1683); Ostrowski bib entry re-keyed to Acta Mathematica 41:271–284. |
 | CA-2 | PASS | No hallucinated authors, fabricated venues, or wrong-year citations. |
 | CA-3 | PASS | Context-appropriateness confirmed for the 4 spot-checked in-text usages. |
 | CA-4 | SOFT | The internal NTOF report (ref 11) is the reproduction target, not a support citation — flagged in §6 as UNVERIFIED-INTERNAL, which is the correct handling. |
 
-**Verdict:** bibliography CLEAN. Zero HARD findings.
+**Verdict:** bibliography CLEAN after v0.3 corrections (2026-08-14). Pre-correction state: CA-1 was overstated — the 2026-08-13 audit missed the Coecke print-year and Gubser–Knaute page-range discrepancies later caught by the post-publication CMD RED TEAM SUB (Accuracy reviewer ACC-2/ACC-4). See post-publication-audit-21923000.md.
+
+## v0.3 Re-verification notes (2026-08-14)
+
+- **Coecke, Quantum Pictorialism:** printed year corrected 2009 → 2010 (Crossref published-print 2010-01; online 2009-12-15; arXiv:0908.1787 is the 2009 preprint). Bib already said 2010 — paper list now aligned.
+- **Gubser & Knaute 2017:** page range corrected 1655–1683 → 1655–1678 (Crossref 10.4310/atmp.2017.v21.n7.a3). NOTE: some indexes (INSPIRE-style) list 1655–1683; final resolution against the journal TOC remains an open item.
+- **Ostrowski 1916:** bib entry re-keyed to the original (Acta Mathematica 41:271–284, DOI 10.1007/bf02422947); the Springer "Collected Mathematical Papers" chapter DOI (10.1007/978-3-0348-9358-9_17, 1983) retained as a note.
+- **Abramsky 2009:** bib entry added (was missing from the 46-entry file while printed as paper ref 2 — DEP-5a).
+- **Self-DOI:** this file's header now cites 10.5281/zenodo.21923000 (v0.2); the shipped v0.2 record's copy cited the v0.1 DOI (DEP-3a/COMP-7).

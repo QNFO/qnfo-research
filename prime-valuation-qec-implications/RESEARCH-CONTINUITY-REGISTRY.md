@@ -21,9 +21,10 @@
 | ID | Prediction | Test Window | Instrument | Disconfirmation Condition | Status |
 |:---|:-----------|:------------|:-----------|:--------------------------|:-------|
 | P1 | The naive [[n,k,d]]→branch-depth mapping (n,k) carries no new content | 2026-08 (done) | Definitional analysis (§3) | Claimed extra content beyond relabeling | CONFIRMED (self-corrected) |
-| P2 | C7.3' Mahler spectral separation (v_p^max optimal≈28 vs random≈4, gap≥10) reproduces | 2026-08-13 (attempted) | rq3-mahler-reproduction.py, 55 codes | gap ≥ 10 at n ≤ 18 | **NOT REPRODUCED** (optimal 4, random 3/6) |
+| P2 | C7.3' Mahler spectral separation (v_p^max optimal≈28 vs random≈4, gap≥10) reproduces | 2026-08-13 (this pipeline); prior ACRP-06 v1.0 2026-08-01 | rq3-mahler-reproduction.py, 55 codes | gap ≥ 10 at n ≤ 18 | **NOT REPRODUCED** (optimal 4, random 3/6; ACRP-06 v1.1 erratum also reversed Golay 28→2/4) |
 | P3 | 83% Kodaira–Néron classifier accuracy reproduces above a stated baseline | P4 (next cycle) | REG-RES006-001 re-implementation | fails to exceed baseline by pre-registered margin | UNVERIFIED-INTERNAL |
 | P4 | A valuation-based overhead bound is tighter than the Singleton bound | 2026-08-14 (done) | derivation + arithmetic scan (fq2_check.py) | bound weaker than/equal to Singleton | **DISCONFIRMED** (bound strictly weaker; obstruction d) |
+| P5 | Golay v_p^max = 28 (ACRP-06 v1.0 positive result) survives independent recomputation | 2026-08-02 (BP-10) | ACRP-06 v1.1 erratum (Zenodo 21754148) | recomputation reproduces 28 | **NOT REPRODUCED** — erratum corrects Golay 28 → 2/4 ("independent BP-10 recomputation confirmed original values unreproducible") |
 
 ## 3. PER-RQ FALSIFIABILITY CONDITIONS
 
@@ -52,12 +53,14 @@
 | 2026-08-14 | FQ3 complexity characterization | strong (derivation) | DISCONFIRMED (identities genuine but complexity-vacuous) |
 | 2026-08-14 | FQ4 no-cloning consequence | strong (analysis) | DISCONFIRMED (relabeling of Abramsky + standard QEC bounds) |
 | 2026-08-14 | FQ1-EXP-001 enumerator-parity v_2(A_j) | exploratory (small sample) | PRELIMINARY POSITIVE — structure detected (4/4 outliers, pct 0/5/100/0) |
+| 2026-08-14 | C8 prior-attempt sweep (corpus-wide) | — | ACRP-06 v1.0 + v1.1 erratum found; "first reproduction attempt" claim in §6/§9/abstract retracted (DUE-DILIGENCE-SIBLING-MISS-1) |
 
 ## 6. NEXT ACTIONS (Prioritized)
 
 | Priority | Action | Dependency | Target |
 |:---------|:-------|:-----------|:-------|
 | P0 | Obtain NTOF source clarification (Mahler target function; I_C ideal) | none | source author / NTOF record |
+| P0b | Fold ACRP-06 v1.1 erratum into C8 statements; retract "first reproduction attempt" wording | done 2026-08-14 | corrections branch v03 |
 | P1 | Complete K–N leg re-implementation (I_C resolution) | P0 | next P4 cycle |
 | P2 | Fresh 50/family code generation with seeds | P1 | REG-RES006-001 |
 | P3 | Derive valuation-based overhead bound; compare to Singleton | none | FQ2 — **DONE 2026-08-14, DISCONFIRMED** (artifacts/fq2-overhead-bound.md) |
@@ -71,4 +74,5 @@
 - 2026-08-14: FQ4 DISCONFIRMED (no-cloning re-expression relabels Abramsky; no new QEC consequence — artifacts/fq4-no-cloning-consequence.md).
 - 2026-08-14: FQ1-EXP-001 exploratory scan (v_2(A_j) weight-enumerator parity; structured vs random at SAME (n,k), seed 20260814) — PRELIMINARY POSITIVE: 4/4 structured families outliers (max_v2 percentiles 0/5/100/0; perfect code all-odd strictly below all controls); sign structure = fingerprint not threshold (artifacts/fq1-exploratory-scan.md, fq1-exp-check.py).
 - 2026-08-14: avenues-remaining.md written — valuation-weight duality no-go (FQ2/FQ3 formalized); what works = v_2(A_j) enumerator-parity invariant; ranked avenues A1 (full confirmation) / A2 (no-go lemma write-up) / A3 (p-adic algorithmics — Hensel codes, domain-native) / A4 (ultrametric geometry — Bruhat–Tits) / A5 (original 83% reproduction, BLOCKED).
+- 2026-08-14: POST-PUBLICATION AUDIT of v0.2 (3-reviewer CMD RED TEAM SUB + direct parent audit) — findings + remediation in artifacts/post-publication-audit-21923000.md; ACRP-06 erratum (21754148) logged as prior C7.3 test; "first reproduction attempt" wording withdrawn.
 - **Maintenance:** update this file on every reproduction attempt, prediction outcome, or new FQ; bump a version counter; commit to the project branch. Do NOT let it become a static artifact.
