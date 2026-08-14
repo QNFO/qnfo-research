@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Build artifacts (releases are git-tracked intentionally when published)
+*.tmp
+
+# Local credentials — NEVER commit
+*.token
+*credentials*
+.env
