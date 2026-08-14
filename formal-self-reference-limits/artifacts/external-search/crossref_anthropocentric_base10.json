@@ -1,0 +1,76 @@
+{
+ "query": "anthropocentric units base-10 decimal notation mathematics foundation",
+ "count": 10,
+ "hits": [
+  {
+   "title": "decimal notation",
+   "year": null,
+   "doi": "10.1007/springerreference_11902",
+   "container": "SpringerReference",
+   "type": "reference-entry"
+  },
+  {
+   "title": "Decimal Notation",
+   "year": null,
+   "doi": "10.1007/springerreference_78441",
+   "container": "SpringerReference",
+   "type": "reference-entry"
+  },
+  {
+   "title": "packed decimal notation",
+   "year": null,
+   "doi": "10.1007/springerreference_20849",
+   "container": "SpringerReference",
+   "type": "reference-entry"
+  },
+  {
+   "title": "coded-decimal notation",
+   "year": null,
+   "doi": "10.1007/springerreference_10243",
+   "container": "SpringerReference",
+   "type": "reference-entry"
+  },
+  {
+   "title": "unpacked decimal notation",
+   "year": null,
+   "doi": "10.1007/springerreference_27893",
+   "container": "SpringerReference",
+   "type": "reference-entry"
+  },
+  {
+   "title": "binary-coded decimal notation",
+   "year": null,
+   "doi": "10.1007/springerreference_8932",
+   "container": "SpringerReference",
+   "type": "reference-entry"
+  },
+  {
+   "title": "The advantages of decimal notation",
+   "year": 1962,
+   "doi": "10.5951/mt.55.8.0649",
+   "container": "The Mathematics Teacher",
+   "type": "journal-article"
+  },
+  {
+   "title": "Units, preﬁxes and engineering notation",
+   "year": 2013,
+   "doi": "10.4324/9780080959184-16",
+   "container": "Basic Engineering Mathematics",
+   "type": "book-chapter"
+  },
+  {
+   "title": "Units, prefixes and engineering notation",
+   "year": 2017,
+   "doi": "10.4324/9781315561776-10",
+   "container": "Basic Engineering Mathematics",
+   "type": "book-chapter"
+  },
+  {
+   "title": "Units, prefixes and engineering notation",
+   "year": 2021,
+   "doi": "10.1201/9781003124214-ch8",
+   "container": "Bird's Basic Engineering Mathematics",
+   "type": "book-chapter"
+  }
+ ]
+}

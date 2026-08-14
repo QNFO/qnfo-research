@@ -1,0 +1,91 @@
+{
+ "query": "map territory distinction observer self-model mathematics",
+ "count": 10,
+ "hits": [
+  {
+   "title": "The Mediating Effect of Blended Learning on the Relationship between Study Habits and Self-efficacy  Beliefs among Non-mathematics Major Students",
+   "creators": [
+    "Gerga, Hazel Jane",
+    "Jajalla, Jobell"
+   ],
+   "doi": "10.5281/zenodo.14326653",
+   "pub_date": "2024-12-09"
+  },
+  {
+   "title": "BlockMAP",
+   "creators": [
+    "MAP, MAP"
+   ],
+   "doi": "10.5281/zenodo.13928962",
+   "pub_date": "2024-10-14"
+  },
+  {
+   "title": "On the Superintendency and Organization of the Coast Survey",
+   "creators": [
+    "Observer,"
+   ],
+   "doi": "10.1126/science.12.307.765",
+   "pub_date": "1900-11-16"
+  },
+  {
+   "title": "The Kelp Industry",
+   "creators": [
+    "Observer,"
+   ],
+   "doi": "10.2307/20545684",
+   "pub_date": "1901-01-01"
+  },
+  {
+   "title": "Correspondence: AN ERUDITE COMMITTEE",
+   "creators": [
+    "Observer,"
+   ],
+   "doi": "10.1093/library/s1-8.1.189-b",
+   "pub_date": "1896-01-01"
+  },
+  {
+   "title": "A Discredit to Her Profession:",
+   "creators": [
+    "Observer,"
+   ],
+   "doi": "10.1097/00000446-191209000-00016",
+   "pub_date": "1912-01-01"
+  },
+  {
+   "title": "Figure 1 from: Natário BAF, Louro R, Santos-Silva C (2019) Macrofungi of Mata da Margaraça (Portugal), a relic from the Tertiary Age. Biodiversity Data Journal 7: e38177. https://doi.org/10.3897/BDJ.7.e38177",
+   "creators": [
+    "Natário, Bruno",
+    "Louro, Rogério",
+    "Santos-Silva, Celeste"
+   ],
+   "doi": "10.3897/BDJ.7.e38177.figure1",
+   "pub_date": "2019-10-11"
+  },
+  {
+   "title": "The Map and the Territory",
+   "creators": [
+    "Munro, Michael"
+   ],
+   "doi": "10.53288/0319.1.00",
+   "pub_date": "2026-04-28"
+  },
+  {
+   "title": "Mathematical Proof Beyond Symbolic Proof",
+   "creators": [
+    "Reidpath, Daniel"
+   ],
+   "doi": "10.5281/zenodo.18923689",
+   "pub_date": "2026-03-09"
+  },
+  {
+   "title": "Mathematics Self-Efficacy: Its Relationship to Student Mathematics Achievement",
+   "creators": [
+    "Himelga, Junel",
+    "Paragat, Joyce",
+    "Balambao, Rosemarie"
+   ],
+   "doi": "10.5281/zenodo.21712477",
+   "pub_date": "2026-08-08"
+  }
+ ]
+}

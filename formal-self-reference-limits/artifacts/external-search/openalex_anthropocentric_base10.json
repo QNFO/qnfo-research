@@ -1,0 +1,126 @@
+{
+ "query": "anthropocentric units base-10 decimal notation mathematics foundation",
+ "count": 15,
+ "hits": [
+  {
+   "title": "Modelling the way mathematics is actually done",
+   "year": 2017,
+   "doi": "https://doi.org/10.1145/3122938.3122942",
+   "cited_by": 6,
+   "type": "conference-paper",
+   "source": null
+  },
+  {
+   "title": "Computing, Modelling, and Scientific Practice: Foundational Analyses and Limitations",
+   "year": 2018,
+   "doi": null,
+   "cited_by": 2,
+   "type": "book",
+   "source": "PhilPapers (PhilPapers Foundation)"
+  },
+  {
+   "title": "Mathematics for the Environment",
+   "year": 2011,
+   "doi": "https://doi.org/10.1201/b11732",
+   "cited_by": 1,
+   "type": "book",
+   "source": null
+  },
+  {
+   "title": "Computing, Modelling, and Scientific Practice: Foundational Analyses and Limitations",
+   "year": 2018,
+   "doi": null,
+   "cited_by": 1,
+   "type": "article",
+   "source": "Scholarship@Western (Western University)"
+  },
+  {
+   "title": "Materialized Action: Reformulating the “Doing of” Math Through Fiber Crafting",
+   "year": 2025,
+   "doi": "https://doi.org/10.1080/07370008.2025.2485070",
+   "cited_by": 2,
+   "type": "article",
+   "source": "Cognition and Instruction"
+  },
+  {
+   "title": "Towards Safe Artificial General Intelligence",
+   "year": 2018,
+   "doi": "https://doi.org/10.25911/5d134a2f8a7d3",
+   "cited_by": 18,
+   "type": "dissertation",
+   "source": "ANU Open Research (Australian National University)"
+  },
+  {
+   "title": "Assessment of vulnerability to climate change: theoretical and methodological developments with applications to infrastructure and built environment",
+   "year": 2013,
+   "doi": null,
+   "cited_by": 2,
+   "type": "dissertation",
+   "source": "UPT. Syiah Kuala University Library (Syiah Kuala University)"
+  },
+  {
+   "title": "Animating Film Theory",
+   "year": 2014,
+   "doi": "https://doi.org/10.1515/9781478091950",
+   "cited_by": 10,
+   "type": "book",
+   "source": null
+  },
+  {
+   "title": "Is Every Cognitive Phenomenon Computable?",
+   "year": 2026,
+   "doi": "https://doi.org/10.3390/math14030535",
+   "cited_by": 2,
+   "type": "article",
+   "source": "Mathematics"
+  },
+  {
+   "title": "The development of an instrument to assess primary school mathematics teachers’ values in teaching fractions / Jeyasingam Govindaraj",
+   "year": 2017,
+   "doi": null,
+   "cited_by": 0,
+   "type": "dissertation",
+   "source": "University of Malaya Students Repository"
+  },
+  {
+   "title": "Macroinvertebrate diversity patterns in a guano-rich temperate cave",
+   "year": 2025,
+   "doi": "https://doi.org/10.1101/2025.02.09.637321",
+   "cited_by": 0,
+   "type": "preprint",
+   "source": "bioRxiv (Cold Spring Harbor Laboratory)"
+  },
+  {
+   "title": "Computational aspects of cellular intelligence and their role in artificial intelligence",
+   "year": 2014,
+   "doi": null,
+   "cited_by": 0,
+   "type": "dissertation",
+   "source": "Open Access Institutional Repository at Robert Gordon University (Robert Gordon University)"
+  },
+  {
+   "title": "Language under the microscope : science and philology in English fiction 1850-1914",
+   "year": 2012,
+   "doi": null,
+   "cited_by": 0,
+   "type": "dissertation",
+   "source": "Open Research Exeter (University of Exeter)"
+  },
+  {
+   "title": "Quantum Measurements are Disturbing: Experiments studying the role of disturbance in postselected metrology, quantum pigeonholes, and entangled sheep",
+   "year": 2024,
+   "doi": null,
+   "cited_by": 0,
+   "type": "dissertation",
+   "source": "TSpace (University of Toronto)"
+  },
+  {
+   "title": "Cognitive Psychology in Crisis: Ameliorating the Shortcomings of Representationalism",
+   "year": 2013,
+   "doi": null,
+   "cited_by": 0,
+   "type": "other",
+   "source": "Lund University Publications Student Papers (Lund University)"
+  }
+ ]
+}

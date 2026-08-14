@@ -1,0 +1,76 @@
+{
+ "query": "formal systems self-reference incompleteness Gödel anthropocentrism",
+ "count": 10,
+ "hits": [
+  {
+   "title": "Elementary formal systems and incompleteness proofs",
+   "year": 1994,
+   "doi": "10.1093/oso/9780198534501.003.0009",
+   "container": "Diagonalization and Self-Reference",
+   "type": "book-chapter"
+  },
+  {
+   "title": "AI-Assisted Construction of Meta-Logically Self-Referential Systems to Address Gödel Incompleteness and Turing’s Halting Problem",
+   "year": 2024,
+   "doi": "10.31219/osf.io/xpqnj",
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "title": "Gödel Incompleteness Result in Miniature",
+   "year": null,
+   "doi": "10.3998/mpub.10155018.cmp.7",
+   "container": "",
+   "type": "component"
+  },
+  {
+   "title": "Gödel mathematics versus Hilbert mathematics. I. The Gödel incompleteness (1931) statement: axiom or theorem?",
+   "year": 2022,
+   "doi": "10.33774/coe-2022-wlr02",
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "title": "Gödel mathematics versus Hilbert mathematics. I The Gödel incompleteness (1931) statement: axiom or theorem?",
+   "year": 2022,
+   "doi": "10.22541/au.166603230.07636849/v1",
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "title": "From Tarski to Gödel—or how to derive the second incompleteness theorem from the undefinability of truth without self-reference",
+   "year": 2019,
+   "doi": "10.1093/logcom/exz004",
+   "container": "Journal of Logic and Computation",
+   "type": "journal-article"
+  },
+  {
+   "title": "Self-Referential Systems",
+   "year": 1992,
+   "doi": "10.1093/oso/9780195046724.003.0014",
+   "container": "Gödel's Incompleteness Theorems",
+   "type": "book-chapter"
+  },
+  {
+   "title": "Gödel mathematics versus Hilbert mathematics.  I The Gödel incompleteness (1931) statement: axiom or theorem?",
+   "year": 2022,
+   "doi": "10.31235/osf.io/x2sz4",
+   "container": "",
+   "type": "posted-content"
+  },
+  {
+   "title": "Gödel incompleteness",
+   "year": 1991,
+   "doi": "10.1093/oso/9780198532132.003.0004",
+   "container": "Models of Peano Arithmetic",
+   "type": "book-chapter"
+  },
+  {
+   "title": "The Epistemic Incompleteness Theorem Beyond Gödel Settings",
+   "year": 2026,
+   "doi": "10.2139/ssrn.6489602",
+   "container": "",
+   "type": "posted-content"
+  }
+ ]
+}

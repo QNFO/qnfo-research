@@ -1,0 +1,126 @@
+{
+ "query": "map territory distinction observer self-model mathematics",
+ "count": 15,
+ "hits": [
+  {
+   "title": "The influence of concept mapping on achievement, self-regulation, and self-efficacy in students of English as a second language",
+   "year": 2003,
+   "doi": "https://doi.org/10.1016/j.cedpsych.2003.09.001",
+   "cited_by": 276,
+   "type": "article",
+   "source": "Contemporary Educational Psychology"
+  },
+  {
+   "title": "Social Norms and Economic Theory",
+   "year": 1989,
+   "doi": "https://doi.org/10.1257/jep.3.4.99",
+   "cited_by": 2047,
+   "type": "article",
+   "source": "The Journal of Economic Perspectives"
+  },
+  {
+   "title": "“Economic man” in cross-cultural perspective: Behavioral experiments in 15 small-scale societies",
+   "year": 2005,
+   "doi": "https://doi.org/10.1017/s0140525x05000142",
+   "cited_by": 1937,
+   "type": "article",
+   "source": "Behavioral and Brain Sciences"
+  },
+  {
+   "title": "Humanities Approaches to Graphical Display",
+   "year": 2011,
+   "doi": "https://doi.org/10.63744/r4ysrh7ae534",
+   "cited_by": 421,
+   "type": "article",
+   "source": "Digital humanities quarterly"
+  },
+  {
+   "title": "Learning Trajectories in Mathematics: A Foundation for Standards, Curriculum, Assessment, and Instruction",
+   "year": 2011,
+   "doi": "https://doi.org/10.12698/cpre.2011.rr68",
+   "cited_by": 167,
+   "type": "report",
+   "source": null
+  },
+  {
+   "title": "A probabilistic atlas and reference system for the human brain: International Consortium for Brain Mapping (ICBM)",
+   "year": 2001,
+   "doi": "https://doi.org/10.1098/rstb.2001.0915",
+   "cited_by": 2423,
+   "type": "article",
+   "source": "Philosophical Transactions of the Royal Society B Biological Sciences"
+  },
+  {
+   "title": "Natural computation and non-Turing models of computation",
+   "year": 2004,
+   "doi": "https://doi.org/10.1016/j.tcs.2003.12.008",
+   "cited_by": 107,
+   "type": "article",
+   "source": "Theoretical Computer Science"
+  },
+  {
+   "title": "Regional Impact Models",
+   "year": 1999,
+   "doi": null,
+   "cited_by": 103,
+   "type": "article",
+   "source": "The Research Repository @ WVU (West Virginia University)"
+  },
+  {
+   "title": "Why Redraw the Map of Africa: A Legal and Moral Inquiry",
+   "year": 1995,
+   "doi": null,
+   "cited_by": 80,
+   "type": "article",
+   "source": "eYLS (Yale Law School)"
+  },
+  {
+   "title": "On the map-territory fallacy fallacy",
+   "year": 2022,
+   "doi": "https://doi.org/10.48550/arxiv.2208.06924",
+   "cited_by": 6,
+   "type": "preprint",
+   "source": "arXiv (Cornell University)"
+  },
+  {
+   "title": "A Review of Electric Vehicle Load Open Data and Models",
+   "year": 2021,
+   "doi": "https://doi.org/10.3390/en14082233",
+   "cited_by": 118,
+   "type": "article",
+   "source": "Energies"
+  },
+  {
+   "title": "(In)justice in modelled climate futures: A review of integrated assessment modelling critiques through a justice lens",
+   "year": 2022,
+   "doi": "https://doi.org/10.1016/j.erss.2022.102781",
+   "cited_by": 90,
+   "type": "article",
+   "source": "Energy Research & Social Science"
+  },
+  {
+   "title": "The evolution of misbelief",
+   "year": 2009,
+   "doi": "https://doi.org/10.1017/s0140525x09990975",
+   "cited_by": 460,
+   "type": "article",
+   "source": "Behavioral and Brain Sciences"
+  },
+  {
+   "title": "Repressed futures: financial derivatives' theological unconscious",
+   "year": 2002,
+   "doi": "https://doi.org/10.1080/03085140120109231",
+   "cited_by": 181,
+   "type": "article",
+   "source": "Economy and Society"
+  },
+  {
+   "title": "The strongness of weak signals: self-reference and paradox in anticipatory systems",
+   "year": 2016,
+   "doi": "https://doi.org/10.1007/s40309-016-0085-1",
+   "cited_by": 16,
+   "type": "article",
+   "source": "European Journal of Futures Research"
+  }
+ ]
+}

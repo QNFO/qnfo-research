@@ -1,0 +1,88 @@
+{
+ "query": "anthropocentric units base-10 decimal notation mathematics foundation",
+ "count": 10,
+ "hits": [
+  {
+   "title": "A Base Conversion Method for Floating Point Numbers in Go",
+   "creators": [
+    "Chew, Kean Ho"
+   ],
+   "doi": "10.5281/zenodo.3579594",
+   "pub_date": "2019-12-17"
+  },
+  {
+   "title": "Artistic Mathematics (translation of the original italian)",
+   "creators": [
+    "Leanza, Giuseppe"
+   ],
+   "doi": "10.5281/zenodo.14904824",
+   "pub_date": "2025-02-21"
+  },
+  {
+   "title": "Pseudo Number 0.999...",
+   "creators": [
+    "Sumit Gehlot"
+   ],
+   "doi": "10.54105/ijam.A1148.043123",
+   "pub_date": "2023-04-30"
+  },
+  {
+   "title": "Mass-radius-flatenning tables for rotating, two-layer rocky planets and water worlds",
+   "creators": [
+    "Jean-Marc, Huré"
+   ],
+   "doi": "10.5281/zenodo.15397897",
+   "pub_date": "2025-05-13"
+  },
+  {
+   "title": "The Functional and Pragmatic Peculiarities of the Anthropocentric Phraseological Units in Different Languages and Cultural Environments (on the Descriptive Material of Ukrainian, Russian, Polish, English)",
+   "creators": [
+    "Hnatiuk, Lubomira"
+   ],
+   "doi": "10.5755/j01.sal.0.30.17724",
+   "pub_date": "2017-12-19"
+  },
+  {
+   "title": "base-model decimal checkpoint",
+   "creators": [
+    "Feng"
+   ],
+   "doi": "10.5281/zenodo.10155897",
+   "pub_date": "2023-11-19"
+  },
+  {
+   "title": "Decimal Coordinate Theory (DCT): Reconceptualizing the Base-10 System as a Multidimensional Phonetic-Geometric Framework",
+   "creators": [
+    "Yıldırım, Emirhan"
+   ],
+   "doi": "10.5281/zenodo.18449572",
+   "pub_date": "2026-02-01"
+  },
+  {
+   "title": "Augustus De Morgan, Polymath: New Perspectives on his Life and Legacy",
+   "creators": [
+    "Attar, Karen",
+    "Rice, Adrian",
+    "Stray, Christopher"
+   ],
+   "doi": "10.11647/OBP.0408",
+   "pub_date": "2026-04-28"
+  },
+  {
+   "title": "LEXICAL UNITS IN BILINGUAL LEARNERS' DICTIONARIES: AN ANALYSIS BASED ON THE ANTHROPOCENTRIC APPROACH",
+   "creators": [
+    "Nashirova Shaxnoza Buriyevna"
+   ],
+   "doi": "10.5281/zenodo.20111761",
+   "pub_date": "2026-05-10"
+  },
+  {
+   "title": "ANTHROPOCENTRIC EXPRESSIONS IN ENGLISH AND UZBEK LANGUAGES: A COMPARATIVE STUDY OF LEXICAL-SEMANTIC AND GRAMMATICAL ASPECTS",
+   "creators": [
+    "Kholmatova, Mаlikа"
+   ],
+   "doi": "10.5281/zenodo.19882512",
+   "pub_date": "2026-04-29"
+  }
+ ]
+}

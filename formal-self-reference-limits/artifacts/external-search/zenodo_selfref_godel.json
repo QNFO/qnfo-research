@@ -1,0 +1,86 @@
+{
+ "query": "formal systems self-reference incompleteness Gödel anthropocentrism",
+ "count": 10,
+ "hits": [
+  {
+   "title": "Incompleteness Before Arithmetic: Total Foundational Incompleteness of Every Formal System Without Self-Reference, Subsuming Gödel",
+   "creators": [
+    "Islam, Mohammad"
+   ],
+   "doi": "10.5281/zenodo.21371992",
+   "pub_date": "2026-07-15"
+  },
+  {
+   "title": "Fuzzy and Neutrosophic Extensions of Gödel's Incompleteness Theorems",
+   "creators": [
+    "Smarandache, Florentin"
+   ],
+   "doi": "10.5281/zenodo.19221777",
+   "pub_date": "2026-03-25"
+  },
+  {
+   "title": "Fuzzy and neutrosophic extensions of Gödel's incompleteness theorems",
+   "creators": [
+    "Smarandache, Florentin"
+   ],
+   "doi": "10.5281/zenodo.20426146",
+   "pub_date": "2026-05-28"
+  },
+  {
+   "title": "Mathematical Boundary Consciousness Theory: Exploring the Epistemic Limits and Structural Horizons of Formal Systems",
+   "creators": [
+    "Zhang, Jincheng"
+   ],
+   "doi": "10.5281/zenodo.21816287",
+   "pub_date": "2026-08-06"
+  },
+  {
+   "title": "CEI (Centro Energetico Individuale) Framework v1: A Framework for Structured Informational Continuity in Artificial Intelligence Systems",
+   "creators": [
+    "Gozzi, Alessio"
+   ],
+   "doi": "10.5281/zenodo.20357142",
+   "pub_date": "2026-05-23"
+  },
+  {
+   "title": "Gödel Incompleteness and Turing Completeness",
+   "creators": [
+    "Casares, Ramón"
+   ],
+   "doi": "10.6084/m9.figshare.25434994",
+   "pub_date": "2024-11-11"
+  },
+  {
+   "title": "Gödel ≡ Bell ≡ Kochen–Specker — Gödel's Quantum Shadow Is Contextuality and Non-Locality; Bell's Logical Shadow Is Self-Reference — An Equivalence Revealing Einstein's Nemesis 95 Years Overdue",
+   "creators": [
+    "Franchi Viceré, Christian"
+   ],
+   "doi": "10.5281/zenodo.20172618",
+   "pub_date": "2026-05-13"
+  },
+  {
+   "title": "Gödel Incompleteness and Turing Completeness (v4)",
+   "creators": [
+    "Casares, Ramón"
+   ],
+   "doi": "10.6084/m9.figshare.25434994.v4",
+   "pub_date": "2024-07-27"
+  },
+  {
+   "title": "The Impossibility of Laplace's Demon and the Principle of Probabilistic Amplification",
+   "creators": [
+    "Gonçalves, Charles"
+   ],
+   "doi": "10.5281/zenodo.17391317",
+   "pub_date": "2025-10-19"
+  },
+  {
+   "title": "TENSIÓN ENTRE CONSISTENCIA Y COMPLETITUD EN LOS SISTEMAS FORMALES, Y SU IMPACTO FILOSÓFICO",
+   "creators": [
+    "Guzman Miliano, Yarzel Miguelinho"
+   ],
+   "doi": "10.5281/zenodo.17409131",
+   "pub_date": "2025-10-21"
+  }
+ ]
+}
