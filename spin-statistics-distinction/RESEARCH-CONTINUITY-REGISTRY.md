@@ -30,7 +30,7 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 
 ## 3. PER-RQ FALSIFIABILITY CONDITIONS
 
-- **FQ1 disconfirmed if:** a boundary can be drawn with zero free-energy cost in a physical system (Landauer violated), OR the second-law-first inversion predicts nothing distinguishable.
+- **FQ1 disconfirmed if:** a boundary can be *erased or maintained* with zero free-energy cost in a physical system (Landauer violated), OR the capacity ceiling (floor(ΔS/k_B ln 2); steady state D* = min(N, P/p)) predicts nothing distinguishable. Note: a boundary drawn with zero *reversible* cost is NOT a disconfirmation — T5/T6 established that the draw is free and the upkeep is not (sharpened formulation, 2026-08-14).
 - **FQ2 disconfirmed if:** the minimal extra structure is shown to be strictly more than Lorentz + microcausality.
 - **FQ3 disconfirmed if:** a braid-derived dynamics model recovers a preferred time direction and measurement collapse with no added postulate.
 
