@@ -1,0 +1,32 @@
+{
+  "created": "2026-08-14T19:21:19.657952+00:00",
+  "modified": "2026-08-14T19:21:19.708021+00:00",
+  "id": 21938971,
+  "conceptrecid": "21938970",
+  "metadata": {
+    "access_right": "open",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.21938971",
+      "recid": 21938971
+    }
+  },
+  "title": "",
+  "links": {
+    "self": "https://zenodo.org/api/deposit/depositions/21938971",
+    "html": "https://zenodo.org/deposit/21938971",
+    "badge": "https://zenodo.org/badge/doi/.svg",
+    "files": "https://zenodo.org/api/deposit/depositions/21938971/files",
+    "bucket": "https://zenodo.org/api/files/8d1e2dce-ac28-4d12-9176-143b65d3d9ec",
+    "latest_draft": "https://zenodo.org/api/deposit/depositions/21938971",
+    "latest_draft_html": "https://zenodo.org/deposit/21938971",
+    "publish": "https://zenodo.org/api/deposit/depositions/21938971/actions/publish",
+    "edit": "https://zenodo.org/api/deposit/depositions/21938971/actions/edit",
+    "discard": "https://zenodo.org/api/deposit/depositions/21938971/actions/discard",
+    "newversion": "https://zenodo.org/api/deposit/depositions/21938971/actions/newversion"
+  },
+  "record_id": 21938971,
+  "owner": 1328013,
+  "files": [],
+  "state": "unsubmitted",
+  "submitted": false
+}

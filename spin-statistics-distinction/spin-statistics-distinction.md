@@ -5,21 +5,21 @@ affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
 date: "2026-08-14"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo/XXXXXXXXX"
-status: "draft"
+doi: "10.5281/zenodo.21938971"
+status: "published"
 ---
 
-# Abstract
+## Abstract
 
 The textbook dichotomy between bosons and fermions is commonly presented as a primitive classification of nature, with the spin-statistics theorem as its iron law. This paper argues that the dichotomy is a derived, dimension-dependent shadow of a single structural relation: the exchange phase of identical particles equals their topological spin, $R = e^{2\pi i s}$. [ESTABLISHED] The relation holds across relativistic quantum field theory, topological field theory, and condensed-matter anyon systems; dimension enters only by quantizing the allowed values of $s$. After stating the invariant and its dimensional quantization, the paper addresses a foundational question: whether a calculus whose primitive is the distinction — rather than the particle or the field — can derive exchange statistics from the act of distinction itself. A recent monograph in this tradition (Quni-Gudzinas, 2026a) exhibits the gap: the model of its exponential modality silently adopts the symmetric algebra, which corresponds to bosonic statistics, without deriving that choice from the primitive. The paper formalizes the required construction — two modal exponentials (symmetric and exterior), the braiding of two marks in a compact closed category, and the ribbon condition linking twist to exchange — and states the falsifiability conditions under which the derivation program succeeds or fails. [NOT YET EVIDENCE] The derivation is pre-registered here; it is not yet executed.
 
-# 1. Introduction
+## 1. Introduction
 
 Two identical particles can be exchanged. In quantum mechanics, the state of the pair carries a phase under exchange: $\psi(x_2, x_1) = \eta\,\psi(x_1, x_2)$. In three or more spatial dimensions, exchanging twice is topologically trivial, so $\eta^2 = 1$ and $\eta \in \{+1, -1\}$: the two possibilities are bosons (symmetric, $\eta = +1$) and fermions (antisymmetric, $\eta = -1$). The spin-statistics theorem states which sign is realized: $\eta = (-1)^{2s}$, where $s$ is the spin (Pauli, 1940; Duck and Sudarshan, 1998). [ESTABLISHED]
 
 This paper makes two claims. First, the structural invariant is not the dichotomy itself but the relation $R = e^{2\pi i s}$ between exchange phase and topological spin; the binary is a shadow of that relation in three spatial dimensions. Second, a distinction-based foundation of physics — a calculus whose only primitive is the act of drawing a boundary — must, to claim the spin-statistics connection, derive exchange statistics from the primitive; the current state of that program contains a silent assumption that this paper identifies and replaces with a concrete derivation target.
 
-# 2. The invariant: exchange phase equals topological spin
+## 2. The invariant: exchange phase equals topological spin
 
 The exchange of two identical particles is a loop in their configuration space. The phase acquired is a representation of the fundamental group of that space (Leinaas and Myrheim, 1977). [ESTABLISHED] The rotation of a single particle by $2\pi$ is the twist. In a ribbon braided tensor category — the mathematical home of particle-like excitations in topological order — the two are linked by the ribbon identity:
 
@@ -43,7 +43,7 @@ In two spatial dimensions the braiding is not involutive: the exchange group is 
 
 Across both regimes, the invariant content is unchanged: superselection sectors, fusion rules, and braiding data, with the relation $R = e^{2\pi i s}$ (Wang and Wen, 2014; Johnson-Freyd, 2015). [ESTABLISHED] Dimension enters only through which braided structures are realizable. The binary dichotomy is therefore not the invariant; the relation is.
 
-# 3. Dimension quantization: bosons and fermions as a 3+1D shadow
+## 3. Dimension quantization: bosons and fermions as a 3+1D shadow
 
 | Spatial dimension | Motion group | Braided structure | Allowed $s$ | Statistics |
 |---|---|---|---|---|
@@ -52,7 +52,7 @@ Across both regimes, the invariant content is unchanged: superselection sectors,
 
 [ESTABLISHED] The table is the dimensional quantization of the spin parameter: in $d \geq 3$ the involutive braiding forces $2s \in \mathbb{Z}$; in $d = 2$ the quantization collapses to continuity. In $3{+}1$ dimensions a further input — microcausality and positive energy in a local relativistic theory — identifies which sign corresponds to which spin (Pauli, 1940; Duck and Sudarshan, 1998; Verch, 2001). [ESTABLISHED] That input is external to any purely algebraic derivation; the boundary is stated explicitly in Section 5.
 
-# 4. The calculus of distinctions and its silent assumption
+## 4. The calculus of distinctions and its silent assumption
 
 A distinction-based calculus begins with a mark: a boundary separating an inside from an outside. Its two primitive laws are Calling (idempotence: a mark repeated is the mark) and Crossing (involution: a boundary crossed twice returns to the unmarked state) (Spencer-Brown, 1969). A recent monograph develops this calculus toward physics, including a treatment of the half-turn phase $e^{i\pi} = -1$ and a claim that parity is the ancestor of physical spin-statistics (Quni-Gudzinas, 2026a, Section 2.3). [textual finding]
 
@@ -64,7 +64,7 @@ where $S^n(A)$ is the $n$-th symmetric power. The symmetric algebra is exactly t
 
 The gap is structural, not cosmetic. The spin-statistics theorem is about the symmetry of the joint state of two identical marks under exchange; the calculus provides a phase for a single mark under rotation, but never constructs the exchange of two marks. The leap from "the mark has a half-turn phase" to "two marks anticommute" is asserted, not derived. (This assessment was reached independently in the deep-inquiry analysis of 2026-08-14; it is stated here as a checkable textual claim about the monograph.)
 
-# 5. A derivation program
+## 5. A derivation program
 
 The program has three tasks, pre-registered with falsifiability conditions (Section 6).
 
@@ -84,7 +84,7 @@ are the two grading components of one construction. The two statistics are the t
 
 **The boundary of the program.** The program can show that statistics is forced by distinction, compact closure, and an involutive braiding (the two eigenvalues of exchange). It cannot, from the mark alone, show *which* eigenvalue corresponds to *which* spin: the spin–statistics *connection* requires the additional postulate that the twist equals the $2\pi$ rotation of a Lorentz representation, with microcausality and positive energy (Pauli, 1940; Duck and Sudarshan, 1998). The paper states this boundary explicitly; it does not claim a full derivation of the spin-statistics theorem from distinction. [CONTESTED — the sufficiency of the minimal postulates is open.]
 
-# 6. Falsifiability conditions
+## 6. Falsifiability conditions
 
 **F1 (empirical).** If a stable, local, relativistic excitation in $3{+}1$ dimensions is observed with exchange phase $\eta \neq e^{2\pi i s}$ — for example, a spin-$\tfrac{1}{2}$ particle obeying Bose-Einstein statistics, or a spin-$0$ particle obeying Fermi-Dirac statistics — the claim that $R = e^{2\pi i s}$ is the universal invariant is disconfirmed. No such particle is known in the Standard Model. [ESTABLISHED — the absence of violations is a strong constraint, not a proof.]
 
@@ -92,15 +92,15 @@ are the two grading components of one construction. The two statistics are the t
 
 **Surprise accounting (KIF-60 discipline).** The existence of anyons in $2{+}1$ dimensions is established and does not count as predictive evidence for this paper: anyonic statistics is expected under the null hypothesis of braid-group representations. Only F1's precision constraint and F2's derivability constraint carry evidential weight. The invariant formulation itself is [RETRODICTION — not evidence]: it restates established results in a unified language. The paper claims credit only for the derivation program (F2) and for the identification of the monograph's silent assumption (a textual finding).
 
-# 7. Relation to existing programs
+## 7. Relation to existing programs
 
 The derivation program sits between three established lines of work. First, the algebraic quantum field theory tradition proves the spin-statistics connection from locality and positivity (Streater and Wightman, 1964; Verch, 2001), and extends it to anyons in $2{+}1$ dimensions (Mund, 2008; Kuckert, 2002; Kuckert and Mund, 2004). Second, the topological and categorical tradition states the connection as a theorem about braided tensor categories (Joyal and Street, 1993; Bakalov and Kirillov, 2001; Johnson-Freyd, 2015; Oeckl, 2000), and condensed-matter physics realizes it for fractional quantum Hall quasiparticles (Comparin et al., 2021; Nardin et al., 2022; Trung et al., 2022). Third, the distinction-based tradition derives physical structure from the mark (Spencer-Brown, 1969; Quni-Gudzinas, 2026a, 2026b, 2026c). The present paper is the first, to the author's knowledge, to state the derivation target explicitly for the third tradition: the exchange of two marks, constructed in a compact closed category, whose eigenvalues are the two statistics. Adjacent internal work on p-adic anyon braiding (Quni-Gudzinas, 2026d) and on the topological distinction between Dirac and Majorana fermions (Quni-Gudzinas, 2026e) provides a compatible categorical language.
 
-# 8. Conclusions
+## 8. Conclusions
 
 The boson/fermion dichotomy is not the primitive content of the spin-statistics theorem; the relation $R = e^{2\pi i s}$ between exchange phase and topological spin is. [ESTABLISHED] The dichotomy is its shadow in three spatial dimensions, where the involutive braiding quantizes $s$ to integers and half-integers. [ESTABLISHED] A distinction-based calculus that aims to ground quantum statistics must construct the exchange of two marks and derive the two eigenvalues of exchange from the primitive; the current monograph in that tradition silently assumes the symmetric (bosonic) algebra instead. [textual finding] This paper pre-registers the derivation program (T1-T3) and its falsifiability conditions (F1, F2), and states the boundary of the program: the spin-statistics *connection* requires Lorentz and locality input that the mark alone cannot supply. [NOT YET EVIDENCE]
 
-# Declarations
+## Declarations
 
 **Funding.** No external funding.
 **Conflicts of interest.** The author declares no conflicts of interest.
@@ -112,7 +112,7 @@ The boson/fermion dichotomy is not the primitive content of the spin-statistics 
 **Acknowledgments.** The author thanks the reviewers of the companion monograph for the discussion that sharpened Section 4.
 **Correspondence.** rowan.quni@outlook.com
 
-# References
+## References
 
 Bakalov, B., and Kirillov, A. (2001). *Lectures on Tensor Categories and Modular Functors*. American Mathematical Society.
 
