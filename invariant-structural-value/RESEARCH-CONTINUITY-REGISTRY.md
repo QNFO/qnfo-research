@@ -6,7 +6,7 @@ Created: 2026-08-14 · Living document — maintained with version bumps. Branch
 
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |:---|:---------|:-------|:------------|:----------------|
-| FQ1 | What is the minimal generative primitive from which the full set of structural constants (e, π, i) follows — can a mark/distinction calculus with self-reference generate them without additional input, and does compact-closed structure supply the trace/feedback semantics that makes the derivation well-posed? | OPEN (P4 draft states C3; formal derivation deferred) | P4 formal derivation: exhibit fixed-point equations for e (f′=f) and π (period 2π) from primitive distinction; check compact-closed trace semantics | YES |
+| FQ1 | What is the minimal generative primitive from which the full set of structural constants (e, π, i) follows — can a mark/distinction calculus with self-reference generate them without additional input, and does compact-closed structure supply the trace/feedback semantics that makes the derivation well-posed? | COMPLETE — constructive derivation committed 2026-08-14 (01f4018): e as unique fixed point of T[f]=f′ (Picard iteration → series), π via self-closure (periodic BC; exp: ℝ→U(1) kernel 2πℤ), Euler identity as joint fixed point; compact-closed trace semantics stated (U(1) exponential map) | P5 BP-1..BP-10 gates (fit-verify, independent recompute of e/π/e^{iπ}+1) | YES |
 | FQ2 | Is the redundancy-group quotient (C2) definable uniformly across QM, QFT, and quantum gravity, or does quantum-gravity context (no fixed spacetime) require generalizing the enumerated groups? | OPEN | P4: survey gauge-invariant-observables literature (Fröb-Lima; Rudnicki et al.); test C2 against Hartle generalized QM | YES |
 | FQ3 | Does the invariant-content thesis (C1) add predictive content beyond structural realism, or is it absorbed by the SR "relations not relata" program? | OPEN | P4: symmetric audit against Ladyman-Ross; define at least one discriminating case | YES |
 
@@ -42,7 +42,7 @@ Created: 2026-08-14 · Living document — maintained with version bumps. Branch
 
 | Priority | Action | Depends on | Target |
 |:---------|:-------|:-----------|:-------|
-| P0 | P4 formal derivation of C3 (fixed-point equations from mark/distinction) | Draft §5 | 2026-08-31 |
+| P0 | ~~P4 formal derivation of C3 (fixed-point equations from mark/distinction)~~ **DONE 2026-08-14 (01f4018)** — FQ1 closed; verify derivation against BP-1/BP-6/BP-10 in P5 | Draft §5 | 2026-08-31 |
 | P0 | P5 BP-1..BP-10 gates (fit-verify, terminology, density, consistency, overdetermined, derived recompute, sigma, numerology classification, audit-the-auditor, independent recompute) | P4 draft | 2026-09-07 |
 | P1 | P5 citation re-verification of 5 FLAGGED entries (2 preprints, Worrall 1989, Joyal-Street 1991, Spencer-Brown 1969) | citation-audit.md | 2026-09-07 |
 | P1 | P5 Zenodo publication + GitHub provenance + D1/KG/Vectorize deployment | BP gates | 2026-09-14 |
