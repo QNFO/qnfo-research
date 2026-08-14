@@ -18,6 +18,7 @@ keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "
 **License:** CC-BY-4.0
 **Keywords:** p-adic valuation; quantum error correction; stabilizer codes; no-cloning theorem; branch depth; ultrametric
 **Changelog:** v0.2 (2026-08-13) — §6 precision patch: per-family 83% breakdown, rule-based Algorithm 4.4 reframing, first reproduction attempt documented (Mahler leg not reproduced at n ≤ 18; K–N leg blocked by under-specification), reference corrections (Gubser–Knaute; Bhattacharyya).
+**Post-publication corrections (2026-08-14, unreleased):** "first reproduction attempt" reframed (prior corpus test ACRP-06 v1.0 + v1.1 erratum, Zenodo 21737222/21754148); Coecke ref year 2009→2010 (print year, Crossref); Gubser–Knaute pages per Crossref (1655–1678); §6 notes NTOF's omitted 187/200 (93.5%) C7.3′ verification figure. Full findings: artifacts/post-publication-audit-21923000.md.
 
 **Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (DOI 10.5281/zenodo.21918838).
 
@@ -25,7 +26,7 @@ keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "
 
 ## Abstract
 
-The anchor paper introduced the *branch-depth reading*: the p-adic valuation $v_p(n)$ is a measure of depth along a prime branch of the integer factorization tree (not a measure of size), and because the tensor product multiplies Hilbert-space dimensions, $v_2(\dim H) = n$ counts tensor-branch depth for n qubits. This follow-on subjects that reading to its own stated falsifiability condition in the two domains the anchor flagged but did not pursue — computing and quantum error correction. The central finding is a *correction, not a confirmation*: the naive mapping of a $[[n,k,d]]$ stabilizer code to branch depths, $n = v_2(\dim H)$ and $k = v_2(\dim H_L)$, is **trivially true by definition** (a code is defined on n qubits encoding $2^k$ logical states) and therefore carries no new content; and the code distance d — a minimum operator *weight*, not a *depth* — does not admit a valuation reading at all. The genuinely open question is whether there exists a **non-trivial** valuation invariant of stabilizer codes beyond the definitional n and k, and it is here — not in the naive mapping — that the existing "83% classification accuracy" claim (Kodaira–Néron classifier, DOI 10.5281/zenodo.21193487) lives and must be independently reproduced; a first reproduction attempt is documented in §6 and failed at $n \le 18$. The structural no-cloning reading is retained but repositioned honestly: it is a known categorical result (Abramsky 2009; Coecke 2009), which the branch-depth vocabulary re-expresses rather than discovers. Every non-empirical claim below carries an explicit falsifiability condition.
+The anchor paper introduced the *branch-depth reading*: the p-adic valuation $v_p(n)$ is a measure of depth along a prime branch of the integer factorization tree (not a measure of size), and because the tensor product multiplies Hilbert-space dimensions, $v_2(\dim H) = n$ counts tensor-branch depth for n qubits. This follow-on subjects that reading to its own stated falsifiability condition in the two domains the anchor flagged but did not pursue — computing and quantum error correction. The central finding is a *correction, not a confirmation*: the naive mapping of a $[[n,k,d]]$ stabilizer code to branch depths, $n = v_2(\dim H)$ and $k = v_2(\dim H_L)$, is **trivially true by definition** (a code is defined on n qubits encoding $2^k$ logical states) and therefore carries no new content; and the code distance d — a minimum operator *weight*, not a *depth* — does not admit a valuation reading at all. The genuinely open question is whether there exists a **non-trivial** valuation invariant of stabilizer codes beyond the definitional n and k, and it is here — not in the naive mapping — that the existing "83% classification accuracy" claim (Kodaira–Néron classifier, DOI 10.5281/zenodo.21193487) lives and must be independently reproduced; two attempts now exist (this pipeline's §6 run and the sibling ACRP-06 extension with its v1.1 erratum), both failing to support the claim at the reported sizes. The structural no-cloning reading is retained but repositioned honestly: it is a known categorical result (Abramsky 2009; Coecke 2009), which the branch-depth vocabulary re-expresses rather than discovers. Every non-empirical claim below carries an explicit falsifiability condition.
 
 ---
 
@@ -128,7 +129,7 @@ rendering of this state of affairs.
 
 **Status [UNVERIFIED-INTERNAL]:** this is an internal report. It has not, to this author's knowledge, been independently reproduced on a fresh, held-out test set with a stated leakage-control protocol. Until it is, the 83% figure is a claim to be tested, not a result to be built upon.
 
-**First reproduction attempt (2026-08-13, this pipeline's P4.2):** the Mahler
+**This pipeline's first reproduction attempt (2026-08-13, P4.2) — not the corpus's first:** the Mahler
 spectral leg ($C7.3'$) was independently implemented and run on 55 verified codes (CSS
 $[[7,1,3]]$, $[[15,7,3]]$; toric surface L=2,3; optimal $[[5,1,3]]$; 50 random $[[10,4]]$). The
 claimed separation ($v_p^{max}$ optimal ~ 28 vs random ~ 4, gap >= 10) did **not** reproduce
@@ -137,6 +138,16 @@ median 3 (max 6, which exceeds optimal). Two source under-specifications block a
 test: the Mahler target function is undefined in NTOF, and Algorithm 4.4's Cox-ring ideal
 $I_C$ is unspecified. See the reproduction report in the companion artifacts. C8 remains
 [UNVERIFIED-INTERNAL] pending source clarification.
+
+**Prior-art correction (2026-08-14):** the v0.2 text called this the "first reproduction
+attempt"; it was not. Sibling project ACRP-06 (Zenodo 21737222 v1.0, 2026-08-01) tested
+$C7.3'$ on 8 additional families, initially confirmed $v_p^{max}=28$ on Golay-type self-dual
+codes, then issued an erratum (v1.1, 21754148, 2026-08-02) correcting Golay $v_p^{max}$ from
+28 to 2/4. The 28 has now failed two independent reproductions plus an erratum chain, and the
+"first attempt" wording is withdrawn. NTOF's own text ("up to n=64 qubit codes") also removes
+the n≤18 size premise that anchored an earlier impossibility argument in the companion
+reproduction report. The source also reports a C7.3' spectral-gap verification figure of
+187/200 (93.5%) that v0.2 §6 did not mention; it is recorded here for completeness.
 
 **Reproduction requirement (this paper's P4 critical path):** because the classifier is
 rule-based and the source ships no implementation, the reproduction is a **re-implementation from
@@ -169,7 +180,7 @@ confidence* (pre-registered acceptance criteria); failure is reported honestly e
 ## 8. Relation to Prior Work (External)
 
 - **Categorical QM / no-cloning:** Abramsky & Coecke (2004) *A categorical semantics of quantum protocols*; Abramsky (2009) *No-Cloning in Categorical Quantum Mechanics*; Coecke (2009) *Quantum Pictorialism*; Coecke & Duncan (2011) *Interacting Quantum Observables*. The no-cloning content of §5 is theirs; this paper adds only vocabulary.
-- **p-adic holographic QEC:** Heydeman, Marcolli, Saberi & Stoica (2018) *Tensor networks, p-adic fields, and algebraic curves* (ATMP 22:93); Bhattacharyya, Hung, Lei & Li (2018) *Tensor network and (p-adic) AdS/CFT* (JHEP 2018(1):139, DOI 10.1007/jhep01(2018)139); Gubser & Knaute (2017) *A p-adic version of AdS/CFT* (ATMP 21(7):1655–1683, DOI 10.4310/atmp.2017.v21.n7.a3). The p-adic/QEC connection is theirs; this paper's branch-depth framing is a distinct, narrower lens.
+- **p-adic holographic QEC:** Heydeman, Marcolli, Saberi & Stoica (2018) *Tensor networks, p-adic fields, and algebraic curves* (ATMP 22:93); Bhattacharyya, Hung, Lei & Li (2018) *Tensor network and (p-adic) AdS/CFT* (JHEP 2018(1):139, DOI 10.1007/jhep01(2018)139); Gubser & Knaute (2017) *A p-adic version of AdS/CFT* (ATMP 21(7):1655–1678, DOI 10.4310/atmp.2017.v21.n7.a3). The p-adic/QEC connection is theirs; this paper's branch-depth framing is a distinct, narrower lens.
 - **Stabilizer methods:** Bravyi, Browne, Calpin, Campbell, Gosset & Howard (2019) *Simulation of quantum circuits by low-rank stabilizer decompositions* — the working background for §3–§4.
 
 **Relation to the internal corpus:** the p-adic QEC space is densely worked internally (see the due-diligence appendix for the DOI list). This paper's narrow differentiation is the branch-depth vocabulary and the self-correction of §3, which the existing corpus (which treats valuation as a *classifier weight*, not a *depth*) does not perform.
@@ -178,7 +189,7 @@ confidence* (pre-registered acceptance criteria); failure is reported honestly e
 
 ## 9. Conclusion
 
-The branch-depth reading, applied honestly to computing and quantum error correction, yields a **negative and a positive result**. The negative result: the obvious extension — reading $[[n,k,d]]$ parameters as valuations — is definitional for n and k and unavailable for d; it is, in the anchor's own terms, pure relabeling, and this paper says so rather than papering over it. The positive result: stripping the relabeling leaves one precise open question — *does a non-trivial valuation invariant of stabilizer codes exist?* — and one concrete falsifiable task — *derive a valuation-based QEC-overhead bound and compare it to the Singleton bound.* The 83% classification claim is a testable hypothesis at the center of that question; the first reproduction attempt documented in §6 failed at $n \le 18$ and remains blocked by source under-specification, so the claim must still be independently reproduced before it is treated as established. This is the honest state of the program: a sharp question, a clear test, and a prior claim awaiting verification.
+The branch-depth reading, applied honestly to computing and quantum error correction, yields a **negative and a positive result**. The negative result: the obvious extension — reading $[[n,k,d]]$ parameters as valuations — is definitional for n and k and unavailable for d; it is, in the anchor's own terms, pure relabeling, and this paper says so rather than papering over it. The positive result: stripping the relabeling leaves one precise open question — *does a non-trivial valuation invariant of stabilizer codes exist?* — and one concrete falsifiable task — *derive a valuation-based QEC-overhead bound and compare it to the Singleton bound.* The 83% classification claim is a testable hypothesis at the center of that question; two independent reproduction attempts now exist — this pipeline's §6 run (failed at $n \le 18$) and the sibling ACRP-06 extension with its v1.1 erratum (Golay 28 corrected to 2/4) — and the decisive test remains blocked by source under-specification, so the claim must still be independently reproduced before it is treated as established. This is the honest state of the program: a sharp question, a clear test, and a prior claim awaiting verification.
 
 ---
 
@@ -208,11 +219,11 @@ The branch-depth reading, applied honestly to computing and quantum error correc
 
 1. Abramsky, S., & Coecke, B. (2004). A categorical semantics of quantum protocols. *Proceedings of the 19th Annual IEEE Symposium on Logic in Computer Science (LICS)*.
 2. Abramsky, S. (2009). No-Cloning in Categorical Quantum Mechanics. In *Semantic Techniques in Quantum Computation*, Cambridge University Press. DOI 10.1017/cbo9781139193313.002.
-3. Coecke, B. (2009). Quantum Pictorialism. *Contemporary Physics*. DOI 10.1080/00107510903257624.
+3. Coecke, B. (2010). Quantum Pictorialism. *Contemporary Physics* 51(1):59–83. DOI 10.1080/00107510903257624 (first published online 2009).
 4. Coecke, B., & Duncan, R. (2011). Interacting Quantum Observables: Categorical Algebra and Diagrammatics. *New Journal of Physics* 13:043016. DOI 10.1088/1367-2630/13/4/043016.
 5. Heydeman, M., Marcolli, M., Saberi, I., & Stoica, B. (2018). Tensor networks, p-adic fields, and algebraic curves: arithmetic and the AdS$_3$/CFT$_2$ correspondence. *Adv. Theor. Math. Phys.* 22(1):93–176. DOI 10.4310/atmp.2018.v22.n1.a4. arXiv:1605.07639.
 6. Bhattacharyya, A., Hung, L.-Y., Lei, Y., & Li, W. (2018). Tensor network and (p-adic) AdS/CFT. *JHEP* 2018(1):139. DOI 10.1007/jhep01(2018)139. arXiv:1703.05445.
-7. Gubser, S. S., & Knaute, J. (2017). A p-adic version of AdS/CFT. *Adv. Theor. Math. Phys.* 21(7):1655–1683. DOI 10.4310/atmp.2017.v21.n7.a3.
+7. Gubser, S. S., & Knaute, J. (2017). A p-adic version of AdS/CFT. *Adv. Theor. Math. Phys.* 21(7):1655–1678. DOI 10.4310/atmp.2017.v21.n7.a3.
 8. Bravyi, S., Browne, D., Calpin, P., Campbell, E., Gosset, D., & Howard, M. (2019). Simulation of quantum circuits by low-rank stabilizer decompositions. *Quantum* 3:181. DOI 10.22331/q-2019-09-02-181.
 9. Ostrowski, A. (1916). Über einige Lösungen der Funktionalgleichung φ(x)φ(y)=φ(xy). *Acta Mathematica* 41:271–284.
 10. Quni-Gudzinas, R. B. (2026). Prime Valuation Depth. Zenodo. DOI 10.5281/zenodo.21918838.

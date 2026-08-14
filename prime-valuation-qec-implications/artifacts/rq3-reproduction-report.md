@@ -54,6 +54,19 @@ at these sizes and under this normalization, no code approached 28 and the famil
 not reproduced. Whether NTOF's 28 is attainable under its (undefined) Mahler target at larger n
 remains open.
 
+**F2b — Factual-premise correction (2026-08-14, COMP-4).** The earlier premise "beyond every
+code size in the NTOF tables (n ≤ 18)" is unsupported by the source: NTOF `publication.md`
+never bounds its 200 test codes at n ≤ 18 and explicitly states "Implementation handles up to
+$n=64$ qubit codes" (L397–398) and "resolution algorithm for 64-qubit codes" (L482). NTOF
+Table 1 reports per-family $v_p^{max}$ maxima far above this pipeline's observations (surface
+max 15, CSS max 14, optimal max 28), consistent with a different Mahler target/normalization
+rather than an internal inconsistency. Independent prior art: sibling project ACRP-06 (Zenodo
+21737222 v1.0, 2026-08-01) initially confirmed $v_p^{max}=28$ on Golay-type self-dual codes,
+then issued an ERRATUM (v1.1, 21754148, 2026-08-02) correcting Golay values 28 → 2/4
+("independent BP-10 recomputation confirmed original values unreproducible"). Net: the 28 is
+now unreproduced in TWO independent attempts plus an erratum chain, and this pipeline's run
+was NOT the first reproduction attempt.
+
 **F3 — Source under-determination.** NTOF never defines which function undergoes the Mahler expansion.
 "a code's Mahler expansion" is ambiguous (weight vs distance vs other invariants), which blocks a
 faithful reproduction of absolute numbers even when the direction test runs.
