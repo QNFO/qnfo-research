@@ -1,0 +1,6 @@
+# temp / build artifacts
+__pycache__/
+*.pyc
+.TEMP/
+node_modules/
+*.log
