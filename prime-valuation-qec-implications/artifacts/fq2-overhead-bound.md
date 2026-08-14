@@ -92,7 +92,12 @@ forces $n - k \ge 2(d-1) \ge 2$ for $d \ge 2$.
   ($n/k \ge 1$) is strictly weaker than Singleton.**
 - Same-valuation, different-distance witness: $[[7,1,3]]$ (Steane) and
   $[[7,1,2]]$ have identical valuation data $(v_2(\dim H), v_2(\dim H_L)) = (7,1)$
-  but different $d$ — valuation structure underdetermines $d$ by example.
+  but different $d$.
+  **Explicit $[[7,1,2]]$ construction (distance-verified 2026-08-14, seed 20260814):**
+  generators g1 = ZIZIYII, g2 = XZIXXIX, g3 = YYZZZZI, g4 = YXYXIYX, g5 = XIIYXXY,
+  g6 = YXIZZXX; no weight-1 logical operator exists (d ≥ 2 verified); the weight-2
+  logical operator YIIIZII was exhibited (d = 2 verified). Valuation structure
+  underdetermines $d$ by construction.
 
 ---
 
