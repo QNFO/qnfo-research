@@ -11,7 +11,7 @@
 
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |:---|:---------|:-------|:------------|:-----------------|
-| FQ1 | Does there exist a non-trivial valuation invariant of stabilizer codes (≠ v₂(dim H), v₂(dim H_L)) with classification or predictive power? | OPEN | Resolve NTOF under-specification; re-implement Algorithm 4.4; fresh 50/family generation | YES (REG-RES006-001) |
+| FQ1 | Does there exist a non-trivial valuation invariant of stabilizer codes (≠ v₂(dim H), v₂(dim H_L)) with classification or predictive power? | **OPEN — FQ1-EXP-001 2026-08-14: PRELIMINARY POSITIVE** (v_2(A_j) enumerator-parity invariant; 4/4 structured families outliers vs same-(n,k) random controls, max_v2 percentiles 0/5/100/0; small sample, needs 50/family confirmation — artifacts/fq1-exploratory-scan.md); pre-registered REG-RES006-001 still BLOCKED | Re-specify REG-RES006-001 to the well-defined v_2(A_j) invariant (fresh 50/family, seeded, distance-confound control) OR resolve NTOF under-specification | YES (REG-RES006-001) |
 | FQ2 | Is the QEC overhead (physical:logical qubits) bounded below by a valuation-structure function, and how does it compare to the quantum Singleton bound? | **ANSWERED (DISCONFIRMED)** 2026-08-14 — valuation data is (n,k,q)-only; d inexpressible; bound strictly weaker than Singleton (artifacts/fq2-overhead-bound.md) | CLOSED — see FQ2 outcome doc | YES |
 | FQ3 | Is there a valuation-based complexity characterization of reversible/Clifford computation that differs from (or tightens) the standard one? | **ANSWERED (DISCONFIRMED)** 2026-08-14 — candidate identities (v_2\|Cl(n)\|=2n+1, v_2((2^n)!)=2^n−1) genuine but complexity-vacuous; depth/size/rank are weights not valuations (artifacts/fq3-complexity-characterization.md) | CLOSED — see FQ3 outcome doc | YES |
 | FQ4 | Does the no-cloning re-expression (non-cloneable redundancy) yield a checkable consequence for QEC limits beyond the standard no-cloning statement? | **ANSWERED (DISCONFIRMED)** 2026-08-14 — re-expression relabels Abramsky's categorical no-cloning; no NEW QEC consequence beyond standard bounds (artifacts/fq4-no-cloning-consequence.md) | CLOSED — see FQ4 outcome doc | YES |
@@ -51,6 +51,7 @@
 | 2026-08-14 | P4 valuation-overhead bound | strong (derivation) | DISCONFIRMED (strictly weaker than Singleton; obstruction d) |
 | 2026-08-14 | FQ3 complexity characterization | strong (derivation) | DISCONFIRMED (identities genuine but complexity-vacuous) |
 | 2026-08-14 | FQ4 no-cloning consequence | strong (analysis) | DISCONFIRMED (relabeling of Abramsky + standard QEC bounds) |
+| 2026-08-14 | FQ1-EXP-001 enumerator-parity v_2(A_j) | exploratory (small sample) | PRELIMINARY POSITIVE — structure detected (4/4 outliers, pct 0/5/100/0) |
 
 ## 6. NEXT ACTIONS (Prioritized)
 
@@ -68,4 +69,6 @@
 - 2026-08-14: FQ2 DISCONFIRMED (valuation-based overhead bound strictly weaker than Singleton; obstruction d — artifacts/fq2-overhead-bound.md).
 - 2026-08-14: FQ3 DISCONFIRMED (complexity characterization candidates complexity-vacuous — artifacts/fq3-complexity-characterization.md).
 - 2026-08-14: FQ4 DISCONFIRMED (no-cloning re-expression relabels Abramsky; no new QEC consequence — artifacts/fq4-no-cloning-consequence.md).
+- 2026-08-14: FQ1-EXP-001 exploratory scan (v_2(A_j) weight-enumerator parity; structured vs random at SAME (n,k), seed 20260814) — PRELIMINARY POSITIVE: 4/4 structured families outliers (max_v2 percentiles 0/5/100/0; perfect code all-odd strictly below all controls); sign structure = fingerprint not threshold (artifacts/fq1-exploratory-scan.md, fq1-exp-check.py).
+- 2026-08-14: avenues-remaining.md written — valuation-weight duality no-go (FQ2/FQ3 formalized); what works = v_2(A_j) enumerator-parity invariant; ranked avenues A1 (full confirmation) / A2 (no-go lemma write-up) / A3 (p-adic algorithmics — Hensel codes, domain-native) / A4 (ultrametric geometry — Bruhat–Tits) / A5 (original 83% reproduction, BLOCKED).
 - **Maintenance:** update this file on every reproduction attempt, prediction outcome, or new FQ; bump a version counter; commit to the project branch. Do NOT let it become a static artifact.
