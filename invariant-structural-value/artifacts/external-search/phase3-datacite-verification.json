@@ -1,0 +1,193 @@
+{
+  "fetched": "2026-08-14T05:57:56Z",
+  "method": "live DataCite API (api.datacite.org/dois/<doi>) + Crossref retry corrected DOIs",
+  "results": {
+    "10.5281/zenodo.21756190": {
+      "doi": "10.5281/zenodo.21756190",
+      "title": "The Ostrowski Dimensionless Reformulation v4.0.4: A Place-Democratic Foundation for Fundamental Physics — Definitive Edition",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Preprint"
+    },
+    "10.5281/zenodo.20109773": {
+      "doi": "10.5281/zenodo.20109773",
+      "title": "Quantum-Mechanical Physics as Invariant Geometric Structure",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Preprint"
+    },
+    "10.5281/zenodo.20108536": {
+      "doi": "10.5281/zenodo.20108536",
+      "title": "Fine-Structure Constant as a Cross-Ratio: A Geometric Reframing of α",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Text"
+    },
+    "10.5281/zenodo.19547736": {
+      "doi": "10.5281/zenodo.19547736",
+      "title": "SYNTACTIC TOKEN CALCULUS: From the Logic of Distinction to the Coordinate-Free Cosmos",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Text"
+    },
+    "10.5281/zenodo.21515789": {
+      "doi": "10.5281/zenodo.21515789",
+      "title": "α-π-Helix: Geometric Unification of Fundamental Constants",
+      "authors": [
+        "QNFO Research Pipeline",
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "JournalArticle"
+    },
+    "10.5281/zenodo.21205110": {
+      "doi": "10.5281/zenodo.21205110",
+      "title": "Quantum Laws of Form: Superposition as Re-Entry, Measurement as Distinction",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Text"
+    },
+    "10.5281/zenodo.21205097": {
+      "doi": "10.5281/zenodo.21205097",
+      "title": "The Calculus of Distinction: A Formal Isomorphism Between Laws of Form and Ultrametric Trees",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Text"
+    },
+    "10.5281/zenodo.21645350": {
+      "doi": "10.5281/zenodo.21645350",
+      "title": "The Computable Real Boundary: Where Physics Ends and Cognitive Fiction Begins",
+      "authors": [
+        "QNFO Research",
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Preprint"
+    },
+    "10.5281/zenodo.19469966": {
+      "doi": "10.5281/zenodo.19469966",
+      "title": "Base-Invariant Number-Theoretic Patterns in Fundamental Constants: From Base Invariance to a Democratic Ontology of Scaling Operators",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Text"
+    },
+    "10.5281/zenodo.17322662": {
+      "doi": "10.5281/zenodo.17322662",
+      "title": "WINDING NUMBERS AND STRANGE LOOPS: CIRCULAR TOPOLOGY AS PHYSICAL FOUNDATION",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2025,
+      "publisher": "QNFO",
+      "type": "Text"
+    },
+    "10.5281/zenodo.17419332": {
+      "doi": "10.5281/zenodo.17419332",
+      "title": "The Strange Loop Theory of Physical Quantization: A Formal Derivation",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2025,
+      "publisher": "QNFO",
+      "type": "Text"
+    },
+    "10.5281/zenodo.21690262": {
+      "doi": "10.5281/zenodo.21690262",
+      "title": "The Notation Problem: Category-Theoretic Scaffold-Stripping of Six Marginalised Formal Systems, with an Application to a Distinction-Based Calculus for Prime Numbers",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Text"
+    },
+    "10.5281/zenodo.21786473": {
+      "doi": "10.5281/zenodo.21786473",
+      "title": "Adelic Core Synthesis: Cross-Domain Foundations of Adelic QFT",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "QNFO",
+      "type": "Preprint"
+    },
+    "10.5281/zenodo.21928746": {
+      "doi": "10.5281/zenodo.21928746",
+      "title": "Final Unifying Physics Theory: Completion of Einstein's Mass-Energy Equivalence Formula by Adding the Movahed Energy Escape Factor (MEEF), Mo:        M eff = (E / c²) × (1 - Mo)  →   1 – Mo equal to  1/γ  Lorentz Factor Leading to the Unification of Gravity with Quantum Mechanics with Hypothesis that the Basic Building Block of the Universe is only Energy Always Propagating at the Speed of Light, and Mass is only the Manifestation of Confined Energy Resolving Many Mysteries in Physics such as Explaining Mass, Gravity, Dark Matter, Magnetism, Time, Elementary Particles, Polarity, Dark Energy and More",
+      "authors": [
+        "Mohammad Reza Movahed Shariat Panahi"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Preprint"
+    },
+    "10.5281/zenodo.17368960": {
+      "doi": "10.5281/zenodo.17368960",
+      "title": "PHYSICS, SOLVED: Rethinking Wikipedia's \"List of Unsolved Problems in Physics\"",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2025,
+      "publisher": "QNFO",
+      "type": "Text"
+    },
+    "10.5281/zenodo.20120042": {
+      "doi": "10.5281/zenodo.20120042",
+      "title": "The Adelic Constraints Project — A Complete Account",
+      "authors": [
+        "Rowan Brad Quni-Gudzinas"
+      ],
+      "year": 2026,
+      "publisher": "Zenodo",
+      "type": "Report"
+    },
+    "10.4310/CNTP.2007.v1.n1.a1": {
+      "doi": "10.4310/CNTP.2007.v1.n1.a1",
+      "title": "Electric-magnetic duality and the geometric Langlands program",
+      "authors": [
+        "Anton Kapustin",
+        "Edward Witten"
+      ],
+      "year": 2007,
+      "container": "Communications in Number Theory and Physics",
+      "publisher": "International Press of Boston"
+    },
+    "10.1103/RevModPhys.75.559": {
+      "doi": "10.1103/RevModPhys.75.559",
+      "title": "The cosmological constant and dark energy",
+      "authors": [
+        "P. J. E. Peebles",
+        "Bharat Ratra"
+      ],
+      "year": 2003,
+      "container": "Reviews of Modern Physics",
+      "publisher": "American Physical Society (APS)"
+    }
+  },
+  "errors": {
+    "10.1007/s11229-006-9076-8": "HTTP Error 404: Not Found"
+  }
+}

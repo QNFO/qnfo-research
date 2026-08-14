@@ -1,0 +1,228 @@
+{
+  "fetched": "2026-08-14T05:57:20Z",
+  "method": "live Crossref API (api.crossref.org/works/<doi>) + arXiv API id_list",
+  "results": {
+    "10.21203/rs.3.rs-8629054/v1": {
+      "doi": "10.21203/rs.3.rs-8629054/v1",
+      "title": "Domain Projection: The Geometric Origin of Physical Constants and Laws",
+      "authors": [
+        "Abdennour Abbas"
+      ],
+      "container": "",
+      "volume": "",
+      "year": 2026,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "posted-content"
+    },
+    "10.1093/acprof:oso/9780199276196.001.0001": {
+      "doi": "10.1093/acprof:oso/9780199276196.001.0001",
+      "title": "Every Thing Must Go",
+      "authors": [
+        "James Ladyman",
+        "Don Ross",
+        "and David Spurrett with John Collier"
+      ],
+      "container": "",
+      "volume": "",
+      "year": 2007,
+      "publisher": "Oxford University Press",
+      "type": "monograph"
+    },
+    "10.1093/obo/9780195396577-0154": {
+      "doi": "10.1093/obo/9780195396577-0154",
+      "title": "Structural Realism",
+      "authors": [
+        "James Ladyman"
+      ],
+      "container": "Oxford Bibliographies in Philosophy",
+      "volume": "",
+      "year": 2013,
+      "publisher": "Oxford University PressNew York, NY",
+      "type": "reference-entry"
+    },
+    "10.1016/j.shpsa.2016.06.008": {
+      "doi": "10.1016/j.shpsa.2016.06.008",
+      "title": "Structural realism beyond physics",
+      "authors": [
+        "Dana Tulodziecki"
+      ],
+      "container": "Studies in History and Philosophy of Science Part A",
+      "volume": "59",
+      "year": 2016,
+      "publisher": "Elsevier BV",
+      "type": "journal-article"
+    },
+    "10.1007/978-94-007-2579-9_2": {
+      "doi": "10.1007/978-94-007-2579-9_2",
+      "title": "Methodological Structural Realism",
+      "authors": [
+        "Elaine M. Landry"
+      ],
+      "container": "The Western Ontario Series in Philosophy of Science",
+      "volume": "",
+      "year": 2012,
+      "publisher": "Springer Netherlands",
+      "type": "book-chapter"
+    },
+    "10.1007/978-94-007-2579-9_4": {
+      "doi": "10.1007/978-94-007-2579-9_4",
+      "title": "Miracles and Structural Realism",
+      "authors": [
+        "John Worrall"
+      ],
+      "container": "The Western Ontario Series in Philosophy of Science",
+      "volume": "",
+      "year": 2012,
+      "publisher": "Springer Netherlands",
+      "type": "book-chapter"
+    },
+    "10.20944/preprints202512.2527.v2": {
+      "doi": "10.20944/preprints202512.2527.v2",
+      "title": "An Exact Z&lt;sub&gt;3&lt;/sub&gt;-Graded Algebraic Framework Underlying Observed Fundamental Constants",
+      "authors": [
+        "Yuxuan Zhang",
+        "Weitong Hu",
+        "Wei Zhang"
+      ],
+      "container": "",
+      "volume": "",
+      "year": 2026,
+      "publisher": "MDPI AG",
+      "type": "posted-content"
+    },
+    "10.1086/288975": {
+      "doi": "10.1086/288975",
+      "title": "A Confutation of Convergent Realism",
+      "authors": [
+        "Larry Laudan"
+      ],
+      "container": "Philosophy of Science",
+      "volume": "48",
+      "year": 1981,
+      "publisher": "Cambridge University Press (CUP)",
+      "type": "journal-article"
+    },
+    "10.12942/lrr-2001-1": {
+      "doi": "10.12942/lrr-2001-1",
+      "title": "The Cosmological Constant",
+      "authors": [
+        "Sean M. Carroll"
+      ],
+      "container": "Living Reviews in Relativity",
+      "volume": "4",
+      "year": 2001,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article"
+    }
+  },
+  "arxiv": {
+    "0801.0028": {
+      "arxiv_id": "0801.0028",
+      "title": "CODATA Recommended Values of the Fundamental Physical Constants: 2006",
+      "authors": [
+        "Peter J. Mohr",
+        "Barry N. Taylor",
+        "David B. Newell"
+      ],
+      "raw_len": 2866
+    },
+    "1303.3935": {
+      "arxiv_id": "1303.3935",
+      "title": "Quantum mechanics from invariance principles",
+      "authors": [
+        "Florin Moldoveanu"
+      ],
+      "raw_len": 2721
+    },
+    "1312.4959": {
+      "arxiv_id": "1312.4959",
+      "title": "Confronting Cosmology and New Physics with Fundamental Constants",
+      "authors": [
+        "Rodger I. Thompson"
+      ],
+      "raw_len": 3246
+    },
+    "1504.06686": {
+      "arxiv_id": "1504.06686",
+      "title": "The Deeper Roles of Mathematics in Physical Laws",
+      "authors": [
+        "Kevin H. Knuth"
+      ],
+      "raw_len": 2334
+    },
+    "1507.02229": {
+      "arxiv_id": "1507.02229",
+      "title": "Fundamental Constants in Physics and Their Time Variation",
+      "authors": [
+        "Joan Solà"
+      ],
+      "raw_len": 2308
+    },
+    "1702.07382": {
+      "arxiv_id": "1702.07382",
+      "title": "The Relation Between Fundamental Constants and Particle Physics Parameters",
+      "authors": [
+        "Rodger I. Thompson"
+      ],
+      "raw_len": 2364
+    },
+    "1805.10602": {
+      "arxiv_id": "1805.10602",
+      "title": "Physics Needs Philosophy. Philosophy Needs Physics",
+      "authors": [
+        "Carlo Rovelli"
+      ],
+      "raw_len": 2424
+    },
+    "2306.13975": {
+      "arxiv_id": "2306.13975",
+      "title": "Bohr's Anti-Realist Realism in Contemporary (Quantum) Physics and Philosophy",
+      "authors": [
+        "Christian de Ronde"
+      ],
+      "raw_len": 2125
+    },
+    "2508.01616": {
+      "arxiv_id": "2508.01616",
+      "title": "The Philosophy and Physics of Duality",
+      "authors": [
+        "Sebastian De Haro",
+        "Jeremy Butterfield"
+      ],
+      "raw_len": 3884
+    },
+    "physics/0409117": {
+      "arxiv_id": "physics/0409117",
+      "title": "The Inconstancy of the Fundamental Physical Constants: Computational Status",
+      "authors": [
+        "V. V. Ezhela",
+        "Yu. V. Kuyanov",
+        "V. N. Larin",
+        "A. S. Siver"
+      ],
+      "raw_len": 2608
+    }
+  },
+  "errors": {
+    "10.5281/zenodo.21756190": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.20109773": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.20108536": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.19547736": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.21515789": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.21205110": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.21205097": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.21645350": "HTTP Error 404: Not Found",
+    "10.1093/acprof:oso/9780199276196": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.19469966": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.17322662": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.17419332": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.21690262": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.21786473": "HTTP Error 404: Not Found",
+    "10.1007/s11229-006-9076-8": "HTTP Error 404: Not Found",
+    "10.4310/cntp.2007.v1.n1": "HTTP Error 404: Not Found",
+    "10.1103/revmodphys.75.55": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.21928746": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.17368960": "HTTP Error 404: Not Found",
+    "10.5281/zenodo.20120042": "HTTP Error 404: Not Found"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "fetched": "2026-08-14T06:02:42Z",
+  "canonical_verified_live": {
+    "10.1111/j.1746-8361.1989.tb00933.x": {
+      "doi": "10.1111/j.1746-8361.1989.tb00933.x",
+      "title": "Structural Realism: The Best of Both Worlds?",
+      "authors": [
+        "John Worrall"
+      ],
+      "year": 1989,
+      "container": "Dialectica",
+      "volume": "43",
+      "pages": "99-124",
+      "publisher": "Verein philosophie.ch"
+    },
+    "10.1023/a:1024156116636": {
+      "doi": "10.1023/a:1024156116636",
+      "title": "Remodelling Structural Realism: Quantum Physics and the Metaphysics of Structure",
+      "authors": [
+        "Steven French",
+        "James Ladyman"
+      ],
+      "year": 2003,
+      "container": "Synthese",
+      "volume": "136",
+      "pages": "31-56",
+      "publisher": "Springer Science and Business Media LLC"
+    }
+  },
+  "manual_entries": [
+    "joyalstreet1986",
+    "spencerbrown1969"
+  ],
+  "note": "Worrall 1989 DOI corrected from 10.1086/289085 (WRONG book) to 10.1111/j.1746-8361.1989.tb00933.x; French-Ladyman 2003 DOI corrected from 10.1016/S0039-3681(03)00021-8 (404) to 10.1023/a:1024156116636; Esfeld DOI corrected from -8 (404) to -2; Kapustin-Witten corrected to 10.4310/CNTP.2007.v1.n1.a1; Peebles-Ratra corrected to 10.1103/RevModPhys.75.559"
+}
