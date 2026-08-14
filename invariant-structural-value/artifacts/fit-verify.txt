@@ -1,0 +1,31 @@
+=== BP-1/BP-6/BP-10 FIT-VERIFY: independent recomputation of every claimed numeric value ===
+
+e (series sum 1/n!, n<50)     = 2.718281828459
+e (limit (1+1/n)^n, n=1e6)    = 2.718280469096
+e (limit (1+1/n)^n, n=5e7)    = 2.718281814935
+e (math.exp(1) reference)     = 2.718281828459
+PASS e: series exact; limit error matches e/(2n) bound
+
+pi (Leibniz n=1e6)            = 3.141591653590
+pi (Machin)                   = 3.141592653590
+pi (math.pi reference)        = 3.141592653590
+PASS pi: |Machin-pi| < 1e-12, |Leibniz-pi| < 1e-5
+
+e^(i*pi) + 1                   = 0.000e+00 + 1.225e-16i  (|.|=1.225e-16)
+PASS Euler identity: |e^(i*pi)+1| < 1e-12
+
+period check n=1: |e^in(theta+2pi)-e^in theta| = 4.041e-16
+period check n=2: |e^in(theta+2pi)-e^in theta| = 8.006e-16
+period check n=7: |e^in(theta+2pi)-e^in theta| = 4.003e-16
+PASS period 2*pi consistency (self-adjoint momentum on circle)
+
+f'=f at x=0.0: numeric deriv=0.999999999474, e^x=1.000000000000, rel_err=5.26e-10
+f'=f at x=0.5: numeric deriv=1.648721281722, e^x=1.648721270700, rel_err=6.68e-09
+f'=f at x=1.0: numeric deriv=2.718281821856, e^x=2.718281828459, rel_err=2.43e-09
+f'=f at x=2.0: numeric deriv=7.389056033702, e^x=7.389056098931, rel_err=8.83e-09
+PASS f'=f fixed point (e as invariant of self-application)
+
+alpha reference (corpus consistent) = 0.007297352569
+NOTE: draft makes NO numeric alpha claim (BP-4 N/A — no cross-paper number to conflict)
+
+ALL BP-1/BP-6/BP-10 CHECKS PASS
