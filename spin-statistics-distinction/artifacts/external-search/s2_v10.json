@@ -1,0 +1,6 @@
+{
+  "status": 404,
+  "body": {
+    "error": "Paper with id DOI:10.5281/zenodo.21938971 not found"
+  }
+}
