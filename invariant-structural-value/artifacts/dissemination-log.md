@@ -41,6 +41,7 @@ shortlist (see strategy doc).
 
 ## 5. Open / Deferred
 
+- **v0.3 published 2026-08-14 (DOI 10.5281/zenodo.21929902, concept 21929478)** — post-dissemination version carrying the post-audit remediation (frontmatter DOI + internal-token cleanup). All dissemination actions above were performed against v0.2 (21929590), the then-current version; the v0.3 record supersedes it for citation purposes. IndexNow/robots/sitemap point to the papers.qnfo.org URL which serves the latest version.
 - arXiv listing: NOT pursued (standing preference — direct journal submission path).
 - Buffer: posts scheduled to queue (mode `addToQueue`), not sent immediately.
 - Internet Archive second snapshot for the Zenodo record page: optional follow-up.
