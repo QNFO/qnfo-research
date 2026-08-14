@@ -8,7 +8,7 @@ status: "draft"
 abstract: "We develop the thesis that the fundamental constants and formulas of physics encode invariant relations rather than unit-dependent magnitudes. Measurable physics is characterized as the invariant quotient of a larger non-measurable mathematical structure modulo redundancy groups: units, coordinates, gauge, basis, and scale. The exponential constant e and the circle constant pi are shown to be fixed points of two canonical self-referential operations on a primitive mark-and-distinction: e of self-application and pi of self-closure. The Euler identity is the joint fixed point of these operations. Every claim carries an explicit disconfirmation condition."
 ---
 
-# Introduction
+## Introduction
 
 A measured physical quantity is a number that survives all arbitrary choices. The
 unit system, the coordinate system, the gauge choice, the Hilbert-space basis, and
@@ -26,9 +26,9 @@ under redundancy groups. Third, the constants $e$ and $\pi$ arise as the fixed
 points of self-reference itself: $e$ of self-application, $\pi$ of self-closure,
 with the Euler identity $e^{i\pi} + 1 = 0$ as their joint fixed point.
 
-# Measured Quantities as Invariants
+## Measured Quantities as Invariants
 
-## Dimensionless ratios and unit bridges
+### Dimensionless ratios and unit bridges
 
 Dimensionful constants are best understood as **bridges between categories of
 quantity**. The speed of light $c$ identifies space with time; its invariant
@@ -45,7 +45,7 @@ $\alpha = e^{2}/(4\pi\epsilon_{0}\hbar c)$, mixing angles and phases, and
 topological indices. These are the only numbers that can be compared across
 unit systems, coordinate systems, and theories.
 
-## Structural markers, not magnitudes
+### Structural markers, not magnitudes
 
 The invariant structural value of a fundamental number is its **place in the
 network of lawful relations**. A coupling strength is not a decimal but the
@@ -58,9 +58,9 @@ This reframing makes precise what the decimal values obscure: the physical
 content is the relation, and the magnitude in any unit system is a projection
 of that relation onto a coordinate system. [MAP — context framing]
 
-# Quantum Mechanics as Invariant Structure
+## Quantum Mechanics as Invariant Structure
 
-## Projective rays and spectra
+### Projective rays and spectra
 
 In quantum mechanics, the measurable content is not the wavefunction but its
 **ray** — the equivalence class under global phase. Born probabilities
@@ -73,7 +73,7 @@ the spectrum is invariant under $O \to U O U^{\dagger}$. The physical state is
 therefore $[\psi] = \{e^{i\theta}|\psi\rangle\}$ in projective Hilbert space,
 and a measured energy is a spectral invariant.
 
-## S-matrix and topological invariants
+### S-matrix and topological invariants
 
 Scattering content is the S-matrix, invariant under field redefinitions, gauge
 choices, and renormalization scheme. Many measurable quantum numbers are
@@ -85,7 +85,7 @@ claim that measurable content is invariants of a mathematical structure is
 falsifiable: a gauge-dependent observable that is nonetheless measured would
 disconfirm it.]
 
-# The Non-Measurable Mathematical Scaffolding
+## The Non-Measurable Mathematical Scaffolding
 
 The invariant content is extracted from a larger mathematical structure
 containing elements that are **not directly measurable**: the complex phase and
@@ -115,9 +115,9 @@ The imaginary, non-measurable mathematics is the coordinate system in which
 physical invariants become computable; measurement is the extraction of the
 invariant after all arbitrary choices are removed. [MAP — context framing]
 
-# Self-Adjointness and Self-Reference: e and pi from Mark and Distinction
+## Self-Adjointness and Self-Reference: e and pi from Mark and Distinction
 
-## The primitive distinction
+### The primitive distinction
 
 A mark is a boundary with an inside and an outside; drawing a distinction
 creates the first pair $0$ and $1$. Self-reference occurs when the mark
@@ -130,7 +130,7 @@ is the fixed point of the adjoint involution, and its spectrum is real. The
 two canonical ways a distinction can become self-consistent are self-application
 and self-closure.
 
-## e as the invariant of self-application
+### e as the invariant of self-application
 
 The exponential constant $e$ is the fixed point of the differential equation
 
@@ -148,7 +148,7 @@ e can be exhibited as requiring an additional primitive beyond self-application
 of a mark-and-distinction (a resource not derivable from the calculus of
 indications), the claim is false.]
 
-## pi as the invariant of self-closure
+### pi as the invariant of self-closure
 
 The circle is the simplest distinction that closes on itself. Its circumference
 to diameter ratio is scale-invariant: this is the period of self-enclosure. In
@@ -163,7 +163,7 @@ a compact domain consistent. [TERRITORY — disconfirmation: if a self-referenti
 equation is exhibited whose fixed point is a constant other than $e$ or $\pi$
 with no structural characterization, the fixed-point reading is incomplete.]
 
-## Euler identity as joint fixed point
+### Euler identity as joint fixed point
 
 The identity
 
@@ -176,7 +176,7 @@ distinction itself. Exponentiating imaginary growth by the half-period yields
 negation. Growth, rotation, and self-reference compose into the elementary
 logical operation of distinction.
 
-## Compact closed structure
+### Compact closed structure
 
 Certain physical theories are compact closed: every object has a dual, and every
 process can be bent back into itself, forming traces. For the compact group
@@ -186,7 +186,7 @@ map and $\pi$ is the half-period of the compact group. Compact closure is what
 allows the feedback loop to exist, and $e$ and $\pi$ are the invariants of that
 loop.
 
-## Formal derivation (constructive, pre-registered)
+### Formal derivation (constructive, pre-registered)
 
 C3 is claimed constructively, not by pattern-matching. Each constant is
 exhibited as the unique fixed point of a specified self-referential equation
@@ -234,9 +234,9 @@ additional primitive not derivable from distinction and self-reference, or if a
 self-referential equation is exhibited whose fixed point is a constant other
 than $e$ or $\pi$ with no structural characterization.]
 
-# Falsifiability and Symmetric Audit
+## Falsifiability and Symmetric Audit
 
-## Disconfirmation conditions
+### Disconfirmation conditions
 
 **C1.** Disconfirmed if a dimensionful constant is shown to carry invariant
 physical content beyond its role as a unit bridge, or if a claimed invariant is
@@ -251,7 +251,7 @@ mark-and-distinction plus self-reference, or if a self-referential equation is
 exhibited whose fixed point is a constant other than $e$ or $\pi$ with no
 structural characterization.
 
-## Symmetric audit
+### Symmetric audit
 
 The incumbent accounts — structural realism, duality-based accounts of
 theoretical equivalence, relational quantum mechanics, and the gauge-theoretic
@@ -260,7 +260,7 @@ framework. The Standard Model's measured parameters and the underdetermination
 arguments against structural realism are audited with identical rigor, not
 assumed superior. [KIF-18 discipline]
 
-# Conclusion
+## Conclusion
 
 Fundamental constants and formulas encode invariant relations: dimensionless
 ratios, symmetry data, topological indices, and fixed-point values. Measurable
@@ -271,7 +271,7 @@ primitive distinction — and the Euler identity is their joint fixed point.
 The decimal magnitudes in human units are shadows of these invariants; the
 invariant structural value is the place in the network of lawful relations.
 
-# Declarations
+## Declarations
 
 **Funding:** No external funding. **Conflicts of interest:** None.
 **Data availability:** Source files, evidence corpus, and analysis artifacts are
