@@ -85,3 +85,51 @@
 - Literature triage with Mandatory Symmetry Template (KIF-18)
 - P3 AUTHOR-GATE verification of every DOI in references.bib
 - P4 formal sketch: two modal exponentials !_S / !_Λ + braiding of marks in a compact closed category + F2 derivation-or-impossibility argument
+
+
+## (d) Literature Classification Matrix (P2, 2026-08-14)
+
+Sources swept: arXiv (40 results, P1), OpenAlex (2 searches), Crossref (4 searches),
+Zenodo records API (20 hits: spin-statistics 10 + anyon-braiding 10), Europe PMC (10
+hits), QNFO Vectorize/D1 (989-record corpus, 19 title hits), QNFO KG (16 nodes).
+
+| Class | Definition | Count | Examples |
+|---|---|---|---|
+| **Core** (directly addresses RQ) | Exchange-phase = topological-spin derivations; categorical spin-statistics | 10 | Johnson-Freyd 1507.06297; Mund 0801.3621; Oeckl hep-th/0008072; Trung 2208.13786; Nardin 2211.07788; Comparin 2112.02901; Kuckert quant-ph/0208151; Duck-Sudarshan 10.1119/1.18860 |
+| **Supporting** (adjacent) | Anyon braiding, ribbon categories, QH spin-statistics, mark-calculus foundations | 16 | Bruillard 10.1007/s00220-009-0908-z; Kong-Wen 1405.5858; Leinaas cond-mat/9903329; Balachandran 10.1142/s0217732390001797; treatises/corpus records |
+| **Background** (context) | QFT axioms, Pauli history, philosophy of spin-statistics, internal QNFO spin/statistics records | 15 | verch 10.1007/s002200100526; weinberg_proof 10.1016/s1355-2198(03)00066-2; ZBW fermion-distinction series; spin-glasses |
+| **Reject** (irrelevant/derivative) | Non-QNFO speculative cosmology posts, unverifiable fringe deposits | 5 | Zenodo "Kaleidoscopic Foundation of the Universe", "Postmodern Physics of Hamzah Information" (x2), brane-wave spin papers (derivative) |
+
+**Note on Zenodo sweep quality:** 4/10 spin-statistics hits + 2/10 anyon hits are
+unverifiable fringe/speculative deposits — recorded, classified Reject with reason,
+NOT cited. No retracted records found.
+
+## (e) Mandatory Symmetry Template (KIF-18)
+
+### Where External Literature Supports the Invariant Claim (R = e^{2πis})
+
+- Johnson-Freyd (1507.06297): topological spin-statistics theorem in TQFT — the
+  relation is a theorem about tangential structures, not 3+1D field theory.
+- Oeckl (hep-th/0008072): SST is equivalent to the unification of symmetries;
+  boson/fermion case is one branch of braided statistics.
+- Mund (0801.3621): SST holds for anyons/plektons in 2+1D — dimension-independence.
+- Trung-Wang-Yang (2208.13786) + Nardin (2211.07788) + Comparin (2112.02901):
+  R = e^{2πis} proven/measured for FQH quasiparticles.
+- Kuckert (quant-ph/0208151): necessary and sufficient condition for Pauli's
+  relation across 2D/3D — the "shadow" reading.
+
+### Where External Literature Constrains or Contradicts the Claim
+
+- The full nonperturbative 3+1D SST is not unconditionally proven for all
+  interacting theories (noted in the 2026-08-14 corpus; proofs rest on
+  microcausality + positive energy + locality axioms) — the invariant reading
+  must NOT be stated as unconditionally universal [CONTESTED at nonperturbative
+  generality].
+- Marletto-Vedral (2112.03392) propose a *dynamical* origin (gravity-mediated
+  exchange phase) — a genuine alternative mechanism that contradicts the
+  "purely topological/algebraic invariant" framing if confirmed.
+- Jabs (quant-ph/0311078) and Lev (hep-th/0212178) challenge standard derivations
+  — the derivation-quality debate is live external literature and must be cited
+  as constraining.
+- Faddeev-Popov ghosts (scalar, anticommuting) show the naive spin-statistics rule
+  fails for unphysical sectors — the claim must be scoped to physical states.
