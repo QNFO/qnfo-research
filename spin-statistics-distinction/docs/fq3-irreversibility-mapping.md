@@ -40,17 +40,13 @@ the same gap.
 
 ## 3. Minimal code verification
 
-```python
-# Braid generator: invertible (time-symmetric)
-# P (permutation of two tokens) satisfies P @ P.T == I
-# Erasure: not invertible (time-asymmetric)
-# E maps {0,1} -> {0}; E(0)=E(1) => no inverse function exists
-```
+Run (`artifacts/notebooks/t6-capacity-bound.py`, Part D — executed 2026-08-14):
+- [D1] braid generator invertible: P·Pᵀ = I → **True** (permutation matrix is orthogonal;
+  the algebra is an involution, so forward and reverse exchange are identical)
+- [D2] erasure non-injective: E(0) = E(1) = 0 → **True** (two preimages, no inverse
+  function exists)
 
-Run (`artifacts/notebooks/t6-capacity-bound.py` Part C + the checks below):
-- permutation inverse check: PASS (P·Pᵀ = I)
-- erasure non-injectivity: PASS (E(0) = E(1) = 0, two preimages — no inverse)
-- forward vs reverse exchange: identical (T4 Yang–Baxter + σ²=I hold both ways)
+Both load-bearing facts are executable checks in the committed model — not asserted.
 
 ## 4. Verdict
 

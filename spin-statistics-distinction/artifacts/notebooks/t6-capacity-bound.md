@@ -33,6 +33,11 @@ dethrone it") is made quantitative:
 3. **Part C (G3).** At the ceiling (ΔS = 5 → 7 distinctions), the S₃ exchange algebra:
    Yang–Baxter and σ² = I hold identically; eigenvalues follow from σ² = I alone.
    [TOY MODEL — SYNTACTIC.]
+4. **Part D (FQ3 seed checks).** D1: the braid generator is invertible (permutation
+   matrix P satisfies P·Pᵀ = I) — the grammar is time-symmetric. D2: the erasure map
+   E : {0,1} → {0} is non-injective (E(0) = E(1) = 0) — the resource account is
+   asymmetric. This makes the FQ3 mapping's two load-bearing facts executable rather
+   than asserted.
 
 **Modeling note (integrity record):** the first implementation of Part B had a
 state-reset bug (cells rebuilt from scratch each step instead of decaying
@@ -49,6 +54,8 @@ discipline.
 | G2a | **PASS** | D_avg=40.61 ≈ D*=40 (min(N, P/p)) |
 | G2b | **PASS** | fixes=3995 == env gain=3995.0 (≈P per step) |
 | G3 | **PASS** | Yang–Baxter + σ²=I hold at the ceiling; eigenvalues from σ²=I |
+| D1 | **PASS** | braid generator invertible: P·Pᵀ = I |
+| D2 | **PASS** | erasure non-injective: E(0)=E(1)=0, no inverse exists |
 
 ## Verdict on FQ1 (formal statement, ceiling form)
 

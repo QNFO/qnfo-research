@@ -145,10 +145,30 @@ print(f"     G3 {'PASS' if g3 else 'FAIL'}")
 if not g3:
     FAILS.append("G3")
 
+# ---------- Part D: FQ3 seed checks (grammar vs resource asymmetry) ----------
+# D1: braid generators are invertible -- permutation matrices are orthogonal
+P_perm = perm_matrix(swap(0, 1))
+trans = [[P_perm[j][i] for j in range(6)] for i in range(6)]
+ortho = approx(mm(P_perm, trans), eye(6))
+print(f"[D1] braid generator invertible (P.P^T = I): {ortho}")
+
+# D2: erasure is not invertible -- E(0) = E(1) = 0, two preimages, no inverse
+def erase(x):
+    return 0
+
+preimages = [x for x in (0, 1) if erase(x) == 0]
+non_injective = len(preimages) == 2
+print(f"[D2] erasure E:{{0,1}}->{{0}} non-injective (E(0)=E(1)=0): {non_injective}")
+print("     -> grammar time-symmetric (D1), resource account asymmetric (D2)")
+d_ok = ortho and non_injective
+print(f"     D {'PASS' if d_ok else 'FAIL'}")
+if not d_ok:
+    FAILS.append("D")
+
 print()
 print("=== VERDICT ===")
 if not FAILS:
-    print("G1/G2/G3 all PASS.")
+    print("G1/G2/G3/D all PASS.")
     print("FQ1 formal statement (ceiling form): a finite system with free-entropy")
     print("budget dS can sustain at most floor(dS / k_B ln 2) simultaneously")
     print("maintained distinctions; under noise p and power P the steady state is")
