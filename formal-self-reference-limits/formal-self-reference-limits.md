@@ -3,8 +3,9 @@ title: "Formal Self-Reference Limits: Objectification, Anthropocentric Conventio
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-14"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21929689"
+doi: "10.5281/zenodo.21936076"
 status: "published"
+version: "v0.2-draft"
 ---
 
 ## Formal Self-Reference Limits: Objectification, Anthropocentric Conventions, and the Partial Self-Knowledge of Formal Systems
@@ -31,7 +32,7 @@ The question that motivates this paper is deceptively simple:
 
 > Why are our formal quantitative systems uncomfortable with self-reference when they are also inherently anthropocentric, from base-10 pentadactylity to length of time (heartbeat Hertz) and space? Can we not truly see ourselves?
 
-The puzzle has two premises. First, our formal systems — mathematics, logic, computation — exhibit a well-documented *discomfort* with self-reference: the liar paradox, Russell's paradox, Gödel's incompleteness theorems, Tarski's undefinability of truth, the halting problem. Second, these systems are built by embodied, self-referential agents and carry unmistakable traces of that embodiment: decimal notation derived from ten fingers [1, 2], the second historically near a resting heartbeat (~1 Hz), the meter from the Earth's meridian and the human body. The naive expectation would be that systems built by self-referential beings should be *at home* with self-reference. The observed reality is that unrestricted self-reference destabilizes them.
+The puzzle has two premises. First, our formal systems — mathematics, logic, computation — exhibit a well-documented *discomfort* with self-reference: the liar paradox, Russell's paradox, Gödel's incompleteness theorems, Tarski's undefinability of truth, the halting problem. Second, these systems are built by embodied, self-referential agents and carry unmistakable traces of that embodiment: decimal notation derived from ten fingers [2, 29], the second historically near a resting heartbeat (~1 Hz), the meter from the Earth's meridian and the human body. The naive expectation would be that systems built by self-referential beings should be *at home* with self-reference. The observed reality is that unrestricted self-reference destabilizes them.
 
 We argue that this apparent tension dissolves under a single diagnosis: **formal systems are objectifications**. They are built to be third-person, context-free, observer-independent maps. The anthropocentrism lives at the *interface* (units, notation, conventions); the self-reference limits live at the *core* (truth, provability, decidability). Confusing the two layers produces the illusion that our systems should be self-inclusive because they are human-made. They cannot be self-inclusive *because they are maps*, and a map that includes its mapmaker completely is not a usable map [3, 4].
 
@@ -57,7 +58,7 @@ The pattern across notation and units is identical. **Anthropocentric convention
 
 ### 3.1 The classical results
 
-The discomfort is real and structural. The liar sentence ("this sentence is false") has no stable truth value in classical semantics. Russell's paradox [11] showed that unrestricted comprehension collapses set theory; the hierarchy of types was the surgical response [11]. Gödel [12] showed that any sufficiently strong, consistent, recursively axiomatizable system contains true-but-unprovable sentences — the system can *encode* "I am not provable" but cannot settle it [12]. Tarski [13] showed that a formal language cannot consistently define its own truth predicate [13]. Turing [14] showed that no program can decide the halting of all programs — self-application is where the diagonalization bites [14]. The 2020s have only sharpened these results: incompleteness has been extended to stably-computable and stably-consistent formal systems, i.e., systems not even computably enumerable, motivated explicitly as models of "the mathematical output of humanity" [15, 16]; and the Second Incompleteness Theorem can be derived from Tarski's undefinability theorem *without* self-reference at all [17]. The self-reference-free derivation is particularly important for our argument: it shows the limit is not an artifact of diagonal tricks but a property of any sufficiently expressive map that tries to describe its own truth.
+The discomfort is real and structural. The liar sentence ("this sentence is false") has no stable truth value in classical semantics. Russell's paradox [11] showed that unrestricted comprehension collapses set theory; the hierarchy of types was the surgical response [11]. Gödel [12] showed that any sufficiently strong, Σ₁-sound, recursively axiomatizable system contains true-but-unprovable sentences — the system can *encode* "I am not provable" but cannot settle it [12]. (The "true but unprovable" reading requires Σ₁-soundness (equivalently ω-consistency in Gödel's original formulation); mere consistency yields undecidable but not necessarily true sentences, per Rosser's strengthening [12].) Tarski [13] showed that a formal language cannot consistently define its own truth predicate [13]. Turing [14] showed that no program can decide the halting of all programs — self-application is where the diagonalization bites [14]. The 2020s have only sharpened these results: incompleteness has been extended to stably-computable and stably-consistent formal systems, i.e., systems not even computably enumerable, motivated explicitly as models of "the mathematical output of humanity" [15, 16]; and the Second Incompleteness Theorem can be derived from Tarski's undefinability theorem *without* self-reference at all [17]. The self-reference-free derivation is particularly important for our argument: it shows the limit is not an artifact of diagonal tricks but a property of any sufficiently expressive map that tries to describe its own truth.
 
 ### 3.2 Controlled self-reference
 
@@ -93,7 +94,7 @@ Section 2 established the phenomenology; here we sharpen the principle.
 
 **Corollary (partial self-knowledge).** *We can truly see ourselves, but never totally: a complete, consistent self-model from inside is impossible; self-knowledge is real and partial, delivered through meta-levels, mirrors, and stratification — true at every level, total at none.*
 
-The corollary follows from the core claim plus the classical results. A Gödel sentence is *true* — we see it from outside the system — and *unprovable inside* — the system cannot see it from within. That is the structure of genuine but partial self-knowledge: the truth is available, the totality is not. Tarski's hierarchy is the same structure generalized: every truth predicate lives one level up, and no level contains the truth about all levels. Hofstadter's strange loops are the same structure aestheticized: the loop of self-reference is real, but its "resolution" always requires the reader outside the system [20, 22].
+The corollary follows from the core claim plus the classical results. A Gödel sentence is *true* — we see it from outside the system — and *unprovable inside* — the system cannot see it from within. Here "true" is the standard-model semantic notion: the sentence is true in the intended model of arithmetic, an external, meta-level fact that the system's own proof machinery cannot reach. That is the structure of genuine but partial self-knowledge: the truth is available, the totality is not. Tarski's hierarchy is the same structure generalized: every truth predicate lives one level up, and no level contains the truth about all levels. Hofstadter's strange loops are the same structure aestheticized: the loop of self-reference is real, but its "resolution" always requires the reader outside the system [20, 22, 30].
 
 Two independent corroborations from the QNFO corpus strengthen the corollary.
 
@@ -101,7 +102,7 @@ Two independent corroborations from the QNFO corpus strengthen the corollary.
 
 **(ii) The Bootstrap Theorem (self-referential calibration).** The *29-Schisms Synthesis* formalizes physics as a self-referential calibration problem and proves a Bootstrap Theorem: any theory that must calibrate its own measurement apparatus from within the system it describes converges to a unique self-consistent fixed point determined by the valuation structure of the agent's state space [24]. A unique fixed point of self-calibration is exactly "true but not total": the calibration closes, but it closes *to a fixed point*, not to a complete self-description.
 
-Together with the quantum-measurement observer literature (S10 inside/outside; RQM/QBism comparisons in [23]) and the intuitionistic-time anthropocentrism analysis of van der Lugt as applied in the finite-precision program [25], the corollary is consilient across logic, computation, and measurement: every attempt to draw the mapmaker into the map produces a residual outside.
+Together with the quantum-measurement observer literature (S10 inside/outside; RQM/QBism comparisons in [23]) and van der Lugt's analysis of intuitionistic anthropocentric time [31] as applied in the finite-precision program [25], the corollary is consilient across logic, computation, and measurement: every attempt to draw the mapmaker into the map produces a residual outside.
 
 ## 7. Cross-Domain Consilience
 
@@ -147,9 +148,9 @@ Neither condition is met by any known system; both are stated so that a single c
 
 **QNFO-internal anchors** (all cited and verified): Ten-Fingered Trap [2]; QUNSAI Scaffolds and Invariants [5]; Radix-Agnostic DSI Detection [6]; Silent-Radix Cryptography [7]; From Decimal Fingers to Adelic Freedom [8]; The Decryption Key [9]; Non-Anthropocentric Natural Units [10]; map-is-not-the-universe / Math is NOT the Universe [3]; A Map is Not the Universe (companion cartography discipline) [4]; Universal Computational Topos [20]; Void Is Not False [21]; Strange Loop of Being [22]; Observer Inside the Tree [23]; 29-Schisms Synthesis [24]; finite-precision/OC convergence (Gisin–Del Santo, van der Lugt application) [25]; Prime Valuation Depth (RES.005) [26]; Universal Ignorance Audit (RES.002) [27]; Knowing What We Do Not Know (RES.003) [28].
 
-**External canon:** Russell's theory of types [11]; Gödel 1931 [12]; Tarski 1936 [13]; Turing 1936 [14]; Savelyev stably-computable incompleteness [15]; Savelyev stably-consistent incompleteness [16]; Visser, Tarski-to-Gödel derivation [17]; Aczel non-well-founded sets [18]; Priest paraconsistent logic [19]; Hofstadter GEB [22]; van der Lugt intuitionistic anthropocentric time [25]; Ifrah history of numbers (base contingency) [29].
+**External canon:** Russell's theory of types [11]; Gödel 1931 [12]; Tarski 1936 [13]; Turing 1936 [14]; Savelyev stably-computable incompleteness [15]; Savelyev stably-consistent incompleteness [16]; Visser, Tarski-to-Gödel derivation [17]; Aczel non-well-founded sets [18]; Priest paraconsistent logic [19]; Hofstadter GEB [30]; van der Lugt intuitionistic anthropocentric time [31]; Ifrah history of numbers (base contingency) [29].
 
-**Novelty statement.** The fragments are classical (self-reference limits) or internal (anthropocentric conventions). The synthesis is new: the objectification thesis (P6) unifies them by locating the anthropocentrism at the convention layer and the self-reference limits at the formal core, and derives the partial-self-knowledge corollary. No external work connects convention-layer anthropocentrism to the structural self-reference limits of objectified formal systems with this corollary (evidence: OpenAlex/Crossref/Zenodo/arXiv sweeps, saved in artifacts/external-search/).
+**Novelty statement.** The fragments are classical (self-reference limits) or internal (anthropocentric conventions). The synthesis is new: the objectification thesis unifies them by locating the anthropocentrism at the convention layer and the self-reference limits at the formal core, and derives the partial-self-knowledge corollary. No external work connects convention-layer anthropocentrism to the structural self-reference limits of objectified formal systems with this corollary (evidence: OpenAlex/Crossref/Zenodo/arXiv sweeps, saved in artifacts/external-search/).
 
 ## 11. Conclusion
 
@@ -162,17 +163,17 @@ Formal systems are maps, and maps exclude their mapmakers by design. The anthrop
 [1] QNFO Research Collective. *Formal Self-Reference Limits* (seed note, 2026-08-14). Provenance artifact included in this deposit (artifacts/seed-note-2026-08-14.md).
 [2] QNFO Research. *Ten-Fingered Trap: How Our Decimal Dependence Constrains Scientific Advancement* (2025-01). QNFO release archive.
 [3] Quni-Gudzinas, R. B. *Math is NOT the Universe: A Map is Not the Universe: Understanding the Manifold, from Fractal Geometry to Deterministic Reality* (2025-09-11). DOI: 10.5281/zenodo.17099937.
-[4] QNFO Research. *Map–Territory cartography discipline* (QNFO internal governance reference, 2026).
+[4] QNFO Research. *Map–Territory cartography discipline* (QNFO internal governance reference, 2026). Resolvable at: https://github.com/QNFO/qnfo-research (PROJECT-PLAN.md §7).
 [5] Quni-Gudzinas, R. B. *Scaffolds and Invariants: An Epistemic Hygiene Audit of pi, Number Bases, and Geometric Centers* (QUNSAI). DOI: 10.5281/zenodo.21255344.
 [6] Quni-Gudzinas, R. B. *Radix-Agnostic Detection of Discrete Scale Invariance: A Certified Three-Stage Protocol and a Null Result from Planck 2018* (2026). DOI: 10.5281/zenodo.21902891.
 [7] Quni-Gudzinas, R. B. *Silent-Radix Cryptography: Exploiting the Base Ambiguity of Positional Notation as a Cryptographic Primitive* (2026). DOI: 10.5281/zenodo.21046734.
 [8] Quni-Gudzinas, R. B. *From Decimal Fingers to Adelic Freedom: A Strategic Roadmap for Observer-Independent Physics* (2026-07). DOI: 10.5281/zenodo.21428829.
 [9] Quni-Gudzinas, R. B. *The Decryption Key: Cognitive Architecture as the Hidden Radix of Physical Measurement* (2026-07). DOI: 10.5281/zenodo.21428825.
-[10] Quni, R. B. *Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem* (2026-07). DOI: 10.5281/zenodo.21480756.
+[10] Quni-Gudzinas, R. B. *Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem* (2026-07). DOI: 10.5281/zenodo.21480756.
 [11] Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3), 222–262.
 [12] Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. *Monatshefte für Mathematik und Physik*, 38(1), 173–198.
 [13] Tarski, A. (1936). Der Wahrheitsbegriff in den formalisierten Sprachen. *Studia Philosophica*, 1, 261–405.
-[14] Turing, A. M. (1936–37). On computable numbers, with an application to the Entscheidungsproblem. *Proceedings of the London Mathematical Society*, s2-42(1), 230–265.
+[14] Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. *Proceedings of the London Mathematical Society*, s2-42(1), 230–265.
 [15] Savelyev, Y. (2022). Incompleteness for stably computable formal systems. arXiv:2208.04752.
 [16] Savelyev, Y. (2020). Incompleteness for stably consistent formal systems. arXiv:2001.07592.
 [17] Visser, A. (2018). From Tarski to Gödel. Or, how to derive the Second Incompleteness Theorem from the Undefinability of Truth without self-reference. arXiv:1803.03937.
@@ -180,7 +181,7 @@ Formal systems are maps, and maps exclude their mapmakers by design. The anthrop
 [19] Priest, G. (1979). The logic of paradox. *Journal of Philosophical Logic*, 8(1), 219–241.
 [20] Quni-Gudzinas, R. B. *The Universal Computational Topos and Strange Loops: A Unified Framework for Computational Self-Reference* (2025-11-03). DOI: 10.5281/zenodo.17435331.
 [21] Quni-Gudzinas, R. B. *The Void Is Not False: Recovering the Unmarked State in Logic from the Calculus of Indications* (2026). DOI: 10.5281/zenodo.21916970.
-[22] Quni, R. B. *Strange Loop of Being* (2025-05). DOI: 10.5281/zenodo.15580769. (Also: Hofstadter, D. R. (1979). *Gödel, Escher, Bach*. Basic Books.)
+[22] Quni-Gudzinas, R. B. *Strange Loop of Being* (2025-05). DOI: 10.5281/zenodo.15580769.
 [23] QNFO Research Collective. *The Observer Inside the Tree: Can Self-Location in an Ultrametric Structure Resolve the Inside/Outside Schism?* (2026-07-21). DOI: 10.5281/zenodo.21473899.
 [24] QNFO Research. *The Hidden Fractures: Self-Referential Calibration and the 29 Schisms of Physics* (2026). DOI: 10.5281/zenodo.21458373.
 [25] Quni-Gudzinas, R. B. *Finite Specification, Ontological Indeterminism: The Gisin–Del Santo Program Converges with Autaxys Ontological Closure* (2026-07-28). DOI: 10.5281/zenodo.21647362. (Anchoring van der Lugt (2021) on intuitionistic anthropocentric time.)
@@ -188,6 +189,8 @@ Formal systems are maps, and maps exclude their mapmakers by design. The anthrop
 [27] Quni-Gudzinas, R. B. *The Universal Ignorance Audit: A Fifteen-Question Method* (v0.3). DOI: 10.5281/zenodo.21901984.
 [28] Quni-Gudzinas, R. B. *Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-Assisted Research Pipeline* (v0.3). DOI: 10.5281/zenodo.21901983.
 [29] Ifrah, G. (2000). *The Universal History of Numbers: From Prehistory to the Invention of the Computer*. New York: Wiley.
+[30] Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. New York: Basic Books.
+[31] van der Lugt, T. (2021). *Indeterministic finite-precision physics and intuitionistic mathematics*. Bachelor's thesis, Radboud University Nijmegen. arXiv:2108.05735.
 
 ---
 
