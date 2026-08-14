@@ -2,7 +2,7 @@
 
 **Project:** Implications for Computing and Quantum Error Correction
 **Slug:** prime-valuation-qec-implications
-**DOI:** 10.5281/zenodo.21922813 (v0.2)
+**DOI:** 10.5281/zenodo.21923000 (v0.2)
 **Maintained:** 2026-08-13 — living document (v2.64 protocol)
 
 ---
@@ -13,8 +13,8 @@
 |:---|:---------|:-------|:------------|:-----------------|
 | FQ1 | Does there exist a non-trivial valuation invariant of stabilizer codes (≠ v₂(dim H), v₂(dim H_L)) with classification or predictive power? | OPEN | Resolve NTOF under-specification; re-implement Algorithm 4.4; fresh 50/family generation | YES (REG-RES006-001) |
 | FQ2 | Is the QEC overhead (physical:logical qubits) bounded below by a valuation-structure function, and how does it compare to the quantum Singleton bound? | **ANSWERED (DISCONFIRMED)** 2026-08-14 — valuation data is (n,k,q)-only; d inexpressible; bound strictly weaker than Singleton (artifacts/fq2-overhead-bound.md) | CLOSED — see FQ2 outcome doc | YES |
-| FQ3 | Is there a valuation-based complexity characterization of reversible/Clifford computation that differs from (or tightens) the standard one? | PROMISSORY | Define the characterization; test on concrete tasks | YES |
-| FQ4 | Does the no-cloning re-expression (non-cloneable redundancy) yield a checkable consequence for QEC limits beyond the standard no-cloning statement? | RISK-HIGH | Identify one consequence; test | YES |
+| FQ3 | Is there a valuation-based complexity characterization of reversible/Clifford computation that differs from (or tightens) the standard one? | **ANSWERED (DISCONFIRMED)** 2026-08-14 — candidate identities (v_2\|Cl(n)\|=2n+1, v_2((2^n)!)=2^n−1) genuine but complexity-vacuous; depth/size/rank are weights not valuations (artifacts/fq3-complexity-characterization.md) | CLOSED — see FQ3 outcome doc | YES |
+| FQ4 | Does the no-cloning re-expression (non-cloneable redundancy) yield a checkable consequence for QEC limits beyond the standard no-cloning statement? | **ANSWERED (DISCONFIRMED)** 2026-08-14 — re-expression relabels Abramsky's categorical no-cloning; no NEW QEC consequence beyond standard bounds (artifacts/fq4-no-cloning-consequence.md) | CLOSED — see FQ4 outcome doc | YES |
 
 ## 2. FALSIFIABLE PREDICTIONS
 
@@ -29,8 +29,8 @@
 
 - **RQ1 (FQ1):** disconfirmed if no non-trivial valuation invariant is found after the re-implementation and fresh generation.
 - **RQ2 (FQ2):** disconfirmed if the overhead bound is not tighter than or equivalent to the quantum Singleton bound. **DISCONFIRMED 2026-08-14** — valuation data (n,k,q)-only, d inexpressible (C3), bound strictly weaker; see artifacts/fq2-overhead-bound.md.
-- **RQ3 (FQ3):** disconfirmed if no valuation-based complexity characterization is produced.
-- **RQ4 (FQ4):** disconfirmed if the no-cloning re-expression yields no new checkable consequence.
+- **RQ3 (FQ3):** disconfirmed if no valuation-based complexity characterization is produced. **DISCONFIRMED 2026-08-14** — candidates complexity-vacuous (Clifford/reversible group-order valuations); see artifacts/fq3-complexity-characterization.md.
+- **RQ4 (FQ4):** disconfirmed if the no-cloning re-expression yields no new checkable consequence. **DISCONFIRMED 2026-08-14** — no new consequence beyond standard no-cloning (repetition impossible, entanglement required); see artifacts/fq4-no-cloning-consequence.md.
 - **RQ5 (C8):** disconfirmed if independent reproduction fails to exceed baseline by pre-registered margin.
 
 ## 4. PRE-REGISTRATION SCAFFOLDS
@@ -49,6 +49,8 @@
 | 2026-08-13 | C2/C3 relabeling finding | strong (definitional) | CONFIRMED |
 | 2026-08-13 | P2 Mahler separation | medium | NOT REPRODUCED at n ≤ 18 |
 | 2026-08-14 | P4 valuation-overhead bound | strong (derivation) | DISCONFIRMED (strictly weaker than Singleton; obstruction d) |
+| 2026-08-14 | FQ3 complexity characterization | strong (derivation) | DISCONFIRMED (identities genuine but complexity-vacuous) |
+| 2026-08-14 | FQ4 no-cloning consequence | strong (analysis) | DISCONFIRMED (relabeling of Abramsky + standard QEC bounds) |
 
 ## 6. NEXT ACTIONS (Prioritized)
 
@@ -63,4 +65,7 @@
 ## 7. SESSION LOG + MAINTENANCE PROTOCOL
 
 - 2026-08-13: Registry created (v0.2 publication cycle). P1/P2 executed by concurrent pipeline; P3 pending.
+- 2026-08-14: FQ2 DISCONFIRMED (valuation-based overhead bound strictly weaker than Singleton; obstruction d — artifacts/fq2-overhead-bound.md).
+- 2026-08-14: FQ3 DISCONFIRMED (complexity characterization candidates complexity-vacuous — artifacts/fq3-complexity-characterization.md).
+- 2026-08-14: FQ4 DISCONFIRMED (no-cloning re-expression relabels Abramsky; no new QEC consequence — artifacts/fq4-no-cloning-consequence.md).
 - **Maintenance:** update this file on every reproduction attempt, prediction outcome, or new FQ; bump a version counter; commit to the project branch. Do NOT let it become a static artifact.
