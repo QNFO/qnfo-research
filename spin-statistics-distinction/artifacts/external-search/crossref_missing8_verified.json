@@ -1,0 +1,47 @@
+{
+  "pauli_1940": {
+    "doi": "10.1103/PhysRev.58.716",
+    "authors": "Pauli, W.",
+    "title": "The Connection Between Spin and Statistics",
+    "year": 1940,
+    "journal": "Physical Review",
+    "volume": "58",
+    "pages": "716-722"
+  },
+  "leinaas_myrheim_1977": {
+    "doi": "10.1007/BF02727953",
+    "authors": "Leinaas, J. M. and Myrheim, J.",
+    "title": "On the theory of identical particles",
+    "year": 1977,
+    "journal": "Il Nuovo Cimento B Series 11",
+    "volume": "37",
+    "pages": "1-23"
+  },
+  "wilczek_1982": {
+    "doi": "10.1103/PhysRevLett.49.957",
+    "authors": "Wilczek, Frank",
+    "title": "Quantum Mechanics of Fractional-Spin Particles",
+    "year": 1982,
+    "journal": "Physical Review Letters",
+    "volume": "49",
+    "pages": "957-959"
+  },
+  "joyal_street_1993": {
+    "doi": "10.1006/aima.1993.1055",
+    "authors": "Joyal, A. and Street, R.",
+    "title": "Braided Tensor Categories",
+    "year": 1993,
+    "journal": "Advances in Mathematics",
+    "volume": "102",
+    "pages": "20-78"
+  },
+  "kitaev_2006": {
+    "doi": "10.1016/j.aop.2005.10.005",
+    "authors": "Kitaev, Alexei",
+    "title": "Anyons in an exactly solved model and beyond",
+    "year": 2006,
+    "journal": "Annals of Physics",
+    "volume": "321",
+    "pages": "2-111"
+  }
+}

@@ -36,3 +36,7 @@
 - queries sent: 4 Crossref batches + 3 arXiv + 2 Zenodo + 1 EuropePMC = 10
 - sources received: 12 Crossref records + 40 arXiv results + 20 Zenodo hits + 10 EuropePMC hits = 82
 - sources cited: 41 (all verified) — cited <= received: PASS
+
+
+## v1.1 amendment (2026-08-14)
+Added 8 entries that the manuscript's References section cites but the original .bib omitted: Pauli 1940 (10.1103/PhysRev.58.716), Streater-Wightman 1964, Leinaas-Myrheim 1977 (10.1007/BF02727953), Wilczek 1982 (10.1103/PhysRevLett.49.957), Joyal-Street 1993 (10.1006/aima.1993.1055), Kitaev 2006 (10.1016/j.aop.2005.10.005), Bakalov-Kirillov 2001, Spencer-Brown 1969. All 5 DOI-bearing entries Crossref-verified (evidence: artifacts/external-search/crossref_missing8_verified.json). Total entries now 49; all 24 manuscript-cited works are covered. Findings source: post-publication adversarial review (REDTEAM-QUEUE-STALL-1 late completion).

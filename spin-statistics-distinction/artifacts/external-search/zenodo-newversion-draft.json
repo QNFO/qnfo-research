@@ -1,0 +1,347 @@
+{
+  "created": "2026-08-14T20:30:49.060657+00:00",
+  "modified": "2026-08-14T20:30:49.381130+00:00",
+  "id": 21939493,
+  "conceptrecid": "21938970",
+  "conceptdoi": "10.5281/zenodo.21938970",
+  "metadata": {
+    "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
+    "publication_date": "2026-08-14",
+    "description": "<h2>Background</h2><p>The textbook dichotomy between bosons and fermions is commonly presented as a primitive classification of nature. This paper argues that the dichotomy is a derived, dimension-dependent shadow of a single structural relation: the exchange phase of identical particles equals their topological spin, R = e^{2\u03c0is}. The relation holds across relativistic quantum field theory, topological field theory, and condensed-matter anyon systems; dimension enters only by quantizing the allowed values of the spin parameter.</p><h2>Methodology</h2><p>The invariant is stated in the language of ribbon braided tensor categories (twist equals braiding trace). A distinction-based calculus - whose primitive is the act of drawing a boundary - is then examined: a recent monograph in this tradition silently adopts the symmetric algebra for its exponential modality, corresponding to bosonic statistics, without deriving that choice from the primitive. The paper formalizes the required construction (two modal exponentials, symmetric and exterior; the braiding of two marks in a compact closed category; the ribbon condition) and states falsifiability conditions F1 and F2 under which the derivation program succeeds or fails.</p><h2>File Inventory</h2><p>Manuscript (markdown, HTML, PDF); PROJECT-PLAN.md; README.md; references.bib; citation audit; due-diligence report with full corpus sweep and external verification evidence (arXiv, OpenAlex, Crossref, Zenodo, Europe PMC); KIF-29 consilience gate; KIF-60 Bayesian evidential weight gate; BP-1..BP-10 publication gates; publication language gate report; T1-T3 derivation notebooks; deep-research summary with calibration register.</p><h2>Usage Notes</h2><p>All external claims are documented in the evidence files under artifacts/external-search/. The derivation program is pre-registered with falsifiability conditions and is not yet executed; the invariant formulation is labeled [RETRODICTION - not evidence] and the derivation [NOT YET EVIDENCE] per KIF-60 discipline.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Quni-Gudzinas, Rowan Brad",
+        "affiliation": "QNFO",
+        "orcid": "0009-0002-4317-5604"
+      }
+    ],
+    "keywords": [
+      "spin-statistics theorem",
+      "exchange statistics",
+      "topological spin",
+      "braided tensor categories",
+      "anyons",
+      "laws of form"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/spin-statistics-distinction",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "license": "cc-by-4.0",
+    "imprint_publisher": "Zenodo",
+    "communities": [
+      {
+        "identifier": "qnfo"
+      }
+    ],
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.21939493",
+      "recid": 21939493
+    }
+  },
+  "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
+  "links": {
+    "self": "https://zenodo.org/api/deposit/depositions/21939493",
+    "html": "https://zenodo.org/deposit/21939493",
+    "badge": "https://zenodo.org/badge/doi/.svg",
+    "files": "https://zenodo.org/api/deposit/depositions/21939493/files",
+    "bucket": "https://zenodo.org/api/files/893e06f6-b836-4a27-b37e-b2aef0ae1c7b",
+    "thumb250": "https://zenodo.org/record/21939493/thumb250",
+    "thumbs": {
+      "10": "https://zenodo.org/record/21939493/thumb10",
+      "50": "https://zenodo.org/record/21939493/thumb50",
+      "100": "https://zenodo.org/record/21939493/thumb100",
+      "250": "https://zenodo.org/record/21939493/thumb250",
+      "750": "https://zenodo.org/record/21939493/thumb750",
+      "1200": "https://zenodo.org/record/21939493/thumb1200"
+    },
+    "latest_draft": "https://zenodo.org/api/deposit/depositions/21939493",
+    "latest_draft_html": "https://zenodo.org/deposit/21939493",
+    "publish": "https://zenodo.org/api/deposit/depositions/21939493/actions/publish",
+    "edit": "https://zenodo.org/api/deposit/depositions/21939493/actions/edit",
+    "discard": "https://zenodo.org/api/deposit/depositions/21939493/actions/discard",
+    "newversion": "https://zenodo.org/api/deposit/depositions/21939493/actions/newversion"
+  },
+  "record_id": 21939493,
+  "owner": 1328013,
+  "files": [
+    {
+      "id": "309cf360-9f35-4b8d-84ab-6a3930fd6073",
+      "filename": "artifacts_due-diligence.md",
+      "filesize": 12086,
+      "checksum": "573ea58e32a833ee7fdddaecaeefcc1d",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/309cf360-9f35-4b8d-84ab-6a3930fd6073",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_due-diligence.md/content"
+      }
+    },
+    {
+      "id": "6949592f-efa7-43a5-a789-dd7bef66bfdc",
+      "filename": "artifacts_external-search_zenodo-deposit-create.json",
+      "filesize": 1271,
+      "checksum": "528e74ce01c8c4c30108aaa704ab530b",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/6949592f-efa7-43a5-a789-dd7bef66bfdc",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_zenodo-deposit-create.json/content"
+      }
+    },
+    {
+      "id": "992e8501-eea7-4031-97fc-b21dcab1c6b2",
+      "filename": "spin-statistics-distinction.pdf",
+      "filesize": 290365,
+      "checksum": "f79af785622786e9e8485e18a7015955",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/992e8501-eea7-4031-97fc-b21dcab1c6b2",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/spin-statistics-distinction.pdf/content"
+      }
+    },
+    {
+      "id": "315c2c62-ccca-4a4e-9ffd-84fa8d609c1b",
+      "filename": "artifacts_citation-audit.md",
+      "filesize": 2720,
+      "checksum": "ae4c97366b177377075aa14ab11e41b2",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/315c2c62-ccca-4a4e-9ffd-84fa8d609c1b",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_citation-audit.md/content"
+      }
+    },
+    {
+      "id": "04c40d83-f195-40d3-9572-3674042d84b1",
+      "filename": "artifacts_external-search_zenodo_spin-statistics.json",
+      "filesize": 71749,
+      "checksum": "c9b8003a9c5643bc027a421f4bb48bf4",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/04c40d83-f195-40d3-9572-3674042d84b1",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_zenodo_spin-statistics.json/content"
+      }
+    },
+    {
+      "id": "5e96c45e-bd38-4cb7-b421-23a86ce41470",
+      "filename": "artifacts_external-search_crossref_author_verified.json",
+      "filesize": 4024,
+      "checksum": "f2cbb3930ba2506e0da5a23b6bf3e60d",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/5e96c45e-bd38-4cb7-b421-23a86ce41470",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_crossref_author_verified.json/content"
+      }
+    },
+    {
+      "id": "4ac53387-0c9c-4363-a9f1-9dc9e7697c77",
+      "filename": "docs_deep-research.md",
+      "filesize": 2715,
+      "checksum": "c774263ffb1f53ad7d4beed86f9b0a3e",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/4ac53387-0c9c-4363-a9f1-9dc9e7697c77",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/docs_deep-research.md/content"
+      }
+    },
+    {
+      "id": "d345d4ed-58fd-47d7-8bbb-a8ad1867e775",
+      "filename": "artifacts_external-search_crossref_anyons.json",
+      "filesize": 11683,
+      "checksum": "b32ee9a4fa0b5a76c6320662b01fea3d",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/d345d4ed-58fd-47d7-8bbb-a8ad1867e775",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_crossref_anyons.json/content"
+      }
+    },
+    {
+      "id": "7876dc60-d224-4e59-8f69-b802b45ab346",
+      "filename": "artifacts_external-search_openalex_spin-statistics.json",
+      "filesize": 141588,
+      "checksum": "856002a5d2a32c151272fd33bae46d62",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/7876dc60-d224-4e59-8f69-b802b45ab346",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_openalex_spin-statistics.json/content"
+      }
+    },
+    {
+      "id": "998191d6-72db-48fb-a111-fab5d7296f81",
+      "filename": "PROJECT-PLAN.md",
+      "filesize": 6514,
+      "checksum": "baf8c96e159ea6351288b81708ade5e6",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/998191d6-72db-48fb-a111-fab5d7296f81",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/PROJECT-PLAN.md/content"
+      }
+    },
+    {
+      "id": "b426bbfa-36f7-4d46-a192-3a56e7508735",
+      "filename": "artifacts_external-search_europepmc_spin-statistics.json",
+      "filesize": 8134,
+      "checksum": "83570433f5b4b6c5af5052a354c53f9e",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/b426bbfa-36f7-4d46-a192-3a56e7508735",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_europepmc_spin-statistics.json/content"
+      }
+    },
+    {
+      "id": "2183c4a9-144f-40a2-b838-020643e6cb18",
+      "filename": "artifacts_external-search_zenodo_anyon-braiding.json",
+      "filesize": 1936631,
+      "checksum": "7c6fd7978ddde6c978ed633d981cd1a0",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/2183c4a9-144f-40a2-b838-020643e6cb18",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_zenodo_anyon-braiding.json/content"
+      }
+    },
+    {
+      "id": "a18ef115-17dc-4606-9f81-48d83d158b7e",
+      "filename": "README.md",
+      "filesize": 613,
+      "checksum": "35d1ccf7dca48c57f693a9d8fdce0508",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/a18ef115-17dc-4606-9f81-48d83d158b7e",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/README.md/content"
+      }
+    },
+    {
+      "id": "114b998d-c14a-4c1f-afc8-f8f8fc59d576",
+      "filename": "artifacts_notebooks_t2.md",
+      "filesize": 4191,
+      "checksum": "58bd25e9042e59998f1c6d53c05bff38",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/114b998d-c14a-4c1f-afc8-f8f8fc59d576",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_notebooks_t2.md/content"
+      }
+    },
+    {
+      "id": "06aa1411-655b-46f9-95f5-543f861b72d3",
+      "filename": "artifacts_bayesian-evidential-weight.md",
+      "filesize": 4474,
+      "checksum": "07c3a133b9886ee5bd72977b6843eb0a",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/06aa1411-655b-46f9-95f5-543f861b72d3",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_bayesian-evidential-weight.md/content"
+      }
+    },
+    {
+      "id": "ecc722f5-5d21-41db-a365-02c3a31eba86",
+      "filename": "artifacts_bp-gates.md",
+      "filesize": 2424,
+      "checksum": "e1f1af4ca1f673788939709f74fad72a",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/ecc722f5-5d21-41db-a365-02c3a31eba86",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_bp-gates.md/content"
+      }
+    },
+    {
+      "id": "5ae0c3c4-3930-488d-8bf2-cbd5d28a8ea2",
+      "filename": "artifacts_consilience-gate.md",
+      "filesize": 5875,
+      "checksum": "2c08dffad46cec220538c5da97052fac",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/5ae0c3c4-3930-488d-8bf2-cbd5d28a8ea2",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_consilience-gate.md/content"
+      }
+    },
+    {
+      "id": "b4ed95f7-d41a-4afb-aad5-aed6e7a1c527",
+      "filename": "artifacts_notebooks_t3.md",
+      "filesize": 2622,
+      "checksum": "ccb22604ee5e0dcfdae5f18f469b3770",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/b4ed95f7-d41a-4afb-aad5-aed6e7a1c527",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_notebooks_t3.md/content"
+      }
+    },
+    {
+      "id": "112431ab-f11c-490b-9710-2b97f613ad6d",
+      "filename": "artifacts_publication-language-gate.md",
+      "filesize": 2052,
+      "checksum": "3b2240ca1412e44634edfd6be2859045",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/112431ab-f11c-490b-9710-2b97f613ad6d",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_publication-language-gate.md/content"
+      }
+    },
+    {
+      "id": "e7d4c45f-d181-462a-9340-81c4d0e5b994",
+      "filename": "artifacts_external-search_arxiv_spin-statistics.json",
+      "filesize": 3176,
+      "checksum": "0c2501b7b9831995fc9c022542de723f",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/e7d4c45f-d181-462a-9340-81c4d0e5b994",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_arxiv_spin-statistics.json/content"
+      }
+    },
+    {
+      "id": "3a977a1b-1a26-468a-b54c-84cc30851c76",
+      "filename": "spin-statistics-distinction.html",
+      "filesize": 2301388,
+      "checksum": "4c9f380160e02e5903819979f880e356",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/3a977a1b-1a26-468a-b54c-84cc30851c76",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/spin-statistics-distinction.html/content"
+      }
+    },
+    {
+      "id": "170d7b53-efa7-4dbc-b711-c0280edc3d7d",
+      "filename": "artifacts_external-search_crossref_spin-statistics.json",
+      "filesize": 21876,
+      "checksum": "54e8ad5bb4042de9c4dd3b261a8a9497",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/170d7b53-efa7-4dbc-b711-c0280edc3d7d",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_crossref_spin-statistics.json/content"
+      }
+    },
+    {
+      "id": "6d3c523a-81f4-4d67-830d-807bffaded2f",
+      "filename": "artifacts_external-search_d1_living-paper_sweep.json",
+      "filesize": 4280,
+      "checksum": "ac8272ab7e2d836282a3d043ed2d5470",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/6d3c523a-81f4-4d67-830d-807bffaded2f",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_d1_living-paper_sweep.json/content"
+      }
+    },
+    {
+      "id": "8bd2eb26-b6d0-4e63-b305-8e954a4039f9",
+      "filename": "artifacts_external-search_openalex_braided-spinstatistics.json",
+      "filesize": 177253,
+      "checksum": "cd6ad926652f371a34cd7d2b97e7fdec",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/8bd2eb26-b6d0-4e63-b305-8e954a4039f9",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_external-search_openalex_braided-spinstatistics.json/content"
+      }
+    },
+    {
+      "id": "94f7169b-b7d2-4494-b0af-3da208282e76",
+      "filename": "references.bib",
+      "filesize": 10374,
+      "checksum": "2003cd3e43579325a728c66eb14d3c6c",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/94f7169b-b7d2-4494-b0af-3da208282e76",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/references.bib/content"
+      }
+    },
+    {
+      "id": "ea176145-0458-4d48-9876-0d3e258137f5",
+      "filename": "artifacts_notebooks_t1.md",
+      "filesize": 4448,
+      "checksum": "d26bf8ac5beb8f295d9abbd12fdeaf52",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/ea176145-0458-4d48-9876-0d3e258137f5",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/artifacts_notebooks_t1.md/content"
+      }
+    },
+    {
+      "id": "3f26f870-6bae-4d4f-89b9-15f772e899e7",
+      "filename": "spin-statistics-distinction.md",
+      "filesize": 18043,
+      "checksum": "f49e2cf0654a089a7c109ee7fb202539",
+      "links": {
+        "self": "https://zenodo.org/api/deposit/depositions/21939493/files/3f26f870-6bae-4d4f-89b9-15f772e899e7",
+        "download": "https://zenodo.org/api/records/21939493/draft/files/spin-statistics-distinction.md/content"
+      }
+    }
+  ],
+  "state": "unsubmitted",
+  "submitted": false
+}
