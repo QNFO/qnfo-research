@@ -85,3 +85,30 @@ occurrences in `renderPaperHTML` are correct (JS renders them as real closers).
 - K-2 (audit-the-auditor): P8 gate 6 must validate JSON-LD with `json.loads`, not string
   presence — applied in the P8 v1.1 audit and in this runbook's verify step.
 - The Zenodo artifact itself was NEVER affected (deposit .md/.html/.pdf clean).
+
+
+---
+
+## UPDATE (2026-08-14 17:xx) — DEPLOYED + VERIFIED LIVE
+
+**Status: BLOCKED → RESOLVED.** The canonical deploy config WAS found at
+`C:\Users\LENOVO\.deepchat\gateway-deploy\` (wrangler.toml name=qnfo-gateway
+with DB=qnfo-graph, LIVING_PAPER=living-paper, QNFO_BUCKET=qnfo, AI bindings).
+
+Deployment executed same-day:
+1. Applied the identical one-line fix to the deployed bundle
+   (`gateway-deploy/qnfo-gateway.js` line 384: `"<\\/script>"` → `"</script>"`).
+   Backup: `qnfo-gateway.js.bak-jsonld-fix`.
+2. `npx wrangler deploy` (cwd=gateway-deploy, CLOUDFLARE_API_TOKEN from tokens dir):
+   - Uploaded qnfo-gateway (60.41 KiB), triggers deployed
+   - **Version ID 84e86fe4-ce44-48b2-8c40-4d9aee741855**
+3. Live verification (3 pages, after CDN propagation):
+   - https://papers.qnfo.org/papers/formal-self-reference-limits → json.loads VALID
+   - https://papers.qnfo.org/papers/prime-valuation-depth → json.loads VALID
+   - https://papers.qnfo.org/papers/universal-computational-topos → json.loads VALID
+   (attempt 1 hit CDN cache; attempt 2 all valid)
+
+**K-1 (HARD F1) FULLY CLOSED at the serving layer.** The site-wide invalid
+ScholarlyArticle JSON-LD defect is fixed in production. The source-level fix
+remains on qwav-platform branch `fix/gateway-jsonld-closing-tag` (64b9847);
+the deployed bundle now matches it semantically.
