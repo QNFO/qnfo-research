@@ -3,7 +3,7 @@ title: "Invariant Structural Value: Fundamental Constants and Formulas as Invari
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-14"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21929479"
+doi: "10.5281/zenodo.21929902"
 status: "published"
 abstract: "We develop the thesis that the fundamental constants and formulas of physics encode invariant relations rather than unit-dependent magnitudes. Measurable physics is characterized as the invariant quotient of a larger non-measurable mathematical structure modulo redundancy groups: units, coordinates, gauge, basis, and scale. The exponential constant e and the circle constant pi are shown to be fixed points of two canonical self-referential operations on a primitive mark-and-distinction: e of self-application and pi of self-closure. The Euler identity is the joint fixed point of these operations. Every claim carries an explicit disconfirmation condition."
 ---
@@ -56,7 +56,7 @@ reading but a quantized invariant of a bundle.
 
 This reframing makes precise what the decimal values obscure: the physical
 content is the relation, and the magnitude in any unit system is a projection
-of that relation onto a coordinate system. [MAP — context framing]
+of that relation onto a coordinate system.
 
 ## Quantum Mechanics as Invariant Structure
 
@@ -113,7 +113,7 @@ $$ \mathrm{Physical\ observables} = \mathrm{invariants\ of\ a\ larger\ mathemati
 
 The imaginary, non-measurable mathematics is the coordinate system in which
 physical invariants become computable; measurement is the extraction of the
-invariant after all arbitrary choices are removed. [MAP — context framing]
+invariant after all arbitrary choices are removed.
 
 ## Self-Adjointness and Self-Reference: e and pi from Mark and Distinction
 
@@ -228,7 +228,7 @@ identity $e^{i\pi} + 1 = 0$ re-states the original mark pair $0,1$.
 **Constructive verification.** Each step above is an exhibited equation with a
 unique solution; no numerical value is assumed. Independent recomputation of
 the fixed-point values $e$, $\pi$, and the identity $e^{i\pi} + 1 = 0$ is
-recorded in the fit-verify artifact (BP-1/BP-6/BP-10). [TERRITORY — the
+recorded in the fit-verify artifact. [TERRITORY — the
 derivation is disconfirmed if either constant can be shown to require an
 additional primitive not derivable from distinction and self-reference, or if a
 self-referential equation is exhibited whose fixed point is a constant other
@@ -258,7 +258,7 @@ theoretical equivalence, relational quantum mechanics, and the gauge-theoretic
 treatment of redundancy — are graded with the same kill-criteria as the present
 framework. The Standard Model's measured parameters and the underdetermination
 arguments against structural realism are audited with identical rigor, not
-assumed superior. [KIF-18 discipline]
+assumed superior.
 
 ## Conclusion
 
