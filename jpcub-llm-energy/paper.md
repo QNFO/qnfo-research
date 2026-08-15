@@ -25,10 +25,14 @@ abstract: >
   be verified, and agentic systems execute graphs of sub-queries whose total
   token budget dwarfs a single inference. This paper extends J/S to stochastic
   and agentic inference. We define the closed-form stochastic correction
-  $J/S_{\tau}(n) = n\,E_{q}\,/\,(1-(1-p_{q}(\tau))^{n})$, prove that it is
-  U-shaped in the sampling regime $n$ (so the efficient operating point is a
-  finite $n^{*}$), and show that the J/S of agentic tasks must charge the full
-  orchestration graph, including failed attempts. Using published measurement
+  $J/S_{\tau}(n) = n\,E_{q}\,/\,(1-(1-p_{q}(\tau))^{n})$, prove that — at
+  fixed per-query energy — it is monotonically increasing in the sampling
+  regime $n$ (so single-shot sampling is the joules-per-solution-efficient
+  operating point, and sampling buys accuracy at strictly increasing energy
+  per correct solution), show that interior minima arise only through
+  batching efficiency, and show that the J/S of agentic tasks must charge the
+  full orchestration graph, including failed attempts. Using published
+  measurement
   data (TokenPowerBench; Where Do the Joules Go?), we derive order-of-magnitude
   task-stratified estimates and compare them to the human brain baseline
   ($\approx 20$ W resting brain power). Result: on cheap single-shot tasks a
@@ -89,11 +93,13 @@ the expected energy per correct solution when queries are repeated until success
 
 $$J/S_{\tau}(n) = \frac{n\,E_{q}}{1 - (1 - p_{q}(\tau))^{n}}$$
 
-**Proposition 1 (U-shape).** For fixed $E_{q}$ and $0 < p_{q} < 1$, $J/S_{\tau}(n)$ is flat at $E_{q}/p_{q}$ as $n \to 0^{+}$, attains a finite minimum at $n^{*} \approx \ln(1/p_{q})$ for small $p_{q}$, and grows linearly as $n \to \infty$.
+**Proposition 1 (monotonicity).** For fixed per-query energy $E_{q}$ and $0 < p_{q} < 1$, the function $J/S_{\tau}(n)$ is **strictly increasing** in $n$ for all $n \geq 1$, with $J/S_{\tau}(1) = E_{q}/p_{q}(\tau)$ and $J/S_{\tau}(n) \sim n E_{q}$ as $n \to \infty$. Independent sampling never reduces the expected energy per correct solution; the joules-per-solution-efficient operating point is the single query.
 
-*Proof sketch.* The acceptance probability $P(n) = 1-(1-p)^{n}$ satisfies $P(n) \approx np$ for small $n$, so $J/S \to E_{q}/p$; $P(n) \to 1$ and $J/S \sim nE_{q}$ as $n \to \infty$; $J/S(n)$ is continuous and strictly convex in the relevant regime, so the minimum exists and its asymptotic location follows from setting $n(1-p)^{n}$ at its maximum, $n^{*} = \ln(1/p)/\ln(1/(1-p)) \approx \ln(1/p)$ for small $p$. $\square$
+*Proof.* With $q = 1-p$, write $f(n) = n/(1-q^{n})$. Then $f'(n) = (1 - q^{n} + n q^{n} \ln q)/(1-q^{n})^{2}$. Since $\ln q < 0$, the numerator equals $1 - e^{u}(1-u)$ with $u = n\ln q < 0$; and $e^{u}(1-u) < 1$ because $1-u < e^{-u}$. Hence $f'(n) > 0$ for all $n>0$, and $f(n) \to 1/p$ as $n \to 0^{+}$ (Bernoulli), so $J/S_{\tau}(n) \geq E_{q}/p_{q}(\tau)$ with equality only in the single-shot limit. $\square$
 
-The U-shape is the paper's central formal point: **the honest cost of a stochastic solver is minimized at a finite sampling regime, and any claim about LLM energy efficiency that omits the sampling regime is incomplete** (anti-gaming A1).
+**Proposition 2 (batching restores an interior minimum).** If $n$ samples are served with batching efficiency $\eta(n) \geq 1$ (measured energy per token falls 3–5$\times$ as batch size grows [@chung2026where]), so that $E(n) = n E_{q}/\eta(n)$, then $J/S_{\tau}(n) = n E_{q}/(\eta(n)(1-(1-p_{q})^{n}))$ can attain an interior minimum at finite $n^{*}$ whenever early batching gains outpace the saturating acceptance term. The U-shape, when observed, is a *systems* property (batching), not an intrinsic property of stochastic inference.
+
+**Corollary (sampling is an accuracy buy).** Self-consistency, best-of-$n$, and majority voting purchase accuracy at strictly increasing (or, under batching, non-decreasing) joules per correct solution. Any claim about LLM energy efficiency that omits the sampling regime $(n, p_{q})$ is incomplete (anti-gaming A1).
 
 **Definition 3 (majority vote).** If the verifier accepts the majority answer over $n$ samples, $P_{\mathrm{correct}}(n) = \Pr[\mathrm{Bin}(n,p) > n/2]$ and $J/S_{\tau}(n) = nE_{q}/P_{\mathrm{correct}}(n)$.
 
@@ -103,7 +109,7 @@ $$J/S_{\tau_A} = \frac{E_{\mathrm{attempt}}}{p_G}$$
 
 Failed attempts are charged to the solution — the agentic analogue of P0's "no free cooling" rule.
 
-**Definition 5 (reasoning-budget frontier).** For reasoning models, $E_q = E_q(b)$ and $p_q = p_q(b)$. The report MUST include the frontier $\{(J/S_{\tau}(b), p_q(b)) : b \in \mathcal{B}\}$ for a pre-registered budget set $\mathcal{B}$ — never a single point (P0 Pareto mandate).
+**Definition 5 (reasoning-budget frontier).** For reasoning models, $E_q = E_q(b)$ and $p_q = p_q(b)$. The report MUST include the frontier $\{(J/S_{\tau}(b), p_q(b)) : b \in \mathcal{B}\}$ for a pre-registered budget set $\mathcal{B}$ — never a single point (P0 Pareto mandate). By the argument of Proposition 1 (with $b$ in place of $n$), the frontier is monotonically increasing in $b$ at fixed per-token cost; its knee is the accuracy-saturation point beyond which J/S grows linearly with zero accuracy gain.
 
 # 5. System Boundary and Anti-Gaming
 
@@ -124,9 +130,9 @@ Estimates are derived from the published anchors of Section 2 with the assumptio
 | Task class | LLM J/S (system) | Human J/S (20 W) | Ratio LLM/human |
 |:-----------|:-----------------|:-----------------|:----------------|
 | Simple verifiable QA (factoid/MCQ) | ~35–70 J | 400–600 J | ~0.06–0.17 |
-| Math word problems (GSM8K-class) | ~150–300 J | 900–1,800 J | ~0.08–0.33 |
-| Graduate reasoning (GPQA-class, single pass) | ~7,000–12,000 J | 6,000–18,000 J | ~0.4–2.0 |
-| GPQA + self-consistency (n = 8) | ~55,000–95,000 J | 6,000–18,000 J | ~3–16 |
+| Math word problems (GSM8K-class) | ~90–180 J | 900–1,800 J | ~0.05–0.20 |
+| Graduate reasoning (GPQA-class, single pass) | ~9,000–12,600 J | 6,000–18,000 J | ~0.5–2.1 |
+| GPQA + self-consistency (n = 8) | ~55,000 J | 6,000–18,000 J | ~3–9 |
 | Agentic coding (SWE-bench-class) | $10^{5}$–$5 \times 10^{6}$ J | $1.4 \times 10^{5}$–$4.3 \times 10^{5}$ J | ~0.2–12 |
 
 Worked anchor (GPQA row, the load-bearing estimate): measured mean GPU-only response energy 4,625 J [@chung2026where] $\times$ 1.5 = 6,900 J system; at pass@1 $= 0.6$, $J/S \approx 11{,}500$ J. Human expert at 20 W for 10 minutes: 12,000 J. **Both substrates sit at $\sim 10^{4}$ J per correct graduate-level answer.**
@@ -147,7 +153,7 @@ Frontier-model training amortizes to ~$10^{3}$ J/query only at $10^{11}$ lifetim
 
 # 9. The Reasoning-Budget Pareto Frontier
 
-Token-budget evidence [@han2024tokenbudgetaware; @wen2025budgetthinker; @miyamoto2026aligning; @wang2026conformal; @shah2026crop] shows accuracy rises sub-linearly in the token budget, with 60–80% budget cuts achieving nominal accuracy loss. Consequently $J/S_{\tau}(b)$ is U-shaped in $b$: beyond the knee, additional thinking tokens *increase* joules per correct solution. Quantization interacts pathologically: cheaper tokens can lengthen reasoning [@lian2026quantization], so a per-token saving is not necessarily a per-solution saving — J/S captures this where J/token cannot. The frontier, not any point, is the reportable object.
+Token-budget evidence [@han2024tokenbudgetaware; @wen2025budgetthinker; @miyamoto2026aligning; @wang2026conformal; @shah2026crop] shows accuracy rises sub-linearly in the token budget, with 60–80% budget cuts achieving nominal accuracy loss. Consequently, by Proposition 1 (with $b$ in place of $n$), $J/S_{\tau}(b)$ is monotonically increasing in $b$ at fixed per-token cost: additional thinking tokens always raise expected energy per correct solution, and the frontier's knee is the accuracy-saturation point beyond which J/S grows linearly with zero accuracy gain. Quantization interacts pathologically: cheaper tokens can lengthen reasoning [@lian2026quantization], so a per-token saving is not necessarily a per-solution saving — J/S captures this where J/token cannot. The frontier, not any point, is the reportable object.
 
 # 10. Measurement Protocol Extension (J/S-LLM)
 
@@ -165,7 +171,7 @@ Token-budget evidence [@han2024tokenbudgetaware; @wen2025budgetthinker; @miyamot
 
 **P6-F1 (falsified if):** an independent measurement, under the full J/S boundary and a standardized sampling regime, finds frontier/agentic $J/S < 10^{-1}\times$ the expert-human baseline at matched accuracy on $\geq 2$ of 3 canonical hard-reasoning task classes (GPQA-grade, SWE-bench-grade, verified multi-step math).
 
-**P6-F2 (also falsified if):** the $(J/S, \text{accuracy})$ frontier for reasoning-budget scaling shows non-diminishing (linear or super-linear) accuracy returns past the measured knee, i.e., the U-shape of Proposition 1 and Section 9 fails.
+**P6-F2 (also falsified if):** the $(J/S, \text{accuracy})$ frontier is not monotonically increasing with diminishing accuracy returns — i.e., if sampling or additional reasoning budget *reduces* J/S at matched accuracy (an efficiency free lunch), or if accuracy does not saturate as the budget grows. Equivalently, falsified if Proposition 1's monotonicity or the concavity of $p_q(b)$ fails under measurement.
 
 **Calibration register (pre-registered, 2026–2028):**
 1. C1 — open-weight frontier MoE (e.g., Qwen3-235B-A22B) on GPQA Diamond: J/S measured under full boundary, n=1 and n=8.

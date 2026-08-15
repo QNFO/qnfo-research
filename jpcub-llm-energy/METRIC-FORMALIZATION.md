@@ -43,9 +43,11 @@ the expected energy per *correct* solution when queries are repeated until succe
 
 $$J/S_{\tau}(n) \;=\; \frac{n\,E_{q}}{\,1 - (1 - p_{q}(\tau))^{n}\,}$$
 
-**Proposition 3.3 (U-shape).** For fixed $E_{q}$ and $0 < p_{q} < 1$, the function $J/S(n)$ is (i) flat at $J/S \to E_{q}/p_{q}$ as $n \to 0^{+}$ (since $1-(1-p)^{n} \approx np$), (ii) minimized at a finite $n^{*}$, and (iii) grows linearly as $n \to \infty$ (since the acceptance probability saturates at 1). The efficient operating point $n^{*}$ satisfies $n^{*} \approx \ln(1/p_{q})$ for small $p_{q}$ and is the *metric's* answer to "how much sampling is worth it".
+**Proposition 3.3 (monotonicity).** For fixed per-query energy $E_{q}$ and $0 < p_{q} < 1$, $J/S(n)$ is **strictly increasing** in $n$ for $n \geq 1$: $J/S(1) = E_{q}/p_{q}$, $J/S(n) \sim n E_{q}$ as $n \to \infty$, and $J/S(n) \geq E_{q}/p_{q}$ for all $n$. Independent sampling never reduces expected energy per correct solution; the J/S-efficient operating point is the single query. (Proof: with $q = 1-p$ and $u = n\ln q < 0$, the derivative numerator $1 - e^{u}(1-u) > 0$ since $1-u < e^{-u}$.)
 
-*Interpretation.* The naive "joules per query" understates cost for inaccurate models; the naive "cost of $n$ samples" overstates it because $n$ samples buy accuracy. J/S(n) is the honest middle: the minimum of the U-curve is the defensible efficiency claim, and reporting J/S without a stated $n$ and $p_{q}$ is incomplete (anti-gaming provision A1 below).
+**Proposition 3.4 (batching).** If $n$ samples are served with batching efficiency $\eta(n) \geq 1$ so that $E(n) = nE_{q}/\eta(n)$, then $J/S(n) = nE_{q}/(\eta(n)(1-(1-p_{q})^{n}))$ can attain an interior minimum at finite $n^{*}$ when early batching gains outpace the saturating acceptance term. The U-shape, when observed, is a *systems* property (batching), not intrinsic to stochastic inference.
+
+*Interpretation.* The naive "joules per query" understates cost for inaccurate models; sampling buys accuracy at strictly increasing (or, under batching, non-decreasing) J/S. The honest efficiency claim is the single-shot operating point, and reporting J/S without a stated $n$ and $p_{q}$ is incomplete (anti-gaming provision A1 below).
 
 **Definition 3.4 (majority-vote / self-consistency).** If the verifier accepts the majority answer over $n$ samples and each sample is correct with probability $p$, then $P_{\mathrm{correct}}(n) = P\!\left(\mathrm{Bin}(n,p) > n/2\right)$, and $J/S_{\tau}(n) = n E_{q} / P_{\mathrm{correct}}(n)$. Regime-specific; computable in closed form for given $n, p$.
 

@@ -36,9 +36,9 @@ System-level J/S = (GPU-only × A4) ÷ accuracy, per Definitions 3.1/5.3 of METR
 | Task class | LLM J/S (system, J) | Human J/S (20 W, J) | Ratio LLM/human | Verdict |
 |:-----------|:---------------------|:--------------------|:----------------|:--------|
 | Simple verifiable QA (factoid/MCQ) | ~35–70 | 400–600 | ~0.06–0.17 | LLM ~6–17× more efficient |
-| Math word problems (GSM8K-class) | ~150–300 | 900–1,800 | ~0.08–0.33 | LLM ~3–12× more efficient |
-| Graduate reasoning (GPQA-class, single pass) | ~7,000–12,000 | 6,000–18,000 | ~0.4–2.0 | **Parity** |
-| GPQA + self-consistency (n = 8) | ~55,000–95,000 | 6,000–18,000 | ~3–16× | **LLM worse** |
+| Math word problems (GSM8K-class) | ~90–180 | 900–1,800 | ~0.05–0.20 | LLM ~5–20× more efficient |
+| Graduate reasoning (GPQA-class, single pass) | ~9,000–12,600 | 6,000–18,000 | ~0.5–2.1 | **Parity** |
+| GPQA + self-consistency (n = 8) | ~55,000 | 6,000–18,000 | ~3–9× | **LLM worse** |
 | Agentic coding (SWE-bench-class) | ~10⁵–5×10⁶ | 1.4×10⁵–4.3×10⁵ | ~0.2–12× | **Parity to worse** |
 
 Worked anchor for the GPQA row (the load-bearing estimate):
@@ -65,8 +65,8 @@ Worked anchor for the GPQA row (the load-bearing estimate):
 ## 5. Reasoning-Budget Pareto Frontier (qualitative, from token-budget literature)
 
 - Accuracy rises **sub-linearly** with token budget; budgets cut 60–80% with nominal accuracy loss are repeatedly demonstrated (CROP: 80.6% token reduction; 2604.14214; token-budget-aware reasoning 2412.18547; BudgetThinker 2508.17196; BG-MCTS 2602.09574; conformal stopping 2602.03814).
-- Consequence: $J/S(b)$ is **U-shaped** in the budget $b$ — the efficient frontier selects the knee, and "spend more thinking tokens" eventually *increases* J/S per correct solution.
-- Falsification hook P6-F2: if accuracy were linear or super-linear in $b$ past the knee, the U-shape claim fails.
+- Consequence: at fixed per-token cost, $J/S(b)$ is **monotonically increasing** in the budget $b$ (Proposition 3.3 with $b$ in place of $n$): more thinking tokens always raise expected energy per correct solution, and the knee is the accuracy-saturation point beyond which J/S grows linearly with zero accuracy gain. Batching efficiency can create an interior minimum (Proposition 3.4).
+- Falsification hook P6-F2: if accuracy were linear or super-linear in $b$ (non-concave) past the knee, or if sampling reduced J/S at matched accuracy, the monotonicity claim fails.
 
 ## 6. Disconfirmation Status (pre-registered, unmeasured as of 2026-08-15)
 
