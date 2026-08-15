@@ -40,3 +40,21 @@
 
 ## v1.1 amendment (2026-08-14)
 Added 8 entries that the manuscript's References section cites but the original .bib omitted: Pauli 1940 (10.1103/PhysRev.58.716), Streater-Wightman 1964, Leinaas-Myrheim 1977 (10.1007/BF02727953), Wilczek 1982 (10.1103/PhysRevLett.49.957), Joyal-Street 1993 (10.1006/aima.1993.1055), Kitaev 2006 (10.1016/j.aop.2005.10.005), Bakalov-Kirillov 2001, Spencer-Brown 1969. All 5 DOI-bearing entries Crossref-verified (evidence: artifacts/external-search/crossref_missing8_verified.json). Total entries now 49; all 24 manuscript-cited works are covered. Findings source: post-publication adversarial review (REDTEAM-QUEUE-STALL-1 late completion).
+
+
+## v1.4 draft additions (2026-08-15, CMD EXECUTE remediation GAP-3) — NOT PUBLISHED
+
+Six references added for the v1.4 draft (uncommitted as of this note's authoring):
+Laidlaw & DeWitt 1971 (Phys. Rev. D 3, 1375 — Crossref-verified), Haldane 1991
+(Phys. Rev. Lett. 67, 937 — Crossref-verified), Mekonnen, Galley & Mueller 2025
+(arXiv:2502.17576), Wang & Hazzard 2023/2024/2026 (arXiv:2308.05203 / 2412.13360 /
+2607.26351 — arXiv-live-verified). Section 5 boundary gains a 2026 note qualifying the
+"which again lands on locality" claim: (a) a model-independent quantum-permutation
+exclusion of parastatistics exists that does not route through locality (Mekonnen et al.
+2025); (b) R-parastatistics — inequivalent to fermions/bosons, any dimension — emerges as
+observable quasiparticle statistics in condensed matter (Wang & Hazzard 2023-2026), so the
+classical equivalence theorems (Greenberg-Messiah; DHR) do not exhaust the possibilities.
+SSRN 6598581 (Li 2026, "The Spin-Statistics Theorem as a Topological Necessity") considered
+for Section 7 and deferred (preprint quality bar). Section 2 genealogy gains
+Laidlaw & DeWitt 1971 (fundamental-group ancestor) and Haldane 1991 (fractional statistics
+beyond 2D).

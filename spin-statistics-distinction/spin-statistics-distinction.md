@@ -25,7 +25,7 @@ This paper makes two claims. First, the structural invariant is not the dichotom
 
 ## 2. The invariant: exchange phase equals topological spin
 
-The exchange of two identical particles is a loop in their configuration space. The phase acquired is a representation of the fundamental group of that space (Leinaas and Myrheim, 1977). [ESTABLISHED] The rotation of a single particle by $2\pi$ is the twist. In a ribbon braided tensor category — the mathematical home of particle-like excitations in topological order — the two are linked by the ribbon identity:
+The exchange of two identical particles is a loop in their configuration space. The phase acquired is a representation of the fundamental group of that space (Leinaas and Myrheim, 1977; Laidlaw and DeWitt, 1971). [ESTABLISHED] The rotation of a single particle by $2\pi$ is the twist. In a ribbon braided tensor category — the mathematical home of particle-like excitations in topological order — the two are linked by the ribbon identity:
 
 $$\theta_X = \frac{\mathrm{Tr}_q(c_{X,X})}{d_X},$$
 
@@ -41,7 +41,7 @@ In three or more spatial dimensions the braiding is symmetric (involutive): $c_{
 
 ## 2.2 The 2+1D generalization
 
-In two spatial dimensions the braiding is not involutive: the exchange group is the braid group, and $\theta_X = e^{2\pi i s}$ can be any phase. Particles with fractional statistics — anyons — realize the continuous range of $s \in \mathbb{R}/\mathbb{Z}$ (Leinaas and Myrheim, 1977; Wilczek, 1982; Mund, 2008). [ESTABLISHED]
+In two spatial dimensions the braiding is not involutive: the exchange group is the braid group, and $\theta_X = e^{2\pi i s}$ can be any phase. Particles with fractional statistics — anyons — realize the continuous range of $s \in \mathbb{R}/\mathbb{Z}$ (Leinaas and Myrheim, 1977; Wilczek, 1982; Haldane, 1991; Mund, 2008). [ESTABLISHED]
 
 ## 2.3 What is invariant
 
@@ -86,7 +86,7 @@ are the two grading components of one construction. The two statistics are the t
 
 **T3 — Dimension quantization.** The table in Section 3, with dimension entering only through the allowed braided structures. [DERIVATION SKETCH — P4 notebook T3.]
 
-**The boundary of the program.** The program can show that statistics is forced by distinction, compact closure, an involutive braiding, and the abelian-pair postulate (the pair of marks has a unique joint state up to phase, so that the braiding acts by a scalar). The last postulate is the categorical counterpart of the exclusion of parastatistics: without it, mixed-symmetry (parastatistics-class) sectors are not excluded by the algebraic machinery alone; in algebraic quantum field theory the exclusion follows from locality (Doplicher, Haag, and Roberts, 1971, 1974; Doplicher and Roberts, 1990; Greenberg and Messiah, 1965). The program therefore must either adopt the postulate or derive a DHR-style exclusion — which again lands on locality. It cannot, from the mark alone, show *which* eigenvalue corresponds to *which* spin: the spin–statistics *connection* requires the additional postulate that the twist equals the $2\pi$ rotation of a Lorentz representation, with microcausality and positive energy (Pauli, 1940; Duck and Sudarshan, 1998). The paper states this boundary explicitly; it does not claim a full derivation of the spin-statistics theorem from distinction. [CONTESTED — the sufficiency of the minimal postulates is open.]
+**The boundary of the program.** The program can show that statistics is forced by distinction, compact closure, an involutive braiding, and the abelian-pair postulate (the pair of marks has a unique joint state up to phase, so that the braiding acts by a scalar). The last postulate is the categorical counterpart of the exclusion of parastatistics: without it, mixed-symmetry (parastatistics-class) sectors are not excluded by the algebraic machinery alone; in algebraic quantum field theory the exclusion follows from locality (Doplicher, Haag, and Roberts, 1971, 1974; Doplicher and Roberts, 1990; Greenberg and Messiah, 1965). The program therefore must either adopt the postulate or derive a DHR-style exclusion — which again lands on locality. [2026 note — two external developments qualify this boundary. First, a model-independent, quantum-information-theoretic exclusion of parastatistics has been given that does not route through locality at all: complete invariance under quantum permutations forces Bosons or Fermions (Mekonnen, Galley, and Mueller, 2025). Second, the classical equivalence theorems (Greenberg and Messiah, 1965; Doplicher, Haag, and Roberts) do not exhaust the possibilities: R-parastatistics — parastatistics inequivalent to bosons or fermions, consistently defined in any dimension — has been shown to emerge as observable quasiparticle statistics in condensed-matter systems (Wang and Hazzard, 2023, 2024, 2026). The abelian-pair postulate's status is thereby sharpened: its exclusion of parastatistics-class sectors is neither a purely algebraic consequence nor exclusively a locality theorem — it is a substantive physical assumption whose justification the new literature can either strengthen (quantum-permutation invariance) or qualify (emergent paraparticles).] It cannot, from the mark alone, show *which* eigenvalue corresponds to *which* spin: the spin–statistics *connection* requires the additional postulate that the twist equals the $2\pi$ rotation of a Lorentz representation, with microcausality and positive energy (Pauli, 1940; Duck and Sudarshan, 1998). The paper states this boundary explicitly; it does not claim a full derivation of the spin-statistics theorem from distinction. [CONTESTED — the sufficiency of the minimal postulates is open.]
 
 ## 6. Falsifiability conditions
 
@@ -132,6 +132,8 @@ Doplicher, S., and Roberts, J. E. (1990). Why there is a field algebra with a co
 
 Greenberg, O. W., and Messiah, A. M. L. (1965). Selection rules for parafields and the absence of para particles in nature. *Physical Review*, 138, B1155. doi:10.1103/PhysRev.138.B1155.
 
+Haldane, F. D. M. (1991). "Fractional statistics" in arbitrary dimensions: A generalization of the Pauli principle. *Physical Review Letters*, 67, 937. doi:10.1103/PhysRevLett.67.937.
+
 Johnson-Freyd, T. (2015). Spin, statistics, orientations, unitarity. arXiv:1507.06297.
 
 Joyal, A., and Street, R. (1993). Braided tensor categories. *Advances in Mathematics*, 102, 20-78.
@@ -142,7 +144,11 @@ Kuckert, B. (2002). Spin & statistics in nonrelativistic quantum mechanics, I. a
 
 Kuckert, B., and Mund, J. (2004). Spin & statistics in nonrelativistic quantum mechanics, II. arXiv:quant-ph/0411197.
 
+Laidlaw, M. G. G., and DeWitt, C. M. (1971). Feynman functional integrals for systems of indistinguishable particles. *Physical Review D*, 3, 1375. doi:10.1103/PhysRevD.3.1375.
+
 Leinaas, J. M., and Myrheim, J. (1977). On the theory of identical particles. *Nuovo Cimento B*, 37, 1-23.
+
+Mekonnen, M., Galley, T. D., and Mueller, M. P. (2025). Invariance under quantum permutations rules out parastatistics. arXiv:2502.17576.
 
 Mund, J. (2008). The spin-statistics theorem for anyons and plektons in d=2+1. arXiv:0801.3621.
 
@@ -171,5 +177,11 @@ Trung, H. Q., Wang, Y., and Yang, B. (2022). Spin-statistics relation and the Ab
 Verch, R. (2001). A spin-statistics theorem for quantum fields on curved spacetime manifolds in a generally covariant framework. *Communications in Mathematical Physics*, 223, 261. doi:10.1007/s002200100526.
 
 Wang, J., and Wen, X.-G. (2014). Non-Abelian string and particle braiding in topological order. arXiv:1404.7854.
+
+Wang, Z., and Hazzard, K. R. A. (2023). Particle exchange statistics beyond fermions and bosons. arXiv:2308.05203.
+
+Wang, Z., and Hazzard, K. R. A. (2024). Parastatistics and a secret communication challenge. arXiv:2412.13360.
+
+Wang, Z., and Hazzard, K. R. A. (2026). On R-parastatistics I: Foundation. arXiv:2607.26351.
 
 Wilczek, F. (1982). Quantum mechanics of fractional-spin particles. *Physical Review Letters*, 49, 957.
