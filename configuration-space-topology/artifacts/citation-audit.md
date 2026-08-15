@@ -69,3 +69,11 @@
 
 ---
 *P3.AUTHOR-GATE: PASSED (44/44 verified, 0 errors, 0 duplicates, 0 fabricated). P3.SOURCE-DISCIPLINE: PASSED (cited ≤ received; reliability tiers labeled).*
+
+## 8. Addendum (2026-08-15, Phase 5 paper draft gate)
+
+- Entries reduced 44 -> 42: jacak2017 (physics.gen-ph, UNTESTED) and novickis2026 (Zenodo self-published, UNTESTED) removed as deliberately uncited (Supporting-tier, not used as support in the paper).
+- Paper draft cites 42 keys; cross-reference check: cited 42 = bib 42, zero missing, zero unused.
+- PANDOC-SAFE audit PASS (even dollars 196, all subs/sups braced, no bare | in math, no unicode glyphs in prose body, YAML clean).
+- BP-1 fit-verify PASS (S_3 dim sum 6, Artin braid relation, e^{2pis} = +/-1, B_2 ~ Z, pi_1(C_2(R^3)) = Z_2).
+- BP-2 terminology PASS (12/12 terms). Language gate PASS (no banned words).
