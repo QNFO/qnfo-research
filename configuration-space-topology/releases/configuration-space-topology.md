@@ -2,8 +2,8 @@
 title: 'Configuration-Space Topology and the Distinction Calculus: The Exchange Scalar, Its +/-1 Shadow, and a Pre-Registered Derivation Program'
 author: 'Quni-Gudzinas, Rowan Brad'
 date: '2026-08-15'
-status: draft
-doi: null
+status: published
+doi: 10.5281/zenodo.21945450
 language: eng
 license: cc-by-4.0
 keywords:
