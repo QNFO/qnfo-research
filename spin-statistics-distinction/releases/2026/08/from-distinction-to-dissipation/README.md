@@ -28,6 +28,13 @@ distinction-based (Laws-of-Form-style) foundation of physics.
 | `references.bib` | BibTeX for the essay's references |
 | `PROJECT-PLAN.md` | Project plan of the parent program (QNFO.RES.009) |
 
+## v1.4 (2026-08-15) — essay wording + references remediation
+
+Essay §3 heading corrected from "(pre-registered, unexecuted)" to "(pre-registered;
+structural checks executed)" (the T1/T2 check is executed and bundled); Jabs and Lev
+added to the essay References; record `language: eng`; bundled registry + deposit doc
+refreshed with post-publish snapshots.
+
 ## v1.1 (2026-08-15) — post-publication red-team remediation
 
 Corrected `t5-boundary-cost-model` and `t6-capacity-bound`: functional H2/H3/G3

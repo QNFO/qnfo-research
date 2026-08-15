@@ -12,7 +12,8 @@
 | v1.0 | 10.5281/zenodo.21940822 | published | 18 files (essay + T4–T7 notebooks + docs + registry) |
 | v1.1 | 10.5281/zenodo.21941122 | published — **SUPERSEDED** | 4 files only (partial first newversion attempt; ignore) |
 | v1.2 | 10.5281/zenodo.21941145 | published — **COMPLETE corrected release** | 19 files: remediated T5/T6 (functional H2/H3/G3, computed eigenvalues), T1/T2 notebook added, README updated |
-| v1.3 | 10.5281/zenodo.21941150 | published — **CURRENT** | v1.2 + essay frontmatter DOI fixed to its own DOI (NEWVERSION-FRONTMATTER-CARRYOVER-1 remediation) |
+| v1.3 | 10.5281/zenodo.21941150 | published | v1.2 + essay frontmatter DOI fixed to its own DOI (NEWVERSION-FRONTMATTER-CARRYOVER-1 remediation) |
+| v1.4 | 10.5281/zenodo.21943007 | published — **CURRENT** | v1.3 + essay §3 wording (structural checks executed), Jabs+Lev References, language=eng, refreshed post-publish snapshots | v1.2 + essay frontmatter DOI fixed to its own DOI (NEWVERSION-FRONTMATTER-CARRYOVER-1 remediation) |
 
 - **Record (current):** https://zenodo.org/records/21941150 — 19 files, license cc-by-4.0, 9 keywords, community qnfo, related_identifiers (GitHub isSupplementTo + paper DOI references); verified in-record: essay frontmatter carries its own DOI; t5 notebook contains the functional H2 test.
 - **Live checks:** doi.org/10.5281/zenodo.21941150 → HTTP 200; zenodo.org/records/21941150 → HTTP 200.

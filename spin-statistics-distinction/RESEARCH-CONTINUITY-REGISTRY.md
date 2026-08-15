@@ -109,6 +109,8 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 
 - **2026-08-15 (P9 PUBLISH — paper v1.2/v1.3 amendment):** Abelian-pair amendment PUBLISHED. v1.2 (10.5281/zenodo.21941346) shipped correct metadata but v1.1-era files (pipeline race); **v1.3 (10.5281/zenodo.21941375) is the CURRENT record** with the corrected files: §5 boundary + §6 F2 + abstract make the abelian-pair postulate explicit (DHR 1971/1974, Doplicher–Roberts 1990, Greenberg–Messiah 1965), references.bib gains the four entries, frontmatter carries the own DOI (NEWVERSION-FRONTMATTER-CARRYOVER-1). Verified in-record (own_doi, abelian-pair text, bib keys), doi.org 200, D1 synced (zenodo_doi 21941375, version v1.3), papers.qnfo.org 200. v1.2 is SUPERSEDED (files); v1.1 (21939493) was the references.bib-only remediation.
 
+- **2026-08-15 (P8 PUBLISH — suite v1.4):** Essay amendment published — DOI 10.5281/zenodo.21943007. §3 heading "(pre-registered, unexecuted)" → "(pre-registered; structural checks executed)" with the T1/T2 execution noted (Completeness HARD-2); Jabs + Lev added to the essay References (Dependency SOFT); language=eng on the record; bundled registry + deposit doc refreshed with post-publish snapshots (HARD-6 residual). 19 files. v1.3 (21941150) remains the prior complete release.
+
 ## MAINTENANCE PROTOCOL
 Update this file at each phase closeout; bump the date. Any published paper claiming frontier questions or pre-registered predictions must link back here.
 

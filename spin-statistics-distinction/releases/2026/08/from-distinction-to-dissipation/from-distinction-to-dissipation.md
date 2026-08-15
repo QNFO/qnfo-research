@@ -5,7 +5,7 @@ affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
 date: "2026-08-15"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21941150"
+doi: "10.5281/zenodo.21943007"
 status: "published"
 ---
 
@@ -44,7 +44,7 @@ the additional postulate that the twist equals the $2\pi$ rotation of a Lorentz
 representation, together with microcausality and positive energy. Any account that omits
 this boundary overstates the program.
 
-## 3. The derivation program (pre-registered, unexecuted)
+## 3. The derivation program (pre-registered; structural checks executed)
 
 Three tasks, with falsifiability conditions:
 
@@ -55,7 +55,10 @@ Three tasks, with falsifiability conditions:
   structure.
 
 The program is [NOT YET EVIDENCE]: it is pre-registered, and the toy-model demonstration
-(a pre-registered syntactic check) is a syntactic confirmation, not a physical derivation. Falsifiability:
+(a pre-registered syntactic check) is a syntactic confirmation, not a physical derivation.
+The T1/T2 structural check (two modal exponentials as DiLL modalities; braiding of two
+self-dual marks; ribbon identity; abelian-pair postulate) has since been executed at the
+notebook level — a structural verification, not a physical derivation. Falsifiability:
 F1 — an observed stable local relativistic 3+1D excitation with exchange phase not equal
 to $e^{2\pi i s}$ would disconfirm the invariant; F2 — an impossibility proof showing the
 two one-dimensional characters of the symmetric group cannot be recovered from the
@@ -111,6 +114,10 @@ No experimental data. **Code availability.** The toy model is in the project not
 Not applicable. **Acknowledgments.** None. **Correspondence.** rowan.quni@outlook.com
 
 ## References
+
+Jabs, A. (2003). Spin, statistics, and the spinor ambiguity. arXiv:quant-ph/0311078.
+
+Lev, F. M. (2002). Reduced Spin-Statistics Theorem. arXiv:hep-th/0212178.
 
 Marletto, C., and Vedral, V. (2021). Spin, Statistics, Spacetime and Quantum Gravity.
 arXiv:2112.03392.
