@@ -5,7 +5,7 @@ affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
 date: "2026-08-15"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21940822"
+doi: "10.5281/zenodo.21941150"
 status: "published"
 ---
 

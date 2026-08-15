@@ -31,7 +31,9 @@ dethrone it") is made quantitative:
    verifies D* = min(N, P/p) = 40 and the entropy balance (fixes == reservoir gain).
    [TOY MODEL — SYNTACTIC; the steady-state bound is the substantive content.]
 3. **Part C (G3).** At the ceiling (ΔS = 5 → 7 distinctions), the S₃ exchange algebra:
-   Yang–Baxter and σ² = I hold identically; eigenvalues follow from σ² = I alone.
+   Yang–Baxter and σ² = I hold identically; **the exchange eigenvalues are COMPUTED**
+   (2-token characteristic polynomial → λ = ±1; 3-token eigenspace nullities →
+   dim(+1) = 3, dim(−1) = 3, sum 6) — not asserted (red-team remediation, 2026-08-15).
    [TOY MODEL — SYNTACTIC.]
 4. **Part D (FQ3 seed checks).** D1: the braid generator is invertible (permutation
    matrix P satisfies P·Pᵀ = I) — the grammar is time-symmetric. D2: the erasure map
@@ -53,9 +55,18 @@ discipline.
 | G1 | **PASS** | ceiling=7 == floor(5.0/0.6931) |
 | G2a | **PASS** | D_avg=40.61 ≈ D*=40 (min(N, P/p)) |
 | G2b | **PASS** | fixes=3995 == env gain=3995.0 (≈P per step) |
-| G3 | **PASS** | Yang–Baxter + σ²=I hold at the ceiling; eigenvalues from σ²=I |
+| G3 | **PASS** | Yang–Baxter + σ²=I at the ceiling; eigenvalues COMPUTED: λ=+1/−1 (2-token), dim(+1)=3/dim(−1)=3 (3-token) |
 | D1 | **PASS** | braid generator invertible: P·Pᵀ = I |
 | D2 | **PASS** | erasure non-injective: E(0)=E(1)=0, no inverse exists |
+
+## Red-team remediation record (2026-08-15)
+
+The post-publication red team noted that the original G3 disconfirmation condition was
+assertion-style ("eigenvalues follow from σ² = I", never computed) — the same class as
+the T5 H3 finding. The model now **computes** the exchange eigenvalues (characteristic
+polynomial for the 2-token operator; eigenspace nullities for the 3-token generator)
+and folds them into the G3 check, so "if a budget term entered the exchange-eigenvalue
+computation" is a functional disconfirmation.
 
 ## Verdict on FQ1 (formal statement, ceiling form)
 

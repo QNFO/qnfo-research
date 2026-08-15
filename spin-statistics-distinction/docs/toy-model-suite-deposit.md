@@ -5,13 +5,21 @@
 
 ## PUBLICATION RECORD (2026-08-15, executed)
 
-- **DOI:** 10.5281/zenodo.21940822 (concept 10.5281/zenodo.21940821)
-- **Record:** https://zenodo.org/records/21940822 — state=published, **18 files**, license cc-by-4.0, 9 keywords, community qnfo, related_identifiers: GitHub isSupplementTo + paper DOI references
-- **Live checks:** doi.org/10.5281/zenodo.21940822 → HTTP 200; zenodo.org/records/21940822 → HTTP 200
-- **papers.qnfo.org:** https://papers.qnfo.org/papers/from-distinction-to-dissipation/ → HTTP 200
-- **D1 living-paper:** row 1972 (identifier from-distinction-to-dissipation, body_md + body_html, zenodo_doi, slug) — read-back verified
-- **R2 archive:** releases:qnfo-releases/releases/2026/08/from-distinction-to-dissipation/ — rclone check 0 differences (18 files)
-- **Git release tree:** `releases/2026/08/from-distinction-to-dissipation/` (essay md/html/pdf + README + references.bib + citation-audit + notebooks + docs + registry + PROJECT-PLAN)
+### Version chain (concept 10.5281/zenodo.21940821)
+
+| Version | DOI | State | Content |
+|---|---|---|---|
+| v1.0 | 10.5281/zenodo.21940822 | published | 18 files (essay + T4–T7 notebooks + docs + registry) |
+| v1.1 | 10.5281/zenodo.21941122 | published — **SUPERSEDED** | 4 files only (partial first newversion attempt; ignore) |
+| v1.2 | 10.5281/zenodo.21941145 | published — **COMPLETE corrected release** | 19 files: remediated T5/T6 (functional H2/H3/G3, computed eigenvalues), T1/T2 notebook added, README updated |
+| v1.3 | 10.5281/zenodo.21941150 | published — **CURRENT** | v1.2 + essay frontmatter DOI fixed to its own DOI (NEWVERSION-FRONTMATTER-CARRYOVER-1 remediation) |
+
+- **Record (current):** https://zenodo.org/records/21941150 — 19 files, license cc-by-4.0, 9 keywords, community qnfo, related_identifiers (GitHub isSupplementTo + paper DOI references); verified in-record: essay frontmatter carries its own DOI; t5 notebook contains the functional H2 test.
+- **Live checks:** doi.org/10.5281/zenodo.21941150 → HTTP 200; zenodo.org/records/21941150 → HTTP 200.
+- **papers.qnfo.org:** https://papers.qnfo.org/papers/from-distinction-to-dissipation/ → HTTP 200 (qa-ux-battery 1/1 PASS).
+- **D1 living-paper:** zenodo_doi 10.5281/zenodo.21941150, zenodo_url/pdf_url → v1.3 record, html_url → concept 21940821 — read-back verified.
+- **R2 archive:** releases:qnfo-releases/releases/2026/08/from-distinction-to-dissipation/ — rclone check 0 differences (19 files).
+- **Git release tree:** `releases/2026/08/from-distinction-to-dissipation/` (19 files, incl. corrected T5/T6 + T1/T2 notebook).
 
 **Pipeline notes (kaizen candidates):**
 1. Deposit-API `related_identifiers` MUST use the legacy shape `{"relation": "isSupplementTo", "identifier": ..., "scheme": "url"}` — the `relation_type` key (string OR object form) crashes the deposit API with HTTP 500 (verified 6+ variants, 5-retry backoff). The records API accepts `{"relation_type": {"id": "issupplementto"}}` but SILENTLY DROPS license/keywords/communities (ZENODO-RECORDS-API-DROPS-METADATA-1 confirmed live).

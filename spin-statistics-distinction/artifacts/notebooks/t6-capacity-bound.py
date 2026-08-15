@@ -131,16 +131,64 @@ def perm_matrix(f):
 
 s1 = perm_matrix(swap(0, 1))
 s2 = perm_matrix(swap(1, 2))
+I6 = eye(6)
 yb = approx(mm(mm(s1, s2), s1), mm(mm(s2, s1), s2))
-inv = approx(mm(s1, s1), eye(6))
+inv = approx(mm(s1, s1), I6)
+
+def matadd(A, B):
+    return [[A[i][j] + B[i][j] for j in range(len(A[0]))] for i in range(len(A))]
+
+def matscale(A, s):
+    return [[s * A[i][j] for j in range(len(A[0]))] for i in range(len(A))]
+
+def rank(M):
+    """Row-rank via Gaussian elimination (pure Python)."""
+    A = [row[:] for row in M]
+    n, m = len(A), len(A[0])
+    r = 0
+    for col in range(m):
+        piv = None
+        for row in range(r, n):
+            if abs(A[row][col]) > 1e-12:
+                piv = row
+                break
+        if piv is None:
+            continue
+        A[r], A[piv] = A[piv], A[r]
+        pv = A[r][col]
+        for cc in range(col, m):
+            A[r][cc] /= pv
+        for row in range(n):
+            if row != r and abs(A[row][col]) > 1e-12:
+                f = A[row][col]
+                for cc in range(col, m):
+                    A[row][cc] -= f * A[r][cc]
+        r += 1
+    return r
+
+# COMPUTED exchange eigenvalues (red-team remediation 2026-08-15: G3 was
+# assertion-style; eigenvalues are now computed, not asserted).
+# 2-token exchange operator: lambda^2 - tr*lambda + det = 0
+P2 = [[0.0, 1.0], [1.0, 0.0]]
+tr2, det2 = P2[0][0] + P2[1][1], P2[0][0] * P2[1][1] - P2[0][1] * P2[1][0]
+disc = tr2 * tr2 - 4.0 * det2
+ev2 = sorted([(tr2 + math.sqrt(disc)) / 2.0, (tr2 - math.sqrt(disc)) / 2.0])
+eig2_ok = abs(ev2[0] + 1.0) < 1e-12 and abs(ev2[1] - 1.0) < 1e-12
+# 3-token sigma1: eigenvalues in {+1,-1} (sigma1^2 = I) with dimensions from
+# nullities of (I - sigma1) and (I + sigma1)
+dim_plus = 6 - rank(matadd(I6, matscale(s1, -1.0)))
+dim_minus = 6 - rank(matadd(I6, s1))
+sum_ok = (dim_plus + dim_minus == 6)
 
 # at the ceiling: budget allows only floor(dS/kBln2)=7 distinctions; the algebra
 # is a statement about the STATE SPACE, not the resource account
 print(f"[G3] at the ceiling (dS=5 -> 7 distinctions): Yang-Baxter={yb}, sigma^2=I={inv}")
-print("     eigenvalues +1/-1 follow from sigma^2 = I -- unchanged by the ceiling")
+print(f"[G3] 2-token eigenvalues COMPUTED: {ev2} -> +1/-1 {'PASS' if eig2_ok else 'FAIL'}")
+print(f"[G3] sigma1 eigenspaces COMPUTED: dim(+1)={dim_plus}, dim(-1)={dim_minus}, "
+      f"sum={dim_plus + dim_minus} {'PASS' if sum_ok else 'FAIL'}")
 print("     -> the ceiling gates how many tokens are SIMULTANEOUSLY tracked,")
 print("        never which statistics exist")
-g3 = yb and inv
+g3 = yb and inv and eig2_ok and sum_ok
 print(f"     G3 {'PASS' if g3 else 'FAIL'}")
 if not g3:
     FAILS.append("G3")

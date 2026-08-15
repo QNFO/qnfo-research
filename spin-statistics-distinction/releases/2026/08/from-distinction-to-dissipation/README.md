@@ -16,6 +16,7 @@ distinction-based (Laws-of-Form-style) foundation of physics.
 | File | Role |
 |---|---|
 | `from-distinction-to-dissipation.md` / `.html` / `.pdf` | The companion essay (labels: [ESTABLISHED] / [RETRODICTION] / [NOT YET EVIDENCE] / [EXTRAPOLATION]) |
+| `notebooks/t1-t2-dill-full-check.md` | T1/T2 DiLL full check — the two exponentials and the abelian-pair finding (v1.1) |
 | `notebooks/t4-toy-model.py` (+ `.md`) | Statistics from syntactic exchange — no hand-imposed sign (REG-009-001) |
 | `notebooks/t5-boundary-cost-model.py` (+ `.md`) | Boundary cost — the draw is free, the upkeep is not (REG-009-002) |
 | `notebooks/t6-capacity-bound.py` (+ `.md`) | Capacity ceiling floor(ΔS / k_B ln 2) (REG-009-003) |
@@ -26,6 +27,13 @@ distinction-based (Laws-of-Form-style) foundation of physics.
 | `citation-audit.md` | Citation verification record for the essay |
 | `references.bib` | BibTeX for the essay's references |
 | `PROJECT-PLAN.md` | Project plan of the parent program (QNFO.RES.009) |
+
+## v1.1 (2026-08-15) — post-publication red-team remediation
+
+Corrected `t5-boundary-cost-model` and `t6-capacity-bound`: functional H2/H3/G3
+disconfirmation conditions (exchange eigenvalues now computed, not asserted) and
+clarified Bit semantics (None = blank reference state). Added the T1/T2 DiLL full-check
+notebook (referenced by the registry but previously omitted from the bundle).
 
 ## Honest scoping
 

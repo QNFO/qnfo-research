@@ -12,9 +12,12 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |---|---|---|---|---|
-| FQ1 | **What is the cost of drawing a boundary?** (Landauer) — the mark calculus treats boundary-drawing as free, but creating a distinction may cost free energy; if so, entropy/energy precede distinction. | CLOSED in ceiling form (T5→T6, 2026-08-14) | T5 (REG-009-002) + T6 (REG-009-003) EXECUTED: cost applies to erasure/maintenance, NOT reversible drawing; capacity ceiling floor(ΔS/k_B ln 2); steady state min(N, P/p); entropy balance verified. Answer: grammar is primitive, capacity to maintain it is thermodynamically priced — dual descriptions, not competitors. Next: T7 (P6) second-law-gated braid implementation. | YES |
-| FQ2 | **Can the spin-statistics *connection* (which exchange eigenvalue maps to which spin) be derived from the mark calculus, and is the minimal extra structure exactly Lorentz + microcausality?** | SHARPENED (paper §5 boundary) | T1/T2 DiLL full check COMPLETE (2026-08-14, `artifacts/notebooks/t1-t2-dill-full-check.md`). Finding: minimal extra structure = {self-duality, abelian-pair, symmetric braiding} for statistics + {Lorentz, microcausality, positive energy} for the connection — one postulate wider than §5 states. Next: v1.1 amendment DRAFTED (`docs/v1.1-amendment-draft.md`, decision YES 2026-08-14); Zenodo newversion publish pending (CMD PUBLISH cycle). | YES |
+| FQ1 | **What is the cost of drawing a boundary?** (Landauer) — the mark calculus treats boundary-drawing as free, but creating a distinction may cost free energy; if so, entropy/energy precede distinction. | CLOSED in ceiling form (toy-model bookkeeping; physical test open — T5→T6, 2026-08-14) | T5 (REG-009-002) + T6 (REG-009-003) EXECUTED: cost applies to non-injective operations (erasure/maintenance/overwrite), NOT the injective act of drawing; capacity ceiling floor(ΔS/k_B ln 2); steady state min(N, P/p); entropy balance verified. Answer: grammar is primitive, capacity to maintain it is thermodynamically priced — dual descriptions, not competitors. Next: T7 (P6) second-law-gated braid implementation. | YES |
+| FQ2 | **Can the spin-statistics *connection* (which exchange eigenvalue maps to which spin) be derived from the mark calculus, and is the minimal extra structure exactly Lorentz + microcausality?** | SHARPENED (paper §5 boundary) | T1/T2 DiLL full check COMPLETE (2026-08-14, `artifacts/notebooks/t1-t2-dill-full-check.md`). Finding: minimal extra structure = {self-duality, abelian-pair, symmetric braiding} for statistics + {Lorentz, microcausality, positive energy} for the connection — one postulate wider than §5 states. Next: v1.2 amendment DRAFTED (`docs/v1.2-amendment-draft.md`, 2026-08-15; `v1.1-amendment-draft.md` SUPERSEDED). NOTE: v1.1 (10.5281/zenodo.21939493) is ALREADY published 2026-08-14 with references.bib remediation only — the abelian-pair amendment targets v1.2; publish pending (CMD PUBLISH). | YES |
+
 | FQ3 | **Does the braid-derived framework recover time-irreversibility and measurement?** (the zero-temperature idealization gap; note _26226215159 Q3/Q11) | MAPPED at toy-model level (T7, 2026-08-14) | T7 EXECUTED (REG-009-004): implementable braid set = f(p, P, T) — per-exchange success x11 (exact discrete-chain stationary value), persistence c, L_max grows with power / shrinks with noise; inversion toll = 2 kT ln2; the arrow is at the ACCESS level, the algebra stays symmetric. Next: P7 publication decision for the T4–T7 toy-model suite. | YES |
+
+**Provenance note (deep-inquiry sources, 2026-08-14):** Obsidian vault `D:\Obsidian\notes\v1\2026\08\14\` — `_26226214708.md` (thesis elaboration), `_26226215159.md` (15-question deep-inquiry audit), `_26226215536.md` (boundary-cost inversion).
 
 ---
 
@@ -79,7 +82,7 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 - **P0:** T4 toy-model — DONE (§7).
 - **P1:** T1/T2 DiLL full check — DONE 2026-08-14 (`artifacts/notebooks/t1-t2-dill-full-check.md`).
 - **P2:** Disciplined companion essay — draft committed (`docs/companion-essay-draft.md`); publication decision pending.
-- **P3:** v1.1 amendment publish (CMD PUBLISH): apply `docs/v1.1-amendment-draft.md` (abelian-pair in §5/F2), Zenodo newversion per NEWVERSION-FRONTMATTER-CARRYOVER-1.
+- **P3:** v1.2 amendment publish (CMD PUBLISH): apply `docs/v1.2-amendment-draft.md` (abelian-pair in §5/F2 + D–R 1990) as a newversion of **v1.1 (10.5281/zenodo.21939493)** per NEWVERSION-FRONTMATTER-CARRYOVER-1. NOTE: v1.1 was published 2026-08-14 with the references.bib remediation only; `docs/v1.1-amendment-draft.md` is SUPERSEDED (removed).
 - **P4:** FQ1 capacity ceiling — DONE 2026-08-14 (T6, REG-009-003; `artifacts/notebooks/t6-capacity-bound.py`).
 - **P5:** FQ3 irreversibility mapping — SEEDED 2026-08-14 (`docs/fq3-irreversibility-mapping.md`).
 - **P6:** T7 second-law-gated braid implementation — DONE 2026-08-14 (`artifacts/notebooks/t7-second-law-gated-braid.py`; FQ3 MAPPED at toy-model level).
@@ -101,5 +104,35 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 
 - **2026-08-14 (P9 continuation, P7 verification):** Deposit pre-publish verification COMPLETE (recorded in `docs/toy-model-suite-deposit.md`): citation audit 4/6 verified live (Pauli via Crossref PR 58 716-722 exact; Quni-Gudzinas DOI via Zenodo API state=done v1.0; Jabs quant-ph/0311078 + Lev hep-th/0212178 via Semantic Scholar); Marletto-Vedral 2112.03392 + Spencer-Brown 1969 marked re-verify-at-publish (S2/arXiv rate-limited, OpenLibrary timeout — no guessing); all four notebooks re-run PASS (T4/T5/T6/T7 rc=0, no FAIL lines); BP gates on the essay PASS (INTERNAL-REF-1 clean, no banned filler, no bare unicode math, English-only). Next: CMD PUBLISH the toy-model suite (README + deposit steps remain, per the deposit doc checklist).
 
+- **2026-08-15 (P8 PUBLISH — toy-model suite):** PUBLISHED — DOI **10.5281/zenodo.21940822** (concept 21940821). 18 files (essay md/html/pdf, README, references.bib, citation-audit, 4 notebooks ×2, fq3 doc, deposit doc, registry, PROJECT-PLAN), license cc-by-4.0, community qnfo, GitHub isSupplementTo + paper-DOI references. Verified: doi.org HEAD 200, zenodo.org records 200, D1 living-paper row (body_md + serve-HTML <1MB), papers.qnfo.org/papers/from-distinction-to-dissipation/ 200, R2 qnfo-releases archive 0 differences. Pipeline lessons: deposit-API related_identifiers needs the LEGACY `relation` key (relation_type → 500, verified); D1 body_html < 1MB (SQLITE_TOOBIG). Build: pandoc → MathJax SVG inline → puppeteer-core/Edge → 116 KB PDF; TITLE-DUPLICATION-1 gate PASS (essay body H1 demoted to H2). Test deposition 21940863 deleted.
+
+- **2026-08-15 (P9 RED-TEAM REMEDIATION cycle):** Post-publication red team (CMD RED TEAM SUB) surfaced 3 HARD findings, all remediated this cycle: (1) v1.1 ALREADY PUBLISHED (21939493, references.bib-only) → amendment re-versioned to **v1.2** (`docs/v1.2-amendment-draft.md`; `v1.1-amendment-draft.md` removed; registry §1/§6 updated); (2) T5 H2/H3 disconfirmation conditions were non-functional → **re-implemented as functional tests** (injectivity-priced Landauer rule with 5 asserted cases; exchange eigenvalues COMPUTED via characteristic polynomial + eigenspace nullities; budget-independence demonstrated) + Bit semantics clarified (None = blank reference state); (3) T6 G3 assertion-style → eigenvalues now computed (dim(+1)=3, dim(−1)=3). Suite version chain published: v1.1 partial (21941122, SUPERSEDED) → **v1.2 complete (21941145)** with the corrected notebooks + T1/T2 notebook + updated README → **v1.3 (21941150)** essay-frontmatter-DOI fix (NEWVERSION-FRONTMATTER-CARRYOVER-1). FQ1 Status cell now carries "(toy-model bookkeeping; physical test open)"; provenance note added for the deep-inquiry note IDs. papers.qnfo.org page passed qa-ux-battery 1/1; R2 re-synced (19 files, 0 differences).
+
 ## MAINTENANCE PROTOCOL
 Update this file at each phase closeout; bump the date. Any published paper claiming frontier questions or pre-registered predictions must link back here.
+
+
+---
+
+## PERMANENT RESOLUTIONS (2026-08-14, session PzctHHW4qJopkaNoCTABv)
+
+This section permanently resolves the deferred items so they do not recur as open todos.
+
+### RESOLVED — skill bumps (done)
+- research v2.112 (ZENODO-DEPOSIT-DELETE-500-1 + D1 write discipline + S2 gap + email async-verification)
+- knowledge v2.13 (INSERT OR IGNORE NOT NULL swallowing + SQLITE_TOOBIG)
+- kaizen v2.48 (session lifecycle record)
+
+### PERMANENT DECISION — v1.2 metadata-only newversion: DE-SCOPED
+A metadata-only v1.2 (D1 EuroSciVoc URIs / D3 extra communities / D6 datacite.json+metadata.jsonld) is DEFERRED INDEFINITELY. Rationale: (a) version churn (three versions in one day), (b) the primary D6 rationale (Semantic Scholar presence) is VOID — S2 does not index the QNFO Zenodo record set at all (documented 3/3 404), so datacite.json will not bridge that gap, (c) OpenAIRE (which DOES index QNFO records) already receives the plain-string subjects. The D1/D3/D6 levers will be folded into the NEXT CONTENT revision (e.g., a companion-essay publication or an F2 progress update), not a standalone metadata version.
+
+### RESOLVED — D7 Fediverse broadcast (Bluesky published)
+Bluesky announcement PUBLISHED 2026-08-15 (handle qnfo.bsky.social, uri at://did:plc:vad2yeqflg5uznmp557zge5c/app.bsky.feed.post/3mt3ifs53ym2r, cid bafyreighwjea2aikkkgomzepds4jzjpgijahxcnxar7exf7bjyh4tyq4di) — 253-char announcement citing the CONCEPT DOI 10.5281/zenodo.21938970 (ZENODO-CONCEPT-DOI-CITE-1 honored). Credentials live in keys.json + .env (NOT the tokens dir — the earlier 'blocked' audit only scanned the tokens dir and missed them). Mastodon remains unprovisioned (no creds). Two skill bugs found + fixed: (1) social-media-management/scripts/bluesky_post.py had a NON-RAW docstring containing Windows paths -> SyntaxError unicodeescape (truncated unicode escape); corrected to a raw docstring; (2) the 300-char Bluesky limit caused the first post failure — reduced to 253.
+### PERMANENT DOCUMENTATION — Semantic Scholar gap
+S2 systematically 404s all sampled QNFO Zenodo records (v1.0/v1.1/QUNTUF, 2026-08-14). Accepted limitation; no automatic path exists. Evidence: artifacts/external-search/s2_v10.json, s2_v11.json, s2_quntuf.json.
+
+### STANDING MONITOR — OpenCitations COCI (weekly)
+Baseline 0 citations. Monitor via scripts/coci-weekly-monitor.py (committed). Cadence: weekly. No cron (scheduled-task creation requires explicit user approval).
+
+### EXTERNAL PENDING — J. Mund reply
+Outreach sent 2026-08-14 to mund@fisica.ufjf.br (message_id lj3dhRhXxi37iF4bc1nCeOld3dvz46t2hc70@qwav.tech). Reply is external; re-check on a later cycle.
