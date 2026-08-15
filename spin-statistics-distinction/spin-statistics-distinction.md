@@ -3,9 +3,9 @@ title: "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant"
 author: "Rowan Brad Quni-Gudzinas"
 affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
-date: "2026-08-14"
+date: "2026-08-15"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21941375"
+doi: "10.5281/zenodo.21944401"
 status: "published"
 ---
 
