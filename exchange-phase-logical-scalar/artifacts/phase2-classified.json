@@ -26,17 +26,17 @@
     {
       "id": "support-1",
       "title": "A Review of Majorana fermions and the laws of form",
-      "authors": null,
+      "authors": ["Louis H. Kauffman"],
       "year": 2022,
       "doi": "10.1088/1742-6596/2197/1/012001",
       "class": "Supporting",
-      "role": "Closest external Laws-of-Form x fermion literature; must be engaged in P5 relation-to-prior-art",
-      "relation": "LoF representation of fermion structure, not the exchange-phase invariant; P3 must fetch full body and verify authors/venue"
+      "role": "Closest external Laws-of-Form x fermion literature; Kauffman is a knot-theory/Laws-of-Form authority; must be engaged in P5 relation-to-prior-art",
+      "relation": "LoF representation of fermion structure, not the exchange-phase invariant; P3 must pull full body and confirm scope"
     },
     {
       "id": "support-2",
       "title": "Spin-half bosons with mass dimension three-half: Evading the spin-statistics theorem",
-      "authors": null,
+      "authors": ["Dharam Vir Ahluwalia", "Cheng-Yang Lee"],
       "year": 2022,
       "doi": "10.1209/0295-5075/ac97bd",
       "class": "Supporting",
@@ -46,11 +46,11 @@
     {
       "id": "support-3",
       "title": "Indistinguishability for quantum particles: spin, statistics and the geometric phase",
-      "authors": null,
+      "authors": ["M. V. Berry", "J. M. Robbins"],
       "year": 2017,
       "doi": "10.1142/9789813221215_0008",
       "class": "Supporting",
-      "role": "Geometric-phase reading of indistinguishability; closest external conceptual neighbor",
+      "role": "Geometric-phase reading of indistinguishability; Berry-Robbins is the canonical geometric-phase spin-statistics construction",
       "relation": "Berry-type monodromy lineage; RES.010 monodromy-power reading is distinct and Laws-of-Form-native; acknowledge in P5"
     },
     {
