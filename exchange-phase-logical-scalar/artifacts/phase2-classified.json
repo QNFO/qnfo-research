@@ -1,0 +1,89 @@
+{
+  "wbs": "QNFO.RES.010",
+  "phase": "P2",
+  "date": "2026-08-14",
+  "classification": [
+    {
+      "id": "core-1",
+      "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
+      "authors": ["Rowan Brad Quni-Gudzinas"],
+      "year": 2026,
+      "doi": "10.5281/zenodo.21938971",
+      "class": "Core",
+      "role": "Parent prior claim + derivation target (internal)",
+      "relation": "RES.010 delta: (e^{i pi})^{2s} composite monodromy power, e/pi/R scalar-family unification, treatise-anchored derivation beyond symmetric-category eta=+/-1"
+    },
+    {
+      "id": "core-2",
+      "title": "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference",
+      "authors": ["Rowan Brad Quni-Gudzinas"],
+      "year": 2026,
+      "doi": "10.5281/zenodo.21908818",
+      "class": "Core",
+      "role": "Parent machinery: e (D f = f), pi (Tr id_S^1), half-turn e^{i pi} = -1 (12.1); parity->spin-statistics [my conjecture] (2.3)",
+      "relation": "Supplies the primitive (re-entry, half-turn, trace) that RES.010 derives R from; never constructs two-mark exchange"
+    },
+    {
+      "id": "support-1",
+      "title": "A Review of Majorana fermions and the laws of form",
+      "authors": null,
+      "year": 2022,
+      "doi": "10.1088/1742-6596/2197/1/012001",
+      "class": "Supporting",
+      "role": "Closest external Laws-of-Form x fermion literature; must be engaged in P5 relation-to-prior-art",
+      "relation": "LoF representation of fermion structure, not the exchange-phase invariant; P3 must fetch full body and verify authors/venue"
+    },
+    {
+      "id": "support-2",
+      "title": "Spin-half bosons with mass dimension three-half: Evading the spin-statistics theorem",
+      "authors": null,
+      "year": 2022,
+      "doi": "10.1209/0295-5075/ac97bd",
+      "class": "Supporting",
+      "role": "F2-relevant evasion strategy (mass-dimension-3/2 spinors); erratum 10.1209/0295-5075/acabe2",
+      "relation": "Attacks standard theorem statement, not invariant R; RES.010 F2 (inherited RES.009 F1) covers the evasion class"
+    },
+    {
+      "id": "support-3",
+      "title": "Indistinguishability for quantum particles: spin, statistics and the geometric phase",
+      "authors": null,
+      "year": 2017,
+      "doi": "10.1142/9789813221215_0008",
+      "class": "Supporting",
+      "role": "Geometric-phase reading of indistinguishability; closest external conceptual neighbor",
+      "relation": "Berry-type monodromy lineage; RES.010 monodromy-power reading is distinct and Laws-of-Form-native; acknowledge in P5"
+    },
+    {
+      "id": "background-1",
+      "title": "Laws of Form commentaries (Appendizes/Kontexte/Bemerkungen zur Architektur der Laws of Form)",
+      "authors": ["R. Kaehr"],
+      "year": 2004,
+      "doi": "10.1007/978-3-322-95679-8",
+      "class": "Background",
+      "role": "German-language Laws-of-Form scholarship context",
+      "relation": "Optional citation; no exchange-statistics content"
+    },
+    {
+      "id": "anchor",
+      "title": "Mainstream spin-statistics anchors",
+      "authors": ["Pauli", "Leinaas and Myrheim", "Wilczek", "Duck and Sudarshan", "Joyal and Street", "Kitaev"],
+      "year": "1940-2006",
+      "class": "Background",
+      "role": "Established anchors; already verified in RES.009 citation-audit",
+      "relation": "Carried forward"
+    }
+  ],
+  "not_verified": [
+    "Zenodo API queries (timeout)",
+    "EuropePMC queries (timeout)",
+    "Semantic Scholar queries (timeout)",
+    "DBLP queries (timeout)",
+    "Crossref Q4 (HTTP 429)"
+  ],
+  "patent_check": {
+    "query": "\"exchange phase\" \"half-turn\" spin statistics",
+    "total_results": 0,
+    "verdict": "VERIFIED — no patent claims the exact-phrase combination"
+  },
+  "novelty_verdict": "NET-NEW confirmed: no external prior art derives the exchange phase as the (2s)-fold half-turn of the re-entrant mark, nor states the e/pi/R scalar-family unification. Nearest LoF-fermion work (Majorana-LoF review 2022) is Supporting, not a blocker."
+}
