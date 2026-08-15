@@ -121,9 +121,8 @@ This section permanently resolves the deferred items so they do not recur as ope
 ### PERMANENT DECISION — v1.2 metadata-only newversion: DE-SCOPED
 A metadata-only v1.2 (D1 EuroSciVoc URIs / D3 extra communities / D6 datacite.json+metadata.jsonld) is DEFERRED INDEFINITELY. Rationale: (a) version churn (three versions in one day), (b) the primary D6 rationale (Semantic Scholar presence) is VOID — S2 does not index the QNFO Zenodo record set at all (documented 3/3 404), so datacite.json will not bridge that gap, (c) OpenAIRE (which DOES index QNFO records) already receives the plain-string subjects. The D1/D3/D6 levers will be folded into the NEXT CONTENT revision (e.g., a companion-essay publication or an F2 progress update), not a standalone metadata version.
 
-### PERMANENT BLOCKER — D7 Fediverse broadcast
-No bluesky/mastodon credentials exist in C:\Users\LENOVO\tokens (dir listing 2026-08-14: cloudflare, orcid, qnfo-sync-token, wikidata, zenodo only). The social-media-management skill registry exists but AT-Protocol/ActivityPub posting credentials are not resolvable in this environment. Standing blocker until credentials are provisioned.
-
+### RESOLVED — D7 Fediverse broadcast (Bluesky published)
+Bluesky announcement PUBLISHED 2026-08-15 (handle qnfo.bsky.social, uri at://did:plc:vad2yeqflg5uznmp557zge5c/app.bsky.feed.post/3mt3ifs53ym2r, cid bafyreighwjea2aikkkgomzepds4jzjpgijahxcnxar7exf7bjyh4tyq4di) — 253-char announcement citing the CONCEPT DOI 10.5281/zenodo.21938970 (ZENODO-CONCEPT-DOI-CITE-1 honored). Credentials live in keys.json + .env (NOT the tokens dir — the earlier 'blocked' audit only scanned the tokens dir and missed them). Mastodon remains unprovisioned (no creds). Two skill bugs found + fixed: (1) social-media-management/scripts/bluesky_post.py had a NON-RAW docstring containing Windows paths -> SyntaxError unicodeescape (truncated unicode escape); corrected to a raw docstring; (2) the 300-char Bluesky limit caused the first post failure — reduced to 253.
 ### PERMANENT DOCUMENTATION — Semantic Scholar gap
 S2 systematically 404s all sampled QNFO Zenodo records (v1.0/v1.1/QUNTUF, 2026-08-14). Accepted limitation; no automatic path exists. Evidence: artifacts/external-search/s2_v10.json, s2_v11.json, s2_quntuf.json.
 
