@@ -1,0 +1,61 @@
+{
+ "query": "\"configuration space\" AND (\"exchange statistics\" OR anyons)",
+ "url": "https://zenodo.org/api/records?q=%22configuration%20space%22%20AND%20%28%22exchange%20statistics%22%20OR%20anyons%29&size=10&sort=mostrecent",
+ "total": 9,
+ "results": [
+  {
+   "id": 15706639,
+   "title": "The Clay Millennium Problems as Recursive System Attractors",
+   "doi": "10.5281/zenodo.15706639",
+   "created": "2025-06-20T15:40:13.160503+00:00"
+  },
+  {
+   "id": 21939692,
+   "title": "The Tyranny of the ±1: How a Topological Constraint Became the Iron Law of Nature",
+   "doi": "10.5281/zenodo.21939692",
+   "created": "2026-08-14T21:00:51.965709+00:00"
+  },
+  {
+   "id": 21330410,
+   "title": "A Geometric Origin for Fermi--Dirac Statistics: The Spin-Statistics Connection from $Z_2$ Normal Holonomy Without Lorentz Invariance",
+   "doi": "10.5281/zenodo.21330410",
+   "created": "2026-07-13T03:28:22.382317+00:00"
+  },
+  {
+   "id": 20647634,
+   "title": "A Multi-Layer Classification System for Topological Structures in Mathematical Physics: Axiomatization, Categorification, and Dynamical Predictions",
+   "doi": "10.5281/zenodo.20647634",
+   "created": "2026-06-11T17:46:30.766926+00:00"
+  },
+  {
+   "id": 20195647,
+   "title": "Event Density and Anyon Prohibition in 3+1D",
+   "doi": "10.5281/zenodo.20195647",
+   "created": "2026-05-15T04:19:01.600418+00:00"
+  },
+  {
+   "id": 20071696,
+   "title": "Why Discrete? Topological Quantisation in Field Topology Theory",
+   "doi": "10.5281/zenodo.20071696",
+   "created": "2026-05-07T14:53:18.832329+00:00"
+  },
+  {
+   "id": 19626046,
+   "title": "Paper XXXVII: Topological Origin of Spin and the Spin-Statistics Connection",
+   "doi": "10.5281/zenodo.19626046",
+   "created": "2026-04-17T06:45:14.271462+00:00"
+  },
+  {
+   "id": 18725887,
+   "title": "The Vortex Framework: Topological Fermions from Framed Vortex Loops in a Quantized Superfluid Effective Field Theory Part I",
+   "doi": "10.5281/zenodo.18725887",
+   "created": "2026-02-21T17:30:57.430005+00:00"
+  },
+  {
+   "id": 18041998,
+   "title": "Timeless Description of the Fractional Quantum Hall Effect in Fractal Compact Manifold Theory",
+   "doi": "10.5281/zenodo.18041998",
+   "created": "2025-12-24T03:58:27.583468+00:00"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+  "project": "QNFO.RES.011 configuration-space-topology",
+  "phase": "P2 literature search & triage",
+  "date": "2026-08-15",
+  "sources_covered": ["OpenAlex", "Crossref", "Zenodo", "EuropePMC", "arXiv", "GooglePatents", "archive.org-CDX", "QNFO-KG", "QNFO-D1-fallback"],
+  "classes": {
+    "Core": [
+      {"key": "leinaas-myrheim-1977", "id": "intrinsic-approach", "doi": null, "note": "Canonical CST-for-statistics origin"},
+      {"key": "laidlaw-dewitt-1971", "id": "path-quantization", "doi": null, "note": "Ancestor: Feynman path quantization on C_N"},
+      {"key": "harshman-knapp-2022", "id": "2108.05653", "doi": "10.1103/PhysRevA.105.052214", "note": "Orbifold treatment; dissolves deleted-diagonal scaffold"},
+      {"key": "nagies-2023-traid", "id": "2309.04358", "doi": null, "note": "Traid group lattice model; CST beyond braid group"},
+      {"key": "sati-schreiber-2022-tedk", "id": "2206.13563", "doi": null, "note": "TED K-theory anyonic order; C2 differentiation anchor"},
+      {"key": "sati-schreiber-2022-tqp", "id": "2209.08331", "doi": null, "note": "Topological quantum programming in TED-K"},
+      {"key": "myers-sati-schreiber-2023", "id": "2303.02382", "doi": null, "note": "Topological quantum gates certified in HoTT/cubical Agda"},
+      {"key": "schreiber-shulman-2014", "id": "1408.0054", "doi": null, "note": "Cohesive HoTT as QGFT foundation (C2 contrast)"},
+      {"key": "drinfeld-1990-gt", "id": "gt-survey-1904.13097", "doi": null, "note": "GT group; C2 mathematical anchor (via survey)"},
+      {"key": "li-ge-2026", "id": "zenodo-21330410", "doi": "10.5281/zenodo.21330410", "note": "C3 direct constraint: spin-statistics without Lorentz (EXTERNAL, self-published)"},
+      {"key": "medina-dakic-2023", "id": "2306.05919", "doi": null, "note": "Transtatistics; F2/abelian-pair under attack"},
+      {"key": "harshman-knapp-2018", "id": "1803.11000", "doi": null, "note": "Traid group discovery"}
+    ],
+    "Supporting": [
+      {"key": "sawicki-2014", "id": "1408.7002", "doi": null},
+      {"key": "harrison-2013", "id": "1304.5781", "doi": null},
+      {"key": "maciazek-sawicki-2018", "id": "1806.02846", "doi": null},
+      {"key": "maciazek-2019", "id": "1909.02098", "doi": null},
+      {"key": "chaichian-2012", "id": "1204.5025", "doi": null, "note": "Supersymmetric anyons in 3D"},
+      {"key": "toppan-2023", "id": "2312.13191", "doi": null, "note": "Detectable Z2xZ2 parastatistics"},
+      {"key": "shen-2020", "id": "2003.06235", "doi": null, "note": "Anyon <-> Gentile transformation"},
+      {"key": "dai-xie-2003", "id": "cond-mat-0310066", "doi": null},
+      {"key": "selvi-uncu-2015", "id": "1511.08051", "doi": null},
+      {"key": "jacak-2017", "id": "1704.06560", "doi": null, "note": "UNTESTED, physics.gen-ph"},
+      {"key": "proxmire-2026", "id": "zenodo-20195647", "doi": "10.5281/zenodo.20195647", "note": "Anyon prohibition 3+1D (EXTERNAL)"},
+      {"key": "novickis-2026", "id": "zenodo-19626046", "doi": "10.5281/zenodo.19626046", "note": "Topological origin of spin (EXTERNAL)"},
+      {"key": "smith-2026-vortex", "id": "zenodo-18725887", "doi": "10.5281/zenodo.18725887", "note": "Vortex framework; extended-object fermions (EXTERNAL)"},
+      {"key": "hi-ai-2025-gt", "id": "zenodo-17214997", "doi": "10.5281/zenodo.17214997", "note": "GT group + Cosmic Galois (EXTERNAL)"},
+      {"key": "extended-objects-2012", "id": "10.1007/978-3-0348-0448-6_19", "doi": "10.1007/978-3-0348-0448-6_19"},
+      {"key": "sati-schreiber-2024", "id": "2408.11896", "doi": null},
+      {"key": "qnfo-res009", "id": "spin-statistics-distinction", "doi": "10.5281/zenodo.21941375"},
+      {"key": "qnfo-res010", "id": "exchange-phase-logical-scalar", "doi": "10.5281/zenodo.21941238"},
+      {"key": "qnfo-slb002", "id": "reentrant-distinctions", "doi": "10.5281/zenodo.21908818"}
+    ],
+    "Background": [
+      {"key": "streater-wightman-1964", "doi": "10.1016/0029-5582(64)90049-5"},
+      {"key": "pauli-1940", "doi": "10.1103/PhysRev.58.716"},
+      {"key": "finkelstein-rubinstein-1968", "doi": "10.1063/1.1664510"},
+      {"key": "wilczek-1983", "doi": "10.1103/PhysRevLett.51.2250"},
+      {"key": "read-green-2000", "doi": "10.1103/PhysRevB.61.10267"},
+      {"key": "epmc-fqhe-set", "note": "13 EuropePMC condensed-matter anyon records"},
+      {"key": "qnfo-padic-braid-series", "note": "21208366/21208368/21208491/21336087/21208568"},
+      {"key": "qnfo-qlof-series", "note": "21206074/21205110/21205097/19598745"},
+      {"key": "qnfo-cancellation-rule", "doi": "10.5281/zenodo.21470438"},
+      {"key": "qnfo-tyranny-v3", "doi": "10.5281/zenodo.21939692"}
+    ],
+    "Reject": [
+      {"reason": "OpenAlex F1 MD/ML config-space noise (different field usage)"},
+      {"reason": "arXiv F3 stat.ME OR-tokenization noise"},
+      {"reason": "Google Patents P1 glossary/brake noise (no LoF-statistics patent)"},
+      {"reason": "2512.10504, hep-ph/0610012, 1808.08674, 1807.03334 (irrelevant)"}
+    ]
+  },
+  "kif18_symmetry": {
+    "supports": "C1: LM77/LDW71 + traid/orbifold/graph extension program + Proxmire; C2 route: unoccupied in 8 sources + patents; C3: Streater-Wightman/Pauli/FR/Wilczek standard derivation, no external mark-calculus derivation",
+    "constrains": "C3: Li Ge 21330410 (no-Lorentz claim, must engage); F2: transtatistics 2306.05919 + Toppan 2312.13191; C1: orbifold 10.1103/PhysRevA.105.052214, graphs 1304.5781/1408.7002, supersymmetric anyons 1204.5025, Gentile 2003.06235/cond-mat-0310066/1511.08051; C2: Sati-Schreiber cohesive-HoTT program 1408.0054/2206.13563/2209.08331/2303.02382/2408.11896 (must differentiate mark-based route)"
+  },
+  "note": "16 evidence files in artifacts/external-search/. Zenodo external records ownership-verified per ZENODO-KG-OWNERSHIP-1."
+}

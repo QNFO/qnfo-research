@@ -1,0 +1,13 @@
+{
+ "query": "\"Grothendieck-Teichmuller\" AND braided",
+ "url": "https://zenodo.org/api/records?q=%22Grothendieck-Teichmuller%22%20AND%20braided&size=10&sort=mostrecent",
+ "total": 1,
+ "results": [
+  {
+   "id": 17214997,
+   "title": "Algebraic Structures of the Grothendieck-Teichmüller Group, the Cosmic Galois Group, and Associated Stability Conditions",
+   "doi": "10.5281/zenodo.17214997",
+   "created": "2025-09-27T15:54:15.808506+00:00"
+  }
+ ]
+}

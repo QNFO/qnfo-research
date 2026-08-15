@@ -1,0 +1,87 @@
+{
+ "query": "\"configuration space\" AND (\"exchange statistics\" OR anyons)",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22configuration+space%22+AND+%28%22exchange+statistics%22+OR+anyons%29&format=json&pageSize=10&sort=P_PDATE_D+desc",
+ "total": 13,
+ "results": [
+  {
+   "id": "41331314",
+   "source": "MED",
+   "title": "Statistical control of relaxation and synchronization in open anyonic systems.",
+   "doi": "10.1038/s41598-025-30355-0",
+   "year": "2025",
+   "journal": "Sci Rep"
+  },
+  {
+   "id": "39766664",
+   "source": "MED",
+   "title": "Modification of Premises for the Black Hole Information Paradox Caused by Topological Constraints in the Event Horizon Vicinity.",
+   "doi": "10.3390/e26121035",
+   "year": "2024",
+   "journal": "Entropy (Basel)"
+  },
+  {
+   "id": "37732018",
+   "source": "MED",
+   "title": "Simulating the Hadamard gate in the Fibonacci disk code for universal topological quantum computation.",
+   "doi": "10.1016/j.xinn.2023.100504",
+   "year": "2023",
+   "journal": "Innovation (Camb)"
+  },
+  {
+   "id": "35022491",
+   "source": "MED",
+   "title": "Formal derivation of the Laughlin function and its generalization for other topological phases of FQHE.",
+   "doi": "10.1038/s41598-021-04672-z",
+   "year": "2022",
+   "journal": "Sci Rep"
+  },
+  {
+   "id": "34361462",
+   "source": "MED",
+   "title": "Limits of Applicability of the Composite Fermion Model.",
+   "doi": "10.3390/ma14154267",
+   "year": "2021",
+   "journal": "Materials (Basel)"
+  },
+  {
+   "id": "33801698",
+   "source": "MED",
+   "title": "Topological Classification of Correlations in 2D Electron Systems in Magnetic or Berry Fields.",
+   "doi": "10.3390/ma14071650",
+   "year": "2021",
+   "journal": "Materials (Basel)"
+  },
+  {
+   "id": "32629942",
+   "source": "MED",
+   "title": "Homotopy Phases of FQHE with Long-Range Quantum Entanglement in Monolayer and Bilayer Hall Systems.",
+   "doi": "10.3390/nano10071286",
+   "year": "2020",
+   "journal": "Nanomaterials (Basel)"
+  },
+  {
+   "id": "28821785",
+   "source": "MED",
+   "title": "Machine learning quantum phases of matter beyond the fermion sign problem.",
+   "doi": "10.1038/s41598-017-09098-0",
+   "year": "2017",
+   "journal": "Sci Rep"
+  },
+  {
+   "id": "28265199",
+   "source": "MED",
+   "title": "Topological origin and not purely antisymmetric wave functions of many-body states in the lowest Landau level.",
+   "doi": "10.1098/rspa.2016.0758",
+   "year": "2017",
+   "journal": "Proc Math Phys Eng Sci"
+  },
+  {
+   "id": "27118883",
+   "source": "MED",
+   "title": "Explanation of [Formula: see text] fractional quantum Hall state in bilayer graphene.",
+   "doi": "10.1098/rspa.2015.0330",
+   "year": "2016",
+   "journal": "Proc Math Phys Eng Sci"
+  }
+ ]
+}

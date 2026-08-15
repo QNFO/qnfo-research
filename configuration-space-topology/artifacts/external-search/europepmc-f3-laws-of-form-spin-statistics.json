@@ -1,0 +1,6 @@
+{
+ "query": "\"laws of form\" AND (\"spin statistics\" OR \"exchange statistics\")",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22laws+of+form%22+AND+%28%22spin+statistics%22+OR+%22exchange+statistics%22%29&format=json&pageSize=10&sort=P_PDATE_D+desc",
+ "total": 0,
+ "results": []
+}

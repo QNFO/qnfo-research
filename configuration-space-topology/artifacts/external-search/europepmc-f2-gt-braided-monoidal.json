@@ -1,0 +1,6 @@
+{
+ "query": "\"Grothendieck-Teichmuller\" AND braided",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Grothendieck-Teichmuller%22+AND+braided&format=json&pageSize=10&sort=P_PDATE_D+desc",
+ "total": 0,
+ "results": []
+}

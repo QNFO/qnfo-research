@@ -1,0 +1,19 @@
+{
+ "query": "\"laws of form\" AND (\"spin statistics\" OR \"exchange statistics\")",
+ "url": "https://zenodo.org/api/records?q=%22laws%20of%20form%22%20AND%20%28%22spin%20statistics%22%20OR%20%22exchange%20statistics%22%29&size=10&sort=mostrecent",
+ "total": 2,
+ "results": [
+  {
+   "id": 21943007,
+   "title": "From Distinction to Dissipation: Companion Essay and Executable Toy-Model Suite for the Boson/Fermion Distinction Program",
+   "doi": "10.5281/zenodo.21943007",
+   "created": "2026-08-15T05:31:32.583156+00:00"
+  },
+  {
+   "id": 21941238,
+   "title": "The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus",
+   "doi": "10.5281/zenodo.21941238",
+   "created": "2026-08-15T01:53:31.529643+00:00"
+  }
+ ]
+}
