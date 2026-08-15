@@ -1,0 +1,77 @@
+{
+ "query": "\"laws of form\" OR \"Spencer-Brown\" spin statistics",
+ "url": "https://api.openalex.org/works?search=%22laws%20of%20form%22%20OR%20%22Spencer-Brown%22%20spin%20statistics&per-page=10&mailto=rowan@qnfo.org",
+ "count": 314679,
+ "results": [
+  {
+   "id": "https://openalex.org/W1504171473",
+   "title": "PCT, Spin and Statistics, and All That",
+   "year": 2001,
+   "doi": "10.1515/9781400884230",
+   "cited_by": 1820
+  },
+  {
+   "id": "https://openalex.org/W4253746045",
+   "title": "PCT, spin and statistics, and all that",
+   "year": 1964,
+   "doi": "10.1016/0029-5582(64)90049-5",
+   "cited_by": 1009
+  },
+  {
+   "id": "https://openalex.org/W2095412490",
+   "title": "The Connection Between Spin and Statistics",
+   "year": 1940,
+   "doi": "10.1103/physrev.58.716",
+   "cited_by": 796
+  },
+  {
+   "id": "https://openalex.org/W2065491377",
+   "title": "Linking Numbers, Spin, and Statistics of Solitons",
+   "year": 1983,
+   "doi": "10.1103/physrevlett.51.2250",
+   "cited_by": 783
+  },
+  {
+   "id": "https://openalex.org/W2020725861",
+   "title": "Communication via one- and two-particle operators on Einstein-Podolsky-Rosen states",
+   "year": 1992,
+   "doi": "10.1103/physrevlett.69.2881",
+   "cited_by": 5559
+  },
+  {
+   "id": "https://openalex.org/W2226379371",
+   "title": "Crystal Statistics. II. Partition Function Evaluated by Spinor Analysis",
+   "year": 1949,
+   "doi": "10.1103/physrev.76.1232",
+   "cited_by": 779
+  },
+  {
+   "id": "https://openalex.org/W2136592254",
+   "title": "Quantum Spin Hall Effect",
+   "year": 2006,
+   "doi": "10.1103/physrevlett.96.106802",
+   "cited_by": 2160
+  },
+  {
+   "id": "https://openalex.org/W3022271612",
+   "title": "Paired states of fermions in two dimensions with breaking of parity and time-reversal symmetries and the fractional quantum Hall effect",
+   "year": 2000,
+   "doi": "10.1103/physrevb.61.10267",
+   "cited_by": 3531
+  },
+  {
+   "id": "https://openalex.org/W1972384550",
+   "title": "Connection between Spin, Statistics, and Kinks",
+   "year": 1968,
+   "doi": "10.1063/1.1664510",
+   "cited_by": 378
+  },
+  {
+   "id": "https://openalex.org/W1483893079",
+   "title": "Quantum Dissipative Systems",
+   "year": 2012,
+   "doi": "10.1142/9789814374927",
+   "cited_by": 2395
+  }
+ ]
+}

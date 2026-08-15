@@ -1,0 +1,34 @@
+{
+  "project": "QNFO.RES.011 configuration-space-topology",
+  "phase": "P1 due diligence",
+  "date": "2026-08-15",
+  "source": "arxiv-mcp-server search_papers (3 formulations, 15 results each)",
+  "formulations": [
+    "F1: \"configuration space\" AND (\"exchange statistics\" OR anyons) AND (\"fundamental group\" OR braid group) [quant-ph, math-ph, cond-mat.str-el]",
+    "F2: Grothendieck-Teichmuller group braided monoidal categories [math.QA, math.GT, math.CT]",
+    "F3: \"laws of form\" OR \"Spencer-Brown\" OR \"distinction calculus\" statistics OR \"spin-statistics\" [math.LO, math.CT, quant-ph]"
+  ],
+  "key_papers": [
+    {"id": "2309.04358v3", "title": "Beyond braid statistics: Constructing a lattice model for anyons with exchange statistics intrinsic to one dimension", "authors": "Nagies, Wang, Knapp, Eckardt, Harshman", "year": 2023, "relevance": "traid group - config-space program extended beyond braid group (3-body hard core in 1D); COMPLICATES any 'braid group is the whole story' framing"},
+    {"id": "2108.05653v5", "title": "Topological Exchange Statistics in One Dimension", "authors": "Harshman, Knapp", "year": 2021, "published_as": "Phys. Rev. A 105, 052214 (2022) doi:10.1103/physreva.105.052214", "relevance": "orbifold treatment INCLUDING singular points instead of deleting diagonal - directly targets the hard-core-diagonal scaffold"},
+    {"id": "1803.11000v4", "title": "Anyons from Three-Body Hard-Core Interactions in One Dimension", "authors": "Harshman, Knapp", "year": 2018, "relevance": "traid group discovery; defects with co-dimension two make config space not simply-connected"},
+    {"id": "1806.02846v3", "title": "Non-abelian Quantum Statistics on Graphs", "authors": "Maciazek, Sawicki", "year": 2018, "relevance": "graph config spaces; homology-based framework for non-abelian statistics"},
+    {"id": "1909.02098v1", "title": "Non-abelian anyons on graphs from presentations of graph braid groups", "authors": "Maciazek", "year": 2019, "relevance": "physical presentations of graph braid groups; moduli of flat bundles"},
+    {"id": "1304.5781v1", "title": "n-particle quantum statistics on graphs", "authors": "Harrison, Keating, Robbins, Sawicki", "year": 2013, "relevance": "abelian statistics on graphs; connectivity determines anyon phases"},
+    {"id": "1408.7002v1", "title": "Topology of graph configuration spaces and quantum statistics", "authors": "Sawicki", "year": 2014, "relevance": "full characterization; 2-connected/3-connected graph statistics"},
+    {"id": "1704.06560v2", "title": "Confinement and fractional charge of quarks from braid group approach to holographic principle", "authors": "Jacak", "year": 2017, "relevance": "HOLOGRAPHIC-PRINCIPLE thread of the notes: boundary topology of 3D space -> braid group reps; anyons on a sphere; quark confinement conjecture [physics.gen-ph - low authority]"},
+    {"id": "2408.11896v2", "title": "Cohomotopy, Framed Links, and Abelian Anyons", "authors": "Sati, Schreiber", "year": 2024, "relevance": "group-completed config space of points in plane; abelian Chern-Simons; HoTT-school authors"},
+    {"id": "2206.13563v2", "title": "Anyonic Topological Order in Twisted Equivariant Differential (TED) K-Theory", "authors": "Sati, Schreiber", "year": 2022, "relevance": "config spaces of points in Brillouin torus classify interacting phases; cohesive HoTT modal quantum logic - the HoTT-anyon bridge ALREADY EXISTS externally"},
+    {"id": "2209.08331v1", "title": "Topological Quantum Programming in TED-K", "authors": "Sati, Schreiber", "year": 2022, "relevance": "typed functional topological quantum programming in cohesive HoTT - must be cited/differentiated in C2"},
+    {"id": "2112.07195v2", "title": "Ising-like and Fibonacci-Anyons from KZ-equations", "authors": "Gu, Haghighat, Liu", "year": 2021, "relevance": "monodromy braid reps from config-space singular points; hypergeometric"},
+    {"id": "2006.13663v1", "title": "Dessins for Modular Operad and Grothendieck-Teichmuller Group", "authors": "", "year": 2020, "relevance": "GT group literature (operad route), no physics connection"},
+    {"id": "1904.13097v1", "title": "Grothendieck-Teichmueller group, operads and graph complexes: a survey", "authors": "", "year": 2019, "relevance": "GT survey - anchor reference for the GT side of C2"},
+    {"id": "1904.10491v1", "title": "Quantum geometry of moduli spaces of local systems and representation theory", "authors": "", "year": 2019, "relevance": "GT-adjacent; quantum geometry of moduli"}
+  ],
+  "verdicts": {
+    "F1": "CST framework ESTABLISHED and actively extended (traid group, orbifolds, graphs). No external derivation from a distinction calculus.",
+    "F2": "GT group mature in operad/graph-complex mathematics; zero connection to exchange-statistics physics or distinction calculi.",
+    "F3": "NOISE on arXiv (OR-tokenized to statistics papers) - independently confirms absence of LoF x spin-statistics literature; matches RES.009 cycle arXiv check (Mund 0801.3621, Kuckert hep-th/9412130, Oeckl hep-th/0008072 only)."
+  },
+  "note": "F3 arXiv formulation was OR-heavy and returned stat.ME noise; qualitative conclusion cross-confirmed by OpenAlex F3 top-10 (Streater-Wightman, Pauli, Finkelstein-Rubinstein, Wilczek - no LoF) and Crossref F3 (German LoF reception literature - no physics)."
+}

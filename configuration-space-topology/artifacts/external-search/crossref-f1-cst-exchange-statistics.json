@@ -1,0 +1,55 @@
+{
+ "query": "\"configuration space\" exchange statistics fundamental group",
+ "url": "https://api.crossref.org/works?query.bibliographic=%22configuration%20space%22%20exchange%20statistics%20fundamental%20group&rows=8&mailto=rowan@qnfo.org",
+ "total": 2961004,
+ "results": [
+  {
+   "title": "Thermodynamics and Mixtures on Configuration Space",
+   "year": 2016,
+   "doi": "10.1007/978-3-319-34166-8_4",
+   "container": "Fundamental Theories of Physics"
+  },
+  {
+   "title": "The Geometry of Ensembles on Configuration Space",
+   "year": 2016,
+   "doi": "10.1007/978-3-319-34166-8_6",
+   "container": "Fundamental Theories of Physics"
+  },
+  {
+   "title": "A PRESENTATION OF THE FUNDAMENTAL GROUP OF THE CONFIGURATION SPACE OF 5 POINTS ON THE PROJECTIVE LINE",
+   "year": 1994,
+   "doi": "10.2206/kyushujm.48.283",
+   "container": "Kyushu Journal of Mathematics"
+  },
+  {
+   "title": "The Propagator in Configuration Space",
+   "year": 2018,
+   "doi": "10.1201/9780429492501-18",
+   "container": "The Theory of Fundamental Processes"
+  },
+  {
+   "title": "Exact expression for the hot plasma conductivity kernel in configuration space",
+   "year": 2023,
+   "doi": "10.1016/j.fpp.2023.100008",
+   "container": "Fundamental Plasma Physics"
+  },
+  {
+   "title": "Ensembles on Configuration Space",
+   "year": 2016,
+   "doi": "10.1007/978-3-319-34166-8",
+   "container": "Fundamental Theories of Physics"
+  },
+  {
+   "title": "Local Representations of Rotations on Discrete Configuration Spaces",
+   "year": 2016,
+   "doi": "10.1007/978-3-319-34166-8_7",
+   "container": "Fundamental Theories of Physics"
+  },
+  {
+   "title": "Fundamental group of Desargues configuration spaces",
+   "year": 2012,
+   "doi": "10.1556/sscmath.49.2012.3.1210",
+   "container": "Studia Scientiarum Mathematicarum Hungarica"
+  }
+ ]
+}

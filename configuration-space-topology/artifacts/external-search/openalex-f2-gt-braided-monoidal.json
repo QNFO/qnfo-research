@@ -1,0 +1,77 @@
+{
+ "query": "Grothendieck-Teichmuller braided monoidal categories",
+ "url": "https://api.openalex.org/works?search=Grothendieck-Teichmuller%20braided%20monoidal%20categories&per-page=10&mailto=rowan@qnfo.org",
+ "count": 36,
+ "results": [
+  {
+   "id": "https://openalex.org/W4394671062",
+   "title": "Dessins for Modular Operad and Grothendieck-Teichmuller Group",
+   "year": 2020,
+   "doi": "10.48550/arxiv.2006.13663",
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W2943444994",
+   "title": "Grothendieck-Teichmueller group, operads and graph complexes: a survey",
+   "year": 2019,
+   "doi": "10.48550/arxiv.1904.13097",
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W2902794095",
+   "title": "Little discs operads, graph complexes and Grothendieck-Teichmüller groups",
+   "year": 2020,
+   "doi": "10.1201/9781351251624-11",
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4385292423",
+   "title": "Categorification and Dynamics in Generalised Braid Groups",
+   "year": 2022,
+   "doi": "10.25911/fd1c-fa86",
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W4297899999",
+   "title": "Vertex operator algebra and parenthesized braid operad",
+   "year": 2022,
+   "doi": "10.48550/arxiv.2209.10443",
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W2260376366",
+   "title": "The stable symplectic category and a conjecture of Kontsevich",
+   "year": 2018,
+   "doi": "10.1090/conm/708/14269",
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4289238203",
+   "title": "Little discs operads, graph complexes and Grothendieck--Teichmüller groups",
+   "year": 2018,
+   "doi": "10.48550/arxiv.1811.12536",
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W2941583436",
+   "title": "Quantum geometry of moduli spaces of local systems and representation theory",
+   "year": 2019,
+   "doi": "10.48550/arxiv.1904.10491",
+   "cited_by": 37
+  },
+  {
+   "id": "https://openalex.org/W1630548293",
+   "title": "Simplex and Polygon Equations",
+   "year": 2015,
+   "doi": "10.3842/sigma.2015.042",
+   "cited_by": 43
+  },
+  {
+   "id": "https://openalex.org/W2175899930",
+   "title": "Operads & Grothendieck-Teichmüller groups - Lecture 6: Fundamental groupoids and the colored braid o",
+   "year": 2012,
+   "doi": "",
+   "cited_by": 0
+  }
+ ]
+}

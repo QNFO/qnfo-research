@@ -1,0 +1,77 @@
+{
+ "query": "\"configuration space\" exchange statistics fundamental group",
+ "url": "https://api.openalex.org/works?search=%22configuration%20space%22%20exchange%20statistics%20fundamental%20group&per-page=10&mailto=rowan@qnfo.org",
+ "count": 2750,
+ "results": [
+  {
+   "id": "https://openalex.org/W2085213650",
+   "title": "Markov models of molecular kinetics: Generation and validation",
+   "year": 2011,
+   "doi": "10.1063/1.3565032",
+   "cited_by": 1359
+  },
+  {
+   "id": "https://openalex.org/W2143592395",
+   "title": "Identification of slow molecular order parameters for Markov model construction",
+   "year": 2013,
+   "doi": "10.1063/1.4811489",
+   "cited_by": 1062
+  },
+  {
+   "id": "https://openalex.org/W4280577628",
+   "title": "Topological exchange statistics in one dimension",
+   "year": 2022,
+   "doi": "10.1103/physreva.105.052214",
+   "cited_by": 23
+  },
+  {
+   "id": "https://openalex.org/W2121846340",
+   "title": "A* planning in discrete configuration spaces of autonomous systems",
+   "year": 1996,
+   "doi": "",
+   "cited_by": 15
+  },
+  {
+   "id": "https://openalex.org/W2323394020",
+   "title": "Molecular mechanics and dynamics: numerical tools to sample the configuration space",
+   "year": 2014,
+   "doi": "10.2741/4229",
+   "cited_by": 15
+  },
+  {
+   "id": "https://openalex.org/W2285880935",
+   "title": "Geometry and Symmetries in Coordination Control",
+   "year": 2009,
+   "doi": "",
+   "cited_by": 87
+  },
+  {
+   "id": "https://openalex.org/W2037343549",
+   "title": "Representation theory and homological stability",
+   "year": 2013,
+   "doi": "10.1016/j.aim.2013.06.016",
+   "cited_by": 217
+  },
+  {
+   "id": "https://openalex.org/W977343888",
+   "title": "Quantum Configuration Spaces of Extended Objects, Diffeomorphism Group Representations and Exotic Statistics",
+   "year": 2012,
+   "doi": "10.1007/978-3-0348-0448-6_19",
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4392843672",
+   "title": "Enhanced Sampling with Machine Learning",
+   "year": 2024,
+   "doi": "10.1146/annurev-physchem-083122-125941",
+   "cited_by": 129
+  },
+  {
+   "id": "https://openalex.org/W3201073812",
+   "title": "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales",
+   "year": 2021,
+   "doi": "10.1016/j.cpc.2021.108171",
+   "cited_by": 12111
+  }
+ ]
+}

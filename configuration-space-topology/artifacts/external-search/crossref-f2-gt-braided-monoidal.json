@@ -1,0 +1,55 @@
+{
+ "query": "Grothendieck-Teichmuller braided monoidal categories",
+ "url": "https://api.crossref.org/works?query.bibliographic=Grothendieck-Teichmuller%20braided%20monoidal%20categories&rows=8&mailto=rowan@qnfo.org",
+ "total": 50045,
+ "results": [
+  {
+   "title": "Braided and Symmetric Monoidal Categories",
+   "year": 2021,
+   "doi": "10.1142/9789811250934_0021",
+   "container": "Infinity Operads and Monoidal Categories with Group Equivariance"
+  },
+  {
+   "title": "On The Construction of Braided Pre-monoidal Nonassociative Categories",
+   "year": null,
+   "doi": "10.14264/138905",
+   "container": ""
+  },
+  {
+   "title": "Monoidal Categories Enriched in Braided Monoidal Categories",
+   "year": 2017,
+   "doi": "10.1093/imrn/rnx217",
+   "container": "International Mathematics Research Notices"
+  },
+  {
+   "title": "Monoidal and Braided Categories",
+   "year": 2019,
+   "doi": "10.1017/9781108582780.002",
+   "container": "Quasi-Hopf Algebras"
+  },
+  {
+   "title": "Braided skew monoidal categories",
+   "year": 2020,
+   "doi": "10.70930/tac/ei4b9k93",
+   "container": "Theory and Applications of Categories"
+  },
+  {
+   "title": "Monoidal Grothendieck Construction",
+   "year": 2020,
+   "doi": "10.70930/tac/4tsjzc1o",
+   "container": "Theory and Applications of Categories"
+  },
+  {
+   "title": "Braided Operads",
+   "year": 2021,
+   "doi": "10.1142/9789811250934_0005",
+   "container": "Infinity Operads and Monoidal Categories with Group Equivariance"
+  },
+  {
+   "title": "New braided monoidal categories over monoidal Hom-Hopf algebras",
+   "year": 2017,
+   "doi": "10.4064/cm6706-11-2015",
+   "container": "Colloquium Mathematicum"
+  }
+ ]
+}

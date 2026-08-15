@@ -1,0 +1,55 @@
+{
+ "query": "\"laws of form\" OR \"Spencer-Brown\" spin statistics",
+ "url": "https://api.crossref.org/works?query.bibliographic=%22laws%20of%20form%22%20OR%20%22Spencer-Brown%22%20spin%20statistics&rows=8&mailto=rowan@qnfo.org",
+ "total": 1749342,
+ "results": [
+  {
+   "title": "Appendizes zu den Laws of Form",
+   "year": 2004,
+   "doi": "10.1007/978-3-322-95679-8_17",
+   "container": "George Spencer Brown"
+  },
+  {
+   "title": "Kontexte der Laws of Form",
+   "year": 2004,
+   "doi": "10.1007/978-3-322-95679-8_2",
+   "container": "George Spencer Brown"
+  },
+  {
+   "title": "Kontexte der Laws of Form",
+   "year": 2009,
+   "doi": "10.1007/978-3-531-91964-5_2",
+   "container": "George Spencer Brown"
+  },
+  {
+   "title": "Bemerkungen zur Architektur der Laws of Form",
+   "year": 2004,
+   "doi": "10.1007/978-3-322-95679-8_3",
+   "container": "George Spencer Brown"
+  },
+  {
+   "title": "Appendizes zu den Laws of Form",
+   "year": 2009,
+   "doi": "10.1007/978-3-531-91964-5_17",
+   "container": "George Spencer Brown"
+  },
+  {
+   "title": "Bemerkungen zur Architektur der Laws of Form",
+   "year": 2009,
+   "doi": "10.1007/978-3-531-91964-5_3",
+   "container": "George Spencer Brown"
+  },
+  {
+   "title": "Wie Gott und Spencer-Brown Welten erschufen",
+   "year": 2022,
+   "doi": "10.55301/9783849790271",
+   "container": ""
+  },
+  {
+   "title": "Das Prinzip der Unterscheidung",
+   "year": 2021,
+   "doi": "10.1007/978-3-658-33415-4_24",
+   "container": "Schlüsselwerke der Systemtheorie"
+  }
+ ]
+}
