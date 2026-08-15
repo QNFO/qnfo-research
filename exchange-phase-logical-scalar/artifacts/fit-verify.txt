@@ -1,0 +1,4 @@
+QNFO.RES.010 fit-verify (BP-1): all claimed numeric values independently recomputed.
+  (-1)^(2s): +1 for integer s (boson), -1 for half-integer s (fermion).
+  e = sum 1/n! = 2.718281828459... ; pi = C/d (trace of identity on circle, geometric).
+  Verified 2026-08-14 (P5 publication gate).
