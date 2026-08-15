@@ -3,7 +3,7 @@
 **Project:** QNFO.JPC.002 — jpcub-llm-energy (JPCUB Paper P3)
 **Phase:** 2 (Metric Formalization)
 **Date:** 2026-08-15
-**Status:** Draft — Phase 2
+**Status:** Published — v1.1.2 (supporting artifact, JPCUB Paper P3)
 
 ---
 
@@ -49,7 +49,7 @@ $$J/S_{\tau}(n) \;=\; \frac{n\,E_{q}}{\,1 - (1 - p_{q}(\tau))^{n}\,}$$
 
 *Interpretation.* The naive "joules per query" understates cost for inaccurate models; sampling buys accuracy at strictly increasing (or, under batching, non-decreasing) J/S. The honest efficiency claim is the single-shot operating point, and reporting J/S without a stated $n$ and $p_{q}$ is incomplete (anti-gaming provision A1 below).
 
-**Definition 3.4 (majority-vote / self-consistency).** If the verifier accepts the majority answer over $n$ samples and each sample is correct with probability $p$, then $P_{\mathrm{correct}}(n) = P\!\left(\mathrm{Bin}(n,p) > n/2\right)$, and $J/S_{\tau}(n) = n E_{q} / P_{\mathrm{correct}}(n)$. Regime-specific; computable in closed form for given $n, p$.
+**Definition 3.5 (majority-vote / self-consistency).** If the verifier accepts the majority answer over $n$ samples and each sample is correct with probability $p$, then $P_{\mathrm{correct}}(n) = P\!\left(\mathrm{Bin}(n,p) > n/2\right)$, and $J/S_{\tau}(n) = n E_{q} / P_{\mathrm{correct}}(n)$. Regime-specific; computable in closed form for given $n, p$.
 
 ## 4. Reasoning-Budget Dependence (test-time compute)
 
@@ -90,7 +90,7 @@ where $t_{\mathrm{sol}}$ is time to a *correct* solution by a task-appropriate e
 **Attribution rule (pre-registered, symmetric):**
 - **Primary:** brain-only, $P = 20\,\mathrm{W}$ (neutral, standard, conservative against the LLM's favor).
 - **Sensitivity bounds:** task-marginal cognitive power (~3–5 W) and full-body basal (~100 W) reported as bounds.
-- **Amortization:** human "training" (development/education) energy is reported *separately* and *symmetrically* with LLM training amortization (Section 8 of ESTIMATES.md). Never charge one side's amortized cost against the other's marginal cost.
+- **Amortization:** human "training" (development/education) energy is reported *separately* and *symmetrically* with LLM training amortization (Section 4 of ESTIMATES.md). Never charge one side's amortized cost against the other's marginal cost.
 
 ## 7. System Boundary (JPCUB six-component mandate)
 

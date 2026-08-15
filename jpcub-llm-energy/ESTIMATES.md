@@ -3,7 +3,7 @@
 **Project:** QNFO.JPC.002 — jpcub-llm-energy (JPCUB Paper P3)
 **Phase:** 3 (Estimation & Comparison)
 **Date:** 2026-08-15
-**Status:** Draft — Phase 3
+**Status:** Published — v1.1.2 (supporting artifact, JPCUB Paper P3)
 
 ---
 
@@ -39,12 +39,14 @@ System-level J/S = (GPU-only × A4) ÷ accuracy, per Definitions 3.1/5.3 of METR
 | Math word problems (GSM8K-class) | ~90–180 | 900–1,800 | ~0.05–0.20 | LLM ~5–20× more efficient |
 | Graduate reasoning (GPQA-class, single pass) | ~9,000–12,600 | 6,000–18,000 | ~0.5–2.1 | **Parity** |
 | GPQA + self-consistency (n = 8) | ~55,000 | 6,000–18,000 | ~3–9× | **LLM worse** |
-| Agentic coding (SWE-bench-class) | ~10⁵–5×10⁶ | 1.4×10⁵–4.3×10⁵ | ~0.2–12× | **Parity to worse** |
+| Agentic coding (SWE-bench-class) | ~10⁵–5×10⁶ | 1.4×10⁵–4.3×10⁵ | ~0.2–36× | **Parity to worse** |
 
 Worked anchor for the GPQA row (the load-bearing estimate):
 - GPU-only response energy (measured mean) = 4,625 J (A8) → system ≈ 6,900 J (A4) → J/S = 6,900 ÷ 0.6 (A11 mid) ≈ **11,500 J**.
 - Human expert: 20 W × 10 min = **12,000 J** (A14, A15).
 - Both are ~10⁴ J: the two substrates are within a factor of ~2 on graduate reasoning.
+
+Sampling transparency (anti-gaming A1): $n$ and $p_{q}$ stated per row; temperature N/A for these derived estimates (measurement-time parameter).
 
 ## 3. The Three Multipliers (why J/token misleads)
 
@@ -57,7 +59,7 @@ Worked anchor for the GPQA row (the load-bearing estimate):
 | System | Training/development energy | Amortization base | Amortized per solution |
 |:-------|:---------------------------|:------------------|:-----------------------|
 | GPT-3 (frontier, 2020) | ~4.6×10¹² J (1,287 MWh) | 10⁹–10¹¹ lifetime queries | 46 – 4.6×10³ J/query |
-| GPT-4-class (frontier, 2023) | ~1.8–3.6×10¹⁴ J (50–100 GWh) | 10⁹–10¹¹ lifetime queries | 1.8×10³ – 3.6×10⁵ J/query |
+| GPT-4-class (frontier, 2023) | ~1.8–3.6×10¹⁴ J (50–100 GWh; widely reported industry estimate, no primary disclosure) | 10⁹–10¹¹ lifetime queries | 1.8×10³ – 3.6×10⁵ J/query |
 | Human brain (development/education) | ~1.3×10¹⁰ J (20 W × 20 yr, brain-only) | ~10⁵ lifetime professional solutions | ~1.3×10⁵ J/solution |
 
 **Finding.** At high query volume (10¹¹), frontier-model training amortizes to ~10³ J/query — comparable to per-query inference. At 10⁹ queries, amortized training (up to 3.6×10⁵ J/query) *dominates* inference. The human "training" amortization (~10⁵ J/solution) sits in the same band as agentic LLM J/S. Any comparison that charges one side's amortization without the other's is biased by up to three orders of magnitude.
@@ -74,4 +76,4 @@ These are estimates from published measurement data, not new measurements. The f
 
 ## 7. Robustness of the Shape (what the estimates actually claim)
 
-Even if every input moves ±3× in the worst direction simultaneously (GPU-only understatement, accuracy optimism, token-count optimism), the *ordering* of the rows does not change: **LLM advantage is largest on cheap single-shot tasks and shrinks monotonically as tasks demand more tokens, more samples, or more orchestration — crossing parity inside the hard-reasoning and agentic bands.** That monotonic crossover, not any single number, is the load-bearing claim of P6.
+The *shape* claim is robust to ±3× perturbation of **any single input**: no single ±3× move flips the ordering of any row (QA worst case: 70 J × 3 = 210 J vs human 400 J — LLM still wins; GPQA worst case moves within the parity-or-worse band). It is **not** robust to worst-case simultaneous compounding of all three named inputs (GPU-only understatement × accuracy optimism × token-count optimism, up to 3³ = 27×): QA 35–70 J × 3 = 105–210 J overlaps human 400–600 J ÷ 3 = 133–200 J, so the cheap-task *advantage* can compress toward parity at the extremes. The robust core is the monotonic crossover: **LLM advantage is largest on cheap single-shot tasks and shrinks as tasks demand more tokens, samples, or orchestration — parity-or-worse inside the hard-reasoning and agentic bands.** That monotonic crossover, not any single number, is the load-bearing claim of P6.

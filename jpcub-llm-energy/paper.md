@@ -4,7 +4,7 @@ author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-15"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 status: "published"
-doi: "10.5281/zenodo.21944533"
+doi: "10.5281/zenodo.21944532"
 wbs: "QNFO.JPC.002"
 series: "Joules-per-Compute Universal Benchmark (JPCUB) — Paper P3"
 keywords:
@@ -121,7 +121,7 @@ The resting human brain consumes approximately 20 W — roughly 20% of the ~100 
 
 $$J/S_{\mathrm{human}} = P_{\mathrm{brain}} \cdot t_{\mathrm{sol}} \approx 20\,\mathrm{W} \cdot t_{\mathrm{sol}}$$
 
-**Pre-registered attribution rule (symmetric):** primary = brain-only 20 W; sensitivity bounds = task-marginal cognitive power (~3–5 W) and full-body basal (~100 W); amortization (education/development) reported separately and symmetrically with LLM training amortization (Section 8). A comparison that charges one side's amortized cost against the other's marginal cost is biased by up to three orders of magnitude and is rejected by this protocol.
+**Pre-registered attribution rule (symmetric):** primary = brain-only 20 W; sensitivity bounds = task-marginal cognitive power (~3–5 W) and full-body basal (~100 W); amortization (education/development) reported separately and symmetrically with LLM training amortization (Section 8). A comparison that charges one side's amortized cost against the other's marginal cost is biased by up to three orders of magnitude and is rejected by this protocol. P0 already remarked on the brain's $\sim 2\times10^{-15}$ J per synaptic operation (its Section 5.3) [@qnfo2026joules]; the per-solution comparison here is complementary — per-operation efficiency is not per-verified-solution efficiency.
 
 # 7. Task-Stratified Estimates
 
@@ -133,20 +133,22 @@ Estimates are derived from the published anchors of Section 2 with the assumptio
 | Math word problems (GSM8K-class) | ~90–180 J | 900–1,800 J | ~0.05–0.20 |
 | Graduate reasoning (GPQA-class, single pass) | ~9,000–12,600 J | 6,000–18,000 J | ~0.5–2.1 |
 | GPQA + self-consistency (n = 8) | ~55,000 J | 6,000–18,000 J | ~3–9 |
-| Agentic coding (SWE-bench-class) | $10^{5}$–$5 \times 10^{6}$ J | $1.4 \times 10^{5}$–$4.3 \times 10^{5}$ J | ~0.2–12 |
+| Agentic coding (SWE-bench-class) | $10^{5}$–$5 \times 10^{6}$ J | $1.4 \times 10^{5}$–$4.3 \times 10^{5}$ J | ~0.2–36 |
+
+Sampling transparency (anti-gaming A1): $n$ and $p_{q}$ are stated per row; temperature is not applicable to these *derived* estimates (it is a measurement-time parameter, required when measurements are reported).
 
 Worked anchor (GPQA row, the load-bearing estimate): measured mean GPU-only response energy 4,625 J [@chung2026where] $\times$ 1.5 = 6,900 J system; at pass@1 $= 0.6$, $J/S \approx 11{,}500$ J. Human expert at 20 W for 10 minutes: 12,000 J. **Both substrates sit at $\sim 10^{4}$ J per correct graduate-level answer.**
 
 Three multipliers explain why J/token misleads: (1) the accuracy correction divides by $p$ (0.6 accuracy costs 1.67$\times$); (2) reasoning-token explosion multiplies output length by per-token cost — the measured 25$\times$ spread between chat and problem-solving energy per response [@chung2026where]; (3) agentic orchestration multiplies total tokens across the graph to $10^{5}$–$10^{6}$ per attempt.
 
-The shape, not the numbers, is the claim: **the LLM advantage is largest on cheap single-shot tasks (~1 order of magnitude, 6–17$\times$) and shrinks monotonically as tasks demand more tokens, more samples, or more orchestration, crossing parity inside the hard-reasoning band and going negative under sampling or agentic operation.** The result is robust to $\pm 3\times$ perturbation of any single input (ESTIMATES.md Section 7).
+The shape, not the numbers, is the claim: **the LLM advantage is largest on cheap single-shot tasks (~1 order of magnitude, 6–17$\times$) and shrinks monotonically as tasks demand more tokens, more samples, or more orchestration, crossing parity inside the hard-reasoning band and going negative under sampling or agentic operation.** The result is robust to $\pm 3\times$ perturbation of any single input — not to worst-case simultaneous compounding, which can compress the cheap-task advantage toward parity (ESTIMATES.md Section 7).
 
 # 8. Training-Amortization Asymmetry
 
 | System | Training energy | Amortized per solution |
 |:-------|:----------------|:-----------------------|
 | GPT-3 | ~$4.6 \times 10^{12}$ J (1,287 MWh) [@patterson2021carbon] | 46 – $4.6 \times 10^{3}$ J/query (at $10^{11}$–$10^{9}$ lifetime queries) |
-| GPT-4-class | ~$1.8$–$3.6 \times 10^{14}$ J (50–100 GWh) | $1.8 \times 10^{3}$ – $3.6 \times 10^{5}$ J/query |
+| GPT-4-class | ~$1.8$–$3.6 \times 10^{14}$ J (50–100 GWh; widely reported industry estimate, no primary disclosure) | $1.8 \times 10^{3}$ – $3.6 \times 10^{5}$ J/query |
 | Human brain (development) | ~$1.3 \times 10^{10}$ J (20 W $\times$ 20 yr, brain-only) | ~$1.3 \times 10^{5}$ J/solution (at ~$10^{5}$ lifetime professional solutions) |
 
 Frontier-model training amortizes to ~$10^{3}$ J/query only at $10^{11}$ lifetime queries; at $10^{9}$ queries it *dominates* inference (up to $3.6 \times 10^{5}$ J/query). The human development band (~$10^{5}$ J/solution) overlaps the agentic J/S band. Any informal "AI vs brain" energy comparison that omits this table is asymmetric by construction.
