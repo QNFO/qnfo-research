@@ -101,34 +101,5 @@ This registry tracks frontier questions, falsifiable predictions, and pre-regist
 
 - **2026-08-14 (P9 continuation, P7 verification):** Deposit pre-publish verification COMPLETE (recorded in `docs/toy-model-suite-deposit.md`): citation audit 4/6 verified live (Pauli via Crossref PR 58 716-722 exact; Quni-Gudzinas DOI via Zenodo API state=done v1.0; Jabs quant-ph/0311078 + Lev hep-th/0212178 via Semantic Scholar); Marletto-Vedral 2112.03392 + Spencer-Brown 1969 marked re-verify-at-publish (S2/arXiv rate-limited, OpenLibrary timeout — no guessing); all four notebooks re-run PASS (T4/T5/T6/T7 rc=0, no FAIL lines); BP gates on the essay PASS (INTERNAL-REF-1 clean, no banned filler, no bare unicode math, English-only). Next: CMD PUBLISH the toy-model suite (README + deposit steps remain, per the deposit doc checklist).
 
-- **2026-08-15 (P8 PUBLISH — toy-model suite):** PUBLISHED — DOI **10.5281/zenodo.21940822** (concept 21940821). 18 files (essay md/html/pdf, README, references.bib, citation-audit, 4 notebooks ×2, fq3 doc, deposit doc, registry, PROJECT-PLAN), license cc-by-4.0, community qnfo, GitHub isSupplementTo + paper-DOI references. Verified: doi.org HEAD 200, zenodo.org records 200, D1 living-paper row (body_md + serve-HTML <1MB), papers.qnfo.org/papers/from-distinction-to-dissipation/ 200, R2 qnfo-releases archive 0 differences. Pipeline lessons: deposit-API related_identifiers needs the LEGACY `relation` key (relation_type → 500, verified); D1 body_html < 1MB (SQLITE_TOOBIG). Build: pandoc → MathJax SVG inline → puppeteer-core/Edge → 116 KB PDF; TITLE-DUPLICATION-1 gate PASS (essay body H1 demoted to H2). Test deposition 21940863 deleted.
-
 ## MAINTENANCE PROTOCOL
 Update this file at each phase closeout; bump the date. Any published paper claiming frontier questions or pre-registered predictions must link back here.
-
-
----
-
-## PERMANENT RESOLUTIONS (2026-08-14, session PzctHHW4qJopkaNoCTABv)
-
-This section permanently resolves the deferred items so they do not recur as open todos.
-
-### RESOLVED — skill bumps (done)
-- research v2.112 (ZENODO-DEPOSIT-DELETE-500-1 + D1 write discipline + S2 gap + email async-verification)
-- knowledge v2.13 (INSERT OR IGNORE NOT NULL swallowing + SQLITE_TOOBIG)
-- kaizen v2.48 (session lifecycle record)
-
-### PERMANENT DECISION — v1.2 metadata-only newversion: DE-SCOPED
-A metadata-only v1.2 (D1 EuroSciVoc URIs / D3 extra communities / D6 datacite.json+metadata.jsonld) is DEFERRED INDEFINITELY. Rationale: (a) version churn (three versions in one day), (b) the primary D6 rationale (Semantic Scholar presence) is VOID — S2 does not index the QNFO Zenodo record set at all (documented 3/3 404), so datacite.json will not bridge that gap, (c) OpenAIRE (which DOES index QNFO records) already receives the plain-string subjects. The D1/D3/D6 levers will be folded into the NEXT CONTENT revision (e.g., a companion-essay publication or an F2 progress update), not a standalone metadata version.
-
-### PERMANENT BLOCKER — D7 Fediverse broadcast
-No bluesky/mastodon credentials exist in C:\Users\LENOVO\tokens (dir listing 2026-08-14: cloudflare, orcid, qnfo-sync-token, wikidata, zenodo only). The social-media-management skill registry exists but AT-Protocol/ActivityPub posting credentials are not resolvable in this environment. Standing blocker until credentials are provisioned.
-
-### PERMANENT DOCUMENTATION — Semantic Scholar gap
-S2 systematically 404s all sampled QNFO Zenodo records (v1.0/v1.1/QUNTUF, 2026-08-14). Accepted limitation; no automatic path exists. Evidence: artifacts/external-search/s2_v10.json, s2_v11.json, s2_quntuf.json.
-
-### STANDING MONITOR — OpenCitations COCI (weekly)
-Baseline 0 citations. Monitor via scripts/coci-weekly-monitor.py (committed). Cadence: weekly. No cron (scheduled-task creation requires explicit user approval).
-
-### EXTERNAL PENDING — J. Mund reply
-Outreach sent 2026-08-14 to mund@fisica.ufjf.br (message_id lj3dhRhXxi37iF4bc1nCeOld3dvz46t2hc70@qwav.tech). Reply is external; re-check on a later cycle.

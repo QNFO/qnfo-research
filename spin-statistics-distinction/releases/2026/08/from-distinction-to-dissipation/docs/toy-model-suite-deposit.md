@@ -3,21 +3,6 @@
 **WBS:** QNFO.RES.009.P7 · **Date:** 2026-08-14 · **Status:** DECISION MADE — separate Zenodo deposit
 **Scope:** publication vehicle for the T4–T7 toy-model suite + disciplined companion essay.
 
-## PUBLICATION RECORD (2026-08-15, executed)
-
-- **DOI:** 10.5281/zenodo.21940822 (concept 10.5281/zenodo.21940821)
-- **Record:** https://zenodo.org/records/21940822 — state=published, **18 files**, license cc-by-4.0, 9 keywords, community qnfo, related_identifiers: GitHub isSupplementTo + paper DOI references
-- **Live checks:** doi.org/10.5281/zenodo.21940822 → HTTP 200; zenodo.org/records/21940822 → HTTP 200
-- **papers.qnfo.org:** https://papers.qnfo.org/papers/from-distinction-to-dissipation/ → HTTP 200
-- **D1 living-paper:** row 1972 (identifier from-distinction-to-dissipation, body_md + body_html, zenodo_doi, slug) — read-back verified
-- **R2 archive:** releases:qnfo-releases/releases/2026/08/from-distinction-to-dissipation/ — rclone check 0 differences (18 files)
-- **Git release tree:** `releases/2026/08/from-distinction-to-dissipation/` (essay md/html/pdf + README + references.bib + citation-audit + notebooks + docs + registry + PROJECT-PLAN)
-
-**Pipeline notes (kaizen candidates):**
-1. Deposit-API `related_identifiers` MUST use the legacy shape `{"relation": "isSupplementTo", "identifier": ..., "scheme": "url"}` — the `relation_type` key (string OR object form) crashes the deposit API with HTTP 500 (verified 6+ variants, 5-retry backoff). The records API accepts `{"relation_type": {"id": "issupplementto"}}` but SILENTLY DROPS license/keywords/communities (ZENODO-RECORDS-API-DROPS-METADATA-1 confirmed live).
-2. D1 body_html must stay under 1 MB (SQLITE_TOOBIG) — store the pandoc HTML with the CDN MathJax script tag, NOT the 2.3 MB inlined variant.
-3. Test deposition 21940863 (records-API bisect draft) deleted (HTTP 204).
-
 ## Decision record
 
 **Question:** should the T4–T7 toy-model suite (companion essay + four executable
