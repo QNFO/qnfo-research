@@ -3,8 +3,8 @@ title: "Joules-per-Solution for Stochastic and Agentic Inference: Benchmarking F
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-15"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
-doi: "10.5281/zenodo.XXXXXXX"
+status: "published"
+doi: "10.5281/zenodo.21944533"
 wbs: "QNFO.JPC.002"
 series: "Joules-per-Compute Universal Benchmark (JPCUB) — Paper P3"
 keywords:
