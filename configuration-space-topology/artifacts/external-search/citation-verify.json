@@ -1,0 +1,591 @@
+{
+ "generated": "2026-08-15",
+ "entries": {
+  "leinaas_myrheim1977": {
+   "key": "leinaas_myrheim1977",
+   "source": "doi",
+   "id": "10.1007/BF02727953",
+   "status": "WARN-title-mismatch",
+   "title": "On the theory of identical particles",
+   "authors": [
+    "Leinaas, J. M.",
+    "Myrheim, J."
+   ],
+   "container": "Il Nuovo Cimento B Series 11",
+   "volume": "37",
+   "pages": "1-23",
+   "year": 1977,
+   "doi": "10.1007/bf02727953"
+  },
+  "laidlaw_dewitt1971": {
+   "key": "laidlaw_dewitt1971",
+   "source": "doi",
+   "id": "10.1103/PhysRevD.3.1375",
+   "status": "verified",
+   "title": "Feynman Functional Integrals for Systems of Indistinguishable Particles",
+   "authors": [
+    "Laidlaw, Michael G. G.",
+    "DeWitt, Cécile Morette"
+   ],
+   "container": "Physical Review D",
+   "volume": "3",
+   "pages": "1375-1378",
+   "year": 1971,
+   "doi": "10.1103/physrevd.3.1375"
+  },
+  "harshman_knapp2022": {
+   "key": "harshman_knapp2022",
+   "source": "doi",
+   "id": "10.1103/PhysRevA.105.052214",
+   "status": "verified",
+   "title": "Topological exchange statistics in one dimension",
+   "authors": [
+    "Harshman, N. L.",
+    "Knapp, A. C."
+   ],
+   "container": "Physical Review A",
+   "volume": "105",
+   "pages": null,
+   "year": 2022,
+   "doi": "10.1103/physreva.105.052214"
+  },
+  "nagies_etal2023": {
+   "key": "nagies_etal2023",
+   "source": "arxiv",
+   "id": "2309.04358",
+   "status": "verified",
+   "title": "Beyond braid statistics: Constructing a lattice model for anyons with exchange statistics intrinsic to one dimension",
+   "authors": [
+    "Sebastian Nagies",
+    "Botao Wang",
+    "A. C. Knapp",
+    "André Eckardt",
+    "N. L. Harshman"
+   ],
+   "year": "2023",
+   "arxiv_id": "2309.04358"
+  },
+  "sati_schreiber2022a": {
+   "key": "sati_schreiber2022a",
+   "source": "arxiv",
+   "id": "2206.13563",
+   "status": "verified",
+   "title": "Anyonic Topological Order in Twisted Equivariant Differential (TED) K-Theory",
+   "authors": [
+    "Hisham Sati",
+    "Urs Schreiber"
+   ],
+   "year": "2022",
+   "arxiv_id": "2206.13563"
+  },
+  "sati_schreiber2022b": {
+   "key": "sati_schreiber2022b",
+   "source": "arxiv",
+   "id": "2209.08331",
+   "status": "verified",
+   "title": "Topological Quantum Programming in TED-K",
+   "authors": [
+    "Hisham Sati",
+    "Urs Schreiber"
+   ],
+   "year": "2022",
+   "arxiv_id": "2209.08331"
+  },
+  "myers_sati_schreiber2023": {
+   "key": "myers_sati_schreiber2023",
+   "source": "arxiv",
+   "id": "2303.02382",
+   "status": "verified",
+   "title": "Topological Quantum Gates in Homotopy Type Theory",
+   "authors": [
+    "David Jaz Myers",
+    "Hisham Sati",
+    "Urs Schreiber"
+   ],
+   "year": "2023",
+   "arxiv_id": "2303.02382"
+  },
+  "schreiber_shulman2014": {
+   "key": "schreiber_shulman2014",
+   "source": "arxiv",
+   "id": "1408.0054",
+   "status": "verified",
+   "title": "Quantum Gauge Field Theory in Cohesive Homotopy Type Theory",
+   "authors": [
+    "Urs Schreiber",
+    "Michael Shulman"
+   ],
+   "year": "2014",
+   "arxiv_id": "1408.0054"
+  },
+  "drinfeld1990": {
+   "key": "drinfeld1990",
+   "source": "crossref-search",
+   "id": "On quasitriangular quasi-Hopf algebras and a group closely connected",
+   "status": "verified-search",
+   "title": "Quasitriangular Quasi-Hopf Algebras",
+   "authors": [],
+   "container": "Quasi-Hopf Algebras",
+   "volume": null,
+   "pages": "381-406",
+   "year": 2019,
+   "doi": "10.1017/9781108582780.011"
+  },
+  "li_ge2026": {
+   "key": "li_ge2026",
+   "source": "zenodo",
+   "id": "21330410",
+   "status": "verified",
+   "title": "A Geometric Origin for Fermi--Dirac Statistics: The Spin-Statistics Connection from $Z_2$ Normal Holonomy Without Lorentz Invariance",
+   "authors": [
+    "Li, Ge"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21330410"
+  },
+  "medina_dakic2023": {
+   "key": "medina_dakic2023",
+   "source": "arxiv",
+   "id": "2306.05919",
+   "status": "verified",
+   "title": "Reconstruction of Quantum Particle Statistics: Bosons, Fermions, and Transtatistics",
+   "authors": [
+    "Nicolás Medina Sánchez",
+    "Borivoje Dakić"
+   ],
+   "year": "2023",
+   "arxiv_id": "2306.05919"
+  },
+  "harshman_knapp2018": {
+   "key": "harshman_knapp2018",
+   "source": "arxiv",
+   "id": "1803.11000",
+   "status": "verified",
+   "title": "Anyons from Three-Body Hard-Core Interactions in One Dimension",
+   "authors": [
+    "N. L. Harshman",
+    "A. C. Knapp"
+   ],
+   "year": "2018",
+   "arxiv_id": "1803.11000"
+  },
+  "sawicki2014": {
+   "key": "sawicki2014",
+   "source": "arxiv",
+   "id": "1408.7002",
+   "status": "verified",
+   "title": "Topology of graph configuration spaces and quantum statistics",
+   "authors": [
+    "Adam Sawicki"
+   ],
+   "year": "2014",
+   "arxiv_id": "1408.7002"
+  },
+  "harrison_etal2013": {
+   "key": "harrison_etal2013",
+   "source": "arxiv",
+   "id": "1304.5781",
+   "status": "verified",
+   "title": "n-particle quantum statistics on graphs",
+   "authors": [
+    "Jonathan M. Harrison",
+    "Jonathan P. Keating",
+    "Jonathan M. Robbins",
+    "Adam Sawicki"
+   ],
+   "year": "2013",
+   "arxiv_id": "1304.5781"
+  },
+  "maciazek_sawicki2018": {
+   "key": "maciazek_sawicki2018",
+   "source": "arxiv",
+   "id": "1806.02846",
+   "status": "verified",
+   "title": "Non-abelian Quantum Statistics on Graphs",
+   "authors": [
+    "Tomasz Maciążek",
+    "Adam Sawicki"
+   ],
+   "year": "2018",
+   "arxiv_id": "1806.02846"
+  },
+  "maciazek2019": {
+   "key": "maciazek2019",
+   "source": "arxiv",
+   "id": "1909.02098",
+   "status": "verified",
+   "title": "Non-abelian anyons on graphs from presentations of graph braid groups",
+   "authors": [
+    "Tomasz Maciążek"
+   ],
+   "year": "2019",
+   "arxiv_id": "1909.02098"
+  },
+  "chaichian_etal2012": {
+   "key": "chaichian_etal2012",
+   "source": "arxiv",
+   "id": "1204.5025",
+   "status": "WARN-title-mismatch",
+   "title": "Extended Poincaré supersymmetry in three dimensions and supersymmetric anyons",
+   "authors": [
+    "M. Chaichian",
+    "A. Tureanu",
+    "R. B. Zhang"
+   ],
+   "year": "2012",
+   "arxiv_id": "1204.5025"
+  },
+  "toppan2023": {
+   "key": "toppan2023",
+   "source": "arxiv",
+   "id": "2312.13191",
+   "status": "verified",
+   "title": "Transmuted spectrum-generating algebras and detectable parastatistics of the Superconformal Quantum Mechanics",
+   "authors": [
+    "Francesco Toppan"
+   ],
+   "year": "2023",
+   "arxiv_id": "2312.13191"
+  },
+  "shen2020": {
+   "key": "shen2020",
+   "source": "arxiv",
+   "id": "2003.06235",
+   "status": "verified",
+   "title": "Intermediate symmetric construction of transformation between anyon and Gentile statistics",
+   "authors": [
+    "Yao Shen"
+   ],
+   "year": "2020",
+   "arxiv_id": "2003.06235"
+  },
+  "dai_xie2003": {
+   "key": "dai_xie2003",
+   "source": "arxiv",
+   "id": "cond-mat/0310066",
+   "status": "verified",
+   "title": "Gentile statistics with a large maximum occupation number",
+   "authors": [
+    "Wu-Sheng Dai",
+    "Mi Xie"
+   ],
+   "year": "2003",
+   "arxiv_id": "cond-mat/0310066"
+  },
+  "selvi_uncu2015": {
+   "key": "selvi_uncu2015",
+   "source": "arxiv",
+   "id": "1511.08051",
+   "status": "verified",
+   "title": "A New Method for Derivation of Statistical Weight of the Gentile Statistics",
+   "authors": [
+    "Sevilay Selvi",
+    "Haydar Uncu"
+   ],
+   "year": "2015",
+   "arxiv_id": "1511.08051"
+  },
+  "jacak2017": {
+   "key": "jacak2017",
+   "source": "arxiv",
+   "id": "1704.06560",
+   "status": "verified",
+   "title": "Confinement and fractional charge of quarks from braid group approach to holographic principle",
+   "authors": [
+    "Janusz E. Jacak"
+   ],
+   "year": "2017",
+   "arxiv_id": "1704.06560"
+  },
+  "proxmire2026": {
+   "key": "proxmire2026",
+   "source": "zenodo",
+   "id": "20195647",
+   "status": "verified",
+   "title": "Event Density and Anyon Prohibition in 3+1D",
+   "authors": [
+    "Proxmire, Allen"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.20195647"
+  },
+  "novickis2026": {
+   "key": "novickis2026",
+   "source": "zenodo",
+   "id": "19626046",
+   "status": "verified",
+   "title": "Paper XXXVII: Topological Origin of Spin and the Spin-Statistics Connection",
+   "authors": [
+    "Novickis, Alexander"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.19626046"
+  },
+  "smith2026": {
+   "key": "smith2026",
+   "source": "zenodo",
+   "id": "18725887",
+   "status": "verified",
+   "title": "The Vortex Framework: Topological Fermions from Framed Vortex Loops in a Quantized Superfluid Effective Field Theory Part I",
+   "authors": [
+    "Smith, Alex"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.18725887"
+  },
+  "hi_ai2025": {
+   "key": "hi_ai2025",
+   "source": "zenodo",
+   "id": "17214997",
+   "status": "WARN-title-mismatch",
+   "title": "Algebraic Structures of the Grothendieck-Teichmüller Group, the Cosmic Galois Group, and Associated Stability Conditions",
+   "authors": [
+    "HI+AI"
+   ],
+   "year": "2025",
+   "doi": "10.5281/zenodo.17214997"
+  },
+  "extended_objects2012": {
+   "key": "extended_objects2012",
+   "source": "doi",
+   "id": "10.1007/978-3-0348-0448-6_19",
+   "status": "verified",
+   "title": "Quantum Configuration Spaces of Extended Objects, Diffeomorphism Group Representations and Exotic Statistics",
+   "authors": [
+    "Goldin, Gerald A."
+   ],
+   "container": "Geometric Methods in Physics",
+   "volume": null,
+   "pages": "239-251",
+   "year": 2012,
+   "doi": "10.1007/978-3-0348-0448-6_19"
+  },
+  "sati_schreiber2024": {
+   "key": "sati_schreiber2024",
+   "source": "arxiv",
+   "id": "2408.11896",
+   "status": "verified",
+   "title": "Cohomotopy, Framed Links, and Abelian Anyons",
+   "authors": [
+    "Hisham Sati",
+    "Urs Schreiber"
+   ],
+   "year": "2024",
+   "arxiv_id": "2408.11896"
+  },
+  "streater_wightman1964": {
+   "key": "streater_wightman1964",
+   "source": "doi",
+   "id": "10.1016/0029-5582(64)90049-5",
+   "status": "verified",
+   "title": "PCT, spin and statistics, and all that",
+   "authors": [
+    "L.R."
+   ],
+   "container": "Nuclear Physics",
+   "volume": "59",
+   "pages": "689",
+   "year": 1964,
+   "doi": "10.1016/0029-5582(64)90049-5"
+  },
+  "pauli1940": {
+   "key": "pauli1940",
+   "source": "doi",
+   "id": "10.1103/PhysRev.58.716",
+   "status": "verified",
+   "title": "The Connection Between Spin and Statistics",
+   "authors": [
+    "Pauli, W."
+   ],
+   "container": "Physical Review",
+   "volume": "58",
+   "pages": "716-722",
+   "year": 1940,
+   "doi": "10.1103/physrev.58.716"
+  },
+  "finkelstein_rubinstein1968": {
+   "key": "finkelstein_rubinstein1968",
+   "source": "doi",
+   "id": "10.1063/1.1664510",
+   "status": "verified",
+   "title": "Connection between Spin, Statistics, and Kinks",
+   "authors": [
+    "Finkelstein, David",
+    "Rubinstein, Julio"
+   ],
+   "container": "Journal of Mathematical Physics",
+   "volume": "9",
+   "pages": "1762-1779",
+   "year": 1968,
+   "doi": "10.1063/1.1664510"
+  },
+  "wilczek1983": {
+   "key": "wilczek1983",
+   "source": "doi",
+   "id": "10.1103/PhysRevLett.51.2250",
+   "status": "verified",
+   "title": "Linking Numbers, Spin, and Statistics of Solitons",
+   "authors": [
+    "Wilczek, Frank",
+    "Zee, A."
+   ],
+   "container": "Physical Review Letters",
+   "volume": "51",
+   "pages": "2250-2252",
+   "year": 1983,
+   "doi": "10.1103/physrevlett.51.2250"
+  },
+  "read_green2000": {
+   "key": "read_green2000",
+   "source": "doi",
+   "id": "10.1103/PhysRevB.61.10267",
+   "status": "verified",
+   "title": "Paired states of fermions in two dimensions with breaking of parity and time-reversal symmetries and the fractional quantum Hall effect",
+   "authors": [
+    "Read, N.",
+    "Green, Dmitry"
+   ],
+   "container": "Physical Review B",
+   "volume": "61",
+   "pages": "10267-10297",
+   "year": 2000,
+   "doi": "10.1103/physrevb.61.10267"
+  },
+  "qnfo_res009": {
+   "key": "qnfo_res009",
+   "source": "zenodo",
+   "id": "21941375",
+   "status": "verified",
+   "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21941375"
+  },
+  "qnfo_res010": {
+   "key": "qnfo_res010",
+   "source": "zenodo",
+   "id": "21941238",
+   "status": "verified",
+   "title": "The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21941238"
+  },
+  "qnfo_slb002": {
+   "key": "qnfo_slb002",
+   "source": "zenodo",
+   "id": "21908818",
+   "status": "verified",
+   "title": "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21908818"
+  },
+  "qnfo_padic_braids": {
+   "key": "qnfo_padic_braids",
+   "source": "zenodo",
+   "id": "21208366",
+   "status": "verified",
+   "title": "p-Adic Braid Groups on Bruhat-Tits Buildings",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21208366"
+  },
+  "qnfo_padic_tl": {
+   "key": "qnfo_padic_tl",
+   "source": "zenodo",
+   "id": "21208368",
+   "status": "verified",
+   "title": "The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21208368"
+  },
+  "qnfo_padic_anyons": {
+   "key": "qnfo_padic_anyons",
+   "source": "zenodo",
+   "id": "21208491",
+   "status": "verified",
+   "title": "p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21208491"
+  },
+  "qnfo_zbw_p4": {
+   "key": "qnfo_zbw_p4",
+   "source": "zenodo",
+   "id": "21336087",
+   "status": "verified",
+   "title": "Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21336087"
+  },
+  "qnfo_adelic_synth": {
+   "key": "qnfo_adelic_synth",
+   "source": "zenodo",
+   "id": "21208568",
+   "status": "verified",
+   "title": "Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21208568"
+  },
+  "qnfo_qlof": {
+   "key": "qnfo_qlof",
+   "source": "zenodo",
+   "id": "21206074",
+   "status": "verified",
+   "title": "Quantum Laws of Form: Consolidation, Open Questions, and Extensions",
+   "authors": [
+    "QNFO Research"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21206074"
+  },
+  "qnfo_cancellation": {
+   "key": "qnfo_cancellation",
+   "source": "zenodo",
+   "id": "21470438",
+   "status": "verified",
+   "title": "The Ontology of Boundary-Crossing: Spencer-Brown Cancellation Rule Defended",
+   "authors": [
+    "QNFO Research",
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21470438"
+  },
+  "qnfo_tyranny": {
+   "key": "qnfo_tyranny",
+   "source": "zenodo",
+   "id": "21939692",
+   "status": "verified",
+   "title": "The Tyranny of the ±1: How a Topological Constraint Became the Iron Law of Nature",
+   "authors": [
+    "Quni-Gudzinas, Rowan Brad"
+   ],
+   "year": "2026",
+   "doi": "10.5281/zenodo.21939692"
+  }
+ },
+ "errors": [],
+ "duplicate_keys": [],
+ "bib_entry_count": 44
+}
