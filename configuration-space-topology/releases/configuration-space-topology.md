@@ -48,8 +48,6 @@ abstract: >-
   derivation program for its logical origin.
 ---
 
-# Configuration-Space Topology and the Distinction Calculus: The Exchange Scalar, Its $\pm 1$ Shadow, and a Pre-Registered Derivation Program
-
 **Rowan Brad Quni-Gudzinas**
 
 **QNFO Research Foundation** — WBS QNFO.RES.011 — 2026-08-15
@@ -228,5 +226,3 @@ Configuration-space topology is the correct kinematical explanation of the boson
 This paper is part of the QNFO Research Foundation portfolio (WBS QNFO.RES.011). Predecessor records: [@qnfo_res009; @qnfo_res010; @qnfo_slb002; @qnfo_tyranny]. All external citations verified against live Crossref/arXiv/Zenodo metadata on 2026-08-15 (citation audit on file). The deep-inquiry scaffold audit of Section 3 follows the Universal Ignorance Audit protocol (QNFO methodological standard, 15-question framework). AI assistance in drafting is disclosed as a quality signal per the QNFO disclosure policy. The quantitative claims of this paper (Section 2.2) are independently verified group-theoretic facts.
 
 ## References
-
-[Bibliography: see `references.bib` — 44 entries, all verified live on 2026-08-15.]
