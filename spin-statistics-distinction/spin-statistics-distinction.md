@@ -5,13 +5,17 @@ affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
 date: "2026-08-14"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21939493"
+doi: "10.5281/zenodo.21941375"
 status: "published"
 ---
 
 ## Abstract
 
-The textbook dichotomy between bosons and fermions is commonly presented as a primitive classification of nature, with the spin-statistics theorem as its iron law. This paper argues that the dichotomy is a derived, dimension-dependent shadow of a single structural relation: the exchange phase of identical particles equals their topological spin, $R = e^{2\pi i s}$. [ESTABLISHED] The relation holds across relativistic quantum field theory, topological field theory, and condensed-matter anyon systems; dimension enters only by quantizing the allowed values of $s$. [RETRODICTION — not evidence] Stating this as a single invariant is a unification of established results, not a new prediction. After stating the invariant and its dimensional quantization, the paper addresses a foundational question: whether a calculus whose primitive is the distinction — rather than the particle or the field — can derive exchange statistics from the act of distinction itself. A recent monograph in this tradition (Quni-Gudzinas, 2026a) exhibits the gap [textual finding]: the model of its exponential modality silently adopts the symmetric algebra, which corresponds to bosonic statistics, without deriving that choice from the primitive. The paper formalizes the required construction — two modal exponentials (symmetric and exterior), the braiding of two marks in a compact closed category, and the ribbon condition linking twist to exchange — and states the falsifiability conditions under which the derivation program succeeds or fails. [NOT YET EVIDENCE] The derivation is pre-registered here; it is not yet executed.
+The textbook dichotomy between bosons and fermions is commonly presented as a primitive classification of nature, with the spin-statistics theorem as its iron law. This paper argues that the dichotomy is a derived, dimension-dependent shadow of a single structural relation: the exchange phase of identical particles equals their topological spin, $R = e^{2\pi i s}$. [ESTABLISHED] The relation holds across relativistic quantum field theory, topological field theory, and condensed-matter anyon systems; dimension enters only by quantizing the allowed values of $s$. [RETRODICTION — not evidence] Stating this as a single invariant is a unification of established results, not a new prediction. After stating the invariant and its dimensional quantization, the paper addresses a foundational question: whether a calculus whose primitive is the distinction — rather than the particle or the field — can derive exchange statistics from the act of distinction itself. A recent monograph in this tradition (Quni-Gudzinas, 2026a) exhibits the gap [textual finding]: the model of its exponential modality silently adopts the symmetric algebra, which corresponds to bosonic statistics, without deriving that choice from the primitive. The paper formalizes the required construction — two modal exponentials (symmetric and
+exterior), the braiding of two marks in a compact closed category (with the abelian-pair
+postulate made explicit), and the ribbon condition linking twist to exchange — and
+states the falsifiability conditions under which the derivation program succeeds or
+fails. [NOT YET EVIDENCE] The derivation is pre-registered here; it is not yet executed.
 
 ## 1. Introduction
 
@@ -82,13 +86,13 @@ are the two grading components of one construction. The two statistics are the t
 
 **T3 — Dimension quantization.** The table in Section 3, with dimension entering only through the allowed braided structures. [DERIVATION SKETCH — P4 notebook T3.]
 
-**The boundary of the program.** The program can show that statistics is forced by distinction, compact closure, and an involutive braiding (the two eigenvalues of exchange). It cannot, from the mark alone, show *which* eigenvalue corresponds to *which* spin: the spin–statistics *connection* requires the additional postulate that the twist equals the $2\pi$ rotation of a Lorentz representation, with microcausality and positive energy (Pauli, 1940; Duck and Sudarshan, 1998). The paper states this boundary explicitly; it does not claim a full derivation of the spin-statistics theorem from distinction. [CONTESTED — the sufficiency of the minimal postulates is open.]
+**The boundary of the program.** The program can show that statistics is forced by distinction, compact closure, an involutive braiding, and the abelian-pair postulate (the pair of marks has a unique joint state up to phase, so that the braiding acts by a scalar). The last postulate is the categorical counterpart of the exclusion of parastatistics: without it, mixed-symmetry (parastatistics-class) sectors are not excluded by the algebraic machinery alone; in algebraic quantum field theory the exclusion follows from locality (Doplicher, Haag, and Roberts, 1971, 1974; Doplicher and Roberts, 1990; Greenberg and Messiah, 1965). The program therefore must either adopt the postulate or derive a DHR-style exclusion — which again lands on locality. It cannot, from the mark alone, show *which* eigenvalue corresponds to *which* spin: the spin–statistics *connection* requires the additional postulate that the twist equals the $2\pi$ rotation of a Lorentz representation, with microcausality and positive energy (Pauli, 1940; Duck and Sudarshan, 1998). The paper states this boundary explicitly; it does not claim a full derivation of the spin-statistics theorem from distinction. [CONTESTED — the sufficiency of the minimal postulates is open.]
 
 ## 6. Falsifiability conditions
 
 **F1 (empirical).** If a stable, local, relativistic excitation in $3{+}1$ dimensions is observed with exchange phase $\eta \neq e^{2\pi i s}$ — for example, a spin-$\tfrac{1}{2}$ particle obeying Bose-Einstein statistics, or a spin-$0$ particle obeying Fermi-Dirac statistics — the claim that $R = e^{2\pi i s}$ is the universal invariant is disconfirmed. No such particle is known in the Standard Model. [ESTABLISHED — the absence of violations is a strong constraint, not a proof.]
 
-**F2 (formal).** If the mark calculus cannot reproduce the two one-dimensional representations of $S_n$ (trivial and sign) from the primitive distinction, compact closure, and an involutive braiding alone — without importing microcausality, Lorentz structure, or any other physical postulate — the derivation program is disconfirmed, and the monograph's spin-statistics claim stands as an asserted correspondence.
+**F2 (formal).** If the mark calculus cannot reproduce the two one-dimensional representations of $S_n$ (trivial and sign) from the primitive distinction, compact closure, an involutive braiding, and the abelian-pair postulate alone — without importing microcausality, Lorentz structure, or any other physical postulate — the derivation program is disconfirmed, and the monograph's spin-statistics claim stands as an asserted correspondence. (The abelian-pair postulate is a structural condition on the joint state of the pair, not a physical input; it is the minimal admission needed to exclude parastatistics-class sectors. Yang–Baxter alone forces the exchange phase to be uniform across pairs — see `artifacts/notebooks/t1-t2-dill-full-check.md` §3.)
 
 **Surprise accounting (KIF-60 discipline).** The existence of anyons in $2{+}1$ dimensions is established and does not count as predictive evidence for this paper: anyonic statistics is expected under the null hypothesis of braid-group representations. Only F1's precision constraint and F2's derivability constraint carry evidential weight. The invariant formulation itself is [RETRODICTION — not evidence]: it restates established results in a unified language. The paper claims credit only for the derivation program (F2) and for the identification of the monograph's silent assumption (a textual finding).
 
@@ -119,6 +123,14 @@ Bakalov, B., and Kirillov, A. (2001). *Lectures on Tensor Categories and Modular
 Comparin, T., Opler, A., Macaluso, E., Biella, A., Polychronakos, A. P., and Mazza, L. (2021). Measurable fractional spin for quantum Hall quasiparticles on the disk. arXiv:2112.02901.
 
 Duck, I., and Sudarshan, E. C. G. (1998). Toward an understanding of the spin-statistics connection. *American Journal of Physics*, 66, 284. doi:10.1119/1.18860.
+
+Doplicher, S., Haag, R., and Roberts, J. E. (1971). Local observables and particle statistics I. *Communications in Mathematical Physics*, 23, 199-230. doi:10.1007/BF01877742.
+
+Doplicher, S., Haag, R., and Roberts, J. E. (1974). Local observables and particle statistics II. *Communications in Mathematical Physics*, 35, 49-85. doi:10.1007/BF01646454.
+
+Doplicher, S., and Roberts, J. E. (1990). Why there is a field algebra with a compact gauge group describing the superselection structure in particle physics. *Communications in Mathematical Physics*, 131, 51-107.
+
+Greenberg, O. W., and Messiah, A. M. L. (1965). Selection rules for parafields and the absence of para particles in nature. *Physical Review*, 138, B1155. doi:10.1103/PhysRev.138.B1155.
 
 Johnson-Freyd, T. (2015). Spin, statistics, orientations, unitarity. arXiv:1507.06297.
 
