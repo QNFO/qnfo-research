@@ -77,3 +77,13 @@
 - PANDOC-SAFE audit PASS (even dollars 196, all subs/sups braced, no bare | in math, no unicode glyphs in prose body, YAML clean).
 - BP-1 fit-verify PASS (S_3 dim sum 6, Artin braid relation, e^{2pis} = +/-1, B_2 ~ Z, pi_1(C_2(R^3)) = Z_2).
 - BP-2 terminology PASS (12/12 terms). Language gate PASS (no banned words).
+
+
+---
+
+## Addendum 2026-08-16 (v0.3 cycle)
+
+- 42 cited keys = 42 bib entries (unchanged from v0.2; zero orphans).
+- `qnfo_res009` DOI updated: 10.5281/zenodo.21941375 (v1.3) -> 10.5281/zenodo.21944401 (v1.4, same concept 21938970, published 2026-08-15). Verified live via Zenodo records API.
+- External re-verification of 19 DOIs on 2026-08-16: 9 Crossref-OK (Leinaas-Myrheim, Laidlaw-DeWitt, Pauli, Wilczek-Zee, Read-Green, Harshman-Knapp, Finkelstein-Rubinstein, Goldin, Drinfeld chapter) + 10 Zenodo-OK (HI+AI, Li Ge, Smith, Proxmire, 6 QNFO). Evidence: artifacts/external-search/doi-verify-2026-08-16.json.
+- Contested-tier entries unchanged: li_ge2026 [CONTESTED], smith2026 [UNTESTED], proxmire2026 [UNTESTED] — labelled as such in the paper body.

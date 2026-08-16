@@ -22,19 +22,22 @@
 |:--------|:----|:----------|:-----|:-------|
 | v0.1-phase5 (initial) | 10.5281/zenodo.21945450 | 21945450 | 2026-08-15 | published |
 | Concept DOI | 10.5281/zenodo.21945449 | (concept) | — | — |
-| v0.2 (planned remediation newversion) | pending | pending | next cycle | pending |
+| v0.2 (remediation newversion) | 10.5281/zenodo.21957291 | 21957291 | 2026-08-15 | published |
+| v0.3 (corrected & expanded) | 10.5281/zenodo.21962450 | 21962450 | 2026-08-16 | published |
 
-**Known remediation items (post-publication audit 2026-08-15):**
-- HARD-1: frontmatter patched in source (`doi: 10.5281/zenodo.21945450`, `status: published`) — propagate via Zenodo newversion (never in-place overwrite, ZENODO-BUCKET-LOCKED-1).
-- SOFT-1: EuroSciVoc subjects with scheme/identifier to add on new version (SUBJECT-SCHEME-GAP-1).
-- SOFT-2: this registry (created).
-- SOFT-3: `bp-gates.md` (created this cycle as application roadmap artifact).
+**Remediation status (2026-08-16, v0.3 cycle):**
+- HARD-1 (stale frontmatter self-DOI): v2's deposited .md still carried the v1 DOI (`21945450`) — re-verified by direct download 2026-08-16; FIXED FOR REAL in v0.3 (frontmatter `doi: 10.5281/zenodo.21962450`, P5.FRESH pre-upload patch).
+- HARD-2 (no "So what?" section): v0.3 adds Section 2 — "So What? Why Should a Reader Care About This Research?" (user mandate 2026-08-16).
+- HARD-3 (empty References in .md): v0.3 renders the complete 42-entry bibliography in the markdown body (rebuilt from references.bib).
+- SOFT-1 (EuroSciVoc subjects): carried forward in v0.3 metadata (philosophy + mathematics, verified URIs).
+- SOFT-4 (README status stale "Phase 0 scaffold"): corrected to published v0.3.
+- SOFT-5 (INTERNAL-REF-1): WBS code `QNFO.RES.011` removed from byline + acknowledgements.
 
 ## 3. Predecessor linkage
 
 | Record | DOI | Relation |
 |:-------|:----|:---------|
-| RES.009 spin-statistics-distinction | 10.5281/zenodo.21941375 | BUILDS_ON (cites) |
+| RES.009 spin-statistics-distinction | 10.5281/zenodo.21944401 (v1.4) | BUILDS_ON (cites) |
 | RES.010 exchange-phase-logical-scalar | 10.5281/zenodo.21941238 | BUILDS_ON (cites) |
 | SLB.002 reentrant-distinctions | 10.5281/zenodo.21908818 | foundation (cites) |
 | Tyranny of the ±1 (v3) | 10.5281/zenodo.21939692 | background (cites) |

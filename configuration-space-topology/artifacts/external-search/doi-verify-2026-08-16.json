@@ -1,0 +1,232 @@
+{
+ "generated": "2026-08-16",
+ "count": 25,
+ "ok": 25,
+ "results": [
+  {
+   "key": "leinaas_myrheim1977",
+   "doi": "10.1007/BF02727953",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "On the theory of identical particles",
+   "year": 1977
+  },
+  {
+   "key": "laidlaw_dewitt1971",
+   "doi": "10.1103/PhysRevD.3.1375",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "Feynman Functional Integrals for Systems of Indistinguishable Particles",
+   "year": 1971
+  },
+  {
+   "key": "pauli1940",
+   "doi": "10.1103/PhysRev.58.716",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "The Connection Between Spin and Statistics",
+   "year": 1940
+  },
+  {
+   "key": "wilczek1983",
+   "doi": "10.1103/PhysRevLett.51.2250",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "Linking Numbers, Spin, and Statistics of Solitons",
+   "year": 1983
+  },
+  {
+   "key": "read_green2000",
+   "doi": "10.1103/PhysRevB.61.10267",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "Paired states of fermions in two dimensions with breaking of parity and time-reversal symmetries and the fractional quan",
+   "year": 2000
+  },
+  {
+   "key": "harshman_knapp2022",
+   "doi": "10.1103/PhysRevA.105.052214",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "Topological exchange statistics in one dimension",
+   "year": 2022
+  },
+  {
+   "key": "finkelstein_rubinstein1968",
+   "doi": "10.1063/1.1664510",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "Connection between Spin, Statistics, and Kinks",
+   "year": 1968
+  },
+  {
+   "key": "goldin2012",
+   "doi": "10.1007/978-3-0348-0448-6_19",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "Quantum Configuration Spaces of Extended Objects, Diffeomorphism Group Representations and Exotic Statistics",
+   "year": 2012
+  },
+  {
+   "key": "drinfeld_chapter",
+   "doi": "10.1017/9781108582780.011",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "Quasitriangular Quasi-Hopf Algebras",
+   "year": 2019
+  },
+  {
+   "key": "hi_ai2025",
+   "doi": "10.5281/zenodo.17214997",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "Algebraic Structures of the Grothendieck-Teichmüller Group, the Cosmic Galois Group, and Associated Stability Conditions",
+   "year": "2025"
+  },
+  {
+   "key": "li_ge2026",
+   "doi": "10.5281/zenodo.21330410",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "A Geometric Origin for Fermi--Dirac Statistics: The Spin-Statistics Connection from $Z_2$ Normal Holonomy Without Lorent",
+   "year": "2026"
+  },
+  {
+   "key": "smith2026",
+   "doi": "10.5281/zenodo.18725887",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "The Vortex Framework: Topological Fermions from Framed Vortex Loops in a Quantized Superfluid Effective Field Theory Par",
+   "year": "2026"
+  },
+  {
+   "key": "proxmire2026",
+   "doi": "10.5281/zenodo.20195647",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "Event Density and Anyon Prohibition in 3+1D",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_res009",
+   "doi": "10.5281/zenodo.21944401",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_res010",
+   "doi": "10.5281/zenodo.21941238",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_tyranny",
+   "doi": "10.5281/zenodo.21939692",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "The Tyranny of the ±1: How a Topological Constraint Became the Iron Law of Nature",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_slb002",
+   "doi": "10.5281/zenodo.21908818",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_padic_braids",
+   "doi": "10.5281/zenodo.21208366",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "p-Adic Braid Groups on Bruhat-Tits Buildings",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_padic_tl",
+   "doi": "10.5281/zenodo.21208368",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_padic_anyons",
+   "doi": "10.5281/zenodo.21208491",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_zbw_p4",
+   "doi": "10.5281/zenodo.21336087",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_adelic_synth",
+   "doi": "10.5281/zenodo.21208568",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_qlof",
+   "doi": "10.5281/zenodo.21206074",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "Quantum Laws of Form: Consolidation, Open Questions, and Extensions",
+   "year": "2026"
+  },
+  {
+   "key": "qnfo_cancellation",
+   "doi": "10.5281/zenodo.21470438",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Zenodo",
+   "ok": true,
+   "title": "The Ontology of Boundary-Crossing: Spencer-Brown Cancellation Rule Defended",
+   "year": "2026"
+  },
+  {
+   "key": "streater_wightman",
+   "doi": "10.1016/0029-5582(64)90049-5",
+   "verified_at": "2026-08-16T05:45:00Z",
+   "via": "Crossref",
+   "ok": true,
+   "title": "PCT, spin and statistics, and all that",
+   "year": 1964
+  }
+ ]
+}
