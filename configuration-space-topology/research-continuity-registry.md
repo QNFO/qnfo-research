@@ -32,6 +32,7 @@
 - SOFT-1 (EuroSciVoc subjects): carried forward in v0.3 metadata (philosophy + mathematics, verified URIs).
 - SOFT-4 (README status stale "Phase 0 scaffold"): corrected to published v0.3.
 - SOFT-5 (INTERNAL-REF-1): WBS code `QNFO.RES.011` removed from byline + acknowledgements.
+- SOFT-6 (cosmetic, red-team 2026-08-16): deposited v0.3 frontmatter abstract retains one ASCII "+/-1" (immutable); source fixed to ±1 post-publish (this commit); next version carries ±1.
 
 ## 3. Predecessor linkage
 

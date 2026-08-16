@@ -36,7 +36,7 @@ abstract: >-
   topological or logical argument supplies. Against this boundary it reports
   the status of the QNFO pre-registered derivation program (exchange phase as
   a logical scalar R = e^{2 pi i s} from the re-entrant mark): T2 now carries
-  construction content -- the +/-1 dichotomy is the ribbon identity evaluated
+  construction content -- the ±1 dichotomy is the ribbon identity evaluated
   in the d >= 3 sector; T1 is partially constructed; T3 is restated with named
   boundary conditions. It then states a synthesis conjecture -- the Distinction
   Calculus lifted into homotopy type theory, with the Grothendieck-Teichmuller
