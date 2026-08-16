@@ -4,9 +4,9 @@ author: "Rowan Brad Quni-Gudzinas"
 affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
 date: "2026-08-16"
-version: "1.2"
+version: "1.3"
 license: "cc-by-4.0"
-doi: "10.5281/zenodo.21964104"
+doi: "10.5281/zenodo.21964359"
 concept_doi: "10.5281/zenodo.21941184"
 status: "published"
 ---
@@ -134,9 +134,11 @@ The parent works establish η = ±1 (symmetric case) and identify the single sig
 
 **Kauffman 1980/1995/2023.** The Laws-of-Form foundations corpus — "Form dynamics" (*J. Social Biol. Syst.* 3(2), 1980), "Arithmetic in the Form" (*Cybernetics and Systems* 26(1), 1995), "Autopoiesis and Eigenform" (*Computation* 11(12), 2023) — anchors the reading of the calculus used throughout this paper.
 
+**p-Adic anyon program (consilience, FQ2).** The QNFO UMP program constructs anyons at non-archimedean places: quantum groups U_q(sl₂) at q = ζ_{2p^k} (a primitive 2p^k-th root of unity in Q̄_p), with the Temperley–Lieb parameter δ = −(ζ_{p^k}+ζ_{p^k}⁻¹) a p-adic cyclotomic unit [Quni-Gudzinas 2026c, 2026d]. Under the archimedean embedding ζ_{2p^k} ↦ e^{2πi/(2p^k)} = (e^{iπ})^{1/p^k}, the p-adic braiding phases are exactly e^{2πis} at rational spins s = m/(2p^k) — the rational-spin subsector of the monodromy-power family R = (e^{iπ})^{2s} advanced here. The two programs are therefore consistent: the p-adic construction realizes the rational-lattice sector; the mark-calculus reading covers that sector and the full continuum (arbitrary real s, anyons). The physical bridge is the ZBW-Majorana P4 construction [Quni-Gudzinas 2026g], which identifies the ZBW current correlator's Z₂ invariant with the p-adic anyon topological charge. Full bridge: `artifacts/fq2-consilience-bridge-2026-08-16.md`. [MAP — consistency of phase contents; the full p-adic MTC derivation from the mark calculus remains open, candidate FQ2R.]
+
 ## 9. Conclusions
 
-The exchange phase R = e^{2πis} is the (2s)-fold half-turn of the re-entrant mark: R = (e^{iπ})^{2s} = (−1)^{2s}. The boson/fermion dichotomy is the parity of 2s. The claim is scoped with an explicit status ladder: the arithmetic is established, the identification is a model, and the full logical derivation within the traced differential cohesive linear type theory of the treatise is a conjecture with concrete falsifiability conditions. If the derivation succeeds, e, π, and R form a single family of logical scalars of the re-entrant mark — fixed point, trace, and monodromy power — and the spin-statistics connection is the arithmetic of the half-turn. If it fails, the failure mode is precisely specified: the calculus cannot generate the exchange phase without importing it as an axiom.
+The exchange phase R = e^{2πis} is the (2s)-fold half-turn of the re-entrant mark: R = (e^{iπ})^{2s} = (−1)^{2s}. The boson/fermion dichotomy is the parity of 2s. The claim is scoped with an explicit status ladder: the arithmetic is established, the identification is a model, and the full logical derivation within the traced differential cohesive linear type theory of the treatise is a conjecture with concrete falsifiability conditions. If the derivation succeeds, e, π, and R form a single family of logical scalars of the re-entrant mark — fixed point, trace, and monodromy power — and the spin-statistics connection is the arithmetic of the half-turn. If it fails, the failure mode is precisely specified: the calculus cannot generate the exchange phase without importing it as an axiom. The consistency result with the p-adic anyon program (FQ2, §8) adds a second, independent anchor: the same monodromy-power form (e^{iπ})^{2s} governs both the archimedean continuum and the non-archimedean rational-spin sector.
 
 ## 10. Declarations
 
@@ -172,3 +174,8 @@ The exchange phase R = e^{2πis} is the (2s)-fold half-turn of the re-entrant ma
 - Kauffman, L. H. (2023). Autopoiesis and Eigenform. *Computation* 11(12), 247, 10.3390/computation11120247.
 - Sato, M., and S. Fujimoto (2016). Majorana Fermions and Topology in Superconductors. *Journal of the Physical Society of Japan* 85, 072001, 10.7566/JPSJ.85.072001.
 - Vissani, F. (2026). From Hole Theory to Quantum Field Theory: Relativistic Fermions and the Role of Ettore Majorana (1933–1937). arXiv:2603.28538.
+- Quni-Gudzinas, R. B. (2026c). p-Adic Braid Groups on Bruhat-Tits Buildings. Zenodo, 10.5281/zenodo.21208366.
+- Quni-Gudzinas, R. B. (2026d). The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial. Zenodo, 10.5281/zenodo.21208368.
+- Quni-Gudzinas, R. B. (2026e). p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models. Zenodo, 10.5281/zenodo.21208491.
+- Quni-Gudzinas, R. B. (2026f). Zitterbewegung as a p-Adic Observable: Ultrametric Readout and Intrinsic Topological Protection for Majorana Qubits. Zenodo, 10.5281/zenodo.21736327.
+- Quni-Gudzinas, R. B. (2026g). Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding. Zenodo, 10.5281/zenodo.21336087.

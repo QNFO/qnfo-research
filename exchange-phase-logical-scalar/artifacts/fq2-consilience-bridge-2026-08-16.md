@@ -47,12 +47,12 @@ None of these contradicts the phase form R = (e^{iπ})^{2s}; they attach additio
 ## 5. Registry disposition
 
 - **FQ2 status: CONSISTENT (bridge delivered 2026-08-16).** Disconfirmation condition NOT met. Remaining (registered, not deferred): full categorical derivation of the p-adic MTC sector from the mark calculus — an open research question (candidate FQ2R), not a consistency failure.
-- Cross-ref: zbw-majorana-tqc (21736327) provides the experimental spine (Bruhat–Tits readout, Gromov δ); the p-adic valuation gate model connects to the ZBW-Majorana ℤ₂ diagnostic framing.
+- Cross-ref: zbw-majorana-tqc (21736327) provides the experimental spine (Bruhat–Tits readout, Gromov δ); **zbw-majorana-tqc-p4-zbw-anyon-braiding (10.5281/zenodo.21336087, "Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding")** — the P4 of the ZBW-Majorana series — explicitly constructs the ZBW current correlator as the physical realization of p-adic anyon braiding and identifies the ℤ₂ invariant with the p-adic anyon topological charge; it is the direct experimental bridge for FQ2 (added 2026-08-16, red-team GAP-C1 closure). The p-adic valuation gate model connects to the ZBW-Majorana ℤ₂ diagnostic framing.
 - FQ2's P2 prediction (anyonic exchange phases follow e^{2πis}, continuous s) remains externally testable via Kirchner et al. 2025 two-dimensional coherent spectroscopy.
 
 ## 6. Verification (same-turn tool calls)
 
 - Both p-adic bodies pulled live from D1 living-paper this cycle (33,868 / 26,877 chars) and read in full (sections 1–3 of each quoted verbatim in §1).
 - Archimedean embedding arithmetic: ζ_{2p^k} ↦ e^{2πi/(2p^k)} = e^{iπ/p^k} = (e^{iπ})^{1/p^k} — verified by direct computation (e^{iπ·(1/p^k)} = e^{iπ/p^k}). ✓
-- δ trace: tr(δ) = −2cos(2π/p^k) matches the paper's Theorem 1.2 verbatim. ✓
-- Vectorize re-index confirmed live (semantic search returns the paper at v1.2 DOI 21964104). ✓
+- δ trace: tr_{K/Q_p}(δ) = −2cos(2π/p^k)·[K:Q_p] matches the source paper's **Theorem 1, item 2** verbatim (the field-trace subscript and the [K:Q_p] degree factor are both in the source; the §1 quote above is exact). ✓
+- Vectorize re-index confirmed live (semantic search returns the paper at the v1.3 DOI 21964359). ✓
