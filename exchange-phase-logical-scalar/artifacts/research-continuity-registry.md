@@ -42,12 +42,13 @@
 
 | Priority | Action | Dependencies | Target |
 |---|---|---|---|
-| P0 | Complete the Part VIII formal derivation (FQ1) | Part VIII machinery of the treatise | P4.5 |
+| P0 | **DONE (2026-08-16):** Part VIII formal derivation delivered — `artifacts/p4-formal-derivation.md` (monodromy-power construction, status ladder, PREMISE-DEPTH-1 audit). F1 partially discharged: composite expressible in End(S¹) via trace structure; axiom-free computation of constants remains the Appendix D path (registered, not claimed). | Part VIII machinery of the treatise | P4.5 |
 | P1 | Consilience bridge to UMP p-adic anyon program (FQ2) | p-adic-anyon-fusion-braiding | P5.5 |
-| P1 | Re-run Semantic Scholar verification (429 in P3) | S2 API availability | P5.5 |
+| P1 | Re-run Semantic Scholar verification (429 in P3) — **RESOLVED 2026-08-16 in P3 citation pass (S2 200, citationCount 0)** | — | closed |
 | P2 | Explore scalar-family extension (FQ3) | — | Later cycle |
 
 ## 7. SESSION LOG + MAINTENANCE PROTOCOL
 
 - 2026-08-14 — Registry created at P5 publication. Phase pipeline: P0→P4 complete; P5 (this publication) in progress.
+- 2026-08-16 — **P4 formal derivation delivered** (`artifacts/p4-formal-derivation.md`): exchange phase as (2s)-fold half-turn monodromy power constructed within the Part VIII traced differential cohesive linear type theory; status ladder audited per PREMISE-DEPTH-1 (established/MAP/conjecture floors: act of distinction, categorical machinery JSV/HoTT, analytic realization FQ3, Euler's formula, physics inputs s + exchange-as-rotation, MAP identification). B₂ vs Z₂ covered ((e^{iπ})^{2s} unifies ±1 and anyon e^{2πis}). F1 remains partially discharged — Appendix D proof-assistant verification registered as the open step. P3 citation pass (75e9410) resolved all P2 NOT-VERIFIED items; Kauffman 1301.6214 (mark→fermion algebra) classified support-4 for P5 engagement.
 - Maintenance: update this file whenever frontier questions are answered, predictions are tested, or pre-reg scaffolds complete. Version-bump with each publication.
