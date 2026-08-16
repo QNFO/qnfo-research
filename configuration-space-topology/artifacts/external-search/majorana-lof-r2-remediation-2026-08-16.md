@@ -38,3 +38,39 @@
 - WRONG-BUCKET-SELECTION-1: canonical bucket verified against sibling object listing before uploads.
 - ZENODO-KG-OWNERSHIP-1: no DOI written without live zenodo.org/api/records verification this cycle.
 - Tool-Call Execution Mandate: every write followed by same-turn read-back (KG SQL + D1 SELECT shown above).
+
+---
+
+## ⚠️ CORRECTION — appended 2026-08-16 (same session, post-hoc full enumeration)
+
+**The H-1 verdict above is RETRACTED. It was based on an incomplete probe.**
+
+### What the full enumeration revealed
+A paginated, cursor-complete enumeration of both paper buckets (R2 objects API, `result_info.is_truncated` pagination) showed the `qnfo-releases` bucket uses **TWO layouts**:
+- **Flat (current canonical, knowledge v2.12):** `2026/MM/<slug>/…` — used for configuration-space-topology, spin-statistics-distinction (flat copy), exchange-phase (flat copy), from-distinction (flat copy), tyranny-of-the-plus-minus-one.
+- **Legacy nested:** `releases/2026/MM/<slug>/…` (a `releases/` key prefix INSIDE `qnfo-releases`) — used for the large July/August publication fleet (70+ record folders).
+
+All three "H-1" records **DO have real mirrors** under the nested layout:
+- `qnfo-releases/releases/2026/07/consilient-synthesis-v2/` — 3 objects (PROVENANCE-BUNDLE.zip, .md, .pdf) ✓
+- `qnfo-releases/releases/2026/07/boundary-ultrametricity/` — 3 objects ✓
+- `qnfo-releases/releases/2026/08/acrp06-vpmax-extension/` — 6 objects (incl. ERRATA-v1.1.md, v1.1 md/pdf, PROVENANCE-BUNDLE) ✓
+
+And the G1 pair ALSO had nested mirrors before this cycle's flat copies were created:
+- `qnfo-releases/releases/2026/08/exchange-phase-logical-scalar/` — 15 objects ✓ (pre-existing)
+- `qnfo-releases/releases/2026/08/from-distinction-to-dissipation/` — 19 objects ✓ (pre-existing)
+
+**Root cause of the false negative:** the first-pass probes (r2check/r2sweep/r2h1sweep) queried prefixes `2026/MM/<slug>`, bare `<slug>`, and `papers/<slug>` — none of which match keys that START with `releases/2026/MM/<slug>`. The API result shape (bare array + `result_info`) also masked pagination, capping listings at 20 objects and hiding the nested fleet. **The mirrors existed all along; the registry paths were truthful.**
+
+### Correction executed (read-back verified)
+1. `paper:consilient-synthesis-v2` → `distribution_status: distributed`, `r2_path: qnfo-releases/releases/2026/07/consilient-synthesis-v2/consilient-synthesis-v2.md`, `r2_readme: …/PROVENANCE-BUNDLE.zip`, `r2_mirror_verified: 2026-08-16`.
+2. `paper:boundary-ultrametricity` → `distribution_status: distributed`, r2_path/r2_readme nested (3 objects verified).
+3. `paper:acrp06-vpmax-extension` → `distribution_status: distributed`, r2_path → v1.1 md at nested key, r2_readme → PROVENANCE-BUNDLE (6 objects verified).
+4. D1 `papers.r2_key` for the 3 slugs → nested keys (read-back SELECT shown).
+5. All `r2_mirror_gap` flags REMOVED.
+
+### Net state after correction (dual copies, no data loss)
+- exchange-phase + from-distinction now exist in BOTH layouts: legacy nested (pre-existing) + flat canonical (this cycle). KG/D1 point at the flat canonical paths (verified objects at both). No deletion performed anywhere (R6: DELETEs irreversible).
+- ACRP-01/02/06: restored to their original truthful distributed state; their legacy nested mirrors are the canonical artifacts (July convention).
+
+### Lesson (kaizen candidate — R2-PREFIX-PROBE-SCOPE-1)
+When verifying R2 mirror existence, probe ALL known key-layout prefixes per bucket: `YYYY/MM/<slug>`, `releases/YYYY/MM/<slug>`, `papers/<slug>`, AND bare `<slug>`; paginate with `result_info.cursor` until `is_truncated=false`; and verify the API result shape (bare list vs dict) before trusting object counts. A "0 objects" verdict from an under-scoped prefix probe is a probe defect, not a data absence (BLAME-EXTERNAL-1 discipline — the fault was local).
