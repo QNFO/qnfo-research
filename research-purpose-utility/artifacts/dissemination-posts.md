@@ -30,8 +30,23 @@ Research with no traceable path to real-world utility is effectively useless —
 
 | Platform | Status | Date |
 |:---------|:-------|:-----|
-| Bluesky | DRAFTED (schedule via social-media-management / Buffer) | 2026-08-16 |
-| Mastodon | DRAFTED (schedule via social-media-management / Buffer) | 2026-08-16 |
-| LinkedIn / X | DRAFTED (manual/scheduled) | 2026-08-16 |
-| SEO (IndexNow) | SUBMITTED (HTTP 202) for qnfo.org + qwav.tech | 2026-08-16 |
-| Internet Archive | QUEUED (browser path) | 2026-08-16 |
+| Bluesky | **LIVE** — at://did:plc:vad2yeqflg5uznmp557zge5c/app.bsky.feed.post/3mt72gu23sb2d (marquee copy, 246 chars, 2026-08-16 session) | 2026-08-16 |
+| Mastodon (Buffer) | **SCHEDULED** — Buffer post 6a819aa20553c0d53cc33e0f (QNFO channel 6a660e1b4b2d03035f435349) | 2026-08-16 |
+| X/Twitter (Buffer) | **SCHEDULED** — Buffer post 6a819aa1939ce3ef8f2c1de6 (RowanQuni channel 685cd2c2acfb098c697a8786) | 2026-08-16 |
+| LinkedIn (Buffer) | **SCHEDULED** — Buffer post 6a819aa1939ce3ef8f2c1dc3 (Rowan Brad Quni-Gudzinas channel 6a170337c687a22dd430685f) | 2026-08-16 |
+| SEO (IndexNow) | SUBMITTED (HTTP 200) for papers.qnfo.org/papers/research-purpose-utility (key fea6716717dc42059213070adcdf0e53) — concurrent session also submitted qnfo.org + qwav.tech (HTTP 202) | 2026-08-16 |
+| Internet Archive | **DEFERRED** — Wayback 429 rate-limited on record + doi + page (same documented limit as RES.005 2026-08-13); retry next session | 2026-08-16 |
+
+**Posting evidence (live API responses, 2026-08-16):**
+- Bluesky createRecord → `at://did:plc:vad2yeqflg5uznmp557zge5c/app.bsky.feed.post/3mt72gu23sb2d`
+- Buffer createPost (LinkedIn) → `{"post":{"id":"6a819aa1939ce3ef8f2c1dc3","status":"scheduled"}}`
+- Buffer createPost (X) → `{"post":{"id":"6a819aa1939ce3ef8f2c1de6","status":"scheduled"}}`
+- Buffer createPost (Mastodon) → `{"post":{"id":"6a819aa20553c0d53cc33e0f","status":"scheduled"}}`
+- IndexNow POST api.indexnow.org → HTTP 200 (paper page) + HTTP 200 (home)
+
+**Copy actually posted (marquee framing, all ≤ platform limits, exactly 3 hashtags, no exclamation points):**
+> A falsifiable test for what deserves advancement: a live grounding path to real-world utility, a declared premise chain, no legitimacy from silo alone.
+> https://doi.org/10.5281/zenodo.21964565
+> #OpenScience #PhilosophyOfScience #ResearchMethodology
+
+LinkedIn long-form (522 chars) adds the F1-F3 falsifiers + self-siloing meta-test sentence.
