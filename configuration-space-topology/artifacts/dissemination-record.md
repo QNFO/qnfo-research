@@ -48,3 +48,20 @@ Follow-up policy: one max after 7–10 days (window 2026-08-22 → 08-25).
 1. Journal portal submission (interactive web step — needs browser session + account)
 2. SEO template upgrade for papers.qnfo.org paper pages (SOFT)
 3. Outreach follow-ups window 2026-08-22 → 08-25
+
+
+---
+
+## Addendum 2026-08-16 — v0.3 (corrected & expanded, DOI 10.5281/zenodo.21962450)
+
+**So-what mandate applied (user policy 2026-08-16: every publication AND every social post must carry the so-what / practical-utility framing).**
+
+- Paper compliance: Section 2 "So What? Why Should a Reader Care About This Research?" + Section 9 Applications (5 falsifiable applications) — PASS (red-team verified 2026-08-16).
+- Outreach: NO new emails sent (detection-only HARD gate + follow-up window 2026-08-22 → 08-25 unchanged; 5 sends from 2026-08-15 stand).
+- Social (Buffer GraphQL, addToQueue — so-what framing):
+| Channel | Post ID | Status | Chars |
+|:--------|:--------|:-------|:------|
+| X (RowanQuni) | 6a81548a7a8d0e804d5fc03b | scheduled | 274 |
+| Mastodon (QNFO) | 6a81548bd4153c994dfd602f | scheduled | 367 |
+| LinkedIn (Rowan Brad Quni-Gudzinas) | 6a81548baf8e8bd46a39e546 | scheduled | 1226 |
+- SEO / PhilPapers / journal portal: unchanged from v0.2 (open items 1-2 stand).
