@@ -3,9 +3,11 @@ title: "The Exchange Phase as a Logical Scalar: R = e^{2πis} from the Re-Entran
 author: "Rowan Brad Quni-Gudzinas"
 affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
-date: "2026-08-14"
+date: "2026-08-16"
+version: "1.1"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21941238"
+doi: "10.5281/zenodo.21963930"
+concept_doi: "10.5281/zenodo.21941184"
 status: "published"
 ---
 
@@ -73,6 +75,8 @@ The parent works establish η = ±1 (symmetric case) and identify the single sig
 
 **Step 6 — unification with e and π.** [my conjecture — the scalar family] e (the fixed point of D f = f), π (the trace of the identity on S¹), and R (the monodromy power of the half-turn) form one family of logical scalars of the re-entrant mark under linear discipline: fixed point, trace, monodromy power.
 
+**Formalization (P4, 2026-08-16).** A formal derivation of the composite in the Part VIII system — the traced differential cohesive linear type theory of the treatise (§34–§36) — is provided in the companion artifact `artifacts/p4-formal-derivation.md`: the composite (e^{iπ})^{2s} is expressible as the (2s)-fold composition of the half-turn endomorphism of S¹, an element of End(S¹) (the phase rotations, §34.1), evaluated via the trace/scalar structure (§34.2, §36.1). Every status label in the derivation is audited to its floor: the trace/compact-closed machinery and S¹ self-duality are [established] (Joyal–Street–Verity; HoTT); the half-turn e^{iπ} = −1 is [established] (§12.1, Euler's formula); the exchange-monodromy identification is [MAP — model]; the axiom-free computation of the constants e and π by the bare type-theoretic syntax is [my conjecture]. **F1 is thereby partially discharged:** the construction is complete within established components plus the declared MAP; the residual open step is the Appendix D proof-assistant computation, registered in the research-continuity-registry (FQ1) — not claimed.
+
 ## 5. Status ladder
 
 | Component | Status |
@@ -83,7 +87,7 @@ The parent works establish η = ±1 (symmetric case) and identify the single sig
 | (e^{iπ})^{2s} = (−1)^{2s} = ±1 for 2s ∈ ℤ | [established — elementary arithmetic] |
 | Exchange monodromy = (2s)-fold half-turn | [MAP — model of the re-entrant phase] |
 | e/π/R scalar-family unification | [my conjecture] |
-| Formal derivation in the traced differential cohesive linear type theory | [my conjecture — F1 target] |
+| Formal derivation in the traced differential cohesive linear type theory | [my conjecture — F1 target; PARTIALLY DISCHARGED 2026-08-16: construction delivered in p4-formal-derivation.md; axiom-free computation of the constants = Appendix D path, open] |
 | Physical realization (which sign, in 3+1D) | [established physics; external Lorentz/microcausality input] |
 
 ## 6. Falsifiability conditions
@@ -100,11 +104,21 @@ The parent works establish η = ±1 (symmetric case) and identify the single sig
 
 **Kauffman 2022.** Reviews Majorana fermions through the laws of form, connecting the mark calculus to fermionic structure. It addresses the representation of fermions, not the exchange-phase invariant, and contains no (2s)-fold half-turn power structure. The present claim is distinct and complementary.
 
+**Kauffman 2013 (World Scientific).** "Laws of Form, Majorana Fermions, and Discrete Physics" (*The Physics of Reality*, pp. 1–18) is the direct predecessor of the 2022 review, connecting the mark calculus to Majorana structure a decade earlier. It likewise does not construct the (2s)-fold half-turn power structure nor the exchange-phase invariant; the present claim remains distinct.
+
+**Kauffman 2013 (arXiv:1301.6214).** "Knot Logic and Topological Quantum Computing with Majorana Fermions" develops the mark-as-fermion-algebra reading: negation seen as the mark "naturally generates the fermion algebra, the quaternions and the braid group representations related to Majorana fermions." This is the closest prior art on the mark–fermion identification. The distinction maintained here: Kauffman derives fermion *algebra* (Clifford/quaternion structure) from the mark; the present work derives the exchange-phase *invariant* R = (e^{iπ})^{2s} as a monodromy-power logical scalar. Algebra vs invariant is the novelty boundary (P3 classification, support-4).
+
 **Ma and Zhang 2025.** Derive a Z₂ exchange phase from self-referential scattering via Riccati square roots and the spinor double cover in a quantum field theory framework. Their primitive is self-referential scattering in QFT; the primitive here is the re-entrant mark of the calculus of indications. Their result is confined to the Z₂ (boson/fermion) case; the (e^{iπ})^{2s} power structure for arbitrary s (anyons) and the e/π/R scalar-family unification are absent. The present claim is distinct: the derivation target is the re-entrant mark under linear discipline, not bare self-reference.
 
 **Berry and Robbins 2017.** The geometric-phase construction of spin-statistics: exchange of two particles acquires the Berry phase, connecting statistics to geometry. The monodromy-power reading advanced here is conceptually adjacent (both trace the exchange phase to a geometric monodromy) but is formulated natively in the calculus of indications rather than in Hilbert-space geometry.
 
 **Ahluwalia and Lee 2022.** Propose mass-dimension-three-half spinors as an evasion of the standard spin-statistics theorem. This is relevant to F2: the evasion targets the standard theorem statement, not the invariant R itself; the empirical falsifier above covers the general evasion class.
+
+**Sato and Fujimoto 2016.** The canonical condensed-matter review of Majorana fermions and topology in superconductors (*J. Phys. Soc. Jpn.* 85, 072001). Provides the physics context for the Majorana connection; contains no Laws-of-Form content (Background).
+
+**Vissani 2026.** History-of-physics reconstruction of Majorana's 1933–1937 route to anti-commuting quantization (arXiv:2603.28538). Historical anchor; no Laws-of-Form content (Background).
+
+**Kauffman 1980/1995/2023.** The Laws-of-Form foundations corpus — "Form dynamics" (*J. Social Biol. Syst.* 3(2), 1980), "Arithmetic in the Form" (*Cybernetics and Systems* 26(1), 1995), "Autopoiesis and Eigenform" (*Computation* 11(12), 2023) — anchors the reading of the calculus used throughout this paper.
 
 ## 8. Conclusions
 
@@ -137,3 +151,10 @@ The exchange phase R = e^{2πis} is the (2s)-fold half-turn of the re-entrant ma
 - Spencer-Brown, G. (1969). *Laws of Form*. George Allen and Unwin.
 - Wilczek, F. (1982). Magnetic Flux, Angular Momentum, and Statistics. *Physical Review Letters* 48, 1144, 10.1103/PhysRevLett.48.1144.
 - Joyal, A., R. Street, and D. Verity (1996). Traced monoidal categories. *Mathematical Proceedings of the Cambridge Philosophical Society* 119, 447–468, 10.1017/S0305004100074338.
+- Kauffman, L. H. (1980). Form dynamics. *Journal of Social and Biological Systems* 3(2), 171–206, 10.1016/0140-1750(80)90008-1.
+- Kauffman, L. H. (1995). Arithmetic in the Form. *Cybernetics and Systems* 26(1), 1–57, 10.1080/01969729508927486.
+- Kauffman, L. H. (2013). Laws of Form, Majorana Fermions, and Discrete Physics. *The Physics of Reality*, World Scientific, 1–18, 10.1142/9789814504782_0001.
+- Kauffman, L. H. (2013). Knot Logic and Topological Quantum Computing with Majorana Fermions. arXiv:1301.6214.
+- Kauffman, L. H. (2023). Autopoiesis and Eigenform. *Computation* 11(12), 247, 10.3390/computation11120247.
+- Sato, M., and S. Fujimoto (2016). Majorana Fermions and Topology in Superconductors. *Journal of the Physical Society of Japan* 85, 072001, 10.7566/JPSJ.85.072001.
+- Vissani, F. (2026). From Hole Theory to Quantum Field Theory: Relativistic Fermions and the Role of Ettore Majorana (1933–1937). arXiv:2603.28538.
