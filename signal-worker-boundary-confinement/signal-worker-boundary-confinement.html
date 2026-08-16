@@ -5,12 +5,13 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Quni-Gudzinas, Rowan Brad" />
-  <meta name="dcterms.date" content="2026-08-14" />
+  <meta name="dcterms.date" content="2026-08-16" />
   <meta name="keywords" content="Signal-Worker ontology, topological
 insulators, bulk-boundary correspondence, Meissner effect, quantum Hall
-effect, non-Hermitian skin effect, Weyl semimetals, Cooper
-pairs, spin-statistics theorem" />
-  <title>Signal-Worker Boundary Confinement</title>
+effect, non-Hermitian skin effect, skin effect, bundled conductors, Litz
+wire, band structure, Weyl semimetals, Cooper pairs, spin-statistics
+theorem" />
+  <title>Signal-Worker Boundary Confinement: A Corrected Ontology of Surface vs Bulk Transport</title>
   <style>
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -175,19 +176,23 @@ pairs, spin-statistics theorem" />
       vertical-align: middle;
     }
   </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Signal-Worker Boundary Confinement</h1>
+<h1 class="title">Signal-Worker Boundary Confinement: A Corrected
+Ontology of Surface vs Bulk Transport</h1>
 <p class="author">Quni-Gudzinas, Rowan Brad</p>
-<p class="date">2026-08-14</p>
+<p class="date">2026-08-16</p>
 </header>
 <p><strong>Author:</strong> Quni-Gudzinas, Rowan Brad (QNFO Research
 Collective) <strong>ORCID:</strong> 0009-0002-4317-5604
-<strong>Date:</strong> 2026-08-14 <strong>Version:</strong> v0.1
+<strong>Date:</strong> 2026-08-16 <strong>Version:</strong> v0.2
 <strong>WBS:</strong> QNFO.INM.001 · <strong>Slug:</strong>
-signal-worker-boundary-confinement <strong>Status:</strong> Phase 2
-draft (post red-team)</p>
+signal-worker-boundary-confinement <strong>Status:</strong> Published
+(newversion v0.2 — classical-EM companion + complete source set)</p>
 <hr />
 <h2 id="abstract">Abstract</h2>
 <p>The Signal-Worker (S-W) ontology — boson = <em>signal</em> (the
@@ -208,6 +213,12 @@ flagship substrate (TaAs, a Weyl semimetal with a gapless conducting
 bulk) contradicts the “worker excluded from the bulk” claim. Every claim
 carries an epistemic label and a falsifiability condition; the ontology
 itself is explicitly labeled an unconfirmed internal proposal.</p>
+<p><strong>v0.2 (2026-08-16).</strong> This newversion adds a
+classical-electrodynamics companion section (§3.6: bundling practice,
+skin-depth thresholds, and the quantum origin of the bulk–insulator
+distinction) and completes the deposited source set with
+<code>references.bib</code> and <code>citation-audit.md</code>. No
+changes to the v0.1 taxonomy or falsifiability register.</p>
 <hr />
 <h2 id="introduction-and-positioning">1. Introduction and
 Positioning</h2>
@@ -232,7 +243,9 @@ different concepts). This paper formalizes the corrected position.</p>
 ontology or the topological-material corpus (see the deep-due-diligence
 report, companion artifact). It corrects the boundary-confinement claim,
 the composite-particle mapping, and the epistemic status of the
-ontology, and it fixes the LCI terminology collision.</p>
+ontology, and it fixes the LCI terminology collision. v0.2 adds §3.6 —
+the classical-EM companion that applies this correction to engineering
+practice — plus the two missing provenance files.</p>
 <hr />
 <h2 id="the-signal-worker-ontology-stated">2. The Signal-Worker
 Ontology, Stated</h2>
@@ -323,6 +336,66 @@ bulk eigenmodes to collapse onto the boundary (Yao–Wang 2018) [3]. This
 is the literal “bulk → boundary” analog and the most on-point
 mode-confinement phenomenon for the ontology’s vocabulary — and it is
 absent from the S-W corpus [H4].</p>
+<hr />
+<h3
+id="engineering-companion-bundling-skin-depth-thresholds-and-the-quantum-bulkinsulator-boundary-v0.2">3.6
+Engineering companion: bundling, skin-depth thresholds, and the quantum
+bulk–insulator boundary [v0.2]</h3>
+<p>A recurring misreading holds that conductors are <em>bundled</em>
+because of the skin effect. The engineering record says otherwise — and
+the distinction is a live instance of the category discipline of §4.
+[TERRITORY]</p>
+<p><strong>Bundling practice.</strong> Three distinct practices are
+conflated under “bundling”:</p>
+<ul>
+<li><strong>Stranded conductors</strong> (ordinary copper cable) exist
+for mechanical flexibility. At 50/60 Hz the skin depth in copper is
+<span class="math inline">\(\delta = \sqrt{2\rho/\omega\mu} \approx
+8.5\)</span> mm, so stranded wires below ~17 mm overall diameter conduct
+through essentially the full cross-section at mains frequency.</li>
+<li><strong>Bundled conductors on high-voltage lines</strong> (2–4
+subconductors per phase, usually aluminum conductor steel-reinforced —
+ACSR, not copper) exist primarily to suppress <strong>corona
+discharge</strong> by reducing the surface electric-field gradient.
+Electrically, bundling lowers the series inductance (larger effective
+geometric mean radius) and raises the shunt capacitance (larger
+equivalent radius), which raises the surge-impedance loading and the
+power-transfer capability.</li>
+<li><strong>Litz wire</strong> (individually insulated strands) is the
+only bundling scheme whose purpose <em>is</em> the skin/proximity effect
+— and it exists for high-frequency use, not mains.</li>
+</ul>
+<p>So the AC skin effect is real, but almost none of the wire we see is
+bundled because of it. The error is a category slip: a
+<em>field/current-density</em> phenomenon (skin effect) is misattributed
+as the motive for a <em>structural</em> practice (bundling) — the same
+slip the corrected taxonomy of §4 exists to prevent.</p>
+<p><strong>Where quantum effects actually enter the bulk–insulator
+boundary.</strong> The conductor/insulator distinction itself is quantum
+mechanical: copper conducts because its band structure provides a
+partially filled band of delocalized Bloch states, while an insulator
+presents a filled valence band plus a gap. The AC skin effect, by
+contrast, is classical Maxwell electrodynamics — no quantum input is
+required at macroscopic scales. Quantum physics becomes explicit for
+surface-vs-bulk questions when a length scale approaches the Fermi
+wavelength (<span class="math inline">\(\lambda_F \approx 0.46\)</span>
+nm in copper) or the electron mean free path (~40 nm at room
+temperature): conductance quantization in multiples of <span
+class="math inline">\(e^2/h\)</span>, ballistic transport, quantum
+confinement, and — genuinely quantum and genuinely boundary-localized —
+the topological surface states of §3.1, protected by bulk topology. The
+skin effect and the topological boundary are therefore <em>not</em> the
+same kind of “surface”: the former is a classical field redistribution
+inside a conductor; the latter is a mode-confinement effect. The §4
+category distinction survives the nanoscale.</p>
+<p><strong>S-W reading.</strong> In Signal-Worker vocabulary: under the
+AC skin effect, the <em>signal</em> (the electromagnetic field) is
+redistributed toward the surface while the <em>workers</em> (the
+conduction electrons) remain distributed through the bulk; in a
+topological insulator, the boundary <em>modes</em> carry the work.
+Nothing in this companion section changes the v0.1 taxonomy — it
+supplies the engineering and quantum-threshold context in which that
+taxonomy is applied.</p>
 <hr />
 <h2 id="the-category-error-and-its-correction-h1">4. The Category Error
 and Its Correction [H1]</h2>
