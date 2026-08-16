@@ -1,0 +1,13 @@
+{
+  "source": "arXiv API (arxiv-mcp-server), search: ti:\"non-Hermitian skin effect\" + au:Yao au:Wang PRL query",
+  "date": "2026-08-16",
+  "project": "QNFO.INM.001 signal-worker-boundary-confinement",
+  "key_verified": [
+    {"arxiv": "1803.01876v2", "title": "Edge states and topological invariants of non-Hermitian systems", "authors": "Shunyu Yao, Zhong Wang", "published": "2018-03-05", "journal_verified": "Phys. Rev. Lett. 121, 086803 (2018) via Crossref 10.1103/PhysRevLett.121.086803", "role": "FOUNDING NHSE paper — non-Bloch bulk-boundary correspondence, generalized Brillouin zone. Cited in v0.2 body (121:086803)."},
+    {"arxiv": "2302.03057v3", "title": "Topological Non-Hermitian skin effect", "authors": "Lin, Tai, Yang, Li, Lee", "published": "2023-02-06", "role": "review — modified bulk-boundary correspondence in non-Hermitian systems"},
+    {"arxiv": "2003.03039v1", "title": "Critical non-Hermitian Skin Effect", "authors": "Li, Lee, Mu, Gong", "published": "2020-03-06", "role": "critical skin effect — challenges GBZ for finite systems"},
+    {"arxiv": "2008.07237v2", "title": "Higher-order non-Hermitian skin effect", "authors": "Kawabata, Sato, Shiozaki", "published": "2020-08-17", "role": "corner skin modes"},
+    {"arxiv": "2505.03658v1", "title": "Ultrafast Non-Hermitian Skin Effect", "authors": "Schneider et al.", "published": "2025-05-06", "role": "EXPERIMENTAL realization (semiconductor laser) — NHSE is now an observed phenomenon, not just theory"}
+  ],
+  "note": "NHSE literature is mature and experimentally realized (2025). Any claim that the category distinction 'survives the nanoscale' must explicitly place NHSE as the third category: skin effect (classical field redistribution) vs topological boundary (mode confinement) vs NHSE (non-reciprocal bulk-sensitivity eigenstate localization) — the v0.2 ontology does carry NHSE keywords and cites Yao-Wang."
+}

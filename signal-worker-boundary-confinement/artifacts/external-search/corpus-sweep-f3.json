@@ -1,0 +1,21 @@
+{
+  "sweep": "DUE-DILIGENCE-DEPTH-1 corpus sweep — formulation 3 + D1 direct",
+  "date": "2026-08-16",
+  "project": "QNFO.INM.001 signal-worker-boundary-confinement",
+  "query": "non-Hermitian skin effect bulk-boundary correspondence breakdown generalized Brillouin zone",
+  "corpus_size": 997,
+  "tool": "search_papers_enriched + direct Cloudflare D1 HTTP API (living-paper)",
+  "hits": [
+    {"slug": "adaptive-thick-skin", "doi": "10.5281/zenodo.17864277", "score": 0.7146, "domain": "INM (NHSE-sibling, strongest)"},
+    {"slug": "superfluid-substrate", "doi": "10.5281/zenodo.17955974", "score": 0.6613, "domain": "INM"},
+    {"slug": "unifying-photosynthetic-energy-transduction-and-ambient-superconductivity", "doi": "10.5281/zenodo.18330365", "score": 0.6483, "domain": "INM"}
+  ],
+  "d1_direct": [
+    {"slug": "signal-and-worker-how-proteins-activate-electrons", "doi": "10.5281/zenodo.20329449", "note": "S-W sibling (also top OpenAlex hit)"},
+    {"slug": "hamiltonian-engineering-of-topological-deconfinement-in-weyl-semimetals", "doi": null, "note": "Weyl-semimetal counter-example anchor"},
+    {"slug": "topological-signal-processing", "doi": null},
+    {"slug": "continuous-signal-processing-for-josephson-junction-readout", "doi": null},
+    {"slug": "zbw-majorana-tqc-p1-zbw-padic-observable", "doi": "10.5281/zenodo.21335853", "note": "UMP p-adic boundary/ZBW thread"}
+  ],
+  "note": "NHSE is the third 'surface' category the corrected ontology must keep distinct from both classical skin (field redistribution) and topological boundary (mode confinement) — adaptive-thick-skin (17864277) is the corpus's own NHSE flagship."
+}

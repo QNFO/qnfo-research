@@ -1,0 +1,15 @@
+{
+  "sweep": "DUE-DILIGENCE-DEPTH-1 corpus sweep — formulation 2",
+  "date": "2026-08-16",
+  "project": "QNFO.INM.001 signal-worker-boundary-confinement",
+  "query": "Meissner effect skin effect field expulsion versus particle confinement superconductor surface",
+  "corpus_size": 997,
+  "tool": "search_papers_enriched (Vectorize + D1)",
+  "hits": [
+    {"slug": "unifying-photosynthetic-energy-transduction-and-ambient-superconductivity", "doi": "10.5281/zenodo.18330365", "score": 0.6668, "domain": "INM (S-W founding record)"},
+    {"slug": "thermodynamic-scaling-of-4-kelvin-topological-processors", "doi": "10.5281/zenodo.17899087", "score": 0.6658, "domain": "INM"},
+    {"slug": "superfluid-substrate", "doi": "10.5281/zenodo.17955974", "score": 0.6493, "domain": "INM"},
+    {"slug": "thermodynamic-imperative", "doi": "10.5281/zenodo.17928156", "score": 0.6351, "domain": "INM"}
+  ],
+  "note": "Meissner effect has NO D1 title-level paper (verified via direct D1 query: 0 hits) — it is discussed inside superconductor papers; corpus coverage of classical field expulsion is indirect."
+}

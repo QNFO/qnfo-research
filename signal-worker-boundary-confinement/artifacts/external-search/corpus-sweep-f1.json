@@ -1,0 +1,18 @@
+{
+  "sweep": "DUE-DILIGENCE-DEPTH-1 corpus sweep — formulation 1",
+  "date": "2026-08-16",
+  "project": "QNFO.INM.001 signal-worker-boundary-confinement",
+  "query": "skin effect versus topological surface states bulk boundary correspondence",
+  "corpus_size": 997,
+  "tool": "search_papers_enriched (Vectorize + D1)",
+  "hits": [
+    {"slug": "electron-hook-treatise", "doi": "10.5281/zenodo.21970454", "score": 0.7344, "domain": "RES.013"},
+    {"slug": "adaptive-thick-skin", "doi": "10.5281/zenodo.17864277", "score": 0.6977, "domain": "INM (unregistered WBS)"},
+    {"slug": "operationalizing-generalized-symmetries", "doi": "10.5281/zenodo.18199396", "score": 0.6838, "domain": "INM"},
+    {"slug": "gauge-invariant-field-theory-of-signal-worker-interactions", "doi": "10.5281/zenodo.18466521", "score": 0.6751, "domain": "INM"},
+    {"slug": "thermodynamic-genesis-of-the-standard-model", "doi": "10.5281/zenodo.18111349", "score": 0.6773, "domain": "UMP/RES"},
+    {"slug": "scale-invariant-physics", "doi": "10.5281/zenodo.17216191", "score": 0.6663, "domain": "RES"},
+    {"slug": "superfluid-substrate", "doi": "10.5281/zenodo.17955974", "score": 0.6662, "domain": "INM"}
+  ],
+  "note": "electron-hook-treatise (RES.013) also anchors the note's thermodynamics-primitives thread (entropy primary, temperature derivative, G conversion factor, Ostrowski/Archimedean valuation) — adjacent-domain overlap, not a duplication."
+}
