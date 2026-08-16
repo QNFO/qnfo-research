@@ -1,0 +1,25 @@
+[PASS] (1a) Frobenius (m id)(id d) = (id m)(d id) (expected PASS)
+[PASS] (1b) Special m d = id (expected PASS)
+[PASS] (1c) Commutative m sigma = m (expected PASS)
+[PASS] (1d) Unit m (u id) = id (expected PASS)
+[PASS] (1e) Counit (eps id) d = id (expected PASS)
+[PASS] (2) Involutivity sigma^2 = id (expected PASS)
+[FAIL] (3) J2(merge-as-AND) = pi1 (expected FAIL)
+    |01> -> [0.0, 0.0] (expected e0=[1,0]);  J2(merge) is the ZERO map
+[FAIL] (4) J2(Boolean-AND) = pi1 (expected FAIL)
+    |11> -> [0.0, 0.0] (expected e1=[0,1]);  J2(Boolean-AND) is the ZERO map
+[PASS] (5) J2 on classical sector: (a&b)|(a&~b) = a for all a,b
+[PASS] (6) non-involutive candidate S: S^2 != I (max|diff|=1.288e+00) -- involutivity is a specialization
+[PASS] (6b.1) TL uncrossing U: U^2 = delta*U (delta=2)
+[PASS] (6b.2) TL braid: sigma^2 = A^2 I + (2+2A^-2) U (verified)
+[PASS] (6b.3) TL braid sigma^2 != I for A^4 != 1 (max|diff|=3.236e+00) -- non-involutive (anyon)
+
+SUMMARY: classical-structure axioms PASS; sigma^2=id PASS;
+naive operator-level J2 = ZERO map (fails both merge and Boolean-AND readings);
+classical-sector J2 PASS (two-valued Boolean identity);
+involutivity is a genuine specialization (S^2 != I); TL braid formula sigma^2 = A^2 I + (2+2A^{-2}) U verified (Claim C).
+CONCLUSION: Boolean logic is two-valued ON the classical sector only; operator-level J2
+needs complementarity (ZX classical fragment) -- an ADDITIONAL external input.
+The mark calculus contributes two-valued logic + involutive-quotient syntax, nothing more.
+OVERALL: CONSISTENT (expected failures documented)
+EXIT_CODE:0
