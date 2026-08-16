@@ -1,12 +1,12 @@
-# P6 Zenodo Remediation — PENDING (newversion to add citation-audit.md)
+# P6 Zenodo Remediation — RESOLVED ✅
 
-**Record:** 10.5281/zenodo.21964566 (published 2026-08-16) · Concept: 10.5281/zenodo.21964565
-**Branch:** res/paper/research-purpose-utility @ 3bec4cf
+**Record v2:** 10.5281/zenodo.21964824 (published 2026-08-16, status=published, files=15) · Concept: 10.5281/zenodo.21964565
+**Branch:** res/paper/research-purpose-utility @ ae1039f
 
 ## Status
-QNFO.RES.012 published and verified live (DataCite findable, doi.org 200). The published record contains **14 of 15 required source files** — `citation-audit.md` (the AUTHOR-GATE evidence file) was dropped during the InvenioRDM batch-declare churn (the file IS present in the R2 mirror `qnfo-releases/2026/08/research-purpose-utility/` and in git; only the Zenodo record lacks it).
+**RESOLVED 2026-08-16.** Newversion published with ALL 15 source files (citation-audit.md added), every file checksum-verified (ALL VERIFIED: True), DataCite FINDABLE, R2 mirror updated. The v1 record (10.5281/zenodo.21964566) remains as the historical 14/15 version; the concept DOI resolves to the latest (v2).
 
-Per PUBLICATION-SOURCE-COMPLETENESS-1 ("WHEN IN DOUBT INCLUDE EVERYTHING"), the missing file must be added via a NEW VERSION (files on a published record are immutable).
+## Original finding (2026-08-16)
 
 ## Remediation procedure (next CMD CONTINUE / next session)
 
