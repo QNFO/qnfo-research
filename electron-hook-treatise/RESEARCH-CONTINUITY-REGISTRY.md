@@ -58,4 +58,5 @@ FQ1 disconfirmed if: an experiment discriminates real vs complex amplitudes at s
 
 - 2026-08-16 — Registry created with v0.1 publication. All entries seeded from manuscript §IV.1–IV.3.
 - 2026-08-17 — v0.2 Full Edition (9 parts, 51 chapters, 34 six-step audits) published (10.5281/zenodo.21970697). FQ register unchanged (same frontier questions, now chapter-anchored); added Q29.1–Q43.1 (Part VII) and Q37.1/Q37.2, Q39.1/Q39.2.
+- 2026-08-17 — v0.2.1 published (10.5281/zenodo.21970736): §0.4/Preface prose correction (Chapter 51 reference); no register changes.
 - Maintenance: update Status/Next action on every version bump; close predictions on their check dates.

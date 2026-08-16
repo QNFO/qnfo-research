@@ -3,14 +3,14 @@ title: 'A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics
 author: 'Rowan Brad Quni-Gudzinas'
 date: '2026-08-16'
 license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: '10.5281/zenodo.21970697'
+doi: '10.5281/zenodo.21970736'
 status: 'published'
 ---
 
 **Subtitle:** The Electron as a Hook — Full Edition (nine parts, fifty-one chapters)
 **Author:** Rowan Brad Quni-Gudzinas · QNFO Research Foundation
 **Contact:** rowan.quni@qnfo.org · **ORCID:** [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**Version:** v0.2 · **Supersedes:** v0.1 (architecture + two research notes)
+**Version:** v0.2.1 · **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition)
 
 ## Abstract
 
@@ -36,7 +36,7 @@ A framework that has never failed within its tested domain is a successful frame
 
 ### How this treatise is organized
 
-Part I establishes the electron as known and as probe. Parts II through VI audit the load-bearing assumptions in five domains: the Hilbert-space framework, spin and statistics, thermodynamics and computation, measurement and valuation, and vacuum-dependence with dimensionality and holography. Part VII audits fifteen cross-cutting assumptions, each with the full six-step treatment. Part VIII converts the audit into a research programme; Part IX consolidates every open question; the Conclusion states what the treatise does and does not claim. Four appendices provide the mathematical, experimental, and bibliographic scaffolding.
+Part I establishes the electron as known and as probe. Parts II through VI audit the load-bearing assumptions in five domains: the Hilbert-space framework, spin and statistics, thermodynamics and computation, measurement and valuation, and vacuum-dependence with dimensionality and holography. Part VII audits fifteen cross-cutting assumptions, each with the full six-step treatment. Part VIII converts the audit into a research programme; Part IX consolidates every open question; Chapter 51 states what the treatise does and does not claim. Four appendices provide the mathematical, experimental, and bibliographic scaffolding.
 
 ## Acknowledgments
 
@@ -80,7 +80,7 @@ Only scientific criteria are used: predictive power, empirical adequacy, interna
 
 ### 0.4 Structure of the Treatise
 
-Nine parts, fifty-one chapters, four appendices. Every part closes on its own open questions; Part IX consolidates them; the Conclusion states the bounds of the claims.
+Nine parts, fifty-one chapters, four appendices. Every part closes on its own open questions; Part IX consolidates them; Chapter 51 states the bounds of the claims.
 
 ---
 

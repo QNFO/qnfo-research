@@ -7,7 +7,8 @@
 | Version | DOI | Scope |
 |:--------|:----|:------|
 | v0.1 | 10.5281/zenodo.21970454 | Architecture (Parts I–IV) + two research notes; 21 deposit files |
-| **v0.2** | **10.5281/zenodo.21970697** | **Full Edition: 9 parts, 51 chapters, 34 six-step audits; 25 deposit files** |
+| v0.2 | 10.5281/zenodo.21970697 | Full Edition: 9 parts, 51 chapters, 34 six-step audits; 25 deposit files |
+| **v0.2.1** | **10.5281/zenodo.21970736** | **§0.4/Preface prose correction (Chapter 51 reference); 26 deposit files** |
 
 ## Phase 0 — Context
 
