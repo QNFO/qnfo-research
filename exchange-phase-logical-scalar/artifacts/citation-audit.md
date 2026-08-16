@@ -52,3 +52,13 @@
 - Treatise cross-refs verified verbatim: §12.1 "e^{iπ} = −1 as the half-turn of the re-entrant mark"; §2.3 "the claim that this parity is the ancestor of physical spin-statistics is [my conjecture]".
 - WBS registry row QNFO.RES.010 re-read (name/slug/phase P0/status active) — stable.
 - BibTeX generation: all entries carry author/title/year/doi; description HTML entities excluded from BibTeX (metadata only, not rendered fields).
+
+
+---
+
+## Addendum 2026-08-16 (v1.2 so-what cycle)
+
+- New Section 2 "So What? Why Should a Reader Care About This Research?" added. Contains one citation ([Pauli 1940]) already present in the bibliography — no new keys; cited-keys == bib-keys unchanged.
+- Companion paper (Configuration-Space Topology and the Distinction Calculus) referenced by title only — no citation key added.
+- Frontmatter license aligned QNFO-ULA -> cc-by-4.0 (record metadata authoritative).
+- Zenodo metadata: EuroSciVoc subjects (philosophy, mathematics) restored on the v1.2 record.
