@@ -6,7 +6,7 @@ affiliation: "QNFO Research Collective"
 date: "2026-08-16"
 version: "v0.2"
 license: "CC-BY-4.0"
-doi: "10.5281/zenodo.21969160"
+doi: "10.5281/zenodo.21969297"
 status: "published"
 keywords: ["Signal-Worker ontology", "topological insulators", "bulk-boundary correspondence", "Meissner effect", "quantum Hall effect", "non-Hermitian skin effect", "skin effect", "bundled conductors", "Litz wire", "band structure", "Weyl semimetals", "Cooper pairs", "spin-statistics theorem"]
 ---
