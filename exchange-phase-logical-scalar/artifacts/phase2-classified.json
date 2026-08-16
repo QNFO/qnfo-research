@@ -1,89 +1,275 @@
 {
-  "wbs": "QNFO.RES.010",
-  "phase": "P2",
-  "date": "2026-08-14",
-  "classification": [
-    {
-      "id": "core-1",
-      "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
-      "authors": ["Rowan Brad Quni-Gudzinas"],
-      "year": 2026,
-      "doi": "10.5281/zenodo.21938971",
-      "class": "Core",
-      "role": "Parent prior claim + derivation target (internal)",
-      "relation": "RES.010 delta: (e^{i pi})^{2s} composite monodromy power, e/pi/R scalar-family unification, treatise-anchored derivation beyond symmetric-category eta=+/-1"
-    },
-    {
-      "id": "core-2",
-      "title": "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference",
-      "authors": ["Rowan Brad Quni-Gudzinas"],
-      "year": 2026,
-      "doi": "10.5281/zenodo.21908818",
-      "class": "Core",
-      "role": "Parent machinery: e (D f = f), pi (Tr id_S^1), half-turn e^{i pi} = -1 (12.1); parity->spin-statistics [my conjecture] (2.3)",
-      "relation": "Supplies the primitive (re-entry, half-turn, trace) that RES.010 derives R from; never constructs two-mark exchange"
-    },
-    {
-      "id": "support-1",
-      "title": "A Review of Majorana fermions and the laws of form",
-      "authors": ["Louis H. Kauffman"],
-      "year": 2022,
-      "doi": "10.1088/1742-6596/2197/1/012001",
-      "class": "Supporting",
-      "role": "Closest external Laws-of-Form x fermion literature; Kauffman is a knot-theory/Laws-of-Form authority; must be engaged in P5 relation-to-prior-art",
-      "relation": "LoF representation of fermion structure, not the exchange-phase invariant; P3 must pull full body and confirm scope"
-    },
-    {
-      "id": "support-2",
-      "title": "Spin-half bosons with mass dimension three-half: Evading the spin-statistics theorem",
-      "authors": ["Dharam Vir Ahluwalia", "Cheng-Yang Lee"],
-      "year": 2022,
-      "doi": "10.1209/0295-5075/ac97bd",
-      "class": "Supporting",
-      "role": "F2-relevant evasion strategy (mass-dimension-3/2 spinors); erratum 10.1209/0295-5075/acabe2",
-      "relation": "Attacks standard theorem statement, not invariant R; RES.010 F2 (inherited RES.009 F1) covers the evasion class"
-    },
-    {
-      "id": "support-3",
-      "title": "Indistinguishability for quantum particles: spin, statistics and the geometric phase",
-      "authors": ["M. V. Berry", "J. M. Robbins"],
-      "year": 2017,
-      "doi": "10.1142/9789813221215_0008",
-      "class": "Supporting",
-      "role": "Geometric-phase reading of indistinguishability; Berry-Robbins is the canonical geometric-phase spin-statistics construction",
-      "relation": "Berry-type monodromy lineage; RES.010 monodromy-power reading is distinct and Laws-of-Form-native; acknowledge in P5"
-    },
-    {
-      "id": "background-1",
-      "title": "Laws of Form commentaries (Appendizes/Kontexte/Bemerkungen zur Architektur der Laws of Form)",
-      "authors": ["R. Kaehr"],
-      "year": 2004,
-      "doi": "10.1007/978-3-322-95679-8",
-      "class": "Background",
-      "role": "German-language Laws-of-Form scholarship context",
-      "relation": "Optional citation; no exchange-statistics content"
-    },
-    {
-      "id": "anchor",
-      "title": "Mainstream spin-statistics anchors",
-      "authors": ["Pauli", "Leinaas and Myrheim", "Wilczek", "Duck and Sudarshan", "Joyal and Street", "Kitaev"],
-      "year": "1940-2006",
-      "class": "Background",
-      "role": "Established anchors; already verified in RES.009 citation-audit",
-      "relation": "Carried forward"
-    }
-  ],
-  "not_verified": [
-    "Zenodo API queries (timeout)",
-    "EuropePMC queries (timeout)",
-    "Semantic Scholar queries (timeout)",
-    "DBLP queries (timeout)",
-    "Crossref Q4 (HTTP 429)"
-  ],
-  "patent_check": {
-    "query": "\"exchange phase\" \"half-turn\" spin statistics",
-    "total_results": 0,
-    "verdict": "VERIFIED — no patent claims the exact-phrase combination"
+ "wbs": "QNFO.RES.010",
+ "phase": "P2",
+ "date": "2026-08-14",
+ "classification": [
+  {
+   "id": "core-1",
+   "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
+   "authors": [
+    "Rowan Brad Quni-Gudzinas"
+   ],
+   "year": 2026,
+   "doi": "10.5281/zenodo.21938971",
+   "class": "Core",
+   "role": "Parent prior claim + derivation target (internal)",
+   "relation": "RES.010 delta: (e^{i pi})^{2s} composite monodromy power, e/pi/R scalar-family unification, treatise-anchored derivation beyond symmetric-category eta=+/-1"
   },
-  "novelty_verdict": "NET-NEW confirmed: no external prior art derives the exchange phase as the (2s)-fold half-turn of the re-entrant mark, nor states the e/pi/R scalar-family unification. Nearest LoF-fermion work (Majorana-LoF review 2022) is Supporting, not a blocker."
+  {
+   "id": "core-2",
+   "title": "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference",
+   "authors": [
+    "Rowan Brad Quni-Gudzinas"
+   ],
+   "year": 2026,
+   "doi": "10.5281/zenodo.21908818",
+   "class": "Core",
+   "role": "Parent machinery: e (D f = f), pi (Tr id_S^1), half-turn e^{i pi} = -1 (12.1); parity->spin-statistics [my conjecture] (2.3)",
+   "relation": "Supplies the primitive (re-entry, half-turn, trace) that RES.010 derives R from; never constructs two-mark exchange"
+  },
+  {
+   "id": "support-1",
+   "title": "A Review of Majorana fermions and the laws of form",
+   "authors": [
+    "Louis H. Kauffman"
+   ],
+   "year": 2022,
+   "doi": "10.1088/1742-6596/2197/1/012001",
+   "class": "Supporting",
+   "role": "Closest external Laws-of-Form x fermion literature; Kauffman is a knot-theory/Laws-of-Form authority; must be engaged in P5 relation-to-prior-art",
+   "relation": "LoF representation of fermion structure, not the exchange-phase invariant; P3 must pull full body and confirm scope"
+  },
+  {
+   "id": "support-2",
+   "title": "Spin-half bosons with mass dimension three-half: Evading the spin-statistics theorem",
+   "authors": [
+    "Dharam Vir Ahluwalia",
+    "Cheng-Yang Lee"
+   ],
+   "year": 2022,
+   "doi": "10.1209/0295-5075/ac97bd",
+   "class": "Supporting",
+   "role": "F2-relevant evasion strategy (mass-dimension-3/2 spinors); erratum 10.1209/0295-5075/acabe2",
+   "relation": "Attacks standard theorem statement, not invariant R; RES.010 F2 (inherited RES.009 F1) covers the evasion class"
+  },
+  {
+   "id": "support-3",
+   "title": "Indistinguishability for quantum particles: spin, statistics and the geometric phase",
+   "authors": [
+    "M. V. Berry",
+    "J. M. Robbins"
+   ],
+   "year": 2017,
+   "doi": "10.1142/9789813221215_0008",
+   "class": "Supporting",
+   "role": "Geometric-phase reading of indistinguishability; Berry-Robbins is the canonical geometric-phase spin-statistics construction",
+   "relation": "Berry-type monodromy lineage; RES.010 monodromy-power reading is distinct and Laws-of-Form-native; acknowledge in P5"
+  },
+  {
+   "id": "background-1",
+   "title": "Laws of Form commentaries (Appendizes/Kontexte/Bemerkungen zur Architektur der Laws of Form)",
+   "authors": [
+    "R. Kaehr"
+   ],
+   "year": 2004,
+   "doi": "10.1007/978-3-322-95679-8",
+   "class": "Background",
+   "role": "German-language Laws-of-Form scholarship context",
+   "relation": "Optional citation; no exchange-statistics content"
+  },
+  {
+   "id": "anchor",
+   "title": "Mainstream spin-statistics anchors",
+   "authors": [
+    "Pauli",
+    "Leinaas and Myrheim",
+    "Wilczek",
+    "Duck and Sudarshan",
+    "Joyal and Street",
+    "Kitaev"
+   ],
+   "year": "1940-2006",
+   "class": "Background",
+   "role": "Established anchors; already verified in RES.009 citation-audit",
+   "relation": "Carried forward"
+  },
+  {
+   "id": "support-4",
+   "title": "Knot Logic and Topological Quantum Computing with Majorana Fermions",
+   "authors": [
+    "Louis H. Kauffman"
+   ],
+   "year": 2013,
+   "arxiv": "1301.6214",
+   "class": "Supporting",
+   "role": "The mark-as-fermion precursor: negation seen as the mark 'operates on itself to change from marked to unmarked states' and 'naturally generates the fermion algebra, the quaternions and the braid group representations related to Majorana fermions' — closest prior art on the mark<->fermion identification, which RES.010 extends to the exchange-phase invariant",
+   "relation": "P5 relation-to-prior-art MUST engage: does Kauffman's mark-generates-fermion-algebra (1301.6214) pre-empt the 're-entrant mark as (2s)-fold half-turn' move? Distinguish: 1301.6214 builds fermion ALGEBRA (Clifford/quaternion) from the mark; RES.010 derives the EXCHANGE PHASE R=e^{2pi i s} — the invariant, not the algebra. NET-NEW on the invariant holds."
+  },
+  {
+   "id": "support-5",
+   "title": "Majorana Fermions and Representations of the Braid Group",
+   "authors": [
+    "Louis H. Kauffman"
+   ],
+   "year": 2017,
+   "arxiv": "1710.04650",
+   "class": "Supporting",
+   "role": "Braid-group representations from Majorana operators (Clifford algebra, extraspecial 2-groups, Ivanov braiding)",
+   "relation": "Braid/TQC flank; complements RES.011 braid-sector; does not construct exchange-phase-as-half-turn-of-mark"
+  },
+  {
+   "id": "support-6",
+   "title": "Braiding, Majorana fermions, Fibonacci particles and topological quantum computing",
+   "authors": [
+    "Louis H. Kauffman",
+    "Samuel J. Lomonaco"
+   ],
+   "year": 2018,
+   "doi": "10.1007/s11128-018-1959-x",
+   "class": "Supporting",
+   "role": "Fibonacci-anyon model from Majorana fusion; correction 10.1007/s11128-018-2081-9",
+   "relation": "TQC applications flank"
+  },
+  {
+   "id": "support-7",
+   "title": "The Dirac Equation and the Majorana Dirac Equation",
+   "authors": [
+    "Louis H. Kauffman",
+    "Peter Rowlands"
+   ],
+   "year": 2020,
+   "arxiv": "2009.04811",
+   "class": "Supporting",
+   "role": "Split-quaternion real form of the Majorana-Dirac equation; iterant/nilpotent structure",
+   "relation": "Fermion-structure flank; no exchange-phase invariant"
+  },
+  {
+   "id": "support-8",
+   "title": "Iterants, Majorana Fermions and the Majorana-Dirac Equation",
+   "authors": [
+    "Louis H. Kauffman"
+   ],
+   "year": 2021,
+   "doi": "10.3390/sym13081373",
+   "class": "Supporting",
+   "role": "Iterant algebra as fermion algebra; DBLP-verified (Symmetry 13(8):1373)",
+   "relation": "Iterant/re-entry flank — iterants are RES.010-adjacent machinery (discrete oscillation), distinct from the exchange-phase claim"
+  },
+  {
+   "id": "support-9",
+   "title": "Laws of Form, Majorana Fermions, and Discrete Physics",
+   "authors": [
+    "Louis H. Kauffman"
+   ],
+   "year": 2013,
+   "doi": "10.1142/9789814504782_0001",
+   "class": "Supporting",
+   "role": "DIRECT PREDECESSOR of the 2022 IOP review (The Physics of Reality, World Scientific, pp. 1-18); discovered in this session's due-diligence — was missing from P2",
+   "relation": "P5 must cite the 2013 chapter as the origin line of the 2022 review"
+  },
+  {
+   "id": "background-2",
+   "title": "Majorana Fermions and Topology in Superconductors",
+   "authors": [
+    "Masatoshi Sato",
+    "Satoshi Fujimoto"
+   ],
+   "year": 2016,
+   "doi": "10.7566/JPSJ.85.072001",
+   "class": "Background",
+   "role": "Canonical condensed-matter Majorana review (Crossref 364 cites / OpenAlex 369 / 256 refs)",
+   "relation": "The physics counterpart Kauffman's LoF review gestures at"
+  },
+  {
+   "id": "background-3",
+   "title": "From Hole Theory to Quantum Field Theory: Relativistic Fermions and the Role of Ettore Majorana (1933-1937)",
+   "authors": [
+    "Francesco Vissani"
+   ],
+   "year": 2026,
+   "arxiv": "2603.28538",
+   "class": "Background",
+   "role": "History-of-physics reconstruction of Majorana's 1937 anti-commutation quantization (physics.hist-ph/hep-th/quant-ph)",
+   "relation": "Historical anchor; NOT a Laws-of-Form paper — classified Background per due diligence L3"
+  },
+  {
+   "id": "background-4",
+   "title": "Braiding Majorana Fermions",
+   "authors": [
+    "Louis H. Kauffman",
+    "Samuel J. Lomonaco"
+   ],
+   "year": 2016,
+   "arxiv": "1603.07827",
+   "class": "Background",
+   "role": "Clifford Braiding Theorem; braid representations robust to perturbation",
+   "relation": "TQC flank"
+  },
+  {
+   "id": "anchor-2",
+   "title": "Form dynamics / Autopoiesis and Eigenform / Arithmetic in the Form",
+   "authors": [
+    "Louis H. Kauffman"
+   ],
+   "year": "1980/1995/2023",
+   "doi": "10.1016/0140-1750(80)90008-1; 10.1080/01969729508927486; 10.3390/computation11120247",
+   "class": "Anchor",
+   "role": "Kauffman's LoF foundations corpus (all three verified live this session; the 1980 'Form dynamics' is the earliest Kauffman LoF anchor, venue historically 'Journal of Social and Biological Systems')",
+   "relation": "Anchors for the LoF-reading of RES.010"
+  }
+ ],
+ "not_verified": [
+  {
+   "item": "Zenodo API queries (timeout in P2)",
+   "status": "RESOLVED 2026-08-16",
+   "evidence": "live zenodo.org/api/records checks on 8 records (21940822/21941150/21943007/21206074/21206166/21941184/21941238/21957291) — all 200, version chains confirmed"
+  },
+  {
+   "item": "Semantic Scholar queries (timeout in P2)",
+   "status": "RESOLVED 2026-08-16",
+   "evidence": "S2 graph API 200 for Kauffman 2022 (paperId b835b4e982128cf73b951fd218b158ea4ebfffcb; citationCount 0; referenceCount 35; openAccessPdf GOLD CCBY)"
+  },
+  {
+   "item": "DBLP queries (timeout in P2)",
+   "status": "RESOLVED 2026-08-16",
+   "evidence": "DBLP 200, 3 hits: Kauffman Symmetry 2021 Iterants (10.3390/sym13081373), Kauffman-Lomonaco QIP 2018 (10.1007/s11128-018-1959-x) + correction"
+  },
+  {
+   "item": "Crossref Q4 (HTTP 429 in P2)",
+   "status": "RESOLVED 2026-08-16",
+   "evidence": "200; top hits = already-classified Ahluwalia-Lee pair + non-LoF material; NO new prior art on exchange-phase/half-turn/spin-statistics — NET-NEW verdict holds"
+  },
+  {
+   "item": "EuropePMC queries (timeout in P2)",
+   "status": "RESOLVED 2026-08-16 (verified-negative)",
+   "evidence": "200, hitCount 0 for Kauffman AND 'laws of form' AND Majorana — biomedical index scope, not relevant to this corpus"
+  }
+ ],
+ "patent_check": {
+  "query": "\"exchange phase\" \"half-turn\" spin statistics",
+  "total_results": 0,
+  "verdict": "VERIFIED — no patent claims the exact-phrase combination"
+ },
+ "novelty_verdict": "NET-NEW confirmed: no external prior art derives the exchange phase as the (2s)-fold half-turn of the re-entrant mark, nor states the e/pi/R scalar-family unification. Nearest LoF-fermion work (Majorana-LoF review 2022) is Supporting, not a blocker.",
+ "p3_addendum": {
+  "date": "2026-08-16",
+  "session": "pVxPB_ViPCLUkdaDtykwu (CMD CONTINUE P3 citation pass)",
+  "sources_verified": {
+   "kauffman2022_fullbody_status": "PDF endpoint Radware-gated (urllib AND browser); meta page accessible in browser — venue = Vigier Centenary 12th Intl Symposium (Vigier 2021, online), 548 downloads, CC-BY-3.0, abstract captured, full reference list lazy-loaded (not expanded). Scope confirmed via abstract + related Kauffman corpus. S2 record b835b4e9: referenceCount 35, citationCount 0, GOLD OA (Unpaywall confirmed is_oa=true).",
+   "crossref": "OK",
+   "openalex": "OK (0 cites)",
+   "s2": "OK (0 cites)",
+   "dblp": "OK (3 hits)",
+   "europepmc": "verified-negative (index scope)",
+   "zenodo": "OK (8 records)",
+   "unpaywall": "OK (gold)"
+  },
+  "citation_vacuum": "THIRD independent index confirms 0 citations for Kauffman 2022 (Crossref 0, OpenAlex 0, S2 0) — L1 finding upgraded from dual-index to triple-index.",
+  "new_prior_art": "5 Kauffman Majorana/LoF papers surfaced (1301.6214, 1710.04650, 1603.07827, 2009.04811, 10.3390/sym13081373) + 10.1007/s11128-018-1959-x — all Supporting/Background; NONE constructs the exchange-phase-as-half-turn-of-mark invariant. NET-NEW verdict UNCHANGED.",
+  "p5_inputs": [
+   "1301.6214 mark->fermion-algebra MUST be engaged (support-4) - distinguish algebra-vs-invariant",
+   "kauffman2013ws chapter is the 2022 review's origin line",
+   "Berry-Robbins geometric phase already classified (support-3)"
+  ]
+ }
 }
