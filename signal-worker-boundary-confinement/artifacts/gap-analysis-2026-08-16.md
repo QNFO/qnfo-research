@@ -57,3 +57,15 @@ KIF-29 Consilience gate (cross-domain lexicon + silo-cost table + synthesis) →
 ## Evidence Discipline
 
 Every count above cites an evidence file in `artifacts/external-search/` (this commit) or a live tool call in the session tape (KG stats, D1 queries, resolve_paper_id, arXiv API).
+
+## Remediation Status (2026-08-16, same-cycle fixes)
+
+| Finding | Status | Evidence |
+|:--------|:-------|:---------|
+| KG-SEED-GAP (prog-qnfo-inm had 1 paper neighbor) | **FIXED** — 4 BELONGS_TO edges seeded via graph-api /sync (`edgesInserted: 4`, verified: 5 paper neighbors: signal-worker-boundary-confinement + unifying-photosynthetic + gauge-invariant + signal-and-worker-proteins + adaptive-thick-skin) | graph-api /query verify, this session |
+| DQ-1 (D1 `doi` NULL on adaptive-thick-skin + gauge-invariant) | **FIXED** — targeted 2-row backfill, ownership live-verified against Zenodo API (creator Quni-Gudzinas, Rowan Brad; ORCID 0009-0002-4317-5604): adaptive-thick-skin doi=10.5281/zenodo.17864278 identifier=10.5281/zenodo.17864277; gauge-invariant doi=10.5281/zenodo.18466522 identifier=10.5281/zenodo.18466521; both identifier_type=zenodo; `changes: 5` per row + SELECT re-verification | D1 SELECT verify, this session |
+| DQ-2 (electron-hook-treatise resolve identifier=slug) | **OPEN** — deferred; requires decision on identifier semantics for the treatise (slug is intentional in the corpus for non-Zenodo-typed rows) | resolve_paper_id, this session |
+| DQ-3 (project resolve id=null — Vectorize chunking status) | **OPEN** — verify v0.2 Vectorize chunking in the indexer pass | resolve_paper_id, this session |
+
+Phase 1b (KIF-29/KIF-60 gates) — see `artifacts/consilience-gate.md` + `artifacts/bayesian-evidential-weight.md` (this commit). Phase 1 COMPLETE for the v0.3 cycle.
+
