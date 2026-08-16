@@ -39,3 +39,29 @@
 **Project complete:** QNFO.RES.011 — Configuration-Space Topology and the Distinction Calculus
 published (Zenodo v0.2 + R2 mirror + D1 + KG + Vectorize + GitHub + Internet Archive + DNSLink),
 fully distributed (4-D), registry closed at P8/complete.
+
+
+---
+
+## Addendum 2026-08-16 — v0.3 (corrected & expanded) — DOI 10.5281/zenodo.21962450
+
+**Version:** v0.3 — DOI 10.5281/zenodo.21962450 (concept 10.5281/zenodo.21945449; chain [21962450 <- 21957291 <- 21945450]).
+**Content:** new Section 2 "So What? Why Should a Reader Care About This Research?"; complete 42-entry
+bibliography in the .md body (was empty); fixed frontmatter self-DOI (P5.FRESH, deposited .md carries
+10.5281/zenodo.21962450 — byte-identical md5/sha256 verified); ±1 typography; rewritten Applications/
+Conclusion; WBS code removed from byline/acknowledgements (INTERNAL-REF-1); qnfo_res009 citation updated
+to v1.4 (10.5281/zenodo.21944401, same concept 21938970).
+
+| Layer | Evidence | Verdict |
+|:------|:---------|:--------|
+| 1. DOI version chain | 21962450 -> doi.org HEAD 200; concept versions [21962450, 21957291, 21945450] | PASS |
+| 2. DataCite | state=findable, 10 subjects, cc-by-4.0, creator correct | PASS |
+| 3. GitHub | branch res/paper/configuration-space-topology @ 1376a9b (v0.3 content commit), remote HEAD verified | PASS |
+| 4. D1 living-paper | row configuration-space-topology: doi 21962450, ±1 title, body_len 42,326 | PASS |
+| 5. Zenodo files | 41 files incl. md/html/pdf + full external-search evidence set; md5s match local | PASS |
+| 6. KG node | paper:configuration-space-topology: doi 21962450, ipfs_cid_md match, neighbors>0 (sync 200, nodesInserted 1) | PASS |
+| 7. Vectorize | index call indexed:1 / chunks 59 / errors 0; webhook re-check unchanged (content hash match) | PASS |
+| 8. R2 mirror | qnfo-releases/2026/08/configuration-space-topology/: rclone check 40/40, 0 differences | PASS |
+| 9. DNSLink | _dnslink.configuration-space-topology.qnfo.org -> /ipfs/bafkreih6pzbadd4cx4nk7wos2sqri547ls3nyn2ml2zjfd3jnbgjkrnrhq (new PDF CID), CF API 200 | PASS |
+
+**Registry:** QNFO.RES.011 -> current_version v0.3, zenodo_doi 10.5281/zenodo.21962450 (SELECT re-verified).
