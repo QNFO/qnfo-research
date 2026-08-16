@@ -1,10 +1,11 @@
-# The Purpose Principle: Grounding Research in Reality, Utility, and Premise-Depth
-
-**Author:** Rowan Brad Quni-Gudzinas (QNFO Research Foundation)
-**ORCID:** 0009-0002-4317-5604
-**Status:** Draft (P4) · **WBS:** QNFO.RES.012 · **Date:** 2026-08-16
-**Venue:** Zenodo (canonical; NO-JOURNALS-1 — no traditional-journal submission)
-
+---
+title: "The Purpose Principle: Grounding Research in Reality, Utility, and Premise-Depth"
+author: "Rowan Brad Quni-Gudzinas"
+date: "2026-08-16"
+license: "QNFO Unified License Agreement (QNFO-ULA)"
+doi: "10.5281/zenodo/XXXXXXXXX"
+status: "draft"
+bibliography: references.bib
 ---
 
 ## Abstract
@@ -144,5 +145,3 @@ The research ecosystem does not need another philosophy of research; it needs a 
 The author acknowledges the QNFO research corpus and the standing editorial directives that motivated this work: the So-What gate (every artifact must answer "why should a reader care?"), the depth-of-premises test (a theory is only as deep as its premises), and the requirement that research maintain real-world utility and purpose while remaining compatible with exploratory inquiry.
 
 ## References
-
-See `references.bib` (28 entries, AUTHOR-GATE verified 2026-08-16).
