@@ -1,0 +1,316 @@
+[
+ {
+  "key": "dirac1928",
+  "doi": "10.1098/rspa.1928.0023",
+  "title": "The quantum theory of the electron",
+  "year": 1928,
+  "authors": [
+   "Dirac Paul Adrien Maurice"
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "vonneumann1932",
+  "doi": "10.1007/978-3-642-96048-2",
+  "title": "Mathematische Grundlagen der Quantenmechanik",
+  "year": 1971,
+  "authors": [
+   "von Neumann Johann"
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "ostrowski1918",
+  "doi": "10.1007/BF02522942",
+  "title": "Adaptive finite-element approach for analysis of bone/prosthesis interaction",
+  "year": 1995,
+  "authors": [
+   "Hübsch P. F.",
+   "Middleton J.",
+   "Meroi E. A.",
+   "Natali A. N."
+  ],
+  "needle_ok": false
+ },
+ {
+  "key": "wigner1939",
+  "doi": "10.2307/1968551",
+  "title": "On Unitary Representations of the Inhomogeneous Lorentz Group",
+  "year": 1939,
+  "authors": [
+   "Wigner E."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "pauli1940",
+  "doi": "10.1103/PhysRev.58.716",
+  "title": "The Connection Between Spin and Statistics",
+  "year": 1940,
+  "authors": [
+   "Pauli W."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "landauer1961",
+  "doi": "10.1147/rd.53.0183",
+  "title": "Irreversibility and Heat Generation in the Computing Process",
+  "year": 1961,
+  "authors": [
+   "Landauer R."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "bennett1973",
+  "doi": "10.1147/rd.176.0525",
+  "title": "Logical Reversibility of Computation",
+  "year": 1973,
+  "authors": [
+   "Bennett C. H."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "unruh1976",
+  "doi": "10.1103/PhysRevD.14.870",
+  "title": "Notes on black-hole evaporation",
+  "year": 1976,
+  "authors": [
+   "Unruh W. G."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "leinaas1977",
+  "doi": "10.1007/BF02727953",
+  "title": "On the theory of identical particles",
+  "year": 1977,
+  "authors": [
+   "Leinaas J. M.",
+   "Myrheim J."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "tsui1982",
+  "doi": "10.1103/PhysRevLett.48.1559",
+  "title": "Two-Dimensional Magnetotransport in the Extreme Quantum Limit",
+  "year": 1982,
+  "authors": [
+   "Tsui D. C.",
+   "Stormer H. L.",
+   "Gossard A. C."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "wilczek1982",
+  "doi": "10.1103/PhysRevLett.49.957",
+  "title": "Quantum Mechanics of Fractional-Spin Particles",
+  "year": 1982,
+  "authors": [
+   "Wilczek Frank"
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "laughlin1983",
+  "doi": "10.1103/PhysRevLett.50.1395",
+  "title": "Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations",
+  "year": 1983,
+  "authors": [
+   "Laughlin R. B."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "arovas1984",
+  "doi": "10.1103/PhysRevLett.53.722",
+  "title": "Fractional Statistics and the Quantum Hall Effect",
+  "year": 1984,
+  "authors": [
+   "Arovas Daniel",
+   "Schrieffer J. R.",
+   "Wilczek Frank"
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "halperin1984",
+  "doi": "10.1103/PhysRevLett.52.1583",
+  "title": "Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States",
+  "year": 1984,
+  "authors": [
+   "Halperin B. I."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "merminwagner1966",
+  "doi": "10.1103/PhysRevLett.17.1133",
+  "title": "Absence of Ferromagnetism or Antiferromagnetism in One- or Two-Dimensional Isotropic Heisenberg Models",
+  "year": 1966,
+  "authors": [
+   "Mermin N. D.",
+   "Wagner H."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "kt1973",
+  "doi": "10.1088/0022-3719/6/7/010",
+  "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+  "year": 1973,
+  "authors": [
+   "Kosterlitz J M",
+   "Thouless D J"
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "bcs1957",
+  "doi": "10.1103/PhysRev.108.1175",
+  "title": "Theory of Superconductivity",
+  "year": 1957,
+  "authors": [
+   "Bardeen J.",
+   "Cooper L. N.",
+   "Schrieffer J. R."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "wigner1960",
+  "doi": "10.1002/cpa.3160130102",
+  "title": "The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959",
+  "year": 1960,
+  "authors": [
+   "Wigner Eugene P."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "bell1964",
+  "doi": "10.1103/PhysicsPhysiqueFizika.1.195",
+  "title": "On the Einstein Podolsky Rosen paradox",
+  "year": 1964,
+  "authors": [
+   "Bell J. S."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "feynman1948",
+  "doi": "10.1103/RevModPhys.20.367",
+  "title": "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+  "year": 1948,
+  "authors": [
+   "Feynman R. P."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "bekenstein1973",
+  "doi": "10.1103/PhysRevD.7.2333",
+  "title": "Black Holes and Entropy",
+  "year": 1973,
+  "authors": [
+   "Bekenstein Jacob D."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "deutsch1991",
+  "doi": "10.1103/PhysRevA.43.2046",
+  "title": "Quantum statistical mechanics in a closed system",
+  "year": 1991,
+  "authors": [
+   "Deutsch J. M."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "srednicki1994",
+  "doi": "10.1103/PhysRevE.50.888",
+  "title": "Chaos and quantum thermalization",
+  "year": 1994,
+  "authors": [
+   "Srednicki Mark"
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "susskind1995",
+  "doi": "10.1063/1.531249",
+  "title": "The world as a hologram",
+  "year": 1995,
+  "authors": [
+   "Susskind Leonard"
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "maldacena1998",
+  "doi": "10.4310/ATMP.1998.v2.n2.a1",
+  "title": "The large $N$ limit of superconformal field theories and supergravity",
+  "year": 1998,
+  "authors": [
+   "Maldacena Juan"
+  ],
+  "needle_ok": false
+ },
+ {
+  "key": "nielsenchuang2000",
+  "doi": "10.1017/CBO9780511976667",
+  "title": "Quantum Computation and Quantum Information",
+  "year": 2012,
+  "authors": [
+   "Nielsen Michael A.",
+   "Chuang Isaac L."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "dragovich2009",
+  "doi": "10.1134/S2070046609010014",
+  "title": "On p-adic mathematical physics",
+  "year": 2009,
+  "authors": [
+   "Dragovich B.",
+   "Khrennikov A. Yu.",
+   "Kozyrev S. V.",
+   "Volovich I. V."
+  ],
+  "needle_ok": true
+ },
+ {
+  "key": "bartolomei2020",
+  "doi": "10.1126/science.aaz5601",
+  "title": "Fractional statistics in anyon collisions",
+  "year": 2020,
+  "authors": [
+   "Bartolomei H.",
+   "Kumar M.",
+   "Bisognin R.",
+   "Marguerite A.",
+   "Berroir J.-M.",
+   "Bocquillon E."
+  ],
+  "needle_ok": false
+ },
+ {
+  "key": "nakamura2020",
+  "doi": "10.1038/s41567-020-1019-1",
+  "title": "Direct observation of anyonic braiding statistics",
+  "year": 2020,
+  "authors": [
+   "Nakamura J.",
+   "Liang S.",
+   "Gardner G. C.",
+   "Manfra M. J."
+  ],
+  "needle_ok": true
+ }
+]

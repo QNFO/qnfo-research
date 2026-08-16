@@ -1,0 +1,38 @@
+[
+ {
+  "page": "Hypercomputation",
+  "exists": true,
+  "extract_snippet": "Hypercomputation or super-Turing computation is a set of hypothetical models of computation that can provide outputs that are not Turing-computable. For example, a machine that could solve the halting problem would be a hypercomputer; so too would one that could correctly evaluate every statement in Peano arithmetic.",
+  "needle": "physical",
+  "needle_found": false,
+  "checked_at": "2026-08-16T21:32:45.030536Z",
+  "url": "https://en.wikipedia.org/wiki/Hypercomputation"
+ },
+ {
+  "page": "Quaternionic quantum mechanics",
+  "exists": true,
+  "extract_snippet": "",
+  "needle": "quantum mechanics",
+  "needle_found": false,
+  "checked_at": "2026-08-16T21:32:45.708623Z",
+  "url": ""
+ },
+ {
+  "page": "Anyon",
+  "exists": true,
+  "extract_snippet": "\nIn physics, an anyon is a type of quasiparticle so far observed only in two-dimensional systems. In three-dimensional systems, only two kinds of elementary particles are seen: fermions and bosons. Anyons have statistical properties intermediate between fermions and bosons. In general, the operation of exchanging two identical particles, although it may cause a global phase shift, cannot affect ob",
+  "needle": "braid",
+  "needle_found": false,
+  "checked_at": "2026-08-16T21:32:46.195004Z",
+  "url": "https://en.wikipedia.org/wiki/Anyon"
+ },
+ {
+  "page": "Generalized probabilistic theory",
+  "exists": true,
+  "extract_snippet": "A generalized probabilistic theory (GPT) is a general framework to describe the operational features of arbitrary physical theories. A GPT must specify what kind of physical systems one can find in the lab, as well as rules to compute the outcome statistics of any experiment involving labeled preparations, transformations and measurements. The framework of GPTs has been used to define hypothetical",
+  "needle": "quantum",
+  "needle_found": true,
+  "checked_at": "2026-08-16T21:32:46.675209Z",
+  "url": "https://en.wikipedia.org/wiki/Generalized_probabilistic_theory"
+ }
+]

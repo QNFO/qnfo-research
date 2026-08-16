@@ -1,0 +1,7 @@
+skin depth 60Hz: 8.42 mm (manuscript: ~8.5 mm)
+lambda_T 300K: 4.30 nm (manuscript: ~4 nm)
+G0: 7.7481e-05 S (manuscript: 2e2/h)
+Lorentz L0: 2.4430e-08 W Ohm / K^2 (manuscript: (pi^2/3)(kB/e)^2)
+Unruh prefactor: 4.0550e-21 K s^2/m (manuscript: hbar a/(2 pi kB c))
+PASS [True, True, True]
+DONE
