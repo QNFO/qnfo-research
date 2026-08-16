@@ -1,0 +1,148 @@
+{
+  "cycle": "2026-08-16",
+  "session": "CMD RESEARCH — Majorana fermions × Laws of Form literature verification",
+  "protocol": "DUE-DILIGENCE-DEPTH-1 (HARD GATE) — Phase 1 due diligence; existing projects (QNFO.RES.010/RES.011) so Phase 0 skipped",
+  "corpus_stats": {
+    "kg_nodes": 8290,
+    "kg_edges": 8432,
+    "kg_papers": 1630,
+    "d1_living_paper_papers": 994
+  },
+  "search_paths_note": "qnfo-memory-mcp search_papers AND search_papers_enriched DOWN this cycle (Worker error 1101 on qnfo-memory-mcp.q08.workers.dev). Sweep executed via direct D1 HTTP (living-paper 70a58cb3) + KG graph-api SQL (PAPER-CONTEXT-TOOL-EMPTY-1 fallback).",
+  "source_verification": [
+    {
+      "user_url": "https://www.google.com/search?q=review+of+majorana+fermions+and+laws+of+form",
+      "kind": "context-probe",
+      "status": "not-a-citable-source",
+      "note": "Topic framing only; not verified as a source."
+    },
+    {
+      "user_url": "https://www.researchgate.net/publication/240194298_Form_dynamics",
+      "verified_identity": {
+        "title": "Form dynamics",
+        "authors": ["L. Kauffman"],
+        "venue": "Journal of Social and Biological Systems",
+        "volume": "3", "issue": "2", "pages": "171-206", "year": 1980,
+        "doi": "10.1016/0140-1750(80)90008-1"
+      },
+      "evidence": "Crossref works/10.1016/0140-1750(80)90008-1 via query.bibliographic='Form dynamics Kauffman' — HTTP 200",
+      "status": "VERIFIED",
+      "classification": "Supporting (LoF foundational, pre-Majorana-review line)"
+    },
+    {
+      "user_url": "https://www.researchgate.net/publication/376259552_Autopoiesis_and_Eigenform",
+      "verified_identity": {
+        "title": "Autopoiesis and Eigenform",
+        "authors": ["Louis H. Kauffman"],
+        "venue": "Computation (MDPI)",
+        "volume": "11", "issue": "12", "article": "247", "year": 2023,
+        "doi": "10.3390/computation11120247",
+        "orcid": "0000-0003-4135-8685",
+        "open_access": true,
+        "openalex_id": "W4389348697"
+      },
+      "evidence": "Crossref query.bibliographic + OpenAlex search — both HTTP 200; Crossref first hit exact title match",
+      "status": "VERIFIED",
+      "classification": "Supporting (eigenform/re-entry background for the exchange-scalar reading)"
+    },
+    {
+      "user_url": "https://www.researchgate.net/publication/233017186_ARITHMETIC_IN_THE_FORM",
+      "verified_identity": {
+        "title": "ARITHMETIC IN THE FORM",
+        "authors": ["Louis H. Kauffman"],
+        "venue": "Cybernetics and Systems",
+        "volume": "26", "issue": "1", "pages": "1-57", "year": 1995,
+        "doi": "10.1080/01969729508927486"
+      },
+      "evidence": "Crossref query.bibliographic='Arithmetic in the Form Kauffman' — HTTP 200; first hit exact title match. NOTE: venue is Cybernetics and Systems, NOT Cybernetics & Human Knowing (a common mis-attribution).",
+      "status": "VERIFIED",
+      "classification": "Supporting (arithmetic reading of the calculus of indications)"
+    },
+    {
+      "user_url": "https://journals.jps.jp/doi/10.7566/JPSJ.85.072001",
+      "verified_identity": {
+        "title": "Majorana Fermions and Topology in Superconductors",
+        "authors": ["Masatoshi Sato", "Satoshi Fujimoto"],
+        "venue": "Journal of the Physical Society of Japan",
+        "volume": "85", "article": "072001", "year": 2016,
+        "doi": "10.7566/JPSJ.85.072001",
+        "citations_crossref": 364,
+        "reference_count": 256
+      },
+      "evidence": "Crossref works/10.7566/JPSJ.85.072001 — HTTP 200. Direct page journals.jps.jp = 403 (bot wall); Crossref authoritative (DOI-WAF-403-1 fallback).",
+      "status": "VERIFIED",
+      "classification": "Background (canonical condensed-matter Majorana review — the physics counterpart Kauffman's LoF review gestures at)"
+    },
+    {
+      "user_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2197/1/012001/meta",
+      "verified_identity": {
+        "title": "A Review of Majorana fermions and the laws of form",
+        "authors": ["Louis H. Kauffman"],
+        "venue": "Journal of Physics: Conference Series",
+        "volume": "2197", "article": "012001", "year": 2022,
+        "doi": "10.1088/1742-6596/2197/1/012001",
+        "license": "CC-BY-3.0",
+        "reference_count": 33,
+        "citations_crossref": 0
+      },
+      "evidence": "Crossref works/10.1088/1742-6596/2197/1/012001 — HTTP 200 (title/abstract/author/venue/license all confirmed). Direct IOP meta page = Radware Bot Manager CAPTCHA (bot wall); Crossref authoritative.",
+      "status": "VERIFIED",
+      "classification": "Core-adjacent — the single closest external paper to the QNFO.RES.010/RES.011 exchange-scalar line; already classified Supporting in QNFO.RES.010 P2 (2026-08-14). ZERO Crossref citations as of 2026-08-16.",
+      "res010_reference": "RES.010 Phase 2 memory mem-QDudTHWPjy7M lists this as 'MUST be engaged directly in P5 relation-to-prior-art'"
+    },
+    {
+      "user_url": "https://arxiv.org/html/2603.28538v1",
+      "verified_identity": {
+        "title": "From Hole Theory to Quantum Field Theory: Relativistic Fermions and the Role of Ettore Majorana (1933-1937)",
+        "authors": ["Francesco Vissani"],
+        "categories": ["physics.hist-ph", "hep-th", "quant-ph"],
+        "published": "2026-03-30",
+        "comment": "34 pages, 3 tables. Detailed didactic analysis of Majorana's 1937 paper in modern notation. Accepted for publication."
+      },
+      "evidence": "arXiv export API id_list=2603.28538 — HTTP 200 (title/authors/categories/date/comment); arxiv.org/abs page HTTP 200",
+      "status": "VERIFIED",
+      "classification": "Background (history-of-physics reconstruction of Majorana's 1937 anti-commuting quantization — the historical anchor for why 'Majorana' appears in the LoF literature; NOT a Laws-of-Form paper)"
+    },
+    {
+      "discovered_bonus": {
+        "title": "Laws of Form, Majorana Fermions, and Discrete Physics",
+        "authors": ["Louis H. Kauffman"],
+        "venue": "The Physics of Reality (World Scientific)",
+        "pages": "1-18", "year": 2013,
+        "doi": "10.1142/9789814504782_0001"
+      },
+      "evidence": "Crossref works/10.1142/9789814504782_0001 — HTTP 200",
+      "note": "Surfaced during the 'Form dynamics' bibliographic query. DIRECT predecessor of the 2022 IOP review — the 2022 paper extends this chapter. Missing from the user's URL list; MUST be added to the reference corpus.",
+      "status": "VERIFIED"
+    },
+    {
+      "discovered_bonus": {
+        "title": "The Semiotics of Laws of Form",
+        "authors": ["Louis H. Kauffman"],
+        "venue": "When Form Becomes Substance (Springer)",
+        "pages": "3-26", "year": 2022,
+        "doi": "10.1007/978-3-030-83125-7_1"
+      },
+      "evidence": "Crossref query.bibliographic — HTTP 200",
+      "status": "VERIFIED",
+      "note": "Same-year companion of the IOP review."
+    }
+  ],
+  "corpus_hits": {
+    "f1_majorana_titles": ["zbw-majorana-tqc-p2-majorana-zbw-correlator", "zbw-majorana-tqc-p3-bruhat-tits-readout", "zbw-p5-capstone-synthesis", "zbw-fw-null-test", "zbw-p5-capstone", "zbw-majorana-tqc"],
+    "f2_lof_titles": ["the-silent-radix", "quantum-laws-of-form", "the-silent-radix-positional-notation-as-ultrametric-tree-and-the-calculus-of-indications-as-remedy", "quantum-laws-of-form-superposition-as-re-entry-measurement-as-distinction", "the-calculus-of-distinction-a-formal-isomorphism-between-laws-of-form-and-ultrametric-trees", "quantum-laws-of-form-a-syntactic-foundation-for-physics-from-the-calculus-of-distinction-to-ultrametric-cosmology", "cancellation-rule", "void-is-not-false", "prime-valuation-depth"],
+    "f4_exchange_phase_titles": ["spin-statistics-distinction (RES.009, 10.5281/zenodo.21944401 v1.4)", "from-distinction-to-dissipation", "exchange-phase-logical-scalar (RES.010, 10.5281/zenodo.21941238)"],
+    "kauffman_citing_bodies": 16
+  },
+  "cross_system_validation": {
+    "exchange-phase-logical-scalar": {"doi": "10.5281/zenodo.21941238", "status": "published", "wbs_code": "QNFO.RES.010", "kg_present": true, "r2_anomaly": "r2_path qnfo-releases/releases/2026/08/... double-prefix (WRONG-BUCKET-SELECTION-1 class)"},
+    "spin-statistics-distinction": {"doi": "10.5281/zenodo.21944401", "status": "published", "wbs_code": "QNFO.RES.009", "versions": "v1.0..v1.4", "ok": true},
+    "from-distinction-to-dissipation": {"doi": "10.5281/zenodo.21940822", "zenodo_doi_mismatch": "21943007", "r2_anomaly": "qnfo-releases/releases/2026/08/... double-prefix"},
+    "quantum-laws-of-form": {"doi": "10.5281/zenodo.21206074", "zenodo_doi_mismatch": "21206166"},
+    "configuration-space-topology": {"doi": "10.5281/zenodo.21957291", "wbs_code": "QNFO.RES.011", "status": "published", "kg_project_node_stale": "KG Project node says phase P0; git branch shows P6R->P7->P8 complete (head fcd24c1)"},
+    "zbw-majorana-tqc": {"doi": "10.5281/zenodo.21736327", "ok": true, "r2_key": null, "note": "pre-mirror-mandate record"},
+    "cancellation-rule": {"doi": "10.5281/zenodo.21470438", "ok": true},
+    "prime-valuation-depth": {"doi": "10.5281/zenodo.21918838", "ok": true}
+  },
+  "wbs_domains_covered": ["SLB (Quantum Laws of Form series)", "UMP (ZBW-Majorana-TQC series)", "RES (RES.009/RES.010/RES.011)"]
+}
