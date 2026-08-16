@@ -32,3 +32,4 @@ cd adelic-cross-domain-program
 ## License
 
 QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
+- **2026-08-16 — v5.1 so-what remediation** (DOI 10.5281/zenodo.21965332): new Section 2 "So What? Why Should a Reader Care About This Research?" (global so-what mandate; stakes / physicist / mathematician-foundations / practical-utility / premises-depth / non-claims; references Section 9.1 predictions, 6.1 RG-QEC, 7.1 density gate, 13 S-matrix, 11.2-11.4 open/disconfirmation/errata); P5.FRESH frontmatter DOI fix (v5.0 had shipped the literal placeholder "10.5281/zenodo.XXXXXXXXXX"); sections renumbered 2-12 -> 3-13 (zero cross-refs existed); license aligned cc-by-4.0; HTML added to the deposit (record had md/pdf/README only).
