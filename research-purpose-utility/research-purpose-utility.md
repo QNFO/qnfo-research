@@ -3,8 +3,8 @@ title: "The Purpose Principle: Grounding Research in Reality, Utility, and Premi
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-16"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo/XXXXXXXXX"
-status: "draft"
+doi: "10.5281/zenodo.21964566"
+status: "published"
 bibliography: references.bib
 ---
 
