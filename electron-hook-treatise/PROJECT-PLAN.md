@@ -1,77 +1,56 @@
 # PROJECT-PLAN — electron-hook-treatise (QNFO.RES.013)
 
-> "A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics, Thermodynamics, and Computation" (subtitle: The Electron as a Hook) · v0.1 · 2026-08-16
+> "A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics, Thermodynamics, and Computation" (subtitle: The Electron as a Hook) · v0.2 · 2026-08-16/17
 
-## Phase 0 — Context (2026-08-16)
+## Version ledger
 
-- **Trigger:** user CMD PUBLISH with three Obsidian source notes (2026-08-16):
-  `_26228215046.md` (detailed treatise outline), `_26228215041.md` (quantum surface /
-  thermodynamics of scale note), `_26228180242.md` (copper-wire assumption audit note).
-- **Corpus check:** no existing QNFO record for this title (D1 sweep + Zenodo DUPCHECK,
-  `q="Electron as a Hook"` → 0 hits; token live-check 200). Related sibling:
-  10.5281/zenodo.21777931 "Six Load-Bearing Assumptions" (different project, cited in gap analysis).
-- **WBS:** RES.011 is the highest registered RES paper code; RES.012 (research-purpose-utility)
-  exists in D1 living-paper but lacks its program_registry row → backfilled during this project;
-  this project claims **QNFO.RES.013** (atomic check-then-insert, WBS-COLLISION-2).
+| Version | DOI | Scope |
+|:--------|:----|:------|
+| v0.1 | 10.5281/zenodo.21970454 | Architecture (Parts I–IV) + two research notes; 21 deposit files |
+| **v0.2** | **10.5281/zenodo.21970697** | **Full Edition: 9 parts, 51 chapters, 34 six-step audits; 25 deposit files** |
+
+## Phase 0 — Context
+
+- Trigger (v0.1): user CMD PUBLISH with three Obsidian source notes (`_26228215046.md` outline; `_26228215041.md` quantum-surface note; `_26228180242.md` copper-wire audit note). Zenodo DUPCHECK clean; WBS QNFO.RES.013 claimed (check-then-insert; RES.012 backfilled).
+- Trigger (v0.2): user CMD "GENERATE full treatise: nine parts and fifty-one chapters" + CMD RED TEAM SUB + CMD EXECUTE.
 
 ## Phase 1 — Plan & due diligence
 
-- Prior due diligence for the two research notes: `research-due-diligence-2026-08-16-copper-ultrametric.md`
-  (Obsidian) — corpus sweep (995 D1 papers), cross-system ID validation, arXiv lineage for
-  p-adic QM and non-Hermitian skin effect verified live.
-- Gap analysis: `artifacts/gap-analysis.md`. The treatise's premise-chain depth: it introduces
-  NO new physical postulate; premises are named (set theory, measurement practice, empirical
-  adequacy). Its claims are taxonomic/analytical, bounded accordingly (SO-WHAT-GATE-1).
+- v0.1 due diligence: `research-due-diligence-2026-08-16-copper-ultrametric.md` (corpus sweep 995 papers; arXiv lineage verified live).
+- Premise-depth: no new physical postulate; primitives named (set theory, measurement practice, empirical adequacy). SO-WHAT in abstract.
 
 ## Phase 2 — Sources
 
-| Source | Role | Size |
-|:-------|:-----|:-----|
-| `source-notes/_26228215046.md` | treatise architecture (Part I basis) | 17.4 KB |
-| `source-notes/_26228215041.md` | Research Note A (Part II basis) | 167.2 KB |
-| `source-notes/_26228180242.md` | Research Note B (Part III basis) | 349.3 KB |
-| `electron-hook-treatise.md` | assembled manuscript (Parts I–IV, 30 references) | 58 KB |
+v0.1 manuscript (preserved as `electron-hook-treatise-v0.1.md`) + the three verbatim source notes. Full Edition expands the v0.1 architecture chapter by chapter.
 
 ## Phase 3 — Citations
 
-All 30 bibliographic entries live-verified (AUTHOR-GATE) via exact-DOI Crossref lookups
-(`api.crossref.org/works/{doi}`) + arXiv abstract check for 't Hooft gr-qc/9310026. Evidence:
-`artifacts/external-search/reference-verification.json`. Citation audit: `citation-audit.md`.
+30 entries, AUTHOR-GATE verified two-phase (exact-DOI Crossref + arXiv for 't Hooft). Evidence: `artifacts/external-search/reference-verification.json`; audit: `citation-audit.md`; Full Edition Appendix D carries the inline bibliography.
 
-## Phase 4 — Draft
+## Phase 4 — Full Edition + red team
 
-Manuscript assembled from the three notes (editorial rendering; originals deposited verbatim).
-Gates: premise-depth disclosure in Abstract; SO-WHAT statement in Abstract; no internal
-references (WBS codes, repo paths) in the rendered text; map–territory labels audited
-(0 TERRITORY claims); terminology audit (BP-2) — every field term used in its standard sense;
-BP-1 fit-verify PASS (skin depth, λ_T, G0, L0, Unruh prefactor recomputed).
+- Generated: 9 parts, 51 chapters, 31 six-step blocks (v0.2 adds §9.5–9.7 → 34).
+- Red team (3 slots): Accuracy (failed → direct audit), Completeness (1 HARD / 5 SOFT / 1 DESIGN), Dependency (stalled → direct audit). Findings remediated; closure log: `artifacts/v0.2-red-team-remediation.md`; aggregate: `artifacts/red-team-full-edition.md`; re-verification reviewer dispatched (9imUglD3ekqerRhMm_c3R).
 
-## Phase 5 — Publication (Zenodo)
+## Phase 5 — Publication (v0.2 newversion)
 
-- Deposit API PATH A; ALL source files (21): `.md/.html/.pdf` + `references.bib` +
-  `citation-audit.md` + `PROJECT-PLAN.md` + `README.md` + `docs/` + `artifacts/` +
-  `source-notes/*` (3 original notes) + `RESEARCH-CONTINUITY-REGISTRY.md`.
-- GitHub provenance: `related_identifiers` isSupplementTo →
-  `https://github.com/QNFO/qnfo-research/tree/res/paper/electron-hook-treatise`.
-- Verify: DOI live (curl -sI 200), P5.FRESH (deposited .md YAML doi=own DOI, status=published),
-  title-duplication gate (PASS: 1 rendered title, 0 body H1), mojibake scan (CLEAN).
+- Records API newversion from 21970454 → draft 21970697; reserved DOI 10.5281/zenodo.21970697.
+- Frontmatter patched to own DOI + status published BEFORE upload (NEWVERSION-FRONTMATTER-CARRYOVER-1).
+- Full fresh upload (25 files) — draft carried 0 files (records-API newversion did not migrate the parent bucket).
+- Metadata: concept DOI cite-awareness (ZENODO-CONCEPT-DOI-CITE-1); related_identifiers isSupplementTo (GitHub branch) + isVersionOf (10.5281/zenodo.21970454).
+- Verify: DOI HEAD 200; P5.FRESH (deposited .md own-DOI + published); 25 files.
 
-## Phase 6 — Distribution
+## Phase 6 — Distribution (v0.2)
 
-- D1 living-paper insert (CHECK-THEN-WRITE; plain INSERT; body_md + PRE-inline body_html).
-- KG node `paper:electron-hook-treatise` + BELONGS_TO edge; verify neighbors > 0.
-- Vectorize index via qnfo-paper-indexer (`X-Index-Token`, browser UA); verify webhook
-  `{indexed:true, chunks:N, errors:0}`.
-- R2 mirror `qnfo-releases/2026/08/electron-hook-treatise/` (bucket verified against siblings).
-- papers.qnfo.org route verify `curl -sI https://papers.qnfo.org/papers/electron-hook-treatise/` → 200.
+- D1 living-paper row re-pointed (doi, zenodo_url, version 0.2.0, body_md/body_html = Full Edition).
+- KG node properties updated (doi/version); Vectorize re-index + webhook verify.
+- R2 mirror update `qnfo-releases/2026/08/electron-hook-treatise/` (rclone check 0 differences).
+- papers.qnfo.org route 200. program_registry zenodo_doi + current_version updated.
 
 ## Phase 7 — Dissemination (deferred)
 
-- Zenodo community inclusion REQUEST (advancedtheoreticalphysicsandmathematics or fbt-framework)
-  per DISSEMINATION-OUTLETS-1 — post-publish curator-gated step.
-- Internet Archive / SWH / IndexNow / Buffer socials — deferred to a follow-up cycle.
+Zenodo community inclusion REQUEST (curator-gated); IA/SWH/IndexNow — follow-up cycle.
 
 ## Phase 8 — Audit
 
-- Post-publication adversarial analysis (Accuracy/Completeness/Dependency) + red-team subagent;
-  findings → `artifacts/post-publication-audit.md`; HARD findings → next newversion.
+Post-publication adversarial analysis for v0.2 (`artifacts/post-publication-audit.md` updated); HARD findings → next newversion.

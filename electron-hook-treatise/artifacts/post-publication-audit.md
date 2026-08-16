@@ -30,7 +30,7 @@ READ-ONLY: no published file was modified as part of this audit.
 - Cross-references: manuscript Part/§/chapter references resolve (§II.1–II.6, §III.1–III.9, §IV.1–IV.3, architecture chapters). SOFT note: "Part I's Chapter 15-18" (§II.6) refers to treatise chapters rendered inside manuscript §I.6 — resolves, wording could be tighter (v0.2 polish).
 - DOIs: 29 Crossref-verified; 't Hooft arXiv-verified (gr-qc/9310026 live).
 - GitHub provenance: branch pushed (c4d43ee); URL resolves.
-- License note: deposit API accepts only whitelisted licenses; record metadata carries cc-by-nc-sa-4.0 while the manuscript frontmatter + Declarations declare QNFO-ULA as the authoritative license. Documented, not a content defect.
+- License note: the deposit-API-created record surfaces NO machine-readable license in the live API (`metadata.license: null`, `rights: null`); the manuscript frontmatter + Declarations declare QNFO-ULA as the authoritative license. A whitelisted-license metadata edit was attempted in the v0.2 cycle (see `v0.2-red-team-remediation.md`).
 
 ## Findings
 
