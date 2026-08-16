@@ -9,3 +9,4 @@ of distinction (symmetric vs exterior algebra from mark parity).
 
 See [PROJECT-PLAN.md](PROJECT-PLAN.md) for charter, locked core claim (§1.2), phases,
 milestones, deliverables, risks, and success criteria.
+- **2026-08-16 — v1.6 so-what remediation** (DOI 10.5281/zenodo.21964598): new Section 2 "So What? Why Should a Reader Care About This Research?" (global so-what mandate; executed-falsification framing: F2′ surviving route, minimal-ontology theorem, p-adic-anyon/TQC redirect); frontmatter version v1.6 + license aligned cc-by-4.0; sections renumbered 1–10 with cross-refs fixed.

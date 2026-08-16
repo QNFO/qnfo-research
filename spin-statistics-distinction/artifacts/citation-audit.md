@@ -58,3 +58,13 @@ SSRN 6598581 (Li 2026, "The Spin-Statistics Theorem as a Topological Necessity")
 for Section 7 and deferred (preprint quality bar). Section 2 genealogy gains
 Laidlaw & DeWitt 1971 (fundamental-group ancestor) and Haldane 1991 (fractional statistics
 beyond 2D).
+
+
+---
+
+## Addendum 2026-08-16 (v1.6 so-what cycle)
+
+- New Section 2 "So What? Why Should a Reader Care About This Research?" added. Contains no new citations (references to DHR, Temperley-Lieb, ZX/classical structures are program-level mentions without new bib keys; all existing keys unchanged).
+- Sections renumbered 2-9 -> 3-10 (So-What = 2); cross-references updated (Section 3/4/5/6 refs -> 4/5/6/7; ledger §5 -> §6). Monograph reference (Quni-Gudzinas 2026a, Section 2.3) is EXTERNAL and untouched.
+- Frontmatter license aligned QNFO-ULA -> cc-by-4.0 (record metadata authoritative).
+- Zenodo metadata: version v1.6; EuroSciVoc subjects (philosophy, mathematics) added.

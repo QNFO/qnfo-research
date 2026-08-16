@@ -4,9 +4,10 @@ author: "Rowan Brad Quni-Gudzinas"
 affiliation: "QNFO"
 ORCID: "0009-0002-4317-5604"
 date: "2026-08-16"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21962904"
+license: "cc-by-4.0"
+doi: "10.5281/zenodo.21964598"
 status: "published"
+version: "v1.6"
 ---
 
 ## Abstract
@@ -23,7 +24,21 @@ Two identical particles can be exchanged. In quantum mechanics, the state of the
 
 This paper makes two claims. First, the structural invariant is not the dichotomy itself but the relation $R = e^{2\pi i s}$ between exchange phase and topological spin; the binary is a shadow of that relation in three spatial dimensions. Second, a distinction-based foundation of physics — a calculus whose only primitive is the act of drawing a boundary — must, to claim the spin-statistics connection, derive exchange statistics from the primitive; the current state of that program contains a silent assumption that this paper identifies and replaces with a concrete derivation target.
 
-## 2. The invariant: exchange phase equals topological spin
+## 2. So What? Why Should a Reader Care About This Research?
+
+**The stakes.** The boson/fermion dichotomy is an input to every quantum theory: chemistry, the standard model, and condensed matter all assume it. This paper argues the dichotomy is not primitive — it is the three-dimensional shadow of a single structural relation, $R = e^{2\pi i s}$ (exchange phase equals topological spin) [ESTABLISHED]. The deeper question is whether a calculus whose only primitive is the act of drawing a boundary can derive exchange statistics from that act — or whether the premises of such a derivation end earlier than its proponents hoped. The answer matters because it tells you exactly which parts of the spin-statistics structure are negotiable: which framework conditions generate which statistics, and where a distinction-based foundation must stop and import physics.
+
+**What a physicist gets: a boundary map with the falsification executed.** The pre-registered derivation program (T1–T3) carries falsifiability conditions (F1, F2′), and — unusually — the decisive test has already been *run*, honestly, with a mechanism: the abelian-pair postulate is ASSUMED (definitive — scalar exchange follows from abelianity; the calculus does not deliver it), and involutivity ($\sigma^2 = 1$) is a condition on the target category (symmetric, or Temperley–Lieb at $A^4 = 1$), not a theorem of the calculus (verified by executed code in the rigor-pass cycle). That is a positive result: the distinction-based program now knows exactly where its premises end, and the surviving route is channel-count (F2′, tied to DHR locality) — a falsifiable, physics-anchored condition instead of a silent assumption. The redirect is equally concrete: the substrate that actually carries the physics is the p-adic-anyon / topological-quantum-computation program (Temperley–Lieb braids, Bruhat–Tits buildings), and the notation-vs-engine distinction (ZX/classical structures) supplies the tools to say which part is syntax and which part is engine.
+
+**What a foundations researcher gets: a worked example of premises-depth discipline.** This paper is the third rung of a chain (structural invariant → logical scalar → boundary map) that practices what it preaches: every primitive is labeled DERIVED or ASSUMED in the Parsimony Ledger, every boundary is conceded in plain language (the spin-statistics *connection* requires Lorentz and locality input the mark cannot supply), and the falsification of the program's own central condition (F2) is published as a ledger outcome rather than a concession or a retreat. A pre-registered test that is executed and reports its own failure is the rarest and most valuable object in this literature.
+
+**Practical utility — even though the derivation is incomplete.** (1) The minimal-ontology theorem (logic + locality + kinematics + Lorentz) delimits exactly what any derivation of exchange statistics must contain — a checklist for future attempts, including AI-assisted ones. (2) The involutivity criterion (the interpretation functor exists iff the target braiding is involutive; $\sigma^2 \neq I$ generically in Temperley–Lieb) is a reusable classification instrument for anyon models. (3) The boundary map — which framework conditions generate which statistics (orbifolds, traid groups, graphs, TL quotients) — feeds directly the topological-quantum-computation platform map of the companion records. (4) The notation-vs-engine analysis is a methodological tool for evaluating any formal program that claims to derive physics.
+
+**How deep does the theorem go? Where do its premises end?** [ESTABLISHED] $R = e^{2\pi i s}$ and its dimensional quantization. [ASSUMED — definitive] The abelian-pair postulate and involutive braiding, with the mechanism now known. [CONJECTURED] Any full derivation of exchange statistics from the mark alone. [CONCEDED] The spin-statistics connection requires Lorentz and locality input. The premises end exactly where the rigor-pass marked them — and the reader is told, per primitive, in the ledger.
+
+**What this paper does not claim.** No completed derivation of exchange statistics from the mark (the program is pre-registered, not executed; F2′ is the surviving condition). No claim that the calculus is the unique foundation. No Lorentz-free spin-statistics connection (that boundary is conceded). What the reader gets: an honest, executed falsification, a surviving falsifiable route, and a boundary map of quantum statistics — the answer to "so what?" is that this paper tells you exactly what is proven, what is assumed, what is falsified, and where the physics has to enter.
+
+## 3. The invariant: exchange phase equals topological spin
 
 The exchange of two identical particles is a loop in their configuration space. The phase acquired is a representation of the fundamental group of that space (Leinaas and Myrheim, 1977; Laidlaw and DeWitt, 1971). [ESTABLISHED] The rotation of a single particle by $2\pi$ is the twist. In a ribbon braided tensor category — the mathematical home of particle-like excitations in topological order — the two are linked by the ribbon identity:
 
@@ -35,28 +50,28 @@ $$R = e^{2\pi i s},$$
 
 the universal spin-statistics relation. This relation has been proven directly from wavefunctions for fractional quantum Hall quasiparticles (Trung et al., 2022; Nardin et al., 2022) and is realized experimentally as measurable fractional spin (Comparin et al., 2021). [ESTABLISHED]
 
-## 2.1 The 3+1D shadow
+## 3.1 The 3+1D shadow
 
 In three or more spatial dimensions the braiding is symmetric (involutive): $c_{Y,X} \circ c_{X,Y} = \mathrm{id}$. Then $\theta_X^2 = 1$, so $e^{2\pi i s} = \pm 1$, forcing $s \in \{0, \tfrac{1}{2}\} \bmod 1$. Integer spin gives the trivial representation (bosons); half-integer spin gives the sign representation (fermions) (Pauli, 1940; Streater and Wightman, 1964). [ESTABLISHED]
 
-## 2.2 The 2+1D generalization
+## 3.2 The 2+1D generalization
 
 In two spatial dimensions the braiding is not involutive: the exchange group is the braid group, and $\theta_X = e^{2\pi i s}$ can be any phase. Particles with fractional statistics — anyons — realize the continuous range of $s \in \mathbb{R}/\mathbb{Z}$ (Leinaas and Myrheim, 1977; Wilczek, 1982; Haldane, 1991; Mund, 2008). [ESTABLISHED]
 
-## 2.3 What is invariant
+## 3.3 What is invariant
 
 Across both regimes, the invariant content is unchanged: superselection sectors, fusion rules, and braiding data, with the relation $R = e^{2\pi i s}$ (Wang and Wen, 2014; Johnson-Freyd, 2015). [ESTABLISHED] Dimension enters only through which braided structures are realizable. The binary dichotomy is therefore not the invariant; the relation is.
 
-## 3. Dimension quantization: bosons and fermions as a 3+1D shadow
+## 4. Dimension quantization: bosons and fermions as a 3+1D shadow
 
 | Spatial dimension | Motion group | Braided structure | Allowed $s$ | Statistics |
 |---|---|---|---|---|
 | 2 | Braid group $B_n$ | Ribbon, non-symmetric | $s \in \mathbb{R}/\mathbb{Z}$ | Anyons, $R = e^{2\pi i s}$ |
 | $\geq 3$ | Permutation group $S_n$ | Symmetric, involutive | $s \in \{0, \tfrac{1}{2}\} \bmod 1$ | Bosons ($\eta = +1$), fermions ($\eta = -1$) |
 
-[ESTABLISHED] The table is the dimensional quantization of the spin parameter: in $d \geq 3$ the involutive braiding forces $2s \in \mathbb{Z}$; in $d = 2$ the quantization collapses to continuity. In $3{+}1$ dimensions a further input — microcausality and positive energy in a local relativistic theory — identifies which sign corresponds to which spin (Pauli, 1940; Duck and Sudarshan, 1998; Verch, 2001). [ESTABLISHED] That input is external to any purely algebraic derivation; the boundary is stated explicitly in Section 5.
+[ESTABLISHED] The table is the dimensional quantization of the spin parameter: in $d \geq 3$ the involutive braiding forces $2s \in \mathbb{Z}$; in $d = 2$ the quantization collapses to continuity. In $3{+}1$ dimensions a further input — microcausality and positive energy in a local relativistic theory — identifies which sign corresponds to which spin (Pauli, 1940; Duck and Sudarshan, 1998; Verch, 2001). [ESTABLISHED] That input is external to any purely algebraic derivation; the boundary is stated explicitly in Section 6.
 
-## 4. The calculus of distinctions and its silent assumption
+## 5. The calculus of distinctions and its silent assumption
 
 A distinction-based calculus begins with a mark: a boundary separating an inside from an outside. Its two primitive laws are Calling (idempotence: a mark repeated is the mark) and Crossing (involution: a boundary crossed twice returns to the unmarked state) (Spencer-Brown, 1969). A recent monograph develops this calculus toward physics, including a treatment of the half-turn phase $e^{i\pi} = -1$ and a claim that parity is the ancestor of physical spin-statistics (Quni-Gudzinas, 2026a, Section 2.3). [textual finding]
 
@@ -68,9 +83,9 @@ where $S^n(A)$ is the $n$-th symmetric power. The symmetric algebra is exactly t
 
 The gap is structural, not cosmetic. The spin-statistics theorem is about the symmetry of the joint state of two identical marks under exchange; the calculus provides a phase for a single mark under rotation, but never constructs the exchange of two marks. The leap from "the mark has a half-turn phase" to "two marks anticommute" is asserted, not derived. (This assessment was reached independently in the deep-inquiry analysis of 2026-08-14; it is stated here as a checkable textual claim about the monograph.)
 
-## 5. A derivation program
+## 6. A derivation program
 
-The program has three tasks, pre-registered with falsifiability conditions (Section 6).
+The program has three tasks, pre-registered with falsifiability conditions (Section 7).
 
 **T1 — Two modal exponentials.** In a $\mathbb{Z}/2$-graded symmetric monoidal category with the graded braiding $\sigma_{A,B}(a \otimes b) = (-1)^{\lvert a \rvert \lvert b \rvert} b \otimes a$, the exchange operator $P = \sigma_{A,A}$ on $A \otimes A$ splits into two idempotent projectors,
 
@@ -84,11 +99,11 @@ are the two grading components of one construction. The two statistics are the t
 
 **T2 — The braiding of two marks.** In a compact closed category with a self-dual mark $M$, the exchange map $\sigma_{M,M}$ is a scalar $\eta \cdot \mathrm{id}$, and the ribbon identity forces $\eta = \theta_M$. In a symmetric category $\theta_M^2 = 1$, so $\eta = \pm 1$: the two eigenvalues of exchange are the boson and fermion signs. The sign $\eta = -1$ is the same $-1$ as the treatise's half-turn phase $e^{i\pi} = -1$. [DERIVATION SKETCH — P4 notebook T2.] The identification of $\eta = +1$ with Calling and $\eta = -1$ with Crossing is the mark-calculus reading of the two one-dimensional representations of the symmetric group.
 
-**T3 — Dimension quantization.** The table in Section 3, with dimension entering only through the allowed braided structures. [DERIVATION SKETCH — P4 notebook T3.]
+**T3 — Dimension quantization.** The table in Section 4, with dimension entering only through the allowed braided structures. [DERIVATION SKETCH — P4 notebook T3.]
 
 **The boundary of the program.** The program can show that statistics is forced by distinction, compact closure, an involutive braiding, and the abelian-pair postulate (the pair of marks has a unique joint state up to phase, so that the braiding acts by a scalar). The last postulate is the categorical counterpart of the exclusion of parastatistics: without it, mixed-symmetry (parastatistics-class) sectors are not excluded by the algebraic machinery alone; in algebraic quantum field theory the exclusion follows from locality (Doplicher, Haag, and Roberts, 1971, 1974; Doplicher and Roberts, 1990; Greenberg and Messiah, 1965). The program therefore must either adopt the postulate or derive a DHR-style exclusion — which again lands on locality. [2026 note — two external developments qualify this boundary. First, a model-independent, quantum-information-theoretic exclusion of parastatistics has been given that does not route through locality at all: complete invariance under quantum permutations forces Bosons or Fermions (Mekonnen, Galley, and Mueller, 2025). Second, the classical equivalence theorems (Greenberg and Messiah, 1965; Doplicher, Haag, and Roberts) do not exhaust the possibilities: R-parastatistics — parastatistics inequivalent to bosons or fermions, consistently defined in any dimension — has been shown to emerge as observable quasiparticle statistics in condensed-matter systems (Wang and Hazzard, 2023, 2024, 2026). The abelian-pair postulate's status is thereby sharpened: its exclusion of parastatistics-class sectors is neither a purely algebraic consequence nor exclusively a locality theorem — it is a substantive physical assumption whose justification the new literature can either strengthen (quantum-permutation invariance) or qualify (emergent paraparticles).] It cannot, from the mark alone, show *which* eigenvalue corresponds to *which* spin: the spin–statistics *connection* requires the additional postulate that the twist equals the $2\pi$ rotation of a Lorentz representation, with microcausality and positive energy (Pauli, 1940; Duck and Sudarshan, 1998). The paper states this boundary explicitly; it does not claim a full derivation of the spin-statistics theorem from distinction. [CONTESTED — the sufficiency of the minimal postulates is open.]
 
-## 6. Falsifiability conditions
+## 7. Falsifiability conditions
 
 **F1 (empirical).** If a stable, local, relativistic excitation in $3{+}1$ dimensions is observed with exchange phase $\eta \neq e^{2\pi i s}$ — for example, a spin-$\tfrac{1}{2}$ particle obeying Bose-Einstein statistics, or a spin-$0$ particle obeying Fermi-Dirac statistics — the claim that $R = e^{2\pi i s}$ is the universal invariant is disconfirmed. No such particle is known in the Standard Model. [ESTABLISHED — the absence of violations is a strong constraint, not a proof.]
 
@@ -98,15 +113,15 @@ are the two grading components of one construction. The two statistics are the t
 
 **Surprise accounting (KIF-60 discipline).** The existence of anyons in $2{+}1$ dimensions is established and does not count as predictive evidence for this paper: anyonic statistics is expected under the null hypothesis of braid-group representations. Only F1's precision constraint and F2's derivability constraint carry evidential weight. The invariant formulation itself is [RETRODICTION — not evidence]: it restates established results in a unified language. The paper claims credit only for the derivation program (F2) and for the identification of the monograph's silent assumption (a textual finding).
 
-## 7. Relation to existing programs
+## 8. Relation to existing programs
 
 The derivation program sits between three established lines of work. First, the algebraic quantum field theory tradition proves the spin-statistics connection from locality and positivity (Streater and Wightman, 1964; Verch, 2001), and extends it to anyons in $2{+}1$ dimensions (Mund, 2008; Kuckert, 2002; Kuckert and Mund, 2004). Second, the topological and categorical tradition states the connection as a theorem about braided tensor categories (Joyal and Street, 1993; Bakalov and Kirillov, 2001; Johnson-Freyd, 2015; Oeckl, 2000), and condensed-matter physics realizes it for fractional quantum Hall quasiparticles (Comparin et al., 2021; Nardin et al., 2022; Trung et al., 2022). Third, the distinction-based tradition derives physical structure from the mark (Spencer-Brown, 1969; Quni-Gudzinas, 2026a, 2026b, 2026c). The present paper is the first, to the author's knowledge, to state the derivation target explicitly for the third tradition: the exchange of two marks, constructed in a compact closed category, whose eigenvalues are the two statistics. Adjacent internal work on p-adic anyon braiding (Quni-Gudzinas, 2026d) and on the topological distinction between Dirac and Majorana fermions (Quni-Gudzinas, 2026e) provides a compatible categorical language.
 
-## 8. Conclusions
+## 9. Conclusions
 
 The boson/fermion dichotomy is not the primitive content of the spin-statistics theorem; the relation $R = e^{2\pi i s}$ between exchange phase and topological spin is. [ESTABLISHED] The dichotomy is its shadow in three spatial dimensions, where the involutive braiding quantizes $s$ to integers and half-integers. [ESTABLISHED] A distinction-based calculus that aims to ground quantum statistics must construct the exchange of two marks and derive the two eigenvalues of exchange from the primitive; the current monograph in that tradition silently assumes the symmetric (bosonic) algebra instead. [textual finding] This paper pre-registers the derivation program (T1-T3) and its falsifiability conditions (F1, F2), and states the boundary of the program: the spin-statistics *connection* requires Lorentz and locality input that the mark alone cannot supply. [NOT YET EVIDENCE]
 
-## 9. The Parsimony Ledger (2026-08-16 update)
+## 10. The Parsimony Ledger (2026-08-16 update)
 
 A ledger counts every primitive, labels each as DERIVED or ASSUMED, and states the standing debt — it prevents the Occam objection from being answered by relocation. *Counting convention:* one primitive = one named structural input not derived within the system.
 
@@ -119,12 +134,12 @@ A ledger counts every primitive, labels each as DERIVED or ASSUMED, and states t
 1. **Abelian-pair postulate** — **ASSUMED (definitive).** The demotion attempt failed honestly: scalar exchange follows *from* abelianity (M⊗M simple, d_M = 1); the calculus does not deliver it (rigor-pass Lemma 3; DD HARD-1 stands). The postulate is retained as an explicit channel-count postulate, tied to the locality-based parastatistics exclusion (DHR 1971/1974).
 2. **Involutive braiding (σ² = 1)** — **ASSUMED (definitive).** The inheritance claim is resolved: F exists iff the target braiding is involutive — involutivity is a condition on the target (symmetric categories, TL at A⁴ = 1), not a theorem of the calculus (f-construction note). The calculus supplies the syntax of the quotient S_n = B_n/⟨σᵢ² = 1⟩; the selection remains external (d ≥ 3 kinematical input).
 3. **Compact closure** — ASSUMED (structural input, never disputed).
-4. **External Lorentz/locality input** — CONCEDED as boundary (paper §5). The spin–statistics *connection* requires the twist to equal the 2π rotation of a Lorentz representation; not derivable from the mark alone.
+4. **External Lorentz/locality input** — CONCEDED as boundary (paper §6). The spin–statistics *connection* requires the twist to equal the 2π rotation of a Lorentz representation; not derivable from the mark alone.
 5. **The mark itself** — primitive (the program's single claimed primitive). Its primitiveness is itself a quotient-claim (UIA Q15: "what are the braid group, the mark, and SO(3) all quotients of?") and remains audited next.
 
 **Quotient-direction neutrality (reviewer DESIGN-1/3).** S_n ≅ B_n / ⟨σᵢ² = 1⟩ (Artin) is neutral evidence: parsimony favors S_n as the exchange-statistics object until the mark calculus demonstrably *needs* B_n for 3D physics. The functorial form (f-construction): B_n is not a model of the calculus's signature; the calculus realizes the S_n reading natively.
 
-**Verdict.** The mark calculus supplies the syntax of the involutive quotient; the selection of the involutive target is external kinematical input. F2 as originally written is disconfirmed; F2′ (channel-count postulate retained, tied to DHR locality) is the surviving pre-registered condition. This is the paper's §5 boundary, now stated as a ledger outcome rather than a concession.
+**Verdict.** The mark calculus supplies the syntax of the involutive quotient; the selection of the involutive target is external kinematical input. F2 as originally written is disconfirmed; F2′ (channel-count postulate retained, tied to DHR locality) is the surviving pre-registered condition. This is the paper's §6 boundary, now stated as a ledger outcome rather than a concession.
 
 ## Declarations
 
@@ -135,7 +150,7 @@ A ledger counts every primitive, labels each as DERIVED or ASSUMED, and states t
 **Author contributions.** Sole author.
 **Ethics approval.** Not applicable.
 **Consent for publication.** Not applicable.
-**Acknowledgments.** The author thanks the reviewers of the companion monograph for the discussion that sharpened Section 4.
+**Acknowledgments.** The author thanks the reviewers of the companion monograph for the discussion that sharpened Section 5.
 **Correspondence.** rowan.quni@outlook.com
 
 ## References
