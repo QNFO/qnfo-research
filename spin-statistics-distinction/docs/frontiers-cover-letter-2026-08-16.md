@@ -2,7 +2,7 @@
 
 **Manuscript:** *The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant* (v1.6, DOI 10.5281/zenodo.21964598; concept 10.5281/zenodo.21938970)
 **Author:** Rowan Brad Quni-Gudzinas (QNFO; ORCID 0009-0002-4317-5604)
-**Date:** 2026-08-16 · **Venue verified live:** Frontiers in Physics — OA, IF 2.2, CiteScore 5.2, single-author accepted, Original Research type; APC category 3–4 (CHF 2,695–3,150, Type A) — final figure confirmable on the submission portal.
+**Date:** 2026-08-16 · **Venue verified live:** Frontiers in Physics — OA, IF 2.2, CiteScore 5.2, single-author accepted, Original Research type; APC **estimate** (journal-specific figure portal-gated): category 3–4 range CHF 2,695–3,150 (Type A) per live fee-policy tiers — exact figure to be confirmed on the submission portal before commitment.
 
 ---
 
