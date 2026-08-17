@@ -3,14 +3,14 @@ title: 'A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics
 author: 'Rowan Brad Quni-Gudzinas'
 date: '2026-08-16'
 license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: '10.5281/zenodo.21972676'
+doi: '10.5281/zenodo.21972819'
 status: 'published'
 ---
 
 **Subtitle:** The Electron as a Hook — Full Edition (nine parts, fifty-one chapters)
 **Author:** Rowan Brad Quni-Gudzinas | QNFO Research Foundation
 **Contact:** rowan.quni@qnfo.org | **ORCID:** [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**Version:** v0.3 | **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction), v0.2.2 (bibliography completion)
+**Version:** v0.3.1 | **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction), v0.2.2 (bibliography completion), v0.3 (depth expansion)
 
 ## Abstract
 
@@ -329,11 +329,11 @@ The Pauli exclusion principle — no two identical fermions share a quantum stat
 
 #### 10.1 $2+1$ dimensions and anyons
 
-In $2+1$ dimensions the exchange of two identical particles is described by the braid group, not the permutation group. Braiding twice need not return the system to its original state; the exchange phase $e^{i\theta}$ is unconstrained. Particles with $\theta \neq 0, \pi$ are anyons. The theorem does not apply because its premises fail — the spatial dimension is wrong.
+In $2+1$ dimensions the exchange of two identical particles is described by the braid group, not the permutation group (Leinaas–Myrheim, 1977; Wilczek, 1982). Braiding twice need not return the system to its original state; the exchange phase $e^{i\theta}$ is unconstrained. Particles with $\theta \neq 0, \pi$ are anyons. The theorem does not apply because its premises fail — the spatial dimension is wrong.
 
 #### 10.2 The fractional quantum Hall effect
 
-At filling factor $\nu = 1/3$ in a two-dimensional electron gas under strong magnetic field, transport shows an exactly quantized plateau at $\sigma_{xy} = \frac{1}{3} e^2/h$ (Tsui, Stormer, Gossard, 1982; Laughlin's theory, 1983). The quasiparticles carry charge $e/3$ (measured by shot noise) and fractional exchange statistics.
+At filling factor $\nu = 1/3$ in a two-dimensional electron gas under strong magnetic field, transport shows an exactly quantized plateau at $\sigma_{xy} = \frac{1}{3} e^2/h$ (Tsui, Stormer, Gossard, 1982; Laughlin's theory, 1983). The quasiparticles carry charge $e/3$ (measured by shot noise; Laughlin, 1983) and fractional exchange statistics (Arovas, Schrieffer & Wilczek, 1984; Halperin, 1984).
 
 #### 10.3 Braid group vs permutation group
 
@@ -351,7 +351,7 @@ The "particles" of a quantum Hall sample are not electrons: they are quasipartic
 
 #### 11.2 The electron as a quasiparticle in different ground states
 
-The same underlying electron liquid supports different emergent particles in different ground states: Landau quasiparticles in metals, Cooper pairs in superconductors (bosonic composites), $e/3$ quasiparticles at $\nu=1/3$. "The electron" is a name with a domain of validity, not a universal object.
+The same underlying electron liquid supports different emergent particles in different ground states: Landau quasiparticles in metals, Cooper pairs in superconductors (bosonic composites; Bardeen, Cooper & Schrieffer, 1957), $e/3$ quasiparticles at $\nu=1/3$. "The electron" is a name with a domain of validity, not a universal object.
 
 #### 11.3 Implications for "elementary"
 
@@ -675,7 +675,7 @@ Holographic strange metals reproduce linear-in-$T$ resistivity and Planckian sca
 
 #### 27.5 Holography is not simply "2D applies to 3D"
 
-The slogan misleads: holography is a specific duality with a negative-curvature, extra-dimensional bulk; it does not license naive dimensional reduction, and no general proof exists for realistic (non-AdS, non-supersymmetric) spacetimes. The holographic principle is a load-bearing *possibility*, not an established law of all physics: its status is that of an exactly proven duality (AdS/CFT) plus a conjectured bound (the covariant entropy bound) plus an unproven extrapolation to realistic spacetimes. The treatise's audit keeps the three apart, and Chapter 46.8 examines what would test the extrapolation.
+The slogan misleads: holography is a specific duality with a negative-curvature, extra-dimensional bulk; it does not license naive dimensional reduction, and no general proof exists for realistic (non-AdS, non-supersymmetric) spacetimes ('t Hooft, 1993; Susskind, 1995). The holographic principle is a load-bearing *possibility*, not an established law of all physics: its status is that of an exactly proven duality (AdS/CFT) plus a conjectured bound (the covariant entropy bound) plus an unproven extrapolation to realistic spacetimes. The treatise's audit keeps the three apart, and Chapter 46.8 examines what would test the extrapolation.
 
 ### Chapter 28 — Open Questions
 
@@ -722,7 +722,7 @@ Fifteen assumptions are audited here, each with the full six-step procedure of �
 
 1. **The assumption.** Spacelike-separated observables commute (bosonic) or anticommute appropriately — no signal, and more: no *statistical* influence, propagates faster than light.
 2. **What is built on it.** The spin-statistics theorem and CPT (Chapter 9), dispersion relations, the S-matrix programme, and the causal structure of QFT.
-3. **Confirmed vs postulated.** Confirmed to experimental precision: no superluminal signaling has ever been observed. Postulated: exact commutativity at all spacelike separations, including trans-Planckian ones.
+3. **Confirmed vs postulated.** Confirmed to experimental precision: no superluminal signaling has ever been observed; Bell-inequality violations are consistent with quantum predictions and rule out local hidden variables (Bell, 1964), not microcausality. Postulated: exact commutativity at all spacelike separations, including trans-Planckian ones.
 4. **Alternatives.** Noncommutative field theories with modified microcausality; string-theoretic nonlocality (softened light-cone); "wedge" locality of algebraic QFT.
 5. **Falsifiability.** A measured spacelike statistical correlation between local observables beyond quantum prediction; a violation of the dispersion relations derived from microcausality.
 6. **Open questions.** **Q32.1**  How much microcausality violation is excluded by the *absence* of anyonic signatures in $3+1$D (Q12.4)? Does quantum gravity soften the light-cone observably?
@@ -766,7 +766,7 @@ Fifteen assumptions are audited here, each with the full six-step procedure of �
 ### Chapter 37 — Ergodicity and the Eigenstate Thermalization Hypothesis
 
 1. **The assumption.** Closed many-body systems thermalize: time averages equal ensemble averages, and individual eigenstates locally reproduce microcanonical statistics (ETH).
-2. **What is built on it.** Equilibrium statistical mechanics; the second law as emergent; the justification for the ensembles of Chapter 15.
+2. **What is built on it.** Equilibrium statistical mechanics; the second law as emergent; the justification for the ensembles of Chapter 15 (Srednicki, 1994).
 3. **Confirmed vs postulated.** Confirmed: thermalization in generic interacting systems, ETH numerically in chaotic models. Falsified in general: many-body localization and quantum many-body scars are counterexamples — ergodicity holds in a *regime*, not universally.
 4. **Alternatives.** Weaker premises: eigenstate decorrelation, generalized ETH (eigenstates of one observable look thermal in another), typicality arguments that avoid ergodicity entirely.
 5. **Falsifiability.** The assumption is already falsified as a universal claim (MBL); the surviving content is the classification of the thermalizing regime — falsified if a natural isolated system fails to thermalize without localization or integrability.
@@ -777,7 +777,7 @@ Fifteen assumptions are audited here, each with the full six-step procedure of �
 1. **The assumption.** Spacetime admits a Cauchy surface: initial data determine the future everywhere (predictability), and closed timelike curves are absent.
 2. **What is built on it.** The initial-value formulation of general relativity; quantum field theory on globally hyperbolic spacetimes; the very notion of a "prediction" in gravitational physics.
 3. **Confirmed vs postulated.** Confirmed: all observed spacetime is consistent with global hyperbolicity. Postulated: that it holds universally — naked singularities (weak cosmic censorship) and CTCs are excluded by conjecture, not proof.
-4. **Alternatives.** CTC physics (Deutsch's self-consistency condition); firewall/fuzzball structures at horizons; non-globally-hyperbolic completions of black-hole interiors.
+4. **Alternatives.** CTC physics (Deutsch's self-consistency condition (Deutsch, 1991, PRD)); firewall/fuzzball structures at horizons; non-globally-hyperbolic completions of black-hole interiors.
 5. **Falsifiability.** Observation of a naked singularity or of a CTC-region signature (e.g., through gravitational-wave or lensing evidence) would falsify the universal form.
 6. **Open questions.** **Q38.1**  Is weak cosmic censorship a theorem? What replaces predictability where global hyperbolicity fails?
 
@@ -880,7 +880,7 @@ The exclusion principle is searched for directly in the VIP and VIP-2 experiment
 
 #### 45.6 Quantum thermodynamics of single-electron devices
 
-The thermodynamic limits of computation (Chapter 14) are now directly measurable at the single-particle level. Landauer erasure has been demonstrated in single colloidal particles in optical traps (Bérut et al., 2012) at the $k_B T \ln 2$ scale; mesoscopic electron systems extend the measurement to the quantum regime — single-electron boxes, quantum dots, and superconducting circuits where work, heat, and entropy production are measured along individual quantum trajectories. Fluctuation theorems (Jarzynski, Crooks) have been verified in driven two-level systems and single-electron pumps. The frontier (Q17.1, Q17.2) is whether the Landauer bound is attainable or beatable under quantum coherence and strong coupling, and what the true heat-dissipation limit of a quantum many-electron device is — questions with direct engineering consequence for the error-correction refrigeration of Chapter 16.4.
+The thermodynamic limits of computation (Chapter 14; Nielsen & Chuang, 2000) are now directly measurable at the single-particle level. Landauer erasure has been demonstrated in single colloidal particles in optical traps (Bérut et al., 2012) at the $k_B T \ln 2$ scale; mesoscopic electron systems extend the measurement to the quantum regime — single-electron boxes, quantum dots, and superconducting circuits where work, heat, and entropy production are measured along individual quantum trajectories. Fluctuation theorems (Jarzynski, Crooks) have been verified in driven two-level systems and single-electron pumps. The frontier (Q17.1, Q17.2) is whether the Landauer bound is attainable or beatable under quantum coherence and strong coupling, and what the true heat-dissipation limit of a quantum many-electron device is — questions with direct engineering consequence for the error-correction refrigeration of Chapter 16.4.
 
 #### 45.7 Entropy production in strongly correlated systems
 
@@ -1140,12 +1140,16 @@ The 42 verified entries (all Crossref exact-DOI or arXiv live-verified; evidence
 40. Hawking, S. W. (1974). Black hole explosions? *Nature* 248(5443), 30–31. doi:10.1038/248030a0
 41. Lieb, E. H., & Thirring, W. E. (1975). Bound for the kinetic energy of fermions which proves the stability of matter. *Phys. Rev. Lett.* 35(11), 687–689. doi:10.1103/PhysRevLett.35.687
 42. Vladimirov, V. S., & Volovich, I. V. (1989). p-adic quantum mechanics. *Comm. Math. Phys.* 123(4), 659–676. doi:10.1007/BF01218590
+43. Bérut, A., Arakelyan, A., Petrosyan, A., Ciliberto, S., Dillenschneider, R., & Lutz, E. (2012). Experimental verification of Landauer's principle linking information and thermodynamics. *Nature* 483, 187–189. doi:10.1038/nature10872
+44. Jarzynski, C. (1997). Nonequilibrium equality for free energy differences. *Phys. Rev. Lett.* 78(14), 2690–2693. doi:10.1103/PhysRevLett.78.2690
+45. Crooks, G. E. (1999). Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences. *Phys. Rev. E* 60(3), 2721–2726. doi:10.1103/PhysRevE.60.2721
+46. Deutsch, D. (1991). Quantum mechanics near closed timelike lines. *Phys. Rev. D* 44(10), 3197–3215. doi:10.1103/PhysRevD.44.3197
 
 ## Index
 
 **Subject index.** Anyons (10.1, 25.2); braid group (10.3); Church–Turing thesis (30); ergodicity (37); falsifiability map (§IV.3 of the v0.1 record; Part VII); Fermi liquid (2.3); fractional quantum Hall effect (10.2); Hilbert space (4, 5); holography (27); Landauer (14); Lorentz invariance (40); measurement (18); microcausality (32); Ostrowski (19); path integral (35); quasiparticles (2.2, 25); spin-statistics (9); ultrametric (19.2, 21); unitarity (34); vacuum (24).
 
-**Author index.** Bekenstein; Bell; Bennett; Dirac; Dragovich; Feynman; Halperin; Kosterlitz–Thouless; Landauer; Laughlin; Leinaas–Myrheim; Maldacena; Mermin–Wagner; Nakamura; Nielsen–Chuang; Ostrowski; Pauli; Srednicki; Susskind; 't Hooft; Tsui–Stormer–Gossard; Unruh; von Neumann; Wigner; Wilczek.
+**Author index.** Bekenstein; Bell; Bennett; Bérut; Born; Crooks; Deutsch, D.; Deutsch, J. M.; Dirac; Dragovich; Feynman; Halperin; Jarzynski; Kosterlitz–Thouless; Landauer; Laughlin; Leinaas–Myrheim; Maldacena; Mermin–Wagner; Nakamura; Nielsen–Chuang; Ostrowski; Pauli; Srednicki; Susskind; 't Hooft; Tsui–Stormer–Gossard; Unruh; von Neumann; Wigner; Wilczek.
 
 
 

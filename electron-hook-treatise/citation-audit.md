@@ -53,3 +53,16 @@ Audit of all 30 bibliographic entries against live authoritative sources, 2026-0
 ## Addendum — v0.2.2 bibliography extension (2026-08-17)
 
 The Full Edition's Dependency audit surfaced 12 additional works cited in-text but absent from the 30-entry bibliography (all real, correctly attributed — scope-completeness gap for the expanded edition). All 12 live-verified via exact-DOI Crossref lookup (evidence: `artifacts/external-search/reference-verification-v022.json`): Born 1926; Kolmogorov 1933; Church 1936; Turing 1937; Millikan 1913; Sommerfeld 1928; Shannon 1948; Gleason 1957; Dyson–Lenard 1967; Hawking 1974; Lieb–Thirring 1975; Vladimirov–Volovich 1989. Total: **42/42 verified**.
+
+
+## Addendum — v0.3.1 late-findings remediation (2026-08-17)
+
+The late-arriving thin-chapter dependency audit (delegation z6il0VG6q2vSGX_JcG7mP) surfaced 3 HARD citation-layer findings, all remediated in v0.3.1 with live-verified entries (evidence: Crossref exact-DOI, all 200 OK):
+
+1. **Bérut et al. 2012** (§14.3, §45.6) — Landauer-erasure experiment — entry added (10.1038/nature10872).
+2. **Jarzynski 1997** and **Crooks 1999** (§15.2, §45.6) — fluctuation-theorem equalities — entries added (10.1103/PhysRevLett.78.2690; 10.1103/PhysRevE.60.2721).
+3. **D. Deutsch 1991** (§38.4 CTC self-consistency) — mis-anchored to J. M. Deutsch's ETH paper — entry added (10.1103/PhysRevD.44.3197) and §38.4 disambiguated; author index now distinguishes Deutsch, D. from Deutsch, J. M.
+
+Additionally, the 10 reverse-orphan entries (Leinaas–Myrheim, Wilczek, Arovas–Schrieffer–Wilczek, Halperin, Bell, Srednicki, Susskind, 't Hooft, Nielsen–Chuang, BCS) were anchored in-body with author-year pointers at their contextual locations (Ch 10, 32, 37, 27.5, 14, 25.4).
+
+Total: **46/46 verified**.
