@@ -1,6 +1,6 @@
 # Archimedeanizing the Ultrametric: A Mathematical Framework for Graph-Based Knowledge Interfaces
 
-**Authors:** QNFO Research Collective  
+**Authors:** QNFO  
 **Target Venue:** *Journal of the Association for Information Science and Technology* (JASIST)  
 **Status:** Draft manuscript, compiled 2026-06-30  
 **Keywords:** ultrametric spaces, knowledge graphs, exploratory search, information architecture, interface design, Ostrowski's theorem, Berkovich spaces, serendipity engineering

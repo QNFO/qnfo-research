@@ -1,7 +1,7 @@
 # Phase 2 Literature Search & Triage — JPCUB
 
 **Date:** 2026-07-27 | **Phase:** 2 | **Status:** Complete
-**Author:** QNFO Research Collective
+**Author:** QNFO
 
 ---
 

@@ -1,7 +1,7 @@
 # Number-Theoretic Ultrametric Foundations
 ## A Unified p-adic Framework for Error-Correcting Code Classification
 
-**Author:** QNFO Research Collective — QWAV / QNFO
+**Author:** QNFO — QWAV / QNFO
 **Date:** 2026-07-04
 **Version:** 1.0.0
 **License:** QNFO Unified License Agreement (QNFO-ULA)

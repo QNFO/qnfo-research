@@ -1,7 +1,7 @@
 # Shor's Algorithm Policy Brief v2.0
 ## Evidence-Graded Assessment of the Cryptographically-Relevant Quantum Computer Threat (2026–2036)
 
-**Author:** QNFO Research Collective (CFPE Project)
+**Author:** QNFO (CFPE Project)
 **Date:** 2026-07-15
 **Version:** 2.0
 **Supersedes:** Shor's Algorithm Policy Brief v1.0 (2026-07-08)
@@ -208,8 +208,8 @@ All claims in this brief carry evidence grades per the CFPE Phase 0.3 methodolog
 3. CFPE Phase 1.1: Fault-Tree Decomposition — Era 1 (2026-07-15)
 4. CFPE Phase 1.4: Sensitivity Expansion (2026-07-15)
 5. CFPE Phase 2.2: Sub-Scenario Enumeration (2026-07-15)
-6. "The Qubit Delusion" — QNFO Research Collective (2026-07-08)
-7. "The Physics of Computation: Fundamental Limits" — QNFO Research Collective (2026-07-08)
+6. "The Qubit Delusion" — QNFO (2026-07-08)
+7. "The Physics of Computation: Fundamental Limits" — QNFO (2026-07-08)
 8. NIST PQC Standardization — FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), FIPS 205 (SLH-DSA) — 2024
 9. Gidney & Ekerå (2021) — "How to factor 2048 bit RSA integers in 8 hours using 20M noisy qubits" — Quantum 5, 433
 10. CFPE QNFO 100-Year Paradigm Forecast (2026-07-05)

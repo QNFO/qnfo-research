@@ -1,6 +1,6 @@
 # The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions for Honest Computational Benchmarking
 
-**Author:** QNFO Research Collective | **Date:** 2026-07-27 | **Status:** Draft — Phase 5
+**Author:** QNFO | **Date:** 2026-07-27 | **Status:** Draft — Phase 5
 **Series:** Joules-per-Compute Universal Benchmark (JPCUB) — Paper P0
 **License:** QNFO Unified License Agreement (QNFO-ULA)
 
@@ -332,7 +332,7 @@ See `artifacts/jpcub-bibliography.bib` for the complete 140-entry bibliography s
 
 **Funding:** This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
 
-**Conflicts of Interest:** The authors declare no competing financial interests. The QNFO Research Collective advocates for honest computational benchmarking as a public good. This paper is published under the QNFO Unified License Agreement to ensure open access.
+**Conflicts of Interest:** The authors declare no competing financial interests. The QNFO advocates for honest computational benchmarking as a public good. This paper is published under the QNFO Unified License Agreement to ensure open access.
 
 **Data Availability:** All search queries, literature data, classification results, and BibTeX entries are available in the JPCUB GitHub repository at `github.com/rwnq8/joules-per-compute-benchmark` and archived on Cloudflare R2 at `qnfo-releases/releases/2026/07/joules-per-compute-benchmark/`.
 

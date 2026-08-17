@@ -230,7 +230,7 @@
                       "properties":  {
                                          "slug":  "paper-the-qubit-delusion",
                                          "doi":  "10.5281/zenodo.21254143",
-                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "authors":  "[\"QNFO\"]",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -243,7 +243,7 @@
                       "properties":  {
                                          "slug":  "paper-beyond-the-qubit",
                                          "doi":  "10.5281/zenodo.21254901",
-                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "authors":  "[\"QNFO\"]",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -256,7 +256,7 @@
                       "properties":  {
                                          "slug":  "paper-physics-of-computation",
                                          "doi":  "10.5281/zenodo.21255013",
-                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "authors":  "[\"QNFO\"]",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -269,7 +269,7 @@
                       "properties":  {
                                          "slug":  "paper-problem-substrate-mapping",
                                          "doi":  "10.5281/zenodo.21255346",
-                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "authors":  "[\"QNFO\"]",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -282,7 +282,7 @@
                       "properties":  {
                                          "slug":  "paper-institutional-reform",
                                          "doi":  "10.5281/zenodo.21299211",
-                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "authors":  "[\"QNFO\"]",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -295,7 +295,7 @@
                       "properties":  {
                                          "slug":  "paper-manifesto-honest-computation",
                                          "doi":  "10.5281/zenodo.21299278",
-                                         "authors":  "[\"QNFO Research Collective\"]",
+                                         "authors":  "[\"QNFO\"]",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -308,7 +308,7 @@
                       "properties":  {
                                          "slug":  "psii-quantum-coherence",
                                          "doi":  "10.5281/zenodo.21304627",
-                                         "authors":  "QNFO Research Collective",
+                                         "authors":  "QNFO",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -321,7 +321,7 @@
                       "properties":  {
                                          "slug":  "cryptochrome-magnetoreception",
                                          "doi":  "10.5281/zenodo.21304629",
-                                         "authors":  "QNFO Research Collective",
+                                         "authors":  "QNFO",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"
@@ -334,7 +334,7 @@
                       "properties":  {
                                          "slug":  "spin-glasses-complexity",
                                          "doi":  "10.5281/zenodo.21304631",
-                                         "authors":  "QNFO Research Collective",
+                                         "authors":  "QNFO",
                                          "source":  "living-paper-d1",
                                          "distribution_status":  "draft",
                                          "status":  "published"

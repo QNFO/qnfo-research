@@ -1,7 +1,7 @@
 # Silent-Radix Cryptography:
 ## Exploiting the Base Ambiguity of Positional Notation as a Cryptographic Primitive
 
-**Author:** QNFO Research Collective | **Date:** 2026-06-29
+**Author:** QNFO | **Date:** 2026-06-29
 **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
 
 ---

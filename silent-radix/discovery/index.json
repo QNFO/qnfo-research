@@ -1202,7 +1202,7 @@
       "r2_release": "qnfo/releases/2026/06/ULTRAMETRIC-FOUNDATION-THESIS-v1.0-draft.pdf",
       "version": "1.0.0",
       "date": "2026-06-27",
-      "author": "QNFO Research Collective",
+      "author": "QNFO",
       "abstract": "Positional notation is inherently an ultrametric tree of nested cycles. The Archimedean line is a derived abstraction. Recovering the native ultrametric resolves cascading errors across number, time, knowledge, and computation.",
       "tags": [
         "ultrametric",

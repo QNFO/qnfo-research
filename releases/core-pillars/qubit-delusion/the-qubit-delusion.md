@@ -1,6 +1,6 @@
 ---
 title: "The Qubit Delusion: How Particle Ontology Sabotaged Quantum Computing"
-author: "QNFO Research Collective"
+author: "Rowan Brad Quni-Gudzinas"
 date: 2026-07-08
 abstract: |
   The quantum computing industry has absorbed approximately $35 billion in global investment

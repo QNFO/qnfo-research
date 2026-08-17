@@ -1,7 +1,7 @@
 # The Ultrametric Foundation
 ## A Unified Thesis on Number, Time, Knowledge, and Computation
 
-**Author:** QNFO Research Collective
+**Author:** QNFO
 **Date:** 2026-06-27
 **Version:** 1.0-draft
 **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/

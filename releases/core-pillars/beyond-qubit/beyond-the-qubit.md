@@ -1,6 +1,6 @@
 ---
 title: "Beyond the Qubit: Constructive Paradigms for Post-Particle Computation"
-author: "QNFO Research Collective"
+author: "Rowan Brad Quni-Gudzinas"
 date: 2026-07-08
 series: "The Qubit Delusion --- Phase II"
 abstract: |

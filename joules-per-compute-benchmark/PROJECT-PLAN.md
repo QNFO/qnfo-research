@@ -1,6 +1,6 @@
 # PROJECT-PLAN: Joules-per-Compute Universal Benchmark (JPCUB)
 
-**Author:** QNFO Research Collective | **Date:** 2026-07-27 | **Status:** Phase 0 — Scaffold
+**Author:** QNFO | **Date:** 2026-07-27 | **Status:** Phase 0 — Scaffold
 **License:** QNFO Unified License Agreement (QNFO-ULA)
 **Parent Series:** The Qubit Delusion (Phase VI → Generalization)
 **Preceded By:** BQNN v2 — DOI 10.5281/zenodo.21623218
@@ -172,4 +172,4 @@ This program builds directly on the QNFO "Qubit Delusion" series:
 
 | Version | Date | Author | Changes |
 |:--------|:-----|:-------|:--------|
-| v0.1-phase0 | 2026-07-27 | QNFO Research Collective | Phase 0 scaffold: charter, WBS, core claim lock, deliverable registry, risk register |
+| v0.1-phase0 | 2026-07-27 | QNFO | Phase 0 scaffold: charter, WBS, core claim lock, deliverable registry, risk register |

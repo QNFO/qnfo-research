@@ -1,7 +1,7 @@
 # EXTENDING THE ULTRAMETRIC FRAMEWORK
 ## Five Novel Theses on Neural Architecture, Quantum Scale, Topological Data, Self-Referential Computation, and Biological Development
 
-**Author:** QNFO Research Collective  
+**Author:** QNFO  
 **Date:** 2026-06-29  
 **Status:** Draft v1.0 — Deep-Dive Research Extension  
 **License:** CC-BY-4.0  

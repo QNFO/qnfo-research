@@ -1,7 +1,7 @@
 # Phase 1 Due Diligence Report — Joules-per-Compute Universal Benchmark (JPCUB)
 
 **Date:** 2026-07-27 | **Phase:** 1 | **Status:** Complete
-**Author:** QNFO Research Collective
+**Author:** QNFO
 **Disclosures:** CONFIRMATION-BIAS-RISK, CROSS-DOMAIN-CONSILIENCE-QUALIFYING
 
 ---
