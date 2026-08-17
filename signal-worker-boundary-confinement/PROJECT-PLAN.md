@@ -4,7 +4,7 @@
 **Slug:** signal-worker-boundary-confinement
 **WBS:** QNFO.INM.001 (parent: QNFO.INM — Infomatics)
 **Repo:** QNFO/qnfo-research · **Branch:** res/paper/signal-worker-boundary-confinement
-**Date:** 2026-08-16 · **Status:** Published — v0.1 10.5281/zenodo.21931225 → v0.2 10.5281/zenodo.21969297 (concept 10.5281/zenodo.21931224); P8 complete.
+**Date:** 2026-08-17 · **Status:** Published v0.2 (10.5281/zenodo.21969297, concept 10.5281/zenodo.21931224); P8 complete; **v0.3 DRAFT in progress (2026-08-17)** — NHSE trichotomy engagement [16,17], KIF-60 pre-registration P1–P3, zero-in-text citation fixes [6,13,15].
 **Origin:** CMD RED TEAM SUB 2026-08-14 — Signal-Worker / topological-conductors analysis produced 5 HARD findings (Accuracy PASS; Completeness 5 HARD; Dependency: LCI acronym collision). This project formalizes the corrected position.
 
 ---
@@ -35,7 +35,7 @@ See `artifacts/core-claim.md`. In brief:
 ## 4. Phase Plan (all complete)
 
 - **Phase 0:** WBS resolve (QNFO.INM.001) → branch → PROJECT-PLAN.md → core claim locked → commit/tag/push → registry INSERT. **DONE (2026-08-14)**
-- **Phase 1:** Due diligence — full-corpus sweep per DUE-DILIGENCE-DEPTH-1. **DONE (2026-08-14; `artifacts/deep-due-diligence.md`)**
+- **Phase 1:** Due diligence — full-corpus sweep per DUE-DILIGENCE-DEPTH-1. **DONE (2026-08-14; `artifacts/deep-due-diligence.md`)** + post-v0.2 re-sweep 2026-08-16 (commit 1e38ea7) + **Phase 1b KIF-29/KIF-60 gates DONE 2026-08-16** (`artifacts/consilience-gate.md`, `artifacts/bayesian-evidential-weight.md`, commit 03ac213).
 - **Phase 2–4:** Drafting (all 5 red-team HARD findings applied), verification (spin-statistics, Cooper pairs, NHSE, register, citation audit), builds. **DONE (v0.1, 2026-08-14)**
 - **Phase 5:** Publication. **DONE** — v0.1 10.5281/zenodo.21931225 (2026-08-14); v0.2 10.5281/zenodo.21969297 (2026-08-16: classical-EM companion §3.6 + full source set incl. references.bib + citation-audit.md).
 - **Phase 8:** Distribution. **DONE (2026-08-16)** — D1 living-paper (v0.2), R2 mirror `qnfo-releases/2026/08/signal-worker-boundary-confinement/` (9 objects), KG node distributed + BELONGS_TO `prog-qnfo-inm`, papers.qnfo.org live.
@@ -44,7 +44,7 @@ See `artifacts/core-claim.md`. In brief:
 
 - Zenodo metadata `version` = None on 21969297 (records-API PUT 500s on this deployment; kaizen candidate LEGACY-PUT-VERSION-OMISSION-1).
 - README/PROJECT-PLAN status docs — fixed in repo 2026-08-16; the v0.2 deposit carries the pre-fix "Phase 0" text (immutable).
-- Refs [6]/[13]/[15] bibliography-only with zero in-text citations — pre-existing v0.1 structure, not a fold-in regression.
+- Refs [6]/[13]/[15] bibliography-only with zero in-text citations — pre-existing v0.1 structure, not a fold-in regression. **FIXED in v0.3 draft (2026-08-17)** — contextual citations added (§3.3, §5).
 
 ## 5. Deliverables
 
