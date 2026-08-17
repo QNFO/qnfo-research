@@ -66,3 +66,8 @@ The late-arriving thin-chapter dependency audit (delegation z6il0VG6q2vSGX_JcG7m
 Additionally, the 10 reverse-orphan entries (Leinaas–Myrheim, Wilczek, Arovas–Schrieffer–Wilczek, Halperin, Bell, Srednicki, Susskind, 't Hooft, Nielsen–Chuang, BCS) were anchored in-body with author-year pointers at their contextual locations (Ch 10, 32, 37, 27.5, 14, 25.4).
 
 Total: **46/46 verified**.
+
+
+## Addendum — v0.3.2 external-validation qualification (2026-08-17)
+
+The external-validation deep-dive (arXiv + OpenAlex + QNFO corpus, evidence: `artifacts/external-search/`) found one external tension requiring a citation: Taupin & Paschen (2022), *Crystals* 12(2), 251 — heavy-fermion strange metals scatter much weaker than the Planckian rate. Entry added (10.3390/cryst12020251, live-verified); Ch 27.4 and 45.7 now qualify the Planckian language accordingly. Total: **47/47 verified**.

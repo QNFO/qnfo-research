@@ -1,0 +1,302 @@
+{
+ "spin-statistics theorem": {
+  "count_since_2023": 13645,
+  "top": [
+   {
+    "year": 2026,
+    "title": "Entanglement as Topology: Hopf Linking as the Geometric Origin of Quantum Correl",
+    "cited": 875
+   },
+   {
+    "year": 2023,
+    "title": "Quantum repeaters: From quantum networks to the quantum internet",
+    "cited": 525
+   },
+   {
+    "year": 2023,
+    "title": "Lectures on Quantum Mechanics",
+    "cited": 401
+   },
+   {
+    "year": 2024,
+    "title": "The Spin-Statistics Theorem for Topological Quantum Field Theories",
+    "cited": 2
+   },
+   {
+    "year": 2024,
+    "title": "Current Fluctuations in Open Quantum Systems: Bridging the Gap Between Quantum C",
+    "cited": 134
+   }
+  ]
+ },
+ "anyons": {
+  "count_since_2023": 1308,
+  "top": [
+   {
+    "year": 2023,
+    "title": "Spin-statistics relation and Abelian braiding phase for anyons in the fractional",
+    "cited": 11
+   },
+   {
+    "year": 2023,
+    "title": "Partitioning of diluted anyons reveals their braiding statistics",
+    "cited": 39
+   },
+   {
+    "year": 2024,
+    "title": "Fractional quantum anomalous Hall effect in multilayer graphene",
+    "cited": 493
+   },
+   {
+    "year": 2025,
+    "title": "Anyon braiding and telegraph noise in a graphene interferometer",
+    "cited": 30
+   },
+   {
+    "year": 2023,
+    "title": "Anyonic interference and braiding phase in a Mach-Zehnder interferometer",
+    "cited": 52
+   }
+  ]
+ },
+ "p-adic quantum mechanics": {
+  "count_since_2023": 145,
+  "top": [
+   {
+    "year": 2023,
+    "title": "Trace class operators and states in <i>p</i>-adic quantum mechanics",
+    "cited": 8
+   },
+   {
+    "year": 2023,
+    "title": "Free Choice in Quantum Theory: A p-adic View",
+    "cited": 7
+   },
+   {
+    "year": 2023,
+    "title": "Quantum Communication Systems: Vision, Protocols, Applications, and Challenges",
+    "cited": 77
+   },
+   {
+    "year": 2023,
+    "title": "Quantization of events in the event-universe and the emergence of quantum mechan",
+    "cited": 4
+   },
+   {
+    "year": 2024,
+    "title": "Invariant measures on p-adic Lie groups: the p-adic quaternion algebra and the H",
+    "cited": 4
+   }
+  ]
+ },
+ "ultrametric physics": {
+  "count_since_2023": 479,
+  "top": [
+   {
+    "year": 2024,
+    "title": "Entanglement and Replica Symmetry Breaking in a Driven-Dissipative Quantum Spin ",
+    "cited": 41
+   },
+   {
+    "year": 2024,
+    "title": "Similarity between a many-body quantum avalanche model and the ultrametric rando",
+    "cited": 15
+   },
+   {
+    "year": 2023,
+    "title": "Quantum Communication Systems: Vision, Protocols, Applications, and Challenges",
+    "cited": 77
+   },
+   {
+    "year": 2023,
+    "title": "Quantization of events in the event-universe and the emergence of quantum mechan",
+    "cited": 4
+   },
+   {
+    "year": 2025,
+    "title": "Observation of ultrametricity in photonic spin glasses",
+    "cited": 3
+   }
+  ]
+ },
+ "Landauer erasure": {
+  "count_since_2023": 953,
+  "top": [
+   {
+    "year": 2023,
+    "title": "Landauer Versus Nernst: What is the True Cost of Cooling a Quantum System?",
+    "cited": 101
+   },
+   {
+    "year": 2023,
+    "title": "Cooperative quantum information erasure",
+    "cited": 14
+   },
+   {
+    "year": 2025,
+    "title": "Landauer principle and thermodynamics of computation",
+    "cited": 17
+   },
+   {
+    "year": 2023,
+    "title": "Finite-time Landauer principle beyond weak coupling",
+    "cited": 26
+   },
+   {
+    "year": 2025,
+    "title": "Thermodynamic cost of recurrent erasure",
+    "cited": 5
+   }
+  ]
+ },
+ "many-body localization": {
+  "count_since_2023": 4478,
+  "top": [
+   {
+    "year": 2024,
+    "title": "Ergodic inclusions in many-body localized systems",
+    "cited": 10
+   },
+   {
+    "year": 2023,
+    "title": "Ergodicity-to-localization transition on random regular graphs with large connec",
+    "cited": 18
+   },
+   {
+    "year": 2024,
+    "title": "Many-body localization in the age of classical computing<sup>*</sup>",
+    "cited": 132
+   },
+   {
+    "year": 2023,
+    "title": "From ergodicity to many-body localization in a one-dimensional interacting non-H",
+    "cited": 14
+   },
+   {
+    "year": 2024,
+    "title": "Complexity measure diagnostics of ergodic to many-body localization transition",
+    "cited": 3
+   }
+  ]
+ },
+ "holographic strange metal": {
+  "count_since_2023": 140,
+  "top": [
+   {
+    "year": 2023,
+    "title": "Inability of linear axion holographic Gubser-Rocha model to capture all the tran",
+    "cited": 17
+   },
+   {
+    "year": 2023,
+    "title": "<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>T</mml:mi></mml",
+    "cited": 19
+   },
+   {
+    "year": 2023,
+    "title": "Shot noise in a strange metal",
+    "cited": 49
+   },
+   {
+    "year": 2023,
+    "title": "Reconciling scaling of the optical conductivity of cuprate superconductors with ",
+    "cited": 53
+   },
+   {
+    "year": 2025,
+    "title": "Strange Metals and Planckian Transport in a Gapless Phase from Spatially Random ",
+    "cited": 7
+   }
+  ]
+ },
+ "muon g-2": {
+  "count_since_2023": 5095,
+  "top": [
+   {
+    "year": 2023,
+    "title": "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.20 ppm",
+    "cited": 382
+   },
+   {
+    "year": 2025,
+    "title": "Measurement of the positive muon anomalous magnetic moment to 127 ppb",
+    "cited": 53
+   },
+   {
+    "year": 2024,
+    "title": "Detailed report on the measurement of the positive muon anomalous magnetic momen",
+    "cited": 54
+   },
+   {
+    "year": 2023,
+    "title": "Puzzles in the hadronic contributions to the muon anomalous magnetic moment",
+    "cited": 23
+   },
+   {
+    "year": 2025,
+    "title": "The anomalous magnetic moment of the muon in the Standard Model: an update",
+    "cited": 118
+   }
+  ]
+ },
+ "electron electric dipole moment": {
+  "count_since_2023": 373,
+  "top": [
+   {
+    "year": 2024,
+    "title": "Electric dipole moments in a leptoquark scenario for the B-physics anomalies",
+    "cited": 31
+   },
+   {
+    "year": 2023,
+    "title": "Electric dipole moment constraints on CP-violating heavy-quark Yukawas at next-t",
+    "cited": 20
+   },
+   {
+    "year": 2025,
+    "title": "Prospects for measuring the electron's electric dipole moment with polyatomic mo",
+    "cited": 9
+   },
+   {
+    "year": 2023,
+    "title": "Probing new physics in the vector-like lepton model by lepton electric dipole mo",
+    "cited": 12
+   },
+   {
+    "year": 2025,
+    "title": "The Electric Dipole Moment of the electron in the decoupling limit of the aligne",
+    "cited": 5
+   }
+  ]
+ },
+ "quantum foundations Hilbert space": {
+  "count_since_2023": 2955,
+  "top": [
+   {
+    "year": 2024,
+    "title": "<i>Colloquium</i> : Quantum batteries",
+    "cited": 238
+   },
+   {
+    "year": 2025,
+    "title": "Quantum Computing: Foundations, Architecture and Applications",
+    "cited": 33
+   },
+   {
+    "year": 2023,
+    "title": "Positive Maps and Entanglement in Real Hilbert Spaces",
+    "cited": 23
+   },
+   {
+    "year": 2023,
+    "title": "Gauge theories on quantum spaces",
+    "cited": 31
+   },
+   {
+    "year": 2023,
+    "title": "<i>Colloquium</i>: Incompatible measurements in quantum information science",
+    "cited": 111
+   }
+  ]
+ }
+}

@@ -3,14 +3,14 @@ title: 'A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics
 author: 'Rowan Brad Quni-Gudzinas'
 date: '2026-08-16'
 license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: '10.5281/zenodo.21972819'
+doi: '10.5281/zenodo.21975507'
 status: 'published'
 ---
 
 **Subtitle:** The Electron as a Hook — Full Edition (nine parts, fifty-one chapters)
 **Author:** Rowan Brad Quni-Gudzinas | QNFO Research Foundation
 **Contact:** rowan.quni@qnfo.org | **ORCID:** [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**Version:** v0.3.1 | **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction), v0.2.2 (bibliography completion), v0.3 (depth expansion)
+**Version:** v0.3.2 | **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction), v0.2.2 (bibliography completion), v0.3 (depth expansion), v0.3.1 (citation remediation)
 
 ## Abstract
 
@@ -671,7 +671,7 @@ The radial direction in the bulk maps to energy scale on the boundary: the renor
 
 #### 27.4 Applications to strongly correlated electrons
 
-Holographic strange metals reproduce linear-in-$T$ resistivity and Planckian scattering — the very regime where quasiparticles fail (Chapter 2.3). The Sachdev-Ye-Kitaev model, a solvable holographic toy model, exhibits exactly the Planckian transport and maximal chaos of the strange-metal phenomenology. Holography is currently the only framework producing Planckian transport from a solvable model, which is why the holographic dictionary is the leading theoretical tool for the strongly correlated regime — even before any claim about the ultimate nature of spacetime is granted.
+Holographic strange metals reproduce linear-in-$T$ resistivity and Planckian scattering — the very regime where quasiparticles fail (Chapter 2.3); the Planckian interpretation of real strange metals is, however, contested for heavy-fermion compounds, where the measured scattering is much weaker than the Planckian rate (Taupin & Paschen, 2022). The Sachdev-Ye-Kitaev model, a solvable holographic toy model, exhibits exactly the Planckian transport and maximal chaos of the strange-metal phenomenology. Holography is currently the only framework producing Planckian transport from a solvable model, which is why the holographic dictionary is the leading theoretical tool for the strongly correlated regime — even before any claim about the ultimate nature of spacetime is granted.
 
 #### 27.5 Holography is not simply "2D applies to 3D"
 
@@ -884,7 +884,7 @@ The thermodynamic limits of computation (Chapter 14; Nielsen & Chuang, 2000) are
 
 #### 45.7 Entropy production in strongly correlated systems
 
-Strange metals, cuprates, and heavy-fermion compounds violate the quasiparticle picture (Chapter 2.3), and their thermodynamics is correspondingly anomalous: linear-in-$T$ resistivity, Planckian scattering rates of order $k_B T/\hbar$, and entropy production that does not fit the Fermi-liquid template. Many-body localized systems and quantum-scarred models provide the opposite laboratory: systems that fail to thermalize at all (Chapter 37). Both extremes test the ergodicity assumption and the fluctuation-theorem framework in regimes where the standard ensembles fail. The experimental question is not whether ergodicity breaks (it does) but where the boundary of the thermalizing regime lies (Q37.1) — and whether thermodynamics can be rebuilt on the weaker foundation of trajectory-level fluctuation theorems (Q37.2).
+Strange metals, cuprates, and heavy-fermion compounds violate the quasiparticle picture (Chapter 2.3), and their thermodynamics is correspondingly anomalous: linear-in-$T$ resistivity, scattering rates of order $k_B T/\hbar$ (Planckian), and entropy production that does not fit the Fermi-liquid template — noting that for heavy-fermion strange metals the measured scattering is much weaker than the Planckian rate, so the linear resistivity must there have other origins (Taupin & Paschen, 2022). Many-body localized systems and quantum-scarred models provide the opposite laboratory: systems that fail to thermalize at all (Chapter 37). Both extremes test the ergodicity assumption and the fluctuation-theorem framework in regimes where the standard ensembles fail. The experimental question is not whether ergodicity breaks (it does) but where the boundary of the thermalizing regime lies (Q37.1) — and whether thermodynamics can be rebuilt on the weaker foundation of trajectory-level fluctuation theorems (Q37.2).
 
 #### 45.8 Engineered $p$-adic or adelic quantum models
 
@@ -1144,12 +1144,13 @@ The 42 verified entries (all Crossref exact-DOI or arXiv live-verified; evidence
 44. Jarzynski, C. (1997). Nonequilibrium equality for free energy differences. *Phys. Rev. Lett.* 78(14), 2690–2693. doi:10.1103/PhysRevLett.78.2690
 45. Crooks, G. E. (1999). Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences. *Phys. Rev. E* 60(3), 2721–2726. doi:10.1103/PhysRevE.60.2721
 46. Deutsch, D. (1991). Quantum mechanics near closed timelike lines. *Phys. Rev. D* 44(10), 3197–3215. doi:10.1103/PhysRevD.44.3197
+47. Taupin, M., & Paschen, S. (2022). Are heavy fermion strange metals Planckian? *Crystals* 12(2), 251. doi:10.3390/cryst12020251
 
 ## Index
 
 **Subject index.** Anyons (10.1, 25.2); braid group (10.3); Church–Turing thesis (30); ergodicity (37); falsifiability map (§IV.3 of the v0.1 record; Part VII); Fermi liquid (2.3); fractional quantum Hall effect (10.2); Hilbert space (4, 5); holography (27); Landauer (14); Lorentz invariance (40); measurement (18); microcausality (32); Ostrowski (19); path integral (35); quasiparticles (2.2, 25); spin-statistics (9); ultrametric (19.2, 21); unitarity (34); vacuum (24).
 
-**Author index.** Bekenstein; Bell; Bennett; Bérut; Born; Crooks; Deutsch, D.; Deutsch, J. M.; Dirac; Dragovich; Feynman; Halperin; Jarzynski; Kosterlitz–Thouless; Landauer; Laughlin; Leinaas–Myrheim; Maldacena; Mermin–Wagner; Nakamura; Nielsen–Chuang; Ostrowski; Pauli; Srednicki; Susskind; 't Hooft; Tsui–Stormer–Gossard; Unruh; von Neumann; Wigner; Wilczek.
+**Author index.** Bekenstein; Bell; Bennett; Bérut; Born; Crooks; Deutsch, D.; Deutsch, J. M.; Dirac; Dragovich; Feynman; Halperin; Jarzynski; Kosterlitz–Thouless; Landauer; Laughlin; Leinaas–Myrheim; Maldacena; Mermin–Wagner; Nakamura; Nielsen–Chuang; Ostrowski; Pauli; Srednicki; Susskind; Taupin–Paschen; 't Hooft; Tsui–Stormer–Gossard; Unruh; von Neumann; Wigner; Wilczek.
 
 
 
