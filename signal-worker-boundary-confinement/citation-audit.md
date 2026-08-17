@@ -31,6 +31,7 @@
 - **refs 16–17 added** (GAP-NHSE): NHSE consolidated review (Front. Phys. 18(5):53605, 2023) + experimental realization (arXiv:2505.03658, 2025). Both live-verified this session.
 - **zero-in-text citation gaps closed**: ref [6] (Anderson 1963 — gauge invariance/mass in the condensate) cited in §5; ref [13] (Superconductivity Quadrangle) cited in §3.3; ref [15] (Ab Initio Architectonics) cited in §5. Every reference now has ≥1 in-text citation.
 - Author-list note (P3.AUTHOR-GATE): the PUBLISHED Frontiers of Physics record lists 4 authors (Lin, Tai, Li, Lee); the arXiv v3 abstract lists 5 (incl. Yang). Bib entry follows the published record. Ref17 authors per arXiv listing.
+- **Verification note (red-team A-3, 2026-08-17):** `doi.org` HEAD on ref6 (`10.1103/PhysRev.130.439`) returns **403** from link.aps.org — this is APS rejecting HEAD requests with automation user-agents, **not** a broken citation. The Crossref record itself resolves 200 (row 6 above, verified this session). Audit method stays Crossref-first for APS-hosted DOIs; doi.org HEAD is advisory for that publisher.
 
 **Remediations in this file generation (red-team 2026-08-16, R1–R3):**
 - **R1** — ref11 now cites the CONCEPT DOI `10.5281/zenodo.18543167` (live check: GET /records/18543167 → conceptrecid=18543167; the version record is 18543168). The generator bug that wrote the version-record DOI is documented in the 2026-08-16 red-team report.

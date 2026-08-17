@@ -69,3 +69,8 @@ Every count above cites an evidence file in `artifacts/external-search/` (this c
 
 Phase 1b (KIF-29/KIF-60 gates) — see `artifacts/consilience-gate.md` + `artifacts/bayesian-evidential-weight.md` (this commit). Phase 1 COMPLETE for the v0.3 cycle.
 
+**Maintenance-pass notes (red-team SOFT closure, 2026-08-17):**
+- **C-2 FIXED (2026-08-17)** — `zenodo_doi` + `zenodo_url` backfilled for adaptive-thick-skin (10.5281/zenodo.17864278) and gauge-invariant (10.5281/zenodo.18466522); ownership re-verified live (creators: Quni-Gudzinas, Rowan Brad) before write per ZENODO-KG-OWNERSHIP-1; SELECT re-verification confirms both rows.
+- **C-3 noted** — D1's `meta.changes: 5` per single-row UPDATE is the tool's own counter, **not** an authoritative row-count; every fix in this table was re-verified with a SELECT (the trustworthy evidence). Do not report `changes:` counters as row counts.
+- **D-1 (open, publish-gated)** — Vectorize index holds v0.2 body_md; re-index of v0.3 content happens at publish-time D1 update (P6). Correct to defer.
+
