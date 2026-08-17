@@ -1,7 +1,7 @@
 # Citation Audit — Signal-Worker Boundary Confinement v0.3 (draft)
 
-**Date:** 2026-08-17 · **Method:** field-level live verification per P3.AUTHOR-GATE — every entry's author, title, and DOI re-checked against live Crossref (refs 1–6, 16) and the live Zenodo records API (refs 7–15) in the same session; ref17 verified against the arXiv API + Crossref search. Concept-DOI citations per ZENODO-CONCEPT-DOI-CITE-1.
-**Scope:** all 17 numbered references; the shipped `references.bib` file itself (not a reconstruction).
+**Date:** 2026-08-17 · **Method:** field-level live verification per P3.AUTHOR-GATE — every entry's author, title, and DOI re-checked against live Crossref (refs 1–6, 16, 18, 19) and the live Zenodo records API (refs 7–15) in the same session; ref17 verified against the arXiv API + Crossref search. Concept-DOI citations per ZENODO-CONCEPT-DOI-CITE-1.
+**Scope:** all 19 numbered references; the shipped `references.bib` file itself (not a reconstruction).
 
 | # | Key | Cited DOI | Source | HTTP | Author match | Title match | DOI/concept match | Verdict |
 |:--|:----|:----------|:-------|:-----|:-------------|:------------|:------------------|:--------|
