@@ -49,3 +49,7 @@ Audit of all 30 bibliographic entries against live authoritative sources, 2026-0
 - Version mismatches: none (no arXiv version-number citations).
 
 **Verdict: PASS — 30/30 verified, 0 corrections required.**
+
+## Addendum — v0.2.2 bibliography extension (2026-08-17)
+
+The Full Edition's Dependency audit surfaced 12 additional works cited in-text but absent from the 30-entry bibliography (all real, correctly attributed — scope-completeness gap for the expanded edition). All 12 live-verified via exact-DOI Crossref lookup (evidence: `artifacts/external-search/reference-verification-v022.json`): Born 1926; Kolmogorov 1933; Church 1936; Turing 1937; Millikan 1913; Sommerfeld 1928; Shannon 1948; Gleason 1957; Dyson–Lenard 1967; Hawking 1974; Lieb–Thirring 1975; Vladimirov–Volovich 1989. Total: **42/42 verified**.

@@ -1,0 +1,139 @@
+[
+ {
+  "key": "born1926",
+  "doi": "10.1007/BF01397477",
+  "title": "Zur Quantenmechanik der Stoßvorgänge",
+  "year": 1926,
+  "authors": [
+   "Born Max"
+  ],
+  "container": "Zeitschrift für Physik",
+  "needle_ok": true,
+  "source_note": "[title: Crossref legacy metadata carried U+FFFD; repaired to canonical orthography] [container: Crossref legacy metadata carried U+FFFD; repaired to canonical orthography]"
+ },
+ {
+  "key": "kolmogorov1933",
+  "doi": "10.1007/978-3-642-49888-6",
+  "title": "Grundbegriffe der Wahrscheinlichkeitsrechnung",
+  "year": 1933,
+  "authors": [
+   "Kolmogoroff A."
+  ],
+  "container": "?",
+  "needle_ok": true
+ },
+ {
+  "key": "church1936",
+  "doi": "10.2307/2371045",
+  "title": "An Unsolvable Problem of Elementary Number Theory",
+  "year": 1936,
+  "authors": [
+   "Church Alonzo"
+  ],
+  "container": "American Journal of Mathematics",
+  "needle_ok": true
+ },
+ {
+  "key": "turing1936",
+  "doi": "10.1112/plms/s2-42.1.230",
+  "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+  "year": 1937,
+  "authors": [
+   "Turing A. M."
+  ],
+  "container": "Proceedings of the London Mathematical Society",
+  "needle_ok": true
+ },
+ {
+  "key": "millikan1913",
+  "doi": "10.1103/PhysRev.2.109",
+  "title": "On the Elementary Electrical Charge and the Avogadro Constant",
+  "year": 1913,
+  "authors": [
+   "Millikan. R. A."
+  ],
+  "container": "Physical Review",
+  "needle_ok": true
+ },
+ {
+  "key": "sommerfeld1928",
+  "doi": "10.1007/BF01391052",
+  "title": "Zur Elektronentheorie der Metalle auf Grund der Fermischen Statistik",
+  "year": 1928,
+  "authors": [
+   "Sommerfeld A."
+  ],
+  "container": "Zeitschrift für Physik",
+  "needle_ok": true,
+  "source_note": "[container: Crossref legacy metadata carried U+FFFD; repaired to canonical orthography]"
+ },
+ {
+  "key": "shannon1948",
+  "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+  "title": "A Mathematical Theory of Communication",
+  "year": 1948,
+  "authors": [
+   "Shannon C. E."
+  ],
+  "container": "Bell System Technical Journal",
+  "needle_ok": true
+ },
+ {
+  "key": "gleason1957",
+  "doi": "10.1512/iumj.1957.6.56050",
+  "title": "Measures on the Closed Subspaces of a Hilbert Space",
+  "year": 1957,
+  "authors": [
+   "Gleason Andrew"
+  ],
+  "container": "Indiana University Mathematics Journal",
+  "needle_ok": true
+ },
+ {
+  "key": "dysonlenard1967",
+  "doi": "10.1063/1.1705209",
+  "title": "Stability of Matter. I",
+  "year": 1967,
+  "authors": [
+   "Dyson Freeman J.",
+   "Lenard A."
+  ],
+  "container": "Journal of Mathematical Physics",
+  "needle_ok": true
+ },
+ {
+  "key": "hawking1974",
+  "doi": "10.1038/248030a0",
+  "title": "Black hole explosions?",
+  "year": 1974,
+  "authors": [
+   "HAWKING S. W."
+  ],
+  "container": "Nature",
+  "needle_ok": true
+ },
+ {
+  "key": "liebthirring1975",
+  "doi": "10.1103/PhysRevLett.35.687",
+  "title": "Bound for the Kinetic Energy of Fermions Which Proves the Stability of Matter",
+  "year": 1975,
+  "authors": [
+   "Lieb Elliott H.",
+   "Thirring Walter E."
+  ],
+  "container": "Physical Review Letters",
+  "needle_ok": true
+ },
+ {
+  "key": "vladimirov1989",
+  "doi": "10.1007/BF01218590",
+  "title": "p-adic quantum mechanics",
+  "year": 1989,
+  "authors": [
+   "Vladimirov V. S.",
+   "Volovich I. V."
+  ],
+  "container": "Communications in Mathematical Physics",
+  "needle_ok": true
+ }
+]

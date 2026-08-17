@@ -3,14 +3,14 @@ title: 'A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics
 author: 'Rowan Brad Quni-Gudzinas'
 date: '2026-08-16'
 license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: '10.5281/zenodo.21970736'
+doi: '10.5281/zenodo.21971503'
 status: 'published'
 ---
 
 **Subtitle:** The Electron as a Hook — Full Edition (nine parts, fifty-one chapters)
 **Author:** Rowan Brad Quni-Gudzinas · QNFO Research Foundation
 **Contact:** rowan.quni@qnfo.org · **ORCID:** [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**Version:** v0.2.1 · **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition)
+**Version:** v0.2.2 · **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction)
 
 ## Abstract
 
@@ -489,7 +489,7 @@ The adele ring $\mathbb{A}_{\mathbb{Q}} = \mathbb{R} \times \prod'_p \mathbb{Q}_
 
 #### 19.4 Mathematics does not select $\mathbb{R}$
 
-The theorem's lesson for physics: nothing in the rational structure of counts and ratios — the home of frequencies, channel counts, and winding numbers (Research Note A, v0.1 record doi:10.5281/zenodo.21970454) — selects the Archimedean completion. Physics selects it operationally (Chapter 20); mathematics merely enumerates the options.
+The theorem's lesson for physics: nothing in the rational structure of counts and ratios — the home of frequency, channel counts, and winding numbers (Research Note A, v0.1 record doi:10.5281/zenodo.21970454) — selects the Archimedean completion. Physics selects it operationally (Chapter 20); mathematics merely enumerates the options.
 
 ### Chapter 20 — Why Physics Currently Selects Archimedean Structure
 
@@ -969,7 +969,7 @@ Pulling on the electron may open the entire foundation. The purpose of this trea
 
 ## Appendix D — Bibliography
 
-The 30 verified entries (all Crossref exact-DOI or arXiv live-verified; evidence in the v0.1 record's `citation-audit.md` and `artifacts/external-search/reference-verification.json`):
+The 42 verified entries (all Crossref exact-DOI or arXiv live-verified; evidence in `citation-audit.md` and `artifacts/external-search/`):
 
 1. Dirac, P. A. M. (1928). The quantum theory of the electron. *Proc. R. Soc. A* 117(778), 610–624. doi:10.1098/rspa.1928.0023
 2. von Neumann, J. (1932). *Mathematische Grundlagen der Quantenmechanik.* Springer. doi:10.1007/978-3-642-96048-2
@@ -1001,6 +1001,18 @@ The 30 verified entries (all Crossref exact-DOI or arXiv live-verified; evidence
 28. Dragovich, B., Khrennikov, A., Kozyrev, S. V., & Volovich, I. V. (2009). On $p$-adic mathematical physics. *p-Adic Numbers Ultrametric Anal. Appl.* 1(1), 1–17. doi:10.1134/S2070046609010014
 29. Bartolomei, H., et al. (2020). Fractional statistics in anyon collisions. *Science* 368(6487), 173–177. doi:10.1126/science.aaz5601
 30. Nakamura, J., Liang, S., Gardner, G. C., & Manfra, M. J. (2020). Direct observation of anyonic braiding statistics. *Nat. Phys.* 16, 931–936. doi:10.1038/s41567-020-1019-1
+31. Born, M. (1926). Zur Quantenmechanik der Stoßvorgänge. *Z. Phys.* 37(12), 863–867. doi:10.1007/BF01397477
+32. Kolmogorov, A. N. (1933). *Grundbegriffe der Wahrscheinlichkeitsrechnung.* Springer, Berlin. doi:10.1007/978-3-642-49888-6
+33. Church, A. (1936). An unsolvable problem of elementary number theory. *Amer. J. Math.* 58(2), 345–363. doi:10.2307/2371045
+34. Turing, A. M. (1937). On computable numbers, with an application to the Entscheidungsproblem. *Proc. London Math. Soc.* s2-42(1), 230–265 (received 1936). doi:10.1112/plms/s2-42.1.230
+35. Millikan, R. A. (1913). On the elementary electrical charge and the Avogadro constant. *Phys. Rev.* 2(2), 109–143. doi:10.1103/PhysRev.2.109
+36. Sommerfeld, A. (1928). Zur Elektronentheorie der Metalle auf Grund der Fermischen Statistik. *Z. Phys.* 47(1-2), 1–32. doi:10.1007/BF01391052
+37. Shannon, C. E. (1948). A mathematical theory of communication. *Bell Syst. Tech. J.* 27(3), 379–423. doi:10.1002/j.1538-7305.1948.tb01338.x
+38. Gleason, A. M. (1957). Measures on the closed subspaces of a Hilbert space. *J. Math. Mech.* 6(6), 885–893. doi:10.1512/iumj.1957.6.56050
+39. Dyson, F. J., & Lenard, A. (1967). Stability of matter. I. *J. Math. Phys.* 8(3), 423–434. doi:10.1063/1.1705209
+40. Hawking, S. W. (1974). Black hole explosions? *Nature* 248(5443), 30–31. doi:10.1038/248030a0
+41. Lieb, E. H., & Thirring, W. E. (1975). Bound for the kinetic energy of fermions which proves the stability of matter. *Phys. Rev. Lett.* 35(11), 687–689. doi:10.1103/PhysRevLett.35.687
+42. Vladimirov, V. S., & Volovich, I. V. (1989). p-adic quantum mechanics. *Comm. Math. Phys.* 123(4), 659–676. doi:10.1007/BF01218590
 
 ## Index
 

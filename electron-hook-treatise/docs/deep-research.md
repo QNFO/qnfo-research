@@ -25,6 +25,7 @@ Three Obsidian working notes (deposited verbatim in `source-notes/`):
 ## Phase 3 — Citations
 
 30 entries. Two-phase verification (AUTHOR-GATE): (1) generic Crossref title search (noisy — superseded); (2) **authoritative exact-DOI lookup** `api.crossref.org/works/{doi}` with title/needle confirmation — 29/29 resolved; 't Hooft 1993 verified via arXiv `gr-qc/9310026` (title + author live). Evidence: `artifacts/external-search/reference-verification.json`. Audit: `citation-audit.md`.
+- **v0.2.2 extension:** +12 classics cited in-text (Born, Kolmogorov, Church, Turing, Millikan, Sommerfeld, Shannon, Gleason, Dyson–Lenard, Hawking, Lieb–Thirring, Vladimirov–Volovich) — all 12/12 live-verified via exact-DOI Crossref; evidence: `artifacts/external-search/reference-verification-v022.json`. Total 42/42.
 
 ## Phase 4 — Manuscript
 
