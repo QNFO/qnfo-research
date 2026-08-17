@@ -22,8 +22,10 @@
 | 15 | ref15 | 10.5281/zenodo.18447478 | Zenodo | 200 | PASS | PASS | PASS | PASS |
 | 16 | ref16 | 10.1007/s11467-023-1309-z | Crossref | 200 | PASS (4 authors: Lin, Tai, Li, Lee — published record) | PASS | PASS | PASS |
 | 17 | ref17 | arXiv:2505.03658 | arXiv API | 200 (429 on retry, verified 2026-08-16) | PASS (8 authors incl. Faist) | PASS | PASS (no journal DOI exists — Crossref searched 2026-08-17) | PASS |
+| 18 | ref18 | 10.1103/PhysRevB.98.245130 | Crossref | 200 | PASS (Yu, Zhai) | PASS | PASS | PASS |
+| 19 | ref19 | 10.1103/PhysRevLett.132.113802 | Crossref | 200 | PASS (14 authors incl. Chong, Zhang) | PASS | PASS | PASS |
 
-**Totals:** 17/17 entries PASS field-level (author + title + DOI/concept) · 0 FAIL · 0 fabricated entries · 0 duplicate keys.
+**Totals:** 19/19 entries PASS field-level (author + title + DOI/concept) · 0 FAIL · 0 fabricated entries · 0 duplicate keys.
 
 **v0.3 delta (2026-08-17, draft):**
 - **refs 16–17 added** (GAP-NHSE): NHSE consolidated review (Front. Phys. 18(5):53605, 2023) + experimental realization (arXiv:2505.03658, 2025). Both live-verified this session.

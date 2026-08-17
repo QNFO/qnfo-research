@@ -3,7 +3,7 @@ title: "Signal-Worker Boundary Confinement: A Corrected Ontology of Surface vs B
 author: "Quni-Gudzinas, Rowan Brad"
 orcid: "0009-0002-4317-5604"
 affiliation: "QNFO Research Collective"
-date: "2026-08-16"
+date: "2026-08-17"
 version: "v0.3"
 license: "CC-BY-4.0"
 doi: "10.5281/zenodo.21969297" # patched to reserved v0.3 DOI at publish (NEWVERSION-FRONTMATTER-CARRYOVER-1)
@@ -13,8 +13,8 @@ keywords: ["Signal-Worker ontology", "topological insulators", "bulk-boundary co
 
 **Author:** Quni-Gudzinas, Rowan Brad (QNFO Research Collective)
 **ORCID:** 0009-0002-4317-5604
-**Date:** 2026-08-16
-**Version:** v0.2
+**Date:** 2026-08-17
+**Version:** v0.3
 **WBS:** QNFO.INM.001 · **Slug:** signal-worker-boundary-confinement
 **Status:** Draft v0.3 (2026-08-17 — NHSE trichotomy engagement + KIF-60 pre-registration; not yet published)
 
@@ -73,7 +73,7 @@ At high frequency, AC current density crowds toward the conductor surface over t
 
 ### 3.5 Mode collapse (non-Hermitian skin effect) — TERRITORY (external, recent)
 
-Under non-Hermiticity (gain/loss or asymmetric hopping), the **non-Hermitian skin effect (NHSE)** drives *all* bulk eigenmodes to collapse onto the boundary (Yao–Wang 2018) [3]. This is the literal "bulk → boundary" analog and the most on-point mode-confinement phenomenon for the ontology's vocabulary — and it is absent from the S-W corpus [H4]. [v0.3] The mechanism is now consolidated: the review literature [16] systematizes the modified non-Bloch bulk–boundary correspondence — spectral-winding and point-gap invariants replace the Hermitian Z₂/Chern classification — and the effect has been **experimentally realized**: an ultrafast topological non-Hermitian skin mode bound to a frequency-jump interface inside a gain-switched semiconductor laser, with direct intensity sampling of the skin modes (583 ± 16 fs FWHM) [17]. NHSE is therefore the third member of the surface trichotomy — **non-reciprocal skin localization** — distinct from both classical field redistribution (§3.4) and Hermitian mode confinement (§3.1–3.2). Its defining quantity is the point-gap winding number, an integer count, not a length scale.
+Under non-Hermiticity (gain/loss or asymmetric hopping), the **non-Hermitian skin effect (NHSE)** drives *all* bulk eigenmodes to collapse onto the boundary (Yao–Wang 2018) [3]. This is the literal "bulk → boundary" analog and the most on-point mode-confinement phenomenon for the ontology's vocabulary — and it is absent from the S-W corpus [H4]. [v0.3] The mechanism is now consolidated: the review literature [16] systematizes the modified non-Bloch bulk–boundary correspondence — spectral-winding and point-gap invariants replace the Hermitian Z₂/Chern classification — and the effect has been **experimentally realized**: an ultrafast topological non-Hermitian skin mode bound to a frequency-jump interface inside a gain-switched semiconductor laser, with direct intensity sampling of the skin modes (583 ± 16 fs FWHM) [17]. NHSE is therefore the third member of the surface trichotomy — **non-reciprocal skin localization** — distinct from both classical field redistribution (§3.4) and Hermitian mode confinement (§3.1–3.2). Its defining quantity is the point-gap winding number, an integer count, not a length scale. Quantized conductance in non-Hermitian systems arises only from line-gap/biorthogonally protected edge channels — demonstrated for non-Hermitian Chern insulators (Yu & Zhai 2018 [18]) — never from skin-localized bulk modes alone; NHSE can even localize chiral edge states outright (Liu et al. 2024 [19]). PRE-REG-1 (§10) codifies this boundary condition.
 
 ---
 
@@ -170,7 +170,7 @@ The corrected framing is a **three-part statement**:
 | C2 | The corrected taxonomy (field-expulsion vs mode-confinement) carries content beyond relabeling | MAP | no new observable consequence → relabeling | OPEN |
 | C3 | LCI (Logical Cloning Prohibition) as a Ward identity, exponential-in-N scaling | MAP-speculative | independent derivation + reproduction fails | OPEN, flagged |
 | C4 | Composite bosons (Cooper pairs) break the boson=signal/fermion=worker mapping | MAP | a closed mapping under composites exists | OPEN |
-| P1 | NHSE skin modes exhibit boundary localization WITHOUT quantized conductance G = nG0 and WITHOUT classical field redistribution | MAP (pre-registered, KIF-60) | observation of G = nG0 quantization in an NHSE-metallic regime, or demonstration that NHSE localization is classical field redistribution | PRE-REGISTERED 2026-08-16 |
+| P1 | Skin-localized bulk modes in the pure point-gap (NHSE) regime do NOT themselves carry quantized conductance G = nG0 and are NOT classical field redistribution; quantized conductance in non-Hermitian systems requires line-gap/biorthogonally protected edge channels [18], and NHSE can localize such chiral edge channels [19] | MAP (pre-registered, KIF-60) | observation of G = nG0 quantization carried by skin-localized bulk modes absent a line-gap protected edge channel, or demonstration that NHSE localization is classical field redistribution | PRE-REGISTERED 2026-08-16; REVISED 2026-08-17 |
 | P2 | Cooper-pair boundary transport does NOT obey the original boson=signal mapping (composite-boson exception C4 holds) | MAP (pre-registered, KIF-60) | Cooper-pair boundary transport obeys boson=signal with no exception | PRE-REGISTERED 2026-08-16 |
 | P3 | The surface/bulk distinction becomes experimentally indistinguishable as k_BT → Δ_gap (edge quantization vanishes with T/T_gap → 1) | MAP (pre-registered, KIF-60) | quantized edge conductance survives at k_BT >> Δ_gap | PRE-REGISTERED 2026-08-16 |
 
@@ -214,3 +214,5 @@ The counterintuitive surface physics of topological conductors is real and corre
 15. QNFO Research Collective. *Ab Initio Architectonics: Rethinking Fluxonium Qutrits through the Signal-Worker Ontology*. Zenodo, 2026. DOI 10.5281/zenodo.18447478.
 16. R. Lin, T. Tai, L. Li, and C. H. Lee. *Topological non-Hermitian skin effect*. Frontiers of Physics, 18(5):53605, 2023. DOI 10.1007/s11467-023-1309-z.
 17. B. Schneider, A. Dikopoltsev, M. Bestler, P. Täschler, M. Beck, D. Burghoff, O. Zilberberg, and J. Faist. *Ultrafast Non-Hermitian Skin Effect*. arXiv:2505.03658, 2025.
+18. C. Yu and H. Zhai. *Hall conductance of a non-Hermitian Chern insulator*. Physical Review B, 98:245130, 2018. DOI 10.1103/PhysRevB.98.245130.
+19. G.-G. Liu, S. Mandal, P. Zhou, X. Xi, R. Banerjee, Y.-H. Hu, M. Wei, M. Wang, Q. Wang, Z. Gao, H. Chen, Y. Yang, Y. Chong, and B. Zhang. *Localization of Chiral Edge States by the Non-Hermitian Skin Effect*. Physical Review Letters, 132:113802, 2024. DOI 10.1103/PhysRevLett.132.113802.
