@@ -244,7 +244,22 @@ and self-conjugate particles (Majorana zero modes), and the corpus’s own
 flagship substrate (TaAs, a Weyl semimetal with a gapless conducting
 bulk) contradicts the “worker excluded from the bulk” claim. Every claim
 carries an epistemic label and a falsifiability condition; the ontology
-itself is explicitly labeled an unconfirmed internal proposal.</p>
+itself is explicitly labeled an unconfirmed internal proposal.
+<strong>Why a reader should care:</strong> the corrected taxonomy
+determines where “the worker is confined to the surface” is physically
+true (topological insulators, quantum Hall, non-Hermitian skin effect)
+and where it is a category error (Meissner, skin effect) — a distinction
+that decides which boundary phenomena can carry quantized transport and
+which cannot, with direct consequences for interpreting conductance
+measurements and for the corpus’s superconductivity program.
+<strong>Premise-depth disclosure:</strong> the TERRITORY claims are as
+deep as the published physics they cite (bulk–boundary correspondence,
+spin-statistics, non-Hermitian topology); the MAP claims are derived
+from the ontology’s own primitives (signal = delocalized field
+instruction, worker = localized state that performs work) and the
+imported corpus records [7–15]; the framework’s premises END at the
+pre-registered falsifiability conditions P1–P3 (§10) — no deeper
+postulate is claimed.</p>
 <p><strong>v0.2 (2026-08-16).</strong> This newversion adds a
 classical-electrodynamics companion section (§3.6: bundling practice,
 skin-depth thresholds, and the quantum origin of the bulk–insulator
@@ -327,9 +342,9 @@ state vector</td>
 Wave–particle duality is functionally decomposable into a bosonic
 <em>instruction</em> role and a fermionic <em>action</em> role in driven
 non-equilibrium systems. <em>Status: internal proposal; unconfirmed;
-ambient superconductivity has never been achieved [SOFT-9].</em> The
-framing is <em>hierarchical</em> (the signal orders the worker), so it
-is not non-dualistic in the strict sense — it privileges one pole.</p>
+ambient superconductivity has never been achieved.</em> The framing is
+<em>hierarchical</em> (the signal orders the worker), so it is not
+non-dualistic in the strict sense — it privileges one pole.</p>
 <hr />
 <h2 id="the-established-physics-surface-vs-bulk-a-taxonomy">3. The
 Established Physics: Surface vs Bulk — a Taxonomy</h2>
@@ -387,24 +402,24 @@ recent)</h3>
 bulk eigenmodes to collapse onto the boundary (Yao–Wang 2018) [3]. This
 is the literal “bulk → boundary” analog and the most on-point
 mode-confinement phenomenon for the ontology’s vocabulary — and it is
-absent from the S-W corpus [H4]. [v0.3] The mechanism is now
-consolidated: the review literature [16] systematizes the modified
-non-Bloch bulk–boundary correspondence — spectral-winding and point-gap
-invariants replace the Hermitian Z₂/Chern classification — and the
-effect has been <strong>experimentally realized</strong>: an ultrafast
-topological non-Hermitian skin mode bound to a frequency-jump interface
-inside a gain-switched semiconductor laser, with direct intensity
-sampling of the skin modes (583 ± 16 fs FWHM) [17]. NHSE is therefore
-the third member of the surface trichotomy — <strong>non-reciprocal skin
-localization</strong> — distinct from both classical field
-redistribution (§3.4) and Hermitian mode confinement (§3.1–3.2). Its
-defining quantity is the point-gap winding number, an integer count, not
-a length scale. Quantized conductance in non-Hermitian systems arises
-only from line-gap/biorthogonally protected edge channels — demonstrated
-for non-Hermitian Chern insulators (Yu &amp; Zhai 2018 [18]) — never
-from skin-localized bulk modes alone; NHSE can even localize chiral edge
-states outright (Liu et al. 2024 [19]). PRE-REG-1 (§10) codifies this
-boundary condition.</p>
+absent from the S-W corpus (a Completeness finding of the 2026-08-14
+audit). [v0.3] The mechanism is now consolidated: the review literature
+[16] systematizes the modified non-Bloch bulk–boundary correspondence —
+spectral-winding and point-gap invariants replace the Hermitian Z₂/Chern
+classification — and the effect has been <strong>experimentally
+realized</strong>: an ultrafast topological non-Hermitian skin mode
+bound to a frequency-jump interface inside a gain-switched semiconductor
+laser, with direct intensity sampling of the skin modes (583 ± 16 fs
+FWHM) [17]. NHSE is therefore the third member of the surface trichotomy
+— <strong>non-reciprocal skin localization</strong> — distinct from both
+classical field redistribution (§3.4) and Hermitian mode confinement
+(§3.1–3.2). Its defining quantity is the point-gap winding number, an
+integer count, not a length scale. Quantized conductance in
+non-Hermitian systems arises only from line-gap/biorthogonally protected
+edge channels — demonstrated for non-Hermitian Chern insulators (Yu
+&amp; Zhai 2018 [18]) — never from skin-localized bulk modes alone; NHSE
+can even localize chiral edge states outright (Liu et al. 2024 [19]).
+PRE-REG-1 (§10) codifies this boundary condition.</p>
 <hr />
 <h3
 id="engineering-companion-bundling-skin-depth-thresholds-and-the-quantum-bulkinsulator-boundary-v0.2">3.6
@@ -413,15 +428,22 @@ bulk–insulator boundary [v0.2]</h3>
 <p>A recurring misreading holds that conductors are <em>bundled</em>
 because of the skin effect. The engineering record says otherwise — and
 the distinction is a live instance of the category discipline of §4.
-[TERRITORY]</p>
+[TERRITORY — claimed identity; disconfirmed if the engineering record
+shows skin-effect mitigation as the dominant bundling motive at mains
+frequency (it does not: stranded = flexibility, HV bundled = corona
+suppression, Litz = high-frequency only)]</p>
 <p><strong>Bundling practice.</strong> Three distinct practices are
 conflated under “bundling”:</p>
 <ul>
 <li><strong>Stranded conductors</strong> (ordinary copper cable) exist
 for mechanical flexibility. At 50/60 Hz the skin depth in copper is
 <span class="math inline">\(\delta = \sqrt{2\rho/\omega\mu} \approx
-8.5\)</span> mm, so stranded wires below ~17 mm overall diameter conduct
-through essentially the full cross-section at mains frequency.</li>
+9.2\)</span> mm at 50 Hz and <span class="math inline">\(\approx
+8.4\)</span> mm at 60 Hz (computed with <span class="math inline">\(\rho
+= 1.678\times10^{-8}\ \Omega\text{m}\)</span>, <span
+class="math inline">\(\mu = \mu_0\)</span>; BP-10 recompute 2026-08-17),
+so stranded wires below ~17 mm overall diameter conduct through
+essentially the full cross-section at mains frequency.</li>
 <li><strong>Bundled conductors on high-voltage lines</strong> (2–4
 subconductors per phase, usually aluminum conductor steel-reinforced —
 ACSR, not copper) exist primarily to suppress <strong>corona
@@ -467,8 +489,8 @@ Nothing in this companion section changes the v0.1 taxonomy — it
 supplies the engineering and quantum-threshold context in which that
 taxonomy is applied.</p>
 <hr />
-<h2 id="the-category-error-and-its-correction-h1">4. The Category Error
-and Its Correction [H1]</h2>
+<h2 id="the-category-error-and-its-correction">4. The Category Error and
+Its Correction</h2>
 <p><strong>Finding [HARD].</strong> The S-W reading “the worker is
 excluded from the bulk and confined to the boundary” conflates
 <strong>field/current-density expulsion</strong> (Meissner, skin effect)
@@ -527,8 +549,7 @@ bulk–boundary correspondence — i.e., if it is pure relabeling (the
 criterion the Prime Valuation Depth follow-on applied to
 itself).</em></p>
 <hr />
-<h2 id="the-composite-boson-problem-h3">5. The Composite-Boson Problem
-[H3]</h2>
+<h2 id="the-composite-boson-problem">5. The Composite-Boson Problem</h2>
 <p><strong>Finding [HARD].</strong> The ontology’s flagship example is
 superconductivity, yet the superconducting charge carrier is a
 <strong>bosonic Cooper pair</strong> — two fermionic “workers”
@@ -554,8 +575,7 @@ fall outside both labels. The corpus itself works this thread
 <em>regime-specific interpretation</em>, not a universal classification.
 It must explicitly exclude composites and self-conjugate particles.</p>
 <hr />
-<h2 id="spin-statistics-engagement-soft-6">6. Spin-Statistics Engagement
-[SOFT-6]</h2>
+<h2 id="spin-statistics-engagement">6. Spin-Statistics Engagement</h2>
 <p><strong>Finding.</strong> “boson = signal / fermion = worker” is a
 teleological gloss over the real boson/fermion distinction — the
 <strong>spin-statistics theorem</strong> (integer vs half-integer spin).
@@ -568,8 +588,8 @@ ground truth; the <em>functional</em> signal/worker roles are a valid
 interpretation only where field modifiers and localized carriers are
 mechanistically distinct (driven non-equilibrium regimes).</p>
 <hr />
-<h2 id="the-weyl-semimetal-counterexample-h2">7. The Weyl-Semimetal
-Counterexample [H2]</h2>
+<h2 id="the-weyl-semimetal-counterexample">7. The Weyl-Semimetal
+Counterexample</h2>
 <p><strong>Finding [HARD].</strong> The corpus’s own flagship substrate
 is <strong>TaAs, a Weyl semimetal</strong> — with a <strong>gapless,
 conducting bulk</strong> and Fermi-arc <em>surface</em> states (Quantum
@@ -587,8 +607,7 @@ bulk). The S-W vocabulary may describe Fermi arcs as
 boundary-<em>enhanced</em> work, but not as bulk-<em>excluded</em>
 work.</p>
 <hr />
-<h2 id="the-lci-acronym-collision-h5">8. The LCI Acronym Collision
-[H5]</h2>
+<h2 id="the-lci-acronym-collision">8. The LCI Acronym Collision</h2>
 <p><strong>Finding [HARD — dependency].</strong> The corpus uses
 <strong>LCI</strong> for two different concepts:</p>
 <table>
@@ -627,11 +646,16 @@ Any cross-corpus citation must disambiguate.</p>
 Signal-Worker Framing</h2>
 <p>The corrected framing is a <strong>three-part statement</strong>:</p>
 <ol type="1">
-<li><strong>[TERRITORY]</strong> The boson/fermion distinction is the
-spin-statistics theorem (kinematic). Surface-vs-bulk transport splits
-into mode confinement (TI, QH, NHSE — boundary-localized transport,
-gapped/inert bulk), field expulsion (Meissner — field leaves, electrons
-stay), and current-density redistribution (skin — no confinement).</li>
+<li><strong>[TERRITORY — claimed identity; disconfirmed if a
+boundary-localized transport phenomenon falls outside all three classes
+(mode confinement / field expulsion / current-density redistribution),
+or if fermionic boundary transport is observed in a gapless-bulk
+geometry without bulk conduction]</strong> The boson/fermion distinction
+is the spin-statistics theorem (kinematic). Surface-vs-bulk transport
+splits into mode confinement (TI, QH, NHSE — boundary-localized
+transport, gapped/inert bulk), field expulsion (Meissner — field leaves,
+electrons stay), and current-density redistribution (skin — no
+confinement).</li>
 <li><strong>[MAP]</strong> The S-W “instruction vs action” split is a
 valid <em>functional</em> interpretation in driven non-equilibrium
 regimes, and a valid <em>mode-confinement</em> statement only for the

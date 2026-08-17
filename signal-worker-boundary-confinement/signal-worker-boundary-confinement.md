@@ -22,7 +22,7 @@ keywords: ["Signal-Worker ontology", "topological insulators", "bulk-boundary co
 
 ## Abstract
 
-The Signal-Worker (S-W) ontology — boson = *signal* (the delocalized field instruction), fermion = *worker* (the localized state that performs work) — is the QNFO corpus's proposed decomposition of the wave–particle duality fog. This paper delivers the red-team-hardened correction of that ontology's boundary-confinement reading, following a 3-slot adversarial audit (2026-08-14) that found 5 HARD defects. The correction is a taxonomy, not a renaming: only *mode-confinement* phenomena (topological insulators, the quantum Hall effect, and the non-Hermitian skin effect) confine fermionic transport to the material boundary; the Meissner effect and the AC skin effect expel the *field/current density* while the electrons (the "workers") continue to flow through the bulk. The mapping also fails on composite bosons (Cooper pairs — two fermions condensing into one boson) and self-conjugate particles (Majorana zero modes), and the corpus's own flagship substrate (TaAs, a Weyl semimetal with a gapless conducting bulk) contradicts the "worker excluded from the bulk" claim. Every claim carries an epistemic label and a falsifiability condition; the ontology itself is explicitly labeled an unconfirmed internal proposal.
+The Signal-Worker (S-W) ontology — boson = *signal* (the delocalized field instruction), fermion = *worker* (the localized state that performs work) — is the QNFO corpus's proposed decomposition of the wave–particle duality fog. This paper delivers the red-team-hardened correction of that ontology's boundary-confinement reading, following a 3-slot adversarial audit (2026-08-14) that found 5 HARD defects. The correction is a taxonomy, not a renaming: only *mode-confinement* phenomena (topological insulators, the quantum Hall effect, and the non-Hermitian skin effect) confine fermionic transport to the material boundary; the Meissner effect and the AC skin effect expel the *field/current density* while the electrons (the "workers") continue to flow through the bulk. The mapping also fails on composite bosons (Cooper pairs — two fermions condensing into one boson) and self-conjugate particles (Majorana zero modes), and the corpus's own flagship substrate (TaAs, a Weyl semimetal with a gapless conducting bulk) contradicts the "worker excluded from the bulk" claim. Every claim carries an epistemic label and a falsifiability condition; the ontology itself is explicitly labeled an unconfirmed internal proposal. **Why a reader should care:** the corrected taxonomy determines where "the worker is confined to the surface" is physically true (topological insulators, quantum Hall, non-Hermitian skin effect) and where it is a category error (Meissner, skin effect) — a distinction that decides which boundary phenomena can carry quantized transport and which cannot, with direct consequences for interpreting conductance measurements and for the corpus's superconductivity program. **Premise-depth disclosure:** the TERRITORY claims are as deep as the published physics they cite (bulk–boundary correspondence, spin-statistics, non-Hermitian topology); the MAP claims are derived from the ontology's own primitives (signal = delocalized field instruction, worker = localized state that performs work) and the imported corpus records [7–15]; the framework's premises END at the pre-registered falsifiability conditions P1–P3 (§10) — no deeper postulate is claimed.
 
 **v0.2 (2026-08-16).** This newversion adds a classical-electrodynamics companion section (§3.6: bundling practice, skin-depth thresholds, and the quantum origin of the bulk–insulator distinction) and completes the deposited source set with `references.bib` and `citation-audit.md`. No changes to the v0.1 taxonomy or falsifiability register.
 
@@ -47,7 +47,7 @@ A 3-slot CMD RED TEAM SUB (Accuracy / Completeness / Dependency, 2026-08-14) aud
 | **Signal** | boson (photon / phonon) | carries the *instruction* — a delocalized field modifier | information |
 | **Worker** | fermion (electron / exciton) | performs the *work* — a localized state vector | action |
 
-**Statement 1 [MAP — interpretive, proposed].** Wave–particle duality is functionally decomposable into a bosonic *instruction* role and a fermionic *action* role in driven non-equilibrium systems. *Status: internal proposal; unconfirmed; ambient superconductivity has never been achieved [SOFT-9].* The framing is *hierarchical* (the signal orders the worker), so it is not non-dualistic in the strict sense — it privileges one pole.
+**Statement 1 [MAP — interpretive, proposed].** Wave–particle duality is functionally decomposable into a bosonic *instruction* role and a fermionic *action* role in driven non-equilibrium systems. *Status: internal proposal; unconfirmed; ambient superconductivity has never been achieved.* The framing is *hierarchical* (the signal orders the worker), so it is not non-dualistic in the strict sense — it privileges one pole.
 
 ---
 
@@ -73,17 +73,17 @@ At high frequency, AC current density crowds toward the conductor surface over t
 
 ### 3.5 Mode collapse (non-Hermitian skin effect) — TERRITORY (external, recent)
 
-Under non-Hermiticity (gain/loss or asymmetric hopping), the **non-Hermitian skin effect (NHSE)** drives *all* bulk eigenmodes to collapse onto the boundary (Yao–Wang 2018) [3]. This is the literal "bulk → boundary" analog and the most on-point mode-confinement phenomenon for the ontology's vocabulary — and it is absent from the S-W corpus [H4]. [v0.3] The mechanism is now consolidated: the review literature [16] systematizes the modified non-Bloch bulk–boundary correspondence — spectral-winding and point-gap invariants replace the Hermitian Z₂/Chern classification — and the effect has been **experimentally realized**: an ultrafast topological non-Hermitian skin mode bound to a frequency-jump interface inside a gain-switched semiconductor laser, with direct intensity sampling of the skin modes (583 ± 16 fs FWHM) [17]. NHSE is therefore the third member of the surface trichotomy — **non-reciprocal skin localization** — distinct from both classical field redistribution (§3.4) and Hermitian mode confinement (§3.1–3.2). Its defining quantity is the point-gap winding number, an integer count, not a length scale. Quantized conductance in non-Hermitian systems arises only from line-gap/biorthogonally protected edge channels — demonstrated for non-Hermitian Chern insulators (Yu & Zhai 2018 [18]) — never from skin-localized bulk modes alone; NHSE can even localize chiral edge states outright (Liu et al. 2024 [19]). PRE-REG-1 (§10) codifies this boundary condition.
+Under non-Hermiticity (gain/loss or asymmetric hopping), the **non-Hermitian skin effect (NHSE)** drives *all* bulk eigenmodes to collapse onto the boundary (Yao–Wang 2018) [3]. This is the literal "bulk → boundary" analog and the most on-point mode-confinement phenomenon for the ontology's vocabulary — and it is absent from the S-W corpus (a Completeness finding of the 2026-08-14 audit). [v0.3] The mechanism is now consolidated: the review literature [16] systematizes the modified non-Bloch bulk–boundary correspondence — spectral-winding and point-gap invariants replace the Hermitian Z₂/Chern classification — and the effect has been **experimentally realized**: an ultrafast topological non-Hermitian skin mode bound to a frequency-jump interface inside a gain-switched semiconductor laser, with direct intensity sampling of the skin modes (583 ± 16 fs FWHM) [17]. NHSE is therefore the third member of the surface trichotomy — **non-reciprocal skin localization** — distinct from both classical field redistribution (§3.4) and Hermitian mode confinement (§3.1–3.2). Its defining quantity is the point-gap winding number, an integer count, not a length scale. Quantized conductance in non-Hermitian systems arises only from line-gap/biorthogonally protected edge channels — demonstrated for non-Hermitian Chern insulators (Yu & Zhai 2018 [18]) — never from skin-localized bulk modes alone; NHSE can even localize chiral edge states outright (Liu et al. 2024 [19]). PRE-REG-1 (§10) codifies this boundary condition.
 
 ---
 
 ### 3.6 Engineering companion: bundling, skin-depth thresholds, and the quantum bulk–insulator boundary [v0.2]
 
-A recurring misreading holds that conductors are *bundled* because of the skin effect. The engineering record says otherwise — and the distinction is a live instance of the category discipline of §4. [TERRITORY]
+A recurring misreading holds that conductors are *bundled* because of the skin effect. The engineering record says otherwise — and the distinction is a live instance of the category discipline of §4. [TERRITORY — claimed identity; disconfirmed if the engineering record shows skin-effect mitigation as the dominant bundling motive at mains frequency (it does not: stranded = flexibility, HV bundled = corona suppression, Litz = high-frequency only)]
 
 **Bundling practice.** Three distinct practices are conflated under "bundling":
 
-- **Stranded conductors** (ordinary copper cable) exist for mechanical flexibility. At 50/60 Hz the skin depth in copper is $\delta = \sqrt{2\rho/\omega\mu} \approx 8.5$ mm, so stranded wires below ~17 mm overall diameter conduct through essentially the full cross-section at mains frequency.
+- **Stranded conductors** (ordinary copper cable) exist for mechanical flexibility. At 50/60 Hz the skin depth in copper is $\delta = \sqrt{2\rho/\omega\mu} \approx 9.2$ mm at 50 Hz and $\approx 8.4$ mm at 60 Hz (computed with $\rho = 1.678\times10^{-8}\ \Omega\text{m}$, $\mu = \mu_0$; BP-10 recompute 2026-08-17), so stranded wires below ~17 mm overall diameter conduct through essentially the full cross-section at mains frequency.
 - **Bundled conductors on high-voltage lines** (2–4 subconductors per phase, usually aluminum conductor steel-reinforced — ACSR, not copper) exist primarily to suppress **corona discharge** by reducing the surface electric-field gradient. Electrically, bundling lowers the series inductance (larger effective geometric mean radius) and raises the shunt capacitance (larger equivalent radius), which raises the surge-impedance loading and the power-transfer capability.
 - **Litz wire** (individually insulated strands) is the only bundling scheme whose purpose *is* the skin/proximity effect — and it exists for high-frequency use, not mains.
 
@@ -95,7 +95,7 @@ So the AC skin effect is real, but almost none of the wire we see is bundled bec
 
 ---
 
-## 4. The Category Error and Its Correction [H1]
+## 4. The Category Error and Its Correction
 
 **Finding [HARD].** The S-W reading "the worker is excluded from the bulk and confined to the boundary" conflates **field/current-density expulsion** (Meissner, skin effect) with **mode confinement** (topological insulator, quantum Hall). They are different physical mechanisms with different consequences for where the "worker" may act.
 
@@ -111,7 +111,7 @@ So the AC skin effect is real, but almost none of the wire we see is bundled bec
 
 ---
 
-## 5. The Composite-Boson Problem [H3]
+## 5. The Composite-Boson Problem
 
 **Finding [HARD].** The ontology's flagship example is superconductivity, yet the superconducting charge carrier is a **bosonic Cooper pair** — two fermionic "workers" condensing into a "signal-like" boson. The mapping `boson = signal / fermion = worker` is **not closed under composite particles**:
 
@@ -123,7 +123,7 @@ So the AC skin effect is real, but almost none of the wire we see is bundled bec
 
 ---
 
-## 6. Spin-Statistics Engagement [SOFT-6]
+## 6. Spin-Statistics Engagement
 
 **Finding.** "boson = signal / fermion = worker" is a teleological gloss over the real boson/fermion distinction — the **spin-statistics theorem** (integer vs half-integer spin). The ontology re-describes a kinematic fact without deriving a new observable.
 
@@ -131,7 +131,7 @@ So the AC skin effect is real, but almost none of the wire we see is bundled bec
 
 ---
 
-## 7. The Weyl-Semimetal Counterexample [H2]
+## 7. The Weyl-Semimetal Counterexample
 
 **Finding [HARD].** The corpus's own flagship substrate is **TaAs, a Weyl semimetal** — with a **gapless, conducting bulk** and Fermi-arc *surface* states (Quantum Abacus [11]; Xu et al. 2015 [5]; Wan et al. 2011 [4]). The corpus additionally contains *Hamiltonian Engineering of Topological Deconfinement in Weyl Semimetals* [12], which already engages Weyl physics directly. Weyl semimetals are **not** Z₂ topological insulators: the bulk conducts. Therefore "the worker is excluded from the bulk" is **false for the corpus's own material**.
 
@@ -139,7 +139,7 @@ So the AC skin effect is real, but almost none of the wire we see is bundled bec
 
 ---
 
-## 8. The LCI Acronym Collision [H5]
+## 8. The LCI Acronym Collision
 
 **Finding [HARD — dependency].** The corpus uses **LCI** for two different concepts:
 
@@ -156,7 +156,7 @@ So the AC skin effect is real, but almost none of the wire we see is bundled bec
 
 The corrected framing is a **three-part statement**:
 
-1. **[TERRITORY]** The boson/fermion distinction is the spin-statistics theorem (kinematic). Surface-vs-bulk transport splits into mode confinement (TI, QH, NHSE — boundary-localized transport, gapped/inert bulk), field expulsion (Meissner — field leaves, electrons stay), and current-density redistribution (skin — no confinement).
+1. **[TERRITORY — claimed identity; disconfirmed if a boundary-localized transport phenomenon falls outside all three classes (mode confinement / field expulsion / current-density redistribution), or if fermionic boundary transport is observed in a gapless-bulk geometry without bulk conduction]** The boson/fermion distinction is the spin-statistics theorem (kinematic). Surface-vs-bulk transport splits into mode confinement (TI, QH, NHSE — boundary-localized transport, gapped/inert bulk), field expulsion (Meissner — field leaves, electrons stay), and current-density redistribution (skin — no confinement).
 2. **[MAP]** The S-W "instruction vs action" split is a valid *functional* interpretation in driven non-equilibrium regimes, and a valid *mode-confinement* statement only for the mode-confinement class. It is not a universal decomposition: it fails on composite bosons (Cooper pairs), self-conjugate particles (Majorana zero modes), and gapless-bulk Weyl semimetals.
 3. **[EPISTEMIC]** The ontology is an **unconfirmed internal proposal**. Ambient superconductivity has never been achieved; the Ward-identity no-cloning derivation (LCI [10]) is flagged speculative and must be independently reproduced. Boundary confinement is a *transport* statement — it does NOT imply topological-QC fault tolerance at nonzero temperature (the corpus's own evidence synthesis refutes the FCI alternative via thermal anyon proliferation; see deep-due-diligence companion).
 
