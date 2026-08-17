@@ -26,7 +26,7 @@ The Signal-Worker (S-W) ontology — boson = *signal* (the delocalized field ins
 
 **v0.2 (2026-08-16).** This newversion adds a classical-electrodynamics companion section (§3.6: bundling practice, skin-depth thresholds, and the quantum origin of the bulk–insulator distinction) and completes the deposited source set with `references.bib` and `citation-audit.md`. No changes to the v0.1 taxonomy or falsifiability register.
 
-**v0.3 (2026-08-17, draft).** Engages the NHSE literature in depth — the consolidated review [16] and the experimental realization [17] — naming non-reciprocal skin localization as the third member of the surface trichotomy; embeds the KIF-60 pre-registered predictions (P1–P3) in the falsifiability register (§10); closes the zero-in-text citation gaps on refs [6], [13], [15]. Frontmatter DOI will be patched to the reserved v0.3 DOI at publish (NEWVERSION-FRONTMATTER-CARRYOVER-1).
+**v0.3 (2026-08-17, draft).** Engages the NHSE literature in depth — the consolidated review [16] and the experimental realization [17] — naming non-reciprocal skin localization as the third member of the surface trichotomy; embeds the KIF-60 pre-registered predictions (P1–P3) in the falsifiability register (§10); closes the zero-in-text citation gaps on refs [6], [13], [15]. Red-team remediation (2026-08-17, commit 66764cd) scoped PRE-REG-1 with the point-gap/line-gap boundary condition and added the quantized-transport boundary literature [18,19]. Frontmatter DOI will be patched to the reserved v0.3 DOI at publish (NEWVERSION-FRONTMATTER-CARRYOVER-1).
 
 ---
 
@@ -174,7 +174,7 @@ The corrected framing is a **three-part statement**:
 | P2 | Cooper-pair boundary transport does NOT obey the original boson=signal mapping (composite-boson exception C4 holds) | MAP (pre-registered, KIF-60) | Cooper-pair boundary transport obeys boson=signal with no exception | PRE-REGISTERED 2026-08-16 |
 | P3 | The surface/bulk distinction becomes experimentally indistinguishable as k_BT → Δ_gap (edge quantization vanishes with T/T_gap → 1) | MAP (pre-registered, KIF-60) | quantized edge conductance survives at k_BT >> Δ_gap | PRE-REGISTERED 2026-08-16 |
 
-**[v0.3] Pre-registration (KIF-60, 2026-08-16).** Rows P1–P3 are the risky predictions pre-registered in the Phase 1b Bayesian Evidential Weight gate (`artifacts/bayesian-evidential-weight.md`, commit 03ac213, sha256 064e1ee6…). C1 is established physics (zero novelty weight); C2 is [RETRODICTION] until P1–P3 are tested; P1 is the only claim with a pre-registered experimental falsification path (platform: [17]).
+**[v0.3] Pre-registration (KIF-60, 2026-08-16).** Rows P1–P3 are the risky predictions pre-registered in the Phase 1b Bayesian Evidential Weight gate (`artifacts/bayesian-evidential-weight.md`, commit 03ac213, sha256 064e1ee6…). C1 is established physics (zero novelty weight); C2 is [RETRODICTION] until P1–P3 are tested; P1 is the only claim with a pre-registered experimental falsification path (platform: [17]). **P1 was revised 2026-08-17 (commit 66764cd)** with the line-gap/biorthogonal scoping and boundary-condition refs [18,19]; the original 2026-08-16 wording is preserved in the BEW file's revision record.
 
 ---
 
