@@ -4,7 +4,7 @@
 **Slug:** signal-worker-boundary-confinement
 **WBS:** QNFO.INM.001 (parent: QNFO.INM — Infomatics)
 **Repo:** QNFO/qnfo-research · **Branch:** res/paper/signal-worker-boundary-confinement
-**Date:** 2026-08-17 · **Status:** Published v0.2 (10.5281/zenodo.21969297, concept 10.5281/zenodo.21931224); P8 complete; **v0.3 DRAFT COMPLETE (2026-08-17)** — NHSE trichotomy + boundary-condition refs [16–19], KIF-60 pre-registration P1–P3 (P1 revised per 5-adversary audit N-1), citation fixes [6,13,15]; 5-adversary audit: 4 HARD + 3 SOFT all closed (commits 66764cd, b329bfe, d6b919c); md/html/pdf rebuilt via CDP pipeline; publish-readiness verified (concept chain clean, no stale draft, deposit-vs-branch sha256 3/3 match); **READY for CMD PUBLISH**.
+**Date:** 2026-08-17 · **Status:** Published v0.3 (10.5281/zenodo.21974194, 2026-08-17; concept 10.5281/zenodo.21931224); P8 complete. Version history: v0.1 10.5281/zenodo.21931225 → v0.2 10.5281/zenodo.21969297 → v0.3 10.5281/zenodo.21974194.
 **Origin:** CMD RED TEAM SUB 2026-08-14 — Signal-Worker / topological-conductors analysis produced 5 HARD findings (Accuracy PASS; Completeness 5 HARD; Dependency: LCI acronym collision). This project formalizes the corrected position.
 
 ---

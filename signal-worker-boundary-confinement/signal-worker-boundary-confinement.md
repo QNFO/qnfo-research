@@ -6,8 +6,8 @@ affiliation: "QNFO Research Collective"
 date: "2026-08-17"
 version: "v0.3"
 license: "CC-BY-4.0"
-doi: "10.5281/zenodo.21969297" # patched to reserved v0.3 DOI at publish (NEWVERSION-FRONTMATTER-CARRYOVER-1)
-status: "draft"
+doi: "10.5281/zenodo.21974194"
+status: "published"
 keywords: ["Signal-Worker ontology", "topological insulators", "bulk-boundary correspondence", "Meissner effect", "quantum Hall effect", "non-Hermitian skin effect", "skin effect", "bundled conductors", "Litz wire", "band structure", "Weyl semimetals", "Cooper pairs", "spin-statistics theorem"]
 ---
 
@@ -16,7 +16,7 @@ keywords: ["Signal-Worker ontology", "topological insulators", "bulk-boundary co
 **Date:** 2026-08-17
 **Version:** v0.3
 **WBS:** QNFO.INM.001 · **Slug:** signal-worker-boundary-confinement
-**Status:** Draft v0.3 (2026-08-17 — NHSE trichotomy engagement + KIF-60 pre-registration; not yet published)
+**Status:** Published v0.3 (2026-08-17 — DOI 10.5281/zenodo.21974194; concept 10.5281/zenodo.21931224)
 
 ---
 
@@ -26,7 +26,7 @@ The Signal-Worker (S-W) ontology — boson = *signal* (the delocalized field ins
 
 **v0.2 (2026-08-16).** This newversion adds a classical-electrodynamics companion section (§3.6: bundling practice, skin-depth thresholds, and the quantum origin of the bulk–insulator distinction) and completes the deposited source set with `references.bib` and `citation-audit.md`. No changes to the v0.1 taxonomy or falsifiability register.
 
-**v0.3 (2026-08-17, draft).** Engages the NHSE literature in depth — the consolidated review [16] and the experimental realization [17] — naming non-reciprocal skin localization as the third member of the surface trichotomy; embeds the KIF-60 pre-registered predictions (P1–P3) in the falsifiability register (§10); closes the zero-in-text citation gaps on refs [6], [13], [15]. Red-team remediation (2026-08-17, commit 66764cd) scoped PRE-REG-1 with the point-gap/line-gap boundary condition and added the quantized-transport boundary literature [18,19]. Frontmatter DOI will be patched to the reserved v0.3 DOI at publish (NEWVERSION-FRONTMATTER-CARRYOVER-1).
+**v0.3 (2026-08-17, published).** Engages the NHSE literature in depth — the consolidated review [16] and the experimental realization [17] — naming non-reciprocal skin localization as the third member of the surface trichotomy; embeds the KIF-60 pre-registered predictions (P1–P3) in the falsifiability register (§10); closes the zero-in-text citation gaps on refs [6], [13], [15]. Red-team remediation (2026-08-17, commit 66764cd) scoped PRE-REG-1 with the point-gap/line-gap boundary condition and added the quantized-transport boundary literature [18,19]. Published 2026-08-17 as 10.5281/zenodo.21974194 (newversion of 10.5281/zenodo.21969297; concept 10.5281/zenodo.21931224).
 
 ---
 
