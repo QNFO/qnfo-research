@@ -49,7 +49,8 @@ FQ1 disconfirmed if: an experiment discriminates real vs complex amplitudes at s
 
 ## 6. Next actions (prioritized)
 
-- **P0** — **EXP-01..EXP-10 (v0.3.1): expand the 10 remaining thin prose chapters** — Ch 8 (What Spin Is), 10 (Where the Theorem Fails), 11 (Statistics as Emergent), 13 (Physical Basis of Computation), 15 (Nonequilibrium Thermodynamics), 16 (Electron-Based Quantum Computation), 18 (How Observables Are Measured), 20 (Why Physics Selects Archimedean), 26 (Dimensionality and Physical Law), 47 (Milestones — trim expansion to prose depth ≥300 words each).
+- **P0** — **EXP-01..EXP-10 (next version): expand the 10 remaining thin prose chapters** — Ch 8 (What Spin Is), 10 (Where the Theorem Fails), 11 (Statistics as Emergent), 13 (Physical Basis of Computation), 15 (Nonequilibrium Thermodynamics), 16 (Electron-Based Quantum Computation), 18 (How Observables Are Measured), 20 (Why Physics Selects Archimedean), 26 (Dimensionality and Physical Law), 47 (Milestones — trim expansion to prose depth ≥300 words each).
+- **P1** — Include `artifacts/v0.2.2-dependency-findings-disposition.md` in the next version's deposit (audit-trail gap, DISC-6).
 - **P1** — Expand Part II/III into chapters 13–18 (thermodynamics of computation) with the two notes as seeds.
 - **P1** — FQ3 experimental discriminator design (UMP programme).
 - **P2** — FQ1/FQ2 literature sweeps (number-field interference; finite-dimensional QM).
@@ -60,5 +61,7 @@ FQ1 disconfirmed if: an experiment discriminates real vs complex amplitudes at s
 - 2026-08-17 — v0.2 Full Edition (9 parts, 51 chapters, 34 six-step audits) published (10.5281/zenodo.21970697). FQ register unchanged (same frontier questions, now chapter-anchored); added Q29.1–Q43.1 (Part VII) and Q37.1/Q37.2, Q39.1/Q39.2.
 - 2026-08-17 — v0.2.1 published (10.5281/zenodo.21970736): §0.4/Preface prose correction (Chapter 51 reference); no register changes.
 - 2026-08-17 — v0.2.2 published (10.5281/zenodo.21971503): bibliography extension (30 → 42 entries, all live-verified) + 19.4 phrasing fix; no register changes.
-- 2026-08-17 — **v0.3 published (10.5281/zenodo.21972676): depth expansion** — Part VIII + Appendices A–C + 6 core chapters to prose (17,545 words, +48%); Abstract overclaim corrected; EXP-01..EXP-10 registered for v0.3.1.
+- 2026-08-17 — **v0.3 published (10.5281/zenodo.21972676): depth expansion** — Part VIII + Appendices A–C + 6 core chapters to prose (17,545 words, +48%); Abstract overclaim corrected; EXP-01..EXP-10 registered.
+- 2026-08-17 — **v0.3.1 published (10.5281/zenodo.21972819)**: citation-layer remediation (Bérut 2012, Jarzynski 1997, Crooks 1999, D. Deutsch 1991 CTC) + 10 reverse-orphan anchors; bibliography 46/46.
+- 2026-08-17 — Cross-record errata: `additional_descriptions` notes added to v0.1–v0.3 records (rendered on record pages + DataCite descriptionType Other); community inclusion requests submitted for the current record (21972819); two superseded reviewer children interrupted.
 - Maintenance: update Status/Next action on every version bump; close predictions on their check dates.
