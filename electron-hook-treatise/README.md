@@ -4,7 +4,8 @@
 
 | Version | Record | Content |
 |:--------|:-------|:--------|
-| **v0.2.2** | 10.5281/zenodo.21971503 (concept 10.5281/zenodo.21970453) | Full Edition + bibliography extension (42 entries) + phrasing fix |
+| **v0.3** | 10.5281/zenodo.21972676 (concept 10.5281/zenodo.21970453) | Expanded Edition: Part VIII + Appendices A–C + core chapters in prose (17.5k words, +48%) |
+| v0.2.2 | 10.5281/zenodo.21971503 | Full Edition + bibliography extension (42 entries) + phrasing fix |
 | v0.2.1 | 10.5281/zenodo.21970736 | Full Edition + §0.4/Preface prose correction (Chapter 51 reference) |
 | v0.2 | 10.5281/zenodo.21970697 | Full Edition: 9 parts, 51 chapters, 34 six-step audits |
 | v0.1 | 10.5281/zenodo.21970454 | Architecture + two research notes (provenance copy: `electron-hook-treatise-v0.1.md`) |

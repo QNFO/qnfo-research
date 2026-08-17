@@ -3,18 +3,18 @@ title: 'A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics
 author: 'Rowan Brad Quni-Gudzinas'
 date: '2026-08-16'
 license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: '10.5281/zenodo.21971503'
+doi: '10.5281/zenodo.21972676'
 status: 'published'
 ---
 
 **Subtitle:** The Electron as a Hook — Full Edition (nine parts, fifty-one chapters)
-**Author:** Rowan Brad Quni-Gudzinas · QNFO Research Foundation
-**Contact:** rowan.quni@qnfo.org · **ORCID:** [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**Version:** v0.2.2 · **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction)
+**Author:** Rowan Brad Quni-Gudzinas | QNFO Research Foundation
+**Contact:** rowan.quni@qnfo.org | **ORCID:** [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
+**Version:** v0.3 | **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction), v0.2.2 (bibliography completion)
 
 ## Abstract
 
-The electron is the most precisely measured particle in physics and the workhorse of modern computation, yet the theoretical structure in which it lives rests on assumptions that are load-bearing but rarely interrogated: the complex Hilbert-space postulate, the spin-statistics theorem's premises, the Archimedean valuation of every measured quantity, the thermodynamic foundations of irreversible computation, and the identification of the electron itself as a fixed elementary object rather than a vacuum- and environment-dependent excitation. This Full Edition expands the v0.1 architecture into the treatise proper: nine parts and fifty-one chapters. Every assumption examined is subjected to a fixed six-step procedure — state the assumption in its strongest form; identify what is built on it; separate confirmed predictions from postulates; list alternatives that preserve the confirmed predictions while relaxing the assumption; define falsifiability conditions; record open questions. **Why a reader should care:** each assumption examined bears directly on a live frontier — energy-efficient computation, topological quantum computing, high-temperature superconductivity, precision metrology, and quantum gravity — and several are already known to fail as universal statements (anyons in $2+1$ dimensions, quasiparticle dressing, vacuum-dependent particle content, broken ergodicity). **Premise-depth disclosure:** the treatise introduces no new physical postulate; its unanalyzable primitives — ordinary set theory, the standard model of measurement practice, the requirement of empirical adequacy — are named rather than hidden, and its conclusions are as deep as the published physics they cite. The treatise does not reject any assumption by default and does not endorse any alternative; it maps domains of validity and promotes the assumptions themselves from articles of faith to objects of experiment.
+The electron is the most precisely measured particle in physics and the workhorse of modern computation, yet the theoretical structure in which it lives rests on assumptions that are load-bearing but rarely interrogated: the complex Hilbert-space postulate, the spin-statistics theorem's premises, the Archimedean valuation of every measured quantity, the thermodynamic foundations of irreversible computation, and the identification of the electron itself as a fixed elementary object rather than a vacuum- and environment-dependent excitation. This edition presents the treatise in full: nine parts and fifty-one chapters, with the assumption audits complete, the object chapters of Parts I–VI in prose, the research programme (Part VIII) and the appendices fully developed, and the remaining chapter expansions tracked in the Research Continuity Registry. Every assumption examined is subjected to a fixed six-step procedure — state the assumption in its strongest form; identify what is built on it; separate confirmed predictions from postulates; list alternatives that preserve the confirmed predictions while relaxing the assumption; define falsifiability conditions; record open questions. **Why a reader should care:** each assumption examined bears directly on a live frontier — energy-efficient computation, topological quantum computing, high-temperature superconductivity, precision metrology, and quantum gravity — and several are already known to fail as universal statements (anyons in $2+1$ dimensions, quasiparticle dressing, vacuum-dependent particle content, broken ergodicity). **Premise-depth disclosure:** the treatise introduces no new physical postulate; its unanalyzable primitives — ordinary set theory, the standard model of measurement practice, the requirement of empirical adequacy — are named rather than hidden, and its conclusions are as deep as the published physics they cite. The treatise does not reject any assumption by default and does not endorse any alternative; it maps domains of validity and promotes the assumptions themselves from articles of faith to objects of experiment.
 
 **Keywords:** quantum foundations, spin-statistics theorem, quasiparticles, Landauer's principle, Ostrowski's theorem, Hilbert space, anyons, thermodynamics of computation, premise depth, falsifiability
 
@@ -156,15 +156,15 @@ Landau's Fermi-liquid theory organizes the quasiparticle picture for weakly inte
 
 #### 4.1 Statement of the postulate
 
-A quantum system is described by a ray in a complex Hilbert space $\mathcal{H}$; observables are self-adjoint operators on $\mathcal{H}$; composite systems live in the tensor product $\mathcal{H}_A \otimes \mathcal{H}_B$; time evolution is unitary, $|\psi(t)\rangle = e^{-iHt/\hbar}|\psi(0)\rangle$; and measurement outcomes obey the Born rule, $P(a) = \langle\psi| \Pi_a |\psi\rangle$ for a projector $\Pi_a$.
+A quantum system is described by a ray in a complex Hilbert space $\mathcal{H}$; observables are self-adjoint operators on $\mathcal{H}$; composite systems live in the tensor product $\mathcal{H}_A \otimes \mathcal{H}_B$; time evolution is unitary, $|\psi(t)\rangle = e^{-iHt/\hbar}|\psi(0)\rangle$; and measurement outcomes obey the Born rule, $P(a) = \langle\psi| \Pi_a |\psi\rangle$ for a projector $\Pi_a$. The postulate is deceptively compact: each clause carries a hidden assumption that Part II of the treatise unpacks in Chapter 5. "Ray in a complex Hilbert space" carries the assumption that amplitudes are complex (5.1); "unitary evolution" carries exact unitarity (5.2); "tensor product" carries factorization (5.3); "Hilbert space" carries infinite-dimensionality (5.4); "self-adjoint operators" carries the observable correspondence (5.5); and the Born rule carries real, Archimedean probability (5.6). The statement of the postulate is therefore also the statement of its six hidden assumptions — which is why the audit of Chapter 5 matters.
 
 #### 4.2 Historical origin
 
-von Neumann's *Mathematische Grundlagen der Quantenmechanik* (1932) axiomatized the matrix mechanics of Heisenberg, Born, and Jordan and the wave mechanics of Schrödinger into one structure. The axiomatization succeeded because it unified the two formalisms, accommodated continuous and discrete spectra, and gave quantum logic a home. It became "standard" by adoption, not by uniqueness: Dirac's formalism predates it and the algebraic formulations postdate it.
+von Neumann's *Mathematische Grundlagen der Quantenmechanik* (1932) axiomatized the matrix mechanics of Heisenberg, Born, and Jordan and the wave mechanics of Schrödinger into one structure. The axiomatization succeeded because it unified the two formalisms, accommodated continuous and discrete spectra through the spectral theorem, and gave quantum logic a home — the lattice of closed subspaces of $\mathcal{H}$. It became "standard" by adoption, not by uniqueness: Dirac's transformation theory predates it and is what most physicists actually use; the algebraic formulations postdate it and are what much of quantum field theory requires. The historical point matters for the audit: the postulate's dominance is a fact about the sociology of physics, not a theorem about the necessity of Hilbert space.
 
 #### 4.3 What is built on it
 
-All of nonrelativistic quantum mechanics, quantum field theory, quantum information, quantum computing, quantum measurement theory, and the mathematical core of most quantum-gravity programmes. The edifice is vast; the foundation is six assumptions examined next.
+All of nonrelativistic quantum mechanics, quantum field theory, quantum information, quantum computing, quantum measurement theory, and the mathematical core of most quantum-gravity programmes. The edifice is vast; the foundation is six assumptions examined next. The dependency is so complete that the phrase "quantum mechanics without Hilbert space" is almost treated as a contradiction in terms — yet each of the six assumptions has a formulated alternative, and the purpose of Chapter 5 is to make those alternatives explicit and assess their empirical status.
 
 ### Chapter 5 — Hidden Assumptions Inside the Hilbert-Space Framework
 
@@ -225,22 +225,28 @@ All of nonrelativistic quantum mechanics, quantum field theory, quantum informat
 ### Chapter 6 — Alternatives to Hilbert Space
 
 #### 6.1 Real quantum mechanics
-Same structure with $\mathbb{R}$-linearity; requires an extra superselected observable (Stueckelberg's antiunitary operator) to match complex predictions — testable in multipath interference.
+
+Same structure with $\mathbb{R}$-linearity: states are rays in a real Hilbert space, and observables are real self-adjoint operators. To match the empirical content of complex quantum mechanics, the real theory requires an extra superselected observable — Stueckelberg's antiunitary operator, which plays the role of $i$ in the complex algebra. The consequence is testable: multipath interference, where amplitudes from three or more paths sum, differs between the real and complex theories at the level of the interference phase structure. Real quantum mechanics is the minimal perturbation of the postulate — it changes only the number field — and its failure to be excluded by existing data is itself a datum about how precisely the complex structure is confirmed (Chapter 5.1).
 
 #### 6.2 Quaternionic quantum mechanics
-$\mathbb{H}$-linear state spaces; local scattering predictions identical to complex QM in most regimes, but multiparticle interference and some bound-state spectra can differ — the tightest known constraint comes from triple-slit-class experiments.
+
+$\mathbb{H}$-linear state spaces generalize the number field to the quaternions. Local scattering predictions are identical to complex quantum mechanics in most regimes — the associativity of the field preserves the S-matrix structure — but multiparticle interference and some bound-state spectra can differ. The tightest known constraints come from triple-slit-class experiments, which bound deviations from complex amplitudes at the $10^{-4}$–$10^{-6}$ level. Quaternionic quantum mechanics is the natural next step in the same research programme as 6.1: it changes the field of amplitudes while preserving the algebraic structure of the formalism, and the multipath discriminator of 46.1 applies directly.
 
 #### 6.3 Algebraic quantum theory
-Observables as a $C^*$-algebra; states as positive functionals. Reproduces quantum mechanics on finite systems and generalizes to quantum fields where Hilbert-space constructions are ill-defined (Haag's theorem).
+
+Observables form a $C^*$-algebra; states are positive linear functionals on it; the Hilbert space, when it exists at all, is a derived object (via the GNS construction). The formulation reproduces quantum mechanics on finite systems and generalizes to quantum field theory in regimes where Hilbert-space constructions are ill-defined — Haag's theorem shows that the interaction picture fails in the continuum, and algebraic methods provide the framework that survives. The algebraic perspective is not an alternative to the predictions of quantum mechanics; it is an alternative to the *order of construction*, and its existence is evidence that the Hilbert-space postulate is not the only rigorous foundation.
 
 #### 6.4 Generalized probabilistic theories
-Operational frameworks (preparations, transformations, measurements) with no imposed Hilbert space. Quantum theory is one point in the GPT polytope; "which GPT is Nature" is itself an experimental question.
+
+Operational frameworks specify preparations, transformations, and measurements without imposing a Hilbert space. Quantum theory is one point in the GPT landscape — one point in the polytope of possible theories — and the question "which GPT is Nature?" is an experimental question about the axioms: tomographic locality, purification, continuous reversibility. The GPT programme converts the Hilbert-space postulate from an axiom into a consequence: if the right axioms are assumed, Hilbert space follows (a result in the spirit of Hardy's axioms); if the axioms are weakened, nearby theories appear whose differences are measurable. This is the framework that makes the postulate's alternatives operational rather than philosophical.
 
 #### 6.5 Finite-dimensional Hilbert spaces
-Quantum mechanics per finite causal region; motivated by entropy bounds. Reproduces all tested predictions as limits; differs in principle at the largest scales.
+
+Quantum mechanics per finite causal region: the covariant entropy bound (Chapter 39) implies that the accessible Hilbert space of any finite region is finite-dimensional, bounded by $e^{A/4}$ in Planck units. The finite-dimensional formulation reproduces all tested predictions as limits — every experiment ever performed has used a finite subset of the infinite space — and differs in principle only where the infinite limit and the finite description make different predictions: spectral discreteness at the bound, entanglement-measure deviations, information-theoretic saturation effects (Q7.4). The alternative is not speculative physics; it is the honest finite version of the postulate.
 
 #### 6.6 Path-integral formulation without explicit Hilbert space
-Feynman's sum-over-histories can be formulated without ever naming a Hilbert space — the state space emerges from the measure. The question "which is fundamental" is open and likely undecidable by observation alone (Chapter 35).
+
+Feynman's sum-over-histories can be formulated without ever naming a Hilbert space: amplitudes are integrals over histories of $e^{iS/\hbar}$, and the state space — when it exists — emerges from the measure. The question "which is fundamental, the Hilbert space or the path integral?" is open and, in the current state of the mathematics, likely undecidable by observation alone (Chapter 35). The formulation's status in this treatise is therefore that of 44.4's interpretive alternatives: a legitimate language, with no discriminating experiment yet designed, and the treatise says so explicitly.
 
 ### Chapter 7 — Falsifiability and Open Questions
 
@@ -477,19 +483,19 @@ The Archimedean real line $\mathbb{R}$ is the unique complete Archimedean ordere
 
 #### 19.1 Statement of Ostrowski's theorem
 
-Every nontrivial absolute value on $\mathbb{Q}$ is equivalent either to the usual Archimedean absolute value $|\cdot|_\infty$ or to a $p$-adic absolute value $|\cdot|_p$ for exactly one prime $p$ (Ostrowski, 1918). There is one Archimedean completion — $\mathbb{R}$ — and one non-Archimedean completion per prime — $\mathbb{Q}_p$. Together with the adeles $\mathbb{A}_{\mathbb{Q}}$ they exhaust the metric possibilities for the rationals.
+Every nontrivial absolute value on $\mathbb{Q}$ is equivalent either to the usual Archimedean absolute value $|\cdot|_\infty$ or to a $p$-adic absolute value $|\cdot|_p$ for exactly one prime $p$ (Ostrowski, 1918). There is one Archimedean completion — $\mathbb{R}$ — and one non-Archimedean completion per prime — $\mathbb{Q}_p$. Together with the adeles $\mathbb{A}_{\mathbb{Q}}$ they exhaust the metric possibilities for the rationals. The theorem is a classification result: it does not say which absolute value is *physical*; it says which absolute values *exist* as completions of the rationals, and the list is short. The physical question — which completion does measurement select? — is the subject of Chapter 20, and the philosophical question — is the selection a discovery or a choice? — is the subject of the remainder of this chapter.
 
 #### 19.2 Archimedean vs $p$-adic absolute values
 
-The Archimedean norm measures *size*: many small steps accumulate, $|x+y| \le |x|+|y|$. The $p$-adic norm measures *divisibility by $p$*: $|x+y|_p \le \max(|x|_p, |y|_p)$, the ultrametric inequality. In an ultrametric world, "close" means "congruent modulo high powers of $p$" — a hierarchical, tree-like notion of nearness in which all triangles are isosceles and small differences never accumulate.
+The Archimedean norm measures *size*: many small steps accumulate, $|x+y| \le |x|+|y|$. The $p$-adic norm measures *divisibility by $p$*: $|x+y|_p \le \max(|x|_p, |y|_p)$, the ultrametric inequality. The difference is operational: in an Archimedean world, closeness is additive — a value within $\varepsilon$ of another is found by adding small corrections; in an ultrametric world, closeness is congruence — two values are close when their difference is divisible by a high power of $p$, and small differences never accumulate because the strong triangle inequality forbids it. The consequences are geometric: all ultrametric triangles are isosceles, and every point of a ball is its center. "Close" in the Archimedean sense and "close" in the $p$-adic sense are genuinely different relations — which is why the valuation question is not a matter of units but a matter of the *structure of nearness* itself.
 
 #### 19.3 The adelic approach
 
-The adele ring $\mathbb{A}_{\mathbb{Q}} = \mathbb{R} \times \prod'_p \mathbb{Q}_p$ keeps all completions simultaneously, with the Archimedean place and every prime place on equal footing. Modern number theory (class field theory, the Langlands programme) is formulated adelically; a physical theory that treated all places as measurement-accessible would be the adelic analogue of standard physics.
+The adele ring $\mathbb{A}_{\mathbb{Q}} = \mathbb{R} \times \prod'_p \mathbb{Q}_p$ keeps all completions simultaneously, with the Archimedean place and every prime place on equal footing. Modern number theory — class field theory, the Langlands programme, Tate's thesis — is formulated adelically precisely because theorems that are awkward over any single completion become natural over the adeles: the adelic quotient $\mathbb{Q}\backslash\mathbb{A}_{\mathbb{Q}}$ is compact, and the adelic Mellin transform factorizes across places. A physical theory that treated all places as measurement-accessible would be the adelic analogue of standard physics — not a competitor with the real-valued theory but its completion into a structure where the Archimedean place is one coordinate among many. Chapter 22.2 examines what such a theory would predict.
 
 #### 19.4 Mathematics does not select $\mathbb{R}$
 
-The theorem's lesson for physics: nothing in the rational structure of counts and ratios — the home of frequency, channel counts, and winding numbers (Research Note A, v0.1 record doi:10.5281/zenodo.21970454) — selects the Archimedean completion. Physics selects it operationally (Chapter 20); mathematics merely enumerates the options.
+The theorem's lesson for physics: nothing in the rational structure of counts and ratios — the home of frequency, channel counts, and winding numbers (Research Note A, v0.1 record doi:10.5281/zenodo.21970454) — selects the Archimedean completion. Physics selects it operationally (Chapter 20); mathematics merely enumerates the options. The selection is therefore a *fact about measurement practice* — about how instruments add, compare, and accumulate — not a fact about the counts themselves. The counts are rational; the valuation is a choice; and the choice has alternatives whose physical consequences Chapter 21 and Chapter 22 make explicit.
 
 ### Chapter 20 — Why Physics Currently Selects Archimedean Structure
 
@@ -555,19 +561,24 @@ Born-rule probabilities are real numbers in $[0,1]$; expectation values of obser
 ### Chapter 22 — Alternatives and Testable Consequences
 
 #### 22.1 $p$-adic quantum mechanics
-Wavefunctions on $\mathbb{Q}_p$, $p$-adic Schrödinger and Dirac equations, ultrametric diffusion; the mathematics is well developed (Vladimirov, Volovich, Zelenov; Dragovich et al.). The open question is whether any physical system is *natively* $p$-adic. Candidate regimes: hierarchical disorder, spin-glass replicas, protein folding landscapes, adelic string amplitudes.
+
+Wavefunctions on $\mathbb{Q}_p$, $p$-adic Schrödinger and Dirac equations, ultrametric diffusion: the mathematics is well developed (Vladimirov, Volovich, Zelenov; Dragovich et al.), with exact solutions for the oscillator and hydrogen-atom analogues and a rigorous treatment of the $p$-adic heat and Schrödinger equations. The open question is whether any physical system is *natively* $p$-adic — whether its natural variables are valued by divisibility rather than by magnitude. Candidate regimes are those with explicit hierarchy: hierarchical disorder in spin glasses, replica structures in disordered systems, protein-folding landscapes with tree-like energy structure, and the adelic amplitudes of string theory. The discriminator is structural: a system whose relaxation clusters by congruence (rather than by magnitude) exhibits the ultrametric signature that Chapter 45.8's engineered experiments are designed to detect.
 
 #### 22.2 Adelic formulations
-Treating real and $p$-adic places together; physical predictions require a rule for what is observable at which place. The honest position: adelic physics is a formalism in search of an experiment — and the experiment would be the discovery of a quantity whose natural completion is not Archimedean.
+
+Treating real and $p$-adic places together requires a rule for what is observable at which place: a physical quantity might be real-valued in the laboratory yet adelic in its theoretical description, with the Archimedean place selected by measurement practice (Chapter 20). The honest position: adelic physics is a formalism in search of an experiment — and the experiment would be the discovery of a quantity whose natural completion is not Archimedean. The adelic oscillator and the adelic hydrogen atom are exactly solvable; what is missing is a physical system whose *data* favor the adelic description. Until such a system exists, the adelic formulation belongs to the interpretive class of Chapter 44.4.
 
 #### 22.3 Finite-precision physics
-Formulating dynamics on finite integer grids (no reals at all): automatic error control, no infinities. Reproduces continuum physics as a limit; differs only in regimes the continuum cannot probe.
+
+Formulating dynamics on finite integer grids — no reals at all — gives automatic error control and removes infinities by construction. The continuum physics of Chapters 18–20 is recovered as a limit, and the two descriptions differ only in regimes the continuum cannot probe: at the grid's resolution scale, where discreteness effects become measurable. The proposal is not an alternative ontology but a discipline: if every measured quantity is ultimately a rational interval (Chapter 18.2), a finite-precision formulation is the honest representation, and the continuum is its idealization. The question is whether any phenomenon requires the continuum *as physics* rather than as a convenient limit (Q23.3, Q23.6).
 
 #### 22.4 Non-Kolmogorov probability
-Quantum logic and GPTs already reformulate probability; the remaining question is whether *frequency statistics* ever needs non-additivity — no experiment says yes.
+
+Quantum logic and GPTs already reformulate probability without the Kolmogorov axioms (Chapter 41); the remaining question is whether *frequency statistics* ever needs non-additivity. Every experiment to date is consistent with Kolmogorov frequencies — interference modifies amplitudes, not the statistics of repeated outcomes. The candidate exception would be a system whose event algebra is genuinely non-Boolean at the level of frequencies, which no experiment has yet shown. The theoretical task (46.4) is to determine whether such a system is even coherent; if it is not, the Kolmogorov axioms survive as the statistics of outcomes while quantum logic governs the algebra of propositions.
 
 #### 22.5 Generalized measurement theory
-POVMs, weak measurements, and sequential-measurement frameworks (Chapter 5.5) show that the classical measurement postulates are already too narrow for quantum practice — the valuation question is the same question one level up: which field do the *numbers* live in?
+
+POVMs, weak measurements, and sequential-measurement frameworks (Chapter 5.5) show that the classical measurement postulates are already too narrow for quantum practice: ideal projective measurements are a special case, and the general measurement is a positive operator-valued measure. The valuation question is the same question one level up: which field do the *numbers* live in, and which algebra do the *operations* obey? Generalized measurement theory replaces the assumption that every observable is a self-adjoint operator with the assumption that every measurement is a POVM — a change that preserves all tested predictions while widening the mathematical frame, and one that reframes Chapter 5.5's audit as the entry point to the valuation question.
 
 ### Chapter 23 — Open Questions
 
@@ -612,16 +623,20 @@ In general curved spacetimes there is no Poincaré group, hence no unique Poinca
 ### Chapter 25 — Quasiparticles and Anyons in Condensed Matter
 
 #### 25.1 Electron quasiparticles
-The electron of a metal is a dressed, mass-renormalized, finite-lifetime excitation of the Fermi sea (Chapter 2).
+
+The electron of a metal is a dressed, mass-renormalized, finite-lifetime excitation of the Fermi sea (Chapter 2). Landau's Fermi-liquid theory organizes this: near the Fermi surface, the low-energy excitations are quasiparticles with a one-to-one correspondence to free-electron states, renormalized parameters (effective mass $m^* \approx 1.3\, m_e$ in copper), and residual interactions that vanish at the Fermi surface. The quasiparticle is not a fiction — it is the object that carries current, heat, and spin in a metal — but it is not the bare electron either: its mass, lifetime, and dispersion are properties of the *ground state plus the excitation*, not of a free particle. The conceptual move of Part III — statistics as a property of the state, not the particle — is already implicit here.
 
 #### 25.2 Fractional charge and fractional statistics
-The $\nu = 1/3$ FQHE quasiparticle carries charge $e/3$ and anyonic statistics (Chapter 10): the same electron liquid, a different ground state, different "particles."
+
+The $\nu = 1/3$ FQHE quasiparticle carries charge $e/3$ and anyonic statistics (Chapter 10): the same electron liquid, a different ground state, different "particles." Laughlin's wavefunction describes a ground state whose elementary excitations are vortices carrying fractional charge; the braiding of these vortices produces the fractional exchange phase measured by the interferometry experiments of Chapter 45.2. The electron liquid is the substrate; the quasiparticles are its emergent vocabulary; and the statistics of those quasiparticles is a property of the topological order of the ground state, not of any intrinsic label.
 
 #### 25.3 Topological order
-Ground states with long-range entanglement, anyonic excitations, and degenerate ground states on nontrivial topology: order beyond Landau's symmetry-breaking paradigm. The classification of topological orders is the modern extension of the periodic table of phases.
+
+Topological order is order beyond Landau's symmetry-breaking paradigm: ground states with long-range entanglement, anyonic excitations, and degenerate ground states on nontrivial topology (a $k$-fold degeneracy on the torus for a topological order of rank $k$). The classification of topological orders — in one and two spatial dimensions, and increasingly in three — is the modern extension of the periodic table of phases: instead of symmetry groups, the invariants are topological (the $K$-matrix of the Chern-Simons theory, the modular data of the anyon theory). The electron liquid's topological order is the structure that makes its "particles" anyons rather than fermions, and the classification is the map of the possible particle content of the universe's ground states.
 
 #### 25.4 Same underlying electrons, different emergent particles
-Superconductors (Cooper pairs), quantum Hall states ($e/3$ quasiparticles), metals (Landau quasiparticles), strange metals (no quasiparticles): the underlying electrons are identical; the emergent particles are not. The formalism is the same (effective fields above a ground state); the ground state is the difference.
+
+Superconductors (Cooper pairs), quantum Hall states ($e/3$ quasiparticles), metals (Landau quasiparticles), strange metals (no quasiparticles): the underlying electrons are identical; the emergent particles are not. The formalism is the same (effective fields above a ground state); the ground state is the difference. The condensed-matter lesson generalizes: if the same substrate supports different particles under different ground states, then "particle" is a two-argument concept — particle *of* a vacuum — and the vacuum-dependence of Chapter 24 is not a curiosity of curved spacetime but the everyday physics of solids. The electron in a solid is not the electron in vacuum; both are real, and neither is the whole story.
 
 ### Chapter 26 — Dimensionality and Physical Law
 
@@ -643,19 +658,24 @@ A $d$-dimensional quantum system at $T=0$ maps to a $(d+1)$-dimensional classica
 ### Chapter 27 — The Holographic Principle
 
 #### 27.1 Statement
-The information content of a region is bounded by its boundary area in Planck units ($S \le A/4G\hbar$; Bekenstein's bound and its refinements). If true in its strong form, a $(d+1)$-dimensional theory of gravity is equivalently described by a $d$-dimensional theory without gravity on the boundary.
+
+The information content of a region is bounded by its boundary area in Planck units: the covariant entropy bound takes the form $S \le A/4G\hbar$ for the entropy passing through any light-sheet of a region (Bekenstein's bound and its refinements by Bousso). The statement is a bound, not a slogan: it says that the Hilbert space of any region is finite-dimensional with dimension at most $e^{A/4}$, and that a theory of gravity in the region is equivalently describable by a theory without gravity on its boundary. If true in its strong form, a $(d+1)$-dimensional gravitational theory is a $d$-dimensional theory of the boundary — the number of spacetime dimensions becomes a matter of description, not of ontology. The bound is the deepest known constraint on the information capacity of spacetime, and it is the bridge between Chapter 39's failure of extensivity and the quantum structure of geometry.
 
 #### 27.2 AdS/CFT as a precise duality
-Maldacena's correspondence realizes holography exactly: type IIB strings on $AdS_5 \times S^5$ $\leftrightarrow$ $\mathcal{N}=4$ super-Yang-Mills in 4D. One theory, two descriptions, dimension shifting between them.
+
+Maldacena's correspondence realizes holography exactly: type IIB string theory on $AdS_5 \times S^5$ is equivalent to $\mathcal{N}=4$ super-Yang-Mills theory in four dimensions. One theory, two descriptions, with the dimension shifting between them: the bulk gravity theory and the boundary gauge theory are dual in the strong sense that the partition functions are equal and the operator dictionaries are complete. The duality is the existence proof that holography is not a loose idea but a precise mathematical statement — and its precision is the standard against which any claim of "holographic emergence" in other settings must be measured.
 
 #### 27.3 Bulk vs boundary
-Radial direction in the bulk maps to energy scale on the boundary: the renormalization group is geometric. This is the deepest known instance of "dimension as perspective" (Chapter 26.5).
+
+The radial direction in the bulk maps to energy scale on the boundary: the renormalization group is geometric, and the boundary theory's scale transformations are the bulk's radial translations. Entanglement-wedge reconstruction refines the map: each bulk operator is recoverable from the boundary region entangled with it, and the Ryu–Takayanagi formula identifies boundary entanglement entropy with bulk minimal-area surfaces. This is the deepest known instance of "dimension as perspective" (Chapter 26.5): the extra dimension is not an independent reality but the organization of scale.
 
 #### 27.4 Applications to strongly correlated electrons
-Holographic strange metals reproduce linear-in-$T$ resistivity and Planckian scattering — the very regime where quasiparticles fail (Chapter 2.3). Holography is currently the only framework producing Planckian transport from a solvable model.
+
+Holographic strange metals reproduce linear-in-$T$ resistivity and Planckian scattering — the very regime where quasiparticles fail (Chapter 2.3). The Sachdev-Ye-Kitaev model, a solvable holographic toy model, exhibits exactly the Planckian transport and maximal chaos of the strange-metal phenomenology. Holography is currently the only framework producing Planckian transport from a solvable model, which is why the holographic dictionary is the leading theoretical tool for the strongly correlated regime — even before any claim about the ultimate nature of spacetime is granted.
 
 #### 27.5 Holography is not simply "2D applies to 3D"
-The slogan misleads: holography is a specific duality with a negative-curvature, extra-dimensional bulk; it does not license naive dimensional reduction, and no general proof exists for realistic spacetimes. It is a load-bearing *possibility*, not an established law of all physics.
+
+The slogan misleads: holography is a specific duality with a negative-curvature, extra-dimensional bulk; it does not license naive dimensional reduction, and no general proof exists for realistic (non-AdS, non-supersymmetric) spacetimes. The holographic principle is a load-bearing *possibility*, not an established law of all physics: its status is that of an exactly proven duality (AdS/CFT) plus a conjectured bound (the covariant entropy bound) plus an unproven extrapolation to realistic spacetimes. The treatise's audit keeps the three apart, and Chapter 46.8 examines what would test the extrapolation.
 
 ### Chapter 28 — Open Questions
 
@@ -813,82 +833,114 @@ Fifteen assumptions are audited here, each with the full six-step procedure of �
 ### Chapter 44 — Guiding Principles
 
 #### 44.1 Every load-bearing assumption is a falsifiable postulate
-The treatise's procedural premise: anything load-bearing that is not experimentally established is a postulate, and postulates deserve falsifiability conditions. Nothing is exempted by tradition.
+
+The treatise's procedural premise is simple: anything load-bearing that is not experimentally established is a postulate, and postulates deserve falsifiability conditions. Nothing is exempted by tradition. The four-category discipline of the Notation section applies: a statement in this treatise is labeled a *postulate*, a *theorem*, an *empirical fact*, or an *open question*, and no statement may slide between categories unannounced. The Hilbert-space postulate is a postulate; the spectral theorem is a theorem; the measured value of $a_e$ is an empirical fact; the nature of the vacuum is an open question.
+
+The principle applies with full force to the treatise's own premises. The six-step audit procedure rests on named primitives — ordinary set theory, the standard model of measurement practice, the requirement of empirical adequacy — and those primitives are themselves candidates for the same treatment. This is the audit-the-auditor rule: the last unexamined scaffold is always the one doing the examining. A treatise that demands falsifiability conditions of the Axiom of Choice cannot demand less of its own arithmetic.
 
 #### 44.2 Domain of validity mapping
-For each assumption, the deliverable is a *map* — where it holds, where it is tested, where it is untested, where it is known to fail. Maps, not verdicts.
+
+For each assumption, the deliverable is a *map*, not a verdict. Every assumption in the catalogue of Part VII is assigned to one of four regions: **established** (the assumption holds in its tested domain with precision), **tested** (precision bounds exist but the domain is not exhausted), **untested** (no discriminating observation yet performed), and **known to fail** (a counterexample within the assumption's claimed universality). The map is the empirical record made spatial.
+
+The value of the map is that it updates. Microcausality was *tested* decades ago and remains tested today, but each new precision measurement redraws its boundary. Ergodicity was *established* for generic many-body systems and became *known to fail* with the discovery of many-body localization. Anyonic statistics were *untested* in 1980 and became *established* (in $2+1$ dimensions) with the interferometry experiments of 2020. A domain-of-validity map that never changes is a map nobody is reading.
 
 #### 44.3 No assumption is rejected by default
-Alternatives must *earn* adoption by empirical discrimination; the burden runs both ways — an assumption is not retained by tradition, and an alternative is not adopted by novelty.
+
+The burden of proof runs in both directions. An assumption is not retained by tradition — the catalogue shows that several load-bearing assumptions (uniqueness of the vacuum, extensivity of entropy, ergodicity) are already false as universal claims, and tradition would not have told us so. Symmetrically, an alternative is not adopted by novelty. Every alternative in this treatise's catalogues must satisfy the six-step procedure's fourth step: it must preserve the confirmed predictions of the framework it challenges while relaxing the assumption under examination. Real quantum mechanics must reproduce two-slit interference; $p$-adic quantum mechanics must reproduce the hydrogen spectrum in its tested regime; any alternative to the smooth-manifold model of spacetime must reproduce general relativity at every probed scale.
+
+The historical record motivates the rule. Newtonian mechanics was not "rejected" in 1905; it was shown to be the small-velocity limit of a more general framework, and it remains the load-bearing floor of engineering. The same pattern — preservation of confirmed content, replacement only where the map shows a boundary — is the only pattern this treatise endorses.
 
 #### 44.4 Alternatives must be empirically distinguishable
-An alternative that reproduces all predictions with no discriminating experiment is not physics but interpretation; the programme demands operational differences or says so explicitly.
+
+An alternative that reproduces all predictions of the standard framework and offers no discriminating experiment is not physics but interpretation. It may be a useful language, a mathematical curiosity, or a philosophical preference — but it is not a scientific alternative, and the treatise says so explicitly rather than pretending otherwise.
+
+The catalogues of Parts II, III, and V are therefore filtered by this rule. Real and quaternionic quantum mechanics are scientific alternatives because multipath interference discriminates the number field of amplitudes. The path-integral formulation without an explicit Hilbert space is, so far, an interpretive alternative: no experiment discriminates it from the operator formulation, and the treatise labels it as such. GPT frameworks are scientific because they make the choice of axioms operational. The rule forces honesty about which questions are open because we lack experiments, and which are open because we lack theory — and it refuses to conflate the two.
 
 ### Chapter 45 — Experimental Probes
 
 #### 45.1 Precision electron measurements
-$g-2$ at ever higher precision (electron and muon); EDM searches (ACME-class and beyond); stability and compositeness bounds — the electron as the probe of Chapters 1–3.
+
+The electron is the most precisely measured particle in physics, and each digit of that precision is a datum for the assumption audits. The electron magnetic anomaly, $a_e = (g-2)/2$, is measured in Penning traps by comparing the cyclotron frequency to the spin-flip frequency of a single trapped electron; the current value $a_e = 0.00115965218059(13)$ agrees with the ten-loop QED prediction to roughly one part in $10^{12}$ — the most stringent test of any quantum field theory. The muon analogue shows a persistent tension of about $4.2\sigma$ with Standard Model predictions, and resolving that tension (new physics or a hadronic-correction error) is a direct probe of the Standard Model's completeness. The electron electric dipole moment is bounded at $|d_e| < 4.1\times10^{-30}\ e\cdot\mathrm{cm}$ (ACME-class experiments), constraining $T$-violation in the lepton sector. Electron stability is bounded by Borexino at $\tau > 6.6\times10^{28}$ years, and compositeness searches exclude substructure down to $\sim 10^{-19}$ m. Each bound is a falsifiability datum for the Chapter 1 audit: the electron's quantum numbers and stability are confirmed within these windows, and the windows themselves are the map's tested region.
 
 #### 45.2 Anyon interferometry
-Non-abelian braiding demonstrations; the anyon collider programme; the topological-qubit race (Chapter 10.4).
+
+The direct experimental programme on fractional statistics has transformed Part III's premises from untested to established. In the fractional quantum Hall effect at filling $\nu = 1/3$, shot-noise measurements establish quasiparticle charge $e/3$; collider experiments (Bartolomei et al., *Science* 2020) measure the fractional exchange phase directly; Fabry–Pérot and Mach–Zehnder interferometry (Nakamura et al., *Nature Physics* 2020) resolves anyonic braiding statistics. The current frontier is **non-abelian** anyons: Ising-type quasiparticles in $\nu = 5/2$ states and Majorana-zero-mode platforms, whose braiding operations would implement topologically protected quantum gates. The decisive demonstration — a braiding operation whose fidelity is protected by topology rather than by error correction (Q12.6) — would simultaneously confirm the non-abelian braid group in a physical system and open the topological-qubit route that Chapter 16.3 and Q28.2 depend on.
 
 #### 45.3 Quantum simulation of non-Archimedean or finite-dimensional structures
-Simulating ultrametric dynamics on qubit platforms; finite-Hilbert-space physics per causal diamond; the designed-experiment route to Q23.1–Q23.6.
+
+The designed-experiment route to the valuation questions of Part V passes through quantum simulation. Ultrametric dynamics — $p$-adic diffusion, hierarchical spin glasses, ultrametric random walks — can be embedded in qubit platforms, and a simulation that exhibits the predicted ultrametric signatures (congruence-based clustering, tree-level relaxation hierarchies) would provide the first laboratory system in which "closeness" is demonstrably non-Archimedean (Q23.1). Finite-dimensional Hilbert-space physics per causal diamond (Q7.4) can likewise be simulated: a region whose accessible Hilbert-space dimension saturates its covariant entropy bound behaves differently under information-theoretic probes, and a simulator built from $\sim 10^3$ qubits can test the finite-versus-infinite dichotomy in a controlled setting. The discriminator in both programmes is the same: design the observable so that the Archimedean and non-Archimedean (or finite and infinite) predictions differ measurably, then measure.
 
 #### 45.4 Tests of Lorentz violation
-Clock-comparison and sidereal searches; gamma-ray dispersion tests; SME parameter bounds (Chapter 40).
+
+Lorentz invariance (Chapter 40) is tested across energy scales and sectors. Clock-comparison experiments bound anisotropy of the local Lorentz frame to parts in $10^{18}$; modern optical and microwave clock networks set the strongest constraints on many Standard-Model-Extension coefficients. Interferometric tests (Michelson–Morley-class and ring-laser) bound frame dependence of the speed of light; astrophysical timing — most stringently with gamma-ray bursts such as GRB 221009A — constrains energy-dependent photon dispersion to near the Planck scale; gravitational-wave observations bound Lorentz violation in the gravity sector. The experimental programme is not searching for a violation so much as mapping how far below the Planck scale the symmetry holds — each null result extends the tested region of the domain map.
 
 #### 45.5 Spin-statistics tests
-Violation searches for the exclusion principle (Gran Sasso-class experiments); parastatistics searches (Chapter 12).
+
+The exclusion principle is searched for directly in the VIP and VIP-2 experiments at Gran Sasso: X-ray searches for the Pauli-forbidden $2p \to 1s$ transition in copper bound the violation probability $\beta^2/2 \lesssim 10^{-29}$. Parastatistics alternatives are constrained by the absence of anomalous statistics in $3+1$ dimensions across all particle physics. The absence of anyonic signatures in $3+1$ dimensions (Q12.4) converts into quantitative bounds on how much Lorentz or microcausality violation would be needed to produce non-standard statistics — bounds that tighten with each null result. These experiments are direct tests of the spin-statistics theorem's premises, the subject of the §9.5–§9.7 audits.
 
 #### 45.6 Quantum thermodynamics of single-electron devices
-Landauer-erasure at the single-electron level; fluctuation theorems in mesoscopic conductors; the direct route to Q17.1.
+
+The thermodynamic limits of computation (Chapter 14) are now directly measurable at the single-particle level. Landauer erasure has been demonstrated in single colloidal particles in optical traps (Bérut et al., 2012) at the $k_B T \ln 2$ scale; mesoscopic electron systems extend the measurement to the quantum regime — single-electron boxes, quantum dots, and superconducting circuits where work, heat, and entropy production are measured along individual quantum trajectories. Fluctuation theorems (Jarzynski, Crooks) have been verified in driven two-level systems and single-electron pumps. The frontier (Q17.1, Q17.2) is whether the Landauer bound is attainable or beatable under quantum coherence and strong coupling, and what the true heat-dissipation limit of a quantum many-electron device is — questions with direct engineering consequence for the error-correction refrigeration of Chapter 16.4.
 
 #### 45.7 Entropy production in strongly correlated systems
-Strange metals and MBL platforms as laboratories for the *failure* of ergodicity (Chapter 37).
+
+Strange metals, cuprates, and heavy-fermion compounds violate the quasiparticle picture (Chapter 2.3), and their thermodynamics is correspondingly anomalous: linear-in-$T$ resistivity, Planckian scattering rates of order $k_B T/\hbar$, and entropy production that does not fit the Fermi-liquid template. Many-body localized systems and quantum-scarred models provide the opposite laboratory: systems that fail to thermalize at all (Chapter 37). Both extremes test the ergodicity assumption and the fluctuation-theorem framework in regimes where the standard ensembles fail. The experimental question is not whether ergodicity breaks (it does) but where the boundary of the thermalizing regime lies (Q37.1) — and whether thermodynamics can be rebuilt on the weaker foundation of trajectory-level fluctuation theorems (Q37.2).
 
 #### 45.8 Engineered $p$-adic or adelic quantum models
-Building the candidate systems of Chapter 22.1 and testing for native ultrametric structure.
+
+The candidate systems of Chapter 22.1 — hierarchical disorder, spin-glass replicas, protein-folding landscapes, ultrametric diffusion in glasses — can be engineered rather than merely observed. The programme: build a system whose interaction graph is explicitly a $p$-adic tree, measure its relaxation and correlation statistics, and test for congruence-based (non-Archimedean) structure in the observable time series (Q23.2, Q23.5). The Monna-map programme in the QNFO corpus develops the mathematical bridge — a map between $p$-adic and real dynamics that would allow a designed experiment to distinguish the two valuation structures. A positive result would be the first empirical anchor for the valuation question; a null result would map the tested region of the Archimedean assumption one step further.
 
 #### 45.9 Probing spacetime smoothness at Planck scales
-Gamma-ray timing, gravitational-wave dispersion, and interferometric Planck-scale probes (Chapter 42).
+
+Spacetime's smoothness (Chapter 42) is probed indirectly at energy scales vastly below the Planck scale, through dispersion and coherence measurements that would show characteristic signatures of discrete or noncommutative structure. Gamma-ray timing — H.E.S.S., Fermi-LAT, and very-high-energy bursts — constrains linear and quadratic energy-dependent photon speeds; gravitational-wave dispersion (LIGO/Virgo/KAGRA) bounds Lorentz violation in the gravity sector; long-baseline atom interferometers (MAGIS, AION, AEDGE) probe phase coherence over macroscopic spacetime separations; causal-set theory predicts Poissonian fluctuations in proper time whose signatures are searched for in pulsar timing and interferometric data. Each bound extends the tested region; none has yet reached the Planck scale — the map's untested region remains the largest open region in physics.
 
 ### Chapter 46 — Theoretical Probes
 
 #### 46.1 Real and quaternionic quantum mechanics with observable signatures
-Deriving the multipath-interference predictions that discriminate the number field (Chapter 5.1).
+
+The number field of amplitudes (Chapter 5.1) is empirically discriminable in principle: multipath interference sums amplitudes, and the interference pattern depends on whether the field is $\mathbb{R}$, $\mathbb{C}$, or $\mathbb{H}$. Sorkin-type triple-slit experiments bound deviations from the complex-amplitude sum rules at the level of $10^{-4}$–$10^{-6}$ of the quantum term. The theoretical task is to sharpen the prediction: derive the exact multipath signature of real and quaternionic theories (beyond the leading-order results), identify the optimal interference geometry, and set the precision target that would make a decisive measurement feasible with current single-photon and single-atom technology. The output is a falsifiable table — each number field, its multipath prediction, its precision requirement.
 
 #### 46.2 Model-independent frameworks
-GPT and quantum-logic reformulations of the tested content, to see exactly which axioms carry the predictions.
+
+Generalized probabilistic theories (Chapter 6.4) make the axioms the subject of experiment. The programme: reformulate the confirmed content of quantum mechanics in GPT language, identify which axioms carry which predictions (tomographic locality, purification, continuous reversibility), and determine the geometry of the GPT polytope in which quantum theory is a single point. The theoretical payoff is a taxonomy of what must be true for the world to look quantum — and the identification of nearby GPTs that differ from quantum theory only in the axioms an experiment could target. The question "which GPT is Nature?" becomes the operational form of "why is there a Hilbert space?"
 
 #### 46.3 Finite-dimensional quantum mechanics for causal diamonds
-Entropy-bound-limited Hilbert spaces as the honest finite description (Chapter 5.4).
+
+The covariant entropy bound of Chapter 39 implies that any finite causal region has finite information content, hence a finite-dimensional accessible Hilbert space. The theoretical programme: construct the finite-dimensional quantum mechanics of a causal diamond (bounded by its entropy), derive its corrections to standard infinite-dimensional predictions (spectral discreteness, information-theoretic deviations in entanglement measures), and identify the observable regimes where finite and infinite descriptions differ (Q7.4). The cosmological and black-hole settings where the bound is tightest are the natural testbeds; the output is a list of discriminators between finite and infinite descriptions.
 
 #### 46.4 Measurement theory without Kolmogorov probability
-Quantum-logic statistics and their empirical content (Chapter 41).
+
+Chapter 41's audit shows that the strict propositional form of Kolmogorov's axioms is already falsified by interference; the surviving question is what replaces them. The theoretical programme: develop the quantum-logic and GPT statistics that describe sequential and weak measurements, determine their empirical content, and identify any prediction that distinguishes non-Kolmogorov statistics from the standard operational account. The POVM-versus-PVM question (Q7.5) — whether every physical measurement is an ideal projection or whether generalized measurements are primitive — is the same question one level up: which measurement algebra is the primitive of nature?
 
 #### 46.5 $p$-adic and adelic models of known physics
-Reformulating a known system (oscillator, hydrogen atom, Ising chain) over non-Archimedean fields and asking what would be observable (Chapters 19, 22).
+
+The mathematical machinery of Chapter 19 is fully developed; the physics is not. The programme: reformulate known systems — the harmonic oscillator, the hydrogen atom, the Ising chain — over $\mathbb{Q}_p$ and over the adeles, using the established $p$-adic quantum mechanics of Vladimirov, Volovich, and successors, and ask what would be observable if a physical system were natively non-Archimedean. The adelic harmonic oscillator and the adelic hydrogen atom have exact formal solutions; the open question is their physical interpretation and any experimental signature (Q23.1–Q23.6). The programme's discipline is the same as 46.2: distinguish formalism from prediction, and state the discriminator before claiming the physics.
 
 #### 46.6 Deriving spin-statistics from information principles
-Entanglement-based derivations that trade Lorentz invariance for information axioms — which premise is cheaper? (Chapter 9)
+
+The spin-statistics theorem (Chapter 9) derives the connection from Lorentz invariance, microcausality, positive energy, positive norm, and $3+1$ dimensions. The information-theoretic programme asks which of these premises is cheapest to trade for an information axiom: entanglement-based derivations suggest that the connection may follow from weaker premises than full Lorentz invariance. The value of the trade is diagnostic — the §9.5–§9.7 audits map what each premise contributes, and an information-theoretic derivation that succeeds with fewer premises tells us which premises are doing the physical work. The deliverable is a premise-cost table: for each axiom removed, what must replace it, and what experiment discriminates.
 
 #### 46.7 Thermodynamics without ergodicity
-Building the second law on fluctuation theorems and typicality, and testing where the two foundations diverge (Chapter 37).
+
+Chapter 37's audit establishes that ergodicity fails in general; the theoretical programme is to rebuild the foundations of statistical mechanics on the premises that survive — trajectory-level fluctuation theorems, typicality of observables, generalized eigenstate thermalization — and to determine where the rebuilt foundation diverges from the classical one (Q37.2). The divergence is the experiment: in many-body localized systems and quantum scars, the fluctuation-theorem framework continues to describe single-trajectory statistics while the ensemble framework fails, which is precisely the regime where the two foundations make different predictions. The output is a set of divergence conditions with experimental signatures.
 
 #### 46.8 Emergent spacetime and holographic models
-Background-independent and holographic reconstructions (Chapters 27, 33).
+
+The holographic programme (Chapter 27) treats spacetime as emergent from boundary entanglement; the theoretical task is to make the emergence quantitative and testable. Tensor networks (MERA, HaPPY codes) realize discrete holography exactly and connect the bulk radial direction to the renormalization-group scale; entanglement-wedge reconstruction maps bulk operators to boundary regions; the question is whether any *realistic* spacetime — not just negatively curved AdS — admits such a reconstruction, and what observable consequence would falsify the holographic reading (Q28.3). The quantum-error-correction formulation of the correspondence (holographic codes) makes the claim precise enough to test.
 
 ### Chapter 47 — Milestones and Decision Points
 
 #### 47.1 Short term: precision tests of existing assumptions
-The next decimal of $g-2$, EDM, Lorentz violation, and exclusion-principle bounds — each digit is a domain-of-validity datum.
+
+The next decimal of each headline bound is a domain-of-validity datum: $a_e$ and $a_\mu$ (g-2 theory-experiment confrontations), the electron EDM, Lorentz-violation coefficients, and exclusion-principle violation bounds. Each is a decision point: a discrepancy at the new precision is either a discovery (a falsified assumption) or a confirmation (a mapped boundary). The programme's short-term milestone is the accumulation of these digits across the assumption catalogue, with each result entering the RESEARCH-CONTINUITY-REGISTRY as a calibration-register entry.
 
 #### 47.2 Medium term: distinguishing alternative frameworks
-Number-field discrimination in interference; anyon non-abelianity; ultrametric-structure searches.
+
+The medium-term decision points are the designed discriminations: number-field discrimination in multipath interference (46.1), non-abelian anyon braiding (45.2), ultrametric-structure searches in engineered hierarchies (45.8), and GPT-axiom tests (46.2). Each is binary in principle — the discriminator either fires or it does not — and each outcome maps a previously untested region of an assumption's domain.
 
 #### 47.3 Long term: replacing or confirming foundational postulates
-Planck-scale probes; topological quantum computing at scale; and whatever the register (Part IX) promotes next.
+
+The long-term milestones are Planck-scale probes (45.9), topological quantum computing at scale (45.2), and the promotion of register questions to resolved findings. The decision rule is the treatise's own: no assumption is replaced without a demonstrated failure and a confirmed alternative; no assumption is confirmed without a mapped boundary. The register (Part IX) is the living record of this process — every open question carries its originating chapter, its discriminator, and its status, and every resolution updates the domain maps of Part VII.
 
 ---
 
@@ -910,7 +962,7 @@ Organized by theme; each entry carries its originating chapter and its discrimin
 
 **Vacuum and emergence (Part VI).** Q28.1–Q28.5: electron fundamental or emergent; topological-qubit temperature window; holography's effective status; high-energy quasiparticle consequences; Fock space without a unique vacuum.
 
-**Cross-cutting (Part VII).** Q29.1 (which QFT results genuinely require the Axiom of Choice) · Q30.1 (hypercomputation settings) · Q31.1 (Q23.1–Q23.6) · Q32.1 (microcausality violation excluded by absence of anyonic signatures) · Q33.1 (background-independence observables) · Q34.1 (Q7.2, the information paradox) · Q35.1 (path integrals with no continuum measure) · Q36.1 (which symmetries are irreducibly assumed) · Q37.1–**Q37.2** (thermalizing-regime boundary; thermodynamics without ergodicity) · Q38.1 (cosmic censorship) · Q39.1–**Q39.2** (covariant entropy bound; area law and dimension) · Q40.1 (Lorentz-violation bounds) · Q41.1 (Q23.4, non-Kolmogorov events) · Q42.1 (Planck-scale smoothness) · Q43.1 (effectiveness of mathematics).
+**Cross-cutting (Part VII).** Q29.1 (which QFT results genuinely require the Axiom of Choice); Q30.1 (hypercomputation settings); Q31.1 (Q23.1–Q23.6); Q32.1 (microcausality violation excluded by absence of anyonic signatures); Q33.1 (background-independence observables); Q34.1 (Q7.2, the information paradox); Q35.1 (path integrals with no continuum measure); Q36.1 (which symmetries are irreducibly assumed); Q37.1–**Q37.2** (thermalizing-regime boundary; thermodynamics without ergodicity); Q38.1 (cosmic censorship); Q39.1–**Q39.2** (covariant entropy bound; area law and dimension); Q40.1 (Lorentz-violation bounds); Q41.1 (Q23.4, non-Kolmogorov events); Q42.1 (Planck-scale smoothness); Q43.1 (effectiveness of mathematics).
 
 ### Chapter 49 — Questions Most Likely to Yield Practical Advances
 
@@ -950,22 +1002,97 @@ Pulling on the electron may open the entire foundation. The purpose of this trea
 
 ## Appendix A — Mathematical Background
 
-- **Hilbert spaces:** complex inner-product spaces complete in the induced norm; the spectral theorem for self-adjoint operators; tensor products.
-- **Representation theory:** Wigner's classification; projective representations and $SU(2)$; the braid group $B_N$ vs the permutation group $S_N$.
-- **Ostrowski's theorem:** the classification of absolute values on $\mathbb{Q}$; $\mathbb{R}$, $\mathbb{Q}_p$, and the adeles $\mathbb{A}_{\mathbb{Q}}$; ultrametricity.
-- **$p$-adic numbers:** completions under $|\cdot|_p$; the ultrametric inequality; tree structure.
-- **Adeles:** the restricted product; the place-at-infinity plus all finite places.
+**Hilbert spaces.** A Hilbert space $\mathcal{H}$ is a complex inner-product space complete in the norm induced by the inner product. The prototypical examples are $L^2(X, d\mu)$ (square-integrable functions) and $\ell^2$ (square-summable sequences). The central theorem for quantum mechanics is the **spectral theorem**: every self-adjoint operator $A$ on $\mathcal{H}$ has a unique projection-valued measure $P_A$ such that $A = \int \lambda\, dP_A(\lambda)$; states, observables, and their expectations are therefore encoded in the measure theory of the space. Unbounded self-adjoint operators (position, momentum, field operators) are defined only on dense domains, and their spectral decompositions are the rigorous backbone of the Chapter 4 postulate. Composite systems live in the tensor product $\mathcal{H}_A \otimes \mathcal{H}_B$; the free-fermion and free-boson Fock spaces are the symmetric and antisymmetric tensor algebras over a one-particle space, which is where statistics (Part III) enters mathematically. The algebraic generalization — observables as a $C^*$-algebra with states as positive linear functionals — extends the framework to settings where a global Hilbert space is unavailable (Chapter 6.3).
+
+**Representation theory.** Wigner's classification identifies elementary quantum systems with irreducible unitary representations of the Poincaré group, labeled by mass and spin. The double cover $SU(2) \to SO(3)$ arises because quantum states are rays: projective representations of $SO(3)$ are ordinary representations of $SU(2)$, and the spin-$1/2$ representation acquires a phase $-1$ under a $2\pi$ rotation. The exchange of $N$ identical particles in $d \geq 3$ spatial dimensions is governed by the permutation group $S_N$ (two generators $s_i$ with $s_i^2 = 1$ and the braid relation $s_i s_{i+1} s_i = s_{i+1} s_i s_{i+1}$), whose one-dimensional representations give bosons and fermions; in $d = 2$ the relevant group is the braid group $B_N$, where the generators satisfy $s_i^2 \neq 1$ and the exchange phase is unconstrained — the mathematical origin of anyons (Chapter 10).
+
+**Ostrowski's theorem.** Every nontrivial absolute value on the rationals $\mathbb{Q}$ is equivalent either to the Archimedean absolute value $|\cdot|_\infty$ (yielding the completion $\mathbb{R}$) or to a $p$-adic absolute value $|\cdot|_p$ for exactly one prime $p$ (yielding $\mathbb{Q}_p$). The proof splits on whether the value of some integer exceeds 1: if so the absolute value is Archimedean and the usual analysis applies; if every integer has $|n| \leq 1$, the set of primes $p$ with $|p| < 1$ determines a single prime, and the absolute value is equivalent to $|\cdot|_p$. The theorem is the rigorous statement of Chapter 19's central claim: the real numbers are one completion of the rationals among infinitely many, not a uniquely privileged one.
+
+**$p$-adic numbers.** For a prime $p$, write $x = p^n \cdot (a/b)$ with $p \nmid a b$; then $|x|_p = p^{-n}$. The completion $\mathbb{Q}_p$ satisfies the **ultrametric inequality** $|x+y|_p \leq \max(|x|_p, |y|_p)$, which implies that all triangles are isosceles and that balls are either disjoint or nested — the source of the tree structure of $p$-adic space. The $p$-adic integers $\mathbb{Z}_p$ form the closed unit ball; every $p$-adic number has a unique expansion $\sum_{n \geq n_0} a_n p^n$ with $a_n \in \{0,\dots,p-1\}$. Hensel's lemma provides the lifting of roots from mod $p$ to $\mathbb{Q}_p$, the algebraic engine of the theory.
+
+**Adeles.** The adele ring is the restricted product $\mathbb{A}_{\mathbb{Q}} = \mathbb{R} \times \prod'_p \mathbb{Q}_p$: all completions together, with the restriction that only finitely many coordinates may be non-integral. The diagonal embedding $\mathbb{Q} \hookrightarrow \mathbb{A}_{\mathbb{Q}}$ is discrete and cocompact — the adelic quotient is compact — and this compactness is the analytical heart of modern number theory (Tate's thesis). Adelic harmonic analysis treats all places symmetrically; a physical theory over the adeles would be the natural host for the valuation question of Part V.
 
 ## Appendix B — Experimental Techniques
 
-- **Penning traps:** cyclotron-frequency measurements of $m_e$ and $g-2$; the most precise number in physics.
-- **Anyon interferometry:** edge-channel colliders and Fabry–Pérot interferometry for fractional statistics.
-- **Quantum simulation:** ultrametric and finite-dimensional models on qubit platforms.
-- **Precision measurement:** clock comparison, interferometry, single-electron devices.
+**Penning traps.** A Penning trap confines a single charged particle with a static quadrupole electric field and a strong axial magnetic field; the motion decomposes into three eigenfrequencies — the axial oscillation and the modified cyclotron and magnetron rotations. The electron's $g$-factor is measured by coupling the cyclotron motion to the spin-flip transition: the anomaly frequency $\nu_a = a_e \nu_c$ is detected via the quantum-jump spectroscopy of the cyclotron-spin coupling, yielding $a_e = 0.00115965218059(13)$ — the most precisely measured dimensionless number in physics after the fine-structure constant. The same platform measures $m_e$ via cyclotron-frequency ratios and sets the EDM bounds of Chapter 1. Quantum non-demolition detection of the cyclotron state makes the measurement chain effectively noiseless; the uncertainty budget is dominated by the anomaly-line width and the magnetic-field calibration.
+
+**Anyon interferometry.** In the fractional quantum Hall effect, current flows along chiral edge channels whose excitations are the anyonic quasiparticles of the bulk. Shot-noise measurements of the tunneling current through a quantum point contact determine the quasiparticle charge ($e/3$ at $\nu = 1/3$). Mach–Zehnder and Fabry–Pérot interferometers split and recombine the edge current, and the interference visibility as a function of enclosed charge and tunneling parameters encodes the fractional exchange phase; the collider geometry of Bartolomei et al. (2020) measures the anyon collision statistics directly, and Nakamura et al. (2020) resolved braiding signatures in an electronic Fabry–Pérot cavity. These techniques convert the topological data of Part III into measured numbers.
+
+**Quantum simulation.** Analog quantum simulators (cold atoms in optical lattices, trapped ions, Rydberg arrays) and digital simulators (gate-based processors) can both host the engineered hierarchies of Chapter 45.3: ultrametric diffusion, hierarchical spin-glass couplings, and finite-Hilbert-space truncations. A faithful ultrametric simulation requires a Hamiltonian whose interaction graph realizes the tree metric exactly and an observable whose correlation structure distinguishes Archimedean from non-Archimedean relaxation — the design criterion of the discriminator programmes.
+
+**Precision measurement.** Optical clocks compare atomic transitions at the $10^{-18}$ fractional-frequency level; the 2019 SI redefinition fixed $h$, $e$, $k_B$, and $N_A$ exactly, making the constants of Chapter 1 defined rather than measured. Single-electron pumps transfer charge one electron at a time for current standards; atom interferometers (MAGIS, AION, AEDGE) measure phase coherence over macroscopic spacetime separations for the Planck-scale probes of Chapter 45.9. The metrological chain is the operational anchor of the valuation question: every reported value is a count of ticks against a reference oscillator, and the Archimedean reading of that count is the topic of Part V.
 
 ## Appendix C — Glossary of Terms
 
-**Quasiparticle** — collective excitation of a many-body ground state behaving as a particle with renormalized parameters. **Anyon** — $2+1$D excitation with exchange phase $e^{i\theta}$, $\theta$ arbitrary. **Vacuum** — a chosen ground state of a field theory. **Hilbert space** — the complex vector space of quantum states. **Valuation** — a notion of size/divisibility on a field; by Ostrowski, Archimedean or $p$-adic. **Ergodicity/ETH** — the thermalization hypothesis for closed systems. **Landauer's principle** — $k_B T \ln 2$ minimum dissipation per erased bit. **Holography** — boundary-area encoding of bulk information. **GPT** — generalized probabilistic theory. **MBL** — many-body localization.
+**Anyon** — a $2+1$-dimensional excitation whose exchange phase $e^{i\theta}$ is arbitrary (braid-group statistics); observed in the fractional quantum Hall effect.
+
+**Adeles** — the restricted product of all completions of $\mathbb{Q}$, $\mathbb{A}_{\mathbb{Q}} = \mathbb{R} \times \prod'_p \mathbb{Q}_p$; the simultaneous home of all valuations.
+
+**Archimedean valuation** — an absolute value satisfying the triangle inequality in its strong form; the usual absolute value on $\mathbb{R}$.
+
+**Born rule** — the prescription that measurement outcomes occur with probabilities $P(a) = \langle\psi|\Pi_a|\psi\rangle$; the interpretive bridge between states and statistics.
+
+**Braid group** — the group of strand exchanges in $2+1$ dimensions, $B_N$; its continuous one-dimensional representations give anyonic statistics.
+
+**Causal diamond** — the intersection of the past and future of a spacetime point; the covariant entropy bound restricts the Hilbert space of any such region.
+
+**Church–Turing thesis** — the claim that every effectively computable function is Turing-computable; its physical form asserts the simulability of nature.
+
+**Conductance quantum** — $G_0 = 2e^2/h$, the conductance of one ballistic spin-degenerate channel; the counting unit of quantum transport.
+
+**Eigenstate thermalization hypothesis (ETH)** — the conjecture that individual eigenstates of chaotic many-body systems reproduce microcanonical statistics locally.
+
+**Ergodicity** — the identity of time averages and ensemble averages; known to fail in many-body localized systems.
+
+**Fermi liquid** — the weakly interacting quasiparticle description of metals; its breakdown signals non-quasiparticle physics.
+
+**Fine-structure constant** — $\alpha = e^2/(4\pi\varepsilon_0\hbar c) \approx 1/137.036$, the dimensionless electromagnetic coupling.
+
+**Fractional quantum Hall effect (FQHE)** — the quantized Hall plateau at fractional filling with fractionally charged, anyonic quasiparticles.
+
+**Generalized probabilistic theory (GPT)** — an operational framework of preparations, transformations, and measurements without an imposed Hilbert space.
+
+**Global hyperbolicity** — the spacetime property of admitting a Cauchy surface; the assumption underlying predictability in general relativity.
+
+**Hilbert space** — a complete complex inner-product space; the state space of quantum mechanics.
+
+**Holographic principle** — the bound on the information content of a region by its boundary area, realized precisely in AdS/CFT.
+
+**Landauer's principle** — the minimum dissipation $k_B T \ln 2$ per erased bit of information.
+
+**Lorentz invariance** — exact symmetry under Lorentz transformations; a premise of the spin-statistics theorem and the Standard Model.
+
+**Many-body localization (MBL)** — the disorder-induced failure of thermalization in interacting quantum systems; a counterexample to ergodicity.
+
+**Microcausality** — the (anti)commutation of spacelike-separated fields; the locality premise of quantum field theory.
+
+**Ostrowski's theorem** — the classification of all absolute values on $\mathbb{Q}$: the Archimedean one and the $p$-adics.
+
+**$p$-adic number** — an element of the completion $\mathbb{Q}_p$ under the $p$-adic absolute value; ultrametric, tree-like structure.
+
+**Path integral** — the functional integral over histories; a formulation of quantum amplitudes whose continuum definition is not always established.
+
+**Pauli exclusion principle** — the antisymmetry of identical fermion states; the stability of matter's microphysical basis.
+
+**Penning trap** — the electromagnetic trap used for the most precise measurements of electron mass and $g-2$.
+
+**Quasiparticle** — a collective excitation of a many-body ground state behaving as a particle with renormalized parameters.
+
+**Renormalization group** — the flow of couplings under scale change; the organizing principle of effective field theory.
+
+**Spin-statistics theorem** — the theorem connecting integer/half-integer spin to boson/fermion statistics, under its five premises (Lorentz invariance, microcausality, positive energy, positive norm, $3+1$ dimensions).
+
+**Thermal de Broglie wavelength** — $\lambda_T = h/\sqrt{2\pi m k_B T}$, the length scale at which quantum and thermal scales compete.
+
+**Ultrametric inequality** — $|x+y| \leq \max(|x|,|y|)$; the defining property of $p$-adic and hierarchical structure.
+
+**Unitarity** — exact norm preservation of closed-system evolution; the assumption of information conservation.
+
+**Vacuum** — a chosen ground state of a field theory; particle content is defined relative to it.
+
+**Valuation** — a notion of size or divisibility on a field; by Ostrowski, either Archimedean or $p$-adic.
+
+**Wiedemann–Franz law** — the proportionality of thermal and electrical conductivities, $\kappa/(\sigma T) = L_0$, with the Lorentz number $L_0 = (\pi^2/3)(k_B/e)^2$.
 
 ## Appendix D — Bibliography
 

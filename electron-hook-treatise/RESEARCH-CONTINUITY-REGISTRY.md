@@ -49,10 +49,10 @@ FQ1 disconfirmed if: an experiment discriminates real vs complex amplitudes at s
 
 ## 6. Next actions (prioritized)
 
-- **P0** — Publish v0.1 (this cycle). Done when DOI live + D1/KG/Vectorize/R2 verified.
+- **P0** — **EXP-01..EXP-10 (v0.3.1): expand the 10 remaining thin prose chapters** — Ch 8 (What Spin Is), 10 (Where the Theorem Fails), 11 (Statistics as Emergent), 13 (Physical Basis of Computation), 15 (Nonequilibrium Thermodynamics), 16 (Electron-Based Quantum Computation), 18 (How Observables Are Measured), 20 (Why Physics Selects Archimedean), 26 (Dimensionality and Physical Law), 47 (Milestones — trim expansion to prose depth ≥300 words each).
 - **P1** — Expand Part II/III into chapters 13–18 (thermodynamics of computation) with the two notes as seeds.
-- **P1** — RES.009 lineage cross-link: add related_identifiers on a future newversion.
-- **P2** — FQ3 experimental discriminator design (UMP programme).
+- **P1** — FQ3 experimental discriminator design (UMP programme).
+- **P2** — FQ1/FQ2 literature sweeps (number-field interference; finite-dimensional QM).
 
 ## 7. Session log + maintenance
 
@@ -60,4 +60,5 @@ FQ1 disconfirmed if: an experiment discriminates real vs complex amplitudes at s
 - 2026-08-17 — v0.2 Full Edition (9 parts, 51 chapters, 34 six-step audits) published (10.5281/zenodo.21970697). FQ register unchanged (same frontier questions, now chapter-anchored); added Q29.1–Q43.1 (Part VII) and Q37.1/Q37.2, Q39.1/Q39.2.
 - 2026-08-17 — v0.2.1 published (10.5281/zenodo.21970736): §0.4/Preface prose correction (Chapter 51 reference); no register changes.
 - 2026-08-17 — v0.2.2 published (10.5281/zenodo.21971503): bibliography extension (30 → 42 entries, all live-verified) + 19.4 phrasing fix; no register changes.
+- 2026-08-17 — **v0.3 published (10.5281/zenodo.21972676): depth expansion** — Part VIII + Appendices A–C + 6 core chapters to prose (17,545 words, +48%); Abstract overclaim corrected; EXP-01..EXP-10 registered for v0.3.1.
 - Maintenance: update Status/Next action on every version bump; close predictions on their check dates.
