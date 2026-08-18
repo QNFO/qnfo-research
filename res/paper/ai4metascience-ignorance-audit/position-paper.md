@@ -50,7 +50,7 @@ Three lessons from the case:
 
 One day before the finding surfaced, the same organization developed, through iterative human–AI dialogue, the Universal Ignorance Audit (Quni-Gudzinas 2026a, DOI 10.5281/zenodo.21901984): a fifteen-question, five-phase method for systematically interrogating the structure of not-knowing in any domain.
 
-The audit's starting point: not-knowing is not a void between islands of knowledge; it is an active structure with load-bearing members, blind corners, defended zones, and generative capacities. Its five phases move from (1) scaffolding — identifying the load-bearing assumptions the inquiry rests on; (2) map–territory hygiene — distinguishing representation from reality; (3) wobble probing — locating felt anomalies; (4) power analysis — asking whose interests the current knowledge arrangement serves; and (5) recursive meta-audit — applying the audit to itself.
+The audit's starting point: not-knowing is not a void between islands of knowledge; it is an active structure with load-bearing members, blind corners, defended zones, and generative capacities. Its five phases move from (1) scaffolding — identifying the load-bearing assumptions the inquiry rests on; (2) map–territory hygiene — distinguishing the map from the territory; (3) wobble probing — locating felt anomalies; (4) power analysis — asking whose interests the current knowledge arrangement serves; and (5) recursive meta-audit — applying the audit to itself.
 
 Three properties make it a governance instrument rather than a contemplative exercise:
 
