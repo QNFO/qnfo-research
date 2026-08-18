@@ -99,7 +99,10 @@ behavior under the diagram's rewrites reveals the code's error properties. De Be
 Horsman proved that the operations of the ZX calculus match the operations of surface-code
 lattice surgery exactly: red and green spiders correspond to rough and smooth merges and
 splits [8]. Pauli webs have since become the standard tool for reading stabilizer structure
-off diagrams, most strikingly in the holographic setting [7].
+off diagrams, most strikingly in the holographic setting [7]. The calculus has also been
+extended to the infinite, translation-invariant codes that dominate modern error-correction
+proposals — lattice codes, convolutional codes — through the delayed stabilizer ZX-calculus,
+which adds a single delay generator feeding data between time steps [17].
 
 **Gadgets.** Non-Clifford operations are the expensive part of quantum computation, and the
 diagrammatic community has developed "gadgets": small diagrammatic patterns that encode a
@@ -144,7 +147,8 @@ compatible, in the sense that the semantics they assign to the same diagram agre
 
 **Within the computational domain, the answer is yes, with proof.** Spiders and Pauli webs are
 coherent because the stabilizer fragment of the ZX calculus is complete [2, 14, 15]: every
-stabilizer equality is provable diagrammatically, and the lattice-surgery correspondence is an
+stabilizer equality is provable diagrammatically, the rule set has been shown minimal in the
+sense that no rewrite rule is redundant [18], and the lattice-surgery correspondence is an
 exact match, not an analogy [8]. Spiders and gadgets are coherent because gadgetization
 preserves circuit semantics — the ZH calculus is complete for universal quantum computation
 [12], and qubit-count optimization via gadget reversal preserves the number of non-Clifford
@@ -170,8 +174,12 @@ lines emerge from the literature:
    concept — a number attached to a statistical ensemble — and the holographic dictionary that
    connects it to geometry is itself one of the most contested constructions in physics. The
    ZX diagrams import the vocabulary (entropy, wormholes, the AdS/CFT correspondence) without
-   any demonstrated compatibility with the diagrammatic semantics. The diagrams are not wrong
-   to track stabilizers; they are unvetted as carriers of gravity claims.
+   any demonstrated compatibility with the diagrammatic semantics. The same fault line
+   appears one step earlier, in the diagrammatic treatment of probability itself: the
+   decohered ZX-calculus extends the language to classical probability distributions over
+   classical bits [16], and that classical-statistical fragment is routinely mixed with the
+   quantum one without a boundary being drawn. The diagrams are not wrong to track
+   stabilizers; they are unvetted as carriers of thermodynamic and statistical claims.
 
 3. **The 3+1D-to-1D fault line inside the same diagram.** When spin networks [5] and
    holographic entropy [7] appear in the same diagrammatic tradition, the two physical imports
