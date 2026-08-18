@@ -102,7 +102,7 @@ The bottleneck in AI-accelerated science is evaluation, verification, and govern
 
 Quni-Gudzinas, R. B. (2026a). *The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing.* Zenodo, v0.3. DOI: 10.5281/zenodo.21901984.
 
-Quni-Gudzinas, R. B. (2026b). *[Flagship paper subject to forensic analysis — metadata and version history preserved in the organization's Zenodo corpus.]* Zenodo. DOI: 10.5281/zenodo.21208346.
+Quni-Gudzinas, R. B. (2026b). *The Ultrametric Foundation: A Unified Thesis on Number, Time, Knowledge, and Computation.* Zenodo. DOI: 10.5281/zenodo.21208346.
 
 Quni-Gudzinas, R. B. (2026c). *Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-Assisted Research Pipeline.* Zenodo, v0.3. DOI: 10.5281/zenodo.21901983.
 
@@ -118,4 +118,4 @@ Tetlock, P. E. (2005). *Expert Political Judgment: How Good Is It? How Can We Kn
 
 Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 
-Whitcomb, D., Battaly, H., Baehr, J., & Howard-Snyder, D. (2015). Intellectual humility: Owning our limitations. *Philosophy and Phenomenological Research*, 91(1), 95–120.
+Whitcomb, D., Battaly, H., Baehr, J., & Howard-Snyder, D. (2017). Intellectual humility: Owning our limitations. *Philosophy and Phenomenological Research*, 94(3), 509–539.
