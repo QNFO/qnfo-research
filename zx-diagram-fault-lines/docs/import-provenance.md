@@ -37,7 +37,7 @@ Evidence: `artifacts/external-search/corpus-sweep-2026-08-18.md` (arXiv records 
 |---|---|
 | **Construct** | Diagrammatic encodings of non-Clifford (typically T/H) operations as small graph gadgets — the "gadgetization of Hadamard gates"; phase gadgets in ZH-calculus. |
 | **Origin silo** | Measurement-based quantum computation (MBQC) and circuit optimization / T-count reduction (compilation layer). |
-| **Canonical sources** | Vandaele, "Qubit-count optimization using ZX-calculus" (arXiv:2407.10171 — gadgetization of Hadamard gates, Pauli Fusion, lattice surgery); Backens & Kissinger, "ZH: A Complete Graphical Calculus" (arXiv:1809.00745, phase gadgets); rooted in Raussendorf–Briegel one-way quantum computer (arXiv:quant-ph/0108118). |
+| **Canonical sources** | Vandaele, "Qubit-count optimization using ZX-calculus" (arXiv:2407.10171 — gadgetization of Hadamard gates, Pauli Fusion, lattice surgery); Backens & Kissinger, "ZH: A Complete Graphical Calculus" (arXiv:1805.02175, phase gadgets); rooted in Raussendorf, Browne, and Briegel one-way quantum computer (arXiv:quant-ph/0108118). |
 | **What it imports** | Graph-state resource structure; measurement-pattern semantics (MBQC); the T-count/optimization machinery of the compilation silo. |
 | **What it silently carries** | The MBQC equivalence claims — a gadget is *a map of a computation*, validated by soundness of the diagrammatic rewrite system, not by any physical realization. |
 | **Seam (map ends)** | A gadget is a diagrammatic encoding of a gate. Reading a gadget as a hardware component ("this is how the T gate is built") imports MBQC physicalization assumptions that the diagram itself does not carry. |

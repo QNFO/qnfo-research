@@ -28,8 +28,9 @@ siloed disciplines remain separate except when it is convenient to mix their imp
 regard for mutual compatibility. The conclusion is not that the diagrams are wrong; it is that
 they are maps, and the discipline of using a map is knowing where it ends. Every claim here is
 either an externally verified fact about the literature, or an explicitly marked argument; the
-premises the argument rests on — that a formalism can be about a physical reality at all, and
-that unchecked import-mixing is epistemically risky — are stated plainly in the final section,
+premises the argument rests on — that a formalism can be about a physical reality at all, that
+unchecked import-mixing is epistemically risky, and that the distinction between a picture of
+computation and a picture of reality is well-founded — are stated plainly in the final section,
 where the paper's own map ends.
 
 ## 1. Introduction: the satisfaction of diagrams
@@ -98,7 +99,7 @@ operators — families of X/Z strings that commute with the code's logical opera
 behavior under the diagram's rewrites reveals the code's error properties. De Beaudrap and
 Horsman proved that the operations of the ZX calculus match the operations of surface-code
 lattice surgery exactly: red and green spiders correspond to rough and smooth merges and
-splits [8]. Pauli webs have since become the standard tool for reading stabilizer structure
+splits [8]. Pauli webs have since become a standard tool for reading stabilizer structure
 off diagrams, most strikingly in the holographic setting [7]. The calculus has also been
 extended to the infinite, translation-invariant codes that dominate modern error-correction
 proposals — lattice codes, convolutional codes — through the delayed stabilizer ZX-calculus,
@@ -190,6 +191,11 @@ lines emerge from the literature:
 A search of the literature for a published compatibility audit — a paper checking, across the
 silos, whether the imported semantics agree — found none as of August 2026. This absence is
 itself the finding: the fault lines are not disputed territory; they are unvisited territory.
+The negative claim is bounded by the search and by its stated falsifier: a published
+compatibility audit that establishes mutual consistency of the physical imports — for example,
+a demonstrated agreement between the holographic dictionary and the 2D diagrammatic semantics —
+would falsify the "unchecked" component of the claim, and the claim is written to be revised
+if one appears.
 
 ## 5. The seam: where the map ends
 
@@ -214,11 +220,12 @@ seam is unmarked on the diagrams themselves.
   how the T gate is built" — the physicalization assumptions of MBQC have been imported without
   the resource states being demonstrated.
 
-Why does this matter? Because the cone of ignorance of a map is unknown by construction: a
-simplified map does not probe outside its own locality. The ZX calculus cannot tell you whether
-the 2D topology of its diagrams is the topology of quantum reality, because every question it
-can answer is answered inside the 2D picture. The seam is exactly where the map's questions
-stop — and no theorem of the map can see past it.
+Why does this matter? Because the cone of ignorance of a map — the region the map cannot
+probe, since its questions are answerable only inside the picture — is unknown by
+construction: a simplified map does not probe outside its own locality. The ZX calculus cannot
+tell you whether the 2D topology of its diagrams is the topology of quantum reality, because
+every question it can answer is answered inside the 2D picture. The seam is exactly where the
+map's questions stop — and no theorem of the map can see past it.
 
 ## 6. The cafeteria problem
 
@@ -278,10 +285,13 @@ all, so that questions of physical bearing are well-formed. Second, the epistemi
 premise: that unchecked mixing of imports across silos is a real hazard, worth auditing,
 rather than a harmless byproduct of interdisciplinary work. Third, the map-territory
 distinction itself: that there is a difference between a picture of computation and a picture
-of reality, and that the difference matters. These are the unanalyzable primitives of this
-paper's frame — the ground it stands on without proving. Everything else in the paper is
-either a verified fact about the literature or an argument built on that ground, and the
-boundary between the two has been marked throughout.
+of reality, and that the difference matters. The map-territory framing is not original to this
+paper: it descends from the general tradition of semantic hygiene associated with Korzybski
+and Bateson, and, in this research program, from the author's own locale framework, which
+holds that physical statements are true only within a stated scope. These are the
+unanalyzable primitives of this paper's frame — the ground it stands on without proving.
+Everything else in the paper is either a verified fact about the literature or an argument
+built on that ground, and the boundary between the two has been marked throughout.
 
 The satisfaction of a closing diagram is real. So is the discipline of remembering that it
 closed a map, not the world.

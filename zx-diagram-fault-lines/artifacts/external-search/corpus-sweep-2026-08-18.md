@@ -66,3 +66,18 @@ record shows ZX diagrams being loaded with imports from lattice surgery (QEC), h
 each import accompanied by its own completeness/soundness story, with no published cross-silo
 compatibility audit. The claim's falsifier (find the passing compatibility audit) did NOT turn up
 in this sweep; the absence is the gap, not the proof.
+
+## arXiv falsifier queries (external audit, reviewer pass-2, 2026-08-18)
+
+Independent verification of the scoped negative claim "no published cross-silo compatibility
+audit as of Aug 2026" — performed by the red-team reviewer (session 9AKEz5BZolb28GPQVl0eh)
+with live arXiv API, 3 formulations:
+
+| # | Query formulation | Results examined | Compatibility audit found? |
+|---|---|---|---|
+| F1 | ZX + compatibility/cross-silo semantics | 2 | No |
+| F2 | diagrammatic + spin networks/holographic + compatibility | 15 | No |
+| F3 | "Pauli webs" + holographic/LQG + ZX | 6 | No (only the import papers and Pauli-web applications) |
+
+Total: 33 results examined, no published compatibility audit surfaced. Combined with the
+Phase-1 sweep (14 arXiv records), the scoped negative claim survives independent spot-check.
