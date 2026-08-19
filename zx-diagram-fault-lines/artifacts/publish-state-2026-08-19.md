@@ -1,6 +1,6 @@
 # Publish State — RES.015 v0.4 (2026-08-19)
 
-## Status: READY-TO-PUBLISH, BLOCKED ON ZENODO FILE SERVICE
+## Status: PUBLISHED (2026-08-19)
 
 Draft: **22010380** (fresh; predecessor 22009416 discarded after file-index corruption).
 Reserved DOI: **10.5281/zenodo.22010380** (concept DOI 10.5281/zenodo.21991895 unchanged).
