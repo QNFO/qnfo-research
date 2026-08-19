@@ -7,7 +7,7 @@
 
 ## 1. What the adjudication established — and what it MEANS for QNFO
 
-The adjudication graded five objections to the Post-Quantum Synthesis (PQS) framework and surfaced three results that carry forward:
+The adjudication graded five objections to the Post-Quantum Synthesis (PQS) framework — objections 1–3 **Partially confirmed**, objection 4 **Unsupported**, objection 5 **Partially confirmed (scrutiny premise contradicted)**; core claim CC-1 supported (≥2 objections fail a symmetric evidence standard) — and surfaced three results that carry forward:
 
 1. **The four-grade critique-validity rubric works.** Applied live, it separated the critique's substance (objection 2 — the missing measurement mechanism — is real, confirmed against the primary text's own admission) from its premise failures (objection 4 — a four-decade peer-reviewed p-adic literature ignored; objection 5 — institutional status substituted for epistemic content, a documented reasoning error). **Meaning:** QNFO now has a field-tested instrument for grading any critique of any QNFO claim.
 
