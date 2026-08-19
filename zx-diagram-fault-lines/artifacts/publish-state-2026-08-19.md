@@ -1,6 +1,22 @@
 # Publish State — RES.015 v0.4 (2026-08-19)
 
-## Status: PUBLISHED (2026-08-19)
+## Status: PUBLISHED (2026-08-19, resolved)
+
+- **v0.4.1 PUBLISHED**: record 22017367, DOI 10.5281/zenodo.22017367, version 0.4.1,
+  concept 21991895, 20 files. Published after a concurrent session completed the uploads and
+  the parent session finished the missing files (md/pdf via bucket; fig2 via multipart) and
+  removed a duplicate fig2 entry, then deposit-API publish returned 202.
+- Verified post-publish: frontmatter DOI 22017367 (correct self-DOI), R1 remediation sentence
+  present, references.bib 26 unique entries, PDF byte-identical to the rebuilt remediated file,
+  doi.org HEAD 200, DataCite findable version 0.4.1.
+- The prior v0.4 record (22010380, published by a concurrent session at 13:51Z) carries the
+  PRE-remediation content (28-entry bib with two duplicate keys; pre-R1 practitioner wording).
+  Per the publish-then-audit loop, that is immutable and superseded by this v0.4.1 newversion.
+- Full diagnostic of the file-service flakiness (records-API commit 404-lag, deposit-view
+  exclusion of bucket objects, multipart underscore-sanitization) is recorded in
+  artifacts/post-publication-audit-v0.4-2026-08-19.md and this file's earlier sections.
+- Remaining after this version: v0.5 (figures wired into the paper body, in-room answers,
+  fig2 key consistency is already correct).
 
 Draft: **22010380** (fresh; predecessor 22009416 discarded after file-index corruption).
 Reserved DOI: **10.5281/zenodo.22010380** (concept DOI 10.5281/zenodo.21991895 unchanged).
