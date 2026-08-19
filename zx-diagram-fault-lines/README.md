@@ -29,7 +29,7 @@ they are maps, and the discipline of using a map is knowing where it ends.
 | `zx-diagram-fault-lines.md` | Paper source (Markdown, plain scholarly prose) |
 | `zx-diagram-fault-lines.html` | Paper (HTML, pandoc standalone) |
 | `zx-diagram-fault-lines.pdf` | Paper (PDF, Chromium CDP render) |
-| `references.bib` | 18 verified bibliography entries (P3.AUTHOR-GATE) |
+| `references.bib` | 28 verified bibliography entries (P3.AUTHOR-GATE) |
 | `citation-audit.md` | Zero-context citation verification ledger |
 | `PROJECT-PLAN.md` | Phase plan, milestones, risk register, premise-depth disclosure |
 | `README.md` | This file |
@@ -38,6 +38,11 @@ they are maps, and the discipline of using a map is knowing where it ends.
 | `artifacts/universal-ignorance-audit.md` | UIA (15 questions) run on the core claim |
 | `artifacts/calibration-register.md` | Pre-registered falsifiable claims + UIA Q15 seed |
 | `artifacts/external-search/corpus-sweep-2026-08-18.md` | Full evidence file for all corpus/arXiv queries |
+| `artifacts/external-search/qpl2026-zx-cluster-2026-08-19.md` | QPL 2026 nine-paper cluster: extraction + verification ledger |
+| `artifacts/external-search/falsifiability-sweep-padic-zx-2026-08-19.md` | p-adic/ultrametric ZX falsifiability check + D1 fix record |
+| `docs/zx-program-advancement-map-2026-08-19.md` | Program-advancement map, gap analysis, condensed UIA |
+
+Version 0.4 (2026-08-19) adds the post-publication appendix (QPL 2026 cluster) to the paper and the three evidence files above to the release set.
 
 ## Provenance
 

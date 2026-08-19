@@ -47,3 +47,26 @@ each entry is real, correctly attributed, and cited in a context the paper actua
 - 18 external entries, all verified real + correctly attributed + context-supported: **18/18 PASS**
 - 0 hallucinated authors, 0 wrong years, 0 fabricated venues, 0 version mismatches
 - 1 ID-correction applied (documented above) — the P3.AUTHOR-GATE earned its keep.
+
+
+## v0.4 addendum (2026-08-19)
+
+Ten new bibliography entries added for the post-publication appendix (QPL 2026 cluster).
+Verification: all ten checked against the arXiv API or the official QPL submission PDF on
+2026-08-19; no fabricated metadata.
+
+| Key | Source | Verification |
+|---|---|---|
+| deaconu2025buildings | arXiv:2510.11526 | arXiv API title/authors match |
+| wang2025spin | arXiv:2511.06012 | arXiv API match |
+| wan2026holographic | arXiv:2601.04467 | arXiv API match |
+| comfort2026delayed | arXiv:2607.04015 | arXiv API match (also [17] in the published reference list) |
+| kuyanov2026rankwidth | arXiv:2603.06764 | arXiv API match |
+| ruesch2025fault | arXiv:2510.08477 | self-stated in QPL PDF; cross-cited by 2601.04467 |
+| kissinger2026zxflow | arXiv:2603.09580 | arXiv API match |
+| yeh2026threeway | QPL 2026 submission only | no public arXiv identifier located; flagged in the entry note field |
+| mcdowallrose2025fermions | arXiv:2505.06212 | self-stated in QPL PDF |
+| defelice2026dataflow | arXiv:2601.08389 | arXiv API match |
+
+Zero fabricated entries; one entry (yeh2026threeway) deliberately carries no arXiv identifier
+rather than an unverified one.

@@ -1,9 +1,9 @@
 ---
 title: "ZX Diagrams at the Seam: Spiders, Pauli Webs, Gadgets, and the Cafeteria Problem of Cross-Disciplinary Imports"
 author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-18"
+date: "2026-08-19"
 license: "CC BY-NC-SA 4.0"
-doi: "10.5281/zenodo.21992118"
+doi: "10.5281/zenodo.22009416"
 status: "published"
 keywords: ["ZX calculus", "diagrammatic reasoning", "quantum computing", "map-territory", "epistemology", "import provenance"]
 ---
@@ -297,9 +297,9 @@ The satisfaction of a closing diagram is real. So is the discipline of rememberi
 closed a map, not the world.
 
 
-## Appendix: Post-publication evidence from QPL 2026 (working draft)
+## Appendix: Post-publication evidence from QPL 2026 (added in version 0.4, 2026-08-19)
 
-*Draft note: this appendix is working text for the next published version of this paper. It has not appeared in any published record. arXiv identifiers were verified on 19 August 2026.*
+*Added in version 0.4 of this record (19 August 2026). arXiv identifiers were verified on the same date.*
 
 Within a day of this paper's publication, the 23rd International Conference on Quantum Physics and Logic (QPL 2026) presented a cluster of nine ZX-calculus contributions. The cluster is direct evidence for the pattern this paper audited: the diagrams continue to be loaded with imports from adjoining disciplines, and the load continues to grow.
 
