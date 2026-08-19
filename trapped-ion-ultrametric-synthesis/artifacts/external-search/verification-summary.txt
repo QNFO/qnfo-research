@@ -1,0 +1,18 @@
+ARXIV 2511.21142 ERROR: HTTP Error 429: Unknown Error
+ARXIV PREDIN ERROR: HTTP Error 429: Unknown Error
+ARXIV TN-SUPREMACY ERROR: HTTP Error 429: Unknown Error
+CROSSREF FISHER: Quantum cognition: The possibility of processing with nuclear spins in the brain | 10.1016/j.aop.2015.08.020 | Fisher || Faculty Opinions recommendation of Quantum cognition: The possibility of process | 10.3410/f.726138470.793512704 | Triggle || The Use of Dipolar Coupled Nuclear Spins for Quantum Information Processing and  | 10.21236/ada462311 | Cory
+CROSSREF 10.1038/s41567-022-01658-0: A universal qudit quantum processor with trapped ions | Nature Physics | [[2022, 7, 21]]
+CROSSREF 10.1038/s41467-023-37375-2: Native qudit entanglement in a trapped ion quantum processor | Nature Communications
+CROSSREF 10.1103/PRXQuantum.5.040309: Digital Quantum Simulation of a (1+1)D SU(2) Lattice Gauge Theory with Ion Qudits | PRX Quantum
+CROSSREF 10.1016/j.aop.2015.04.013: Shape invariant potentials in higher dimensions | Sandhya
+--- pass 2 ---
+OK Fisher 2015 Posner [10.1016/j.aop.2015.08.020]: Quantum cognition: The possibility of processing with nuclear spins in the brain | Matthew P.A. Fisher | [[2015, 11]]
+OK Page-Wootters 1983 [10.1103/PhysRevD.27.2885]: Evolution without evolution: Dynamics described by stationary observables | Don N. Page; William K. Wootters | [[1983, 6, 15]]
+OK White DMRG 1992 [10.1103/PhysRevLett.69.2863]: Density matrix formulation for quantum renormalization groups | Steven R. White | [[1992, 11, 9]]
+OK Berry-Keating 1999 [10.1137/S0036144598347497]: The Riemann Zeros and Eigenvalue Asymptotics | M. V. Berry; J. P. Keating | [[1999, 1]]
+OK Dirac 1928 [10.1098/rspa.1928.0023]: The quantum theory of the electron | Paul Adrien Maurice Dirac | [[1928, 2, 1]]
+OSTROWSKI search: Über Einige Lösungen Der Funktionalgleichung φ(x).φ(y) = φ(xy) | 10.1007/978-3-0348-9358-9_17 || Über einige Lösungen der Funktionalgleichung ψ(x)·ψ(x)=ψ(xy) | 10.1007/bf02422947
+ARXIV 2511.21142 ERR(429 likely): HTTP Error 429: Unknown Error
+ARXIV PREDIN ERR(429 likely): HTTP Error 429: Too Many Requests
+ARXIV TN ERR(429 likely): HTTP Error 429: Unknown Error
