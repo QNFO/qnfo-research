@@ -296,6 +296,35 @@ built on that ground, and the boundary between the two has been marked throughou
 The satisfaction of a closing diagram is real. So is the discipline of remembering that it
 closed a map, not the world.
 
+
+## Appendix: Post-publication evidence from QPL 2026 (working draft)
+
+*Draft note: this appendix is working text for the next published version of this paper. It has not appeared in any published record. arXiv identifiers were verified on 19 August 2026.*
+
+Within a day of this paper's publication, the 23rd International Conference on Quantum Physics and Logic (QPL 2026) presented a cluster of nine ZX-calculus contributions. The cluster is direct evidence for the pattern this paper audited: the diagrams continue to be loaded with imports from adjoining disciplines, and the load continues to grow.
+
+| Title | Authors | arXiv | Bearing on the audit |
+|---|---|---|---|
+| Buildings for Synthesis with Clifford+R | M. Deaconu, N. Gargava, A. R. Kalra, M. Mosca, J. Yard | 2510.11526 | Bruhat-Tits buildings as the geometry of exact gate synthesis; the valuation appears as the smallest denominator exponent |
+| Beyond Penrose tensor diagrams with the ZX calculus | Q. Wang, R. D. P. East, R. A. Shaikh, L. Yeh, B. Poór, B. Coecke | 2511.06012 | Spin networks raised to a formal diagrammatic language |
+| Holographic codes seen through ZX-calculus | K. H. Wan, H. C. W. Price, Q. Yao | 2601.04467 | Holographic codes as ZX-diagrams, with a new code family on hyperbolic tessellations |
+| The Delayed Stabiliser ZX-Calculus | C. Comfort, G. de Felice | 2607.04015 | Finite diagrams for infinite translation-invariant stabiliser processes |
+| Efficient Classical Simulation of Low-Rank-Width Quantum Circuits Using ZX-Calculus | F. Kuyanov, A. Kissinger | 2603.06764 | Classical simulation bounded by rank-width, implemented in PyZX |
+| Completeness for Fault Equivalence of Clifford ZX Diagrams | M. Rüsch, A. Kissinger, B. Rodatz | 2510.08477 | Rewrites that provably preserve fault-tolerance properties |
+| ZX-Flow: A Flexible Criterion for Deterministic Computation with ZX-Diagrams | A. Kissinger, J. van de Wetering | 2603.09580 | A ZX-native criterion for deterministic computation |
+| A Three-Way Normal Form for Stabiliser Codes across ZX Diagrams, Circuits, and Tableaus | L. Yeh, J. Huang, A. Kissinger, S. M. Li, J. van de Wetering | none located | An on-the-nose normal form for all stabiliser codes |
+| From Fermions to Qubits: A ZX-Calculus Perspective | H. McDowall-Rose, R. A. Shaikh, L. Yeh | 2505.06212 | Fermion-to-qubit mappings made visible as diagram structure |
+
+A further contribution from the same community (G. de Felice, B. Poór, C. Comfort, L. Yeh, M. Kupper, W. Cashman, B. Coecke, arXiv:2601.08389) embeds the calculus in a dataflow framework for linear-optical distributed computing — the clearest sign yet that the diagrams are now treated as executable infrastructure.
+
+The cluster strengthens this paper's computational-domain verdict. The imports audited here — spin networks, holographic entropy, lattice geometries, fault tolerance — all reappear in the 2026 record, now with new machinery: a complete rewrite theory for fault equivalence, an on-the-nose normal form for stabiliser codes, a calculus for infinite translation-invariant codes, and a Bruhat-Tits building theorem for exact gate synthesis. None of the nine performs the compatibility check this paper argued is missing; the fault lines remain where this paper located them.
+
+The open-problem claim admits a stated disconfirmation: a p-adic or ultrametric graphical calculus for quantum codes. On 19 August 2026, an arXiv search pairing "p-adic" with "ZX" returns zero records, and "ultrametric" with "quantum error correction" likewise returns zero. No diagrammatic treatment of p-adic code geometry exists in the public record as of this writing. The nearest machinery stands at the two ends of one bridge: the delayed stabiliser calculus [17], which represents infinite translation-invariant stabiliser processes by finite tableaus, and the tree-traversal synthesis of the Clifford+R work, which runs on a Bruhat-Tits building. A delayed calculus over the p-adic rings used in exact synthesis remains unwritten.
+
+For the practitioner the cluster is concrete in an unusual way. The three-way normal form interconverts any stabiliser tableau with an encoder circuit — a code-design tool that runs today. The rank-width simulator, implemented in PyZX, makes the classical-simulation boundary of a circuit family computable rather than rhetorical. The fault-equivalence rewrite set is a correctness-by-construction optimisation pass under noise. The delayed calculus makes lattice and convolutional codes finitely representable. Each of these is working software; together they form the substrate of an interactive exhibit of the seam this paper describes, and of the discipline of knowing where a map ends.
+
+The author discussed these contributions with several of their authors during the conference week. Answers to the questions raised here will be folded into the next published version of this paper.
+
 ## References
 
 [1] E. Jeandel, S. Perdrix, R. Vilmart, "Completeness of the ZX-Calculus," arXiv:1903.06035 (2019).
