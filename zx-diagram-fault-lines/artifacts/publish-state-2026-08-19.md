@@ -9,7 +9,7 @@ Frontmatter + repo: commit `c23eb67` (frontmatter doi -> 22010380; html/pdf veri
 ## What is complete on the draft
 
 - Metadata PUT (deposit API): 200 — version 0.4, publication_date 2026-08-19, creators,
-  license cc-by-nc-sa-4.0, keywords, related_identifiers (GitHub isSupplementTo). VALIDATOR-CLEAN
+  license cc-by-nc-sa-4.0, keywords, related_identifiers (GitHub isSupplementTo → https://github.com/QNFO/qnfo-research/tree/res/paper/zx-diagram-fault-lines). VALIDATOR-CLEAN
   (the only publish errors were file-transfer, never metadata).
 - 7 flat files via bucket PUT (permanent bucket objects): zx-diagram-fault-lines.md/.html/.pdf,
   references.bib, citation-audit.md, PROJECT-PLAN.md, README.md.

@@ -46,6 +46,7 @@ Version 0.4 (2026-08-19) adds the post-publication appendix (QPL 2026 cluster) t
 
 ## Provenance
 
+- GitHub provenance: https://github.com/QNFO/qnfo-research/tree/res/paper/zx-diagram-fault-lines (deposited as related_identifier isSupplementTo)
 - Seed: vault note `_26230100258.md` (2026-08-18).
 - Phase 0 (2026-08-18): WBS resolve, PROJECT-PLAN, core-claim lock, Universal Ignorance Audit.
 - Phase 1 (2026-08-18): full-corpus sweep (KG 8,296 nodes), cross-system ID validation,
