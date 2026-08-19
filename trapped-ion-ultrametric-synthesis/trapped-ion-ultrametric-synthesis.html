@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-19" />
+  <meta name="keywords" content="trapped-ion quantum
+simulation, ultrametric
+physics, p-adic, Bruhat-Tits, zitterbewegung, Page-Wootters, dissipative
+stabilization, falsifiability, quantum error correction, tensor
+networks" />
+  <title>The Trapped-Ion Ultrametric Testbed: A Falsifiability Register for Testing p-Adic Structure in Quantum Dynamics</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    div.abstract {
+      margin: 2em 2em 2em 2em;
+      text-align: left;
+      font-size: 85%;
+    }
+    div.abstract-title {
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0.5em;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">The Trapped-Ion Ultrametric Testbed: A Falsifiability
+Register for Testing p-Adic Structure in Quantum Dynamics</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-19</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>Sixteen published records from a single research program, spanning
+December 2025 to August 2026, are here organized into one testable
+claim: trapped-ion quantum simulators are the first near-term platform
+on which ultrametric (p-adic) structure in quantum dynamics can be
+accepted or rejected by measurement, and passive, dissipation-structured
+hardware is the engineering embodiment of that structure. The synthesis
+contributes a falsifiability register: five observables, each with a
+pre-registered prediction, a kill-condition, and an apparatus already
+demonstrated in the cited records. It also records what the program has
+already ruled out, including the finding that generic Page-Wootters
+clock-rest coupling violates ultrametricity at a 29-35 percent rate
+while diagonal coupling yields exact ultrametric structure – the very
+asymmetry the trapped-ion protocol measures – and the economic finding
+that trapped ions rank last among seventeen platforms on a
+joules-per-solution basis, making the ion trap a physics testbed rather
+than a production economics play. The paper discloses its premise depth:
+the falsifiable content rests on two named imported inputs, and the
+claims end where those inputs begin. A practitioner section specifies
+what can be built today without any new theory.</p>
+</div>
+</header>
+<h2 id="introduction">1. Introduction</h2>
+<p>Between December 2025 and August 2026, a research program published
+sixteen records on trapped-ion quantum computation, p-adic geometry, and
+the epistemology of physics. Read individually, they look like three
+different projects: an experimental physics effort, a mathematical
+physics effort, and a philosophy-of-science effort. This paper argues
+they are one project, and that reading them as one project changes what
+a practitioner should do next.</p>
+<p>The unifying claim is structural, not metaphysical. A tree-shaped
+hierarchy – the Bruhat-Tits tree of p-adic geometry, the hierarchy of
+conditional quantum states under a global constraint, the hierarchy of
+stabilizer and dissipative error correction, and the hierarchy of claims
+ranked by evidential weight – appears in all three movements <span
+class="citation"
+data-cites="qnfo2026pwprotocol quni2026tnbt quni2025gkp quni2026falsifiability">(QNFO
+Research and Quni-Gudzinas 2026a; Quni-Gudzinas 2026k, 2025,
+2026l)</span>. The claim made here is that this appearance is testable
+on hardware that already exists, and that a set of falsifiable
+observables with kill-conditions is the correct way to carry the claim
+forward. This paper deliberately does NOT claim the tree structure has
+been confirmed. It claims only that the structure is now testable, and
+it supplies the register by which it will be tested.</p>
+<p>Why a reader should care: near-term quantum hardware needs
+discriminating experiments, not only gate-count benchmarks. A
+measurement that could rule out an entire class of ultrametric
+interpretations of quantum dynamics – or fail to rule it out – is worth
+more than another demonstration that a simulator can simulate. This
+paper hands an experimental group a ready-to-run menu of such
+measurements, with predicted values, kill-conditions, and the apparatus
+requirements already worked out in the cited records.</p>
+<p>The premise-depth disclosure is stated here and formalized in Section
+10. The derived content of this paper is organizational: resource
+counts, predicted values, and the register itself. Two named imported
+inputs carry the physical content: the Ultrametric Bridge Theorem, which
+states that conditional quantum states under a global constraint
+necessarily form ultrametric hierarchies <span class="citation"
+data-cites="quni2026bridge">(Quni-Gudzinas 2026r)</span>, and the Silent
+Parameter Principle, which identifies the truncated SU(2) representation
+ring with the character ring of the 2-adic units <span class="citation"
+data-cites="qnfo2026zbwadelic">(QNFO Research and Quni-Gudzinas
+2026b)</span>. The premises END there: this paper neither re-derives nor
+independently verifies those inputs, and no claim in this paper is
+stronger than its inputs.</p>
+<h2 id="the-sixteen-records-three-movements">2. The Sixteen Records:
+Three Movements</h2>
+<p>The sixteen records sort into three movements.</p>
+<p><strong>The testability movement</strong> asks whether p-adic
+structure is measurable on trapped-ion hardware. A protocol for testing
+ultrametricity via a Page-Wootters clock experiment specifies a single
+trapped ion, laser-driven carrier and sideband transitions, conditional
+state tomography, and an eight-week timeline on existing apparatus <span
+class="citation" data-cites="qnfo2026pwprotocol">(QNFO Research and
+Quni-Gudzinas 2026a)</span>. A companion analysis of 8,000 simulated
+Wheeler-DeWitt systems establishes the prediction the protocol measures:
+generic clock-rest coupling violates the Parisi ultrametricity condition
+at a 29-35 percent rate, while coupling diagonal in the clock eigenbasis
+yields exact ultrametric structure <span class="citation"
+data-cites="quni2026pwdistances">(Quni-Gudzinas 2026c)</span>. The
+Zitterbewegung is re-read as an adelic observable with a 2-adic
+frequency of <span class="math inline">\(\sqrt{2} \cdot
+2mc^2/\hbar\)</span>, a 41.4 percent deviation from the Archimedean
+value, and a single-ion timeline of 2028-2032 <span class="citation"
+data-cites="qnfo2026zbwadelic">(QNFO Research and Quni-Gudzinas
+2026b)</span>. Two feasibility studies examine whether a vortex-enhanced
+amplification mechanism can lift the sub-Compton-scale signal above the
+noise floor, and conclude the question is open pending signal-to-noise
+work <span class="citation"
+data-cites="quni2026vortexD quni2026vortexI">(Quni-Gudzinas 2026u,
+2026v)</span>. A due-diligence assessment of the Innsbruck qudit program
+verifies the measured light-shift gate fidelities (99.6 to 93.7 percent
+for dimensions 2 through 5) that such experiments would inherit <span
+class="citation"
+data-cites="quni2026ringbauer ringbauer2022 ringbauer2023 ringbauer2024">(Quni-Gudzinas
+2026t; <span class="nocase">Ringbauer et al.</span> 2022; <span
+class="nocase">Hrmo et al.</span> 2023; <span class="nocase">Meth et
+al.</span> 2024)</span>. A Monte-Carlo study extracts effective
+transient dimensions of 6.2 and 7.9 for diffusion on p-regular trees
+with p equal to 2 and 3, against the integer-line baseline of 1.0 <span
+class="citation" data-cites="quni2026padicdiffusion">(Quni-Gudzinas
+2026j)</span>. An audit of a tunable quantum neural network demonstrates
+the program’s testing discipline: the strongest claim survives and the
+advantage claims do not <span class="citation"
+data-cites="qnfo2026bqnnaudit">(QNFO Research Collective and
+Quni-Gudzinas 2026)</span>.</p>
+<p><strong>The architectural movement</strong> asks what hardware built
+on the same structure looks like. A room-temperature trapped-ion
+architecture stabilizes Gottesman-Kitaev-Preskill states autonomously
+through engineered dissipation, converging to the GKP manifold when the
+cooling rate exceeds the heating rate by more than <span
+class="math inline">\(\pi\)</span> <span class="citation"
+data-cites="quni2025gkp">(Quni-Gudzinas 2025)</span>. The Spin-Free
+Substrate protocol simulates Posner-molecule nuclear spin dynamics with
+six global Molmer-Sorensen gates per simulated second at 96.9 percent
+circuit fidelity, and names the design principle connecting Kane-type,
+Posner-type, and trapped-ion architectures <span class="citation"
+data-cites="quni2026spinfreeA quni2026spinfreeB">(Quni-Gudzinas 2026p,
+2026q)</span>. Quantum Architectonics argues the passive path – letting
+structure suppress error – against the active-correction path that
+fights the second law <span class="citation"
+data-cites="quni2026architectonics">(Quni-Gudzinas 2026h)</span>. A
+p-adic metrology proposal claims sub-shot-noise sensing from
+hierarchical noise correlations on a room-temperature photonic platform
+with roughly ten entangled photons <span class="citation"
+data-cites="quni2026metrology">(Quni-Gudzinas 2026g)</span>. A
+dimensionless reformulation of fifty-three physics equations in Planck
+units supplies the place-democratic bookkeeping the movement uses <span
+class="citation" data-cites="quni2026ostrowski">(Quni-Gudzinas
+2026n)</span>.</p>
+<p><strong>The methodological movement</strong> supplies the discipline.
+The Falsifiability Crisis record diagnoses five structural patterns by
+which contemporary fundamental physics has become effectively
+unfalsifiable, and proposes the Bayesian delta-log-odds gate as the
+remedy <span class="citation"
+data-cites="quni2026falsifiability">(Quni-Gudzinas 2026l)</span>. The
+Reification record names the failure mode the other two movements must
+avoid: mistaking a mathematical model for a mind-independent object
+<span class="citation" data-cites="quni2026reification">(Quni-Gudzinas
+2026m)</span>. The Foundations record argues that Shor’s algorithm is a
+theoretical artifact defined under unrealizable conditions, and that
+error correction fails to suppress errors beyond current scales due to
+correlated failures <span class="citation"
+data-cites="quni2026foundations">(Quni-Gudzinas 2026i)</span>.</p>
+<p>The program’s own archive is imperfect, and this paper records the
+imperfections rather than hiding them. Two pairs of records are
+duplicate or near-duplicate deposits rather than clean version chains
+(the Spin-Free Substrate pair <span class="citation"
+data-cites="quni2026spinfreeA quni2026spinfreeB">(Quni-Gudzinas 2026p,
+2026q)</span> and the vortex-feasibility pair <span class="citation"
+data-cites="quni2026vortexD quni2026vortexI">(Quni-Gudzinas 2026u,
+2026v)</span>); version labels across the set are inconsistent; and the
+archive’s internal identifier table carries missing and cross-wired DOI
+fields for several records (Section 12). A converged program should have
+a converged archive; the disorder is disclosed here as a data-quality
+finding.</p>
+<h2 id="lineage-how-the-register-descends-from-earlier-work">3. Lineage:
+How the Register Descends from Earlier Work</h2>
+<p>The sixteen records did not appear from nowhere. Each movement is the
+latest link in a published chain, and the chain is the evidence that
+this paper is a continuation rather than a restart. A reader can follow
+the citations backward from any register entry to its oldest published
+premise.</p>
+<p><strong>The audit lineage.</strong> The critique of quantum-computing
+claims began with the reassessment of quantum computation’s foundations
+<span class="citation" data-cites="quni2026foundations">(Quni-Gudzinas
+2026i)</span>, proceeded through the energy-accounting benchmarks of the
+competitive landscape <span class="citation"
+data-cites="qnfo2026jpcubcl">(QNFO Research 2026b)</span>, the qudit
+extension <span class="citation"
+data-cites="quni2026quditadv">(Quni-Gudzinas 2026o)</span>, and the
+quantum-neural-network audit <span class="citation"
+data-cites="qnfo2026bqnnaudit">(QNFO Research Collective and
+Quni-Gudzinas 2026)</span>, and reaches the trapped-ion due-diligence
+record cited in this paper <span class="citation"
+data-cites="quni2026ringbauer">(Quni-Gudzinas 2026t)</span>. The
+register’s energy discipline is inherited from this chain.</p>
+<p><strong>The ultrametric lineage.</strong> The claim that p-adic
+structure is physically testable descends from the number-theoretic
+classification of error-correcting codes <span class="citation"
+data-cites="qnfo2026uf">(QNFO Research 2026c)</span>, the ultrametric
+bridge theorem <span class="citation"
+data-cites="quni2026bridge">(Quni-Gudzinas 2026r)</span>, and the
+conditional-state analysis that turned the theorem into a measurable
+prediction <span class="citation"
+data-cites="quni2026pwdistances">(Quni-Gudzinas 2026c)</span> before the
+trapped-ion protocol existed <span class="citation"
+data-cites="qnfo2026pwprotocol">(QNFO Research and Quni-Gudzinas
+2026a)</span>. The Zitterbewegung entry of the register <span
+class="citation" data-cites="qnfo2026zbwadelic">(QNFO Research and
+Quni-Gudzinas 2026b)</span> continues the earlier analysis of the
+effect’s ultrametric readout and its bridge to anyon braiding <span
+class="citation" data-cites="quni2026zbwp1">(Quni-Gudzinas
+2026w)</span>. The anomalous-diffusion entry <span class="citation"
+data-cites="quni2026padicdiffusion">(Quni-Gudzinas 2026j)</span>
+descends from the dimensionless reformulation program <span
+class="citation"
+data-cites="quni2026ostrowski ostrowski1916">(Quni-Gudzinas 2026n;
+Ostrowski 1916)</span>, the non-anthropocentric units reformulation
+<span class="citation" data-cites="quni2026nonanthro">(Quni-Gudzinas
+2026f)</span>, and the continuum analysis that bounds which real-number
+structures carry physical content <span class="citation"
+data-cites="quni2026continuum1">(Quni-Gudzinas 2026d)</span>.</p>
+<p><strong>The architectural lineage.</strong> The passive-design claim
+descends from the architectonics critique of active error correction
+<span class="citation"
+data-cites="quni2026architectonics">(Quni-Gudzinas 2026h)</span>, the
+spin-free substrate protocol <span class="citation"
+data-cites="quni2026spinfreeA">(Quni-Gudzinas 2026p)</span>, and the
+autonomous GKP stabilization proposal <span class="citation"
+data-cites="quni2025gkp">(Quni-Gudzinas 2025)</span>, and is
+corroborated by the ultrametric metrology proposal <span
+class="citation" data-cites="quni2026metrology">(Quni-Gudzinas
+2026g)</span>. The dissipation-first reading of the tree hierarchy is
+this paper’s own synthesis of those published claims; the chain is cited
+so each link can be audited.</p>
+<p><strong>The methodological lineage.</strong> The falsifiability
+discipline applied here descends from the falsifiability-crisis analysis
+<span class="citation"
+data-cites="quni2026falsifiability">(Quni-Gudzinas 2026l)</span>, the
+reification analysis <span class="citation"
+data-cites="quni2026reification">(Quni-Gudzinas 2026m)</span>, the
+falsifiability protocol for discrete-continuum signatures <span
+class="citation" data-cites="quni2026qfund">(Quni-Gudzinas
+2026a)</span>, and the fifteen-question ignorance audit with its
+companion case study <span class="citation"
+data-cites="uia2026 iaps2026">(Quni-Gudzinas 2026s, 2026e)</span>. The
+register’s kill-conditions are that method applied to the program’s own
+claims.</p>
+<p><strong>The consilience lineage.</strong> The synthesis of number
+theory and physics into one tree-shaped structure was published in the
+five-pillar consilience paper <span class="citation"
+data-cites="fivepillars2026">(QNFO Research 2026a)</span> and the adelic
+core synthesis <span class="citation"
+data-cites="adeliccore2026">(Quni-Gudzinas 2026b)</span>. The present
+paper extends that line from structure to instrumentation: where the
+predecessor papers established the shared geometry, this paper supplies
+the devices that measure it.</p>
+<p>What the chain shows: the three movements share a published ancestry,
+and each movement’s latest record cites the earlier links. The chain of
+reasoning from the oldest premise (the completions of the rationals
+<span class="citation" data-cites="ostrowski1916">(Ostrowski
+1916)</span>) to the newest instrument (a register of five
+kill-conditions, Section 4) runs through every one of the sixteen
+records.</p>
+<h2
+id="the-testability-movement-a-register-of-five-falsifiable-observables">4.
+The Testability Movement: A Register of Five Falsifiable
+Observables</h2>
+<p>The register is the paper’s core artifact. Each entry states the
+observable, the pre-registered prediction, the kill-condition, and the
+apparatus.</p>
+<p><strong>R1 – Ultrametricity violation rate in a Page-Wootters
+clock.</strong> Observable: the Parisi ultrametricity violation rate
+(UVR) of conditional state overlaps, measured by conditional state
+tomography on a single trapped ion with electronic states as the clock
+and motional Fock states as the rest. Prediction: UVR equal to zero for
+diagonal clock-rest coupling; UVR in the 29-35 percent band for
+nondiagonal coupling <span class="citation"
+data-cites="qnfo2026pwprotocol quni2026pwdistances">(QNFO Research and
+Quni-Gudzinas 2026a; Quni-Gudzinas 2026c)</span>. Kill-condition: a
+measured UVR indistinguishable between the two coupling classes – the
+theory predicts the split, and the split is what is tested. Apparatus:
+existing trapped-ion capability; estimated eight weeks of beam time.</p>
+<p><strong>R2 – The 2-adic Zitterbewegung frequency.</strong>
+Observable: the Zitterbewegung frequency ratio in a Dirac-simulator
+implementation. Prediction: <span class="math inline">\(\sqrt{2} \cdot
+2mc^2/\hbar\)</span>, a 41.4 percent deviation from the Archimedean
+value <span class="citation" data-cites="qnfo2026zbwadelic">(QNFO
+Research and Quni-Gudzinas 2026b)</span>. Kill-condition: a measured
+ratio consistent with 1 within error. Open constraint: the
+vanishing-signal question – whether the ZBW signal is observable at all
+in the Foldy-Wouthuysen frame – and the amplification-feasibility
+question remain unresolved in the source records <span class="citation"
+data-cites="quni2026vortexD quni2026vortexI">(Quni-Gudzinas 2026u,
+2026v)</span>; R2 is therefore registered as a measurement whose SNR
+budget must be closed before the experiment is meaningful, not as a
+settled test.</p>
+<p><strong>R3 – Effective transient dimension on p-regular
+trees.</strong> Observable: the return probability decay of a random
+walk on p-adic trees, extractable in simulation and, in principle, in
+engineered hierarchical coupling graphs. Prediction: effective transient
+dimensions near 6.2 (p=2) and 7.9 (p=3), against the Archimedean
+baseline near 1 <span class="citation"
+data-cites="quni2026padicdiffusion">(Quni-Gudzinas 2026j)</span>.
+Kill-condition: dimension growth that flattens with p. This is the
+register’s simulation-first entry: it is executable today, with the code
+already deposited with the source record.</p>
+<p><strong>R4 – Dissipative break-even.</strong> Observable: logical
+bit-flip suppression of an autonomously stabilized GKP state as a
+function of the cooling-to-heating rate ratio. Prediction: convergence
+to the GKP manifold with exponential bit-flip suppression once the ratio
+exceeds <span class="math inline">\(\pi\)</span> <span class="citation"
+data-cites="quni2025gkp">(Quni-Gudzinas 2025)</span>. Kill-condition: no
+break-even at the predicted ratio in any ion species. Constraint:
+break-even on one mode is not a logical qubit; the fault-tolerance step
+remains unclaimed.</p>
+<p><strong>R5 – Tensor-network collapse under nonlocal
+perturbations.</strong> Observable: whether the classical simulation
+advantage of tensor networks for local Hamiltonian dynamics persists
+when the Hamiltonian acquires controlled nonlocal terms. The
+tensor-network record reads the recent tensor-network simulation results
+as evidence that local-Hamiltonian dynamics are ultrametric, because
+local structure is exactly where the Bruhat-Tits hierarchy lives <span
+class="citation" data-cites="quni2026tnbt">(Quni-Gudzinas 2026k)</span>.
+This is the register’s retrodiction entry, graded honestly in the
+Bayesian accounting (Section 6): the standard area-law explanation
+predicts the same success, so R5 is registered as a discriminating test
+rather than credited as evidence. Prediction under the ultrametric
+reading: the advantage degrades under nonlocal perturbation faster than
+area-law extrapolation would predict. Kill-condition: advantage persists
+at area-law-predicted levels. This entry exists precisely because the
+tensor-network reading currently carries zero independent evidential
+weight and needs a test to earn any.</p>
+<h2 id="negative-results-the-register-must-respect">5. Negative Results
+the Register Must Respect</h2>
+<p>A testable program is one that keeps its negative results. Five are
+load-bearing here.</p>
+<p>First, generic clock-rest coupling does NOT produce ultrametricity.
+The 8,000-system study found a 29-35 percent violation rate in the
+generic case <span class="citation"
+data-cites="quni2026pwdistances">(Quni-Gudzinas 2026c)</span>. This
+matters because an earlier, naive version of the program’s expectation –
+that ultrametricity would emerge generically from any Page-Wootters
+construction – is thereby ruled out. The surviving claim is the sharp
+sufficient condition: diagonal coupling. The trapped-ion protocol is
+designed around exactly that surviving claim. A reader who only sees the
+positive claim without the ruled-out generic case would misprice the
+theory.</p>
+<p>Second, trapped ions are the wrong economics play. The
+joules-per-solution competitive landscape ranks trapped ions last among
+seventeen platforms (8.5-16.3 J/sol) because 50-100 microsecond gate
+times overwhelm their room-temperature power advantage <span
+class="citation" data-cites="qnfo2026jpcubcl">(QNFO Research
+2026b)</span>. The testbed movement is therefore a physics claim, not a
+production claim; the architectural movement (passive stabilization)
+exists in part to attack the gate-time problem that produces this
+ranking. The qudit extension projects roughly <span
+class="math inline">\(10^{-5}\)</span> J/sol for a p-adic-coded qudit
+platform and pre-registers its own disconfirmation condition <span
+class="citation" data-cites="quni2026quditadv">(Quni-Gudzinas
+2026o)</span> – a projection, not a measurement.</p>
+<p>Third, the ZBW signal may not be observable at all in the natural
+readout frames, and the amplification question is open. R2 is registered
+with this constraint attached, not buried.</p>
+<p>Fourth, the audit discipline has produced verdicts against the
+program’s own preferred direction before: the quantum-neural-network
+audit sustained the methodology claim and rejected the advantage claim
+<span class="citation" data-cites="qnfo2026bqnnaudit">(QNFO Research
+Collective and Quni-Gudzinas 2026)</span>. The register inherits that
+willingness.</p>
+<p>Fifth, error correction at scale is diagnosed as failing beyond
+current scales due to correlated failures rather than independent noise
+<span class="citation" data-cites="quni2026foundations">(Quni-Gudzinas
+2026i)</span> – the constraint that motivates the passive path in the
+first place.</p>
+<h2 id="evidential-weight-what-carries-weight-and-what-does-not">6.
+Evidential Weight: What Carries Weight and What Does Not</h2>
+<p>Under a Bayesian accounting, the register’s entries carry unequal
+weight.</p>
+<p>R1 and R2 are pre-registered predictions: their values were published
+before measurement <span class="citation"
+data-cites="qnfo2026pwprotocol qnfo2026zbwadelic">(QNFO Research and
+Quni-Gudzinas 2026a, 2026b)</span>. A measured match would be surprising
+under the null hypothesis of no ultrametric structure, so both carry
+potential positive evidential weight – and none until measured. R4 is
+likewise pre-registered <span class="citation"
+data-cites="quni2025gkp">(Quni-Gudzinas 2025)</span>. R3 is simulation
+evidence: it constrains the modeling claim, not the physics claim.</p>
+<p>The tensor-network reading (R5’s target) carries ZERO current
+evidential weight. The area-law explanation of tensor-network success is
+the incumbent, and it predicts the observed success with no reference to
+p-adic structure; the ultrametric reading was formulated after the
+results it explains. It is labeled here as retrodiction, and it is
+included in the register only as a test to be run, not as evidence in
+hand <span class="citation" data-cites="quni2026tnbt">(Quni-Gudzinas
+2026k)</span>.</p>
+<p>The falsifiability discipline applies symmetrically. The records that
+diagnose unfalsifiability in incumbent frameworks <span class="citation"
+data-cites="quni2026falsifiability">(Quni-Gudzinas 2026l)</span> are the
+same standard under which the program’s own claims are graded here: R5
+is the demonstration that the standard is applied inward.</p>
+<h2 id="the-architectural-movement-passive-design-as-the-embodiment">7.
+The Architectural Movement: Passive Design as the Embodiment</h2>
+<p>The architectural claim is that the tree hierarchy is not only a
+geometry to be measured but a design principle to be built. Three
+records carry the argument.</p>
+<p>The GKP stabilization record replaces measurement-based feedback with
+engineered dissipative reservoir dynamics: a mixed-species crystal
+couples the logical mode to a coolant ion, exporting entropy
+continuously, with convergence to the GKP manifold when cooling beats
+heating by more than <span class="math inline">\(\pi\)</span> <span
+class="citation" data-cites="quni2025gkp">(Quni-Gudzinas 2025)</span>.
+This is a hierarchy-respecting design in a precise sense: stabilization
+is delegated to the environment’s own structure rather than imposed by
+an external controller – the passive reading of the tree.</p>
+<p>The Spin-Free Substrate protocol is the architectural bridge to
+simulation: it maps Posner-molecule nuclear spin dynamics (J-couplings
+of 0.003-0.178 Hz; dipolar relaxation treated as a Lindblad channel)
+onto 4-qubit trapped-ion circuits requiring six global Molmer-Sorensen
+gates per simulated second at 96.9 percent fidelity <span
+class="citation" data-cites="quni2026spinfreeA">(Quni-Gudzinas
+2026p)</span>. The design principle named there – the spin-free
+substrate – is a MAP label: a design pattern, not a new entity, and this
+paper keeps it at that status.</p>
+<p>The metrology record extends the passive claim to sensing:
+hierarchical noise correlations exploited for sub-shot-noise precision
+without active correction, claimed on a room-temperature photonic
+demonstration <span class="citation"
+data-cites="quni2026metrology">(Quni-Gudzinas 2026g)</span>. The
+demonstration claim is reported as claimed by the source record;
+independent replication is not yet on record.</p>
+<p>The architectonics record supplies the thermodynamic framing: active
+correction fights the second law and pays energy for the fight; passive
+structure works with it <span class="citation"
+data-cites="quni2026architectonics">(Quni-Gudzinas 2026h)</span>. The
+dimensionless reformulation supplies the bookkeeping that keeps the
+program’s formulas place-democratic <span class="citation"
+data-cites="quni2026ostrowski">(Quni-Gudzinas 2026n)</span>.</p>
+<h2 id="the-methodological-movement-discipline-as-infrastructure">8. The
+Methodological Movement: Discipline as Infrastructure</h2>
+<p>The third movement is the reason the first two do not float away. Its
+three records name the failure modes: five structural patterns of
+unfalsifiability <span class="citation"
+data-cites="quni2026falsifiability">(Quni-Gudzinas 2026l)</span>; the
+reification pattern by which models become mistaken for objects <span
+class="citation" data-cites="quni2026reification">(Quni-Gudzinas
+2026m)</span>; and the theoretical-artifact pattern by which idealized
+algorithms misdirect engineering programs <span class="citation"
+data-cites="quni2026foundations">(Quni-Gudzinas 2026i)</span>.</p>
+<p>Two instruments operationalize the discipline. The Bayesian
+delta-log-odds gate assigns zero weight to explanations built after the
+observations they explain – applied inward in Section 6 to the program’s
+own tensor-network reading. The joules-per-solution criterion turns
+advantage claims into energy accounting, applied in the audit family
+<span class="citation"
+data-cites="qnfo2026bqnnaudit qnfo2026jpcubcl quni2026quditadv">(QNFO
+Research Collective and Quni-Gudzinas 2026; QNFO Research 2026b;
+Quni-Gudzinas 2026o)</span>. A practitioner can adopt either instrument
+without adopting any of the program’s physics.</p>
+<h2 id="practitioner-section-what-can-be-built-today">9. Practitioner
+Section: What Can Be Built Today</h2>
+<p>Nothing in this paper requires new theory to become useful. Four
+artifacts can be built by an engineering team using the cited records
+alone.</p>
+<p><strong>Artifact 1 – The decision-tool register
+(spec-sheet).</strong> Section 4 IS the spec-sheet. An ion-trap team can
+take R1 directly to an experiment proposal: single ion, carrier and
+sideband transitions, conditional state tomography, eight-week estimate,
+with the predicted UVR split (0 percent diagonal versus 29-35 percent
+nondiagonal) as the accept/reject criterion. The domain of validity is
+conditional: R1 holds for clock-rest coupling engineered as specified;
+it says nothing about platforms without clock structure. A
+superconducting team gains nothing from R1; a neutral-atom team might,
+if a clock degree of freedom is available – that is the conditional
+truth, stated plainly.</p>
+<p><strong>Artifact 2 – The SNR budget template for R2.</strong> The ZBW
+test cannot be proposed until the signal-to-noise question is closed.
+The two feasibility records contain the structure of the budget
+(amplification mechanism, areal-rate observable, noise floor); a team
+can turn them into a spreadsheet decision tool: parameterize
+amplification gain, measurement time, and heating rate, and compute
+whether <span class="math inline">\(\sqrt{2} \cdot 2mc^2/\hbar\)</span>
+clears the floor on available hardware <span class="citation"
+data-cites="quni2026vortexD quni2026vortexI">(Quni-Gudzinas 2026u,
+2026v)</span>. The tool IS the deliverable; the experiment is downstream
+of it.</p>
+<p><strong>Artifact 3 – The reproducible simulation kit.</strong> R3 is
+executable today: the Monte-Carlo code for anomalous diffusion on
+p-regular trees is deposited with the source record <span
+class="citation" data-cites="quni2026padicdiffusion">(Quni-Gudzinas
+2026j)</span>. A team can re-run, extend to p equal to 5 and 7, and
+publish the extended dimension table as a benchmark artifact. No
+hardware required.</p>
+<p><strong>Artifact 4 – The energy-audit template.</strong> The
+joules-per-solution methodology is fully specified across the
+competitive-landscape records <span class="citation"
+data-cites="qnfo2026jpcubcl quni2026quditadv">(QNFO Research 2026b;
+Quni-Gudzinas 2026o)</span>. Any hardware team can apply it to its own
+platform: the metric, the conservative-bound discipline, and the
+published baseline values are all in the cited records. This artifact
+works regardless of whether any ultrametric claim survives.</p>
+<p>The practitioner-facing summary is one sentence: the program hands
+out one ready experiment (R1), one spreadsheet problem (R2), one
+benchmark (R3), and one audit template (Artifact 4) – each usable
+without subscribing to the interpretation that motivated it.</p>
+<h2 id="premise-depth-disclosure">10. Premise-Depth Disclosure</h2>
+<p>The derived content of this paper is organizational and arithmetic:
+the register, the resource counts, the predicted values, and the
+evidential-weight grading. The physical content is imported, and the
+imports are named.</p>
+<p>Import 1: the Ultrametric Bridge Theorem – conditional quantum states
+under a global constraint necessarily form ultrametric hierarchies, with
+hierarchy depth fixing the radix <span class="citation"
+data-cites="quni2026bridge">(Quni-Gudzinas 2026r)</span>. Import 2: the
+Silent Parameter Principle – the truncated SU(2) representation ring is
+isomorphic to the character ring of the 2-adic units, from which the
+<span class="math inline">\(\sqrt{2}\)</span> Zitterbewegung frequency
+follows <span class="citation" data-cites="qnfo2026zbwadelic">(QNFO
+Research and Quni-Gudzinas 2026b)</span>. Supporting imports:
+Ostrowski’s theorem as the place-democracy frame <span class="citation"
+data-cites="ostrowski1916 quni2026ostrowski">(Ostrowski 1916;
+Quni-Gudzinas 2026n)</span>, and the Page-Wootters conditional-state
+formalism <span class="citation" data-cites="pagewootters1983">(Page and
+Wootters 1983)</span>.</p>
+<p>Where the premises END: R1’s predictions end at the Bridge Theorem’s
+sufficient condition. R2’s predicted value ends at the Silent Parameter
+Principle. R5’s reading ends at the identification of local-Hamiltonian
+dynamics with tree structure – a MAP claim, not a derived one. R3 and R4
+are simulation and engineering claims whose premises end at the stated
+physical models (regular-tree random walks; Lindblad dissipative
+dynamics). No claim in this paper reaches below these inputs. A reader
+who rejects Import 1 can discard R1 without touching the rest of the
+register; a reader who rejects Import 2 can discard R2. That
+separability is deliberate: the register is designed so that its entries
+fail independently.</p>
+<h2 id="falsifiability-conditions">11. Falsifiability Conditions</h2>
+<p>Formally, the paper is disconfirmed by any of the following
+measurements:</p>
+<ol type="1">
+<li>UVR statistically indistinguishable between diagonal and nondiagonal
+clock-rest coupling (kills R1 and, with it, the testable bearing of the
+Bridge Theorem).</li>
+<li>ZBW frequency ratio consistent with 1 (kills R2).</li>
+<li>Effective transient dimension growth flattening with p (kills R3’s
+fractal-trap reading).</li>
+<li>No dissipative break-even at cooling-to-heating ratio exceeding
+<span class="math inline">\(\pi\)</span> in any ion species (kills
+R4).</li>
+<li>Tensor-network advantage persisting at area-law-predicted levels
+under nonlocal perturbations (kills R5’s ultrametric reading and
+confirms the incumbent).</li>
+</ol>
+<p>A world in which all five conditions obtain is a world in which the
+sixteen records are interesting but disconnected engineering notes, and
+this paper’s organizational claim – that they are one program – is the
+thing that fails. The paper asserts no stronger consequence.</p>
+<h2 id="data-quality-findings">12. Data-Quality Findings</h2>
+<p>Cross-system identifier audit of the input records surfaced seven
+findings: the two vortex-feasibility records are cross-wired in the
+archive’s identifier table (each row carrying the other’s DOI); three
+records lack DOI fields entirely; one record carries a generic internal
+title; and an identifier-type field is systematically mislabeled. The
+duplicate-record pairs (Section 2) are the archive-level expression of
+the same disorder. These findings are published here so that the archive
+can be repaired, and because a testable program that hides its
+bookkeeping errors invites the reification failure its own methodology
+record diagnoses <span class="citation"
+data-cites="quni2026reification">(Quni-Gudzinas 2026m)</span>.</p>
+<h2 id="conclusion">13. Conclusion</h2>
+<p>Sixteen records, three movements, one testable structure. The
+contribution is not the claim that ultrametric structure exists in
+quantum dynamics; it is the claim that the structure is now cheap to
+test, and the register that makes the tests concrete. R1 is an
+eight-week experiment on existing apparatus. R3 runs on a laptop. The
+architectural movement gives the design language; the methodological
+movement gives the discipline; the register gives the practitioners
+something to build, measure, or reject. If the register fills with null
+results, the program has still contributed: five kill-conditions
+executed is five pieces of knowledge gained, and the falsifiability
+discipline the records advocate will have been demonstrated on their own
+claims.</p>
+<h2 class="unnumbered" id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-ringbauer2023" class="csl-entry" role="listitem">
+<span class="nocase">Hrmo, Pavel, Benjamin Wilhelm, Lukas Gerster, et
+al.</span> 2023. <span>“Native Qudit Entanglement in a Trapped Ion
+Quantum Processor.”</span> <em>Nature Communications</em> 14: 2242. <a
+href="https://doi.org/10.1038/s41467-023-37375-2">https://doi.org/10.1038/s41467-023-37375-2</a>.
+</div>
+<div id="ref-ringbauer2024" class="csl-entry" role="listitem">
+<span class="nocase">Meth, Michael, Jan Frederik Haase, Jinglei Zhang,
+et al.</span> 2024. <span>“Digital Quantum Simulation of a (1+1)d SU(2)
+Lattice Gauge Theory with Ion Qudits.”</span> <em>PRX Quantum</em> 5:
+040309. <a
+href="https://doi.org/10.1103/PRXQuantum.5.040309">https://doi.org/10.1103/PRXQuantum.5.040309</a>.
+</div>
+<div id="ref-ostrowski1916" class="csl-entry" role="listitem">
+Ostrowski, Alexander. 1916. <span>“<span>Ü</span>ber Einige
+l<span>ö</span>sungen Der Funktionalgleichung <span
+class="math inline">\(\varphi(x)\varphi(y)=\varphi(xy)\)</span>.”</span>
+In <em>Acta Mathematica</em>, vol. 41.
+</div>
+<div id="ref-pagewootters1983" class="csl-entry" role="listitem">
+Page, Don N., and William K. Wootters. 1983. <span>“Evolution Without
+Evolution: Dynamics Described by Stationary Observables.”</span>
+<em>Physical Review D</em> 27 (12): 2885–92. <a
+href="https://doi.org/10.1103/PhysRevD.27.2885">https://doi.org/10.1103/PhysRevD.27.2885</a>.
+</div>
+<div id="ref-fivepillars2026" class="csl-entry" role="listitem">
+QNFO Research. 2026a. <em>Five Pillars, One Structure: Consilient
+Convergence in QNFO Research</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21547793">https://doi.org/10.5281/zenodo.21547793</a>.
+</div>
+<div id="ref-qnfo2026jpcubcl" class="csl-entry" role="listitem">
+QNFO Research. 2026b. <em>JPCUB Competitive Landscape V2.0: System-Level
+Joules-Per-Solution Estimates for 17 Quantum Computing Platforms from
+Published Specifications</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21821767">https://doi.org/10.5281/zenodo.21821767</a>.
+</div>
+<div id="ref-qnfo2026uf" class="csl-entry" role="listitem">
+QNFO Research. 2026c. <em>Number-Theoretic Ultrametric Foundations: A
+Unified p-Adic Framework for Error-Correcting Code Classification</em>.
+Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21193487">https://doi.org/10.5281/zenodo.21193487</a>.
+</div>
+<div id="ref-qnfo2026bqnnaudit" class="csl-entry" role="listitem">
+QNFO Research Collective, and Rowan Brad Quni-Gudzinas. 2026.
+<em>Auditing the BQNN: Does a Tunable Quantum Neural Network on
+Trapped-Ion and Superconducting Hardware Demonstrate a Route to
+Near-Term Quantum Advantage?</em> Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21566035">https://doi.org/10.5281/zenodo.21566035</a>.
+</div>
+<div id="ref-qnfo2026pwprotocol" class="csl-entry" role="listitem">
+QNFO Research, and Rowan Brad Quni-Gudzinas. 2026a. <em>Trapped-Ion
+Page-Wootters Experiment: Protocol for Testing Ultrametricity</em>.
+Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21120469">https://doi.org/10.5281/zenodo.21120469</a>.
+</div>
+<div id="ref-qnfo2026zbwadelic" class="csl-entry" role="listitem">
+QNFO Research, and Rowan Brad Quni-Gudzinas. 2026b. <em>Zitterbewegung:
+From Archimedean Puzzle to Adelic Observable</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21600628">https://doi.org/10.5281/zenodo.21600628</a>.
+</div>
+<div id="ref-quni2025gkp" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2025. <em>Autonomous Dissipative
+Stabilization of Gottesman-Kitaev-Preskill States in Room-Temperature
+Ion Traps</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.17794233">https://doi.org/10.5281/zenodo.17794233</a>.
+</div>
+<div id="ref-quni2026qfund" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026a. <em>A Falsifiability Protocol for the
+q-Fundamental Hypothesis: Experimental Signatures of the Discrete
+Continuum</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21697717">https://doi.org/10.5281/zenodo.21697717</a>.
+</div>
+<div id="ref-adeliccore2026" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026b. <em>Adelic Core Synthesis:
+Cross-Domain Foundations of Adelic QFT</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21786473">https://doi.org/10.5281/zenodo.21786473</a>.
+</div>
+<div id="ref-quni2026pwdistances" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026c. <em>Conditional State Distances in
+Page-Wootters Quantum Clocks: When Does Ultrametricity Emerge?</em>
+Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21120286">https://doi.org/10.5281/zenodo.21120286</a>.
+</div>
+<div id="ref-quni2026continuum1" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026d. <em>Continuum Trilogy: Papers i-III –
+the Ontological Closure Program</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21672990">https://doi.org/10.5281/zenodo.21672990</a>.
+</div>
+<div id="ref-iaps2026" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026e. <em>Knowing What We Do Not Know:
+Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons
+of an AI-Assisted Research Pipeline</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21901983">https://doi.org/10.5281/zenodo.21901983</a>.
+</div>
+<div id="ref-quni2026nonanthro" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026f. <em>Non-Anthropocentric Natural Units:
+From the Bekenstein Bound to Ostrowski’s Theorem</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21480756">https://doi.org/10.5281/zenodo.21480756</a>.
+</div>
+<div id="ref-quni2026metrology" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026g. <em>Passive Error Resilience Through
+Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology</em>.
+Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21748299">https://doi.org/10.5281/zenodo.21748299</a>.
+</div>
+<div id="ref-quni2026architectonics" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026h. <em>Quantum Architectonics: The
+Passive Path to Scale</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.18522367">https://doi.org/10.5281/zenodo.18522367</a>.
+</div>
+<div id="ref-quni2026foundations" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026i. <em>Reassessing the Foundations of
+Quantum Computation: From Theoretical Artifacts to Physical
+Realities</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21993655">https://doi.org/10.5281/zenodo.21993655</a>.
+</div>
+<div id="ref-quni2026padicdiffusion" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026j. <em>Spectral Analysis of Anomalous
+Diffusion on p-Adic Fractals</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.18606514">https://doi.org/10.5281/zenodo.18606514</a>.
+</div>
+<div id="ref-quni2026tnbt" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026k. <em>Tensor Networks as Bruhat-Tits
+Tree Computation</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21820137">https://doi.org/10.5281/zenodo.21820137</a>.
+</div>
+<div id="ref-quni2026falsifiability" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026l. <em>The Falsifiability Crisis in
+Contemporary Physics: LCDM, the Standard Model, and the
+Measurement-Exercise Trap</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21791457">https://doi.org/10.5281/zenodo.21791457</a>.
+</div>
+<div id="ref-quni2026reification" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026m. <em>The Meta-Pattern of Reification in
+Physics</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.19605446">https://doi.org/10.5281/zenodo.19605446</a>.
+</div>
+<div id="ref-quni2026ostrowski" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026n. <em>The Ostrowski Dimensionless
+Reformulation: A Systematic Compilation of Fundamental Physics Equations
+in Planck Units</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21754024">https://doi.org/10.5281/zenodo.21754024</a>.
+</div>
+<div id="ref-quni2026quditadv" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026o. <em>The Qudit Advantage: System-Level
+Joules-Per-Solution Comparison of a Qudit Architecture Against 17
+Conventional Qubit Quantum Computing Platforms</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21827737">https://doi.org/10.5281/zenodo.21827737</a>.
+</div>
+<div id="ref-quni2026spinfreeA" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026p. <em>The Spin-Free Substrate:
+Trapped-Ion Quantum Simulation of Posner Molecule Nuclear Spin
+Dynamics</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.20411697">https://doi.org/10.5281/zenodo.20411697</a>.
+</div>
+<div id="ref-quni2026spinfreeB" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026q. <em>The Spin-Free Substrate:
+Trapped-Ion Quantum Simulation of Posner Molecule Nuclear Spin Dynamics
+(Companion Record)</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.20411734">https://doi.org/10.5281/zenodo.20411734</a>.
+</div>
+<div id="ref-quni2026bridge" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026r. <em>The Ultrametric Bridge Theorem:
+Conditional Quantum States Under Global Constraints Necessarily Form
+Ultrametric Hierarchies</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21102770">https://doi.org/10.5281/zenodo.21102770</a>.
+</div>
+<div id="ref-uia2026" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026s. <em>The Universal Ignorance Audit: A
+Fifteen-Question Method for Systematic Inquiry into the Structure of
+Not-Knowing</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21901984">https://doi.org/10.5281/zenodo.21901984</a>.
+</div>
+<div id="ref-quni2026ringbauer" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026t. <em>Trapped-Ion Qudit Quantum
+Computing: Due-Diligence Assessment of the Ringbauer Program</em>.
+Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21879231">https://doi.org/10.5281/zenodo.21879231</a>.
+</div>
+<div id="ref-quni2026vortexD" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026u. <em>Vortex-Enhanced Zitterbewegung:
+Amplification Feasibility for Trapped-Ion Dirac Simulators</em>. Zenodo.
+<a
+href="https://doi.org/10.5281/zenodo.21221899">https://doi.org/10.5281/zenodo.21221899</a>.
+</div>
+<div id="ref-quni2026vortexI" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026v. <em>Vortex-Enhanced Zitterbewegung:
+Amplification Feasibility for Trapped-Ion Systems</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21336123">https://doi.org/10.5281/zenodo.21336123</a>.
+</div>
+<div id="ref-quni2026zbwp1" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026w. <em>Zitterbewegung as the Physical
+Realization of p-Adic Anyon Braiding</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21214362">https://doi.org/10.5281/zenodo.21214362</a>.
+</div>
+<div id="ref-ringbauer2022" class="csl-entry" role="listitem">
+<span class="nocase">Ringbauer, Martin, Michael Meth, Lukas Postler, et
+al.</span> 2022. <span>“A Universal Qudit Quantum Processor with Trapped
+Ions.”</span> <em>Nature Physics</em> 18: 1053–57. <a
+href="https://doi.org/10.1038/s41567-022-01658-0">https://doi.org/10.1038/s41567-022-01658-0</a>.
+</div>
+</div>
+</body>
+</html>

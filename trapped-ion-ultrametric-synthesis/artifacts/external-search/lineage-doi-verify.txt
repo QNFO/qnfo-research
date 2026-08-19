@@ -1,0 +1,13 @@
+OK 10.5281/zenodo.21214362 [ZBW p-adic observable P1?]: Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding
+OK 10.5281/zenodo.21547793 [Five Pillars consilience]: Five Pillars, One Structure: Consilient Convergence in QNFO Research
+OK 10.5281/zenodo.21786473 [Adelic Core Synthesis]: Adelic Core Synthesis: Cross-Domain Foundations of Adelic QFT
+OK 10.5281/zenodo.21697717 [Falsifiability Protocol Q-Fundamental]: A Falsifiability Protocol for the Q-Fundamental Hypothesis: Experimental Signatures of the Discrete Continuum
+OK 10.5281/zenodo.21672990 [Continuum Trilogy Paper I]: Continuum Trilogy: Papers I-III — The Ontological Closure Program
+OK 10.5281/zenodo.21480756 [Non-Anthropocentric Natural Units]: Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem
+OK 10.5281/zenodo.21901984 [Universal Ignorance Audit]: The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Know
+OK 10.5281/zenodo.21901983 [Knowing What We Do Not Know]: Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-A
+SEARCH zbw-p1: 10.5281/zenodo.7112393 | p-adic Magic Contractions, p-adic von Neumann Inequality and p-adic  Sz.-Nagy Dilation
+SEARCH zbw-p1: 10.5281/zenodo.7036629 | p-adic Welch Bounds and p-adic Zauner Conjecture
+SEARCH zbw-p1: 10.48550/arXiv.1411.4195 | p-Adic Invariant Summation of Some p-Adic Functional Series
+SEARCH zbw-p1: 10.5281/zenodo.19805644 | p-adic GRN Suite
+SEARCH zbw-p1: 10.5281/zenodo.1228456 | Matrices, special relativity and Zitterbewetung in Photons

@@ -1,6 +1,6 @@
 # Citation Audit — RES.017 (P3.AUTHOR-GATE)
 
-**Entries:** 31. **Method:** every entry verified against a live source this session
+**Entries:** 39. **Method:** every entry verified against a live source this session
 (2026-08-19), except the three REPORTED-BUT-UNVERIFIED external items below.
 
 ## Verification per entry
@@ -23,6 +23,14 @@
 | ringbauer2023 | Crossref 10.1038/s41467-023-37375-2 (Nature Communications 14) | PASS |
 | ringbauer2024 | Crossref 10.1103/PRXQuantum.5.040309 | PASS |
 | ostrowski1916 | Crossref bibliographic search → reprint DOI 10.1007/978-3-0348-9358-9_17 (pre-DOI original: Acta Math. 41, 271–284) | PASS (reprint) |
+| quni2026zbwp1 | Zenodo REST API live (title verified: Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding) | PASS |
+| fivepillars2026 | Zenodo REST API live | PASS |
+| adeliccore2026 | Zenodo REST API live | PASS |
+| quni2026qfund | Zenodo REST API live | PASS |
+| quni2026continuum1 | Zenodo REST API live (Continuum Trilogy Papers I–III bundle) | PASS |
+| quni2026nonanthro | Zenodo REST API live | PASS |
+| uia2026 | Zenodo REST API live | PASS |
+| iaps2026 | Zenodo REST API live | PASS |
 
 ## REPORTED-BUT-UNVERIFIED (not in .bib as standalone entries)
 
