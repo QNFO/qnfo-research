@@ -2,8 +2,9 @@
 title: "The Trapped-Ion Ultrametric Testbed: A Falsifiability Register for Testing p-Adic Structure in Quantum Dynamics"
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-19"
+version: "1.1"
 license: "CC BY-NC-SA 4.0"
-doi: "10.5281/zenodo.22013264"
+doi: "10.5281/zenodo.22017933"
 status: "published"
 keywords: ["trapped-ion quantum simulation", "ultrametric physics", "p-adic", "Bruhat-Tits", "zitterbewegung", "Page-Wootters", "dissipative stabilization", "falsifiability", "quantum error correction", "tensor networks"]
 abstract: |
@@ -19,7 +20,7 @@ abstract: |
   diagonal coupling yields exact ultrametric structure -- the very asymmetry the trapped-ion
   protocol measures -- and the economic finding that trapped ions rank last among seventeen
   platforms on a joules-per-solution basis, making the ion trap a physics testbed rather
-  than a production economics play. The paper discloses its premise depth: the falsifiable
+  than a production economics play. The paper states its assumptions explicitly: the falsifiable
   content rests on two named imported inputs, and the claims end where those inputs begin.
   A practitioner section specifies what can be built today without any new theory.
 ---
@@ -51,7 +52,7 @@ than another demonstration that a simulator can simulate. This paper hands an ex
 group a ready-to-run menu of such measurements, with predicted values, kill-conditions, and
 the apparatus requirements already worked out in the cited records.
 
-The premise-depth disclosure is stated here and formalized in Section 10. The derived
+The paper's assumptions are stated at the end (Section 10); the derived
 content of this paper is organizational: resource counts, predicted values, and the
 register itself. Two named imported inputs carry the physical content: the Ultrametric
 Bridge Theorem, which states that conditional quantum states under a global constraint
@@ -75,7 +76,8 @@ condition at a 29-35 percent rate, while coupling diagonal in the clock eigenbas
 exact ultrametric structure [@quni2026pwdistances]. The Zitterbewegung is re-read as an
 adelic observable with a 2-adic frequency of $\sqrt{2} \cdot 2mc^2/\hbar$, a 41.4 percent
 deviation from the Archimedean value, and a single-ion timeline of 2028-2032
-[@qnfo2026zbwadelic]. Two feasibility studies examine whether a vortex-enhanced
+[@qnfo2026zbwadelic]. The oscillatory motion itself arises in the
+Dirac equation [@dirac1928]. Two feasibility studies examine whether a vortex-enhanced
 amplification mechanism can lift the sub-Compton-scale signal above the noise floor, and
 conclude the question is open pending signal-to-noise work [@quni2026vortexD;
 @quni2026vortexI]. A due-diligence assessment of the Innsbruck qudit program verifies the
@@ -94,7 +96,7 @@ cooling rate exceeds the heating rate by more than $\pi$ [@quni2025gkp]. The Spi
 Substrate protocol simulates Posner-molecule nuclear spin dynamics with six global
 Molmer-Sorensen gates per simulated second at 96.9 percent circuit fidelity, and names the
 design principle connecting Kane-type, Posner-type, and trapped-ion architectures
-[@quni2026spinfreeA; @quni2026spinfreeB]. Quantum Architectonics argues the passive path --
+[@quni2026spinfreeA; @quni2026spinfreeB; @fisher2015]. Quantum Architectonics argues the passive path --
 letting structure suppress error -- against the active-correction path that fights the
 second law [@quni2026architectonics]. A p-adic metrology proposal claims sub-shot-noise
 sensing from hierarchical noise correlations on a room-temperature photonic platform with
@@ -103,7 +105,7 @@ fifty-three physics equations in Planck units supplies the place-democratic book
 movement uses [@quni2026ostrowski].
 
 **The methodological movement** supplies the discipline. The Falsifiability Crisis record
-diagnoses five structural patterns by which contemporary fundamental physics has become
+diagnoses five structural patterns by which contemporary high-energy physics and cosmology have become
 effectively unfalsifiable, and proposes the Bayesian delta-log-odds gate as the remedy
 [@quni2026falsifiability]. The Reification record names the failure mode the other two
 movements must avoid: mistaking a mathematical model for a mind-independent object
@@ -144,7 +146,9 @@ analysis of the effect's ultrametric readout and its bridge to anyon braiding [@
 anomalous-diffusion entry [@quni2026padicdiffusion] descends from the dimensionless
 reformulation program [@quni2026ostrowski; @ostrowski1916], the non-anthropocentric
 units reformulation [@quni2026nonanthro], and the continuum analysis that bounds which
-real-number structures carry physical content [@quni2026continuum1].
+real-number structures carry physical content [@quni2026continuum1], and the
+Monte-Carlo framework itself continues the Riemann-spectrum asymptotics program
+[@berrykeating1999].
 
 **The architectural lineage.** The passive-design claim descends from the
 architectonics critique of active error correction [@quni2026architectonics], the
@@ -268,7 +272,8 @@ weight -- and none until measured. R4 is likewise pre-registered [@quni2025gkp].
 simulation evidence: it constrains the modeling claim, not the physics claim.
 
 The tensor-network reading (R5's target) carries ZERO current evidential weight. The
-area-law explanation of tensor-network success is the incumbent, and it predicts the
+area-law explanation of tensor-network success, originating in density-matrix
+renormalization [@white1992], is the incumbent, and it predicts the
 observed success with no reference to p-adic structure; the ultrametric reading was
 formulated after the results it explains. It is labeled here as retrodiction, and it is
 included in the register only as a test to be run, not as evidence in hand
@@ -360,7 +365,7 @@ The practitioner-facing summary is one sentence: the program hands out one ready
 experiment (R1), one spreadsheet problem (R2), one benchmark (R3), and one audit template
 (Artifact 4) -- each usable without subscribing to the interpretation that motivated it.
 
-## 10. Premise-Depth Disclosure
+## 10. Assumptions and Imported Inputs
 
 The derived content of this paper is organizational and arithmetic: the register, the
 resource counts, the predicted values, and the evidential-weight grading. The physical
@@ -425,5 +430,10 @@ register gives the practitioners something to build, measure, or reject. If the 
 fills with null results, the program has still contributed: five kill-conditions executed
 is five pieces of knowledge gained, and the falsifiability discipline the records advocate
 will have been demonstrated on their own claims.
+
+## Cite this record
+
+Cite all versions of this record via the concept DOI 10.5281/zenodo.22013263, which
+always resolves to the latest version.
 
 ## References

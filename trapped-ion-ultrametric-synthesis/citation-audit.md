@@ -49,3 +49,24 @@
   potentials in higher dimensions" (Sandhya) — the correct Fisher Posner DOI is
   10.1016/j.aop.2015.08.020. This wrong-DOI risk was caught live.
 - All Zenodo DOIs resolve to the titles recorded in the input-record table (README.md).
+
+## Input-record rows (16, live-verified 2026-08-19 via Zenodo REST)
+
+| DOI | Title |
+|:----|:------|
+| 10.5281/zenodo.17794233 | Autonomous Dissipative Stabilization of Gottesman-Kitaev-Preskill States in Room-Temperature Ion Traps |
+| 10.5281/zenodo.18522367 | Quantum Architectonics: The Passive Path to Scale |
+| 10.5281/zenodo.18606514 | Spectral Analysis of Anomalous Diffusion on p-Adic Fractals |
+| 10.5281/zenodo.19605446 | The Meta-Pattern of Reification in Physics |
+| 10.5281/zenodo.20411697 | The Spin-Free Substrate (v1.0, PDF record) |
+| 10.5281/zenodo.20411734 | The Spin-Free Substrate (md record) |
+| 10.5281/zenodo.21120469 | Trapped-Ion Page-Wootters Experiment: Protocol for Testing Ultrametricity |
+| 10.5281/zenodo.21221899 | Vortex-Enhanced Zitterbewegung: Trapped-Ion Dirac Simulators |
+| 10.5281/zenodo.21336123 | Vortex-Enhanced Zitterbewegung: Trapped-Ion Systems |
+| 10.5281/zenodo.21566035 | Auditing the BQNN |
+| 10.5281/zenodo.21600628 | Zitterbewegung: From Archimedean Puzzle to Adelic Observable |
+| 10.5281/zenodo.21754024 | The Ostrowski Dimensionless Reformulation |
+| 10.5281/zenodo.21791457 | The Falsifiability Crisis in Contemporary Physics |
+| 10.5281/zenodo.21820137 | Tensor Networks as Bruhat-Tits Tree Computation |
+| 10.5281/zenodo.21879231 | Trapped-Ion Qudit Quantum Computing: Ringbauer Due-Diligence |
+| 10.5281/zenodo.21993655 | Reassessing the Foundations of Quantum Computation |
