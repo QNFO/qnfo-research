@@ -56,6 +56,7 @@
 |:-----|:--------|:-------|
 | 2026-08-19 | TLJWSUQav9HeprbIXtVqT | Phase 0–1b (init, UIA, due diligence, consilience) |
 | 2026-08-19 | TLJWSUQav9HeprbIXtVqT | Phase 2–4 (literature, citations, adjudication draft v0.1) |
-| 2026-08-19 | TLJWSUQav9HeprbIXtVqT | **PUBLISH v1.0** — DOI 10.5281/zenodo.22009653 (concept 22009652), 45 files, R2 mirror, D1/KG/Vectorize, papers.qnfo.org; post-pub audit: completeness PASS (0/0/3), dependency PASS (1 HARD: papers.qnfo.org JSON-LD regression — REMEDIATED via gateway redeploy 41635fcd, verified 3 pages), accuracy PENDING |
+| 2026-08-19 | TLJWSUQav9HeprbIXtVqT | **PUBLISH v1.0** — DOI 10.5281/zenodo.22009653 (concept 22009652), 45 files, R2 mirror, D1/KG/Vectorize, papers.qnfo.org; post-pub audit: completeness PASS (0/0/3), dependency PASS (1 HARD: papers.qnfo.org JSON-LD regression — REMEDIATED via gateway redeploy 41635fcd, verified 3 pages), accuracy 5 HARD (fabricated authors) |
+| 2026-08-19 | TLJWSUQav9HeprbIXtVqT | **PUBLISH v1.1** — DOI 10.5281/zenodo.22010489 (concept 22009652): all 5 HARD remediated (Budroni/Aniello/Jang authors, VVZ 1994 anchor, 790 works, Hensen verified); version label fixed; R2 46 files, D1/KG/registry P8-distributed; pass-2 audit: accuracy CLEAN (0 HARD, 5 SOFT folded into next bump), dependency PASS, completeness PASS (1 SOFT: deposited registry 1-row stale — accepted documented delta) |
 
 **MAINTENANCE PROTOCOL:** update FQ/prediction/register status at every version bump; cross-ref companion DOIs when published; keep living (repo unarchived).
