@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200">
+  <rect width="560" height="200" fill="#ffffff"/>
+  <!-- left spider 1 (alpha) -->
+  <line x1="90" y1="30" x2="90" y2="80" stroke="#333333" stroke-width="2"/>
+  <line x1="90" y1="130" x2="90" y2="180" stroke="#333333" stroke-width="2"/>
+  <line x1="90" y1="90" x2="150" y2="105" stroke="#333333" stroke-width="2"/>
+  <circle cx="90" cy="105" r="22" fill="#1d7a4f"/>
+  <text x="90" y="110" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15">&#945;</text>
+  <!-- left spider 2 (beta) -->
+  <line x1="230" y1="30" x2="230" y2="80" stroke="#333333" stroke-width="2"/>
+  <line x1="230" y1="130" x2="230" y2="180" stroke="#333333" stroke-width="2"/>
+  <line x1="150" y1="105" x2="208" y2="105" stroke="#333333" stroke-width="2"/>
+  <circle cx="230" cy="105" r="22" fill="#1d7a4f"/>
+  <text x="230" y="110" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15">&#946;</text>
+  <!-- arrow -->
+  <line x1="275" y1="105" x2="335" y2="105" stroke="#555555" stroke-width="2.5" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 z" fill="#555555"/>
+    </marker>
+  </defs>
+  <!-- right fused spider (alpha+beta) -->
+  <line x1="400" y1="30" x2="400" y2="80" stroke="#333333" stroke-width="2"/>
+  <line x1="400" y1="130" x2="400" y2="180" stroke="#333333" stroke-width="2"/>
+  <line x1="360" y1="105" x2="378" y2="105" stroke="#333333" stroke-width="2"/>
+  <line x1="422" y1="105" x2="440" y2="105" stroke="#333333" stroke-width="2"/>
+  <circle cx="400" cy="105" r="22" fill="#1d7a4f"/>
+  <text x="400" y="110" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15">&#945;+&#946;</text>
+  <!-- labels -->
+  <text x="90" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">Z-spider (&#945;)</text>
+  <text x="230" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">Z-spider (&#946;)</text>
+  <text x="400" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">Z-spider (&#945;+&#946;)</text>
+  <text x="280" y="195" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333333" font-style="italic">Figure 1. Spider fusion: two connected Z-spiders merge into one, preserving the linear map.</text>
+</svg>
