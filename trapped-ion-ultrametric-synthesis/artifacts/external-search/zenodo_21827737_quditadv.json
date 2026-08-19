@@ -1,0 +1,5 @@
+{
+  "title": "The Qudit Advantage: System-Level Joules-per-Solution Comparison of a Qudit Architecture Against 17 Conventional Qubit Q",
+  "description": "The JPCUB Competitive Landscape v2.0 benchmarked 17 qubit-based quantum computing platforms across the joules-per-solution energy-efficiency metric. This paper extends the JPCUB framework to qudit architectures \u2014 d-level quantum systems \u2014 and computes a JPCUB estimate for a qudit platform using p-adic stabilizer codes on Bruhat-Tits trees with ultrametric decoding. The qudit platform projects to approximately 10^-5 J/sol versus the 2026 superconducting-qubit floor of 0.05 J/sol. The paper pre-registers an explicit disconfirmation condition and three falsifiable predictions. v0.4: corrected citation key S3 (Fischer et al. \u2014 PRX Quantum 4, 030327), see ERRATA.md.",
+  "doi": "10.5281/zenodo.21827737"
+}

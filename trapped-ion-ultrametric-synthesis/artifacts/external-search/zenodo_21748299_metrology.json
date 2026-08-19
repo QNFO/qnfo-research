@@ -1,0 +1,5 @@
+{
+  "title": "Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology",
+  "description": "This paper proposes an ultrametric sensing framework that exploits hierarchical noise correlations to achieve sub-shot-noise precision without active quantum error correction, demonstrated on a room-temperature photonic platform with ~10 entangled photons. The framework identifies p-adic quantum error correction codes and ultrametric passive error resilience as novel research directions with zero external prior art. Correction v1.1: Added PDF preview file (remediated KIF-30 markdown-only deposit), PROVENANCE-BUNDLE.zip, related identifiers, and full deployment stack.",
+  "doi": "10.5281/zenodo.21748299"
+}

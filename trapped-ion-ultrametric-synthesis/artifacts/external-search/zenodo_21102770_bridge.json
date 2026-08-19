@@ -1,0 +1,5 @@
+{
+  "title": "The Ultrametric Bridge Theorem: Conditional Quantum States Under Global Constraints Necessarily Form Ultrametric Hierarc",
+  "description": "We prove that under a global constraint of the form H|Psi =0 (the Wheeler-DeWitt equation), conditional quantum states produced by the Page-Wootters mechanism naturally organize into an ultrametric hierarchy. The proof proceeds in three stages: (1) the global constraint induces equivalence relations on conditional states; (2) these equivalence relations yield an ultrametric distance via the strong triangle inequality; (3) the hierarchy depth determines the radix p. The geometric realization of this hierarchy is a Bruhat-Tits building.",
+  "doi": "10.5281/zenodo.21102770"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Number-Theoretic Ultrametric Foundations: A Unified p-adic Framework for Error-Correcting Code Classification",
+  "description": "A unified framework connecting p-adic valuation theory, Mahler spectral expansions, Kodaira-Neron fiber classification, and the Amice transform to the classification of quantum error-correcting codes. v1.1: Fixed math rendering \u2014 PDF now built with Pandoc+XeLaTeX for proper mathematical typography.",
+  "doi": "10.5281/zenodo.21193487"
+}
