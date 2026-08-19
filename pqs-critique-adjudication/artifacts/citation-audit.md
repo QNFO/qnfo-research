@@ -57,3 +57,21 @@ Run: bibtexparser-free key scan via Python (references.bib, 22 unique keys) → 
 ## P3 verdict
 
 All adjudication-critical references verified. Zero fabricated entries. Seed-note SSRN/PhilPapers URLs flagged `[UNVERIFIED]` and excluded from citation count where URL-level proof is required; corpus DOIs carry the load.
+
+## v1.1 REMEDIATION (2026-08-19, post-publication accuracy audit)
+
+The post-publication adversarial analysis (accuracy reviewer, delegation mVeYbd9GvKcmoev0oD7nH)
+surfaced 5 HARD bibliographic defects in v1.0 (10.5281/zenodo.22009653). Each was verified
+against live Crossref BEFORE remediation:
+
+| ID | v1.0 defect | Verified truth (live Crossref) | v1.1 fix |
+|:---|:------------|:-------------------------------|:---------|
+| H-1 | In-text "Caruana et al. 2022" for RMP 94:045007 | Budroni, Cabello, Gühne, Kleinmann, Larsson | In-text + reference entry corrected; entry added to references.bib (budroni2022) |
+| H-2 | "Khodjaev, J., et al." for Entropy 25(1):86 | Aniello, Mancini, Parisi | In-text + .bib corrected (aniello2022) |
+| H-3 | "Vladimirov, Volovich, Zelenov 1998" on DOI 10.2748/tmpub.10.1 | Youngho Jang, TMP 10, 1–69 | DOI anchored to jang1998; canonical VVZ treatise re-cited as 1994 World Scientific book (vvz1994) |
+| H-4 | "780 indexed works" | 790 (openalex-author-works-page1.json meta.count) | Corrected to 790 |
+| H-5 | Hensen 2015 Nature DOI cited without same-session verification | Confirmed live 2026-08-19 (10.1038/nature15759, pages 682–686) | Verified; recorded here |
+
+SOFT fixes: "forty-year" → four-decade/nearly-four-decade (1987→2026 = 39 yr); five references
+(Garola, Hardy, Madelung, Nelson, Strocchi) now cited in body; §8 grade label for objection 5
+clarified. references.bib now 24 entries, paper References 24 entries (1:1).
