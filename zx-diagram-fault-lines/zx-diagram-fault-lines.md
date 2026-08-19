@@ -3,7 +3,7 @@ title: "ZX Diagrams at the Seam: Spiders, Pauli Webs, Gadgets, and the Cafeteria
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-19"
 license: "CC BY-NC-SA 4.0"
-doi: "10.5281/zenodo.22017367"
+doi: "10.5281/zenodo.22017723"
 status: "published"
 keywords: ["ZX calculus", "diagrammatic reasoning", "quantum computing", "map-territory", "epistemology", "import provenance"]
 ---
