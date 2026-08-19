@@ -9,7 +9,7 @@
 
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |:---|:---------|:-------|:------------|:-----------------|
-| FQ1 | Can a measurement-triggered relaxation dynamics (basins of attraction) be specified at the level of Reddiger's Radon–Nikodym formalism without violating the Born-rule statistics already reproduced by hydrodynamic models (Wu et al. 2013)? | OPEN | Derive candidate relaxation equation; compare with Bassi–Ghirardi dynamical-reduction constraints | YES (simulation pre-reg) |
+| FQ1 | Can a measurement-triggered relaxation dynamics (basins of attraction) be specified at the level of Reddiger's Radon–Nikodym formalism while preserving the quantitative strong-field reproductions already achieved by hydrodynamic trajectories (Wu et al. 2013: HHG spectra)? | OPEN | Derive candidate relaxation equation; compare with Bassi–Ghirardi dynamical-reduction constraints | YES (simulation pre-reg) |
 | FQ2 | Does the boundary-condition reading of quantization (guitar-string axiom) make any prediction that differs from standard QM for a concrete system (e.g., quantum dot spectra)? | OPEN | Select system; compute both predictions; register | YES |
 | FQ3 | What is the exact relationship between the PQS "local realism" claim and loophole-free Bell violations (Hensen et al. 2015)? | OPEN | Literature synthesis on contextual-Kolmogorov responses | PARTIAL (logic, not experiment) |
 

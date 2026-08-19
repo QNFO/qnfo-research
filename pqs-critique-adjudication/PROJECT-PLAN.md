@@ -3,7 +3,7 @@
 # Post-Quantum Synthesis Critique Adjudication
 
 **Slug:** `pqs-critique-adjudication` — **Branch:** `res/paper/pqs-critique-adjudication` — **Repo:** QNFO/qnfo-research
-**Status:** Phase 0 (Init) — **Date:** 2026-08-19
+**Status:** Phase 4 (Adjudication draft v0.1) — **Date:** 2026-08-19
 
 ---
 
@@ -88,15 +88,16 @@ material counter-evidence, i.e., the critique's premises all check out. CC-1 is 
 | ID | Deliverable | Path | Status |
 |:---|:------------|:-----|:-------|
 | D1 | PROJECT-PLAN.md (this file) | pqs-critique-adjudication/PROJECT-PLAN.md | ✅ Phase 0 |
-| D2 | UIA administration record | artifacts/universal-ignorance-audit.md | pending |
-| D3 | Due-diligence evidence (all API responses) | artifacts/external-search/*.json | pending |
-| D4 | Cross-system ID validation report | artifacts/cross-system-id-validation.md | pending |
-| D5 | Consilience gate | artifacts/consilience-gate.md | pending |
-| D6 | Bayesian evidential weight | artifacts/bayesian-evidential-weight.md | pending |
-| D7 | Gap analysis + SO-WHAT + practitioner section | docs/gap-analysis.md + paper body | pending |
-| D8 | Adjudication paper `<slug>.md/.html/.pdf` | releases/ | pending |
-| D9 | references.bib + citation-audit.md | references/ + artifacts/ | pending |
-| D10 | Outreach/audit evidence log | artifacts/outreach-log.md | pending |
+| D2 | UIA administration record | artifacts/universal-ignorance-audit.md | ✅ P0.5 |
+| D3 | Due-diligence evidence (all API responses + corpus sweep) | artifacts/external-search/*.json (30 files) | ✅ P1+P2 |
+| D4 | Cross-system ID validation report | artifacts/cross-system-id-validation.md | ✅ P1 |
+| D5 | Consilience gate + KIF-60 evidential weight (folded in) | artifacts/consilience-gate.md | ✅ P1b |
+| D6 | Gap analysis + SO-WHAT + premise-depth | artifacts/gap-analysis.md | ✅ P1 |
+| D7 | Adjudication paper draft `<slug>.md` (practitioner §10) | pqs-critique-adjudication.md | ✅ P4 draft v0.1 |
+| D8 | Published paper `<slug>.md/.html/.pdf` | releases/ | pending P5 |
+| D9 | references.bib (22 verified) + citation-audit.md | references/ + artifacts/ | ✅ P3 |
+| D10 | RESEARCH-CONTINUITY-REGISTRY.md (FQ/predictions/pre-reg) | pqs-critique-adjudication/RESEARCH-CONTINUITY-REGISTRY.md | ✅ P4 |
+| D11 | Outreach/audit evidence log | artifacts/outreach-log.md | pending P7 |
 
 ## 6. Risk Register
 

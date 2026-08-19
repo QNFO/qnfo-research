@@ -42,7 +42,7 @@
 ## 4. Synthesis Consilience
 
 - **One meta-principle:** *Symmetric evidence discipline* — every claim (framework's or critique's) graded by the same evidence classes; institutional status carries zero weight.
-- **One frontier question:** FQ1 — *Can a measurement-triggered relaxation dynamics (basins of attraction) be specified at the level of Reddiger's Radon–Nikodým formalism without violating the Born-rule statistics already reproduced by hydrodynamic models (Wu et al. 2013)?* → RESEARCH-CONTINUITY-REGISTRY candidate.
+- **One frontier question:** FQ1 — *Can a measurement-triggered relaxation dynamics (basins of attraction) be specified at the level of Reddiger's Radon–Nikodým formalism while preserving the quantitative strong-field reproductions already achieved by hydrodynamic trajectories (Wu et al. 2013: HHG spectra)?* → RESEARCH-CONTINUITY-REGISTRY candidate.
 
 ## 5. Bayesian Evidential Weight Gate (KIF-60)
 

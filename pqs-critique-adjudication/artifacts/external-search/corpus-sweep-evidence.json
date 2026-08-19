@@ -1,0 +1,135 @@
+{
+ "project": "QNFO.RES.016",
+ "date": "2026-08-19",
+ "channel": "qnfo-memory-mcp search_papers (limit<=16 per VECTORIZE-TOP-K-50-1) + search_papers_enriched + KG neighbor walks",
+ "queries": [
+  {
+   "q": "post-quantum synthesis PQS re-grounding Kolmogorovian probability",
+   "top_hits": [
+    "post-quantum-synthesis",
+    "pqs-ai-evaluation-audit",
+    "hydrodynamic-stability-hypothesis",
+    "measure-theoretic-artifacts-archimedean-place"
+   ]
+  },
+  {
+   "q": "von Neumann quantum axioms measurement collapse projection postulate",
+   "top_hits": [
+    "post-quantum-synthesis",
+    "pqs-ai-evaluation-audit",
+    "1-crisis-of-abstraction",
+    "mathematical-structures-underlying-physical-laws-and-statistical-phenomena"
+   ]
+  },
+  {
+   "q": "Madelung hydrodynamics probability fluid quantum trajectories",
+   "top_hits": [
+    "topological-hydrodynamics-and-the-spectral-gap",
+    "superfluid-vacuum-theory",
+    "hydrodynamic-stability-hypothesis",
+    "hydrodynamic-gating-of-nuclear-spin-coherence"
+   ]
+  },
+  {
+   "q": "Kolmogorov measure-theoretic probability foundations",
+   "top_hits": [
+    "number-theory-as-physics",
+    "superfluid-vacuum-theory",
+    "post-quantum-synthesis",
+    "pqs-ai-evaluation-audit",
+    "prime-numbers-as-spectral-artifacts"
+   ]
+  },
+  {
+   "q": "ultrametric non-Archimedean p-adic quantum mechanics",
+   "top_hits": [
+    "ultrametric-intelligence",
+    "wbs-6-synthesis",
+    "unified-theory-of-non-archimedean-ontology",
+    "continuum-trilogy-02-padic-spin",
+    "spectral-dynamics-on-bruhat-tits-trees",
+    "ultrametric-quantum-computation-langlands",
+    "qec-darwinism-ultrametric",
+    "consilience-physics-number-theory"
+   ]
+  },
+  {
+   "q": "quantization emergent measurement interaction spectral discreteness",
+   "top_hits": [
+    "topological-aliasing-and-holographic-readout",
+    "information-theoretic-reformation-of-physics",
+    "post-quantum-synthesis",
+    "pqs-ai-evaluation-audit",
+    "measure-theoretic-artifacts-archimedean-place"
+   ]
+  },
+  {
+   "q": "measurement problem wavefunction collapse interpretation quantum foundations critique",
+   "top_hits": [
+    "pile-of-babel",
+    "1-crisis-of-abstraction",
+    "resonant-complexity-framework",
+    "pqs-ai-evaluation-audit",
+    "information-realism"
+   ]
+  },
+  {
+   "q": "continuum is real non-Archimedean syntactic paradigm physics",
+   "top_hits": [
+    "non-archimedean-syntactic-paradigm-for-physics",
+    "the-adelic-constraints-project-a-complete-account",
+    "continuum-trilogy-01-computable-continuum",
+    "quantum-laws-of-form"
+   ]
+  },
+  {
+   "q": "strange loop theory physical quantization informational stability",
+   "top_hits": [
+    "strange-loop-theory-of-physical-quantization",
+    "strange-loop-of-being",
+    "topological-quantization-and-spectral-filtration",
+    "winding-numbers-and-strange-loops"
+   ]
+  },
+  {
+   "q": "spin-statistics boson fermion structural invariant quantum",
+   "top_hits": [
+    "spin-statistics-distinction",
+    "exchange-phase-logical-scalar",
+    "from-distinction-to-dissipation",
+    "locale-framework-quantum-applications"
+   ]
+  }
+ ],
+ "enriched_queries": [
+  {
+   "q": "von Neumann axioms chronological fallacy Kolmogorov 1933 classical probability quantum",
+   "top_hits": [
+    "hydrodynamic-stability-hypothesis",
+    "post-quantum-synthesis"
+   ]
+  },
+  {
+   "q": "hydrodynamic stability hypothesis relaxation equation basin attraction measurement",
+   "top_hits": [
+    "hydrodynamic-stability-hypothesis"
+   ]
+  }
+ ],
+ "kg_neighbor_walks": [
+  {
+   "node": "paper:post-quantum-synthesis",
+   "edges": [
+    "REFERENCES -> paper:pqs-ai-evaluation-audit",
+    "RELATES_TO <- paper:hydrodynamic-stability-hypothesis"
+   ]
+  },
+  {
+   "node": "project:pqs-critique-adjudication",
+   "edges": [
+    "BELONGS_TO -> prog-res"
+   ]
+  }
+ ],
+ "note": "Reviewer H-2 remediation: corpus-sweep query log saved as evidence. Full API responses not persisted (tool-channel only); query formulations + top hits recorded per DUE-DILIGENCE-DEPTH-1 evidence discipline."
+}
