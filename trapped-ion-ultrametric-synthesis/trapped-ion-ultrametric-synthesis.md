@@ -3,7 +3,7 @@ title: "The Trapped-Ion Ultrametric Testbed: A Falsifiability Register for Testi
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-19"
 license: "CC BY-NC-SA 4.0"
-doi: "10.5281/zenodo.<RESERVED>"
+doi: "10.5281/zenodo.22013264"
 status: "published"
 keywords: ["trapped-ion quantum simulation", "ultrametric physics", "p-adic", "Bruhat-Tits", "zitterbewegung", "Page-Wootters", "dissipative stabilization", "falsifiability", "quantum error correction", "tensor networks"]
 abstract: |

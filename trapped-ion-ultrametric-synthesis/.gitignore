@@ -4,3 +4,6 @@ _site/
 .DS_Store
 __pycache__/
 *.pyc
+PROVENANCE-BUNDLE.zip
+p5_publish_state.json
+_zenodo_pending_deposit.json
