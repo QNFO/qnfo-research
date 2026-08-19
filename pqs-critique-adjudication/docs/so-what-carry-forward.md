@@ -21,7 +21,7 @@ The adjudication graded five objections to the Post-Quantum Synthesis (PQS) fram
 |:--|:------------|:-------------------------------|:-------|
 | A1 | **Critique-validity rubric** (decompose premises → verify each against primary source → symmetric standard → check ignored literature → grade, don't polarize) | Immediately usable decision tool for any researcher receiving AI or peer critiques; and a governance gate for QNFO's own review pipeline | Ready — paper §10 |
 | A2 | **Relaxation-equation simulation** (REG-RES016-001) | Pre-registered computational target: basins-of-attraction relaxation for 2-level systems must reproduce Born statistics within tolerance; ties the critique's strongest objection to a falsifiable deliverable | Registered, OPEN |
-| A3 | **Boundary-condition prediction test** (FQ2 / P1) | Selectable system (e.g., quantum-dot spectra); boundary-condition reading of quantization makes a discriminating prediction or it doesn't — either way, falsifiable | Registered, OPEN |
+| A3 | **Boundary-condition prediction test** (FQ2) | Selectable system (e.g., quantum-dot spectra); boundary-condition reading of quantization makes a discriminating prediction or it doesn't — either way, falsifiable | Registered, OPEN |
 | A4 | **Bell/contextuality relationship** (FQ3) | Literature-synthesis deliverable: how the PQS "local realism" claim squares with loophole-free Bell violations; connects to the Khrennikov contextual-program thread cited by the framework | OPEN |
 
 ## 3. Next steps to advance QNFO initiatives (ordered)
@@ -29,11 +29,13 @@ The adjudication graded five objections to the Post-Quantum Synthesis (PQS) fram
 | # | Action | Target | Gate | Status |
 |:--|:-------|:-------|:-----|:-------|
 | N1 | **Phase 7 dissemination for RES.016** (open item) — Buffer social posts (Mastodon/LinkedIn/X channels), Zenodo community inclusion requests (advancedtheoreticalphysicsandmathematics · tp-a-m-c · fbt-framework), Internet Archive save of the papers.qnfo.org page | Distribution completes | qa gates + verification per post | EXECUTE next cycle |
-| N2 | **KG cross-links** — adjudication node REFERENCES edges to pqs-ai-evaluation-audit, post-quantum-synthesis, hydrodynamic-stability-hypothesis (the records it adjudicates) | qnfo-graph D1 | query_graph neighbors > 0 per edge | THIS SESSION |
+| N2 | **KG cross-links** — adjudication node REFERENCES edges to pqs-ai-evaluation-audit, post-quantum-synthesis, hydrodynamic-stability-hypothesis (the records it adjudicates) | qnfo-graph D1 | query_graph neighbors > 0 per edge | DONE (verified live, pass-3 reviewers) |
 | N3 | **Rubric adoption** — register the four-grade rubric as a governance instrument in the Evidence-Verification Corpus (RES.014) and cite the adjudication DOI | RES.014 branch | registry row + artifact | NEXT cycle |
 | N4 | **FQ1 escalation** — draft project proposal for the relaxation-equation simulation (REG-RES016-001) as a UMP/RES project (WBS resolve at claim time) | D1 program_registry | Phase 0 gates | NEXT cycle |
-| N5 | **SOFT/DESIGN fold** — the 5 SOFT + 4 DESIGN items from pass-2 (already applied to repo at ef07799) ship with the next genuine version bump of the paper | repo branch | version bump | DEFERRED-tracked |
-| N6 | **Pipeline learning** — the fabricated-author incident is a kaizen item: LLM-drafted reference lists need live Crossref author verification of EVERY entry; the pass-1/pass-2 audit-trail pattern is the template | kaizen/research skill | CMD SKILLS UPDATE | NEXT cycle |
+| N5 | **SOFT/DESIGN fold** — the 6 SOFT + 4 DESIGN items from pass-2 ship with the next genuine version bump: S-1..S-5 already applied to repo at ef07799; **S-6 (deposited RESEARCH-CONTINUITY-REGISTRY.md one-row stale) is a Zenodo-side file-replacement obligation — re-deposit the corrected registry in the same newversion (NEWVERSION-FILE-CARRYOVER-1)** | repo branch + Zenodo newversion | version bump | DEFERRED-tracked |
+| N7 | **Inter-rater rubric audit** — P2 + REG-RES016-002 (critique-validity rubric inter-rater agreement >= 0.8, deadline 2027-08-19): assign owner or explicitly drop the leg; currently uncovered by N1-N6 | RESEARCH-CONTINUITY-REGISTRY | decision | OPEN (needs owner) |
+| N8 | **P7 dissemination legs** — with N1 also execute: D11 outreach-log.md (PROJECT-PLAN deliverable, currently missing), PhilPapers keyword amendment (record has only 1 philosophy-domain keyword; >=3 required for PhilPapers indexing — in-place metadata edit), SEO audit (robots/sitemap/llms.txt/OG) | repo + Zenodo metadata | P7 gates | EXECUTE with N1 |
+| N6 | **Pipeline learning** — the fabricated-author incident is a kaizen item: LLM-drafted reference lists need live Crossref author verification of EVERY entry; the pass-1/pass-2 audit-trail pattern is the template | kaizen/research skill | CMD SKILLS UPDATE | DONE this cycle (research v2.121 P3.AUTHOR-GATE-EVERY-ENTRY-1 + NEWVERSION-FILE-CARRYOVER-1; kaizen v2.76; cloudflare v3.57; prompt v3.51) |
 
 ## 4. Red-team acceptance criteria for this plan
 
