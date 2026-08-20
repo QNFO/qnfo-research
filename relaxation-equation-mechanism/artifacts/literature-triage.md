@@ -28,13 +28,14 @@
 |:--------|:-------|:---------------------|
 | **Valentini subquantum H-theorem** | 10.1016/0375-9601(91)90116-p (1991 I) · 10.1016/0375-9601(91)90330-b (1991 II) | Relaxation to quantum equilibrium under de Broglie–Bohm dynamics — **the canonical prior program** |
 | **Valentini & Westman** dynamical origin | arXiv 1007.3842 (Proc. R. Soc. A 2005) | Explicit relaxation simulation producing Born rule from non-equilibrium |
-| **Towler–Russell–Valentini** | 10.1088/1367-2630/12/4/043008 (NJP 2010) | Relaxation to equilibrium for a class of dBB-type theories |
+| **Towler, Russell & Valentini** | 10.1098/rspa.2011.0598 (Proc. R. Soc. A 2012) | Time scales for dynamical relaxation to the Born rule |
+| **Colin & Struyve** | 10.1088/1367-2630/12/4/043008 (NJP 2010) | Relaxation to equilibrium for a class of dBB-type theories |
 | **Nelson stochastic dynamics relaxation** | 10.1007/s10701-023-00730-w (Found. Phys. 2023) | "Relaxation to Quantum Equilibrium and the Born Rule in Nelson's Stochastic Dynamics" — **nearest competitor title** |
 | **Deterministic chaos + decoherence Born rule** | 10.3390/e23111371 (Entropy 2021) | Born rule via deterministic chaos + decoherence in dBB |
 | **Aerts hidden-measurement solution** | 10.1016/j.aop.2014.09.020 (Ann. Phys. 2014) | Deterministic hidden-measurement resolution of the measurement problem |
 | **'t Hooft deterministic program** | 10.3389/fphy.2020.00253 (Front. Phys. 2020) | Deterministic quantum mechanics (cellular automaton interpretation) |
 | **GRW/CSL stochastic collapse** | 10.1103/physrevd.34.470 (1986) · 10.1007/bf00692673 (1989) · Bassi–Ghirardi 2003 | Stochastic (not deterministic) relaxation — constraint family |
-| **Gisin–Percival QSD** | arXiv 1609.06572 | Stochastic Schrödinger equation — stochastic unraveling |
+| **Wiseman quantum state effusion** | arXiv 1609.06572 | Quantum state effusion — stochastic unraveling family (P3 correction: not Gisin–Percival QSD) |
 
 **Scoping conclusion (drives the paper's novelty claim):** CC-1's claim is NOT "relaxation produces Born statistics" generically. It is the specific conjunction: (a) **measurement-triggered** (not cosmological/early-universe relaxation), (b) in the **Madelung / Reddiger Radon–Nikodym-Kolmogorovian formalism** (not Bohmian configuration space, not Nelson stochastic, not hidden-measurement algebra), (c) **basins-of-attraction toward eigenstates** during the measurement interaction, (d) **consistent with Wu et al. 2013 strong-field reproductions**. None of the found programs occupies this exact cell; all must be cited and distinguished in the paper. **If Phase 4 finds a program in that exact cell, CC-1 is downgraded to a replication-with-constraint exercise — the disconfirmation condition absorbs this.**
 
