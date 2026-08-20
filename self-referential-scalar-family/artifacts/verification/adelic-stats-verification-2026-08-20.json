@@ -1,0 +1,142 @@
+{
+ "BE_p2": {
+  "z": 0.5,
+  "mean": 1.0,
+  "expected_1_over_p_minus_1": 1.0
+ },
+ "BE_p3": {
+  "z": 0.3333333333333333,
+  "mean": 0.5,
+  "expected_1_over_p_minus_1": 0.5
+ },
+ "BE_p5": {
+  "z": 0.2,
+  "mean": 0.25,
+  "expected_1_over_p_minus_1": 0.25
+ },
+ "BE_p7": {
+  "z": 0.14285714285714285,
+  "mean": 0.166666666667,
+  "expected_1_over_p_minus_1": 0.166666666667
+ },
+ "FD_p2": {
+  "freq": 0.333328,
+  "FD_pred": 0.333333,
+  "abs_diff": 5.21e-06,
+  "sf_count": 1215877
+ },
+ "FD_p3": {
+  "freq": 0.250005,
+  "FD_pred": 0.25,
+  "abs_diff": 4.73e-06,
+  "sf_count": 1215877
+ },
+ "FD_p5": {
+  "freq": 0.166664,
+  "FD_pred": 0.166667,
+  "abs_diff": 2.6e-06,
+  "sf_count": 1215877
+ },
+ "FD_p7": {
+  "freq": 0.125009,
+  "FD_pred": 0.125,
+  "abs_diff": 8.53e-06,
+  "sf_count": 1215877
+ },
+ "s=0 boson": {
+  "R": "+1.000000+0.000000i"
+ },
+ "s=1/2 fermion": {
+  "R": "-1.000000+0.000000i"
+ },
+ "s=1 boson": {
+  "R": "+1.000000-0.000000i"
+ },
+ "s=3/2 fermion": {
+  "R": "-1.000000+0.000000i"
+ },
+ "s=1/4 anyon": {
+  "R": "+0.000000+1.000000i"
+ },
+ "s=1/3 anyon": {
+  "R": "-0.500000+0.866025i"
+ },
+ "theta_1": 1.086434811213,
+ "jacobi_t0.5": {
+  "diff": 0.0
+ },
+ "jacobi_t1.0": {
+  "diff": 0.0
+ },
+ "jacobi_t2.0": {
+  "diff": 0.0
+ },
+ "jacobi_t3.0": {
+  "diff": 0.0
+ },
+ "jacobi_t5.0": {
+  "diff": 0.0
+ },
+ "H2_uniform_100": 0.97,
+ "MSS_T77.0": {
+  "lambda_max": "6.3340e+13 s^-1",
+  "tau_planckian": "9.9198e-14 s",
+  "tau_times_2pi": "6.2328e-13 s"
+ },
+ "MSS_T300.0": {
+  "lambda_max": "2.4678e+14 s^-1",
+  "tau_planckian": "2.5461e-14 s",
+  "tau_times_2pi": "1.5997e-13 s"
+ },
+ "MSS_T4.0": {
+  "lambda_max": "3.2904e+12 s^-1",
+  "tau_planckian": "1.9096e-12 s",
+  "tau_times_2pi": "1.1998e-11 s"
+ },
+ "LCI_opt_ln_2pi": 1.8378770664,
+ "gauss_h_sigma1.0": 1.4189385332,
+ "gauss_h_sigma0.5": 0.7257913526,
+ "gauss_h_sigma2.0": 2.1120857138,
+ "cap_snr0.1": {
+  "C_inf": 0.068752,
+  "C_2": 0.137504,
+  "ratio": 2.0
+ },
+ "cap_snr1.0": {
+  "C_inf": 0.5,
+  "C_2": 1.0,
+  "ratio": 2.0
+ },
+ "cap_snr10.0": {
+  "C_inf": 1.729716,
+  "C_2": 3.459432,
+  "ratio": 2.0
+ },
+ "cap_snr100.0": {
+  "C_inf": 3.329106,
+  "C_2": 6.658211,
+  "ratio": 2.0
+ },
+ "QND_Hp_invariant": {
+  "Hp": 0.97,
+  "Hp_after_ideal_QND": 0.97,
+  "invariant": true
+ },
+ "born_degeneracy": {
+  "max_deviation": 0.5,
+  "tolerance": 0.01,
+  "verdict": "FAIL"
+ },
+ "anyon_p2_k1": {
+  "zeta": "+0.00000000+1.00000000i",
+  "s_min": "1/4"
+ },
+ "anyon_p3_k1": {
+  "zeta": "+0.50000000+0.86602540i",
+  "s_min": "1/6"
+ },
+ "anyon_p2_k2": {
+  "zeta": "+0.70710678+0.70710678i",
+  "s_min": "1/8"
+ }
+}
