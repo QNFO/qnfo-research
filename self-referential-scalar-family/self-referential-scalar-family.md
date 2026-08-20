@@ -4,10 +4,10 @@ author: "Rowan Brad Quni-Gudzinas"
 affiliation: "QNFO"
 date: "2026-08-20"
 license: "CC-BY-4.0"
-status: "draft"
-version: "0.4"
-doi: "[PENDING-ZENODO]"
-concept_doi: "[PENDING-ZENODO]"
+status: "published"
+version: "1.0.0"
+doi: "10.5281/zenodo.22031552"
+concept_doi: "10.5281/zenodo.22031551"
 ---
 
 # The Self-Referential Scalar Family: e, the Half-Turn, and the Unification of Information Theory, Statistics, Thermodynamics, and QND Measurement in the Adelic Picture
