@@ -8,6 +8,9 @@ Asset: *The $1,032 Research Program: What Fifty Billion Tokens Taught Me About A
 
 ## 0. Positioning — the defensible novelty claim
 
+**QNFO/QWAV strategic framing (user directive 2026-08-20, embed in external communications where relevant):** QNFO does AI-accelerated, open-science research. The operator is not a single-domain SME: they are an interdisciplinary / transdisciplinary / cross-cutting research manager using cutting-edge tools to tackle hard problems that humans alone have been unable to fully resolve. Machines help when trusted — and when the myth of human superior intelligence is set aside. Measured evidence: the program ledger (10.5281/zenodo.22028851). See RELATED-RESEARCH-AI-ASSISTED-ACCELERATED.md for the external-landscape mapping.
+
+
 **Landscape (arXiv live check, 2026-08-20):** the "AI Scientist" field is crowded with *system* papers — Sakana's AI Scientist (arXiv 2408.06292, "less than $15 per paper"), Jr. AI Scientist (2511.04583), Medical AI Scientist (2603.28589), TianJi-Environ (2606.07697), independent evaluations (2502.14297: "unprecedented cost efficiency, USD 6–15 per paper"), and risk audits (2509.08713, which argues trace logs are essential to evaluate AI research).
 
 **What is NOT in that literature:** a primary-source, audited ledger of an *operational, long-running* (263-day) solo program — actual API billing, actual registry counts, actual failure history, published with a pre-registered kill criterion. Existing work studies synthetic or short-run systems; this is a field study with receipts.
