@@ -1,0 +1,24 @@
+============================================================
+CHECK 1 — spider fusion golden values: Z(alpha) fused with Z(beta) == Z(alpha+beta)
+============================================================
+  alpha=0.785398 beta=1.570796 -> alpha+beta=2.356194: max|dev|=1.11e-16 PASS
+  alpha=3.141593 beta=1.047198 -> alpha+beta=4.188790: max|dev|=2.22e-16 PASS
+  alpha=0.700000 beta=1.100000 -> alpha+beta=1.800000: max|dev|=1.11e-16 PASS
+
+============================================================
+CHECK 2 — formal equivalence: circuit == ZX-contraction (CNOT then H on qubit 0)
+============================================================
+  circuit vs ZX-contraction: max|dev|=1.11e-16 PASS
+
+============================================================
+CHECK 3 — visibility token table: matrix entries vs diagram tokens, n qubits
+============================================================
+  n qubits | matrix entries (4^n) |  diagram tokens (CNOT chain)
+         2 |                   16 |                            4
+         3 |                   64 |                            7
+         4 |                  256 |                           10
+         5 |                 1024 |                           13
+         6 |                 4096 |                           16
+
+TOTAL: 9 checks, 0 failures
+VERDICT: ALL-PASS
