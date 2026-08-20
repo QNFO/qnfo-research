@@ -143,3 +143,23 @@ What a practitioner can DO with this, in engineering language:
 
 `docs/seed-notes-2026-08-20.md` — condensed user claims from the six vault notes, with
 note IDs and timestamps, transcribed for reproducibility of the project origin.
+
+## 9. Phase 1 Due Diligence — Verdict + Grade Re-mapping (2026-08-20)
+
+Full record: `docs/deep-research.md` + `artifacts/external-search/evidence-2026-08-20.md`.
+The registered core claim (§2) stays FROZEN as pre-registered; this section records the
+post-diligence grading applied at P1 (amendment, not retro-edit):
+
+| Seed claim | Post-diligence grade |
+|---|---|
+| "Continuum is unphysical ontology" | DEMOTED to inherited premise (Gisin–Del Santo 1803.06824/1909.03697; corpus 10.5281/zenodo.21647362) with the trilogy refinement (10.5281/zenodo.21672990): uncountable BREADTH vacuous, computable DEPTH real. Restated: "uncountable precision is unphysical." |
+| "State-space geometry is ultrametric" | REFINED to two senses; corpus 10.5281/zenodo.21120286 (8,000+ WDW systems): generic 29–35% violations; ultrametric iff diagonal clock-rest coupling. Partition sense requires the semiorder (Luce 1956) argument. |
+| "Unitarity/superposition emerge from entropy Hessian" | REMAINS THE NOVEL CONJECTURE (gap G1) with named obstacles: ℂ gap (Hardy 2001; Aaronson 2004), ψ-epistemic wall (PBR 2012), 2-norm selection. |
+| "Hilbert space is a map, not territory" | KEEP thesis-grade; symmetric — the Hessian flow is equally a map until G1 lands. |
+| "QM is thermodynamics" | INHERITED premise (entropic-operational-paradigm 10.5281/zenodo.17687207, 2025). |
+
+Novel contribution = G1 (entropy-Hessian → unitarity emergence model with finite-N
+predictions) + G2 (break the empirical-equivalence problem) + G5 (practitioner
+deliverables). Phase 1 HARD GATE PASS: 5 corpus formulations, 6 cross-system
+validations (2 partial flagged), 5 adjacent WBS domains, 12 external imports
+live-verified.
