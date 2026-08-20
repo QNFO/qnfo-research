@@ -20,6 +20,8 @@ Essay + method appendix: [DOI]
 
 As far as I can tell from the literature, it is the first published audit of an operational AI-accelerated research program with receipts. Happy to share raw usage data.
 
+One line on the author: QNFO does AI-accelerated, open-science research — I am an interdisciplinary / transdisciplinary / cross-cutting research manager, not a single-domain SME.
+
 Best,
 Rowan Brad Quni-Gudzinas
 qnfo.org — ORCID 0009-0002-4317-5604

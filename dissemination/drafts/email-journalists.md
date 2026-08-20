@@ -23,6 +23,8 @@ Essay: [DOI] — author: Rowan Brad Quni-Gudzinas (qnfo.org, ORCID 0009-0002-431
 
 Happy to provide the raw usage data or a data extract for verification.
 
+Author note: QNFO does AI-accelerated, open-science research — I am an interdisciplinary / transdisciplinary / cross-cutting research manager using cutting-edge tools on problems that humans alone have not resolved.
+
 Best,
 Rowan Brad Quni-Gudzinas
 
