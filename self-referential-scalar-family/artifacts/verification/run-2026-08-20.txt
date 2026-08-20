@@ -145,3 +145,4 @@
   "z_limit_prime": "1 (unattainable, p>=2)"
  }
 }
+WROTE adelic-stats-verification-2026-08-20.json — ALL CHECKS PASS
