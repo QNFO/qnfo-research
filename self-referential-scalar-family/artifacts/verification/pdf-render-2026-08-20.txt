@@ -1,0 +1,20 @@
+# QNFO.RES.020 — PDF/HTML render log (v1.3 deposit evidence, reviewer SOFT-3)
+# Generated 2026-08-20 via the canonical CDP pipeline (render-pdf.cjs / bake-mathjax.cjs)
+
+## PDF render (render-pdf.cjs, headless Chrome for Testing)
+CHROME-EXE: C:\Users\LENOVO/.cache/puppeteer/chrome/chrome-win64/chrome.exe
+MATH-COUNT: 506
+PDF-OK: self-referential-scalar-family.pdf 818.1 KB, math=506
+GATE: PASS >=100KB
+
+## HTML MathJax bake (bake-mathjax.cjs, pre-rendered SVG — no-JS viewable)
+CHROME-EXE: C:\Users\LENOVO/.cache/puppeteer/chrome/chrome-win64/chrome.exe
+BAKED: self-referential-scalar-family.html math-mjx: 253 tofu: 0 bytes: 3435181
+BAKE-GATE: PASS
+
+## Note on the two counts
+- MATH-COUNT 506 in the PDF = 253 expressions x 2 (MathJax counts each rendered
+  container plus assistive MathML; the reviewer independently verified 253 expressions:
+  247 inline + 6 display, matching the .md exactly 253<->253).
+- The baked HTML contains 253 pre-rendered mjx-container SVG elements, 0 U+FFFD tofu,
+  and renders correctly with JavaScript disabled.

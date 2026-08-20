@@ -5,8 +5,8 @@ affiliation: "QNFO"
 date: "2026-08-20"
 license: "CC-BY-4.0"
 status: "published"
-version: "1.2.0"
-doi: "10.5281/zenodo.22034679"
+version: "1.3.0"
+doi: "10.5281/zenodo.22035210"
 concept_doi: "10.5281/zenodo.22031551"
 ---
 
