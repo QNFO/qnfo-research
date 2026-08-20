@@ -1,3 +1,13 @@
+---
+title: "The $1,032 Research Program: What Fifty Billion Tokens Taught Me About AI-Accelerated Science"
+author: "Rowan Brad Quni-Gudzinas"
+date: "2026-08-20"
+status: published
+doi: "10.5281/zenodo.22028851"
+concept_doi: "10.5281/zenodo.22028787"
+license: CC-BY-4.0
+---
+
 # The $1,032 Research Program: What Fifty Billion Tokens Taught Me About AI-Accelerated Science
 
 *Rowan Brad Quni-Gudzinas — August 2026*
