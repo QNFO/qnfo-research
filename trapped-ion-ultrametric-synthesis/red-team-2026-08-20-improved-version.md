@@ -70,16 +70,21 @@ Einstein equations from Bruhat–Tits tensor networks).
 ### H-3. Section 5 ledger omits program-published nulls
 Section 5 is titled "Negative Results the Register Must Respect" but omits at least three
 published program nulls:
-- **CMB log-periodic null** — log-periodic-oscillations-in-the-cmb (10.5281/zenodo.19555030):
-  Planck 2018 shows no log-periodic oscillations above ~0.3% amplitude (per the 2026-07-17
-  Disconfirming Registry analysis; the record is in living-paper, status=published).
+- **CMB log-periodic null** — Planck 2018 shows no log-periodic oscillations above ~0.3%
+  amplitude. CORRECTED ATTRIBUTION (2026-08-20 second-pass audit): the null's home is
+  radix-agnostic-dsi-detection (10.5281/zenodo.21902891) + the 2026-07-17 Disconfirming
+  Registry analysis; 10.5281/zenodo.19555030 (log-periodic-oscillations-in-the-cmb,
+  2026-04-13) is the proposal letter that predicted the signal and contains NO null result.
+  v1.4 must cite 21902891 for the null, not 19555030.
 - **Biophoton/FMO anti-ultrametric null** — biophoton-ultrametric-consilience
   (10.5281/zenodo.21651892): FMO coupling matrix is ANTI-ultrametric (cophenetic 0.426,
   p=0.984), an empirical system that actively contradicts the generic ultrametricity
-  expectation.
+  expectation. Second FMO null from the same registry: exact-clustering null
+  (p=0.598) — both entries belong in the v1.4 ledger.
 - **Ultrametric-QEC independent-error threshold** — per the 2026-07-15 evidence synthesis,
   the ultrametric-qudit record's own simulation shows a threshold ~55× WORSE than surface
-  codes under independent errors (p_th ≈ 2.0×10⁻⁴ vs 1.1×10⁻²). The architectural movement
+  codes under independent errors (p_th ≈ 2.0×10⁻⁴ vs 1.1×10⁻²). Verified exact in record
+  ultrametric-quantum (10.5281/zenodo.21046993, 2025-12). The architectural movement
   (Section 7) and R4 must disclose this constraint or explicitly bound the independent-error
   regime out of scope (the correlated-failure diagnosis is cited, but the independent-error
   threshold number is not).
@@ -87,6 +92,15 @@ published program nulls:
 The ledger's current entries are correct; the ledger is incomplete relative to the program's
 own archive. An improved version must either add these three or state the scope rule by which
 they are excluded.
+
+### H-4. Second missed internal input: prime-valuation-qec-implications (10.5281/zenodo.21979060)
+Found by the second-pass audit (reviewer -c8ik_mvrlcqWtVocUOSr, 2026-08-20). A published
+QNFO record (2026-08-14, living-paper, QEC domain) that is NOT in the synthesis's 39-entry
+references.bib and NOT in this report's v1.4 input list. It is the program's own
+falsifiability-driven QEC record: the branch-depth reading of ultrametric QEC is assessed
+as "mostly relabeling," and its 83% classifier result is flagged UNVERIFIED-INTERNAL —
+exactly the honesty standard R5's zero-weight grading and H-2's QEC engagement demand.
+v1.4 must add it to the record set and cite it in the architectural movement / R5 framing.
 
 ## 4. SOFT findings
 
@@ -148,13 +162,41 @@ R1's conditional-state dynamics timescales).
 ## 7. Recommendation
 
 Ship **v1.4** with scope:
-1. Extend the record set 16 → 18+: add qec-darwinism-ultrametric (H-1), pattern-particle-
-   unification, pqs-critique-adjudication (S-2).
+1. Extend the record set 16 → 19+: add qec-darwinism-ultrametric (H-1),
+   prime-valuation-qec-implications (H-4, 10.5281/zenodo.21979060),
+   ultrametric-quantum (Qudit QEC, 10.5281/zenodo.21046993, quoted for H-3 numbers and
+   directly relevant to R4/R5), pattern-particle-unification + pqs-critique-adjudication
+   (S-2).
 2. Rewrite R5's grading paragraph to engage the p-adic AdS/CFT tensor-network QEC
    literature (H-2) — cite ≥6 external works.
-3. Extend Section 5 with the CMB null, FMO anti-ultrametric null, and the independent-error
+3. Extend Section 5 with the CMB null (cite radix-agnostic-dsi-detection
+   10.5281/zenodo.21902891 — NOT the 19555030 proposal letter), both FMO nulls
+   (cophenetic 0.426/p=0.984 + exact-clustering p=0.598), and the independent-error
    threshold disclosure, or state the exclusion scope rule (H-3).
 4. Verify/sharpened R1 clock-spectrum condition (S-1).
 5. Add the external constructive p-adic QM citations to R3/R4 (S-3).
 6. KG CITES seeding + register↔Q-Fundamental cross-map (D-1, D-2).
 7. Update ERRATA trail with this report (D-3).
+
+## 8. Second-pass audit record (2026-08-20)
+
+Reviewer -c8ik_mvrlcqWtVocUOSr audited this report (read-only, live verification):
+**verdict PASS with corrections — report accurate in substance (9/9 Zenodo DOIs state=done,
+18/18 arXiv IDs resolved with exact titles/authors; F_L > 0.874 verified literally in the
+Maity paper, Eq. 14; 55× threshold recomputed from record 21046993's own numbers), v1.4
+recommendation justified and actionable.** One HARD + three SOFT findings against the red
+team, all corrected in this amendment:
+
+- **HARD (completeness):** prime-valuation-qec-implications (10.5281/zenodo.21979060)
+  missed → added as H-4 + v1.4 scope item 1.
+- **SOFT:** CMB null misattributed (19555030 = proposal letter, no null; null lives in
+  radix-agnostic-dsi-detection 21902891) → corrected in H-3 + scope item 3.
+- **SOFT:** Qudit QEC record 21046993 quoted but not added to the input set → added to
+  scope item 1.
+- **SOFT:** second FMO null (exact-clustering p=0.598) omitted → added to H-3; title drift
+  noted (D1 store title "Ultrametric Code Spaces…" vs Zenodo v1.11 title "Archimedean
+  Shadows…"; also paper_ids zenodo_doi 21819232 vs record 21964674 — adjacent
+  data-quality debt for the v1.4 cycle).
+
+Dependency check: all remediation targets exist and are DOI/arXiv-verified; KG CITES edge
+type exists (12 edges elsewhere); S-1 correctly framed as an open verification item.
