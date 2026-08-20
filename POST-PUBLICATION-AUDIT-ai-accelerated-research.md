@@ -29,3 +29,8 @@ Zenodo state=done · DataCite findable · R2 qnfo-releases/2026/08/ai-accelerate
 ## Remediation items (next cycle)
 1. **v1.2 newversion** adding: evidence pack (aggregate_usage.py, usage_summary.json, verify_essay.py) + dissemination package (strategy.md + 7 drafts) + PROVENANCE updates (96.4% literal, script names, privacy-exclusion note for raw CSVs).
 2. New gates installed this cycle: D1-QUOTED-RESERVED-COLS-1 (HARD), ZENODO-NEWVERSION-FILE-REPLACE-1 (HARD), CONCEPT-DOI-PRE-BUILD-1 (HARD), ESSAY-DEPOSIT-EVIDENCE-PACK-1 (SOFT), DOIDOT-403-BOT-1 (SOFT), GIT-MERGE-BRANCH-FETCH-1 (SOFT), R2-RCLONE-TEMP-CONFIG-1 (SOFT). Mirrors: system-prompt v3.58, kaizen v2.84, research v2.127, qnfo-core v1.34, cloudflare v3.58.
+
+## Remediation status (2026-08-20) — CLOSED
+
+HARD-1/HARD-2 remediated: v1.2 (10.5281/zenodo.22030674) published the rebuilt source set; v1.3 (10.5281/zenodo.22030896) added the evidence pack (evidence_aggregate_usage.py, evidence_usage_summary.json, evidence_verify_essay.py) and the dissemination package (dissemination_*: strategy + 7 drafts) — 18 files total, flat deposit names (bucket API rejects nested paths). PROVENANCE updated with the 96.4% literal (SOFT-1) and the privacy exclusion note (SOFT-2). README manifest no longer dangles. DataCite findable; concept DOI 10.5281/zenodo.22028787 resolves to v1.3.
+Repo side: evidence/ added to this repository (GIT-OWNERSHIP-1). DESIGN-1 (split source sets) remains: the supplement repo still lacks the deposit-only html/pdf/bib — acceptable, documented.

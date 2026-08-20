@@ -1,0 +1,118 @@
+{
+  "months": {
+    "2025-11-01_2025-11-30": {
+      "cost": 0,
+      "requests": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_cache_hit": 0,
+      "input_cache_miss": 0
+    },
+    "2025-12-01_2025-12-31": {
+      "cost": 8.89,
+      "requests": 1037,
+      "input_tokens": 34549717,
+      "output_tokens": 3253127,
+      "input_cache_hit": 8514112,
+      "input_cache_miss": 26035605
+    },
+    "2026-01-01_2026-01-31": {
+      "cost": 7.95,
+      "requests": 962,
+      "input_tokens": 30502925,
+      "output_tokens": 3202285,
+      "input_cache_hit": 7680640,
+      "input_cache_miss": 22822285
+    },
+    "2026-02-01_2026-02-28": {
+      "cost": 0.59,
+      "requests": 127,
+      "input_tokens": 2509367,
+      "output_tokens": 324233,
+      "input_cache_hit": 982336,
+      "input_cache_miss": 1527031
+    },
+    "2026-03-01_2026-03-31": {
+      "cost": 3.22,
+      "requests": 359,
+      "input_tokens": 10231627,
+      "output_tokens": 1198471,
+      "input_cache_hit": 603136,
+      "input_cache_miss": 9628491
+    },
+    "2026-04-01_2026-04-30": {
+      "cost": 24.11,
+      "requests": 7710,
+      "input_tokens": 483879748,
+      "output_tokens": 6221569,
+      "input_cache_hit": 455800448,
+      "input_cache_miss": 28079300
+    },
+    "2026-05-01_2026-05-31": {
+      "cost": 110.74,
+      "requests": 50537,
+      "input_tokens": 6916773368,
+      "output_tokens": 33814115,
+      "input_cache_hit": 6784386688,
+      "input_cache_miss": 132386680
+    },
+    "2026-06-01_2026-06-30": {
+      "cost": 108.68,
+      "requests": 45639,
+      "input_tokens": 4869958663,
+      "output_tokens": 26309499,
+      "input_cache_hit": 4679816704,
+      "input_cache_miss": 190141959
+    },
+    "2026-07-01_2026-07-31": {
+      "cost": 440.16,
+      "requests": 124315,
+      "input_tokens": 14399024731,
+      "output_tokens": 76456745,
+      "input_cache_hit": 13606283319,
+      "input_cache_miss": 792741412
+    },
+    "2026-08-01_2026-08-20": {
+      "cost": 327.73,
+      "requests": 92695,
+      "input_tokens": 23116111664,
+      "output_tokens": 97584575,
+      "input_cache_hit": 22531163264,
+      "input_cache_miss": 584948400
+    }
+  },
+  "grand": {
+    "deepseek-chat & deepseek-reasoner": {
+      "cost": 39.91,
+      "requests": 9403,
+      "input_tokens": 474347863,
+      "output_tokens": 12928687,
+      "input_cache_hit": 390247424,
+      "input_cache_miss": 84100439
+    },
+    "deepseek-v4-flash": {
+      "cost": 173.21,
+      "requests": 78987,
+      "input_tokens": 18697520562,
+      "output_tokens": 83304721,
+      "input_cache_hit": 18233978624,
+      "input_cache_miss": 463541938
+    },
+    "deepseek-v4-pro": {
+      "cost": 818.97,
+      "requests": 234991,
+      "input_tokens": 30691673385,
+      "output_tokens": 152131211,
+      "input_cache_hit": 29451004599,
+      "input_cache_miss": 1240668786
+    },
+    "__TOTAL__": {
+      "cost": 1032.08,
+      "requests": 323381,
+      "input_tokens": 49863541810,
+      "output_tokens": 248364619,
+      "input_cache_hit": 48075230647,
+      "input_cache_miss": 1788311163
+    }
+  }
+}
