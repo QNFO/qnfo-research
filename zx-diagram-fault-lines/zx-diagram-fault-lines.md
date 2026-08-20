@@ -84,6 +84,8 @@ Jeandel, Perdrix, and Vilmart [1], and Wang [3], means that every matrix equalit
 relevant fragment is provable diagrammatically: nothing is lost by working in the picture.
 Van de Wetering's survey [10] is the standard working reference.
 
+![Figure 1. Spider fusion: two connected Z-spiders merge into one, preserving the linear map.](figures/fig1-spider-fusion.svg)
+
 Three constructs do most of the work in modern applications.
 
 **Spiders.** The generators themselves. A spider is a node with any number of inputs and
@@ -249,6 +251,8 @@ cafeteria problem, but the mechanism is general:
 
 The cafeteria problem is a failure mode of *borrowing*, not of *building*. It is what happens
 when a successful notation travels faster than its caveats.
+
+![Figure 2. The seam: where the map stops being a map and starts being mistaken for territory.](figures/fig2-seam-diagram.svg)
 
 ## 7. Map-aware practice
 
