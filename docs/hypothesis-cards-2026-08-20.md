@@ -78,3 +78,13 @@ edited retroactively without a dated amendment note.
 
 **Falsifier register re-check log:**
 - 2026-08-20 P0: all cards registered; no falsifier triggered (nothing yet tested).
+- 2026-08-20 P2 gate: re-checked before paper-structure work. No card falsified by
+  Phase 1 diligence, but two cards received corpus-informed REFINEMENTS (recorded as
+  dated amendments, claims unchanged): H-CONT — corpus 10.5281/zenodo.21647362 +
+  Gisin–Del Santo already own the finite-information premise; the card now inherits it
+  as L0/L1 input (trilogy refinement: uncountable breadth vacuous, computable depth
+  real). H-ULTRA — corpus 10.5281/zenodo.21120286 (8,000+ WDW systems) shows
+  ultrametricity is NOT generic (29–35% violation for nondiagonal clock-rest coupling);
+  the card's prediction is restated conditionally (ultrametricity for partition-type
+  distinguishability, subject to the semiorder argument). H-UNIT/H-BORN/H-TIME remain
+  unfalsified and untested — P5 simulation is the next falsifier test.
