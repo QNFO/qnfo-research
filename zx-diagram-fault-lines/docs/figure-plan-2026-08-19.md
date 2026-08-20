@@ -21,10 +21,16 @@ first figure set ships with RES.015 v0.5.
 
 | Fig | File | Content | Status |
 |---|---|---|---|
-| 1 | `figures/fig1-spider-fusion.svg` | Spider fusion rewrite (two Z-spiders → one) illustrating "the satisfaction of diagrams" (§1) | drafted 2026-08-19 |
-| 2 | `figures/fig2-seam-diagram.svg` | The seam: 3+1D physics and 1D thermodynamics imported onto the 2D map plane | drafted 2026-08-19 |
+| 1 | `figures/fig1-spider-fusion.svg` | Spider fusion rewrite (two Z-spiders → one) illustrating "the satisfaction of diagrams" (§1) | **WIRED into paper body (2026-08-20, commit 5bf1e99)** |
+| 2 | `figures/fig2-seam-diagram.svg` | The seam: 3+1D physics and 1D thermodynamics imported onto the 2D map plane | **WIRED into paper body (§6, commit 5bf1e99)** |
 | 3 | `figures/fig3-qpl-cluster-map.svg` | Nine-paper QPL 2026 cluster positioned on the program map (UMP/SLB/INM/CFE/DEM/RES) with the four unoccupied seams | planned |
 | 4 | `figures/fig4-bt-tree-synthesis.svg` | Bruhat-Tits tree with a path traversal labeled as gate synthesis (appendix, Clifford+R row) | planned |
+
+S5 (figure wiring) CLOSED 2026-08-20: markdown image refs added at §1 (fusion) and §6 (seam);
+html/pdf rebuilt (226,337 B, 11 pages). Note: the binary U+FFFF scan false-positived once on the
+figure-bearing PDF (raw-bytes hit inside a compressed stream); the authoritative scans
+(decompressed per-page content + extracted text) are CLEAN — kaizen candidate: for
+figure-bearing builds the gate should report the semantic scans, or scan decompressed streams.
 
 ## Pipeline integration
 
