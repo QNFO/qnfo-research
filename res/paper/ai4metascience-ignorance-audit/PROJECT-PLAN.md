@@ -30,8 +30,8 @@ AI-assisted science; six transferable principles mapped to the workshop agenda.
 | 3 | LaTeX conversion (.tex/.sty) | ✅ | 2026-08-18 |
 | 4 | Citation audit (live APIs) | ✅ | 2026-08-18 |
 | 5 | CMD RED TEAM (3 reviewers) + HARD fixes | ✅ | 2026-08-18 |
-| 6 | OpenReview submission | ⏳ before 2026-08-29 AoE |
-| 7 | Zenodo deposit + R2 mirror + KG update | ⏳ post-submission (PUBLICATION-SOURCE-COMPLETENESS-1) |
+| 6 | OpenReview submission | ✅ 2026-08-20 (#17, note 6lmtqUoIbj) |
+| 7 | Zenodo deposit + R2 mirror + KG update | ✅ 2026-08-20 (DOI 10.5281/zenodo.22026592) |
 
 ## Gates (all standing)
 

@@ -3,9 +3,9 @@ title: "Epistemic Legibility in AI-Assisted Science: Ignorance Auditing as a Gov
 author: "Rowan Brad Quni-Gudzinas"
 affiliation: "QNFO"
 date: "2026-08-18"
-status: "draft"
+status: "published"
 venue: "AI for Meta-Science Workshop, NeurIPS 2026 (position paper track, 8 pages)"
-doi: null
+doi: "10.5281/zenodo.22026592"
 ---
 
 # Epistemic Legibility in AI-Assisted Science: Ignorance Auditing as a Governance Instrument for the Peer-Review and Evaluation Bottleneck

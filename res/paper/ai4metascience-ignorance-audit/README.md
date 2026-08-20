@@ -29,8 +29,8 @@
 3. [x] Convert to NeurIPS 2026 LaTeX template (neurips_2026.tex + .sty, position track; PDF via approved pipeline — PYMUPDF-FORBIDDEN-1, pdflatex forbidden)
 4. [x] Bibliography check against records (citation-audit.md, 2026-08-18 — live Zenodo/Crossref/OpenAlex verification, 10/10 PASS)
 5. [x] Red-team review (Accuracy/Completeness/Dependency — 3 HARD findings fixed: flagship real title, Whitcomb locators, banned word)
-6. [ ] Submit via OpenReview before Aug 29 AoE
-7. [ ] Zenodo deposit + R2 mirror + registry update (post-submission; PUBLICATION-SOURCE-COMPLETENESS-1 — all source files included)
+6. [x] Submit via OpenReview (2026-08-20, submission #17, note 6lmtqUoIbj)
+7. [x] Zenodo deposit + R2 mirror + registry update (2026-08-20, DOI 10.5281/zenodo.22026592)
 
 ## Branch
 
