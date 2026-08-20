@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-QNFO.RES.018 — Sealed simulation harness (REG-RES018-001 rev.2)
+QNFO.RES.018 — Sealed simulation harness (REG-RES018-001 rev.3)
 rev.2 amendment (2026-08-19, PRE-RESULTS portability patch): matrix_exp()
 replaces np.linalg.expm (removed in numpy 2.x). Hypothesis, parameters,
 protocol, and analysis rules UNCHANGED. Sealed sha256 recorded in
@@ -149,11 +149,10 @@ def run_variant(variant, gamma_m, tau_m, alpha=0.0, random_states=50, seed=SEED)
     results = []
     for (x0, y0, z0) in states:
         p_born = (1 + z0) / 2.0
-        rng_local = np.random.default_rng(seed + int(round((x0 + 2) * 1e4)))
-        hits = sum(
-            single_shot(x0, y0, z0, tau_m, gamma_m, variant, alpha)
-            for _ in range(N_SHOTS)
-        )
+        # REV.3 batch-equivalence: single_shot is deterministic (no RNG consumed),
+        # so all N_SHOTS shots are identical -> hits = N_SHOTS * outcome.
+        outcome = single_shot(x0, y0, z0, tau_m, gamma_m, variant, alpha)
+        hits = N_SHOTS * outcome
         p_meas = hits / N_SHOTS
         dev = abs(p_meas - p_born)
         results.append({'state': [x0, y0, z0], 'p_born': p_born,

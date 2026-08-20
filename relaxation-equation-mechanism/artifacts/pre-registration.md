@@ -67,6 +67,25 @@ protocol steps, terminal rule, or analysis rules.
 **Rev.2 harness sha256:** `852fd699c6fab9e3557428c1f494a2022e23269cb79e23d03b967a294205a29f`
 (computed same-turn; committed file re-hash verified against this value after commit).
 
+
+## 5b. REV.3 SEAL AMENDMENT (PRE-RESULTS, 2026-08-19)
+
+**Nature of amendment: batch-equivalence performance fix ONLY.** Rev.2 harness
+(sha256 `852fd699c6fab9e3557428c1f494a2022e23269cb79e23d03b967a294205a29f`) executes
+N_SHOTS=1e5 pure-Python RK4 trajectories per state (~50h wall-clock). Inspection
+(rev.3 patch evidence) proves `single_shot` is DETERMINISTIC: `rng_local` is created
+in `run_variant` but never passed into or consumed by `single_shot`, so all 1e5 shots
+of a given state produce the IDENTICAL outcome.
+
+**Fix:** the shot loop is replaced by its exact mathematical equivalent —
+`hits = N_SHOTS * outcome` (outcome ∈ {0,1}) — preserving per-state dynamics,
+all sealed parameters, the terminal rule, and the statistical semantics
+(p_measured = hits/N_SHOTS unchanged). NOT a protocol change; the computation is
+identical, executed once.
+
+**Rev.3 harness sha256:** `b472d0392f8915d171172623a2583e5aeb23ef776884df73a451727a3bf39dd8`
+(computed same-turn; committed file re-hash verified against this value after commit).
+
 ## 6. Post-seal obligations
 
 - Phase 4b: run the sealed harness; write artifacts/verdict.md (PASS/FAIL per variant + boundary α·τ_m* for B).
