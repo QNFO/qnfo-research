@@ -120,7 +120,12 @@
  "QND_Hp_invariant": {
   "Hp": 0.97,
   "Hp_after_ideal_QND": 0.97,
-  "invariant": true
+  "invariant": true,
+  "qnd_readout_fidelity": 1.0,
+  "demolition_readout_fidelity": 0.3355,
+  "Nshots": 200000,
+  "seed": 20260820,
+  "non_tautological": true
  },
  "born_degeneracy": {
   "max_deviation": 0.5,

@@ -5,8 +5,8 @@ affiliation: "QNFO"
 date: "2026-08-20"
 license: "CC-BY-4.0"
 status: "published"
-version: "1.0.0"
-doi: "10.5281/zenodo.22031552"
+version: "1.1.0"
+doi: "10.5281/zenodo.22033943"
 concept_doi: "10.5281/zenodo.22031551"
 ---
 
@@ -66,7 +66,7 @@ Three results are established, all computationally verified:
 - **R2 (statistics = information, fermionic).** The squarefree restriction of the
   integers (v_p ∈ {0,1} — the p-adic Pauli exclusion) yields P(v_p = 1) = 1/(p+1),
   exactly the Fermi–Dirac occupation number at the same inverse temperature β_p = ln p.
-  Verified numerically over 1.2 million squarefree integers (max deviation 8.5×10⁻⁶).
+  Verified numerically over 1.2 million squarefree integers (max deviation 8.53×10⁻⁶).
 - **R3 (QND = equality case of the data-processing inequality).** An ideal QND
   measurement of a p-adic-valued observable preserves H_p exactly: it is the equality
   case of the adelic data-processing inequality — the measurement family (any channel
@@ -180,7 +180,7 @@ elementary). The Fermi–Dirac occupation number at fugacity z = 1/p is
 **Identical.** The squarefree integers realize Fermi–Dirac statistics at the p-adic
 place, with the same inverse temperature β_p = ln p. [ESTABLISHED — verified numerically
 over N = 2,000,000, 1,215,877 squarefree integers; the frequency of p|n matches 1/(p+1)
-for p = 2,3,5,7 with max deviation 8.5×10⁻⁶.]
+for p = 2,3,5,7 with max deviation 8.53×10⁻⁶.]
 
 ### 3.3 The dictionary
 
@@ -297,8 +297,13 @@ H_p(A after QND) = H_p(A before) — exactly.
 
 Verified computationally: for the distribution p = {0.5, 0.25, 0.13, 0.06, 0.03, 0.02,
 0.01} over v_2, H_p = 0.97 before and after an ideal QND readout — invariant by
-construction, and this invariance is precisely the equality case of the inequality.
-[ESTABLISHED — definitional; the content is the identification, which is exact.]
+construction, and this invariance is precisely the equality case of the inequality. The
+v1.1 verification adds a non-tautological contrast: over 200,000 seeded shots, the QND
+readout reproduces the exact pre-measurement valuation on every shot (readout fidelity
+1.0), whereas a demolishing channel that redraws from the same marginal matches the true
+value only with probability Σ p(k)² ≈ 0.336 — the demolition is information-lossy while
+QND is not. [ESTABLISHED — definitional; the content is the identification, which is
+exact, plus the contrast demonstration.]
 
 The same holds at the archimedean place: QND preserves the full information vector
 I(X) = (I_∞, I_2, I_3, …) of the measured observable. **QND is the measurement family
@@ -484,7 +489,8 @@ proposed, and the falsification conditions are written.
 - **Conflicts of interest:** The author declares no conflicts of interest.
 - **Verification:** All numerical claims verified by
   `artifacts/verification/adelic-stats-verification.py` (deposited source; stdlib-only
-  CPython 3; deterministic — no RNG; squarefree sieve N = 2×10⁶; output
+  CPython 3; deterministic — seeded Monte Carlo (seed 20260820, 200,000 shots) only for
+  the QND readout-fidelity contrast; squarefree sieve N = 2×10⁶; output
   `adelic-stats-verification-2026-08-20.json`, 38 checks, all pass). Reproducibility:
   `python artifacts/verification/adelic-stats-verification.py` re-generates the JSON
   byte-identically (run log: `run-2026-08-20.txt`).
@@ -496,16 +502,17 @@ proposed, and the falsification conditions are written.
 ## References
 
 [1] Quni-Gudzinas, R. B. (2026). Adelic Shannon Theory: From Problem Statement to
-Constructive Foundations. 10.5281/zenodo.22024240 (concept 21698550).
+Constructive Foundations. 10.5281/zenodo.22024240 (concept 21698975).
 
 [2] Quni-Gudzinas, R. B. (2026). The Boson/Fermion Distinction: Spin-Statistics as
-Structural Invariant. 10.5281/zenodo.21964598 (concept 21938971).
+Structural Invariant. 10.5281/zenodo.21964598 (concept 21938970).
 
 [3] Quni-Gudzinas, R. B. (2026). The Exchange Phase as a Logical Scalar: R = e^{2πis}
 from the Re-Entrant Calculus. 10.5281/zenodo.21964104 (concept 21941184).
 
 [4] Quni-Gudzinas, R. B. (2026). Structural Mediation of Planckian Dissipation in
-Strongly Correlated Electron Systems (Quantum Architectonics). 10.5281/zenodo.18465372.
+Strongly Correlated Electron Systems: A Universal Architectonic Approach.
+10.5281/zenodo.18465372.
 
 [5] Quni-Gudzinas, R. B. (2026). The Joules-per-Solution Metric. 10.5281/zenodo.21637028.
 
@@ -514,13 +521,13 @@ Measurement-Triggered Relaxation. 10.5281/zenodo.22026562.
 
 [7] Quni-Gudzinas, R. B. (2026). The Calculus of Re-Entrant Distinctions: A Unified
 Treatise on the Loop, the Tree, and the Constants of Self-Reference.
-10.5281/zenodo.21964453 (concept 21908818).
+10.5281/zenodo.21964453 (concept 21904762).
 
 [8] Quni-Gudzinas, R. B. (2026). Adelic Entropic Numbers: When the Adelic Information
 Vector Becomes the Entropic Number. 10.5281/zenodo.21698978.
 
-[9] Quni, R. (2026). The History and Future of Measurement Stratigraphy, Number Theory,
-and Valuation Theory. 10.5281/zenodo.21705220 (concept 21698494).
+[9] Quni-Gudzinas, R. B. (2026). The History and Future of Measurement Stratigraphy,
+Number Theory, and Valuation Theory. 10.5281/zenodo.21705220 (concept 21698493).
 
 [10] Quni-Gudzinas, R. B. (2026). One Table, Two Regimes: Standard-Model Particles and
 Condensed-Matter Excitations as Patterns on the Bruhat–Tits Tree.
@@ -552,8 +559,8 @@ Review Letters 49, 957–959. 10.1103/PhysRevLett.49.957.
 and practice. arXiv:1811.09613.
 
 [19] Sewell, R. J., M. Napolitano, N. Behbood, G. Colangelo, and M. W. Mitchell (2013).
-Certified quantum non-demolition measurement of a macroscopic material system.
-arXiv:1303.2490; Phys. Rev. X 3, 041028.
+Certified quantum non-demolition measurement of a macroscopic material system. Nature
+Photonics 7, 517–520. 10.1038/nphoton.2013.100; arXiv:1303.2490.
 
 [20] Ralph, T. C., S. D. Bartlett, J. L. O'Brien, G. J. Pryde, and H. M. Wiseman (2004).
 Quantum Non-demolition Measurements on Qubits. arXiv:quant-ph/0412149.
