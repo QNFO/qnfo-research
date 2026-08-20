@@ -61,7 +61,7 @@ matter for the present argument.
    proofs auditable; that is an epistemic property, not a cosmetic one.
 3. **Interfaces are drawn.** Box-and-wire notation renders composition: where components
    connect is visible. Matrices hide composition in index bookkeeping. The cognitive
-   dimensions literature calls this *visibility* and *closeness of mapping* [4], and it is
+   dimensions literature calls this *visibility* and *closeness of mapping* [4, 13], and it is
    the single most predictive dimension of a notation's usability.
 4. **Pre-attentive features.** Connectivity, cycles, trees, and symmetry are perceived
    pre-attentively; the same facts in a matrix require deliberate computation. Perception is
@@ -90,7 +90,7 @@ hard-to-compute optimum, trading away human-checkability at exactly the point wh
 is worth the loss. The two layers are connected by an interface — the normal form — which is
 the place where a human can still audit what the optimizer did.
 
-![Figure 1. The two-layer structure: a human-auditable canonical fragment and an automated optimizer, connected by the interface at which audit remains possible.](figures/fig1-two-layer-structure.svg)
+![Figure 1. The two-layer structure: where comprehension and optimality diverge, the field splits the difference.](figures/fig1-two-layer-structure.svg)
 
 This structure is the paper's central empirical claim. It is stated as a falsifiable
 hypothesis, with falsifiers, in Section 8. It is not a metaphor for how things ought to be;
@@ -126,11 +126,12 @@ public.
   control structure explicit versus hidden; extraction is, literally, the operation of
   hiding the interface.
 - Exact synthesis by buildings: synthesis reduced to path traversal on a tree, i.e., the
-  optimizer layer redesigned to be geometrically transparent [10].
+  optimizer layer redesigned to be geometrically transparent [6].
 - A recent design-space study of circuit visualizations — the closest external work to this
   paper — collects 194 visualizations and concludes with open opportunities in data
   structure, cognition, and integrability [11]. It catalogues the practice; it does not state
-  the law.
+  the law. The interpretability cluster that motivates it documents the same readability
+  pressure from the user side [16].
 
 These anchors are all public records; the interpretive claim that they jointly exhibit the
 two-layer structure is this paper's, and it is the falsifiable one.
@@ -162,7 +163,17 @@ claim's breadth check across fields is exactly this: a mature formal practice, f
 quantum computing, converged on a diagrammatic notation for the same reasons.
 
 These three connections are stated as hypotheses with the same status as the main claim —
-falsifiable, and subject to the same falsifier register.
+falsifiable, and subject to the same falsifier register. Each has a stated refutation: the
+statistics claim fails if parity-string visibility is purely conventional and carries no
+reasoning advantage; the thermodynamic claim fails if energy-per-solution is not
+representation-invariant; the re-entry claim fails if the injunction calculus admits a
+matrix presentation with equal cognitive affordances. Two further directives enter the same
+frame. The self-reference of the exponential constant, and the measurement question of
+quantum non-demolition observation, are both cases where a fact's visibility depends on the
+representation chosen — the same dependence this paper isolates. And the
+standard-model and condensed-matter unification programs are the stress test: if a
+representation makes the exchange phase visible across regimes, unification's
+diagrammatics inherit the argument [14, 15].
 
 ## 7. Computational verification
 
@@ -193,7 +204,8 @@ below are their output.
   recompute in seconds.
 
 Reproducibility: Python 3.12, numpy only, no randomness, runtime under thirty seconds;
-scripts and outputs are deposited with this paper.
+the verification script and its outputs are deposited at artifacts/verification/
+(verify-claims.py, verify-claims.log, verify-claims.json) with this paper.
 
 ## 8. H-VISUAL: the hypothesis card
 

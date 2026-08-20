@@ -5,6 +5,7 @@ used in a context the cited work supports. All checks executed live 2026-08-20.
 
 | Key | Source | Verification |
 |---|---|---|
+| jeandel2019completeness | arXiv | 1903.06035 — Jeandel, Perdrix, Vilmart (verified 2026-08-20; added after red-team HARD-A: [1] was cited but unlogged) |
 | larkin1987diagram | Crossref | DOI 10.1111/j.1551-6708.1987.tb00863.x — Larkin & Simon, Cognitive Science 1987, title exact |
 | green1996cognitive | Crossref | DOI 10.1006/jvlc.1996.0009 — Green & Petre, JVLC 1996 |
 | blackwell2003notations | Crossref | DOI 10.1016/b978-155860808-5/50005-8 — Blackwell & Green, HCI Models 2003 |

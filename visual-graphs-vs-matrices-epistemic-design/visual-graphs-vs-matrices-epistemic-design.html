@@ -245,8 +245,8 @@ auditable; that is an epistemic property, not a cosmetic one.</li>
 <li><strong>Interfaces are drawn.</strong> Box-and-wire notation renders
 composition: where components connect is visible. Matrices hide
 composition in index bookkeeping. The cognitive dimensions literature
-calls this <em>visibility</em> and <em>closeness of mapping</em> [4],
-and it is the single most predictive dimension of a notation’s
+calls this <em>visibility</em> and <em>closeness of mapping</em> [4,
+13], and it is the single most predictive dimension of a notation’s
 usability.</li>
 <li><strong>Pre-attentive features.</strong> Connectivity, cycles,
 trees, and symmetry are perceived pre-attentively; the same facts in a
@@ -281,10 +281,10 @@ by an interface — the normal form — which is the place where a human can
 still audit what the optimizer did.</p>
 <figure>
 <img src="figures/fig1-two-layer-structure.svg"
-alt="Figure 1. The two-layer structure: a human-auditable canonical fragment and an automated optimizer, connected by the interface at which audit remains possible." />
-<figcaption aria-hidden="true">Figure 1. The two-layer structure: a
-human-auditable canonical fragment and an automated optimizer, connected
-by the interface at which audit remains possible.</figcaption>
+alt="Figure 1. The two-layer structure: where comprehension and optimality diverge, the field splits the difference." />
+<figcaption aria-hidden="true">Figure 1. The two-layer structure: where
+comprehension and optimality diverge, the field splits the
+difference.</figcaption>
 </figure>
 <p>This structure is the paper’s central empirical claim. It is stated
 as a falsifiable hypothesis, with falsifiers, in Section 8. It is not a
@@ -324,11 +324,13 @@ presented with its control structure explicit versus hidden; extraction
 is, literally, the operation of hiding the interface.</li>
 <li>Exact synthesis by buildings: synthesis reduced to path traversal on
 a tree, i.e., the optimizer layer redesigned to be geometrically
-transparent [10].</li>
+transparent [6].</li>
 <li>A recent design-space study of circuit visualizations — the closest
 external work to this paper — collects 194 visualizations and concludes
 with open opportunities in data structure, cognition, and integrability
-[11]. It catalogues the practice; it does not state the law.</li>
+[11]. It catalogues the practice; it does not state the law. The
+interpretability cluster that motivates it documents the same
+readability pressure from the user side [16].</li>
 </ul>
 <p>These anchors are all public records; the interpretive claim that
 they jointly exhibit the two-layer structure is this paper’s, and it is
@@ -365,7 +367,19 @@ mature formal practice, far from quantum computing, converged on a
 diagrammatic notation for the same reasons.</p>
 <p>These three connections are stated as hypotheses with the same status
 as the main claim — falsifiable, and subject to the same falsifier
-register.</p>
+register. Each has a stated refutation: the statistics claim fails if
+parity-string visibility is purely conventional and carries no reasoning
+advantage; the thermodynamic claim fails if energy-per-solution is not
+representation-invariant; the re-entry claim fails if the injunction
+calculus admits a matrix presentation with equal cognitive affordances.
+Two further directives enter the same frame. The self-reference of the
+exponential constant, and the measurement question of quantum
+non-demolition observation, are both cases where a fact’s visibility
+depends on the representation chosen — the same dependence this paper
+isolates. And the standard-model and condensed-matter unification
+programs are the stress test: if a representation makes the exchange
+phase visible across regimes, unification’s diagrammatics inherit the
+argument [14, 15].</p>
 <h2 id="computational-verification">7. Computational verification</h2>
 <p>Every quantitative claim in this paper was verified computationally
 before this draft was written. The verification scripts and their
@@ -426,8 +440,9 @@ Section 2, and it is the claim a reader can recompute in
 seconds.</p></li>
 </ul>
 <p>Reproducibility: Python 3.12, numpy only, no randomness, runtime
-under thirty seconds; scripts and outputs are deposited with this
-paper.</p>
+under thirty seconds; the verification script and its outputs are
+deposited at artifacts/verification/ (verify-claims.py,
+verify-claims.log, verify-claims.json) with this paper.</p>
 <h2 id="h-visual-the-hypothesis-card">8. H-VISUAL: the hypothesis
 card</h2>
 <p>The main claim, in pre-registered form (dated 2026-08-20):</p>
