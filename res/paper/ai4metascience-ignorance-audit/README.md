@@ -4,7 +4,7 @@
 
 **Author:** Rowan Brad Quni-Gudzinas (QNFO)
 
-**Status:** v0.2 submission package (2026-08-18) — deadline **2026-08-29 AoE**
+**Status:** v1.0 package (2026-08-20) — Zenodo **10.5281/zenodo.22026592** published (concept 22026591); OpenReview submission **#17** made (2026-08-20); deadline **2026-08-29 AoE**. NOTE (VENUE-PDF-COMPLIANCE-1): the shipped position-paper.pdf is a markdown print (A4 single-column) — a compliant US-Letter two-column PDF must be compiled from neurips_2026.tex (pdflatex/Overleaf) and the OpenReview submission updated before the deadline.
 
 ## Submission facts (verified live 2026-08-18, ai4metascience.org + OpenReview API)
 
