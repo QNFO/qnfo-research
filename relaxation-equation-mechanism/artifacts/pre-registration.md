@@ -47,6 +47,26 @@ A measurement-triggered relaxation dynamics (basins of attraction) can be specif
 - Verification: `git show <seal-commit>:relaxation-equation-mechanism/notebooks/relaxation_sim.py | sha256sum` must equal the hash recorded in this file at seal time.
 - The simulation run (Phase 4b) MUST use this exact file; any edit → re-seal required.
 
+
+## 5a. REV.2 SEAL AMENDMENT (PRE-RESULTS, 2026-08-19)
+
+**Nature of amendment: environment portability ONLY.** The rev.1 harness (sha256
+`598f9352bc93de1e008f1df357e9d1d30bea4792d5d553837045ee4e1d54cfac`) crashed on
+first execution with `AttributeError: module 'numpy.linalg' has no attribute 'expm'`
+(numpy 2.4.4 removed np.linalg.expm; verified: hasattr = False, scipy 1.17.1
+available). The crash occurred BEFORE any simulation results existed (verdict-input.json
+never created; zero shots computed).
+
+**Fix:** replaced the single expm call in `unitary_step` with an environment-robust
+`matrix_exp()` — scipy.linalg.expm first, np.linalg.expm if present, else the EXACT
+analytic exponential for the sealed diagonal Hamiltonian (verified unitary:
+|UU^dag - I| = 0.0). NO changes to hypothesis, parameters (OMEGA=1, EPS=1e-2,
+N_SHOTS=1e5, DT_FACTOR=500, SEED=20260819, TEST_STATES, gamma_m/tau_m/alpha ranges),
+protocol steps, terminal rule, or analysis rules.
+
+**Rev.2 harness sha256:** `852fd699c6fab9e3557428c1f494a2022e23269cb79e23d03b967a294205a29f`
+(computed same-turn; committed file re-hash verified against this value after commit).
+
 ## 6. Post-seal obligations
 
 - Phase 4b: run the sealed harness; write artifacts/verdict.md (PASS/FAIL per variant + boundary α·τ_m* for B).

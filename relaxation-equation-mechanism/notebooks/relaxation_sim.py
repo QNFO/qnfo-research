@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-QNFO.RES.018 — Sealed simulation harness (REG-RES018-001)
+QNFO.RES.018 — Sealed simulation harness (REG-RES018-001 rev.2)
+rev.2 amendment (2026-08-19, PRE-RESULTS portability patch): matrix_exp()
+replaces np.linalg.expm (removed in numpy 2.x). Hypothesis, parameters,
+protocol, and analysis rules UNCHANGED. Sealed sha256 recorded in
+artifacts/pre-registration.md (rev.2).
 Measurement-triggered relaxation dynamics, 2-level system, Bloch sphere.
 
 DO NOT MODIFY: any edit invalidates the pre-registration seal (KIF-60 HARD).
@@ -67,9 +71,24 @@ def relaxation_C(x, y, z, gamma_m, z0):
 
 
 # ---------- Unitary evolution (Schroedinger) ----------
+def matrix_exp(A):
+    """Matrix exponential, environment-robust (numpy 2.x removed np.linalg.expm).
+    Falls back to the EXACT analytic exponential for diagonal 2x2 matrices,
+    which the sealed Hamiltonian always is (H = diag(w/2, -w/2))."""
+    try:
+        from scipy.linalg import expm as _expm
+        return _expm(A)
+    except ImportError:
+        pass
+    if hasattr(np.linalg, 'expm'):
+        return np.linalg.expm(A)
+    # exact analytic exponential for diagonal A
+    return np.diag(np.exp(np.diag(A)))
+
+
 def unitary_step(rho, dt):
     H = hamiltonian_matrix()
-    U = np.linalg.expm(-1j * H * dt)
+    U = matrix_exp(-1j * H * dt)
     return U @ rho @ U.conj().T
 
 
