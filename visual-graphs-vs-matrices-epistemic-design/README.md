@@ -32,7 +32,8 @@ The ZX calculus and the matrices of linear algebra denote exactly the same maps.
 - Phase 0 (2026-08-20): WBS claim QNFO.RES.019, PROJECT-PLAN, core-claim lock, UIA
 - Phase 1 (2026-08-20): full-corpus sweep (KG 8,317 nodes), Crossref/arXiv external verification, gap analysis
 - Phase 2–4 (2026-08-20): bibliography + citation audit, paper draft, computational verification (9/9 PASS), red-team audit (3 HARD + 7 SOFT — all remediated)
-- Phase 5 (2026-08-20): publication — Zenodo 10.5281/zenodo.22031417
+- Phase 5 (2026-08-20): publication — Zenodo 10.5281/zenodo.22031556 (v1.0)
+- Version 1.1 (2026-08-20): this release — Zenodo 10.5281/zenodo.22034455 (README DOI corrected; figure inlined into the HTML so the archive renders self-contained)
 
 ## How to reproduce the verification
 
