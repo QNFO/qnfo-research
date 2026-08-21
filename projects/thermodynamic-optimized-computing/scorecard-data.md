@@ -13,7 +13,7 @@ Every number below is either (a) a published measurement with its source, or (b)
 | Trapped ion + surface code | ~1×10⁻³ per two-qubit gate | ~1×10⁻¹⁷ ESTIMATE (laser power ~mW × gate time ~µs, quantum-level absorbed energy) | ~1 mK–300 K trap (laser-cooled) | active correction | two-qubit fidelity 99.9% (arXiv:1512.04600) |
 | Silicon spin + surface code | ~1×10⁻³ per two-qubit gate | ~1×10⁻¹⁸ ESTIMATE (microwave pulse ~nW × ~100 ns) | ~1 K | active correction | two-qubit gate demonstrated (arXiv:1411.5760); four-qubit array fidelities (arXiv:2312.16101) |
 | Photonic (fusion-based) | ~1×10⁻² per component | ~1×10⁻¹² ESTIMATE (single-photon source + detector overhead per operation, room-temperature system) | 300 K | active correction (lattice code) | component loss rates are standard in the photonic literature; no single canonical source — ESTIMATE flagged |
-| Topological (Majorana nanowire, InAs/Al) | no demonstrated qubit | 8.2×10⁻²⁵ assumed equal to transmon quantum level, ESTIMATE | 20 mK | hardware protection, gap Δ ≈ 3×10⁻²³ J (≈200 µeV hard gap) | hard-gap measurement (arXiv:1702.02578) |
+| Topological (Majorana nanowire, InSb/NbTiN) | no demonstrated qubit | 8.2×10⁻²⁵ assumed equal to transmon quantum level, ESTIMATE | 20 mK | hardware protection, gap Δ ≈ 3×10⁻²³ J (≈200 µeV hard gap) | hard-gap measurement (arXiv:1702.02578) |
 | Topological (Majorana nanowire, PbTe/Pb) | no demonstrated qubit | 8.2×10⁻²⁵ assumed equal to transmon quantum level, ESTIMATE | 20 mK | hardware protection, gap Δ ≈ 1.6×10⁻²² J (≈1 meV) | hard-gap measurement (arXiv:2309.01355) |
 
 ## Correction-model calibration (measured, not assumed)

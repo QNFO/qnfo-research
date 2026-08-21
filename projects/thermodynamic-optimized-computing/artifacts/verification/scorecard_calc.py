@@ -45,7 +45,7 @@ platforms = [
     ("Trapped ion + surface code",            "active", 1.0e-3, 1.00e-17, 0.015, None),
     ("Silicon spin + surface code",           "active", 1.0e-3, 1.00e-18, 1.000, None),
     ("Photonic (fusion) + lattice code",      "active", 1.0e-2, 1.00e-12, 300.0, None),
-    ("Topological Majorana InAs/Al (~200 ueV gap)", "passive", None, 8.21e-25, 0.020, 3.00e-23),
+    ("Topological Majorana InSb/NbTiN (~200 ueV gap)", "passive", None, 8.21e-25, 0.020, 3.00e-23),
     ("Topological Majorana PbTe/Pb (~1 meV gap)",    "passive", None, 8.21e-25, 0.020, 1.60e-22),
 ]
 

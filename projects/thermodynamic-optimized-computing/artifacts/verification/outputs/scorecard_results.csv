@@ -3,5 +3,5 @@ Superconducting transmon + surface code,active,1.5e-03,0.015,,33,7.24e-08,4225,0
 Trapped ion + surface code,active,1.0e-03,0.015,,33,7.24e-08,4225,0.930,4.225e-08
 Silicon spin + surface code,active,1.0e-03,1.0,,33,7.24e-08,4225,0.930,4.225e-09
 Photonic (fusion) + lattice code,active,1.0e-02,300.0,,33,7.24e-08,4225,0.930,4.225e-03
-Topological Majorana InAs/Al (~200 ueV gap),passive,n/a,0.02,3.00e-23,,6.6e-48,1,1.000,8.210e-19
+Topological Majorana InSb/NbTiN (~200 ueV gap),passive,n/a,0.02,3.00e-23,,6.6e-48,1,1.000,8.210e-19
 Topological Majorana PbTe/Pb (~1 meV gap),passive,n/a,0.02,1.60e-22,,2.3e-252,1,1.000,8.210e-19
