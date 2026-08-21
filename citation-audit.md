@@ -55,7 +55,7 @@ Remediation (newversion creator correction) is queued in the naming-mandate wave
 - Cross-checks against evidence file §4–5: all 28 entries appear in the Phase 1
   evidence ledger with live-verification rows; the 12 primary imports are enumerated
   in PROJECT-PLAN §9 (red-team S-3 remediation).
-- 3 Crossref DOIs that the red-team reviewers could not verify with read-only tools
+- 4 Crossref DOIs that the red-team reviewers could not verify with read-only tools
   (physrevd.27.2885, revmodphys.58.765, 10.2307/1905751, physrevd.95.043510) are now
   verified with full author lists (above).
 

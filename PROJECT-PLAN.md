@@ -3,7 +3,7 @@
 **Project:** Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics
 **Slug:** finite-distinction-quantum-mechanics
 **Repo:** QNFO/qnfo-research · **Branch:** res/paper/finite-distinction-quantum-mechanics
-**Status:** Phase 2 — Plan + Graded Outline (2026-08-20; P3 citation audit next)
+**Status:** Phase 3 — Citation Audit Complete (2026-08-20; P4 paper draft next)
 **Seed:** vault notes `_26232222938`, `_26232222943`, `_26232223001`, `_26232223244`, `_26232224820`, `_26232225623` (2026-08-20); predecessor paper QNFO.RES.020 (10.5281/zenodo.22035210, concept 10.5281/zenodo.22031551, published 2026-08-20).
 
 ---
