@@ -5,5 +5,5 @@
 [PASS] V6: discrete-time error exponent -2.00 (need < -0.5); n=1024 error 3.15e-08 (< 1e-6)
 [PASS] V7: V7a: max |psi^T L psi| = 2.17e-17 (< 1e-14); min |3 Sigma psi|psi|(L psi)| = 3.820e-02 (> 1e-6); V7b: max |Re lambda| = 0.00e+00 (< 1e-12), max |Im lambda + sin(2 pi k/N)| = 0.00e+00 (< 1e-12)
 
-6/6 checks PASS in 14.03s (seed 20260821); results written to verification-results-2026-08-21.json
-EXIT=0
+6/6 checks PASS in 13.359s (seed 20260821); results written to verification-results-2026-08-21.json
+EXIT:0

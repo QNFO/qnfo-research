@@ -186,12 +186,16 @@ def v3v4():
 # ---------------------------------------------------------------- V5
 def v5():
     """H-BORN (P7-remediation rewrite, H-2):
-    V5a — the flow's equilibrium converges to the maximum-entropy state p*; the
-    deviation shrinks with N (finite-dt shift artifact O(dt*gamma*|(shift-I)p*|)).
-    DESIGN CORRECTION (the remediation doc's Fourier argument omitted the
-    (shift-I)p* source term: p* is not an exact fixed point of the discrete flow;
-    the paper's claim is convergence in the large-distinction limit, which is what
-    is tested).
+    V5a — the flow's equilibrium IS the maximum-entropy state p* exactly: p* = U
+    (beta -> 0) is the exact fixed point of the implicit map ((1+dt*gamma)I - S)p =
+    dt*gamma*p* because S U = U (the shift preserves the uniform measure), so the
+    remediation doc's Fourier argument holds with no omitted source term
+    (design-note review 2026-08-21: the earlier 'DESIGN CORRECTION' note here was
+    itself corrected — p* IS an exact fixed point). The measured residual is the
+    finite-T relaxation artifact (1+dt*gamma)^(-T) = e^(-T*dt*gamma) = e^-15,
+    N-independent (measured exponent 0.01, flat); the gate verifies convergence to
+    the max-entropy state at EVERY N, and the exactness of the equilibrium is the
+    analytic statement.
     V5b — seeded multinomial tracking AT p*: band-coverage + mean-z gate (the
     per-alternative +/-2sigma band, computed and reported; the max-order-statistic
     makes a naive max-z<=2.5 gate fail with ~80% probability for 128 cells x 200
