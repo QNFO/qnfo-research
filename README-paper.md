@@ -4,13 +4,13 @@
 
 ## How to Cite
 
-**Cite all versions:** 10.5281/zenodo.22044106 (always resolves to the latest version)
+**Cite all versions:** 10.5281/zenodo.22044217 (always resolves to the latest version)
 
-**Cite this version:** 10.5281/zenodo.22044107
+**Cite this version:** 10.5281/zenodo.22044379
 
 Quni-Gudzinas, Rowan Brad (2026). Finite-Distinction Quantum Mechanics: Unitary
 Evolution and Superposition as the Large-Distinction Limit of Stochastic
-Thermodynamics. Zenodo. https://doi.org/10.5281/zenodo.22044107 (v1.0.1)
+Thermodynamics. Zenodo. https://doi.org/10.5281/zenodo.22044379 (v1.0.1)
 
 ## Overview
 

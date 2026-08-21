@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Rowan Brad Quni-Gudzinas" />
-  <meta name="dcterms.date" content="2026-08-21" />
+  <meta name="dcterms.date" content="2026-08-20" />
   <title>Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics</title>
   <style>
     /* Default styles provided by pandoc.
@@ -178,10 +178,10 @@
 Evolution and Superposition as the Large-Distinction Limit of Stochastic
 Thermodynamics</h1>
 <p class="author">Rowan Brad Quni-Gudzinas</p>
-<p class="date">2026-08-21</p>
+<p class="date">2026-08-20</p>
 </header>
 <p><strong>Author:</strong> Rowan Brad Quni-Gudzinas |
-<strong>Date:</strong> 2026-08-21 | <strong>License:</strong>
+<strong>Date:</strong> 2026-08-20 | <strong>License:</strong>
 CC-BY-4.0</p>
 <h2 id="abstract">Abstract</h2>
 <p>The continuum is an infinite-information object: a single real
@@ -465,7 +465,7 @@ structure to p-adic geometry. The import boundary is explicit: what is
 imported is the conditioning formalism and its ambiguity resolution
 [19]; what is derived here is the finite-distinction clock — a clock
 subsystem counting n distinctions — and its convergence behavior. The
-prediction (F5) is that relational dynamics converges to Schrödinger
+conjecture (F5) is that relational dynamics converges to Schrödinger
 evolution as n → ∞, with discrete-time artifacts shrinking with n.</p>
 <p>The complication is the classical analogue: “evolution without
 evolution” is not quantum-specific, and the same argument can be made in
@@ -572,33 +572,33 @@ with the run logs. Runtime, seed, and dependency versions are recorded;
 the program is re-runnable with a single command.</p>
 <p><strong>Results (seed 20260821, CPython 3.12.10, 14.0 s; full logs in
 artifacts/verification/):</strong> V1 PASS — max|F − (−∇²S)| = 0 on the
-simplex free coordinates, golden F_11(½) = 4.000000. V2 PASS — 0
+simplex free coordinates, golden F₁₁(½) = 4.000000. V2 PASS — 0
 strong-triangle violations of 262,144 triples for the ultrametric
 construction; Archimedean line control detects 83,328 violations (F2
 falsifier live). V3 PASS — per-step entropy production of the
 entropy-Hessian flow vanishes in the large-distinction limit: σ(N)
-exponent −0.88, σ(2^14) = 6.7×10^-6 (F3 supported; fixed-γ control
+exponent −0.88, σ(2¹⁴) = 6.7×10⁻⁶ (F3 supported; fixed-γ control
 exponent +0.14 — NOT vanishing, falsifier live). V4 PASS — symplecticity
 defect exponent −1.00: the reversible component becomes exactly
 entropy-conserving (unitary-like) as N → ∞. V5 PASS — the flow’s
 equilibrium converges to the maximum-entropy state at every N (max
-l1(p_T, p<em>) = 3.1×10^-7; a wrong equilibrium gives O(1)), and the ±2σ
+l1(p_T, p<em>) = 3.1×10⁻⁷; a wrong equilibrium gives O(1)), and the ±2σ
 band tracking at p</em> holds (mean z = 0.75, |z| ≤ 2 coverage 0.98;
 falsifier-live control z = 72.6 — outside the band) (F4 supported). V6
-PASS — finite-resolution clock error exponent −2.00, 3.2×10^-8 at n =
+PASS — finite-resolution clock error exponent −2.00, 3.2×10⁻⁸ at n =
 1024 (F5 supported). V7 PASS — the reversible generator conserves the
-2-norm exactly (|ψᵀLψ| = 2.2×10^-17) while the L3 norm drifts
-(3.8×10^-2), and its spectrum is purely imaginary with golden values λ_k
-= −i sin(2πk/N) (max |Re λ| = 0). All seven checks (six result entries;
-V3/V4 share one entry) were pre-registered before execution; the
-construction corrections (non-degenerate start for V3/V4; second-order
-clock step for V6; the v1.0.1 V5a implicit-relaxation stabilization and
-V7a asymmetric seed) were bugs in the checks, not in the claims, and
-were re-run to PASS per the verification discipline. Acceptance criteria
-were sharpened at execution (power-law exponent &lt; −0.5 in place of
-the P4 pre-registration’s “&lt; 0”, plus a final-deviation bound for V5)
-so the vanishing claims are falsifiable; the executed criteria are the
-ones in the table above. The model’s reversible component is the cyclic
+2-norm exactly (|ψᵀLψ| = 2.2×10⁻¹⁷) while the L3 norm drifts (3.8×10⁻²),
+and its spectrum is purely imaginary with golden values λ_k = −i
+sin(2πk/N) (max |Re λ| = 0). All seven checks (six result entries; V3/V4
+share one entry) were pre-registered before execution; the construction
+corrections (non-degenerate start for V3/V4; second-order clock step for
+V6; the v1.0.1 V5a implicit-relaxation stabilization and V7a asymmetric
+seed) were bugs in the checks, not in the claims, and were re-run to
+PASS per the verification discipline. Acceptance criteria were sharpened
+at execution (power-law exponent &lt; −0.5 in place of the P4
+pre-registration’s “&lt; 0”, plus a final-deviation bound for V5) so the
+vanishing claims are falsifiable; the executed criteria are the ones in
+the table above. The model’s reversible component is the cyclic
 permutation on the N alternatives — entropy-conserving by construction —
 and the dissipative relaxation uses the per-distinction rate γ = 1/N;
 the falsifier-live controls show the tests are not vacuous. The
