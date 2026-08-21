@@ -93,6 +93,30 @@ Target: core claim C1. Answers written, not resolved (Phases 1–4 hold tension)
 - **Most likely failure:** the crossover model shows active QEC wins at every plausible protection exponent — the paper then publishes that negative honestly (per program discipline) and the contribution becomes the scorecard + pre-registered kill-conditions. Acceptable outcome; not a failure of the pipeline.
 - **Steelman against this project:** QEC overhead is already below the energy noise floor of any realistic fridge; hardware protection is decades away; JPCUB is not yet a field-accepted metric. Response: the paper's value is precisely the falsifiable frame + scorecard, independent of which side wins.
 
-## 10. Status
+## 10. Phase 1 Due Diligence Record (DUE-DILIGENCE-DEPTH-1, 2026-08-21)
 
-Phase 0 committed 2026-08-21 (repo QNFO/qnfo-research after QNFO/jpcub-validation archived). Phase 1 due diligence runs in the same cycle.
+Corpus: 8,322 KG nodes / 1,659 papers. Sweeps: 5 query formulations × limit 16 (Vectorize) + recall_facts + search_memories; cross-system ID validation via resolve_paper_id on 8 top hits; adjacent domains: JPC + CMP + UMP/QEC + RES.
+
+**Corpus assets this project builds on (verified):**
+- JPCUB metric + anti-gaming protocol — 10.5281/zenodo.21637028 (C1a's criterion exists).
+- Thermodynamic & informational bottlenecks of scalable FTQC — 10.5281/zenodo.17955898 (R2-mirrored).
+- Qubit Delusion series: QEC overhead multiplies thermodynamic cost ×10²–10³; Problem-Substrate Mapping (40% thermodynamic/analog, 25% optical, 15% neuromorphic, 10% analog-QS, 5% reversible, 5% FTQC).
+- Rosetta Axis 3: approximation entropy; Rosetta's Constant ≈ 8.2×10⁻²⁵ J/gate (T=15 mK, α_r=1.9%) — quantitative anchor for the scorecard.
+- Lifecycle of a Fault-Tolerant Quantum Computer (whole-system energy); Bosonic Codes native-encoding comparison (cat/GKP/binomial/surface) — code-level precedent for the platform-level scorecard.
+- Thermodynamics of Structural Persistence (Topological Memory); Structural vs Driven Quantum Coherence; Twisted Cuprate Twistronics; Adelic QEC from Ostrowski (10.5281/zenodo.21336099).
+
+**Corpus contradictions that COMPLICATE C1 (must be folded in):**
+1. **reassessing-the-foundations-of-quantum-computation refutes naive topological protection:** topological QC fails at nonzero temperature via thermal anyon proliferation; the paper's actual proposal is ultrametric encoding, not FCI/topological (memory, importance 0.95, 2026-07-15 synthesis). → Note-1's "quantum semiconductor = topological protection, no active QEC" is REFUTED as stated; protection is exponential-in-Δ/T, not a binary noise margin.
+2. **The program's own tree-code threshold is ~55× WORSE than surface codes under independent errors** (Qudit QEC thesis 10.5281/zenodo.21046993); the passive advantage lives only in the correlated-failure regime (honest-negatives ledger, note 5).
+3. **Era-2 bio-mimetic/high-Tc pathway has zero experimental validation** (fs–ps coherence vs ms–s needed); twisted-cuprate-twistronics + 3 other key records have NO Zenodo DOI yet (D1 doi=null continuation-records gap — data-quality finding for Phase 5).
+4. **External (arXiv):** Christandl–Fawzi–Goswami 2512.02760 (2025-12) — constant-overhead FTQC under general noise via QLDPC → the ×10²–10³ QEC tax premise erodes as decoders improve; the paper must model decoder-efficiency dependence.
+5. **External lineage:** thermodynamic/reversible computing (Vitanyi 2005 survey; Frank 2018 generalized reversible computing) owns the classical Landauer line — the quantum-platform JPCUB application is the unoccupied niche (consistent with RES.015's external-unoccupied sweep finding).
+
+**Claim revision (C1v2 — Phase 1, replaces §2 for the paper):**
+> The selection criterion for quantum-computing platforms should be JPCUB (joules per correct solution), and the design problem is a trade-off surface, not a binary choice: hardware protection is exponential-in-Δ/T suppression (finite-temperature anyon proliferation caps it), active-QEC overhead is decoder- and code-dependent (QLDPC constant-overhead bounds it from below), and the classical noise margin is the wrong map for either. The paper's contribution is (i) the first JPCUB platform scorecard from published data, (ii) the protection-vs-QEC energy crossover curve with explicit decoder-efficiency and temperature axes, (iii) pre-registered kill-conditions. Whether a "quantum semiconductor" regime exists is a PREDICTION to be checked, not an assumption.
+
+**Novelty statement:** FTQC theory has no energy criterion; classical thermodynamic computing has no quantum-platform scorecard; the JPCUB metric paper has no application. The application (scorecard + crossover + kill-conditions) is unoccupied in both the corpus and the external literature.
+
+## 11. Status
+
+Phase 0 committed 2026-08-21 (repo QNFO/qnfo-research after QNFO/jpcub-validation archived). Phase 1 due diligence completed same cycle (this record). Next: [QNFO.JPC.002.P2] gap analysis + scorecard draft.
