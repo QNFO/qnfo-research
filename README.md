@@ -3,8 +3,8 @@
 Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic
 Thermodynamics
 
-**Author:** Rowan Brad Quni-Gudzinas (QNFO) · **Version:** 1.0.1 (2026-08-21) ·
-**License:** CC-BY-4.0 · **DOI:** 10.5281/zenodo.22044379
+**Author:** Rowan Brad Quni-Gudzinas (QNFO) · **Version:** 1.0.2 (2026-08-21) ·
+**License:** CC-BY-4.0 · **DOI:** 10.5281/zenodo.22046458
 
 ## About this paper
 
