@@ -241,7 +241,7 @@ ultrametrics-to-Bruhat-Tits chain [34] connects this relational structure to p-a
 geometry. The import boundary is explicit: what is imported is the conditioning
 formalism and its ambiguity resolution [19]; what is derived here is the
 finite-distinction clock — a clock subsystem counting n distinctions — and its
-convergence behavior. The prediction (F5) is that relational dynamics converges to
+convergence behavior. The conjecture (F5) is that relational dynamics converges to
 Schrödinger evolution as n → ∞, with discrete-time artifacts shrinking with n.
 
 The complication is the classical analogue: "evolution without evolution" is not
