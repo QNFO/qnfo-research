@@ -94,3 +94,15 @@ edited retroactively without a dated amendment note.
   and untested — P5 simulation is the next falsifier test; the draft's §8 and the
   verification section pre-register the exact falsifier tests (entropy-production
   scaling, symplecticity defect, Born deviation tolerance, clock convergence).
+- 2026-08-21 P5 gate: falsifier tests EXECUTED (artifacts/verification/, seed
+  20260821, 5/5 PASS). NO FALSIFIER TRIGGERED. H-ULTRA V2: 0/262,144 ultrametric
+  violations (F2 not triggered; Archimedean control 83,328 confirms the test is
+  live). H-UNIT V3/V4: per-distinction σ(N) exponent −0.88 and symplecticity-defect
+  exponent −1.00 — entropy production vanishes in the large-distinction limit (F3
+  not triggered; fixed-γ control exponent +0.14 shows the falsifier is live). H-BORN
+  V5: |P_Born − P_maxent| exponent −1.09 (F4 not triggered). H-TIME V6: clock error
+  exponent −2.00 (F5 not triggered). H-CONT: premise stands (V1 golden identity).
+  Two construction corrections were applied per VERIFY-FIX-RERUN-1 (V3/V4
+  non-degenerate start; V6 second-order clock step) — bugs in the checks, claims
+  unchanged. Next falsifier exposure: P7 post-publication audit + independent
+  re-runs.
