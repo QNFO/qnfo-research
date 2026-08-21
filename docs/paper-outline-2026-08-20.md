@@ -83,6 +83,13 @@ PROJECT-PLAN.md) remains frozen as registered.
 - PBR wall (1111.3328): the finite-alternative reading is ψ-epistemic-adjacent; the
   paper must state exactly which PBR assumption its model violates (independent
   preparation / onticity), or accept ψ-ontic grading.
+- **UIA Q15 seed (answered here; red-team H-2 remediation):** does the large-distinction
+  limit N → ∞ reimport the continuum through the parameter space? Answer: N is a finite
+  integer inside every model; the limit is taken over the model FAMILY, not inside any
+  model — no coordinate of any finite model is continuous. The continuum re-enters only
+  as the MAP (the limiting object we use to describe the family), never as a TERRITORY
+  claim; that is the map/territory discipline of §2 applied to the model family itself.
+  Registered source: UIA Q15, artifacts/universal-ignorance-audit.md.
 
 ## 6. Born Weights as Max-Entropy Weights (H-BORN)
 
@@ -95,6 +102,11 @@ PROJECT-PLAN.md) remains frozen as registered.
 
 - Page–Wootters 1983 (PRD 27, 2885) + Marletto–Vedral 2016/2017 (ambiguity
   resolution) as imported machinery; the clock subsystem counts n distinctions.
+- IMPORTED vs DERIVED boundary (red-team S-6): IMPORTED — the PW conditioning
+  formalism (conditioning a global stationary state on clock readings) and the
+  ambiguity resolution of Marletto–Vedral. DERIVED (this paper, conjecture-grade) —
+  the finite-distinction clock construction (n distinctions) and its convergence
+  behavior (H-TIME). The boundary is re-checked at P6 before the claim locks.
 - CORPUS CONSTRAINT + COMPLICATION: Vedral 2022 (arXiv:2203.03065) shows the classical
   analogue exists — "evolution without evolution" is NOT quantum-specific. The quantum
   discriminator = incompatible quantities + ℏ (Del Santo–Gisin 2024, 2409.10601).
@@ -138,10 +150,23 @@ PROJECT-PLAN.md) remains frozen as registered.
   for the state space), what is conjecture (Hessian → unitarity). The paper lives or
   dies on the finite-N predictions (§8 F3–F5); underdetermination (UMP.010) means the
   ontology claim earns its keep ONLY there.
+- **P6 obligation (red-team S-7/S-11, registered):** at P6 the paper MUST ship the
+  RESTATED core claim — "uncountable precision is unphysical" (breadth vacuous,
+  computable depth real — PROJECT-PLAN §9 re-mapping) — reconciling the frozen §2
+  wording; the amendment log (PROJECT-PLAN §9) and this registration are the audit
+  trail.
+- **P3 obligation (red-team S-12, registered):** references.bib + citation-audit.md
+  with per-entry live author verification (P3.AUTHOR-GATE-EVERY-ENTRY-1); anchor set
+  enumerated in artifacts/external-search/evidence-2026-08-20.md §4–5.
+- **P8 distribution obligations (red-team S-13, registered):** Zenodo source-complete
+  deposit, R2 mirror qnfo-releases/2026/08/finite-distinction-quantum-mechanics/,
+  D1/KG distribution_status=distributed, program_registry re-point
+  (PUBLISH-CHECKLIST-PORTFOLIO-REPOINT-1).
 
 ---
 
-**Section-to-gap map:** §2→G3, §3→G3/G4, §5→G1 (novel), §6→G1, §7→G4, §8→G2,
+**Section-to-gap map:** §2→G3, §3→G2/G3, §5→G1 (novel), §6→G1, §7→G4, §8→G2,
 §10→G5. Premise-depth disclosure: L0/L1/L2/L3 table from PROJECT-PLAN §2 reproduced
 in §2 of the paper; the UIA Q15 seed ("is the large-distinction limit itself
-continuous?") is answered explicitly in §5.
+continuous?") is answered explicitly in §5 (UIA Q15 seed block; red-team H-2
+remediation).

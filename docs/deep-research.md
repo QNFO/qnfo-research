@@ -129,7 +129,8 @@ spacetime), QNFO.INM (information-realism, entropic-operational), QNFO.SLB
 ## 6. Phase 1 verdict
 
 HARD GATE PASS: full-corpus sweep (5 formulations), cross-system validation (6 anchors,
-2 partial flagged for data-quality follow-up), adjacent domains (5), external
-verification (12 imports live-checked), evidence file deposited. The core claim
-survives ONLY in graded, refined form — the novel contribution is G1 (Hessian-flow
-emergence model + finite-N predictions), with G2–G5 as supporting deliverables.
+3 partial flagged for data-quality follow-up — canonical count per evidence file §3),
+adjacent domains (5), external verification (12 imports live-checked, enumerated in
+PROJECT-PLAN §9), evidence file deposited. The core claim survives ONLY in graded,
+refined form — the novel contribution is G1 (Hessian-flow emergence model + finite-N
+predictions), with G2–G5 as supporting deliverables.

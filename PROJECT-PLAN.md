@@ -3,7 +3,7 @@
 **Project:** Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics
 **Slug:** finite-distinction-quantum-mechanics
 **Repo:** QNFO/qnfo-research · **Branch:** res/paper/finite-distinction-quantum-mechanics
-**Status:** Phase 0 — Initialized (2026-08-20)
+**Status:** Phase 2 — Plan + Graded Outline (2026-08-20; P3 citation audit next)
 **Seed:** vault notes `_26232222938`, `_26232222943`, `_26232223001`, `_26232223244`, `_26232224820`, `_26232225623` (2026-08-20); predecessor paper QNFO.RES.020 (10.5281/zenodo.22035210, concept 10.5281/zenodo.22031551, published 2026-08-20).
 
 ---
@@ -69,9 +69,9 @@ See `docs/hypothesis-cards-2026-08-20.md`. Summary:
 
 | Card | Claim | Falsifier |
 |---|---|---|
-| H-CONT | The continuum requires infinitely many distinctions per coordinate | A finite-encoding scheme for an arbitrary real (excluded by diagonal argument; card registers the claim) |
+| H-CONT | The continuum requires infinitely many distinctions per coordinate | (a) A finite-encoding scheme for an arbitrary real (excluded by diagonal argument; card registers the claim); (b) an observable requiring an exact real at fixed finite resolution |
 | H-ULTRA | State-space distinguishability is ultrametric at any fixed resolution | A measured triple of states violating the strong (ultrametric) triangle inequality at some resolution |
-| H-UNIT | Unitarity emerges: the reversible component of the entropy-Hessian flow on N alternatives becomes symplectic as N → ∞, with entropy production → 0 | Entropy production does not vanish in the large-distinction limit |
+| H-UNIT | Unitarity emerges: the reversible component of the entropy-Hessian flow on N alternatives becomes symplectic as N → ∞, with entropy production → 0 | Entropy production does not vanish; symplecticity defect plateaus above zero |
 | H-BORN | Born probabilities = max-entropy weights over finite alternatives in the large-distinction limit | Seeded Monte Carlo deviates from Born frequencies beyond tolerance |
 | H-TIME | Page–Wootters relational time emerges from a clock subsystem counting n distinctions; Schrödinger dynamics recovered as n → ∞ | No convergence; discrete-time artifacts do not shrink with n |
 
@@ -79,7 +79,7 @@ See `docs/hypothesis-cards-2026-08-20.md`. Summary:
 
 | Phase | Gate | Deliverable |
 |---|---|---|
-| [QNFO.RES.021.P0] | WBS claim + branch + plan + core-claim draft + UIA | This plan, hypothesis cards, seed notes doc, `artifacts/universal-ignorance-audit.md`, tag v0.1-phase0 |
+| [QNFO.RES.021.P0] | WBS claim + branch + plan + core-claim draft + UIA | This plan, hypothesis cards, seed notes doc, `artifacts/universal-ignorance-audit.md`, tag v0.1-phase0-res021 |
 | [QNFO.RES.021.P1] | DUE-DILIGENCE-DEPTH-1 full-corpus sweep + external verification | `docs/deep-research.md` + `artifacts/external-search/*` |
 | [QNFO.RES.021.P2] | Gap analysis | Gap table in `docs/deep-research.md`; claims graded |
 | [QNFO.RES.021.P3] | Citation audit P3.AUTHOR-GATE-EVERY-ENTRY-1 | `references.bib` + `citation-audit.md` |
@@ -161,5 +161,11 @@ post-diligence grading applied at P1 (amendment, not retro-edit):
 Novel contribution = G1 (entropy-Hessian → unitarity emergence model with finite-N
 predictions) + G2 (break the empirical-equivalence problem) + G5 (practitioner
 deliverables). Phase 1 HARD GATE PASS: 5 corpus formulations, 6 cross-system
-validations (2 partial flagged), 5 adjacent WBS domains, 12 external imports
-live-verified.
+validations (3 partial flagged — canonical count per evidence file §3; 1 explicitly
+flagged, 2 annotated), 5 adjacent WBS domains, 12 external imports live-verified
+(enumerated: Gisin/Del Santo arXiv:1803.06824, 1909.03697, 2011.02348, 2205.11547,
+2305.02429, 2409.10601; PBR arXiv:1111.3328; Hardy quant-ph/0101012; Aaronson
+quant-ph/0401062; RTV 10.1103/revmodphys.58.765; Luce 10.2307/1905751; Page–Wootters
+10.1103/physrevd.27.2885 — 12 total; supporting: Marletto–Vedral 1610.04773 / PRD
+95.043510, Vedral 2203.03065, Knee 1609.01558, Srikanth 1708.04964, Cabbolet
+1812.03035).
