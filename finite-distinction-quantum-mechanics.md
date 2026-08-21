@@ -51,8 +51,8 @@ the argument is an information-theoretic observation that has been made, in diff
 forms, across the foundations literature and in our own corpus: a real coordinate is a
 map that requires infinitely many distinctions per point, and a finite-entropy world
 cannot carry such objects [3, 4, 5, 6, 7, 8]. We assemble the consequences in three
-claims, graded by the standard ladder of the program: exact identities, proposed
-dictionary entries, and conjectures with falsification conditions.
+claims, graded as exact identities, proposed dictionary entries, or conjectures with
+falsification conditions.
 
 1. **The continuum claim (inherited premise, refined).** Physical quantities contain
    only finite information; real numbers beyond a computable modulus are not physical
@@ -122,6 +122,17 @@ indistinguishable from the substrate itself whenever the rendering is used with 
 resolution — this underdetermination result [23] and its locale-framework reading
 [25] are the boundary conditions for the whole program: ontology claims earn their
 keep only through finite-N predictions (Section 8).
+
+**Premise-depth disclosure (where the premises end).** The argument rests on three
+unanalyzable primitives and imports the following named machinery; everything above
+them is derived, proposed, or conjectured in this paper.
+
+| Class | Items |
+|---|---|
+| **L0 primitives (unanalyzable here)** | The distinction (this/that); entropy as the log-count of distinctions; finite resolution (the minimum distinction). |
+| **L1 imported named inputs** | Maximum-entropy principle [14]; entropy Hessian = Fisher metric [15]; stochastic thermodynamics of discrete states [12, 16, 17]; Page–Wootters conditioning [18, 19]; ultrametricity of hierarchical order [10, 20]; semiorder structure of indistinguishability [21]; the adelic scalar family [1, 2]. |
+| **L2 derived (target)** | Finite entropy implies finite distinguishability (counting argument); equivalence-relation distinguishability implies ultrametric partitions (Section 3); the large-distinction symplectic limit of the entropy-Hessian flow (conjecture-grade until verified). |
+| **L3 conjectures (named, graded)** | Unitary evolution, superposition, Born weights, and relational time as the large-distinction limit (Sections 5–7; falsification F3–F5). |
 
 ## 3. The Geometry of Finite Distinctions
 
@@ -198,7 +209,7 @@ which assumption of that argument its model violates, or accept an ontic reading
 measurement event in the finite picture is a relaxation event of the flow [35], and
 experimental programs for reality tests [30, 31, 32] bound the space of options.
 
-The meta-question of the program's own ignorance audit — whether the large-distinction
+The meta-question raised by the self-audit method — whether the large-distinction
 limit reimports the continuum through the parameter space — has a clean answer here. N
 is a finite integer inside every model; the limit is taken over the family of models,
 not inside any model. No coordinate of any finite model is continuous. The continuum
@@ -287,7 +298,7 @@ Four deliverables follow from the finite-distinction reading.
 2. **Energy accounting.** If unitary evolution is the large-distinction limit of an
    entropy-gradient flow, the joules-per-solution cost of a quantum computation is a
    function of distinctions made per answer — a countable, benchmarkable resource
-   aligned with the joules-per-solution benchmark program (QNFO.JPC.001).
+   aligned with the joules-per-solution benchmark program.
 3. **Ultrametric decoding.** The p-adic classification of quantum error-correcting
    codes [37] turns into a decoding metric: nearest-distinction decoding on the tree.
 4. **Readout metrology.** The quantum non-demolition entropy-conservation rule [1]
@@ -295,7 +306,7 @@ Four deliverables follow from the finite-distinction reading.
 
 ## 11. Conclusion
 
-The program's grading ladder is the honest summary. Identity: the finite-information
+The honest summary is the claim-by-claim grading. Identity: the finite-information
 principle and its refinement (Section 2). Dictionary: the temperature analogy for the
 state space (Section 4). Conjecture: the emergence of unitary evolution, superposition,
 Born weights, and relational time from the entropy-Hessian flow (Sections 5–7), with
@@ -324,8 +335,9 @@ the positive one.
    physics based on propensities. arXiv:2305.02429 (2023).
 8. Del Santo, F. & Gisin, N. Which features of quantum physics are not fundamentally
    quantum but are due to indeterminism? arXiv:2409.10601 (2024).
-9. Quni-Gudzinas, R. B. Continuum Trilogy: Papers I–III — The Ontological Closure
-   Program. Zenodo, 10.5281/zenodo.21672990 (2026).
+9. QNFO Research Collective & Quni-Gudzinas, R. B. Continuum Trilogy: Papers I–III —
+   The Ontological Closure Program. Zenodo, 10.5281/zenodo.21672990 (2026).
+   [published creator list mirrored; naming-mandate remediation pending]
 10. Rammal, R., Toulouse, G. & Virasoro, M. A. Ultrametricity for physicists. Rev.
     Mod. Phys. 58, 765–788 (1986).
 11. QNFO Research & Quni-Gudzinas, R. B. Conditional State Distances in Page–Wootters
