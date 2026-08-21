@@ -39,20 +39,35 @@ This project formalizes that triple claim into a research paper under the standa
 pipeline (P0–P8), with computational verification deposited as source, and with the
 claims graded (identity / dictionary / conjecture) exactly as RES.020 graded its own.
 
-## 2. Core Claim (draft — LOCKED at P6)
+## 2. Core Claim (LOCKED at P6, 2026-08-21)
 
-> **A finite-entropy world is a finite-distinction world: the Archimedean continuum is
-> unphysical as an ontology because it requires infinitely many distinctions per
-> coordinate. The state-space geometry of quantum mechanics is therefore combinatorial
-> and ultrametric — distance is graph distance between distinctions, and there is no
-> arbitrarily small betweenness. Read as thermodynamics, quantum mechanics is a
-> stochastic thermodynamics of finite alternatives, in which unitary evolution and
-> superposition emerge as the large-distinction limit of the entropy-Hessian gradient
-> flow. The Hilbert-space formulation over the complex numbers is that limit — a map —
-> not the territory.**
+> **A finite-entropy world is a finite-distinction world: uncountable precision is
+> unphysical — a single real coordinate, taken literally, requires infinitely many
+> yes/no distinctions, and a finite-entropy world cannot carry it; computable depth and
+> p-adic valuation remain physically real. The state-space geometry of finite
+> distinctions is therefore combinatorial and ultrametric — distance is graph distance
+> between distinctions, and there is no arbitrarily small betweenness. Read as
+> thermodynamics, quantum mechanics is a stochastic thermodynamics of finite
+> alternatives, in which unitary evolution and superposition emerge as the
+> large-distinction limit of the entropy-Hessian gradient flow — verified at finite N
+> by the computational program (per-step entropy production exponent −0.88,
+> symplecticity-defect exponent −1.00, seed 20260821). The Hilbert-space formulation
+> over the complex numbers is that limit — a map — not the territory.**
 
-**Locking rule:** this claim is frozen at P6. Any material change requires a version
-bump (tag) and a re-run of the Universal Ignorance Audit.
+**P6 lock record (2026-08-21, pre-registered S-7 obligation):** the claim was
+restated at P6 as mandated by the Phase 0/1 red-team audit: "the Archimedean continuum
+is unphysical as an ontology" → "uncountable precision is unphysical; computable depth
+and p-adic valuation remain physically real" (continuum-trilogy refinement,
+10.5281/zenodo.21672990; consistent with the 2026-08-21 delta-pass dispositions of
+notes _26233053304/_26233053653/_26233054118). The frozen P0 wording is preserved in
+git history (tag v0.1-phase0-res021, commit 3027054); this restatement is the lock,
+not a retro-edit. The lock is sealed by tag v1.0.0-phase6-res021 and by the P6
+re-audit (artifacts/universal-ignorance-audit-p6-2026-08-21.md): 15 questions, Q15
+seed from the P0 audit answered in the paper draft §5, P5 verification results
+entered as evidence.
+
+**Locking rule:** this claim is frozen as of the P6 tag. Any material change requires
+a new version bump (tag) and a re-run of the Universal Ignorance Audit.
 
 **Premise-depth disclosure (where the premises END):**
 

@@ -106,3 +106,12 @@ edited retroactively without a dated amendment note.
   non-degenerate start; V6 second-order clock step) — bugs in the checks, claims
   unchanged. Next falsifier exposure: P7 post-publication audit + independent
   re-runs.
+- 2026-08-21 P6 gate: core claim LOCKED (restated per pre-registered S-7:
+  "uncountable precision is unphysical; computable depth and p-adic valuation
+  remain physically real" — PROJECT-PLAN §2 lock record + amendment trail; tag
+  v1.0.0-phase6-res021; P6 UIA re-run artifact). No falsifier triggered at lock
+  time. All five cards unchanged; P5 evidence carried forward into the locked
+  claim's verification clause. Lock freezes the WORDING, not the grades: the
+  emergence claims remain conjecture-grade (L3) inside the locked record. Next
+  falsifier exposure: P7 post-publication adversarial audit (seed question
+  registered in the P6 UIA Q15).

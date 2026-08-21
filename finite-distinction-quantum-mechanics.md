@@ -5,7 +5,8 @@ affiliation: "QNFO"
 date: "2026-08-20"
 license: "CC-BY-4.0"
 status: "draft"
-version: "0.1.0"
+version: "1.0.0"
+locked: "2026-08-21 (P6; tag v1.0.0-phase6-res021)"
 doi: "PENDING-ZENODO"
 concept_doi: "PENDING-ZENODO"
 ---
@@ -307,7 +308,10 @@ claims are falsifiable; the executed criteria are the ones in the table above. T
 model's reversible component is the cyclic permutation on the N alternatives —
 entropy-conserving by construction — and the dissipative relaxation uses the
 per-distinction rate γ = 1/N; the falsifier-live controls show the tests are not
-vacuous.
+vacuous. The per-distinction rate structure is a MODEL assumption, not a derived
+claim: its physical status (which heat bath, which spectral measure supplies a
+rate proportional to the spectral measure 1/N) is open, and the post-publication
+audit must hold this paper to that admission.
 
 ## 10. What a Practitioner Can Do with This
 
