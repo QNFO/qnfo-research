@@ -1,0 +1,14 @@
+platform,strategy,p_physical,T_K,Delta_J,distance_d,logical_error_L,overhead,P_correct,E_per_correct_solution_J
+Superconducting transmon + surface code,active,1.5e-03,0.015,,33,7.24e-08,4225,0.930,3.469e-15
+Trapped ion + surface code,active,1.0e-03,0.015,,33,7.24e-08,4225,0.930,4.225e-08
+Silicon spin + surface code,active,1.0e-03,1.0,,33,7.24e-08,4225,0.930,4.225e-09
+Photonic (fusion) + lattice code,active,1.0e-02,300.0,,33,7.24e-08,4225,0.930,4.225e-03
+Topological Majorana InAs/Al (~200 ueV gap),passive,n/a,0.02,3.00e-23,,6.6e-48,1,1.000,8.210e-19
+Topological Majorana PbTe/Pb (~1 meV gap),passive,n/a,0.02,1.60e-22,,2.3e-252,1,1.000,8.210e-19
+
+Control-electronics sensitivity (C_ctrl in [1e4, 1e6]):
+  Superconducting transmon + surface code              quantum-level 3.469e-15 J -> system-level [3.5e-11, 3.5e-09] J
+  Trapped ion + surface code                           quantum-level 4.225e-08 J -> system-level [4.2e-04, 4.2e-02] J
+  Topological Majorana InAs/Al (~200 ueV gap)          quantum-level 8.210e-19 J -> system-level [8.2e-15, 8.2e-13] J
+  Topological Majorana PbTe/Pb (~1 meV gap)            quantum-level 8.210e-19 J -> system-level [8.2e-15, 8.2e-13] J
+EXIT:0
