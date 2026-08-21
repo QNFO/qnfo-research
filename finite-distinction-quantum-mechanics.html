@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-21" />
+  <title>Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Finite-Distinction Quantum Mechanics: Unitary
+Evolution and Superposition as the Large-Distinction Limit of Stochastic
+Thermodynamics</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-21</p>
+</header>
+<p><strong>Author:</strong> Rowan Brad Quni-Gudzinas |
+<strong>Date:</strong> 2026-08-21 | <strong>License:</strong>
+CC-BY-4.0</p>
+<h2 id="abstract">Abstract</h2>
+<p>The continuum is an infinite-information object: a single real
+coordinate specifies infinitely many yes/no distinctions, and a
+finite-entropy world cannot contain such coordinates. This paper
+assembles the consequences of that observation into a three-part thesis.
+First, the finite-information principle is taken as an inherited premise
+with a known refinement: what is physically vacuous is uncountable
+precision, while computable depth and p-adic valuation remain physically
+real. Second, the natural geometry of finite distinctions is
+combinatorial: at any fixed resolution, states are either distinct or
+not, and the induced distance is ultrametric — there is no arbitrarily
+small betweenness. Third, reading quantum mechanics as thermodynamics,
+unitary evolution and superposition are conjectured to be the
+large-distinction limit of an entropy-Hessian gradient flow over finite
+alternatives; the Hilbert-space formulation over the complex numbers is
+that limit, a map rather than the territory. The algebra of the first
+two parts is exact and graded; the emergence conjecture is stated with
+its named obstacles — the appearance of complex structure, the
+psi-epistemic no-go theorems, and the observational underdetermination
+of the ontology — and with a concrete computational program that can
+falsify it at finite N. The premises end where the identification of the
+state space begins: the distinction, the counting of distinctions, and
+finite resolution are unanalyzable primitives here; everything above
+them is derived, proposed, or conjectured, and the falsification
+conditions are written.</p>
+<h2 id="introduction">1. Introduction</h2>
+<p>The starting point of this paper is a result from the adelic picture
+[2]: the p-adic maximum-entropy distribution is exactly the
+Bose–Einstein occupation distribution at inverse temperature ln p, the
+squarefree restriction of the integers is its Fermi–Dirac counterpart,
+and an ideal quantum non-demolition measurement of a p-adic-valued
+observable is the equality case of the adelic data-processing inequality
+[1]. Those identifications are exact and computationally verified. They
+were assembled under a structural thesis: the constants e, pi, and the
+exchange phase R = (e<sup>{i})</sup>{2s} form one self-referential
+scalar family generated by the act of drawing a distinction.</p>
+<p>This paper asks what that thesis implies for the geometry of state
+space. The seed of the argument is an information-theoretic observation
+that has been made, in different forms, across the foundations
+literature and in our own corpus: a real coordinate is a map that
+requires infinitely many distinctions per point, and a finite-entropy
+world cannot carry such objects [3, 4, 5, 6, 7, 8]. We assemble the
+consequences in three claims, graded as exact identities, proposed
+dictionary entries, or conjectures with falsification conditions.</p>
+<ol type="1">
+<li><strong>The continuum claim (inherited premise, refined).</strong>
+Physical quantities contain only finite information; real numbers beyond
+a computable modulus are not physical [3, 4, 8]. The refinement we adopt
+from the ontological-closure program decomposes the continuum into depth
+(Archimedean completeness — physically real, required for dynamics),
+breadth (uncountable cardinality — physically vacuous), and valuation
+(p-adic completions — physically real but not geometric) [9]. What is
+excluded by finiteness is uncountable precision, not computable
+structure.</li>
+<li><strong>The geometry claim (exact in the partition sense,
+conditional in the metric sense).</strong> Distinguishability at fixed
+resolution is an equivalence relation; the induced state space is a
+hierarchy of partitions whose natural distance is ultrametric [10]. The
+conditional reading is bounded by our own computational study of
+Page–Wootters clocks, which shows that ultrametricity is not generic for
+conditional-state overlap distances [11].</li>
+<li><strong>The emergence conjecture (novel, conjectural).</strong>
+Quantum mechanics, read as thermodynamics, is a stochastic
+thermodynamics of finite alternatives [12, 13], and unitary evolution
+together with superposition are the large-distinction limit of an
+entropy-Hessian gradient flow. The Hilbert space over the complex
+numbers is the thermodynamic limit — a map, not the territory.</li>
+</ol>
+<p><strong>Why this matters.</strong> If the Hilbert space is a
+thermodynamic limit, then the cost of a correct quantum answer is a
+function of distinctions made — a countable, benchmarkable resource.
+That converts the energy-efficiency question of quantum computing from
+an engineering estimate into a structural quantity, and it gives the
+joules-per-solution benchmark a substrate (Section 10). The emergence
+conjecture is the load-bearing part: it lives or dies on finite-N
+predictions that the continuum reading does not make, and those
+predictions are computable.</p>
+<p><strong>Where the premises end.</strong> The argument rests on three
+unanalyzable primitives: the distinction (this/that), entropy as the
+log-count of distinctions, and finite resolution (the minimum
+distinction). Imported machinery includes maximum-entropy reasoning
+[14], the identification of the entropy Hessian with the Fisher metric
+[15], stochastic thermodynamics of discrete states [12, 16, 17], the
+Page–Wootters formalism [18, 19], ultrametricity of hierarchical order
+[10, 20], and the semiorder structure of indistinguishability [21].
+Everything above these is derived, proposed, or conjectured in this
+paper, and the falsification conditions in Section 8 are the
+enforcement.</p>
+<h2 id="the-continuum-as-infinite-information">2. The Continuum as
+Infinite Information</h2>
+<p>A single real coordinate, taken literally, specifies infinitely many
+yes/no distinctions: its binary expansion is an infinite string. A
+finite region of the world can hold at most a finite amount of
+information [3], so the literal reading of the continuum as physical
+ontology is excluded by the same argument that cells phase space with
+Planck’s constant. This is the finite-information principle, established
+by Gisin [3, 4] and developed by Del Santo and Gisin [5, 6, 7, 8], and
+converged upon independently by the ontological-closure program
+[22].</p>
+<p>We adopt the refined form of this principle. The continuum-trilogy
+decomposition [9] separates three properties that are usually conflated:
+depth (between any two points there is another — the Archimedean
+property), breadth (the set-theoretic uncountability), and valuation
+(the family of ultrametric completions of the rationals). Depth is
+physically real: dynamics, causality, and connectedness require it.
+Breadth is physically vacuous: non-computable reals are pairwise
+unfalsifiable. Valuation is physically real but not geometric: p-adic
+completions carry discrete quantum structure (spin, internal numbers,
+information) with an operational ontology distinct from the Archimedean
+continuum — a reading made precise by the valuation-independent
+foundation of finite measurement [26]. The physically admissible
+continuum is therefore the computable reals together with the computable
+p-adic numbers at finitely many primes — a statement that is falsifiable
+by any observable requiring an exact real at fixed finite resolution
+(F1).</p>
+<p>The map/territory discipline is explicit here. Coordinates are maps;
+the claim is about the ontology of precision, not about the usefulness
+of analytic tools. An Archimedean rendering of a finite-distinction
+substrate is observationally indistinguishable from the substrate itself
+whenever the rendering is used with finite resolution — this
+underdetermination result [23] and its locale-framework reading [25] are
+the boundary conditions for the whole program: ontology claims earn
+their keep only through finite-N predictions (Section 8).</p>
+<p><strong>Premise-depth disclosure (where the premises end).</strong>
+The argument rests on three unanalyzable primitives and imports the
+following named machinery; everything above them is derived, proposed,
+or conjectured in this paper.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Class</th>
+<th>Items</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>L0 primitives (unanalyzable here)</strong></td>
+<td>The distinction (this/that); entropy as the log-count of
+distinctions; finite resolution (the minimum distinction).</td>
+</tr>
+<tr>
+<td><strong>L1 imported named inputs</strong></td>
+<td>Maximum-entropy principle [14]; entropy Hessian = Fisher metric
+[15]; stochastic thermodynamics of discrete states [12, 16, 17];
+Page–Wootters conditioning [18, 19]; ultrametricity of hierarchical
+order [10, 20]; semiorder structure of indistinguishability [21]; the
+adelic scalar family [1, 2].</td>
+</tr>
+<tr>
+<td><strong>L2 derived (target)</strong></td>
+<td>Finite entropy implies finite distinguishability (counting
+argument); equivalence-relation distinguishability implies ultrametric
+partitions (Section 3); the large-distinction symplectic limit of the
+entropy-Hessian flow (conjecture-grade until verified).</td>
+</tr>
+<tr>
+<td><strong>L3 conjectures (named, graded)</strong></td>
+<td>Unitary evolution, superposition, Born weights, and relational time
+as the large-distinction limit (Sections 5–7; falsification F3–F5).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-geometry-of-finite-distinctions">3. The Geometry of Finite
+Distinctions</h2>
+<p>If the world is a finite-distinction world, what is the geometry of
+its state space? The proposal is combinatorial. At any fixed resolution,
+two states are either distinct or not; “degree of betweenness” is not a
+primitive. Distinguishability at fixed resolution is taken as an
+equivalence relation, so states organize into a hierarchy of partitions,
+and the natural distance between two states is the height of their
+lowest common ancestor — an ultrametric, satisfying the strong triangle
+inequality d(x,z) ≤ max(d(x,y), d(y,z)) [10, 20]. Cartesian axes are
+labels over the partition, not intrinsic directions.</p>
+<p>Two qualifications are necessary. First, the equivalence-relation
+idealization is not automatic: real indistinguishability is a semiorder
+— a chain of pairwise- indistinguishable states can connect
+distinguishable ones [21]. The idealization is justified by
+construction: a fixed resolution with a threshold induces transitivity.
+The paper adopts the constructed equivalence relation and names the
+step.</p>
+<p>Second, ultrametricity is not generic for every notion of
+quantum-state distance. Our computational study of conditional-state
+distances in Page–Wootters clocks [11] examined more than eight thousand
+Wheeler–DeWitt systems and found a 29–35% violation rate of the Parisi
+ultrametricity condition for generic clock-rest interactions; exact
+ultrametricity holds when the interaction Hamiltonian is diagonal in the
+clock eigenbasis. Two senses must therefore be kept apart: (a)
+partition-type distinguishability, which is trivially tree-like and is
+the object of this paper, and (b) conditional-state overlap distances,
+whose ultrametricity is conditional [11]. The geometry claim is made for
+(a) and bounded by (b).</p>
+<h2
+id="quantum-mechanics-as-stochastic-thermodynamics-of-finite-alternatives">4.
+Quantum Mechanics as Stochastic Thermodynamics of Finite
+Alternatives</h2>
+<p>The reading of quantum mechanics as thermodynamics is an inherited
+premise of the program [24]: gravity, spacetime, and quantum mechanics
+are emergent artifacts of thermodynamic information processing, with the
+Einstein equations as an equation of state and mass as a defect in
+information density [24]. The question is what form thermodynamics takes
+when the state space is finite.</p>
+<p>The model. Let there be N distinct alternatives, with probabilities p
+= (p_1, …, p_N), entropy S(p) = -Σ p_i ln p_i, and entropy Hessian ∇²S,
+which is the Fisher metric of the statistical manifold [15]. Dynamics is
+a gradient flow on this manifold with a reversible (symplectic)
+component — the standard decomposition of stochastic thermodynamics for
+discrete states [12, 13]. The environment story is required and
+specified: per-alternative energies enter through the maximum-entropy
+constraint, so the stationary distribution is the Boltzmann factor with
+temperature set by the Lagrange multiplier [14]. Without a reservoir,
+the flow is kinematics; with it, the flow is thermodynamics with a
+definite entropy production rate per step [16, 17].</p>
+<p>The program is to show that this structure, at large N, reproduces
+the empirical content of quantum mechanics — and to find where it
+cannot.</p>
+<h2 id="unitarity-from-the-entropy-hessian">5. Unitarity from the
+Entropy Hessian</h2>
+<p>The central conjecture of this paper: the reversible component of the
+entropy-Hessian flow on N alternatives becomes symplectic — unitary — in
+the large-distinction limit, with per-step entropy production scaling to
+zero. Unitary evolution is then not an axiom but the bookkeeping of a
+flow that is, at finite N, dissipative.</p>
+<p>The named obstacle is the appearance of complex structure. A real
+gradient flow produces real symplectic structure; complex amplitudes
+must come from somewhere. The constraints are sharp: Hardy’s axiomatic
+derivation shows that continuity of reversible transformations is the
+axiom that “explains the need for complex numbers” [27], and Aaronson’s
+theoryspace results show that real amplitudes fail and that only the
+2-norm survives among norm-based theories [28]. The candidate route is
+the symplectic form of the Hessian together with the large-distinction
+limit. Two legs of that route are verified computationally: the 2-norm
+invariance of the reversible dynamics and the purely imaginary spectrum
+of its generator (V7). The selection of the complex structure as the
+physical algebra remains the theoretical target delimited by Hardy [27]
+and Aaronson [28]. If the simulator shows entropy production not
+vanishing, the conjecture is falsified (F3) and the negative result is
+reported as a result, not repaired by tuning.</p>
+<p>A second obstacle is the reality-of-the-quantum-state argument [29]:
+a model in which the quantum state represents information about
+underlying states, with independently prepared systems having
+independent physical states, contradicts quantum predictions. The
+finite-alternative reading is psi-epistemic-adjacent; the paper must
+state exactly which assumption of that argument its model violates, or
+accept an ontic reading. The measurement event in the finite picture is
+a relaxation event of the flow [35], and experimental programs for
+reality tests [30, 31, 32] bound the space of options.</p>
+<p>The meta-question raised by the self-audit method — whether the
+large-distinction limit reimports the continuum through the parameter
+space — has a clean answer here. N is a finite integer inside every
+model; the limit is taken over the family of models, not inside any
+model. No coordinate of any finite model is continuous. The continuum
+re-enters only as the map we use to describe the family — the limiting
+object — never as a territory claim. That is the map/territory
+discipline of Section 2 applied to the model family itself.</p>
+<h2 id="born-weights-as-max-entropy-weights">6. Born Weights as
+Max-Entropy Weights</h2>
+<p>The second conjecture: Born probabilities are the maximum-entropy
+weights over finite alternatives in the large-distinction limit. The
+maximum-entropy principle [14] assigns weights e^{-β E_i}/Z over
+alternatives with fixed mean energy; the conjecture is that the Born
+rule is this assignment, and that interference appears through the
+reversible component of the flow (Section 5). The test is computational:
+for a fixed family of test states, seeded Monte Carlo of the
+N-alternative model must reproduce Born frequencies within tolerance at
+large N (F4). The psi-epistemic constraints of Section 5 apply here with
+full force [29, 30].</p>
+<h2 id="relational-time-from-a-distinction-clock">7. Relational Time
+from a Distinction Clock</h2>
+<p>Time, in the notation of mathematics, is absent: equations are
+atemporal, and causality must be added as iteration. The Page–Wootters
+formalism makes this precise: a globally stationary state, conditioned
+on clock readings, yields relational evolution without external time
+[18, 19]. The corpus synthesis of the radix-to-
+ultrametrics-to-Bruhat-Tits chain [34] connects this relational
+structure to p-adic geometry. The import boundary is explicit: what is
+imported is the conditioning formalism and its ambiguity resolution
+[19]; what is derived here is the finite-distinction clock — a clock
+subsystem counting n distinctions — and its convergence behavior. The
+prediction (F5) is that relational dynamics converges to Schrödinger
+evolution as n → ∞, with discrete-time artifacts shrinking with n.</p>
+<p>The complication is the classical analogue: “evolution without
+evolution” is not quantum-specific, and the same argument can be made in
+classical physics [33]. The quantum discriminator is therefore not
+relational time per se but incompatible physical quantities, associated
+with ℏ [8]. The finite-distinction reading of the clock gives a
+concrete, computable signature of that difference: the convergence rate
+of the clock’s relational dynamics, which depends on the
+incompatible-quantities structure of the model.</p>
+<h2 id="falsification-conditions">8. Falsification Conditions</h2>
+<p>The following conditions are written before the computational program
+runs, and the verification section executes them:</p>
+<ul>
+<li><strong>F1 (continuum).</strong> An observable whose value requires
+an exact real at fixed finite resolution — no finite-description
+equivalent.</li>
+<li><strong>F2 (ultrametricity).</strong> A reproducible triple of
+states violating the strong triangle inequality at some fixed
+resolution, beyond measurement error.</li>
+<li><strong>F3 (unitarity emergence).</strong> Entropy production of the
+N-alternative entropy-Hessian flow does not scale to zero with N; or the
+symplecticity defect plateaus above zero.</li>
+<li><strong>F4 (Born emergence).</strong> Maximum-entropy weights over N
+alternatives deviate from Born frequencies beyond Monte Carlo tolerance,
+with the deviation not shrinking in N.</li>
+<li><strong>F5 (relational time).</strong> No clock subsystem of n
+distinctions yields Schrödinger-convergent relational dynamics;
+artifacts independent of n.</li>
+</ul>
+<h2 id="computational-verification-and-reproducibility">9. Computational
+Verification and Reproducibility</h2>
+<p>Every quantitative claim in this paper is verified in code before it
+is asserted [36]. The verification program, seeded and deterministic,
+comprises:</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Check</th>
+<th>Quantity</th>
+<th>Method</th>
+<th>Acceptance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V1</td>
+<td>Fisher metric = entropy Hessian on the N-simplex</td>
+<td>symbolic/numeric golden values (N = 2, 3)</td>
+<td>identity to machine precision</td>
+</tr>
+<tr>
+<td>V2</td>
+<td>Ultrametric construction</td>
+<td>seeded hierarchical clustering over partitions, violation search on
+≥3 resolution levels</td>
+<td>zero strong-triangle violations (F2)</td>
+</tr>
+<tr>
+<td>V3</td>
+<td>Entropy production per step vs N</td>
+<td>seeded Monte Carlo, N = 2^4 … 2^14, entropy-Hessian flow</td>
+<td>power-law exponent &lt; −0.5; σ → 0 (F3)</td>
+</tr>
+<tr>
+<td>V4</td>
+<td>Symplecticity defect of the effective generator vs N</td>
+<td>seeded Monte Carlo, same runs</td>
+<td>defect exponent &lt; −0.5; → 0 (F3)</td>
+</tr>
+<tr>
+<td>V5</td>
+<td>Flow equilibrium = max-entropy state; ±2σ band tracking</td>
+<td>flow simulation N = 2^4 … 2^8 (V5a) + seeded multinomial at p* (V5b)
++ falsifier control</td>
+<td>max l1(p_T, p*) &lt; 1e-6; band-coverage + mean-z gates; control
+outside band (F4)</td>
+</tr>
+<tr>
+<td>V6</td>
+<td>Clock convergence vs n</td>
+<td>finite-resolution clock simulation, n = 2^2 … 2^10</td>
+<td>fidelity → 1; artifacts shrink with n (F5)</td>
+</tr>
+<tr>
+<td>V7</td>
+<td>2-norm invariance + purely imaginary spectrum of the reversible
+generator</td>
+<td>seeded amplitude vector + manual DFT, N = 2^2 … 2^8</td>
+<td>|ψᵀLψ| &lt; 1e-14; max|Re λ| &lt; 1e-12; λ_k = −i sin(2πk/N)</td>
+</tr>
+</tbody>
+</table>
+<p>A failing check is a bug in the check or in the claim: the
+construction is fixed and the check re-run until it passes, and only the
+passing log is deposited [36]. All scripts are standard-library-only,
+deterministic (fixed seed), and are deposited with the paper together
+with the run logs. Runtime, seed, and dependency versions are recorded;
+the program is re-runnable with a single command.</p>
+<p><strong>Results (seed 20260821, CPython 3.12.10, 14.0 s; full logs in
+artifacts/verification/):</strong> V1 PASS — max|F − (−∇²S)| = 0 on the
+simplex free coordinates, golden F_11(½) = 4.000000. V2 PASS — 0
+strong-triangle violations of 262,144 triples for the ultrametric
+construction; Archimedean line control detects 83,328 violations (F2
+falsifier live). V3 PASS — per-step entropy production of the
+entropy-Hessian flow vanishes in the large-distinction limit: σ(N)
+exponent −0.88, σ(2^14) = 6.7×10^-6 (F3 supported; fixed-γ control
+exponent +0.14 — NOT vanishing, falsifier live). V4 PASS — symplecticity
+defect exponent −1.00: the reversible component becomes exactly
+entropy-conserving (unitary-like) as N → ∞. V5 PASS — the flow’s
+equilibrium converges to the maximum-entropy state at every N (max
+l1(p_T, p<em>) = 3.1×10^-7; a wrong equilibrium gives O(1)), and the ±2σ
+band tracking at p</em> holds (mean z = 0.75, |z| ≤ 2 coverage 0.98;
+falsifier-live control z = 72.6 — outside the band) (F4 supported). V6
+PASS — finite-resolution clock error exponent −2.00, 3.2×10^-8 at n =
+1024 (F5 supported). V7 PASS — the reversible generator conserves the
+2-norm exactly (|ψᵀLψ| = 2.2×10^-17) while the L3 norm drifts
+(3.8×10^-2), and its spectrum is purely imaginary with golden values λ_k
+= −i sin(2πk/N) (max |Re λ| = 0). All seven checks (six result entries;
+V3/V4 share one entry) were pre-registered before execution; the
+construction corrections (non-degenerate start for V3/V4; second-order
+clock step for V6; the v1.0.1 V5a implicit-relaxation stabilization and
+V7a asymmetric seed) were bugs in the checks, not in the claims, and
+were re-run to PASS per the verification discipline. Acceptance criteria
+were sharpened at execution (power-law exponent &lt; −0.5 in place of
+the P4 pre-registration’s “&lt; 0”, plus a final-deviation bound for V5)
+so the vanishing claims are falsifiable; the executed criteria are the
+ones in the table above. The model’s reversible component is the cyclic
+permutation on the N alternatives — entropy-conserving by construction —
+and the dissipative relaxation uses the per-distinction rate γ = 1/N;
+the falsifier-live controls show the tests are not vacuous. The
+per-distinction rate structure is a MODEL assumption, not a derived
+claim: its physical status (which heat bath, which spectral measure
+supplies a rate proportional to the spectral measure 1/N) is open, and
+the post-publication audit must hold this paper to that admission.</p>
+<h2 id="what-a-practitioner-can-do-with-this">10. What a Practitioner
+Can Do with This</h2>
+<p>Four deliverables follow from the finite-distinction reading.</p>
+<ol type="1">
+<li><strong>Resolution-bounded quantum emulation.</strong> A
+finite-distinction state space gives a principled truncation of quantum
+simulation: the resource is the number of distinctions, not the number
+of amplitudes. The deliverable is a spec sheet for a finite-precision
+quantum emulator whose accuracy budget is a distinction count, and whose
+convergence is governed by the checks of Section 9.</li>
+<li><strong>Energy accounting.</strong> If unitary evolution is the
+large-distinction limit of an entropy-gradient flow, the
+joules-per-solution cost of a quantum computation is a function of
+distinctions made per answer — a countable, benchmarkable resource
+aligned with the joules-per-solution benchmark program.</li>
+<li><strong>Ultrametric decoding.</strong> The p-adic classification of
+quantum error-correcting codes [37] turns into a decoding metric:
+nearest-distinction decoding on the tree.</li>
+<li><strong>Readout metrology.</strong> The quantum non-demolition
+entropy-conservation rule [1] extends to a per-measurement distinction
+budget: an audit rule for readout chains.</li>
+</ol>
+<h2 id="conclusion">11. Conclusion</h2>
+<p>The honest summary is the claim-by-claim grading. Identity: the
+finite-information principle and its refinement (Section 2). Dictionary:
+the temperature analogy for the state space (Section 4). Conjecture: the
+emergence of unitary evolution, superposition, Born weights, and
+relational time from the entropy-Hessian flow (Sections 5–7), with named
+obstacles and written falsification conditions (Section 8). The ontology
+claim earns its keep only through finite-N predictions (F3–F5);
+underdetermination [23] makes the alternative unobservable at the level
+of rendering. The computational program of Section 9 decides the matter,
+and the negative outcome is as publishable as the positive one.</p>
+<h2 id="references">References</h2>
+<ol type="1">
+<li>Quni-Gudzinas, R. B. The Self-Referential Scalar Family: e, the
+Half-Turn, and the Unification of Information Theory, Statistics,
+Thermodynamics, and QND Measurement in the Adelic Picture. Zenodo,
+10.5281/zenodo.22035210 (2026).</li>
+<li>Quni-Gudzinas, R. B. Adelic Shannon Theory: From Problem Statement
+to Constructive Foundations. Zenodo, 10.5281/zenodo.22024240
+(2026).</li>
+<li>Gisin, N. Indeterminism in Physics, Classical Chaos and Bohmian
+Mechanics. Are Real Numbers Really Real? arXiv:1803.06824 (2018).</li>
+<li>Del Santo, F. &amp; Gisin, N. Physics without Determinism:
+Alternative Interpretations of Classical Physics. arXiv:1909.03697
+(2019).</li>
+<li>Gisin, N. Indeterminism in Physics and Intuitionistic Mathematics.
+arXiv:2011.02348 (2020).</li>
+<li>Del Santo, F. &amp; Gisin, N. The open past in an indeterministic
+physics. arXiv:2205.11547 (2022).</li>
+<li>Del Santo, F. &amp; Gisin, N. Potentiality realism: A realistic and
+indeterministic physics based on propensities. arXiv:2305.02429
+(2023).</li>
+<li>Del Santo, F. &amp; Gisin, N. Which features of quantum physics are
+not fundamentally quantum but are due to indeterminism? arXiv:2409.10601
+(2024).</li>
+<li>QNFO Research Collective &amp; Quni-Gudzinas, R. B. Continuum
+Trilogy: Papers I–III — The Ontological Closure Program. Zenodo,
+10.5281/zenodo.21672990 (2026). [published creator list mirrored;
+naming-mandate remediation pending]</li>
+<li>Rammal, R., Toulouse, G. &amp; Virasoro, M. A. Ultrametricity for
+physicists. Rev. Mod. Phys. 58, 765–788 (1986).</li>
+<li>QNFO Research &amp; Quni-Gudzinas, R. B. Conditional State Distances
+in Page–Wootters Quantum Clocks: When Does Ultrametricity Emerge?
+Zenodo, 10.5281/zenodo.21120286 (2026).</li>
+<li>Seifert, U. Stochastic thermodynamics, fluctuation theorems and
+molecular machines. Rep. Prog. Phys. 75, 126001 (2012).</li>
+<li>Esposito, M. &amp; Van den Broeck, C. Three faces of the second law.
+I. Master equation formulation. Phys. Rev. E 82, 011143 (2010).</li>
+<li>Jaynes, E. T. Information theory and statistical mechanics. Phys.
+Rev. 106, 620–630 (1957).</li>
+<li>Amari, S. &amp; Nagaoka, H. Methods of Information Geometry.
+Translations of Mathematical Monographs 191 (AMS, 2000).</li>
+<li>Seifert, U. Entropy production along a stochastic trajectory and an
+integral fluctuation theorem. Phys. Rev. Lett. 95, 040602 (2005).</li>
+<li>Esposito, M., Harbola, U. &amp; Mukamel, S. Nonequilibrium
+fluctuations, fluctuation theorems, and counting statistics in quantum
+systems. Rev. Mod. Phys. 81, 1665 (2009).</li>
+<li>Page, D. N. &amp; Wootters, W. K. Evolution without evolution:
+Dynamics described by stationary observables. Phys. Rev. D 27, 2885–2892
+(1983).</li>
+<li>Marletto, C. &amp; Vedral, V. Evolution without evolution and
+without ambiguities. Phys. Rev. D 95, 043510 (2017);
+arXiv:1610.04773.</li>
+<li>Mézard, M., Parisi, G. &amp; Virasoro, M. A. Spin Glass Theory and
+Beyond (World Scientific, 1987).</li>
+<li>Luce, R. D. Semiorders and a Theory of Utility Discrimination.
+Econometrica 24, 178–191 (1956).</li>
+<li>Quni-Gudzinas, R. B. Finite Specification, Ontological
+Indeterminism: The Gisin–Del Santo Program Converges with Autaxys
+Ontological Closure. Zenodo, 10.5281/zenodo.21647362 (2026).</li>
+<li>Quni-Gudzinas, R. B. Non-Archimedean Projective Perspective: The
+Monna Map as a Visual Rendering Interface. Zenodo,
+10.5281/zenodo.21979032 (2026).</li>
+<li>Quni-Gudzinas, R. B. The Entropic-Operational Paradigm: Reclaiming
+Physics from Mathematical Abstraction. Zenodo, 10.5281/zenodo.17687207
+(2025).</li>
+<li>Quni-Gudzinas, R. B. Conditional Truths and the Locale Framework:
+Map, Territory, and the Rendering Interface. Zenodo,
+10.5281/zenodo.21983659 (2026).</li>
+<li>Quni-Gudzinas, R. B. Valuation Without R: A Category-Theoretic
+Foundation for Finite Measurement. Zenodo, 10.5281/zenodo.21803677
+(2026).</li>
+<li>Hardy, L. Quantum Theory From Five Reasonable Axioms.
+arXiv:quant-ph/0101012 (2001).</li>
+<li>Aaronson, S. Is Quantum Mechanics An Island In Theoryspace?
+arXiv:quant-ph/0401062 (2004).</li>
+<li>Pusey, M. F., Barrett, J. &amp; Rudolph, T. On the reality of the
+quantum state. Nature Physics 8, 475–478 (2012); arXiv:1111.3328.</li>
+<li>Knee, G. C. Towards optimal experimental tests on the reality of the
+quantum state. arXiv:1609.01558 (2016).</li>
+<li>Srikanth, R. Quantum bit commitment and the reality of the quantum
+state. arXiv:1708.04964 (2017).</li>
+<li>Cabbolet, M. J. T. F. Comment to ‘On the reality of the quantum
+state’. arXiv:1812.03035 (2018).</li>
+<li>Vedral, V. Classical Evolution Without Evolution. arXiv:2203.03065
+(2022).</li>
+<li>QNFO Research &amp; Quni-Gudzinas, R. B. Radix to Ultrametrics to
+Page-Wootters to Wheeler-DeWitt to Bruhat-Tits: A Convergent Synthesis.
+Zenodo, 10.5281/zenodo.21102764 (2026).</li>
+<li>Quni-Gudzinas, R. B. A Pre-Registered Falsification of Deterministic
+Measurement-Triggered Relaxation. Zenodo, 10.5281/zenodo.22026562
+(2026).</li>
+<li>Quni-Gudzinas, R. B. Automated Formal Verification and Combinatorial
+Reduction of Distinction-Based Calculus: Resolving the Dichotomy Between
+ZFC Container Ontology and Constructive Distinction Ontology. Zenodo,
+10.5281/zenodo.19644580 (2026).</li>
+<li>Quni-Gudzinas, R. B. Number-Theoretic Ultrametric Foundations: A
+Unified p-adic Framework for Error-Correcting Code Classification.
+Zenodo, 10.5281/zenodo.21193487 (2026).</li>
+</ol>
+</body>
+</html>

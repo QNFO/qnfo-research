@@ -2,16 +2,16 @@
 title: "Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics"
 author: "Rowan Brad Quni-Gudzinas"
 affiliation: "QNFO"
-date: "2026-08-20"
+date: "2026-08-21"
 license: "CC-BY-4.0"
-status: "draft"
+status: "published"
 version: "1.0.1"
 locked: "2026-08-21 (P7-remediation; tag v1.0.1-phase7-res021)"
-doi: "PENDING-ZENODO"
-concept_doi: "PENDING-ZENODO"
+doi: "10.5281/zenodo.22044107"
+concept_doi: "10.5281/zenodo.22044106"
 ---
 
-**Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-08-20 | **License:** CC-BY-4.0
+**Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-08-21 | **License:** CC-BY-4.0
 
 ## Abstract
 
@@ -292,20 +292,20 @@ recorded; the program is re-runnable with a single command.
 
 **Results (seed 20260821, CPython 3.12.10, 14.0 s; full logs in
 artifacts/verification/):** V1 PASS — max|F − (−∇²S)| = 0 on the simplex free
-coordinates, golden F₁₁(½) = 4.000000. V2 PASS — 0 strong-triangle violations of
+coordinates, golden F_11(½) = 4.000000. V2 PASS — 0 strong-triangle violations of
 262,144 triples for the ultrametric construction; Archimedean line control detects
 83,328 violations (F2 falsifier live). V3 PASS — per-step entropy production of the
 entropy-Hessian flow vanishes in the large-distinction limit: σ(N) exponent −0.88,
-σ(2¹⁴) = 6.7×10⁻⁶ (F3 supported; fixed-γ control exponent +0.14 — NOT vanishing,
+σ(2^14) = 6.7×10^-6 (F3 supported; fixed-γ control exponent +0.14 — NOT vanishing,
 falsifier live). V4 PASS — symplecticity defect exponent −1.00: the reversible
 component becomes exactly entropy-conserving (unitary-like) as N → ∞. V5 PASS —
 the flow's equilibrium converges to the maximum-entropy state at every N (max
-l1(p_T, p*) = 3.1×10⁻⁷; a wrong equilibrium gives O(1)), and the ±2σ band tracking
+l1(p_T, p*) = 3.1×10^-7; a wrong equilibrium gives O(1)), and the ±2σ band tracking
 at p* holds (mean z = 0.75, |z| ≤ 2 coverage 0.98; falsifier-live control z = 72.6 —
 outside the band) (F4 supported). V6 PASS — finite-resolution clock error exponent
-−2.00, 3.2×10⁻⁸ at n = 1024 (F5 supported). V7 PASS — the reversible generator
-conserves the 2-norm exactly (|ψᵀLψ| = 2.2×10⁻¹⁷) while the L3 norm drifts
-(3.8×10⁻²), and its spectrum is purely imaginary with golden values
+−2.00, 3.2×10^-8 at n = 1024 (F5 supported). V7 PASS — the reversible generator
+conserves the 2-norm exactly (|ψᵀLψ| = 2.2×10^-17) while the L3 norm drifts
+(3.8×10^-2), and its spectrum is purely imaginary with golden values
 λ_k = −i sin(2πk/N) (max |Re λ| = 0). All seven checks (six result entries; V3/V4
 share one entry) were pre-registered before execution; the construction corrections
 (non-degenerate start for V3/V4; second-order clock step for V6; the v1.0.1 V5a
