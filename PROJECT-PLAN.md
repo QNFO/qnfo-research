@@ -49,9 +49,10 @@ claims graded (identity / dictionary / conjecture) exactly as RES.020 graded its
 > between distinctions, and there is no arbitrarily small betweenness. Read as
 > thermodynamics, quantum mechanics is a stochastic thermodynamics of finite
 > alternatives, in which unitary evolution and superposition emerge as the
-> large-distinction limit of the entropy-Hessian gradient flow — verified at finite N
-> by the computational program (per-step entropy production exponent −0.88,
-> symplecticity-defect exponent −1.00, seed 20260821). The Hilbert-space formulation
+> large-distinction limit of the entropy-Hessian gradient flow — supported at finite
+> N within the per-distinction model (per-step entropy production exponent −0.88,
+> symplecticity-defect exponent −1.00, seed 20260821); the physical status of the
+> per-distinction rate structure remains open (draft §9). The Hilbert-space formulation
 > over the complex numbers is that limit — a map — not the territory.**
 
 **P6 lock record (2026-08-21, pre-registered S-7 obligation):** the claim was
@@ -65,6 +66,14 @@ not a retro-edit. The lock is sealed by tag v1.0.0-phase6-res021 and by the P6
 re-audit (artifacts/universal-ignorance-audit-p6-2026-08-21.md): 15 questions, Q15
 seed from the P0 audit answered in the paper draft §5, P5 verification results
 entered as evidence.
+
+**P7-remediation restatement (2026-08-21, audit H-3/S-6,
+docs/red-team-report-p7-2026-08-21.md):** "verified at finite N" → "supported at
+finite N within the per-distinction model" — the computational program verifies the
+model family's behavior; the physical status of the per-distinction rate structure
+stays open (draft §9). Material change ⇒ per the locking rule: version bump (tag
+v1.0.1-phase7-res021) + UIA delta re-run
+(artifacts/universal-ignorance-audit-v101-2026-08-21.md).
 
 **Locking rule:** this claim is frozen as of the P6 tag. Any material change requires
 a new version bump (tag) and a re-run of the Universal Ignorance Audit.

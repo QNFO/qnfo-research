@@ -106,6 +106,14 @@ edited retroactively without a dated amendment note.
   non-degenerate start; V6 second-order clock step) — bugs in the checks, claims
   unchanged. Next falsifier exposure: P7 post-publication audit + independent
   re-runs.
+- 2026-08-21 P7-remediation gate (v1.0.1): H-1/H-2 remediations executed — V7 added
+  (2-norm invariance + purely imaginary generator spectrum, golden λ_k = −i sin(2πk/N));
+  V5 rewritten (V5a equilibrium convergence to the max-entropy state with an
+  N-shrinking finite-dt artifact; V5b ±2σ band tracking at p* with the falsifier-live
+  concentrated-state control); S-1 non-uniform V1 point; S-2 V6 row wording. SOFT-6:
+  locked-claim wording "verified" → "supported at finite N within the per-distinction
+  model" (lock-record entry added; tag v1.0.1-phase7-res021; UIA delta v101). No
+  falsifier triggered; H-UNIT/H-BORN/H-TIME grades unchanged (wording only).
 - 2026-08-21 P6 gate: core claim LOCKED (restated per pre-registered S-7:
   "uncountable precision is unphysical; computable depth and p-adic valuation
   remain physically real" — PROJECT-PLAN §2 lock record + amendment trail; tag

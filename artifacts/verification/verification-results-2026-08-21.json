@@ -1,12 +1,12 @@
 {
  "seed": 20260821,
- "runtime_s": 23.763,
+ "runtime_s": 14.03,
  "python": "3.12.10",
  "checks": [
   {
    "check": "V1",
    "pass": true,
-   "detail": "max|F_def - (-Hess S)| = 0.00e+00 (< 1e-12); golden F_11(1/2) = 4.000000 (== 4)"
+   "detail": "max|F_def - (-Hess S)| = 0.00e+00 (< 1e-12, uniform + non-uniform p=(0.2,0.3)); golden F_11(1/2) = 4.000000 (== 4)"
   },
   {
    "check": "V2",
@@ -21,12 +21,17 @@
   {
    "check": "V5",
    "pass": true,
-   "detail": "mean |P_Born - P_maxent| exponent -1.09 (need < -0.5); N=2^14 value 0.0002 (< 0.01)"
+   "detail": "V5a: max l1(p_T, p*) = 3.05e-07 (< 1e-6; exponent 0.01 diagnostic \u2014 residual e^-15, N-independent); V5b: mean z = 0.75 (in [0.55, 1.05]), |z|<=2 coverage 0.98 (>= 0.90), max z = 2.76 (reported); control z = 72.6 (> 2.5, falsifier live)"
   },
   {
    "check": "V6",
    "pass": true,
    "detail": "discrete-time error exponent -2.00 (need < -0.5); n=1024 error 3.15e-08 (< 1e-6)"
+  },
+  {
+   "check": "V7",
+   "pass": true,
+   "detail": "V7a: max |psi^T L psi| = 2.17e-17 (< 1e-14); min |3 Sigma psi|psi|(L psi)| = 3.820e-02 (> 1e-6); V7b: max |Re lambda| = 0.00e+00 (< 1e-12), max |Im lambda + sin(2 pi k/N)| = 0.00e+00 (< 1e-12)"
   }
  ]
 }
