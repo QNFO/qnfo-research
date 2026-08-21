@@ -1,0 +1,15 @@
+quantity,parameter,value_SI,unit
+Landauer,300.0 K,2.870978885078724e-21,J/bit
+Landauer,77.0 K,7.368845805035391e-22,J/bit
+Landauer,4.0 K,3.8279718467716317e-23,J/bit
+Landauer,1.0 K,9.569929616929079e-24,J/bit
+Landauer,0.015 K,1.435489442539362e-25,J/bit
+Margolus-Levitin,1e-09 s/op,1.6565175374999998e-25,J/op
+Margolus-Levitin,1e-10 s/op,1.6565175374999998e-24,J/op
+Margolus-Levitin,1e-12 s/op,1.6565175374999999e-22,J/op
+Bremermann,c^2/h,1.3563924896521321e+50,bit/s/kg
+Bremermann-variant,c^2/hbar,8.522465361751015e+50,rad/s/kg
+Rosetta-Constant,k_B*15mK*ln(1/0.019),8.207923029036363e-25,J/gate
+Logical-gate-E-lo,Rosetta*1e2,8.207923029036362e-23,J/logical gate
+Logical-gate-E-hi,Rosetta*1e3,8.2079230290363625e-22,J/logical gate
+Threshold-ratio,p_surf/p_tree,54.99999999999999,dimensionless
