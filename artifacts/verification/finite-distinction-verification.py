@@ -2,7 +2,9 @@
 
 Deterministic, stdlib-only, no third-party dependencies.
 Seed: 20260821. Reproducibility: run `python finite-distinction-verification.py`;
-regenerates verification-results-2026-08-21.json byte-identically (same interpreter).
+regenerates verification-results-2026-08-21.json with identical check results on
+the same interpreter (the embedded wall-clock field `runtime_s` is the only
+run-varying value).
 Paper: finite-distinction-quantum-mechanics.md, Section 9 (verification table V1-V6).
 Falsifier conditions F2-F5 from Section 8 are executed here (VERIFY-FIX-RERUN-1:
 a failing check is a bug in the check or the claim; construction fixed, re-run to PASS,
@@ -31,26 +33,35 @@ def fit_power(pts, tail=5):
 
 # ---------------------------------------------------------------- V1
 def v1():
-    """Fisher metric == (- Hessian of entropy) on the N-simplex free coordinates."""
-    def fisher(p):
-        # p = free coordinates (first N-1); pN = 1 - sum
-        n1 = len(p); pN = 1.0 - sum(p)
-        F = [[0.0] * n1 for _ in range(n1)]
-        for i in range(n1):
-            for j in range(n1):
-                F[i][j] = (1.0 / p[i] if i == j else 0.0) + 1.0 / pN
-        return F
+    """Fisher metric == (- Hessian of entropy) on the N-simplex free coordinates.
+    The Fisher matrix is computed by its DEFINITION (score-function expectation over
+    the categorical outcomes) — an independent path from the analytic Hessian — so
+    the identity is genuinely verified, not tautological (red-team S1 fix)."""
     def neg_hess(p):
+        # analytic -d^2S/dtheta_i dtheta_j, free coordinates theta = first N-1
         n1 = len(p); pN = 1.0 - sum(p)
         H = [[0.0] * n1 for _ in range(n1)]
         for i in range(n1):
             for j in range(n1):
                 H[i][j] = (1.0 / p[i] if i == j else 0.0) + 1.0 / pN
         return H
+    def fisher_by_definition(p):
+        # F_ij = sum_k p_k (d_i ln p_k)(d_j ln p_k); p_k = theta_k (k<n1), p_N = 1-sum
+        n1 = len(p); pN = 1.0 - sum(p)
+        probs = list(p) + [pN]
+        def score(i, k):
+            if k < n1:
+                return (1.0 / p[i]) if k == i else 0.0
+            return -1.0 / pN
+        F = [[0.0] * n1 for _ in range(n1)]
+        for i in range(n1):
+            for j in range(n1):
+                F[i][j] = sum(probs[k] * score(i, k) * score(j, k) for k in range(n1 + 1))
+        return F
     ok = True; maxerr = 0.0; golden = None
     for n in (2, 3):
         p = [1.0 / n] * (n - 1)
-        F = fisher(p); H = neg_hess(p)
+        F = fisher_by_definition(p); H = neg_hess(p)
         err = max(abs(F[i][j] - H[i][j]) for i in range(n - 1) for j in range(n - 1))
         maxerr = max(maxerr, err)
         ok &= (err < 1e-12)
@@ -58,7 +69,7 @@ def v1():
             golden = F[0][0]  # expect 4 at p=(1/2,1/2)
             ok &= (abs(golden - 4.0) < 1e-12)
     return check("V1", ok,
-                 f"max|F - (-Hess S)| = {maxerr:.2e} (< 1e-12); golden F_11(1/2) = {golden:.6f} (== 4)")
+                 f"max|F_def - (-Hess S)| = {maxerr:.2e} (< 1e-12); golden F_11(1/2) = {golden:.6f} (== 4)")
 
 # ---------------------------------------------------------------- V2
 def v2():
@@ -117,7 +128,10 @@ def v3v4():
         beta = (lo + hi) / 2
         Z = sum(math.exp(-beta * e) for e in E)
         pstar = [math.exp(-beta * e) / Z for e in E]
-        # start concentrated (rotation acts, dissipative drive real):
+        # start NON-DEGENERATE and concentrated (red-team S5; VERIFY-FIX-RERUN-1:
+        # the initial construction started at uniform p, where the cyclic-shift
+        # rotation leaves p invariant AND p* is uniform — the check was degenerate
+        # (sigma == 0 trivially). Concentrated start makes both components act):
         # p_0 = 1/2 on the first alternative, rest uniform
         p = [0.5 + 0.5 / N if i == 0 else 0.5 / N for i in range(N)]
         omega = 1.0

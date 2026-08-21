@@ -1,8 +1,8 @@
-[PASS] V1: max|F - (-Hess S)| = 0.00e+00 (< 1e-12); golden F_11(1/2) = 4.000000 (== 4)
+[PASS] V1: max|F_def - (-Hess S)| = 0.00e+00 (< 1e-12); golden F_11(1/2) = 4.000000 (== 4)
 [PASS] V2: ultrametric tree: 0 strong-triangle violations of 262144 triples (need 0); Archimedean control: 83328 violations (control must be > 0)
 [PASS] V3/V4: sigma(N) exponent -0.88 (need < -0.5); symplecticity-defect exponent -1.00 (need < -0.5); sigma(2^14) = 6.695e-06; falsifier-live control (fixed gamma): exponent 0.14 (expected ~0, i.e., NOT vanishing)
 [PASS] V5: mean |P_Born - P_maxent| exponent -1.09 (need < -0.5); N=2^14 value 0.0002 (< 0.01)
 [PASS] V6: discrete-time error exponent -2.00 (need < -0.5); n=1024 error 3.15e-08 (< 1e-6)
 
-5/5 checks PASS in 25.851s (seed 20260821); results written to verification-results-2026-08-21.json
+5/5 checks PASS in 23.763s (seed 20260821); results written to verification-results-2026-08-21.json
 EXIT=0

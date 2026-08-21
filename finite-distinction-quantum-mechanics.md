@@ -275,9 +275,9 @@ The verification program, seeded and deterministic, comprises:
 |---|---|---|---|
 | V1 | Fisher metric = entropy Hessian on the N-simplex | symbolic/numeric golden values (N = 2, 3) | identity to machine precision |
 | V2 | Ultrametric construction | seeded hierarchical clustering over partitions, violation search on ≥3 resolution levels | zero strong-triangle violations (F2) |
-| V3 | Entropy production per step vs N | seeded Monte Carlo, N = 2^4 … 2^14, entropy-Hessian flow | scaling exponent < 0; → 0 (F3) |
-| V4 | Symplecticity defect of the effective generator vs N | seeded Monte Carlo, same runs | defect → 0 (F3) |
-| V5 | Max-entropy weights vs Born frequencies | seeded Monte Carlo, fixed test-state family | within ±2σ, deviation shrinks with N (F4) |
+| V3 | Entropy production per step vs N | seeded Monte Carlo, N = 2^4 … 2^14, entropy-Hessian flow | power-law exponent < −0.5; σ → 0 (F3) |
+| V4 | Symplecticity defect of the effective generator vs N | seeded Monte Carlo, same runs | defect exponent < −0.5; → 0 (F3) |
+| V5 | Max-entropy weights vs Born frequencies | seeded Monte Carlo, fixed test-state family | power-law exponent < −0.5 AND final deviation < 0.01 (F4) |
 | V6 | Clock convergence vs n | relational-dynamics simulation, n = 2^2 … 2^10 | fidelity → 1; artifacts shrink with n (F5) |
 
 A failing check is a bug in the check or in the claim: the construction is fixed and
@@ -297,13 +297,17 @@ falsifier live). V4 PASS — symplecticity defect exponent −1.00: the reversib
 component becomes exactly entropy-conserving (unitary-like) as N → ∞. V5 PASS —
 |Born − max-entropy weight| exponent −1.09, 2×10⁻⁴ at N = 2¹⁴ (F4 supported). V6
 PASS — discrete-time clock error exponent −2.00, 3.2×10⁻⁸ at n = 1024 (F5
-supported). All six checks were pre-registered before execution; the two
-construction corrections (non-degenerate start for V3/V4; second-order clock step
-for V6) were bugs in the checks, not in the claims, and were re-run to PASS per the
-verification discipline. The model's reversible component is the cyclic permutation
-on the N alternatives — entropy-conserving by construction — and the dissipative
-relaxation uses the per-distinction rate γ = 1/N; the falsifier-live controls show
-the tests are not vacuous.
+supported). All six checks (five result entries; V3/V4 share one entry) were
+pre-registered before execution; the two construction corrections (non-degenerate
+start for V3/V4; second-order clock step for V6) were bugs in the checks, not in
+the claims, and were re-run to PASS per the verification discipline. Acceptance
+criteria were sharpened at execution (power-law exponent < −0.5 in place of the
+P4 pre-registration's "< 0", plus a final-deviation bound for V5) so the vanishing
+claims are falsifiable; the executed criteria are the ones in the table above. The
+model's reversible component is the cyclic permutation on the N alternatives —
+entropy-conserving by construction — and the dissipative relaxation uses the
+per-distinction rate γ = 1/N; the falsifier-live controls show the tests are not
+vacuous.
 
 ## 10. What a Practitioner Can Do with This
 

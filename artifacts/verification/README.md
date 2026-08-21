@@ -16,9 +16,10 @@ the passing log is deposited.
 python finite-distinction-verification.py
 ```
 
-Deterministic and seeded: regenerates `verification-results-2026-08-21.json`
-byte-identically on the same interpreter (seed 20260821; no third-party
-dependencies; standard library only: json, math, random, sys, time).
+Deterministic and seeded: regenerates `verification-results-2026-08-21.json` with
+identical check results on the same interpreter (seed 20260821; no third-party
+dependencies; standard library only: json, math, random, sys, time). The embedded
+wall-clock field `runtime_s` is the only run-varying value.
 
 ## Reproducibility statement
 
@@ -53,6 +54,12 @@ unitary evolution is the bookkeeping of the entropy-preserving component in the
 large-distinction limit. Control with γ fixed (1) shows σ NOT vanishing (exponent
 +0.14) — the falsifier is live; the per-distinction scaling is the content of the
 claim, not a fitted parameter.
+
+Note (red-team DESIGN): the falsifier-live control is attached to the σ measurement
+only; the symplecticity-defect side follows algebraically from γ = 1/N (dissipative
+current² ~ γ²) and serves as a model-consistency check rather than an independent
+discovery. Accepted and documented; an independent defect control would need a
+different reversible-component scaling, which the paper's claim does not specify.
 
 ## Files
 

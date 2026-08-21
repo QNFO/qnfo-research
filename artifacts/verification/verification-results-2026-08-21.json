@@ -1,12 +1,12 @@
 {
  "seed": 20260821,
- "runtime_s": 25.851,
+ "runtime_s": 23.763,
  "python": "3.12.10",
  "checks": [
   {
    "check": "V1",
    "pass": true,
-   "detail": "max|F - (-Hess S)| = 0.00e+00 (< 1e-12); golden F_11(1/2) = 4.000000 (== 4)"
+   "detail": "max|F_def - (-Hess S)| = 0.00e+00 (< 1e-12); golden F_11(1/2) = 4.000000 (== 4)"
   },
   {
    "check": "V2",
