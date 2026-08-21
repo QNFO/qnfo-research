@@ -59,6 +59,32 @@ Remediation (newversion creator correction) is queued in the naming-mandate wave
   (physrevd.27.2885, revmodphys.58.765, 10.2307/1905751, physrevd.95.043510) are now
   verified with full author lists (above).
 
+## P4 addendum (2026-08-20) — extension to 37 entries
+
+The P4 paper draft (finite-distinction-quantum-mechanics.md) required 9 additional
+references beyond the P3 28-entry set. All 9 were live-verified same-turn:
+
+| Key | Verified authors | Source | Status |
+|---|---|---|---|
+| jaynes1957 (Phys. Rev. 106, 620) | Jaynes, E. T. | Crossref 10.1103/physrev.106.620 | PASS |
+| seifert2005 (PRL 95, 040602) | Seifert, U. | Crossref 10.1103/physrevlett.95.040602 | PASS |
+| esposito2009 (RMP 81, 1665) | Esposito, M.; Harbola, U.; Mukamel, S. | Crossref 10.1103/revmodphys.81.1665 | PASS |
+| esposito2010 (PRE 82, 011143) | Esposito, M.; Van den Broeck, C. | Crossref 10.1103/physreve.82.011143 | PASS |
+| seifert2012 (Rep. Prog. Phys. 75, 126001) | Seifert, U. | Crossref 10.1088/0034-4885/75/12/126001 | PASS |
+| amari2000 (AMS Transl. Math. Monogr. 191) | Amari, S.; Nagaoka, H. | Crossref 10.1090/mmono/191 (Crossref year 2007; monograph 2000) | PASS |
+| mezard1987 (Spin Glass Theory and Beyond, World Scientific) | Mézard, M.; Parisi, G.; Virasoro, M. A. | canonical book, no DOI; cross-confirmed via 10.1103/revmodphys.58.765 | PASS* |
+| qunigudzinas2026verification | Quni-Gudzinas, R. B. | Zenodo API 10.5281/zenodo.19644580 | PASS |
+| qunigudzinas2026uf | Quni-Gudzinas + legacy collective | Zenodo API 10.5281/zenodo.21193487 | PASS* |
+
+\* ADR-014 note on qunigudzinas2026uf (legacy collective creator — queued in the
+naming-mandate wave); mezard1987 verified as a canonical book without DOI
+(no Crossref registration; cross-confirmed via the RTV article).
+
+**BIB-ORPHAN check (P4):** 37 bib entries ↔ 37 numbered references in the draft —
+bidirectional, no orphans, no uncited entries. The draft cites only bib entries
+(JPCUB QNFO.JPC.001 is mentioned inline as a program record, not as a numbered
+reference). Total: 37/37 PASS.
+
 ## Data-quality flags (non-blocking)
 
 1. **D1 `entropic-operational-paradigm` row has `doi:null`** while the canonical record

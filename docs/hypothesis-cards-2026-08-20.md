@@ -88,3 +88,9 @@ edited retroactively without a dated amendment note.
   the card's prediction is restated conditionally (ultrametricity for partition-type
   distinguishability, subject to the semiorder argument). H-UNIT/H-BORN/H-TIME remain
   unfalsified and untested — P5 simulation is the next falsifier test.
+- 2026-08-20 P4 gate: re-checked immediately before paper-draft prose. No falsifier
+  triggered. H-CONT and H-ULTRA carry the P2 amendments forward unchanged (claims
+  intact, conditional restatement for H-ULTRA). H-UNIT/H-BORN/H-TIME still unfalsified
+  and untested — P5 simulation is the next falsifier test; the draft's §8 and the
+  verification section pre-register the exact falsifier tests (entropy-production
+  scaling, symplecticity defect, Born deviation tolerance, clock convergence).
