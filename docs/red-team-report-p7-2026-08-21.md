@@ -16,7 +16,39 @@ immutable?" — is answered in H-3.
 
 ---
 
-## Verdict: 3 HARD · 5 SOFT · 0 DESIGN
+## Verdict: 3 HARD · 5 SOFT · 0 DESIGN (direct audit) → **2 HARD · 6 SOFT · 0 DESIGN (final, after cross-audit reconciliation)**
+
+## Cross-audit reconciliation (concurrent P7 audit, f6482f3)
+
+A concurrent session ran its own P7 audit (`docs/post-publication-red-team-2026-08-21.md`,
+verdict 0 HARD / 1 SOFT, head f6482f3). Reconciliation of the disagreement:
+
+- **H-1 / H-2 — no disagreement in substance:** the concurrent audit verified
+  number-matches and artifact *presence* but did not perform the code-to-table
+  semantic check. H-1 (the §5 computational-test promise for 2-norm/ℂ-structure
+  selection has no check) and H-2 (the deposited V5 does not execute the §9 row's
+  ±2σ criterion and uses a test-state family disconnected from the flow model)
+  stand. Both are publication-grade defects with cheap remediations (a V7 / a V5
+  rewrite / one-sentence scope edits) that do **not** touch the locked claim.
+- **H-3 — DOWNGRADED to SOFT (S-6), merged with the concurrent audit's SOFT-1.**
+  The concurrent audit applied the conjecture-grade legibility test to the draft
+  (§2 L3 table, §5 "The central conjecture", §6 "The second conjecture", §11
+  grading ladder) and answered the P6 Q15 seed: legible. That reading is correct
+  for the draft. The residual tension is narrower: PROJECT-PLAN §2's locked claim
+  says "verified at finite N by the computational program", and the draft's own
+  §7/§9 use "prediction"/"verified" where the grade discipline prefers
+  "conjecture"/"supported in the per-distinction model". Since the parenthetical
+  scopes the verification to the program's outputs (which were verified) and the
+  L3 grade is explicit in the locked record's premise-depth table, this is a
+  word-grade consistency note, not a publication blocker. **Recommendation:** fold
+  the one-word fix ("verified" → "supported … in the per-distinction model") into
+  the next claim edit, which per the lock rule will already carry a version bump +
+  UIA delta (needed for H-1's §5 scope edit anyway).
+- The concurrent audit's subagent experience mirrors this one (3/3 stalled, the
+  known REDTEAM-SUBAGENT-GATE-STALL-1 signature) — the direct-audit fallback is
+  the operative method on both sides.
+
+**Final verdict: 2 HARD (H-1, H-2) · 6 SOFT (S-1…S-6) · 0 DESIGN.**
 
 ## HARD findings
 
