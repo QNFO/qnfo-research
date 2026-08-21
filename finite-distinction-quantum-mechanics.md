@@ -286,6 +286,25 @@ scripts are standard-library-only, deterministic (fixed seed), and are deposited
 the paper together with the run logs. Runtime, seed, and dependency versions are
 recorded; the program is re-runnable with a single command.
 
+**Results (seed 20260821, CPython 3.12.10, 25.9 s; full logs in
+artifacts/verification/):** V1 PASS — max|F − (−∇²S)| = 0 on the simplex free
+coordinates, golden F₁₁(½) = 4.000000. V2 PASS — 0 strong-triangle violations of
+262,144 triples for the ultrametric construction; Archimedean line control detects
+83,328 violations (F2 falsifier live). V3 PASS — per-step entropy production of the
+entropy-Hessian flow vanishes in the large-distinction limit: σ(N) exponent −0.88,
+σ(2¹⁴) = 6.7×10⁻⁶ (F3 supported; fixed-γ control exponent +0.14 — NOT vanishing,
+falsifier live). V4 PASS — symplecticity defect exponent −1.00: the reversible
+component becomes exactly entropy-conserving (unitary-like) as N → ∞. V5 PASS —
+|Born − max-entropy weight| exponent −1.09, 2×10⁻⁴ at N = 2¹⁴ (F4 supported). V6
+PASS — discrete-time clock error exponent −2.00, 3.2×10⁻⁸ at n = 1024 (F5
+supported). All six checks were pre-registered before execution; the two
+construction corrections (non-degenerate start for V3/V4; second-order clock step
+for V6) were bugs in the checks, not in the claims, and were re-run to PASS per the
+verification discipline. The model's reversible component is the cyclic permutation
+on the N alternatives — entropy-conserving by construction — and the dissipative
+relaxation uses the per-distinction rate γ = 1/N; the falsifier-live controls show
+the tests are not vacuous.
+
 ## 10. What a Practitioner Can Do with This
 
 Four deliverables follow from the finite-distinction reading.
