@@ -103,7 +103,12 @@ def mc_p_plus(A_list, b_list, z_start, dt_r, sigma, seed):
 
 def random_test_states(n=50, seed=SEED):
     rng = np.random.default_rng(seed)
-    return [tuple(float(c) for c in (rng.standard_normal(3) / np.linalg.norm(rng.standard_normal(3)))) for _ in range(n)]
+    states = []
+    for _ in range(n):
+        v = rng.standard_normal(3)
+        v = v / np.linalg.norm(v)
+        states.append(tuple(float(c) for c in v))
+    return states
 
 
 def load_sealed_states():
