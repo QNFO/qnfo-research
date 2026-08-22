@@ -12,14 +12,14 @@
 | FQ1 | Can a measurement-triggered relaxation dynamics (basins of attraction) be specified at the level of Reddiger's Radon–Nikodym formalism that reproduces Born statistics within ε=1e-2 on 2-level systems? | **DISCONFIRMED (2026-08-20, commit d53ba49)** — sealed simulation: all 7 configurations FAIL (max_dev=0.5 >> ε); deterministic outcome channel degenerate (p_measured ∈ {0,1}) | Closed as falsified; negative result ready for Phase 5 publication | WAS YES — now CLOSED |
 | FQ2 | Does the boundary-condition reading of quantization (guitar-string axiom) make any prediction that differs from standard QM for a concrete system (e.g., quantum dot spectra)? | OPEN | Select system; compute both predictions; register (carried from RES.016) | YES |
 | FQ3 | What is the exact relationship between the PQS "local realism" claim and loophole-free Bell violations? | OPEN | Literature synthesis (carried from RES.016) | PARTIAL |
-| FQ4 | Can a MINIMAL STOCHASTIC EXTENSION of the sealed deterministic family (e.g., noise term on z during measurement) reproduce Born statistics within ε, and what is the minimal noise magnitude required? | OPEN — scaffolded (REG-RES018-002 draft) | Seal REG-RES018-002 (parameters+code sha256) BEFORE any run | YES |
+| FQ4 | Can a MINIMAL STOCHASTIC EXTENSION of the sealed deterministic family (e.g., noise term on z during measurement) reproduce Born statistics within ε, and what is the minimal noise magnitude required? | **DISCONFIRMED (2026-08-21, REG-RES018-002)** — sealed extension (commit f5473d9, harness sha b3627c65): all 7 configs FAIL at every σ; best min max_dev = 0.074 >> ε = 1e-2; 'no amount of unbiased white noise' — the repair must be state-dependent (Born-correlated) | Closed as falsified; a new mechanism class requires a new pre-registration | WAS YES — now CLOSED |
 
 ## 2. FALSIFIABLE PREDICTIONS
 
 | ID | Prediction | Test Window | Instrument | Disconfirmation Condition |
 |:---|:-----------|:------------|:-----------|:--------------------------|
 | P1 | ~~A specified relaxation equation for the Madelung fluid reproduces single-shot measurement statistics within ε of the Born rule~~ | **CLOSED — DISCONFIRMED 2026-08-20** | Sealed harness rev.3 (5239468), verdict-input.json | Triggered: max_dev 0.5 > ε for all configs |
-| P2 | Minimal stochastic extension (FQ4) reproduces Born statistics within ε with noise magnitude σ ≥ σ_min | 12 months | Sealed extension harness (REG-RES018-002) | Deviation > ε without documented mechanism, or σ_min = 0 (deterministic degenerate again) |
+| P2 | ~~Minimal stochastic extension (FQ4) reproduces Born statistics within ε with noise magnitude σ ≥ σ_min~~ | **CLOSED — DISCONFIRMED 2026-08-21** | Sealed extension harness (REG-RES018-002, sha b3627c65) | Triggered: no σ in the grid achieves max_dev < ε for any config |
 
 ## 3. PER-RQ FALSIFIABILITY CONDITIONS
 
