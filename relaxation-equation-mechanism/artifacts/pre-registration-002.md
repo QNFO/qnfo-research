@@ -47,7 +47,7 @@ Per config (A×{γτ ∈ 0.5, 5, 50}, B×{α ∈ 0.01, 0.1, 1}, C):
 
 ## 5. Seal integrity
 
-- Harness: `notebooks/relaxation_sim_ext.py` — sha256 `dd7753161e0e5933b5f4ff955765519719ca36342b394ed9eca2924627f2014b`.
+- Harness: `notebooks/relaxation_sim_ext.py` — sha256 `b3627c65975f6101f7f1e3fe1b0ee8d3d22fbebd24863316b32fa876328aae51`.
 - The sealed REG-RES018-001 harness (relaxation_sim.py rev.3) is imported UNMODIFIED; its own seal sha is unchanged.
 - Verification at run time: `git show <seal-commit>:relaxation-equation-mechanism/notebooks/relaxation_sim_ext.py | sha256sum` must equal the hash above.
 - Output: `artifacts/verdict-input-002.json` (harness self-checks its own sha into `_seal_sha256`).
@@ -68,3 +68,16 @@ failure occurred BEFORE any simulation results existed (verdict-input-002.json
 was never created; zero shots computed). The hypothesis, parameters, protocol,
 and analysis rules are UNCHANGED. Fix: single draw per state, exact sealed-draw
 reproduction. New harness sha256 recorded above; this commit is the operative seal.
+
+
+## 5b. REV.3 SEAL AMENDMENT (POST-RESULTS, OUTPUT LAYER ONLY, 2026-08-21)
+
+**Nature of amendment: JSON serialization of the computed results.** The rev.2 harness
+completed the full computation and PRINTED all seven per-config verdicts
+(sigma_min=None / cc2_pass=False for A×{0.5,5,50}, B×{0.01,0.1,1}, C) and all three
+MC-validation checks (PASS), then crashed while WRITING verdict-input-002.json:
+`TypeError: Object of type bool is not JSON serializable` (a numpy bool_ in the
+'pass' field). The printed log (`reg002_run2.txt`) predates this fix and is preserved
+as evidence that the results are unaffected. Fix: cast to `bool()` at serialization.
+No computation, parameter, protocol, or analysis rule changed; the verdict must be
+BIT-IDENTICAL on the re-run (all seven cc2_pass=False). New harness sha256 above.

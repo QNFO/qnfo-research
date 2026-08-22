@@ -147,7 +147,7 @@ def main():
                 p = analytic_p_plus(z_det, V, sigma)
                 devs.append(abs(p - (1 + z0) / 2.0))
             per_sigma[str(float(sigma))] = {'max_deviation': float(max(devs)),
-                                            'pass': max(devs) < EPS}
+                                            'pass': bool(max(devs) < EPS)}
         passing = [s for s in SIGMA_GRID if per_sigma[str(float(s))]['pass']]
         sigma_min = None
         if passing:
