@@ -1,0 +1,40 @@
+{
+  "seed": 20260823,
+  "model": "qubit decoherence rate Gamma(n) = sum_k c_k^2; tau(n) = 1/Gamma(n); n = number of noise modes",
+  "markovian": {
+    "coupling": "Gamma(n) = n^2 (stated 1/n^2 law)",
+    "loglog_slope_tau_vs_n": -2.0
+  },
+  "padic_p2": {
+    "coupling": "c_k = 2^{-v_2(k)} (valuation-suppressed)",
+    "loglog_slope_tau_vs_n": -0.9881
+  },
+  "padic_p3": {
+    "coupling": "c_k = 3^{-v_3(k)}",
+    "loglog_slope_tau_vs_n": -0.9409
+  },
+  "exact_arithmetic_check": {
+    "p2": {
+      "loop_sum": 146.2857208251953,
+      "count_formula": 146.2857208251953,
+      "relative_error": 0.0,
+      "ok": true
+    },
+    "p3": {
+      "loop_sum": 177.57645345391117,
+      "count_formula": 177.57645345391117,
+      "relative_error": 0.0,
+      "ok": true
+    }
+  },
+  "mc_sanity_check": {
+    "n": 64,
+    "p": 2,
+    "mc_gamma": 36.522052421875,
+    "closed_gamma": 36.571533203125,
+    "relative_error": 0.001352986241379922,
+    "ok": true
+  },
+  "slope_separation_ok": true,
+  "verdict_h3_numeric": true
+}

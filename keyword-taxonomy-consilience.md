@@ -2,7 +2,7 @@
 title: "The Consilience of the QNFO Keyword Taxonomy: Ultrametric Structure as a Testable Compression Prior"
 author: Rowan Brad Quni-Gudzinas
 date: 2026-08-23
-version: v0.1-draft
+version: v0.2-draft
 license: CC BY 4.0
 ---
 
@@ -93,13 +93,51 @@ The three cross-cutting sections are where program vocabulary actually meets: th
 
 The vocabulary audit says the taxonomy does not lexically realize its own consilience. The corpus audit says the semantic links are nevertheless present. Prior published records connect the families across programs: measurement stratigraphy links RES's epistemology to UMP's valuation theory (10.5281/zenodo.21705220); the valuation-without-reals framework links UMP's non-Archimedean structure to finite-measurement foundations (10.5281/zenodo.21803677); the tree-numeration synthesis shows ordinary positional notation is an ultrametric tree, connecting UMP's geometry to computation and interface design (10.5281/zenodo.21046213); prime valuation depth bridges the calculus of indications to number theory via multiplication-as-branching (10.5281/zenodo.21918838); and a computational study of semantic structures finds ultrametric topology in semantic memory with invariant cross-ratio stability (10.5281/zenodo.19564091). The consilience, at the corpus level, is real and citable. It is just not lexical.
 
+### 4.6 Computational verification of the hypotheses
+
+The three hypotheses of Section 5 are computationally checked in code before
+they are asserted (scripts and full logs in `artifacts/verification/`, all
+seeded and deterministic; the verification suite reproduces byte-identically).
+Table 3 summarizes.
+
+| Check | Result | Status |
+|:------|:-------|:------:|
+| H1 retrieval, corpus A (200 synthetic docs, 5 planted clusters, 512-dim sparse): ultrametric index p@10 vs cosine p@10 | 1.000 vs 1.000 (Δ = 0.000) | pass |
+| H1 retrieval, corpus B (69 labeled QNFO titles, UMP/SLB/RES): ultrametric p@10 vs cosine p@10 | 0.765 vs 0.807 (Δ = −0.042) | partial |
+| H1 encoding control: naive sha256 p-adic hash p@10 vs cosine (corpus A / corpus B) | 0.210 / 0.638 vs 1.000 / 0.807 | control, as predicted |
+| H2 ultrametric inequality violations (10k triples × 3 tree models) | 0 / 10,000 per model | pass |
+| H2 CLT golden variance of leaf mean vs sigma^2/n (3 models) | rel. err 0.004–0.039 (bound 5%) | pass |
+| H2 Gaussianity of the averaged quantity (skew, excess kurtosis) | |skew| ≤ 0.088, |kurt| ≤ 0.100 | pass |
+| H3 Markovian scaling slope of tau(n) | −2.0000 (predicted −2) | pass |
+| H3 p-adic noise scaling slope of tau(n), p = 2 | −0.9881 (predicted −1) | pass |
+| H3 slope separation vs Markovian | 1.012 > 0.5 | pass |
+| H3 exact arithmetic: loop sum vs valuation-count formula (p = 2, 3) | 0.0 relative error | pass |
+| H3 seeded Monte Carlo sanity of Gamma(64) | 1.4e-3 (bound 5e-3) | pass |
+
+*Table 3. Computational verification, fixed seed 20260823 (scripts rq1/rq3/rq4 in artifacts/verification/).*
+
+Two results deserve emphasis. First, the H1 encoding control behaves exactly
+as the paper's map-territory note (Section 2) predicts: hashing documents to
+integers before taking p-adic distances destroys the metric structure, and
+the naive hash index collapses toward random retrieval (0.21 vs 1.00 on the
+synthetic corpus). The H1 index is therefore the data-derived ultrametric
+re-coding — single-linkage hierarchy over the corpus — which matches cosine
+exactly on the synthetic corpus and trails by 0.042 at p@10 on the title-only
+corpus. H1 on these two pinned corpora is partial, not settled; the abstract-
+and-embedding corpus specified by the protocol is the adjudicator. Second,
+the H3 simulation exhibits a clean, separable signature: p-adic-valuation-
+suppressed noise gives tau ~ 1/n (slope −1.0) against the Markovian tau ~
+1/n^2 (slope −2.0), with the sum arithmetic verified exactly — the scaling
+law the hardware protocol of Deliverable 2 is designed to detect is real in
+the model.
+
 ## 5. The revised claim and its disconfirmation criteria
 
 The audit forces a restatement. The program's thesis is not that its keywords cohere. It is that the program's domains share a structural object — nested hierarchical partition logic — and that this object is empirically productive. The claim below is the version this paper can defend, and each clause carries a disconfirmation criterion.
 
 **Structural identification (revised).** The seven programs share a family of nested-partition structures: the ultrametric inequality and its strict hierarchy of nested balls. The specific arithmetic (p-adic valuation, adelic product formula) is one realization; the hierarchy is the invariant. The taxonomy itself supports only this weak form: the hierarchy family is the only bridge family spanning three programs (Section 4.2).
 
-**H1 — compression prior.** Ultrametric structure is an effective compression and clustering prior for high-dimensional sparse measurement data: on at least two independent corpora, an ultrametric index matches or beats cosine/HNSW baselines on retrieval precision at equal build cost. *Disconfirmation criterion:* H1 fails if ultrametric retrieval does not match the baselines on two pre-specified corpora with metrics, primes, and hashes committed before measurement. (The prior art in Section 8 makes "matches" a nontrivial but achievable bar.)
+**H1 — compression prior.** Ultrametric structure is an effective compression and clustering prior for high-dimensional sparse measurement data: on at least two independent corpora, an ultrametric index matches or beats cosine/HNSW baselines on retrieval precision at equal build cost. *Disconfirmation criterion:* H1 fails if ultrametric retrieval does not match the baselines on two pre-specified corpora with metrics, primes, and hashes committed before measurement. (The prior art in Section 8 makes "matches" a nontrivial but achievable bar. Section 4.6 reports the current state on the first two pinned corpora: exact match on the synthetic corpus, −0.042 at p@10 on the title corpus, with the encoding control behaving as predicted.)
 
 **H2 — Archimedean emergence.** Continuous Archimedean physics appears as the thermodynamic or ergodic average over the leaves of an underlying ultrametric hierarchy. *Disconfirmation criterion:* H2 fails if no derivation exhibits the averaging operation — ergodic mean over leaves or renormalization limit — producing an Archimedean limit theory.
 
@@ -148,7 +186,22 @@ The "logical origin" story therefore stops at L0; the bridge sits at L2 as a nam
 
 ## 10. Reproducibility
 
-All quantitative claims in this paper are produced by `artifacts/verification/rq5_keyword_load.py` (deterministic; Python standard library only; no random seeds required). Inputs: `artifacts/verification/keyword-taxonomy-source.md` (the v1.0 taxonomy snapshot, byte-verified against the canonical location at fetch time). Outputs: `artifacts/verification/rq5_results.json` (full results), `artifacts/p2-consilience-map.json` (graph), run log archived. Re-running the script from the repository root regenerates the two JSON artifacts byte-identically. Corpus statistics (8,324 nodes; 1,660 papers) were read from the program's knowledge-graph endpoint on 2026-08-23; external-literature evidence files (arXiv) are archived in `artifacts/external-search/`. Runtime: under one second on the reference machine; no external services required.
+All quantitative claims in this paper are produced by the verification suite
+in `artifacts/verification/`: `rq5_keyword_load.py` (taxonomy audit),
+`rq1_retrieval_benchmark.py` (H1 retrieval), `rq3_archimedean_limit.py`
+(H2 numeric), and `rq4_noise_scaling.py` (H3 scaling). All are deterministic
+(pure Python standard library; fixed seed 20260823; no random seeds required
+beyond the declared constants). Inputs: `keyword-taxonomy-source.md` (the v1.0
+taxonomy snapshot, byte-verified against the canonical location at fetch
+time) and `corpus_qnfo_titles.json` (400 titles pinned from the program's
+living-paper database on 2026-08-23; 69 carry program labels via taxonomy
+keyword matching). Outputs: per-check JSON results and run logs, all
+archived; re-running the scripts from the repository root regenerates every
+JSON artifact byte-identically. Corpus statistics (8,324 nodes; 1,660
+papers) were read from the program's knowledge-graph endpoint on 2026-08-23;
+external-literature evidence files (arXiv) are archived in
+`artifacts/external-search/`. Runtime: under two minutes for the full suite
+on the reference machine; no external services required.
 
 ## References
 

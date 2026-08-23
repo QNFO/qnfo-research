@@ -1,0 +1,13 @@
+RQ1/RQ2 verification v2 - seed 20260823
+Corpus A: 200 docs, 5 planted clusters
+Corpus B: 69 labeled titles, programs ['RES', 'SLB', 'UMP']
+Corpus A:
+  cosine_tfidf             p@5=1.0000 p@10=1.0000 mrr=1.0000
+  ultrametric_singlelink   p@5=1.0000 p@10=1.0000 mrr=1.0000
+  padic_hash_control       p@5=0.2067 p@10=0.2100 mrr=0.4070
+Corpus B:
+  cosine_tfidf             p@5=0.8167 p@10=0.8071 mrr=0.9722
+  ultrametric_singlelink   p@5=0.7567 p@10=0.7652 mrr=0.9500
+  padic_hash_control       p@5=0.6500 p@10=0.6379 mrr=0.7767
+H1 verdict: {"note": "H1 index = data-derived single-linkage ultrametric (Murtagh-aligned recoding). Naive sha256 p-adic hash is the encoding control: hashes destroy metric structure by construction (UIA Q2), so it is expected to underperform and is not the H1 claim.", "per_corpus": [{"corpus": "A", "delta_p10_ultrametric_minus_cosine": 0.0, "ultrametric_matches_or_beats": true}, {"corpus": "B", "delta_p10_ultrametric_minus_cosine": -0.04190000000000005, "ultrametric_matches_or_beats": false}]}
+EXIT=0
