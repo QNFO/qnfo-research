@@ -1,0 +1,24 @@
+{
+  "generated": "2026-08-23",
+  "session": "CMD RESEARCH QNFO.RES.023 Phase 1",
+  "note": "External verification evidence (arXiv). Thesis-specific anchors beyond the inherited RES.022 evidence set.",
+  "queries": [
+    {
+      "query": "ultrametric stochastic process central limit emergence continuous limit p-adic",
+      "key_results": [
+        {"id": "1504.03629v1", "title": "Application of p-adic analysis methods in describing Markov processes on ultrametric spaces isometrically embeddable into Q_p", "authors": ["A. Kh. Bikulov", "A. P. Zubarev"], "year": 2015, "relevance": "H2 machinery: stationary Markov processes on ultrametric spaces reduce to Kolmogorov-Feller pseudo-differential equations on Q_p - the existing math for 'average over leaves'."},
+        {"id": "1012.1248v2", "title": "Some aspects of the m-adic analysis and its applications to m-adic stochastic processes", "authors": ["Mikhail V. Dolgopolov", "Alexander P. Zubarev"], "year": 2010, "relevance": "m-adic stochastic processes, CTRW and fractional-time random walks as diffusive limits - H2-adjacent limit mechanics."},
+        {"id": "math-ph/0512018v2", "title": "On Phase Transitions for P-Adic Potts Model with Competing Interactions on a Cayley Tree", "authors": ["Farrukh Mukhamedov", "Utkir Rozikov", "Jose Fernando F. Mendes"], "year": 2005, "relevance": "p-adic Gibbs measures and phase transitions on trees - statistical-mechanics instance of ultrametric structure (p=3 transition)."},
+        {"id": "0809.0492v1", "title": "From Data to the p-Adic or Ultrametric Model", "authors": ["Fionn Murtagh"], "year": 2008, "relevance": "Ultrametric data modeling (Correspondence Analysis -> induced ultrametric); H1 anchor (inherited G5 anchor)."}
+      ]
+    },
+    {
+      "query": "energy consumption quantum computing benchmarking thermodynamic cost computation",
+      "key_results": [
+        {"id": "2601.03141v2", "title": "Energetics of Rydberg-atom Quantum Computing", "authors": ["Óscar Alves", "Marco Pezzutto", "Yasser Omar"], "year": 2026, "relevance": "MISSION PEER: platform-level energy benchmarking; quantum energy advantage for QFT vs classical supercomputers - the external peer of the JPCUB energy benchmark."},
+        {"id": "2109.05472v2", "title": "Compute and Energy Consumption Trends in Deep Learning Inference", "authors": ["Radosvet Desislavov", "Fernando Martínez-Plumed", "José Hernández-Orallo"], "year": 2021, "relevance": "Energy trends in AI inference - context for the joules-per-solution metric's scope."}
+      ]
+    }
+  ],
+  "inherited_anchors": "RES.022 arxiv-evidence-2026-08-23.json + arxiv-evidence-g5-2026-08-23.json (Murtagh 2006/2007/2010/2012, Chehreghani 1812.09225, Conti 2209.03781, Marsh 2307.10176, Lang 2406.05842, Newman-Stein cond-mat/0105282, Ganea 1804.01882) - all still valid for the thesis paper."
+}
