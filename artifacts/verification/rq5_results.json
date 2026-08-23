@@ -1,0 +1,271 @@
+{
+  "source": "docs/QNFO-KEYWORD-TAXONOMY.md v1.0 (2026-08-05)",
+  "method": "RQ5 load-bearing analysis; L1 string level (threshold >=3 programs, Fisher exact enrichment vs bridge families); L2 family level; L3 taxonomy bridge subsections; L4 cross-cutting themes.",
+  "programs": [
+    "UMP",
+    "SLB",
+    "INM",
+    "CFE",
+    "RES",
+    "PLT",
+    "DEM"
+  ],
+  "per_program": {
+    "UMP": {
+      "keyword_count": 64,
+      "load_bearing_share": 0.0,
+      "bridge_share": 0.3438
+    },
+    "SLB": {
+      "keyword_count": 31,
+      "load_bearing_share": 0.0,
+      "bridge_share": 0.5484
+    },
+    "INM": {
+      "keyword_count": 47,
+      "load_bearing_share": 0.0,
+      "bridge_share": 0.2128
+    },
+    "CFE": {
+      "keyword_count": 48,
+      "load_bearing_share": 0.0,
+      "bridge_share": 0.0
+    },
+    "RES": {
+      "keyword_count": 65,
+      "load_bearing_share": 0.0,
+      "bridge_share": 0.0308
+    },
+    "PLT": {
+      "keyword_count": 58,
+      "load_bearing_share": 0.0,
+      "bridge_share": 0.0
+    },
+    "DEM": {
+      "keyword_count": 25,
+      "load_bearing_share": 0.0,
+      "bridge_share": 0.16
+    }
+  },
+  "total_distinct_keywords": 335,
+  "L1_string_level": {
+    "load_bearing_core": {},
+    "shared_by_two": {
+      "complexity-measure": [
+        "INM",
+        "RES"
+      ]
+    },
+    "program_local_count": 334,
+    "contingency": {
+      "bridge_and_load_bearing": 0,
+      "bridge_and_local": 53,
+      "non_bridge_and_load_bearing": 0,
+      "non_bridge_and_local": 282
+    },
+    "bridge_stats": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "fisher_one_sided_p": 1.0
+    },
+    "verdict": "NOT SUPPORTED"
+  },
+  "L2_family_level": {
+    "family_coverage": {
+      "valuation": {
+        "programs": [
+          "UMP"
+        ],
+        "program_keyword_counts": {
+          "UMP": 21,
+          "SLB": 0,
+          "INM": 0,
+          "CFE": 0,
+          "RES": 0,
+          "PLT": 0,
+          "DEM": 0
+        }
+      },
+      "hierarchy": {
+        "programs": [
+          "SLB",
+          "RES",
+          "DEM"
+        ],
+        "program_keyword_counts": {
+          "UMP": 0,
+          "SLB": 2,
+          "INM": 0,
+          "CFE": 0,
+          "RES": 2,
+          "PLT": 0,
+          "DEM": 4
+        }
+      },
+      "distinction": {
+        "programs": [
+          "SLB"
+        ],
+        "program_keyword_counts": {
+          "UMP": 0,
+          "SLB": 14,
+          "INM": 0,
+          "CFE": 0,
+          "RES": 0,
+          "PLT": 0,
+          "DEM": 0
+        }
+      },
+      "bound": {
+        "programs": [
+          "INM"
+        ],
+        "program_keyword_counts": {
+          "UMP": 0,
+          "SLB": 0,
+          "INM": 10,
+          "CFE": 0,
+          "RES": 0,
+          "PLT": 0,
+          "DEM": 0
+        }
+      }
+    },
+    "verdict": "PARTIAL/NOT SUPPORTED"
+  },
+  "L3_bridge_subsections": {
+    "UMP_Bridge_Concepts": {
+      "keyword_count": 7,
+      "programs_with_hits": [
+        "UMP"
+      ],
+      "hits_per_program": {
+        "UMP": [
+          "adele-ring",
+          "idele-class-group",
+          "ostrowski-theorem",
+          "product-formula",
+          "restricted-direct-product",
+          "strong-approximation",
+          "weak-approximation"
+        ]
+      }
+    },
+    "RES_CrossDomain_Methodology": {
+      "keyword_count": 7,
+      "programs_with_hits": [
+        "RES"
+      ],
+      "hits_per_program": {
+        "RES": [
+          "commensurability",
+          "cross-domain-correspondence",
+          "cross-paradigm-translation",
+          "duality-map",
+          "incommensurability",
+          "rosetta-stone-analogy",
+          "structural-realism"
+        ]
+      }
+    },
+    "RES_CrossDomain_Bridges": {
+      "keyword_count": 6,
+      "programs_with_hits": [
+        "RES"
+      ],
+      "hits_per_program": {
+        "RES": [
+          "compton-bruhat-tits",
+          "compton-bt",
+          "frequency-valuation",
+          "mass-valuation",
+          "planck-scale-physics",
+          "quantum-gravity-phenomenology"
+        ]
+      }
+    },
+    "RES_Measurement_Stratigraphy": {
+      "keyword_count": 9,
+      "programs_with_hits": [
+        "RES"
+      ],
+      "hits_per_program": {
+        "RES": [
+          "einselection",
+          "epistemology-of-measurement",
+          "instrumental-stratification",
+          "measurement-stratigraphy",
+          "measurement-theory",
+          "metrology-foundations",
+          "operationalism",
+          "quantum-darwinism",
+          "silent-radix"
+        ]
+      }
+    }
+  },
+  "L4_cross_cutting": {
+    "Cross-Cutting": {
+      "keyword_count": 0,
+      "keywords_also_in_programs": 0,
+      "programs_touched": [],
+      "overlap_keywords": {}
+    },
+    "Agentic": {
+      "keyword_count": 50,
+      "keywords_also_in_programs": 5,
+      "programs_touched": [
+        "PLT"
+      ],
+      "overlap_keywords": {
+        "PLT": [
+          "fastmcp",
+          "mcp-client",
+          "mcp-server",
+          "mcp-tool",
+          "model-context-protocol"
+        ]
+      }
+    },
+    "4-D": {
+      "keyword_count": 26,
+      "keywords_also_in_programs": 5,
+      "programs_touched": [
+        "PLT"
+      ],
+      "overlap_keywords": {
+        "PLT": [
+          "arweave",
+          "ipfs",
+          "nft-storage",
+          "web3-storage",
+          "zenodo"
+        ]
+      }
+    },
+    "Measurement": {
+      "keyword_count": 23,
+      "keywords_also_in_programs": 4,
+      "programs_touched": [
+        "RES"
+      ],
+      "overlap_keywords": {
+        "RES": [
+          "einselection",
+          "epistemology-of-measurement",
+          "measurement-stratigraphy",
+          "operationalism"
+        ]
+      }
+    }
+  },
+  "pair_overlap": {
+    "INM-RES": {
+      "shared_count": 1,
+      "shared_keywords": [
+        "complexity-measure"
+      ]
+    }
+  },
+  "verdict_rq5": "L1 NOT SUPPORTED (taxonomy strictly partitional); consilience carried by L2-L4 structures, not shared vocabulary"
+}

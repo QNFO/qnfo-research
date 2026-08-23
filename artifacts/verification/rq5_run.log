@@ -1,0 +1,24 @@
+RQ5 load-bearing analysis — QNFO.RES.022 P2
+source: artifacts/verification/keyword-taxonomy-source.md; programs parsed 7/7; distinct keywords: 335
+L1 string level:
+  load-bearing core (>=3 programs): 0 keywords
+  shared by exactly 2: 1 keywords -> [('complexity-measure', ['INM', 'RES'])]
+  program-local: 334/335 (99.7%)
+  contingency a/b/c/d=0/53/0/282; precision=0.000 recall=0.000 fisher_p=1.000000; verdict NOT SUPPORTED
+L2 family level:
+  valuation    programs=['UMP'] counts={'UMP': 21, 'SLB': 0, 'INM': 0, 'CFE': 0, 'RES': 0, 'PLT': 0, 'DEM': 0}
+  hierarchy    programs=['SLB', 'RES', 'DEM'] counts={'UMP': 0, 'SLB': 2, 'INM': 0, 'CFE': 0, 'RES': 2, 'PLT': 0, 'DEM': 4}
+  distinction  programs=['SLB'] counts={'UMP': 0, 'SLB': 14, 'INM': 0, 'CFE': 0, 'RES': 0, 'PLT': 0, 'DEM': 0}
+  bound        programs=['INM'] counts={'UMP': 0, 'SLB': 0, 'INM': 10, 'CFE': 0, 'RES': 0, 'PLT': 0, 'DEM': 0}
+  verdict: PARTIAL/NOT SUPPORTED
+L3 bridge subsections:
+  UMP_Bridge_Concepts                7 kws  programs_with_hits=['UMP']
+  RES_CrossDomain_Methodology        7 kws  programs_with_hits=['RES']
+  RES_CrossDomain_Bridges            6 kws  programs_with_hits=['RES']
+  RES_Measurement_Stratigraphy       9 kws  programs_with_hits=['RES']
+L4 cross-cutting themes:
+  Cross-Cutting                  0 kws  in_programs=0  touched=[]
+  Agentic                       50 kws  in_programs=5  touched=['PLT']
+  4-D                           26 kws  in_programs=5  touched=['PLT']
+  Measurement                   23 kws  in_programs=4  touched=['RES']
+VERDICT RQ5: L1 NOT SUPPORTED (taxonomy strictly partitional); consilience carried by L2-L4 structures, not shared vocabulary
