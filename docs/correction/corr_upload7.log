@@ -1,0 +1,68 @@
+[
+ {
+  "file": "ultrametric-program.html",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 40685
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 7432
+ },
+ {
+  "file": "arxiv-evidence-g5-2026-08-23.json",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 1529
+ },
+ {
+  "file": "rq5_run.log",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 1708
+ },
+ {
+  "file": "rq1_retrieval_benchmark.py",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 10920
+ },
+ {
+  "file": "rq2_results.json",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 2405
+ },
+ {
+  "file": "rq3_archimedean_limit.py",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 4683
+ },
+ {
+  "file": "verification-integration-res023.md",
+  "del": 404,
+  "init": 201,
+  "put": 200,
+  "commit": 200,
+  "size": 3916
+ }
+]
+UPLOADED 8/8
+EXIT=0

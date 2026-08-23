@@ -1,0 +1,4 @@
+META-PUT: 200
+version: v2.0 | rtype: {"title": "Preprint", "type": "publication", "subtype": "preprint"} | creators: 1
+PUBLISH ERR: 400 {"status": 400, "message": "A validation error occurred.", "errors": [{"field": "metadata.publisher", "messages": ["Missing publisher field required for DOI registration."]}]}
+EXIT=0

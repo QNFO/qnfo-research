@@ -1,0 +1,2 @@
+PUBLISH ERR: 400 {"status": 400, "message": "A validation error occurred.", "errors": [{"field": "metadata.resource_type", "messages": ["Missing data for required field."]}, {"field": "metadata.creators", "messages": ["Missing data for required field."]}, {"field": "metadata.related_identifiers.0.relation_type", "messages": ["Missing data for required field."]}]}
+EXIT=0

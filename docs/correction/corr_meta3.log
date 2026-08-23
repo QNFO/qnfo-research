@@ -1,0 +1,8 @@
+META-PUT: 200
+title: The Ultrametric Program: One Structural Object Across Seven Research D
+version: v2.0
+resource_type: {"title": "Preprint", "type": "publication", "subtype": "preprint"}
+creators: [{"name": "Quni-Gudzinas, Rowan Brad", "affiliation": "QNFO"}]
+related: [{"identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/ultrametric-program", "relation": "isSupplementTo", "scheme": "url"}]
+license: null
+EXIT=0

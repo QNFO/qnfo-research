@@ -1,0 +1,6 @@
+INIT entry found: True
+PUT: 200
+COMMIT: 200
+PUBLISH: 202 | id: 22073290 | concept: 22072161 | status: published | doi: 10.5281/zenodo.22073290
+related: [{"identifier": "10.5281/zenodo.22073249", "relation": "isObsoletedBy", "scheme": "doi"}]
+EXIT=0
