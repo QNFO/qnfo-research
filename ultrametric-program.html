@@ -172,6 +172,87 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+  /* Protocol-compliant PDF style (research v2.134 gates):
+     - A4 explicit size (210mm x 297mm)
+     - 2cm margins all around (user mandate: standard margins)
+     - page numbers bottom-center (Chromium footerTemplate)
+     - serif body, no color bleed, tables keep together */
+  @page {
+    size: 210mm 297mm;
+    margin: 20mm 20mm 20mm 20mm;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #111;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #000;
+    page-break-after: avoid;
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  h1 { font-size: 16pt; margin: 0 0 6pt 0; }
+  h2 { font-size: 13pt; margin: 14pt 0 6pt 0; border-bottom: 0.5pt solid #999; padding-bottom: 3pt; }
+  h3 { font-size: 11.5pt; margin: 10pt 0 4pt 0; }
+
+  p { margin: 0 0 6pt 0; orphans: 3; widows: 3; }
+
+  a { color: #1a3c6e; text-decoration: none; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 6pt 0 10pt 0;
+    page-break-inside: avoid;
+    font-size: 9pt;
+  }
+  th, td {
+    border: 0.5pt solid #555;
+    padding: 3pt 5pt;
+    vertical-align: top;
+    text-align: left;
+  }
+  th { background: #f2f2f2; font-weight: bold; }
+
+  blockquote {
+    margin: 6pt 0 6pt 14pt;
+    padding-left: 10pt;
+    border-left: 2pt solid #aaa;
+    color: #222;
+    font-style: italic;
+  }
+
+  pre, code {
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 8.5pt;
+    background: #f8f8f8;
+  }
+  pre { padding: 6pt; border: 0.5pt solid #ccc; page-break-inside: avoid; }
+
+  ul, ol { margin: 0 0 6pt 0; padding-left: 18pt; }
+  li { margin-bottom: 2pt; }
+
+  sup, sub { font-size: 75%; }
+
+  hr { border: none; border-top: 0.5pt solid #999; margin: 10pt 0; }
+
+  img { max-width: 100%; }
+
+  /* no page-break inside list items or table rows */
+  tr { page-break-inside: avoid; }
 </head>
 <body>
 <header id="title-block-header">

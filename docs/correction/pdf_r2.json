@@ -1,0 +1,224 @@
+[
+ {
+  "file": "rq1_retrieval_benchmark.py",
+  "put": 200,
+  "bytes": 10920,
+  "md5": "5bb856a03a0119093f285b986efa62a4"
+ },
+ {
+  "file": "arxiv-evidence-res023-2026-08-23.json",
+  "put": 200,
+  "bytes": 2880,
+  "md5": "e21ca0250ea95b9c3a1589527c53b210"
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "put": 200,
+  "bytes": 7432,
+  "md5": "569337190f8f4b99787a8a7b6c6c5076"
+ },
+ {
+  "file": "deep-research.md",
+  "put": 200,
+  "bytes": 4995,
+  "md5": "555767c058171b06de19b10f6e3f32dc"
+ },
+ {
+  "file": "rq1_run.log",
+  "put": 200,
+  "bytes": 1049,
+  "md5": "84e055cd01ae6c7c3e28d841f525b5d5"
+ },
+ {
+  "file": "citation-audit.md",
+  "put": 200,
+  "bytes": 2771,
+  "md5": "10681cdb21e5577887345ac6b25f23b8"
+ },
+ {
+  "file": "references.bib",
+  "put": 200,
+  "bytes": 9071,
+  "md5": "e65eeb2928669f52bc5e6320e4c7f576"
+ },
+ {
+  "file": "rq5_results.json",
+  "put": 200,
+  "bytes": 6263,
+  "md5": "9d7349db7af388006f611e7394d2a5b8"
+ },
+ {
+  "file": "README.md",
+  "put": 200,
+  "bytes": 5318,
+  "md5": "313ea1b90c69ff673ac88feea6153762"
+ },
+ {
+  "file": "rq5_keyword_load.py",
+  "put": 200,
+  "bytes": 14514,
+  "md5": "b014ee9cda14f31d4b2a23bd9408f051"
+ },
+ {
+  "file": "ultrametric-program.html",
+  "put": 200,
+  "bytes": 42755,
+  "md5": "ad416c3d6383e5e3afab5dece420c64b"
+ },
+ {
+  "file": "rq5_run.log",
+  "put": 200,
+  "bytes": 1708,
+  "md5": "67624b3331fb4173e0b1dd027c0f4f7e"
+ },
+ {
+  "file": "rq3_run.log",
+  "put": 200,
+  "bytes": 511,
+  "md5": "fe786a66983b3cc673753325b9fa10d9"
+ },
+ {
+  "file": "ultrametric-program.md",
+  "put": 200,
+  "bytes": 34270,
+  "md5": "25eeadff1e9029f662164ab90a048de3"
+ },
+ {
+  "file": "universal-ignorance-audit.md",
+  "put": 200,
+  "bytes": 10092,
+  "md5": "9a4c71a65803cfbbae0f796fb1dccd0b"
+ },
+ {
+  "file": "rq1_results.json",
+  "put": 200,
+  "bytes": 1669,
+  "md5": "debd761ba8cdae9fed89638556f4277d"
+ },
+ {
+  "file": "rq4_run.log",
+  "put": 200,
+  "bytes": 397,
+  "md5": "162573b898693247cc77441b39f22f74"
+ },
+ {
+  "file": "keyword-taxonomy-source.md",
+  "put": 200,
+  "bytes": 13016,
+  "md5": "a78da7b839091bcf81d675891e22a4d5"
+ },
+ {
+  "file": "arxiv-evidence-g5-2026-08-23.json",
+  "put": 200,
+  "bytes": 1529,
+  "md5": "27b185ec1f2b027f2f81cb386e84a6ba"
+ },
+ {
+  "file": "red-team-p4-2026-08-23.md",
+  "put": 200,
+  "bytes": 5013,
+  "md5": "d024b4b5177aec74c100dfa7960c19cc"
+ },
+ {
+  "file": "arxiv-evidence-2026-08-23.json",
+  "put": 200,
+  "bytes": 4177,
+  "md5": "71e4b0ba60b0ba0172cf544dada5fdbc"
+ },
+ {
+  "file": "inherited-rq1_results.json",
+  "put": 200,
+  "bytes": 1669,
+  "md5": "debd761ba8cdae9fed89638556f4277d"
+ },
+ {
+  "file": "rq2_run.log",
+  "put": 200,
+  "bytes": 1021,
+  "md5": "942175697af89abdbee39fcb6f5d8f03"
+ },
+ {
+  "file": "due-diligence-phase1.md",
+  "put": 200,
+  "bytes": 8810,
+  "md5": "98cadd9c395c018d48d6dda8b6451b18"
+ },
+ {
+  "file": "rq2_results.json",
+  "put": 200,
+  "bytes": 2405,
+  "md5": "5cdb1612a7f102a136e81d276894971f"
+ },
+ {
+  "file": "rq4_noise_scaling.py",
+  "put": 200,
+  "bytes": 5321,
+  "md5": "32ee096eccb640c3a69b52d8d5615af9"
+ },
+ {
+  "file": "ultrametric-program.pdf",
+  "put": 200,
+  "bytes": 154686,
+  "md5": "14bab5cd0c0e9b9388a72583a39a6ca3"
+ },
+ {
+  "file": "red-team-p7-2026-08-23.md",
+  "put": 200,
+  "bytes": 4700,
+  "md5": "1341ed5f6b2e6ea1c38f41ef7eb8d196"
+ },
+ {
+  "file": "p2-consilience-map.json",
+  "put": 200,
+  "bytes": 108956,
+  "md5": "98059502e1deebf4a8c83cd3185567a1"
+ },
+ {
+  "file": "rq2_consilience_links.py",
+  "put": 200,
+  "bytes": 8837,
+  "md5": "e2981e5209a36edad6c7abf21e82d38e"
+ },
+ {
+  "file": "rq3_archimedean_limit.py",
+  "put": 200,
+  "bytes": 4683,
+  "md5": "49e533ecdd51fe9b1766c97ad0cd9ed8"
+ },
+ {
+  "file": "rq3_results.json",
+  "put": 200,
+  "bytes": 1576,
+  "md5": "ff48ce9501da04350160d7211d8dbdda"
+ },
+ {
+  "file": "rq4_results.json",
+  "put": 200,
+  "bytes": 1058,
+  "md5": "eb58593ef33582b107cee416ee6c9679"
+ },
+ {
+  "file": "inherited-rq5_results.json",
+  "put": 200,
+  "bytes": 6263,
+  "md5": "9d7349db7af388006f611e7394d2a5b8"
+ },
+ {
+  "file": "verification-integration-res023.md",
+  "put": 200,
+  "bytes": 3916,
+  "md5": "3b70e3be0c16a9a9817d8e6364f21b4e"
+ },
+ {
+  "file": "corpus_qnfo_titles.json",
+  "put": 200,
+  "bytes": 44315,
+  "md5": "d9ef82359a03b3207bcd259b22568259"
+ },
+ {
+  "file": "p5_gates.log",
+  "put": 200,
+  "bytes": 420,
+  "md5": "22c5f13c55747a8fe70d27fe88698d16"
+ }
+]

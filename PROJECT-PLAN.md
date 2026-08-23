@@ -7,7 +7,7 @@
 | Title | The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests |
 | Slug | ultrametric-program |
 | Repo / branch | QNFO/qnfo-research — res/paper/ultrametric-program |
-| Phase | P4 (red-team review in progress) |
+| Phase | P8 (published v2.1 of concept 10.5281/zenodo.22071420, 2026-08-23) |
 | Created | 2026-08-23 |
 | Seed note | vault `_26235205331.md` (2026-08-23): the program thesis + H1/H2/H3 |
 | Predecessor | QNFO.RES.022 (10.5281/zenodo.22071421) — keyword-taxonomy audit = the evidence base; this paper is the thesis statement the P8 audit found missing |

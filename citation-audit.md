@@ -6,7 +6,7 @@
 - **Gate evidence:** `p5_gates.log` (DataCite + Zenodo, qnfo-audit UA);
   inherited RES.022 evidence files in `artifacts/external-search/`.
 
-## 1. QNFO corpus records (DOIs) — 15/15 verified findable
+## 1. QNFO corpus records (DOIs) — 14/14 verified findable
 
 | Key | DOI | DataCite | Verdict |
 |:----|:----|:---------|:--------|
@@ -24,9 +24,8 @@
 | prime_valuation_depth | 10.5281/zenodo.21918838 | findable | OK (P1) |
 | projective_geometric_semantic | 10.5281/zenodo.19564091 | findable | OK (P1) |
 | consilience_framework | 10.5281/zenodo.21804073 | findable | OK |
-| qec-darwinism (cited §3) | 10.5281/zenodo.21964674 | findable | OK (P1) |
 
-## 2. External literature (arXiv) — 18/18 verified
+## 2. External literature (arXiv) — 16/16 verified
 
 Verified in evidence files (res023 + inherited RES.022):
 math/0605555v2, physics/0702064v1, 1201.2719v3, 0809.0492v1, 1008.3585v1,

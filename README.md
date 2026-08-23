@@ -2,9 +2,9 @@
 
 **Author:** Rowan Brad Quni-Gudzinas
 **Affiliation:** QNFO
-**Version:** v1.0 — 2026-08-23
+**Version:** v2.1 — 2026-08-23 (new version of concept 10.5281/zenodo.22071420)
 **License:** CC BY 4.0
-**DOI:** 10.5281/zenodo.22072162
+**DOI:** 10.5281/zenodo.22073307
 
 ## How to cite
 
@@ -12,7 +12,7 @@ Cite all versions via the concept DOI — it always resolves to the latest versi
 
 > Quni-Gudzinas, Rowan Brad. (2026). *The Ultrametric Program: One
 > Structural Object Across Seven Research Domains, and Its Falsifiable
-> Tests* (v1.0). QNFO. https://doi.org/10.5281/zenodo.22072161
+> Tests* (v2.1). QNFO. https://doi.org/10.5281/zenodo.22071420
 
 ## Abstract
 
@@ -63,8 +63,7 @@ the unity is one radix or a family of incommensurable grammars.
 ## Source & provenance
 
 - **Repository:** https://github.com/QNFO/qnfo-research
-- **Branch:** `res/paper/ultrametric-program` (tags v0.1-phase0-res023 …
-  v0.4-phase4-res023)
+- **Branch:** `res/paper/ultrametric-program` (tags v0.1-phase0-res023 … v1.1-phase6-res023 + correction 62b8821)
 - **Predecessor (evidence base):** QNFO.RES.022 — The Consilience of the
   QNFO Keyword Taxonomy (10.5281/zenodo.22071421), whose taxonomy audit and
   verification suite are inherited and re-verified byte-identical (see
