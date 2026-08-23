@@ -1,0 +1,43 @@
+R2 OBJECTS: 37
+   2026/08/ultrametric-program/PROJECT-PLAN.md 7541 c6fc4fefc392f725b2fe5248d8a86e3b
+   2026/08/ultrametric-program/README.md 5250 3fccd46f54491c5c93fb6546b447f7ad
+   2026/08/ultrametric-program/arxiv-evidence-2026-08-23.json 4177 71e4b0ba60b0ba0172cf544dada5fdbc
+   2026/08/ultrametric-program/arxiv-evidence-g5-2026-08-23.json 1529 27b185ec1f2b027f2f81cb386e84a6ba
+   2026/08/ultrametric-program/arxiv-evidence-res023-2026-08-23.json 2880 e21ca0250ea95b9c3a1589527c53b210
+   2026/08/ultrametric-program/citation-audit.md 2848 631c5cf578a8e72d45549a470b0abfe0
+   2026/08/ultrametric-program/corpus_qnfo_titles.json 44315 d9ef82359a03b3207bcd259b22568259
+   2026/08/ultrametric-program/deep-research.md 4902 4a51a2a427920d8c0a961a7f0fb2ac31
+   2026/08/ultrametric-program/due-diligence-phase1.md 8810 98cadd9c395c018d48d6dda8b6451b18
+   2026/08/ultrametric-program/keyword-taxonomy-source.md 13016 a78da7b839091bcf81d675891e22a4d5
+   2026/08/ultrametric-program/p2-consilience-map.json 108956 98059502e1deebf4a8c83cd3185567a1
+   2026/08/ultrametric-program/p5_create_deposit.py 4070 2cd8d07b38b6384452c7a9fd3606d594
+   2026/08/ultrametric-program/p5_deposit.json 4022 c7fd8e9f675b12deb82240fe79f080d0
+   2026/08/ultrametric-program/p5_deposit.log 310 7d3a1751ceb40adbe0c785256743ad1e
+   2026/08/ultrametric-program/p5_gates.log 419 21fb96ed1bcd0a669067ff488abd49f1
+   2026/08/ultrametric-program/red-team-p4-2026-08-23.md 4941 f94fb749eb5e4df8a2b57c2d2c7d928a
+   2026/08/ultrametric-program/references.bib 9075 4c883a9cc629a9bae447c63ba428fa86
+   2026/08/ultrametric-program/rq1_results.json 1669 debd761ba8cdae9fed89638556f4277d
+   2026/08/ultrametric-program/rq1_retrieval_benchmark.py 10920 5bb856a03a0119093f285b986efa62a4
+   2026/08/ultrametric-program/rq1_run.log 1049 84e055cd01ae6c7c3e28d841f525b5d5
+   2026/08/ultrametric-program/rq2_consilience_links.py 8837 e2981e5209a36edad6c7abf21e82d38e
+   2026/08/ultrametric-program/rq2_results.json 2405 5cdb1612a7f102a136e81d276894971f
+   2026/08/ultrametric-program/rq2_run.log 1021 942175697af89abdbee39fcb6f5d8f03
+   2026/08/ultrametric-program/rq3_archimedean_limit.py 4683 49e533ecdd51fe9b1766c97ad0cd9ed8
+   2026/08/ultrametric-program/rq3_results.json 1576 ff48ce9501da04350160d7211d8dbdda
+   2026/08/ultrametric-program/rq3_run.log 511 fe786a66983b3cc673753325b9fa10d9
+   2026/08/ultrametric-program/rq4_noise_scaling.py 5321 32ee096eccb640c3a69b52d8d5615af9
+   2026/08/ultrametric-program/rq4_results.json 1058 eb58593ef33582b107cee416ee6c9679
+   2026/08/ultrametric-program/rq4_run.log 397 162573b898693247cc77441b39f22f74
+   2026/08/ultrametric-program/rq5_keyword_load.py 14514 b014ee9cda14f31d4b2a23bd9408f051
+   2026/08/ultrametric-program/rq5_results.json 6263 9d7349db7af388006f611e7394d2a5b8
+   2026/08/ultrametric-program/rq5_run.log 1708 67624b3331fb4173e0b1dd027c0f4f7e
+   2026/08/ultrametric-program/ultrametric-program.html 40685 8c96b8f6249017e78dc110ed5ea90ef2
+   2026/08/ultrametric-program/ultrametric-program.md 34270 7f684ab957419fc166adcc24a4ad15aa
+   2026/08/ultrametric-program/ultrametric-program.pdf 137276 15d219466a892f641bd49026371d817a
+   2026/08/ultrametric-program/universal-ignorance-audit.md 10092 9a4c71a65803cfbbae0f796fb1dccd0b
+   2026/08/ultrametric-program/verification-integration-res023.md 3916 3b70e3be0c16a9a9817d8e6364f21b4e
+DOWNLOAD-BACK ultrametric-program.md: 34270 bytes md5=7f684ab957419fc166adcc24a4ad15aa
+DOWNLOAD-BACK ultrametric-program.pdf: 137276 bytes md5=15d219466a892f641bd49026371d817a
+DOWNLOAD-BACK README.md: 5250 bytes md5=3fccd46f54491c5c93fb6546b447f7ad
+VERIFY-OK
+EXIT=0

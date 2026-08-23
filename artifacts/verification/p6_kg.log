@@ -1,0 +1,9 @@
+KG-NODE: True 1 []
+READBACK: [
+ {
+  "id": "paper:ultrametric-program",
+  "label": "Paper",
+  "properties": "{\"doi\": \"10.5281/zenodo.22072162\", \"zenodo_doi\": \"10.5281/zenodo.22072162\", \"distribution_status\": \"distributed\", \"r2_path\": \"2026/08/ultrametric-program/\", \"r2_readme\": \"2026/08/ultrametric-program/README.md\", \"version\": \"v1.0\", \"wbs\": \"RES.023\", \"phase\": \"P6\", \"status\": \"published\", \"concept_doi\": \"10.5281/zenodo.22072161\", \"published_at\": \"2026-08-23\"}"
+ }
+]
+EXIT=0

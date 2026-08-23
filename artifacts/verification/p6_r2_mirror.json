@@ -1,0 +1,261 @@
+[
+ {
+  "file": "universal-ignorance-audit.md",
+  "size": 10092,
+  "md5": "9a4c71a65803cfbbae0f796fb1dccd0b",
+  "put": 200,
+  "bytes": 10092
+ },
+ {
+  "file": "rq2_consilience_links.py",
+  "size": 8837,
+  "md5": "e2981e5209a36edad6c7abf21e82d38e",
+  "put": 200,
+  "bytes": 8837
+ },
+ {
+  "file": "rq2_run.log",
+  "size": 1021,
+  "md5": "942175697af89abdbee39fcb6f5d8f03",
+  "put": 200,
+  "bytes": 1021
+ },
+ {
+  "file": "rq1_run.log",
+  "size": 1049,
+  "md5": "84e055cd01ae6c7c3e28d841f525b5d5",
+  "put": 200,
+  "bytes": 1049
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "size": 7541,
+  "md5": "c6fc4fefc392f725b2fe5248d8a86e3b",
+  "put": 200,
+  "bytes": 7541
+ },
+ {
+  "file": "citation-audit.md",
+  "size": 2848,
+  "md5": "631c5cf578a8e72d45549a470b0abfe0",
+  "put": 200,
+  "bytes": 2848
+ },
+ {
+  "file": "rq1_results.json",
+  "size": 1669,
+  "md5": "debd761ba8cdae9fed89638556f4277d",
+  "put": 200,
+  "bytes": 1669
+ },
+ {
+  "file": "p5_deposit.log",
+  "size": 310,
+  "md5": "7d3a1751ceb40adbe0c785256743ad1e",
+  "put": 200,
+  "bytes": 310
+ },
+ {
+  "file": "p2-consilience-map.json",
+  "size": 108956,
+  "md5": "98059502e1deebf4a8c83cd3185567a1",
+  "put": 200,
+  "bytes": 108956
+ },
+ {
+  "file": "arxiv-evidence-res023-2026-08-23.json",
+  "size": 2880,
+  "md5": "e21ca0250ea95b9c3a1589527c53b210",
+  "put": 200,
+  "bytes": 2880
+ },
+ {
+  "file": "rq5_keyword_load.py",
+  "size": 14514,
+  "md5": "b014ee9cda14f31d4b2a23bd9408f051",
+  "put": 200,
+  "bytes": 14514
+ },
+ {
+  "file": "ultrametric-program.pdf",
+  "size": 137276,
+  "md5": "15d219466a892f641bd49026371d817a",
+  "put": 200,
+  "bytes": 137276
+ },
+ {
+  "file": "verification-integration-res023.md",
+  "size": 3916,
+  "md5": "3b70e3be0c16a9a9817d8e6364f21b4e",
+  "put": 200,
+  "bytes": 3916
+ },
+ {
+  "file": "ultrametric-program.md",
+  "size": 34270,
+  "md5": "7f684ab957419fc166adcc24a4ad15aa",
+  "put": 200,
+  "bytes": 34270
+ },
+ {
+  "file": "README.md",
+  "size": 5250,
+  "md5": "3fccd46f54491c5c93fb6546b447f7ad",
+  "put": 200,
+  "bytes": 5250
+ },
+ {
+  "file": "red-team-p4-2026-08-23.md",
+  "size": 4941,
+  "md5": "f94fb749eb5e4df8a2b57c2d2c7d928a",
+  "put": 200,
+  "bytes": 4941
+ },
+ {
+  "file": "ultrametric-program.html",
+  "size": 40685,
+  "md5": "8c96b8f6249017e78dc110ed5ea90ef2",
+  "put": 200,
+  "bytes": 40685
+ },
+ {
+  "file": "references.bib",
+  "size": 9075,
+  "md5": "4c883a9cc629a9bae447c63ba428fa86",
+  "put": 200,
+  "bytes": 9075
+ },
+ {
+  "file": "deep-research.md",
+  "size": 4902,
+  "md5": "4a51a2a427920d8c0a961a7f0fb2ac31",
+  "put": 200,
+  "bytes": 4902
+ },
+ {
+  "file": "arxiv-evidence-2026-08-23.json",
+  "size": 4177,
+  "md5": "71e4b0ba60b0ba0172cf544dada5fdbc",
+  "put": 200,
+  "bytes": 4177
+ },
+ {
+  "file": "p5_deposit.json",
+  "size": 4022,
+  "md5": "c7fd8e9f675b12deb82240fe79f080d0",
+  "put": 200,
+  "bytes": 4022
+ },
+ {
+  "file": "due-diligence-phase1.md",
+  "size": 8810,
+  "md5": "98cadd9c395c018d48d6dda8b6451b18",
+  "put": 200,
+  "bytes": 8810
+ },
+ {
+  "file": "arxiv-evidence-g5-2026-08-23.json",
+  "size": 1529,
+  "md5": "27b185ec1f2b027f2f81cb386e84a6ba",
+  "put": 200,
+  "bytes": 1529
+ },
+ {
+  "file": "rq5_results.json",
+  "size": 6263,
+  "md5": "9d7349db7af388006f611e7394d2a5b8",
+  "put": 200,
+  "bytes": 6263
+ },
+ {
+  "file": "rq4_noise_scaling.py",
+  "size": 5321,
+  "md5": "32ee096eccb640c3a69b52d8d5615af9",
+  "put": 200,
+  "bytes": 5321
+ },
+ {
+  "file": "rq4_results.json",
+  "size": 1058,
+  "md5": "eb58593ef33582b107cee416ee6c9679",
+  "put": 200,
+  "bytes": 1058
+ },
+ {
+  "file": "rq5_run.log",
+  "size": 1708,
+  "md5": "67624b3331fb4173e0b1dd027c0f4f7e",
+  "put": 200,
+  "bytes": 1708
+ },
+ {
+  "file": "rq1_retrieval_benchmark.py",
+  "size": 10920,
+  "md5": "5bb856a03a0119093f285b986efa62a4",
+  "put": 200,
+  "bytes": 10920
+ },
+ {
+  "file": "rq2_results.json",
+  "size": 2405,
+  "md5": "5cdb1612a7f102a136e81d276894971f",
+  "put": 200,
+  "bytes": 2405
+ },
+ {
+  "file": "rq3_archimedean_limit.py",
+  "size": 4683,
+  "md5": "49e533ecdd51fe9b1766c97ad0cd9ed8",
+  "put": 200,
+  "bytes": 4683
+ },
+ {
+  "file": "rq3_results.json",
+  "size": 1576,
+  "md5": "ff48ce9501da04350160d7211d8dbdda",
+  "put": 200,
+  "bytes": 1576
+ },
+ {
+  "file": "rq3_run.log",
+  "size": 511,
+  "md5": "fe786a66983b3cc673753325b9fa10d9",
+  "put": 200,
+  "bytes": 511
+ },
+ {
+  "file": "rq4_run.log",
+  "size": 397,
+  "md5": "162573b898693247cc77441b39f22f74",
+  "put": 200,
+  "bytes": 397
+ },
+ {
+  "file": "p5_create_deposit.py",
+  "size": 4070,
+  "md5": "2cd8d07b38b6384452c7a9fd3606d594",
+  "put": 200,
+  "bytes": 4070
+ },
+ {
+  "file": "keyword-taxonomy-source.md",
+  "size": 13016,
+  "md5": "a78da7b839091bcf81d675891e22a4d5",
+  "put": 200,
+  "bytes": 13016
+ },
+ {
+  "file": "corpus_qnfo_titles.json",
+  "size": 44315,
+  "md5": "d9ef82359a03b3207bcd259b22568259",
+  "put": 200,
+  "bytes": 44315
+ },
+ {
+  "file": "p5_gates.log",
+  "size": 419,
+  "md5": "21fb96ed1bcd0a669067ff488abd49f1",
+  "put": 200,
+  "bytes": 419
+ }
+]
