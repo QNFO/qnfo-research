@@ -1,0 +1,41 @@
+FILES: 37
+   rq1_run.log None
+   p6_gate_check.json None
+   QNFO-KEYWORD-TAXONOMY.md None
+   universal-ignorance-audit.md None
+   rq1_retrieval_benchmark.py None
+   verification-summary.md None
+   rq2_run.log None
+   rq5_results.json None
+   citation-audit.md None
+   arxiv-evidence-2026-08-23.json None
+   references.bib None
+   rq3_results.json None
+   rq4_run.log None
+   rq2_consilience_links.py None
+   keyword-taxonomy-consilience.html None
+   due-diligence-phase1.md None
+   p2-consilience-map.json None
+   p6_gate_check.log None
+   keyword-taxonomy-consilience.md None
+   rq1_results.json None
+   keyword-taxonomy-source.md None
+   keyword-taxonomy-consilience.pdf None
+   rq3_archimedean_limit.py None
+   corpus_qnfo_titles.json None
+   README.md None
+   PROJECT-PLAN.md None
+   deep-research.md None
+   p2-consilience-map.md None
+   rq4_results.json None
+   arxiv-evidence-g5-2026-08-23.json None
+   rq5_keyword_load.py None
+   rq2_results.json None
+   rq4_noise_scaling.py None
+   rq3_run.log None
+   p6_gate_check.py None
+   red-team-p5-2026-08-23.md None
+   rq5_run.log None
+METADATA version: v1.0 | license: cc-by-4.0
+PUBLISH: 202 state: done doi: 10.5281/zenodo.22071421 conceptrecid: 22071420
+EXIT=0

@@ -1,0 +1,124 @@
+[
+ {
+  "file": "docs/deep-research.md",
+  "status": 201
+ },
+ {
+  "file": "docs/red-team-p5-2026-08-23.md",
+  "status": 201
+ },
+ {
+  "file": "docs/QNFO-KEYWORD-TAXONOMY.md",
+  "status": 201
+ },
+ {
+  "file": "artifacts/universal-ignorance-audit.md",
+  "status": 201
+ },
+ {
+  "file": "artifacts/due-diligence-phase1.md",
+  "status": 201
+ },
+ {
+  "file": "artifacts/p2-consilience-map.md",
+  "status": 201
+ },
+ {
+  "file": "artifacts/p2-consilience-map.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/external-search/arxiv-evidence-2026-08-23.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/external-search/arxiv-evidence-g5-2026-08-23.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq5_keyword_load.py",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq5_results.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq5_run.log",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq1_retrieval_benchmark.py",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq1_results.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq1_run.log",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq2_consilience_links.py",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq2_results.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq2_run.log",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq3_archimedean_limit.py",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq3_results.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq3_run.log",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq4_noise_scaling.py",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq4_results.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/rq4_run.log",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/verification-summary.md",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/keyword-taxonomy-source.md",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/corpus_qnfo_titles.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/p6_gate_check.py",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/p6_gate_check.json",
+  "status": 201
+ },
+ {
+  "file": "artifacts/verification/p6_gate_check.log",
+  "status": 201
+ }
+]
+UPLOADED 30/30
+EXIT=0

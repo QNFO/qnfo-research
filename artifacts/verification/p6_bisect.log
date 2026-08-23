@@ -1,0 +1,5 @@
+base_only -> ('OK', 22071417, None)
+with_related -> ('ERR', 500, '{"error_id":"2398275fb8594e32898d5e545f8ca1d3","message":"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.","status":500}\n')
+with_related_plain -> ('ERR', 500, '{"error_id":"4d579984216c4f12af82433e823fea49","message":"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.","status":500}\n')
+no_orcid -> ('OK', 22071419, None)
+EXIT=0

@@ -1,0 +1,204 @@
+[
+ {
+  "file": "keyword-taxonomy-consilience.md",
+  "status": 201,
+  "bytes": 31864
+ },
+ {
+  "file": "keyword-taxonomy-consilience.html",
+  "status": 201,
+  "bytes": 38957
+ },
+ {
+  "file": "keyword-taxonomy-consilience.pdf",
+  "status": 201,
+  "bytes": 152380
+ },
+ {
+  "file": "references.bib",
+  "status": 201,
+  "bytes": 6188
+ },
+ {
+  "file": "citation-audit.md",
+  "status": 201,
+  "bytes": 3697
+ },
+ {
+  "file": "README.md",
+  "status": 201,
+  "bytes": 3949
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "status": 201,
+  "bytes": 10316
+ },
+ {
+  "file": "docs/deep-research.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "docs/red-team-p5-2026-08-23.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "docs/QNFO-KEYWORD-TAXONOMY.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/universal-ignorance-audit.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/due-diligence-phase1.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/p2-consilience-map.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/p2-consilience-map.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/external-search/arxiv-evidence-2026-08-23.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/external-search/arxiv-evidence-g5-2026-08-23.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq5_keyword_load.py",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq5_results.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq5_run.log",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq1_retrieval_benchmark.py",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq1_results.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq1_run.log",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq2_consilience_links.py",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq2_results.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq2_run.log",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq3_archimedean_limit.py",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq3_results.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq3_run.log",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq4_noise_scaling.py",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq4_results.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/rq4_run.log",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/verification-summary.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/keyword-taxonomy-source.md",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/corpus_qnfo_titles.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/p6_gate_check.py",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/p6_gate_check.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/p6_gate_check.log",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/p6_create_deposit.py",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/p6_deposit.json",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ },
+ {
+  "file": "artifacts/verification/p6_deposit.log",
+  "status": "ERR",
+  "error": "HTTP Error 404: NOT FOUND"
+ }
+]
+UPLOADED 7/40
+EXIT=0

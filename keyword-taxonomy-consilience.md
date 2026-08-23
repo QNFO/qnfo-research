@@ -2,8 +2,9 @@
 title: "The Consilience of the QNFO Keyword Taxonomy: Ultrametric Structure as a Testable Compression Prior"
 author: Rowan Brad Quni-Gudzinas
 date: 2026-08-23
-version: v0.3-draft
+version: v1.0
 license: CC BY 4.0
+doi: 10.5281/zenodo.22071421
 ---
 
 ## Abstract

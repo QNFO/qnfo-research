@@ -1,0 +1,58 @@
+{
+  "created": "2026-08-23T18:44:17.762433+00:00",
+  "modified": "2026-08-23T18:44:18.465296+00:00",
+  "id": 22071421,
+  "conceptrecid": "22071420",
+  "metadata": {
+    "title": "The Consilience of the QNFO Keyword Taxonomy: Ultrametric Structure as a Testable Compression Prior",
+    "publication_date": "2026-08-23",
+    "description": "The QNFO research program spans seven domains and maintains a canonical keyword taxonomy of 335 terms. This paper subjects the program's consilience claim to a computational audit of that vocabulary. The taxonomy is strictly partitional: 334 of 335 keywords occur in exactly one program, none in three or more. The consilience claim is a semantic claim carried by bridge families, cross-cutting themes, and corpus-level links. The paper states the revised claim, three falsifiable hypotheses with disconfirmation criteria, three practitioner-facing deliverables, and binds the strong form of the program to a 2028 decision point. All quantitative claims are computationally verified by a deterministic, seeded verification suite deposited with the paper.",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Quni-Gudzinas, Rowan Brad",
+        "affiliation": "QNFO",
+        "orcid": "0009-0002-4317-5604"
+      }
+    ],
+    "keywords": [
+      "consilience",
+      "keyword taxonomy",
+      "ultrametric",
+      "p-adic",
+      "compression prior",
+      "retrieval benchmark",
+      "laws of form",
+      "infomatics",
+      "measurement stratigraphy"
+    ],
+    "version": "v1.0",
+    "license": "cc-by-4.0",
+    "imprint_publisher": "Zenodo",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.22071421",
+      "recid": 22071421
+    }
+  },
+  "title": "The Consilience of the QNFO Keyword Taxonomy: Ultrametric Structure as a Testable Compression Prior",
+  "links": {
+    "self": "https://zenodo.org/api/deposit/depositions/22071421",
+    "html": "https://zenodo.org/deposit/22071421",
+    "badge": "https://zenodo.org/badge/doi/.svg",
+    "files": "https://zenodo.org/api/deposit/depositions/22071421/files",
+    "bucket": "https://zenodo.org/api/files/ad2150d4-a032-4dfa-838a-40875606e767",
+    "latest_draft": "https://zenodo.org/api/deposit/depositions/22071421",
+    "latest_draft_html": "https://zenodo.org/deposit/22071421",
+    "publish": "https://zenodo.org/api/deposit/depositions/22071421/actions/publish",
+    "edit": "https://zenodo.org/api/deposit/depositions/22071421/actions/edit",
+    "discard": "https://zenodo.org/api/deposit/depositions/22071421/actions/discard",
+    "newversion": "https://zenodo.org/api/deposit/depositions/22071421/actions/newversion"
+  },
+  "record_id": 22071421,
+  "owner": 1328013,
+  "files": [],
+  "state": "unsubmitted",
+  "submitted": false
+}

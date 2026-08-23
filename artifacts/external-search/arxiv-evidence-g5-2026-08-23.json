@@ -1,0 +1,23 @@
+{
+  "generated": "2026-08-23",
+  "purpose": "G5 closure evidence: p-adic-ML / hyperbolic-embedding / ultrametric-data-modeling literature sweep (Phase-1 gap G5).",
+  "queries": [
+    {
+      "query": "p-adic neural networks non-Archimedean OR hyperbolic embeddings representation learning",
+      "note": "Broad query surfaced no dedicated p-adic-NN papers; targeted queries below closed the gap."
+    },
+    {
+      "query": "hyperbolic embeddings hierarchical data learning",
+      "key_results": [
+        {"id": "1804.01882v3", "title": "Hyperbolic Entailment Cones for Learning Hierarchical Embeddings", "authors": ["Octavian-Eugen Ganea", "Gary Bécigneul", "Thomas Hofmann"], "year": 2018, "relevance": "Canonical hyperbolic-embedding baseline for hierarchical data; H1 benchmark-relevant (Euclidean-vs-hierarchical-geometry comparison literature)."}
+      ]
+    },
+    {
+      "query": "p-adic numbers neural networks ultrametric topology deep learning",
+      "key_results": [
+        {"id": "0809.0492v1", "title": "From Data to the p-Adic or Ultrametric Model", "authors": ["Fionn Murtagh"], "year": 2008, "relevance": "Direct p-adic/ultrametric data modeling (Correspondence Analysis + induced ultrametric); anchors the ultrametric-modeling literature adjacent to p-adic ML."}
+      ],
+      "note": "Anashin-style p-adic neural-network constructions were not surfaced by this query set; remaining p-adic-NN literature is disclosed as a residual open item (see citation-audit.md)."
+    }
+  ]
+}

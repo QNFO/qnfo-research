@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-23" />
+  <title>The Consilience of the QNFO Keyword Taxonomy: Ultrametric Structure as a Testable Compression Prior</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">The Consilience of the QNFO Keyword Taxonomy:
+Ultrametric Structure as a Testable Compression Prior</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-23</p>
+</header>
+<h2 id="abstract">Abstract</h2>
+<p>The QNFO research program spans seven domains — ultrametric physics,
+the laws of form, infomatics, paradigm engineering, consilience
+research, the QWAV platform, and interactive demos — and maintains a
+canonical keyword taxonomy of 335 terms used to scope external
+discovery. A recurring claim in the program is that these domains share
+one structural object: a nested, hierarchical (ultrametric) partition
+logic whose local geometry is p-adic, whose global synthesis is adelic,
+and whose minimal act is a distinction. This paper subjects that claim
+to a computational audit at the level of the program’s own vocabulary.
+The taxonomy is strictly partitional: 334 of 335 keywords occur in
+exactly one program, one keyword occurs in two, and none occurs in three
+or more. Bridge vocabulary is likewise concentrated: valuation terms in
+ultrametric physics, distinction terms in the laws of form,
+thermodynamic bounds in infomatics; only the hierarchy family (tree,
+re-entry, stratification) spans three programs. The consilience claim is
+therefore not a lexical fact about the taxonomy; it is a semantic claim
+carried by bridge families, by the taxonomy’s explicit cross-cutting
+themes, and by corpus-level links between published records. The paper
+states the revised claim, three falsifiable hypotheses with
+disconfirmation criteria, and three practitioner-facing deliverables,
+and it binds the strong form of the program to a 2028 decision
+point.</p>
+<h2 id="introduction">1. Introduction</h2>
+<p>A research program that spans number-theoretic physics, a calculus of
+logical form, the thermodynamics of computation, technology forecasting,
+measurement epistemology, a cloud-native software platform, and
+interactive visualization invites two questions. The first is external:
+are these seven activities one program or seven programs that share an
+organization? The second is internal: does the program’s own public
+vocabulary — the keywords it uses to discover, index, and classify work
+— exhibit the unity that the program claims?</p>
+<p>This paper addresses both questions with a computational audit of the
+QNFO keyword taxonomy: 335 keywords organized into seven program
+sections plus three cross-cutting themes. The audit is deliberately
+narrow. It does not adjudicate the physics. It measures one thing: how
+much of the claimed consilience is visible in the program’s own
+vocabulary, at the level of the keyword strings themselves, at the level
+of semantic keyword families, and at the level of the taxonomy’s
+internal bridge structures.</p>
+<p>The answer is informative precisely because it is negative at the
+first level. The taxonomy contains no keyword shared by three or more
+programs; 99.7 percent of its keywords are program-local. A reader who
+tries to verify the program’s unity by its vocabulary will find none at
+the string level. The consilience, if it exists, lives elsewhere: in
+semantic families, in the taxonomy’s own cross-cutting sections, and in
+the published corpus. That is the finding this paper reports, and it is
+the load-bearing fact for everything the program claims next.</p>
+<p>Why should a reader care? Three reasons. First, the method is
+transferable: any multi-domain research organization that claims unity
+of structure can audit its own vocabulary the same way, with the same
+script, and the result is a number, not a narrative. Second, the
+negative result has a positive consequence: it forces the program’s
+scientific claims to be stated as testable hypotheses with observables,
+which is what Section 5 provides. Third, the paper’s deliverable — a
+data-derived ultrametric retrieval index benchmarked against a cosine
+baseline — is usable engineering independent of any commitment to the
+underlying physics.</p>
+<p>The paper is organized as follows. Section 2 describes the taxonomy
+as data. Section 3 states the audit method. Section 4 reports results at
+four levels. Section 5 restates the research questions and
+disconfirmation criteria. Section 6 gives practitioner deliverables.
+Section 7 discloses where the premises end. Section 8 positions the
+result against the relevant external literature, and Section 9 states
+limitations.</p>
+<h2 id="the-keyword-taxonomy-as-data">2. The keyword taxonomy as
+data</h2>
+<p>The QNFO keyword taxonomy (v1.0, 2026-08-05) was built as a
+GitHub-search scoping instrument: a curated map of keywords used to
+discover repositories aligned with each program, maintained by the
+organization’s research staff. It is organized into seven program
+sections — UMP (ultrametric physics), SLB (laws of form), INM
+(infomatics), CFE (paradigm engineering), RES (consilience research),
+PLT (QWAV platform), DEM (interactive demos) — each with thematic
+subsections (core, geometry, methods, applications), followed by three
+cross-cutting themes (agentic AI, the 4-D distribution protocol, and
+measurement stratigraphy) and a set of search-query templates.</p>
+<p>As data, the taxonomy has three properties worth noting. First, it is
+a public, versioned artifact with a canonical location, so the audit is
+reproducible against a fixed snapshot (the source text is archived with
+this paper’s verification artifacts). Second, its purpose is discovery
+scoping, not ontology: keywords were chosen to be searchable, which
+means the taxonomy over-weights tool-adjacent vocabulary. Third, it
+contains its own internal bridge structures — a “Bridge Concepts”
+subsection in UMP and “Cross-Domain Methodology”, “Cross-Domain
+Bridges”, and “Measurement Stratigraphy” subsections in RES — which the
+audit treats as the taxonomy’s own declaration of where the programs
+connect.</p>
+<p>The published corpus provides the second data source. The QNFO
+archive holds 1,660 papers and 8,324 knowledge-graph nodes, including
+prior synthesis records that make claims overlapping this paper’s: a
+consilience framework spanning valuation theory to the void
+(10.5281/zenodo.21804073), an ultrametric consilience atlas of
+cross-domain p-adic applications (10.5281/zenodo.21722395), a
+convergent-theses study from Ostrowski’s theorem to adelic quantum
+mechanics (10.5281/zenodo.21590155), a measurement-stratigraphy history
+(10.5281/zenodo.21705220), a category-theoretic foundation for finite
+measurement without the reals (10.5281/zenodo.21803677), and a
+consolidated synthesis showing that positional notation is natively an
+ultrametric tree (10.5281/zenodo.21046213). These records are the
+corpus-level evidence against which the vocabulary-level audit is
+compared.</p>
+<h2 id="methods">3. Methods</h2>
+<p>The audit has four layers, all deterministic and all executed by a
+single script (<code>artifacts/verification/rq5_keyword_load.py</code>,
+pure Python standard library, no randomness, no external
+dependencies).</p>
+<p><strong>Layer 1 — string level.</strong> The taxonomy text is split
+on top-level section headers; the seven program sections are parsed for
+backtick-delimited keywords (335 distinct after normalization, where
+normalization lowercases and strips punctuation so that “p-adic” and
+“padic” collapse to one key). For each normalized keyword, the set of
+programs containing it is recorded. A keyword is <em>load-bearing</em>
+if it occurs in three or more programs and <em>program-local</em> if it
+occurs in exactly one. The coincidence of the load-bearing core with a
+bridge vocabulary is tested with a one-sided Fisher exact test on the 2
+x 2 contingency table (bridge vs non-bridge by load-bearing vs
+local).</p>
+<p><strong>Layer 2 — family level.</strong> A bridge vocabulary is
+defined a priori from the taxonomy’s own bridge sections and the
+program’s structural vocabulary, organized into four families: valuation
+(p-adic, ultrametric, adelic, Ostrowski, Bruhat-Tits, product formula,
+weak/strong approximation), hierarchy (tree, dendrogram, re-entry,
+stratification), distinction (mark, crossing, law of calling, void), and
+bound (Landauer, Bekenstein, Bremermann, Margolus-Levitin). Each family
+is tested for program coverage: which programs contain at least one
+family keyword.</p>
+<p><strong>Layer 3 — bridge subsections.</strong> The taxonomy’s own
+bridge subsections (UMP Bridge Concepts; RES Cross-Domain Methodology,
+Cross-Domain Bridges, Measurement Stratigraphy) are extracted, and each
+of their keywords is traced to the programs where it occurs.</p>
+<p><strong>Layer 4 — cross-cutting themes.</strong> The three
+cross-cutting sections (agentic AI, 4-D distribution, measurement
+stratigraphy) are parsed, and their keywords are traced into the program
+sections.</p>
+<p>The corpus check is comparative: the vocabulary-level result is set
+against a full-corpus semantic sweep (11 query formulations across six
+topics; cross-system identifier validation; four adjacent domains) and
+against external literature (arXiv) for the key physics and data-science
+anchors. All query responses and evidence files are archived in the
+paper’s artifact tree.</p>
+<h2 id="results">4. Results</h2>
+<h3 id="layer-1-the-taxonomy-is-strictly-partitional">4.1 Layer 1 — the
+taxonomy is strictly partitional</h3>
+<p>The taxonomy contains 335 distinct keywords. <strong>334 are
+program-local.</strong> Exactly one keyword —
+<em>complexity-measure</em> — occurs in two programs (INM and RES).
+<strong>None occurs in three or more programs.</strong> The load-bearing
+core, defined as keywords shared by at least three programs, is
+empty.</p>
+<p>Per-program keyword counts and bridge-vocabulary shares are shown in
+Table 1. The bridge share is the fraction of a program’s keywords that
+belong to the a priori bridge families.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Program</th>
+<th style="text-align: right;">Keywords</th>
+<th style="text-align: right;">Bridge-vocabulary share</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">UMP — ultrametric physics</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">0.344</td>
+</tr>
+<tr>
+<td style="text-align: left;">SLB — laws of form</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">0.548</td>
+</tr>
+<tr>
+<td style="text-align: left;">INM — infomatics</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">0.213</td>
+</tr>
+<tr>
+<td style="text-align: left;">CFE — paradigm engineering</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">0.000</td>
+</tr>
+<tr>
+<td style="text-align: left;">RES — consilience research</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">0.031</td>
+</tr>
+<tr>
+<td style="text-align: left;">PLT — platform</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">0.000</td>
+</tr>
+<tr>
+<td style="text-align: left;">DEM — demos</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">0.160</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 1. Keyword counts and bridge-vocabulary shares per program.
+Raw counts sum to 338 because two programs contain intra-program
+spelling variants (p-adic/padic and adele/adeles in UMP) and one keyword
+(complexity-measure) is counted in both INM and RES; the normalized
+distinct-keyword total is 335.</em></p>
+<p>The contingency table for bridge vocabulary versus load-bearing
+classification is (bridge &amp; load-bearing, bridge &amp; local,
+non-bridge &amp; load-bearing, non-bridge &amp; local) = (0, 53, 0,
+282). Precision (share of the load-bearing core that is bridge) is 0;
+recall (share of bridge vocabulary that is load-bearing) is 0; the
+one-sided Fisher p-value is 1.0. At the string level, the claim that the
+load-bearing core coincides with the bridge vocabulary is rejected:
+there is no load-bearing core to coincide with anything.</p>
+<h3 id="layer-2-the-bridge-families-are-concentrated-not-shared">4.2
+Layer 2 — the bridge families are concentrated, not shared</h3>
+<p>The four bridge families do not span the program set (Table 2).
+Valuation vocabulary sits in UMP (21 keywords) and nowhere else.
+Distinction vocabulary sits in SLB (14 keywords) and nowhere else. Bound
+vocabulary sits in INM (10 keywords) and nowhere else. Only the
+hierarchy family spans three programs — SLB (re-entry, crossing), RES
+(measurement stratigraphy, instrumental stratification), and DEM
+(ultrametric tree, p-adic tree, dendrogram, hierarchical-clustering
+tree) — with 8 keywords total.</p>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 57%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Family</th>
+<th style="text-align: left;">Programs containing &gt;= 1 family
+keyword</th>
+<th style="text-align: left;">Keywords per program</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">valuation</td>
+<td style="text-align: left;">UMP</td>
+<td style="text-align: left;">UMP 21</td>
+</tr>
+<tr>
+<td style="text-align: left;">hierarchy</td>
+<td style="text-align: left;">SLB, RES, DEM</td>
+<td style="text-align: left;">SLB 2, RES 2, DEM 4</td>
+</tr>
+<tr>
+<td style="text-align: left;">distinction</td>
+<td style="text-align: left;">SLB</td>
+<td style="text-align: left;">SLB 14</td>
+</tr>
+<tr>
+<td style="text-align: left;">bound</td>
+<td style="text-align: left;">INM</td>
+<td style="text-align: left;">INM 10</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 2. Bridge-family coverage across programs.</em></p>
+<p>The partial verdict is worth stating plainly: of the four families
+the program treats as its structural vocabulary, only one — hierarchy —
+is genuinely cross-program in the taxonomy. The arithmetic (valuation)
+is UMP’s; the logic (distinction) is SLB’s; the physics (bound) is
+INM’s.</p>
+<h3
+id="layer-3-the-taxonomys-own-bridge-sections-are-anchors-not-links">4.3
+Layer 3 — the taxonomy’s own bridge sections are anchors, not links</h3>
+<p>The taxonomy declares bridge structures explicitly. Auditing them:
+UMP’s Bridge Concepts subsection holds 7 keywords (Ostrowski’s theorem,
+product formula, adele ring, idele class group, restricted direct
+product, strong and weak approximation), all of which occur only in UMP.
+RES’s Cross-Domain Methodology (7 keywords: duality map, cross-domain
+correspondence, rosetta-stone analogy, structural realism,
+cross-paradigm translation, commensurability, incommensurability),
+Cross-Domain Bridges (6 keywords: compton-bt, Compton-Bruhat-Tits,
+frequency valuation, mass valuation, Planck-scale physics,
+quantum-gravity phenomenology), and Measurement Stratigraphy (9
+keywords) similarly resolve only to RES. These sections name the
+bridges; they do not instantiate shared vocabulary. They are
+program-local anchors pointing at connections the taxonomy does not
+lexically realize.</p>
+<h3
+id="layer-4-cross-cutting-themes-carry-the-real-cross-program-vocabulary">4.4
+Layer 4 — cross-cutting themes carry the real cross-program
+vocabulary</h3>
+<p>The three cross-cutting sections are where program vocabulary
+actually meets: the agentic-AI section’s 50 keywords include 5 that also
+occur in PLT (fastmcp, mcp-client, mcp-server, mcp-tool,
+model-context-protocol); the 4-D distribution section’s 26 keywords
+include 5 also in PLT (arweave, ipfs, nft-storage, web3-storage,
+zenodo); the measurement-stratigraphy cross-cutting section’s 23
+keywords include 4 also in RES (einselection,
+epistemology-of-measurement, measurement-stratigraphy, operationalism).
+Every cross-program lexical link in the taxonomy runs through PLT or RES
+— the platform and the consilience program — and none runs through the
+theory programs.</p>
+<h3 id="corpus-level-the-semantic-bridges-exist">4.5 Corpus level — the
+semantic bridges exist</h3>
+<p>The vocabulary audit says the taxonomy does not lexically realize its
+own consilience. The corpus audit says the semantic links are
+nevertheless present. Prior published records connect the families
+across programs: measurement stratigraphy links RES’s epistemology to
+UMP’s valuation theory (10.5281/zenodo.21705220); the
+valuation-without-reals framework links UMP’s non-Archimedean structure
+to finite-measurement foundations (10.5281/zenodo.21803677); the
+tree-numeration synthesis shows ordinary positional notation is an
+ultrametric tree, connecting UMP’s geometry to computation and interface
+design (10.5281/zenodo.21046213); prime valuation depth bridges the
+calculus of indications to number theory via multiplication-as-branching
+(10.5281/zenodo.21918838); and a computational study of semantic
+structures finds ultrametric topology in semantic memory with invariant
+cross-ratio stability (10.5281/zenodo.19564091). The consilience, at the
+corpus level, is real and citable. It is just not lexical.</p>
+<h3 id="computational-verification-of-the-hypotheses">4.6 Computational
+verification of the hypotheses</h3>
+<p>The three hypotheses of Section 5 are computationally checked in code
+before they are asserted (scripts and full logs in
+<code>artifacts/verification/</code>, all seeded and deterministic; the
+verification suite reproduces byte-identically). Table 3 summarizes.</p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 34%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Check</th>
+<th style="text-align: left;">Result</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">H1 retrieval, corpus A (200 synthetic
+docs, 5 planted clusters, 512-dim sparse): ultrametric index p@10 vs
+cosine p@10</td>
+<td style="text-align: left;">1.000 vs 1.000 (Δ = 0.000)</td>
+<td style="text-align: center;">pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">H1 retrieval, corpus B (69 labeled QNFO
+titles, UMP/SLB/RES): ultrametric p@10 vs cosine p@10</td>
+<td style="text-align: left;">0.765 vs 0.807 (Δ = −0.042)</td>
+<td style="text-align: center;">partial</td>
+</tr>
+<tr>
+<td style="text-align: left;">H1 encoding control: naive sha256 p-adic
+hash p@10 vs cosine (corpus A / corpus B)</td>
+<td style="text-align: left;">0.210 / 0.638 vs 1.000 / 0.807</td>
+<td style="text-align: center;">control, as predicted</td>
+</tr>
+<tr>
+<td style="text-align: left;">RQ2 consilience links: same-label rate at
+top-N pairs by p-adic prefix depth vs cosine (corpus A,
+N=50/100/200)</td>
+<td style="text-align: left;">0.120/0.190/0.170 vs
+1.000/1.000/1.000</td>
+<td style="text-align: center;">not supported (control)</td>
+</tr>
+<tr>
+<td style="text-align: left;">RQ2 consilience links: same-label rate at
+top-N pairs by p-adic prefix depth vs cosine (corpus B,
+N=50/100/200)</td>
+<td style="text-align: left;">0.660/0.570/0.625 vs
+0.960/0.870/0.845</td>
+<td style="text-align: center;">not supported (control)</td>
+</tr>
+<tr>
+<td style="text-align: left;">H2 ultrametric inequality violations (10k
+triples × 3 tree models)</td>
+<td style="text-align: left;">0 / 10,000 per model</td>
+<td style="text-align: center;">pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">H2 CLT golden variance of leaf mean vs
+sigma^2/n (3 models)</td>
+<td style="text-align: left;">rel. err 0.004–0.039 (bound 5%)</td>
+<td style="text-align: center;">pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">H2 Gaussianity of the averaged quantity
+(skew, excess kurtosis)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;">skew</td>
+</tr>
+<tr>
+<td style="text-align: left;">H3 Markovian scaling slope of tau(n)</td>
+<td style="text-align: left;">−2.0000 (predicted −2)</td>
+<td style="text-align: center;">pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">H3 p-adic noise scaling slope of tau(n), p
+= 2</td>
+<td style="text-align: left;">−0.9881 (predicted −1)</td>
+<td style="text-align: center;">pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">H3 slope separation vs Markovian</td>
+<td style="text-align: left;">1.012 &gt; 0.5</td>
+<td style="text-align: center;">pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">H3 exact arithmetic: loop sum vs
+valuation-count formula (p = 2, 3)</td>
+<td style="text-align: left;">0.0 relative error</td>
+<td style="text-align: center;">pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">H3 seeded Monte Carlo sanity of
+Gamma(64)</td>
+<td style="text-align: left;">1.4e-3 (bound 5e-3)</td>
+<td style="text-align: center;">pass</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 3. Computational verification, fixed seed 20260823 (scripts
+rq1/rq2/rq3/rq4 in artifacts/verification/).</em></p>
+<p>Two results deserve emphasis. First, the H1 encoding control behaves
+exactly as the paper’s map-territory note (Section 2) predicts: hashing
+documents to integers before taking p-adic distances destroys the metric
+structure, and the naive hash index collapses toward random retrieval
+(0.21 vs 1.00 on the synthetic corpus). The H1 index is therefore the
+data-derived ultrametric re-coding — single-linkage hierarchy over the
+corpus — which matches cosine exactly on the synthetic corpus and trails
+by 0.042 at p@10 on the title-only corpus. H1 on these two pinned
+corpora is partial, not settled; the abstract- and-embedding corpus
+specified by the protocol is the adjudicator. Second, the H3 simulation
+exhibits a clean, separable signature: p-adic-valuation- suppressed
+noise gives tau ~ 1/n (slope −1.0) against the Markovian tau ~ 1/n^2
+(slope −2.0), with the sum arithmetic verified exactly — the scaling law
+the hardware protocol of Deliverable 2 is designed to detect is real in
+the model.</p>
+<h2 id="the-revised-claim-and-its-disconfirmation-criteria">5. The
+revised claim and its disconfirmation criteria</h2>
+<p>The audit forces a restatement. The program’s thesis is not that its
+keywords cohere. It is that the program’s domains share a structural
+object — nested hierarchical partition logic — and that this object is
+empirically productive. The claim below is the version this paper can
+defend, and each clause carries a disconfirmation criterion.</p>
+<p><strong>Structural identification (revised).</strong> The seven
+programs share a family of nested-partition structures: the ultrametric
+inequality and its strict hierarchy of nested balls. The specific
+arithmetic (p-adic valuation, adelic product formula) is one
+realization; the hierarchy is the invariant. The taxonomy itself
+supports only this weak form: the hierarchy family is the only bridge
+family spanning three programs (Section 4.2).</p>
+<p><strong>H1 — compression prior.</strong> Ultrametric structure is an
+effective compression and clustering prior for high-dimensional sparse
+measurement data: on at least two independent corpora, an ultrametric
+index matches or beats a cosine baseline on retrieval precision.
+<em>Disconfirmation criterion:</em> H1 fails if ultrametric retrieval
+does not match the cosine baseline on two pre-specified corpora with
+metrics, primes, and hashes committed before measurement. (The prior art
+in Section 8 makes “matches” a nontrivial but achievable bar. Section
+4.6 reports the current state on the first two pinned corpora: exact
+match on the synthetic corpus, −0.042 at p@10 on the title corpus, with
+the encoding control behaving as predicted.)</p>
+<p><strong>H2 — Archimedean emergence.</strong> Continuous Archimedean
+physics appears as the thermodynamic or ergodic average over the leaves
+of an underlying ultrametric hierarchy. <em>Disconfirmation
+criterion:</em> H2 fails if no derivation exhibits the averaging
+operation — ergodic mean over leaves or renormalization limit —
+producing an Archimedean limit theory.</p>
+<p><strong>H3 — non-Archimedean signature.</strong> Quantum-coherent
+systems under structured hierarchical noise exhibit decoherence scaling
+that deviates from the standard Markovian prediction in a p-adic pattern
+(power-of-prime hierarchy). <em>Disconfirmation criterion:</em> H3 fails
+if structured-noise decoherence measurements show no deviation from
+Markovian models at the precision of the stated protocol.</p>
+<p><strong>Decision point.</strong> The strong form of the program — a
+physics-relevant non-Archimedean substrate — is falsified by 2028 if
+neither H1 nor H3 yields a positive result.</p>
+<h2 id="practitioner-deliverables">6. Practitioner deliverables</h2>
+<p>Three artifacts make the program usable without any commitment to its
+ontology.</p>
+<p><strong>Deliverable 1 — the data-derived ultrametric index.</strong>
+A retrieval index built by re-coding a corpus into its single-linkage
+hierarchy (the dendrogram over cosine distances), so that ranking uses
+the resulting ultrametric distances; the naive p-adic fingerprint
+variant (SHA-256 hashes truncated modulo p^k, ranked by valuation depth)
+is retained and benchmarked as the encoding control that isolates the
+map-territory hazard of Section 2. The index is benchmarked against a
+cosine TF-IDF baseline on two pinned corpora (one seeded synthetic, one
+internal title-only). The benchmark script, seeds, and corpora are
+committed with the paper. This is usable today as a content-addressing
+and retrieval tool; its performance result is the H1 test.</p>
+<p><strong>Deliverable 2 — the structured-noise decoherence
+protocol.</strong> A measurement specification for RQ4: qubit coupled to
+hierarchical noise, noise model, pulse sequence, expected scaling
+(p-adic power-of-prime vs 1/n^2 Markovian), significance threshold, and
+platform notes for trapped-ion and superconducting hardware. An
+experimental group can cost this protocol directly from the paper.</p>
+<p><strong>Deliverable 3 — the machine-readable consilience
+map.</strong> The audit’s graph output
+(<code>artifacts/p2-consilience-map.json</code>, 342 nodes, 336
+ownership edges) records programs, keywords, load-bearing flags, and
+bridge-family memberships. It is the vocabulary index for the corpus:
+any paper, keyword, or program can be located in the map and its bridge
+family read off.</p>
+<h2 id="where-the-premises-end">7. Where the premises end</h2>
+<p>The argument in this paper is bounded by an explicit premise
+chain.</p>
+<ul>
+<li><strong>L0 — unanalyzable primitives:</strong> the act of
+distinction (the mark); the notion of observation or measurement; the
+rational numbers as a field. Nothing below this layer is derived.</li>
+<li><strong>L1 — imported theorem:</strong> Ostrowski’s classification —
+every nontrivial absolute value on the rationals is Archimedean or
+p-adic. Used, not re-proven.</li>
+<li><strong>L2 — structural bridge (named input):</strong> the
+identification of measurement hierarchies with ultrametric valuation
+structure. Prior records support this as a correspondence; it is a
+modeling choice, not a theorem.</li>
+<li><strong>L3–L5 — hypotheses H1, H2, H3:</strong> empirical claims
+decided by the criteria of Section 5.</li>
+</ul>
+<p>The “logical origin” story therefore stops at L0; the bridge sits at
+L2 as a named input; everything deeper is testable hypothesis. In
+particular, the paper does not assert that reality is ultrametric. It
+asserts that a specific compression prior is testable and that the
+program’s standing is decided by the test.</p>
+<h2 id="related-work">8. Related work</h2>
+<p><strong>Ultrametric data science.</strong> Murtagh established the
+modern empirical program: ultrametric embedding for data fingerprinting
+and fast clustering (arXiv:math/0605555v2, 2006); pervasive
+ultrametricity in high-dimensional and sparse data
+(arXiv:physics/0702064v1, 2007); ultrametricity measured in text corpora
+(arXiv:1201.2719v3, 2012); and ultrametric logic in data analysis
+(arXiv:1008.3585v1, 2010). H1 is explicitly a re-execution and benchmark
+of this program on modern retrieval baselines — the prior art is cited
+from the first paragraph of the H1 protocol, and novelty is claimed only
+for the modern-baseline comparison and the data-derived ultrametric
+index at pinned-corpus scale. Chehreghani and Chehreghani
+(arXiv:1812.09225v4, 2018) provide dendrogram-based representation
+learning, a required benchmark baseline for H1.</p>
+<p><strong>Ultrametricity in statistical physics.</strong> The canonical
+physics instance of ultrametric structure is replica symmetry breaking
+in spin glasses: Parisi’s order parameter (Phys. Rev. Lett. 50, 1946,
+1983) and the Rammal–Toulouse–Virasoro review of ultrametricity
+(Rev. Mod. Phys. 58, 765, 1986). Recent work has moved this from theory
+to measurement: the overlap distribution measured in random lasers
+(arXiv:2209.03781v2, 2022); incipient ultrametric order in a
+driven-dissipative cavity-QED quantum spin glass (arXiv:2307.10176v2,
+2023) — the nearest existing experiment to H3; and ultrametric Parisi
+matrices recovered from real-time Keldysh dynamics (arXiv:2406.05842v3,
+2024) — a genuine dynamics precedent for H2’s averaging requirement. The
+counterpoint is equally real: Newman and Stein argue that replica
+symmetry breaking cannot be correct for finite-dimensional short-range
+spin glasses (arXiv:cond-mat/0105282v3, 2001). H2 and H3 confront this
+controversy explicitly rather than ignore it.</p>
+<p><strong>p-adic and adelic physics.</strong> The classical literature
+(Vladimirov, Volovich, Zelenov, <em>p-Adic Analysis and Mathematical
+Physics</em>, World Scientific, 1994) provides the mathematical
+foundation for the program’s UMP pillar; the program’s own adelic
+synthesis record (10.5281/zenodo.21590155) applies it to quantum field
+theory at the level of toy models, which is exactly the level the
+program’s claims occupy.</p>
+<h2 id="limitations-and-open-problems">9. Limitations and open
+problems</h2>
+<p><strong>The CFE gap.</strong> The paradigm-engineering program (48
+keywords) contains no bridge-family vocabulary at all (bridge share
+0.000) and shares no keywords with any other program. The paper’s
+consilience table either builds the CFE bridge explicitly — forecasting
+and learning-curve keywords as a hierarchy over paradigms — or marks CFE
+as the weakest documented link. This audit does not resolve the choice;
+it records it.</p>
+<p><strong>Label circularity.</strong> Corpus B’s program labels are
+derived from the taxonomy under audit: a title’s program is the majority
+vote over taxonomy keywords it contains. This is not circular in the
+audit’s direction (the retrieval comparators never see the labels during
+ranking), but it does mean corpus B tests program-membership retrieval
+as defined by the taxonomy, not by an independent annotation. The
+synthetic corpus A, whose clusters are planted in the feature space,
+provides the independent check; the two corpora are complementary for
+exactly this reason.</p>
+<p><strong>Encoding dependence.</strong> The p-adic valuation of a
+measurement requires digitizing and hashing the raw reading first; the
+hash is a chosen convention, not physics (this is the map-territory
+hazard of Section 2’s data note). H1’s protocol therefore commits the
+hash, the prime, and the corpora before measurement, and the result is
+conditional on those commitments. The RQ2 result (Section 4.6) is the
+direct empirical instance: raw-hash p-adic prefixes do not identify
+consilience links better than cosine at matched pair counts on either
+corpus, exactly as this limitation predicts.</p>
+<p><strong>The dynamics gap.</strong> The taxonomy and the corpus are
+rich in statics (geometry, bounds, hierarchies) and poor in dynamics. H2
+requires an explicit averaging operation; none is specified in the
+corpus. Section 5’s disconfirmation criterion for H2 is deliberately
+written to require that derivation rather than permit it to be
+assumed.</p>
+<p><strong>Plurality.</strong> The audit’s strongest positive finding —
+the hierarchy family spanning SLB, RES, and DEM — supports the
+invariant-as-hierarchy reading, not a single-radix reading. The
+vocabulary offers no evidence that the program’s structure is one hidden
+basis; it offers evidence that nested partitions recur. The program’s
+own question, whether its unity is a single structure or a family of
+incommensurable grammars with translation but no reduction, remains
+open, and the deliverable-3 map is designed so that either answer can be
+read off the corpus.</p>
+<h2 id="reproducibility">10. Reproducibility</h2>
+<p>All quantitative claims in this paper are produced by the
+verification suite in <code>artifacts/verification/</code>:
+<code>rq5_keyword_load.py</code> (taxonomy audit),
+<code>rq1_retrieval_benchmark.py</code> (H1 retrieval),
+<code>rq2_consilience_links.py</code> (RQ2 consilience-link test),
+<code>rq3_archimedean_limit.py</code> (H2 numeric), and
+<code>rq4_noise_scaling.py</code> (H3 scaling). All are deterministic
+(pure Python standard library; fixed seed 20260823; no random seeds
+required beyond the declared constants). Inputs:
+<code>keyword-taxonomy-source.md</code> (the v1.0 taxonomy snapshot,
+byte-verified against the canonical location at fetch time) and
+<code>corpus_qnfo_titles.json</code> (400 titles pinned from the
+program’s living-paper database on 2026-08-23; 69 carry program labels
+via taxonomy keyword matching). The pinned corpus is the raw database
+projection, including chapter fragments and template-generated rows;
+only rows with a title of at least 15 characters were retained for
+retrieval, and the label derivation (discussed in Section 9) selects
+only rows that match at least one taxonomy keyword. Outputs: per-check
+JSON results and run logs, all archived; re-running the scripts from the
+repository root regenerates every JSON artifact byte-identically. Corpus
+statistics (8,324 nodes; 1,660 papers) were read from the program’s
+knowledge-graph endpoint on 2026-08-23; external-literature evidence
+files (arXiv) are archived in <code>artifacts/external-search/</code>.
+Runtime: under two minutes for the full suite on the reference machine;
+no external services required.</p>
+<h2 id="references">References</h2>
+<ol type="1">
+<li>QNFO Research Program Keyword Taxonomy, v1.0, 2026-08-05. Canonical:
+docs/QNFO-KEYWORD-TAXONOMY.md.</li>
+<li>F. Murtagh. Ultrametric embedding: application to data
+fingerprinting and to fast data clustering. arXiv:math/0605555v2,
+2006.</li>
+<li>F. Murtagh. Hilbert Space Becomes Ultrametric in the High
+Dimensional Limit. arXiv:physics/0702064v1, 2007.</li>
+<li>F. Murtagh. Ultrametric Model of Mind, II: Application to Text
+Content Analysis. arXiv:1201.2719v3, 2012.</li>
+<li>F. Murtagh. Ultrametric and Generalized Ultrametric in Computational
+Logic and in Data Analysis. arXiv:1008.3585v1, 2010.</li>
+<li>M. H. Chehreghani and M. H. Chehreghani. Learning Representations
+from Dendrograms. arXiv:1812.09225v4, 2018.</li>
+<li>C. Conti, N. Ghofraniha, L. Leuzzi, G. Ruocco. Replica symmetry
+breaking in random lasers: experimental measurement of the overlap
+distribution. arXiv:2209.03781v2, 2022.</li>
+<li>B. P. Marsh, R. M. Kroeze, S. Ganguli, S. Gopalakrishnan, J.
+Keeling, B. L. Lev. Entanglement and replica symmetry breaking in a
+driven-dissipative quantum spin glass. arXiv:2307.10176v2, 2023.</li>
+<li>J. Lang, S. Sachdev, S. Diehl. Replica symmetry breaking in spin
+glasses in the replica-free Keldysh formalism. arXiv:2406.05842v3,
+2024.</li>
+<li>C. M. Newman and D. L. Stein. The State(s) of Replica Symmetry
+Breaking: Mean Field Theories vs. Short-Ranged Spin Glasses.
+arXiv:cond-mat/0105282v3, 2001.</li>
+<li>G. Parisi. Order parameter for spin glasses. Phys. Rev. Lett. 50,
+1946, 1983.</li>
+<li>R. Rammal, G. Toulouse, M. A. Virasoro. Ultrametricity for
+physicists. Rev. Mod. Phys. 58, 765, 1986.</li>
+<li>V. S. Vladimirov, I. V. Volovich, E. I. Zelenov. <em>p-Adic Analysis
+and Mathematical Physics</em>. World Scientific, 1994.</li>
+<li>The Consilience Framework: From Valuation Theory to the Void — A
+Cross-Domain Synthesis. 10.5281/zenodo.21804073, 2026.</li>
+<li>Ultrametric Consilience Atlas: Cross-Domain Applications of p-Adic
+Mathematical Structure. 10.5281/zenodo.21722395, 2026.</li>
+<li>Consilience Between Physics and Number Theory: Convergent Theses
+from Ostrowski’s Theorem to Adelic Quantum Mechanics.
+10.5281/zenodo.21590155, 2026.</li>
+<li>The History and Future of Measurement Stratigraphy, Number Theory,
+and Valuation Theory. 10.5281/zenodo.21705220, 2026.</li>
+<li>Valuation Without R: A Category-Theoretic Foundation for Finite
+Measurement. 10.5281/zenodo.21803677, 2026.</li>
+<li>Nonlinear Tree-Based Numeration Systems: A Consolidated Synthesis.
+10.5281/zenodo.21046213, 2026.</li>
+<li>Prime Valuation Depth: Multiplication as Branching, the Calculus of
+Indications, and the Structural No-Cloning Reading.
+10.5281/zenodo.21918838, 2026.</li>
+<li>Projective Geometric Frameworks for Semantic Structures.
+10.5281/zenodo.19564091, 2026.</li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,150 @@
+{
+  "consilience_framework": {
+    "doi": "10.5281/zenodo.21804073",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "The Consilience Framework: From Valuation Theory to the Void \u2014 A Cross-Domain Synthesis"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 1,
+      "hits": [
+        {
+          "id": 21804073,
+          "state": "published",
+          "title": "The Consilience Framework: From Valuation Theory to the Void \u2014 A Cross-Domain Synthesis"
+        }
+      ]
+    },
+    "verdict": "OK"
+  },
+  "atlas_F2": {
+    "doi": "10.5281/zenodo.21722395",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "Ultrametric Consilience Atlas: Cross-Domain Applications of p-Adic Mathematical Structure"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 1,
+      "hits": [
+        {
+          "id": 21722395,
+          "state": "published",
+          "title": "Ultrametric Consilience Atlas: Cross-Domain Applications of p-Adic Mathematical Structure"
+        }
+      ]
+    },
+    "verdict": "OK"
+  },
+  "consilience_physics_numtheory": {
+    "doi": "10.5281/zenodo.21590155",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "Consilience Between Physics and Number Theory: Convergent Theses from Ostrowski's Theorem to Adelic Quantum Mechanics"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 0,
+      "hits": []
+    },
+    "verdict": "OK"
+  },
+  "measurement_stratigraphy": {
+    "doi": "10.5281/zenodo.21705220",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "The History and Future of Measurement Stratigraphy, Number Theory, and Valuation Theory"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 1,
+      "hits": [
+        {
+          "id": 21705220,
+          "state": "published",
+          "title": "The History and Future of Measurement Stratigraphy, Number Theory, and Valuation Theory"
+        }
+      ]
+    },
+    "verdict": "OK"
+  },
+  "valuation_without_r": {
+    "doi": "10.5281/zenodo.21803677",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "Valuation Without \u211d: A Category-Theoretic Foundation for Finite Measurement"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 1,
+      "hits": [
+        {
+          "id": 21803677,
+          "state": "published",
+          "title": "Valuation Without \u211d: A Category-Theoretic Foundation for Finite Measurement"
+        }
+      ]
+    },
+    "verdict": "OK"
+  },
+  "tree_numeration": {
+    "doi": "10.5281/zenodo.21046213",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "Nonlinear Tree-Based Numeration Systems: A Consolidated Synthesis"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 1,
+      "hits": [
+        {
+          "id": 21046213,
+          "state": "published",
+          "title": "Nonlinear Tree-Based Numeration Systems: A Consolidated Synthesis"
+        }
+      ]
+    },
+    "verdict": "OK"
+  },
+  "prime_valuation_depth": {
+    "doi": "10.5281/zenodo.21918838",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 1,
+      "hits": [
+        {
+          "id": 21918838,
+          "state": "published",
+          "title": "Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading"
+        }
+      ]
+    },
+    "verdict": "OK"
+  },
+  "projective_geometric": {
+    "doi": "10.5281/zenodo.19564091",
+    "datacite": {
+      "status": 200,
+      "state": "findable",
+      "title": "Projective Geometric Frameworks for Semantic Structures: Addressing the Gap Between Statistical Approximation and Formal Invariants in Large Language Models"
+    },
+    "zenodo_search": {
+      "status": 200,
+      "total": 0,
+      "hits": []
+    },
+    "verdict": "OK"
+  }
+}
