@@ -65,6 +65,24 @@ mechanics the H2 derivation must exhibit works in code.
   (slope −1) vs Markovian τ ~ 1/n² (slope −2), a clean, separable signature
   for the proposed hardware protocol.
 
+### RQ2 — consilience-link test (added P5.1, red-team HARD-2)
+
+Pairwise same-label rate at matched selection counts (raw sha256 p-adic
+prefix depth vs cosine TF-IDF):
+
+| Corpus | top-N | p-adic depth | cosine |
+|:-------|:------|:------------:|:------:|
+| A (200 synth) | N=50 / 100 / 200 | 0.120 / 0.190 / 0.170 | 1.000 / 1.000 / 1.000 |
+| B (69 titles) | N=50 / 100 / 200 | 0.660 / 0.570 / 0.625 | 0.960 / 0.870 / 0.845 |
+
+- **Verdict: NOT SUPPORTED (0/3 pass per corpus)** — raw-hash p-adic prefixes
+  do not identify consilience links (same-program pairs) better than cosine
+  at matched counts on either corpus. This is the empirical instance of the
+  encoding-dependence limitation (UIA Q2): the sha256 hash is a convention,
+  not physics; the H1 index is the data-derived ultrametric recoding (rq1),
+  and RQ2 confirms the raw-hash variant cannot serve as the consilience-link
+  detector.
+
 ## Verification log (VERIFY-FIX-RERUN-1)
 
 Three real defects were found **in the checks themselves** during iteration
@@ -83,4 +101,18 @@ and fixed; the deposited scripts are the corrected versions:
    noise (σ/√n ≈ 1e-3); arithmetic verified by the exact count-formula
    cross-check (0.0 rel. error), MC retained as a 5e-3 statistical sanity.
 
-Run logs: `rq1_run.log`, `rq3_run.log`, `rq4_run.log` (all EXIT=0).
+Run logs: `rq1_run.log`, `rq2_run.log`, `rq3_run.log`, `rq4_run.log`
+(all EXIT=0).
+
+## P5 red-team remediation (2026-08-23)
+
+Aggregate report: `docs/red-team-p5-2026-08-23.md` (4 HARD / 12 SOFT;
+number chain CLEAN). P5.1 fixes applied: H1 §4.4 enumerations copied
+verbatim from rq5_results.json; H2 RQ2 implemented (this file, above);
+H3 claims amended to actual baselines (cosine, pinned corpora — no HNSW,
+no public corpora claimed); H4 Deliverable 1 rewritten (data-derived
+ultrametric index is the deliverable; p-adic hash is the encoding control);
+SOFT 1–11 fixed (Table 1 counting footnote, map README 336 edges, compton-bt,
+corpus-cleaning + label-circularity disclosures, byte reconciliation, G5
+disclosed as open, unnamed record removed, plan RQ1/RQ2 updated, refs 11–13
+noted for P6 citation audit).

@@ -64,9 +64,9 @@ failure decides the program's scientific standing.
   of checkable claims with explicit disconfirmation criteria, and documents which
   claims are derived and which are imported premises.
 - **For practitioners (engineers, retrieval/ML people):** it specifies a concrete
-  artifact — a p-adic fingerprint index for content-addressed corpora — that can be
-  benchmarked head-to-head against vector search (HNSW/cosine) today, without any
-  commitment to the underlying physics.
+  artifact — the data-derived ultrametric index for content-addressed corpora — that
+  can be benchmarked against a cosine baseline today, without any commitment to the
+  underlying physics.
 - **For quantum-hardware engineers:** H3 names a concrete, falsifiable noise model
   (hierarchical/p-adic decoherence scaling) that is directly testable on
   trapped-ion and superconducting platforms.
@@ -99,12 +99,17 @@ thesis is as deep as L2, and L2 is a premise, not a result.
 Each question below states a measurable observable and a pre-registered comparison.
 
 1. **RQ1 (H1).** Given a corpus of high-dimensional sparse documents (scientific
-   abstracts), does retrieval precision-at-k under an ultrametric (p-adic hash
-   prefix) index match or beat a cosine/HNSW baseline at equal build cost?
-   *Observable:* precision-at-k and latency on two corpora.
+   abstracts), does retrieval precision-at-k under the data-derived ultrametric
+   index (single-linkage recoding) match or beat a cosine TF-IDF baseline?
+   *Observable:* precision-at-k on two pinned corpora. *Implemented:* rq1
+   (v0.4); the naive sha256 p-adic-hash variant is the encoding control, not
+   the H1 index.
 2. **RQ2 (H1).** Do cross-domain consilience links (papers in different programs
    that solve the same research problem) share p-adic prefixes (valuation depth)
    more often than they share cosine similarity above threshold?
+   *Implemented:* rq2_consilience_links.py (v0.5, P5.1) — pairwise same-label
+   rate at matched pair counts; answered NOT SUPPORTED for the raw-hash
+   encoding on both corpora (encoding dependence, UIA Q2).
 3. **RQ3 (H2).** Can an Archimedean (Euclidean/Lorentzian) geometry be derived as
    the thermodynamic average of an ultrametric base model, with the averaging
    explicitly specified (ergodic mean over leaves / renormalization limit)?
@@ -118,10 +123,11 @@ Each question below states a measurable observable and a pre-registered comparis
 
 ## Practitioner relevance
 
-- **Deliverable 1 (software):** a p-adic fingerprint index (`p-adic distance`
-  endpoint over SHA-256 hashes modulo p^k) benchmarked against HNSW/cosine
-  retrieval on two public corpora. This is usable today as a retrieval tool
-  independent of any physics interpretation.
+- **Deliverable 1 (software):** the data-derived ultrametric index (single-
+  linkage recoding over cosine distances) benchmarked against a cosine TF-IDF
+  baseline on two pinned corpora; the p-adic fingerprint variant (SHA-256
+  hashes modulo p^k) is retained as the encoding control. Usable today as a
+  retrieval tool independent of any physics interpretation.
 - **Deliverable 2 (hardware test specification):** a concrete measurement protocol
   for RQ4 (structured-noise decoherence on trapped-ion or superconducting qubits),
   written in engineering terms (noise model, pulse sequence, expected scaling,
@@ -161,6 +167,11 @@ Each question below states a measurable observable and a pre-registered comparis
 - P3: draft paper (plain prose, external-reader framing).
 - P4: computational verification suite for RQ1-RQ4.
 - P5: red-team review + remediation.
-- P6: Zenodo deposit (all source files; pre-publish gates).
+- P6: Zenodo deposit (all source files; pre-publish gates —
+  TITLE-EXISTENCE-PRE-PUBLISH-1, PUBLISH-LOCK-1, citation audit incl. F2
+  atlas KG/D1 verification, PUBLICATION-SOURCE-COMPLETENESS-1 items:
+  references.bib, citation-audit.md, README.md, docs/deep-research.md,
+  artifacts/evidence, GitHub provenance link; G5 p-adic-ML sweep executed
+  or disclosed).
 - P7: dissemination (registry, KG, R2 mirror, D1 living-paper, Vectorize index).
 - P8: publication + post-publication adversarial audit.

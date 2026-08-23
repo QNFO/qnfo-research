@@ -6,10 +6,13 @@
 - **Verification:** `artifacts/verification/rq5_keyword_load.py` → `rq5_run.log`
   (EXIT=0) → `rq5_results.json`; machine-readable graph
   `artifacts/p2-consilience-map.json` (schema consilience-map-v2; 342 nodes =
-  7 programs + 335 keywords; 335 OWNS edges).
+  7 programs + 335 keywords; 336 OWNS edges — complexity-measure carries both
+  its INM and RES edges).
 - **Source:** `docs/QNFO-KEYWORD-TAXONOMY.md` v1.0 (2026-08-05), fetched
-  byte-identical (12,684 B) from `res/artifact/keyword-taxonomy` into
-  `artifacts/verification/keyword-taxonomy-source.md`.
+  from `res/artifact/keyword-taxonomy` into
+  `artifacts/verification/keyword-taxonomy-source.md` (LF, 12,684 B at fetch
+  time; the git blob preserves those bytes — working-tree size differs only
+  by CRLF conversion on Windows checkouts).
 
 ## 1. The computational result (RQ5, honest verdict)
 
