@@ -96,7 +96,8 @@ inside the hierarchy invariant: each bound is a constraint at a scale, and
 the bounds nest like the balls of an ultrametric space. The program's
 mission literature is already substantial: the joules-per-solution metric
 definition and measurement protocol (10.5281/zenodo.21637028), a system-level
-comparison of seventeen quantum platforms (JPCUB competitive landscape), and
+comparison of seventeen quantum platforms (JPCUB competitive landscape,
+corpus record jpcub-competitive-landscape), and
 a qudit-architecture advantage analysis. Externally, the mission has a
 peer: Alves, Pezzutto, and Omar (arXiv:2601.03141v2, 2026) benchmark the
 energetics of Rydberg-atom quantum computing and demonstrate a regime of
@@ -126,8 +127,11 @@ hierarchy is essential.
 The program's mathematical spine for this identification is the bridge
 theorem (10.5281/zenodo.21102770), a rigorous framework connecting p-adic
 and Bruhat-Tits geometries; the Bruhat-Tits tree as the unifying geometric
-object (R2-only record, ballistic transport on the tree); and the
-consilience between physics and number theory (10.5281/zenodo.21590155).
+object (R2-distributed record ballistic-transport-on-the-bruhat-tits-tree); and the
+consilience between physics and number theory (10.5281/zenodo.21590155). The
+consilience framework record (10.5281/zenodo.21804073) carries the same
+bridge from valuation theory to the void — the semantic reading of the
+invariant that the taxonomy audit later confirms.
 Prior corpus work established that positional notation itself is natively an
 ultrametric tree (10.5281/zenodo.21046213) and that prime valuation depth
 reads multiplication as branching (10.5281/zenodo.21918838) — two concrete
@@ -186,8 +190,9 @@ established, computationally, at the time of writing.
 ### 5.1 The keyword-taxonomy audit
 
 The most direct audit of the program's unity is the computational
-examination of its own keyword taxonomy (335 keywords, seven program
-sections, three cross-cutting themes), published as the predecessor record
+examination of its own keyword taxonomy (ref 1: docs/QNFO-KEYWORD-TAXONOMY.md
+v1.0, 2026-08-05 — 335 keywords, seven program sections, three
+cross-cutting themes), published as the predecessor record
 (10.5281/zenodo.22071421). The result is a negative result with a positive
 reading: the taxonomy is strictly partitional — 334 of 335 keywords occur
 in exactly one program, one keyword occurs in two, none occurs in three or
@@ -396,6 +401,15 @@ theory at the level of toy models.
 
 ## 10. Limitations and open problems
 
+**The standing dangerous question.** The program's own ignorance audit
+(Q9 of the Universal Ignorance Audit artifact) poses the threat directly:
+is the ultrametric program a sophisticated exercise in imposing a
+beautiful, self-consistent, but ultimately untestable meta-structure, where
+the rigor of the mathematics masks the absence of a new coupling constant
+or prediction? The audit does not answer this question; it records it as
+the standing threat, and the 2028 decision point is the deadline for the
+positive result that would answer it. This paper adopts the same posture.
+
 **The global topology of the tree.** The observer-inside-the-tree record's
 sharpest constraint is also this paper's sharpest open problem: the
 distance function requires a global tree topology that is not locally
@@ -481,9 +495,9 @@ rq2_consilience_links.py (consilience-link test), rq3_archimedean_limit.py
 (H2 numeric), rq4_noise_scaling.py (H3 scaling). All scripts are pure
 Python standard library, fixed seed 20260823, no random seeds required
 beyond the declared constants; re-running from the repository root
-regenerates every JSON artifact byte-identically. Corpus statistics (8,324
-nodes; 1,660 papers) were read from the program's knowledge-graph endpoint
-on 2026-08-23. External-literature evidence files (arXiv) are archived in
+regenerates every JSON artifact byte-identically. Corpus statistics (8,325
+nodes; 1,661 papers — including the predecessor record, RES.022) were read
+from the program's knowledge-graph endpoint on 2026-08-23. External-literature evidence files (arXiv) are archived in
 the predecessor's deposit and this paper's artifacts. Runtime: under two
 minutes for the full suite on the reference machine; no external services
 required.

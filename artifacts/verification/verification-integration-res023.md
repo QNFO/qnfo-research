@@ -20,7 +20,8 @@ the predecessor record into this paper's repo:
 | `rq3_archimedean_limit.py` | H2 numeric (ultrametric violations, CLT golden, Gaussianity) | (generated) |
 | `rq4_noise_scaling.py` | H3 scaling (log-log slopes, exact arithmetic, MC sanity) | (generated) |
 
-Inputs `keyword-taxonomy-source.md` (12,684 B LF at fetch) and
+Inputs `keyword-taxonomy-source.md` (12,684 B LF at fetch; 13,016 B /
+13,016 chars in the working tree after CRLF conversion) and
 `corpus_qnfo_titles.json` (400 pinned titles) copied byte-identical.
 Expected outputs archived at `artifacts/verification/inherited-res022/`
 (results JSONs + run logs from the RES.022 deposit).
@@ -56,7 +57,7 @@ FileNotFoundError (observed and documented here as a guardrail, not a bug).
   0.004–0.039 vs sigma^2/n; Gaussianity (|skew|≤0.088, |kurt|≤0.100).
 - §5.2 H3: Markovian slope −2.0000 vs p-adic −0.9881 (separation 1.012);
   exact arithmetic 0.0 rel. err; MC sanity 1.4e-3.
-- §6 RQ2: same-label rate p-adic depth vs cosine at N=50/100/200 —
+- §5.2 RQ2: same-label rate p-adic depth vs cosine at N=50/100/200 —
   corpus A 0.120/0.190/0.170 vs 1.000; corpus B 0.660/0.570/0.625 vs
   0.960/0.870/0.845 (NOT SUPPORTED for raw-hash encoding — encoding
   dependence per UIA Q2).

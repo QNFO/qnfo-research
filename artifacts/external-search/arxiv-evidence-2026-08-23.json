@@ -1,0 +1,31 @@
+{
+  "generated": "2026-08-23",
+  "session": "CMD RESEARCH QNFO.RES.022 Phase 1",
+  "note": "External verification evidence (arXiv API). Queries and top results saved per DUE-DILIGENCE-DEPTH-1 evidence discipline.",
+  "queries": [
+    {
+      "query": "ultrametricity hierarchical clustering data analysis Murtagh",
+      "key_results": [
+        {"id": "math/0605555v2", "title": "Ultrametric embedding: application to data fingerprinting and to fast data clustering", "authors": ["Fionn Murtagh"], "year": 2006, "relevance": "DIRECT prior art for RQ1/Deliverable 1 (p-adic fingerprint index): Murtagh already demonstrated ultrametric embedding for data fingerprinting and fast clustering; novelty claim must be repositioned as modern re-execution + benchmark."},
+        {"id": "physics/0702064v1", "title": "Hilbert Space Becomes Ultrametric in the High Dimensional Limit: Application to Very High Frequency Data Analysis", "authors": ["Fionn Murtagh"], "year": 2007, "relevance": "External support for H1: ultrametricity becomes pervasive as dimensionality/sparsity increases; very high dimensional data are of simple (hierarchical) structure."},
+        {"id": "1201.2719v3", "title": "Ultrametric Model of Mind, II: Application to Text Content Analysis", "authors": ["Fionn Murtagh"], "year": 2012, "relevance": "Ultrametricity measured in ~1000-text collections; template for measuring inherent ultrametricity in corpora (RQ1 metric design)."},
+        {"id": "1008.3585v1", "title": "Ultrametric and Generalized Ultrametric in Computational Logic and in Data Analysis", "authors": ["Fionn Murtagh"], "year": 2010, "relevance": "Ultrametric logic + data analysis review; approximation chains in ultrametric context."},
+        {"id": "1812.09225v4", "title": "Learning Representations from Dendrograms", "authors": ["Morteza Haghir Chehreghani", "Mostafa Haghir Chehreghani"], "year": 2018, "relevance": "Dendrogram-based representation learning; required baseline for RQ1 benchmarks."}
+      ]
+    },
+    {
+      "query": "p-adic non-Archimedean representation learning embeddings machine learning",
+      "key_results": [],
+      "note": "Query surfaced no directly relevant p-adic-ML literature; hyperbolic-embedding and p-adic-neural-network literature not covered. Follow-up sweep required in Phase 2 (Nickel-Kiela hyperbolic embeddings; Anashin p-adic neural networks). Recorded as gap G5."
+    },
+    {
+      "query": "ultrametricity spin glasses replica symmetry breaking Parisi",
+      "key_results": [
+        {"id": "2209.03781v2", "title": "Replica symmetry breaking in random lasers: experimental measurement of the overlap distribution", "authors": ["Claudio Conti", "Neda Ghofraniha", "Luca Leuzzi", "Giancarlo Ruocco"], "year": 2022, "relevance": "EXPERIMENTAL measurement of Parisi ultrametric order (random lasers) - canonical physics instance of ultrametricity."},
+        {"id": "2307.10176v2", "title": "Entanglement and replica symmetry breaking in a driven-dissipative quantum spin glass", "authors": ["Brendan P. Marsh", "Ronen M. Kroeze", "Surya Ganguli", "Sarang Gopalakrishnan", "Jonathan Keeling", "Benjamin L. Lev"], "year": 2023, "relevance": "Cavity-QED experiment with incipient ultrametric order in a quantum-coherent system - nearest existing experiment to H3; must be cited by the H3 measurement protocol."},
+        {"id": "2406.05842v3", "title": "Replica symmetry breaking in spin glasses in the replica-free Keldysh formalism", "authors": ["Johannes Lang", "Subir Sachdev", "Sebastian Diehl"], "year": 2024, "relevance": "Parisi ultrametric matrices recovered from real-time Keldysh dynamics - dynamics (the missing piece in the core claim) has a precedent here; H2's averaging must engage this."},
+        {"id": "cond-mat/0105282v3", "title": "The State(s) of Replica Symmetry Breaking: Mean Field Theories vs. Short-Ranged Spin Glasses", "authors": ["C. M. Newman", "D. L. Stein"], "year": 2001, "relevance": "The canonical COUNTERPOINT: RSB/ultrametricity contested for finite-dimensional short-range spin glasses. H2/H3 must confront this controversy rather than ignore it."}
+      ]
+    }
+  ]
+}
