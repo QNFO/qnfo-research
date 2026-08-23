@@ -1,0 +1,188 @@
+[
+ {
+  "file": "ultrametric-program.md",
+  "status": 201,
+  "bytes": 34270
+ },
+ {
+  "file": "ultrametric-program.html",
+  "status": 201,
+  "bytes": 40685
+ },
+ {
+  "file": "ultrametric-program.pdf",
+  "status": 201,
+  "bytes": 137276
+ },
+ {
+  "file": "references.bib",
+  "status": 201,
+  "bytes": 9075
+ },
+ {
+  "file": "citation-audit.md",
+  "status": 201,
+  "bytes": 2848
+ },
+ {
+  "file": "README.md",
+  "status": 201,
+  "bytes": 5250
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "status": 201,
+  "bytes": 7541
+ },
+ {
+  "file": "docs/deep-research.md",
+  "status": 201,
+  "bytes": 4902
+ },
+ {
+  "file": "docs/red-team-p4-2026-08-23.md",
+  "status": 201,
+  "bytes": 4941
+ },
+ {
+  "file": "artifacts/universal-ignorance-audit.md",
+  "status": 201,
+  "bytes": 10092
+ },
+ {
+  "file": "artifacts/due-diligence-phase1.md",
+  "status": 201,
+  "bytes": 8810
+ },
+ {
+  "file": "artifacts/p2-consilience-map.json",
+  "status": 201,
+  "bytes": 108956
+ },
+ {
+  "file": "artifacts/external-search/arxiv-evidence-2026-08-23.json",
+  "status": 201,
+  "bytes": 4177
+ },
+ {
+  "file": "artifacts/external-search/arxiv-evidence-g5-2026-08-23.json",
+  "status": 201,
+  "bytes": 1529
+ },
+ {
+  "file": "artifacts/external-search/arxiv-evidence-res023-2026-08-23.json",
+  "status": 201,
+  "bytes": 2880
+ },
+ {
+  "file": "artifacts/verification/rq5_keyword_load.py",
+  "status": 201,
+  "bytes": 14514
+ },
+ {
+  "file": "artifacts/verification/rq5_results.json",
+  "status": 201,
+  "bytes": 6263
+ },
+ {
+  "file": "artifacts/verification/rq5_run.log",
+  "status": 201,
+  "bytes": 1708
+ },
+ {
+  "file": "artifacts/verification/rq1_retrieval_benchmark.py",
+  "status": 201,
+  "bytes": 10920
+ },
+ {
+  "file": "artifacts/verification/rq1_results.json",
+  "status": 201,
+  "bytes": 1669
+ },
+ {
+  "file": "artifacts/verification/rq1_run.log",
+  "status": 201,
+  "bytes": 1049
+ },
+ {
+  "file": "artifacts/verification/rq2_consilience_links.py",
+  "status": 201,
+  "bytes": 8837
+ },
+ {
+  "file": "artifacts/verification/rq2_results.json",
+  "status": 201,
+  "bytes": 2405
+ },
+ {
+  "file": "artifacts/verification/rq2_run.log",
+  "status": 201,
+  "bytes": 1021
+ },
+ {
+  "file": "artifacts/verification/rq3_archimedean_limit.py",
+  "status": 201,
+  "bytes": 4683
+ },
+ {
+  "file": "artifacts/verification/rq3_results.json",
+  "status": 201,
+  "bytes": 1576
+ },
+ {
+  "file": "artifacts/verification/rq3_run.log",
+  "status": 201,
+  "bytes": 511
+ },
+ {
+  "file": "artifacts/verification/rq4_noise_scaling.py",
+  "status": 201,
+  "bytes": 5321
+ },
+ {
+  "file": "artifacts/verification/rq4_results.json",
+  "status": 201,
+  "bytes": 1058
+ },
+ {
+  "file": "artifacts/verification/rq4_run.log",
+  "status": 201,
+  "bytes": 397
+ },
+ {
+  "file": "artifacts/verification/verification-integration-res023.md",
+  "status": 201,
+  "bytes": 3916
+ },
+ {
+  "file": "artifacts/verification/keyword-taxonomy-source.md",
+  "status": 201,
+  "bytes": 13016
+ },
+ {
+  "file": "artifacts/verification/corpus_qnfo_titles.json",
+  "status": 201,
+  "bytes": 44315
+ },
+ {
+  "file": "artifacts/verification/p5_gates.log",
+  "status": "MISSING"
+ },
+ {
+  "file": "artifacts/verification/p5_create_deposit.py",
+  "status": 201,
+  "bytes": 4070
+ },
+ {
+  "file": "artifacts/verification/p5_deposit.json",
+  "status": 201,
+  "bytes": 4022
+ },
+ {
+  "file": "artifacts/verification/p5_deposit.log",
+  "status": 201,
+  "bytes": 310
+ }
+]
+UPLOADED 36/37
+EXIT=0

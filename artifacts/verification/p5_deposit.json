@@ -1,0 +1,60 @@
+{
+  "created": "2026-08-23T20:26:00.806632+00:00",
+  "modified": "2026-08-23T20:26:00.879996+00:00",
+  "id": 22072162,
+  "conceptrecid": "22072161",
+  "metadata": {
+    "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests",
+    "publication_date": "2026-08-23",
+    "description": "Seven research domains \u2014 ultrametric physics, the laws of form, infomatics, paradigm engineering, consilience research, a cloud-native platform, and interactive demos \u2014 are claimed to be seven vocabularies for one structural object: a nested, hierarchical partition logic. The object is defined by the ultrametric inequality and its strict hierarchy of nested balls; the specific arithmetic \u2014 p-adic valuation, the adelic product formula \u2014 is one realization, the hierarchy is the invariant. This paper states that thesis plainly and makes it testable. The program's scientific content is carried by three falsifiable hypotheses: H1, that ultrametric structure is an effective compression and clustering prior for high-dimensional sparse measurement data; H2, that continuous Archimedean physics appears as the thermodynamic or ergodic average over the leaves of the ultrametric hierarchy; and H3, that quantum-coherent systems under structured hierarchical noise exhibit decoherence scaling that deviates from the standard Markovian prediction in a p-adic pattern. The strong form of the program is bound to a 2028 decision point. The program serves a mission \u2014 an energy-efficiency benchmark for quantum computing (joules per correct solution) \u2014 to which the thermodynamic bounds of computation are the direct link. Evidence from the program's own corpus is presented where it exists, including a computational audit of the keyword taxonomy that shows the consilience is semantic rather than lexical, and a deterministic verification suite whose numbers are reproduced exactly by the deposited scripts. The paper also confronts the program's deepest open questions: the observer's resolution hierarchy, the global topology of the tree, and whether the unity is one radix or a family of incommensurable grammars.",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Quni-Gudzinas, Rowan Brad",
+        "affiliation": "QNFO",
+        "orcid": "0009-0002-4317-5604"
+      }
+    ],
+    "keywords": [
+      "ultrametric",
+      "p-adic",
+      "adelic",
+      "laws of form",
+      "resolution hierarchy",
+      "compression prior",
+      "Archimedean emergence",
+      "energy benchmark",
+      "joules-per-solution",
+      "measurement",
+      "consilience"
+    ],
+    "version": "v1.0",
+    "license": "cc-by-4.0",
+    "imprint_publisher": "Zenodo",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.22072162",
+      "recid": 22072162
+    }
+  },
+  "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests",
+  "links": {
+    "self": "https://zenodo.org/api/deposit/depositions/22072162",
+    "html": "https://zenodo.org/deposit/22072162",
+    "badge": "https://zenodo.org/badge/doi/.svg",
+    "files": "https://zenodo.org/api/deposit/depositions/22072162/files",
+    "bucket": "https://zenodo.org/api/files/ad1f6ce8-feaf-4d5c-9dff-8765b61f89b2",
+    "latest_draft": "https://zenodo.org/api/deposit/depositions/22072162",
+    "latest_draft_html": "https://zenodo.org/deposit/22072162",
+    "publish": "https://zenodo.org/api/deposit/depositions/22072162/actions/publish",
+    "edit": "https://zenodo.org/api/deposit/depositions/22072162/actions/edit",
+    "discard": "https://zenodo.org/api/deposit/depositions/22072162/actions/discard",
+    "newversion": "https://zenodo.org/api/deposit/depositions/22072162/actions/newversion"
+  },
+  "record_id": 22072162,
+  "owner": 1328013,
+  "files": [],
+  "state": "unsubmitted",
+  "submitted": false
+}

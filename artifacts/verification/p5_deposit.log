@@ -1,0 +1,6 @@
+STATUS: 201
+DEPOSIT_ID: 22072162
+CONCEPTRECID: 22072161
+DOI: None
+LINKS: {'self': 'https://zenodo.org/api/deposit/depositions/22072162', 'bucket': 'https://zenodo.org/api/files/ad1f6ce8-feaf-4d5c-9dff-8765b61f89b2', 'publish': 'https://zenodo.org/api/deposit/depositions/22072162/actions/publish'}
+EXIT=0
