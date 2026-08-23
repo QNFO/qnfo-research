@@ -472,7 +472,10 @@ is a program that has made its structure inspectable.
 ## 12. Reproducibility
 
 All quantitative claims in this paper are produced by the deterministic,
-seeded verification suite of the predecessor record (10.5281/zenodo.22071421):
+seeded verification suite archived in `artifacts/verification/` (inherited
+from the predecessor record, 10.5281/zenodo.22071421, and re-verified on
+this branch — every regenerated result is byte-identical to the inherited
+JSONs; the expected outputs are archived alongside):
 rq5_keyword_load.py (taxonomy audit), rq1_retrieval_benchmark.py (H1),
 rq2_consilience_links.py (consilience-link test), rq3_archimedean_limit.py
 (H2 numeric), rq4_noise_scaling.py (H3 scaling). All scripts are pure

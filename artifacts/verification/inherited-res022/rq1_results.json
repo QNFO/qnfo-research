@@ -1,0 +1,67 @@
+{
+  "seed": 20260823,
+  "method": "RQ1/RQ2 retrieval benchmark (v2: data-derived single-linkage ultrametric index + hash encoding control)",
+  "corpus_a": {
+    "docs": 200,
+    "clusters": 5,
+    "sparse_dim": 512
+  },
+  "corpus_b": {
+    "docs": 69,
+    "labeled_programs": [
+      "RES",
+      "SLB",
+      "UMP"
+    ],
+    "source": "living-paper papers (400 pinned, 2026-08-23)"
+  },
+  "corpus_A_results": {
+    "cosine_tfidf": {
+      "p@5": 1.0,
+      "p@10": 1.0,
+      "mrr": 1.0
+    },
+    "ultrametric_singlelink": {
+      "p@5": 1.0,
+      "p@10": 1.0,
+      "mrr": 1.0
+    },
+    "padic_hash_control": {
+      "p@5": 0.2067,
+      "p@10": 0.21,
+      "mrr": 0.407
+    }
+  },
+  "corpus_B_results": {
+    "cosine_tfidf": {
+      "p@5": 0.8167,
+      "p@10": 0.8071,
+      "mrr": 0.9722
+    },
+    "ultrametric_singlelink": {
+      "p@5": 0.7567,
+      "p@10": 0.7652,
+      "mrr": 0.95
+    },
+    "padic_hash_control": {
+      "p@5": 0.65,
+      "p@10": 0.6379,
+      "mrr": 0.7767
+    }
+  },
+  "verdict_h1": {
+    "note": "H1 index = data-derived single-linkage ultrametric (Murtagh-aligned recoding). Naive sha256 p-adic hash is the encoding control: hashes destroy metric structure by construction (UIA Q2), so it is expected to underperform and is not the H1 claim.",
+    "per_corpus": [
+      {
+        "corpus": "A",
+        "delta_p10_ultrametric_minus_cosine": 0.0,
+        "ultrametric_matches_or_beats": true
+      },
+      {
+        "corpus": "B",
+        "delta_p10_ultrametric_minus_cosine": -0.04190000000000005,
+        "ultrametric_matches_or_beats": false
+      }
+    ]
+  }
+}

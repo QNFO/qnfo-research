@@ -1,0 +1,98 @@
+{
+  "seed": 20260823,
+  "method": "RQ2 consilience-link test: pairwise ranking by p-adic prefix depth (v_2 of sha256 hash difference) vs cosine TF-IDF; same-label rate at matched selection counts",
+  "corpus_a": {
+    "docs": 200,
+    "pairs": 19900
+  },
+  "corpus_b": {
+    "docs": 69,
+    "pairs": 2346
+  },
+  "corpus_A_topN": [
+    {
+      "topN": 50,
+      "same_rate_padic_depth": 0.12,
+      "same_rate_cosine": 1.0
+    },
+    {
+      "topN": 100,
+      "same_rate_padic_depth": 0.19,
+      "same_rate_cosine": 1.0
+    },
+    {
+      "topN": 200,
+      "same_rate_padic_depth": 0.17,
+      "same_rate_cosine": 1.0
+    }
+  ],
+  "corpus_B_topN": [
+    {
+      "topN": 50,
+      "same_rate_padic_depth": 0.66,
+      "same_rate_cosine": 0.96
+    },
+    {
+      "topN": 100,
+      "same_rate_padic_depth": 0.57,
+      "same_rate_cosine": 0.87
+    },
+    {
+      "topN": 200,
+      "same_rate_padic_depth": 0.625,
+      "same_rate_cosine": 0.845
+    }
+  ],
+  "corpus_A_thresholds": [
+    {
+      "cosine_threshold": 0.3,
+      "n_pairs": 3914,
+      "same_rate_padic_depth": 0.1745,
+      "same_rate_cosine": 0.9964
+    },
+    {
+      "cosine_threshold": 0.5,
+      "n_pairs": 3900,
+      "same_rate_padic_depth": 0.1751,
+      "same_rate_cosine": 1.0
+    },
+    {
+      "cosine_threshold": 0.7,
+      "n_pairs": 1006,
+      "same_rate_padic_depth": 0.2117,
+      "same_rate_cosine": 1.0
+    }
+  ],
+  "corpus_B_thresholds": [
+    {
+      "cosine_threshold": 0.3,
+      "n_pairs": 30,
+      "same_rate_padic_depth": 0.7667,
+      "same_rate_cosine": 1.0
+    },
+    {
+      "cosine_threshold": 0.5,
+      "n_pairs": 19,
+      "same_rate_padic_depth": 0.8421,
+      "same_rate_cosine": 1.0
+    },
+    {
+      "cosine_threshold": 0.7,
+      "n_pairs": 19,
+      "same_rate_padic_depth": 0.8421,
+      "same_rate_cosine": 1.0
+    }
+  ],
+  "verdict_rq2_A": {
+    "rows": 3,
+    "passes": 0,
+    "padic_never_beats_cosine": true,
+    "verdict": "NOT SUPPORTED (raw-hash p-adic prefixes do not identify consilience links better than cosine; encoding-dependent per UIA Q2)"
+  },
+  "verdict_rq2_B": {
+    "rows": 3,
+    "passes": 0,
+    "padic_never_beats_cosine": true,
+    "verdict": "NOT SUPPORTED (raw-hash p-adic prefixes do not identify consilience links better than cosine; encoding-dependent per UIA Q2)"
+  }
+}

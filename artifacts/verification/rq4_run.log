@@ -1,0 +1,11 @@
+RQ4 noise-scaling verification v2 - seed 20260823
+n range: 2..256
+Markovian    : slope = -2.0000 (predicted -2)
+p-adic p=2   : slope = -0.9881 (predicted -1)
+p-adic p=3   : slope = -0.9409
+exact check p2: rel_err = 0.00e+00 -> OK
+exact check p3: rel_err = 0.00e+00 -> OK
+MC sanity @ n=64: rel_err = 0.0014 -> OK
+slope separation: 1.012 > 0.5 -> True
+H3 numeric verdict: True
+rq4 EXIT=0

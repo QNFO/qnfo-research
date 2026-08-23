@@ -1,0 +1,7 @@
+RQ3 Archimedean-limit numeric check v2 - seed 20260823
+b-adic goldens: {'v2(12)': 2, 'v2(8)': 3, 'v3(18)': 2, 'v5(100)': 2} -> OK
+b=2 D=10 n=1024: ultrametric violations=0, var rel_err=0.0394 (golden sigma^2/n), skew=0.088 kurt=0.100 -> PASS
+b=3 D=6 n=729: ultrametric violations=0, var rel_err=0.0036 (golden sigma^2/n), skew=-0.056 kurt=-0.051 -> PASS
+b=2 D=14 n=16384: ultrametric violations=0, var rel_err=0.0303 (golden sigma^2/n), skew=0.001 kurt=-0.032 -> PASS
+H2 numeric verdict: True
+EXIT=0

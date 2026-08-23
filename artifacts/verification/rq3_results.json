@@ -1,0 +1,56 @@
+{
+  "seed": 20260823,
+  "model": "b-adic ultrametric tree (d = b^{-v_b(|i-j|)}), iid N(0,sigma^2) leaves; ergodic mean over leaves; CLT Archimedean limit",
+  "b_adic_goldens": {
+    "v2(12)": 2,
+    "v2(8)": 3,
+    "v3(18)": 2,
+    "v5(100)": 2
+  },
+  "b_adic_goldens_ok": true,
+  "checks": [
+    {
+      "b": 2,
+      "D": 10,
+      "ultrametric_violations": 0,
+      "ultrametric_ok": true,
+      "n_leaves": 1024,
+      "empirical_var": 0.0010149902457998962,
+      "golden_var": 0.0009765625,
+      "relative_error": 0.03935001169909369,
+      "skew": 0.08790444778494828,
+      "excess_kurtosis": 0.09989920261479224,
+      "var_check": true,
+      "gaussian_check": true
+    },
+    {
+      "b": 3,
+      "D": 6,
+      "ultrametric_violations": 0,
+      "ultrametric_ok": true,
+      "n_leaves": 729,
+      "empirical_var": 0.0013766408351469227,
+      "golden_var": 0.0013717421124828531,
+      "relative_error": 0.0035711688221067165,
+      "skew": -0.056134246633771714,
+      "excess_kurtosis": -0.05116395451669087,
+      "var_check": true,
+      "gaussian_check": true
+    },
+    {
+      "b": 2,
+      "D": 14,
+      "ultrametric_violations": 0,
+      "ultrametric_ok": true,
+      "n_leaves": 16384,
+      "empirical_var": 6.288730410508539e-05,
+      "golden_var": 6.103515625e-05,
+      "relative_error": 0.030345590457719007,
+      "skew": 0.0009368282192362948,
+      "excess_kurtosis": -0.032104192191562575,
+      "var_check": true,
+      "gaussian_check": true
+    }
+  ],
+  "verdict_h2_numeric": true
+}

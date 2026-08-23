@@ -1,0 +1,20 @@
+RQ2 consilience-link verification - seed 20260823
+Corpus A: 200 docs, 19900 pairs
+Corpus B: 69 docs, 2346 pairs
+Corpus A top-N same-label rates (padic_depth vs cosine):
+  N=50   padic=0.1200 cosine=1.0000
+  N=100  padic=0.1900 cosine=1.0000
+  N=200  padic=0.1700 cosine=1.0000
+  theta=0.3 n=3914 padic=0.1745 cosine=0.9964
+  theta=0.5 n=3900 padic=0.1751 cosine=1.0000
+  theta=0.7 n=1006 padic=0.2117 cosine=1.0000
+  verdict: NOT SUPPORTED (raw-hash p-adic prefixes do not identify consilience links better than cosine; encoding-dependent per UIA Q2)
+Corpus B top-N same-label rates (padic_depth vs cosine):
+  N=50   padic=0.6600 cosine=0.9600
+  N=100  padic=0.5700 cosine=0.8700
+  N=200  padic=0.6250 cosine=0.8450
+  theta=0.3 n=30   padic=0.7667 cosine=1.0000
+  theta=0.5 n=19   padic=0.8421 cosine=1.0000
+  theta=0.7 n=19   padic=0.8421 cosine=1.0000
+  verdict: NOT SUPPORTED (raw-hash p-adic prefixes do not identify consilience links better than cosine; encoding-dependent per UIA Q2)
+EXIT=0
