@@ -1,0 +1,9 @@
+KG-NODE: True 1 []
+READBACK: [
+ {
+  "id": "paper:keyword-taxonomy-consilience",
+  "label": "Paper",
+  "properties": "{\"doi\": \"10.5281/zenodo.22071421\", \"zenodo_doi\": \"10.5281/zenodo.22071421\", \"distribution_status\": \"distributed\", \"r2_path\": \"2026/08/keyword-taxonomy-consilience/\", \"r2_readme\": \"2026/08/keyword-taxonomy-consilience/README.md\", \"version\": \"v1.0\", \"wbs\": \"RES.022\", \"phase\": \"P7\", \"status\": \"published\", \"concept_doi\": \"10.5281/zenodo.22071420\", \"published_at\": \"2026-08-23\"}"
+ }
+]
+EXIT=0

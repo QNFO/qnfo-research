@@ -1,0 +1,264 @@
+DEPOSIT FILES: 37
+[
+ {
+  "file": "rq1_run.log",
+  "size": 1045,
+  "md5": "47d0134248ecb86627e55edbbc52533a",
+  "put": 200,
+  "bytes": 1045
+ },
+ {
+  "file": "p6_gate_check.json",
+  "size": 4269,
+  "md5": "56502a6f4a5f04594c00b80a35c9fb44",
+  "put": 200,
+  "bytes": 4269
+ },
+ {
+  "file": "QNFO-KEYWORD-TAXONOMY.md",
+  "size": 12684,
+  "md5": "e2081ef1d93fdc29bd0da88f33386f45",
+  "put": 200,
+  "bytes": 12684
+ },
+ {
+  "file": "universal-ignorance-audit.md",
+  "size": 9980,
+  "md5": "6a94a78d8fee9a3d37a5c177d2344b29",
+  "put": 200,
+  "bytes": 9980
+ },
+ {
+  "file": "rq1_retrieval_benchmark.py",
+  "size": 10920,
+  "md5": "5bb856a03a0119093f285b986efa62a4",
+  "put": 200,
+  "bytes": 10920
+ },
+ {
+  "file": "verification-summary.md",
+  "size": 6605,
+  "md5": "c14f62dd9bf11221c013cb383a1048dd",
+  "put": 200,
+  "bytes": 6605
+ },
+ {
+  "file": "rq2_run.log",
+  "size": 1017,
+  "md5": "66b9153256908c4f0fa19b98f52875c0",
+  "put": 200,
+  "bytes": 1017
+ },
+ {
+  "file": "rq5_results.json",
+  "size": 6263,
+  "md5": "9d7349db7af388006f611e7394d2a5b8",
+  "put": 200,
+  "bytes": 6263
+ },
+ {
+  "file": "citation-audit.md",
+  "size": 3697,
+  "md5": "ea2f888a39dc0ac2a1fa753cc1a65f74",
+  "put": 200,
+  "bytes": 3697
+ },
+ {
+  "file": "arxiv-evidence-2026-08-23.json",
+  "size": 4177,
+  "md5": "71e4b0ba60b0ba0172cf544dada5fdbc",
+  "put": 200,
+  "bytes": 4177
+ },
+ {
+  "file": "references.bib",
+  "size": 6188,
+  "md5": "e459ed8e65fedb908034865eceadea74",
+  "put": 200,
+  "bytes": 6188
+ },
+ {
+  "file": "rq3_results.json",
+  "size": 1576,
+  "md5": "ff48ce9501da04350160d7211d8dbdda",
+  "put": 200,
+  "bytes": 1576
+ },
+ {
+  "file": "rq4_run.log",
+  "size": 393,
+  "md5": "a26948c7b1d8914079c064a9c8785e68",
+  "put": 200,
+  "bytes": 393
+ },
+ {
+  "file": "rq2_consilience_links.py",
+  "size": 8837,
+  "md5": "e2981e5209a36edad6c7abf21e82d38e",
+  "put": 200,
+  "bytes": 8837
+ },
+ {
+  "file": "keyword-taxonomy-consilience.html",
+  "size": 38957,
+  "md5": "f0d00bcec0845da1f4e2dcba2e02a8f5",
+  "put": 200,
+  "bytes": 38957
+ },
+ {
+  "file": "due-diligence-phase1.md",
+  "size": 9088,
+  "md5": "4cffc7c355851106551a9e776737cf4e",
+  "put": 200,
+  "bytes": 9088
+ },
+ {
+  "file": "p2-consilience-map.json",
+  "size": 108956,
+  "md5": "98059502e1deebf4a8c83cd3185567a1",
+  "put": 200,
+  "bytes": 108956
+ },
+ {
+  "file": "p6_gate_check.log",
+  "size": 4278,
+  "md5": "16d8eb43c3228ff7d0e2c68bdeb492d5",
+  "put": 200,
+  "bytes": 4278
+ },
+ {
+  "file": "keyword-taxonomy-consilience.md",
+  "size": 31864,
+  "md5": "49ec02c906bd754752d8f84ba07e2941",
+  "put": 200,
+  "bytes": 31864
+ },
+ {
+  "file": "rq1_results.json",
+  "size": 1669,
+  "md5": "debd761ba8cdae9fed89638556f4277d",
+  "put": 200,
+  "bytes": 1669
+ },
+ {
+  "file": "keyword-taxonomy-source.md",
+  "size": 13016,
+  "md5": "a78da7b839091bcf81d675891e22a4d5",
+  "put": 200,
+  "bytes": 13016
+ },
+ {
+  "file": "keyword-taxonomy-consilience.pdf",
+  "size": 152380,
+  "md5": "e9edaee8f1330f04163f7a6d0b2ce711",
+  "put": 200,
+  "bytes": 152380
+ },
+ {
+  "file": "rq3_archimedean_limit.py",
+  "size": 4683,
+  "md5": "49e533ecdd51fe9b1766c97ad0cd9ed8",
+  "put": 200,
+  "bytes": 4683
+ },
+ {
+  "file": "corpus_qnfo_titles.json",
+  "size": 44315,
+  "md5": "d9ef82359a03b3207bcd259b22568259",
+  "put": 200,
+  "bytes": 44315
+ },
+ {
+  "file": "README.md",
+  "size": 3949,
+  "md5": "3d1a60820ae4165357d0f0a2525ac741",
+  "put": 200,
+  "bytes": 3949
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "size": 10316,
+  "md5": "345924cbbb4c3ab0b2a16093042893af",
+  "put": 200,
+  "bytes": 10316
+ },
+ {
+  "file": "deep-research.md",
+  "size": 4849,
+  "md5": "a17400b60259f997b0212a2319f914e8",
+  "put": 200,
+  "bytes": 4849
+ },
+ {
+  "file": "p2-consilience-map.md",
+  "size": 6115,
+  "md5": "be56e1471ca8ecd0a76da6e9fd617b94",
+  "put": 200,
+  "bytes": 6115
+ },
+ {
+  "file": "rq4_results.json",
+  "size": 1058,
+  "md5": "eb58593ef33582b107cee416ee6c9679",
+  "put": 200,
+  "bytes": 1058
+ },
+ {
+  "file": "arxiv-evidence-g5-2026-08-23.json",
+  "size": 1506,
+  "md5": "fb2ac4b24e205efad130910dc3ba7d31",
+  "put": 200,
+  "bytes": 1506
+ },
+ {
+  "file": "rq5_keyword_load.py",
+  "size": 14514,
+  "md5": "b014ee9cda14f31d4b2a23bd9408f051",
+  "put": 200,
+  "bytes": 14514
+ },
+ {
+  "file": "rq2_results.json",
+  "size": 2405,
+  "md5": "5cdb1612a7f102a136e81d276894971f",
+  "put": 200,
+  "bytes": 2405
+ },
+ {
+  "file": "rq4_noise_scaling.py",
+  "size": 5321,
+  "md5": "32ee096eccb640c3a69b52d8d5615af9",
+  "put": 200,
+  "bytes": 5321
+ },
+ {
+  "file": "rq3_run.log",
+  "size": 507,
+  "md5": "9368b4bef7b9abc83d68664392978e0a",
+  "put": 200,
+  "bytes": 507
+ },
+ {
+  "file": "p6_gate_check.py",
+  "size": 2698,
+  "md5": "3a0cc9ceabed6531292930c2accede12",
+  "put": 200,
+  "bytes": 2698
+ },
+ {
+  "file": "red-team-p5-2026-08-23.md",
+  "size": 8221,
+  "md5": "cd36ac5b4ca4d36361d0215073b69031",
+  "put": 200,
+  "bytes": 8221
+ },
+ {
+  "file": "rq5_run.log",
+  "size": 1696,
+  "md5": "f952255300f6919d154029e73a93d1ef",
+  "put": 200,
+  "bytes": 1696
+ }
+]
+MIRRORED 37/37
+EXIT=0

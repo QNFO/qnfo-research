@@ -1,0 +1,43 @@
+R2 OBJECTS: 37
+   2026/08/keyword-taxonomy-consilience/PROJECT-PLAN.md 10316 345924cbbb4c3ab0b2a16093042893af
+   2026/08/keyword-taxonomy-consilience/QNFO-KEYWORD-TAXONOMY.md 12684 e2081ef1d93fdc29bd0da88f33386f45
+   2026/08/keyword-taxonomy-consilience/README.md 3949 3d1a60820ae4165357d0f0a2525ac741
+   2026/08/keyword-taxonomy-consilience/arxiv-evidence-2026-08-23.json 4177 71e4b0ba60b0ba0172cf544dada5fdbc
+   2026/08/keyword-taxonomy-consilience/arxiv-evidence-g5-2026-08-23.json 1506 fb2ac4b24e205efad130910dc3ba7d31
+   2026/08/keyword-taxonomy-consilience/citation-audit.md 3697 ea2f888a39dc0ac2a1fa753cc1a65f74
+   2026/08/keyword-taxonomy-consilience/corpus_qnfo_titles.json 44315 d9ef82359a03b3207bcd259b22568259
+   2026/08/keyword-taxonomy-consilience/deep-research.md 4849 a17400b60259f997b0212a2319f914e8
+   2026/08/keyword-taxonomy-consilience/due-diligence-phase1.md 9088 4cffc7c355851106551a9e776737cf4e
+   2026/08/keyword-taxonomy-consilience/keyword-taxonomy-consilience.html 38957 f0d00bcec0845da1f4e2dcba2e02a8f5
+   2026/08/keyword-taxonomy-consilience/keyword-taxonomy-consilience.md 31864 49ec02c906bd754752d8f84ba07e2941
+   2026/08/keyword-taxonomy-consilience/keyword-taxonomy-consilience.pdf 152380 e9edaee8f1330f04163f7a6d0b2ce711
+   2026/08/keyword-taxonomy-consilience/keyword-taxonomy-source.md 13016 a78da7b839091bcf81d675891e22a4d5
+   2026/08/keyword-taxonomy-consilience/p2-consilience-map.json 108956 98059502e1deebf4a8c83cd3185567a1
+   2026/08/keyword-taxonomy-consilience/p2-consilience-map.md 6115 be56e1471ca8ecd0a76da6e9fd617b94
+   2026/08/keyword-taxonomy-consilience/p6_gate_check.json 4269 56502a6f4a5f04594c00b80a35c9fb44
+   2026/08/keyword-taxonomy-consilience/p6_gate_check.log 4278 16d8eb43c3228ff7d0e2c68bdeb492d5
+   2026/08/keyword-taxonomy-consilience/p6_gate_check.py 2698 3a0cc9ceabed6531292930c2accede12
+   2026/08/keyword-taxonomy-consilience/red-team-p5-2026-08-23.md 8221 cd36ac5b4ca4d36361d0215073b69031
+   2026/08/keyword-taxonomy-consilience/references.bib 6188 e459ed8e65fedb908034865eceadea74
+   2026/08/keyword-taxonomy-consilience/rq1_results.json 1669 debd761ba8cdae9fed89638556f4277d
+   2026/08/keyword-taxonomy-consilience/rq1_retrieval_benchmark.py 10920 5bb856a03a0119093f285b986efa62a4
+   2026/08/keyword-taxonomy-consilience/rq1_run.log 1045 47d0134248ecb86627e55edbbc52533a
+   2026/08/keyword-taxonomy-consilience/rq2_consilience_links.py 8837 e2981e5209a36edad6c7abf21e82d38e
+   2026/08/keyword-taxonomy-consilience/rq2_results.json 2405 5cdb1612a7f102a136e81d276894971f
+   2026/08/keyword-taxonomy-consilience/rq2_run.log 1017 66b9153256908c4f0fa19b98f52875c0
+   2026/08/keyword-taxonomy-consilience/rq3_archimedean_limit.py 4683 49e533ecdd51fe9b1766c97ad0cd9ed8
+   2026/08/keyword-taxonomy-consilience/rq3_results.json 1576 ff48ce9501da04350160d7211d8dbdda
+   2026/08/keyword-taxonomy-consilience/rq3_run.log 507 9368b4bef7b9abc83d68664392978e0a
+   2026/08/keyword-taxonomy-consilience/rq4_noise_scaling.py 5321 32ee096eccb640c3a69b52d8d5615af9
+   2026/08/keyword-taxonomy-consilience/rq4_results.json 1058 eb58593ef33582b107cee416ee6c9679
+   2026/08/keyword-taxonomy-consilience/rq4_run.log 393 a26948c7b1d8914079c064a9c8785e68
+   2026/08/keyword-taxonomy-consilience/rq5_keyword_load.py 14514 b014ee9cda14f31d4b2a23bd9408f051
+   2026/08/keyword-taxonomy-consilience/rq5_results.json 6263 9d7349db7af388006f611e7394d2a5b8
+   2026/08/keyword-taxonomy-consilience/rq5_run.log 1696 f952255300f6919d154029e73a93d1ef
+   2026/08/keyword-taxonomy-consilience/universal-ignorance-audit.md 9980 6a94a78d8fee9a3d37a5c177d2344b29
+   2026/08/keyword-taxonomy-consilience/verification-summary.md 6605 c14f62dd9bf11221c013cb383a1048dd
+DOWNLOAD-BACK keyword-taxonomy-consilience.md: 31864 bytes md5=49ec02c906bd754752d8f84ba07e2941
+DOWNLOAD-BACK keyword-taxonomy-consilience.pdf: 152380 bytes md5=e9edaee8f1330f04163f7a6d0b2ce711
+DOWNLOAD-BACK README.md: 3949 bytes md5=3d1a60820ae4165357d0f0a2525ac741
+VERIFY-OK
+EXIT=0
