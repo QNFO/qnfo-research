@@ -2,8 +2,9 @@
 title: "Terminology Silos and the Consilience Gap: A Quantitative Audit of Cross-Domain Vocabulary"
 author: Rowan Brad Quni-Gudzinas
 date: 2026-08-24
-version: v0.1
+version: v1.0
 license: CC BY 4.0
+doi: 10.5281/zenodo.22075544
 ---
 
 ## Abstract
@@ -21,7 +22,7 @@ occurs in exactly one discipline; the shared core (terms in three or more
 disciplines) is empty; and the 2.8% of terms that do bridge disciplines are
 massively enriched in method-level vocabulary (machine learning, language
 models, upper bounds) rather than structural concepts (Fisher exact
-p = 1e-6, odds ratio 70). On the QNFO corpus, semantically linked papers
+p = 8.5e-7, odds ratio 70). On the QNFO corpus, semantically linked papers
 within a program share title vocabulary (mean Jaccard 0.11 vs 0.03 random),
 while the cross-domain semantic bridges the program itself cites carry zero
 lexical signal unless an author deliberately wrote the bridge into a title.
@@ -56,14 +57,12 @@ its technical terms, then keyword-based discovery is a 3%-recall instrument
 for the connections that interdisciplinary consilience depends on. That is
 the gap this paper measures and then proposes infrastructure for.
 
-### Why a reader should care
-
-If you search for related work and miss the field that already solved your
-problem under a different name, you are paying the terminology silo tax.
-This paper tells you the size of the tax (97% of technical vocabulary is
-domain-local), its structure (what little is shared is method, not
-substance), and what to do about it (build bridge vocabularies; do not wait
-for them to emerge).
+The stake for a reader is direct: if you search for related work and miss
+the field that already solved your problem under a different name, you are
+paying the terminology silo tax. This paper measures the size of the tax
+(97% of technical vocabulary is domain-local), its structure (what little
+is shared is method, not substance), and what to do about it (build bridge
+vocabularies; do not wait for them to emerge).
 
 ## 2. The seed audit: a seven-domain organization's own vocabulary
 
@@ -164,7 +163,7 @@ The 13 bridge terms are the interesting residue:
 The structural probe quantifies the method bias: of the 13 bridges, 5 are
 method/pattern terms; of the 453 domain-local terms, only 4 are. The Fisher
 exact test on the bridge x general-family contingency gives
-p = 1.1e-6 with odds ratio 70.2 — bridge vocabulary is seventy times more
+p = 8.5e-7 with odds ratio 70.2 — bridge vocabulary is seventy times more
 likely to be method vocabulary than domain-local vocabulary is. What
 travels between disciplines is not the structural substance (hierarchies,
 valuations, measures) but the toolkit (learning, models, bounds).
@@ -219,7 +218,7 @@ title ("Valuation Without R"). Vocabulary bridges are built, not emergent.
 | Hypothesis | Prediction | Result |
 |:-----------|:-----------|:-------|
 | H-SILO-1 | partitionality >= 0.90 | **Confirmed** (0.9721 external; 0.9970 seed) |
-| H-SILO-2 | bridge share < 0.10; Fisher p < 0.05 | **Confirmed** (0.0279; p = 1.1e-6, OR 70.2) |
+| H-SILO-2 | bridge share < 0.10; Fisher p < 0.05 | **Confirmed** (0.0279; p = 8.5e-7, OR 70.2) |
 | H-SILO-3 | semantic links carry no lexical signature | **Supported** (0.0 on non-authored bridges; within-program links visible) |
 
 ## 6. Why silos persist

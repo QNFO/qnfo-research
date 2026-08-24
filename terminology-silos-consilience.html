@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-24" />
+  <title>Terminology Silos and the Consilience Gap: A Quantitative Audit of Cross-Domain Vocabulary</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <style>
+  /* Protocol-compliant PDF style (research v2.134 gates):
+     - A4 explicit size (210mm x 297mm)
+     - 2cm margins all around (user mandate: standard margins)
+     - page numbers bottom-center (Chromium footerTemplate)
+     - serif body, no color bleed, tables keep together */
+  @page {
+    size: 210mm 297mm;
+    margin: 20mm 20mm 20mm 20mm;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #111;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #000;
+    page-break-after: avoid;
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  h1 { font-size: 16pt; margin: 0 0 6pt 0; }
+  h2 { font-size: 13pt; margin: 14pt 0 6pt 0; border-bottom: 0.5pt solid #999; padding-bottom: 3pt; }
+  h3 { font-size: 11.5pt; margin: 10pt 0 4pt 0; }
+
+  p { margin: 0 0 6pt 0; orphans: 3; widows: 3; }
+
+  a { color: #1a3c6e; text-decoration: none; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 6pt 0 10pt 0;
+    page-break-inside: avoid;
+    font-size: 9pt;
+  }
+  th, td {
+    border: 0.5pt solid #555;
+    padding: 3pt 5pt;
+    vertical-align: top;
+    text-align: left;
+  }
+  th { background: #f2f2f2; font-weight: bold; }
+
+  blockquote {
+    margin: 6pt 0 6pt 14pt;
+    padding-left: 10pt;
+    border-left: 2pt solid #aaa;
+    color: #222;
+    font-style: italic;
+  }
+
+  pre, code {
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 8.5pt;
+    background: #f8f8f8;
+  }
+  pre { padding: 6pt; border: 0.5pt solid #ccc; page-break-inside: avoid; }
+
+  ul, ol { margin: 0 0 6pt 0; padding-left: 18pt; }
+  li { margin-bottom: 2pt; }
+
+  sup, sub { font-size: 75%; }
+
+  hr { border: none; border-top: 0.5pt solid #999; margin: 10pt 0; }
+
+  img { max-width: 100%; }
+
+  /* no page-break inside list items or table rows */
+  tr { page-break-inside: avoid; }
+
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Terminology Silos and the Consilience Gap: A
+Quantitative Audit of Cross-Domain Vocabulary</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-24</p>
+</header>
+<h2 id="abstract">Abstract</h2>
+<p>Interdisciplinary consilience is claimed everywhere and measured
+almost nowhere. This paper measures one of its basic preconditions:
+whether scientific domains share vocabulary. We generalize the
+keyword-taxonomy audit of the QNFO research program (a seven-domain
+organization whose own canonical taxonomy proved strictly partitional —
+334 of 335 keywords occur in exactly one domain) into a quantitative
+instrument and apply it to an external sample of six arXiv disciplines
+(240 recent abstracts; 466 technical compound terms). The result:
+terminology silos are the norm, not an organizational accident. 97.2% of
+the external technical vocabulary occurs in exactly one discipline; the
+shared core (terms in three or more disciplines) is empty; and the 2.8%
+of terms that do bridge disciplines are massively enriched in
+method-level vocabulary (machine learning, language models, upper
+bounds) rather than structural concepts (Fisher exact p = 8.5e-7, odds
+ratio 70). On the QNFO corpus, semantically linked papers within a
+program share title vocabulary (mean Jaccard 0.11 vs 0.03 random), while
+the cross-domain semantic bridges the program itself cites carry zero
+lexical signal unless an author deliberately wrote the bridge into a
+title. We conclude that the consilience gap is in part a vocabulary gap:
+shared terminology is rare, structurally biased toward methods, and
+built rather than emergent. The paper closes with the infrastructure
+response — bridge vocabularies as first-class research infrastructure,
+taxonomy engineering, and semantic mapping — and states where its
+premises end.</p>
+<h2 id="introduction">1. Introduction</h2>
+<p>A researcher in quantum foundations, a researcher in algebraic number
+theory, and a researcher in machine learning can work on the same
+structural object — a nested, hierarchical partition of a state space —
+and never discover each other. The first calls it a measurement
+hierarchy, the second calls it a valuation, the third calls it a cluster
+tree. Their vocabularies do not overlap; their results do.</p>
+<p>This is the terminology silo problem. It is a commonplace complaint
+of interdisciplinary research that “we all mean the same thing but use
+different words.” It is rarely quantified. This paper quantifies it, at
+two scales: the internal scale of a single research organization (the
+QNFO program, seven research domains sharing one canonical keyword
+taxonomy) and the external scale of six scientific disciplines sampled
+from arXiv.</p>
+<p>The motivation is not lexicographic. Large-scale scientific progress
+is increasingly bottlenecked at the vocabulary layer: literature search,
+citation graphs, knowledge graphs, and AI-assisted synthesis all operate
+primarily on lexical matching, and lexical matching systematically
+misses cross-domain correspondences. If the shared vocabulary of science
+is 3% of its technical terms, then keyword-based discovery is a
+3%-recall instrument for the connections that interdisciplinary
+consilience depends on. That is the gap this paper measures and then
+proposes infrastructure for.</p>
+<p>The stake for a reader is direct: if you search for related work and
+miss the field that already solved your problem under a different name,
+you are paying the terminology silo tax. This paper measures the size of
+the tax (97% of technical vocabulary is domain-local), its structure
+(what little is shared is method, not substance), and what to do about
+it (build bridge vocabularies; do not wait for them to emerge).</p>
+<h2 id="the-seed-audit-a-seven-domain-organizations-own-vocabulary">2.
+The seed audit: a seven-domain organization’s own vocabulary</h2>
+<p>The QNFO research program spans seven domains — ultrametric physics
+(UMP), the laws of form (SLB), infomatics (INM), paradigm engineering
+(CFE), consilience research (RES), a cloud-native platform (PLT), and
+interactive demos (DEM) — and maintains a canonical keyword taxonomy of
+335 terms for GitHub discovery (docs/QNFO-KEYWORD-TAXONOMY.md v1.0,
+2026-08-05). The program’s central claim is that the seven domains are
+seven vocabularies for one structural object: nested hierarchical
+partition logic.</p>
+<p>A computational audit of that taxonomy (10.5281/zenodo.22071421)
+found the claim lexically unsupported. 334 of 335 keywords occur in
+exactly one program; exactly one keyword (complexity-measure) occurs in
+two; none occurs in three or more. The taxonomy’s own bridge subsections
+— named bridge concepts inside each program — are program-local anchors:
+they name connections without instantiating shared vocabulary. A Fisher
+exact test of whether the four bridge families (valuation, hierarchy,
+distinction, bound) coincide with load-bearing vocabulary (keywords
+shared by three or more programs) gives p = 1.0: no enrichment
+whatsoever. The consilience, if it exists, is semantic — carried by
+corpus-level links between records — not lexical.</p>
+<p>This single-case result invites the general question: is the QNFO
+taxonomy an organizational artifact, or a microcosm of science? The rest
+of this paper treats it as a hypothesis source and builds an instrument
+that can be applied to any domain partition.</p>
+<h2 id="definitions-and-instrument">3. Definitions and instrument</h2>
+<p>Three quantities, all computed from a domain-keyword partition (a set
+of domains, each with a set of technical terms):</p>
+<ol type="1">
+<li><strong>Partitionality index</strong> — the fraction of distinct
+keywords occurring in exactly one domain. A partitionality of 1.0 means
+total vocabulary isolation; 0.0 means every term is shared.</li>
+<li><strong>Bridge share</strong> — the fraction of distinct keywords
+occurring in two or more domains. The complement of local
+vocabulary.</li>
+<li><strong>Shared core</strong> — keywords occurring in three or more
+domains (a load-bearing shared vocabulary in the sense of the seed
+audit).</li>
+</ol>
+<p>Plus a structural probe: a one-sided Fisher exact test on the bridge
+x general-family contingency, where the general family is a curated list
+of structurally general method and pattern terms (machine learning,
+neural networks, Monte Carlo, phase transitions, upper bounds, and
+similar vocabulary that plausibly travels across fields). The test asks
+whether bridge terms are drawn preferentially from the general family
+rather than uniformly from all vocabulary.</p>
+<p><strong>Vocabulary extraction.</strong> For the external sample,
+technical vocabulary is extracted from paper titles and abstracts as
+compound terms (bigrams of content words), after removing a large
+stopword set (function words and generic science shells such as “model”,
+“system”, “theory”, “study”, “field”, “structure”). Bigrams are used
+because modern technical vocabulary is overwhelmingly compound
+(phase-transition, neural-network, monte-carlo, p-adic); single tokens
+are too ambiguous to discriminate domains. Per domain, the 80 most
+frequent bigrams (frequency at least 2 in the sample) form the domain
+vocabulary. The extraction is deterministic: no randomness, fixed seed
+policy for any sampling.</p>
+<p>The instrument reproduces the published seed audit exactly
+(validation 9/9: 335 distinct keywords, 334 local, one shared-by-two,
+zero core, 53/282 family-bridge contingency, Fisher p = 1.0), so the
+external numbers below rest on a validated pipeline.</p>
+<h2 id="results-i-six-disciplines-one-vocabulary-wall">4. Results I: six
+disciplines, one vocabulary wall</h2>
+<p>Six arXiv categories were sampled (40 most recent abstracts each,
+fetched 2026-08-24): quantum physics (quant-ph), number theory
+(math.NT), machine learning (cs.LG), genomics (q-bio.GN), materials
+science (cond-mat.mtrl-sci), and economic theory (econ.TH). Vocabulary
+extraction yielded 466 distinct technical bigrams across the six
+domains.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Distinct technical terms</td>
+<td style="text-align: right;">466</td>
+</tr>
+<tr>
+<td style="text-align: left;">Domain-local terms (exactly one
+domain)</td>
+<td style="text-align: right;">453</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Partitionality index</strong></td>
+<td style="text-align: right;"><strong>0.9721</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Bridge terms (two or more domains)</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td style="text-align: left;">Bridge share</td>
+<td style="text-align: right;">0.0279</td>
+</tr>
+<tr>
+<td style="text-align: left;">Shared core (three or more domains)</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>The partitionality hypothesis (H-SILO-1: at least 90% of vocabulary
+domain-local) is confirmed: 97.2%. The shared core is empty at the
+three-domain threshold. Interdisciplinary rhetoric notwithstanding, six
+disciplines share essentially no technical vocabulary beyond chance.</p>
+<p>The 13 bridge terms are the interesting residue:</p>
+<ul>
+<li><strong>Method vocabulary:</strong> machine-learning,
+language-model, language-models, foundation-models, upper-bound (5 of
+13).</li>
+<li><strong>Shared objects:</strong> boron-nitride, quantum-defects,
+defects-zno, double-substitutional, optically-quantum,
+candidate-quantum, candidates-optically (7 of 13 — two disciplines
+working on the same materials).</li>
+<li><strong>Shared application:</strong> drug-discovery (1 of 13).</li>
+</ul>
+<p>The structural probe quantifies the method bias: of the 13 bridges, 5
+are method/pattern terms; of the 453 domain-local terms, only 4 are. The
+Fisher exact test on the bridge x general-family contingency gives p =
+8.5e-7 with odds ratio 70.2 — bridge vocabulary is seventy times more
+likely to be method vocabulary than domain-local vocabulary is. What
+travels between disciplines is not the structural substance
+(hierarchies, valuations, measures) but the toolkit (learning, models,
+bounds).</p>
+<p>The QNFO seed case shows the same structure in extremis: bridge share
+0.0030, and its own bridge families show zero enrichment against
+load-bearing vocabulary (p = 1.0). The seed’s bridge vocabulary is
+domain-anchored (ostrowski-theorem, idele-class-group) rather than
+method-level — an organization whose bridge infrastructure is homegrown,
+not imported.</p>
+<h2
+id="results-ii-the-qnfo-corpus-semantic-links-and-lexical-silence">5.
+Results II: the QNFO corpus — semantic links and lexical silence</h2>
+<p>The external sample measures vocabulary; the QNFO corpus (578 titled
+records in the living paper) measures whether semantic relatedness is
+lexically visible. Three probes.</p>
+<p><strong>Probe 1 — the knowledge-graph link network is
+program-local.</strong> The QNFO knowledge graph’s paper-to-paper
+semantic edges (CITES, DEPENDS_ON, MOTIVATES, REFINES, BRIDGES,
+REFERENCES, SUPERSEDES, LINKS_TO, RELATES_TO) resolve to 40 pairs of
+corpus records. Classifying each record into its program by
+title-vocabulary overlap with the taxonomy, 8 pairs are same-program and
+0 pairs are cross-program (32 pairs involve at least one unclassifiable
+endpoint). The graph links papers within programs; it has not yet built
+the cross-program network. The link infrastructure is itself siloed.</p>
+<p><strong>Probe 2 — within-program links are lexically
+visible.</strong> Same-program linked pairs share title vocabulary at
+mean Jaccard 0.115, against 0.028 for random pairs (seeded, same
+cardinality): a +0.086 elevation. Within a program, shared vocabulary
+tracks semantic relatedness. This is the partitional null: vocabulary
+signals structure only inside a domain.</p>
+<p><strong>Probe 3 — the cited cross-domain bridges carry zero lexical
+signal.</strong> The umbrella program paper (10.5281/zenodo.22073477,
+section 5.1) cites three corpus records as the semantic bridges that
+carry the consilience: measurement stratigraphy linking epistemology to
+valuation theory (10.5281/zenodo.21705220), the valuation-without-reals
+framework (10.5281/zenodo.21803677), and ultrametric topology in
+semantic memory (10.5281/zenodo.19564091). The first pair
+(measurement-stratigraphy vs adelic-shannon-theory) has title-vocabulary
+Jaccard <strong>0.0000</strong>; the third pair (silent-radix
+cryptography vs ultrametric numeration) also 0.0000. The consilience is
+lexically invisible where no author built the bridge.</p>
+<p>The single visible exception proves the rule: the
+valuation-without-reals record shares the token “valuation” with
+measurement stratigraphy at Jaccard 0.333 — because its author
+deliberately wrote the bridge into the title (“Valuation Without R”).
+Vocabulary bridges are built, not emergent.</p>
+<p><strong>Summary of hypothesis outcomes.</strong></p>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 37%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Hypothesis</th>
+<th style="text-align: left;">Prediction</th>
+<th style="text-align: left;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">H-SILO-1</td>
+<td style="text-align: left;">partitionality &gt;= 0.90</td>
+<td style="text-align: left;"><strong>Confirmed</strong> (0.9721
+external; 0.9970 seed)</td>
+</tr>
+<tr>
+<td style="text-align: left;">H-SILO-2</td>
+<td style="text-align: left;">bridge share &lt; 0.10; Fisher p &lt;
+0.05</td>
+<td style="text-align: left;"><strong>Confirmed</strong> (0.0279; p =
+8.5e-7, OR 70.2)</td>
+</tr>
+<tr>
+<td style="text-align: left;">H-SILO-3</td>
+<td style="text-align: left;">semantic links carry no lexical
+signature</td>
+<td style="text-align: left;"><strong>Supported</strong> (0.0 on
+non-authored bridges; within-program links visible)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="why-silos-persist">6. Why silos persist</h2>
+<p>The measurement explains the phenomenon; the persistence mechanisms
+are incentive and infrastructure. Four evidence-grounded mechanisms:</p>
+<ol type="1">
+<li><strong>Field-local prestige economies.</strong> Publication,
+hiring, and funding reward vocabulary mastery within a field; mastery is
+signaled by using the field’s terms, not by translating them. The QNFO
+seed shows the organizational version: programs are rewarded for domain
+depth, and the taxonomy’s bridge subsections exist precisely because
+nothing in the ordinary keyword flow crosses boundaries.</li>
+<li><strong>Vocabulary gatekeeping by venues.</strong> Journals,
+conferences, and archives curate keyword taxonomies that are
+field-scoped. A term that does not appear in the venue’s taxonomy is
+invisible to its search; authors optimize for the venue’s vocabulary,
+deepening the partition.</li>
+<li><strong>Translation costs.</strong> Establishing that “valuation” in
+number theory corresponds to “measurement hierarchy” in epistemology
+costs verification effort that the author bears alone and the field does
+not reward. The QNFO corpus demonstrates the result: where an author
+paid the cost (the “Valuation Without R” title), the bridge is visible;
+elsewhere it is not.</li>
+<li><strong>Path dependence in taxonomy formation.</strong> Keyword
+taxonomies grow by accretion inside domains; they are rarely audited for
+cross-domain overlap, and no one owns the intersection. The seed audit
+is itself the exception that tests the rule: it took a computational
+audit to discover that an organization’s own vocabulary was 99.7%
+partitional.</li>
+</ol>
+<h2 id="what-the-silo-costs">7. What the silo costs</h2>
+<p>The measurable proxies from this study bound the cost:</p>
+<ul>
+<li><strong>Discovery failure.</strong> With a 2.8% bridge share,
+keyword search for a concept outside the searcher’s home domain has a
+recall ceiling of a few percent for cross-domain correspondences. The
+exemplar result (Jaccard 0.0 between two records the program itself
+cites as semantically linked) shows the failure at record level: the
+linkage exists in prose, not in vocabulary, so it is invisible to
+lexical retrieval.</li>
+<li><strong>Duplicated discovery.</strong> Fields that cannot see each
+other’s vocabulary cannot see each other’s results; the same structural
+result is re-derived under new names. The method-bias finding (bridges
+are 70x enriched in method vocabulary) sharpens this: disciplines import
+each other’s tools while remaining blind to each other’s
+structures.</li>
+<li><strong>Convergence delay.</strong> Cross-domain consilience — the
+recognition that two fields describe one object — is the rate-limiting
+step for large-scale synthesis. If vocabulary is 97% partitional,
+consilience is never discoverable bottom-up; it requires an explicit act
+of bridge-building.</li>
+</ul>
+<h2 id="consilience-infrastructure-bridges-are-built-not-emergent">8.
+Consilience infrastructure: bridges are built, not emergent</h2>
+<p>The constructive response follows directly from the measurement. If
+shared vocabulary is rare, method-biased, and author-made, then
+consilience needs deliberate vocabulary infrastructure:</p>
+<ol type="1">
+<li><strong>Bridge vocabularies as first-class artifacts.</strong> A
+bridge vocabulary is a maintained, versioned mapping between the terms
+of two or more domains, with verification notes (which terms correspond,
+at what level of structural fidelity). The QNFO taxonomy’s bridge
+subsections are a primitive version; the corpus’s title-visible bridges
+are the worked examples of the practice.</li>
+<li><strong>Taxonomy engineering with an intersection owner.</strong>
+Every domain taxonomy should have a named owner of the intersection: a
+person or process that periodically audits the partition, measures
+bridge share, and curates the cross-domain terms. The instrument in this
+paper is the audit tool; the seed validation shows it can be run
+continuously at organizational scale.</li>
+<li><strong>Semantic mapping between field vocabularies.</strong> For
+the AI-assisted synthesis pipeline, the fix is a mapping layer between
+field-specific vocabularies — the semantic analogue of a bilingual
+dictionary — so that retrieval can find “measurement hierarchy” when
+asked for “valuation”. The H-SILO-3 result quantifies the need: without
+the mapping layer, cross-domain retrieval operates at zero recall on the
+program’s own cited bridges.</li>
+<li><strong>Title-visible bridges.</strong> The cheapest infrastructure
+is authorial: when a paper connects domains, name the connection in the
+title. The one visible exemplar (Jaccard 0.333) shows the effect; it is
+the only corpus bridge that lexical retrieval can find.</li>
+</ol>
+<h2 id="where-the-premises-end">9. Where the premises end</h2>
+<p>This paper’s claims are derived from the measurement pipeline; its
+premises end at four named inputs:</p>
+<ul>
+<li><strong>P1 — the vocabulary model.</strong> Technical vocabulary is
+modeled as stopword-filtered bigrams from titles and abstracts. This is
+a proxy for “the terms a field uses”: it excludes single-token technical
+terms, terms below the frequency threshold, and terms that appear only
+in bodies. The QNFO seed, which uses curated keywords, shows the same
+partitional structure, but the two pipelines are not identical
+instruments.</li>
+<li><strong>P2 — the domain partition.</strong> The external sample
+partitions science by arXiv category. Real disciplines overlap and
+subdivide; the partition choice affects the measured quantities (finer
+partitions raise partitionality).</li>
+<li><strong>P3 — the general-family list.</strong> The Fisher enrichment
+test depends on the curated method/pattern list. The list is
+conservative (method terms only) and published in full with the
+instrument; re-running with a different list changes the odds ratio, not
+the qualitative result (bridges are method-concentrated by inspection of
+all 13 terms).</li>
+<li><strong>P4 — the corpus scope.</strong> The QNFO corpus probes are
+single-organization evidence: 578 records, 40 resolvable graph pairs,
+three cited bridges. The external generalization rests on the
+six-discipline vocabulary sample (240 abstracts).</li>
+</ul>
+<p>The quantitative claims (partitionality, bridge share, Fisher p,
+Jaccard values) are reproduced by the deposited scripts with fixed seeds
+(artifacts/verification/). No claim here extends beyond the measured
+samples; the mechanisms of Section 6 are explanatory hypotheses grounded
+in those measurements plus standard economics of science, not
+independent estimates.</p>
+<h2 id="limitations-and-next-steps">10. Limitations and next steps</h2>
+<p>Limitations: sample breadth (six disciplines, 40 abstracts each — a
+snapshot, not a census); the single-token blind spot of the bigram
+model; the absence of a temporal dimension (vocabulary silos may be
+widening or narrowing over time); and the organization-scale corpus
+probes.</p>
+<p>Next steps: (1) scale the external sample to 30+ disciplines and
+1,000+ abstracts per discipline, with author-keyword metadata where
+available; (2) add the temporal dimension via arXiv date-banded samples
+to measure whether bridge share is changing; (3) build and evaluate the
+semantic mapping layer (bilingual-dictionary analogue) on the QNFO
+corpus, testing whether mapped retrieval recovers the program’s own
+cited bridges; (4) publish the bridge-vocabulary audit as a recurring
+instrument for the QNFO program (the seed case already runs it).</p>
+<h2 id="reproducibility">11. Reproducibility</h2>
+<ul>
+<li><code>scripts/arxiv_domain_sample.py</code> — external evidence
+collection (arXiv API, deterministic extraction; raw evidence in
+artifacts/external-search/arxiv_raw_2026-08-24.json).</li>
+<li><code>scripts/build_qnfo_domains.py</code> — canonical taxonomy
+parser (method of rq5_keyword_load.py).</li>
+<li><code>scripts/terminology_silos.py</code> — measurement toolkit
+(partitionality, bridge share, shared core, Fisher exact).</li>
+<li><code>scripts/hsilo3_semantic_links.py</code> — corpus probes (KG
+structure, same-vs-random, exemplar bridges).</li>
+<li><code>scripts/validate_seed_vs_published.py</code> — 9/9 validation
+against the published audit.</li>
+<li>All outputs and logs: artifacts/verification/. Seeds fixed (42 where
+sampling occurs); the extraction itself is deterministic.</li>
+</ul>
+<h2 id="references">References</h2>
+<ol type="1">
+<li>Quni-Gudzinas, R. B. (2026). The Consilience of the QNFO Keyword
+Taxonomy: Ultrametric Structure as a Testable Compression Prior. Zenodo,
+10.5281/zenodo.22071421.</li>
+<li>Quni-Gudzinas, R. B. (2026). The Ultrametric Program: One Structural
+Object Across Seven Research Domains, and Its Falsifiable Tests. Zenodo,
+10.5281/zenodo.22073477.</li>
+<li>Quni-Gudzinas, R. B. (2026). The History and Future of Measurement
+Stratigraphy, Number Theory, and Valuation Theory. Zenodo,
+10.5281/zenodo.21705220.</li>
+<li>Quni-Gudzinas, R. B. (2026). Valuation Without R: A
+Category-Theoretic Foundation for Finite Measurement. Zenodo,
+10.5281/zenodo.21803677.</li>
+<li>Quni-Gudzinas, R. B. (2026). Ultrametric topology in semantic memory
+with invariant cross-ratio stability. Zenodo,
+10.5281/zenodo.19564091.</li>
+<li>QNFO Keyword Taxonomy v1.0 (2026-08-05).
+docs/QNFO-KEYWORD-TAXONOMY.md, QNFO/qnfo-research; flat rendering
+docs/keyword-taxonomy-source.md.</li>
+</ol>
+</body>
+</html>

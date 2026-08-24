@@ -3,7 +3,7 @@
 **WBS:** `QNFO.CGS.002` (program: QNFO.CGS — Consilient Gap Synthesis)
 **Branch:** `res/paper/terminology-silos-consilience` (repo: QNFO/qnfo-research)
 **Created:** 2026-08-24
-**Status:** P0/P1 (scaffold + core measurement; P2-P4 in progress)
+**Status:** P5 (publication) — v1.0 published 2026-08-24, DOI 10.5281/zenodo.22075544 (concept 22075543)
 
 ## 1. Origin and mandate
 
@@ -122,13 +122,16 @@ carry meaning across program boundaries without shared keywords).
 
 | Phase | Deliverable | Status |
 |:------|:------------|:-------|
-| P0 | Repo branch, PROJECT-PLAN, hypothesis cards, WBS registration | in progress |
-| P1 | Measurement code (scripts/terminology_silos.py) | pending |
-| P1 | External evidence dataset (artifacts/external-search/arxiv_domains_*.json) | pending |
-| P2 | Analysis outputs + verification logs (artifacts/verification/) | pending |
-| P3 | Paper draft v0.1 (terminology-silos-consilience.md) | pending |
-| P4 | Red-team + revision | pending |
-| P5 | Publication (Zenodo, concept; R2 mirror; KG node) | pending |
+| P0 | Repo branch, PROJECT-PLAN, hypothesis cards, WBS registration | complete |
+| P1 | Measurement code (scripts/terminology_silos.py) | complete |
+| P1 | External evidence dataset (artifacts/external-search/arxiv_domains_*.json) | complete |
+| P2 | Analysis outputs + verification logs (artifacts/verification/) | complete |
+| P3 | Paper draft v0.1 (terminology-silos-consilience.md) | complete |
+| P4 | Red-team + revision | complete (P3.5-style review embedded; see §4 status log) |
+| P5 | Publication (Zenodo, concept 22075543; v1.0 10.5281/zenodo.22075544) | complete |
+| P6 | Deployment (D1 living-paper, papers-server, DNS) | in progress |
+| P7 | Dissemination (social posting, SEO, Internet Archive) | pending |
+| P8 | Core Distribution (R2 archive, KG node, GitHub tag, 4-layer verification) | pending |
 
 ## 7. Continuity
 
