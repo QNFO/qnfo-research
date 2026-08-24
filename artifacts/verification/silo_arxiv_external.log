@@ -1,0 +1,11 @@
+SOURCE: artifacts/external-search/arxiv_domains.json
+total keywords: 466
+partitionality_index: 0.9721
+local keywords: 453
+bridge keywords: 13 (share 0.0279)
+shared core (>=3 domains): 0
+fisher one-sided p (greater): 0.000001
+odds ratio: 70.15625
+contingency: [[5, 8], [4, 449]]
+WROTE: artifacts\verification\silo_arxiv_external.json
+EXIT:0

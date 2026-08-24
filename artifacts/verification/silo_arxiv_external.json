@@ -1,0 +1,77 @@
+{
+ "total_distinct_keywords": 466,
+ "partitionality_index": 0.9721030042918455,
+ "local_keyword_count": 453,
+ "bridge_keyword_count": 13,
+ "bridge_share": 0.027896995708154508,
+ "shared_core_size": 0,
+ "shared_core_keywords": [],
+ "shared_by_two": [
+  "boron-nitride",
+  "candidate-quantum",
+  "candidates-optically",
+  "defects-zno",
+  "double-substitutional",
+  "drug-discovery",
+  "foundation-models",
+  "language-model",
+  "language-models",
+  "machine-learning",
+  "optically-quantum",
+  "quantum-defects",
+  "upper-bound"
+ ],
+ "per_domain": {
+  "quant-ph": {
+   "keyword_count": 80,
+   "local_share": 0.9125,
+   "bridge_share": 0.0875
+  },
+  "math.NT": {
+   "keyword_count": 80,
+   "local_share": 0.9875,
+   "bridge_share": 0.0125
+  },
+  "cs.LG": {
+   "keyword_count": 80,
+   "local_share": 0.9375,
+   "bridge_share": 0.0625
+  },
+  "q-bio.GN": {
+   "keyword_count": 80,
+   "local_share": 0.95,
+   "bridge_share": 0.05
+  },
+  "cond-mat.mtrl-sci": {
+   "keyword_count": 80,
+   "local_share": 0.9,
+   "bridge_share": 0.1
+  },
+  "econ.TH": {
+   "keyword_count": 79,
+   "local_share": 0.9873417721518988,
+   "bridge_share": 0.012658227848101266
+  }
+ },
+ "fisher_enrichment": {
+  "p_one_sided_greater": 8.534737587907427e-07,
+  "odds_ratio": 70.15625,
+  "table": [
+   [
+    5,
+    8
+   ],
+   [
+    4,
+    449
+   ]
+  ],
+  "alternative": "greater",
+  "bridge_and_general": 5,
+  "bridge_and_nongeneral": 8,
+  "nonbridge_and_general": 4,
+  "nonbridge_and_nongeneral": 449
+ },
+ "source": "artifacts/external-search/arxiv_domains.json",
+ "seed": "deterministic (no randomness)"
+}

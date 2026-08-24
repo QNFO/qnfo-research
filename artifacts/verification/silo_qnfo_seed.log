@@ -1,0 +1,11 @@
+SOURCE: artifacts/external-search/qnfo_domains.json
+total keywords: 335
+partitionality_index: 0.9970
+local keywords: 334
+bridge keywords: 1 (share 0.0030)
+shared core (>=3 domains): 0
+fisher one-sided p (greater): 1.000000
+odds ratio: 0.0
+contingency: [[0, 1], [5, 329]]
+WROTE: artifacts\verification\silo_qnfo_seed.json
+EXIT:0

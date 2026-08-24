@@ -1,0 +1,10 @@
+corpus titles: 578 (classified 260)
+KG pairs: 40 (same 8, cross 0)
+same-program mean Jaccard: 0.1145 vs random 0.0281
+exemplar measurement-stratigraphy <-> adelic-shannon-theory: Jaccard 0.0000
+exemplar measurement-stratigraphy <-> valuation-independent-foundations: Jaccard 0.3333
+exemplar hidden-radix-pqc <-> nonlinear-tree-based-numeration-systems-a-consolidated-synthesis: Jaccard 0.0000
+exemplar mean: 0.1111111111111111
+VERDICT: H-SILO-3 SUPPORTED: the consilience is lexically invisible where no author built the bridge (0.0 on non-authored exemplars); vocabulary bridges are built, not emergent — the KG link network is itself program-local
+WROTE: artifacts\verification\hsilo3_results.json
+EXIT:0

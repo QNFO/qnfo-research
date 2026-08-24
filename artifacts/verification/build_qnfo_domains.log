@@ -1,0 +1,11 @@
+programs: ['UMP', 'SLB', 'INM', 'CFE', 'RES', 'PLT', 'DEM']
+raw keyword occurrences: 336
+  UMP: 63
+  SLB: 30
+  INM: 47
+  CFE: 48
+  RES: 65
+  PLT: 58
+  DEM: 25
+WROTE: artifacts\external-search\qnfo_domains.json
+EXIT:0

@@ -1,0 +1,12 @@
+PASS: total_distinct_keywords == 335  (got 335)
+PASS: program_local_count == 334  (got 334)
+PASS: shared_by_two == {complexity-measure}  (got {'complexitymeasure': ['INM', 'RES']})
+PASS: load_bearing_core == 0  (got [])
+PASS: bridge_and_load_bearing == 0  (got 0)
+PASS: bridge_and_local == 53  (got 53)
+PASS: non_bridge_and_load_bearing == 0  (got 0)
+PASS: non_bridge_and_local == 282  (got 282)
+PASS: fisher_one_sided_p == 1.0  (got 0.9999999999997726)
+
+RESULT: VALIDATED — seed reproduces published audit
+EXIT:0

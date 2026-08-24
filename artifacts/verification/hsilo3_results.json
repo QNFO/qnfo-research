@@ -1,0 +1,48 @@
+{
+ "hypothesis": "H-SILO-3 (v3: three probes)",
+ "corpus_titles": 578,
+ "classified_titles": 260,
+ "P1_kg_structure": {
+  "semantic_pairs_resolved": 40,
+  "same_program_pairs": 8,
+  "cross_program_pairs": 0,
+  "verdict": "link network is program-local"
+ },
+ "P2_same_vs_random": {
+  "same_program_mean_jaccard": 0.11454274891774892,
+  "random_mean_jaccard": 0.028125,
+  "difference": 0.08641774891774892,
+  "verdict": "within-program links lexically visible"
+ },
+ "P3_exemplar_bridges": {
+  "resolved_pairs": 3,
+  "pairs": [
+   {
+    "pair": [
+     "measurement-stratigraphy",
+     "adelic-shannon-theory"
+    ],
+    "jaccard": 0.0
+   },
+   {
+    "pair": [
+     "measurement-stratigraphy",
+     "valuation-independent-foundations"
+    ],
+    "jaccard": 0.3333333333333333
+   },
+   {
+    "pair": [
+     "hidden-radix-pqc",
+     "nonlinear-tree-based-numeration-systems-a-consolidated-synthesis"
+    ],
+    "jaccard": 0.0
+   }
+  ],
+  "mean_jaccard": 0.1111111111111111,
+  "non_authored_mean_jaccard": 0.0,
+  "verdict": "SUPPORTED \u2014 emergent bridges carry zero lexical signal; the one visible bridge is author-made by construction (title names the connection)"
+ },
+ "overall": "H-SILO-3 SUPPORTED: the consilience is lexically invisible where no author built the bridge (0.0 on non-authored exemplars); vocabulary bridges are built, not emergent \u2014 the KG link network is itself program-local",
+ "seed": 42
+}

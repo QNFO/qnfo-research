@@ -1,0 +1,5075 @@
+{
+  "schema": "consilience-map-v2",
+  "generated": "2026-08-23",
+  "wbs": "QNFO.RES.022",
+  "nodes": [
+    {
+      "id": "prog:UMP",
+      "label": "Program",
+      "name": "UMP"
+    },
+    {
+      "id": "prog:SLB",
+      "label": "Program",
+      "name": "SLB"
+    },
+    {
+      "id": "prog:INM",
+      "label": "Program",
+      "name": "INM"
+    },
+    {
+      "id": "prog:CFE",
+      "label": "Program",
+      "name": "CFE"
+    },
+    {
+      "id": "prog:RES",
+      "label": "Program",
+      "name": "RES"
+    },
+    {
+      "id": "prog:PLT",
+      "label": "Program",
+      "name": "PLT"
+    },
+    {
+      "id": "prog:DEM",
+      "label": "Program",
+      "name": "DEM"
+    },
+    {
+      "id": "kw:semistable",
+      "label": "Keyword",
+      "name": "semistable",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:fontaine",
+      "label": "Keyword",
+      "name": "fontaine",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:padicsage",
+      "label": "Keyword",
+      "name": "padic-sage",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:arithmeticdynamics",
+      "label": "Keyword",
+      "name": "arithmetic-dynamics",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:formalgroup",
+      "label": "Keyword",
+      "name": "formal-group",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:bruhattits",
+      "label": "Keyword",
+      "name": "bruhat-tits",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:restricteddirectproduct",
+      "label": "Keyword",
+      "name": "restricted-direct-product",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:padic",
+      "label": "Keyword",
+      "name": "p-adic",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:ultrametric",
+      "label": "Keyword",
+      "name": "ultrametric",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:valuationtheory",
+      "label": "Keyword",
+      "name": "valuation-theory",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:archimedeancompletion",
+      "label": "Keyword",
+      "name": "archimedean-completion",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:sagepadic",
+      "label": "Keyword",
+      "name": "sage-padic",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:nonarchimedeanphysics",
+      "label": "Keyword",
+      "name": "non-archimedean-physics",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:padicquantum",
+      "label": "Keyword",
+      "name": "p-adic-quantum",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:weakapproximation",
+      "label": "Keyword",
+      "name": "weak-approximation",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:langlandsprogram",
+      "label": "Keyword",
+      "name": "langlands-program",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:automorphicform",
+      "label": "Keyword",
+      "name": "automorphic-form",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:pdivisible",
+      "label": "Keyword",
+      "name": "p-divisible",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:berkovichdynamics",
+      "label": "Keyword",
+      "name": "berkovich-dynamics",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:localfield",
+      "label": "Keyword",
+      "name": "local-field",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:productformula",
+      "label": "Keyword",
+      "name": "product-formula",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:adele",
+      "label": "Keyword",
+      "name": "adele",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:classfieldtheory",
+      "label": "Keyword",
+      "name": "class-field-theory",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:idele",
+      "label": "Keyword",
+      "name": "idele",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:crystalline",
+      "label": "Keyword",
+      "name": "crystalline",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:tatealgebra",
+      "label": "Keyword",
+      "name": "tate-algebra",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:placedemocracy",
+      "label": "Keyword",
+      "name": "place-democracy",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:ellipticcurve",
+      "label": "Keyword",
+      "name": "elliptic-curve",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:globalfield",
+      "label": "Keyword",
+      "name": "global-field",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:selbergtrace",
+      "label": "Keyword",
+      "name": "selberg-trace",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:magmapadic",
+      "label": "Keyword",
+      "name": "magma-padic",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:etalecohomology",
+      "label": "Keyword",
+      "name": "etale-cohomology",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:nonarchimedean",
+      "label": "Keyword",
+      "name": "non-archimedean",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:dieudonne",
+      "label": "Keyword",
+      "name": "dieudonne",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:shimuravariety",
+      "label": "Keyword",
+      "name": "shimura-variety",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:parigp",
+      "label": "Keyword",
+      "name": "pari-gp",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:sagemath",
+      "label": "Keyword",
+      "name": "sagemath",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:derham",
+      "label": "Keyword",
+      "name": "de-rham",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:adelicphysics",
+      "label": "Keyword",
+      "name": "adelic-physics",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:perfectoid",
+      "label": "Keyword",
+      "name": "perfectoid",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:modularform",
+      "label": "Keyword",
+      "name": "modular-form",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ideleclassgroup",
+      "label": "Keyword",
+      "name": "idele-class-group",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:rigidgeometry",
+      "label": "Keyword",
+      "name": "rigid-geometry",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:padichodge",
+      "label": "Keyword",
+      "name": "p-adic-hodge",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:breuilkisin",
+      "label": "Keyword",
+      "name": "breuil-kisin",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:padiccalculator",
+      "label": "Keyword",
+      "name": "padic-calculator",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:crystallinecohomology",
+      "label": "Keyword",
+      "name": "crystalline-cohomology",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:padicdynamics",
+      "label": "Keyword",
+      "name": "p-adic-dynamics",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ideles",
+      "label": "Keyword",
+      "name": "ideles",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:adeles",
+      "label": "Keyword",
+      "name": "adeles",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:valuedfield",
+      "label": "Keyword",
+      "name": "valued-field",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ostrowskitheorem",
+      "label": "Keyword",
+      "name": "ostrowski-theorem",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:ostrowski",
+      "label": "Keyword",
+      "name": "ostrowski",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:adelic",
+      "label": "Keyword",
+      "name": "adelic",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:berkovich",
+      "label": "Keyword",
+      "name": "berkovich",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:adelering",
+      "label": "Keyword",
+      "name": "adele-ring",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:ultrametricphysics",
+      "label": "Keyword",
+      "name": "ultrametric-physics",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:lfunction",
+      "label": "Keyword",
+      "name": "l-function",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:strongapproximation",
+      "label": "Keyword",
+      "name": "strong-approximation",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": "valuation"
+    },
+    {
+      "id": "kw:ultrametricorpadicoradelicornonarchimedeanlanguagepythonstars10",
+      "label": "Keyword",
+      "name": "\nultrametric OR p-adic OR adelic OR non-archimedean language:python stars:>10\n",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:lubintate",
+      "label": "Keyword",
+      "name": "lubin-tate",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:nonarchimedeandynamics",
+      "label": "Keyword",
+      "name": "non-archimedean-dynamics",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:galoisrepresentation",
+      "label": "Keyword",
+      "name": "galois-representation",
+      "programs": [
+        "UMP"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:boundarylogic",
+      "label": "Keyword",
+      "name": "boundary-logic",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:distinction",
+      "label": "Keyword",
+      "name": "distinction",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:primaryarithmetic",
+      "label": "Keyword",
+      "name": "primary-arithmetic",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:crossing",
+      "label": "Keyword",
+      "name": "crossing",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:reentry",
+      "label": "Keyword",
+      "name": "re-entry",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:distinctionalgebra",
+      "label": "Keyword",
+      "name": "distinction-algebra",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:imaginarybooleancircuit",
+      "label": "Keyword",
+      "name": "imaginary-boolean-circuit",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:void",
+      "label": "Keyword",
+      "name": "void",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:calculusofindications",
+      "label": "Keyword",
+      "name": "calculus-of-indications",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:imaginaryboolean",
+      "label": "Keyword",
+      "name": "imaginary-boolean",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:distinctioncomputation",
+      "label": "Keyword",
+      "name": "distinction-computation",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:lofcircuit",
+      "label": "Keyword",
+      "name": "lof-circuit",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:primaryalgebra",
+      "label": "Keyword",
+      "name": "primary-algebra",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:secondordercybernetics",
+      "label": "Keyword",
+      "name": "second-order-cybernetics",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:spencerbrowncomputer",
+      "label": "Keyword",
+      "name": "spencer-brown-computer",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:observertheory",
+      "label": "Keyword",
+      "name": "observer-theory",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:markedstate",
+      "label": "Keyword",
+      "name": "marked-state",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:waveformalgebra",
+      "label": "Keyword",
+      "name": "waveform-algebra",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:spencerbrown",
+      "label": "Keyword",
+      "name": "spencer-brown",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:selfreferencelogic",
+      "label": "Keyword",
+      "name": "self-reference-logic",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:autopoiesis",
+      "label": "Keyword",
+      "name": "autopoiesis",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:lawofcalling",
+      "label": "Keyword",
+      "name": "law-of-calling",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:boundarymath",
+      "label": "Keyword",
+      "name": "boundary-math",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:maturanavarela",
+      "label": "Keyword",
+      "name": "maturana-varela",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:indication",
+      "label": "Keyword",
+      "name": "indication",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:lawsofform",
+      "label": "Keyword",
+      "name": "laws-of-form",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:formofdistinction",
+      "label": "Keyword",
+      "name": "form-of-distinction",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:unmarkedstate",
+      "label": "Keyword",
+      "name": "unmarked-state",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:temporallogiclof",
+      "label": "Keyword",
+      "name": "temporal-logic-lof",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:lawofcrossing",
+      "label": "Keyword",
+      "name": "law-of-crossing",
+      "programs": [
+        "SLB"
+      ],
+      "load_bearing": false,
+      "bridge_family": "distinction"
+    },
+    {
+      "id": "kw:margoluslevitin",
+      "label": "Keyword",
+      "name": "margolus-levitin",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:bitfromit",
+      "label": "Keyword",
+      "name": "bit-from-it",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:thermodynamicsofcomputation",
+      "label": "Keyword",
+      "name": "thermodynamics-of-computation",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:complexitymeasure",
+      "label": "Keyword",
+      "name": "complexity-measure",
+      "programs": [
+        "INM",
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:informationmetric",
+      "label": "Keyword",
+      "name": "information-metric",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:solomonoffinduction",
+      "label": "Keyword",
+      "name": "solomonoff-induction",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:entanglemententropy",
+      "label": "Keyword",
+      "name": "entanglement-entropy",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumfisher",
+      "label": "Keyword",
+      "name": "quantum-fisher",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:freeenergyprinciple",
+      "label": "Keyword",
+      "name": "free-energy-principle",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:variationalfreeenergy",
+      "label": "Keyword",
+      "name": "variational-free-energy",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:chaitinconstant",
+      "label": "Keyword",
+      "name": "chaitin-constant",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:informationaluniverse",
+      "label": "Keyword",
+      "name": "informational-universe",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:reversiblecomputing",
+      "label": "Keyword",
+      "name": "reversible-computing",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:kolmogorovcomplexity",
+      "label": "Keyword",
+      "name": "kolmogorov-complexity",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:fisherinformation",
+      "label": "Keyword",
+      "name": "fisher-information",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:effectiveinformation",
+      "label": "Keyword",
+      "name": "effective-information",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:landauerlimit",
+      "label": "Keyword",
+      "name": "landauer-limit",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:landauerprinciple",
+      "label": "Keyword",
+      "name": "landauer-principle",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:landauerbound",
+      "label": "Keyword",
+      "name": "landauer-bound",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:entropyproduction",
+      "label": "Keyword",
+      "name": "entropy-production",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:quantuminformation",
+      "label": "Keyword",
+      "name": "quantum-information",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:szilardengine",
+      "label": "Keyword",
+      "name": "szilard-engine",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:predictivecoding",
+      "label": "Keyword",
+      "name": "predictive-coding",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:holographicentropy",
+      "label": "Keyword",
+      "name": "holographic-entropy",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:friston",
+      "label": "Keyword",
+      "name": "friston",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:maxwelldemon",
+      "label": "Keyword",
+      "name": "maxwell-demon",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:phimeasure",
+      "label": "Keyword",
+      "name": "phi-measure",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:statisticalmanifold",
+      "label": "Keyword",
+      "name": "statistical-manifold",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:amarimetric",
+      "label": "Keyword",
+      "name": "amari-metric",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:holographicbound",
+      "label": "Keyword",
+      "name": "holographic-bound",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:integratedinformationtheory",
+      "label": "Keyword",
+      "name": "integrated-information-theory",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:algorithmicinformationtheory",
+      "label": "Keyword",
+      "name": "algorithmic-information-theory",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:vonneumannentropy",
+      "label": "Keyword",
+      "name": "von-neumann-entropy",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:bremermannlimit",
+      "label": "Keyword",
+      "name": "bremermann-limit",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:minimumdescriptionlength",
+      "label": "Keyword",
+      "name": "minimum-description-length",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:bekensteinbound",
+      "label": "Keyword",
+      "name": "bekenstein-bound",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "bound"
+    },
+    {
+      "id": "kw:itfrombit",
+      "label": "Keyword",
+      "name": "it-from-bit",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:informationgeometry",
+      "label": "Keyword",
+      "name": "information-geometry",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:physicalinformation",
+      "label": "Keyword",
+      "name": "physical-information",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:bayesianbrain",
+      "label": "Keyword",
+      "name": "bayesian-brain",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ryutakayanagi",
+      "label": "Keyword",
+      "name": "ryu-takayanagi",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:causeeffectstructure",
+      "label": "Keyword",
+      "name": "cause-effect-structure",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:informationfundamental",
+      "label": "Keyword",
+      "name": "information-fundamental",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:activeinference",
+      "label": "Keyword",
+      "name": "active-inference",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:naturalgradient",
+      "label": "Keyword",
+      "name": "natural-gradient",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:shannonentropy",
+      "label": "Keyword",
+      "name": "shannon-entropy",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:informationphysics",
+      "label": "Keyword",
+      "name": "information-physics",
+      "programs": [
+        "INM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologyreadinesslevel",
+      "label": "Keyword",
+      "name": "technology-readiness-level",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:bibliometricforecasting",
+      "label": "Keyword",
+      "name": "bibliometric-forecasting",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:computetrends",
+      "label": "Keyword",
+      "name": "compute-trends",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cascadingforesight",
+      "label": "Keyword",
+      "name": "cascading-foresight",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:horizonscanning",
+      "label": "Keyword",
+      "name": "horizon-scanning",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:aiscalinglaws",
+      "label": "Keyword",
+      "name": "ai-scaling-laws",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:patentanalysis",
+      "label": "Keyword",
+      "name": "patent-analysis",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumcomputingroadmap",
+      "label": "Keyword",
+      "name": "quantum-computing-roadmap",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:scenarioplanning",
+      "label": "Keyword",
+      "name": "scenario-planning",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:bassmodel",
+      "label": "Keyword",
+      "name": "bass-model",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:photoniccomputing",
+      "label": "Keyword",
+      "name": "photonic-computing",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologymonitoring",
+      "label": "Keyword",
+      "name": "technology-monitoring",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:futurestudies",
+      "label": "Keyword",
+      "name": "future-studies",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologyadoptioncurve",
+      "label": "Keyword",
+      "name": "technology-adoption-curve",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:aiforecasting",
+      "label": "Keyword",
+      "name": "ai-forecasting",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologydiffusion",
+      "label": "Keyword",
+      "name": "technology-diffusion",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:weaksignaldetection",
+      "label": "Keyword",
+      "name": "weak-signal-detection",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:beyondcmos",
+      "label": "Keyword",
+      "name": "beyond-cmos",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:aitakeoff",
+      "label": "Keyword",
+      "name": "ai-takeoff",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:delphimethod",
+      "label": "Keyword",
+      "name": "delphi-method",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:computingparadigm",
+      "label": "Keyword",
+      "name": "computing-paradigm",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:strategicforesight",
+      "label": "Keyword",
+      "name": "strategic-foresight",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:emergentabilities",
+      "label": "Keyword",
+      "name": "emergent-abilities",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:dnacomputing",
+      "label": "Keyword",
+      "name": "dna-computing",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:novelcomputingsubstrate",
+      "label": "Keyword",
+      "name": "novel-computing-substrate",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mooreslaw",
+      "label": "Keyword",
+      "name": "moores-law",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:experiencecurve",
+      "label": "Keyword",
+      "name": "experience-curve",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:chinchillascaling",
+      "label": "Keyword",
+      "name": "chinchilla-scaling",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:learningcurve",
+      "label": "Keyword",
+      "name": "learning-curve",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technoeconomicanalysis",
+      "label": "Keyword",
+      "name": "techno-economic-analysis",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:paradigmforecasting",
+      "label": "Keyword",
+      "name": "paradigm-forecasting",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:molecularcomputing",
+      "label": "Keyword",
+      "name": "molecular-computing",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologysignal",
+      "label": "Keyword",
+      "name": "technology-signal",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:wrightslaw",
+      "label": "Keyword",
+      "name": "wrights-law",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologyforecasting",
+      "label": "Keyword",
+      "name": "technology-forecasting",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:neuromorphic",
+      "label": "Keyword",
+      "name": "neuromorphic",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologyroadmap",
+      "label": "Keyword",
+      "name": "technology-roadmap",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:trlassessment",
+      "label": "Keyword",
+      "name": "trl-assessment",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:morphologicalanalysis",
+      "label": "Keyword",
+      "name": "morphological-analysis",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:agitimeline",
+      "label": "Keyword",
+      "name": "agi-timeline",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:technologyassessment",
+      "label": "Keyword",
+      "name": "technology-assessment",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:crossimpactanalysis",
+      "label": "Keyword",
+      "name": "cross-impact-analysis",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:scurveanalysis",
+      "label": "Keyword",
+      "name": "s-curve-analysis",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:manufacturingroadmap",
+      "label": "Keyword",
+      "name": "manufacturing-roadmap",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:fisherpry",
+      "label": "Keyword",
+      "name": "fisher-pry",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:costmodel",
+      "label": "Keyword",
+      "name": "cost-model",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:logisticsubstitution",
+      "label": "Keyword",
+      "name": "logistic-substitution",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:postsiliconcomputing",
+      "label": "Keyword",
+      "name": "post-silicon-computing",
+      "programs": [
+        "CFE"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:comptonbt",
+      "label": "Keyword",
+      "name": "compton-bt",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:complexsystems",
+      "label": "Keyword",
+      "name": "complex-systems",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:massvaluation",
+      "label": "Keyword",
+      "name": "mass-valuation",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:crossparadigmtranslation",
+      "label": "Keyword",
+      "name": "cross-paradigm-translation",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:roomtemperaturequantumbiology",
+      "label": "Keyword",
+      "name": "room-temperature-quantum-biology",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumbiology",
+      "label": "Keyword",
+      "name": "quantum-biology",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:causalinvariance",
+      "label": "Keyword",
+      "name": "causal-invariance",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:unityofscience",
+      "label": "Keyword",
+      "name": "unity-of-science",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ruliad",
+      "label": "Keyword",
+      "name": "ruliad",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:rulialspace",
+      "label": "Keyword",
+      "name": "rulial-space",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:monoidalcategory",
+      "label": "Keyword",
+      "name": "monoidal-category",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:wolframphysics",
+      "label": "Keyword",
+      "name": "wolfram-physics",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:transdisciplinary",
+      "label": "Keyword",
+      "name": "transdisciplinary",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumgravityphenomenology",
+      "label": "Keyword",
+      "name": "quantum-gravity-phenomenology",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:multiwaysystem",
+      "label": "Keyword",
+      "name": "multiway-system",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:commensurability",
+      "label": "Keyword",
+      "name": "commensurability",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:consilience",
+      "label": "Keyword",
+      "name": "consilience",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:appliedcategorytheory",
+      "label": "Keyword",
+      "name": "applied-category-theory",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:stringdiagram",
+      "label": "Keyword",
+      "name": "string-diagram",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:decoratedcospan",
+      "label": "Keyword",
+      "name": "decorated-cospan",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:interpretationofquantummechanics",
+      "label": "Keyword",
+      "name": "interpretation-of-quantum-mechanics",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumcoherencebiology",
+      "label": "Keyword",
+      "name": "quantum-coherence-biology",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:photosynthesisquantum",
+      "label": "Keyword",
+      "name": "photosynthesis-quantum",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:computationaluniverse",
+      "label": "Keyword",
+      "name": "computational-universe",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:categoricalquantum",
+      "label": "Keyword",
+      "name": "categorical-quantum",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:scalefreenetwork",
+      "label": "Keyword",
+      "name": "scale-free-network",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:autaxys",
+      "label": "Keyword",
+      "name": "autaxys",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:hypergraphrewriting",
+      "label": "Keyword",
+      "name": "hypergraph-rewriting",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:theoryofeverything",
+      "label": "Keyword",
+      "name": "theory-of-everything",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:instrumentalstratification",
+      "label": "Keyword",
+      "name": "instrumental-stratification",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:decoherence",
+      "label": "Keyword",
+      "name": "decoherence",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:planckscalephysics",
+      "label": "Keyword",
+      "name": "planck-scale-physics",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:categorytheoryphysics",
+      "label": "Keyword",
+      "name": "category-theory-physics",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:symmetricmonoidal",
+      "label": "Keyword",
+      "name": "symmetric-monoidal",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:operationalism",
+      "label": "Keyword",
+      "name": "operationalism",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:comptonbruhattits",
+      "label": "Keyword",
+      "name": "compton-bruhat-tits",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:rosettastoneanalogy",
+      "label": "Keyword",
+      "name": "rosetta-stone-analogy",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:selforganizedcriticality",
+      "label": "Keyword",
+      "name": "self-organized-criticality",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:incommensurability",
+      "label": "Keyword",
+      "name": "incommensurability",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:integratedinformation",
+      "label": "Keyword",
+      "name": "integrated-information",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:frequencyvaluation",
+      "label": "Keyword",
+      "name": "frequency-valuation",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:unificationphysics",
+      "label": "Keyword",
+      "name": "unification-physics",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:olfactionquantum",
+      "label": "Keyword",
+      "name": "olfaction-quantum",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:silentradix",
+      "label": "Keyword",
+      "name": "silent-radix",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumdarwinism",
+      "label": "Keyword",
+      "name": "quantum-darwinism",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:enzymecatalysisquantum",
+      "label": "Keyword",
+      "name": "enzyme-catalysis-quantum",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:foundationalphysics",
+      "label": "Keyword",
+      "name": "foundational-physics",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:einselection",
+      "label": "Keyword",
+      "name": "einselection",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:measurementstratigraphy",
+      "label": "Keyword",
+      "name": "measurement-stratigraphy",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:quantumfoundations",
+      "label": "Keyword",
+      "name": "quantum-foundations",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:structuralrealism",
+      "label": "Keyword",
+      "name": "structural-realism",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:powerlaw",
+      "label": "Keyword",
+      "name": "power-law",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:epistemologyofmeasurement",
+      "label": "Keyword",
+      "name": "epistemology-of-measurement",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:interdisciplinarysynthesis",
+      "label": "Keyword",
+      "name": "interdisciplinary-synthesis",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:operad",
+      "label": "Keyword",
+      "name": "operad",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:dualitymap",
+      "label": "Keyword",
+      "name": "duality-map",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:measurementtheory",
+      "label": "Keyword",
+      "name": "measurement-theory",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:metrologyfoundations",
+      "label": "Keyword",
+      "name": "metrology-foundations",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:magnetoreceptionquantum",
+      "label": "Keyword",
+      "name": "magnetoreception-quantum",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:crossdomainconsilience",
+      "label": "Keyword",
+      "name": "cross-domain-consilience",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:crossdomaincorrespondence",
+      "label": "Keyword",
+      "name": "cross-domain-correspondence",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:emergence",
+      "label": "Keyword",
+      "name": "emergence",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:consistenthistories",
+      "label": "Keyword",
+      "name": "consistent-histories",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:branchialspace",
+      "label": "Keyword",
+      "name": "branchial-space",
+      "programs": [
+        "RES"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:arweave",
+      "label": "Keyword",
+      "name": "arweave",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:semanticsearch",
+      "label": "Keyword",
+      "name": "semantic-search",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mcpserver",
+      "label": "Keyword",
+      "name": "mcp-server",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:waf",
+      "label": "Keyword",
+      "name": "waf",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ipld",
+      "label": "Keyword",
+      "name": "ipld",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflarebrowserrendering",
+      "label": "Keyword",
+      "name": "cloudflare-browser-rendering",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:workersai",
+      "label": "Keyword",
+      "name": "workers-ai",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mcptransport",
+      "label": "Keyword",
+      "name": "mcp-transport",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:turnstile",
+      "label": "Keyword",
+      "name": "turnstile",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:nftstorage",
+      "label": "Keyword",
+      "name": "nft-storage",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:botmanagement",
+      "label": "Keyword",
+      "name": "bot-management",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:elasticsearchdense",
+      "label": "Keyword",
+      "name": "elasticsearch-dense",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:vectorize",
+      "label": "Keyword",
+      "name": "vectorize",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:faiss",
+      "label": "Keyword",
+      "name": "faiss",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflaretunnel",
+      "label": "Keyword",
+      "name": "cloudflare-tunnel",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:dagcbor",
+      "label": "Keyword",
+      "name": "dag-cbor",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ipfs",
+      "label": "Keyword",
+      "name": "ipfs",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:spf",
+      "label": "Keyword",
+      "name": "spf",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mcpresource",
+      "label": "Keyword",
+      "name": "mcp-resource",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:storacha",
+      "label": "Keyword",
+      "name": "storacha",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cid",
+      "label": "Keyword",
+      "name": "cid",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:greenoa",
+      "label": "Keyword",
+      "name": "green-oa",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:weaviate",
+      "label": "Keyword",
+      "name": "weaviate",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:qdrant",
+      "label": "Keyword",
+      "name": "qdrant",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:citationmanagement",
+      "label": "Keyword",
+      "name": "citation-management",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:academicpublishing",
+      "label": "Keyword",
+      "name": "academic-publishing",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:hybridsearch",
+      "label": "Keyword",
+      "name": "hybrid-search",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:dmarc",
+      "label": "Keyword",
+      "name": "dmarc",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:fastmcp",
+      "label": "Keyword",
+      "name": "fastmcp",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mtasts",
+      "label": "Keyword",
+      "name": "mta-sts",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflarekv",
+      "label": "Keyword",
+      "name": "cloudflare-kv",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:hnsw",
+      "label": "Keyword",
+      "name": "hnsw",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:vespa",
+      "label": "Keyword",
+      "name": "vespa",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflarepages",
+      "label": "Keyword",
+      "name": "cloudflare-pages",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:dkim",
+      "label": "Keyword",
+      "name": "dkim",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mcpclient",
+      "label": "Keyword",
+      "name": "mcp-client",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:zenodo",
+      "label": "Keyword",
+      "name": "zenodo",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflareai",
+      "label": "Keyword",
+      "name": "cloudflare-ai",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflarezerotrust",
+      "label": "Keyword",
+      "name": "cloudflare-zero-trust",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:contentaddressedstorage",
+      "label": "Keyword",
+      "name": "content-addressed-storage",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:doiminting",
+      "label": "Keyword",
+      "name": "doi-minting",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflarer2",
+      "label": "Keyword",
+      "name": "cloudflare-r2",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:preprintserver",
+      "label": "Keyword",
+      "name": "preprint-server",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:researchrepository",
+      "label": "Keyword",
+      "name": "research-repository",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:dnssec",
+      "label": "Keyword",
+      "name": "dnssec",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mcptool",
+      "label": "Keyword",
+      "name": "mcp-tool",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:modelcontextprotocol",
+      "label": "Keyword",
+      "name": "model-context-protocol",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:durableobjects",
+      "label": "Keyword",
+      "name": "durable-objects",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflareaccess",
+      "label": "Keyword",
+      "name": "cloudflare-access",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflareworkers",
+      "label": "Keyword",
+      "name": "cloudflare-workers",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:vectorsearch",
+      "label": "Keyword",
+      "name": "vector-search",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:filecoin",
+      "label": "Keyword",
+      "name": "filecoin",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:web3storage",
+      "label": "Keyword",
+      "name": "web3-storage",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:chromadb",
+      "label": "Keyword",
+      "name": "chromadb",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:openaccess",
+      "label": "Keyword",
+      "name": "open-access",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:milvus",
+      "label": "Keyword",
+      "name": "milvus",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflared1",
+      "label": "Keyword",
+      "name": "cloudflare-d1",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:cloudflarequeues",
+      "label": "Keyword",
+      "name": "cloudflare-queues",
+      "programs": [
+        "PLT"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:interactivemath",
+      "label": "Keyword",
+      "name": "interactive-math",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumgatevisualizer",
+      "label": "Keyword",
+      "name": "quantum-gate-visualizer",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:physicsvisualization",
+      "label": "Keyword",
+      "name": "physics-visualization",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumstatevisualizer",
+      "label": "Keyword",
+      "name": "quantum-state-visualizer",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:shadertoyphysics",
+      "label": "Keyword",
+      "name": "shadertoy-physics",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumvisualization",
+      "label": "Keyword",
+      "name": "quantum-visualization",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quirk",
+      "label": "Keyword",
+      "name": "quirk",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:d3physics",
+      "label": "Keyword",
+      "name": "d3-physics",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:observablehqphysics",
+      "label": "Keyword",
+      "name": "observablehq-physics",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:padicvisualization",
+      "label": "Keyword",
+      "name": "padic-visualization",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:blochsphere",
+      "label": "Keyword",
+      "name": "bloch-sphere",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:gpusimulation",
+      "label": "Keyword",
+      "name": "gpu-simulation",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:mathvisualization",
+      "label": "Keyword",
+      "name": "math-visualization",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:padictree",
+      "label": "Keyword",
+      "name": "p-adic-tree",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:dendrogramvisualization",
+      "label": "Keyword",
+      "name": "dendrogram-visualization",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:explorableexplanation",
+      "label": "Keyword",
+      "name": "explorable-explanation",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:webglphysics",
+      "label": "Keyword",
+      "name": "webgl-physics",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:quantumcircuitsimulator",
+      "label": "Keyword",
+      "name": "quantum-circuit-simulator",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:bruhattitstree",
+      "label": "Keyword",
+      "name": "bruhat-tits-tree",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:wasmscientific",
+      "label": "Keyword",
+      "name": "wasm-scientific",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:tropicalgeometryvisualization",
+      "label": "Keyword",
+      "name": "tropical-geometry-visualization",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:scientificvisualization",
+      "label": "Keyword",
+      "name": "scientific-visualization",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    },
+    {
+      "id": "kw:ultrametrictree",
+      "label": "Keyword",
+      "name": "ultrametric-tree",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:hierarchicalclusteringtree",
+      "label": "Keyword",
+      "name": "hierarchical-clustering-tree",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": "hierarchy"
+    },
+    {
+      "id": "kw:threejsscience",
+      "label": "Keyword",
+      "name": "threejs-science",
+      "programs": [
+        "DEM"
+      ],
+      "load_bearing": false,
+      "bridge_family": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "prog:UMP",
+      "target": "kw:semistable",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:fontaine",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:padicsage",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:arithmeticdynamics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:formalgroup",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:bruhattits",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:restricteddirectproduct",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:padic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ultrametric",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:valuationtheory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:archimedeancompletion",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:sagepadic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:nonarchimedeanphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:padicquantum",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:weakapproximation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:langlandsprogram",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:automorphicform",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:pdivisible",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:berkovichdynamics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:localfield",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:productformula",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:adele",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:classfieldtheory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:idele",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:crystalline",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:tatealgebra",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:placedemocracy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ellipticcurve",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:globalfield",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:selbergtrace",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:magmapadic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:etalecohomology",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:nonarchimedean",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:dieudonne",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:shimuravariety",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:parigp",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:sagemath",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:derham",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:adelicphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:perfectoid",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:modularform",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ideleclassgroup",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:rigidgeometry",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:padichodge",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:breuilkisin",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:padiccalculator",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:crystallinecohomology",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:padicdynamics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ideles",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:adeles",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:valuedfield",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ostrowskitheorem",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ostrowski",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:adelic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:berkovich",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:adelering",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ultrametricphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:lfunction",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:strongapproximation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:ultrametricorpadicoradelicornonarchimedeanlanguagepythonstars10",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:lubintate",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:nonarchimedeandynamics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:UMP",
+      "target": "kw:galoisrepresentation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:boundarylogic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:distinction",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:primaryarithmetic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:crossing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:reentry",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:distinctionalgebra",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:imaginarybooleancircuit",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:void",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:calculusofindications",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:imaginaryboolean",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:distinctioncomputation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:lofcircuit",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:primaryalgebra",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:secondordercybernetics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:spencerbrowncomputer",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:observertheory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:markedstate",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:waveformalgebra",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:spencerbrown",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:selfreferencelogic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:autopoiesis",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:lawofcalling",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:boundarymath",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:maturanavarela",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:indication",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:lawsofform",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:formofdistinction",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:unmarkedstate",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:temporallogiclof",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:SLB",
+      "target": "kw:lawofcrossing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:margoluslevitin",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:bitfromit",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:thermodynamicsofcomputation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:complexitymeasure",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:complexitymeasure",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:informationmetric",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:solomonoffinduction",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:entanglemententropy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:quantumfisher",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:freeenergyprinciple",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:variationalfreeenergy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:chaitinconstant",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:informationaluniverse",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:reversiblecomputing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:kolmogorovcomplexity",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:fisherinformation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:effectiveinformation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:landauerlimit",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:landauerprinciple",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:landauerbound",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:entropyproduction",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:quantuminformation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:szilardengine",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:predictivecoding",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:holographicentropy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:friston",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:maxwelldemon",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:phimeasure",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:statisticalmanifold",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:amarimetric",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:holographicbound",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:integratedinformationtheory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:algorithmicinformationtheory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:vonneumannentropy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:bremermannlimit",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:minimumdescriptionlength",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:bekensteinbound",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:itfrombit",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:informationgeometry",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:physicalinformation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:bayesianbrain",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:ryutakayanagi",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:causeeffectstructure",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:informationfundamental",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:activeinference",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:naturalgradient",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:shannonentropy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:INM",
+      "target": "kw:informationphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologyreadinesslevel",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:bibliometricforecasting",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:computetrends",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:cascadingforesight",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:horizonscanning",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:aiscalinglaws",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:patentanalysis",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:quantumcomputingroadmap",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:scenarioplanning",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:bassmodel",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:photoniccomputing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologymonitoring",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:futurestudies",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologyadoptioncurve",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:aiforecasting",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologydiffusion",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:weaksignaldetection",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:beyondcmos",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:aitakeoff",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:delphimethod",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:computingparadigm",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:strategicforesight",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:emergentabilities",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:dnacomputing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:novelcomputingsubstrate",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:mooreslaw",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:experiencecurve",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:chinchillascaling",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:learningcurve",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technoeconomicanalysis",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:paradigmforecasting",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:molecularcomputing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologysignal",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:wrightslaw",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologyforecasting",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:neuromorphic",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologyroadmap",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:trlassessment",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:morphologicalanalysis",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:agitimeline",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:technologyassessment",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:crossimpactanalysis",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:scurveanalysis",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:manufacturingroadmap",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:fisherpry",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:costmodel",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:logisticsubstitution",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:CFE",
+      "target": "kw:postsiliconcomputing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:comptonbt",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:complexsystems",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:massvaluation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:crossparadigmtranslation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:roomtemperaturequantumbiology",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:quantumbiology",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:causalinvariance",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:unityofscience",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:ruliad",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:rulialspace",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:monoidalcategory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:wolframphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:transdisciplinary",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:quantumgravityphenomenology",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:multiwaysystem",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:commensurability",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:consilience",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:appliedcategorytheory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:stringdiagram",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:decoratedcospan",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:interpretationofquantummechanics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:quantumcoherencebiology",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:photosynthesisquantum",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:computationaluniverse",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:categoricalquantum",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:scalefreenetwork",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:autaxys",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:hypergraphrewriting",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:theoryofeverything",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:instrumentalstratification",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:decoherence",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:planckscalephysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:categorytheoryphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:symmetricmonoidal",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:operationalism",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:comptonbruhattits",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:rosettastoneanalogy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:selforganizedcriticality",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:incommensurability",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:integratedinformation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:frequencyvaluation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:unificationphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:olfactionquantum",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:silentradix",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:quantumdarwinism",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:enzymecatalysisquantum",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:foundationalphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:einselection",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:measurementstratigraphy",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:quantumfoundations",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:structuralrealism",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:powerlaw",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:epistemologyofmeasurement",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:interdisciplinarysynthesis",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:operad",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:dualitymap",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:measurementtheory",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:metrologyfoundations",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:magnetoreceptionquantum",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:crossdomainconsilience",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:crossdomaincorrespondence",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:emergence",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:consistenthistories",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:RES",
+      "target": "kw:branchialspace",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:arweave",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:semanticsearch",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:mcpserver",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:waf",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:ipld",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflarebrowserrendering",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:workersai",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:mcptransport",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:turnstile",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:nftstorage",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:botmanagement",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:elasticsearchdense",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:vectorize",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:faiss",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflaretunnel",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:dagcbor",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:ipfs",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:spf",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:mcpresource",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:storacha",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cid",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:greenoa",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:weaviate",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:qdrant",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:citationmanagement",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:academicpublishing",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:hybridsearch",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:dmarc",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:fastmcp",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:mtasts",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflarekv",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:hnsw",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:vespa",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflarepages",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:dkim",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:mcpclient",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:zenodo",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflareai",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflarezerotrust",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:contentaddressedstorage",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:doiminting",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflarer2",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:preprintserver",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:researchrepository",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:dnssec",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:mcptool",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:modelcontextprotocol",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:durableobjects",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflareaccess",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflareworkers",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:vectorsearch",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:filecoin",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:web3storage",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:chromadb",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:openaccess",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:milvus",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflared1",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:PLT",
+      "target": "kw:cloudflarequeues",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:interactivemath",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:quantumgatevisualizer",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:physicsvisualization",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:quantumstatevisualizer",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:shadertoyphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:quantumvisualization",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:quirk",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:d3physics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:observablehqphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:padicvisualization",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:blochsphere",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:gpusimulation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:mathvisualization",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:padictree",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:dendrogramvisualization",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:explorableexplanation",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:webglphysics",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:quantumcircuitsimulator",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:bruhattitstree",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:wasmscientific",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:tropicalgeometryvisualization",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:scientificvisualization",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:ultrametrictree",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:hierarchicalclusteringtree",
+      "type": "OWNS"
+    },
+    {
+      "source": "prog:DEM",
+      "target": "kw:threejsscience",
+      "type": "OWNS"
+    }
+  ]
+}

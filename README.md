@@ -1,27 +1,44 @@
-# qnfo-research
+# README — Terminology Silos and the Consilience Gap
 
-QNFO/QWAV consolidated **program repo** — created 2026-08-04.
+**WBS:** `QNFO.CGS.002` | **Branch:** `res/paper/terminology-silos-consilience`
 
-This repository aggregates the following project-level repositories (each merged via `git subtree`,
-so full commit history is preserved under its subdirectory):
+Spinoff research from the keyword-taxonomy audit of "The Ultrametric Program"
+(10.5281/zenodo.22073477, §5.1) and its predecessor record
+"The Consilience of the QNFO Keyword Taxonomy" (10.5281/zenodo.22071421).
 
-| Project repo | Subdirectory | Original URL |
-|---|---|---|
-| `measurable-vs-imaginable` | `measurable-vs-imaginable/` | [github.com/rwnq8/measurable-vs-imaginable](https://github.com/rwnq8/measurable-vs-imaginable) |
-| `pattern-based-ontology` | `pattern-based-ontology/` | [github.com/rwnq8/pattern-based-ontology](https://github.com/rwnq8/pattern-based-ontology) |
-| `silent-radix` | `silent-radix/` | [github.com/rwnq8/silent-radix](https://github.com/rwnq8/silent-radix) |
-| `pqs-ai-evaluation-audit` | `pqs-ai-evaluation-audit/` | [github.com/rwnq8/pqs-ai-evaluation-audit](https://github.com/rwnq8/pqs-ai-evaluation-audit) |
-| `joules-per-compute-benchmark` | `joules-per-compute-benchmark/` | [github.com/rwnq8/joules-per-compute-benchmark](https://github.com/rwnq8/joules-per-compute-benchmark) |
-| `language-info-architecture` | `language-info-architecture/` | [github.com/rwnq8/language-info-architecture](https://github.com/rwnq8/language-info-architecture) |
-| `solo-scientist` | `solo-scientist/` | [github.com/rwnq8/solo-scientist](https://github.com/rwnq8/solo-scientist) |
-| `macroscopic-boundary-problem` | `macroscopic-boundary-problem/` | [github.com/rwnq8/macroscopic-boundary-problem](https://github.com/rwnq8/macroscopic-boundary-problem) |
+## The question
 
-## Why
+Scientific fields maintain largely disjoint vocabularies. The QNFO program —
+seven research domains, one claimed structural object — is a worked example:
+its canonical keyword taxonomy (335 keywords, seven program sections) is
+strictly partitional (334/335 keywords occur in exactly one program; shared
+vocabulary core: empty; Fisher enrichment p = 1.0). The consilience claim is
+semantic, not lexical.
 
-Consolidation aligns project-level repos with QNFO/QWAV research and development areas for easier
-provenance and recordkeeping. Original repos remain archived on GitHub (not deleted); this repo is
-the canonical home going forward.
+This project asks whether that single-case result is the norm across science,
+what the structure of bridge vocabulary is, why silos persist, what they
+cost, and what consilience infrastructure (bridge vocabularies, taxonomy
+engineering, semantic mapping) can do about it.
 
-## Provenance
+## Contents
 
-See [PROVENANCE.md](PROVENANCE.md) for the authoritative mapping, including DOIs and Zenodo links.
+- `terminology-silos-consilience.md` — the paper (draft)
+- `PROJECT-PLAN.md` — plan, research questions, hypothesis cards
+- `scripts/terminology_silos.py` — measurement toolkit
+- `scripts/arxiv_domain_sample.py` — external evidence collector
+- `artifacts/external-search/` — fetched evidence (arXiv samples)
+- `artifacts/verification/` — analysis outputs + verification logs
+
+## Reproduce
+
+```bash
+python scripts/arxiv_domain_sample.py --categories quant-ph math.NT cs.LG q-bio.GN cond-mat.mtrl-sci stat.ML --max-abstracts 60
+python scripts/terminology_silos.py --domains artifacts/external-search/arxiv_domains.json --seed 42
+```
+
+All numbers in the paper are produced by these scripts with fixed seeds;
+logs and outputs are deposited in `artifacts/verification/`.
+
+## Status
+
+P0/P1 in progress (2026-08-24). See PROJECT-PLAN.md §6.
