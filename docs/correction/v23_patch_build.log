@@ -1,0 +1,4 @@
+frontmatter DOI: True
+PIPELINE: {'pages': 12, 'mediabox_a4': True, 'fffd_raw': 0, 'fffd_text': 0, 'css_leak_markers': [], 'title_first': True, 'plain_math_remaining': [], 'header_leak': False, 'pass': True}
+EXIT: 0
+EXIT=0
