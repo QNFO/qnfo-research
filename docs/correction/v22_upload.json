@@ -1,0 +1,242 @@
+[
+ {
+  "file": "ultrametric-program.md",
+  "put": 200,
+  "commit": 200,
+  "size": 34343
+ },
+ {
+  "file": "ultrametric-program.html",
+  "put": 200,
+  "commit": 200,
+  "size": 43227
+ },
+ {
+  "file": "ultrametric-program.pdf",
+  "put": 200,
+  "commit": 200,
+  "size": 168267
+ },
+ {
+  "file": "references.bib",
+  "put": 200,
+  "commit": 200,
+  "size": 9331
+ },
+ {
+  "file": "citation-audit.md",
+  "put": 200,
+  "commit": 200,
+  "size": 2825
+ },
+ {
+  "file": "README.md",
+  "put": 200,
+  "commit": 200,
+  "size": 5404
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "put": 200,
+  "commit": 200,
+  "size": 7575
+ },
+ {
+  "file": "pdf-style.css",
+  "put": 200,
+  "commit": 200,
+  "size": 1936
+ },
+ {
+  "file": "scripts/build-pdf.py",
+  "put": 200,
+  "commit": 200,
+  "size": 4813
+ },
+ {
+  "file": "deep-research.md",
+  "put": 200,
+  "commit": 200,
+  "size": 4995
+ },
+ {
+  "file": "red-team-p4-2026-08-23.md",
+  "put": 200,
+  "commit": 200,
+  "size": 5013
+ },
+ {
+  "file": "red-team-p7-2026-08-23.md",
+  "put": 200,
+  "commit": 200,
+  "size": 4700
+ },
+ {
+  "file": "red-team-pdf-2026-08-24.md",
+  "put": 200,
+  "commit": 200,
+  "size": 4086
+ },
+ {
+  "file": "universal-ignorance-audit.md",
+  "put": 200,
+  "commit": 200,
+  "size": 10092
+ },
+ {
+  "file": "due-diligence-phase1.md",
+  "put": 200,
+  "commit": 200,
+  "size": 8810
+ },
+ {
+  "file": "p2-consilience-map.json",
+  "put": 200,
+  "commit": 200,
+  "size": 108956
+ },
+ {
+  "file": "arxiv-evidence-2026-08-23.json",
+  "put": 200,
+  "commit": 200,
+  "size": 4177
+ },
+ {
+  "file": "arxiv-evidence-g5-2026-08-23.json",
+  "put": 200,
+  "commit": 200,
+  "size": 1529
+ },
+ {
+  "file": "arxiv-evidence-res023-2026-08-23.json",
+  "put": 200,
+  "commit": 200,
+  "size": 2880
+ },
+ {
+  "file": "rq5_keyword_load.py",
+  "put": 200,
+  "commit": 200,
+  "size": 14514
+ },
+ {
+  "file": "rq5_results.json",
+  "put": 200,
+  "commit": 200,
+  "size": 6263
+ },
+ {
+  "file": "rq5_run.log",
+  "put": 200,
+  "commit": 200,
+  "size": 1708
+ },
+ {
+  "file": "rq1_retrieval_benchmark.py",
+  "put": 200,
+  "commit": 200,
+  "size": 10920
+ },
+ {
+  "file": "rq1_results.json",
+  "put": 200,
+  "commit": 200,
+  "size": 1669
+ },
+ {
+  "file": "rq1_run.log",
+  "put": 200,
+  "commit": 200,
+  "size": 1049
+ },
+ {
+  "file": "rq2_consilience_links.py",
+  "put": 200,
+  "commit": 200,
+  "size": 8837
+ },
+ {
+  "file": "rq2_results.json",
+  "put": 200,
+  "commit": 200,
+  "size": 2405
+ },
+ {
+  "file": "rq2_run.log",
+  "put": 200,
+  "commit": 200,
+  "size": 1021
+ },
+ {
+  "file": "rq3_archimedean_limit.py",
+  "put": 200,
+  "commit": 200,
+  "size": 4683
+ },
+ {
+  "file": "rq3_results.json",
+  "put": 200,
+  "commit": 200,
+  "size": 1576
+ },
+ {
+  "file": "rq3_run.log",
+  "put": 200,
+  "commit": 200,
+  "size": 511
+ },
+ {
+  "file": "rq4_noise_scaling.py",
+  "put": 200,
+  "commit": 200,
+  "size": 5321
+ },
+ {
+  "file": "rq4_results.json",
+  "put": 200,
+  "commit": 200,
+  "size": 1058
+ },
+ {
+  "file": "rq4_run.log",
+  "put": 200,
+  "commit": 200,
+  "size": 397
+ },
+ {
+  "file": "verification-integration-res023.md",
+  "put": 200,
+  "commit": 200,
+  "size": 3916
+ },
+ {
+  "file": "keyword-taxonomy-source.md",
+  "put": 200,
+  "commit": 200,
+  "size": 13016
+ },
+ {
+  "file": "corpus_qnfo_titles.json",
+  "put": 200,
+  "commit": 200,
+  "size": 44315
+ },
+ {
+  "file": "inherited-rq1_results.json",
+  "put": 200,
+  "commit": 200,
+  "size": 1669
+ },
+ {
+  "file": "inherited-rq5_results.json",
+  "put": 200,
+  "commit": 200,
+  "size": 6263
+ },
+ {
+  "file": "p5_gates.log",
+  "put": 200,
+  "commit": 200,
+  "size": 420
+ }
+]

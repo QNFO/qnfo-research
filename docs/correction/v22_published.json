@@ -1,0 +1,474 @@
+{
+  "created": "2026-08-24T00:02:53.175559+00:00",
+  "modified": "2026-08-24T00:02:54.798586+00:00",
+  "id": 22073402,
+  "conceptrecid": "22071420",
+  "doi": "10.5281/zenodo.22073402",
+  "conceptdoi": "10.5281/zenodo.22071420",
+  "doi_url": "https://doi.org/10.5281/zenodo.22073402",
+  "metadata": {
+    "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests",
+    "doi": "10.5281/zenodo.22073402",
+    "publication_date": "2026-08-24",
+    "description": "Seven research domains \u2014 ultrametric physics, the laws of form, infomatics, paradigm engineering, consilience research, a cloud-native platform, and interactive demos \u2014 are claimed to be seven vocabularies for one structural object: a nested, hierarchical partition logic. The object is defined by the ultrametric inequality and its strict hierarchy of nested balls; the specific arithmetic \u2014 p-adic valuation, the adelic product formula \u2014 is one realization, the hierarchy is the invariant. This paper states that thesis plainly and makes it testable. The program's scientific content is carried by three falsifiable hypotheses: H1, that ultrametric structure is an effective compression and clustering prior for high-dimensional sparse measurement data; H2, that continuous Archimedean physics appears as the thermodynamic or ergodic average over the leaves of the ultrametric hierarchy; and H3, that quantum-coherent systems under structured hierarchical noise exhibit decoherence scaling that deviates from the standard Markovian prediction in a p-adic pattern. The strong form of the program is bound to a 2028 decision point. The program serves a mission \u2014 an energy-efficiency benchmark for quantum computing (joules per correct solution) \u2014 to which the thermodynamic bounds of computation are the direct link. Evidence from the program's own corpus is presented where it exists, including a computational audit of the keyword taxonomy that shows the consilience is semantic rather than lexical, and a deterministic verification suite whose numbers are reproduced exactly by the deposited scripts. The paper also confronts the program's deepest open questions: the observer's resolution hierarchy, the global topology of the tree, and whether the unity is one radix or a family of incommensurable grammars.",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Quni-Gudzinas, Rowan Brad",
+        "affiliation": "QNFO"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/ultrametric-program",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "version": "v2.2",
+    "resource_type": {
+      "title": "Preprint",
+      "type": "publication",
+      "subtype": "preprint"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 3,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "22071420"
+          }
+        }
+      ]
+    }
+  },
+  "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests",
+  "links": {
+    "self": "https://zenodo.org/api/records/22073402",
+    "self_html": "https://zenodo.org/records/22073402",
+    "preview_html": "https://zenodo.org/records/22073402?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.22073402",
+    "self_doi": "https://doi.org/10.5281/zenodo.22073402",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.22073402",
+    "reserve_doi": "https://zenodo.org/api/records/22073402/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/22071420",
+    "parent_html": "https://zenodo.org/records/22071420",
+    "parent_doi": "https://doi.org/10.5281/zenodo.22071420",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.22071420",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:22073402/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:22073402/sequence/default",
+    "files": "https://zenodo.org/api/records/22073402/files",
+    "media_files": "https://zenodo.org/api/records/22073402/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:22073402:ultrametric-program.pdf/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:22073402:ultrametric-program.pdf/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:22073402:ultrametric-program.pdf/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:22073402:ultrametric-program.pdf/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:22073402:ultrametric-program.pdf/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:22073402:ultrametric-program.pdf/full/%5E1200,/0/default.jpg"
+    },
+    "archive": "https://zenodo.org/api/records/22073402/files-archive",
+    "archive_media": "https://zenodo.org/api/records/22073402/media-files-archive",
+    "latest": "https://zenodo.org/api/records/22073402/versions/latest",
+    "latest_html": "https://zenodo.org/records/22073402/latest",
+    "versions": "https://zenodo.org/api/records/22073402/versions",
+    "draft": "https://zenodo.org/api/records/22073402/draft",
+    "access_links": "https://zenodo.org/api/records/22073402/access/links",
+    "access_grants": "https://zenodo.org/api/records/22073402/access/grants",
+    "access_users": "https://zenodo.org/api/records/22073402/access/users",
+    "access_request": "https://zenodo.org/api/records/22073402/access/request",
+    "access": "https://zenodo.org/api/records/22073402/access",
+    "communities": "https://zenodo.org/api/records/22073402/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/22073402/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/22073402/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/22073402/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/22073402/quota-increase",
+    "requests": "https://zenodo.org/api/records/22073402/requests"
+  },
+  "updated": "2026-08-24T00:02:54.798586+00:00",
+  "recid": "22073402",
+  "revision": 3,
+  "files": [
+    {
+      "id": "c9b93377-901a-412a-afa4-96d53ac67385",
+      "key": "rq5_results.json",
+      "size": 6263,
+      "checksum": "md5:9d7349db7af388006f611e7394d2a5b8",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq5_results.json/content"
+      }
+    },
+    {
+      "id": "a94adda9-6ae5-44fe-9747-8abe54eb477e",
+      "key": "rq2_run.log",
+      "size": 1021,
+      "checksum": "md5:942175697af89abdbee39fcb6f5d8f03",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq2_run.log/content"
+      }
+    },
+    {
+      "id": "2916b205-812a-4281-bb12-ee58036530c9",
+      "key": "rq4_run.log",
+      "size": 397,
+      "checksum": "md5:162573b898693247cc77441b39f22f74",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq4_run.log/content"
+      }
+    },
+    {
+      "id": "50e4de89-ba2b-4b1d-b801-7e642ba02898",
+      "key": "universal-ignorance-audit.md",
+      "size": 10092,
+      "checksum": "md5:9a4c71a65803cfbbae0f796fb1dccd0b",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/universal-ignorance-audit.md/content"
+      }
+    },
+    {
+      "id": "1b02fd5c-1fc1-4b29-a5ea-285cf34d33a3",
+      "key": "inherited-rq5_results.json",
+      "size": 6263,
+      "checksum": "md5:9d7349db7af388006f611e7394d2a5b8",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/inherited-rq5_results.json/content"
+      }
+    },
+    {
+      "id": "554f9ed2-fad1-4372-bb48-7337582ed704",
+      "key": "red-team-pdf-2026-08-24.md",
+      "size": 4086,
+      "checksum": "md5:7a41d27bf22e11f6e1133831e5ee74d1",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/red-team-pdf-2026-08-24.md/content"
+      }
+    },
+    {
+      "id": "004a0d4e-dc73-4040-a977-edd02fd9bdce",
+      "key": "citation-audit.md",
+      "size": 2825,
+      "checksum": "md5:83c6629600988d9bb38e21a933e15503",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/citation-audit.md/content"
+      }
+    },
+    {
+      "id": "56308e32-baab-4384-9865-e3a70afc2a53",
+      "key": "arxiv-evidence-2026-08-23.json",
+      "size": 4177,
+      "checksum": "md5:71e4b0ba60b0ba0172cf544dada5fdbc",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/arxiv-evidence-2026-08-23.json/content"
+      }
+    },
+    {
+      "id": "d33e1345-d92f-4668-a718-dabeef568a53",
+      "key": "rq5_keyword_load.py",
+      "size": 14514,
+      "checksum": "md5:b014ee9cda14f31d4b2a23bd9408f051",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq5_keyword_load.py/content"
+      }
+    },
+    {
+      "id": "14470058-373a-4e0d-b9df-a7bee49534dc",
+      "key": "rq3_results.json",
+      "size": 1576,
+      "checksum": "md5:ff48ce9501da04350160d7211d8dbdda",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq3_results.json/content"
+      }
+    },
+    {
+      "id": "e126e700-95e3-4cb4-a8af-20b524a96245",
+      "key": "deep-research.md",
+      "size": 4995,
+      "checksum": "md5:555767c058171b06de19b10f6e3f32dc",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/deep-research.md/content"
+      }
+    },
+    {
+      "id": "5ff41657-8f44-4dcc-885d-7bef784be64a",
+      "key": "rq1_retrieval_benchmark.py",
+      "size": 10920,
+      "checksum": "md5:5bb856a03a0119093f285b986efa62a4",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq1_retrieval_benchmark.py/content"
+      }
+    },
+    {
+      "id": "cbfed5ae-2e8a-4e40-9795-8588fce0868a",
+      "key": "ultrametric-program.html",
+      "size": 43227,
+      "checksum": "md5:d3397b2d4653142f6bf78b865d0bc145",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/ultrametric-program.html/content"
+      }
+    },
+    {
+      "id": "ad8ba87f-5ba0-49be-b0d2-d6165d1a795a",
+      "key": "rq1_run.log",
+      "size": 1049,
+      "checksum": "md5:84e055cd01ae6c7c3e28d841f525b5d5",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq1_run.log/content"
+      }
+    },
+    {
+      "id": "977d7c51-5638-44e0-921a-c3fbd993dd77",
+      "key": "README.md",
+      "size": 5404,
+      "checksum": "md5:8c9d21fed190bd0d5b751aeac0851073",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/README.md/content"
+      }
+    },
+    {
+      "id": "c41370bf-1cfb-4415-a5c3-3fbdceed2087",
+      "key": "rq3_run.log",
+      "size": 511,
+      "checksum": "md5:fe786a66983b3cc673753325b9fa10d9",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq3_run.log/content"
+      }
+    },
+    {
+      "id": "4bbd01c3-865a-4229-b4fd-5b080e21d6e3",
+      "key": "verification-integration-res023.md",
+      "size": 3916,
+      "checksum": "md5:3b70e3be0c16a9a9817d8e6364f21b4e",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/verification-integration-res023.md/content"
+      }
+    },
+    {
+      "id": "6231b3c2-0389-4af4-82ff-70a63ec52476",
+      "key": "keyword-taxonomy-source.md",
+      "size": 13016,
+      "checksum": "md5:a78da7b839091bcf81d675891e22a4d5",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/keyword-taxonomy-source.md/content"
+      }
+    },
+    {
+      "id": "058bef29-da3e-4c39-b1b0-bb6834885f02",
+      "key": "scripts/build-pdf.py",
+      "size": 4813,
+      "checksum": "md5:4630d6f7faf935de7cfc68d1822acf1c",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/scripts/build-pdf.py/content"
+      }
+    },
+    {
+      "id": "8593b56e-338b-47d9-98a5-6a5498bb570e",
+      "key": "rq5_run.log",
+      "size": 1708,
+      "checksum": "md5:67624b3331fb4173e0b1dd027c0f4f7e",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq5_run.log/content"
+      }
+    },
+    {
+      "id": "ce461b5c-2a8e-429f-bb71-a7e86ec92b6a",
+      "key": "red-team-p4-2026-08-23.md",
+      "size": 5013,
+      "checksum": "md5:d024b4b5177aec74c100dfa7960c19cc",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/red-team-p4-2026-08-23.md/content"
+      }
+    },
+    {
+      "id": "0cd727f6-4f4a-4ca8-b4dc-9df0ad7a953c",
+      "key": "rq1_results.json",
+      "size": 1669,
+      "checksum": "md5:debd761ba8cdae9fed89638556f4277d",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq1_results.json/content"
+      }
+    },
+    {
+      "id": "31cb4806-57fb-47f2-9cd3-42b1c3855a3e",
+      "key": "rq2_consilience_links.py",
+      "size": 8837,
+      "checksum": "md5:e2981e5209a36edad6c7abf21e82d38e",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq2_consilience_links.py/content"
+      }
+    },
+    {
+      "id": "01a7a042-7c64-4306-8bc0-60aacbb87f7b",
+      "key": "rq4_results.json",
+      "size": 1058,
+      "checksum": "md5:eb58593ef33582b107cee416ee6c9679",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq4_results.json/content"
+      }
+    },
+    {
+      "id": "33ee5bf3-c066-44cf-9ad2-ebb537995e80",
+      "key": "corpus_qnfo_titles.json",
+      "size": 44315,
+      "checksum": "md5:d9ef82359a03b3207bcd259b22568259",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/corpus_qnfo_titles.json/content"
+      }
+    },
+    {
+      "id": "3921e14c-6560-4d9e-8611-3c81cd5ee070",
+      "key": "inherited-rq1_results.json",
+      "size": 1669,
+      "checksum": "md5:debd761ba8cdae9fed89638556f4277d",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/inherited-rq1_results.json/content"
+      }
+    },
+    {
+      "id": "186cddb6-8275-43bd-9ce8-b5229acf6e88",
+      "key": "p2-consilience-map.json",
+      "size": 108956,
+      "checksum": "md5:98059502e1deebf4a8c83cd3185567a1",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/p2-consilience-map.json/content"
+      }
+    },
+    {
+      "id": "0b8d7e01-9570-43b7-8c02-c75b5694d780",
+      "key": "ultrametric-program.md",
+      "size": 34343,
+      "checksum": "md5:213643e52d4c7d1ff6639c8c7d01e103",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/ultrametric-program.md/content"
+      }
+    },
+    {
+      "id": "6d120ef2-99df-4ef2-adfb-528a1f60a8cc",
+      "key": "due-diligence-phase1.md",
+      "size": 8810,
+      "checksum": "md5:98cadd9c395c018d48d6dda8b6451b18",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/due-diligence-phase1.md/content"
+      }
+    },
+    {
+      "id": "819e3060-5662-4371-a2c7-6ceb0cc10110",
+      "key": "rq4_noise_scaling.py",
+      "size": 5321,
+      "checksum": "md5:32ee096eccb640c3a69b52d8d5615af9",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq4_noise_scaling.py/content"
+      }
+    },
+    {
+      "id": "c1e3acec-2963-44c7-b49a-23b387af277f",
+      "key": "references.bib",
+      "size": 9331,
+      "checksum": "md5:9836c3cbc40610d8957d4612a5af6ef6",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/references.bib/content"
+      }
+    },
+    {
+      "id": "19f4c221-84c6-4020-86c0-3f2224894846",
+      "key": "rq3_archimedean_limit.py",
+      "size": 4683,
+      "checksum": "md5:49e533ecdd51fe9b1766c97ad0cd9ed8",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq3_archimedean_limit.py/content"
+      }
+    },
+    {
+      "id": "98cdf8b3-2bd4-450e-886a-80f37e581d0f",
+      "key": "ultrametric-program.pdf",
+      "size": 168267,
+      "checksum": "md5:751ad08d929b05f3035306b5d82565f5",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/ultrametric-program.pdf/content"
+      }
+    },
+    {
+      "id": "6f3dcc4a-f748-4c41-b087-4ffe92a23f93",
+      "key": "red-team-p7-2026-08-23.md",
+      "size": 4700,
+      "checksum": "md5:1341ed5f6b2e6ea1c38f41ef7eb8d196",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/red-team-p7-2026-08-23.md/content"
+      }
+    },
+    {
+      "id": "b0229a20-e1d6-4650-8626-ec8b06475b9f",
+      "key": "p5_gates.log",
+      "size": 420,
+      "checksum": "md5:22c5f13c55747a8fe70d27fe88698d16",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/p5_gates.log/content"
+      }
+    },
+    {
+      "id": "6fe1d7fa-9876-4428-a888-a232fe49ad46",
+      "key": "PROJECT-PLAN.md",
+      "size": 7575,
+      "checksum": "md5:22a3c0a254d9a2c57e31c0ba70552ac1",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/PROJECT-PLAN.md/content"
+      }
+    },
+    {
+      "id": "24945f7e-dc4c-49b3-853d-772f88ac1df4",
+      "key": "arxiv-evidence-g5-2026-08-23.json",
+      "size": 1529,
+      "checksum": "md5:27b185ec1f2b027f2f81cb386e84a6ba",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/arxiv-evidence-g5-2026-08-23.json/content"
+      }
+    },
+    {
+      "id": "4b910780-a69d-49c3-bf2f-b476568305c9",
+      "key": "pdf-style.css",
+      "size": 1936,
+      "checksum": "md5:6a4215b07a1e1262dab2dcb688d19ce6",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/pdf-style.css/content"
+      }
+    },
+    {
+      "id": "00732a20-065b-4817-b36b-f2ff5ea53ab7",
+      "key": "arxiv-evidence-res023-2026-08-23.json",
+      "size": 2880,
+      "checksum": "md5:e21ca0250ea95b9c3a1589527c53b210",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/arxiv-evidence-res023-2026-08-23.json/content"
+      }
+    },
+    {
+      "id": "9311af13-2020-4779-8229-6f6db767f3b8",
+      "key": "rq2_results.json",
+      "size": 2405,
+      "checksum": "md5:5cdb1612a7f102a136e81d276894971f",
+      "links": {
+        "self": "https://zenodo.org/api/records/22073402/files/rq2_results.json/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1328013"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 39,
+    "unique_downloads": 39,
+    "views": 8,
+    "unique_views": 2,
+    "version_downloads": 0,
+    "version_unique_downloads": 0,
+    "version_unique_views": 0,
+    "version_views": 0
+  },
+  "state": "done",
+  "submitted": true
+}

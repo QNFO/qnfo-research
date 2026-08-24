@@ -2,9 +2,9 @@
 title: "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests"
 author: Rowan Brad Quni-Gudzinas
 date: 2026-08-23
-version: v2.1
+version: v2.2
 license: CC BY 4.0
-doi: 10.5281/zenodo.22073307
+doi: 10.5281/zenodo.22073402
 ---
 
 ## Abstract
@@ -116,11 +116,11 @@ disconfirmation criteria.
 
 The invariant is stated in one sentence: **measurement hierarchies organize
 as nested partitions — a strict hierarchy of nested balls satisfying the
-ultrametric inequality d(x, z) <= max(d(x, y), d(y, z)).** The specific
+ultrametric inequality $d(x,z) \le \max(d(x,y), d(y,z))$.** The specific
 arithmetic is one realization: p-adic valuation assigns to a difference its
 power-of-prime depth, and the adelic product formula assembles all
 completions into one global object. The hierarchy is what survives a change
-of base: replace Q_p with formal Laurent series, tropical semirings, or
+of base: replace $\mathbb{Q}_p$ with formal Laurent series, tropical semirings, or
 plain nested partitions without numbers, and the ultrametric inequality and
 its nested balls remain. The prime-specific arithmetic is accidental; the
 hierarchy is essential.
@@ -233,7 +233,7 @@ sha256 p-adic-hash variant collapses toward random retrieval (0.210),
 confirming that the hash encoding is a convention, not physics. H2,
 numeric: the b-adic tree metric is exactly ultrametric (zero violations
 over 30,000 triples), and the ergodic mean over leaves converges to the
-central-limit golden value (relative error 0.004-0.039 against sigma^2/n)
+central-limit golden value (relative error 0.004-0.039 against $\sigma^2/n$)
 with Gaussianity confirmed. H3, numeric: the p-adic valuation-suppressed
 noise model yields decoherence scaling slope -0.9881 against the Markovian
 -2.0000 — a separation of 1.012 in log-log slope, with the summation
@@ -270,8 +270,8 @@ Current state: the corpus contains the closest sibling — finite-distinction
 quantum mechanics (10.5281/zenodo.22046458), which derives unitary
 evolution and superposition as the large-distinction limit of stochastic
 thermodynamics — and the external literature supplies the machinery: Markov
-processes on ultrametric spaces embeddable into Q_p reduce to
-Kolmogorov-Feller pseudo-differential equations on Q_p (Bikulov and
+processes on ultrametric spaces embeddable into $\mathbb{Q}_p$ reduce to
+Kolmogorov-Feller pseudo-differential equations on $\mathbb{Q}_p$ (Bikulov and
 Zubarev, arXiv:1504.03629v1, 2015), with m-adic fractional-time random
 walks as diffusive limits (Dolgopolov and Zubarev, arXiv:1012.1248v2, 2010)
 and p-adic Gibbs measures and phase transitions on trees (Mukhamedov,
@@ -284,7 +284,7 @@ from the standard Markovian prediction in a p-adic pattern (power-of-prime
 hierarchy). *Disconfirmation criterion:* H3 fails if structured-noise
 decoherence measurements show no deviation from Markovian models at the
 precision of the stated protocol. Current state: the p-adic noise model
-gives tau ~ 1/n (slope -1) against the Markovian tau ~ 1/n^2 (slope -2),
+gives $\tau \sim 1/n$ (slope -1) against the Markovian $\tau \sim 1/n^2$ (slope -2),
 computationally verified; the corpus contains a platform proposal for
 p-adic quantum metrology with passive error resilience
 (10.5281/zenodo.21748299); the nearest external experiment is the
@@ -313,7 +313,7 @@ test.
 **Deliverable 2 — the structured-noise decoherence protocol.** A
 measurement specification for H3: qubit coupled to hierarchical noise, the
 noise model, the pulse sequence, the expected scaling (p-adic power-of-
-prime versus 1/n^2 Markovian), the significance threshold, and platform
+prime versus $1/n^2$ Markovian), the significance threshold, and platform
 notes for trapped-ion and superconducting hardware, citing the cavity-QED
 experiment as the nearest existing platform. An experimental group can cost
 this protocol directly from the paper.
@@ -379,8 +379,8 @@ short-range spin glasses (arXiv:cond-mat/0105282v3, 2001). H2 and H3
 confront this controversy explicitly rather than ignore it.
 
 **Ultrametric stochastic processes.** The H2 machinery exists:
-stationary Markov processes on ultrametric spaces embeddable into Q_p
-reduce to Kolmogorov-Feller pseudo-differential equations on Q_p (Bikulov
+stationary Markov processes on ultrametric spaces embeddable into $\mathbb{Q}_p$
+reduce to Kolmogorov-Feller pseudo-differential equations on $\mathbb{Q}_p$ (Bikulov
 and Zubarev, arXiv:1504.03629v1, 2015); m-adic stochastic processes and
 fractional-time random walks have diffusive limits (Dolgopolov and Zubarev,
 arXiv:1012.1248v2, 2010); p-adic Potts models on Cayley trees exhibit phase
