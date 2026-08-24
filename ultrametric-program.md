@@ -2,9 +2,9 @@
 title: "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests"
 author: Rowan Brad Quni-Gudzinas
 date: 2026-08-23
-version: v2.3
+version: v2.4
 license: CC BY 4.0
-doi: 10.5281/zenodo.22073432
+doi: 10.5281/zenodo.22073477
 ---
 
 ## Abstract
@@ -42,18 +42,18 @@ A research organization that spans number-theoretic physics, a calculus of
 logical form, the thermodynamics of computation, technology forecasting,
 measurement epistemology, a software platform, and interactive visualization
 invites a direct question: is this one program or seven programs that share
-an organization? This paper answers: the domains are claimed to share one
-structural object — nested hierarchical partition logic — and the purpose of
-this paper is to state that claim at its full width, to make it falsifiable,
-and to connect it to the program's mission.
+an organization? The answer developed here is that the domains are claimed
+to share one structural object — nested hierarchical partition logic — and
+that this claim can be stated in full, made falsifiable, and connected to
+the program's mission.
 
-The claim has three layers, and keeping them separate is the discipline of
-the paper. First, the structural identification: the domains share a family
-of nested-partition structures. Second, the scientific content: three
-testable hypotheses that would give the identification empirical teeth.
-Third, the mission: an energy-efficiency benchmark for quantum computing,
-grounded in the same structure. The layers have different epistemic status.
-The identification is a modeling choice. The hypotheses are empirical claims
+The claim has three layers, and keeping them separate is essential. First,
+the structural identification: the domains share a family of
+nested-partition structures. Second, the scientific content: three testable
+hypotheses that would give the identification empirical teeth. Third, the
+mission: an energy-efficiency benchmark for quantum computing, grounded in
+the same structure. The layers differ in epistemic status. The
+identification is a modeling choice. The hypotheses are empirical claims
 with disconfirmation criteria and a deadline. The mission is an engineering
 program that stands or falls on its own metrics.
 
@@ -65,7 +65,7 @@ correct quantum answers — and the paper connects the abstract structure to
 that mission through the thermodynamic bounds of computation. Third, the
 paper's evidence discipline is transferable: its computational audits are
 deterministic, seeded, and deposited with the paper, so every number can be
-reproduced byte-identically by any reader.
+reproduced byte-for-byte by any reader.
 
 The paper is organized as follows. Section 2 states the program and its
 mission. Section 3 defines the structural object and its invariant. Section
@@ -96,18 +96,18 @@ evolution speed — are the program's bound family, and they sit naturally
 inside the hierarchy invariant: each bound is a constraint at a scale, and
 the bounds nest like the balls of an ultrametric space. The program's
 mission literature is already substantial: the joules-per-solution metric
-definition and measurement protocol (10.5281/zenodo.21637028), a system-level
-comparison of seventeen quantum platforms (JPCUB competitive landscape,
-corpus record jpcub-competitive-landscape), and
-a qudit-architecture advantage analysis. Externally, the mission has a
+definition and measurement protocol (10.5281/zenodo.21637028), a
+system-level comparison of seventeen quantum platforms (JPCUB competitive
+landscape, corpus record jpcub-competitive-landscape), and a system-level
+qudit-architecture advantage comparison. Externally, the mission has a
 peer: Alves, Pezzutto, and Omar (arXiv:2601.03141v2, 2026) benchmark the
 energetics of Rydberg-atom quantum computing and demonstrate a regime of
 quantum energy advantage for the Fourier transform against classical
 supercomputers — the first platform-level energy benchmark of its kind. The
 joules-per-solution standard is the natural common measure for such results.
 
-The mission is the answer to "what is the program for". The structural
-claim is the program's answer to "what is the program about". Neither
+The mission is the answer to "what is the program for." The structural
+claim is the program's answer to "what is the program about." Neither
 reduces to the other, and this paper does not attempt to make them reduce:
 the mission stands on its own metrics, the structural claim on its own
 disconfirmation criteria.
@@ -120,23 +120,24 @@ ultrametric inequality $d(x,z) \le \max(d(x,y), d(y,z))$.** The specific
 arithmetic is one realization: p-adic valuation assigns to a difference its
 power-of-prime depth, and the adelic product formula assembles all
 completions into one global object. The hierarchy is what survives a change
-of base: replace $\mathbb{Q}_p$ with formal Laurent series, tropical semirings, or
-plain nested partitions without numbers, and the ultrametric inequality and
-its nested balls remain. The prime-specific arithmetic is accidental; the
-hierarchy is essential.
+of base: replace $\mathbb{Q}_p$ with formal Laurent series, tropical
+semirings, or plain nested partitions without numbers, and the ultrametric
+inequality and its nested balls remain. The prime-specific arithmetic is
+accidental; the hierarchy is essential.
 
 The program's mathematical spine for this identification is the bridge
 theorem (10.5281/zenodo.21102770), a rigorous framework connecting p-adic
 and Bruhat-Tits geometries; the Bruhat-Tits tree as the unifying geometric
-object (R2-distributed record ballistic-transport-on-the-bruhat-tits-tree); and the
-consilience between physics and number theory (10.5281/zenodo.21590155). The
-consilience framework record (10.5281/zenodo.21804073) carries the same
-bridge from valuation theory to the void — the semantic reading of the
-invariant that the taxonomy audit later confirms.
-Prior corpus work established that positional notation itself is natively an
-ultrametric tree (10.5281/zenodo.21046213) and that prime valuation depth
-reads multiplication as branching (10.5281/zenodo.21918838) — two concrete
-instances where ordinary mathematics already wears the structure.
+object (R2-distributed record ballistic-transport-on-the-bruhat-tits-tree);
+and the consilience between physics and number theory
+(10.5281/zenodo.21590155). The consilience framework record
+(10.5281/zenodo.21804073) carries the same bridge from valuation theory to
+the void — the semantic reading of the invariant that the taxonomy audit
+later confirms. Prior corpus work established that positional notation
+itself is natively an ultrametric tree (10.5281/zenodo.21046213) and that
+prime valuation depth reads multiplication as branching
+(10.5281/zenodo.21918838) — two concrete instances where ordinary
+mathematics already exhibits the structure.
 
 The claim at this layer is deliberately modest: the paper does not assert
 that reality is ultrametric. It asserts that a family of nested-partition
@@ -147,9 +148,8 @@ scientific standing is decided by the hypotheses of Section 6.
 
 Where does the observer sit? The program's answer — developed in the corpus
 — is that the observer is a node inside the tree, and that measurement is
-the resolution operation that moves through the hierarchy. This is the
-program's broadest theme, and it deserves the paper's lead framing: the
-program is the scientific study of the **resolution hierarchy of
+the resolution operation that moves through the hierarchy. The program is
+therefore the scientific study of the **resolution hierarchy of
 observation**.
 
 The corpus anchors are two records. The 29-schisms synthesis
@@ -160,33 +160,32 @@ and the machinery is ultrametric geometry, Bruhat-Tits trees, the Monna
 projection, and the syntactic token calculus. The observer-inside-the-tree
 record (10.5281/zenodo.21473899) scrutinizes the claim that embedding the
 observer as a node in an ultrametric tree eliminates the need for an
-external vantage point. Its verdict is the program's theme stated with its
-boundaries: the resolution survives scrutiny in a limited but genuine sense —
-the calibration map provides a well-defined internal perspective, and the
-ultrametric structure avoids the circularity of flat-space relational
-approaches — but three constraints are non-trivial. First, the distance
-function requires a global tree topology that is not locally computable,
-leaving a residual external perspective that the framework acknowledges but
-does not eliminate. Second, the boson-fermion observer paradox constrains
-which nodes can simultaneously function as observers. Third, the resolution
-is observationally indistinguishable from relational quantum mechanics and
-QBism in currently feasible regimes — it is a structural resolution, not an
-empirical one.
+external vantage point. The scrutiny finds the resolution survives in a
+limited but genuine sense — the calibration map provides a well-defined
+internal perspective, and the ultrametric structure avoids the circularity
+of flat-space relational approaches — but three constraints are
+non-trivial. First, the distance function requires a global tree topology
+that is not locally computable, leaving a residual external perspective
+that the framework acknowledges but does not eliminate. Second, the
+boson-fermion observer paradox constrains which nodes can simultaneously
+function as observers. Third, the resolution is observationally
+indistinguishable from relational quantum mechanics and QBism in currently
+feasible regimes — it is a structural resolution, not an empirical one.
 
 These constraints are not footnotes; they are the paper's sharpest open
 problems. The global-topology constraint, in particular, relocates the
 external perspective rather than eliminating it: the tree itself is an
 external structure not derivable from any single node's perspective. The
-program's claim to have resolved the inside/outside schism must therefore be
-stated as: the schism is relocated to the global topology, where it becomes
-a mathematical question about the structure rather than a metaphysical one
-about the observer. That is progress, and it is stated plainly.
+program's claim to have resolved the inside/outside schism must therefore
+be stated as: the schism is relocated to the global topology, where it
+becomes a mathematical question about the structure rather than a
+metaphysical one about the observer.
 
 ## 5. Evidence from the corpus
 
-The program's claims are not asserted in a vacuum; the corpus of published
-records provides the evidence base, and this section reports what is
-established, computationally, at the time of writing.
+The corpus of published records provides the evidence base for the
+program's claims; this section reports what is established computationally
+at the time of writing.
 
 ### 5.1 The keyword-taxonomy audit
 
@@ -194,53 +193,52 @@ The most direct audit of the program's unity is the computational
 examination of its own keyword taxonomy (ref 1: docs/QNFO-KEYWORD-TAXONOMY.md
 v1.0, 2026-08-05 — 335 keywords, seven program sections, three
 cross-cutting themes), published as the predecessor record
-(10.5281/zenodo.22071421). The result is a negative result with a positive
-reading: the taxonomy is strictly partitional — 334 of 335 keywords occur
-in exactly one program, one keyword occurs in two, none occurs in three or
-more — and the load-bearing core defined by shared vocabulary is empty
-(Fisher exact test for bridge-vocabulary enrichment: p = 1.0). The
-consilience, if it exists, is not lexical.
+(10.5281/zenodo.22071421). The result is a negative finding with a
+constructive interpretation: the taxonomy is strictly partitional — 334 of
+335 keywords occur in exactly one program, one keyword occurs in two, none
+occurs in three or more — and the load-bearing core defined by shared
+vocabulary is empty (Fisher exact test for bridge-vocabulary enrichment:
+p = 1.0). The consilience, if it exists, is not lexical.
 
-The audit then finds where the consilience does live, at four levels.
-Semantic families: of the four bridge families, only the hierarchy family
-spans three programs (laws of form, consilience research, demos); the
-valuation family sits in ultrametric physics, the distinction family in the
-laws of form, the bound family in infomatics. The taxonomy's own bridge
-subsections are program-local anchors that name connections without
-instantiating shared vocabulary. The taxonomy's explicit cross-cutting
-themes are where program vocabulary actually meets (the platform and the
-consilience program). And the published corpus carries the semantic bridges:
-measurement stratigraphy linking epistemology to valuation theory
-(10.5281/zenodo.21705220), the valuation-without-reals framework
-(10.5281/zenodo.21803677), and a computational study finding ultrametric
-topology in semantic memory with invariant cross-ratio stability
-(10.5281/zenodo.19564091).
+The audit then locates the consilience at four levels. Semantic families:
+of the four bridge families, only the hierarchy family spans three programs
+(laws of form, consilience research, demos); the valuation family sits in
+ultrametric physics, the distinction family in the laws of form, the bound
+family in infomatics. The taxonomy's own bridge subsections are
+program-local anchors that name connections without instantiating shared
+vocabulary. The taxonomy's explicit cross-cutting themes are where program
+vocabulary actually meets (the platform and the consilience program). And
+the published corpus carries the semantic bridges: measurement stratigraphy
+linking epistemology to valuation theory (10.5281/zenodo.21705220), the
+valuation-without-reals framework (10.5281/zenodo.21803677), and a
+computational study finding ultrametric topology in semantic memory with
+invariant cross-ratio stability (10.5281/zenodo.19564091).
 
-The reading for this paper: the program's unity is a semantic claim about
-concepts and corpus structure, not a lexical fact about keywords. The
-taxonomy audit is evidence for that reading, not the headline.
+The program's unity is therefore a semantic claim about concepts and corpus
+structure, not a lexical fact about keywords. The taxonomy audit is evidence
+for that reading.
 
 ### 5.2 Computational verification of the hypotheses
 
 The three hypotheses of Section 6 are checked in code before they are
 asserted, by a deterministic, seeded verification suite (scripts and full
-logs in the predecessor's deposit; all numbers reproduced byte-identically).
+logs in the predecessor's deposit; all numbers reproduced byte-for-byte).
 H1, retrieval: the data-derived ultrametric index (single-linkage recoding
 over cosine distances) matches a cosine baseline exactly on a seeded
-synthetic corpus (precision at 10: 1.000 vs 1.000) and trails by 0.042 at
-precision at 10 on a 69-title labeled corpus (0.765 vs 0.807); the naive
+synthetic corpus (precision@10: 1.000 vs 1.000) and trails by 0.042 at
+precision@10 on a 69-title labeled corpus (0.765 vs 0.807); the naive
 sha256 p-adic-hash variant collapses toward random retrieval (0.210),
 confirming that the hash encoding is a convention, not physics. H2,
 numeric: the b-adic tree metric is exactly ultrametric (zero violations
 over 30,000 triples), and the ergodic mean over leaves converges to the
-central-limit golden value (relative error 0.004-0.039 against $\sigma^2/n$)
-with Gaussianity confirmed. H3, numeric: the p-adic valuation-suppressed
-noise model yields decoherence scaling slope -0.9881 against the Markovian
--2.0000 — a separation of 1.012 in log-log slope, with the summation
-arithmetic verified exactly (0.0 relative error) and a seeded Monte Carlo
-sanity check passing.
+central-limit golden value (relative error 0.004-0.039 against
+$\sigma^2/n$) with Gaussianity confirmed. H3, numeric: the
+p-adic valuation-suppressed noise model yields decoherence scaling slope
+-0.9881 against the Markovian -2.0000 — a separation of 1.012 in log-log
+slope, with the summation arithmetic verified exactly (0.0 relative error)
+and a seeded Monte Carlo sanity check passing.
 
-The summary, stated plainly: H1 is partial on the two pinned corpora (the
+The summary: H1 is partial on the two pinned corpora (the
 abstract-and-embedding corpus specified by the protocol is the
 adjudicator); H2's numeric machinery is confirmed but no derivation of
 Archimedean physics from the hierarchy exists yet; H3's signature is real
@@ -257,7 +255,7 @@ beats a cosine baseline on retrieval precision. *Disconfirmation
 criterion:* H1 fails if ultrametric retrieval does not match the cosine
 baseline on two pre-specified corpora with metrics, primes, and hashes
 committed before measurement. Current state: exact match on the synthetic
-corpus, -0.042 at precision at 10 on the title corpus; adjudication pending
+corpus, -0.042 at precision@10 on the title corpus; adjudication pending
 on the abstract-and-embedding corpus.
 
 **H2 — Archimedean emergence.** Continuous Archimedean physics appears as
@@ -271,8 +269,8 @@ quantum mechanics (10.5281/zenodo.22046458), which derives unitary
 evolution and superposition as the large-distinction limit of stochastic
 thermodynamics — and the external literature supplies the machinery: Markov
 processes on ultrametric spaces embeddable into $\mathbb{Q}_p$ reduce to
-Kolmogorov-Feller pseudo-differential equations on $\mathbb{Q}_p$ (Bikulov and
-Zubarev, arXiv:1504.03629v1, 2015), with m-adic fractional-time random
+Kolmogorov-Feller pseudo-differential equations on $\mathbb{Q}_p$ (Bikulov
+and Zubarev, arXiv:1504.03629v1, 2015), with m-adic fractional-time random
 walks as diffusive limits (Dolgopolov and Zubarev, arXiv:1012.1248v2, 2010)
 and p-adic Gibbs measures and phase transitions on trees (Mukhamedov,
 Rozikov, and Mendes, arXiv:math-ph/0512018v2, 2005). The derivation target
@@ -284,9 +282,9 @@ from the standard Markovian prediction in a p-adic pattern (power-of-prime
 hierarchy). *Disconfirmation criterion:* H3 fails if structured-noise
 decoherence measurements show no deviation from Markovian models at the
 precision of the stated protocol. Current state: the p-adic noise model
-gives $\tau \sim 1/n$ (slope -1) against the Markovian $\tau \sim 1/n^2$ (slope -2),
-computationally verified; the corpus contains a platform proposal for
-p-adic quantum metrology with passive error resilience
+gives $\tau \sim 1/n$ (slope -1) against the Markovian $\tau \sim 1/n^2$
+(slope -2), computationally verified; the corpus contains a platform
+proposal for p-adic quantum metrology with passive error resilience
 (10.5281/zenodo.21748299); the nearest external experiment is the
 cavity-QED spin glass (arXiv:2307.10176v2, 2023).
 
@@ -315,8 +313,8 @@ measurement specification for H3: qubit coupled to hierarchical noise, the
 noise model, the pulse sequence, the expected scaling (p-adic power-of-
 prime versus $1/n^2$ Markovian), the significance threshold, and platform
 notes for trapped-ion and superconducting hardware, citing the cavity-QED
-experiment as the nearest existing platform. An experimental group can cost
-this protocol directly from the paper.
+experiment as the nearest existing platform. An experimental group can
+estimate the cost of this protocol directly from the paper.
 
 **Deliverable 3 — the machine-readable consilience map.** The graph output
 of the taxonomy audit (342 nodes, 336 ownership edges) recording programs,
@@ -346,9 +344,9 @@ connecting this paper's structure to the program's purpose.
 
 The thesis is as deep as L2; L2 is a premise, not a result. In particular,
 the paper does not assert that reality is ultrametric. It asserts that a
-specific compression prior is testable, that a specific emergence claim has
-a named derivation target, that a specific noise signature is detectable,
-and that the program's standing is decided by the test.
+compression prior is testable, an emergence claim has a named derivation
+target, a noise signature is detectable, and the program's standing is
+decided by the test.
 
 ## 9. Related work
 
@@ -378,14 +376,15 @@ that replica symmetry breaking cannot be correct for finite-dimensional
 short-range spin glasses (arXiv:cond-mat/0105282v3, 2001). H2 and H3
 confront this controversy explicitly rather than ignore it.
 
-**Ultrametric stochastic processes.** The H2 machinery exists:
-stationary Markov processes on ultrametric spaces embeddable into $\mathbb{Q}_p$
-reduce to Kolmogorov-Feller pseudo-differential equations on $\mathbb{Q}_p$ (Bikulov
-and Zubarev, arXiv:1504.03629v1, 2015); m-adic stochastic processes and
-fractional-time random walks have diffusive limits (Dolgopolov and Zubarev,
-arXiv:1012.1248v2, 2010); p-adic Potts models on Cayley trees exhibit phase
-transitions (Mukhamedov, Rozikov, and Mendes, arXiv:math-ph/0512018v2,
-2005). These are the mathematical precedents for "average over the leaves".
+**Ultrametric stochastic processes.** The H2 machinery exists: stationary
+Markov processes on ultrametric spaces embeddable into $\mathbb{Q}_p$
+reduce to Kolmogorov-Feller pseudo-differential equations on
+$\mathbb{Q}_p$ (Bikulov and Zubarev, arXiv:1504.03629v1, 2015); m-adic
+stochastic processes and fractional-time random walks have diffusive
+limits (Dolgopolov and Zubarev, arXiv:1012.1248v2, 2010); p-adic Potts
+models on Cayley trees exhibit phase transitions (Mukhamedov, Rozikov, and
+Mendes, arXiv:math-ph/0512018v2, 2005). These are the mathematical
+precedents for "average over the leaves."
 
 **Energy benchmarking.** The mission's external peer: Alves, Pezzutto, and
 Omar (arXiv:2601.03141v2, 2026) benchmark Rydberg-atom quantum computing
@@ -415,17 +414,16 @@ positive result that would answer it. This paper adopts the same posture.
 sharpest constraint is also this paper's sharpest open problem: the
 distance function requires a global tree topology that is not locally
 computable. The resolution hierarchy of observation therefore carries a
-residual external perspective — the tree itself. The paper states this
-plainly: the program's answer to the inside/outside schism is to relocate
-it to the global structure, where it is a mathematical question, not to
-eliminate it.
+residual external perspective — the tree itself. The program's answer to
+the inside/outside schism is to relocate it to the global structure, where
+it is a mathematical question, not to eliminate it.
 
 **The CFE gap.** The paradigm-engineering domain (48 keywords) contains no
 bridge-family vocabulary and shares no keywords with any other domain in
-the taxonomy audit. The program's consilience table either builds the CFE
-bridge explicitly — forecasting and learning-curve keywords as a hierarchy
-over paradigms — or marks CFE as the weakest documented link. This paper
-records the gap rather than resolving it.
+the taxonomy audit. The program's consilience structure either builds the
+CFE bridge explicitly — forecasting and learning-curve keywords as a
+hierarchy over paradigms — or marks CFE as the weakest documented link.
+This paper records the gap rather than resolving it.
 
 **Encoding dependence.** The p-adic valuation of a measurement requires
 digitizing and hashing the raw reading first; the hash is a chosen
@@ -477,12 +475,9 @@ falsification; the program's posture is to say so in advance.
 The plural-radix question is the program's own challenge to itself. The
 taxonomy audit shows the single-radix reading is not lexically visible; the
 hierarchy family is the only bridge family spanning three domains. The
-paper's position: the invariant is hierarchical partition logic, and
-whether the program is one tree or a forest of incommensurable grammars is
-left as the open question the corpus can answer — with the deliverable-3
-map as the instrument. A program that can state its own deepest open
-question in its own publication is not a program hiding from scrutiny; it
-is a program that has made its structure inspectable.
+invariant is hierarchical partition logic, and whether the program is one
+tree or a forest of incommensurable grammars is left as an open question
+the corpus can answer — with the deliverable-3 map as the instrument.
 
 ## 12. Reproducibility
 
@@ -498,8 +493,9 @@ Python standard library, fixed seed 20260823, no random seeds required
 beyond the declared constants; re-running from the repository root
 regenerates every JSON artifact byte-identically. Corpus statistics (8,325
 nodes; 1,661 papers — including the predecessor record, RES.022) were read
-from the program's knowledge-graph endpoint on 2026-08-23. External-literature evidence files (arXiv) are archived in
-the predecessor's deposit and this paper's artifacts. Runtime: under two
+from the program's knowledge-graph endpoint on 2026-08-23.
+External-literature evidence files (arXiv) are archived in the
+predecessor's deposit and this paper's artifacts. Runtime: under two
 minutes for the full suite on the reference machine; no external services
 required.
 

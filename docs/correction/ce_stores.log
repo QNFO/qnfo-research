@@ -1,0 +1,7 @@
+REGISTRY QNFO.RES.022 : True 1 []
+REGISTRY QNFO.RES.023 : True 1 []
+D1 keyword-taxonomy-consilience : True 5 []
+D1 ultrametric-program : True 5 []
+KG paper:keyword-taxonomy-consilience : True 1 []
+KG paper:ultrametric-program : True 1 []
+EXIT=0

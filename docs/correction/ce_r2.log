@@ -1,0 +1,205 @@
+V2.4 DEPOSIT FILES: 40
+[
+ {
+  "file": "ultrametric-program.md",
+  "put": 200,
+  "bytes": 33795
+ },
+ {
+  "file": "due-diligence-phase1.md",
+  "put": 200,
+  "bytes": 8810
+ },
+ {
+  "file": "inherited-rq5_results.json",
+  "put": 200,
+  "bytes": 6263
+ },
+ {
+  "file": "citation-audit.md",
+  "put": 200,
+  "bytes": 2825
+ },
+ {
+  "file": "ultrametric-program.html",
+  "put": 200,
+  "bytes": 43227
+ },
+ {
+  "file": "p5_gates.log",
+  "put": 200,
+  "bytes": 420
+ },
+ {
+  "file": "red-team-p7-2026-08-23.md",
+  "put": 200,
+  "bytes": 4700
+ },
+ {
+  "file": "inherited-rq1_results.json",
+  "put": 200,
+  "bytes": 1669
+ },
+ {
+  "file": "ultrametric-program.pdf",
+  "put": 200,
+  "bytes": 156816
+ },
+ {
+  "file": "arxiv-evidence-g5-2026-08-23.json",
+  "put": 200,
+  "bytes": 1529
+ },
+ {
+  "file": "PROJECT-PLAN.md",
+  "put": 200,
+  "bytes": 7575
+ },
+ {
+  "file": "deep-research.md",
+  "put": 200,
+  "bytes": 4995
+ },
+ {
+  "file": "pdf-style.css",
+  "put": 200,
+  "bytes": 1936
+ },
+ {
+  "file": "p2-consilience-map.json",
+  "put": 200,
+  "bytes": 108956
+ },
+ {
+  "file": "rq1_retrieval_benchmark.py",
+  "put": 200,
+  "bytes": 10920
+ },
+ {
+  "file": "rq5_run.log",
+  "put": 200,
+  "bytes": 1708
+ },
+ {
+  "file": "references.bib",
+  "put": 200,
+  "bytes": 9331
+ },
+ {
+  "file": "red-team-p4-2026-08-23.md",
+  "put": 200,
+  "bytes": 5013
+ },
+ {
+  "file": "README.md",
+  "put": 200,
+  "bytes": 5404
+ },
+ {
+  "file": "rq4_run.log",
+  "put": 200,
+  "bytes": 397
+ },
+ {
+  "file": "scripts/build-pdf.py",
+  "put": 200,
+  "bytes": 6213
+ },
+ {
+  "file": "rq1_results.json",
+  "put": 200,
+  "bytes": 1669
+ },
+ {
+  "file": "keyword-taxonomy-source.md",
+  "put": 200,
+  "bytes": 13016
+ },
+ {
+  "file": "red-team-pdf-2026-08-24.md",
+  "put": 200,
+  "bytes": 4164
+ },
+ {
+  "file": "universal-ignorance-audit.md",
+  "put": 200,
+  "bytes": 10092
+ },
+ {
+  "file": "rq5_keyword_load.py",
+  "put": 200,
+  "bytes": 14514
+ },
+ {
+  "file": "arxiv-evidence-2026-08-23.json",
+  "put": 200,
+  "bytes": 4177
+ },
+ {
+  "file": "rq1_run.log",
+  "put": 200,
+  "bytes": 1049
+ },
+ {
+  "file": "rq2_results.json",
+  "put": 200,
+  "bytes": 2405
+ },
+ {
+  "file": "arxiv-evidence-res023-2026-08-23.json",
+  "put": 200,
+  "bytes": 2880
+ },
+ {
+  "file": "rq5_results.json",
+  "put": 200,
+  "bytes": 6263
+ },
+ {
+  "file": "rq4_results.json",
+  "put": 200,
+  "bytes": 1058
+ },
+ {
+  "file": "rq4_noise_scaling.py",
+  "put": 200,
+  "bytes": 5321
+ },
+ {
+  "file": "rq3_run.log",
+  "put": 200,
+  "bytes": 511
+ },
+ {
+  "file": "rq2_consilience_links.py",
+  "put": 200,
+  "bytes": 8837
+ },
+ {
+  "file": "rq3_archimedean_limit.py",
+  "put": 200,
+  "bytes": 4683
+ },
+ {
+  "file": "rq3_results.json",
+  "put": 200,
+  "bytes": 1576
+ },
+ {
+  "file": "rq2_run.log",
+  "put": 200,
+  "bytes": 1021
+ },
+ {
+  "file": "verification-integration-res023.md",
+  "put": 200,
+  "bytes": 3916
+ },
+ {
+  "file": "corpus_qnfo_titles.json",
+  "put": 200,
+  "bytes": 44315
+ }
+]
+MIRRORED 40/40
+EXIT=0
