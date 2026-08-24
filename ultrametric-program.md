@@ -2,9 +2,9 @@
 title: "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests"
 author: Rowan Brad Quni-Gudzinas
 date: 2026-08-24
-version: v2.5
+version: v2.5.1
 license: CC BY 4.0
-doi: 10.5281/zenodo.22075809
+doi: 10.5281/zenodo.22076816
 ---
 
 ## Abstract
