@@ -189,34 +189,52 @@ at the time of writing.
 
 ### 5.1 The keyword-taxonomy audit
 
-The most direct audit of the program's unity is the computational
-examination of its own keyword taxonomy (ref 1: docs/QNFO-KEYWORD-TAXONOMY.md
-v1.0, 2026-08-05 — 335 keywords, seven program sections, three
-cross-cutting themes), published as the predecessor record
-(10.5281/zenodo.22071421). The result is a negative finding with a
-constructive interpretation: the taxonomy is strictly partitional — 334 of
-335 keywords occur in exactly one program, one keyword occurs in two, none
-occurs in three or more — and the load-bearing core defined by shared
-vocabulary is empty (Fisher exact test for bridge-vocabulary enrichment:
-p = 1.0). The consilience, if it exists, is not lexical.
+The most direct audit of the program's unity examines the vocabulary the
+program itself maintains. The canonical keyword taxonomy
+(docs/QNFO-KEYWORD-TAXONOMY.md, v1.0, 2026-08-05) contains 335 keywords in
+seven program sections and three cross-cutting themes; a full computational
+audit of the taxonomy was published as the predecessor record
+(10.5281/zenodo.22071421). Its central finding is negative for the lexical
+form of the unity claim: the taxonomy is strictly partitional. Of the 335
+keywords, 334 occur in exactly one program, one (complexity-measure) occurs
+in two, and none occurs in three or more. There is no shared vocabulary at
+any threshold above two programs, and the taxonomy's bridge concepts show
+no enrichment in what little is shared (Fisher exact test, p = 1.0). At
+the keyword level, the seven domains share no term across three or more
+programs; the consilience, if it exists, is not lexical.
 
-The audit then locates the consilience at four levels. Semantic families:
-of the four bridge families, only the hierarchy family spans three programs
-(laws of form, consilience research, demos); the valuation family sits in
-ultrametric physics, the distinction family in the laws of form, the bound
-family in infomatics. The taxonomy's own bridge subsections are
-program-local anchors that name connections without instantiating shared
-vocabulary. The taxonomy's explicit cross-cutting themes are where program
-vocabulary actually meets (the platform and the consilience program). And
-the published corpus carries the semantic bridges: measurement stratigraphy
-linking epistemology to valuation theory (10.5281/zenodo.21705220), the
-valuation-without-reals framework (10.5281/zenodo.21803677), and a
-computational study finding ultrametric topology in semantic memory with
-invariant cross-ratio stability (10.5281/zenodo.19564091).
+The audit locates the consilience at the level of concepts and corpus
+structure rather than keywords. Four observations carry that reading.
+First, of the taxonomy's four bridge families (valuation, hierarchy,
+distinction, bound), only hierarchy spans three programs — the laws of
+form, consilience research, and demos; each other family is anchored in a
+single program. Second, the taxonomy's own bridge subsections name
+connections between programs but contain only program-local terms; they
+are pointers to relations, not shared vocabulary. Third, the taxonomy's
+cross-cutting themes are where program vocabulary actually meets: the
+platform and the consilience program appear together there for the first
+time. Fourth, the published corpus carries the semantic bridges that the
+keywords do not: measurement stratigraphy links epistemology to valuation
+theory (10.5281/zenodo.21705220); the valuation-without-reals framework
+extends that bridge into a category-theoretic foundation for finite
+measurement (10.5281/zenodo.21803677); and a computational study finds
+ultrametric topology in semantic memory with invariant cross-ratio
+stability (10.5281/zenodo.19564091). These records connect domains without
+sharing their vocabularies.
 
-The program's unity is therefore a semantic claim about concepts and corpus
-structure, not a lexical fact about keywords. The taxonomy audit is evidence
-for that reading.
+The program's unity is therefore a semantic claim — about concepts and
+corpus structure — not a lexical fact about keywords. The taxonomy audit
+is the evidence that makes that reading precise: it shows what the unity
+is not (shared vocabulary) and where it lives (semantic families, explicit
+bridge sections, cross-cutting themes, and corpus-level links). A dedicated
+quantitative study generalizes this single-case result: across six arXiv
+disciplines sampled on 2026-08-24, 97.2% of technical vocabulary occurs in
+exactly one discipline, the shared core is empty, and the few bridging
+terms are overwhelmingly method vocabulary (10.5281/zenodo.22075544). The
+program's partitional vocabulary is not an organizational accident; it is
+the normal condition of interdisciplinary research, and the semantic
+bridges the corpus builds are the exception that must be constructed
+deliberately.
 
 ### 5.2 Computational verification of the hypotheses
 
@@ -478,6 +496,21 @@ hierarchy family is the only bridge family spanning three domains. The
 invariant is hierarchical partition logic, and whether the program is one
 tree or a forest of incommensurable grammars is left as an open question
 the corpus can answer — with the deliverable-3 map as the instrument.
+
+The audit also places the program inside a general phenomenon. The
+terminology-silo study spun off from section 5.1 (10.5281/zenodo.22075544)
+measures the same partitionality outside the organization: in a sample of
+six arXiv disciplines, 97.2% of technical vocabulary is domain-local,
+bridge vocabulary is rare (2.8%) and strongly biased toward method terms
+(Fisher exact p = 8.5e-7, odds ratio 70), and cross-domain semantic links
+carry no lexical signature unless an author writes the bridge into a
+title. The lesson for this program is practical: consilience vocabulary
+must be built. Bridge subsections, cross-cutting themes, and title-visible
+naming of cross-domain connections are infrastructure, not decoration. The
+program's own bridge practice — the "Valuation Without R" title, the
+hierarchy family spanning three domains — is the worked example of that
+infrastructure, and the terminology-silo instrument is the tool that
+measures whether it is being maintained.
 
 ## 12. Reproducibility
 
