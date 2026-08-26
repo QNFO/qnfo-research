@@ -38,7 +38,7 @@
 | 29 | qunigudzinas2026ignorance | 10.5281/zenodo.21901984 | "The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing" ✓ |
 
 ## REFERENCE-TITLE-FIDELITY-1 (rendered list == bib titles)
-Paper's reference list updated to the exact bib titles above (edits: [16], [18], [27], [28] full titles). Rendering at publish will be FROM this bib (citeproc) so the rendered list and bib cannot diverge.
+The References section of paper.md is generated FROM this bib by `artifacts/verification/render_references.py` (exact bib titles, author normalization, volume/pages/year, DOI/arXiv IDs appended). The rendered list and the bib cannot diverge — REFERENCE-TITLE-FIDELITY-1 satisfied by construction. Re-run with `python artifacts/verification/render_references.py` from the repository root.
 
 ## Counts
 29 entries cited in-body ([1]–[29]); 29 entries in references.bib. INTERNAL-COUNTS-SWEEP-1: PROJECT-PLAN §5 phase list, paper abstract "29 references", bib count all consistent (29/29/29). Floor table numbers in paper §3 match verification_floor.json (spot-checked: 2.871e-21, 5.742e-21, 1.723e-20, 2.153e-21, 4.594e-20, 2.526e-18, 3.158e-20, 2.871e-21). H2 table numbers match h2_results.json (spot-checked: 48.0/16.0/3.00/0.000; 48.0/17.2/2.79/0.003/0.006; 48.0/20.6/2.33/0.065/0.150; 48.0/21.2/2.27/1.323/2.124; 48.0/24.3/1.98/2.772/4.318; 48.0/29.3/1.64/12.795/17.401).

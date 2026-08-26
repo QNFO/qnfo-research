@@ -4,7 +4,12 @@
 Generates the [1]..[N] list from the citation-audited bib in bib order, asserts
 title fidelity (rendered title == bib title, by construction), and splices the
 result into paper.md, replacing the previous hand-typed list.
-Usage: python render_references.py
+
+Field fixes (pass-2 audit):
+  - articles: emit volume (+ number in parentheses) before pages
+  - inproceedings: do not append the year when the booktitle already ends (YYYY)
+  - books: append "ed." to the edition field
+Usage: python render_references.py   (run from the repository root)
 """
 import re
 
@@ -76,6 +81,8 @@ def main():
         year = f.get("year", "").strip()
         venue = unlatex((f.get("journal") or f.get("booktitle") or "").strip())
         pages = unlatex(f.get("pages", "")).strip().replace("--", "–")
+        volume = unlatex(f.get("volume", "")).strip()
+        number = unlatex(f.get("number", "")).strip()
         doi = f.get("doi", "").strip()
         eprint = f.get("eprint", "").strip()
         extra = ""
@@ -85,6 +92,8 @@ def main():
             extra = " https://doi.org/" + doi
         if type_ == "book":
             ed = unlatex(f.get("edition", "")).strip()
+            if ed:
+                ed = ed.rstrip(".") + " ed."
             pub = unlatex(f.get("publisher", "")).strip()
             line = f"[{idx}] {auth}, {title}, {ed}, {pub} ({year})."
             lines.append(line)
@@ -94,7 +103,10 @@ def main():
             line = f"[{idx}] {auth}, \"{title},\" {venue}"
             if pages:
                 line += f", {pages}"
-            line += f" ({year})."
+            # avoid a duplicate year when the venue already ends with (…YYYY)
+            if not re.search(r"\([^)]*\d{4}\)$", venue):
+                line += f" ({year})"
+            line += "."
             if extra:
                 line += extra
             lines.append(line)
@@ -104,8 +116,11 @@ def main():
         line = f"[{idx}] {auth}, \"{title},\""
         if venue:
             line += f" {venue}"
-        if type_ == "article" and pages:
-            line += f", {pages}"
+        if type_ == "article":
+            if volume:
+                line += f" {volume}" + (f"({number})" if number else "")
+            if pages:
+                line += f", {pages}"
         line += f" ({year})."
         if extra:
             line += extra
@@ -114,15 +129,11 @@ def main():
     lines.append("")
     generated = "\n".join(lines)
 
-    # title-fidelity assert (rendered title == bib title by construction; manifest check)
     print(f"RENDERED {len(entries)} REFERENCES from references.bib")
-    for key, title in manifest:
-        print(f"  - {key}: {title[:70]}")
     if len(entries) != 29:
         print("WARN: expected 29 entries")
         raise SystemExit(1)
 
-    # splice into paper.md replacing from '## References' to EOF
     paper_path = "paper.md"
     paper = open(paper_path, encoding="utf-8").read()
     marker = "## References"
@@ -132,8 +143,10 @@ def main():
         raise SystemExit(2)
     new_paper = paper[:pos] + generated
     open(paper_path, "w", encoding="utf-8", newline="\n").write(new_paper)
-    print(f"spliced {len(generated)} chars into paper.md (replaced from line at {pos})")
+    print(f"spliced {len(generated)} chars into paper.md (replaced from offset {pos})")
     print("TITLE FIDELITY: rendered-from-bib by construction (REFERENCE-TITLE-FIDELITY-1)")
+    print("--- generated list ---")
+    print(generated)
 
 if __name__ == "__main__":
     main()
