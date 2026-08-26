@@ -50,3 +50,15 @@
 **Q14. Relational ignorance (held, not resolved):** The thesis wants the adele ring to be more than machinery — a way of seeing numbers. *(Silence held.)*
 
 **Q15. Meta-question (seed of next pass):** *What does exactness cost?* Is post-positional numeracy's real contribution an energy/complexity accounting for exact arithmetic — what is the cost of multi-place exact reconstruction vs. single-place approximate arithmetic — rather than an epistemological one? This connects PPN to the JPCUB mission (energy cost of correct answers) and gives the paper a falsifiable computational axis it currently lacks. **Next audit pass targets this question.**
+
+---
+
+## Addendum (2026-08-26) — re-scope to the delta claim C1′
+
+Phase 1 adjudicated the original C1 as published (6+ corpus records, incl. a prior session's identical verdict), and the user directed the project to the uncovered constructive leg. Target re-scoped to **C1′** (finite-adele encoding + injectivity window + product formula as verification invariant, with verification suite and demo). Key questions re-administered on C1′:
+
+- **Q1 scaffolds:** C1′ inherits (a) the assumption that extending the published single-place Hensel framework is the right base (vs. a from-scratch system) and (b) that the "post-positional" framing adds value beyond standard modular methods. Both are held as scaffolds; (a) is economically sound, (b) is tested by H-PPN-4.
+- **Q5 falsifiability:** a verified injectivity collision kills the window claim; discovering a published system already using the product formula as an invariant kills the novelty claim. Both conditions are pre-registered.
+- **Q10 protected ignorance:** "Is the delta too small to stand alone — should it be a newversion of the Hensel framework instead?" Held, then resolved by the user's explicit choice of a standalone delta paper.
+- **Q13 actionable:** implement the encoding + verification suite in Phase 4 with seeded trials; re-audit the Hensel deposit at that time for drift (its v1.2.0 could gain multi-place features).
+- **Q15 (new seed):** *What does multi-place exactness cost against single-place — in cycles, memory, and energy?* Carried forward; the user declined the JPC route this cycle, so the cost-of-exactness question is flagged for QNFO.JPC.004 rather than folded into this paper.

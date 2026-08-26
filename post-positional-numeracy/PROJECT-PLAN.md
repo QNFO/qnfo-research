@@ -1,69 +1,71 @@
 # WBS: QNFO.RES.024
 
-# Post-Positional Numeracy: Ostrowski's Theorem, the Adele Ring, and the Decimal System as a Convenient Lie
+# Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic
 
 **WBS:** QNFO.RES.024 · **Slug:** post-positional-numeracy · **Branch:** res/paper/post-positional-numeracy
-**Repo:** QNFO/qnfo-research · **Program:** QNFO Research Archive · **Status:** Phase 0 — core claim locked (2026-08-26)
+**Repo:** QNFO/qnfo-research · **Program:** QNFO Research Archive · **Status:** Phase 1 — core claim re-scoped to the verified delta (2026-08-26)
 
 ## 1. Charter
 
-The Hindu-Arabic positional number system is routinely described as the completed, "perfect" numerical notation. This project subjects that claim to the valuation theory of the rationals: by Ostrowski's theorem, the Archimedean place is one of infinitely many inequivalent absolute values on Q, and positional uniqueness is a theorem only within a single place. The adele ring A_Q, which carries every completion simultaneously, supplies the rigorous setting for a post-positional numeracy — local-global simultaneity in place of the "tyranny of uniqueness." The project extends the QNFO numeral-systems line (NUMERATA, 10.5281/zenodo.21441847; THE SILENT RADIX, 10.5281/zenodo.21148596) with the valuation-theoretic backbone those papers gesture at, and delivers a constructively implementable finite-adele numeracy.
+The QNFO corpus already publishes the conceptual line behind "post-positional numeracy": decimal notation is an anthropocentric, place-local convention (Ten-Fingered Trap; From Decimal Fingers to Adelic Freedom, 10.5281/zenodo.21428829), positional notation is natively an ultrametric tree (Nonlinear Tree-Based Numeration Systems, 10.5281/zenodo.21046213; THE SILENT RADIX, 10.5281/zenodo.21148596), numeral systems need multi-axis evaluation (NUMERATA, 10.5281/zenodo.21441847), and single-place exact arithmetic via Hensel codes is computation-ready (Exact Rational Arithmetic via p-adic Hensel Codes, 10.5281/zenodo.20754449 / 20756305 / 20756222). Phase 1 due diligence (2026-08-26) confirmed the thesis itself is published; the user directed this project to the ONE uncovered constructive leg: the **multi-place (finite-adele) formulation** — an encoding of Q across finitely many places, an injectivity window, and the adelic **product formula** used as a machine-checkable invariant of exact reconstruction — with computational verification and an executable demo. This paper extends the Hensel framework; it does not repeat it.
 
-## 1.2 Core Claim (LOCKED — P6)
+## 1.2 Core Claim (LOCKED — P6, re-scoped 2026-08-26)
 
-**C1.** Positional notation is not a structural optimum of numerical representation. Its uniqueness, completeness, and closure properties are valid within a single fixed place of Q; Ostrowski's theorem shows the full valuation structure of Q consists of the Archimedean place together with all p-adic places. Consequently the "perfection" attributed to the Hindu-Arabic system is a place-local convenience elevated to a false absolute, and the adele ring A_Q — which carries every completion simultaneously — is the rigorous foundation for a post-positional numeracy in which local-global simultaneity (the product formula) replaces the tyranny of uniqueness.
+**C1′.** Single-place p-adic exact arithmetic is published (Hensel framework, three versions). The uncovered step is multi-place: (a) the finite-adele encoding x ↦ (x mod p^k)_{p∈S} together with an Archimedean magnitude bound is injective on the rationals with denominators coprime to ∏_{p∈S} p^k (a lemma from the Chinese remainder theorem plus the reconstruction bound, stated and verified as a numeration theorem); (b) the adelic product formula ∏_{v∈S∪{∞}} |x|_v = 1 is a verification invariant for exact reconstruction — every correct multi-place encode/arithmetic/decode round-trip must satisfy it, and any violation localizes the failing place; (c) both claims are computationally verified (golden values, 10^5 seeded trials) and shipped as an executable demo. The paper names the cross-domain bridge in its title and cites the published ancestors; it does not re-derive the conceptual thesis.
 
 ## 1.3 Premise-Depth Disclosure
 
-- **L0 — unanalyzable primitives / named imported inputs:** Ostrowski's theorem (1916; every nontrivial absolute value on Q is equivalent to |·|_p or |·|_∞); the definition of the adele ring A_Q as the restricted product of completions; the definition of absolute value/valuation. These are imported, not re-derived.
-- **L1 — derived in the paper:** the product formula ∏_v |x|_v = 1 for x ∈ Q^× (derived and computationally verified); the claim that "perfection" of positional notation is a value judgment, not a theorem (historical/argumentative); p-adic digit expansion (Hensel codes) as the natural numeration at a non-Archimedean place; the constructive finite-adele representation (truncate each local component at precision; injective on a window) — an implementation, not a theorem.
-- **Where the premises END:** at Ostrowski's theorem plus the definitions of the adele ring and valuations. Every claim beyond L0 is either derived, constructed, or argued with citations. The cultural claim (notation as epistemic authority) is argument, flagged as such, and does not carry mathematical weight.
+- **L0 — named imported inputs:** Ostrowski's theorem (1916); the Hensel-code construction (Krishnamurthy/Gregory, error-free computation literature); the Chinese remainder theorem; the rational-reconstruction bound (Wang–Guy–Davenport, 1981); the definition of the finite adeles as the truncation frame. These are imported, not re-derived.
+- **L1 — derived in the paper:** the product formula ∏_v |x|_v = 1 for x ∈ Q^× (proved in an appendix from the unique factorization of x, and verified numerically); the injectivity window lemma (derived from CRT + the reconstruction bound); the product-formula check as a failure-localization invariant (an argument over the derived formula); the reference implementation and demo (constructions).
+- **Where the premises END:** at the five L0 imports. Everything beyond them is derived, constructed, or computationally demonstrated. The paper does not claim the full adele ring is computable — it works with finite truncations, and says so.
 
 ## 1.4 Why a reader should care
 
-1. **Number theory / arithmetic geometry:** a tangible "numeracy" reading of the adele ring — how a number's simultaneous local representations cohere through the product formula — usable in teaching and in exact-arithmetic software.
-2. **Numerical analysis / exact computation:** p-adic (Hensel-code) arithmetic is a working technology for exact rational computation; the paper gives the design argument for multi-place (adelic) exact arithmetic and a reference implementation.
-3. **Epistemology of mathematics:** a worked case study in how a notation's contingent optimization becomes a false absolute — with the mathematical machinery (Ostrowski) that exposes it.
-4. **QNFO thread:** completes the Silent Radix / NUMERATA line with the missing valuation-theoretic backbone and a title-visible cross-domain bridge (number theory × numeration systems × exact computation).
+1. **Exact-computation practitioners:** a reference implementation, test suite, and demo of multi-place exact rational arithmetic whose global integrity is machine-checkable through one invariant — the product formula — rather than through per-operation assertions alone.
+2. **Number theory / arithmetic geometry readers:** a tangible "numeracy" reading of the adelic product formula: the same identity that ties the places together becomes a runnable checksum for exact arithmetic.
+3. **Notation/epistemology readers:** the concrete artifact behind the published thesis — what a number looks like when no single place is privileged, executed in code rather than asserted in prose.
+4. **QNFO thread:** completes the numeral-systems line with the multi-place layer none of the published records implement (verified by deposit audit, 2026-08-26).
 
 ## 1.5 Practitioner relevance
 
-A practitioner (numerical analyst, algebra-system engineer, cryptography engineer) can: implement finite-adele rational arithmetic from the paper's reference algorithm — represent x ∈ Q by its residues/digits at a finite set of places, define + and × componentwise, recover the rational via the product-formula-constrained reconstruction — and run the accompanying demo (qwav-demo-kit, DEM-E0-T01..T05) that verifies the product formula and the injectivity window in code. The artifact is a small exact-arithmetic library plus its test suite, in plain engineering language (no niche-terminology dead-ends: "place" = "choice of metric on the rationals", "adele" = "the bookkeeping that carries all choices at once").
+A practitioner can, from this paper's reference algorithm and deposited source: encode a rational x by its residues at a chosen prime set S and precision k, perform +, −, ×, ÷ componentwise, and reconstruct x exactly from the multi-place image plus a magnitude bound — with the product formula checked at every round-trip as the global invariant that localizes any failing place. The deliverable is a small dependency-free exact-arithmetic module (Python; BigInt JavaScript port for the demo), its test suite, and the demo — written in plain engineering language ("place" = a choice of metric on the rationals; "adele" = the bookkeeping that carries every chosen place at once; "product formula" = the conservation law every correct encoding must satisfy).
 
 ## 2. Phases (WBS-gated)
 
 | Phase | Gate criteria |
 |---|---|
-| P0 Init | Branch + scaffold + PROJECT-PLAN + core claim locked; commit/tag/push verified (THIS PHASE) |
-| P1 Due Diligence | Full-corpus sweep (>=3 formulations), cross-system ID validation, >=2 adjacent domains, external verification, gap analysis; consilience gate (KIF-29) + Silo Cost Table; UIA on core claim |
-| P2 Literature | 8 sources, dedup, symmetry template |
-| P3 Citations | BibTeX verified (P3.AUTHOR-GATE-EVERY-ENTRY-1) |
-| P4 Research | Derivations + hypothesis-card execution; check-map-territory; UIA re-pass |
-| P5 Publication | .md/.html/.pdf (CDP pipeline), COMPUTATIONAL-VERIFICATION-1, rendering gates, Zenodo deposit (full source set) |
+| P0 Init | Branch + scaffold + PROJECT-PLAN + core claim locked; commit/tag/push verified (DONE, tag v0.1-phase0-res024) |
+| P1 Due Diligence | Full-corpus sweep; adjudication: thesis published, delta = multi-place/product-formula leg; Hensel deposit audit; external sweeps; gap analysis; consilience gate; UIA + addendum (DONE this cycle) |
+| P2 Literature | Ancestor line + Hensel-code literature (Krishnamurthy; Wang et al.; modular-methods line) + Ostrowski numeration disambiguation |
+| P3 Citations | BibTeX verified (P3.AUTHOR-GATE-EVERY-ENTRY-1); every ancestor DOI live-verified |
+| P4 Research | Injectivity lemma proof; product-formula derivation; implementation; H-PPN execution; map-territory check |
+| P5 Publication | .md/.html/.pdf (CDP pipeline), COMPUTATIONAL-VERIFICATION-1, rendering gates, Zenodo deposit (full source set incl. verification artifacts) |
 | P6 Deployment | D1 living-paper + Vectorize index + papers.qnfo.org + R2 mirror |
 | P7 Dissemination | Social posts, outreach per EMAIL-COMPOSER-PROACTIVE-1 rails |
-| P8 Distribution | Tag, registry re-point, KG node + BELONGS_TO/BUILDS_ON edges to Silent Radix + NUMERATA |
+| P8 Distribution | Tag, registry re-point, KG node + BUILDS_ON edges to the Hensel framework + BELONGS_TO the numeral-systems line |
 
 ## 3. Hypothesis Cards (pre-registered)
 
-- **H-PPN-1 (computable):** for every nonzero rational x with denominator within a fixed bound, the finite-place product formula ∏_{v ∈ S∪{∞}} |x|_v = 1 evaluates to 1 within floating precision. Golden values: x = 6 (2-adic 1/2 × 3-adic 1/3 × ∞-adic 6 = 1); x = 2/3; x = 12.
-- **H-PPN-2 (imported theorem, instance-checked):** Ostrowski's theorem — instance checks in code, not a re-proof.
-- **H-PPN-3 (falsifiable, pre-registered):** the finite-adele encoding map x ↦ (x mod p^k for p in S; sign/magnitude bound at ∞) is injective on Q restricted to a window (denominator coprime to ∏p^k, |x|_∞ ≤ B). Prediction: zero collisions over 10^5 seeded random trials. **Disconfirmation criterion:** a single verified collision with two distinct rationals in the window falsifies H-PPN-3 and weakens C1's constructive leg.
-- **H-PPN-4 (novelty, pre-registered):** no prior publication states the conjunction "Ostrowski's theorem as the falsifier of positional-notation perfection + adele ring as post-positional numeracy + finite-adele exact arithmetic" (Phase 1 gap analysis adjudicates; the claim is retracted if such a record is found).
+- **H-PPN-1 (computable):** for every nonzero rational x in the test window, ∏_{v∈S∪{∞}} |x|_v = 1 to floating precision. Golden values: x = 6, 2/3, 12; then 10^4 seeded random trials over S = {2,3,5,7}.
+- **H-PPN-2 (imported, instance-checked):** Ostrowski's theorem instance checks in code (2-adic and real absolute values behave as the classification requires on test values).
+- **H-PPN-3 (falsifiable):** the finite-adele encoding x ↦ (x mod p^k)_{p∈S} plus |x|_∞ ≤ B with B = ⌊(∏ p^k)/2⌋ is injective on the window {x = a/b : gcd(b, ∏ p^k) = 1, |x| ≤ B}. Prediction: zero collisions over 10^5 seeded trials. **Disconfirmation criterion:** one verified collision of two distinct rationals in the window.
+- **H-PPN-4 (novelty, adjudicated):** no published record — internal or external — states AND computationally verifies the product-formula-constrained multi-place reconstruction. Evidence gathered 2026-08-26: Hensel framework v1.2.0 deposit audited (paper.md: zero occurrences of "product formula"/"adele"/"adelic"; benchmarks single-prime p=7, k=30; reconstruction cites Wang–Guy–Davenport); external modular-methods line (Boehm–Decker–Fieker–Pfister et al.) uses CRT + Farey bounds, not the product formula as invariant. Claim scope = that conjunction.
+- **H-PPN-5 (lineage integrity):** the paper cites every ancestor with a live-verified DOI and states plainly which leg each ancestor covers.
 
 ## 4. Risk Register
 
-- **Novelty risk:** post-positional numeracy may overlap Hensel-code / p-adic exact-arithmetic literature → H-PPN-4 and the Phase 1 external sweep adjudicate; claim scope narrows to the conjunction.
-- **Prose risk:** the "convenient lie" / epistemic-authority framing must stay scholarly (PUBLICATION-PROSE-GATE-1, ANTI-TELEGRAPH-1); the cultural argument carries no mathematical weight and is labeled as such.
-- **Scope risk:** formalism drift to general global fields → the paper is bounded to Q; extensions noted as future work.
-- **Registry risk:** WBS collision (WBS-COLLISION-2) → atomic check-then-insert + read-back verify.
+- **Coverage-drift risk (highest):** the delta is narrow because the Hensel framework already ships implementation + tests + demo (single-place). The paper MUST NOT re-cover single-place ground; every section is audited against the Hensel deposit before publish.
+- **Novelty risk (external):** modular rational reconstruction is classical (Wang 1981; Dixon 1982); the novel conjunction is the product-formula invariant + the numeration framing — H-PPN-4 scopes the claim to exactly that.
+- **Prose risk:** internal pipeline vocabulary and the "convenient lie" rhetoric stay out of publication text (PUBLICATION-PROSE-GATE-1, ANTI-TELEGRAPH-1); the paper speaks to practitioners and adjacent-domain readers.
+- **Terminology-collision risk:** "Ostrowski numeration systems" is established external terminology (Hieronymi–Terry 2014 et al., continued-fraction numeration — a different sense). The paper must disambiguate in its crosswalk section.
+- **Registry risk:** WBS collision (WBS-COLLISION-2) → atomic check-then-insert done; re-verify row identity on every write.
 
 ## 5. Success Criteria
 
-- Every quantitative claim computationally verified (COMPUTATIONAL-VERIFICATION-1): product-formula golden values, finite-adele injectivity (10^5 trials), Ostrowski instance checks; scripts + outputs in artifacts/verification/ and deposited.
-- Gap analysis with external corroboration; zero unexplained jargon; crosswalk section naming the bridges (CROSSWALK-TRANSLATION-1).
-- Published Zenodo record with full source deposit, R2 mirror, D1 + KG distribution (R2-MIRROR-AFTER-PUBLISH-1).
+- Every quantitative claim computationally verified (COMPUTATIONAL-VERIFICATION-1): product-formula golden values + 10^4 trials, injectivity 10^5 trials, round-trip exactness; scripts + outputs in artifacts/verification/ and deposited.
+- Gap analysis with the Hensel-deposit audit evidence; crosswalk naming the bridges; zero unexplained jargon (CROSSWALK-TRANSLATION-1).
+- Published Zenodo record with full source deposit, R2 mirror, D1 + KG distribution (R2-MIRROR-AFTER-PUBLISH-1); KG BUILDS_ON edge to the Hensel framework.
 
 ## 6. Deliverable Registry
 
-PROJECT-PLAN.md · docs/deep-research.md · docs/universal-ignorance-audit.md · artifacts/consilience-gate.md · artifacts/bayesian-evidential-weight.md · artifacts/external-search/* · artifacts/verification/* · post-positional-numeracy.md/.html/.pdf · references.bib · citation-audit.md · README.md · demo via qwav-demo-kit
+PROJECT-PLAN.md · docs/deep-research.md · docs/universal-ignorance-audit.md (+ re-scope addendum) · artifacts/consilience-gate.md · artifacts/bayesian-evidential-weight.md · artifacts/external-search/* (incl. Hensel v1.2.0 deposit audit) · artifacts/verification/* · post-positional-numeracy.md/.html/.pdf · references.bib · citation-audit.md · README.md · demo via qwav-demo-kit
