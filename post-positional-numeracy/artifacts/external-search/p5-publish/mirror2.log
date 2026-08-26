@@ -1,0 +1,32 @@
+PUT 200 docs_deep-research.md
+PUT 200 docs_universal-ignorance-audit.md
+PUT 200 docs_literature.md
+PUT 200 artifacts_consilience-gate.md
+PUT 200 artifacts_bayesian-evidential-weight.md
+PUT 200 corpus-sweep-2026-08-26.json
+PUT 200 arxiv-sweeps-2026-08-26.json
+PUT 200 adjudication-memory-2026-08-26.json
+PUT 200 hensel-audit-z20756222.json
+PUT 200 hensel-audit-paper.md
+PUT 200 hensel-audit-source.py
+PUT 200 p2-literature-sweep.json
+PUT 200 p2-literature-sweep.py
+PUT 200 p5-create-deposit.py
+PUT 200 p5-deposit-create.json
+PUT 200 p5-deposit-reserve-doi.json
+PUT 200 p5-run.log
+PUT 200 upload-publish.py
+PUT 200 upload-publish.log
+PUT 200 publish-response.json
+PUT 200 publish-v101-response.json
+PUT 200 version-fix-response.json
+PUT 200 verify-newversion.json
+PUT 200 verify-newversion.log
+PUT 200 verify-published.json
+PUT 200 verify-published.log
+PUT 200 verify-and-newversion.py
+PUT 200 fix-version.py
+PUT 200 distribute.py
+PUT 200 distribution-log.json
+MIRRORED 30 of 30 | total objects under prefix: 20
+exit: 1
