@@ -6,9 +6,7 @@ Repository and deposit package for QNFO.JPC.003 (branch `res/paper/jpcub-qec-lan
 
 Cite the concept DOI (always resolves to the latest version):
 
-> Quni-Gudzinas, Rowan Brad. (2026). *Error Correction Is a Landauer Machine: The Thermodynamic Floor of Quantum Error-Correction Overhead* (v1.2). Zenodo. https://doi.org/10.5281/zenodo.22109034
-
-Version v1.2 record: https://doi.org/10.5281/zenodo.22113656
+> Quni-Gudzinas, Rowan Brad. (2026). *Error Correction Is a Landauer Machine: The Thermodynamic Floor of Quantum Error-Correction Overhead*. Zenodo. https://doi.org/10.5281/zenodo.22109034
 
 ## Contents
 
