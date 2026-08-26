@@ -14,7 +14,7 @@ The CWI summer school on quantum algorithms and quantum error correction (Amster
 
 ## 1. What This Synthesis Is
 
-A summer school is a snapshot of a field's self-presentation: what its lecturers choose to put on slides is what the field decides newcomers should learn. The CWI summer school on quantum algorithms and quantum error correction ran 24–28 August 2026 in Amsterdam. The organizers distributed the lecturers' slide decks through a SURFdrive share (link and password in the organizers' email of 2026-08-25; retrieved 2026-08-26 via the share's public WebDAV endpoint). Seven decks were available at retrieval time: two by Anthony Leverrier on quantum LDPC codes and their decoding, a 90-minute exercise set on code constructions with solutions, and three by Ashwin Nayak on learning quantum states, quantum walk search, and span programs, plus a tutorial question sheet.
+A summer school is a snapshot of a field's self-presentation: what its lecturers choose to put on slides is what the field decides newcomers should learn. The CWI summer school on quantum algorithms and quantum error correction ran 24–28 August 2026 in Amsterdam. The organizers distributed the lecturers' slide decks through a SURFdrive share (link and password in the organizers' email of 2026-08-25; retrieved 2026-08-26 via the share's public WebDAV endpoint [1]). Seven decks were available at retrieval time: two by Anthony Leverrier on quantum LDPC codes and their decoding, a 90-minute exercise set on code constructions with solutions, and three by Ashwin Nayak on learning quantum states, quantum walk search, and span programs, plus a tutorial question sheet.
 
 The audit method is mechanical. Each PDF was text-extracted, duplicate animation frames removed, and every quantitative or caveat-bearing passage traced to a slide number. A full-text scan for energy vocabulary (joule, energy, power, watt, kT, thermodynamic, cooling, Landauer, consumption) ran across all extracted texts. The evidence map is in `artifacts/cwi-slide-audit.md`. No passage in this synthesis is quoted without a slide number, and nothing beyond the decks is asserted as a fact about the school.
 
@@ -46,7 +46,7 @@ Six threads ran through the week, each a reading of the materials rather than a 
 
 **Definitional tautology.** The decks define quantum computing operationally — algorithms, codes, decoders — and never define "quantum" itself. The core object of the field is used everywhere and defined nowhere in the curriculum. This is not unique to the school; it is the standard presentation.
 
-**Unpriced physical cost.** Every active correction cycle is an erasure engine: syndrome extraction, majority voting, and ancilla re-initialization each destroy information they read, and Landauer's principle prices each erased bit at no less than kT·ln2 [4]. The decks price the combinatorial side of correction completely and the physical side not at all; the thread with the strongest deck-level evidence is precisely this asymmetry between sections 2 and 3.
+**Unpriced physical cost.** Every active correction cycle is an erasure engine: syndrome extraction, majority voting, and ancilla re-initialization each destroy information they read, and Landauer's principle prices each erased bit at no less than kT·ln2 [4]. The decks price the combinatorial side of correction completely and the physical side not at all — the asymmetry between sections 2 and 3 is the thread's strongest deck-level evidence, and the floor it points at is priced in [4] and its predecessor [5].
 
 **Design choice dressed as law.** QEC dominance is presented as the path, yet the decks themselves show the alternatives exist: good codes require long-range interaction, so the field drops geometric locality rather than the correction paradigm (Baspin–Krishna, Leverrier-1 slide 40); hardware co-design (the QuEra platform row) is on the slides; and nature runs uncorrected robust quantum processes — photosynthetic energy transfer and radical-pair magnetoreception — that no engineer would design this way [4].
 
@@ -77,6 +77,10 @@ A practitioner reading this synthesis gets a three-item checklist for any fault-
 ## 8. Boundaries
 
 This synthesis claims nothing about any machine's energy consumption. It is evidence about what the field publishes in its teaching materials, scoped to the seven decks as retrieved on 2026-08-26. It does not judge any lecturer; the slides' own caveats (section 4) speak for themselves. The trapped-ion lecture is not among the uploaded decks, so no claim about that material is made. The organizers noted the share would be updated through the week; a final re-check is scheduled, and the scope clause freezes this document at the retrieval date regardless.
+
+## 9. Open Questions
+
+Four questions follow from the priced/unpriced split, each already live in the research programme rather than invented here. Does hierarchical, nested-ball decoding amortize better than the square-root overhead of surface codes, and what does that mean in joules per solution once the unpriced column is filled [6]? Is the Landauer bill the cost of changing valuation level on the ultrametric tree — the erasure register moving between p-adic scales [5]? Is a p-adic entropy the correct entropy for non-Archimedean information systems, and does the Bruhat–Tits geometry of code spaces [9] carry the energy bookkeeping? And which observable separates the epistemic frames of section 5 — the field publishes no criterion, and the ignorance audit's method [10] is the instrument for making that choice legible.
 
 ## Reproducibility
 
