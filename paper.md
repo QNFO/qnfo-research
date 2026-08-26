@@ -2,9 +2,9 @@
 title: "Error Correction Is a Landauer Machine: The Thermodynamic Floor of Quantum Error-Correction Overhead"
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-26"
-version: "v1.0"
+version: "v1.1"
 license: "CC BY 4.0"
-doi: "10.5281/zenodo.22109035"
+doi: "10.5281/zenodo.22109229"
 status: "published"
 ---
 
