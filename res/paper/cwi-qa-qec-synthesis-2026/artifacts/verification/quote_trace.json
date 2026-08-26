@@ -1,0 +1,72 @@
+{
+ "check_date": "2026-08-26",
+ "quotes": [
+  {
+   "deck": "Leverrier-1.pdf",
+   "quote": "hardware progress alone won't get us there!",
+   "slide": "slide 4",
+   "found": true,
+   "page": 4
+  },
+  {
+   "deck": "Leverrier-2.pdf",
+   "quote": "QLDPC decoding is still wide open",
+   "slide": "slide 2",
+   "found": true,
+   "page": 2
+  },
+  {
+   "deck": "Leverrier-2.pdf",
+   "quote": "Heavy runtime tails",
+   "slide": "slide 13",
+   "found": true,
+   "page": 13
+  },
+  {
+   "deck": "Leverrier-2.pdf",
+   "quote": "expensive training",
+   "slide": "slide 14",
+   "found": true,
+   "page": 14
+  },
+  {
+   "deck": "Leverrier-2.pdf",
+   "quote": "Time complexity should be at most (roughly) linear in n. Ideally, process available syndrome bits as they are produced.",
+   "slide": "slide 18",
+   "found": true,
+   "page": 18
+  },
+  {
+   "deck": "Leverrier-2.pdf",
+   "quote": "Streaming decoders",
+   "slide": "slide 18",
+   "found": true,
+   "page": 18
+  },
+  {
+   "deck": "Leverrier-1.pdf",
+   "quote": "terribly bad code parameters, but this is essentially (!) optimal in 2 dimensions",
+   "slide": "slide 23",
+   "found": true,
+   "page": 23
+  },
+  {
+   "deck": "Leverrier-1.pdf",
+   "quote": "interesting theory results, maybe not so useful in practice",
+   "slide": "slide 74",
+   "found": true,
+   "page": 74
+  },
+  {
+   "deck": "Leverrier-2.pdf",
+   "quote": "Main open question: why do small lists work so well?",
+   "slide": "slide 58",
+   "found": true,
+   "page": 58
+  }
+ ],
+ "total": 9,
+ "missing": 0,
+ "claim": "section 4 quote-trace: all verbatim quotes asserted against their decks",
+ "claim_holds": true
+}

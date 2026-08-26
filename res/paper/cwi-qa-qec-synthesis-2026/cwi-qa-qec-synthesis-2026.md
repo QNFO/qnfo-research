@@ -30,7 +30,7 @@ Every number in this section is qubits, gates, time, or error rate.
 
 ## 3. What the Decks Do Not Price
 
-The energy-term scan returned zero pricing statements across the seven decks. There is no joules-per-syndrome-round figure, no decoder energy per bit, no cooling budget, no per-solution energy. The nearest quantities are the latency budgets of section 2: cycle time and reaction time appear as constraints on classical hardware response, not as energy.
+The energy-term scan returned zero pricing statements across the seven decks; its term list — joule, energy, power, watt, thermodynamic, cooling, Landauer, consumption, dissipation, heat — produced no occurrences at all in the extracted deck texts. There is no joules-per-syndrome-round figure, no decoder energy per bit, no cooling budget, no per-solution energy. The nearest quantities are the latency budgets of section 2: cycle time and reaction time appear as constraints on classical hardware response, not as energy.
 
 The omission is not a criticism of any lecturer. It is a property of the field's vocabulary, and it is exactly the property a joules-per-solution benchmark exists to correct [6]. The field's own curriculum demonstrates that the energy bill is missing from the standard presentation: the quantities a thermodynamic accounting would convert into energy — the syndrome rounds, the decoder throughput, the ancilla resets — are all present on the slides, priced in every currency except energy.
 
@@ -80,7 +80,7 @@ This synthesis claims nothing about any machine's energy consumption. It is evid
 
 ## Reproducibility
 
-Retrieval: SURFdrive share `https://surfdrive.surf.nl/s/8ASHtZ679ycskes` (password in the organizers' email of 2026-08-25), public WebDAV at `/public.php/webdav`, fetched 2026-08-26. Local copies and the full slide-to-quote map: `artifacts/cwi-slide-audit.md`. Verification at P4 will add two scripts to `artifacts/verification/`: the energy-term scan (reproducing section 3's zero result) and the quote-trace script (asserting each quoted passage against its slide). Runtime and dependency versions will be recorded with them.
+Retrieval: SURFdrive share `https://surfdrive.surf.nl/s/8ASHtZ679ycskes` (password in the organizers' email of 2026-08-25), public WebDAV at `/public.php/webdav`, fetched 2026-08-26. Local copies and the full slide-to-quote map: `artifacts/cwi-slide-audit.md`. Verification (run 2026-08-26; CPython 3.12 + pypdf, no other dependencies; the seven decks are supplied via `--decks-dir`): `artifacts/verification/energy_scan.py` reproduces section 3's zero result — evidence `artifacts/verification/energy_scan.json` (zero energy-term occurrences across the seven extracted texts); `artifacts/verification/quote_trace.py` asserts every verbatim quote in sections 2–4 against its deck, slide by slide — evidence `artifacts/verification/quote_trace.json` (9/9 fragments found; the truncation-ellipsis convention is documented in the script). The decks remain with the organizers; both scripts run on the seven PDFs as retrieved 2026-08-26.
 
 ## References
 

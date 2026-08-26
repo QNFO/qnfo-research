@@ -1,0 +1,52 @@
+{
+ "scan_date": "2026-08-26",
+ "decks": [
+  {
+   "file": "Leverrier-1.pdf",
+   "pages": 75,
+   "chars": 34877
+  },
+  {
+   "file": "Leverrier-2.pdf",
+   "pages": 62,
+   "chars": 40136
+  },
+  {
+   "file": "algorithms-tutorial-1-questions.pdf",
+   "pages": 2,
+   "chars": 3053
+  },
+  {
+   "file": "cwi-learning-states-no-build-aug-2026.pdf",
+   "pages": 36,
+   "chars": 6383
+  },
+  {
+   "file": "cwi-quantum-walk-search-no-build-aug-2026.pdf",
+   "pages": 27,
+   "chars": 8899
+  },
+  {
+   "file": "cwi-span-programs-no-build-aug-2026.pdf",
+   "pages": 16,
+   "chars": 6039
+  },
+  {
+   "file": "tutorial_code_constructions.pdf",
+   "pages": 10,
+   "chars": 14764
+  }
+ ],
+ "pricing_statements": 0,
+ "hits": {
+  "Leverrier-1.pdf": [],
+  "Leverrier-2.pdf": [],
+  "algorithms-tutorial-1-questions.pdf": [],
+  "cwi-learning-states-no-build-aug-2026.pdf": [],
+  "cwi-quantum-walk-search-no-build-aug-2026.pdf": [],
+  "cwi-span-programs-no-build-aug-2026.pdf": [],
+  "tutorial_code_constructions.pdf": []
+ },
+ "claim": "section 3: zero energy pricing statements across the seven decks",
+ "claim_holds": true
+}
