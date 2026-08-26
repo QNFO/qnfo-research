@@ -19,7 +19,7 @@ Formulations used (>=3 per DUE-DILIGENCE-DEPTH-1):
 - F3 "decimal system convenient lie perfection of numeral notation Hindu-Arabic" (search_papers_enriched, limit 20)
 - F4 "Ostrowski theorem completions p-adic valuation ultrametric absolute value" (qnfo-memory-mcp, limit 16)
 - F5 "exact rational arithmetic p-adic Hensel codes decimal fingers adelic freedom" (qnfo-memory-mcp, limit 16)
-- Plus: recall_facts ("numeral", "Provincialism"), search_memories ("post-positional numeracy…"), KG node queries (silent/numerat family), resolve_paper_id per hit.
+- Plus: recall_facts ("numeral", "Provincialism"), search_memories ("post-positional numeracy…"), KG node queries (silent/numerat family), resolve_paper_id per hit. Evidence files (red-team remediation, 2026-08-26): artifacts/external-search/corpus-sweep-2026-08-26.json, arxiv-sweeps-2026-08-26.json, adjudication-memory-2026-08-26.json.
 
 ## 2. Ancestor coverage table (verified records)
 
@@ -46,7 +46,7 @@ Formulations used (>=3 per DUE-DILIGENCE-DEPTH-1):
 - **"Ostrowski numeration systems" = established terminology with a DIFFERENT sense** (continued-fraction/β-expansion numeration): Hieronymi & Terry (arXiv:1407.7000, math.LO); Cabanillas (1904.01874); Mittal & Sharma (2409.06232); Aval & Labbé (2511.11290); Bourla (1511.02179). Name-collision risk for our title — the paper's crosswalk must disambiguate ("Ostrowski's theorem" vs "Ostrowski numeration systems").
 - **"p-adic" AND "exact rational arithmetic": 0 arXiv hits** (the classical work is journal literature: Krishnamurthy–Gregory error-free computation; Wang–Guy–Davenport 1981; Dixon 1982).
 - **"Hensel code" AND (arithmetic | exact computation): 0 arXiv hits.**
-- **Modular rational reconstruction is classical:** Boehm–Decker–Fieker–Pfister et al. (arXiv:1207.1651, 1702.06920, 2401.11606) — CRT + Farey-bound reconstruction, "bad primes" handling. **No surveyed record uses the adelic product formula as a reconstruction invariant or verification checksum.** This is the novel conjunction H-PPN-4 scopes.
+- **Modular rational reconstruction is classical:** Boehm–Decker–Fieker–Pfister et al. (arXiv:1207.1651, 1702.06920, 2401.11606) — CRT + Farey-bound reconstruction, "bad primes" handling. **No surveyed record uses the adelic product formula as a reconstruction invariant or verification checksum.** This is the novel conjunction H-PPN-4 scopes. Evidence file: artifacts/external-search/arxiv-sweeps-2026-08-26.json.
 
 ## 5. Gap analysis
 

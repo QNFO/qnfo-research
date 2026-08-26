@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-26",
+  "project": "QNFO.RES.024 post-positional-numeracy",
+  "corpus_stats": {"kg_nodes": 8325, "kg_edges": 8503, "source": "query_graph stats 2026-08-26"},
+  "formulations": [
+    {
+      "id": "F1",
+      "query": "post-positional numeracy positional notation adele ring Ostrowski",
+      "tool": "qnfo-memory-mcp search_papers",
+      "limit": 10,
+      "top_hits": [
+        {"slug": "nonlinear-tree-based-numeration-systems-a-consolidated-synthesis", "score": 0.687, "doi": "10.5281/zenodo.21046213"},
+        {"slug": "embodied-mathematics-lakoff-nunez", "score": 0.682, "doi": "10.5281/zenodo.21440894"},
+        {"slug": "the-silent-radix", "score": 0.678, "doi": "10.5281/zenodo.21148596"},
+        {"slug": "numerata", "score": 0.656, "doi": "10.5281/zenodo.21441847"},
+        {"slug": "formal-appendix-mathematical-foundations-of-the-silent-radix", "score": 0.651, "doi": ""}
+      ]
+    },
+    {
+      "id": "F2",
+      "query": "Hensel code p-adic exact rational arithmetic reconstruction",
+      "tool": "qnfo-memory-mcp search_papers",
+      "limit": 16,
+      "note": "16 hits: adelic-constraints-qft-phase-1, consilience-framework, ostrowski-dimensionless-reformulation, ultrametric-intelligence, factoring-adelic-complexity, noise-augmented-sre, number-theoretic-ultrametric-foundations, adelic-core-synthesis x4, ultrametric-foundations, ostrowski-dimensionless-reformulation. Hensel framework absent from top-16 (D1 rows are kg-backfill, body null — metadata-only)."
+    },
+    {
+      "id": "F3",
+      "query": "decimal system convenient lie perfection of numeral notation Hindu-Arabic",
+      "tool": "search_papers_enriched",
+      "limit": 20,
+      "note": "20 hits: numerata x5 (21441847), nonlinear-tree-based x2 (21046213), ten-fingered-trap x4 (no DOI), the-silent-radix (21148596), explicit-frame-pattern-language x2 (no DOI), ultrametric-foundation-v2 (21046214), embodied-mathematics-lakoff-nunez (21440894), 3-mechanics (15533729), syntactic-generation-primitive-distinctions (19511463)."
+    },
+    {
+      "id": "F4",
+      "query": "Ostrowski theorem completions p-adic valuation ultrametric absolute value",
+      "tool": "qnfo-memory-mcp search_papers",
+      "limit": 16,
+      "note": "16 hits: ultrametric-foundations, number-theory-as-physics, number-theoretic-ultrametric-foundations, zbw-majorana-tqc-p5-adelic-qec, non-anthropocentric-natural-units, reentrant-distinctions x2, qec-darwinism-ultrametric, super-universe, ultrametric-intelligence, measure-theoretic-artifacts-adelic-completion x2, consilient-synthesis-v2, noise-augmented-sre, factoring-adelic-complexity x2."
+    },
+    {
+      "id": "F5",
+      "query": "exact rational arithmetic p-adic Hensel codes decimal fingers adelic freedom",
+      "tool": "qnfo-memory-mcp search_papers",
+      "limit": 16,
+      "note": "16 hits: ultrametric-intelligence, adelic-constraints-qft-phase-1 x2, factoring-adelic-complexity x2, noise-augmented-sre, ostrowski-dimensionless-reformulation, consilience-framework, topological-aliasing-and-holographic-readout, continuum-critique-trilogy, adelic-core-synthesis x3, syntactic-token-calculus, number-theoretic-ultrametric-foundations."
+    }
+  ],
+  "memory_channels": [
+    {"tool": "recall_facts", "keyword": "numeral", "count": 15},
+    {"tool": "recall_facts", "keyword": "Provincialism", "count": 1, "id": "mem:task_outcome:1787732507078:736549c7", "summary": "Provincialism-of-Numerical-Perfection treatise = duplicate re-derivation of 6+ published corpus records; no net-new publication"},
+    {"tool": "search_memories", "query": "post-positional numeracy decimal convenient lie adele ring Ostrowski", "count": 1, "id": "mem:task_outcome:1787732507078:736549c7"}
+  ],
+  "kg_queries": [
+    {"endpoint": "query", "sql_like": "nodes name LIKE '%silent%' OR '%numerat%'", "note": "30 nodes: concept-program-silent-radix, silent-radix papers x9, project-numerata, paper:numerata, rq-009-silent-radix, etc."}
+  ]
+}

@@ -2,7 +2,7 @@
 
 **Target (stated explicitly):** Core claim C1 — "Positional notation is not a structural optimum of numerical representation; Ostrowski's theorem shows the valuation structure of Q consists of the Archimedean place together with all p-adic places; the adele ring A_Q is the rigorous foundation for a post-positional numeracy replacing the tyranny of uniqueness with local-global simultaneity."
 
-**Instrument:** 10.5281/zenodo.21901984 (v0.3). Administered 2026-08-26. Phases 1–4 answered without resolution; Q14 held; Q15 seeds the next pass.
+**Instruments:** 10.5281/zenodo.21901984 (UIA v0.3) and 10.5281/zenodo.21901983 (IAPS — AI-assisted-pipeline principles). Administered 2026-08-26. Phases 1–4 answered without resolution; Q14 held; Q15 seeds the next pass.
 
 ## Phase 1 — Surface the Structure
 

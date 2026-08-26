@@ -1,0 +1,16 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Build artifacts (regenerated at publish)
+*.aux
+*.log
+
+# Local scratch
+*.bak
+tmp/

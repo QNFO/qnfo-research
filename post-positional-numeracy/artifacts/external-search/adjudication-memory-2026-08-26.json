@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-26",
+  "project": "QNFO.RES.024 post-positional-numeracy",
+  "source": "QNFO durable memory (D1 qnfo-audit facts + Vectorize)",
+  "record": {
+    "id": "mem:task_outcome:1787732507078:736549c7",
+    "category": "task_outcome",
+    "importance": 0.85,
+    "created_at": "2026-08-26T08:21:47Z",
+    "content": "Due-diligence on the 'Provincialism of Numerical Perfection' treatise (Obsidian D:\\Obsidian\\notes\\v1\\2026\\08\\26\\_26238100931.md, saved 2026-08-26) determined it is a RE-DERIVATION of already-published QNFO corpus work, NOT a net-new project. Core thesis ('decimal is an anthropocentric accidental convention / convenient lie; adelic-Ostrowski is the true complete picture') is already published in: Ten-Fingered Trap (slug ten-fingered-trap, draft), From Decimal Fingers to Adelic Freedom (10.5281/zenodo.21428829), NUMERATA (10.5281/zenodo.21441847), Nonlinear Tree-Based Numeration Systems (10.5281/zenodo.21046213), Embodied Mathematics After Lakoff & Nunez (10.5281/zenodo.21440894), Explicit Frame Pattern Language (radix-tag), Exact Rational Arithmetic via p-adic Hensel Codes (10.5281/zenodo.2... [content truncated at storage boundary]",
+    "summary": "Provincialism-of-Numerical-Perfection treatise = duplicate re-derivation of 6+ published corpus records; no net-new publication"
+  },
+  "note": "This memory is the prior-session adjudication that CMD RESEARCH was required to check ('CHECK EXISTING CHAT THREADS AND OBSIDIAN NOTES'). It surfaced during the full-corpus sweep; every cited record was independently verified against live sources (see corpus-sweep-2026-08-26.json and deep-research.md §2)."
+}

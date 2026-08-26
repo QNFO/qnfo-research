@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-26",
+  "project": "QNFO.RES.024 post-positional-numeracy",
+  "sweeps": [
+    {
+      "query": "\"Ostrowski\" AND (numeration OR \"number system\" OR numeral)",
+      "total": 24,
+      "returned": 10,
+      "key_hits": [
+        "arXiv:1407.7000 Hieronymi & Terry — Ostrowski numeration systems, addition and finite automata (math.LO)",
+        "arXiv:2409.06232 Mittal & Sharma — representation in Ostrowski and recurrence numeration systems (math.NT)",
+        "arXiv:1904.01874 Cabanillas — A variant of Ostrowski numeration (math.NT)",
+        "arXiv:2511.11290 Aval & Labbé — q-analogs of rational numbers: Ostrowski numeration systems (math.CO/NT)",
+        "arXiv:1210.2343 Schaeffer — Ostrowski Numeration and the Local Period of Sturmian Words (cs.FL)",
+        "arXiv:1511.02179 Bourla — Irrational Base Counting (math.NT)",
+        "arXiv:2202.05486 Bugeaud & Reutenauer — conjugates of Christoffel words via integer Ostrowski numeration (math.CO)"
+      ],
+      "conclusion": "\"Ostrowski numeration systems\" = established external terminology with a DIFFERENT sense (continued-fraction/beta-expansion numeration). Name-collision risk for the paper title; disambiguate in the crosswalk."
+    },
+    {
+      "query": "\"p-adic\" AND \"exact rational arithmetic\"",
+      "total": 0,
+      "returned": 0,
+      "conclusion": "No arXiv hits; the classical exact-arithmetic work is journal literature (Krishnamurthy-Gregory; Wang-Guy-Davenport 1981; Dixon 1982)."
+    },
+    {
+      "query": "\"Hensel code\" AND (arithmetic OR \"exact computation\")",
+      "total": 0,
+      "returned": 0
+    },
+    {
+      "query": "\"rational reconstruction\" AND (p-adic OR modular) AND algorithm",
+      "total": 6,
+      "key_hits": [
+        "arXiv:1207.1651 Boehm-Decker-Fieker-Pfister — The use of Bad Primes in Rational Reconstruction (CRT + Farey)",
+        "arXiv:1702.06920 Boehm-Decker-Fieker-Laplagne-Pfister — Bad Primes in Computational Algebraic Geometry",
+        "arXiv:2401.11606 Basson-Boehm-Marais-Rahn-Rakotoarisoa — Massively Parallel Modular Methods",
+        "arXiv:0706.0014 Urbanska — exact adaptive determinant via CRT + rational reconstruction",
+        "arXiv:2107.02582 Berthomieu-Faugère — Berlekamp-Massey in modular rational reconstruction",
+        "arXiv:1005.5663 Idrees-Pfister-Steidel — Parallelization of Modular Algorithms"
+      ],
+      "conclusion": "Modular rational reconstruction is classical: CRT + Farey-bound reconstruction. No surveyed record uses the adelic product formula as a reconstruction invariant or verification checksum — the novel conjunction of H-PPN-4."
+    }
+  ]
+}
