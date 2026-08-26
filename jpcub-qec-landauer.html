@@ -172,7 +172,7 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-<style id='JPC16-PRINT-CSS'>
+<style id='JPC18-PRINT-CSS'>
 @page { size: A4; margin: 22mm 20mm; }
 body { font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.55; max-width: 170mm; margin: 0 auto; color: #111; }
 h1 { font-size: 16pt; }
@@ -218,7 +218,11 @@ correction scaffold (photosynthetic energy transfer; radical-pair
 magnetoreception) show that the floor is an architecture choice —
 structure prepays in capital energy what correction pays in operating
 erasures — and autonomous/dissipative correction is identified as the
-boundary of the claim.</p>
+boundary of the claim. A 2026 snapshot of the field’s own teaching
+materials — seven slide decks from the CWI summer school on quantum
+algorithms and QEC, retrieved from the organizers’ share — prices every
+cost except energy, documenting the same omission at the level of
+curriculum (§9).</p>
 <p><strong>Where the premises end:</strong> the paper imports Landauer’s
 principle, the JPCUB metric definition, and the anatomy of standard QEC
 cycles as named inputs; it derives the erasure-count decomposition and
@@ -622,6 +626,9 @@ tree code here is a toy whose failure modes are part of the result.</li>
 autonomous schemes as the boundary.</li>
 <li>It does not rehearse ontology. Whether the continuum is real is a
 different program’s question.</li>
+<li>It does not claim the curriculum snapshot (§9) says anything about
+what machines draw — it is evidence about what the field publishes, not
+about hardware energy consumption.</li>
 </ul>
 <p><strong>Future research topics opened by this work</strong> are
 collected in the companion note
@@ -633,7 +640,60 @@ protection (extending JPC.002’s crossover to correction); (iv) a p-adic
 entropy treatment of the non-Archimedean erasure hierarchy; (v) the
 epistemological reading — “reality is a syndrome; we probe it, never
 read it” — as the map-territory structure of stabilizer measurement.</p>
+<h2
+id="the-2026-curriculum-snapshot-the-fields-own-numbers-still-unpriced">9.
+The 2026 Curriculum Snapshot: The Field’s Own Numbers, Still
+Unpriced</h2>
+<p>The CWI summer school on Quantum Algorithms and Quantum Error
+Correction (Amsterdam, 24–28 August 2026) distributed seven slide decks
+through a shared folder [32] (SURFdrive public share,
+surfdrive.surf.nl/s/8ASHtZ679ycskes, retrieved 2026-08-26). The decks
+are the field teaching its own overhead numbers, and they were audited
+for energy content in full-text form (evidence inventory:
+<code>artifacts/cwi-slide-audit.md</code>, this deposit).</p>
+<p><strong>What the decks price.</strong> Physical-qubit overhead:
+concatenation-based fault tolerance is quoted at 1e7–1e8 physical qubits
+to break RSA-2048 (Leverrier-1, slide 15); the 2026 architecture
+estimates cited in the same deck put the cost at ~1e5 physical qubits
+(Pinnacle: RSA-2048 below 100,000 physical qubits at p = 1e-3, 1 µs code
+cycle, 10 µs reaction time [30]) and ~1e4 (Cain et al.: Shor’s algorithm
+at 10,000 reconfigurable atomic qubits, P-256 discrete log in days at
+26,000 qubits and RSA-2048 one to two orders of magnitude longer [31]).
+Decoder budgets are priced in time, not energy: “Time complexity should
+be at most (roughly) linear in n. Ideally, process available syndrome
+bits as they are produced. Streaming decoders…” (Leverrier-2, slide 18);
+BP+OSD carries “Heavy runtime tails” (slide 13) and ML decoders
+“expensive training” (slide 14). Code overhead is priced in rate and
+distance: the gross code [[144,12,12]] and its 2026 successors (Kasai
+rate-1/2, the QuEra co-design, 20%-rate families) are presented as the
+finite-size race (Leverrier-1, slides 32–39).</p>
+<p><strong>What the decks do not price.</strong> Across approximately
+150 slides there is no energy number: no joules per syndrome round, no
+decoder energy per bit, no cooling budget, no per-solution energy. Cycle
+time (1 µs) and reaction time (10 µs) appear in [30] as latency budgets
+— the quantities Equation (1)’s floor and the JPCUB metric would convert
+into energy never appear. The omission is this paper’s premise,
+documented by the field’s own curriculum rather than by a critic.</p>
+<p><strong>The decks’ own caveats.</strong> The materials repeatedly
+state the limits the marketing omits: “hardware progress alone won’t get
+us there!” (Leverrier-1, slide 4, on 1e12–1e15 required gates at 1e-3
+error rates); “QLDPC decoding is still wide open. Degeneracy,
+correlations, circuit-level noise… Optimal performance is usually
+unknown” (Leverrier-2, slide 2); and the theoretical linear-time
+decoders are “interesting theory results, maybe not so useful in
+practice” (Leverrier-1, slide 40). The teaching side of the field is
+substantially more self-critical than its marketing side; the unpriced
+column is what remains invisible even there.</p>
+<p><strong>Scope.</strong> This section is evidence about published
+teaching materials, not a hardware measurement. Its claim is
+documentation-level: the energy bill the rest of this paper prices is
+absent from the field’s own curriculum snapshot as of 2026-08-26. The §3
+relevance caveat applies unchanged.</p>
 <h2 id="verification-appendix">Verification Appendix</h2>
+<p>§9 numbers were verified 2026-08-26 against the retrieved slide PDFs
+(text extraction, slide-number trace) and the two cited arXiv records
+(arXiv API). Evidence inventory:
+<code>artifacts/cwi-slide-audit.md</code>.</p>
 <p>All numbers in §3 and §7 are computed by scripts in
 <code>artifacts/verification/</code> (Python 3, stdlib only):
 <code>verification_floor.py</code> (golden values, floor table, six
@@ -711,6 +771,12 @@ System-Level Joules-per-Solution Comparison of a Qudit Architecture
 Against 17 Conventional Qubit Quantum Computing Platforms,” (2026). [29]
 Rowan Brad Quni-Gudzinas, “The Universal Ignorance Audit: A
 Fifteen-Question Method for Systematic Inquiry into the Structure of
-Not-Knowing,” (2026). https://doi.org/10.5281/zenodo.21901984</p>
+Not-Knowing,” (2026). https://doi.org/10.5281/zenodo.21901984 [30] Paul
+Webster et al., “The Pinnacle Architecture: Reducing the cost of
+breaking RSA-2048 to 100 000 physical qubits using quantum LDPC codes,”
+(2026). arXiv:2602.11457 [31] Madelyn Cain et al., “Shor’s algorithm is
+possible with as few as 10,000 reconfigurable atomic qubits,” (2026).
+arXiv:2603.28627 [32] CWI, “Summer school on Quantum Algorithms and QEC
+— shared slide decks (Leverrier, Nayak),” (2026).</p>
 </body>
 </html>

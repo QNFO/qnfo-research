@@ -36,9 +36,12 @@
 | 24 | qunigudzinas2026qecdarwinism | 10.5281/zenodo.21964674 | "Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces" ✓ |
 | 25-28 | internal (p-adic metrology, phys comp, landscape, qudit) | none | Corpus records, titles as in corpus |
 | 29 | qunigudzinas2026ignorance | 10.5281/zenodo.21901984 | "The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing" ✓ |
+| 30 | webster2026pinnacle | arXiv 2602.11457 | "The Pinnacle Architecture: Reducing the cost of breaking RSA-2048 to 100 000 physical qubits using quantum LDPC codes" ✓ |
+| 31 | cain2026shor | arXiv 2603.28627 | "Shor's algorithm is possible with as few as 10,000 reconfigurable atomic qubits" ✓ |
+| 32 | cwi2026slides | SURFdrive (retrieved 2026-08-26) | "Summer school on Quantum Algorithms and QEC — shared slide decks (Leverrier, Nayak)" ✓ |
 
 ## REFERENCE-TITLE-FIDELITY-1 (rendered list == bib titles)
 The References section of jpcub-qec-landauer.md is generated FROM this bib by `artifacts/verification/render_references.py` (exact bib titles, author normalization, volume/pages/year, DOI/arXiv IDs appended). The rendered list and the bib cannot diverge — REFERENCE-TITLE-FIDELITY-1 satisfied by construction. Re-run with `python artifacts/verification/render_references.py` from the repository root.
 
 ## Counts
-29 entries cited in-body ([1]–[29]); 29 entries in references.bib. INTERNAL-COUNTS-SWEEP-1: PROJECT-PLAN §5 phase list, paper abstract "29 references", bib count all consistent (29/29/29). Floor table numbers in paper §3 match verification_floor.json (spot-checked: 2.871e-21, 5.742e-21, 1.723e-20, 2.153e-21, 4.594e-20, 2.526e-18, 3.158e-20, 2.871e-21). H2 table numbers match h2_results.json (spot-checked: 48.0/16.0/3.00/0.000; 48.0/17.2/2.79/0.003/0.006; 48.0/20.6/2.33/0.065/0.150; 48.0/21.2/2.27/1.323/2.124; 48.0/24.3/1.98/2.772/4.318; 48.0/29.3/1.64/12.795/17.401).
+32 entries cited in-body ([1]–[32]); 32 entries in references.bib. INTERNAL-COUNTS-SWEEP-1: PROJECT-PLAN §5 phase list, paper abstract, bib count all consistent (32/32/32). [30]–[32] added by the concurrent §9 session (arXiv-verified). Floor table numbers in paper §3 match verification_floor.json (spot-checked: 2.871e-21, 5.742e-21, 1.723e-20, 2.153e-21, 4.594e-20, 2.526e-18, 3.158e-20, 2.871e-21). H2 table numbers match h2_results.json (spot-checked: 48.0/16.0/3.00/0.000; 48.0/17.2/2.79/0.003/0.006; 48.0/20.6/2.33/0.065/0.150; 48.0/21.2/2.27/1.323/2.124; 48.0/24.3/1.98/2.772/4.318; 48.0/29.3/1.64/12.795/17.401).

@@ -12,7 +12,7 @@ Cite the concept DOI (always resolves to the latest version):
 
 - `jpcub-qec-landauer.md` — the paper (canonical markdown, frontmatter carries the record DOI)
 - `jpcub-qec-landauer.html`, `jpcub-qec-landauer.pdf` — rendered formats of the paper (A4 PDF)
-- `references.bib` — citation-audited bibliography (29 entries, all verified live)
+- `references.bib` — citation-audited bibliography (32 entries, all verified live)
 - `citation-audit.md` — per-entry verification record
 - `PROJECT-PLAN.md` — charter, locked core claim, hypothesis cards, premise depth
 - `README.md`, `LICENSE` — this file and the CC BY 4.0 legal code
