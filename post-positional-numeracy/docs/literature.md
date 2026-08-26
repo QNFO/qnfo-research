@@ -44,14 +44,11 @@ Abbondati–Guerrini–Lebreton, "Simultaneous rational number codes" (JSC 132:1
 2. Ostrowski: exact citation + DOI 10.1007/BF02422947 added to L0 (1916 per Crossref).
 3. L0 Hensel-code construction now names Krishnamurthy–Rao–Subramanian 1975 + Gregory–Krishnamurthy 1984.
 
-## 6. P3-VERIFY flags (Phase 3 full-verification list)
+## 6. P3-VERIFY flags (CLOSED 2026-08-26)
 
-- Hieronymi–Terry published venue (arXiv-only in seed).
-- Tate 1967 pages/edition.
-- Hensel 1908 book details.
-- Ten-Fingered Trap / Explicit Frame Pattern Language (no DOIs — cite via R2 archive key / note).
-- Krishnamurthy 1983 IEEE pages; Miola 1982 pages; Kornerup–Gregory 1983 volume/pages.
-- Hensel lineage head 10.5281/zenodo.21208336 (concept 20756221) added to citations (reviewer SOFT-1).
+All five flagged entries were resolved by live OpenAlex/Crossref lookups this cycle: Miola 1982 = SIGSAM 16(4):24–26; Kornerup 1983 = BIT 23(1):9–20; Krishnamurthy 1983 = IEEE TC C-32(4):331–337; Hieronymi–Terry = Notre Dame J. Formal Logic 2017, DOI 10.1215/00294527-2017-0027 (arXiv:1407.7000); Tate 1967 = Cassels–Fröhlich pp. 305–347 (standard); Hensel 1908 = Teubner (standard). The two corpus-internal records (Ten-Fingered Trap, Explicit Frame Pattern Language) carry no DOI by design and are cited by title+slug.
+
+Post-publication reviewer notes (kept for the next substantive update):
 - Re-fetch the deposited paper.md (30,539 B, md5 9ab8b665, MIT) before the P5 coverage-drift audit — the saved audit copy is a pre-deposit working copy (reviewer SOFT-2; audit conclusions preserved via the md5-identical head).
 - Boyd 15793655 title fidelity if re-cited: record title is "HENSEL CPU (ヘンゼル): A 2-Adic Computing Architecture for Exact Arithmetic" (SciSci Inventions; restricted access) (reviewer SOFT-3).
 - Pre-existing D1 hygiene (not this package): Embodied Math identifier off-by-one (21440893 vs 21440894); silent-radix zenodo_doi = concept DOI (reviewer SOFT-4).
