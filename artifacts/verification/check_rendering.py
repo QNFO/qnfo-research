@@ -15,7 +15,7 @@ Exit 0 = PASS, 1 = FAIL.
 import re, sys
 
 def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else "paper.md"
+    path = sys.argv[1] if len(sys.argv) > 1 else "jpcub-qec-landauer.md"
     with open(path, encoding="utf-8") as f:
         text = f.read()
     problems = []

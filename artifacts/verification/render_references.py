@@ -12,6 +12,7 @@ Field fixes (pass-2 audit):
 Usage: python render_references.py   (run from the repository root)
 """
 import re
+import sys
 
 def parse_bib(path):
     src = open(path, encoding="utf-8").read()
@@ -134,7 +135,7 @@ def main():
         print("WARN: expected 29 entries")
         raise SystemExit(1)
 
-    paper_path = "paper.md"
+    paper_path = sys.argv[1] if len(sys.argv) > 1 else "jpcub-qec-landauer.md"
     paper = open(paper_path, encoding="utf-8").read()
     marker = "## References"
     pos = paper.find(marker)
@@ -143,7 +144,7 @@ def main():
         raise SystemExit(2)
     new_paper = paper[:pos] + generated
     open(paper_path, "w", encoding="utf-8", newline="\n").write(new_paper)
-    print(f"spliced {len(generated)} chars into paper.md (replaced from offset {pos})")
+    print(f"spliced {len(generated)} chars into {paper_path} (replaced from offset {pos})")
     print("TITLE FIDELITY: rendered-from-bib by construction (REFERENCE-TITLE-FIDELITY-1)")
     print("--- generated list ---")
     print(generated)

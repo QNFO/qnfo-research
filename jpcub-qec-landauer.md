@@ -40,17 +40,17 @@ This is the claim's core arithmetic. It is a floor for measurement-based correct
 
 ## 3. The Floor: Computation and Scaling Laws
 
-Equation (1) was evaluated in code (verification_floor.py, this deposit) at five temperatures and seven code families. Golden values: kT·ln2 = 2.871×10⁻²¹ J (300 K), 3.828×10⁻²³ J (4 K), 1.435×10⁻²⁵ J (15 mK).
+Equation (1) was evaluated in code (verification_floor.py, this deposit) at five temperatures and seven code families. Golden values: kT·ln2 = 2.871e-21 J (300 K), 3.828e-23 J (4 K), 1.435e-25 J (15 mK).
 
 | Family | n | k | (n−k)/k | E_floor at 300 K (J) | E_floor at 4 K (J) |
 |---|---|---|---|---|---|
-| Repetition [3,1] | 3 | 1 | 2.000 | 5.742×10⁻²¹ | 7.656×10⁻²³ |
-| Repetition [7,1] | 7 | 1 | 6.000 | 1.723×10⁻²⁰ | 2.297×10⁻²² |
-| Hamming [7,4] | 7 | 4 | 0.750 | 2.153×10⁻²¹ | 2.871×10⁻²³ |
-| Surface code d=3 (rotated, 17q) | 17 | 1 | 16.000 | 4.594×10⁻²⁰ | 6.125×10⁻²² |
-| Surface code d=21 (rotated, 881q) | 881 | 1 | 880.000 | 2.526×10⁻¹⁸ | 3.369×10⁻²⁰ |
-| qLDPC [[144,12,12]] | 144 | 12 | 11.000 | 3.158×10⁻²⁰ | 4.211×10⁻²² |
-| Constant-rate tree code r=1/2 | 2 | 1 | 1.000 | 2.871×10⁻²¹ | 3.828×10⁻²³ |
+| Repetition [3,1] | 3 | 1 | 2.000 | 5.742e-21 | 7.656e-23 |
+| Repetition [7,1] | 7 | 1 | 6.000 | 1.723e-20 | 2.297e-22 |
+| Hamming [7,4] | 7 | 4 | 0.750 | 2.153e-21 | 2.871e-23 |
+| Surface code d=3 (rotated, 17q) | 17 | 1 | 16.000 | 4.594e-20 | 6.125e-22 |
+| Surface code d=21 (rotated, 881q) | 881 | 1 | 880.000 | 2.526e-18 | 3.369e-20 |
+| qLDPC [[144,12,12]] | 144 | 12 | 11.000 | 3.158e-20 | 4.211e-22 |
+| Constant-rate tree code r=1/2 | 2 | 1 | 1.000 | 2.871e-21 | 3.828e-23 |
 
 Three scaling laws follow, each verified numerically in the accompanying script:
 
@@ -60,7 +60,7 @@ Three scaling laws follow, each verified numerically in the accompanying script:
 
 Two observations follow. First, the floor never reaches zero for any code with n > k: the combinatorial story ("overhead falls as codes improve") and the energy story ("the erasure bill persists per round") are both true, and Equation (1) shows they coexist — better codes move from the linear/quadratic regime to the constant-rate regime, where the floor stops falling. Second, the JPCUB ranking of families by Equation (1) differs from the rate ranking: surface codes at d=21 pay 880 kT·ln2 per logical qubit per round while a constant-rate tree code pays 1.
 
-**The relevance caveat.** At 15 mK the qLDPC floor is 1.579×10⁻²⁴ J per logical qubit per round. A cryo-CMOS decoder consumes on the order of 1 pJ per decoded bit. The gap is eleven orders of magnitude. The floor is not today's cost driver; it is the asymptote that architectures approach as everything else is optimized. A paper that ignores this gap overclaims; one that prices the floor tells engineers where the curve ends.
+**The relevance caveat.** At 15 mK the qLDPC floor is 1.579e-24 J per logical qubit per round. A cryo-CMOS decoder consumes on the order of 1 pJ per decoded bit. The gap is eleven orders of magnitude. The floor is not today's cost driver; it is the asymptote that architectures approach as everything else is optimized. A paper that ignores this gap overclaims; one that prices the floor tells engineers where the curve ends.
 
 ## 4. JPCUB Ranking of Correction Architectures
 

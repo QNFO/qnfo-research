@@ -10,8 +10,8 @@ Cite the concept DOI (always resolves to the latest version):
 
 ## Contents
 
-- `paper.md` — the paper (canonical markdown, frontmatter carries the record DOI)
-- `paper.html`, `paper.pdf` — rendered formats of the paper (A4 PDF)
+- `jpcub-qec-landauer.md` — the paper (canonical markdown, frontmatter carries the record DOI)
+- `jpcub-qec-landauer.html`, `jpcub-qec-landauer.pdf` — rendered formats of the paper (A4 PDF)
 - `references.bib` — citation-audited bibliography (29 entries, all verified live)
 - `citation-audit.md` — per-entry verification record
 - `PROJECT-PLAN.md` — charter, locked core claim, hypothesis cards, premise depth
@@ -31,7 +31,7 @@ python artifacts/verification/render_references.py
 cd artifacts/verification
 python verification_floor.py   # floor table + golden values (writes verification_floor.json)
 python verification_h2.py      # H2 Monte Carlo, seed 20260826 (writes h2_results.json)
-python check_rendering.py ../../paper.md   # publication rendering gate
+python check_rendering.py ../../jpcub-qec-landauer.md   # publication rendering gate
 ```
 
 Environment: CPython 3.x, standard library only, no external dependencies.
