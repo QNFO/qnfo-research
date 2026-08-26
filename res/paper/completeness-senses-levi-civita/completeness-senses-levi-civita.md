@@ -4,7 +4,7 @@ author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-26"
 version: "1.1.1"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.22109361"
+doi: "10.5281/zenodo.22109455"
 status: "published"
 bibliography: references.bib
 abstract: |
