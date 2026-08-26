@@ -131,8 +131,8 @@ def main():
     generated = "\n".join(lines)
 
     print(f"RENDERED {len(entries)} REFERENCES from references.bib")
-    if len(entries) != 29:
-        print("WARN: expected 29 entries")
+    if len(entries) != 32:
+        print("WARN: expected 32 entries")
         raise SystemExit(1)
 
     paper_path = sys.argv[1] if len(sys.argv) > 1 else "jpcub-qec-landauer.md"
