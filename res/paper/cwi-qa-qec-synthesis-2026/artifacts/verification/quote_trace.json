@@ -18,49 +18,49 @@
   {
    "deck": "Leverrier-2.pdf",
    "quote": "Heavy runtime tails",
-   "slide": "slide 13",
+   "slide": "slide 10",
    "found": true,
    "page": 13
   },
   {
    "deck": "Leverrier-2.pdf",
    "quote": "expensive training",
-   "slide": "slide 14",
+   "slide": "slide 11",
    "found": true,
    "page": 14
   },
   {
    "deck": "Leverrier-2.pdf",
    "quote": "Time complexity should be at most (roughly) linear in n. Ideally, process available syndrome bits as they are produced.",
-   "slide": "slide 18",
+   "slide": "slide 15",
    "found": true,
    "page": 18
   },
   {
    "deck": "Leverrier-2.pdf",
    "quote": "Streaming decoders",
-   "slide": "slide 18",
+   "slide": "slide 15",
    "found": true,
    "page": 18
   },
   {
    "deck": "Leverrier-1.pdf",
    "quote": "terribly bad code parameters, but this is essentially (!) optimal in 2 dimensions",
-   "slide": "slide 23",
+   "slide": "slide 17",
    "found": true,
    "page": 23
   },
   {
    "deck": "Leverrier-1.pdf",
    "quote": "interesting theory results, maybe not so useful in practice",
-   "slide": "slide 74",
+   "slide": "slide 40",
    "found": true,
    "page": 74
   },
   {
    "deck": "Leverrier-2.pdf",
    "quote": "Main open question: why do small lists work so well?",
-   "slide": "slide 58",
+   "slide": "slide 51",
    "found": true,
    "page": 58
   }

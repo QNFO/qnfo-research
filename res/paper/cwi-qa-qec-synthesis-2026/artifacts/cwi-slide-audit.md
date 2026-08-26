@@ -20,16 +20,20 @@ Retrieved: 2026-08-26 via public WebDAV (public.php/webdav). Local copies: D:\Ob
 
 | Claim | Deck | Slide | Quote (verbatim) |
 |---|---|---|---|
-| Concatenation overhead 10^7–10^8 for RSA-2048 | Leverrier-1 | 15 | "in practice: break RSA with 4000 logical qubits, but 10^7 − 10^8 physical qubits ..." |
+| Concatenation overhead 10^7–10^8 for RSA-2048 | Leverrier-1 | 11 | "in practice: break RSA with 4000 logical qubits, but 10^7 − 10^8 physical qubits ..." |
 | Hardware alone insufficient | Leverrier-1 | 4 | "quantum chemistry: >10^12 gates; Shor's factoring: >10^15 gates =⇒ hardware progress alone won't get us there!" |
-| Decoder latency budget, not energy | Leverrier-2 | 18 | "Time complexity should be at most (roughly) linear in n. Ideally, process available syndrome bits as they are produced. Streaming decoders..." |
-| BP+OSD runtime tails | Leverrier-2 | 13 | "Heavy runtime tails" |
-| ML decoder training cost | Leverrier-2 | 14 | "expensive training and hyperparameter searches" |
+| Decoder latency budget, not energy | Leverrier-2 | 15 | "Time complexity should be at most (roughly) linear in n. Ideally, process available syndrome bits as they are produced. Streaming decoders..." |
+| BP+OSD runtime tails | Leverrier-2 | 10 | "Heavy runtime tails" |
+| ML decoder training cost | Leverrier-2 | 11 | "expensive training and hyperparameter searches" |
 | Decoding wide open | Leverrier-2 | 2 | "QLDPC decoding is still wide open. Degeneracy, correlations, circuit-level noise... Optimal performance is usually unknown, even for code capacity." |
 | Linear-time decoders impractical | Leverrier-1 | 40 | "interesting theory results, maybe not so useful in practice" |
 | Gross code + successors | Leverrier-1 | 32–39 | [[144,12,12]]; Kasai rate-1/2; QuEra co-design; 20%-rate families |
 | Pinnacle architecture (cited) | Leverrier-2 | refs | Webster et al., arXiv:2602.11457 |
 | Cain et al. (cited) | Leverrier-2 | refs | Cain et al., arXiv:2603.28627 |
+| Main open question: why do small lists work so well? | Leverrier-2 | 51 | "Main open question: why do small lists work so well?" (take-home slide, 51/51) |
+| Toric-code parameters self-flagged | Leverrier-1 | 17 | "terribly bad code parameters, but this is essentially (!) optimal in 2 dimensions" |
+| Locality tradeoff stated (Baspin–Krishna) | Leverrier-1 | 18 | "good codes require a lot of long-range interaction ⇒ keep sparsity but drop geometric locality" |
+| Decoder design axes | Leverrier-2 | 6 | Accuracy / Speed (low latency, scalability) / Reliability |
 
 ## Energy-term scan
 

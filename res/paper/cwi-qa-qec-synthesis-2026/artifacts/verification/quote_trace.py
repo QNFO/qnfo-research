@@ -33,21 +33,21 @@ except ImportError:  # pragma: no cover
 QUOTES = [
     ("Leverrier-1.pdf", "hardware progress alone won't get us there!", "slide 4"),
     ("Leverrier-2.pdf", "QLDPC decoding is still wide open", "slide 2"),
-    ("Leverrier-2.pdf", "Heavy runtime tails", "slide 13"),
-    ("Leverrier-2.pdf", "expensive training", "slide 14"),
+    ("Leverrier-2.pdf", "Heavy runtime tails", "slide 10"),
+    ("Leverrier-2.pdf", "expensive training", "slide 11"),
     ("Leverrier-2.pdf",
      "Time complexity should be at most (roughly) linear in n. Ideally, process "
-     "available syndrome bits as they are produced.", "slide 18"),
-    # The paper's slide-18 quote continues with "Streaming decoders..." (ellipsis
+     "available syndrome bits as they are produced.", "slide 15"),
+    # The paper's slide-15 quote continues with "Streaming decoders..." (ellipsis
     # truncation of "Streaming decoders: window decoding carries partial boundary
     # information forward"); truncated quotes are asserted as their longest
     # verbatim fragment plus the verbatim tail fragment below.
-    ("Leverrier-2.pdf", "Streaming decoders", "slide 18"),
+    ("Leverrier-2.pdf", "Streaming decoders", "slide 15"),
     ("Leverrier-1.pdf",
      "terribly bad code parameters, but this is essentially (!) optimal in 2 dimensions",
-     "slide 23"),
-    ("Leverrier-1.pdf", "interesting theory results, maybe not so useful in practice", "slide 74"),
-    ("Leverrier-2.pdf", "Main open question: why do small lists work so well?", "slide 58"),
+     "slide 17"),
+    ("Leverrier-1.pdf", "interesting theory results, maybe not so useful in practice", "slide 40"),
+    ("Leverrier-2.pdf", "Main open question: why do small lists work so well?", "slide 51"),
 ]
 
 _TR = str.maketrans(
