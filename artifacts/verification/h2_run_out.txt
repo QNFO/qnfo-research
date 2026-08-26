@@ -1,0 +1,18 @@
+regime                 eras_f eras_t E ratio  res_f  res_t  fail_f  fail_t
+zero-error               48.0   16.0    3.00  0.000  0.000  0.0000  0.0000
+uniform p=0.005          48.0   17.2    2.79  0.003  0.006  0.0015  0.0032
+uniform p=0.02           48.0   20.6    2.33  0.065  0.150  0.0320  0.0680
+burst c=1 L=8            48.0   21.2    2.27  1.323  2.124  0.5158  0.6100
+burst c=2 L=8            48.0   24.3    1.98  2.772  4.318  0.7755  0.8417
+heavy burst c=2 L=16     48.0   29.3    1.64 12.795 17.401  0.9998  0.9998
+
+Checks: {
+  "equal_rate_parity_budgets": true,
+  "tree_erasure_ceiling_is_flat": true,
+  "zero_error_tree_floor_is_16": true,
+  "zero_error_both_clean": true,
+  "flat_erasures_constant_48": true,
+  "tree_adapts_to_error_density": true
+}
+wrote h2_results.json
+EXIT: 0
