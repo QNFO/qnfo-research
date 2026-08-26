@@ -1,0 +1,402 @@
+{
+ "status": 202,
+ "body": {
+  "created": "2026-08-26T15:38:02.063757+00:00",
+  "modified": "2026-08-26T15:38:03.468953+00:00",
+  "id": 22114389,
+  "conceptrecid": "22114388",
+  "doi": "10.5281/zenodo.22114389",
+  "conceptdoi": "10.5281/zenodo.22114388",
+  "doi_url": "https://doi.org/10.5281/zenodo.22114389",
+  "metadata": {
+   "title": "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic",
+   "doi": "10.5281/zenodo.22114389",
+   "publication_date": "2026-08-26",
+   "description": "Exact computation on the rationals today inhabits a single completion. Digital arithmetic runs in the real numbers and accepts rounding; exact alternatives run in a single p-adic completion through Hensel codes and reconstruct through the Chinese remainder theorem with Farey bounds. This paper develops the multi-place realization that joins the two. A rational number is encoded by its residues at finitely many chosen primes together with a two-sided Archimedean window; the encoding is injective whenever 2 B^2 &lt; M, where M is the product of the chosen prime powers. The adelic product formula - the identity that ties the places of the rationals together - becomes a machine-checkable invariant of the arithmetic: every correct encode-compute-decode round-trip of operands whose numerator and denominator factor over the chosen primes satisfies it exactly, and any violation localizes the failing place. All claims are computationally verified: golden values, exhaustive injectivity on small moduli, 100000 seeded trials on a window of modulus M = 810000, 80000 componentwise arithmetic checks, and a reconstruction algorithm validated against exhaustive enumeration. A dependency-free reference implementation and a reproducibility statement accompany the paper.",
+   "access_right": "open",
+   "creators": [
+    {
+     "name": "Quni-Gudzinas, Rowan Brad",
+     "affiliation": "QNFO"
+    }
+   ],
+   "keywords": [
+    "finite adeles",
+    "Hensel codes",
+    "product formula",
+    "exact rational arithmetic",
+    "Ostrowski's theorem",
+    "rational reconstruction",
+    "non-Archimedean",
+    "numeration"
+   ],
+   "related_identifiers": [
+    {
+     "identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/post-positional-numeracy",
+     "relation": "isSupplementTo",
+     "scheme": "url"
+    },
+    {
+     "identifier": "10.5281/zenodo.20756222",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.21148596",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.1016/j.jsc.2025.102481",
+     "relation": "cites",
+     "scheme": "doi"
+    }
+   ],
+   "version": "1.0.0",
+   "license": "cc-by-4.0",
+   "imprint_publisher": "Zenodo",
+   "upload_type": "publication",
+   "publication_type": "preprint",
+   "prereserve_doi": {
+    "doi": "10.5281/zenodo.22114389",
+    "recid": 22114389
+   }
+  },
+  "title": "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic",
+  "links": {
+   "self": "https://zenodo.org/api/records/22114389",
+   "html": "https://zenodo.org/records/22114389",
+   "doi": "https://doi.org/10.5281/zenodo.22114389",
+   "parent_doi": "https://doi.org/10.5281/zenodo.22114388",
+   "badge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.22114389.svg",
+   "conceptbadge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.22114388.svg",
+   "files": "https://zenodo.org/api/records/22114389/files",
+   "bucket": "https://zenodo.org/api/files/50d85877-a684-4f10-994c-00d8024347ae",
+   "thumb250": "https://zenodo.org/record/22114389/thumb250",
+   "thumbs": {
+    "10": "https://zenodo.org/record/22114389/thumb10",
+    "50": "https://zenodo.org/record/22114389/thumb50",
+    "100": "https://zenodo.org/record/22114389/thumb100",
+    "250": "https://zenodo.org/record/22114389/thumb250",
+    "750": "https://zenodo.org/record/22114389/thumb750",
+    "1200": "https://zenodo.org/record/22114389/thumb1200"
+   },
+   "latest_draft": "https://zenodo.org/api/deposit/depositions/22114389",
+   "latest_draft_html": "https://zenodo.org/deposit/22114389",
+   "publish": "https://zenodo.org/api/deposit/depositions/22114389/actions/publish",
+   "edit": "https://zenodo.org/api/deposit/depositions/22114389/actions/edit",
+   "discard": "https://zenodo.org/api/deposit/depositions/22114389/actions/discard",
+   "newversion": "https://zenodo.org/api/deposit/depositions/22114389/actions/newversion",
+   "record": "https://zenodo.org/api/records/22114389",
+   "record_html": "https://zenodo.org/record/22114389",
+   "latest": "https://zenodo.org/api/records/22114389/versions/latest",
+   "latest_html": "https://zenodo.org/records/22114389/latest"
+  },
+  "record_id": 22114389,
+  "owner": 1328013,
+  "files": [
+   {
+    "id": "7cdb6672-791e-4a87-9b13-ac0cd029a7df",
+    "filename": "README.md",
+    "filesize": 2055,
+    "checksum": "81fdd9cfded69bcf040290d8f9e8c3c7",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/7cdb6672-791e-4a87-9b13-ac0cd029a7df",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/README.md/content"
+    }
+   },
+   {
+    "id": "8f83849f-9540-46e1-94c5-a37365cb54a5",
+    "filename": "post-positional-numeracy.html",
+    "filesize": 42941,
+    "checksum": "f1ca0b2c0fd9691aa2d603d8109cdf0f",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/8f83849f-9540-46e1-94c5-a37365cb54a5",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/post-positional-numeracy.html/content"
+    }
+   },
+   {
+    "id": "d83201f1-d5f1-46f3-9c4e-f734abb11fc7",
+    "filename": "LICENSE",
+    "filesize": 18657,
+    "checksum": "2ab724713fdaf49e4523c4503bfd068d",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/d83201f1-d5f1-46f3-9c4e-f734abb11fc7",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/LICENSE/content"
+    }
+   },
+   {
+    "id": "55abdeb7-c657-49e1-98d4-5af0fea8fc49",
+    "filename": "adjudication-memory-2026-08-26.json",
+    "filesize": 1655,
+    "checksum": "2cd1f03b536d5b6d1f04b5a4f30ba28b",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/55abdeb7-c657-49e1-98d4-5af0fea8fc49",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/adjudication-memory-2026-08-26.json/content"
+    }
+   },
+   {
+    "id": "707f5ad0-c147-4236-a0cf-d4b62fd7609c",
+    "filename": "corpus-sweep-2026-08-26.json",
+    "filesize": 3987,
+    "checksum": "ad657b8a64ba56219ee99674241d8395",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/707f5ad0-c147-4236-a0cf-d4b62fd7609c",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/corpus-sweep-2026-08-26.json/content"
+    }
+   },
+   {
+    "id": "091f3a8a-ab67-4dbb-8008-ff40a93078e8",
+    "filename": "ppn-verification-results.json",
+    "filesize": 2826,
+    "checksum": "44535d34a82f014db4ec5f0c28110623",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/091f3a8a-ab67-4dbb-8008-ff40a93078e8",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/ppn-verification-results.json/content"
+    }
+   },
+   {
+    "id": "a4ed231c-5ba2-44f5-b1c7-af2dce444ec6",
+    "filename": "check_rendering.py",
+    "filesize": 4283,
+    "checksum": "70c7a892aa4dfcfe34a8a281a39004ff",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/a4ed231c-5ba2-44f5-b1c7-af2dce444ec6",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/check_rendering.py/content"
+    }
+   },
+   {
+    "id": "4d9e7534-5e91-46a5-854d-dd1245925cf6",
+    "filename": "artifacts_bayesian-evidential-weight.md",
+    "filesize": 2438,
+    "checksum": "012abcd10c519bf661d67770809642ab",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/4d9e7534-5e91-46a5-854d-dd1245925cf6",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/artifacts_bayesian-evidential-weight.md/content"
+    }
+   },
+   {
+    "id": "19d5554a-e12c-43c2-921c-652af042ed9c",
+    "filename": "docs_universal-ignorance-audit.md",
+    "filesize": 8648,
+    "checksum": "49670ecef0f5aa005c50ee7654e34913",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/19d5554a-e12c-43c2-921c-652af042ed9c",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/docs_universal-ignorance-audit.md/content"
+    }
+   },
+   {
+    "id": "cf8447d9-e2fa-4206-a77f-3392c4ae775c",
+    "filename": "hensel-audit-paper.md",
+    "filesize": 30539,
+    "checksum": "9ab8b665bdde167de6c68cc14d86b1a3",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/cf8447d9-e2fa-4206-a77f-3392c4ae775c",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/hensel-audit-paper.md/content"
+    }
+   },
+   {
+    "id": "b60efad8-ab38-4791-9a16-29d774939e60",
+    "filename": "p5-deposit-create.json",
+    "filesize": 3878,
+    "checksum": "2255b68c0cb1e2822eff3658efdce2c1",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/b60efad8-ab38-4791-9a16-29d774939e60",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/p5-deposit-create.json/content"
+    }
+   },
+   {
+    "id": "c0730d07-7ded-43cd-b6ae-3341866042ab",
+    "filename": "post-positional-numeracy.pdf",
+    "filesize": 284190,
+    "checksum": "a4cf0491d5b83fe73a1377230018c15c",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/c0730d07-7ded-43cd-b6ae-3341866042ab",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/post-positional-numeracy.pdf/content"
+    }
+   },
+   {
+    "id": "88b5c61f-51d0-4214-aeed-bb3a8c1356da",
+    "filename": "p2-literature-sweep.json",
+    "filesize": 19520,
+    "checksum": "e3b75e62821b3041859d084085a8ceef",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/88b5c61f-51d0-4214-aeed-bb3a8c1356da",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/p2-literature-sweep.json/content"
+    }
+   },
+   {
+    "id": "614b5636-cdca-4118-99b8-84b719cfeaa2",
+    "filename": "p2-literature-sweep.py",
+    "filesize": 4820,
+    "checksum": "84acb1e4c6fe288b8ac31eaa8e12e0a8",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/614b5636-cdca-4118-99b8-84b719cfeaa2",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/p2-literature-sweep.py/content"
+    }
+   },
+   {
+    "id": "bca3b0be-6c52-45bf-9c2d-d099fcf40375",
+    "filename": "docs_literature.md",
+    "filesize": 6184,
+    "checksum": "4c7fe2e38a7ff2bba2f8bc8805e8fa30",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/bca3b0be-6c52-45bf-9c2d-d099fcf40375",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/docs_literature.md/content"
+    }
+   },
+   {
+    "id": "1b0dd0bb-6637-423d-be2a-bd37ed3bda5e",
+    "filename": "arxiv-sweeps-2026-08-26.json",
+    "filesize": 2678,
+    "checksum": "7f348e12cd563690f1fa32fea48b3c7d",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/1b0dd0bb-6637-423d-be2a-bd37ed3bda5e",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/arxiv-sweeps-2026-08-26.json/content"
+    }
+   },
+   {
+    "id": "5cf2658c-ca9d-40db-8823-fd352394c93f",
+    "filename": "run-verification.log",
+    "filesize": 1492,
+    "checksum": "be5e6f3ca040e51c046aff7fa99f6e8e",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/5cf2658c-ca9d-40db-8823-fd352394c93f",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/run-verification.log/content"
+    }
+   },
+   {
+    "id": "aee868d5-6a7a-4352-b904-b6733467cced",
+    "filename": "citation-audit.md",
+    "filesize": 3963,
+    "checksum": "b694fa96b053be60a3873b2ee54bf7d1",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/aee868d5-6a7a-4352-b904-b6733467cced",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/citation-audit.md/content"
+    }
+   },
+   {
+    "id": "5ad9ede0-8e03-478a-a819-da03b08a4a68",
+    "filename": "PROJECT-PLAN.md",
+    "filesize": 12033,
+    "checksum": "3ba75b980dee80f9a731ab23dc1034da",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/5ad9ede0-8e03-478a-a819-da03b08a4a68",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/PROJECT-PLAN.md/content"
+    }
+   },
+   {
+    "id": "aaf4503f-1a66-4802-8897-4e54a3febe2a",
+    "filename": "references.bib",
+    "filesize": 9044,
+    "checksum": "7def6fb6334c3ff0222846cf8108ba27",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/aaf4503f-1a66-4802-8897-4e54a3febe2a",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/references.bib/content"
+    }
+   },
+   {
+    "id": "bb402178-af2e-4d1a-bbee-c8936e610482",
+    "filename": "p5-create-deposit.py",
+    "filesize": 4417,
+    "checksum": "7b09e9c15252f33246fe19c0f41b0ede",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/bb402178-af2e-4d1a-bbee-c8936e610482",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/p5-create-deposit.py/content"
+    }
+   },
+   {
+    "id": "a3e48eaf-a2fb-4a79-950d-d63153e08374",
+    "filename": "post-positional-numeracy.md",
+    "filesize": 17345,
+    "checksum": "c43c5c9786214cecea335792b7328282",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/a3e48eaf-a2fb-4a79-950d-d63153e08374",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/post-positional-numeracy.md/content"
+    }
+   },
+   {
+    "id": "57542a8f-b887-439c-8c89-ba17320c93c4",
+    "filename": "docs_deep-research.md",
+    "filesize": 10364,
+    "checksum": "0729451af0fe6b79d4212434fa426274",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/57542a8f-b887-439c-8c89-ba17320c93c4",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/docs_deep-research.md/content"
+    }
+   },
+   {
+    "id": "59e1241f-a788-405e-8f9d-f339a1a4ef29",
+    "filename": "artifacts_consilience-gate.md",
+    "filesize": 4272,
+    "checksum": "b31b1ed9ea63f13c18cb68343ce33239",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/59e1241f-a788-405e-8f9d-f339a1a4ef29",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/artifacts_consilience-gate.md/content"
+    }
+   },
+   {
+    "id": "9a01b178-89e9-4af0-b698-b65481abfc40",
+    "filename": "hensel-audit-z20756222.json",
+    "filesize": 7505,
+    "checksum": "b681d35cf245fa0e3d3b3ff98b2969c0",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/9a01b178-89e9-4af0-b698-b65481abfc40",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/hensel-audit-z20756222.json/content"
+    }
+   },
+   {
+    "id": "e9cd8110-1966-460f-ab94-cbb04fa25956",
+    "filename": "hensel-audit-source.py",
+    "filesize": 37307,
+    "checksum": "14184f95e703d9cb605e56c0cc602e8e",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/e9cd8110-1966-460f-ab94-cbb04fa25956",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/hensel-audit-source.py/content"
+    }
+   },
+   {
+    "id": "3315e4af-a346-4a41-b579-2fe26579ebc7",
+    "filename": "p5-deposit-reserve-doi.json",
+    "filesize": 5344,
+    "checksum": "a20884f969a8d37c475d6bb3bef67696",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/3315e4af-a346-4a41-b579-2fe26579ebc7",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/p5-deposit-reserve-doi.json/content"
+    }
+   },
+   {
+    "id": "1499717e-a81b-4f54-ab2c-ae7af1e02d89",
+    "filename": "p5-run.log",
+    "filesize": 110,
+    "checksum": "36cbe6e33bd648ca2aa9568df9a91877",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/1499717e-a81b-4f54-ab2c-ae7af1e02d89",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/p5-run.log/content"
+    }
+   },
+   {
+    "id": "b066d342-6cd8-4130-acee-cad021a426f5",
+    "filename": "verify_ppn.py",
+    "filesize": 10847,
+    "checksum": "6461ad6353b96b2a7146d9db193c301c",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/b066d342-6cd8-4130-acee-cad021a426f5",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/verify_ppn.py/content"
+    }
+   },
+   {
+    "id": "9fd008e2-ee38-4565-910a-0eb4ebe7d686",
+    "filename": "render-pdf.cjs",
+    "filesize": 1626,
+    "checksum": "4093836c9c2a4f2568e8da0b75c4cbff",
+    "links": {
+     "self": "https://zenodo.org/api/records/22114389/files/9fd008e2-ee38-4565-910a-0eb4ebe7d686",
+     "download": "https://zenodo.org/api/records/22114389/draft/files/render-pdf.cjs/content"
+    }
+   }
+  ],
+  "state": "done",
+  "submitted": true
+ }
+}

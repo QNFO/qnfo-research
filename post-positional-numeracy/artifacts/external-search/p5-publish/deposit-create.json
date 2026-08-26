@@ -1,0 +1,81 @@
+{
+ "status": 201,
+ "body": {
+  "created": "2026-08-26T15:29:56.952227+00:00",
+  "modified": "2026-08-26T15:29:57.063440+00:00",
+  "id": 22114389,
+  "conceptrecid": "22114388",
+  "metadata": {
+   "title": "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic",
+   "publication_date": "2026-08-26",
+   "description": "Exact computation on the rationals today inhabits a single completion. Digital arithmetic runs in the real numbers and accepts rounding; exact alternatives run in a single p-adic completion through Hensel codes and reconstruct through the Chinese remainder theorem with Farey bounds. This paper develops the multi-place realization that joins the two. A rational number is encoded by its residues at finitely many chosen primes together with a two-sided Archimedean window; the encoding is injective whenever 2 B^2 &lt; M, where M is the product of the chosen prime powers. The adelic product formula - the identity that ties the places of the rationals together - becomes a machine-checkable invariant of the arithmetic: every correct encode-compute-decode round-trip of operands whose numerator and denominator factor over the chosen primes satisfies it exactly, and any violation localizes the failing place. All claims are computationally verified: golden values, exhaustive injectivity on small moduli, 100000 seeded trials on a window of modulus M = 810000, 80000 componentwise arithmetic checks, and a reconstruction algorithm validated against exhaustive enumeration. A dependency-free reference implementation and a reproducibility statement accompany the paper.",
+   "access_right": "open",
+   "creators": [
+    {
+     "name": "Quni-Gudzinas, Rowan Brad",
+     "affiliation": "QNFO"
+    }
+   ],
+   "keywords": [
+    "finite adeles",
+    "Hensel codes",
+    "product formula",
+    "exact rational arithmetic",
+    "Ostrowski's theorem",
+    "rational reconstruction",
+    "non-Archimedean",
+    "numeration"
+   ],
+   "related_identifiers": [
+    {
+     "identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/post-positional-numeracy",
+     "relation": "isSupplementTo",
+     "scheme": "url"
+    },
+    {
+     "identifier": "10.5281/zenodo.20756222",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.21148596",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.1016/j.jsc.2025.102481",
+     "relation": "cites",
+     "scheme": "doi"
+    }
+   ],
+   "version": "1.0.0",
+   "license": "cc-by-4.0",
+   "imprint_publisher": "Zenodo",
+   "upload_type": "publication",
+   "publication_type": "preprint",
+   "prereserve_doi": {
+    "doi": "10.5281/zenodo.22114389",
+    "recid": 22114389
+   }
+  },
+  "title": "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic",
+  "links": {
+   "self": "https://zenodo.org/api/deposit/depositions/22114389",
+   "html": "https://zenodo.org/deposit/22114389",
+   "badge": "https://zenodo.org/badge/doi/.svg",
+   "files": "https://zenodo.org/api/deposit/depositions/22114389/files",
+   "bucket": "https://zenodo.org/api/files/50d85877-a684-4f10-994c-00d8024347ae",
+   "latest_draft": "https://zenodo.org/api/deposit/depositions/22114389",
+   "latest_draft_html": "https://zenodo.org/deposit/22114389",
+   "publish": "https://zenodo.org/api/deposit/depositions/22114389/actions/publish",
+   "edit": "https://zenodo.org/api/deposit/depositions/22114389/actions/edit",
+   "discard": "https://zenodo.org/api/deposit/depositions/22114389/actions/discard",
+   "newversion": "https://zenodo.org/api/deposit/depositions/22114389/actions/newversion"
+  },
+  "record_id": 22114389,
+  "owner": 1328013,
+  "files": [],
+  "state": "unsubmitted",
+  "submitted": false
+ }
+}

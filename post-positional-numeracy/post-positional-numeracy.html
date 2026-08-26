@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-26" />
+  <title>Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    div.abstract {
+      margin: 2em 2em 2em 2em;
+      text-align: left;
+      font-size: 85%;
+    }
+    div.abstract-title {
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0.5em;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Post-Positional Numeracy: Finite-Adele Encoding and
+Product-Formula-Verified Exact Rational Arithmetic</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-26</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>Exact computation on the rationals today inhabits a single
+completion. Digital arithmetic runs in the real numbers and accepts
+rounding; exact alternatives run in a single <span
+class="math inline">\(p\)</span>-adic completion through Hensel codes
+and reconstruct through the Chinese remainder theorem with Farey bounds.
+This paper develops the multi-place realization that joins the two. A
+rational number is encoded by its residues at finitely many chosen
+primes together with a two-sided Archimedean window; the encoding is
+injective whenever <span class="math inline">\(2B^2 &lt; M\)</span>,
+where <span class="math inline">\(M\)</span> is the product of the
+chosen prime powers. The adelic product formula — the identity that ties
+the places of <span class="math inline">\(\mathbb{Q}\)</span> together —
+becomes a machine-checkable invariant of the arithmetic: every correct
+encode-compute-decode round-trip of operands whose numerator and
+denominator factor over the chosen primes satisfies it exactly, and any
+violation localizes the failing place. All claims are computationally
+verified: golden values, exhaustive injectivity on small moduli, <span
+class="math inline">\(10^5\)</span> seeded trials on a window of modulus
+<span class="math inline">\(M = 810{,}000\)</span>, <span
+class="math inline">\(8 \times 10^4\)</span> componentwise arithmetic
+checks, and a reconstruction algorithm validated against exhaustive
+enumeration. A dependency-free reference implementation and a
+reproducibility statement accompany the paper.</p>
+</div>
+</header>
+<h2 id="introduction">1. Introduction</h2>
+<p>Numerical computation splits into two worlds. Digital arithmetic runs
+in the real numbers and accepts rounding; the classical alternative,
+exact arithmetic on the rationals, runs through <span
+class="math inline">\(p\)</span>-adic Hensel codes and reconstructs
+rational answers from residues <span class="citation"
+data-cites="krishnamurthy1975finite gregory1984methods">(Krishnamurthy
+et al. 1975; Gregory and Krishnamurthy 1984)</span>. Both worlds are
+single-place: each computation commits to one completion of <span
+class="math inline">\(\mathbb{Q}\)</span>. Ostrowski’s theorem states
+that the choice is not a free one — every nontrivial absolute value on
+<span class="math inline">\(\mathbb{Q}\)</span> is equivalent to the
+real absolute value or to a <span class="math inline">\(p\)</span>-adic
+one <span class="citation"
+data-cites="ostrowski1916funktionalgleichung">(Ostrowski 1916)</span> —
+but the theorem also implies that no single completion is privileged.
+Computation has simply never carried more than one at a time.</p>
+<p>The published record establishes the conceptual side of this
+observation in detail: positional notation is a tree whose topology the
+radix sets <span class="citation"
+data-cites="qnfo:silent-radix qnfo:nonlinear-tree qnfo:ultrametric-foundation-v2">(Quni-Gudzinas
+2026f, 2025b, 2025d)</span>, numeral systems admit multi-axis evaluation
+<span class="citation" data-cites="qnfo:numerata">(Quni-Gudzinas
+2026e)</span>, and a computation-ready framework exists for exact
+single-place arithmetic with Hensel codes <span class="citation"
+data-cites="qnfo:hensel-framework">(Quni-Gudzinas 2025a)</span>. What
+has not been built is the multi-place layer: an encoding that carries
+several places at once, and a global check that ties them. This paper
+supplies that layer.</p>
+<p>We call the resulting representation <em>post-positional
+numeracy</em>: a rational number is represented not by one positional
+expansion but by its simultaneous images at finitely many chosen places,
+checked against the one global identity that constrains them all — the
+adelic product formula <span class="math inline">\(\prod_v |x|_v =
+1\)</span> <span class="citation" data-cites="tate1967fourier">(Tate
+1967)</span>. The contributions are three. First, the finite-adele
+encoding with its injectivity window: the encoding is injective on a
+two-sided Farey window whenever <span class="math inline">\(2B^2 &lt;
+M\)</span> (Lemma 1), and the two-sided bound is essential (Remark 1).
+Second, the product formula as a verification invariant: every correct
+encode-compute-decode round-trip of operands whose numerator and
+denominator factor over the chosen primes satisfies the truncated
+product formula exactly, and a violation localizes the failing place
+(Theorem 1 and Corollary 1). Third, a dependency-free reference
+implementation whose claims are computationally verified (Section
+5).</p>
+<p>The results matter to three audiences. For exact-arithmetic practice,
+the product formula is a checksum with teeth: it verifies a multi-place
+computation against an identity independent of the computation itself,
+and it points at the place that failed. For number theory, the product
+formula — normally an abstract statement about all places at once —
+becomes runnable. For notation, the paper exhibits what a number looks
+like when no place is privileged.</p>
+<h2 id="preliminaries">2. Preliminaries</h2>
+<h3 id="absolute-values-and-ostrowskis-theorem">2.1 Absolute values and
+Ostrowski’s theorem</h3>
+<p>For a rational number <span class="math inline">\(x = a/b\)</span> in
+lowest terms and a prime <span class="math inline">\(p\)</span>, write
+<span class="math inline">\(v_p(x)\)</span> for the exponent of <span
+class="math inline">\(p\)</span> in <span
+class="math inline">\(a\)</span> minus its exponent in <span
+class="math inline">\(b\)</span>. The <span
+class="math inline">\(p\)</span>-adic absolute value is <span
+class="math inline">\(|x|_p = p^{-v_p(x)}\)</span>, and the real
+absolute value is <span class="math inline">\(|x|_\infty = |x|\)</span>.
+Ostrowski’s theorem states that every nontrivial absolute value on <span
+class="math inline">\(\mathbb{Q}\)</span> is equivalent to one of these
+<span class="citation"
+data-cites="ostrowski1916funktionalgleichung">(Ostrowski 1916)</span>;
+the completions are <span class="math inline">\(\mathbb{R}\)</span> and
+the fields <span class="math inline">\(\mathbb{Q}_p\)</span>. For every
+nonzero <span class="math inline">\(x \in \mathbb{Q}\)</span> the
+product over all places satisfies</p>
+<p><span class="math display">\[ \prod_v |x|_v = 1, \]</span></p>
+<p>with only finitely many factors different from <span
+class="math inline">\(1\)</span> <span class="citation"
+data-cites="tate1967fourier">(Tate 1967)</span>.</p>
+<h3 id="hensel-codes-and-rational-reconstruction">2.2 Hensel codes and
+rational reconstruction</h3>
+<p>A Hensel code of length <span class="math inline">\(k\)</span> at the
+prime <span class="math inline">\(p\)</span> is the residue of a
+rational modulo <span class="math inline">\(p^k\)</span> <span
+class="citation"
+data-cites="hensel1908theorie krishnamurthy1975finite">(Hensel 1908;
+Krishnamurthy et al. 1975)</span>. Addition, subtraction,
+multiplication, and — when the denominator is coprime to <span
+class="math inline">\(p\)</span> — division are exact integer operations
+modulo <span class="math inline">\(p^k\)</span>. Given a residue <span
+class="math inline">\(r\)</span> modulo a composite <span
+class="math inline">\(M\)</span> together with a bound <span
+class="math inline">\(B\)</span> with <span class="math inline">\(2B^2
+&lt; M\)</span>, the rational <span class="math inline">\(a/b\)</span>
+with <span class="math inline">\(\gcd(b, M) = 1\)</span>, <span
+class="math inline">\(|a| \le B\)</span>, <span
+class="math inline">\(|b| \le B\)</span>, and <span
+class="math inline">\(a b^{-1} \equiv r \pmod M\)</span> is unique, and
+a two-step Euclidean algorithm recovers it <span class="citation"
+data-cites="wang1982padic dixon1982exact miola1982conversion kornerup1983mapping krishnamurthy1983conversion rao1984conversion">(Wang
+et al. 1982; Dixon 1982; Miola 1982; Kornerup and Gregory 1983;
+Krishnamurthy 1983; Rao 1984)</span>. Primes at which a modular
+computation degenerates can be detected and handled <span
+class="citation" data-cites="boehm2015badprimes">(Böhm et al.
+2015)</span>; production systems implement the full stack <span
+class="citation" data-cites="doris2021exact">(Doris 2021)</span>.</p>
+<h3 id="notation">2.3 Notation</h3>
+<p>Throughout, <span class="math inline">\(S\)</span> denotes a finite
+set of primes, <span class="math inline">\(k \ge 1\)</span> a precision,
+and</p>
+<p><span class="math display">\[ M = \prod_{p \in S} p^k, \qquad B =
+\lfloor \sqrt{M/2} \rfloor . \]</span></p>
+<p>The window <span class="math inline">\(W\)</span> is the set of
+rationals <span class="math inline">\(x = a/b\)</span> in lowest terms
+with <span class="math inline">\(\gcd(b, M) = 1\)</span>, <span
+class="math inline">\(|a| \le B\)</span>, and <span
+class="math inline">\(|b| \le B\)</span>. A rational is <span
+class="math inline">\(S\)</span>-smooth when both its numerator and its
+denominator factor over <span class="math inline">\(S\)</span>.</p>
+<h3 id="a-remark-on-terminology">2.4 A remark on terminology</h3>
+<p>“Ostrowski numeration systems” denotes a different subject:
+numeration built from continued-fraction expansions <span
+class="citation" data-cites="hieronymi2014ostrowski">(Hieronymi and
+Terry 2014)</span>. That literature is unrelated to Ostrowski’s theorem
+on absolute values, which is the theorem used here.</p>
+<h2 id="the-finite-adele-encoding">3. The finite-adele encoding</h2>
+<h3 id="definition">3.1 Definition</h3>
+<p><strong>Definition 1 (finite-adele encoding).</strong> The encoding
+of <span class="math inline">\(x \in W\)</span> is its residue
+vector</p>
+<p><span class="math display">\[ \varphi(x) = \left( x \bmod p^k
+\right)_{p \in S} \in \prod_{p \in S} \mathbb{Z}/p^k\mathbb{Z},
+\]</span></p>
+<p>computed componentwise as <span class="math inline">\(a \cdot b^{-1}
+\bmod p^k\)</span> for <span class="math inline">\(x = a/b\)</span>. The
+vector is the truncated restricted product of <span
+class="math inline">\(x\)</span>’s local components: its finite-adele
+image.</p>
+<h3 id="injectivity">3.2 Injectivity</h3>
+<p><strong>Lemma 1.</strong> The encoding <span
+class="math inline">\(\varphi\)</span> is injective on the window <span
+class="math inline">\(W\)</span>.</p>
+<p><em>Proof.</em> Let <span class="math inline">\(x = a/b\)</span> and
+<span class="math inline">\(y = c/d\)</span> in <span
+class="math inline">\(W\)</span> with <span
+class="math inline">\(\varphi(x) = \varphi(y)\)</span>. For each <span
+class="math inline">\(p \in S\)</span>, <span class="math inline">\(a
+b^{-1} \equiv c d^{-1} \pmod{p^k}\)</span>, hence <span
+class="math inline">\(ad \equiv bc \pmod{p^k}\)</span>. The moduli <span
+class="math inline">\(p^k\)</span> for <span class="math inline">\(p \in
+S\)</span> are pairwise coprime, so by the Chinese remainder theorem
+<span class="math inline">\(ad \equiv bc \pmod M\)</span>. Both <span
+class="math inline">\(|ad|\)</span> and <span
+class="math inline">\(|bc|\)</span> are at most <span
+class="math inline">\(B^2\)</span>, so <span class="math inline">\(|ad -
+bc| \le 2B^2 &lt; M\)</span>. A multiple of <span
+class="math inline">\(M\)</span> strictly smaller than <span
+class="math inline">\(M\)</span> in absolute value is zero: <span
+class="math inline">\(ad = bc\)</span>, and <span
+class="math inline">\(x = y\)</span>. <span
+class="math inline">\(\square\)</span></p>
+<p><strong>Remark 1 (the two-sided bound is essential).</strong> An
+Archimedean bound on <span class="math inline">\(x\)</span> alone does
+not suffice. Since <span class="math inline">\(7 \cdot 13 = 91 \equiv 1
+\pmod{30}\)</span>, the rationals <span
+class="math inline">\(1/7\)</span> and <span
+class="math inline">\(13\)</span> share the image <span
+class="math inline">\((1, 1, 3)\)</span> modulo <span
+class="math inline">\((2, 3, 5)\)</span>; both satisfy <span
+class="math inline">\(|x| \le 15\)</span>, and both denominators are
+coprime to <span class="math inline">\(30\)</span>. The injectivity
+window must bound numerator and denominator separately.</p>
+<h3 id="reconstruction">3.3 Reconstruction</h3>
+<p><strong>Algorithm 1 (two-step Euclidean reconstruction).</strong>
+Given <span class="math inline">\(r\)</span> with <span
+class="math inline">\(0 \le r &lt; M\)</span> and the bound <span
+class="math inline">\(B\)</span>: run the Euclidean algorithm on the
+pair <span class="math inline">\((M, r)\)</span>; at the first step
+where the remainder does not exceed <span
+class="math inline">\(B\)</span>, the pair (remainder, coefficient) is a
+candidate; if the coefficient exceeds <span
+class="math inline">\(B\)</span>, take one further step and read the
+pair there. Normalize the sign so the denominator is positive and reduce
+by <span class="math inline">\(\gcd\)</span>. If no candidate satisfies
+both bounds, report failure. Correctness follows from the standard
+analysis of the reconstruction algorithm <span class="citation"
+data-cites="wang1982padic dixon1982exact">(Wang et al. 1982; Dixon
+1982)</span>; Section 5 validates the implementation against exhaustive
+enumeration.</p>
+<h2 id="the-product-formula-as-a-verification-invariant">4. The product
+formula as a verification invariant</h2>
+<h3 id="the-s-smooth-invariant">4.1 The <span
+class="math inline">\(S\)</span>-smooth invariant</h3>
+<p><strong>Theorem 1.</strong> If <span class="math inline">\(x \in
+\mathbb{Q}^\times\)</span> is <span
+class="math inline">\(S\)</span>-smooth, then</p>
+<p><span class="math display">\[ \prod_{v \in S \cup \{\infty\}} |x|_v =
+1 . \]</span></p>
+<p><em>Proof.</em> Write <span class="math inline">\(x = \pm \prod_{p
+\in S} p^{e_p}\)</span> with integer exponents. Then <span
+class="math inline">\(|x|_p = p^{-e_p}\)</span> for each <span
+class="math inline">\(p \in S\)</span>, and <span
+class="math inline">\(|x|_\infty = \prod_{p \in S} p^{e_p}\)</span>. The
+product is <span class="math inline">\(1\)</span>. <span
+class="math inline">\(\square\)</span></p>
+<h3 id="general-operands">4.2 General operands</h3>
+<p>For <span class="math inline">\(x\)</span> not <span
+class="math inline">\(S\)</span>-smooth the truncated product does not
+equal <span class="math inline">\(1\)</span>. Writing <span
+class="math inline">\(x = \pm \left(\prod_{p \in S} p^{e_p}\right)
+\left(\prod_{q \notin S} q^{f_q}\right)\)</span> and applying the same
+computation gives the general identity</p>
+<p><span class="math display">\[ \prod_{v \in S \cup \{\infty\}} |x|_v =
+\left( \prod_{q \notin S} |x|_q \right)^{-1} . \]</span></p>
+<p>Both identities are derived from unique factorization and are
+verified numerically in Section 5.</p>
+<h3 id="failure-localization">4.3 Failure localization</h3>
+<p><strong>Corollary 1.</strong> After a multi-place
+encode-compute-decode round-trip on <span
+class="math inline">\(S\)</span>-smooth operands, the deviation of the
+truncated product from <span class="math inline">\(1\)</span> is a
+rational of the form <span class="math inline">\(\prod_{p \in S}
+p^{d_p}\)</span>; the primes with nonzero exponent identify the failing
+places.</p>
+<p><em>Argument.</em> The truncated product is multiplicative across
+components, and each component contributes a pure prime power. A wrong
+component at the prime <span class="math inline">\(p\)</span> changes
+exactly the factors at <span class="math inline">\(p\)</span>, so the
+deviation factors over the primes whose components failed. If the result
+of a round-trip is checked and the product equals <span
+class="math inline">\(1\)</span>, the computation is consistent at every
+place in <span class="math inline">\(S\)</span> at once.</p>
+<h2 id="computational-verification">5. Computational verification</h2>
+<h3 id="method">5.1 Method</h3>
+<p>A single dependency-free script executes the following checks.
+Product-formula checks: the golden values <span class="math inline">\(x
+\in \{6, 2/3, 12\}\)</span> over <span class="math inline">\(S = \{2,
+3\}\)</span>; the boundary value <span class="math inline">\(x =
+5/2\)</span>, where the truncated product is <span
+class="math inline">\(5 = 1/|5/2|_5\)</span>; <span
+class="math inline">\(10^4\)</span> seeded random <span
+class="math inline">\(S\)</span>-smooth trials over <span
+class="math inline">\(S = \{2, 3, 5, 7\}\)</span>; and <span
+class="math inline">\(10^4\)</span> seeded trials of the general
+identity with an outside prime factor. Ostrowski checks: the strong
+triangle inequality on <span class="math inline">\(2 \times
+10^4\)</span> random integer pairs, the bound <span
+class="math inline">\(|n|_2 \le 1\)</span> for integers, and the full
+product formula for four values. Injectivity checks: exhaustive
+enumeration of the window for <span class="math inline">\(M =
+36\)</span> (<span class="math inline">\(B = 4\)</span>), <span
+class="math inline">\(M = 216\)</span> (<span class="math inline">\(B =
+10\)</span>), and <span class="math inline">\(M = 30\)</span> (<span
+class="math inline">\(B = 3\)</span>), counting distinct images; and
+<span class="math inline">\(10^5\)</span> seeded random window pairs for
+<span class="math inline">\(S = \{2, 3, 5\}\)</span>, <span
+class="math inline">\(k = 4\)</span> (<span class="math inline">\(M =
+810{,}000\)</span>, <span class="math inline">\(B = 636\)</span>),
+encoded, reconstructed, and compared. The reconstruction algorithm is
+validated against exhaustive enumeration on <span
+class="math inline">\(M = 216\)</span>. Round-trip checks: <span
+class="math inline">\(2 \times 10^4\)</span> random window operand pairs
+under addition, subtraction, multiplication, and division, each compared
+componentwise, with a subset carried through full reconstruction.</p>
+<h3 id="results">5.2 Results</h3>
+<p>All checks pass. The seeded trial on <span class="math inline">\(M =
+810{,}000\)</span> accepted <span
+class="math inline">\(94{,}998\)</span> pairs with zero collisions and
+zero reconstruction failures; the componentwise arithmetic checks passed
+<span class="math inline">\(80{,}000\)</span> of <span
+class="math inline">\(80{,}000\)</span>; full round-trips reconstructed
+<span class="math inline">\(338\)</span> results exactly.</p>
+<table>
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Check</th>
+<th style="text-align: left;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Product formula, golden values (<span
+class="math inline">\(6\)</span>, <span
+class="math inline">\(2/3\)</span>, <span
+class="math inline">\(12\)</span>, <span class="math inline">\(S =
+\{2,3\}\)</span>)</td>
+<td style="text-align: left;">exactly <span
+class="math inline">\(1\)</span> each</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product formula, boundary (<span
+class="math inline">\(x = 5/2\)</span>, <span class="math inline">\(S =
+\{2,3\}\)</span>)</td>
+<td style="text-align: left;"><span class="math inline">\(5 = 1/\lvert
+5/2 \rvert_5\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">Product formula, <span
+class="math inline">\(S\)</span>-smooth trials (<span
+class="math inline">\(10^4\)</span>)</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^4/10^4\)</span>; largest deviation <span
+class="math inline">\(4.4 \times 10^{-16}\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">General identity, trials with outside
+prime (<span class="math inline">\(10^4\)</span>)</td>
+<td style="text-align: left;"><span
+class="math inline">\(10^4/10^4\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">Strong triangle inequality (<span
+class="math inline">\(2 \times 10^4\)</span> pairs)</td>
+<td style="text-align: left;"><span
+class="math inline">\(20{,}000/20{,}000\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">Injectivity, exhaustive (<span
+class="math inline">\(M = 36\)</span>, <span
+class="math inline">\(216\)</span>, <span
+class="math inline">\(30\)</span>)</td>
+<td style="text-align: left;"><span class="math inline">\(9/9\)</span>,
+<span class="math inline">\(55/55\)</span>, <span
+class="math inline">\(7/7\)</span> distinct images</td>
+</tr>
+<tr>
+<td style="text-align: left;">Injectivity, seeded (<span
+class="math inline">\(10^5\)</span> trials, <span
+class="math inline">\(M = 810{,}000\)</span>, <span
+class="math inline">\(B = 636\)</span>)</td>
+<td style="text-align: left;"><span
+class="math inline">\(94{,}998\)</span> accepted; <span
+class="math inline">\(0\)</span> collisions</td>
+</tr>
+<tr>
+<td style="text-align: left;">Reconstruction vs. enumeration (<span
+class="math inline">\(M = 216\)</span>)</td>
+<td style="text-align: left;"><span
+class="math inline">\(63/63\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">Componentwise <span
+class="math inline">\(+\)</span>, <span
+class="math inline">\(-\)</span>, <span
+class="math inline">\(\times\)</span>, <span
+class="math inline">\(\div\)</span></td>
+<td style="text-align: left;"><span
+class="math inline">\(80{,}000/80{,}000\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">Full reconstruct round-trips</td>
+<td style="text-align: left;"><span class="math inline">\(338\)</span>
+exact</td>
+</tr>
+</tbody>
+</table>
+<h3 id="reproducibility">5.3 Reproducibility</h3>
+<p>Seed <span class="math inline">\(20260826\)</span>; Python 3.8 or
+later; standard library only; single-threaded runtime under one minute.
+The script <code>verify_ppn.py</code> and its machine-readable output
+accompany this paper. Re-running the script reproduces every number in
+the table.</p>
+<h2 id="crosswalk">6. Crosswalk</h2>
+<p>The same objects carry different names in three communities. The
+table translates the paper’s terms into their adjacent-domain
+equivalents.</p>
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 43%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Number theory</th>
+<th style="text-align: left;">Exact computation</th>
+<th style="text-align: left;">Notation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">place of <span
+class="math inline">\(\mathbb{Q}\)</span> (a choice of metric on the
+rationals)</td>
+<td style="text-align: left;">the arithmetic the computation is faithful
+under</td>
+<td style="text-align: left;">which distance the notation presumes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Hensel code</td>
+<td style="text-align: left;">finite <span
+class="math inline">\(p\)</span>-adic segment (residue mod <span
+class="math inline">\(p^k\)</span>)</td>
+<td style="text-align: left;">digits at a non-Archimedean place</td>
+</tr>
+<tr>
+<td style="text-align: left;">finite adeles (truncated restricted
+product)</td>
+<td style="text-align: left;">the record carrying all chosen places at
+once</td>
+<td style="text-align: left;">multi-place numeracy: one number, many
+simultaneous local images</td>
+</tr>
+<tr>
+<td style="text-align: left;">product formula <span
+class="math inline">\(\prod_v \lvert x \rvert_v = 1\)</span></td>
+<td style="text-align: left;">global integrity checksum of a multi-place
+computation</td>
+<td style="text-align: left;">the identity that ties the places: no
+place may win</td>
+</tr>
+<tr>
+<td style="text-align: left;">rational reconstruction (CRT + Farey
+bounds)</td>
+<td style="text-align: left;">exact decode from multi-place
+residues</td>
+<td style="text-align: left;">recovering one number from its many local
+appearances</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ostrowski’s theorem</td>
+<td style="text-align: left;">why <span
+class="math inline">\(\mathbb{R}\)</span> and <span
+class="math inline">\(\mathbb{Q}_p\)</span> are the only
+completions</td>
+<td style="text-align: left;">why “the” number line was always a
+choice</td>
+</tr>
+</tbody>
+</table>
+<h2 id="practitioner-relevance">7. Practitioner relevance</h2>
+<p>A practitioner can build exact multi-place rational arithmetic from
+Section 3 and Section 4 directly. Encode a rational as its residue
+vector at a chosen prime set and precision; perform addition,
+subtraction, multiplication, and division componentwise as integer
+operations modulo the prime powers; reconstruct with Algorithm 1; and
+check the truncated product formula at every round-trip as the global
+invariant that localizes any failing place. The deliverable is a
+dependency-free module in Python with a reproducible test suite,
+suitable as the arithmetic core of exact linear algebra, financial
+computation, simulation, and teaching tools. The invariant check is the
+piece standard modular methods do not provide: a single identity that
+audits all places of a computation simultaneously rather than
+per-operation assertions.</p>
+<h2 id="related-work">8. Related work</h2>
+<p>The Hensel-code lineage spans five decades: the origin of
+finite-segment <span class="math inline">\(p\)</span>-adic arithmetic
+<span class="citation"
+data-cites="krishnamurthy1975finite">(Krishnamurthy et al. 1975)</span>,
+its use for exact computation <span class="citation"
+data-cites="gregory1978finite gregory1984methods">(Gregory 1978; Gregory
+and Krishnamurthy 1984)</span>, reconstruction from residues <span
+class="citation" data-cites="wang1982padic dixon1982exact">(Wang et al.
+1982; Dixon 1982)</span>, conversion methods <span class="citation"
+data-cites="miola1982conversion krishnamurthy1983conversion rao1984conversion">(Miola
+1982; Krishnamurthy 1983; Rao 1984)</span>, and the Farey-fraction view
+of the window <span class="citation"
+data-cites="kornerup1983mapping">(Kornerup and Gregory 1983)</span>.
+Bad-prime handling is classical <span class="citation"
+data-cites="boehm2015badprimes">(Böhm et al. 2015)</span>, and exact
+<span class="math inline">\(p\)</span>-adic computation is available in
+mainstream systems <span class="citation"
+data-cites="doris2021exact">(Doris 2021)</span>. Closest to the
+multi-place setting are simultaneous rational number codes, which decode
+beyond half the minimum distance using multiplicity codes and bad-prime
+detection <span class="citation"
+data-cites="abbondati2026simultaneous">(Abbondati et al. 2026)</span>;
+they do not use the product formula as an invariant, and the present
+paper’s checksum complements their decoding guarantees. A published
+single-place framework implements Hensel codes end to end with tests and
+benchmarks <span class="citation"
+data-cites="qnfo:hensel-framework">(Quni-Gudzinas 2025a)</span>. The
+conceptual line this paper extends reads positional notation as a tree
+<span class="citation"
+data-cites="qnfo:silent-radix qnfo:nonlinear-tree">(Quni-Gudzinas 2026f,
+2025b)</span>, evaluates numeral systems on multiple axes <span
+class="citation" data-cites="qnfo:numerata">(Quni-Gudzinas
+2026e)</span>, and traces the role of notation in how mathematics is
+grounded <span class="citation"
+data-cites="qnfo:ten-fingered-trap qnfo:decimal-fingers qnfo:embodied-math qnfo:explicit-frame">(Quni-Gudzinas
+2025c, 2026c, 2026a, 2026b)</span>.</p>
+<h2 id="discussion">9. Discussion</h2>
+<p>The paper’s map-territory hygiene is worth stating. The encoding is a
+map: a notation for rationals, not the rationals themselves. Lemma 1
+quantifies the map’s faithfulness — on the window <span
+class="math inline">\(W\)</span> the map is injective, and Remark 1
+shows the faithfulness fails if the window is stated one-sided. The
+product formula is the constraint that the territory imposes on every
+faithful map across places; using it as a checksum converts that
+constraint into machinery.</p>
+<p>An open question the verification suggests is the cost of exactness:
+what a multi-place round-trip costs against a single-place one in
+cycles, memory, and energy, and where the crossover lies for practical
+workloads. The measurement is straightforward to set up and is left for
+future work.</p>
+<h2 id="declarations">10. Declarations</h2>
+<p><strong>Funding.</strong> This research received no external funding.
+<strong>Conflicts of interest.</strong> None. <strong>Author
+contributions.</strong> The named author conceived the encoding and the
+invariant, and authored this paper. <strong>Use of artificial
+intelligence.</strong> This paper was drafted with AI assistance under
+the disclosure and audit principles of the published methodology <span
+class="citation" data-cites="qnfo:uia qnfo:iaps">(Quni-Gudzinas 2026g,
+2026d)</span>; all mathematical claims and every numerical result were
+verified by the executable reproducibility suite described in Section 5.
+<strong>Code availability.</strong> The reference implementation and the
+verification script accompany this paper in the same archive.</p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-abbondati2026simultaneous" class="csl-entry"
+role="listitem">
+Abbondati, Matteo, Eleonora Guerrini, and Romain Lebreton. 2026.
+<span>“Simultaneous Rational Number Codes: Decoding Beyond Half the
+Minimum Distance with Multiplicities and Bad Primes.”</span> <em>Journal
+of Symbolic Computation</em> 132: 102481. <a
+href="https://doi.org/10.1016/j.jsc.2025.102481">https://doi.org/10.1016/j.jsc.2025.102481</a>.
+</div>
+<div id="ref-boehm2015badprimes" class="csl-entry" role="listitem">
+Böhm, Janko, Wolfram Decker, Claus Fieker, and Gerhard Pfister. 2015.
+<span>“The Use of Bad Primes in Rational Reconstruction.”</span>
+<em>Mathematics of Computation</em> 84 (296): 3013–27. <a
+href="https://doi.org/10.1090/mcom/2951">https://doi.org/10.1090/mcom/2951</a>.
+</div>
+<div id="ref-dixon1982exact" class="csl-entry" role="listitem">
+Dixon, John D. 1982. <span>“Exact Solution of Linear Equations Using
+<span class="math inline">\(P\)</span>-Adic Expansions.”</span>
+<em>Numerische Mathematik</em> 40 (1): 137–41. <a
+href="https://doi.org/10.1007/BF01459082">https://doi.org/10.1007/BF01459082</a>.
+</div>
+<div id="ref-doris2021exact" class="csl-entry" role="listitem">
+Doris, Christopher. 2021. <span>“Exact <span
+class="math inline">\(p\)</span>-Adic Computation in
+<span>M</span>agma.”</span> <em>Journal of Symbolic Computation</em>
+104: 476–93. <a
+href="https://doi.org/10.1016/j.jsc.2020.08.005">https://doi.org/10.1016/j.jsc.2020.08.005</a>.
+</div>
+<div id="ref-gregory1984methods" class="csl-entry" role="listitem">
+Gregory, R. T., and E. V. Krishnamurthy. 1984. <em>Methods and
+Applications of Error-Free Computation</em>. Springer. <a
+href="https://doi.org/10.1007/978-1-4612-5242-9">https://doi.org/10.1007/978-1-4612-5242-9</a>.
+</div>
+<div id="ref-gregory1978finite" class="csl-entry" role="listitem">
+Gregory, Robert Todd. 1978. <span>“The Use of Finite-Segment <span
+class="math inline">\(p\)</span>-Adic Arithmetic for Exact
+Computation.”</span> <em>BIT Numerical Mathematics</em> 18 (3): 282–300.
+<a
+href="https://doi.org/10.1007/BF01930898">https://doi.org/10.1007/BF01930898</a>.
+</div>
+<div id="ref-hensel1908theorie" class="csl-entry" role="listitem">
+Hensel, Kurt. 1908. <em>Theorie Der Algebraischen Zahlen</em>. Teubner.
+</div>
+<div id="ref-hieronymi2014ostrowski" class="csl-entry" role="listitem">
+Hieronymi, Philipp, and Alonza Terry. 2014. <span>“Ostrowski Numeration
+Systems, Addition and Finite Automata.”</span> <em>arXiv Preprint</em>,
+no. arXiv:1407.7000.
+</div>
+<div id="ref-kornerup1983mapping" class="csl-entry" role="listitem">
+Kornerup, Peter, and Robert T. Gregory. 1983. <span>“Mapping Integers
+and <span>H</span>ensel Codes onto <span>F</span>arey Fractions.”</span>
+<em>BIT Numerical Mathematics</em>, ahead of print. <a
+href="https://doi.org/10.1007/BF01937322">https://doi.org/10.1007/BF01937322</a>.
+</div>
+<div id="ref-krishnamurthy1983conversion" class="csl-entry"
+role="listitem">
+Krishnamurthy, E. V. 1983. <span>“On the Conversion of
+<span>H</span>ensel Codes to <span>F</span>arey Rationals.”</span>
+<em>IEEE Transactions on Computers</em>, ahead of print. <a
+href="https://doi.org/10.1109/TC.1983.1676233">https://doi.org/10.1109/TC.1983.1676233</a>.
+</div>
+<div id="ref-krishnamurthy1975finite" class="csl-entry" role="listitem">
+Krishnamurthy, E. V., T. Mahadeva Rao, and K. Subramanian. 1975.
+<span>“Finite Segment <span class="math inline">\(p\)</span>-Adic Number
+Systems with Applications to Exact Computation.”</span> <em>Proceedings
+of the Indian Academy of Sciences – Section A</em> 81 (2): 58–79. <a
+href="https://doi.org/10.1007/BF03051174">https://doi.org/10.1007/BF03051174</a>.
+</div>
+<div id="ref-miola1982conversion" class="csl-entry" role="listitem">
+Miola, Alfonso. 1982. <span>“The Conversion of <span>H</span>ensel Codes
+to Their Rational Equivalents.”</span> <em>ACM SIGSAM Bulletin</em>,
+ahead of print. <a
+href="https://doi.org/10.1145/1089310.1089316">https://doi.org/10.1145/1089310.1089316</a>.
+</div>
+<div id="ref-ostrowski1916funktionalgleichung" class="csl-entry"
+role="listitem">
+Ostrowski, Alexander. 1916. <span>“<span>Ü</span>ber Einige
+l<span>ö</span>sungen Der Funktionalgleichung <span
+class="math inline">\(\psi(x) \cdot \psi(y) = \psi(xy)\)</span>.”</span>
+<em>Acta Mathematica</em> 41: 271–84. <a
+href="https://doi.org/10.1007/BF02422947">https://doi.org/10.1007/BF02422947</a>.
+</div>
+<div id="ref-qnfo:hensel-framework" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2025a. <em>Exact Rational Arithmetic via
+p-Adic Hensel Codes: A Computation-Ready Framework Resolving the
+Ostrowski Gap</em>. <a
+href="https://doi.org/10.5281/zenodo.20756222">https://doi.org/10.5281/zenodo.20756222</a>.
+</div>
+<div id="ref-qnfo:nonlinear-tree" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2025b. <em>Nonlinear Tree-Based Numeration
+Systems: A Consolidated Synthesis</em>. <a
+href="https://doi.org/10.5281/zenodo.21046213">https://doi.org/10.5281/zenodo.21046213</a>.
+</div>
+<div id="ref-qnfo:ten-fingered-trap" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2025c. <em>Ten-Fingered Trap</em>. QNFO R2
+archive: qnfo/releases/2025/00/.
+</div>
+<div id="ref-qnfo:ultrametric-foundation-v2" class="csl-entry"
+role="listitem">
+Quni-Gudzinas, Rowan Brad. 2025d. <em>Ultrametric Quantum Computation
+and the Langlands Program V2</em>. <a
+href="https://doi.org/10.5281/zenodo.21046214">https://doi.org/10.5281/zenodo.21046214</a>.
+</div>
+<div id="ref-qnfo:embodied-math" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026a. <em>Embodied Mathematics After Lakoff
+&amp; Nunez: A QNFO Perspective</em>. <a
+href="https://doi.org/10.5281/zenodo.21440894">https://doi.org/10.5281/zenodo.21440894</a>.
+</div>
+<div id="ref-qnfo:explicit-frame" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026b. <em>EXPLICIT FRAME PATTERN LANGUAGE
+V1.0</em>.
+</div>
+<div id="ref-qnfo:decimal-fingers" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026c. <em>From Decimal Fingers to Adelic
+Freedom: A Strategic Roadmap for Observer-Independent Physics</em>. <a
+href="https://doi.org/10.5281/zenodo.21428829">https://doi.org/10.5281/zenodo.21428829</a>.
+</div>
+<div id="ref-qnfo:iaps" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026d. <em>Knowing What We Do Not Know:
+Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons
+of an AI-Assisted Research Pipeline</em>. <a
+href="https://doi.org/10.5281/zenodo.21901983">https://doi.org/10.5281/zenodo.21901983</a>.
+</div>
+<div id="ref-qnfo:numerata" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026e. <em>NUMERATA: A Multi-Axis Framework
+for Evaluating Numeral Systems</em>. <a
+href="https://doi.org/10.5281/zenodo.21441847">https://doi.org/10.5281/zenodo.21441847</a>.
+</div>
+<div id="ref-qnfo:silent-radix" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026f. <em>THE SILENT RADIX: Positional
+Notation as Ultrametric Tree and the Calculus of Indications as
+Remedy</em>. <a
+href="https://doi.org/10.5281/zenodo.21067593">https://doi.org/10.5281/zenodo.21067593</a>.
+</div>
+<div id="ref-qnfo:uia" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026g. <em>The Universal Ignorance Audit: A
+Fifteen-Question Method for Systematic Inquiry into the Structure of
+Not-Knowing</em>. <a
+href="https://doi.org/10.5281/zenodo.21901984">https://doi.org/10.5281/zenodo.21901984</a>.
+</div>
+<div id="ref-rao1984conversion" class="csl-entry" role="listitem">
+Rao, T. M. 1984. <span>“Conversion of <span>H</span>ensel Codes to
+Rational Numbers.”</span> <em>Computers &amp; Mathematics with
+Applications</em>, ahead of print. <a
+href="https://doi.org/10.1016/0898-1221(84)90048-8">https://doi.org/10.1016/0898-1221(84)90048-8</a>.
+</div>
+<div id="ref-tate1967fourier" class="csl-entry" role="listitem">
+Tate, John T. 1967. <span>“Fourier Analysis in Number Fields, and
+<span>H</span>ecke’s Zeta-Functions.”</span> In <em>Algebraic Number
+Theory</em>, edited by J. W. S. Cassels and A. Fröhlich. Academic Press.
+</div>
+<div id="ref-wang1982padic" class="csl-entry" role="listitem">
+Wang, Paul S., M. J. T. Guy, and James H. Davenport. 1982. <span>“<span
+class="math inline">\(P\)</span>-Adic Reconstruction of Rational
+Numbers.”</span> <em>ACM SIGSAM Bulletin</em> 16 (2): 2–3. <a
+href="https://doi.org/10.1145/1089292.1089293">https://doi.org/10.1145/1089292.1089293</a>.
+</div>
+</div>
+</body>
+</html>

@@ -1,19 +1,37 @@
-# Post-Positional Numeracy (QNFO.RES.024)
+# Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic
 
-**Branch:** res/paper/post-positional-numeracy · **Repo:** QNFO/qnfo-research · **Phase:** P1 (due diligence complete) · **Tag:** v0.1-phase0-res024
+**Author:** Rowan Brad Quni-Gudzinas · **DOI:** 10.5281/zenodo.22114495 · **License:** CC BY 4.0 · **Status:** published v1.0.1 (2026-08-26)
 
-## Status
+## How to cite
 
-Phase 0 (init) and Phase 1 (due diligence + adversarial review) are complete. The thesis "the decimal system is a convenient lie" is already published across six-plus QNFO records (From Decimal Fingers to Adelic Freedom 10.5281/zenodo.21428829; Hensel framework 10.5281/zenodo.20754449 / 20756305 / 20756222; NUMERATA 10.5281/zenodo.21441847; THE SILENT RADIX 10.5281/zenodo.21148596; Nonlinear Tree-Based Numeration Systems 10.5281/zenodo.21046213; Ten-Fingered Trap). This project covers the verified delta: the finite-adele (multi-place) encoding of rationals, its injectivity window, and the adelic product formula as a machine-checkable invariant for exact rational arithmetic — with a computational verification suite and an executable demo.
+Cite all versions (always resolves to the latest one):
 
-## Contents
+> Quni-Gudzinas, Rowan Brad. *Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic.* QNFO Research Archive, 2026. Zenodo. **https://doi.org/10.5281/zenodo.22114388**
 
-- PROJECT-PLAN.md — charter, locked core claim C1′ (with 2026-08-26 claim amendment), premise-depth disclosure, hypothesis cards H-PPN-1..5, risk register
-- docs/deep-research.md — Phase 1 evidence report: adjudication, Hensel v1.2.0 deposit audit, external sweeps, gap analysis, crosswalk
-- docs/universal-ignorance-audit.md — 15-question UIA on the core claim + re-scope addendum
-- artifacts/consilience-gate.md — KIF-29 lexicon, minimum-viable-finding, silo-cost table, KIF-60 evidential-weight classification
-- artifacts/external-search/ — evidence files: Hensel v1.2.0 deposit audit, corpus + arXiv sweeps, prior adjudication memory
+This specific version:
 
-## Next
+> Quni-Gudzinas, Rowan Brad. *Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic* (version 1.0.1). QNFO Research Archive, 2026. Zenodo. **https://doi.org/10.5281/zenodo.22114495**
 
-Phase 2 literature → Phase 4 implementation (H-PPN execution, seeded trials) → Phase 5 publication (COMPUTATIONAL-VERIFICATION-1; full source deposit).
+## Abstract
+
+Exact computation on the rationals today inhabits a single completion. This paper develops the multi-place realization that joins the real and the p-adic: a finite-adele encoding of rationals with a proved injectivity window, and the adelic product formula as a machine-checkable invariant of multi-place exact arithmetic. All claims are computationally verified.
+
+## Contents (flat deposit layout)
+
+- post-positional-numeracy.md / .html / .pdf — the paper
+- references.bib — bibliography (rendered by citeproc at build time)
+- citation-audit.md — 27-entry citation audit (0 orphans)
+- PROJECT-PLAN.md — charter, locked core claim, hypothesis cards
+- docs_deep-research.md — due-diligence report; docs_universal-ignorance-audit.md — the 15-question audit; docs_literature.md — literature notes
+- artifacts_consilience-gate.md — cross-domain lexicon and silo-cost table; artifacts_bayesian-evidential-weight.md — KIF-60 classification
+- corpus-sweep-2026-08-26.json, arxiv-sweeps-2026-08-26.json, adjudication-memory-2026-08-26.json — due-diligence evidence
+- hensel-audit-z20756222.json / hensel-audit-paper.md / hensel-audit-source.py — Hensel framework deposit audit
+- p2-literature-sweep.json / p2-literature-sweep.py — literature sweep evidence
+- p5-create-deposit.py, p5-deposit-create.json, p5-deposit-reserve-doi.json, p5-run.log — publication evidence
+- verify_ppn.py, ppn-verification-results.json, run-verification.log — the verification suite and its output
+- check_rendering.py, render-pdf.cjs — the rendering-gate and PDF-build scripts
+- LICENSE — CC BY 4.0 legal code
+
+## Reproducibility
+
+Run `python verify_ppn.py` (Python 3.8+, standard library only, seed 20260826, runtime under one minute). All 20 checks pass; every number in the paper's verification table is reproduced. The paper builds with `pandoc post-positional-numeracy.md --citeproc --bibliography=references.bib --mathjax --standalone -o post-positional-numeracy.html`.

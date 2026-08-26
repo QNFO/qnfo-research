@@ -1,0 +1,53 @@
+{
+ "v100_records": {
+  "status": 200,
+  "state": "done",
+  "doi": "10.5281/zenodo.22114389",
+  "nfiles": 30,
+  "files": [
+   "README.md",
+   "post-positional-numeracy.html",
+   "LICENSE",
+   "adjudication-memory-2026-08-26.json",
+   "corpus-sweep-2026-08-26.json",
+   "ppn-verification-results.json",
+   "check_rendering.py",
+   "artifacts_bayesian-evidential-weight.md",
+   "docs_universal-ignorance-audit.md",
+   "hensel-audit-paper.md",
+   "p5-deposit-create.json",
+   "post-positional-numeracy.pdf",
+   "p2-literature-sweep.json",
+   "p2-literature-sweep.py",
+   "docs_literature.md",
+   "arxiv-sweeps-2026-08-26.json",
+   "run-verification.log",
+   "citation-audit.md",
+   "PROJECT-PLAN.md",
+   "references.bib",
+   "p5-create-deposit.py",
+   "post-positional-numeracy.md",
+   "docs_deep-research.md",
+   "artifacts_consilience-gate.md",
+   "hensel-audit-z20756222.json",
+   "hensel-audit-source.py",
+   "p5-deposit-reserve-doi.json",
+   "p5-run.log",
+   "verify_ppn.py",
+   "render-pdf.cjs"
+  ]
+ },
+ "v100_datacite": {
+  "status": 200,
+  "state": "findable"
+ },
+ "newversion": {
+  "status": 201,
+  "draft_id": 22114495,
+  "draft_doi": null
+ },
+ "reserve": {
+  "status": 201,
+  "doi": "10.5281/zenodo.22114495"
+ }
+}

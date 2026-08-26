@@ -1,0 +1,10 @@
+{
+ "record": 22114495,
+ "state": "done",
+ "version": "1.0.1",
+ "nfiles": 42,
+ "all_pass": false,
+ "failures": [
+  "DATACITE-FINDABLE"
+ ]
+}

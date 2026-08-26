@@ -1,0 +1,118 @@
+{
+ "status": 201,
+ "body": {
+  "created": "2026-08-26T15:29:56.952227+00:00",
+  "modified": "2026-08-26T15:29:57.353639+00:00",
+  "id": 22114389,
+  "conceptrecid": "22114388",
+  "doi": "10.5281/zenodo.22114389",
+  "doi_url": "https://doi.org/10.5281/zenodo.22114389",
+  "metadata": {
+   "title": "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic",
+   "doi": "10.5281/zenodo.22114389",
+   "publication_date": "2026-08-26",
+   "description": "Exact computation on the rationals today inhabits a single completion. Digital arithmetic runs in the real numbers and accepts rounding; exact alternatives run in a single p-adic completion through Hensel codes and reconstruct through the Chinese remainder theorem with Farey bounds. This paper develops the multi-place realization that joins the two. A rational number is encoded by its residues at finitely many chosen primes together with a two-sided Archimedean window; the encoding is injective whenever 2 B^2 &lt; M, where M is the product of the chosen prime powers. The adelic product formula - the identity that ties the places of the rationals together - becomes a machine-checkable invariant of the arithmetic: every correct encode-compute-decode round-trip of operands whose numerator and denominator factor over the chosen primes satisfies it exactly, and any violation localizes the failing place. All claims are computationally verified: golden values, exhaustive injectivity on small moduli, 100000 seeded trials on a window of modulus M = 810000, 80000 componentwise arithmetic checks, and a reconstruction algorithm validated against exhaustive enumeration. A dependency-free reference implementation and a reproducibility statement accompany the paper.",
+   "access_right": "open",
+   "creators": [
+    {
+     "name": "Quni-Gudzinas, Rowan Brad",
+     "affiliation": "QNFO"
+    }
+   ],
+   "keywords": [
+    "finite adeles",
+    "Hensel codes",
+    "product formula",
+    "exact rational arithmetic",
+    "Ostrowski's theorem",
+    "rational reconstruction",
+    "non-Archimedean",
+    "numeration"
+   ],
+   "related_identifiers": [
+    {
+     "identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/post-positional-numeracy",
+     "relation": "isSupplementTo",
+     "scheme": "url"
+    },
+    {
+     "identifier": "10.5281/zenodo.20756222",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.21148596",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.1016/j.jsc.2025.102481",
+     "relation": "cites",
+     "scheme": "doi"
+    }
+   ],
+   "version": "1.0.0",
+   "resource_type": {
+    "title": "Preprint",
+    "type": "publication",
+    "subtype": "preprint"
+   },
+   "license": {
+    "id": "cc-by-4.0"
+   },
+   "relations": {
+    "version": [
+     {
+      "index": 0,
+      "is_last": false,
+      "parent": {
+       "pid_type": "recid",
+       "pid_value": "22114388"
+      }
+     }
+    ]
+   }
+  },
+  "title": "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic",
+  "links": {
+   "self": "https://zenodo.org/api/records/22114389/draft",
+   "self_html": "https://zenodo.org/uploads/22114389",
+   "preview_html": "https://zenodo.org/records/22114389?preview=1",
+   "doi": "https://doi.org/10.5281/zenodo.22114389",
+   "self_doi": "https://doi.org/10.5281/zenodo.22114389",
+   "reserve_doi": "https://zenodo.org/api/records/22114389/draft/pids/doi",
+   "self_iiif_manifest": "https://zenodo.org/api/iiif/draft:22114389/manifest",
+   "self_iiif_sequence": "https://zenodo.org/api/iiif/draft:22114389/sequence/default",
+   "files": "https://zenodo.org/api/records/22114389/draft/files",
+   "media_files": "https://zenodo.org/api/records/22114389/draft/media-files",
+   "archive": "https://zenodo.org/api/records/22114389/draft/files-archive",
+   "archive_media": "https://zenodo.org/api/records/22114389/draft/media-files-archive",
+   "versions": "https://zenodo.org/api/records/22114389/versions",
+   "record": "https://zenodo.org/api/records/22114389",
+   "record_html": "https://zenodo.org/records/22114389",
+   "publish": "https://zenodo.org/api/records/22114389/draft/actions/publish",
+   "review": "https://zenodo.org/api/records/22114389/draft/review",
+   "access_links": "https://zenodo.org/api/records/22114389/access/links",
+   "access_grants": "https://zenodo.org/api/records/22114389/access/grants",
+   "access_users": "https://zenodo.org/api/records/22114389/access/users",
+   "access_request": "https://zenodo.org/api/records/22114389/access/request",
+   "access": "https://zenodo.org/api/records/22114389/access",
+   "communities": "https://zenodo.org/api/records/22114389/communities",
+   "communities-suggestions": "https://zenodo.org/api/records/22114389/communities-suggestions",
+   "quota_increase": "https://zenodo.org/api/records/22114389/quota-increase",
+   "requests": "https://zenodo.org/api/records/22114389/requests"
+  },
+  "updated": "2026-08-26T15:29:57.353639+00:00",
+  "recid": "22114389",
+  "revision": 7,
+  "files": [],
+  "owners": [
+   {
+    "id": "1328013"
+   }
+  ],
+  "status": "draft",
+  "state": "unsubmitted",
+  "submitted": false
+ }
+}
