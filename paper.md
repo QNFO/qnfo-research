@@ -7,8 +7,6 @@ doi: ""
 status: "draft-v0.4"
 ---
 
-# Error Correction Is a Landauer Machine: The Thermodynamic Floor of Quantum Error-Correction Overhead
-
 ## Abstract
 
 Quantum error correction is priced almost exclusively in combinatorial currency: rate, distance, threshold. The physical bill — the energy paid for performing the correction itself — goes unpriced by the field's headline metrics. This paper prices it. Every cycle of active (measurement-based) error correction is an erasure engine: syndrome extraction, majority voting, and ancilla re-initialization each destroy the redundancy they read, and Landauer's principle charges at least kT·ln2 per bit erased. The consequence is a limit that is thermodynamic rather than combinatorial: correction overhead does not converge to zero as codes improve; it converges to a positive floor, whose height per logical qubit per round is (n−k)/k · kT·ln2 for an [[n,k]] code. The floor's scaling law is computed and verified across code families — linear in n for repetition codes, quadratic in distance for surface codes, and constant for constant-rate families. The same analysis transfers to classical storage, where a two-level nested (tree-structured) code is compared against flat Hamming codes of equal rate on a clustered NAND-like error channel: hierarchical decoding reduces per-round erasure count by a factor of 1.6 to 3, while the naive construction pays a residual-error penalty — an honest partial result that reframes, rather than proves, the structural-protection hypothesis. Finally, biological systems that run robust quantum processes with no correction scaffold (photosynthetic energy transfer; radical-pair magnetoreception) show that the floor is an architecture choice — structure prepays in capital energy what correction pays in operating erasures — and autonomous/dissipative correction is identified as the boundary of the claim.
@@ -143,9 +141,9 @@ All numbers in §3 and §7 are computed by scripts in `artifacts/verification/` 
 [13] M. A. Nielsen, I. L. Chuang, Quantum Computation and Quantum Information, 10th ann. ed., ch. 10 (2010).
 [14] P. Panteleev, G. Kalachev, "Asymptotically good quantum and locally testable classical LDPC codes," STOC 2022.
 [15] C. Gidney, M. Ekerå, "How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits," Quantum 5, 433 (2021).
-[16] R. B. Quni-Gudzinas, "The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions," QNFO.JPC.002 (2026).
+[16] R. B. Quni-Gudzinas, "The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions for Honest Computational Benchmarking," QNFO.JPC.002 (2026).
 [17] R. B. Quni-Gudzinas, "Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation," 10.5281/zenodo.17955898 (2025).
-[18] R. B. Quni-Gudzinas, "Thermodynamic and Quantum Constraints on Scalable Quantum Computing," 10.5281/zenodo.17937531 (2025).
+[18] R. B. Quni-Gudzinas, "Thermodynamic and Quantum Constraints on Scalable Quantum Computing: A Consilience of Modeling, Experiment, and Theory," 10.5281/zenodo.17937531 (2025).
 [19] R. B. Quni-Gudzinas, "Autonomous Dissipative Quantum Processing," QNFO (2025).
 [20] R. B. Quni-Gudzinas, "Thermodynamics of Structural Persistence (Topological Memory)," QNFO (2025).
 [21] R. B. Quni-Gudzinas, "Resonant Kerr-Cancellation Dynamics in Dissipative Bosonic Stabilization," QNFO (2025).
@@ -154,6 +152,6 @@ All numbers in §3 and §7 are computed by scripts in `artifacts/verification/` 
 [24] R. B. Quni-Gudzinas, "Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces," 10.5281/zenodo.21964674 (2026).
 [25] R. B. Quni-Gudzinas, "Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology," QNFO (2025).
 [26] R. B. Quni-Gudzinas, "The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing," QNFO (2025).
-[27] R. B. Quni-Gudzinas, "JPCUB Competitive Landscape v2.0," QNFO (2026).
-[28] R. B. Quni-Gudzinas, "The Qudit Advantage: System-Level Joules-per-Solution Comparison," QNFO (2026).
+[27] R. B. Quni-Gudzinas, "JPCUB Competitive Landscape v2.0: System-Level Joules-per-Solution Estimates for 17 Quantum Computing Platforms from Published Specifications," QNFO (2026).
+[28] R. B. Quni-Gudzinas, "The Qudit Advantage: System-Level Joules-per-Solution Comparison of a Qudit Architecture Against 17 Conventional Qubit Quantum Computing Platforms," QNFO (2026).
 [29] R. B. Quni-Gudzinas, "The Universal Ignorance Audit," 10.5281/zenodo.21901984 (2026) — method used in the planning phase of this work.
