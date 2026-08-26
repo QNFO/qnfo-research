@@ -51,3 +51,7 @@ Abbondati–Guerrini–Lebreton, "Simultaneous rational number codes" (JSC 132:1
 - Hensel 1908 book details.
 - Ten-Fingered Trap / Explicit Frame Pattern Language (no DOIs — cite via R2 archive key / note).
 - Krishnamurthy 1983 IEEE pages; Miola 1982 pages; Kornerup–Gregory 1983 volume/pages.
+- Hensel lineage head 10.5281/zenodo.21208336 (concept 20756221) added to citations (reviewer SOFT-1).
+- Re-fetch the deposited paper.md (30,539 B, md5 9ab8b665, MIT) before the P5 coverage-drift audit — the saved audit copy is a pre-deposit working copy (reviewer SOFT-2; audit conclusions preserved via the md5-identical head).
+- Boyd 15793655 title fidelity if re-cited: record title is "HENSEL CPU (ヘンゼル): A 2-Adic Computing Architecture for Exact Arithmetic" (SciSci Inventions; restricted access) (reviewer SOFT-3).
+- Pre-existing D1 hygiene (not this package): Embodied Math identifier off-by-one (21440893 vs 21440894); silent-radix zenodo_doi = concept DOI (reviewer SOFT-4).

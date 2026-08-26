@@ -32,7 +32,9 @@ Formulations used (>=3 per DUE-DILIGENCE-DEPTH-1):
 | Multi-axis numeral evaluation | NUMERATA | 10.5281/zenodo.21441847 | published |
 | Cognitive grounding (Lakoff & Núñez) | Embodied Mathematics After Lakoff & Núñez | 10.5281/zenodo.21440894 | published |
 | Radix-tag discipline | EXPLICIT FRAME PATTERN LANGUAGE v1.0 | (no DOI) | published |
-| **Single-place exact arithmetic (constructive)** | **Exact Rational Arithmetic via p-adic Hensel Codes** (v1.0 / v1.0.1 / v1.2.0) | 10.5281/zenodo.20754449 / 20756305 / 20756222 | published |
+| **Single-place exact arithmetic (constructive)** | **Exact Rational Arithmetic via p-adic Hensel Codes** (v1.0 / v1.0.1 / v1.2.0 / head 21208336) | 10.5281/zenodo.20754449 / 20756305 / 20756222 / 21208336 (concept 20756221) | published |
+
+Reviewer note (2026-08-26, dependency audit): the Hensel concept carries a fourth canonical head 10.5281/zenodo.21208336 (2026-07-05, record-straightening cycle); its files are md5-identical to v1.2.0, so the single-place audit conclusion is unchanged — citations updated to include the head.
 
 ## 3. Hensel v1.2.0 deposit audit (evidence: artifacts/external-search/hensel-v120-audit/)
 
