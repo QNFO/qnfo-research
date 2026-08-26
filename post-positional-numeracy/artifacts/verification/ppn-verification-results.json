@@ -1,0 +1,121 @@
+{
+ "date": "2026-08-26",
+ "project": "QNFO.RES.024 post-positional-numeracy",
+ "seed": 20260826,
+ "python": "3.12.10",
+ "hypothesis_cards": [
+  "H-PPN-1 (truncated product formula + general identity)",
+  "H-PPN-2 (Ostrowski instance checks)",
+  "H-PPN-3 (two-sided Farey window injectivity)"
+ ],
+ "windows": {
+  "M216": {
+   "S": [
+    2,
+    3
+   ],
+   "k": 3,
+   "B": 10
+  },
+  "M36": {
+   "S": [
+    2,
+    3
+   ],
+   "k": 2,
+   "B": 4
+  },
+  "M30": {
+   "S": [
+    2,
+    3,
+    5
+   ],
+   "k": 1,
+   "B": 3
+  }
+ },
+ "all_pass": true,
+ "results": {
+  "HPPN1-golden-6": {
+   "pass": true,
+   "detail": "prod_S=1.0 expect=1.0"
+  },
+  "HPPN1-golden-2over3": {
+   "pass": true,
+   "detail": "prod_S=1.0 expect=1.0"
+  },
+  "HPPN1-golden-12": {
+   "pass": true,
+   "detail": "prod_S=1.0 expect=1.0"
+  },
+  "HPPN1-boundary-5over2": {
+   "pass": true,
+   "detail": "prod_S=5.000000000000 general_identity=5.000000000000"
+  },
+  "HPPN1-smooth-10k": {
+   "pass": true,
+   "detail": "10000/10000 max_err=4.441e-16"
+  },
+  "HPPN1-general-identity-10k": {
+   "pass": true,
+   "detail": "10000/10000"
+  },
+  "HPPN2-strong-triangle-20k": {
+   "pass": true,
+   "detail": "20000/20000 non-Archimedean"
+  },
+  "HPPN2-integer-bound": {
+   "pass": true,
+   "detail": "|n|_2 <= 1 for n=1..199"
+  },
+  "HPPN2-full-product-6": {
+   "pass": true,
+   "detail": "prod over all places = 1.000000000000"
+  },
+  "HPPN2-full-product-12": {
+   "pass": true,
+   "detail": "prod over all places = 1.000000000000"
+  },
+  "HPPN2-full-product-2over3": {
+   "pass": true,
+   "detail": "prod over all places = 1.000000000000"
+  },
+  "HPPN2-full-product-9over4": {
+   "pass": true,
+   "detail": "prod over all places = 1.000000000000"
+  },
+  "HPPN3-bruteforce-S23-k2": {
+   "pass": true,
+   "detail": "M=36 B=4 pairs=9 distinct_rationals=9 distinct_images=9 colliding=0"
+  },
+  "HPPN3-bruteforce-S23-k3": {
+   "pass": true,
+   "detail": "M=216 B=10 pairs=63 distinct_rationals=55 distinct_images=55 colliding=0"
+  },
+  "HPPN3-bruteforce-S235-k1": {
+   "pass": true,
+   "detail": "M=30 B=3 pairs=7 distinct_rationals=7 distinct_images=7 colliding=0"
+  },
+  "AMENDMENT-counterexample": {
+   "pass": true,
+   "detail": "1/7 and 13 share image (1, 1, 3) mod 30; both |x|<=15 -> one-sided window non-injective (amended)"
+  },
+  "HPPN3-random-100k": {
+   "pass": true,
+   "detail": "M=810000 B=636 accepted=94998 collisions=0 recon_failures=0"
+  },
+  "RECON-validate-small": {
+   "pass": true,
+   "detail": "euclid reconstruction vs brute force 63/63"
+  },
+  "RT-componentwise-80k": {
+   "pass": true,
+   "detail": "80000/80000 op-exactness"
+  },
+  "RT-reconstruct-roundtrips": {
+   "pass": true,
+   "detail": "338 full round-trips exact"
+  }
+ }
+}

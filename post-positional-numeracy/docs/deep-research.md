@@ -25,30 +25,30 @@ Formulations used (>=3 per DUE-DILIGENCE-DEPTH-1):
 
 | Leg of the thesis | Published record | DOI | Status |
 |---|---|---|---|
-| Decimal = anthropocentric convention | Ten-Fingered Trap | (no DOI, r2 qnfo/releases/2025/00/) | published/draft |
+| Decimal = anthropocentric convention | Ten-Fingered Trap | (no DOI; D1 slug ten-fingered-trap; R2 prefix qnfo/releases/2025/00/ has 0 objects — cite by title+slug, path unverified) | published/draft |
 | Decimal → adelic diagnosis + roadmap + Ostrowski §3.1 + product formula §3.2 | From Decimal Fingers to Adelic Freedom | 10.5281/zenodo.21428829 | published 2026-07-18 |
-| Positional notation = ultrametric tree + Calculus of Indications remedy | THE SILENT RADIX (+ formal appendix) | 10.5281/zenodo.21148596 (concept 21067593) | published |
+| Positional notation = ultrametric tree + Calculus of Indications remedy | THE SILENT RADIX (+ formal appendix) | 10.5281/zenodo.21148596 (version record; concept 21148595; corpus-canonical sibling v1.1.0 21067593) | published |
 | Nonlinear/tree-based numeration synthesis | Nonlinear Tree-Based Numeration Systems | 10.5281/zenodo.21046213 | published |
 | Multi-axis numeral evaluation | NUMERATA | 10.5281/zenodo.21441847 | published |
 | Cognitive grounding (Lakoff & Núñez) | Embodied Mathematics After Lakoff & Núñez | 10.5281/zenodo.21440894 | published |
 | Radix-tag discipline | EXPLICIT FRAME PATTERN LANGUAGE v1.0 | (no DOI) | published |
-| **Single-place exact arithmetic (constructive)** | **Exact Rational Arithmetic via p-adic Hensel Codes** (v1.0 / v1.0.1 / v1.2.0 / head 21208336) | 10.5281/zenodo.20754449 / 20756305 / 20756222 / 21208336 (concept 20756221) | published |
+| **Single-place exact arithmetic (constructive)** | **Exact Rational Arithmetic via p-adic Hensel Codes** (v1.0.0 20754388 / v1.0.1 20756305 / v1.1.0 20754449 / v1.2.0 20756222 / head 21208336) | 10.5281/zenodo.20754388 / 20756305 / 20754449 / 20756222 / 21208336 (concept 20756221) | published |
 
 Reviewer note (2026-08-26, dependency audit): the Hensel concept carries a fourth canonical head 10.5281/zenodo.21208336 (2026-07-05, record-straightening cycle); its files are md5-identical to v1.2.0, so the single-place audit conclusion is unchanged — citations updated to include the head.
 
 ## 3. Hensel v1.2.0 deposit audit (evidence: artifacts/external-search/hensel-v120-audit/)
 
 - Files: src\hensel_system.py (37,307 B), tests\test_hensel.py (29,148 B), benchmarks\benchmark.py + BENCHMARK_REPORT.md, demo\demo.js (13,360 B), paper.md (30,539 B), PDFs, README, LICENSE, ARTIFACT-MANIFEST.json.
-- paper.md grep: "product formula" 0 · "adele"/"adelic" 0 · "Ostrowski" 12 (grounding + "Ostrowski gap" framing: computation inhabits only the real completion) · reconstruction: Wang–Guy–Davenport (the Hensel paper cites 1981, SIGSAM 15(4), 7–10; canonical record = SIGSAM Bull. 16(2), 2–3, 1982 — the ancestor's year/volume citation is imprecise) · benchmarks: p=7, k=30 single prime · test suite: 36–37 tests incl. roundtrip encode→arithmetic→decode.
+- paper.md grep: "product formula" 0 · "adele"/"adelic" 0 · "Ostrowski" 13 (12 excluding the frontmatter title; grounding + "Ostrowski gap" framing: computation inhabits only the real completion) · reconstruction: Wang–Guy–Davenport (the Hensel paper cites 1981, SIGSAM 15(4), 7–10; canonical record = SIGSAM Bull. 16(2), 2–3, 1982 — the ancestor's year/volume citation is imprecise) · benchmarks: p=7, k=30 single prime · test suite: 36–37 tests incl. roundtrip encode→arithmetic→decode.
 - Source: small_primes = [2,3,5,7,11,13,17] scaffolding exists; arithmetic is mod p^k (single-place); no CRT-based multi-place reconstruction; no product-formula check.
-- **Conclusion:** the Hensel framework implements and tests single-place exact arithmetic with a demo. The multi-place (finite-adele) encoding, injectivity window, and product-formula invariant are absent. C1′ scopes to exactly that.
+- **Conclusion:** the Hensel framework implements and tests single-place exact arithmetic with a demo. The multi-place (finite-adele) encoding, injectivity window, and product-formula invariant are absent. C1′ scopes to exactly that. (Evidence note: the saved audit copy of paper.md (29,945 B) is the v1.0.1-era file; every substantive grep was re-verified against the live v1.2.0 deposit content by the accuracy reviewer — re-fetch for byte-exact evidence at P5, flagged in docs/literature.md §6.)
 
 ## 4. External literature (arXiv sweeps, evidence in artifacts/external-search/)
 
 - **"Ostrowski numeration systems" = established terminology with a DIFFERENT sense** (continued-fraction/β-expansion numeration): Hieronymi & Terry (arXiv:1407.7000, math.LO); Cabanillas (1904.01874); Mittal & Sharma (2409.06232); Aval & Labbé (2511.11290); Bourla (1511.02179). Name-collision risk for our title — the paper's crosswalk must disambiguate ("Ostrowski's theorem" vs "Ostrowski numeration systems").
 - **"p-adic" AND "exact rational arithmetic": 0 arXiv hits** (the classical work is journal literature: Krishnamurthy–Gregory error-free computation; Wang–Guy–Davenport 1982; Dixon 1982).
 - **"Hensel code" AND (arithmetic | exact computation): 0 arXiv hits.**
-- **Modular rational reconstruction is classical:** Boehm–Decker–Fieker–Pfister et al. (arXiv:1207.1651, 1702.06920, 2401.11606) — CRT + Farey-bound reconstruction, "bad primes" handling. **No surveyed record uses the adelic product formula as a reconstruction invariant or verification checksum.** This is the novel conjunction H-PPN-4 scopes. Evidence file: artifacts/external-search/arxiv-sweeps-2026-08-26.json.
+- **Modular rational reconstruction is classical:** Boehm–Decker–Fieker–Pfister (arXiv:1207.1651, Math. Comp. 2015); Boehm–Decker–Fieker–Laplagne–Pfister (arXiv:1702.06920); Basson–Boehm–Marais–Rahn–Rakotoarisoa (arXiv:2401.11606) — CRT + Farey-bound reconstruction, "bad primes" handling. **No surveyed record uses the adelic product formula as a reconstruction invariant or verification checksum.** This is the novel conjunction H-PPN-4 scopes. Evidence file: artifacts/external-search/arxiv-sweeps-2026-08-26.json.
 - **P2 sweep additions (2026-08-26, evidence: artifacts/external-search/p2-literature/p2-literature-sweep.json):** closest external work = Abbondati–Guerrini–Lebreton, "Simultaneous rational number codes" (J. Symb. Comput. 132:102481, 2026) — multi-prime simultaneous decoding with multiplicity codes and bad primes, no product-formula invariant; Doris 2021 (Magma exact p-adics, JSC 104:476–493); Gregory 1978 (BIT 18:282–300); Kornerup–Gregory 1983 (Hensel codes ↔ Farey fractions, BIT — the two-sided-window ancestor); Krishnamurthy–Rao–Subramanian 1975 (Proc. Indian Acad. Sci. A 81:58–79 — the Hensel-code origin). Citation corrections applied: Wang–Guy–Davenport year 1981→1982 (canonical SIGSAM 16(2)); Ostrowski DOI 10.1007/BF02422947.
 
 ## 5. Gap analysis
