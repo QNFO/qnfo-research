@@ -24,4 +24,4 @@ Python 3, standard library only, deterministic, seed-free. Expected output: all 
 
 ## Provenance
 
-Source of record: https://github.com/QNFO/qnfo-research/tree/res/paper/post-positional-numeracy
+Source of record: https://github.com/QNFO/qnfo-research/tree/res/paper/completeness-senses-levi-civita
