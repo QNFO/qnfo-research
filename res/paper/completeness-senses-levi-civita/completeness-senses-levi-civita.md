@@ -3,7 +3,7 @@ title: "Completeness Senses and the Levi-Civita Field: Ordered Non-Archimedean N
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-26"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.22109087"
+doi: "10.5281/zenodo.22109361"
 status: "published"
 bibliography: references.bib
 abstract: |

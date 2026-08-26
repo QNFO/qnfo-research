@@ -18,9 +18,9 @@ Cite all versions via the concept DOI (always resolves to the latest version):
 
 ## Files in this deposit
 
-- post-positional-numeracy.md (this document)
-- post-positional-numeracy.html
-- post-positional-numeracy.pdf
+- completeness-senses-levi-civita.md (this document)
+- completeness-senses-levi-civita.html
+- completeness-senses-levi-civita.pdf
 - references.bib
 - citation-audit.md
 - PROJECT-PLAN.md

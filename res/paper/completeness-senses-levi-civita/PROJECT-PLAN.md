@@ -1,7 +1,7 @@
 # PROJECT-PLAN.md — Completeness Senses and the Levi-Civita Field
 
 **WBS:** QNFO.RES.024 (Post-Positional Numeracy)
-**Slug:** post-positional-numeracy
+**Slug:** completeness-senses-levi-civita
 **Status:** Phase 8 (published) — this plan covers the P5→P8 publication cycle
 **Date:** 2026-08-26
 
