@@ -17,7 +17,7 @@ The QNFO corpus already publishes the conceptual line behind "post-positional nu
 
 ## 1.3 Premise-Depth Disclosure
 
-- **L0 — named imported inputs:** Ostrowski's theorem (1916); the Hensel-code construction (Krishnamurthy/Gregory, error-free computation literature); the Chinese remainder theorem; the rational-reconstruction bound (Wang–Guy–Davenport, 1981); the definition of the finite adeles as the truncation frame. These are imported, not re-derived.
+- **L0 — named imported inputs:** Ostrowski's theorem (1916, Acta Math. 41:271–284, DOI 10.1007/BF02422947); the Hensel-code construction (Krishnamurthy–Rao–Subramanian 1975; Gregory–Krishnamurthy 1984); the Chinese remainder theorem; the rational-reconstruction bound (Wang–Guy–Davenport 1982, SIGSAM Bull. 16(2):2–3; Dixon 1982); the definition of the finite adeles as the truncation frame. These are imported, not re-derived.
 - **L1 — derived in the paper:** the product formula ∏_v |x|_v = 1 for x ∈ Q^× (proved in an appendix from the unique factorization of x, and verified numerically); the injectivity window lemma (derived from CRT + the reconstruction bound); the product-formula check as a failure-localization invariant (an argument over the derived formula); the reference implementation and demo (constructions).
 - **Where the premises END:** at the five L0 imports. Everything beyond them is derived, constructed, or computationally demonstrated. The paper does not claim the full adele ring is computable — it works with finite truncations, and says so.
 
@@ -38,7 +38,7 @@ A practitioner can, from this paper's reference algorithm and deposited source: 
 |---|---|
 | P0 Init | Branch + scaffold + PROJECT-PLAN + core claim locked; commit/tag/push verified (DONE, tag v0.1-phase0-res024) |
 | P1 Due Diligence | Full-corpus sweep; adjudication: thesis published, delta = multi-place/product-formula leg; Hensel deposit audit; external sweeps; gap analysis; consilience gate; UIA + addendum (DONE this cycle) |
-| P2 Literature | Ancestor line + Hensel-code literature (Krishnamurthy; Wang et al.; modular-methods line) + Ostrowski numeration disambiguation |
+| P2 Literature | Ancestor line + Hensel-code literature (Krishnamurthy; Wang et al.; modular-methods line) + Ostrowski numeration disambiguation (DONE 2026-08-26: references.bib seed + docs/literature.md) |
 | P3 Citations | BibTeX verified (P3.AUTHOR-GATE-EVERY-ENTRY-1); every ancestor DOI live-verified |
 | P4 Research | Injectivity lemma proof; product-formula derivation; implementation; H-PPN execution; map-territory check |
 | P5 Publication | .md/.html/.pdf (CDP pipeline), COMPUTATIONAL-VERIFICATION-1, rendering gates, Zenodo deposit (full source set incl. verification artifacts) |
@@ -51,7 +51,7 @@ A practitioner can, from this paper's reference algorithm and deposited source: 
 - **H-PPN-1 (computable):** for every nonzero rational x whose numerator and denominator are S-smooth (all prime factors in S), the truncated product formula ∏_{v∈S∪{∞}} |x|_v = 1 holds to floating precision; for general x the identity ∏_{v∈S∪{∞}} |x|_v = 1/∏_{p∉S} |x|_p holds (both derived from unique factorization; verified numerically). Golden values (S = {2,3}): x = 6, 2/3, 12 → 1; boundary case x = 5/2 → 5 = 1/|5/2|_5; then 10^4 seeded random S-smooth trials over S = {2,3,5,7}.
 - **H-PPN-2 (imported, instance-checked):** Ostrowski's theorem instance checks in code (2-adic and real absolute values behave as the classification requires on test values).
 - **H-PPN-3 (falsifiable):** the finite-adele encoding x ↦ (x mod p^k)_{p∈S} is injective on the two-sided window W = {x = a/b : gcd(b, M) = 1, |a| ≤ B, |b| ≤ B}, with M = ∏_{p∈S} p^k and B = ⌊√(M/2)⌋ (so 2B² < M). Prediction: zero collisions over 10^5 seeded trials. **Disconfirmation criterion:** one verified collision of two distinct rationals in W.
-- **H-PPN-4 (novelty, adjudicated):** no published record — internal or external — states AND computationally verifies the product-formula-constrained multi-place reconstruction. Evidence gathered 2026-08-26: Hensel framework v1.2.0 deposit audited (paper.md: zero occurrences of "product formula"/"adele"/"adelic"; benchmarks single-prime p=7, k=30; reconstruction cites Wang–Guy–Davenport); external modular-methods line (Boehm–Decker–Fieker–Pfister et al.) uses CRT + Farey bounds, not the product formula as invariant. Claim scope = that conjunction.
+- **H-PPN-4 (novelty, adjudicated):** no published record — internal or external — states AND computationally verifies the product-formula-constrained multi-place reconstruction. Evidence gathered 2026-08-26: Hensel framework v1.2.0 deposit audited (paper.md: zero occurrences of "product formula"/"adele"/"adelic"; benchmarks single-prime p=7, k=30; reconstruction cites Wang–Guy–Davenport); external modular-methods line (Boehm–Decker–Fieker–Pfister et al.) uses CRT + Farey bounds, not the product formula as invariant. Closest external work adjudicated: Abbondati–Guerrini–Lebreton (J. Symb. Comput. 132:102481, 2026, "Simultaneous rational number codes") — multi-prime decoding with multiplicity codes and bad primes, no product-formula invariant. Claim scope = that conjunction.
 - **H-PPN-5 (lineage integrity):** the paper cites every ancestor with a live-verified DOI and states plainly which leg each ancestor covers.
 
 ## 4. Risk Register

@@ -37,16 +37,17 @@ Formulations used (>=3 per DUE-DILIGENCE-DEPTH-1):
 ## 3. Hensel v1.2.0 deposit audit (evidence: artifacts/external-search/hensel-v120-audit/)
 
 - Files: src\hensel_system.py (37,307 B), tests\test_hensel.py (29,148 B), benchmarks\benchmark.py + BENCHMARK_REPORT.md, demo\demo.js (13,360 B), paper.md (30,539 B), PDFs, README, LICENSE, ARTIFACT-MANIFEST.json.
-- paper.md grep: "product formula" 0 · "adele"/"adelic" 0 · "Ostrowski" 12 (grounding + "Ostrowski gap" framing: computation inhabits only the real completion) · reconstruction: Wang–Guy–Davenport (1981) · benchmarks: p=7, k=30 single prime · test suite: 36–37 tests incl. roundtrip encode→arithmetic→decode.
+- paper.md grep: "product formula" 0 · "adele"/"adelic" 0 · "Ostrowski" 12 (grounding + "Ostrowski gap" framing: computation inhabits only the real completion) · reconstruction: Wang–Guy–Davenport (the Hensel paper cites 1981, SIGSAM 15(4), 7–10; canonical record = SIGSAM Bull. 16(2), 2–3, 1982 — the ancestor's year/volume citation is imprecise) · benchmarks: p=7, k=30 single prime · test suite: 36–37 tests incl. roundtrip encode→arithmetic→decode.
 - Source: small_primes = [2,3,5,7,11,13,17] scaffolding exists; arithmetic is mod p^k (single-place); no CRT-based multi-place reconstruction; no product-formula check.
 - **Conclusion:** the Hensel framework implements and tests single-place exact arithmetic with a demo. The multi-place (finite-adele) encoding, injectivity window, and product-formula invariant are absent. C1′ scopes to exactly that.
 
 ## 4. External literature (arXiv sweeps, evidence in artifacts/external-search/)
 
 - **"Ostrowski numeration systems" = established terminology with a DIFFERENT sense** (continued-fraction/β-expansion numeration): Hieronymi & Terry (arXiv:1407.7000, math.LO); Cabanillas (1904.01874); Mittal & Sharma (2409.06232); Aval & Labbé (2511.11290); Bourla (1511.02179). Name-collision risk for our title — the paper's crosswalk must disambiguate ("Ostrowski's theorem" vs "Ostrowski numeration systems").
-- **"p-adic" AND "exact rational arithmetic": 0 arXiv hits** (the classical work is journal literature: Krishnamurthy–Gregory error-free computation; Wang–Guy–Davenport 1981; Dixon 1982).
+- **"p-adic" AND "exact rational arithmetic": 0 arXiv hits** (the classical work is journal literature: Krishnamurthy–Gregory error-free computation; Wang–Guy–Davenport 1982; Dixon 1982).
 - **"Hensel code" AND (arithmetic | exact computation): 0 arXiv hits.**
 - **Modular rational reconstruction is classical:** Boehm–Decker–Fieker–Pfister et al. (arXiv:1207.1651, 1702.06920, 2401.11606) — CRT + Farey-bound reconstruction, "bad primes" handling. **No surveyed record uses the adelic product formula as a reconstruction invariant or verification checksum.** This is the novel conjunction H-PPN-4 scopes. Evidence file: artifacts/external-search/arxiv-sweeps-2026-08-26.json.
+- **P2 sweep additions (2026-08-26, evidence: artifacts/external-search/p2-literature/p2-literature-sweep.json):** closest external work = Abbondati–Guerrini–Lebreton, "Simultaneous rational number codes" (J. Symb. Comput. 132:102481, 2026) — multi-prime simultaneous decoding with multiplicity codes and bad primes, no product-formula invariant; Doris 2021 (Magma exact p-adics, JSC 104:476–493); Gregory 1978 (BIT 18:282–300); Kornerup–Gregory 1983 (Hensel codes ↔ Farey fractions, BIT — the two-sided-window ancestor); Krishnamurthy–Rao–Subramanian 1975 (Proc. Indian Acad. Sci. A 81:58–79 — the Hensel-code origin). Citation corrections applied: Wang–Guy–Davenport year 1981→1982 (canonical SIGSAM 16(2)); Ostrowski DOI 10.1007/BF02422947.
 
 ## 5. Gap analysis
 
@@ -68,4 +69,4 @@ Formulations used (>=3 per DUE-DILIGENCE-DEPTH-1):
 
 ## 7. Next actions (Phase 2+)
 
-P2 literature (ancestor line + Hensel-code literature + disambiguation); P3 BibTeX with live-verified DOIs; P4 injectivity lemma + product-formula derivation + implementation + H-PPN execution; P5 publication with COMPUTATIONAL-VERIFICATION-1 suite; P6–P8 distribution with KG BUILDS_ON → Hensel framework.
+P2 literature (DONE 2026-08-26 — references.bib seed + docs/literature.md); P3 BibTeX full verification; P4 injectivity lemma + product-formula derivation + implementation + H-PPN execution; P5 publication with COMPUTATIONAL-VERIFICATION-1 suite; P6–P8 distribution with KG BUILDS_ON → Hensel framework.

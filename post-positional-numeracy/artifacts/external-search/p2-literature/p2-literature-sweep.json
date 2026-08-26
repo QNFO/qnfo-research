@@ -1,0 +1,708 @@
+{
+ "https://api.openalex.org/works?filter=title.search:hensel%20codes&per-page=10&mailto=rwnquni@outlook.com": {
+  "count": 33,
+  "results": [
+   {
+    "title": "Mapping integers and hensel codes onto Farey fractions",
+    "year": 1983,
+    "doi": "https://doi.org/10.1007/bf01937322",
+    "authors": [
+     "Peter Kornerup",
+     "Robert T. Gregory"
+    ],
+    "venue": "BIT Numerical Mathematics"
+   },
+   {
+    "title": "Hensel codes of square roots of p-adic numbers",
+    "year": 2010,
+    "doi": "https://doi.org/10.2298/aadm1000009m",
+    "authors": [
+     "Tahar Zerzaihi",
+     "Kecies Mohamed",
+     "Michael P. Knapp"
+    ],
+    "venue": "Applicable Analysis and Discrete Mathematics"
+   },
+   {
+    "title": "The conversion of Hensel codes to their rational equivalents",
+    "year": 1982,
+    "doi": "https://doi.org/10.1145/1089310.1089316",
+    "authors": [
+     "Alfonso Miola"
+    ],
+    "venue": "ACM SIGSAM Bulletin"
+   },
+   {
+    "title": "On the Conversion of Hensel Codes to Farey Rationals",
+    "year": 1983,
+    "doi": "https://doi.org/10.1109/tc.1983.1676233",
+    "authors": [
+     "Krishnamurthy Krishnamurthy"
+    ],
+    "venue": "IEEE Transactions on Computers"
+   },
+   {
+    "title": "A method for Hensel code overflow detection",
+    "year": 2012,
+    "doi": "https://doi.org/10.1145/2188379.2188380",
+    "authors": [
+     "Xin Kai Li",
+     "Chao Lu",
+     "Jon A. Sjogren"
+    ],
+    "venue": "ACM SIGAPP Applied Computing Review"
+   },
+   {
+    "title": "The conversion of Hensel codes to rational numbers",
+    "year": 1981,
+    "doi": "https://doi.org/10.1109/arith.1981.6159290",
+    "authors": [
+     "T. M. Rao",
+     "Robert T. Gregory"
+    ],
+    "venue": null
+   },
+   {
+    "title": "On addition and multiplication with Hensel codes",
+    "year": 1990,
+    "doi": "https://doi.org/10.1109/12.61062",
+    "authors": [
+     "C.J. Zarowski",
+     "H.C. Card"
+    ],
+    "venue": "IEEE Transactions on Computers"
+   },
+   {
+    "title": "Conversion of Hensel Codes to rational numbers",
+    "year": 1984,
+    "doi": "https://doi.org/10.1016/0898-1221(84)90048-8",
+    "authors": [
+     "T. M. Rao"
+    ],
+    "venue": "Computers & Mathematics with Applications"
+   },
+   {
+    "title": "Mapping Integers and Hensel Codes Onto Farey Fractions",
+    "year": 1982,
+    "doi": "https://doi.org/10.7146/dpb.v11i149.7423",
+    "authors": [
+     "Peter Kornerup",
+     "Robert T. Gregory"
+    ],
+    "venue": "DAIMI Report Series"
+   },
+   {
+    "title": "An Efficient Homomorphic Data Encoding with Multiple Secret Hensel Codes",
+    "year": 2020,
+    "doi": "https://doi.org/10.18178/ijiee.2020.10.1.713",
+    "authors": [
+     "David W. H. A. da Silva",
+     "Carlos PCarlos Paz de Araujoaz de Araujo",
+     "Edward Chow Chow"
+    ],
+    "venue": "International Journal of Information and Electronics Engineering"
+   }
+  ]
+ },
+ "https://api.openalex.org/works?filter=title.search:p-adic%20reconstruction&per-page=10&mailto=rwnquni@outlook.com": {
+  "count": 3,
+  "results": [
+   {
+    "title": "P-adic reconstruction of rational numbers",
+    "year": 1982,
+    "doi": "https://doi.org/10.1145/1089292.1089293",
+    "authors": [
+     "Paul S. Wang",
+     "M. J. T. Guy",
+     "James H. Davenport"
+    ],
+    "venue": "ACM SIGSAM Bulletin"
+   },
+   {
+    "title": "p -adic reconstruction of rational functions in multiloop amplitudes",
+    "year": 2024,
+    "doi": "https://doi.org/10.1103/physrevd.110.056028",
+    "authors": [
+     "Herschel A. Chawdhry"
+    ],
+    "venue": "Physical review. D/Physical review. D."
+   },
+   {
+    "title": "p-adic reconstruction of rational functions in multi-loop amplitudes",
+    "year": 2023,
+    "doi": "https://doi.org/10.48550/arxiv.2312.03672",
+    "authors": [
+     "Herschel A. Chawdhry"
+    ],
+    "venue": "arXiv (Cornell University)"
+   }
+  ]
+ },
+ "https://api.openalex.org/works?search=error-free%20computation%20Krishnamurthy%20Gregory&per-page=10&mailto=rwnquni@outlook.com": {
+  "count": 1214,
+  "results": [
+   {
+    "title": "From Generative Models to Generative Passages: A Computational Approach to (Neuro) Phenomenology",
+    "year": 2022,
+    "doi": "https://doi.org/10.1007/s13164-021-00604-y",
+    "authors": [
+     "Maxwell J. D. Ramstead",
+     "Anil K. Seth",
+     "Casper Hesp",
+     "Lars Sandved-Smith",
+     "Jonas Mago",
+     "Michael Lifshitz",
+     "Giuseppe Pagnoni",
+     "Ryan Smith",
+     "Guillaume Dumas",
+     "Antoine Lutz",
+     "Karl Friston",
+     "Axel Constant"
+    ],
+    "venue": "Review of Philosophy and Psychology"
+   },
+   {
+    "title": "Evaluation of computational phage detection tools for metagenomic datasets",
+    "year": 2023,
+    "doi": "https://doi.org/10.3389/fmicb.2023.1078760",
+    "authors": [
+     "Kenneth Schackart",
+     "Jessica B. Graham",
+     "Alise J. Ponsero",
+     "Bonnie L. Hurwitz"
+    ],
+    "venue": "Frontiers in Microbiology"
+   },
+   {
+    "title": "Permacoin: Repurposing Bitcoin Work for Data Preservation",
+    "year": 2014,
+    "doi": "https://doi.org/10.1109/sp.2014.37",
+    "authors": [
+     "Andrew Miller",
+     "Ari Juels",
+     "Elaine Shi",
+     "Bryan Parno",
+     "Jonathan Katz"
+    ],
+    "venue": null
+   },
+   {
+    "title": "The Signaling Channel for Federal Reserve Bond Purchases",
+    "year": 2013,
+    "doi": "https://doi.org/10.24148/wp2011-21",
+    "authors": [
+     "Federal Reserve Bank of San Francisco",
+     "Michael D. Bauer",
+     "Glenn D. Rudebusch",
+     "Federal Reserve Bank of San Francisco"
+    ],
+    "venue": "Federal Reserve Bank of San Francisco, Working Paper Series"
+   },
+   {
+    "title": "Diffusion Models: A Comprehensive Survey of Methods and Applications",
+    "year": 2023,
+    "doi": "https://doi.org/10.1145/3626235",
+    "authors": [
+     "L. Yang",
+     "Zhilong Zhang",
+     "Yang Song",
+     "Shenda Hong",
+     "Runsheng Xu",
+     "Yue Zhao",
+     "Wentao Zhang",
+     "Bin Cui",
+     "Ming–Hsuan Yang"
+    ],
+    "venue": "ACM Computing Surveys"
+   },
+   {
+    "title": "Earth System Modeling 2.0: A Blueprint for Models That Learn From Observations and Targeted High‐Resolution Simulations",
+    "year": 2017,
+    "doi": "https://doi.org/10.1002/2017gl076101",
+    "authors": [
+     "Tapio Schneider",
+     "Shiwei Lan",
+     "Andrew Stuart",
+     "João Teixeira"
+    ],
+    "venue": "Geophysical Research Letters"
+   },
+   {
+    "title": "Extracting Knowledge from Data through Catalysis Informatics",
+    "year": 2018,
+    "doi": "https://doi.org/10.1021/acscatal.8b01708",
+    "authors": [
+     "Andrew J. Medford",
+     "M. Ross Kunz",
+     "Sarah Ewing",
+     "Tammie L. Borders",
+     "R Fushimi"
+    ],
+    "venue": "ACS Catalysis"
+   },
+   {
+    "title": "From generative models to generative passages: A computational approach to (neuro)phenomenology",
+    "year": 2021,
+    "doi": "https://doi.org/10.31234/osf.io/k9pbn",
+    "authors": [
+     "Maxwell J. D. Ramstead",
+     "Anil K. Seth",
+     "Casper Hesp",
+     "Lars Sandved-Smith",
+     "Jonas Mago",
+     "Michael Lifshitz",
+     "Giuseppe Pagnoni",
+     "Ryan Smith",
+     "Guillaume Dumas",
+     "Antoine Lutz",
+     "Karl Friston",
+     "Axel Constant"
+    ],
+    "venue": null
+   },
+   {
+    "title": "FreeTensor: a free-form DSL with holistic optimizations for irregular tensor programs",
+    "year": 2022,
+    "doi": "https://doi.org/10.1145/3519939.3523448",
+    "authors": [
+     "Shizhi Tang",
+     "Jidong Zhai",
+     "Haojie Wang",
+     "Lin Jiang",
+     "Liyan Zheng",
+     "Zhenhao Yuan",
+     "Chen Zhang"
+    ],
+    "venue": null
+   },
+   {
+    "title": "Feedback shift registers, 2-adic span, and combiners with memory",
+    "year": 1997,
+    "doi": "https://doi.org/10.1007/s001459900024",
+    "authors": [
+     "Andrew Klapper",
+     "Mark Goresky"
+    ],
+    "venue": "Journal of Cryptology"
+   }
+  ]
+ },
+ "https://api.crossref.org/works/10.1007/BF02422942": {
+  "doi": "10.1007/bf02422942",
+  "title": [
+   "Contributions to the theory of the riemann zeta-function and the theory of the distribution of primes"
+  ],
+  "year": 1916,
+  "authors": [
+   "Hardy, G. H.",
+   "Littlewood, J. E."
+  ],
+  "container": "Acta Mathematica",
+  "volume": "41",
+  "issue": "0",
+  "page": "119-196"
+ },
+ "https://api.crossref.org/works?query.bibliographic=Ostrowski+Funktionalgleichung+Acta+Mathematica+absolute+values&rows=5&mailto=rwnquni@outlook.com": {
+  "count": 2014673,
+  "results": [
+   {
+    "title": "Über einige Lösungen der Funktionalgleichung ψ(x)·ψ(x)=ψ(xy)",
+    "year": 1916,
+    "doi": "10.1007/bf02422947",
+    "authors": [
+     "Ostrowski, Alexander"
+    ],
+    "container": "Acta Mathematica",
+    "volume": "41",
+    "issue": "0",
+    "page": "271-284"
+   },
+   {
+    "title": "Über eine Funktionalgleichung mit Zahlentheoretischen Eigenschaften",
+    "year": 1966,
+    "doi": "10.1007/bf01894887",
+    "authors": [
+     "Hoischen, L."
+    ],
+    "container": "Acta Mathematica Academiae Scientiarum Hungaricae",
+    "volume": "17",
+    "issue": "3-4",
+    "page": "425-431"
+   },
+   {
+    "title": "Konvexe Lösung der Funktionalgleichung 1/f(x+1)=xf(x)",
+    "year": 1939,
+    "doi": "10.1007/bf02547345",
+    "authors": [
+     "Mayer, Anton E."
+    ],
+    "container": "Acta Mathematica",
+    "volume": "70",
+    "issue": "0",
+    "page": "57-62"
+   },
+   {
+    "title": "Über eine Funktionalgleichung",
+    "year": 1984,
+    "doi": "10.1007/978-3-0348-9342-8_38",
+    "authors": [
+     "Ostrowski, A."
+    ],
+    "container": "Collected Mathematical Papers",
+    "volume": null,
+    "issue": null,
+    "page": "252-253"
+   },
+   {
+    "title": "Multivariate Ostrowski Type Inequalities",
+    "year": 1997,
+    "doi": "10.1023/a:1006529405430",
+    "authors": [
+     "Anastassiou, G.A."
+    ],
+    "container": "Acta Mathematica Hungarica",
+    "volume": "76",
+    "issue": "4",
+    "page": "267-278"
+   }
+  ]
+ },
+ "https://api.crossref.org/works?query.bibliographic=p-adic+reconstruction+of+rational+numbers+Wang+Davenport&rows=5&mailto=rwnquni@outlook.com": {
+  "count": 6026454,
+  "results": [
+   {
+    "title": "P-adic reconstruction of rational numbers",
+    "year": 1982,
+    "doi": "10.1145/1089292.1089293",
+    "authors": [
+     "Wang, Paul S.",
+     "Guy, M. J. T.",
+     "Davenport, J. H."
+    ],
+    "container": "ACM SIGSAM Bulletin",
+    "volume": "16",
+    "issue": "2",
+    "page": "2-3"
+   },
+   {
+    "title": "Digraph representations of rational functions over the p-adic numbers",
+    "year": 2011,
+    "doi": "10.1134/s2070046611010031",
+    "authors": [
+     "Diao, Hansheng",
+     "Silva, Cesar E."
+    ],
+    "container": "P-Adic Numbers, Ultrametric Analysis, and Applications",
+    "volume": "3",
+    "issue": "1",
+    "page": "23-38"
+   },
+   {
+    "title": "The <i>p</i>-adic numbers",
+    "year": 2007,
+    "doi": "10.1017/cbo9780511721502.006",
+    "authors": [],
+    "container": "The Classical Fields",
+    "volume": null,
+    "issue": null,
+    "page": "278-334"
+   },
+   {
+    "title": "Functional classical mechanics and rational numbers",
+    "year": 2009,
+    "doi": "10.1134/s2070046609040086",
+    "authors": [
+     "Trushechkin, Anton S.",
+     "Volovich, Igor V."
+    ],
+    "container": "P-Adic Numbers, Ultrametric Analysis, and Applications",
+    "volume": "1",
+    "issue": "4",
+    "page": "361-367"
+   },
+   {
+    "title": "p-Adic (3, 2)-rational dynamical systems",
+    "year": 2015,
+    "doi": "10.1134/s2070046615010045",
+    "authors": [
+     "Sattarov, I. A."
+    ],
+    "container": "P-Adic Numbers, Ultrametric Analysis, and Applications",
+    "volume": "7",
+    "issue": "1",
+    "page": "39-55"
+   }
+  ]
+ },
+ "https://api.crossref.org/works?query.bibliographic=exact+solution+of+linear+equations+using+p-adic+expansions+Dixon&rows=5&mailto=rwnquni@outlook.com": {
+  "count": 6809907,
+  "results": [
+   {
+    "title": "Exact solution of linear equations usingP-adic expansions",
+    "year": 1982,
+    "doi": "10.1007/bf01459082",
+    "authors": [
+     "Dixon, John D."
+    ],
+    "container": "Numerische Mathematik",
+    "volume": "40",
+    "issue": "1",
+    "page": "137-141"
+   },
+   {
+    "title": "TWO-STEP, user's guide. Solution of a linear system of equations using the exact two-step method. [Linear matrix equations, for CDC-6400]",
+    "year": 1977,
+    "doi": "10.2172/7293957",
+    "authors": [
+     "Kobbe, R.",
+     "Bareiss, E.H.",
+     "Antolak, A."
+    ],
+    "container": null,
+    "volume": null,
+    "issue": null,
+    "page": null
+   },
+   {
+    "title": "A Simple Iterative Method for Exact Solution of Systems of Linear Algebraic Equations",
+    "year": 2019,
+    "doi": "10.21694/2378-704x.19001",
+    "authors": [],
+    "container": "American Research Journal of Mathematics",
+    "volume": "5",
+    "issue": "1",
+    "page": null
+   },
+   {
+    "title": "4 Solution of linear equations by eigenvector expansions",
+    "year": 2022,
+    "doi": "10.1515/9783110739701-004",
+    "authors": [],
+    "container": "Applied Linear Analysis for Chemical Engineers",
+    "volume": null,
+    "issue": null,
+    "page": "82-121"
+   },
+   {
+    "title": "The Solution of Partially Separable Linear Equations on Parallel Processing Systems",
+    "year": 1991,
+    "doi": "10.1007/978-3-642-76717-3_14",
+    "authors": [
+     "Dixon, L. C. W."
+    ],
+    "container": "Computer Algorithms for Solving Linear Algebraic Equations",
+    "volume": null,
+    "issue": null,
+    "page": "299-338"
+   }
+  ]
+ },
+ "https://api.crossref.org/works?query.bibliographic=use+of+bad+primes+in+rational+reconstruction+Boehm&rows=5&mailto=rwnquni@outlook.com": {
+  "count": 2294165,
+  "results": [
+   {
+    "title": "The use of bad primes in rational reconstruction",
+    "year": 2015,
+    "doi": "10.1090/mcom/2951",
+    "authors": [
+     "Böhm, Janko",
+     "Decker, Wolfram",
+     "Fieker, Claus",
+     "Pfister, Gerhard"
+    ],
+    "container": "Mathematics of Computation",
+    "volume": "84",
+    "issue": "296",
+    "page": "3013-3027"
+   },
+   {
+    "title": "Simultaneous rational number codes: Decoding beyond half the minimum distance with multiplicities and bad primes",
+    "year": 2026,
+    "doi": "10.1016/j.jsc.2025.102481",
+    "authors": [
+     "Abbondati, Matteo",
+     "Guerrini, Eleonora",
+     "Lebreton, Romain"
+    ],
+    "container": "Journal of Symbolic Computation",
+    "volume": "132",
+    "issue": null,
+    "page": "102481"
+   },
+   {
+    "title": "Decomposition of rational primes in biquadratic fields",
+    "year": null,
+    "doi": "10.58837/chula.the.2006.1179",
+    "authors": [
+     "None, None",
+     "Riablershirun, Chaiya"
+    ],
+    "container": null,
+    "volume": null,
+    "issue": null,
+    "page": null
+   },
+   {
+    "title": "Primes of bad reduction for systems of polynomial equations",
+    "year": 2025,
+    "doi": "10.2139/ssrn.5935996",
+    "authors": [
+     "Elliott, Jesse  Allister Kasian",
+     "Schost, Eric"
+    ],
+    "container": null,
+    "volume": null,
+    "issue": null,
+    "page": null
+   },
+   {
+    "title": "The Rational Consumer:",
+    "year": 2018,
+    "doi": "10.2307/j.ctvk3gmjt.7",
+    "authors": [],
+    "container": "The Rational Consumer: Bad for Business and Politics",
+    "volume": null,
+    "issue": null,
+    "page": "35-64"
+   }
+  ]
+ },
+ "https://api.crossref.org/works?query.bibliographic=Methods+and+Applications+of+Error-Free+Computation+Krishnamurthy&rows=5&mailto=rwnquni@outlook.com": {
+  "count": 5658561,
+  "results": [
+   {
+    "title": "Methods and Applications of Error-Free Computation",
+    "year": 1984,
+    "doi": "10.1007/978-1-4612-5242-9",
+    "authors": [
+     "Gregory, R. T.",
+     "Krishnamurthy, E. V."
+    ],
+    "container": null,
+    "volume": null,
+    "issue": null,
+    "page": null
+   },
+   {
+    "title": "Exact Computation of Generalized Inverses",
+    "year": 1984,
+    "doi": "10.1007/978-1-4612-5242-9_3",
+    "authors": [
+     "Gregory, R. T.",
+     "Krishnamurthy, E. V."
+    ],
+    "container": "Methods and Applications of Error-Free Computation",
+    "volume": null,
+    "issue": null,
+    "page": "109-133"
+   },
+   {
+    "title": "Residue or Modular Arithmetic",
+    "year": 1984,
+    "doi": "10.1007/978-1-4612-5242-9_1",
+    "authors": [
+     "Gregory, R. T.",
+     "Krishnamurthy, E. V."
+    ],
+    "container": "Methods and Applications of Error-Free Computation",
+    "volume": null,
+    "issue": null,
+    "page": "1-62"
+   },
+   {
+    "title": "Integer Solutions to Linear Equations",
+    "year": 1984,
+    "doi": "10.1007/978-1-4612-5242-9_4",
+    "authors": [
+     "Gregory, R. T.",
+     "Krishnamurthy, E. V."
+    ],
+    "container": "Methods and Applications of Error-Free Computation",
+    "volume": null,
+    "issue": null,
+    "page": "134-161"
+   },
+   {
+    "title": "Finite-Segment p-adic Arithmetic",
+    "year": 1984,
+    "doi": "10.1007/978-1-4612-5242-9_2",
+    "authors": [
+     "Gregory, R. T.",
+     "Krishnamurthy, E. V."
+    ],
+    "container": "Methods and Applications of Error-Free Computation",
+    "volume": null,
+    "issue": null,
+    "page": "63-108"
+   }
+  ]
+ },
+ "https://api.crossref.org/works?query.bibliographic=Finite-segment+p-adic+number+systems+exact+computation&rows=5&mailto=rwnquni@outlook.com": {
+  "count": 5548584,
+  "results": [
+   {
+    "title": "Finite segmentp-adic number systems with applications to exact computation",
+    "year": 1975,
+    "doi": "10.1007/bf03051174",
+    "authors": [
+     "Krishnamurthy, E. V.",
+     "Mahadeva Rao, T.",
+     "Subramanian, K."
+    ],
+    "container": "Proceedings of the Indian Academy of Sciences - Section A",
+    "volume": "81",
+    "issue": "2",
+    "page": "58-79"
+   },
+   {
+    "title": "Finite-Segment p-adic Arithmetic",
+    "year": 1984,
+    "doi": "10.1007/978-1-4612-5242-9_2",
+    "authors": [
+     "Gregory, R. T.",
+     "Krishnamurthy, E. V."
+    ],
+    "container": "Methods and Applications of Error-Free Computation",
+    "volume": null,
+    "issue": null,
+    "page": "63-108"
+   },
+   {
+    "title": "The use of finite-segmentp-adic arithmetic for exact computation",
+    "year": 1978,
+    "doi": "10.1007/bf01930898",
+    "authors": [
+     "Gregory, Robert Todd"
+    ],
+    "container": "BIT",
+    "volume": "18",
+    "issue": "3",
+    "page": "282-300"
+   },
+   {
+    "title": "Exact p-adic computation in Magma",
+    "year": 2021,
+    "doi": "10.1016/j.jsc.2020.08.005",
+    "authors": [
+     "Doris, Christopher"
+    ],
+    "container": "Journal of Symbolic Computation",
+    "volume": "104",
+    "issue": null,
+    "page": "476-493"
+   },
+   {
+    "title": "Error Free Computation: A Direct Method to Convert Finite-Segment p-Adic Numbers into Rational Numbers",
+    "year": 1983,
+    "doi": "10.1109/tc.1983.1676234",
+    "authors": [
+     "Froment, None"
+    ],
+    "container": "IEEE Transactions on Computers",
+    "volume": "C-32",
+    "issue": "4",
+    "page": "337-343"
+   }
+  ]
+ }
+}
