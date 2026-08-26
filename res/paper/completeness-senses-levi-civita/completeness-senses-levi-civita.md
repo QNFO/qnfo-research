@@ -2,6 +2,7 @@
 title: "Completeness Senses and the Levi-Civita Field: Ordered Non-Archimedean Number Systems Beyond Ostrowski's Classification"
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-26"
+version: "1.1.1"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.22109361"
 status: "published"
@@ -48,7 +49,7 @@ The Levi-Civita field is therefore a genuine counterexample to the unqualified c
 
 ## 4. The decimal identity and nonstandard indices
 
-The identity $0.999\ldots = 1$ holds in the reals, and it survives by transfer in every ordered field containing the reals as an ordered subfield: the partial sums $1 - 10^{-n}$ converge to $1$ in the order topology of each. The apparent counterexample appears only when the decimal is given *nonstandard indices*. The extension of the sequence $1 - 10^{-n}$ to an infinite hypernatural $H$ equals $1 - 10^{-H}$, which differs from $1$ by a positive infinitesimal [@lightstone1972; @katz2010].
+The identity $0.999\ldots = 1$ holds in the reals, and it survives by transfer in every ordered field containing the reals as an ordered subfield [@robinson1966]: the partial sums $1 - 10^{-n}$ converge to $1$ in the order topology of each. The apparent counterexample appears only when the decimal is given *nonstandard indices*. The extension of the sequence $1 - 10^{-n}$ to an infinite hypernatural $H$ equals $1 - 10^{-H}$, which differs from $1$ by a positive infinitesimal [@lightstone1972; @katz2010].
 
 The identity is pinned to the Archimedean place value in a precise sense. The geometric series $\sum_{k \ge 1} 9t^k$ equals $9t/(1-t)$, and $9t/(1-t) = 1$ if and only if $t = 1/10$. Replace the place value by an infinitesimal and the same-looking decimal is infinitesimal rather than equal to one. The identity $0.999\ldots = 1$ is a property of the Archimedean decimal place, not of decimals as such.
 
