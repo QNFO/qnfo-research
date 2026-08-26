@@ -1,0 +1,12 @@
+PASS R2-MIRROR-12 - 12/12 objects put
+PASS R2-LIST-VERIFY - 12 objects listed under prefix
+PASS D1-PAPERS-ROW - status=200 success=True
+PASS D1-PAPERS-READBACK - {'slug': 'post-positional-numeracy', 'doi': '10.5281/zenodo.22114495', 'version': '1.0.1', 'status': 'published', 'kg_node_id': 'paper:post-positional-numeracy'}
+PASS KG-NODE - node insert status=200
+PASS KG-EDGES - 3/3 edges inserted
+PASS KG-READBACK - {'id': 'paper:post-positional-numeracy', 'label': 'Paper', 'name': 'Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact
+PASS REGISTRY-PUBLISHED - status update 200
+FAIL VECTORIZE-WEBHOOK - index trigger status=403 body={'__text__': 'http error'}
+FAIL VECTORIZE-VERIFY - verify status=403 body={'__text__': 'http error'}
+DONE; all pass: False
+exit: 1

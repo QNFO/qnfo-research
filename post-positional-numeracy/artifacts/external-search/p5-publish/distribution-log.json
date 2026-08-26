@@ -1,0 +1,52 @@
+[
+ {
+  "name": "R2-MIRROR-12",
+  "ok": true,
+  "detail": "12/12 objects put"
+ },
+ {
+  "name": "R2-LIST-VERIFY",
+  "ok": true,
+  "detail": "12 objects listed under prefix"
+ },
+ {
+  "name": "D1-PAPERS-ROW",
+  "ok": true,
+  "detail": "status=200 success=True"
+ },
+ {
+  "name": "D1-PAPERS-READBACK",
+  "ok": true,
+  "detail": "{'slug': 'post-positional-numeracy', 'doi': '10.5281/zenodo.22114495', 'version': '1.0.1', 'status': 'published', 'kg_node_id': 'paper:post-positional-numeracy'}"
+ },
+ {
+  "name": "KG-NODE",
+  "ok": true,
+  "detail": "node insert status=200"
+ },
+ {
+  "name": "KG-EDGES",
+  "ok": true,
+  "detail": "3/3 edges inserted"
+ },
+ {
+  "name": "KG-READBACK",
+  "ok": true,
+  "detail": "{'id': 'paper:post-positional-numeracy', 'label': 'Paper', 'name': 'Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact"
+ },
+ {
+  "name": "REGISTRY-PUBLISHED",
+  "ok": true,
+  "detail": "status update 200"
+ },
+ {
+  "name": "VECTORIZE-WEBHOOK",
+  "ok": false,
+  "detail": "index trigger status=403 body={'__text__': 'http error'}"
+ },
+ {
+  "name": "VECTORIZE-VERIFY",
+  "ok": false,
+  "detail": "verify status=403 body={'__text__': 'http error'}"
+ }
+]

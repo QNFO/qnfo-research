@@ -1,0 +1,4 @@
+TRIGGER 200 {"success": true, "indexed": true, "skipped": false, "chunks": 25, "body_len": 17342, "errors": 0}
+VERIFY 200 {"success": true, "indexed": false, "skipped": true, "reason": "unchanged"}
+INDEXED: False
+exit: 1
