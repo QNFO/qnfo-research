@@ -2,9 +2,9 @@
 title: "Error Correction Is a Landauer Machine: The Thermodynamic Floor of Quantum Error-Correction Overhead"
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-26"
-version: "v1.1"
+version: "v1.2"
 license: "CC BY 4.0"
-doi: "10.5281/zenodo.22109229"
+doi: "10.5281/zenodo.22113656"
 status: "published"
 ---
 
@@ -127,32 +127,32 @@ All numbers in §3 and §7 are computed by scripts in `artifacts/verification/` 
 
 ## References
 
-[1] R. Landauer, "Irreversibility and Heat Generation in the Computing Process," IBM J. Res. Dev. 5, 183 (1961).
-[2] C. H. Bennett, "The Thermodynamics of Computation — a Review," Int. J. Theor. Phys. 21, 905 (1982).
-[3] V. Vedral, "Landauer's erasure, error correction and entanglement," arXiv:quant-ph/9903049 (1999).
-[4] V. Korepin, J. Terilla, "Thermodynamic interpretation of quantum error correcting criterion," arXiv:quant-ph/0202054 (2002).
-[5] G. S. Engel et al., "Evidence for wavelike energy transfer through quantum coherence in photosynthetic systems," Nature 446, 782 (2007).
-[6] G. T. Landi, A. L. Fonseca de Oliveira, E. Buksman, "Thermodynamic analysis of quantum error correcting engines," arXiv:1911.06354 (2019).
-[7] P. J. Hore, H. Mouritsen, "The Radical-Pair Mechanism of Magnetoreception," Annu. Rev. Biophys. 45, 299 (2016).
-[8] D. Bedingham, O. Maroney, "The thermodynamic cost of quantum operations," arXiv:1604.03749 (2016).
-[9] P. Taranto et al., "Landauer vs. Nernst: What is the True Cost of Cooling a Quantum System?" arXiv:2106.05151 (2021).
-[10] Y.-H. Ma, J.-F. Chen, C. P. Sun, H. Dong, "Minimal Energy Cost to Initialize a Quantum Bit with Tolerable Error," arXiv:2112.07311 (2021).
-[11] P. Chattopadhyay, A. Misra, T. Pandit, G. Paul, "Landauer Principle and Thermodynamics of Computation," arXiv:2506.10876 (2025).
-[12] N. Ishida, Y. Hasegawa, "Thermodynamic Recycling of Algorithmic Failure Branches: Quantum-Computer Demonstration with Quantum Error Correction," arXiv:2601.07522 (2026).
-[13] M. A. Nielsen, I. L. Chuang, Quantum Computation and Quantum Information, 10th ann. ed., ch. 10 (2010).
-[14] P. Panteleev, G. Kalachev, "Asymptotically good quantum and locally testable classical LDPC codes," STOC 2022.
-[15] C. Gidney, M. Ekerå, "How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits," Quantum 5, 433 (2021).
-[16] R. B. Quni-Gudzinas, "The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions for Honest Computational Benchmarking," QNFO.JPC.002 (2026).
-[17] R. B. Quni-Gudzinas, "Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation," 10.5281/zenodo.17955898 (2025).
-[18] R. B. Quni-Gudzinas, "Thermodynamic and Quantum Constraints on Scalable Quantum Computing: A Consilience of Modeling, Experiment, and Theory," 10.5281/zenodo.17937531 (2025).
-[19] R. B. Quni-Gudzinas, "Autonomous Dissipative Quantum Processing," QNFO (2025).
-[20] R. B. Quni-Gudzinas, "Thermodynamics of Structural Persistence (Topological Memory)," QNFO (2025).
-[21] R. B. Quni-Gudzinas, "Resonant Kerr-Cancellation Dynamics in Dissipative Bosonic Stabilization," QNFO (2025).
-[22] R. B. Quni-Gudzinas, "Stabilization of Gottesman-Kitaev-Preskill States," QNFO (2025).
-[23] R. B. Quni-Gudzinas, "The Qubit Delusion" series (2026).
-[24] R. B. Quni-Gudzinas, "Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces," 10.5281/zenodo.21964674 (2026).
-[25] R. B. Quni-Gudzinas, "Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology," QNFO (2025).
-[26] R. B. Quni-Gudzinas, "The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing," QNFO (2025).
-[27] R. B. Quni-Gudzinas, "JPCUB Competitive Landscape v2.0: System-Level Joules-per-Solution Estimates for 17 Quantum Computing Platforms from Published Specifications," QNFO (2026).
-[28] R. B. Quni-Gudzinas, "The Qudit Advantage: System-Level Joules-per-Solution Comparison of a Qudit Architecture Against 17 Conventional Qubit Quantum Computing Platforms," QNFO (2026).
-[29] R. B. Quni-Gudzinas, "The Universal Ignorance Audit," 10.5281/zenodo.21901984 (2026) — method used in the planning phase of this work.
+[1] R. Landauer, "Irreversibility and Heat Generation in the Computing Process," IBM Journal of Research and Development, 183–191 (1961). https://doi.org/10.1147/rd.53.0183
+[2] Charles H. Bennett, "The Thermodynamics of Computation—a Review," International Journal of Theoretical Physics, 905–940 (1982). https://doi.org/10.1007/bf02084158
+[3] V. Vedral, "Landauer's erasure, error correction and entanglement," (1999). arXiv:quant-ph/9903049
+[4] Vladimir Korepin, John Terilla, "Thermodynamic interpretation of quantum error correcting criterion," (2002). arXiv:quant-ph/0202054
+[5] Gregory S. Engel et al., "Evidence for wavelike energy transfer through quantum coherence in photosynthetic systems," Nature, 782–786 (2007). https://doi.org/10.1038/nature05678
+[6] Gabriel T. Landi, Andre L. Fonseca de Oliveira, Efrain Buksman, "Thermodynamic analysis of quantum error correcting engines," (2019). arXiv:1911.06354
+[7] P. J. Hore, Henrik Mouritsen, "The Radical-Pair Mechanism of Magnetoreception," Annual Review of Biophysics, 299–344 (2016). https://doi.org/10.1146/annurev-biophys-032116-094545
+[8] Daniel Bedingham, Owen Maroney, "The thermodynamic cost of quantum operations," (2016). arXiv:1604.03749
+[9] Philip Taranto et al., "Landauer vs. Nernst: What is the True Cost of Cooling a Quantum System?," (2021). arXiv:2106.05151
+[10] Yu-Han Ma, Jin-Fu Chen, C. P. Sun, Hui Dong, "Minimal Energy Cost to Initialize a Quantum Bit with Tolerable Error," (2021). arXiv:2112.07311
+[11] Pritam Chattopadhyay, Avijit Misra, Tanmoy Pandit, Goutam Paul, "Landauer Principle and Thermodynamics of Computation," (2025). arXiv:2506.10876
+[12] Nobumasa Ishida, Yoshihiko Hasegawa, "Thermodynamic Recycling of Algorithmic Failure Branches: Quantum-Computer Demonstration with Quantum Error Correction," (2026). arXiv:2601.07522
+[13] Michael A. Nielsen, Isaac L. Chuang, Quantum Computation and Quantum Information, 10th anniversary, Cambridge University Press (2010).
+[14] Pavel Panteleev, Gleb Kalachev, "Asymptotically good quantum and locally testable classical LDPC codes," Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing (STOC 2022), 375–388 (2022). https://doi.org/10.1145/3519935.3520017
+[15] Craig Gidney, Martin Ekerå, "How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits," Quantum, 433 (2021). https://doi.org/10.22331/q-2021-04-15-433
+[16] Rowan Brad Quni-Gudzinas, "The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions for Honest Computational Benchmarking," (2026).
+[17] Rowan Brad Quni-Gudzinas, "Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation," (2025). https://doi.org/10.5281/zenodo.17955898
+[18] Rowan Brad Quni-Gudzinas, "Thermodynamic and Quantum Constraints on Scalable Quantum Computing: A Consilience of Modeling, Experiment, and Theory," (2025). https://doi.org/10.5281/zenodo.17937531
+[19] Rowan Brad Quni-Gudzinas, "Autonomous Dissipative Quantum Processing," (2025).
+[20] Rowan Brad Quni-Gudzinas, "Thermodynamics of Structural Persistence (Topological Memory)," (2025).
+[21] Rowan Brad Quni-Gudzinas, "Resonant Kerr-Cancellation Dynamics in Dissipative Bosonic Stabilization," (2025).
+[22] Rowan Brad Quni-Gudzinas, "Stabilization of Gottesman-Kitaev-Preskill States," (2025).
+[23] Rowan Brad Quni-Gudzinas, "The Qubit Delusion (series of five papers)," (2026).
+[24] Rowan Brad Quni-Gudzinas, "Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces," (2026). https://doi.org/10.5281/zenodo.21964674
+[25] Rowan Brad Quni-Gudzinas, "Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology," (2025).
+[26] Rowan Brad Quni-Gudzinas, "The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing," (2025).
+[27] Rowan Brad Quni-Gudzinas, "JPCUB Competitive Landscape v2.0: System-Level Joules-per-Solution Estimates for 17 Quantum Computing Platforms from Published Specifications," (2026).
+[28] Rowan Brad Quni-Gudzinas, "The Qudit Advantage: System-Level Joules-per-Solution Comparison of a Qudit Architecture Against 17 Conventional Qubit Quantum Computing Platforms," (2026).
+[29] Rowan Brad Quni-Gudzinas, "The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing," (2026). https://doi.org/10.5281/zenodo.21901984
