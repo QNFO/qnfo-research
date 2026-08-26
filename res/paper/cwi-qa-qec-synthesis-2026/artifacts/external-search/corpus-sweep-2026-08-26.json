@@ -1,0 +1,70 @@
+{
+  "project": "QNFO.RES.026",
+  "phase": "P1",
+  "date": "2026-08-26",
+  "instrument": "qnfo-memory-mcp search_papers (Vectorize), limit=16 (VECTORIZE-TOP-K-50-1)",
+  "corpus_stats_at_sweep": {"nodes": 8329, "edges": 8511, "papers": 1665},
+  "formulations": [
+    {
+      "query": "energy cost of quantum error correction overhead thermodynamic",
+      "top": [
+        ["thermodynamic-viability-and-the-universality-of-feynman-matter", 0.7911],
+        ["thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation", 0.7821],
+        ["electron-hook-treatise", 0.7746],
+        ["paper-physics-of-computation", 0.7534],
+        ["lifecycle-of-a-fault-tolerant-quantum-computer", 0.7518]
+      ]
+    },
+    {
+      "query": "decoder energy consumption latency fault tolerant quantum computing",
+      "top": [
+        ["lifecycle-of-a-fault-tolerant-quantum-computer", 0.7475],
+        ["thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation", 0.7279],
+        ["paper-the-qubit-delusion", 0.7044]
+      ]
+    },
+    {
+      "query": "Landauer thermodynamic limit syndrome extraction QEC cycles",
+      "top": [
+        ["thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation", 0.6962],
+        ["thermodynamic-imperative", 0.6756],
+        ["joules-per-solution-metric", 0.6755],
+        ["thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems", 0.6686]
+      ]
+    },
+    {
+      "query": "quantum error correction overhead physical qubit resource estimates practical architectures",
+      "top": [
+        ["thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation", 0.7785],
+        ["lifecycle-of-a-fault-tolerant-quantum-computer", 0.7582],
+        ["paper-physics-of-computation", 0.7299]
+      ]
+    },
+    {
+      "query": "epistemic legibility metascience quantum computing hype audit self-presentation",
+      "top": [
+        ["universal-ignorance-audit", 0.6923],
+        ["huang-2025-quantum-advantage-audit", 0.6918],
+        ["ultrametric-program", 0.6895],
+        ["paper-manifesto-honest-computation", 0.6874],
+        ["ai4metascience-ignorance-audit", 0.6809],
+        ["paper-institutional-reform", 0.6795],
+        ["ignorance-ai-pipeline-synthesis", 0.6750]
+      ]
+    },
+    {
+      "query": "QEC darwinism ultrametric tradeoff energy architecture choice",
+      "top": [
+        ["locale-framework-quantum-applications", 0.6960],
+        ["qec-darwinism-ultrametric", 0.6929],
+        ["qwav-gtm-strategy", 0.6914],
+        ["joules-per-solution-metric", 0.6857],
+        ["trapped-ion-ultrametric-synthesis", 0.6857],
+        ["beyond-the-qubit", 0.6856],
+        ["thermodynamic-viability-and-the-universality-of-feynman-matter", 0.6798]
+      ]
+    }
+  ],
+  "recall_facts": "JPC.002 Phase 0+1 fact; QWAV strategy chain; CWI end-of-event synthesis working draft (Obsidian _cwi-synthesis-draft-2026-08-26.md) confirmed as the event deliverable source.",
+  "search_memories": "CWI Day-1 closeout threads (definitional tautology, unpriced physical cost, design-choice-not-law, geometric fictions, reality-as-syndrome, classical/quantum as epistemic frames) confirmed as the user's own synthesis threads."
+}

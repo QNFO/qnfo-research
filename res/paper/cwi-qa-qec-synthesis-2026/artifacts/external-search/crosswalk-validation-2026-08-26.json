@@ -1,0 +1,53 @@
+{
+  "project": "QNFO.RES.026",
+  "phase": "P1",
+  "date": "2026-08-26",
+  "method": "resolve_paper_id (slug -> D1 -> KG -> DOI)",
+  "validated": [
+    {
+      "slug": "thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation",
+      "doi": "10.5281/zenodo.17955898",
+      "status": "published",
+      "note": "2025-12 predecessor thesis; primary BUILDS_ON anchor."
+    },
+    {
+      "slug": "joules-per-solution-metric",
+      "doi": "10.5281/zenodo.21637028",
+      "status": "published",
+      "note": "JPCUB metric definition (QNFO.JPC.001); BELONGS_TO anchor."
+    },
+    {
+      "slug": "lifecycle-of-a-fault-tolerant-quantum-computer",
+      "doi": null,
+      "identifier": "qnfo-2025-12-lifecycle-of-a-fault-tolerant-quantum-computer",
+      "status": "published",
+      "note": "No Zenodo DOI; R2-hosted. RELATES_TO anchor."
+    },
+    {
+      "slug": "ai4metascience-ignorance-audit",
+      "doi": "10.5281/zenodo.22026592",
+      "status": "published",
+      "note": "Epistemic Legibility (NeurIPS 2026 position paper). Metascience leg for the self-presentation framing."
+    },
+    {
+      "slug": "huang-2025-quantum-advantage-audit",
+      "doi": "10.5281/zenodo.21440671",
+      "status": "published",
+      "note": "Full-spectrum quantum-advantage audit; adjacent audit methodology."
+    },
+    {
+      "slug": "locale-framework-quantum-applications",
+      "doi": "10.5281/zenodo.21991270",
+      "status": "published",
+      "note": "UMP.012; quantum innovations from the locale frame. Adjacent UMP domain."
+    },
+    {
+      "slug": "qec-darwinism-ultrametric",
+      "doi": "10.5281/zenodo.21964674",
+      "zenodo_doi": "10.5281/zenodo.21819232",
+      "status": "published",
+      "note": "TITLE DRIFT (known, self-disclosed per the falsifiability register §12): D1 title 'Ultrametric Code Spaces: The Bruhat--Tits Tree as a Geometry for QEC' vs Zenodo/cited title 'Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces'. Use the canonical Zenodo title when citing; drift is documented, not a new finding."
+    }
+  ],
+  "kg_neighbor_walk": "query_graph neighbors on the bottlenecks node id 4e8486975a3931f0 returned count 0 — no KG edges from that paper node; the graph link to be built explicitly at P6 (TERMINOLOGY-SILO-LESSONS-1: semantic links are built, not discovered)."
+}
