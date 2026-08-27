@@ -6,6 +6,8 @@
 
       python artifacts/verification/sim-adelic-quantum-arithmetic-verification.py artifacts/verification/verification-output.json
 
+  In the flat Zenodo deposit the same files live at the top level: `python sim-adelic-quantum-arithmetic-verification.py` — the output path defaults to the script's own directory, so the deposit layout and the repository layout both work without changes.
+
 - **Measured run (2026-08-27):** 18/18 checks pass; runtime 1.77 s (consumer laptop, Windows 11, CPython 3.x). Sieve depth: 2,000,000 primes; sum depth: 2,000,000 integers.
 - **Output contract:** `verification-output.json` carries a summary (total / passed / failed / runtime) and one entry per check with the fields `check`, `value`, `expected`, the relevant error bound, its `tolerance`, and `pass`.
 - **Checks:**

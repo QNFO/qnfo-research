@@ -1,0 +1,48 @@
+@page {
+  size: A4;
+  margin: 18mm;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.45;
+  color: #111;
+}
+
+h1 {
+  font-size: 1.55em;
+}
+
+h2 {
+  font-size: 1.15em;
+  margin-top: 1.2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 4px 8px;
+  font-size: 0.9em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+blockquote {
+  color: #333;
+}
+
+code {
+  font-family: Consolas, monospace;
+  font-size: 0.9em;
+}
+
+div#refs p {
+  font-size: 0.9em;
+}

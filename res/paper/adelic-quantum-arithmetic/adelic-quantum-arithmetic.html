@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-27" />
+  <meta name="keywords" content="Bose-Einstein statistics, Fermi-Dirac
+statistics, adelic quantum mechanics, p-adic places, unique
+factorization, squarefree integers, Gentile statistics, practitioner
+crosswalk" />
+  <title>Adelic Quantum Arithmetic: Particles as Prime Factors</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="print.css" />
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Adelic Quantum Arithmetic: Particles as Prime
+Factors</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-27</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>Standard quantum mechanics is written in the Archimedean completion
+of the rational numbers: Hilbert space over the complex numbers uses
+only the real place, one among all completions classified by Ostrowski’s
+theorem. The primes are the other places, and their structure is
+multiplicative — unique factorization — never additive. Two published
+results show that the statistics binary is the multiplicative readout of
+a single integer lattice: the unrestricted exponent rule gives the
+Riemann zeta function and Bose–Einstein occupation; the squarefree rule,
+each prime dividing at most once, gives a ratio of two zeta values and
+Fermi–Dirac occupation. A third record settles the continuation: the
+bounded-occupation family interpolates between the two statistics but
+carries no exchange phase for any occupation cap; the phases realized in
+the standard anyon models are multiplicative characters at roots of
+unity, and the prime-gap structure supplies a computable distinguishing
+observable in the primon-gas specific heat. This paper renders the line
+as one readable map — the thesis, the proofs, the adjudicated
+continuation — and adds what the individual records do not carry: a
+practitioner-facing crosswalk that reads particle species as prime
+factors, and a separation of what is proved, what is conjectured, and
+what is disconfirmed. The claims are isomorphisms of mathematical
+structure; no physical particle is implied; and the premises end where
+the identification of a physical temperature at the p-adic place
+begins.</p>
+</div>
+</header>
+<h2 id="the-archimedean-shadow">1. The Archimedean shadow</h2>
+<p>Quantum mechanics is written in one completion of the rational
+numbers. The complex Hilbert space of the standard formalism is built on
+the real numbers, and the real numbers are the Archimedean completion of
+<span class="math inline">\(\mathbb{Q}\)</span>: they fill in the
+limits, the continuity, the dynamics. Ostrowski’s theorem says that
+<span class="math inline">\(\mathbb{Q}\)</span> has other completions —
+one for every prime <span class="math inline">\(p\)</span>, the <span
+class="math inline">\(p\)</span>-adic fields <span
+class="math inline">\(\mathbb{Q}_p\)</span>, where a number is measured
+by how divisible it is by <span class="math inline">\(p\)</span> rather
+than by its size. The real completion is one place among all of
+them.</p>
+<p>Nothing forces the choice of that place. Macroscopic measurement is
+Archimedean — rulers, clocks, and detectors read real-valued outputs —
+so the real place is the convenient one, the anthropocentric one. The
+primes are the other places: non-Archimedean, tree-structured, and tied
+together with the real place by the product formula</p>
+<p><span class="math display">\[\prod_v |x|_v = 1 ,\]</span></p>
+<p>the statement that for every nonzero rational the product of all
+absolute values over all places is exactly one. The Archimedean
+magnitude and the prime valuations are not independent data; they are
+one constraint.</p>
+<p>The primes are multiplicative by construction. Every positive integer
+factors uniquely into primes, <span class="math inline">\(n = \prod_p
+p^{a_p}\)</span>, and this factorization — not any additive structure —
+is what generates the integers as a semigroup. If physics is read
+through the places of <span class="math inline">\(\mathbb{Q}\)</span>,
+then whatever enters physics through the primes enters multiplicatively.
+Three published records make this precise for the most basic
+classification in quantum theory: the split between Bose–Einstein and
+Fermi–Dirac statistics <span class="citation"
+data-cites="quni2026stats quni2026anyons quni2026scalar">(Quni-Gudzinas
+2026c, 2026a, 2026f)</span>.</p>
+<h2 id="statistics-from-the-product-formula">2. Statistics from the
+product formula</h2>
+<p>The two statistics are read in <span class="citation"
+data-cites="quni2026stats">(Quni-Gudzinas 2026c)</span> as the
+maximum-entropy occupations of a single lattice under two multiplicity
+rules. Write an integer as a product of prime powers. If every exponent
+is unrestricted, the Euler factor at the prime <span
+class="math inline">\(p\)</span> in the Dirichlet series over integers
+is the mode partition function of an unbounded occupation number, and
+the series is the Riemann zeta function,</p>
+<p><span class="math display">\[\zeta(s) = \prod_p (1 - p^{-s})^{-1}
+.\]</span></p>
+<p>If instead each prime divides at most once — the squarefree
+restriction, <span class="math inline">\(a_p \in \{0,1\}\)</span> — the
+Euler factor becomes the mode partition function of an occupation number
+restricted to zero or one, and the series becomes a ratio of two zeta
+values,</p>
+<p><span class="math display">\[\frac{\zeta(s)}{\zeta(2s)}
+.\]</span></p>
+<p>The two mode factors are exactly the Bose–Einstein and Fermi–Dirac
+mode partition functions, and both occupation distributions are the
+unique maximum-entropy distributions under their stated constraints. The
+golden occupation numbers follow from the canonical derivative of the
+mode factors. The register is explicit: these are isomorphisms of
+mathematical structure, and no physical particle is implied by any
+step.</p>
+<p>The per-place identification was established earlier, in <span
+class="citation" data-cites="quni2026scalar">(Quni-Gudzinas
+2026f)</span>: the <span class="math inline">\(p\)</span>-adic
+maximum-entropy distribution — the geometric distribution on the
+valuation — is the Bose–Einstein occupation distribution at fugacity
+<span class="math inline">\(z = 1/p\)</span> — inverse temperature <span
+class="math inline">\(\ln p\)</span> at the <span
+class="math inline">\(p\)</span>-adic place — and the squarefree
+restriction is its Fermi–Dirac counterpart with occupation probability
+<span class="math inline">\(1/(p+1)\)</span> at the same temperature.
+The same record ties the exchange phase to the scalar family generated
+by a half-turn, a line continued from the distinction calculus in <span
+class="citation" data-cites="quni2026exchange">(Quni-Gudzinas
+2026e)</span>.</p>
+<p>What <span class="citation" data-cites="quni2026stats">(Quni-Gudzinas
+2026c)</span> left open was the interpolation between the two
+statistics. The bounded-occupation family — an occupation cap of <span
+class="math inline">\(m\)</span> per mode, with the Dirichlet series
+<span class="math inline">\(\zeta(s)/\zeta((m+1)s)\)</span> — passes
+through the bosonic case at unbounded <span
+class="math inline">\(m\)</span> and the fermionic case at <span
+class="math inline">\(m = 1\)</span>, and it was proposed there as the
+arithmetic object that intermediate, anyonic statistics must contact.
+That correspondence is settled, computationally, in <span
+class="citation" data-cites="quni2026anyons">(Quni-Gudzinas
+2026a)</span>.</p>
+<h2 id="the-anyonic-continuation-adjudicated">3. The anyonic
+continuation, adjudicated</h2>
+<p>The bounded-occupation family is the partition function of Gentile
+intermediate statistics: a cap on occupation per mode, nothing more. The
+adjudication in <span class="citation"
+data-cites="quni2026anyons">(Quni-Gudzinas 2026a)</span> is sharp. The
+family carries no exchange phase for any cap: permuting occupation
+labels yields only the signs <span class="math inline">\(+1\)</span> and
+<span class="math inline">\(-1\)</span>, every observable is invariant
+under any inserted phase, and the canonical symmetric reading assigns
+the phase <span class="math inline">\(+1\)</span> for every cap —
+including the cap that reproduces Fermi counting, where fermions carry
+<span class="math inline">\(-1\)</span>. The correspondence with Fermi
+counting is therefore a counting isomorphism, not an exchange-phase
+isomorphism. A cap on occupation is arithmetic; it is not a braid.</p>
+<p>The arithmetic objects that do carry the phases realized in the
+standard anyon models are multiplicative characters at roots of unity:
+the Laughlin exchange phase at filling <span
+class="math inline">\(1/m\)</span> is a primitive <span
+class="math inline">\(2m\)</span>-th root of unity, and the Fibonacci
+braid eigenvalues are powers of <span
+class="math inline">\(e^{i\pi/5}\)</span> <span class="citation"
+data-cites="quni2026anyons">(Quni-Gudzinas 2026a)</span>. The division
+of labor is clean: the primes give the counting and the statistics; the
+roots of unity give the phases.</p>
+<p>The same record supplies the observable that separates the arithmetic
+structure from a smooth continuum. The prime-gap structure of the primon
+gas — particles labeled by primes with energies <span
+class="math inline">\(\ln p\)</span> — makes its specific heat deviate
+from the smooth-density-of-states ideal gas at every sampled
+temperature, by up to roughly three quarters at low temperature, in both
+statistics <span class="citation"
+data-cites="quni2026anyons">(Quni-Gudzinas 2026a)</span>. This is a
+computable signature, and it is the bridge to practitioners in §5.</p>
+<h2 id="the-crosswalk-particles-as-prime-factors">4. The crosswalk:
+particles as prime factors</h2>
+<p>The three records <span class="citation"
+data-cites="quni2026stats quni2026anyons quni2026scalar">(Quni-Gudzinas
+2026c, 2026a, 2026f)</span> state their results in the language of
+Dirichlet series and valuation theory. The dictionary below translates
+each arithmetic object into the language a statistical-mechanics or
+quantum-engineering reader already uses. Nothing in the dictionary adds
+physics; it restates the published isomorphisms in adjacent terms.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Arithmetic object</th>
+<th>Physical / engineering reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>place / valuation</td>
+<td>a way of measuring size</td>
+</tr>
+<tr>
+<td>prime</td>
+<td>an independent multiplicative quantum number; a species label</td>
+</tr>
+<tr>
+<td>squarefreeness</td>
+<td>Pauli exclusion: a mode is occupied at most once</td>
+</tr>
+<tr>
+<td>unrestricted exponents</td>
+<td>Bose aggregation: a mode is occupied without bound</td>
+</tr>
+<tr>
+<td>product formula</td>
+<td>the constraint linking all scales</td>
+</tr>
+<tr>
+<td>adele ring</td>
+<td>all measurement scales in one object</td>
+</tr>
+<tr>
+<td>idele characters</td>
+<td>conserved multiplicative quantum numbers</td>
+</tr>
+<tr>
+<td>Möbius parity</td>
+<td>the bookkeeping that organizes composite, intermediate
+statistics</td>
+</tr>
+<tr>
+<td>Bruhat–Tits tree</td>
+<td>a hierarchical, tree-structured state space</td>
+</tr>
+<tr>
+<td><span class="math inline">\(p\)</span>-adic norm inequality</td>
+<td>passive error protection: errors add without amplification</td>
+</tr>
+<tr>
+<td>re-entrant mark / half-turn</td>
+<td>the generator of the exchange phase (via <span class="citation"
+data-cites="quni2026exchange">(Quni-Gudzinas 2026e)</span>)</td>
+</tr>
+</tbody>
+</table>
+<p>The central row is the second: a particle species label behaves like
+a prime factor. Species labels multiply — a state of two distinguishable
+subsystems carries a product of labels — and they do not add, exactly as
+primes multiply into integers and never add. The squarefree restriction
+says a prime divides at most once, and the Pauli principle says a mode
+is occupied at most once; the same <span
+class="math inline">\(\{0,1\}\)</span> constraint appears on both sides.
+Read this way, the Fermi–Dirac exclusion is squarefreeness, and the
+Bose–Einstein aggregation is the unrestricted lattice <span
+class="citation" data-cites="quni2026stats">(Quni-Gudzinas
+2026c)</span>.</p>
+<h2 id="what-a-practitioner-can-do">5. What a practitioner can do</h2>
+<p>Four concrete uses follow from the records, in order of increasing
+commitment.</p>
+<p><strong>The partition recipe with a built-in signature.</strong> Any
+system whose mode labels carry unique factorization — engineered
+spectra, qudit registers indexed by prime-like labels, synthetic
+lattices — admits the two readings of §2 directly: unrestricted
+occupation gives the zeta-function partition function, the squarefree
+restriction gives the ratio. The prime-gap structure then supplies a
+computable distinguishing observable: the specific heat deviates from
+the smooth-density-of-states ideal gas at every sampled temperature, by
+up to roughly three quarters at low temperature, in both statistics
+<span class="citation" data-cites="quni2026anyons">(Quni-Gudzinas
+2026a)</span>. An experimentalist who engineers the spectrum of a
+candidate “arithmetic” system gets a number to look for.</p>
+<p><strong>Passive protection through the non-Archimedean triangle
+inequality.</strong> The <span class="math inline">\(p\)</span>-adic
+norm satisfies <span class="math inline">\(\lVert x + y \rVert_p \le
+\max(\lVert x \rVert_p, \lVert y \rVert_p)\)</span>: adding two states
+never increases the size measure beyond the larger of the two. Read
+through the dictionary, the inequality reads as passive error
+protection: errors accumulate without amplification. The relaxation
+architecture of <span class="citation"
+data-cites="quni2026relaxation">(Quni-Gudzinas 2026h)</span> turns the
+same ultrametric structure into a mechanism: passive topological
+relaxation freezes a system into a protected sector without active
+correction cycles, targeting the thermodynamic wall that active error
+correction hits at scale. The architecture of <span class="citation"
+data-cites="quni2026relaxation">(Quni-Gudzinas 2026h)</span> is limited
+to abelian topological sectors — a memory, not a universal processor.
+Both readings point in the direction the energy benchmark of <span
+class="citation" data-cites="quni2026joules">(Collective and
+Quni-Gudzinas 2026)</span> prices: what a correct quantum answer costs
+in energy. A hardware architect gets a design principle — protect by
+geometry, correct by readout — and a metric to judge it against.</p>
+<p><strong>Engineered intermediate statistics, correctly
+placed.</strong> The bounded-occupation family interpolates between the
+two statistics, and per <span class="citation"
+data-cites="quni2026anyons">(Quni-Gudzinas 2026a)</span> it carries no
+exchange phase for any cap. A platform that implements Gentile-like
+occupation caps is engineering a counting interpolant, not a braid. If
+the platform’s physics involves exchange phases, those phases live at
+roots of unity — Laughlin-like fillings give primitive roots,
+Fibonacci-like braiding gives powers of <span
+class="math inline">\(e^{i\pi/5}\)</span> <span class="citation"
+data-cites="quni2026anyons">(Quni-Gudzinas 2026a)</span> — and the
+correct arithmetic objects to model them are multiplicative characters,
+not occupation caps. This distinction prevents a class of design errors
+in anyonic platforms.</p>
+<p><strong>A translation layer between communities.</strong> The
+dictionary of §4 lets number-theoretic results and statistical-mechanics
+results be checked against each other mechanically. A theorem about zeta
+ratios is a statement about occupation distributions; a measurement of a
+specific-heat deviation is a statement about prime gaps. Each side gains
+the other’s tooling.</p>
+<h2 id="proved-conjectured-disconfirmed">6. Proved, conjectured,
+disconfirmed</h2>
+<p>The program’s results separate into three classes, and the separation
+is the point.</p>
+<p><strong>Proved.</strong> The two statistics as maximum-entropy
+occupations of one lattice under two multiplicity rules <span
+class="citation" data-cites="quni2026stats">(Quni-Gudzinas
+2026c)</span>; the per-place identification at fugacity <span
+class="math inline">\(1/p\)</span> <span class="citation"
+data-cites="quni2026scalar">(Quni-Gudzinas 2026f)</span>; the
+no-exchange-phase-for-any-cap adjudication of the bounded-occupation
+family <span class="citation" data-cites="quni2026anyons">(Quni-Gudzinas
+2026a)</span>; the roots-of-unity carriers of the anyonic phases <span
+class="citation" data-cites="quni2026anyons">(Quni-Gudzinas
+2026a)</span>; the prime-gap specific-heat deviation <span
+class="citation" data-cites="quni2026anyons">(Quni-Gudzinas
+2026a)</span>. Each carries deposited verification scripts.</p>
+<p><strong>Conjectured.</strong> The Adelic Representation Theorem —
+that a system realizing a sufficiently rich hierarchy of distinctions is
+computationally equivalent to an adelic quantum computer — remains a
+conjecture with no formal proof, and it is labeled as such wherever it
+appears. It is not load-bearing for anything in this paper.</p>
+<p><strong>Disconfirmed.</strong> Findings on record that constrain the
+program rather than support it: the Fenna–Matthews–Olson coupling data
+are anti-ultrametric (cophenetic correlation 0.426, p = 0.984); a
+strict-ultrametricity spectrum hypothesis for the Wheeler–DeWitt setting
+was falsified — no finite-dimensional energy spectrum produces strict
+ultrametricity; the cosmic microwave background shows no log-periodic
+oscillations above 0.3% amplitude; exact FMO clustering is null (p =
+0.598); and a diagonal refinement in four dimensions is insufficient
+without a tree-structured clock spectrum. These nulls travel with the
+program and are cited with it. The record <span class="citation"
+data-cites="quni2026umbrella">(Quni-Gudzinas 2026g)</span> states the
+falsifiable-test framework under which these findings were produced.</p>
+<p>The map-territory discipline is stated once: the arithmetic
+identifications are claims about mathematical structure, and the
+physical labels attach at the level of statistical distributions. Where
+the records claim an identity of structure, they claim an identity of
+structure; where they propose a physical dictionary, they say so and
+write the falsification conditions.</p>
+<h2 id="where-the-premises-end">7. Where the premises end</h2>
+<p>The argument rests on a short chain, and each link is labeled.</p>
+<p>The given: <span class="math inline">\(\mathbb{Q}\)</span>,
+Ostrowski’s classification of places, and unique factorization —
+textbook mathematics. The machinery: maximum-entropy reasoning on a
+lattice of modes, the standard method of statistical mechanics. The
+proved links: the identifications of §2 and the adjudication of §3,
+exact and computationally verified <span class="citation"
+data-cites="quni2026stats quni2026anyons quni2026scalar">(Quni-Gudzinas
+2026c, 2026a, 2026f)</span>. The proposed link: attaching physical
+labels to the distributions — the identification of a physical
+temperature at the <span class="math inline">\(p\)</span>-adic place,
+the reading of species as primes. This is where the premises end. The
+algebra is exact; the dictionary is proposed; and the falsification
+conditions are written: the dictionary fails if it requires auxiliary
+assumptions beyond the published isomorphisms to reach any
+practitioner-measurable quantity, and the specific-heat signature of §5
+is a concrete place to test it.</p>
+<p>One named import remains: the spin-statistics theorem <span
+class="citation" data-cites="pauli1940">(Pauli 1940)</span>, which this
+line treats as the physical target to be recovered, not as something
+derived here.</p>
+<h2 id="related-work">8. Related work</h2>
+<p>Non-Archimedean and adelic quantum mechanics is an established
+program in the literature. Dragovich formulated <span
+class="math inline">\(p\)</span>-adic and adelic quantum mechanics and
+the adelic harmonic oscillator, unifying ordinary and <span
+class="math inline">\(p\)</span>-adic quantum mechanics on equal footing
+<span class="citation"
+data-cites="dragovich2003 dragovich2004">(Dragovich 2003, 2004)</span>.
+Zúñiga-Galindo and collaborators developed the modern <span
+class="math inline">\(p\)</span>-adic Schrödinger equation and its
+two-slit experiment <span class="citation"
+data-cites="zuniga2023slit">(Zúñiga-Galindo 2023b)</span>, the <span
+class="math inline">\(p\)</span>-adic Dirac equation with Planck-scale
+Lorentz violation <span class="citation"
+data-cites="zuniga2023dirac">(Zúñiga-Galindo 2023a)</span>, and <span
+class="math inline">\(p\)</span>-adic potential-well and quantum-walk
+models <span class="citation"
+data-cites="zuniga2024wells">(Zúñiga-Galindo and Mayes 2024)</span>.
+Mathematical foundations for <span class="math inline">\(p\)</span>-adic
+states, trace-class operators, and the symplectic and Heisenberg groups
+were supplied by Aniello, Mancini, Parisi and by Hu and Hu <span
+class="citation" data-cites="aniello2022 hu2015">(Aniello et al. 2022;
+Hu and Hu 2015)</span>.</p>
+<p>The primon gas — particles labeled by primes with energies <span
+class="math inline">\(\ln p\)</span> — is a live subject in high-energy
+theory, where it appears in the quantization of near-singularity
+gravitational dynamics and in conformal primon gases at the end of time
+<span class="citation" data-cites="hartnoll2025 declerck2025">(Hartnoll
+and Yang 2025; De Clerck et al. 2025)</span>. This line of work differs
+from those in emphasis: it does not study a <span
+class="math inline">\(p\)</span>-adic or adelic theory as an alternative
+dynamics, but reads the standard statistics themselves as the
+multiplicative structure of the integers, with the product formula as
+the invariant linking the places.</p>
+<p>Within this line of work, the Archimedean-shadow reading was
+developed in <span class="citation"
+data-cites="quni2026tate quni2026consilience quni2026units">(Quni-Gudzinas
+2026d, 2026b; Agent 2026)</span>; the umbrella thesis across seven
+domains is <span class="citation"
+data-cites="quni2026umbrella">(Quni-Gudzinas 2026g)</span>; the exchange
+phase as a logical scalar of the distinction calculus is <span
+class="citation" data-cites="quni2026exchange">(Quni-Gudzinas
+2026e)</span>; and an earlier record reads the primes as places
+(archived without a DOI). The present record consolidates the line and
+adds the crosswalk of §4 and the separation of §6.</p>
+<h2 id="limitations">9. Limitations</h2>
+<p>The dictionary of §4 is proposed, not derived: everything to its left
+is proved, everything to its right is a translation. No claim is made
+that any <span class="math inline">\(p\)</span>-adic place couples to
+measurement beyond what is on record, and the null findings of §6 bound
+the empirical content squarely. The paper claims no new physics; it
+maps, translates, and disciplines. The energy-benchmark connection of §5
+is directional — the design principle and the metric are stated, but no
+energy saving is quantified here. The prime-gap signature is computed in
+<span class="citation" data-cites="quni2026anyons">(Quni-Gudzinas
+2026a)</span> for the ideal primon gas; its realization in an engineered
+system is open.</p>
+<h2 id="reproducibility">10. Reproducibility</h2>
+<p>Every quantitative statement asserted in this record is reproduced by
+the verification suite deposited alongside it:
+<code>sim-adelic-quantum-arithmetic-verification.py</code> (Python 3,
+standard library only, deterministic — no random seeds; runtime 1.77 s
+on a consumer laptop, sieving two million primes and two million
+integers). The suite runs eighteen checks, all passing: the
+Euler-product expansion of the zeta function against pi^2/6 (relative
+error 3.2e-8); the squarefree Dirichlet series against zeta(2)/zeta(4) =
+15/pi^2 (relative error 2.0e-7); the squarefree density against 6/pi^2,
+approximately 0.607927 (absolute error 1.1e-5, inside the expected
+N^(-1/2) sampling bound); the Moebius inversion against 1/zeta(2)
+(relative error 8.5e-11); the occupation golden values 1/(p-1) and
+1/(p+1) in exact rational arithmetic at fugacity 1/p for p = 2, 3, 5, 7;
+the Gentile cap-m Euler factors against their finite geometric sums; the
+bounded-occupation factor at m = 1 against the fermionic mode factor;
+and the roots-of-unity phase bookkeeping — the Laughlin phase at filling
+1/m as a primitive 2m-th root of unity and the Fibonacci eigenvalues as
+tenth roots. The output file <code>verification-output.json</code>
+carries every check, value, expected value, and tolerance. The reference
+list is rendered from <code>references.bib</code>; every entry was
+verified against DataCite, the Zenodo records API, Crossref, or the
+arXiv API on 2026-08-27 (see <code>citation-audit.md</code>).</p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-quni2026consilience" class="csl-entry" role="listitem">
+Agent, QNFO Research. 2026. <em><span class="nocase">Consilience Between
+Physics and Number Theory: Convergent Theses from Ostrowski’s Theorem to
+Adelic Quantum Mechanics</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21590155">https://doi.org/10.5281/zenodo.21590155</a>.
+</div>
+<div id="ref-aniello2022" class="csl-entry" role="listitem">
+Aniello, Paolo, Stefano Mancini, and Vincenzo Parisi. 2022. <em><span
+class="nocase">Trace class operators and states in p-adic quantum
+mechanics</span></em>. <a
+href="https://arxiv.org/abs/2210.01566">https://arxiv.org/abs/2210.01566</a>.
+</div>
+<div id="ref-quni2026joules" class="csl-entry" role="listitem">
+Collective, QNFO Research, and Rowan Brad Quni-Gudzinas. 2026. <em><span
+class="nocase">The Joules-per-Solution Metric: Definition, Measurement
+Protocol, and Anti-Gaming Provisions for Honest Computational
+Benchmarking</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21637028">https://doi.org/10.5281/zenodo.21637028</a>.
+</div>
+<div id="ref-declerck2025" class="csl-entry" role="listitem">
+De Clerck, Marine, Sean A. Hartnoll, and Ming Yang. 2025. <em><span
+class="nocase">Wheeler-DeWitt wavefunctions for 5d BKL dynamics,
+automorphic L-functions and complex primon gases</span></em>. <a
+href="https://arxiv.org/abs/2507.08788">https://arxiv.org/abs/2507.08788</a>.
+</div>
+<div id="ref-dragovich2003" class="csl-entry" role="listitem">
+Dragovich, Branko. 2003. <em><span class="nocase">p-Adic and Adelic
+Quantum Mechanics</span></em>. <a
+href="https://arxiv.org/abs/hep-th/0312046">https://arxiv.org/abs/hep-th/0312046</a>.
+</div>
+<div id="ref-dragovich2004" class="csl-entry" role="listitem">
+Dragovich, Branko. 2004. <em><span>Adelic Harmonic
+Oscillator</span></em>. <a
+href="https://arxiv.org/abs/hep-th/0404160">https://arxiv.org/abs/hep-th/0404160</a>.
+</div>
+<div id="ref-hartnoll2025" class="csl-entry" role="listitem">
+Hartnoll, Sean A., and Ming Yang. 2025. <em><span class="nocase">The
+Conformal Primon Gas at the End of Time</span></em>. <a
+href="https://arxiv.org/abs/2502.02661">https://arxiv.org/abs/2502.02661</a>.
+</div>
+<div id="ref-hu2015" class="csl-entry" role="listitem">
+Hu, Zhi, and Sen Hu. 2015. <em><span class="nocase">Symplectic group and
+Heisenberg group in p-adic quantum mechanics</span></em>. <a
+href="https://arxiv.org/abs/1502.01789">https://arxiv.org/abs/1502.01789</a>.
+</div>
+<div id="ref-pauli1940" class="csl-entry" role="listitem">
+Pauli, W. 1940. <span>“<span class="nocase">The Connection Between Spin
+and Statistics</span>.”</span> <em>Physical Review</em> 58: 716–22. <a
+href="https://doi.org/10.1103/PhysRev.58.716">https://doi.org/10.1103/PhysRev.58.716</a>.
+</div>
+<div id="ref-quni2026anyons" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026a. <em><span class="nocase">Arithmetic
+Anyons: The Bounded-Occupation Family, Gentile Statistics, and the Roots
+of Unity That Carry Braid Phases</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22124744">https://doi.org/10.5281/zenodo.22124744</a>.
+</div>
+<div id="ref-quni2026units" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026b. <em><span
+class="nocase">Non-Anthropocentric Natural Units: From the Bekenstein
+Bound to Ostrowski’s Theorem</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21480756">https://doi.org/10.5281/zenodo.21480756</a>.
+</div>
+<div id="ref-quni2026stats" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026c. <em><span class="nocase">Quantum
+Statistics from the Adelic Product Formula: The Squarefree Origin of the
+Fermi-Dirac/Bose-Einstein Distinction</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22123068">https://doi.org/10.5281/zenodo.22123068</a>.
+</div>
+<div id="ref-quni2026tate" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026d. <em><span class="nocase">Tate’s Thesis
+as a Template for Adelic Quantum Mechanics: Local-Global Structure and
+the Emergence of Archimedean Artifacts</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21600741">https://doi.org/10.5281/zenodo.21600741</a>.
+</div>
+<div id="ref-quni2026exchange" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026e. <em><span class="nocase">The Exchange
+Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant
+Calculus</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21941184">https://doi.org/10.5281/zenodo.21941184</a>.
+</div>
+<div id="ref-quni2026scalar" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026f. <em><span class="nocase">The
+Self-Referential Scalar Family: e, the Half-Turn, and the Unification of
+Information Theory, Statistics, Thermodynamics, and QND Measurement in
+the Adelic Picture</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22035210">https://doi.org/10.5281/zenodo.22035210</a>.
+</div>
+<div id="ref-quni2026umbrella" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026g. <em><span class="nocase">The
+Ultrametric Program: One Structural Object Across Seven Research
+Domains, and Its Falsifiable Tests</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22076816">https://doi.org/10.5281/zenodo.22076816</a>.
+</div>
+<div id="ref-quni2026relaxation" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026h. <em><span class="nocase">Ultrametric
+Relaxation Dynamics in Topological Quantum Memory: Addressing the Active
+Control Limit via P-adic Solenoid Isomorphisms</span></em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.18640261">https://doi.org/10.5281/zenodo.18640261</a>.
+</div>
+<div id="ref-zuniga2023dirac" class="csl-entry" role="listitem">
+Zúñiga-Galindo, W. A. 2023a. <em><span class="nocase">p-Adic Quantum
+Mechanics, the Dirac Equation, and the violation of Einstein
+causality</span></em>. <a
+href="https://arxiv.org/abs/2312.02744">https://arxiv.org/abs/2312.02744</a>.
+</div>
+<div id="ref-zuniga2023slit" class="csl-entry" role="listitem">
+Zúñiga-Galindo, W. A. 2023b. <em><span class="nocase">The p-Adic
+Schr<span class="nocase">ö</span>dinger Equation and the Two-slit
+Experiment in Quantum Mechanics</span></em>. <a
+href="https://arxiv.org/abs/2308.01283">https://arxiv.org/abs/2308.01283</a>.
+</div>
+<div id="ref-zuniga2024wells" class="csl-entry" role="listitem">
+Zúñiga-Galindo, W. A., and Nathaniel P. Mayes. 2024. <em><span
+class="nocase">p-Adic quantum mechanics, infinite potential wells, and
+continuous-time quantum walks</span></em>. <a
+href="https://arxiv.org/abs/2410.13048">https://arxiv.org/abs/2410.13048</a>.
+</div>
+</div>
+</body>
+</html>

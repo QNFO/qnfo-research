@@ -22,6 +22,7 @@ artifacts/verification/verification-output.json.
 import cmath
 import json
 import math
+import os
 import sys
 import time
 from fractions import Fraction
@@ -164,7 +165,7 @@ summary = {
     "N_SUM": N_SUM,
 }
 result = {"summary": summary, "checks": OUT}
-out_path = sys.argv[1] if len(sys.argv) > 1 else "artifacts/verification/verification-output.json"
+out_path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "verification-output.json")
 with open(out_path, "w", encoding="utf-8") as f:
     json.dump(result, f, indent=2)
 print(json.dumps(summary))
