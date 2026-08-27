@@ -34,7 +34,7 @@ All resolved slugs consistent with registry/D1/KG: no slug→DOI mismatches foun
 - Riemann gas / primon gas: Julia (1990), Spector (1990), Bakas–Bowick (1991) and successors — squarefree↔Fermi identification precedent.
 - Euler's distinct-part partition identity (generating functions ∏(1+q^n) vs ∏(1−q^n)^{-1}).
 - Adelic product formula standard texts.
-- Post-2020 arXiv: statistics from adelic/product-formula constructions.
+- Post-2020 arXiv: statistics from adelic/product-formula constructions. **Wave-2 verified (get_abstract + OpenAlex, 2026-08-27 — all confirmed on-topic):** 2502.02661 Hartnoll–Yang (Conformal Primon Gas); 2602.11927 Baytaş–Rodrigues–Yokomizo (Bosonic and fermionic statistics in nonperturbative QG); 2505.17361 Zhou–Chen–Chen–Shen–Zhang–Dai (3D exclusivity); 1106.1166 Matthews et al.; 0903.2664 Combescot–Dubin–Dupertuis (composite bosons); 2306.05919 Medina Sánchez–Dakić (transtatistics); 0708.2567 Timberlake–Tucker; 2308.05203 Wang–Hazzard (parastatistics); hep-th/0308095 Huang; 1201.6541 Sanchis-Lozano et al. Contested-claim watch (only in the source note, not propagated into the paper without hedging): "coherent exciton transport helps energy transfer" (Engel 2007 and critics). Corpus-hygiene observation (not this project's block; Tier-4 queue): D1/KG carry legacy ignorance-record DOIs 21878977/21878976 vs canonical 21901983/21901984.
 
 ## Gap statement vs RES.009 (exact wording extracted 2026-08-27)
 
