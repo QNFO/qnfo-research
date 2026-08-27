@@ -1,0 +1,19 @@
+PASS  S9a geometric q=0.5000 first-order | worst |<d, grad H>| = 1.02e-14
+PASS  S9a geometric q=0.5000 strict concavity | Hessian diag(-1/q_n) < 0 on support [0,91]
+PASS  S9a geometric q=0.2000 first-order | worst |<d, grad H>| = 8.85e-15
+PASS  S9a geometric q=0.2000 strict concavity | Hessian diag(-1/q_n) < 0 on support [0,42]
+PASS  S9a geometric q=0.1429 first-order | worst |<d, grad H>| = 7.51e-15
+PASS  S9a geometric q=0.1429 strict concavity | Hessian diag(-1/q_n) < 0 on support [0,35]
+PASS  S9b Bernoulli m=0.2 uniqueness + exponential family | constraint rank 2 (det=1.0); affinity residual 0.00e+00
+PASS  S9b Bernoulli m=0.5 uniqueness + exponential family | constraint rank 2 (det=1.0); affinity residual 0.00e+00
+PASS  S9c truncated-geometric z=0.500 m=3 | first-order 1.42e-15; strict concavity True
+PASS  S9c truncated-geometric z=0.200 m=5 | first-order 6.11e-16; strict concavity True
+PASS  S9c truncated-geometric z=0.333 m=10 | first-order 1.64e-15; strict concavity True
+PASS  S9d m=1 recovers Fermi golden z=0.5 | mean=0.3333333333 vs 1/(e^x+1)=0.3333333333
+PASS  S9d m=1 recovers Fermi golden z=1.0 | mean=0.5000000000 vs 1/(e^x+1)=0.5000000000
+PASS  S9d m=1 recovers Fermi golden z=2.0 | mean=0.6666666667 vs 1/(e^x+1)=0.6666666667
+PASS  S9d m->inf recovers Bose golden z=0.50 | mean=1.0000000000 vs 1/(e^x-1)=1.0000000000
+PASS  S9d m->inf recovers Bose golden z=0.20 | mean=0.2500000000 vs 1/(e^x-1)=0.2500000000
+
+RESULT: 16/16 PASS
+ALL CHECKS PASS

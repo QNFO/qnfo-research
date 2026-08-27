@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "CANON",
+    "concept": "fermionic primon gas prod_p(1+p^-s) = zeta/zeta(2s)",
+    "status": "published",
+    "detail": "verified err 4.91e-12"
+  },
+  {
+    "tag": "CANON",
+    "concept": "bosonic primon gas prod_p(1-p^-s)^-1 = zeta(s)",
+    "status": "published",
+    "detail": "verified err 5.03e-12"
+  },
+  {
+    "tag": "DELTA",
+    "concept": "bounded occupancy a_p<=m: zeta(s)/zeta((m+1)s)",
+    "status": "novel-program",
+    "detail": "m=2 verified err 4.36e-12 (interpolates Fermi<->Bose)"
+  },
+  {
+    "tag": "CITED",
+    "concept": "per-distinction rate gamma = 1/N (finite-distinction mixing)",
+    "status": "imported-RES.021",
+    "detail": "eigenvalue 1-1/N of T = Id-(1/N)(Id-P_bar); gamma=0.015625"
+  },
+  {
+    "tag": "DELTA",
+    "concept": "Moebius-parity composite table (identification, not derivation)",
+    "status": "dictionary-F5",
+    "detail": "parity table verified: True"
+  },
+  {
+    "tag": "DELTA",
+    "concept": "product-formula normalization as audit invariant",
+    "status": "frame",
+    "detail": "prod_v |30/77|_v = 1"
+  }
+]

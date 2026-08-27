@@ -1,0 +1,86 @@
+{
+  "passed": 16,
+  "total": 16,
+  "results": [
+    {
+      "check": "S9a geometric q=0.5000 first-order",
+      "pass": true,
+      "detail": "worst |<d, grad H>| = 1.02e-14"
+    },
+    {
+      "check": "S9a geometric q=0.5000 strict concavity",
+      "pass": true,
+      "detail": "Hessian diag(-1/q_n) < 0 on support [0,91]"
+    },
+    {
+      "check": "S9a geometric q=0.2000 first-order",
+      "pass": true,
+      "detail": "worst |<d, grad H>| = 8.85e-15"
+    },
+    {
+      "check": "S9a geometric q=0.2000 strict concavity",
+      "pass": true,
+      "detail": "Hessian diag(-1/q_n) < 0 on support [0,42]"
+    },
+    {
+      "check": "S9a geometric q=0.1429 first-order",
+      "pass": true,
+      "detail": "worst |<d, grad H>| = 7.51e-15"
+    },
+    {
+      "check": "S9a geometric q=0.1429 strict concavity",
+      "pass": true,
+      "detail": "Hessian diag(-1/q_n) < 0 on support [0,35]"
+    },
+    {
+      "check": "S9b Bernoulli m=0.2 uniqueness + exponential family",
+      "pass": true,
+      "detail": "constraint rank 2 (det=1.0); affinity residual 0.00e+00"
+    },
+    {
+      "check": "S9b Bernoulli m=0.5 uniqueness + exponential family",
+      "pass": true,
+      "detail": "constraint rank 2 (det=1.0); affinity residual 0.00e+00"
+    },
+    {
+      "check": "S9c truncated-geometric z=0.500 m=3",
+      "pass": true,
+      "detail": "first-order 1.42e-15; strict concavity True"
+    },
+    {
+      "check": "S9c truncated-geometric z=0.200 m=5",
+      "pass": true,
+      "detail": "first-order 6.11e-16; strict concavity True"
+    },
+    {
+      "check": "S9c truncated-geometric z=0.333 m=10",
+      "pass": true,
+      "detail": "first-order 1.64e-15; strict concavity True"
+    },
+    {
+      "check": "S9d m=1 recovers Fermi golden z=0.5",
+      "pass": true,
+      "detail": "mean=0.3333333333 vs 1/(e^x+1)=0.3333333333"
+    },
+    {
+      "check": "S9d m=1 recovers Fermi golden z=1.0",
+      "pass": true,
+      "detail": "mean=0.5000000000 vs 1/(e^x+1)=0.5000000000"
+    },
+    {
+      "check": "S9d m=1 recovers Fermi golden z=2.0",
+      "pass": true,
+      "detail": "mean=0.6666666667 vs 1/(e^x+1)=0.6666666667"
+    },
+    {
+      "check": "S9d m->inf recovers Bose golden z=0.50",
+      "pass": true,
+      "detail": "mean=1.0000000000 vs 1/(e^x-1)=1.0000000000"
+    },
+    {
+      "check": "S9d m->inf recovers Bose golden z=0.20",
+      "pass": true,
+      "detail": "mean=0.2500000000 vs 1/(e^x-1)=0.2500000000"
+    }
+  ]
+}

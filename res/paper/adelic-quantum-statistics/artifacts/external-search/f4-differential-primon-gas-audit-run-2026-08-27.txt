@@ -1,0 +1,17 @@
+==============================================================================================================
+F4 DIFFERENTIAL PRIMON-GAS AUDIT — QNFO.RES.027 (2026-08-27)
+==============================================================================================================
+CANON    | fermionic primon gas prod_p(1+p^-s) = zeta/zeta(2s) | published | verified err 4.91e-12
+CANON    | bosonic primon gas prod_p(1-p^-s)^-1 = zeta(s)   | published | verified err 5.03e-12
+DELTA    | bounded occupancy a_p<=m: zeta(s)/zeta((m+1)s)   | novel-program | m=2 verified err 4.36e-12 (interpolates Fermi<->Bose)
+CITED    | per-distinction rate gamma = 1/N (finite-distinction mixing) | imported-RES.021 | eigenvalue 1-1/N of T = Id-(1/N)(Id-P_bar); gamma=0.015625
+DELTA    | Moebius-parity composite table (identification, not derivation) | dictionary-F5 | parity table verified: True
+DELTA    | product-formula normalization as audit invariant | frame    | prod_v |30/77|_v = 1
+==============================================================================================================
+SCOPE VERDICT: the primon-gas CANON covers the per-place occupation
+identifications (CANON rows, published 1990-1991 and later). RES.027's
+novel delta is: the bounded-occupancy interpolation family (F6 program),
+the Moebius-parity dictionary (F5), the gamma=1/N machinery (cited from
+RES.021), and the product-formula audit frame. No DELTA row reproduces a
+CANON row.
+==============================================================================================================
