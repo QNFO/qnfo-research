@@ -1,0 +1,19 @@
+{
+  "query": "\"primon gas\" OR \"Riemann gas\" zeta function statistics",
+  "source": "arxiv-mcp-server search_papers",
+  "retrieved": "2026-08-27",
+  "total_results": 684178,
+  "returned": 10,
+  "papers": [
+    {"id": "2502.02661", "title": "The Conformal Primon Gas at the End of Time", "authors": ["Sean A. Hartnoll", "Ming Yang"], "categories": ["hep-th"], "published": "2025-02-04", "note": "RES.027 @hartnoll2025 anchor"},
+    {"id": "2012.14841", "title": "Zeta statistics and Hadamard functions", "authors": ["Margaret Bilu", "Ronno Das", "Sean Howe"], "categories": ["math.AG", "math.NT"], "published": "2020-12-29"},
+    {"id": "2411.15377", "title": "P-adic numbers and kernels", "authors": ["Simone Franchini"], "categories": ["cond-mat.dis-nn", "cond-mat.stat-mech"], "published": "2024-11-22"},
+    {"id": "1401.8190", "title": "Thermodynamics of the Bosonic Randomized Riemann Gas", "authors": ["J. G. Dueñas", "N. F. Svaiter"], "categories": ["math-ph", "cond-mat.dis-nn", "hep-th", "math.NT"], "published": "2014-01-31", "note": "prior art for H2: Riemann-gas thermodynamics with randomized Hamiltonian ensemble"},
+    {"id": "2102.02280", "title": "Prime zeta function statistics and Riemann zero-difference repulsion", "authors": ["Gordon Chavez", "Altan Allawala"], "categories": ["math.NT", "cond-mat.stat-mech", "math-ph", "math.PR"], "published": "2021-02-03"},
+    {"id": "1302.1452", "title": "Statistical properties of zeta functions' zeros", "authors": ["Vladislav Kargin"], "categories": ["math.PR", "math.NT"], "published": "2013-02-06"},
+    {"id": "math/0208220", "title": "Linear statistics for zeros of Riemann's zeta function", "authors": ["C. P. Hughes", "Z. Rudnick"], "categories": ["math.NT"], "published": "2002-08-28"},
+    {"id": "chao-dyn/9409004", "title": "Statistical Properties of the Zeros of Zeta Functions - Beyond the Riemann Case", "authors": ["E. Bogomolny", "P. Leboeuf"], "categories": ["nlin.CD"], "published": "1994-09-16"},
+    {"id": "math/0612550", "title": "Statistical regularities in the zeta zeros", "authors": ["A. M. Edgington"], "categories": ["math.NT"], "published": "2006-12-19"},
+    {"id": "1802.01971", "title": "Supersymmetric dynamics and zeta-functions", "authors": ["Nugzar Makhaldiani"], "categories": ["physics.gen-ph", "hep-th"], "published": "2018-02-01", "note": "\"fermion factorization of the bosonic statistical sum\" — the zeta(s)/zeta(2s) squarefree<->fermion factorization is external prior art"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "query": "Haldane exclusion statistics fractional anyon braid phase",
+  "source": "arxiv-mcp-server search_papers",
+  "retrieved": "2026-08-27",
+  "total_results": 532896,
+  "returned": 10,
+  "papers": [
+    {"id": "cond-mat/9411008", "title": "Fractional Exclusion Statistics and Anyons", "authors": ["Wei Chen", "Y. Jack Ng"], "categories": ["cond-mat", "hep-th"], "published": "1994-11-01", "note": "HES<->braid: perturbative coincidence requires anyon-anti-anyon statistical interaction — regime-restricted, not general"},
+    {"id": "1101.4436", "title": "Joule-Thomson coefficient of ideal anyons within fractional exclusion statistics", "authors": ["Fang Qin", "Ji-sheng Chen"], "categories": ["cond-mat.stat-mech"], "published": "2011-01-24"},
+    {"id": "2309.04358", "title": "Beyond braid statistics: Constructing a lattice model for anyons with exchange statistics intrinsic to one dimension", "authors": ["Sebastian Nagies", "Botao Wang", "A. C. Knapp", "André Eckardt", "N. L. Harshman"], "categories": ["cond-mat.quant-gas", "quant-ph"], "published": "2023-09-08"},
+    {"id": "cond-mat/0603643", "title": "The 1D interacting anyon gas: low-energy properties and Haldane exclusion statistics", "authors": ["M. T. Batchelor", "X. -W. Guan", "N. Oelkers"], "categories": ["cond-mat.stat-mech"], "published": "2006-03-24"},
+    {"id": "1512.01783", "title": "Hall effect, edge states and Haldane exclusion statistics in two-dimensional space", "authors": ["F. Ye", "P. A. Marchetti", "Z. B. Su", "L. Yu"], "categories": ["cond-mat.str-el", "cond-mat.stat-mech", "hep-th"], "published": "2015-12-06", "note": "non-perturbative: HES exists for incompressible anyon liquid with Hall edge ONLY — the key regime-restriction anchor for C1"},
+    {"id": "0707.1011", "title": "Statistical Phases and Momentum Spacings for One-Dimensional Anyons", "authors": ["Martin Greiter"], "categories": ["quant-ph", "cond-mat.str-el", "math-ph"], "published": "2007-07-06"},
+    {"id": "2510.04319", "title": "Braids and Beams: Exploring Fractional Statistics with Mesoscopic Anyon Colliders", "authors": ["Bernd Rosenow", "Bertrand I. Halperin"], "categories": ["cond-mat.mes-hall", "cond-mat.str-el"], "published": "2025-10-05"},
+    {"id": "cond-mat/9408015", "title": "Haldane's Fractional Exclusion Statistics for Multicomponent Systems", "authors": ["Takahiro Fukui", "Norio Kawakami"], "categories": ["cond-mat", "hep-th"], "published": "1994-08-04"},
+    {"id": "2209.15461", "title": "Partitioning of Diluted Anyons Reveals their Braiding Statistics", "authors": ["June-Young M. Lee", "Changki Hong", "Tomer Alkalay", "Noam Schiller", "Vladimir Umansky", "Moty Heiblum", "Yuval Oreg", "H. -S. Sim"], "categories": ["cond-mat.mes-hall", "cond-mat.str-el"], "published": "2022-09-30", "note": "experimental braid-phase measurement (anyon collider) — the observable class C1 compares against"},
+    {"id": "cond-mat/9510046", "title": "Turning Bosons into Fermions: Exclusion Statistics, Fractional Statistics and the Simple Harmonic Oscillator", "authors": ["A. D. Speliotopoulos"], "categories": ["cond-mat", "hep-th", "math.QA", "quant-ph"], "published": "1995-10-10"}
+  ]
+}
