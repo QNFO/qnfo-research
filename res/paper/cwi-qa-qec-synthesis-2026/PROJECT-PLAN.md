@@ -6,9 +6,16 @@
 - **Repo/Branch:** QNFO/qnfo-research @ res/paper/cwi-qa-qec-synthesis-2026
 - **Phase:** P0 (this plan) — roadmap P1 → P8 below
 
-## Core claim (provisional; locked at P6)
+## Core claim (LOCKED at P6 — 2026-08-26)
 
-Taken as a snapshot of the field's self-presentation, the CWI summer school's shared slide decks — 7 PDFs retrieved 2026-08-26 from the organizers' SURFdrive share (link and password distributed in the organizers' "Slides summer school" email, 2026-08-25) — quantify every cost of fault-tolerant quantum computation **except energy**. The decks state physical-qubit overheads (10⁷–10⁸ for RSA-2048 under concatenation, Leverrier-1 slide 15; ~10⁵ per Pinnacle, arXiv:2602.11457; ~10⁴ per Cain et al., arXiv:2603.28627), decoder latency budgets ("time complexity at most (roughly) linear in n", streaming/window decoders, Leverrier-2 slide 18), and training costs (ML decoders, Leverrier-2 slide 14); across ~150 slides there is no energy number. The decks' own caveats — "hardware progress alone won't get us there!", "QLDPC decoding is still wide open", "interesting theory results, maybe not so useful in practice" — undercut the "QEC as a done deal" reading more sharply than any external critic could.
+Taken as a snapshot of the field's self-presentation, the CWI summer school's shared slide decks — seven PDFs retrieved 2026-08-26 from the organizers' SURFdrive share — price every cost of fault-tolerant quantum computation except energy. The decks state physical-qubit overhead (1e7–1e8 for RSA-2048 under concatenation, Leverrier-1 slide 11; below 1e5 per Pinnacle, arXiv:2602.11457; 1e4 per Cain et al., arXiv:2603.28627), decoder budgets in time (linear-in-n with streaming decoders, Leverrier-2 slide 15; heavy runtime tails, slide 10; expensive training, slide 11), and code overhead in rate and distance (gross code [[144,12,12]] and successors, slides 32–39). The full-text energy-term scan across the seven extracted deck texts returns zero occurrences of its term list; there is consequently no energy quantity anywhere in the curriculum. The decks' own caveats state the field's limits. The claim is documentation-level — it is about what the curriculum publishes, scoped to the materials as retrieved on 2026-08-26 — and asserts no hardware fact.
+
+## Falsifiers (locked with the claim)
+
+- **F1 (scan):** any pricing-statement hit from `artifacts/verification/energy_scan.py` (energy term + number + unit within ±200 chars) fails the zero-occurrence claim; section 3 must be amended with the hit.
+- **F2 (trace):** any verbatim quote failing `artifacts/verification/quote_trace.py` means that passage is not on its cited slide; the citation must be corrected or removed.
+- **F3 (share):** any deck added to the share after 2026-08-26 containing an energy quantity triggers the scope clause (retrieval-date corpus); the claim is re-scoped, never silently extended.
+- **F4 (citations):** any reference resolving to a different record (DOI/arXiv) than cited fails citation integrity; P3.AUTHOR-GATE re-run required.
 
 ## SO-WHAT
 
@@ -49,4 +56,4 @@ A practitioner reads the synthesis and gets: (1) a table of the overhead numbers
 
 ## Roadmap
 
-P1 due-diligence (corpus + external; HARD-GATED after this P0 commit) → P2 gap analysis → P3 draft → P4 computational verification → P5 red team → P6 core-claim lock → P7 deposit prep → P8 publish (Zenodo + R2 mirror + D1/KG distribution).
+P1 due-diligence ✅ (2026-08-26) → P2 gap analysis ✅ → P3 draft ✅ → P4 computational verification ✅ → P5 red team ✅ → P6 core-claim lock ✅ → **P7 rendering gates** → P8 publish (Zenodo + R2 mirror + D1/KG distribution).
