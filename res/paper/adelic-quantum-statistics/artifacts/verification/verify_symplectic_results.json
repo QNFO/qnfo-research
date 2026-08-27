@@ -1,0 +1,176 @@
+{
+  "passed": 34,
+  "total": 34,
+  "results": [
+    {
+      "check": "F3a Fisher Hessian N=4 p_N=0.435",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 2.51e-06"
+    },
+    {
+      "check": "F3a Fisher Hessian N=4 p_N=0.436",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 2.32e-06"
+    },
+    {
+      "check": "F3a Fisher Hessian N=4 p_N=0.450",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 2.55e-06"
+    },
+    {
+      "check": "F3a Fisher Hessian N=4 p_N=0.250",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 1.93e-06"
+    },
+    {
+      "check": "F3a Fisher Hessian N=8 p_N=0.271",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 3.58e-06"
+    },
+    {
+      "check": "F3a Fisher Hessian N=8 p_N=0.191",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 2.70e-06"
+    },
+    {
+      "check": "F3a Fisher Hessian N=8 p_N=0.234",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 1.84e-06"
+    },
+    {
+      "check": "F3a Fisher Hessian N=8 p_N=0.125",
+      "pass": true,
+      "detail": "worst |numeric - closed form| = 2.06e-06"
+    },
+    {
+      "check": "F3b L skew w.r.t. g N=8",
+      "pass": true,
+      "detail": "worst |g(Lv,w)+g(v,Lw)| = 2.22e-16"
+    },
+    {
+      "check": "F3c Fourier eigenvalues N=8",
+      "pass": true,
+      "detail": "worst |L e_k - (-i sin) e_k| = 3.14e-15"
+    },
+    {
+      "check": "F3d omega = gL antisymmetric N=8",
+      "pass": true,
+      "detail": "worst |Om+Om^T| = 0.00e+00"
+    },
+    {
+      "check": "F3e J^2 eigenvalues = -sin^2 N=8",
+      "pass": true,
+      "detail": "worst err = 1.33e-15"
+    },
+    {
+      "check": "F3e finite-N J^2 != -1 (k=1) N=8",
+      "pass": true,
+      "detail": "J^2(k=1) = -0.500000 vs -1 (deviation 0.500000)"
+    },
+    {
+      "check": "F3f Hilbert H^2 = -1 on mean-zero modes N=8",
+      "pass": true,
+      "detail": "worst |H^2 v + v| = 6.66e-16"
+    },
+    {
+      "check": "F3g L_B symmetric w.r.t. g N=8",
+      "pass": true,
+      "detail": "worst |g(LB v,w)-g(v,LB w)| = 1.11e-16"
+    },
+    {
+      "check": "F3g J_B^2 eigenvalues = cos^2 >= 0 N=8",
+      "pass": true,
+      "detail": "worst err = 1.33e-15 (no complex structure on the Bose side)"
+    },
+    {
+      "check": "F3b L skew w.r.t. g N=16",
+      "pass": true,
+      "detail": "worst |g(Lv,w)+g(v,Lw)| = 8.88e-16"
+    },
+    {
+      "check": "F3c Fourier eigenvalues N=16",
+      "pass": true,
+      "detail": "worst |L e_k - (-i sin) e_k| = 6.65e-15"
+    },
+    {
+      "check": "F3d omega = gL antisymmetric N=16",
+      "pass": true,
+      "detail": "worst |Om+Om^T| = 0.00e+00"
+    },
+    {
+      "check": "F3e J^2 eigenvalues = -sin^2 N=16",
+      "pass": true,
+      "detail": "worst err = 2.66e-15"
+    },
+    {
+      "check": "F3e finite-N J^2 != -1 (k=1) N=16",
+      "pass": true,
+      "detail": "J^2(k=1) = -0.146447 vs -1 (deviation 0.853553)"
+    },
+    {
+      "check": "F3f Hilbert H^2 = -1 on mean-zero modes N=16",
+      "pass": true,
+      "detail": "worst |H^2 v + v| = 1.64e-15"
+    },
+    {
+      "check": "F3g L_B symmetric w.r.t. g N=16",
+      "pass": true,
+      "detail": "worst |g(LB v,w)-g(v,LB w)| = 2.22e-16"
+    },
+    {
+      "check": "F3g J_B^2 eigenvalues = cos^2 >= 0 N=16",
+      "pass": true,
+      "detail": "worst err = 2.66e-15 (no complex structure on the Bose side)"
+    },
+    {
+      "check": "F3b L skew w.r.t. g N=32",
+      "pass": true,
+      "detail": "worst |g(Lv,w)+g(v,Lw)| = 1.78e-15"
+    },
+    {
+      "check": "F3c Fourier eigenvalues N=32",
+      "pass": true,
+      "detail": "worst |L e_k - (-i sin) e_k| = 1.72e-14"
+    },
+    {
+      "check": "F3d omega = gL antisymmetric N=32",
+      "pass": true,
+      "detail": "worst |Om+Om^T| = 0.00e+00"
+    },
+    {
+      "check": "F3e J^2 eigenvalues = -sin^2 N=32",
+      "pass": true,
+      "detail": "worst err = 5.66e-15"
+    },
+    {
+      "check": "F3e finite-N J^2 != -1 (k=1) N=32",
+      "pass": true,
+      "detail": "J^2(k=1) = -0.038060 vs -1 (deviation 0.961940)"
+    },
+    {
+      "check": "F3f Hilbert H^2 = -1 on mean-zero modes N=32",
+      "pass": true,
+      "detail": "worst |H^2 v + v| = 3.61e-15"
+    },
+    {
+      "check": "F3g L_B symmetric w.r.t. g N=32",
+      "pass": true,
+      "detail": "worst |g(LB v,w)-g(v,LB w)| = 1.78e-15"
+    },
+    {
+      "check": "F3g J_B^2 eigenvalues = cos^2 >= 0 N=32",
+      "pass": true,
+      "detail": "worst err = 5.66e-15 (no complex structure on the Bose side)"
+    },
+    {
+      "check": "F3h J^2(theta=0.785) != -1 (dev 0.500)",
+      "pass": true,
+      "detail": "raw generator stays away from J^2=-1; only the sign-normalized H gives it"
+    },
+    {
+      "check": "F3h J^2(theta=1.178) != -1 (dev 0.146)",
+      "pass": true,
+      "detail": "raw generator stays away from J^2=-1; only the sign-normalized H gives it"
+    }
+  ]
+}

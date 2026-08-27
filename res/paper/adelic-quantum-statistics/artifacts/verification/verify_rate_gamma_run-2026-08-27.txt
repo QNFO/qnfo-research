@@ -1,0 +1,18 @@
+PASS  F2a eigenvalue structure N=2 | uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.500000)
+PASS  F2a eigenvalue structure N=4 | uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.250000)
+PASS  F2a eigenvalue structure N=8 | uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.125000)
+PASS  F2a eigenvalue structure N=16 | uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.062500)
+PASS  F2a eigenvalue structure N=32 | uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.031250)
+PASS  F2a eigenvalue structure N=64 | uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.015625)
+PASS  F2b MC autocorr N=2 | worst |raw-theo| = 0.0110 (3-sigma~0.034); scaled diag [-0.006 0.020 -0.044 0.032]
+PASS  F2b MC autocorr N=4 | worst |raw-theo| = 0.0105 (3-sigma~0.034); scaled diag [0.181 0.064 -0.043 0.008]
+PASS  F2b MC autocorr N=8 | worst |raw-theo| = 0.0058 (3-sigma~0.034); scaled diag [0.566 0.278 0.063 0.003]
+PASS  F2b MC autocorr N=16 | worst |raw-theo| = 0.0034 (3-sigma~0.034); scaled diag [0.770 0.582 0.300 0.095]
+PASS  F2b MC autocorr N=32 | worst |raw-theo| = 0.0040 (3-sigma~0.034); scaled diag [0.942 0.860 0.628 0.282]
+PASS  F2b MC autocorr N=64 | worst |raw-theo| = 0.0049 (3-sigma~0.034); scaled diag [0.634 0.537 0.439 0.309]
+PASS  F2c S2 guard N=4 heterogeneous | kappa_0=0.100000 != 1/N=0.250000 -> per-distinction rate is kappa_i, not 1/N
+PASS  F2c S2 guard N=8 heterogeneous | kappa_0=0.027778 != 1/N=0.125000 -> per-distinction rate is kappa_i, not 1/N
+PASS  F2d log-log slope = -1 | slope=-1.0000000000
+
+RESULT: 15/15 PASS
+ALL CHECKS PASS

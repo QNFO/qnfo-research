@@ -1,0 +1,81 @@
+{
+  "passed": 15,
+  "total": 15,
+  "results": [
+    {
+      "check": "F2a eigenvalue structure N=2",
+      "pass": true,
+      "detail": "uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.500000)"
+    },
+    {
+      "check": "F2a eigenvalue structure N=4",
+      "pass": true,
+      "detail": "uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.250000)"
+    },
+    {
+      "check": "F2a eigenvalue structure N=8",
+      "pass": true,
+      "detail": "uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.125000)"
+    },
+    {
+      "check": "F2a eigenvalue structure N=16",
+      "pass": true,
+      "detail": "uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.062500)"
+    },
+    {
+      "check": "F2a eigenvalue structure N=32",
+      "pass": true,
+      "detail": "uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.031250)"
+    },
+    {
+      "check": "F2a eigenvalue structure N=64",
+      "pass": true,
+      "detail": "uniform fixed err=0.0e+00; mean-zero eigval err=0.0e+00 (gamma=1/N=0.015625)"
+    },
+    {
+      "check": "F2b MC autocorr N=2",
+      "pass": true,
+      "detail": "worst |raw-theo| = 0.0110 (3-sigma~0.034); scaled diag [-0.006 0.020 -0.044 0.032]"
+    },
+    {
+      "check": "F2b MC autocorr N=4",
+      "pass": true,
+      "detail": "worst |raw-theo| = 0.0105 (3-sigma~0.034); scaled diag [0.181 0.064 -0.043 0.008]"
+    },
+    {
+      "check": "F2b MC autocorr N=8",
+      "pass": true,
+      "detail": "worst |raw-theo| = 0.0058 (3-sigma~0.034); scaled diag [0.566 0.278 0.063 0.003]"
+    },
+    {
+      "check": "F2b MC autocorr N=16",
+      "pass": true,
+      "detail": "worst |raw-theo| = 0.0034 (3-sigma~0.034); scaled diag [0.770 0.582 0.300 0.095]"
+    },
+    {
+      "check": "F2b MC autocorr N=32",
+      "pass": true,
+      "detail": "worst |raw-theo| = 0.0040 (3-sigma~0.034); scaled diag [0.942 0.860 0.628 0.282]"
+    },
+    {
+      "check": "F2b MC autocorr N=64",
+      "pass": true,
+      "detail": "worst |raw-theo| = 0.0049 (3-sigma~0.034); scaled diag [0.634 0.537 0.439 0.309]"
+    },
+    {
+      "check": "F2c S2 guard N=4 heterogeneous",
+      "pass": true,
+      "detail": "kappa_0=0.100000 != 1/N=0.250000 -> per-distinction rate is kappa_i, not 1/N"
+    },
+    {
+      "check": "F2c S2 guard N=8 heterogeneous",
+      "pass": true,
+      "detail": "kappa_0=0.027778 != 1/N=0.125000 -> per-distinction rate is kappa_i, not 1/N"
+    },
+    {
+      "check": "F2d log-log slope = -1",
+      "pass": true,
+      "detail": "slope=-1.0000000000"
+    }
+  ]
+}
