@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """edges_only.py — insert the KG edges with the corrected JPC.003 target id."""
-import json, os, time, urllib.request
+import hashlib, json, os, time, urllib.request
 
 CF_TOKEN = open(r"C:\Users\LENOVO\tokens\cloudflare", encoding="utf-8").read().strip()
 CF_ACCT = "edb167b78c9fb901ea5bca3ce58ccc4b"
@@ -49,7 +49,8 @@ edges = [
 ]
 n = 0
 for s, t, r in edges:
-    d1("INSERT INTO edges (source_id, target_id, relationship_type) VALUES (?,?,?)", [s, t, r])
+    eid = "e-" + hashlib.sha256(("%s|%s|%s" % (s, t, r)).encode("utf-8")).hexdigest()[:24]
+    d1("INSERT OR IGNORE INTO edges (id, source_id, target_id, relationship_type) VALUES (?,?,?,?)", [eid, s, t, r])
     n += 1
     print("edge", n, s, "->", t, r)
 print("EDGES DONE", n)

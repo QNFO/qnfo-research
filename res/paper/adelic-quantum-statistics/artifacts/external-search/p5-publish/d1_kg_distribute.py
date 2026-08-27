@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """d1_kg_distribute.py — QNFO.RES.027 P8: D1 + KG + registry distribution (2026-08-27)."""
-import json, os, time, urllib.request, urllib.error
+import hashlib, json, os, time, urllib.request, urllib.error
 
 CF_TOKEN = open(r"C:\Users\LENOVO\tokens\cloudflare", encoding="utf-8").read().strip()
 CF_ACCT = "edb167b78c9fb901ea5bca3ce58ccc4b"
@@ -108,12 +108,13 @@ edges = [
     ("paper:adelic-quantum-statistics", "paper:spin-statistics-distinction", "BUILDS_ON"),
     ("paper:adelic-quantum-statistics", "paper:exchange-phase-logical-scalar", "BUILDS_ON"),
     ("paper:adelic-quantum-statistics", "paper:tyranny-of-the-plus-minus-one", "BUILDS_ON"),
-    ("paper:adelic-quantum-statistics", "paper:jpcub-qec-landauer", "BUILDS_ON"),
+    ("paper:adelic-quantum-statistics", "QNFO.JPC.003", "BUILDS_ON"),
     ("paper:adelic-quantum-statistics", "paper:pattern-particle-unification", "BRIDGES"),
     ("paper:adelic-quantum-statistics", "paper:signal-worker-boundary-confinement", "BRIDGES"),
 ]
 for s, t, r in edges:
-    d1(DB_GRAPH, "INSERT INTO edges (source_id, target_id, relationship_type) VALUES (?,?,?)", [s, t, r])
+    eid = "e-" + hashlib.sha256(("%s|%s|%s" % (s, t, r)).encode("utf-8")).hexdigest()[:24]
+    d1(DB_GRAPH, "INSERT OR IGNORE INTO edges (id, source_id, target_id, relationship_type) VALUES (?,?,?,?)", [eid, s, t, r])
 log("KG edges inserted: %d" % len(edges))
 
 # 5. program_registry re-point (PUBLISH-CHECKLIST-PORTFOLIO-REPOINT-1)
