@@ -1,0 +1,4 @@
+POST-PUBLISH-FRONTMATTER: doi_ok=True ver_ok=True
+METADATA-RELATIONS: rel_ids=5 state=done
+R2-MIRROR: 40/40 objects written
+VECTORIZE-INDEX: status=200 indexed=None chunks=0

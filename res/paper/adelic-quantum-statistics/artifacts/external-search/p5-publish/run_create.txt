@@ -1,0 +1,4 @@
+CREATE 201 deposit_id: 22123068 conceptrecid: 22123067
+RESERVE-DOI 201 doi: 10.5281/zenodo.22123068
+SUMMARY {"deposit_id": 22123068, "conceptrecid": "22123067", "reserved_doi": "10.5281/zenodo.22123068", "concept_doi": "10.5281/zenodo.22123067", "record_doi": "10.5281/zenodo.22123068"}
+EXIT=0

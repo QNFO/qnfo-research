@@ -1,0 +1,35 @@
+papers row inserted
+paper_ids row inserted
+KG nodes inserted
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Projects\qnfo-research\res\paper\adelic-quantum-statistics\artifacts\external-search\p5-publish\d1_kg_distribute.py", line 31, in d1
+    with urllib.request.urlopen(r, timeout=60) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Projects\qnfo-research\res\paper\adelic-quantum-statistics\artifacts\external-search\p5-publish\d1_kg_distribute.py", line 116, in <module>
+    d1(DB_GRAPH, "INSERT INTO edges (source_id, target_id, relationship_type) VALUES (?,?,?)", [s, t, r])
+  File "C:\Users\LENOVO\Projects\qnfo-research\res\paper\adelic-quantum-statistics\artifacts\external-search\p5-publish\d1_kg_distribute.py", line 42, in d1
+    raise RuntimeError("HTTP %s %s" % (e.code, last))
+RuntimeError: HTTP 400 {"messages":[],"result":[],"success":false,"errors":[{"code":7500,"message":"FOREIGN KEY constraint failed: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_FOREIGNKEY)"}]}
+EXIT=1

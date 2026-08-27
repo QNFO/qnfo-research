@@ -1,0 +1,125 @@
+{
+ "status": 201,
+ "body": {
+  "created": "2026-08-27T07:05:46.807003+00:00",
+  "modified": "2026-08-27T07:05:47.149703+00:00",
+  "id": 22123068,
+  "conceptrecid": "22123067",
+  "doi": "10.5281/zenodo.22123068",
+  "doi_url": "https://doi.org/10.5281/zenodo.22123068",
+  "metadata": {
+   "title": "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi-Dirac/Bose-Einstein Distinction",
+   "doi": "10.5281/zenodo.22123068",
+   "publication_date": "2026-08-27",
+   "description": "Why are there two quantum statistics, and only two, in three spatial dimensions? This paper reads the Bose-Einstein and Fermi-Dirac occupation distributions as the maximum-entropy solutions of one lattice with two multiplicity rules. On the unrestricted integer lattice the Euler factor at each prime place is the mode partition function of an unbounded occupation number, and the resulting Dirichlet series is the Riemann zeta function; on the squarefree restriction - each prime divides at most once - the Euler factor becomes the mode partition function of an occupation number in {0,1}, and the series becomes a ratio of two zeta values. The two golden occupation numbers follow from the canonical derivative of these mode factors at arbitrary inverse temperature and chemical potential, and both are the unique maximum-entropy distributions under their stated constraints. The per-place identifications at fugacity z = 1/p were established elsewhere; what the earlier records leave open is supplied here: the per-distinction transition rate gamma = 1/N as a consequence of bath degeneracy, the complex structure of the large-N limit as the sign-normalized generator selected by exclusion, the Moebius-parity reading of composite statistics, and the bounded-occupation family that interpolates between the two statistics and that anyonic exchange statistics must contact. The register is structural throughout: no physical particle is implied; the claims are isomorphisms of mathematical structure, and the physical labels attach at the level of statistical distributions. Every quantitative statement is reproduced by the deposited verification scripts.",
+   "access_right": "open",
+   "creators": [
+    {
+     "name": "Quni-Gudzinas, Rowan Brad",
+     "affiliation": "QNFO"
+    }
+   ],
+   "keywords": [
+    "Bose-Einstein statistics",
+    "Fermi-Dirac statistics",
+    "squarefree integers",
+    "adelic product formula",
+    "maximum entropy",
+    "Mobius function",
+    "anyons",
+    "bounded occupation",
+    "primon gas",
+    "quantum statistics"
+   ],
+   "related_identifiers": [
+    {
+     "identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/adelic-quantum-statistics",
+     "relation": "isSupplementTo",
+     "scheme": "url"
+    },
+    {
+     "identifier": "10.5281/zenodo.22035210",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.22046458",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.22117282",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.22024240",
+     "relation": "cites",
+     "scheme": "doi"
+    }
+   ],
+   "version": "1.0.0",
+   "resource_type": {
+    "title": "Preprint",
+    "type": "publication",
+    "subtype": "preprint"
+   },
+   "license": {
+    "id": "cc-by-4.0"
+   },
+   "relations": {
+    "version": [
+     {
+      "index": 0,
+      "is_last": false,
+      "parent": {
+       "pid_type": "recid",
+       "pid_value": "22123067"
+      }
+     }
+    ]
+   }
+  },
+  "title": "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi-Dirac/Bose-Einstein Distinction",
+  "links": {
+   "self": "https://zenodo.org/api/records/22123068/draft",
+   "self_html": "https://zenodo.org/uploads/22123068",
+   "preview_html": "https://zenodo.org/records/22123068?preview=1",
+   "doi": "https://doi.org/10.5281/zenodo.22123068",
+   "self_doi": "https://doi.org/10.5281/zenodo.22123068",
+   "reserve_doi": "https://zenodo.org/api/records/22123068/draft/pids/doi",
+   "self_iiif_manifest": "https://zenodo.org/api/iiif/draft:22123068/manifest",
+   "self_iiif_sequence": "https://zenodo.org/api/iiif/draft:22123068/sequence/default",
+   "files": "https://zenodo.org/api/records/22123068/draft/files",
+   "media_files": "https://zenodo.org/api/records/22123068/draft/media-files",
+   "archive": "https://zenodo.org/api/records/22123068/draft/files-archive",
+   "archive_media": "https://zenodo.org/api/records/22123068/draft/media-files-archive",
+   "versions": "https://zenodo.org/api/records/22123068/versions",
+   "record": "https://zenodo.org/api/records/22123068",
+   "record_html": "https://zenodo.org/records/22123068",
+   "publish": "https://zenodo.org/api/records/22123068/draft/actions/publish",
+   "review": "https://zenodo.org/api/records/22123068/draft/review",
+   "access_links": "https://zenodo.org/api/records/22123068/access/links",
+   "access_grants": "https://zenodo.org/api/records/22123068/access/grants",
+   "access_users": "https://zenodo.org/api/records/22123068/access/users",
+   "access_request": "https://zenodo.org/api/records/22123068/access/request",
+   "access": "https://zenodo.org/api/records/22123068/access",
+   "communities": "https://zenodo.org/api/records/22123068/communities",
+   "communities-suggestions": "https://zenodo.org/api/records/22123068/communities-suggestions",
+   "quota_increase": "https://zenodo.org/api/records/22123068/quota-increase",
+   "requests": "https://zenodo.org/api/records/22123068/requests"
+  },
+  "updated": "2026-08-27T07:05:47.149703+00:00",
+  "recid": "22123068",
+  "revision": 7,
+  "files": [],
+  "owners": [
+   {
+    "id": "1328013"
+   }
+  ],
+  "status": "draft",
+  "state": "unsubmitted",
+  "submitted": false
+ }
+}

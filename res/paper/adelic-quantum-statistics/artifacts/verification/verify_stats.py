@@ -19,6 +19,7 @@ Reproducibility: deterministic (no RNG). Runtime ~ seconds.
 """
 
 import math, json, sys
+import os
 
 TOL = 1e-9   # finite-difference tolerance for F1d
 S_TOL = 1e-6  # truncated-sum identity tolerance (N=1e5, s>=2.5)
@@ -169,7 +170,7 @@ def main():
         sys.exit(1)
     print("ALL CHECKS PASS")
     json.dump({"passed": total, "total": len(results), "results": results},
-              open(r"C:\Users\LENOVO\Projects\qnfo-research\res\paper\adelic-quantum-statistics\artifacts\verification\verify_stats_results.json", "w"),
+              open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "verify_stats_results.json"), "w"),
               indent=2)
 
 if __name__ == "__main__":

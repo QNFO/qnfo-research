@@ -1,0 +1,216 @@
+{
+ "uploaded": 42,
+ "total": 42,
+ "results": [
+  {
+   "file": "adelic-quantum-statistics.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:13.959780+00:00\", \"updated\": \"2026-08-27T07:10:14.016005+00:00\", \"version_id\": \"710bbbe4-9"
+  },
+  {
+   "file": "adelic-quantum-statistics.html",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:14.230206+00:00\", \"updated\": \"2026-08-27T07:10:14.300237+00:00\", \"version_id\": \"e2dcbddc-6"
+  },
+  {
+   "file": "adelic-quantum-statistics.pdf",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:14.494236+00:00\", \"updated\": \"2026-08-27T07:10:14.711556+00:00\", \"version_id\": \"dc5e0fe8-0"
+  },
+  {
+   "file": "references.bib",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:14.936585+00:00\", \"updated\": \"2026-08-27T07:10:14.996539+00:00\", \"version_id\": \"3a9f28f5-d"
+  },
+  {
+   "file": "citation-audit.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:15.199460+00:00\", \"updated\": \"2026-08-27T07:10:15.259544+00:00\", \"version_id\": \"c99ebe79-d"
+  },
+  {
+   "file": "PROJECT-PLAN.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:15.439789+00:00\", \"updated\": \"2026-08-27T07:10:15.543279+00:00\", \"version_id\": \"a8aea197-7"
+  },
+  {
+   "file": "DUE-DILIGENCE.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:15.725392+00:00\", \"updated\": \"2026-08-27T07:10:15.848715+00:00\", \"version_id\": \"71d48c44-d"
+  },
+  {
+   "file": "OUTLINE.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:16.033491+00:00\", \"updated\": \"2026-08-27T07:10:16.090306+00:00\", \"version_id\": \"11dd7151-6"
+  },
+  {
+   "file": "README.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:16.797202+00:00\", \"updated\": \"2026-08-27T07:10:17.019277+00:00\", \"version_id\": \"ad0d3b3f-e"
+  },
+  {
+   "file": "LICENSE",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:17.209566+00:00\", \"updated\": \"2026-08-27T07:10:17.264238+00:00\", \"version_id\": \"22e6c3e2-f"
+  },
+  {
+   "file": "verify_stats.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:17.427316+00:00\", \"updated\": \"2026-08-27T07:10:17.480570+00:00\", \"version_id\": \"5b092403-0"
+  },
+  {
+   "file": "verify_product_formula.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:17.670035+00:00\", \"updated\": \"2026-08-27T07:10:17.729633+00:00\", \"version_id\": \"400b09d9-f"
+  },
+  {
+   "file": "verify_parastats.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:17.918376+00:00\", \"updated\": \"2026-08-27T07:10:17.995776+00:00\", \"version_id\": \"8625da66-3"
+  },
+  {
+   "file": "verify_rate_gamma.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:18.179781+00:00\", \"updated\": \"2026-08-27T07:10:18.294933+00:00\", \"version_id\": \"b7c6dc58-b"
+  },
+  {
+   "file": "verify_symplectic.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:18.482387+00:00\", \"updated\": \"2026-08-27T07:10:18.553842+00:00\", \"version_id\": \"4399c1a4-7"
+  },
+  {
+   "file": "verify_maxent.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:18.716619+00:00\", \"updated\": \"2026-08-27T07:10:18.774496+00:00\", \"version_id\": \"32a3551c-6"
+  },
+  {
+   "file": "check_rendering.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:18.940411+00:00\", \"updated\": \"2026-08-27T07:10:18.992039+00:00\", \"version_id\": \"5215601c-1"
+  },
+  {
+   "file": "render-pdf.cjs",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:19.183808+00:00\", \"updated\": \"2026-08-27T07:10:19.296339+00:00\", \"version_id\": \"aa6c8620-3"
+  },
+  {
+   "file": "external_verify.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:19.513522+00:00\", \"updated\": \"2026-08-27T07:10:19.602559+00:00\", \"version_id\": \"780ac1eb-d"
+  },
+  {
+   "file": "verify_stats_run-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:19.782428+00:00\", \"updated\": \"2026-08-27T07:10:19.846297+00:00\", \"version_id\": \"95f938b5-e"
+  },
+  {
+   "file": "verify_product_formula_run-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:20.119904+00:00\", \"updated\": \"2026-08-27T07:10:20.322756+00:00\", \"version_id\": \"0234417d-4"
+  },
+  {
+   "file": "verify_parastats_run-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:20.611094+00:00\", \"updated\": \"2026-08-27T07:10:20.774946+00:00\", \"version_id\": \"e0bb6aef-3"
+  },
+  {
+   "file": "verify_rate_gamma_run-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:20.968755+00:00\", \"updated\": \"2026-08-27T07:10:21.025819+00:00\", \"version_id\": \"8426c39c-1"
+  },
+  {
+   "file": "verify_symplectic_run-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:21.239921+00:00\", \"updated\": \"2026-08-27T07:10:21.335887+00:00\", \"version_id\": \"15451f46-4"
+  },
+  {
+   "file": "verify_maxent_run-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:21.547109+00:00\", \"updated\": \"2026-08-27T07:10:21.621510+00:00\", \"version_id\": \"68f3c8b4-c"
+  },
+  {
+   "file": "verify_stats_results.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:21.831646+00:00\", \"updated\": \"2026-08-27T07:10:21.899115+00:00\", \"version_id\": \"fc8dbea5-6"
+  },
+  {
+   "file": "verify_product_formula_results.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:22.085408+00:00\", \"updated\": \"2026-08-27T07:10:22.172427+00:00\", \"version_id\": \"9c30a98e-7"
+  },
+  {
+   "file": "verify_parastats_results.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:22.505572+00:00\", \"updated\": \"2026-08-27T07:10:22.586179+00:00\", \"version_id\": \"b85f4415-0"
+  },
+  {
+   "file": "verify_rate_gamma_results.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:22.810872+00:00\", \"updated\": \"2026-08-27T07:10:22.923156+00:00\", \"version_id\": \"cbf7509b-6"
+  },
+  {
+   "file": "verify_symplectic_results.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:23.132818+00:00\", \"updated\": \"2026-08-27T07:10:23.247549+00:00\", \"version_id\": \"6b0855a6-7"
+  },
+  {
+   "file": "verify_maxent_results.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:23.471784+00:00\", \"updated\": \"2026-08-27T07:10:23.570704+00:00\", \"version_id\": \"c12136d2-6"
+  },
+  {
+   "file": "f4-differential-primon-gas-audit.py",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:23.780849+00:00\", \"updated\": \"2026-08-27T07:10:23.842827+00:00\", \"version_id\": \"4089ed7f-8"
+  },
+  {
+   "file": "f4-differential-primon-gas-audit.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:24.043215+00:00\", \"updated\": \"2026-08-27T07:10:24.130137+00:00\", \"version_id\": \"45d45ad0-0"
+  },
+  {
+   "file": "external-verify-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:24.308139+00:00\", \"updated\": \"2026-08-27T07:10:24.392302+00:00\", \"version_id\": \"03f90846-1"
+  },
+  {
+   "file": "crossref-verify-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:24.587041+00:00\", \"updated\": \"2026-08-27T07:10:24.656164+00:00\", \"version_id\": \"59640a01-7"
+  },
+  {
+   "file": "doi-check-2026-08-27.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:24.831633+00:00\", \"updated\": \"2026-08-27T07:10:24.878326+00:00\", \"version_id\": \"3f15fec1-d"
+  },
+  {
+   "file": "ignorance-audit.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:25.086352+00:00\", \"updated\": \"2026-08-27T07:10:25.212536+00:00\", \"version_id\": \"dcb98b7f-2"
+  },
+  {
+   "file": "red-team-2026-08-27.md",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:25.402004+00:00\", \"updated\": \"2026-08-27T07:10:25.465758+00:00\", \"version_id\": \"87d7b219-2"
+  },
+  {
+   "file": "deposit-create.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:25.641570+00:00\", \"updated\": \"2026-08-27T07:10:25.701721+00:00\", \"version_id\": \"89e487bf-3"
+  },
+  {
+   "file": "deposit-reserve-doi.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:25.909817+00:00\", \"updated\": \"2026-08-27T07:10:25.983309+00:00\", \"version_id\": \"fa9738fb-c"
+  },
+  {
+   "file": "deposit-summary.json",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:26.167664+00:00\", \"updated\": \"2026-08-27T07:10:26.231389+00:00\", \"version_id\": \"ee4ce939-6"
+  },
+  {
+   "file": "run_create.txt",
+   "status": 201,
+   "detail": "{\"created\": \"2026-08-27T07:10:26.431074+00:00\", \"updated\": \"2026-08-27T07:10:26.506905+00:00\", \"version_id\": \"2dc80b5f-c"
+  }
+ ]
+}

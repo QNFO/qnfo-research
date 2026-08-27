@@ -37,6 +37,7 @@ deterministic.
 """
 
 import cmath, math, random, sys, json
+import os
 
 def main():
     results = []
@@ -198,7 +199,7 @@ def main():
         sys.exit(1)
     print("ALL CHECKS PASS")
     json.dump({"passed": total, "total": len(results), "results": results},
-              open(r"C:\Users\LENOVO\Projects\qnfo-research\res\paper\adelic-quantum-statistics\artifacts\verification\verify_symplectic_results.json", "w"),
+              open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "verify_symplectic_results.json"), "w"),
               indent=2)
 
 if __name__ == "__main__":

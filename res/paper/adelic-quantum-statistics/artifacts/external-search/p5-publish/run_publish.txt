@@ -1,0 +1,4 @@
+PRE-PUBLISH 200 files: 42 | title ok: True | license: cc-by-4.0 | version: 1.0.0 | rel_ids: 5 | creators: ['Quni-Gudzinas, Rowan Brad']
+  sample files: ['DUE-DILIGENCE.md', 'LICENSE', 'OUTLINE.md', 'PROJECT-PLAN.md', 'README.md', 'adelic-quantum-statistics.html'] ...
+PUBLISH 202 | doi: 10.5281/zenodo.22123068 | concept: 10.5281/zenodo.22123067
+EXIT=0

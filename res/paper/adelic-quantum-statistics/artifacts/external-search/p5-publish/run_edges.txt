@@ -1,0 +1,13 @@
+edge 1 paper:adelic-quantum-statistics -> prog-res BELONGS_TO
+edge 2 paper:adelic-quantum-statistics -> project:adelic-quantum-statistics BELONGS_TO
+edge 3 paper:adelic-quantum-statistics -> paper:finite-distinction-quantum-mechanics BUILDS_ON
+edge 4 paper:adelic-quantum-statistics -> paper:self-referential-scalar-family BUILDS_ON
+edge 5 paper:adelic-quantum-statistics -> paper:adelic-shannon-theory BUILDS_ON
+edge 6 paper:adelic-quantum-statistics -> paper:spin-statistics-distinction BUILDS_ON
+edge 7 paper:adelic-quantum-statistics -> paper:exchange-phase-logical-scalar BUILDS_ON
+edge 8 paper:adelic-quantum-statistics -> paper:tyranny-of-the-plus-minus-one BUILDS_ON
+edge 9 paper:adelic-quantum-statistics -> QNFO.JPC.003 BUILDS_ON
+edge 10 paper:adelic-quantum-statistics -> paper:pattern-particle-unification BRIDGES
+edge 11 paper:adelic-quantum-statistics -> paper:signal-worker-boundary-confinement BRIDGES
+EDGES DONE 11
+EXIT=0

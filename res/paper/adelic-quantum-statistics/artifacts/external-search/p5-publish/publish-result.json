@@ -1,0 +1,529 @@
+{
+ "status": 202,
+ "body": {
+  "created": "2026-08-27T07:10:52.651929+00:00",
+  "modified": "2026-08-27T07:10:56.206126+00:00",
+  "id": 22123068,
+  "conceptrecid": "22123067",
+  "doi": "10.5281/zenodo.22123068",
+  "conceptdoi": "10.5281/zenodo.22123067",
+  "doi_url": "https://doi.org/10.5281/zenodo.22123068",
+  "metadata": {
+   "title": "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi-Dirac/Bose-Einstein Distinction",
+   "doi": "10.5281/zenodo.22123068",
+   "publication_date": "2026-08-27",
+   "description": "Why are there two quantum statistics, and only two, in three spatial dimensions? This paper reads the Bose-Einstein and Fermi-Dirac occupation distributions as the maximum-entropy solutions of one lattice with two multiplicity rules. On the unrestricted integer lattice the Euler factor at each prime place is the mode partition function of an unbounded occupation number, and the resulting Dirichlet series is the Riemann zeta function; on the squarefree restriction - each prime divides at most once - the Euler factor becomes the mode partition function of an occupation number in {0,1}, and the series becomes a ratio of two zeta values. The two golden occupation numbers follow from the canonical derivative of these mode factors at arbitrary inverse temperature and chemical potential, and both are the unique maximum-entropy distributions under their stated constraints. The per-place identifications at fugacity z = 1/p were established elsewhere; what the earlier records leave open is supplied here: the per-distinction transition rate gamma = 1/N as a consequence of bath degeneracy, the complex structure of the large-N limit as the sign-normalized generator selected by exclusion, the Moebius-parity reading of composite statistics, and the bounded-occupation family that interpolates between the two statistics and that anyonic exchange statistics must contact. The register is structural throughout: no physical particle is implied; the claims are isomorphisms of mathematical structure, and the physical labels attach at the level of statistical distributions. Every quantitative statement is reproduced by the deposited verification scripts.",
+   "access_right": "open",
+   "creators": [
+    {
+     "name": "Quni-Gudzinas, Rowan Brad",
+     "affiliation": "QNFO"
+    }
+   ],
+   "keywords": [
+    "Bose-Einstein statistics",
+    "Fermi-Dirac statistics",
+    "squarefree integers",
+    "adelic product formula",
+    "maximum entropy",
+    "Mobius function",
+    "anyons",
+    "bounded occupation",
+    "primon gas",
+    "quantum statistics"
+   ],
+   "related_identifiers": [
+    {
+     "identifier": "https://github.com/QNFO/qnfo-research/tree/res/paper/adelic-quantum-statistics",
+     "relation": "isSupplementTo",
+     "scheme": "url"
+    },
+    {
+     "identifier": "10.5281/zenodo.22035210",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.22046458",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.22117282",
+     "relation": "cites",
+     "scheme": "doi"
+    },
+    {
+     "identifier": "10.5281/zenodo.22024240",
+     "relation": "cites",
+     "scheme": "doi"
+    }
+   ],
+   "version": "1.0.0",
+   "license": "cc-by-4.0",
+   "imprint_publisher": "Zenodo",
+   "upload_type": "publication",
+   "publication_type": "preprint",
+   "prereserve_doi": {
+    "doi": "10.5281/zenodo.22123068",
+    "recid": 22123068
+   }
+  },
+  "title": "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi-Dirac/Bose-Einstein Distinction",
+  "links": {
+   "self": "https://zenodo.org/api/records/22123068",
+   "html": "https://zenodo.org/records/22123068",
+   "doi": "https://doi.org/10.5281/zenodo.22123068",
+   "parent_doi": "https://doi.org/10.5281/zenodo.22123067",
+   "badge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.22123068.svg",
+   "conceptbadge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.22123067.svg",
+   "files": "https://zenodo.org/api/records/22123068/files",
+   "bucket": "https://zenodo.org/api/files/38e20214-9911-48f0-8700-288466c8c2fd",
+   "thumb250": "https://zenodo.org/record/22123068/thumb250",
+   "thumbs": {
+    "10": "https://zenodo.org/record/22123068/thumb10",
+    "50": "https://zenodo.org/record/22123068/thumb50",
+    "100": "https://zenodo.org/record/22123068/thumb100",
+    "250": "https://zenodo.org/record/22123068/thumb250",
+    "750": "https://zenodo.org/record/22123068/thumb750",
+    "1200": "https://zenodo.org/record/22123068/thumb1200"
+   },
+   "latest_draft": "https://zenodo.org/api/deposit/depositions/22123068",
+   "latest_draft_html": "https://zenodo.org/deposit/22123068",
+   "publish": "https://zenodo.org/api/deposit/depositions/22123068/actions/publish",
+   "edit": "https://zenodo.org/api/deposit/depositions/22123068/actions/edit",
+   "discard": "https://zenodo.org/api/deposit/depositions/22123068/actions/discard",
+   "newversion": "https://zenodo.org/api/deposit/depositions/22123068/actions/newversion",
+   "record": "https://zenodo.org/api/records/22123068",
+   "record_html": "https://zenodo.org/record/22123068",
+   "latest": "https://zenodo.org/api/records/22123068/versions/latest",
+   "latest_html": "https://zenodo.org/records/22123068/latest"
+  },
+  "record_id": 22123068,
+  "owner": 1328013,
+  "files": [
+   {
+    "id": "d0759563-181b-4958-8852-054e18a24352",
+    "filename": "check_rendering.py",
+    "filesize": 4385,
+    "checksum": "b598fef347b74a2e19a2642a43af6157",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/d0759563-181b-4958-8852-054e18a24352",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/check_rendering.py/content"
+    }
+   },
+   {
+    "id": "a2a10cee-5f69-4ed2-bf5d-1f45009fa274",
+    "filename": "verify_symplectic_run-2026-08-27.txt",
+    "filesize": 2874,
+    "checksum": "54b392f19c4c98ef3902119b86d0d66c",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/a2a10cee-5f69-4ed2-bf5d-1f45009fa274",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_symplectic_run-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "f6771348-cb10-44bc-8582-a1912bfd062f",
+    "filename": "verify_maxent_run-2026-08-27.txt",
+    "filesize": 1493,
+    "checksum": "be021dfc044205c69c4308d48bd68571",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/f6771348-cb10-44bc-8582-a1912bfd062f",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_maxent_run-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "952a7977-dd7b-4679-a10c-94c2ef45768c",
+    "filename": "LICENSE",
+    "filesize": 18657,
+    "checksum": "2ab724713fdaf49e4523c4503bfd068d",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/952a7977-dd7b-4679-a10c-94c2ef45768c",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/LICENSE/content"
+    }
+   },
+   {
+    "id": "fe271698-8790-458d-88ea-a70814d0d1e5",
+    "filename": "verify_parastats_run-2026-08-27.txt",
+    "filesize": 1556,
+    "checksum": "869db462e5f6d5fa58736b9c5dfc1587",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/fe271698-8790-458d-88ea-a70814d0d1e5",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_parastats_run-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "1979db73-a012-4a0f-8415-f19d14fcf188",
+    "filename": "run_create.txt",
+    "filesize": 297,
+    "checksum": "5472951114703f8360d1a39700d45660",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/1979db73-a012-4a0f-8415-f19d14fcf188",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/run_create.txt/content"
+    }
+   },
+   {
+    "id": "b105d260-b0cf-4b57-925a-bce611628bc9",
+    "filename": "references.bib",
+    "filesize": 9153,
+    "checksum": "d2bcf4eaa8bd46b365a6c331c167b6b8",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/b105d260-b0cf-4b57-925a-bce611628bc9",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/references.bib/content"
+    }
+   },
+   {
+    "id": "94736666-70b4-4a82-8e14-07299b81c6f8",
+    "filename": "deposit-create.json",
+    "filesize": 4462,
+    "checksum": "db3782121ea2dcbc5f02fe79fe017283",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/94736666-70b4-4a82-8e14-07299b81c6f8",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/deposit-create.json/content"
+    }
+   },
+   {
+    "id": "9b44fb0d-45ae-485c-95ba-f7456bcba8dd",
+    "filename": "adelic-quantum-statistics.md",
+    "filesize": 26004,
+    "checksum": "ac778031c5a4cf6f39238c30abaa8393",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/9b44fb0d-45ae-485c-95ba-f7456bcba8dd",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/adelic-quantum-statistics.md/content"
+    }
+   },
+   {
+    "id": "4a9209f9-5424-4b37-a786-00d4643e3e85",
+    "filename": "render-pdf.cjs",
+    "filesize": 1685,
+    "checksum": "f315ae21c5b820390100e1edaca7d890",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/4a9209f9-5424-4b37-a786-00d4643e3e85",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/render-pdf.cjs/content"
+    }
+   },
+   {
+    "id": "b61cb738-0ba5-4ab8-8b84-7724ba31db40",
+    "filename": "adelic-quantum-statistics.pdf",
+    "filesize": 322618,
+    "checksum": "27027f73c0829dd8b9509a54cd379045",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/b61cb738-0ba5-4ab8-8b84-7724ba31db40",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/adelic-quantum-statistics.pdf/content"
+    }
+   },
+   {
+    "id": "6cf7e8ec-fd39-4d0c-9920-113f070448f5",
+    "filename": "verify_symplectic.py",
+    "filesize": 10611,
+    "checksum": "be4365dd0a097ce180789d158d68e66d",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/6cf7e8ec-fd39-4d0c-9920-113f070448f5",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_symplectic.py/content"
+    }
+   },
+   {
+    "id": "3405931a-9541-4397-a2b3-fe43b8e81f50",
+    "filename": "PROJECT-PLAN.md",
+    "filesize": 24080,
+    "checksum": "4e7bbcd69d61a757009a346a3965c6a5",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/3405931a-9541-4397-a2b3-fe43b8e81f50",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/PROJECT-PLAN.md/content"
+    }
+   },
+   {
+    "id": "8dd8514e-df8d-4201-a653-7886bef35fb6",
+    "filename": "ignorance-audit.md",
+    "filesize": 4795,
+    "checksum": "4948f6c1a9d18cc1a6316c6437284a91",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/8dd8514e-df8d-4201-a653-7886bef35fb6",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/ignorance-audit.md/content"
+    }
+   },
+   {
+    "id": "1bbc2974-1c95-44bf-b00c-b6d372fafd0b",
+    "filename": "verify_rate_gamma_results.json",
+    "filesize": 2677,
+    "checksum": "2222b6fc6923cc4740f0b924d92ef0b1",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/1bbc2974-1c95-44bf-b00c-b6d372fafd0b",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_rate_gamma_results.json/content"
+    }
+   },
+   {
+    "id": "46d66f96-ad0e-49d1-aa97-71ff9b9754e8",
+    "filename": "doi-check-2026-08-27.txt",
+    "filesize": 865,
+    "checksum": "aa9597fe749a2dec564b752fc68deb68",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/46d66f96-ad0e-49d1-aa97-71ff9b9754e8",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/doi-check-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "6dcfed6a-509d-4d81-8a2b-d6e03353fd54",
+    "filename": "verify_stats_results.json",
+    "filesize": 10204,
+    "checksum": "3809d02c8e6b5ad8bd45ec5326a66493",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/6dcfed6a-509d-4d81-8a2b-d6e03353fd54",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_stats_results.json/content"
+    }
+   },
+   {
+    "id": "b74a097c-446d-42c1-9030-e8b35c945a14",
+    "filename": "external_verify.py",
+    "filesize": 2329,
+    "checksum": "52f9f3da1896109632eee6cdc472c285",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/b74a097c-446d-42c1-9030-e8b35c945a14",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/external_verify.py/content"
+    }
+   },
+   {
+    "id": "21cd9681-e39e-4610-acf1-03665fa70693",
+    "filename": "verify_parastats.py",
+    "filesize": 5532,
+    "checksum": "0032eed26b54f62788ffb267291638c5",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/21cd9681-e39e-4610-acf1-03665fa70693",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_parastats.py/content"
+    }
+   },
+   {
+    "id": "718d142d-d35c-4c18-b911-18202e1e90ed",
+    "filename": "deposit-summary.json",
+    "filesize": 191,
+    "checksum": "876216539d4bfcaa2ce458e447d786cc",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/718d142d-d35c-4c18-b911-18202e1e90ed",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/deposit-summary.json/content"
+    }
+   },
+   {
+    "id": "9be5991f-f4c5-4405-8541-684798c64aa2",
+    "filename": "adelic-quantum-statistics.html",
+    "filesize": 52123,
+    "checksum": "caa99987bf5ce7cbe8e09380d3ea70e6",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/9be5991f-f4c5-4405-8541-684798c64aa2",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/adelic-quantum-statistics.html/content"
+    }
+   },
+   {
+    "id": "c72a334a-e309-4c1f-8d45-1b8ea8052654",
+    "filename": "verify_rate_gamma_run-2026-08-27.txt",
+    "filesize": 1684,
+    "checksum": "9e9d8cda912f4f6e52879cbb4e18a6fb",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/c72a334a-e309-4c1f-8d45-1b8ea8052654",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_rate_gamma_run-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "aa65bf3e-a513-4176-8d57-c92c16f721e8",
+    "filename": "citation-audit.md",
+    "filesize": 3026,
+    "checksum": "bbbd0b545bfb6a48c4db6aae54bb07b6",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/aa65bf3e-a513-4176-8d57-c92c16f721e8",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/citation-audit.md/content"
+    }
+   },
+   {
+    "id": "1658c8f7-3d3b-4a9c-92cd-43298fb5fe57",
+    "filename": "verify_symplectic_results.json",
+    "filesize": 5102,
+    "checksum": "c6a51ebe188b0ff3affa5893418cba2b",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/1658c8f7-3d3b-4a9c-92cd-43298fb5fe57",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_symplectic_results.json/content"
+    }
+   },
+   {
+    "id": "0b7e57f7-e17a-4cd3-bbf2-5ad35d3539ae",
+    "filename": "verify_product_formula.py",
+    "filesize": 6123,
+    "checksum": "6d6500cb1e8d1d080284e41bf3f18390",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/0b7e57f7-e17a-4cd3-bbf2-5ad35d3539ae",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_product_formula.py/content"
+    }
+   },
+   {
+    "id": "edf0a1b6-de29-48fb-be04-81409f826426",
+    "filename": "verify_stats_run-2026-08-27.txt",
+    "filesize": 5961,
+    "checksum": "85d6ec10f1c0f4396eb6eb122653aff6",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/edf0a1b6-de29-48fb-be04-81409f826426",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_stats_run-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "3565ef10-ed03-4b6d-8fb4-4b0d0fda6796",
+    "filename": "f4-differential-primon-gas-audit.json",
+    "filesize": 1116,
+    "checksum": "94e12cfe1e5c5376dc90c42b38903203",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/3565ef10-ed03-4b6d-8fb4-4b0d0fda6796",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/f4-differential-primon-gas-audit.json/content"
+    }
+   },
+   {
+    "id": "390d153a-5f3b-4b8f-9673-3029e14fa51d",
+    "filename": "red-team-2026-08-27.md",
+    "filesize": 6180,
+    "checksum": "452735fedb091d7c0842be8dc8aa40ab",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/390d153a-5f3b-4b8f-9673-3029e14fa51d",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/red-team-2026-08-27.md/content"
+    }
+   },
+   {
+    "id": "65c66943-eea5-435d-b38f-f0af37eb9f20",
+    "filename": "README.md",
+    "filesize": 3700,
+    "checksum": "f7e889eae6ad09b748af5a84a47f557e",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/65c66943-eea5-435d-b38f-f0af37eb9f20",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/README.md/content"
+    }
+   },
+   {
+    "id": "ccb32b58-e969-40cb-a809-161170640104",
+    "filename": "verify_parastats_results.json",
+    "filesize": 2614,
+    "checksum": "50a930a6ae42057a31de94cf9223190d",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/ccb32b58-e969-40cb-a809-161170640104",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_parastats_results.json/content"
+    }
+   },
+   {
+    "id": "d5434a46-8a16-4509-a50f-a6cc19dc1d0a",
+    "filename": "verify_stats.py",
+    "filesize": 7593,
+    "checksum": "8d437ca8c206961c20b3dcf5a700b50f",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/d5434a46-8a16-4509-a50f-a6cc19dc1d0a",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_stats.py/content"
+    }
+   },
+   {
+    "id": "29401401-d31b-417d-a57f-404a96595c5f",
+    "filename": "verify_maxent.py",
+    "filesize": 6360,
+    "checksum": "a6e01149333bce1a3a7719f686ea84d0",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/29401401-d31b-417d-a57f-404a96595c5f",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_maxent.py/content"
+    }
+   },
+   {
+    "id": "d5e93d08-ba69-44b2-9453-db777cd4d1a5",
+    "filename": "f4-differential-primon-gas-audit.py",
+    "filesize": 5384,
+    "checksum": "15efec3cb8c79fe213f6a27d74ca0288",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/d5e93d08-ba69-44b2-9453-db777cd4d1a5",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/f4-differential-primon-gas-audit.py/content"
+    }
+   },
+   {
+    "id": "9c3e2ebd-46b1-4718-8190-aa2a51fc11c9",
+    "filename": "deposit-reserve-doi.json",
+    "filesize": 5928,
+    "checksum": "a118ab52538c2ad50b4fdba195b00da8",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/9c3e2ebd-46b1-4718-8190-aa2a51fc11c9",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/deposit-reserve-doi.json/content"
+    }
+   },
+   {
+    "id": "a1f3ef77-7e4c-4641-8183-3c01149c9769",
+    "filename": "OUTLINE.md",
+    "filesize": 10399,
+    "checksum": "89e2effcb15aaa250dcfc01460e82018",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/a1f3ef77-7e4c-4641-8183-3c01149c9769",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/OUTLINE.md/content"
+    }
+   },
+   {
+    "id": "687b72a7-9efc-4f8d-9ba8-52093fde3601",
+    "filename": "crossref-verify-2026-08-27.txt",
+    "filesize": 5347,
+    "checksum": "c32605ecb45295b47e34962211da87ee",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/687b72a7-9efc-4f8d-9ba8-52093fde3601",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/crossref-verify-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "a93583f3-4629-45cc-8ed5-3e37dfdfb8ce",
+    "filename": "DUE-DILIGENCE.md",
+    "filesize": 24355,
+    "checksum": "8c81e70179438a03592ecb433fbafdf5",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/a93583f3-4629-45cc-8ed5-3e37dfdfb8ce",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/DUE-DILIGENCE.md/content"
+    }
+   },
+   {
+    "id": "4ff1b1f9-937a-42eb-bbf7-5d3d2a17ab7e",
+    "filename": "verify_rate_gamma.py",
+    "filesize": 5725,
+    "checksum": "88fa1c7b5778a282eb30e37349eaf3c0",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/4ff1b1f9-937a-42eb-bbf7-5d3d2a17ab7e",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_rate_gamma.py/content"
+    }
+   },
+   {
+    "id": "39609811-ada1-4c53-b7a0-90f9d2248b9f",
+    "filename": "verify_product_formula_run-2026-08-27.txt",
+    "filesize": 1027,
+    "checksum": "3ecd71c6129bebf6cfefa2219ab5f38f",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/39609811-ada1-4c53-b7a0-90f9d2248b9f",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_product_formula_run-2026-08-27.txt/content"
+    }
+   },
+   {
+    "id": "1135a330-093c-42cc-aa7d-29b16fb272c3",
+    "filename": "verify_product_formula_results.json",
+    "filesize": 2150,
+    "checksum": "be170bf07b19f33f2339329544e67afc",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/1135a330-093c-42cc-aa7d-29b16fb272c3",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_product_formula_results.json/content"
+    }
+   },
+   {
+    "id": "b1db51d8-8939-4dbc-86d7-b18e62071b98",
+    "filename": "verify_maxent_results.json",
+    "filesize": 2551,
+    "checksum": "3476dc141992c5e60d9e536c00ed9274",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/b1db51d8-8939-4dbc-86d7-b18e62071b98",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/verify_maxent_results.json/content"
+    }
+   },
+   {
+    "id": "76a216e8-6b9e-4b2c-9907-452ea5c04b64",
+    "filename": "external-verify-2026-08-27.txt",
+    "filesize": 1838,
+    "checksum": "f6bab411174da9872aa9b6b93fa0c95a",
+    "links": {
+     "self": "https://zenodo.org/api/records/22123068/files/76a216e8-6b9e-4b2c-9907-452ea5c04b64",
+     "download": "https://zenodo.org/api/records/22123068/draft/files/external-verify-2026-08-27.txt/content"
+    }
+   }
+  ],
+  "state": "done",
+  "submitted": true
+ }
+}
