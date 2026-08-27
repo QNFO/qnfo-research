@@ -1,0 +1,19 @@
+PASS  V1 bounded-occ Z_m p=2 b=1.0 z=0.5 m=1 | Z=1.250000000000 Za=1.250000000000 <n>=0.200000000000 <n>a=0.200000000000
+PASS  V1 bounded-occ Z_m p=3 b=1.0 z=1.0 m=2 | Z=1.444444444444 Za=1.444444444444 <n>=0.384615384615 <n>a=0.384615384615
+PASS  V1 bounded-occ Z_m p=5 b=2.0 z=0.5 m=3 | Z=1.020408000000 Za=1.020408000000 <n>=0.020407523265 <n>a=0.020407523265
+PASS  V1 m=1=Fermi p=2 b=1.0 z=0.5 | n1=0.200000000000 nF=0.200000000000
+PASS  V1 m=200~Bose p=2 b=1.0 z=0.5 | nbig=0.333333333333 nB=0.333333333333 err=0.00e+00
+PASS  V1 m=1=Fermi p=3 b=2.0 z=1.0 | n1=0.100000000000 nF=0.100000000000
+PASS  V1 m=200~Bose p=3 b=2.0 z=1.0 | nbig=0.125000000000 nB=0.125000000000 err=0.00e+00
+PASS  V2 m-bounded D(3.0) m=1 = zeta/zeta(6.0) | sum=1.1815649490 ref=1.1815649490 err=3.04e-11
+PASS  V2 m-bounded D(4.0) m=1 = zeta/zeta(8.0) | sum=1.0779281367 ref=1.0779281367 err=4.44e-16
+PASS  V2 m-bounded D(3.0) m=2 = zeta/zeta(9.0) | sum=1.1996475396 ref=1.1996475396 err=4.16e-11
+PASS  V2 m-bounded D(4.0) m=2 = zeta/zeta(12.0) | sum=1.0820569540 ref=1.0820569540 err=4.44e-16
+PASS  V2 m-bounded D(3.0) m=3 = zeta/zeta(12.0) | sum=1.2017611659 ref=1.2017611659 err=4.62e-11
+PASS  V2 m-bounded D(4.0) m=3 = zeta/zeta(16.0) | sum=1.0823066936 ref=1.0823066936 err=4.44e-16
+PASS  V3 m=1 endpoint = zeta(s)/zeta(2s) | identity exact
+PASS  V3 m->inf endpoint = zeta(s) | zeta(3)/zeta(300)=1.2020569032 vs zeta(3)=1.2020569032
+PASS  V4 m=1 sum equals F1a squarefree reference | sum=1.1815649490 ref=1.1815649490
+
+RESULT: 16/16 PASS
+ALL CHECKS PASS
