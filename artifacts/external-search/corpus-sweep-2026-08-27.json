@@ -1,0 +1,83 @@
+{
+  "captured": "2026-08-27 (same-session live tool calls; CMD RESEARCH cycle for vault note _26239100148.md)",
+  "instrument": "qnfo-memory-mcp search_papers (Vectorize) + search_papers_enriched (Vectorize + D1 living-paper)",
+  "note": "VECTORIZE-TOP-K-50-1: limits used 16 (<=16 avoids Error 1101).",
+  "queries": [
+    {
+      "id": "T1",
+      "formulation": "adelic quantum mechanics p-adic completions idele group places",
+      "tool": "search_papers",
+      "limit": 16,
+      "top_hits": [
+        {"slug": "tate-adelic-template", "title": "Tate's Thesis as a Template for Adelic Quantum Mechanics: Local-Global Structure and the Emergence of Archimedean Artifacts", "score": 0.7353},
+        {"slug": "consilience-physics-number-theory", "title": "Consilience Between Physics and Number Theory: Convergent Theses from Ostrowski's Theorem to Adelic Quantum Mechanics", "score": 0.7280},
+        {"slug": "measure-theoretic-artifacts-adelic-completion", "title": "Measure-Theoretic Artifacts of the Archimedean Place — v2.0", "score": 0.7062},
+        {"slug": "ratio-based-adelic-physics", "title": "Ratio-Based Adelic Physics", "score": 0.7052},
+        {"slug": "continuum-trilogy-02-padic-spin", "title": "P-adic Spin, Information, and Ultrametric Internal Quantum Numbers", "score": 0.7050},
+        {"slug": "non-anthropocentric-natural-units", "title": "Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem", "score": 0.7022},
+        {"slug": "syntactic-token-calculus-m1-foundational-syntax", "title": "Syntactic Token Calculus v3", "score": 0.7003},
+        {"slug": "consilience-framework", "title": "The Consilience Framework: From Valuation Theory to the Void — A Cross-Domain Synthesis", "score": 0.6959},
+        {"slug": "adelic-constraints-on-quantum-field-theory-phase-2-synthesis", "title": "Adelic Constraints on Quantum Field Theory — Phase 2 Synthesis", "score": 0.6957}
+      ]
+    },
+    {
+      "id": "T2",
+      "formulation": "primes particles multiplicative structure unique factorization statistics",
+      "tool": "search_papers",
+      "limit": 16,
+      "top_hits": [
+        {"slug": "proof-of-concept-for-auditable-attention-using-ultrametric-tree-distances", "title": "Proof-of-Concept for Auditable Attention using Ultrametric Tree Distances", "score": 0.6690},
+        {"slug": "pile-of-babel", "title": "PILE OF BABEL", "score": 0.6636},
+        {"slug": "adelic-core-synthesis", "title": "Adelic Core Synthesis: Cross-Domain Foundations of Adelic QFT", "score": 0.6631},
+        {"slug": "prime-numbers-as-spectral-artifacts", "title": "Prime Numbers as Spectral Artifacts", "score": 0.6611},
+        {"slug": "universe-category-functor", "title": "The Universe Category: A Single Functor Encoding Quantization, Stability, and Factorization", "score": 0.6585},
+        {"slug": "topological-quantization-and-spectral-filtration", "title": "Topological Quantization and Spectral Filtration", "score": 0.6555},
+        {"slug": "winding-numbers-and-strange-loops", "title": "WINDING NUMBERS AND STRANGE LOOPS", "score": 0.6554},
+        {"slug": "dual-mode-arithmetic-representation", "title": "Dual-Mode Arithmetic Representation", "score": 0.6548},
+        {"slug": "spectral-dynamics-on-bruhat-tits-trees", "title": "Spectral Dynamics on Bruhat-Tits Trees", "score": 0.6539},
+        {"slug": "winding-number-as-hidden-variable", "title": "Winding Number as Hidden Variable", "score": 0.6536},
+        {"slug": "prime-numbers-as-universal-optimization-primitives", "title": "Prime Numbers as Universal Optimization Primitives", "score": 0.6533}
+      ]
+    },
+    {
+      "id": "T3",
+      "formulation": "primon gas zeta function quantum statistics Riemann",
+      "tool": "search_papers",
+      "limit": 16,
+      "top_hits": [
+        {"slug": "adelic-quantum-statistics", "title": "Quantum Statistics from the Adelic Product Formula", "score": 0.6999},
+        {"slug": "adelic-core-synthesis", "title": "Adelic Core Synthesis: Cross-Domain Foundations of Adelic QFT", "score": 0.6913},
+        {"slug": "emergent-number-theory", "title": "EMERGENT NUMBER THEORY", "score": 0.6813},
+        {"slug": "spectral-schism", "title": "Spectral Schism", "score": 0.6788},
+        {"slug": "prime-numbers-as-spectral-artifacts", "title": "Prime Numbers as Spectral Artifacts", "score": 0.6694},
+        {"slug": "adelic-constraints-on-quantum-field-theory-phase-1", "title": "Adelic Constraints on Quantum Field Theory: Phase 1", "score": 0.6644},
+        {"slug": "consilience-physics-number-theory", "title": "Consilience Between Physics and Number Theory", "score": 0.6571}
+      ]
+    },
+    {
+      "id": "T4",
+      "formulation": "squarefree adelic product formula Fermi-Dirac Bose-Einstein statistics origin",
+      "tool": "search_papers_enriched",
+      "limit": 4,
+      "top_hits": [
+        {"slug": "adelic-quantum-statistics", "title": "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi-Dirac/Bose-Einstein Distinction", "score": 0.7423, "doi": "10.5281/zenodo.22123068"},
+        {"slug": "self-referential-scalar-family", "title": "The Self-Referential Scalar Family: e, the Half-Turn, and the Unification of Information Theory, Statistics, Thermodynamics, and QND Measurement in the Adelic Picture", "score": 0.7079, "doi": "10.5281/zenodo.22035210"},
+        {"slug": "exchange-phase-logical-scalar", "title": "The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus", "score": 0.6860, "doi": "10.5281/zenodo.21964104"}
+      ]
+    },
+    {
+      "id": "T5",
+      "formulation": "arithmetic anyons bounded-occupation family Gentile statistics braid phases roots of unity",
+      "tool": "search_papers_enriched",
+      "limit": 4,
+      "top_hits": [
+        {"slug": "arithmetic-anyon-contact", "title": "Arithmetic Anyons: The Bounded-Occupation Family, Gentile Statistics, and the Roots of Unity That Carry Braid Phases", "score": 0.7881, "doi": "10.5281/zenodo.22124744"},
+        {"slug": "ultrametric-relaxation-dynamics-in-topological-quantum-memory", "title": "Ultrametric Relaxation Dynamics in Topological Quantum Memory", "score": 0.7414, "doi": "10.5281/zenodo.18640261"}
+      ]
+    }
+  ],
+  "supplementary_recall": [
+    {"tool": "recall_facts", "keyword": "adelic", "note": "adelic-particle-spectrum (21529948); consilient synthesis 2026-07-24 (5 programs converge on ultrametric core); disconfirming registry (FMO anti-ultrametric, PW-WDW-Ultra falsified, CMB log-periodic null); Adelic Representation Theorem = unproven conjecture."},
+    {"tool": "search_memories", "note": "factoring-adelic-complexity (21691642); Bruhat-Tits qudit architecture (Hecke gates, passive QEC from non-Archimedean norm)."}
+  ]
+}

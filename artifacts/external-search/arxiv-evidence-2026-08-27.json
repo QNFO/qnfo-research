@@ -1,0 +1,34 @@
+{
+  "captured": "2026-08-27 (same-session live arXiv MCP calls)",
+  "searches": [
+    {
+      "query": "ti:\"p-adic\" AND ti:\"quantum mechanics\"",
+      "results": [
+        {"id": "hep-th/0312046", "title": "p-Adic and Adelic Quantum Mechanics", "authors": ["Branko Dragovich"], "published": "2003-12-04", "categories": ["hep-th"]},
+        {"id": "2210.01566", "title": "Trace class operators and states in p-adic quantum mechanics", "authors": ["Paolo Aniello", "Stefano Mancini", "Vincenzo Parisi"], "published": "2022-10-04", "categories": ["math-ph", "quant-ph"]},
+        {"id": "1502.01789", "title": "Symplectic group and Heisenberg group in p-adic quantum mechanics", "authors": ["Zhi Hu", "Sen Hu"], "published": "2015-02-06", "categories": ["math-ph"]},
+        {"id": "2312.02744", "title": "p-Adic Quantum Mechanics, the Dirac Equation, and the violation of Einstein causality", "authors": ["W. A. Zúñiga-Galindo"], "published": "2023-12-05", "categories": ["quant-ph"]},
+        {"id": "2410.13048", "title": "p-Adic quantum mechanics, infinite potential wells, and continuous-time quantum walks", "authors": ["W. A. Zúñiga-Galindo", "Nathaniel P. Mayes"], "published": "2024-10-16", "categories": ["quant-ph"]},
+        {"id": "2308.01283", "title": "The p-Adic Schrödinger Equation and the Two-slit Experiment in Quantum Mechanics", "authors": ["W. A. Zúñiga-Galindo"], "published": "2023-08-02", "categories": ["quant-ph", "hep-th"]}
+      ]
+    },
+    {
+      "query": "\"primon gas\" OR \"free Riemann gas\"",
+      "results": [
+        {"id": "2502.02661", "title": "The Conformal Primon Gas at the End of Time", "authors": ["Sean A. Hartnoll", "Ming Yang"], "published": "2025-02-04", "categories": ["hep-th"]},
+        {"id": "2411.15377", "title": "P-adic numbers and kernels", "authors": ["Simone Franchini"], "published": "2024-11-22", "categories": ["cond-mat.dis-nn", "cond-mat.stat-mech"]},
+        {"id": "2507.08788", "title": "Wheeler-DeWitt wavefunctions for 5d BKL dynamics, automorphic L-functions and complex primon gases", "authors": ["Marine De Clerck", "Sean A. Hartnoll", "Ming Yang"], "published": "2025-07-11", "categories": ["hep-th", "gr-qc"]}
+      ]
+    },
+    {
+      "query": "abs:\"adelic\" AND abs:\"quantum mechanics\" AND cat:quant-ph",
+      "results": [
+        {"id": "hep-th/0404160", "title": "Adelic Harmonic Oscillator", "authors": ["Branko Dragovich"], "published": "2004-04-21", "categories": ["hep-th", "math-ph", "quant-ph"]},
+        {"id": "math-ph/0404076", "title": "On Generalized Functions in Adelic Quantum Mechanics", "authors": ["Branko Dragovich"], "published": "2004-04-29", "categories": ["math-ph", "hep-th", "quant-ph"]},
+        {"id": "hep-th/0105030", "title": "Adelic Path Integrals for Quadratic Lagrangians", "authors": ["G. S. Djordjevic", "B. Dragovich", "L. Nesic"], "published": "2001-05-03", "categories": ["hep-th", "math-ph", "quant-ph"]},
+        {"id": "quant-ph/0005027", "title": "p-Adic and Adelic Harmonic Oscillator with Time-Dependent Frequency", "authors": ["Goran S. Djordjevic", "Branko Dragovich"], "published": "2000-05-06", "categories": ["quant-ph", "hep-th", "math-ph"]}
+      ]
+    }
+  ],
+  "verification_note": "All entries returned by the live arXiv API on 2026-08-27 (titles, authors, dates as returned by the API). The classic primon-gas origin (B. Julia, 1990) is referenced in the literature but was NOT live-verified this session; verify before citing (P3 citation audit)."
+}

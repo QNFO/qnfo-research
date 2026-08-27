@@ -1,0 +1,67 @@
+{
+  "captured": "2026-08-27 (same-session live resolve_paper_id + D1 registry reads)",
+  "resolutions": [
+    {
+      "id": "adelic-quantum-statistics",
+      "doi": "10.5281/zenodo.22123068",
+      "identifier_type": "qnfo",
+      "status": "published",
+      "r2_key": "qnfo-releases/2026/08/adelic-quantum-statistics/",
+      "wbs": "QNFO.RES.027",
+      "kg_phase": "P8",
+      "kg_status": "distributed",
+      "note": "The statistics proof carried by RES.029 (H1 base)."
+    },
+    {
+      "id": "arithmetic-anyon-contact",
+      "doi": "10.5281/zenodo.22124744",
+      "concept_doi": "10.5281/zenodo.22124743",
+      "identifier_type": "qnfo",
+      "status": "published",
+      "r2_key": "qnfo-releases/2026/08/arithmetic-anyon-contact/",
+      "wbs": "QNFO.RES.028",
+      "verdicts": {"C1": "confirmed", "C2": "confirmed", "H2": "confirmed"},
+      "note": "C1: bounded-occupation family carries NO exchange phase for any cap (counting isomorphism, not exchange-phase isomorphism). C2: phase carriers are multiplicative characters at roots of unity (Laughlin 1/m = primitive 2m-th root; Fibonacci = powers of e^(i pi/5)). H2: primon-gas specific heat deviates from the smooth-DOS ideal gas at every sampled temperature."
+    },
+    {
+      "id": "tate-adelic-template",
+      "doi": "10.5281/zenodo.21600741",
+      "identifier_type": "arxiv",
+      "kg_program": "UMP",
+      "note": "Zenodo DOI carried in papers row; identifier_type 'arxiv' is a legacy field value (F3 class, benign)."
+    },
+    {
+      "id": "consilience-physics-number-theory",
+      "doi": "10.5281/zenodo.21590155",
+      "identifier_type": "arxiv",
+      "note": "Same benign identifier_type legacy artifact."
+    },
+    {
+      "id": "prime-numbers-as-spectral-artifacts",
+      "doi": null,
+      "identifier": "qnfo-2025-11-prime-numbers-as-spectral-artifacts",
+      "r2_key": "qnfo/releases/2025/11/Prime Numbers as Spectral Artifacts.md",
+      "note": "F1: R2-only record, no DOI. Cite as internal record with its R2 key; DOI backfill is an adjacent hygiene item."
+    },
+    {
+      "id": "exchange-phase-logical-scalar (RES.010)",
+      "d1_doi": "10.5281/zenodo.21964104",
+      "deposited_frontmatter_doi": "10.5281/zenodo.21964359",
+      "deposited_version": "1.3",
+      "registry_version": "1.2",
+      "note": "F2: D1 metadata vs deposited frontmatter disagree (21964104 vs 21964359). RES.029 cites the registry-canonical 21964104; drift flagged to the RES.010 owner."
+    }
+  ],
+  "registry_snapshot_2026-08-27": {
+    "RES.027": {"zenodo_doi": "10.5281/zenodo.22123068", "phase": "P8", "status": "published"},
+    "RES.028": {"zenodo_doi": "10.5281/zenodo.22124744", "phase": "P8", "status": "published", "current_version": "1.0.0", "d1_slug": "arithmetic-anyon-contact"},
+    "RES.029": {"zenodo_doi": null, "phase": "P0 (at capture; bumped to P1 at closeout)", "status": "active", "wbs_order": 29},
+    "ADL.003": {"slug": "adelic-rate-distortion", "repo": "QNFO/adelic-shannon-theory", "status": "active"}
+  },
+  "adjacent_hit": {
+    "slug": "ultrametric-relaxation-dynamics-in-topological-quantum-memory",
+    "doi": "10.5281/zenodo.18640261",
+    "date": "2026-02-14",
+    "note": "Practitioner sibling: passive topological relaxation via p-adic solenoid isomorphisms; anchors D3."
+  }
+}
