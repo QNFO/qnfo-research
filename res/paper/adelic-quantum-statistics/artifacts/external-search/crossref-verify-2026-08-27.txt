@@ -1,0 +1,44 @@
+==========================================================================================
+CROSSREF: julia1990 | Statistical theory of numbers
+  T: Monetary Aggregation Theory and Statistical Index Numbers | ? (1996) v i p | DOI 10.20955/wp.1996.007 | AUTH Richard G. Anderson; Barry Jones; Travis Nesmith
+  T: Sequences of Real Numbers and Functions | Introduction to Statistical Limit Theo (2011) v i p21-72 | DOI 10.1201/9781420076615-5 | AUTH 
+==========================================================================================
+CROSSREF: spector1990 | Supersymmetry and the Moebius inversion function
+  T: Supersymmetry and the Möbius inversion function | Communications in Mathematical Physics (1990) v127 i2 p239-252 | DOI 10.1007/bf02096755 | AUTH Donald Spector
+  T: Moebius-Invariant Function Spaces | Function Theory in the Unit Ball of ℂn (2008) v i p278-287 | DOI 10.1007/978-3-540-68276-9_13 | AUTH 
+==========================================================================================
+CROSSREF: bakas1991 | Curiosities of arithmetic gases
+  T: Curiosities of arithmetic gases | Journal of Mathematical Physics (1991) v32 i7 p1881-1884 | DOI 10.1063/1.529511 | AUTH Ioannis Bakas; Mark J. Bowick
+  T: Essay 10. Five Curiosities from Arithmetic | Anneli Lax New Mathematical Library (1970) v i p72-88 | DOI 10.5948/upo9780883859384.010 | AUTH 
+==========================================================================================
+CROSSREF: leinaas1977 | On the theory of identical particles
+  T: General algebraic theory of identical particle scattering. [Nonrelativistic range, so | ? (1978) v i p | DOI 10.2172/6715166 | AUTH G. Bencze; E. F. Redish
+  T: Identical Particles | Quantum Reality (2009) v i p171-188 | DOI 10.1201/9781584887041-14 | AUTH 
+==========================================================================================
+CROSSREF: wilczek1982 | Quantum mechanics of fractional-spin particles
+  T: Quantum Mechanics of Fractional-Spin Particles | Physical Review Letters (1982) v49 i14 p957-959 | DOI 10.1103/physrevlett.49.957 | AUTH Frank Wilczek
+  T: Particles with Spin | Advanced Visual Quantum Mechanics (None) v i p113-156 | DOI 10.1007/0-387-27127-9_3 | AUTH 
+==========================================================================================
+CROSSREF: kitaev2003 | Fault-tolerant quantum computation by anyons
+  T: Fault-tolerant quantum computation by anyons | Annals of Physics (2003) v303 i1 p2-30 | DOI 10.1016/s0003-4916(02)00018-0 | AUTH A.Yu. Kitaev
+  T: Fault-Tolerant Quantum Computation with Quantum Emitters | ? (None) v i p | DOI 10.70675/5905dd50zcbdbz4c8bz9f2bz7e92825b7497 | AUTH Grégoire de Gliniasty
+==========================================================================================
+CROSSREF: kitaev2006 | Anyons in an exactly solved model and beyond
+  T: Anyons in an exactly solved model and beyond | Annals of Physics (2006) v321 i1 p2-111 | DOI 10.1016/j.aop.2005.10.005 | AUTH Alexei Kitaev
+  T: Topological Green’s Function Zeros in an Exactly Solved Model and Beyond | Physical Review Letters (2024) v133 i13 p | DOI 10.1103/physrevlett.133.136504 | AUTH Steffen Bollmann; Chandan Setty; Urban F. P. Seifert; Elio J. König
+==========================================================================================
+CROSSREF: nayak2008 | Non-Abelian anyons and topological quantum computation
+  T: Introduction to topological quantum computation with non-Abelian anyons | Quantum Science and Technology (2018) v3 i4 p045004 | DOI 10.1088/2058-9565/aacad2 | AUTH Bernard Field; Tapio Simula
+  T: Anyons and Topological Quantum Computation | Introduction to Topological Quantum Ma (2016) v i p319-246 | DOI 10.1201/9781315181509-17 | AUTH 
+==========================================================================================
+CROSSREF: dhr1971 | Local observables and particle statistics
+  T: Local observables and particle statistics I | Communications in Mathematical Physics (1971) v23 i3 p199-230 | DOI 10.1007/bf01877742 | AUTH Sergio Doplicher; Rudolf Haag; John E. Roberts
+  T: Local observables and particle statistics II | Communications in Mathematical Physics (1974) v35 i1 p49-85 | DOI 10.1007/bf01646454 | AUTH Sergio Doplicher; Rudolf Haag; John E. Roberts
+==========================================================================================
+CROSSREF: pauli1940 | The connection between spin and statistics
+  T: What Explains CPT Invariance and the Spin–Statistics Connection? | CPT Invariance and the Spin-Statistics (2016) v i p139-168 | DOI 10.1093/acprof:oso/9780198728801.003.0006 | AUTH Jonathan Bain
+  T: Non-RQFT Derivations of CPT Invariance and the Spin–Statistics Connection | CPT Invariance and the Spin-Statistics (2016) v i p120-138 | DOI 10.1093/acprof:oso/9780198728801.003.0005 | AUTH Jonathan Bain
+==========================================================================================
+CROSSREF: duck1998 | Pauli and the spin-statistics theorem
+  T: Fierz's Proof of the Spin-Statistics Theorem | Pauli and the Spin-Statistics Theorem (1998) v i p277-300 | DOI 10.1142/9789812817037_0012 | AUTH 
+  T: Pauli's Proof of the Spin-Statistics Theorem | Pauli and the Spin-Statistics Theorem (1998) v i p345-367 | DOI 10.1142/9789812817037_0015 | AUTH 

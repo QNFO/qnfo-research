@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-27" />
+  <meta name="keywords" content="Bose-Einstein statistics, Fermi-Dirac
+statistics, squarefree integers, adelic product formula, maximum
+entropy, Möbius function, anyons, bounded occupation" />
+  <title>Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi–Dirac/Bose–Einstein Distinction</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    div.abstract {
+      margin: 2em 2em 2em 2em;
+      text-align: left;
+      font-size: 85%;
+    }
+    div.abstract-title {
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0.5em;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Quantum Statistics from the Adelic Product Formula:
+The Squarefree Origin of the Fermi–Dirac/Bose–Einstein Distinction</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-27</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>Why are there two quantum statistics, and only two, in three spatial
+dimensions? This paper reads the Bose–Einstein and Fermi–Dirac
+occupation distributions as the maximum-entropy solutions of one lattice
+with two multiplicity rules. On the unrestricted integer lattice the
+Euler factor at each prime place is the mode partition function of an
+unbounded occupation number, and the resulting Dirichlet series is the
+Riemann zeta function; on the squarefree restriction — each prime
+divides at most once — the Euler factor becomes the mode partition
+function of an occupation number in {0,1}, and the series becomes the
+ratio of two zeta values. The two golden occupation numbers follow from
+the canonical derivative of these mode factors at arbitrary inverse
+temperature and chemical potential, and both are the unique
+maximum-entropy distributions under their stated constraints. The
+per-place identifications at fugacity z = 1/p were established
+elsewhere; what the earlier records leave open is supplied here: the
+per-distinction transition rate gamma = 1/N as a consequence of bath
+degeneracy, the complex structure of the large-N limit as the
+sign-normalized generator selected by exclusion, the Möbius-parity
+reading of composite statistics, and the bounded-occupation family that
+interpolates between the two statistics and that anyonic exchange
+statistics must contact. The register is structural throughout: no
+physical particle is implied; the claims are isomorphisms of
+mathematical structure, and the physical labels attach at the level of
+statistical distributions. Every quantitative statement is reproduced by
+the deposited verification scripts.</p>
+</div>
+</header>
+<h2 id="introduction">1. Introduction</h2>
+<p>A system of identical particles in three or more spatial dimensions
+admits exactly two exchange statistics. This binary is usually presented
+as a primitive classification of nature, with the spin-statistics
+theorem connecting it to spin <span class="citation"
+data-cites="pauli1940 duck1998">(Pauli 1940; Duck and Sudarshan
+1998)</span>. The question asked here is narrower and arithmetic: can
+the two statistics be recovered as the maximum-entropy occupation
+distributions of a single lattice under two multiplicity constraints,
+with the adelic product formula as the invariant that ties the places
+together?</p>
+<p>The answer turns out to be nearly classical. Write an integer as
+<span class="math inline">\(n = \prod_p p^{a_p}\)</span>. If every
+exponent is unrestricted, <span class="math inline">\(a_p \in
+\mathbb{N}_0\)</span>, the Euler factor at the prime <span
+class="math inline">\(p\)</span> in the Dirichlet series <span
+class="math inline">\(\sum n^{-s} = \zeta(s)\)</span> is <span
+class="math inline">\((1 - p^{-s})^{-1}\)</span>, which is the mode
+partition function of an occupation number taking every value <span
+class="math inline">\(0,1,2,\dots\)</span> — the bosonic counting. If
+every exponent is restricted to <span class="math inline">\(a_p \in
+\{0,1\}\)</span>, the integer is squarefree, and the Dirichlet series is
+<span class="math inline">\(\zeta(s)/\zeta(2s)\)</span>, whose Euler
+factor <span class="math inline">\((1 + p^{-s})\)</span> is the mode
+partition function of an occupation number in <span
+class="math inline">\(\{0,1\}\)</span> — the fermionic counting. The
+identification of these generating structures with the two quantum
+statistics has a long history in the Riemann-gas literature <span
+class="citation"
+data-cites="julia1990 spector1990 bakas1991 hartnoll2025">(Julia 1990;
+Spector 1990; Bakas and Bowick 1991; Hartnoll and Yang 2025)</span>, and
+its per-place form was established within this research program for the
+fixed fugacity <span class="math inline">\(z = 1/p\)</span> <span
+class="citation" data-cites="zenodo22035210">(Quni-Gudzinas
+2026q)</span>. This paper does not re-derive those identifications; it
+supplies the tiers they leave open, and it states the precise boundary
+of each claim.</p>
+<p>Three results are the substance of the paper.</p>
+<p>First, the golden occupation numbers are recovered from the canonical
+derivative of the mode partition functions at arbitrary inverse
+temperature <span class="math inline">\(\beta\)</span> and chemical
+potential <span class="math inline">\(\mu\)</span>, not only at the
+special point <span class="math inline">\(z = 1/p\)</span>, and the
+maximum-entropy property that selects them is verified directly.</p>
+<p>Second, the per-distinction transition rate <span
+class="math inline">\(\gamma = 1/N\)</span> — an input assumed by the
+finite-distinction formulation of unitary evolution <span
+class="citation" data-cites="zenodo22046458">(Quni-Gudzinas
+2026g)</span> — is shown to follow from bath degeneracy: one unit of
+total activity distributed uniformly over <span
+class="math inline">\(N\)</span> indistinguishable alternatives produces
+a mixing operator whose non-uniform eigenvalues are <span
+class="math inline">\(1 - 1/N\)</span>.</p>
+<p>Third, the complex structure of the large-<span
+class="math inline">\(N\)</span> limit is identified precisely. The
+reversible generator on the simplex is skew with respect to the Fisher
+metric, but its squared eigenvalues are <span
+class="math inline">\(-\sin^2(2\pi k/N)\)</span>, not <span
+class="math inline">\(-1\)</span>. The complex structure is the
+sign-normalized generator — the discrete Hilbert transform — whose
+square is <span class="math inline">\(-1\)</span> on mean-zero modes
+exactly at every <span class="math inline">\(N\)</span>. This
+normalization is selected on the fermionic side alone: the symmetric
+(diffusive) generator has real squared eigenvalues <span
+class="math inline">\(\cos^2(2\pi k/N) \geq 0\)</span> and admits no
+complex structure.</p>
+<p>Two further structures complete the paper: the Möbius-parity
+dictionary, in which the composite-statistics rule of quantum mechanics
+(an even number of fermionic constituents gives a composite boson, an
+odd number a composite fermion) is exactly the parity of the
+prime-factor count on the squarefree lattice; and the bounded-occupation
+family <span class="math inline">\(\sum_{v_p \le m} n^{-s} =
+\zeta(s)/\zeta((m+1)s)\)</span>, which interpolates from the fermionic
+case at <span class="math inline">\(m = 1\)</span> to the bosonic case
+as <span class="math inline">\(m \to \infty\)</span> and provides the
+arithmetic object that intermediate (anyonic) statistics must
+contact.</p>
+<p>The remainder of the paper is organized as follows. Section 2 states
+the lattice dichotomy and its verification. Section 3 derives the rate
+<span class="math inline">\(\gamma = 1/N\)</span>. Section 4 treats the
+symplectic tier. Section 5 is the Möbius-parity dictionary. Section 6 is
+the anyon program. Section 7 gives the crosswalk of terminology. Section
+8 states what a practitioner can do with the result. Section 9 states
+the premise depth and the boundaries, including the precise relation to
+the spin-statistics connection. Section 10 is the verification
+appendix.</p>
+<h2 id="the-lattice-dichotomy">2. The lattice dichotomy</h2>
+<h3 id="global-identities">2.1 Global identities</h3>
+<p>Let <span class="math inline">\(\zeta(s)\)</span> denote the Riemann
+zeta function. The two Dirichlet identities central to this paper
+are</p>
+<p><span class="math display">\[\sum_{n \text{ squarefree}} n^{-s} =
+\prod_p (1 + p^{-s}) = \frac{\zeta(s)}{\zeta(2s)}, \qquad \sum_{n \geq
+1} n^{-s} = \prod_p (1 - p^{-s})^{-1} = \zeta(s).\]</span></p>
+<p>The first is the generating function of integers whose prime
+exponents obey <span class="math inline">\(a_p \in \{0,1\}\)</span>; the
+second counts every exponent. The Euler factors are the single-mode
+partition functions: <span class="math inline">\((1 + p^{-s})\)</span>
+is <span class="math inline">\(\sum_{a=0}^{1} e^{-a s \ln p}\)</span>,
+the partition function of a two-state mode, and <span
+class="math inline">\((1 - p^{-s})^{-1}\)</span> is <span
+class="math inline">\(\sum_{a \geq 0} e^{-a s \ln p}\)</span>, the
+partition function of an unbounded mode, when <span
+class="math inline">\(s\)</span> is read as an inverse temperature
+multiplying the mode energy <span class="math inline">\(\ln p\)</span>.
+The verification script <code>verify_stats.py</code> checks both
+identities against direct sieved sums: at <span class="math inline">\(s
+= 2.5, 3.0, 4.0\)</span> the squarefree sum over the first <span
+class="math inline">\(10^5\)</span> integers matches <span
+class="math inline">\(\zeta(s)/\zeta(2s)\)</span> to at most <span
+class="math inline">\(1.3 \times 10^{-8}\)</span>, and the unrestricted
+sum matches <span class="math inline">\(\zeta(s)\)</span> to <span
+class="math inline">\(2.1 \times 10^{-8}\)</span> (checks F1a, F1b). The
+Euler-product forms match the closed forms to machine-independent
+truncation error (F1c).</p>
+<h3 id="golden-occupation-numbers">2.2 Golden occupation numbers</h3>
+<p>At inverse temperature <span class="math inline">\(\beta\)</span> and
+chemical potential <span class="math inline">\(\mu\)</span>, with <span
+class="math inline">\(z = e^{\beta\mu}\)</span>, the two single-mode
+partition functions are</p>
+<p><span class="math display">\[Z_F = 1 + z p^{-\beta}, \qquad Z_B = (1
+- z p^{-\beta})^{-1},\]</span></p>
+<p>where the mode energy is <span class="math inline">\(\ln p\)</span>.
+The mean occupation number is the canonical derivative,</p>
+<p><span class="math display">\[\langle n \rangle =
+-\frac{1}{\beta}\frac{\partial}{\partial \ln p}\ln Z,\]</span></p>
+<p>which evaluates to</p>
+<p><span class="math display">\[\langle n \rangle_F = \frac{z
+p^{-\beta}}{1 + z p^{-\beta}} = \frac{1}{e^{\beta(\ln p - \mu)} + 1},
+\qquad \langle n \rangle_B = \frac{z p^{-\beta}}{1 - z p^{-\beta}} =
+\frac{1}{e^{\beta(\ln p - \mu)} - 1}.\]</span></p>
+<p>These are the Fermi–Dirac and Bose–Einstein occupation numbers with
+the mode energy <span class="math inline">\(\varepsilon = \ln
+p\)</span>. The verification (check F1d) computes the canonical
+derivative by finite differences with Richardson extrapolation at <span
+class="math inline">\(p \in \{2,3,5\}\)</span>, <span
+class="math inline">\(\beta \in \{0.5, 1, 2\}\)</span>, <span
+class="math inline">\(z \in \{0.5, 1, 2\}\)</span> (Bose cases
+restricted to <span class="math inline">\(z p^{-\beta} &lt; 1\)</span>
+for convergence) and matches the golden forms to within <span
+class="math inline">\(10^{-9}\)</span>. The special point <span
+class="math inline">\(z = 1/p\)</span>, <span
+class="math inline">\(\beta_p = \ln p\)</span>, of the per-place
+identifications <span class="citation"
+data-cites="zenodo22035210">(Quni-Gudzinas 2026q)</span> is the case
+<span class="math inline">\(\beta = 1\)</span>, <span
+class="math inline">\(\mu = 0\)</span> of this family.</p>
+<h3 id="the-maximum-entropy-property">2.3 The maximum-entropy
+property</h3>
+<p>The golden distributions are not merely the derivatives of the
+partition functions; they are the unique maximum-entropy distributions
+under the stated constraints. For the geometric distribution <span
+class="math inline">\(q_n = (1-q)q^n\)</span> on <span
+class="math inline">\(n \geq 0\)</span> (the bosonic occupation
+distribution), the entropy gradient <span class="math inline">\(-( \ln
+q_n + 1 )\)</span> is affine in the state label <span
+class="math inline">\(n\)</span>, hence orthogonal to every direction
+that preserves both the normalization and the mean — the first-order
+condition of a constrained maximum — and the entropy Hessian is strictly
+negative. For the two-state occupation (fermionic), the two constraints
+(normalization and fixed mean) determine the distribution uniquely. The
+verification script <code>verify_maxent.py</code> checks the first-order
+condition against randomly sampled constraint directions (residual below
+<span class="math inline">\(10^{-14}\)</span> after projection), strict
+concavity, and uniqueness (16 checks).</p>
+<h3 id="the-direction-of-the-assignment">2.4 The direction of the
+assignment</h3>
+<p>The identification of squarefree with fermionic and unrestricted with
+bosonic is a direction, and a direction must be falsifiable. The two
+golden values differ at every non-degenerate point — at <span
+class="math inline">\(z p^{-\beta} = \tfrac12\)</span> the Fermi value
+is <span class="math inline">\(\tfrac13\)</span> and the Bose value is
+<span class="math inline">\(1\)</span> — so the assignment is not
+symmetric under interchange; the verification records this as a guard
+check (S1).</p>
+<h2 id="the-rate-gamma-1n">3. The rate <span
+class="math inline">\(\gamma = 1/N\)</span></h2>
+<p>The finite-distinction formulation of unitary evolution treats a
+system as <span class="math inline">\(N\)</span> finite alternatives
+with a per-distinction transition rate <span
+class="math inline">\(\gamma\)</span>, and obtains the large-<span
+class="math inline">\(N\)</span> unitary limit from the entropy-Hessian
+gradient flow <span class="citation"
+data-cites="zenodo22046458">(Quni-Gudzinas 2026g)</span>. That paper
+assumes <span class="math inline">\(\gamma = 1/N\)</span>. The seed
+derivation of this value is as follows. Suppose the environment consists
+of <span class="math inline">\(N\)</span> indistinguishable
+alternatives, and that one distinction is processed per unit of total
+activity. The mixing operator is</p>
+<p><span class="math display">\[T = \mathrm{Id} -
+\frac{1}{N}\left(\mathrm{Id} - \bar P\right), \qquad \bar P_{ij} =
+\frac{1}{N},\]</span></p>
+<p>the operator that leaves the uniform distribution fixed and contracts
+every mean-zero mode by <span class="math inline">\(1 - 1/N\)</span>.
+The continuous-time rate of the non-uniform modes is therefore <span
+class="math inline">\(\gamma = 1/N\)</span> exactly: the individual rate
+<span class="math inline">\(1\)</span> (one unit of activity) is divided
+by the degeneracy <span class="math inline">\(N\)</span> of the bath.
+The verification script <code>verify_rate_gamma.py</code> checks the
+eigenvalue structure exactly for <span class="math inline">\(N \in
+\{2,4,8,16,32,64\}\)</span> (F2a), simulates the discrete chain — one
+randomly chosen alternative replaced per step — and matches the
+occupation autocorrelation to the closed form <span
+class="math inline">\(q^2 + q(1-q)(1-q)^t\)</span> with <span
+class="math inline">\(q = 1/N\)</span> in seeded Monte Carlo (F2b), and
+confirms the log-log slope of <span
+class="math inline">\(\gamma(N)\)</span> against <span
+class="math inline">\(N\)</span> is <span
+class="math inline">\(-1\)</span> (F2d).</p>
+<p>Two qualifications are stated rather than absorbed. First, the result
+is a property of the uniform degeneracy: if the alternatives carry
+individual rates <span class="math inline">\(\kappa_i\)</span> with
+<span class="math inline">\(\sum \kappa_i = 1\)</span>, the occupation
+of alternative <span class="math inline">\(i\)</span> relaxes at its own
+rate <span class="math inline">\(\kappa_i\)</span>, not at <span
+class="math inline">\(1/N\)</span> — the verification records this as a
+guard (F2c). Second, the input that the bath supplies one unit of total
+activity per distinction is a model assumption; the derivation concerns
+the degeneracy-cancellation mechanics on top of that input, and the seam
+between distinct and indistinguishable alternatives is where the
+assumption lives.</p>
+<h2 id="the-symplectic-tier">4. The symplectic tier</h2>
+<h3 id="fisher-geometry-on-the-simplex">4.1 Fisher geometry on the
+simplex</h3>
+<p>The state space of <span class="math inline">\(N\)</span>
+alternatives is the <span class="math inline">\((N-1)\)</span>-simplex.
+The entropy <span class="math inline">\(S(p) = -\sum_i p_i \ln
+p_i\)</span> has Hessian</p>
+<p><span class="math display">\[\frac{\partial^2 S}{\partial p_i
+\partial p_j} = -\frac{\delta_{ij}}{p_i} - \frac{1}{p_N}, \qquad i,j
+&lt; N,\]</span></p>
+<p>with <span class="math inline">\(p_N = 1 - \sum_{i&lt;N}
+p_i\)</span>; the Fisher metric is its negative,</p>
+<p><span class="math display">\[g_{ij} = \frac{\delta_{ij}}{p_i} +
+\frac{1}{p_N},\]</span></p>
+<p>positive definite on the simplex, and <span class="math inline">\(g =
+N(I + \mathbf{1}\mathbf{1}^\top)\)</span> at the uniform point. (The
+seed derivation writes the metric as the Hessian of <span
+class="math inline">\(S\)</span>; the sign of the defining equation is
+the other way round. The metric used throughout the derivation is the
+positive one; only the displayed equation carries the slip.)</p>
+<h3 id="the-reversible-generator">4.2 The reversible generator</h3>
+<p>Let <span class="math inline">\(L = \frac12(\text{shift} -
+\text{shift}^{-1})\)</span> be the cyclic discrete derivative. On
+Fourier modes <span class="math inline">\(e^{2\pi i k i/N}\)</span> it
+acts by multiplication with <span class="math inline">\(i\sin(2\pi
+k/N)\)</span>; it is skew with respect to <span
+class="math inline">\(g\)</span>, and <span class="math inline">\(\omega
+= gL\)</span> is antisymmetric. The complex structure defined by <span
+class="math inline">\(\omega(u,v) = g(Ju,v)\)</span> is, at the uniform
+point, <span class="math inline">\(J = L\)</span> itself.</p>
+<h3 id="what-j2-actually-is">4.3 What <span
+class="math inline">\(J^2\)</span> actually is</h3>
+<p>The squared generator has Fourier eigenvalues <span
+class="math inline">\(J^2_k = -\sin^2(2\pi k/N)\)</span>. This is <span
+class="math inline">\(-1\)</span> only at the single mode <span
+class="math inline">\(k = N/4\)</span>; at fixed <span
+class="math inline">\(\theta = 2\pi k/N\)</span> the value <span
+class="math inline">\(-\sin^2\theta\)</span> stays bounded away from
+<span class="math inline">\(-1\)</span> as <span
+class="math inline">\(N\)</span> grows. The complex structure proper is
+the sign-normalized generator: the operator <span
+class="math inline">\(H\)</span> with Fourier multiplier <span
+class="math inline">\(-i\,\mathrm{sgn}(\sin(2\pi k/N))\)</span> is the
+discrete Hilbert transform, and <span class="math inline">\(H^2 =
+-1\)</span> on mean-zero modes exactly at every <span
+class="math inline">\(N\)</span>. The large-<span
+class="math inline">\(N\)</span> identification is therefore: the
+generator carries the Hilbert phase at every <span
+class="math inline">\(N\)</span>, and the Hilbert magnitude only after
+sign normalization.</p>
+<h3 id="the-fermibose-contrast">4.4 The Fermi/Bose contrast</h3>
+<p>The symmetric counterpart <span class="math inline">\(L_B =
+\frac12(\text{shift} + \text{shift}^{-1})\)</span> is self-adjoint with
+respect to <span class="math inline">\(g\)</span>, and its square has
+real Fourier eigenvalues <span class="math inline">\(\cos^2(2\pi k/N)
+\geq 0\)</span>. No complex structure can arise on this side: the
+exclusion (skew, oriented) generator is what selects it. All of this is
+verified numerically in <code>verify_symplectic.py</code> (34 checks):
+the Fisher Hessian against the signed closed form at random interior
+points and at the uniform point, skewness and antisymmetry to <span
+class="math inline">\(10^{-15}\)</span>, the eigenvalue identities, the
+finite-<span class="math inline">\(N\)</span> behavior of <span
+class="math inline">\(J^2\)</span>, <span class="math inline">\(H^2 =
+-1\)</span> on mean-zero modes, and the Bose-side contrast.</p>
+<h2 id="composite-statistics-and-möbius-parity">5. Composite statistics
+and Möbius parity</h2>
+<p>The composite-statistics rule of quantum mechanics states that a
+bound state of an even number of fermions behaves as a boson and of an
+odd number as a fermion: the Cooper pair (two electrons) condenses, the
+exciton (electron and hole) is bosonic, helium-4 (six fermions)
+condenses while helium-3 (five fermions) does not. On the squarefree
+lattice the exchange sign of a composite is the parity of its
+prime-factor count: for squarefree <span
+class="math inline">\(n\)</span>, the Möbius function is <span
+class="math inline">\(\mu(n) = (-1)^{k}\)</span> where <span
+class="math inline">\(k\)</span> is the number of prime factors. The
+dictionary is therefore</p>
+<p><span class="math display">\[\text{exchange sign} = \mu(n), \qquad
+\text{on the squarefree lattice},\]</span></p>
+<p>with the parity table verified entry by entry (check F-HCP): Cooper
+pair, exciton, and pion carry <span class="math inline">\(\mu =
++1\)</span> (bosonic); baryon, helium-3, and the electron carry <span
+class="math inline">\(\mu = -1\)</span> (fermionic); the vacuum carries
+<span class="math inline">\(\mu(1) = +1\)</span>. The Dirichlet series
+of the Möbius function, <span class="math inline">\(1/\zeta(s) = \sum_n
+\mu(n) n^{-s}\)</span>, is the Fermi-side generating-function
+continuation against the Bose-side <span
+class="math inline">\(\zeta(s)\)</span>.</p>
+<p>This dictionary is an identification, not a derivation: it states
+that the sign structure of composite statistics and the parity structure
+of the squarefree lattice are the same mathematical object. The
+non-squarefree sector, <span class="math inline">\(\mu(n) = 0\)</span>,
+is the exclusion-forbidden sector — a repeated prime factor is a
+repeated constituent, which the exclusion principle forbids. The claim
+carries three disconfirmation conditions: a contradiction anywhere in
+the parity table; a failure of the <span class="math inline">\(\mu =
+0\)</span> sector to coincide with the exclusion-forbidden sector; or
+the demonstration that the identification is merely coincidental rather
+than structural.</p>
+<h2 id="intermediate-statistics-the-anyon-program">6. Intermediate
+statistics: the anyon program</h2>
+<h3 id="the-interpolation-family">6.1 The interpolation family</h3>
+<p>Between the fermionic bound <span class="math inline">\(a_p \le
+1\)</span> and the bosonic bound <span class="math inline">\(a_p \to
+\infty\)</span> lies the one-parameter family of bounded-occupation
+lattices <span class="math inline">\(a_p \le m\)</span>. Its generating
+function closes exactly:</p>
+<p><span class="math display">\[\sum_{n :\, v_p(n) \le m \; \forall p}
+n^{-s} = \prod_p \left(1 + p^{-s} + \cdots + p^{-ms}\right) =
+\frac{\zeta(s)}{\zeta((m+1)s)}.\]</span></p>
+<p>At <span class="math inline">\(m = 1\)</span> this is the squarefree
+(Fermi) identity <span
+class="math inline">\(\zeta(s)/\zeta(2s)\)</span>; as <span
+class="math inline">\(m \to \infty\)</span> it approaches <span
+class="math inline">\(\zeta(s)\)</span> (Bose). The verification script
+<code>verify_parastats.py</code> checks the sieved sums against the
+closed form for <span class="math inline">\(m \in \{1,2,3\}\)</span> at
+<span class="math inline">\(s = 3,4\)</span>, the single-mode means
+against the analytic form, and both endpoint limits (16 checks).</p>
+<h3 id="the-known-targets">6.2 The known targets</h3>
+<p>The interpolation family is proposed as the arithmetic object that
+intermediate (anyonic and parastatistical) exchange statistics must
+contact. The known observable targets are: abelian anyons with
+fractional exchange phases <span
+class="math inline">\(e^{i\theta}\)</span>, <span
+class="math inline">\(\theta = \pi/m\)</span> <span class="citation"
+data-cites="leinaas1977 wilczek1982">(Leinaas and Myrheim 1977; Wilczek
+1982)</span> (Laughlin quasiparticles at fractional quantum Hall
+fillings <span class="math inline">\(\nu = 1/m\)</span>); non-abelian
+anyons — Ising/Majorana (Majorana zero modes in
+semiconductor–superconductor hybrids and Kitaev chains, with <span
+class="math inline">\(\sigma^2 = 1\)</span> braiding and the <span
+class="math inline">\(4\pi\)</span>-periodic fractional Josephson
+effect) and Fibonacci (filling <span class="math inline">\(\nu =
+12/5\)</span>, universal for topological quantum computation) <span
+class="citation" data-cites="kitaev2003 kitaev2006 nayak2008">(Kitaev
+2003; Kitaev 2006; Nayak et al. 2008)</span>; and parastatistics beyond
+two dimensions in the generalized-exclusion formulation <span
+class="citation" data-cites="wang2023">(Wang and Hazzard 2023)</span>,
+whose constructed models are one- and two-dimensional. Within this
+program, the adelic quantum-error-correction protection of Majorana
+qubits <span class="citation"
+data-cites="zenodo21336099 zenodo21609223">(Quni-Gudzinas 2026a,
+2026n)</span> and the anyon-halo dictionary for moiré superlattices
+<span class="citation" data-cites="zenodo18199397">(Quni-Gudzinas
+2026j)</span> carry the adjacent engineering content.</p>
+<h3 id="the-open-correspondence">6.3 The open correspondence</h3>
+<p>Whether an intermediate occupation bound reproduces any of these
+observables in the same maximum-entropy framework is an open question,
+and it is the disconfirmation condition of this section: if no
+intermediate bound reproduces a known anyonic or parastatistical
+observable, the arithmetic family remains a dictionary without contact.
+The dimensionality bridge is named for the same reason: in <span
+class="math inline">\(d \geq 3\)</span> the exchange group is the
+symmetric group and the phases are exactly <span
+class="math inline">\(\pm 1\)</span>; in <span class="math inline">\(d =
+2\)</span> it is the braid group and the phases can be fractional — the
+relaxation of the dichotomy in two dimensions is the phenomenon the
+interpolation family would have to mirror. The two-dimensional Bose gas,
+which condenses only quasi-long-range (Berezinskii–Kosterlitz–Thouless),
+marks the other place where the dichotomy softens. Two adjacent
+literatures frame the same question from outside: the argument that
+quantum theory itself forbids exchange statistics beyond bosons and
+fermions in three dimensions <span class="citation"
+data-cites="zhou2025">(Zhou et al. 2025)</span>, and the operational
+reconstruction of statistics from information-theoretic principles <span
+class="citation" data-cites="medina2023">(Medina Sánchez and Dakić
+2023)</span>.</p>
+<h2 id="crosswalk-of-terminology">7. Crosswalk of terminology</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>This paper</th>
+<th>Number theory</th>
+<th>Quantum statistics</th>
+<th>Stochastic thermodynamics</th>
+<th>Information theory</th>
+<th>QEC engineering</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>product formula</td>
+<td><span class="math inline">\(\prod_v \lvert x \rvert_v =
+1\)</span></td>
+<td>normalization of occupations</td>
+<td>global audit invariant</td>
+<td>normalization constraint</td>
+<td>checksum on readout/decoder arithmetic</td>
+</tr>
+<tr>
+<td>squarefree restriction</td>
+<td>distinct-part partitions</td>
+<td>Fermi–Dirac (occupation 0/1)</td>
+<td>exclusion regime</td>
+<td>one-bit occupation per state</td>
+<td>physical-qubit exclusivity</td>
+</tr>
+<tr>
+<td>unrestricted lattice</td>
+<td>unrestricted partitions</td>
+<td>Bose–Einstein</td>
+<td>sharing regime</td>
+<td>unbounded occupation</td>
+<td>mode sharing (cat/oscillator)</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\gamma = 1/N\)</span></td>
+<td>degeneracy factor</td>
+<td>per-state rate</td>
+<td>bath degeneracy cancellation</td>
+<td>uniform prior over alternatives</td>
+<td>per-round syndrome rate</td>
+</tr>
+<tr>
+<td>composite statistics</td>
+<td>even/odd fermion count</td>
+<td>Möbius parity <span class="math inline">\(\mu(n)\)</span></td>
+<td>exchange sign <span class="math inline">\(\pm 1\)</span></td>
+<td>constituent-count rule</td>
+<td>Cooper pairs, excitons, He-4/He-3</td>
+</tr>
+</tbody>
+</table>
+<p>Adjacent-domain bridges: the per-place identifications rest on the
+adelic information measure <span class="math inline">\(H_p =
+\mathbb{E}[v_p]\)</span> <span class="citation"
+data-cites="zenodo22024240">(Quni-Gudzinas 2026b)</span>; the p-adic
+spin reading of internal quantum numbers supplies the spin-adjacent arm
+<span class="citation" data-cites="zenodo21672990">(Quni-Gudzinas
+2026k)</span>; the signal-worker ontology of information physics, which
+reads boson as delocalized signal and fermion as localized worker, is
+known to fail exactly on composite bosons <span class="citation"
+data-cites="zenodo21974194">(Quni-Gudzinas 2026m)</span> — the failure
+the Möbius dictionary repairs; the replica-symmetry-breaking structure
+of spin glasses carries the same occupation-count question in the
+ultrametric setting; and the logical-scalar lineage <span
+class="citation"
+data-cites="zenodo21964598 zenodo21964104 zenodo21962450">(Quni-Gudzinas
+2026o, 2026p, 2026d)</span> supplies the exchange-phase reading this
+paper does not claim to replace. The consilience reading of physics and
+number theory <span class="citation"
+data-cites="zenodo21590155">(Quni-Gudzinas 2026e)</span> and the
+tree-automorphism reading of statistics on the Bruhat–Tits tree <span
+class="citation" data-cites="zenodo22024856">(Quni-Gudzinas
+2026i)</span> are differentiated from the multiplicity reading in the
+same breath.</p>
+<h2 id="what-a-practitioner-can-do">8. What a practitioner can do</h2>
+<p>A practitioner reads the statistics of a reservoir off its
+multiplicity structure. Given the occupation bound of a physical
+register — exclusive (<span class="math inline">\(a_p \le 1\)</span>),
+shared (unbounded), or intermediate (<span class="math inline">\(a_p \le
+m\)</span>) — the occupation distribution and the per-distinction cost
+follow, and the rate that the thermodynamic-floor analysis had to assume
+becomes a derived quantity <span class="citation"
+data-cites="zenodo22117282">(Quni-Gudzinas 2026f)</span>.</p>
+<p>The product formula provides an implementable audit. The checksum
+demonstrated for exact rational arithmetic across places <span
+class="citation" data-cites="zenodo22114495">(Quni-Gudzinas
+2026l)</span> extends one tier up: occupation counts in a classical
+simulator of quantum statistics can be validated place-by-place, with a
+deviation from <span class="math inline">\(\prod_v \lvert x \rvert_v =
+1\)</span> localizing the failing place. The verification records this
+as a completeness property: every proper subset of places deviates, and
+only the full place set normalizes to 1 (check H3b, all 1023 proper
+subsets tested).</p>
+<p>The control reading follows from the same identification. If
+statistics are the occupation regime, then controlling statistics is
+controlling the multiplicity structure. In the laboratory the exchange
+phase is manipulated by braiding worldlines, by filling-factor
+engineering in the fractional quantum Hall effect, and by moving
+Majorana zero modes (T-junction and measurement-only braiding) <span
+class="citation" data-cites="zenodo21940822">(Quni-Gudzinas
+2026h)</span>. The arithmetic counterpart — changing the occupation
+bound <span class="math inline">\(m\)</span> — is the design variable
+the same physical content takes in a classical stochastic system. The
+correspondence between these two control surfaces, the braid phase on
+one side and the occupation bound on the other, is the open target of
+Section 6, not an established result.</p>
+<h2 id="premise-depth-and-boundaries">9. Premise depth and
+boundaries</h2>
+<p>The primitives are the integers with unique factorization, the adelic
+product formula (an imported theorem), the maximum-entropy principle (an
+imported postulate), and Euler’s distinct-part partition identity <span
+class="math inline">\(\prod(1+q^n)\)</span>, which is the engine of
+Section 2. Derived are the squarefree/unrestricted dichotomy and its
+occupation consequences, the degeneracy cancellation behind <span
+class="math inline">\(\gamma = 1/N\)</span>, and the large-<span
+class="math inline">\(N\)</span> limit calculus. Named imported inputs
+are the finite-distinction formulation of unitary evolution <span
+class="citation" data-cites="zenodo22046458">(Quni-Gudzinas
+2026g)</span>, the thermodynamic floor of error correction <span
+class="citation" data-cites="zenodo22117282">(Quni-Gudzinas
+2026f)</span>, finite-adele encoding <span class="citation"
+data-cites="zenodo22114495">(Quni-Gudzinas 2026l)</span>, the
+completeness senses of ordered fields <span class="citation"
+data-cites="zenodo22109455">(Quni-Gudzinas 2026c)</span>, the per-place
+identifications at <span class="math inline">\(\beta_p = \ln p\)</span>
+<span class="citation" data-cites="zenodo22035210">(Quni-Gudzinas
+2026q)</span>, and the composite-statistics rule of standard quantum
+mechanics.</p>
+<p>Where the premises end: the claim that the occupation-number
+distributions of quantum statistics are the maximum-entropy
+distributions of a multiplicity-constrained lattice is a mapping
+hypothesis — an isomorphism of mathematical structure — tested here by
+reproduction, and it asserts nothing about what particles are. It earns
+predictive status only through the anyon program of Section 6.</p>
+<p>The boundary to the spin-statistics connection is stated in the words
+of the record that established it <span class="citation"
+data-cites="zenodo21964598">(Quni-Gudzinas 2026o)</span>: the connection
+between exchange phase and spin requires Lorentz symmetry,
+microcausality, and positive energy <span class="citation"
+data-cites="dhr1971 dhr1974">(Doplicher et al. 1971, 1974)</span>, and
+no arithmetic or topological argument supplies those. This paper derives
+the two statistical distributions and their rate structure from
+multiplicities; it does not claim to replace the spin-statistics
+connection, and it inherits its boundary verbatim.</p>
+<h2 id="verification">10. Verification</h2>
+<p>Every quantitative statement in this paper is reproduced by one of
+six deposited scripts, all standard-library Python, seeded, and
+deterministic, with run logs and results files shipped alongside:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Script</th>
+<th>Content</th>
+<th>Checks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>verify_stats.py</code></td>
+<td>squarefree/unrestricted identities, Euler-factor correspondence,
+golden occupations, direction guard, Möbius parity table</td>
+<td>65</td>
+</tr>
+<tr>
+<td><code>verify_product_formula.py</code></td>
+<td>exact product formula, checksum completeness, occupation-constraint
+link</td>
+<td>17</td>
+</tr>
+<tr>
+<td><code>verify_parastats.py</code></td>
+<td>bounded-occupation interpolation family</td>
+<td>16</td>
+</tr>
+<tr>
+<td><code>verify_rate_gamma.py</code></td>
+<td>eigenvalue structure of the mixing operator, seeded Monte Carlo,
+heterogeneity guard, log-log slope</td>
+<td>15</td>
+</tr>
+<tr>
+<td><code>verify_symplectic.py</code></td>
+<td>Fisher Hessian, skewness, Fourier eigenvalues, <span
+class="math inline">\(J^2\)</span> finite-<span
+class="math inline">\(N\)</span> behavior, Hilbert normalization,
+Bose-side contrast</td>
+<td>34</td>
+</tr>
+<tr>
+<td><code>verify_maxent.py</code></td>
+<td>first-order maximum-entropy condition, strict concavity, uniqueness,
+golden edge cases</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<p>Total: 163 checks, all passing at the time of writing. The F4 scoping
+artifact (<code>f4-differential-primon-gas-audit.py</code>) reproduces
+the published primon-gas canon side by side with the quantities
+introduced here and prints the differential table; no quantity
+introduced here reproduces a published one. Reproducibility: run each
+script from the deposited directory; no dependencies beyond the standard
+library; runtimes are on the order of seconds.</p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-bakas1991" class="csl-entry" role="listitem">
+Bakas, Ioannis, and Mark J. Bowick. 1991. <span>“Curiosities of
+Arithmetic Gases.”</span> <em>Journal of Mathematical Physics</em> 32
+(7): 1881–84. <a
+href="https://doi.org/10.1063/1.529511">https://doi.org/10.1063/1.529511</a>.
+</div>
+<div id="ref-dhr1971" class="csl-entry" role="listitem">
+Doplicher, Sergio, Rudolf Haag, and John E. Roberts. 1971. <span>“Local
+Observables and Particle Statistics <span>I</span>.”</span>
+<em>Communications in Mathematical Physics</em> 23 (3): 199–230. <a
+href="https://doi.org/10.1007/bf01877742">https://doi.org/10.1007/bf01877742</a>.
+</div>
+<div id="ref-dhr1974" class="csl-entry" role="listitem">
+Doplicher, Sergio, Rudolf Haag, and John E. Roberts. 1974. <span>“Local
+Observables and Particle Statistics <span>II</span>.”</span>
+<em>Communications in Mathematical Physics</em> 35 (1): 49–85. <a
+href="https://doi.org/10.1007/bf01646454">https://doi.org/10.1007/bf01646454</a>.
+</div>
+<div id="ref-duck1998" class="csl-entry" role="listitem">
+Duck, Ian, and E. C. G. Sudarshan. 1998. <em>Pauli and the
+Spin-Statistics Theorem</em>. World Scientific. <a
+href="https://doi.org/10.1142/3457">https://doi.org/10.1142/3457</a>.
+</div>
+<div id="ref-hartnoll2025" class="csl-entry" role="listitem">
+Hartnoll, Sean A., and Ming Yang. 2025. <em>The Conformal Primon Gas at
+the End of Time</em>. <a
+href="https://arxiv.org/abs/2502.02661">https://arxiv.org/abs/2502.02661</a>.
+</div>
+<div id="ref-julia1990" class="csl-entry" role="listitem">
+Julia, B. L. 1990. <span>“Statistical Theory of Numbers.”</span> In
+<em>Number Theory and Physics</em>, vol. 47. Springer Proceedings in
+Physics. Springer.
+</div>
+<div id="ref-kitaev2003" class="csl-entry" role="listitem">
+Kitaev, A. Yu. 2003. <span>“Fault-Tolerant Quantum Computation by
+Anyons.”</span> <em>Annals of Physics</em> 303 (1): 2–30. <a
+href="https://doi.org/10.1016/s0003-4916(02)00018-0">https://doi.org/10.1016/s0003-4916(02)00018-0</a>.
+</div>
+<div id="ref-kitaev2006" class="csl-entry" role="listitem">
+Kitaev, Alexei. 2006. <span>“Anyons in an Exactly Solved Model and
+Beyond.”</span> <em>Annals of Physics</em> 321 (1): 2–111. <a
+href="https://doi.org/10.1016/j.aop.2005.10.005">https://doi.org/10.1016/j.aop.2005.10.005</a>.
+</div>
+<div id="ref-leinaas1977" class="csl-entry" role="listitem">
+Leinaas, J. M., and J. Myrheim. 1977. <span>“On the Theory of Identical
+Particles.”</span> <em>Il Nuovo Cimento B</em> 37: 1–23. <a
+href="https://doi.org/10.1007/BF02727953">https://doi.org/10.1007/BF02727953</a>.
+</div>
+<div id="ref-medina2023" class="csl-entry" role="listitem">
+Medina Sánchez, Nicolás, and Borivoje Dakić. 2023. <em>Reconstruction of
+Quantum Particle Statistics: Bosons, Fermions, and Transtatistics</em>.
+<a
+href="https://arxiv.org/abs/2306.05919">https://arxiv.org/abs/2306.05919</a>.
+</div>
+<div id="ref-nayak2008" class="csl-entry" role="listitem">
+Nayak, Chetan, Steven H. Simon, Ady Stern, Michael Freedman, and Sankar
+Das Sarma. 2008. <span>“Non-<span>Abelian</span> Anyons and Topological
+Quantum Computation.”</span> <em>Reviews of Modern Physics</em> 80:
+1083–159. <a
+href="https://doi.org/10.1103/RevModPhys.80.1083">https://doi.org/10.1103/RevModPhys.80.1083</a>.
+</div>
+<div id="ref-pauli1940" class="csl-entry" role="listitem">
+Pauli, W. 1940. <span>“The Connection Between Spin and
+Statistics.”</span> <em>Physical Review</em> 58: 716–22. <a
+href="https://doi.org/10.1103/PhysRev.58.716">https://doi.org/10.1103/PhysRev.58.716</a>.
+</div>
+<div id="ref-zenodo21336099" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026a. <em>Adelic Quantum Error Correction:
+Intrinsic Qubit Protection from Ostrowski</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21336099">https://doi.org/10.5281/zenodo.21336099</a>.
+</div>
+<div id="ref-zenodo22024240" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026b. <em>Adelic Shannon Theory: From
+Problem Statement to Constructive Foundations</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22024240">https://doi.org/10.5281/zenodo.22024240</a>.
+</div>
+<div id="ref-zenodo22109455" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026c. <em>Completeness Senses and the
+Levi-Civita Field: Ordered Non-Archimedean Number Systems Beyond
+Ostrowski’s Classification</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22109455">https://doi.org/10.5281/zenodo.22109455</a>.
+</div>
+<div id="ref-zenodo21962450" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026d. <em>Configuration-Space Topology and
+the Distinction Calculus: The Exchange Scalar, Its +/-1 Shadow, and a
+Pre-Registered Derivation Program</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21962450">https://doi.org/10.5281/zenodo.21962450</a>.
+</div>
+<div id="ref-zenodo21590155" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026e. <em>Consilience Between Physics and
+Number Theory: Convergent Theses from Ostrowski’s Theorem to Adelic
+Quantum Mechanics</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21590155">https://doi.org/10.5281/zenodo.21590155</a>.
+</div>
+<div id="ref-zenodo22117282" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026f. <em>Error Correction Is a Landauer
+Machine: The Thermodynamic Floor of Quantum Error-Correction
+Overhead</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22117282">https://doi.org/10.5281/zenodo.22117282</a>.
+</div>
+<div id="ref-zenodo22046458" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026g. <em>Finite-Distinction Quantum
+Mechanics: Unitary Evolution and Superposition as the Large-Distinction
+Limit of Stochastic Thermodynamics</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22046458">https://doi.org/10.5281/zenodo.22046458</a>.
+</div>
+<div id="ref-zenodo21940822" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026h. <em>From Distinction to Dissipation:
+Companion Essay and Executable Toy-Model Suite for the Boson/Fermion
+Distinction Program</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21940822">https://doi.org/10.5281/zenodo.21940822</a>.
+</div>
+<div id="ref-zenodo22024856" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026i. <em>One Table, Two Regimes:
+Standard-Model Particles and Condensed-Matter Excitations as Patterns on
+the Bruhat-Tits Tree</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22024856">https://doi.org/10.5281/zenodo.22024856</a>.
+</div>
+<div id="ref-zenodo18199397" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026j. <em>Operationalizing Generalized
+Symmetries: A Falsifiable Dictionary for Anyon Halos and Stretched
+Exponential Splitting in Moire Superlattices</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.18199397">https://doi.org/10.5281/zenodo.18199397</a>.
+</div>
+<div id="ref-zenodo21672990" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026k. <em>P-Adic Spin, Information, and
+Ultrametric Internal Quantum Numbers</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21672990">https://doi.org/10.5281/zenodo.21672990</a>.
+</div>
+<div id="ref-zenodo22114495" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026l. <em>Post-Positional Numeracy:
+Finite-Adele Encoding and Product-Formula-Verified Exact Rational
+Arithmetic</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22114495">https://doi.org/10.5281/zenodo.22114495</a>.
+</div>
+<div id="ref-zenodo21974194" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026m. <em>Signal-Worker Boundary
+Confinement: A Corrected Ontology of Surface Vs Bulk Transport</em>.
+Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21974194">https://doi.org/10.5281/zenodo.21974194</a>.
+</div>
+<div id="ref-zenodo21609223" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026n. <em>The Adelic ZBW Programme:
+ZBW-Majorana Hypothesis, Ostrowski-QEC Synthesis, and Cross-Programme
+Consilience</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21609223">https://doi.org/10.5281/zenodo.21609223</a>.
+</div>
+<div id="ref-zenodo21964598" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026o. <em>The Boson/Fermion Distinction:
+Spin-Statistics as Structural Invariant</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21964598">https://doi.org/10.5281/zenodo.21964598</a>.
+</div>
+<div id="ref-zenodo21964104" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026p. <em>The Exchange Phase as a Logical
+Scalar: R = e^(2 Pi i s) from the Re-Entrant Calculus</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21964104">https://doi.org/10.5281/zenodo.21964104</a>.
+</div>
+<div id="ref-zenodo22035210" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026q. <em>The Self-Referential Scalar
+Family: E, the Half-Turn, and the Unification of Information Theory,
+Statistics, Thermodynamics, and QND Measurement in the Adelic
+Picture</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22035210">https://doi.org/10.5281/zenodo.22035210</a>.
+</div>
+<div id="ref-spector1990" class="csl-entry" role="listitem">
+Spector, Donald. 1990. <span>“Supersymmetry and the <span
+class="nocase">M<span class="nocase">ö</span>bius</span> Inversion
+Function.”</span> <em>Communications in Mathematical Physics</em> 127
+(2): 239–52. <a
+href="https://doi.org/10.1007/bf02096755">https://doi.org/10.1007/bf02096755</a>.
+</div>
+<div id="ref-wang2023" class="csl-entry" role="listitem">
+Wang, Zhiyuan, and Kaden R. A. Hazzard. 2023. <em>Particle Exchange
+Statistics Beyond Fermions and Bosons</em>. <a
+href="https://arxiv.org/abs/2308.05203">https://arxiv.org/abs/2308.05203</a>.
+</div>
+<div id="ref-wilczek1982" class="csl-entry" role="listitem">
+Wilczek, Frank. 1982. <span>“Quantum Mechanics of Fractional-Spin
+Particles.”</span> <em>Physical Review Letters</em> 49 (14): 957–59. <a
+href="https://doi.org/10.1103/physrevlett.49.957">https://doi.org/10.1103/physrevlett.49.957</a>.
+</div>
+<div id="ref-zhou2025" class="csl-entry" role="listitem">
+Zhou, Chi-Chun, Shuai A. Chen, Yu-Zhu Chen, Yao Shen, Fu-Lin Zhang, and
+Wu-Sheng Dai. 2025. <em>Quantum Statistics Forbids Particle Exchange
+Statistics Beyond Bosons and Fermions in 3D</em>. <a
+href="https://arxiv.org/abs/2505.17361">https://arxiv.org/abs/2505.17361</a>.
+</div>
+</div>
+</body>
+</html>

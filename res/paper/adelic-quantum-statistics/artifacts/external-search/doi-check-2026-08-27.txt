@@ -1,0 +1,17 @@
+Targeted Crossref DOI checks — QNFO.RES.027 reference verification (2026-08-27)
+
+DOI-CHECK: nayak2008 10.1103/RevModPhys.80.1083
+  T: Non-Abelian anyons and topological quantum computation
+  AUTH: Chetan Nayak; Steven H. Simon; Ady Stern; Michael Freedman; Sankar Das Sarma | Reviews of Modern Physics | [2008, 9, 12]
+
+DOI-CHECK: leinaas1977 10.1007/BF02727953
+  T: On the theory of identical particles
+  AUTH: J. M. Leinaas; J. Myrheim | Il Nuovo Cimento B Series 11 | [1977, 1]
+
+DOI-CHECK: pauli1940 10.1103/PhysRev.58.716
+  T: The Connection Between Spin and Statistics
+  AUTH: W. Pauli | Physical Review | [1940, 10, 15]
+
+DOI-CHECK: julia1990-chapter 10.1007/978-3-642-75426-5
+  (404 — no Crossref record for the guessed book DOI; the chapter is cited as an
+  incollection with canonical venue data, venue-verified only, noted in the bib.)
