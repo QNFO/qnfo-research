@@ -1,0 +1,37 @@
+{
+ "copy": "Exact multi-place rational arithmetic: a finite-adele encoding with a proved injectivity window, and the adelic product formula as a machine-checkable invariant of computation. #OpenScience #ExactArithmetic #UltrametricPhysics https://doi.org/10.5281/zenodo.22114388",
+ "copy_chars": 266,
+ "org_id": "683832fdf3b32ba49eb7cf34",
+ "results": {
+  "Rowan Brad Quni-Gudzinas": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6a8fc1aa68f0bd7ea655a95a",
+      "status": "scheduled"
+     }
+    }
+   }
+  },
+  "RowanQuni": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6a8fc1ab9f3616790d53da68",
+      "status": "scheduled"
+     }
+    }
+   }
+  },
+  "QNFO": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6a8fc1ad5e1d5ac730c78b08",
+      "status": "scheduled"
+     }
+    }
+   }
+  }
+ }
+}
