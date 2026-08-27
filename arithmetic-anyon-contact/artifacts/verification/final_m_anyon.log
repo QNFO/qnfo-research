@@ -1,0 +1,38 @@
+  G1 m=1 s=2.5: sieved=1.2937133 ratio=1.2937133 err=3.62e-8
+  G1 m=1 s=3.0: sieved=1.1815649 ratio=1.1815649 err=1.22e-10
+  G1 m=1 s=4.0: sieved=1.0779281 ratio=1.0779281 err=1.62e-15
+  G1 m=2 s=2.5: sieved=1.333716 ratio=1.3337161 err=4.96e-8
+  G1 m=2 s=3.0: sieved=1.1996475 ratio=1.1996475 err=1.66e-10
+  G1 m=2 s=4.0: sieved=1.082057 ratio=1.082057 err=2.22e-15
+  G1 m=3 s=2.5: sieved=1.3401543 ratio=1.3401544 err=5.51e-8
+  G1 m=3 s=3.0: sieved=1.2017612 ratio=1.2017612 err=1.85e-10
+  G1 m=3 s=4.0: sieved=1.0823067 ratio=1.0823067 err=2.46e-15
+  G1 m=5 s=2.5: sieved=1.3414462 ratio=1.3414462 err=5.86e-8
+  G1 m=5 s=3.0: sieved=1.2020523 ratio=1.2020523 err=1.97e-10
+  G1 m=5 s=4.0: sieved=1.0823232 ratio=1.0823232 err=2.62e-15
+[PASS] G1-dirichlet-identity: sieved m-th-power-free sums match zeta ratio (err < 1e-6)
+[PASS] G2-fermi-endpoint: m=1 -> 0.333333333333333333333333333333 == 0.333333333333333333333333333333
+[PASS] G2-bose-limit: m=100 -> 0.99999999999999999999999999996 ~ 1.0
+[PASS] G2-monotone: occupation increases with m: [0.3333333333333333, 0.5714285714285714, 0.7333333333333333, 0.9047619047619048]...
+[PASS] G2-golden-at-half: RES.027 S1 guard: Fermi value 1/3 at x=1/2
+  G3 m=1: exchange eigenvalues ['1.0'] — only +/-1, no fractional phase
+  G3 m=2: exchange eigenvalues ['-1.0', '1.0', '1.0'] — only +/-1, no fractional phase
+  G3 m=3: exchange eigenvalues ['-1.0', '1.0', '1.0'] — only +/-1, no fractional phase
+  G3 m=5: exchange eigenvalues ['-1.0', '1.0', '1.0'] — only +/-1, no fractional phase
+  G3 m=100: exchange eigenvalues ['-1.0', '1.0', '1.0'] — only +/-1, no fractional phase
+[PASS] G3-permutation-signs-only: permuting occupation labels yields only +/-1 for every m: no fractional phase available
+[PASS] G3-observables-phase-invariant: occupation numbers invariant under arbitrary exchange phases theta in {1/3, 1/5}: the cap determines no phase
+[PASS] G3-no-laughlin-match: canonical symmetric phase +1 != Laughlin e^{i pi / m} = (-1.69e-33 + 1.0j), (0.5 + 0.866j), (0.809 + 0.5878j) for m>=2
+[PASS] G3-fermi-phase-missing: at m=1 the canonical phase is +1, real fermions carry -1: counting != phase
+  G4 m=2 g=1/m: max|Gentile - Haldane| = 0.1092
+  G4 m=2 g=1/(m+1): max|Gentile - Haldane| = 0.1868
+  G4 m=3 g=1/m: max|Gentile - Haldane| = 0.252
+  G4 m=3 g=1/(m+1): max|Gentile - Haldane| = 0.09048
+  G4 m=5 g=1/m: max|Gentile - Haldane| = 0.5777
+  G4 m=5 g=1/(m+1): max|Gentile - Haldane| = 0.3598
+  G4 endpoints: m=1/g=1 exact Fermi: True; m=100 ~ g=0.001 both -> Bose 1: True
+[PASS] G4-gentile-not-haldane: endpoints agree (m=1<->g=1, m->inf<->g=0); finite m deviate for both mappings: the m-family is Gentile statistics, not Haldane exclusion statistics
+
+C1 CONFIRMED: the bounded-occupation family determines no exchange phase — occupation-label swaps give only +/-1, every observable is invariant under arbitrary phase insertion, and the canonical symmetric reading gives +1 for every m (including m=1, where real fermions carry -1). It reproduces no Laughlin exchange phase for any m>=2, and at finite m its occupation curve is Gentile, not Haldane, statistics. The zeta(s)/zeta((m+1)s) <-> Fermi/Bose correspondence is a counting isomorphism, not an exchange-phase isomorphism. Disconfirmer D1 (an m-family match to a known anyonic datum) not triggered.
+wrote verify_m_anyon.json
+EXIT=0

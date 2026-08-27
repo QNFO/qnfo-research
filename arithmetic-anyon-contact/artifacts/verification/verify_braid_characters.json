@@ -1,0 +1,56 @@
+{
+  "script": "verify_braid_characters.py",
+  "wbs": "QNFO.RES.028",
+  "phase": "P4",
+  "hypothesis": "C2",
+  "date": "2026-08-27",
+  "checks": [
+    {
+      "check": "C1-braid-relations",
+      "pass": true,
+      "detail": "1-d characters rho_theta satisfy braid + distant-commutation relations (theta in {1/3, 2/5, 1/2})"
+    },
+    {
+      "check": "C2-laughlin-roots-of-unity",
+      "pass": true,
+      "detail": "Laughlin exchange phases e^{i pi / m} are primitive 2m-th roots of unity for m in {1,2,3,5,7}"
+    },
+    {
+      "check": "C3-fibonacci-q4",
+      "pass": true,
+      "detail": "q^4 == e^(4 pi i / 5); order 5"
+    },
+    {
+      "check": "C3-fibonacci-minusq2",
+      "pass": true,
+      "detail": "-q^2 == -e^(2 pi i / 5); order 10"
+    },
+    {
+      "check": "C3-fibonacci-eigenvalues-standard",
+      "pass": true,
+      "detail": "both unitary: the standard Fibonacci anyon braid eigenvalues (Trebst et al. 2008; Kitaev 2006)"
+    },
+    {
+      "check": "C4-tl-fibonacci",
+      "pass": true,
+      "detail": "|q + q^-1| = 2 cos(pi/5) = phi = 1.61803 (Fibonacci TL parameter)"
+    },
+    {
+      "check": "C4-su2k-family",
+      "pass": true,
+      "detail": "delta_k = 2 cos(pi/(k+2)): k=2 -> sqrt(2) (Ising), k=3 -> phi (Fibonacci), k=4 -> sqrt(3)"
+    },
+    {
+      "check": "C4-all-roots-of-unity-locus",
+      "pass": true,
+      "detail": "each delta_k = |q_k + q_k^-1| at q_k = e^{i pi/(k+2)}, a 2(k+2)-th root of unity"
+    },
+    {
+      "check": "C5-corpus-anchor",
+      "pass": true,
+      "detail": "parameterization matches in-corpus records 'p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity' (10.5281/zenodo.21208491) and the pattern-particle table's root-of-unity phases (10.5281/zenodo.22024856) \u2014 [RETRODICTION] named-input consistency, not independent evidence"
+    }
+  ],
+  "verdict": "C2 CONFIRMED on the abelian test set and the Fibonacci data: the exchange phases carried by the standard anyon models are multiplicative-character (root-of-unity) data \u2014 Laughlin e^{i pi / m} primitive 2m-th roots, Fibonacci q^4 / -q^2 at q = e^{i pi / 5}, TL family delta_k = 2 cos(pi/(k+2)) \u2014 and the m-family (C1) does not carry them. Evidential weight: [RETRODICTION] identity checks of established data; the characterization, not a prediction, is the content.",
+  "d2_monitor": "armed: a known abelian anyon phase with irrational theta realized in a physical model would disconfirm C2; none established."
+}

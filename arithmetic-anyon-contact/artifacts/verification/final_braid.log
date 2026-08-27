@@ -1,0 +1,18 @@
+[PASS] C1-braid-relations: 1-d characters rho_theta satisfy braid + distant-commutation relations (theta in {1/3, 2/5, 1/2})
+  C2 m=1: e^{i pi/1} order=2 (expected 2), matches primitive 2m-th root: True
+  C2 m=2: e^{i pi/2} order=4 (expected 4), matches primitive 2m-th root: True
+  C2 m=3: e^{i pi/3} order=6 (expected 6), matches primitive 2m-th root: True
+  C2 m=5: e^{i pi/5} order=10 (expected 10), matches primitive 2m-th root: True
+  C2 m=7: e^{i pi/7} order=14 (expected 14), matches primitive 2m-th root: True
+[PASS] C2-laughlin-roots-of-unity: Laughlin exchange phases e^{i pi / m} are primitive 2m-th roots of unity for m in {1,2,3,5,7}
+[PASS] C3-fibonacci-q4: q^4 == e^(4 pi i / 5); order 5
+[PASS] C3-fibonacci-minusq2: -q^2 == -e^(2 pi i / 5); order 10
+[PASS] C3-fibonacci-eigenvalues-standard: both unitary: the standard Fibonacci anyon braid eigenvalues (Trebst et al. 2008; Kitaev 2006)
+[PASS] C4-tl-fibonacci: |q + q^-1| = 2 cos(pi/5) = phi = 1.61803 (Fibonacci TL parameter)
+[PASS] C4-su2k-family: delta_k = 2 cos(pi/(k+2)): k=2 -> sqrt(2) (Ising), k=3 -> phi (Fibonacci), k=4 -> sqrt(3)
+[PASS] C4-all-roots-of-unity-locus: each delta_k = |q_k + q_k^-1| at q_k = e^{i pi/(k+2)}, a 2(k+2)-th root of unity
+[PASS] C5-corpus-anchor: parameterization matches in-corpus records 'p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity' (10.5281/zenodo.21208491) and the pattern-particle table's root-of-unity phases (10.5281/zenodo.22024856) — [RETRODICTION] named-input consistency, not independent evidence
+
+C2 CONFIRMED on the abelian test set and the Fibonacci data: the exchange phases carried by the standard anyon models are multiplicative-character (root-of-unity) data — Laughlin e^{i pi / m} primitive 2m-th roots, Fibonacci q^4 / -q^2 at q = e^{i pi / 5}, TL family delta_k = 2 cos(pi/(k+2)) — and the m-family (C1) does not carry them. Evidential weight: [RETRODICTION] identity checks of established data; the characterization, not a prediction, is the content.
+wrote verify_braid_characters.json
+EXIT=0

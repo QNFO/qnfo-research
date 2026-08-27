@@ -1,0 +1,42 @@
+{
+  "script": "verify_prime_gap_thermo.py",
+  "wbs": "QNFO.RES.028",
+  "phase": "P4",
+  "hypothesis": "H2",
+  "date": "2026-08-27",
+  "P": 1000000,
+  "n_modes": 78498,
+  "checks": [
+    {
+      "check": "H1-bost-connes-point",
+      "pass": true,
+      "detail": "sum 1/p = 2.7636 (2e5) -> 2.8873 (1e6): tracks Mertens' law ln ln x + B and grows without bound; bosonic primon gas diverges at beta=1 (Hagedorn-type); all runs at beta >= 1.1"
+    },
+    {
+      "check": "H3-li-inverse-validated",
+      "pass": true,
+      "detail": "exact walked Li_2 inversions at machine precision (|Li_2(x_k) - k| < 1e-10, sampled); x_k strictly increasing"
+    },
+    {
+      "check": "H4-delta-nonzero-bosonic",
+      "pass": true,
+      "detail": "Delta C_V != 0 at every sampled temperature"
+    },
+    {
+      "check": "H2-golden-bosonic",
+      "pass": true,
+      "detail": "golden C_V(beta=3, primes) = 1.550526403"
+    },
+    {
+      "check": "H4-delta-nonzero-fermionic",
+      "pass": true,
+      "detail": "Delta C_V != 0 at every sampled temperature"
+    },
+    {
+      "check": "H2-golden-fermionic",
+      "pass": true,
+      "detail": "golden C_V(beta=3, primes) = 1.204541647"
+    }
+  ],
+  "verdict": "H2 CONFIRMED: the prime-gap density of states produces a nonzero specific-heat deviation from the smooth-DOS baseline in both statistics (Delta C_V at beta=1.5: bosonic -0.357909, fermionic -0.786428), quantified across beta in [1.1, 6.0] with the Bost-Connes point respected. Internal to the Riemann-gas model \u2014 the minimal distinguishing observable, not a laboratory prediction. D3 not triggered."
+}

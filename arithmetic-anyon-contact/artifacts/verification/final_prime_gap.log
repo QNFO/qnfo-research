@@ -1,0 +1,41 @@
+primes <= 1000000: 78498 modes
+[PASS] H1-bost-connes-point: sum 1/p = 2.7636 (2e5) -> 2.8873 (1e6): tracks Mertens' law ln ln x + B and grows without bound; bosonic primon gas diverges at beta=1 (Hagedorn-type); all runs at beta >= 1.1
+  H3 self-check k=1: x=2.872467945 |Li_2(x) - k| = 0.0
+  H3 self-check k=10: x=23.50851988 |Li_2(x) - k| = 0.0
+  H3 self-check k=100: x=495.3505616 |Li_2(x) - k| = 0.0
+  H3 self-check k=1000: x=7772.34851 |Li_2(x) - k| = 0.0
+  H3 self-check k=10000: x=104281.8464 |Li_2(x) - k| = 0.0
+  H3 self-check k=25000: x=286333.4498 |Li_2(x) - k| = 0.0
+  H3 self-check k=50000: x=611026.7445 |Li_2(x) - k| = 7.28e-12
+  H3 self-check k=78498: x=998224.7658 |Li_2(x) - k| = 0.0
+[PASS] H3-li-inverse-validated: exact walked Li_2 inversions at machine precision (|Li_2(x_k) - k| < 1e-10, sampled); x_k strictly increasing
+  H2/H4 bosonic beta=1.1: C_V(primes)=48.403086 C_V(smooth)=49.788756 Delta=-1.3857 rel=0.028628
+  H2/H4 bosonic beta=1.25: C_V(primes)=21.22258 C_V(smooth)=22.096605 Delta=-0.87403 rel=0.041184
+  H2/H4 bosonic beta=1.5: C_V(primes)=8.6025023 C_V(smooth)=8.9604109 Delta=-0.35791 rel=0.041605
+  H2/H4 bosonic beta=2.0: C_V(primes)=3.5378681 C_V(smooth)=3.3989421 Delta=0.13893 rel=0.039268
+  H2/H4 bosonic beta=3.0: C_V(primes)=1.5505264 C_V(smooth)=1.1220071 Delta=0.42852 rel=0.27637
+  H2/H4 bosonic beta=4.0: C_V(primes)=0.89689432 C_V(smooth)=0.4690007 Delta=0.42789 rel=0.47708
+  H2/H4 bosonic beta=6.0: C_V(primes)=0.34598476 C_V(smooth)=0.090892456 Delta=0.25509 rel=0.73729
+[PASS] H4-delta-nonzero-bosonic: Delta C_V != 0 at every sampled temperature
+[PASS] H2-golden-bosonic: golden C_V(beta=3, primes) = 1.550526403
+  max |Delta C_V| (bosonic) = 1.38567 at beta = 1.1
+  H2/H4 fermionic beta=1.1: C_V(primes)=45.555676 C_V(smooth)=47.184934 Delta=-1.6293 rel=0.035764
+  H2/H4 fermionic beta=1.25: C_V(primes)=19.032252 C_V(smooth)=20.252914 Delta=-1.2207 rel=0.064137
+  H2/H4 fermionic beta=1.5: C_V(primes)=7.0519759 C_V(smooth)=7.8384037 Delta=-0.78643 rel=0.11152
+  H2/H4 fermionic beta=2.0: C_V(primes)=2.6409738 C_V(smooth)=2.9299414 Delta=-0.28897 rel=0.10942
+  H2/H4 fermionic beta=3.0: C_V(primes)=1.2045416 C_V(smooth)=1.0311147 Delta=0.17343 rel=0.14398
+  H2/H4 fermionic beta=4.0: C_V(primes)=0.76359146 C_V(smooth)=0.45184002 Delta=0.31175 rel=0.40827
+  H2/H4 fermionic beta=6.0: C_V(primes)=0.32875697 C_V(smooth)=0.090371531 Delta=0.23839 rel=0.72511
+[PASS] H4-delta-nonzero-fermionic: Delta C_V != 0 at every sampled temperature
+[PASS] H2-golden-fermionic: golden C_V(beta=3, primes) = 1.204541647
+  max |Delta C_V| (fermionic) = 1.62926 at beta = 1.1
+  GOLDEN fermionic C_V^primes(beta=2.0) = 2.64097375717
+  GOLDEN fermionic C_V^smooth(beta=2.0) = 2.9299413727
+  GOLDEN fermionic C_V^primes(beta=3.0) = 1.20454164656
+  GOLDEN fermionic C_V^smooth(beta=3.0) = 1.03111468322
+  GOLDEN fermionic C_V^primes(beta=4.0) = 0.76359146031
+  GOLDEN fermionic C_V^smooth(beta=4.0) = 0.451840015554
+
+H2 CONFIRMED: the prime-gap density of states produces a nonzero specific-heat deviation from the smooth-DOS baseline in both statistics (Delta C_V at beta=1.5: bosonic -0.357909, fermionic -0.786428), quantified across beta in [1.1, 6.0] with the Bost-Connes point respected. Internal to the Riemann-gas model — the minimal distinguishing observable, not a laboratory prediction. D3 not triggered.
+wrote verify_prime_gap_thermo.json
+EXIT=0
