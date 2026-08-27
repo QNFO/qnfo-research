@@ -1,0 +1,65 @@
+PASS  F1a squarefree D(2.5) = zeta/zeta(2s) | sum=1.2937133154 ref=1.2937133282 err=1.28e-08
+PASS  F1a squarefree D(3.0) = zeta/zeta(2s) | sum=1.1815649490 ref=1.1815649490 err=3.04e-11
+PASS  F1a squarefree D(4.0) = zeta/zeta(2s) | sum=1.0779281367 ref=1.0779281367 err=4.44e-16
+PASS  F1b unrestricted D(2.5) = zeta | sum=1.3414872362 ref=1.3414872573 err=2.11e-08
+PASS  F1b unrestricted D(3.0) = zeta | sum=1.2020569031 ref=1.2020569032 err=5.00e-11
+PASS  F1b unrestricted D(4.0) = zeta | sum=1.0823232337 ref=1.0823232337 err=4.44e-16
+PASS  F1c EulerF(2.5) = prod(1+p^-s) | prod=1.2937133260 zeta/z2s=1.2937133282 err=2.24e-09
+PASS  F1c EulerB(2.5) = prod(1-p^-s)^-1 | prod=1.3414872549 zeta=1.3414872573 err=2.32e-09
+PASS  F1c EulerF(3.0) = prod(1+p^-s) | prod=1.1815649490 zeta/z2s=1.1815649490 err=4.91e-12
+PASS  F1c EulerB(3.0) = prod(1-p^-s)^-1 | prod=1.2020569032 zeta=1.2020569032 err=5.03e-12
+PASS  F1c EulerF(4.0) = prod(1+p^-s) | prod=1.0779281367 zeta/z2s=1.0779281367 err=4.53e-14
+PASS  F1c EulerB(4.0) = prod(1-p^-s)^-1 | prod=1.0823232337 zeta=1.0823232337 err=1.53e-14
+PASS  F1d F p=2 b=0.5 z=0.5 | canonical=0.261203874935 golden=0.261203874964 err=2.87e-11
+PASS  F1d B p=2 b=0.5 z=0.5 | canonical=0.546918160671 golden=0.546918160678 err=7.04e-12
+PASS  F1d F p=2 b=0.5 z=1.0 | canonical=0.414213562361 golden=0.414213562373 err=1.23e-11
+PASS  F1d B p=2 b=0.5 z=1.0 | canonical=2.414213562404 golden=2.414213562373 err=3.04e-11
+PASS  F1d F p=2 b=1.0 z=0.5 | canonical=0.199999999986 golden=0.200000000000 err=1.37e-11
+PASS  F1d B p=2 b=1.0 z=0.5 | canonical=0.333333333325 golden=0.333333333333 err=7.99e-12
+PASS  F1d F p=2 b=1.0 z=1.0 | canonical=0.333333333337 golden=0.333333333333 err=4.03e-12
+PASS  F1d B p=2 b=1.0 z=1.0 | canonical=0.999999999994 golden=1.000000000000 err=6.40e-12
+PASS  F1d F p=2 b=2.0 z=0.5 | canonical=0.111111111116 golden=0.111111111111 err=5.35e-12
+PASS  F1d B p=2 b=2.0 z=0.5 | canonical=0.142857142860 golden=0.142857142857 err=3.22e-12
+PASS  F1d F p=2 b=2.0 z=1.0 | canonical=0.200000000010 golden=0.200000000000 err=1.01e-11
+PASS  F1d B p=2 b=2.0 z=1.0 | canonical=0.333333333343 golden=0.333333333333 err=1.00e-11
+PASS  F1d F p=2 b=2.0 z=2.0 | canonical=0.333333333340 golden=0.333333333333 err=6.81e-12
+PASS  F1d B p=2 b=2.0 z=2.0 | canonical=1.000000000003 golden=1.000000000000 err=2.85e-12
+PASS  F1d F p=3 b=0.5 z=0.5 | canonical=0.224009237737 golden=0.224009237740 err=2.77e-12
+PASS  F1d B p=3 b=0.5 z=0.5 | canonical=0.405827419557 golden=0.405827419558 err=1.41e-12
+PASS  F1d F p=3 b=0.5 z=1.0 | canonical=0.366025403786 golden=0.366025403784 err=1.84e-12
+PASS  F1d B p=3 b=0.5 z=1.0 | canonical=1.366025403841 golden=1.366025403784 err=5.65e-11
+PASS  F1d F p=3 b=1.0 z=0.5 | canonical=0.142857142857 golden=0.142857142857 err=2.54e-13
+PASS  F1d B p=3 b=1.0 z=0.5 | canonical=0.200000000000 golden=0.200000000000 err=2.63e-13
+PASS  F1d F p=3 b=1.0 z=1.0 | canonical=0.250000000000 golden=0.250000000000 err=2.13e-13
+PASS  F1d B p=3 b=1.0 z=1.0 | canonical=0.500000000002 golden=0.500000000000 err=2.35e-12
+PASS  F1d F p=3 b=1.0 z=2.0 | canonical=0.400000000000 golden=0.400000000000 err=4.00e-13
+PASS  F1d B p=3 b=1.0 z=2.0 | canonical=1.999999999998 golden=2.000000000000 err=1.70e-12
+PASS  F1d F p=3 b=2.0 z=0.5 | canonical=0.052631578946 golden=0.052631578947 err=1.53e-12
+PASS  F1d B p=3 b=2.0 z=0.5 | canonical=0.058823529408 golden=0.058823529412 err=4.02e-12
+PASS  F1d F p=3 b=2.0 z=1.0 | canonical=0.099999999999 golden=0.100000000000 err=1.17e-12
+PASS  F1d B p=3 b=2.0 z=1.0 | canonical=0.125000000008 golden=0.125000000000 err=8.45e-12
+PASS  F1d F p=3 b=2.0 z=2.0 | canonical=0.181818181827 golden=0.181818181818 err=8.76e-12
+PASS  F1d B p=3 b=2.0 z=2.0 | canonical=0.285714285717 golden=0.285714285714 err=2.73e-12
+PASS  F1d F p=5 b=0.5 z=0.5 | canonical=0.182743997629 golden=0.182743997632 err=2.81e-12
+PASS  F1d B p=5 b=0.5 z=0.5 | canonical=0.288007155563 golden=0.288007155526 err=3.70e-11
+PASS  F1d F p=5 b=0.5 z=1.0 | canonical=0.309016994397 golden=0.309016994375 err=2.19e-11
+PASS  F1d B p=5 b=0.5 z=1.0 | canonical=0.809016994393 golden=0.809016994375 err=1.77e-11
+PASS  F1d F p=5 b=0.5 z=2.0 | canonical=0.472135954995 golden=0.472135955000 err=4.66e-12
+PASS  F1d B p=5 b=0.5 z=2.0 | canonical=8.472135954992 golden=8.472135955000 err=7.76e-12
+PASS  F1d F p=5 b=1.0 z=0.5 | canonical=0.090909090925 golden=0.090909090909 err=1.62e-11
+PASS  F1d B p=5 b=1.0 z=0.5 | canonical=0.111111111109 golden=0.111111111111 err=2.28e-12
+PASS  F1d F p=5 b=1.0 z=1.0 | canonical=0.166666666671 golden=0.166666666667 err=3.87e-12
+PASS  F1d B p=5 b=1.0 z=1.0 | canonical=0.250000000008 golden=0.250000000000 err=8.11e-12
+PASS  F1d F p=5 b=1.0 z=2.0 | canonical=0.285714285730 golden=0.285714285714 err=1.52e-11
+PASS  F1d B p=5 b=1.0 z=2.0 | canonical=0.666666666658 golden=0.666666666667 err=8.59e-12
+PASS  F1d F p=5 b=2.0 z=0.5 | canonical=0.019607843138 golden=0.019607843137 err=4.06e-13
+PASS  F1d B p=5 b=2.0 z=0.5 | canonical=0.020408163259 golden=0.020408163265 err=6.76e-12
+PASS  F1d F p=5 b=2.0 z=1.0 | canonical=0.038461538461 golden=0.038461538462 err=8.42e-13
+PASS  F1d B p=5 b=2.0 z=1.0 | canonical=0.041666666672 golden=0.041666666667 err=5.30e-12
+PASS  F1d F p=5 b=2.0 z=2.0 | canonical=0.074074074074 golden=0.074074074074 err=3.70e-13
+PASS  F1d B p=5 b=2.0 z=2.0 | canonical=0.086956521741 golden=0.086956521739 err=1.92e-12
+PASS  F-HCP mu parity squarefree n<=5000 | mu(n)=(-1)^{#prime factors}
+PASS  F-HCP composite sign table | Cooper pair:2->+1, exciton:2->+1, helium-4:6->+1, helium-3:3->-1, electron:1->-1
+
+RESULT: 62/62 PASS
+ALL CHECKS PASS
