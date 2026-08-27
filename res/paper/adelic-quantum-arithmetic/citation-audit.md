@@ -30,3 +30,7 @@ Date: 2026-08-27. Method: every entry machine-generated from live metadata — D
 - Every entry fetched successfully: PASS
 - F2 note: RES.010 (exchange-phase-logical-scalar) cited via its concept DOI because the registry record DOI (10.5281/zenodo.21964104) and the deposited v1.3 frontmatter DOI (10.5281/zenodo.21964359) disagree; the concept DOI always resolves to the newest version.
 - P3.AUTHOR-GATE-EVERY-ENTRY-1: every entry's creator list verified against live metadata — no sampled verification.
+
+## P4 addition (2026-08-27)
+
+- zuniga2024wells (arXiv:2410.13048, Zúñiga-Galindo & Mayes, 2024) added during the P4 red-team remediation: the §8 related-work sentence naming p-adic potential-well and quantum-walk models required the citation. The entry's fields come from the same recorded live arXiv API response as the original nineteen entries (artifacts/external-search/arxiv-evidence-2026-08-27.json) — no hand-typed bibliography.
