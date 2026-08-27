@@ -30,8 +30,8 @@ This paper completes a four-paper arc with a single audit invariant. Paper 1 pri
 
 - **L0 (unanalyzable primitives):** the integers with unique prime factorization; the adelic product formula (imported theorem); the maximum-entropy principle (imported postulate).
 - **L1 (derived):** the squarefree/unrestricted dichotomy and its occupation consequences; the degeneracy cancellation behind γ = 1/N; the large-N limit calculus (imported from QNFO.RES.021).
-- **L2 (named imported inputs):** finite-distinction quantum mechanics (QNFO.RES.021, 10.5281/zenodo.22046458); the Landauer floor of QEC (QNFO.JPC.003, 10.5281/zenodo.22117282); finite-adele encoding (QNFO.RES.024, 10.5281/zenodo.22114495); completeness senses (QNFO.RES.025, 10.5281/zenodo.22109455).
-- **Where premises end:** the mapping hypothesis — quantum statistics ARE the maximum-entropy occupations of this reservoir — is a named input, not a theorem. It is tested by reproduction (F1–F3) and earns predictive status only through a novel falsifiable consequence, stated as an open problem: other lattice restrictions (partial exclusions) should yield parastatistical/anyonic intermediates, testable in the same framework.
+- **L2 (named imported inputs):** finite-distinction quantum mechanics (QNFO.RES.021, 10.5281/zenodo.22046458); the Landauer floor of QEC (QNFO.JPC.003, 10.5281/zenodo.22117282); finite-adele encoding (QNFO.RES.024, 10.5281/zenodo.22114495); completeness senses (QNFO.RES.025, 10.5281/zenodo.22109455); the composite-statistics rule (even/odd fermion parity → composite boson/fermion), imported from standard quantum mechanics per Obsidian `_26239072830.md`.
+- **Where premises end:** the mapping hypothesis — quantum statistics ARE the maximum-entropy occupations of this reservoir — is a named input, not a theorem. It is tested by reproduction (F1–F3) and earns predictive status only through a novel falsifiable consequence, stated as an open problem: other lattice restrictions (partial exclusions) should yield parastatistical/anyonic intermediates, testable in the same framework. Dimensionality enters here, not in the core claim: in d = 2 the exchange group relaxes to the braid group (anyons), and the two-dimensional Bose gas condenses only quasi-long-range (BKT) — the 2D content of `_26239072830.md` feeds the intermediate-statistics open problem, where partial lattice exclusions are the proposed arithmetic analog of anyonic exchange phases.
 
 ## Practitioner relevance
 
@@ -45,6 +45,7 @@ A practitioner gets: (1) a regime classifier — given a reservoir's multiplicit
 | squarefree restriction | distinct-part partitions | Fermi–Dirac (occupation 0/1) | exclusion regime | one-bit occupation per state | physical-qubit exclusivity |
 | unrestricted lattice | unrestricted partitions | Bose–Einstein | sharing regime | unbounded occupation | mode sharing (cat/oscillator) |
 | γ = 1/N | degeneracy factor | per-state rate | bath degeneracy cancellation | uniform prior over alternatives | per-round syndrome rate |
+| composite statistics | even/odd fermion count | Möbius parity μ(n) | exchange sign ±1 | constituent-count rule | Cooper pairs, excitons, He-4/He-3 |
 
 ## Hypothesis cards (HYPOTHESIS-CARD-1)
 
@@ -52,6 +53,7 @@ A practitioner gets: (1) a regime classifier — given a reservoir's multiplicit
 - **H-STAT-BOSE:** unrestricted multiplicity ⇒ occupation ⟨n⟩ = 1/(e^x − 1). Falsifier F1b.
 - **H-RATE-GAMMA:** per-distinction rate ∝ 1/N under N-fold bath degeneracy. Falsifier F2.
 - **H-SYMPLECTIC-FERMI:** J² = −1 emerges in the Fermi large-N limit only. Falsifier F3.
+- **H-COMPOSITE-PARITY (from Obsidian `_26239072830.md`, 2026-08-27):** the composite-statistics rule — an even number of fermionic constituents gives a composite boson (+1 exchange sign), an odd number a composite fermion (−1) — is exactly the Möbius parity of the squarefree lattice: μ(n) = (−1)^(#prime factors). Prediction: every known composite matches μ-parity (Cooper pair +1 even ✓, exciton +1 even ✓, helium-4 +1 ✓, helium-3 −1 odd ✓, single electron −1 odd ✓); the exchange sign is Möbius parity of the constituent count, and the squarefree restriction (no repeated prime factor) is the exclusion signature itself. Falsifier F-HCP: any known composite whose exchange sign contradicts μ-parity, or the parity link shown to be an assertion rather than a structural consequence (the Q9 derivation-or-dictionary guard).
 - **H-PRIOR-ART-DELTA:** the exact delta (product-formula normalization + γ derivation + Fermi-symplectic link) is not already published. Falsifier F4.
 
 ## Computational verification plan (COMPUTATIONAL-VERIFICATION-1)

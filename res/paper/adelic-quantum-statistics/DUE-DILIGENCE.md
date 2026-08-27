@@ -8,7 +8,9 @@
 |---|---|---|---|
 | spin-statistics-distinction | The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant | 10.5281/zenodo.21964598 (record; concept 21962904) | RES.009. Pre-registered distinction-calculus derivation program; decisive test ALREADY RUN: abelian-pair postulate assumed, involutivity a target-category condition, not a theorem. The gap the adelic route must address. |
 | pattern-particle-unification | One Table, Two Regimes: ... Bruhat-Tits Tree | 10.5281/zenodo.22024856 | Reads statistics as tree-automorphism phase (boson trivial, fermion edge half-turn, anyon root-of-unity). Different mechanism than multiplicity/product-formula — differentiate explicitly. |
-| exchange-phase-logical-scalar | The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) | 10.5281/zenodo.21964104 (concept 21964359) | RES.010; logical-scalar route. |
+| exchange-phase-logical-scalar | The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) | 10.5281/zenodo.21964104 (v1.2 record); v1.3 record 10.5281/zenodo.21964359; concept 10.5281/zenodo.21941184 | RES.010; logical-scalar route; R = (e^{i pi})^{2s} = (−1)^{2s} — the dichotomy as parity of 2s. |
+| tyranny-of-the-plus-minus-one | The Tyranny of the ±1: How a Topological Constraint Became the Iron Law of Nature | concept 10.5281/zenodo.21939595 (v1 record 21939596) | KG-only (no D1 slug); BELONGS_TO QNFO.SLB; RELATED_TO spin-statistics-distinction — the SLB root of the statistics lineage. |
+| signal-worker-boundary-confinement | Signal-Worker Boundary Confinement: A Corrected Ontology of Surface vs Bulk Transport | 10.5281/zenodo.21974194 (concept 21931224) | QNFO.INM.001 — INM adjacent-domain hit: boson=signal/fermion=worker ontology; explicitly fails on composite bosons (Cooper pairs) — evidence the composite-statistics question is live in the adjacent domain. |
 | configuration-space-topology | CST and the Distinction Calculus: ... Pre-Registered Derivation Program | 10.5281/zenodo.21962450 | RES.011; topology route; concedes spin-statistics needs Lorentz/microcausality/positive energy. |
 | finite-distinction-quantum-mechanics | ... Large-Distinction Limit of Stochastic Thermodynamics | 10.5281/zenodo.22046458 (concept 22044217) | RES.021; the machinery (symplectic large-N emergence, γ assumed). Distributed; duplicate_chain_head 22046491 noted. |
 | self-referential-scalar-family | e, the Half-Turn, ... Adelic Picture | 10.5281/zenodo.22035210 (concept 22031551) | RES.020; the large-N Hilbert-transform/J emergence may overlap — check its §on J. |
@@ -32,11 +34,19 @@ All resolved slugs consistent with registry/D1/KG: no slug→DOI mismatches foun
 - Adelic product formula standard texts.
 - Post-2020 arXiv: statistics from adelic/product-formula constructions.
 
+## Wave 2 findings (2026-08-27)
+
+**Source notes:** `_26239072830.md` (2026-08-27) — Bose/Fermi dimensionality Q&A. Content: (1) bosons/fermions defined by spin + exchange symmetry, not dimension; BEC is 3D (2D has BKT quasi-condensation + anyons); (2) composite statistics rule — even number of fermions → composite boson, odd → composite fermion (Cooper pairs, excitons, He-4 vs He-3); (3) the user's closing line: "statistics are not things any more than a population is a person" — statistics as structural/multiplicity rules, not particle-type primitives. Bridge to T1: for squarefree n the Möbius function μ(n) = (−1)^(#prime factors) reproduces the composite exchange-sign parity exactly — the exchange sign is Möbius parity of the constituent count; the squarefree restriction (no repeated prime factor) is the exclusion signature itself. Folded into PROJECT-PLAN as hypothesis card H-COMPOSITE-PARITY + crosswalk row. Dimensionality content (2D anyons/BKT) feeds the Q15 open problem (intermediate statistics), not a claim.
+
+**KG walk observations:** (a) `paper:finite-distinction-quantum-mechanics` has ZERO edges — orphaned KG node; BUILDS_ON/CITES edges must be built when RES.027's node is registered (SEMANTIC LINKS ARE BUILT, never assumed). (b) `paper:spin-statistics-distinction` + `paper:tyranny-of-the-plus-minus-one` BELONG_TO QNFO.SLB — the statistics lineage's program provenance is SLB, so RES.027 should carry cross-program links (RES program + BUILDS_ON the SLB lineage). (c) configuration-space-topology BUILDS_ON both spin-statistics-distinction and exchange-phase-logical-scalar — chain confirmed.
+
+**DOI correction (self-audit):** exchange-phase-logical-scalar — 21964359 is the v1.3 RECORD, not the concept; concept = 21941184. Fixed in the table above.
+
 ## Wave 2 open items
 
-1. Full read of RES.009 body (§3 onward: F1/F2, the executed decisive test) — exact gap statement.
-2. KG neighbor walks from paper nodes (spin-statistics-distinction, finite-distinction-quantum-mechanics, self-referential-scalar-family).
-3. Adjacent-domain scans: QNFO.JPC (γ/rate assumptions in JPC.003), QNFO.INM (max-entropy), QNFO.UMP (partition lattices), QNFO.SLB (modal exponentials).
-4. External verification via arXiv/OpenAlex/Crossref (watchlist above).
-5. Check ADL open-problems capstone (21697900) for a pre-registered statistics gap.
-6. F1–F3 verification scripts (artifacts/verification/) — reproduction first.
+1. Full read of RES.009 body (§3 onward: F1/F2, the executed decisive test) — exact gap statement. [PARTIAL: §2 read; decisive test confirmed — abelian-pair postulate ASSUMED, involutivity a target-category condition; §3-§5 exact wording still to extract at draft time]
+2. Adjacent-domain scans: QNFO.JPC (γ/rate assumptions in JPC.003 — confirmed in seed note Part C), QNFO.INM (signal-worker record found), QNFO.UMP (partition lattices — pending), QNFO.SLB (tyranny + spin-statistics lineage — found).
+3. External verification via OpenAlex/Crossref for the watchlist records (arXiv sweep done; OpenAlex/Crossref pending).
+4. Check ADL open-problems capstone (21697900) for a pre-registered statistics gap (G-01/G-03/G-07/C-02/L-04 list — C-02 p-adic QEC verification adjacent; statistics gap not among them per memory).
+5. F1–F3 verification scripts (artifacts/verification/) — reproduction first; extend with F-HCP check for H-COMPOSITE-PARITY (Möbius parity vs known composite exchange signs).
+6. KG node registration for RES.027 at distribution time + orphan repair for finite-distinction-quantum-mechanics (BUILDS_ON edges).
