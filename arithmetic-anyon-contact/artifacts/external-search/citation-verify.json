@@ -1,0 +1,156 @@
+[
+  {
+    "key": "zenodo22123068",
+    "doi": "10.5281/zenodo.22123068",
+    "eprint": null,
+    "status": "ok",
+    "detail": "datacite: Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the"
+  },
+  {
+    "key": "zenodo22035210",
+    "doi": "10.5281/zenodo.22035210",
+    "eprint": null,
+    "status": "ok",
+    "detail": "datacite: The Self-Referential Scalar Family: e, the Half-Turn, and the Unification of Inf"
+  },
+  {
+    "key": "zenodo21208491",
+    "doi": "10.5281/zenodo.21208491",
+    "eprint": null,
+    "status": "ok",
+    "detail": "datacite: p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Module"
+  },
+  {
+    "key": "zenodo22024856",
+    "doi": "10.5281/zenodo.22024856",
+    "eprint": null,
+    "status": "ok",
+    "detail": "datacite: One Table, Two Regimes: Standard-Model Particles and Condensed-Matter Excitation"
+  },
+  {
+    "key": "zenodo21962450",
+    "doi": "10.5281/zenodo.21962450",
+    "eprint": null,
+    "status": "ok",
+    "detail": "datacite: Configuration-Space Topology and the Distinction Calculus: The Exchange Scalar, "
+  },
+  {
+    "key": "zenodo21964598",
+    "doi": "10.5281/zenodo.21964598",
+    "eprint": null,
+    "status": "ok",
+    "detail": "datacite: The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant"
+  },
+  {
+    "key": "gentile1940",
+    "doi": "10.1007/BF02960187",
+    "eprint": null,
+    "status": "ok",
+    "detail": "crossref: itOsservazioni sopra le statistiche intermedie"
+  },
+  {
+    "key": "haldane1991",
+    "doi": "10.1103/PhysRevLett.67.937",
+    "eprint": null,
+    "status": "ok",
+    "detail": "crossref: ‘‘Fractional statistics’’ in arbitrary dimensions: A generalization of the Pauli"
+  },
+  {
+    "key": "chenng1994",
+    "doi": null,
+    "eprint": "cond-mat/9411008",
+    "status": "ok",
+    "detail": "arxiv: Fractional Exclusion Statistics and Anyons"
+  },
+  {
+    "key": "ye2015",
+    "doi": null,
+    "eprint": "1512.01783",
+    "status": "ok",
+    "detail": "arxiv: Hall effect, edge states and Haldane exclusion statistics in two-dimensional spa"
+  },
+  {
+    "key": "speliotopoulos1995",
+    "doi": null,
+    "eprint": "cond-mat/9510046",
+    "status": "ok",
+    "detail": "arxiv: Turning Bosons into Fermions: Exclusion Statistics, Fractional Statistics and th"
+  },
+  {
+    "key": "leinaas1977",
+    "doi": "10.1007/BF02727953",
+    "eprint": null,
+    "status": "ok",
+    "detail": "crossref: On the theory of identical particles"
+  },
+  {
+    "key": "wilczek1982",
+    "doi": "10.1103/PhysRevLett.49.957",
+    "eprint": null,
+    "status": "ok",
+    "detail": "crossref: Quantum Mechanics of Fractional-Spin Particles"
+  },
+  {
+    "key": "ducksudarshan1998",
+    "doi": null,
+    "eprint": null,
+    "status": "ok",
+    "detail": "book/proceedings entry, no DOI asserted"
+  },
+  {
+    "key": "julia1990",
+    "doi": null,
+    "eprint": null,
+    "status": "ok",
+    "detail": "book/proceedings entry, no DOI asserted"
+  },
+  {
+    "key": "spector1990",
+    "doi": "10.1007/BF02096755",
+    "eprint": null,
+    "status": "ok",
+    "detail": "crossref: Supersymmetry and the Möbius inversion function"
+  },
+  {
+    "key": "bakas1991",
+    "doi": "10.1063/1.529511",
+    "eprint": null,
+    "status": "ok",
+    "detail": "crossref: Curiosities of arithmetic gases"
+  },
+  {
+    "key": "duenas2014",
+    "doi": null,
+    "eprint": "1401.8190",
+    "status": "ok",
+    "detail": "arxiv: Thermodynamics of the Bosonic Randomized Riemann Gas"
+  },
+  {
+    "key": "makhaldiani2018",
+    "doi": null,
+    "eprint": "1802.01971",
+    "status": "ok",
+    "detail": "arxiv: Supersymmetric dynamics and zeta-functions"
+  },
+  {
+    "key": "hartnoll2025",
+    "doi": null,
+    "eprint": "2502.02661",
+    "status": "ok",
+    "detail": "arxiv: The Conformal Primon Gas at the End of Time"
+  },
+  {
+    "key": "bostconnes1995",
+    "doi": "10.1007/BF01589495",
+    "eprint": null,
+    "status": "ok",
+    "detail": "crossref: Hecke algebras, type III factors and phase transitions with spontaneous symmetry"
+  },
+  {
+    "key": "heiblum2022",
+    "doi": null,
+    "eprint": "2209.15461",
+    "status": "ok",
+    "detail": "arxiv: Partitioning of Diluted Anyons Reveals their Braiding Statistics"
+  }
+]

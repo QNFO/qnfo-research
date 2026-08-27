@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-27" />
+  <meta name="keywords" content="anyons, Gentile statistics, Haldane
+exclusion statistics, roots of unity, Riemann gas, Bose-Einstein
+statistics, Fermi-Dirac statistics, bounded occupation, zeta
+function" />
+  <title>Arithmetic Anyons: The Bounded-Occupation Family, Gentile Statistics, and the Roots of Unity That Carry Braid Phases</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    div.abstract {
+      margin: 2em 2em 2em 2em;
+      text-align: left;
+      font-size: 85%;
+    }
+    div.abstract-title {
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0.5em;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Arithmetic Anyons: The Bounded-Occupation Family,
+Gentile Statistics, and the Roots of Unity That Carry Braid Phases</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-27</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>Three spatial dimensions admit exactly two exchange statistics for
+identical particles, and a recent record reads the two occupation
+distributions as maximum-entropy occupations of one integer lattice
+under two multiplicity rules, closing with an open correspondence: the
+bounded-occupation family interpolates between the fermionic and bosonic
+cases and is proposed as the arithmetic object that intermediate
+(anyonic) statistics must contact. This paper settles the correspondence
+computationally. The family is the partition function of Gentile
+intermediate statistics — an occupation cap per mode — and it carries no
+exchange phase for any cap: permuting occupation labels yields only the
+signs <span class="math inline">\(\pm 1\)</span>, every observable is
+invariant under any inserted phase, and the canonical symmetric reading
+assigns the phase <span class="math inline">\(+1\)</span> for every cap,
+including the cap that reproduces Fermi counting, where fermions carry
+<span class="math inline">\(-1\)</span>. The correspondence with Fermi
+counting is therefore a counting isomorphism, not an exchange-phase
+isomorphism. The arithmetic objects that carry the phases realized in
+the standard anyon models are multiplicative characters at roots of
+unity: the Laughlin exchange phase at filling <span
+class="math inline">\(1/m\)</span> is a primitive <span
+class="math inline">\(2m\)</span>-th root of unity, and the Fibonacci
+braid eigenvalues are powers of <span
+class="math inline">\(e^{i\pi/5}\)</span>. The prime-gap structure
+supplies a computable distinguishing observable: the specific heat of
+the primon gas deviates from the smooth-density-of-states ideal gas at
+every sampled temperature, by up to roughly three quarters at low
+temperature, in both statistics. The claims are isomorphisms of
+mathematical structure; the spin-statistics boundary is respected; every
+quantitative statement is reproduced by the deposited verification
+scripts.</p>
+</div>
+</header>
+<h2 id="introduction">1. Introduction</h2>
+<p>A system of identical particles in three or more spatial dimensions
+admits exactly two exchange statistics. In two dimensions the
+configuration-space argument yields the braid group and a continuum of
+fractional phases — the anyons realized in the fractional quantum Hall
+regime <span class="citation"
+data-cites="leinaas1977 wilczek1982">(Leinaas and Myrheim 1977; Wilczek
+1982)</span> and measured in anyon colliders <span class="citation"
+data-cites="heiblum2022">(Lee et al. 2022)</span>. Two readings of the
+two-statistics binary meet in a recent record: the occupation
+distributions are read as maximum-entropy occupations of the integer
+lattice, the unrestricted lattice giving the Riemann zeta function and
+the squarefree lattice the ratio of two zeta values <span
+class="citation" data-cites="zenodo22123068">(Quni-Gudzinas
+2026d)</span>. That record closes with an open correspondence: the
+bounded-occupation family</p>
+<p><span class="math display">\[\sum_{v_p(n) \le m} n^{-s} \;=\; \prod_p
+\left(1 + p^{-s} + \dots + p^{-ms}\right) \;=\;
+\frac{\zeta(s)}{\zeta((m+1)s)}\]</span></p>
+<p>interpolates from the fermionic case at <span class="math inline">\(m
+= 1\)</span> to the bosonic case as <span class="math inline">\(m \to
+\infty\)</span>, and is proposed as the arithmetic object that
+intermediate (anyonic) statistics must contact. Whether any intermediate
+<span class="math inline">\(m\)</span> reproduces any known anyonic
+observable is left unproven there.</p>
+<p>This paper settles the correspondence computationally, in three
+steps. First, the family is identified: it is the partition function of
+Gentile intermediate statistics, an occupation cap of <span
+class="math inline">\(m\)</span> particles per mode introduced in 1940
+<span class="citation" data-cites="gentile1940">(Gentile 1940)</span> —
+and it carries no exchange phase for any <span
+class="math inline">\(m\)</span>. Occupation caps count; braid phases
+act on trajectories. The computation shows the cap fixes no phase at
+all, so no member of the family reproduces the Laughlin exchange phase,
+and the correspondence with Fermi counting is a counting isomorphism
+rather than an exchange-phase isomorphism. Second, the arithmetic
+objects that do carry the phases realized in the standard anyon models
+are multiplicative characters at roots of unity: the Laughlin exchange
+phase at filling <span class="math inline">\(1/m\)</span> is a primitive
+<span class="math inline">\(2m\)</span>-th root of unity, and the
+Fibonacci braid eigenvalues are powers of <span
+class="math inline">\(e^{i\pi/5}\)</span>, the same parameterization as
+the quantum-group records at roots of unity already in the corpus <span
+class="citation"
+data-cites="zenodo21208491 zenodo22024856">(Quni-Gudzinas 2026c,
+2026b)</span>. Third, the prime-gap structure of the integer lattice
+supplies a computable thermodynamic observable — a specific-heat
+deviation from the smooth-density-of-states ideal gas — that separates
+the arithmetic construction from the standard derivation and is
+quantified at every sampled temperature.</p>
+<p>The practical consequence is a design rule: a device architecture
+that proposes to control exchange statistics by constraining register
+occupation changes the accessible counting, not the exchange phase; the
+phase lives in character-theoretic (root-of-unity) structure. Section 8
+states the rule and the adjudication table. The spin-statistics
+connection is a boundary this paper respects, not a target; the boundary
+is the one drawn in the configuration-space record <span
+class="citation" data-cites="zenodo21962450">(Quni-Gudzinas
+2026a)</span>.</p>
+<h2 id="the-bounded-occupation-family">2. The bounded-occupation
+family</h2>
+<p>Let <span class="math inline">\(\zeta(s)\)</span> be the Riemann zeta
+function. The two Dirichlet identities at the center of the family
+are</p>
+<p><span class="math display">\[\sum_{n \text{ squarefree}} n^{-s} =
+\prod_p (1 + p^{-s}) = \frac{\zeta(s)}{\zeta(2s)}, \qquad \sum_{n \ge 1}
+n^{-s} = \prod_p (1 - p^{-s})^{-1} = \zeta(s).\]</span></p>
+<p>The first counts integers whose prime exponents obey <span
+class="math inline">\(a_p \in \{0,1\}\)</span>; the second counts every
+exponent. The Euler factors are single-mode partition functions: <span
+class="math inline">\((1 + p^{-s})\)</span> is the partition function of
+a two-state mode, <span class="math inline">\((1 - p^{-s})^{-1}\)</span>
+that of an unbounded mode, when <span class="math inline">\(s\)</span>
+is read as an inverse temperature multiplying the mode energy <span
+class="math inline">\(\ln p\)</span>. The identification of these
+generating structures with the two quantum statistics has a long history
+in the Riemann-gas literature <span class="citation"
+data-cites="julia1990 spector1990 bakas1991 hartnoll2025 makhaldiani2018">(Julia
+1990; Spector 1990; Bakas and Bowick 1991; Hartnoll and Yang 2025;
+Makhaldiani 2018)</span>, and its per-place form was established in this
+program at fixed fugacity <span class="citation"
+data-cites="zenodo22035210">(Quni-Gudzinas 2026f)</span>.</p>
+<p>The bounded-occupation family caps the exponent at <span
+class="math inline">\(m\)</span>:</p>
+<p><span class="math display">\[\sum_{v_p(n) \le m} n^{-s} \;=\; \prod_p
+\left(1 + p^{-s} + \dots + p^{-ms}\right) \;=\;
+\frac{\zeta(s)}{\zeta((m+1)s)}.\]</span></p>
+<p>The sum runs over <span
+class="math inline">\(m\)</span>-th-power-free integers. At <span
+class="math inline">\(m = 1\)</span> the family is the squarefree
+(fermionic-counting) series; as <span class="math inline">\(m \to
+\infty\)</span> it approaches the unrestricted (bosonic-counting)
+series. This exact object is not new to physics: it is the partition
+function of Gentile intermediate statistics, in which no mode holds more
+than <span class="math inline">\(m\)</span> particles, and which Gentile
+introduced in 1940 as the natural intermediate between the two standard
+statistics <span class="citation" data-cites="gentile1940">(Gentile
+1940)</span>. The identification “bounded-occupation family = Gentile
+partition function” is elementary, but it was not stated in the earlier
+record, and it matters for the adjudication below: Gentile statistics is
+a known, named object with a literature, distinct from Haldane exclusion
+statistics.</p>
+<p>The occupation numbers of the capped mode follow from the canonical
+derivative. With weight <span class="math inline">\(x = z
+p^{-\beta}\)</span> the capped-mode occupation is</p>
+<p><span class="math display">\[\langle a \rangle_m =
+\frac{\sum_{a=0}^{m} a\, x^a}{\sum_{a=0}^{m} x^a},\]</span></p>
+<p>which at <span class="math inline">\(m = 1\)</span> gives the Fermi
+value <span class="math inline">\(x/(1+x)\)</span>, equal to <span
+class="math inline">\(1/3\)</span> at <span class="math inline">\(x =
+1/2\)</span>, increases monotonically in <span
+class="math inline">\(m\)</span>, and tends to the Bose value <span
+class="math inline">\(x/(1-x)\)</span>, equal to <span
+class="math inline">\(1\)</span> at <span class="math inline">\(x =
+1/2\)</span>. The verification script <code>verify_m_anyon.py</code>
+checks the family identity by direct sieved sums against <span
+class="math inline">\(\zeta(s)/\zeta((m+1)s)\)</span> for <span
+class="math inline">\(m \in \{1,2,3,5\}\)</span> and <span
+class="math inline">\(s \in \{2.5, 3.0, 4.0\}\)</span> (maximal error
+<span class="math inline">\(5.9 \times 10^{-8}\)</span> at <span
+class="math inline">\(s = 2.5\)</span> over the first <span
+class="math inline">\(5 \times 10^{4}\)</span> integers), and checks the
+golden occupation values.</p>
+<h2 id="the-family-carries-no-exchange-phase">3. The family carries no
+exchange phase</h2>
+<p>Exchange statistics is a datum of the multi-particle state space: a
+representation of the braid group (two dimensions) or the symmetric
+group (three and more dimensions) on the states of identical particles.
+The bounded-occupation family is a generating function of counting: a
+real-valued Dirichlet series whose coefficients are the number of
+configurations. The two layers — counting and phase — are distinct, and
+the computation shows the family contains only the first.</p>
+<p><strong>Occupation-label exchange.</strong> Take two distinguishable
+modes <span class="math inline">\(p\)</span> and <span
+class="math inline">\(q\)</span> and the two-particle sector of the
+capped Fock space: states <span class="math inline">\(|a_p,
+a_q\rangle\)</span> with <span class="math inline">\(a_p + a_q =
+2\)</span>, namely <span class="math inline">\((2,0)\)</span>, <span
+class="math inline">\((1,1)\)</span>, <span
+class="math inline">\((0,2)\)</span> for any cap <span
+class="math inline">\(m \ge 2\)</span>, and <span
+class="math inline">\((1,1)\)</span> alone at <span
+class="math inline">\(m = 1\)</span>. Particle exchange maps <span
+class="math inline">\(|a_p, a_q\rangle \mapsto |a_q,
+a_p\rangle\)</span>. This is a permutation of the sector: a swap of
+<span class="math inline">\((2,0)\)</span> with <span
+class="math inline">\((0,2)\)</span> and a fixed point at <span
+class="math inline">\((1,1)\)</span>. Its eigenvalues are <span
+class="math inline">\(\{1, 1, -1\}\)</span> for every <span
+class="math inline">\(m \ge 2\)</span>, and <span
+class="math inline">\(\{1\}\)</span> at <span class="math inline">\(m =
+1\)</span>. Permuting occupation labels produces only the signs <span
+class="math inline">\(\pm 1\)</span>; no fractional phase <span
+class="math inline">\(e^{i\theta}\)</span> with <span
+class="math inline">\(\theta \notin \{0, \pi\}\)</span> is available,
+for any <span class="math inline">\(m\)</span>.</p>
+<p><strong>Phase insertion leaves every observable fixed.</strong> The
+stronger statement is that the cap does not determine any phase. Attach
+an arbitrary exchange phase <span class="math inline">\(e^{i\theta
+f(a)}\)</span> to the mode weights, so the weight of occupancy <span
+class="math inline">\(a\)</span> becomes <span class="math inline">\(w_a
+= x^a e^{i\theta f(a)}\)</span>. The occupation probabilities are <span
+class="math inline">\(p_a = |w_a|^2 / \sum |w|^2 = x^{2a} / \sum
+x^{2a}\)</span>, independent of <span
+class="math inline">\(\theta\)</span> exactly: every observable built
+from the probabilities — occupations, entropy, thermodynamic potentials
+— is invariant under any inserted phase. The phase is a free datum the
+cap does not fix.</p>
+<p><strong>Consequences.</strong> For <span class="math inline">\(m \ge
+2\)</span> the Laughlin exchange phase at filling <span
+class="math inline">\(1/m\)</span> is <span
+class="math inline">\(e^{i\pi/m}\)</span>: the values <span
+class="math inline">\(i\)</span>, <span
+class="math inline">\(e^{i\pi/3}\)</span>, <span
+class="math inline">\(e^{i\pi/5}\)</span> are all different from <span
+class="math inline">\(1\)</span>. No member of the family reproduces any
+of them, because the family carries no phase to compare. At <span
+class="math inline">\(m = 1\)</span> the canonical symmetric reading
+assigns <span class="math inline">\(+1\)</span>, where fermions carry
+<span class="math inline">\(-1\)</span>: even the Fermi correspondence
+is a counting correspondence, not a phase correspondence. The “must
+contact” wording of the earlier record therefore overstates the
+relation: contact with anyonic statistics would require a phase datum,
+and the family contains none. What the family supplies is a counting
+interpolation between the two statistics — and counting interpolations
+are blind to phases. This is the structural reason, and the computation
+confirms it rather than assuming it.</p>
+<h2 id="gentile-statistics-is-not-haldane-exclusion-statistics">4.
+Gentile statistics is not Haldane exclusion statistics</h2>
+<p>The exclusion-type constraint that the condensed-matter literature
+has actually related to braid phases is Haldane’s fractional exclusion
+statistics <span class="citation"
+data-cites="haldane1991 speliotopoulos1995">(Haldane 1991;
+Speliotopoulos 1995)</span>. In the g-form, a mode whose occupation is
+<span class="math inline">\(n\)</span> leaves <span
+class="math inline">\(g\)</span> fewer states for the next particle, and
+the occupation at fugacity parameter <span
+class="math inline">\(x\)</span> solves</p>
+<p><span class="math display">\[w^{g} (1 + w)^{1-g} = 1/x, \qquad n_g =
+\frac{1}{w + g},\]</span></p>
+<p>with <span class="math inline">\(g = 1\)</span> the Fermi case and
+<span class="math inline">\(g = 0\)</span> the Bose case. The relation
+between Haldane statistics and braid statistics is known to be
+regime-restricted: it holds perturbatively for the Chern-Simons anyon
+model only when the anyon-anti-anyon statistical interaction is included
+<span class="citation" data-cites="chenng1994">(Chen and Ng
+1994)</span>, and non-perturbatively only for the incompressible anyon
+liquid with a Hall edge <span class="citation" data-cites="ye2015">(Ye
+et al. 2015)</span>. Outside those regimes the two notions of statistics
+do not coincide.</p>
+<p>The bounded-occupation family is a different object from Haldane
+statistics, and the computation quantifies the difference. Table 1
+compares the capped-mode occupation with the Haldane occupation under
+the two natural interpolations <span class="math inline">\(g =
+1/m\)</span> and <span class="math inline">\(g = 1/(m+1)\)</span>, on
+the grid <span class="math inline">\(x \in \{0.1, 0.3, 0.5, 0.7,
+0.9\}\)</span>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><span
+class="math inline">\(m\)</span></th>
+<th style="text-align: center;">max deviation, <span
+class="math inline">\(g = 1/m\)</span></th>
+<th style="text-align: center;">max deviation, <span
+class="math inline">\(g = 1/(m+1)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0.109</td>
+<td style="text-align: center;">0.187</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0.252</td>
+<td style="text-align: center;">0.090</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">0.578</td>
+<td style="text-align: center;">0.360</td>
+</tr>
+</tbody>
+</table>
+<p>Table 1: Maximum absolute difference between the capped-mode
+(Gentile) occupation and the Haldane occupation, across the grid.</p>
+<p>The curves agree only at the endpoints — <span
+class="math inline">\(m = 1\)</span> with <span class="math inline">\(g
+= 1\)</span> reproduces Fermi exactly, and <span class="math inline">\(m
+\to \infty\)</span> with <span class="math inline">\(g \to 0\)</span>
+reproduces Bose — and deviate at every finite <span
+class="math inline">\(m \ge 2\)</span> under both mappings. The m-family
+is Gentile statistics; it is not Haldane exclusion statistics, and it
+inherits none of the special-regime braid-phase relations that the
+Haldane object enjoys in the literature.</p>
+<h2 id="the-phase-carriers-characters-at-roots-of-unity">5. The phase
+carriers: characters at roots of unity</h2>
+<p>If truncation does not carry phase, the next question is what does.
+The braid group <span class="math inline">\(B_N\)</span> on <span
+class="math inline">\(N\)</span> strands has one-dimensional
+representations <span class="math inline">\(\rho_\theta(\sigma_i) =
+e^{i\pi\theta}\)</span> for every <span
+class="math inline">\(\theta\)</span>: its characters reproduce every
+abelian exchange phase. The verification checks the braid relation <span
+class="math inline">\(\sigma_1 \sigma_2 \sigma_1 = \sigma_2 \sigma_1
+\sigma_2\)</span> and the distant commutation for <span
+class="math inline">\(\theta \in \{1/3, 2/5, 1/2\}\)</span>. The
+arithmetic content enters at the level of which phases are realized: the
+phases realized in the standard models sit on the roots of unity.</p>
+<p><strong>Laughlin phases.</strong> At filling <span
+class="math inline">\(\nu = 1/m\)</span> the Laughlin quasiparticle
+carries the exchange phase <span
+class="math inline">\(e^{i\pi/m}\)</span>. The computation evaluates the
+order of each phase, the smallest positive power equal to <span
+class="math inline">\(1\)</span>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><span
+class="math inline">\(m\)</span></th>
+<th style="text-align: center;">phase <span
+class="math inline">\(e^{i\pi/m}\)</span></th>
+<th style="text-align: center;">order</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><span
+class="math inline">\(-1\)</span></td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span
+class="math inline">\(i\)</span></td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span
+class="math inline">\(e^{i\pi/3}\)</span></td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><span
+class="math inline">\(e^{i\pi/5}\)</span></td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><span
+class="math inline">\(e^{i\pi/7}\)</span></td>
+<td style="text-align: center;">14</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2: The Laughlin exchange phases are primitive <span
+class="math inline">\(2m\)</span>-th roots of unity.</p>
+<p>Each phase is a primitive <span class="math inline">\(2m\)</span>-th
+root of unity: the exchange phase of the standard abelian anyon is
+cyclotomic data, not a truncation datum.</p>
+<p><strong>Fibonacci braiding.</strong> The non-abelian Fibonacci model
+supplies the second test. Set <span class="math inline">\(q =
+e^{i\pi/5}\)</span>, a tenth root of unity. The two standard Fibonacci
+braid eigenvalues are <span class="math inline">\(q^4 = e^{4\pi
+i/5}\)</span> and <span class="math inline">\(-q^2 = -e^{2\pi
+i/5}\)</span>, of orders <span class="math inline">\(5\)</span> and
+<span class="math inline">\(10\)</span>; the Temperley-Lieb loop
+parameter at the same point is <span class="math inline">\(|q + q^{-1}|
+= 2\cos(\pi/5) = \varphi\)</span>, the golden ratio. The whole family of
+Temperley-Lieb categories with <span class="math inline">\(\delta_k =
+2\cos(\pi/(k+2))\)</span> — <span
+class="math inline">\(\sqrt{2}\)</span> for the Ising category at <span
+class="math inline">\(k = 2\)</span>, <span
+class="math inline">\(\varphi\)</span> for Fibonacci at <span
+class="math inline">\(k = 3\)</span>, <span
+class="math inline">\(\sqrt{3}\)</span> at <span class="math inline">\(k
+= 4\)</span> — sits on the root-of-unity locus <span
+class="math inline">\(q_k = e^{i\pi/(k+2)}\)</span>. All of these
+identities are checked exactly by the deposited script
+<code>verify_braid_characters.py</code>.</p>
+<p>The same parameterization — quantum groups at roots of unity — is the
+stated setting of the in-corpus p-adic anyon braiding records <span
+class="citation" data-cites="zenodo21208491">(Quni-Gudzinas
+2026c)</span>, and the root-of-unity phases on ramified branches are the
+named input of the pattern-particle table <span class="citation"
+data-cites="zenodo22024856">(Quni-Gudzinas 2026b)</span>. The
+consistency is a named-input consistency: this paper does not derive
+those records’ constructions, it verifies that the phases they carry are
+exactly the root-of-unity data that the character model reproduces and
+the occupation family cannot.</p>
+<h2 id="a-distinguishing-observable-the-prime-gap-specific-heat">6. A
+distinguishing observable: the prime-gap specific heat</h2>
+<p>The remaining question is whether the arithmetic origin of the two
+statistics is observationally distinguishable from the standard
+derivation, beyond reproducing the same distributions. The sharpest
+computable quantity is the thermodynamics of the primon gas: modes at
+energies <span class="math inline">\(\ln p\)</span> over the primes,
+with bosonic occupation <span class="math inline">\(n_B(p) =
+1/(p^{\beta} - 1)\)</span> and fermionic occupation <span
+class="math inline">\(n_F(p) = 1/(p^{\beta} + 1)\)</span> at inverse
+temperature <span class="math inline">\(\beta\)</span>. Thermodynamic
+studies of the Riemann gas exist in the classical randomized form <span
+class="citation" data-cites="duenas2014">(Dueñas and Svaiter
+2014)</span> and the conformal form <span class="citation"
+data-cites="hartnoll2025">(Hartnoll and Yang 2025)</span>; the quantity
+computed here is the prime-gap deviation from the smooth baseline, which
+neither supplies. The specific heat follows from the exact second moment
+of energy fluctuations,</p>
+<p><span class="math display">\[C_V(\beta) = \beta^2 \sum_{p \le P} (\ln
+p)^2 \, n(1 \pm n),\]</span></p>
+<p>with the plus sign for bosons and the minus sign for fermions. The
+bosonic sum diverges as <span class="math inline">\(\beta \to
+1^+\)</span>: the partial sums <span class="math inline">\(\sum_{p \le
+x} 1/p\)</span> track Mertens’ law <span class="math inline">\(\ln \ln x
++ B\)</span> and grow without bound, so the Hagedorn-type point of the
+model sits at <span class="math inline">\(\beta = 1\)</span>, in the
+neighborhood of the Bost-Connes phase-transition point <span
+class="citation" data-cites="bostconnes1995">(Bost and Connes
+1995)</span>. All computations run at <span class="math inline">\(\beta
+\ge 1.1\)</span>.</p>
+<p>The baseline is the smooth-density-of-states ideal gas with the same
+mode count and the same asymptotics: mode <span
+class="math inline">\(k\)</span> at energy <span
+class="math inline">\(\ln x_k\)</span>, where <span
+class="math inline">\(x_k\)</span> solves <span
+class="math inline">\(Li_2(x) = k\)</span> exactly for every <span
+class="math inline">\(k\)</span> (the prime-number-theorem staircase,
+computed by Newton inversion to machine precision, strictly increasing).
+The deviation <span class="math inline">\(\Delta C_V =
+C_V(\text{primes}) - C_V(\text{smooth})\)</span> isolates the prime-gap
+imprint. Table 3 reports it.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><span
+class="math inline">\(\beta\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\Delta
+C_V\)</span> bosonic</th>
+<th style="text-align: center;">relative</th>
+<th style="text-align: center;"><span class="math inline">\(\Delta
+C_V\)</span> fermionic</th>
+<th style="text-align: center;">relative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;"><span
+class="math inline">\(-1.386\)</span></td>
+<td style="text-align: center;">2.9 %</td>
+<td style="text-align: center;"><span
+class="math inline">\(-1.629\)</span></td>
+<td style="text-align: center;">3.6 %</td>
+</tr>
+<tr>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;"><span
+class="math inline">\(-0.874\)</span></td>
+<td style="text-align: center;">4.1 %</td>
+<td style="text-align: center;"><span
+class="math inline">\(-1.221\)</span></td>
+<td style="text-align: center;">6.4 %</td>
+</tr>
+<tr>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;"><span
+class="math inline">\(-0.358\)</span></td>
+<td style="text-align: center;">4.2 %</td>
+<td style="text-align: center;"><span
+class="math inline">\(-0.786\)</span></td>
+<td style="text-align: center;">11.2 %</td>
+</tr>
+<tr>
+<td style="text-align: center;">2.0</td>
+<td style="text-align: center;"><span
+class="math inline">\(+0.139\)</span></td>
+<td style="text-align: center;">3.9 %</td>
+<td style="text-align: center;"><span
+class="math inline">\(-0.289\)</span></td>
+<td style="text-align: center;">10.9 %</td>
+</tr>
+<tr>
+<td style="text-align: center;">3.0</td>
+<td style="text-align: center;"><span
+class="math inline">\(+0.429\)</span></td>
+<td style="text-align: center;">27.6 %</td>
+<td style="text-align: center;"><span
+class="math inline">\(+0.173\)</span></td>
+<td style="text-align: center;">14.4 %</td>
+</tr>
+<tr>
+<td style="text-align: center;">4.0</td>
+<td style="text-align: center;"><span
+class="math inline">\(+0.428\)</span></td>
+<td style="text-align: center;">47.7 %</td>
+<td style="text-align: center;"><span
+class="math inline">\(+0.312\)</span></td>
+<td style="text-align: center;">40.8 %</td>
+</tr>
+<tr>
+<td style="text-align: center;">6.0</td>
+<td style="text-align: center;"><span
+class="math inline">\(+0.255\)</span></td>
+<td style="text-align: center;">73.7 %</td>
+<td style="text-align: center;"><span
+class="math inline">\(+0.238\)</span></td>
+<td style="text-align: center;">72.5 %</td>
+</tr>
+</tbody>
+</table>
+<p>Table 3: Specific-heat deviation of the primon gas from the smooth
+staircase, <span class="math inline">\(P = 10^6\)</span> (78,498 modes),
+both statistics.</p>
+<p>The deviation is nonzero at every sampled temperature in both
+statistics. It is negative at high temperature, where the smooth
+baseline overcounts the bottom of the spectrum — its first mode sits at
+<span class="math inline">\(Li_2^{-1}(1) \approx 2.87\)</span>, above
+the first prime <span class="math inline">\(2\)</span>, so the primes
+are denser in the first few modes — and it changes sign near <span
+class="math inline">\(\beta \approx 2.5\)</span>. At low temperature the
+prime-gap structure dominates: at <span class="math inline">\(\beta =
+6\)</span> the deviation is roughly three quarters of the specific heat
+itself in both statistics. The observable is internal to the Riemann-gas
+model; it is the minimal quantity that separates the arithmetic
+construction from the smooth ideal gas, not a laboratory prediction.</p>
+<h2 id="crosswalk-of-terminology">7. Crosswalk of terminology</h2>
+<p>The correspondence between the three vocabularies in play — number
+theory, quantum statistics, and condensed-matter/topological order — is
+as follows.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Number theory</th>
+<th style="text-align: left;">Quantum statistics</th>
+<th style="text-align: left;">Condensed matter / topological order</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">squarefree integers</td>
+<td style="text-align: left;">occupation in <span
+class="math inline">\(\{0,1\}\)</span>, Fermi counting</td>
+<td style="text-align: left;">Pauli exclusion</td>
+</tr>
+<tr>
+<td style="text-align: left;">unrestricted exponents</td>
+<td style="text-align: left;">occupation in <span
+class="math inline">\(\mathbb{N}_0\)</span>, Bose counting</td>
+<td style="text-align: left;">mode sharing, condensation</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">\(m\)</span>-th-power-free integers</td>
+<td style="text-align: left;">bounded occupation, cap <span
+class="math inline">\(m\)</span></td>
+<td style="text-align: left;">Gentile intermediate statistics (no known
+braid datum)</td>
+</tr>
+<tr>
+<td style="text-align: left;">prime modes, energy <span
+class="math inline">\(\ln p\)</span></td>
+<td style="text-align: left;">primon gas, partition function <span
+class="math inline">\(\zeta(s)\)</span></td>
+<td style="text-align: left;">conformal primon gas <span
+class="citation" data-cites="hartnoll2025">(Hartnoll and Yang
+2025)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">Dirichlet character</td>
+<td style="text-align: left;">abelian exchange phase <span
+class="math inline">\(e^{i\pi\theta}\)</span></td>
+<td style="text-align: left;">Laughlin quasiparticle phase at <span
+class="math inline">\(1/m\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">roots of unity, cyclotomic data</td>
+<td style="text-align: left;">fractional phases</td>
+<td style="text-align: left;">quantum-group braid eigenvalues
+(Temperley-Lieb at <span class="math inline">\(q\)</span> a root of
+unity)</td>
+</tr>
+<tr>
+<td style="text-align: left;">adelic product formula</td>
+<td style="text-align: left;">normalization invariant</td>
+<td style="text-align: left;">audit checksum for lattice-layer
+simulations</td>
+</tr>
+<tr>
+<td style="text-align: left;">Möbius parity <span
+class="math inline">\(\mu(n)\)</span></td>
+<td style="text-align: left;">composite-statistics rule</td>
+<td style="text-align: left;">composite-fermion / composite-boson
+parity</td>
+</tr>
+</tbody>
+</table>
+<p>The rows that matter for the adjudication are the third and the
+sixth: the truncation vocabulary (row three) names a counting object
+with no phase content, and the cyclotomic vocabulary (row six) names the
+phase objects. A reader working in any one of the three vocabularies can
+translate the result: occupation caps are not braid phases; characters
+are.</p>
+<h2 id="what-a-practitioner-can-do">8. What a practitioner can do</h2>
+<p>The adjudication is directly usable as a design rule for any
+architecture that proposes to control exchange statistics through
+arithmetic or register-level constraints.</p>
+<p><strong>Design rule 1.</strong> Constraining the occupation bound of
+a register — a cap <span class="math inline">\(m\)</span> per mode —
+changes the accessible counting statistics (Fermi-like, intermediate,
+Bose-like) and nothing about exchange phases. An m-cap register is not
+an anyon. Architectures claiming anyonic behavior from
+bounded-occupation registers need a separate source for the phase.</p>
+<p><strong>Design rule 2.</strong> The arithmetic carrier of abelian
+exchange phases is the character group. A register parameterized by
+roots of unity reproduces the Laughlin phase at filling <span
+class="math inline">\(1/m\)</span> with the primitive <span
+class="math inline">\(2m\)</span>-th root of unity; the non-abelian
+models correspond to the Temperley-Lieb family at <span
+class="math inline">\(\delta_k = 2\cos(\pi/(k+2))\)</span>. Engineering
+the phase means engineering the root-of-unity structure, not the
+truncation.</p>
+<p><strong>Adjudication table.</strong> For a given target observable,
+the table states which carrier holds it:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Target</th>
+<th style="text-align: left;">m-family (occupation cap)</th>
+<th style="text-align: left;">Character / root-of-unity model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Fermi/Bose occupation distributions</td>
+<td style="text-align: left;">reproduces (counting)</td>
+<td style="text-align: left;">reproduces</td>
+</tr>
+<tr>
+<td style="text-align: left;">Exchange phase <span
+class="math inline">\(e^{i\pi/m}\)</span></td>
+<td style="text-align: left;">absent (no phase datum)</td>
+<td style="text-align: left;">primitive <span
+class="math inline">\(2m\)</span>-th root of unity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fibonacci braid eigenvalues</td>
+<td style="text-align: left;">absent</td>
+<td style="text-align: left;"><span class="math inline">\(q^4\)</span>,
+<span class="math inline">\(-q^2\)</span> at <span
+class="math inline">\(q = e^{i\pi/5}\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prime-gap thermodynamic imprint</td>
+<td style="text-align: left;">carries (the lattice itself)</td>
+<td style="text-align: left;">not applicable</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Instruments.</strong> The three verification programs are
+deposited with this paper and run anywhere with Python and mpmath:
+<code>verify_m_anyon.py</code> (family identity, golden occupations,
+phase-blindness, Gentile-versus-Haldane),
+<code>verify_braid_characters.py</code> (braid characters, Laughlin
+orders, Fibonacci and Temperley-Lieb data),
+<code>verify_prime_gap_thermo.py</code> (Mertens boundary, exact
+staircase baseline, specific-heat deviations). They are deterministic,
+take minutes on a laptop, and their outputs are machine-readable. The
+product-formula checksum of the earlier record <span class="citation"
+data-cites="zenodo22123068">(Quni-Gudzinas 2026d)</span> remains the
+audit instrument for the lattice layer; the scripts here audit the phase
+layer.</p>
+<h2 id="premise-depth-and-boundaries">9. Premise depth and
+boundaries</h2>
+<p>The premises end at three named levels.</p>
+<p><strong>L0 — unanalyzable primitives.</strong> The integers with
+unique factorization; the braid group and its standard representations;
+the maximum-entropy principle as a selection rule; the canonical
+ensemble.</p>
+<p><strong>L1 — named imported inputs.</strong> The classical identity
+for the m-th-power-free series; Gentile’s intermediate statistics <span
+class="citation" data-cites="gentile1940">(Gentile 1940)</span>;
+Haldane’s exclusion statistics and its g-form <span class="citation"
+data-cites="haldane1991">(Haldane 1991)</span>; the established
+regime-restricted relation between Haldane statistics and braid
+statistics <span class="citation" data-cites="chenng1994 ye2015">(Chen
+and Ng 1994; Ye et al. 2015)</span>; the in-corpus roots-of-unity
+braiding records <span class="citation"
+data-cites="zenodo21208491 zenodo22024856">(Quni-Gudzinas 2026c,
+2026b)</span>; the per-place identifications at fixed fugacity <span
+class="citation" data-cites="zenodo22035210">(Quni-Gudzinas
+2026f)</span>.</p>
+<p><strong>L2 — derived in this paper.</strong> The no-phase statement
+for the bounded-occupation family (computed, Section 3); the
+Gentile-versus-Haldane separation (computed, Section 4); the character
+reproduction of the standard phases (computed, Section 5); the prime-gap
+specific-heat deviation (computed, Section 6).</p>
+<p>The claims are as deep as L2. Nothing here derives braid phases from
+arithmetic; the content locates which arithmetic objects carry which
+phases, and shows the truncation object carries none. The
+spin-statistics connection <span class="citation"
+data-cites="ducksudarshan1998">(Duck and Sudarshan 1998)</span> —
+exchange phase tied to spin through Lorentz symmetry, microcausality,
+and positive energy — is not engaged; it remains the boundary drawn in
+the configuration-space record <span class="citation"
+data-cites="zenodo21962450">(Quni-Gudzinas 2026a)</span> and the
+structural invariant stated in the boson-fermion record <span
+class="citation" data-cites="zenodo21964598">(Quni-Gudzinas
+2026e)</span>.</p>
+<h2 id="verification-and-reproducibility">10. Verification and
+reproducibility</h2>
+<p>Every quantitative statement in this paper is reproduced by the three
+deposited scripts, whose check inventory is:
+<code>verify_m_anyon.py</code> — the Dirichlet identity for the m-family
+(sieved sums against the zeta ratio, error below <span
+class="math inline">\(6 \times 10^{-8}\)</span>), the golden occupation
+values (Fermi <span class="math inline">\(1/3\)</span> and Bose <span
+class="math inline">\(1\)</span> at <span class="math inline">\(x =
+1/2\)</span>), the permutation eigenvalues <span
+class="math inline">\(\{1,1,-1\}\)</span> and the exact phase-invariance
+of observables, and the Gentile-versus-Haldane deviation grid;
+<code>verify_braid_characters.py</code> — the braid relations of the
+one-dimensional characters, the Laughlin phase orders, the Fibonacci
+eigenvalues at <span class="math inline">\(q = e^{i\pi/5}\)</span>, and
+the Temperley-Lieb family values;
+<code>verify_prime_gap_thermo.py</code> — the Mertens-law divergence
+boundary, the exact staircase baseline (78,498 Newton inversions to
+machine precision), and the specific-heat deviations of Table 3.</p>
+<p>The runtime environment is Python 3.12 with mpmath 1.3.0; the scripts
+use the standard library and mpmath only, are deterministic (no random
+numbers), and need no network access. The scripts run from the deposited
+directory with <code>python verify_m_anyon.py</code>,
+<code>python verify_braid_characters.py</code>, and
+<code>python verify_prime_gap_thermo.py</code>; each prints a per-check
+report and writes a machine-readable JSON result. Golden values: bosonic
+and fermionic specific heats of the primon gas at <span
+class="math inline">\(\beta = 3\)</span> are <span
+class="math inline">\(1.5505264\)</span> and <span
+class="math inline">\(1.2045416\)</span> (arbitrary units, <span
+class="math inline">\(P = 10^6\)</span>).</p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-bakas1991" class="csl-entry" role="listitem">
+Bakas, I., and M. J. Bowick. 1991. <span>“Curiosities of Arithmetic
+Gases.”</span> <em>Journal of Mathematical Physics</em> 32: 1881–84. <a
+href="https://doi.org/10.1063/1.529511">https://doi.org/10.1063/1.529511</a>.
+</div>
+<div id="ref-bostconnes1995" class="csl-entry" role="listitem">
+Bost, J.-B., and A. Connes. 1995. <span>“Hecke Algebras, Type III
+Factors and Phase Transitions with Spontaneous Symmetry Breaking in
+Number Theory.”</span> <em>Selecta Mathematica (New Series)</em> 1:
+411–57. <a
+href="https://doi.org/10.1007/BF01589495">https://doi.org/10.1007/BF01589495</a>.
+</div>
+<div id="ref-chenng1994" class="csl-entry" role="listitem">
+Chen, Wei, and Y. Jack Ng. 1994. <span>“Fractional Exclusion Statistics
+and Anyons.”</span> <em>arXiv Preprint</em>.
+</div>
+<div id="ref-ducksudarshan1998" class="csl-entry" role="listitem">
+Duck, Ian, and E. C. G. Sudarshan. 1998. <em>Pauli and the
+Spin-Statistics Theorem</em>. World Scientific.
+</div>
+<div id="ref-duenas2014" class="csl-entry" role="listitem">
+Dueñas, J. G., and N. F. Svaiter. 2014. <span>“Thermodynamics of the
+Bosonic Randomized Riemann Gas.”</span> <em>arXiv Preprint</em>.
+</div>
+<div id="ref-gentile1940" class="csl-entry" role="listitem">
+Gentile, Giuseppe. 1940. <span>“Osservazioni Sopra Le Statistiche
+Intermedie.”</span> <em>Il Nuovo Cimento (1924–1942)</em> 17 (10):
+493–97. <a
+href="https://doi.org/10.1007/BF02960187">https://doi.org/10.1007/BF02960187</a>.
+</div>
+<div id="ref-haldane1991" class="csl-entry" role="listitem">
+Haldane, F. D. M. 1991. <span>“<span>‘Fractional Statistics’</span> in
+Arbitrary Dimensions: A Generalization of the Pauli Principle.”</span>
+<em>Physical Review Letters</em> 67: 937–40. <a
+href="https://doi.org/10.1103/PhysRevLett.67.937">https://doi.org/10.1103/PhysRevLett.67.937</a>.
+</div>
+<div id="ref-hartnoll2025" class="csl-entry" role="listitem">
+Hartnoll, Sean A., and Ming Yang. 2025. <span>“The Conformal Primon Gas
+at the End of Time.”</span> <em>arXiv Preprint</em>.
+</div>
+<div id="ref-julia1990" class="csl-entry" role="listitem">
+Julia, Bernard. 1990. <span>“Statistical Theory of Numbers.”</span> In
+<em>Number Theory and Physics</em>, vol. 47. Springer Proceedings in
+Physics. Springer.
+</div>
+<div id="ref-heiblum2022" class="csl-entry" role="listitem">
+Lee, June-Young M., Changki Hong, Tomer Alkalay, et al. 2022.
+<span>“Partitioning of Diluted Anyons Reveals Their Braiding
+Statistics.”</span> <em>arXiv Preprint</em>.
+</div>
+<div id="ref-leinaas1977" class="csl-entry" role="listitem">
+Leinaas, J. M., and J. Myrheim. 1977. <span>“On the Theory of Identical
+Particles.”</span> <em>Il Nuovo Cimento B</em> 37: 1–23. <a
+href="https://doi.org/10.1007/BF02727953">https://doi.org/10.1007/BF02727953</a>.
+</div>
+<div id="ref-makhaldiani2018" class="csl-entry" role="listitem">
+Makhaldiani, Nugzar. 2018. <span>“Supersymmetric Dynamics and
+Zeta-Functions.”</span> <em>arXiv Preprint</em>.
+</div>
+<div id="ref-zenodo21962450" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026a. <em>Configuration-Space Topology and
+the Distinction Calculus: The Exchange Scalar, Its <span><span
+class="math inline">\(\pm\)</span></span>1 Shadow, and a Pre-Registered
+Derivation Program</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21962450">https://doi.org/10.5281/zenodo.21962450</a>.
+</div>
+<div id="ref-zenodo22024856" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026b. <em>One Table, Two Regimes:
+Standard-Model Particles and Condensed-Matter Excitations as Patterns on
+the Bruhat-Tits Tree</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22024856">https://doi.org/10.5281/zenodo.22024856</a>.
+</div>
+<div id="ref-zenodo21208491" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026c. <em>P-Adic Anyon Fusion and Braiding:
+Quantum Groups at Roots of Unity</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21208491">https://doi.org/10.5281/zenodo.21208491</a>.
+</div>
+<div id="ref-zenodo22123068" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026d. <em>Quantum Statistics from the Adelic
+Product Formula: The Squarefree Origin of the Fermi–Dirac/Bose–Einstein
+Distinction</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22123068">https://doi.org/10.5281/zenodo.22123068</a>.
+</div>
+<div id="ref-zenodo21964598" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026e. <em>The Boson/Fermion Distinction:
+Spin-Statistics as Structural Invariant</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.21964598">https://doi.org/10.5281/zenodo.21964598</a>.
+</div>
+<div id="ref-zenodo22035210" class="csl-entry" role="listitem">
+Quni-Gudzinas, Rowan Brad. 2026f. <em>The Self-Referential Scalar
+Family: E, the Half-Turn, and the Unification of Information Theory,
+Statistics, Thermodynamics, and QND Measurement in the Adelic
+Picture</em>. Zenodo. <a
+href="https://doi.org/10.5281/zenodo.22035210">https://doi.org/10.5281/zenodo.22035210</a>.
+</div>
+<div id="ref-spector1990" class="csl-entry" role="listitem">
+Spector, Donald. 1990. <span>“Supersymmetry and the m<span>ö</span>bius
+Inversion Function.”</span> <em>Communications in Mathematical
+Physics</em> 127: 239–52. <a
+href="https://doi.org/10.1007/BF02096755">https://doi.org/10.1007/BF02096755</a>.
+</div>
+<div id="ref-speliotopoulos1995" class="csl-entry" role="listitem">
+Speliotopoulos, A. D. 1995. <span>“Turning Bosons into Fermions:
+Exclusion Statistics, Fractional Statistics and the Simple Harmonic
+Oscillator.”</span> <em>arXiv Preprint</em>.
+</div>
+<div id="ref-wilczek1982" class="csl-entry" role="listitem">
+Wilczek, Frank. 1982. <span>“Quantum Mechanics of Fractional-Spin
+Particles.”</span> <em>Physical Review Letters</em> 49: 957–59. <a
+href="https://doi.org/10.1103/PhysRevLett.49.957">https://doi.org/10.1103/PhysRevLett.49.957</a>.
+</div>
+<div id="ref-ye2015" class="csl-entry" role="listitem">
+Ye, F., P. A. Marchetti, Z. B. Su, and L. Yu. 2015. <span>“Hall Effect,
+Edge States and Haldane Exclusion Statistics in Two-Dimensional
+Space.”</span> <em>arXiv Preprint</em>.
+</div>
+</div>
+</body>
+</html>
