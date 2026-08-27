@@ -1,0 +1,151 @@
+{
+  "quni2026stats": {
+    "doi": "10.5281/zenodo.22123068",
+    "kind": "zenodo",
+    "data": {
+      "title": "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi-Dirac/Bose-Einstein Distinction",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026anyons": {
+    "doi": "10.5281/zenodo.22124744",
+    "kind": "zenodo",
+    "data": {
+      "title": "Arithmetic Anyons: The Bounded-Occupation Family, Gentile Statistics, and the Roots of Unity That Carry Braid Phases",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026scalar": {
+    "doi": "10.5281/zenodo.22035210",
+    "kind": "zenodo",
+    "data": {
+      "title": "The Self-Referential Scalar Family: e, the Half-Turn, and the Unification of Information Theory, Statistics, Thermodynamics, and QND Measurement in the Adelic Picture",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026tate": {
+    "doi": "10.5281/zenodo.21600741",
+    "kind": "zenodo",
+    "data": {
+      "title": "Tate's Thesis as a Template for Adelic Quantum Mechanics: Local-Global Structure and the Emergence of Archimedean Artifacts",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026consilience": {
+    "doi": "10.5281/zenodo.21590155",
+    "kind": "zenodo",
+    "data": {
+      "title": "Consilience Between Physics and Number Theory: Convergent Theses from Ostrowski's Theorem to Adelic Quantum Mechanics",
+      "creators": [
+        "QNFO Research Agent"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026units": {
+    "doi": "10.5281/zenodo.21480756",
+    "kind": "zenodo",
+    "data": {
+      "title": "Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026umbrella": {
+    "doi": "10.5281/zenodo.22076816",
+    "kind": "zenodo",
+    "data": {
+      "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026exchange": {
+    "doi": "10.5281/zenodo.21941184",
+    "kind": "zenodo",
+    "data": {
+      "title": "The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": "Cited via concept DOI 10.5281/zenodo.21941184 (F2: registry tracks record DOI 10.5281/zenodo.21964104; the deposited v1.3 frontmatter carries 10.5281/zenodo.21964359)."
+  },
+  "quni2026relaxation": {
+    "doi": "10.5281/zenodo.18640261",
+    "kind": "zenodo",
+    "data": {
+      "title": "Ultrametric Relaxation Dynamics in Topological Quantum Memory: Addressing the Active Control Limit via P-adic Solenoid Isomorphisms",
+      "creators": [
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "quni2026joules": {
+    "doi": "10.5281/zenodo.21637028",
+    "kind": "zenodo",
+    "data": {
+      "title": "The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions for Honest Computational Benchmarking",
+      "creators": [
+        "QNFO Research Collective",
+        "Quni-Gudzinas, Rowan Brad"
+      ],
+      "publisher": "Zenodo",
+      "year": 2026
+    },
+    "note": ""
+  },
+  "pauli1940": {
+    "doi": "10.1103/PhysRev.58.716",
+    "kind": "crossref",
+    "data": {
+      "title": "The Connection Between Spin and Statistics",
+      "creators": [
+        "W. Pauli"
+      ],
+      "publisher": [
+        "Physical Review"
+      ],
+      "year": 1940,
+      "journal": "Physical Review",
+      "volume": "58",
+      "page": "716-722"
+    },
+    "note": ""
+  }
+}
