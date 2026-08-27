@@ -1,0 +1,91 @@
+{
+  "passed": 17,
+  "total": 17,
+  "results": [
+    {
+      "check": "H3a product formula 1/1",
+      "pass": true,
+      "detail": "value=1 places=0"
+    },
+    {
+      "check": "H3a product formula 2/1",
+      "pass": true,
+      "detail": "value=1 places=1"
+    },
+    {
+      "check": "H3a product formula 3/1",
+      "pass": true,
+      "detail": "value=1 places=1"
+    },
+    {
+      "check": "H3a product formula 1/2",
+      "pass": true,
+      "detail": "value=1 places=1"
+    },
+    {
+      "check": "H3a product formula 3/2",
+      "pass": true,
+      "detail": "value=1 places=2"
+    },
+    {
+      "check": "H3a product formula 12/5",
+      "pass": true,
+      "detail": "value=1 places=3"
+    },
+    {
+      "check": "H3a product formula 1024/1",
+      "pass": true,
+      "detail": "value=1 places=1"
+    },
+    {
+      "check": "H3a product formula 243/1",
+      "pass": true,
+      "detail": "value=1 places=1"
+    },
+    {
+      "check": "H3a product formula 1/343",
+      "pass": true,
+      "detail": "value=1 places=1"
+    },
+    {
+      "check": "H3a product formula 210/143",
+      "pass": true,
+      "detail": "value=1 places=6"
+    },
+    {
+      "check": "H3a product formula 143/210",
+      "pass": true,
+      "detail": "value=1 places=6"
+    },
+    {
+      "check": "H3a product formula 7429/33263",
+      "pass": true,
+      "detail": "value=1 places=6"
+    },
+    {
+      "check": "H3a product formula 143/1001",
+      "pass": true,
+      "detail": "value=1 places=3"
+    },
+    {
+      "check": "H3a product formula 65536/255",
+      "pass": true,
+      "detail": "value=1 places=4"
+    },
+    {
+      "check": "H3b checksum completeness (all 1023 proper subsets deviate; full set = 1)",
+      "pass": true,
+      "detail": "deviating=1023/1023 full=1:True"
+    },
+    {
+      "check": "F5b squarefree <=> v_p in {0,1} (n<2001)",
+      "pass": true,
+      "detail": "first violation=None"
+    },
+    {
+      "check": "F5b mu=0 sector nonempty (n<2001)",
+      "pass": true,
+      "detail": "non-squarefree count=785"
+    }
+  ]
+}

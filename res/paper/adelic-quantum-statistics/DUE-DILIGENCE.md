@@ -17,7 +17,9 @@
 | adelic-core-synthesis | Cross-Domain Foundations of Adelic QFT | 10.5281/zenodo.21786473 | ADL umbrella synthesis. |
 | adelic-cross-domain | The Adelic Cross-Domain Program: ... Bruhat-Tits Trees | (branch archived v5.1) | Umbrella; cite for the program framing. |
 | consilience-physics-numtheory | Consilience Between Physics and Number Theory: ... Ostrowski to Adelic QM | 10.5281/zenodo.21590155 | KG triage note: "KEEP pending; do not treat as Tier-1 without So-What gate". Cite carefully. |
-| adelic-constraints-on-qft-phase-1/2 | Adelic Constraints on QFT Phases 1/2 | — | ADL constraint program; sweep for statistics content. |
+| adelic-constraints-on-qft (phase records) | Adelic Constraints on Quantum Field Theory—Phase 2 Synthesis (10.5281/zenodo.20097568); The Adelic Constraints Project—A Complete Account (10.5281/zenodo.20120042) | — | ADL constraint program; canonical slugs per DOI-DISCREPANCY-RESOLVE-1 (S7 reconciled 2026-08-27); sweep for statistics content. |
+| operationalizing-generalized-symmetries | (title per record) | 10.5281/zenodo.18199396 | Anyon halos, non-invertible symmetry defects, FCI moiré — directly adjacent to the anyonic-intermediates open problem (red-team H2). |
+| continuum-trilogy-02-padic-spin | P-adic Spin, Information, and Ultrametric Internal Quantum Numbers | 10.5281/zenodo.21672990 | ADL/UMP spin-statistics-adjacent record (red-team H2). |
 
 Secondary/tertiary hits: spectral-schism, emergent-number-theory, number-theory-as-physics, quantum-laws-of-form, reentrant-distinctions, geometric-unity-of-computation, syntactic-token-calculus-m1, electron-hook-treatise, spectral-analysis-of-anomalous-diffusion-on-p-adic-fractals, hamiltonian-dynamics-as-the-engine-of-biological-computation, spectral-benchmarking-of-holographic-quantum-simulations, monistic-reality (converging-reality).
 
@@ -52,6 +54,22 @@ What RES.027 supplies: a mechanism none of the four existing records use — mul
 - Zenodo records API: record 21939596 → concept 21939595 (tyranny) ✓; record 21964359 → concept 21941184 (exchange-phase) ✓ — both table entries verified.
 - OpenAlex: 2306.05919 (Reconstruction of Quantum Particle Statistics... Transtatistics), 2308.05203 (Particle exchange statistics beyond fermions and bosons), 2505.17361 (Quantum Statistics Forbids... beyond Bosons and Fermions in 3D) — titles confirmed ✓.
 - Crossref 404 on Zenodo DOIs is EXPECTED (Zenodo registers via DataCite) — not an error; DataCite + records API are authoritative for Zenodo records.
+
+## Red-team findings (Completeness slot, 2026-08-27) — disposition
+
+- **H1 (composite-parity bridge missing) — FIXED** (was: zero mention of Möbius/Cooper/helium in the plan). Adopted the reviewer's sharper F5 (three legs: canonical parity table incl. pion/baryon/vacuum; μ=0 = exclusion-forbidden sector; Dirichlet 1/ζ(s) golden check) replacing my F-HCP; card labeled identification-not-derivation (Q9).
+- **H2 (two records missing) — FIXED**: operationalizing-generalized-symmetries (10.5281/zenodo.18199396) + continuum-trilogy-02-padic-spin (10.5281/zenodo.21672990) added to the table; KG walks for both queued in wave 3.
+- **H3 (no product-formula verification script) — FIXED**: verify_product_formula.py added (exact product formula, truncation convergence, occupation-constraint link).
+- **S1 (no direction-symmetry guard / Q4 inversion) — FIXED**: guard added to verify_stats.py.
+- **S2 (F2 verifies scaling, not mechanism; Q3 seam) — REGISTERED**: model assumption named in the F2 script spec.
+- **S3/S4 (prediction unregistered; dimensionality bridge unnamed) — FIXED**: H-PARASTATS-INTERMEDIATE card + named d=2/B_N/BKT bridge + F6.
+- **S5 (interpretive thesis unnamed) — FIXED**: named in premise-depth ("statistics are structural rules, not particle-type primitives").
+- **S6 (adjacent-domain candidate lists) — FIXED**: INM → adelic-shannon-theory (10.5281/zenodo.22024240, ADL.001 — the adelic max-entropy record); UMP → ultrametric-program, qec-darwinism-ultrametric, ultrametric-relaxation-dynamics-in-topological-quantum-memory; JPC → x3.3-bosonic-codes-native-encoding (crosswalk "mode sharing" citation), thermodynamic-genesis-of-the-standard-model; ADL → spectral-dynamics-on-bruhat-tits-trees, zbw-p5-capstone (10.5281/zenodo.21609223, Majorana=fermionic). Wave-3 neighbor walks queued.
+- **S7 (slug discrepancy) — FIXED**: resolved via resolve_paper_id; canonical slugs + DOIs recorded.
+- **S8 (Euler identity unnamed in L0) — FIXED**: named.
+- **S9 (no direct max-entropy variational check) — REGISTERED**: P2 verification item.
+- **S10 (F4 has no executable artifact) — REGISTERED**: differential primon-gas audit to be deposited in artifacts/external-search/.
+- Corpus-size claims in DD verified EXACTLY by the reviewer via query_graph stats (8,330/8,512/1,666).
 
 ## Wave 2 findings (2026-08-27)
 

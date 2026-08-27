@@ -1,6 +1,6 @@
 {
-  "passed": 62,
-  "total": 62,
+  "passed": 65,
+  "total": 65,
   "results": [
     {
       "check": "F1a squarefree D(2.5) = zeta/zeta(2s)",
@@ -301,6 +301,21 @@
       "check": "F1d B p=5 b=2.0 z=2.0",
       "pass": true,
       "detail": "canonical=0.086956521741 golden=0.086956521739 err=1.92e-12"
+    },
+    {
+      "check": "S1 direction guard p=2 b=1.0 z=0.5",
+      "pass": true,
+      "detail": "Fermi=0.200000 Bose=0.333333 differ=0.133333"
+    },
+    {
+      "check": "S1 direction guard p=3 b=1.0 z=1.0",
+      "pass": true,
+      "detail": "Fermi=0.250000 Bose=0.500000 differ=0.250000"
+    },
+    {
+      "check": "S1 direction guard p=5 b=2.0 z=0.5",
+      "pass": true,
+      "detail": "Fermi=0.019608 Bose=0.020408 differ=0.000800"
     },
     {
       "check": "F-HCP mu parity squarefree n<=5000",

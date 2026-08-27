@@ -58,8 +58,11 @@ PASS  F1d F p=5 b=2.0 z=1.0 | canonical=0.038461538461 golden=0.038461538462 err
 PASS  F1d B p=5 b=2.0 z=1.0 | canonical=0.041666666672 golden=0.041666666667 err=5.30e-12
 PASS  F1d F p=5 b=2.0 z=2.0 | canonical=0.074074074074 golden=0.074074074074 err=3.70e-13
 PASS  F1d B p=5 b=2.0 z=2.0 | canonical=0.086956521741 golden=0.086956521739 err=1.92e-12
+PASS  S1 direction guard p=2 b=1.0 z=0.5 | Fermi=0.200000 Bose=0.333333 differ=0.133333
+PASS  S1 direction guard p=3 b=1.0 z=1.0 | Fermi=0.250000 Bose=0.500000 differ=0.250000
+PASS  S1 direction guard p=5 b=2.0 z=0.5 | Fermi=0.019608 Bose=0.020408 differ=0.000800
 PASS  F-HCP mu parity squarefree n<=5000 | mu(n)=(-1)^{#prime factors}
 PASS  F-HCP composite sign table | Cooper pair:2->+1, exciton:2->+1, helium-4:6->+1, helium-3:3->-1, electron:1->-1
 
-RESULT: 62/62 PASS
+RESULT: 65/65 PASS
 ALL CHECKS PASS

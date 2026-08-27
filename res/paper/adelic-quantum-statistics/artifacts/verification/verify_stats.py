@@ -119,6 +119,18 @@ def main():
                     check("F1d %s p=%d b=%.1f z=%.1f" % (mode, p, b, z), ok,
                           "canonical=%.12f golden=%.12f err=%.2e" % (num, golden, abs(num - golden)))
 
+    # ---- S1 direction-symmetry guard (Q4 inversion): the two statistics' golden
+    # values differ at non-degenerate points, so the assignment is falsifiable,
+    # not symmetric — if unrestricted occupation reproduced the Fermi golden
+    # value, the squarefree<->Fermi direction would be unconstrained.
+    for (p, b, z) in ((2, 1.0, 0.5), (3, 1.0, 1.0), (5, 2.0, 0.5)):
+        zp = z * p ** (-b)
+        nF = zp / (1 + zp)
+        nB = zp / (1 - zp)
+        ok = abs(nF - nB) > 1e-9
+        check("S1 direction guard p=%d b=%.1f z=%.1f" % (p, b, z), ok,
+              "Fermi=%.6f Bose=%.6f differ=%.6f" % (nF, nB, abs(nF - nB)))
+
     # ---- F-HCP: Moebius parity + composite exchange-sign table ----
     # mu(n) = (-1)^{#distinct prime factors} for squarefree n — verify by construction
     def omega(n):

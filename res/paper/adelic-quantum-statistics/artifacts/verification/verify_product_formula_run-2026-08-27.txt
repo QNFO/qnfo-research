@@ -1,0 +1,20 @@
+PASS  H3a product formula 1/1 | value=1 places=0
+PASS  H3a product formula 2/1 | value=1 places=1
+PASS  H3a product formula 3/1 | value=1 places=1
+PASS  H3a product formula 1/2 | value=1 places=1
+PASS  H3a product formula 3/2 | value=1 places=2
+PASS  H3a product formula 12/5 | value=1 places=3
+PASS  H3a product formula 1024/1 | value=1 places=1
+PASS  H3a product formula 243/1 | value=1 places=1
+PASS  H3a product formula 1/343 | value=1 places=1
+PASS  H3a product formula 210/143 | value=1 places=6
+PASS  H3a product formula 143/210 | value=1 places=6
+PASS  H3a product formula 7429/33263 | value=1 places=6
+PASS  H3a product formula 143/1001 | value=1 places=3
+PASS  H3a product formula 65536/255 | value=1 places=4
+PASS  H3b checksum completeness (all 1023 proper subsets deviate; full set = 1) | deviating=1023/1023 full=1:True
+PASS  F5b squarefree <=> v_p in {0,1} (n<2001) | first violation=None
+PASS  F5b mu=0 sector nonempty (n<2001) | non-squarefree count=785
+
+RESULT: 17/17 PASS
+ALL CHECKS PASS
