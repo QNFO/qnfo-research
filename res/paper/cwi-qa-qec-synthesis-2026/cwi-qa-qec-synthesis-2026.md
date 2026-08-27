@@ -2,9 +2,10 @@
 title: "The Unpriced Column: A Slide-Level Synthesis of the CWI Summer School on Quantum Algorithms and Quantum Error Correction (Amsterdam, 24–28 August 2026)"
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-26"
-version: "0.1"
+version: "v1.0"
 license: "CC BY 4.0"
-status: "draft"
+status: "published"
+doi: "10.5281/zenodo.22121556"
 wbs: "QNFO.RES.026"
 ---
 
