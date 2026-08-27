@@ -1,0 +1,8 @@
+KEY-FROM-BINDINGS 200 key: True tail: L-zJ09X7EePDto
+INST Hartnoll-Stanford 200 []
+INST Hazzard-Rice 0 []
+TEST-SEND 200 b'{"success":true,"message_id":"43bd312c-4917-4593-9259-76f2d2780525","to":"rwnquni@outlook.com","subject":"Pre-publish check: QNFO squarefree-statistics preprint","sent_at":"2026-08-27T07:31:51.058Z"}'
+SEND nicolas.medina.sanchez@univie.ac.at 200 {"success":true,"message_id":"420a1242-30fe-438b-8038-6a03dedfc027","to":"nicolas.medina.sanchez@univie.ac.at","subject":"The squarefree origin of the
+SEND daiwusheng@tju.edu.cn 200 {"success":true,"message_id":"f94a6773-950e-4044-b179-2279a92914c3","to":"daiwusheng@tju.edu.cn","subject":"The squarefree origin of the Bose-Fermi di
+P7 SENDS DONE
+EXIT=0

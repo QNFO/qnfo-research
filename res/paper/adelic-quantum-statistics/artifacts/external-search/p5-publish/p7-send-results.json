@@ -1,0 +1,12 @@
+[
+ {
+  "to": "nicolas.medina.sanchez@univie.ac.at",
+  "status": 200,
+  "resp": "{\"success\":true,\"message_id\":\"420a1242-30fe-438b-8038-6a03dedfc027\",\"to\":\"nicolas.medina.sanchez@univie.ac.at\",\"subject\":\"The squarefree origin of the Bose-Fermi dichotomy\",\"sent_at\":\"2026-08-27T07:31"
+ },
+ {
+  "to": "daiwusheng@tju.edu.cn",
+  "status": 200,
+  "resp": "{\"success\":true,\"message_id\":\"f94a6773-950e-4044-b179-2279a92914c3\",\"to\":\"daiwusheng@tju.edu.cn\",\"subject\":\"The squarefree origin of the Bose-Fermi dichotomy\",\"sent_at\":\"2026-08-27T07:31:55.784Z\"}"
+ }
+]

@@ -1,0 +1,1 @@
+INDEXER STATE 2026-08-27: 300/508 chunks indexed (59%%; chunks 0-299 live — abstract/intro/core sections searchable, verified via search_papers rank #1). The /index invocations do not advance past offset 300 (silent stall, errors=0) — corpus-hygiene item for the next cycle: triage chunk 300 / restart the drain.
