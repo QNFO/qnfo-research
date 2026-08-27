@@ -73,6 +73,35 @@ Scripts in `artifacts/verification/`, deposited with the paper, with a reproduci
 6. S9 and S10 CLOSED 2026-08-27: S9 `verify_maxent.py` 16/16 — the golden distributions verified as maximum-entropy solutions (first-order exponential-family condition with proper constraint-subspace projection, strict concavity, Fermi uniqueness, m=1/m→∞ golden edge cases); S10 `artifacts/external-search/f4-differential-primon-gas-audit.py` — the executable F4 scoping artifact (published canon reproduced side-by-side with the RES.027 quantities; differential table CANON/CITED/DELTA; no DELTA row reproduces a CANON row).
 7. Golden values, edge cases (N → 1, N → ∞, x → 0), and seeded Monte Carlo throughout; every number in the paper reproducible from these scripts.
 
+## P6 — Core-claim re-verification (2026-08-27)
+
+Locked claim T1–T3 re-verified against the v0.1 draft and the executed tests. Verdict: **no drift** — the draft's §§2–4 state the claim exactly as locked, with the T3 precision note carried verbatim into §4.
+
+Hypothesis-card execution parity (HYPOTHESIS-CARD-EXECUTION-PARITY-1):
+
+| Card | Locked prediction | Executed test | Parity |
+|---|---|---|---|
+| H-STAT-FERMI | squarefree ⇒ ⟨n⟩ = 1/(e^x+1) at golden points | verify_stats.py F1a/F1d — identities exact, golden values to 1e-9 | MATCH |
+| H-STAT-BOSE | unrestricted ⇒ ⟨n⟩ = 1/(e^x−1) | verify_stats.py F1b/F1d | MATCH |
+| H-RATE-GAMMA | per-distinction rate ∝ 1/N under N-fold degeneracy | verify_rate_gamma.py F2a–d (exact eigenvalues, seeded MC, slope −1) + S2 heterogeneity guard | MATCH (mechanism guarded) |
+| H-SYMPLECTIC-FERMI | J²=−1 in the Fermi large-N limit only | verify_symplectic.py F3a–h — executed form refines: H²=−1 (sign-normalized) at every N; raw J²=−sin²(2πk/N); Bose side cos²≥0 | MATCH with documented refinement (T3 precision note) |
+| H-COMPOSITE-PARITY | μ-parity = composite exchange-sign rule | verify_stats.py F-HCP (parity table) + verify_product_formula.py F5b (μ=0 sector = exclusion-forbidden) | MATCH |
+| H-PRIOR-ART-DELTA | exact delta not already published | f4-differential-primon-gas-audit.py — no DELTA row reproduces a CANON row | MATCH (executable) |
+| H-PARASTATS-INTERMEDIATE | partial exclusions ↔ intermediate statistics | verify_parastats.py — math side green; the correspondence itself open | MATCH (open-by-design) |
+
+Falsifier register: F1–F6 each maps to a green script; zero failures at P6.
+
+## P7 — Outreach plan (2026-08-27, CAMPAIGNS-OUTREACH-1)
+
+Post-publication (T+0 after P8). Tier-1 targets — one email each, single contact per group, daily cap 3–5, contact-ledger + D1 dedup before every send:
+
+1. **Nicolás Medina Sánchez + Borivoje Dakić** (transtatistics, arXiv:2306.05919) — the operational-reconstruction program; angle: the bounded-occupation interpolation family ζ(s)/ζ((m+1)s) as the arithmetic counterpart to reconstruction from information principles.
+2. **Sean Hartnoll + Ming Yang** (conformal primon gas, arXiv:2502.02661) — the modern primon-gas line; angle: the squarefree/unrestricted dichotomy and the executable F4 differential audit.
+3. **Zhiyuan Wang + Kaden Hazzard** (parastatistics, arXiv:2308.05203) — angle: the F6 open correspondence (occupancy bound ↔ exchange phase) as the question their generalized-exclusion machinery frames.
+4. **Wu-Sheng Dai et al.** (3D exclusivity, arXiv:2505.17361) — angle: the dichotomy read from the lattice side.
+
+Channels: Cloudflare Email Sending (verified addresses only, arXiv-source verification), Buffer social (LinkedIn/X/Mastodon impact copy), plus the corpus registry (D1/KG/Vectorize) as the internal distribution. Dedup: email-composer contact-ledger + D1 qnfo-audit.emails before each send; never re-contact a prior recipient. Execution in the P8-post cycle, not before publication.
+
 ## Phase roadmap
 
 - **P0 (this plan):** registry row, branch, PROJECT-PLAN, core claim + falsifiers locked, commit/tag/push. ZENODO-INQUIRY-1 ignorance audit on the core claim before P1.
