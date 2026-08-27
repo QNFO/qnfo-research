@@ -12,6 +12,9 @@ assertion.
 |---|---|---|
 | Julia (1990); Spector (1990) — primon / Riemann gas | primes as modes with energies log p; zeta(s) as the bosonic partition function | unrestricted → bosonic identification (T1b) — PUBLISHED PRIOR ART |
 | Bakas–Bowick (1991) and successors | fermionic primon gas; squarefree ↔ zeta(s)/zeta(2s) | squarefree → fermionic identification (T1a) — PUBLISHED PRIOR ART |
+| Bost–Connes (1994); Connes' spectral action | statistical mechanics of zeta zeros (KMS states, phase transition) | equilibrium KMS structure — adjacent; NOT the bath-degeneracy rate derivation (T2) |
+| Montgomery; Hilbert–Pólya; Berry–Keating; Sierra | zeros-as-spectrum program | zero statistics — adjacent; NOT the Fermi-selected J²=−1 mechanism (T3) |
+| Katz–Sarnak | symmetry types of zero statistics (unitary/symplectic/orthogonal) | universality classes — thematic proximity to "symplectic" only; NOT the T3 mechanism |
 | Hartnoll–Yang (arXiv:2502.02661) — Conformal Primon Gas | conformal extension of the primon gas | mode-energy frame — adjacent, not the delta |
 | Baytaş–Rodrigues–Yokomizo (arXiv:2602.11927) | bosonic/fermionic statistics in nonperturbative QG | statistics from constraints — adjacent |
 | Zhou–Chen–Chen–Shen–Zhang–Dai (arXiv:2505.17361) | 3D exclusivity bound | exclusion-bound family — adjacent to F6, not T1–T3 |
@@ -35,6 +38,10 @@ exactly six items:
 1. **T1-general:** publication-grade generalization of R1/R2 — arbitrary
    (β, μ, p) golden occupations (F1d) plus the global lattice identities
    (F1a/F1b/F1c: squarefree/unrestricted Dirichlet series vs zeta(s)/zeta(2s)).
+   Scoping precision (Completeness reviewer, 2026-08-27): the lattice
+   identities themselves are the published prior art, reproduced and verified
+   here — never claimed; the delta within T1 is the F1d generalization and the
+   direct maximum-entropy verification (verify_maxent.py, S9, 16/16).
 2. **T2:** the γ = 1/N degeneracy derivation — the rate RES.021 section 9 left
    open ("which heat bath, and which spectral measure, would supply a rate
    proportional to 1/N is open"). Mechanism: the N-fold degeneracy of a bath of
@@ -60,3 +67,15 @@ unrestricted ↔ Bose–Einstein) are cited prior art in every claim — never
 asserted de novo. The F4 gate remains falsifiable: any newly surfaced record
 containing the T2 mechanism or the T3 Fermi-symplectic link is added to the
 table and the delta re-scoped in the next cycle.
+
+Notes (Completeness reviewer, 2026-08-27 — 0 HARD, 6 SOFT, all disposed or
+queued): the three added rows (Bost–Connes, zeros-as-spectrum, Katz–Sarnak)
+carry no T2/T3 content, so the delta scoping is unchanged. The RES.020
+born_degeneracy numbers (max_deviation 0.5 vs tolerance 0.01) are sourced from
+RES.020's repo and unverifiable from this branch — marked as such, never
+re-derived here. The per-ID evidence trail for 7 of the 10 arXiv lineage rows
+lives in the verification transcripts; the child independently re-verified all
+10 live (all correct) — depositing the remaining per-ID evidence files is a
+Tier-4 queue item. The bounded-occupation family ζ(s)/ζ((m+1)s) (item 6 of the
+delta list in PROJECT-PLAN) is the executable S10 script's DELTA row — the
+markdown/script coherence is established by this note.
