@@ -34,6 +34,25 @@ All resolved slugs consistent with registry/D1/KG: no slug→DOI mismatches foun
 - Adelic product formula standard texts.
 - Post-2020 arXiv: statistics from adelic/product-formula constructions.
 
+## Gap statement vs RES.009 (exact wording extracted 2026-08-27)
+
+RES.009 §2 (10.5281/zenodo.21964598, v1.6): "the abelian-pair postulate is ASSUMED (definitive — scalar exchange follows from abelianity; the calculus does not deliver it), and involutivity (σ² = 1) is a condition on the target category (symmetric, or Temperley–Lieb at A⁴ = 1), not a theorem of the calculus (verified by executed code in the rigor-pass cycle)... the surviving route is channel-count (F2′, tied to DHR locality)." Its minimal-ontology theorem: any derivation of exchange statistics must contain logic + locality + kinematics + Lorentz.
+
+What RES.027 supplies: a mechanism none of the four existing records use — multiplicity structure (squarefree/unrestricted) + product-formula normalization + max-entropy occupation — as the generator of the two statistical distributions. Explicitly NOT supplied: the spin-statistics CONNECTION (which sign is realized for which spin) — that remains Lorentz/locality input per RES.009's conceded boundary. T1–T3 claim the distributions and the rate; they do not claim to replace the spin-connection. This boundary must be stated verbatim in the paper (premise-depth disclosure).
+
+## Adjacent-domain scan (UMP + INM + SLB + JPC, wave 2)
+
+- **UMP:** `spin-glasses-complexity` (Replica Symmetry Breaking — Parisi ultrametricity of pure states: the canonical multiplicity/occupation structure on an ultrametric tree); `conditional-state-distances-pw-clocks` (ultrametricity emergence); `bridge-theorem` (p-adic/Bruhat-Tits); `ultrametric-quantum-gravity-and-computation`. The RSB pure-state count is the ultrametric analog of the occupation-count question — candidate crosswalk row at draft time.
+- **INM:** `signal-worker-boundary-confinement` (see table) — boson=signal/fermion=worker ontology already red-teamed; its composite-boson failure is direct evidence for the multiplicity reading.
+- **SLB:** tyranny-of-the-plus-minus-one + spin-statistics-distinction + exchange-phase-logical-scalar — lineage confirmed (see table + KG notes).
+- **JPC:** JPC.003's γ assumption confirmed as the open input in the seed note Part C ("The Final Continuation: What Still Remains Unresolved").
+
+## External verification (artifacts/external-search/external-verify-2026-08-27.txt)
+
+- Zenodo records API: record 21939596 → concept 21939595 (tyranny) ✓; record 21964359 → concept 21941184 (exchange-phase) ✓ — both table entries verified.
+- OpenAlex: 2306.05919 (Reconstruction of Quantum Particle Statistics... Transtatistics), 2308.05203 (Particle exchange statistics beyond fermions and bosons), 2505.17361 (Quantum Statistics Forbids... beyond Bosons and Fermions in 3D) — titles confirmed ✓.
+- Crossref 404 on Zenodo DOIs is EXPECTED (Zenodo registers via DataCite) — not an error; DataCite + records API are authoritative for Zenodo records.
+
 ## Wave 2 findings (2026-08-27)
 
 **Source notes:** `_26239072830.md` (2026-08-27) — Bose/Fermi dimensionality Q&A. Content: (1) bosons/fermions defined by spin + exchange symmetry, not dimension; BEC is 3D (2D has BKT quasi-condensation + anyons); (2) composite statistics rule — even number of fermions → composite boson, odd → composite fermion (Cooper pairs, excitons, He-4 vs He-3); (3) the user's closing line: "statistics are not things any more than a population is a person" — statistics as structural/multiplicity rules, not particle-type primitives. Bridge to T1: for squarefree n the Möbius function μ(n) = (−1)^(#prime factors) reproduces the composite exchange-sign parity exactly — the exchange sign is Möbius parity of the constituent count; the squarefree restriction (no repeated prime factor) is the exclusion signature itself. Folded into PROJECT-PLAN as hypothesis card H-COMPOSITE-PARITY + crosswalk row. Dimensionality content (2D anyons/BKT) feeds the Q15 open problem (intermediate statistics), not a claim.

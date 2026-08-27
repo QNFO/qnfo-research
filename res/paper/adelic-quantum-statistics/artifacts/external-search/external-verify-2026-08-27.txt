@@ -1,0 +1,23 @@
+================================================================================
+CHECK: zenodo-record-21939596-concept | https://zenodo.org/api/records/21939596
+  conceptrecid=21939595 | doi=10.5281/zenodo.21939596 | title=The Tyranny of the ±1: How a Topological Constraint Became the Iron Law of Nature
+
+================================================================================
+CHECK: zenodo-record-21964359-concept | https://zenodo.org/api/records/21964359
+  conceptrecid=21941184 | doi=10.5281/zenodo.21964359 | title=The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus
+
+================================================================================
+CHECK: openalex-arxiv-2306.05919 | https://api.openalex.org/works/doi:10.48550/arXiv.2306.05919
+  title=Reconstruction of Quantum Particle Statistics: Bosons, Fermions, and Transtatistics | cited_by=1 | year=2023 | type=preprint
+
+================================================================================
+CHECK: openalex-arxiv-2308.05203 | https://api.openalex.org/works/doi:10.48550/arXiv.2308.05203
+  title=Particle exchange statistics beyond fermions and bosons | cited_by=1 | year=2023 | type=preprint
+
+================================================================================
+CHECK: openalex-arxiv-2505.17361 | https://api.openalex.org/works/doi:10.48550/arXiv.2505.17361
+  title=Quantum Statistics Forbids Particle Exchange Statistics beyond Bosons and Fermions in 3D | cited_by=0 | year=2025 | type=preprint
+
+================================================================================
+CHECK: crossref-zenodo-21964598 | https://api.crossref.org/works/10.5281/zenodo.21964598
+  PARSE-ERROR JSONDecodeError('Expecting value: line 1 column 1 (char 0)') | RAW: ERROR: <HTTPError 404: 'Not Found'>
