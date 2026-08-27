@@ -1,0 +1,16 @@
+{
+ "record": "10.5281/zenodo.22133122",
+ "concept": "10.5281/zenodo.22123067",
+ "version": "1.0.1",
+ "published": "2026-08-27",
+ "remediation": "POST-PUBLISH Completeness-child HARD-1 (2 missing files) + HARD-2 (stale DUE-DILIGENCE.md)",
+ "files": 44,
+ "dd_size": 26952,
+ "added": ["f4-differential-primon-gas-audit-run-2026-08-27.txt", "primon-gas-differential-audit-2026-08-27.md"],
+ "replaced": ["DUE-DILIGENCE.md", "adelic-quantum-statistics.md (frontmatter)", "README.md (cite-version)"],
+ "frontmatter_assert": "PASS (version 1.0.1, doi 22133122)",
+ "d1": "doi/zenodo_doi/version/body_md updated; Vectorize re-indexed",
+ "registry": "zenodo_doi 22133122, current_version 1.0.1",
+ "r2": "4 stale objects re-PUT to parity (DD 26952, md 26186, README 3760, S10 6216)",
+ "lock": "new-v1.0.1-remediation (released after closeout)"
+}

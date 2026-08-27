@@ -1,0 +1,17 @@
+pinned: 188.185.48.75
+GET DRAFT 200 files: 42
+bucket path: /api/files/3cba4a2b-b02e-4e0d-a386-a6b7857d2293
+DELETE README.md 404
+DELETE adelic-quantum-statistics.md 404
+DELETE DUE-DILIGENCE.md 404
+UPLOAD adelic-quantum-statistics.md 201
+UPLOAD README.md 201
+UPLOAD DUE-DILIGENCE.md 201
+UPLOAD f4-differential-primon-gas-audit-run-2026-08-27.txt 201
+UPLOAD primon-gas-differential-audit-2026-08-27.md 201
+DRAFT FILES: 44 | version: 1.0.1
+MISSING: []
+DUE-DILIGENCE SIZE: [None]
+PUBLISH 202 | doi: 10.5281/zenodo.22133122 | concept: 10.5281/zenodo.22123067
+RECORD 200 | state: done | files: 44 | version: 1.0.1
+EXIT=0

@@ -1,0 +1,5 @@
+DUE-DILIGENCE.md 200 26952 bytes
+adelic-quantum-statistics.md 200 26186 bytes
+README.md 200 3760 bytes
+primon-gas-differential-audit-2026-08-27.md 200 6216 bytes
+EXIT=0

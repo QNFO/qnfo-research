@@ -1,6 +1,6 @@
 # Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi–Dirac/Bose–Einstein Distinction
 
-**Author:** Rowan Brad Quni-Gudzinas · **DOI:** 10.5281/zenodo.22123068 · **Concept DOI:** 10.5281/zenodo.22123067 · **License:** CC BY 4.0 · **Status:** published v1.0.0 (2026-08-27)
+**Author:** Rowan Brad Quni-Gudzinas · **DOI:** 10.5281/zenodo.22133122 · **Concept DOI:** 10.5281/zenodo.22123067 · **License:** CC BY 4.0 · **Status:** published v1.0.1 (2026-08-27)
 
 ## How to cite
 
@@ -10,7 +10,7 @@ Cite all versions (always resolves to the latest one):
 
 Cite this version specifically:
 
-> Quni-Gudzinas, Rowan Brad. *Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi–Dirac/Bose–Einstein Distinction*. Zenodo, version 1.0.0, 2026-08-27. https://doi.org/10.5281/zenodo.22123068
+> Quni-Gudzinas, Rowan Brad. *Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi–Dirac/Bose–Einstein Distinction*. Zenodo, version 1.0.1, 2026-08-27. https://doi.org/10.5281/zenodo.22133122
 
 ## Abstract
 

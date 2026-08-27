@@ -1,0 +1,14 @@
+---
+title: "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi–Dirac/Bose–Einstein Distinction"
+author: "Rowan Brad Quni-Gudzinas"
+affiliation: "QNFO"
+ORCID: "0009-0002-4317-5604"
+date: "2026-08-27"
+license: "cc-by-4.0"
+status: "published"
+version: "1.0.1"
+doi: "10.5281/zenodo.22133122"
+concept_doi: "10.5281/zenodo.22123067"
+abstract: |
+  Why are there two quantum statistics, and only two, in three spatial dimensions? This paper reads the Bose–Eins
+EXIT=0

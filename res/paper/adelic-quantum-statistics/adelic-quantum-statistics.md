@@ -6,8 +6,8 @@ ORCID: "0009-0002-4317-5604"
 date: "2026-08-27"
 license: "cc-by-4.0"
 status: "published"
-version: "1.0.0"
-doi: "10.5281/zenodo.22123068"
+version: "1.0.1"
+doi: "10.5281/zenodo.22133122"
 concept_doi: "10.5281/zenodo.22123067"
 abstract: |
   Why are there two quantum statistics, and only two, in three spatial dimensions? This paper reads the Bose–Einstein and Fermi–Dirac occupation distributions as the maximum-entropy solutions of one lattice with two multiplicity rules. On the unrestricted integer lattice the Euler factor at each prime place is the mode partition function of an unbounded occupation number, and the resulting Dirichlet series is the Riemann zeta function; on the squarefree restriction — each prime divides at most once — the Euler factor becomes the mode partition function of an occupation number in {0,1}, and the series becomes the ratio of two zeta values. The two golden occupation numbers follow from the canonical derivative of these mode factors at arbitrary inverse temperature and chemical potential, and both are the unique maximum-entropy distributions under their stated constraints. The per-place identifications at fugacity z = 1/p were established elsewhere; what the earlier records leave open is supplied here: the per-distinction transition rate gamma = 1/N as a consequence of bath degeneracy, the complex structure of the large-N limit as the sign-normalized generator selected by exclusion, the Möbius-parity reading of composite statistics, and the bounded-occupation family that interpolates between the two statistics and that anyonic exchange statistics must contact. The register is structural throughout: no physical particle is implied; the claims are isomorphisms of mathematical structure, and the physical labels attach at the level of statistical distributions. Every quantitative statement is reproduced by the deposited verification scripts.

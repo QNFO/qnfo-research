@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "<string>", line 16, in <module>
+  File "<string>", line 6, in get
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+state: done version: 1.0.1 files: 44
+   DUE-DILIGENCE.md 26952
+   f4-differential-primon-gas-audit-run-2026-08-27.txt 1586
+   primon-gas-differential-audit-2026-08-27.md 6216
+   adelic-quantum-statistics.md 26186
+   README.md 3760
+concept: 22123067 | is_last: None
+frontmatter check:
+EXIT=1
