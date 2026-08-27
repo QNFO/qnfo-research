@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-26" />
+  <title>The Unpriced Column: A Slide-Level Synthesis of the CWI Summer School on Quantum Algorithms and Quantum Error Correction (Amsterdam, 24–28 August 2026)</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>@page { size: A4; margin: 22mm 20mm; }</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">The Unpriced Column: A Slide-Level Synthesis of the
+CWI Summer School on Quantum Algorithms and Quantum Error Correction
+(Amsterdam, 24–28 August 2026)</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-26</p>
+</header>
+<h2 id="abstract">Abstract</h2>
+<p>The CWI summer school on quantum algorithms and quantum error
+correction (Amsterdam, 24–28 August 2026) distributed seven slide decks
+through the organizers’ share folder, and the decks were audited for
+energy content in full-text form. The decks price physical-qubit
+overhead (1e7–1e8 physical qubits to break RSA-2048 under concatenation;
+below 1e5 per the Pinnacle architecture; 1e4 per the reconfigurable-atom
+estimate), decoder budgets in time (roughly linear-in-n, streaming
+decoders, heavy runtime tails, expensive training), and code overhead in
+rate and distance (the gross code and its 2026 successors). Across
+approximately 150 slides there is no energy number. The same decks carry
+the field’s own caveats: hardware progress alone will not reach the
+required gate counts, quantum LDPC decoding is “still wide open”, and
+the theoretical linear-time decoders may not be useful in practice. This
+synthesis assembles the priced and the unpriced columns, traces six
+threads a skeptical attendee extracted from the week, and states what a
+practitioner can do with the result. It makes no hardware claim; it is
+evidence about what the field publishes, scoped to the materials as
+retrieved on 2026-08-26.</p>
+<h2 id="what-this-synthesis-is">1. What This Synthesis Is</h2>
+<p>A summer school is a snapshot of a field’s self-presentation: what
+its lecturers choose to put on slides is what the field decides
+newcomers should learn. The CWI summer school on quantum algorithms and
+quantum error correction ran 24–28 August 2026 in Amsterdam. The
+organizers distributed the lecturers’ slide decks through a SURFdrive
+share (link and password in the organizers’ email of 2026-08-25;
+retrieved 2026-08-26 via the share’s public WebDAV endpoint [1]). Seven
+decks were available at retrieval time: two by Anthony Leverrier on
+quantum LDPC codes and their decoding, a 90-minute exercise set on code
+constructions with solutions, and three by Ashwin Nayak on learning
+quantum states, quantum walk search, and span programs, plus a tutorial
+question sheet.</p>
+<p>The audit method is mechanical. Each PDF was text-extracted,
+duplicate animation frames removed, and every quantitative or
+caveat-bearing passage traced to a slide number. A full-text scan for
+energy vocabulary (joule, energy, power, watt, kT, thermodynamic,
+cooling, Landauer, consumption) ran across all extracted texts. The
+evidence map is in <code>artifacts/cwi-slide-audit.md</code>. No passage
+in this synthesis is quoted without a slide number, and nothing beyond
+the decks is asserted as a fact about the school.</p>
+<h2 id="what-the-decks-price">2. What the Decks Price</h2>
+<p>Physical-qubit overhead appears in three forms. Concatenation-based
+fault tolerance is quoted at 1e7–1e8 physical qubits to break RSA-2048
+(Leverrier-1, slide 11). The 2026 architecture estimates cited in the
+same deck put the cost at below 100,000 physical qubits at a 1e-3 error
+rate, a 1 µs code cycle, and a 10 µs reaction time (Pinnacle [2];
+Leverrier-2 references), and at 10,000 reconfigurable atomic qubits,
+with P-256 discrete logarithms in days at 26,000 qubits and RSA-2048 one
+to two orders of magnitude longer (Cain et al. [3]).</p>
+<p>Decoder budgets are priced in time. The stated requirement is “Time
+complexity should be at most (roughly) linear in n. Ideally, process
+available syndrome bits as they are produced. Streaming decoders…”
+(Leverrier-2, slide 15). Belief propagation with ordered statistics
+decoding carries “Heavy runtime tails” (slide 10); machine-learning
+decoders are fast once trained but have “expensive training” (slide 11);
+the decoder families are sorted along accuracy, speed, and reliability
+axes (slide 6).</p>
+<p>Code overhead is priced in rate and distance. The toric code’s
+parameters are “terribly bad code parameters, but this is essentially
+(!) optimal in 2 dimensions” (Leverrier-1, slide 17); the gross code
+[[144,12,12]] and its successors — the Kasai rate-1/2 template, the
+QuEra co-design [[1152,580,d&lt;=12]] at 50.35% rate, the 20%-rate
+families — are presented as the finite-size race (slides 32–39), with
+the field’s own benchmark page as the leaderboard.</p>
+<p>Every number in this section is qubits, gates, time, or error
+rate.</p>
+<h2 id="what-the-decks-do-not-price">3. What the Decks Do Not Price</h2>
+<p>The energy-term scan returned zero pricing statements across the
+seven decks; its term list — joule, energy, power, watt, thermodynamic,
+cooling, Landauer, consumption, dissipation, heat — produced no
+occurrences at all in the extracted deck texts. There is no
+joules-per-syndrome-round figure, no decoder energy per bit, no cooling
+budget, no per-solution energy. The nearest quantities are the latency
+budgets of section 2: cycle time and reaction time appear as constraints
+on classical hardware response, not as energy.</p>
+<p>The omission is not a criticism of any lecturer. It is a property of
+the field’s vocabulary, and it is exactly the property a
+joules-per-solution benchmark exists to correct [6]. The field’s own
+curriculum demonstrates that the energy bill is missing from the
+standard presentation: the quantities a thermodynamic accounting would
+convert into energy — the syndrome rounds, the decoder throughput, the
+ancilla resets — are all present on the slides, priced in every currency
+except energy.</p>
+<h2 id="the-decks-own-caveats">4. The Decks’ Own Caveats</h2>
+<p>The materials repeatedly state the limits the field’s marketing
+omits. On required gate counts: “quantum chemistry: &gt;1e12 gates;
+Shor’s factoring: &gt;1e15 gates =⇒ hardware progress alone won’t get us
+there!” (Leverrier-1, slide 4, where classical hardware’s 1e-20 error
+rates are shown for comparison). On the state of decoding: “QLDPC
+decoding is still wide open. Degeneracy, correlations, circuit-level
+noise… Optimal performance is usually unknown, even for code capacity”
+(Leverrier-2, slide 2). On the theory’s practical reach: the linear-time
+decoders are “interesting theory results, maybe not so useful in
+practice” (Leverrier-1, slide 40), and the new decoder presented during
+the week ends on “Main open question: why do small lists work so well?”
+(Leverrier-2, slide 51). On the field’s own age: asymptotically good
+quantum LDPC codes were not known to exist until five years ago
+(Leverrier-1, slide 2).</p>
+<p>The teaching side of the field is substantially more self-critical
+than its public-facing side. What remains invisible even in the teaching
+materials is the energy column.</p>
+<h2 id="the-attendees-threads">5. The Attendee’s Threads</h2>
+<p>Six threads ran through the week, each a reading of the materials
+rather than a claim about hardware.</p>
+<p><strong>Definitional tautology.</strong> The decks define quantum
+computing operationally — algorithms, codes, decoders — and never define
+“quantum” itself. The core object of the field is used everywhere and
+defined nowhere in the curriculum. This is not unique to the school; it
+is the standard presentation.</p>
+<p><strong>Unpriced physical cost.</strong> Every active correction
+cycle is an erasure engine: syndrome extraction, majority voting, and
+ancilla re-initialization each destroy information they read, and
+Landauer’s principle prices each erased bit at no less than kT·ln2 [4].
+The decks price the combinatorial side of correction completely and the
+physical side not at all — the asymmetry between sections 2 and 3 is the
+thread’s strongest deck-level evidence, and the floor it points at is
+priced in [4] and its predecessor [5].</p>
+<p><strong>Design choice dressed as law.</strong> QEC dominance is
+presented as the path, yet the decks themselves show the alternatives
+exist: good codes require long-range interaction, so the field drops
+geometric locality rather than the correction paradigm (Baspin–Krishna,
+Leverrier-1 slide 18); hardware co-design (the QuEra platform row) is on
+the slides; and nature runs uncorrected robust quantum processes —
+photosynthetic energy transfer and radical-pair magnetoreception — that
+no engineer would design this way [4].</p>
+<p><strong>Geometric fictions.</strong> The computations are discrete —
+syndromes, Tanner graphs, parity-check matrices — while the theory’s
+ambient space is the continuous Hilbert space. The decks compute on
+finite structures and speak in continuous ones.</p>
+<p><strong>Reality as a syndrome.</strong> Stabilizer measurement probes
+the error without revealing the state: the syndrome tells you where the
+deviation is, never what the state is. The correction loop is a concrete
+model of measurement without a global vantage — probing a system you
+never read directly.</p>
+<p><strong>Classical and quantum as epistemic frames.</strong> Two
+readings of the same mathematics — one in which amplitudes are
+bookkeeping and one in which they are real — coexist on the same slides.
+The materials give no criterion for choosing between them, which is
+itself a finding.</p>
+<p>Threads four and six are the attendee’s readings, not claims
+supported by the decks; they are stated as such and carry no hardware
+assertions.</p>
+<h2 id="crosswalk">6. Crosswalk</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>QEC engineering</th>
+<th>Adjacent-domain equivalent</th>
+<th>Fidelity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Syndrome reset / ancilla re-initialization</td>
+<td>Bit erasure; reset-to-reference</td>
+<td>Exact</td>
+</tr>
+<tr>
+<td>Correction work</td>
+<td>Heat rejected to the bath</td>
+<td>Exact ([4], Landi et al.)</td>
+</tr>
+<tr>
+<td>Decoder latency budget</td>
+<td>Throughput constraint; latency budget in classical ECC</td>
+<td>Exact</td>
+</tr>
+<tr>
+<td>Physical-qubit overhead</td>
+<td>Redundancy rate in coding theory</td>
+<td>Exact</td>
+</tr>
+<tr>
+<td>Missing energy column</td>
+<td>Joules per correct solution (JPCUB)</td>
+<td>Exact as a metric [6]</td>
+</tr>
+<tr>
+<td>Curriculum snapshot</td>
+<td>Self-presentation audit; epistemic-legibility audit</td>
+<td>Method transfer ([7], [8])</td>
+</tr>
+<tr>
+<td>Structural protection</td>
+<td>Passive stability; noise margin</td>
+<td>Good</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-a-practitioner-does-with-this">7. What a Practitioner Does
+With This</h2>
+<p>A practitioner reading this synthesis gets a three-item checklist for
+any fault-tolerance roadmap. First, price the syndrome round: the number
+of rounds per logical operation times the cost of each round’s
+measurement and reset, at the operating temperature. Second, price the
+decoder: bits per second against energy per bit, not just latency — the
+“linear in n” requirement is a throughput claim, and throughput has a
+power cost. Third, price the cooling: every quoted qubit count runs at
+millikelvin, and the refrigerator’s coefficient of performance
+multiplies the whole budget. None of these numbers appear in the field’s
+own teaching materials, which is why a benchmark that counts everything
+— control electronics, reset pulses, ancilla preparation, cooling
+amortization — exists as a counterweight [6]. The unpriced column is the
+audit instrument: where the curriculum has no number, the roadmap has no
+plan.</p>
+<h2 id="boundaries">8. Boundaries</h2>
+<p>This synthesis claims nothing about any machine’s energy consumption.
+It is evidence about what the field publishes in its teaching materials,
+scoped to the seven decks as retrieved on 2026-08-26. It does not judge
+any lecturer; the slides’ own caveats (section 4) speak for themselves.
+The trapped-ion lecture is not among the uploaded decks, so no claim
+about that material is made. The organizers noted the share would be
+updated through the week; a final re-check is scheduled, and the scope
+clause freezes this document at the retrieval date regardless.</p>
+<h2 id="open-questions">9. Open Questions</h2>
+<p>Four questions follow from the priced/unpriced split, each already
+live in the research programme rather than invented here. Does
+hierarchical, nested-ball decoding amortize better than the square-root
+overhead of surface codes, and what does that mean in joules per
+solution once the unpriced column is filled [6]? Is the Landauer bill
+the cost of changing valuation level on the ultrametric tree — the
+erasure register moving between p-adic scales [5]? Is a p-adic entropy
+the correct entropy for non-Archimedean information systems, and does
+the Bruhat–Tits geometry of code spaces [9] carry the energy
+bookkeeping? And which observable separates the epistemic frames of
+section 5 — the field publishes no criterion, and the ignorance audit’s
+method [10] is the instrument for making that choice legible.</p>
+<h2 id="reproducibility">Reproducibility</h2>
+<p>Retrieval: SURFdrive share
+<code>https://surfdrive.surf.nl/s/8ASHtZ679ycskes</code> (password in
+the organizers’ email of 2026-08-25), public WebDAV at
+<code>/public.php/webdav</code>, fetched 2026-08-26. Local copies and
+the full slide-to-quote map: <code>artifacts/cwi-slide-audit.md</code>.
+Verification (run 2026-08-26; CPython 3.12 + pypdf, no other
+dependencies; the seven decks are supplied via
+<code>--decks-dir</code>):
+<code>artifacts/verification/energy_scan.py</code> reproduces section
+3’s zero result — evidence
+<code>artifacts/verification/energy_scan.json</code> (zero energy-term
+occurrences across the seven extracted texts);
+<code>artifacts/verification/quote_trace.py</code> asserts every
+verbatim quote in sections 2–4 against its deck, slide by slide —
+evidence <code>artifacts/verification/quote_trace.json</code> (9/9
+fragments found; the truncation-ellipsis convention is documented in the
+script). Rendering gate (P7):
+<code>artifacts/verification/check_rendering.py &lt;paper.md&gt;</code>
+— odd-unescaped-dollar, currency-digit, frontmatter-duplication, U+FFFD,
+and reference-parity checks — PASS at publish time. Build:
+<code>pandoc &lt;paper&gt;.md -s</code> → inject
+<code>@page { size: A4; margin: 22mm 20mm; }</code> → Edge headless
+<code>--print-to-pdf</code>; geometry gate: A4 MediaBox, 0 U+FFFD in the
+decompressed text stream. The decks remain with the organizers; the
+scripts run on the seven PDFs as retrieved 2026-08-26.</p>
+<h2 id="references">References</h2>
+<p>[1] CWI, “Summer school on Quantum Algorithms and QEC — shared slide
+decks (Leverrier, Nayak),” SURFdrive share,
+https://surfdrive.surf.nl/s/8ASHtZ679ycskes, retrieved 2026-08-26. [2]
+Paul Webster et al., “The Pinnacle Architecture: Reducing the cost of
+breaking RSA-2048 to 100 000 physical qubits using quantum LDPC codes,”
+arXiv:2602.11457 (2026). [3] Madelyn Cain et al., “Shor’s algorithm is
+possible with as few as 10,000 reconfigurable atomic qubits,”
+arXiv:2603.28627 (2026). [4] Rowan Brad Quni-Gudzinas, “Error Correction
+Is a Landauer Machine: The Thermodynamic Floor of Quantum
+Error-Correction Overhead,” v1.6,
+https://doi.org/10.5281/zenodo.22115862 (2026). [5] Rowan Brad
+Quni-Gudzinas, “Thermodynamic and Informational Bottlenecks of Scalable
+Fault-Tolerant Quantum Computation,”
+https://doi.org/10.5281/zenodo.17955898 (2025). [6] Rowan Brad
+Quni-Gudzinas, “The Joules-per-Solution Metric: Definition, Measurement
+Protocol, and Anti-Gaming Provisions for Honest Computational
+Benchmarking,” https://doi.org/10.5281/zenodo.21637028 (2026). [7] Rowan
+Brad Quni-Gudzinas, “Epistemic Legibility in AI-Assisted Science:
+Ignorance Auditing as a Governance Instrument for the Peer-Review and
+Evaluation Bottleneck,” https://doi.org/10.5281/zenodo.22026592 (2026).
+[8] Rowan Brad Quni-Gudzinas, “The Vast World of Quantum Advantage — A
+Full-Spectrum Audit,” https://doi.org/10.5281/zenodo.21440671 (2026).
+[9] Rowan Brad Quni-Gudzinas, “Archimedean Shadows: The QEC-Darwinism
+Tradeoff in Ultrametric Spaces,” https://doi.org/10.5281/zenodo.21964674
+(2026). [10] Rowan Brad Quni-Gudzinas, “The Universal Ignorance Audit: A
+Fifteen-Question Method for Systematic Inquiry into the Structure of
+Not-Knowing,” https://doi.org/10.5281/zenodo.21901984 (2026).</p>
+</body>
+</html>
