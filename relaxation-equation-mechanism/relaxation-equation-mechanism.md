@@ -3,9 +3,9 @@ title: "A Pre-Registered Falsification of Deterministic Measurement-Triggered Re
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-20"
 license: "CC BY-NC-SA 4.0"
-doi: "PENDING-ZENODO"
+doi: "10.5281/zenodo.22144215"
 version: "1.1"
-status: "draft"
+status: "published"
 ---
 
 ## Abstract
