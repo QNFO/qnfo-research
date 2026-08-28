@@ -4,6 +4,7 @@ author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-20"
 license: "CC BY-NC-SA 4.0"
 doi: "PENDING-ZENODO"
+version: "1.1"
 status: "draft"
 ---
 
@@ -32,6 +33,8 @@ with the relaxation term $L$ active only during the measurement window:
 - **Variant A** drives the transverse Bloch components to zero while preserving $z$ exactly: $L(\rho) = -\frac{1}{2}(x\,\sigma_x + y\,\sigma_y)$. This is the pure eigenbasis-attraction proposal, with the outcome determined by the preserved $z$.
 - **Variant B** adds a generic dissipative coupling that perturbs $z$: the $z$-equation gains a term $-\alpha (x^2 + y^2) z$, representing apparatus back-reaction. The parameter $\alpha$ controls the strength of the perturbation.
 - **Variant C** implements radial-basis basins: the relaxation drives the state toward a target $z$-value that is a fixed function of the pre-relaxation state, with no per-shot adaptive weights.
+
+These three candidate equations are reconstructions authored for this test. They are not quoted from, and are not attributed to, the geometric or measure-theoretic reconstructions of the hydrodynamic picture (Reddiger 2017; Reddiger and Poirier 2023), which specify no measurement-triggered relaxation equation; the phrase "the strongest available form of that proposal" in the abstract refers to this authorial reconstruction, not to an equation stated in the reconstruction literature.
 
 The test set comprised nine canonical Bloch states (the $\pm x$, $\pm y$, $\pm z$ poles and three equal-weight superpositions) plus fifty uniformly random states, for fifty-nine states in total. Each state was sampled $10^5$ times. The pre-registered tolerance was $\varepsilon = 10^{-2}$ on the maximum absolute deviation between measured and Born probabilities over the full test set. The parameter ranges were fixed: $\gamma \tau_m \in \{0.5, 5, 50\}$ for the rate–duration product, and $\alpha \tau_m \in \{0.01, 0.1, 1.0\}$ for the coupling.
 
@@ -67,7 +70,7 @@ The stochastic program — dynamical reduction models, continuous spontaneous lo
 
 The hidden-measurement program resolves the measurement problem by treating measurement interactions as involving hidden variables whose statistics reproduce the Born rule; it is contextual (ingredient 3). It is likewise outside the deterministic family tested here.
 
-The geometric and measure-theoretic reconstructions of the hydrodynamic picture — the work on the Madelung equations and on probability-based quantum theory — are kinematical in the relevant sense: they rigorously define random variables within an externally supplied unitary dynamics, and they address the projection postulate through conditional probabilities rather than through a relaxation mechanism. The present result is consistent with that literature: it falsifies a mechanism that the reconstruction literature never supplied.
+The geometric and measure-theoretic reconstructions of the hydrodynamic picture — the work on the Madelung equations and on probability-based quantum theory — are kinematical in the relevant sense: they rigorously define random variables within an externally supplied unitary dynamics, and they address the projection postulate through conditional probabilities rather than through a relaxation mechanism. The present result is consistent with that literature: it falsifies a mechanism that the reconstruction literature never supplied. The author has confirmed in correspondence with M. Reddiger (26 August 2026) that the candidate equations of Section 2 appear nowhere in that published work; the measurement question raised here is treated in the forthcoming Part III of the reconstruction program.
 
 The empirical anchor for strong-field hydrodynamic trajectories — quantitative reproduction of high-harmonic spectra by Bohmian trajectories — is not affected by this result. That work demonstrates the predictive power of trajectory ensembles within the unitary dynamics; it does not provide a measurement-triggered relaxation producing the Born rule, which is the claim tested here.
 
@@ -108,7 +111,13 @@ A pre-registered simulation tested whether deterministic measurement-triggered r
 
 **License:** CC BY-NC-SA 4.0.
 
-**Version:** 1.0 (first published version).
+**Acknowledgements:** The author thanks Dr. Maik Reddiger for a clarifying correspondence (26 August 2026) confirming that the candidate relaxation equations of Section 2 do not appear in his published work with B. Poirier, and for noting that the measurement question is addressed in the forthcoming Part III of the reconstruction program.
+
+**Version:** 1.1 (this version).
+
+**Changelog:**
+- **v1.1 (2026-08-28)** — attribution clarification. Added an explicit statement in Sections 2 and 5 that the three candidate relaxation equations are the author's own reconstructions and are not quoted from Reddiger & Poirier (2023) or Reddiger (2017); added an acknowledgement of the clarifying correspondence with M. Reddiger (26 August 2026). No scientific result, equation, data, or conclusion was changed.
+- **v1.0 (2026-08-20)** — first published version.
 
 ## References
 

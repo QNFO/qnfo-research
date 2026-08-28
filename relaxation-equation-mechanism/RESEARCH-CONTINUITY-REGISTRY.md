@@ -58,5 +58,13 @@
 |:-----|:--------|:-------|
 | 2026-08-19 | TLJWSUQav9HeprbIXtVqT | Phase 0–3 (init, UIA, due diligence, kill-question, literature, citations) |
 | 2026-08-19/20 | TLJWSUQav9HeprbIXtVqT | Phase 4 sealed (rev.1→rev.2→rev.3 with 2 documented pre-results amendments) + Phase 4b verdict: **CC-1 DISCONFIRMED** (d53ba49) |
+| 2026-08-28 | (this session) | v1.1 attribution clarification from M. Reddiger correspondence (26 Aug) — see §8 |
+
+## 8. ERRATA & CHANGELOG
+
+| Version | Date | Change | Source |
+|:--------|:-----|:-------|:-------|
+| v1.1 | 2026-08-28 | Added explicit attribution clarification (§2, §5): the three candidate relaxation equations are the author's own reconstructions, not quoted from Reddiger & Poirier (2023) / Reddiger (2017); added acknowledgement. No scientific result changed. | **Personal correspondence, Dr. Maik Reddiger (Hochschule Anhalt), 26 Aug 2026** — email "AW: [EXT] The Madelung picture and a falsifiable measurement test (Zenodo 10.5281/zenodo.22026562)": "The basic dynamical equation in Sec. 2 is nowhere mentioned or referred to in our work." |
+| v1.0 | 2026-08-20 | First published version (DOI 10.5281/zenodo.22026562). | — |
 
 **MAINTENANCE PROTOCOL:** update FQ/prediction/register status at every version bump; cross-ref companion DOIs when published; keep living (repo unarchived).
