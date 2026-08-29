@@ -1,0 +1,62 @@
+[
+  {
+    "step": "living-paper INSERT papers",
+    "ok": true,
+    "detail": "meta={'served_by': 'v3-prod', 'served_by_region': 'ENAM', 'served_by_colo': 'IAD', 'served_by_primary': True, 'timings': {'sql_duration_ms': 2.0728}, 'duration': 2.0728, 'changes': 3, 'last_row_id': 2007, 'changed_db': T"
+  },
+  {
+    "step": "living-paper UPDATE ultrametric-foundation DOI",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "step": "KG INSERT paper node",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "step": "KG INSERT project node",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "step": "KG INSERT BELONGS_TO edge",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "step": "KG UPDATE RES.027 node DOI (I-1)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "step": "R2 PUT arithmetic-quantum-thermodynamics.md",
+    "ok": true,
+    "detail": "21993 bytes"
+  },
+  {
+    "step": "R2 PUT arithmetic-quantum-thermodynamics.html",
+    "ok": true,
+    "detail": "2316102 bytes"
+  },
+  {
+    "step": "R2 PUT arithmetic-quantum-thermodynamics.pdf",
+    "ok": true,
+    "detail": "517433 bytes"
+  },
+  {
+    "step": "R2 PUT references.bib",
+    "ok": true,
+    "detail": "5420 bytes"
+  },
+  {
+    "step": "R2 PUT LICENSE",
+    "ok": true,
+    "detail": "18657 bytes"
+  },
+  {
+    "step": "R2 PUT README-DEPOSIT.md",
+    "ok": true,
+    "detail": "1725 bytes"
+  }
+]

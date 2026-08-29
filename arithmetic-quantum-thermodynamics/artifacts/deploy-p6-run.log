@@ -1,0 +1,13 @@
+OK  living-paper INSERT papers :: meta={'served_by': 'v3-prod', 'served_by_region': 'ENAM', 'served_by_colo': 'IAD', 'served_by_primary': True, 'timings': {'sql_duration_ms': 2.0728}, 'duration': 2.0728, 'changes': 3, 'last_row_id': 2007, 'changed_db': T
+OK  living-paper UPDATE ultrametric-foundation DOI
+OK  KG INSERT paper node
+OK  KG INSERT project node
+OK  KG INSERT BELONGS_TO edge
+OK  KG UPDATE RES.027 node DOI (I-1)
+OK  R2 PUT arithmetic-quantum-thermodynamics.md :: 21993 bytes
+OK  R2 PUT arithmetic-quantum-thermodynamics.html :: 2316102 bytes
+OK  R2 PUT arithmetic-quantum-thermodynamics.pdf :: 517433 bytes
+OK  R2 PUT references.bib :: 5420 bytes
+OK  R2 PUT LICENSE :: 18657 bytes
+OK  R2 PUT README-DEPOSIT.md :: 1725 bytes
+EVIDENCE saved; 12 of 12 steps OK
