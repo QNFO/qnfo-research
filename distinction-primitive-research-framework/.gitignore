@@ -4,3 +4,10 @@ __pycache__/
 *.npy
 *.npz
 .DS_Store
+
+# transient build/deposit outputs (not committed)
+deposit-run.txt
+build-html.txt
+build-pdf.txt
+r2-mirror.txt
+artifacts/verification/layout-check/

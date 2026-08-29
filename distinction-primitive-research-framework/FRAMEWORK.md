@@ -163,10 +163,8 @@ with the fields below added.
 
 **Consistency checks (mechanical):**
 
-- `map_territory = territory` without `protocol` → **G2 violation**, demote to `bridge`.
-- `bridge` without `protocol`, `null_model`, `falsifier` → **G2 violation**, demote to `map`.
-- `territory` or `bridge` missing only `null_model` or only `falsifier` → demote one rung (P0.1 R9).
-- `ontic` without G2 triple → **G1 violation**, demote to `heuristic`; if a G2 violation also fires, both demotions apply and the lower class wins (P0.1 R9).
+- `map_territory ∈ {bridge, territory}` missing any mandatory item (`protocol`, `null_model`, `falsifier`) → **G2 violation**: demote one rung per missing item (`territory` → `bridge` → `map`, floor `map`).
+- `ontic` without G2 triple → **G1 violation**, demote to `heuristic`; dual G1+G2 violations → both demotions apply, the lower status wins (P5 ver-suite refinement of P0.1 R9; the two-items-missing gap was surfaced by artifacts/verification/verify-framework.py exhaustion).
 - `level` absent → **R1 violation**, claim unregistered.
 
 ---

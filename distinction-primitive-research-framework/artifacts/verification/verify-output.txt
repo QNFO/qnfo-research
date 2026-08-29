@@ -1,0 +1,13 @@
+PASS Z_Bose=zeta(2) rel err 4.61e-06
+PASS Z_Fermi=zeta(2)/zeta(4) rel err 4.61e-06
+PASS Z_Bose=zeta(3) rel err 1.20e-10
+PASS Z_Fermi=zeta(3)/zeta(6) rel err 1.20e-10
+PASS Z_Bose=zeta(4) rel err 1.44e-14
+PASS Z_Fermi=zeta(4)/zeta(8) rel err 4.18e-14
+PASS ultrametric triangle (2000 trees x 40 triples) 
+PASS demotion rules total + terminating over all 72 claim states 
+PASS nine levels, distinct names 
+PASS nine construction operations, distinct 
+PASS every lineage record assigns to >= 1 level 
+
+11 passed, 0 failed
