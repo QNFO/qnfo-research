@@ -1,0 +1,19 @@
+NEWVERSION-DRAFT 22160404 DOI 10.5281/zenodo.22160404
+FRONTMATTER patched: 10.5281/zenodo.22160404
+BUILDPDF-RC: 0
+tion-primitive-research-framework\distinction-primitive-research-framework.pdf 175.9 KB, math=18
+GATE: PASS >=100KB
+
+VERIFY: size=180077 U+FFFD=0 U+FFFF=0
+MARGIN-STATIC: PASS - static margins OK (t=2cm b=2cm l=2cm r=2cm)
+HEADER-FOOTER: PASS - displayHeaderFooter:false explicit (no browser header/footer)
+MARGIN-DYNAMIC: PASS - dynamic margins OK (A4 596x842pt; insets L=56 B=786 T=56pt)
+BUILD: PASS
+
+REBUILT ok
+METADATA v0.2 ok
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\qnfo\qnfo-research\distinction-primitive-research-framework\artifacts\verification\newversion-framework.py", line 133, in <module>
+    print("delete warn", f["key"], r.status_code)
+                         ~^^^^^^^
+KeyError: 'key'

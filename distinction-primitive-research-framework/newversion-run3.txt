@@ -1,0 +1,8 @@
+bucket: https://zenodo.org/api/files/5409a59a-bcdd-4766-b840-24add978ea13
+UPLOADED 29 via bucket PUT
+draft files: 30 -> ['FRAMEWORK.md', 'f1-sweep-README.md', 'level-legend.md', 'f1-sweep-01-ump014.md', 'gitignore'] ...
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\qnfo\qnfo-research\distinction-primitive-research-framework\artifacts\verification\resume-upload.py", line 85, in <module>
+    assert len(draft.get("files", [])) == len(FILES), "file count mismatch"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: file count mismatch

@@ -1,0 +1,20 @@
+RESUME draft 22160404 DOI 10.5281/zenodo.22160404
+BUILDPDF-RC: 0
+tion-primitive-research-framework\distinction-primitive-research-framework.pdf 175.9 KB, math=18
+GATE: PASS >=100KB
+
+VERIFY: size=180077 U+FFFD=0 U+FFFF=0
+MARGIN-STATIC: PASS - static margins OK (t=2cm b=2cm l=2cm r=2cm)
+HEADER-FOOTER: PASS - displayHeaderFooter:false explicit (no browser header/footer)
+MARGIN-DYNAMIC: PASS - dynamic margins OK (A4 596x842pt; insets L=56 B=786 T=56pt)
+BUILD: PASS
+
+REBUILT ok
+METADATA v0.2 ok
+carried files deleted: 15
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\qnfo\qnfo-research\distinction-primitive-research-framework\artifacts\verification\newversion-framework.py", line 155, in <module>
+    r.raise_for_status()
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: BAD REQUEST for url: https://zenodo.org/api/deposit/depositions/22160404/files
