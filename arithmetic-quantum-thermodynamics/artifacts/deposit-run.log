@@ -1,0 +1,30 @@
+DEPOSIT: id=22159758 conceptrecid=22159757
+README-DEPOSIT.md written with concept DOI
+  uploaded: arithmetic-quantum-thermodynamics.md
+  uploaded: arithmetic-quantum-thermodynamics.html
+  uploaded: arithmetic-quantum-thermodynamics.pdf
+  uploaded: references.bib
+  uploaded: PROJECT-PLAN.md
+  uploaded: LICENSE
+  uploaded: LICENSE-CC-BY-4.0.txt
+  uploaded: docs_corrected-dictionary.md
+  uploaded: docs_literature-triage-2026-08-29.md
+  uploaded: docs_due-diligence-2026-08-29.md
+  uploaded: docs_uia-15q-res031.md
+  uploaded: docs_uia-15q-res031-p4-reaudit.md
+  uploaded: docs_deep-research-2026-08-29.md
+  uploaded: docs_dataset-acquisition-2026-08-29.md
+  uploaded: artifacts_verification_verify-dictionary-p2.py
+  uploaded: artifacts_verification_verify-dictionary-p2-output.txt
+  uploaded: artifacts_verification_verify-suite-p3.py
+  uploaded: artifacts_verification_verify-suite-p3-output.txt
+  uploaded: artifacts_verification_check_rendering.py
+  uploaded: artifacts_verification_gammas-120.npy
+  uploaded: artifacts_external-datasets_riemann-zeros-3000.npy
+  uploaded: artifacts_external-datasets_riemann-zeros-3000-provenance.json
+  uploaded: artifacts_external-search_external-verification-2026-08-29.json
+  uploaded: artifacts_external-search_corpus-sweep-2026-08-29.json
+  uploaded: README-DEPOSIT.md
+META readback: license = cc-by-4.0 | keywords = 10 | related = 9
+RESULT: {"deposit_id": 22159758, "conceptrecid": "22159757", "doi": "10.5281/zenodo.22159758", "concept_doi": "10.5281/zenodo.22159757", "files": 25}
+saved: C:\Users\LENOVO\Documents\GitHub\qnfo-research\arithmetic-quantum-thermodynamics\artifacts\deposit-result.json
