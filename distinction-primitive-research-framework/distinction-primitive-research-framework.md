@@ -5,12 +5,8 @@ date: "2026-08-29"
 doi: "10.5281/zenodo.22159888"
 license: "CC BY 4.0"
 status: "published"
-version: "0.1"
+version: "0.2"
 ---
-
-# Distinction, Number, and the Empirical Filter: The Pre-Arithmetic Research Framework
-
-**Rowan Brad Quni-Gudzinas** · QNFO · 2026-08-29 · Version 0.1
 
 ## Abstract
 
@@ -27,16 +23,15 @@ primitive, and a rule that no mathematical isomorphism passes as a physical real
 without a stated measurement protocol, a null model, and a falsification condition; and it
 defines a compact claim record that any research claim can carry, together with mechanical
 demotion rules for claims that violate the boundary rules. The framework makes no empirical
-claims of its own. It systematizes discipline that is currently distributed across six
-published records of the QNFO program [@umporr014; @res021; @res027; @res028; @res029; @res030] and
-one consolidation record in preparation, and it states the one claim it does make — that the
+claims of its own. It systematizes discipline that is currently distributed across seven
+published records of the QNFO program [@umporr014; @res021; @res027; @res028; @res029; @res030; @res031], and it states the one claim it does make — that the
 ladder covers the published lineage without remainder — together with a falsification
 protocol, so the framework itself can be checked the way it asks everything else to be
 checked.
 
 ## 1. Introduction and scope
 
-The arithmetic-statistics program at QNFO has published, over 2026, a sequence of records
+The arithmetic-statistics program at QNFO has published, during 2026, a sequence of records
 connecting number-theoretic structure to statistical mechanics. A gas whose modes are
 indexed by primes, with logarithmic single-particle energies, has partition functions that
 are exactly zeta objects: unrestricted occupation reproduces the Riemann zeta function, and
@@ -194,7 +189,7 @@ further than map. An ontic commitment without the full triple is demoted to heur
 Where two violations apply to one claim, both demotions apply and the lower status wins.
 The rules are total: every claim state has exactly one outcome and every demotion
 terminates, which makes the record's integrity checkable by machine — a property the
-deposited verification suite exercises by exhaustion.
+deposited verification suite exercises exhaustively.
 
 ## 4. Relationship to the published records
 
@@ -205,15 +200,17 @@ giving its double-argument ratio — is established in [@res027] and extended to
 occupation in [@res028]. The consolidated map and its practitioner-facing reading are given
 in [@res029]. The computational adjudication of the arithmetic cut against matched-density
 nulls, including the location of the arithmetic information in two-point statistics, is
-given in [@res030]. A companion consolidation record, in preparation, audits the
+given in [@res030]. The companion consolidation record [@res031] audits the
 dictionary and its five-level interpretive ladder at paper level; the present framework
 generalizes that ladder to the nine levels above, which re-partition its upper half rather
 than extending it, and the two records are kept consistent on that point.
 
 The framework's level assignments to the published lineage are stated in the accompanying
-source archive. Two assignments — the measurement-level reading of [@res029] and the span
-assigned to [@res021] — are provisional and flagged as such; they are the first
-items adjudicated by the verification protocol below.
+source archive. Two assignments that the first version flagged as provisional — the measurement-level
+reading of [@res029] and the span assigned to [@res021] — have been adjudicated: the
+measurement-level reading was withdrawn in favor of an operational reading, and the span
+is stated with its declared bridges. The adjudications, with per-record evidence,
+accompany this version.
 
 ## 5. Verification
 
@@ -237,3 +234,5 @@ third rule type is needed. Both failure modes are specified in advance, the leve
 assignments are listed record by record in the source archive, and the provisional
 assignments are named above. The framework asks of itself only what it asks of every claim
 that passes through it.
+
+## References

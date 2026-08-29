@@ -1,0 +1,20 @@
+CITEPROC: references.bib found — citations + bibliography enabled
+PANDOC-RC: 0
+INLINE-RC: 0
+MATHJAX-SOURCE: C:\Users\LENOVO\.deepchat\cdp-pipeline\mathjax\tex-svg-full.js
+MATHJAX-LEN: 2275113
+STEP3: switched CHTML -> SVG
+STEP4: inlined MathJax via str.replace
+INLINE-OK: 2300324 bytes
+
+RENDER-RC: 0
+CHROME-EXE: C:\Users\LENOVO/.cache/puppeteer/chrome/chrome-win64/chrome.exe
+MATH-COUNT: 18
+PDF-OK: C:\Users\LENOVO\qnfo\qnfo-research\distinction-primitive-research-framework\distinction-primitive-research-framework.pdf 175.9 KB, math=18
+GATE: PASS >=100KB
+
+VERIFY: size=180077 U+FFFD=0 U+FFFF=0
+MARGIN-STATIC: PASS - static margins OK (t=2cm b=2cm l=2cm r=2cm)
+HEADER-FOOTER: PASS - displayHeaderFooter:false explicit (no browser header/footer)
+MARGIN-DYNAMIC: PASS - dynamic margins OK (A4 596x842pt; insets L=56 B=786 T=56pt)
+BUILD: PASS

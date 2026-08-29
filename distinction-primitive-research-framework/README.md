@@ -1,7 +1,7 @@
 # Distinction-Primitive Research Framework (DPRF)
 
 - **WBS:** QNFO.RES.032 · **Slug:** distinction-primitive-research-framework
-- **Version:** v0.1 · **Phase:** P0 · **Date:** 2026-08-29
+- **Version:** v0.2 · **Phase:** P6 · **Date:** 2026-08-29
 - **Repo:** QNFO/qnfo-research · **Branch:** res/paper/distinction-primitive-research-framework
 
 ## What this is
@@ -39,11 +39,11 @@ A cross-program methodological scaffold for QNFO research. It fixes:
 ## Relation to sibling records
 
 The seed note's treatise content (primon dictionary, correction ledger, five-level L0–L4) is
-consolidated at paper level by **QNFO.RES.031**. The DPRF generalizes the ladder and boundary rules
+consolidated at paper level by **QNFO.RES.031** (10.5281/zenodo.22159758). The DPRF generalizes the ladder and boundary rules
 into the cross-program scaffold; it does not duplicate RES.031 and makes no empirical claims.
 
-## How to cite (pre-publication)
+## How to cite
 
 QNFO.RES.032, Distinction-Primitive Research Framework (DPRF), v0.1, 2026-08-29,
 QNFO/qnfo-research, branch res/paper/distinction-primitive-research-framework.
-A Zenodo DOI will be assigned at P5.
+Zenodo concept DOI 10.5281/zenodo.22159887 (record DOI 10.5281/zenodo.22159888), CC BY 4.0.
