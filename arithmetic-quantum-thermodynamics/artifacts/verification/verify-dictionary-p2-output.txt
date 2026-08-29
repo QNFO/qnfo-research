@@ -1,0 +1,23 @@
+[PASS] Z_Bose = zeta(2) (raw, tol 1e-7): got=1.6449339553686277 want=1.6449340668482264 tol=1e-07
+[PASS] ln Z_Bose = ln zeta(2) - tail (tail-corrected): got=0.49770030260092746 want=0.4977003024707453 tol=1e-09
+[PASS] Z_Fermi = zeta(2)/zeta(4) (raw, tol 1e-7): got=1.5198176516284012 want=1.5198177546350669 tol=1e-07
+[PASS] ln Z_Fermi = ln(zeta2/zeta4) - tail (tail-corrected): got=0.41859042952939196 want=0.4185904294034099 tol=1e-09
+[PASS] ln Z_MB = P(2) (raw, tol 1e-7): got=0.45224735226537194 want=0.4522474200410655 tol=1e-07
+[PASS] ln Z_MB = P(2) - tail (tail-corrected): got=0.4522474201670257 want=0.4522474200410655 tol=1e-09
+[PASS] unification: ln Z_Bose = sum P(2k)/k: got=0.497700234695054 want=0.4977002346992737 tol=1e-09
+[PASS] unification: ln Z_Fermi = sum (-1)^(k+1) P(2k)/k: got=0.41859036162771834 want=0.4185903616277382 tol=1e-09
+[PASS] Gentile m=1 -> Fermi (tol 1e-9, float round-off aware): got=1.5198176516348307 want=1.5198176516284012 tol=1e-09
+[PASS] Gentile m=40 -> Bose (approx): got=1.6449339553686277 want=1.6449339553686277 tol=1e-12
+[PASS] C_V = -beta^2 dU/dbeta (finite-diff): got=3.53786807303845 want=3.5378680731668055 tol=1e-06
+[PASS] C_V != +dU/dbeta (draft error reproduced as mismatch): got=True want=True tol=0
+[PASS] S = ln Z + beta U: got=1.6376202208237065 want=1.637620220827929 tol=1e-09
+[PASS] analytic anchor beta^2/(beta-1)^2: got=312.1111111111106 want=312.111111 tol=1e-05
+[PASS] exact total C_V(1.06) ~ 311.9 (parent-verified): got=311.9084477290637 want=311.9 tol=0.5
+[PASS] legacy 316.3 is NOT the exact value: got=True want=True tol=0
+[PASS] twin-gap: min gap = 2 for primes >= 3: got=2 want=2 tol=0
+[INFO] primes in [3,1000): min gap = 2, mean gap = 5.99, min unfolded spacing = 0.3340
+[INFO] first bin [0, 0.1670) contains zero spacings by construction (bin width < min unfolded spacing)
+[PASS] fugacity Z_mu = prod (1 - z p^-beta)^-1 = sum z^Omega(n) n^-beta (same cutoff): got=1.2668446773624036 want=1.266844224434266 tol=1e-06
+[INFO] Z_mu is the z-weighted generating function — NOT an L-function (no character twist)
+
+SUMMARY: 18/18 checks passed
