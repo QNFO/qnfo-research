@@ -35,34 +35,40 @@ normalization by in-range histogram count (bias 1/f_k near the window edge)
   known P(2) = 0.45224742 (tail ≈ 1.4×10⁻⁶). The chats' "ln Z_MB → Li(e^{−β})"
   is false; the object is the prime zeta function.
 
-## 3. D-1: the published Dyson anomaly, adjudicated
+## 3. D-1: the published Dyson anomaly, adjudicated (exact-theory reference)
 
-Measured number variance of the first 3000 zeros vs the full Dyson formula at
-the SAME L (windows stated):
+Measured number variance of the first 3000 zeros vs BOTH the full Dyson
+asymptotic AND the exact two-point reduction Σ²(L) = L − 2∫₀^L(L−s)(sinπs/πs)²ds
+(evaluated numerically at the same L; windows stated):
 
-| L | measured Σ² | Dyson | ratio | windows |
-|---|---|---|---|---|
-| 5 | 0.690 | 0.384 | 1.80 | 607 |
-| 10 | 0.681 | 0.454 | 1.50 | 303 |
-| 15 | 0.893 | 0.495 | 1.80 | 202 |
-| 20 | **1.206** | **0.525** | **2.30** | 151 |
-| 25 | 1.207 | 0.547 | 2.21 | 121 |
-| 30 | 1.192 | 0.566 | 2.11 | 101 |
-| 50 | 2.078 | 0.617 | 3.37 | 60 |
-| 100 | 3.247 | 0.688 | 4.72 | 30 |
-| 500 | 10.967 | 0.851 | 12.89 | 6 |
-| 3400 | — (0 windows) | **1.0449** | — | 0 |
+| L | measured Σ² | Dyson asymptotic | exact theory | measured/exact | windows |
+|---|---|---|---|---|---|
+| 5 | 0.690 | 0.384 | 0.509 | 1.35 | 607 |
+| 10 | 0.681 | 0.454 | 0.579 | 1.18 | 303 |
+| 15 | 0.893 | 0.495 | 0.620 | 1.44 | 202 |
+| 20 | **1.206** | 0.525 | **0.650** | **1.86** | 151 |
+| 25 | 1.207 | 0.547 | 0.672 | 1.80 | 121 |
+| 30 | 1.192 | 0.566 | 0.691 | 1.73 | 101 |
+| 50 | 2.078 | 0.617 | 0.742 | 2.80 | 60 |
+| 3400 | — (0 windows) | **1.0449** | — | — | 0 |
 
-**D-1 verdict.** The published sentence "Dyson number variance 1.044 against
-the predicted 0.525" is invalid as a measured-vs-predicted pair: **Dyson(L=3400)
-= 1.0449 reproduces the published "measured 1.044" to four digits**, while
-0.525 = Dyson(L=20) — the pair mixes two windows. At the low height of the
-first 3000 zeros the empirical Σ² exceeds the asymptotic formula (ratio
-1.5–2.3 at L=5–30), by the S(t) unfolding residual at low height plus the
-finite-N positive correction; the GUE control shows the same direction of
-elevation (1.39–1.51 at n=800), so the elevation is not arithmetic content.
-Any reuse of the published number must state L, the unfolding, and the
-height-dependent caveat.
+Two independent findings, both from executed computation:
+
+1. **The Dyson asymptotic mis-fits by 20–33% at L ≤ 50** (it converges from
+   below). The GUE control matches the EXACT reduction within 8–13% at
+   n = 800–2000, and the estimator passes the uniform-grid (Σ² = 0.0 exact)
+   and exact-Poisson (10.63 vs 10.0) sanity checks — so the estimator is
+   validated against exact theory, and any use of the Dyson formula at
+   L ≤ 50 without the exact-theory correction is a wrong reference.
+2. **The published sentence "Dyson number variance 1.044 against the predicted
+   0.525" is doubly invalid**: (a) it mixes windows — Dyson(L=3400) = 1.0449
+   reproduces the published "measured 1.044" to four digits, while
+   0.525 = Dyson(L=20); (b) even at a single L the asymptotic reference is
+   ~24% below the exact theory at L=20 (0.6495). After correcting the
+   baseline, the zeros' measured values still exceed the exact theory by
+   1.2–2.8×, growing with L — the low-height S(t) unfolding residual,
+   isolated from the baseline error. Any reuse of the published number must
+   state L, the unfolding, the exact-theory reference, and the height.
 
 ## 4. D-4: the Bost–Connes observable is a crossover, not a rounding
 
@@ -121,6 +127,13 @@ fired exactly as designed.
 **D3 — DELIVERED.** Threshold table above; minimal cutoff for 2σ C_V
 separation: P_max ≈ 2⁸ (vs N2), ≈ 2¹² (vs N3); hard-core mass test separates
 at P_max = 2¹⁶ with 34σ (lower-threshold scan is a P4 extension).
+
+**Null-overlap cross-check (P4).** The deterministic smooth null N1 is judged
+against BOTH stochastic nulls' self-distributions (Bose): z_N1-vs-N2 =
+5.04 / 26.32 / 86.83 and z_N1-vs-N3 = −0.31 / 4.04 / 21.12 at P_max =
+2⁸ / 2¹² / 2¹⁶. At the smallest cutoff the three null families overlap (shared
+mean density), as they must; separation grows with P_max. Reporting rule:
+every N1 significance is stated against both stochastic families.
 
 ## 7. Reproducibility
 
