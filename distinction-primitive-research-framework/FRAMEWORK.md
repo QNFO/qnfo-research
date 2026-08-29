@@ -63,7 +63,9 @@ content belongs to the records it cites (RES.030's D1/D2/D3 results, UMP.014's H
 ### 1.1 Structural rules
 
 - **R1 (declared level).** Every claim, hypothesis, model, or data interpretation declares its
-  level or its span of levels. A claim that cannot state its level is not yet a claim.
+  level or its span of levels. A claim that cannot state its level is not yet a claim. Intent
+  markers ("D8-adjacent", "D7-oriented") are charter statements, not levels — a tag that is not
+  a level is itself an R1 violation (P1 sweep GAP-2; canonical: RES.021).
 - **R2 (default within-level).** Work within a level is the default and needs no justification.
   Cross-level moves need a declared **bridge**.
 - **R3 (no skipping).** A move from level X to level Y > X is valid only if every intermediate

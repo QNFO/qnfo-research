@@ -1,0 +1,419 @@
+{
+  "korzybski-map-territory": {
+    "query": "map is not the territory Korzybski Science and Sanity",
+    "openalex": [
+      {
+        "title": "Maps as social constructions: power, communication and visualization",
+        "year": 2001,
+        "doi": "https://doi.org/10.1191/030913201678580494",
+        "oa": true
+      },
+      {
+        "title": "Medical generalists: connecting the map and the territory",
+        "year": 2005,
+        "doi": "https://doi.org/10.1136/bmj.331.7530.1462",
+        "oa": true
+      },
+      {
+        "title": "Korzybski, Luhmann, and McLuhan",
+        "year": 2010,
+        "doi": null,
+        "oa": true
+      },
+      {
+        "title": "Science and sanity : A social epistemology of misinformation, disinformation, and the limits of knowledge",
+        "year": 2024,
+        "doi": "https://doi.org/10.1177/13634615241296301",
+        "oa": true
+      },
+      {
+        "title": "Virtual Communities for Professional Development: Helping Teachers Map the Territory in Landscapes Without Bearings",
+        "year": 2003,
+        "doi": "https://doi.org/10.55016/ojs/ajer.v49i1.54960",
+        "oa": true
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Science and Sanity.",
+        "doi": "10.2307/2179728",
+        "container": "The Philosophical Review"
+      },
+      {
+        "title": "Science and Sanity.",
+        "doi": "10.2307/2302864",
+        "container": "The American Mathematical Monthly"
+      },
+      {
+        "title": "Science and Sanity.",
+        "doi": "10.2307/2301434",
+        "container": "The American Mathematical Monthly"
+      },
+      {
+        "title": "Korzybski, Alfred. Science and Sanity. Lancaster, Pa.: The Science Press Printing Company, 1941. 761 p. $6.00",
+        "doi": "10.1002/sce.3730270145",
+        "container": "Science Education"
+      },
+      {
+        "title": "Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics.",
+        "doi": "10.2307/2085182",
+        "container": "American Sociological Review"
+      }
+    ],
+    "arxiv": []
+  },
+  "hartmann-levels-reality": {
+    "query": "levels of reality ontology Nicolai Hartmann emergence",
+    "openalex": [
+      {
+        "title": "Levels of reality and levels of representation",
+        "year": 2004,
+        "doi": null,
+        "oa": false
+      },
+      {
+        "title": "Three obstructions: forms of causation, chronotopoids, and levels of reality",
+        "year": 2007,
+        "doi": "https://doi.org/10.1007/s10516-007-9007-y",
+        "oa": true
+      },
+      {
+        "title": "On the emergence of American analytic philosophy",
+        "year": 2017,
+        "doi": "https://doi.org/10.1080/09608788.2016.1261794",
+        "oa": true
+      },
+      {
+        "title": "Chapter 4: Nicolai Hartmann: A Crucial Figure in German Philosophical Anthropology – Without Belonging to the Paradigm",
+        "year": 2011,
+        "doi": "https://doi.org/10.1515/9783110254181.73",
+        "oa": true
+      },
+      {
+        "title": "Nicolai Hartmann and the Transcendental Method",
+        "year": 2021,
+        "doi": "https://doi.org/10.12775/llp.2021.001",
+        "oa": true
+      }
+    ],
+    "crossref": [
+      {
+        "title": "5. From Linearity to Co-Evolution: On the Architecture of Nicolai Hartmann’s Levels of Reality",
+        "doi": "10.1515/9783110434378-006",
+        "container": "New Research on the Philosophy of Nicolai Hartmann"
+      },
+      {
+        "title": "Metaphysics as Ontology: Nicolai Hartmann",
+        "doi": "10.1163/9789004359871_016",
+        "container": "Metaphysics or Ontology?"
+      },
+      {
+        "title": "Vladimir Solovyov, Nicolai Hartmann, and Levels of Reality",
+        "doi": "10.1007/s10516-017-9328-4",
+        "container": "Axiomathes"
+      },
+      {
+        "title": "Chapter 13: Between Ontology and the Theory of Objects: Nicolai Hartmann and Hans Pichler",
+        "doi": "10.1515/9783110254181.253",
+        "container": "The Philosophy of Nicolai Hartmann"
+      },
+      {
+        "title": "Toward an Ontology of Consciousness with Nicolai Hartmann and Hans Jonas",
+        "doi": "10.7551/mitpress/7415.003.0022",
+        "container": "Ontology of Consciousness"
+      }
+    ],
+    "arxiv": []
+  },
+  "ontic-structural-realism": {
+    "query": "ontic structural realism Ladyman Ross Every Thing Must Go",
+    "openalex": [
+      {
+        "title": "The Modal Nature of Structures in Ontic Structural Realism",
+        "year": 2009,
+        "doi": "https://doi.org/10.1080/02698590903006917",
+        "oa": true
+      },
+      {
+        "title": "Ontic structural realism and the interpretation of quantum mechanics",
+        "year": 2012,
+        "doi": "https://doi.org/10.1007/s13194-012-0054-x",
+        "oa": true
+      },
+      {
+        "title": "Is There a Compelling Argument for Ontic Structural Realism?",
+        "year": 2011,
+        "doi": "https://doi.org/10.1086/662258",
+        "oa": true
+      },
+      {
+        "title": "Going local: a defense of methodological localism about scientific realism",
+        "year": 2016,
+        "doi": "https://doi.org/10.1007/s11229-016-1072-6",
+        "oa": true
+      },
+      {
+        "title": "The metaphysics of mechanisms: an ontic structural realist perspective",
+        "year": 2024,
+        "doi": "https://doi.org/10.1007/s11229-024-04684-y",
+        "oa": true
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Ontic Structural Realism and the Philosophy of Physics",
+        "doi": "10.1093/acprof:oso/9780199276196.003.0003",
+        "container": "Every Thing Must Go"
+      },
+      {
+        "title": "Scientific Realism, Constructive Empiricism, and Structuralism",
+        "doi": "10.1093/acprof:oso/9780199276196.003.0002",
+        "container": "Every Thing Must Go"
+      },
+      {
+        "title": "Rainforest Realism and the Unity of Science",
+        "doi": "10.1093/acprof:oso/9780199276196.003.0004",
+        "container": "Every Thing Must Go"
+      },
+      {
+        "title": "Causation in a Structural World",
+        "doi": "10.1093/acprof:oso/9780199276196.003.0005",
+        "container": "Every Thing Must Go"
+      },
+      {
+        "title": "Every Thing Must Go",
+        "doi": "10.1093/acprof:oso/9780199276196.001.0001",
+        "container": ""
+      }
+    ],
+    "arxiv": []
+  },
+  "julia-statistical-theory-numbers": {
+    "query": "Julia statistical theory of numbers Riemann gas 1990",
+    "openalex": [
+      {
+        "title": "H=xp with interaction and the Riemann zeros",
+        "year": 2007,
+        "doi": "https://doi.org/10.1016/j.nuclphysb.2007.03.049",
+        "oa": true
+      },
+      {
+        "title": "A lattice gas of prime numbers and the Riemann Hypothesis",
+        "year": 2013,
+        "doi": "https://doi.org/10.1016/j.physa.2013.05.049",
+        "oa": true
+      },
+      {
+        "title": "The Riemann zeros and the cyclic renormalization group",
+        "year": 2005,
+        "doi": "https://doi.org/10.1088/1742-5468/2005/12/p12006",
+        "oa": true
+      },
+      {
+        "title": "An essay on the Riemann Hypothesis",
+        "year": 2015,
+        "doi": "https://doi.org/10.48550/arxiv.1509.05576",
+        "oa": true
+      },
+      {
+        "title": "Transcendental equations satisfied by the individual zeros of Riemann $\\zeta$, Dirichlet and modular $L$-functions",
+        "year": 2015,
+        "doi": "https://doi.org/10.4310/cntp.2015.v9.n1.a1",
+        "oa": true
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Statistical Theory of Numbers",
+        "doi": "10.1007/978-3-642-75405-0_30",
+        "container": "Springer Proceedings in Physics"
+      },
+      {
+        "title": "Thermodynamic limit in number theory: Riemann-Beurling gases",
+        "doi": "10.1016/0378-4371(94)90008-6",
+        "container": "Physica A: Statistical Mechanics and its Applications"
+      },
+      {
+        "title": "A lattice gas of prime numbers and the Riemann Hypothesis",
+        "doi": "10.1016/j.physa.2013.05.049",
+        "container": "Physica A: Statistical Mechanics and its Applications"
+      },
+      {
+        "title": "Thermally developing flow of a radiating gas in a vertical channel",
+        "doi": "10.1080/00411459008260823",
+        "container": "Transport Theory and Statistical Physics"
+      },
+      {
+        "title": "Analytic Theory of Algebraic Numbers",
+        "doi": "10.1017/cbo9780511755132.018",
+        "container": "A Primer of Analytic Number Theory"
+      }
+    ],
+    "arxiv": []
+  },
+  "spector-supersymmetry-mobius": {
+    "query": "Spector supersymmetry Moebius function zeta 1990",
+    "openalex": [
+      {
+        "title": "There is entanglement in the primes",
+        "year": 2015,
+        "doi": "https://doi.org/10.26421/qic15.7-8-6",
+        "oa": true
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Supersymmetry and the Möbius inversion function",
+        "doi": "10.1007/bf02096755",
+        "container": "Communications in Mathematical Physics"
+      },
+      {
+        "title": "LIMIT THEOREMS FOR THE RIEMANN ZETA-FUNCTION IN THE COMPLEX SPACE",
+        "doi": "10.1515/9783112319024-006",
+        "container": "Vol. 2"
+      },
+      {
+        "title": "The Theory of the Selberg Zeta-Function",
+        "doi": "10.1007/978-94-009-1892-4_7",
+        "container": "Spectral Theory of Automorphic Functions and Its Applications"
+      },
+      {
+        "title": "The Differential Zeta Function for Axiom A Attractors",
+        "doi": "10.2307/1971495",
+        "container": "The Annals of Mathematics"
+      },
+      {
+        "title": "A theorem on the zeta-function of argument 4",
+        "doi": "10.1016/0370-2693(90)90074-g",
+        "container": "Physics Letters B"
+      }
+    ],
+    "arxiv": []
+  },
+  "bakas-bowick-arithmetic-gases": {
+    "query": "Bakas Bowick curiosities of arithmetic gases 1991",
+    "openalex": [
+      {
+        "title": "The conformal primon gas at the end of time",
+        "year": 2025,
+        "doi": "https://doi.org/10.1007/jhep07(2025)281",
+        "oa": true
+      },
+      {
+        "title": "Transcendental equations satisfied by the individual zeros of Riemann $\\zeta$, Dirichlet and modular $L$-functions",
+        "year": 2015,
+        "doi": "https://doi.org/10.4310/cntp.2015.v9.n1.a1",
+        "oa": true
+      },
+      {
+        "title": "Wheeler-DeWitt wavefunctions for 5d BKL dynamics, automorphic L-functions and complex primon gases",
+        "year": 2025,
+        "doi": "https://doi.org/10.1007/jhep11(2025)160",
+        "oa": true
+      },
+      {
+        "title": "There is entanglement in the primes",
+        "year": 2015,
+        "doi": "https://doi.org/10.26421/qic15.7-8-6",
+        "oa": true
+      },
+      {
+        "title": "Riemann Hypothesis as an Uncertainty Relation",
+        "year": 2013,
+        "doi": "https://doi.org/10.48550/arxiv.1304.2435",
+        "oa": true
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Curiosities of arithmetic gases",
+        "doi": "10.1063/1.529511",
+        "container": "Journal of Mathematical Physics"
+      },
+      {
+        "title": "QUANTUM STATISTICAL MECHANICS AND MULTIPLICATIVE NUMBER THEORY",
+        "doi": "10.1016/b978-0-444-88903-4.50032-9",
+        "container": "Thermal Field Theories"
+      },
+      {
+        "title": "Taylor Polynomials in a High Arithmetic Precision as Universal Approximators",
+        "doi": "10.3390/computation12030053",
+        "container": "Computation"
+      },
+      {
+        "title": "Essay 10. Five Curiosities from Arithmetic",
+        "doi": "10.5948/upo9780883859384.010",
+        "container": "Anneli Lax New Mathematical Library"
+      },
+      {
+        "title": "Arithmetic Curiosities",
+        "doi": "10.1142/9789811248580_0002",
+        "container": "Problem Solving in Mathematics and Beyond"
+      }
+    ],
+    "arxiv": []
+  },
+  "bost-connes-hecke": {
+    "query": "Bost Connes Hecke algebras type III phase transitions number theory 1995",
+    "openalex": [
+      {
+        "title": "On Bost–Connes type systems for number fields",
+        "year": 2008,
+        "doi": "https://doi.org/10.1016/j.jnt.2008.09.008",
+        "oa": true
+      },
+      {
+        "title": "Bost-Connes systems, Hecke algebras, and induction",
+        "year": 2013,
+        "doi": "https://doi.org/10.4171/jncg/125",
+        "oa": true
+      },
+      {
+        "title": "Semigroups of *-Endomorphisms, Dirichlet Series, and Phase Transitions",
+        "year": 1998,
+        "doi": "https://doi.org/10.1006/jfan.1997.3166",
+        "oa": true
+      },
+      {
+        "title": "Ergodicity of the action of the positive rationals on the group of finite adeles and the Bost-Connes phase transition theorem",
+        "year": 2002,
+        "doi": "https://doi.org/10.1090/s0002-9939-02-06449-3",
+        "oa": true
+      },
+      {
+        "title": "Bost–Connes systems, Hecke algebras, and induction",
+        "year": 2013,
+        "doi": "https://doi.org/10.4171/jncg/125",
+        "oa": true
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Hecke algebras, type III factors and phase transitions with spontaneous symmetry breaking in number theory",
+        "doi": "10.1007/bf01589495",
+        "container": "Selecta Mathematica"
+      },
+      {
+        "title": "Interactions between number theory and operator algebras in the study of the Riemann zeta function (d’après Bost-Connes and Connes)",
+        "doi": "10.1007/978-1-4419-9060-0_5",
+        "container": "Number Theory"
+      },
+      {
+        "title": "On Bost–Connes type systems for number fields",
+        "doi": "10.1016/j.jnt.2008.09.008",
+        "container": "Journal of Number Theory"
+      },
+      {
+        "title": "Bost–Connes systems, Hecke algebras, and induction",
+        "doi": "10.4171/jncg/125",
+        "container": "Journal of Noncommutative Geometry"
+      },
+      {
+        "title": "Phase transitions with spontaneous symmetry breaking on Hecke C*-algebras from number fields",
+        "doi": "10.1007/978-3-8348-0352-8_10",
+        "container": "Aspects of Mathematics"
+      }
+    ],
+    "arxiv": []
+  }
+}

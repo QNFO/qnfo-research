@@ -158,7 +158,7 @@ lineage = {
     "RES.021": ["distinction", "pre-arithmetic", "arithmetic"],
     "RES.027": ["arithmetic", "valuation"],
     "RES.028": ["arithmetic", "valuation"],
-    "RES.029": ["arithmetic", "valuation", "number theory"],
+    "RES.029": ["arithmetic", "valuation", "information"],
     "RES.030": ["number theory", "information", "measurement"],
     "RES.031": ["distinction", "pre-arithmetic", "arithmetic", "number theory",
                 "valuation", "geometry", "information", "measurement", "physics"],
