@@ -1,0 +1,17 @@
+[
+  {
+    "step": "KG project node -> P8",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "step": "qnfo-audit.handoffs INSERT",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "step": "qnfo-audit.wbs_state UPSERT",
+    "ok": true,
+    "detail": ""
+  }
+]
