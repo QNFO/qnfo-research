@@ -1,0 +1,6 @@
+# QNFO.RES.031 project ignore rules
+artifacts/external-search/*.tmp
+artifacts/verification/__pycache__/
+notebooks/.ipynb_checkpoints/
+*.pyc
+.DS_Store
