@@ -3,6 +3,7 @@
 - **Instrument:** The Universal Ignorance Audit: A Fifteen-Question Method (10.5281/zenodo.21901984); synthesis 10.5281/zenodo.21901983
 - **Target (X), stated explicitly:** The QNFO.RES.031 "Arithmetic Quantum Thermodynamics" core claim as locked at Phase 0 — C1 (exact primon-gas dictionary: Z_Bose = ζ(β), Z_Fermi = ζ(β)/ζ(2β), ln Z_MB = P(β), Gentile family, no exchange phase), C2 (five-level ladder L0–L4 with inference rules L2 ≠ L4, L3-only bridge), C3 (eleven-row correction ledger), C4 (negative discipline list), together with the record's charter positioning (audited consolidation + correction; no new empirical claims).
 - **Administration:** 2026-08-29, written form; every question answered, inapplicability stretched as mandated; no resolution attempted during Phases 1–4.
+- **AI-assistance disclosure (red-team I-3):** this application is AI-generated under human supervision; its load-bearing adjudications are code-verified per due-diligence §f, not adopted on AI consensus.
 - **Instrument's own limitations (per its §4):** the audit assumes ignorance is generative; it can create the illusion of having touched ignorance; it has an analytic-extractive slant; its outputs are not mechanically reproducible. These bounds apply to everything below.
 
 ## Phase 1 — Surface the Structure
@@ -48,7 +49,7 @@
 
 **Q7 (Radical perspectival shift).**
 
-- *A number theorist:* sees the primon gas as long-known folklore — the Riemann-gas construction (B. Julia's "Statistical theory of numbers", 1990; Spector's supersymmetric Hilbert–Pólya gas, 1990; Bakas–Bowick's arithmetic-anyon gas, 1991) and the Bost–Connes system (1995) as the deep operator-algebraic version. Their charge: the record under-credits the literature and presents folklore as a novel correspondence. (External verification of these attributions is a Phase 1 deliverable; flagged here as pending.)
+- *A number theorist:* sees the primon gas as long-known folklore — the Riemann-gas construction (B. Julia's "Statistical theory of numbers", 1990; Spector's supersymmetric Hilbert–Pólya gas, 1990; Bakas–Bowick's arithmetic-anyon gas, 1991) and the Bost–Connes system (1995) as the deep operator-algebraic version. Their charge: the record under-credits the literature and presents folklore as a novel correspondence. (External verification completed with evidence: `artifacts/external-search/external-verification-2026-08-29.json` — Crossref/DataCite/OpenAlex/arXiv; harmonized 2026-08-29, red-team L-4.)
 - *A statistical physicist:* asks why β = s is identified at all, whether "specific heat of the primon gas" is anything but a formal derivative of a formal generating function, and whether the finite-cutoff crossover language misstates the Bost–Connes KMS mechanism (whose low-temperature KMS states parameterize the Galois group of the maximal abelian extension — a structure with no free-gas analogue).
 - *A philosopher of physics:* notes the L0 "unanalyzable primitive" is a protected-zone move — the one place the ladder forbids questions — and asks whether the whole architecture is designed so that its foundation can never be examined.
 
@@ -97,7 +98,7 @@ The audit must hold this question, not resolve it. The honest printed position: 
 
 > Why does this record need to exist as a new publication rather than as a corrected appendix or version note to RES.027–030?
 
-If the answer is only "the corrections," RES.031 is an erratum and should be scoped as one. The defensible answer — the five-level ladder with explicit inference rules, the channel taxonomy, and the negative discipline constitute a substantive interpretive advance over any single predecessor record, and the correction ledger is itself a methodological contribution (how a correspondence dictionary fails) — is the record's reason for existing. It must be answered in the published prose, not assumed.
+If the answer is only "the corrections," RES.031 is an erratum and should be scoped as one. The defensible answer — the five-level ladder with explicit inference rules and the negative discipline constitute a substantive interpretive advance over any single predecessor record, and the correction ledger is itself a methodological contribution (how a correspondence dictionary fails) — is the record's reason for existing. It must be answered in the published prose, not assumed. (Correction 2026-08-29, red-team M-4: an earlier draft cited the channel taxonomy here; it is an organizing device from the seed framework, not part of the locked claim set C1–C4.)
 
 ## Meta-note (audit applied to itself)
 

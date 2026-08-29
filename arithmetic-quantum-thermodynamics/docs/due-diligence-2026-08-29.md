@@ -7,10 +7,13 @@ Date: 2026-08-29. Gate: DUE-DILIGENCE-DEPTH-1 (HARD). Evidence files: `artifacts
 Corpus stats (KG, same turn): 8,338 nodes / 8,491 edges — 1,671 Papers, 161
 Projects, 21 Programs.
 
-Sweep: 8 query formulations across 4 topic clusters (primon-gas/zeta-partition;
-p-adic/ultrametric; distinction/Laws-of-Form; statistics/Gentile), each
-`search_papers limit=20` plus `search_papers_enriched`-equivalent hits, plus
-`recall_facts` and `search_memories`. Result: **38 unique related records
+Sweep: 12 query formulations across 4 topic clusters (primon-gas/zeta-partition;
+p-adic/ultrametric; distinction/Laws-of-Form; statistics/Gentile), 3 per
+topic (red-team H-2 remediation 2026-08-29: the missing formulations were
+run and saved), each `search_papers limit=20`, plus
+`search_papers_enriched`, `recall_facts`, and `search_memories` — all
+invocations recorded in the method block of
+`corpus-sweep-2026-08-29.json`. Result: **39 unique records (39 slugs)
 across 5 adjacent WBS domains** (RES, UMP, SLB, INM, CFE), saved in
 `corpus-sweep-2026-08-29.json`.
 
@@ -133,3 +136,18 @@ falsifies "audited"), not proven.
   were AI-assisted (chat provenance). The corrections are NOT adopted on AI
   consensus — they are code-verified (Phase 3). Disclosed here and in the
   paper's methodology section. PASS.
+
+## (g) Dataset Acquisition (DATASET-ACQUISITION-1)
+
+Red-team H-1 remediation, 2026-08-29. Full record:
+`docs/dataset-acquisition-2026-08-29.md`, evidence in
+`artifacts/external-search/dataset-probes/` (Zenodo file-list probes for all
+six predecessor records + arXiv metadata probe for the two 2025 JHEP
+papers). Summary: the external papers under analysis are theory papers —
+documented absence, zero ancillary/data files (arXiv probe); the predecessor
+deposits carry their own computational inputs/outputs (scripts, run logs,
+computed data incl. RES.030's `riemann-zeros-3000.npy`) and redistribute no
+third-party raw data. Computed artifacts are acquired by re-running the
+deposited deterministic scripts at P3 (BP-10); third-party raw data
+(ExoMol-class spectra) enters only at P3 with license discipline and
+DATASET-SOURCE-FALLBACK-1 probe evidence.

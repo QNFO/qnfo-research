@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gUaa9f/oM3H7gMgqqlyQozZHLzc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.02661,2507.08788&amp;start=0&amp;max_results=10</title>
+  <updated>2026-08-29T07:52:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2502.02661,2507.08788" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.08788v1</id>
+    <title>Wheeler-DeWitt wavefunctions for 5d BKL dynamics, automorphic L-functions and complex primon gases</title>
+    <updated>2025-07-11T17:51:25Z</updated>
+    <link href="https://arxiv.org/abs/2507.08788v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.08788v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The near-singularity BKL dynamics of five dimensional gravity and supergravity (and also an extended four-dimensional supergravity) is known to be given by the billiard problem of a particle within a fundamental domain of the Bianchi groups $PSL(2,{\mathcal O}) \subset PSL(2,\mathbb{C})$, acting on $\mathbb{H}_3$. Here ${\mathcal O}$ are the Gaussian or Eisenstein integers, which define a square or triangular lattice in $\mathbb{C}$. The Wheeler-DeWitt wavefunctions near the singularity are, correspondingly, automorphic Maass forms of $PSL(2,{\mathcal O})$. We show how these wavefunctions are associated to certain $L$-functions evaluated along their critical axis. Each of these $L$-functions admits an Euler product representation over the complex primes ${\mathcal{P}}_{\mathcal O} \subset {\mathcal O}$. From this fact we write the $L$-function as the trace over an auxiliary Hilbert space of charged harmonic oscillators, labeled by the complex primes ${\mathcal{P}}_{\mathcal O}$. In this way we have constructed a 'dual' primon gas partition function for the wavefunction of the universe close to a five dimensional cosmological singularity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-11T17:51:25Z</published>
+    <arxiv:comment>40 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Marine De Clerck</name>
+    </author>
+    <author>
+      <name>Sean A. Hartnoll</name>
+    </author>
+    <author>
+      <name>Ming Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.02661v2</id>
+    <title>The Conformal Primon Gas at the End of Time</title>
+    <updated>2025-06-07T16:21:18Z</updated>
+    <link href="https://arxiv.org/abs/2502.02661v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.02661v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Belinksy-Khalatnikov-Lifshitz dynamics of gravity close to a spacelike singularity can be mapped, at each point in space separately, onto the motion of a particle bouncing within half the fundamental domain of the modular group. We show that the semiclassical quantisation of this motion is a conformal quantum mechanics where the states are constrained to be modular invariant. Each such state defines an odd automorphic $L$-function. In particular, in a basis of dilatation eigenstates the wavefunction is proportional to the $L$-function along the critical axis and hence vanishes at the nontrivial zeros. We show that the $L$-function along the positive real axis is equal to the partition function of a gas of non-interacting charged oscillators labeled by prime numbers. This generalises Julia's notion of a primon gas. Each state therefore has a corresponding, dual, primon gas with a distinct nontrivial set of chemical potentials that ensure modular invariance. We extract universal features of these theories by averaging the logarithm of the partition function over the chemical potentials. The averaging produces the Witten index of a fermionic primon gas.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-04T19:02:42Z</published>
+    <arxiv:comment>36 pages, 6 figures. v2: minor improvements to text</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Sean A. Hartnoll</name>
+    </author>
+    <author>
+      <name>Ming Yang</name>
+    </author>
+  </entry>
+</feed>

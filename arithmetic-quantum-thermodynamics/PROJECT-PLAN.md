@@ -7,7 +7,8 @@
 - **Repo:** QNFO/qnfo-research · **Branch:** res/paper/arithmetic-quantum-thermodynamics
 - **Program:** QNFO.RES (qnfo-research)
 - **Predecessors:** QNFO.RES.027 adelic-quantum-statistics (10.5281/zenodo.22133122), QNFO.RES.028 arithmetic-anyon-contact (10.5281/zenodo.22124744), QNFO.RES.029 adelic-quantum-arithmetic (10.5281/zenodo.22142794), QNFO.RES.030 arithmetic-cut-discrimination (10.5281/zenodo.22152967), QNFO.UMP.014 distinction-based-ultrametric (10.5281/zenodo.22150472), QNFO.RES.021 finite-distinction-quantum-mechanics (10.5281/zenodo.22046458)
-- **Seed provenance:** vault notes `D:\Obsidian\notes\v1\2026\08\29\` — `p-adic QM_2.md` (canonical export; stale strict-prefix snapshot `_stale-snapshot-p-adic QM_2(1).md` archived 2026-08-29), `_26241061202.md` (research agenda T1–T11, RQ1–RQn), `_26241061205.md`, `_26241061940.md` (five-level ladder), `_26241061955.md` (pre-arithmetic audit), `_26241062020.md` (dependency stack), `_26241085200.md` (Dictionary draft), `_26241090044.md` (treatise outline Ch. 1–17). Chat-log content is provenance, not registry — every quantitative claim reused here is verified against a DOI'd record before citation (QNFO-CHAT-PROVENANCE-1).
+- **Prior claimants (build on, do not re-claim; red-team M-2, 2026-08-29):** QNFO.SLB.001 idempotent-core (10.5281/zenodo.21916939) and the LoF Number Builder Calling→N derivation (archive record `lof-number-builder-interactive-specification-v10`, R2 `qnfo/releases/2026/07/silent-radix/`, no DOI) already claim the pre-arithmetic cut and the counting construction (L0–L1, Part I); ultrametric-program v2.5.1 (10.5281/zenodo.22076816) defines the realization-independent structural object. RES.031 Part I and C2 L0–L1 are stated as building on these, never as new claims.
+- **Seed provenance:** vault notes `D:\Obsidian\notes\v1\2026\08\29\` — `p-adic QM_2.md` (canonical export; stale strict-prefix snapshot `_stale-snapshot-p-adic QM_2(1).md` archived 2026-08-29), `_26241061202.md` (research agenda T1–T11, RQ1–RQn), `_26241061205.md`, `_26241061940.md` (five-level ladder; fragment, ends mid-sentence at T10), `_26241061955.md` (pre-arithmetic audit), `_26241062020.md` (dependency stack), `_26241085200.md` (Dictionary draft), `_26241090044.md` (treatise outline Ch. 3–17 + Appendices; Ch. 1–2 live in `p-adic QM_2.md`). P2 seeds (post-date the original set; red-team I-2, 2026-08-29): `Pre-arith.md` (treatise architecture, working title "Distinction, Number, and the Statistical Content of Physics"), `_26241092252.md` (framework directive — consistent with locked C2/C4), `_26241091602.md` (UIA process note, target-missing variant — superseded by `docs/uia-15q-res031.md` which states the target). Chat-log content is provenance, not registry — every quantitative claim reused here is verified against a DOI'd record before citation (QNFO-CHAT-PROVENANCE-1).
 - **Phase 0 lock date:** 2026-08-29
 
 ## 1. Charter
@@ -107,12 +108,25 @@ any identity above is wrong, and each is recomputed in the verification
 suite; C2 is methodological — it fails if an admissible L2 → L4 inference is
 exhibited; C3 is audit-level — it fails if any stated correction is itself
 wrong, and each fix is verified in code against exact truncated products and
-golden anchors (Bost–Connes C_V(1.06) ≈ 316.3 vs β²/(β−1)² ≈ 312.1; twin-gap
-first bin exactly zero); C4 is scope discipline, enforced by the negative
+recoverable anchors: β²/(β−1)² = 312.1 at β = 1.06 is the analytic anchor;
+the exact recomputed total is 311.9 (parent-verified 2026-08-29: finite sum
+to P_max = 1e7 = 78.49 + analytic tail 233.42); the twin-gap first bin is
+exactly zero under its stated conditions (minimum prime gap 2 ⇒ minimum
+unfolded spacing 2/ln p; bin width below that; primes ≥ 3); the legacy value
+C_V(1.06) ≈ 316.3 carried by the published lineage is an adjudication target
+(NOT a recoverable anchor — it is a finite-difference artifact, red-team
+M-1, parent-reconfirmed). C4 is scope discipline, enforced by the negative
 list in the published prose. The record adds no new empirical claims; the
 empirical content remains RES.030's (D1 CONFIRMED, D2 disconfirmed as
 pre-registered). The negative branch — a materially different corrected
 dictionary after audit — is publishable per the program null-ledger.
+
+**Interpretive structure (outside the locked claim; red-team M-4).** The
+seed framework's channel taxonomy (geometric / spectral-statistical /
+thermodynamic, `_26241061940.md` §3) organizes Part III but is an organizing
+device, not a claim: it carries no truth value and is therefore outside
+C1–C4. Where it appears in reports, it is cited as seed framework, not as a
+locked claim.
 
 ## 2. Why a reader should care (SO-WHAT)
 
@@ -164,9 +178,10 @@ the physical boundary.
   Dyson formula, no rank unfolding, Montgomery–Odlyzko on zeros / Gallagher
   on primes, form factor report-only at fixed τ). (HARD)
 - **M3** Every quantitative claim reproduced by deposited deterministic
-  scripts; golden anchors recovered (Bost–Connes C_V(1.06) ≈ 316.3 vs
-  β²/(β−1)² ≈ 312.1; twin-gap first bin exactly zero; exact truncated
-  products for C1 identities). (HARD)
+  scripts; anchors recovered per the annotated definition in §1.2 (analytic
+  β²/(β−1)² = 312.1; exact total 311.9; twin-gap first bin zero under its
+  stated conditions; exact truncated products for C1 identities). The legacy
+  316.3 is treated as an adjudication target only. (HARD)
 - **M4** Red team delivered; HARD findings remediated or pre-registered.
 - **M5** Published with plain-prose abstract naming the bridge (primon gas /
   zeta partition functions / interpretive discipline), practitioner section,
@@ -206,3 +221,19 @@ the physical boundary.
 - R5 Premise overreach at the L3/L4 boundary → premise-depth disclosure
   states where the premises end; no physical temperature is identified at a
   p-adic place.
+
+## 7. Success Criteria (red-team I-4, 2026-08-29)
+
+- The corrected dictionary (DR3) is complete and every C3 row carries a
+  code-verified fix that passes the Phase 3 suite (M3).
+- The published record states C1 (exactness of the correspondence), C2 (the
+  ladder with its inference rules), C3 (the correction ledger), and C4 (the
+  negative list) in prose readable by an adjacent-domain expert
+  (CROSSWALK-TRANSLATION-1); the title/abstract name the bridge.
+- The disconfirmation matrix is pre-registered, the negative branch remains
+  publishable, and the empirical-content attribution (RES.030 D1/D2) is
+  accurate in print.
+- The correction ledger is complete enough that no twelfth uncorrected error
+  is found by the Phase 4 re-audit (the pre-registered completeness check).
+- P8 distribution state: registry phase P8/published, DOI live-verified, R2
+  mirror complete, per the RES.030 closeout template.

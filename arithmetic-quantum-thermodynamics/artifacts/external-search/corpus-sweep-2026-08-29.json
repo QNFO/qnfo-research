@@ -2,12 +2,23 @@
   "project": "QNFO.RES.031 arithmetic-quantum-thermodynamics",
   "date": "2026-08-29",
   "gate": "DUE-DILIGENCE-DEPTH-1 corpus sweep",
+  "red_team_remediation": "H-2/L-1/L-2 applied 2026-08-29: 12 query formulations total (3 per topic); method block records limits and invocations; count reconciled to 39 unique records",
+  "method": {
+    "search_papers": "limit=20 for ALL 12 formulations (VECTORIZE-TOP-K-50-1 note: retry at <=16 if Error 1101 — not triggered)",
+    "search_papers_enriched": "invoked for core topic (primon gas) — hits consistent with search_papers",
+    "recall_facts": "invoked (keyword 'arithmetic', 'primon') — surfaced SLB.001 idempotent-core, LoF Number Builder, ultrametric-program v2.5.1, reentrant-distinctions",
+    "search_memories": "invoked (arithmetic quantum statistics primon gas) — prior-program state",
+    "resolve_paper_id": "invoked per key hit for cross-system ID validation (slugs -> Vectorize -> KG -> DOI); 2 DOI-version mismatches + 5 no-DOI records recorded as data-quality findings",
+    "kg": "query_graph stats FIRST (8338 nodes / 8491 edges); nodes/neighbors walks on lineage projects",
+    "unique_records": 39,
+    "adjacent_wbs_domains": ["RES", "UMP", "SLB", "INM", "CFE"]
+  },
   "corpus_stats": {"totalNodes": 8338, "totalEdges": 8491, "papers": 1671, "projects": 161, "programs": 21},
   "query_formulations": [
     {"topic": "primon-gas", "f1": "primon gas Riemann gas zeta function as partition function statistical mechanics of primes", "f2": "Bost-Connes system phase transition KMS states partition function", "f3": "Montgomery Odlyzko pair correlation Riemann zeros random matrix theory GUE"},
-    {"topic": "p-adic-ultrametric", "f1": "p-adic quantum mechanics adelic ultrametric non-Archimedean physics", "f2": "Hilbert-Polya Riemann hypothesis spectra operator eigenvalues prime gaps log periodic"},
-    {"topic": "distinction-sl", "f1": "distinction calculus Spencer-Brown Laws of Form partition hierarchy"},
-    {"topic": "statistics", "f1": "Gentile intermediate statistics fractional exclusion anyons exchange phase", "f2": "specific heat level statistics spectra thermodynamic observables number variance"}
+    {"topic": "p-adic-ultrametric", "f1": "p-adic quantum mechanics adelic ultrametric non-Archimedean physics", "f2": "Hilbert-Polya Riemann hypothesis spectra operator eigenvalues prime gaps log periodic", "f3": "Ostrowski theorem places valuations completion product formula adele"},
+    {"topic": "distinction-sl", "f1": "distinction calculus Spencer-Brown Laws of Form partition hierarchy", "f2": "idempotence quantity broken distinction arithmetic algebra Laws of Form", "f3": "reentrant distinction calling counting number builder Spencer-Brown"},
+    {"topic": "statistics", "f1": "Gentile intermediate statistics fractional exclusion anyons exchange phase", "f2": "specific heat level statistics spectra thermodynamic observables number variance", "f3": "quantum statistics occupation numbers Boltzmann counting Gibbs paradox"}
   ],
   "key_hits": [
     {"slug": "adelic-quantum-arithmetic", "title": "Adelic Quantum Arithmetic: Particles as Prime Factors", "wbs": "QNFO.RES.029", "doi": "10.5281/zenodo.22142794"},
@@ -17,7 +28,7 @@
     {"slug": "prime-numbers-as-spectral-artifacts", "title": "Prime Numbers as Spectral Artifacts", "identifier": "qnfo-2025-11-prime-numbers-as-spectral-artifacts", "doi": null, "flag": "NO-DOI-IN-PAPERS-TABLE"},
     {"slug": "consilience-physics-numtheory", "title": "Consilience Between Physics and Number Theory: Convergent Theses from Ostrowski's Theorem to Adelic Quantum Mechanics", "doi": "10.5281/zenodo.21590155", "note": "KG project node triage: KEEP pending; not Tier-1 without So-What gate"},
     {"slug": "phase-transitions-of-logic", "title": "Phase Transitions of Logic", "identifier": "qnfo-2026-01-phase-transitions-of-logic", "doi": null},
-    {"slug": "ultrametric-program", "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains", "wbs": "QNFO.RES.023", "doi": "10.5281/zenodo.22076816"},
+    {"slug": "ultrametric-program", "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests", "wbs": "QNFO.RES.023", "doi": "10.5281/zenodo.22076816"},
     {"slug": "ultrametric-foundation-a-mathematical-thesis-on-non-archimedean-physics", "title": "The Ultrametric Foundation: A Mathematical Thesis on Non-Archimedean Physics", "papers_doi": "10.5281/zenodo.21991899", "kg_doi": "10.5281/zenodo.21993481", "flag": "DOI-VERSION-MISMATCH (KG v1.1.3 newer)"},
     {"slug": "emergent-number-theory", "title": "EMERGENT NUMBER THEORY", "doi": "10.5281/zenodo.17499279"},
     {"slug": "thermodynamic-genesis-of-the-standard-model", "title": "THERMODYNAMIC GENESIS OF THE STANDARD MODEL", "doi": null, "flag": "NO-DOI-IN-PAPERS-TABLE"},
@@ -50,7 +61,30 @@
     {"slug": "syntactic-token-calculus-m1-foundational-syntax", "title": "Syntactic Token Calculus v3", "domain": "SLB"},
     {"slug": "zx-diagram-fault-lines", "title": "ZX Diagrams at the Seam", "wbs": "QNFO.RES.015"}
   ],
-  "adjacent_wbs_domains": ["RES", "UMP", "SLB", "INM", "CFE"],
+  "key_hits_phase2_augmentations": [
+    {"slug": "idempotent-core", "title": "The Idempotent Core: Quantity as Broken Distinction and the Hidden Assumptions of Arithmetic and Algebra", "wbs": "QNFO.SLB.001", "doi": "10.5281/zenodo.21916939", "note": "PRIOR CLAIMANT of the pre-arithmetic cut (red-team M-2)"},
+    {"slug": "lof-number-builder-interactive-specification-v10", "title": "LoF NUMBER BUILDER — Interactive Specification v1.0", "doi": null, "note": "PRIOR CLAIMANT of the Calling->N counting construction; archive record, R2 qnfo/releases/2026/07/silent-radix/ (no DOI)"},
+    {"slug": "post-positional-numeracy", "title": "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic", "domain": "RES"},
+    {"slug": "frequency-valuation-theory", "title": "Frequency as Valuation Theory: The Rational Ratio at the Heart of Physical Law", "domain": "RES"},
+    {"slug": "number-theory-as-physics", "title": "Number Theory as Physics", "domain": "RES"},
+    {"slug": "measure-theoretic-artifacts-adelic-completion", "title": "Measure-Theoretic Artifacts of the Archimedean Place — v2.0", "domain": "UMP"},
+    {"slug": "harmonic-ostrowski-re-evaluation", "title": "The Harmonic Paradigm Under Ostrowski's Theorem: A p-Adic/Adelic Re-Evaluation", "domain": "UMP"},
+    {"slug": "adelic-synthesis-pattern-particle", "title": "Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons", "domain": "UMP"},
+    {"slug": "completeness-senses-levi-civita", "title": "Completeness Senses and the Levi-Civita Field", "domain": "UMP"},
+    {"slug": "adelic-constraints-on-quantum-field-theory-phase-1", "title": "Adelic Constraints on Quantum Field Theory: Phase 1", "domain": "UMP"},
+    {"slug": "syntactic-generation-primitive-distinctions", "title": "Syntactic Generation Primitive Distinctions", "domain": "SLB"},
+    {"slug": "prime-valuation-depth", "title": "Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading", "domain": "SLB"},
+    {"slug": "measurement-stratigraphy", "title": "The History and Future of Measurement Stratigraphy, Number Theory, and Valuation Theory", "domain": "SLB"},
+    {"slug": "numerata", "title": "NUMERATA: A Multi-Axis Framework for Evaluating Numeral Systems", "domain": "SLB"},
+    {"slug": "measurable-vs-imaginable", "title": "The Computable Real Boundary: Where Physics Ends and Cognitive Fiction Begins", "domain": "RES"},
+    {"slug": "embodied-mathematics-lakoff-nunez", "title": "Embodied Mathematics After Lakoff & Nunez", "domain": "SLB"},
+    {"slug": "massenergyentropyinformation-proof", "title": "Mass-Energy-Entropy-Information Proof", "domain": "RES"},
+    {"slug": "treatise-on-waves", "title": "Waves Do Math", "domain": "RES"},
+    {"slug": "self-referential-scalar-family", "title": "The Self-Referential Scalar Family: e, the Half-Turn, and the Unification of Information Theory, Statistics, Thermodynamics, and QND Measurement", "wbs": "QNFO.RES.020", "doi": "10.5281/zenodo.22035210"},
+    {"slug": "ultrametric-relaxation-dynamics-in-topological-quantum-memory", "title": "Ultrametric Relaxation Dynamics in Topological Quantum Memory", "domain": "UMP"},
+    {"slug": "connecting-geometrogenesis-and-biogenesis", "title": "Connecting Geometrogenesis and Biogenesis", "domain": "RES"},
+    {"slug": "adelic-core-synthesis", "title": "Adelic Core Synthesis: Cross-Domain Foundations of Adelic QFT", "domain": "ADL"}
+  ],
   "recall_facts_relevant": [
     "QNFO.SLB.001 idempotent-core (Quantity as Broken Distinction) — RES.031 Part I must build on it, not claim priority",
     "Laws of Form Number Builder (Calling->N 6-step derivation) — the counting cut construction",
