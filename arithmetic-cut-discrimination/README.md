@@ -6,7 +6,7 @@ objection?
 
 **How to cite:** Quni-Gudzinas, Rowan Brad (2026). *Discriminating the
 Arithmetic Cut: Matched-Level-Density Null Models for the Primon-Gas Specific
-Heat and Spectral Correlations*. QNFO. DOI (concept): 10.5281/zenodo.XXXXXXX.
+Heat and Spectral Correlations*. QNFO. DOI (concept): 10.5281/zenodo.22152967.
 Repository: https://github.com/QNFO/qnfo-research/tree/res/paper/arithmetic-cut-discrimination
 
 ## What this record is
