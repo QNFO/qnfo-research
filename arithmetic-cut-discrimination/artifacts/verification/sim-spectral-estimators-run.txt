@@ -1,0 +1,129 @@
+section: primes
+section: riemann_zeros
+section: gue_null
+section: planted_control
+ESTIMATORS_DONE runtime_sec=6.8
+{
+ "P_max": 16384,
+ "N": 1900,
+ "s_min_measured": 0.206128,
+ "predicted_s_min_2_over_lnP": 0.206099,
+ "count_below_predicted_smin": 0,
+ "paircorr": {
+  "MAD_vs_Poisson": 0.356714,
+  "MAD_vs_GUE": 0.297799,
+  "R2_bin0": 0.0
+ },
+ "form_factor_report_only": {
+  "0.5": 0.4761,
+  "1.0": 0.4118,
+  "2.0": 1.4507
+ }
+}
+{
+ "N": 3000,
+ "paircorr_MAD_vs_GUE": 0.108581,
+ "repulsion_R2_bin0": 0.020007,
+ "number_variance_vs_dyson": {
+  "5": {
+   "measured": 0.689546,
+   "dyson": 0.384091,
+   "ratio": 1.795266,
+   "windows": 607
+  },
+  "10": {
+   "measured": 0.681201,
+   "dyson": 0.454322,
+   "ratio": 1.49938,
+   "windows": 303
+  },
+  "15": {
+   "measured": 0.893454,
+   "dyson": 0.495404,
+   "ratio": 1.803484,
+   "windows": 202
+  },
+  "20": {
+   "measured": 1.205916,
+   "dyson": 0.524552,
+   "ratio": 2.298943,
+   "windows": 151
+  },
+  "25": {
+   "measured": 1.2073,
+   "dyson": 0.547162,
+   "ratio": 2.206479,
+   "windows": 121
+  },
+  "30": {
+   "measured": 1.191683,
+   "dyson": 0.565635,
+   "ratio": 2.106807,
+   "windows": 101
+  },
+  "50": {
+   "measured": 2.077684,
+   "dyson": 0.617392,
+   "ratio": 3.365258,
+   "windows": 60
+  },
+  "100": {
+   "measured": 3.247126,
+   "dyson": 0.687623,
+   "ratio": 4.722251,
+   "windows": 30
+  },
+  "500": {
+   "measured": 10.966667,
+   "dyson": 0.850693,
+   "ratio": 12.891455,
+   "windows": 6
+  },
+  "1000": {
+   "measured": null,
+   "dyson": 0.920923,
+   "ratio": null,
+   "windows": 3
+  },
+  "2000": {
+   "measured": null,
+   "dyson": 0.991154,
+   "ratio": null,
+   "windows": 1
+  },
+  "3400": {
+   "measured": null,
+   "dyson": 1.044918,
+   "ratio": null,
+   "windows": 0
+  }
+ }
+}
+{
+ "n": 800,
+ "M": 8,
+ "paircorr_MAD_vs_analytic_GUE": 0.070634,
+ "number_variance": {
+  "10": {
+   "mean": 0.63137,
+   "dyson": 0.454322,
+   "n_samples": 8
+  },
+  "20": {
+   "mean": 0.792341,
+   "dyson": 0.524552,
+   "n_samples": 8
+  }
+ }
+}
+{
+ "N": 4000,
+ "eps": 0.2,
+ "lam_u": 1.386294,
+ "tau_star": 0.721348,
+ "tau_hat": 0.721407,
+ "recovery_error": 8.3e-05,
+ "K_at_peak": 37.7,
+ "K_plateau": 0.7
+}
+EXIT=0
