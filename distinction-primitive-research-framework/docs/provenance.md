@@ -21,9 +21,9 @@
 | QNFO.RES.021 | finite-distinction-quantum-mechanics | finite distinction QM | D0–D2, D8-adjacent |
 | QNFO.RES.027 | adelic-quantum-statistics | two exchange statistics on one integer lattice | D2, D4 |
 | QNFO.RES.028 | arithmetic-anyon-contact | bounded occupation (Gentile family) | D2, D4 |
-| QNFO.RES.029 | adelic-quantum-arithmetic | consolidated map + practitioner crosswalk | D2–D4, D7 |
+| QNFO.RES.029 | adelic-quantum-arithmetic | consolidated map + practitioner crosswalk | D2–D4 (D7 provisional — revisit P1, M8) |
 | QNFO.RES.030 | arithmetic-cut-discrimination | matched-density nulls; D1 CONFIRMED, D2 disconfirmed | D3, D6, D7 |
-| QNFO.RES.031 | arithmetic-quantum-thermodynamics | corrected dictionary; five-level L0–L4 | D2–D8 (spans) |
+| QNFO.RES.031 | arithmetic-quantum-thermodynamics | corrected dictionary; five-level L0–L4 | D0–D8 span (L0→D0; L1→D1/D4/D5; L2→D2/D3; L3→D6/D7; L4→D7/D8) |
 
 The P1 due-diligence phase will re-run this assignment sweep with evidence files per record
-(F1 completeness gate).
+(F1 completeness gate). P0.1 note (red-team M8): RES.029's D7 and RES.021's D0–D2 are provisional and will be adjudicated with evidence files at P1.

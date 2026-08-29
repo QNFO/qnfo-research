@@ -1,0 +1,6 @@
+# DPRF project artifacts
+__pycache__/
+*.pyc
+*.npy
+*.npz
+.DS_Store

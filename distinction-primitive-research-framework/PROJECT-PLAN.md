@@ -14,7 +14,7 @@
 
 The program's research lines all share one construction language — distinction — but the discipline
 that governs its use lived only inside individual papers (UMP.014's map-territory clause, RES.030's
-matched-density nulls, RES.031's leakage table). This project extracts that discipline into a
+matched-density nulls, the seed treatise's Ch. 14 leakage table). This project extracts that discipline into a
 **cross-program methodological scaffold**: the pre-arithmetic ladder (D0–D8), two hard gates (G1
 ontic, G2 realization), and a reusable claim-taxonomy schema that plugs into the existing WBS P0–P9
 pipeline, pre-registration, red team, and publication gates.
@@ -29,10 +29,15 @@ claim has a declared level, a declared ontic commitment, and — when it reaches
   program's published lineage (RES.021, RES.027–031, UMP.014) without remainder; each published
   object assigns to at least one level.
 - **F2 (gate soundness).** G1 and G2 are sufficient to adjudicate every map-territory and
-  ontology-reification defect already adjudicated in the lineage (the RES.031 leakage table rows,
-  the UMP.014 map-territory clause, the RES.030 null discipline).
+  ontology-reification defect already adjudicated in the lineage (the seed treatise's Ch. 14
+  leakage-table rows, the UMP.014 map-territory clause, the RES.030 null discipline).
 - **F3 (reusability).** The claim schema can be attached to any program's pre-registration without
   changing that program's WBS structure; the templates are self-contained.
+
+Claim sheets (DPRF T-1; P0.1 amendment per red-team R5/H4):
+- F1 — level: meta; carrier: computational (P1 sweep); ontic_commitment: methodological; map_territory: map.
+- F2 — level: meta; carrier: formal; ontic_commitment: methodological; map_territory: map.
+- F3 — level: meta; carrier: deliverable; ontic_commitment: methodological; map_territory: map.
 
 Disconfirmation matrix (pre-registered): F1 fails if a published lineage object cannot be assigned
 to any level or span; F2 fails if a known lineage defect cannot be adjudicated by the two gates
@@ -51,9 +56,9 @@ separate, and to pre-registering the passage between them.
 | Phase | WBS step | Content | Gate |
 |---|---|---|---|
 | P0 | RES.032.P0 | Init: registry claim, branch, FRAMEWORK.md, PROJECT-PLAN, templates, qnfo-ops integration, tag | commit/tag/push + registry re-query |
-| P1 | RES.032.P1 | Due diligence: apply F1 to the full published lineage (level-assignment sweep); corpus cross-check for prior "ladder" formalisms | HARD |
+| P1 | RES.032.P1 | Due diligence: apply F1 to the full published lineage (level-assignment sweep); corpus cross-check for prior "ladder" formalisms; re-adjudicate red-team-flagged assignments (RES.029 D7, RES.021 D0–D2) with evidence files (M8) | HARD |
 | P2 | RES.032.P2 | Literature: prior art on levels-of-reality, map-territory, and ontic structural realism; citation audit | HARD |
-| P3 | RES.032.P3 | Formalization: statement-level precision for R1–R5, G1, G2; edge cases (spans, retroactive ontic) | HARD |
+| P3 | RES.032.P3 | Formalization: statement-level precision for R1–R5, G1, G2; edge cases (spans, retroactive ontic) — P3 repurposed program-specifically per RES.030/031 precedent; citation management lives in P2 | HARD |
 | P4 | RES.032.P4 | Red team: attempt to construct lineage defects the two gates cannot adjudicate (F2 stress test) | HARD |
 | P5 | RES.032.P5 | Publish: Zenodo deposit; gates incl. GATE-ONTIC-1 + GATE-REALIZATION-1 applied to the framework itself | HARD |
 | P6 | RES.032.P6 | Deploy: KG node `framework:distinction-primitive`, REFINES/ENABLES edges, registry re-point | HARD |

@@ -27,7 +27,7 @@ upward toward physical reality**. It has four parts:
    boundaries the ladder creates. These codify, program-wide, the two cautions stated in the seed:
    do not reify distinction as ontic unless the commitment is explicit; never let a mathematical
    isomorphism pass as a physical realization without a measurement protocol and a falsification
-   condition.
+   condition. **(P0.1 R4:** the seed's caution 2 names two items — protocol and falsification; G2 in §2 requires three, adding the null model from the treatise's Ch. 14 discipline and RES.030's matched-density null practice. Deliberate, flagged strengthening.**)**
 3. **A claim taxonomy** — a fixed field schema that every pre-registered claim, audit row, and
    publication gate item can carry. It is the reuse surface: any program can attach it without
    changing its own WBS structure.
@@ -56,7 +56,7 @@ content belongs to the records it cites (RES.030's D1/D2/D3 results, UMP.014's H
 | **D3** | Number theory | Patterns of the composition: distribution of irreducibles, factorization statistics, L-functions as generating objects of the composition. | discern pattern |
 | **D4** | Valuation | Assigning size to distinctions: norms, absolute values; Ostrowski — one Archimedean place plus one p-adic place per prime; the p-adic valuation is **one realization** of hierarchy distance, not its ground. | assign size |
 | **D5** | Geometry | The resulting relational form: metric/ultrametric spaces as the form of valued distinctions; rigidity (the ultrametric triangle). | take form |
-| **D6** | Information | Distinction made operational: counting distinctions as bits; entropy; where the distinctions are located (two-point functions vs. one-point thermodynamics — RES.030 D2). | operationalize |
+| **D6** | Information | Distinction made operational: counting distinctions as bits; entropy; where the distinctions are located (two-point functions vs. one-point thermodynamics — RES.030 D2, disconfirmed as pre-registered). | operationalize |
 | **D7** | Measurement | Finite-resolution application of valuation to observation: protocol, instrument, resolution, noise budget; what a finite observer can actually distinguish. | resolve (finite) |
 | **D8** | Physics | The empirical filter: falsification decides which of the structures are real. The null-ledger discipline lives here. | filter (falsify) |
 
@@ -72,9 +72,9 @@ content belongs to the records it cites (RES.030's D1/D2/D3 results, UMP.014's H
   an arithmetic object) is an interpretation, never a derivation. It must say so.
 - **R5 (level confusion is a defect class).** Conflating objects that live at different levels, or
   at different positions of the same level, is a registered audit defect. Worked instances already
-  adjudicated in the lineage: prime-gap hard-core results are D3 (primes), not D3 (Riemann zeros);
+  adjudicated in the lineage: prime-gap hard-core separations are D3 content about primes, not D3 content about Riemann zeros;
   specific-heat separation is D6/D7 content, not D5; "the universe is made of primes" is a D2→D8
-  leak without protocol (RES.031's leakage table, generalized here).
+  leak without protocol (the seed treatise's Ch. 14 leakage table — consolidation in progress at RES.031 — generalized here).
 
 ### 1.2 What each caution protects
 
@@ -152,7 +152,7 @@ with the fields below added.
 
 | Field | Values | Mandatory iff |
 |:------|:-------|:--------------|
-| `level` | D0–D8 or span `DX–DY` | always |
+| `level` | D0–D8 or span `DX–DY` (or `meta` for claims about the scaffold itself; `meta` claims still carry the remaining fields) | always |
 | `carrier` | `definitional` \| `formal` \| `computational` \| `empirical` \| `engineered` | always |
 | `ontic_commitment` | `methodological` (default) \| `heuristic` \| `ontic` | always (defaults to methodological) |
 | `map_territory` | `map` \| `bridge` \| `territory` | always |
@@ -165,7 +165,8 @@ with the fields below added.
 
 - `map_territory = territory` without `protocol` → **G2 violation**, demote to `bridge`.
 - `bridge` without `protocol`, `null_model`, `falsifier` → **G2 violation**, demote to `map`.
-- `ontic` without G2 triple → **G1 violation**, demote to `heuristic`.
+- `territory` or `bridge` missing only `null_model` or only `falsifier` → demote one rung (P0.1 R9).
+- `ontic` without G2 triple → **G1 violation**, demote to `heuristic`; if a G2 violation also fires, both demotions apply and the lower class wins (P0.1 R9).
 - `level` absent → **R1 violation**, claim unregistered.
 
 ---
@@ -177,8 +178,8 @@ with the fields below added.
 | **WBS P0 (init / core-claim lock)** | PROJECT-PLAN carries a claim sheet (template `templates/claim-sheet.md`) for the core claim, with `level`, `carrier`, `ontic_commitment`, `map_territory`. Registry description states the framework level of the project. |
 | **WBS P1 (due diligence)** | Corpus hits tagged with a level legend (template `templates/level-legend.md`) so the sweep can report level coverage and flag level confusion in the literature. |
 | **WBS P2–P3 (literature, citations)** | Cited claims inherit level tags in the reference audit; a citation that smuggles an ontic reading of a methodological primitive is flagged. |
-| **WBS P4 (red team)** | Standing adversary positions: (a) level leakage, (b) ontology smuggling, (c) map–territory slippage, (d) missing falsifier. |
-| **WBS P5 (publication gates)** | Two gate items appended to the existing gate set: GATE-ONTIC-1 (no undeclared ontic reification in prose) and GATE-REALIZATION-1 (every isomorphism-to-physics sentence carries protocol + null + falsifier, or is labeled map-only). RES.030's MAP-TERRITORY gate is the worked precedent. |
+| **WBS P4 (red team)** | Standing adversary positions: (a) LEAK-X-Y, (b) ONTIC-SMUGGLE, (c) MAP-AS-TERRITORY, (d) OBJ-CONFLATE — the four registered defect classes (PLCY §5); a missing falsifier is handled by G2's demotion rule, not a fifth class. |
+| **WBS P5 (publication gates)** | Two gate items appended to the existing gate set: GATE-ONTIC-1 (no undeclared ontic reification in prose) and GATE-REALIZATION-1 (every isomorphism-to-physics sentence carries protocol + null + falsifier, or is labeled map-only). Worked precedents: UMP.014's map-territory clause (red-team round 3) and RES.030's matched-density null discipline. |
 | **Registry (D1 program_registry)** | One row per project (this document's row is the DPRF row). Framework-level annotation convention: project description states the framework level span. |
 | **KG** | At P6/P8: node `framework:distinction-primitive` with `REFINES` edges to UMP.014/RES.031 and `ENABLES` edges to future claims (mirrors `prog-qnfo-res` convention). |
 | **qnfo-ops governance** | Policy `PLCY/MAP-TERRITORY-REALIZATION-GATE.md` (the two gates as standing policy), skill `SKIL/FRAMEWORK-LEVEL-DISCIPLINE.md` (the reusable checklist for agents), taxonomy row in `WBS.TAXONOMY.md`. |
@@ -190,12 +191,11 @@ with the fields below added.
 
 - **RES.031** carries the seed treatise at paper level: corrected dictionary (C1), five-level
   interpretive ladder L0–L4 (C2), correction ledger (C3), negative discipline (C4). The DPRF's
-  D0–D8 ladder is the cross-program generalization of RES.031's L0–L4; D0–D4 map onto the
-  treatise's levels, D5–D8 extend them to information, measurement, and physics.
+  D0–D8 ladder is the cross-program generalization of RES.031's L0–L4; the ladders are not aligned level-by-level. Corrected cross-walk (P0.1 R1): L0→D0; L1→D1/D4/D5; L2→D2/D3; L3→D6/D7; L4→D7/D8 (engineered). RES.031's ladder already reaches physics at L3/L4; D5–D8 re-partition that upper half rather than extend it. **Precedence (P0.1 R10):** RES.031's locked C2 bridge rule — L3 is the only admissible L2→L4 bridge — remains binding in its domain.
 - **UMP.014** supplies the canonical D1/D4/D5 instantiation (realization-independent hierarchy
   distance) and the map-territory clause precedent.
 - **RES.030** supplies the empirical discipline precedents: matched-density null ensembles (the
-  canonical G2 null-model pattern) and the two-point information-location result (D6).
+  canonical G2 null-model pattern) and the two-point information-location result (D6; D2 disconfirmed as pre-registered — see RES.030 P3/P4).
 - **RES.021** (finite-distinction QM) is the D8-adjacent application: the QM level where the ladder
   meets the empirical filter.
 - The DPRF **restates none of their results**; it cites them as instances of the scaffold.

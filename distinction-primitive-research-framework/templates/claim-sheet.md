@@ -34,3 +34,4 @@ Each row of a disconfirmation matrix is one claim row with these fields.
   the arithmetic cut vs matched-density nulls; null_model = smooth log-spaced surrogates /
   P_max-smooth random integers / Poisson-on-log-scale, matched mean level density; falsifier =
   no observable separates at any feasible P_max (pre-registered; negative branch publishable).
+- **bridge list:** D6→D7: operationalizing the two-point distinctions at finite resolution (protocol + nulls above). <!-- P0.1: span carries the R3-mandated bridge list (red-team L4) -->
