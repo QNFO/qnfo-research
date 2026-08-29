@@ -1,0 +1,21 @@
+ARXIV 1401.8190v3: Thermodynamics of the Bosonic Randomized Riemann Gas | J. G. Dueñas; N. F. Svaiter
+ARXIV 2411.15377v3: P-adic numbers and kernels | Simone Franchini
+ARXIV 2502.02661v2: The Conformal Primon Gas at the End of Time | Sean A. Hartnoll; Ming Yang
+CROSSREF julia1990statistical                 FOUND  Statistical Theory of Numbers
+CROSSREF julia1989thermodynamic               FOUND  On the "statistics" of primes
+CROSSREF bakas1991curiosities                 FOUND  Curiosities of arithmetic gases
+CROSSREF spector1990supersymmetry             FOUND  Multiplicative functions, Dirichlet convolution, and quantum
+CROSSREF montgomery1973pair                   ERROR ERROR:HTTP Error 404: Not Found
+CROSSREF odlyzko1987distribution              FOUND  On the distribution of spacings between zeros of the zeta fu
+CROSSREF gallagher1985distribution            ERROR ERROR:HTTP Error 404: Not Found
+CROSSREF berry1985semiclassical               FOUND  Semiclassical theory of spectral rigidity
+CROSSREF bogomolny1996gutzwiller              FOUND  Gutzwiller's Trace Formula and Spectral Statistics: Beyond t
+CROSSREF bost1995hecke                        FOUND  Compartmentalization of cellular and viral DNAs in adenoviru
+CROSSREF dyson1962statistical                 FOUND  Statistical Theory of the Energy Levels of Complex Systems. 
+DATACITE quni2026ump014                       FOUND  The Distinction-Based Ultrametric: A Hierarchy Distance With
+DATACITE quni2026stats                        FOUND  Quantum Statistics from the Adelic Product Formula: The Squa
+DATACITE quni2026anyons                       FOUND  Arithmetic Anyons: The Bounded-Occupation Family, Gentile St
+DATACITE quni2026adelic                       FOUND  Adelic Quantum Arithmetic: Particles as Prime Factors
+DATACITE quni2026program                      FOUND  The Ultrametric Program: One Structural Object Across Seven 
+AUDIT DONE refs=19
+EXIT=0
