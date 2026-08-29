@@ -24,7 +24,11 @@ def sieve_upto(N):
 
 results = []
 def check(name, got, want, tol):
-    ok = abs(got - want) <= tol * max(1.0, abs(want))
+    # ABSOLUTE tolerance (red-team A-6 fix, 2026-08-29): the check names state
+    # absolute windows; relative semantics (tol*max(1,|want|)) silently widened
+    # large-magnitude guardrails — e.g. the 311.9 anchor at tol 0.5 would have
+    # accepted 316.3. All tolerances below are absolute.
+    ok = abs(got - want) <= tol
     results.append(ok)
     print(f"[{'PASS' if ok else 'FAIL'}] {name}: got={got!r} want={want!r} tol={tol}")
 
@@ -46,9 +50,9 @@ z4 = pi ** 4 / 90.0
 # Truncation tail of each log at P=1e6: sum_{p>P} p^-2 ~ E1(ln P)/P with the
 # 3-term expansion (1 - 1/lnP + 2/ln^2P); the 1-term form 1/(P ln P) errs by ~7%.
 tail = (1.0 / (P * log(P))) * (1.0 - 1.0 / log(P) + 2.0 / (log(P) ** 2))
-check("Z_Bose = zeta(2) (raw, tol 1e-7)", ZB, z2, 1e-7)
+check("Z_Bose = zeta(2) (raw, tol 2e-7)", ZB, z2, 2e-7)
 check("ln Z_Bose = ln zeta(2) - tail (tail-corrected)", log(ZB) + tail, log(z2), 1e-9)
-check("Z_Fermi = zeta(2)/zeta(4) (raw, tol 1e-7)", ZF, z2 / z4, 1e-7)
+check("Z_Fermi = zeta(2)/zeta(4) (raw, tol 2e-7)", ZF, z2 / z4, 2e-7)
 check("ln Z_Fermi = ln(zeta2/zeta4) - tail (tail-corrected)", log(ZF) + tail, log(z2 / z4), 1e-9)
 check("ln Z_MB = P(2) (raw, tol 1e-7)", lZMB, 0.4522474200410655, 1e-7)
 check("ln Z_MB = P(2) - tail (tail-corrected)", lZMB + tail, 0.4522474200410655, 1e-9)

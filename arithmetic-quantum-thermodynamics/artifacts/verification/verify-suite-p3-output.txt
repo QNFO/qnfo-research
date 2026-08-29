@@ -1,6 +1,6 @@
 ======================================================================
 QNFO.RES.031 P3 suite  |  python 3.12.10 | numpy 2.4.4 | scipy 1.17.1
-seed (GUE MC): 20260829   runtime: 2026-08-29 11:10:16
+seed (GUE MC): 20260829   runtime: 2026-08-29 11:27:55
 ======================================================================
 [INFO] loaded 120 cached accurate zeros
 [INFO] 120 accurate zeros (mpmath.zetazero), T = 270.0

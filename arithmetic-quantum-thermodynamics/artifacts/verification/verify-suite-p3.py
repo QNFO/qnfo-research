@@ -28,7 +28,11 @@ def check(name, got, want, tol):
     if isinstance(got, (bool, np.bool_)):
         ok = bool(got) == bool(want)
     else:
-        ok = abs(float(got) - float(want)) <= tol * max(1.0, abs(float(want)))
+        # ABSOLUTE tolerance (red-team A-6 fix, 2026-08-29): the check names
+        # state absolute windows; relative semantics silently widened
+        # large-magnitude guardrails (e.g. "311.9 tol 0.5" -> +-156, would have
+        # accepted 316.3). All tolerances below are absolute.
+        ok = abs(float(got) - float(want)) <= tol
     results.append(ok)
     print(f"[{'PASS' if ok else 'FAIL'}] {name}: got={got!r} want={want!r} tol={tol}")
 

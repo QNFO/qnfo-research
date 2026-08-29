@@ -132,13 +132,18 @@ locked claim.
 
 Anyone using the primon-gas / Bost–Connes / Riemann-gas correspondence —
 number theorists, quantum-statistical-mechanics researchers, and the
-random-matrix community — currently has no single corrected source: the
-informal dictionary circulating with the program's provenance chats carries
-the sign errors and attribution errors above, and downstream readers copy
-them. This record is the audited artifact: it fixes the recurring −β²
+random-matrix community — currently has no single corrected reference: the
+published lineage itself carries two adjudicated quantitative errors (the
+Dyson number-variance window pair; the 316.3 specific-heat attribution —
+RES.030 D-1/D-4), and the sign/attribution errors catalogued in this
+record's correction ledger would propagate into the literature if left
+uncorrected. This record is the audited artifact: it fixes the recurring −β²
 specific-heat factor, the entropy term, and the 34σ zeros/primes conflation,
 and it states, in print, precisely what the correspondence licenses and what
-it does not. For a spectroscopist or metrologist evaluating an "arithmetic
+it does not. (Red-team A-3/B-2 remediation 2026-08-29: the exposure claim is
+scoped to the two published-lineage errors plus prevention — not to external
+readers copying an internal draft.) For a spectroscopist or metrologist
+evaluating an "arithmetic
 spectrometer" (engineered log-prime spectra in superconducting registers,
 optical lattices, or photonic arrays), the five-level ladder's central rule —
 the mathematical isomorphism (L2) does not by itself license a physical
@@ -192,11 +197,21 @@ the physical boundary.
 
 ## 5. Deliverable Registry
 
-- DR1 Paper `<slug>.md/.html/.pdf` (never `paper.*`): Part I hierarchy and
-  the cut, Part II the arithmetic correspondence, Part III the statistical
-  channel, Part IV limits and interpretation; Appendix A the corrected
-  dictionary, Appendix B verification suite, Appendix C null-model package,
-  Appendix D real-spectrum corpus, Appendix E open problems.
+- DR1 Paper `<slug>.md/.html/.pdf` (never `paper.*`), **LEAN shape** (red-team
+  B-1/B-2 remediation, 2026-08-29 — the seed's 17-chapter treatise is source
+  material, NOT the deliverable): (1) the corrected dictionary as the
+  centerpiece; (2) the five-level ladder with its inference rules; (3) the
+  correction ledger C3(a)–(k); (4) the negative discipline list C4; (5) the
+  practitioner section (PRACTITIONER-RELEVANCE-1); (6) the verification
+  appendix (both suites + reproducibility). The pre-arithmetic cut (seed Part
+  I) is credited in two paragraphs to SLB.001 / LoF Number Builder /
+  ultrametric-program — not re-derived. The statistical channel (seed Part
+  III) becomes a roadmap appendix: the real-data rows (NaH, H₂O POKAZATEL)
+  and the 2028 H1 decision matrix are cited as RES.030/UMP.014 content and
+  roadmap items, NOT as this record's claims (they are not reproduced by this
+  record's suites — M3). The P5 title is constrained by the bridge vocabulary
+  (primon gas / zeta partition functions / interpretive discipline) — it must
+  not outrun the charter (UIA Q15 seeded question).
 - DR2 Verification scripts + outputs in `artifacts/verification/` (deposited
   with the paper).
 - DR3 Corrected-dictionary reference table (machine-readable, e.g. TSV/MD).
@@ -221,6 +236,14 @@ the physical boundary.
 - R5 Premise overreach at the L3/L4 boundary → premise-depth disclosure
   states where the premises end; no physical temperature is identified at a
   p-adic place.
+- R6 Scope blow-up → the LEAN DR1 shape is the published target (red-team
+  B-1/B-3, 2026-08-29); the seed treatise architecture is source material
+  only; the lean fallback is pre-authorized by §7 (Success Criteria do not
+  require the treatise shape).
+- R7 Demo deferral → DR5 ships only if the in-app E₁-tail correction is
+  implemented (an interactive emulator truncated at interactive P_max
+  otherwise displays values far from the verified anchors 311.9/312.1);
+  otherwise deferred to post-P6. (Red-team B-3.)
 
 ## 7. Success Criteria (red-team I-4, 2026-08-29)
 
