@@ -1,0 +1,13 @@
+{
+  "file": "riemann-zeros-3000.npy",
+  "source_url": "https://zenodo.org/api/records/22152967/files/riemann-zeros-3000.npy/content",
+  "source_doi": "10.5281/zenodo.22152967",
+  "source_record_title": "Discriminating the Arithmetic Cut: Matched-Level-Density Null Models for the Primon-Gas Specific Heat and Spectral Correlations",
+  "license": "cc-by-4.0",
+  "acquired": "2026-08-29",
+  "sha256": "6ee547037039f8871f7a9a3f1697d5dd20f46235007e06fdadfa3822bca494d3",
+  "size_bytes": 24128,
+  "n_zeros": 3000,
+  "descr": "<f8",
+  "note": "own-program computed artifact (RES.030 deposit); acquired per DATASET-ACQUISITION-1/BP-10; zeros of zeta on the critical line (imaginary parts)"
+}

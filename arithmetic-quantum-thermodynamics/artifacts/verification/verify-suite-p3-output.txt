@@ -1,0 +1,59 @@
+======================================================================
+QNFO.RES.031 P3 suite  |  python 3.12.10 | numpy 2.4.4 | scipy 1.17.1
+seed (GUE MC): 20260829   runtime: 2026-08-29 11:10:16
+======================================================================
+[INFO] loaded 120 cached accurate zeros
+[INFO] 120 accurate zeros (mpmath.zetazero), T = 270.0
+[INFO] explicit formula x=20: psi_exact=19.265658 psi_zeros=19.283972 residual=0.0183
+[PASS] explicit formula psi(20) matches to 0.5 (zeros = corrections): got=19.283971709636806 want=19.265658314547977 tol=0.5
+[INFO] explicit formula x=30: psi_exact=28.476499 psi_zeros=28.496210 residual=0.0197
+[PASS] explicit formula psi(30) matches to 0.5 (zeros = corrections): got=28.496209640451053 want=28.476498561565812 tol=0.5
+[INFO] deposited cache: n=3000, sha256=6ee547037039f887
+[INFO] first 50 deposited vs true zero ordinates: max|err|=0.3832 mean|err|=0.1513
+[PASS] deposited cache is a coarse approximation (max err > 1e-3): got=True want=True tol=0
+[PASS] deposited cache errors are bounded (< 0.5, grossly right): got=True want=True tol=0
+[INFO] GUE MC edge-clip: mean 0.0 eigenvalues/matrix beyond +/-2*sqrt(m) (Tracy-Widom overshoot)
+[INFO] GUE MC: 120 matrices x m=150; all-pairs R2 estimator; max |R2_est - closed| (bulk bins) = 0.0364
+[PASS] GUE two-point correlation matches 1-(sin pi s/pi s)^2 (max bulk dev < 0.05): got=True want=True tol=0
+[INFO] Sigma^2(L=5): MC=0.5044 exact=0.5090
+[PASS] GUE number variance Sigma^2(5) matches exact reduction: got=0.504396551724138 want=0.5089905447701 tol=0.15
+[INFO] Sigma^2(L=10): MC=0.5657 exact=0.5793
+[PASS] GUE number variance Sigma^2(10) matches exact reduction: got=0.5656547619047618 want=0.5792963359529963 tol=0.15
+[INFO] Sigma^2(L=20): MC=0.6344 exact=0.6495
+[PASS] GUE number variance Sigma^2(20) matches exact reduction: got=0.6343589743589744 want=0.6495459687161471 tol=0.15
+[INFO] form factor K(tau=0.5), single realizations (report-only, non-self-averaging): seed1=0.201 seed2=0.139
+[PASS] Sigma^2(20) exact (quad): got=0.6495459687161471 want=0.649546 tol=0.001
+[PASS] Sigma^2(20) Dyson asymptotic: got=0.5245523776168044 want=0.524552 tol=0.001
+[PASS] Dyson < exact at L=20 (converges from below): got=True want=True tol=0
+[PASS] Sigma^2(3400) exact (quad): got=1.1699175607764118 want=1.169918 tol=0.001
+[PASS] Sigma^2(3400) Dyson asymptotic: got=1.0449175542072053 want=1.044918 tol=0.001
+[PASS] Dyson < exact at L=3400 (converges from below): got=True want=True tol=0
+[INFO] Dyson misfit (exact-Dyson)/Dyson over L=5..50: min 20.2% max 32.5%
+[PASS] Dyson misfit in [20%,33%] over L<=50 (swept): got=True want=True tol=0
+[PASS] Li(2) via expi: got=1.0451637801174922 want=1.045163780117493 tol=1e-09
+[PASS] Li(10) via expi: got=6.1655995047872985 want=6.165599504787298 tol=1e-09
+[PASS] Li(1e6) via expi: got=78627.54915946216 want=78627.54916 tol=1e-05
+[INFO] asymptotic series at x=2: best truncation error = 1.840 (true Li(2)=1.045)
+[PASS] asymptotic Li series unusable at small x (best err > 1): got=True want=True tol=0
+[PASS] C_V^F = -beta^2 dU_F/dbeta (finite-diff): got=2.640973757169929 want=2.6409737572397063 tol=1e-06
+[PASS] C_V^F(2) = 2.6409738 (independent slot value): got=2.640973757169929 want=2.6409738 tol=1e-06
+[PASS] S^F = ln Z_F + beta U_F: got=1.3038312879349148 want=1.303831287934909 tol=1e-09
+[INFO] E=ln(100): many-body states = floor(e^E) = 100; single-particle prime modes = pi(100) = 25
+[PASS] many-body level count = integers (100 at E=ln 100): got=100 want=100 tol=0
+[PASS] single-particle mode count = primes (25 at E=ln 100): got=25 want=25 tol=0
+[PASS] integer count != prime count (C3(a) separation): got=True want=True tol=0
+[PASS] Tr e^{-beta H} = sum n^-2 = zeta(2) (tail-corrected): got=1.6449340668482264 want=1.6449340668482264 tol=1e-08
+[PASS] Lambda(n) = convolution coefficients of -zeta'/zeta (n<=200): got=True want=True tol=0
+[PASS] Lambda(p)=ln p, Lambda(composite non-prime-power)=0: Lambda(7),Lambda(12): got=True want=True tol=0
+[PASS] prod_p (1-p^-2)^-k = (prod_p (1-p^-2)^-1)^k (k=3, float-accum tol): got=4.450874991217204 want=4.450874991254828 tol=1e-09
+[PASS] zeta^k = exp(k ln Z): k=3 species not k-body interactions: got=4.450874991217204 want=np.float64(4.450874991254828) tol=1e-09
+[PASS] min prime gap = 2 (computed, p>=3): got=2 want=2 tol=0
+[INFO] unfolded spacings n=78496; bin[0,0.1) count=0 (Poisson expected 7470); z = -86.4
+[PASS] first bin count == 0 (computed, not INFO-only): got=0 want=0 tol=0
+[PASS] hard-core z-statistic is large (z < -50): got=np.True_ want=True tol=0
+[PASS] unfolding sanity: mean unfolded spacing ~ 1: got=1.0016576321929775 want=1.0 tol=0.02
+[INFO] mid-range bin [0.9,1.1): count=7874 vs continuous-Poisson expected 5785; z = 27.5 — the deviation is the even-gap/mod-6 structure of prime gaps, NOT a defect: the correct nulls for mid-range statistics are the matched-level-density ensembles of RES.030, out of P3 scope (declared).
+
+SUMMARY: 34/34 checks passed
+reproducibility: seed 20260829 (GUE MC); mpmath.zetazero exact zeros;
+deposited cache cross-checked against mpmath (approximation quantified, not trusted).
