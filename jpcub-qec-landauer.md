@@ -1,8 +1,8 @@
 ---
 title: "Error Correction Is a Landauer Machine: The Thermodynamic Floor of Quantum Error-Correction Overhead"
 author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-26"
-version: "v1.6"
+date: "2026-09-02"
+version: "v1.7"
 license: "CC BY 4.0"
 doi: "10.5281/zenodo.22117282"
 status: "published"
@@ -139,6 +139,16 @@ The CWI summer school on Quantum Algorithms and Quantum Error Correction (Amster
 §9 numbers were verified 2026-08-26 against the retrieved slide PDFs (text extraction, slide-number trace) and the two cited arXiv records (arXiv API). Evidence inventory: `artifacts/cwi-slide-audit.md`.
 
 All numbers in §3 and §7 are computed by scripts in `artifacts/verification/` (Python 3, stdlib only): `verification_floor.py` (golden values, floor table, six structural checks) and `verification_h2.py` (seeded Monte Carlo, six structural checks). Reproduce with `python verification_floor.py` and `python verification_h2.py` from that directory; outputs are `verification_floor.json` and `h2_results.json`, with runs recorded in `run_out.txt` and `h2_run_out.txt`. Seed: 20260826. Environment: CPython 3.x, no external dependencies.
+
+**v1.7 verification addendum (2026-09-02).** Both verification scripts were independently re-run
+from this repository (seed 20260826, Python 3 stdlib). Outputs are byte-identical to the deposited
+evidence (git diff empty): the §7 table (48.0 flat erasures; tree 16.0–29.3; ratio 3.00–1.64) and the
+§3 floor table reproduce exactly. A parameter-space robustness sweep of the §7 erasure-ratio claim
+(verification_h2_sweep.py, 12 regimes: bursts c=1–4, length 4–32, q=0.1–0.5; 2,000 trials per
+regime, seed 20260826) extends the reported envelope: the flat/tree erasure ratio is above 1 in all
+12 regimes (1.368–2.452), eroding toward ~1.4 at long bursts (L=32) but never inverting, and the
+naive tree construction's residual-error penalty is confirmed in every non-trivial regime. Full
+results: artifacts/verification/V17-EVIDENCE-DELTA.md and h2_sweep_results.json.
 
 ## References
 
