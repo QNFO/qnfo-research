@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
-  <meta name="dcterms.date" content="2026-08-26" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas (ORCID: 0009-0002-4317-5604)" />
+  <meta name="dcterms.date" content="2026-09-02" />
   <title>Error Correction Is a Landauer Machine: The Thermodynamic Floor of Quantum Error-Correction Overhead</title>
   <style>
     /* Default styles provided by pandoc.
@@ -170,27 +170,15 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-<style id='JPC18-PRINT-CSS'>
-@page { size: A4; margin: 22mm 20mm; }
-body { font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.55; max-width: 170mm; margin: 0 auto; color: #111; }
-h1 { font-size: 16pt; }
-h2 { font-size: 13pt; border-bottom: 1px solid #ccc; padding-bottom: 2px; }
-table { border-collapse: collapse; width: 100%; font-size: 9.5pt; }
-th, td { border: 1px solid #999; padding: 3px 6px; text-align: left; }
-code { font-family: Consolas, monospace; font-size: 90%; }
-pre { font-size: 9pt; background: #f6f6f6; padding: 6px; }
-blockquote { font-style: italic; color: #333; }
-
-</style>
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Error Correction Is a Landauer Machine: The
 Thermodynamic Floor of Quantum Error-Correction Overhead</h1>
-<p class="author">Rowan Brad Quni-Gudzinas</p>
-<p class="date">2026-08-26</p>
+<p class="author">Rowan Brad Quni-Gudzinas (ORCID:
+0009-0002-4317-5604)</p>
+<p class="date">2026-09-02</p>
 </header>
 <h2 id="abstract">Abstract</h2>
 <p>Quantum error correction is priced almost exclusively in
@@ -705,6 +693,20 @@ Carlo, six structural checks). Reproduce with
 with runs recorded in <code>run_out.txt</code> and
 <code>h2_run_out.txt</code>. Seed: 20260826. Environment: CPython 3.x,
 no external dependencies.</p>
+<p><strong>v1.7 verification addendum (2026-09-02).</strong> Both
+verification scripts were independently re-run from this repository
+(seed 20260826, Python 3 stdlib). Outputs are byte-identical to the
+deposited evidence (git diff empty): the §7 table (48.0 flat erasures;
+tree 16.0–29.3; ratio 3.00–1.64) and the §3 floor table reproduce
+exactly. A parameter-space robustness sweep of the §7 erasure-ratio
+claim (verification_h2_sweep.py, 12 regimes: bursts c=1–4, length 4–32,
+q=0.1–0.5; 2,000 trials per regime, seed 20260826) extends the reported
+envelope: the flat/tree erasure ratio is above 1 in all 12 regimes
+(1.368–2.452), eroding toward ~1.4 at long bursts (L=32) but never
+inverting, and the naive tree construction’s residual-error penalty is
+confirmed in every non-trivial regime. Full results:
+artifacts/verification/V17-EVIDENCE-DELTA.md and
+h2_sweep_results.json.</p>
 <h2 id="references">References</h2>
 <p>[1] R. Landauer, “Irreversibility and Heat Generation in the
 Computing Process,” IBM Journal of Research and Development 5(3),
