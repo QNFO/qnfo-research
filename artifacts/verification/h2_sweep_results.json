@@ -1,0 +1,150 @@
+{
+  "seed": 20260826,
+  "trials_per_regime": 2000,
+  "results": [
+    {
+      "regime": "burst c=1 L=4 q=0.3",
+      "p_uniform": 0.005,
+      "n_bursts": 1,
+      "burst_len": 4,
+      "burst_q": 0.3,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 19.682,
+      "energy_ratio_flat_over_tree": 2.439,
+      "mean_residual_bits_flat": 0.505,
+      "mean_residual_bits_tree": 0.66
+    },
+    {
+      "regime": "burst c=1 L=16 q=0.3",
+      "p_uniform": 0.005,
+      "n_bursts": 1,
+      "burst_len": 16,
+      "burst_q": 0.3,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 23.88,
+      "energy_ratio_flat_over_tree": 2.01,
+      "mean_residual_bits_flat": 2.944,
+      "mean_residual_bits_tree": 4.922
+    },
+    {
+      "regime": "burst c=1 L=8 q=0.1",
+      "p_uniform": 0.005,
+      "n_bursts": 1,
+      "burst_len": 8,
+      "burst_q": 0.1,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 19.574,
+      "energy_ratio_flat_over_tree": 2.452,
+      "mean_residual_bits_flat": 0.1815,
+      "mean_residual_bits_tree": 0.352
+    },
+    {
+      "regime": "burst c=1 L=8 q=0.5",
+      "p_uniform": 0.005,
+      "n_bursts": 1,
+      "burst_len": 8,
+      "burst_q": 0.5,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 21.554,
+      "energy_ratio_flat_over_tree": 2.227,
+      "mean_residual_bits_flat": 3.074,
+      "mean_residual_bits_tree": 4.052
+    },
+    {
+      "regime": "burst c=3 L=8 q=0.3",
+      "p_uniform": 0.005,
+      "n_bursts": 3,
+      "burst_len": 8,
+      "burst_q": 0.3,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 27.156,
+      "energy_ratio_flat_over_tree": 1.768,
+      "mean_residual_bits_flat": 4.312,
+      "mean_residual_bits_tree": 6.709
+    },
+    {
+      "regime": "burst c=2 L=16 q=0.3",
+      "p_uniform": 0.005,
+      "n_bursts": 2,
+      "burst_len": 16,
+      "burst_q": 0.3,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 28.628,
+      "energy_ratio_flat_over_tree": 1.677,
+      "mean_residual_bits_flat": 6.2315,
+      "mean_residual_bits_tree": 9.988
+    },
+    {
+      "regime": "burst c=2 L=8 q=0.1",
+      "p_uniform": 0.005,
+      "n_bursts": 2,
+      "burst_len": 8,
+      "burst_q": 0.1,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 21.452,
+      "energy_ratio_flat_over_tree": 2.238,
+      "mean_residual_bits_flat": 0.395,
+      "mean_residual_bits_tree": 0.763
+    },
+    {
+      "regime": "burst c=2 L=8 q=0.5",
+      "p_uniform": 0.005,
+      "n_bursts": 2,
+      "burst_len": 8,
+      "burst_q": 0.5,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 25.04,
+      "energy_ratio_flat_over_tree": 1.917,
+      "mean_residual_bits_flat": 6.095,
+      "mean_residual_bits_tree": 8.094
+    },
+    {
+      "regime": "burst c=2 L=4 q=0.3",
+      "p_uniform": 0.005,
+      "n_bursts": 2,
+      "burst_len": 4,
+      "burst_q": 0.3,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 21.93,
+      "energy_ratio_flat_over_tree": 2.189,
+      "mean_residual_bits_flat": 1.1495,
+      "mean_residual_bits_tree": 1.56
+    },
+    {
+      "regime": "burst c=4 L=8 q=0.3",
+      "p_uniform": 0.005,
+      "n_bursts": 4,
+      "burst_len": 8,
+      "burst_q": 0.3,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 29.096,
+      "energy_ratio_flat_over_tree": 1.65,
+      "mean_residual_bits_flat": 5.954,
+      "mean_residual_bits_tree": 9.153
+    },
+    {
+      "regime": "burst c=2 L=32 q=0.3",
+      "p_uniform": 0.005,
+      "n_bursts": 2,
+      "burst_len": 32,
+      "burst_q": 0.3,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 35.086,
+      "energy_ratio_flat_over_tree": 1.368,
+      "mean_residual_bits_flat": 13.501,
+      "mean_residual_bits_tree": 21.152
+    },
+    {
+      "regime": "burst c=1 L=32 q=0.5",
+      "p_uniform": 0.005,
+      "n_bursts": 1,
+      "burst_len": 32,
+      "burst_q": 0.5,
+      "mean_erasures_flat": 48.0,
+      "mean_erasures_tree": 30.118,
+      "energy_ratio_flat_over_tree": 1.594,
+      "mean_residual_bits_flat": 13.567,
+      "mean_residual_bits_tree": 18.987
+    }
+  ]
+}
