@@ -39,7 +39,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          for pdf in papers/*/*.pdf; do
+          for pdf in papers/**/*.pdf; do
             slug="$(basename "$pdf" .pdf)"
             tag="pdf-${slug}"
             gh release delete "$tag" --yes 2>/dev/null || true
