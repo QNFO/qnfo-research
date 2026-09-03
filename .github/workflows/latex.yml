@@ -20,8 +20,8 @@ jobs:
         run: |
           set -euo pipefail
           cd papers
-          shopt -s nullglob
-          for tex in */*.tex; do
+          shopt -s globstar nullglob
+          for tex in **/*.tex; do
             d="$(dirname "$tex")"; f="$(basename "$tex")"
             (cd "$d" && tectonic "$f")
           done
