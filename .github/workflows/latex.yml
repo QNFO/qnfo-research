@@ -14,7 +14,8 @@ jobs:
       - name: Install tectonic
         run: |
           curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net | sh
-          echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
+          sudo mv -f tectonic /usr/local/bin/tectonic
+          tectonic --version
       - name: Compile LaTeX papers
         shell: bash
         run: |
