@@ -39,6 +39,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          shopt -s globstar nullglob
           for pdf in papers/**/*.pdf; do
             slug="$(basename "$pdf" .pdf)"
             tag="pdf-${slug}"
