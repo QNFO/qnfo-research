@@ -1,0 +1,42 @@
+=== NV.001 surface-code energy per logical operation ===
+  T=  300.00 K -> 2.871e-21 J/bit
+  T=   77.00 K -> 7.369e-22 J/bit
+  T=    4.00 K -> 3.828e-23 J/bit
+  T=    0.02 K -> 1.914e-25 J/bit
+  d= 3 N_c=   17 N_g=     216 E(1pJ)=2.160e-10 E_L(300K)=6.201e-19 E_L(4K)=8.268e-21
+  d= 5 N_c=   49 N_g=    1000 E(1pJ)=1.000e-09 E_L(300K)=2.871e-18 E_L(4K)=3.828e-20
+  d= 7 N_c=   97 N_g=    2744 E(1pJ)=2.744e-09 E_L(300K)=7.878e-18 E_L(4K)=1.050e-19
+  d= 9 N_c=  161 N_g=    5832 E(1pJ)=5.832e-09 E_L(300K)=1.674e-17 E_L(4K)=2.232e-19
+  d=11 N_c=  241 N_g=   10648 E(1pJ)=1.065e-08 E_L(300K)=3.057e-17 E_L(4K)=4.076e-19
+  d=15 N_c=  449 N_g=   27000 E(1pJ)=2.700e-08 E_L(300K)=7.752e-17 E_L(4K)=1.034e-18
+  d=21 N_c=  881 N_g=   74088 E(1pJ)=7.409e-08 E_L(300K)=2.127e-16 E_L(4K)=2.836e-18
+  d=31 N_c= 1921 N_g=  238328 E(1pJ)=2.383e-07 E_L(300K)=6.842e-16 E_L(4K)=9.123e-18
+Scaling: N_g(15)/N_g(9)=4.6296 (15/9)^3=4.6296  |  N_g(21)/N_g(9)=12.7037 (21/9)^3=12.7037
+=== NV.002 Margolus-Levitin bound + crossover ===
+  gap=   1e+06 Hz -> t_ML = 2.500e-07 s
+  gap=   1e+07 Hz -> t_ML = 2.500e-08 s
+  gap=   1e+08 Hz -> t_ML = 2.500e-09 s
+  gap=   1e+09 Hz -> t_ML = 2.500e-10 s
+  Gamma=   1e+06 T2=1.000e-06 gap=   1e+07 t_ML=2.500e-08 -> speed-limit-bound
+  Gamma=   1e+06 T2=1.000e-06 gap=   1e+09 t_ML=2.500e-10 -> speed-limit-bound
+  Gamma=   1e+08 T2=1.000e-08 gap=   1e+07 t_ML=2.500e-08 -> decoherence-bound
+  Gamma=   1e+08 T2=1.000e-08 gap=   1e+09 t_ML=2.500e-10 -> speed-limit-bound
+  Gamma=   1e+09 T2=1.000e-09 gap=   1e+07 t_ML=2.500e-08 -> decoherence-bound
+  Gamma=   1e+09 T2=1.000e-09 gap=   1e+09 t_ML=2.500e-10 -> speed-limit-bound
+=== NV.003 Landauer floor + ratio ===
+  d= 7 N_g=    2744 E_min(4K)=1.050e-19 E_real(1pJ)=2.744e-09 ratio=2.6e+10
+  d=11 N_g=   10648 E_min(4K)=4.076e-19 E_real(1pJ)=1.065e-08 ratio=2.6e+10
+=== NV.004 overhead normalization ===
+  d= 3 N_c=   17 N_g/logical-op=     216 log10=2.33
+  d= 5 N_c=   49 N_g/logical-op=    1000 log10=3.00
+  d= 9 N_c=  161 N_g/logical-op=    5832 log10=3.77
+  d=15 N_c=  449 N_g/logical-op=   27000 log10=4.43
+  d=21 N_c=  881 N_g/logical-op=   74088 log10=4.87
+=== NV.005 latency-energy product ===
+  d= 3 t=3.00e-06 E=2.160e-10 E*t=6.480e-16
+  d= 5 t=5.00e-06 E=1.000e-09 E*t=5.000e-15
+  d= 9 t=9.00e-06 E=5.832e-09 E*t=5.249e-14
+  d=15 t=1.50e-05 E=2.700e-08 E*t=4.050e-13
+  d=21 t=2.10e-05 E=7.409e-08 E*t=1.556e-12
+  d=31 t=3.10e-05 E=2.383e-07 E*t=7.388e-12
+product ratio (31/3): 1.140e+04 vs (31/3)^4=1.140e+04
