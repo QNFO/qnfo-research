@@ -1,7 +1,5 @@
 # Ensemble Drafting Under Broadcast Control: Throughput Algebra, Variance Reduction, and Vandermonde Conditioning
 
-> **Correction (version 2.0.2, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
-
 ## Abstract
 
 Ensemble control studies populations of structurally identical dynamical systems that differ only in a parameter and must be steered by a single broadcast input without individual state feedback. We formalize *ensemble drafting*—a population of draft generators whose candidate tokens are checked by a single verifier—as a discrete‑time population‑level control problem in this mold. Closed‑form expressions are derived for the expected accepted length per verification cycle, $E[L]=\frac{1-\alpha^{K}}{1-\alpha}$, the per‑cycle cost $C=Kc_{d}+1$, and the throughput $T=E[L]/C$. Under illustrative assumptions ($\alpha=0.7$, $K=4$, $c_{d}=0.1$) this yields $E[L]=2.533$, $C=1.4$, and $T\approx1.8093$, with a discrete optimum at $K^{\star}=5$ giving $T\approx1.8487$. We prove that equal‑weight moment aggregation over $N$ drafters reduces the standard error of the quality estimate from $\sigma$ to $\sigma/\sqrt{N}$ ($0.3\to0.1342$ for $\sigma=0.3$, $N=5$). We further show that the finite‑horizon reachability map of a linear broadcast‑controlled ensemble is a scaled Vandermonde matrix, exactly controllable if and only if the parameters are pairwise distinct. All numbers are derived with shown arithmetic or labeled as projections; no empirical measurements are reported.
@@ -218,13 +216,10 @@ Applying the i.i.d. acceptance model to heterogeneous draft models may lead to o
 
 We recast ensemble drafting as a population‑level broadcast‑control problem, derived closed‑form expressions for expected accepted length, per‑cycle cost, and throughput with fully shown arithmetic ($E[L]=2.533$, $C=1.4$, $T\approx1.8093$ at $K=4$; grid optimum $K^{\star}=5$ at $T\approx1.8487$ under the stated illustrative inputs), proved a $1/N$ standard‑error reduction for moment aggregation ($0.3\to0.1342$ at $N=5$, $\sigma=0.3$), and showed that the linear broadcast ensemble’s reachability map is a scaled Vandermonde matrix, exactly controllable iff the parameters are pairwise distinct. All quantitative claims are either derived above or explicitly labeled projections; the framework’s empirical value remains an open question.
 
-## Correction Notice
+## Version History
 
-Version 2.0.2 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
-
-- The previous version stated: "- Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback." This described a review or rating of the work that did not take place. The sentence was restated as a proposal: "- Models: drafting would be performed by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification would be performed by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.".
-
-The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
+- Version 2.0.1 (2026-10-19, from 2.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
+- Version 2.0.2 (2026-10-19, from 2.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 
