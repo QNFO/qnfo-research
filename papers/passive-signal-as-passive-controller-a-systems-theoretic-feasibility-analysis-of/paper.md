@@ -1,5 +1,7 @@
 # Passive Signal as Passive Controller: A Systems-Theoretic Feasibility Analysis of the Signal-Worker Ontology
 
+> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
+
 ## Abstract
 
 The Signal-Worker (S-W) ontology interprets the boson as a *signal* — a delocalized field instruction — and the fermion as a *worker* — the localized state that performs work, and proposes that passive, structure-encoded control is thermodynamically superior to active, energy-intensive control. A prior feasibility analysis formalized the question of whether the Signal can function as a passive control system, but left open the engineering pathway: who would use such a result, what would have to be built, and what would falsify it. This paper closes that gap. We treat the Signal as a discrete-time controller block and derive, with full arithmetic, (i) exact passivity of a discrete integrator under the modified output $y_k = x_k + \frac{1}{2}u_k$, (ii) strict passivity of a leaky integrator under $y_k = (1-\alpha)x_k + \frac{1}{2}u_k$ with dissipation rate $\delta = \alpha - \frac{\alpha^2}{2}$, verified step by step for $\alpha = 0.1$ (margin $-0.095\,x_k^2$), and (iii) a worst-case passivity degradation of $5.0$ energy units over $N = 100$ steps under output quantization with resolution $q = 0.1$. A labeled illustrative example quantifies delay margin (safety ratio $\rho \approx 4.71$), quantization energy cost ($2.5\%$ per packet), attractor radius ($r_q = 0.05$), and robustness budget ($16.7\%$ margin erosion tolerance). We conclude the hypothesis is well-posed at the block-diagram level, is TRL 1-2 as pure analysis, and identify the smallest next test: fitting a storage function to whatever Signal dynamics the corpus specifies.
@@ -62,7 +64,7 @@ for some $\delta > 0$, the system is strictly passive with dissipation rate $\de
 
 ```text
   u_k (instruction) ──► [ SIGNAL ] ──y_k──► [ WORKER ] ──► work output
-                          (delocalized)       (localized state)
+                          (delocalized) (localized state)
 ```
 
 The Signal is the controller block; the Worker is the driven plant. The re-entry question — is the Signal a *passive* control system? — becomes: does there exist a storage function $V$ such that the Signal block alone satisfies the dissipation inequality, so that the Signal can never inject more into the Worker than it has received?
@@ -230,13 +232,22 @@ All results below are the direct outputs of Section 4's derivations from the sta
 
 We have completed the feasibility arc for the Signal-Worker ontology's central engineering question. The Signal, modeled as a discrete-time controller block, is exactly passive as a pure integrator under the output map $y_k = x_k + \frac{1}{2}u_k$ and strictly passive as a leaky integrator under $y_k = (1-\alpha)x_k + \frac{1}{2}u_k$ with dissipation rate $\delta = \alpha - \frac{\alpha^2}{2}$ — a result that fails under the naive state output, with counterexample margin $+0.505$. Output quantization degrades the passivity budget by at most $N U_{\max} q/2$, which is $5.0$ energy units at the stated operating point. A labeled illustrative example quantifies the delay margin ($\rho \approx 4.71$), quantization energy cost ($2.5\%$ per packet), attractor radius ($r_q = 0.05$), and robustness budget ($16.7\%$ margin erosion tolerance). The dissipation rate $\delta$ gives the corpus's passive-versus-driven distinction a tunable control-theoretic analogue, though the mapping remains uncalibrated because the corpus supplies no dynamical equations or numerical complexity values. The hypothesis is well-posed and internally consistent at the block-diagram level; it is TRL 1–2 as pure analysis; and the smallest next test is the fitting of a storage function to whatever Signal dynamics a future specification provides, with failure defined as the nonexistence of any output map rendering the dissipation inequality satisfied.
 
+## Correction Notice
+
+Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
+
+- The previous version stated: "Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication." This described a review or rating of the work that did not take place. The sentence was restated as a proposal: "A study would verify that required sections are present and finished, cross-references resolve, the reference list is rendered from the retrieved bibliography, no assistant residue or placeholders remain, adversarial model findings are resolved, and citation existence is confirmed at publication.".
+- The previous version stated: "Independent recomputation: a separately generated script recomputed 16 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision." This described a review or rating of the work that did not take place. The sentence was restated as an assumption: "We assume that a separately generated script would recompute 16 quantitative claims from the paper's stated inputs and that 0 would differ from the stated value at the stated precision.".
+
+The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
+
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
 - Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by zai-org/glm-5.3-flash, zai-org/glm-5.3, openai/gpt-oss-120b, with the QNFO model router as a fallback.
 - Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
-- Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
-- Independent recomputation: a separately generated script recomputed 16 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
+- A study would verify that required sections are present and finished, cross-references resolve, the reference list is rendered from the retrieved bibliography, no assistant residue or placeholders remain, adversarial model findings are resolved, and citation existence is confirmed at publication.
+- We assume that a separately generated script would recompute 16 quantitative claims from the paper's stated inputs and that 0 would differ from the stated value at the stated precision.
 - Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
 
 ## References
