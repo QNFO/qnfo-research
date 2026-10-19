@@ -14,6 +14,8 @@ aliases:
 
 # “Proton Football”
 
+> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
+
 ## Epistemological Schism and the Transmogrification of Modern Particle Physics
 
 **How the “God Particle” Was Demoted to Just a “Mechanism” in the *Standard Model of Particle Physics***
@@ -23,7 +25,7 @@ aliases:
 **Contact:** rowan.quni@qnfo.org
 **ORCID:** 0009-0002-4317-5604
 **ISNI:** 0000 0005 2645 6062
-**DOI:** 10.5281/zenodo.17213753
+**URL:** https://papers.qnfo.org/papers
 **Publication Date:** 2025-09-27
 **Version:** 2.0.0
 
@@ -187,15 +189,17 @@ The experience of the naturalness crisis and the failure of the particle-hunting
 
 ---
 
-#
 ## Changelog
 
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 
+## Correction Notice
 
-## Prior Work and Related Literature
+Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
 
-This work builds on the following related research:
+- The previous version stated: "These images serve as direct, empirical evidence for the central thesis of this report: the existence of a profound epistemological schism between the formal, field-theoretic reality of modern physics and the simplified, particle-centric narrative presented to the public." This described a data deposit that did not take place. The sentence was restated as a proposal: "A study would use these images as direct, empirical evidence for the central thesis of this report: the existence of a profound epistemological schism between the formal, field-theoretic reality of modern physics and the simplified, particle-centric narrative presented to the public.".
+
+The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
 
 ## References
 
@@ -267,7 +271,7 @@ This work builds on the following related research:
 
 ### **Appendix A: Photographic Evidence of the Epistemological Schism in CERN’s Public Exhibits**
 
-This appendix contains a series of photographs taken at the CERN Science Gateway visitor center. These images serve as direct, empirical evidence for the central thesis of this report: the existence of a profound epistemological schism between the formal, field-theoretic reality of modern physics and the simplified, particle-centric narrative presented to the public. The exhibits consistently prioritize intuitive, classical analogies over conceptual fidelity, thereby reinforcing an obsolete physical ontology and contributing to the “epistemological debt” discussed in the main text.
+This appendix contains a series of photographs taken at the CERN Science Gateway visitor center. A study would use these images as direct, empirical evidence for the central thesis of this report: the existence of a profound epistemological schism between the formal, field-theoretic reality of modern physics and the simplified, particle-centric narrative presented to the public. The exhibits consistently prioritize intuitive, classical analogies over conceptual fidelity, thereby reinforcing an obsolete physical ontology and contributing to the “epistemological debt” discussed in the main text.
 
 ![](Pasted%20image%2020250927125149.png)
 
