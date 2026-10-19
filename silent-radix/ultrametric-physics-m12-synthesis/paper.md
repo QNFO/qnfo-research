@@ -9,6 +9,8 @@ modified: 2026-04-06T08:02:32Z
 ---
 
 # **ULTRAMETRIC PHYSICS RESEARCH PLAN: RATIO-BASED FOUNDATIONS**
+
+> **Correction (version 1.1.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
 **Version 2.0**
 **Date: April 6, 2026**
 
@@ -271,7 +273,7 @@ This research plan presents a framework for ultrametric physics based on **funda
 
 This research plan presents a focused, executable program for developing ultrametric physics based on fundamental scaling ratios. By rejecting anthropocentric mathematical conventions (integer primes, real continuum, base-10 decimals) and focusing on ratio-based hierarchical structures, the framework offers a unified approach to quantum computation, quantum gravity, and consciousness.
 
-The constrained methodology (0.5 FTE PI, LLM-assisted, open dissemination) demonstrates that significant foundational progress is possible without traditional resources. The 12-module structure ensures consistency and quality control while covering the essential components of the framework.
+A study using the constrained methodology (0.5 FTE PI, LLM‑assisted, open dissemination) would demonstrate that significant foundational progress is possible without traditional resources. The 12-module structure ensures consistency and quality control while covering the essential components of the framework.
 
 **Ultimate Goal**: A **paradigm shift** from number-based to ratio-based physics, developed with strict empirical discipline and rigorous mathematical foundations.
 
@@ -288,3 +290,10 @@ The constrained methodology (0.5 FTE PI, LLM-assisted, open dissemination) demon
 
 - v1.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.
 
+## Correction Notice
+
+Version 1.1.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
+
+- The previous version stated: "The constrained methodology (0.5 FTE PI, LLM-assisted, open dissemination) demonstrates that significant foundational progress is possible without traditional resources." This described empirical work that did not take place. The sentence was restated as a proposal: "A study using the constrained methodology (0.5 FTE PI, LLM‑assisted, open dissemination) would demonstrate that significant foundational progress is possible without traditional resources.".
+
+The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
