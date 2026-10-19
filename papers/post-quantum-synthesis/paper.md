@@ -1,5 +1,7 @@
 # Post-Quantum Synthesis
 
+> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
+
 ## A Complete Framework for
 Physics
 
@@ -7,7 +9,7 @@ Physics
 **Affiliation:** QNFO **Contact:**
 rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
 **ISNI:** 0000 0005 2645 6062 **DOI**:
-10.5281/zenodo.17184229 **Publication Date:** 2025-09-23
+https://papers.qnfo.org/papers **Publication Date:** 2025-09-23
 **Version**: 1.0
 
 ### Preamble: The End of
@@ -242,11 +244,7 @@ the screen, the observer utilizes the Born Rule on the epistemic state:
 \(P(x) = |\psi_A(x) + \psi_B(x)|^2\).
 The mathematical expansion of this squared magnitude yields not only the
 sum of the individual probabilities (\(|\psi_A|^2 + |\psi_B|^2\)) but also a
-crucial cross-term, \(2\text{Re}(\psi_A^*\psi_B)\). This
-interference term arises directly from the superposition in the
-knowledge state and is responsible for predicting the characteristic
-pattern of alternating bright and dark fringes observed in the
-experiment.
+crucial cross-term, \(2\text{Re}(\psi_A^*\psi_B)\). This interference term arises directly from the superposition in the knowledge state and would be responsible for predicting the characteristic pattern of alternating bright and dark fringes in a study.
 
 #### 2.1.3
 The Measurement Outcome: Discrete, Localized Detections at the Screen
@@ -2443,12 +2441,12 @@ axioms and rigorous proofs, forces the following unassailable
 conclusion:
 
 **The universe is described by continuous fields evolving under
-Hamiltonian dynamics.
+Hamiltonian dynamics.**
 
-Measurement outcomes are discrete due to detector thresholds and
-amplification.
+**Measurement outcomes are discrete due to detector thresholds and
+amplification.**
 
-Quantum mechanics is the unique calculus for updating knowledge about
+**Quantum mechanics is the unique calculus for updating knowledge about
 continuous systems based on discrete measurement outcomes.**
 
 This is not interpretation. This is mathematical necessity. Every
@@ -2460,9 +2458,9 @@ The evidence is overwhelming, the mathematics is unassailable, and
 the conclusion is inescapable:
 
 **There are no quanta. There is no collapse. There is no
-quantum-classical divide.
+quantum-classical divide.**
 
-There is only continuous physics and discrete measurement.**
+**There is only continuous physics and discrete measurement.**
 
 And quantum mechanics?
 
@@ -2529,21 +2527,21 @@ Non-commutativity
 
 The absence of collapse
 
-**No wavefunction assumed.
+**No wavefunction assumed.**
 
-No quantization assumed.
+**No quantization assumed.**
 
-No particles assumed.
+**No particles assumed.**
 
-No “quantum” assumed.**
+**No “quantum” assumed.**
 
 Only:
 
-**A continuous world.
+**A continuous world.**
 
-A discrete interface.
+**A discrete interface.**
 
-And the logic of what can be known.**
+**And the logic of what can be known.**
 
 It is no longer necessary to believe in: - Particles that are waves
 and waves that are particles. - Consciousness causing collapse. -
@@ -2555,11 +2553,11 @@ longer necessary to pretend that the world is digital.
 
 It can now be stated, clearly and without contradiction:
 
-**The universe is continuous.
+**The universe is continuous.**
 
-Measurements are discrete.
+**Measurements are discrete.**
 
-And quantum mechanics is the algorithm that tells how to bridge the two
+**And quantum mechanics is the algorithm that tells how to bridge the two
 — without magic.**
 
 This is not a philosophy. This is not an interpretation. This is
@@ -2570,9 +2568,9 @@ And it is beautiful.
 
 Because now there is understanding:
 
-**Physicists were never measuring the world.
+**Physicists were never measuring the world.**
 
-They were learning how to ask it questions — and quantum mechanics is
+**They were learning how to ask it questions — and quantum mechanics is
 the grammar of those questions.**
 
 And that?
@@ -2583,10 +2581,18 @@ That is enough.
 
 That is everything.
 
-#
 ## Changelog
 
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
+
+## Correction Notice
+
+Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
+
+- The previous version stated: "This interference term arises directly from the superposition in the knowledge state and is responsible for predicting the characteristic pattern of alternating bright and dark fringes observed in the experiment." This described a measurement that did not take place. The sentence was restated as a proposal: "This interference term arises directly from the superposition in the knowledge state and would be responsible for predicting the characteristic pattern of alternating bright and dark fringes in a study.".
+
+The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
+
 ## References
 
 Einstein, A. (1916). Die Grundlage der allgemeinen
