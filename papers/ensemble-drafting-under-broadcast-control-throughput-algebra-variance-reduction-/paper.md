@@ -1,5 +1,7 @@
 # Ensemble Drafting Under Broadcast Control: Throughput Algebra, Variance Reduction, and Vandermonde Conditioning
 
+> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
+
 ## Abstract
 
 Ensemble control studies populations of structurally identical dynamical systems that differ only in a parameter and must be steered by a single broadcast input without individual state feedback. We formalize *ensemble drafting*—a population of draft generators whose candidate tokens are checked by a single verifier—as a discrete‑time population‑level control problem in this mold. Closed‑form expressions are derived for the expected accepted length per verification cycle, $E[L]=\frac{1-\alpha^{K}}{1-\alpha}$, the per‑cycle cost $C=Kc_{d}+1$, and the throughput $T=E[L]/C$. Under illustrative assumptions ($\alpha=0.7$, $K=4$, $c_{d}=0.1$) this yields $E[L]=2.533$, $C=1.4$, and $T\approx1.8093$, with a discrete optimum at $K^{\star}=5$ giving $T\approx1.8487$. We prove that equal‑weight moment aggregation over $N$ drafters reduces the standard error of the quality estimate from $\sigma$ to $\sigma/\sqrt{N}$ ($0.3\to0.1342$ for $\sigma=0.3$, $N=5$). We further show that the finite‑horizon reachability map of a linear broadcast‑controlled ensemble is a scaled Vandermonde matrix, exactly controllable if and only if the parameters are pairwise distinct. All numbers are derived with shown arithmetic or labeled as projections; no empirical measurements are reported.
@@ -216,13 +218,23 @@ Applying the i.i.d. acceptance model to heterogeneous draft models may lead to o
 
 We recast ensemble drafting as a population‑level broadcast‑control problem, derived closed‑form expressions for expected accepted length, per‑cycle cost, and throughput with fully shown arithmetic ($E[L]=2.533$, $C=1.4$, $T\approx1.8093$ at $K=4$; grid optimum $K^{\star}=5$ at $T\approx1.8487$ under the stated illustrative inputs), proved a $1/N$ standard‑error reduction for moment aggregation ($0.3\to0.1342$ at $N=5$, $\sigma=0.3$), and showed that the linear broadcast ensemble’s reachability map is a scaled Vandermonde matrix, exactly controllable iff the parameters are pairwise distinct. All quantitative claims are either derived above or explicitly labeled projections; the framework’s empirical value remains an open question.
 
+## Correction Notice
+
+Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
+
+- The previous version stated: "This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.21.2-codeagent)." This described a review or rating of the work that did not take place. The sentence was restated as a proposal: "The drafting, reconciliation, revision, and checking of this paper would be performed by the QNFO automated research pipeline (qnfo-research-exec 0.21.2-codeagent).".
+- The previous version stated: "Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication." This described a review or rating of the work that did not take place. The sentence was restated as a proposal: "A pre‑publication checklist would include verification that required sections are present and finished, cross‑references resolve, the reference list is rendered from the retrieved bibliography, no assistant residue or placeholders remain, adversarial model findings are resolved, and citation existence is confirmed at publication.".
+- The previous version stated: "Independent recomputation: a separately generated script recomputed 16 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision." This described a review or rating of the work that did not take place. The sentence was restated as an assumption: "We assume that an independently generated script would recompute 16 quantitative claims from the paper's stated inputs and that none would differ from the stated values at the stated precision.".
+
+The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
+
 ## Provenance and AI Involvement
 
-- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.21.2-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+- The drafting, reconciliation, revision, and checking of this paper would be performed by the QNFO automated research pipeline (qnfo-research-exec 0.21.2-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
 - Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
 - Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
-- Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
-- Independent recomputation: a separately generated script recomputed 16 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
+- A pre‑publication checklist would include verification that required sections are present and finished, cross‑references resolve, the reference list is rendered from the retrieved bibliography, no assistant residue or placeholders remain, adversarial model findings are resolved, and citation existence is confirmed at publication.
+- We assume that an independently generated script would recompute 16 quantitative claims from the paper's stated inputs and that none would differ from the stated values at the stated precision.
 - Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
 
 ## References
@@ -238,7 +250,7 @@ We recast ensemble drafting as a population‑level broadcast‑control problem,
 
 ## Appendix A. Divergence report
 
-No unresolved divergences remain in the reconciled text. The conventions adopted, documented here for transparency: (i) where source drafts differed on whether the grid optimum over $K$ should be presented as a global optimum, the main text adopts the weaker and safer convention of a grid optimum over $K\in\{3,4,5,6\}$; (ii) where drafts differed on the scope of the variance‑reduction claim, the main text adopts the version conditional on assumptions A1 and A4 (independence and common $\sigma$); (iii)  The citation of the spanning‑set principle was corrected to reference [7] as required by its source text.
+No unresolved divergences remain in the reconciled text. The conventions adopted, documented here for transparency: (i) where source drafts differed on whether the grid optimum over $K$ should be presented as a global optimum, the main text adopts the weaker and safer convention of a grid optimum over $K\in\{3,4,5,6\}$; (ii) where drafts differed on the scope of the variance‑reduction claim, the main text adopts the version conditional on assumptions A1 and A4 (independence and common $\sigma$); (iii) The citation of the spanning‑set principle was corrected to reference [7] as required by its source text.
 
 ## Appendix B. Claim attribution
 
