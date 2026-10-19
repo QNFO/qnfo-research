@@ -1,5 +1,7 @@
 # Nonlinear Tree-Based Numeration Systems: Consolidated Synthesis
 
+> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
+
 **Author:** QNFO | **Date:** 2026-06-29
 **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
 
@@ -157,7 +159,7 @@ All interfaces degrade an ultrametric catalog (file system, knowledge graph) int
 
 ## 4. Production Infrastructure: Ultrametric Engine
 
-The QNFO ultrametric engine (`ask-qwav.q08.workers.dev`, v2.8) implements the core discovery principles in production:
+The QNFO ultrametric engine (`ask-qwav.q08.workers.dev`, v2.8) would implement the core discovery principles in production:
 
 ### 4.1 Deployed State
 
@@ -194,12 +196,12 @@ The QNFO ultrametric engine (`ask-qwav.q08.workers.dev`, v2.8) implements the co
 
 ```
 Workers (28 total)
-├── ask-qwav             — ultrametric discovery engine (v2.8)
+├── ask-qwav — ultrametric discovery engine (v2.8)
 ├── ultrametric-tree-api — tree API (separate worker)
-├── graph-api            — knowledge graph (graph-api.qnfo.org)
-├── qnfo-data-api        — unified data API (v2 endpoints)
-├── living-paper-api     — living paper system
-├── cms-api              — content management
+├── graph-api — knowledge graph (graph-api.qnfo.org)
+├── qnfo-data-api — unified data API (v2 endpoints)
+├── living-paper-api — living paper system
+├── cms-api — content management
 └── 22 other operational workers
 R2: qnfo/ namespace (canonical storage)
 D1: qnfo-audit (18 tables, FTS5)
@@ -252,3 +254,11 @@ Pages: deep.qwav.tech, papers.qnfo.org
 ## Changelog
 
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
+
+## Correction Notice
+
+Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
+
+- The previous version stated: "The QNFO ultrametric engine (`ask-qwav.q08.workers.dev`, v2.8) implements the core discovery principles in production:" This described a deployment that did not take place. The sentence was restated as a proposal: "The QNFO ultrametric engine (`ask-qwav.q08.workers.dev`, v2.8) would implement the core discovery principles in production:".
+
+The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
