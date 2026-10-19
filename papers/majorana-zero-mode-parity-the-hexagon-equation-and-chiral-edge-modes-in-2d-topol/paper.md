@@ -1,7 +1,5 @@
 # Majorana Zero‑Mode Parity, the Hexagon Equation, and the Necessity of Chiral Edge Modes in Two‑Dimensional Topological Superconductors
 
-> **Revised (version 1.1.0, 2026-10-19):** this version revises the previous one against the current literature and was reviewed and checked again before release. See the Version History.
-
 ## Abstract
 Topological quantum computation requires non‑Abelian anyons whose braiding implements fault‑tolerant logical gates. In two‑dimensional topological superconductors, vortices bind Majorana zero modes (MZMs) that furnish a projective braid‑group representation. A persistent open question is whether the local algebra of MZM parity operators alone fixes the full anyonic exchange matrix—including all Abelian phases—and whether consistency with the hexagon equation of the Ising modular tensor category forces the presence of chiral edge modes. We address this by (i) deriving the exchange matrix from the Clifford algebra of MZMs, (ii) imposing the hexagon constraints on the $R$‑symbols, (iii) evaluating the Gauss–Milgram sum to relate the topological spin $\theta_\sigma$ to the chiral central charge $c$, and (iv) comparing the outcome with explicit models of chiral and non‑chiral superconductors. The analysis yields a unique solution $\theta_\sigma=e^{-i\pi/4}$, $R^{\sigma\sigma}_1=e^{-i\pi/8}$, $R^{\sigma\sigma}_\psi=e^{3i\pi/8}$, and $c=1/2\pmod{8}$, thereby proving that an overall Abelian phase remains undetermined by MZM parity alone and that the hexagon equation is satisfied only when a single chiral Majorana edge mode is present. The result delineates the precise topological data required for engineering Ising anyons in superconducting platforms.
 
@@ -397,7 +395,7 @@ We have demonstrated that the algebra of Majorana zero‑mode parity operators f
 
 ## Version History
 
-- Version 1.1.0 (2026-10-19, from 1.0.0): revised against the current literature, re-reviewed and re-verified. new sections: Background and Related Work; Methods; Practical Implications and Engineering Pathways; Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report. sections folded or removed: Background. references 3 -> 10. length 2043 -> 4410 words.
+- Version 1.1.0 (2026-10-19, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Background and Related Work; Methods; Practical Implications and Engineering Pathways; Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report. sections folded or removed: Background. references 3 -> 10. length 2043 -> 4410 words.
 
 ## Provenance and AI Involvement
 
