@@ -1,7 +1,5 @@
 # Adelic Factorization of Quantum Dynamics Across All Completions of ℚ
 
-> **Revised (version 1.1.0, 2026-10-19):** this version revises the previous one against the current literature and was reviewed and checked again before release. See the Version History.
-
 ## Abstract
 Quantum theory is conventionally built on the Archimedean completion ℝ of the rational field ℚ. Ostrowski’s theorem shows that ℚ possesses infinitely many non‑Archimedean completions ℚ$_{p}$, one for each prime p, suggesting that the choice of ℝ is a convention rather than a necessity. By importing the local–global product structure of Tate’s 1950 thesis, this work proposes an adelic factorization of quantum dynamics in which a global amplitude 𝔸 decomposes as a product of local contributions 𝔸$_{v}$ over all places $v \in${$\infty$,2,3,5,…}. A formal adelic path‑integral is constructed, elementary p‑adic quantum models are outlined, the multiplicative product formula  
 \[
@@ -252,7 +250,7 @@ A speculative yet concrete program for factorizing quantum dynamics across all c
 
 ## Version History
 
-- Version 1.1.0 (2026-10-19, from 1.0.0): revised against the current literature, re-reviewed and re-verified. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 10. length 2793 -> 3287 words.
+- Version 1.1.0 (2026-10-19, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 10. length 2793 -> 3287 words.
 
 ## Provenance and AI Involvement
 
