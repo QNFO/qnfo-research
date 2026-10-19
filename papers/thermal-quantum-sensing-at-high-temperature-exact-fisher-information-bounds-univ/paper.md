@@ -1,7 +1,5 @@
 # Thermal Quantum Sensing at High Temperature: Exact Fisher‑Information Bounds, Universal Metrics, and the Work Cost of Quadratic Signals
 
-> **Revised (version 1.1.0, 2026-10-19):** this version revises the previous one against the current literature and was reviewed and checked again before release. See the Version History.
-
 ## Abstract
 
 Thermal fluctuations are usually treated as a nuisance that degrades quantum‑enhanced sensing, yet for certain signal encodings heat can improve the metrological response of a probe. We study thermal quantum sensors governed by a Hamiltonian $H$ and subjected to a unitary signal $U(\theta)=\exp(-i\theta G)$. Building on general results that relate monotone quantum Fisher‑information (QFI) metrics, their temperature dependence, and the work induced by a unitary signal, we derive closed‑form expressions for two exactly solvable models. For a single bosonic mode with a purely quadratic (squeezing‑type) generator of strength $g$, we obtain  
@@ -393,7 +391,7 @@ All derivations are fully explicit, all arithmetic steps are shown, and the resu
 
 ## Version History
 
-- Version 1.1.0 (2026-10-19, from 1.0.0): revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Extended Derivations and Worked Examples; Practical Implications and Engineering Pathways; Provenance and AI Involvement. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 8. length 3018 -> 3591 words.
+- Version 1.1.0 (2026-10-19, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Extended Derivations and Worked Examples; Practical Implications and Engineering Pathways; Provenance and AI Involvement. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 8. length 3018 -> 3591 words.
 
 ## Provenance and AI Involvement
 
