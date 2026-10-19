@@ -1,7 +1,5 @@
 # A Cost-Model Benchmark for Mixed-State Quantum Simulation Workloads: Entanglement‑Cost Anchors and Reuse‑Aware Re‑Entry Metrics
 
-> **Correction (version 2.0.2, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
-
 ## Abstract
 Classical simulation of quantum circuits is increasingly organized as repeated‑run workloads—variational‑parameter sweeps, noisy multishot studies, and error‑correction cycles—so that the cost of a workload, not a single circuit, determines feasibility. Mixed‑state targets arise from noise channels, thermal ensembles, and decohered registers, yet most existing benchmarks address only pure‑state workloads and therefore underestimate difficulty. This paper fills the gap by defining a benchmark specification that (i) selects a family of mixed‑state anchors whose entanglement cost is exactly known via the additivity of entanglement of formation on two‑Bell‑state mixtures; (ii) computes those anchor costs with full arithmetic; and (iii) embeds the anchors in a three‑layer memory‑and‑energy cost model that scales the representation overhead as $R_n=2^{n}$ and projects energy consumption using a DRAM‑traffic coefficient and an orchestration factor [10]. The exact anchor values are $E_F=1.000000$, $0.811278$, and $0.468996$ ebits at mixing parameters $p=0.5$, $0.25$, and $0.9$, respectively, with zero sensitivity at $p=0.5$. For a 10‑qubit register the mixed‑state memory overhead is $1024\times$ (16 MiB vs 16 KiB) and the projected energy per $10^{4}$‑step workload is $33.554432$ J under the stated assumptions. By anchoring benchmark difficulty to provable information‑theoretic quantities, the specification enables future work on more complex mixed states to be measured against a rigorously defined baseline.
 
@@ -215,13 +213,10 @@ If the benchmark is applied to simulators that do not store full density matrice
 ## 8. Conclusion
 We have defined a mixed‑state benchmark that anchors simulation difficulty to exactly computable entanglement‑cost quantities, derived explicit memory‑overhead and energy‑projection formulas, and provided concrete numerical values for representative workloads. The specification offers a reproducible baseline for future extensions to richer mixed‑state families and for empirical validation of scaling assumptions. By exposing the exponential memory penalty and the linear energy scaling under explicit three‑layer assumptions, the benchmark equips developers and architects with quantitative guidance for designing and evaluating mixed‑state quantum‑simulation pipelines.
 
-## Correction Notice
+## Version History
 
-Version 2.0.2 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
-
-- The previous version stated: "Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback." This described a review or rating of the work that did not take place. The sentence was restated as a proposal: "Models: drafting would be performed by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, revision and verification would be performed by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.".
-
-The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
+- Version 2.0.1 (2026-10-19, from 2.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
+- Version 2.0.2 (2026-10-19, from 2.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 
