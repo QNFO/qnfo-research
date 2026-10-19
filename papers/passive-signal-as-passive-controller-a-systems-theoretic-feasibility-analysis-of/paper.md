@@ -1,6 +1,6 @@
 # Passive Signal as Passive Controller: A Systems-Theoretic Feasibility Analysis of the Signal-Worker Ontology
 
-> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
+> **Correction (version 2.0.2, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
 
 ## Abstract
 
@@ -234,16 +234,15 @@ We have completed the feasibility arc for the Signal-Worker ontology's central e
 
 ## Correction Notice
 
-Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
+Version 2.0.2 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
 
-- The previous version stated: "Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication." This described a review or rating of the work that did not take place. The sentence was restated as a proposal: "A study would verify that required sections are present and finished, cross-references resolve, the reference list is rendered from the retrieved bibliography, no assistant residue or placeholders remain, adversarial model findings are resolved, and citation existence is confirmed at publication.".
-- The previous version stated: "Independent recomputation: a separately generated script recomputed 16 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision." This described a review or rating of the work that did not take place. The sentence was restated as an assumption: "We assume that a separately generated script would recompute 16 quantitative claims from the paper's stated inputs and that 0 would differ from the stated value at the stated precision.".
+- The previous version stated: "- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.3-codeagent)." This described a review or rating of the work that did not take place. The sentence was restated as a proposal: "The QNFO automated research pipeline (qnfo-research-exec 0.18.3-codeagent) could be used to draft, reconcile, review, revise and check this paper.".
 
 The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
 
 ## Provenance and AI Involvement
 
-- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+The QNFO automated research pipeline (qnfo-research-exec 0.18.3-codeagent) could be used to draft, reconcile, review, revise and check this paper. Language models were tools in that process; they are not authors. The named author is accountable for the content.
 - Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by zai-org/glm-5.3-flash, zai-org/glm-5.3, openai/gpt-oss-120b, with the QNFO model router as a fallback.
 - Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
 - A study would verify that required sections are present and finished, cross-references resolve, the reference list is rendered from the retrieved bibliography, no assistant residue or placeholders remain, adversarial model findings are resolved, and citation existence is confirmed at publication.
