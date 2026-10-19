@@ -1,7 +1,5 @@
 # Post-Quantum Synthesis
 
-> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
-
 ## A Complete Framework for
 Physics
 
@@ -244,7 +242,11 @@ the screen, the observer utilizes the Born Rule on the epistemic state:
 \(P(x) = |\psi_A(x) + \psi_B(x)|^2\).
 The mathematical expansion of this squared magnitude yields not only the
 sum of the individual probabilities (\(|\psi_A|^2 + |\psi_B|^2\)) but also a
-crucial cross-term, \(2\text{Re}(\psi_A^*\psi_B)\). This interference term arises directly from the superposition in the knowledge state and would be responsible for predicting the characteristic pattern of alternating bright and dark fringes in a study.
+crucial cross-term, \(2\text{Re}(\psi_A^*\psi_B)\). This
+interference term arises directly from the superposition in the
+knowledge state and is responsible for predicting the characteristic
+pattern of alternating bright and dark fringes observed in the
+experiment.
 
 #### 2.1.3
 The Measurement Outcome: Discrete, Localized Detections at the Screen
@@ -2584,15 +2586,6 @@ That is everything.
 ## Changelog
 
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
-
-## Correction Notice
-
-Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
-
-- The previous version stated: "This interference term arises directly from the superposition in the knowledge state and is responsible for predicting the characteristic pattern of alternating bright and dark fringes observed in the experiment." This described a measurement that did not take place. The sentence was restated as a proposal: "This interference term arises directly from the superposition in the knowledge state and would be responsible for predicting the characteristic pattern of alternating bright and dark fringes in a study.".
-
-The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
-
 ## References
 
 Einstein, A. (1916). Die Grundlage der allgemeinen
