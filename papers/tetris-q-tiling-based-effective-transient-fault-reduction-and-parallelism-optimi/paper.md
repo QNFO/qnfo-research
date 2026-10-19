@@ -1,5 +1,7 @@
 # TETRIS-Q: Tiling-based Effective Transient-fault Reduction and Parallelism Optimizations for Quantum Circuit Mapping
 
+> **Correction (version 2.0.1, 2026-10-19):** statements that described experiments, measurements, reviews or registrations as done were corrected; none took place. See the Correction Notice.
+
 ## Abstract
 Quantum circuit mapping on Noisy Intermediate-Scale Quantum (NISQ) devices must satisfy physical connectivity constraints while minimizing both SWAP overhead and exposure to transient faults like decoherence. Existing compilers typically optimize qubit routing and noise-aware placement independently, failing to jointly exploit spatial structure to reduce both SWAP depth and idle-time-induced decoherence. We introduce TETRIS-Q, a mapping framework that partitions the physical qubit topology into local rectangular tiles. This tiling abstraction enables a unified strategy: tile-local mapping minimizes idle qubit lifetimes, while cross-tile parallel scheduling maximizes concurrent two-qubit gate execution. By treating transient-fault probability as a function of idle duration and gate ordering, rather than just circuit depth, TETRIS-Q jointly penalizes SWAP count and cumulative idle time. On grid-heavy architectures, we project a 10–30% reduction in SWAP count [to verify] and measurable fidelity improvements over routing-only baselines [to verify]. This approach demonstrates that spatial tiling offers a robust paradigm for high-fidelity NISQ compilation.
 
@@ -23,7 +25,7 @@ The TETRIS-Q framework proceeds in three stages to jointly optimize routing and 
 By treating transient-fault probability as a function of qubit idle duration and gate execution ordering—rather than merely total circuit depth—TETRIS-Q distinguishes itself from depth-minimization-only compilers.
 
 ## 4. Results
-The performance of TETRIS-Q is evaluated on standard benchmark circuits (e.g., QASMBench, SupermarQ) mapped to grid-heavy architectures such as the IBM heavy-hex and Google Sycamore-style topologies. Compared against SABRE- and A*-based baselines, TETRIS-Q is expected to report a 10–30% reduction in total SWAP count [to verify]. 
+A study would evaluate the performance of TETRIS‑Q on standard benchmark circuits (e.g., QASMBench, SupermarQ) mapped to grid‑heavy architectures such as the IBM heavy‑hex and Google Sycamore‑style topologies. Compared against SABRE- and A*-based baselines, TETRIS-Q is expected to report a 10–30% reduction in total SWAP count [to verify]. 
 
 Furthermore, the framework is projected to yield measurable fidelity improvements on noise-simulated backends [to verify]. These improvements are attributable to reduced idle-window exposure rather than gate-count reduction alone. Finally, TETRIS-Q is expected to demonstrate increased parallel gate utilization, defined as the fraction of time slices with two or more concurrent two-qubit gates, particularly on circuits exhibiting high logical-locality [to verify].
 
@@ -39,6 +41,15 @@ TETRIS-Q presents a compelling tiling-based abstraction for quantum circuit mapp
 ## Changelog
 
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
+
+## Correction Notice
+
+Version 2.0.1 (2026-10-19) corrects statements that described empirical work as done. This paper was produced by the QNFO automated research pipeline, which retrieves literature, derives results and recomputes stated numbers; it performed no experiment, measurement, survey, human or expert review, pilot, pre-registration, ethics approval or data deposit. The corrected statements:
+
+- The previous version stated: "The performance of TETRIS-Q is evaluated on standard benchmark circuits (e.g., QASMBench, SupermarQ) mapped to grid-heavy architectures such as the IBM heavy-hex and Google Sycamore-style topologies." This described an experiment that did not take place. The sentence was restated as a proposal: "A study would evaluate the performance of TETRIS‑Q on standard benchmark circuits (e.g., QASMBench, SupermarQ) mapped to grid‑heavy architectures such as the IBM heavy‑hex and Google Sycamore‑style topologies.".
+
+The analysis and derivations are otherwise unchanged. Detected and corrected automatically (CLAIM-INTEGRITY-1).
+
 ## References
 [1] G. Li, Y. Ding, and Y. Xie, "Tackling the Qubit Mapping Problem for NISQ-Era Quantum Devices," in *Proceedings of the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)*, 2019. DOI: 10.1145/3297858.3304023
 
