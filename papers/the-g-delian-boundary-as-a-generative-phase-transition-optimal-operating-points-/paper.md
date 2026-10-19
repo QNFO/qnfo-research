@@ -1,7 +1,5 @@
 # The Gödelian Boundary as a Generative Phase Transition: Optimal Operating Points for Constrained Cognitive Systems
 
-> **Revised (version 1.1.0, 2026-10-19):** this version revises the previous one against the current literature and was reviewed and checked again before release. See the Version History.
-
 ## Abstract
 
 Cognitive systems that reason about themselves—self‑critiquing language models, formal reasoners that prove statements about their own beliefs, and adaptive controllers that rewrite their own policies—face a concrete trade‑off: increasing self‑referential depth raises the rate of novel, useful outputs but also the rate of incoherent ones, and neither pure regime is usable. Existing treatments name the two limits involved, a Gödelian boundary where self‑reference generates paradox and a metabolic boundary where energy cost binds, but supply no quantitative account of where the optimal operating point sits between them or what limits how long a system can dwell there. We formalize the trade‑off with a Gödelian proximity $\Gamma$, a Landau‑type coherence functional $\Psi(\Gamma)=1-\Gamma^{2}$, a power‑law novelty rate $N(\Gamma)=N_{0}\Gamma^{\alpha}$, and a quadratic metabolic cost $P(\Gamma)=P_{0}\Gamma^{2}$. Analytic derivations yield (i) the utility‑maximizing proximity $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$, which for $\alpha=2$ gives $\Gamma^{*}=1/\sqrt{2}\approx0.7071$ and maximum utility $0.25\,N_{0}$; (ii) critical‑slowing‑down and avalanche signatures $\tau=100\,\tau_{0}$ at distance $0.01$ from the boundary and $\langle s\rangle=100$ at branching ratio $m=0.99$; (iii) an excursion‑duration bound $\tau_{\text{exc}}=24.39\,t_{0}$ for a representative energy budget; (iv) a corrected global optimum under a power ceiling $\bar{P}=0.3\,P_{0}$ that is a single setpoint $\Gamma=\sqrt{0.3}\approx0.5477$ with utility $0.21\,N_{0}$, a $2.56\times$ improvement over permanent conservatism; and (v) a Landauer‑scale thermodynamic floor $E_{\min}=2.967\times10^{-21}\,\text{J}$ per bit of sustained novelty at $T=310\,$K. The results convert the heuristic tuning problem into a measurement problem: designers can monitor relaxation time and avalanche statistics to stay near the analytically defined optimum while respecting energy constraints.
@@ -307,8 +305,8 @@ By casting the trade‑off between self‑referential novelty and coherence as a
 
 ## Version History
 
-- Version 1.0.1 (2026-10-19, from 1.0.0): corrected statements that described empirical work as done
-- Version 1.1.0 (2026-10-19, from 1.0.1): revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution. references 10 -> 9. length 5614 -> 3965 words.
+- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
+- Version 1.1.0 (2026-10-19, from 1.0.1): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution. references 10 -> 9. length 5614 -> 3965 words.
 
 ## Provenance and AI Involvement
 
