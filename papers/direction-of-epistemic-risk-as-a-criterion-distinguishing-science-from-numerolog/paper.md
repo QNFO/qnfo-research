@@ -96,7 +96,7 @@ For each historical case a minimal probabilistic model is constructed:
 * **Base‑60 time‑keeping** – Model the adoption of a sexagesimal calendar as a function of astronomical observability versus numerological appeal.  
 * **Modern cosmological surveys** – Model the expected detection rate of dark‑energy signatures as a function of survey depth and sky coverage.
 
-Uniform priors over simple parameter spaces are assigned, and synthetic validation data are generated from the historically accepted theory (e.g., Euclidean geometry for the rope case). The procedure mirrors the out‑of‑sample validation employed in risk‑measure forecasting [8].
+A study would assign uniform priors over simple parameter spaces and generate synthetic validation data from the historically accepted theory (e.g., Euclidean geometry for the rope case). The procedure mirrors the out‑of‑sample validation employed in risk‑measure forecasting [8].
 
 ## 4. Analysis
 
@@ -228,7 +228,7 @@ Hence, under the stated predictive‑risk bound, the ERS ranking is stable to wi
 Applying the combined adaptive‑allocation and spatial‑modeling approach described in [1] reduces the required simulation budget by a factor of **50** (Section 4.1). This reduction makes the extensive out‑of‑sample validation needed for ERS computation tractable even for high‑dimensional risk models.
 
 ### 5.2 ERS Values for Historical Cases (Projection)
-Projected ERS values are obtained by constructing synthetic validation data under the historically accepted theory for each case, assigning uniform priors over simple parameter spaces, and following the ERS computation pipeline of Section 4.2. The three historical cases are qualitatively ranked as follows: the 3‑4‑5 rope framework exhibits the lowest epistemic risk, followed by the base‑60 time‑keeping framework, and then the modern cosmological survey framework, reflecting their relative predictive novelty under the synthetic assumptions. No specific numeric values are presented, as they depend on the chosen synthetic data generation process.
+A study would obtain projected ERS values by constructing synthetic validation data under the historically accepted theory for each case, assigning uniform priors over simple parameter spaces, and following the ERS computation pipeline of Section 4.2. The three historical cases are qualitatively ranked as follows: the 3‑4‑5 rope framework exhibits the lowest epistemic risk, followed by the base‑60 time‑keeping framework, and then the modern cosmological survey framework, reflecting their relative predictive novelty under the synthetic assumptions. No specific numeric values are presented, as they depend on the chosen synthetic data generation process.
 
 ### 5.3 Sensitivity to $\lambda$
 Varying the weighting parameter $\lambda$ between $0.5$ and $2$ changes ERS gaps by at most $0.12$ when predictive‑risk gaps are bounded by $0.08$, preserving the qualitative ranking of models (Section 4.4). No further quantification is provided.
@@ -282,7 +282,8 @@ A quantitative **epistemic‑risk** framework has been introduced that combines 
 
 ## Version History
 
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. references 8 -> 8. length 3278 -> 3353 words.
+- Version 1.1.0 (2026-10-20, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 8 -> 8. length 3278 -> 3353 words.
+- Version 1.1.1 (2026-10-20, from 1.1.0): wording: 2 sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 
