@@ -1,0 +1,172 @@
+{
+  "Quantinuum H-series": [
+    {
+      "title": "A Race-Track Trapped-Ion Quantum Processor",
+      "year": 2023,
+      "doi": "https://doi.org/10.1103/physrevx.13.041052"
+    },
+    {
+      "title": "IBM quantum computers: evolution, performance, and future directions",
+      "year": 2025,
+      "doi": "https://doi.org/10.1007/s11227-025-07047-7"
+    },
+    {
+      "title": "A Race Track Trapped-Ion Quantum Processor",
+      "year": 2023,
+      "doi": "https://doi.org/10.48550/arxiv.2305.03828"
+    }
+  ],
+  "QuEra Aquila": [
+    {
+      "title": "IBM Quantum Computers: Evolution, Performance, and Future Directions",
+      "year": 2024,
+      "doi": "https://doi.org/10.48550/arxiv.2410.00916"
+    },
+    {
+      "title": "Quantum Memory: A Missing Piece in Quantum Computing Units",
+      "year": 2023,
+      "doi": "https://doi.org/10.48550/arxiv.2309.14432"
+    },
+    {
+      "title": "COBI: A Coupled Oscillator Based Ising Chip for Combinatorial Optimization",
+      "year": 2024,
+      "doi": "https://doi.org/10.21203/rs.3.rs-4208492/v1"
+    }
+  ],
+  "Pasqal": [
+    {
+      "title": "IBM quantum computers: evolution, performance, and future directions",
+      "year": 2025,
+      "doi": "https://doi.org/10.1007/s11227-025-07047-7"
+    },
+    {
+      "title": "Rearrangement of individual atoms in a 2000-site optical-tweezer array at cryogenic temperatures",
+      "year": 2024,
+      "doi": "https://doi.org/10.1103/physrevapplied.22.024073"
+    },
+    {
+      "title": "Networked Quantum Services\u2020",
+      "year": 2025,
+      "doi": "https://doi.org/10.2478/qic-2025-0006"
+    }
+  ],
+  "IQM": [
+    {
+      "title": "When software engineering meets quantum computing",
+      "year": 2022,
+      "doi": "https://doi.org/10.1145/3512340"
+    },
+    {
+      "title": "Integrating quantum computing resources into scientific HPC ecosystems",
+      "year": 2024,
+      "doi": "https://doi.org/10.1016/j.future.2024.06.058"
+    },
+    {
+      "title": "Qibolab: an open-source hybrid quantum operating system",
+      "year": 2024,
+      "doi": "https://doi.org/10.22331/q-2024-02-12-1247"
+    }
+  ],
+  "IBM Heron": [
+    {
+      "title": "IBM quantum computers: evolution, performance, and future directions",
+      "year": 2025,
+      "doi": "https://doi.org/10.1007/s11227-025-07047-7"
+    },
+    {
+      "title": "Quantum Computing for High-Energy Physics: State of the Art and Challenges",
+      "year": 2024,
+      "doi": "https://doi.org/10.1103/prxquantum.5.037001"
+    },
+    {
+      "title": "IBM Quantum Computers: Evolution, Performance, and Future Directions",
+      "year": 2024,
+      "doi": "https://doi.org/10.48550/arxiv.2410.00916"
+    }
+  ],
+  "Xanadu Borealis": [
+    {
+      "title": "Quantum computational advantage with a programmable photonic processor",
+      "year": 2022,
+      "doi": "https://doi.org/10.1038/s41586-022-04725-x"
+    },
+    {
+      "title": "Toward scalable fault-tolerant photonic quantum computers",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/s11227-025-08132-7"
+    },
+    {
+      "title": "Recent progress towards large-scale integrated photonic quantum computation",
+      "year": 2026,
+      "doi": "https://doi.org/10.1038/s44310-026-00114-8"
+    }
+  ],
+  "Origin Quantum": [
+    {
+      "title": "Hierarchical Group-Extended Quantum Fourier Transform for Robust and Interpretable Quantum Feature Extraction",
+      "year": 2026,
+      "doi": "https://doi.org/10.21203/rs.3.rs-9025597/v1"
+    },
+    {
+      "title": "Metriq: A Collaborative Platform for Benchmarking Quantum Computers",
+      "year": 2026,
+      "doi": null
+    },
+    {
+      "title": "Evaluating the performance of quantum processing units at large width and depth",
+      "year": 2025,
+      "doi": "https://doi.org/10.48550/arxiv.2502.06471"
+    }
+  ],
+  "Alice Bob cat qubits": [
+    {
+      "title": "Quantum repeaters: From quantum networks to the quantum internet",
+      "year": 2023,
+      "doi": "https://doi.org/10.1103/revmodphys.95.045006"
+    },
+    {
+      "title": "Quantum Key Distribution",
+      "year": 2020,
+      "doi": "https://doi.org/10.1145/3402192"
+    },
+    {
+      "title": "Long distance multiplexed quantum teleportation from a telecom photon to a solid-state qubit",
+      "year": 2023,
+      "doi": "https://doi.org/10.1038/s41467-023-37518-5"
+    }
+  ],
+  "PSiQuantum": [
+    {
+      "title": "Toward scalable fault-tolerant photonic quantum computers",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/s11227-025-08132-7"
+    },
+    {
+      "title": "The Quantum Governance Stack: Models of Governance for Quantum Information Technologies",
+      "year": 2022,
+      "doi": "https://doi.org/10.1007/s44206-022-00019-x"
+    },
+    {
+      "title": "Waveguide integrated superconducting nanowire single-photon detectors for integrated photonics",
+      "year": 2025,
+      "doi": "https://doi.org/10.1088/1361-6463/add946"
+    }
+  ],
+  "Microsoft Majorana": [
+    {
+      "title": "Engineering the quantum-classical interface of solid-state qubits",
+      "year": 2015,
+      "doi": "https://doi.org/10.1038/npjqi.2015.11"
+    },
+    {
+      "title": "Overview and Comparison of Gate Level Quantum Software Platforms",
+      "year": 2019,
+      "doi": "https://doi.org/10.22331/q-2019-03-25-130"
+    },
+    {
+      "title": "Standard model physics and the digital quantum revolution: thoughts about the interface",
+      "year": 2022,
+      "doi": "https://doi.org/10.1088/1361-6633/ac58a4"
+    }
+  ]
+}
