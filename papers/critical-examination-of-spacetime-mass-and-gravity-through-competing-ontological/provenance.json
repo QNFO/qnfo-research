@@ -12,18 +12,15 @@
     "dois": [
       {
         "doi": "10.5281/zenodo.22737538",
-        "source": "README.md",
-        "registrar": "zenodo-legacy"
+        "source": "README.md"
       },
       {
         "doi": "10.5281/zenodo.16732364",
-        "source": "paper.md",
-        "registrar": "zenodo-legacy"
+        "source": "paper.md"
       },
       {
         "doi": "10.5281/zenodo.16730345",
-        "source": "paper.md",
-        "registrar": "zenodo-legacy"
+        "source": "paper.md"
       }
     ]
   },

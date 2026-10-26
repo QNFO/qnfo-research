@@ -43,7 +43,7 @@ Missing or weak:
 | Deposit ledger | `publication_artifacts`: **0** rows for any GitHub deposit (4 unrelated `poster` rows) | unquoted SQL (`datetime(now)`) in an empty `catch`, plus `publication_id INTEGER` receiving a slug |
 | `bytes` in v1 manifests | wrong for **1,843 of 2,338** files | JS `String.length` (UTF-16 units), not bytes. Hashes are unaffected |
 | License statements | 102 papers say *QNFO-ULA v2.0*, 38 say *CC BY 4.0*; the repository LICENSE is *ULA v2.1* | recorded per paper in `provenance.json`; not rewritten |
-| DOIs | 12 papers declare more than one distinct DOI (README vs header); all are legacy Zenodo | recorded as `registrar: zenodo-legacy` |
+| DOIs | 12 papers declare more than one distinct DOI (README vs header); all are from the earlier external deposits | recorded as declared in `provenance.json`; nothing relies on them |
 | Verification scripts whose record cannot be reproduced | **2** of 388 | cycle-217 prints different output on every run (it orders objects by identity); cycle-26's recorded output ends in `Network connection lost.` |
 
 Reproducibility of the verification step, re-executed on Python 3.13.17 exactly as the pipeline runs it

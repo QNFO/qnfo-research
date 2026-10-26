@@ -117,7 +117,7 @@ commit that introduces it.
 | JSON Schema 2020-12 | `schemas/` | The two record types are validated against these files by the tool itself. |
 | GitHub Git Data API | the atomic deposit (section 6) | blobs, tree, commit, then one ref update: all or nothing. |
 | in-toto / SLSA provenance | **not adopted yet** | They attest a builder identity with a signing key. The pipeline has no signing identity; an unsigned attestation adds a format, not trust. Revisit when the deposit commit is signed. |
-| DOI registration (Zenodo) | **not used for new papers** | The fleet publishes in-house and writes `doi` NULL (`NOZ-DOI-1`, `NO-REGISTRAR-1`; no external DOI deposit since 2026-10-10). Legacy DOIs found in READMEs are recorded as `registrar: zenodo-legacy`; nothing relies on them. |
+| DOI registration | **not used for new papers** | The fleet publishes in-house and writes `doi` NULL (`NOZ-DOI-1`, `NO-REGISTRAR-1`; no external DOI deposit since 2026-10-10). A DOI found in an older README or header is recorded as declared in `provenance.json`; nothing relies on it. |
 
 ## 5. Fixity and immutability rules
 

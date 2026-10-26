@@ -34,8 +34,7 @@
             "required": ["doi", "source"],
             "properties": {
               "doi": { "type": "string", "pattern": "^10\\.\\d{4,9}/\\S+$" },
-              "source": { "enum": ["README.md", "paper.md"] },
-              "registrar": { "enum": ["zenodo-legacy", "other"] }
+              "source": { "enum": ["README.md", "paper.md"] }
             }
           }
         }

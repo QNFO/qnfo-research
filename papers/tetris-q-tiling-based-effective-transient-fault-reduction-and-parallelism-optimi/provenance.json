@@ -12,8 +12,7 @@
     "dois": [
       {
         "doi": "10.5281/zenodo.22739633",
-        "source": "README.md",
-        "registrar": "zenodo-legacy"
+        "source": "README.md"
       }
     ]
   },

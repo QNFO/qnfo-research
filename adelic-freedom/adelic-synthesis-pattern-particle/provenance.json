@@ -12,28 +12,23 @@
     "dois": [
       {
         "doi": "10.5281/zenodo.22741636",
-        "source": "README.md",
-        "registrar": "zenodo-legacy"
+        "source": "README.md"
       },
       {
         "doi": "10.5281/zenodo.21208366",
-        "source": "paper.md",
-        "registrar": "zenodo-legacy"
+        "source": "paper.md"
       },
       {
         "doi": "10.5281/zenodo.21208368",
-        "source": "paper.md",
-        "registrar": "zenodo-legacy"
+        "source": "paper.md"
       },
       {
         "doi": "10.5281/zenodo.21208491",
-        "source": "paper.md",
-        "registrar": "zenodo-legacy"
+        "source": "paper.md"
       },
       {
         "doi": "10.5281/zenodo.21208370",
-        "source": "paper.md",
-        "registrar": "zenodo-legacy"
+        "source": "paper.md"
       }
     ]
   },

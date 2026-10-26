@@ -200,7 +200,7 @@ class TestVerify(Base):
         pj = self.root / "papers/alpha-paper/provenance.json"
         rec = json.loads(pj.read_text())
         self.assertEqual(rec["declared"]["version"], "2.0.0")
-        self.assertEqual(rec["declared"]["dois"][0]["registrar"], "zenodo-legacy")
+        self.assertEqual(rec["declared"]["dois"][0], {"doi": "10.5281/zenodo.123456", "source": "README.md"})
         self.assertEqual(rec["declared"]["license"], "CC BY 4.0")
         self.assertEqual(rec["runs"][0]["match"], "slug-exact")
         rec["slug"] = 5

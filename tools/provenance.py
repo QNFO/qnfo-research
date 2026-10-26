@@ -812,10 +812,7 @@ def declared_of(d: Path) -> Dict[str, Any]:
             doi = m.group(1).rstrip(".,;")
             if (doi, src) not in seen:
                 seen.add((doi, src))
-                entry = {"doi": doi, "source": src}
-                if doi.startswith("10.5281/zenodo."):
-                    entry["registrar"] = "zenodo-legacy"
-                dois.append(entry)
+                dois.append({"doi": doi, "source": src})
     lic = _first(r"^License:\s*(.+)$", readme, re.M)
     ver = _first(r"\*\*Version:\*\*\s*([0-9][^\s*]*)", head)
     return {"version": ver, "license": lic, "dois": dois}

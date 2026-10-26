@@ -12,13 +12,11 @@
     "dois": [
       {
         "doi": "10.5281/zenodo.22757216",
-        "source": "README.md",
-        "registrar": "zenodo-legacy"
+        "source": "README.md"
       },
       {
         "doi": "10.5281/zenodo.18466521",
-        "source": "paper.md",
-        "registrar": "zenodo-legacy"
+        "source": "paper.md"
       }
     ]
   },
