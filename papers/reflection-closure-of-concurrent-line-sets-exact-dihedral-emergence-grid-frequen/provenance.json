@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "reflection-closure-of-concurrent-line-sets-exact-dihedral-emergence-grid-frequen",
+  "paper": {
+    "path": "papers/reflection-closure-of-concurrent-line-sets-exact-dihedral-emergence-grid-frequen/paper.md",
+    "title": "Reflection Closure of Concurrent Line Sets: Exact Dihedral Emergence, Grid Frequency Laws, and the Finite/Infinite Dichotomy",
+    "url": "https://papers.qnfo.org/papers/reflection-closure-of-concurrent-line-sets-exact-dihedral-emergence-grid-frequen"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "reflection-closure-of-concurrent-line-sets-exact-dihedral-emergence-grid-frequen"
+  },
+  "snapshots": [
+    {
+      "sha256": "93b0f6df48cb703f46814d9569daaa67be8caec6e081f159def8ff26b767d362",
+      "bytes": 49010,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

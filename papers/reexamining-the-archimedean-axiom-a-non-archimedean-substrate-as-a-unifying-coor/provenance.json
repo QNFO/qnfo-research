@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor",
+  "paper": {
+    "path": "papers/reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor/paper.md",
+    "title": "Reexamining the Archimedean Axiom: A Non‑Archimedean Substrate as a Unifying Coordinate Choice in Theoretical Physics",
+    "url": "https://papers.qnfo.org/papers/reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor"
+  },
+  "snapshots": [
+    {
+      "sha256": "0029df9d1e59af17f0548fb266dc1944f5890c985ce7e8c627f9b948e7b27a47",
+      "bytes": 21533,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

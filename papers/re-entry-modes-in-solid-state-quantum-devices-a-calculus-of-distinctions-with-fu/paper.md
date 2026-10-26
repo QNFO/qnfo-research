@@ -273,8 +273,3 @@ We asked whether re‑entry, the self‑referential operation identified in the 
 [5] Lambda- and Schottky-anomalies in solid-state phase transitions. arXiv:1104.4637v1. https://arxiv.org/abs/1104.4637v1
 [6] https://papers.qnfo.org/papers/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu. QNFO: Re-Entry Modes in Solid-State Quantum Devices: A Calculus of Distinctions with Fully Shown Quantitative Benchmarks.
 [7] https://papers.qnfo.org/papers/jpcub-competitive-landscape. QNFO: JPCUB Competitive Landscape v2.0: System-Level Joules-per-Solution Estimates for 17 Quantum Computing Platforms from Published Specifications.
-
-## Appendix A. Divergence report
-
-No divergences were identified; all substantive claims are retained unchanged.
-
