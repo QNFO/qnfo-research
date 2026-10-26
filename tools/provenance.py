@@ -843,6 +843,19 @@ def title_of(d: Path) -> Optional[str]:
     return None
 
 
+def paper_prior(repo: Repo, prog: str, slug: str) -> Optional[Dict[str, Any]]:
+    pj = repo.root / prog / slug / "provenance.json"
+    obj, _ = read_json(pj) if pj.is_file() else (None, None)
+    return obj if isinstance(obj, dict) else None
+
+
+def recorded_title(prior: Any) -> Optional[str]:
+    """The title a paper's provenance.json already holds. qnfo-research-exec records the living-paper title, which most pipeline papers
+    do not repeat as a first-level heading, so a rebuild keeps it and reads the heading only when nothing is recorded."""
+    t = ((prior or {}).get("paper") or {}).get("title") if isinstance(prior, dict) else None
+    return t if isinstance(t, str) and t.strip() else None
+
+
 def build_paper_record(repo: Repo, prog: str, slug: str, runs: List[Tuple[str, str]], observed_at: str,
                        prior: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     d = repo.root / prog / slug
@@ -860,7 +873,7 @@ def build_paper_record(repo: Repo, prog: str, slug: str, runs: List[Tuple[str, s
                          "manifest_sha256": sha256_file(mp) if mp.is_file() else None})
     rec: Dict[str, Any] = {
         "schema": PAPER_SCHEMA, "slug": slug,
-        "paper": {"path": f"{prog}/{slug}/paper.md", "title": title_of(d), "url": f"https://papers.qnfo.org/papers/{slug}"},
+        "paper": {"path": f"{prog}/{slug}/paper.md", "title": recorded_title(prior) or title_of(d), "url": f"https://papers.qnfo.org/papers/{slug}"},
         "declared": declared_of(d), "runs": run_recs,
         "identifiers": (prior or {}).get("identifiers", {"research_queue_ids": [], "living_paper_slug": slug}),
         "snapshots": snaps, "events": (prior or {}).get("events", []),
@@ -886,7 +899,7 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True, refresh_
     papers = repo.discover_papers()
     linked, unlinked = link_runs((s for _, s in papers), runs)
     run_paper = {rp: ps for ps, rl in linked.items() for rp, _ in rl}
-    titles = {s: title_of(repo.root / p / s) for p, s in papers}
+    titles = {s: recorded_title(paper_prior(repo, p, s)) or title_of(repo.root / p / s) for p, s in papers}
     gaps: List[Dict[str, Any]] = []
     prior_rows = {(g.get("kind"), g.get("path")): g for g in load_gaps(repo).get("gaps", [])}
     for rp in runs:

@@ -186,6 +186,23 @@ class TestVerify(Base):
         self.assertEqual(act["qnfo:comparison"], "not-reproduced")
         self.assertEqual(act["endTime"], "2026-11-30")
 
+    def test_a_recorded_title_survives_a_rebuild(self):
+        # qnfo-research-exec records the living-paper title; the pipeline's papers carry no first-level heading, so a title
+        # re-read from paper.md would turn into null (and the run's crate name into the slug) at every catch-up.
+        make_repo(self.root)
+        paper = self.root / "papers/alpha-paper"
+        write(paper / "paper.md", "## Alpha Paper, without a first-level heading\n\n**Version:** 2.0.0\n\nBody.\n")
+        pv.backfill(self.repo(), "2026-10-26")
+        rec = json.loads((paper / "provenance.json").read_text())
+        self.assertIsNone(rec["paper"]["title"])
+        rec["paper"]["title"] = "Alpha Paper (living-paper title)"
+        write(paper / "provenance.json", pv.dump_json(rec))
+        pv.backfill(self.repo(), "2026-11-30", refresh_reexecution=True)
+        self.assertEqual(json.loads((paper / "provenance.json").read_text())["paper"]["title"], "Alpha Paper (living-paper title)")
+        crate = json.loads((self.root / "runs/cycle-2/alpha-paper" / pv.CRATE_FILE).read_text())
+        self.assertIn("QNFO research run cycle-2: Alpha Paper (living-paper title)", json.dumps(crate))
+        self.assertEqual(pv.backfill(self.repo(), "2026-11-30")["papers"], 0)
+
     def test_backfill_is_idempotent(self):
         make_repo(self.root)
         pv.backfill(self.repo(), "2026-10-26")
