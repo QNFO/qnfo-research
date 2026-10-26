@@ -3,7 +3,7 @@
   "slug": "chapter-1",
   "paper": {
     "path": "papers/chapter-1/paper.md",
-    "title": "Part I: Observing Ignorance",
+    "title": "Observing Ignorance: A Unified Theoretical Framework for Information Awareness",
     "url": "https://papers.qnfo.org/papers/chapter-1"
   },
   "declared": {
@@ -31,6 +31,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "f0ff8f548bd3dd25e8424e55bbb79167cf4c7b5c"
+    },
+    {
+      "sha256": "53f417f1e5060a9d811ff17ffa4a92d447c50bb5ae2f24ce97a8733c0b627ff1",
+      "bytes": 20152,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "1.2.0",
+      "git_commit": null
     }
   ],
   "events": []

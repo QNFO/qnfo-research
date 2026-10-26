@@ -255,22 +255,3 @@ By integrating ordinal‑game ignorance, sparse‑signal reconstruction, reinfor
 [6] Collaborative Information Bottleneck. arXiv:1604.01433v4. https://arxiv.org/abs/1604.01433v4
 [7] https://papers.qnfo.org/papers/chapter-2. QNFO: 2. The Shaping of Unawareness.
 [8] https://papers.qnfo.org/papers/chapter-1. QNFO: Part I: Observing Ignorance.
-
-## Appendix A. Divergence report
-*No divergent claims were identified among the source drafts; all substantive statements converge on the same qualitative and quantitative foundations.*
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | Formal information‑ecosystem model unifies three methodological strands. | A, B, C | Convergent |
-| C2 | Fourier‑coefficient usage for $200\times200$ image is $0.30\%$. | A, B, C | Convergent |
-| C3 | Robotic training throughput is $1.32\times10^{7}$ steps h$^{-1}$. | A, B, C | Convergent |
-| C4 | AlphaGo processing rate is $2.14\times10^{4}$ positions GPU$^{-1}$ day$^{-1}$. | A, B, C | Convergent |
-| C5 | Representative agent awareness $A_i=0.45$. | A, B, C | Convergent |
-| C6 | Single‑agent relevance ceiling $ \mu_1 \le 1$ bit (12.5 % of assumed $8$‑bit relevance). | B, C | Convergent |
-| C7 | Two‑agent relevance ceiling $ \mu_2 \le 2$ bits (25 % of assumed $8$‑bit relevance) and collaborative advantage $\Delta\mu = R_2 = 1$ bit. | B, C | Convergent |
-| C8 | Zero‑rate corollary: exclusion can eliminate entire relevance components. | B, C | Convergent |
-| C9 | Coarse‑belief rate deficit: a belief set of size $4$ out of $16$ yields a $50\%$ rate deficit. | B, C | Convergent |
-| C10 | Structural recoverability: $0.2\%$ of Fourier coefficients suffice for a $200\times200$ binary image. | B, C | Convergent |
-| C11 | Interpretation of quantitative results for policy, education, and platform design. | A, B, C | Convergent |
-| C12 | TRL assessment (TRL 2) and proposal for the smallest empirical test (FFT reconstruction pilot). | A, B, C | Convergent |

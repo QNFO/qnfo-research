@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "category-theoretic-unification-of-marginalised-formalisms-translating-invariants",
+  "paper": {
+    "path": "papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants/paper.md",
+    "title": "Category-Theoretic Unification of Marginalised Formalisms: Translating Invariants across Six Systems",
+    "url": "https://papers.qnfo.org/papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "category-theoretic-unification-of-marginalised-formalisms-translating-invariants"
+  },
+  "snapshots": [
+    {
+      "sha256": "e80870ae76a276c9ec0b78ee33168c9aa683564f9ec6827fca6fdb943e92a8a8",
+      "bytes": 23386,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
