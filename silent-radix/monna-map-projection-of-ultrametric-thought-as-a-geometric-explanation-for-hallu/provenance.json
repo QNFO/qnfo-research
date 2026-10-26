@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
+  "paper": {
+    "path": "silent-radix/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu/paper.md",
+    "title": "Monna‑Map Projection of Ultrametric Thought as a Geometric Explanation for Hallucination in Large Language Models",
+    "url": "https://papers.qnfo.org/papers/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu"
+  },
+  "snapshots": [
+    {
+      "sha256": "91d3ff133d63a84ad4e7a8c23ee214ab9e476f076839d5604a7d2bb1224a6534",
+      "bytes": 20101,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

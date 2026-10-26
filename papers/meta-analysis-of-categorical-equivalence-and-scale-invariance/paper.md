@@ -7,7 +7,6 @@ Affiliation: QNFO
 Email: rowan.quni@qnfo.org  
 ORCID: 0009-0002-4317-5604  
 ISNI: 0000000526456062  
-DOI: 10.5281/zenodo.17120549
 Version: 1.0  
 Date: 2025-09-15
 aliases:
@@ -480,12 +479,6 @@ The plan accurately represents the distinction between “fundamental scale inva
 ### 14.0 Conclusion
 
 This research plan is not merely aligned with the overarching generative focal point; it embodies it completely. The roadmap systematically advances each core component of the framework through rigorous theoretical meta-analysis, while maintaining proper scientific positioning and accurately representing the mathematical structures documented in the literature. Each deliverable addresses a specific gap in understanding while contributing to the coherent development of the category-theoretic framework for scale-invariant wave mechanics as a relational approach to physical theory. This structured approach ensures that the investigation into categorical equivalence and scale invariance will yield a robust and well-supported theoretical contribution.
-
-
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-
 
 
 ## Verification and Computational Artifacts

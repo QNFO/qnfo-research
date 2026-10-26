@@ -3,7 +3,7 @@
   "slug": "meta-analysis-of-categorical-equivalence-and-scale-invariance",
   "paper": {
     "path": "papers/meta-analysis-of-categorical-equivalence-and-scale-invariance/paper.md",
-    "title": null,
+    "title": "Meta-Analysis of Categorical Equivalence and Scale Invariance",
     "url": "https://papers.qnfo.org/papers/meta-analysis-of-categorical-equivalence-and-scale-invariance"
   },
   "declared": {
@@ -13,10 +13,6 @@
       {
         "doi": "10.5281/zenodo.22756824",
         "source": "README.md"
-      },
-      {
-        "doi": "10.5281/zenodo.17120549",
-        "source": "paper.md"
       }
     ]
   },
@@ -33,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "e55673bbc5920799f115e636d954bd5541770dc9"
+    },
+    {
+      "sha256": "f23e6be81e7cb445492587f0ef0944a886e26c3e1125f89e9e41987ebb91ed61",
+      "bytes": 51989,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

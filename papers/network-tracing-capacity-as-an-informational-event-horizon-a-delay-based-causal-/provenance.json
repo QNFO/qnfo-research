@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-",
+  "paper": {
+    "path": "papers/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-/paper.md",
+    "title": "Network Tracing Capacity as an Informational Event Horizon: A Delay-Based Causal Bound for Networked Control",
+    "url": "https://papers.qnfo.org/papers/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-"
+  },
+  "snapshots": [
+    {
+      "sha256": "f57e0a75dccbad3bb175197a1ca446e8bb7b41eb52206306657fb2093f2adfda",
+      "bytes": 42390,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
