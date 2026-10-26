@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "disaggregating-the-photonic-substrate-claim-a-falsifiability-first-audit-of-sub-",
+  "paper": {
+    "path": "papers/disaggregating-the-photonic-substrate-claim-a-falsifiability-first-audit-of-sub-/paper.md",
+    "title": "Disaggregating the Photonic‑Substrate Claim: A Falsifiability‑First Audit of Sub‑Hypotheses H1–H4",
+    "url": "https://papers.qnfo.org/papers/disaggregating-the-photonic-substrate-claim-a-falsifiability-first-audit-of-sub-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "disaggregating-the-photonic-substrate-claim-a-falsifiability-first-audit-of-sub-"
+  },
+  "snapshots": [
+    {
+      "sha256": "81a1604b1ad68feecc0acb999ca0931cb84e38910665a3a3a31733c7e66cce62",
+      "bytes": 19925,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

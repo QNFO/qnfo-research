@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "discrete-scale-invariance-without-a-universal-factor-why-the-efimov-data-refute-",
+  "paper": {
+    "path": "papers/discrete-scale-invariance-without-a-universal-factor-why-the-efimov-data-refute-/paper.md",
+    "title": "Discrete Scale Invariance Without a Universal Factor: Why the Efimov Data Refute Factor-2 Log-Periodicity Across Fundamental Physics",
+    "url": "https://papers.qnfo.org/papers/discrete-scale-invariance-without-a-universal-factor-why-the-efimov-data-refute-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "discrete-scale-invariance-without-a-universal-factor-why-the-efimov-data-refute-"
+  },
+  "snapshots": [
+    {
+      "sha256": "b2201bfcd4b8c2a52f65e6179e00c6d577435e9da024563e7a7e7a55b0f7550f",
+      "bytes": 32869,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

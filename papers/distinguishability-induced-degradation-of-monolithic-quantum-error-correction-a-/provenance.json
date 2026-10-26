@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "distinguishability-induced-degradation-of-monolithic-quantum-error-correction-a-",
+  "paper": {
+    "path": "papers/distinguishability-induced-degradation-of-monolithic-quantum-error-correction-a-/paper.md",
+    "title": "Distinguishability-Induced Degradation of Monolithic Quantum Error Correction: A Reconciled Analytic Study of Syndrome-Checking Constraints",
+    "url": "https://papers.qnfo.org/papers/distinguishability-induced-degradation-of-monolithic-quantum-error-correction-a-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "distinguishability-induced-degradation-of-monolithic-quantum-error-correction-a-"
+  },
+  "snapshots": [
+    {
+      "sha256": "776ef158ecd28a149707feab675b31b4dbab77eb5ecfb59e85aa185516bd20b6",
+      "bytes": 26909,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

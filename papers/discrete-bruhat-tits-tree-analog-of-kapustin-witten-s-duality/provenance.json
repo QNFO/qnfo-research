@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
+  "paper": {
+    "path": "papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality/paper.md",
+    "title": "Discrete Bruhat–Tits Tree Analog of Kapustin–Witten S‑Duality",
+    "url": "https://papers.qnfo.org/papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality"
+  },
+  "snapshots": [
+    {
+      "sha256": "d6588bed9d222a0f3ca90a5431e456e275648980291eaeeebe6f1b844f94be84",
+      "bytes": 24308,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
