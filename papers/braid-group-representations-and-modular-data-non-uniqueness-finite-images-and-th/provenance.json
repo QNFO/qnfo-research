@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "braid-group-representations-and-modular-data-non-uniqueness-finite-images-and-th",
+  "paper": {
+    "path": "papers/braid-group-representations-and-modular-data-non-uniqueness-finite-images-and-th/paper.md",
+    "title": "Braid Group Representations and Modular Data: Non-Uniqueness, Finite Images, and the Ising Test Case",
+    "url": "https://papers.qnfo.org/papers/braid-group-representations-and-modular-data-non-uniqueness-finite-images-and-th"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "braid-group-representations-and-modular-data-non-uniqueness-finite-images-and-th"
+  },
+  "snapshots": [
+    {
+      "sha256": "1478f072d2d758ebfff216fc72400bbe332bdebca2d6b364880f19db63d36b22",
+      "bytes": 27082,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

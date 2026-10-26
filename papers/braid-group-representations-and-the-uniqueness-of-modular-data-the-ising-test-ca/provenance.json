@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+  "paper": {
+    "path": "papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca/paper.md",
+    "title": "Braid Group Representations and the Uniqueness of Modular Data: The Ising Test Case and General Limitations",
+    "url": "https://papers.qnfo.org/papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca"
+  },
+  "snapshots": [
+    {
+      "sha256": "a057b198865dfbfa57b419ac68ae6561e75ef10a28ad4ca46daafd4199793796",
+      "bytes": 19230,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

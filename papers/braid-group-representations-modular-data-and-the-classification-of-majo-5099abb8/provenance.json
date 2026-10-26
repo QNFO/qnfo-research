@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "braid-group-representations-modular-data-and-the-classification-of-majo-5099abb8",
+  "paper": {
+    "path": "papers/braid-group-representations-modular-data-and-the-classification-of-majo-5099abb8/paper.md",
+    "title": "Braid Group Representations, Modular Data, and the Classification of Majorana Zero Mode Fusion Rules in 2D Topological Superconductors",
+    "url": "https://papers.qnfo.org/papers/braid-group-representations-modular-data-and-the-classification-of-majo-5099abb8"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "braid-group-representations-modular-data-and-the-classification-of-majo-5099abb8"
+  },
+  "snapshots": [
+    {
+      "sha256": "d27b580817fc52026abcc5ff64bb046f7d40904c17b0ab27c0bf1f0f460dd299",
+      "bytes": 27859,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

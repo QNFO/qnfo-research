@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "bounded-physicality-a-formal-viability-criterion-for-computational-mechanisms",
+  "paper": {
+    "path": "papers/bounded-physicality-a-formal-viability-criterion-for-computational-mechanisms/paper.md",
+    "title": "Bounded Physicality: A Formal Viability Criterion for Computational Mechanisms",
+    "url": "https://papers.qnfo.org/papers/bounded-physicality-a-formal-viability-criterion-for-computational-mechanisms"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "bounded-physicality-a-formal-viability-criterion-for-computational-mechanisms"
+  },
+  "snapshots": [
+    {
+      "sha256": "cd900b273cf2fd6e46b3df7fa62926353029eca523d36d026df55894f6b55834",
+      "bytes": 41551,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
