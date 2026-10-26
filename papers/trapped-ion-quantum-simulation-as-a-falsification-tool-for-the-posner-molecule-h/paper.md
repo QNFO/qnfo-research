@@ -240,27 +240,3 @@ We have presented a complete, analytically derived mapping of the Posner molecul
 [6] Quantum Circuit Compiler for a Shuttling-Based Trapped-Ion Quantum Computer. arXiv:2207.01964v4. https://arxiv.org/abs/2207.01964v4
 [7] Quantum Simulations with Cold Trapped Ions. arXiv:0905.0118v1. https://arxiv.org/abs/0905.0118v1
 [8] https://papers.qnfo.org/papers/hydrodynamic-gating-of-nuclear-spin-coherence. QNFO: Hydrodynamic Gating of Nuclear Spin Coherence v2.
-
-## Appendix A. Divergence Report
-| Claim ID | Draft A | Draft B | Chosen Convention | Reason for Choice |
-|----------|---------|---------|-------------------|-------------------|
-| C5 (Scaling to trimer) | 9 MS gates per simulated second (three pairs × three gates) | 18 MS gates per simulated second (conservative three‑gate budget per pair) | 18 MS gates per simulated second | Draft B provides an explicit conservative accounting that matches the stated three‑gate budget per pair per step; the higher count ensures the error budget remains valid under worst‑case gate usage. |
-| C11 (Falsification threshold) | Deviation > 4 % total error falsifies the hypothesis | Deviation > 3.1 % total error (gate error 2.96 % + Trotter error $\le 0.15$ %) | 3.1 % total deviation | Draft B derives the threshold from explicit error budgets, whereas Draft A’s 4 % bound is not derived from quantified components. |
-
-All other substantive claims (C1–C4, C6–C10) are convergent between the drafts.
-
-## Appendix B. Claim Attribution
-| Claim ID | Description | Source Draft(s) | Agreement Status |
-|----------|-------------|-----------------|------------------|
-| C1 | Rotating‑frame transformation eliminates Zeeman term without gates | A, B | CONVERGENT |
-| C2 | Two‑step Trotter decomposition yields 6 MS gates per simulated second for dimer | A, B | CONVERGENT |
-| C3 | Lindblad channel avoids $\approx10^{4}$ Trotter steps per second | A, B | CONVERGENT |
-| C4 | Overall fidelity $F=0.995^{6}\approx0.9704$ ($\approx 97$ %) | A, B | CONVERGENT |
-| C5 | Gate count for trimer (chosen: 18 MS gates per simulated second) | A (9), B (18) | DIVERGENT |
-| C6 | Wall‑clock time per simulated second = 450 µs | A, B | CONVERGENT |
-| C7 | Energy per simulated second = 6 µJ (projection) | A, B | CONVERGENT |
-| C8 | Energy ratio to conventional J/sol = 1.4–2.7 × $10^{6}$ (projection) | A, B | CONVERGENT |
-| C9 | Thermodynamic protection deficit scaling factor $\approx 8.6$ × $10^{13}$ (projection) | A, B | CONVERGENT |
-| C10 | Fidelity loss per simulated second $\approx 2.96$ % | A, B | CONVERGENT |
-| C11 | Falsification threshold deviation > 3.1 % (chosen) | A (4 %), B (3.1 %) | DIVERGENT |
-| C12 | Contributions list (C1–C6) | A, B | CONVERGENT |
