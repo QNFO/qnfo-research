@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired",
+  "paper": {
+    "path": "papers/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired/paper.md",
+    "title": "Thermodynamic Trade-off Frontiers for Neuromorphic Processors: A Quantum-Inspired Non-Equilibrium Model of the Energy–Speed Boundary",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired"
+  },
+  "snapshots": [
+    {
+      "sha256": "218341c5a8fbc81142474f27a2cea2e9ea99e33eb8fca8951e4140a61b1e5c17",
+      "bytes": 29578,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

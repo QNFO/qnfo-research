@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-scaling-limit-of-active-quantum-error-correction",
+  "paper": {
+    "path": "papers/thermodynamic-scaling-limit-of-active-quantum-error-correction/paper.md",
+    "title": "Thermodynamic Scaling Limit of Active Quantum Error Correction",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-scaling-limit-of-active-quantum-error-correction"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-scaling-limit-of-active-quantum-error-correction"
+  },
+  "snapshots": [
+    {
+      "sha256": "68bfc2df6dd870c0a539fa49ac1e31e9356c1aa82bfee534bb922ae60134021b",
+      "bytes": 26845,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

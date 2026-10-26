@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene",
+  "paper": {
+    "path": "papers/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene/paper.md",
+    "title": "Thermodynamic Budgeting for Hybrid Quantum-Classical Computing: A Three-Layer Energy Model with Explicit Arithmetic and a 15-Month Validation Roadmap",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene"
+  },
+  "snapshots": [
+    {
+      "sha256": "04d2e6d7f682c945284c7127540cf24077c4cfd495ae318fad4e15dfd571f109",
+      "bytes": 30001,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

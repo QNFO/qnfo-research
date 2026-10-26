@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-feedback-limits-on-the-scalability-of-surface-code-quantum-error-c",
+  "paper": {
+    "path": "jpcub-qec/thermodynamic-feedback-limits-on-the-scalability-of-surface-code-quantum-error-c/paper.md",
+    "title": "Thermodynamic Feedback Limits on the Scalability of Surface‑Code Quantum Error Correction",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-feedback-limits-on-the-scalability-of-surface-code-quantum-error-c"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-feedback-limits-on-the-scalability-of-surface-code-quantum-error-c"
+  },
+  "snapshots": [
+    {
+      "sha256": "30015dc75c822cc1801a07ef6423e7d25c2cea8f3c0c39d75613c614340bd0eb",
+      "bytes": 32543,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
