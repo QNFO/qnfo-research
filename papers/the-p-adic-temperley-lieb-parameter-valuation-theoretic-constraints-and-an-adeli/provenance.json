@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-p-adic-temperley-lieb-parameter-valuation-theoretic-constraints-and-an-adeli",
+  "paper": {
+    "path": "papers/the-p-adic-temperley-lieb-parameter-valuation-theoretic-constraints-and-an-adeli/paper.md",
+    "title": "The p-Adic Temperley–Lieb Parameter: Valuation-Theoretic Constraints and an Adelic Accuracy Framework for Quantum Predictions",
+    "url": "https://papers.qnfo.org/papers/the-p-adic-temperley-lieb-parameter-valuation-theoretic-constraints-and-an-adeli"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-p-adic-temperley-lieb-parameter-valuation-theoretic-constraints-and-an-adeli"
+  },
+  "snapshots": [
+    {
+      "sha256": "5de1562044822d3a37c462d81d440a866eeee21bac678296a7996f32fee6c21f",
+      "bytes": 26641,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

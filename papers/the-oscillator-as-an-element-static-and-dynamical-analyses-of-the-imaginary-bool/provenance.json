@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-oscillator-as-an-element-static-and-dynamical-analyses-of-the-imaginary-bool",
+  "paper": {
+    "path": "papers/the-oscillator-as-an-element-static-and-dynamical-analyses-of-the-imaginary-bool/paper.md",
+    "title": "The Oscillator as an Element: Static and Dynamical Analyses of the Imaginary Boolean Value in the Algebra of Eventually Periodic Truth Sequences",
+    "url": "https://papers.qnfo.org/papers/the-oscillator-as-an-element-static-and-dynamical-analyses-of-the-imaginary-bool"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-oscillator-as-an-element-static-and-dynamical-analyses-of-the-imaginary-bool"
+  },
+  "snapshots": [
+    {
+      "sha256": "c3a655a0c1930f7150b9fc12889392d6258fdf56dddae80f5a6c7c30bc2643c4",
+      "bytes": 35210,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

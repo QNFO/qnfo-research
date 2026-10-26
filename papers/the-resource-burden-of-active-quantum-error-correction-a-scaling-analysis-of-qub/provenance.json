@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-resource-burden-of-active-quantum-error-correction-a-scaling-analysis-of-qub",
+  "paper": {
+    "path": "papers/the-resource-burden-of-active-quantum-error-correction-a-scaling-analysis-of-qub/paper.md",
+    "title": "The Resource Burden of Active Quantum Error Correction: A Scaling Analysis of Qubit, Bandwidth, and Energy Overheads",
+    "url": "https://papers.qnfo.org/papers/the-resource-burden-of-active-quantum-error-correction-a-scaling-analysis-of-qub"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-resource-burden-of-active-quantum-error-correction-a-scaling-analysis-of-qub"
+  },
+  "snapshots": [
+    {
+      "sha256": "1d966c6fb145d904291e5bcfdaf99588757b33d831bd712ce4771a08ff667809",
+      "bytes": 26269,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

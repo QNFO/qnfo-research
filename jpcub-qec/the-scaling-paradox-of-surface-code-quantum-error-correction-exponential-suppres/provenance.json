@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres",
+  "paper": {
+    "path": "jpcub-qec/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres/paper.md",
+    "title": "The Scaling Paradox of Surface-Code Quantum Error Correction: Exponential Suppression, Logarithmic Overhead, and a Landauer Floor That Grows with Reliability",
+    "url": "https://papers.qnfo.org/papers/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres"
+  },
+  "snapshots": [
+    {
+      "sha256": "770ff625794a62f7f2e395e48f5c02f431377436b14dde30c33f281692616c02",
+      "bytes": 26955,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
