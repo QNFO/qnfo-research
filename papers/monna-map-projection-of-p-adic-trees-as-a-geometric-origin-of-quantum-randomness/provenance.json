@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness",
+  "paper": {
+    "path": "papers/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness/paper.md",
+    "title": "Monna Map Projection of $p$‑adic Trees as a Geometric Origin of Quantum Randomness",
+    "url": "https://papers.qnfo.org/papers/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-230/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness"
+  },
+  "snapshots": [
+    {
+      "sha256": "01c79cb6f3e845fa8cab24d752fe37108ada1a2b1afde587db73faa297a350e2",
+      "bytes": 20862,
+      "recorded_at": "2026-10-26",
+      "basis": "restore",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": [
+    {
+      "event": "restored",
+      "at": "2026-10-26",
+      "detail": "paper text restored from living-paper"
+    }
+  ]
+}

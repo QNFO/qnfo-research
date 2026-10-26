@@ -697,20 +697,6 @@
       "status": "open"
     },
     {
-      "id": "GAP-PAPER-0a602a3df5",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness",
-      "files": [
-        "papers/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-230/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
       "id": "GAP-PAPER-0a7beee37e",
       "kind": "paper-text-not-in-repo",
       "path": "papers/adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q",
