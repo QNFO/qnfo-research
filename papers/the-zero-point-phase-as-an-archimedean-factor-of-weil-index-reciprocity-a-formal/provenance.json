@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal",
+  "paper": {
+    "path": "papers/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal/paper.md",
+    "title": "The Zero-Point Phase as an Archimedean Factor of Weil-Index Reciprocity: A Formal Verification and Its Limits",
+    "url": "https://papers.qnfo.org/papers/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal"
+  },
+  "snapshots": [
+    {
+      "sha256": "e1ad8ae810cb36498c593c00ced463e819575118331a216c5c7fb682535819ba",
+      "bytes": 27058,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-bottlenecks-on-floquet-driving-of-superconducting-matter-quasipart",
+  "paper": {
+    "path": "papers/thermodynamic-bottlenecks-on-floquet-driving-of-superconducting-matter-quasipart/paper.md",
+    "title": "Thermodynamic Bottlenecks on Floquet Driving of Superconducting Matter: Quasiparticle Poisoning, Heat Extraction, and Design Rules",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-bottlenecks-on-floquet-driving-of-superconducting-matter-quasipart"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-bottlenecks-on-floquet-driving-of-superconducting-matter-quasipart"
+  },
+  "snapshots": [
+    {
+      "sha256": "71963c80e62cc018ff67953e951df5082666eb6166d3ce57286a342d22a4d48d",
+      "bytes": 23455,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

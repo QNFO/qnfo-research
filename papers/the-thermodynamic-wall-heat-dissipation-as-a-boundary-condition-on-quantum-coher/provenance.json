@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-thermodynamic-wall-heat-dissipation-as-a-boundary-condition-on-quantum-coher",
+  "paper": {
+    "path": "papers/the-thermodynamic-wall-heat-dissipation-as-a-boundary-condition-on-quantum-coher/paper.md",
+    "title": "The Thermodynamic Wall: Heat Dissipation as a Boundary Condition on Quantum Coherence Time",
+    "url": "https://papers.qnfo.org/papers/the-thermodynamic-wall-heat-dissipation-as-a-boundary-condition-on-quantum-coher"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-thermodynamic-wall-heat-dissipation-as-a-boundary-condition-on-quantum-coher"
+  },
+  "snapshots": [
+    {
+      "sha256": "c8169f9b3cc3f49204f624fe831354b97f334b69bac2fc8f493d03866fffbeaa",
+      "bytes": 30069,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
