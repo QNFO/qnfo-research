@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-92: Population-Level Methods for Structured Ensembles: From Chaotic DNA Inversions to Ensemble Leg Drafting",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-92",
+      "qnfo:runPath": "runs/cycle-92/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to",
+      "qnfo:slug": "population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-11T17:30:46+02:00",
+      "qnfo:depositCommit": "0db7cae1e469615a713915bafc7ed4a5bac664c5",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Population-Level Methods for Structured Ensembles: From Chaotic DNA Inversions to Ensemble Leg Drafting",
+      "url": "https://papers.qnfo.org/papers/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1105.1512",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1105.1512"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.03243",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.03243"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2009.02646",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2009.02646"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2108.08668",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2108.08668"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.03383",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.03383"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.20357",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.20357"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.00487",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.00487"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.10672",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.10672"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1018",
+      "sha256": "a26522adf8b13f87177016b4a85cf14c7896f50310908d15195dc370ddc34ba4",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10014",
+      "sha256": "bf455bbf1f407026c9cd63b3e2fde6481484d5d40b4a3b3de702b3998da51424",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4455",
+      "sha256": "2c78f30647642cfc997d29ab62a86404803de26e75ebf41d3d13c5189ee93948",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5120",
+      "sha256": "ea0ee0bc586f2624faa3133ca80d6ad3eee9cf2e8b110a9c89cd859ba8993069",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1994",
+      "sha256": "7a7684558fea6c87bb4dbf82bf9278528ec9ec702bc03e1282ec0b092972a8c0",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14415",
+      "sha256": "a079d26b9aa49ea695e0e656d3237fb08b154a8219bf7870839e2e8d3ad96358",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27894",
+      "sha256": "a9f361f386061226844c8e6c0b86a1576d4966102c78ac9212b5b3adf56d339d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26410",
+      "sha256": "7c3d18ab783c69a9587da32d18a62f6346c8d5c5bd2fa78d636fcccebb200938",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1105.1512"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.03243"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2009.02646"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2108.08668"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.03383"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.20357"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.00487"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.10672"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-11T17:30:46+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "af5850a8cb2cf25ad0e398162e433b332c8e151a10696e6a2dcd6ed8486a7899"
+    }
+  ]
+}

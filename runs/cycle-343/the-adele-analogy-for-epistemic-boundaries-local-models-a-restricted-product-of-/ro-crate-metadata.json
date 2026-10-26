@@ -1,0 +1,470 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-343: The Adele Analogy for Epistemic Boundaries: Local Models, a Restricted Product of Representations, and a Quantified Validity Radius",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-343",
+      "qnfo:runPath": "runs/cycle-343/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-",
+      "qnfo:slug": "the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T08:11:11+02:00",
+      "qnfo:depositCommit": "6c945a3854962629a89574b09e3ee28e9ac10789",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "The Adele Analogy for Epistemic Boundaries: Local Models, a Restricted Product of Representations, and a Quantified Validity Radius",
+      "url": "https://papers.qnfo.org/papers/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1212.5776",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1212.5776"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.0794",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.0794"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1604.02419",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1604.02419"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1804.07517",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1804.07517"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2012.09650",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2012.09650"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2212.03778",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2212.03778"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2212.13705",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2212.13705"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2304.01761",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2304.01761"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.09757",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.09757"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2409.18628",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2409.18628"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2506.16015",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2506.16015"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.13858",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.13858"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.21249",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.21249"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2602.05668",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2602.05668"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.25136",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.25136"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2605.19066",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2605.19066"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.09490",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.09490"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.02090",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.02090"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "a5e3d369f8f3896d677d406c464200053bb0a2df3f45424ea19494dc434dc36b",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "102707",
+      "sha256": "844ef5210cdd9a62ce08682ce44865973f6327b8e8d2129ed151b6f67f36271e",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5818",
+      "sha256": "08ee95ca60b0fbc45572dec2c41ace8d90ecc5fc427706fa6a5fcb255081be07",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8287",
+      "sha256": "069f724268cd6939708845c85880fa2fc2d807d8f6bc2239c1461196fbacbd1a",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1772",
+      "sha256": "5782a0a9ffb438a6a08df8eb01c15c7015eb75c45f55bf385f38ceecd1e869a5",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25170",
+      "sha256": "0428cbba8a0f274d619a2b9e78979aef380bf3901bd0067b072b2730d56ca7d4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24662",
+      "sha256": "9ca43d399b447fb094e15c628e4d521a0e0cb36a23423aee5d26b6860131f682",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1212.5776"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1303.0794"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1604.02419"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1804.07517"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2012.09650"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2212.03778"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2212.13705"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2304.01761"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.09757"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2409.18628"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2506.16015"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.13858"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.21249"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2602.05668"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.25136"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2605.19066"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.09490"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.02090"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T08:11:11+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "d08c301d5d9175752dba24f7d9d98670a1cd737748d0ffee99344f4a210b2cc1"
+    }
+  ]
+}

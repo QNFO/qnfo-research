@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found",
+  "paper": {
+    "path": "papers/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found/paper.md",
+    "title": "Retracted: Probe-Before-Commit: Interactive Diagnostic Probing as a Decision-Theoretic Foundation for LLM Task Routing",
+    "url": "https://papers.qnfo.org/papers/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-171/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "3c98a1531afe6034ec880e0c6a4f2193d5d4d81d4da2b1aa1fec7701ec08568c"
+    },
+    {
+      "path": "runs/cycle-82/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "70b64a1439da50a3d60259d8531e28d822c4d12fac3c83b96b8f29e1b25a4de7"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found"
+  },
+  "snapshots": [
+    {
+      "sha256": "60aa690cd6c89f554568b91260bc4d9a4cf978ae73b9a3a1d1bdadd57bec31d1",
+      "bytes": 2314,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "b9abe914d7ea18d3ae7ed25ceddcbffdf52f5d96"
+    }
+  ],
+  "events": []
+}

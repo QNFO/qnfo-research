@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantization-as-hydrodynamic-relaxation-eigenstates-as-attractor-basins-in-a-dis",
+  "paper": {
+    "path": "papers/quantization-as-hydrodynamic-relaxation-eigenstates-as-attractor-basins-in-a-dis/paper.md",
+    "title": "Quantization as Hydrodynamic Relaxation: Eigenstates as Attractor Basins in a Dissipative Madelung Fluid",
+    "url": "https://papers.qnfo.org/papers/quantization-as-hydrodynamic-relaxation-eigenstates-as-attractor-basins-in-a-dis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-113/quantization-as-hydrodynamic-relaxation-eigenstates-as-attractor-basins-in-a-dis",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9f2746e22e63248b9127567f9f0829c6d60f16b99452eb26124a9ed8c121147b"
+    },
+    {
+      "path": "runs/cycle-313/quantization-as-hydrodynamic-relaxation-eigenstates-as-attractor-basins-in-a-dis",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9d19e8d796cdd30461e4e85c256054f0d030176fdfda87a919b5728c973177e6"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantization-as-hydrodynamic-relaxation-eigenstates-as-attractor-basins-in-a-dis"
+  },
+  "snapshots": [
+    {
+      "sha256": "c70b4c033c3178852771e2ff5b67ceb9b76815fb98a1b58b8766f04e1d4ee168",
+      "bytes": 28069,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "9804ed1d566c87600200ab7483cef8e35aa86a49"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,417 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-118: what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-118",
+      "qnfo:runPath": "runs/cycle-118/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco",
+      "qnfo:slug": "what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-12T14:45:41+02:00",
+      "qnfo:depositCommit": "152b5e9b5c97b2be0c105216a41b01d1be587dc2",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco",
+      "url": "https://papers.qnfo.org/papers/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1008.0667",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1008.0667"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1310.1481",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1310.1481"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1601.00157",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1601.00157"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1605.07838",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1605.07838"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1612.01464",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1612.01464"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1612.03430",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1612.03430"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.17794",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.17794"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2507.21222",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2507.21222"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.03545",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.03545"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "905e5dbbf746a630bedd5f95c1e1f3c53e1169eae219369e5370fe791f2a4610",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14197",
+      "sha256": "8f332429771c83214c37c1d1e33c22be7443d12ffb4e91bcbf86af9cc1994354",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1751",
+      "sha256": "fda4b65ff648f9767b556f072a91be73c2c4d17c3efeb355b05dde7ac70436c2",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4562",
+      "sha256": "dc86ebf624385f768242659331e8993d3daa800aa0c467692860fa57e779e877",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1312",
+      "sha256": "e22015f765c7f6bcb82b99534fc2fb4ac433e308c31d7c77c9ccd7eb9775c21d",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20971",
+      "sha256": "a7a321dbc33098902dd75456d45051b36566fa78891b62a77b06612b470242f8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "30643",
+      "sha256": "cc42e1b49d12849648149cb662ac9245a75df51fc16100443b3182c6a01fc081",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28804",
+      "sha256": "fa7c751c7cc3c50cd52410177c2c8aee7002ebf1fc78fc177ed1cce2bf043f48",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1008.0667"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1310.1481"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1601.00157"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1605.07838"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1612.01464"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1612.03430"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.17794"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2507.21222"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.03545"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-12T14:45:41+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "dedf64800d7c1fe0af79c7fc9ccbbb7f583377af47398e30cfce917861bb99ef"
+    }
+  ]
+}

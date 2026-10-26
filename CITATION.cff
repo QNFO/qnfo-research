@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository or any paper, run or dataset in it, please cite it as below. A single paper is cited by its papers.qnfo.org address (papers/<slug>/provenance.json lists it)."
+title: "QNFO Research Artifacts"
+type: dataset
+abstract: >-
+  Published QNFO/QWAV papers together with the interim artifacts of the automated research pipeline that produced them
+  (grounding, independent drafts, adversarial review, verification scripts and their recorded output), per-run RO-Crate
+  provenance records, and the project repositories merged into one program repository. Fixity (SHA-256), linkage and
+  reproducibility are checked by tools/provenance.py; known gaps are listed in provenance/known-gaps.json.
+authors:
+  - family-names: Quni-Gudzinas
+    given-names: Rowan Brad
+    orcid: "https://orcid.org/0009-0002-4317-5604"
+repository-code: "https://github.com/QNFO/qnfo-research"
+url: "https://papers.qnfo.org"
+license-url: "https://qnfo.org/legal/license"
+date-released: "2026-10-26"
+keywords:
+  - research provenance
+  - reproducibility
+  - RO-Crate
+  - automated research pipeline
+  - quantum foundations

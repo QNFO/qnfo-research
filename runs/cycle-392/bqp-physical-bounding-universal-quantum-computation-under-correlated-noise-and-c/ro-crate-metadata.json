@@ -1,0 +1,382 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-392: bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-392",
+      "qnfo:runPath": "runs/cycle-392/bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c",
+      "qnfo:slug": "bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-26T04:25:15+01:00",
+      "qnfo:depositCommit": "d2618b4e2dd420cfc36eed16c801a79e028473e6",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c",
+      "url": "https://papers.qnfo.org/papers/bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0911.3482",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0911.3482"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1004.2652",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1004.2652"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1008.0667",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1008.0667"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1107.5607",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1107.5607"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1204.2545",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1204.2545"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1310.1481",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1310.1481"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1709.09951",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1709.09951"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "b03fef89082e2edb251c19c348a41c563232237dffa2c03231af036ed154b2a5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "33527",
+      "sha256": "9a14ec43eb007f34f6fb8ef60c5ba18314a49a6d44604b6cd3c81002c4ccb134",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3024",
+      "sha256": "7bf9a9f28d43321a7857868236cf9e00778cbda1d6ead21a14d70316a18a01f4",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10529",
+      "sha256": "cbb8c327a5b939ec0c692fccfc484c321f99c32c73a34bd9e02b59f4c4dfd146",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "5199",
+      "sha256": "fbe6077efdae33e4e6db1c60c3d9c3816767375f45e6265b017e49ec567e1764",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21213",
+      "sha256": "e7da8d0b62b3c59d7922dcd9ddede3ee4d5a9097226d1193897879acd63a14f6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17837",
+      "sha256": "92c71babe4d901a4fdc213ed31b9557720f6d21e95229b71f8fca94383e824a5",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0911.3482"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1004.2652"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1008.0667"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1107.5607"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1204.2545"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1310.1481"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1709.09951"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-26T04:25:15+01:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "403cf9d03722f8773d0b59a8f47e5ca6bb3ed5e86488aeb8c2fe68324c40920e"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-complex-contagion-fast-variable-reduction-as-a-unifying-principle-for-e",
+  "paper": {
+    "path": "papers/emergent-complex-contagion-fast-variable-reduction-as-a-unifying-principle-for-e/paper.md",
+    "title": "Retracted: Emergent Complex Contagion: Fast‑Variable Reduction as a Unifying Principle for Epidemic and Social Spreading Models",
+    "url": "https://papers.qnfo.org/papers/emergent-complex-contagion-fast-variable-reduction-as-a-unifying-principle-for-e"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-220/emergent-complex-contagion-fast-variable-reduction-as-a-unifying-principle-for-e",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-complex-contagion-fast-variable-reduction-as-a-unifying-principle-for-e"
+  },
+  "snapshots": [
+    {
+      "sha256": "fb77def9c59723d195827d85c7e254ebdcbb2342bd4ca5b75bf66f84951dfe1d",
+      "bytes": 1710,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "7e7cee4065eed57cbde0e7b8f50d49e308b7763b"
+    }
+  ],
+  "events": []
+}

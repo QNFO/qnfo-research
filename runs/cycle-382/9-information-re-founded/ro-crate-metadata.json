@@ -1,0 +1,398 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-382: Re‑Founding Information: An Autaxic Ontological Framework with Quantitative Illustrations",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-382",
+      "qnfo:runPath": "runs/cycle-382/9-information-re-founded",
+      "qnfo:slug": "9-information-re-founded",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-24T21:01:14+02:00",
+      "qnfo:depositCommit": "4573f3059858b5a125edf3cfaeb879bc69859b67",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/9-information-re-founded"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/9-information-re-founded",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Re‑Founding Information: An Autaxic Ontological Framework with Quantitative Illustrations",
+      "url": "https://papers.qnfo.org/papers/9-information-re-founded"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0912.4188",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0912.4188"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.2681",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.2681"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1802.03292",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1802.03292"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2012.04437",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2012.04437"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2207.07901",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2207.07901"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.09033",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.09033"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2407.13910",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2407.13910"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2602.15078",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2602.15078"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2605.26084",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2605.26084"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "2d9ee0184f63235117e68016b06a0be2e5574ffe877502e4df331f966eea97ed",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "81103",
+      "sha256": "9c39e73b431627c27085dd4574e884e90ba1e407222671e0ccecd83fb0311346",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "686",
+      "sha256": "b108b7348498edc3dab7c7c67f4a440868e1905020218fcae8c9b21bb55e4373",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4250",
+      "sha256": "add89b148d55322749ecb18cc59cf0ad24e07a0769759a6381e34ead44e92b2b",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1885",
+      "sha256": "2bd7c0d6b16e05506978e26b61849e87ae4573afa303efcf6749c76436e5595f",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16545",
+      "sha256": "2cc7306a5dec927ad8869d799d44d0438d8a21fcb12d02fb7cb65b12029419de",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25032",
+      "sha256": "3bee1793e1a0267bd8542c8147be1ee101d1f8a6f9b7b0e005469de1690507da",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0912.4188"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.2681"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1802.03292"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2012.04437"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2207.07901"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.09033"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2407.13910"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2602.15078"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2605.26084"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-24T21:01:14+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "fbc4f546c6beeff5444da88dd19934353bcb235e94071ea88eb97e4409c7a2f2"
+    }
+  ]
+}

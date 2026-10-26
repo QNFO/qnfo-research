@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-391: passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-391",
+      "qnfo:runPath": "runs/cycle-391/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform",
+      "qnfo:slug": "passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-26T04:02:37+01:00",
+      "qnfo:depositCommit": "9199fe1f71b593ff9a0a94765cf27f4ac03d4b8d",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform",
+      "url": "https://papers.qnfo.org/papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1404.6830",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1404.6830"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.01463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.01463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1802.00951",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1802.00951"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1807.09783",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1807.09783"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.07509",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.07509"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2106.02649",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2106.02649"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.02085",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.02085"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.17653",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.17653"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "6bdd17466ba1d58ef73548d443ef8e9208955b3871cc2b2c7952945371f943b0",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "30823",
+      "sha256": "6d81e11bf65a61e35dec080eed2364a3ff5f95b454fca7175aaaff9d6fbe9e06",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4264",
+      "sha256": "7fd9a98de8e13797a91c5f567052c93968088c5d76219a330fc007ede56e9cde",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10598",
+      "sha256": "36aa3fb78d511143ed21d36369ad1263c9c4799e173be32dd37a1f41ed1d5765",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3968",
+      "sha256": "fa4c210cc446b3e825e2ce97034dfde4c2f6b1490f997d3afa12ba37200b9978",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24577",
+      "sha256": "824a538a56d2667919ed9afa46c9221fd41514a713cdb4b30ae12fd82ed56c03",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24586",
+      "sha256": "70c28e33e869c7a5d255294ecacaa7e8d6b928b97bd85019403a996af6f9f415",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1404.6830"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.01463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1802.00951"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1807.09783"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.07509"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2106.02649"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.02085"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.17653"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-26T04:02:37+01:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "977862cca848ef3d48e7875be408453bb6b84278935f3e021f87f1090b3c7ff6"
+    }
+  ]
+}

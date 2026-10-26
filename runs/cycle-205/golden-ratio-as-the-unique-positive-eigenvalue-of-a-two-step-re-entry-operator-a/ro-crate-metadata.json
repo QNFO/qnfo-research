@@ -1,0 +1,163 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-205: golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-205",
+      "qnfo:runPath": "runs/cycle-205/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
+      "qnfo:slug": "golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T06:10:59+02:00",
+      "qnfo:depositCommit": "7eaf88cfa24f6f4360295184b62e1aaaf96c7924",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/grounding.md"
+        },
+        {
+          "@id": "#missing/review-report.md"
+        },
+        {
+          "@id": "#missing/verification.md"
+        },
+        {
+          "@id": "#missing/verification.py"
+        },
+        {
+          "@id": "#missing/writer-a-draft.md"
+        },
+        {
+          "@id": "#missing/writer-b-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
+      "url": "https://papers.qnfo.org/papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "b4d2b189a599b7f83614f4b94d9c85f7cf4bd3214d54a51cca605ba75b778077",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/grounding.md",
+      "@type": "CreativeWork",
+      "name": "grounding.md",
+      "sha256": "4a571b82ef386f4b8b4c16a07c9416e63dcc996aafce260db10be64d8668140f",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/review-report.md",
+      "@type": "CreativeWork",
+      "name": "review-report.md",
+      "sha256": "c71bda132d508df1d4ddb1914626f053f94b9912f0124e266cd1c96255bdbac4",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.md",
+      "@type": "CreativeWork",
+      "name": "verification.md",
+      "sha256": "2e0016eabd926f7cf17849d8a9b8acfc17ac97a9323bfc07a73dc61a2537b622",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.py",
+      "@type": "CreativeWork",
+      "name": "verification.py",
+      "sha256": "839cb4baabff2efbcebfa635e60e68a8f2f28911f59b49335e5e0f32723549a6",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-a-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-a-draft.md",
+      "sha256": "8fdaf84a2a1492a7c76e0ccfbfb217c20d60a24d5e25c21e05c5bdc358fee75c",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "6a6f8401245ae2bb59d84c8a9a449472c244673da131ae571343911e44f12cd7",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    }
+  ]
+}

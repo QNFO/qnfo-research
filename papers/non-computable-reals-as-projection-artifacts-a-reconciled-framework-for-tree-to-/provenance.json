@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-",
+  "paper": {
+    "path": "papers/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-/paper.md",
+    "title": "Non-Computable Reals as Projection Artifacts: A Formal Analysis of Tree‑to‑Manifold Construction of the Continuum",
+    "url": "https://papers.qnfo.org/papers/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-116/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ee62c1ac16a5f2aa70accd9a9e8da4a024be7de061176f03e0b6a3e89439cbd4"
+    },
+    {
+      "path": "runs/cycle-290/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "97394e320cee8d0b6dfb3c936a00ac7583c2f7f238ce6166bced00c72d2705d1"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-"
+  },
+  "snapshots": [
+    {
+      "sha256": "4b7fddf1fbb44216b726281f0e8aa840cf2fc566bf4c418da40f130da9b70b81",
+      "bytes": 36250,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "015be1a08e8137e7f1b08f8339f52eae796bf7e4"
+    }
+  ],
+  "events": []
+}

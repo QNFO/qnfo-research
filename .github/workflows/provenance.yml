@@ -1,0 +1,79 @@
+# Provenance gate (docs/PROVENANCE-STANDARD.md, section 9). Standard library only: nothing to install, nothing to cache.
+# Pull requests and pushes that touch the research trees are verified; a pull request that touches runs/ also re-executes
+# every verification script. `schedule` is not used: it fires rarely on this account (CLAUDE.md, qnfo-workers).
+name: provenance
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "runs/**"
+      - "papers/**"
+      - "*/*/provenance.json"
+      - "provenance/**"
+      - "schemas/**"
+      - "tools/**"
+      - ".gitattributes"
+      - ".github/workflows/provenance.yml"
+  pull_request:
+    paths:
+      - "runs/**"
+      - "papers/**"
+      - "*/*/provenance.json"
+      - "provenance/**"
+      - "schemas/**"
+      - "tools/**"
+      - ".gitattributes"
+      - ".github/workflows/provenance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: provenance-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0   # IMPORT.json's source commit must be reachable for the deposit dates
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Tool tests
+        run: python -m unittest discover -s tools -p 'test_*.py'
+      - name: Verify integrity, completeness and linkage
+        run: python tools/provenance.py verify --json provenance-report.json
+      - name: Report
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          try:
+              r = json.load(open("provenance-report.json"))
+          except Exception:
+              raise SystemExit(0)
+          s = r["stats"]
+          lines = ["### Provenance", "", "| check | count |", "|---|---|"] + [f"| {k} | {v} |" for k, v in sorted(s.items())]
+          bad = [f for f in r["findings"] if f["level"] in ("error", "warn")]
+          if bad:
+              lines += ["", "| level | code | path |", "|---|---|---|"] + [f"| {f['level']} | {f['code']} | `{f['path'][:120]}` |" for f in bad[:60]]
+          open(os.environ["GITHUB_STEP_SUMMARY"], "a").write("\n".join(lines) + "\n")
+          PY
+
+  reproduce:
+    # Re-run every verification script the way the pipeline did and fail on a regression against the committed crates.
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - run: python tools/provenance.py reproduce --all --seeds 0,1

@@ -1,0 +1,393 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-25: beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-25",
+      "qnfo:runPath": "runs/cycle-25/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-",
+      "qnfo:slug": "beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-05T14:03:11+02:00",
+      "qnfo:depositCommit": "8d9357664e6f4a0ee3f20fa5cb2a01d66d185ff8",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-",
+      "url": "https://papers.qnfo.org/papers/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0811.3734",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0811.3734"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1311.2485",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1311.2485"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.04013",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.04013"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.03672",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.03672"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.19833",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.19833"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.03318",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.03318"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "5512a7f84a1ae57afee6b62297084fc28024e7518dac0390c90cd675a1bbd44c",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12331",
+      "sha256": "7cb75c9f24c78bb11b09b14885e3497d827f795b281e2c74db295fb5da87136f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3196",
+      "sha256": "d5a03671a522ad260dbfbdf815d6cbb34b046034890278daedcd0e74ecd4c303",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3324",
+      "sha256": "829c2b959c39610197288ac4b58f01c21b07320eb8e90c14b045dab34a770324",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1160",
+      "sha256": "919519001f1f4e31807a2e78ee5622f7e23397e13e1fcaad0f6873642480abd2",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25189",
+      "sha256": "3b0efbd02eae1ec49fcdc0cd13fd872fc3fcc897d9a3f7ae4b12bfe87e02674e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25464",
+      "sha256": "0e2e311520ecb0d3ee5578387b33a08bbcd15d9d564c42a943d3e10287541c5e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23845",
+      "sha256": "4ca769afff94505dacc0106af954fe821a6fffbfa8f08d223cacae258888efd7",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0811.3734"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1311.2485"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.04013"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.03672"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.19833"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.03318"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-05T14:03:11+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "69ed8b3447ac712a21323914000d487aa619fcf31fff9d29bdcec65c4a5d328a"
+    }
+  ]
+}

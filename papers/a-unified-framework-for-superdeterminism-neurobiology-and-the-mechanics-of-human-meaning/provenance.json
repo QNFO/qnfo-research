@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning",
+  "paper": {
+    "path": "papers/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22757783",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning"
+  },
+  "snapshots": [
+    {
+      "sha256": "d4daaf1f26852369951f1d3a9101f72e8fa9e8274d276f68fde390132594926e",
+      "bytes": 24721,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "28ffcd7ee21c40ea6114a01b77858225f7cafdc9"
+    }
+  ],
+  "events": []
+}

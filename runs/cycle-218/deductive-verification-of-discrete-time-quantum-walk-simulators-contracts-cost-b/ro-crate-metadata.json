@@ -1,0 +1,383 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-218: Deductive Verification of Discrete‑Time Quantum‑Walk Simulators: Contracts, Cost Bounds, and Extensions to Graph‑Generalized and Open‑System Walks",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-218",
+      "qnfo:runPath": "runs/cycle-218/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b",
+      "qnfo:slug": "deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b",
+      "datePublished": "2026-10-19T13:31:18+02:00",
+      "qnfo:depositCommit": "916067782e5ab91fdae41c396f8a574c12218292",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Deductive Verification of Discrete‑Time Quantum‑Walk Simulators: Contracts, Cost Bounds, and Extensions to Graph‑Generalized and Open‑System Walks",
+      "url": "https://papers.qnfo.org/papers/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1112.1882",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1112.1882"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1201.4780",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1201.4780"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1307.3384",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1307.3384"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.00626",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.00626"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.03401",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.03401"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.00316",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.00316"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2507.21011",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2507.21011"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0403120",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0403120"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0607188",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0607188"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "80827",
+      "sha256": "7d5db7f046ea668fd42e9b17a3f4a889a33f93bc9dec0d335ce594ea1d71c60e",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1154",
+      "sha256": "5cdb81bc8d87b8dbf335dedb052c0cfe895b29ae91f0aaa83a1e7d96a964173f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8891",
+      "sha256": "ead86e909a9c5674324f22920db36b8961395f442c0c1575810c183ac2212a87",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2707",
+      "sha256": "b02815214e570aefd38b6ed125af553889be37433783883b525e103b8ab1e897",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28209",
+      "sha256": "b9a9141e16cbae87a8f5049e17129fc412f5d5f2087e7840fc4d7976cc35b3f6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22750",
+      "sha256": "3f151e842afba6d868190eb4fcd5c9bd8b0d0f3aa41df56b5b5d980798fdc73b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1112.1882"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1201.4780"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1307.3384"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.00626"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.03401"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.00316"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2507.21011"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0403120"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0607188"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T13:31:18+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "f758b90132e3ab249f4969169470a8d46c0d7fff82de93ddfc4f6623b0f0c99e"
+    }
+  ]
+}

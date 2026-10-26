@@ -1,0 +1,432 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-26: error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-26",
+      "qnfo:runPath": "runs/cycle-26/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio",
+      "qnfo:slug": "error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-05T20:47:16+02:00",
+      "qnfo:depositCommit": "e266f0f483ceda9a1c9d3b6210d568f7f99b3b7a",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio",
+      "url": "https://papers.qnfo.org/papers/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0810.2524",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0810.2524"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1311.2485",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1311.2485"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1411.1779",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1411.1779"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.04013",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.04013"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1704.03961",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1704.03961"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1812.08451",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1812.08451"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.05156",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.05156"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2408.00829",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2408.00829"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.12482",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.12482"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.03944",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.03944"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.03399",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.03399"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "6012e43d3569bf344c227995ab4d5a372c45844cc9c99f2d1436faf1368a6ff5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13679",
+      "sha256": "f6248f737338ec9b70207cf3bb8285698ecb456a60251b4943d63f4e6fb92229",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2167",
+      "sha256": "16042461e1582c4192aae4d3e0db54124d0a43743dddcf5c393623d99be21735",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3533",
+      "sha256": "f4dd8976b3275df540400673f321129e56615eefb88c98b83cc8035860c8d0e5",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1505",
+      "sha256": "a9ce1248a14227db395f87be3ef86a8565ff9fa3ebda480453673e8f5d9d702f",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26644",
+      "sha256": "2ae7debf5df44bbb8be36627f3fe2747ccec8d0c985feb3aabc49c7cb6754937",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25160",
+      "sha256": "a5c0a923c775fe46de0b26dd64ae04d4f0f18e927cd59c637d0e3f7ac7dc57a4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24276",
+      "sha256": "b58fa2a2fab3903150ccaab81b9b414a2b7f9b805cd2297cb124b9a0e74bee1e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0810.2524"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1311.2485"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1411.1779"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.04013"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1704.03961"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1812.08451"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.05156"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2408.00829"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.12482"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.03944"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.03399"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "endTime": "2026-10-05T20:47:16+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "not-reproduced",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "570362cf89f27a42d156de8dcae745da39dca139cc22f465490dbec671e56481"
+    }
+  ]
+}

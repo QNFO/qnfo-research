@@ -1,0 +1,225 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-278: Superposition as a Projection Artifact of Discrete Tree Geometry",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-278",
+      "qnfo:runPath": "runs/cycle-278/superposition-as-a-projection-artifact-of-discrete-tree-geometry",
+      "qnfo:slug": "superposition-as-a-projection-artifact-of-discrete-tree-geometry",
+      "datePublished": "2026-10-20T08:24:16+02:00",
+      "qnfo:depositCommit": "ede6ede9da552e6872e68a2318ef55fc2ee420b7",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/superposition-as-a-projection-artifact-of-discrete-tree-geometry"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/superposition-as-a-projection-artifact-of-discrete-tree-geometry",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Superposition as a Projection Artifact of Discrete Tree Geometry",
+      "url": "https://papers.qnfo.org/papers/superposition-as-a-projection-artifact-of-discrete-tree-geometry"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1607.01454",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1607.01454"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.09784",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.09784"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2101.11628",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2101.11628"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.01659",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.01659"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2207.00021",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2207.00021"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.02593",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.02593"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math/0205005",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math/0205005"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math/0504358",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math/0504358"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "90068",
+      "sha256": "cbceecf31a8fad35d9b0ce89d41708d3cebe252d7bb2860e1172cabab3abffb7",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16196",
+      "sha256": "bb6bfce36b620c2f0e2d8d1e6a0b39b6c7dc84c96bbb088269ea476ed4b46d86",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1607.01454"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1805.09784"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2101.11628"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.01659"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2207.00021"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.02593"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math/0205005"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math/0504358"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-214: renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-214",
+      "qnfo:runPath": "runs/cycle-214/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif",
+      "qnfo:slug": "renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif",
+      "datePublished": "2026-10-19T12:30:53+02:00",
+      "qnfo:depositCommit": "2347aac5e138c78c1e639f7ca2e352e12be8857f",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif"
+      },
+      "hasPart": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#drafting"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif",
+      "url": "https://papers.qnfo.org/papers/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif"
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19242",
+      "sha256": "b472c2233b2b44f161441f415b25c471616e09fb38bebf56cdda84dd9d64c37a",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "imperfectly-defining-reality-1",
+  "paper": {
+    "path": "papers/imperfectly-defining-reality-1/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/imperfectly-defining-reality-1"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "imperfectly-defining-reality-1"
+  },
+  "snapshots": [
+    {
+      "sha256": "c8da2ba2370c5edd697627cc03384b737922ab368434f3bbb48f0e2c06b995de",
+      "bytes": 33342,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "3ff136ab14feb540474e90d5fd365063328af0cf"
+    }
+  ],
+  "events": []
+}

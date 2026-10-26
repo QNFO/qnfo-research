@@ -1,0 +1,61 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of",
+  "paper": {
+    "path": "papers/passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of/paper.md",
+    "title": "Passive Signal as Passive Controller: A Systems-Theoretic Feasibility Analysis of the Signal‑Worker Ontology",
+    "url": "https://papers.qnfo.org/papers/passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-145/passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4ef1016a2c847abc3557a8a7f85805b7084793882810ee4a721807dade947fb1"
+    },
+    {
+      "path": "runs/cycle-244/passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "839df2d16154e05d80f7a7d782e278b9dccdde7d02026f6bce91e88a196100ea"
+    },
+    {
+      "path": "runs/cycle-256/passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1adbe1b5a8fb456ca8b6526fa57877d2c0e35494e70250d6158763966da9d423"
+    },
+    {
+      "path": "runs/cycle-365/passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "748e61586dd3f2ab31063e2fd3bead6060313ca838acf84ffa07bdc6b3a87c89"
+    },
+    {
+      "path": "runs/cycle-65/passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "passive-signal-as-passive-controller-a-systems-theoretic-feasibility-analysis-of"
+  },
+  "snapshots": [
+    {
+      "sha256": "c5b63658d49dc5e37fd914f16cf8f7e7f3068649998dd5bc6c42a220970013c1",
+      "bytes": 36454,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "f710cc5680b83d2727a31b262f43651ab8871e07"
+    }
+  ],
+  "events": []
+}

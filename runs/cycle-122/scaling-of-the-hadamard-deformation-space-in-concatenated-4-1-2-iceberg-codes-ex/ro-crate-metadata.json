@@ -1,0 +1,433 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-122: scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-122",
+      "qnfo:runPath": "runs/cycle-122/scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex",
+      "qnfo:slug": "scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-12T21:45:54+02:00",
+      "qnfo:depositCommit": "8fe860eb9c67101280f5984368e4541d88d0143c",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex",
+      "url": "https://papers.qnfo.org/papers/scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1001.2258",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1001.2258"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1005.0280",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1005.0280"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1008.2691",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1008.2691"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1009.3448",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1009.3448"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1010.2469",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1010.2469"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1011.5746",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1011.5746"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.1836",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.1836"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1407.7158",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1407.7158"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1711.08776",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1711.08776"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.16817",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.16817"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.25251",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.25251"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "b5818b1f83d2d282b5895960eab537e02ba37fb31cf236b78b1139bbc1e4841e",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10381",
+      "sha256": "3abaf501c676b445f8323e3ec4727edd34f91fabf387a634e86c54420d049fe7",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3855",
+      "sha256": "1cd71d73dd640a51416c4721326fd081dc667613e4e7374a15f72fb2d5055317",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9533",
+      "sha256": "7de028c0e9cc66f8cba4c86ec66eb40e14ec57193544ce25b1ce4ccac8800e11",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3773",
+      "sha256": "cedb33868a44bb1dd902cd2a9ed29a89d4e29c844ccb35ffe24706f133382d46",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23485",
+      "sha256": "141cefddd07636a0f007a67c0be7f6ed88fd902fda3a23af9f5fa2116929f3dd",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "30414",
+      "sha256": "dc532927c0ffb905d173367c3bc6097652bf79d2678eff7ec2339945b6058033",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24026",
+      "sha256": "adf7f92d918d5c7f1ee545e6030b20be403f23e227b9d1a9c298638e6c776b12",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1001.2258"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1005.0280"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1008.2691"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1009.3448"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1010.2469"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1011.5746"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.1836"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1407.7158"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1711.08776"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.16817"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.25251"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-12T21:45:54+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "7bec4c57e9a2b6ab0ba4a34e2da0b26293ee8a0511332fd1bdb380cb4ecb1b4f"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-215: algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-215",
+      "qnfo:runPath": "runs/cycle-215/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
+      "qnfo:slug": "algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T12:31:02+02:00",
+      "qnfo:depositCommit": "7728f722a2264dc8183ea446f3ee589ba1f46478",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/grounding.md"
+        },
+        {
+          "@id": "#missing/verification.md"
+        },
+        {
+          "@id": "#missing/verification.py"
+        },
+        {
+          "@id": "#missing/writer-a-draft.md"
+        },
+        {
+          "@id": "#missing/writer-b-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#review"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
+      "url": "https://papers.qnfo.org/papers/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "f31dc55a7a98fd8c2c8243ae836e552df62316f5820842f295633026007336ed",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3115",
+      "sha256": "91663eedb13c3a280158f5d30d58d882436504e672bca3a2f661197a4786141d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/grounding.md",
+      "@type": "CreativeWork",
+      "name": "grounding.md",
+      "sha256": "b5c14ef5d2dd90241e68eca9e13e35d74f08b8b00c5472a8db623983ad20f36a",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.md",
+      "@type": "CreativeWork",
+      "name": "verification.md",
+      "sha256": "fd02b8c593722ae9587b38934bd2809f24966a71b3a110c42747236bcab598cb",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.py",
+      "@type": "CreativeWork",
+      "name": "verification.py",
+      "sha256": "0a0bd5496356421ff04f91dd1871ea17a826045661897f972d9b54881afe11a5",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-a-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-a-draft.md",
+      "sha256": "8d9a2f2e043c48d3ca270c110e2794f7aada04d1b1604d98c3880173fef39a36",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "bba432663818800d4c78f1aa39a733e924cef5f9237c1826e827ddbe3bcdb347",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure"
+    }
+  ]
+}

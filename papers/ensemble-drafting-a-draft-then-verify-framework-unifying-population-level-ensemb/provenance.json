@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ensemble-drafting-a-draft-then-verify-framework-unifying-population-level-ensemb",
+  "paper": {
+    "path": "papers/ensemble-drafting-a-draft-then-verify-framework-unifying-population-level-ensemb/paper.md",
+    "title": "Ensemble Drafting: A Draft‑Then‑Verify Framework Unifying Population‑Level Ensemble Control and Speculative Inference",
+    "url": "https://papers.qnfo.org/papers/ensemble-drafting-a-draft-then-verify-framework-unifying-population-level-ensemb"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-305/ensemble-drafting-a-draft-then-verify-framework-unifying-population-level-ensemb",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "15a2321e5291f174a84fa8069acea62a7d0572eae1fa13f263eacf322c9a5740"
+    },
+    {
+      "path": "runs/cycle-93/ensemble-drafting-a-draft-then-verify-framework-unifying-population-level-ensemb",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d9dd011e90683a88f56800ceda1e094aa6856f7eea4b0bdc4769635308fcf908"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ensemble-drafting-a-draft-then-verify-framework-unifying-population-level-ensemb"
+  },
+  "snapshots": [
+    {
+      "sha256": "b0010b81fb75251ca4de4769643a708692c313c07681c274942e18d6d9564566",
+      "bytes": 38384,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "fe3e033600dffcb714a470f65c27d05d152b1f44"
+    }
+  ],
+  "events": []
+}

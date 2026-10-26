@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-quantum-gravity-and-computation",
+  "paper": {
+    "path": "silent-radix/ultrametric-quantum-gravity-and-computation/paper.md",
+    "title": "Ultrametric Quantum Gravity and Computation",
+    "url": "https://papers.qnfo.org/papers/ultrametric-quantum-gravity-and-computation"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758314",
+        "source": "README.md"
+      },
+      {
+        "doi": "10.5281/zenodo.19397516",
+        "source": "paper.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-quantum-gravity-and-computation"
+  },
+  "snapshots": [
+    {
+      "sha256": "ef033f0927e3b55fe91289dba7c8c763aadca797ca37583dea13d1d75eeedd19",
+      "bytes": 15195,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "1.0",
+      "git_commit": "1a26382154d5d1badf362318b159905362358930"
+    }
+  ],
+  "events": []
+}

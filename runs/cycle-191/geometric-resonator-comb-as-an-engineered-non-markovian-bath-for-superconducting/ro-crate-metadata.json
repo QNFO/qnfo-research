@@ -1,0 +1,414 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-191: geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-191",
+      "qnfo:runPath": "runs/cycle-191/geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting",
+      "qnfo:slug": "geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-18T23:21:34+02:00",
+      "qnfo:depositCommit": "9f598318007971c4979ee4336addbdf41fa8f7c0",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting",
+      "url": "https://papers.qnfo.org/papers/geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1204.1708",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1204.1708"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1406.0658",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1406.0658"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1707.04423",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1707.04423"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.00536",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.00536"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2012.00223",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2012.00223"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.00985",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.00985"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2303.13301",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2303.13301"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2502.17891",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2502.17891"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.00708",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.00708"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.21458",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.21458"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2607.19286",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2607.19286"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "99c57de9a6ab542ee4a1636b2d3f7c4dadb7e3d13cc703f5a8dacb307bc58f40",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "61759",
+      "sha256": "4cc8dbfba453264f46ac302986f0567eb265787495a5161146674146a5a5b526",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3171",
+      "sha256": "5cf86647573502f709c8dcb621eb9b5743407becf9d58a8b61477dea2842c623",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6589",
+      "sha256": "ffd1307f96f26b6e0139a4e534a0c0b8904206c75eacc84f6715362bcc7bed52",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2967",
+      "sha256": "3d0a9008d4683bce03846f0e4e05330843265120995e20b80684c5ee687ddbcf",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21350",
+      "sha256": "e1ef9c2fb7f8ca83c491ad0765ee6d4188ad93d01d97c43c4fdbaeec9dcd99e6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14406",
+      "sha256": "6c8127c89c2d9e7dc6795da66edd3d88a068a9be160424da06f6a8203279cf10",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1204.1708"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1406.0658"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1707.04423"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.00536"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2012.00223"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.00985"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2303.13301"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2502.17891"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.00708"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.21458"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2607.19286"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-18T23:21:34+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "26b96e193b5f542e56cbbae21631f35ca3ad4e134b178993690b7027a541561e"
+    }
+  ]
+}

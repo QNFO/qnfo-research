@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qnfo.org/schemas/known-gaps-1.json",
+  "title": "QNFO research repository known-gaps ledger",
+  "description": "provenance/known-gaps.json: every integrity or completeness defect the audit found, each with a cause and a recovery path. `tools/provenance.py verify` tolerates exactly these and fails on anything else, so the set can only shrink (a ratchet). A gap is removed in the commit that closes it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "as_of", "gaps"],
+  "properties": {
+    "schema": { "const": "qnfo-known-gaps/1" },
+    "as_of": { "type": "string", "minLength": 10 },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "path", "cause", "recovery", "status"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "kind": {
+            "enum": [
+              "manifest-file-missing",
+              "run-without-manifest",
+              "paper-text-not-in-repo",
+              "nondeterministic-verification",
+              "recorded-output-corrupt"
+            ]
+          },
+          "path": { "type": "string", "minLength": 1 },
+          "files": { "type": "array", "items": { "type": "string" } },
+          "expected_sha256": {
+            "type": "object",
+            "description": "file -> sha256 the manifest promised; a restored file is accepted only if it hashes to this.",
+            "additionalProperties": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+          },
+          "runs": { "type": "array", "items": { "type": "string" }, "description": "paper-text-not-in-repo: the run directories that produced the paper, for the provenance.json a restore writes." },
+          "unrecoverable": {
+            "type": "object",
+            "description": "file -> why no byte-identical copy exists (checked against R2); the row is not retried for that file.",
+            "additionalProperties": { "type": "string" }
+          },
+          "cause": { "type": "string", "minLength": 1 },
+          "recovery": { "enum": ["restore-from-r2-by-hash", "restore-from-living-paper", "regenerate", "none-recorded-only"] },
+          "status": { "enum": ["open", "unrecoverable"] }
+        }
+      }
+    }
+  }
+}

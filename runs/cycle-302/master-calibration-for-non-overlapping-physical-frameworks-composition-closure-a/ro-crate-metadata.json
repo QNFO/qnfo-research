@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-302: Master Calibration for Non-Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-302",
+      "qnfo:runPath": "runs/cycle-302/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "qnfo:slug": "master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T16:35:10+02:00",
+      "qnfo:depositCommit": "52eae27c959a572632c3f25dd2d4654c257e9fb3",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Master Calibration for Non-Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation",
+      "url": "https://papers.qnfo.org/papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1902.10586",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1902.10586"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.11775",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.11775"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2004.08463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2004.08463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2012.10988",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2012.10988"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.10395",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.10395"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2107.11742",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2107.11742"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.03597",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.03597"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-ex/9605011",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-ex/9605011"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "ac699bde57531559775a8038be4d1a6c3e683d2fe394da46aee3bc25f93d6dd6",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "77452",
+      "sha256": "a7637c16ae357ed20515883c05520104de426c00c34642c40c57429b045f541d",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1430",
+      "sha256": "e6916f40b3266fe9c8a876148abe7c8223700a6cd22e541d1e1f8d2d8e6aaa71",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10342",
+      "sha256": "15ccc9efd736724f0ac61ca767712e750340bc6b7f2c4833c92b5c1e17705f80",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3480",
+      "sha256": "ee512892dd7a6a7732150d256be02704ca6fb617bce88a54642daab0688ceb5a",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28491",
+      "sha256": "c35e582a9e66fc3cb21e50c39cf7a36ff7439be2cd7c9d1f2ad893e8905de7e1",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29902",
+      "sha256": "1e9b61e1d0bbe76a9e64749ab2879c719984f52cb7d365ce3c30a7282f76b248",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1902.10586"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.11775"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2004.08463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2012.10988"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.10395"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2107.11742"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.03597"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-ex/9605011"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-20T16:35:10+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "706ada44bf1f93294e3fb1ca09a856de62a75a396fbced985c92e2d4336b2e63"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st",
+  "paper": {
+    "path": "papers/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st/paper.md",
+    "title": "The Algebraic Origin of Zitterbewegung: A Hierarchy of Ownership from Clifford Structure to Observed Oscillation",
+    "url": "https://papers.qnfo.org/papers/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-130/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "743bcdb3dcdcf073854a26c3c8abbcbad8ecb1f9eea2477929520e383c1085c8"
+    },
+    {
+      "path": "runs/cycle-360/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "99b874593af60e72fc343e3ba4c86610a787b96462e4dd00b99b6be7ce3d1459"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st"
+  },
+  "snapshots": [
+    {
+      "sha256": "8493779cb1599cba44f8ac5ee9ecaa4d81739b32772b5c6ef736fba3817736d5",
+      "bytes": 35673,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "b4b2469638f6a4f85ebd4644bf266c45389bcbde"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo",
+  "paper": {
+    "path": "papers/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo/paper.md",
+    "title": "Re‑Deriving Quantum Entanglement from Classical Radon–Nikodým Hydrodynamics: A Formal Falsification Analysis of the Hydrodynamic Stability Hypothesis",
+    "url": "https://papers.qnfo.org/papers/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-115/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a552d59b86b10e5ee006235dcf81f2373dfac0b2c6dafd34beb8a2c5723a7878"
+    },
+    {
+      "path": "runs/cycle-278/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "bd86c11879a99e2f15623525896116213618400e5ae2b13424b77d9f557a79e3"
+    },
+    {
+      "path": "runs/cycle-298/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4b5354fa7fa188e08282490a0dbda2e4236b0d3977b056fb6ab13c1c6cabc2c9"
+    },
+    {
+      "path": "runs/cycle-325/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "33ffd0c4640d7036f54a52b0482115dbe53697c0c68e7a35a2db05a04ed582db"
+    },
+    {
+      "path": "runs/cycle-361/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "011dec48d5d8e2e2da014f038b6314dc528614cdf8f20b891fcc3a8e6bfcc961"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo"
+  },
+  "snapshots": [
+    {
+      "sha256": "fab5cb7fbe733a18de3648aad907b5bf5e04ebc010ace4a3800b9e0d23135319",
+      "bytes": 25131,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "55d3fa1802e2dc5e039db3d208b264a93bff5207"
+    }
+  ],
+  "events": []
+}

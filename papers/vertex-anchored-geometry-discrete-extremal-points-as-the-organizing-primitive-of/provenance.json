@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of",
+  "paper": {
+    "path": "papers/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of/paper.md",
+    "title": "Vertex-Anchored Geometry: Discrete Extremal Points as the Organizing Primitive of Non‑Archimedean Space",
+    "url": "https://papers.qnfo.org/papers/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-106/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "21c6f20a88feae4be7be8fcfcb3511738fe1b33f2cbb8a9482b99a0102ab810c"
+    },
+    {
+      "path": "runs/cycle-353/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "c22358530bded5d9d538354f19537b46db71ec87693015ea1911f20f08f47f61"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of"
+  },
+  "snapshots": [
+    {
+      "sha256": "26e148ea6378750710f32c289915f6a310817dbdda203b0632f66a4b0c7d1014",
+      "bytes": 20593,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "c16f7d3b679dbb40299106ccc56461338a8473f4"
+    }
+  ],
+  "events": []
+}

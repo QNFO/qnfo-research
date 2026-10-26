@@ -1,0 +1,225 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-227: Cross-Model LLM Convergence as Bayesian Evidence for Scientific Claim Correctness: A Formal Framework, Worked Derivations, and a Calibration Protocol",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-227",
+      "qnfo:runPath": "runs/cycle-227/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes",
+      "qnfo:slug": "cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes",
+      "datePublished": "2026-10-19T15:14:15+02:00",
+      "qnfo:depositCommit": "603c6c4723aa2acc024c7c88aea4e2304ff8f8df",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#review"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Cross-Model LLM Convergence as Bayesian Evidence for Scientific Claim Correctness: A Formal Framework, Worked Derivations, and a Calibration Protocol",
+      "url": "https://papers.qnfo.org/papers/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2011.14743",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2011.14743"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.10093",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.10093"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.02646",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.02646"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2301.13783",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2301.13783"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2312.15640",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2312.15640"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2410.12601",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2410.12601"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2503.07937",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2503.07937"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.05868",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.05868"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "75885",
+      "sha256": "d7a29d2bad272d3c5210e538f3de2cd27b41035240311d1344f7f0c58a96ad6f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2638",
+      "sha256": "6993429a195f3b0e80388618cb449eba6121b8e58b4ffc95119a19061525b035",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/2011.14743"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.10093"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.02646"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2301.13783"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2312.15640"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2410.12601"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2503.07937"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.05868"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    }
+  ]
+}

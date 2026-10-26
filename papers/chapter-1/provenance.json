@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "chapter-1",
+  "paper": {
+    "path": "papers/chapter-1/paper.md",
+    "title": "Part I: Observing Ignorance",
+    "url": "https://papers.qnfo.org/papers/chapter-1"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-383/chapter-1",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "6d6cb2df80f5b79b8fa71f7d263e66de2cd8526f82a8bf327752c20a0ab19e32"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "chapter-1"
+  },
+  "snapshots": [
+    {
+      "sha256": "ba33c51feb81c038f89a4abe8bea72a7725e281e569c98b62a9ee922135f5b84",
+      "bytes": 27486,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "f0ff8f548bd3dd25e8424e55bbb79167cf4c7b5c"
+    }
+  ],
+  "events": []
+}

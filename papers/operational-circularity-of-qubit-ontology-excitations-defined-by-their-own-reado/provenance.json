@@ -1,0 +1,49 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado",
+  "paper": {
+    "path": "papers/operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado/paper.md",
+    "title": "Operational Circularity of Qubit Ontology: Excitations Defined by Their Own Readout",
+    "url": "https://papers.qnfo.org/papers/operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-280/operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    },
+    {
+      "path": "runs/cycle-368/operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "462dc7281c0693ba309939241b58c37eefa242073662d2b2c9fc162af1610bc6"
+    },
+    {
+      "path": "runs/cycle-80/operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "6270b31443ef1512ea84f10c739535772eb02b3d7507212289eb27a2b8a34c6b"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado"
+  },
+  "snapshots": [
+    {
+      "sha256": "015597aa529972f70fb5c524607ccd593bfd73bc0a8e6af80f7ad02b211c57cd",
+      "bytes": 30897,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "d59cb37088b177209708dd4f8ff036f31aa355e8"
+    }
+  ],
+  "events": []
+}

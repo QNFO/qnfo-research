@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "9-information-re-founded",
+  "paper": {
+    "path": "papers/9-information-re-founded/paper.md",
+    "title": "Re‑Founding Information: An Autaxic Ontological Framework with Quantitative Illustrations",
+    "url": "https://papers.qnfo.org/papers/9-information-re-founded"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-382/9-information-re-founded",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2d9ee0184f63235117e68016b06a0be2e5574ffe877502e4df331f966eea97ed"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "9-information-re-founded"
+  },
+  "snapshots": [
+    {
+      "sha256": "9e90cb6b65d2a23915d77835f09a63d25dab5490cf38b7c88e183bb806dbf5e2",
+      "bytes": 19875,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "4790c48fa3338c5e96c9dd25126467fa3406db15"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-majorana-tqc-p7-grand-synthesis",
+  "paper": {
+    "path": "papers/zbw-majorana-tqc-p7-grand-synthesis/paper.md",
+    "title": "The Adelic Physics Program: A Grand Synthesis",
+    "url": "https://papers.qnfo.org/papers/zbw-majorana-tqc-p7-grand-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22741799",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-majorana-tqc-p7-grand-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "94695a8ffbb1215d796d822b48f1062848b22a551d182d94b247f2f2d7580bb0",
+      "bytes": 11356,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "5b9ef96254295b3374e2b7176bebb8aa9c404878"
+    }
+  ],
+  "events": []
+}

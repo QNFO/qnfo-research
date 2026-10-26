@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-242: Thermal Quantum Sensing at High Temperature: Exact Fisher‑Information Bounds, Universal Metrics, and the Work Cost of Quadratic Signals",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-242",
+      "qnfo:runPath": "runs/cycle-242/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ",
+      "qnfo:slug": "thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T23:01:16+02:00",
+      "qnfo:depositCommit": "1f3f1ebf73650646772e287659eb6ba87998661d",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Thermal Quantum Sensing at High Temperature: Exact Fisher‑Information Bounds, Universal Metrics, and the Work Cost of Quadratic Signals",
+      "url": "https://papers.qnfo.org/papers/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1108.5136",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1108.5136"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.4506",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.4506"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.03538",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.03538"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2407.21701",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2407.21701"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.23538",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.23538"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.09583",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.09583"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0305192",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0305192"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0402010",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0402010"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "ddd0ccb63514ca8d337e242fc80cfd1f37f6797f1a315b743adf8f4aa69b8269",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "76549",
+      "sha256": "d887c006d57c9f26d7c75dcc0eab7183614c1bf950fffeedd92b77ee47bb227c",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1732",
+      "sha256": "7f0b573c12ea262ae1c59419d4c703108875b50c0be0e49c2d14cc1318352f9a",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7428",
+      "sha256": "c59051a1d6c173a39d6ea03f1be251c372cd0e55e74904b8d5a18dbd21105f06",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2953",
+      "sha256": "785e926f63496306b42f28783df145ea6d836a09e6620460b45f68793617cd7e",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19633",
+      "sha256": "6bbaa1eac673e29b8539452d7916458dc7657f71ecdfdc68acc8ee8f878639c0",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21555",
+      "sha256": "1616985661fb55e095bb436eafa72991c534890a2f5eaeb7b0e1eb647ca1cc05",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1108.5136"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.4506"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.03538"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2407.21701"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.23538"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.09583"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0305192"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0402010"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-19T23:01:16+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "d64c21445ad03cc641f931cac7f13bdc75204fc472f406c9414da7fbd61a9e90"
+    }
+  ]
+}

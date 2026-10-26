@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-braid-groups-bruhat-tits",
+  "paper": {
+    "path": "papers/p-adic-braid-groups-bruhat-tits/paper.md",
+    "title": "p-Adic Braid Groups on Bruhat-Tits Buildings",
+    "url": "https://papers.qnfo.org/papers/p-adic-braid-groups-bruhat-tits"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758712",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-braid-groups-bruhat-tits"
+  },
+  "snapshots": [
+    {
+      "sha256": "d47ab03c2c9c8064231253c587574c3a4e96ddc15421ca92db2a58ff6fdfba1b",
+      "bytes": 23960,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "230a6fcd4528fce5cbefdd45e7d434e2b8fff081"
+    }
+  ],
+  "events": []
+}

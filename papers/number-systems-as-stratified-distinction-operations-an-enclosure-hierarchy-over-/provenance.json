@@ -1,0 +1,67 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+  "paper": {
+    "path": "papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-/paper.md",
+    "title": "Number Systems as Stratified Distinction Operations: An Enclosure Hierarchy over the Mark",
+    "url": "https://papers.qnfo.org/papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-274/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "3ae7eae3594e827245d37c7f0258c289feac66b6119f02b69d4ac9769493c9fb"
+    },
+    {
+      "path": "runs/cycle-292/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2c45221269169ef7ffcd3fc05de6812f32eb40c11a499615fa1c7fa33a900553"
+    },
+    {
+      "path": "runs/cycle-300/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "30aa8b7b19d0485d2d46ffcccc046ffd2878d8a40ce82006f05ef6964301af16"
+    },
+    {
+      "path": "runs/cycle-318/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "0b5cb4c32402df6b367f2f349fd3b5766e2e748877f511a390b6f24b8a6ee057"
+    },
+    {
+      "path": "runs/cycle-356/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1ace0c5b5b546984ed352bdf8ffc4026c01f0cb2db5c1a1c9d2308ff0f46e38b"
+    },
+    {
+      "path": "runs/cycle-73/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "5cb5c238ac55f8526e6fbea4e7922c511c48e7d9cfbba3a4b0f2c74bee8a88c0"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-"
+  },
+  "snapshots": [
+    {
+      "sha256": "eb14fa61c723fde8497c436020c116c2f2dd47a61d6fcdd7b9aa2e4d40bb293c",
+      "bytes": 28525,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "86d93fce09d8cae7fa7cfb1cdeb5f67b2ba45695"
+    }
+  ],
+  "events": []
+}

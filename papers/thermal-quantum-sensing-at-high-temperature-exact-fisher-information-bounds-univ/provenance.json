@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ",
+  "paper": {
+    "path": "papers/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ/paper.md",
+    "title": "Thermal Quantum Sensing at High Temperature: Exact Fisher‑Information Bounds, Universal Metrics, and the Work Cost of Quadratic Signals",
+    "url": "https://papers.qnfo.org/papers/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-242/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ddd0ccb63514ca8d337e242fc80cfd1f37f6797f1a315b743adf8f4aa69b8269"
+    },
+    {
+      "path": "runs/cycle-49/thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "bc2842fbeee8cade1a5c114464e26eb12fdb54a127bc4c341d595d8b9b3e21f7"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermal-quantum-sensing-at-high-temperature-exact-fisher-information-bounds-univ"
+  },
+  "snapshots": [
+    {
+      "sha256": "708367240dddc20cdf3a42e56dddfa82e770c123ed712439ce007743af164789",
+      "bytes": 33266,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "11d98563097939e93b8404d772d2a057901c4766"
+    }
+  ],
+  "events": []
+}

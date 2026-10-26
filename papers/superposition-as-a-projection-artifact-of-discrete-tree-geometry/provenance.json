@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "superposition-as-a-projection-artifact-of-discrete-tree-geometry",
+  "paper": {
+    "path": "papers/superposition-as-a-projection-artifact-of-discrete-tree-geometry/paper.md",
+    "title": "Superposition as a Projection Artifact of Discrete Tree Geometry",
+    "url": "https://papers.qnfo.org/papers/superposition-as-a-projection-artifact-of-discrete-tree-geometry"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-254/superposition-as-a-projection-artifact-of-discrete-tree-geometry",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "8f311a071cd1c011109b2bde3773123ae95a6732dbe141099ad72ebde67e2028"
+    },
+    {
+      "path": "runs/cycle-278/superposition-as-a-projection-artifact-of-discrete-tree-geometry",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "superposition-as-a-projection-artifact-of-discrete-tree-geometry"
+  },
+  "snapshots": [
+    {
+      "sha256": "164009d1f00dc8b6c03907e4f8d7fcaf7a4a3dfc6376f9d543e796c10906d41e",
+      "bytes": 24537,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "70e1d73583bb9d6205bcca8e3440e7e6a0476323"
+    }
+  ],
+  "events": []
+}

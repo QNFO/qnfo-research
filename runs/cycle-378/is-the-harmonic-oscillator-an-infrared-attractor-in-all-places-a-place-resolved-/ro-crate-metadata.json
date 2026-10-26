@@ -1,0 +1,233 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-378: Is the Harmonic Oscillator an Infrared Attractor in All Places? A Place‑Resolved Analysis of the Harmonic Paradigm",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-378",
+      "qnfo:runPath": "runs/cycle-378/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "qnfo:slug": "is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "datePublished": "2026-10-24T06:01:43+02:00",
+      "qnfo:depositCommit": "cc9006be2328b65fa88137614b49c253ab57dc25",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Is the Harmonic Oscillator an Infrared Attractor in All Places? A Place‑Resolved Analysis of the Harmonic Paradigm",
+      "url": "https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1001.1149",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1001.1149"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1409.2468",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1409.2468"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2009.07197",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2009.07197"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.13436",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.13436"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2111.09575",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2111.09575"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2204.10780",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2204.10780"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.07238",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.07238"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.12780",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.12780"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/0301066",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/0301066"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "74591",
+      "sha256": "002c8f671389f13f6ab209dd54850aa003907af93592a00976a5ec1f2dd7d444",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20291",
+      "sha256": "39718950bbe4f776dacaea848037438d35b7e0d8e660622fc2ba68c40e972776",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1001.1149"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1409.2468"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2009.07197"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.13436"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2111.09575"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2204.10780"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.07238"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.12780"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/0301066"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    }
+  ]
+}

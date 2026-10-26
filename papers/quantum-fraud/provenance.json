@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantum-fraud",
+  "paper": {
+    "path": "papers/quantum-fraud/paper.md",
+    "title": "Quantum Fraud",
+    "url": "https://papers.qnfo.org/papers/quantum-fraud"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantum-fraud"
+  },
+  "snapshots": [
+    {
+      "sha256": "3b8a38c5a9a70b6a82ef5a285ab86a37da111418efee1a909cc364ffa761ff1c",
+      "bytes": 24887,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "4fc9aef62e2a8f0141f41741439da20cfddd34c2"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,8 @@
+# Preserve every byte: these trees are hashed (sha256 in MANIFEST.json and ro-crate-metadata.json).
+# Without this a Windows checkout with core.autocrlf rewrites line endings and every hash fails.
+runs/** -text
+papers/** -text
+*/provenance.json text eol=lf
+provenance/*.json text eol=lf
+schemas/*.json text eol=lf
+tools/testdata/** -text

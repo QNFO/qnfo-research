@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-114: Factoring Hardness as a Bayesian Prior: A Decision-Theoretic Model of Post‑Quantum Cryptography Migration Timing",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-114",
+      "qnfo:runPath": "runs/cycle-114/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "qnfo:slug": "factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-12T10:16:45+02:00",
+      "qnfo:depositCommit": "e08eabaeb6687ddef2513a69f71590bda160b92b",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Factoring Hardness as a Bayesian Prior: A Decision-Theoretic Model of Post‑Quantum Cryptography Migration Timing",
+      "url": "https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.1154",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.1154"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1309.1799",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1309.1799"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1504.06523",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1504.06523"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1512.00969",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1512.00969"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1512.01013",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1512.01013"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.10992",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.10992"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2301.04491",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2301.04491"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.09958",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.09958"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1018",
+      "sha256": "df43dc81264c2fbac744baa14bbc53ef552832427270c59a5f7013caacbabfdc",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12243",
+      "sha256": "30ffc04c17973693878980b375bd34d902afe6e95ffa47fe032c1ad69f691f4b",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1908",
+      "sha256": "c83100cb0f24ddc2f0389f4ae216f79449284903b73783fa04b91d9e91cc4af5",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3506",
+      "sha256": "cd1babb2a2eb20e50d44e0bf715e6df455a1e7b0d8e55a742243f588b7789869",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1444",
+      "sha256": "139e5378437c3d4e791c6fa717d44a6d8a2432343ccea17eb8b140ce1f2ed8cf",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12379",
+      "sha256": "b7af071fed972981f6428c220676071fb2d9f9d7f103918804f831f9b5020f43",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20192",
+      "sha256": "78437c617e56fff291e18ce4a0f16b4f091d5d8c0ade88eb38606ae5b9c2089c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9102",
+      "sha256": "3ccbd8712c19401426cbc6e336183b3736d6e5d54439f8f385edfa7389b943c6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1002.1154"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1309.1799"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1504.06523"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1512.00969"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1512.01013"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.10992"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2301.04491"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.09958"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-12T10:16:45+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "43db4d6645d21c2306b1569fc3c3cba998f756ee7c4c96e1918182c95db24645"
+    }
+  ]
+}

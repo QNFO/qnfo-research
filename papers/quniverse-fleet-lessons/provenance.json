@@ -1,0 +1,66 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quniverse-fleet-lessons",
+  "paper": {
+    "path": "papers/quniverse-fleet-lessons/paper.md",
+    "title": "Retracted: Operating the Quniverse Fleet: Objectives, Successes, Failures, and Roadmap of an Autonomous Cloud Research System",
+    "url": "https://papers.qnfo.org/papers/quniverse-fleet-lessons"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.23001088",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-246/quniverse-fleet-lessons",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "62d028704327664fce65d390446f14fe01179f11570d50b2df82dffb2c5d17f9"
+    },
+    {
+      "path": "runs/cycle-273/quniverse-fleet-lessons",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "dc7f8be076a3c57060a6050b70d7dcaa32a9d3aeb2a6c124922404200cea1f90"
+    },
+    {
+      "path": "runs/cycle-283/quniverse-fleet-lessons",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "35f9dbb396ed2d3cd7cc6d4f5b908f4e90889b5580d79bd7d1069677ed28031c"
+    },
+    {
+      "path": "runs/cycle-297/quniverse-fleet-lessons",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e6764580b34bbbb5816fd9569b20bdc29122f26198807d04d927089c7a7941a5"
+    },
+    {
+      "path": "runs/cycle-338/quniverse-fleet-lessons",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "34b793e279bbf9408756c5b19bbb01b239c7db469968bfaad6aa17d8bb533748"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quniverse-fleet-lessons"
+  },
+  "snapshots": [
+    {
+      "sha256": "73b0b5d2bbbde1a07cb05051e9de0f1f4484e334d41f0b22db3040e5265cd587",
+      "bytes": 4058,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "2c68e6f0226b72703e47e1e5bc9d235fb1fad28e"
+    }
+  ],
+  "events": []
+}

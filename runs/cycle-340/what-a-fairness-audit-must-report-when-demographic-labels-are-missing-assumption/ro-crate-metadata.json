@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-340: What a Fairness Audit Must Report When Demographic Labels Are Missing: Assumption‑Free Disparity Intervals, a Determinacy Rule, and a Disclosure Checklist",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-340",
+      "qnfo:runPath": "runs/cycle-340/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption",
+      "qnfo:slug": "what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T07:25:17+02:00",
+      "qnfo:depositCommit": "0d7a8f394eb84c70ee3154f3329eaf99bced0a9a",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "What a Fairness Audit Must Report When Demographic Labels Are Missing: Assumption‑Free Disparity Intervals, a Determinacy Rule, and a Disclosure Checklist",
+      "url": "https://papers.qnfo.org/papers/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1110.5626",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1110.5626"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1711.05144",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1711.05144"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.02664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.02664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.07866",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.07866"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.01038",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.01038"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.15497",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.15497"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2506.23033",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2506.23033"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.21391",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.21391"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "33aaeb21c8b0eb885f817c6c0543484011c3684c6e244a42637c4785487a7ee1",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "95492",
+      "sha256": "197e5fe4a605c7c914324d53e98ca391b161497f4da0b1b1f533378e4b30950a",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1089",
+      "sha256": "cee374bf9a4da2ada5434bb0901f08d6531eb3de21b5190041103f880c0bddbd",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13279",
+      "sha256": "a51597beda97640162bbb49e28bcf81b544e5915e799e9928789c6880ddd8810",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "5817",
+      "sha256": "5c371142f091ed78bb57b3b52deb7f499eae2cea7cd706cfd33cac85ab79d64e",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24869",
+      "sha256": "b767cec121477c0df37730018484304dd4a5045b3b184eff56bfb00105b35782",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "31465",
+      "sha256": "cea27719483ec284a2674c747fc6e73a82290a039f7a903d3a5b40ba0762f839",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1110.5626"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1711.05144"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.02664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.07866"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.01038"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.15497"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2506.23033"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.21391"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-21T07:25:17+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "c2d52962d063c81ae9fb19ab4448c1c737c49c4a32fd525794c6e5ec71e0c2c9"
+    }
+  ]
+}

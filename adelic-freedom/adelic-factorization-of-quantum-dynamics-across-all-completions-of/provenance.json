@@ -1,0 +1,49 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-factorization-of-quantum-dynamics-across-all-completions-of",
+  "paper": {
+    "path": "adelic-freedom/adelic-factorization-of-quantum-dynamics-across-all-completions-of/paper.md",
+    "title": "Adelic Factorization of Quantum Dynamics Across All Completions of ℚ",
+    "url": "https://papers.qnfo.org/papers/adelic-factorization-of-quantum-dynamics-across-all-completions-of"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-227/adelic-factorization-of-quantum-dynamics-across-all-completions-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "0f76a45008aef60f6f632410d0ca828f90aa4719cac6dc5a212de36160348214"
+    },
+    {
+      "path": "runs/cycle-243/adelic-factorization-of-quantum-dynamics-across-all-completions-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b328b9586b7a455e4900d146f58bde1a93a4d8cd035472c36238692a35c09b75"
+    },
+    {
+      "path": "runs/cycle-90/adelic-factorization-of-quantum-dynamics-across-all-completions-of",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "677dae64137dc379a151c67e9b121219e0538952928f8f4db31991b59b64cbbe"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-factorization-of-quantum-dynamics-across-all-completions-of"
+  },
+  "snapshots": [
+    {
+      "sha256": "36a4355ccdcdadadf193d28af428911753a9b7043d9845f05b7e6cb9acfbab94",
+      "bytes": 26852,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "c16ec00d3d08066a9896ab275336d8f59cf1f397"
+    }
+  ],
+  "events": []
+}

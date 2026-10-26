@@ -1,0 +1,414 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-207: layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-207",
+      "qnfo:runPath": "runs/cycle-207/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-",
+      "qnfo:slug": "layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T06:41:01+02:00",
+      "qnfo:depositCommit": "57e5af2eba82aaa589517213954099dad5d9f46b",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-",
+      "url": "https://papers.qnfo.org/papers/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1506.08743",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1506.08743"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1802.07237",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1802.07237"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1806.05251",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1806.05251"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1811.04548",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1811.04548"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2104.06800",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2104.06800"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2105.08669",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2105.08669"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2212.05920",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2212.05920"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.02505",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.02505"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.07683",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.07683"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.02293",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.02293"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.09158",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.09158"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "878",
+      "sha256": "86839166c642f67c76b44895509b1d126148cb8ad4fb33df5d931f2a22436fa3",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "55725",
+      "sha256": "009f323884612858e1ec43b5a3000ecfbaa4688ca659fff2c6eac234f9532d2a",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "884",
+      "sha256": "ab3ee9e0127108f630893b1dc33297c70e1212b43e70191a4d19cfa56a1bc055",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9174",
+      "sha256": "6989ae8af47deb9c371e0fb2c53f02ec80f0e52093ce7765c9b4e6c5f7771fa8",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3185",
+      "sha256": "e13cf0db5f74a79b49a85b56fe91af6d292cdd8ac1693c3a786f96b80a485023",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21332",
+      "sha256": "80a6854a99d33fe468547969baa891a57684d65d0348f21a8eb4bd6a9a6b18fe",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5598",
+      "sha256": "83b817248d605f7be62cfe30d1f5cfd15c17ac0e551ebad5742d60a738bf60b0",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1506.08743"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1802.07237"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1806.05251"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1811.04548"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2104.06800"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2105.08669"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2212.05920"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.02505"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.07683"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.02293"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.09158"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T06:41:01+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "29a37ea6fd09f293ebe4a6aa907561c959cdda5b4470225d5a41c204206b176e"
+    }
+  ]
+}

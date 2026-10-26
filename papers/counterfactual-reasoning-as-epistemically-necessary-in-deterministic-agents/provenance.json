@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents",
+  "paper": {
+    "path": "papers/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents/paper.md",
+    "title": "Counterfactual Reasoning as Epistemically Necessary in Deterministic Agents",
+    "url": "https://papers.qnfo.org/papers/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-262/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ea25544293dcefd12a9c9703329da4794e7f20cf113738bdde7008b4dcbe90ae"
+    },
+    {
+      "path": "runs/cycle-342/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "523ef05f604f364af2d1edf99e48394170bc2251907b60460b057ecccf950578"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents"
+  },
+  "snapshots": [
+    {
+      "sha256": "6a070a8417b5c2adfcdde7260e706c62dfa9c84ac2cbdc85c2226fe3be3c5906",
+      "bytes": 28483,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "00a060346398febfb9f42bfbcea506b42ff7e3e1"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,382 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-258: Renormalization‑Group Attractors as a Unifying Framework for Physical Convergence and Theory Polygenesis",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-258",
+      "qnfo:runPath": "runs/cycle-258/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc",
+      "qnfo:slug": "renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T03:23:52+02:00",
+      "qnfo:depositCommit": "842b936509f54afca4bd0d012e63ddaf374b4bb1",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Renormalization‑Group Attractors as a Unifying Framework for Physical Convergence and Theory Polygenesis",
+      "url": "https://papers.qnfo.org/papers/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1010.1942",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1010.1942"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1204.1489",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1204.1489"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1307.6891",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1307.6891"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1503.06235",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1503.06235"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1611.04997",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1611.04997"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.10093",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.10093"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2304.08572",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2304.08572"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "81ce9f3c86f5064f8d6476083dc29234a74adf3c7687348d54cbd4509c43fca6",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "35456",
+      "sha256": "0e8d83a88604993d388954bb9f007a887ae22c7d882ec3f16662a69122a5a5c4",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "777",
+      "sha256": "edb918bfce4a62ff939c78269e64eb1126957121d56a0cdf1cb20c92a1f73380",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9325",
+      "sha256": "fffac1653acad7816f77295e7d9a07ff5476f21e644455271f443f8d98314cc1",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3188",
+      "sha256": "19bc0d4aa20c74aee35cc5c00a424ef4d30feaffab0f7ffe881455785f84740c",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23970",
+      "sha256": "26ef973aa8689628b2ea3fe481e6f7dbccd6f23d9824978f1f7971cfcc6e7ebd",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "30433",
+      "sha256": "f4b2c17bc75b31fc6b63ccd98a6f1e631e6582297d9188f67c92815c784579aa",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1010.1942"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1204.1489"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1307.6891"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1503.06235"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1611.04997"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.10093"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2304.08572"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-20T03:23:52+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "53ca79e29eb1c3b8e7f3c2a7f49e02d8b3e8473c99f3f8846e9d23e2630865d5"
+    }
+  ]
+}

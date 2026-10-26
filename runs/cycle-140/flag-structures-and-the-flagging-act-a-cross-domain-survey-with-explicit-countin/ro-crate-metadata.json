@@ -1,0 +1,398 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-140: Flag Structures and the Flagging Act: A Cross-Domain Survey with Explicit Counting Derivations and a Posed Re-Entry Problem",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-140",
+      "qnfo:runPath": "runs/cycle-140/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin",
+      "qnfo:slug": "flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-14T19:01:05+02:00",
+      "qnfo:depositCommit": "b38d11e66a9f064c069cc729e42a6bdee2463abe",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Flag Structures and the Flagging Act: A Cross-Domain Survey with Explicit Counting Derivations and a Posed Re-Entry Problem",
+      "url": "https://papers.qnfo.org/papers/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1407.3582",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1407.3582"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1512.03308",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1512.03308"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1810.05604",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1810.05604"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.16197",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.16197"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2107.12808",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2107.12808"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2211.11168",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2211.11168"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.00267",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.00267"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.05720",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.05720"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2607.23500",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2607.23500"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "141d7d252c0a6ddf88af5d9bedee97c297894f718c391c62f51c8ad068d403f5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "74997",
+      "sha256": "98c5d50495bd3d403480fcfbae33be9ef134c7d2d8971774d12f24361096e1f9",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2388",
+      "sha256": "82766b8d56c87ef5736e928b6f72a331189da59114cf7d451f5a81dc6de29201",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7293",
+      "sha256": "7db000566214843f35015514097a0947add0df2d57fb1095ff9bdefc6b5ca1a5",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2026",
+      "sha256": "f56b394173b98b7a76fdcae68f795e4b333b1e2f2e481df6aeeb59022666ad9d",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19800",
+      "sha256": "61503343e4a31df00d287f1458d3f9964377b62b8d09aa3cb7b4ada425f33d66",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26993",
+      "sha256": "d4ad8a26e46b4c732a5c8a289e68a985524bdd19bcb695c7b13c46940be56cb6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1407.3582"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1512.03308"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1810.05604"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.16197"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2107.12808"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2211.11168"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.00267"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.05720"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2607.23500"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-14T19:01:05+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "1aa4df3815daee615b7fa3b85dcfd46804bec04b9211b96279375e3568a4ef1f"
+    }
+  ]
+}

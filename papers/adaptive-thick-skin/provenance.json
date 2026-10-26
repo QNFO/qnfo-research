@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adaptive-thick-skin",
+  "paper": {
+    "path": "papers/adaptive-thick-skin/paper.md",
+    "title": "Adaptive Thick Skin",
+    "url": "https://papers.qnfo.org/papers/adaptive-thick-skin"
+  },
+  "declared": {
+    "version": "2.0.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22738231",
+        "source": "README.md"
+      },
+      {
+        "doi": "10.5281/zenodo.17864277",
+        "source": "paper.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adaptive-thick-skin"
+  },
+  "snapshots": [
+    {
+      "sha256": "770eff5200ddfaac796c784793a0e1e647526e7289a2e11166ce24186d62e712",
+      "bytes": 49215,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "2.0.0",
+      "git_commit": "e7a01212ec4aaa21101aeb6b8fa20d8d9c43b452"
+    }
+  ],
+  "events": []
+}

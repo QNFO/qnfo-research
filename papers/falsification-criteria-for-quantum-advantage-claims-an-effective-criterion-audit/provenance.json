@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit",
+  "paper": {
+    "path": "papers/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit/paper.md",
+    "title": "Falsification Criteria for Quantum‑Advantage Claims: An Effective‑Criterion Audit Framework",
+    "url": "https://papers.qnfo.org/papers/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-101/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b17a99f8457c05db27ac07657d9aceed3569be6947169b5423ab7b99f1da6528"
+    },
+    {
+      "path": "runs/cycle-229/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "94d52be8a719065547a94d2083f966caf559923a173ab4c86cd8fe5c2ef5bc1e"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit"
+  },
+  "snapshots": [
+    {
+      "sha256": "b7e507f768f10642430601410a1e13a06f4bb10341029ff85cb5c45b479e7c1c",
+      "bytes": 26827,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "fd24699b972bce3ea56a7c1d34ccc9ae290554b6"
+    }
+  ],
+  "events": []
+}

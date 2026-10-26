@@ -1,0 +1,99 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-282: Ultrametric Nested Semantic Graphs: A Language‑Neutral Meaning Representation",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-282",
+      "qnfo:runPath": "runs/cycle-282/ultrametric-nested-semantic-graphs-a-language-neutral-meaning-representation",
+      "qnfo:slug": "ultrametric-nested-semantic-graphs-a-language-neutral-meaning-representation",
+      "datePublished": "2026-10-20T09:22:06+02:00",
+      "qnfo:depositCommit": "199af7d07584df2419fb22abba873a14e0f7ae82",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/ultrametric-nested-semantic-graphs-a-language-neutral-meaning-representation"
+      },
+      "hasPart": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/ultrametric-nested-semantic-graphs-a-language-neutral-meaning-representation",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Ultrametric Nested Semantic Graphs: A Language‑Neutral Meaning Representation",
+      "url": "https://papers.qnfo.org/papers/ultrametric-nested-semantic-graphs-a-language-neutral-meaning-representation"
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6667",
+      "sha256": "05b4448a1e4fe3523d2ba15e3f9c89a88c3c73864f208613a1cd67b88e3bda7e",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": false
+    }
+  ]
+}

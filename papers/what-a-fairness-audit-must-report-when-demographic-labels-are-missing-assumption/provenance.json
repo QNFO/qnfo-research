@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption",
+  "paper": {
+    "path": "papers/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption/paper.md",
+    "title": "What a Fairness Audit Must Report When Demographic Labels Are Missing: Assumption‑Free Disparity Intervals, a Determinacy Rule, and a Disclosure Checklist",
+    "url": "https://papers.qnfo.org/papers/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-125/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b20cd026a82c4efdf6ba24d06a9b67caf9818c0f11cd93b6ece2685a4c9bfa16"
+    },
+    {
+      "path": "runs/cycle-340/what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "33aaeb21c8b0eb885f817c6c0543484011c3684c6e244a42637c4785487a7ee1"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "what-a-fairness-audit-must-report-when-demographic-labels-are-missing-assumption"
+  },
+  "snapshots": [
+    {
+      "sha256": "91e511311916646ec01697c68792f61025db14c1f1c4da82eef7167049cabc7f",
+      "bytes": 44008,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "3b4643b7ba9d304f3f18ba58f873b074ad2bc9cc"
+    }
+  ],
+  "events": []
+}

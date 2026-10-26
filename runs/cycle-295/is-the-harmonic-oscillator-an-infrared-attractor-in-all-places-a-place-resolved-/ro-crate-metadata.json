@@ -1,0 +1,422 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-295: Is the Harmonic Oscillator an Infrared Attractor in All Places? A Place‑Resolved Analysis of the Harmonic Paradigm",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-295",
+      "qnfo:runPath": "runs/cycle-295/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "qnfo:slug": "is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T12:54:26+02:00",
+      "qnfo:depositCommit": "492a28e697379f84b3d9c9cb34df5f5017491073",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Is the Harmonic Oscillator an Infrared Attractor in All Places? A Place‑Resolved Analysis of the Harmonic Paradigm",
+      "url": "https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0710.2724",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0710.2724"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1001.1149",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1001.1149"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1409.2468",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1409.2468"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.08101",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.08101"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2009.07197",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2009.07197"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.13436",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.13436"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2111.09575",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2111.09575"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2204.10780",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2204.10780"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.07238",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.07238"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.12780",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.12780"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/0301066",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/0301066"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/0402193",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/0402193"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "13c3239dd6222ca7037f07d35ee9d2327ad50713a0dc46c925580900a0ca1079",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "86005",
+      "sha256": "1afbab61c35aa350ac11eff6548d5df61d43c3f655a4de309e5887d74fad65df",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5738",
+      "sha256": "3a23de20696fd05775326ffe278b201201070072d84b786a3e0598eef2ec8415",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9992",
+      "sha256": "2b049af14edb51c8ad1f1f91cd4c5e5a135a3ab6da0f9f9d1b4212b6f226000a",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3373",
+      "sha256": "2a742d1f1c568123f59c3de8a024c27e06d12b4f42d5e7e7f0b6c760db442d88",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21646",
+      "sha256": "2fe8192f9eed2b208773ab5bea0b15a7754b9d69bc3f1edc883c54f1cadc67af",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23603",
+      "sha256": "52024d38d6605283dd60d00c1a78af7992aec5bcce31e5465b10ba7dec0c0bac",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0710.2724"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1001.1149"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1409.2468"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.08101"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2009.07197"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.13436"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2111.09575"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2204.10780"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.07238"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.12780"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/0301066"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/0402193"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-20T12:54:26+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "f44241bcf464925263e4f5cbde3d94cb780262cd04b9b6514382b8558257a2c2"
+    }
+  ]
+}

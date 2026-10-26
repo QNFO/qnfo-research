@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-116: Non-Computable Reals as Projection Artifacts: A Formal Analysis of Tree‑to‑Manifold Construction of the Continuum",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-116",
+      "qnfo:runPath": "runs/cycle-116/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-",
+      "qnfo:slug": "non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-12T11:48:18+02:00",
+      "qnfo:depositCommit": "f2483d10824f6ec3553d3e91717936757bb836fb",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Non-Computable Reals as Projection Artifacts: A Formal Analysis of Tree‑to‑Manifold Construction of the Continuum",
+      "url": "https://papers.qnfo.org/papers/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1201.0863",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1201.0863"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.01530",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.01530"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.03814",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.03814"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.14356",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.14356"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.01090",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.01090"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.00981",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.00981"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2308.04871",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2308.04871"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2308.14122",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2308.14122"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "ee62c1ac16a5f2aa70accd9a9e8da4a024be7de061176f03e0b6a3e89439cbd4",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11043",
+      "sha256": "d634cca242d62484afa9dd13046ebb2af9ec544ca08dd97480c63a8d0a3cfcd2",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1401",
+      "sha256": "1a1dc54fa27de7292d44c08cd7a7b6ebefe5d256ce3217601785043531d9f9fc",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4066",
+      "sha256": "c40085789d5cfcb1bff2754e445909af6b27e099735b1fd40fdbfa1dd31e827f",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1624",
+      "sha256": "2b9b38f60d15db87723f669bd4ea9c8ede02fdfcd93a2b40505f9bca56a642a2",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15459",
+      "sha256": "7fdeea390bda16dca761c3915c4f94ed25d348fe147e1c1932679eb7c7a2d8c2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24593",
+      "sha256": "99972e9e279601085a32bce9159e525b3aa45afbf9d9904e83668b65f501f39f",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28029",
+      "sha256": "9e12e8ca23ef75c73df8e235d7a767c2a4e1d84d9793bdc2ac13290c844d9414",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1201.0863"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.01530"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.03814"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.14356"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.01090"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.00981"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2308.04871"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2308.14122"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-12T11:48:18+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "afab82a0d2e2bb3b720bea9fc7ce52f7cc32a04c8198b0e92f13b685736e9fed"
+    }
+  ]
+}

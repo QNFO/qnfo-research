@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-209: responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-209",
+      "qnfo:runPath": "runs/cycle-209/responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n",
+      "qnfo:slug": "responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T07:20:55+02:00",
+      "qnfo:depositCommit": "466ff887b7489f30c6f5b008d6c7cc720bb651bd",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n",
+      "url": "https://papers.qnfo.org/papers/responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1311.5108",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1311.5108"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.08975",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.08975"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.16216",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.16216"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.06333",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.06333"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.13343",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.13343"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.15755",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.15755"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.13930",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.13930"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.03350",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.03350"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "a0d4628abba4014928aadd82db3eb5211c17440e062f492c1833f8a6ed6d4ddb",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52505",
+      "sha256": "94d0a04c77cc646513cbd448c7968ed06f5d0d070c0147630f0179a5db9d3192",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1127",
+      "sha256": "6b4b6dc0fe3f3f491672e032cd6606afb7fe094fcd85fcb11c59aa8cb74f6c5d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2920",
+      "sha256": "2c4571303505c95572906d5ea8a8ea4f29fd2a54f1e2dcb83499e5e72d012f69",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1081",
+      "sha256": "50b82d1880f0ca784f0de19bb671ea11fa456e1ee45fbe5f594d93c9ac621733",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19786",
+      "sha256": "58bc1dc7cb7e13868e3917590e3a8a277ad88a2f4076e15a62f29c76bcf6ed14",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16955",
+      "sha256": "ae6c25785bd226d65327bda6b86b8b64704591fef8af014a0fda906a5f5ae7ac",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1311.5108"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.08975"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.16216"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.06333"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.13343"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.15755"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.13930"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.03350"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T07:20:55+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "8336b5979c3767be4f042daf6d73535090ab9006ff7d15f72450331c7dbe6ee1"
+    }
+  ]
+}

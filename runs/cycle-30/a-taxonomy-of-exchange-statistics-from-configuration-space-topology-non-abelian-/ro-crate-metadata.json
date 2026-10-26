@@ -1,0 +1,173 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-30: Retracted: A Taxonomy of Exchange Statistics from Configuration-Space Topology: Non-Abelian Flux Attachment and a Pre-Registered Thermal Hall Projection",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-30",
+      "qnfo:runPath": "runs/cycle-30/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "qnfo:slug": "a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-09T10:45:33+02:00",
+      "qnfo:depositCommit": "d571129760feee85277d09bf5eeafd18d1c25cac",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/grounding.md"
+        },
+        {
+          "@id": "#missing/review-report.md"
+        },
+        {
+          "@id": "#missing/verification.md"
+        },
+        {
+          "@id": "#missing/verification.py"
+        },
+        {
+          "@id": "#missing/writer-a-draft.md"
+        },
+        {
+          "@id": "#missing/writer-b-draft.md"
+        },
+        {
+          "@id": "#missing/writer-c-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Retracted: A Taxonomy of Exchange Statistics from Configuration-Space Topology: Non-Abelian Flux Attachment and a Pre-Registered Thermal Hall Projection",
+      "url": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1018",
+      "sha256": "2a39d83a128927554d97b581f32cf6aa4cf9cb397d63b4fabf58d8785267c112",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/grounding.md",
+      "@type": "CreativeWork",
+      "name": "grounding.md",
+      "sha256": "06727a6ab23545443f2f0ef247892382c0abddf8321573f9d2991d714c50c414",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/review-report.md",
+      "@type": "CreativeWork",
+      "name": "review-report.md",
+      "sha256": "7fd9a940cec8a77f81d7e7b68e7c58ab397ad063f1bf0734973136d88ba488fc",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.md",
+      "@type": "CreativeWork",
+      "name": "verification.md",
+      "sha256": "63e4bce0869eb0e4b7b9a30d92e635da61ab35448ce64eba1f9569f048c4fd5e",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.py",
+      "@type": "CreativeWork",
+      "name": "verification.py",
+      "sha256": "e818011610ecfe1d870b2481b3c79ac87f285e724889776bee666f4b129373f7",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-a-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-a-draft.md",
+      "sha256": "16f20b216b0044b283b0b9ff2ad0fd36e7fa7a2f86c2e5d9c1f78cecfa36765a",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "e75da08435b45a3d927ee1f2a645bcff1e1663599f9fb5181eca1b1ca2dcc6f6",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-c-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-c-draft.md",
+      "sha256": "9458f8762da686a59306c45d68b87dac7ff607eefe86323a94b3f0fb25a6e51b",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    }
+  ]
+}

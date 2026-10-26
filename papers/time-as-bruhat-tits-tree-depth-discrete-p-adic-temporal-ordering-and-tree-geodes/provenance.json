@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "time-as-bruhat-tits-tree-depth-discrete-p-adic-temporal-ordering-and-tree-geodes",
+  "paper": {
+    "path": "papers/time-as-bruhat-tits-tree-depth-discrete-p-adic-temporal-ordering-and-tree-geodes/paper.md",
+    "title": "Time as Bruhat-Tits Tree Depth: Discrete $p$-Adic Temporal Ordering and Tree-Geodesic Causality",
+    "url": "https://papers.qnfo.org/papers/time-as-bruhat-tits-tree-depth-discrete-p-adic-temporal-ordering-and-tree-geodes"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-117/time-as-bruhat-tits-tree-depth-discrete-p-adic-temporal-ordering-and-tree-geodes",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "5c9701bd684d9f8a792a8e72dd14082961bd17d0948d05cd7b761406661554a0"
+    },
+    {
+      "path": "runs/cycle-153/time-as-bruhat-tits-tree-depth-discrete-p-adic-temporal-ordering-and-tree-geodes",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "dfd6c737d55b04f86b25fd811da8f80751fda5b7da3fbd09f2dd9e457f94bb98"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "time-as-bruhat-tits-tree-depth-discrete-p-adic-temporal-ordering-and-tree-geodes"
+  },
+  "snapshots": [
+    {
+      "sha256": "57a265821b47c0c84ebea9da2daa38a4cc856a08be06f754688b06374875ae75",
+      "bytes": 39831,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "025ae103a708b7df1754675a66ed6083e493e076"
+    }
+  ],
+  "events": []
+}

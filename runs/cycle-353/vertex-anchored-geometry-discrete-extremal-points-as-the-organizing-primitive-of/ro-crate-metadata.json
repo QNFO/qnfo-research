@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-353: Vertex-Anchored Geometry: Discrete Extremal Points as the Organizing Primitive of Non‑Archimedean Space",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-353",
+      "qnfo:runPath": "runs/cycle-353/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of",
+      "qnfo:slug": "vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T10:42:12+02:00",
+      "qnfo:depositCommit": "9e9be92c611dafb9bee6ebc81a1eee32b9126d1b",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Vertex-Anchored Geometry: Discrete Extremal Points as the Organizing Primitive of Non‑Archimedean Space",
+      "url": "https://papers.qnfo.org/papers/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0712.3526",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0712.3526"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.11357",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.11357"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.06905",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.06905"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2502.09149",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2502.09149"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2502.16349",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2502.16349"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.19877",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.19877"
+    },
+    {
+      "@id": "https://arxiv.org/abs/astro-ph/0104213",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:astro-ph/0104213"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/0512342",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/0512342"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "c22358530bded5d9d538354f19537b46db71ec87693015ea1911f20f08f47f61",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "69444",
+      "sha256": "94cdd3cc606cec355c39b3663b700c65560c024d39fd588e5cec190d5dc3dcb1",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1716",
+      "sha256": "f744457a9cd3c393afb94957f344351cd9c0e40a0612eff86528b2a7d58b9eef",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5205",
+      "sha256": "bd58da2ab92841c94ce1ae7ee1693f37857c9b35ee075db1b54bf480aeb5869d",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1527",
+      "sha256": "d280d03bb10cd8015755a4da764eecc240e6fbbc9d6dbf89f257eed2cab249ce",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18351",
+      "sha256": "fdf71e9a33660efdf15335c546094e84ce9ab3b7c262fdf4a8c2b3a3052da205",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7960",
+      "sha256": "1f363e1c4e42c4ddce5cabbcbe2e9e6412d0f563b5ebe3364f130e54ddd35c54",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0712.3526"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.11357"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.06905"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2502.09149"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2502.16349"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.19877"
+        },
+        {
+          "@id": "https://arxiv.org/abs/astro-ph/0104213"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/0512342"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T10:42:12+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "49986a7de2af021ba25726479b699d565d63db969f55f897b73877a16a22b53c"
+    }
+  ]
+}

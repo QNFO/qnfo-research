@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-55: spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-55",
+      "qnfo:runPath": "runs/cycle-55/spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle",
+      "qnfo:slug": "spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-10T09:47:45+02:00",
+      "qnfo:depositCommit": "8ab101eabed6533a82a3cf257b0b6d2d5bd6305e",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle",
+      "url": "https://papers.qnfo.org/papers/spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1301.5453",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1301.5453"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1506.04306",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1506.04306"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1704.01149",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1704.01149"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.01463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.01463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.09397",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.09397"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.12024",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.12024"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.03730",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.03730"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.12933",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2505.12933"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "2efe366a3cec6f8fb60a3509a49e7abaa92eb6bb84a1da50e96e93332a40bec7",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10846",
+      "sha256": "653bfb2c173023638ccc250f1818cd2f62503281b0fcec3b3e849517505348ae",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3288",
+      "sha256": "2b9a45e10ac76d1bfb9627d6c3ae35699c64fed47c55cfaa9c1c52b371ee475f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5207",
+      "sha256": "79d2bacd4a47d0531779828422c05d2c09dcc674521f018ffaf71b08c0c658d7",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2367",
+      "sha256": "7b67a385dbc3dd7f9acd54c6c7ab671eacb0d8d60ee801c581fc0c50eeb01385",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14592",
+      "sha256": "409441ef8859e1be6e9e687b36a4a2e9830c79c09f65c201ded16021903be021",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22335",
+      "sha256": "7fd7e6cba1d80d81f40af2592d0d0a922000e1ea6416586b996f8a7f09f000c6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21954",
+      "sha256": "31587e0d2bc48299405c0b951724c6cb5bce8343112eba253f3bfbee4dbd19d3",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1301.5453"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1506.04306"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1704.01149"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.01463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.09397"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.12024"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.03730"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2505.12933"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-10T09:47:45+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "106d90828c7888a65663a251a115fa2f63eab77253b24485f65d0cb4eae80418"
+    }
+  ]
+}

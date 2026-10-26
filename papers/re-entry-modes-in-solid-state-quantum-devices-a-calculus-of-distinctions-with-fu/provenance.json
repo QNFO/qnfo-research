@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu",
+  "paper": {
+    "path": "papers/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu/paper.md",
+    "title": "Re‑Entry Modes in Solid‑State Quantum Devices: A Calculus of Distinctions with Fully Shown Quantitative Benchmarks",
+    "url": "https://papers.qnfo.org/papers/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-100/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "8c4e076b03d634fc45450a942df6c055600be18d5041e320afb6e38e81a82017"
+    },
+    {
+      "path": "runs/cycle-294/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f01a944860773314c768f827b61e3f137cc4818f50e6728d8e3ce3dd8152d554"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu"
+  },
+  "snapshots": [
+    {
+      "sha256": "59de61235a3e435413135e2dccad5b5e2ff36068c8d130d1655312ba6dcc387e",
+      "bytes": 20610,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "783f7d532659614504fa96844b65410eb13ae93b"
+    }
+  ],
+  "events": []
+}

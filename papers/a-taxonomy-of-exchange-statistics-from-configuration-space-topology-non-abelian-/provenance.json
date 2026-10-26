@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+  "paper": {
+    "path": "papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-/paper.md",
+    "title": "Retracted: A Taxonomy of Exchange Statistics from Configuration-Space Topology: Non-Abelian Flux Attachment and a Pre-Registered Thermal Hall Projection",
+    "url": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-134/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "348cb7bffb503f5e043d645e3f863be2a0ad2eb55117cfef74dbea0a9f5d40ce"
+    },
+    {
+      "path": "runs/cycle-30/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2a39d83a128927554d97b581f32cf6aa4cf9cb397d63b4fabf58d8785267c112"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
+  },
+  "snapshots": [
+    {
+      "sha256": "d3c14b4a2555a44674a674c1ce00ad1096831aba6d7e2cc83871636e9b422a20",
+      "bytes": 2861,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "3554746a61ce457cf7cdef9373e8687d42c9e255"
+    }
+  ],
+  "events": []
+}

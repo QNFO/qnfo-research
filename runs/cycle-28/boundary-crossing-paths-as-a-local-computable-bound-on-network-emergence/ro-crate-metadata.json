@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-28: boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-28",
+      "qnfo:runPath": "runs/cycle-28/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence",
+      "qnfo:slug": "boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-06T21:33:35+02:00",
+      "qnfo:depositCommit": "b74455dbbf440183d29f30e6db72f551c8cb8e27",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence",
+      "url": "https://papers.qnfo.org/papers/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.0095",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.0095"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1409.1730",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1409.1730"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1808.03031",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1808.03031"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.04687",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.04687"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.07422",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.07422"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2108.05898",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2108.05898"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.01172",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.01172"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.38037",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.38037"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "2e7c8bc310a8637fb87331b1c2d558b16547f85ecf9c98789ef208b83b3a2907",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11754",
+      "sha256": "c34e9e5ede2e82159a9ad40234309e0c2f9c4fc05c5a0bccde335ca690dfb416",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2423",
+      "sha256": "18c7b0e2cfb982a839c6e5ec329f072d0ecd49e68a7c84a7f1d8d463cb67bde0",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3940",
+      "sha256": "19adb062489dd4702f28cc113b2e7562e2db6445a512d94d04a03a847091bb7b",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1937",
+      "sha256": "ed4c524e7f4a97300babb21035269ce06176820d1811d7e864c5c837b7aa4ee5",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23973",
+      "sha256": "0cede7ce25dc8810912bbb691c2a472bd79259a67294fc7765b4143cb8a2c7d0",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27186",
+      "sha256": "a6ddfc23a2fb658d0b5a49666b037da5af855b59fbe11878a6ab406a0c9c6cf8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20661",
+      "sha256": "8fc7810eb4c0d7340f1bf88ac3fbfabd51e0685ff895c94f73932e233b748ee3",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1303.0095"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1409.1730"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1808.03031"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.04687"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.07422"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2108.05898"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.01172"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.38037"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-06T21:33:35+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "d1e78a55b77015c9cf8375c3e734cfd5a94f1bbe0774eb2c51f82dd611b10e63"
+    }
+  ]
+}

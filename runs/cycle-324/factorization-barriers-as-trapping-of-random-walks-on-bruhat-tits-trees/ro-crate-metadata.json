@@ -1,0 +1,260 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-324: factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-324",
+      "qnfo:runPath": "runs/cycle-324/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees",
+      "qnfo:slug": "factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T02:02:26+02:00",
+      "qnfo:depositCommit": "fae05bfaa5dc5764d52989e8507248f13dcb2069",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/grounding.md"
+        },
+        {
+          "@id": "#missing/writer-a-draft.md"
+        },
+        {
+          "@id": "#missing/writer-b-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees",
+      "url": "https://papers.qnfo.org/papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "db016d698ac42fac1629ba9ce42e9ff69e92eae45d1d40455c0bbda290db7026",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3952",
+      "sha256": "b40a0da1f90eec08c650b5b3e51af54bec818319cfcbce055129466c01446f90",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4928",
+      "sha256": "5410dac693673134d5715fb2a58aee271d729f21232c0a98624611cb730b495e",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2139",
+      "sha256": "eb7a89c3178ab7f67b3444c9527392430db0dff946370bf5c49473467a16321b",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/grounding.md",
+      "@type": "CreativeWork",
+      "name": "grounding.md",
+      "sha256": "41016a9ee1cd829877b00b2cee0ac3bbcabf58778c840b164d2289ad86d5ee66",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-a-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-a-draft.md",
+      "sha256": "682cb05788c135cd3a9d5bb4df25e247975cf5cd758bbf596a9720672a9a5947",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "3f9d72089c843bc2a51545cfa273e75028f477a57bdfe70a901d20eb42564d60",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure"
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-21T02:02:26+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "d40d885503faca3f9d8f2bfbd732e7976a6145b7057d1e12898c97830d25197d"
+    }
+  ]
+}

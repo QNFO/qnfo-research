@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "syntactic-generation-primitive-distinctions",
+  "paper": {
+    "path": "papers/syntactic-generation-primitive-distinctions/paper.md",
+    "title": "Syntactic Generation",
+    "url": "https://papers.qnfo.org/papers/syntactic-generation-primitive-distinctions"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758173",
+        "source": "README.md"
+      },
+      {
+        "doi": "10.5281/zenodo.19511462",
+        "source": "paper.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "syntactic-generation-primitive-distinctions"
+  },
+  "snapshots": [
+    {
+      "sha256": "cf1ce0154c23e59f8181c644af03ca4a6c23d093975f70d694ca8fad5e13129b",
+      "bytes": 245197,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "1.0",
+      "git_commit": "e487c5fc61171140df1aaf4e9447ec4f45b4f09e"
+    }
+  ],
+  "events": []
+}

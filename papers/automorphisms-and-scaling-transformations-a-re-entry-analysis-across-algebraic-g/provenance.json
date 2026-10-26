@@ -1,0 +1,49 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g",
+  "paper": {
+    "path": "papers/automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g/paper.md",
+    "title": "Automorphisms and Scaling Transformations: Conjugation Action, Parameter Rescaling, and Growth of Associative Structure",
+    "url": "https://papers.qnfo.org/papers/automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-107/automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e825eb4fd1d3740a26f0a7a329e09e44aea8eb646426929ca545d5b77b106961"
+    },
+    {
+      "path": "runs/cycle-136/automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d5c044c3c26c1abbc98b118ddd2a8fcdd5fbc5ebcd43d8c6f2da40f6c77c6cae"
+    },
+    {
+      "path": "runs/cycle-315/automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "56bea78fda589ee6a54cdf8c08384fa95a1cbb92397355a86a121cf9ae02cc2b"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g"
+  },
+  "snapshots": [
+    {
+      "sha256": "9e0909085c6fabcee79a642ae2ab08c8eba5910ee6b065b6b1f8d9d17ed15585",
+      "bytes": 49083,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "eb1a6fd184eeeba24553c556b23dd13461772bde"
+    }
+  ],
+  "events": []
+}

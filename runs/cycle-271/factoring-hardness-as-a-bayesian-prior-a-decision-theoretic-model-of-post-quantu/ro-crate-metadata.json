@@ -1,0 +1,241 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-271: Factoring Hardness as a Bayesian Prior: A Decision-Theoretic Model of Post‑Quantum Cryptography Migration Timing",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-271",
+      "qnfo:runPath": "runs/cycle-271/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "qnfo:slug": "factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "datePublished": "2026-10-20T07:05:35+02:00",
+      "qnfo:depositCommit": "4c326860b535b9838244691b8fa831cf9cdab798",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Factoring Hardness as a Bayesian Prior: A Decision-Theoretic Model of Post‑Quantum Cryptography Migration Timing",
+      "url": "https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.1154",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.1154"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1309.1799",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1309.1799"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1504.06523",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1504.06523"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1512.00969",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1512.00969"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1512.01013",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1512.01013"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.10992",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.10992"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2301.04491",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2301.04491"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.09958",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.09958"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "54759",
+      "sha256": "45eabeb15941ccba9b95b596fa137fe5dca26ec1911e0b2a8d969a2995bcb529",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26367",
+      "sha256": "7d7b6d310e862dd72cf03f2d85bf1fa4cbfb3316ad6c91027bd85f48935a3aeb",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14649",
+      "sha256": "94afad7a119b70a84d8c92e0644fe2ce8a384b7760a703e11aa899c51f06778b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1002.1154"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1309.1799"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1504.06523"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1512.00969"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1512.01013"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.10992"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2301.04491"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.09958"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    }
+  ]
+}

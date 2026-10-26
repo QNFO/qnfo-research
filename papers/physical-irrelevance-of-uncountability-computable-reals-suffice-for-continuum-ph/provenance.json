@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "physical-irrelevance-of-uncountability-computable-reals-suffice-for-continuum-ph",
+  "paper": {
+    "path": "papers/physical-irrelevance-of-uncountability-computable-reals-suffice-for-continuum-ph/paper.md",
+    "title": "Physical Irrelevance of Uncountability: Computable Reals Suffice for Continuum Physics",
+    "url": "https://papers.qnfo.org/papers/physical-irrelevance-of-uncountability-computable-reals-suffice-for-continuum-ph"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-128/physical-irrelevance-of-uncountability-computable-reals-suffice-for-continuum-ph",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "c736bd6ea76ce082fe8c0d6128a7a573f1c97a5285314aec3d9ceaf0c36a275b"
+    },
+    {
+      "path": "runs/cycle-284/physical-irrelevance-of-uncountability-computable-reals-suffice-for-continuum-ph",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "27b34fc038f616ae57529839e88f24c4ca1fa56e373ac1d7ca89e5f9932d8097"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "physical-irrelevance-of-uncountability-computable-reals-suffice-for-continuum-ph"
+  },
+  "snapshots": [
+    {
+      "sha256": "fc51a2812fa882b067b95045ffbb4ea82f6618e2dfa5e328bd44fbbc2b1147eb",
+      "bytes": 32107,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "5d7772777618071542b278b502ffda81ff5c0e5c"
+    }
+  ],
+  "events": []
+}

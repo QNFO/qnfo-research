@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-123: beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-123",
+      "qnfo:runPath": "runs/cycle-123/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
+      "qnfo:slug": "beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-12T23:15:54+02:00",
+      "qnfo:depositCommit": "97910fc7dcf72137ed2772462b65a794d0db5be2",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
+      "url": "https://papers.qnfo.org/papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1310.7054",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1310.7054"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.06796",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.06796"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.05305",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.05305"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.05505",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.05505"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.06152",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.06152"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2208.03261",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2208.03261"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.09558",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.09558"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.23840",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.23840"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1018",
+      "sha256": "8c2c7a0f42c07cc0308831923d3f015e9b0f5b333bd88d22148f8e68da12a3e1",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9918",
+      "sha256": "d6334f1437b939f91fe5d7f9b78ab9d50c1547a818f4a4de18a031831a3b5b7b",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2538",
+      "sha256": "2efe8a1143db47c966c93e56ff653a58168d1e904b28281c2d8448473201cd52",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8039",
+      "sha256": "d1350dcc62e43c2dc741ecfe605faebb7c38e28289a48ebc681529a7e042fc35",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2573",
+      "sha256": "dc6b2f8ecb443b8d8b7ad5a0d4978ea184b2f3e75cc0efd7d2fe9a132b613c0e",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16256",
+      "sha256": "0f5b1016b2d42907fac4be2b23d736fb8a18cf16cbce0c4c25792a0e69562adc",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27200",
+      "sha256": "a6a43d1c03ba104e87b091281c3a1b71456be92cc19e1be98d824df9dcf791e2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29850",
+      "sha256": "4c63b0266a6afeb447d2e2b9519038eb3000b12bf2944b05637e8cc2c2e2428e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1310.7054"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.06796"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.05305"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.05505"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.06152"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2208.03261"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.09558"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.23840"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-12T23:15:54+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "b3f872ad7bcb5e42b78c3135c7515959d85108aa52a05fb1eb196744c5fb0eb0"
+    }
+  ]
+}

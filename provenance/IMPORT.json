@@ -1,0 +1,10 @@
+{
+  "schema": "qnfo-import/1",
+  "source": "https://github.com/QNFO/qnfo-ensemble-research",
+  "source_head": "5e41f98532428c2c19d6bbedb1315742e85021c4",
+  "prefix": "runs",
+  "pr_branch_merge_commit": "c20f05490b125c238f9de1ef468710babe39e2d5",
+  "method": "git subtree add (no squash) on the pull request branch; the repository merges squash-only, so .github/workflows/ensemble-catchup.yml links the source history to main afterwards (git merge -s ours, no file changes)",
+  "imported_at": "2026-10-26",
+  "catch_up": "dispatch .github/workflows/ensemble-catchup.yml (qnfo-research-exec does it while the history is unlinked or the legacy repository has newer cycles); by hand: git fetch https://github.com/QNFO/qnfo-ensemble-research main && git merge -s ours --allow-unrelated-histories <source_head> && git merge -Xsubtree=runs FETCH_HEAD"
+}

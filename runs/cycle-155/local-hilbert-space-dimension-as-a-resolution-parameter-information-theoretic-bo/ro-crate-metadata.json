@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-155: local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-155",
+      "qnfo:runPath": "runs/cycle-155/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo",
+      "qnfo:slug": "local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-15T14:49:30+02:00",
+      "qnfo:depositCommit": "c7a65ce352125f4785dbbea087e0c95c25263b6c",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo",
+      "url": "https://papers.qnfo.org/papers/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0903.4615",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0903.4615"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1306.5577",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1306.5577"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1406.0792",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1406.0792"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1503.03318",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1503.03318"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1605.02876",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1605.02876"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.06341",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.06341"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.11279",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.11279"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.00486",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.00486"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "2fca5bf502d1fde88c9a2db2fb2e379cd30afdd9b26d25ca314d8164bdb3cc03",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51901",
+      "sha256": "c4d26b652e2ac0fc3de4aa976a19d21ce6de90c8ad9aa910488bcb3ef4d36c03",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2002",
+      "sha256": "2ff80bb617eac8dcfaa66c5560fee723143259e688f486b73cd216ad7d7ae1b0",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8626",
+      "sha256": "1bbf53a55da7c57d56901d0a98d9da3e37ca147550be47bcd5cec578af8cf0ff",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3195",
+      "sha256": "f51b653c01cb813072bc7ec286a0547bfc18d17c7ec1480044a0b6cf1f300623",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19032",
+      "sha256": "6b77fb6d24642e6cf10e5b9780019ccb46a352621387b1b465f40f32b507e1e1",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20808",
+      "sha256": "4c2f90fb82c0dccedb331609c44b6befecce7fbcc6ab95bf43494868993c053f",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0903.4615"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1306.5577"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1406.0792"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1503.03318"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1605.02876"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.06341"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.11279"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.00486"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-15T14:49:30+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "86ccadcf0941cc794951126d6cc193852b934085822b295f6aab0b4887571889"
+    }
+  ]
+}

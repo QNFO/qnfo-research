@@ -1,0 +1,262 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-34: quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-34",
+      "qnfo:runPath": "runs/cycle-34/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-",
+      "qnfo:slug": "quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-",
+      "datePublished": "2026-10-09T10:45:54+02:00",
+      "qnfo:depositCommit": "6c5a75bbfb816cedb4b35f79005ee5b387796488",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-",
+      "url": "https://papers.qnfo.org/papers/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1505.05069",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1505.05069"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1510.01427",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1510.01427"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1803.05314",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1803.05314"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.06492",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.06492"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.04953",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.04953"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.15635",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.15635"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.19137",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.19137"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9107",
+      "sha256": "efda962ecf2a85ef9294d6d64369c5d009a62e4d9b24e016c150ea4450c2e1e4",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6309",
+      "sha256": "6a3063ce22d6524dd2c3d9ada271e3267d4782d5a33eff5422ea516d02db4389",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15623",
+      "sha256": "18a4567dc215d8c296f7cfb7b473aac9206d06f5dacbad09b81b5a0c45422a77",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23189",
+      "sha256": "f0fc2ee6f8fa232d992663820cfb19614ec61a3e2d5e892c6c66c35d95ed0a92",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20503",
+      "sha256": "2ae7ae71cbad9d9a3fe9f23ed42bd0c62eeb6d8dab25af9f43bea42b20d5fd3c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1505.05069"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1510.01427"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1803.05314"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1805.06492"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.04953"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.15635"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.19137"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    }
+  ]
+}

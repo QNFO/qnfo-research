@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-quantum",
+  "paper": {
+    "path": "silent-radix/ultrametric-quantum/paper.md",
+    "title": "Ultrametric Quantum Computing: Tree-Topology Error Correction",
+    "url": "https://papers.qnfo.org/papers/ultrametric-quantum"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22749408",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-quantum"
+  },
+  "snapshots": [
+    {
+      "sha256": "0f426897adf0a8a76d3872bd46dbb6fbd60e6f4d8cf85c562c1a269a827fcc2c",
+      "bytes": 23347,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "a3fbddbc93c65da3f5d26ef88219021cba98968e"
+    }
+  ],
+  "events": []
+}

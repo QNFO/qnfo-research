@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "relaxation-in-noisy-quantum-maps-versus-classical-iterative-algorithms-a-shared-",
+  "paper": {
+    "path": "papers/relaxation-in-noisy-quantum-maps-versus-classical-iterative-algorithms-a-shared-/paper.md",
+    "title": "Retracted: Relaxation in Noisy Quantum Maps versus Classical Iterative Algorithms: A Shared Decay Law with a Divergent Semiclassical Limit",
+    "url": "https://papers.qnfo.org/papers/relaxation-in-noisy-quantum-maps-versus-classical-iterative-algorithms-a-shared-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-126/relaxation-in-noisy-quantum-maps-versus-classical-iterative-algorithms-a-shared-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9c5e1d2cbae8999f6f50ceebc6c7cccde5753efc27080db4e5daddf609c5c124"
+    },
+    {
+      "path": "runs/cycle-149/relaxation-in-noisy-quantum-maps-versus-classical-iterative-algorithms-a-shared-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "398879ac56380a198d369544a6633bda789fff81997787dcf364d288d603db66"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "relaxation-in-noisy-quantum-maps-versus-classical-iterative-algorithms-a-shared-"
+  },
+  "snapshots": [
+    {
+      "sha256": "3256d234f247d6adb6499f62b8b2410febd9a156d64a3cc0b64eac169e7d39ef",
+      "bytes": 2116,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "87b41b9fea8da3f44560b0090d0b0bbc179abb8d"
+    }
+  ],
+  "events": []
+}

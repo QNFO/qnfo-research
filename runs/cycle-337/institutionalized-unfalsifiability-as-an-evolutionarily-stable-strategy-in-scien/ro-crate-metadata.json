@@ -1,0 +1,478 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-337: Institutionalized Unfalsifiability as an Evolutionarily Stable Strategy in Scientific Incentive Landscapes",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-337",
+      "qnfo:runPath": "runs/cycle-337/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien",
+      "qnfo:slug": "institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T06:51:12+02:00",
+      "qnfo:depositCommit": "a48d6b375314aac0e138b7d1aa1f0fc60d0c89e0",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Institutionalized Unfalsifiability as an Evolutionarily Stable Strategy in Scientific Incentive Landscapes",
+      "url": "https://papers.qnfo.org/papers/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1204.2376",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1204.2376"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1211.0310",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1211.0310"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1301.1426",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1301.1426"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1403.5107",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1403.5107"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1406.0045",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1406.0045"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.00709",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.00709"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.04962",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.04962"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2012.15007",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2012.15007"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.07407",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.07407"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.00495",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.00495"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2304.08104",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2304.08104"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2501.13682",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2501.13682"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.05720",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.05720"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.20859",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.20859"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.16152",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.16152"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.18385",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.18385"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.00033",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.00033"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0007100",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0007100"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0108075",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0108075"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "18935b8695999b125dca5f80f79d441c80aa8bed4ce3060df02c6c6986a6a8d7",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "78335",
+      "sha256": "96ef8421d117f46bc4d58e590740c452c50cac0890a25d4a6c22e012a852ec00",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "814",
+      "sha256": "a80cc86f97b2477c13684e4178ce82223eb70964841c3069b4d6c7f97eae4430",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8239",
+      "sha256": "103a7e479976a9bc834f6ae59951bed62ade4c74b89ac0aeacd99219a630db4c",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2360",
+      "sha256": "a9206f8239288c12fc9c3feb5523f21611b7f106169e90d2353fa6d15d9f23e2",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23984",
+      "sha256": "b0a1209e11783a1bacc2b3744fdd8ab8394934b9e6719d49633b211f1a57c4e2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25319",
+      "sha256": "a129c37c60a9c2d7a8483a8452e66d1ef1ffd5ec1d301e55210f2a08dd2240de",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1204.2376"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1211.0310"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1301.1426"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1403.5107"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1406.0045"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.00709"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2003.04962"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2012.15007"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.07407"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.00495"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2304.08104"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2501.13682"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.05720"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.20859"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.16152"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.18385"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.00033"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0007100"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0108075"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T06:51:12+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "1a418744abc6c5df9a1f210bb0ae854445bf65a9357b480ae914f82df167da35"
+    }
+  ]
+}

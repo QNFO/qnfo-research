@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien",
+  "paper": {
+    "path": "papers/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien/paper.md",
+    "title": "Institutionalized Unfalsifiability as an Evolutionarily Stable Strategy in Scientific Incentive Landscapes",
+    "url": "https://papers.qnfo.org/papers/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-255/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2f465ced372546f697987c77dbbae22c4fa2a02d9c01fbc5a329e6a17c501909"
+    },
+    {
+      "path": "runs/cycle-337/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "18935b8695999b125dca5f80f79d441c80aa8bed4ce3060df02c6c6986a6a8d7"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien"
+  },
+  "snapshots": [
+    {
+      "sha256": "ced02ed62dc52f9419cf5843f0ff7bd1c068fae256bbfa520a61d6d08d850819",
+      "bytes": 25681,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "7152dd1e18cd3aa4161c6fc42a1c7742619087ee"
+    }
+  ],
+  "events": []
+}

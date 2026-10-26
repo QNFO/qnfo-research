@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+  "paper": {
+    "path": "papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu/paper.md",
+    "title": "Factoring Hardness as a Bayesian Prior: A Decision-Theoretic Model of Post‑Quantum Cryptography Migration Timing",
+    "url": "https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-114/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "df43dc81264c2fbac744baa14bbc53ef552832427270c59a5f7013caacbabfdc"
+    },
+    {
+      "path": "runs/cycle-271/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu"
+  },
+  "snapshots": [
+    {
+      "sha256": "465bd1a5bde51bbf78b4fbee81f911b78128024662ddf36e1d12b9fee47ee23a",
+      "bytes": 33995,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "b5a48b0ef453df396acfcba950539506acf8b214"
+    }
+  ],
+  "events": []
+}

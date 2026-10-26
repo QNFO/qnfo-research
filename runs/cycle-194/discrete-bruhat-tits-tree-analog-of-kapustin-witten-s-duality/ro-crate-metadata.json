@@ -1,0 +1,367 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-194: discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-194",
+      "qnfo:runPath": "runs/cycle-194/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
+      "qnfo:slug": "discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T02:01:13+02:00",
+      "qnfo:depositCommit": "9c5a0b3eabde28c00f0224cdf2685127b768f38d",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/writer-b-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
+      "url": "https://papers.qnfo.org/papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0804.4584",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0804.4584"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1109.5555",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1109.5555"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.13643",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.13643"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2208.08342",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2208.08342"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2502.00357",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2502.00357"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.33356",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.33356"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "305c9bbbdb9dc0a37c2f21e33ad2656d1e4b5055cb27c64922b8b9fe72c43fc0",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "49959",
+      "sha256": "d267991d74dfa4c64ed4c59a0b9d5c9d5e680c07585e8dd91cef1091fa31b576",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3543",
+      "sha256": "de3a734c1ea0d13c64ac93b07e477ca1f76c793ae40e7255e1692ffcb05c3a02",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9374",
+      "sha256": "ea6862101aa22f544321cb38c8173564bd5a0861a4ff9aafe79c322606def9a3",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3508",
+      "sha256": "d9129661ae905066ce2ecb2a1faae3384b90177a214776fc023f2945af3dcf43",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22290",
+      "sha256": "27e93d2fd8019e5b3ad8651421d8f3060b56d06e3d1f7830927e8047a33cd0ba",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "9e010f83c1976e65578f75ae60e0725917f7e1b72e6f01fa187f84619f970a85",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0804.4584"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1109.5555"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.13643"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2208.08342"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2502.00357"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.33356"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T02:01:13+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "039be586c44e1621b8fc50a0c6e87fa5a139325f9c0317b38a68ff4b2df6125d"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+  "paper": {
+    "path": "papers/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex/paper.md",
+    "title": "Re‑Entry of Non‑Markovian Boson‑Mediated Transport into Light‑Harvesting Complexes: A Timescale‑Based Applicability Analysis",
+    "url": "https://papers.qnfo.org/papers/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-282/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9bfd11e0bf1098b9d5f638ca63eeccf5367ccba39e46fda0b1ffaaf4aaeef3ac"
+    },
+    {
+      "path": "runs/cycle-303/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "5f953cdf3c8ba34ea7ce65adefde659e2cd03d24625631c1ea74cf908687d9c4"
+    },
+    {
+      "path": "runs/cycle-307/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "055f4f2729cc829365953ad6b8f978a9e49b556990aa2c9267e32ee220c17d11"
+    },
+    {
+      "path": "runs/cycle-311/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "41ad3d1d2d87c9476d02d42839a6cdd087f6edf45c9783a2da5b57a6044d43c9"
+    },
+    {
+      "path": "runs/cycle-319/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "cfda902c97f22592fe0a706e9c0a51d55331db962de5c93c2e47d80633260d4e"
+    },
+    {
+      "path": "runs/cycle-335/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a9eeeb42a9deab702162ecc154e32316a114f1365830de5f3e66967167f54652"
+    },
+    {
+      "path": "runs/cycle-346/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "309bfe3dbf3bf506ad038a9b41e66780f4f96cc48311a1bf317a7d336749a290"
+    },
+    {
+      "path": "runs/cycle-364/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "aba2d1fce0c688626c402c2794af1e96306213b602aaeed8e5da1c6e086b110d"
+    },
+    {
+      "path": "runs/cycle-370/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "cf035c72ac667dab9e1effe44b9f70f38b70af96064e557d9c29c37adec6ef6c"
+    },
+    {
+      "path": "runs/cycle-378/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ca1c07fc67663263b16e9093b21029c23fe5335aac02d8653f50a14f36886371"
+    },
+    {
+      "path": "runs/cycle-387/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "8964e08423219cd8922f52b8921ca068e8e7ee4873171a52ba39677f43fa74c7"
+    },
+    {
+      "path": "runs/cycle-57/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "746a2667246100fc987ccc582d55454a64b6502c83e150dd34f913d9bd63b1b7"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex"
+  },
+  "snapshots": [
+    {
+      "sha256": "742c7df7ce84f64e306850c57809251af1fa1a449866539a4c190869c7dec60c",
+      "bytes": 21971,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "63a92009abc438854efe8f0d14dc268cb9fe9071"
+    }
+  ],
+  "events": []
+}

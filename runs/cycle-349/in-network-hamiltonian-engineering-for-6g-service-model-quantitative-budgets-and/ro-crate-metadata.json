@@ -1,0 +1,430 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-349: In‑Network Hamiltonian Engineering for 6G: Service Model, Quantitative Budgets, and Re‑Entry Analysis",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-349",
+      "qnfo:runPath": "runs/cycle-349/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "qnfo:slug": "in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T10:01:23+02:00",
+      "qnfo:depositCommit": "817a29a1bd60fef49403e15bd8ef88611bcee041",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "In‑Network Hamiltonian Engineering for 6G: Service Model, Quantitative Budgets, and Re‑Entry Analysis",
+      "url": "https://papers.qnfo.org/papers/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.1160",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.1160"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1404.7565",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1404.7565"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1707.03869",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1707.03869"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.08708",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.08708"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1803.05997",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1803.05997"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2001.02559",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2001.02559"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2108.07631",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2108.07631"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.07493",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.07493"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2303.07374",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2303.07374"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.04710",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.04710"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.07737",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.07737"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.21070",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.21070"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.19413",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.19413"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "463aca50a75d676e2dc27a6ab1e8d1eceba71d8ab5d9f10b878fb5424c104904",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "65185",
+      "sha256": "37a6a4ec4c45fd1ed1545e148134307e7d0fdecb6f21efa55350312ac6513c9d",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3897",
+      "sha256": "fcc3661d417959d92e6c817587c2573e3ae1d44aa26f4dba3726e5c4e646b6f7",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12068",
+      "sha256": "c233a22f70b777bf749e99efbd56fc4d8cdc3f0113744953d75c7b942b817e29",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "5388",
+      "sha256": "efeb5a85b1bde8d57ec3615ce5a77144575431c72c4bc06dd1e1d3dfb935837e",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24374",
+      "sha256": "e065a14505b09d41468bb71914cfd310f0b236444d2e72d906f89e68938b6a98",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26912",
+      "sha256": "ede01a7ba7ca09de68c12e96511b5f49288be0f72f0fcc6c68ab2a0f7115e75f",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1002.1160"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1404.7565"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1707.03869"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.08708"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1803.05997"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2001.02559"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2108.07631"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.07493"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2303.07374"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.04710"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.07737"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.21070"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.19413"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T10:01:23+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "21c0ddbf3ce400bf3d1d7bd641e55582f9ee0d566ee9eef3c23f6a35a413b762"
+    }
+  ]
+}

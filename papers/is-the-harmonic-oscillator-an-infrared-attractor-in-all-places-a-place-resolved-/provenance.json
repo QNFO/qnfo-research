@@ -1,0 +1,55 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+  "paper": {
+    "path": "papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-/paper.md",
+    "title": "Is the Harmonic Oscillator an Infrared Attractor in All Places? A Place‑Resolved Analysis of the Harmonic Paradigm",
+    "url": "https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-295/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "13c3239dd6222ca7037f07d35ee9d2327ad50713a0dc46c925580900a0ca1079"
+    },
+    {
+      "path": "runs/cycle-371/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "0775c16f5d78b288aa0b5c04399e77304639743240dabe228a39c5c47c7b865a"
+    },
+    {
+      "path": "runs/cycle-378/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    },
+    {
+      "path": "runs/cycle-67/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "05dedd15855b75ef7329f92a0bbe6e4fe2753c9762942682765edb7ceba8358c"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-"
+  },
+  "snapshots": [
+    {
+      "sha256": "9c4138953fe910c10ff8331f55e6a14031cfa28a544765387dcc0b23a497984b",
+      "bytes": 21943,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "b9d6ac8efe9f6b78f73f39d022016631aed6c11f"
+    }
+  ],
+  "events": []
+}

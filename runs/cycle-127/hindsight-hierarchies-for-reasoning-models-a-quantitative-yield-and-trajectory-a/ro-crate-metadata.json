@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-127: hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-127",
+      "qnfo:runPath": "runs/cycle-127/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
+      "qnfo:slug": "hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-13T05:16:51+02:00",
+      "qnfo:depositCommit": "42ff078c210403d3b06ede2a717bfbc7fb5ebf62",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
+      "url": "https://papers.qnfo.org/papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1609.09001",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1609.09001"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1705.03921",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1705.03921"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.08180",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.08180"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1808.01874",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1808.01874"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2204.12833",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2204.12833"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.16021",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.16021"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.02208",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.02208"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.12168",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.12168"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "939122f41e98d6a7e252f022ce035495d3ba5eeda69d1c2cc0cd464b91770af5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11630",
+      "sha256": "d1a3fbdbf8ca780b514f0ba985064a2a7f66b993df4be3bea8f26a31b89029cc",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1720",
+      "sha256": "13fc5a2b487db722b6d8eaccafb1dba6ec23fd0b26d5a4494c73d9a10f227d21",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6310",
+      "sha256": "9a55b82a3c2012e8faf5222d960e205b418ef583624ac9f416999bc8dbf6d67e",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1704",
+      "sha256": "70c71a1da8b7ab219a0d3c6c3c4322415f01b293ffe1fe465e65154cd20610cc",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22084",
+      "sha256": "8592599fdc7cb06121ea66e32202fbf9aa1ea05fc95d967a88db8863272d7df0",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "31876",
+      "sha256": "c7909af78538be47dc0b15253833301f18e3e039efa6c0b6a3199aa53ff43fc2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25956",
+      "sha256": "5c0b96abadce37ccb15d810bbf33a8544b1468492613ae1c0a75850c14616d40",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1609.09001"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1705.03921"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1805.08180"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1808.01874"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2204.12833"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.16021"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.02208"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.12168"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-13T05:16:51+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "d0892801bf10fcd11544e2610c6b5f5fadae21b1a8e7606a58d032c01586c87f"
+    }
+  ]
+}

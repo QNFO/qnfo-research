@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-291: Is There a $p$‑Adic $\\pi$? Haar‑Measure Circle Constants over $\\mathbb{Q}_p$, an Adelic Product Formula, and a Test of the Corpus Conjecture $\\pi_p=(p-1)/p$",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-291",
+      "qnfo:runPath": "runs/cycle-291/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+      "qnfo:slug": "is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T12:01:20+02:00",
+      "qnfo:depositCommit": "76e1b68486706b45c3436ff5d894abc71d109fbd",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Is There a $p$‑Adic $\\pi$? Haar‑Measure Circle Constants over $\\mathbb{Q}_p$, an Adelic Product Formula, and a Test of the Corpus Conjecture $\\pi_p=(p-1)/p$",
+      "url": "https://papers.qnfo.org/papers/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0707.3682",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0707.3682"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.07185",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.07185"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1512.09362",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1512.09362"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.06864",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.06864"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2408.00810",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2408.00810"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/9410058",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/9410058"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/9506097",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/9506097"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math-ph/0512018",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math-ph/0512018"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "9696aab8472788e27ba2fd876fe42227dbe9b1dc8df33e0dd8b2202b8333a056",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "70330",
+      "sha256": "65ec327cd9a44fdc4f5b45b1d372a69b34a821b5aba2d54f6bbbc6486e219c57",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4045",
+      "sha256": "630506079f945d8817422751d4f98f10f5fa311abb38d118b68dce9b9515a69b",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10637",
+      "sha256": "35415376c5229a008fe75152def70a72abec3b254c5d96221c41c03dabff47b8",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "4549",
+      "sha256": "d6c9aed3b15672123611ff74864ef0f2fa6424cf02ea8ac1461221f6f814dcd7",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18088",
+      "sha256": "12521d8600e18b420b8d41e645bbcc487d740d088a9ba2c554957619b05d65a3",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18985",
+      "sha256": "fa5e4907878d352db995d21b4277c6075f9efe3a2b3dadea6b3e92e6e321f008",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0707.3682"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.07185"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1512.09362"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.06864"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2408.00810"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/9410058"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/9506097"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math-ph/0512018"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-20T12:01:20+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "dd087be3f6cac2a15b55dab5247b697f4bb24a573800105b97a067f828a6a1b5"
+    }
+  ]
+}

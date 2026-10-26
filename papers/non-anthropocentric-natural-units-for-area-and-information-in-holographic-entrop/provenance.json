@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+  "paper": {
+    "path": "papers/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop/paper.md",
+    "title": "Non‑Anthropocentric Natural Units for Area and Information in Holographic Entropy Bounds",
+    "url": "https://papers.qnfo.org/papers/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-285/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "875f338cc1ba4fb170ffe589455fc96c94446c127a37b11952e5bea955907046"
+    },
+    {
+      "path": "runs/cycle-68/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9387e6787a56afec6e52cc40ac9fb0861124763c4d4844077e34bc8296ea0235"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop"
+  },
+  "snapshots": [
+    {
+      "sha256": "cb485b59bef755a1715b4751cb694a7ae0033503e074f5f425ae196b925ca6ed",
+      "bytes": 24842,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "691a1f995ab6a88f2c88307b8c08875f2ae4cf9f"
+    }
+  ],
+  "events": []
+}

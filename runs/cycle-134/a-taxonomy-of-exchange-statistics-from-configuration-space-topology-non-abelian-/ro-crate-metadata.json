@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-134: Retracted: A Taxonomy of Exchange Statistics from Configuration-Space Topology: Non-Abelian Flux Attachment and a Pre-Registered Thermal Hall Projection",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-134",
+      "qnfo:runPath": "runs/cycle-134/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "qnfo:slug": "a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-13T22:34:44+02:00",
+      "qnfo:depositCommit": "aa7f7cb9d57c6b95dfee20b765bbd3f4d91d3612",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Retracted: A Taxonomy of Exchange Statistics from Configuration-Space Topology: Non-Abelian Flux Attachment and a Pre-Registered Thermal Hall Projection",
+      "url": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1111.0731",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1111.0731"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1404.2594",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1404.2594"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1411.7581",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1411.7581"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1802.08117",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1802.08117"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.00871",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.00871"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math/0004119",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math/0004119"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math/0411208",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math/0411208"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math/0509667",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math/0509667"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "348cb7bffb503f5e043d645e3f863be2a0ad2eb55117cfef74dbea0a9f5d40ce",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "71165",
+      "sha256": "8e3e97602e194b8cf61d0333eb40d4f492a266f1b0f9b19a3321ee2b8623fa43",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3943",
+      "sha256": "c7b0fdad2959763ec312a569dde8398a7317f08a09b70438d863ccb5d089e17e",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7918",
+      "sha256": "837ae0b3b7d5acf0a0778bb4de9ca55685719060743aec0220a3f4b27c7b77ca",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3518",
+      "sha256": "99d38a34e685f753615565e0487c7e6a6ccfd0a6e15ea8953cad7e9d07819324",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20222",
+      "sha256": "a64823f3aa7cfc91c6914b1d39c88f67000806e6d7530f7d314e029af085c51a",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23061",
+      "sha256": "b1d25817bf08c893d8f5bece86928bf4d1fe621d887eda4c89098bb42b2c653e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1111.0731"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1404.2594"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1411.7581"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1802.08117"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.00871"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math/0004119"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math/0411208"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math/0509667"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-13T22:34:44+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "af40e84ef7905aa0efd847420ea5ad5042c01b87383c0a4b24ba4f8ac2fb2297"
+    }
+  ]
+}

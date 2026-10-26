@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br",
+  "paper": {
+    "path": "papers/holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br/paper.md",
+    "title": "Holographic Quantum Error Correction as AdS/CFT Renormalization‑Group Flow on Bruhat–Tits Trees: A Conditional Threshold Analysis at $10^{-4}$",
+    "url": "https://papers.qnfo.org/papers/holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-10/holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f05f9a3b5ac28144a5b4be2601bf3029fd33c5f64951156ac32bb7e2c7630c7a"
+    },
+    {
+      "path": "runs/cycle-226/holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "0b84eb9baf9b671f2141d52f33c4e1eb621a49ffe1fbd38b659590cbc3e146c1"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br"
+  },
+  "snapshots": [
+    {
+      "sha256": "64cf11b0dada650e7546ef68410561e7271a3541b46aeffba1a7e4b097936f6e",
+      "bytes": 24939,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "2b32839780222f9a834ccbfa51c047e04b3b135b"
+    }
+  ],
+  "events": []
+}

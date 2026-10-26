@@ -1,0 +1,417 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-101: Falsification Criteria for Quantum‑Advantage Claims: An Effective‑Criterion Audit Framework",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-101",
+      "qnfo:runPath": "runs/cycle-101/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit",
+      "qnfo:slug": "falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-11T23:33:41+02:00",
+      "qnfo:depositCommit": "1965b3635c9300f9cb715a027e475a868d756767",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Falsification Criteria for Quantum‑Advantage Claims: An Effective‑Criterion Audit Framework",
+      "url": "https://papers.qnfo.org/papers/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1302.3805",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1302.3805"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.00547",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.00547"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1703.02637",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1703.02637"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.13664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.13664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.04454",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.04454"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2309.06480",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2309.06480"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2309.13408",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2309.13408"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.05720",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.05720"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.01066",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.01066"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1017",
+      "sha256": "b17a99f8457c05db27ac07657d9aceed3569be6947169b5423ab7b99f1da6528",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9806",
+      "sha256": "489e0dfd13bb85581325b09cd16a5fce16c310f35373e0d68d1e529e20e586f6",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1903",
+      "sha256": "7fc3aab76e1fe8ac81da0805503d089a13ce3dad2899155bcd9f476f1023141a",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2628",
+      "sha256": "16841d519563a424373943e3c09dc732e470379e8911493557f5fb3366b3b32a",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "743",
+      "sha256": "2c5fb00be2e15d05ef0c0816f75ba602baa09f35f7f8e37f510534af12b3b00f",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19192",
+      "sha256": "15ddd1bf1054ae9f0b8cdce5b44ce3fafebd5e2ae72cf861040c45c59fbb03c8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24737",
+      "sha256": "248ce6b336a6caf5b63b3083696dcf07b3aa24272ce4183842d0e8722606e04e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24362",
+      "sha256": "4963fbd255ddf1887e2d5189c837a5fc541d4312e0a9a06b4428a1c2f512a5bb",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1302.3805"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.00547"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1703.02637"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.13664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.04454"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2309.06480"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2309.13408"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.05720"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.01066"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-11T23:33:41+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "57cf0d35be33185d756074c30b174ff849c61d6e459e2ed4f6303966be9444da"
+    }
+  ]
+}

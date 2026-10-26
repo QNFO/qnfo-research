@@ -1,0 +1,323 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-247: monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-247",
+      "qnfo:runPath": "runs/cycle-247/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
+      "qnfo:slug": "monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T02:02:11+02:00",
+      "qnfo:depositCommit": "fc5cd54bde9a826846ffea7224b45541aecb00ab",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/review-report.md"
+        },
+        {
+          "@id": "#missing/verification.md"
+        },
+        {
+          "@id": "#missing/writer-a-draft.md"
+        },
+        {
+          "@id": "#missing/writer-b-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
+      "url": "https://papers.qnfo.org/papers/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1201.2711",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1201.2711"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1201.2719",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1201.2719"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.10209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.10209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2106.05838",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2106.05838"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.13255",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.13255"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2407.02352",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2407.02352"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.21473",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.21473"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.17982",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.17982"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "9faa5956a56516734e56b3c5d5d2db6f60a0d4529653cc810ae443c4c1ff3464",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "46815",
+      "sha256": "ab3a102874d0f6af6b7b6ed45f9d1c45400537fc49221a045bdac9075f453b85",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2641",
+      "sha256": "c0092ffd093e1637b045ddeee758307d77f3132755e3aff15a256c56672f8f79",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/review-report.md",
+      "@type": "CreativeWork",
+      "name": "review-report.md",
+      "sha256": "f48dbd457e2f7d420dd3ce808e4111af1cfd1758fff953e8e55a07a10b592d5a",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.md",
+      "@type": "CreativeWork",
+      "name": "verification.md",
+      "sha256": "c39a9467db40a82e75cadc28102007191d7ac54743d14f21e70168f9803da967",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-a-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-a-draft.md",
+      "sha256": "0c516cafa5c1b906c6da53b336a1a51512bdc63a6a81161843842ff0d6acb161",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "59d3c10f73d25141180f68e122076a05a1cec6d6f32185abc5f3836a7442ca8e",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1201.2711"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1201.2719"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.10209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2106.05838"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.13255"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2407.02352"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.21473"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.17982"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "endTime": "2026-10-20T02:02:11+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "no-recorded-output",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "42d3ac4dac356991084cedbbd1652e9fdd30a320ecc1f6319ca7b5b40fc4bcd7"
+    }
+  ]
+}

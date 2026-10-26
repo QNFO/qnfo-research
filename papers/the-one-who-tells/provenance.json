@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-one-who-tells",
+  "paper": {
+    "path": "papers/the-one-who-tells/paper.md",
+    "title": "The One Who Tells",
+    "url": "https://papers.qnfo.org/papers/the-one-who-tells"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-one-who-tells"
+  },
+  "snapshots": [
+    {
+      "sha256": "b08a0e9fe450c7d57b243faf90915158c60e9c2fc79df1c5e83f097855112570",
+      "bytes": 31442,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "dc887fadc3e640a4ef12af43ae37d6d872028f53"
+    }
+  ],
+  "events": []
+}

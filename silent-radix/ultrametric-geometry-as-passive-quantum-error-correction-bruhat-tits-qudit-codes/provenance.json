@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes",
+  "paper": {
+    "path": "silent-radix/ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes/paper.md",
+    "title": "Ultrametric Geometry as Passive Quantum Error Correction: Bruhat–Tits Qudit Codes and the Non-Archimedean Bound",
+    "url": "https://papers.qnfo.org/papers/ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-339/ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2c1c7b9c7b9d106f704171c3e2efb086cffa00eebc0de88c470d41fc16459541"
+    },
+    {
+      "path": "runs/cycle-86/ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "8bfad64a20ee210bd7c192c404f7c44b5e74b77a12fa24215baadb033b9db396"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes"
+  },
+  "snapshots": [
+    {
+      "sha256": "44fb22611a0469bcd32d02a1a095e78e36c7ecff01ca4376f51884aa067dd2de",
+      "bytes": 31466,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "facc37ec05d53a3e9fa52562a45d8d82f01a7797"
+    }
+  ],
+  "events": []
+}

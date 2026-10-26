@@ -1,0 +1,433 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-175: joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-175",
+      "qnfo:runPath": "runs/cycle-175/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard",
+      "qnfo:slug": "joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-18T14:18:31+02:00",
+      "qnfo:depositCommit": "786ef4737ec1bdc7299610b970c767678b20fd40",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard",
+      "url": "https://papers.qnfo.org/papers/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1301.5453",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1301.5453"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.7490",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.7490"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1704.01149",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1704.01149"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.01463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.01463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.09397",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.09397"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.12024",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.12024"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.03730",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.03730"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.12933",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2505.12933"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00220-017-2813-1",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1007/s00220-017-2813-1"
+    },
+    {
+      "@id": "https://doi.org/10.1016/0370-2693(70",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/0370-2693(70"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.physrep.2006.03.001",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/j.physrep.2006.03.001"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1018",
+      "sha256": "41d8648d7f0c094cf23152b65bf4c7a59e19a47f705dd207a963fa3e60d16de5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "53261",
+      "sha256": "8525d119addc5a34b5ce91634736b1e612e4da9d990d66047f05df963c9f5907",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2752",
+      "sha256": "dfbc692f2704e8b0f4a3a108cc3472ea018d415bd6f9c9255c9ea5ec97ed1824",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6639",
+      "sha256": "3792f56b4c20a52b21ac2a19440839d4fdc32c3bc8e0e4cfc26e7cbc864f5c8e",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2147",
+      "sha256": "5bccd1a1a9fd311b73e483f9947fc0ffba39f485fb6defd01cd96f5859db3986",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20172",
+      "sha256": "bab211566615826f33538e16e0028b40f66406fd3dac2d2ea88c45a865b92729",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18114",
+      "sha256": "de2f4d86ea85d1d970ba70e34ed7b3eb697733e09f50d3e5548dcc3621b862e6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7161",
+      "sha256": "0acf2b7aee3f57166d0414aedb7f725e59571fe6e9229c7ac52efd148e564354",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1301.5453"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.7490"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1704.01149"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.01463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.09397"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.12024"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.03730"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2505.12933"
+        },
+        {
+          "@id": "https://doi.org/10.1007/s00220-017-2813-1"
+        },
+        {
+          "@id": "https://doi.org/10.1016/0370-2693(70"
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.physrep.2006.03.001"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-18T14:18:31+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "fa892c1cd2e007f65b691139c230bc06e8509f671cd59470ed93b7f443d37014"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "paper-problem-substrate-mapping",
+  "paper": {
+    "path": "papers/paper-problem-substrate-mapping/paper.md",
+    "title": "1. Introduction: From Critique to Portfolio",
+    "url": "https://papers.qnfo.org/papers/paper-problem-substrate-mapping"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22753170",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "paper-problem-substrate-mapping"
+  },
+  "snapshots": [
+    {
+      "sha256": "7a7fd1c3affb7a38874172d7afb143eb73b1801f6b78fb51ed2f147383889503",
+      "bytes": 32731,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "474d992affbdd72ee3f189f31d0b981b965fda21"
+    }
+  ],
+  "events": []
+}

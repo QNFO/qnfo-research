@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-195: primality-as-a-non-archimedean-structure-projected-onto-the-real-line",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-195",
+      "qnfo:runPath": "runs/cycle-195/primality-as-a-non-archimedean-structure-projected-onto-the-real-line",
+      "qnfo:slug": "primality-as-a-non-archimedean-structure-projected-onto-the-real-line",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T02:02:03+02:00",
+      "qnfo:depositCommit": "7ccc51879dba9f212966a0c5f5e4d9f95ad8bc32",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/primality-as-a-non-archimedean-structure-projected-onto-the-real-line"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/primality-as-a-non-archimedean-structure-projected-onto-the-real-line",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "primality-as-a-non-archimedean-structure-projected-onto-the-real-line",
+      "url": "https://papers.qnfo.org/papers/primality-as-a-non-archimedean-structure-projected-onto-the-real-line"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1001.2517",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1001.2517"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1409.4615",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1409.4615"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1502.05724",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1502.05724"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.01589",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.01589"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1703.00497",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1703.00497"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2106.11155",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2106.11155"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.18095",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.18095"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.01638",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.01638"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "e303ae937a4bafb52101d24479248f81908c855f23f2f6d9a1eca0ad38829a33",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51326",
+      "sha256": "06463db738507fbeda62aff0fd767f51625446b762b2015845b83c3867ccec1e",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5804",
+      "sha256": "72ee31f656f8f43d8c925a8625641b54d38e9c6dabdf5c3090d179379275964c",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5562",
+      "sha256": "572a182d943987938f777a3a0aacabb0e9b3304058277e08b314e23b036a09f4",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1681",
+      "sha256": "86cfa8be0c4e36bbde61a19df97ee3b4b5ac3285c74716ed74cad3b4a5f789f7",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17839",
+      "sha256": "18d09c9807f8003c9994ee26d025f4fcce982218ce179642e28de96000444113",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15165",
+      "sha256": "a05e6f89d2fca4d107c495dcece0f31d1f1279ba62b84d73d339ec8eb8518996",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1001.2517"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1409.4615"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1502.05724"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.01589"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1703.00497"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2106.11155"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.18095"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.01638"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T02:02:03+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "c14e2b56273beac46aca0f2022b719071ed7ba8e356e1b908b21c7585a5e329d"
+    }
+  ]
+}

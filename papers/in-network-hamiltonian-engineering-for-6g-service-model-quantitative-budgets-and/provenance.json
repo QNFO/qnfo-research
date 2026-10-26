@@ -1,0 +1,67 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+  "paper": {
+    "path": "papers/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and/paper.md",
+    "title": "In‑Network Hamiltonian Engineering for 6G: Service Model, Quantitative Budgets, and Re‑Entry Analysis",
+    "url": "https://papers.qnfo.org/papers/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-267/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "7b4b82d00679130f11ba72bb3919252b9f2f08873087c5949fc9a05625f593f6"
+    },
+    {
+      "path": "runs/cycle-349/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "463aca50a75d676e2dc27a6ab1e8d1eceba71d8ab5d9f10b878fb5424c104904"
+    },
+    {
+      "path": "runs/cycle-369/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4ecb27515da0a17d28658458b2bf04d4f238c7495482158de17134dd1f90d01f"
+    },
+    {
+      "path": "runs/cycle-376/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "814c0cbc0bf0a0896456b8ef38d853263c05d4e57c42a9f4f666b50e8dbe5cf7"
+    },
+    {
+      "path": "runs/cycle-386/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "76494406a542f2ec088005bea7a7c47b9bf24050448532aec87281fd8f34a26c"
+    },
+    {
+      "path": "runs/cycle-61/in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "80848d0456bdcd95c401ca8acff4f5f382de8819d5d00e2b0733371559ec387b"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "in-network-hamiltonian-engineering-for-6g-service-model-quantitative-budgets-and"
+  },
+  "snapshots": [
+    {
+      "sha256": "6169ca940bc3987ac2e302e0a38f8eb35b712fd03066ed11518ca00653c09841",
+      "bytes": 29295,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "54bd5c87aa2f927953c3f99cc9847e584ffba40a"
+    }
+  ],
+  "events": []
+}

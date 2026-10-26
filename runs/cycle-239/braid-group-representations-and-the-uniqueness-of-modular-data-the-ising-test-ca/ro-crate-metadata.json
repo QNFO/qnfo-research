@@ -1,0 +1,438 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-239: braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-239",
+      "qnfo:runPath": "runs/cycle-239/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "qnfo:slug": "braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T22:14:51+02:00",
+      "qnfo:depositCommit": "4b7bca77b999969ba7c0c43e50c6f944eb40bd1b",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "url": "https://papers.qnfo.org/papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0710.1063",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0710.1063"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1009.0241",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1009.0241"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1105.5048",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1105.5048"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1401.5329",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1401.5329"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1708.06476",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1708.06476"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1903.00463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1903.00463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1906.08153",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1906.08153"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.02664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.02664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.02098",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.02098"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.02496",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.02496"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.07866",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.07866"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.19647",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.19647"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.16817",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2505.16817"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.06203",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.06203"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "f178d09402eced7cfa69a0ee0c7ef95a02f4847359b5a4cad482ca69a51c4a79",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "69721",
+      "sha256": "67c7270b87882f5e0fc334f45ef5e4a19344ba8265bca09833cc82c8d259585c",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5164",
+      "sha256": "2df9d331c6b79bfaea86c53a39ad8ab5fee89e5cd57cdd543eb74b4fc0e8a026",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10256",
+      "sha256": "d4e35a7a10601225274613d588f98af0ba76fc22cfe562f25f17de212a0cb3e5",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3330",
+      "sha256": "0e6becf1db847d3f77750eac8cdcd97be234a44d0aba43e6f148a94919c8136f",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26747",
+      "sha256": "75fc049fa7eedc2a59456a594e4cc8ccbab4114d4a0342829795b34420928c9b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13473",
+      "sha256": "2279a9e291a11ba7d0bc784a6a61e0e31cd2456ded6b92cd7d9ff4d0b1313fec",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0710.1063"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1009.0241"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1105.5048"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1401.5329"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1708.06476"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1903.00463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1906.08153"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.02664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.02098"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2003.02496"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.07866"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.19647"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2505.16817"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.06203"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T22:14:51+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "6b4dc489f07361c468b23fb9d092b1f44684e2faa79aff56e46d30e93d73b59d"
+    }
+  ]
+}

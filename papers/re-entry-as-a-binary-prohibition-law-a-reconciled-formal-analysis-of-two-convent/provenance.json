@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "re-entry-as-a-binary-prohibition-law-a-reconciled-formal-analysis-of-two-convent",
+  "paper": {
+    "path": "papers/re-entry-as-a-binary-prohibition-law-a-reconciled-formal-analysis-of-two-convent/paper.md",
+    "title": "Re-Entry as a Binary Prohibition Law: Enumeration, Impossibility, and the Three-Outcome Completion",
+    "url": "https://papers.qnfo.org/papers/re-entry-as-a-binary-prohibition-law-a-reconciled-formal-analysis-of-two-convent"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-102/re-entry-as-a-binary-prohibition-law-a-reconciled-formal-analysis-of-two-convent",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1537cf73c307a5842e773cf9c53390489fd2b0f1256d4504b5fe79d6a3146ca4"
+    },
+    {
+      "path": "runs/cycle-146/re-entry-as-a-binary-prohibition-law-a-reconciled-formal-analysis-of-two-convent",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "c68081fd193ef1e52b2e5adee9f35c17ca07986a7e818071f957fce2b2f5e266"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "re-entry-as-a-binary-prohibition-law-a-reconciled-formal-analysis-of-two-convent"
+  },
+  "snapshots": [
+    {
+      "sha256": "dc10cef3d15845e3804ae34eac5375e4fcb365c8a325019b16ecc13671bcb6b3",
+      "bytes": 37449,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "7a8991a13a20a1e90972dc706e5c068834607204"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,363 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-47: corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-47",
+      "qnfo:runPath": "runs/cycle-47/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
+      "qnfo:slug": "corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-09T19:34:07+02:00",
+      "qnfo:depositCommit": "740178a388604b690c27bb88a908347b35e41f68",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/review-report.md"
+        },
+        {
+          "@id": "#missing/writer-c-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
+      "url": "https://papers.qnfo.org/papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0910.4598",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0910.4598"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1109.4790",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1109.4790"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1207.6076",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1207.6076"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1302.5721",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1302.5721"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1307.8244",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1307.8244"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.09260",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.09260"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.04730",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.04730"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "f8c7fcd095c73a77c8bbb60608afe4f6ddfb526026c5a0a4873650115ecb3035",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10654",
+      "sha256": "114e699beace662f7b9e0ec99c2570ee00a65debea56e53514a84362d445fcfb",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3409",
+      "sha256": "fb6311be9460dc5e61446f0d2dba4d25e5a50d4e2abdff37302dc13973343620",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1372",
+      "sha256": "9848861acfa4e4f1c3d64ab5ee341304110f93b5ef2e12677a03a500d824e99b",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15726",
+      "sha256": "c2883db36990526a493a8a5ac0d3ec10ab59904e8fdf3aa3884d8f36b12a03f2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20290",
+      "sha256": "59f9a83e5a3ebef3f56997f7fa0f364af04679154e3a3f8ca4bb6ce681e981d0",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/review-report.md",
+      "@type": "CreativeWork",
+      "name": "review-report.md",
+      "sha256": "97795f47d085995d758996476f3f1d141ab7203fa5c4802e67e832c2ecac3f18",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-c-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-c-draft.md",
+      "sha256": "97988d519af439d022de16dfa145a9cc1dce750822199dd624269c9d47863c27",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0910.4598"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1109.4790"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1207.6076"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1302.5721"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1307.8244"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.09260"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.04730"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-09T19:34:07+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "b16ed6d0d277c87d8026c01c52faf74579eaea103b062d3881ac4920f2cd7d8f"
+    }
+  ]
+}

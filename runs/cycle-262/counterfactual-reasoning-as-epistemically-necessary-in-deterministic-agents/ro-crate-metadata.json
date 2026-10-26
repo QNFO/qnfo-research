@@ -1,0 +1,398 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-262: Counterfactual Reasoning as Epistemically Necessary in Deterministic Agents",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-262",
+      "qnfo:runPath": "runs/cycle-262/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents",
+      "qnfo:slug": "counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T05:21:19+02:00",
+      "qnfo:depositCommit": "677d2e94658d90609c71876ece5975637c5521a2",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Counterfactual Reasoning as Epistemically Necessary in Deterministic Agents",
+      "url": "https://papers.qnfo.org/papers/counterfactual-reasoning-as-epistemically-necessary-in-deterministic-agents"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1706.05261",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1706.05261"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2303.01274",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2303.01274"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2306.14308",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2306.14308"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2312.10045",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2312.10045"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.17397",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.17397"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.16021",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.16021"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.05720",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.05720"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.21375",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.21375"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.05148",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.05148"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "ea25544293dcefd12a9c9703329da4794e7f20cf113738bdde7008b4dcbe90ae",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "46574",
+      "sha256": "b1085dc8fdaff96baed4d8efa140a2b1149841b3faef1e7dbc00f0905cebef3d",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2406",
+      "sha256": "406915f73b8cc40f08c9d89d150cb53a0c23b288316edd3fc6f1fde61d30e57d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9190",
+      "sha256": "59e94c4d90a80142a89e54f9e8221ac20ca41bcd17edf66e0be265fc323c9c2f",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "5262",
+      "sha256": "54bfab678e528dd75a25a3a5c05fdce4e09fc37a10edbc7e39256a4c79eb3e1a",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21769",
+      "sha256": "6829d66ee51b491c6ce432b2a7c4b204fc4da1188f09c37de0fd594c3055f1f1",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25893",
+      "sha256": "2cccc60b54d9dd2e3455ce88d1f2016b9bec644e1737da890a65a30b91bc01db",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1706.05261"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2303.01274"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2306.14308"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2312.10045"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.17397"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.16021"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.05720"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.21375"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.05148"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-20T05:21:19+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "b4ff8032d5112930854ef9e78299591447b4151880267ffbd54942e2a9e70950"
+    }
+  ]
+}

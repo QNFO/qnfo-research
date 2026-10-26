@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "log20240505010101strangeloopbook",
+  "paper": {
+    "path": "papers/log20240505010101strangeloopbook/paper.md",
+    "title": "Conversation Log - Protocol",
+    "url": "https://papers.qnfo.org/papers/log20240505010101strangeloopbook"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "log20240505010101strangeloopbook"
+  },
+  "snapshots": [
+    {
+      "sha256": "d0b9a4655dfe7fbf12087037e6b2d85baca0efb8310ad7248efecd207f4079c1",
+      "bytes": 40606,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "1d90f7fedae09e094ce8fdeb8bdf1d0e96c2adfe"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,425 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-27: low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-27",
+      "qnfo:runPath": "runs/cycle-27/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r",
+      "qnfo:slug": "low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-05T21:19:00+02:00",
+      "qnfo:depositCommit": "58dedba63692dff4de1db9a8c6e1ac25f67f5221",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r",
+      "url": "https://papers.qnfo.org/papers/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1311.2485",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1311.2485"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.04013",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.04013"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2211.03094",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2211.03094"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.04858",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.04858"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.13142",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.13142"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.09684",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2505.09684"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.06365",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.06365"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2607.15044",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2607.15044"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.02773",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.02773"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.03682",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.03682"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "3be6998cdc72fd41b6b34aeff38e3742c8b8f1c3d1e02e6cc883f4ae19b54d9b",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13475",
+      "sha256": "300829a42b27a26ad4afd5c3dc0e2ba403743003837c6eebce75d35965260453",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2077",
+      "sha256": "02c852ee86179f8db824219bfa0e0a7a72020630e98687a7664f3c41e24d40e2",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3714",
+      "sha256": "2d941a37c6564c42cb3ed6e47cd463f077c07eeb7ebb36fce23fc2658f035128",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1598",
+      "sha256": "ea0e806202af498b8c2dee9b5a6320ef362e1ebfb9316106964a38758fd158f8",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24767",
+      "sha256": "4f7ea49ff4f9a164acbfff8b57077a0bea43d44f1e01d3108e437c9092e5c6ad",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26416",
+      "sha256": "95bbf224a256c626aa7222df003b2f35d1ec4dea334c8df9c287e0a944580477",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28980",
+      "sha256": "7fdb69d40451b0a194639bee0dd8b0827736f728325e58eeffe855394d8bb92b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1311.2485"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.04013"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2211.03094"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.04858"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.13142"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2505.09684"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.06365"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2607.15044"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.02773"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.03682"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-05T21:19:00+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "e03a8f10d5f4bac3f8dc02b42332f96c1ab7843473fd7cba58f57fa03cf858fa"
+    }
+  ]
+}

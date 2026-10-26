@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "strange-loop-theory-of-physical-quantization",
+  "paper": {
+    "path": "papers/strange-loop-theory-of-physical-quantization/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/strange-loop-theory-of-physical-quantization"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758642",
+        "source": "README.md"
+      },
+      {
+        "doi": "10.5281/zenodo.17415144",
+        "source": "paper.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "strange-loop-theory-of-physical-quantization"
+  },
+  "snapshots": [
+    {
+      "sha256": "7b8318ed6c46f0cd77afa70291ad3a99df09fab5b58bede9d70ed8e43a6c2dc7",
+      "bytes": 20269,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "1.0",
+      "git_commit": "d39ca1780a076a25778ebda654dc70065cd732ee"
+    }
+  ],
+  "events": []
+}

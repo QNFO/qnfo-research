@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "nonlinear-tree-based-numeration-systems-a-consolidated-synthesis",
+  "paper": {
+    "path": "papers/nonlinear-tree-based-numeration-systems-a-consolidated-synthesis/paper.md",
+    "title": "Nonlinear Tree-Based Numeration Systems: Consolidated Synthesis",
+    "url": "https://papers.qnfo.org/papers/nonlinear-tree-based-numeration-systems-a-consolidated-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22749402",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "nonlinear-tree-based-numeration-systems-a-consolidated-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "0729d962f4b240ed61926fcd95feae5955d9aef156dbdea243dbe842b731ca79",
+      "bytes": 16161,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "3635f6a001742da88fa7c4af4fb8a8d319a3738b"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "strange-loop-of-being",
+  "paper": {
+    "path": "papers/strange-loop-of-being/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/strange-loop-of-being"
+  },
+  "declared": {
+    "version": "1.2.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "strange-loop-of-being"
+  },
+  "snapshots": [
+    {
+      "sha256": "bdb4216f214a2df21029aeef5fefd1ba59608b2baa1af8e732d4e51ea8b3c2ae",
+      "bytes": 169180,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "1.2.0",
+      "git_commit": "9aa3931023e14273815485a55907227f9eb00215"
+    }
+  ],
+  "events": []
+}

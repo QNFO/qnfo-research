@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test",
+  "paper": {
+    "path": "papers/spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test/paper.md",
+    "title": "Spectral Gap on Bruhat–Tits Trees as a Deterministic Primality Test",
+    "url": "https://papers.qnfo.org/papers/spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-253/spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "00b35826ffab11df4e9923b5046f2914eabfac4725667539af4cda9486b7d2e9"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test"
+  },
+  "snapshots": [
+    {
+      "sha256": "c62a66aa39f3087be8622e94b8a8a34aa61d90d59fbe72cce5223c31e81b7aeb",
+      "bytes": 21845,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "bae96398e9b373be24146a21f16c12d59549e9ac"
+    }
+  ],
+  "events": []
+}

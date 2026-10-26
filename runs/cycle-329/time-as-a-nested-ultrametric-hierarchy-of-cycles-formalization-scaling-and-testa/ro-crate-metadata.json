@@ -1,0 +1,398 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-329: time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-329",
+      "qnfo:runPath": "runs/cycle-329/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa",
+      "qnfo:slug": "time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T04:21:17+02:00",
+      "qnfo:depositCommit": "062f718dc25bd786f850f0545db3285df10c1fa5",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa",
+      "url": "https://papers.qnfo.org/papers/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1005.0114",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1005.0114"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1804.10972",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1804.10972"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1808.00538",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1808.00538"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.08829",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.08829"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2303.09557",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2303.09557"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.06953",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.06953"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.03159",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.03159"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.05056",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.05056"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.11020",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.11020"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "3b3db0e201ca1b01c1cfd97881c11f9ca882251a7c9a41d30759596b98053533",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "59002",
+      "sha256": "ad8b7e4e6f5c07f86896ca6980a4ea5e5ad8991b8ddc25dc1188441c3db12708",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5016",
+      "sha256": "172e20e6ccb132bc3085aff6baf9a03f4011f728b1328f20bab82a1482b66af4",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6848",
+      "sha256": "acc0e230a5976b569932f3ed5b5799e4381cca5b15095bb85bee461aa92be707",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2842",
+      "sha256": "f36533e1c76d02dc4e083dd314aa4523216388a2b0964579af461cef070e5b80",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20162",
+      "sha256": "aba1a9c82ac0eecdf789648b4ff242bdeefb6f0700fcada54a945b80b9f96442",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26753",
+      "sha256": "2f62dad5ae6a7991de690d10eb740aaa6448069c57cf5098795f6980edf0ea2f",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1005.0114"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1804.10972"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1808.00538"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.08829"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2303.09557"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.06953"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.03159"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.05056"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.11020"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T04:21:17+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "d72f7de28902f286789237183b77846cc4dbbc0d54055a9ef4e11d38864799c9"
+    }
+  ]
+}

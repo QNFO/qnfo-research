@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-174: cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-174",
+      "qnfo:runPath": "runs/cycle-174/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts",
+      "qnfo:slug": "cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-18T13:03:35+02:00",
+      "qnfo:depositCommit": "83e384b20a7e59b4fa8c797818339c978422323c",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts",
+      "url": "https://papers.qnfo.org/papers/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1512.00976",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1512.00976"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1603.01376",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1603.01376"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.03561",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.03561"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1810.08418",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1810.08418"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2011.06125",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2011.06125"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2110.13179",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2110.13179"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2207.04794",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2207.04794"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2502.19086",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2502.19086"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "32aca088a0c9eb81be2a8e13175c9c2e79abddd82e57e091170cf32ffe175516",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "53215",
+      "sha256": "b5b9b204f003027828e085add7aa8279730094dfca842d5dbd804787530dd16c",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1985",
+      "sha256": "dd79216bd275047737d8cf47d32bb928c87cabd0bc7fd5c3155abb4169cb6328",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8160",
+      "sha256": "e9dec3285919fe26f6fb3239923603203d9789b54966a957941f310c78106910",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3245",
+      "sha256": "dcada1ea7cfb46ab279d59c3697c85e748f9db8b1324b488248b368202fc5f26",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18651",
+      "sha256": "64d00402d1f5524da364d60e9942ee9ef47ed6510d06ac3b534dee787b53ad1f",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16539",
+      "sha256": "778e5d69877380048db0991725f5d7ff829e73b77c4ee5aeabdf54a00a8299f5",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15486",
+      "sha256": "7f65e996dc5c44d750a118f36301e4d8e52ab7714435f8b7761ed945f4e0aa4c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1512.00976"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1603.01376"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.03561"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1810.08418"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2011.06125"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2110.13179"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2207.04794"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2502.19086"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-18T13:03:35+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "a76251d1f60c73a4f49351f0a30827957d9e0252008bae3414cc8bd8f146de39"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-physics-m12-synthesis",
+  "paper": {
+    "path": "silent-radix/ultrametric-physics-m12-synthesis/paper.md",
+    "title": "**ULTRAMETRIC PHYSICS RESEARCH PLAN: RATIO-BASED FOUNDATIONS**",
+    "url": "https://papers.qnfo.org/papers/ultrametric-physics-m12-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-physics-m12-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "d608d29603b7ee0c188af39cb627b444e5bbfed10ad622e4596d9728dd4c9acd",
+      "bytes": 19355,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "9a9746b3858455f2fc2efe1978ec3b3f7c8bc4f7"
+    }
+  ],
+  "events": []
+}

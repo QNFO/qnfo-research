@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+  "paper": {
+    "path": "papers/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment/paper.md",
+    "title": "Planar Fluxonium‑Controlled Bosonic Error Correction: A Quantitative Error‑Budget Reassessment",
+    "url": "https://papers.qnfo.org/papers/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-299/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a56b77fb7714b5162d988fc41bfb2e67f3dc47e6e725c549351b0662e803d8ec"
+    },
+    {
+      "path": "runs/cycle-32/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "107c1483857fe7f3707ecc2330354c306830439ed08c960a2a6f9169feea84b7"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment"
+  },
+  "snapshots": [
+    {
+      "sha256": "2d7571021f23e593acd59d3eaea74e6a24a52be102db7cdeb2882096dd929175",
+      "bytes": 24061,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "53fe4de76a0d9f437f919e1644c6c3afd67aa452"
+    }
+  ],
+  "events": []
+}

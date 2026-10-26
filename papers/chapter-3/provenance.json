@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "chapter-3",
+  "paper": {
+    "path": "papers/chapter-3/paper.md",
+    "title": "3. The Consequences of",
+    "url": "https://papers.qnfo.org/papers/chapter-3"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "chapter-3"
+  },
+  "snapshots": [
+    {
+      "sha256": "2daff7bc2f0ff41bfdd3854a3ff2340766778d739f08d861c26f8f6a1384e33d",
+      "bytes": 34247,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "60d1a7fe0fd7a3db514b0e1c702fc2027d92af0b"
+    }
+  ],
+  "events": []
+}

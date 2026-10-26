@@ -1,9 +1,28 @@
 # qnfo-research
 
-QNFO/QWAV consolidated **program repo** — created 2026-08-04.
+QNFO/QWAV **research artifact repository**: the published papers, the pipeline runs that produced them, and the project
+repositories merged earlier. Since 2026-10-26 it is the single home of all of it: `qnfo-ensemble-research` was folded
+in with its full history (`git subtree`); the pipeline writes here from qnfo-research-exec 0.35.0.
 
-This repository aggregates the following project-level repositories (each merged via `git subtree`,
-so full commit history is preserved under its subdirectory):
+| Where | What |
+|---|---|
+| `papers/<slug>/`, `<program>/<slug>/` | a published paper (`paper.md`, `README.md`) and its `provenance.json` |
+| `runs/cycle-<N>/<slug>/` | the run that produced a paper: grounding, drafts, review, verification, `MANIFEST.json`, `ro-crate-metadata.json` |
+| `provenance/` | `known-gaps.json` (the ratchet), `IMPORT.json` (where `runs/` came from) |
+| `docs/` | `PROVENANCE-STANDARD.md`, `REPOSITORY-AUDIT-2026-10-26.md`, `RESEARCH-PROCEDURE.md` |
+| `tools/provenance.py` | `verify`, `backfill`, `reproduce`, `index` (standard library only) |
+| `schemas/` | JSON Schemas for the two record types |
+| member directories | the eight project repositories merged on 2026-08-04 (table below) |
+
+```
+python3 tools/provenance.py verify                       # integrity, completeness, linkage: exit 1 on any error
+python3 tools/provenance.py reproduce runs/cycle-396/<slug>
+python3 tools/provenance.py reproduce --all
+```
+
+Cite the repository with `CITATION.cff`; cite a paper by its address `https://papers.qnfo.org/papers/<slug>`.
+
+## Member project repositories (merged 2026-08-04, each by `git subtree`, history preserved)
 
 | Project repo | Subdirectory | Original URL |
 |---|---|---|
@@ -16,12 +35,9 @@ so full commit history is preserved under its subdirectory):
 | `solo-scientist` | `solo-scientist/` | [github.com/rwnq8/solo-scientist](https://github.com/rwnq8/solo-scientist) |
 | `macroscopic-boundary-problem` | `macroscopic-boundary-problem/` | [github.com/rwnq8/macroscopic-boundary-problem](https://github.com/rwnq8/macroscopic-boundary-problem) |
 
-## Why
-
-Consolidation aligns project-level repos with QNFO/QWAV research and development areas for easier
-provenance and recordkeeping. Original repos remain archived on GitHub (not deleted); this repo is
-the canonical home going forward.
-
 ## Provenance
 
-See [PROVENANCE.md](PROVENANCE.md) for the authoritative mapping, including DOIs and Zenodo links.
+[`docs/PROVENANCE-STANDARD.md`](docs/PROVENANCE-STANDARD.md) is the standard; [`PROVENANCE.md`](PROVENANCE.md) maps every
+original repository to where it lives now (including DOIs); the audit that led to the consolidation, with its numbers, is
+[`docs/REPOSITORY-AUDIT-2026-10-26.md`](docs/REPOSITORY-AUDIT-2026-10-26.md). Original repositories stay archived on
+GitHub, not deleted.

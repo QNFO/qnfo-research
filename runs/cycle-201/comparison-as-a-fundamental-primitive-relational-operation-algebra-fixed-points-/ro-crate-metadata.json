@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-201: comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-201",
+      "qnfo:runPath": "runs/cycle-201/comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-",
+      "qnfo:slug": "comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T04:20:59+02:00",
+      "qnfo:depositCommit": "599b63dbceeb758236128d6f5b3496f84806b60e",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-",
+      "url": "https://papers.qnfo.org/papers/comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1001.3826",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1001.3826"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1112.0343",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1112.0343"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1301.5110",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1301.5110"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.7224",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.7224"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1705.05327",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1705.05327"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1812.08594",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1812.08594"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2201.00907",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2201.00907"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2206.09465",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2206.09465"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "4dd69ab1833f9c6d0f8f1db768e77717aa70d65b9e54c32588f2136e12903fc6",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48376",
+      "sha256": "c6fb1e686c4044792f863dde0d7caa217833a9a27ebb6ba8b1d123d3af240ce5",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13406",
+      "sha256": "8c8f9ee138458dc32208391acccb709d73622e5020201002ab86f0c2c9aa595c",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6669",
+      "sha256": "1bb2577b97e1a777fc5353cc5d983de5d202aaf52bb0ec8adeb317dc3676caac",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1691",
+      "sha256": "ee0b37c64b59644eb185f37019fd6363533e0220a1e1447c22487c5ed0969774",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18153",
+      "sha256": "e2bc17927b38ea81116d74f03f47d6e3e7655605cb7f09289ccbd952b83f2df4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25219",
+      "sha256": "94b25c6684669c07753f962ec0593646cc2f9a632c4814167c9c83e2beb5fec7",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1001.3826"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1112.0343"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1301.5110"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.7224"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1705.05327"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1812.08594"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2201.00907"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2206.09465"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T04:20:59+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "09bdd6805986acc6f6d8462f9720865a47d6b75a8a140356b33e9987aaac5fc7"
+    }
+  ]
+}

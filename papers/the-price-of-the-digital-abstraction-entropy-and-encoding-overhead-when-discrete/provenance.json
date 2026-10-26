@@ -1,0 +1,79 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+  "paper": {
+    "path": "papers/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete/paper.md",
+    "title": "The Price of the Digital Abstraction: Entropy and Encoding Overhead When Discrete Error Models Meet Continuous Quantum Hardware",
+    "url": "https://papers.qnfo.org/papers/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-280/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9f856b9b37e0fec8fdbea01a60d324374fc2b96c5776fdeb29d396689e0220da"
+    },
+    {
+      "path": "runs/cycle-310/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "97173a64ad35c2571ac56d13116c796679a128a22c6efc282d0c94572d5f6b62"
+    },
+    {
+      "path": "runs/cycle-328/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "97f440910efb9635cb5229ddff6d0afc4df435580b18b959aac6a209574ba70f"
+    },
+    {
+      "path": "runs/cycle-347/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1714883a5c7814a83dd894f2265f61751705e851d020d7862b101b7674a20912"
+    },
+    {
+      "path": "runs/cycle-367/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "425606759ea3d3eda7d39fe8b78833b9f20bf8b36397f3f4d6b6dd58fd0a8628"
+    },
+    {
+      "path": "runs/cycle-373/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9148e333cac185342eb501b8d1f4462ab555667b71b03a05b7b6651ebc51dcac"
+    },
+    {
+      "path": "runs/cycle-379/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b7660326a765f6c9ba373ff48e8522c0675ca80e5a54933365c21687f091b9c3"
+    },
+    {
+      "path": "runs/cycle-91/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f7f3cc695c79ace69767f37d91bf0ae5510936093a105e82ae8204855ed291f2"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete"
+  },
+  "snapshots": [
+    {
+      "sha256": "0e3337afd770d415e3407458e1187c7eb5331abfdd4f00caa94b4ae5a00c5e70",
+      "bytes": 26532,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "e656be591de864edee1087ca9d2e02efd704bfcd"
+    }
+  ],
+  "events": []
+}

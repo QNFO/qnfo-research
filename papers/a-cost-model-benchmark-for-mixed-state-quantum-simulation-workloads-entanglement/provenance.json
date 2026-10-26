@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-cost-model-benchmark-for-mixed-state-quantum-simulation-workloads-entanglement",
+  "paper": {
+    "path": "papers/a-cost-model-benchmark-for-mixed-state-quantum-simulation-workloads-entanglement/paper.md",
+    "title": "A Cost-Model Benchmark for Mixed-State Quantum Simulation Workloads: Entanglement‑Cost Anchors and Reuse‑Aware Re‑Entry Metrics",
+    "url": "https://papers.qnfo.org/papers/a-cost-model-benchmark-for-mixed-state-quantum-simulation-workloads-entanglement"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-110/a-cost-model-benchmark-for-mixed-state-quantum-simulation-workloads-entanglement",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "67988249e958e8169057d1d61ac0d17539481558c98e72869e809ef25e778ce2"
+    },
+    {
+      "path": "runs/cycle-212/a-cost-model-benchmark-for-mixed-state-quantum-simulation-workloads-entanglement",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "36b238f47eee87cf174e07b3d9f9bf24cb6de5ea0012e6782c80cd41335e197c"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-cost-model-benchmark-for-mixed-state-quantum-simulation-workloads-entanglement"
+  },
+  "snapshots": [
+    {
+      "sha256": "d1bfd557bde24503468f4926cc2f5d90c58077982db9f008847bdeccdb195f0a",
+      "bytes": 23546,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "36c5207dcfcf8a9ad36703bbe2251933e2033c6b"
+    }
+  ],
+  "events": []
+}

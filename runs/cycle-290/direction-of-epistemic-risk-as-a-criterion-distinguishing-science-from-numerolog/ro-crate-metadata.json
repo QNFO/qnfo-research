@@ -1,0 +1,282 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-290: Direction of Epistemic Risk as a Criterion Distinguishing Science from Numerology",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-290",
+      "qnfo:runPath": "runs/cycle-290/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog",
+      "qnfo:slug": "direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog",
+      "datePublished": "2026-10-20T11:31:09+02:00",
+      "qnfo:depositCommit": "dd01b8dfe378742e4cc4ed9703a87ec24b246aa7",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Direction of Epistemic Risk as a Criterion Distinguishing Science from Numerology",
+      "url": "https://papers.qnfo.org/papers/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1211.0310",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1211.0310"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.00310",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.00310"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.05204",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.05204"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1902.04489",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1902.04489"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2107.03979",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2107.03979"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.16152",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.16152"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.25136",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.25136"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.17481",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.17481"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "78634",
+      "sha256": "daaf459290b512a5a2be57345a91cc6657cfaf5706992a18c2ec54d83ee870c8",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "877",
+      "sha256": "a609d287a895a5d32cc67a9ae1bdd6064f94a21b1a744015132a9a686e5adcb6",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23208",
+      "sha256": "0ee1501c5ded2edd083db11b962ec73afdf91eb362ac0a303af34a2ff9d9d394",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17048",
+      "sha256": "ca3afd524cfea2c8be08d672a9b42c59ea5dcdff8da928bbc4127fa1368b6f40",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1211.0310"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.00310"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.05204"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1902.04489"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2107.03979"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.16152"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.25136"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.17481"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    }
+  ]
+}

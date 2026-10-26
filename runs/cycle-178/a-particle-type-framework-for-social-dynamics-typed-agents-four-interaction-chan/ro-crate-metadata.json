@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-178: a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-178",
+      "qnfo:runPath": "runs/cycle-178/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan",
+      "qnfo:slug": "a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-18T17:34:50+02:00",
+      "qnfo:depositCommit": "09f40c7c79f3464091300737e8c9aba830582f52",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan",
+      "url": "https://papers.qnfo.org/papers/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1201.1547",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1201.1547"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.0093",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.0093"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.0284",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.0284"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.5009",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.5009"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1708.08134",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1708.08134"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2106.01750",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2106.01750"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2210.08636",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2210.08636"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.02357",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.02357"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "36aabf90952a77efd47d25c7c0125f6616348b2658ea6e871f171edc5c11f272",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "46227",
+      "sha256": "2b3a800d4b2086d41fedf6084325a1e8cdb5f0069ac88c7d2e0c3ba69519e17b",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4188",
+      "sha256": "db38a9227f417d07af23e691b23d60749e1f0757d33dde39673428dd46206276",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9925",
+      "sha256": "ef1386c370a7430d3d9983a8947711b32c94855ebe0af37b1fa84f8215dcf945",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3517",
+      "sha256": "23f86359bafd6c35d25164b2bb900089ca97928d85bcbbd975c094306f4358c9",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17704",
+      "sha256": "948696f11f618c783fea21052f38a59cf2c75e5c4a90fe5769e21574b5d8c26e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19572",
+      "sha256": "0ad5a3448f8191b07acdb236e2e3fca1e9de0c21f7bd3f3442653e15c327a0ac",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1201.1547"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1303.0093"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1303.0284"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1303.5009"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1708.08134"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2106.01750"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2210.08636"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.02357"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-18T17:34:50+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "7e41b1ef2bda23490bda8217083a81b20a8d48e9b17d143e143e1cd4e1135f99"
+    }
+  ]
+}

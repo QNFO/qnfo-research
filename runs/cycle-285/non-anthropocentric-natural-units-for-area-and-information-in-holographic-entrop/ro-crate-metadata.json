@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-285: Non‑Anthropocentric Natural Units for Area and Information in Holographic Entropy Bounds",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-285",
+      "qnfo:runPath": "runs/cycle-285/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+      "qnfo:slug": "non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T10:51:16+02:00",
+      "qnfo:depositCommit": "da996c561f2b73822b69aff092134e2fe025e88e",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Non‑Anthropocentric Natural Units for Area and Information in Holographic Entropy Bounds",
+      "url": "https://papers.qnfo.org/papers/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0704.1169",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0704.1169"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1604.01433",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1604.01433"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1902.02292",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1902.02292"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1903.00199",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1903.00199"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1912.10795",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1912.10795"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2101.11436",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2101.11436"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2310.09232",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2310.09232"
+    },
+    {
+      "@id": "https://arxiv.org/abs/astro-ph/0209615",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:astro-ph/0209615"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "875f338cc1ba4fb170ffe589455fc96c94446c127a37b11952e5bea955907046",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "70537",
+      "sha256": "2784c6875c003d592d864520b187f94d9a51461057b0f4a3878f2ae2008e89cc",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4090",
+      "sha256": "19656aaf1f8e824b015efc9692dd49f09ef00ba2efa29c1dc8ca915dc0df4c3a",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10518",
+      "sha256": "1d949ca735749bbdd9adf5d9f36d1ea60170894acc2be0ea90839f42d1f54335",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "4911",
+      "sha256": "e31edeca951159c54ff5dba59e8cfbe0f64c990bd643be99c3d3538402138b2b",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22536",
+      "sha256": "315f7c9c59698f4f5b98bdc96f116cd102b7b076b4545e2b5427437b3576547f",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28993",
+      "sha256": "136ad87ccbee8a503882fe5d63f87252113b350639152b1bb302f989d9172211",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0704.1169"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1604.01433"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1902.02292"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1903.00199"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1912.10795"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2101.11436"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2310.09232"
+        },
+        {
+          "@id": "https://arxiv.org/abs/astro-ph/0209615"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-20T10:51:16+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "b92e91e0b285f3761d5047ca2d8e459beaf1192db5959d514a4258004f7b6345"
+    }
+  ]
+}

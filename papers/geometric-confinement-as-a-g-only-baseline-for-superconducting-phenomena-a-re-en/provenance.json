@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "geometric-confinement-as-a-g-only-baseline-for-superconducting-phenomena-a-re-en",
+  "paper": {
+    "path": "papers/geometric-confinement-as-a-g-only-baseline-for-superconducting-phenomena-a-re-en/paper.md",
+    "title": "Geometric Confinement as a G-Only Baseline for Superconducting Phenomena: A Re-Entry Analysis of the QNFO Geometric Unification Framework",
+    "url": "https://papers.qnfo.org/papers/geometric-confinement-as-a-g-only-baseline-for-superconducting-phenomena-a-re-en"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-139/geometric-confinement-as-a-g-only-baseline-for-superconducting-phenomena-a-re-en",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9fb091461f92f0e915fe577af9e41a10b8080c0d786c9acc75e2db18b36e6d63"
+    },
+    {
+      "path": "runs/cycle-72/geometric-confinement-as-a-g-only-baseline-for-superconducting-phenomena-a-re-en",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e7932f17585fa05204b98c79e6624b129bcf94a29df2aa9019a10d72ad1a4d53"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "geometric-confinement-as-a-g-only-baseline-for-superconducting-phenomena-a-re-en"
+  },
+  "snapshots": [
+    {
+      "sha256": "430828b6d79f32a405cf4a9eb51ee3aba2598d91533c00b8573eaf2ebb5cd5e2",
+      "bytes": 48686,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "6bf3a1624861e398f964886502feed97848c70d9"
+    }
+  ],
+  "events": []
+}

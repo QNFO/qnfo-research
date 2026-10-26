@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "gate-check-convergence-a-benchmark-protocol-for-measuring-cross-model-agreement-",
+  "paper": {
+    "path": "papers/gate-check-convergence-a-benchmark-protocol-for-measuring-cross-model-agreement-/paper.md",
+    "title": "Retracted: Gate-Check Convergence: A Benchmark Protocol and Statistical Design for Measuring Cross-Model Agreement on Fringe Physics Claims",
+    "url": "https://papers.qnfo.org/papers/gate-check-convergence-a-benchmark-protocol-for-measuring-cross-model-agreement-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-141/gate-check-convergence-a-benchmark-protocol-for-measuring-cross-model-agreement-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f40760837f025d319574884657dd6b7fbec6d8299939a8ac8af5b45de0b3f7eb"
+    },
+    {
+      "path": "runs/cycle-64/gate-check-convergence-a-benchmark-protocol-for-measuring-cross-model-agreement-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "7f229b8b6ab87756f4c3fa8782c8bc93ecf1e7817cdaae6231e159ca0c552830"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "gate-check-convergence-a-benchmark-protocol-for-measuring-cross-model-agreement-"
+  },
+  "snapshots": [
+    {
+      "sha256": "556222eded48b885df8e18d25635a22ed082ea50bc2bda8cd77767bf041acf0b",
+      "bytes": 1958,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "9dcb3362f90f27a34063b8b5065cae81cf2371b9"
+    }
+  ],
+  "events": []
+}

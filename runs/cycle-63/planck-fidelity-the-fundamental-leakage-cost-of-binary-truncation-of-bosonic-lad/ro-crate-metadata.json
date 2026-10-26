@@ -1,0 +1,401 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-63: Planck Fidelity: The Fundamental Leakage Cost of Binary Truncation of Bosonic Ladders",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-63",
+      "qnfo:runPath": "runs/cycle-63/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad",
+      "qnfo:slug": "planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-10T14:46:43+02:00",
+      "qnfo:depositCommit": "7cd8997f221821112f236c9e5cc13b9a337eb52d",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Planck Fidelity: The Fundamental Leakage Cost of Binary Truncation of Bosonic Ladders",
+      "url": "https://papers.qnfo.org/papers/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1101.2022",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1101.2022"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1101.2044",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1101.2044"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.5070",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.5070"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.5088",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.5088"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1303.5089",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.5089"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1505.08022",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1505.08022"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1507.02058",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1507.02058"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "62d75b88459bd42f2b699d990cc7a56779322cf04c2b2c461f9ca992cecefb90",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10843",
+      "sha256": "68485c62d582a7491ee5ce5267e0f99506fbd6705b9f7b862a80df22ef52bd40",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1503",
+      "sha256": "9671179be0e5492e70f943e27f1eaa2c0df054f08dbd32433698242dfe5c5689",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4020",
+      "sha256": "b33855cf3b0f724fb7c8d5f6c42c84746acc35ea40fed0d4857f0437e78cb7c3",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1863",
+      "sha256": "eccdcf019c441b41dd02438632c8b00a94ead8352cfe16f52ea140764f92fbb4",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15676",
+      "sha256": "435acaea5a9f81c31dc45f14d070fbafd0e55ca5aa7291435b21f313d4c43977",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20875",
+      "sha256": "71163f3723acf9a4136d05e3e2907e794d1d8442acc7c1150ea662c29060697b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24303",
+      "sha256": "e481cb65c0ec0db18ca2be933bab7597fd4085b66d10dbd507cfa59b6de189ef",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1101.2022"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1101.2044"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1303.5070"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1303.5088"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1303.5089"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1505.08022"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1507.02058"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-10T14:46:43+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "945fcb242fc7d2f592504d863d318484cd351f616cec23630b27173d64e09832"
+    }
+  ]
+}

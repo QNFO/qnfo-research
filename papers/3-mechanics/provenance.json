@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "3-mechanics",
+  "paper": {
+    "path": "papers/3-mechanics/paper.md",
+    "title": "Implied Discretization and the Limits of Modeling Continuous Reality",
+    "url": "https://papers.qnfo.org/papers/3-mechanics"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758570",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "3-mechanics"
+  },
+  "snapshots": [
+    {
+      "sha256": "f0a7d0212fb4a9f56da287afaa63ebd8d5757e3afcd20c611b255037e0093998",
+      "bytes": 29434,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "e66f3452cfd8b4efdb35953613f716fe07500e20"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "structured-cross-domain-translation-as-a-testable-consilience-mechanism-protocol",
+  "paper": {
+    "path": "papers/structured-cross-domain-translation-as-a-testable-consilience-mechanism-protocol/paper.md",
+    "title": "Structured Cross‑Domain Translation as a Testable Consilience Mechanism: Protocol Design, Truth‑Preservation Conditions, and Analytical Evaluation",
+    "url": "https://papers.qnfo.org/papers/structured-cross-domain-translation-as-a-testable-consilience-mechanism-protocol"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-348/structured-cross-domain-translation-as-a-testable-consilience-mechanism-protocol",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ef321b7e941a817a169048b25b817b2f3b2093d53e0fe63dda8fcde45ed71496"
+    },
+    {
+      "path": "runs/cycle-79/structured-cross-domain-translation-as-a-testable-consilience-mechanism-protocol",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b9eec8dd5a3dd20d3cf6914d6ba0fad00d1fefd038860cb913fcc69b09e9578e"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "structured-cross-domain-translation-as-a-testable-consilience-mechanism-protocol"
+  },
+  "snapshots": [
+    {
+      "sha256": "10471d39a3ea386cd29f1f487c28d30017750625c7b254f0a63c805c81790308",
+      "bytes": 35719,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "b2f52d691359ccc613a1d8231d22dc66e7c1a8e4"
+    }
+  ],
+  "events": []
+}

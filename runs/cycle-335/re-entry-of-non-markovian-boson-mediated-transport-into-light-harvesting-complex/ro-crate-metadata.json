@@ -1,0 +1,454 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-335: Re‑Entry of Non‑Markovian Boson‑Mediated Transport into Light‑Harvesting Complexes: A Timescale‑Based Applicability Analysis",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-335",
+      "qnfo:runPath": "runs/cycle-335/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "qnfo:slug": "re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T06:01:26+02:00",
+      "qnfo:depositCommit": "4ee41c2041d4dcce804a3918c91b5301a6bab3f1",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Re‑Entry of Non‑Markovian Boson‑Mediated Transport into Light‑Harvesting Complexes: A Timescale‑Based Applicability Analysis",
+      "url": "https://papers.qnfo.org/papers/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0901.4454",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0901.4454"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0905.3787",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0905.3787"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0910.4153",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0910.4153"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0912.5112",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0912.5112"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.0496",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.0496"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1012.4059",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1012.4059"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1111.5443",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1111.5443"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1307.0886",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1307.0886"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1312.5352",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1312.5352"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1408.2726",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1408.2726"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1511.04936",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1511.04936"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1801.04924",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1801.04924"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1804.09711",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1804.09711"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.03435",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.03435"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2501.02212",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2501.02212"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.13813",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.13813"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "a9eeeb42a9deab702162ecc154e32316a114f1365830de5f3e66967167f54652",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "84252",
+      "sha256": "198e089a740b5e43a404bdfbe950da47ab317612e540b0899c39967e53624ab9",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3433",
+      "sha256": "ad581f72614bfdbb23da8753527557f201ffce44f7b9bcaa73fcc4fecc4b4394",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8510",
+      "sha256": "b048f78854de9b64257b06a2947b0c487a4fb7f9800001e90b1e369a8f083457",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3048",
+      "sha256": "a2a650e65c6d1a8f8813175b73400dd17e162da026e5592607b1ee6692f6b0c8",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23161",
+      "sha256": "8c5f39edbb0b80f9f8a08c9f22f1016c036f69ebc628947547867e1c4b3055ef",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21586",
+      "sha256": "94f5429186fc63eb29b24c5809a629e4648a074ac260f11c6a256332ed02fc5c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0901.4454"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0905.3787"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0910.4153"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0912.5112"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1002.0496"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1012.4059"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1111.5443"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1307.0886"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1312.5352"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1408.2726"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1511.04936"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1801.04924"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1804.09711"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.03435"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2501.02212"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.13813"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T06:01:26+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "0d4681fae5a84bad05081b55eea5f5a67f9d1dcf1f719afc6658ed74c938067f"
+    }
+  ]
+}

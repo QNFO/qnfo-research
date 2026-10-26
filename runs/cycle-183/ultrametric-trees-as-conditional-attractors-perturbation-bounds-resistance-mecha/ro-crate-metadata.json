@@ -1,0 +1,398 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-183: ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-183",
+      "qnfo:runPath": "runs/cycle-183/ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha",
+      "qnfo:slug": "ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-18T18:51:36+02:00",
+      "qnfo:depositCommit": "5c9b98cd03f4ea6555bb4c74da65f8757bf7ac0d",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha",
+      "url": "https://papers.qnfo.org/papers/ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0809.0492",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0809.0492"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.3951",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.3951"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.08246",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.08246"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1702.07916",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1702.07916"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1902.05141",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1902.05141"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.10209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.10209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2009.11481",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2009.11481"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2403.08503",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2403.08503"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2506.03853",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2506.03853"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "41650c026c2a908dbb1c4d4c59030211d854b5fbbb24b82396be885b50fe5494",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "61089",
+      "sha256": "cdfa83516abcf00782059f0524c9da37a9f8b24b72373aa12b8eaa88f44f810b",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "135",
+      "sha256": "2242723c7a790f43bbd0801c3679212dc3342e3b134d5bc392f711ff23392344",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6345",
+      "sha256": "51623880298b710a1420b547b9d907af2a5954ba9b7c97e60b86530dd7c8378a",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2677",
+      "sha256": "da334617ee395c6985ccc7b65f736704ca23ba975677eb3786e0b96026d58a50",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21610",
+      "sha256": "b89ade6a4b195ffa95315a51208ea0a9ed113761c806665659b78aa0807098f8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17486",
+      "sha256": "4a19954aa193213425ddd74b3902da462c7c9cdd4c43e5904983f3f9e6f0da23",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0809.0492"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1002.3951"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.08246"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1702.07916"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1902.05141"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.10209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2009.11481"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2403.08503"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2506.03853"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-18T18:51:36+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "3fd7210bb395213edd987df701d9b9de85bd01773971a15eea319bbc19edb829"
+    }
+  ]
+}

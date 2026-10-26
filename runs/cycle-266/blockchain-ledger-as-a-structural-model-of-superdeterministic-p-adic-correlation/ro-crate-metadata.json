@@ -1,0 +1,414 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-266: blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-266",
+      "qnfo:runPath": "runs/cycle-266/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation",
+      "qnfo:slug": "blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T06:01:18+02:00",
+      "qnfo:depositCommit": "0e421e9d49527233a11e997f43d04e175ce66f22",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation",
+      "url": "https://papers.qnfo.org/papers/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.01081",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.01081"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1904.00315",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1904.00315"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2009.00319",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2009.00319"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.10616",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.10616"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2206.04141",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2206.04141"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2312.00281",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2312.00281"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.07230",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.07230"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.07938",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.07938"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2506.11405",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2506.11405"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.06217",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.06217"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.02947",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.02947"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "878",
+      "sha256": "2c47e23179edaf882fd1684ba76b8eb4ae1d3096a52a5083b0b441ce88974d42",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "54493",
+      "sha256": "a5ac3009cdb6e69cab42ca9d05c87102c670060612892ff33b8502ffea54d1d7",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "38",
+      "sha256": "f71b06a86703a25505b33f002d6a456f67981b72602c3aff7b38f12b13cb69d1",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6151",
+      "sha256": "552b952490a5386640158e7fca8965bfe8b383ca449c1f6e94269c4c67948d9e",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2280",
+      "sha256": "5628912f2bd442681ac18059be4df8e05129a8f10eaec2fa11d0c3b93698393b",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21446",
+      "sha256": "908790440eaf333c519b1d9816a93ca152eb5b4a10eed2e696b868b214a2376e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23044",
+      "sha256": "6c37c557697edb3696ac2f347e521ff697391b0fed4b5824d66e595b25ff1849",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1805.01081"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1904.00315"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2009.00319"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.10616"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2206.04141"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2312.00281"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.07230"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.07938"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2506.11405"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.06217"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.02947"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-20T06:01:18+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "9a3d0ebc724e2d10a928ba7314ebc7d3f36c46731a0a95fdaef9703d723181c1"
+    }
+  ]
+}

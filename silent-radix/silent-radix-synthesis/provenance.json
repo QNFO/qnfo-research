@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "silent-radix-synthesis",
+  "paper": {
+    "path": "silent-radix/silent-radix-synthesis/paper.md",
+    "title": "Silent-Radix Cryptography:",
+    "url": "https://papers.qnfo.org/papers/silent-radix-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22756835",
+        "source": "README.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "silent-radix-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "5e5878bcf7409acd5df9dad3404e82dab4b578cd45b1222b57a9f9e579cbcfd1",
+      "bytes": 14213,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "e3a1322ac934475831d44ae6fb645af999067195"
+    }
+  ],
+  "events": []
+}

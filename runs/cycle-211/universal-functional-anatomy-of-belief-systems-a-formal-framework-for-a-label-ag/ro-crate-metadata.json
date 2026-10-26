@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-211: universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-211",
+      "qnfo:runPath": "runs/cycle-211/universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag",
+      "qnfo:slug": "universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T08:20:58+02:00",
+      "qnfo:depositCommit": "0774e3a7e1589fefff3119f406fe089d460ca0ad",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag",
+      "url": "https://papers.qnfo.org/papers/universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1708.02798",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1708.02798"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1812.00143",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1812.00143"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1904.05264",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1904.05264"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.00715",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.00715"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2210.04535",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2210.04535"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2302.11360",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2302.11360"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.00440",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.00440"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.22480",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.22480"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "b003c716620b14594fca06853a73c972b6420f81169cae6dc5d827df2b27b344",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "35856",
+      "sha256": "fd73b6e2449acfc4d014abdbc710f4b86b94672f9c9486d8d482a62d7be0cc33",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3524",
+      "sha256": "6e247921ba28692bae6469d6b34b4b2f77a7be0bac0a246bd42dd5b84b5e5fb3",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11257",
+      "sha256": "e11384ce7573dc2a856d9ad53b411c9679fe3ed7f0c4d6336c9dbe57518ef7ac",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "4955",
+      "sha256": "4efa263400a2fddc708c69af3a126446e44667b848608ee435212575e5835755",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19503",
+      "sha256": "dd75704833325bf425a5d636e7e74abeeb4119b2c10095f4bc81b51953484690",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29465",
+      "sha256": "b6fa371a44c317a7021a87da2719a4956093722728c651452bce9bf396ae3a52",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1708.02798"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1812.00143"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1904.05264"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.00715"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2210.04535"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2302.11360"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.00440"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.22480"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T08:20:58+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "852886e43328e02efd145077f8f5b9d5f979cc18188bf98c1786810b325cd43b"
+    }
+  ]
+}

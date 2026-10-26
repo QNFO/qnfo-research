@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-number-builder-enclosure-sequences-in-the-laws-of-form-calculus-as-a-constru",
+  "paper": {
+    "path": "papers/the-number-builder-enclosure-sequences-in-the-laws-of-form-calculus-as-a-constru/paper.md",
+    "title": "The Number Builder: Enclosure Sequences in the Laws of Form Calculus as a Constructive Route to Computable Reals",
+    "url": "https://papers.qnfo.org/papers/the-number-builder-enclosure-sequences-in-the-laws-of-form-calculus-as-a-constru"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-336/the-number-builder-enclosure-sequences-in-the-laws-of-form-calculus-as-a-constru",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "22fab7a219ae880bf6f7d4f182d45a06d508598f1d2f5cc859d84ea1fa72c7ee"
+    },
+    {
+      "path": "runs/cycle-38/the-number-builder-enclosure-sequences-in-the-laws-of-form-calculus-as-a-constru",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "c485934fbcdea7e65ba439f357b0f7b4bce5862ed04b4e23c95d7469229acdfd"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-number-builder-enclosure-sequences-in-the-laws-of-form-calculus-as-a-constru"
+  },
+  "snapshots": [
+    {
+      "sha256": "74d39ea305a844c59c81f00bea4c1085c1c676594e1223abffc208c9b29d55d6",
+      "bytes": 27401,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "0de8ac08d8bb3bc8cf7bd11ed14df5c45b72dcdd"
+    }
+  ],
+  "events": []
+}

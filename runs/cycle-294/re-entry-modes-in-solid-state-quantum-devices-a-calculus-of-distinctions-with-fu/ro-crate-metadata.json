@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.12.3",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.3"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-294: Re‑Entry Modes in Solid‑State Quantum Devices: A Calculus of Distinctions with Fully Shown Quantitative Benchmarks",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-294",
+      "qnfo:runPath": "runs/cycle-294/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu",
+      "qnfo:slug": "re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T12:41:18+02:00",
+      "qnfo:depositCommit": "7114df3b6a1cc58cb110184d9185d76059c7efc0",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Re‑Entry Modes in Solid‑State Quantum Devices: A Calculus of Distinctions with Fully Shown Quantitative Benchmarks",
+      "url": "https://papers.qnfo.org/papers/re-entry-modes-in-solid-state-quantum-devices-a-calculus-of-distinctions-with-fu"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0803.3568",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0803.3568"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1104.4637",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1104.4637"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.07275",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.07275"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2602.12608",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2602.12608"
+    },
+    {
+      "@id": "https://arxiv.org/abs/cond-mat/0402326",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:cond-mat/0402326"
+    },
+    {
+      "@id": "https://arxiv.org/abs/cond-mat/0506412",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:cond-mat/0506412"
+    },
+    {
+      "@id": "https://arxiv.org/abs/cond-mat/9805224",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:cond-mat/9805224"
+    },
+    {
+      "@id": "https://arxiv.org/abs/cond-mat/9811273",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:cond-mat/9811273"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "881",
+      "sha256": "f01a944860773314c768f827b61e3f137cc4818f50e6728d8e3ce3dd8152d554",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "53180",
+      "sha256": "65de43efc4feb71b7cdc409e8d990a91d94509c469a2b9c2a59f40b4a40f11e1",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3636",
+      "sha256": "838cf3d778ae59683949745099262fdf4318516234254b33e8afda491fb61ccf",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10038",
+      "sha256": "b0053be5e1701e4311e13672240aadb7072988616d4dc83168d2272ccfef78ce",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3149",
+      "sha256": "ada4fc53ecc610c6f07cc50761e04d12d3c69c07233d0337f41901f33f4f8fd2",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23060",
+      "sha256": "89579d8e7b23e7c43d85998f53cb676f9621674fa51a00ae75b123a67a83f3b6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24869",
+      "sha256": "307073a9e824f5c2067f7991e05e84e1bed5c7a548ae280d36518ad99f12f4fc",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0803.3568"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1104.4637"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.07275"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2602.12608"
+        },
+        {
+          "@id": "https://arxiv.org/abs/cond-mat/0402326"
+        },
+        {
+          "@id": "https://arxiv.org/abs/cond-mat/0506412"
+        },
+        {
+          "@id": "https://arxiv.org/abs/cond-mat/9805224"
+        },
+        {
+          "@id": "https://arxiv.org/abs/cond-mat/9811273"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-20T12:41:18+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.3"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "24a664da2706e03559ec9b30a15578a4170c55a782aebffd38949dc5deb507ff"
+    }
+  ]
+}

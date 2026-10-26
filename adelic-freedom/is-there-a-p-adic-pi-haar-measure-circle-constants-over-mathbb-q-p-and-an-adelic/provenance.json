@@ -1,0 +1,55 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+  "paper": {
+    "path": "adelic-freedom/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic/paper.md",
+    "title": "Is There a $p$‑Adic $\\pi$? Haar‑Measure Circle Constants over $\\mathbb{Q}_p$, an Adelic Product Formula, and a Test of the Corpus Conjecture $\\pi_p=(p-1)/p$",
+    "url": "https://papers.qnfo.org/papers/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-291/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9696aab8472788e27ba2fd876fe42227dbe9b1dc8df33e0dd8b2202b8333a056"
+    },
+    {
+      "path": "runs/cycle-372/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2065da3282df407e71e3088c2bfa2fe31bf56a185dc9c7a496a5ad2d5ef62f39"
+    },
+    {
+      "path": "runs/cycle-377/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "39f50467c372450d0d6cd0bfa016792248235a11b4f4bf6f0f4ae12c6817d976"
+    },
+    {
+      "path": "runs/cycle-58/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "242d0fd78c6244ac82113f4dd1f35cdaa0746af9e586b0054ca6b1fa18679e38"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic"
+  },
+  "snapshots": [
+    {
+      "sha256": "230d393b2c39536d07edb2ebb42f684f2a5acaa8702b9a3cbc25867d26ee492c",
+      "bytes": 22997,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "a18059d2d6f3a0398159332a5d78c83c1d94325a"
+    }
+  ],
+  "events": []
+}

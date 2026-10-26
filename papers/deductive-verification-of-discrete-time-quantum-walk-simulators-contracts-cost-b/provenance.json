@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b",
+  "paper": {
+    "path": "papers/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b/paper.md",
+    "title": "Deductive Verification of Discrete‑Time Quantum‑Walk Simulators: Contracts, Cost Bounds, and Extensions to Graph‑Generalized and Open‑System Walks",
+    "url": "https://papers.qnfo.org/papers/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-218/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    },
+    {
+      "path": "runs/cycle-87/deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "228febfabd067d935724977e0003866855d6b0c880fd99ff6214806593516602"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "deductive-verification-of-discrete-time-quantum-walk-simulators-contracts-cost-b"
+  },
+  "snapshots": [
+    {
+      "sha256": "ed5f01d51235103f6018891b8a09042ed8619921eb7910e4aaa5b14034486507",
+      "bytes": 32329,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "bd6f1634e6dbb86f74d7308630c806085b8aed63"
+    }
+  ],
+  "events": []
+}
