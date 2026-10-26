@@ -266,10 +266,3 @@ By propagating the reported heavy‑fluxonium lifetime and logical‑lifetime ex
 [11] Single-tone drive-enhanced CROT gate for bosonic quantum error correction. arXiv:2609.07076. https://arxiv.org/abs/2609.07076
 [13] https://papers.qnfo.org/papers/falsifying-geometrically-inspired-quantum-error-correcting-codes-via-distinct-lo. QNFO: Falsifying Geometrically Inspired Quantum Error‑Correcting Codes via Distinct Logical‑Error Scaling.
 [14] https://papers.qnfo.org/papers/qnr-justification-memo. QNFO: The ℚ-vs-ℝ Question: Why Physical Law Requires Only the Rational Numbers.
-
-## Appendix A. Divergence report
-
-| Divergent claim | Draft A statement | Draft B statement | Chosen convention for main text |
-|-----------------|-------------------|-------------------|---------------------------------|
-| Content of citation [11] | “Reference [11] analyzes two‑level error correction for multi‑spin molecular qubits, where fast pure dephasing ($T_2$) coexists with slower energy relaxation ($T_1$) …” | “Reference [11] identifies the two‑mode controlled‑rotation (CROT) gate as the critical correction primitive for rotation‑symmetric bosonic codes …” | Adopt the molecular‑qubit description (Draft A) because it directly supports the cross‑platform error‑hierarchy analogy used in Section 4. |
-| Inclusion of measurement‑finitude discussion | No mention of measurement‑finitude. | “Reference [14] argues that all physical measurements produce finite‑precision rational numbers …” | Retain the measurement‑f

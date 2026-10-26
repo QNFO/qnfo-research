@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "positional-notation-as-a-native-ultrametric-geometry-of-nested-cycles",
+  "paper": {
+    "path": "silent-radix/positional-notation-as-a-native-ultrametric-geometry-of-nested-cycles/paper.md",
+    "title": "Positional Notation as a Native Ultrametric Geometry of Nested Cycles",
+    "url": "https://papers.qnfo.org/papers/positional-notation-as-a-native-ultrametric-geometry-of-nested-cycles"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "positional-notation-as-a-native-ultrametric-geometry-of-nested-cycles"
+  },
+  "snapshots": [
+    {
+      "sha256": "15cf0cc7b7b323610ffe225012edcb2875c4d71ea56c93ccbd3f2520297e9b98",
+      "bytes": 30597,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

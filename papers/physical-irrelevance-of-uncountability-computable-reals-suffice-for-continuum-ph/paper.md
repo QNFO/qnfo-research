@@ -292,22 +292,3 @@ We have shown that the computable reals $\mathbb{R}_c$ are countable, dense, and
 [10] https://papers.qnfo.org/papers/continuum-trilogy-01-computable-continuum. QNFO: The Computable Continuum: Depth Without Breadth.
 [11] https://papers.qnfo.org/papers/qnr-justification-memo. QNFO: The ℚ-vs-ℝ Question: Why Physical Law Requires Only the Rational Numbers.
 [12] https://papers.qnfo.org/papers/continuum-trilogy-03-unified-ontology. QNFO: Depth, Breadth, and Valuation: A Unified Ontology of the Physical Continuum.
-
-## Appendix A. Divergence report
-
-| Divergence | Draft A side | Draft B side | Chosen convention / justification |
-|------------|--------------|--------------|-----------------------------------|
-| Citation of entry [12] 
-| Program‑count convention in Claim 1 | Uses $P(n)=2^{n+1}-1$ including the empty program; notes the alternative $2^{n+1}-2$ as a footnote. | Uses the same $P(n)=2^{n+1}-1$ and mentions the alternative convention in a parenthetical remark. | Convergent – both adopt $2^{n+1}-1$ as the primary count; the alternative is retained as a note. |
-| Presentation of the digital‑acquisition projection | Provides the parameter list and notes they are illustrative assumptions. | Provides the same parameter list and explicitly labels them as assumptions of the projection. | Convergent – wording merged; both remain as assumptions. |
-| Phrase “computable surrogate” definition | Defined in Section 3.4 as a theory over $\mathbb{R}_c$ (or $\mathbb{Q}$) that agrees on computable inputs. | Same definition, placed in Section 3.4. | Convergent – identical. |
-| Use of “breadth” terminology | Cites [9] for “breadth” and notes it contributes zero bits. | Cites [9] similarly and adds a reference to [11] for measurement‑finitude. | Convergent – both citations retained; the additional citation to [11] is kept. |
-| Statement of the “smallest next test” | Described as a benchmark calculation for a damped harmonic oscillator. | Described as a benchmark calculation for a standard continuum system with a closed‑form observable. | Divergent – the specific system is not supplied by any source. The reconciled version adopts the more general wording (“standard continuum system with a closed‑form observable”) to avoid inventing a specific system. |
-| Length of the “Limitations list” | Draft A lists six items; Draft B lists the same six items with identical wording. | Same. | Convergent – retained unchanged. |
-
-No other substantive divergences were identified. All other statements are convergent across the drafts.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement (as in paper) | Source draft(s) | Agreement status |
-|----------|--------------------------|----------------

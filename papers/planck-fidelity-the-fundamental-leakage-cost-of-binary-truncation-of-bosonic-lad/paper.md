@@ -252,37 +252,6 @@ We report only (i) quantities computed in Section 4 and (ii) projections with st
 
 We have formalized the Planck Fidelity conjecture: binary truncation of a discrete-but-unbounded bosonic ladder incurs a materials-independent leakage $L_P > 0$ for any finite-time gate, because the drive couples all levels through $a^\dagger$ with matrix elements $\sqrt{n+1}$ that never vanish. We showed that in the harmonic limit the second-order leakage probability $L_P^{(2)} = \theta^4/2$ exceeds unity for a $\pi$-pulse ($3.0440341$), so the binary register is incompatible with an uncorrected harmonic oscillator; that finite anharmonicity suppresses the leakage to a gate-averaged $\overline{L_2} = 0.01$ at $\Omega/|\alpha| = 0.05$ under the first-order bound, with the exact three-level peak $P_{2,\max} = 1.96 \times 10^{-2}$ at $r = 0.1$; and that the radix-truncation entropy is exactly $S_{\mathrm{Base}}(12) = \ln 6 = 1.7917595$ nats $= 2.5849625$ bits, a discarded-information fraction of $72.1\%$. The transmon is best regarded as a qudit; the qubit is an approximation whose entropy cost we have made explicit. The remaining gap — a rigorous lower bound — is the natural next step, and the conjecture stands or falls on the falsifiable leakage-floor test of Section 4.4.
 
-
-
-## Appendix A. Divergence report
-
-**D1 (leakage bound).** Draft A claimed a universal lower bound $L_P \geq 1/d$ derived from a uniform-amplitude argument, and reported simulated leakage values ($0.25, 0.17, 0.13, 0.10, 0.083$ for $d = 4, 6, 8, 10, 12$) from numerical diagonalisation. Drafts B and C instead derived a perturbative scaling estimate and explicitly reported no simulation results. The disagreement stems from a methodological convention: Draft A treated the $1/d$ bound as derivable and its simulations as executed, while Drafts B and C held that no rigorous bound or simulation was available. Resolution: the main text follows Drafts B and C, because the $1/d$ "bound" is not actually a lower bound (a state concentrated in $\{|0\rangle,|1\rangle\}$ has $L_P = 0$ in a $d$-level space; the uniform-distribution argument bounds nothing), and because Draft A's simulation numbers cannot be verified. Draft A's simulation table is dropped entirely.
-
-**D2 (bits conversion).** Draft B reported $S_{\mathrm{Base}}(12) \approx 2.5840$ bits; Draft C reported $2.5850$ bits. The conflict is a rounding convention: the exact conversion is $1.7917595/0.6931472 = 2.5849625$ bits, so Draft B's $2.5840$ was a rounding error rather than a different calculation. Resolution: the main text adopts $2.5849625$ bits.
-
-**D3 (leakage formula choice).** Draft B used the crude projection $L_P^{(\mathrm{est})} \approx (\Omega/\alpha)^2$ with its value $1.0 \times 10^{-2}$ at $\Omega/\alpha = 0.1$; Draft C used the explicit first-order bound $L_2 = 8(\Omega/|\alpha|)^2 \sin^2(\alpha T_g/2)$ of [9] with its gate-averaged value $0.01$ at $\Omega/|\alpha| = 0.05$. The conventions differ in which operating point and which formula is headline. Resolution: the main text presents both, treats the explicit bound of [9] as the more conservative figure, and reports the crude projection as a consistency check (Section 4.2).
-
-## Appendix B. Claim attribution
-
-| ID | Claim | Source drafts | Agreement status |
-|---|---|---|---|
-| C1 | The transmon is a weakly anharmonic oscillator with a discrete but unbounded ladder; the binary register is imposed by truncation, and leakage $L_P$ is population outside $\mathrm{span}\{|0\rangle,|1\rangle\}$ | A, B, C | CONVERGENT |
-| C2 | Planck Fidelity conjecture: $L_P > 0$ for any finite-time gate with nonzero drive, as a property of the encoding rather than of fabrication | A, B, C | CONVERGENT |
-| C3 | Harmonic-limit second-order leakage $L_P^{(2)} = \theta^4/2$, evaluating to $3.0440341$ for a $\pi$-pulse and signaling perturbative breakdown | B, C | CONVERGENT |
-| C4 | First-order leakage bound $L_2 = 8(\Omega/|\alpha|)^2 \sin^2(\alpha T_g/2)$ with gate-averaged value $0.01$ at $\Omega/|\alpha| = 0.05$, adopted from [9] and re-derived with shown arithmetic | B, C | CONVERGENT |
-| C5 | Universal lower bound $L_P \geq 1/d$ plus simulated leakage values ($0.25, 0.17, 0.13, 0.10, 0.083$ for $d = 4, 6, 8, 10, 12$) from numerical diagonalisation | A | DIVERGENT (rejected; see Appendix A, D1) |
-| C6 | Exact three-level leakage $P_{2,\max} = 2r^2/(1+2r^2)$ and $\overline{P}_2 = r^2/(1+2r^2)$, evaluated at $r = 0.1$ giving $1.96 \times 10^{-2}$ and $9.80 \times 10^{-3}$, with $t_\pi = 25$ ns at $f_\Omega = 20$ MHz | B, C | CONVERGENT |
-| C7 | Approximation entropy $S_{\mathrm{Base}} = \ln(d/2)$ with $d = 12$ from [11], evaluated as $\ln 6 = 1.7917595$ nats | A, B, C | CONVERGENT |
-| C8 | Bits conversion of $S_{\mathrm{Base}}(12)$ | B, C | DIVERGENT (resolved as $2.5849625$ bits; see Appendix A, D2) |
-| C9 | Headline leakage figure: crude projection $L_P^{(\mathrm{est})} \approx (\Omega/\alpha)^2$ at $\Omega/\alpha = 0.1$ versus explicit bound of [9] at $\Omega/|\alpha| = 0.05$ | B, C | DIVERGENT (both retained; explicit bound treated as more conservative; see Appendix A, D3) |
-| C10 | Discarded-information fraction $f_{\mathrm{disc}} = \ln 6 / \ln 12 = 0.721057$, i.e. $72.1\%$ of the ladder's $\ln 12$ content discarded by binary truncation | B, C | CONVERGENT |
-| C11 | Planck Fidelity metric $F_P = 1 - \overline{L_P}$ referenced to the full untruncated evolution, with the reference subspace stated alongside the metric, following the calibration-reference practice of [8] | B, C | CONVERGENT |
-| C12 | Analogical use of the Planck CMB mission literature [1]–[8], with every statement about them drawn from their own texts and their role flagged as analogical each time | B, C | CONVERGENT |
-| C13 | Falsifiability of the conjecture via persistence of a leakage floor as materials-limited errors are suppressed, compatible in spirit with the calorimetric protocol of [11] | A, B, C | CONVERGENT |
-| C14 | Model-class scoping of the conjecture: finite-time, finite-amplitude drives of the stated $a^\dagger$-form under the rotating-wave approximation, with shaped envelopes nulling first-order leakage only at isolated, measure-zero parameter points | B, C | CONVERGENT |
-| C15 | Radix decision (qubit versus base-$d$ qudit register per oscillator) enters the architecture trade space, with the $\approx 2.58$ bits per $d = 12$ oscillator as the capacity at stake | B, C | CONVERGENT |
-| C16 | No simulation or experimental results reported; the Planck Fidelity benchmark and the three-level numerical check are specified as the designated next tests | B, C | CONVERGENT |
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
