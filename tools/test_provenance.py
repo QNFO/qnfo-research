@@ -360,10 +360,12 @@ class TestReproduce(unittest.TestCase):
         self.assertEqual(pv.compare_record("b\n\n[exit 0]", ok), "not-reproduced")
         self.assertEqual(pv.compare_record(None, ok), "no-recorded-output")
         bad = pv.reexecute("import math\nmath.log(-1)")
-        rec = "\n[stderr]\nTraceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nValueError: math domain error\n\n[exit 1]"
+        # the same exception type with different wording, as one interpreter version words it against another
+        rec = "\n[stderr]\nTraceback (most recent call last):\n  File \"<string>\", line 2, in <module>\nValueError: wording recorded by another interpreter version\n\n[exit 1]"
         self.assertEqual(pv.compare_record(rec, bad), "reproduced-equivalent",
                          "an interpreter-version traceback layout difference is not a failure to reproduce")
         self.assertEqual(pv.compare_record(rec.replace("ValueError", "KeyError"), bad), "not-reproduced")
+        self.assertEqual(pv.compare_record(rec.replace("[exit 1]", "[exit 2]"), bad), "not-reproduced", "a different exit code is a failure to reproduce")
         self.assertEqual(pv.compare_record("x", {"timeout": True}), "timeout")
 
     def test_split_record(self):
