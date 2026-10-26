@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cascading-bayesian-dependency-model-of-scientific-paradigm-transitions",
+  "paper": {
+    "path": "papers/cascading-bayesian-dependency-model-of-scientific-paradigm-transitions/paper.md",
+    "title": "Cascading Bayesian Dependency Model of Scientific Paradigm Transitions",
+    "url": "https://papers.qnfo.org/papers/cascading-bayesian-dependency-model-of-scientific-paradigm-transitions"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cascading-bayesian-dependency-model-of-scientific-paradigm-transitions"
+  },
+  "snapshots": [
+    {
+      "sha256": "b1b3c25c29972c78e6feef9306ea456c16bec885ddcc84456ab9de12c04e3cb3",
+      "bytes": 19957,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

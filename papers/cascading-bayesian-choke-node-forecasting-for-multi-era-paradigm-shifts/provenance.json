@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts",
+  "paper": {
+    "path": "papers/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts/paper.md",
+    "title": "Cascading Bayesian Choke‑Node Forecasting for Multi‑Era Paradigm Shifts",
+    "url": "https://papers.qnfo.org/papers/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts"
+  },
+  "snapshots": [
+    {
+      "sha256": "794c77d2c316cf4ddb6bc184c8546a36a7579c3de49d300023658a3b7c9c7dee",
+      "bytes": 20370,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

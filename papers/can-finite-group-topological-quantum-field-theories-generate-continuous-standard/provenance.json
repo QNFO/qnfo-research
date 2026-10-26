@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "can-finite-group-topological-quantum-field-theories-generate-continuous-standard",
+  "paper": {
+    "path": "papers/can-finite-group-topological-quantum-field-theories-generate-continuous-standard/paper.md",
+    "title": "Can Finite‑Group Topological Quantum Field Theories Generate Continuous Standard‑Model Gauge Symmetry?",
+    "url": "https://papers.qnfo.org/papers/can-finite-group-topological-quantum-field-theories-generate-continuous-standard"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "can-finite-group-topological-quantum-field-theories-generate-continuous-standard"
+  },
+  "snapshots": [
+    {
+      "sha256": "0e7360b20eab3287783a6503b930cbf6cf86b8e530985ba9fd705c5c6b30e26f",
+      "bytes": 33963,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

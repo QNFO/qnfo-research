@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality",
+  "paper": {
+    "path": "papers/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality/paper.md",
+    "title": "Bruhat‑Tits Tree Return Probability as a Deterministic Indicator of Primality",
+    "url": "https://papers.qnfo.org/papers/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality"
+  },
+  "snapshots": [
+    {
+      "sha256": "4768f23adece5f0122bdfd3274f7848cd7eaeb36d5956f83d8fd4caef266fd91",
+      "bytes": 32719,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
