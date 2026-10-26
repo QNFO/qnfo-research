@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ostrowski-s-classification-as-a-selection-rule-a-falsifiable-program-for-the-ade",
+  "paper": {
+    "path": "papers/ostrowski-s-classification-as-a-selection-rule-a-falsifiable-program-for-the-ade/paper.md",
+    "title": "Ostrowski's Classification as a Selection Rule: A Falsifiable Program for the Adelic Shadow of the Standard Model Gauge Group",
+    "url": "https://papers.qnfo.org/papers/ostrowski-s-classification-as-a-selection-rule-a-falsifiable-program-for-the-ade"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ostrowski-s-classification-as-a-selection-rule-a-falsifiable-program-for-the-ade"
+  },
+  "snapshots": [
+    {
+      "sha256": "bc6ce1b4ded68efda5999be743337460c5650483916b9cbce5f234c11bfd0be2",
+      "bytes": 44551,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

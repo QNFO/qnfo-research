@@ -3,7 +3,7 @@
 **Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-07-05 | **Version:** v1.0
 **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
 **Project:** QLoF Extension — Program D, Phase 3
-**Prerequisites:** Phase 1 — "p-Adic Braid Groups on Bruhat-Tits Buildings" (v1.0, DOI: 10.5281/zenodo.21208366) | Phase 2 — "The p-Adic Temperley-Lieb Parameter" (v1.0, DOI: 10.5281/zenodo.21208368)
+**Prerequisites:** Phase 1 — "p-Adic Braid Groups on Bruhat-Tits Buildings" (v1.0, https://papers.qnfo.org/papers) | Phase 2 — "The p-Adic Temperley-Lieb Parameter" (v1.0, https://papers.qnfo.org/papers)
 
 ---
 
@@ -21,9 +21,9 @@ Phases 1–2 established the p-adic braid group $B_n(\mathbb{Q}_p)$ on Bruhat-Ti
 
 The QLoF Program D exploration of p-adic anyon physics has proceeded in two phases:
 
-**Phase 1** (DOI: 10.5281/zenodo.21208366) established the geometric foundation: the p-adic braid group $B_n(\mathbb{Q}_p)$ defined on the Bruhat-Tits tree $\mathcal{T}_p$ for $\text{SL}_2(\mathbb{Q}_p)$. By replacing continuous paths in $\mathbb{R}^2$ with geodesic segments on a simplicial tree of uniform $(p+1)$-valence, the braid generators $\sigma_i$ acquire a discrete, ultrametric interpretation. The braid relations $\sigma_i \sigma_{i+1} \sigma_i = \sigma_{i+1} \sigma_i \sigma_{i+1}$ and far-commutativity $\sigma_i \sigma_j = \sigma_j \sigma_i$ for $|i - j| \geq 2$ are preserved, but the underlying space is totally disconnected in the p-adic topology.
+**Phase 1** (https://papers.qnfo.org/papers) established the geometric foundation: the p-adic braid group $B_n(\mathbb{Q}_p)$ defined on the Bruhat-Tits tree $\mathcal{T}_p$ for $\text{SL}_2(\mathbb{Q}_p)$. By replacing continuous paths in $\mathbb{R}^2$ with geodesic segments on a simplicial tree of uniform $(p+1)$-valence, the braid generators $\sigma_i$ acquire a discrete, ultrametric interpretation. The braid relations $\sigma_i \sigma_{i+1} \sigma_i = \sigma_{i+1} \sigma_i \sigma_{i+1}$ and far-commutativity $\sigma_i \sigma_j = \sigma_j \sigma_i$ for $|i - j| \geq 2$ are preserved, but the underlying space is totally disconnected in the p-adic topology.
 
-**Phase 2** (DOI: 10.5281/zenodo.21208368) identified the algebraic ingredient: the Temperley-Lieb parameter $\delta = -A^2 - A^{-2}$ at a p-adic place is a **p-adic cyclotomic unit**. Specifically, when $A = \zeta_{2p^k}$ (a primitive $2p^k$-th root of unity in $\bar{\mathbb{Q}}_p$), we proved:
+**Phase 2** (https://papers.qnfo.org/papers) identified the algebraic ingredient: the Temperley-Lieb parameter $\delta = -A^2 - A^{-2}$ at a p-adic place is a **p-adic cyclotomic unit**. Specifically, when $A = \zeta_{2p^k}$ (a primitive $2p^k$-th root of unity in $\bar{\mathbb{Q}}_p$), we proved:
 
 $$\delta = -(\zeta_{2p^k} + \zeta_{2p^k}^{-1}) \in \mathbb{Z}_p[\zeta_{2p^k}]^\times \cap (1 - \zeta_{2p^k})\mathbb{Z}_p[\zeta_{2p^k}]$$
 
@@ -437,10 +437,6 @@ The adelic product over all places yields the complete theory. Phase 4 will form
 
 
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-
 ## References
 
 1. @Drinfeld1986 — Drinfeld, V. G. "Quantum groups." *Proceedings of the ICM*, 1986.
@@ -470,4 +466,4 @@ This work builds on the following related research:
 
 *Published under the QNFO Unified License Agreement. See https://legal.qnfo.org/.*
 
-*Phase 1: 10.5281/zenodo.21208366 | Phase 2: 10.5281/zenodo.21208368 | Phase 3 DOI: pending Zenodo deposition.*
+*Phase 1: https://papers.qnfo.org/papers | Phase 2: https://papers.qnfo.org/papers | Phase 3 DOI: pending the QNFO archive deposition.*

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati",
+  "paper": {
+    "path": "papers/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati/paper.md",
+    "title": "Outlier-Penalizing Bias in Human Gatekeeping and Algorithmic Ranking: A Comparative Threshold Model",
+    "url": "https://papers.qnfo.org/papers/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati"
+  },
+  "snapshots": [
+    {
+      "sha256": "a84f59e0c0671c559edbfd4a31be17ae0bd61cb3195f4501bab2f924f0bcdf03",
+      "bytes": 18311,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

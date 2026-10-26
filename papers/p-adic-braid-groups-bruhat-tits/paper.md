@@ -318,10 +318,6 @@ The construction bridges two previously disconnected mathematical domains: the a
 
 
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-
 ## References
 
 [@Kauffman1991] Kauffman, L.H. (1991). *Knots and Physics*. World Scientific.

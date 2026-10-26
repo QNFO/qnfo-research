@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-ancestry-model-a-deterministic-ultrametric-ontology-for-quantum-correlati",
+  "paper": {
+    "path": "silent-radix/p-adic-ancestry-model-a-deterministic-ultrametric-ontology-for-quantum-correlati/paper.md",
+    "title": "p‑Adic Ancestry Model: A Deterministic Ultrametric Ontology for Quantum Correlations",
+    "url": "https://papers.qnfo.org/papers/p-adic-ancestry-model-a-deterministic-ultrametric-ontology-for-quantum-correlati"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-ancestry-model-a-deterministic-ultrametric-ontology-for-quantum-correlati"
+  },
+  "snapshots": [
+    {
+      "sha256": "bc631da47b26f575acba9bd34d478b8d4837e26891a60986c066a1f74afa55e9",
+      "bytes": 20550,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

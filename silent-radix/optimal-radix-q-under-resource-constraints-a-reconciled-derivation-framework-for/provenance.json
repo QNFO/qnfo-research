@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "optimal-radix-q-under-resource-constraints-a-reconciled-derivation-framework-for",
+  "paper": {
+    "path": "silent-radix/optimal-radix-q-under-resource-constraints-a-reconciled-derivation-framework-for/paper.md",
+    "title": "Optimal Radix q under Resource Constraints: A Reconciled Derivation Framework for Ultrametric Hierarchies",
+    "url": "https://papers.qnfo.org/papers/optimal-radix-q-under-resource-constraints-a-reconciled-derivation-framework-for"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "optimal-radix-q-under-resource-constraints-a-reconciled-derivation-framework-for"
+  },
+  "snapshots": [
+    {
+      "sha256": "0c50f24c48e1f5d0b98cd50ada6a98e7a2cb4e49f5c6d31c369fa1c0ba94b532",
+      "bytes": 28756,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
