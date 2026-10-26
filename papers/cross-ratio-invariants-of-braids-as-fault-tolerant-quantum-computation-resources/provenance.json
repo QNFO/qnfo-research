@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources",
+  "paper": {
+    "path": "papers/cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources/paper.md",
+    "title": "Cross‑Ratio Invariants of Braids as Fault‑Tolerant Quantum Computation Resources",
+    "url": "https://papers.qnfo.org/papers/cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources"
+  },
+  "snapshots": [
+    {
+      "sha256": "f5e505fa324f33ef7a8957a7ac4f8a9341f39db7df4e0a6553d5bf223415b1a1",
+      "bytes": 21640,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

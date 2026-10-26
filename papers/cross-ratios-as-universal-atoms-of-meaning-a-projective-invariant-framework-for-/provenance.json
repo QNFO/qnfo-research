@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-",
+  "paper": {
+    "path": "papers/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-/paper.md",
+    "title": "Cross‑Ratios as Universal Atoms of Meaning: A Projective‑Invariant Framework for Likelihood, Information, and Decision Theory",
+    "url": "https://papers.qnfo.org/papers/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-"
+  },
+  "snapshots": [
+    {
+      "sha256": "f9d0fb3da5b61190db159c782d8cdaeac87ac066b361a127fc5eb6b6699ec255",
+      "bytes": 24639,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

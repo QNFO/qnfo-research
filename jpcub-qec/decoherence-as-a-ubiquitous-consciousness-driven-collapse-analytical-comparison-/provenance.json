@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "decoherence-as-a-ubiquitous-consciousness-driven-collapse-analytical-comparison-",
+  "paper": {
+    "path": "jpcub-qec/decoherence-as-a-ubiquitous-consciousness-driven-collapse-analytical-comparison-/paper.md",
+    "title": "Decoherence as a Ubiquitous Consciousness‑Driven Collapse: Analytical Comparison with Standard Environmental Decoherence",
+    "url": "https://papers.qnfo.org/papers/decoherence-as-a-ubiquitous-consciousness-driven-collapse-analytical-comparison-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "decoherence-as-a-ubiquitous-consciousness-driven-collapse-analytical-comparison-"
+  },
+  "snapshots": [
+    {
+      "sha256": "a39c7f3447f0a0a12fd4e0db93397080f35e44a96dc9a680baa7e9dd9c27c9d8",
+      "bytes": 25502,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

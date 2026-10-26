@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cross-ratios-as-universal-invariants-of-coarse-grained-ultrametric-trees",
+  "paper": {
+    "path": "silent-radix/cross-ratios-as-universal-invariants-of-coarse-grained-ultrametric-trees/paper.md",
+    "title": "Cross‑Ratios as Universal Invariants of Coarse‑Grained Ultrametric Trees",
+    "url": "https://papers.qnfo.org/papers/cross-ratios-as-universal-invariants-of-coarse-grained-ultrametric-trees"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cross-ratios-as-universal-invariants-of-coarse-grained-ultrametric-trees"
+  },
+  "snapshots": [
+    {
+      "sha256": "b69e25b86325178d7aeaab7a79c48c29b43644e2912ca2715ed11cfdf2533211",
+      "bytes": 29474,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

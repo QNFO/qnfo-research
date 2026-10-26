@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "css-codes-for-quantum-metrology-with-discrete-time-error-correction-a-reconciled",
+  "paper": {
+    "path": "papers/css-codes-for-quantum-metrology-with-discrete-time-error-correction-a-reconciled/paper.md",
+    "title": "CSS Codes for Quantum Metrology with Discrete-Time Error Correction: A Reconciled Quantitative Analysis",
+    "url": "https://papers.qnfo.org/papers/css-codes-for-quantum-metrology-with-discrete-time-error-correction-a-reconciled"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "css-codes-for-quantum-metrology-with-discrete-time-error-correction-a-reconciled"
+  },
+  "snapshots": [
+    {
+      "sha256": "d859f5eac76d6c595366900abace92cd2bff36ac8cc8f1e217e7bf33ada40c46",
+      "bytes": 25106,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

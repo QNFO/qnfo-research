@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "decoherence-as-the-ultimate-consequence-of-linear-accumulation",
+  "paper": {
+    "path": "jpcub-qec/decoherence-as-the-ultimate-consequence-of-linear-accumulation/paper.md",
+    "title": "Decoherence as the Ultimate Consequence of Linear Accumulation",
+    "url": "https://papers.qnfo.org/papers/decoherence-as-the-ultimate-consequence-of-linear-accumulation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "decoherence-as-the-ultimate-consequence-of-linear-accumulation"
+  },
+  "snapshots": [
+    {
+      "sha256": "e10da9207642610d13d6267313dfea09f7aeb8c448eddb274713ed05e5b17f28",
+      "bytes": 36712,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
