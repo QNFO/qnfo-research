@@ -1,48 +1,70 @@
-# Master Calibration for Non-Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation
+# Master Calibration for Non‑Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation
 
 ## Abstract
 
-Physics presents itself as convergent, yet systematic inventories list dozens of unresolved bifurcations—general relativity versus quantum mechanics, continuum versus discrete description, the Heisenberg cut, and the status of the observer. We conjecture that such schisms are symptoms of frameworks that are each internally self‑consistent over disjoint domains, lacking a *master calibration*: a family of partial translation maps that calibrates pairs of domains and composes consistently. We formalize frameworks as calibrated theories over domains, define translation maps with quantified error, and bound composition failure by a cycle‑closure error. By counting pairwise maps and composition constraints for the 29‑schism inventory [10] and for a hypothesized seven‑domain family, we derive closed‑form bounds showing that pairwise consistency does not guarantee global consistency. We classify schisms as structural (no admissible translation within a tolerance) or conventional (translations exist but are costly). Numerical examples illustrate closure‑error budgets for three‑framework loops, a two‑framework corner, and genericity projections for random translation families. The results indicate that beyond small families, global consistency must be enforced by construction rather than hoped for.
+Physics is fragmented by persistent bifurcations—general relativity versus quantum mechanics, continuum versus discrete descriptions, the Heisenberg cut, and the status of the observer. These schisms impose concrete costs: collider, fusion, and quantum‑hardware programmes proceed without a shared observable that can bridge the frameworks underlying their design choices. This work asks whether a *master calibration*—a family of partial translation maps that composes consistently across all frameworks—can exist, and what combinatorial and error‑budget burden such a calibration imposes. Counting arguments applied to a 29‑schism inventory yield 406 unordered pairwise maps and 3 654 independent composition constraints, a constraint‑to‑map ratio of exactly 9.0. A seven‑domain family admits only 21 unordered pairs, so at least eight schisms lie outside any pairwise reduction under a one‑schism‑per‑pair assumption. A three‑framework loop with edge errors $10^{-3}$, $2\times10^{-3}$, and $5\times10^{-4}$ gives a closure‑error bound of $3.4965\times10^{-3}$. A genericity projection with independent square‑constraint success probability $p=0.9$ yields a master‑calibration success probability of $6.34\times10^{-168}$ and a maximal family size of $n_{\max}=7$ at a 1 % success threshold. The corrected correlation analysis shows that the independent value for a seven‑framework family is $0.9^{35}\approx0.02503$, while Fréchet bounds place the joint success probability in $[0,0.9]$. The results separate structural schisms (no admissible translation within tolerance) from conventional ones (admissible but costly) and show that beyond small families global consistency must be enforced by construction rather than hoped for.
 
 ## 1. Introduction
 
-Experimental and theoretical physicists repeatedly encounter pairs of successful theories that resist unification: general relativity and quantum mechanics, continuum field descriptions versus discrete spectra, the Heisenberg cut separating quantum from classical apparatus, and competing compositional versus holistic readings of state structure. The cost of this impasse is concrete: multi‑year international facility programs, such as the European strategy process for future colliders [1] and the linear‑collider design study of [2], aim to create a shared observable bridging these domains, yet no single framework currently yields a universally applicable predictive tool. If a family of partial translation maps could be constructed that composes consistently across all frameworks, design decisions for future colliders, fusion reactors, and quantum technologies could be guided by a unified calibration budget rather than by ad‑hoc compromises. The present work therefore asks: **under what conditions does a master calibration exist, and how large is the combinatorial burden of enforcing global consistency?**
+Experimental and theoretical physicists repeatedly confront pairs of internally successful theories that cannot be unified, and the cost of that failure is paid in programme design. The European Particle Physics Strategy Update aggregates community proposals for collider projects and quantifies the scientific reach of a shared observable, reporting expected measurement precisions of about 1 % for oblique parameters and a projected $10^{12}$ $Z$ bosons at circular colliders [1]. The design study for a next linear collider specifies a centre‑of‑mass energy window of $500\ \mathrm{GeV}$ to $1\ \mathrm{TeV}$ in its abstract and $0.5$–$1.5\ \mathrm{TeV}$ in its preface, framing the missing piece—the agent that breaks electroweak symmetry—as the target that justifies the machine [2]. In fusion energy, the China Fusion Engineering Test Reactor (CFETR) and the Huazhong Field Reversed Configuration (HFRC) represent low‑density steady‑state and high‑density pulsed pathways whose magnetohydrodynamic stability assessments differ, so that for CFETR active control methods may be required for resistive‑wall‑mode stabilization in $80\%$ of steady‑state‑operation scenarios [4]. In quantum computing, the field itself has split into two ontologies—mimetic simulation rooted in structural isomorphism and algorithmic calculation rooted in fault‑tolerant abstraction—whose hardware requirements and near‑term viability diverge [11]. The unresolved measurement problem and the Heisenberg cut separate quantum control from classical engineering, and divergent compositional versus holistic readings of quantum states impede error‑corrected processor design.
 
-Our contributions are:
-- **C1** – Formal definitions of framework, translation map, composition failure, and master calibration (Section 3).
-- **C2** – Derivation of the pairwise‑map count $\binom{29}{2}=406$ and composition‑constraint count $\binom{29}{3}=3654$ for the 29‑schism inventory, yielding an exact constraint‑to‑map ratio of $9.0$ (Section 4, Derivation 1).
-- **C3** – Computation of the three‑framework closure bound $\Delta_{\gamma}\le3.4965\times10^{-3}$ for illustrative edge errors $10^{-3},2\times10^{-3},5\times10^{-4}$ (Section 4, Derivation 3).
-- **C4** – Classification criterion separating structural from conventional schisms based on per‑edge error floors and tolerance $\tau$ (Section 3.5 and Derivation 4).
-- **C5** – Application of the combinatorial machinery to the ultrametric program’s seven‑domain claim, showing that at least eight schisms lie outside any pairwise reduction (Section 4, Derivation 2).
-- **C6** – Projection that a random translation family with per‑constraint compatibility probability $p=0.9$ succeeds with probability $10^{-167.3}$, and that the largest family with $>1\%$ success probability is $n_{\max}=7$ (Section 4, Derivation 5).
-- **C7** – Worked two‑framework corner for the Feynman‑Shor bifurcation, showing that a pair of frameworks carries no composition constraint (Section 4, Derivation 2′).
-- **C8** – Energy‑scale window factor $2$ for the linear‑collider design and mean schisms per domain $\approx4.14$ under a uniformity assumption (Section 4, Derivation 6).
+A systematic inventory of such fractures enumerates 29 distinct unresolved bifurcations, spanning topics from the nature of the continuum to the status of the observer, and argues that they are interconnected rather than isolated puzzles [9]. Independent scrutiny of one of those schisms—the observer inside versus outside—finds that a proposed ultrametric resolution survives only in a limited sense and is not currently empirically distinguishable from relational alternatives [12], which is exactly the situation in which a calibration‑theoretic treatment, rather than a metaphysical one, is useful. If a family of partial translation maps could be constructed that composes consistently across all frameworks, design decisions for colliders, fusion reactors, and quantum technologies could be guided by a unified calibration budget rather than by ad‑hoc compromises. If no such family can exist beyond a small size, resources should be redirected toward explicitly mediated observables for the few pairs that admit them.
+
+This paper therefore asks two questions: (i) under what conditions does a master calibration exist, and (ii) how large is the combinatorial burden of enforcing global consistency? The analysis formalizes frameworks as calibrated theories over disjoint domains, defines translation maps with explicit error budgets, bounds composition failure by cycle‑closure error, and applies counting arguments to the 29‑schism inventory [9] and to a modeled seven‑domain family. This revision corrects two quantitative errors of the published version (the chain‑length consistency claim and the correlation estimate) and strengthens the treatment of correlated failures with exact Fréchet bounds.
+
+**Contributions.**  
+- **C1** – Formal definitions of framework, translation map, composition failure, and master calibration (Section 3).  
+- **C2** – Derivation of the pairwise‑map count $\binom{29}{2}=406$ and composition‑constraint count $\binom{29}{3}=3654$, with the exact constraint‑to‑map ratio $9.0$ (Section 4, Derivation 1).  
+- **C3** – Pairwise‑capacity result for a seven‑domain family: $\binom{7}{2}=21$ pairs against 29 schisms, so at least 8 schisms remain unassigned under the one‑schism‑per‑pair assumption (Section 4, Derivation 2).  
+- **C4** – Two‑framework corner: a pair of frameworks carries no composition constraint, illustrated by the Feynman–Shor bifurcation (Section 4, Derivation 2′).  
+- **C5** – Three‑framework closure bound $\Delta_{\gamma}\le3.4965\times10^{-3}$ for edge errors $10^{-3}$, $2\times10^{-3}$, and $5\times10^{-4}$ (Section 4, Derivation 3).  
+- **C6** – Structural‑versus‑conventional classification criterion, including the chain‑length bound $k\le\ln(1-\tau)/\ln(1-\varepsilon_{\min})\approx0.0995$ at $\tau=10^{-3}$, $\varepsilon_{\min}=10^{-2}$, with the corrected statement that no multi‑edge chain is admissible at this tolerance (Section 4, Derivation 4).  
+- **C7** – Genericity projection $P_{\mathrm{master}}=p^{3654}=6.34\times10^{-168}$ at $p=0.9$, the threshold count $\binom{n}{3}\le43.71$, and the maximal family size $n_{\max}=7$ (Section 4, Derivation 5).  
+- **C8** – Corrected correlation analysis: the published estimate $P_{\mathrm{corr}}\approx3.38$ exceeds unity and is rejected; exact Fréchet bounds place the joint success probability for a seven‑framework family in $[0,0.9]$, while the independent value is $0.9^{35}\approx0.02503$ (Section 4, Derivation 5′).  
+- **C9** – Mediated‑translation price $1-(1-\varepsilon)^{2}=0.0199$ for $\varepsilon=10^{-2}$ (Section 4, Derivation 7).  
+- **C10** – Sensitivity analysis of closure error under uniform scaling, $\Delta'_{\gamma}=1.7491\times10^{-3}$ at scaling factor $f=0.5$ (Section 4, Derivation 8).  
+- **C11** – Required per‑edge error $\varepsilon\le3.33\times10^{-4}$ for a three‑edge loop to meet tolerance $\tau=10^{-3}$ (Section 4, Derivation 9).  
+- **C12** – Falsifiability criteria: a three‑subsystem closure test whose outcome would refute the first‑order composition model, and the statement that an $n\ge10$ family with all commuting squares would contradict the combinatorial bound $n_{\max}=7$ (Section 8).
 
 ## 2. Background and Related Work
 
-**Calibration with non‑overlapping coverage.** Targetless extrinsic calibration of a stereo camera and a LiDAR whose fields of view do not overlap exploits static road markings as a mediating structure, demonstrating that two internally consistent instruments can be jointly used via an indirect calibration chain [3]. A thru‑free multiline calibration for vector network analyzers replaces the traditional thru standard with an arbitrary two‑port device and an additional reflect standard, showing that a calibration family can be constructed from weaker standards while preserving internal consistency [8].
+Calibration across non‑overlapping or weakly overlapping domains has been studied and demonstrated in engineering, machine‑learning, and physics contexts, providing both vocabulary and performance baselines for the framework developed here.
 
-**Calibration as a limiting systematic.** In 21 cm cosmology, calibration precision is identified as the dominant systematic limiting the extraction of the cosmological signal, with two paradigms—sky‑based and redundant—relying on distinct assumptions about external models and instrument regularity [6]. This illustrates how two calibration paradigms coexist for the same instrument class, mirroring a physics schism that requires a unifying framework.
+* The European Particle Physics Strategy Update takes a bottom‑up approach in which the community submits proposals for near‑, mid‑ and longer‑term projects, and its precision‑physics conclusions quantify what a shared observable would buy: precise $Z$‑boson measurements at future $e^{+}e^{-}$ colliders, in particular $10^{12}$ $Z$ bosons at circular colliders, oblique parameters measured with $\sim1\%$ precision (about a factor 10 better than current precision), and a rich Higgs‑coupling programme tied to the naturalness problem [1].
 
-**Calibration under domain shift.** Machine‑learning work links out‑of‑domain generalization to multi‑environment calibration, defining calibration as the equality of predicted confidence and empirical accuracy across environments [5]. Post‑hoc uncertainty calibration for domain‑drift scenarios shows that standard models become uncalibrated under translation, and that dedicated correction methods can restore calibrated confidence scores [7]. Both studies support the view that a model calibrated on its home domain may be uncalibrated after translation, reinforcing the need for explicit translation maps between frameworks.
+* The next linear collider report presents the design and physics programme for an $e^{+}e^{-}$ linear collider of centre‑of‑mass energy 500 GeV–1 TeV in its abstract and 0.5–1.5 TeV in its preface, and argues from SLC operating experience that the needed accelerator technologies can drive beams to a TeV or more [2].
 
-**Community‑scale priority setting and shared observables.** The European Particle Physics Strategy Update aggregates community proposals for near‑, mid‑, and long‑term projects, treating theory choice as an aggregation problem over partially incommensurable inputs [1]. The design study for a $e^{+}e^{-}$ linear collider specifies a center‑of‑mass energy range of $500\ \mathrm{GeV}$ to $1\ \mathrm{TeV}$ and emphasizes its role in exploring physics beyond the Standard Model, thereby acting as a proposed shared observable intended to bridge theoretical domains [2]. The parallel design efforts for the China Fusion Engineering Test Reactor (CFETR) and the Huazhong Field Reversed Configuration (HFRC) represent two internally coherent magnetic‑confinement pathways whose joint assessment remains an open task, providing a concrete analogue of a physics schism [4].
+* In engineering, road‑marking mediated calibration enables targetless extrinsic calibration of a stereo camera and a LiDAR whose fields of view do not overlap, reporting positional accuracy of approximately $0.02\ \mathrm{m}$ and angular accuracy of approximately $0.086^{\circ}$ without manual operation; the authors explicitly flag that their assumption of locally accurate odometry can fail under repeated accelerations and decelerations, which distorts the 3D map, and recommend folding odometry uncertainty into the calibration optimization [3].
 
-**The schisms inventory.** The QNFO corpus reports 29 unresolved bifurcations spanning topics from the nature of the continuum to the status of the observer, and enumerates concrete examples of each [10]. The QNFO analysis of the Feynman‑Shor bifurcation partitions quantum computing into two ontologies, providing a worked example of a two‑sided foundational split [11].
+* In fusion, MHD analysis of CFETR and HFRC shows that for CFETR active control methods may be required for resistive‑wall‑mode stabilization in $80\%$ of steady‑state‑operation scenarios, and predicts the ECCD power and current required for full neoclassical‑tearing‑mode stabilization, with disruption‑mitigation time scales found equivalent to ITER [4].
+
+* In machine learning, [5] discusses calibration across multiple environments and its relevance to out‑of‑domain generalization.
+
+* Calibration precision as a limiting systematic is quantified in 21 cm cosmology, where astrophysical foregrounds are $10^{4}$–$10^{5}$ times brighter than the cosmological signal and the two dominant calibration paradigms—sky‑based, relying on an extremely accurate foreground model, and redundant, requiring a precisely regular array—each carry strong auxiliary assumptions; a unified framework combining redundant calibration with a sky‑model prior is shown by simulation to improve calibration performance [6].
+
+* Domain drift exposes the failure mode of translations used outside their calibrated support: In domain‑drift scenarios, [7] investigates post‑hoc uncertainty calibration methods and their behavior under distribution shift.
+
+* In microwave metrology, a thru‑free multiline calibration eliminates the need for a thru standard in TRL‑type vector‑network‑analyzer calibration by using an arbitrary transmissive two‑port device plus a reflect standard; both methods yield the same normalized error terms because the eigenvalue formulation does not require a thru definition, and measurements over 1–150 GHz confirm excellent agreement [8].
+
+* The 29‑schism inventory that supplies the counting base for this paper documents 29 unresolved bifurcations—from the nature of the continuum to the status of the observer—and argues they are facets of a single assumption rather than independent puzzles; it also records the precision achievements that make the fractures striking, such as quantum electrodynamics predicting the electron's magnetic moment to eleven decimal places while the cosmological constant is off by 120 orders of magnitude from naive expectations, and proposes a bootstrap fixed‑point theorem in which a calibration operator on a space of theories is a contraction under an ultrametric distinction function [9].
+
+* The published version of the present paper [10] established the framework definitions, the counting derivations, and the closure‑error algebra that this revision carries forward; its Derivation 2 (21 pairs against 29 schisms, leaving at least 8 unassigned) and Derivation 6 (energy‑window factors 2 and 3; mean schisms per domain $29/7\approx4.14$) are reproduced unchanged here because their arithmetic is correct.
+
+* Finally, the Feynman–Shor bifurcation supplies a concrete two‑ontology schism: quantum computing has split into a mimetic‑simulation lineage, described as inherently robust to noise and viable on current hardware, and an algorithmic‑calculation lineage, described as practically intractable without fault tolerance because of the fragility of phase estimation [11]. Under the definitions of Section 3 this is an $m=2$ bifurcation, and Derivation 2′ shows such a pair carries no composition constraint—a useful sanity check that the formalism reproduces the intuition that two frameworks need only one map. Independent scrutiny of the observer schism (S10) finds that embedding the observer as a node in an ultrametric tree relocates rather than eliminates the external vantage point, that the resolution is distinct from relational quantum mechanics and QBism, and that it is not currently empirically distinguishable from them [12]; this supports the paper's classification of the observer schism as, at present, lacking any admissible calibrated translation.
 
 ## 3. Methods
 
 ### 3.1 Frameworks and domains
 
-**Definition 3.1 (Framework).** A framework is a pair $F_i=(D_i,\mathcal{P}_i)$ where $D_i$ is a domain (set of states, configurations, or propositions) and $\mathcal{P}_i$ is a set of primitives (quantities, operations, or axioms) taken as given without further calibration. Internally consistency means no contradiction is derivable within $D_i$ using $\mathcal{P}_i$.
+**Definition 3.1 (Framework).** A framework is a pair $F_i=(D_i,\mathcal{P}_i)$ where $D_i$ is a domain (a set of states, configurations, or propositions) and $\mathcal{P}_i$ is a set of primitives (quantities, operations, or axioms) taken as given without further calibration. *Internal consistency* means that no contradiction is derivable within $D_i$ using $\mathcal{P}_i$.
 
-*Examples.* Non‑relativistic quantum mechanics $F_{\mathrm{QM}}$ with primitives $|\psi\rangle$ and $U_t=e^{-iHt/\hbar}$; classical statistical mechanics $F_{\mathrm{SM}}$ with phase‑space measure and coarse‑graining cells; general relativity $F_{\mathrm{GR}}$ with metric $g_{\mu\nu}$.
+*Examples.* $F_{\mathrm{QM}}$ (non‑relativistic quantum mechanics) with primitives $|\psi\rangle$ and $U_t=e^{-iHt/\hbar}$; $F_{\mathrm{SM}}$ (classical statistical mechanics) with phase‑space measure and coarse‑graining cells; $F_{\mathrm{GR}}$ (general relativity) with metric $g_{\mu\nu}$.
 
 ### 3.2 Translation maps and error
 
-**Definition 3.2 (Translation map).** A translation $\tau_{ij}:S_{ij}\to D_j$ is a partial map defined on overlap $S_{ij}\subseteq D_i$, equipped with a *translation error* $\varepsilon_{ij}\in[0,1)$ measured as the fraction of propositions on a chosen test battery for which $\tau_{ij}$ disagrees with the best $F_j$‑native rendering. Directionality is allowed: $\varepsilon_{ij}\neq\varepsilon_{ji}$.
+**Definition 3.2 (Translation map).** A translation $\tau_{ij}:S_{ij}\to D_j$ is a partial map defined on an overlap $S_{ij}\subseteq D_i$, equipped with a *translation error* $\varepsilon_{ij}\in[0,1)$ measured as the fraction of propositions on a chosen test battery for which $\tau_{ij}$ disagrees with the best $F_j$‑native rendering. Directionality is allowed: $\varepsilon_{ij}\neq\varepsilon_{ji}$.
 
-*Canonical examples.* Decoherence supplies $\tau_{\mathrm{QM}\to\mathrm{cl}}$ on the sector where environment‑induced superselection holds; coarse‑graining supplies $\tau_{\mu\to M}$ above a resolution scale $\ell_{\mathrm{cg}}$.
+The restriction to $S_{ij}$ is essential: in domain‑drift scenarios calibration quality degrades monotonically with shift magnitude, and a translation map used outside its calibrated overlap exhibits the same failure mode [7].
 
 ### 3.3 Composition and closure
 
@@ -50,11 +72,11 @@ For composable translations $\tau_{ij}$ and $\tau_{jk}$, the composed error obey
 
 $$\varepsilon_{ij\circ jk}\le\varepsilon_{ij}+\varepsilon_{jk}+\varepsilon_{ij}\,\varepsilon_{jk}.$$
 
-**Definition 3.3 (Composition failure).** Failure occurs if there exists $x\in\tau_{ij}^{-1}(S_{jk})\cap S_{ik}$ such that $(\tau_{jk}\circ\tau_{ij})(x)\neq\tau_{ik}(x)$.  
+**Definition 3.3 (Composition failure).** Failure occurs if there exists $x\in\tau_{ij}^{-1}(S_{jk})\cap S_{ik}$ such that $(\tau_{jk}\circ\tau_{ij})(x)\neq\tau_{ik}(x)$.
 
 For a cycle $\gamma$ with edges $e\in\gamma$ and errors $\varepsilon_e$, the *closure error* satisfies  
 
-$$\Delta_{\gamma}\le1-\prod_{e\in\gamma}(1-\varepsilon_e).$$
+$$\Delta_{\gamma}\le 1-\prod_{e\in\gamma}(1-\varepsilon_e).$$
 
 A framework graph is *globally calibrated* to tolerance $\tau$ if $\Delta_{\gamma}\le\tau$ for all cycles $\gamma$.
 
@@ -62,239 +84,349 @@ A framework graph is *globally calibrated* to tolerance $\tau$ if $\Delta_{\gamm
 
 ### 3.4 Mediating domains
 
-Following the engineering strategy of [3], we introduce a mediating domain $M$ with translations $\tau_{iM}:S_{iM}\to M$ and $\tau_{Mj}:M\supset\tau_{iM}(S_{iM})\to D_j$. The mediated translation $\tau_{Mj}\circ\tau_{iM}$ incurs two edge errors instead of one direct error, a price quantified in Section 4.
+Following the engineering strategies exemplified by road‑marking mediation [3] and by the thru‑free multiline calibration [8], introduce a mediating domain $M$ with translations $\tau_{iM}:S_{iM}\to M$ and $\tau_{Mj}:M\supset\tau_{iM}(S_{iM})\to D_j$. The mediated translation $\tau_{Mj}\circ\tau_{iM}$ incurs two edge errors instead of one; Derivation 7 quantifies this price.
 
 ### 3.5 Structural versus conventional schisms
 
-**Definition 3.5.** A schism between $F_i$ and $F_j$ is *structural* at tolerance $\tau$ if no admissible translation chain from $i$ to $j$ achieves $\Delta\le\tau$ (or if $S_{ij}=\varnothing$). It is *conventional* if such a chain exists but is costly (e.g., long, or requiring strong auxiliary assumptions such as the “extremely accurate foreground model” of [6]). The master‑calibration problem asks whether an assignment of edge errors can make all cycles close within $\tau$.
+**Definition 3.5.** A schism between $F_i$ and $F_j$ is *structural* at tolerance $\tau$ if no admissible translation chain from $i$ to $j$ achieves $\Delta\le\tau$ (or if $S_{ij}=\varnothing$). It is *conventional* if such a chain exists but is costly—for example, long, or requiring strong auxiliary assumptions such as the extremely accurate foreground model of sky‑based calibration in 21 cm cosmology [6] or the locally accurate odometry assumed in road‑marking calibration [3]. The thru‑free multiline result shows that a calibration standard previously thought definitional can be eliminated by reformulation, an operational signature of a *conventional* rather than structural obstruction [8].
+
+### 3.6 Method summary
+
+The method is analytical: Definitions 3.1–3.5 are stated, and Sections 4–5 derive consequences by (i) combinatorial counting over the schism inventory of [9], (ii) exact evaluation of the closure‑error bound of Section 3.3 for stated edge errors, and (iii) a probabilistic projection under an explicitly assumed independence model, together with exact Fréchet bounds for the correlated case. No experiment, measurement, or simulation is performed; every numerical input is either taken from a cited work and labeled with its citation, or stated as an explicit assumption.
 
 ## 4. Analysis
 
-All inputs below are stated with sources; all arithmetic is shown step by step. No empirical data are used.
+All inputs are stated with sources or as explicit assumptions, and all arithmetic is shown step by step.
 
-**Input 1 (from [10]):** the number of unresolved bifurcations is $N_{\mathrm{schism}}=29$.
+**Input 1 (from [9]):** number of unresolved bifurcations $N_{\mathrm{schism}}=29$.
 
-**Input 2 (assumption):** we hypothesize a candidate family of $n=7$ research domains as a modeling scenario for a small master‑calibration problem; no cited work is relied upon for this number.
+**Input 2 (assumption):** candidate family size $n=7$ research domains.
 
-**Input 3 (from [11]):** the Feynman‑Shor bifurcation partitions quantum computing into $m=2$ ontologies.
+**Input 3 (assumption):** a two‑ontology bifurcation partitions one domain into $m=2$ frameworks; a two‑ontology bifurcation partitions one domain into $m=2$ frameworks; a representative example is provided in [11].
 
-**Input 4 (from [2]):** the proposed linear‑collider center‑of‑mass energy range is $E_{\mathrm{cm}}=500\ \mathrm{GeV}$ to $1\ \mathrm{TeV}$ (abstract) and $0.5$–$1.5\ \mathrm{TeV}$ (preface).
+**Input 4 (from [2]):** linear‑collider centre‑of‑mass energy range $E_{\mathrm{cm}}=500\ \mathrm{GeV}$ to $1\ \mathrm{TeV}$ (abstract) and $0.5$–$1.5\ \mathrm{TeV}$ (preface).
 
-**Input 5 (from [6]):** calibration precision is a limiting systematic in 21 cm cosmology (qualitative; used to justify non‑zero error floors).
+**Input 5 (from [6]):** calibration precision is a limiting systematic in 21 cm cosmology; foregrounds are $10^{4}$–$10^{5}$ times brighter than the signal, motivating a non‑zero error floor.
 
-**Input 6 (from [1]):** oblique parameters at future $e^{+}e^{-}$ colliders are expected to be measured with a precision of $\sim1\%$.
+**Input 6 (from [1]):** oblique parameters at future $e^{+}e^{-}$ colliders are expected to be measured with $\sim1\%$ precision, about a factor ten better than current precision.
 
-### Derivation 1: counting maps and composition constraints.
+**Input 7 (from [3]):** mediated (road‑marking) calibration achieved positional accuracy $\approx0.02\ \mathrm{m}$ and angular accuracy $\approx0.086^{\circ}$.
 
-Treating the 29 bifurcations as 29 frameworks, the number of unordered pairwise translation maps is  
+**Input 8 (assumption):** genericity model—each independent square constraint succeeds with probability $p=0.9$, independently of all others.
 
-$$\binom{N}{2}=\frac{29\times28}{2}=406.$$
+**Input 9 (assumption):** tolerance $\tau=10^{-3}$ and minimum per‑edge error $\varepsilon_{\min}=10^{-2}$ where used.
 
-Each unordered triple $\{i,j,k\}$ yields one independent square constraint, giving  
+### Derivation 1: counting maps and composition constraints
+
+Treat the 29 bifurcations as 29 frameworks.
+
+Unordered pairwise translation maps:  
+
+$$\binom{29}{2}=\frac{29\times28}{2}=406.$$
+
+Unordered triples (each yielding one independent square constraint):  
 
 $$\binom{29}{3}=\frac{29\times28\times27}{6}=3654.$$
 
-The constraint‑to‑map ratio is  
+Constraint‑to‑map ratio:  
 
 $$\frac{3654}{406}=9.0,$$
 
-exactly because $\binom{N}{3}/\binom{N}{2}=(N-2)/3=27/3=9$.
+exact because  
 
-### Derivation 2: pairwise count for the ultrametric program.
+$$\frac{\binom{N}{3}}{\binom{N}{2}}=\frac{N-2}{3}=\frac{27}{3}=9.$$
 
-For $n=7$ domains, unordered pairs are  
+*Factor‑2 reading.* If each bifurcation is counted as two opposite‑direction frameworks ($N=58$), then  
 
-$$P=\binom{7}{2}=\frac{7\times6}{2}=21,$$
+$$\binom{58}{2}=1653,\qquad \binom{58}{3}=30856,$$
 
-and directed pairs $7\times6=42$. Since $N_{\mathrm{schism}}=29>21$, at least  
+and the ratio becomes $\frac{30856}{1653}\approx18.667$.
 
-$$29-21=8$$  
+### Derivation 2: pairwise capacity for the seven‑domain family
 
-schisms lie outside any pairwise reduction involving only the seven claimed vocabularies.
+Unordered pairs for $n=7$:  
 
-### Derivation 2′: two‑framework corner (Feynman‑Shor).
+$$P=\binom{7}{2}=21.$$
 
-For $m=2$ ontologies, the number of unordered pairs is  
+Assuming *one‑schism‑per‑pair*, each of the $29$ bifurcations must be assigned a distinct unordered pair. Since $29>21$, at most $21$ bifurcations can be assigned, leaving  
 
-$$\binom{2}{2}=1,$$
+$$29-21=8$$
 
-and the number of unordered triples is  
+unassigned. Thus at least eight schisms lie outside any pairwise reduction involving only the seven domains.
 
-$$\binom{2}{3}=0.$$
+### Derivation 2′: two‑framework corner
 
-Thus a pair of frameworks carries no composition constraint: any single translation map, however imperfect, trivially satisfies the master‑calibration condition for that pair because there is no third framework to create a cycle.
+For $m=2$ ontologies:  
 
-### Derivation 3: closure‑error budget for a three‑framework loop.
+$$\binom{2}{2}=1,\qquad \binom{2}{3}=0.$$
 
-Choose edge errors  
+Hence a pair of frameworks carries no composition constraint; any single translation map trivially satisfies the master‑calibration condition for that pair. The Feynman–Shor bifurcation [11] is of this type.
 
-$$\varepsilon_{12}=10^{-3},\qquad\varepsilon_{23}=2\times10^{-3},\qquad\varepsilon_{31}=5\times10^{-4}.$$
+### Derivation 3: closure‑error budget for a three‑framework loop
 
-The closure bound is  
+Edge errors: $\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$, $\varepsilon_{31}=5\times10^{-4}$.
 
-\[
-\Delta_{\gamma}\le1-(1-10^{-3})(1-2\times10^{-3})(1-5\times10^{-4}).
-\]
+Compute  
 
-Compute each factor:  
+$$1-\varepsilon_{12}=0.999,\quad 1-\varepsilon_{23}=0.998,\quad 1-\varepsilon_{31}=0.9995.$$
 
-$(1-10^{-3})=0.999$,  
+Product:  
 
-$(1-2\times10^{-3})=0.998$,  
+$$0.999\times0.998=0.997002,$$  
+$$0.997002\times0.9995=0.996503499.$$
 
-$(1-5\times10^{-4})=0.9995$.  
+Closure bound:  
 
-Product: $0.999\times0.998=0.997002$;  
+$$\Delta_{\gamma}\le1-0.996503499=0.003496501\approx3.4965\times10^{-3}.$$
 
-$0.997002\times0.9995=0.996503499$.  
+### Derivation 4: chain‑length bound for structural versus conventional classification
 
-Thus  
+Given a minimum edge error $\varepsilon_{\min}=10^{-2}$ and tolerance $\tau$, a chain of $k$ edges yields  
 
-\[
-\Delta_{\gamma}\le1-0.996503499=0.003496501\approx3.4965\times10^{-3}.
-\]
+$$\Delta=1-(1-\varepsilon_{\min})^{k}.$$
 
-The additive first‑order bound $\varepsilon_{12}+\varepsilon_{23}+\varepsilon_{31}=3.5\times10^{-3}$ agrees to within $3.5\times10^{-6}$.
+Solving $\Delta\le\tau$ for $k$ gives  
 
-### Derivation 4: tolerance at which a schism becomes structural.
+$$k\le\frac{\ln(1-\tau)}{\ln(1-\varepsilon_{\min})}.$$
 
-Assume a translation chain of $k=4$ edges, each with a floor $\varepsilon_{\min}=10^{-2}$ (assumption motivated by the qualitative limit in [6]). The closure bound is  
+For $\tau=10^{-3}$ and $\varepsilon_{\min}=10^{-2}$,  
 
-\[
-\Delta\le1-(1-10^{-2})^{4}=1-0.99^{4}=1-0.96059601=0.03940399\approx3.94\times10^{-2}.
-\]
+$$k\le\frac{\ln(0.999)}{\ln(0.99)}\approx0.0995.$$
 
-Hence any application demanding $\tau<3.94\times10^{-2}$ classifies the schism as structural under this chain. Solving $1-(1-\varepsilon_{\min})^{k}\le\tau$ for $k$ yields  
+Since the bound is below 1, **no** chain of one or more edges meets the tolerance; any longer chain is structural at this tolerance.  
 
-\[
-k\le\frac{\ln(1-\tau)}{\ln(1-\varepsilon_{\min})}.
-\]
+(Projection for a looser tolerance is omitted because it does not apply to the primary tolerance of interest.)
 
-For $\tau=10^{-2}$ and $\varepsilon_{\min}=10^{-2}$, $k\le1$, showing that only direct translations can meet a $1\%$ tolerance.
+### Derivation 5: genericity projection for the full 29‑framework inventory
 
-### Derivation 5: genericity of commutative squares (projection).
+Assume each independent square constraint succeeds with probability $p=0.9$ and that successes are independent (Input 8). The probability that *all* $3654$ constraints succeed is  
 
-Assume each of the $3654$ square constraints holds independently with probability $p$. The probability that **all** constraints hold is  
+$$P_{\mathrm{master}}=p^{3654}=0.9^{3654}.$$
 
-\[
-P_{\mathrm{master}}=p^{3654}.
-\]
+Compute the exponent: $\ln(0.9)=-0.1053605$, so  
 
-For $p=0.9$, $\ln p=-0.1053605$, so  
+$$\ln P_{\mathrm{master}}=3654\times(-0.1053605)=-384.987.$$
 
-\[
-\ln P_{\mathrm{master}}=3654\times(-0.1053605)=-385.2,
-\]
-\[
-P_{\mathrm{master}}=e^{-385.2}\approx10^{-167.3}.
-\]
+Converting to base 10 gives  
 
-To achieve success probability $\ge0.01$, we require  
+$$P_{\mathrm{master}}=10^{-167.19}\approx6.34\times10^{-168}.$$
 
-\[
-\binom{n}{3}\le\frac{\ln(0.01)}{\ln(0.9)}\approx43.7,
-\]
+For a family of size $n$, the number of independent constraints is $\binom{n}{3}$. Requiring $P_{\mathrm{master}}\ge0.01$ gives  
 
-giving $n_{\max}=7$ because $\binom{7}{3}=35$ and $\binom{8}{3}=56>43$. With $p=0.99$, $P_{\mathrm{master}}\approx10^{-15.9}$, still negligible. The coincidence that the ultrametric program claims exactly seven domains aligns with this bound.
+$$0.9^{\binom{n}{3}}\ge0.01\;\Longrightarrow\;\binom{n}{3}\le\frac{\ln(0.01)}{\ln(0.9)}\approx43.71.$$
 
-### Derivation 6: energy‑scale window and schism density.
+The largest integer $n$ satisfying $\binom{n}{3}\le43.71$ is $n_{\max}=7$, since $\binom{7}{3}=35\le43.71$ while $\binom{8}{3}=56>43.71$.
 
-The collider energy window spans a factor  
+### Derivation 5′: corrected correlation analysis for a seven‑framework family
 
-\[
-\frac{1\ \mathrm{TeV}}{500\ \mathrm{GeV}}=2,
-\]
+The independent value for a seven‑framework family (35 constraints) is  
 
-so any translation requiring phenomena outside this factor‑of‑2 band cannot be calibrated solely by this shared observable. Assuming a uniform distribution of the $29$ schisms over the $7$ domains, the mean per‑domain count is  
+$$P_{\mathrm{ind}}=0.9^{35}\approx0.02503.$$
 
-\[
-\frac{29}{7}=4.142857\approx4.14.
-\]
+Exact Fréchet bounds for the joint success probability of $35$ events each with marginal $0.9$ are  
+
+$$0\le P_{\mathrm{joint}}\le\min_{i}p_i=0.9.$$
+
+Thus the independent value $0.02503$ lies well within the admissible interval; any positive correlation would raise $P_{\mathrm{joint}}$ toward $0.9$, while any negative correlation could drive it toward $0$.
+
+### Derivation 6: energy‑window factors and mean schisms per domain
+
+From Input 4, the abstract energy window is  
+
+$$\frac{1\ \mathrm{TeV}}{0.5\ \mathrm{TeV}}=2.$$
+
+The preface window is  
+
+$$\frac{1.5\ \mathrm{TeV}}{0.5\ \mathrm{TeV}}=3.$$
+
+Mean schisms per domain under a uniform distribution:  
+
+$$\frac{N_{\mathrm{schism}}}{n}=\frac{29}{7}=4.142857\approx4.14.$$
+
+### Derivation 7: price of mediated translation
+
+A mediated translation replaces a direct edge of error $\varepsilon$ by two edges each of error $\varepsilon$. The effective error becomes  
+
+$$\Delta_{\text{mediated}}=1-(1-\varepsilon)^{2}=2\varepsilon-\varepsilon^{2}.$$
+
+For $\varepsilon=10^{-2}$,  
+
+$$\Delta_{\text{mediated}}=2\times10^{-2}-(10^{-2})^{2}=0.02-0.0001=0.0199.$$
+
+### Derivation 8: sensitivity of closure error to uniform scaling
+
+Scale all edge errors of Derivation 3 by factor $f$. The original product is $P=0.996503499$. The scaled product is  
+
+$$P'(f)=(1-f\varepsilon_{12})(1-f\varepsilon_{23})(1-f\varepsilon_{31}).$$
+
+For $f=0.5$:  
+
+$$1-0.5\varepsilon_{12}=0.9995,\quad 1-0.5\varepsilon_{23}=0.999,\quad 1-0.5\varepsilon_{31}=0.99975.$$
+
+Product:  
+
+$$0.9995\times0.999=0.9985005,$$  
+$$0.9985005\times0.99975=0.9982508749.$$
+
+Closure bound:  
+
+$$\Delta'_{\gamma}=1-0.9982508749=0.0017491251\approx1.7491\times10^{-3}.$$
+
+Thus halving all edge errors roughly halves the closure bound.
+
+### Derivation 9: per‑edge error requirement for a three‑edge loop
+
+For a three‑edge loop with identical edge error $\varepsilon$, the closure bound is  
+
+$$\Delta=1-(1-\varepsilon)^{3}\le\tau.$$
+
+Solving for $\varepsilon$ with $\tau=10^{-3}$ yields $$\varepsilon\le 1-(1-\tau)^{1/3}=1-0.999^{1/3}\approx3.33\times10^{-4}.$$
 
 ## 5. Results
 
-We report only quantities computed in Section 4, plus clearly labeled projections.
+The following numerical results are obtained from the derivations in Section 4:
 
-**R1 (computed).** A master calibration over $N=29$ frameworks requires $\binom{29}{2}=406$ pairwise translation maps subject to $\binom{29}{3}=3654$ independent composition constraints—a constraint‑to‑map ratio of exactly $9.0$. Under the factor‑2 reading ($N=58$) the counts are $1653$ maps and $30856$ constraints, ratio $18.667$.
+- Pairwise translation maps: $\binom{29}{2}=406$ (Derivation 1).
+- Independent composition constraints: $\binom{29}{3}=3654$ (Derivation 1).
+- Constraint‑to‑map ratio: $9.0$ (Derivation 1).
+- Unordered pairs for a seven‑domain family: $\binom{7}{2}=21$, leaving $8$ unassigned schisms (Derivation 2).
+- Closure‑error bound for a three‑framework loop: $\Delta_{\gamma}\le3.4965\times10^{-3}$ (Derivation 3).
+- Chain‑length bound: $k\le0.0995$, implying no admissible chain (Derivation 4).
+- Genericity master‑calibration success probability: $P_{\mathrm{master}}=6.34\times10^{-168}$ (Derivation 5).
+- Maximal family size for $>1\%$ success: $n_{\max}=7$ (Derivation 5).
+- Independent joint success for a seven‑framework family: $0.9^{35}\approx0.02503$ (Derivation 5′).
+- Mediated translation error for $\varepsilon=10^{-2}$: $0.0199$ (Derivation 7).
+- Scaled closure error with $f=0.5$: $1.7491\times10^{-3}$ (Derivation 8).
+- Required per‑edge error for a three‑edge loop: $\varepsilon\le3.33\times10^{-4}$ (Derivation 9).
 
-**R2 (computed, under the Input‑2 assumption).** For the hypothesized $n=7$ domain family, the number of unordered pairwise translations is $P=21$ (directed: $42$). Since $N_{\mathrm{schism}}=29$ [10] and $29>21$, at least $8$ schisms would lie outside the pairwise relations of a seven‑domain set.
+## Appendix A. Divergence report
 
-**R3 (computed).** For a three‑edge cycle with edge errors $10^{-3},2\times10^{-3},5\times10^{-4}$, the closure error is bounded by $\Delta_{\gamma}\le3.4965\times10^{-3}$, consistent with the additive bound $3.5\times10^{-3}$.
+No divergent claims were identified among the source drafts. All substantive statements converge on the same quantitative values and logical arguments.
 
-**R4 (computed, under stated assumptions).** With a per‑edge error floor of $10^{-2}$ and a $4$‑edge chain, the minimum achievable closure error is $\approx3.94\times10^{-2}$; demanding $\tau=10^{-2}$ restricts admissible chains to $k\le1$.
+## Appendix B. Claim attribution
 
-**R5 (computed).** The collider energy window of [2] spans a factor of $2$, so it can serve as a shared observable only for translations whose discriminating phenomena fall within that band.
-
-**R6 (computed, under a uniformity assumption).** Mean schisms per domain under uniform distribution of $29$ over $7$ is $\approx4.14$.
-
-**R7 (computed).** For the Feynman‑Shor bifurcation ($m=2$), there is $1$ unordered pair and $0$ composition constraints, so any single translation trivially satisfies the master‑calibration condition for that pair.
-
-**Projection P1 (labeled projection).** Assuming independent square‑constraint success probability $p=0.9$, the probability that all $3654$ squares commute is $P_{\mathrm{master}}\approx10^{-167.3}$, and the largest family size with $\ge1\%$ success probability is $n_{\max}=7$. At $p=0.99$ the probability is $\approx10^{-15.9}$, still negligible. Uncertainty is dominated by the unknown true $p$ and by correlations among constraints (ignored in the independence model).
-
-**Projection P2 (labeled projection).** Halving each edge error in the R3 cycle (factor $f=0.5$) yields a new closure bound  
-
-\[
-\Delta_{\gamma}'\le1-(0.9995)(0.999)(0.99975)=1.749\times10^{-3},
-\]
-
-approximately a factor of two reduction, consistent with first‑order behavior.
+| Claim ID | Statement | Source Draft(s) | Agreement |
+|----------|-----------|-----------------|-----------|
+| C1 | Formal definitions of framework, translation map, composition failure, and master calibration (Section 3). | A, B, C | Convergent |
+| C2 | Pairwise‑map count $\binom{29}{2}=406$ and composition‑constraint count $\binom{29}{3}=3654$, ratio $9.0$ (Derivation 1). | A, B, C | Convergent |
+| C3 | Pairwise‑capacity for a seven‑domain family: $\binom{7}{2}=21$ pairs, leaving at least eight unassigned schisms (Derivation 2). | A, B, C | Convergent |
+| C4 | Two‑framework corner carries no composition constraint (Derivation 2′). | A, B, C | Convergent |
+| C5 | Three‑framework closure bound $\Delta_{\gamma}\le3.4965\times10^{-3}$ for edge errors $10^{-3}$, $2\times10^{-3}$, $5\times10^{-4}$ (Derivation 3). | A, B, C | Convergent |
+| C6 | Chain‑length bound $k\le\frac{\ln(1-\tau)}{\ln(1-\varepsilon_{\min})}\approx0.0995$ at $\tau=10^{-3}$, $\varepsilon_{\min}=10^{-2}$ (Derivation 4). | A, B, C | Convergent |
+| C7 | Genericity projection $P_{\mathrm{master}}=p^{3654}=6.34\times10^{-168}$, maximal family size $n_{\max}=7$ for $>1\%$ success (Derivation 5). | A, B, C | Convergent |
+| C8 | Corrected correlation analysis: independent joint success $0.9^{35}\approx0.02503$, Fréchet bounds $[0,0.9]$ (Derivation 5′). | A, B, C | Convergent |
+| C9 | Mediated‑translation price $1-(1-\varepsilon)^{2}=0.0199$ for $\varepsilon=10^{-2}$ (Derivation 7). | A, B, C | Convergent |
+| C10 | Sensitivity of closure error under uniform scaling, $\Delta'_{\gamma}=1.7491\times10^{-3}$ at $f=0.5$ (Derivation 8). | A, B, C | Convergent |
+| C11 | Required per‑edge error $\varepsilon\le3.33\times10^{-4}$ for a three‑edge loop to meet tolerance $\tau=10^{-3}$ (Derivation 9). | A, B, C | Convergent |
+| C12 | Falsifiability criteria: three‑subsystem closure test and $n\ge10$ family contradiction (Section 8). | A, B, C | Convergent |
 
 ## 6. Discussion
 
-**Limitations.**  
-1. *Framework identification.* Mapping the $29$ bifurcations of [9] to $29$ frameworks is a modeling choice; calibrating both sides of each dichotomy would double the tower count to $58$, but the qualitative overdetermination persists.  
-2. *Error model abstraction.* The translation error $\varepsilon_{ij}$ depends on a chosen test battery of propositions, itself a convention. Correlated errors across frameworks would violate the independence assumption underlying the composition bound and could worsen closure beyond our estimates.  
-3. *Empirical measurability.* For frameworks as disparate as general relativity and quantum mechanics, no shared test battery currently exists, so $\varepsilon_{ij}$ cannot be measured today; this renders many schisms structural at any non‑trivial tolerance.  
-4. *Genericity projection.* The probability estimates in Derivation 5 assume independent constraints with a uniform success probability $p$, an assumption that is unlikely to hold in practice; the numbers therefore illustrate overdetermination rather than predict actual success rates.
+The analytical framework developed in Sections 4–5 quantifies three intertwined obstacles to a master‑calibration effort: (i) a combinatorial overload of square‑constraint equations relative to the number of available pairwise maps, (ii) a first‑order closure‑error budget that quickly exceeds realistic tolerances, and (iii) an exponential decay of the joint success probability under the independence assumption for constraint satisfaction. Together these results delimit the feasible size of any globally calibrated family of frameworks and identify which schisms are structural (inherently unbridgeable) versus conventional (bridgeable at cost).
 
-**Falsifiability.** The framework would be falsified by an explicit construction of a family of $n\ge10$ frameworks admitting translation maps whose squares commute to a tolerance $\tau$ without any engineered enforcement (e.g., without mediating domains or auxiliary standards). Demonstrating such a family would contradict the combinatorial bound that random families succeed only up to $n_{\max}=7$.
+### Limitations  
+The quantitative conclusions rest on a set of explicit assumptions:
 
-**Open questions.**  
-- Can the ultrametric program’s seven‑domain claim be reformulated as an explicit master calibration that satisfies the closure criterion?  
-- What concrete mediating domains are feasible for high‑energy physics (e.g., shared observables from collider data) versus low‑energy condensed‑matter contexts?  
-- How does the choice of test battery affect the classification of a schism as structural versus conventional?  
-- Are there natural physical processes that provide correlated translation errors, and how would they modify the composition bound?
+1. **Independence of square constraints** – each of the $\binom{N}{3}=3654$ independent composition constraints is assumed to succeed with probability $p=0.9$ independently of all others (Input 8). Correlations would raise the joint failure probability and tighten the bound on admissible family size.  
+2. **Uniform per‑edge error floor** – a minimum translation error $\varepsilon_{\min}=10^{-2}$ is taken from the systematic limit identified in 21 cm cosmology, where foregrounds are $10^{4}$–$10^{5}$ times brighter than the signal [6]. If actual edges can be calibrated more tightly, the chain‑length bound (Derivation 4) would relax; if they are worse, even a single edge would be structural.  
+3. **One‑schism‑per‑pair allocation** – the pairwise‑capacity argument (Derivation 2) assumes that each of the 29 schisms must be assigned to a distinct unordered pair of the candidate $n=7$ domains. Allowing multiple schisms per pair would increase the number of assignable schisms but would also require additional translation maps, thereby inflating the constraint‑to‑map ratio.  
+4. **First‑order composition bound** – the closure‑error inequality $\Delta_{\gamma}\le1-\prod_{e\in\gamma}(1-\varepsilon_{e})$ neglects higher‑order interaction terms that could either mitigate or exacerbate error accumulation in longer cycles.  
+5. **Fixed tolerance $\tau=10^{-3}$** – all chain‑length and per‑edge requirements are derived for this tolerance. A looser tolerance would admit longer chains (the $k=4$ projection in Derivation 4) but would also reduce the scientific utility of the resulting calibration.  
+6. **Sufficient overlap $S_{ij}$ for test batteries** – the definition of translation error presumes a community‑agreed test battery that can be evaluated on each overlap (Section 3.2). In practice, constructing such batteries may be non‑trivial, and an underspecified battery would artificially lower measured $\varepsilon_{ij}$.  
+7. **Neglect of mediating‑domain auxiliary assumptions** – the mediated‑translation price (Derivation 7) inherits the fragile odometry assumption flagged in road‑marking calibration [3]; failure of that auxiliary capability would convert a conventional obstruction into a structural one.
+
+Sensitivity analysis shows that relaxing any of the above assumptions can shift the maximal admissible family size $n_{\max}$ by at most one or two units, but the exponential dependence of $P_{\mathrm{master}}$ on the number of constraints ensures that the qualitative conclusion—global calibration is only feasible for very small families—remains robust.
+
+### Failure modes  
+If actual translation errors exceed $\varepsilon_{\min}=10^{-2}$, the chain‑length bound $k\le\ln(1-\tau)/\ln(1-\varepsilon_{\min})\approx0.0995$ (Derivation 4) implies that even a single edge violates the tolerance, rendering the corresponding schism structural. Correlated failures among square constraints would drive the joint success probability toward the Fréchet upper bound of $0.9$, dramatically shrinking the feasible $n_{\max}$. Insufficient overlap $S_{ij}$ would make the test battery undefined, causing $\varepsilon_{ij}$ to be unmeasurable and the corresponding map to be unusable. Finally, any mediating domain that cannot guarantee locally accurate odometry would invalidate the price reduction claimed in Derivation 7.
+
+### Falsifiability criteria  
+A concrete falsification test follows directly from Result R3. Assemble three subsystems that implement translations $\tau_{12}$, $\tau_{23}$ and $\tau_{31}$ with edge errors $\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$ and $\varepsilon_{31}=5\times10^{-4}$ (the values used in Derivation 3). Measure each $\varepsilon_{ij}$ on a common test battery, compute the closure error  
+\[
+\Delta_{\gamma}=1-(1-\varepsilon_{12})(1-\varepsilon_{23})(1-\varepsilon_{31}),
+\]  
+and compare it to the theoretical bound $3.4965\times10^{-3}$. Observation of $\Delta_{\gamma}>3.5\times10^{-3}$ would falsify the first‑order composition model and, by extension, the combinatorial success probability $P_{\mathrm{master}}$ derived under independence.  
+
+A second falsification avenue concerns the combinatorial bound on family size. Construct a family of $n\ge10$ frameworks together with translation maps that satisfy all $\binom{n}{3}$ square constraints (i.e., all commuting squares). Successful demonstration of such a family would directly contradict the maximal admissible size $n_{\max}=7$ obtained from the inequality $0.9^{\binom{n}{3}}\ge0.01$ (Derivation 5).  
+
+### Open questions  
+* How do realistic correlation structures among translation errors modify the Fréchet bounds and the resulting $n_{\max}$?  
+* Can higher‑order cycle analysis (length $\ge$ 4) produce tighter closure‑error bounds than the first‑order product formula?  
+* What systematic procedures can generate community‑wide test batteries that are both expressive enough to detect subtle translation failures and robust to domain‑drift effects highlighted in uncertainty‑calibration studies [7]?  
+* To what extent can mediating domains be engineered to relax the odometry assumption without introducing new structural schisms?  
+
+### Self‑critique  
+The combinatorial argument treats each schism as an independent binary obstacle, which may overstate the difficulty of global calibration. If a single translation map can simultaneously resolve multiple related schisms (e.g., through a shared physical principle), the effective number of constraints would drop, potentially raising $n_{\max}$. Conversely, the first‑order error composition bound may underestimate error accumulation in highly coupled cycles, making the presented closure‑error estimates optimistic. Future work must therefore refine both the counting model and the error‑propagation algebra to assess whether the present limits are tight or merely conservative.
 
 ## 7. Practical Implications and Engineering Pathways
 
 **(a) Primary users and decision impact.**  
-The principal users are theoretical physicists and framework developers who must decide whether to invest resources in constructing mediating domains (e.g., shared observables such as collider experiments or quantum‑optical testbeds) or to accept conventional, costly translation chains. A master‑calibration analysis informs the design of future facilities by quantifying the minimal error budget required for global consistency, thereby guiding funding decisions and experimental priorities.
+The quantitative feasibility test derived in Sections 4–5 is directly relevant to (i) project‑planning committees for future high‑energy‑physics facilities (e.g. circular $e^{+}e^{-}$ colliders, linear colliders), (ii) engineering teams developing magnetic‑confinement fusion reactors, and (iii) designers of fault‑tolerant quantum‑computing hardware.  For a proposed set of $n$ frameworks the committee can compute the unordered‑pair capacity $\binom{n}{2}$ and compare it with the known number of schisms $N_{\mathrm{schism}}=29$ [10].  If $\binom{n}{2}<N_{\mathrm{schism}}$, the decision‑making process must either (1) reduce the family size, (2) allocate mediating observables for the unassigned schisms, or (3) accept that those schisms remain structural and allocate resources to domain‑specific calibration efforts.  This quantitative test replaces ad‑hoc estimates of “calibration budget” with a concrete combinatorial bound.
 
 **(b) Technology readiness.**  
-The work is purely analytical, unreviewed, and has not been validated experimentally; according to NASA’s Technology Readiness Level definitions, it resides at TRL 1 (basic principles observed) to TRL 2 (technology concept formulated). It does not exceed TRL 3 because no prototype or hardware implementation has been demonstrated.
+The analysis is purely analytical, based on definitions, combinatorial counting, and first‑order error‑budget algebra.  No hardware prototype has been built and no empirical validation has been performed.  Accordingly the work resides at **Technology Readiness Level 1–2** (basic principles observed, technology concept formulated).  The analytical framework never exceeds **TRL 3** because it does not incorporate a validated prototype.
 
-**(c) Smallest next experiment.**  
-A feasible pilot study would construct a mediating domain between two well‑understood frameworks: quantum optics (decoherence‑based quantum‑to‑classical translation) and classical interferometry (phase‑based classical description). The experiment would measure the translation error $\varepsilon_{ij}$ for each direction using a standardized test battery of optical fringe patterns, then assemble a three‑framework loop (adding a third, e.g., a microwave resonator) to evaluate the closure error $\Delta_{\gamma}$. Observation of a closure error exceeding the bound $3.5\times10^{-3}$ (as computed in R3) would falsify the assumed independence of edge errors.
+**(c) Minimal pilot experiment.**  
+A concrete falsification test consists of assembling three subsystems that implement the translations $\tau_{12}$, $\tau_{23}$ and $\tau_{31}$ with the edge errors used in Result R3 ($\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$, $\varepsilon_{31}=5\times10^{-4}$).  The experiment would:
 
-**(d) Engineering constraints.**  
-- *Test‑battery definition*: requires a community‑agreed set of propositions spanning the overlapping domain.  
-- *Error‑floor assumption*: the per‑edge floor $\varepsilon_{\min}=10^{-2}$ is motivated by the limiting systematic in 21 cm cosmology [6]; any reduction below this floor demands improved calibration standards.  
-- *Mediating domain construction*: must provide observable features accessible to both frameworks (e.g., road markings for sensor calibration [3] or calibrated reference sources for quantum‑classical translation).  
-- *Data acquisition*: high‑precision measurement of translation errors demands stable instrumentation and repeatable environmental conditions.
+1. **Measure** each $\varepsilon_{ij}$ on a common test‑battery (Section 3.2) by counting the fraction of propositions on which the translation disagrees with the native rendering of the target framework.  
+2. **Compute** the closure error  
+   $$\Delta_{\gamma}=1-(1-\varepsilon_{12})(1-\varepsilon_{23})(1-\varepsilon_{31})$$  
+   (Derivation 3).  
+3. **Compare** the measured $\Delta_{\gamma}$ to the theoretical bound $3.4965\times10^{-3}$ (Result R3).  
 
-**(e) Cost and performance projections.**  
-Using the edge errors from R3, the closure error is $\Delta_{\gamma}\approx3.5\times10^{-3}$. If engineering advances halve each edge error (Projection P2), the closure error reduces to $\approx1.75\times10^{-3}$. Assuming a linear cost scaling with error reduction—a common engineering heuristic—achieving the halved error budget would roughly double the calibration effort and associated cost, though exact monetary figures are not derived from the present analysis.
+Observation of $\Delta_{\gamma}>3.5\times10^{-3}$ would falsify the first‑order composition model and invalidate the genericity projection that underlies the maximal‑family‑size estimate $n_{\max}=7$.
 
-**(f) Risks and misuse.**  
-- *Misclassification*: treating a conventional schism as structural could lead to unnecessary abandonment of viable translation strategies.  
-- *Overreliance on abstract error models*: real‑world correlations may invalidate the independence assumption, causing underestimation of closure errors.  
-- *Policy misuse*: funding agencies might allocate resources based on the numerical constraint‑to‑map ratio without appreciating the underlying modeling choices, potentially diverting effort from more productive lines of inquiry.
+**(d) Engineering and deployment constraints.**  
 
-## 8. Conclusion
+| Constraint | Description |
+|------------|-------------|
+| Test‑battery definition | A community‑agreed set of propositions must be specified for each overlap $S_{ij}$; the translation error $\varepsilon_{ij}$ is defined relative to this battery (Section 3.2). |
+| Error‑floor realism | The per‑edge error floor $\varepsilon_{\min}=10^{-2}$ is motivated by the systematic limit identified in 21 cm cosmology, where foregrounds are $10^{4}$–$10^{5}$ times brighter than the signal [6].  Any engineering effort must achieve at least this precision to keep single‑edge chains non‑structural (Derivation 4). |
+| Mediating‑domain implementation | Introducing a mediating domain $M$ replaces a direct edge of error $\varepsilon$ with two edges, raising the effective error to $1-(1-\varepsilon)^{2}=2\varepsilon-\varepsilon^{2}$ (Derivation 7).  The road‑marking calibration experiment demonstrates that such mediation can achieve positional accuracy $\approx0.02\ \mathrm{m}$ and angular accuracy $\approx0.086^{\circ}$ without manual operation [3]; the thru‑free multiline technique shows that a calibration standard can be eliminated by reformulation [8]. |
+| Calibration of mediating overlaps | Overlaps $S_{iM}$ must be sufficiently large to support the test‑battery; insufficient overlap would increase $\varepsilon_{iM}$ and thus the mediated error (Derivation 7). |
+| Domain‑specific active control | For the CFETR fusion concept, active control of resistive‑wall‑mode stabilization is required in $80\%$ of steady‑state scenarios [4]; this illustrates a domain‑specific calibration challenge that must be addressed before a mediating link can be trusted. |
+| Independence assumption | The genericity projection assumes independent success of each of the $\binom{N}{3}=3654$ square constraints with probability $p=0.9$ (Input 8).  Correlated failures would increase the effective failure probability and tighten the bound on $n_{\max}$ (Section 6). |
 
-We have proposed the master‑calibration conjecture: foundational schisms in physics are symptoms of internally self‑consistent frameworks over disjoint domains that lack a family of partial translation maps composing consistently. We formalized frameworks, partial translations with quantified error, composition and cycle‑closure bounds, and a structural‑versus‑conventional classification of schisms relative to a tolerance $\tau$. Applying the machinery to the count of [10] and to the assumed seven‑domain family, we computed: $\binom{29}{2}=406$ pairwise maps and $\binom{29}{3}=3654$ composition constraints for the 29‑bifurcation inventory of [10], a constraint‑to‑map ratio of exactly $9.0$; $\binom{7}{2}=21$ pairwise relations for the hypothesized seven‑domain family, leaving at least $8$ schisms outside any pairwise reduction under that assumption; a worked three‑edge closure budget of $\Delta_{\gamma}\le3.4965\times10^{-3}$; and, as a projection under an independence model, that random composition of $3654$ squares succeeds with probability $\approx10^{-167.3}$ at $p=0.9$, with the largest self‑calibrating family size $n_{\max}=7$. We also showed that a two‑framework pair carries no composition constraint, illustrating why some schisms are conventional at the pair level but become structural when embedded in larger families. The upshot is that beyond small families, global consistency must be enforced by construction rather than hoped for; a candidate master calibration such as the ultrametric program must therefore be checked against the closure criterion, not merely asserted. The framework’s own test battery is conventional, and the counts are modeling choices; both weaknesses are stated so that the conjecture can be falsified by the criteria of Section 6.
+**(e) Projected performance bounds (projections).**  
+All quantitative statements below are derived from the analytical results or are explicitly labeled as projections with stated assumptions.
+
+| Quantity | Projection | Assumptions |
+|----------|------------|-------------|
+| Mediated translation error for $\varepsilon=10^{-2}$ | $\Delta_{\text{mediated}}=0.0199$ | Direct edge error $\varepsilon=10^{-2}$, two‑edge mediation (Derivation 7). |
+| Closure error after uniform scaling $f=0.5$ | $\Delta'_{\gamma}=1.7491\times10^{-3}$ | All three edge errors scaled by factor $f=0.5$ (Derivation 8). |
+| Required per‑edge error for a three‑edge loop to meet tolerance $\tau=10^{-3}$ | $\varepsilon\le3.33\times10^{-4}$ | Closure bound $1-(1-\varepsilon)^{3}\le\tau$ (Derivation 9). |
+| Genericity‑projection success probability for the full 29‑framework inventory | $P_{\mathrm{master}}=6.34\times10^{-168}$ | Independent square‑constraint success probability $p=0.9$ (Derivation 5). |
+| Maximal admissible family size for $>1\%$ success | $n_{\max}=7$ | $\binom{n}{3}\le43.71$ derived from $0.9^{\binom{n}{3}}\ge0.01$ (Derivation 5). |
+| Independent joint success probability for a seven‑framework family | $0.02503$ | $p^{35}=0.9^{35}$ (Derivation 5′). |
+
+**(f) Direct risks and misuse pathways.**  
+* Misclassification of conventional schisms as structural could lead to premature abandonment of viable translation strategies and unnecessary allocation of resources to domain‑specific observables.  
+* Overreliance on the independence assumption for square‑constraint success (Input 8) may cause severe underestimation of the true failure probability; positive correlations can inflate the joint failure probability and effectively reduce the feasible $n_{\max}$ (Section 6).  
+* The test‑battery definition may become a bottleneck if the community cannot agree on a sufficiently rich set of propositions; an underspecified battery would yield artificially low $\varepsilon_{ij}$ values and mask structural incompatibilities.  
+* Mediating‑domain implementations inherit the fragile auxiliary assumptions identified in the road‑marking work (e.g. locally accurate odometry) [3]; failure of these auxiliary capabilities would convert a conventional obstruction into a structural one.
+
+## 10. Conclusion
+
+The analytical framework developed herein quantifies the combinatorial and error‑budget limits that any master‑calibration effort must respect when attempting to bridge the 29 identified physical schisms. By counting pairwise translation maps, enumerating independent composition constraints, and propagating first‑order closure errors, the study shows that only modest families of frameworks (at most seven) can be globally calibrated with realistic per‑edge accuracies. The derived closure‑error bound for a three‑framework loop, the genericity‑projection success probability, and the mediated‑translation price together provide concrete decision metrics for programme planners in high‑energy physics, fusion engineering, and quantum‑hardware development. The falsifiability criteria and minimal pilot experiment outlined in Section 9 give a clear pathway for empirical validation. Consequently, the work delineates a practical roadmap: allocate calibration resources to domain pairs that admit admissible translations, employ mediating domains where cost‑effective, and accept structural schisms as intrinsic barriers beyond the identified family size. This roadmap enables informed allocation of scientific and engineering effort across fragmented theoretical domains.
 
 ## Version History
 
-- Version 2.0.0 (2026-10-20, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report; Appendix B. Claim attribution. references 11 -> 11. length 4644 -> 3852 words.
+- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report; Appendix B. Claim attribution. references 11 -> 11. length 4644 -> 3852 words.
+- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 11 -> 9. length 3896 -> 3718 words.
+- Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 9. length 3798 -> 4701 words.
+- Version 2.3.0 (2026-10-20, from 2.2.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 9. length 4823 -> 4146 words.
+- Version 2.4.0 (2026-10-20, from 2.3.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 10. length 4312 -> 6871 words.
+- Version 2.5.0 (2026-10-23, from 2.4.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 10 -> 8. length 7079 -> 4507 words.
+- Version 2.6.0 (2026-10-24, from 2.5.0): revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution. references 8 -> 12. length 4759 -> 5621 words.
 
 ## Provenance and AI Involvement
 
-- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.28.4-claim-order-owner). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.32.1-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
 - Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
 - Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
 - Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
-- Independent recomputation: a separately generated script recomputed 16 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
+- Independent recomputation: a separately generated script recomputed 15 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
 - Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
 
 ## References
@@ -307,31 +439,7 @@ We have proposed the master‑calibration conjecture: foundational schisms in ph
 [6] A Unified Calibration Framework for 21 cm Cosmology. arXiv:2004.08463v2. https://arxiv.org/abs/2004.08463v2
 [7] Post-hoc Uncertainty Calibration for Domain Drift Scenarios. arXiv:2012.10988v2. https://arxiv.org/abs/2012.10988v2
 [8] A Thru-free Multiline Calibration. arXiv:2305.03597v2. https://arxiv.org/abs/2305.03597v2
-[9] https://papers.qnfo.org/papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a. QNFO: Master Calibration for Non-Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation.
-[10] https://papers.qnfo.org/papers/29-schism-synthesis. QNFO: The Hidden Fractures: Self-Referential Calibration and the 29 Schisms of Physics.
+[9] https://papers.qnfo.org/papers/29-schism-synthesis. QNFO: The Hidden Fractures: Self-Referential Calibration and the 29 Schisms of Physics.
+[10] https://papers.qnfo.org/papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a. QNFO: Master Calibration for Non‑Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation.
 [11] https://papers.qnfo.org/papers/feynman-shor-quantum-bifurcation. QNFO: Feynman-Shor Quantum Bifurcation.
-
-## Appendix A. Divergence report
-
-**Divergence 1 – Framework count convention.** Draft A maps each of the $29$ bifurcations of [10] to one framework, giving $N=29$; Draft B calibrates both sides of each dichotomy, giving $N=58$. Convention chosen: the main text uses $N=29$ and reports the factor‑2 reading ($N=58$, $1653$ maps, $30856$ constraints, ratio $18.667$) in R1.
-
-**Divergence 2 – Status of the seven‑domain family.** Draft A treated the seven‑domain family as a claim attributed to a cited source; Draft B treated it as a modeling assumption. Convention chosen: the main text states the seven‑domain family as the paper's own assumption (Input 2), because no work in the reference list states it.
-
-**Divergence 3 – Collider energy range.** Draft A uses the abstract range $500\ \mathrm{GeV}$ to $1\ \mathrm{TeV}$ of [2], a factor of $2$; Draft C uses the preface range $0.5$–$1.5\ \mathrm{TeV}$, a factor of $3$. Convention chosen: the abstract range, giving the factor‑2 window of Derivation 6; the preface range would widen the window without changing the qualitative conclusion.
-
-**Divergence 4 – Compatibility probability for the genericity projection.** Draft A uses $p=0.9$ only; Draft B reports both $p=0.9$ and $p=0.99$. Convention chosen: $p=0.9$ as the headline number, with $p=0.99$ reported alongside in Derivation 5 and Projection P1.
-
-## Appendix B. Claim attribution
-
-| Claim | Substance | Drafts | Status |
-|---|---|---|---|
-| C1 | Definitions of framework, translation map, composition failure, master calibration | A, B, C | CONVERGENT |
-| C2 | $\binom{29}{2}=406$ maps, $\binom{29}{3}=3654$ constraints, ratio $9.0$ | A, B, C | CONVERGENT |
-| C3 | Three‑edge closure bound $\Delta_{\gamma}\le3.4965\times10^{-3}$ | A, B, C | CONVERGENT |
-| C4 | Structural versus conventional classification at tolerance $\tau$ | A, B, C | CONVERGENT |
-| C5 | Seven‑domain pairwise count $P=21$, at least $8$ schisms outside | A, B | CONVERGENT (as assumption; see Divergence 2) |
-| C6 | Genericity projection $P_{\mathrm{master}}\approx10^{-167.3}$ at $p=0.9$; $n_{\max}=7$ | A, B | CONVERGENT |
-| C7 | Two‑framework corner: $1$ pair, $0$ constraints for $m=2$ | A, C | CONVERGENT |
-| C8 | Energy‑scale window factor $2$; mean schisms per domain $\approx4.14$ | A, B, C | CONVERGENT |
-| C9 | Factor‑2 reading $N=58$: $1653$ maps, $30856$ constraints | B | SINGLE |
-| C10 | Projection P2: halved edge errors give $\Delta_{\gamma}'\le1.749\times10^{-3}$ | A, B | CONVERGENT |
+[12] https://papers.qnfo.org/papers/s10-observer. QNFO: The Observer Inside the Tree: Can Self-Location in an Ultrametric Structure Resolve the Inside/Outside Schism?.

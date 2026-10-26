@@ -3,7 +3,7 @@
   "slug": "master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
   "paper": {
     "path": "papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a/paper.md",
-    "title": "Master Calibration for Non-Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation",
+    "title": "Master Calibration for Non‑Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation",
     "url": "https://papers.qnfo.org/papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a"
   },
   "declared": {
@@ -73,6 +73,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "15f571d5f8cbd8fb0f3399c3284abd169d06841e"
+    },
+    {
+      "sha256": "96fea2f2834d3c7f361618c8f164795a135ad0034e9858022cf9fd13e89d5cea",
+      "bytes": 48807,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.6.0",
+      "git_commit": null
     }
   ],
   "events": []

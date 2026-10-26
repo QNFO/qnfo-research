@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla",
+  "paper": {
+    "path": "papers/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla/paper.md",
+    "title": "Manifold Modulation for Latent Space Steganography: A Capacity Bound and Distillation Demodulation Model for Teacher-Student Transmission Channels",
+    "url": "https://papers.qnfo.org/papers/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla"
+  },
+  "snapshots": [
+    {
+      "sha256": "4be63979a40243a83bf13e978868357cc5c0e0b633ca9edce30b366345548c6e",
+      "bytes": 42494,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

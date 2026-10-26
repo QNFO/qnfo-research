@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "measurement-and-feedforward-quantum-circuits-as-code-design-detectability-branch",
+  "paper": {
+    "path": "papers/measurement-and-feedforward-quantum-circuits-as-code-design-detectability-branch/paper.md",
+    "title": "Measurement-and-Feedforward Quantum Circuits as Code Design: Detectability, Branch Counting, and the Location of Nonstabilizerness",
+    "url": "https://papers.qnfo.org/papers/measurement-and-feedforward-quantum-circuits-as-code-design-detectability-branch"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "measurement-and-feedforward-quantum-circuits-as-code-design-detectability-branch"
+  },
+  "snapshots": [
+    {
+      "sha256": "8aa70e6d5781f37b43191ec1de2aa7a745d7a9fab11107825760fa2d5486ca3d",
+      "bytes": 27640,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
