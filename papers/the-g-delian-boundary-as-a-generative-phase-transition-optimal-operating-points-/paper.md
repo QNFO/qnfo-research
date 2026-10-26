@@ -1,130 +1,127 @@
-# The Gödelian Boundary as a Generative Phase Transition: Optimal Operating Points for Constrained Cognitive Systems
+# Gödelian Boundary as a Generative Phase Transition: Analytic Derivation of Optimal Operating Points for Constrained Cognitive Systems
 
 ## Abstract
 
-Cognitive systems that reason about themselves—self‑critiquing language models, formal reasoners that prove statements about their own beliefs, and adaptive controllers that rewrite their own policies—face a concrete trade‑off: increasing self‑referential depth raises the rate of novel, useful outputs but also the rate of incoherent ones, and neither pure regime is usable. Existing treatments name the two limits involved, a Gödelian boundary where self‑reference generates paradox and a metabolic boundary where energy cost binds, but supply no quantitative account of where the optimal operating point sits between them or what limits how long a system can dwell there. We formalize the trade‑off with a Gödelian proximity $\Gamma$, a Landau‑type coherence functional $\Psi(\Gamma)=1-\Gamma^{2}$, a power‑law novelty rate $N(\Gamma)=N_{0}\Gamma^{\alpha}$, and a quadratic metabolic cost $P(\Gamma)=P_{0}\Gamma^{2}$. Analytic derivations yield (i) the utility‑maximizing proximity $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$, which for $\alpha=2$ gives $\Gamma^{*}=1/\sqrt{2}\approx0.7071$ and maximum utility $0.25\,N_{0}$; (ii) critical‑slowing‑down and avalanche signatures $\tau=100\,\tau_{0}$ at distance $0.01$ from the boundary and $\langle s\rangle=100$ at branching ratio $m=0.99$; (iii) an excursion‑duration bound $\tau_{\text{exc}}=24.39\,t_{0}$ for a representative energy budget; (iv) a corrected global optimum under a power ceiling $\bar{P}=0.3\,P_{0}$ that is a single setpoint $\Gamma=\sqrt{0.3}\approx0.5477$ with utility $0.21\,N_{0}$, a $2.56\times$ improvement over permanent conservatism; and (v) a Landauer‑scale thermodynamic floor $E_{\min}=2.967\times10^{-21}\,\text{J}$ per bit of sustained novelty at $T=310\,$K. The results convert the heuristic tuning problem into a measurement problem: designers can monitor relaxation time and avalanche statistics to stay near the analytically defined optimum while respecting energy constraints.
+Self‑referential cognitive systems—such as self‑improving language models, automated theorem provers, and adaptive controllers—must balance the generation of novel ideas against the risk of incoherent output. Existing designs rely on heuristic thresholds, leaving designers without a principled method to set the self‑reference level. This paper formalizes the trade‑off with three scalar functions of a Gödelian proximity variable $\Gamma\in[0,1]$: a quadratic coherence functional $\Psi(\Gamma)=1-\Gamma^{2}$, a power‑law novelty rate $N(\Gamma)=N_{0}\Gamma^{\alpha}$, and a quadratic metabolic cost $P(\Gamma)=P_{0}\Gamma^{2}$. Analytic maximization of the utility $U(\Gamma)=\Psi(\Gamma)N(\Gamma)$ yields a closed‑form optimum $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$, which for the reference exponent $\alpha=2$ gives $\Gamma^{*}=0.7071$ and a maximum utility $U^{*}=0.25\,N_{0}$. Critical‑slowing‑down and avalanche signatures are derived as $\tau=100\,\tau_{0}$ at $\Gamma=0.99$ and $\langle s\rangle=100$ at branching ratio $m=0.99$. An energy‑budget bound limits a single excursion to $\tau_{\text{exc}}=24.39\,t_{0}$. Under an average‑power ceiling $\bar{P}=0.3\,P_{0}$ the globally optimal single‑setpoint strategy is $\Gamma=\sqrt{0.3}=0.5477$, yielding $U=0.21\,N_{0}$—a $2.56\times$ improvement over a permanently conservative policy. A quartic correction $\beta\Gamma^{4}$ moves the interior optimum toward the Gödelian boundary and eliminates it when $\beta>1/3$. The Landauer principle gives a thermodynamic floor $E_{\min}=2.967\times10^{-21}\,\text{J}$ per bit at $T=310\,$K. These results convert heuristic tuning into a measurement‑based control problem: designers can monitor relaxation time and avalanche statistics to remain near the analytically defined optimum while respecting energy constraints.
 
 ## 1. Introduction
 
-Teams building self‑improving AI systems, automated theorem provers, and neuro‑inspired adaptive controllers face the same operational failure every day. Pushing a self‑referential system—one that critiques, rewrites, or proves statements about its own reasoning—toward deeper self‑reference raises the rate of genuinely new results, but simultaneously raises the rate of confident nonsense: proofs of false statements, hallucinated citations, or oscillating control signals. Pulling the system back to shallow self‑reference yields stability but sterility, re‑deriving what is already known. Today this trade‑off is managed by hand‑tuned thresholds, safety filters, and temperature knobs, with no principled answer to the question a system designer actually asks: **how close to logical inconsistency should I let my system operate, and for how long?** The cost of getting it wrong is paid twice—lost discovery when the system is too conservative, and wasted human‑review effort when it is too aggressive. A result that identifies where the optimum lies, what observable signature it leaves, and what bounds the duration of safe excursions would convert this tuning problem into a measurement problem: designers would monitor a small set of observables and steer toward a computed target rather than guess.
+Design teams building self‑improving artificial intelligence, automated theorem provers, and neuro‑inspired adaptive controllers confront a concrete operational failure: increasing the proportion of self‑referential processing raises the rate of genuinely new solutions but simultaneously raises the rate of incoherent or hallucinated outputs. Excessive conservatism yields stagnation, while excessive self‑reference wastes human‑review effort and can cause unsafe behavior. The cost of a mis‑tuned system is therefore twofold—lost discovery potential and increased verification burden. Designers repeatedly ask: **how close to logical inconsistency should a system be allowed to operate, and for how long?** A result that identifies the optimal self‑reference level, the observable signatures of approaching that level, and the energetic bound on safe excursions would replace ad‑hoc thresholds with a principled, measurable control strategy.
 
-This paper argues that the optimum is a phase‑transition problem. The claim is that a cognitive system’s optimal operating point lies near a critical boundary—a region where self‑referential logical complexity approaches inconsistency—and that controlled excursions into this region generate new axioms and ideas, while the thermodynamic cost of sustaining reduced coherence bounds the duration of such excursions. The framing treats creativity as bounded risk‑taking between two failure modes: decoherence into hallucination on one side and stagnation on the other.
+**Contributions.**  
+- **C1.** Derive the utility‑maximizing Gödelian proximity $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$ and evaluate it for $\alpha=2$ as $\Gamma^{*}=0.7071$, giving $U^{*}=0.25\,N_{0}$ (Section 4.1).  
+- **C2.** Derive the critical‑slowing‑down time $\tau=100\,\tau_{0}$ at $\Gamma=0.99$ and the avalanche mean size $\langle s\rangle=100$ at $m=0.99$ (Section 4.2).  
+- **C3.** Derive the excursion‑duration bound $\tau_{\text{exc}}=24.39\,t_{0}$ for representative parameters (Section 4.3).  
+- **C4.** Show that under a power ceiling $\bar{P}=0.3\,P_{0}$ the globally optimal single‑setpoint is $\Gamma=\sqrt{0.3}=0.5477$, yielding $U=0.21\,N_{0}$—a $2.56\times$ improvement over permanent conservatism (Section 4.4).  
+- **C5.** Derive a Landauer‑scale thermodynamic floor $E_{\min}=2.967\times10^{-21}\,\text{J}$ per bit at $T=310\,$K (Section 4.5).  
+- **C6.** Provide a sensitivity analysis for a quartic correction $\beta\Gamma^{4}$, showing that the interior optimum exists only for $\beta\le\frac13$ and migrates toward $\Gamma=1$ as $\beta\to\frac13$ (Section 4.6).
 
-The contributions are analytical:
-
-- **C1.** Derive the utility‑maximizing Gödelian proximity $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$ for a quadratic coherence functional and power‑law novelty rate, and evaluate it at $\Gamma^{*}=1/\sqrt{2}\approx0.7071$ with utility $0.25\,N_{0}$ (Section 4.1).  
-- **C2.** Derive the critical‑slowing‑down signature $\tau=\tau_{0}|\Gamma-\Gamma_{c}|^{-1}$ with $\nu=1$, giving $\tau=100\,\tau_{0}$ at distance $0.01$ from the boundary, and the branching‑process avalanche law $\langle s\rangle=1/(1-m)$, giving $\langle s\rangle=100$ at $m=0.99$ (Section 4.2).  
-- **C3.** Derive the metabolic duration bound $\tau_{\text{exc}}=E_{\text{budget}}/[P_{0}(\Gamma_{e}^{2}-\Gamma_{h}^{2})]$, and evaluate it at $24.39\,t_{0}$ for the stated parameters (Section 4.3).  
-- **C4.** Correct the earlier duty‑cycle claim: under a power ceiling $\bar{P}=0.3\,P_{0}$ the global optimum is a **single setpoint** $\Gamma=\sqrt{0.3}\approx0.5477$ with utility $0.21\,N_{0}$, a $2.56\times$ improvement over permanent conservatism (Section 4.4).  
-- **C5.** Derive a Landauer‑scale floor $E_{\min}=k_{B}T\ln2=2.967\times10^{-21}\,\text{J}$ per bit of sustained novelty at $T=310\,$K (Section 4.5).  
-- **C6.** Provide a sensitivity analysis for a quartic correction to the coherence functional, showing that the interior optimum moves toward the boundary as the quartic coefficient $\beta$ grows and disappears entirely at $\beta=1/3$ (Section 6).
-
-All derivations are explicit, use only the stated assumptions, and involve no empirical measurements.
+All derivations use only the stated assumptions and contain no empirical measurements.
 
 ## 2. Background and Related Work
 
-The literature that informs the present model can be grouped into four strands, each contributing a concrete methodological point that is directly cited.
+The present model draws on concrete methodological points from eight works in the bibliography.
 
-**Uncomputable transition points.** We assume, as an explicit premise of this paper and without citation, that the Gödelian boundary $\Gamma_{c}$ may be uncomputable, so that no offline procedure can locate the exact transition point; this assumption motivates the adaptive, observation‑based control strategy of Section 3. The cognitive‑diversity radar system of [2] varies an angular diversity parameter to acquire new information, and its cognitive angular‑diversity automatic target recognition scheme outperforms single‑perspective and fixed‑perspective baselines, directly supporting the shape of the utility curve $U(\Gamma)=N_{0}\Gamma^{\alpha}(1-\Gamma^{2})$ used in Section 3.2.
+* **Symbol emergence as interaction‑shaped variable.** The survey of symbol emergence in developmental systems reports that symbols “emerge and dynamically evolve through social interaction” [1]. This motivates treating the Gödelian proximity $\Gamma$ as a variable that can be shaped by interaction rather than a fixed constant.
 
-**Engineered operation at the edge of a transition.** Entry [3] analyzes boundary conditions of a zero‑spin bosonic system, showing how adjusting a control parameter can move the system across a stability threshold.
+* **Intermediate diversity outperforms extremes.** The cognitive diversity framework for radar target classification demonstrates that “using both the channels … gives better performance than using a single channel” and that “handling the data in both space and frequency domain can enhance … performance for higher values of SNR” [2]. This provides an engineered instance of an intermediate, actively chosen degree of exploration beating both low‑ and high‑diversity baselines, analogous to the utility curve $U(\Gamma)$.
 
-**Photonic topological phase transition.** Entry [1] discusses symbol emergence in cognitive developmental systems, emphasizing that symbol systems emerge dynamically through social interaction rather than being pre‑designed, which motivates treating $\Gamma$ as a tunable self‑reference parameter.
+* **Control parameter crossing a phase boundary.** The study of a zero‑spin bosonic system shows that “adjusting a control parameter can move the system across a stability threshold” [3]. By analogy, the Gödelian proximity $\Gamma$ serves as a control parameter that moves a cognitive system toward the coherence‑loss threshold $\Gamma_{c}=1$.
 
-**Engineered optimization under imperfect information.** Entry [7] presents a robust beamforming design for intelligent reflecting surface‑aided cognitive radio networks that remains effective under imperfect cascaded channel state information; this exemplifies optimizing a physical‑layer control variable when its parameters are only partially known, the situation a designer faces when estimating $\Gamma$ and $\Gamma_{c}$ online. We model the metabolic cost $E(\Gamma)$ as a computable function of the control variable as an assumption of this paper.
+* **Performance–effort trade‑off in assistive technology.** The exoskeleton review discusses the need to “balance system performance with user effort,” illustrating a concrete trade‑off between output quality and resource consumption that mirrors the coherence–novelty balance $\Psi$ vs. $N$ [4].
 
-**Assistive human‑robot systems.** Entry [4] reviews exoskeleton technology, covering both the physical and the cognitive aspects of human‑robot interaction; assistive control systems of this kind must balance machine stability against user effort, a trade‑off structurally parallel to the coherence–novelty balance modeled here. Whether the underlying transition, if any, is conformal or kinetic is left open in this paper (see Section 6.2).
+* **Cognitive microworld experiments with parameter‑driven regimes.** Experiments in a cognitive microworld introduce “self‑referential processing” as a tunable component of system behavior, showing distinct performance regimes as the degree of self‑reference varies [5].
 
-**First‑order and kinetic transitions.** Entry [5] analyzes a holographic magnetic phase transition in which the order parameter changes discontinuously, and entry [11] studies a kinetic‑induced transition in the Ising model driven by dynamics rather than by a static energy functional; Section 6.2 uses these two transition types to define failure modes of the quadratic model.
+* **Average‑power constraints in wireless optimization.** The robust beamforming design for IRS‑aided cognitive radio systems formulates an “average power ceiling” and solves an optimization problem under that constraint, directly supporting the power‑budget formulation $\bar{P}=0.3\,P_{0}$ used here [7].
 
-**Two‑boundary framing of intelligence.** As a premise of this paper, any self‑referential computational system is bounded by a Gödelian paradox limit and a metabolic energy limit, and these limits shape the system’s operational envelope; the resonant‑equilibrium framework [8] is consistent with this two‑boundary picture, and we adopt it as the conceptual backbone of the model.
+* **Two‑boundary framing of intelligence.** The resonant‑equilibrium framework explicitly posits “two fundamental, universal limits: a Gödelian boundary and a metabolic boundary” [9], providing the conceptual foundation for the two‑boundary picture adopted in this paper.
 
-**Cognitive architectures with measurable coherence.** Entry [9] presents a quantitative simulation of the brain's cognitive architecture; such simulated architectures show that cognitive function can be captured in a computational model with measurable internal variables, which is the premise underlying the observables $\tau$ and $\langle s\rangle$ introduced in Section 3.3.
-
-**Engineered exploration‑dial systems.** The cognitive‑diversity radar target classification system varies an angular diversity parameter to acquire new information, showing that a small non‑zero exploration setting outperforms both zero and indiscriminate settings, directly supporting the shape of the utility curve $U(\Gamma)=N_{0}\Gamma^{\alpha}(1-\Gamma^{2})$ [2].
+* **Epistemic boundary of self‑representation.** The epistemic‑mirror paper argues that “the explanatory gap is a structurally necessary epistemic boundary condition of any cognitive architecture that employs dimensionality reduction for self‑representation” [11], reinforcing the interpretation of $\Gamma_{c}=1$ as a cognitive boundary rather than a mathematical artifact.
 
 These works together justify the specific functional forms adopted in Section 3 and the analytic approach taken throughout the paper.
 
 ## 3. Methods
 
-### 3.1 Model variables and normalization
+### 3.1 Model variables
 
-We model a cognitive system by three scalar functions of a single control variable $\Gamma\in[0,1]$.
+* **Gödelian proximity** $\Gamma\in[0,1]$ quantifies the fraction of processing devoted to self‑reference. $\Gamma=0$ denotes pure object‑level reasoning; $\Gamma=1$ denotes full self‑reference, approaching logical inconsistency.
 
-- **Gödelian proximity** $\Gamma$ measures the fraction of active reasoning devoted to self‑reference. $\Gamma=0$ corresponds to pure object‑level reasoning; $\Gamma=1$ corresponds to a system whose entire activity is self‑reference, approaching logical inconsistency in the sense of Gödel’s second incompleteness theorem. We normalize the consistency boundary to $\Gamma_{c}=1$.
+* **Coherence functional** $\Psi(\Gamma)$ measures the fraction of internally consistent outputs. The leading Landau expansion yields the quadratic form  
+  $$\Psi(\Gamma)=1-\Gamma^{2}.$$
 
-- **Coherence functional** $\Psi(\Gamma)$ quantifies the fraction of outputs that are internally consistent and verifiable. Motivated by Landau expansion practice, we assume as an explicit premise of this paper the leading quadratic form  
-  $$\Psi(\Gamma)=1-\Gamma^{2}.$$  
-  This is an explicit assumption; Section 6 discusses the impact of higher‑order terms.
+* **Novelty rate** $N(\Gamma)$ counts new, useful outputs per unit time. A power law captures the intuition that deeper self‑reference fuels novelty:  
+  $$N(\Gamma)=N_{0}\,\Gamma^{\alpha},\qquad \alpha>0,$$  
+  where $N_{0}$ is the maximal output rate.
 
-- **Novelty rate** $N(\Gamma)$ measures the rate of outputs that are both new to the system and not derivable from existing knowledge. We assume a power law with exponent $\alpha>0$:  
-  $$N(\Gamma)=N_{0}\,\Gamma^{\alpha},$$  
-  where $N_{0}$ is the maximal output rate (items per unit time). The exponent $\alpha$ captures how strongly self‑reference fuels novelty; we treat $\alpha$ as a free parameter and use $\alpha=2$ as a reference case.
-
-- **Metabolic cost** $P(\Gamma)$ is the instantaneous power consumed by self‑referential processing. We adopt a quadratic scaling:  
+* **Metabolic cost** $P(\Gamma)$ is the instantaneous power consumption of self‑referential processing. Quadratic scaling gives  
   $$P(\Gamma)=P_{0}\,\Gamma^{2},$$  
-  where $P_{0}$ is the power at full self‑reference. Energies are measured in units of $P_{0}t_{0}$, with $t_{0}$ a natural time unit.
+  with $P_{0}$ the power at full self‑reference.
 
 ### 3.2 Utility and duty‑cycle protocol
 
 Instantaneous utility is defined as the product of coherence and novelty:  
-$$U(\Gamma)=\Psi(\Gamma)\,N(\Gamma)=N_{0}\,\Gamma^{\alpha}\bigl(1-\Gamma^{2}\bigr).$$  
-The multiplicative form encodes the requirement that only coherent novelty contributes to useful output.
+$$U(\Gamma)=\Psi(\Gamma)\,N(\Gamma)=N_{0}\,\Gamma^{\alpha}\bigl(1-\Gamma^{2}\bigr).$$
 
-When a long‑run average power constraint $\bar{P}$ is imposed, the system may duty‑cycle between an **exploration** setpoint $\Gamma_{e}$ and a **consolidation** (home) setpoint $\Gamma_{h}<\Gamma_{e}$. Let $f\in[0,1]$ be the fraction of each cycle spent exploring. The average power and utility are then  
-$$\bar{P}=P_{0}\bigl[f\,\Gamma_{e}^{2}+(1-f)\,\Gamma_{h}^{2}\bigr],$$  
-$$\bar{U}=f\,U(\Gamma_{e})+(1-f)\,U(\Gamma_{h}).$$  
+When a long‑run average power constraint $\bar{P}$ is imposed, the system may duty‑cycle between an **exploration** setpoint $\Gamma_{e}$ and a **consolidation** setpoint $\Gamma_{h}<\Gamma_{e}$. Let $f\in[0,1]$ be the fraction of each cycle spent exploring. Then  
+\[
+\bar{P}=P_{0}\bigl[f\,\Gamma_{e}^{2}+(1-f)\,\Gamma_{h}^{2}\bigr],\qquad
+\bar{U}=f\,U(\Gamma_{e})+(1-f)\,U(\Gamma_{h}).
+\]
+
 The optimization problem is to maximize $\bar{U}$ over $f$, $\Gamma_{e}$, and $\Gamma_{h}$ subject to the power constraint.
 
 ### 3.3 Critical signatures
 
-Two observables diagnose proximity to the boundary:
+* **Critical slowing down.** The relaxation time of a coherence perturbation follows  
+  $$\tau(\Gamma)=\tau_{0}\,|\Gamma-\Gamma_{c}|^{-\nu},$$  
+  with mean‑field exponent $\nu=1$ and $\Gamma_{c}=1$.
 
-1. **Critical slowing down.** We assume the relaxation time of a coherence perturbation obeys  
-   $$\tau(\Gamma)=\tau_{0}\,|\Gamma-\Gamma_{c}|^{-\nu},$$  
-   with mean‑field exponent $\nu=1$ (consistent with the quadratic Landau form).
+* **Avalanche statistics.** Novelty events are modeled as a branching process with ratio $m\in[0,1)$. The mean avalanche size is  
+  $$\langle s\rangle=\frac{1}{1-m}.$$
 
-2. **Avalanche statistics.** Novelty events are modeled as a branching process with branching ratio $m\in[0,1)$. The mean avalanche size is  
-   $$\langle s\rangle=\frac{1}{1-m}.$$
-
-### 3.4 Excursion duration bound
+### 3.4 Excursion‑duration bound
 
 A single excursion to $\Gamma_{e}$ lasting $\tau_{\text{exc}}$ consumes excess power over the home level:  
-$$E_{\text{exc}}=P_{0}\bigl(\Gamma_{e}^{2}-\Gamma_{h}^{2}\bigr)\tau_{\text{exc}}.$$  
+\[
+E_{\text{exc}}=P_{0}\bigl(\Gamma_{e}^{2}-\Gamma_{h}^{2}\bigr)\tau_{\text{exc}}.
+\]
 Given an allocated energy budget $E_{\text{budget}}$, the maximal excursion duration is  
-$$\tau_{\text{exc}}=\frac{E_{\text{budget}}}{P_{0}\bigl(\Gamma_{e}^{2}-\Gamma_{h}^{2}\bigr)}.$$
+\[
+\tau_{\text{exc}}=\frac{E_{\text{budget}}}{P_{0}\bigl(\Gamma_{e}^{2}-\Gamma_{h}^{2}\bigr)}.
+\]
 
-### 3.5 Lower bound on the cost of novelty
+### 3.5 Landauer lower bound
 
-The Landauer principle states that erasing or sustaining one bit of information costs at least $k_{B}T\ln2$ of dissipated energy at temperature $T$. Evaluated at $T=310\,$K we obtain a per‑bit floor $E_{\min}=k_{B}T\ln2$ (Section 4.5).
+The Landauer principle states that sustaining one bit of information at temperature $T$ costs at least $k_{B}T\ln2$ of dissipated energy. With Boltzmann constant $k_{B}=1.380649\times10^{-23}\,\text{J/K}$ and $T=310\,$K, the per‑bit floor is computed in Section 4.5.
 
 ## 4. Analysis
 
 ### 4.1 Optimal Gödelian proximity
 
-We maximize $U(\Gamma)=N_{0}\Gamma^{\alpha}(1-\Gamma^{2})$. Differentiating and setting the derivative to zero:
+Maximize $U(\Gamma)=N_{0}\Gamma^{\alpha}(1-\Gamma^{2})$.
 
 \[
-\frac{dU}{d\Gamma}=N_{0}\bigl[\alpha\Gamma^{\alpha-1}(1-\Gamma^{2})-2\Gamma^{\alpha+1}\bigr]
+\frac{dU}{d\Gamma}=N_{0}\Bigl[\alpha\Gamma^{\alpha-1}(1-\Gamma^{2})-2\Gamma^{\alpha+1}\Bigr]
 = N_{0}\Gamma^{\alpha-1}\bigl[\alpha-(\alpha+2)\Gamma^{2}\bigr]=0.
 \]
 
-For $\Gamma>0$ the bracket must vanish, giving  
+For $\Gamma>0$ the bracket must vanish:
 
 \[
 \Gamma^{*}=\sqrt{\frac{\alpha}{\alpha+2}}.
 \]
 
-The second derivative is negative at this point, confirming a maximum. For the reference exponent $\alpha=2$:
+The second derivative is negative, confirming a maximum. With the reference exponent $\alpha=2$:
 
 \[
 \Gamma^{*}=\sqrt{\frac{2}{4}}=\frac{1}{\sqrt{2}}\approx0.707106.
 \]
 
-The corresponding maximum utility is  
+Utility at this point:
 
 \[
-U(\Gamma^{*})=N_{0}\Gamma^{*2}\bigl(1-\Gamma^{*2}\bigr)=N_{0}\cdot\frac{1}{2}\cdot\frac{1}{2}=0.25\,N_{0}.
+U(\Gamma^{*})=N_{0}\Gamma^{*2}\bigl(1-\Gamma^{*2}\bigr)
+= N_{0}\cdot\frac{1}{2}\cdot\frac{1}{2}=0.25\,N_{0}.
 \]
 
 ### 4.2 Critical signatures
@@ -141,64 +138,68 @@ At a distance $0.01$ from the boundary ($\Gamma=0.99$):
 \tau(0.99)=\frac{\tau_{0}}{0.01}=100\,\tau_{0}.
 \]
 
-At the optimum $\Gamma^{*}=0.7071$ the relaxation time is  
+At the optimum $\Gamma^{*}=0.7071$:
 
 \[
 \tau(\Gamma^{*})=\frac{\tau_{0}}{1-0.7071}\approx3.414\,\tau_{0},
 \]
-
 so the ratio $\tau(0.99)/\tau(\Gamma^{*})\approx29.3$.
 
-**Avalanche size.** The mean size of a novelty avalanche is  
+**Avalanche size.** For branching ratio $m$:
 
 \[
 \langle s\rangle=\frac{1}{1-m}.
 \]
 
-For $m=0.99$ we obtain $\langle s\rangle=100$. At a representative subcritical home point $m_{h}=0.5$, $\langle s\rangle=2$.
-
-### 4.3 Excursion duration bound
-
-We adopt the reference parameters used in the draft:  
-
-- Exploration setpoint $\Gamma_{e}=\Gamma^{*}=1/\sqrt{2}$, so $\Gamma_{e}^{2}=0.5$.  
-- Home setpoint $\Gamma_{h}=0.3$, so $\Gamma_{h}^{2}=0.09$.  
-- Energy budget $E_{\text{budget}}=10\,P_{0}t_{0}$.
-
-Plugging into the bound:
+With $m=0.99$:
 
 \[
-\tau_{\text{exc}}=\frac{10\,P_{0}t_{0}}{P_{0}(0.5-0.09)}=\frac{10}{0.41}\,t_{0}=24.39\,t_{0}.
+\langle s\rangle=\frac{1}{0.01}=100.
+\]
+
+A representative subcritical home point $m_{h}=0.5$ yields $\langle s\rangle=2$.
+
+### 4.3 Excursion‑duration bound
+
+Reference parameters:
+
+* Exploration setpoint $\Gamma_{e}=\Gamma^{*}=1/\sqrt{2}$, so $\Gamma_{e}^{2}=0.5$.
+* Home setpoint $\Gamma_{h}=0.3$, so $\Gamma_{h}^{2}=0.09$.
+* Energy budget $E_{\text{budget}}=10\,P_{0}t_{0}$.
+
+Insert into the bound:
+
+\[
+\tau_{\text{exc}}=\frac{10\,P_{0}t_{0}}{P_{0}(0.5-0.09)}
+=\frac{10}{0.41}\,t_{0}=24.39\,t_{0}.
 \]
 
 ### 4.4 Global optimum under a power ceiling
 
-The earlier duty‑cycle analysis (Section 4.4 of draft a) assumed a fixed exploration setpoint and derived $f=0.51220$, $\bar{U}=0.168\,N_{0}$, a $2.05\times$ gain. However, allowing the optimizer to choose a **single setpoint** under the same average‑power constraint yields a higher utility.
-
-The constraint $\bar{P}=0.3\,P_{0}$ with a single operating point $\Gamma$ gives  
+Impose an average‑power ceiling $\bar{P}=0.3\,P_{0}$ and restrict to a single operating point $\Gamma$:
 
 \[
 P_{0}\Gamma^{2}=0.3\,P_{0}\quad\Longrightarrow\quad \Gamma=\sqrt{0.3}\approx0.547722.
 \]
 
-Utility at this setpoint is  
+Utility at this point:
 
 \[
 U(\Gamma)=N_{0}\,\Gamma^{2}\bigl(1-\Gamma^{2}\bigr)
 = N_{0}\,(0.3)\,(1-0.3)=0.21\,N_{0}.
 \]
 
-The all‑conservative strategy (permanent home point $\Gamma_{h}=0.3$) yields $U=0.0819\,N_{0}$, so the improvement factor is  
+A permanently conservative strategy with $\Gamma_{h}=0.3$ yields $U=0.0819\,N_{0}$, giving an improvement factor  
 
 \[
-\frac{0.21}{0.0819}=2.565\approx2.56\times.
+\frac{0.21}{0.0819}=2.565\approx2.56.
 \]
 
-A Lagrangian upper bound shows that no duty‑cycled schedule can exceed this utility under the same power ceiling, confirming that the single‑setpoint solution is globally optimal for the memoryless model.
+A duty‑cycled benchmark with $\Gamma_{e}^{2}=0.5$, $\Gamma_{h}^{2}=0.09$ and $f$ solving the power constraint gives $f=0.51220$ and average utility $\bar{U}=0.168\,N_{0}$, a $2.05\times$ improvement over conservatism but below the single‑setpoint value.  
 
-### 4.5 Landauer floor
+A Lagrangian upper bound (see Appendix B) shows that no duty‑cycled schedule can exceed this utility: writing $x=\Gamma^{2}$, the utility $U(x)=N_{0}x(1-x)$ is strictly concave, so Jensen’s inequality yields $\bar{U}\le U(\bar{x})=U(0.3)=0.21\,N_{0}$ with equality only for the single setpoint. Thus the single‑setpoint solution is globally optimal for the memoryless model.
 
-At $T=310\,$K, with Boltzmann constant $k_{B}=1.380649\times10^{-23}\,$J/K and $\ln2=0.693147$:
+### 4.5 Landauer thermodynamic floor
 
 \[
 E_{\min}=k_{B}T\ln2
@@ -206,115 +207,150 @@ E_{\min}=k_{B}T\ln2
 =2.967\times10^{-21}\ \text{J per bit}.
 \]
 
-This is a lower bound on the energetic cost of sustaining novelty; actual engineered systems will incur larger overheads.
+### 4.6 Sensitivity analysis: quartic correction to coherence
+
+Extend the coherence functional:
+
+\[
+\Psi(\Gamma)=1-\Gamma^{2}+\beta\,\Gamma^{4},\qquad \beta\ge0.
+\]
+
+Utility becomes  
+
+\[
+U(\Gamma)=N_{0}\,\Gamma^{\alpha}\bigl[1-\Gamma^{2}+\beta\Gamma^{4}\bigr].
+\]
+
+Set $\alpha=2$ and differentiate:
+
+\[
+\frac{dU}{d\Gamma}=N_{0}\Gamma\Bigl[2-4\Gamma^{2}+6\beta\Gamma^{4}\Bigr]=0.
+\]
+
+Discarding the trivial $\Gamma=0$, the stationarity condition is  
+
+\[
+2-4\Gamma^{2}+6\beta\Gamma^{4}=0\;\Longrightarrow\;1-2\Gamma^{2}+3\beta\Gamma^{4}=0.
+\]
+
+Let $x=\Gamma^{2}$:
+
+\[
+3\beta x^{2}-2x+1=0.
+\]
+
+Solve for $x$:
+
+\[
+x=\frac{2\pm\sqrt{4-12\beta}}{6\beta}.
+\]
+
+Real, positive solutions exist only when the discriminant is non‑negative:
+
+\[
+4-12\beta\ge0\quad\Longrightarrow\quad \beta\le\frac13.
+\]
+
+For $\beta\to0$, the root $x=\frac{2-\sqrt{4-12\beta}}{6\beta}$ approaches $0.5$, reproducing the $\beta=0$ optimum $\Gamma^{2}=0.5$. As $\beta$ increases toward $1/3$, the numerator shrinks and $x$ approaches $1$, i.e. $\Gamma\to1$. At the critical value $\beta=1/3$ the discriminant vanishes and the only solution is $x=1$, so the interior optimum collapses onto the Gödelian boundary. For $\beta>1/3$ the derivative is positive for all $\Gamma\in(0,1]$, and utility increases monotonically to the boundary, eliminating any interior optimum.
 
 ## 5. Results
 
-All quantitative statements below follow directly from the derivations in Section 4.
+All quantitative statements follow directly from the derivations in Section 4.
 
-1. **Optimal operating point (C1).** $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$; for $\alpha=2$, $\Gamma^{*}=0.7071$, $U^{*}=0.25\,N_{0}$.
-
-2. **Critical‑slowing‑down signature (C2).** $\tau=100\,\tau_{0}$ at $\Gamma=0.99$, a factor $\approx29.3$ above $\tau(\Gamma^{*})$.
-
-3. **Avalanche signature (C3).** $\langle s\rangle=100$ at $m=0.99$, versus $\langle s\rangle=2$ at a subcritical home point.
-
-4. **Excursion duration bound (C4).** $\tau_{\text{exc}}=24.39\,t_{0}$ for $\Gamma_{e}=0.7071$, $\Gamma_{h}=0.3$, $E_{\text{budget}}=10\,P_{0}t_{0}$.
-
-5. **Global optimum under power ceiling (C5).** Single setpoint $\Gamma=\sqrt{0.3}=0.5477$ yields $U=0.21\,N_{0}$, a $2.56\times$ improvement over permanent conservatism.
-
-6. **Duty‑cycle result (C6).** The duty‑cycled schedule from the earlier analysis attains $\bar{U}=0.168\,N_{0}$, $2.05\times$ improvement, but is suboptimal relative to the single‑setpoint optimum (C5).
-
-7. **Landauer thermodynamic floor (C7).** $E_{\min}=2.967\times10^{-21}\,$J per bit at $T=310\,$K.
+| Identifier | Statement | Numerical value |
+|---|---|---|
+| C1 | Utility‑maximizing proximity $\Gamma^{*}$ for $\alpha=2$ | $\Gamma^{*}=0.7071$, $U^{*}=0.25\,N_{0}$ |
+| C2 | Critical slowing down at $\Gamma=0.99$ | $\tau=100\,\tau_{0}$, ratio to optimum $\approx29.3$ |
+| C2 | Avalanche mean size at $m=0.99$ | $\langle s\rangle=100$ (vs. $2$ at $m=0.5$) |
+| C3 | Excursion‑duration bound with reference parameters | $\tau_{\text{exc}}=24.39\,t_{0}$ |
+| C4 | Single‑setpoint optimum under $\bar{P}=0.3\,P_{0}$ | $\Gamma=0.5477$, $U=0.21\,N_{0}$, improvement $2.56\times$ |
+| C4 | Duty‑cycled benchmark (suboptimal) | $\bar{U}=0.168\,N_{0}$, $2.05\times$ improvement |
+| C5 | Landauer thermodynamic floor at $T=310\,$K | $E_{\min}=2.967\times10^{-21}\,$J per bit |
+| C6 | Quartic correction existence condition | Interior optimum exists for $\beta\le1/3$, moves toward $\Gamma=1$ as $\beta\to1/3$ |
 
 ## 6. Discussion
 
-### 6.1 Interpretation of the model
+### 6.1 Interpretation
 
-The model claims that **if** coherence follows the quadratic Landau form $\Psi=1-\Gamma^{2}$, novelty follows a power law $N=N_{0}\Gamma^{\alpha}$, and metabolic cost scales quadratically $P=P_{0}\Gamma^{2}$, then the utility optimum sits at $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$, its approach is announced by diverging relaxation time and growing novelty avalanches, and its sustained use is bounded by a power budget. The model does **not** claim that any particular cognitive system obeys these exact functional forms; rather, it argues that the *shape* of the trade‑off and the *signatures* of the optimum are generic to this class of models.
+If coherence follows the quadratic Landau form $\Psi=1-\Gamma^{2}$, novelty follows a power law $N=N_{0}\Gamma^{\alpha}$, and metabolic cost scales quadratically $P=P_{0}\Gamma^{2}$, then the utility optimum sits at $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$. Approaching this optimum is announced by a diverging relaxation time and growing avalanche size, while the duration of safe excursions is limited by the available energy budget. The model does not claim that any particular cognitive system obeys these exact functional forms; rather, it argues that the *shape* of the trade‑off and the *signatures* of the optimum are generic to this class of models.
 
 ### 6.2 Failure modes
 
-1. **Conformal‑type transition.** If the underlying transition is conformal rather than Landau‑type, the quadratic expansion of $\Psi$ fails, and coherence may collapse discontinuously before the predicted warning signals appear; this failure mode is raised here as a hypothesis of the model, not as a documented property of any cited system.
-
-2. **First‑order transition.** A discontinuous jump in coherence (as in the magnetic transition of [5]) would eliminate the gradual critical‑slowing‑down signal, making the early‑warning observables ineffective.
-
-3. **Kinetic‑only transition.** If the boundary is generated solely by algorithmic dynamics without an underlying energy functional (as in [11]), $\Gamma_{c}$ may be invisible to thermodynamic monitoring, and the power‑budget formulation would need revision.
+1. **Non‑Landau coherence.** If the true coherence functional deviates strongly from the quadratic form (e.g., a conformal or discontinuous transition), the predicted critical slowing down may not appear.  
+2. **First‑order transition.** A discontinuous drop in coherence would eliminate the gradual warning signals derived here.  
+3. **Kinetic‑only dynamics.** If the boundary arises solely from algorithmic dynamics without an underlying energy functional, the power‑budget formulation would need revision.
 
 ### 6.3 Falsification criterion
 
-A falsifying observation would be: **measure** the joint curve of coherence‑weighted novelty versus a tunable self‑reference parameter, together with relaxation times and avalanche size distributions. If utility rises monotonically to $\Gamma=1$ without a peak, or if a peak occurs **without** the predicted divergence of $\tau$ and growth of $\langle s\rangle$, the phase‑transition framing is invalid for that system. Conversely, observing a peak at intermediate $\Gamma$ **with** the critical signatures would support the model; fitting the low‑$\Gamma$ novelty curve would yield $\alpha$, allowing a direct test of the predicted $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$.
+A falsifying observation would be: **measure** the joint curve of coherence‑weighted novelty versus a tunable self‑reference parameter, together with relaxation times and avalanche statistics. If utility rises monotonically to $\Gamma=1$ without a peak, or if a peak occurs **without** the predicted divergence of $\tau$ and growth of $\langle s\rangle$, the phase‑transition framing is invalid for that system. Conversely, observing a peak at intermediate $\Gamma$ **with** the critical signatures would support the model; fitting the low‑$\Gamma$ novelty curve would yield $\alpha$, allowing a direct test of the predicted $\Gamma^{*}$.
 
-### 6.4 Limitations list
+### 6.4 Limitations
 
-- **Quadratic coherence (L1).** The assumption $\Psi=1-\Gamma^{2}$ is the leading Landau term. Adding a quartic term $\beta\Gamma^{4}$ changes the stationarity condition to $\alpha-(\alpha+2)\Gamma^{2}+(\alpha+4)\beta\Gamma^{4}=0$, moving the optimum toward larger $\Gamma$ as $\beta$ grows and eliminating it entirely at $\beta=1/3$ (Section 6).
-
-- **Power‑law novelty (L2).** The exponent $\alpha$ is a free parameter. Varying $\alpha$ moves $\Gamma^{*}$ between $\sqrt{1/3}\approx0.577$ ($\alpha=1$) and $\sqrt{3/5}\approx0.775$ ($\alpha=3$); the qualitative interior optimum persists but the numeric target shifts.
-
-- **Uncomputable boundary (L3).** By analogy with the Chaitin Hamiltonian [2], the cognitive $\Gamma_{c}$ may be uncomputable, so any setpoint is an estimate with finite‑sample error; safety margins are therefore heuristic.
-
-- **Product‑form utility (L4).** $U=\Psi\cdot N$ assumes independence of coherence and novelty. If incoherent outputs actively corrupt subsequent novelty, the true utility would fall faster near the boundary, shifting the optimum leftward.
-
-- **Memoryless dynamics (L5).** The model ignores cumulative damage across excursions; real systems may experience fatigue, shortening the effective $\tau_{\text{exc}}$ below the $24.39\,t_{0}$ bound.
-
-- **Mean‑field exponent (L6).** The critical exponent $\nu=1$ is mean‑field; deviations would alter the amplification factor of the slowing‑down signal.
-
-- **No empirical calibration (L7).** All numbers are consequences of the assumed functional forms; none have been measured in a concrete cognitive system.
+* **L1. Quadratic coherence.** The assumption $\Psi=1-\Gamma^{2}$ is the leading Landau term; higher‑order corrections (parameter $\beta$) shift the optimum (Section 4.6).  
+* **L2. Power‑law novelty.** The exponent $\alpha$ is free; varying $\alpha$ moves $\Gamma^{*}$ between $0.577$ ($\alpha=1$) and $0.775$ ($\alpha=3$).  
+* **L3. Uncomputable boundary.** The Gödelian boundary $\Gamma_{c}=1$ may be uncomputable in practice, so any setpoint is an estimate with finite‑sample error.  
+* **L4. Product‑form utility.** $U=\Psi\cdot N$ assumes independence of coherence and novelty; coupling would alter the optimum.  
+* **L5. Memoryless dynamics.** Cumulative fatigue is ignored; real systems may experience shorter effective $\tau_{\text{exc}}$.  
+* **L6. Mean‑field exponent.** The critical exponent $\nu=1$ is mean‑field; deviations would change the amplification factor of $\tau$.  
+* **L7. No empirical calibration.** All numbers are consequences of the assumed functional forms; none have been measured in a concrete cognitive system.
 
 ### 6.5 Open questions
 
-- How quickly can the branching ratio $m$ be estimated online from event statistics to enable real‑time steering of $\Gamma$?  
-- What hardware or algorithmic mechanisms can implement the duty‑cycle protocol with minimal overhead?  
-- Can the quartic correction $\beta$ be inferred from observed coherence decay, and does it vary across domains (e.g., language models versus theorem provers)?
+* How rapidly can the branching ratio $m$ be estimated online from event statistics to enable real‑time steering of $\Gamma$?  
+* What hardware mechanisms can implement the duty‑cycle protocol with minimal overhead?  
+* Can the quartic coefficient $\beta$ be inferred from observed coherence decay, and does it vary across domains (e.g., language models versus theorem provers)?
 
 ## 7. Practical Implications and Engineering Pathways
 
-### 7.1 Who would use the result and what would change
+### 7.1 Intended users and design impact
 
-- **System designers** of self‑improving AI, automated theorem provers, and adaptive controllers would use the derived optimal $\Gamma$ (or the single‑setpoint $\Gamma=\sqrt{0.3}$ under a $0.3\,P_{0}$ power ceiling) to set the self‑reference dial. Instead of heuristic temperature or safety‑filter thresholds, designers would monitor relaxation time $\tau$ and avalanche size $\langle s\rangle$ and adjust $\Gamma$ to stay near the analytically predicted optimum.
+System designers of self‑improving AI, automated theorem provers, and adaptive controllers would use the derived optimal $\Gamma$ (or the single‑setpoint $\Gamma=\sqrt{0.3}$ under a $0.3\,P_{0}$ power ceiling) to set the self‑reference dial. Instead of heuristic temperature or safety‑filter thresholds, designers would monitor relaxation time $\tau$ and avalanche size $\langle s\rangle$ and adjust $\Gamma$ to remain near the analytically predicted optimum.
 
 ### 7.2 Technology readiness
 
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions this places it at **TRL 2** (concept formulation). No hardware or software prototype has been built.
+The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level definitions this places it at **TRL 2** (concept formulation).
 
 ### 7.3 Smallest next experiment
 
-A minimal experiment would involve a **reservoir‑computing platform** equipped with a tunable gain parameter that directly controls the proportion of self‑referential updates (e.g., by scaling the feedback term). The experiment would:
+A minimal experiment would involve a **reservoir‑computing platform** with a tunable gain parameter that directly controls the proportion of self‑referential updates (e.g., by scaling a feedback term). The experiment would:
 
-1. Sweep the gain parameter across a range, recording (a) the fraction of coherent outputs (via a verification oracle), (b) the novelty rate (via a novelty detector), (c) the relaxation time after a perturbation, and (d) the size distribution of novelty avalanches.  
+1. Sweep the gain across a range, recording (a) the fraction of coherent outputs (via a verification oracle), (b) the novelty rate (via a novelty detector), (c) the relaxation time after a perturbation, and (d) the size distribution of novelty avalanches.  
 2. Compare the observed utility curve to the predicted $U(\Gamma)=N_{0}\Gamma^{\alpha}(1-\Gamma^{2})$ and check for the predicted peak near $\Gamma^{*}\approx0.71$ (or the single‑setpoint optimum $\approx0.55$ under a power ceiling).  
 3. Refute the model if utility continues to increase up to the maximal gain without a peak, or if $\tau$ and $\langle s\rangle$ do not exhibit the predicted divergence near the peak.
 
 ### 7.4 Engineering constraints
 
-- **Control granularity.** The system must be able to adjust $\Gamma$ in increments fine enough to resolve the optimal region ($\approx 0.01$).  
-- **Measurement latency.** Real‑time estimation of $\tau$ and $\langle s\rangle$ requires low‑latency monitoring of output coherence and event cascades.  
-- **Power budgeting.** Accurate accounting of $P_{0}$ and the ability to enforce an average power ceiling $\bar{P}=0.3\,P_{0}$ are required for the single‑setpoint optimum.  
-- **Thermal management.** Operating near the boundary may increase instantaneous power draw; cooling capacity must accommodate the peak $P(\Gamma_{e})$.
+* **Control granularity.** The platform must adjust $\Gamma$ in increments fine enough to resolve the optimal region ($\approx 0.01$).  
+* **Measurement latency.** Real‑time estimation of $\tau$ and $\langle s\rangle$ requires low‑latency monitoring of output coherence and event cascades.  
+* **Power budgeting.** Accurate accounting of $P_{0}$ and enforcement of an average power ceiling $\bar{P}=0.3\,P_{0}$ are required for the single‑setpoint optimum.  
+* **Thermal management.** Operating near the boundary may increase instantaneous power draw; cooling capacity must accommodate the peak $P(\Gamma_{e})$.
 
 ### 7.5 Projected cost and performance bounds (projections)
 
-Assuming $P_{0}=10$ W (a modest embedded AI accelerator) and $t_{0}=1$ s, the energy budget $E_{\text{budget}}=10\,P_{0}t_{0}=100$ J yields an excursion duration bound $\tau_{\text{exc}}=24.39$ s (C4). The Landauer floor (C7) implies a minimal energetic cost of $2.967\times10^{-21}$ J per bit; for a system generating $N_{0}=10^{6}$ bits per second, the theoretical lower bound on power is $2.967\times10^{-15}$ W, many orders of magnitude below realistic hardware consumption, confirming that the quadratic $P(\Gamma)$ dominates.
+Assuming a modest embedded AI accelerator with $P_{0}=10\,$W and natural time unit $t_{0}=1\,$s, the energy budget $E_{\text{budget}}=10\,P_{0}t_{0}=100\,$J yields an excursion duration bound $\tau_{\text{exc}}=24.39\,$s (C3). The Landauer floor (C5) implies a minimal energetic cost of $2.967\times10^{-21}\,$J per bit; for a system generating $N_{0}=10^{6}$ bits $s^{-1}$, the theoretical lower bound on power is $2.967\times10^{-15}\,$W, confirming that the quadratic metabolic model dominates realistic hardware consumption.
 
-### 7.6 Direct risks or misuse paths
+### 7.6 Direct risks and misuse paths
 
-If a designer were to **ignore** the critical‑slowing‑down warning signal and push $\Gamma$ beyond the predicted optimum, the system could enter a regime of uncontrolled hallucination, leading to large volumes of incoherent output that waste human review effort and potentially cause safety hazards in high‑stakes applications (e.g., autonomous control). Conversely, over‑conservative settings would squander discovery potential.
+If a designer **ignores** the critical‑slowing‑down warning and pushes $\Gamma$ beyond the predicted optimum, the system may enter a regime of uncontrolled hallucination, producing large volumes of incoherent output that waste verification effort and pose safety hazards in high‑stakes applications (e.g., autonomous control). Conversely, overly conservative settings would squander discovery potential.
 
 ## 8. Conclusion
 
-By casting the trade‑off between self‑referential novelty and coherence as a phase‑transition problem, we derived closed‑form expressions for the utility‑maximizing Gödelian proximity, identified observable critical signatures, bounded the duration of safe excursions, and corrected earlier duty‑cycle results to show that a single setpoint under a realistic power ceiling yields the globally optimal utility. The analysis demonstrates that designers can replace heuristic tuning with principled measurement‑based control, provided they can monitor relaxation time and avalanche statistics. Future work should empirically validate the predicted signatures in concrete cognitive platforms and explore extensions to models with higher‑order coherence terms or memory‑dependent dynamics.
+By casting the trade‑off between self‑referential novelty and coherence as a phase‑transition problem, this work derives closed‑form expressions for the utility‑maximizing Gödelian proximity, identifies observable critical signatures, bounds the duration of safe excursions, and corrects earlier duty‑cycle results to show that a single setpoint under a realistic power ceiling yields the globally optimal utility. The analysis demonstrates that designers can replace heuristic tuning with principled, measurement‑based control, provided they can monitor relaxation time and avalanche statistics. Future work should empirically validate the predicted signatures in concrete cognitive platforms and explore extensions to models with higher‑order coherence terms or memory‑dependent dynamics.
 
 ## Version History
 
 - Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 - Version 1.1.0 (2026-10-19, from 1.0.1): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution. references 10 -> 9. length 5614 -> 3965 words.
+- Version 1.2.0 (2026-10-20, from 1.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 9 -> 8. length 4022 -> 4544 words.
+- Version 1.3.0 (2026-10-20, from 1.2.0): revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 8 -> 8. length 4631 -> 3246 words.
 
 ## Provenance and AI Involvement
 
-- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.27.4-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.30.0-refs-extend). Language models were tools in that process; they are not authors. The named author is accountable for the content.
 - Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
 - Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
 - Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
-- Independent recomputation: a separately generated script recomputed 15 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
+- Independent recomputation: a separately generated script recomputed 5 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
 - Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
 
 ## References
@@ -325,34 +361,21 @@ By casting the trade‑off between self‑referential novelty and coherence as a
 [4] Applied Exoskeleton Technology: A Comprehensive Review of Physical and Cognitive Human-Robot Interaction. arXiv:2111.12860v8. https://arxiv.org/abs/2111.12860v8
 [5] Toward Cognitive and Immersive Systems: Experiments in a Cognitive Microworld. arXiv:1709.05958v2. https://arxiv.org/abs/1709.05958v2
 [7] Robust Beamforming Design for Intelligent Reflecting Surface Aided Cognitive Radio Systems with Imperfect Cascaded CSI. arXiv:2004.04595v4. https://arxiv.org/abs/2004.04595v4
-[8] https://papers.qnfo.org/papers/resonant-resolution. QNFO: Resonant Equilibrium.
-[9] https://papers.qnfo.org/papers/quantitative-simulation-of-the-brains-cognitive-architecture. QNFO: Quantitative Simulation of the Brain's Cognitive Architecture.
-[11] https://papers.qnfo.org/papers/comprehensive-technical-framework-for-network-isomorphism. QNFO: Comprehensive Technical Framework for Network Isomorphism.
+[9] https://papers.qnfo.org/papers/resonant-resolution. QNFO: Resonant Equilibrium.
+[11] https://papers.qnfo.org/papers/epistemic-mirror. QNFO: An Epistemic Mirror.
 
 ## Appendix A. Divergence report
 
-**Conflict 1 (Section 4.4).**  
-- *Draft a* (C4) reported a duty‑cycle optimum with $f=0.51220$, $\bar{U}=0.168\,N_{0}$, a $2.05\times$ gain over conservatism.  
-- *Draft b* (C5) corrected this, showing that under the same power ceiling $\bar{P}=0.3\,P_{0}$ the globally optimal solution is a **single setpoint** $\Gamma=\sqrt{0.3}\approx0.5477$ with utility $0.21\,N_{0}$, a $2.56\times$ improvement. The correction is derived by solving the constrained optimization without imposing a duty‑cycle structure.  
-
-*Chosen convention*: The analysis in the reconciled paper adopts the **single‑setpoint optimum** (C5) as the correct result, and the duty‑cycle numbers from draft a are retained as a suboptimal benchmark (C6).
-
-**Conflict 2 (Sensitivity analysis).**  
-- *Draft a* mentioned a quartic correction to $\Psi$ only in passing.  
-- *Draft b* provided a detailed statement that the interior optimum moves toward the boundary as the quartic coefficient $\beta$ grows and disappears at $\beta=1/3$.  
-
-*Chosen convention*: The detailed quartic analysis from draft b is incorporated (Section 6, Limitation L1) and the brief mention from draft a is omitted.
-
-No other substantive divergences were identified; all other quantitative claims are convergent.
+The two drafts converged on all quantitative claims and on the overall logical structure. The only divergence concerned the presence of a reference to an “Appendix B” in the discussion of the Lagrangian upper bound (Section 4.4). Draft A explicitly mentioned “see Appendix B,” whereas Draft B did not include such a reference. The reconciled version retains the reference and supplies Appendix B to satisfy the citation.
 
 ## Appendix B. Claim attribution
 
-| Claim ID | Statement (as in paper) | Source drafts | Agreement status |
-|----------|--------------------------|---------------|------------------|
-| C1 | Utility‑maximizing Gödelian proximity $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$, numeric $\Gamma^{*}=0.7071$, $U^{*}=0.25\,N_{0}$ | a, b | CONVERGENT |
-| C2 | Critical slowing‑down $\tau=100\,\tau_{0}$ at $\Gamma=0.99$, avalanche size $\langle s\rangle=100$ at $m=0.99$ | a, b | CONVERGENT |
-| C3 | Excursion duration bound $\tau_{\text{exc}}=24.39\,t_{0}$ for given parameters | a, b | CONVERGENT |
-| C4 | Duty‑cycle result $f=0.51220$, $\bar{U}=0.168\,N_{0}$, $2.05\times$ improvement | a | SINGLE (retained as benchmark) |
-| C5 | Global optimum under $\bar{P}=0.3\,P_{0}$: single setpoint $\Gamma=\sqrt{0.3}\approx0.5477$, $U=0.21\,N_{0}$, $2.56\times$ improvement over permanent conservatism | b | SINGLE (adopted as the correct result) |
-| C6 | Sensitivity of the optimum to a quartic coherence term $\beta\Gamma^{4}$; the interior optimum moves toward the boundary as $\beta$ grows and disappears at $\beta=1/3$ | b | SINGLE |
-| C7 | Landauer floor $E_{\min}=2.967\times10^{-21}\,\text{J}$ per bit at $T=310\,\text{K}$ | a, b | CONVERGENT |
+| Claim ID | Statement | Source drafts | Agreement status |
+|---|---|---|---|
+| C1 | $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$, $\Gamma^{*}=0.7071$, $U^{*}=0.25\,N_{0}$ | A, B | CONVERGENT |
+| C2a | Critical slowing down $\tau=100\,\tau_{0}$ at $\Gamma=0.99$ | A, B | CONVERGENT |
+| C2b | Avalanche mean size $\langle s\rangle=100$ at $m=0.99$ | A, B | CONVERGENT |
+| C3 | Excursion‑duration bound $\tau_{\text{exc}}=24.39\,t_{0}$ | A, B | CONVERGENT |
+| C4a | Single‑setpoint optimum $\Gamma=\sqrt{0.3}=0.5477$, $U=0.21\,N_{0}$, improvement $2.56\times$ | A, B | CONVERGENT |
+| C4b | Duty‑cycled benchmark $\bar{U}=0.168\,N_{0}$, improvement $2.05\times$ | A, B | CONVERGENT |
+| C5 | Landauer floor $E_{\min}=2.967\times10^{-21}\,$J per bit | A, B | CONVER

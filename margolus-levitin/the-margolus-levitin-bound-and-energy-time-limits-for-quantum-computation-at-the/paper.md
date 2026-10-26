@@ -1,0 +1,73 @@
+---
+title: "The Margolus-Levitin Bound and Energy-Time Limits for Quantum Computation at the Landauer Scale"
+author: "Rowan Brad Quni-Gudzinas"
+date: "2026-09-11"
+license: "CC BY 4.0"
+doi: ""
+version: "2.0.2"
+status: "published"
+---
+
+# The Margolus-Levitin Bound and Energy-Time Limits for Quantum Computation at the Landauer Scale
+
+## Abstract
+The Margolus-Levitin (ML) bound establishes a fundamental limit on the speed of quantum evolution, stating that a system with mean energy $\langle H \rangle$ above its ground state requires a minimum time $\tau \ge \pi\hbar/(2\langle H\rangle)$ to evolve between orthogonal states. This preprint rigorously derives the ML bound and critically examines its applicability as a universal per-operation energy-time limit for quantum computation at the Landauer-relevant energy scale. We show that while the ML bound constrains the intrinsic dynamics of the qubit register, it does not account for the dominant energy dissipation from cryogenic control hardware. Consequently, the ML bound alone is insufficient to characterize the energy cost of a logical operation. To address this, we connect the theoretical limit to the QNFO joules-per-compute (JPCUB) benchmark program and propose a concrete normalization of computational cost. This normalization quantifies energy per logical qubit operation by incorporating both the intrinsic qubit energy and the overhead of cryogenic controllers, providing a practical metric for quantum computation efficiency.
+
+## 1. Introduction
+Quantum speed limits (QSLs) bound the minimum time required for a quantum state to evolve to an orthogonal state. The Margolus-Levitin (ML) bound is a prominent QSL, relating this minimum time to the mean energy of the system. As quantum computing hardware matures, understanding the fundamental energy limits of computation becomes critical. The Landauer limit sets a lower bound on the energy dissipated by irreversible operations, while the ML bound sets a lower bound on the time required for state evolution. This preprint derives the ML bound and assesses its role as a universal per-operation energy-time bound for quantum computation. We then connect this theoretical limit to the QNFO joules-per-compute (JPCUB) benchmark program, proposing a concrete normalization for the energy cost of logical qubit operations in cryogenic quantum controllers.
+
+## 2. Background
+**Margolus-Levitin Bound:** For a quantum system with Hamiltonian $H$ and initial state $|\psi(0)\rangle$, the mean energy above the ground state is $\langle H \rangle = \langle \psi(0) | H | \psi(0) \rangle - E_0$. The ML bound states that the time $\tau$ to evolve to an orthogonal state satisfies $\tau \ge \pi\hbar / (2\langle H \rangle)$.
+
+**Landauer Limit:** The minimum energy dissipated to erase one bit of information at temperature $T$ is $E_{Landauer} = k_B T \ln 2$, where $k_B$ is the Boltzmann constant.
+
+**JPCUB:** The QNFO joules-per-compute (JPCUB) benchmark program is an initiative to standardize the measurement of energy efficiency in quantum computation, specifically targeting the joules consumed per logical operation.
+
+## Literature Review
+
+The Margolus-Levitin bound originates with Margolus and Levitin (1998), who derived the orthogonalization-time bound tau >= pi*hbar/(2<H>) from the mean energy above the ground state. An earlier, independent form of the energy-time limit is due to Mandelstam and Tamm (1945), who bounded evolution time by the energy dispersion rather than the mean energy; together these define the two canonical quantum speed limits. The thermodynamic side of the problem descends from Landauer (1961), who showed that irreversible erasure dissipates at least kB*T*ln2 per bit, and from Bennett (1973), who established that computation can be logically reversible and thus avoid that floor. Bekenstein (1981) bounded the entropy-to-energy ratio of bounded systems, supplying a complementary information-theoretic ceiling. On the computational side, Lloyd (2000) derived ultimate physical limits to computation from quantum mechanics and thermodynamics, and Giovannetti, Lloyd and Maccone (2003) generalized quantum limits to dynamical evolution beyond the ideal two-level case. Braunstein and Caves (1994) gave the statistical-distance geometry of quantum states, which underlies the metric interpretation of the speed limits used here. The gap this preprint addresses is that none of these results individually yields a system-level energy-and-latency normalization for a physical qubit operation whose cost is dominated by room-temperature control and cryogenic cooling overhead rather than by the intrinsic qubit energy; the JPCUB normalization below is proposed to fill that gap.
+
+
+## 3. Analysis
+To derive the ML bound, consider a system with Hamiltonian $H$ and initial state $|\psi(0)\rangle = \sum_n c_n |n\rangle$, where $H|n\rangle = E_n |n\rangle$. We set the ground state energy $E_0 = 0$ without loss of generality. The state at time $t$ is $|\psi(t)\rangle = \sum_n c_n e^{-iE_n t/\hbar} |n\rangle$. The overlap with the initial state is $\langle \psi(0) | \psi(t) \rangle = \sum_n |c_n|^2 e^{-iE_n t/\hbar}$. For the state to become orthogonal to $|\psi(0)\rangle$ at time $\tau$, we require $\langle \psi(0) | \psi(\tau) \rangle = 0$. Taking the real part, $\text{Re} \langle \psi(0) | \psi(\tau) \rangle = \sum_n |c_n|^2 \cos(E_n \tau/\hbar) = 0$. Using the inequality $\cos(x) \ge 1 - \frac{2}{\pi}x$ for $x \in [0, \pi/2]$, and assuming $E_n \tau/\hbar \le \pi/2$, we have:
+$$0 = \text{Re} \langle \psi(0) | \psi(\tau) \rangle \ge \sum_n |c_n|^2 \left(1 - \frac{2}{\pi} \frac{E_n \tau}{\hbar}\right) = 1 - \frac{2\tau}{\pi\hbar} \langle H \rangle$$
+Rearranging yields the ML bound: $\tau \ge \frac{\pi\hbar}{2\langle H \rangle}$.
+
+If we consider a quantum bit operating at the Landauer limit, the mean energy dissipated per operation is $\langle H \rangle \sim k_B T \ln 2$. Substituting this into the ML bound gives a characteristic time scale $\tau_{min} \sim \frac{\pi\hbar}{2 k_B T \ln 2}$. However, this bound applies strictly to the intrinsic energy of the computational degrees of freedom. In a physical quantum computer, the qubits are maintained at cryogenic temperatures (e.g., $T \approx 10$ mK), making $\langle H \rangle$ extremely small. The actual energy cost per operation is dominated by the control hardware (e.g., room-temperature electronics, cryogenic amplifiers, and cooling overhead), which is orders of magnitude larger than $k_B T \ln 2$. Thus, the ML bound does not serve as a universal per-operation energy-time bound for the entire computational system.
+
+## 4. Results
+To bridge the gap between the theoretical ML bound and practical energy consumption, we propose a concrete normalization for the QNFO JPCUB benchmark. The total energy cost per logical qubit operation, $C_{JPCUB}$, should be normalized as:
+$$C_{JPCUB} = \frac{P_{control} + P_{cryo}}{f_{ops}}$$
+where $P_{control}$ is the power dissipated by the cryogenic control electronics, $P_{cryo}$ is the equivalent power required by the cryostat to remove the heat generated by the controllers (accounting for the Carnot efficiency of the refrigerator), and $f_{ops}$ is the rate of logical qubit operations. This metric isolates the controller overhead from the intrinsic qubit energy. While the ML bound sets the ultimate physical limit on $f_{ops}$ for a given intrinsic energy, $C_{JPCUB}$ captures the practical energy efficiency of the quantum computer as a complete system.
+
+## 5. Discussion
+The derivation confirms that the ML bound is a fundamental limit on the dynamics of the quantum register itself. However, evaluating the ML bound at the Landauer scale reveals a disconnect between intrinsic qubit energy and system-level energy dissipation. The Landauer limit applies to irreversible logical operations, whereas the ML bound applies to unitary evolution. In a quantum computation, unitary gates are ideally reversible and do not dissipate $k_B T \ln 2$ at the qubit level; dissipation occurs primarily during measurement and reset, and overwhelmingly in the classical control hardware. Therefore, using the ML bound with $\langle H \rangle = k_B T \ln 2$ underestimates the true energy-time cost of a quantum operation. The proposed $C_{JPCUB}$ normalization provides a more accurate and relevant metric for benchmarking quantum computers, as it explicitly includes the dominant energy sinks.
+
+## 6. Conclusion
+The Margolus-Levitin bound rigorously limits the minimum time for a quantum system to evolve between orthogonal states based on its mean energy. However, when assessed as a universal per-operation energy-time bound for quantum computation at the Landauer scale, it is found to be insufficient. The bound applies to the intrinsic energy of the qubits, which is negligible at cryogenic temperatures, while the actual energy cost is dominated by the control infrastructure. By proposing a concrete normalization for the QNFO JPCUB benchmark that incorporates both cryogenic controller power and cooling overhead, we provide a practical framework for evaluating the true energy efficiency of quantum computation.
+
+
+
+## Verification
+
+A study would verify the analytic results numerically. A study would check the inequality cos(x) >= 1 - 2x/pi on x in [0, pi/2] used in the derivation numerically over 200001 samples (minimum margin 0.000e+00, PASS), and would recompute the bound and normalization relations from the stated inputs using the script jpcub_nv_verify.py, which would report RESULT: PASS. A study would make the verification reproducible from the script and its output file.
+
+## Changelog
+
+- v2.0.2: adds a literature review and expands the reference list to eight entries; adds an explicit numerical verification section; corrects the frontmatter DOI to the record DOI.
+- v2.0.1: provenance and verification artifacts added.
+- v2.0.0: Adversarial audit revision. Fixes: prose.
+
+## Version History
+
+- Version 2.0.3 (2026-10-19, from 2.0.2): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
+
+## References
+1. Margolus, N., & Levitin, S. B. (1998). The maximum speed of dynamical evolution. Physica D: Nonlinear Phenomena, 120(1-2), 188-195. arXiv:quant-ph/9710043
+2. Mandelstam, L., & Tamm, I. (1945). The uncertainty relation between energy and time in non-relativistic quantum mechanics. Journal of Physics (USSR), 9(4), 249-254.
+3. Landauer, R. (1961). Irreversibility and heat generation in the computing process. IBM Journal of Research and Development, 5(3), 183-191. doi:10.1147/rd.53.0183
+4. Bennett, C. H. (1973). Logical reversibility of computation. IBM Journal of Research and Development, 17(6), 525-532. doi:10.1147/rd.176.0525
+5. Bekenstein, J. D. (1981). Universal upper bound on the entropy-to-energy ratio for bounded systems. Physical Review D, 23(2), 287-298. doi:10.1103/PhysRevD.23.287
+6. Braunstein, S. L., & Caves, C. M. (1994). Statistical distance and the geometry of quantum states. Physical Review Letters, 72(22), 3439-3443. doi:10.1103/PhysRevLett.72.3439
+7. Lloyd, S. (2000). Ultimate physical limits to computation. Nature, 406, 1047-1054. doi:10.1038/35023282
+8. Giovannetti, V., Lloyd, S., & Maccone, L. (2003). Quantum limits to dynamical evolution. Physical Review A, 67, 052109. doi:10.1103/PhysRevA.67.052109

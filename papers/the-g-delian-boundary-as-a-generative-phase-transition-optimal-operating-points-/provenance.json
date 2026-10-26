@@ -3,7 +3,7 @@
   "slug": "the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
   "paper": {
     "path": "papers/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-/paper.md",
-    "title": "The Gödelian Boundary as a Generative Phase Transition: Optimal Operating Points for Constrained Cognitive Systems",
+    "title": "Gödelian Boundary as a Generative Phase Transition: Analytic Derivation of Optimal Operating Points for Constrained Cognitive Systems",
     "url": "https://papers.qnfo.org/papers/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-"
   },
   "declared": {
@@ -49,6 +49,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "7d8f2cdc8fcac12cec4773b00bce36c24a0de823"
+    },
+    {
+      "sha256": "ddf96aa45aa1391dedf32152947bbc81a1b388d98d745a95723f32cb0abd2d09",
+      "bytes": 28033,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "1.3.0",
+      "git_commit": null
     }
   ],
   "events": []

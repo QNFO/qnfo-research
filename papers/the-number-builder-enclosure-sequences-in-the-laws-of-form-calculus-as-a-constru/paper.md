@@ -405,27 +405,3 @@ We have introduced enclosure sequences as a bridge between Spencer‑Brown’s L
 [9] Constructive proof of the Carpenter's Theorem. arXiv:1302.6632. https://arxiv.org/abs/1302.6632
 [10] A Constructive Proof of Masser's Theorem. arXiv:1908.04938. https://arxiv.org/abs/1908.04938
 [11] Any FIP real computes a 1-generic. arXiv:1502.03785. https://arxiv.org/abs/1502.03785
-
-## Appendix A. Divergence report
-
-All three independent drafts (A, B, C) produced convergent claims for the quantitative results (halving step count, \(e\) enclosure, and the projection for \(\pi\)). No divergent statements were identified; therefore this appendix is empty.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts | Agreement |
-|----------|-----------|---------------|-----------|
-| C1 | Definition of enclosure sequence (Definition 3.1). | A, B, C | Convergent |
-| C2 | Proposition 1 (unique limit). | A, B, C | Convergent |
-| C3 | Proposition 2 (arithmetic closure). | A, B, C | Convergent |
-| C4 | Halving step count \(n=20\). | A, B, C | Convergent |
-| C5 | Width after 20 halving steps \(=2^{-20}\). | A, B, C | Convergent |
-| C6 | Exact enclosure for \(e\) with width \(1/4320\). | A, B, C | Convergent |
-| C7 | Projected Machin‑type width for \(\pi\) $\le$ \(2.98\times10^{-8}\) under assumption \(r<1/25\). | A, B, C | Convergent (projection) |
-| C8 | Limitations list (Section 6.1). | A, B, C | Convergent |
-| C9 | Falsifiability condition (Section 6.2). | A, B, C | Convergent |
-| C10 | Practical implications (Section 7). | A, B, C | Convergent |
-| C11 | TRL assessment (Section 7b). | A, B, C | Convergent |
-| C12 | Next experiment proposal (Section 7c). | A, B, C | Convergent |
-| C13 | Engineering constraints (Section 7d). | A, B, C | Convergent |
-| C14 | Projected cost/performance (Section 7e). | A, B, C | Convergent |
-| C15 | Risks and misuse discussion (Section 7f). | A, B, C | Convergent |

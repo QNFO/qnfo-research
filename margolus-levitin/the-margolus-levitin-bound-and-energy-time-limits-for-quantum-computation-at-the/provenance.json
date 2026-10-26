@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the",
+  "paper": {
+    "path": "margolus-levitin/the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the/paper.md",
+    "title": "The Margolus-Levitin Bound and Energy-Time Limits for Quantum Computation at the Landauer Scale",
+    "url": "https://papers.qnfo.org/papers/the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the"
+  },
+  "snapshots": [
+    {
+      "sha256": "f7ee135b5f6c5e991300f2128a17c1c50157794443e9d7a2eba6365e4598b319",
+      "bytes": 11388,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "2.0.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
