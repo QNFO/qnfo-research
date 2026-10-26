@@ -324,32 +324,3 @@ We have formalized the calibration hierarchy of engineered qubits as an iterated
 [8] https://papers.qnfo.org/papers/no-thing-there. QNFO: No Thing There: Control, Readout, and Self-Referential Metrology in Engineered Quantum Systems.
 [9] https://papers.qnfo.org/papers/the-calibration-loop-as-fixed-point-ontological-underdetermination-of-the-qubit-. QNFO: The Calibration Loop as Fixed Point: Ontological Underdetermination of the Qubit by Its Own Metrology.
 [10] https://papers.qnfo.org/papers/continuous-signal-processing-for-josephson-junction-readout. QNFO: Continuous Signal Processing for Josephson Junction Readout.
-
-## Appendix A. Divergence report
-
-| Claim | Draft A | Draft B | Divergence | Resolution choice |
-|-------|---------|---------|------------|-------------------|
-| Input 1 source | Assumed based on literature | Cited from prior work [9] | Different provenance | Adopt the explicit citation to [9] (more concrete). |
-| R5 incomplete statement | Truncated after “$N \ge 225$” | Complete in Draft B | Incomplete text | Use the complete version from Draft B. |
-| Mention of “prior version of this work” | Implicit assumption | Explicit citation to [9] | Presence of citation | Retain explicit citation (more precise). |
-| Presentation of continuous‑readout advantage | Brief mention in Draft A | Detailed MSE comparison in Draft B | Level of detail | Use the detailed quantitative comparison from Draft B. |
-
-All other substantive claims are convergent between the drafts.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts | Agreement |
-|----------|-----------|---------------|-----------|
-| C1 | Per‑shot readout error $\varepsilon_{\mathrm{ro}}=9\times10^{-5}$. | A, B | Convergent |
-| C2 | Expected misidentifications $\mu=90$ in $10^{6}$ trials. | A, B | Convergent |
-| C3 | One‑sigma uncertainty $\sigma_f\approx9.49\times10^{-6}$. | A, B | Convergent |
-| C4 | Adaptive error $\varepsilon_{\mathrm{ad}}=1\times10^{-5}$ and ratio $0.11111$. | A, B | Convergent |
-| C5 | Contraction factor $|1-gs|=0.5$ leads to $k_{\min}=11$ iterations. | A, B | Convergent |
-| C6 | Total‑variation distance $D_{\mathrm{TV}}=0$ (subspace) and $0.01$ (leakage‑resolving). | A, B | Convergent |
-| C7 | Shot budget $N\ge2500$ (1σ) and $N\ge22500$ (3σ). | A, B | Convergent |
-| C8 | Noise‑floor margin $\approx111$. | A, B | Convergent |
-| C9 | Weak‑drive bound $|c|^{2}\lesssim2.5\times10^{-3}$ at $\Omega/\Delta=0.1$. | A, B | Convergent |
-| C10 | Tomography resolution $\sigma=0.005$ exceeds bound; $4\times10^{4}$ shots needed. | A, B | Convergent |
-| C11 | Continuous readout MSE advantage factor $\approx6.05$. | B only | Single‑source; retained because directly supported by [9] data. |
-| C12 | Falsification condition: detection of $|2\rangle$ population > statistical bound with $N\ge3000$ shots. | B only | Single‑source; retained as a concrete proposal. |
-| C13 | Limitation list (six items). | A, B |

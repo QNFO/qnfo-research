@@ -330,26 +330,3 @@ We defined a Base State as a preparable, verifiable, compositionally closed quan
 [10] https://papers.qnfo.org/papers/trapped-ion-ultrametric-synthesis. QNFO: The Trapped-Ion Ultrametric Testbed: A Falsifiability Register for Testing p-Adic Structure in Quantum Dynamics.
 [11] https://papers.qnfo.org/papers/base-statedisturbance-bs-d-ontology. QNFO: Base State–Disturbance (BS-D) Ontology.
 [12] https://papers.qnfo.org/papers/standard-model-critique. QNFO: Standard Model.
-
-## Appendix A. Divergence report
-
-**D1 (per‑operation summary convention).** One draft reports an arithmetic‑mean fidelity $\bar{F}=(F_{1}+F_{2}+F_{r})/3\approx99.39\%$ and a three‑step composite error $P_{\mathrm{err}}\approx1.83\%$; the other reports only per‑operation error rates $\epsilon_{1},\epsilon_{2},\epsilon_{r}$. The disagreement is descriptive versus granular reporting, not substantive. *Resolution*: both are presented, clearly labeled as convention D1; budgets use only the log‑domain model.
-
-**D2 (readout convention).** One draft budgets a single final readout (yielding $n=154$ two‑qubit‑gate budget); the other budgets full‑register readout of all $N=105$ qubits (yielding $F_{\mathrm{ro}}\approx0.2532$). The disagreement concerns which verification scenario is representative. *Resolution*: both scenarios are presented, labeled as convention D2; the full‑register scenario is identified as the binding constraint for Stage V verification at $\theta=0.5$.
-
-## Appendix B. Claim attribution
-
-| Claim | Source drafts | Agreement |
-|---|---|---|
-| C1: Per‑operation errors $\epsilon_{1}=1.0\times10^{-3}$, $\epsilon_{2}=4.4\times10^{-3}$, $\epsilon_{r}=1.3\times10^{-2}$ from [2] | A, B, C | CONVERGENT |
-| C2: Per‑operation summary $\bar{F}\approx99.39\%$, $P_{\mathrm{err}}\approx1.83\%$ (convention D1) | A, B | CONVERGENT |
-| C3: $D_{105}=2^{105}\approx4.056\times10^{31}$; generic state needs $2^{106}-2\approx8.113\times10^{31}$ reals | A, B, C | CONVERGENT |
-| C4: Two‑qubit serial budget $n=157$ ($154$ with one readout) | A, B, C | CONVERGENT |
-| C5: Full‑register readout ceiling $F_{\mathrm{ro}}\approx0.2532$ | A, B, C | CONVERGENT |
-| C6: Representative circuit $F_{\mathrm{circ}}\approx0.1467$ for $n_{1}=105$, $n_{2}=100$, $n_{r}=105$ | A, B | CONVERGENT |
-| C7: Gate headroom $\approx128$ layers with perfect readout; readout uses $\approx1.98\times$ the $\theta=0.5$ budget | A, C | CONVERGENT |
-| C8: Toy relational coverage $\phi\le0.3925$ for $k=100$, $r=4$ | B, C | CONVERGENT |
-| C9: Gauge dimension $d_{\mathcal{G}}=12$ | A, B, C | CONVERGENT |
-| C10: Projections $F_{2}^{400}\approx0.1714$ and $F_{r}^{*}\approx0.9986$ with stated assumptions | A, B, C | CONVERGENT |
-| C11: Single‑readout budget is the representative verification scenario | B | SINGLE (resolved as D2) |
-| C12: Per‑operation mean is the primary fidelity summary | A | SINGLE (resolved as D1) |

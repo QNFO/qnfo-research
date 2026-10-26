@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-capability-availability-mismatch-three-state-tool-semantics-and-forced-halt-",
+  "paper": {
+    "path": "papers/the-capability-availability-mismatch-three-state-tool-semantics-and-forced-halt-/paper.md",
+    "title": "The Capability–Availability Mismatch: Three-State Tool Semantics and Forced-Halt Conditions in LLM Agent Protocols",
+    "url": "https://papers.qnfo.org/papers/the-capability-availability-mismatch-three-state-tool-semantics-and-forced-halt-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-capability-availability-mismatch-three-state-tool-semantics-and-forced-halt-"
+  },
+  "snapshots": [
+    {
+      "sha256": "9906b6c11a62dd4ebe6f4575c0cedbd3a19613af932a1c8d77051af90f678e62",
+      "bytes": 43739,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
