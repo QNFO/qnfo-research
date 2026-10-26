@@ -29,8 +29,6 @@ The adelic approach to physics draws on several mathematically rigorous strands:
 
 3. **Adelic tori and protori.** Finite‑dimensional compact connected abelian groups (protori) are related to adelic structures [5]. This categorical identification allows one to treat gauge‑group factors as adelic objects.
 
-
-
  These concrete arithmetic checks motivate the present toy test.
 
  
@@ -119,10 +117,6 @@ Since the half‑unit in the last decimal place of $0.636620$ is $5\times10^{-7}
 - **Adelic line bundles.** The rigidity theorem of [2] guarantees that if two adelic line bundles agree on a Zariski‑dense set of preperiodic points, their associated height functions coincide. Interpreting the SM coupling as a height on an adelic line bundle forces the real‑place value to be uniquely determined by the $p$‑adic components.
 
 - **Quasi‑adelic measures.** The equidistribution theorem of [3] ensures that sequences of rational approximants to $q$ will distribute uniformly across all places, justifying the use of the product formula as a stability condition for the coupling.
-
-
-
-
 
 Collectively, these mathematical ingredients justify the toy consistency test performed above.
 
@@ -279,7 +273,6 @@ A single observation can falsify the adelic conjecture in its present form:
 - How to extend the adelic rigidity theorem to non‑abelian gauge bundles?
 - Can quasi‑adelic measures be defined on the full SM parameter space to enforce simultaneous stationarity across all places?
 
-
 ## 7. Practical Implications and Engineering Pathways
 **(a) Who would use the result and what changes.**  
 Particle‑theory model builders and precision‑measurement collaborations (e.g., the LHC experiments, low‑energy atomic physics groups) would adopt the adelic consistency condition as a selection rule for viable extensions of the SM. Instead of scanning arbitrary real parameters, they would restrict their scans to rational seeds that satisfy the product formula, dramatically reducing the dimensionality of parameter space.
@@ -323,17 +316,3 @@ We have presented a concrete adelic consistency test for a toy $U(1)$ coupling, 
 [9] https://papers.qnfo.org/papers/number-theory-as-physics. QNFO: Number Theory as Physics.
 [11] https://papers.qnfo.org/papers/adelic-constraints-on-quantum-field-theory-phase-2-synthesis. QNFO: Adelic Constraints on Quantum Field Theory—Phase 2 Synthesis.
 [12] https://papers.qnfo.org/papers/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f. QNFO: Adelic Consistency Conditions Across Primes as a Candidate Selection Principle for Physical Constants: Formulation, Negative Control, and Toy Dynamics.
-
-## Appendix A. Divergence report
-*No divergent claims were identified among the independent drafts; all substantive statements converged.*
-
-## Appendix B. Claim attribution
-| Claim ID | Description | Source Draft(s) | Agreement |
-|----------|-------------|-----------------|-----------|
-| C1 | Product formula $60\cdot2^{-2}\cdot3^{-1}\cdot5^{-1}=1$ | A, B, C | Convergent |
-| C2 | QED one‑loop coefficient rounding | A, B, C | Convergent |
-| C3 | Synthesis of adelic line bundles, measures, tori | A, B, C | Convergent |
-| C4 | Limitations list | A, B, C | Convergent |
-| C5 | Falsifiability condition (measurement of $\alpha$) | A, B, C | Convergent |
-| C6 | Practical implications (TRL, next experiment) | A, B, C | Convergent |
-| C7 | References list | A, B, C | Convergent |

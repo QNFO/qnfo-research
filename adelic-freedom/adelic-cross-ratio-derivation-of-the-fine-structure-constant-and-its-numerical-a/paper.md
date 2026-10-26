@@ -26,7 +26,6 @@ If α could be expressed as a geometric or arithmetic invariant, the constant wo
   
   
 
-
 ## 3. Methods
 We adopt the following logical chain:
 
@@ -393,20 +392,3 @@ By expressing the fine‑structure constant as the cross‑ratio of the electron
 [7] Local and Global Variations of The Fine Structure Constant. arXiv:astro-ph/0309273v2. https://arxiv.org/abs/astro-ph/0309273v2
 [8] https://papers.qnfo.org/papers/cross-domain-phase2. QNFO: The Adelic Cross-Domain Program: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat-Tits Trees (Phase 3-4 Update).
 [10] https://papers.qnfo.org/papers/fine-structure-constant-cross-ratio. QNFO: Fine-Structure Constant as a Cross-Ratio: A Geometric Reframing of α.
-
-## Appendix A. Divergence report
-No divergent claims were identified among the independent drafts; all substantive statements converge on the same derivations and numerical results.
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | α can be expressed as the cross‑ratio of $r_{e}$ and $λ_C$. | A, B | Convergent |
-| C2 | Lestone’s model yields $α \approx 1$/137.04. | A, B | Convergent |
-| C3 | CODATA $α^{-1}$ = 137.035999084. | A, B | Convergent |
-| C4 | Adelically, α = $\prod$_{p=2,3,5} $α_p$ with $α_2$=$2^{-13}$, $α_5$=$5^{-13}$. | A, B | Convergent |
-| C5 | Absolute difference between CODATA α and Lestone α is 2.125693×$10^{-7}$. | A, B | Convergent |
-| C6 | Relative error is 2.91×$10^{-5}$ (0.0029 %). | A, B | Convergent |
-| C7 | Falsifiability condition: a future α measurement deviating by >0.02 in $α^{-1}$ would refute the hypothesis. | A, B | Convergent |
-| C8 | TRL of the work is 2. | A, B | Convergent |
-| C9 | Minimal next test is a sub‑0.1 ppb α measurement. | A, B | Convergent |
-| C10 | No empirical data were collected by the authors. | A, B | Convergent |
