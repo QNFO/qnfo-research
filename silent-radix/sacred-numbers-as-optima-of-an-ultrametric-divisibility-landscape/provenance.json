@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "sacred-numbers-as-optima-of-an-ultrametric-divisibility-landscape",
+  "paper": {
+    "path": "silent-radix/sacred-numbers-as-optima-of-an-ultrametric-divisibility-landscape/paper.md",
+    "title": "Sacred Numbers as Optima of an Ultrametric Divisibility Landscape",
+    "url": "https://papers.qnfo.org/papers/sacred-numbers-as-optima-of-an-ultrametric-divisibility-landscape"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "sacred-numbers-as-optima-of-an-ultrametric-divisibility-landscape"
+  },
+  "snapshots": [
+    {
+      "sha256": "15c8cc563deb8a51ec129088a4022976228f8fae9d9f17c918644811f185bc62",
+      "bytes": 21729,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

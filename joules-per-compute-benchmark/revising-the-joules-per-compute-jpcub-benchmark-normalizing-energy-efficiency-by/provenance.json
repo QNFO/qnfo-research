@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "revising-the-joules-per-compute-jpcub-benchmark-normalizing-energy-efficiency-by",
+  "paper": {
+    "path": "joules-per-compute-benchmark/revising-the-joules-per-compute-jpcub-benchmark-normalizing-energy-efficiency-by/paper.md",
+    "title": "Revising the Joules-per-Compute (JPCUB) Benchmark: Normalizing Energy Efficiency by Logical-Qubit Operations",
+    "url": "https://papers.qnfo.org/papers/revising-the-joules-per-compute-jpcub-benchmark-normalizing-energy-efficiency-by"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "revising-the-joules-per-compute-jpcub-benchmark-normalizing-energy-efficiency-by"
+  },
+  "snapshots": [
+    {
+      "sha256": "a0a9b377d332844635ae47745a68c3f2e3fbc560a874d5de0e037055962b25c6",
+      "bytes": 10545,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "2.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
