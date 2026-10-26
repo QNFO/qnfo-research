@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo",
+  "paper": {
+    "path": "papers/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo/paper.md",
+    "title": "Local Hilbert-Space Dimension as a Resolution Parameter: Information-Theoretic Bounds for Qudit Quantum Cellular Automata as Substrates of Emergent Holographic Geometry",
+    "url": "https://papers.qnfo.org/papers/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo"
+  },
+  "snapshots": [
+    {
+      "sha256": "4c716834b9085bf1051d7290978d43d8da9467edd046f204ba558095db84d2f0",
+      "bytes": 41063,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

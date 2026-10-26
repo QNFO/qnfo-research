@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-",
+  "paper": {
+    "path": "papers/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-/paper.md",
+    "title": "Layered Ontology as an Information‑Theoretic Filter: Formal Model, Derivation, and Testable Predictions",
+    "url": "https://papers.qnfo.org/papers/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-"
+  },
+  "snapshots": [
+    {
+      "sha256": "68b67290a64aa0de7a7b20a71e70a40996ea6ceed0fb82abf8d64eba7b5b1f6e",
+      "bytes": 21661,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

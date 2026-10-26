@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "leakage-as-the-price-of-binary-truncation-a-scaling-law-for-transmon-leakage-rem",
+  "paper": {
+    "path": "papers/leakage-as-the-price-of-binary-truncation-a-scaling-law-for-transmon-leakage-rem/paper.md",
+    "title": "Leakage as the Price of Binary Truncation: A Scaling Law for Transmon Leakage, Removal Capacity, and Its Ontological Reading",
+    "url": "https://papers.qnfo.org/papers/leakage-as-the-price-of-binary-truncation-a-scaling-law-for-transmon-leakage-rem"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "leakage-as-the-price-of-binary-truncation-a-scaling-law-for-transmon-leakage-rem"
+  },
+  "snapshots": [
+    {
+      "sha256": "1ddde98e0e1a86e23d7f8ae494842a601ed4765e5f14bc7bad6690ff6d80b0ec",
+      "bytes": 44234,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

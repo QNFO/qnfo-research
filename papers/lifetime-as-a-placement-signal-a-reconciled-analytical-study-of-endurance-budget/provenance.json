@@ -3,7 +3,7 @@
   "slug": "lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
   "paper": {
     "path": "papers/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget/paper.md",
-    "title": "Lifetime as a Placement Signal: An Analytical Audit of Endurance Budgets for KV Cache Tiering across HBM and High‑Bandwidth Flash in Agentic LLM Serving",
+    "title": "Lifetime as a Placement Signal: A Reconciled Analytical Audit of Endurance Budgets for KV Cache Tiering across HBM and High‑Bandwidth Flash in Agentic LLM Serving",
     "url": "https://papers.qnfo.org/papers/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget"
   },
   "declared": {
@@ -43,6 +43,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "97d0d15293319baba7d341ea3afd42f999d20224"
+    },
+    {
+      "sha256": "5de8a86875c9922f2f4978a801cfcadb40d093800d85897e0580126cc31bccc0",
+      "bytes": 31982,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.1.0",
+      "git_commit": null
     }
   ],
   "events": []

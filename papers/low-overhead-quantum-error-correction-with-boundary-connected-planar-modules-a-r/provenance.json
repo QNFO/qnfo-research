@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r",
+  "paper": {
+    "path": "papers/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r/paper.md",
+    "title": "Low-Overhead Quantum Error Correction with Boundary-Connected Planar Modules: A Reconciled Quantitative Assessment",
+    "url": "https://papers.qnfo.org/papers/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r"
+  },
+  "snapshots": [
+    {
+      "sha256": "b703a46860cd3c3a7f663c0db8cfcf4be36a081aeb44a25617735059bab03e74",
+      "bytes": 29053,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
