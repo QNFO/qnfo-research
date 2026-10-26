@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-minkowski-spacetime-from-products-of-bruhat-tits-trees-dimensional-sele",
+  "paper": {
+    "path": "papers/emergent-minkowski-spacetime-from-products-of-bruhat-tits-trees-dimensional-sele/paper.md",
+    "title": "Emergent Minkowski Spacetime from Products of Bruhat–Tits Trees: Dimensional Selection, Horizon Geometry, and Scaling‑Limit Analysis",
+    "url": "https://papers.qnfo.org/papers/emergent-minkowski-spacetime-from-products-of-bruhat-tits-trees-dimensional-sele"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-minkowski-spacetime-from-products-of-bruhat-tits-trees-dimensional-sele"
+  },
+  "snapshots": [
+    {
+      "sha256": "c8092790dd61f4a08591ae1857f1ad94ae21426a00a3caf594c129c91eaaf4f0",
+      "bytes": 22055,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "efimov-like-log-periodic-modulations-in-the-cosmic-microwave-background-power-sp",
+  "paper": {
+    "path": "papers/efimov-like-log-periodic-modulations-in-the-cosmic-microwave-background-power-sp/paper.md",
+    "title": "Efimov‑Like Log‑Periodic Modulations in the Cosmic Microwave Background Power Spectrum: Theory and Prospects for Detection",
+    "url": "https://papers.qnfo.org/papers/efimov-like-log-periodic-modulations-in-the-cosmic-microwave-background-power-sp"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "efimov-like-log-periodic-modulations-in-the-cosmic-microwave-background-power-sp"
+  },
+  "snapshots": [
+    {
+      "sha256": "38de5750e341f4e1a7817a1ccca263f23f9659dc52993d669be21cedd5335da6",
+      "bytes": 22686,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

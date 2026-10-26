@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-cognitive-time-from-ultrametric-constraints-via-page-wootters-condition",
+  "paper": {
+    "path": "silent-radix/emergent-cognitive-time-from-ultrametric-constraints-via-page-wootters-condition/paper.md",
+    "title": "Emergent Cognitive Time from Ultrametric Constraints via Page–Wootters Conditioning: A Formal Framework and Order-of-Magnitude Predictions",
+    "url": "https://papers.qnfo.org/papers/emergent-cognitive-time-from-ultrametric-constraints-via-page-wootters-condition"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-cognitive-time-from-ultrametric-constraints-via-page-wootters-condition"
+  },
+  "snapshots": [
+    {
+      "sha256": "90f8a1f1e8266dcddea8157ae3cdcda184ae15122da1e5c4439788a8bfff1299",
+      "bytes": 37145,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

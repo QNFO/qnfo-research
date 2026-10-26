@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "does-a-cpt-symmetric-t-0-boundary-force-the-majorana-condition-a-derivation-of-t",
+  "paper": {
+    "path": "papers/does-a-cpt-symmetric-t-0-boundary-force-the-majorana-condition-a-derivation-of-t/paper.md",
+    "title": "Does a CPT‑Symmetric $t=0$ Boundary Force the Majorana Condition? A Derivation of the Cross‑Sheet Conjugation Constraint",
+    "url": "https://papers.qnfo.org/papers/does-a-cpt-symmetric-t-0-boundary-force-the-majorana-condition-a-derivation-of-t"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "does-a-cpt-symmetric-t-0-boundary-force-the-majorana-condition-a-derivation-of-t"
+  },
+  "snapshots": [
+    {
+      "sha256": "16a026037bb76a38d3bc9d4607bef3cea6a0ec2902ebcc43ced8fbec55474f0e",
+      "bytes": 19825,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
