@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "falsifying-geometrically-inspired-quantum-error-correcting-codes-via-distinct-lo",
+  "paper": {
+    "path": "papers/falsifying-geometrically-inspired-quantum-error-correcting-codes-via-distinct-lo/paper.md",
+    "title": "Falsifying Geometrically Inspired Quantum Error‑Correcting Codes via Distinct Logical‑Error Scaling",
+    "url": "https://papers.qnfo.org/papers/falsifying-geometrically-inspired-quantum-error-correcting-codes-via-distinct-lo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "falsifying-geometrically-inspired-quantum-error-correcting-codes-via-distinct-lo"
+  },
+  "snapshots": [
+    {
+      "sha256": "45a2adb382c0dcb2de9adf87373952445bbe49391a5c638cc90fc529a8ae0319",
+      "bytes": 21173,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

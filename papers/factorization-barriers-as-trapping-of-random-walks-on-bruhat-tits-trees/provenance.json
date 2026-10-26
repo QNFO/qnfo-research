@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees",
+  "paper": {
+    "path": "papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees/paper.md",
+    "title": "Factorization Barriers as Trapping of Random Walks on Bruhat–Tits Trees",
+    "url": "https://papers.qnfo.org/papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees"
+  },
+  "snapshots": [
+    {
+      "sha256": "d55c58d70b56af3dae1d603ca999d52e61ad8ba61c30cf1bf19aa6a1cfbee1ab",
+      "bytes": 22478,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -232,36 +232,3 @@ We have constructed a five‑criterion falsification framework for quantum‑adv
 [8] HPLT 3.0: Very Large-Scale Multilingual Resources for LLMs and MT. Mono- and Bi-lingual Data, Multilingual Evaluation, and Pre-Trained Models. arXiv:2511.01066v3. https://arxiv.org/abs/2511.01066v3
 [9] https://papers.qnfo.org/papers/acrp04-five-smooth-audit. QNFO: Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim.
 [10] https://papers.qnfo.org/papers/falsifiability-kill-criteria. QNFO: Killing the Framework: Seven Criteria for the Falsification of Adelic Physics.
-
-## Appendix A. Divergence report
-- **Claim:** “A semigroup mass‑ratio claim scores $F=0.70$ and was refuted by a statistical audit.”  
-  - *Draft A*: No such claim.  
-  - *Draft B*: Presents this statement, citing [9] for the audit but providing no derivation of $F=0.70$.  
-  - *Resolution*: The statement is unsupported by the cited source; it is removed from the reconciled paper.  
-
-- **Claim:** “The framework discriminates against published audits, e.g., a semigroup mass‑ratio claim scores $F=0.70$.”  
-  - *Draft A*: Does not include this specific numeric discrimination.  
-  - *Draft B*: Includes it.  
-  - *Resolution*: Retained the general observation that the framework can be applied to published audits (citing [9] and [10]) but omitted the unsupported numeric value.
-
-All other substantive claims are convergent between the drafts.
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | We assign fixed weights $w_1=0.30$, $w_2=0.25$, $w_3=0.20$, $w_4=0.15$, $w_5=0.10$. | A, B | CONVERGENT |
-| C2 | The weights sum to $1.00$. | A, B | CONVERGENT |
-| C3 | The gap synthesis catalogs $42$ gaps across $5$ categories, giving $\bar{g}=8.4$ gaps per category. | A, B | CONVERGENT |
-| C4 | The roadmap spans $8$ weeks over $5$ version labels, yielding $c=2.0$ weeks per transition and $d=0.625$ versions per week. | A, B | CONVERGENT |
-| C5 | Uniform pacing gives $t_{\text{gap}}\approx0.1905$ weeks $\approx1.333$ days per gap. | A, B | CONVERGENT |
-| C6 | HPLT 3.0 contains $3.0\times10^{13}$ tokens across $\le200$ languages, giving $\bar{t}=1.5\times10^{11}$ tokens per language. | A, B | CONVERGENT |
-| C7 | Projected storage ranges from $30$ TB to $150$ TB, central estimate $120$ TB. | A, B | CONVERGENT |
-| C8 | For $n=20$ checks, pruning fraction $p=0.9$ reduces pairwise checks from $190$ to $19$. | A, B | CONVERGENT |
-| C9 | Worked example $\mathcal{K}_A$ yields $F=0.675$. | A, B | CONVERGENT |
-| C10 | Worked example $\mathcal{K}_B$ yields $F=0.10$. | A, B | CONVERGENT |
-| C11 | Specification completeness is necessary because $w_1=0.30$ implies $F_{\max}=0.70$ without it. | A, B | CONVERGENT |
-| C12 | The framework resides at TRL 2. | A, B | CONVERGENT |
-| C13 | Projected audit effort is $5\times10=50$ hours per claim (assumes $10$ hours per criterion). | A, B | CONVERGENT |
-| C14 | Failure modes list (gaming, genericity leakage, baseline unboundedness, model‑relativity, pre‑registration narrowness, curator capture). | A, B | CONVERGENT |
-| C15 | What would falsify the framework (post‑hoc revision, many claims scoring $F<0.5$, uncovered gaps). | A, B | CONVERGENT |
-| C16

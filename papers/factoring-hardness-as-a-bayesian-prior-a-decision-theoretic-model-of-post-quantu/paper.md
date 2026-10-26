@@ -535,16 +535,3 @@ By treating the unproven conjecture FACTORING $\notin$ BPP as an explicit Ba
 [6] Posterior Belief Assessment: Extracting Meaningful Subjective Judgements from Bayesian Analyses with Complex Statistical Models. arXiv:1512.00969v1. https://arxiv.org/abs/1512.00969v1
 [7] Objective Bayesian Inference for Bilateral Data. arXiv:1504.06523v1. https://arxiv.org/abs/1504.06523v1
 [8] https://papers.qnfo.org/papers/factoring-hardness-as-a-bayesian-prior-a-decision-theoretic-model-of-post-quantu. QNFO: Factoring Hardness as a Bayesian Prior: A Decision-Theoretic Model of Post-Quantum Cryptography Migration Timing.
-
-## Appendix A. Divergence report
-
-**Conflict:** The numerical result for the continuous two‑hazard Poisson scenario (Scenario P) differed between drafts. Draft A reported a combined hazard $\Lambda=0.11$ $\mathrm{yr}^{-1}$ (using $\mu=0.10$) and an optimal migration time $T^{\ast}\approx0.046$ yr ($\approx$ 17 days). Draft B used $\mu=0.02$, yielding $\Lambda=0.03$ $\mathrm{yr}^{-1}$ and reported $T^{\ast}$ values between $0.332$ yr and $0.496$ yr.  
-
-**Chosen convention:** The reconciled paper adopts the version from Draft A, because it is consistent with the baseline hazard parameters ($h_{\mathrm{BPP}}=0.10$, $h_{\mathrm{HARD}}=0.01$) used throughout the main model and other scenarios. The alternative parameterization in Draft B is treated as a separate hypothetical experiment and not incorporated into the primary analysis.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts | Agreement |
-|----------|-----------|---------------|-----------|
-| C1 | Mixture hazard $\bar{h}=0.028$ $\mathrm{yr}^{-1}$ | A, B, C | Convergent |
-| C2 | Expected

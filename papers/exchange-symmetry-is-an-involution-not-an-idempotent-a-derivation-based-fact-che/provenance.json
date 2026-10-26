@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "exchange-symmetry-is-an-involution-not-an-idempotent-a-derivation-based-fact-che",
+  "paper": {
+    "path": "papers/exchange-symmetry-is-an-involution-not-an-idempotent-a-derivation-based-fact-che/paper.md",
+    "title": "Exchange Symmetry Is an Involution, Not an Idempotent: A Derivation‑Based Fact‑Check",
+    "url": "https://papers.qnfo.org/papers/exchange-symmetry-is-an-involution-not-an-idempotent-a-derivation-based-fact-che"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "exchange-symmetry-is-an-involution-not-an-idempotent-a-derivation-based-fact-che"
+  },
+  "snapshots": [
+    {
+      "sha256": "d52aa8f31d08036a208ec23d2de027332457266dee2dc7ae306bd82fd2ae9eec",
+      "bytes": 26046,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
