@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-11/adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q"
@@ -21,10 +28,16 @@
       "sha256": "77d773fdf96de02cf14b7ada3632f4b8980b412e2ae9aba066c884f37dd246e4",
       "bytes": 31761,
       "recorded_at": "2026-10-26",
-      "basis": "deposit",
+      "basis": "restore",
       "version": "1.0.0",
       "git_commit": null
     }
   ],
-  "events": []
+  "events": [
+    {
+      "event": "restored",
+      "at": "2026-10-26",
+      "detail": "paper text restored from living-paper"
+    }
+  ]
 }
