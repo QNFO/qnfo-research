@@ -292,19 +292,3 @@ We framed event‑frequency observation as a detected point process, distinguish
 [6] Radio impulsive events in quiet solar corona and Axion Quark Nugget Dark Matter. arXiv:2009.00004v2. https://arxiv.org/abs/2009.00004v2
 [7] Frequency Separation for Real-World Super-Resolution. arXiv:1911.07850v1. https://arxiv.org/abs/1911.07850v1
 [8] QNFO: Frequencies of Events in the Actual World: A Reconciled Cross-Domain Framework with Explicit Arithmetic
-
-## Appendix A. Divergence report
-
-No substantive divergences were found among the independent drafts on the shared input: all drafts agreed on the formalism, the computed values of $\omega_p$ and $\overline{\Omega}$, the test outcomes, and the convention $\epsilon = 0.15$. The convention adopted for Test 1 (pairwise‑ratio residual with $\epsilon = 0.15$, declared rather than derived) is documented in Section 3.2 and would be reported here as a divergence had any draft chosen a different tolerance.
-
-## Appendix B. Claim attribution
-
-| ID | Claim | Source drafts | Status |
-|----|-------|---------------|--------|
-| C1 | Event‑frequency formalism as a detected Poisson point process with $\lambda_D = \eta_D \lambda_w$ | A, B, C | CONVERGENT |
-| C2 | Radix‑locked angular frequencies $\omega_p = 2\pi/\ln p$ for $p \in \{2,3,5,7\}$ with the computed values of Section 4.1 | A, B, C | CONVERGENT |
-| C3 | Angular conversion of the MWA frequencies $\{98,120,132,160\}$ MHz and mean $\overline{\Omega} \approx 8.01\times10^{8}\ \mathrm{rad\,s^{-1}}$ | A, B, C | CONVERGENT |
-| C4 | MWA set fails both radix‑locking tests at $\epsilon = 0.15$ | A, B, C | CONVERGENT |
-| C5 | Zero‑event upper limit $\lambda_D^{\text{UL}} = 2.996/T_{\text{obs}}$ and sample‑size rule $N \gtrsim 1/\epsilon^{2}$ | A, B, C | CONVERGENT |
-| C6 | Tolerance $\epsilon = 0.15$ declared as a convention, with all four residual maxima exceeding it by at least a factor of 1.68 | A, B, C | CONVERGENT |
-| C7 | Detector‑conditional rates $\lambda_D$ versus world‑side $\lambda_w$, with efficiency correction $\eta_D$ required for world‑side claims | A, B, C | CONVERGENT |}

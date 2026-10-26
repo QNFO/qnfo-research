@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "finite-prime-valuations-in-fundamental-physics-an-adelically-demoted-real-number",
+  "paper": {
+    "path": "adelic-freedom/finite-prime-valuations-in-fundamental-physics-an-adelically-demoted-real-number/paper.md",
+    "title": "Finite‑Prime Valuations in Fundamental Physics: An Adelically Demoted Real‑Number Perspective",
+    "url": "https://papers.qnfo.org/papers/finite-prime-valuations-in-fundamental-physics-an-adelically-demoted-real-number"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "finite-prime-valuations-in-fundamental-physics-an-adelically-demoted-real-number"
+  },
+  "snapshots": [
+    {
+      "sha256": "eb7097113a12b87ef576130d91e3b4d433f7c78a91c3dafc068c57e82e0cb9da",
+      "bytes": 39228,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

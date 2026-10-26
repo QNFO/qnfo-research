@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "fine-structure-constant-as-an-adelically-constrained-cross-ratio",
+  "paper": {
+    "path": "adelic-freedom/fine-structure-constant-as-an-adelically-constrained-cross-ratio/paper.md",
+    "title": "Fine‑Structure Constant as an Adelically Constrained Cross‑Ratio",
+    "url": "https://papers.qnfo.org/papers/fine-structure-constant-as-an-adelically-constrained-cross-ratio"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "fine-structure-constant-as-an-adelically-constrained-cross-ratio"
+  },
+  "snapshots": [
+    {
+      "sha256": "91c227e9425b6638de5b33d2012dbbf7fa6a7b7483d045b49d32fee257b4fdcb",
+      "bytes": 22976,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "fidelity-budgets-for-discrete-regularizations-of-gauge-theories-exact-single-lin",
+  "paper": {
+    "path": "papers/fidelity-budgets-for-discrete-regularizations-of-gauge-theories-exact-single-lin/paper.md",
+    "title": "Fidelity Budgets for Discrete Regularizations of Gauge Theories: Exact Single-Link Computations, Scaling Laws, and the Limits of Heuristic Bounds",
+    "url": "https://papers.qnfo.org/papers/fidelity-budgets-for-discrete-regularizations-of-gauge-theories-exact-single-lin"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "fidelity-budgets-for-discrete-regularizations-of-gauge-theories-exact-single-lin"
+  },
+  "snapshots": [
+    {
+      "sha256": "d61887e7179ed411cf38d29266d69494a912d1cbb8180295b06a5074f36cc8e3",
+      "bytes": 21176,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

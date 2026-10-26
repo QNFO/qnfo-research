@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "fault-tolerant-quantum-memory-as-a-thermodynamic-phase-in-a-4-d-topological-phot",
+  "paper": {
+    "path": "papers/fault-tolerant-quantum-memory-as-a-thermodynamic-phase-in-a-4-d-topological-phot/paper.md",
+    "title": "Fault‑Tolerant Quantum Memory as a Thermodynamic Phase in a 4‑D Topological Photonic Lattice",
+    "url": "https://papers.qnfo.org/papers/fault-tolerant-quantum-memory-as-a-thermodynamic-phase-in-a-4-d-topological-phot"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "fault-tolerant-quantum-memory-as-a-thermodynamic-phase-in-a-4-d-topological-phot"
+  },
+  "snapshots": [
+    {
+      "sha256": "2b78933b5669aa346b41a265dd3c33ccad4ce10fdf2ccbba7c43aef1bc39a982",
+      "bytes": 28515,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
