@@ -53,32 +53,39 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
         },
         {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
         {
           "@id": "#verification-original"
         },
@@ -127,6 +134,41 @@
       "url": "https://papers.qnfo.org/papers/vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-"
     },
     {
+      "@id": "https://arxiv.org/abs/0706.2414",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0706.2414"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.2078",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.2078"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1403.6916",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1403.6916"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1810.04368",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1810.04368"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1911.08672",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1911.08672"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2212.03778",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2212.03778"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2403.04166",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2403.04166"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -134,6 +176,36 @@
       "contentSize": "878",
       "sha256": "d75977ccab700895d2b8afdb91f17f702ab3a1cda7ac9239d3b47427ddf37018",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "49806",
+      "sha256": "18581b1da8efa8b4bafca6b4a790a538dcb0c1daa0157db73aae522443f2825f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "38",
+      "sha256": "f71b06a86703a25505b33f002d6a456f67981b72602c3aff7b38f12b13cb69d1",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9651",
+      "sha256": "a86301cc971bee4d380cf93d1da43bf17a28e3ff0871aecd837aea4813fc1b88",
+      "qnfo:role": "verification-report",
       "qnfo:listedInManifest": true
     },
     {
@@ -147,39 +219,115 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "18581b1da8efa8b4bafca6b4a790a538dcb0c1daa0157db73aae522443f2825f",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "f71b06a86703a25505b33f002d6a456f67981b72602c3aff7b38f12b13cb69d1",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
-      "name": "verification.md",
-      "sha256": "a86301cc971bee4d380cf93d1da43bf17a28e3ff0871aecd837aea4813fc1b88",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19571",
       "sha256": "ede8299ee774e76ae95cd7a95d1bcb93dab9465a538e2ec34d874308a2656a94",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25828",
       "sha256": "5be6c8e0b0698ccfe2e42f97ab2fd1b692468acd5a9c3d0613a05423f1844931",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0706.2414"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1002.2078"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1403.6916"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1810.04368"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1911.08672"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2212.03778"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2403.04166"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",
@@ -195,13 +343,14 @@
       ],
       "result": [
         {
-          "@id": "verification.py"
+          "@id": "verification.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
       "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
       "endTime": "2026-10-26T01:51:48+01:00",
       "description": "endTime is the deposit time; the execution time itself was not recorded."
     },

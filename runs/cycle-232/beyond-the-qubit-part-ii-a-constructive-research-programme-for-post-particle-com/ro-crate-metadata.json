@@ -41,34 +41,41 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
         },
         {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
           "@id": "verification.md"
         },
         {
+          "@id": "verification.py"
+        },
+        {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
         {
+          "@id": "#grounding"
+        },
+        {
           "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
         }
       ]
     },
@@ -112,6 +119,46 @@
       "url": "https://papers.qnfo.org/papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com"
     },
     {
+      "@id": "https://arxiv.org/abs/1310.7054",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1310.7054"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.06796",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.06796"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.05305",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.05305"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.05505",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.05505"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.06152",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.06152"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2208.03261",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2208.03261"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.09558",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.09558"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.23840",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.23840"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -119,6 +166,26 @@
       "contentSize": "881",
       "sha256": "b18b9a0a47f7fa7cacf47cddec9f88d71c8132dfd0e3a78815afda3a391ba249",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "96950",
+      "sha256": "5424620cec64dce2dc5bd75a9de5a557b9a1845e4bb10a7e5f36585517158529",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1339",
+      "sha256": "a79f82e280d5807be13d6de249c99f14380d213d5efc1cd07f968c6088e5542c",
+      "qnfo:role": "review",
       "qnfo:listedInManifest": true
     },
     {
@@ -132,6 +199,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3194",
+      "sha256": "7a5ca588c92bd1b02dce4eb63da6210f975d4ea6546741c0080977cbbd236010",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-a-draft.md",
       "@type": "File",
       "name": "writer-a-draft.md",
@@ -142,32 +219,58 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "5424620cec64dce2dc5bd75a9de5a557b9a1845e4bb10a7e5f36585517158529",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "a79f82e280d5807be13d6de249c99f14380d213d5efc1cd07f968c6088e5542c",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
-      "name": "verification.py",
-      "sha256": "7a5ca588c92bd1b02dce4eb63da6210f975d4ea6546741c0080977cbbd236010",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "30492",
       "sha256": "74d9e0539956fc7cf5930127eb670b8a3c2f01a4a4e720b1814e684d1e5f3fb2",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1310.7054"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.06796"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.05305"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.05505"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.06152"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2208.03261"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.09558"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.23840"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -179,12 +282,70 @@
       "result": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-19T17:31:26+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

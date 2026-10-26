@@ -53,20 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -76,9 +68,21 @@
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
         {
           "@id": "#review"
         },
@@ -130,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget"
     },
     {
+      "@id": "https://arxiv.org/abs/1310.8494",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1310.8494"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2303.01648",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2303.01648"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.16413",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.16413"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.24971",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.24971"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.29986",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.29986"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.07175",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.07175"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.25782",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.25782"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.08378",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.08378"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +181,16 @@
       "contentSize": "880",
       "sha256": "44fe9703b89c61cbb5d01d79c3edf436dd78c02c6e4a3759cfa28693ccd594b9",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "86022",
+      "sha256": "5a12c1e698d5d209d5152b41bd2903b70022672e96a3d3a3b7ddde5028d7a5c7",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -170,25 +224,93 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "5a12c1e698d5d209d5152b41bd2903b70022672e96a3d3a3b7ddde5028d7a5c7",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28284",
       "sha256": "997ddf37f83cf1f7cd661cd4448491f2984778db1e9632f6e2f77b2882065340",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20017",
       "sha256": "06b170ec464541a07ff4974660802eceb3dde0ec672df472d25e1b879ff53217",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1310.8494"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2303.01648"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.16413"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.24971"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.29986"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.07175"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.25782"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.08378"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -205,7 +327,15 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

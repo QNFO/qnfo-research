@@ -55,9 +55,6 @@
       },
       "qnfo:missingParts": [
         {
-          "@id": "#missing/grounding.md"
-        },
-        {
           "@id": "#missing/writer-a-draft.md"
         },
         {
@@ -67,6 +64,9 @@
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -79,6 +79,9 @@
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#review"
         },
@@ -130,6 +133,31 @@
       "url": "https://papers.qnfo.org/papers/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a"
     },
     {
+      "@id": "https://arxiv.org/abs/0809.0492",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0809.0492"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1206.3106",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1206.3106"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1504.03629",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1504.03629"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.10209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.10209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2408.00810",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2408.00810"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +165,16 @@
       "contentSize": "880",
       "sha256": "d269ac55747a3875c8f3dc1e9e95a8d00ad0461c364d33a1d06ca3660fa47ad1",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51263",
+      "sha256": "57dfe42fa328a837b0d157320c5bcfc13581d19e7df34f3de098e73528915e67",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -170,13 +208,6 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "57dfe42fa328a837b0d157320c5bcfc13581d19e7df34f3de098e73528915e67",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
       "@id": "#missing/writer-a-draft.md",
       "@type": "CreativeWork",
       "name": "writer-a-draft.md",
@@ -189,6 +220,41 @@
       "name": "writer-b-draft.md",
       "sha256": "0b764def785ff9621c013e862b61c74caebefe104add0a92bed9222419c1aebf",
       "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0809.0492"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1206.3106"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1504.03629"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.10209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2408.00810"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#review",
@@ -205,7 +271,12 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

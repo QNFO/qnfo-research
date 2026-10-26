@@ -53,17 +53,15 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/adelic-factorization-of-quantum-dynamics-across-all-completions-of"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
         },
         {
           "@id": "verification.md"
@@ -80,7 +78,13 @@
       ],
       "mentions": [
         {
+          "@id": "#grounding"
+        },
+        {
           "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
         },
         {
           "@id": "#verification-original"
@@ -130,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/adelic-factorization-of-quantum-dynamics-across-all-completions-of"
     },
     {
+      "@id": "https://arxiv.org/abs/1109.1545",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1109.1545"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.3539",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.3539"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1502.04660",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1502.04660"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2011.06009",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2011.06009"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2110.06573",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2110.06573"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.16000",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.16000"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.10504",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.10504"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0402010",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0402010"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +181,26 @@
       "contentSize": "880",
       "sha256": "0f76a45008aef60f6f632410d0ca828f90aa4719cac6dc5a212de36160348214",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "72413",
+      "sha256": "3e7869f3c00540bba24af9dcb4102f7cc779e44cfadd68ba78d4b44edc0cdfa0",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5104",
+      "sha256": "37880856cfb78961ee7d2adc205f1eff826323514b2ccc046ad73ed34b43d9cb",
+      "qnfo:role": "review",
       "qnfo:listedInManifest": true
     },
     {
@@ -180,18 +244,48 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "3e7869f3c00540bba24af9dcb4102f7cc779e44cfadd68ba78d4b44edc0cdfa0",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "37880856cfb78961ee7d2adc205f1eff826323514b2ccc046ad73ed34b43d9cb",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1109.1545"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.3539"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1502.04660"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2011.06009"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2110.06573"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.16000"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.10504"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0402010"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -211,7 +305,37 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

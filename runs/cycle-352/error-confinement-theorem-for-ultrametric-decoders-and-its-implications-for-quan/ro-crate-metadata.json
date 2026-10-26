@@ -53,32 +53,39 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
         },
         {
           "@id": "verification.md"
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
         {
           "@id": "#verification-original"
         },
@@ -127,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan"
     },
     {
+      "@id": "https://arxiv.org/abs/1310.2393",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1310.2393"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1711.11096",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1711.11096"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.10209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.10209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2112.01977",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2112.01977"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2207.14742",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2207.14742"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.03280",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.03280"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.14527",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.14527"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2605.17156",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2605.17156"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -134,6 +181,26 @@
       "contentSize": "880",
       "sha256": "13acb3b9201b36c3cf8da7437a37124c62f7f5b21506c14a2e799fe34f902fe3",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "53415",
+      "sha256": "f00ff6ad598af99205c56bcb63c7f15146cf8a7f5a9b6bbe622412bb3b5e6706",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4688",
+      "sha256": "efc1f04ca4f0da445af7fde4b28a363c43e46e2e1fb4fd105763cc70c415dc2d",
+      "qnfo:role": "review",
       "qnfo:listedInManifest": true
     },
     {
@@ -157,32 +224,118 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "f00ff6ad598af99205c56bcb63c7f15146cf8a7f5a9b6bbe622412bb3b5e6706",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "efc1f04ca4f0da445af7fde4b28a363c43e46e2e1fb4fd105763cc70c415dc2d",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18417",
       "sha256": "2659ffe50219802575b77aaf20bd02306fb6f2b56b5c0a03fa0a955cdd58a45b",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22269",
       "sha256": "16e2e87402b56230c8d80627fdb43c3ade5f6911ae2210f48d02bf27fde5eda1",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1310.2393"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1711.11096"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.10209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2112.01977"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2207.14742"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.03280"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.14527"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2605.17156"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

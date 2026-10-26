@@ -3,182 +3,14 @@
   "as_of": "2026-10-26",
   "gaps": [
     {
-      "id": "GAP-MISS-0aa3428e21",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-271/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "5a12c1e698d5d209d5152b41bd2903b70022672e96a3d3a3b7ddde5028d7a5c7",
-        "writer-a-draft.md": "997ddf37f83cf1f7cd661cd4448491f2984778db1e9632f6e2f77b2882065340",
-        "writer-b-draft.md": "06b170ec464541a07ff4974660802eceb3dde0ec672df472d25e1b879ff53217"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-0ad8c024eb",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-352/error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "f00ff6ad598af99205c56bcb63c7f15146cf8a7f5a9b6bbe622412bb3b5e6706",
-        "review-report.md": "efc1f04ca4f0da445af7fde4b28a363c43e46e2e1fb4fd105763cc70c415dc2d",
-        "writer-a-draft.md": "2659ffe50219802575b77aaf20bd02306fb6f2b56b5c0a03fa0a955cdd58a45b",
-        "writer-b-draft.md": "16e2e87402b56230c8d80627fdb43c3ade5f6911ae2210f48d02bf27fde5eda1"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-0bdbafa67d",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-232/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.py",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "5424620cec64dce2dc5bd75a9de5a557b9a1845e4bb10a7e5f36585517158529",
-        "review-report.md": "a79f82e280d5807be13d6de249c99f14380d213d5efc1cd07f968c6088e5542c",
-        "verification.py": "7a5ca588c92bd1b02dce4eb63da6210f975d4ea6546741c0080977cbbd236010",
-        "writer-b-draft.md": "74d9e0539956fc7cf5930127eb670b8a3c2f01a4a4e720b1814e684d1e5f3fb2"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-0d9b1f2e69",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-321/brain-as-filter-an-information-theoretic-model-of-altered-states-of-consciousnes",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.py"
-      ],
-      "expected_sha256": {
-        "grounding.md": "c7a4d011f2c806c3b7af253c4653f9523389f94c6f2b12ac6c5972aa28c1dea8",
-        "review-report.md": "2a5f6f241c7ec4552ca65c622349ce735471d98fb09325bd1cb8a547d700c907",
-        "verification.py": "708c58bf437305651c8e025921f94b49df9bb321d1ac951078f74966f0b0ebdc"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-2a9f6c120a",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-194/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
-      "files": [
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "writer-b-draft.md": "9e010f83c1976e65578f75ae60e0725917f7e1b72e6f01fa187f84619f970a85"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-3208c327e3",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-390/vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "18581b1da8efa8b4bafca6b4a790a538dcb0c1daa0157db73aae522443f2825f",
-        "review-report.md": "f71b06a86703a25505b33f002d6a456f67981b72602c3aff7b38f12b13cb69d1",
-        "verification.md": "a86301cc971bee4d380cf93d1da43bf17a28e3ff0871aecd837aea4813fc1b88",
-        "writer-a-draft.md": "ede8299ee774e76ae95cd7a95d1bcb93dab9465a538e2ec34d874308a2656a94",
-        "writer-b-draft.md": "5be6c8e0b0698ccfe2e42f97ab2fd1b692468acd5a9c3d0613a05423f1844931"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-3222fbbc5d",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-377/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic",
-      "files": [
-        "review-report.md"
-      ],
-      "expected_sha256": {
-        "review-report.md": "ecda9daabca49e144f51ef39db545beeaa1797641f7675e00c1311329d04ac13"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-34ff9b181d",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-214/will-to-meaning-as-a-neurobiological-survival-mechanism",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "b2f27e8fcae7c0bbf4e3e8bfad7d166d543d0357a01fe4385399c2c0fc90abb6",
-        "review-report.md": "d1374bb3f9b8b59dc3440a39103dc032ec7c0914247b0fc4710524d97d55e660",
-        "verification.md": "f10d4bc4b8eb1521f6be44a77be746197f997b322cc3f51548eff8e567ba4e1a",
-        "verification.py": "fdc891e3611cae5895d35b5128b75040ea0b1e8661edd5dd285104075f4190e4",
-        "writer-a-draft.md": "d28d32c060a8aa15793125960f3456665e421fa455f1eb0d10110b03a02225b5",
-        "writer-b-draft.md": "c011b051606d0a3b55d88675d052012ffbcdbbbc8af76f3fc15d13e0a93e0505"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-3b25381e95",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-227/adelic-factorization-of-quantum-dynamics-across-all-completions-of",
-      "files": [
-        "grounding.md",
-        "review-report.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "3e7869f3c00540bba24af9dcb4102f7cc779e44cfadd68ba78d4b44edc0cdfa0",
-        "review-report.md": "37880856cfb78961ee7d2adc205f1eff826323514b2ccc046ad73ed34b43d9cb"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
       "id": "GAP-MISS-3c20e4850c",
       "kind": "manifest-file-missing",
       "path": "runs/cycle-268/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a",
       "files": [
-        "grounding.md",
         "writer-a-draft.md",
         "writer-b-draft.md"
       ],
       "expected_sha256": {
-        "grounding.md": "57dfe42fa328a837b0d157320c5bcfc13581d19e7df34f3de098e73528915e67",
         "writer-a-draft.md": "b5789336862c649cae06ab6ae396244a4cb1142fdf9d54fcab166475275325fa",
         "writer-b-draft.md": "0b764def785ff9621c013e862b61c74caebefe104add0a92bed9222419c1aebf"
       },
@@ -1499,20 +1331,6 @@
       ],
       "runs": [
         "runs/cycle-196/adelic-ruler-independence-and-rationality-of-standard-model-parameters"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
-      "id": "GAP-PAPER-02c50b2453",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/torsion-as-a-candidate-geometric-generator-of-quantum-phase-and-statistics-a-for",
-      "files": [
-        "papers/torsion-as-a-candidate-geometric-generator-of-quantum-phase-and-statistics-a-for/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-157/torsion-as-a-candidate-geometric-generator-of-quantum-phase-and-statistics-a-for"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",

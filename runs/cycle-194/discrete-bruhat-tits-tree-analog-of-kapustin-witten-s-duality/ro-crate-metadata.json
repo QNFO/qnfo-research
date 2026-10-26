@@ -53,11 +53,6 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
@@ -76,6 +71,9 @@
         },
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
@@ -226,11 +224,14 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24180",
       "sha256": "9e010f83c1976e65578f75ae60e0725917f7e1b72e6f01fa187f84619f970a85",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#grounding",
@@ -280,6 +281,9 @@
       "result": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
@@ -311,6 +315,9 @@
       "object": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ]
     },

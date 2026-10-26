@@ -41,23 +41,21 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/brain-as-filter-an-information-theoretic-model-of-altered-states-of-consciousnes"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
         },
         {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
           "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
         },
         {
           "@id": "writer-a-draft.md"
@@ -68,7 +66,16 @@
       ],
       "mentions": [
         {
+          "@id": "#grounding"
+        },
+        {
           "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
         }
       ]
     },
@@ -112,6 +119,41 @@
       "url": "https://papers.qnfo.org/papers/brain-as-filter-an-information-theoretic-model-of-altered-states-of-consciousnes"
     },
     {
+      "@id": "https://arxiv.org/abs/1212.0668",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1212.0668"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.02788",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.02788"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2011.11052",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2011.11052"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.08261",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.08261"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.19399",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.19399"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2602.08188",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2602.08188"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.06654",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.06654"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -122,6 +164,26 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52623",
+      "sha256": "c7a4d011f2c806c3b7af253c4653f9523389f94c6f2b12ac6c5972aa28c1dea8",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6089",
+      "sha256": "2a5f6f241c7ec4552ca65c622349ce735471d98fb09325bd1cb8a547d700c907",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "verification.md",
       "@type": "File",
       "name": "verification.md",
@@ -129,6 +191,16 @@
       "contentSize": "8556",
       "sha256": "b6d2dd99a77438e87d8b117d39acffa042c11aa702d95cebe1def30f9059616a",
       "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2858",
+      "sha256": "708c58bf437305651c8e025921f94b49df9bb321d1ac951078f74966f0b0ebdc",
+      "qnfo:role": "verification-script",
       "qnfo:listedInManifest": true
     },
     {
@@ -152,25 +224,45 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "c7a4d011f2c806c3b7af253c4653f9523389f94c6f2b12ac6c5972aa28c1dea8",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "2a5f6f241c7ec4552ca65c622349ce735471d98fb09325bd1cb8a547d700c907",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
-      "name": "verification.py",
-      "sha256": "708c58bf437305651c8e025921f94b49df9bb321d1ac951078f74966f0b0ebdc",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1212.0668"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.02788"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2011.11052"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.08261"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.19399"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2602.08188"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.06654"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -190,7 +282,62 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T02:02:03+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }
