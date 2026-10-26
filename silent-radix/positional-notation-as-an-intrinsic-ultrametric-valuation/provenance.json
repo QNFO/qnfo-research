@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "positional-notation-as-an-intrinsic-ultrametric-valuation",
+  "paper": {
+    "path": "silent-radix/positional-notation-as-an-intrinsic-ultrametric-valuation/paper.md",
+    "title": "Positional Notation as an Intrinsic Ultrametric Valuation",
+    "url": "https://papers.qnfo.org/papers/positional-notation-as-an-intrinsic-ultrametric-valuation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "positional-notation-as-an-intrinsic-ultrametric-valuation"
+  },
+  "snapshots": [
+    {
+      "sha256": "832a363885535aa2fe7fd57410efdb10a295ab942ff8e4d1a367d8c2ed6f3997",
+      "bytes": 27015,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

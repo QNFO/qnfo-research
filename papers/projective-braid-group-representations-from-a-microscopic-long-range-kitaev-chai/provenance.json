@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "projective-braid-group-representations-from-a-microscopic-long-range-kitaev-chai",
+  "paper": {
+    "path": "papers/projective-braid-group-representations-from-a-microscopic-long-range-kitaev-chai/paper.md",
+    "title": "Projective Braid Group Representations from a Microscopic Long-Range Kitaev Chain",
+    "url": "https://papers.qnfo.org/papers/projective-braid-group-representations-from-a-microscopic-long-range-kitaev-chai"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "projective-braid-group-representations-from-a-microscopic-long-range-kitaev-chai"
+  },
+  "snapshots": [
+    {
+      "sha256": "dafc75e32a2f025bdaa7ca35eee23953d7bd426f90f67fa5aaefc8f9717a48c2",
+      "bytes": 27466,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

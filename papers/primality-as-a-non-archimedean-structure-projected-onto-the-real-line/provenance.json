@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "primality-as-a-non-archimedean-structure-projected-onto-the-real-line",
+  "paper": {
+    "path": "papers/primality-as-a-non-archimedean-structure-projected-onto-the-real-line/paper.md",
+    "title": "Primality as a Non‑Archimedean Structure Projected onto the Real Line",
+    "url": "https://papers.qnfo.org/papers/primality-as-a-non-archimedean-structure-projected-onto-the-real-line"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "primality-as-a-non-archimedean-structure-projected-onto-the-real-line"
+  },
+  "snapshots": [
+    {
+      "sha256": "02e73c3bd854c0c68e63c49b307b0e066304ebf477dced85323340d411bdf329",
+      "bytes": 23957,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

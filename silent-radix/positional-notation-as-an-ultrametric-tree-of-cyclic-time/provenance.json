@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "positional-notation-as-an-ultrametric-tree-of-cyclic-time",
+  "paper": {
+    "path": "silent-radix/positional-notation-as-an-ultrametric-tree-of-cyclic-time/paper.md",
+    "title": "Positional Notation as an Ultrametric Tree of Cyclic Time",
+    "url": "https://papers.qnfo.org/papers/positional-notation-as-an-ultrametric-tree-of-cyclic-time"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "positional-notation-as-an-ultrametric-tree-of-cyclic-time"
+  },
+  "snapshots": [
+    {
+      "sha256": "d771b7f959ccf99a1bd06e509cfcef508e3969710d06d7812bd54d070a5ff4a5",
+      "bytes": 21800,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
