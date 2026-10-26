@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-cross-ratio-derivation-of-the-fine-structure-constant-and-its-numerical-a",
+  "paper": {
+    "path": "adelic-freedom/adelic-cross-ratio-derivation-of-the-fine-structure-constant-and-its-numerical-a/paper.md",
+    "title": "Adelic Cross‑Ratio Derivation of the Fine‑Structure Constant and Its Numerical Assessment",
+    "url": "https://papers.qnfo.org/papers/adelic-cross-ratio-derivation-of-the-fine-structure-constant-and-its-numerical-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-cross-ratio-derivation-of-the-fine-structure-constant-and-its-numerical-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "3dfbf5b113a9794101595c38f001caea2ee2d24efe3c350816a5ee6b5e3512ac",
+      "bytes": 28684,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

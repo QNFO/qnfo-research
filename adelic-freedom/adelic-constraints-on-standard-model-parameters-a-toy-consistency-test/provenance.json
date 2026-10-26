@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-constraints-on-standard-model-parameters-a-toy-consistency-test",
+  "paper": {
+    "path": "adelic-freedom/adelic-constraints-on-standard-model-parameters-a-toy-consistency-test/paper.md",
+    "title": "Adelic Constraints on Standard Model Parameters: A Toy Consistency Test",
+    "url": "https://papers.qnfo.org/papers/adelic-constraints-on-standard-model-parameters-a-toy-consistency-test"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-constraints-on-standard-model-parameters-a-toy-consistency-test"
+  },
+  "snapshots": [
+    {
+      "sha256": "4171bbf02f64a72425be18408c4ff52daf314ffabf021acab41c9c3cbb41dcfc",
+      "bytes": 26299,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

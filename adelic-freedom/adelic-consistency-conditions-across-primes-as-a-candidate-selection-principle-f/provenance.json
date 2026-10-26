@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f",
+  "paper": {
+    "path": "adelic-freedom/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f/paper.md",
+    "title": "Adelic Consistency Conditions Across Primes as a Candidate Selection Principle for Physical Constants: Formulation, Negative Control, and Toy Dynamics",
+    "url": "https://papers.qnfo.org/papers/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f"
+  },
+  "snapshots": [
+    {
+      "sha256": "251e69306af1084263b0cd8f5145d04c37d376404455659c1c961039c74e5d57",
+      "bytes": 20742,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -13,10 +13,6 @@
       {
         "doi": "10.5281/zenodo.22738231",
         "source": "README.md"
-      },
-      {
-        "doi": "10.5281/zenodo.17864277",
-        "source": "paper.md"
       }
     ]
   },
@@ -33,6 +29,14 @@
       "basis": "backfill",
       "version": "2.0.0",
       "git_commit": "e7a01212ec4aaa21101aeb6b8fa20d8d9c43b452"
+    },
+    {
+      "sha256": "8e2c4c76c7e0e0a12138546208219396342f61807e8e480a650d9a9c440e5d8d",
+      "bytes": 49220,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []
