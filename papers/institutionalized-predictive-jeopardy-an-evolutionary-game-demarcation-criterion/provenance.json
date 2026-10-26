@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "institutionalized-predictive-jeopardy-an-evolutionary-game-demarcation-criterion",
+  "paper": {
+    "path": "papers/institutionalized-predictive-jeopardy-an-evolutionary-game-demarcation-criterion/paper.md",
+    "title": "Institutionalized Predictive Jeopardy: An Evolutionary-Game Demarcation Criterion for Knowledge Systems",
+    "url": "https://papers.qnfo.org/papers/institutionalized-predictive-jeopardy-an-evolutionary-game-demarcation-criterion"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "institutionalized-predictive-jeopardy-an-evolutionary-game-demarcation-criterion"
+  },
+  "snapshots": [
+    {
+      "sha256": "1c7eabe28147b95f1c1a99e7859be574c156ad4d21ad83d716b56a590987909d",
+      "bytes": 46318,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

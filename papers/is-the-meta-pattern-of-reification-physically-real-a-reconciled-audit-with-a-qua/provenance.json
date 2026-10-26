@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "is-the-meta-pattern-of-reification-physically-real-a-reconciled-audit-with-a-qua",
+  "paper": {
+    "path": "papers/is-the-meta-pattern-of-reification-physically-real-a-reconciled-audit-with-a-qua/paper.md",
+    "title": "Is the Meta-Pattern of Reification Physically Real? A Reconciled Audit with a Quantified Cost Framework",
+    "url": "https://papers.qnfo.org/papers/is-the-meta-pattern-of-reification-physically-real-a-reconciled-audit-with-a-qua"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "is-the-meta-pattern-of-reification-physically-real-a-reconciled-audit-with-a-qua"
+  },
+  "snapshots": [
+    {
+      "sha256": "03aa61d33145eec5e400e40e4571285c807942cd90e84907cc9274a0371832d7",
+      "bytes": 32221,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
