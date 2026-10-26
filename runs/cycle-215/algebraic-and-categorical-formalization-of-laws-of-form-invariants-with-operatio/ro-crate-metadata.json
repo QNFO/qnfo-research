@@ -17,6 +17,18 @@
       }
     },
     {
+      "@id": "#cpython-3.12.15",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.15"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
       "@id": "./",
       "@type": "Dataset",
       "name": "QNFO research run cycle-215: algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
@@ -76,6 +88,9 @@
         },
         {
           "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
         }
       ]
     },
@@ -338,6 +353,30 @@
       "qnfo:exitCode": 0,
       "endTime": "2026-10-19T12:31:02+02:00",
       "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.15"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "d7233a911a1078cbb54c43598bc7a2b890e03d4cf33cce89c19363d317c0c8ca"
     }
   ]
 }

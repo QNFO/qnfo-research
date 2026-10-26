@@ -17,10 +17,10 @@
       }
     },
     {
-      "@id": "#cpython-3.12.3",
+      "@id": "#cpython-3.12.15",
       "@type": "SoftwareApplication",
       "name": "CPython",
-      "version": "3.12.3"
+      "version": "3.12.15"
     },
     {
       "@id": "#provenance-tool",
@@ -359,7 +359,7 @@
       "@type": "CreateAction",
       "name": "Independent re-execution of verification.py",
       "instrument": {
-        "@id": "#cpython-3.12.3"
+        "@id": "#cpython-3.12.15"
       },
       "object": [
         {
@@ -373,7 +373,7 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:comparison": "no-recorded-output",
+      "qnfo:comparison": "reproduced-exact",
       "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
       "qnfo:exitCode": 0,
       "qnfo:stdoutSha256": "d870fa58fd540b37aef5838eea43fcd500dc029c5d951fe1b2fa1563899f40e1"

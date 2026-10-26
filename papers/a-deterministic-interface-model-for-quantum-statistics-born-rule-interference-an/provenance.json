@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-163/a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "6ad98fc7ea0c4f18f86de0a9c362b6291b1fa332fa6b08bc0ecf50572e547517"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an"

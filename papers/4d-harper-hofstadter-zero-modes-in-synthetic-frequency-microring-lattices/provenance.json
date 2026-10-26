@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-389/4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e663dc3d4e5a4f8780e4bb2705935c314d82f20a6710c1685b9d5dfc9af3a5f4"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices"

@@ -17,6 +17,18 @@
       }
     },
     {
+      "@id": "#cpython-3.12.15",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.15"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
       "@id": "./",
       "@type": "Dataset",
       "name": "QNFO research run cycle-205: golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
@@ -76,6 +88,9 @@
         },
         {
           "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
         }
       ]
     },
@@ -338,6 +353,30 @@
       "qnfo:exitCode": 0,
       "endTime": "2026-10-19T06:10:59+02:00",
       "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.15"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "80091e65f6f11db6adb0414e3d26c821a98161c959fe609cc2ccf25790cb2bea"
     }
   ]
 }

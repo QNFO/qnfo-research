@@ -17,6 +17,18 @@
       }
     },
     {
+      "@id": "#cpython-3.12.15",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.12.15"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
       "@id": "./",
       "@type": "Dataset",
       "name": "QNFO research run cycle-232: beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
@@ -76,6 +88,9 @@
         },
         {
           "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
         }
       ]
     },
@@ -346,6 +361,30 @@
       "qnfo:exitCode": 1,
       "endTime": "2026-10-19T17:31:26+02:00",
       "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.12.15"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "b347dd586b3605e2a538620fb66d61e4a81c04507936d6029a14175cbc439ea2"
     }
   ]
 }
