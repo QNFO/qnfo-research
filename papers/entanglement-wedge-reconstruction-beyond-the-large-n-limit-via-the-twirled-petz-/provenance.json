@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "entanglement-wedge-reconstruction-beyond-the-large-n-limit-via-the-twirled-petz-",
+  "paper": {
+    "path": "papers/entanglement-wedge-reconstruction-beyond-the-large-n-limit-via-the-twirled-petz-/paper.md",
+    "title": "Entanglement Wedge Reconstruction Beyond the Large \\(N\\) Limit via the Twirled Petz Map",
+    "url": "https://papers.qnfo.org/papers/entanglement-wedge-reconstruction-beyond-the-large-n-limit-via-the-twirled-petz-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "entanglement-wedge-reconstruction-beyond-the-large-n-limit-via-the-twirled-petz-"
+  },
+  "snapshots": [
+    {
+      "sha256": "096847926b8ed6536dbf14c489d454394c56c79a8f005839fd8a2ea5e436d684",
+      "bytes": 23353,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

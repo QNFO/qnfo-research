@@ -240,22 +240,3 @@ We recast ensemble drafting as a population‑level broadcast‑control problem,
 [8] Asymptotic of Bergman Kernel (Master Thesis). arXiv:2202.03383v1. https://arxiv.org/abs/2202.03383v1
 [9] https://papers.qnfo.org/papers/consilient-synthesis-v2. QNFO: QNFO Consilient Synthesis v2.0: The Shared Adelic Kernel.
 [10] https://papers.qnfo.org/papers/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to. QNFO: Population-Level Methods for Structured Ensembles: From Chaotic DNA Inversions to Ensemble Leg Drafting.
-
-## Appendix A. Divergence report
-
-No unresolved divergences remain in the reconciled text. The conventions adopted, documented here for transparency: (i) where source drafts differed on whether the grid optimum over $K$ should be presented as a global optimum, the main text adopts the weaker and safer convention of a grid optimum over $K\in\{3,4,5,6\}$; (ii) where drafts differed on the scope of the variance‑reduction claim, the main text adopts the version conditional on assumptions A1 and A4 (independence and common $\sigma$); (iii) The citation of the spanning‑set principle was corrected to reference [7] as required by its source text.
-
-## Appendix B. Claim attribution
-
-| Claim | Source drafts | Agreement |
-|---|---|---|
-| C1: Ensemble drafting as broadcast population control (state, action, feedback) | A, B, C | CONVERGENT |
-| C2: $E[L]=(1-\alpha^{K})/(1-\alpha)$ with $E[L]=2.533$ at $\alpha=0.7$, $K=4$ | A, B, C | CONVERGENT |
-| C3: $C=Kc_{d}+1=1.4$ at $K=4$, $c_{d}=0.1$ | A, B | CONVERGENT |
-| C4: $T=E[L]/C\approx1.8093$ | A, B, C | CONVERGENT |
-| C5: Grid optimum $K^{\star}=5$, $T\approx1.8487$ | A, B | CONVERGENT (scope: grid, per Appendix A) |
-| C6: Standard error $\sigma/\sqrt{N}\approx0.1342$ at $\sigma=0.3$, $N=5$ | A, B, C | CONVERGENT |
-| C7: Vandermonde reachability, controllable iff pairwise distinct $\lambda_{i}$ | A, C | CONVERGENT |
-| C8: Assumptions A1–A4 as explicit membership table (motivated by [9]) | B, C | CONVERGENT |
-| C9: Drafter specialization via spanning‑set principle of [7] | A | SINGLE |
-| C10: Projection at $\alpha=0.5$, $T\approx1.3393$ | B | SINGLE (labeled projection) |

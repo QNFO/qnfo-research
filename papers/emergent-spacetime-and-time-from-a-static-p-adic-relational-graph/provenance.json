@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-spacetime-and-time-from-a-static-p-adic-relational-graph",
+  "paper": {
+    "path": "papers/emergent-spacetime-and-time-from-a-static-p-adic-relational-graph/paper.md",
+    "title": "Emergent Spacetime and Time from a Static $p$‑Adic Relational Graph",
+    "url": "https://papers.qnfo.org/papers/emergent-spacetime-and-time-from-a-static-p-adic-relational-graph"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-spacetime-and-time-from-a-static-p-adic-relational-graph"
+  },
+  "snapshots": [
+    {
+      "sha256": "a28f35bad348653ee1675f23f75451d50e9895a6d1fc0fbe35eac6301290b4db",
+      "bytes": 35453,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

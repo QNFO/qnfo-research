@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ensemble-dependence-of-critical-exponents-at-quantum-error-correction-thresholds",
+  "paper": {
+    "path": "papers/ensemble-dependence-of-critical-exponents-at-quantum-error-correction-thresholds/paper.md",
+    "title": "Ensemble Dependence of Critical Exponents at Quantum Error Correction Thresholds: Analytic Mechanisms and Statistical Consequences",
+    "url": "https://papers.qnfo.org/papers/ensemble-dependence-of-critical-exponents-at-quantum-error-correction-thresholds"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ensemble-dependence-of-critical-exponents-at-quantum-error-correction-thresholds"
+  },
+  "snapshots": [
+    {
+      "sha256": "14a3def17e624aab2c7ec269addccd1410417437c12a604188b811bfbcc83470",
+      "bytes": 32783,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

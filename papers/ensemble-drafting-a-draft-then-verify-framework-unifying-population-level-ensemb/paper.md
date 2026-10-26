@@ -544,15 +544,3 @@ Ensemble drafting abstracts the shared draft‑then‑verify structure of specul
 [8] Asymptotic of Bergman Kernel (Master Thesis). arXiv:2202.03383v1. https://arxiv.org/abs/2202.03383v1
 [9] https://papers.qnfo.org/papers/consilient-gap-synthesis. QNFO: A Consilient Gap Synthesis of the QNFO/QWAV Research Portfolio.
 [10] https://papers.qnfo.org/papers/harmonische-paradigma-kappa-siit-v4. QNFO: Kappa/SIIT Cross-Validation: Exact Reproduction of Standard Model 1-Loop β-Functions and Resolution of the Harmonic-Paradigm Tension.
-
-## Appendix A. Divergence report
-The reconciled drafts diverged on the cost convention for multi‑drafter configurations: one draft normalized cost per cycle (draft overhead $m\cdot\rho\cdot k$ verifier‑pass equivalents per cycle), while another normalized cost per accepted unit ($S=E_k[A]/(\rho k+\nu)$ with $\rho_m=m\rho$). The main text adopts the per‑accepted‑unit convention of Section 3.3 throughout; under the illustrative parameters of Section 4.5 both conventions were reported to give the same relative‑speedup value $S_{\text{rel}}=1.251877$, but only the per‑accepted‑unit formulation is fully derived in Section 4. Consequently the paper reports results under the single stated convention and records the second convention here as a documented, unresolved drafting divergence rather than a verified equivalence.
-
-## Appendix B. Claim attribution
-| Claim | Source drafts | Agreement |
-|---|---|---|
-| C1: Three‑parameter model ($\alpha$, $\rho$, $\nu$) and gain $S(k)=E_k[A]/(\rho k+\nu)$ | A, B, C | CONVERGENT |
-| C2: $E_k[A]=(1-\alpha^{k})/(1-\alpha)$ with geometric‑tail derivation | A, B, C | CONVERGENT |
-| C3: Single strong drafter operating point $k^{*}=7$, $S=2.324367$ at $\alpha=0.8$, $\rho=0.1$, $\nu=1$ | A, B | CONVERGENT |
-| C4: Pooled acceptance $\alpha_m=1-(1-\alpha)^m$ under independence | A, B, C | CONVERGENT |
-| C5: Two weak drafters improve optimal gain from $1.346154$ to $1.525391$ ($13.3\%$) | A, B | CONVER

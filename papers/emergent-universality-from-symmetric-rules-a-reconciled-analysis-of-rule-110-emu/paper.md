@@ -199,35 +199,6 @@ This paper has supplied the quantitative skeleton under the construction of [1, 
 
 The broader thesis survives in a qualified form. Universal computation can be carried by units that are individually trivial and symmetric, with the asymmetry supplied by arrangement; but the arrangement is itself a structured object, and the source work's own conclusion that diversity does not save information in this construction [1] stands: the construction redistributes descriptive complexity from the rule table into the schedule and the block encoding, paying a time factor $\lambda = 3$ and a noise budget that tightens as $N_c^{-2}$. What the analysis adds is that this trade has computable terms. Future work should measure the constants $a$, $b$, and $v$ by direct simulation, verify the exponent of the $\varepsilon^{1/2}$ law against fluctuation-corrected one-dimensional coarsening, and test the falsification conditions stated in Section 6 — in particular, whether a temporally alternating composition of the same three rules also emulates rule 110, which would overturn the claim that the spatial schedule alone carries the chirality.
 
-
-
-## Appendix A. Divergence report
-
-**D1 (spatial versus temporal composition).** Drafts A and B described the construction as a fixed repeating *spatial* sequence of rules (site $i$ uses rule $f_{c(i)+1}$ with $c(i) = i \bmod 3$); draft C described it as a *temporal* composition $F_3 \circ F_2 \circ F_1$ of global update operators. The convention behind the disagreement: the source work states the rules alternate in space, so the main text adopts the spatial convention; the temporal framing is retained only as a remark in Section 3.2.
-
-**D2 (relaxation-time convention).** Draft A computed the relaxation time from the exact solution of the rate equation, $\tau = 1/\sqrt{ab\varepsilon}$; draft C linearized around $\rho^{*}$ and obtained $\tau = 1/(2\sqrt{ab\varepsilon})$, a factor of $2$ smaller. The disagreement is a convention: the exact-solution timescale governs the full approach from any $\rho_0$, while the linearized value governs only the late-stage exponential tail. The main text adopts the exact-solution value and notes the factor of $2$ in Section 4.2.
-
-**D3 (unverifiable measured data).** Draft C included a table of "measured" wall densities and lock-on convergence probabilities attributed to simulation. These numbers could not be verified against [1, 2] or reproduced from stated inputs, and were rejected during reconciliation; the main text uses only derived values, clearly labeled illustrative parameters, and results explicitly reported in [1, 2].
-
-**D4 (identity of the constituent rules).** Draft B treated the constituent rules as abstract symmetric rules $f_1, f_2, f_3$, stating their identities were unspecified; drafts A and C named them as rules 36, 37, and 5 with their verbal definitions. The source work gives the rules explicitly, so the main text adopts the named convention.
-
-## Appendix B. Claim attribution
-
-| Claim | Substance | Drafts | Status |
-|---|---|---|---|
-| C1 | Rule 110 is Turing complete and is emulated by three individually parity-symmetric ECA rules [1, 2] | A, B, C | CONVERGENT |
-| C2 | Chirality of the composite arises from the ordering map $c(i) = i \bmod 3$, not from any constituent rule | A, B, C | CONVERGENT |
-| C3 | Random initial conditions lock on to rule 110 behaviour over 90% of the time [1, 2] | A, B, C | CONVERGENT |
-| C4 | Noise-induced wall fraction scales as $\varepsilon^{1/2}$ [1, 2] | A, B, C | CONVERGENT |
-| C5 | Rules alternate in space (A, B) versus in time (C) | A, B, C | DIVERGENT (D1) |
-| C6 | Relaxation time $\tau = 1/\sqrt{ab\varepsilon}$ (A) versus $\tau = 1/(2\sqrt{ab\varepsilon})$ (C) | A, C | DIVERGENT (D2) |
-| C7 | Tabulated measured wall densities and lock-on probabilities | C | SINGLE (rejected, D3) |
-| C8 | Lock-on compatibility threshold $\rho_0 \geq 5 \times 10^{-4}$ walls per site for a $10^{3}$-step window | A | SINGLE (retained as projection) |
-| C9 | Noise-tolerance bound $\varepsilon_{\max} = b/(aN_c^{2})$ | A, B | CONVERGENT |
-| C10 | Rate-equation derivation $\rho^{*} = \sqrt{a\varepsilon/b}$ with illustrative parameters $a = b = 1$ | A, B | CONVERGENT |
-| C11 | Constituent rules named as rules 36, 37, and 5 with verbal definitions (A, C) versus left abstract (B) | A, B, C | DIVERGENT (D4) |
-| C12 | Emulation time factor $\lambda = 3$ and corrected noise budget $\approx 3.3 \times 10^{-5}$ | A | SINGLE (retained, derived in Section 4.4) |
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.1-parallel-8). Language models were tools in that process; they are not authors. The named author is accountable for the content.
