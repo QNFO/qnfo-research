@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "joint-bruhat-tits-tree-product-as-a-candidate-universal-structure-for-standard-m",
+  "paper": {
+    "path": "papers/joint-bruhat-tits-tree-product-as-a-candidate-universal-structure-for-standard-m/paper.md",
+    "title": "Joint Bruhat–Tits Tree Product as a Candidate Universal Structure for Standard Model Mass Ratios, Quantum Error-Correction Lattices, and Efimov Scaling: Formalization, Arithmetic Consequences, and a Partial Falsification",
+    "url": "https://papers.qnfo.org/papers/joint-bruhat-tits-tree-product-as-a-candidate-universal-structure-for-standard-m"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "joint-bruhat-tits-tree-product-as-a-candidate-universal-structure-for-standard-m"
+  },
+  "snapshots": [
+    {
+      "sha256": "1d17a948767aab61f848c6ba3a7c15c86483492f0fa277e25aea39983897eaf8",
+      "bytes": 43884,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

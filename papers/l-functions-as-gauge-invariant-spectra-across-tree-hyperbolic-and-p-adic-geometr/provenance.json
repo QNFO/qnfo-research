@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "l-functions-as-gauge-invariant-spectra-across-tree-hyperbolic-and-p-adic-geometr",
+  "paper": {
+    "path": "papers/l-functions-as-gauge-invariant-spectra-across-tree-hyperbolic-and-p-adic-geometr/paper.md",
+    "title": "L‑Functions as Gauge‑Invariant Spectra Across Tree, Hyperbolic, and $p$‑adic Geometries",
+    "url": "https://papers.qnfo.org/papers/l-functions-as-gauge-invariant-spectra-across-tree-hyperbolic-and-p-adic-geometr"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "l-functions-as-gauge-invariant-spectra-across-tree-hyperbolic-and-p-adic-geometr"
+  },
+  "snapshots": [
+    {
+      "sha256": "54686175c7e5ce9826f812d7120da12acdf80fd39f3208ebefafe27398005882",
+      "bytes": 22786,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

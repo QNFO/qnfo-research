@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "landauer-limit-energy-floor-and-jpcub-normalization-for-cryogenic-quantum-contro",
+  "paper": {
+    "path": "joules-per-compute-benchmark/landauer-limit-energy-floor-and-jpcub-normalization-for-cryogenic-quantum-contro/paper.md",
+    "title": "Landauer-Limit Energy Floor and JPCUB Normalization for Cryogenic Quantum Control Electronics",
+    "url": "https://papers.qnfo.org/papers/landauer-limit-energy-floor-and-jpcub-normalization-for-cryogenic-quantum-contro"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "landauer-limit-energy-floor-and-jpcub-normalization-for-cryogenic-quantum-contro"
+  },
+  "snapshots": [
+    {
+      "sha256": "41d042dda7974b5c8f3dcc62898a3c85e53ac1e49e70c01b64c94cf42f5003af",
+      "bytes": 14018,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "2.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

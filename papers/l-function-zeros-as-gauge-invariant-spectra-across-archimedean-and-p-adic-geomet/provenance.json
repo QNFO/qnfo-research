@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "l-function-zeros-as-gauge-invariant-spectra-across-archimedean-and-p-adic-geomet",
+  "paper": {
+    "path": "papers/l-function-zeros-as-gauge-invariant-spectra-across-archimedean-and-p-adic-geomet/paper.md",
+    "title": "L‑Function Zeros as Gauge‑Invariant Spectra Across Archimedean and $p$‑adic Geometries",
+    "url": "https://papers.qnfo.org/papers/l-function-zeros-as-gauge-invariant-spectra-across-archimedean-and-p-adic-geomet"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "l-function-zeros-as-gauge-invariant-spectra-across-archimedean-and-p-adic-geomet"
+  },
+  "snapshots": [
+    {
+      "sha256": "af3a57d817747af4d92d47c7a0249ef97a69de6333061df4a7d15abea1829de8",
+      "bytes": 21197,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
