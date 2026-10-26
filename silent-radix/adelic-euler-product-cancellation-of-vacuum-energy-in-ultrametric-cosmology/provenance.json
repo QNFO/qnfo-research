@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-euler-product-cancellation-of-vacuum-energy-in-ultrametric-cosmology",
+  "paper": {
+    "path": "silent-radix/adelic-euler-product-cancellation-of-vacuum-energy-in-ultrametric-cosmology/paper.md",
+    "title": "Adelic Euler‑Product Cancellation of Vacuum Energy in Ultrametric Cosmology",
+    "url": "https://papers.qnfo.org/papers/adelic-euler-product-cancellation-of-vacuum-energy-in-ultrametric-cosmology"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-euler-product-cancellation-of-vacuum-energy-in-ultrametric-cosmology"
+  },
+  "snapshots": [
+    {
+      "sha256": "9a9085e5969832618b921ef302333b2080df4d00efa75da2456771e405de1118",
+      "bytes": 21633,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

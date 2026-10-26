@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-p-adic-vacuum-energy-suppression-and-the-cosmological-constant-problem",
+  "paper": {
+    "path": "adelic-freedom/adelic-p-adic-vacuum-energy-suppression-and-the-cosmological-constant-problem/paper.md",
+    "title": "Adelic p‑adic Vacuum Energy Suppression and the Cosmological Constant Problem",
+    "url": "https://papers.qnfo.org/papers/adelic-p-adic-vacuum-energy-suppression-and-the-cosmological-constant-problem"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-p-adic-vacuum-energy-suppression-and-the-cosmological-constant-problem"
+  },
+  "snapshots": [
+    {
+      "sha256": "54a27d4f46fd96cc72cffc2f5b8d19d210cf19fb1e07afe75249f7c8e83cc64e",
+      "bytes": 24084,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

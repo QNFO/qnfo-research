@@ -3,7 +3,7 @@
   "slug": "adelic-factorization-of-quantum-dynamics-across-all-completions-of",
   "paper": {
     "path": "adelic-freedom/adelic-factorization-of-quantum-dynamics-across-all-completions-of/paper.md",
-    "title": "Adelic Factorization of Quantum Dynamics Across All Completions of ℚ",
+    "title": "Adelic Factorization of Quantum Dynamics Across All Completions of ℚ",
     "url": "https://papers.qnfo.org/papers/adelic-factorization-of-quantum-dynamics-across-all-completions-of"
   },
   "declared": {
@@ -43,6 +43,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "c16ec00d3d08066a9896ab275336d8f59cf1f397"
+    },
+    {
+      "sha256": "17066fbfe62ce92213613ccf0525c42fbc56166d0390b95a570f73d9d1d40dff",
+      "bytes": 25503,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
     }
   ],
   "events": []

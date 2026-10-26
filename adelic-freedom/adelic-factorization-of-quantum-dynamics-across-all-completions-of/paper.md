@@ -273,18 +273,3 @@ A speculative yet concrete program for factorizing quantum dynamics across all c
 [8] Objective trajectories in hybrid classical-quantum dynamics. arXiv:2011.06009v3. https://arxiv.org/abs/2011.06009v3
 [9] https://papers.qnfo.org/papers/adelic-factorization-of-quantum-dynamics-across-all-completions-of. QNFO: Adelic Factorization of Quantum Dynamics Across All Completions of ℚ.
 [11] https://papers.qnfo.org/papers/tate-adelic-template. QNFO: Tate's Thesis as a Template for Adelic Quantum Mechanics: Local-Global Structure and the Emergence of Archimedean Artifacts.
-
-## Appendix A. Divergence report
-No substantive divergent claims were identified among the independent drafts; all claims are convergent or single‑source. Consequently, this appendix contains no reported conflicts.
-
-## Appendix B. Claim attribution
-| Claim ID | Substantive claim | Source Draft(s) | Agreement Status |
-|----------|------------------|----------------|------------------|
-| C1 | Adelic factorization conjecture: global amplitude $\mathcal{A}=\prod_{v}\mathcal{A}_{v}$ over all completions of ℚ | A, B | CONVERGENT |
-| C2 | Tate’s 1950 thesis provides a structural template for adelic quantum mechanics (cited as [9]) | A, B | CONVERGENT |
-| C3 | Formal adelic path‑integral definition with local factors $Z_{\infty}$ and $Z_{p}$ | A, B | CONVERGENT |
-| C4 | Formal p‑adic harmonic‑oscillator and spin‑½ model constructions | A, B | CONVERGENT |
-| C5 | Fidelity inputs $f_{1}=0.9990$, $f_{2}=0.9956$, $f_{3}=0.9870$ from [2] | A, B, C | CONVERGENT |
-| C6 | Exact mean fidelity $\bar{F}=0.993866\overline{6}$ ($\approx$ 99.3867 %) | A, B, C | CONVERGENT |
-| C7 | Exact product fidelity $F_{\text{prod}}=0.9816745428$ ($\approx$ 98.16745428 %) | A, B, C | CONVERGENT |
-| C8 | Limitations: sparse quantitative input, absence of genuine p‑adic experiments, convergence of infinite product | A, B | CONVERGENT |

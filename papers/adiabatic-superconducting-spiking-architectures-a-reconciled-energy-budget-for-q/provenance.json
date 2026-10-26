@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q",
+  "paper": {
+    "path": "papers/adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q/paper.md",
+    "title": "Adiabatic Superconducting Spiking Architectures: A Reconciled Energy Budget for Quantum-Inspired Neuromorphic Computing",
+    "url": "https://papers.qnfo.org/papers/adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q"
+  },
+  "snapshots": [
+    {
+      "sha256": "77d773fdf96de02cf14b7ada3632f4b8980b412e2ae9aba066c884f37dd246e4",
+      "bytes": 31761,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -255,27 +255,3 @@ We have proposed a conjectural adelic extension of Zitterbewegung in which the t
 [6] On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree. arXiv:math-ph/0512018v2. https://arxiv.org/abs/math-ph/0512018v2
 [7] Zitterbewegung (trembling motion) of electrons in narrow gap semiconductors. arXiv:0805.0478v1. https://arxiv.org/abs/0805.0478v1
 [8] p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound. arXiv:2408.00810v3. https://arxiv.org/abs/2408.00810v3
-
-## Appendix A. Divergence report
-
-The independent drafts disagreed on two conventions, resolved here as follows.
-
-1. **Two-place versus all-sectors formulation.** One draft formulated the conjecture as mixing between only the Archimedean and 2-adic completions of $\mathbb{Q}$, via a two-channel effective Hamiltonian with a calibration condition $|\Delta| \sim E$; the other drafts formulated the conjecture over all sectors, noting that the product formula privileges no single prime. The main text adopts the all-sectors formulation (Section 3.2) and labels the two-channel variant an unconstructed hypothesis (Sections 1 and 2); no beat frequency is derived for it.
-
-2. **Amplitude versus intensity-like crossover convention.** The drafts used different conventions for the crossover scale: one took the relative deviation to scale as $\lambda_C/\ell$ (amplitude convention), the other as $(\lambda_C/\ell)^2$ (intensity-like convention). The main text reports both: the amplitude convention gives a crossover at $386.3\,\mathrm{nm}$ for a $10^{-6}$ threshold, and the intensity-like convention gives $100\,\lambda_C = 3.8632 \times 10^{-11}\,\mathrm{m}$ for a $10^{-4}$ threshold (Section 4, Step 8). No experimental discrimination between the conventions is currently possible (Section 6, limitation vi).
-
-## Appendix B. Claim attribution
-
-| Claim | Drafts | Status |
-|---|---|---|
-| C1: $\omega_\infty = 1.5521 \times 10^{21}\,\mathrm{rad\,s^{-1}}$, $T = 4.0482 \times 10^{-21}\,\mathrm{s}$ | A, B, C | CONVERGENT |
-| C2: $\lambda_C = 3.8632 \times 10^{-13}\,\mathrm{m}$ | A, B, C | CONVERGENT |
-| C3: $\ell_P = 1.6165 \times 10^{-35}\,\mathrm{m}$ | A, B, C | CONVERGENT |
-| C4: product formula verified for $x = 6, 10, 12$ | A, B | CONVERGENT |
-| C5: suppression law $A_{\mathrm{int}}/A_0 = \lambda_C/\ell$; $3.863 \times 10^{-13}$ at $1\,\mathrm{m}$, $1.492 \times 10^{-25}$ intensity-like | A, B, C | CONVERGENT |
-| C6: $\lambda_C/\ell_P = 2.39 \times 10^{22}$ | A, B, C | CONVERGENT |
-| C7: crossover $386.3\,\mathrm{nm}$ (amplitude) versus $100\,\lambda_C$ (intensity-like) | A, B | DIVERGENT (convention; both reported) |
-| C8: projected sector frequencies $f_2 = 1.2351 \times 10^{20}\,\mathrm{Hz}$, $f_5 = 4.9404 \times 10^{19}\,\mathrm{Hz}$ under $\omega_p = \omega_\infty |r|_p$ | B, C | CONVERGENT |
-| C9: two-channel Archimedean–2-adic mixing with $|\Delta| \sim E$ calibration | A only | SINGLE (retained as labeled hypothesis) |
-| C10: simulation program on $\mathbb{Q}_p$ with the Vladimiorv operator | A, B, C | CONVERGENT |
-
