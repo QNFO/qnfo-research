@@ -183,9 +183,9 @@ into a unified statement: **Physics is adelic. The Archimedean description is th
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
-1. Zitterbewegung as a p-Adic Observable (P1). QNFO Research (2026). DOI: 10.5281/zenodo.21211007.
-2. Majorana ZBW Current Correlator (P2). QNFO Research (2026). DOI: 10.5281/zenodo.21211139.
-3. Bruhat-Tits Readout Protocol (P3). QNFO Research (2026). DOI: 10.5281/zenodo.21211382.
+1. Zitterbewegung as a p-Adic Observable (P1). QNFO Research (2026). https://papers.qnfo.org/papers.
+2. Majorana ZBW Current Correlator (P2). QNFO Research (2026). https://papers.qnfo.org/papers.
+3. Bruhat-Tits Readout Protocol (P3). QNFO Research (2026). https://papers.qnfo.org/papers.
 4. p-Adic Anyons & Ultrametric Braid Groups (Phase 1). QNFO Research (2026).
 5. The p-Adic Temperley-Lieb Parameter (Phase 2). QNFO Research (2026).
 6. p-Adic Anyon Fusion and Braiding (Phase 3). QNFO Research (2026).

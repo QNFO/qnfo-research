@@ -3,7 +3,7 @@
   "slug": "winding-numbers-and-strange-loops",
   "paper": {
     "path": "papers/winding-numbers-and-strange-loops/paper.md",
-    "title": "WINDING NUMBERS AND STRANGE",
+    "title": "WINDING NUMBERS AND STRANGE LOOPS",
     "url": "https://papers.qnfo.org/papers/winding-numbers-and-strange-loops"
   },
   "declared": {
@@ -13,10 +13,6 @@
       {
         "doi": "10.5281/zenodo.22738155",
         "source": "README.md"
-      },
-      {
-        "doi": "10.5281/zenodo.17322662",
-        "source": "paper.md"
       }
     ]
   },
@@ -33,6 +29,14 @@
       "basis": "backfill",
       "version": "2.0.0",
       "git_commit": "80b91414b689b69f1a59bd822d5379f4139319bf"
+    },
+    {
+      "sha256": "05c70186f187f58fe7118830f167ce50b4626068883fa9c878c5f2b24436a6d5",
+      "bytes": 307539,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

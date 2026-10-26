@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zitterbewegung-as-a-p-adic-ultrametric-observable-a-mathbb-z-2-invariant-on-the-",
+  "paper": {
+    "path": "silent-radix/zitterbewegung-as-a-p-adic-ultrametric-observable-a-mathbb-z-2-invariant-on-the-/paper.md",
+    "title": "Zitterbewegung as a $p$-Adic Ultrametric Observable: A $\\mathbb{Z}_2$ Invariant on the Bruhat–Tits Tree, Its Readout, and Its Non-Additivity Signature",
+    "url": "https://papers.qnfo.org/papers/zitterbewegung-as-a-p-adic-ultrametric-observable-a-mathbb-z-2-invariant-on-the-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zitterbewegung-as-a-p-adic-ultrametric-observable-a-mathbb-z-2-invariant-on-the-"
+  },
+  "snapshots": [
+    {
+      "sha256": "a236f1f151df1774f705669fa3c32a3003e527818bb652650e733bcc1e275c98",
+      "bytes": 34835,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

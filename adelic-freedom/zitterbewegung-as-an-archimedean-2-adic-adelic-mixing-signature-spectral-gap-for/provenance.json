@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for",
+  "paper": {
+    "path": "adelic-freedom/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for/paper.md",
+    "title": "Zitterbewegung as an Archimedean–2-adic Adelic Mixing Signature: Spectral-Gap Formalization, Numerical Anchors, and a Falsifiable Simulation Program",
+    "url": "https://papers.qnfo.org/papers/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for"
+  },
+  "snapshots": [
+    {
+      "sha256": "31015eb67f19f66c83388431f7cdee4fc1133e0368eca985c249091145f51690",
+      "bytes": 29463,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
