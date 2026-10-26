@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "booklet-cosmological-states-as-random-tensor-codes-recovery-bounds-and-entropic-",
+  "paper": {
+    "path": "papers/booklet-cosmological-states-as-random-tensor-codes-recovery-bounds-and-entropic-/paper.md",
+    "title": "Booklet Cosmological States as Random-Tensor Codes: Recovery Bounds and Entropic Diagnostics for Multi-Boundary Baby Universes",
+    "url": "https://papers.qnfo.org/papers/booklet-cosmological-states-as-random-tensor-codes-recovery-bounds-and-entropic-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "booklet-cosmological-states-as-random-tensor-codes-recovery-bounds-and-entropic-"
+  },
+  "snapshots": [
+    {
+      "sha256": "9fbce32a4b506e7d83f939057263871cd6ce1a99fd0f39e243c221fcfc9209a0",
+      "bytes": 30606,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "born-rule-as-haar-measure-on-p-adic-tree-balls-a-structural-derivation-and-its-i",
+  "paper": {
+    "path": "papers/born-rule-as-haar-measure-on-p-adic-tree-balls-a-structural-derivation-and-its-i/paper.md",
+    "title": "Born Rule as Haar Measure on $p$‑Adic Tree Balls: A Structural Derivation and Its Implications for Quantum Statistics",
+    "url": "https://papers.qnfo.org/papers/born-rule-as-haar-measure-on-p-adic-tree-balls-a-structural-derivation-and-its-i"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "born-rule-as-haar-measure-on-p-adic-tree-balls-a-structural-derivation-and-its-i"
+  },
+  "snapshots": [
+    {
+      "sha256": "dd32a99be96a9bab2b5a02ded62d594b69831efb4adadf1d1ff7850136386d51",
+      "bytes": 28682,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

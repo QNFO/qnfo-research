@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation",
+  "paper": {
+    "path": "papers/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation/paper.md",
+    "title": "Blockchain Ledger as a Structural Model of Superdeterministic p‑adic Correlations",
+    "url": "https://papers.qnfo.org/papers/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation"
+  },
+  "snapshots": [
+    {
+      "sha256": "26502ede2b81375fbf1e48992184f28bb47226fdef821b120f42702c2f6b7a9b",
+      "bytes": 24671,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

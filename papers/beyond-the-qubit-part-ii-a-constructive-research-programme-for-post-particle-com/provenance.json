@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
+  "paper": {
+    "path": "papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com/paper.md",
+    "title": "Beyond the Qubit, Part II: A Constructive Research Programme for Post-Particle Computation, with Quantified Instrument Budgets, a Fano-Scale Admissibility Gate, and Embodied-Verification Pathways",
+    "url": "https://papers.qnfo.org/papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com"
+  },
+  "snapshots": [
+    {
+      "sha256": "9d46a19f653d3cb5089b6103b1239420252dea8b7f8e8ee0cabf0cf70ceff9b0",
+      "bytes": 51222,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
