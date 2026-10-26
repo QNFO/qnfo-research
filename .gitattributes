@@ -5,3 +5,4 @@ papers/** -text
 */provenance.json text eol=lf
 provenance/*.json text eol=lf
 schemas/*.json text eol=lf
+tools/testdata/** -text

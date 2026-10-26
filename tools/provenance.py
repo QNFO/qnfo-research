@@ -180,7 +180,7 @@ ROLE_PATTERNS = [
     (re.compile(r"^writer-[a-z]-draft\.md$|^writer-[a-z]/draft\.md$"), "draft"),
     (re.compile(r"^writer-[a-z]/(notes|claims)\.md$"), "draft-support"),
     (re.compile(r"^(reconciled-paper|RECONCILIATION|citation-audit)\.md$|^reconciled\.md$"), "reconciliation"),
-    (re.compile(r"^review-report\.md$"), "review"),
+    (re.compile(r"^review-report(-\d+)?\.md$"), "review"),
     (re.compile(r"^verification\.md$"), "verification-report"),
     (re.compile(r"^verification\.py$"), "verification-script"),
     (re.compile(r"^MANIFEST\.json$"), "manifest"),
@@ -504,7 +504,7 @@ def verify(repo: Repo) -> Report:
     paper_schema, _ = read_json(schema_dir / "paper-provenance.schema.json")
     gaps_schema, _ = read_json(schema_dir / "known-gaps.schema.json")
     gaps_obj = load_gaps(repo)
-    if gaps_schema:
+    if gaps_schema and (repo.root / "provenance" / "known-gaps.json").is_file():
         for e in validate(gaps_obj, gaps_schema):
             rep.add("error", "GAPS_SCHEMA", "provenance/known-gaps.json", e)
     gaps = gap_index(gaps_obj)
@@ -659,7 +659,7 @@ def license_entity(repo: Repo) -> Dict[str, Any]:
     return ent
 
 
-def build_crate(repo: Repo, run_rel: str, man: Optional[Manifest], deposit: Optional[Tuple[str, str]],
+def build_crate(repo: Repo, run_rel: str, man: Optional[Manifest], deposit: Optional[Tuple[Optional[str], str]],
                 repro: Optional[Dict[str, Any]], observed_at: str, title: Optional[str],
                 paper_slug: Optional[str] = None) -> Dict[str, Any]:
     run = repo.root / run_rel
@@ -688,7 +688,8 @@ def build_crate(repo: Repo, run_rel: str, man: Optional[Manifest], deposit: Opti
         root["qnfo:pipelineVersion"] = man.pipeline
     if deposit:
         root["datePublished"] = deposit[1]
-        root["qnfo:depositCommit"] = deposit[0]
+        if deposit[0]:
+            root["qnfo:depositCommit"] = deposit[0]
     if paper_url:
         root["about"] = {"@id": paper_url}
     parts: List[Dict[str, str]] = []
@@ -863,6 +864,7 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[
     run_paper = {rp: ps for ps, rl in linked.items() for rp, _ in rl}
     titles = {s: title_of(repo.root / p / s) for p, s in papers}
     gaps: List[Dict[str, Any]] = []
+    prior_rows = {(g.get("kind"), g.get("path")): g for g in load_gaps(repo).get("gaps", [])}
     for rp in runs:
         run = repo.root / rp
         mp = run / "MANIFEST.json"
@@ -893,11 +895,17 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[
         else:
             miss = sorted(set(man.files) - present)
             if miss:
-                gaps.append({"id": gap_id("MISS", rp), "kind": "manifest-file-missing",
-                             "path": rp, "files": miss,
-                             "expected_sha256": {f: man.files[f]["sha256"] for f in miss if man.files[f].get("sha256")},
-                             "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-                             "recovery": "restore-from-r2-by-hash", "status": "open"})
+                row = {"id": gap_id("MISS", rp), "kind": "manifest-file-missing",
+                       "path": rp, "files": miss,
+                       "expected_sha256": {f: man.files[f]["sha256"] for f in miss if man.files[f].get("sha256")},
+                       "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
+                       "recovery": "restore-from-r2-by-hash", "status": "open"}
+                unrec = {f: why for f, why in ((prior_rows.get(("manifest-file-missing", rp)) or {}).get("unrecoverable") or {}).items() if f in miss}
+                if unrec:
+                    row["unrecoverable"] = unrec
+                    if all(f in unrec for f in miss):
+                        row["status"] = "unrecoverable"
+                gaps.append(row)
         if repro:
             if repro.get("nondeterministic"):
                 gaps.append({"id": gap_id("NONDET", rp), "kind": "nondeterministic-verification", "path": rp,
@@ -909,7 +917,7 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[
                              "recovery": "regenerate", "status": "open"})
     for slug, rl in sorted(unlinked.items()):
         gaps.append({"id": gap_id("PAPER", f"papers/{slug}"), "kind": "paper-text-not-in-repo", "path": f"papers/{slug}",
-                     "files": [f"papers/{slug}/paper.md"],
+                     "files": [f"papers/{slug}/paper.md"], "runs": sorted(rl),
                      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
                      "recovery": "restore-from-living-paper", "status": "open"})
     prior_gaps = load_gaps(repo)

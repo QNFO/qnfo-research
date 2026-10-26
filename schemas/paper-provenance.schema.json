@@ -73,7 +73,7 @@
           "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
           "bytes": { "type": "integer" },
           "recorded_at": { "type": "string", "minLength": 10 },
-          "basis": { "enum": ["backfill", "deposit", "revision", "correction", "retraction"] },
+          "basis": { "enum": ["backfill", "deposit", "revision", "correction", "retraction", "restore"] },
           "version": { "type": ["string", "null"] },
           "git_commit": { "type": ["string", "null"] }
         }

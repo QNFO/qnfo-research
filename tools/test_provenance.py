@@ -351,6 +351,34 @@ class TestReproduce(unittest.TestCase):
         self.assertEqual(len(out["stdout_sha256"]), 64)
 
 
+class TestParity(unittest.TestCase):
+    """tools/testdata/parity is shared byte-for-byte with qnfo-workers/qnfo-research-exec/testdata/parity. The JavaScript deposit
+    (repo-deposit.mjs) wrote MANIFEST.json and the goldens' JS twins; this suite proves the Python builders produce the same
+    bytes, so a backfill after a worker deposit rewrites nothing. To regenerate after a deliberate format change, run both
+    builders on the fixture, compare, copy the output over golden/ here and in qnfo-workers, and bump the format version."""
+    FIX = Path(__file__).resolve().parent / "testdata" / "parity"
+    RUN = "runs/cycle-7/parity-paper"
+
+    def test_crate_and_record_are_byte_identical_to_the_golden(self):
+        repo = pv.Repo(self.FIX / "repo", use_git=False)
+        man = pv.normalize_manifest(pv.read_json(repo.root / self.RUN / "MANIFEST.json")[0])
+        crate = pv.build_crate(repo, self.RUN, man, (None, "2026-10-26T05:11:45+01:00"), None, "2026-10-26", "Parity Paper", None)
+        self.assertEqual(pv.dump_json(crate), (self.FIX / "golden" / "ro-crate-metadata.json").read_text(encoding="utf-8"))
+        rec = pv.build_paper_record(repo, "papers", "parity-paper", [(self.RUN, "slug-exact")], "2026-10-26", None)
+        self.assertEqual(pv.dump_json(rec), (self.FIX / "golden" / "provenance.json").read_text(encoding="utf-8"))
+
+    def test_a_worker_written_run_passes_verify(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td) / "repo"
+            shutil.copytree(self.FIX / "repo", root)
+            shutil.copy(self.FIX / "golden" / "ro-crate-metadata.json", root / self.RUN / pv.CRATE_FILE)
+            shutil.copy(self.FIX / "golden" / "provenance.json", root / "papers" / "parity-paper" / "provenance.json")
+            shutil.copytree(REAL_ROOT / "schemas", root / "schemas")
+            rep = pv.verify(pv.Repo(root, use_git=False))
+            self.assertEqual([f.line() for f in rep.errors()], [])
+            self.assertEqual(rep.stats["files_verified"], 7)
+
+
 class TestRealRepository(unittest.TestCase):
     """The committed repository must verify clean: this is the same check CI runs."""
 

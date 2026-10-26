@@ -33,6 +33,12 @@
             "description": "file -> sha256 the manifest promised; a restored file is accepted only if it hashes to this.",
             "additionalProperties": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
           },
+          "runs": { "type": "array", "items": { "type": "string" }, "description": "paper-text-not-in-repo: the run directories that produced the paper, for the provenance.json a restore writes." },
+          "unrecoverable": {
+            "type": "object",
+            "description": "file -> why no byte-identical copy exists (checked against R2); the row is not retried for that file.",
+            "additionalProperties": { "type": "string" }
+          },
           "cause": { "type": "string", "minLength": 1 },
           "recovery": { "enum": ["restore-from-r2-by-hash", "restore-from-living-paper", "regenerate", "none-recorded-only"] },
           "status": { "enum": ["open", "unrecoverable"] }

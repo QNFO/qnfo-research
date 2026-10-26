@@ -1483,6 +1483,9 @@
       "files": [
         "papers/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses/paper.md"
       ],
+      "runs": [
+        "runs/cycle-182/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1493,6 +1496,9 @@
       "path": "papers/adelic-ruler-independence-and-rationality-of-standard-model-parameters",
       "files": [
         "papers/adelic-ruler-independence-and-rationality-of-standard-model-parameters/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-196/adelic-ruler-independence-and-rationality-of-standard-model-parameters"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1505,6 +1511,9 @@
       "files": [
         "papers/torsion-as-a-candidate-geometric-generator-of-quantum-phase-and-statistics-a-for/paper.md"
       ],
+      "runs": [
+        "runs/cycle-157/torsion-as-a-candidate-geometric-generator-of-quantum-phase-and-statistics-a-for"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1515,6 +1524,9 @@
       "path": "papers/the-exponential-arena-a-reconciled-quantitative-account-of-hilbert-space-growth-",
       "files": [
         "papers/the-exponential-arena-a-reconciled-quantitative-account-of-hilbert-space-growth-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-41/the-exponential-arena-a-reconciled-quantitative-account-of-hilbert-space-growth-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1527,6 +1539,9 @@
       "files": [
         "papers/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence/paper.md"
       ],
+      "runs": [
+        "runs/cycle-28/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1537,6 +1552,9 @@
       "path": "papers/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard",
       "files": [
         "papers/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-175/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1549,6 +1567,9 @@
       "files": [
         "papers/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-18/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1559,6 +1580,9 @@
       "path": "papers/ultrametric-passive-error-correction-on-p-ary-bruhat-tits-trees-barrier-analysis",
       "files": [
         "papers/ultrametric-passive-error-correction-on-p-ary-bruhat-tits-trees-barrier-analysis/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-187/ultrametric-passive-error-correction-on-p-ary-bruhat-tits-trees-barrier-analysis"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1571,6 +1595,9 @@
       "files": [
         "papers/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio/paper.md"
       ],
+      "runs": [
+        "runs/cycle-6/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1581,6 +1608,9 @@
       "path": "papers/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness",
       "files": [
         "papers/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-230/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1593,6 +1623,9 @@
       "files": [
         "papers/adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q/paper.md"
       ],
+      "runs": [
+        "runs/cycle-11/adiabatic-superconducting-spiking-architectures-a-reconciled-energy-budget-for-q"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1603,6 +1636,9 @@
       "path": "papers/resistance-as-geometric-decoherence-in-coherent-electron-transport",
       "files": [
         "papers/resistance-as-geometric-decoherence-in-coherent-electron-transport/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-177/resistance-as-geometric-decoherence-in-coherent-electron-transport"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1615,6 +1651,9 @@
       "files": [
         "papers/anthropocentric-invariants-in-measurement-a-formal-taxonomy-cross-ratio-analysis/paper.md"
       ],
+      "runs": [
+        "runs/cycle-190/anthropocentric-invariants-in-measurement-a-formal-taxonomy-cross-ratio-analysis"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1625,6 +1664,9 @@
       "path": "papers/is-the-meta-pattern-of-reification-physically-real-a-reconciled-audit-with-a-qua",
       "files": [
         "papers/is-the-meta-pattern-of-reification-physically-real-a-reconciled-audit-with-a-qua/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-59/is-the-meta-pattern-of-reification-physically-real-a-reconciled-audit-with-a-qua"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1637,6 +1679,9 @@
       "files": [
         "papers/falsifying-geometrically-inspired-quantum-error-correcting-codes-via-distinct-lo/paper.md"
       ],
+      "runs": [
+        "runs/cycle-185/falsifying-geometrically-inspired-quantum-error-correcting-codes-via-distinct-lo"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1647,6 +1692,9 @@
       "path": "papers/computation-as-hamiltonian-isomorphism-a-mode-based-taxonomy-of-physical-computi",
       "files": [
         "papers/computation-as-hamiltonian-isomorphism-a-mode-based-taxonomy-of-physical-computi/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-156/computation-as-hamiltonian-isomorphism-a-mode-based-taxonomy-of-physical-computi"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1659,6 +1707,9 @@
       "files": [
         "papers/the-bruhat-tits-tree-as-a-unifying-computational-primitive-confluence-quantum-wa/paper.md"
       ],
+      "runs": [
+        "runs/cycle-200/the-bruhat-tits-tree-as-a-unifying-computational-primitive-confluence-quantum-wa"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1669,6 +1720,9 @@
       "path": "papers/thermodynamic-bottlenecks-on-floquet-driving-of-superconducting-matter-quasipart",
       "files": [
         "papers/thermodynamic-bottlenecks-on-floquet-driving-of-superconducting-matter-quasipart/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-51/thermodynamic-bottlenecks-on-floquet-driving-of-superconducting-matter-quasipart"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1681,6 +1735,9 @@
       "files": [
         "papers/global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode/paper.md"
       ],
+      "runs": [
+        "runs/cycle-221/global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1691,6 +1748,9 @@
       "path": "papers/responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n",
       "files": [
         "papers/responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-209/responsibility-heuristics-as-functional-protocols-in-deterministic-multi-agent-n"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1703,6 +1763,9 @@
       "files": [
         "papers/bruhat-tits-tree-neural-architecture-with-intrinsic-path-explanations/paper.md"
       ],
+      "runs": [
+        "runs/cycle-197/bruhat-tits-tree-neural-architecture-with-intrinsic-path-explanations"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1713,6 +1776,9 @@
       "path": "papers/ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha",
       "files": [
         "papers/ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-183/ultrametric-trees-as-conditional-attractors-perturbation-bounds-resistance-mecha"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1725,6 +1791,9 @@
       "files": [
         "papers/geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting/paper.md"
       ],
+      "runs": [
+        "runs/cycle-191/geometric-resonator-comb-as-an-engineered-non-markovian-bath-for-superconducting"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1735,6 +1804,9 @@
       "path": "papers/ignorance-as-a-firewall-formalizing-functional-ignorance-for-systemic-stability-",
       "files": [
         "papers/ignorance-as-a-firewall-formalizing-functional-ignorance-for-systemic-stability-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-352/ignorance-as-a-firewall-formalizing-functional-ignorance-for-systemic-stability-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1747,6 +1819,9 @@
       "files": [
         "papers/counteracting-credibility-barriers-to-the-adoption-of-cross-cutting-formalisms-a/paper.md"
       ],
+      "runs": [
+        "runs/cycle-250/counteracting-credibility-barriers-to-the-adoption-of-cross-cutting-formalisms-a"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1757,6 +1832,9 @@
       "path": "papers/efimov-like-log-periodic-modulations-in-the-cosmic-microwave-background-power-sp",
       "files": [
         "papers/efimov-like-log-periodic-modulations-in-the-cosmic-microwave-background-power-sp/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-322/efimov-like-log-periodic-modulations-in-the-cosmic-microwave-background-power-sp"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1769,6 +1847,9 @@
       "files": [
         "papers/degree-bounds-as-a-first-exercise-in-isabelle-ml-metaprogramming-a-reconciled-st/paper.md"
       ],
+      "runs": [
+        "runs/cycle-40/degree-bounds-as-a-first-exercise-in-isabelle-ml-metaprogramming-a-reconciled-st"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1779,6 +1860,9 @@
       "path": "papers/thermodynamic-scaling-limit-of-active-quantum-error-correction",
       "files": [
         "papers/thermodynamic-scaling-limit-of-active-quantum-error-correction/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-321/thermodynamic-scaling-limit-of-active-quantum-error-correction"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1791,6 +1875,9 @@
       "files": [
         "papers/leakage-as-the-price-of-binary-truncation-a-scaling-law-for-transmon-leakage-rem/paper.md"
       ],
+      "runs": [
+        "runs/cycle-164/leakage-as-the-price-of-binary-truncation-a-scaling-law-for-transmon-leakage-rem"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1801,6 +1888,9 @@
       "path": "papers/fault-tolerant-quantum-memory-as-a-thermodynamic-phase-in-a-4-d-topological-phot",
       "files": [
         "papers/fault-tolerant-quantum-memory-as-a-thermodynamic-phase-in-a-4-d-topological-phot/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-393/fault-tolerant-quantum-memory-as-a-thermodynamic-phase-in-a-4-d-topological-phot"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1813,6 +1903,9 @@
       "files": [
         "papers/cross-ratios-as-universal-invariants-of-coarse-grained-ultrametric-trees/paper.md"
       ],
+      "runs": [
+        "runs/cycle-247/cross-ratios-as-universal-invariants-of-coarse-grained-ultrametric-trees"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1823,6 +1916,9 @@
       "path": "papers/algorithmic-graph-search-design-of-heralded-linear-optical-circuits-for-multipar",
       "files": [
         "papers/algorithmic-graph-search-design-of-heralded-linear-optical-circuits-for-multipar/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-15/algorithmic-graph-search-design-of-heralded-linear-optical-circuits-for-multipar"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1835,6 +1931,9 @@
       "files": [
         "papers/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a/paper.md"
       ],
+      "runs": [
+        "runs/cycle-14/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1845,6 +1944,9 @@
       "path": "papers/bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c",
       "files": [
         "papers/bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-392/bqp-physical-bounding-universal-quantum-computation-under-correlated-noise-and-c"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1857,6 +1959,9 @@
       "files": [
         "papers/brain-as-filter-an-information-theoretic-model-of-altered-states-of-consciousnes/paper.md"
       ],
+      "runs": [
+        "runs/cycle-321/brain-as-filter-an-information-theoretic-model-of-altered-states-of-consciousnes"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1867,6 +1972,9 @@
       "path": "papers/perception-as-interpolation-over-a-discrete-universe",
       "files": [
         "papers/perception-as-interpolation-over-a-discrete-universe/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-322/perception-as-interpolation-over-a-discrete-universe"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1879,6 +1987,9 @@
       "files": [
         "papers/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio/paper.md"
       ],
+      "runs": [
+        "runs/cycle-26/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1889,6 +2000,9 @@
       "path": "papers/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
       "files": [
         "papers/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-215/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1901,6 +2015,9 @@
       "files": [
         "papers/static-p-adic-holographic-tree-as-a-fixed-universal-structure/paper.md"
       ],
+      "runs": [
+        "runs/cycle-210/static-p-adic-holographic-tree-as-a-fixed-universal-structure"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1911,6 +2028,9 @@
       "path": "papers/ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener",
       "files": [
         "papers/ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-52/ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1923,6 +2043,9 @@
       "files": [
         "papers/cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources/paper.md"
       ],
+      "runs": [
+        "runs/cycle-203/cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1933,6 +2056,9 @@
       "path": "papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality",
       "files": [
         "papers/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-194/discrete-bruhat-tits-tree-analog-of-kapustin-witten-s-duality"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1945,6 +2071,9 @@
       "files": [
         "papers/abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors/paper.md"
       ],
+      "runs": [
+        "runs/cycle-281/abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1955,6 +2084,9 @@
       "path": "papers/thermodynamic-feasibility-of-tubulin-conformational-switching-as-a-heat-free-par",
       "files": [
         "papers/thermodynamic-feasibility-of-tubulin-conformational-switching-as-a-heat-free-par/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-288/thermodynamic-feasibility-of-tubulin-conformational-switching-as-a-heat-free-par"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1967,6 +2099,9 @@
       "files": [
         "papers/real-numbers-as-coarse-grained-projections-of-re-entry-generated-p-adic-trees/paper.md"
       ],
+      "runs": [
+        "runs/cycle-208/real-numbers-as-coarse-grained-projections-of-re-entry-generated-p-adic-trees"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1977,6 +2112,10 @@
       "path": "papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
       "files": [
         "papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-229/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+        "runs/cycle-70/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -1989,6 +2128,9 @@
       "files": [
         "papers/ultrametric-quantum-computing-as-the-natural-realization-of-adelic-factoring/paper.md"
       ],
+      "runs": [
+        "runs/cycle-188/ultrametric-quantum-computing-as-the-natural-realization-of-adelic-factoring"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -1999,6 +2141,9 @@
       "path": "papers/ball-first-strategies-as-evolutionarily-stable-policies-in-repeated-interactions",
       "files": [
         "papers/ball-first-strategies-as-evolutionarily-stable-policies-in-repeated-interactions/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-332/ball-first-strategies-as-evolutionarily-stable-policies-in-repeated-interactions"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2011,6 +2156,9 @@
       "files": [
         "papers/entanglement-wedge-reconstruction-beyond-the-large-n-limit-via-the-twirled-petz-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-30/entanglement-wedge-reconstruction-beyond-the-large-n-limit-via-the-twirled-petz-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2021,6 +2169,9 @@
       "path": "papers/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati",
       "files": [
         "papers/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-206/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2033,6 +2184,9 @@
       "files": [
         "papers/l-function-zeros-as-gauge-invariant-spectra-across-archimedean-and-p-adic-geomet/paper.md"
       ],
+      "runs": [
+        "runs/cycle-192/l-function-zeros-as-gauge-invariant-spectra-across-archimedean-and-p-adic-geomet"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2043,6 +2197,9 @@
       "path": "papers/functoriality-as-a-transform-register-and-gate-cost-analysis-of-a-langlands-stru",
       "files": [
         "papers/functoriality-as-a-transform-register-and-gate-cost-analysis-of-a-langlands-stru/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-144/functoriality-as-a-transform-register-and-gate-cost-analysis-of-a-langlands-stru"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2055,6 +2212,9 @@
       "files": [
         "papers/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo/paper.md"
       ],
+      "runs": [
+        "runs/cycle-155/local-hilbert-space-dimension-as-a-resolution-parameter-information-theoretic-bo"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2065,6 +2225,9 @@
       "path": "papers/a-falsifiability-first-audit-program-for-the-photon-primacy-helical-electron-and",
       "files": [
         "papers/a-falsifiability-first-audit-program-for-the-photon-primacy-helical-electron-and/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-23/a-falsifiability-first-audit-program-for-the-photon-primacy-helical-electron-and"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2077,6 +2240,9 @@
       "files": [
         "papers/braided-memory-register-a-composite-architecture-unifying-ultrametric-temporal-a/paper.md"
       ],
+      "runs": [
+        "runs/cycle-330/braided-memory-register-a-composite-architecture-unifying-ultrametric-temporal-a"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2087,6 +2253,9 @@
       "path": "papers/quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl",
       "files": [
         "papers/quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-22/quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2099,6 +2268,9 @@
       "files": [
         "papers/the-thermodynamic-wall-heat-dissipation-as-a-boundary-condition-on-quantum-coher/paper.md"
       ],
+      "runs": [
+        "runs/cycle-50/the-thermodynamic-wall-heat-dissipation-as-a-boundary-condition-on-quantum-coher"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2109,6 +2281,9 @@
       "path": "papers/ultrametric-trees-as-a-universal-signature-of-recursive-individuation-across-phy",
       "files": [
         "papers/ultrametric-trees-as-a-universal-signature-of-recursive-individuation-across-phy/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-251/ultrametric-trees-as-a-universal-signature-of-recursive-individuation-across-phy"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2121,6 +2296,9 @@
       "files": [
         "papers/can-finite-group-topological-quantum-field-theories-generate-continuous-standard/paper.md"
       ],
+      "runs": [
+        "runs/cycle-388/can-finite-group-topological-quantum-field-theories-generate-continuous-standard"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2131,6 +2309,9 @@
       "path": "papers/positional-notation-as-an-intrinsic-ultrametric-valuation",
       "files": [
         "papers/positional-notation-as-an-intrinsic-ultrametric-valuation/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-260/positional-notation-as-an-intrinsic-ultrametric-valuation"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2143,6 +2324,9 @@
       "files": [
         "papers/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f/paper.md"
       ],
+      "runs": [
+        "runs/cycle-83/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2153,6 +2337,10 @@
       "path": "papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
       "files": [
         "papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-127/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
+        "runs/cycle-232/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2165,6 +2353,9 @@
       "files": [
         "papers/adelic-euler-product-cancellation-of-vacuum-energy-in-ultrametric-cosmology/paper.md"
       ],
+      "runs": [
+        "runs/cycle-199/adelic-euler-product-cancellation-of-vacuum-energy-in-ultrametric-cosmology"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2175,6 +2366,9 @@
       "path": "papers/emergent-spacetime-and-time-from-a-static-p-adic-relational-graph",
       "files": [
         "papers/emergent-spacetime-and-time-from-a-static-p-adic-relational-graph/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-233/emergent-spacetime-and-time-from-a-static-p-adic-relational-graph"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2187,6 +2381,9 @@
       "files": [
         "papers/distinguishability-induced-degradation-of-monolithic-quantum-error-correction-a-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-30/distinguishability-induced-degradation-of-monolithic-quantum-error-correction-a-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2197,6 +2394,9 @@
       "path": "papers/a-two-index-framework-for-the-bulk-boundary-correspondence-of-anyon-condensation",
       "files": [
         "papers/a-two-index-framework-for-the-bulk-boundary-correspondence-of-anyon-condensation/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-12/a-two-index-framework-for-the-bulk-boundary-correspondence-of-anyon-condensation"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2209,6 +2409,9 @@
       "files": [
         "papers/ultrametricity-from-nested-distinctions-formal-derivation-and-quantitative-impli/paper.md"
       ],
+      "runs": [
+        "runs/cycle-180/ultrametricity-from-nested-distinctions-formal-derivation-and-quantitative-impli"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2219,6 +2422,9 @@
       "path": "papers/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a",
       "files": [
         "papers/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-268/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2231,6 +2437,9 @@
       "files": [
         "papers/error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan/paper.md"
       ],
+      "runs": [
+        "runs/cycle-352/error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2241,6 +2450,9 @@
       "path": "papers/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal",
       "files": [
         "papers/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-54/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2253,6 +2465,9 @@
       "files": [
         "papers/why-vertices-not-points-vertex-anchored-braiding-stabilizer-arithmetic-and-displ/paper.md"
       ],
+      "runs": [
+        "runs/cycle-4/why-vertices-not-points-vertex-anchored-braiding-stabilizer-arithmetic-and-displ"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2263,6 +2478,9 @@
       "path": "papers/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif",
       "files": [
         "papers/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-214/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2275,6 +2493,9 @@
       "files": [
         "papers/classical-floquet-drives-from-quantized-cavity-fields-error-budgets-geometric-ph/paper.md"
       ],
+      "runs": [
+        "runs/cycle-21/classical-floquet-drives-from-quantized-cavity-fields-error-budgets-geometric-ph"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2285,6 +2506,9 @@
       "path": "papers/positional-notation-as-a-native-ultrametric-geometry-of-nested-cycles",
       "files": [
         "papers/positional-notation-as-a-native-ultrametric-geometry-of-nested-cycles/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-248/positional-notation-as-a-native-ultrametric-geometry-of-nested-cycles"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2297,6 +2521,9 @@
       "files": [
         "papers/will-to-meaning-as-a-neurobiological-survival-mechanism/paper.md"
       ],
+      "runs": [
+        "runs/cycle-214/will-to-meaning-as-a-neurobiological-survival-mechanism"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2307,6 +2534,9 @@
       "path": "papers/comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-",
       "files": [
         "papers/comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-201/comparison-as-a-fundamental-primitive-relational-operation-algebra-fixed-points-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2319,6 +2549,9 @@
       "files": [
         "papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform/paper.md"
       ],
+      "runs": [
+        "runs/cycle-391/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2329,6 +2562,9 @@
       "path": "papers/cerebral-surge-as-a-mechanistic-generator-of-near-death-experience-narratives-in",
       "files": [
         "papers/cerebral-surge-as-a-mechanistic-generator-of-near-death-experience-narratives-in/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-214/cerebral-surge-as-a-mechanistic-generator-of-near-death-experience-narratives-in"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2341,6 +2577,9 @@
       "files": [
         "papers/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs/paper.md"
       ],
+      "runs": [
+        "runs/cycle-165/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2351,6 +2590,9 @@
       "path": "papers/positional-notation-as-an-ultrametric-tree-of-cyclic-time",
       "files": [
         "papers/positional-notation-as-an-ultrametric-tree-of-cyclic-time/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-217/positional-notation-as-an-ultrametric-tree-of-cyclic-time"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2363,6 +2605,9 @@
       "files": [
         "papers/phononic-crystal-scaffolds-as-frozen-floquet-drives-mapping-protein-vibrational-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-263/phononic-crystal-scaffolds-as-frozen-floquet-drives-mapping-protein-vibrational-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2373,6 +2618,9 @@
       "path": "papers/parity-protected-superconducting-qubits-at-4-k-a-reconciled-thermodynamic-error-",
       "files": [
         "papers/parity-protected-superconducting-qubits-at-4-k-a-reconciled-thermodynamic-error-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-60/parity-protected-superconducting-qubits-at-4-k-a-reconciled-thermodynamic-error-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2385,6 +2633,9 @@
       "files": [
         "papers/viscoelastic-gating-of-nuclear-spin-coherence-in-microtubules-a-quantitative-ass/paper.md"
       ],
+      "runs": [
+        "runs/cycle-251/viscoelastic-gating-of-nuclear-spin-coherence-in-microtubules-a-quantitative-ass"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2395,6 +2646,9 @@
       "path": "papers/adelic-cross-ratio-derivation-of-the-fine-structure-constant-and-its-numerical-a",
       "files": [
         "papers/adelic-cross-ratio-derivation-of-the-fine-structure-constant-and-its-numerical-a/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-323/adelic-cross-ratio-derivation-of-the-fine-structure-constant-and-its-numerical-a"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2407,6 +2661,9 @@
       "files": [
         "papers/quantifying-structural-unification-gain-via-algorithmic-information-theory/paper.md"
       ],
+      "runs": [
+        "runs/cycle-179/quantifying-structural-unification-gain-via-algorithmic-information-theory"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2417,6 +2674,9 @@
       "path": "papers/sacred-numbers-as-ultrametric-attractors-in-a-valuation-vector-cognitive-space",
       "files": [
         "papers/sacred-numbers-as-ultrametric-attractors-in-a-valuation-vector-cognitive-space/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-250/sacred-numbers-as-ultrametric-attractors-in-a-valuation-vector-cognitive-space"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2429,6 +2689,9 @@
       "files": [
         "papers/emergent-cognitive-time-from-ultrametric-constraints-via-page-wootters-condition/paper.md"
       ],
+      "runs": [
+        "runs/cycle-186/emergent-cognitive-time-from-ultrametric-constraints-via-page-wootters-condition"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2439,6 +2702,9 @@
       "path": "papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants",
       "files": [
         "papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-181/category-theoretic-unification-of-marginalised-formalisms-translating-invariants"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2451,6 +2717,9 @@
       "files": [
         "papers/decoherence-as-a-ubiquitous-consciousness-driven-collapse-analytical-comparison-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-394/decoherence-as-a-ubiquitous-consciousness-driven-collapse-analytical-comparison-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2461,6 +2730,9 @@
       "path": "papers/thz-driven-synthetic-dimension-lattices-in-thin-film-lithium-niobate-thermal-pho",
       "files": [
         "papers/thz-driven-synthetic-dimension-lattices-in-thin-film-lithium-niobate-thermal-pho/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-213/thz-driven-synthetic-dimension-lattices-in-thin-film-lithium-niobate-thermal-pho"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2473,6 +2745,10 @@
       "files": [
         "papers/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com/paper.md"
       ],
+      "runs": [
+        "runs/cycle-123/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com",
+        "runs/cycle-232/beyond-the-qubit-part-ii-a-constructive-research-programme-for-post-particle-com"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2483,6 +2759,9 @@
       "path": "papers/detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu",
       "files": [
         "papers/detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-225/detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2495,6 +2774,9 @@
       "files": [
         "papers/bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata/paper.md"
       ],
+      "runs": [
+        "runs/cycle-289/bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2505,6 +2787,9 @@
       "path": "papers/passive-quantum-error-correction-via-ultrametric-geometry-on-bruhat-tits-trees",
       "files": [
         "papers/passive-quantum-error-correction-via-ultrametric-geometry-on-bruhat-tits-trees/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-359/passive-quantum-error-correction-via-ultrametric-geometry-on-bruhat-tits-trees"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2517,6 +2802,9 @@
       "files": [
         "papers/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene/paper.md"
       ],
+      "runs": [
+        "runs/cycle-16/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2527,6 +2815,9 @@
       "path": "papers/helical-electron-structure-at-the-compton-scale-geometric-origin-of-the-fine-str",
       "files": [
         "papers/helical-electron-structure-at-the-compton-scale-geometric-origin-of-the-fine-str/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-173/helical-electron-structure-at-the-compton-scale-geometric-origin-of-the-fine-str"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2539,6 +2830,9 @@
       "files": [
         "papers/time-as-epistemic-emergence-on-a-p-adic-bruhat-tits-tree-static-constraint-count/paper.md"
       ],
+      "runs": [
+        "runs/cycle-148/time-as-epistemic-emergence-on-a-p-adic-bruhat-tits-tree-static-constraint-count"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2549,6 +2843,9 @@
       "path": "papers/projective-braid-group-representations-from-a-microscopic-long-range-kitaev-chai",
       "files": [
         "papers/projective-braid-group-representations-from-a-microscopic-long-range-kitaev-chai/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-17/projective-braid-group-representations-from-a-microscopic-long-range-kitaev-chai"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2561,6 +2858,9 @@
       "files": [
         "papers/p-adic-spacetime-and-the-evading-of-lorentz-invariance-no-go-theorems/paper.md"
       ],
+      "runs": [
+        "runs/cycle-355/p-adic-spacetime-and-the-evading-of-lorentz-invariance-no-go-theorems"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2571,6 +2871,9 @@
       "path": "papers/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco",
       "files": [
         "papers/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-118/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2583,6 +2886,9 @@
       "files": [
         "papers/non-archimedean-statistical-foundations-for-a-fully-connected-reality/paper.md"
       ],
+      "runs": [
+        "runs/cycle-322/non-archimedean-statistical-foundations-for-a-fully-connected-reality"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2593,6 +2899,9 @@
       "path": "papers/reflection-closure-of-concurrent-line-sets-exact-dihedral-emergence-grid-frequen",
       "files": [
         "papers/reflection-closure-of-concurrent-line-sets-exact-dihedral-emergence-grid-frequen/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-172/reflection-closure-of-concurrent-line-sets-exact-dihedral-emergence-grid-frequen"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2605,6 +2914,9 @@
       "files": [
         "papers/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-34/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2615,6 +2927,9 @@
       "path": "papers/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-",
       "files": [
         "papers/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-207/layered-ontology-as-an-information-theoretic-filter-formal-model-derivation-and-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2627,6 +2942,9 @@
       "files": [
         "papers/the-resource-burden-of-active-quantum-error-correction-a-scaling-analysis-of-qub/paper.md"
       ],
+      "runs": [
+        "runs/cycle-36/the-resource-burden-of-active-quantum-error-correction-a-scaling-analysis-of-qub"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2637,6 +2955,9 @@
       "path": "papers/spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle",
       "files": [
         "papers/spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-55/spectral-decomposition-of-the-bruhat-tits-tree-as-a-candidate-origin-of-particle"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2649,6 +2970,10 @@
       "files": [
         "papers/bottling-as-an-investment-decision-an-analytical-reanalysis-of-cost-quality-trad/paper.md"
       ],
+      "runs": [
+        "runs/cycle-120/bottling-as-an-investment-decision-an-analytical-reanalysis-of-cost-quality-trad",
+        "runs/cycle-237/bottling-as-an-investment-decision-an-analytical-reanalysis-of-cost-quality-trad"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2659,6 +2984,10 @@
       "path": "papers/critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d",
       "files": [
         "papers/critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-238/critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d",
+        "runs/cycle-85/critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2671,6 +3000,9 @@
       "files": [
         "papers/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op/paper.md"
       ],
+      "runs": [
+        "runs/cycle-228/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2681,6 +3013,9 @@
       "path": "papers/discrete-scale-invariance-without-a-universal-factor-why-the-efimov-data-refute-",
       "files": [
         "papers/discrete-scale-invariance-without-a-universal-factor-why-the-efimov-data-refute-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-327/discrete-scale-invariance-without-a-universal-factor-why-the-efimov-data-refute-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2693,6 +3028,9 @@
       "files": [
         "papers/4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices/paper.md"
       ],
+      "runs": [
+        "runs/cycle-389/4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2703,6 +3041,9 @@
       "path": "papers/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired",
       "files": [
         "papers/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-9/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2715,6 +3056,9 @@
       "files": [
         "papers/sacred-numbers-as-optima-of-an-ultrametric-divisibility-landscape/paper.md"
       ],
+      "runs": [
+        "runs/cycle-269/sacred-numbers-as-optima-of-an-ultrametric-divisibility-landscape"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2725,6 +3069,9 @@
       "path": "papers/p-adic-ultrametric-embeddings-for-explainable-hierarchical-ai-representations",
       "files": [
         "papers/p-adic-ultrametric-embeddings-for-explainable-hierarchical-ai-representations/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-321/p-adic-ultrametric-embeddings-for-explainable-hierarchical-ai-representations"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2737,6 +3084,9 @@
       "files": [
         "papers/ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-deriv-93ee94f3/paper.md"
       ],
+      "runs": [
+        "runs/cycle-362/ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-deriv-93ee94f3"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2747,6 +3097,9 @@
       "path": "papers/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation",
       "files": [
         "papers/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-266/blockchain-ledger-as-a-structural-model-of-superdeterministic-p-adic-correlation"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2759,6 +3112,9 @@
       "files": [
         "papers/simulated-stability-entropy-masking-as-an-optimal-distortion-in-predictive-world/paper.md"
       ],
+      "runs": [
+        "runs/cycle-287/simulated-stability-entropy-masking-as-an-optimal-distortion-in-predictive-world"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2769,6 +3125,9 @@
       "path": "papers/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for",
       "files": [
         "papers/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-81/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2781,6 +3140,9 @@
       "files": [
         "papers/ultrametric-bruhat-tits-tree-codes-for-latency-free-quantum-decoding/paper.md"
       ],
+      "runs": [
+        "runs/cycle-189/ultrametric-bruhat-tits-tree-codes-for-latency-free-quantum-decoding"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2791,6 +3153,9 @@
       "path": "papers/planck-fidelity-fundamental-leakage-cost-of-binary-truncation-of-bosonic-ladders",
       "files": [
         "papers/planck-fidelity-fundamental-leakage-cost-of-binary-truncation-of-bosonic-ladders/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-62/planck-fidelity-fundamental-leakage-cost-of-binary-truncation-of-bosonic-ladders"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2803,6 +3168,9 @@
       "files": [
         "papers/reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me/paper.md"
       ],
+      "runs": [
+        "runs/cycle-187/reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2813,6 +3181,9 @@
       "path": "papers/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel",
       "files": [
         "papers/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-142/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2825,6 +3196,9 @@
       "files": [
         "papers/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa/paper.md"
       ],
+      "runs": [
+        "runs/cycle-329/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2835,6 +3209,9 @@
       "path": "papers/geometric-ratios-as-generators-of-hierarchical-structure-an-arithmetic-audit-of-",
       "files": [
         "papers/geometric-ratios-as-generators-of-hierarchical-structure-an-arithmetic-audit-of-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-5/geometric-ratios-as-generators-of-hierarchical-structure-an-arithmetic-audit-of-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2847,6 +3224,9 @@
       "files": [
         "papers/anisotropic-fine-structure-constant-from-non-isotropic-p-adic-embeddings/paper.md"
       ],
+      "runs": [
+        "runs/cycle-215/anisotropic-fine-structure-constant-from-non-isotropic-p-adic-embeddings"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2857,6 +3237,9 @@
       "path": "papers/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro",
       "files": [
         "papers/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-29/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2869,6 +3252,9 @@
       "files": [
         "papers/joint-bruhat-tits-tree-product-as-a-candidate-universal-structure-for-standard-m/paper.md"
       ],
+      "runs": [
+        "runs/cycle-160/joint-bruhat-tits-tree-product-as-a-candidate-universal-structure-for-standard-m"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2879,6 +3265,9 @@
       "path": "papers/singularity-as-an-epistemic-artifact-finite-cyclic-cosmology-without-actual-infi",
       "files": [
         "papers/singularity-as-an-epistemic-artifact-finite-cyclic-cosmology-without-actual-infi/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-161/singularity-as-an-epistemic-artifact-finite-cyclic-cosmology-without-actual-infi"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2891,6 +3280,9 @@
       "files": [
         "papers/cross-ratio-invariants-as-a-formal-measure-for-translation-fidelity-and-analogic/paper.md"
       ],
+      "runs": [
+        "runs/cycle-249/cross-ratio-invariants-as-a-formal-measure-for-translation-fidelity-and-analogic"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2901,6 +3293,9 @@
       "path": "papers/quantized-ringdown-echoes-from-a-discrete-clockwork-spacetime-substrate",
       "files": [
         "papers/quantized-ringdown-echoes-from-a-discrete-clockwork-spacetime-substrate/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-358/quantized-ringdown-echoes-from-a-discrete-clockwork-spacetime-substrate"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2913,6 +3308,9 @@
       "files": [
         "papers/thoughts-as-quantum-informational-hamiltonians-coherence-and-capacity-constraint/paper.md"
       ],
+      "runs": [
+        "runs/cycle-154/thoughts-as-quantum-informational-hamiltonians-coherence-and-capacity-constraint"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2923,6 +3321,9 @@
       "path": "papers/archimedean-constants-as-measure-theoretic-artifacts-of-the-infinite-place-a-rec",
       "files": [
         "papers/archimedean-constants-as-measure-theoretic-artifacts-of-the-infinite-place-a-rec/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-47/archimedean-constants-as-measure-theoretic-artifacts-of-the-infinite-place-a-rec"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2935,6 +3336,9 @@
       "files": [
         "papers/adelic-constraints-on-standard-model-parameters-a-toy-consistency-test/paper.md"
       ],
+      "runs": [
+        "runs/cycle-251/adelic-constraints-on-standard-model-parameters-a-toy-consistency-test"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2945,6 +3349,9 @@
       "path": "papers/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality",
       "files": [
         "papers/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-252/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2957,6 +3364,9 @@
       "files": [
         "papers/zitterbewegung-as-a-p-adic-ultrametric-observable-a-mathbb-z-2-invariant-on-the-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-84/zitterbewegung-as-a-p-adic-ultrametric-observable-a-mathbb-z-2-invariant-on-the-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2967,6 +3377,9 @@
       "path": "papers/ensemble-dependence-of-critical-exponents-at-quantum-error-correction-thresholds",
       "files": [
         "papers/ensemble-dependence-of-critical-exponents-at-quantum-error-correction-thresholds/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-20/ensemble-dependence-of-critical-exponents-at-quantum-error-correction-thresholds"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -2979,6 +3392,9 @@
       "files": [
         "papers/scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex/paper.md"
       ],
+      "runs": [
+        "runs/cycle-122/scaling-of-the-hadamard-deformation-space-in-concatenated-4-1-2-iceberg-codes-ex"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -2989,6 +3405,9 @@
       "path": "papers/emergent-minkowski-spacetime-from-products-of-bruhat-tits-trees-dimensional-sele",
       "files": [
         "papers/emergent-minkowski-spacetime-from-products-of-bruhat-tits-trees-dimensional-sele/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-198/emergent-minkowski-spacetime-from-products-of-bruhat-tits-trees-dimensional-sele"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3001,6 +3420,10 @@
       "files": [
         "papers/distinction-discretisation-and-the-cost-of-law-a-quantitative-sketch-of-approxim/paper.md"
       ],
+      "runs": [
+        "runs/cycle-104/distinction-discretisation-and-the-cost-of-law-a-quantitative-sketch-of-approxim",
+        "runs/cycle-236/distinction-discretisation-and-the-cost-of-law-a-quantitative-sketch-of-approxim"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3011,6 +3434,9 @@
       "path": "papers/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan",
       "files": [
         "papers/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-178/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3023,6 +3449,9 @@
       "files": [
         "papers/booklet-cosmological-states-as-random-tensor-codes-recovery-bounds-and-entropic-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-48/booklet-cosmological-states-as-random-tensor-codes-recovery-bounds-and-entropic-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3033,6 +3462,9 @@
       "path": "papers/p-adic-ancestry-model-a-deterministic-ultrametric-ontology-for-quantum-correlati",
       "files": [
         "papers/p-adic-ancestry-model-a-deterministic-ultrametric-ontology-for-quantum-correlati/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-206/p-adic-ancestry-model-a-deterministic-ultrametric-ontology-for-quantum-correlati"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3045,6 +3477,9 @@
       "files": [
         "papers/born-rule-as-haar-measure-on-p-adic-tree-balls-a-structural-derivation-and-its-i/paper.md"
       ],
+      "runs": [
+        "runs/cycle-235/born-rule-as-haar-measure-on-p-adic-tree-balls-a-structural-derivation-and-its-i"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3055,6 +3490,9 @@
       "path": "papers/p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl",
       "files": [
         "papers/p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-204/p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3067,6 +3505,9 @@
       "files": [
         "papers/braid-group-representations-and-modular-data-non-uniqueness-finite-images-and-th/paper.md"
       ],
+      "runs": [
+        "runs/cycle-3/braid-group-representations-and-modular-data-non-uniqueness-finite-images-and-th"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3077,6 +3518,9 @@
       "path": "papers/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres",
       "files": [
         "papers/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-35/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3089,6 +3533,9 @@
       "files": [
         "papers/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts/paper.md"
       ],
+      "runs": [
+        "runs/cycle-174/cascading-bayesian-choke-node-forecasting-for-multi-era-paradigm-shifts"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3099,6 +3546,9 @@
       "path": "papers/numeral-systems-as-evolving-cognitive-technologies-error-propagation-compactness",
       "files": [
         "papers/numeral-systems-as-evolving-cognitive-technologies-error-propagation-compactness/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-77/numeral-systems-as-evolving-cognitive-technologies-error-propagation-compactness"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3111,6 +3561,9 @@
       "files": [
         "papers/barc-codes-as-algebraically-restricted-coherent-state-constellations-geometry-se/paper.md"
       ],
+      "runs": [
+        "runs/cycle-24/barc-codes-as-algebraically-restricted-coherent-state-constellations-geometry-se"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3121,6 +3574,9 @@
       "path": "papers/zitterbewegung-as-archimedean-2-adic-channel-mixing-a-conjectural-adelic-framewo",
       "files": [
         "papers/zitterbewegung-as-archimedean-2-adic-channel-mixing-a-conjectural-adelic-framewo/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-71/zitterbewegung-as-archimedean-2-adic-channel-mixing-a-conjectural-adelic-framewo"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3133,6 +3589,9 @@
       "files": [
         "papers/regular-ternary-tree-codes-and-symmetric-exponential-energy-barriers-for-passive/paper.md"
       ],
+      "runs": [
+        "runs/cycle-193/regular-ternary-tree-codes-and-symmetric-exponential-energy-barriers-for-passive"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3143,6 +3602,9 @@
       "path": "papers/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-",
       "files": [
         "papers/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-188/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3155,6 +3617,9 @@
       "files": [
         "papers/the-speed-of-light-as-a-regularization-parameter-of-a-distributed-estimation-vac/paper.md"
       ],
+      "runs": [
+        "runs/cycle-167/the-speed-of-light-as-a-regularization-parameter-of-a-distributed-estimation-vac"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3165,6 +3630,9 @@
       "path": "papers/primality-as-a-non-archimedean-structure-projected-onto-the-real-line",
       "files": [
         "papers/primality-as-a-non-archimedean-structure-projected-onto-the-real-line/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-195/primality-as-a-non-archimedean-structure-projected-onto-the-real-line"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3177,6 +3645,9 @@
       "files": [
         "papers/fine-structure-constant-as-an-adelically-constrained-cross-ratio/paper.md"
       ],
+      "runs": [
+        "runs/cycle-331/fine-structure-constant-as-an-adelically-constrained-cross-ratio"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3187,6 +3658,9 @@
       "path": "papers/error-correction-properties-of-covariant-bosonic-encodings-a-quantitative-assess",
       "files": [
         "papers/error-correction-properties-of-covariant-bosonic-encodings-a-quantitative-assess/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-31/error-correction-properties-of-covariant-bosonic-encodings-a-quantitative-assess"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3199,6 +3673,9 @@
       "files": [
         "papers/fidelity-budgets-for-discrete-regularizations-of-gauge-theories-exact-single-lin/paper.md"
       ],
+      "runs": [
+        "runs/cycle-46/fidelity-budgets-for-discrete-regularizations-of-gauge-theories-exact-single-lin"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3209,6 +3686,9 @@
       "path": "papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
       "files": [
         "papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-205/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3221,6 +3701,9 @@
       "files": [
         "papers/cocycle-solving-in-cognition-ultrametric-reaction-times-and-analogy-depth/paper.md"
       ],
+      "runs": [
+        "runs/cycle-231/cocycle-solving-in-cognition-ultrametric-reaction-times-and-analogy-depth"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3231,6 +3714,9 @@
       "path": "papers/reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor",
       "files": [
         "papers/reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-223/reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3243,6 +3729,9 @@
       "files": [
         "papers/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-25/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3253,6 +3742,9 @@
       "path": "papers/thermodynamic-feedback-limits-on-the-scalability-of-surface-code-quantum-error-c",
       "files": [
         "papers/thermodynamic-feedback-limits-on-the-scalability-of-surface-code-quantum-error-c/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-395/thermodynamic-feedback-limits-on-the-scalability-of-surface-code-quantum-error-c"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3265,6 +3757,9 @@
       "files": [
         "papers/measurement-and-feedforward-quantum-circuits-as-code-design-detectability-branch/paper.md"
       ],
+      "runs": [
+        "runs/cycle-32/measurement-and-feedforward-quantum-circuits-as-code-design-detectability-branch"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3275,6 +3770,9 @@
       "path": "papers/the-confidence-game-strategic-miscalibration-in-human-ai-delegation-a-reconciled",
       "files": [
         "papers/the-confidence-game-strategic-miscalibration-in-human-ai-delegation-a-reconciled/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-44/the-confidence-game-strategic-miscalibration-in-human-ai-delegation-a-reconciled"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3287,6 +3785,9 @@
       "files": [
         "papers/css-codes-for-quantum-metrology-with-discrete-time-error-correction-a-reconciled/paper.md"
       ],
+      "runs": [
+        "runs/cycle-32/css-codes-for-quantum-metrology-with-discrete-time-error-correction-a-reconciled"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3297,6 +3798,9 @@
       "path": "papers/the-oscillator-as-an-element-static-and-dynamical-analyses-of-the-imaginary-bool",
       "files": [
         "papers/the-oscillator-as-an-element-static-and-dynamical-analyses-of-the-imaginary-bool/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-162/the-oscillator-as-an-element-static-and-dynamical-analyses-of-the-imaginary-bool"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3309,6 +3813,9 @@
       "files": [
         "papers/ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach/paper.md"
       ],
+      "runs": [
+        "runs/cycle-202/ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3319,6 +3826,9 @@
       "path": "papers/ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-derivation-and",
       "files": [
         "papers/ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-derivation-and/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-323/ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-derivation-and"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3331,6 +3841,9 @@
       "files": [
         "papers/finite-prime-valuations-in-fundamental-physics-an-adelically-demoted-real-number/paper.md"
       ],
+      "runs": [
+        "runs/cycle-249/finite-prime-valuations-in-fundamental-physics-an-adelically-demoted-real-number"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3341,6 +3854,9 @@
       "path": "papers/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
       "files": [
         "papers/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-247/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3353,6 +3869,9 @@
       "files": [
         "papers/particle-species-as-normal-forms-of-a-boundary-token-calculus/paper.md"
       ],
+      "runs": [
+        "runs/cycle-205/particle-species-as-normal-forms-of-a-boundary-token-calculus"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3363,6 +3882,9 @@
       "path": "papers/passive-error-rejection-via-cryo-fluidic-topological-phases-a-feasibility-analys",
       "files": [
         "papers/passive-error-rejection-via-cryo-fluidic-topological-phases-a-feasibility-analys/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-158/passive-error-rejection-via-cryo-fluidic-topological-phases-a-feasibility-analys"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3375,6 +3897,9 @@
       "files": [
         "papers/epistemic-disturbance-in-the-graph-model-for-conflict-resolution-state-preservin/paper.md"
       ],
+      "runs": [
+        "runs/cycle-45/epistemic-disturbance-in-the-graph-model-for-conflict-resolution-state-preservin"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3385,6 +3910,9 @@
       "path": "papers/ostrowski-s-classification-as-a-selection-rule-a-falsifiable-program-for-the-ade",
       "files": [
         "papers/ostrowski-s-classification-as-a-selection-rule-a-falsifiable-program-for-the-ade/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-143/ostrowski-s-classification-as-a-selection-rule-a-falsifiable-program-for-the-ade"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3397,6 +3925,9 @@
       "files": [
         "papers/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-169/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3407,6 +3938,9 @@
       "path": "papers/differential-einthoven-inspired-readout-for-superconducting-qubit-measurement-th",
       "files": [
         "papers/differential-einthoven-inspired-readout-for-superconducting-qubit-measurement-th/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-176/differential-einthoven-inspired-readout-for-superconducting-qubit-measurement-th"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3419,6 +3953,9 @@
       "files": [
         "papers/the-p-adic-temperley-lieb-parameter-valuation-theoretic-constraints-and-an-adeli/paper.md"
       ],
+      "runs": [
+        "runs/cycle-8/the-p-adic-temperley-lieb-parameter-valuation-theoretic-constraints-and-an-adeli"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3429,6 +3966,9 @@
       "path": "papers/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla",
       "files": [
         "papers/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-166/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3441,6 +3981,9 @@
       "files": [
         "papers/viscoelastic-gating-of-spin-coherence-in-synthetic-hydrogels-a-unified-theoretic/paper.md"
       ],
+      "runs": [
+        "runs/cycle-320/viscoelastic-gating-of-spin-coherence-in-synthetic-hydrogels-a-unified-theoretic"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3451,6 +3994,9 @@
       "path": "papers/universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag",
       "files": [
         "papers/universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-211/universal-functional-anatomy-of-belief-systems-a-formal-framework-for-a-label-ag"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3463,6 +4009,9 @@
       "files": [
         "papers/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r/paper.md"
       ],
+      "runs": [
+        "runs/cycle-27/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3473,6 +4022,9 @@
       "path": "papers/bounded-physicality-a-formal-viability-criterion-for-computational-mechanisms",
       "files": [
         "papers/bounded-physicality-a-formal-viability-criterion-for-computational-mechanisms/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-396/bounded-physicality-a-formal-viability-criterion-for-computational-mechanisms"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3485,6 +4037,9 @@
       "files": [
         "papers/hierarchical-suppression-of-vacuum-energy-in-p-adic-ultrametric-geometry/paper.md"
       ],
+      "runs": [
+        "runs/cycle-322/hierarchical-suppression-of-vacuum-energy-in-p-adic-ultrametric-geometry"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3495,6 +4050,9 @@
       "path": "papers/decoherence-as-the-ultimate-consequence-of-linear-accumulation",
       "files": [
         "papers/decoherence-as-the-ultimate-consequence-of-linear-accumulation/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-39/decoherence-as-the-ultimate-consequence-of-linear-accumulation"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3507,6 +4065,9 @@
       "files": [
         "papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees/paper.md"
       ],
+      "runs": [
+        "runs/cycle-324/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3517,6 +4078,9 @@
       "path": "papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
       "files": [
         "papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-47/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3529,6 +4093,9 @@
       "files": [
         "papers/evaluating-the-productivity-gains-of-a-five-phase-human-llm-orchestration-protoc/paper.md"
       ],
+      "runs": [
+        "runs/cycle-219/evaluating-the-productivity-gains-of-a-five-phase-human-llm-orchestration-protoc"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3539,6 +4106,9 @@
       "path": "papers/the-capability-availability-mismatch-three-state-tool-semantics-and-forced-halt-",
       "files": [
         "papers/the-capability-availability-mismatch-three-state-tool-semantics-and-forced-halt-/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-159/the-capability-availability-mismatch-three-state-tool-semantics-and-forced-halt-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3551,6 +4121,10 @@
       "files": [
         "papers/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even/paper.md"
       ],
+      "runs": [
+        "runs/cycle-234/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even",
+        "runs/cycle-66/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3561,6 +4135,10 @@
       "path": "papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
       "files": [
         "papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-239/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+        "runs/cycle-37/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3573,6 +4151,9 @@
       "files": [
         "papers/ultrametric-quantum-error-correction-on-bruhat-tits-trees-energy-barriers-classi/paper.md"
       ],
+      "runs": [
+        "runs/cycle-109/ultrametric-quantum-error-correction-on-bruhat-tits-trees-energy-barriers-classi"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3583,6 +4164,9 @@
       "path": "papers/does-a-cpt-symmetric-t-0-boundary-force-the-majorana-condition-a-derivation-of-t",
       "files": [
         "papers/does-a-cpt-symmetric-t-0-boundary-force-the-majorana-condition-a-derivation-of-t/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-194/does-a-cpt-symmetric-t-0-boundary-force-the-majorana-condition-a-derivation-of-t"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3595,6 +4179,9 @@
       "files": [
         "papers/l-functions-as-gauge-invariant-spectra-across-tree-hyperbolic-and-p-adic-geometr/paper.md"
       ],
+      "runs": [
+        "runs/cycle-184/l-functions-as-gauge-invariant-spectra-across-tree-hyperbolic-and-p-adic-geometr"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3605,6 +4192,9 @@
       "path": "papers/measurement-as-place-crossing-completion-selective-adelic-projection",
       "files": [
         "papers/measurement-as-place-crossing-completion-selective-adelic-projection/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-56/measurement-as-place-crossing-completion-selective-adelic-projection"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3617,6 +4207,9 @@
       "files": [
         "papers/constant-sized-support-magic-state-distillation-with-qubit-recycling-a-reconcile/paper.md"
       ],
+      "runs": [
+        "runs/cycle-13/constant-sized-support-magic-state-distillation-with-qubit-recycling-a-reconcile"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3627,6 +4220,9 @@
       "path": "papers/standard-model-particles-as-quasiparticles-of-a-deeper-substrate",
       "files": [
         "papers/standard-model-particles-as-quasiparticles-of-a-deeper-substrate/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-322/standard-model-particles-as-quasiparticles-of-a-deeper-substrate"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3639,6 +4235,9 @@
       "files": [
         "papers/institutionalized-predictive-jeopardy-an-evolutionary-game-demarcation-criterion/paper.md"
       ],
+      "runs": [
+        "runs/cycle-170/institutionalized-predictive-jeopardy-an-evolutionary-game-demarcation-criterion"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3649,6 +4248,9 @@
       "path": "papers/ultrametric-quantum-computation-for-direct-integer-factorization-a-resource-anal",
       "files": [
         "papers/ultrametric-quantum-computation-for-direct-integer-factorization-a-resource-anal/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-168/ultrametric-quantum-computation-for-direct-integer-factorization-a-resource-anal"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
@@ -3661,6 +4263,9 @@
       "files": [
         "papers/numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time/paper.md"
       ],
+      "runs": [
+        "runs/cycle-182/numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3672,6 +4277,9 @@
       "files": [
         "papers/vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-/paper.md"
       ],
+      "runs": [
+        "runs/cycle-390/vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-"
+      ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
       "status": "open"
@@ -3682,6 +4290,9 @@
       "path": "papers/a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an",
       "files": [
         "papers/a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an/paper.md"
+      ],
+      "runs": [
+        "runs/cycle-163/a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
