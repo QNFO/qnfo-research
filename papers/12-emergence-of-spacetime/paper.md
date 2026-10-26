@@ -282,20 +282,3 @@ By embedding the autaxic relational effort metric within the universal rotation�
 [11] Geometric Principles for Machine Learning of Dynamical Systems. arXiv:2502.13895. https://arxiv.org/abs/2502.13895
 [13] https://papers.qnfo.org/papers/connecting-geometrogenesis-and-biogenesis. QNFO: Connecting Geometrogenesis and Biogenesis.
 [14] https://papers.qnfo.org/papers/epistemic-cartography. QNFO: Epistemic Cut.
-
-## Appendix A. Divergence report
-No divergent claims were identified among the source drafts; all substantive statements converge on the same interpretation of the autaxic framework and its quantitative consequences.
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | Mapping of autaxic relational effort onto the universal rotation‑curve equation | A, B | Convergent |
-| C2 | Numerical derivation $V\approx1.41$ for $M=10$, $r=5$ | A, B | Convergent |
-| C3 | Expected boundary‑touching steps $2n/(dL)=0.667$ for $d=3$, $L=100$, $n=100$ | B | Convergent |
-| C4 | Distinct influence‑path count $(2d-1)^{r}=9{,}765{,}625$ for $d=3$, $r=10$ | B | Convergent |
-| C5 | Identification of $d=3$ as marginal dimension separating recurrent from transient influence propagation | B | Convergent |
-| C6 | List of limitations L1‑L5 | A, B | Convergent |
-| C7 | Falsifiability condition based on rotation‑curve deviations and lattice‑simulation discrepancies | A, B | Convergent |
-| C8 | Practical pathway, TRL assessment, next experiment, cost projection, and risk statement | A, B | Convergent |
-| C9 | Full arithmetic steps for $V^{2}=M/r$ | A, B | Convergent |
-| C10 | Identification of at least eight bibliography works | A, B | Convergent |
