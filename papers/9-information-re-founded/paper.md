@@ -160,30 +160,3 @@ By anchoring information in the autaxic generative engine—spontaneous symmetry
 [8] Broken symmetry and Yang-Mills theory. arXiv:hep-th/0406162. https://arxiv.org/abs/hep-th/0406162
 [10] On proof theory in computer science. arXiv:2012.04437. https://arxiv.org/abs/2012.04437
 [14] https://papers.qnfo.org/papers/infomatics-v1. QNFO: Infomatics: An Axiomatic Framework for Information as Fundamental Substrate.
-
-## Appendix A. Divergence report
-The following points diverge between the three source drafts:
-
-| Divergence | Draft A (Autaxic ontology) | Draft B (Information censorship) | Resolution Chosen for Main Text |
-|------------|----------------------------|----------------------------------|---------------------------------|
-| Core conceptual model | Autaxic hierarchy (distinctions → patterns → relational → semantic) | Four‑layer censorship model (distinction → pattern → relational significance → semantic) | Retain the autaxic hierarchy as presented in Draft A; Draft B’s model is documented as a divergent alternative in this appendix. |
-| Quantitative illustration I | Spin‑glass configuration count $2^{1000}\approx1.07\times10^{301}$ | Censorship ratio for a binary symmetric channel ($C\approx0.469$) | Keep the spin‑glass illustration (convergent claim) in the main text; the BSC censorship ratio is listed here as a divergent quantitative claim. |
-| Quantitative illustration II | Average conference acceptance rate $15\%$ | Physical censorship budget for a $1\ \mathrm{cm}^2$ region ($\approx1.38\times10^{65}$ bits) | Preserve the acceptance‑rate illustration (convergent claim); the holographic‑bound calculation is recorded as a divergent claim. |
-| Physical layer discussion | Uses holographic bound only as a contextual reference (no calculation) | Provides full holographic‑bound computation | The full holographic calculation is omitted from the main text but noted here as a divergent approach. |
-| Mention of “undone science” | Cited as background motivation (see [6]) | Central to censorship argument (see [6]) | Both drafts cite the same source; the concept is retained in background and discussion sections. |
-| Citation set | Uses references [1]–[8] only | Introduces additional citations ([10]–[14]) not present in the bibliography | All out‑of‑range citations are removed; their associated statements are either omitted or re‑phrased without citation. |
-| Falsifiability criterion | Based on exponential scaling of distinguishable states | Based on violation of holographic entropy bound | The exponential‑scaling falsifiability is kept; the holographic‑bound falsifiability is listed as a divergent alternative. |
-
-No other substantive divergences were identified.
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | Autaxic hierarchical levels unify syntactic, relational, and semantic information. | A, B, C | Convergent |
-| C2 | Spin‑glass system with $10^{3}$ spins has $2^{1000}\approx1.07\times10^{301}$ configurations. | A, B, C | Convergent |
-| C3 | Average conference acceptance rate from 10 %–20 % range is $15\%$. | A, B, C | Convergent |
-| C4 | Limitations table (binary spins, uniform acceptance, etc.). | A, B, C | Convergent |
-| C5 | Practical implications for physicists and conference organisers. | A, B, C | Convergent |
-| C6 | TRL 2 classification for analytical work. | A, B, C | Convergent |
-| C7 | Minimal next experiment: enumerate $2^{20}$ configurations. | A, B, C | Convergent |
-| C8 | Risks of misapplying exponential capacity estimate. | A, B, C | Convergent |
