@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an",
+  "paper": {
+    "path": "papers/a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an/paper.md",
+    "title": "A Deterministic Interface Model for Quantum Statistics: Born Rule, Interference, and Measurement-Dependence Budgets for Loophole-Free Bell Correlations",
+    "url": "https://papers.qnfo.org/papers/a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-deterministic-interface-model-for-quantum-statistics-born-rule-interference-an"
+  },
+  "snapshots": [
+    {
+      "sha256": "9cb4bcda474df49f70b94784f85a54e4697b595a966aa995e00c5375659d2a92",
+      "bytes": 39384,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

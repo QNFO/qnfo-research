@@ -81,10 +81,6 @@ Understanding these formal limits is crucial for a mature philosophy of science 
 [[12 Where Do We Stand]]
 
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-
 
 
 ## Verification and Computational Artifacts

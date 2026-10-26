@@ -238,29 +238,3 @@ We have defined a mixed‑state benchmark that anchors simulation difficulty to 
 [9] https://papers.qnfo.org/papers/computational-benchmark-of-geometric-and-algebraic-models-for-multi-qubit-state-representation. QNFO: Computational Benchmark of Geometric and Algebraic Models for Multi-Qubit State Representation.
 [10] https://papers.qnfo.org/papers/revising-the-joules-per-compute-jpcub-benchmark-normalizing-energy-efficiency-by. QNFO: Revising the Joules-per-Compute (JPCUB) Benchmark: Normalizing Energy Efficiency by Logical-Qubit Operations.
 [11] https://papers.qnfo.org/papers/hybrid-gate-decomposition-and-vector-norm-analysis-for-quantum-pde-solvers. QNFO: Hybrid Gate Decomposition and Vector-Norm Analysis for Quantum PDE Solvers.
-
-## Appendix A. Divergence report
-*No divergent claims were identified among the independent drafts; all substantive statements converged.*
-
-## Appendix B. Claim attribution
-| Claim ID | Source Draft(s) | Agreement |
-|----------|----------------|-----------|
-| C1 | A, B, C | Convergent |
-| C2 | A, B, C | Convergent |
-| C3 | A, B, C | Convergent |
-| C4 | A, B, C | Convergent |
-| C5 | A, B, C | Convergent |
-| C6 | A, B, C | Convergent |
-| C7 | A, B, C | Convergent |
-| C8 | A, B, C | Convergent |
-| C9 | A, B, C | Convergent |
-| C10 | A, B, C | Convergent |
-| C11 | A, B, C | Convergent |
-| C12 | A, B, C | Convergent |
-| C13 | A, B, C | Convergent |
-| C14 | A, B, C | Convergent |
-| C15 | A, B, C | Convergent |
-| C16 | A, B, C | Convergent |
-| C17 | A, B, C | Convergent |
-| C18 | A, B, C | Convergent |
-| C19 | A, B, C | Convergent |

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-falsifiability-first-audit-program-for-the-photon-primacy-helical-electron-and",
+  "paper": {
+    "path": "papers/a-falsifiability-first-audit-program-for-the-photon-primacy-helical-electron-and/paper.md",
+    "title": "A Falsifiability‑First Audit Program for the Photon‑Primacy, Helical‑Electron, and Adelic‑Mass Claim Cluster",
+    "url": "https://papers.qnfo.org/papers/a-falsifiability-first-audit-program-for-the-photon-primacy-helical-electron-and"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-falsifiability-first-audit-program-for-the-photon-primacy-helical-electron-and"
+  },
+  "snapshots": [
+    {
+      "sha256": "c731c747ad538783ee14ddca851a58a01f96cf3389dab1da66648baf849ffe8c",
+      "bytes": 25241,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

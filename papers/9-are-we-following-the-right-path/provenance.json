@@ -3,7 +3,7 @@
   "slug": "9-are-we-following-the-right-path",
   "paper": {
     "path": "papers/9-are-we-following-the-right-path/paper.md",
-    "title": "[[Philosophy of Science]]",
+    "title": "Philosophy of Science",
     "url": "https://papers.qnfo.org/papers/9-are-we-following-the-right-path"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "49ab1dc6080add51ea6e8b9a3f3d334c49eb5b0f"
+    },
+    {
+      "sha256": "ebee35a85d9791905b5079a19550e7fd48f58a17ca617504c84574d544ff7594",
+      "bytes": 19834,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

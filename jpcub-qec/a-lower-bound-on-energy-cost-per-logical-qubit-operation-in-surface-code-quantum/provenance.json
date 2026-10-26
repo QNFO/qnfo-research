@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-lower-bound-on-energy-cost-per-logical-qubit-operation-in-surface-code-quantum",
+  "paper": {
+    "path": "jpcub-qec/a-lower-bound-on-energy-cost-per-logical-qubit-operation-in-surface-code-quantum/paper.md",
+    "title": "A Lower Bound on Energy Cost per Logical-Qubit Operation in Surface-Code Quantum Error Correction",
+    "url": "https://papers.qnfo.org/papers/a-lower-bound-on-energy-cost-per-logical-qubit-operation-in-surface-code-quantum"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-lower-bound-on-energy-cost-per-logical-qubit-operation-in-surface-code-quantum"
+  },
+  "snapshots": [
+    {
+      "sha256": "487ed52a20af4f9cfe46b117523c1d87a457dc0b42147d92c539acecb88215d9",
+      "bytes": 15259,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "2.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
