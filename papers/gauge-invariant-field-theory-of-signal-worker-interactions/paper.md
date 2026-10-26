@@ -8,7 +8,7 @@ Architectonics
 **Author:** Rowan Brad Quni-Gudzinas
 **Contact:** rowan.quni@outlook.com **ORCID:**
 0009-0002-4317-5604 **ISNI:** 0000000526456062
-**DOI:** 10.5281/zenodo.18466521 **Date:**
+**URL:** https://papers.qnfo.org/papers **Date:**
 2026-02-03 **Version:** 2.0.0
 
 **Abstract**: The transition of Quantum Architectonics
@@ -955,10 +955,6 @@ theory presented here remains the appropriate description.
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-
 ## References
 
 Majid, S., & Beggs, E. J. (2020). *Quantum Riemannian
@@ -970,12 +966,12 @@ arXiv:0902.2361 [hep-th].
 
 Quni-Gudzinas, R. B. (2026a). *Unifying Photosynthetic Energy
 Transduction and Ambient Superconductivity via a Non-Dualistic
-Signal-Worker Ontology*. Zenodo.
-https://doi.org/10.5281/zenodo.18330365
+Signal-Worker Ontology*. the QNFO archive.
+https://papers.qnfo.org/papers/unifying-photosynthetic-energy-transduction-and-ambient-superconductivity/
 
 Quni-Gudzinas, R. B. (2026b). *Ab Initio Architectonics:
 Rethinking Fluxonium Qutrits through the Signal-Worker Ontology*.
-Zenodo. https://doi.org/10.5281/zenodo.18444229
+QNFO. https://papers.qnfo.org/papers/ab-initio-architectonics/
 
 Uchihashi, T., & Fukata, N. (2024). *Contributing to Quantum
 Technology Research through Quantum-Architectonics*. National

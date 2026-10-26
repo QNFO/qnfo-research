@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel",
+  "paper": {
+    "path": "papers/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel/paper.md",
+    "title": "Functorial Invariance Across Presentations of the Prime Numbers, with Context-Relative Quantitative Illustrations",
+    "url": "https://papers.qnfo.org/papers/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel"
+  },
+  "snapshots": [
+    {
+      "sha256": "c4a8d7bb2088710c24d8e46945de4869b1a240ca5fd3751bae660832a23ca2dc",
+      "bytes": 48023,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "functoriality-as-a-transform-register-and-gate-cost-analysis-of-a-langlands-stru",
+  "paper": {
+    "path": "papers/functoriality-as-a-transform-register-and-gate-cost-analysis-of-a-langlands-stru/paper.md",
+    "title": "Functoriality as a Transform: Register and Gate-Cost Analysis of a Langlands-Structured Adelic Quantum Register",
+    "url": "https://papers.qnfo.org/papers/functoriality-as-a-transform-register-and-gate-cost-analysis-of-a-langlands-stru"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "functoriality-as-a-transform-register-and-gate-cost-analysis-of-a-langlands-stru"
+  },
+  "snapshots": [
+    {
+      "sha256": "42ee19fa4d1b530db796e7bd4c6f4005a95b18f17aaddd3f3a9877b677d2d085",
+      "bytes": 43335,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
