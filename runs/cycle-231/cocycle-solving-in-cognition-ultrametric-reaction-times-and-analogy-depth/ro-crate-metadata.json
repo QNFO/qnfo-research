@@ -53,14 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/cocycle-solving-in-cognition-ultrametric-reaction-times-and-analogy-depth"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -79,6 +77,9 @@
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/cocycle-solving-in-cognition-ultrametric-reaction-times-and-analogy-depth"
     },
     {
+      "@id": "https://arxiv.org/abs/0809.0492",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0809.0492"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.3951",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.3951"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1201.2711",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1201.2711"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.08246",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.08246"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1803.00997",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1803.00997"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.08761",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.08761"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.10209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.10209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.23572",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.23572"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +181,16 @@
       "contentSize": "880",
       "sha256": "b636ecbfc49eb2b4152f66f912f52584827f8c5eef947246baf17628d93cb7ee",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "39680",
+      "sha256": "fdeb83442c9d6748b797e90f645fab9c2cccf78826a1ec75437368fa245c96da",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -193,11 +244,48 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "fdeb83442c9d6748b797e90f645fab9c2cccf78826a1ec75437368fa245c96da",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0809.0492"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1002.3951"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1201.2711"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.08246"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1803.00997"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.08761"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.10209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.23572"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -217,7 +305,12 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",

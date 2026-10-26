@@ -53,17 +53,15 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/a-universal-adelic-normalization-principle-ostrowski-s-product-formula-and-ono-s"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/review-report.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
         },
         {
           "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
         },
         {
           "@id": "verification.md"
@@ -84,6 +82,9 @@
         },
         {
           "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
         },
         {
           "@id": "#verification-original"
@@ -198,6 +199,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2853",
+      "sha256": "5f43caf0c8edaf715ed0272018498960f68af906abfa3d2df474da61cc11e436",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "verification.md",
       "@type": "File",
       "name": "verification.md",
@@ -236,13 +247,6 @@
       "sha256": "103eb7f96cbb9950c22d87f29d05e846461aa41ea730906d9b4c6a5423ef585e",
       "qnfo:role": "draft",
       "qnfo:listedInManifest": true
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "5f43caf0c8edaf715ed0272018498960f68af906abfa3d2df474da61cc11e436",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
     },
     {
       "@id": "#grounding",
@@ -313,6 +317,31 @@
       "object": [
         {
           "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ]
     },

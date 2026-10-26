@@ -53,20 +53,6 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
@@ -75,12 +61,30 @@
           "@id": "grounding.md"
         },
         {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
         {
           "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
         },
         {
           "@id": "#verification-original"
@@ -190,6 +194,26 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3581",
+      "sha256": "f48dbd457e2f7d420dd3ce808e4111af1cfd1758fff953e8e55a07a10b592d5a",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7130",
+      "sha256": "c39a9467db40a82e75cadc28102007191d7ac54743d14f21e70168f9803da967",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "verification.py",
       "@type": "File",
       "name": "verification.py",
@@ -200,32 +224,24 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "f48dbd457e2f7d420dd3ce808e4111af1cfd1758fff953e8e55a07a10b592d5a",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
-      "name": "verification.md",
-      "sha256": "c39a9467db40a82e75cadc28102007191d7ac54743d14f21e70168f9803da967",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19039",
       "sha256": "0c516cafa5c1b906c6da53b336a1a51512bdc63a6a81161843842ff0d6acb161",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23382",
       "sha256": "59d3c10f73d25141180f68e122076a05a1cec6d6f32185abc5f3836a7442ca8e",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#grounding",
@@ -272,6 +288,56 @@
       "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
       "@id": "#verification-original",
       "@type": "CreateAction",
       "name": "verification.py as run by the pipeline",
@@ -285,13 +351,14 @@
       ],
       "result": [
         {
-          "@id": "verification.py"
+          "@id": "verification.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
       "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
       "endTime": "2026-10-20T02:02:11+02:00",
       "description": "endTime is the deposit time; the execution time itself was not recorded."
     },

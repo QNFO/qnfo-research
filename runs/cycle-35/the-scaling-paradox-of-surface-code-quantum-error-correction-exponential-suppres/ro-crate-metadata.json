@@ -55,18 +55,6 @@
       },
       "qnfo:missingParts": [
         {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
           "@id": "#missing/writer-b-draft.md"
         },
         {
@@ -78,10 +66,31 @@
           "@id": "MANIFEST.json"
         },
         {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
         {
           "@id": "#verification-original"
         },
@@ -130,6 +139,41 @@
       "url": "https://papers.qnfo.org/papers/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres"
     },
     {
+      "@id": "https://arxiv.org/abs/0805.4082",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0805.4082"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1212.6339",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1212.6339"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1606.06286",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1606.06286"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.09544",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.09544"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2004.12510",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2004.12510"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.17247",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.17247"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.03835",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.03835"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +181,36 @@
       "contentSize": "1018",
       "sha256": "d7dfeafb2749cfb82ae71e8888ec3bbc5a6f0e92e1007040dce676ab4950f05b",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9792",
+      "sha256": "cc244e2289a76dcf73bdf6bd4b4ad3da89afa67c503cd08043d91f8eeb4ab461",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2956",
+      "sha256": "874fbe715c0dcf79ca3404a09140874f8954f1ed3f7e77e18e68c9510eca2ecb",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3166",
+      "sha256": "05d6adc42baf0425e0627b796aba785af91ccdcc366366ca312aa2551fc08944",
+      "qnfo:role": "verification-report",
       "qnfo:listedInManifest": true
     },
     {
@@ -150,32 +224,14 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "cc244e2289a76dcf73bdf6bd4b4ad3da89afa67c503cd08043d91f8eeb4ab461",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "874fbe715c0dcf79ca3404a09140874f8954f1ed3f7e77e18e68c9510eca2ecb",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
-      "name": "verification.md",
-      "sha256": "05d6adc42baf0425e0627b796aba785af91ccdcc366366ca312aa2551fc08944",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18525",
       "sha256": "5d77c93e7a8ea107b2f957f186b69f8183c025553c663585a25530efe2274157",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#missing/writer-b-draft.md",
@@ -192,6 +248,91 @@
       "qnfo:status": "listed-in-manifest-absent-from-repository"
     },
     {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0805.4082"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1212.6339"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1606.06286"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.09544"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2004.12510"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.17247"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.03835"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ]
+    },
+    {
       "@id": "#verification-original",
       "@type": "CreateAction",
       "name": "verification.py as run by the pipeline",
@@ -205,13 +346,14 @@
       ],
       "result": [
         {
-          "@id": "verification.py"
+          "@id": "verification.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
       "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
       "endTime": "2026-10-09T10:45:57+02:00",
       "description": "endTime is the deposit time; the execution time itself was not recorded."
     },

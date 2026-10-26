@@ -53,17 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -75,10 +70,16 @@
           "@id": "verification.py"
         },
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex"
     },
     {
+      "@id": "https://arxiv.org/abs/0901.4454",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0901.4454"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0910.4153",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0910.4153"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1307.0886",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1307.0886"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1312.5352",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1312.5352"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1511.04936",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1511.04936"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.03435",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.03435"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2501.02212",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2501.02212"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.13813",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.13813"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +181,16 @@
       "contentSize": "880",
       "sha256": "ca1c07fc67663263b16e9093b21029c23fe5335aac02d8653f50a14f36886371",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "74110",
+      "sha256": "d3971f71904be1efd1e8b3534001c5e7cd809403393edb03bfd84f11fb55f6cf",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -173,6 +224,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23587",
+      "sha256": "b1a9d5fd309a2ea40e15824507a741377d054f2c58aaf16d33c4f5805dd269bd",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-b-draft.md",
       "@type": "File",
       "name": "writer-b-draft.md",
@@ -183,18 +244,48 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "d3971f71904be1efd1e8b3534001c5e7cd809403393edb03bfd84f11fb55f6cf",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-a-draft.md",
-      "sha256": "b1a9d5fd309a2ea40e15824507a741377d054f2c58aaf16d33c4f5805dd269bd",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0901.4454"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0910.4153"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1307.0886"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1312.5352"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1511.04936"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.03435"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2501.02212"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.13813"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -205,13 +296,21 @@
       },
       "result": [
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -230,6 +329,9 @@
       },
       "qnfo:basis": "inferred-from-procedure",
       "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
         {
           "@id": "writer-b-draft.md"
         }

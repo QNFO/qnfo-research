@@ -53,20 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -76,9 +68,21 @@
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
         {
           "@id": "#review"
         },
@@ -130,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees"
     },
     {
+      "@id": "https://arxiv.org/abs/0801.1278",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0801.1278"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1309.3419",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1309.3419"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.06322",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.06322"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1703.06617",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1703.06617"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.01463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.01463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1803.10880",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1803.10880"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1812.06769",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1812.06769"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.12024",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.12024"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +181,16 @@
       "contentSize": "880",
       "sha256": "db016d698ac42fac1629ba9ce42e9ff69e92eae45d1d40455c0bbda290db7026",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "53393",
+      "sha256": "41016a9ee1cd829877b00b2cee0ac3bbcabf58778c840b164d2289ad86d5ee66",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -170,25 +224,93 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "41016a9ee1cd829877b00b2cee0ac3bbcabf58778c840b164d2289ad86d5ee66",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21554",
       "sha256": "682cb05788c135cd3a9d5bb4df25e247975cf5cd758bbf596a9720672a9a5947",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18512",
       "sha256": "3f9d72089c843bc2a51545cfa273e75028f477a57bdfe70a901d20eb42564d60",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0801.1278"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1309.3419"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.06322"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1703.06617"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.01463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1803.10880"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1812.06769"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.12024"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -205,7 +327,15 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

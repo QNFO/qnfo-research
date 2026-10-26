@@ -41,29 +41,27 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
         },
         {
           "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         },
         {
           "@id": "writer-c-draft.md"
@@ -75,6 +73,12 @@
         },
         {
           "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
         }
       ]
     },
@@ -183,6 +187,56 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "955",
+      "sha256": "dfc5c1fa1ffacfa37ddcdb2a5ac7c021cc99fb2238e388215d795124a28f0448",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4953",
+      "sha256": "c913fb1769a388664a1988bac0e041afa5bb1cdcddebe3761139e8e29002aec8",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1727",
+      "sha256": "6cfbefd2484c97a9707e243eb50965ac9757a066ad2f0d5a67fadd8cc859ef63",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19752",
+      "sha256": "6e68d754b49b1fc153f60bd7cb481b7610247ed34a0968afb2829c0fc16b2df6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16831",
+      "sha256": "2476318d4dac31f5015add9698021e8acc33fbd770df010d29ac53bc68aa642c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-c-draft.md",
       "@type": "File",
       "name": "writer-c-draft.md",
@@ -191,41 +245,6 @@
       "sha256": "ccb45d5dc8b85c0659a5ce70f8949b5fda0d292d566f62542f979a48065a04e4",
       "qnfo:role": "draft",
       "qnfo:listedInManifest": true
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "dfc5c1fa1ffacfa37ddcdb2a5ac7c021cc99fb2238e388215d795124a28f0448",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
-      "name": "verification.md",
-      "sha256": "c913fb1769a388664a1988bac0e041afa5bb1cdcddebe3761139e8e29002aec8",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
-      "name": "verification.py",
-      "sha256": "6cfbefd2484c97a9707e243eb50965ac9757a066ad2f0d5a67fadd8cc859ef63",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-a-draft.md",
-      "sha256": "6e68d754b49b1fc153f60bd7cb481b7610247ed34a0968afb2829c0fc16b2df6",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-b-draft.md",
-      "sha256": "2476318d4dac31f5015add9698021e8acc33fbd770df010d29ac53bc68aa642c",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
     },
     {
       "@id": "#grounding",
@@ -283,6 +302,12 @@
       },
       "result": [
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
           "@id": "writer-c-draft.md"
         }
       ],
@@ -295,6 +320,59 @@
           "@id": "grounding.md"
         }
       ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-18T18:31:36+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

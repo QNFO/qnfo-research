@@ -53,20 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -76,9 +68,21 @@
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
         {
           "@id": "#review"
         },
@@ -130,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-"
     },
     {
+      "@id": "https://arxiv.org/abs/1201.0863",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1201.0863"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.01530",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.01530"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.03814",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.03814"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.14356",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.14356"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.01090",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.01090"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.00981",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.00981"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2308.04871",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2308.04871"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2308.14122",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2308.14122"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +181,16 @@
       "contentSize": "880",
       "sha256": "97394e320cee8d0b6dfb3c936a00ac7583c2f7f238ce6166bced00c72d2705d1",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "71419",
+      "sha256": "28f13acd273373ce41b79995c2ebc1ffb613266c72d03a1b58bbfac93dc9a34a",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -170,25 +224,93 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "28f13acd273373ce41b79995c2ebc1ffb613266c72d03a1b58bbfac93dc9a34a",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27004",
       "sha256": "425bbec923ec067ebfc75283495c50c63f503723fb5c412959e927ed51bcddfc",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26203",
       "sha256": "2e4fd48ba7b49b6c7b950b8e112c38abd130b90a2af3135bc7a50baa3abeb825",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1201.0863"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.01530"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.03814"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.14356"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.01090"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.00981"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2308.04871"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2308.14122"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -205,7 +327,15 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

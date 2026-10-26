@@ -53,20 +53,15 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/writer-c-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
         },
         {
           "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
         },
         {
           "@id": "verification.md"
@@ -79,6 +74,9 @@
         },
         {
           "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
       "mentions": [
@@ -87,6 +85,9 @@
         },
         {
           "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
         },
         {
           "@id": "#verification-original"
@@ -191,6 +192,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2198",
+      "sha256": "97795f47d085995d758996476f3f1d141ab7203fa5c4802e67e832c2ecac3f18",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "verification.md",
       "@type": "File",
       "name": "verification.md",
@@ -231,18 +242,14 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "97795f47d085995d758996476f3f1d141ab7203fa5c4802e67e832c2ecac3f18",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-c-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-c-draft.md",
+      "@type": "File",
       "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18040",
       "sha256": "97988d519af439d022de16dfa145a9cc1dce750822199dd624269c9d47863c27",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#grounding",
@@ -298,6 +305,9 @@
         },
         {
           "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
       "actionStatus": {
@@ -307,6 +317,34 @@
       "object": [
         {
           "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ]
     },

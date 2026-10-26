@@ -41,14 +41,6 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/cerebral-surge-as-a-mechanistic-generator-of-near-death-experience-narratives-in"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
@@ -63,7 +55,13 @@
           "@id": "verification.md"
         },
         {
+          "@id": "verification.py"
+        },
+        {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
@@ -75,6 +73,9 @@
         },
         {
           "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
         }
       ]
     },
@@ -198,6 +199,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3877",
+      "sha256": "c1369ae71732bbae706b8836ae9080dcb62a0ae0be8ae1a87a9f31055aeb6608",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-a-draft.md",
       "@type": "File",
       "name": "writer-a-draft.md",
@@ -208,18 +219,14 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
-      "name": "verification.py",
-      "sha256": "c1369ae71732bbae706b8836ae9080dcb62a0ae0be8ae1a87a9f31055aeb6608",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28764",
       "sha256": "0c39fc109b3cb1c44a83567f4c48c43be0bded9afbd2fc4e4b4e9b23fb239113",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#grounding",
@@ -275,6 +282,9 @@
       "result": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
@@ -306,8 +316,36 @@
       "object": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T12:31:00+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

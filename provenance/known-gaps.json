@@ -3,22 +3,6 @@
   "as_of": "2026-10-26",
   "gaps": [
     {
-      "id": "GAP-MISS-56818849bf",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-214/cerebral-surge-as-a-mechanistic-generator-of-near-death-experience-narratives-in",
-      "files": [
-        "verification.py",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "verification.py": "c1369ae71732bbae706b8836ae9080dcb62a0ae0be8ae1a87a9f31055aeb6608",
-        "writer-b-draft.md": "0c39fc109b3cb1c44a83567f4c48c43be0bded9afbd2fc4e4b4e9b23fb239113"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
       "id": "GAP-MISS-592d1ca51a",
       "kind": "manifest-file-missing",
       "path": "runs/cycle-300/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
@@ -34,163 +18,22 @@
       },
       "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
       "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-640799f211",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-324/factorization-barriers-as-trapping-of-random-walks-on-bruhat-tits-trees",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "41016a9ee1cd829877b00b2cee0ac3bbcabf58778c840b164d2289ad86d5ee66",
-        "writer-a-draft.md": "682cb05788c135cd3a9d5bb4df25e247975cf5cd758bbf596a9720672a9a5947",
-        "writer-b-draft.md": "3f9d72089c843bc2a51545cfa273e75028f477a57bdfe70a901d20eb42564d60"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-64b0d971ce",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-182/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses",
-      "files": [
-        "review-report.md",
-        "verification.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "review-report.md": "dfc5c1fa1ffacfa37ddcdb2a5ac7c021cc99fb2238e388215d795124a28f0448",
-        "verification.md": "c913fb1769a388664a1988bac0e041afa5bb1cdcddebe3761139e8e29002aec8",
-        "verification.py": "6cfbefd2484c97a9707e243eb50965ac9757a066ad2f0d5a67fadd8cc859ef63",
-        "writer-a-draft.md": "6e68d754b49b1fc153f60bd7cb481b7610247ed34a0968afb2829c0fc16b2df6",
-        "writer-b-draft.md": "2476318d4dac31f5015add9698021e8acc33fbd770df010d29ac53bc68aa642c"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-67de0d21aa",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-290/non-computable-reals-as-projection-artifacts-a-reconciled-framework-for-tree-to-",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "28f13acd273373ce41b79995c2ebc1ffb613266c72d03a1b58bbfac93dc9a34a",
-        "writer-a-draft.md": "425bbec923ec067ebfc75283495c50c63f503723fb5c412959e927ed51bcddfc",
-        "writer-b-draft.md": "2e4fd48ba7b49b6c7b950b8e112c38abd130b90a2af3135bc7a50baa3abeb825"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-690b980531",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-378/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "d3971f71904be1efd1e8b3534001c5e7cd809403393edb03bfd84f11fb55f6cf",
-        "writer-a-draft.md": "b1a9d5fd309a2ea40e15824507a741377d054f2c58aaf16d33c4f5805dd269bd"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-71ba08332f",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-247/monna-map-projection-of-ultrametric-thought-as-a-geometric-explanation-for-hallu",
-      "files": [
-        "review-report.md",
-        "verification.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "review-report.md": "f48dbd457e2f7d420dd3ce808e4111af1cfd1758fff953e8e55a07a10b592d5a",
-        "verification.md": "c39a9467db40a82e75cadc28102007191d7ac54743d14f21e70168f9803da967",
-        "writer-a-draft.md": "0c516cafa5c1b906c6da53b336a1a51512bdc63a6a81161843842ff0d6acb161",
-        "writer-b-draft.md": "59d3c10f73d25141180f68e122076a05a1cec6d6f32185abc5f3836a7442ca8e"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-76cfb64354",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-216/a-universal-adelic-normalization-principle-ostrowski-s-product-formula-and-ono-s",
-      "files": [
-        "review-report.md"
-      ],
-      "expected_sha256": {
-        "review-report.md": "5f43caf0c8edaf715ed0272018498960f68af906abfa3d2df474da61cc11e436"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-781b4f2470",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-47/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
-      "files": [
-        "review-report.md",
-        "writer-c-draft.md"
-      ],
-      "expected_sha256": {
-        "review-report.md": "97795f47d085995d758996476f3f1d141ab7203fa5c4802e67e832c2ecac3f18",
-        "writer-c-draft.md": "97988d519af439d022de16dfa145a9cc1dce750822199dd624269c9d47863c27"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-7821dcd768",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-231/cocycle-solving-in-cognition-ultrametric-reaction-times-and-analogy-depth",
-      "files": [
-        "grounding.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "fdeb83442c9d6748b797e90f645fab9c2cccf78826a1ec75437368fa245c96da"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
+      "status": "unrecoverable",
+      "unrecoverable": {
+        "review-report.md": "the copy in R2 is a different version (its hash differs from the manifest's)",
+        "verification.py": "the copy in R2 is a different version (its hash differs from the manifest's)",
+        "writer-b-draft.md": "the copy in R2 is a different version (its hash differs from the manifest's)"
+      }
     },
     {
       "id": "GAP-MISS-7f0d7f85d3",
       "kind": "manifest-file-missing",
       "path": "runs/cycle-35/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres",
       "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "writer-a-draft.md",
         "writer-b-draft.md",
         "writer-c-draft.md"
       ],
       "expected_sha256": {
-        "grounding.md": "cc244e2289a76dcf73bdf6bd4b4ad3da89afa67c503cd08043d91f8eeb4ab461",
-        "review-report.md": "874fbe715c0dcf79ca3404a09140874f8954f1ed3f7e77e18e68c9510eca2ecb",
-        "verification.md": "05d6adc42baf0425e0627b796aba785af91ccdcc366366ca312aa2551fc08944",
-        "writer-a-draft.md": "5d77c93e7a8ea107b2f957f186b69f8183c025553c663585a25530efe2274157",
         "writer-b-draft.md": "85f575c3561e513f670b158197c5af5d83a6c5bdb8a3d7dbdf9e932cb8caacbf",
         "writer-c-draft.md": "a5b2ca93ebeb06c693969ab5f1c34de6ed7692f6560401f174faa3d6cb93fd86"
       },
@@ -1143,20 +986,6 @@
       ],
       "runs": [
         "runs/cycle-196/adelic-ruler-independence-and-rationality-of-standard-model-parameters"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
-      "id": "GAP-PAPER-032a4dcb4f",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence",
-      "files": [
-        "papers/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-28/boundary-crossing-paths-as-a-local-computable-bound-on-network-emergence"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
