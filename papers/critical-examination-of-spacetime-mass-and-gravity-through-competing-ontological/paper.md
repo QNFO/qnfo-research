@@ -19,10 +19,10 @@ modified: 2025-08-03T15:10:31Z
 
 [Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](https://qnfo.org/)
 ORCID: [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-DOI: [10.5281/zenodo.16732364](http://doi.org/10.5281/zenodo.16732364)
+DOI: https://papers.qnfo.org/papers
 
 *Related Works:*
--   *A Critical Examination of Spacetime, Mass, and Gravity through a Meta-Analysis of Competing Ontological Frameworks ([DOI: 10.5281/zenodo.16730345](http://doi.org/10.5281/zenodo.16730345)*
+- *A Critical Examination of Spacetime, Mass, and Gravity through a Meta-Analysis of Competing Ontological Frameworks ([https://papers.qnfo.org/papers](https://papers.qnfo.org/papers)*
 
 ---
 
@@ -295,7 +295,6 @@ The growing volume and diversity of observed “black swans” strongly indicate
 A clear imperative for future research is the development of a new, truly unified theoretical framework to reconcile quantum mechanics and gravity. This framework must inherently resolve profound contradictions and inconsistencies that challenge H0, such as the Black Hole Information Paradox and the Problem of Time. Potential theoretical avenues include emergent spacetime, where space and time arise from deeper principles; informational foundations of reality, positing information as a primary physical quantity; and non-commutative geometries, which could naturally integrate quantum uncertainty into the fabric of spacetime. The path forward demands not merely more data, but a profound conceptual leap. This signifies the potential end of the “paradigm of patches” and the beginning of a truly coherent theory of everything, fundamentally reshaping our scientific worldview. Continued high-precision empirical tests, spanning all scales from the subatomic to the cosmological, coupled with rigorous interdisciplinary collaboration, will be crucial to probe H0’s limits and guide the development of a more complete and coherent description of the universe.
 
 ---
-#
 ## Changelog
 
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.

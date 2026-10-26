@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cross-ratio-invariants-as-a-formal-measure-for-translation-fidelity-and-analogic",
+  "paper": {
+    "path": "papers/cross-ratio-invariants-as-a-formal-measure-for-translation-fidelity-and-analogic/paper.md",
+    "title": "Cross‑Ratio Invariants as a Formal Measure for Translation Fidelity and Analogical Reasoning",
+    "url": "https://papers.qnfo.org/papers/cross-ratio-invariants-as-a-formal-measure-for-translation-fidelity-and-analogic"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cross-ratio-invariants-as-a-formal-measure-for-translation-fidelity-and-analogic"
+  },
+  "snapshots": [
+    {
+      "sha256": "bf859ecfb9b304e666a10c179c276ede0c35d430375c3a6dbb35cfa815dd86be",
+      "bytes": 24602,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

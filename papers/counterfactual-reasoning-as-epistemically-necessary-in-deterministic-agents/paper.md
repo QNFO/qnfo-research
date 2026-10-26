@@ -275,35 +275,3 @@ We have shown that, even in a hard‑deterministic world, maintaining an epistem
 [8] From Propositional Logic to Plausible Reasoning: A Uniqueness Theorem. arXiv:1706.05261v1. https://arxiv.org/abs/1706.05261v1
 [9] https://papers.qnfo.org/papers/emergent-correlation-in-a-local-deterministic-universe. QNFO: EMERGENT CORRELATION IN A LOCAL-DETERMINISTIC UNIVERSE.
 [11] https://papers.qnfo.org/papers/huang-2025-quantum-advantage-audit. QNFO: The Vast World of Quantum Advantage — A Full-Spectrum Audit.
-
-## Appendix A. Divergence report
-| Divergence | Draft A position | Draft B position | Convention adopted in reconciled paper |
-|------------|------------------|------------------|----------------------------------------|
-| Theorem statement | Strict advantage over *any* collapsed policy (Theorem 1) | Weak dominance with explicit equality condition (Theorem 1) | Adopt the weak‑dominance formulation with equality clause (Draft B). |
-| Number of cited works | Eight works cited in Section 2 | Eleven works cited in Section 2 (adds [9]–[11]) | Include all eleven works, each with a specific point, to satisfy the “at least eight” requirement. |
-| Numerical examples | Asymmetric example (2.8‑unit gain) only | Four scenarios (0, 2.8, $\approx 4.2$, 0) including Bayesian update | Retain all four scenarios; the additional examples illustrate the equality condition and Bayesian update. |
-| Presentation of payoff matrix | Fixed matrix with collapsed agent assumed to select \(u_{1}\) | Same matrix but also consider collapsed agent selecting \(u_{0}\) (optimal case) | Present both collapsed‑guess choices to demonstrate equality and strict cases. |
-| Treatment of prior | Uniform prior mentioned only in symmetric case | Uniform prior explicitly stated in Scenario 1; Bayesian update detailed in Scenario 3 | Keep both treatments as they support different scenarios. |
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source draft(s) | Agreement status |
-|----------|-----------|-----------------|------------------|
-| C1 | Deterministic agents with bounded knowledge can be modeled as a dynamical system with hidden variables \(H\). | A, B | CONVERGENT |
-| C2 | The agent maintains an epistemic‑possibility distribution \(P(H\mid o)\) over hidden states. | A, B | CONVERGENT |
-| C3 | The aware policy selects the action maximizing \(\mathbb{E}[U\mid u,o]\). | A, B | CONVERGENT |
-| C4 | A collapsed policy commits to a single deterministic guess and selects a fixed action. | A, B | CONVERGENT |
-| C5 | Theorem 1 (weak dominance): \(\mathbb{E}[U\mid u^{*},o]\ge\mathbb{E}[U\mid u_{\text{col}},o]\) with equality iff \(u_{\text{col}}\) is an expected‑utility maximizer. | B (corrected) | SINGLE (adopted) |
-| C6 | In the symmetric binary case, both actions yield expected utility 5, giving \(\Delta_{\text{EU}}=0\). | A (implicit), B (explicit) | CONVERGENT |
-| C7 | In the asymmetric case with \(P(h_{0})=0.7, P(h_{1})=0.3\) and payoff matrix \(\{8,2,1,9\}\), the aware policy gains 2.8 utility units over a collapsed policy that always selects \(u_{1}\). | A, B | CONVERGENT |
-| C8 | After observing a signal of accuracy 0.8, the posterior \(P(h_{0}\mid s_{0})\approx0.9032\) yields an advantage of approximately 4.2 utility units. | B only | SINGLE (retained) |
-| C9 | If the collapsed policy already selects the expected‑utility‑maximizing action, the advantage is zero. | B only | SINGLE (retained) |
-| C10 | Maintaining the belief vector requires \(|\mathcal{H}|\) floating‑point numbers (e.g., 10 states → 80 bytes). | A, B | CONVERGENT |
-| C11 | Expected‑utility computation requires \(|\mathcal{U}|\times|\mathcal{H}|\) multiplications per decision (e.g., 5 × 10 = 50 ops). | A, B | CONVERGENT |
-| C12 | The work resides at TRL 2 because it is purely analytical and unreviewed. | A, B | CONVERGENT |
-| C13 | The minimal experiment is a deterministic grid‑world with hidden traps, comparing aware and collapsed agents over \(10^{5}\) steps. | A, B | CONVERGENT |
-| C14 | Risks include misuse of counterfactual explanations to obscure accountability. | A, B | CONVERGENT |
-| C15 | The eight (actually eleven) cited works each provide a concrete point used in Section 2. | A (8 works), B (11 works) | DIVERGENT (number of works) – reconciled by including all eleven. |
-| C16 | Theorem 1 in Draft A claimed strict advantage over any collapsed policy, which is false in equality cases. | A | SINGLE (replaced by corrected theorem). |
-| … | … | … | … |
-
-(Only a representative subset of claims is listed; all other substantive statements in the paper follow the same attribution pattern.)

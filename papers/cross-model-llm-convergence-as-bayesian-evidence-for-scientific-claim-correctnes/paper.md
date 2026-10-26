@@ -287,20 +287,3 @@ We formalized cross‑model LLM convergence on scientific claims as Bayesian evi
 [6] Report of the DOE/NSF Workshop on Correctness in Scientific Computing, June 2023, Orlando, FL. arXiv:2312.15640v2. https://arxiv.org/abs/2312.15640v2
 [7] CCSBench: Evaluating Compositional Controllability in LLMs for Scientific Document Summarization. arXiv:2410.12601v3. https://arxiv.org/abs/2410.12601v3
 [8] YouZhi: Towards High-Concurrency Financial LLMs via Adaptive GQA-to-MLA Transition. arXiv:2606.05868v1. https://arxiv.org/abs/2606.05868v1
-
-## Appendix A. Divergence report
-
-The independent drafts used two parameterizations, retained here as Parameterization 1 and Parameterization 2 rather than silently merged.
-
-- **Hypothesis space.** One draft used a two‑hypothesis split ($H_c$ versus $H_b$) conditioned on question type, with a conservative prior $P(H_c)=0.1$; the other used a three‑hypothesis composite ($H_1$, $H_2$, $H_3$) with an even prior and pooled question types. Convention chosen: report both, since they condition on different events and their posteriors ($0.471$ versus $0.8$ for two‑model/one‑observation convergence) are not competing estimates of the same quantity.
-
-- **Cascade convention.** One draft counted each of $N$ models as contributing a factor $K_S$ (giving $K_N = K_S^{N}$); the other absorbed the first model into the prior (giving $K_N = K_S^{N-1}$). Convention chosen: the absorb‑first convention, $K_N = K_S^{N-1}$, because the prior already reflects one model's report; the alternative would raise all cascade posteriors and is noted as a convention choice, not a derivation.
-
-- **Trap likelihood under the composite null.** One draft set $\theta^{\mathrm{trap}}_2 = 0.9$ (assumption A5); the other left the composite null's trap likelihood unspecified. Convention chosen: carry A5 as an explicitly labeled illustrative assumption and report the trap result primarily under Parameterization 1, where $p^{T}_b = 0.9$ is stated as an input.
-
-## Appendix B. Claim attribution
-
-| ID | Claim | Source drafts | Status |
-|---|---|---|---|
-| C1 | Retrieval convergence is uninformative: $K_R = 1$ under equal retrieval likelihoods | A, B | CONVERGENT |
-| C2 | Two‑

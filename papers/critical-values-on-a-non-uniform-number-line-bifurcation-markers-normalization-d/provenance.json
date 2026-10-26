@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d",
+  "paper": {
+    "path": "papers/critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d/paper.md",
+    "title": "Critical Values on a Non-Uniform Number Line: Bifurcation Markers, Normalization Dependence, and the Conjectured Specialness of Physical Constants",
+    "url": "https://papers.qnfo.org/papers/critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "critical-values-on-a-non-uniform-number-line-bifurcation-markers-normalization-d"
+  },
+  "snapshots": [
+    {
+      "sha256": "e4b9fc647f3b8312d9b3f01fa36ce6ed4e8a1d5fc3d3964a1229d08151cb1d40",
+      "bytes": 35306,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

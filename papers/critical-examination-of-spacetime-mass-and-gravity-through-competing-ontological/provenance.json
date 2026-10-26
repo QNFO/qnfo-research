@@ -3,7 +3,7 @@
   "slug": "critical-examination-of-spacetime-mass-and-gravity-through-competing-ontological",
   "paper": {
     "path": "papers/critical-examination-of-spacetime-mass-and-gravity-through-competing-ontological/paper.md",
-    "title": null,
+    "title": "Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks",
     "url": "https://papers.qnfo.org/papers/critical-examination-of-spacetime-mass-and-gravity-through-competing-ontological"
   },
   "declared": {
@@ -13,14 +13,6 @@
       {
         "doi": "10.5281/zenodo.22737538",
         "source": "README.md"
-      },
-      {
-        "doi": "10.5281/zenodo.16732364",
-        "source": "paper.md"
-      },
-      {
-        "doi": "10.5281/zenodo.16730345",
-        "source": "paper.md"
       }
     ]
   },
@@ -37,6 +29,14 @@
       "basis": "backfill",
       "version": "2.0.0",
       "git_commit": "68618485f7d19339505398ed02cfd099866773b4"
+    },
+    {
+      "sha256": "4cb420e7be8f47df8f26c83ad412143a1a4f6a06db9e71afc25fcb38672e671d",
+      "bytes": 66830,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "counteracting-credibility-barriers-to-the-adoption-of-cross-cutting-formalisms-a",
+  "paper": {
+    "path": "papers/counteracting-credibility-barriers-to-the-adoption-of-cross-cutting-formalisms-a/paper.md",
+    "title": "Counteracting Credibility Barriers to the Adoption of Cross‑Cutting Formalisms: A Reputation‑Dynamics Model",
+    "url": "https://papers.qnfo.org/papers/counteracting-credibility-barriers-to-the-adoption-of-cross-cutting-formalisms-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "counteracting-credibility-barriers-to-the-adoption-of-cross-cutting-formalisms-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "28df6e62cf3ed233ed8d78bc1d5112fac0c0fddb64df98f1069e8cc5fa0c423b",
+      "bytes": 30861,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
