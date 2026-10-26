@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco",
+  "paper": {
+    "path": "papers/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco/paper.md",
+    "title": "What Must a Quantum-Memory Decoder Know About Temporally Correlated Noise? A Reconciled Exposition and Cost Accounting",
+    "url": "https://papers.qnfo.org/papers/what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "what-must-a-quantum-memory-decoder-know-about-temporally-correlated-noise-a-reco"
+  },
+  "snapshots": [
+    {
+      "sha256": "9ae7d3bae79f25083c306e8a557818161d401df769e96564792af6e9f5a49a1f",
+      "bytes": 32557,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

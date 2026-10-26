@@ -276,24 +276,3 @@ We audited the claim that the nat is a “genuinely natural” information measu
 [6] Recommended Implementation of Quantitative Susceptibility Mapping for Clinical Research in The Brain: A Consensus of the ISMRM Electro-Magnetic Tissue Properties Study Group. arXiv:2307.02306v1. https://arxiv.org/abs/2307.02306v1
 [7] The Effect of Intrinsic Dataset Properties on Generalization: Unraveling Learning Differences Between Natural and Medical Images. arXiv:2401.08865v3. https://arxiv.org/abs/2401.08865v3
 [8] https://papers.qnfo.org/papers/emergence-of-physics. QNFO: Emergence of Physics.
-
-## Appendix A. Divergence report
-
-One divergence was identified across the independent drafts and resolved as follows. **D1 (Gaussian differential entropy rounding):** one draft reported the unit‑variance Gaussian differential entropy as $1.4189385$ nats while the derivation chain in Section 4.4 yields $1.4189386$ nats at the paper’s stated precision. The disagreement is a rounding‑convention choice: the underlying value $\tfrac12\ln(2\pi e)\approx1.4189385\ldots$ rounds differently depending on where intermediate products are truncated. Convention adopted: the value produced by the paper’s own shown arithmetic chain, $1.4189386$ nats, is used consistently in the Abstract, Section 4.4, and Results R4. No other divergences among drafts were substantive; corpus composition, conversion constants, and the C4 conclusion were convergent.
-
-## Appendix B. Claim attribution
-
-| Claim | Source drafts | Agreement |
-|---|---|---|
-| C1: $\ln 2 = 0.6931471808$ via the $\mathrm{artanh}(1/3)$ series | A, B, C | CONVERGENT |
-| C2: $\log_{2}e = 1.4426950$; one bit $= 0.6931471808$ nats | A, B, C | CONVERGENT |
-| C3: fair‑coin entropy $= 1$ bit $= \ln 2$ nats | A, B | CONVERGENT |
-| C4: uniform‑over‑3 entropy $\approx 1.0986123$ nats $= 1.5849625$ bits | A, B | CONVERGENT |
-| C5: entropy ratio $H_{e}/H_{2} = \ln 2$ is distribution‑independent | A, B, C | CONVERGENT |
-| C6: Gaussian differential entropy $\approx 1.4189386$ nats $= 2.0470956$ bits | A, B, C | CONVERGENT (value; rounding DIVERGENT, see Appendix A) |
-| C7: differential entropy shifts by $\ln a$ under $Y = aX$; failure is base‑independent | A, B, C | CONVERGENT |
-| C8: C4 (discrimination) fails; bit–nat difference is purely conventional | A, B, C | CONVERGENT |
-| C9: corpus composition $62.5\%$ language‑focused, $25\%$ imaging/measurement‑focused, $12.5\%$ information‑theory‑focused | A, B | CONVERGENT (after correction, see Appendix A) |
-| C10: three‑sense taxonomy of “natural” (mathematical, sociolinguistic, distributional) | A, B, C | CONVERGENT |
-| C11: credibility route via standardization/reproducibility, per [7] | A, C | CONVERGENT |
-| C12: Gaussian value reported as $1.4189385$ nats in the Abstract | A | SINGLE (resolved to $1.4189386$ nats, Appendix A) |

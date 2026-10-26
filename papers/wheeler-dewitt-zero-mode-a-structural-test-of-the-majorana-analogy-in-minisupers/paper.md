@@ -163,20 +163,3 @@ We have subjected the conjecture that the Wheeler–DeWitt zero‑mode constitut
 [6] Majorana zero mode-soliton duality and in-gap and BIC bound states in modified Toda model coupled to fermion. arXiv:2207.01161v2. https://arxiv.org/abs/2207.01161v2
 [7] Emergent vortex Majorana zero mode in iron-based superconductors. arXiv:2108.12850v1. https://arxiv.org/abs/2108.12850v1
 [8] https://papers.qnfo.org/papers/zbw-p5-capstone-synthesis. QNFO: Vanishing ZBW Signal: The ZBW-Majorana Hypothesis as a Unified Framework for Topological Fermion Distinction.
-
-## Appendix A. Divergence report
-The three independent drafts presented conflicting conclusions regarding the Majorana nature of the Wheeler–DeWitt zero‑mode. Draft A argued that the hidden $U(1,1)$ symmetry implements a particle‑hole‑like involution, computes a finite‑volume scale $F L\approx36.6$, and concludes that the WDW zero‑mode can be interpreted as a Majorana‑type topological zero mode. Draft B performed a structural test and concluded that the WDW zero‑mode **fails** all three defining criteria of a Majorana zero mode (particle–hole symmetry, non‑zero index, spectral isolation). Draft C (not provided) did not introduce additional divergent claims.
-
-**Chosen convention.** For the reconciled manuscript we adopt the convention of Draft B: the Wheeler–DeWitt zero‑mode does **not** satisfy the Majorana criteria. Consequently, quantitative benchmarks that were not grounded in the supplied bibliography (the $F L$ and $T$ numbers) have been removed, and the analysis is presented under the negative conclusion.
-
-## Appendix B. Claim attribution
-| Claim | Source drafts | Agreement |
-|-------|---------------|-----------|
-| C1 – $U(1,1)$ generators implement a particle‑hole‑like involution but not a genuine BdG particle–hole symmetry | A, B | CONVERGENT (both derive the involution; B adds the failure of the BdG condition) |
-| C2 – Fredholm index of the WDW operator is zero | B | SINGLE (only B derives the index) |
-| C3 – $E=0$ is not an isolated spectral point; benchmark splitting $e^{-10}=4.54\times10^{-5}$ | B | SINGLE |
-| C4 – Smallest next experiment: numerical diagonalisation of deformed WDW operator | A, B | CONVERGENT |
-| C5 – Limitations L1–L4 listed in Discussion | A, B | CONVERGENT |
-| C6 – Falsifiability condition (zero‑mode eigenvalue remains zero under deformation) | A, B | CONVERGENT |
-| C7 – Real‑world problem statement and cost/impact discussion | A, B | CONVERGENT |
-| C8 – Practical implications and engineering pathway structure | A, B | CONVERGENT |

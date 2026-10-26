@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "when-reconstruction-knowledge-exceeds-system-information-thermodynamic-and-algor",
+  "paper": {
+    "path": "papers/when-reconstruction-knowledge-exceeds-system-information-thermodynamic-and-algor/paper.md",
+    "title": "When Reconstruction Knowledge Exceeds System Information: Thermodynamic and Algorithmic Limits",
+    "url": "https://papers.qnfo.org/papers/when-reconstruction-knowledge-exceeds-system-information-thermodynamic-and-algor"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "when-reconstruction-knowledge-exceeds-system-information-thermodynamic-and-algor"
+  },
+  "snapshots": [
+    {
+      "sha256": "0db320d645b602399ec8a5e10cd984c54b5d7a3a34d88bb02f624913690aafaf",
+      "bytes": 27599,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
