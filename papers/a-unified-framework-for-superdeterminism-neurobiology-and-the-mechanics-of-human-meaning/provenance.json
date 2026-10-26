@@ -3,7 +3,7 @@
   "slug": "a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning",
   "paper": {
     "path": "papers/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning/paper.md",
-    "title": null,
+    "title": "A Unified Framework for Superdeterminism, Neurobiology, and the Mechanics of Human Meaning",
     "url": "https://papers.qnfo.org/papers/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "28ffcd7ee21c40ea6114a01b77858225f7cafdc9"
+    },
+    {
+      "sha256": "eec88c93c72c183c849acf1234b80aeac035737f7f8c4a96063756fe1f56adbc",
+      "bytes": 24630,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

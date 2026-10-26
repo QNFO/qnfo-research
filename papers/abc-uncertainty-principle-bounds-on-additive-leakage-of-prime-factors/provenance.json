@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors",
+  "paper": {
+    "path": "papers/abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors/paper.md",
+    "title": "abc‑Uncertainty Principle Bounds on Additive Leakage of Prime Factors",
+    "url": "https://papers.qnfo.org/papers/abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors"
+  },
+  "snapshots": [
+    {
+      "sha256": "3c2ebdb758e804db8606180dc32032e47400b86a3ee44d6f5a574fb1fce389e4",
+      "bytes": 31792,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

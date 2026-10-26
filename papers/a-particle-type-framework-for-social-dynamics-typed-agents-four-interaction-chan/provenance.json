@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan",
+  "paper": {
+    "path": "papers/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan/paper.md",
+    "title": "A Particle-Type Framework for Social Dynamics: Typed Agents, Four Interaction Channels, and a Quantitative Design Study",
+    "url": "https://papers.qnfo.org/papers/a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-particle-type-framework-for-social-dynamics-typed-agents-four-interaction-chan"
+  },
+  "snapshots": [
+    {
+      "sha256": "1eb76b77a325bd37bfde3c6e73bb0e35c3432e74c4944a7827ff57b7c4455d96",
+      "bytes": 35942,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

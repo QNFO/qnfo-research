@@ -101,7 +101,3 @@ The proposed structure contains exactly 7 chapters. Each chapter contains exactl
 
 **STRUCTURE PLANNING COMPLETE - PROCEED TO CONTENT DEVELOPMENT**
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-

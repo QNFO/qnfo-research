@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-two-index-framework-for-the-bulk-boundary-correspondence-of-anyon-condensation",
+  "paper": {
+    "path": "papers/a-two-index-framework-for-the-bulk-boundary-correspondence-of-anyon-condensation/paper.md",
+    "title": "A Two-Index Framework for the Bulk-Boundary Correspondence of Anyon Condensation and Boundary Majorana Statistics",
+    "url": "https://papers.qnfo.org/papers/a-two-index-framework-for-the-bulk-boundary-correspondence-of-anyon-condensation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-two-index-framework-for-the-bulk-boundary-correspondence-of-anyon-condensation"
+  },
+  "snapshots": [
+    {
+      "sha256": "ef8d814a1cd60b9b8f5684c89218bf454791c0ee074fba3360156ed3cc3ab12b",
+      "bytes": 28392,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
