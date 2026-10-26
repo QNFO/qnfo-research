@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-trees-as-a-universal-signature-of-recursive-individuation-across-phy",
+  "paper": {
+    "path": "silent-radix/ultrametric-trees-as-a-universal-signature-of-recursive-individuation-across-phy/paper.md",
+    "title": "Ultrametric Trees as a Universal Signature of Recursive Individuation Across Physical, Biological, and Cognitive Domains",
+    "url": "https://papers.qnfo.org/papers/ultrametric-trees-as-a-universal-signature-of-recursive-individuation-across-phy"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-trees-as-a-universal-signature-of-recursive-individuation-across-phy"
+  },
+  "snapshots": [
+    {
+      "sha256": "0fcc900a43401d8bda581e9453f58b2021f6e2151cf0f30df807b9e0ebfd8746",
+      "bytes": 32496,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
