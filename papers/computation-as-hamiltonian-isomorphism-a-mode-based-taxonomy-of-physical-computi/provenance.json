@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "computation-as-hamiltonian-isomorphism-a-mode-based-taxonomy-of-physical-computi",
+  "paper": {
+    "path": "papers/computation-as-hamiltonian-isomorphism-a-mode-based-taxonomy-of-physical-computi/paper.md",
+    "title": "Computation as Hamiltonian Isomorphism: A Mode-Based Taxonomy of Physical Computing Substrates",
+    "url": "https://papers.qnfo.org/papers/computation-as-hamiltonian-isomorphism-a-mode-based-taxonomy-of-physical-computi"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "computation-as-hamiltonian-isomorphism-a-mode-based-taxonomy-of-physical-computi"
+  },
+  "snapshots": [
+    {
+      "sha256": "28d1b6cfe2f6e8176c84458a750a2bd9ee7e0ddd7eb3c56d5373aad0a8197a18",
+      "bytes": 46155,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

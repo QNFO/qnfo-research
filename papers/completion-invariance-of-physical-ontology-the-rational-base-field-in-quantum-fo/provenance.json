@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+  "paper": {
+    "path": "papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo/paper.md",
+    "title": "Completion-Invariance of Physical Ontology: The Rational Base Field in Quantum Foundations",
+    "url": "https://papers.qnfo.org/papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo"
+  },
+  "snapshots": [
+    {
+      "sha256": "d2ef3758538e3ef44304f4cd360a824ab9f2cd6a7694bbaa9645cba3c012a21f",
+      "bytes": 31049,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even",
+  "paper": {
+    "path": "papers/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even/paper.md",
+    "title": "Compression Versus Consilience in Recursive Model-Generated Corpora: A Break-Even Analysis",
+    "url": "https://papers.qnfo.org/papers/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even"
+  },
+  "snapshots": [
+    {
+      "sha256": "5e57f6fd10ed6ceb39a8abc6736d71ebf3a8551dd234186c6a977b71e64f58cc",
+      "bytes": 35502,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

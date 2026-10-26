@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "constant-sized-support-magic-state-distillation-with-qubit-recycling-a-reconcile",
+  "paper": {
+    "path": "papers/constant-sized-support-magic-state-distillation-with-qubit-recycling-a-reconcile/paper.md",
+    "title": "Constant-Sized-Support Magic State Distillation with Qubit Recycling: A Reconciled Resource, Footprint, and Energy Analysis",
+    "url": "https://papers.qnfo.org/papers/constant-sized-support-magic-state-distillation-with-qubit-recycling-a-reconcile"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "constant-sized-support-magic-state-distillation-with-qubit-recycling-a-reconcile"
+  },
+  "snapshots": [
+    {
+      "sha256": "16b3ab5b3bbab852b6c95fb6c15c8ad8c1e7135f7aa5079c8991b95d53c56d99",
+      "bytes": 29489,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

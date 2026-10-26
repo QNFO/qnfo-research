@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun",
+  "paper": {
+    "path": "papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun/paper.md",
+    "title": "Corrected Condensation Indices and the Sixteen-Fold Way: A Quantitative Bulk-Boundary Dictionary for Ising-Type Anyon Condensates",
+    "url": "https://papers.qnfo.org/papers/corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "corrected-condensation-indices-and-the-sixteen-fold-way-a-quantitative-bulk-boun"
+  },
+  "snapshots": [
+    {
+      "sha256": "f76994f8f04daf1baf8d71a90d6cd088cbb8f3480873d315f3427984a21070a1",
+      "bytes": 26605,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
