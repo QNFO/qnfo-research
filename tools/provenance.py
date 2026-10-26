@@ -889,6 +889,7 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[
             obj, _ = read_json(mp)
             man = normalize_manifest(obj)
         legacy_prefix = rp[len("runs/"):]
+        prior_crate, _ = read_json(run / CRATE_FILE) if (run / CRATE_FILE).is_file() else (None, None)
         dep = None
         for cand in ("MANIFEST.json", "verification.md", "grounding.md"):
             if f"{legacy_prefix}/{cand}" in adds:
@@ -897,8 +898,12 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[
         if dep is None and adds:
             ds = [adds[k] for k in adds if k.startswith(legacy_prefix + "/")]
             dep = max(ds, key=lambda x: x[1]) if ds else None
+        if dep is None and isinstance(prior_crate, dict):
+            # the legacy history is not an ancestor yet (the import was squash-merged and not yet linked): keep what the crate recorded
+            old_root = next((e for e in prior_crate.get("@graph", []) if e.get("@id") == "./"), None)
+            if old_root and old_root.get("datePublished"):
+                dep = (old_root.get("qnfo:depositCommit"), old_root["datePublished"])
         repro = reproduce_run(repo, rp, (0, 1, 2)) if reproduce_runs and (run / "verification.py").is_file() else None
-        prior_crate, _ = read_json(run / CRATE_FILE) if (run / CRATE_FILE).is_file() else (None, None)
         if repro and unchanged_observation(prior_crate, repro):
             repro = None   # same outcome as the recorded re-execution: keep that record (date, interpreter) as it is
         crate = build_crate(repo, rp, man, dep, repro, observed_at, titles.get(run_paper.get(rp) or slug_of_run(rp) or ""),

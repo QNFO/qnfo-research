@@ -67,8 +67,9 @@ not exist, and nine records are that `NameError`, which a file-based re-run hide
 is listed in the portfolio as the research artifact repository, and is the target of the pipeline's second writer.
 `qnfo-ensemble-research` is imported with `git subtree add` (no squash) under `runs/`:
 
-* all **2,837** source commits are reachable (the merge's second parent is the ensemble head `5e41f98`); the repository
-  has 3,324 commits afterwards;
+* all **2,837** source commits are reachable from the pull request branch (the merge's second parent is the ensemble head `5e41f98`;
+  3,324 commits in total). The repository merges squash-only, which would drop them from `main`, so `ensemble-catchup.yml` links them to `main`
+  afterwards with a content-neutral merge (rehearsed on temporary clones: 3,325 commits reachable, empty diff) and imports newer cycles;
 * paths under `runs/` are the old paths, so no historical hash or manifest changes;
 * `LICENSE` was byte-identical and is not duplicated; the ensemble `README`, `PROVENANCE.md` and
   `RESEARCH-PROCEDURE.md` moved to `docs/` with `git mv`;

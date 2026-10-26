@@ -36,9 +36,12 @@ tools/provenance.py               verify | backfill | reproduce | index  (standa
 docs/                             this standard, the audit, the research procedure
 ```
 
-`runs/` keeps the ensemble repository's own paths (`cycle-N/<slug>/...`), so every hash in every historical manifest
-still resolves and `git log` on the imported history shows each file's original deposit commit (the subtree merge keeps
-the source history as its second parent; `provenance/IMPORT.json` names it).
+`runs/` keeps the ensemble repository's own paths (`cycle-N/<slug>/...`), so every hash in every historical manifest still
+resolves. The import is a `git subtree add` (no squash) that keeps all 2,837 source commits reachable from the pull request branch.
+This repository merges squash-only, which would drop them from `main`; `.github/workflows/ensemble-catchup.yml` therefore records the
+source history as a parent of `main` afterwards (`git merge -s ours`: no file changes) and imports whatever the legacy repository gained
+since. `provenance/IMPORT.json` names the source head and the commands. `git log` then shows each file's original deposit commit, and
+`backfill` reads deposit dates from it; until the link exists a crate keeps the date it already records.
 
 ### The join
 

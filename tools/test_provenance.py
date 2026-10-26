@@ -151,6 +151,20 @@ class TestVerify(Base):
         self.assertEqual(pv.backfill(self.repo(), "2026-11-30"), {"crates": 0, "papers": 0, "gaps": 0})
         self.assertEqual(cp.read_text(), edited, "a later day on a newer interpreter does not rewrite the record")
 
+    def test_backfill_keeps_deposit_info_when_the_legacy_history_is_not_reachable(self):
+        from unittest import mock
+        make_repo(self.root)
+        adds = {"cycle-2/alpha-paper/MANIFEST.json": ("a" * 40, "2026-09-08T10:00:00+01:00")}
+        with mock.patch.object(pv.Repo, "legacy_adds", return_value=adds):
+            pv.backfill(self.repo(), "2026-10-26")
+        cp = self.root / "runs/cycle-2/alpha-paper" / pv.CRATE_FILE
+        first = cp.read_text()
+        self.assertIn("2026-09-08T10:00:00+01:00", first)
+        # the squash-merged import has not been linked yet: git cannot name the deposit commit any more
+        with mock.patch.object(pv.Repo, "legacy_adds", return_value={}):
+            self.assertEqual(pv.backfill(self.repo(), "2026-10-27")["crates"], 0)
+        self.assertEqual(cp.read_text(), first)
+
     def test_a_changed_outcome_replaces_the_record(self):
         make_repo(self.root)
         pv.backfill(self.repo(), "2026-10-26")
