@@ -123,7 +123,3 @@ The crucial point is that *all* these methods rely on representing numbers using
 [4 Impacts](releases/2025/Implied%20Discretization/4%20Impacts.md)
 
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-

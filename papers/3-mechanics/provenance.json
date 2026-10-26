@@ -3,7 +3,7 @@
   "slug": "3-mechanics",
   "paper": {
     "path": "papers/3-mechanics/paper.md",
-    "title": "Implied Discretization and the Limits of Modeling Continuous Reality",
+    "title": "3 Mechanics",
     "url": "https://papers.qnfo.org/papers/3-mechanics"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "e66f3452cfd8b4efdb35953613f716fe07500e20"
+    },
+    {
+      "sha256": "7a1c304f96ba448155ce6a445ab93395b13396ac88579e0a1c3b71108468a160",
+      "bytes": 29343,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

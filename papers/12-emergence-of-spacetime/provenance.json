@@ -3,7 +3,7 @@
   "slug": "12-emergence-of-spacetime",
   "paper": {
     "path": "papers/12-emergence-of-spacetime/paper.md",
-    "title": null,
+    "title": "Emergent Spacetime from Autaxic Relational Dynamics: Quantitative Scaling Laws and Galactic Rotation",
     "url": "https://papers.qnfo.org/papers/12-emergence-of-spacetime"
   },
   "declared": {
@@ -31,6 +31,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "dc4262c79e7405e7f6fdb6fe1af0b60124cbf826"
+    },
+    {
+      "sha256": "347590218fdd255a84ea1718b49cb17e3e7682f6f985a988fea318cffd923cfe",
+      "bytes": 26791,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "1.2.0",
+      "git_commit": null
     }
   ],
   "events": []

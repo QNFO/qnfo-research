@@ -3,11 +3,11 @@
   "slug": "7-autaxys-defined",
   "paper": {
     "path": "papers/7-autaxys-defined/paper.md",
-    "title": null,
+    "title": "Autaxys Defined",
     "url": "https://papers.qnfo.org/papers/7-autaxys-defined"
   },
   "declared": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": "2.0.0",
       "git_commit": "50b38101fa57b17106cda3c8537914693d33a9c8"
+    },
+    {
+      "sha256": "6024a2e153c8c76c3e58b7da324b174258ceb82af846f7f6ecf2515a48ee2617",
+      "bytes": 71286,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.1.0",
+      "git_commit": null
     }
   ],
   "events": []

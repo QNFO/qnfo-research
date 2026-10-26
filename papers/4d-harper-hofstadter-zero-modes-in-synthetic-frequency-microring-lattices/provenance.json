@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices",
+  "paper": {
+    "path": "papers/4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices/paper.md",
+    "title": "4D Harper‑Hofstadter Zero‑Modes in Synthetic‑Frequency Microring Lattices",
+    "url": "https://papers.qnfo.org/papers/4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "4d-harper-hofstadter-zero-modes-in-synthetic-frequency-microring-lattices"
+  },
+  "snapshots": [
+    {
+      "sha256": "2f27621d3bcaac72d778099b81b72d311931b5c1a0c6992c1a4765a6437306e6",
+      "bytes": 19701,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

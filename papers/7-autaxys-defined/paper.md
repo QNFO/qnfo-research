@@ -2,7 +2,7 @@
 and Autology: A Frequency-Centric Process Ontology Driven by the
 Generative Cycle and Autaxic Trilemma
 
-**Version:** 2.0.0
+**Version:** 2.1.0
 **Author:** [Rowan Brad
 Quni](mailto:rowan.quni@qnfo.org) Principal Investigator, [QNFO](https://qnfo.org/)
 ORCID: 0009-0002-4317-5604
@@ -1118,6 +1118,12 @@ intrinsically self-generating, frequency-resonant computation**
 perpetually resolving the Autaxic Trilemma within the dynamic Universal
 Relational Graph substrate via the Generative Cycle.
 
+## Prior Work and Related Literature
+
+[Pillar 3: PBO/Autaxys — Pattern-Based Ontology as Intrinsic Self-Ordering](https://papers.qnfo.org/papers/pbo-autaxys) established the formal ontological grounding for Autaxys by reducing the five operational dynamics of the generative engine to two primitive operations: Distinction and Relation. That paper argued that all patterns, structures, and physical laws emerge from these D/R primitives without recourse to external agents or pre-imposed rules, and it formalized Ontological Closure Verification as the criterion for self-contained generative sufficiency. The present work, *Autaxys Defined*, builds on this foundational framework by articulating the specific process ontology that the D/R primitives generate. Where the earlier paper provided the formal grammar and closure conditions for pattern generation, the present paper specifies the substantive content of that generation: the Autaxic Trilemma (Novelty, Efficiency, Persistence) as the irreducible dynamic tension driving the system, the Universal Relational Graph as the active medium of pattern formation, and the Generative Cycle as the iterative loop enacting resolution. The current paper's treatment of the Trilemma's pressures corresponds directly to the meta-logical principles identified in the earlier work—the principle of parsimony in generative mechanisms finds expression in Efficiency, the principle of conservation of distinguishability manifests as Persistence, and the principle of interactive complexity maximization aligns with Novelty. The present work thus extends the earlier formal framework by giving it a concrete, three-fold dynamic engine and by demonstrating how this engine produces observable phenomena, particularly through the frequency-centric view of mass and energy.
+
+[The Generative Engine](https://papers.qnfo.org/papers/8-the-generative-engine) provided the operational articulation of how autaxys generates order, detailing the five core dynamics—relational processing, spontaneous symmetry breaking, feedback dynamics, resonance and coherence establishment, and critical state transitions—and the five meta-logical principles that guide them. The present paper departs from and refines this earlier articulation in two significant ways. First, it replaces the five-dynamics architecture with a more economical three-phase Generative Cycle: Proliferation, Adjudication, and Solidification. Each phase of the Generative Cycle in the present work absorbs and consolidates functions that were distributed across multiple dynamics in the earlier chapter. Proliferation incorporates the generative aspects of relational processing and the novelty-seeking dimension of spontaneous symmetry breaking; Adjudication subsumes the selective functions of feedback dynamics and the pruning role of negative feedback; Solidification consolidates the stabilizing functions of resonance and coherence establishment. The earlier chapter's critical state transitions find their place in the present work's account of how Adjudication resolves the Trilemma's tensions, producing qualitative transformations in the URG's structure. Second, the present paper grounds these operational phases in a specific dynamic tension—the Autaxic Trilemma—that was implicit but not named in the earlier chapter. The earlier chapter described the meta-logical principles as inherent "grammar" guiding generation; the present work makes the engine's driving force explicit as an irresolvable tension among Novelty, Efficiency, and Persistence. This represents a substantive theoretical development: where the earlier chapter presented the dynamics and principles as a list of interconnected features, the present work derives them from a single generative tension whose ongoing self-resolution constitutes the entirety of the generative process. The frequency-centric view of mass and energy developed in the present paper—culminating in the identity \(m_0 c^2 = \hbar \omega_C\)—applies this refined generative engine to physical phenomena, showing how the Solidification phase, driven by Persistence and reinforced by Efficiency, produces stable patterns characterized by intrinsic Compton frequencies. The earlier chapter's account of mass-energy equivalence remained at the level of reinterpretation; the present work advances to derivation, connecting rest mass directly to the operational tempo required for pattern self-maintenance through continuous re-Solidification.
+
 ### 10. References
 
 General theoretical physics texts provide background on quantum
@@ -1187,15 +1193,16 @@ https://physics.nist.gov/cgi-bin/cuu/Value?c (Value and definition of
 c).
 
 [12] Quni, R.B. “Autaxic Table of Patterns (D-P6.7-1)”. DOI:
-10.5281/zenodo.15623189 (2025). (Documentation detailing specific
+https://papers.qnfo.org/papers (2025). (Documentation detailing specific
 pattern configurations and dynamics within Autaxys).
 
 [13] Quni, R.B. “The Autaxic Trilemma: A Theory of Generative
-Reality”. DOI: 10.5281/zenodo.15749742 (2025).
+Reality”. https://papers.qnfo.org/papers (2025).
 
 [14] Quni, R.B. “Frequency as the Foundation”. DOI:
-10.5281/zenodo.15749742 (2025). (Derivation of mass-frequency
+https://papers.qnfo.org/papers (2025). (Derivation of mass-frequency
 equivalence).
 ## Changelog
 
+- v2.1.0: Added a Prior Work and Related Literature section that places this paper among 2 related QNFO papers.
 - v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
