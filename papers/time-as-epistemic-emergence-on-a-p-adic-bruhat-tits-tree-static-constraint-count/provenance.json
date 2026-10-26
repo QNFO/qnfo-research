@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "time-as-epistemic-emergence-on-a-p-adic-bruhat-tits-tree-static-constraint-count",
+  "paper": {
+    "path": "papers/time-as-epistemic-emergence-on-a-p-adic-bruhat-tits-tree-static-constraint-count/paper.md",
+    "title": "Time as Epistemic Emergence on a $p$-Adic Bruhat–Tits Tree: Static Constraint, Counting Laws, and the Observer-Generated Arrow",
+    "url": "https://papers.qnfo.org/papers/time-as-epistemic-emergence-on-a-p-adic-bruhat-tits-tree-static-constraint-count"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "time-as-epistemic-emergence-on-a-p-adic-bruhat-tits-tree-static-constraint-count"
+  },
+  "snapshots": [
+    {
+      "sha256": "9d35da1b2357ca0eaafd28e87f96c86a222e28cfc28a2c1fb8080ebc65e6b3d8",
+      "bytes": 45277,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

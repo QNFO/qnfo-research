@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thoughts-as-quantum-informational-hamiltonians-coherence-and-capacity-constraint",
+  "paper": {
+    "path": "papers/thoughts-as-quantum-informational-hamiltonians-coherence-and-capacity-constraint/paper.md",
+    "title": "Thoughts as Quantum-Informational Hamiltonians: Coherence and Capacity Constraints on a Two-Phase Pre-Geometric Model of Cognition",
+    "url": "https://papers.qnfo.org/papers/thoughts-as-quantum-informational-hamiltonians-coherence-and-capacity-constraint"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thoughts-as-quantum-informational-hamiltonians-coherence-and-capacity-constraint"
+  },
+  "snapshots": [
+    {
+      "sha256": "da5ddfc09652ce132f30dc3c1ab369c0ff78e6939d0ceafb55fb180796b3b157",
+      "bytes": 42536,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

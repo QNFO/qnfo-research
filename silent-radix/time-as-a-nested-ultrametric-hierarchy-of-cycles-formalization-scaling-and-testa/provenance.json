@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa",
+  "paper": {
+    "path": "silent-radix/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa/paper.md",
+    "title": "Time as a Nested Ultrametric Hierarchy of Cycles: Formalization, Scaling, and Testable Predictions",
+    "url": "https://papers.qnfo.org/papers/time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "time-as-a-nested-ultrametric-hierarchy-of-cycles-formalization-scaling-and-testa"
+  },
+  "snapshots": [
+    {
+      "sha256": "210779a3779c3f7ac89f7cfb4b28b6cfab11118f8151764e018b55aec9a015d8",
+      "bytes": 19720,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thz-driven-synthetic-dimension-lattices-in-thin-film-lithium-niobate-thermal-pho",
+  "paper": {
+    "path": "papers/thz-driven-synthetic-dimension-lattices-in-thin-film-lithium-niobate-thermal-pho/paper.md",
+    "title": "THz-Driven Synthetic-Dimension Lattices in Thin-Film Lithium Niobate: Thermal-Photon Occupation Limits and the Operating-Point Criterion at 3.5 THz",
+    "url": "https://papers.qnfo.org/papers/thz-driven-synthetic-dimension-lattices-in-thin-film-lithium-niobate-thermal-pho"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thz-driven-synthetic-dimension-lattices-in-thin-film-lithium-niobate-thermal-pho"
+  },
+  "snapshots": [
+    {
+      "sha256": "2e8d3159e0d38e16ee0e4f4c368f6d344c59b4270791c282da837f43f8fd18b3",
+      "bytes": 40890,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
