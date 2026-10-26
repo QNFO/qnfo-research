@@ -53,17 +53,15 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
         },
         {
           "@id": "verification.md"
@@ -80,7 +78,13 @@
       ],
       "mentions": [
         {
+          "@id": "#grounding"
+        },
+        {
           "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
         },
         {
           "@id": "#verification-original"
@@ -130,6 +134,26 @@
       "url": "https://papers.qnfo.org/papers/numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time"
     },
     {
+      "@id": "https://arxiv.org/abs/0711.0446",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0711.0446"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0804.4584",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0804.4584"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.10209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.10209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.03765",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.03765"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +161,26 @@
       "contentSize": "880",
       "sha256": "13ea3cd43ff92573dc2788434aba2eda75aa43f52238baeabbed9dbd41b6daae",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52115",
+      "sha256": "a98f90185abeb2798cedc5537313abf28f5a1ce8109f15945287caa671f26347",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5336",
+      "sha256": "329c84098a27dfd9d2e0eb20eab4b0b5222ab4ba018ee9d435b8c576efe3b28d",
+      "qnfo:role": "review",
       "qnfo:listedInManifest": true
     },
     {
@@ -180,18 +224,36 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "a98f90185abeb2798cedc5537313abf28f5a1ce8109f15945287caa671f26347",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "329c84098a27dfd9d2e0eb20eab4b0b5222ab4ba018ee9d435b8c576efe3b28d",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0711.0446"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0804.4584"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.10209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.03765"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -211,7 +273,37 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

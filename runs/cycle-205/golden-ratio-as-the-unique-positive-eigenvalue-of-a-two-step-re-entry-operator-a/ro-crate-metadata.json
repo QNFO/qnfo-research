@@ -41,32 +41,43 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
-      "mentions": []
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
     },
     {
       "@id": "https://qnfo.org/legal/license",
@@ -108,6 +119,41 @@
       "url": "https://papers.qnfo.org/papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a"
     },
     {
+      "@id": "https://arxiv.org/abs/1109.3216",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1109.3216"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1711.10119",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1711.10119"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.09171",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.09171"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.10957",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.10957"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.08934",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.08934"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.20322",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.20322"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.06654",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.06654"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -118,46 +164,180 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
+      "@id": "grounding.md",
+      "@type": "File",
       "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51188",
       "sha256": "4a571b82ef386f4b8b4c16a07c9416e63dcc996aafce260db10be64d8668140f",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
+      "@id": "review-report.md",
+      "@type": "File",
       "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1308",
       "sha256": "c71bda132d508df1d4ddb1914626f053f94b9912f0124e266cd1c96255bdbac4",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
+      "@id": "verification.md",
+      "@type": "File",
       "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4469",
       "sha256": "2e0016eabd926f7cf17849d8a9b8acfc17ac97a9323bfc07a73dc61a2537b622",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
+      "@id": "verification.py",
+      "@type": "File",
       "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1828",
       "sha256": "839cb4baabff2efbcebfa635e60e68a8f2f28911f59b49335e5e0f32723549a6",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21680",
       "sha256": "8fdaf84a2a1492a7c76e0ccfbfb217c20d60a24d5e25c21e05c5bdc358fee75c",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17997",
       "sha256": "6a6f8401245ae2bb59d84c8a9a449472c244673da131ae571343911e44f12cd7",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1109.3216"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1711.10119"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1805.09171"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.10957"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.08934"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.20322"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.06654"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T06:10:59+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

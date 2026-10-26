@@ -41,34 +41,41 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
         },
         {
+          "@id": "grounding.md"
+        },
+        {
           "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
         {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
           "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
         }
       ]
     },
@@ -112,6 +119,41 @@
       "url": "https://papers.qnfo.org/papers/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio"
     },
     {
+      "@id": "https://arxiv.org/abs/1207.0109",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1207.0109"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1702.01806",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1702.01806"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1804.07878",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1804.07878"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1806.05207",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1806.05207"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.00357",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.00357"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1906.03129",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1906.03129"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1908.09532",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1908.09532"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -119,6 +161,16 @@
       "contentSize": "880",
       "sha256": "f31dc55a7a98fd8c2c8243ae836e552df62316f5820842f295633026007336ed",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48317",
+      "sha256": "b5c14ef5d2dd90241e68eca9e13e35d74f08b8b00c5472a8db623983ad20f36a",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -132,39 +184,110 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "b5c14ef5d2dd90241e68eca9e13e35d74f08b8b00c5472a8db623983ad20f36a",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
+      "@id": "verification.md",
+      "@type": "File",
       "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8192",
       "sha256": "fd02b8c593722ae9587b38934bd2809f24966a71b3a110c42747236bcab598cb",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
+      "@id": "verification.py",
+      "@type": "File",
       "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3244",
       "sha256": "0a0bd5496356421ff04f91dd1871ea17a826045661897f972d9b54881afe11a5",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19269",
       "sha256": "8d9a2f2e043c48d3ca270c110e2794f7aada04d1b1604d98c3880173fef39a36",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23927",
       "sha256": "bba432663818800d4c78f1aa39a733e924cef5f9237c1826e827ddbe3bcdb347",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1207.0109"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1702.01806"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1804.07878"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1806.05207"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.00357"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1906.03129"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1908.09532"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -181,7 +304,40 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T12:31:02+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

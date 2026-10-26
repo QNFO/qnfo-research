@@ -53,17 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -75,10 +70,16 @@
           "@id": "verification.py"
         },
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,21 @@
       "url": "https://papers.qnfo.org/papers/cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources"
     },
     {
+      "@id": "https://arxiv.org/abs/1312.0165",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1312.0165"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.03695",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.03695"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2408.05260",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2408.05260"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +156,16 @@
       "contentSize": "880",
       "sha256": "f56fc80448180f318a4f583ca5f9b489cfc0e17acf65abfe4dbadd72c002d19a",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "34946",
+      "sha256": "1cced727d5a99be89c255fe0480390df819788b66118e733eb6db4bd6fe1dbeb",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -173,6 +199,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19124",
+      "sha256": "a119e1ea443052fecc03182258d18df121295f055eab4d75ebc798773dc32b10",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-b-draft.md",
       "@type": "File",
       "name": "writer-b-draft.md",
@@ -183,18 +219,33 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "1cced727d5a99be89c255fe0480390df819788b66118e733eb6db4bd6fe1dbeb",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-a-draft.md",
-      "sha256": "a119e1ea443052fecc03182258d18df121295f055eab4d75ebc798773dc32b10",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1312.0165"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.03695"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2408.05260"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -205,13 +256,21 @@
       },
       "result": [
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -230,6 +289,9 @@
       },
       "qnfo:basis": "inferred-from-procedure",
       "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
         {
           "@id": "writer-b-draft.md"
         }

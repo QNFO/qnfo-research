@@ -43,9 +43,6 @@
       },
       "qnfo:missingParts": [
         {
-          "@id": "#missing/grounding.md"
-        },
-        {
           "@id": "#missing/verification.py"
         },
         {
@@ -55,6 +52,9 @@
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -67,6 +67,9 @@
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -115,6 +118,46 @@
       "url": "https://papers.qnfo.org/papers/cerebral-surge-as-a-mechanistic-generator-of-near-death-experience-narratives-in"
     },
     {
+      "@id": "https://arxiv.org/abs/2405.20457",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2405.20457"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2501.09102",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2501.09102"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2501.09884",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2501.09884"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2501.13682",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2501.13682"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.06371",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.06371"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2605.31577",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2605.31577"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.21866",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.21866"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.24610",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.24610"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -122,6 +165,16 @@
       "contentSize": "881",
       "sha256": "8a6d3b5296ff433c16bec4ab0d588930fcefbbb8396594129ce710ff3806c884",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "40184",
+      "sha256": "9d2ee0ac72188c5b38922982f338a1b6b14fd963cbe5a426794de991d1b50782",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -155,13 +208,6 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "9d2ee0ac72188c5b38922982f338a1b6b14fd963cbe5a426794de991d1b50782",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
       "@id": "#missing/verification.py",
       "@type": "CreativeWork",
       "name": "verification.py",
@@ -174,6 +220,50 @@
       "name": "writer-b-draft.md",
       "sha256": "0c39fc109b3cb1c44a83567f4c48c43be0bded9afbd2fc4e4b4e9b23fb239113",
       "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/2405.20457"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2501.09102"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2501.09884"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2501.13682"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.06371"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2605.31577"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.21866"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.24610"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -190,7 +280,12 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",

@@ -53,20 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -76,9 +68,21 @@
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
         {
           "@id": "#review"
         },
@@ -130,6 +134,76 @@
       "url": "https://papers.qnfo.org/papers/the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho"
     },
     {
+      "@id": "https://arxiv.org/abs/1303.0045",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1303.0045"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.1214",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.1214"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1611.07100",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1611.07100"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1707.09430",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1707.09430"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1811.09849",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1811.09849"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.12567",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.12567"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.11810",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.11810"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.12156",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.12156"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2108.10071",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2108.10071"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2112.14193",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2112.14193"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.07398",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.07398"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.08949",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.08949"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2408.15444",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2408.15444"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.10504",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.10504"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +211,16 @@
       "contentSize": "880",
       "sha256": "d4645d878fcb22537214ace6125607fc5bbf7fa21bac47b630700b7fdd591a05",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "85986",
+      "sha256": "fea442012b8ba26e11f05cf5865faab1d0b2d756fcc0aaf3ad65b6a3700c841a",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -170,25 +254,111 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "fea442012b8ba26e11f05cf5865faab1d0b2d756fcc0aaf3ad65b6a3700c841a",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23820",
       "sha256": "543518e7c31fd386826969947842c5ec3fc49a4a09df5966024f7ab931f8be81",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25079",
       "sha256": "f6b5e579c665779f131aa3ff7231dbc76239f8308f4d921fd5c34b9056d3f62d",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1303.0045"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.1214"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1611.07100"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1707.09430"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1811.09849"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.12567"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2003.11810"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.12156"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2108.10071"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2112.14193"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.07398"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.08949"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2408.15444"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.10504"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -205,7 +375,15 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

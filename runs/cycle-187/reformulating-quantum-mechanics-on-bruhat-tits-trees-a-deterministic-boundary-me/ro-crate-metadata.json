@@ -53,14 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -79,6 +77,9 @@
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,31 @@
       "url": "https://papers.qnfo.org/papers/reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me"
     },
     {
+      "@id": "https://arxiv.org/abs/0705.3203",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0705.3203"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1305.4349",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1305.4349"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.05997",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.05997"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.10417",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.10417"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.10504",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.10504"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +166,16 @@
       "contentSize": "879",
       "sha256": "4518cdbe3ee8a5ece9e895e058f048d0d1d313f8871bb1be00b8355d6e58d1b1",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51598",
+      "sha256": "9a31e68ec6aef6eefa85089494ffc572c3864b171358c8f9d501d2f1845820c5",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -193,11 +229,39 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "9a31e68ec6aef6eefa85089494ffc572c3864b171358c8f9d501d2f1845820c5",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0705.3203"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1305.4349"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.05997"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.10417"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.10504"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -217,7 +281,12 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",

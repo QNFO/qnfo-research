@@ -3,194 +3,14 @@
   "as_of": "2026-10-26",
   "gaps": [
     {
-      "id": "GAP-MISS-3c20e4850c",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-268/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a",
-      "files": [
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "writer-a-draft.md": "b5789336862c649cae06ab6ae396244a4cb1142fdf9d54fcab166475275325fa",
-        "writer-b-draft.md": "0b764def785ff9621c013e862b61c74caebefe104add0a92bed9222419c1aebf"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-40f35bd16d",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-187/reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me",
-      "files": [
-        "grounding.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "9a31e68ec6aef6eefa85089494ffc572c3864b171358c8f9d501d2f1845820c5"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-444f1aa995",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-221/global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "3be72f4574e15a19894db9d58fed194af365b194259cc63f6c6054eb5bc1dee0",
-        "writer-a-draft.md": "6bb2fc06bd46d1ebdcf09aefa7abd89704db80898e5820fb132975af4c73a86f",
-        "writer-b-draft.md": "7558a44880e0a6de431924f3eb2211f4ff5463f5e14c4ea2c9aeb2a492e8d2bb"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-450a8c99bb",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-182/numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time",
-      "files": [
-        "grounding.md",
-        "review-report.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "a98f90185abeb2798cedc5537313abf28f5a1ce8109f15945287caa671f26347",
-        "review-report.md": "329c84098a27dfd9d2e0eb20eab4b0b5222ab4ba018ee9d435b8c576efe3b28d"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-49a2e0fd2f",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-215/algebraic-and-categorical-formalization-of-laws-of-form-invariants-with-operatio",
-      "files": [
-        "grounding.md",
-        "verification.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "b5c14ef5d2dd90241e68eca9e13e35d74f08b8b00c5472a8db623983ad20f36a",
-        "verification.md": "fd02b8c593722ae9587b38934bd2809f24966a71b3a110c42747236bcab598cb",
-        "verification.py": "0a0bd5496356421ff04f91dd1871ea17a826045661897f972d9b54881afe11a5",
-        "writer-a-draft.md": "8d9a2f2e043c48d3ca270c110e2794f7aada04d1b1604d98c3880173fef39a36",
-        "writer-b-draft.md": "bba432663818800d4c78f1aa39a733e924cef5f9237c1826e827ddbe3bcdb347"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-4a02edbdee",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-223/reexamining-the-archimedean-axiom-a-non-archimedean-substrate-as-a-unifying-coor",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "8f52b3c24f1255596181d7ed54f6c8ab9698c4bc121ad710caadbf0bc1545c34",
-        "review-report.md": "4bc01d01b7dd014a524107da98ace5387389d3854fce5dd9e9c16e6f4b8caf36",
-        "writer-a-draft.md": "fa38521e96f2e1d9f219d07df7ef600860809969ec55f987325864ce2d96fa23",
-        "writer-b-draft.md": "16c99f1588224c5017730909cf22b2ca16a41dc4f6dc9d6001f41b9776c1dfba"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-4b049dec70",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-281/abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors",
-      "files": [
-        "grounding.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "b79c31659260ae00fe23d3e6dfb87117ec2de2b1fc86372171e3017ae286b821"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-4d9a9a275d",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-203/cross-ratio-invariants-of-braids-as-fault-tolerant-quantum-computation-resources",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "1cced727d5a99be89c255fe0480390df819788b66118e733eb6db4bd6fe1dbeb",
-        "writer-a-draft.md": "a119e1ea443052fecc03182258d18df121295f055eab4d75ebc798773dc32b10"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-517e9f7bef",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-205/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "4a571b82ef386f4b8b4c16a07c9416e63dcc996aafce260db10be64d8668140f",
-        "review-report.md": "c71bda132d508df1d4ddb1914626f053f94b9912f0124e266cd1c96255bdbac4",
-        "verification.md": "2e0016eabd926f7cf17849d8a9b8acfc17ac97a9323bfc07a73dc61a2537b622",
-        "verification.py": "839cb4baabff2efbcebfa635e60e68a8f2f28911f59b49335e5e0f32723549a6",
-        "writer-a-draft.md": "8fdaf84a2a1492a7c76e0ccfbfb217c20d60a24d5e25c21e05c5bdc358fee75c",
-        "writer-b-draft.md": "6a6f8401245ae2bb59d84c8a9a449472c244673da131ae571343911e44f12cd7"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-552dd4573c",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-341/the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "fea442012b8ba26e11f05cf5865faab1d0b2d756fcc0aaf3ad65b6a3700c841a",
-        "writer-a-draft.md": "543518e7c31fd386826969947842c5ec3fc49a4a09df5966024f7ab931f8be81",
-        "writer-b-draft.md": "f6b5e579c665779f131aa3ff7231dbc76239f8308f4d921fd5c34b9056d3f62d"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
       "id": "GAP-MISS-56818849bf",
       "kind": "manifest-file-missing",
       "path": "runs/cycle-214/cerebral-surge-as-a-mechanistic-generator-of-near-death-experience-narratives-in",
       "files": [
-        "grounding.md",
         "verification.py",
         "writer-b-draft.md"
       ],
       "expected_sha256": {
-        "grounding.md": "9d2ee0ac72188c5b38922982f338a1b6b14fd963cbe5a426794de991d1b50782",
         "verification.py": "c1369ae71732bbae706b8836ae9080dcb62a0ae0be8ae1a87a9f31055aeb6608",
         "writer-b-draft.md": "0c39fc109b3cb1c44a83567f4c48c43be0bded9afbd2fc4e4b4e9b23fb239113"
       },
@@ -1331,20 +1151,6 @@
       ],
       "runs": [
         "runs/cycle-196/adelic-ruler-independence-and-rationality-of-standard-model-parameters"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
-      "id": "GAP-PAPER-032a2fba4e",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/the-exponential-arena-a-reconciled-quantitative-account-of-hilbert-space-growth-",
-      "files": [
-        "papers/the-exponential-arena-a-reconciled-quantitative-account-of-hilbert-space-growth-/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-41/the-exponential-arena-a-reconciled-quantitative-account-of-hilbert-space-growth-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",

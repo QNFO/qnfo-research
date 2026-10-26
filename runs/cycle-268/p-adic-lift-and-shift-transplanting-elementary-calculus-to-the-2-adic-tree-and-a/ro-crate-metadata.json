@@ -53,14 +53,6 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
@@ -76,11 +68,20 @@
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
         {
           "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
         },
         {
           "@id": "#review"
@@ -208,18 +209,24 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19479",
       "sha256": "b5789336862c649cae06ab6ae396244a4cb1142fdf9d54fcab166475275325fa",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23672",
       "sha256": "0b764def785ff9621c013e862b61c74caebefe104add0a92bed9222419c1aebf",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#grounding",
@@ -257,6 +264,31 @@
       "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
       "@id": "#review",
       "@type": "CreateAction",
       "name": "Adversarial review",
@@ -274,7 +306,10 @@
       "qnfo:basis": "inferred-from-procedure",
       "object": [
         {
-          "@id": "grounding.md"
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ]
     },

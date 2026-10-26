@@ -53,20 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -76,9 +68,21 @@
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
         {
           "@id": "#review"
         },
@@ -130,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode"
     },
     {
+      "@id": "https://arxiv.org/abs/1612.05413",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1612.05413"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.06796",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.06796"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.05305",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.05305"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.06152",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.06152"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2208.03261",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2208.03261"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.09558",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.09558"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2410.04430",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2410.04430"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.23840",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.23840"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +181,16 @@
       "contentSize": "879",
       "sha256": "8017386fb6cc771c892c2e2cc6f5618138e4f1d087f3fb35da3efec393870295",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "49069",
+      "sha256": "3be72f4574e15a19894db9d58fed194af365b194259cc63f6c6054eb5bc1dee0",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -170,25 +224,93 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "3be72f4574e15a19894db9d58fed194af365b194259cc63f6c6054eb5bc1dee0",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18752",
       "sha256": "6bb2fc06bd46d1ebdcf09aefa7abd89704db80898e5820fb132975af4c73a86f",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8855",
       "sha256": "7558a44880e0a6de431924f3eb2211f4ff5463f5e14c4ea2c9aeb2a492e8d2bb",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1612.05413"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.06796"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.05305"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.06152"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2208.03261"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.09558"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2410.04430"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.23840"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -205,7 +327,15 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

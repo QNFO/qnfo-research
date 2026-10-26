@@ -53,14 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -79,6 +77,9 @@
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,51 @@
       "url": "https://papers.qnfo.org/papers/abc-uncertainty-principle-bounds-on-additive-leakage-of-prime-factors"
     },
     {
+      "@id": "https://arxiv.org/abs/0801.3402",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0801.3402"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0909.0950",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0909.0950"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1012.0361",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1012.0361"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1307.4265",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1307.4265"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1506.05209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1506.05209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.08705",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.08705"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.00347",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.00347"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2212.13776",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2212.13776"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.06598",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2505.06598"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +186,16 @@
       "contentSize": "880",
       "sha256": "e634b7e947f650016ac713653ca2c11b681d46b890d75dbffb817e1995c53b66",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "54994",
+      "sha256": "b79c31659260ae00fe23d3e6dfb87117ec2de2b1fc86372171e3017ae286b821",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -193,11 +249,51 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "b79c31659260ae00fe23d3e6dfb87117ec2de2b1fc86372171e3017ae286b821",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0801.3402"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0909.0950"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1012.0361"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1307.4265"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1506.05209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2003.08705"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.00347"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2212.13776"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2505.06598"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -217,7 +313,12 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
