@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "differential-einthoven-inspired-readout-for-superconducting-qubit-measurement-th",
+  "paper": {
+    "path": "papers/differential-einthoven-inspired-readout-for-superconducting-qubit-measurement-th/paper.md",
+    "title": "Differential Einthoven‑Inspired Readout for Superconducting Qubit Measurement: Theory and Projected Fidelity Gains",
+    "url": "https://papers.qnfo.org/papers/differential-einthoven-inspired-readout-for-superconducting-qubit-measurement-th"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "differential-einthoven-inspired-readout-for-superconducting-qubit-measurement-th"
+  },
+  "snapshots": [
+    {
+      "sha256": "75b3a1a5967d596873dee9272d6baa9705b372dd6afc5473d086ca8d328776cb",
+      "bytes": 27537,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

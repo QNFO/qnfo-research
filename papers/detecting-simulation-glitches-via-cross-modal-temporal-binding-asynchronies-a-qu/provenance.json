@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu",
+  "paper": {
+    "path": "papers/detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu/paper.md",
+    "title": "Detecting Simulation Glitches via Cross‑Modal Temporal Binding Asynchronies: A Quantitative Framework",
+    "url": "https://papers.qnfo.org/papers/detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu"
+  },
+  "snapshots": [
+    {
+      "sha256": "a96dd6ecafaf09cc07860714fd995de836d7ac4035e9133343adfbaaef7229bf",
+      "bytes": 22468,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "decoherence-times-and-quantum-speed-limits-in-spin-chain-systems-a-many-body-tes",
+  "paper": {
+    "path": "jpcub-qec/decoherence-times-and-quantum-speed-limits-in-spin-chain-systems-a-many-body-tes/paper.md",
+    "title": "Decoherence Times and Quantum Speed Limits in Spin-Chain Systems: A Many-Body Testbed for Energy-Time Uncertainty",
+    "url": "https://papers.qnfo.org/papers/decoherence-times-and-quantum-speed-limits-in-spin-chain-systems-a-many-body-tes"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "decoherence-times-and-quantum-speed-limits-in-spin-chain-systems-a-many-body-tes"
+  },
+  "snapshots": [
+    {
+      "sha256": "6c1ce409741755ac7bff7d1d3c24820871367892bf3309dd3514d1a2b258cad8",
+      "bytes": 14279,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "2.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

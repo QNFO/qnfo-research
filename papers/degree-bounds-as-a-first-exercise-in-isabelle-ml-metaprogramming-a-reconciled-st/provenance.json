@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "degree-bounds-as-a-first-exercise-in-isabelle-ml-metaprogramming-a-reconciled-st",
+  "paper": {
+    "path": "papers/degree-bounds-as-a-first-exercise-in-isabelle-ml-metaprogramming-a-reconciled-st/paper.md",
+    "title": "Degree Bounds as a First Exercise in Isabelle/ML Metaprogramming: A Reconciled Study of the poly_degree Command",
+    "url": "https://papers.qnfo.org/papers/degree-bounds-as-a-first-exercise-in-isabelle-ml-metaprogramming-a-reconciled-st"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "degree-bounds-as-a-first-exercise-in-isabelle-ml-metaprogramming-a-reconciled-st"
+  },
+  "snapshots": [
+    {
+      "sha256": "68fd156aa06d858a8fc8e66052f421127475f20c77333cb7f39606e2145ae870",
+      "bytes": 39215,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

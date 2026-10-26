@@ -304,22 +304,3 @@ A quantitative **epistemic‑risk** framework has been introduced that combines 
 [6] Statistical Emulators for Pricing and Hedging Longevity Risk Products. arXiv:1508.00310v2. https://arxiv.org/abs/1508.00310v2
 [7] Large Synoptic Survey Telescope: Dark Energy Science Collaboration. arXiv:1211.0310v1. https://arxiv.org/abs/1211.0310v1
 [8] Evaluating Range Value at Risk Forecasts. arXiv:1902.04489v3. https://arxiv.org/abs/1902.04489v3
-
-## Appendix A. Divergence report
-*No divergent claims were identified among the independent drafts; all substantive statements converged.*
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | Adaptive allocation yields a 10× simulation‑budget reduction (from [1]). | A, B, C | Convergent |
-| C2 | Spatial modeling yields a 5× simulation‑budget reduction (from [1]). | A, B, C | Convergent |
-| C3 | Combined savings factor $S = 10 \times 5 = 50$. | A, B, C | Convergent |
-| C4 | ERS for Gaussian predictive model equals –3.64 (derived in Section 4). | A, B, C | Convergent |
-| C5 | RVaR under linear interpolation equals 0.15 (projection, assumptions stated). | A, B, C | Convergent |
-| C6 | Historical case ERS values (projected) (synthetic validation assumptions). | A, B, C | Convergent |
-| C7 | Sensitivity of ERS to $\lambda \in [0.5,2] changes gaps by ≤ 0.12 when predictive‑risk gaps ≤ 0.08 (projection). | A, B, C | Convergent |
-| C8 | Simulation‑budget projection: \$20,000 → \$400 (based on 50× reduction). | A, B, C | Convergent |
-| C9 | Limitations list (prior, validation data, evidence approximation, model class). | A, B, C | Convergent |
-| C10 | Minimal pilot experiment design (compare two models on public dataset). | A, B, C | Convergent |
-| C11 | TRL assessment: analytical work at TRL 2. | A, B, C | Convergent |
-| C12 | Risks of prior manipulation and need for transparency. | A, B, C | Convergent |
