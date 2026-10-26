@@ -221,26 +221,3 @@ We have demonstrated that in ultrametric spaces the natural organizing primitive
 [8] Cubic interaction vertices for fermionic and bosonic arbitrary spin fields. arXiv:0712.3526v2. https://arxiv.org/abs/0712.3526v2
 [9] https://papers.qnfo.org/papers/why-vertices-not-points-vertex-anchored-braiding-stabilizer-arithmetic-and-displ. QNFO: Why Vertices, Not Points? Vertex-Anchored Braiding, Stabilizer Arithmetic, and Displacement Gaps on Bruhat–Tits Buildings.
 [10] https://papers.qnfo.org/papers/vertex-anchored-geometry-discrete-extremal-points-as-the-organizing-primitive-of. QNFO: Vertex-Anchored Geometry: Discrete Extremal Points as the Organizing Primitive of Non-Archimedean Space.
-
-## Appendix A. Divergence report
-
-**Divergence 1 – Redundancy statement.**  
-- *Draft A* (Section 4.4) posits a *conjecture* that exactly one line constraint becomes redundant when $d>n$.  
-- *Draft B* proposes an *exact redundancy count* $R(n,d)=d\,n^{d-1}-n^{d}+(n-1)^{d}$ with specific numerical values (e.g., $R(4,3)=11$).  
-
-
-
-No other substantive divergences were identified.
-
-## Appendix B. Claim attribution
-
-| Claim | Source drafts | Status |
-|---|---|---|
-| C1: Every ultrametric ball is centered at each of its interior points (Lemma 1) | a, b | CONVERGENT |
-| C2: Ball counts satisfy $N_k=q^{k}$ with $N_5=243$ ($q=3$) and $N_{20}=1{,}048{,}576$ ($q=2$) | a, b | CONVERGENT |
-| C3: Apparent size quantization $s_k=(S/d_0)q^{k}$ with ratio $q$ | a, b | CONVERGENT |
-| C4: Line count $L(n,d)=d\,n^{d-1}$ giving $L(4,3)=48$ and $L(3,4)=108$ | a, b | CONVERGENT |
-| C5: Redundancy conjecture for $d>n$ (one line constraint redundant) | a | CONVERGENT (hypothesis) |
-| C6: Bibliographic points drawn from entries [1]–[10] as described in Section 2 | a, b | CONVERGENT |
-| C7: Redundancy exact count $R(n,d)$ (dropped) | b | SINGLE – omitted due to lack of source support |
-| C8: Independent recomputation of vertex counts (dropped) | b | SINGLE – omitted due to lack of source support |

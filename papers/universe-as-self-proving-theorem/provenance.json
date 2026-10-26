@@ -3,7 +3,7 @@
   "slug": "universe-as-self-proving-theorem",
   "paper": {
     "path": "papers/universe-as-self-proving-theorem/paper.md",
-    "title": null,
+    "title": "Universe as Self-Proving Theorem",
     "url": "https://papers.qnfo.org/papers/universe-as-self-proving-theorem"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "3a5df3d6ff208ee19788eceecfc26be248738ad8"
+    },
+    {
+      "sha256": "81e84fc9a1c44e663a8d18df991122dbbacdb5f37d1da6e3d9620b3c5530b75b",
+      "bytes": 527244,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

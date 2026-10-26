@@ -16,7 +16,7 @@ aliases:
 **Email**: rowan.quni@qnfo.org
 **ORCID**: 0009-0002-4317-5604
 **ISNI**: 0000000526456062
-**DOI**: 10.5281/zenodo.17085801
+**URL:** https://papers.qnfo.org/papers
 **Version**: 1.0
 **Date**: 2025-09-09
 

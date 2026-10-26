@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-",
+  "paper": {
+    "path": "papers/vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-/paper.md",
+    "title": "Vacuum Dielectric Modulation and Propellant‑less Thrust: Energy‑Density, Momentum‑Conservation, and Thrust Limits",
+    "url": "https://papers.qnfo.org/papers/vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "vacuum-dielectric-modulation-and-propellant-less-thrust-energy-density-momentum-"
+  },
+  "snapshots": [
+    {
+      "sha256": "597fc35a71a8dc1028ddb3e711b32c7a826bfd8c28c5d1e8c7b8bfcf2068fa16",
+      "bytes": 20948,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

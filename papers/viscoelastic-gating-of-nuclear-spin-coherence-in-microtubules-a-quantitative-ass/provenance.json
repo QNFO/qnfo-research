@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "viscoelastic-gating-of-nuclear-spin-coherence-in-microtubules-a-quantitative-ass",
+  "paper": {
+    "path": "papers/viscoelastic-gating-of-nuclear-spin-coherence-in-microtubules-a-quantitative-ass/paper.md",
+    "title": "Viscoelastic Gating of Nuclear Spin Coherence in Microtubules: A Quantitative Assessment",
+    "url": "https://papers.qnfo.org/papers/viscoelastic-gating-of-nuclear-spin-coherence-in-microtubules-a-quantitative-ass"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "viscoelastic-gating-of-nuclear-spin-coherence-in-microtubules-a-quantitative-ass"
+  },
+  "snapshots": [
+    {
+      "sha256": "da9eac545ceeb92868e7ca555b7a5ffc170bbb18d7fa765e3c3929e662d3be80",
+      "bytes": 21370,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
