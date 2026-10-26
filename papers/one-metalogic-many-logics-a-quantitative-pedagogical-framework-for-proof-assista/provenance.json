@@ -3,7 +3,7 @@
   "slug": "one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
   "paper": {
     "path": "papers/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista/paper.md",
-    "title": "One Metalogic, Many Logics: A Quantitative Pedagogical Framework for Proof‑Assistant‑Based Logic Teaching with LogiKEy",
+    "title": "Quantitative Scaffolding for Pluralistic Logic Teaching: A Unified Analysis of the LogiKEy Curriculum",
     "url": "https://papers.qnfo.org/papers/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista"
   },
   "declared": {
@@ -85,6 +85,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "6beefd2af8c62fd9ff6af1c715f5e4c3751c318e"
+    },
+    {
+      "sha256": "8fdab17bb7ac7f1bbc52c3c10be5a269795e5b169958dced9aa71d9c25ae96cf",
+      "bytes": 35739,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.8.0",
+      "git_commit": null
     }
   ],
   "events": []

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time",
+  "paper": {
+    "path": "silent-radix/numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time/paper.md",
+    "title": "Numeral Trees as the Native Ultrametric Geometry of Cyclic Time",
+    "url": "https://papers.qnfo.org/papers/numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "numeral-trees-as-the-native-ultrametric-geometry-of-cyclic-time"
+  },
+  "snapshots": [
+    {
+      "sha256": "a05089d2e833063a5c9093149390145960747ebe76abc2402d9ff6ded45c574e",
+      "bytes": 21383,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
