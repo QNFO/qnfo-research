@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "standard-model-particles-as-quasiparticles-of-a-deeper-substrate",
+  "paper": {
+    "path": "papers/standard-model-particles-as-quasiparticles-of-a-deeper-substrate/paper.md",
+    "title": "Standard Model Particles as Quasiparticles of a Deeper Substrate",
+    "url": "https://papers.qnfo.org/papers/standard-model-particles-as-quasiparticles-of-a-deeper-substrate"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "standard-model-particles-as-quasiparticles-of-a-deeper-substrate"
+  },
+  "snapshots": [
+    {
+      "sha256": "f32dc35bc0646921503fe4b0784cd99e8f5658ff6311847d671a4e940e0a6790",
+      "bytes": 29958,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

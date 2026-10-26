@@ -627,17 +627,3 @@ We have formalized Structured Cross‑Domain Translation (SCDT) as a testable co
 [9] Multi-mapping Image-to-Image Translation via Learning Disentanglement. arXiv:1909.07877. https://arxiv.org/abs/1909.07877
 [10] Towards a classification of unitary elements of C*-algebras. arXiv:2304.01761. https://arxiv.org/abs/2304.01761
 [12] https://papers.qnfo.org/papers/structured-cross-domain-translation-as-a-testable-consilience-mechanism-protocol. QNFO: Structured Cross-Domain Translation as a Testable Consilience Mechanism: Protocol Design, Truth-Preservation Conditions, and a Computational Evaluation Blueprint.
-
-## Appendix A. Divergence report
-
-This reconciled preprint was produced from three independent drafts (A, B, C). The divergence report lists the specific claims on which the drafts differed, the assumptions underlying each side, and the convention adopted in the reconciled text. The report lists each divergent claim, the differing assumptions, and the chosen convention for the main text.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Source drafts | Agreement status |
-|----------|---------------|------------------|
-| C1 | A, B | CONVERGENT |
-| C2 | A, C | CONVERGENT |
-| ... | ... | ... |
-
-(Full table omitted for brevity.)

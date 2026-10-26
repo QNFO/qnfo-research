@@ -5,7 +5,7 @@ Loop Theory of Physical Quantization
 **Affiliation:** QNFO **Contact:**
 rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
 **ISNI:** 0000 0005 2645 6062 **DOI:**
-10.5281/zenodo.17415144 **Publication Date:** 2025-10-22
+https://papers.qnfo.org/papers **Publication Date:** 2025-10-22
 **Version:** 1.0
 
 **Abstract:** Starting from a single axiom—the Principle
@@ -443,10 +443,6 @@ a self-referential topological structure with integer-valued invariants
 and a guaranteed fixed point.
 
 
-
-## Prior Work and Related Literature
-
-This work builds on the following related research:
 
 ### References
 

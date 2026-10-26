@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "static-p-adic-holographic-tree-as-a-fixed-universal-structure",
+  "paper": {
+    "path": "papers/static-p-adic-holographic-tree-as-a-fixed-universal-structure/paper.md",
+    "title": "Static p‑adic Holographic Tree as a Fixed Universal Structure",
+    "url": "https://papers.qnfo.org/papers/static-p-adic-holographic-tree-as-a-fixed-universal-structure"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "static-p-adic-holographic-tree-as-a-fixed-universal-structure"
+  },
+  "snapshots": [
+    {
+      "sha256": "4ed152adc516dd1fa1e542bcb4b42426b13a17dc56d571ffb120eb14e21d55b8",
+      "bytes": 23841,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
