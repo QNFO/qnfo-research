@@ -17,10 +17,10 @@
       }
     },
     {
-      "@id": "#cpython-3.13.17",
+      "@id": "#cpython-3.12.3",
       "@type": "SoftwareApplication",
       "name": "CPython",
-      "version": "3.13.17"
+      "version": "3.12.3"
     },
     {
       "@id": "#provenance-tool",
@@ -377,7 +377,7 @@
       "@type": "CreateAction",
       "name": "Independent re-execution of verification.py",
       "instrument": {
-        "@id": "#cpython-3.13.17"
+        "@id": "#cpython-3.12.3"
       },
       "object": [
         {

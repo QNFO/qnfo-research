@@ -165,6 +165,15 @@ class TestVerify(Base):
             self.assertEqual(pv.backfill(self.repo(), "2026-10-27")["crates"], 0)
         self.assertEqual(cp.read_text(), first)
 
+    def test_refresh_replaces_the_record_even_when_the_outcome_is_the_same(self):
+        make_repo(self.root)
+        pv.backfill(self.repo(), "2026-10-26")
+        cp = self.root / "runs/cycle-2/alpha-paper" / pv.CRATE_FILE
+        self.assertEqual(pv.backfill(self.repo(), "2026-11-30")["crates"], 0)
+        self.assertEqual(pv.backfill(self.repo(), "2026-11-30", refresh_reexecution=True)["crates"], 1)
+        act = next(e for e in json.loads(cp.read_text())["@graph"] if e["@id"] == "#verification-reexecution")
+        self.assertEqual(act["endTime"], "2026-11-30")
+
     def test_a_changed_outcome_replaces_the_record(self):
         make_repo(self.root)
         pv.backfill(self.repo(), "2026-10-26")

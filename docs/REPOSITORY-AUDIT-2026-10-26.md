@@ -46,13 +46,14 @@ Missing or weak:
 | DOIs | 12 papers declare more than one distinct DOI (README vs header); all are from the earlier external deposits | recorded as declared in `provenance.json`; nothing relies on them |
 | Verification scripts whose record cannot be reproduced | **2** of 388 | cycle-217 prints different output on every run (it orders objects by identity); cycle-26's recorded output ends in `Network connection lost.` |
 
-Reproducibility of the verification step, re-executed on Python 3.13.17 exactly as the pipeline runs it
-(`python -I -c <script>`, empty directory, `PYTHONHASHSEED=0`; `python3 tools/provenance.py reproduce --all`):
+Reproducibility of the verification step, re-executed exactly as the pipeline runs it (`python -I -c <script>`, empty directory,
+`PYTHONHASHSEED=0`; `python3 tools/provenance.py reproduce --all`). The reference interpreter is **CPython 3.12**: it reproduces the
+recorded outputs byte for byte (3.13 reproduces 324 exactly and 49 more with the same stdout and exit code but different error wording or
+traceback layout; on 3.11 two scripts do not parse, they use 3.12 f-string syntax).
 
-| Verdict | Runs |
+| Verdict (CPython 3.12) | Runs |
 |---|---|
-| reproduced, exact (stdout, stderr and exit code identical) | 324 |
-| reproduced, equivalent (stdout and exit code identical, same exception type; only traceback layout or error hint differs between Python versions) | 49 |
+| reproduced, exact (stdout, stderr and exit code identical) | 373 |
 | not reproduced | 2 (above) |
 | no recorded output to compare | 13 |
 | run has no verification script | 53 (the pilot, and runs whose files never landed) |

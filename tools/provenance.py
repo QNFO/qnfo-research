@@ -619,6 +619,14 @@ def reproduce_run(repo: Repo, run_rel: str, seeds: Iterable[int] = (0,)) -> Dict
             if (other.get("stdout"), other.get("exit")) != sig:
                 nondet = True
                 break
+    if verdict == "not-reproduced" and not nondet and not res.get("timeout"):
+        # A script that fails to match its record may be nondeterministic with a long period; a few repeats settle it.
+        sig = (res["stdout"], res["exit"])
+        for i in range(10):
+            other = reexecute(code, seeds[i % len(seeds)])
+            if (other.get("stdout"), other.get("exit")) != sig:
+                nondet = True
+                break
     out.update(verdict="not-reproduced" if nondet else verdict, python=res.get("python"), exit=res.get("exit"),
                nondeterministic=nondet,
                stdout_sha256=None if nondet or res.get("timeout") else sha256_bytes(res["stdout"].encode("utf-8")),
@@ -871,7 +879,7 @@ def unchanged_observation(prior_crate: Any, repro: Dict[str, Any]) -> bool:
                 and bool(act.get("qnfo:nondeterministic")) == bool(repro.get("nondeterministic")))
 
 
-def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[str, int]:
+def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True, refresh_reexecution: bool = False) -> Dict[str, int]:
     changed = {"crates": 0, "papers": 0, "gaps": 0}
     adds = repo.legacy_adds()
     runs = repo.discover_runs()
@@ -904,7 +912,7 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[
             if old_root and old_root.get("datePublished"):
                 dep = (old_root.get("qnfo:depositCommit"), old_root["datePublished"])
         repro = reproduce_run(repo, rp, (0, 1, 2)) if reproduce_runs and (run / "verification.py").is_file() else None
-        if repro and unchanged_observation(prior_crate, repro):
+        if repro and not refresh_reexecution and unchanged_observation(prior_crate, repro):
             repro = None   # same outcome as the recorded re-execution: keep that record (date, interpreter) as it is
         crate = build_crate(repo, rp, man, dep, repro, observed_at, titles.get(run_paper.get(rp) or slug_of_run(rp) or ""),
                             run_paper.get(rp), preserve=prior_crate if isinstance(prior_crate, dict) else None)
@@ -1011,6 +1019,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     b = sub.add_parser("backfill", help="write provenance records for everything in the repository")
     b.add_argument("--observed-at", default=time.strftime("%Y-%m-%d", time.gmtime()))
     b.add_argument("--no-reproduce", action="store_true", help="skip re-executing verification scripts")
+    b.add_argument("--refresh-reexecution", action="store_true",
+                   help="replace every recorded re-execution with this run's (use the reference interpreter, CPython 3.12)")
     r = sub.add_parser("reproduce", help="re-execute a run's verification.py and compare with the record")
     r.add_argument("run", nargs="?", help="run directory, e.g. runs/cycle-396/<slug>")
     r.add_argument("--all", action="store_true", help="every run; fails on a verdict worse than the one in its crate")
@@ -1029,7 +1039,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             Path(a.json).write_text(dump_json({"stats": rep.stats, "findings": [f.__dict__ for f in rep.findings]}), encoding="utf-8")
         return 1 if rep.errors() or (a.strict and rep.warnings()) else 0
     if a.cmd == "backfill":
-        print(json.dumps(backfill(repo, a.observed_at, not a.no_reproduce)))
+        print(json.dumps(backfill(repo, a.observed_at, not a.no_reproduce, a.refresh_reexecution)))
         return 0
     if a.cmd == "reproduce" and a.all:
         return reproduce_all(repo, [int(x) for x in a.seeds.split(",") if x != ""])

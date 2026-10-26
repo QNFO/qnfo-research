@@ -143,6 +143,9 @@ commit that introduces it.
 * A verification script uses the standard library only (all imports in the 388 deposited scripts are standard library:
   `math` 386, `fractions` 55, `decimal` 11, `cmath` 4, and one each of `itertools`, `json`, `re`, `sys`) and prints one
   `CLAIM ...` line per quantitative claim.
+* The reference interpreter is **CPython 3.12** (CI uses it): the recorded outputs of all 373 reproducible scripts match its output byte for
+  byte. 3.13 words some errors differently and prints different traceback layouts (49 scripts: `reproduced-equivalent`); 3.11 cannot parse the
+  two scripts that use 3.12 f-string syntax. Each crate records the interpreter version of its re-execution.
 * It is executed as the pipeline executes it: `python -I -c "<script text>"`, in an empty directory, with
   `PYTHONHASHSEED=0` and no network. A string execution has no `__file__`: nine historical runs recorded
   `NameError: name '__file__' is not defined` for that reason, and a file-based re-run would not reproduce the crash.
