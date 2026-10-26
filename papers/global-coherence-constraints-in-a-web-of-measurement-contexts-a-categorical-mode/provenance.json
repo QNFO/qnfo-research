@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode",
+  "paper": {
+    "path": "papers/global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode/paper.md",
+    "title": "Global Coherence Constraints in a Web of Measurement Contexts: A Categorical Model, Trilemma, and Empirical Illustration",
+    "url": "https://papers.qnfo.org/papers/global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "global-coherence-constraints-in-a-web-of-measurement-contexts-a-categorical-mode"
+  },
+  "snapshots": [
+    {
+      "sha256": "0bff7de69e873d8c1f3633b0a3f88fe0ae43444ce1f4b99c4429f67ec2d18c8e",
+      "bytes": 25297,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

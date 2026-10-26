@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a",
+  "paper": {
+    "path": "papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a/paper.md",
+    "title": "Golden Ratio as the Unique Positive Eigenvalue of a Two‑Step Re‑Entry Operator and Its Physical Resonance Implications",
+    "url": "https://papers.qnfo.org/papers/golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "golden-ratio-as-the-unique-positive-eigenvalue-of-a-two-step-re-entry-operator-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "6930c1891d5041ab5653aea4f17a5a74c5a4bf7f0e3449698f80434f80770674",
+      "bytes": 22393,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
