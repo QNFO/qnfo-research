@@ -41,23 +41,6 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/thermodynamic-scaling-limit-of-active-quantum-error-correction"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        },
-        {
-          "@id": "#missing/writer-c-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
@@ -66,12 +49,36 @@
           "@id": "grounding.md"
         },
         {
+          "@id": "review-report.md"
+        },
+        {
           "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
       "mentions": [
         {
           "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
         }
       ]
     },
@@ -160,6 +167,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2409",
+      "sha256": "7ba6dd7a1c65304a08489ff549323a067ace75f10947361aab54dd8f8f083a0d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "verification.md",
       "@type": "File",
       "name": "verification.md",
@@ -170,39 +187,44 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
-      "name": "review-report.md",
-      "sha256": "7ba6dd7a1c65304a08489ff549323a067ace75f10947361aab54dd8f8f083a0d",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
+      "@id": "verification.py",
+      "@type": "File",
       "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2793",
       "sha256": "0909efe388753c7b3015804c88da0846d28c6ca77b691f1009b71a12578fa2e0",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17392",
       "sha256": "e80f85328c1da6223d9843b7d3174f379dbed23456a6817c41ae8eca0c853af4",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20231",
       "sha256": "6590f6e7aae794de986104174ddeb043d0aec4b3aa128ee5a8d4a414dd678941",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-c-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-c-draft.md",
+      "@type": "File",
       "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20937",
       "sha256": "f6919f55cef4d9d997933f20e10e8ec74cb426c81ff7adee6721021a411ecd8d",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#grounding",
@@ -238,6 +260,87 @@
         }
       ],
       "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T02:02:06+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

@@ -41,35 +41,46 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/review-report.md"
-        },
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        },
-        {
-          "@id": "#missing/writer-c-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
-      "mentions": []
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
     },
     {
       "@id": "https://qnfo.org/legal/license",
@@ -111,6 +122,31 @@
       "url": "https://papers.qnfo.org/papers/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-"
     },
     {
+      "@id": "https://arxiv.org/abs/1111.0731",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1111.0731"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1404.2594",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1404.2594"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1411.7581",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1411.7581"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1802.08117",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1802.08117"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.00871",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.00871"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -121,53 +157,190 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
+      "@id": "grounding.md",
+      "@type": "File",
       "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9697",
       "sha256": "06727a6ab23545443f2f0ef247892382c0abddf8321573f9d2991d714c50c414",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/review-report.md",
-      "@type": "CreativeWork",
+      "@id": "review-report.md",
+      "@type": "File",
       "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3293",
       "sha256": "7fd9a940cec8a77f81d7e7b68e7c58ab397ad063f1bf0734973136d88ba488fc",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
+      "@id": "verification.md",
+      "@type": "File",
       "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3525",
       "sha256": "63e4bce0869eb0e4b7b9a30d92e635da61ab35448ce64eba1f9569f048c4fd5e",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
+      "@id": "verification.py",
+      "@type": "File",
       "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1285",
       "sha256": "e818011610ecfe1d870b2481b3c79ac87f285e724889776bee666f4b129373f7",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17297",
       "sha256": "16f20b216b0044b283b0b9ff2ad0fd36e7fa7a2f86c2e5d9c1f78cecfa36765a",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27115",
       "sha256": "e75da08435b45a3d927ee1f2a645bcff1e1663599f9fb5181eca1b1ca2dcc6f6",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-c-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-c-draft.md",
+      "@type": "File",
       "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20297",
       "sha256": "9458f8762da686a59306c45d68b87dac7ff607eefe86323a94b3f0fb25a6e51b",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1111.0731"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1404.2594"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1411.7581"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1802.08117"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.00871"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-09T10:45:33+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

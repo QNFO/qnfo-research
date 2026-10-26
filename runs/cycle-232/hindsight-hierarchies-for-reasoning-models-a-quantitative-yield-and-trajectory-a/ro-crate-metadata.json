@@ -53,14 +53,6 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/verification.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
@@ -72,7 +64,13 @@
           "@id": "review-report.md"
         },
         {
+          "@id": "verification.md"
+        },
+        {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
         },
         {
           "@id": "writer-b-draft.md"
@@ -206,6 +204,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9481",
+      "sha256": "ea09bf651bd05c5fd20005fb25be3ad6b7549d64816cc566d20f963693e653c0",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "verification.py",
       "@type": "File",
       "name": "verification.py",
@@ -213,6 +221,16 @@
       "contentSize": "3142",
       "sha256": "d4155088d8d826a61f760d9cee62328b4dc70c9c9830122bdf5175f44082b026",
       "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27922",
+      "sha256": "9be2b0187d74b000b7cc2d9ef658d8fcc453ad259ee1d335d48170e76162fcbe",
+      "qnfo:role": "draft",
       "qnfo:listedInManifest": true
     },
     {
@@ -224,20 +242,6 @@
       "sha256": "dc69f354ac1d32b96e356a3043734439332404dbeddaa4f2008b3489d55e3a9a",
       "qnfo:role": "draft",
       "qnfo:listedInManifest": true
-    },
-    {
-      "@id": "#missing/verification.md",
-      "@type": "CreativeWork",
-      "name": "verification.md",
-      "sha256": "ea09bf651bd05c5fd20005fb25be3ad6b7549d64816cc566d20f963693e653c0",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-a-draft.md",
-      "sha256": "9be2b0187d74b000b7cc2d9ef658d8fcc453ad259ee1d335d48170e76162fcbe",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
     },
     {
       "@id": "#grounding",
@@ -292,6 +296,9 @@
       },
       "result": [
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
@@ -323,6 +330,9 @@
       "qnfo:basis": "inferred-from-procedure",
       "object": [
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ]
@@ -341,13 +351,14 @@
       ],
       "result": [
         {
-          "@id": "verification.py"
+          "@id": "verification.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
       "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
       "endTime": "2026-10-19T17:31:24+02:00",
       "description": "endTime is the deposit time; the execution time itself was not recorded."
     },

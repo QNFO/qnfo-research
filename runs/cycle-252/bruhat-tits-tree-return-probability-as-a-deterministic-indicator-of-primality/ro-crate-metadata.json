@@ -53,14 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -79,6 +77,9 @@
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality"
     },
     {
+      "@id": "https://arxiv.org/abs/1301.5453",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1301.5453"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1704.01149",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1704.01149"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.01463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.01463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.09397",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.09397"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.12024",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.12024"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.15443",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.15443"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.03730",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.03730"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.12933",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2505.12933"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +181,16 @@
       "contentSize": "881",
       "sha256": "1cfdcf157f8f4b2bf46646b8e7e3a237b9835443c1c9ac90ba2ff8024d60798e",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52292",
+      "sha256": "09afbbc802b652fa9aa26a443a15188706b3131e42c260e51e56da4c4c15019e",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -193,11 +244,48 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "09afbbc802b652fa9aa26a443a15188706b3131e42c260e51e56da4c4c15019e",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1301.5453"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1704.01149"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.01463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.09397"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.12024"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.15443"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.03730"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2505.12933"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -217,7 +305,12 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",

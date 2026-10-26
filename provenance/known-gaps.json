@@ -26,148 +26,6 @@
       }
     },
     {
-      "id": "GAP-MISS-7f0d7f85d3",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-35/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres",
-      "files": [
-        "writer-b-draft.md",
-        "writer-c-draft.md"
-      ],
-      "expected_sha256": {
-        "writer-b-draft.md": "85f575c3561e513f670b158197c5af5d83a6c5bdb8a3d7dbdf9e932cb8caacbf",
-        "writer-c-draft.md": "a5b2ca93ebeb06c693969ab5f1c34de6ed7692f6560401f174faa3d6cb93fd86"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-828899d971",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-252/bruhat-tits-tree-return-probability-as-a-deterministic-indicator-of-primality",
-      "files": [
-        "grounding.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "09afbbc802b652fa9aa26a443a15188706b3131e42c260e51e56da4c4c15019e"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-8476c49feb",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-232/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
-      "files": [
-        "verification.md",
-        "writer-a-draft.md"
-      ],
-      "expected_sha256": {
-        "verification.md": "ea09bf651bd05c5fd20005fb25be3ad6b7549d64816cc566d20f963693e653c0",
-        "writer-a-draft.md": "9be2b0187d74b000b7cc2d9ef658d8fcc453ad259ee1d335d48170e76162fcbe"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-90aa8954ea",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-321/thermodynamic-scaling-limit-of-active-quantum-error-correction",
-      "files": [
-        "review-report.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md",
-        "writer-c-draft.md"
-      ],
-      "expected_sha256": {
-        "review-report.md": "7ba6dd7a1c65304a08489ff549323a067ace75f10947361aab54dd8f8f083a0d",
-        "verification.py": "0909efe388753c7b3015804c88da0846d28c6ca77b691f1009b71a12578fa2e0",
-        "writer-a-draft.md": "e80f85328c1da6223d9843b7d3174f379dbed23456a6817c41ae8eca0c853af4",
-        "writer-b-draft.md": "6590f6e7aae794de986104174ddeb043d0aec4b3aa128ee5a8d4a414dd678941",
-        "writer-c-draft.md": "f6919f55cef4d9d997933f20e10e8ec74cb426c81ff7adee6721021a411ecd8d"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-91d5ac069e",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-30/a-taxonomy-of-exchange-statistics-from-configuration-space-topology-non-abelian-",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md",
-        "writer-c-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "06727a6ab23545443f2f0ef247892382c0abddf8321573f9d2991d714c50c414",
-        "review-report.md": "7fd9a940cec8a77f81d7e7b68e7c58ab397ad063f1bf0734973136d88ba488fc",
-        "verification.md": "63e4bce0869eb0e4b7b9a30d92e635da61ab35448ce64eba1f9569f048c4fd5e",
-        "verification.py": "e818011610ecfe1d870b2481b3c79ac87f285e724889776bee666f4b129373f7",
-        "writer-a-draft.md": "16f20b216b0044b283b0b9ff2ad0fd36e7fa7a2f86c2e5d9c1f78cecfa36765a",
-        "writer-b-draft.md": "e75da08435b45a3d927ee1f2a645bcff1e1663599f9fb5181eca1b1ca2dcc6f6",
-        "writer-c-draft.md": "9458f8762da686a59306c45d68b87dac7ff607eefe86323a94b3f0fb25a6e51b"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-986381b71f",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-280/the-price-of-the-digital-abstraction-entropy-and-encoding-overhead-when-discrete",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "verification.py",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "31e6e8e722388fda00672d611bec6878c3aa87cc5072e54ae5c6b8cb8b98d37a",
-        "review-report.md": "8037a2c0f3bcaf2c40022a06095f1b4bb0417f62d89c5f32e4baa5ede09891b7",
-        "verification.md": "b73100070b4feade44a06f0d10b43573066d88afcbb58c73005c229db1417857",
-        "verification.py": "a5614f88b88c707369246774c56d80e3a647cd613aa81edb55b0f232fba0cc6e",
-        "writer-b-draft.md": "d13845b344a9607c72e54ff2ab76601f0af4ad816a1257f3fc4cff68adf64c56"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-9e97223630",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-32/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md",
-        "writer-c-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "ae1615d6ea46b430a1a4200ca0b8833f5665a37601c62ff38306d27695f56c66",
-        "review-report.md": "57f97a0e5277fee45410a4a8ea210abf851f46722b2bcf30404f0b29fe3a2b7b",
-        "verification.md": "7e91514020890e1d787afede1e9217a381ce5e6bf65e417c35276111ee6a14b6",
-        "verification.py": "3a9f15bdf814b724de02b1707d815e8fb8eab1f874af9e491e2c91a951ef4e2c",
-        "writer-a-draft.md": "8f5bbd658a428041a77b50b3412ba2a6cf6de37840567bde464037d87e6267c1",
-        "writer-b-draft.md": "6af6314aa3cc2d2910296235e12d3dee30c5661dc38c484066b86ffca23d0c65",
-        "writer-c-draft.md": "10532c29847c1d360ae451192fd20709e5bfe9ebeda677c287fe197cc4fe022e"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
       "id": "GAP-MISS-a1b78f2341",
       "kind": "manifest-file-missing",
       "path": "runs/cycle-282/re-entry-of-non-markovian-boson-mediated-transport-into-light-harvesting-complex",
@@ -179,7 +37,10 @@
       },
       "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
       "recovery": "restore-from-r2-by-hash",
-      "status": "open"
+      "status": "unrecoverable",
+      "unrecoverable": {
+        "verification.md": "the copy in R2 is a different version (its hash differs from the manifest's)"
+      }
     },
     {
       "id": "GAP-MISS-b250dbdf40",
@@ -986,20 +847,6 @@
       ],
       "runs": [
         "runs/cycle-196/adelic-ruler-independence-and-rationality-of-standard-model-parameters"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
-      "id": "GAP-PAPER-04505996f2",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard",
-      "files": [
-        "papers/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-175/joint-bruhat-tits-tree-product-as-a-testable-cross-domain-structure-for-standard"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",

@@ -53,14 +53,6 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/the-scaling-paradox-of-surface-code-quantum-error-correction-exponential-suppres"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/writer-b-draft.md"
-        },
-        {
-          "@id": "#missing/writer-c-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
@@ -79,6 +71,12 @@
         },
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
       "mentions": [
@@ -234,18 +232,24 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25833",
       "sha256": "85f575c3561e513f670b158197c5af5d83a6c5bdb8a3d7dbdf9e932cb8caacbf",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-c-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-c-draft.md",
+      "@type": "File",
       "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22389",
       "sha256": "a5b2ca93ebeb06c693969ab5f1c34de6ed7692f6560401f174faa3d6cb93fd86",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
       "@id": "#grounding",
@@ -298,6 +302,12 @@
       "result": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
       "actionStatus": {
@@ -329,6 +339,12 @@
       "object": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ]
     },
