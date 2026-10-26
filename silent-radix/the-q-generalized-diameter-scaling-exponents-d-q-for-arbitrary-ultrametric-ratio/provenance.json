@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio",
+  "paper": {
+    "path": "silent-radix/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio/paper.md",
+    "title": "The q-Generalized α-Diameter: Scaling Exponents D_q^α for Arbitrary Ultrametric Ratios",
+    "url": "https://papers.qnfo.org/papers/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-6/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio"
+  },
+  "snapshots": [
+    {
+      "sha256": "3b2834766b3b51c2df3a139394915213d30ec26e31f91696da483f8e4f993f4a",
+      "bytes": 26553,
+      "recorded_at": "2026-10-26",
+      "basis": "restore",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": [
+    {
+      "event": "restored",
+      "at": "2026-10-26",
+      "detail": "paper text restored from living-paper"
+    }
+  ]
+}

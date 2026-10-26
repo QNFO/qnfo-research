@@ -697,20 +697,6 @@
       "status": "open"
     },
     {
-      "id": "GAP-PAPER-0a03ca8285",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio",
-      "files": [
-        "papers/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-6/the-q-generalized-diameter-scaling-exponents-d-q-for-arbitrary-ultrametric-ratio"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
       "id": "GAP-PAPER-0a602a3df5",
       "kind": "paper-text-not-in-repo",
       "path": "papers/monna-map-projection-of-p-adic-trees-as-a-geometric-origin-of-quantum-randomness",
