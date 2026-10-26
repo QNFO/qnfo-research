@@ -287,35 +287,3 @@ We have presented a fully analytic, conservatively bounded assessment of a holog
 [9] https://papers.qnfo.org/papers/holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br. QNFO: Holographic Quantum Error Correction as AdS/CFT Renormalization-Group Flow on Bruhat–Tits Trees: A Conditional Threshold Analysis at 10⁻⁴.
 [10] https://papers.qnfo.org/papers/holographic-quantum-error-correction-on-bruhat-tits-trees-a-conditional-threshol. QNFO: Holographic Quantum Error Correction on Bruhat–Tits Trees: A Conditional Threshold and Resource Analysis at $10^{-4}$.
 [11] https://papers.qnfo.org/papers/fidelity-budgets-for-discrete-regularizations-of-gauge-theories-exact-single-lin. QNFO: Fidelity Budgets for Discrete Regularizations of Gauge Theories: Exact Single-Link Computations, Scaling Laws, and the Limits of Heuristic Bounds.
-
-## Appendix A. Divergence report
-
-**Divergence 1 – Resource comparison detail.**  
-- *Writer A* provides a quantitative photon‑budget comparison (54 photons per logical qubit vs $\approx 1682$ physical qubits, reduction $\approx 31$×) and cites [11] for the $5$–$40\times$ advantage.  
-- *Writer B* mentions a resource comparison in the contributions list but does not give the explicit photon numbers or factor.  
-*Resolution adopted:* Retain Writer A’s detailed calculation because it is fully derived in Section 4.5 and supported by the photon‑advantage range reported in [11].
-
-
-
-All other substantive claims are convergent between the drafts.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement (summarized) | Source drafts | Agreement status |
-|----------|------------------------|---------------|------------------|
-| C1 | Effective bit‑flip rate after cat‑code suppression is $p_{\rm eff}=2.703\times10^{-8}$. | A, B | CONVERGENT |
-| C2 | Tree recursion for ternary majority vote is $f(p)=3p^{2}-2p^{3}$ with fixed point $p^{\ast}=1/4$. | A, B | CONVERGENT |
-| C3 | Depolarizing threshold for the tree is $3/8=3.75\times10^{-1}$. | A, B | CONVERGENT |
-| C4 | Margin over $10^{-4}$ is $3.70\times10^{3}$. | A, B | CONVERGENT |
-| C5 | Readout‑dominated dephasing margin is $19.2\times$. | A, B | CONVERGENT |
-| C6 | Depth‑2 logical error under independence is $1.4\times10^{-29}$. | A, B | CONVERGENT |
-| C7 | Correlated‑error floor for $p_{\rm corr}=10^{-3}$ is $8.0\times10^{-8}$. | A, B | CONVERGENT |
-| C8 | Survivability condition $p_{\rm corr}\le7.7\times10^{-6}$ per subtree per cycle. | A, B | CONVERGENT |
-| C9 | Photon budget for tree stack is $54$ photons per logical qubit; surface‑code baseline $\approx 1682$ qubits; reduction $\approx 31$×. | A | SINGLE (retained) |
-| C10 | Conservative no‑inner‑code cross‑check bound $4.9\times10^{-5}$. | A | SINGLE (retained) |
-| C11 | TRL of the work is 2. | A, B | CONVERGENT |
-| C12 | Minimal next experiment is crosstalk tomography to measure $p_{\rm corr}$. | A, B | CONVERGENT |
-| C13 | Engineering constraints list (correlated‑error rate, cat‑code photon number, readout fidelity, tree depth). | A, B | CONVERGENT |
-| C14 | Bibliographic citations for specific statements (e.g., [1] measured holographic entropy, [2] hardware fidelities, etc.). | A, B | CONVERGENT |
-
-All other statements in the manuscript are either derivations from the above claims or explanatory text.

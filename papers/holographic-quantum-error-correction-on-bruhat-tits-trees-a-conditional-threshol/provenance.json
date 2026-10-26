@@ -3,7 +3,7 @@
   "slug": "holographic-quantum-error-correction-on-bruhat-tits-trees-a-conditional-threshol",
   "paper": {
     "path": "papers/holographic-quantum-error-correction-on-bruhat-tits-trees-a-conditional-threshol/paper.md",
-    "title": "Holographic Quantum Error Correction on Bruhat–Tits Trees: A Conditional Threshold and Resource Analysis at $10^{-4}$",
+    "title": "Holographic Quantum Error Correction on Bruhat–Tits Trees: A Conditional Threshold and Resource Analysis at $10^{-4}$",
     "url": "https://papers.qnfo.org/papers/holographic-quantum-error-correction-on-bruhat-tits-trees-a-conditional-threshol"
   },
   "declared": {
@@ -37,6 +37,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "4dd3076df4ca3ccdafca9e4896e6fa9e1f3fd9a6"
+    },
+    {
+      "sha256": "304bcdda90c55f646e008028efeb817b81ead70c974f5317a9a558437eb4634c",
+      "bytes": 21126,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.1",
+      "git_commit": null
     }
   ],
   "events": []

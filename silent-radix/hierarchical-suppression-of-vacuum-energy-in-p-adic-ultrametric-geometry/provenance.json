@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hierarchical-suppression-of-vacuum-energy-in-p-adic-ultrametric-geometry",
+  "paper": {
+    "path": "silent-radix/hierarchical-suppression-of-vacuum-energy-in-p-adic-ultrametric-geometry/paper.md",
+    "title": "Hierarchical Suppression of Vacuum Energy in $p$‑Adic Ultrametric Geometry",
+    "url": "https://papers.qnfo.org/papers/hierarchical-suppression-of-vacuum-energy-in-p-adic-ultrametric-geometry"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hierarchical-suppression-of-vacuum-energy-in-p-adic-ultrametric-geometry"
+  },
+  "snapshots": [
+    {
+      "sha256": "ad6769e023695a25f0d62c3e2fbe982f00ef88fd383dd20096dec9b9c9049024",
+      "bytes": 32096,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

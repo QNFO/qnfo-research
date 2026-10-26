@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a",
+  "paper": {
+    "path": "papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a/paper.md",
+    "title": "Hindsight Hierarchies for Reasoning Models: A Quantitative Yield and Trajectory Analysis of the Reverse-Engineering Self-Improvement Loop",
+    "url": "https://papers.qnfo.org/papers/hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hindsight-hierarchies-for-reasoning-models-a-quantitative-yield-and-trajectory-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "255739549ef4f5e7b01972621aff703d00c5ee05a5556266fdb1a6dd42a888ea",
+      "bytes": 42705,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

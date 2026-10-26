@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ignorance-as-a-firewall-formalizing-functional-ignorance-for-systemic-stability-",
+  "paper": {
+    "path": "papers/ignorance-as-a-firewall-formalizing-functional-ignorance-for-systemic-stability-/paper.md",
+    "title": "Ignorance as a Firewall: Formalizing Functional Ignorance for Systemic Stability in Social Networks",
+    "url": "https://papers.qnfo.org/papers/ignorance-as-a-firewall-formalizing-functional-ignorance-for-systemic-stability-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ignorance-as-a-firewall-formalizing-functional-ignorance-for-systemic-stability-"
+  },
+  "snapshots": [
+    {
+      "sha256": "c3548279c835c7192b5721041086a2c91150f9294a008de26cd58efec24ff7f6",
+      "bytes": 21720,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

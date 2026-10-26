@@ -169,8 +169,6 @@ Assuming a $1$ USD per physical qubit (a rough engineering projection) and a $
 **(f) Risks and misuse.**  
 If designers assume the $10^{-4}$ threshold holds without verifying $\kappa$ or error correlations, they may overcommit resources to an architecture that cannot meet reliability targets, leading to wasted fabrication effort. Conversely, the high‑bandwidth measurement requirement could incentivize the deployment of insecure high‑speed readout channels, exposing the system to side‑channel attacks.
 
-
-
 ## 7. Practical Implications and Engineering Pathways
 
 **(a) Intended users and design impact.**  
@@ -221,24 +219,3 @@ We presented a fully explicit conditional analysis of the holographic QEC archit
 [8] Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures. arXiv:2505.09343v2. https://arxiv.org/abs/2505.09343v2
 [9] https://papers.qnfo.org/papers/holographic-quantum-error-correction-as-ads-cft-renormalization-group-flow-on-br. QNFO: Holographic Quantum Error Correction as AdS/CFT Renormalization-Group Flow on Bruhat–Tits Trees: A Conditional Threshold Analysis at 10⁻⁴.
 [10] https://papers.qnfo.org/papers/the-resource-burden-of-active-quantum-error-correction-a-scaling-analysis-of-qub. QNFO: The Resource Burden of Active Quantum Error Correction: A Scaling Analysis of Qubit, Bandwidth, and Energy Overheads.
-
-## Appendix A. Divergence report
-
-**D1 (CONVERGENT with a documented convention choice).** Primary error model (Convention 1) uses distance‑based concatenation law; Convention 2 uses a quadratic RG map. Both are documented; the main text adopts Convention 1 for resource numbers and reports Convention 2 only for the fixed‑point condition.
-
-**D2 (DIVERGENT, resolved).** Interpretation at $\epsilon=\epsilon_{th}$: one draft emphasized logical error rate $=1$ (zero protection), another emphasized the unstable fixed point $p^{*}=1/\kappa$. Both are correct within their conventions; we adopt the zero‑protection phrasing as the operational statement and note the fixed‑point view for completeness.
-
-## Appendix B. Claim attribution
-
-| Claim | Substance | Source drafts | Status |
-|---|---|---|---|
-| C1 | Zero protection at $\epsilon=\epsilon_{th}$ | A, B, C | CONVERGENT |
-| C2 | Distance requirement formula and $d\ge21$ at $\epsilon=10^{-5}$ | A, B, C | CONVERGENT |
-| C3 | Qubit overhead $N_{\text{phys}}=88{,}573$ and bandwidth $B=8.8573\times10^{10}$ | A, B, C | CONVERGENT |
-| C4 | Shallow $d=11$ requires $\epsilon\le1.4678\times10^{-6}$ | A, B | CONVERGENT |
-| C5 | Resource explosion at $\epsilon=5\times10^{-5}$ | A | SINGLE |
-| C6 | Quadratic‑map threshold $\epsilon_{th}=1/\kappa$ and $\kappa\le10^{4}$ | B, C | CONVERGENT |
-| C7 | Architectural analogies from [1]–[8] | A, B, C | CONVERGENT |
-| C8 | Limitations and failure‑mode discussion | A, B, C | CONVERGENT |
-| C9 | Practical implications and engineering pathway | A, B, C | CONVERGENT |
-| C10 | Bibliographic citations of eight works with specific points | A, B, C | CONVERGENT |
