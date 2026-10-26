@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-",
+  "paper": {
+    "path": "papers/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-/paper.md",
+    "title": "Quantitative Bulk–Boundary Correspondence for Anyon Condensation: Two Computable Indices with Explicit Arithmetic",
+    "url": "https://papers.qnfo.org/papers/quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantitative-bulk-boundary-correspondence-for-anyon-condensation-two-computable-"
+  },
+  "snapshots": [
+    {
+      "sha256": "9e09f5d9f381afc6dcf57a7ab3ceb469a73479ae867d6688198a5dd4745a6874",
+      "bytes": 24522,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

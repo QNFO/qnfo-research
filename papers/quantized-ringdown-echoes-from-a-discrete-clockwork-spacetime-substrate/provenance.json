@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantized-ringdown-echoes-from-a-discrete-clockwork-spacetime-substrate",
+  "paper": {
+    "path": "papers/quantized-ringdown-echoes-from-a-discrete-clockwork-spacetime-substrate/paper.md",
+    "title": "Quantized Ringdown Echoes from a Discrete Clockwork Spacetime Substrate",
+    "url": "https://papers.qnfo.org/papers/quantized-ringdown-echoes-from-a-discrete-clockwork-spacetime-substrate"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantized-ringdown-echoes-from-a-discrete-clockwork-spacetime-substrate"
+  },
+  "snapshots": [
+    {
+      "sha256": "46ee201c1097641e694096ade152fabe3b167ec46e16992e2c4647bd2cdb0d3f",
+      "bytes": 31007,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
