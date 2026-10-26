@@ -369,20 +369,3 @@ By expressing the holographic entropy bound in Planck natural units, we have sho
 [6] Information Flow in Computational Systems. arXiv:1902.02292v3. https://arxiv.org/abs/1902.02292v3
 [7] https://papers.qnfo.org/papers/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop. QNFO: Non-Anthropocentric Natural Units for Area and Information in Holographic Entropy Bounds.
 [8] https://papers.qnfo.org/papers/compton-cross-ratios-v2. QNFO: Compton Frequency Cross-Ratios on Bruhat-Tits Trees: A Pre-Registered Search for Adelic Structure in the Standard Model Mass Spectrum (Version 2.3).
-
-## Appendix A. Divergence report
-
-*No divergent claims were identified among the drafts; all substantive statements converge.*
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts |
-|---|---|---|
-| C1 | The holographic bound can be written as $D\le e^{A/4}$ with $S=A/4$ (base‑free). | A, B, C |
-| C2 | Conversion constant $1/\ln2 = 1.4426950409$. | A, B, C |
-| C3 | For $A=10^{68}$, $S=2.5\times10^{67}$ nats, $b=3.60674\times10^{67}$ bits, $D\le10^{1.085736\times10^{67}}$. | A, B, C |
-| C4 | Integer rounding at $A=4$ yields $D_{\text{int}}=2$ with relative deficit $26.4\%$. | A, B, C |
-| C5 | All base‑$b$ entropy representations are related by fixed constants, implying empirical equivalence. | A, B, C |
-| C6 | The only conventional element remaining is the integer rounding of $D$. | A, B, C |
-| C7 | The work is analytical (TRL 2) and no experiment has been performed. | A, B, C |
-| C8 | The minimal next test is a numerical evaluation of the rounding deficit for $A=4$. | A, B, C |
