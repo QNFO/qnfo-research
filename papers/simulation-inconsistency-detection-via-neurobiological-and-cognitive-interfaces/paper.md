@@ -344,7 +344,3 @@ Here is the continuation of the detailed, merged outline for Chapters 3 through 
     *   **P6:** Discusses the risks, such as the possibility that simulators might monitor AI development and intervene if it is seen as a threat.
     *   **P7:** Concludes the entire document by pointing to a synergistic future for neuroscience, physics, and AI in the search for simulation artifacts, deepening our understanding of consciousness and reality regardless of the outcome.
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-

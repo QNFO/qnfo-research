@@ -179,27 +179,3 @@ We have defined and operationalized a *So‑What Impact Metric* that quantifies 
 [6] Towards Feature Engineering with Human and AI's Knowledge: Understanding Data Science Practitioners' Perceptions in Human&amp;AI-Assisted Feature Engineering Design. arXiv:2405.14107v1. https://arxiv.org/abs/2405.14107v1
 [7] Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking. arXiv:2504.14689v1. https://arxiv.org/abs/2504.14689v1
 [8] Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts. arXiv:2603.12895v1. https://arxiv.org/abs/2603.12895v1
-
-## Appendix A. Divergence report
-*The only substantive divergence across drafts concerns the magnitude of the win‑rate improvement reported for explanation‑assisted image retrieval in [5].*  
-
-- **Draft A** reported a win‑rate increase of **4.81 percentage‑points** (71.48 % vs. 66.67 %).  
-- **Draft B** reported a win‑rate increase of **8.14 percentage‑points** (69.29 % vs. 61.15 %).  
-
-Both drafts derived the difference by simple subtraction of the baseline and explanation conditions. The source table in [5] contains the values **69.29 %** and **61.15 %**, which support the **8.14 %** figure. Consequently, the reconciled paper adopts the **8.14 %** improvement as the canonical result.
-
-No other divergent claims were identified; all remaining substantive statements converge across drafts.
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | Definition of So‑What Impact Metric (ΔPerformance) | A, B, C | Convergent |
-| C2 | Win‑rate improvement of **8.14 %** from [5] | B, C | Convergent (adopted after divergence resolution) |
-| C3 | 95 % CI **[0.8095, 0.8325]** computed from [6] | A, B, C | Convergent |
-| C4 | Limitations list (L1–L5) | A, B, C | Convergent |
-| C5 | Falsification condition (no ΔPerformance) | A, B, C | Convergent |
-| C6 | Practical implications for funding agencies | A, B, C | Convergent |
-| C7 | TRL assessment (1–2) | A, B, C | Convergent |
-| C8 | Minimal pilot experiment design | A, B, C | Convergent |
-| C9 | Cost projection ≈ $30 k (assumption‑based) | A, B, C | Convergent |
-| C10 | Risks of metric gaming and equity concerns | A, B, C | Convergent |

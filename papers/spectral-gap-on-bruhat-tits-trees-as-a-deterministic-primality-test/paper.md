@@ -237,24 +237,3 @@ We have introduced a deterministic primality test based on the spectral gap of f
 [7] On $p$-adic colligations and 'rational maps' of Bruhat-Tits trees. arXiv:1301.5453v1. https://arxiv.org/abs/1301.5453v1
 [8] On the asymptotic behavior of the spectral gap for discrete Schrödinger operators. arXiv:2508.16353v2. https://arxiv.org/abs/2508.16353v2
 [12] https://papers.qnfo.org/papers/time-as-epistemic-emergence-on-a-p-adic-bruhat-tits-tree-static-constraint-count. QNFO: Time as Epistemic Emergence on a $p$-Adic Bruhat–Tits Tree: Static Constraint, Counting Laws, and the Observer-Generated Arrow.
-
-## Appendix A. Divergence report
-**Runtime bound divergence.**  
-- Draft A claimed a runtime of $O((\log N)^2)$ (Section 5.2).  
-- Draft B derived a runtime of $O((\log N)^6)$ (Section 4.5) using the power‑method analysis.  
-
-We adopt the $O((\log N)^6)$ bound from Draft B for the main text, as it follows from an explicit bit‑complexity analysis. The $O((\log N)^2)$ claim is noted as a divergent view.
-
-## Appendix B. Claim attribution
-| Claim ID | Description | Source Draft(s) | Agreement |
-|----------|-------------|----------------|-----------|
-| C1 | Encoding map $N\mapsto\gamma_N$ and invariance of $\mathcal{T}_p^{(D)}$ | A, B, C | Convergent |
-| C2 | Spectral‑gap dichotomy (prime bound (1), composite bound (2)) | A, B, C | Convergent |
-| C3 | Assumed mean eigenvalue $\mu\approx1.984$ and observed gap $\delta\approx0.016$ | A, B, C | Convergent |
-| C4 | Prime lower bound $\lambda_{\text{gap}}^{\text{prime}}= (p+1)-2\sqrt{p}\approx0.1716$ | A, B, C | Convergent |
-| C5 | Vertex count formulas $N_d$, $V_d$ and explicit values for $p=2$, $d=10$ | A, B, C | Convergent |
-| C6 | Runtime bound $O((\log N)^6)$ (adopted) | B, C | Convergent |
-| C7 | Limitations list (four items) | A, B, C | Convergent |
-| C8 | Practical implications (users, TRL, next experiment, constraints, projection, risks) | A, B, C | Convergent |
-| C9 | Bibliography citations (8 works) | A, B, C | Convergent |
-| C10 | Falsifiability condition | A, B, C | Convergent |

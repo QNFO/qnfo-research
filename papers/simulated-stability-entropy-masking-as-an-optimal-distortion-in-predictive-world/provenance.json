@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "simulated-stability-entropy-masking-as-an-optimal-distortion-in-predictive-world",
+  "paper": {
+    "path": "papers/simulated-stability-entropy-masking-as-an-optimal-distortion-in-predictive-world/paper.md",
+    "title": "Simulated Stability: Entropy‑Masking as an Optimal Distortion in Predictive World‑Modeling",
+    "url": "https://papers.qnfo.org/papers/simulated-stability-entropy-masking-as-an-optimal-distortion-in-predictive-world"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "simulated-stability-entropy-masking-as-an-optimal-distortion-in-predictive-world"
+  },
+  "snapshots": [
+    {
+      "sha256": "9b978edcb60f85a5e6bdda563229407d486ac88f1638eab1060c1ba1114b56a9",
+      "bytes": 28978,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

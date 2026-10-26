@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "singularity-as-an-epistemic-artifact-finite-cyclic-cosmology-without-actual-infi",
+  "paper": {
+    "path": "papers/singularity-as-an-epistemic-artifact-finite-cyclic-cosmology-without-actual-infi/paper.md",
+    "title": "Singularity as an Epistemic Artifact: Finite Cyclic Cosmology without Actual Infinities",
+    "url": "https://papers.qnfo.org/papers/singularity-as-an-epistemic-artifact-finite-cyclic-cosmology-without-actual-infi"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "singularity-as-an-epistemic-artifact-finite-cyclic-cosmology-without-actual-infi"
+  },
+  "snapshots": [
+    {
+      "sha256": "6a0f8d8f69010be16c9efc5f831f83e22aa25343a41f72873d4df6b739ccd45c",
+      "bytes": 37770,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

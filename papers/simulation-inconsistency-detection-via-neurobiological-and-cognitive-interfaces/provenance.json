@@ -3,7 +3,7 @@
   "slug": "simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces",
   "paper": {
     "path": "papers/simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces/paper.md",
-    "title": null,
+    "title": "Simulation Inconsistency Detection via Neurobiological and Cognitive Interfaces",
     "url": "https://papers.qnfo.org/papers/simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "b96a8acf4d91089fa0e6a6d5e3cce4a927d3ac23"
+    },
+    {
+      "sha256": "9110f73c815b20eb16d704cdc079e4fdd414157e9a0a80e3bbaa8cb933281172",
+      "bytes": 49248,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []
