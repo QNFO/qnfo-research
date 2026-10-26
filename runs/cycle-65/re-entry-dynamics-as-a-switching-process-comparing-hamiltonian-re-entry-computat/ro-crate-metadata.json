@@ -41,23 +41,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/verification.py"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        },
-        {
-          "@id": "#missing/writer-c-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -66,15 +55,30 @@
           "@id": "verification.md"
         },
         {
+          "@id": "verification.py"
+        },
+        {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
         {
           "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
         }
       ]
     },
@@ -118,6 +122,46 @@
       "url": "https://papers.qnfo.org/papers/re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat"
     },
     {
+      "@id": "https://arxiv.org/abs/1103.3589",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1103.3589"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1302.1844",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1302.1844"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1308.4280",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1308.4280"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.02715",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.02715"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.03357",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.03357"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.02012",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.02012"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2304.06897",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2304.06897"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.15628",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.15628"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -125,6 +169,16 @@
       "contentSize": "1019",
       "sha256": "efaa3d7d6be9a9beab62ee58d59231caca656890d45ca25100e03d0d347b9d5d",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12145",
+      "sha256": "f1bf52a82355de2a4dffbea00142193b9dfed13492a5f504c3baff00a72855a7",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -148,6 +202,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1673",
+      "sha256": "af69f11d970479d6af70809267d996729aac36427ea316a8e445568c51426557",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-a-draft.md",
       "@type": "File",
       "name": "writer-a-draft.md",
@@ -158,32 +222,68 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "f1bf52a82355de2a4dffbea00142193b9dfed13492a5f504c3baff00a72855a7",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/verification.py",
-      "@type": "CreativeWork",
-      "name": "verification.py",
-      "sha256": "af69f11d970479d6af70809267d996729aac36427ea316a8e445568c51426557",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26934",
       "sha256": "631fad5b245f06cb13eaecdfbf59d6e446374e3b97325de12abcae15ca799465",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-c-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-c-draft.md",
+      "@type": "File",
       "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29506",
       "sha256": "d75c520b6f1b0baccc271758514cb12f339ed19bad1ba01e99b4afb8ce3fe2ff",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1103.3589"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1302.1844"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1308.4280"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.02715"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.03357"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.02012"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2304.06897"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.15628"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -195,12 +295,23 @@
       "result": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -221,8 +332,39 @@
       "object": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
         }
       ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-10T16:45:41+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
     }
   ]
 }

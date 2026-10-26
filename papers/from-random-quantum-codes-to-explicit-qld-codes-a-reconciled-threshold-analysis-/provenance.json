@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-",
+  "paper": {
+    "path": "papers/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-/paper.md",
+    "title": "From Random Quantum Codes to Explicit qLD Codes: A Reconciled Threshold Analysis of the Quantum-LCL Framework",
+    "url": "https://papers.qnfo.org/papers/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-18/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-"
+  },
+  "snapshots": [
+    {
+      "sha256": "ef1e7f9a58ad7c2e988b23267938a1d06ad4ec084d3fee307054b19711f578c7",
+      "bytes": 33054,
+      "recorded_at": "2026-10-26",
+      "basis": "restore",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": [
+    {
+      "event": "restored",
+      "at": "2026-10-26",
+      "detail": "paper text restored from living-paper"
+    }
+  ]
+}

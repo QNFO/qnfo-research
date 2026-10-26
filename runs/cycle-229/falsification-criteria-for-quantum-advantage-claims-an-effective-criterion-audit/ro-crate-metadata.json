@@ -53,17 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -76,9 +71,15 @@
         },
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,51 @@
       "url": "https://papers.qnfo.org/papers/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit"
     },
     {
+      "@id": "https://arxiv.org/abs/1302.3805",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1302.3805"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.00547",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.00547"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1703.02637",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1703.02637"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.13664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.13664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.04454",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.04454"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2309.06480",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2309.06480"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2309.13408",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2309.13408"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.05720",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.05720"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.01066",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.01066"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +186,16 @@
       "contentSize": "880",
       "sha256": "94d52be8a719065547a94d2083f966caf559923a173ab4c86cd8fe5c2ef5bc1e",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "81078",
+      "sha256": "eedd80481644d9e9feaf84fa7dac2526ff622497e1cb98358b634c97e4733464",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -183,18 +239,61 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "eedd80481644d9e9feaf84fa7dac2526ff622497e1cb98358b634c97e4733464",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24981",
+      "sha256": "8ba6cc25af8ecbd1d7cb70c870bc00bf615f3fc303df124f3cfed16681073bff",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-b-draft.md",
-      "sha256": "8ba6cc25af8ecbd1d7cb70c870bc00bf615f3fc303df124f3cfed16681073bff",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1302.3805"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.00547"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1703.02637"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.13664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.04454"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2309.06480"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2309.13408"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.05720"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.01066"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -206,12 +305,20 @@
       "result": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -232,6 +339,9 @@
       "object": [
         {
           "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ]
     },

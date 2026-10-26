@@ -53,20 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        },
-        {
-          "@id": "#missing/writer-b-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -76,9 +68,21 @@
         },
         {
           "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
         {
           "@id": "#review"
         },
@@ -130,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati"
     },
     {
+      "@id": "https://arxiv.org/abs/1904.03285",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1904.03285"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.04977",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.04977"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.09724",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.09724"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.14689",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.14689"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.16770",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.16770"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.03730",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.03730"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.12895",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.12895"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.02455",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.02455"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -137,6 +181,16 @@
       "contentSize": "879",
       "sha256": "5a4e55def25e977a951243d12f984e436f75136f676b1048abd24c0a0a27f99a",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "50952",
+      "sha256": "01da7a6e94f2de5be3b25c20064e900ebd3507eda2224c08f9f9744a416de6f6",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -170,25 +224,93 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "01da7a6e94f2de5be3b25c20064e900ebd3507eda2224c08f9f9744a416de6f6",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-a-draft.md",
+      "@type": "File",
       "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17184",
       "sha256": "7d4ff4a9ce3ddd0de82c71e5bc85b0829403b10e04c79b839af4480ed6daafc6",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/writer-b-draft.md",
-      "@type": "CreativeWork",
+      "@id": "writer-b-draft.md",
+      "@type": "File",
       "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26372",
       "sha256": "3973dec82301409eff84169a82b5897ee952b8d83561fb9d1c83d71119b36844",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1904.03285"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.04977"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.09724"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.14689"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.16770"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.03730"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.12895"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.02455"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -205,7 +327,15 @@
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
     },
     {
       "@id": "#verification-original",

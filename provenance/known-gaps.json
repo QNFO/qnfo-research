@@ -43,170 +43,6 @@
       }
     },
     {
-      "id": "GAP-MISS-b250dbdf40",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-188/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "d80d960111a87d01863ac66c0e60ef7ba9a1a6bcc47902db845fac568f1fc1aa",
-        "writer-a-draft.md": "92c7233c1c724096daad183780882ed5ac535c01f8afd0df08af7c29616d1191"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-b7cc6c362c",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-278/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "557e86bf33d7133e19e8412d76c4c71952d5ddcf8047bd99e260853ee64f4317",
-        "writer-a-draft.md": "fc4eb00829d933cceb265b90ac87e2233b1710c87ee7fad06ac73303d1090771"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-bbd5748167",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-220/ensemble-drafting-under-broadcast-control-throughput-algebra-variance-reduction-",
-      "files": [
-        "review-report.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "review-report.md": "6eb44b3569a3eb461423ffedc7cf786d9ca33dba9db3682ef91b0a8bc10fc5ff",
-        "writer-b-draft.md": "6fbbcc23552f408fbaa63e236c2ceb788f591b4dc0cf7559d95d1179f957580a"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-bfbc5ca151",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-219/evaluating-the-productivity-gains-of-a-five-phase-human-llm-orchestration-protoc",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "b63fa4f3a9c5c1d786f07223c054f98b8e7a42ca73dd0efa2160fe78276acf0f",
-        "writer-a-draft.md": "144f3c0eda81a9ee8720e04bf1d1a9351d5d8c94d3c1b6b005e0bf2e4bc484f1",
-        "writer-b-draft.md": "5fd5b917f3166b1673b7801faed89f156810db45c5e1b4c169be7de8c2e126f2"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-c19c7bdfc6",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-251/adelic-constraints-on-standard-model-parameters-a-toy-consistency-test",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "fa6ca0b571d96bffa90b345dc11336c7272b53d250d420bcd2118fff54607e7a",
-        "review-report.md": "2fbb04bbf586d59af2ad89c509bbc8ab5f19be4b9887aea83b0938b581e1f272",
-        "writer-a-draft.md": "a9ec296915cbc418c40c59cfdd65ebae6b5bbba724675edceb4ce0836b27ad08",
-        "writer-b-draft.md": "84ca132a87ef56e59a123208f81827fd74db0f7028ec193ab255f75a4aa85dd7"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-da5679ded3",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-229/falsification-criteria-for-quantum-advantage-claims-an-effective-criterion-audit",
-      "files": [
-        "grounding.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "eedd80481644d9e9feaf84fa7dac2526ff622497e1cb98358b634c97e4733464",
-        "writer-b-draft.md": "8ba6cc25af8ecbd1d7cb70c870bc00bf615f3fc303df124f3cfed16681073bff"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-df4897988d",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-218/appearance-under-relativistic-motion-a-quantitative-re-examination-across-thermo",
-      "files": [
-        "grounding.md",
-        "review-report.md",
-        "verification.md",
-        "verification.py",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "9ff8bec187d875ec5b4af3f443da6d5add75401d77b1cced776a753f8f967e0e",
-        "review-report.md": "edc3f72efed3b6c48065577b50e2587c87f9dfd8cce614c4c90786736a2ef228",
-        "verification.md": "0d21ba57b6ece09e5c95d4d138152784161a15c8687e99fc2d326927cf81a845",
-        "verification.py": "53829421b44365d6c630ef93a246a9cba1c44e7d984f27719337d83873031833",
-        "writer-a-draft.md": "1ab7a2e0ef9fec1c36e0323931bcc3062f979d76406691014e5320a2cc41a75b",
-        "writer-b-draft.md": "aa0a366b9b71b636817548d10db7f2c83dbc919550a7083954020148f88fcdaa"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-e7c3728845",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-206/outlier-penalizing-bias-in-human-gatekeeping-and-algorithmic-ranking-a-comparati",
-      "files": [
-        "grounding.md",
-        "writer-a-draft.md",
-        "writer-b-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "01da7a6e94f2de5be3b25c20064e900ebd3507eda2224c08f9f9744a416de6f6",
-        "writer-a-draft.md": "7d4ff4a9ce3ddd0de82c71e5bc85b0829403b10e04c79b839af4480ed6daafc6",
-        "writer-b-draft.md": "3973dec82301409eff84169a82b5897ee952b8d83561fb9d1c83d71119b36844"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
-      "id": "GAP-MISS-ec132407de",
-      "kind": "manifest-file-missing",
-      "path": "runs/cycle-65/re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat",
-      "files": [
-        "grounding.md",
-        "verification.py",
-        "writer-b-draft.md",
-        "writer-c-draft.md"
-      ],
-      "expected_sha256": {
-        "grounding.md": "f1bf52a82355de2a4dffbea00142193b9dfed13492a5f504c3baff00a72855a7",
-        "verification.py": "af69f11d970479d6af70809267d996729aac36427ea316a8e445568c51426557",
-        "writer-b-draft.md": "631fad5b245f06cb13eaecdfbf59d6e446374e3b97325de12abcae15ca799465",
-        "writer-c-draft.md": "d75c520b6f1b0baccc271758514cb12f339ed19bad1ba01e99b4afb8ce3fe2ff"
-      },
-      "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
-      "recovery": "restore-from-r2-by-hash",
-      "status": "open"
-    },
-    {
       "id": "GAP-MISS-fa932a8cdc",
       "kind": "manifest-file-missing",
       "path": "runs/cycle-213/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
@@ -228,7 +64,11 @@
       },
       "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
       "recovery": "restore-from-r2-by-hash",
-      "status": "open"
+      "status": "open",
+      "unrecoverable": {
+        "grounding.md": "the copy in R2 is a different version (its hash differs from the manifest's)",
+        "review-report.md": "the copy in R2 is a different version (its hash differs from the manifest's)"
+      }
     },
     {
       "id": "GAP-NOMAN-0147d58401",
@@ -847,20 +687,6 @@
       ],
       "runs": [
         "runs/cycle-196/adelic-ruler-independence-and-rationality-of-standard-model-parameters"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
-      "id": "GAP-PAPER-0704ed2cc6",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-",
-      "files": [
-        "papers/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-18/from-random-quantum-codes-to-explicit-qld-codes-a-reconciled-threshold-analysis-"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",

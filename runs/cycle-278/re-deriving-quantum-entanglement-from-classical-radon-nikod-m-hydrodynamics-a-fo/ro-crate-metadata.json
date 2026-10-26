@@ -53,17 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -75,10 +70,16 @@
           "@id": "verification.py"
         },
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,46 @@
       "url": "https://papers.qnfo.org/papers/re-deriving-quantum-entanglement-from-classical-radon-nikod-m-hydrodynamics-a-fo"
     },
     {
+      "@id": "https://arxiv.org/abs/1110.0157",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1110.0157"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1206.5715",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1206.5715"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2004.13176",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2004.13176"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.03984",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.03984"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.14759",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.14759"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2107.11259",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2107.11259"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2111.08018",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2111.08018"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2207.14810",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2207.14810"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +181,16 @@
       "contentSize": "881",
       "sha256": "bd86c11879a99e2f15623525896116213618400e5ae2b13424b77d9f557a79e3",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "86907",
+      "sha256": "557e86bf33d7133e19e8412d76c4c71952d5ddcf8047bd99e260853ee64f4317",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -173,6 +224,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23223",
+      "sha256": "fc4eb00829d933cceb265b90ac87e2233b1710c87ee7fad06ac73303d1090771",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-b-draft.md",
       "@type": "File",
       "name": "writer-b-draft.md",
@@ -183,18 +244,48 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "557e86bf33d7133e19e8412d76c4c71952d5ddcf8047bd99e260853ee64f4317",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-a-draft.md",
-      "sha256": "fc4eb00829d933cceb265b90ac87e2233b1710c87ee7fad06ac73303d1090771",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1110.0157"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1206.5715"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2004.13176"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.03984"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.14759"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2107.11259"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2111.08018"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2207.14810"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -205,13 +296,21 @@
       },
       "result": [
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -230,6 +329,9 @@
       },
       "qnfo:basis": "inferred-from-procedure",
       "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
         {
           "@id": "writer-b-draft.md"
         }

@@ -53,17 +53,12 @@
       "about": {
         "@id": "https://papers.qnfo.org/papers/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-"
       },
-      "qnfo:missingParts": [
-        {
-          "@id": "#missing/grounding.md"
-        },
-        {
-          "@id": "#missing/writer-a-draft.md"
-        }
-      ],
       "hasPart": [
         {
           "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
         },
         {
           "@id": "review-report.md"
@@ -75,10 +70,16 @@
           "@id": "verification.py"
         },
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "mentions": [
+        {
+          "@id": "#grounding"
+        },
         {
           "@id": "#drafting"
         },
@@ -133,6 +134,56 @@
       "url": "https://papers.qnfo.org/papers/cross-ratios-as-universal-atoms-of-meaning-a-projective-invariant-framework-for-"
     },
     {
+      "@id": "https://arxiv.org/abs/0709.1211",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0709.1211"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1506.02169",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1506.02169"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.00936",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.00936"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1711.00775",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1711.00775"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1903.01422",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1903.01422"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1906.02845",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1906.02845"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.00481",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.00481"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2204.06340",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2204.06340"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.11922",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.11922"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.12367",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.12367"
+    },
+    {
       "@id": "MANIFEST.json",
       "@type": "File",
       "name": "MANIFEST.json",
@@ -140,6 +191,16 @@
       "contentSize": "880",
       "sha256": "91c004e4d5c71b58940a7ef29b94f3ea9a2eaa5bb6a2d84cc328d77e942ecc96",
       "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "56917",
+      "sha256": "d80d960111a87d01863ac66c0e60ef7ba9a1a6bcc47902db845fac568f1fc1aa",
+      "qnfo:role": "grounding",
       "qnfo:listedInManifest": true
     },
     {
@@ -173,6 +234,16 @@
       "qnfo:listedInManifest": true
     },
     {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24168",
+      "sha256": "92c7233c1c724096daad183780882ed5ac535c01f8afd0df08af7c29616d1191",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
       "@id": "writer-b-draft.md",
       "@type": "File",
       "name": "writer-b-draft.md",
@@ -183,18 +254,54 @@
       "qnfo:listedInManifest": true
     },
     {
-      "@id": "#missing/grounding.md",
-      "@type": "CreativeWork",
-      "name": "grounding.md",
-      "sha256": "d80d960111a87d01863ac66c0e60ef7ba9a1a6bcc47902db845fac568f1fc1aa",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
-    },
-    {
-      "@id": "#missing/writer-a-draft.md",
-      "@type": "CreativeWork",
-      "name": "writer-a-draft.md",
-      "sha256": "92c7233c1c724096daad183780882ed5ac535c01f8afd0df08af7c29616d1191",
-      "qnfo:status": "listed-in-manifest-absent-from-repository"
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0709.1211"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1506.02169"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.00936"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1711.00775"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1903.01422"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1906.02845"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.00481"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2204.06340"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.11922"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.12367"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
     },
     {
       "@id": "#drafting",
@@ -205,13 +312,21 @@
       },
       "result": [
         {
+          "@id": "writer-a-draft.md"
+        },
+        {
           "@id": "writer-b-draft.md"
         }
       ],
       "actionStatus": {
         "@id": "http://schema.org/CompletedActionStatus"
       },
-      "qnfo:basis": "inferred-from-procedure"
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
     },
     {
       "@id": "#review",
@@ -230,6 +345,9 @@
       },
       "qnfo:basis": "inferred-from-procedure",
       "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
         {
           "@id": "writer-b-draft.md"
         }
