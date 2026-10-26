@@ -293,25 +293,6 @@ The supplied bibliography contains exactly twelve works; all are cited, so relat
 
 **(f) Direct risks or misuse.** Misapplication of the UANP to statements that lack a genuine gluing cocycle (e.g., analytic product formulas without adelic structure) could lead to erroneous conclusions about forced values. Users must verify the three schema tests (T1)–(T3) before invoking the principle.
 
-## Appendix A. Divergence report
-
-No divergences were identified among the independent drafts. All substantive claims appear in the same form across drafts, and each claim is classified as **CONVERGENT**.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts | Agreement status |
-|----------|-----------|---------------|------------------|
-| C1 | $\displaystyle\prod_{v}\Bigl|\frac{12}{5}\Bigr|_{v}=1$ (product formula for $x=12/5$) | A, B, C | CONVERGENT |
-| C2 | $\displaystyle\prod_{v}|2|_{v}=1$ (product formula for $x=2$) | A, B, C | CONVERGENT |
-| C3 | $H(2/3)=3$ (adelic height of $2/3$) | A, B, C | CONVERGENT |
-| C4 | $\tau(\mathbb{G}_{m})=1$ over $\mathbb{Q}$ (Tamagawa number of the multiplicative group) | A, B, C | CONVERGENT |
-| C5 | $\tau\bigl(R^{1}_{\mathbb{Q}(i)/\mathbb{Q}}\mathbb{G}_{m}\bigr)=2$ (Tamagawa number of the norm‑one torus) | A, B, C | CONVERGENT |
-| C6 | Cokernel criterion: $\nu(X)=1$ iff $|\operatorname{coker}(\rho)|=1$ and $\Sha=0$ | A, B, C | CONVERGENT |
-| C7 | Classification of the ten bibliography works as conforming, boundary, or violating the schema (Table 4.6) | A, B, C | CONVERGENT |
-| C8 | Practical implications (Section 7) – intended users, TRL 1, next experiment, engineering constraints, cost projection, risk statement | A, B, C | CONVERGENT |
-| C9 | Limitations and falsifiability conditions (Section 6) – list of three failure modes and falsification observation | A, B, C | CONVERGENT |
-| C10 | Conclusion summarizing the universal adelic normalization principle and its verified specializations | A, B, C | CONVERGENT |
-
 ## Conclusion
 
 We proposed a universal adelic normalization principle under which Ostrowski's product formula and Ono's Tamagawa number formula appear as specializations of one local–global schema: freely normalizable local data, a gluing cocycle into a cohomology group, and a forced aggregate value $\nu(X)=|\mathrm{H}^{1}_{\mathrm{glue}}|/|\Sha_{\mathrm{glue}}|$. We verified the schema's mechanism with full arithmetic on the flagship cases ($\prod_{v}|12/5|_{v}=1$, $\prod_{v}|2|_{v}=1$, $H(2/3)=3$, $\tau(\mathbb{G}_{m})=1$, $\tau(R^{1}_{\mathbb{Q}(i)/\mathbb{Q}}\mathbb{G}_{m})=2$), stated a cokernel criterion for when the forced value is $1$, and classified ten works from the supplied bibliography as conforming, boundary, or violating cases. The unification remains conjectural beyond these verified specializations; its value lies in making the constraint lattice of each adelic statement explicit and in a computable test for triviality of the forced value.
