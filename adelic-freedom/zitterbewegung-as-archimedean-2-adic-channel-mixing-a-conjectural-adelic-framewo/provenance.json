@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zitterbewegung-as-archimedean-2-adic-channel-mixing-a-conjectural-adelic-framewo",
+  "paper": {
+    "path": "adelic-freedom/zitterbewegung-as-archimedean-2-adic-channel-mixing-a-conjectural-adelic-framewo/paper.md",
+    "title": "Zitterbewegung as Archimedean–2-adic Channel Mixing: A Conjectural Adelic Framework and Its Testable Consequences",
+    "url": "https://papers.qnfo.org/papers/zitterbewegung-as-archimedean-2-adic-channel-mixing-a-conjectural-adelic-framewo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zitterbewegung-as-archimedean-2-adic-channel-mixing-a-conjectural-adelic-framewo"
+  },
+  "snapshots": [
+    {
+      "sha256": "ceab206729009a4c3653817fd2901c491ba2506ce724e2b868ac8881333e7137",
+      "bytes": 31114,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
