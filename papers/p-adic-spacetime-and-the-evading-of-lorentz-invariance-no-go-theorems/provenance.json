@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-spacetime-and-the-evading-of-lorentz-invariance-no-go-theorems",
+  "paper": {
+    "path": "papers/p-adic-spacetime-and-the-evading-of-lorentz-invariance-no-go-theorems/paper.md",
+    "title": "p‑adic Spacetime and the Evading of Lorentz‑Invariance No‑Go Theorems",
+    "url": "https://papers.qnfo.org/papers/p-adic-spacetime-and-the-evading-of-lorentz-invariance-no-go-theorems"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-spacetime-and-the-evading-of-lorentz-invariance-no-go-theorems"
+  },
+  "snapshots": [
+    {
+      "sha256": "9b7dd1dddc304458d2458dd9b97a4bc1bd7ddd4f2411fd07e62cdeacecf50453",
+      "bytes": 23471,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a",
+  "paper": {
+    "path": "papers/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a/paper.md",
+    "title": "p‑Adic Lift‑and‑Shift: Transplanting Elementary Calculus to the 2‑adic Tree and a Primary‑Education Blueprint",
+    "url": "https://papers.qnfo.org/papers/p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-lift-and-shift-transplanting-elementary-calculus-to-the-2-adic-tree-and-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "b24d606dae7b711fd8cd6cfc3f06d7c5022f0a22845004d17a2a5b967756d14b",
+      "bytes": 24217,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

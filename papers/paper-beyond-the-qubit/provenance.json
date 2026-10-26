@@ -3,7 +3,7 @@
   "slug": "paper-beyond-the-qubit",
   "paper": {
     "path": "papers/paper-beyond-the-qubit/paper.md",
-    "title": "1. The Question Behind the Critique",
+    "title": "Beyond the Qubit: Constructive Paradigms for Post-Particle Computation",
     "url": "https://papers.qnfo.org/papers/paper-beyond-the-qubit"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "4c659731f66897b280c4ed42bcc28a0b77b06e2b"
+    },
+    {
+      "sha256": "4d45318b9a956ea3ab82ec0b18b0b9b86ef64f30ccbf8f8f17697d6d4bb5d78c",
+      "bytes": 58313,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.1.0",
+      "git_commit": null
     }
   ],
   "events": []

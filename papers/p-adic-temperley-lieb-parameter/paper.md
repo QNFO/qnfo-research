@@ -405,10 +405,6 @@ The next phase will construct the **p-adic anyon models** — representations of
 
 
 
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-
 ## References
 
 [@PADIC-ANYONS-PHASE1] Quni-Gudzinas, R.B. (2026). p-Adic Braid Groups on Bruhat-Tits Buildings. QNFO, v1.0.

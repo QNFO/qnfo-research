@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-ultrametric-embeddings-for-explainable-hierarchical-ai-representations",
+  "paper": {
+    "path": "silent-radix/p-adic-ultrametric-embeddings-for-explainable-hierarchical-ai-representations/paper.md",
+    "title": "p‑adic Ultrametric Embeddings for Explainable Hierarchical AI Representations",
+    "url": "https://papers.qnfo.org/papers/p-adic-ultrametric-embeddings-for-explainable-hierarchical-ai-representations"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-ultrametric-embeddings-for-explainable-hierarchical-ai-representations"
+  },
+  "snapshots": [
+    {
+      "sha256": "c08369bc173beb37d40178b700188c9a6102dfbe922d55bf80b6992183806939",
+      "bytes": 38200,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

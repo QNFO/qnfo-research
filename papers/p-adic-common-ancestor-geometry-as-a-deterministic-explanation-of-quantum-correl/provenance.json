@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl",
+  "paper": {
+    "path": "papers/p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl/paper.md",
+    "title": "p‑Adic Common‑Ancestor Geometry as a Deterministic Explanation of Quantum Correlations",
+    "url": "https://papers.qnfo.org/papers/p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl"
+  },
+  "snapshots": [
+    {
+      "sha256": "acc9cf106998557eafd7f69711dab0a5f1215d9146d0bb9a0227d7188169a6d3",
+      "bytes": 20923,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
