@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "phononic-crystal-scaffolds-as-frozen-floquet-drives-mapping-protein-vibrational-",
+  "paper": {
+    "path": "papers/phononic-crystal-scaffolds-as-frozen-floquet-drives-mapping-protein-vibrational-/paper.md",
+    "title": "Phononic Crystal Scaffolds as Frozen Floquet Drives: Mapping Protein Vibrational Spectra to Ambient‑Temperature Quantum Transport",
+    "url": "https://papers.qnfo.org/papers/phononic-crystal-scaffolds-as-frozen-floquet-drives-mapping-protein-vibrational-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "phononic-crystal-scaffolds-as-frozen-floquet-drives-mapping-protein-vibrational-"
+  },
+  "snapshots": [
+    {
+      "sha256": "4c734df230d1511c21afe6b142922a195417deaaa94fdcd5d3615281c9cd33fb",
+      "bytes": 25324,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

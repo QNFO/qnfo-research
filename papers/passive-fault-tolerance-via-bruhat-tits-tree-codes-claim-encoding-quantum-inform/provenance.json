@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform",
+  "paper": {
+    "path": "papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform/paper.md",
+    "title": "Passive Fault Tolerance via Bruhat-Tits Tree Codes. Claim: encoding quantum information on Bruhat-Tits trees (p-adic ultrametric geometry) y",
+    "url": "https://papers.qnfo.org/papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "passive-fault-tolerance-via-bruhat-tits-tree-codes-claim-encoding-quantum-inform"
+  },
+  "snapshots": [
+    {
+      "sha256": "6737cce34b9c2ede69ebac85cebfc7c3097085847fafa472ea59643519d88aac",
+      "bytes": 49874,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

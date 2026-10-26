@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "passive-error-rejection-via-cryo-fluidic-topological-phases-a-feasibility-analys",
+  "paper": {
+    "path": "papers/passive-error-rejection-via-cryo-fluidic-topological-phases-a-feasibility-analys/paper.md",
+    "title": "Passive Error Rejection via Cryo-Fluidic Topological Phases: A Feasibility Analysis of the Topological Matter Engine",
+    "url": "https://papers.qnfo.org/papers/passive-error-rejection-via-cryo-fluidic-topological-phases-a-feasibility-analys"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "passive-error-rejection-via-cryo-fluidic-topological-phases-a-feasibility-analys"
+  },
+  "snapshots": [
+    {
+      "sha256": "6ab1dd16dc98b89d96ca35befca8403e198cf36fe4bea872fa384d9263aecc47",
+      "bytes": 38112,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

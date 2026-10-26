@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "perception-as-interpolation-over-a-discrete-universe",
+  "paper": {
+    "path": "papers/perception-as-interpolation-over-a-discrete-universe/paper.md",
+    "title": "Perception as Interpolation over a Discrete Universe",
+    "url": "https://papers.qnfo.org/papers/perception-as-interpolation-over-a-discrete-universe"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "perception-as-interpolation-over-a-discrete-universe"
+  },
+  "snapshots": [
+    {
+      "sha256": "0767ffe65e81af62eaa3bcc1cc0845ffe8a93ccfd026a13573b12439484ce304",
+      "bytes": 29063,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

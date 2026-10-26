@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "passive-quantum-error-correction-via-ultrametric-geometry-on-bruhat-tits-trees",
+  "paper": {
+    "path": "silent-radix/passive-quantum-error-correction-via-ultrametric-geometry-on-bruhat-tits-trees/paper.md",
+    "title": "Passive Quantum Error Correction via Ultrametric Geometry on Bruhat–Tits Trees",
+    "url": "https://papers.qnfo.org/papers/passive-quantum-error-correction-via-ultrametric-geometry-on-bruhat-tits-trees"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "passive-quantum-error-correction-via-ultrametric-geometry-on-bruhat-tits-trees"
+  },
+  "snapshots": [
+    {
+      "sha256": "2967a973527686ef79b270c7453bed66f84e58d1c399e6764d4923400196c7bd",
+      "bytes": 31370,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
