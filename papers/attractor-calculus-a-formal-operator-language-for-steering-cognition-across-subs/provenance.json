@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs",
+  "paper": {
+    "path": "papers/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs/paper.md",
+    "title": "Attractor Calculus: A Formal Operator Language for Steering Cognition Across Substrates",
+    "url": "https://papers.qnfo.org/papers/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs"
+  },
+  "snapshots": [
+    {
+      "sha256": "dc8cb9dbac0061805e728e433cc08c31338e870680d84045f050e2ecc7933be6",
+      "bytes": 43179,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

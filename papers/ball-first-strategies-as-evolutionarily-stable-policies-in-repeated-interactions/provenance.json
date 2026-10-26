@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ball-first-strategies-as-evolutionarily-stable-policies-in-repeated-interactions",
+  "paper": {
+    "path": "papers/ball-first-strategies-as-evolutionarily-stable-policies-in-repeated-interactions/paper.md",
+    "title": "Ball‑First Strategies as Evolutionarily Stable Policies in Repeated Interactions",
+    "url": "https://papers.qnfo.org/papers/ball-first-strategies-as-evolutionarily-stable-policies-in-repeated-interactions"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ball-first-strategies-as-evolutionarily-stable-policies-in-repeated-interactions"
+  },
+  "snapshots": [
+    {
+      "sha256": "99046ecddd92374457b81b7b21287fe17ad8bd89819c4067baad8dcab19187bf",
+      "bytes": 29622,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

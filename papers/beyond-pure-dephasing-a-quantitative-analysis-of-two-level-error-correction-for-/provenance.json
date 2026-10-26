@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-",
+  "paper": {
+    "path": "papers/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-/paper.md",
+    "title": "Beyond Pure Dephasing: A Quantitative Analysis of Two-Level Error Correction for Multi-Spin Molecular Qubits",
+    "url": "https://papers.qnfo.org/papers/beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "beyond-pure-dephasing-a-quantitative-analysis-of-two-level-error-correction-for-"
+  },
+  "snapshots": [
+    {
+      "sha256": "72dd99a9fc8a4a5892c9e01b1faba276f42a99fb58e0a41843033fbc6f0bb261",
+      "bytes": 24517,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

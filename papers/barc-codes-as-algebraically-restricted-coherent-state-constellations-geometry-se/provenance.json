@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "barc-codes-as-algebraically-restricted-coherent-state-constellations-geometry-se",
+  "paper": {
+    "path": "papers/barc-codes-as-algebraically-restricted-coherent-state-constellations-geometry-se/paper.md",
+    "title": "BARC Codes as Algebraically Restricted Coherent-State Constellations: Geometry, Separation Bounds, and a Worked Single-Mode Benchmark",
+    "url": "https://papers.qnfo.org/papers/barc-codes-as-algebraically-restricted-coherent-state-constellations-geometry-se"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "barc-codes-as-algebraically-restricted-coherent-state-constellations-geometry-se"
+  },
+  "snapshots": [
+    {
+      "sha256": "630df9a5af689e9009b5c43ca20700c00a1ca63803804af73373d5c5c31c2bf0",
+      "bytes": 29866,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

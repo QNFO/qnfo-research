@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "archimedean-constants-as-measure-theoretic-artifacts-of-the-infinite-place-a-rec",
+  "paper": {
+    "path": "papers/archimedean-constants-as-measure-theoretic-artifacts-of-the-infinite-place-a-rec/paper.md",
+    "title": "Archimedean Constants as Measure-Theoretic Artifacts of the Infinite Place: A Reconciled Derivation of the Local Status of $\\pi$",
+    "url": "https://papers.qnfo.org/papers/archimedean-constants-as-measure-theoretic-artifacts-of-the-infinite-place-a-rec"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "archimedean-constants-as-measure-theoretic-artifacts-of-the-infinite-place-a-rec"
+  },
+  "snapshots": [
+    {
+      "sha256": "d7267e83e254cc0fe7d6701191ebaacf57d2579afdc8d5522be99e1f6043499f",
+      "bytes": 32331,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
