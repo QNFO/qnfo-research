@@ -29,7 +29,6 @@ The viability of physical theories and computational proposals has been expresse
   
   
 
-
 These eight works collectively demonstrate that viability criteria can be expressed as algebraic inequalities, component‑count limits, energy budgets, or combinatorial bounds—precisely the quantitative constraints that the Principle of Bounded Physicality unifies.
 
 ## 3. Methods
@@ -495,26 +494,3 @@ The Principle of Bounded Physicality provides a rigorous, quantitative filter fo
 [9] From deep learning to mechanistic understanding in neuroscience: the structure of retinal prediction. arXiv:1912.06207. https://arxiv.org/abs/1912.06207
 [10] Updated estimate of the number of edges in induced subgraphs of a special distance graph. arXiv:1802.02148. https://arxiv.org/abs/1802.02148
 [13] https://papers.qnfo.org/papers/excluded-middle-as-computational-boundary. QNFO: Excluded Middle as Computational Boundary.
-
-## Appendix A. Divergence report
-*No divergent claims were identified among the drafts; all substantive statements converged.*
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|----------------|-----------|
-| C1 | Principle of Bounded Physicality defined as a binary viability filter against universal limits. | A, B, C | Convergent |
-| C2 | Derivation of scaling law for brute‑force key search (Eqs. 1‑4). | A, B, C | Convergent |
-| C3 | Numerical estimate for 128‑bit key search: sequential time \(3.4\times10^{29}\) s. | A, B, C | Convergent |
-| C4 | Required parallelism \(p\approx3.4\times10^{11}\) processors to meet \(T_{\max}\). | A, B, C | Convergent |
-| C5 | Hardware mass for required parallelism \(3.4\times10^{8}\) kg. | A, B, C | Convergent |
-| C6 | Energy consumption \(9.5\times10^{17}\) J (Landauer limit). | A, B, C | Convergent |
-| C7 | Universal energy budget \(B_{E}=1.5\times10^{70}\) J and operation budget \(B_{\text{ops}}^{\text{eff}}=5.2\times10^{90}\) operations. | A, B, C | Convergent |
-| C8 | Critical key length \(n^{*}=301\) bits under the operation budget. | A, B, C | Convergent |
-| C9 | Margins for 128‑, 256‑, and 2048‑bit searches (PLAUSIBLE, PLAUSIBLE, NON‑VIABLE). | A, B, C | Convergent |
-| C10 | List of eight literature examples and their specific quantitative points. | A, B, C | Convergent |
-| C11 | Limitations table summarizing assumptions. | A, B, C | Convergent |
-| C12 | Practical implications for cryptographers, physicists, AI designers. | A, B, C | Convergent |
-| C13 | TRL assessment (TRL 2). | A, B, C | Convergent |
-| C14 | Minimal next experiment proposal (simulation of Universe Check). | A, B, C | Convergent |
-| C15 | Cost projection of \$34 trillion for parallel hardware. | A, B, C | Convergent |
-| C16 | Direct risks or misuse paths, where one exists. | A, B, C | Convergent |
