@@ -18,7 +18,7 @@ modified: 2026-04-11T11:53:49Z
 **Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
 **ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
 **ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** [10.5281/zenodo.19511462](http://doi.org/10.5281/zenodo.19511462)
+**DOI:** https://papers.qnfo.org/papers
 **Date:** 2026-04-11
 **Version:** 1.0
 
@@ -828,8 +828,4 @@ The syntactic framework represents a significant achievement of parsimony in sci
 
 The relational ontology stands as a comprehensive and rigorous blueprint for understanding all physical and cognitive phenomena. It successfully bridges the gap between the microscopic quantum realm and the macroscopic continuous illusion. It provides the mathematical tools necessary to build the next generation of fault-tolerant computational hardware. We have mapped the territory from the primitive act of distinction to the highest levels of abstract thought. Reality is a timeless, self-computing web of pure structural relationships. Continuous execution of this grammar is the only physical truth that exists. This document represents the definitive synthesis of the syntactic relational framework.
 
-
-## Prior Work and Related Literature
-
-This work builds on the following related research:
 

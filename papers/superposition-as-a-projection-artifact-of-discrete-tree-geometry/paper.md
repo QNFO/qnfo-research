@@ -209,30 +209,3 @@ We have presented a deterministic binary‑tree hidden‑variable model that rep
 [10] https://papers.qnfo.org/papers/treatise-on-waves. QNFO: Waves Do Math.
 [11] https://papers.qnfo.org/papers/alpha-pi-project. QNFO: Alpha Pi Project.
 [12] https://papers.qnfo.org/papers/principia-ontologica. QNFO: Principia Ontologica.
-
-## Appendix A. Divergence report
-| Divergence | Draft A position | Draft B position | Adopted convention in main text |
-|------------|------------------|------------------|---------------------------------|
-| Derivation of the Born rule | Claims that leaf counting *derives* $P=|a|^{2}$ (Section 4, C2). | States that the equality is *circular* and merely a definitional identity (Section 4, C2). | Adopted B’s interpretation: the equality follows directly from the amplitude definition and is not an independent derivation. |
-| Falsification test based on dyadic grid | Proposes a statistical test where $|f-P_{\text{target}}|>3\sigma$ falsifies the model (Section 7, C4). | Shows that with $N=10^{4}$ trials the statistical resolution $3\sigma$ exceeds the dyadic spacing, making the test vacuous (Section 4). | Adopted B’s correction: the statistical test is insufficient; instead a visibility or Bell‑type test is proposed. |
-| Power‑law leaf measure | Not mentioned. | Provides proof that normalisation forces $\gamma=1$ (Section 4, C3). | Included B’s result as a new contribution (C3). |
-| Interference cross‑term | Implicitly assumes cross‑terms arise from the coarse‑graining map. | Explicitly proves that uniform phases eliminate the cross‑term (Section 4, C4). | Adopted B’s explicit proof and added it as contribution C4. |
-| CHSH bound | Not addressed. | Derives $|S|\le2$ for deterministic leaf assignments (Section 4, C5). | Included B’s derivation as contribution C5. |
-
-All other statements are convergent and retained unchanged.
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source draft(s) | Agreement status |
-|----------|-----------|-----------------|------------------|
-| C1 | Definition of a binary‑branching tree model and coarse‑graining map (Section 3). | A, B | CONVERGENT |
-| C2 | Leaf counting reproduces diagonal Born‑rule probabilities $P=n/2^{d}$ as a definitional identity (Section 4). | A (derivation), B (circularity) | CONVERGENT (adopted B’s interpretation) |
-| C3 | Power‑law leaf measure normalises only for exponent 1 (Section 4). | B only | SINGLE (retained as new contribution) |
-| C4 | Non‑negative leaf measures cannot generate interference cross‑terms without phase encoding (Section 4). | B only | SINGLE (retained) |
-| C5 | Deterministic leaf assignments satisfy CHSH bound $|S|\le2$ (Section 4). | B only | SINGLE (retained) |
-| C6 | Minimal interferometric falsification test based on visibility and CHSH violation (Section 7). | A (statistical test), B (visibility/Bell test) | CONVERGENT (adopted B’s test) |
-| R1 | Numerical result $P_{A}=0.625$ for $d=5$, $n_{A}=20$, $L=32$ (Section 5). | A, B | CONVERGENT |
-| R2 | Projection of simulation cost $C_{\text{sim}}\approx1.024$ for $d=10$ (Section 7). | A only | SINGLE (retained as projection) |
-| R3 | Technology readiness level assigned as TRL 2 (Section 7). | A, B | CONVERGENT |
-| L1–L4 | Limitations listed in Discussion (Section 6). | A, B | CONVERGENT |
-
-All divergent claims have been resolved according to the conventions documented in Appendix A.

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op",
+  "paper": {
+    "path": "papers/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op/paper.md",
+    "title": "Syntactic Token Calculus: Deriving Particle‑like Normal Forms from Distinction Operations",
+    "url": "https://papers.qnfo.org/papers/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op"
+  },
+  "snapshots": [
+    {
+      "sha256": "7873279cf0eb987a713372f52577d936834b340d592b8d037f27f65036e657ef",
+      "bytes": 21535,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

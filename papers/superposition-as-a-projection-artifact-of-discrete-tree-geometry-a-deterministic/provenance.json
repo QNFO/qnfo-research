@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "superposition-as-a-projection-artifact-of-discrete-tree-geometry-a-deterministic",
+  "paper": {
+    "path": "papers/superposition-as-a-projection-artifact-of-discrete-tree-geometry-a-deterministic/paper.md",
+    "title": "Superposition as a Projection Artifact of Discrete Tree Geometry: A Deterministic Toy Model for Quantum Statistics",
+    "url": "https://papers.qnfo.org/papers/superposition-as-a-projection-artifact-of-discrete-tree-geometry-a-deterministic"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "superposition-as-a-projection-artifact-of-discrete-tree-geometry-a-deterministic"
+  },
+  "snapshots": [
+    {
+      "sha256": "d3729524c5a79c28cf1f547696bf16cf05e099e3591dbbeb58a8c63d9d1a955b",
+      "bytes": 24784,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
