@@ -237,23 +237,3 @@ We have performed a transparent, arithmetic‑driven assessment of the POLYMECHA
 [10] https://papers.qnfo.org/papers/code-agnostic-graph-neural-network-decoding-from-detection-error-models-a-reconc. QNFO: Code-Agnostic Graph Neural Network Decoding from Detection Error Models: A Reconciled Quantitative and Structural Assessment.
 [11] https://papers.qnfo.org/papers/comprehensive-technical-framework-for-network-isomorphism. QNFO: Comprehensive Technical Framework for Network Isomorphism.
 [12] https://papers.qnfo.org/papers/exact-maximum-likelihood-quantum-decoding-beyond-treewidth-a-reconciled-structur. QNFO: Exact Maximum-Likelihood Quantum Decoding beyond Treewidth: A Structural Analysis of Rank-Decomposition Dynamic Programming.
-
-## Appendix A. Divergence report
-
-**D1. Representative decoding latencies (DIVERGENT).**  
-Draft A fixed representative latencies at $t_{\mathrm{GPU}}=5$ ms and $t_{\mathrm{CPU}}=30$ ms, yielding a $6.0\times$ speedup. Draft B treated the latency statements as ranges (“a few ms’’ and “a few tens of ms’’) and derived speedup bounds $[4\times,25\times]$ with a midpoint of $10\times$. The main text adopts the range‑based convention from Draft B because it preserves the uncertainty expressed in the source abstract and aligns with the conditional nature of the latency claim. The fixed‑value convention from Draft A is documented here for completeness.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts | Agreement status |
-|----------|-----------|----------------|------------------|
-| C1 | Up to 25 % fewer logical failures than correlated MWPM on the rotated surface code. | A, B | CONVERGENT |
-| C2 | Up to 16 % fewer logical failures than BP+OSD on $[[130,4,6]]$. | A, B | CONVERGENT |
-| C3 | Decoding time independent of physical error rate; a few ms per shot on one GPU versus a few tens of ms on one CPU core. | A, B | CONVERGENT |
-| C4 | Cross‑code model stays within 10 % of BP+OSD on seen families but fails to generalize to unseen larger codes. | A, B | CONVERGENT |
-| C5 | Confidence‑based post‑selection lowers logical error rate by >10× while retaining >90 % of shots. | A, B | CONVERGENT |
-| R1 | Improvement factor $F_1=0.75$ derived from C1. | A, B | CONVERGENT |
-| R2 | Threshold improvement $\approx 10.06$ % at $d=5$, $\approx 7.46$ % at $d=7$, $\approx 5.92$ % at $d=9$ from C1. | A, B | CONVERGENT |
-| R3 | Distance‑equivalent exponent gain $\Delta m=0.415$ from C1. | A, B | CONVERGENT |
-| R4 | Improvement factor $F_2=0.84$ derived from C2. | A, B | CONVERGENT |
-| R5 | Threshold improvement ≈5.98 % for $[[130,

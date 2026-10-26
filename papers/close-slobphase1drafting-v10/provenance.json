@@ -3,7 +3,7 @@
   "slug": "close-slobphase1drafting-v10",
   "paper": {
     "path": "papers/close-slobphase1drafting-v10/paper.md",
-    "title": "Final",
+    "title": "Quantitative Assessment of AI‑Assisted Long‑Form Drafting: Completion Rates and Reliability Thresholds",
     "url": "https://papers.qnfo.org/papers/close-slobphase1drafting-v10"
   },
   "declared": {
@@ -31,6 +31,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "cc2fcfbe3093c25cd62ecb47c7f3f12bcfa0280d"
+    },
+    {
+      "sha256": "646ca7da3db66417d3029024f9c452ef42d70f83ea341e16946170746674b737",
+      "bytes": 27087,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "1.2.0",
+      "git_commit": null
     }
   ],
   "events": []

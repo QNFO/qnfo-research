@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a",
+  "paper": {
+    "path": "papers/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a/paper.md",
+    "title": "Coherence-Assisted Error Correction for Deep Learning: A Reconciled Feasibility Analysis of a Hybrid Quantum-Classical Architecture",
+    "url": "https://papers.qnfo.org/papers/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "4c5caac52d8d2073607345592b27c8c7f176bdda4cdc9dbd01a3d45fa8830610",
+      "bytes": 35237,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
