@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "epistemic-disturbance-in-the-graph-model-for-conflict-resolution-state-preservin",
+  "paper": {
+    "path": "papers/epistemic-disturbance-in-the-graph-model-for-conflict-resolution-state-preservin/paper.md",
+    "title": "Epistemic Disturbance in the Graph Model for Conflict Resolution: State-Preserving Actions, Four-Valued Assessments, and the Distinction between Capability and Intention",
+    "url": "https://papers.qnfo.org/papers/epistemic-disturbance-in-the-graph-model-for-conflict-resolution-state-preservin"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "epistemic-disturbance-in-the-graph-model-for-conflict-resolution-state-preservin"
+  },
+  "snapshots": [
+    {
+      "sha256": "378e0d0502bcdda06b109b4659f95e683566dd884a0ccd96cc8877e04147d885",
+      "bytes": 30258,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

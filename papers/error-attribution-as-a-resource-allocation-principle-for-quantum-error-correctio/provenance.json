@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio",
+  "paper": {
+    "path": "papers/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio/paper.md",
+    "title": "Error Attribution as a Resource-Allocation Principle for Quantum Error Correction: Sensitivity-Guided Noise Reduction and Its Analytic Limits",
+    "url": "https://papers.qnfo.org/papers/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio"
+  },
+  "snapshots": [
+    {
+      "sha256": "0672d562d1c9a398a1a50792b06e84a1ac8ba5f9c2067ae7d830488edfa6957d",
+      "bytes": 32439,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

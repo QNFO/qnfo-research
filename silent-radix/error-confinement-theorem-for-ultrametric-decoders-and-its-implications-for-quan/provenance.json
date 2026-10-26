@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan",
+  "paper": {
+    "path": "silent-radix/error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan/paper.md",
+    "title": "Error Confinement Theorem for Ultrametric Decoders and Its Implications for Quantum Error Correction",
+    "url": "https://papers.qnfo.org/papers/error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "error-confinement-theorem-for-ultrametric-decoders-and-its-implications-for-quan"
+  },
+  "snapshots": [
+    {
+      "sha256": "6aa04d3c2aac18d78f401064d394e4f9f9a54f9394f0b23a54e6117b6e479d45",
+      "bytes": 19557,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
