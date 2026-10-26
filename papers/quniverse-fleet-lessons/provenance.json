@@ -3,7 +3,7 @@
   "slug": "quniverse-fleet-lessons",
   "paper": {
     "path": "papers/quniverse-fleet-lessons/paper.md",
-    "title": "Retracted: Operating the Quniverse Fleet: Objectives, Successes, Failures, and Roadmap of an Autonomous Cloud Research System",
+    "title": "Quantitative Integrity and Reliability Modeling of the Quniverse Autonomous Research Fleet",
     "url": "https://papers.qnfo.org/papers/quniverse-fleet-lessons"
   },
   "declared": {
@@ -60,6 +60,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "2c68e6f0226b72703e47e1e5bc9d235fb1fad28e"
+    },
+    {
+      "sha256": "b9660c7ff96fc4254c0dc6cf5dd7fbc3c363fb1da25b3029c6a581576fa176c9",
+      "bytes": 42298,
+      "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "1.9.0",
+      "git_commit": null
     }
   ],
   "events": []

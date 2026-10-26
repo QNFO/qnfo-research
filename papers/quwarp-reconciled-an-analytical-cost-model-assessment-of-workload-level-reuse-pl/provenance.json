@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl",
+  "paper": {
+    "path": "papers/quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl/paper.md",
+    "title": "QuWARP Reconciled: An Analytical Cost-Model Assessment of Workload-Level Reuse Planning for Quantum Circuit Simulation",
+    "url": "https://papers.qnfo.org/papers/quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl"
+  },
+  "snapshots": [
+    {
+      "sha256": "9d5d6e71fb50beddc575d9719e7bd1fdae35e9f6ebf38332d1aac3906ec10be1",
+      "bytes": 29979,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

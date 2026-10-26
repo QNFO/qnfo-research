@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantum-computation-latency-energy-tradeoff-and-the-jpcub-metric",
+  "paper": {
+    "path": "joules-per-compute-benchmark/quantum-computation-latency-energy-tradeoff-and-the-jpcub-metric/paper.md",
+    "title": "Quantum Computation Latency-Energy Tradeoff and the JPCUB Metric",
+    "url": "https://papers.qnfo.org/papers/quantum-computation-latency-energy-tradeoff-and-the-jpcub-metric"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantum-computation-latency-energy-tradeoff-and-the-jpcub-metric"
+  },
+  "snapshots": [
+    {
+      "sha256": "a9d03b0b13884942502e8d9fb87613dfb50148aea2c438e661a08f9d9ccfd6c4",
+      "bytes": 10756,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "2.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
