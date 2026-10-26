@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "regular-ternary-tree-codes-and-symmetric-exponential-energy-barriers-for-passive",
+  "paper": {
+    "path": "papers/regular-ternary-tree-codes-and-symmetric-exponential-energy-barriers-for-passive/paper.md",
+    "title": "Regular Ternary Tree Codes and Symmetric Exponential Energy Barriers for Passive Quantum Error Correction",
+    "url": "https://papers.qnfo.org/papers/regular-ternary-tree-codes-and-symmetric-exponential-energy-barriers-for-passive"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "regular-ternary-tree-codes-and-symmetric-exponential-energy-barriers-for-passive"
+  },
+  "snapshots": [
+    {
+      "sha256": "f6e16f09f0950826f74c9a1a11896d708603b724d3501c5d416d963152647cfd",
+      "bytes": 23496,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

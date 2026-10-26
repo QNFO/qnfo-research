@@ -253,30 +253,3 @@ We have formalized theory space as a metric flow under the renormalization group
 [6] The Renormalization Group for Disordered Systems. arXiv:1307.6891v1. https://arxiv.org/abs/1307.6891v1
 [7] Quark Confinement and the Renormalization Group. arXiv:1010.1942v1. https://arxiv.org/abs/1010.1942v1
 [8] https://papers.qnfo.org/papers/static-architecture-of-reality-and-its-biological-interface. QNFO: Convergence Consilience and the Hierarchical Architecture of Reality.
-
-## Appendix A. Divergence report
-*The three independent drafts converged on the definition of theory space, the metric, and the use of RG flow. Divergent claims arise in the quantitative modeling of polygenesis and iteration counts.*
-
-| Divergent Claim | Draft A (baseline) | Draft B (alternative) | Chosen Convention for Main Text | Reason for Choice |
-|-----------------|-------------------|-----------------------|--------------------------------|-------------------|
-| Polygenesis probability model | $P_{\rm poly}(N)=\kappa\,1.0258\,N^{-2}$ (Section 4.3) | $P_{k}= \sum_i p_i^{\,k}$ with illustrative $p_i$ (Section 4.4) | Basin‑volume model (baseline) | Directly ties polygenesis to the inflationary efold number, uses only inputs from [2] and the derived basin‑volume scaling; provides a clear $N^{-2}$ prediction. |
-| Numerical polygenesis values | $P_{\rm poly}(50)=4.1\times10^{-4}$, $P_{\rm poly}(60)=2.8\times10^{-4}$ | $P_{2}=0.275$, $P_{3}=0.08875$ (illustrative) | Basin‑volume values | Derived from the analytic $V_{\rm basin}(N)$ without additional assumptions about basin fractions. |
-| Iteration‑count formula | $T_{\rm simple}= \lceil1/\epsilon\rceil$, $T_{\rm sliding}= \lceil\ln(1/\epsilon)\rceil$ (Section 4.2) | Contraction‑based projection $n=458.2$ for $\epsilon=10^{-2}$ (Section 4.5) | Both presented | The $O(1/\epsilon)$ formulas are exact theorems from [3]; the contraction projection is an explicit numerical illustration under additional assumptions (A2). Both are retained as complementary. |
-| Basin‑volume dimensionality $k$ | $k=2$ (observable subspace) | Not specified (implicit in Herfindahl model) | $k=2$ | Directly follows from the two observables $n_s$ and $r$ used in the derivation. |
-| Falsifiability criterion | Frequency vs $N^{-2}$ decline (Section 6) | Odds ratio $2.56$ vs observed basin hierarchy (Section 4.4) | Both criteria reported | Each follows from its respective model; both are valid falsification tests. |
-
-## Appendix B. Claim attribution
-| Claim ID | Description | Source Draft(s) | Agreement |
-|----------|-------------|-----------------|-----------|
-| C1 | Definition of metric on theory space and basin‑volume approximation | A, B, C | Convergent |
-| C2 | Derivation of $V_{\rm basin}(N)=1.0258\,N^{-2}$ | A, B, C | Convergent |
-| C3 | Computation of basin volume for $N\in[50,70]$ yielding $4.1\times10^{-4}$ | A, B, C | Convergent |
-| C4 | Iteration counts $T_{\rm simple}$ and $T_{\rm sliding}$ from [3] | A, B, C | Convergent |
-| C5 | Projection of $458.2$ iterations under contraction assumption | A, B, C | Convergent |
-| C6 | Polygenesis probability scaling $P_{\rm poly}(N)=\kappa\,1.0258\,N^{-2}$ | A, B, C | Convergent |
-| C7 | Herfindahl‑based polygenesis probabilities $P_{2}=0.275$, $P_{3}=0.08875$ | B, C | Convergent |
-| C8 | Odds ratio $(p_{1}/p_{2})^{2}=2.56$ for illustrative landscape | B, C | Convergent |
-| C9 | Limitations list (L1–L6) | A, B, C | Convergent |
-| C10 | Falsifiability criteria for both models | A, B, C | Convergent |
-| C11 | Practical implications (users, TRL, next experiment, constraints, cost, risks) | A, B, C | Convergent |
-| C12 | Background citations of works [1]–[8] with specific points | A, B, C | Convergent |

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif",
+  "paper": {
+    "path": "papers/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif/paper.md",
+    "title": "Renormalization‑Group Flow Constraints on Charged‑Lepton Mass Ratios from a Unified UV Boundary Condition",
+    "url": "https://papers.qnfo.org/papers/renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "renormalization-group-flow-constraints-on-charged-lepton-mass-ratios-from-a-unif"
+  },
+  "snapshots": [
+    {
+      "sha256": "f07e08256c270cd8f7e9a8edc7a4bea7896b3c58a35a8bb854926d0d54ab19c1",
+      "bytes": 19991,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

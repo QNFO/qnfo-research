@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me",
+  "paper": {
+    "path": "papers/reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me/paper.md",
+    "title": "Reformulating Quantum Mechanics on Bruhat–Tits Trees: A Deterministic Boundary‑Measure Framework",
+    "url": "https://papers.qnfo.org/papers/reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "reformulating-quantum-mechanics-on-bruhat-tits-trees-a-deterministic-boundary-me"
+  },
+  "snapshots": [
+    {
+      "sha256": "3d2311fe38cb66c8b0be21fcb01b7b2ae81cd8137afffbb690fd767eaa2d46dc",
+      "bytes": 22533,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
