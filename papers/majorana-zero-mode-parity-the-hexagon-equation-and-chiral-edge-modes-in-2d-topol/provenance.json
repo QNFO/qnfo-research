@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "majorana-zero-mode-parity-the-hexagon-equation-and-chiral-edge-modes-in-2d-topol",
+  "paper": {
+    "path": "papers/majorana-zero-mode-parity-the-hexagon-equation-and-chiral-edge-modes-in-2d-topol/paper.md",
+    "title": "Majorana Zero‑Mode Parity, the Hexagon Equation, and the Necessity of Chiral Edge Modes in Two‑Dimensional Topological Superconductors",
+    "url": "https://papers.qnfo.org/papers/majorana-zero-mode-parity-the-hexagon-equation-and-chiral-edge-modes-in-2d-topol"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-240/majorana-zero-mode-parity-the-hexagon-equation-and-chiral-edge-modes-in-2d-topol",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "eee8a71c1b42beaa140b3aba90cd10b231b2f746ce554531d5638e7246ae5c8c"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "majorana-zero-mode-parity-the-hexagon-equation-and-chiral-edge-modes-in-2d-topol"
+  },
+  "snapshots": [
+    {
+      "sha256": "12264dabfcd61715fdc7eec401edbb258f44d6b063decbc01f6357067c581027",
+      "bytes": 37405,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "40524da4c7bbe004b32685e71c137fae7cce5545"
+    }
+  ],
+  "events": []
+}

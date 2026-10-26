@@ -1,0 +1,462 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-241: The Gödelian Boundary as a Generative Phase Transition: Optimal Operating Points for Constrained Cognitive Systems",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-241",
+      "qnfo:runPath": "runs/cycle-241/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+      "qnfo:slug": "the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T22:35:10+02:00",
+      "qnfo:depositCommit": "489f1bf52ea86710b655ee31e4926a645b397685",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "The Gödelian Boundary as a Generative Phase Transition: Optimal Operating Points for Constrained Cognitive Systems",
+      "url": "https://papers.qnfo.org/papers/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0906.3892",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0906.3892"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1002.3035",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1002.3035"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1110.6589",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1110.6589"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1709.05958",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1709.05958"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1801.08829",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1801.08829"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2004.04595",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2004.04595"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2104.10132",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2104.10132"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2111.12860",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2111.12860"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2405.06095",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2405.06095"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.08783",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.08783"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2410.02600",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2410.02600"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.00923",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.00923"
+    },
+    {
+      "@id": "https://arxiv.org/abs/cond-mat/9907414",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:cond-mat/9907414"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-ph/9506418",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-ph/9506418"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-ph/9507429",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-ph/9507429"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-ph/9703413",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-ph/9703413"
+    },
+    {
+      "@id": "https://arxiv.org/abs/nucl-th/9608015",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:nucl-th/9608015"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "91bcd8cdf53ee394f93dc6c596b8233e391948c30e0916a475737abc4d701696",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "93344",
+      "sha256": "e47b6ac04e42b46761dadea6e15eb22fe24fb75f6f628a43bf3c1e9990eb8390",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5478",
+      "sha256": "73bb8ea4535dc07ceb5fa72c0b1e1b2a7eba493648c9053af7dfad275641505f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8949",
+      "sha256": "d37ba13705789396dafe8c66e3c83344beaf08ecc0143c0d917199f5dc968f0d",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2609",
+      "sha256": "7904075e82ca4d6dc8206605a9f5c8f651c70c84c37f041352e3d408bc379ad7",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29703",
+      "sha256": "45e63135f33b4f71a7d4331ab00e210f1457ffa144bd68e62f469356bbb346d6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13243",
+      "sha256": "1460876acf8c7ce108170f6093e3742caaef7b17880119a155045d29292c8fed",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0906.3892"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1002.3035"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1110.6589"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1709.05958"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1801.08829"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2004.04595"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2104.10132"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2111.12860"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2405.06095"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.08783"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2410.02600"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.00923"
+        },
+        {
+          "@id": "https://arxiv.org/abs/cond-mat/9907414"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-ph/9506418"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-ph/9507429"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-ph/9703413"
+        },
+        {
+          "@id": "https://arxiv.org/abs/nucl-th/9608015"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T22:35:10+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "2daa2791608b10ac8a81726ddddc187733d41e9b6de4ce9b332dbac07cff5e6e"
+    }
+  ]
+}

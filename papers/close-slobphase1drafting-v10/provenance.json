@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "close-slobphase1drafting-v10",
+  "paper": {
+    "path": "papers/close-slobphase1drafting-v10/paper.md",
+    "title": "Final",
+    "url": "https://papers.qnfo.org/papers/close-slobphase1drafting-v10"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-380/close-slobphase1drafting-v10",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "dad47b5bd2df973ef6a9fe76ec321d149c4f13e01fecbadcb7a9a664351e65ca"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "close-slobphase1drafting-v10"
+  },
+  "snapshots": [
+    {
+      "sha256": "f778c648d0707298d19141f5e9767d07b02f8ff1fc40eb502109456c11bc2300",
+      "bytes": 13554,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "cc2fcfbe3093c25cd62ecb47c7f3f12bcfa0280d"
+    }
+  ],
+  "events": []
+}

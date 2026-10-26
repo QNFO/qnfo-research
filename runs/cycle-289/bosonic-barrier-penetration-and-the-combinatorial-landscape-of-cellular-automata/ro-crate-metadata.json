@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-289: bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-289",
+      "qnfo:runPath": "runs/cycle-289/bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata",
+      "qnfo:slug": "bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T11:15:24+02:00",
+      "qnfo:depositCommit": "1fca01fb6bc7ad49711d9039e87b8fb3ec15e16b",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata",
+      "url": "https://papers.qnfo.org/papers/bosonic-barrier-penetration-and-the-combinatorial-landscape-of-cellular-automata"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0903.4615",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0903.4615"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1306.5577",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1306.5577"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1406.0792",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1406.0792"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1503.03318",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1503.03318"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1504.01434",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1504.01434"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.08147",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.08147"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.06341",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.06341"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.11279",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.11279"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "ad99ff8439a41b91ca114b1a355fe7c5fdc4e4a2d450e95f33fb96e8f6c9dce8",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52069",
+      "sha256": "9a7b536d95e07075feea1cc21b646b4796838ee52b5131b11a067389db0f3c2c",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "537",
+      "sha256": "a273942f45643a3d5f61a3132d9e9abd1e288bdc3dbd1af13210e536cc9d8deb",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7148",
+      "sha256": "bec0b50043f5cd0baba07344cd9f1bb4ecd6ef09279466d58a271df9d3415b9f",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3318",
+      "sha256": "885c109e7726543430a50a146a481de116428cc9009652f67af6e6501ce3fe42",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18694",
+      "sha256": "85c17480183020042e9eb5ffe55154d3b5b913d8325d9c516d3ab9e39e535136",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22526",
+      "sha256": "38250c409de778238dcc2570fcad270dfab988699d5544fd68a444f0d3fb6fd1",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0903.4615"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1306.5577"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1406.0792"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1503.03318"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1504.01434"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.08147"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.06341"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.11279"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-20T11:15:24+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-equivalent",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "381df488b8c4e6fc446c1519fb9ac28c8b0187936ef1eb4bbe44532274d13f09"
+    }
+  ]
+}

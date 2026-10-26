@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin",
+  "paper": {
+    "path": "papers/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin/paper.md",
+    "title": "Flag Structures and the Flagging Act: A Cross-Domain Survey with Explicit Counting Derivations and a Posed Re-Entry Problem",
+    "url": "https://papers.qnfo.org/papers/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-108/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ea82f212eab9467862b7c0b2e9d80cc02b5533be98528853468add68b8f842f5"
+    },
+    {
+      "path": "runs/cycle-140/flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "141d7d252c0a6ddf88af5d9bedee97c297894f718c391c62f51c8ad068d403f5"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "flag-structures-and-the-flagging-act-a-cross-domain-survey-with-explicit-countin"
+  },
+  "snapshots": [
+    {
+      "sha256": "3670a29c28d03171fe52d3a2a3e4cbc83cb49a05cf7e6911ecad459fe8a83c6f",
+      "bytes": 47062,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "4ac4c1a12c3c476ddd05d2e40351bea268ef0868"
+    }
+  ],
+  "events": []
+}

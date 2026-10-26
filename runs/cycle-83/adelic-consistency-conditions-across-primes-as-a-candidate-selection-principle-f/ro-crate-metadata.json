@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-83: adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-83",
+      "qnfo:runPath": "runs/cycle-83/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f",
+      "qnfo:slug": "adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-11T10:00:43+02:00",
+      "qnfo:depositCommit": "f536059146997d72456919ea60753830eaf8b974",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f",
+      "url": "https://papers.qnfo.org/papers/adelic-consistency-conditions-across-primes-as-a-candidate-selection-principle-f"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.3539",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.3539"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1308.1096",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1308.1096"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1401.2355",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1401.2355"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1502.04660",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1502.04660"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1509.00457",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1509.00457"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.07827",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.07827"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.02821",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.02821"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.16000",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.16000"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "309dc4b89bfdb23b0d43b2492f196a6d2e3760729f21cc4dff4cd7250bbe709f",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12066",
+      "sha256": "d9b7f9a96548266e2fc749215f97599b6b13191f418622d55a90f70d0bde7733",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4822",
+      "sha256": "c0679330bf4a25ecd24c89f91a2b0d5c316424afdef17bb43dfc4a135876a56b",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4509",
+      "sha256": "d3905eb59f2d0aac11301abe668577ed4d1d1b9748065e531bb3d71bde429633",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2078",
+      "sha256": "c9c57d9497e97a496dcfa75cb4114fa04cadeed23ba8b6d1f4eccee18e55acbd",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16219",
+      "sha256": "9367171480a8f999941bb479eb2263eaf7c1267a47cde725a37618c3ad79cbe2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24091",
+      "sha256": "98f7465894da044af83cad843ce2b1cc868e7d9d5dfb5ddd0a53fb5cbf879023",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27326",
+      "sha256": "65528c2c4aa8b91926376eec28f9d63d7fb8dda19824675a44e1f9b68064602a",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1304.3539"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1308.1096"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1401.2355"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1502.04660"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1509.00457"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.07827"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.02821"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.16000"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-11T10:00:43+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "8884ce66dbef13c086525e694a61c1a4e7a06df99c24ce06f88d2a2b64859ec3"
+    }
+  ]
+}

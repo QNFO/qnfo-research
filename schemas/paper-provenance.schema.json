@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qnfo.org/schemas/paper-provenance-1.json",
+  "title": "QNFO paper provenance record",
+  "description": "papers/<slug>/provenance.json (or <program>/<slug>/provenance.json): links one deposited paper to the pipeline runs that produced it and records what the repository can assert about it. Hashes of the paper text are append-only snapshots; the git history holds every earlier version.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "slug", "paper", "runs", "snapshots"],
+  "properties": {
+    "schema": { "const": "qnfo-paper-provenance/1" },
+    "slug": { "type": "string", "minLength": 1 },
+    "paper": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "title": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] }
+      }
+    },
+    "declared": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "What the paper's own README and header state. Recorded, not asserted: the license and DOI of an older paper can disagree with the repository default.",
+      "properties": {
+        "version": { "type": ["string", "null"] },
+        "license": { "type": ["string", "null"] },
+        "dois": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["doi", "source"],
+            "properties": {
+              "doi": { "type": "string", "pattern": "^10\\.\\d{4,9}/\\S+$" },
+              "source": { "enum": ["README.md", "paper.md"] },
+              "registrar": { "enum": ["zenodo-legacy", "other"] }
+            }
+          }
+        }
+      }
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "relation", "match"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "relation": { "enum": ["produced-by"] },
+          "match": { "enum": ["slug-exact", "slug-collision-suffix", "recorded"] },
+          "manifest_sha256": { "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    },
+    "identifiers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "research_queue_ids": { "type": "array", "items": { "type": "string" } },
+        "living_paper_slug": { "type": ["string", "null"] }
+      }
+    },
+    "snapshots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sha256", "bytes", "recorded_at", "basis"],
+        "properties": {
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "bytes": { "type": "integer" },
+          "recorded_at": { "type": "string", "minLength": 10 },
+          "basis": { "enum": ["backfill", "deposit", "revision", "correction", "retraction"] },
+          "version": { "type": ["string", "null"] },
+          "git_commit": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event", "at"],
+        "properties": {
+          "event": { "enum": ["corrected", "retracted", "restored", "superseded"] },
+          "at": { "type": "string", "minLength": 10 },
+          "detail": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

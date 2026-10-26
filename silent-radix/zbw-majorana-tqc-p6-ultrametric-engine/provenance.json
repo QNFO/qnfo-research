@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-majorana-tqc-p6-ultrametric-engine",
+  "paper": {
+    "path": "silent-radix/zbw-majorana-tqc-p6-ultrametric-engine/paper.md",
+    "title": "Ultrametric Engine: Deploying a 20-Principle p-Adic Discovery Worker",
+    "url": "https://papers.qnfo.org/papers/zbw-majorana-tqc-p6-ultrametric-engine"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22749793",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-majorana-tqc-p6-ultrametric-engine"
+  },
+  "snapshots": [
+    {
+      "sha256": "82d4cf10e6a3d8bbc4df7ef9d7464c456e9ac120b93e55c6a3031997541ae347",
+      "bytes": 8461,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "c724ec784001cd8adc47ce94a2d5944915dc9a17"
+    }
+  ],
+  "events": []
+}

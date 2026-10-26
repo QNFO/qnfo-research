@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho",
+  "paper": {
+    "path": "papers/the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho/paper.md",
+    "title": "The Base State Hypothesis: A Falsification Protocol for a Substrate Capable of Hosting the Standard Model, Audited Against Contemporary Quantum Platforms",
+    "url": "https://papers.qnfo.org/papers/the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-341/the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d4645d878fcb22537214ace6125607fc5bbf7fa21bac47b630700b7fdd591a05"
+    },
+    {
+      "path": "runs/cycle-78/the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "5dc2282ada7eda3aa2c3e7c3649717da5fe43619031f62000f8eee49eba2d924"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-base-state-hypothesis-a-falsification-protocol-for-a-substrate-capable-of-ho"
+  },
+  "snapshots": [
+    {
+      "sha256": "601621d1e4e0790fd45112a904f34c1b096a057747cd6392ca59cb36ae70cb46",
+      "bytes": 24042,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "22377f18e25d4235bf719a2980c09df5cb85fc98"
+    }
+  ],
+  "events": []
+}

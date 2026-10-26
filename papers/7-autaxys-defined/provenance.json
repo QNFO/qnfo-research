@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "7-autaxys-defined",
+  "paper": {
+    "path": "papers/7-autaxys-defined/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/7-autaxys-defined"
+  },
+  "declared": {
+    "version": "2.0.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22749589",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "7-autaxys-defined"
+  },
+  "snapshots": [
+    {
+      "sha256": "d193ce7065ef0ea34e98a2dcfecadfc03acdea427c5689883732ab101ad2b6b2",
+      "bytes": 66651,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "2.0.0",
+      "git_commit": "50b38101fa57b17106cda3c8537914693d33a9c8"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-calibration-loop-as-fixed-point-ontological-underdetermination-of-the-qubit-",
+  "paper": {
+    "path": "papers/the-calibration-loop-as-fixed-point-ontological-underdetermination-of-the-qubit-/paper.md",
+    "title": "The Calibration Loop as Fixed Point: Ontological Underdetermination of the Qubit by Its Own Metrology",
+    "url": "https://papers.qnfo.org/papers/the-calibration-loop-as-fixed-point-ontological-underdetermination-of-the-qubit-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-245/the-calibration-loop-as-fixed-point-ontological-underdetermination-of-the-qubit-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "20afc7910d7f077e7c2fec51a2ee1b3eca6183e03ddcfed0739492555f679173"
+    },
+    {
+      "path": "runs/cycle-89/the-calibration-loop-as-fixed-point-ontological-underdetermination-of-the-qubit-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d9abc55bfc9103a8ce4eb439df856b08e017136dd0a3c142ec5cc1b25b61c740"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-calibration-loop-as-fixed-point-ontological-underdetermination-of-the-qubit-"
+  },
+  "snapshots": [
+    {
+      "sha256": "103f3b3fadc6bd71d0021fdbe01d55504ab15fe10a71be389be5cc0a01b13171",
+      "bytes": 32178,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "f328816a7ed738d3da6cc5d20f5439fc2fcda5a3"
+    }
+  ],
+  "events": []
+}

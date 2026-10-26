@@ -1,0 +1,433 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-66: compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-66",
+      "qnfo:runPath": "runs/cycle-66/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even",
+      "qnfo:slug": "compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-10T18:00:45+02:00",
+      "qnfo:depositCommit": "40dee394672ae04d903fe06cc6794dab982ecddc",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even",
+      "url": "https://papers.qnfo.org/papers/compression-versus-consilience-in-recursive-model-generated-corpora-a-break-even"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1110.5626",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1110.5626"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.09393",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.09393"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.10375",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.10375"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2111.01813",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2111.01813"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.02334",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.02334"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.17453",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.17453"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.04670",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.04670"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.17749",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.17749"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2507.17221",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2507.17221"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.00608",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.00608"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.14830",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.14830"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "baaa1140767413356c7a790e86211f271707c5c8d60cddafa617441623c63439",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13942",
+      "sha256": "467e306da3a4b69c10969a6a8695383a318a3548b253dd35f8629d20f0313b2f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2217",
+      "sha256": "4eac7a2855d884f700702aea5da29e3b49425461a0a2d64e9e27a7d87099898a",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5486",
+      "sha256": "d7acc3d0185ebed4f14c98bf83ea9c27f32f1f5b8c8ff4b7a1135195728674dc",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2522",
+      "sha256": "1d3a313405220c7f165aedfe4a5347d071e3761f934dfc8a47a727d2b5cdb1e0",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14307",
+      "sha256": "dbd298945a696ffc96009f4a53ac7a288f936e11829e2c52e876db18d4dec2f2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24455",
+      "sha256": "c1b84e30d61b483616b6394463b4686b6985281499c3486a059b4f4154591553",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "30767",
+      "sha256": "f04cf61595f9cba36748063b7a65e3faddebccfb38d5a5dfc12e0a1158efca31",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1110.5626"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.09393"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.10375"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2111.01813"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.02334"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.17453"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.04670"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.17749"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2507.17221"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.00608"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.14830"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-10T18:00:45+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "a6779db7b6ae20f25e3e40e3481e053c2d6a25b7937956b3f17251f426f9f0c3"
+    }
+  ]
+}

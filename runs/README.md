@@ -1,28 +1,27 @@
-# QNFO Ensemble Research
+# runs/ : pipeline runs
 
-Pilot program (user directive 2026-09-08): writing multiple SEPARATE papers around the same
-theme/title/questions independently, then reconciling and publishing with full provenance,
-all artifacts, collateral files, and interim/intermediate drafts.
+One directory per run of the QNFO automated research pipeline, kept exactly as deposited.
+This directory is the former `QNFO/qnfo-ensemble-research` repository (imported 2026-10-26 with its full history,
+see `../provenance/IMPORT.json`); the paths are unchanged.
 
-**Protocol (governance):** https://github.com/QNFO/qnfo-ops/blob/main/docs/ENSEMBLE-RESEARCH-PILOT.md
+```
+runs/cycle-<N>/<slug>/
+    grounding.md                 literature grounding (the sources the drafts may cite)
+    writer-a-draft.md, ...       independent drafts
+    reconciled-paper.md          the reconciled paper of the run (deposits from 0.35.0)
+    review-report.md             adversarial review
+    verification.py              the script that checks each quantitative claim
+    verification.md              claims, script, recorded execution output, adjudication
+    MANIFEST.json                the pipeline's hash record. Frozen: never rewritten.
+    ro-crate-metadata.json       RO-Crate 1.2 (Process Run Crate) record: files, hashes, stages, re-execution
+runs/cycle-1/                    the 2026-09-08 pilot: three writers, one manifest for the cycle
+```
 
-## Cycles
+* The paper a run produced is `papers/<slug>/paper.md` (or `<program>/<slug>/`); `papers/<slug>/provenance.json` lists its
+  runs. 201 pipeline papers do not have their text in the repository yet; `../provenance/known-gaps.json` lists each one.
+* Never edit a file here. `python3 tools/provenance.py verify` fails on any change to a hashed file.
+* `python3 tools/provenance.py reproduce runs/cycle-N/<slug>` re-runs the verification script and compares it with the
+  recorded output.
 
-| cycle | theme | writers | status |
-|-------|-------|---------|--------|
-| cycle-1 | Energy floor of fault-tolerant quantum computing at the 1,000-logical-qubit scale | a, b, c | in progress (due 2026-09-10) |
-
-## Repository layout
-
-`cycle-N/`
-  `SHARED-PROMPT.md`    - byte-identical input block (title + questions + constraints)
-  `MANIFEST.json`       - sha256 of every artifact (provenance manifest)
-  `RECONCILIATION.md`   - claim-attribution table + reported divergences
-  `writer-<id>/`        - independent interim drafts (never modified after collection)
-  `reconciled-paper.md` - final paper
-
-## Independence rules (writers)
-
-- Isolated sessions; no cross-communication; no sibling-directory reads.
-- Only real, verifiable sources (arXiv IDs / DOIs). Fabrication = HARD finding.
-- Write only inside your own `writer-<id>/` directory. No git operations.
+Standard: `../docs/PROVENANCE-STANDARD.md`. Audit and numbers: `../docs/REPOSITORY-AUDIT-2026-10-26.md`.
+The pilot's original README and provenance standard are in `../docs/provenance/`.

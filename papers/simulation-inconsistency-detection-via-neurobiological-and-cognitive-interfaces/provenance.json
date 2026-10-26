@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces",
+  "paper": {
+    "path": "papers/simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758004",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces"
+  },
+  "snapshots": [
+    {
+      "sha256": "510806ba5e2df2f98ed8bed4f2606674da4f02417b163d0708994eeabfe66200",
+      "bytes": 49339,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "b96a8acf4d91089fa0e6a6d5e3cce4a927d3ac23"
+    }
+  ],
+  "events": []
+}

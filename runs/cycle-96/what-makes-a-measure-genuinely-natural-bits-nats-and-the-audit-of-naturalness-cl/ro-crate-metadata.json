@@ -1,0 +1,401 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-96: What Makes a Measure “Genuinely Natural”? Bits, Nats, and the Audit of Naturalness Claims in Measurement, Information, and Language",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-96",
+      "qnfo:runPath": "runs/cycle-96/what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl",
+      "qnfo:slug": "what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-11T18:34:26+02:00",
+      "qnfo:depositCommit": "1b739b16a8772cfd2317d3cbba4e31c3a872024f",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "What Makes a Measure “Genuinely Natural”? Bits, Nats, and the Audit of Naturalness Claims in Measurement, Information, and Language",
+      "url": "https://papers.qnfo.org/papers/what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2101.11436",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2101.11436"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.14757",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.14757"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.16662",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.16662"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2110.10780",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2110.10780"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2306.06371",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2306.06371"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.02306",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.02306"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.08865",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.08865"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1018",
+      "sha256": "fe0b906740803c5d1318eb8293485ec0f66d1fa102a9fcec0e97b2464efd3327",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8983",
+      "sha256": "f66c1f0ef8d01c3280b7bbe87bf62a3f143b92bad4a2fb423c5e385fcf89e21e",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3046",
+      "sha256": "da12347d82e94255994f4eeaefc8810d9b9d31f188924caf9beed796dd28e55e",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4892",
+      "sha256": "598ec4c5a83b478fe498ac6d41e575c4a2a39611d129dba5b383d59b07b26b15",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2221",
+      "sha256": "bbcd8328010556175a691d1b152681b4111b1735acca9c6d58912f8caa78bf56",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10415",
+      "sha256": "ae35817f1f8d998792a2244e29db4caa11685c2d54ff39de76a140163dc976c2",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23513",
+      "sha256": "4a7d884df522e689ff283e89745ecf327373bc6aa5540abeec6a53daae9c90c6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16154",
+      "sha256": "779fb043205bc7268c61ea5998ec2bf487b6ac9430fa793ae31c6f2bb4341fc0",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/2101.11436"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.14757"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.16662"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2110.10780"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2306.06371"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.02306"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.08865"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-11T18:34:26+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "8292d218892694e981a5380aea097fd1fd34211667012492ca0479d72cdc3df4"
+    }
+  ]
+}

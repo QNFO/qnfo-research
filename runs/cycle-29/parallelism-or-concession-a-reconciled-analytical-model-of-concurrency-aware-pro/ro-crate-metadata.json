@@ -1,0 +1,417 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-29: parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-29",
+      "qnfo:runPath": "runs/cycle-29/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro",
+      "qnfo:slug": "parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-07T00:33:23+02:00",
+      "qnfo:depositCommit": "77fabbfd2b5eed208695192e0b57b8ef45138f43",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro",
+      "url": "https://papers.qnfo.org/papers/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1604.04736",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1604.04736"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1902.09457",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1902.09457"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.10094",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.10094"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.10028",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.10028"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2602.06008",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2602.06008"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.11840",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.11840"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.06922",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.06922"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.23664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.23664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.06017",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.06017"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "4e95cd8c577ac3f4c8d4ec6da91f1166817222eeb820e1f9c8fa8d56d52ec9f9",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14129",
+      "sha256": "935f85263e8c79e03b0ee2928dfb0b79987b796085c5a98d7124dcb55c2f284f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3519",
+      "sha256": "570f91ae3b50e0e80470d3e7d8e8685dbf2dd15181d13ce71154819d64aaa836",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4754",
+      "sha256": "a038efd5e54149df15e120a154de17ed6e1b2ed36fb630a26e81ea43ca2a7f66",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1714",
+      "sha256": "c069f009167d9d0efa22c3844313d5b1b42adb0a9dd258925cf138ab63c01fbe",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20324",
+      "sha256": "a6323c3e33cb79fa51d806b00fec64a6fdfb19246dec61578f89aa4a3fb55d05",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11135",
+      "sha256": "deaa7d9dd21b7d8d2746a10af52d87f864acf82c7f2a0c5e6337d8509de28fc8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16838",
+      "sha256": "e9dc70fb468f843689339c23c46ff30a9ef20d73b0d1d07c2b266e27846a2f5e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1604.04736"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1902.09457"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.10094"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.10028"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2602.06008"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.11840"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.06922"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.23664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.06017"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-07T00:33:23+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "ecbbdb487ea1d1aa64c2bb9e7684f4d9a25e491227eba5dac46c1ded5270f450"
+    }
+  ]
+}

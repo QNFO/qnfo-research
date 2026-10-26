@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-70: completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-70",
+      "qnfo:runPath": "runs/cycle-70/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "qnfo:slug": "completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-10T22:30:38+02:00",
+      "qnfo:depositCommit": "beaddba9422ac13942e8960dfed37ff2fa4746c0",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "url": "https://papers.qnfo.org/papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0705.3203",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0705.3203"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1308.0729",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1308.0729"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.01875",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.01875"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.01876",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.01876"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.11483",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.11483"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.07293",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.07293"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2212.13186",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2212.13186"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.14450",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.14450"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "ba89464ce7a2a3368168a099d1cc983664f0490423c8a06f377fa1623bb61044",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10740",
+      "sha256": "8e63069aa575e22f0c57e526e39a12d42dcae7e0a06ad6ccdb82fe2b6874ef5d",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1955",
+      "sha256": "7c87d9812be1dae1de3d2ed9559b8ed6d4e1b6d2bd1fcdb1850b15eceb418b9b",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3949",
+      "sha256": "bf3d9a8586e7095b7457c510106c3eac0d5a387f5ade553f0e99f89d735c34ed",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1659",
+      "sha256": "4f3be4ddbdce35a326fda6f9f75410674f3d33223bb3babc6c9575aab5c00ec2",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21551",
+      "sha256": "d3e04496666063daa3e3c6564001d6f602e58bde597a9b6e0b85b31240707c7d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23399",
+      "sha256": "e9f1e49c92113014dd29e696a2cb88711bbdbb19a0ebc840fdac52c3b06ed505",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28804",
+      "sha256": "e3b15bcbbf11dab8702efce58c61bdce8f58039e5686f594b90fc7afc6d11a35",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0705.3203"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1308.0729"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.01875"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.01876"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1805.11483"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.07293"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2212.13186"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.14450"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-10T22:30:38+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "62eeef3b9536c3611c778a5b1eb7a6a919772713fafe0a257779440fb4451bf8"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-16: thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-16",
+      "qnfo:runPath": "runs/cycle-16/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene",
+      "qnfo:slug": "thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-03T17:00:51+02:00",
+      "qnfo:depositCommit": "d9dc4972fa2381c68e276f187ab7a4a64aac385a",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene",
+      "url": "https://papers.qnfo.org/papers/thermodynamic-budgeting-for-hybrid-quantum-classical-computing-a-three-layer-ene"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.04211",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.04211"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2210.04664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2210.04664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2210.15314",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2210.15314"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2211.02350",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2211.02350"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2403.00885",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2403.00885"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.12578",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.12578"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2503.02345",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2503.02345"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2503.18868",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2503.18868"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.10069",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.10069"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.24206",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.24206"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.19348",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.19348"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "5926b6aca383dbbb36076b6660d6f823cef659324127e86a57d9d385cb6cb742",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "13231",
+      "sha256": "c98ea5bc7cff3024a18f5ff130223e1b8051aad36677ba0a71d62ffb8fb14b8f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2779",
+      "sha256": "dcc0e4dfdd93f0d452aa5a5955d9c13a6932f6ed8852a77502e8ac0b6c188f82",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3800",
+      "sha256": "f15d234d88ef6bec1f5903e926128878d13d54c78642714f560b987a6c5f4cd5",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1603",
+      "sha256": "70213b05e50b5a2049b3c41b0c0bace1ea4c62476ff4b2ad0e038a997b2263fd",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19891",
+      "sha256": "837b6efb597178f7e3a2ed4bc299392d5bb1f9e3fc4c58c2bbf577203a875da3",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27505",
+      "sha256": "f1d3d4e52c31040ebe6a0021340c0c181d71c7b568915722e7de4ea4feeacab4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26461",
+      "sha256": "76eb84fa039ae62d8c5f96aa0f60856f491c56414892cd2d7a17beadb8c995cb",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/2003.04211"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2210.04664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2210.15314"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2211.02350"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2403.00885"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.12578"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2503.02345"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2503.18868"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.10069"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.24206"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.19348"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-03T17:00:51+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "8ae741becf2b7bb2afd85275f177acbab9c183c1c08a96157ea5c41eb7a5d103"
+    }
+  ]
+}

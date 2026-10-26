@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "tetris-q-tiling-based-effective-transient-fault-reduction-and-parallelism-optimi",
+  "paper": {
+    "path": "papers/tetris-q-tiling-based-effective-transient-fault-reduction-and-parallelism-optimi/paper.md",
+    "title": "TETRIS-Q: Tiling-based Effective Transient-fault Reduction and Parallelism Optimizations for Quantum Circuit Mapping",
+    "url": "https://papers.qnfo.org/papers/tetris-q-tiling-based-effective-transient-fault-reduction-and-parallelism-optimi"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22739633",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "tetris-q-tiling-based-effective-transient-fault-reduction-and-parallelism-optimi"
+  },
+  "snapshots": [
+    {
+      "sha256": "c599860aeac86a3fd9beac52d4363cc1b998fe97051a1d80e666061bb79b4fc0",
+      "bytes": 9315,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "60ac2f9ecded635dfefa2c0eb06c0bb867826770"
+    }
+  ],
+  "events": []
+}

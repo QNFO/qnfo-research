@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "8-the-generative-engine",
+  "paper": {
+    "path": "papers/8-the-generative-engine/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/8-the-generative-engine"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "8-the-generative-engine"
+  },
+  "snapshots": [
+    {
+      "sha256": "e41a26bd04d86dae57335a1f34452ad306085bc77cf4d3fefdc1be2723780cbf",
+      "bytes": 36449,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "893948dc7a1fa3e4f92eb75f7c80a2d5a219aa01"
+    }
+  ],
+  "events": []
+}

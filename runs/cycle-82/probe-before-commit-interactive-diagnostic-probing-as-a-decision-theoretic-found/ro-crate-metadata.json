@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-82: Retracted: Probe-Before-Commit: Interactive Diagnostic Probing as a Decision-Theoretic Foundation for LLM Task Routing",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-82",
+      "qnfo:runPath": "runs/cycle-82/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found",
+      "qnfo:slug": "probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-11T09:15:35+02:00",
+      "qnfo:depositCommit": "48d9cd0538012d89be8931458cf0920a04fa9189",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Retracted: Probe-Before-Commit: Interactive Diagnostic Probing as a Decision-Theoretic Foundation for LLM Task Routing",
+      "url": "https://papers.qnfo.org/papers/probe-before-commit-interactive-diagnostic-probing-as-a-decision-theoretic-found"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.10371",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.10371"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.07728",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.07728"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2308.15272",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2308.15272"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2506.22745",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2506.22745"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.26306",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.26306"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.11011",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.11011"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.11114",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.11114"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.05868",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.05868"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "70b64a1439da50a3d60259d8531e28d822c4d12fac3c83b96b8f29e1b25a4de7",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11441",
+      "sha256": "a0df19fb58b44ae04137c299640430196c25084eb36d2f957af0ce1a913a46d6",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3825",
+      "sha256": "3d355c70e35c4e32cb950e6194ec878bccd065786d078d77ddfc920d8cca206b",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3468",
+      "sha256": "fa955f9996daff467245915aca65f99c3009d912fee1a17d318bdb397a0b308b",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1395",
+      "sha256": "ecae7f22803ad32a082a3462460ee908ed01280c4cae31c651e239437e671dfb",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16830",
+      "sha256": "89346bc2ffdfaf03f026785ad0f3043f5baccf54de1b7d089204ca84c92c14c8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26896",
+      "sha256": "e2eb0b776eb009df6cf7e2bf1053f6e8f3df2f89137eb296f29a82a17d61e04d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19616",
+      "sha256": "d9b1cb4a151f74e97f4ef5fa863a9a32343f625eb2edb45f41e9c650ec698317",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1909.10371"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.07728"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2308.15272"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2506.22745"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.26306"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.11011"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.11114"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.05868"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-11T09:15:35+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "26bf24e652f799a99e76b48f739c131b65ca2c5049295188c57f9239f7cb2c09"
+    }
+  ]
+}

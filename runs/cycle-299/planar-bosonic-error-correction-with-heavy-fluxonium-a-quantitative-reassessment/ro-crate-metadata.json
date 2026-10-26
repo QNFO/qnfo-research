@@ -1,0 +1,478 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-299: Planar Fluxonium‑Controlled Bosonic Error Correction: A Quantitative Error‑Budget Reassessment",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-299",
+      "qnfo:runPath": "runs/cycle-299/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+      "qnfo:slug": "planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T15:43:52+02:00",
+      "qnfo:depositCommit": "b1167de653a54ccaa80a7680275957ea06e8550d",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Planar Fluxonium‑Controlled Bosonic Error Correction: A Quantitative Error‑Budget Reassessment",
+      "url": "https://papers.qnfo.org/papers/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0811.3734",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0811.3734"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1005.0280",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1005.0280"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1011.5746",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1011.5746"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.1836",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.1836"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1311.2485",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1311.2485"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1610.04013",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1610.04013"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1908.03579",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1908.03579"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2002.11008",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2002.11008"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2008.12791",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2008.12791"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.08699",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.08699"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2109.07086",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2109.07086"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2312.16000",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2312.16000"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2503.21569",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2503.21569"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2506.00300",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2506.00300"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.16993",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.16993"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.21721",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.21721"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.07076",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.07076"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.26880",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.26880"
+    },
+    {
+      "@id": "https://arxiv.org/abs/gr-qc/0703020",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:gr-qc/0703020"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "a56b77fb7714b5162d988fc41bfb2e67f3dc47e6e725c549351b0662e803d8ec",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "90359",
+      "sha256": "808a5f7868e72c9560630cb20689794ee17606e275321a004073c5e6e8a2e1ff",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5079",
+      "sha256": "820895c2645b9da9a67fca8dd52ad207028e2442b23c6192c821d1720aa8eba9",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6707",
+      "sha256": "929906e9ec3e658dcbf39e7aee9ef864f291de41c0b08812ccc0444b32824500",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2297",
+      "sha256": "ae73852888c592a4a7666bb233527324078d5d9b38a9c5b9dfdaae3801d39b41",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27380",
+      "sha256": "50aa2d69803cef3e03ce484ff72858b41f60d9b4b9bd84dc08341fd6759c6065",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23745",
+      "sha256": "047e3ed1ddc3e73e691c39b8c639c70830556f9c2b0c483b7a173ebf4d31e569",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0811.3734"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1005.0280"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1011.5746"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.1836"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1311.2485"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1610.04013"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1908.03579"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2002.11008"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2008.12791"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.08699"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2109.07086"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2312.16000"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2503.21569"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2506.00300"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.16993"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.21721"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.07076"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.26880"
+        },
+        {
+          "@id": "https://arxiv.org/abs/gr-qc/0703020"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-20T15:43:52+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "8ac5c5dffd7277bb3d10d0a928ff256f94e182155a2b0b5486d9704b1af9e85e"
+    }
+  ]
+}

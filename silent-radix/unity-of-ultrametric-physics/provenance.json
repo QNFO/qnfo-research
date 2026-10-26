@@ -1,0 +1,41 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "unity-of-ultrametric-physics",
+  "paper": {
+    "path": "silent-radix/unity-of-ultrametric-physics/paper.md",
+    "title": "Unity of Ultrametric Physics",
+    "url": "https://papers.qnfo.org/papers/unity-of-ultrametric-physics"
+  },
+  "declared": {
+    "version": "0.7.1",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758388",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.19929764",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "unity-of-ultrametric-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "e920da11b74be6c7d8ebf9df505ac40e3cd47675694f70286f0cccc656834f5b",
+      "bytes": 102191,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "0.7.1",
+      "git_commit": "32e8b4ffe4e53e14cdaa2a17c664f8f8bb73ecfb"
+    }
+  ],
+  "events": []
+}

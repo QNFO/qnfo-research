@@ -1,0 +1,41 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "radix-to-ultrametrics-to-page-wootters-to-wheeler-dewitt-to",
+  "paper": {
+    "path": "silent-radix/radix-to-ultrametrics-to-page-wootters-to-wheeler-dewitt-to/paper.md",
+    "title": "Radix → Ultrametrics → Page-Wootters → Wheeler-DeWitt → Bruhat-Tits: A Convergent Synthesis (v1.1 — Corrected)",
+    "url": "https://papers.qnfo.org/papers/radix-to-ultrametrics-to-page-wootters-to-wheeler-dewitt-to"
+  },
+  "declared": {
+    "version": "2.0.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22737734",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.21102436",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "radix-to-ultrametrics-to-page-wootters-to-wheeler-dewitt-to"
+  },
+  "snapshots": [
+    {
+      "sha256": "e51a2708f4df2886872326c38582a44e39228677b5150e35b9900e7a666433f4",
+      "bytes": 31296,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "2.0.0",
+      "git_commit": "4a65493f1ea883f0e9ed4a7efac1dd593b00925f"
+    }
+  ],
+  "events": []
+}

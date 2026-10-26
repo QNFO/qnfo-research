@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-",
+  "paper": {
+    "path": "papers/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-/paper.md",
+    "title": "The Adele Analogy for Epistemic Boundaries: Local Models, a Restricted Product of Representations, and a Quantified Validity Radius",
+    "url": "https://papers.qnfo.org/papers/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-129/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1aeeb748b703a4280d32bcbc1ceb7246902643d1186f1a32c9bf6fea1514248c"
+    },
+    {
+      "path": "runs/cycle-343/the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a5e3d369f8f3896d677d406c464200053bb0a2df3f45424ea19494dc434dc36b"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-adele-analogy-for-epistemic-boundaries-local-models-a-restricted-product-of-"
+  },
+  "snapshots": [
+    {
+      "sha256": "ea7a66fc651fc430161e11dbb432289f87aec9e632bd5f99d45729216edb9bcc",
+      "bytes": 34882,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "d8becc1470ea9783f17724bb4f80de484b3e7872"
+    }
+  ],
+  "events": []
+}

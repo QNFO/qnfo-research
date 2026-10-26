@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-divergence-of-active-quantum-error-correction-overhead-a-kapitza-l",
+  "paper": {
+    "path": "papers/thermodynamic-divergence-of-active-quantum-error-correction-overhead-a-kapitza-l/paper.md",
+    "title": "Thermodynamic Divergence of Active Quantum Error Correction Overhead: A Kapitza-Limited Feasibility Threshold for Gate-Based Architectures",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-divergence-of-active-quantum-error-correction-overhead-a-kapitza-l"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-112/thermodynamic-divergence-of-active-quantum-error-correction-overhead-a-kapitza-l",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "796dd061e5f7eca0d4e0de9759d7693390af7f8164b46ab608c31588254d8876"
+    },
+    {
+      "path": "runs/cycle-151/thermodynamic-divergence-of-active-quantum-error-correction-overhead-a-kapitza-l",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "31ca19001b6b77faf9e4ba7ac67896e7260566417df7adc0e358eaf0eae400ed"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-divergence-of-active-quantum-error-correction-overhead-a-kapitza-l"
+  },
+  "snapshots": [
+    {
+      "sha256": "3fa7bebbd6e1bd186a6b116e3f56ff563e3878df65fd8eff11fcad58474dbb29",
+      "bytes": 37863,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "b565d7160410d92d0fa00f996731dd26377a139f"
+    }
+  ],
+  "events": []
+}

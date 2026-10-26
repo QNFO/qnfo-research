@@ -1,0 +1,263 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-229: completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-229",
+      "qnfo:runPath": "runs/cycle-229/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "qnfo:slug": "completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "datePublished": "2026-10-19T16:11:18+02:00",
+      "qnfo:depositCommit": "e06519cab83dea84cd13a95dc893c3289a2df994",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo",
+      "url": "https://papers.qnfo.org/papers/completion-invariance-of-physical-ontology-the-rational-base-field-in-quantum-fo"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0705.3203",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0705.3203"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1308.0729",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1308.0729"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.01875",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.01875"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.01876",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.01876"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.11483",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.11483"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.07293",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.07293"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2212.13186",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2212.13186"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.14450",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.14450"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "76405",
+      "sha256": "a5ce9d74e542c2d63b3348955f217f5a9c4dab06099a62743cc0b0a55f9f0877",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1687",
+      "sha256": "404bfac464baf0f7e18197c4600cbcb5b961a9989c2b7b11cd8708960db95a6c",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29676",
+      "sha256": "0a7a591e6dd33611ab7f4fe8514257234cad30a5b0a2f3d0609b0fbf9d360d20",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0705.3203"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1308.0729"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.01875"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.01876"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1805.11483"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.07293"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2212.13186"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.14450"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    }
+  ]
+}

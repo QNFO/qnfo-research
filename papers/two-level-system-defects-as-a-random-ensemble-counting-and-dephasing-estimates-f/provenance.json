@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "two-level-system-defects-as-a-random-ensemble-counting-and-dephasing-estimates-f",
+  "paper": {
+    "path": "papers/two-level-system-defects-as-a-random-ensemble-counting-and-dephasing-estimates-f/paper.md",
+    "title": "Two-Level System Defects as a Random Ensemble: Counting and Dephasing Estimates for Superconducting Qubits",
+    "url": "https://papers.qnfo.org/papers/two-level-system-defects-as-a-random-ensemble-counting-and-dephasing-estimates-f"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-124/two-level-system-defects-as-a-random-ensemble-counting-and-dephasing-estimates-f",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4991f9c2cef9284faef84098dbca283103836dffab6e8534e96d4141d547bb66"
+    },
+    {
+      "path": "runs/cycle-351/two-level-system-defects-as-a-random-ensemble-counting-and-dephasing-estimates-f",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "18ed47fabc5d41b946815901780f9234116a23f086b0ac1db7445ae6458e3382"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "two-level-system-defects-as-a-random-ensemble-counting-and-dephasing-estimates-f"
+  },
+  "snapshots": [
+    {
+      "sha256": "a25d48ed4ae598c5d8f6242176e04f5676332b3228fa9c0a49d143674f1b3625",
+      "bytes": 53111,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "5e30ee365343f032067975b9b4e92ebd4f910a36"
+    }
+  ],
+  "events": []
+}

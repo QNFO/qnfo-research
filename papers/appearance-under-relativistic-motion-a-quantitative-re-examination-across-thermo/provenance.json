@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "appearance-under-relativistic-motion-a-quantitative-re-examination-across-thermo",
+  "paper": {
+    "path": "papers/appearance-under-relativistic-motion-a-quantitative-re-examination-across-thermo/paper.md",
+    "title": "Appearance Under Relativistic Motion: A Quantitative Re‑Examination Across Thermodynamic, Radiative, and Structural Channels",
+    "url": "https://papers.qnfo.org/papers/appearance-under-relativistic-motion-a-quantitative-re-examination-across-thermo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-103/appearance-under-relativistic-motion-a-quantitative-re-examination-across-thermo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ddc13c586c5cc776f053a277fe0719116195e91c6de2f7341aa4b70e2cea4b3e"
+    },
+    {
+      "path": "runs/cycle-218/appearance-under-relativistic-motion-a-quantitative-re-examination-across-thermo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a364a353d76e5a6458d41c4f4da9fcc988dd2af5973943438aa49a9c2183a86d"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "appearance-under-relativistic-motion-a-quantitative-re-examination-across-thermo"
+  },
+  "snapshots": [
+    {
+      "sha256": "750dc9ea0a667e1943e4ae2f27f596c9c2c5b813ddb406e9355640a7af574b95",
+      "bytes": 28156,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "4e431429350168fbc16b9e10c9394381a3f6867d"
+    }
+  ],
+  "events": []
+}

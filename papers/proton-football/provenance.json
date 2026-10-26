@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "proton-football",
+  "paper": {
+    "path": "papers/proton-football/paper.md",
+    "title": "“Proton Football”",
+    "url": "https://papers.qnfo.org/papers/proton-football"
+  },
+  "declared": {
+    "version": "2.0.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22757213",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "proton-football"
+  },
+  "snapshots": [
+    {
+      "sha256": "1785fc0939fc04e050193c06232b3b6ccaedd82ffe8f66d0ba740f3f74f1c3b1",
+      "bytes": 46070,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "2.0.0",
+      "git_commit": "45e67cdb862323b127b8f0ab5b97f41933e16d77"
+    }
+  ],
+  "events": []
+}

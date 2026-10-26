@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "trapped-ion-quantum-simulation-as-a-falsification-tool-for-the-posner-molecule-h",
+  "paper": {
+    "path": "papers/trapped-ion-quantum-simulation-as-a-falsification-tool-for-the-posner-molecule-h/paper.md",
+    "title": "Trapped‑Ion Quantum Simulation as a Falsification Tool for the Posner Molecule Hypothesis",
+    "url": "https://papers.qnfo.org/papers/trapped-ion-quantum-simulation-as-a-falsification-tool-for-the-posner-molecule-h"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-257/trapped-ion-quantum-simulation-as-a-falsification-tool-for-the-posner-molecule-h",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "c589b7ad017f9002314312c6172a0a38f0932ff8be072d86ba4a2b7362339287"
+    },
+    {
+      "path": "runs/cycle-272/trapped-ion-quantum-simulation-as-a-falsification-tool-for-the-posner-molecule-h",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d6659fbcda25309b06357ea62a63d92687320527205a5618388b037bdb1b940f"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "trapped-ion-quantum-simulation-as-a-falsification-tool-for-the-posner-molecule-h"
+  },
+  "snapshots": [
+    {
+      "sha256": "c56665e773c16b128752eff5aaa2d20bad45e768d9d52d71a6ab96fa4f6ea8b3",
+      "bytes": 22345,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "e3fe56702ed6649d8bc979f5e1407b39d2ab2ad5"
+    }
+  ],
+  "events": []
+}

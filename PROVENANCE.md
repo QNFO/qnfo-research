@@ -1,8 +1,9 @@
 # PROVENANCE — qnfo-research
 
-Consolidation date: 2026-08-04
+Consolidation dates: 2026-08-04 (eight project repositories), 2026-10-26 (`qnfo-ensemble-research` into `runs/`).
 Method: `git subtree add` per member repo (full history preserved under each subdirectory).
 Original repos: archived on GitHub, NOT deleted. URLs remain live.
+The standard for records, hashes and reproducibility is `docs/PROVENANCE-STANDARD.md`.
 
 ## Mapping
 
@@ -16,6 +17,7 @@ Original repos: archived on GitHub, NOT deleted. URLs remain live.
 | `language-info-architecture` | `qnfo-research/` | Yes (subtree) | — |
 | `solo-scientist` | `qnfo-research/` | Yes (subtree) | — |
 | `macroscopic-boundary-problem` | `qnfo-research/` | Yes (subtree) | — |
+| `qnfo-ensemble-research` (396 pipeline cycles, 2026-09-08..) | `qnfo-research/runs/` | Yes (subtree; 2,837 commits; head `5e41f98`, see `provenance/IMPORT.json`) | — |
 
 ## Notes
 

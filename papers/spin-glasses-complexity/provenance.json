@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "spin-glasses-complexity",
+  "paper": {
+    "path": "papers/spin-glasses-complexity/paper.md",
+    "title": "Spin Glasses and Complexity: Replica Symmetry Breaking, Frustration, and the Statistical Mechanics of Disordered Systems",
+    "url": "https://papers.qnfo.org/papers/spin-glasses-complexity"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "spin-glasses-complexity"
+  },
+  "snapshots": [
+    {
+      "sha256": "626cbf4fb9da2e348dcc19eabe9739dd710e9962ffdaeb15bc66c14db4adee19",
+      "bytes": 17396,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "6bc80345a74ff1d1842d577fffd5b1973fe95c85"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog",
+  "paper": {
+    "path": "papers/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog/paper.md",
+    "title": "Direction of Epistemic Risk as a Criterion Distinguishing Science from Numerology",
+    "url": "https://papers.qnfo.org/papers/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-259/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e7efe2558ae9652612793b18f75ee8ed0d932b9fdadb2938350b7b744d537e8e"
+    },
+    {
+      "path": "runs/cycle-290/direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "direction-of-epistemic-risk-as-a-criterion-distinguishing-science-from-numerolog"
+  },
+  "snapshots": [
+    {
+      "sha256": "6da749ccb41b4304715a9cf8b62d3247388b26cfdd136c24829911fa5938a4e7",
+      "bytes": 26788,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "9d14e23ed619d332e769e22edb3c7edb5f35d732"
+    }
+  ],
+  "events": []
+}

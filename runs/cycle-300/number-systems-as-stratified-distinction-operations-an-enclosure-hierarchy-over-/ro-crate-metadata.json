@@ -1,0 +1,365 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-300: Number Systems as Stratified Distinction Operations: An Enclosure Hierarchy over the Mark",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-300",
+      "qnfo:runPath": "runs/cycle-300/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "qnfo:slug": "number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T16:05:33+02:00",
+      "qnfo:depositCommit": "ed9bcce4d1c06140132289e5815a84ce07606217",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/review-report.md"
+        },
+        {
+          "@id": "#missing/verification.py"
+        },
+        {
+          "@id": "#missing/writer-b-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Number Systems as Stratified Distinction Operations: An Enclosure Hierarchy over the Mark",
+      "url": "https://papers.qnfo.org/papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0705.1007",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0705.1007"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0711.2922",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0711.2922"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0804.2190",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0804.2190"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1008.3125",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1008.3125"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1108.1171",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1108.1171"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1511.08784",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1511.08784"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1705.08140",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1705.08140"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1902.03268",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1902.03268"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.12657",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.12657"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2007.12042",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2007.12042"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2109.12732",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2109.12732"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2111.04538",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2111.04538"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2112.15164",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2112.15164"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.07965",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.07965"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2310.12845",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2310.12845"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2310.17310",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2310.17310"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.20970",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.20970"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math/0603469",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math/0603469"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "30aa8b7b19d0485d2d46ffcccc046ffd2878d8a40ce82006f05ef6964301af16",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "92680",
+      "sha256": "ccc47f96589d3d6339fa3fc58eba3dd441f5e6dad16e8311a90a88ce9350dbdd",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8283",
+      "sha256": "c0d1997a2219bf51db0c7c3d48df93070689fd11dff752067d32363229b4cdb5",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27719",
+      "sha256": "6dbba40bd43b6048044f6cd8ea9139b772cde04cd77515f59bcc96b920abbdc0",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/review-report.md",
+      "@type": "CreativeWork",
+      "name": "review-report.md",
+      "sha256": "4294debf0313055eb81376f745b88efbbec40ef84362cc317634b4ee9c60cfce",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.py",
+      "@type": "CreativeWork",
+      "name": "verification.py",
+      "sha256": "865d89b5fd18f3c0ccb8088aa03593c38dc69788b1baede7a73c0122ad6ecc0f",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "7e6f4c03885171734bb8130494d3550ea6a0f14122069155196c51914d3a5f54",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0705.1007"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0711.2922"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0804.2190"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1008.3125"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1108.1171"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1511.08784"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1705.08140"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1902.03268"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.12657"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2007.12042"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2109.12732"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2111.04538"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2112.15164"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.07965"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2310.12845"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2310.17310"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.20970"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math/0603469"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    }
+  ]
+}

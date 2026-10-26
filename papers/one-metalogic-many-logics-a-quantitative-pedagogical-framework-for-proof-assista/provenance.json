@@ -1,0 +1,91 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+  "paper": {
+    "path": "papers/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista/paper.md",
+    "title": "One Metalogic, Many Logics: A Quantitative Pedagogical Framework for Proof‑Assistant‑Based Logic Teaching with LogiKEy",
+    "url": "https://papers.qnfo.org/papers/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-277/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "df6489d9c1c084c6840a50705dfaa53b3e52e281463dfd01e3f74671a6787062"
+    },
+    {
+      "path": "runs/cycle-301/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9ee1d1678d703da4db3ce989d19ba67579da250be0d1ba678c6e4cd86c6e463b"
+    },
+    {
+      "path": "runs/cycle-314/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "bd378fb3464ac1043558525ec614266b65cb50394ace2300102fcf5ab8cf6d5d"
+    },
+    {
+      "path": "runs/cycle-333/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "64dd0860fdfbbf93763759e4516cfd96c014fbb395f717e2753c7c0462d5f376"
+    },
+    {
+      "path": "runs/cycle-341/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    },
+    {
+      "path": "runs/cycle-344/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "8a327ff648574ee615e5e26deaabbd1cd4a0c1764b81b627638b7319d551ae67"
+    },
+    {
+      "path": "runs/cycle-357/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "482c224228e479c0cfe0ad374b3a75754b6cf7a29051ac2317056f46c8c95928"
+    },
+    {
+      "path": "runs/cycle-363/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "dfd103d4c4c13e303e090b2899dfa1ef70653bccaffe796d74e13c6b0d32710b"
+    },
+    {
+      "path": "runs/cycle-375/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "0ec4ef43709c46bf38d10937f1c303c4f09c1b564a4b87f886ec3a4dad008bae"
+    },
+    {
+      "path": "runs/cycle-42/one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "54390bf0f782ecc006e310af939ce9464cf1e9609d2720b07da433a4d6f2f2c5"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "one-metalogic-many-logics-a-quantitative-pedagogical-framework-for-proof-assista"
+  },
+  "snapshots": [
+    {
+      "sha256": "f8a61363e6c81b644f088bd11eaa8743d659dcaff2378c1b8e8154592a4e6b79",
+      "bytes": 30749,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "6beefd2af8c62fd9ff6af1c715f5e4c3751c318e"
+    }
+  ],
+  "events": []
+}

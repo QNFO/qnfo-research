@@ -1,0 +1,369 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-216: A Universal Adelic Normalization Principle: Ostrowski’s Product Formula and Ono’s Tamagawa Numbers as Specializations of One Local–Global Schema",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-216",
+      "qnfo:runPath": "runs/cycle-216/a-universal-adelic-normalization-principle-ostrowski-s-product-formula-and-ono-s",
+      "qnfo:slug": "a-universal-adelic-normalization-principle-ostrowski-s-product-formula-and-ono-s",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-19T12:40:58+02:00",
+      "qnfo:depositCommit": "c6b2a3b076e6f3c451cfbf27436459431c1062c1",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/a-universal-adelic-normalization-principle-ostrowski-s-product-formula-and-ono-s"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/review-report.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/a-universal-adelic-normalization-principle-ostrowski-s-product-formula-and-ono-s",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "A Universal Adelic Normalization Principle: Ostrowski’s Product Formula and Ono’s Tamagawa Numbers as Specializations of One Local–Global Schema",
+      "url": "https://papers.qnfo.org/papers/a-universal-adelic-normalization-principle-ostrowski-s-product-formula-and-ono-s"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1212.2403",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1212.2403"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.3539",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.3539"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1502.04660",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1502.04660"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1708.08034",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1708.08034"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.16000",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.16000"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.02348",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.02348"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2606.06713",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2606.06713"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math/0701634",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math/0701634"
+    },
+    {
+      "@id": "https://doi.org/10.2307/1970502",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.2307/1970502"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "f03644ca71d846095d65bcfed4763187eda22fea3f176c9827e737ac06f4cc1d",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "81758",
+      "sha256": "1e64ed171bc6dc4d8b0696033d30b7518791420371d061ae8ee7912f2f37186c",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4967",
+      "sha256": "d2b715963be8215f571444f360ce8a373bf795b213404f63ab68a86f6e03b947",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1128",
+      "sha256": "600529bfc8dbce1eb5f68f61e54604c0a3b3d5a6d9d60ca4cdc7c910a171c0ba",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25011",
+      "sha256": "803683d1f36194456c5f23cb33a8065d7eada1e38f5b8150e0e8d9271b594c21",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26596",
+      "sha256": "103eb7f96cbb9950c22d87f29d05e846461aa41ea730906d9b4c6a5423ef585e",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/review-report.md",
+      "@type": "CreativeWork",
+      "name": "review-report.md",
+      "sha256": "5f43caf0c8edaf715ed0272018498960f68af906abfa3d2df474da61cc11e436",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1212.2403"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.3539"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1502.04660"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1708.08034"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.16000"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.02348"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2606.06713"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math/0701634"
+        },
+        {
+          "@id": "https://doi.org/10.2307/1970502"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-19T12:40:58+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "c20f77b28f730a5a70618386b3a1d8445f556cc22bfc63169e39b796ba026e2a"
+    }
+  ]
+}

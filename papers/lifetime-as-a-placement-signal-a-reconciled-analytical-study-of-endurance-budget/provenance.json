@@ -1,0 +1,49 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
+  "paper": {
+    "path": "papers/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget/paper.md",
+    "title": "Lifetime as a Placement Signal: An Analytical Audit of Endurance Budgets for KV Cache Tiering across HBM and High‑Bandwidth Flash in Agentic LLM Serving",
+    "url": "https://papers.qnfo.org/papers/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-119/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "db7d57981feee4eda432715e3dba17f02551463a06155dc2eb071d98cd3972a5"
+    },
+    {
+      "path": "runs/cycle-271/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "44fe9703b89c61cbb5d01d79c3edf436dd78c02c6e4a3759cfa28693ccd594b9"
+    },
+    {
+      "path": "runs/cycle-296/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d70d4646d21b866de414356ea5c82fe883817604e65be0d2636eeb7bc4c79734"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget"
+  },
+  "snapshots": [
+    {
+      "sha256": "59401399d31526a8fa673ab8a849b9d22d90a3fc6a04ec3f294d787beaab36ed",
+      "bytes": 30055,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "97d0d15293319baba7d341ea3afd42f999d20224"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi",
+  "paper": {
+    "path": "papers/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi/paper.md",
+    "title": "Quantifying the Reuse Barrier in Published Omics Data: Dispersal, Cost, and Feasibility Models for Agent‑Supported Retrieval, Reanalysis, and Synthesis",
+    "url": "https://papers.qnfo.org/papers/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-121/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1f35bf6f8dae63b3cbbccdc30f071bb0d007779acba7d605cadd25102d7b3383"
+    },
+    {
+      "path": "runs/cycle-279/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "52c6d4d773f208c4813b75aafd3710681c50f618f97711df4bda40f793d00d6b"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi"
+  },
+  "snapshots": [
+    {
+      "sha256": "be224e38cbfed2952af714bde502ab4572c0c8e8998993bc4f74bdce4fd5c0fe",
+      "bytes": 34930,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "dc993a88c44d477500ed08f85f8f24729ef3db8e"
+    }
+  ],
+  "events": []
+}

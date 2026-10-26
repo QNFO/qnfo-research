@@ -1,0 +1,380 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-1 (pilot)",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-1",
+      "qnfo:runPath": "runs/cycle-1",
+      "datePublished": "2026-09-08T13:25:59+02:00",
+      "qnfo:depositCommit": "cc204ffeaf54ef0c3bfa106fa40d74fb055d9ffd",
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "RECONCILIATION.md"
+        },
+        {
+          "@id": "SHARED-PROMPT.md"
+        },
+        {
+          "@id": "citation-audit.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "writer-a/claims.md"
+        },
+        {
+          "@id": "writer-a/draft.md"
+        },
+        {
+          "@id": "writer-a/notes.md"
+        },
+        {
+          "@id": "writer-b/claims.md"
+        },
+        {
+          "@id": "writer-b/draft.md"
+        },
+        {
+          "@id": "writer-b/notes.md"
+        },
+        {
+          "@id": "writer-c/claims.md"
+        },
+        {
+          "@id": "writer-c/draft.md"
+        },
+        {
+          "@id": "writer-c/notes.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "3616",
+      "sha256": "a3f4e29df4ed68025dea52fabf1abc27fd6b775bf46c72a7e6b546fa7d04a7b3",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "RECONCILIATION.md",
+      "@type": "File",
+      "name": "RECONCILIATION.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7280",
+      "sha256": "fdbf4642dee14e6c92ab26b38327e3c9e11b20616ba4e3dd1cc128fd8da60f2d",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "SHARED-PROMPT.md",
+      "@type": "File",
+      "name": "SHARED-PROMPT.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1819",
+      "sha256": "b5369c0085d067de78948fbe390d26014255b61510db217eb6dfe09596bc5709",
+      "qnfo:role": "prompt",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "citation-audit.md",
+      "@type": "File",
+      "name": "citation-audit.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4118",
+      "sha256": "6dd7bee710f334122a41779ce045387c7525ef952e1484caca3977fd47a36f68",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17696",
+      "sha256": "d96ac49ae3a2317dd127128880c47eec33e3827487256ff5b1a1b42d47a5ac40",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a/claims.md",
+      "@type": "File",
+      "name": "writer-a/claims.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2571",
+      "sha256": "5e56deb7daa38d32585c8fb571746ea0e75b353b7b9c33b5a3440b7acabd33b9",
+      "qnfo:role": "draft-support",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a/draft.md",
+      "@type": "File",
+      "name": "writer-a/draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16759",
+      "sha256": "adc2824cafac97e97f6d207401ad462c5ff9334d0de295d15744b6d8eb7f192b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a/notes.md",
+      "@type": "File",
+      "name": "writer-a/notes.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2981",
+      "sha256": "c5d217820a2a3246f75b8107e1c026e4673c05c8512ed00ca8538998c552e5d6",
+      "qnfo:role": "draft-support",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b/claims.md",
+      "@type": "File",
+      "name": "writer-b/claims.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2581",
+      "sha256": "5cc9136c6ed2d7b8dc2118729b907cdcb00460a5b13e8847cef757fad4df59a4",
+      "qnfo:role": "draft-support",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b/draft.md",
+      "@type": "File",
+      "name": "writer-b/draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18601",
+      "sha256": "8eb5fd0063549570d4abf896493792f82fc3c0f08765eb6b2d3500d6826ff025",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b/notes.md",
+      "@type": "File",
+      "name": "writer-b/notes.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3516",
+      "sha256": "5b05e87db93d345b629707b9c6d8756087ecf10bb30c16ee095f0c7dd00f462a",
+      "qnfo:role": "draft-support",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c/claims.md",
+      "@type": "File",
+      "name": "writer-c/claims.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2813",
+      "sha256": "2380ae348f4c1bd3e61c502118affbe35b7400fc5b2f09d9ac6fea7da01470f2",
+      "qnfo:role": "draft-support",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c/draft.md",
+      "@type": "File",
+      "name": "writer-c/draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16884",
+      "sha256": "836ae80346a3402ecb5d7e6bb192a687ddabeb0c1fcd4992469605265f6aef77",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c/notes.md",
+      "@type": "File",
+      "name": "writer-c/notes.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3135",
+      "sha256": "97a534f81f949156cf2f10d3c63540b969e9924f2a175313f009afcb268e4a9c",
+      "qnfo:role": "draft-support",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "SHARED-PROMPT.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a/draft.md"
+        },
+        {
+          "@id": "writer-b/draft.md"
+        },
+        {
+          "@id": "writer-c/draft.md"
+        },
+        {
+          "@id": "writer-a/claims.md"
+        },
+        {
+          "@id": "writer-a/notes.md"
+        },
+        {
+          "@id": "writer-b/claims.md"
+        },
+        {
+          "@id": "writer-b/notes.md"
+        },
+        {
+          "@id": "writer-c/claims.md"
+        },
+        {
+          "@id": "writer-c/notes.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "SHARED-PROMPT.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "RECONCILIATION.md"
+        },
+        {
+          "@id": "citation-audit.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a/draft.md"
+        },
+        {
+          "@id": "writer-b/draft.md"
+        },
+        {
+          "@id": "writer-c/draft.md"
+        },
+        {
+          "@id": "writer-a/claims.md"
+        },
+        {
+          "@id": "writer-a/notes.md"
+        },
+        {
+          "@id": "writer-b/claims.md"
+        },
+        {
+          "@id": "writer-b/notes.md"
+        },
+        {
+          "@id": "writer-c/claims.md"
+        },
+        {
+          "@id": "writer-c/notes.md"
+        }
+      ]
+    }
+  ]
+}

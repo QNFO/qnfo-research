@@ -1,0 +1,414 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-165: attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-165",
+      "qnfo:runPath": "runs/cycle-165/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs",
+      "qnfo:slug": "attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-17T07:46:12+02:00",
+      "qnfo:depositCommit": "32cac97dcbd99604fd4fd40acc0c13223135f463",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs",
+      "url": "https://papers.qnfo.org/papers/attractor-calculus-a-formal-operator-language-for-steering-cognition-across-subs"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1309.1271",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1309.1271"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.07502",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.07502"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.13001",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.13001"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.01074",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.01074"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1912.10631",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1912.10631"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.10372",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.10372"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.07292",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.07292"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.10094",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.10094"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2302.09077",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2302.09077"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.07223",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.07223"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.00249",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.00249"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "01c8714f156a434f06df5c6b63c46711262e6db2f17e8a64797ed2ed297b3280",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "60233",
+      "sha256": "41ea5008bfb8891c8aa9350af45c3bbcb8a48ea964e1c3ee7d2184e7a18c603c",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2232",
+      "sha256": "7060f6f206eeb80c04ea1157a9f5a08657f48d20837d90f1f99c33f66605264f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8339",
+      "sha256": "a08b4a9932ae7e02f54c6a032e250e5cb95d80b18959843edbd64c34a62f7864",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2446",
+      "sha256": "1949d5d099a99cfdbbd5f3f97506de8fd89f2788cf94b622012eabae12f83b16",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18301",
+      "sha256": "d8c930739048339a450983abc3b4255156b3421b9291a87729488fc7b896ac4d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18387",
+      "sha256": "ba797fddfa32e809c63e87ee049b53794308b6610d8480e8334258130069908a",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1309.1271"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.07502"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.13001"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.01074"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1912.10631"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.10372"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.07292"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.10094"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2302.09077"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.07223"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.00249"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-17T07:46:12+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "5d1e1351c69efb803244a275cf071519b010bd278546a75212d16b1c428a0b33"
+    }
+  ]
+}

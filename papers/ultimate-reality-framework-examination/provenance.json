@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultimate-reality-framework-examination",
+  "paper": {
+    "path": "papers/ultimate-reality-framework-examination/paper.md",
+    "title": "The Ultimate",
+    "url": "https://papers.qnfo.org/papers/ultimate-reality-framework-examination"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultimate-reality-framework-examination"
+  },
+  "snapshots": [
+    {
+      "sha256": "8860916cf72611122019b53742daa5538b045bd779cee783e95cbada31f04b68",
+      "bytes": 35943,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "1ba2d735ae214fb81df332eecc064fffbd606bda"
+    }
+  ],
+  "events": []
+}

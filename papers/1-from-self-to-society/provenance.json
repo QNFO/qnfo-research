@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "1-from-self-to-society",
+  "paper": {
+    "path": "papers/1-from-self-to-society/paper.md",
+    "title": "[Strange Loop of Being](releases/2025/Strange%20Loop%20of%20Being/Strange%20Loop%20of%20Being.md)",
+    "url": "https://papers.qnfo.org/papers/1-from-self-to-society"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22757187",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "1-from-self-to-society"
+  },
+  "snapshots": [
+    {
+      "sha256": "f498fe3e47f423f8a627b77b1fc8bb91b3bf6d7bfaf3d16d573f034c4eede284",
+      "bytes": 9249,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "f1a766642ce2988fdcd110db435a692a22e39fc7"
+    }
+  ],
+  "events": []
+}

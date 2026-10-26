@@ -1,0 +1,224 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-322: perception-as-interpolation-over-a-discrete-universe",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-322",
+      "qnfo:runPath": "runs/cycle-322/perception-as-interpolation-over-a-discrete-universe",
+      "qnfo:slug": "perception-as-interpolation-over-a-discrete-universe",
+      "datePublished": "2026-10-21T02:02:10+02:00",
+      "qnfo:depositCommit": "84ca9877c94401dcad9b4096840e58b8d99f5404",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/perception-as-interpolation-over-a-discrete-universe"
+      },
+      "hasPart": [
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/perception-as-interpolation-over-a-discrete-universe",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "perception-as-interpolation-over-a-discrete-universe",
+      "url": "https://papers.qnfo.org/papers/perception-as-interpolation-over-a-discrete-universe"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1003.5890",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1003.5890"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1405.3707",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1405.3707"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.09606",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.09606"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.02224",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.02224"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.12097",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.12097"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1906.08358",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1906.08358"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.06882",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.06882"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2112.02716",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2112.02716"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.09057",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.09057"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.07935",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.07935"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.01033",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.01033"
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "57411",
+      "sha256": "fce9317f569882193b98033bf28306ee93199992c385791556b6f17b254f2ddb",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6808",
+      "sha256": "10e1c29f2344f05e7346e3f3d3e66de154d0440f855940ae6924870ff372ab08",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": false
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1003.5890"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1405.3707"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.09606"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.02224"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.12097"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1906.08358"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.06882"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2112.02716"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.09057"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.07935"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.01033"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    }
+  ]
+}

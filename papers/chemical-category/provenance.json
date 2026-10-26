@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "chemical-category",
+  "paper": {
+    "path": "papers/chemical-category/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/chemical-category"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "chemical-category"
+  },
+  "snapshots": [
+    {
+      "sha256": "61e8ac265258f31c53c3863f43837f6abfdcb1338683bddf46d4c7b780ff80cf",
+      "bytes": 39989,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "ab87afaa7fd5c4a799a6cb254983b378b53a9c38"
+    }
+  ],
+  "events": []
+}

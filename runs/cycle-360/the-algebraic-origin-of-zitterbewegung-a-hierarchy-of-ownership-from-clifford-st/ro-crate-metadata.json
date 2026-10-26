@@ -1,0 +1,422 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-360: The Algebraic Origin of Zitterbewegung: A Hierarchy of Ownership from Clifford Structure to Observed Oscillation",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-360",
+      "qnfo:runPath": "runs/cycle-360/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st",
+      "qnfo:slug": "the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-21T11:21:32+02:00",
+      "qnfo:depositCommit": "b8ff762565a2665562acbc9fd76249dc2fc41985",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "The Algebraic Origin of Zitterbewegung: A Hierarchy of Ownership from Clifford Structure to Observed Oscillation",
+      "url": "https://papers.qnfo.org/papers/the-algebraic-origin-of-zitterbewegung-a-hierarchy-of-ownership-from-clifford-st"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0803.1212",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0803.1212"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0809.1086",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0809.1086"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1003.3074",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1003.3074"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1105.2884",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1105.2884"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1210.5030",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1210.5030"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1306.0174",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1306.0174"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.04422",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.04422"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2009.08489",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2009.08489"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2105.02115",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2105.02115"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/0007032",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/0007032"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/0307046",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/0307046"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/9408104",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/9408104"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "99b874593af60e72fc343e3ba4c86610a787b96462e4dd00b99b6be7ce3d1459",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "100075",
+      "sha256": "52d0851f41aa11a966a382e2177e6b022b9582a8caf83803a9e5648ecedd4dc8",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2806",
+      "sha256": "6cd7eb4a8b6666e8ff4105d9163a9920c6de41ff1ea735d1f495c24106574d0b",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6919",
+      "sha256": "210cba9cd3316a90de4c7d8621386551c4923b98b0dcd91021e5632db7af2ad8",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2109",
+      "sha256": "1dbdc12e1eaa501f0656c8b22f3634ad21eaaf9158ca5955c9bfdbb0dc54dc33",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26111",
+      "sha256": "8daf0143e13237777816b257df8450a84a8ae2b12091bbe39254e86022bba10c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24325",
+      "sha256": "b7f04bf99544874f740801035b992dc0da85063994176c3f590038cdb27df0bf",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0803.1212"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0809.1086"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1003.3074"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1105.2884"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1210.5030"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1306.0174"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.04422"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2009.08489"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2105.02115"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/0007032"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/0307046"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/9408104"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-21T11:21:32+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "1aacd17110034ae1135feca4ea8d2de816317b4a896df0f4d08124b929494c85"
+    }
+  ]
+}

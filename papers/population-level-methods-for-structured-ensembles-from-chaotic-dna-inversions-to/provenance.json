@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to",
+  "paper": {
+    "path": "papers/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to/paper.md",
+    "title": "Population-Level Methods for Structured Ensembles: From Chaotic DNA Inversions to Ensemble Leg Drafting",
+    "url": "https://papers.qnfo.org/papers/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-261/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4f8a0846def96af1a70df5f94e59b0af640d9d15050284e107a78f907472d94a"
+    },
+    {
+      "path": "runs/cycle-92/population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a26522adf8b13f87177016b4a85cf14c7896f50310908d15195dc370ddc34ba4"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "population-level-methods-for-structured-ensembles-from-chaotic-dna-inversions-to"
+  },
+  "snapshots": [
+    {
+      "sha256": "40650a011cbb59e3620eb3e5377d3a40933f21ac04b2db59406646820fdc287f",
+      "bytes": 34643,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "c9ed43a8dbc7b94cff71961082371d3157435a28"
+    }
+  ],
+  "events": []
+}

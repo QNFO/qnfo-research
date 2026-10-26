@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes",
+  "paper": {
+    "path": "papers/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes/paper.md",
+    "title": "Cross-Model LLM Convergence as Bayesian Evidence for Scientific Claim Correctness: A Formal Framework, Worked Derivations, and a Calibration Protocol",
+    "url": "https://papers.qnfo.org/papers/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-227/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    },
+    {
+      "path": "runs/cycle-69/cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "480dbe00c58cb8ec532d4efc511652116bf27d0775c1e18aae3904f99943f565"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cross-model-llm-convergence-as-bayesian-evidence-for-scientific-claim-correctnes"
+  },
+  "snapshots": [
+    {
+      "sha256": "b633ac1cb62b9ea4d6b8185ac6e71804f139347afc246e91be15fce3af067473",
+      "bytes": 28352,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "6a83698ad6395524de30b272834ec0f6602cfe1a"
+    }
+  ],
+  "events": []
+}

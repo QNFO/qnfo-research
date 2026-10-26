@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "paper-physics-of-computation",
+  "paper": {
+    "path": "papers/paper-physics-of-computation/paper.md",
+    "title": "1. Introduction: The Question Physics Must Answer",
+    "url": "https://papers.qnfo.org/papers/paper-physics-of-computation"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22753039",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "paper-physics-of-computation"
+  },
+  "snapshots": [
+    {
+      "sha256": "042ee65dfeb6d9ad94cd84de4ac5ee019cb21aab9f5c4d1309c30ee95ae0b78e",
+      "bytes": 30867,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "ce7e2d80d0489eb53b75aa6e874d2822f44c6f9a"
+    }
+  ],
+  "events": []
+}

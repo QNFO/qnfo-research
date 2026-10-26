@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-54: the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-54",
+      "qnfo:runPath": "runs/cycle-54/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal",
+      "qnfo:slug": "the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-10T09:30:23+02:00",
+      "qnfo:depositCommit": "56a392f4907f28768ed4e23a86f398be7c50451f",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal",
+      "url": "https://papers.qnfo.org/papers/the-zero-point-phase-as-an-archimedean-factor-of-weil-index-reciprocity-a-formal"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0801.1957",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0801.1957"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0803.0024",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0803.0024"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1404.1905",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1404.1905"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1706.01619",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1706.01619"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1805.02650",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1805.02650"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.03154",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.03154"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2308.04324",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2308.04324"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.03563",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.03563"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "3619793912c3b56c6ea09fb199a0924511198937b62b68f5bb0904b457da1628",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11681",
+      "sha256": "36697676823a50b2bfb003870e5b6988fd0c2edc641cafb55c4d7c97dc973366",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1990",
+      "sha256": "9f9d29623acb70eec60c6e285ebebb7b2860ab063842eb0f5a84901ad239db8f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4653",
+      "sha256": "5622e155215dc2960c23430ce2863d38ae2ee23efac22967a1d38a5cef24aabf",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2141",
+      "sha256": "e6855d9349205ed36eeb16239658551841256302ccb7b007a95f83adadb19516",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14323",
+      "sha256": "1c6e81c6dfb9b104678cc38d4cae65498e43a3266381cdd9fb66bdf9c7fdd84a",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15506",
+      "sha256": "2a190b4936769f6294bfb0974bf82698e88f8f460ee45587093578d38331f533",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19894",
+      "sha256": "b57b592627ca17735c636873d9995fcd762f26804343fb849b7cbd08e3036d41",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0801.1957"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0803.0024"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1404.1905"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1706.01619"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1805.02650"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.03154"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2308.04324"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.03563"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-10T09:30:23+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "37d7cad1ed2cc2a6a143310bdb2e09da34138fefb86b50160ed931a69803e3e5"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "post-quantum-synthesis",
+  "paper": {
+    "path": "papers/post-quantum-synthesis/paper.md",
+    "title": "Post-Quantum Synthesis",
+    "url": "https://papers.qnfo.org/papers/post-quantum-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22737379",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "post-quantum-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "b6fa5c2d0d5a6d57fc9cbc60780b5c31b2f42e2a39e0b8740996d8948a5c397f",
+      "bytes": 133654,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "580b8bea7f865647010a713118d7db7c9f1264ae"
+    }
+  ],
+  "events": []
+}

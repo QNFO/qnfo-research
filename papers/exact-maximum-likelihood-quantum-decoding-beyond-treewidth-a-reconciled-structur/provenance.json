@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "exact-maximum-likelihood-quantum-decoding-beyond-treewidth-a-reconciled-structur",
+  "paper": {
+    "path": "papers/exact-maximum-likelihood-quantum-decoding-beyond-treewidth-a-reconciled-structur/paper.md",
+    "title": "Exact Maximum-Likelihood Quantum Decoding beyond Treewidth: A Structural Analysis of Rank-Decomposition Dynamic Programming",
+    "url": "https://papers.qnfo.org/papers/exact-maximum-likelihood-quantum-decoding-beyond-treewidth-a-reconciled-structur"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-133/exact-maximum-likelihood-quantum-decoding-beyond-treewidth-a-reconciled-structur",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1befedd0128b0ca41cf35e4e1e32721a85a855d2922d2506d3aaeee5ee7bb0a7"
+    },
+    {
+      "path": "runs/cycle-33/exact-maximum-likelihood-quantum-decoding-beyond-treewidth-a-reconciled-structur",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "exact-maximum-likelihood-quantum-decoding-beyond-treewidth-a-reconciled-structur"
+  },
+  "snapshots": [
+    {
+      "sha256": "46efefc139375f44145bce02a943e1ad45535eeb69a28701f22efbba80d68086",
+      "bytes": 51971,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "93da0cc802b11d080f6be811bd518e793637a83a"
+    }
+  ],
+  "events": []
+}

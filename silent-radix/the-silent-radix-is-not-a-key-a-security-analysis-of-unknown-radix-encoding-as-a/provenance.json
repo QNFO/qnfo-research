@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-silent-radix-is-not-a-key-a-security-analysis-of-unknown-radix-encoding-as-a",
+  "paper": {
+    "path": "silent-radix/the-silent-radix-is-not-a-key-a-security-analysis-of-unknown-radix-encoding-as-a/paper.md",
+    "title": "The Silent Radix Is Not a Key: A Security Analysis of Unknown‑Radix Encoding as a Cryptographic Primitive",
+    "url": "https://papers.qnfo.org/papers/the-silent-radix-is-not-a-key-a-security-analysis-of-unknown-radix-encoding-as-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-131/the-silent-radix-is-not-a-key-a-security-analysis-of-unknown-radix-encoding-as-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "071c847545a175f6cf5b63d82f27df85fc20d1f7a36d837e97ed0a77a0afb2e3"
+    },
+    {
+      "path": "runs/cycle-345/the-silent-radix-is-not-a-key-a-security-analysis-of-unknown-radix-encoding-as-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "8098adf71c1d90991010ad7e1cbea4a9fae41deb6d5db646c4e37ee8954ea1f9"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-silent-radix-is-not-a-key-a-security-analysis-of-unknown-radix-encoding-as-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "55f1691a10d16e1123ffc220bc265cfc4be1ff6e545307f772d36254f8f0390b",
+      "bytes": 46397,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "c71e11998445d7e31eb7c77aafecfeb1163b4889"
+    }
+  ],
+  "events": []
+}

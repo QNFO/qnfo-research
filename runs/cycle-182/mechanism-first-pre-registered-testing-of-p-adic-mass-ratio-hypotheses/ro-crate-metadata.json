@@ -1,0 +1,300 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-182: mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-182",
+      "qnfo:runPath": "runs/cycle-182/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses",
+      "qnfo:slug": "mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-18T18:31:36+02:00",
+      "qnfo:depositCommit": "29ab505fd21ce4907cc71d6ffe1efb81bab7ee79",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses"
+      },
+      "qnfo:missingParts": [
+        {
+          "@id": "#missing/review-report.md"
+        },
+        {
+          "@id": "#missing/verification.md"
+        },
+        {
+          "@id": "#missing/verification.py"
+        },
+        {
+          "@id": "#missing/writer-a-draft.md"
+        },
+        {
+          "@id": "#missing/writer-b-draft.md"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses",
+      "url": "https://papers.qnfo.org/papers/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0707.3682",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0707.3682"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.07185",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.07185"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.06864",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.06864"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2408.00810",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2408.00810"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00220-017-2813-1",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1007/s00220-017-2813-1"
+    },
+    {
+      "@id": "https://doi.org/10.1016/0370-2693(70",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/0370-2693(70"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.physrep.2006.03.001",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1016/j.physrep.2006.03.001"
+    },
+    {
+      "@id": "https://doi.org/10.1093/ptep/ptae074",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1093/ptep/ptae074"
+    },
+    {
+      "@id": "https://doi.org/10.1103/PhysRevLett.32.438",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1103/PhysRevLett.32.438"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1018",
+      "sha256": "026320169a7bb6411456b0099cabe54e4cd3c4515c4b8d3ca6691eb5ef8f76d4",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "47336",
+      "sha256": "abd04d9bf27dde0a2f64bf7378b4fb6989af68661ceacff78f71e309bcaccc9f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28535",
+      "sha256": "ccb45d5dc8b85c0659a5ce70f8949b5fda0d292d566f62542f979a48065a04e4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#missing/review-report.md",
+      "@type": "CreativeWork",
+      "name": "review-report.md",
+      "sha256": "dfc5c1fa1ffacfa37ddcdb2a5ac7c021cc99fb2238e388215d795124a28f0448",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.md",
+      "@type": "CreativeWork",
+      "name": "verification.md",
+      "sha256": "c913fb1769a388664a1988bac0e041afa5bb1cdcddebe3761139e8e29002aec8",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/verification.py",
+      "@type": "CreativeWork",
+      "name": "verification.py",
+      "sha256": "6cfbefd2484c97a9707e243eb50965ac9757a066ad2f0d5a67fadd8cc859ef63",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-a-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-a-draft.md",
+      "sha256": "6e68d754b49b1fc153f60bd7cb481b7610247ed34a0968afb2829c0fc16b2df6",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#missing/writer-b-draft.md",
+      "@type": "CreativeWork",
+      "name": "writer-b-draft.md",
+      "sha256": "2476318d4dac31f5015add9698021e8acc33fbd770df010d29ac53bc68aa642c",
+      "qnfo:status": "listed-in-manifest-absent-from-repository"
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0707.3682"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.07185"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.06864"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2408.00810"
+        },
+        {
+          "@id": "https://doi.org/10.1007/s00220-017-2813-1"
+        },
+        {
+          "@id": "https://doi.org/10.1016/0370-2693(70"
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.physrep.2006.03.001"
+        },
+        {
+          "@id": "https://doi.org/10.1093/ptep/ptae074"
+        },
+        {
+          "@id": "https://doi.org/10.1103/PhysRevLett.32.438"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    }
+  ]
+}

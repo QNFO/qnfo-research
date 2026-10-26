@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl",
+  "paper": {
+    "path": "papers/what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl/paper.md",
+    "title": "What Makes a Measure “Genuinely Natural”? Bits, Nats, and the Audit of Naturalness Claims in Measurement, Information, and Language",
+    "url": "https://papers.qnfo.org/papers/what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-96/what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "fe0b906740803c5d1318eb8293485ec0f66d1fa102a9fcec0e97b2464efd3327"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "what-makes-a-measure-genuinely-natural-bits-nats-and-the-audit-of-naturalness-cl"
+  },
+  "snapshots": [
+    {
+      "sha256": "bb7a4b8ef52a7dc6af876a7ce2ffebe26bdce9b0eed472fa2f32032f9e52f87c",
+      "bytes": 25116,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "6f6a4523e073221745b73082c38790e0f37510ad"
+    }
+  ],
+  "events": []
+}

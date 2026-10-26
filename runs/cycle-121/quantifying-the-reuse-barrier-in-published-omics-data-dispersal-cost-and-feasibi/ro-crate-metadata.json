@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-121: Quantifying the Reuse Barrier in Published Omics Data: Dispersal, Cost, and Feasibility Models for Agent‑Supported Retrieval, Reanalysis, and Synthesis",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-121",
+      "qnfo:runPath": "runs/cycle-121/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi",
+      "qnfo:slug": "quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-12T19:48:39+02:00",
+      "qnfo:depositCommit": "e2332c12c2a9553d6fa483b6f11e9063d4340934",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Quantifying the Reuse Barrier in Published Omics Data: Dispersal, Cost, and Feasibility Models for Agent‑Supported Retrieval, Reanalysis, and Synthesis",
+      "url": "https://papers.qnfo.org/papers/quantifying-the-reuse-barrier-in-published-omics-data-dispersal-cost-and-feasibi"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1110.5626",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1110.5626"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1703.04355",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1703.04355"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.02664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.02664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.07866",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.07866"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.08975",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.08975"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.02888",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.02888"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.10161",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.10161"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2605.20690",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2605.20690"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "1f35bf6f8dae63b3cbbccdc30f071bb0d007779acba7d605cadd25102d7b3383",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11820",
+      "sha256": "5c96ad24ddf5932127feec883c81a2b3535608069263c79742b6a58cdafc757b",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2146",
+      "sha256": "4e81d8f430753a824f8fdf309b6b33fb1487796d2e831bf190957ba0d4b45cea",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8281",
+      "sha256": "a40b9f83110dae5142a7a0f327d3e622a575c9d7b193c691a467a05b0bfcc618",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2102",
+      "sha256": "86505f52011c20891b440f454b3ee851fcc60fe46e98c80c380b4759eec16ffc",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17401",
+      "sha256": "d44f103d456d341cc9597e0dce9a2f06699cc09f0b88607c3e888bf1b55a5b5d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "33316",
+      "sha256": "32a0580b46f17ba239a4c89e8c9f12db453b7c0560555858c9adb2c79b7bc286",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "32620",
+      "sha256": "6188c719024577127490ce7cc05c57cc609a9bbd8bfa82f0a9ed5bc197532905",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1110.5626"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1703.04355"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.02664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.07866"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.08975"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.02888"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.10161"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2605.20690"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-12T19:48:39+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "581d298a11aabf8d059520866f9362f555acb8d515c6bf1afec0bc77817fd110"
+    }
+  ]
+}

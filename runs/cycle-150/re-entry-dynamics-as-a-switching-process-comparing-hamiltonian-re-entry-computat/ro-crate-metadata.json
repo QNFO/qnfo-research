@@ -1,0 +1,462 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-150: Retracted: The Switching Economics of Hamiltonian Re-Entry Computation: A Cost-Model Comparison with Stored-Program Architectures",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-150",
+      "qnfo:runPath": "runs/cycle-150/re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat",
+      "qnfo:slug": "re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-15T09:17:01+02:00",
+      "qnfo:depositCommit": "0b9cd864aee19e6446f674e89666ee79302c8bf8",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Retracted: The Switching Economics of Hamiltonian Re-Entry Computation: A Cost-Model Comparison with Stored-Program Architectures",
+      "url": "https://papers.qnfo.org/papers/re-entry-dynamics-as-a-switching-process-comparing-hamiltonian-re-entry-computat"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0911.4434",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0911.4434"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1103.3589",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1103.3589"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1302.1844",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1302.1844"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1308.4280",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1308.4280"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1602.02715",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1602.02715"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.03357",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.03357"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.07533",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.07533"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.02012",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.02012"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.03359",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.03359"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.13293",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.13293"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.10700",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.10700"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2304.06897",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2304.06897"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.15628",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.15628"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.03308",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.03308"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0401184",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0401184"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0511074",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0511074"
+    },
+    {
+      "@id": "https://arxiv.org/abs/quant-ph/0701127",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:quant-ph/0701127"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "8589dbca359cb4a94ef37de84796abcd5c914d65591b63905810d2af829cbfd7",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "75137",
+      "sha256": "86d418a2ef8668edda52f3878a5e228e79069aacb2045aebd52815b5ba64bd72",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2014",
+      "sha256": "a804e7a76de96797aaa8fff1e98945e0594b642dea4ccf32a517ad5083e66315",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8386",
+      "sha256": "78340f8a4475c9655cf386fec694c560a760ab516be4c6afc11bdab3e5194893",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2030",
+      "sha256": "1c8134406f1693fa726906ce42052412aaecbff44fccefb3211ce8d46b4eaec1",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24284",
+      "sha256": "2a4c4e26c65ac407f880706f932fdd1dc5fc85e4fe9453842e276275176d21c8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24984",
+      "sha256": "69cbc4936cfd18a62d3dd5996875c601b6bd24972001bae8d7da17dae210c010",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0911.4434"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1103.3589"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1302.1844"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1308.4280"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1602.02715"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.03357"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.07533"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.02012"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.03359"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.13293"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.10700"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2304.06897"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.15628"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.03308"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0401184"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0511074"
+        },
+        {
+          "@id": "https://arxiv.org/abs/quant-ph/0701127"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-15T09:17:01+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "d464f43ffc4dec7f94850ebfbadd06e2ff35c6bc41302f9d1684879ad19d5fa1"
+    }
+  ]
+}

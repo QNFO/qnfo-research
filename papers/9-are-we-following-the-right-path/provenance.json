@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "9-are-we-following-the-right-path",
+  "paper": {
+    "path": "papers/9-are-we-following-the-right-path/paper.md",
+    "title": "[[Philosophy of Science]]",
+    "url": "https://papers.qnfo.org/papers/9-are-we-following-the-right-path"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22757008",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "9-are-we-following-the-right-path"
+  },
+  "snapshots": [
+    {
+      "sha256": "5d0e2cc487f6f44e602d6e69182a12c77c7b112d9bbadc91262f8514e1f66e50",
+      "bytes": 19925,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "49ab1dc6080add51ea6e8b9a3f3d334c49eb5b0f"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,406 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-265: Wheeler‑DeWitt Zero‑Mode: A Structural Test of the Majorana Analogy in Minisuperspace",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-265",
+      "qnfo:runPath": "runs/cycle-265/wheeler-dewitt-zero-mode-a-structural-test-of-the-majorana-analogy-in-minisupers",
+      "qnfo:slug": "wheeler-dewitt-zero-mode-a-structural-test-of-the-majorana-analogy-in-minisupers",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T05:54:23+02:00",
+      "qnfo:depositCommit": "018c44fd16869df4944d1f93e025e95f1fd7493c",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/wheeler-dewitt-zero-mode-a-structural-test-of-the-majorana-analogy-in-minisupers"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/wheeler-dewitt-zero-mode-a-structural-test-of-the-majorana-analogy-in-minisupers",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Wheeler‑DeWitt Zero‑Mode: A Structural Test of the Majorana Analogy in Minisuperspace",
+      "url": "https://papers.qnfo.org/papers/wheeler-dewitt-zero-mode-a-structural-test-of-the-majorana-analogy-in-minisupers"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0710.5647",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0710.5647"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0802.3591",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0802.3591"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1004.2863",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1004.2863"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1305.1241",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1305.1241"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1412.8589",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1412.8589"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1511.06657",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1511.06657"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1711.09891",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1711.09891"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1912.11513",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1912.11513"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2304.01983",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2304.01983"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2502.12233",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2502.12233"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "7efc7e1b58ef297ab53ff4cd4395987b30f8b8a7c15a35d3da55fbed29dadbed",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "58730",
+      "sha256": "5a614ffec15c2a386f978662457f1cb703998ddbd6b572195fc60eec10905cdb",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2731",
+      "sha256": "389bff40b96ade88ed25512b4d9f87aba7230afbfcc0fd62633bc5e3257476f2",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3818",
+      "sha256": "5422392f5213266d1033088976d3b2bba90fdde35d4db2f8909493fecdcaa898",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1614",
+      "sha256": "1b1507fa05945f639d7132459935c81f0a8e2c9ce31b76605d21fbb170e7f760",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19271",
+      "sha256": "95a14cf2a214fea53ce41c1f11714ca58abc543b626254ffa58ab5aea710fba6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9792",
+      "sha256": "482f57229e6710e0438b19defc67cc666cfd93fa86dafe179cbd7c0b8cc724ea",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0710.5647"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0802.3591"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1004.2863"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1305.1241"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1412.8589"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1511.06657"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1711.09891"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1912.11513"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2304.01983"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2502.12233"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-20T05:54:23+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-equivalent",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "0d281eeca1176e3bc9d248496bb85bab4bf204ba18c021023f026fcf0f641b8c"
+    }
+  ]
+}

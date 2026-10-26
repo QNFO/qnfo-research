@@ -1,0 +1,49 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "braid-group-representations-modular-data-and-the-classification-of-majorana-zero",
+  "paper": {
+    "path": "papers/braid-group-representations-modular-data-and-the-classification-of-majorana-zero/paper.md",
+    "title": "Braid Group Representations, Modular Data, and the Classification of Majorana Zero Mode Fusion Rules in 2D Topological Superconductors",
+    "url": "https://papers.qnfo.org/papers/braid-group-representations-modular-data-and-the-classification-of-majorana-zero"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22739626",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-2/braid-group-representations-modular-data-and-the-classification-of-majo-5099abb8",
+      "relation": "produced-by",
+      "match": "slug-collision-suffix",
+      "manifest_sha256": "2a1b716a0786d6ae585093c0975e2fab438bb59d5b8ff3e61202e70f21ac8a49"
+    },
+    {
+      "path": "runs/cycle-35/braid-group-representations-modular-data-and-the-classification-of-majo-f20a195b",
+      "relation": "produced-by",
+      "match": "slug-collision-suffix",
+      "manifest_sha256": null
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "braid-group-representations-modular-data-and-the-classification-of-majorana-zero"
+  },
+  "snapshots": [
+    {
+      "sha256": "ff60196632de806e1efe034c1adaca85cec903148fbce7843e94d7e3e65171ab",
+      "bytes": 21312,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "22dc64d24d518f080a048418686c628060098c27"
+    }
+  ],
+  "events": []
+}

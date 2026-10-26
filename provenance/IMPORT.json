@@ -1,0 +1,10 @@
+{
+  "schema": "qnfo-import/1",
+  "source": "https://github.com/QNFO/qnfo-ensemble-research",
+  "source_head": "5e41f98532428c2c19d6bbedb1315742e85021c4",
+  "prefix": "runs",
+  "merge_commit": "c20f05490b125c238f9de1ef468710babe39e2d5",
+  "method": "git subtree add (no squash): the source history is the merge's second parent, every per-file commit of the 396 cycles is reachable from this repository",
+  "imported_at": "2026-10-26",
+  "catch_up": "git subtree pull --prefix=runs https://github.com/QNFO/qnfo-ensemble-research main   (source is frozen once qnfo-research-exec writes runs/ here)"
+}

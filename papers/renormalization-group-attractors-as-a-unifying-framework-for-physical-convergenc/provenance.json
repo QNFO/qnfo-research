@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc",
+  "paper": {
+    "path": "papers/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc/paper.md",
+    "title": "Renormalization‑Group Attractors as a Unifying Framework for Physical Convergence and Theory Polygenesis",
+    "url": "https://papers.qnfo.org/papers/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-258/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "81ce9f3c86f5064f8d6476083dc29234a74adf3c7687348d54cbd4509c43fca6"
+    },
+    {
+      "path": "runs/cycle-276/renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "3d5f281d9d02bf2b56aa8fbaf911ffce00e3b73d98faeebbf21e3247cf0fafbe"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "renormalization-group-attractors-as-a-unifying-framework-for-physical-convergenc"
+  },
+  "snapshots": [
+    {
+      "sha256": "93590d32ecd0d93196e50cfbb4d8073dba6cefe3ca56c5e2bb619550d0205a77",
+      "bytes": 25440,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "70b2c3186d00293e7d8a75e5c5af6afb3e8f0d8a"
+    }
+  ],
+  "events": []
+}

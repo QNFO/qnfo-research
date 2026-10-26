@@ -1,0 +1,55 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+  "paper": {
+    "path": "papers/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-/paper.md",
+    "title": "The Gödelian Boundary as a Generative Phase Transition: Optimal Operating Points for Constrained Cognitive Systems",
+    "url": "https://papers.qnfo.org/papers/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-213/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2afe7a91a24ecdf84bdb3ff3189404932ab9506602883c17e0394d58396ef9aa"
+    },
+    {
+      "path": "runs/cycle-241/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "91bcd8cdf53ee394f93dc6c596b8233e391948c30e0916a475737abc4d701696"
+    },
+    {
+      "path": "runs/cycle-306/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2e2ce240a6072966bc01351ab483898f2b731e0e5a1e0c1485880924d97978a1"
+    },
+    {
+      "path": "runs/cycle-317/the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "3590ca81a3e07028768be47d371cc45bb676b748514b04aba6d63417aed8cf5d"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-g-delian-boundary-as-a-generative-phase-transition-optimal-operating-points-"
+  },
+  "snapshots": [
+    {
+      "sha256": "4ad77611a6fec8a9fa9e0f99d053b41ff66bee9692b59fd6cbfe7b13684e38dc",
+      "bytes": 32588,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "7d8f2cdc8fcac12cec4773b00bce36c24a0de823"
+    }
+  ],
+  "events": []
+}

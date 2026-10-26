@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad",
+  "paper": {
+    "path": "papers/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad/paper.md",
+    "title": "Planck Fidelity: The Fundamental Leakage Cost of Binary Truncation of Bosonic Ladders",
+    "url": "https://papers.qnfo.org/papers/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-147/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "399d003726cce181559e884b22a84f66e5435b1a875f66561ac90b98b28c155f"
+    },
+    {
+      "path": "runs/cycle-63/planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "62d75b88459bd42f2b699d990cc7a56779322cf04c2b2c461f9ca992cecefb90"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "planck-fidelity-the-fundamental-leakage-cost-of-binary-truncation-of-bosonic-lad"
+  },
+  "snapshots": [
+    {
+      "sha256": "d1d6a6d5b8252aebf7670c67e2a1101c4cfe1d6ad8eba88b7da566c87929a356",
+      "bytes": 44794,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "3fe10cbb5c065b45d40a8fa1f1a5d0e4c2cb226f"
+    }
+  ],
+  "events": []
+}

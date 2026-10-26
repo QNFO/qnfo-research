@@ -1,0 +1,433 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-14: coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-14",
+      "qnfo:runPath": "runs/cycle-14/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a",
+      "qnfo:slug": "coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-03T08:18:06+02:00",
+      "qnfo:depositCommit": "e7970e4f0f450ec3c589fa3fb9ee4b67004a9f5f",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a",
+      "url": "https://papers.qnfo.org/papers/coherence-assisted-error-correction-for-deep-learning-a-reconciled-feasibility-a"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.04211",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.04211"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2207.14810",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2207.14810"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2210.04664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2210.04664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2210.15314",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2210.15314"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2211.02350",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2211.02350"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2403.00885",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2403.00885"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.12578",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.12578"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2503.18868",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2503.18868"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2504.10069",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2504.10069"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.24206",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.24206"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.19348",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.19348"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "6029261b0b61a662061295b6893e8afb43d9b09303c9e6b1ae7bd3927791ac6b",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12372",
+      "sha256": "3962b1a386cfc889abff6823e65b47c0782eb75752ef28f98ea49312eeb45ffd",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3883",
+      "sha256": "d2fc72b9ab7a46cdec4d0ee3c2bc676c774b920129f51b92e52073a4db177808",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3767",
+      "sha256": "0641b9be34902778d13e019fda30ff15a83cef7a08b27b454e94b49c37282622",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1279",
+      "sha256": "3341eeaf4ee63a01645ac22035e47153afce1237ebac53d46d9c7f3bff693df3",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20432",
+      "sha256": "dc284ea22c5b7330f32edac0b2e83772b6625980b7e18110cf534b865d7b5dcc",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "30854",
+      "sha256": "ebf3fa46a4457bcc75d0dd81ca4ea553dc46f4042a0728c2429ff16aa82a1516",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28625",
+      "sha256": "8643eb8defff2f834e4df8d3f21739d02dd2fb6ed041325a7ef8d746f4dedfc1",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/2003.04211"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2207.14810"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2210.04664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2210.15314"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2211.02350"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2403.00885"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.12578"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2503.18868"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2504.10069"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.24206"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.19348"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-03T08:18:06+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "fb7e1ff3b4c0bde9fcfd0ca57d9f95870834e559509af13f9628c5086014ef4d"
+    }
+  ]
+}

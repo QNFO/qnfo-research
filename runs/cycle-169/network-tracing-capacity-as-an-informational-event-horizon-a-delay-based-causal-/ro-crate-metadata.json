@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-169: network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-169",
+      "qnfo:runPath": "runs/cycle-169/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-",
+      "qnfo:slug": "network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-17T12:45:44+02:00",
+      "qnfo:depositCommit": "89b4211d687a54b430426d4b199a81dc8230991e",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-",
+      "url": "https://papers.qnfo.org/papers/network-tracing-capacity-as-an-informational-event-horizon-a-delay-based-causal-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1607.03034",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1607.03034"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2105.01173",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2105.01173"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.08679",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.08679"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.09479",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.09479"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.09484",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.09484"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2311.10976",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2311.10976"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2410.02986",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2410.02986"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.24593",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.24593"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "9f9fc214cb58f739a077c3fc5614ca13d938bbbd212fe8cf38b7bdceeb808507",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "46814",
+      "sha256": "f0299d57c37e31cef2f03b5d9afa7e7a1afb84658ff3837428ec54a83ba6e46b",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2774",
+      "sha256": "92e7c2d2953e49c6b6cf3923b07f604f2a910afa6d21e89c5ce3e65ec024451b",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7412",
+      "sha256": "6f241483500fd8bd67bdb78b2a1aa2aee72161a412cf9e85e03885170663414e",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "2181",
+      "sha256": "12d7710bdca120f8c5a4936c15be5dd5ae8da1780654ffed62feee5818f89a06",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19329",
+      "sha256": "c7fb013451669edcb919eaec7a8acecea8afa88767a392a938b8f05880ae0e1c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "22526",
+      "sha256": "c3df3327cb3e498a2af0d5a3b5f329f4908ba3481cf893a955e67084a28154b4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1607.03034"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2105.01173"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.08679"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.09479"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.09484"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2311.10976"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2410.02986"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.24593"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-17T12:45:44+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "fd463bc2963ac092e1bb6541ca7c5b8b0a67f0b1ca53f4eee8d09758e3c5233a"
+    }
+  ]
+}

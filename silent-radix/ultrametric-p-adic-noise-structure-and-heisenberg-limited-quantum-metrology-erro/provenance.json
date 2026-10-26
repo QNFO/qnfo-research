@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-p-adic-noise-structure-and-heisenberg-limited-quantum-metrology-erro",
+  "paper": {
+    "path": "silent-radix/ultrametric-p-adic-noise-structure-and-heisenberg-limited-quantum-metrology-erro/paper.md",
+    "title": "Ultrametric $p$‑Adic Noise Structure and Heisenberg‑Limited Quantum Metrology: Error Resilience by Geometry, Not Overhead",
+    "url": "https://papers.qnfo.org/papers/ultrametric-p-adic-noise-structure-and-heisenberg-limited-quantum-metrology-erro"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-350/ultrametric-p-adic-noise-structure-and-heisenberg-limited-quantum-metrology-erro",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "0cad2c61073608227a8fa24225c54cc63a6d304d784aa0040f6229a09ca52273"
+    },
+    {
+      "path": "runs/cycle-99/ultrametric-p-adic-noise-structure-and-heisenberg-limited-quantum-metrology-erro",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2d5095e822c1d8c2f49c0ed6b078b0918be783f1472859649f93297a86fb9b2d"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-p-adic-noise-structure-and-heisenberg-limited-quantum-metrology-erro"
+  },
+  "snapshots": [
+    {
+      "sha256": "34e522e24617bb9f077aa8cfbd8e48716876300608429ab795ec0ae04f734b83",
+      "bytes": 24045,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "08be80b7e64e3be55db4195f866d103d18d53ef9"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "chapter-2",
+  "paper": {
+    "path": "papers/chapter-2/paper.md",
+    "title": "The Shaping of Unawareness: A Formal Analysis of Social, Cultural, Technological, and Individual Forces",
+    "url": "https://papers.qnfo.org/papers/chapter-2"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-384/chapter-2",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "aa6cfa961d15561d3f7454beeaa611db24f6666e387c74e55d8442c57158a9fd"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "chapter-2"
+  },
+  "snapshots": [
+    {
+      "sha256": "a3fb67a8727dadc1e912e2ce2b3a3aaf3ed7863ca576fcbdd573a3e7c4442c86",
+      "bytes": 28064,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "296b06c40ae02a6ef41d7fba0b7304717b0b69d6"
+    }
+  ],
+  "events": []
+}

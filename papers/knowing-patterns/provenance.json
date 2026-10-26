@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "knowing-patterns",
+  "paper": {
+    "path": "papers/knowing-patterns/paper.md",
+    "title": "Knowing",
+    "url": "https://papers.qnfo.org/papers/knowing-patterns"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "knowing-patterns"
+  },
+  "snapshots": [
+    {
+      "sha256": "346266cdaab2b65b62b66532dae262744a12afd6c01e89a6684dcd302ef2f252",
+      "bytes": 113020,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "e1c4c118a4ec3104d22504b1833d1d7f06b75a60"
+    }
+  ],
+  "events": []
+}

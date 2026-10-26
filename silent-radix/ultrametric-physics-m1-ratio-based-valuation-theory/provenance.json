@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-physics-m1-ratio-based-valuation-theory",
+  "paper": {
+    "path": "silent-radix/ultrametric-physics-m1-ratio-based-valuation-theory/paper.md",
+    "title": "Retracted: ULTRAMETRIC PHYSICS",
+    "url": "https://papers.qnfo.org/papers/ultrametric-physics-m1-ratio-based-valuation-theory"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758467",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-physics-m1-ratio-based-valuation-theory"
+  },
+  "snapshots": [
+    {
+      "sha256": "a6795bf3cd8e41eb8c47c1d0c5872db9b9d0bf503c71acce4178d90b163d112e",
+      "bytes": 1596,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "95ba4dd6020113bd9b4a1efabc73dd1c0e88b70d"
+    }
+  ],
+  "events": []
+}

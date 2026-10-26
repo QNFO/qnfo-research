@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "paper-institutional-reform",
+  "paper": {
+    "path": "papers/paper-institutional-reform/paper.md",
+    "title": "1. Introduction: The Question No One Asks",
+    "url": "https://papers.qnfo.org/papers/paper-institutional-reform"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "paper-institutional-reform"
+  },
+  "snapshots": [
+    {
+      "sha256": "7f0ede2b81fd609cdf4e80adde8efda9902732e74b680cc3e9e5c064d7cc15ba",
+      "bytes": 36359,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "5122eb72dd9f8b7f4af14aa19c5a09a8fdea3100"
+    }
+  ],
+  "events": []
+}

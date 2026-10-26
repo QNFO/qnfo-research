@@ -1,0 +1,79 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+  "paper": {
+    "path": "papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a/paper.md",
+    "title": "Master Calibration for Non-Overlapping Physical Frameworks: Composition, Closure, and the Limits of Partial Translation",
+    "url": "https://papers.qnfo.org/papers/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-270/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "17f18306be173292fe42f0beee4effbe758caa27716b71a72154cc5f7afce345"
+    },
+    {
+      "path": "runs/cycle-293/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ce9dfa81e922e2893267fcdb533c3268a460988dd52d352dcf9bd642dc8e7cb8"
+    },
+    {
+      "path": "runs/cycle-302/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ac699bde57531559775a8038be4d1a6c3e683d2fe394da46aee3bc25f93d6dd6"
+    },
+    {
+      "path": "runs/cycle-309/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ae497c4ea9e972cb1a759277db47c94c11998efbfd4a747c907454f0adb51f49"
+    },
+    {
+      "path": "runs/cycle-316/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1c7f5d6cf6fbf2a3887a52e22a0dcbc01cc771042f9da9ed2d9e25499d57b0bf"
+    },
+    {
+      "path": "runs/cycle-374/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b40d8bf8f0182db5a6918316a7b6e70615ab7e4906bb06da6de2f26ad75222ba"
+    },
+    {
+      "path": "runs/cycle-377/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": null
+    },
+    {
+      "path": "runs/cycle-76/master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "015ae4a629c63c6a5b5aaef60d31ef7408df96748ed2cc1c2efbd252bf011567"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "master-calibration-for-non-overlapping-physical-frameworks-composition-closure-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "ada7027076a7557ce7536e187326082c55335c40980610c2214da0dd9fddeaaf",
+      "bytes": 31335,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "15f571d5f8cbd8fb0f3399c3284abd169d06841e"
+    }
+  ],
+  "events": []
+}

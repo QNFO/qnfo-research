@@ -1,0 +1,414 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-253: Spectral Gap on Bruhat–Tits Trees as a Deterministic Primality Test",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-253",
+      "qnfo:runPath": "runs/cycle-253/spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test",
+      "qnfo:slug": "spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-20T02:11:24+02:00",
+      "qnfo:depositCommit": "1539f7c060eff5158ae0a705980bdb82da3ea8a4",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Spectral Gap on Bruhat–Tits Trees as a Deterministic Primality Test",
+      "url": "https://papers.qnfo.org/papers/spectral-gap-on-bruhat-tits-trees-as-a-deterministic-primality-test"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1004.3361",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1004.3361"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1012.4391",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1012.4391"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1301.5453",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1301.5453"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1506.04306",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1506.04306"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.01463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.01463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.12024",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.12024"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2201.08259",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2201.08259"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.14362",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.14362"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2403.19550",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2403.19550"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.01638",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.01638"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.16353",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.16353"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "00b35826ffab11df4e9923b5046f2914eabfac4725667539af4cda9486b7d2e9",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52831",
+      "sha256": "1ca7e2fa2f9b75ee88b5924190385cd1a10274b49c40608d68d97c56914f791e",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4532",
+      "sha256": "39ab67f8e25085f6b9b58fd2d52f7bebbeae12f0b88dc5388f25a30bb9d4fa97",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7542",
+      "sha256": "32d647cdc371f8bf1acad8f74cf3af4ad462036d269319ec68649f2d65773662",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1808",
+      "sha256": "f1456840514906d9f681de2a1fb6f2aab5239e7be23b752fdef8c585a7c8ec13",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17597",
+      "sha256": "ae60d48ba92d2a05729e89c438797e4733878415c320eb83d6bcc49de926a6a4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19370",
+      "sha256": "f3b247b11e06ce4358cb7db3c2bfb7d38303e9a40220604a629946193e6f4502",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1004.3361"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1012.4391"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1301.5453"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1506.04306"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.01463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.12024"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2201.08259"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.14362"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2403.19550"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.01638"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.16353"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-20T02:11:24+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "ea70c3bde1896568b393fe909704781aee6c9e8a84ea6210a87b1fb0e0626908"
+    }
+  ]
+}

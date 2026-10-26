@@ -1,0 +1,409 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-9: thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-9",
+      "qnfo:runPath": "runs/cycle-9/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired",
+      "qnfo:slug": "thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-02T17:03:13+02:00",
+      "qnfo:depositCommit": "74b58535233cacc22ed61e6ee0b1a3350d766b60",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired",
+      "url": "https://papers.qnfo.org/papers/thermodynamic-trade-off-frontiers-for-neuromorphic-processors-a-quantum-inspired"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0905.0292",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0905.0292"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0908.2161",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0908.2161"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1204.3841",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1204.3841"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.06796",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.06796"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.10415",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.10415"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2409.09919",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2409.09919"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.19455",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.19455"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.05168",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.05168"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1019",
+      "sha256": "239f2b947ccd10229e8f7cc6911ffa3f46bce5e970cb177737a9e5d03b53bddb",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10373",
+      "sha256": "c72b77c090d8123473b84d471d3e1ffc145268f03d42ae48329b1cca75a064ae",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2621",
+      "sha256": "383438f616ab72f8235327d1c44fb781bec3247ef6377122c38e279c0fd41327",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3806",
+      "sha256": "9b03145041b32daae6640fec8813423c9afd40478140d5d01e7af64d4e912cb3",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1660",
+      "sha256": "739a11d48ba52f99741b40411f7fae397164bcb324e874dc6cd7ceeefb37f5b7",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "26486",
+      "sha256": "499964191fe24a07bb4c075ba58f5494b034307ff7735c863cb0b9b31c47cd34",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21889",
+      "sha256": "d5c9c33ae193e20114bfac0bde3f1a2ef01174dde4e3a98dee09ef5038a0967b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-c-draft.md",
+      "@type": "File",
+      "name": "writer-c-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24670",
+      "sha256": "2ba6d9b2d7fdf793919df2fbf1af7ed79bc32f8a30360e92552a3d50b7b9f855",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0905.0292"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0908.2161"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1204.3841"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.06796"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.10415"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2409.09919"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.19455"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.05168"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        },
+        {
+          "@id": "writer-c-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-02T17:03:13+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-equivalent",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 1,
+      "qnfo:stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

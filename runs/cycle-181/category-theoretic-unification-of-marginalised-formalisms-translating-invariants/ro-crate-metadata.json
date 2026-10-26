@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-181: category-theoretic-unification-of-marginalised-formalisms-translating-invariants",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-181",
+      "qnfo:runPath": "runs/cycle-181/category-theoretic-unification-of-marginalised-formalisms-translating-invariants",
+      "qnfo:slug": "category-theoretic-unification-of-marginalised-formalisms-translating-invariants",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-18T18:11:36+02:00",
+      "qnfo:depositCommit": "a92b447a0f8cd579ce526ee3fd42a259e9e6a85f",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "category-theoretic-unification-of-marginalised-formalisms-translating-invariants",
+      "url": "https://papers.qnfo.org/papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1005.0209",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1005.0209"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1309.2835",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1309.2835"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1511.04070",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1511.04070"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.18226",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.18226"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2403.01651",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2403.01651"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.09032",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.09032"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.04255",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.04255"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.10504",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.10504"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "879",
+      "sha256": "fdd10a9df3e3a3486fc6e10204d08b3592874bc6ab4a095786dff82ff9042b7b",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "45750",
+      "sha256": "50fb758f676178af0e358665a20cc81282cc217aafb891338a9d22ac54e368a0",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1735",
+      "sha256": "53577f26c190176f1a2139eba2f58bdd26c25d5ce3698d3abd5ab6516f025fb1",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7363",
+      "sha256": "a23bcfeea96031aa626680b31f6690e18b018bef0ef2834a6f3ff41f16f74e80",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1795",
+      "sha256": "6ff41e0b1ba1209e81734831b1124e906a91c435693007e7e94af5b74a80b4e9",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23231",
+      "sha256": "423fddbbd8e3cca21e57555442b9a5546221f08360a1143f405b943d78975ee6",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4113",
+      "sha256": "62602448015a0c7ce9ae50194abd5232d5019f975c222b2db168aec1eef58855",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1005.0209"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1309.2835"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1511.04070"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.18226"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2403.01651"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.09032"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.04255"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.10504"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-18T18:11:36+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "fb6932cd400bc2ea7584b139e898e0d59f25098d596bd87d19d6f351c023e53a"
+    }
+  ]
+}

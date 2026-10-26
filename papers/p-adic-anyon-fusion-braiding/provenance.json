@@ -1,0 +1,46 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-anyon-fusion-braiding",
+  "paper": {
+    "path": "papers/p-adic-anyon-fusion-braiding/paper.md",
+    "title": "p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models",
+    "url": "https://papers.qnfo.org/papers/p-adic-anyon-fusion-braiding"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22764745",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.21208366",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.21208368",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-anyon-fusion-braiding"
+  },
+  "snapshots": [
+    {
+      "sha256": "ee860682d6006c1c05750ffd051146444a41ae1566d11317b1a38b5366d617dd",
+      "bytes": 34042,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "1914ddb633e3117b84e454e591ace0b273c347c1"
+    }
+  ],
+  "events": []
+}

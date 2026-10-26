@@ -1,0 +1,56 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-synthesis-pattern-particle",
+  "paper": {
+    "path": "adelic-freedom/adelic-synthesis-pattern-particle/paper.md",
+    "title": "Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons",
+    "url": "https://papers.qnfo.org/papers/adelic-synthesis-pattern-particle"
+  },
+  "declared": {
+    "version": "2.0.0",
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22741636",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.21208366",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.21208368",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.21208491",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      },
+      {
+        "doi": "10.5281/zenodo.21208370",
+        "source": "paper.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-synthesis-pattern-particle"
+  },
+  "snapshots": [
+    {
+      "sha256": "7ed0a858a357463ec1cc2ca621381b1beee66e76643ae1ab99e6ccbd6ce5f125",
+      "bytes": 37046,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "2.0.0",
+      "git_commit": "16c9295faea86ba6a40b9a4c66a2513ef9f09caf"
+    }
+  ],
+  "events": []
+}

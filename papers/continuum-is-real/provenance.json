@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "continuum-is-real",
+  "paper": {
+    "path": "papers/continuum-is-real/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/continuum-is-real"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "continuum-is-real"
+  },
+  "snapshots": [
+    {
+      "sha256": "64f9b028556004a701c02fe16e31a8cfa69c5382a3d4cd2b8b7b578674bf52aa",
+      "bytes": 54262,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "caf833952d94b7a231674bfccbf98a403d0abd95"
+    }
+  ],
+  "events": []
+}

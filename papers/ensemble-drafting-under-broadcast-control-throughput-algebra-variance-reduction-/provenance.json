@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ensemble-drafting-under-broadcast-control-throughput-algebra-variance-reduction-",
+  "paper": {
+    "path": "papers/ensemble-drafting-under-broadcast-control-throughput-algebra-variance-reduction-/paper.md",
+    "title": "Ensemble Drafting Under Broadcast Control: Throughput Algebra, Variance Reduction, and Vandermonde Conditioning",
+    "url": "https://papers.qnfo.org/papers/ensemble-drafting-under-broadcast-control-throughput-algebra-variance-reduction-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-220/ensemble-drafting-under-broadcast-control-throughput-algebra-variance-reduction-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "39dfd3e1668d53fdff070602e3c7580fa6870cc45114a6eee14429445e9affe3"
+    },
+    {
+      "path": "runs/cycle-94/ensemble-drafting-under-broadcast-control-throughput-algebra-variance-reduction-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "58c427c19df2d852bd82742ded1b56521cc2e6ec3c1b4d653ee31b63147414f5"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ensemble-drafting-under-broadcast-control-throughput-algebra-variance-reduction-"
+  },
+  "snapshots": [
+    {
+      "sha256": "e4e24745587fa4c06cd3c045c83ba7c3f70304efedcf54869031af42133b52b5",
+      "bytes": 23160,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "398690bc0194d66c1ecd78556fe80c0b803ab69b"
+    }
+  ],
+  "events": []
+}

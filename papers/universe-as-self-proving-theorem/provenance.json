@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "universe-as-self-proving-theorem",
+  "paper": {
+    "path": "papers/universe-as-self-proving-theorem/paper.md",
+    "title": null,
+    "url": "https://papers.qnfo.org/papers/universe-as-self-proving-theorem"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22738133",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "universe-as-self-proving-theorem"
+  },
+  "snapshots": [
+    {
+      "sha256": "8944f5dbcda9ed0b26b65d14aba954ea22e720545585184bab88a15751d7d8d9",
+      "bytes": 527237,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "3a5df3d6ff208ee19788eceecfc26be248738ad8"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "universal-digital-identity-framework",
+  "paper": {
+    "path": "papers/universal-digital-identity-framework/paper.md",
+    "title": "White",
+    "url": "https://papers.qnfo.org/papers/universal-digital-identity-framework"
+  },
+  "declared": {
+    "version": "1.1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "universal-digital-identity-framework"
+  },
+  "snapshots": [
+    {
+      "sha256": "d2fcfdaa32b21d1fe24e3cf3d766aa6fed8ea41b1bb6fbd9a79d61ef87f9ddb3",
+      "bytes": 108142,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": "1.1.0",
+      "git_commit": "cd64d463ec00ed17474e13000984fe1afb6d13a1"
+    }
+  ],
+  "events": []
+}

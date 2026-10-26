@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "frequencies-of-events-in-the-actual-world-a-reconciled-cross-domain-framework-wi",
+  "paper": {
+    "path": "papers/frequencies-of-events-in-the-actual-world-a-reconciled-cross-domain-framework-wi/paper.md",
+    "title": "Frequencies of Events in the Actual World: A Reconciled Cross-Domain Framework with Explicit Arithmetic",
+    "url": "https://papers.qnfo.org/papers/frequencies-of-events-in-the-actual-world-a-reconciled-cross-domain-framework-wi"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-111/frequencies-of-events-in-the-actual-world-a-reconciled-cross-domain-framework-wi",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "ebd4b19366aab7287dbff222fac1419a73ab630551fb2a6f73de90d35582c28a"
+    },
+    {
+      "path": "runs/cycle-138/frequencies-of-events-in-the-actual-world-a-reconciled-cross-domain-framework-wi",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a9334c33edf7f532f071eedfed562267e782a83f0e558a9450a93e542f365a20"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "frequencies-of-events-in-the-actual-world-a-reconciled-cross-domain-framework-wi"
+  },
+  "snapshots": [
+    {
+      "sha256": "459b336ec057b630269d5f80bf3d15ebd1528dbdb7457b23729d3ce1ca49209b",
+      "bytes": 33375,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "f744fe927d1300c9627c35f8dcc00da8a371f046"
+    }
+  ],
+  "events": []
+}

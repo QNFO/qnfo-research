@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "bridge-theorem",
+  "paper": {
+    "path": "papers/bridge-theorem/paper.md",
+    "title": "The Ultrametric Bridge Theorem",
+    "url": "https://papers.qnfo.org/papers/bridge-theorem"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22749432",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "bridge-theorem"
+  },
+  "snapshots": [
+    {
+      "sha256": "4426d9df211658604e15697fc70622c88dafd224cd18cf16573950b4655066bb",
+      "bytes": 21577,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "73709bef745e9cde8151b2fc434c2652e8614ce0"
+    }
+  ],
+  "events": []
+}

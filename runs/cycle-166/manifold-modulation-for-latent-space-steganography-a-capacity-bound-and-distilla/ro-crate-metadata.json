@@ -1,0 +1,390 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "#cpython-3.13.17",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "version": "3.13.17"
+    },
+    {
+      "@id": "#provenance-tool",
+      "@type": "SoftwareApplication",
+      "name": "tools/provenance.py",
+      "version": "1.0.0"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-166: manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-166",
+      "qnfo:runPath": "runs/cycle-166/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla",
+      "qnfo:slug": "manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-17T10:45:44+02:00",
+      "qnfo:depositCommit": "6b3a1027b0c71eeaaa3f35f6df92d801a620f20b",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        },
+        {
+          "@id": "#verification-reexecution"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla",
+      "url": "https://papers.qnfo.org/papers/manifold-modulation-for-latent-space-steganography-a-capacity-bound-and-distilla"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0804.4433",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0804.4433"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1604.02778",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1604.02778"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.08723",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.08723"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2110.05893",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2110.05893"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2507.19375",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2507.19375"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.20263",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.20263"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.16729",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.16729"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.29727",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.29727"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "880",
+      "sha256": "3c58221541fb8bad56e43df3acaca9b4548cda3afc8f97d118e4709ca3dfef54",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "50113",
+      "sha256": "c4b409a53d8236624c763c6e2b314460abe522bab7b6bf59d0f7b8f80c5a37f1",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2287",
+      "sha256": "3bfc170d4a65d2438e91b815dc7b0617561a3056b6d71af7f6099197747d0eff",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7908",
+      "sha256": "527b60168ced794078aab27b88112429ae474d468eb8f5f968b09ee552a135ee",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "1706",
+      "sha256": "b3f440de022f763cbe0fd2c4b3bbe752d4bc5d2c0be2b4ec0dfcd3f6de3be575",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17276",
+      "sha256": "0a9cf89c9e7d049cfec2b6c281410309c40b077f019b6df81aca6b65269ff010",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27732",
+      "sha256": "9d5384f984729cf66920597122f93d894ebb728203391fcf9108355a2e7894b1",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0804.4433"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1604.02778"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2003.08723"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2110.05893"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2507.19375"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.20263"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.16729"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.29727"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-10-17T10:45:44+02:00",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    },
+    {
+      "@id": "#verification-reexecution",
+      "@type": "CreateAction",
+      "name": "Independent re-execution of verification.py",
+      "instrument": {
+        "@id": "#cpython-3.13.17"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "endTime": "2026-10-26",
+      "agent": {
+        "@id": "#provenance-tool"
+      },
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:comparison": "reproduced-exact",
+      "qnfo:method": "python -I -c <script>, empty cwd, PYTHONHASHSEED=0",
+      "qnfo:exitCode": 0,
+      "qnfo:stdoutSha256": "a2410d86445f9f63e061c07af18073a7a16c6e5aa4c63fd1f91eabbaa9b1c7dc"
+    }
+  ]
+}

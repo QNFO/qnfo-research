@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "code-agnostic-graph-neural-network-decoding-from-detection-error-models-a-reconc",
+  "paper": {
+    "path": "papers/code-agnostic-graph-neural-network-decoding-from-detection-error-models-a-reconc/paper.md",
+    "title": "Code-Agnostic Graph Neural Network Decoding from Detection Error Models: A Reconciled Quantitative and Structural Assessment",
+    "url": "https://papers.qnfo.org/papers/code-agnostic-graph-neural-network-decoding-from-detection-error-models-a-reconc"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-19/code-agnostic-graph-neural-network-decoding-from-detection-error-models-a-reconc",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "6e49513ce926a5d05a44f10d0dc5679097bf15a32dad45550cc7c7cff1397d1f"
+    },
+    {
+      "path": "runs/cycle-222/code-agnostic-graph-neural-network-decoding-from-detection-error-models-a-reconc",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "372f91e942336ab6f7dacbc7be0b1a86f5857c50bef164041882b419fd257db9"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "code-agnostic-graph-neural-network-decoding-from-detection-error-models-a-reconc"
+  },
+  "snapshots": [
+    {
+      "sha256": "1d89b6ac2df0b7ccae866a32c611121695f4003b12377a2738836e93c975dd66",
+      "bytes": 26098,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "fac3b598d21aca67ba60047d9464309202f7ebc2"
+    }
+  ],
+  "events": []
+}

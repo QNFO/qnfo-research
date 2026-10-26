@@ -1,0 +1,43 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-zitterbewung-p-adic-regularization-of-dirac-trembling-motion-and-the-prod",
+  "paper": {
+    "path": "adelic-freedom/adelic-zitterbewung-p-adic-regularization-of-dirac-trembling-motion-and-the-prod/paper.md",
+    "title": "Adelic Zitterbewegung: p-Adic Regularization of Dirac Trembling Motion and the Product-Formula Cancellation at Macroscopic Scales",
+    "url": "https://papers.qnfo.org/papers/adelic-zitterbewung-p-adic-regularization-of-dirac-trembling-motion-and-the-prod"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-135/adelic-zitterbewung-p-adic-regularization-of-dirac-trembling-motion-and-the-prod",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a46ee40de6fdf5113aa945b7dcafc67c2d8630bcc986c58c49f12b5981d526af"
+    },
+    {
+      "path": "runs/cycle-98/adelic-zitterbewung-p-adic-regularization-of-dirac-trembling-motion-and-the-prod",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "446f53de15db517e4f6cb157faf3271158e938f4b62a4bff7ee1267d0325643c"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-zitterbewung-p-adic-regularization-of-dirac-trembling-motion-and-the-prod"
+  },
+  "snapshots": [
+    {
+      "sha256": "5a6f15f26dcf47177ec20f52e24d8ba7f28091f6be0417a85639c2a68532d48b",
+      "bytes": 48370,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "5526a11fea1265a6b28ea00f557524ac25065abd"
+    }
+  ],
+  "events": []
+}

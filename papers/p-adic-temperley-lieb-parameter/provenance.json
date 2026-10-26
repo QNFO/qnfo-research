@@ -1,0 +1,36 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "p-adic-temperley-lieb-parameter",
+  "paper": {
+    "path": "papers/p-adic-temperley-lieb-parameter/paper.md",
+    "title": "The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial",
+    "url": "https://papers.qnfo.org/papers/p-adic-temperley-lieb-parameter"
+  },
+  "declared": {
+    "version": null,
+    "license": "CC BY 4.0",
+    "dois": [
+      {
+        "doi": "10.5281/zenodo.22758789",
+        "source": "README.md",
+        "registrar": "zenodo-legacy"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "p-adic-temperley-lieb-parameter"
+  },
+  "snapshots": [
+    {
+      "sha256": "52727ff2f9b171232c0bc9844ced49fe4bec6d25d619c0f15d6c482e018b5104",
+      "bytes": 27035,
+      "recorded_at": "2026-10-26",
+      "basis": "backfill",
+      "version": null,
+      "git_commit": "a16d748c961e9defa04f33bdb274e7b91d0fcf52"
+    }
+  ],
+  "events": []
+}
