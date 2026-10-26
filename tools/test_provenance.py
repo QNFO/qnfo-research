@@ -55,7 +55,7 @@ def make_repo(root, slug="alpha-paper", with_paper=True, manifest_extra=None):
     write(run / "MANIFEST.json", json.dumps(man, indent=2))
     if with_paper:
         write(root / "papers" / slug / "paper.md", "# Alpha Paper\n\n**Version:** 2.0.0\n\nBody.\n")
-        write(root / "papers" / slug / "README.md", "# Alpha Paper\n\nDOI: 10.5281/zenodo.123456\nLicense: CC BY 4.0\n")
+        write(root / "papers" / slug / "README.md", "# Alpha Paper\n\nDOI: 10.1000/xyz.123456\nLicense: CC BY 4.0\n")
     return root
 
 
@@ -252,7 +252,7 @@ class TestVerify(Base):
         pj = self.root / "papers/alpha-paper/provenance.json"
         rec = json.loads(pj.read_text())
         self.assertEqual(rec["declared"]["version"], "2.0.0")
-        self.assertEqual(rec["declared"]["dois"][0], {"doi": "10.5281/zenodo.123456", "source": "README.md"})
+        self.assertEqual(rec["declared"]["dois"][0], {"doi": "10.1000/xyz.123456", "source": "README.md"})
         self.assertEqual(rec["declared"]["license"], "CC BY 4.0")
         self.assertEqual(rec["runs"][0]["match"], "slug-exact")
         rec["slug"] = 5
