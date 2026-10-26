@@ -134,6 +134,35 @@ class TestVerify(Base):
         self.assertEqual(rep.stats["files_verified"], 4)
         self.assertGreaterEqual(rep.stats["crate_files_verified"], 5)
 
+    def test_backfill_keeps_an_unchanged_reexecution_across_days_and_interpreters(self):
+        make_repo(self.root)
+        pv.backfill(self.repo(), "2026-10-26")
+        cp = self.root / "runs/cycle-2/alpha-paper" / pv.CRATE_FILE
+        before = cp.read_text()
+        crate = json.loads(before)
+        # the earlier observation was made on another interpreter
+        for e in crate["@graph"]:
+            if e.get("@id", "").startswith("#cpython-3"):
+                e["@id"], e["version"] = "#cpython-3.12.1", "3.12.1"
+            if e.get("@id") == "#verification-reexecution":
+                e["instrument"] = {"@id": "#cpython-3.12.1"}
+        cp.write_text(pv.dump_json(crate))
+        edited = cp.read_text()
+        self.assertEqual(pv.backfill(self.repo(), "2026-11-30"), {"crates": 0, "papers": 0, "gaps": 0})
+        self.assertEqual(cp.read_text(), edited, "a later day on a newer interpreter does not rewrite the record")
+
+    def test_a_changed_outcome_replaces_the_record(self):
+        make_repo(self.root)
+        pv.backfill(self.repo(), "2026-10-26")
+        run = self.root / "runs/cycle-2/alpha-paper"
+        (run / "verification.md").write_text((run / "verification.md").read_text().replace("computed=1.00e+00", "computed=2.00e+00"))
+        # the manifest hash no longer matches; the re-execution verdict is what this test is about
+        pv.backfill(self.repo(), "2026-11-30")
+        crate = json.loads((run / pv.CRATE_FILE).read_text())
+        act = next(e for e in crate["@graph"] if e["@id"] == "#verification-reexecution")
+        self.assertEqual(act["qnfo:comparison"], "not-reproduced")
+        self.assertEqual(act["endTime"], "2026-11-30")
+
     def test_backfill_is_idempotent(self):
         make_repo(self.root)
         pv.backfill(self.repo(), "2026-10-26")

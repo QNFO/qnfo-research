@@ -1,0 +1,47 @@
+# Imports the cycles QNFO/qnfo-ensemble-research received after the 2026-10-26 import (git subtree pull: the source history stays
+# reachable), writes the provenance records for them and pushes. Dispatched by qnfo-research-exec's sync tick (repoCatchupTick, at most
+# every 6 hours) while the legacy repository holds cycles that runs/ lacks; the same tick files the archive request for the legacy
+# repository once nothing is missing. No schedule: GitHub schedules fire rarely on this account (CLAUDE.md, qnfo-workers).
+name: ensemble-catchup
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ensemble-catchup
+  cancel-in-progress: false
+
+jobs:
+  catchup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Pull the legacy history under runs/
+        run: |
+          git config user.name "qnfo-research-catchup"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git subtree pull --prefix=runs https://github.com/QNFO/qnfo-ensemble-research main \
+            -m "Catch up runs/ with qnfo-ensemble-research (git subtree, history kept)"
+      - name: Provenance records for the caught-up runs
+        run: python tools/provenance.py backfill --observed-at "$(date -u +%F)"
+      - name: Verify
+        run: python tools/provenance.py verify
+      - name: Commit and push
+        run: |
+          git add -A
+          git diff --cached --quiet || git commit -m "provenance: records for the caught-up runs"
+          for i in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            git fetch origin main && git merge --no-edit origin/main
+          done
+          echo "push to main failed three times" >&2
+          exit 1

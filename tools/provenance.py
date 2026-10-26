@@ -661,7 +661,9 @@ def license_entity(repo: Repo) -> Dict[str, Any]:
 
 def build_crate(repo: Repo, run_rel: str, man: Optional[Manifest], deposit: Optional[Tuple[Optional[str], str]],
                 repro: Optional[Dict[str, Any]], observed_at: str, title: Optional[str],
-                paper_slug: Optional[str] = None) -> Dict[str, Any]:
+                paper_slug: Optional[str] = None, preserve: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    """`preserve` is the previous crate: its independent re-execution (action, interpreter, tool) is copied unchanged, so a later
+    backfill on another day or another Python does not rewrite an observation whose outcome has not changed."""
     run = repo.root / run_rel
     slug, cycle = slug_of_run(run_rel), cycle_of_run(run_rel)
     present = sorted(p.relative_to(run).as_posix() for p in run.rglob("*")
@@ -765,6 +767,14 @@ def build_crate(repo: Repo, run_rel: str, man: Optional[Manifest], deposit: Opti
             orig["endTime"] = deposit[1]
             orig["description"] = "endTime is the deposit time; the execution time itself was not recorded."
         actions.append(orig)
+        prior_graph = (preserve or {}).get("@graph") or []
+        kept = next((e for e in prior_graph if e.get("@id") == "#verification-reexecution"), None) if not repro else None
+        if kept:
+            for ref_id in ((kept.get("instrument") or {}).get("@id"), (kept.get("agent") or {}).get("@id")):
+                ent = next((e for e in prior_graph if e.get("@id") == ref_id), None)
+                if ent:
+                    graph.append(ent)
+            actions.append(kept)
         if repro and repro.get("verdict"):
             cpv = {"@id": f"#cpython-{repro['python']}", "@type": "SoftwareApplication", "name": "CPython",
                    "version": repro["python"]}
@@ -852,6 +862,15 @@ def build_paper_record(repo: Repo, prog: str, slug: str, runs: List[Tuple[str, s
 
 # --------------------------------------------------------------------------------------------- backfill
 
+def unchanged_observation(prior_crate: Any, repro: Dict[str, Any]) -> bool:
+    """True when the crate already holds a re-execution with the same verdict, exit code and determinism as `repro`."""
+    if not isinstance(prior_crate, dict):
+        return False
+    act = next((e for e in prior_crate.get("@graph", []) if e.get("@id") == "#verification-reexecution"), None)
+    return bool(act and act.get("qnfo:comparison") == repro.get("verdict") and act.get("qnfo:exitCode") == repro.get("exit")
+                and bool(act.get("qnfo:nondeterministic")) == bool(repro.get("nondeterministic")))
+
+
 def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[str, int]:
     changed = {"crates": 0, "papers": 0, "gaps": 0}
     adds = repo.legacy_adds()
@@ -879,8 +898,11 @@ def backfill(repo: Repo, observed_at: str, reproduce_runs: bool = True) -> Dict[
             ds = [adds[k] for k in adds if k.startswith(legacy_prefix + "/")]
             dep = max(ds, key=lambda x: x[1]) if ds else None
         repro = reproduce_run(repo, rp, (0, 1, 2)) if reproduce_runs and (run / "verification.py").is_file() else None
+        prior_crate, _ = read_json(run / CRATE_FILE) if (run / CRATE_FILE).is_file() else (None, None)
+        if repro and unchanged_observation(prior_crate, repro):
+            repro = None   # same outcome as the recorded re-execution: keep that record (date, interpreter) as it is
         crate = build_crate(repo, rp, man, dep, repro, observed_at, titles.get(run_paper.get(rp) or slug_of_run(rp) or ""),
-                            run_paper.get(rp))
+                            run_paper.get(rp), preserve=prior_crate if isinstance(prior_crate, dict) else None)
         if write_if_changed(run / CRATE_FILE, dump_json(crate)):
             changed["crates"] += 1
         present = {p.relative_to(run).as_posix() for p in run.rglob("*") if p.is_file()}

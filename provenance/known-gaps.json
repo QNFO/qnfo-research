@@ -1469,14 +1469,6 @@
       "status": "unrecoverable"
     },
     {
-      "id": "GAP-NONDET-3fbf5a5a45",
-      "kind": "nondeterministic-verification",
-      "path": "runs/cycle-217/positional-notation-as-an-ultrametric-tree-of-cyclic-time",
-      "cause": "verification.py prints different output on repeated runs, even under one fixed PYTHONHASHSEED (it orders objects by identity); the record cannot be reproduced bit-for-bit",
-      "recovery": "regenerate",
-      "status": "open"
-    },
-    {
       "id": "GAP-PAPER-00cbec3ea1",
       "kind": "paper-text-not-in-repo",
       "path": "papers/mechanism-first-pre-registered-testing-of-p-adic-mass-ratio-hypotheses",
@@ -4296,14 +4288,6 @@
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
-      "id": "GAP-REC-77b155fbd0",
-      "kind": "recorded-output-corrupt",
-      "path": "runs/cycle-26/error-attribution-as-a-resource-allocation-principle-for-quantum-error-correctio",
-      "cause": "the recorded Execution output in verification.md does not match what the deposited script prints (the record is truncated or carries a transport error)",
-      "recovery": "regenerate",
       "status": "open"
     }
   ]
