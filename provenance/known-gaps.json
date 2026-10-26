@@ -64,10 +64,14 @@
       },
       "cause": "partial deposit: the per-file contents PUT returned HTTP 409 for these files and the push was still logged as ok",
       "recovery": "restore-from-r2-by-hash",
-      "status": "open",
+      "status": "unrecoverable",
       "unrecoverable": {
         "grounding.md": "the copy in R2 is a different version (its hash differs from the manifest's)",
-        "review-report.md": "the copy in R2 is a different version (its hash differs from the manifest's)"
+        "review-report.md": "the copy in R2 is a different version (its hash differs from the manifest's)",
+        "verification.md": "the copy in R2 is a different version (its hash differs from the manifest's)",
+        "verification.py": "the copy in R2 is a different version (its hash differs from the manifest's)",
+        "writer-a-draft.md": "the copy in R2 is a different version (its hash differs from the manifest's)",
+        "writer-b-draft.md": "the copy in R2 is a different version (its hash differs from the manifest's)"
       }
     },
     {
@@ -687,20 +691,6 @@
       ],
       "runs": [
         "runs/cycle-196/adelic-ruler-independence-and-rationality-of-standard-model-parameters"
-      ],
-      "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
-      "recovery": "restore-from-living-paper",
-      "status": "open"
-    },
-    {
-      "id": "GAP-PAPER-073de62c41",
-      "kind": "paper-text-not-in-repo",
-      "path": "papers/ultrametric-passive-error-correction-on-p-ary-bruhat-tits-trees-barrier-analysis",
-      "files": [
-        "papers/ultrametric-passive-error-correction-on-p-ary-bruhat-tits-trees-barrier-analysis/paper.md"
-      ],
-      "runs": [
-        "runs/cycle-187/ultrametric-passive-error-correction-on-p-ary-bruhat-tits-trees-barrier-analysis"
       ],
       "cause": "the pipeline published this paper to papers.qnfo.org and deposited its run, but only the legacy publish path (publishV2) wrote papers/<slug>/paper.md",
       "recovery": "restore-from-living-paper",
