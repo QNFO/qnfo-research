@@ -324,23 +324,3 @@ This paper introduced Ultrametric Nested Semantic Graphs as a mathematically rig
 [10] https://papers.qnfo.org/papers/ratio-based-adelic-physics. QNFO: Ratio-Based Adelic Physics.
 [11] https://papers.qnfo.org/papers/syntactic-generation-primitive-distinctions. QNFO: Syntactic Generation.
 [12] https://papers.qnfo.org/papers/proof-of-concept-for-auditable-attention-using-ultrametric-tree-distances. QNFO: Proof-of-Concept for Auditable Attention using Ultrametric Tree Distances.
-
-## Appendix A. Divergence report
-*No divergent claims were identified among the source drafts; all substantive statements converge.*
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | Definition of UNSG distance as LCA height on leaf set | A, B | Convergent |
-| C2 | Proof that distance satisfies ultrametric inequality | A, B | Convergent |
-| C3 | Numeric example with distances 2,2,1 and verification | A, B | Convergent |
-| C4 | Planar slope bound $psn\le\max\{4,\Delta\}$ applied to $\Delta=3$ gives $psn\le4$ (qualified) | A, B | Convergent |
-| C5 | Comb‑metric $\bar d_f$ is isometric to $d$ on leaves | A, B | Convergent |
-| C6 | Mapping to word‑representable split graphs; representation number unknown | A, B | Convergent |
-| C7 | Algebraic encoding via generalized path algebras and hyper‑loop modules | A, B | Convergent |
-| C8 | Limitations list (tree‑only syntax, parser accuracy, degree bound, representation number, algebraic overhead) | A, B | Convergent |
-| C9 | Falsifiability condition (violation of strong triangle inequality) | A, B | Convergent |
-| C10 | Practical implications (users, TRL, pilot experiment, constraints, performance projection, risks) | A, B | Convergent |
-| C11 | $58\,786$ binary bracketings for a 12‑word sentence | A, B | Convergent |
-| C12 | $1\,860\,480$ injective mappings for a 5‑node pattern in a 20‑node graph | A, B | Convergent |
-| C13 | Compression factor $500$ from pairwise distances to tree parameters at $n=1{,}000$ nodes | A, B | Convergent |

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener",
+  "paper": {
+    "path": "silent-radix/ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener/paper.md",
+    "title": "Ultrametric p-Adic Arithmetic as Energy-Proportional Precision Computing: An Energy Model for Digit-Terminable Multiply-Accumulate",
+    "url": "https://papers.qnfo.org/papers/ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener"
+  },
+  "snapshots": [
+    {
+      "sha256": "6ff62bb42d7cd6d535286e75c016fca331e630db8f17114da93ebda89ca184b6",
+      "bytes": 27018,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

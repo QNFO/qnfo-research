@@ -289,22 +289,3 @@ By formalizing decoherence as a $p$‑adic hierarchical stochastic process, the 
 [8] p-Adic wavelet transform and quantum physics. arXiv:math-ph/0406024v1. https://arxiv.org/abs/math-ph/0406024v1
 [9] https://papers.qnfo.org/papers/ultrametric-p-adic-metrology. QNFO: Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology.
 [11] https://papers.qnfo.org/papers/ultrametric-program. QNFO: The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests.
-
-## Appendix A. Divergence report
-
-- **Section 7 incomplete in Draft A.** Draft A ended the practical implications section abruptly after “a sensor with $N=10”. Draft B provided a complete discussion of users, TRL, experiment, constraints, projections, and risks. The reconciled version adopts the complete formulation from Draft B and notes that Draft A lacked the final paragraphs.  
-- **No other substantive divergences.** All quantitative derivations, numerical values, and citation usages are identical between the two drafts; therefore no additional divergence entries are required.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts | Agreement status |
-|----------|-----------|---------------|------------------|
-| C1 | Derivation of $P_{\mathrm{U}}=\varepsilon_0p^{-L}$ (Section 3.3). | A, B | CONVERGENT |
-| C2 | Exact ratio $P_{\mathrm{A}}/P_{\mathrm{U}}=2047$ for $p=2$, $L=10$, $\varepsilon_0=10^{-2}$ (Section 4.1). | A, B | CONVERGENT |
-| C3 | Ultrametric GHZ sensitivity $\Delta\theta_{\mathrm{U}}\approx9.7657\times10^{-4}$ (Section 4.2). | A, B | CONVERGENT |
-| C4 | Archimedean GHZ sensitivity $\Delta\theta_{\mathrm{A}}\approx9.42\times10^{5}$ (Section 4.2). | A, B | CONVERGENT |
-| C5 | Optimized product‑probe sensitivity $\Delta\theta^{\mathrm{prod}}\approx8.4946\times10^{-4}$ (Section 4.4). | A, B | CONVERGENT |
-| C6 | Scaling law $\Delta\theta_{\mathrm{U}}=1/(N-\varepsilon_0)$ (Section 4.3). | A, B | CONVERGENT |
-| C7 | Small‑register projection: per‑run improvement factor $16$ and fixed‑time factor $4$ (Section 4.5). | A, B | CONVERGENT |
-| C8 | Falsifiability criteria (Section 6.2). | A, B | CONVERGENT |
-| C9 | Practical implications (Section 7) – complete version from Draft B. | B (complete), A (incomplete) | CONVERGENT (adopted B’s complete text) |

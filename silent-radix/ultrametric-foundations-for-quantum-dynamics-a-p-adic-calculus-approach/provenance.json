@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach",
+  "paper": {
+    "path": "silent-radix/ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach/paper.md",
+    "title": "Ultrametric Foundations for Quantum Dynamics: A $p$-Adic Calculus Approach",
+    "url": "https://papers.qnfo.org/papers/ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach"
+  },
+  "snapshots": [
+    {
+      "sha256": "5c69123d71eb6b7c7762a7dbefcc057e5125be37596d003653dc2f58cfdbdda9",
+      "bytes": 33169,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
