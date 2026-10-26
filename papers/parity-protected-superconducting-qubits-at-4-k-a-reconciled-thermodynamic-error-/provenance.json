@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "parity-protected-superconducting-qubits-at-4-k-a-reconciled-thermodynamic-error-",
+  "paper": {
+    "path": "papers/parity-protected-superconducting-qubits-at-4-k-a-reconciled-thermodynamic-error-/paper.md",
+    "title": "Parity-Protected Superconducting Qubits at 4 K: A Reconciled Thermodynamic Error-Budget Analysis",
+    "url": "https://papers.qnfo.org/papers/parity-protected-superconducting-qubits-at-4-k-a-reconciled-thermodynamic-error-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "parity-protected-superconducting-qubits-at-4-k-a-reconciled-thermodynamic-error-"
+  },
+  "snapshots": [
+    {
+      "sha256": "a59f1a78152099fb9db4d6cb6be094194bf105cca28c4231b917e7ae733d7c15",
+      "bytes": 31329,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro",
+  "paper": {
+    "path": "papers/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro/paper.md",
+    "title": "Parallelism or Concession? A Reconciled Analytical Model of Concurrency-Aware Procurement Negotiation for Agentic Commerce",
+    "url": "https://papers.qnfo.org/papers/parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "parallelism-or-concession-a-reconciled-analytical-model-of-concurrency-aware-pro"
+  },
+  "snapshots": [
+    {
+      "sha256": "68de9eefac916535de62504df2da8300b7059a05afd48d38f2802d3cd13b10fa",
+      "bytes": 28758,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
