@@ -29,17 +29,8 @@ jobs:
         run: |
           git config user.name "qnfo-research-catchup"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          SRC=$(python -c "import json;print(json.load(open('provenance/IMPORT.json'))['source_head'])")
           git fetch https://github.com/QNFO/qnfo-ensemble-research main
-          LEG=$(git rev-parse FETCH_HEAD)
-          # The repository merges squash-only, so the pull request that imported runs/ carried the files but dropped the 2,837 commits.
-          # Record them as a parent of main without touching any file (-s ours), then merge what the legacy repository gained since.
-          if ! git merge-base --is-ancestor "$SRC" HEAD; then
-            git merge -s ours --allow-unrelated-histories --no-edit -m "Link the ensemble history (the import was squash-merged)" "$SRC"
-          fi
-          if ! git merge-base --is-ancestor "$LEG" HEAD; then
-            git merge -Xsubtree=runs --no-edit -m "Catch up runs/ with qnfo-ensemble-research (history kept)" "$LEG"
-          fi
+          bash tools/ensemble_catchup.sh "$(git rev-parse FETCH_HEAD)"
       - name: Provenance records for the caught-up runs
         run: python tools/provenance.py backfill --observed-at "$(date -u +%F)"
       - name: Verify
