@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-quantum-computation-for-direct-integer-factorization-a-resource-anal",
+  "paper": {
+    "path": "silent-radix/ultrametric-quantum-computation-for-direct-integer-factorization-a-resource-anal/paper.md",
+    "title": "Ultrametric Quantum Computation for Direct Integer Factorization: A Resource Analysis with a Largely Negative Verdict",
+    "url": "https://papers.qnfo.org/papers/ultrametric-quantum-computation-for-direct-integer-factorization-a-resource-anal"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-quantum-computation-for-direct-integer-factorization-a-resource-anal"
+  },
+  "snapshots": [
+    {
+      "sha256": "fd6739e6e3dba30a7c8662f04a36a2eb3c3d93053974187ab30bd551fca4b64a",
+      "bytes": 43289,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

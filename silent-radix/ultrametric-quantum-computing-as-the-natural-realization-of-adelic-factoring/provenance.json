@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-quantum-computing-as-the-natural-realization-of-adelic-factoring",
+  "paper": {
+    "path": "silent-radix/ultrametric-quantum-computing-as-the-natural-realization-of-adelic-factoring/paper.md",
+    "title": "Ultrametric Quantum Computing as the Natural Realization of Adelic Factoring",
+    "url": "https://papers.qnfo.org/papers/ultrametric-quantum-computing-as-the-natural-realization-of-adelic-factoring"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-quantum-computing-as-the-natural-realization-of-adelic-factoring"
+  },
+  "snapshots": [
+    {
+      "sha256": "79bb287ae6548879c2a669486a87f1185c212308dfa5a3e4566ae3dd55471c01",
+      "bytes": 25108,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

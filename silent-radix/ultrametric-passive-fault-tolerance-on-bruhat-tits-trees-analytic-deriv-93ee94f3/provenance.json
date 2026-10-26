@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-deriv-93ee94f3",
+  "paper": {
+    "path": "silent-radix/ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-deriv-93ee94f3/paper.md",
+    "title": "Ultrametric Passive Fault Tolerance on Bruhat–Tits Trees: Analytic Derivation and Quantitative Projections",
+    "url": "https://papers.qnfo.org/papers/ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-deriv-93ee94f3"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-passive-fault-tolerance-on-bruhat-tits-trees-analytic-deriv-93ee94f3"
+  },
+  "snapshots": [
+    {
+      "sha256": "abcd7d7da3010b3ad6b002b11d446225c5124553ee1c4ba7528a68b543c2d38b",
+      "bytes": 21597,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
