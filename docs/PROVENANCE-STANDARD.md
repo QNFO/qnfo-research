@@ -116,7 +116,7 @@ commit that introduces it.
 | [W3C PROV-O](https://www.w3.org/TR/prov-o/) | the conceptual model (mapping in 3.2) | RO-Crate's actions map onto it; no separate PROV file is kept, so nothing can drift. |
 | [CITATION.cff 1.2.0](https://github.com/citation-file-format/citation-file-format/blob/1.2.0/schema-guide.md) | `CITATION.cff` at the root | GitHub renders "Cite this repository" from it; Zenodo and other tools read the same file. |
 | [FAIR4RS](https://zenodo.org/records/6623556) (DOI 10.15497/RDA00068) | checklist for the tooling and records | Findable (identifiers, rich metadata), Accessible (public, open protocol), Interoperable (open formats), Reusable (license, provenance). |
-| [SWHID, ISO/IEC 18670:2025](https://www.ouvrirlascience.fr/the-software-hash-identifier-swhid-has-become-an-international-iso-iec-standard/) | intrinsic identifier of the repository state | A git commit hash *is* the SWHID revision id (`swh:1:rev:<commit>`), so identification costs nothing; archiving it is a separate step (section 7). |
+| [SWHID, ISO/IEC 18670:2025](https://www.ouvrirlascience.fr/the-software-hash-identifier-swhid-has-become-an-international-iso-iec-standard/) | intrinsic identifier of the repository state | A git commit hash *is* the SWHID revision id (`swh:1:rev:<commit>`), so identification costs nothing. Software Heritage already visits this repository on its own, so archiving needs no request (section 7). |
 | JSON Schema 2020-12 | `schemas/` | The two record types are validated against these files by the tool itself. |
 | GitHub Git Data API | the atomic deposit (section 6) | blobs, tree, commit, then one ref update: all or nothing. |
 | in-toto / SLSA provenance | **not adopted yet** | They attest a builder identity with a signing key. The pipeline has no signing identity; an unsigned attestation adds a format, not trust. Revisit when the deposit commit is signed. |
@@ -174,9 +174,11 @@ commit that introduces it.
 5. The retraction/correction path (`ciGithubSync`) goes through the same function: it appends a snapshot and an event, so
    a withdrawal is on the paper's record.
 
-**Archiving (SWHID).** `swh:1:rev:<head commit>` identifies the repository state. Asking Software Heritage to archive
-the repository ("save code now") is a one-way publication to a third party, so it is filed as a fleet issue with a
-closing probe rather than done from a session; the identifier itself needs no archive.
+**Archiving (SWHID).** `swh:1:rev:<head commit>` identifies the repository state. Software Heritage visits `QNFO/qnfo-research` on its own
+(visits on 2026-08-17 and 2026-10-21 were `full`), so nothing is requested from a session or from the worker. It has never seen
+`QNFO/qnfo-ensemble-research` (the API answers 404), so until the ensemble history is linked into `main` the 396 cycles of process artifacts had
+no third-party copy; the next visit after the link captures them. Check:
+`curl https://archive.softwareheritage.org/api/1/origin/https://github.com/QNFO/qnfo-research/visit/latest/`.
 
 ## 8. What the audit found wrong with the old deposit (and what now prevents it)
 

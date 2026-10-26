@@ -44,6 +44,7 @@ Missing or weak:
 | `bytes` in v1 manifests | wrong for **1,843 of 2,338** files | JS `String.length` (UTF-16 units), not bytes. Hashes are unaffected |
 | License statements | 102 papers say *QNFO-ULA v2.0*, 38 say *CC BY 4.0*; the repository LICENSE is *ULA v2.1* | recorded per paper in `provenance.json`; not rewritten |
 | DOIs | 12 papers declare more than one distinct DOI (README vs header); all are from the earlier external deposits | recorded as declared in `provenance.json`; nothing relies on them |
+| Third-party archive | Software Heritage holds `qnfo-research` (full visits 2026-08-17 and 2026-10-21) and has **never seen** `qnfo-ensemble-research` (404) | the 396 cycles of process artifacts had no copy outside GitHub and Cloudflare; the next visit after the history is linked into `main` captures them |
 | Verification scripts whose record cannot be reproduced | **2** of 388 | cycle-217 prints different output on every run (it orders objects by identity); cycle-26's recorded output ends in `Network connection lost.` |
 
 Reproducibility of the verification step, re-executed exactly as the pipeline runs it (`python -I -c <script>`, empty directory,
@@ -121,9 +122,10 @@ retry and read-back, the v2 manifest and crate, the paper in the same commit, th
 detector, restoration of the missing run files from R2 (accepted only if the hash equals the manifest's) and of the
 missing paper texts from living-paper, and the repaired SQL.
 
-Fleet follow-ups (issues with doers and closing probes, filed with the pull requests): archive the old repository after
-catch-up; ask Software Heritage to archive the repository (an outward, one-way publication, so not done from a
-session); decide the license line for the 38 papers that still say CC BY 4.0.
+Fleet follow-ups (no session action; each has a doer and a closing probe): the worker's sync tick dispatches the history link and, once it
+holds, files the archive request for the legacy repository (`PORTFOLIO-ARCHIVE-1`, reversible). Software Heritage needs no request: it visits
+`qnfo-research` on its own. One decision stays with the owner because it is a legal act in the owner's name: the license line of the 38 papers
+whose README still says CC BY 4.0 (a card with its default in effect: they keep the line they declare, recorded in `provenance.json`).
 
 ## Reproducing this audit
 
