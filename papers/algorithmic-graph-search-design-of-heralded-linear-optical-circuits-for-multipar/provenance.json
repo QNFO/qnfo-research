@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "algorithmic-graph-search-design-of-heralded-linear-optical-circuits-for-multipar",
+  "paper": {
+    "path": "papers/algorithmic-graph-search-design-of-heralded-linear-optical-circuits-for-multipar/paper.md",
+    "title": "Algorithmic Graph-Search Design of Heralded Linear Optical Circuits for Multipartite Entanglement: A Reconciled Quantitative Assessment",
+    "url": "https://papers.qnfo.org/papers/algorithmic-graph-search-design-of-heralded-linear-optical-circuits-for-multipar"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "algorithmic-graph-search-design-of-heralded-linear-optical-circuits-for-multipar"
+  },
+  "snapshots": [
+    {
+      "sha256": "1c5da514fee789e8349b9acc0337014d121f84d1189ec554f116c32b1e3a3df6",
+      "bytes": 30724,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

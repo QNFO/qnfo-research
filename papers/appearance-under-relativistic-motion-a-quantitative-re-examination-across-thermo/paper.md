@@ -233,27 +233,3 @@ We asked whether a physical system appears invariant to an observer moving at re
 [6] Relativistic-invariant quantum entanglement between the spins of moving bodies. arXiv:quant-ph/0211159v2. https://arxiv.org/abs/quant-ph/0211159v2
 [7] The influence of collimation on the appearance of relativistic jets. arXiv:1010.5895v1. https://arxiv.org/abs/1010.5895v1
 [9] https://papers.qnfo.org/papers/critical-examination-of-spacetime-mass-and-gravity-through-competing-ontological. QNFO: Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks.
-
-## Appendix A. Divergence report
-
-| Divergence | Draft A statement | Draft B statement | Chosen convention / justification |
-|------------|-------------------|-------------------|-----------------------------------|
-| Inclusion of QNFO boundary condition | No mention of QNFO work. | Uses QNFO [9] to note that the analysis assumes isotropy of the one‑way speed of light; a failure would overturn all numbers. | Adopt Draft B’s inclusion because it makes the isotropy assumption explicit. |
-| Mention of “light‑driven propulsion” in introduction | Not present. | States that designers of light‑driven propulsion must compute velocity‑dependent light–matter interaction. | Retain Draft B’s sentence as it adds a concrete stakeholder without inventing unsupported data. |
-| Citation number for momentum‑entangled Bell‑state invariance | Implicit reference to “momentum‑entangled Bell states” without citation. | Explicitly cites the quantum‑entanglement paper as [7] (in Draft B numbering). | Use the correct citation number [7] (the quantum‑entanglement paper) as in Draft B. |
-
-All other substantive statements are convergent between the drafts.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement (concise) | Source drafts | Agreement status |
-|----------|----------------------|---------------|------------------|
-| C1 | Lorentz factor at $\beta_{1}=0.8$ is $\gamma_{1}=5/3$ | A, B, C | CONVERGENT |
-| C2 | Doppler factors at $\beta_{1}=0.8$ are $D_{+}=3$, $D_{-}=1/3$, $D_{\perp}=0.6$ | A, B, C | CONVERGENT |
-| C3 | Solid‑angle‑averaged apparent temperature $\bar{T}=0.8240\,T_{0}$ | A, B, C | CONVERGENT |
-| C4 | Radiation‑pressure reduction factor $F_{1}/A=0.1778\,u_{0}$ | A, B, C | CONVERGENT |
-| C5 | Jüttner tail suppression $4.5400\times10^{-5}$ | A, B, C | CONVERGENT |
-| C6 | Speed for $D=10$ is $\beta=99/101\approx0.9802$ | A, B, C | CONVERGENT |
-| C7 | Re‑entry apparent‑temperature ratio $19$ and flux ratio $130321$ | A, B, C | CONVERGENT |
-| C8 | Projection for $\beta=0.5$ gives $\bar{T}=0.9513\,T_{0}$ | A, B, C | CONVERGENT |
-| C9 | Projection for $\beta=0.99$ gives $\bar{T}=0.3771\,T_{0}$ | A, B, C | CONVERGENT |

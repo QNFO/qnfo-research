@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "anisotropic-fine-structure-constant-from-non-isotropic-p-adic-embeddings",
+  "paper": {
+    "path": "papers/anisotropic-fine-structure-constant-from-non-isotropic-p-adic-embeddings/paper.md",
+    "title": "Anisotropic Fine‑Structure Constant from Non‑Isotropic $p$‑adic Embeddings",
+    "url": "https://papers.qnfo.org/papers/anisotropic-fine-structure-constant-from-non-isotropic-p-adic-embeddings"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "anisotropic-fine-structure-constant-from-non-isotropic-p-adic-embeddings"
+  },
+  "snapshots": [
+    {
+      "sha256": "6059785c3361d573ea425851487972688ea88aa983873ccb9af4ccc7f1f290a6",
+      "bytes": 19444,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
