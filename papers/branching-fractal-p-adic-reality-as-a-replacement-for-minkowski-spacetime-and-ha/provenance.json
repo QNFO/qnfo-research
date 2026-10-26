@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "branching-fractal-p-adic-reality-as-a-replacement-for-minkowski-spacetime-and-ha",
+  "paper": {
+    "path": "papers/branching-fractal-p-adic-reality-as-a-replacement-for-minkowski-spacetime-and-ha/paper.md",
+    "title": "Branching Fractal p‑adic Reality as a Replacement for Minkowski Spacetime and Hamiltonian Dynamics",
+    "url": "https://papers.qnfo.org/papers/branching-fractal-p-adic-reality-as-a-replacement-for-minkowski-spacetime-and-ha"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "branching-fractal-p-adic-reality-as-a-replacement-for-minkowski-spacetime-and-ha"
+  },
+  "snapshots": [
+    {
+      "sha256": "1ec00a4f2cc0caacf961bf7e33342b3eb547879ff143e56230799f2bc28803a7",
+      "bytes": 23566,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

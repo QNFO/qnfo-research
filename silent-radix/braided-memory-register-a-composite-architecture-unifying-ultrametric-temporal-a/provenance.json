@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "braided-memory-register-a-composite-architecture-unifying-ultrametric-temporal-a",
+  "paper": {
+    "path": "silent-radix/braided-memory-register-a-composite-architecture-unifying-ultrametric-temporal-a/paper.md",
+    "title": "Braided Memory Register: A Composite Architecture Unifying Ultrametric, Temporal, and Associative Memory",
+    "url": "https://papers.qnfo.org/papers/braided-memory-register-a-composite-architecture-unifying-ultrametric-temporal-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "braided-memory-register-a-composite-architecture-unifying-ultrametric-temporal-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "ca71abcf11ed60a5d5073ea52f44b9b718a746ba19e6446c259c660de3dbe393",
+      "bytes": 21192,
+      "recorded_at": "2026-10-26",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
