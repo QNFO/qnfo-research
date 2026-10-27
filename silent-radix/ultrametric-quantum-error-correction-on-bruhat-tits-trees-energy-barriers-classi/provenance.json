@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-402/ultrametric-quantum-error-correction-on-bruhat-tits-trees-energy-barriers-classi",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "84df37c916766c3fa28b2e0754880f76d37ff5f16bff6753e995d87b639c71d3"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "ultrametric-quantum-error-correction-on-bruhat-tits-trees-energy-barriers-classi"
@@ -23,6 +30,14 @@
       "recorded_at": "2026-10-26",
       "basis": "deposit",
       "version": "1.0.1",
+      "git_commit": null
+    },
+    {
+      "sha256": "de3b5769b1d4fca673d7061f09c481463f77953c7a3583c03c036c748dee52ba",
+      "bytes": 45236,
+      "recorded_at": "2026-10-27",
+      "basis": "revision",
+      "version": "2.0.0",
       "git_commit": null
     }
   ],
