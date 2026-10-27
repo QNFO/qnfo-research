@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "psii-quantum-coherence",
+  "paper": {
+    "path": "papers/psii-quantum-coherence/paper.md",
+    "title": "Quantum Coherence in Photosystem II: Environment-Assisted Transport and the Role of Vibronic Coupling in Biological Light-Harvesting",
+    "url": "https://papers.qnfo.org/papers/psii-quantum-coherence"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "psii-quantum-coherence"
+  },
+  "snapshots": [
+    {
+      "sha256": "e5ea6125af267e40fb9f153061bade531f39ddd7508489007a52d0e4cda28918",
+      "bytes": 19209,
+      "recorded_at": "2026-10-27",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
