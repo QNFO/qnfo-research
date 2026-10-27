@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-2e82948f-519c-4328-a9d5-6f65cdc23fc0",
+    "slug": "ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener",
+    "cycle": "cycle-401",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.3-codeagent",
+    "finished_at": "2026-10-27T06:51:10.642Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "c0a20e26a24ca9f1cedcfcdad3349996c7eecbd623b4496fe31bd854cdf9ac0a",
+      "bytes": 70110,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "8533cac209a59c3490a0705e8bbe22a73475c54c03355affc1e8a0643eedb154",
+      "bytes": 36837,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "feb28c066f76983695f8f31c9dfc233c16ee92a3d02f39876c867371b2b34f7c",
+      "bytes": 4276,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "a0e3341816d5e64ef147df480eca807fa1bc7b2f5b286c4137b8c04b81055a0d",
+      "bytes": 3376,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "4cd90353d6d1d901ed7607b78047e2cc5a53d819fe054afbc0fcd050beae1336",
+      "bytes": 14387,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "39ffb262d3ceaaec5e52a06c4097eec01f40182c38c642574f0d84d55e3129df",
+      "bytes": 6885,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "d7aed6b9333844880532c32aac351df608879d74f093e624ee248bdb48467c97",
+      "bytes": 28072,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "2e3681c1e683fc79b223123850c891562bc8504b2f993b9591511d41efcddb39",
+      "bytes": 24824,
+      "role": "draft"
+    }
+  }
+}
