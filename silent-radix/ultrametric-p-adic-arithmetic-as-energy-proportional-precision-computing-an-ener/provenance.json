@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-401/ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "072eaa9e640f606758825e32bf794b52e533215df94eb8f550ec5e2c9829825f"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "ultrametric-p-adic-arithmetic-as-energy-proportional-precision-computing-an-ener"
@@ -23,6 +30,14 @@
       "recorded_at": "2026-10-26",
       "basis": "deposit",
       "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "1acf98d93fa374abfdf33d2faa5388272769745c08a7e58f98505758b022207d",
+      "bytes": 37090,
+      "recorded_at": "2026-10-27",
+      "basis": "revision",
+      "version": "2.0.0",
       "git_commit": null
     }
   ],
