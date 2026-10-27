@@ -29,6 +29,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "6270b31443ef1512ea84f10c739535772eb02b3d7507212289eb27a2b8a34c6b"
+    },
+    {
+      "path": "runs/cycle-399/operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "8e90be8dfb1a253fd1b5bec2f824dce68a73e8b2a7b4750ede3d9506bdd65f00"
     }
   ],
   "identifiers": {
@@ -50,6 +56,14 @@
       "recorded_at": "2026-10-26",
       "basis": "revision",
       "version": "2.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "d07c3d9dc2161cc0bcca8363fa24f15781caf7dab0acc446923631ef940f3fe4",
+      "bytes": 37758,
+      "recorded_at": "2026-10-27",
+      "basis": "revision",
+      "version": "2.2.0",
       "git_commit": null
     }
   ],
