@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-324518ce-ec67-47d0-874f-38655c3e9089",
+    "slug": "operational-circularity-of-qubit-ontology-excitations-defined-by-their-own-reado",
+    "cycle": "cycle-399",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.3-codeagent",
+    "finished_at": "2026-10-27T04:41:08.061Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "bef282c0d918b534a53d1e6eb9516103f9998a12d4320e6658183c14a845237e",
+      "bytes": 98491,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "3bbc9a468fd82b35af09fb54d9d5991ac0bee7f0aea344b9be81ac175f622b90",
+      "bytes": 36998,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "931f50b4f7148cea52725e69a0e392be1dbbadf4cdf607fae83cd4dd262280eb",
+      "bytes": 4581,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "511fd4488e4fbe3754e02bb3f4f44a7ca3240a3f003c86f177d2784dd7930b03",
+      "bytes": 5290,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "c2b3a79c9542359005fc89f9d8a9a146931fb0410e5f08e0cdfc7d83c59a6838",
+      "bytes": 8778,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "8d042882de868b47f935b4f4feb20f1423b61adab854ec57fcd40b4f5ffcf2bb",
+      "bytes": 2524,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "52ec7635de51fde8f3bdb7f5c31e1cf7f198064a552084e2d0c8dcd00137468b",
+      "bytes": 24783,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "aa21c14dcbca33d0a58584b1572d40496856fb5016452d3c49e8309febc59769",
+      "bytes": 28628,
+      "role": "draft"
+    }
+  }
+}
