@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "d66c40b5-a032-4dd5-9eed-60a048efe521",
+    "slug": "passive-fault-tolerance-via-bruhat-tits-tree-codes-exact-ball-code-error-rates-e",
+    "cycle": "cycle-397",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.2-codeagent",
+    "finished_at": "2026-10-27T01:24:11.004Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "78205a3fac3706890422f994490420f477fcb54453558cd807e6050da97c20aa",
+    "bytes": 42901,
+    "path": "papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-exact-ball-code-error-rates-e/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "72d70a090767c0259cb2778b6c61b30472e4a5e0c4c8b7890c376383843b3818",
+      "bytes": 48999,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "acece62a8f7ff009a5b9ebfc6af3a2044cefaceb9838ec44fc33d15509269e75",
+      "bytes": 42902,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "cde1bdc648c238a9ef90ef3a2d781b44c9cfab93e795f58517e561cc1b1f9711",
+      "bytes": 3489,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "8f2653ead9a6e9c83429d0ba32ec086cd7f6b6fc2dcc40d4779054c24c047487",
+      "bytes": 3072,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "bc3103e8c40ca7342cb7ccbd16eb0a91926f43b2d831848bb9089f760467fa64",
+      "bytes": 15900,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "aa51ef616ad9a360717015f0e38c35285c2790317afb7ce1409e3550f219aeb5",
+      "bytes": 8951,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "d458b0f831ae12137428a6a89f7b52d12c12e1dec6cb1c8fe581573d41003a14",
+      "bytes": 19266,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "91c1a9d78d463955b20337d08009a0c3b26ca889eccb11b5e8937bc9d0462539",
+      "bytes": 13254,
+      "role": "draft"
+    }
+  }
+}

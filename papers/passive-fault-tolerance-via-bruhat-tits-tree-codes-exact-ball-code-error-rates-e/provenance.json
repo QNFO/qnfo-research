@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "passive-fault-tolerance-via-bruhat-tits-tree-codes-exact-ball-code-error-rates-e",
+  "paper": {
+    "path": "papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-exact-ball-code-error-rates-e/paper.md",
+    "title": "Passive Fault Tolerance via Bruhat–Tits Tree Codes: Exact Ball-Code Error Rates, Energy Barriers, and the Cooling Wall of Active Quantum Error Correction",
+    "url": "https://papers.qnfo.org/papers/passive-fault-tolerance-via-bruhat-tits-tree-codes-exact-ball-code-error-rates-e"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-397/passive-fault-tolerance-via-bruhat-tits-tree-codes-exact-ball-code-error-rates-e",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "51a77dc45e51443669c2333d7b877df08d123b1f3b5704cd7c0e6cf3eeb157b2"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "d66c40b5-a032-4dd5-9eed-60a048efe521"
+    ],
+    "living_paper_slug": "passive-fault-tolerance-via-bruhat-tits-tree-codes-exact-ball-code-error-rates-e"
+  },
+  "snapshots": [
+    {
+      "sha256": "78205a3fac3706890422f994490420f477fcb54453558cd807e6050da97c20aa",
+      "bytes": 42901,
+      "recorded_at": "2026-10-27",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
