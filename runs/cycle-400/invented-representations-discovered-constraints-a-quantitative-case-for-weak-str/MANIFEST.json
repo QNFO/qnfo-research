@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "idea-int-022429ffmvpihdfe",
+    "slug": "invented-representations-discovered-constraints-a-quantitative-case-for-weak-str",
+    "cycle": "cycle-400",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.3-codeagent",
+    "finished_at": "2026-10-27T06:31:17.461Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "931beabe9b5d3c744582d5e94fa71a42f8267389b804a0d8394d2f58315cd35e",
+    "bytes": 46430,
+    "path": "papers/invented-representations-discovered-constraints-a-quantitative-case-for-weak-str/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "6a35d28f9ff604f51e0088341a3fccc5e7c18f44b54b803692da7982ca189528",
+      "bytes": 53342,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "6ec2b02b8dffe5831c9b37179e0731686a6f5a9fc262a41acfda73b5534e17cd",
+      "bytes": 46431,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "6e87a8daaf84b3e61ffaaec99a2cf1e189b0191456f884677b135f46e819ccee",
+      "bytes": 4811,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "c2736ade54b78d4778d15fda2d20c897670d482603b0fc63317885633e6805fc",
+      "bytes": 3743,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "aa5d2c282f8be954b905085194334914bb23961ff29d9ea50202b24eff9704ce",
+      "bytes": 14970,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "71021e5646fdbca99a88e0d6ab379a660fb8e918e4f77600e9e21f15427f127f",
+      "bytes": 8309,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "d4b06a2fa72200452f2718eaf61dd047b20b490f6b7bf9c51a75ad8f802e285f",
+      "bytes": 17460,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "ba371d794e6ab94472319fa93c50f3e1adf364e9741083ba5d4fbd299f21d077",
+      "bytes": 29471,
+      "role": "draft"
+    }
+  }
+}
