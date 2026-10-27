@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "epistemic-dynamics",
+  "paper": {
+    "path": "papers/epistemic-dynamics/paper.md",
+    "title": "Epistemic Dynamics",
+    "url": "https://papers.qnfo.org/papers/epistemic-dynamics"
+  },
+  "declared": {
+    "version": "1.1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "epistemic-dynamics"
+  },
+  "snapshots": [
+    {
+      "sha256": "4f3bcceb7c16de7230a3160fc3894056b90671a140b1b82268d75bc77959990b",
+      "bytes": 25461,
+      "recorded_at": "2026-10-27",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
