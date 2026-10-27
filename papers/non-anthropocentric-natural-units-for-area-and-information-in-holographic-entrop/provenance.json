@@ -23,6 +23,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "9387e6787a56afec6e52cc40ac9fb0861124763c4d4844077e34bc8296ea0235"
+    },
+    {
+      "path": "runs/cycle-398/non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2255c65f0373511ed39f602befdf59ff7b4ebd76d3b6dcc2a709df07b460789c"
     }
   ],
   "identifiers": {
@@ -44,6 +50,14 @@
       "recorded_at": "2026-10-26",
       "basis": "revision",
       "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "f22910a7d7559a3e151d727c223e5314a8d554fc685814650f4643da75341915",
+      "bytes": 39295,
+      "recorded_at": "2026-10-27",
+      "basis": "revision",
+      "version": "2.1.0",
       "git_commit": null
     }
   ],
