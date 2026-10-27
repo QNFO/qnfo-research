@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-b2c39791-956c-449b-8a68-3c898c363539",
+    "slug": "zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for",
+    "cycle": "cycle-403",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.3-codeagent",
+    "finished_at": "2026-10-27T08:05:17.986Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "e9622258495e0052ff871a09227aaf075cb90d9bc2ac6b4b1a92a24cd70171e7",
+      "bytes": 81347,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "0b3548406cc94d6db33bf61d8e762acf6b6f3e1abb42bd6bf8f5fcbd0a60d7ac",
+      "bytes": 43003,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "fecc839290262ace04dfac39a349aa1da86becc2a87508c5bb030319ba52807d",
+      "bytes": 4034,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "aaae943b017df9b313a4aaf4cba8fc30387f52eb1b9d2f88d9ed2a96817fa213",
+      "bytes": 2662,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "8c9150191588c4fdb4c72e97cda0da482a93309edecd664505f380853b121847",
+      "bytes": 17798,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "b395de9a7aca8751ea059be2127cbd19007a5ca1d6d62de3865ccc24c518d542",
+      "bytes": 9919,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "2dfdd6bc8d781a18525c2ad465bd84edfae42f5484bfc89cbc0130ab7dd10660",
+      "bytes": 21641,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "7c0e253ca8d04a2425068ccf3f019959f8abef500cd8af1b5f97ed60bdb61066",
+      "bytes": 27738,
+      "role": "draft"
+    }
+  }
+}

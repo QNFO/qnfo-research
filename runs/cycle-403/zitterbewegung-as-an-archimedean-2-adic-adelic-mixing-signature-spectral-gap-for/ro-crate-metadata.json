@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-403: Zitterbewegung as an Archimedean–2-adic Adelic Mixing Signature: Spectral-Gap Formalization, Numerical Anchors, and a Falsifiable Simulation Program",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-403",
+      "qnfo:runPath": "runs/cycle-403/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for",
+      "qnfo:slug": "zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-27T08:05:17.986Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Zitterbewegung as an Archimedean–2-adic Adelic Mixing Signature: Spectral-Gap Formalization, Numerical Anchors, and a Falsifiable Simulation Program",
+      "url": "https://papers.qnfo.org/papers/zitterbewegung-as-an-archimedean-2-adic-adelic-mixing-signature-spectral-gap-for"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1105.2966",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1105.2966"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1304.3539",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1304.3539"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1411.1854",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1411.1854"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1502.04660",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1502.04660"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.12833",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.12833"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.16000",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.16000"
+    },
+    {
+      "@id": "https://arxiv.org/abs/hep-th/0312046",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:hep-th/0312046"
+    },
+    {
+      "@id": "https://arxiv.org/abs/math-ph/0306023",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:math-ph/0306023"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2198",
+      "sha256": "aa929dd4badea4ea2a013dd285d8f586a60df2d9ee1bd7000a0410593a1e33d5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "81347",
+      "sha256": "e9622258495e0052ff871a09227aaf075cb90d9bc2ac6b4b1a92a24cd70171e7",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "43003",
+      "sha256": "0b3548406cc94d6db33bf61d8e762acf6b6f3e1abb42bd6bf8f5fcbd0a60d7ac",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4034",
+      "sha256": "fecc839290262ace04dfac39a349aa1da86becc2a87508c5bb030319ba52807d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2662",
+      "sha256": "aaae943b017df9b313a4aaf4cba8fc30387f52eb1b9d2f88d9ed2a96817fa213",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17798",
+      "sha256": "8c9150191588c4fdb4c72e97cda0da482a93309edecd664505f380853b121847",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "9919",
+      "sha256": "b395de9a7aca8751ea059be2127cbd19007a5ca1d6d62de3865ccc24c518d542",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21641",
+      "sha256": "2dfdd6bc8d781a18525c2ad465bd84edfae42f5484bfc89cbc0130ab7dd10660",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27738",
+      "sha256": "7c0e253ca8d04a2425068ccf3f019959f8abef500cd8af1b5f97ed60bdb61066",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1105.2966"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1304.3539"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1411.1854"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1502.04660"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.12833"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.16000"
+        },
+        {
+          "@id": "https://arxiv.org/abs/hep-th/0312046"
+        },
+        {
+          "@id": "https://arxiv.org/abs/math-ph/0306023"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-27T08:05:17.986Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
