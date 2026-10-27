@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-8ef4e655-4a8b-483a-9cd8-2050adb4c171",
+    "slug": "non-anthropocentric-natural-units-for-area-and-information-in-holographic-entrop",
+    "cycle": "cycle-398",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.3-codeagent",
+    "finished_at": "2026-10-27T04:14:17.251Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "b0058cb60f3b567252939d8cf7925f744e9f47383aec796163bb059bbf658e6b",
+      "bytes": 84812,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "81f1c3c74e7239f3717b59dc44d01f615f5462af0cea33499a26166b803b67db",
+      "bytes": 38813,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "121bde35863aff9a1cf00226dcf25b22e79f650b39db0adaee6b494c777d0fec",
+      "bytes": 2892,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "72c7928134c58877ef4651f12e424151b1373e6069f94d6a6456a1f6eae4048e",
+      "bytes": 3939,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "47a359ad512f2248ff4aa2d66f1cc4f7956aa6741de4d5cc511d63a23aff33ae",
+      "bytes": 16091,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "95bdbde03b00038d159e8eecbb1be46f3738e60190f88a25e257985fdbd8f583",
+      "bytes": 9070,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "4c8a2ac28805fe585d2de4bdcd8e721503997228cbd60f346a38edfb162fdfb2",
+      "bytes": 21573,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "9bb6f6bea84e2aaac6aa231ad4f692be0cb5ea5f83b89bfc6c589ebf43d71136",
+      "bytes": 23816,
+      "role": "draft"
+    }
+  }
+}
