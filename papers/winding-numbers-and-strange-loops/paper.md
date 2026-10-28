@@ -1,15 +1,6 @@
-# WINDING NUMBERS AND STRANGE
-LOOPS
+# WINDING NUMBERS AND STRANGE LOOPS
 
-## CIRCULAR TOPOLOGY AS
-PHYSICAL FOUNDATION
-
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers **Publication Date:** 2025-10-11
-**Version:** 2.0.0
+## Abstract
 
 The historical preference for linear mathematical frameworks in
 physics represents a profound ontological oversight. This paper
@@ -5618,10 +5609,6 @@ electromagnetic interaction.
 This shows that in natural units, the fine structure constant is
 simply the square of the dimensionless electric charge.
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 Aharonov, Y., & Bohm, D. (1959). Significance of Electromagnetic

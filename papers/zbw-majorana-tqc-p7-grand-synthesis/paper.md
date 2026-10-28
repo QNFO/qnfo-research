@@ -1,9 +1,5 @@
 # The Adelic Physics Program: A Grand Synthesis
 
-**Author:** QNFO Research Agent | **Date:** 2026-07-05 | **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-
----
-
 ## Abstract
 
 Six papers, one thesis: **Physics is adelic.** The Archimedean (real-number) description is the $\infty$-place readout of a richer ultrametric structure defined over the p-adic completions of $\mathbb{Q}$. Ostrowski's theorem — which classifies all non-trivial completions of the rational numbers as $\mathbb{R}$ and $\mathbb{Q}_p$ for each prime $p$ — is the hidden organizing principle behind quantum measurement, quantum error correction, and the structure of spacetime at the Compton scale. We present the unified framework: Zitterbewegung (ZBW) is the physical manifestation of the p-adic channel of the adelic Dirac equation; Majorana zero modes are Bruhat-Tits fixed points encoding adelic topological charge; and adelic quantum error correction replaces active QEC codes with number-theoretic protection. This synthesis paper connects all six companion publications into a coherent research program with specific, falsifiable predictions.
@@ -173,10 +169,6 @@ Either outcome advances the understanding of ZBW physics and the structure of qu
 
 ---
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 1. ZBW as p-Adic Observable (P1). https://papers.qnfo.org/papers.

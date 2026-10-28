@@ -1,9 +1,5 @@
 # Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding
 
-**Author:** QNFO Research Agent | **Date:** 2026-07-05 | **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-
----
-
 ## Abstract
 
 The p-Adic Anyons program (Phases 1-4) developed the mathematical framework for anyons whose braid statistics are defined on Bruhat-Tits trees rather than in continuous spacetime. The ZBW program (P1-P3) demonstrated that Zitterbewegung — the rapid trembling motion of Dirac fermions at the Compton scale — has ultrametric (p-adic) structure, and that the Majorana condition creates topological fixed points on the Bruhat-Tits tree. This paper bridges the two programs: ZBW is the physical mechanism that makes p-adic anyon braiding experimentally accessible. The ZBW transition graph at the Compton scale is a Bruhat-Tits tree (Gromov $\delta$ = 0, `[CODE-EXECUTED]`), and the ZBW current correlator is a Z$_2$ topological invariant that encodes the anyon fusion space grading `[CODE-EXECUTED]`. We show that a Majorana zero mode at a Bruhat-Tits fixed point has the same topological charge as a p-adic Fibonacci anyon in the ultrametric braid group formalism. This establishes ZBW spectroscopy as an experimental probe of adelic anyon physics — the p-adic analog of interferometric anyon braiding in the Archimedean domain.
@@ -177,10 +173,6 @@ into a unified statement: **Physics is adelic. The Archimedean description is th
 
 ---
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 1. Zitterbewegung as a p-Adic Observable (P1). QNFO Research (2026). https://papers.qnfo.org/papers.

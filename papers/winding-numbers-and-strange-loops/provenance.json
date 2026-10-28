@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/winding-numbers-and-strange-loops"
   },
   "declared": {
-    "version": "2.0.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "05c70186f187f58fe7118830f167ce50b4626068883fa9c878c5f2b24436a6d5",
       "bytes": 307539,
       "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "5855d259abf4ac3aedc9d4f0fc28586db8db55bb581d8c471210472689539b4d",
+      "bytes": 307165,
+      "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
       "git_commit": null
