@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/syntactic-generation-primitive-distinctions"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "49d9d9858c9196017ecf2835da5eefee389a80a4b5a61e32206daad1e93da59e",
       "bytes": 245071,
       "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "d664c71d2d6b75d018e2b4d2abdf932bf3741e1d4f591cb0e1194a8f38fe648c",
+      "bytes": 245169,
+      "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
       "git_commit": null
