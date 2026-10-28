@@ -14,10 +14,10 @@ This paper addresses the “so what?” by providing a quantitative decision mod
 
 **Contributions**
 
-1. A closed‑form Bayesian decision model for PQC migration under a two‑hypothesis mixture over factoring hardness (Section 3).  
-2. Full arithmetic derivations of the mixed hazard, the expected discounted loss of remaining exposure, and the critical loss threshold $L^{\ast}(\pi)$ (Section 4).  
-3. A sensitivity analysis over the prior $\pi$, including the critical prior $\pi^{\ast}(L)$ for low‑value assets (Sections 4 and 5).  
-4. Two alternative scenarios—discrete two‑point (Scenario D) and continuous two‑hazard Poisson (Scenario P)—with complete arithmetic and a numerical solution for the optimal migration time $T^{\ast}$ (Section 4.4).  
+1. A closed‑form Bayesian decision model for PQC migration under a two‑hypothesis mixture over factoring hardness (Section 3).
+2. Full arithmetic derivations of the mixed hazard, the expected discounted loss of remaining exposure, and the critical loss threshold $L^{\ast}(\pi)$ (Section 4).
+3. A sensitivity analysis over the prior $\pi$, including the critical prior $\pi^{\ast}(L)$ for low‑value assets (Sections 4 and 5).
+4. Two alternative scenarios—discrete two‑point (Scenario D) and continuous two‑hazard Poisson (Scenario P)—with complete arithmetic and a numerical solution for the optimal migration time $T^{\ast}$ (Section 4.4).
 5. A discussion of the dependence of the quantum‑advantage narrative on the single unproven premise FACTORING $\notin$ BPP and a proposal for a stress‑test classification of known exponential speedups (Section 7).
 
 All numbers are either declared as modeling assumptions (Section 3) or derived with explicit arithmetic (Section 4). No empirical measurements are invented.
@@ -32,9 +32,7 @@ All numbers are either declared as modeling assumptions (Section 3) or derived
 
 **Migration and displacement analogues.** The Migration Networks study of [2] surveys network‑analysis methods for macroscale migration, providing a framing in which cryptographic migration can be viewed as a flow over an asset graph. The co‑design study of [5] examines task migration between software and hardware under cost and deadline pressure, an isomorphic structural problem to our timing decision.
 
-**Default parameters made explicit.**  Analogously, we treat the conjecture FACTORING $\notin$ BPP as a decision variable.  
-
-
+**Default parameters made explicit.**  Analogously, we treat the conjecture FACTORING $\notin$ BPP as a decision variable.
 
 ## 3. Methods
 
@@ -46,7 +44,7 @@ Time is measured in years. An organization holds RSA‑2048 assets whose comprom
 * $H_{\mathrm{HARD}}$: a regime where breakthroughs arrive with annual hazard $h_{\mathrm{HARD}}\ll h_{\mathrm{BPP}}$;
 * $\pi=\Pr(H_{\mathrm{BPP}})$ is the Bayesian prior weight on the fast‑breakthrough regime.
 
-The predictive (mixture) hazard is  
+The predictive (mixture) hazard is
 
 $$
 \bar{h}(\pi)=\pi\,h_{\mathrm{BPP}}+(1-\pi)\,h_{\mathrm{HARD}}.
@@ -64,7 +62,7 @@ E_{\mathrm{exposed}}=\int_{0}^{\infty}L\,\bar{h}\,e^{-\bar{h}t}\,e^{-rt}\,dt
 = \frac{L\,\bar{h}}{\bar{h}+r}.
 $$
 
-Immediate migration costs $C_m=1$ at $t=0$ and eliminates exposure. Immediate migration is optimal exactly when  
+Immediate migration costs $C_m=1$ at $t=0$ and eliminates exposure. Immediate migration is optimal exactly when
 
 $$
 1<\frac{L\,\bar{h}}{\bar{h}+r}
@@ -76,13 +74,13 @@ The threshold $L^{\ast}(\pi)$ is decreasing in $\pi$; as $\pi\to1$ it approaches
 
 ### 3.3 Prior threshold for a given asset value
 
-For a given loss $L>1$, rearranging the optimality condition yields the required mixture hazard  
+For a given loss $L>1$, rearranging the optimality condition yields the required mixture hazard
 
 $$
 \bar{h}(\pi)>\frac{r}{L-1}.
 $$
 
-Since $\bar{h}(\pi)=h_{\mathrm{HARD}}+\pi\,(h_{\mathrm{BPP}}-h_{\mathrm{HARD}})$, solving for $\pi$ gives the critical prior  
+Since $\bar{h}(\pi)=h_{\mathrm{HARD}}+\pi\,(h_{\mathrm{BPP}}-h_{\mathrm{HARD}})$, solving for $\pi$ gives the critical prior
 
 $$
 \pi^{\ast}(L)=\frac{\dfrac{r}{L-1}-h_{\mathrm{HARD}}}{h_{\mathrm{BPP}}-h_{\mathrm{HARD}}}.
@@ -90,31 +88,31 @@ $$
 
 ### 3.4 Alternative scenario models
 
-**Scenario D (discrete two‑point).** A single horizon $T$, a prior $p$ of a breakthrough within the horizon, migration cost $C_m$ paid at $t=0$ if migrating immediately, breach cost $C_b$ discounted by $d=e^{-rT}$ if the organization waits. The expected cost of waiting is  
+**Scenario D (discrete two‑point).** A single horizon $T$, a prior $p$ of a breakthrough within the horizon, migration cost $C_m$ paid at $t=0$ if migrating immediately, breach cost $C_b$ discounted by $d=e^{-rT}$ if the organization waits. The expected cost of waiting is
 
 $$
 E_{\mathrm{wait}}=p\,C_b\,d+(1-p)\,C_m,
 $$
 
-and the break‑even prior under the simplified comparison (migration forced at $T$) is  
+and the break‑even prior under the simplified comparison (migration forced at $T$) is
 
 $$
 p^{\ast}= \frac{C_m}{C_b\,d}.
 $$
 
-**Scenario P (continuous two‑hazard Poisson).** A classical breakthrough arrives with hazard $\lambda = h_{\mathrm{HARD}} = 0.01$ $\mathrm{yr}^{-1}$, a quantum capability arrives with hazard $\mu = h_{\mathrm{BPP}} = 0.10$ $\mathrm{yr}^{-1}$; combined hazard $\Lambda=\lambda+\mu = 0.11$ $\mathrm{yr}^{-1}$. Migration at time $T$ costs $C_m$ (discounted). If a breakthrough of either type occurs at $t<T$, loss accrues at rate $L$ per year until $T$. The expected discounted cost is  
+**Scenario P (continuous two‑hazard Poisson).** A classical breakthrough arrives with hazard $\lambda = h_{\mathrm{HARD}} = 0.01$ $\mathrm{yr}^{-1}$, a quantum capability arrives with hazard $\mu = h_{\mathrm{BPP}} = 0.10$ $\mathrm{yr}^{-1}$; combined hazard $\Lambda=\lambda+\mu = 0.11$ $\mathrm{yr}^{-1}$. Migration at time $T$ costs $C_m$ (discounted). If a breakthrough of either type occurs at $t<T$, loss accrues at rate $L$ per year until $T$. The expected discounted cost is
 
 $$
 E[C](T)=C_m e^{-rT}+L\,\Lambda\int_{0}^{T}e^{-\Lambda t}\,(T-t)\,e^{-rt}\,dt.
 $$
 
-Let $a=\Lambda+r$. Evaluating the integral yields  
+Let $a=\Lambda+r$. Evaluating the integral yields
 
 $$
 E[C](T)=C_m e^{-rT}+ \frac{L\,\Lambda}{a^{2}}\Bigl[1-(1+aT)e^{-aT}\Bigr].
 $$
 
-The first‑order condition for the optimal migration time $T^{\ast}$ is  
+The first‑order condition for the optimal migration time $T^{\ast}$ is
 
 $$
 r\,C_m e^{-rT^{\ast}}=\frac{L\,\Lambda}{a}\bigl(1-e^{-aT^{\ast}}\bigr).
@@ -132,15 +130,15 @@ All input numbers are declared in Section 3.1 and reproduced here for transpar
 
 ### 4.1 Main model: mixture hazard and loss threshold
 
-**Inputs (modeling assumptions).**  
+**Inputs (modeling assumptions).**
 
-* $h_{\mathrm{BPP}}=0.10$ $\mathrm{yr}^{-1}$  
-* $h_{\mathrm{HARD}}=0.01$ $\mathrm{yr}^{-1}$  
-* $\pi=0.20$  
-* $r=0.05$ $\mathrm{yr}^{-1}$  
+* $h_{\mathrm{BPP}}=0.10$ $\mathrm{yr}^{-1}$
+* $h_{\mathrm{HARD}}=0.01$ $\mathrm{yr}^{-1}$
+* $\pi=0.20$
+* $r=0.05$ $\mathrm{yr}^{-1}$
 * $C_m=1$ (normalization)
 
-**Step 1: mixture hazard.**  
+**Step 1: mixture hazard.**
 
 \[
 \bar{h}= \pi h_{\mathrm{BPP}}+(1-\pi)h_{\mathrm{HARD}}
@@ -149,7 +147,7 @@ All input numbers are declared in Section 3.1 and reproduced here for transpar
 =0.028\;\text{yr}^{-1}.
 \]
 
-**Step 2: expected discounted loss for $L=10$.**  
+**Step 2: expected discounted loss for $L=10$.**
 
 \[
 E_{\mathrm{exposed}}=\frac{L\,\bar{h}}{\bar{h}+r}
@@ -160,7 +158,7 @@ E_{\mathrm{exposed}}=\frac{L\,\bar{h}}{\bar{h}+r}
 
 Since $E_{\mathrm{exposed}}\approx3.59>C_m=1$, immediate migration is optimal for a ten‑unit asset.
 
-**Step 3: loss threshold.**  
+**Step 3: loss threshold.**
 
 \[
 L^{\ast}(\pi)=1+\frac{r}{\bar{h}}
@@ -171,16 +169,16 @@ L^{\ast}(\pi)=1+\frac{r}{\bar{h}}
 
 Any asset with $L>2.785714$ justifies immediate migration at the baseline prior.
 
-**Step 4: sensitivity in $\pi$.**  
+**Step 4: sensitivity in $\pi$.**
 
-* $\pi=0$: $\bar{h}=0.01$, $L^{\ast}=1+0.05/0.01=6$.  
+* $\pi=0$: $\bar{h}=0.01$, $L^{\ast}=1+0.05/0.01=6$.
 * $\pi=1$: $\bar{h}=0.10$, $L^{\ast}=1+0.05/0.10=1.5$.
 
 Thus the threshold varies between $1.5$ and $6$ as the prior moves from certainty of a fast breakthrough to certainty of hardness.
 
-**Step 5: critical prior for a low‑value asset $L=2$.**  
+**Step 5: critical prior for a low‑value asset $L=2$.**
 
-Required mixture hazard:  
+Required mixture hazard:
 
 \[
 \bar{h}^{\mathrm{req}}=\frac{r}{L-1}=\frac{0.05}{1}=0.05.
@@ -198,21 +196,21 @@ Therefore a two‑unit asset requires $\pi>0.44$ for immediate migration to be o
 
 ### 4.2 Scenario D (discrete two‑point)
 
-**Inputs (modeling assumptions).**  
+**Inputs (modeling assumptions).**
 
-* $p=0.05$ (prior probability of breakthrough within horizon)  
-* $C_m = 10{,}000{,}000$ (dollars) 
-* $C_b = 200{,}000{,}000$ (dollars)  
-* $r=0.05$ $\mathrm{yr}^{-1}$ (continuous)  
+* $p=0.05$ (prior probability of breakthrough within horizon)
+* $C_m = 10{,}000{,}000$ (dollars)
+* $C_b = 200{,}000{,}000$ (dollars)
+* $r=0.05$ $\mathrm{yr}^{-1}$ (continuous)
 * $T=10$ yr
 
-**Step 1: discount factor.**  
+**Step 1: discount factor.**
 
 \[
 d=e^{-rT}=e^{-0.05\times10}=e^{-0.5}\approx0.606531.
 \]
 
-**Step 2: discounted breach cost when waiting.**  
+**Step 2: discounted breach cost when waiting.**
 
 \[
 p\,C_b\,d=0.05\times200{,}000{,}000\times0.606531
@@ -220,7 +218,7 @@ p\,C_b\,d=0.05\times200{,}000{,}000\times0.606531
 \approx6{,}065{,}306.60\;\text{dollars}.
 \]
 
-**Step 3: expected total cost of waiting.**  
+**Step 3: expected total cost of waiting.**
 
 \[
 E_{\mathrm{wait}}=p\,C_b\,d+(1-p)C_m
@@ -231,7 +229,7 @@ E_{\mathrm{wait}}=p\,C_b\,d+(1-p)C_m
 
 Since $C_m = 10{,}000{,}000 < E_{\mathrm{wait}}$ (both in dollars), immediate migration is optimal under Scenario D.
 
-**Step 4: break‑even prior (simplified comparison).**  
+**Step 4: break‑even prior (simplified comparison).**
 
 \[
 p^{\ast}=\frac{C_m}{C_b\,d}
@@ -244,22 +242,22 @@ If the prior probability of a breakthrough within ten years exceeds $8.25\%$, wa
 
 ### 4.3 Scenario P (continuous two‑hazard Poisson)
 
-**Inputs (modeling assumptions).**  
+**Inputs (modeling assumptions).**
 
-* Classical hazard $\lambda = h_{\mathrm{HARD}} = 0.01$ $\mathrm{yr}^{-1}$  
-* Quantum hazard $\mu = h_{\mathrm{BPP}} = 0.10$ $\mathrm{yr}^{-1}$  
-* Combined hazard $\Lambda = \lambda+\mu = 0.11$ $\mathrm{yr}^{-1}$  
-* Discount rate $r = 0.05$ $\mathrm{yr}^{-1}$  
-* Breach loss $L = 10$ (units of $C_m$)  
+* Classical hazard $\lambda = h_{\mathrm{HARD}} = 0.01$ $\mathrm{yr}^{-1}$
+* Quantum hazard $\mu = h_{\mathrm{BPP}} = 0.10$ $\mathrm{yr}^{-1}$
+* Combined hazard $\Lambda = \lambda+\mu = 0.11$ $\mathrm{yr}^{-1}$
+* Discount rate $r = 0.05$ $\mathrm{yr}^{-1}$
+* Breach loss $L = 10$ (units of $C_m$)
 * Migration cost $C_m = 1$
 
-**Step 1: auxiliary constant.**  
+**Step 1: auxiliary constant.**
 
 \[
 a = \Lambda + r = 0.11 + 0.05 = 0.16\;\text{yr}^{-1}.
 \]
 
-**Step 2: first‑order condition for optimal $T^{\ast}$.**  
+**Step 2: first‑order condition for optimal $T^{\ast}$.**
 
 \[
 r\,C_m e^{-rT^{\ast}} = \frac{L\,\Lambda}{a}\bigl(1-e^{-aT^{\ast}}\bigr).
@@ -272,7 +270,7 @@ Substituting numbers:
 =6.875\bigl(1-e^{-0.16T^{\ast}}\bigr).
 \]
 
-**Step 3: numerical solution (bisection).**  
+**Step 3: numerical solution (bisection).**
 
 We evaluate the left‑hand side (LHS) and right‑hand side (RHS) for candidate $T$ values:
 
@@ -285,7 +283,7 @@ We evaluate the left‑hand side (LHS) and right‑hand side (RHS) for candidate
 | 0.046    | 0.049882               | 0.050200                    |
 | 0.047    | 0.049877               | 0.051000                    |
 
-The sign changes between $T=0.045$ yr (RHS < LHS) and $T=0.046$ yr (RHS > LHS). Linear interpolation gives  
+The sign changes between $T=0.045$ yr (RHS < LHS) and $T=0.046$ yr (RHS > LHS). Linear interpolation gives
 
 \[
 T^{\ast}\approx0.0455\;\text{yr}.
@@ -338,7 +336,7 @@ Thus
 {\bigl[\pi h_{\mathrm{BPP}}+(1-\pi)h_{\mathrm{HARD}}\bigr]^{2}}.
 \]
 
-**Numerical evaluation at the baseline $\pi=0.20$.**  
+**Numerical evaluation at the baseline $\pi=0.20$.**
 Insert $r=0.05$, $h_{\mathrm{BPP}}=0.10$, $h_{\mathrm{HARD}}=0.01$:
 
 \[
@@ -367,7 +365,7 @@ Similarly,
 = -\,\frac{r\,(1-\pi)}{\bigl[\bar{h}(\pi)\bigr]^{2}}.
 \]
 
-**Baseline evaluation.**  
+**Baseline evaluation.**
 Using $\pi=0.20$ and $\bar{h}=0.028$:
 
 \[
@@ -400,7 +398,7 @@ Define the raw sum $S = s_{1}+s_{2}+s_{3}$ (range $0$–$3$). Map $S$ to a prior
 \pi = \frac{S}{3}.
 \]
 
-**Illustrative calculation.**  
+**Illustrative calculation.**
 Assume the expert answers “Yes” to Q1 and Q2, “No” to Q3, giving $s_{1}=1$, $s_{2}=1$, $s_{3}=0$, so $S=2$. Then
 \[
 \pi = \frac{2}{3} \approx 0.6667.
@@ -487,16 +485,16 @@ A feasible next step is a **prior‑elicitation pilot**: assemble a panel of com
 
 ### 8.4 Engineering, manufacturing, or deployment constraints
 
-* **Expert elicitation infrastructure:** requires a platform for structured Bayesian belief elicitation (e.g., calibrated probability questionnaires).  
-* **Parameter estimation:** reliable estimates of $h_{\mathrm{BPP}}$ and $h_{\mathrm{HARD}}$ depend on historical analysis of algorithmic breakthroughs (e.g., GNFS performance trends).  
-* **Discount rate selection:** organizations must agree on a financial discount rate consistent with their capital‑allocation policies.  
+* **Expert elicitation infrastructure:** requires a platform for structured Bayesian belief elicitation (e.g., calibrated probability questionnaires).
+* **Parameter estimation:** reliable estimates of $h_{\mathrm{BPP}}$ and $h_{\mathrm{HARD}}$ depend on historical analysis of algorithmic breakthroughs (e.g., GNFS performance trends).
+* **Discount rate selection:** organizations must agree on a financial discount rate consistent with their capital‑allocation policies.
 * **Loss quantification:** translating breach impact into units of migration cost demands a consistent accounting framework across assets.
 
 These constraints are data and process constraints rather than material or manufacturing constraints.
 
 ### 8.5 Projected cost and performance bounds (projections)
 
-Assuming the baseline inputs ($h_{\mathrm{BPP}}=0.10$, $h_{\mathrm{HARD}}=0.01$, $r=0.05$) and a prior $\pi=0.20$, the loss threshold is $L^{\ast}\approx2.79$. For an asset whose estimated breach loss is $L=5$, the model projects that immediate migration reduces expected discounted loss from  
+Assuming the baseline inputs ($h_{\mathrm{BPP}}=0.10$, $h_{\mathrm{HARD}}=0.01$, $r=0.05$) and a prior $\pi=0.20$, the loss threshold is $L^{\ast}\approx2.79$. For an asset whose estimated breach loss is $L=5$, the model projects that immediate migration reduces expected discounted loss from
 
 \[
 E_{\mathrm{exposed}}=\frac{5\times0.028}{0.028+0.05}\approx1.795
@@ -511,10 +509,6 @@ If an organization adopts the model but under‑estimates $L$ (e.g., by ignoring
 ## 9. Conclusion
 
 By treating the unproven conjecture FACTORING $\notin$ BPP as an explicit Bayesian prior, we have derived a simple, closed‑form decision rule that determines when immediate PQC migration for RSA‑2048 is optimal. The loss threshold $L^{\ast}(\pi)=1+r/\bar{h}$ captures the trade‑off between breach loss and migration cost under uncertainty about factoring hardness. Sensitivity analysis shows that high‑value assets warrant migration even if the fast‑breakthrough regime is deemed unlikely, while low‑value assets require a substantial prior belief in a fast breakthrough. Alternative scenario analyses (discrete and continuous hazards) reinforce the robustness of the conclusion: under realistic numeric inputs the optimal migration time is effectively immediate. The framework provides organizations with a transparent, auditable parameter ($\pi$) that can be refined through expert elicitation, enabling risk‑aware migration planning that explicitly acknowledges the epistemic status of a foundational complexity‑theoretic conjecture.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): rewritten in full through the research pipeline. new sections: Results; Extended Derivations and Worked Examples; Discussion; Practical Implications and Engineering Pathways; Conclusion; Provenance and AI Involvement. references 12 -> 8. length 3299 -> 4118 words.
 
 ## Provenance and AI Involvement
 
