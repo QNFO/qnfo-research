@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-976bc8f3-9c42-4cfc-b709-92497e3ae334",
+    "slug": "static-architecture-of-reality-and-its-biological-interface",
+    "cycle": "cycle-405",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.3-codeagent",
+    "finished_at": "2026-10-28T07:31:00.920Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "74ecbfb0986472d15df10c47e0044eea5c3618632b4d906bc7990d49839a2810",
+      "bytes": 66784,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "d9d1549e6782ce7ed773813fd539329a4b0437bb56d33601807a306fe0c8b3b0",
+      "bytes": 45158,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "1c615088e6e516a751fc85279a4a22b26faf268dffc93732705f905523c3beb9",
+      "bytes": 6297,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "2a0b0bd3f9e14bd2ad469cf28370722fa607f94c1f9159602292213b80071dfb",
+      "bytes": 2313,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "2a0a7862423c9d1234829040e26d9debf9ab2621ac267ede39d4cbeb8999add3",
+      "bytes": 7216,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "65b282fc59dfbd79b3d8f1dc04f9db1e35561b2613e4589bfb2276d1200606cf",
+      "bytes": 2535,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "8dae2a585a31a75cdda5a07ebdbe9f7ae94632795920e27cbc4b5c7e09d45f45",
+      "bytes": 13490,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "0634befb08ecc7be1dd43ae0c83ef362d94a338ce9b384e54d477e15723fe55c",
+      "bytes": 24396,
+      "role": "draft"
+    }
+  }
+}
