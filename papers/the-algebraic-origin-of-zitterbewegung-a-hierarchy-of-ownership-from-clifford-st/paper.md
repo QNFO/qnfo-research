@@ -2,10 +2,10 @@
 
 ## Abstract
 
-Zitterbewegung (ZB) – the rapid trembling of a relativistic quantum particle’s position – is usually presented as a representation‑specific artifact of the Dirac equation, leaving experimentalists without a general criterion for when the oscillation must appear. The specific gap addressed here is the absence of a representation‑independent statement of why the oscillation exists: whether it is a consequence of the particular $4\times4$ Dirac matrices, of spacetime geometry, or of a deeper algebraic fact that survives in any dimension or representation. We formulate a hierarchy of “ownership” (algebra, calculus, trigonometry, geometry) and show, by explicit operator derivation on a Clifford module, that the oscillation is owned by the algebra: the anticommutator $\{H,\alpha_j\}=2c p_j$ forces the velocity operator to evolve as  
+Zitterbewegung (ZB) – the rapid trembling of a relativistic quantum particle’s position – is usually presented as a representation‑specific artifact of the Dirac equation, leaving experimentalists without a general criterion for when the oscillation must appear. The specific gap addressed here is the absence of a representation‑independent statement of why the oscillation exists: whether it is a consequence of the particular $4\times4$ Dirac matrices, of spacetime geometry, or of a deeper algebraic fact that survives in any dimension or representation. We formulate a hierarchy of “ownership” (algebra, calculus, trigonometry, geometry) and show, by explicit operator derivation on a Clifford module, that the oscillation is owned by the algebra: the anticommutator $\{H,\alpha_j\}=2c p_j$ forces the velocity operator to evolve as
 \[
 \alpha_j(t)=c p_j H^{-1}+Z_j e^{-2iHt/\hbar},
-\]  
+\]
 producing interference between positive‑ and negative‑energy eigenspaces at the beat frequency $\omega_{\mathrm{ZB}}=(E_{+}-E_{-})/\hbar$. We generalize the exact solution to arbitrary Clifford algebras and to any Hamiltonian whose velocity operators fail to commute with the Hamiltonian through Clifford structure. Numerical evaluation yields a rest‑frame electron frequency $f_{0}=2.471\times10^{20}\,\mathrm{Hz}$ with amplitude $1.931\times10^{-13}\,\mathrm{m}$, and for an illustrative gapped Dirac material ($\Delta=0.1\,$eV) a frequency $f=4.836\times10^{13}\,\mathrm{Hz}$. The result converts ZB from a Dirac‑equation curiosity into a spectral diagnostic: suppressing one eigenspace eliminates the oscillation, a falsifiable signature for existing quantum‑simulator platforms.
 
 ## 1. Introduction
@@ -16,10 +16,10 @@ The cost of this gap is concrete: experimental design proceeds by analogy rather
 
 This paper addresses that gap with a hierarchy‑of‑ownership conjecture, stated up front so that its status is clear. We conjecture that Zitterbewegung oscillation is fundamentally an algebraic/spectral fact: it arises whenever a velocity operator fails to commute with the Hamiltonian because of Clifford‑algebraic structure, independent of dimension or representation. Calculus merely produces the solution of the resulting operator differential equation; trigonometry is only the notation in which the solution is written; geometry is a visualizable shadow of an interference phenomenon that exists without any picture. The claim is testable: if the algebraic account is right, then removing the negative‑energy (or, generally, the second‑eigenspace) component of a wave packet must eliminate the oscillation, in any platform, at any dimension.
 
-**Contributions.**  
-- **C1.** A closed‑form operator derivation of the velocity and position dynamics, $\alpha_j(t)=c p_j H^{-1}+Z_j e^{-2iHt/\hbar}$ and the corresponding position decomposition, from the single algebraic input $\{H,\alpha_j\}=2c p_j$ (Section 3).  
-- **C2.** A generalization theorem: for any Hamiltonian on a Clifford module whose velocity operators are Clifford generators, the oscillation exists exactly when two eigenspaces are coherently populated, and its frequency always equals the inter‑eigenspace beat frequency $(E_{+}-E_{-})/\hbar$ (Sections 3–4).  
-- **C3.** Fully worked numerical evaluations of the rest‑frame electron case ($f_{0}=2.471\times10^{20}$ Hz, amplitude $1.931\times10^{-13}$ m) and of an illustrative gapped Dirac material ($f=4.836\times10^{13}$ Hz at $\Delta=0.1$ eV) (Section 4).  
+**Contributions.**
+- **C1.** A closed‑form operator derivation of the velocity and position dynamics, $\alpha_j(t)=c p_j H^{-1}+Z_j e^{-2iHt/\hbar}$ and the corresponding position decomposition, from the single algebraic input $\{H,\alpha_j\}=2c p_j$ (Section 3).
+- **C2.** A generalization theorem: for any Hamiltonian on a Clifford module whose velocity operators are Clifford generators, the oscillation exists exactly when two eigenspaces are coherently populated, and its frequency always equals the inter‑eigenspace beat frequency $(E_{+}-E_{-})/\hbar$ (Sections 3–4).
+- **C3.** Fully worked numerical evaluations of the rest‑frame electron case ($f_{0}=2.471\times10^{20}$ Hz, amplitude $1.931\times10^{-13}$ m) and of an illustrative gapped Dirac material ($f=4.836\times10^{13}$ Hz at $\Delta=0.1$ eV) (Section 4).
 - **C4.** A falsifiable experimental signature – eigenspace‑filtered wave‑packet dynamics – and an assessment of readiness, blockers, and the smallest next test on existing simulator platforms (Sections 6–7).
 
 ## 2. Background and Related Work
@@ -48,13 +48,13 @@ arXiv:1306.0174 [10] shows that there exist simple groups with a spherical BN�
 
 ### 3.1 Setting: the Dirac Hamiltonian as a Clifford‑module operator
 
-We work in the Heisenberg picture with $\hbar$ explicit. The free Dirac Hamiltonian is  
+We work in the Heisenberg picture with $\hbar$ explicit. The free Dirac Hamiltonian is
 
 \[
 H = c\,\boldsymbol{\alpha}\!\cdot\!\mathbf{p} + \beta\, mc^{2},
-\]  
+\]
 
-where $\mathbf{p}=(p_{1},p_{2},p_{3})$, $m$ is the rest mass, $c$ the speed of light, and $\alpha_{j},\beta$ are Hermitian matrices satisfying the Clifford relations  
+where $\mathbf{p}=(p_{1},p_{2},p_{3})$, $m$ is the rest mass, $c$ the speed of light, and $\alpha_{j},\beta$ are Hermitian matrices satisfying the Clifford relations
 
 \[
 \alpha_{j}\alpha_{k}+\alpha_{k}\alpha_{j}=2\delta_{jk}\,\mathbb{1},\qquad
@@ -62,66 +62,66 @@ where $\mathbf{p}=(p_{1},p_{2},p_{3})$, $m$ is the rest mass, $c$ the speed of l
 \beta^{2}=\mathbb{1}.
 \]
 
-The single algebraic input of the whole derivation is the anticommutator of the Hamiltonian with a velocity generator. Direct expansion using the Clifford relations gives  
+The single algebraic input of the whole derivation is the anticommutator of the Hamiltonian with a velocity generator. Direct expansion using the Clifford relations gives
 
 \[
 \{H,\alpha_{j}\}=H\alpha_{j}+\alpha_{j}H
 = c\bigl(\boldsymbol{\alpha}\!\cdot\!\mathbf{p}\,\alpha_{j}+\alpha_{j}\,\boldsymbol{\alpha}\!\cdot\!\mathbf{p}\bigr)
 + mc^{2}(\beta\alpha_{j}+\alpha_{j}\beta).
-\]  
+\]
 
-The $\beta$ terms vanish by anticommutation. For the kinetic terms, $\alpha_{k}\alpha_{j}+\alpha_{j}\alpha_{k}=2\delta_{jk}$ collapses the sum over $k$ to the single term $2p_{j}$, so  
+The $\beta$ terms vanish by anticommutation. For the kinetic terms, $\alpha_{k}\alpha_{j}+\alpha_{j}\alpha_{k}=2\delta_{jk}$ collapses the sum over $k$ to the single term $2p_{j}$, so
 
 \[
 \{H,\alpha_{j}\}=2c\,p_{j}. \tag{3.1}
-\]  
+\]
 
 This identity holds for any representation of the Clifford relations because it follows solely from the algebraic relations.
 
 ### 3.2 The velocity operator and its exact time evolution
 
-The velocity operator is $\dot{x}_{j}= \tfrac{i}{\hbar}[H,x_{j}]=c\,\alpha_{j}$; the position operator $x_{j}$ commutes with $\mathbf{p}$ and $\beta$, so this identification is exact and representation‑independent. The Heisenberg equation for $\alpha_{j}$ is  
+The velocity operator is $\dot{x}_{j}= \tfrac{i}{\hbar}[H,x_{j}]=c\,\alpha_{j}$; the position operator $x_{j}$ commutes with $\mathbf{p}$ and $\beta$, so this identification is exact and representation‑independent. The Heisenberg equation for $\alpha_{j}$ is
 
 \[
 \frac{d\alpha_{j}}{dt}= \frac{i}{\hbar}[H,\alpha_{j}]
 = \frac{i}{\hbar}\bigl(H\alpha_{j}-\alpha_{j}H\bigr).
-\]  
+\]
 
 Using $\alpha_{j}H = 2cp_{j}-H\alpha_{j}$ from (3.1),
 
 \[
 \frac{d\alpha_{j}}{dt}= \frac{i}{\hbar}\bigl(2H\alpha_{j}-2cp_{j}\bigr)
 = \frac{2i}{\hbar}\bigl(H\alpha_{j}-cp_{j}\bigr). \tag{3.2}
-\]  
+\]
 
-Define the shifted operator  
+Define the shifted operator
 
 \[
 Z_{j}\equiv \alpha_{j}-cp_{j}H^{-1}.
-\]  
+\]
 
-One verifies $Z_{j}H=-HZ_{j}$, i.e. $Z_{j}$ anticommutes with $H$. Propose the ansatz  
+One verifies $Z_{j}H=-HZ_{j}$, i.e. $Z_{j}$ anticommutes with $H$. Propose the ansatz
 
 \[
 \alpha_{j}(t)=cp_{j}H^{-1}+Z_{j}\,e^{-2iHt/\hbar}.
-\]  
+\]
 
-Differentiating and using $Z_{j}H=-HZ_{j}$ yields exactly (3.2) with the initial condition $\alpha_{j}(0)=\alpha_{j}$. Hence the exact solution is  
+Differentiating and using $Z_{j}H=-HZ_{j}$ yields exactly (3.2) with the initial condition $\alpha_{j}(0)=\alpha_{j}$. Hence the exact solution is
 
 \[
 \alpha_{j}(t)=cp_{j}H^{-1}+Z_{j}\,e^{-2iHt/\hbar}. \tag{3.3}
-\]  
+\]
 
 The first term is a constant “quasi‑velocity”; the second term is a unitary rotation at the frequency set by the spectrum of $H$.
 
 ### 3.3 Position dynamics and the interference decomposition
 
-Integrating $\dot{x}_{j}=c\,\alpha_{j}(t)$ from $0$ to $t$ gives  
+Integrating $\dot{x}_{j}=c\,\alpha_{j}(t)$ from $0$ to $t$ gives
 
 \[
 x_{j}(t)=x_{j}(0)+c^{2}p_{j}H^{-2}\,t
 +\int_{0}^{t}c\,Z_{j}\,e^{-2iHt'/\hbar}\,dt'.
-\]  
+\]
 
 The integral evaluates term by term because $H^{-1}$ is time‑independent:
 
@@ -129,60 +129,60 @@ The integral evaluates term by term because $H^{-1}$ is time‑independent:
 \int_{0}^{t}e^{-2iHt'/\hbar}\,dt'
 = \frac{\hbar}{-2iH}\bigl(e^{-2iHt/\hbar}-\mathbb{1}\bigr)
 = \frac{i\hbar}{2}\,H^{-1}\bigl(e^{-2iHt/\hbar}-\mathbb{1}\bigr),
-\]  
+\]
 
-so  
+so
 
 \[
 x_{j}(t)=x_{j}(0)+c^{2}p_{j}H^{-2}\,t
 +\frac{i\hbar c}{2}\,H^{-1}Z_{j}\bigl(e^{-2iHt/\hbar}-\mathbb{1}\bigr). \tag{3.4}
-\]  
+\]
 
 The position separates into a uniform drift, a static shift, and an oscillatory interference term; only the third part constitutes Zitterbewegung.
 
 ### 3.4 Generalization: the beat‑frequency theorem
 
-Let $\mathcal{M}$ be any module for any Clifford algebra $\mathrm{Cl}(p,q)$, let $H$ be a self‑adjoint operator on $\mathcal{M}$ with a purely discrete non‑degenerate spectrum, and suppose the velocity operators $\dot{x}_{j}$ are Clifford generators $\gamma_{a}$ (or linear combinations thereof) satisfying  
+Let $\mathcal{M}$ be any module for any Clifford algebra $\mathrm{Cl}(p,q)$, let $H$ be a self‑adjoint operator on $\mathcal{M}$ with a purely discrete non‑degenerate spectrum, and suppose the velocity operators $\dot{x}_{j}$ are Clifford generators $\gamma_{a}$ (or linear combinations thereof) satisfying
 
 \[
 \{H,\gamma_{a}\}=2\,\mathcal{O}, \tag{3.5}
-\]  
+\]
 
 where $\mathcal{O}$ is an operator independent of $\gamma_{a}$ and $H$. Condition (3.5) is exactly the structure used in Section 3.2; the derivation of (3.3) used nothing about dimension, matrix size, or Lorentz signature, only (3.1) and the invertibility of $H$. Therefore (3.3) holds verbatim with $\alpha_{j}$ replaced by $\gamma_{a}$.
 
-Decompose the Hilbert space into eigenspaces of $H$. Let $P_{+}$ and $P_{-}$ be the spectral projectors onto the positive‑ and negative‑energy sectors with eigenvalues $E_{+}>0$ and $E_{-}<0$. Then  
+Decompose the Hilbert space into eigenspaces of $H$. Let $P_{+}$ and $P_{-}$ be the spectral projectors onto the positive‑ and negative‑energy sectors with eigenvalues $E_{+}>0$ and $E_{-}<0$. Then
 
 \[
 e^{-2iHt/\hbar}=e^{-2iE_{+}t/\hbar}P_{+}+e^{-2iE_{-}t/\hbar}P_{-}+\cdots,
-\]  
+\]
 
-where the ellipsis denotes any further eigenspaces. For a state $|\psi\rangle=|\psi_{+}\rangle+|\psi_{-}\rangle$ with components in both sectors, the expectation of the oscillatory term in (3.4) contains the cross term  
+where the ellipsis denotes any further eigenspaces. For a state $|\psi\rangle=|\psi_{+}\rangle+|\psi_{-}\rangle$ with components in both sectors, the expectation of the oscillatory term in (3.4) contains the cross term
 
 \[
 \langle\psi_{+}|\tfrac{i\hbar c}{2}H^{-1}Z_{j}e^{-2iHt/\hbar}|\psi_{-}\rangle+\text{h.c.}
 = A_{j}\,e^{-i(E_{+}-E_{-})t/\hbar}+A_{j}^{*}\,e^{+i(E_{+}-E_{-})t/\hbar},
-\]  
+\]
 
-so the observable oscillation is at angular frequency  
+so the observable oscillation is at angular frequency
 
 \[
 \omega_{\mathrm{ZB}}=\frac{E_{+}-E_{-}}{\hbar}. \tag{3.6}
-\]  
+\]
 
 Two immediate consequences follow. First, if the state lies entirely in one eigenspace, the cross term vanishes and Zitterbewegung is absent. Second, the frequency is a direct spectroscopic probe of the energy gap.
 
-For the free Dirac case, $E_{+}-E_{-}=2E(\mathbf{p})$, where  
+For the free Dirac case, $E_{+}-E_{-}=2E(\mathbf{p})$, where
 
 \[
 E(\mathbf{p})=\sqrt{c^{2}|\mathbf{p}|^{2}+m^{2}c^{4}}.
-\]  
+\]
 
-Thus  
+Thus
 
 \[
 \omega_{\mathrm{ZB}}(\mathbf{p})=\frac{2E(\mathbf{p})}{\hbar}
 \ge \frac{2mc^{2}}{\hbar}, \tag{3.7}
-\]  
+\]
 
 with equality at $\mathbf{p}=0$. The frequently quoted value $2mc^{2}/\hbar$ is therefore the rest‑frame minimum of a momentum‑dependent beat frequency.
 
@@ -190,16 +190,16 @@ with equality at $\mathbf{p}=0$. The frequently quoted value $2mc^{2}/\hbar$ is 
 
 The derivation assigns each mathematical layer a precise role:
 
-- **Algebra (owner).** The Clifford anticommutator (3.1) forces the velocity operator out of the commutant of $H$; the two‑eigenspace structure of a gapped self‑adjoint operator then forces interference. Nothing else is used.  
-- **Calculus (producer).** The linear operator differential equation (3.2) is solved by the exponential ansatz; calculus generates the solution but contributes no physics.  
-- **Trigonometry (notation).** The complex exponential $e^{-2iHt/\hbar}$ is a rotation; writing it as $\cos$ and $\sin$ changes nothing.  
+- **Algebra (owner).** The Clifford anticommutator (3.1) forces the velocity operator out of the commutant of $H$; the two‑eigenspace structure of a gapped self‑adjoint operator then forces interference. Nothing else is used.
+- **Calculus (producer).** The linear operator differential equation (3.2) is solved by the exponential ansatz; calculus generates the solution but contributes no physics.
+- **Trigonometry (notation).** The complex exponential $e^{-2iHt/\hbar}$ is a rotation; writing it as $\cos$ and $\sin$ changes nothing.
 - **Geometry (shadow).** The “trembling” picture is the visualization of the interference term in (3.4); it is derivable, not fundamental, and disappears when one eigenspace is removed.
 
 This hierarchy is a conjecture about generality – that every ZB‑type oscillation in every platform is owned at the algebra layer – and Section 4 tests its numerical consequences while Section 6 states what would falsify it.
 
 ## 4. Analysis
 
-Every input number below is stated with its source; every arithmetic step is shown. Physical constants are taken as the standard values:  
+Every input number below is stated with its source; every arithmetic step is shown. Physical constants are taken as the standard values:
 
 \[
 c = 2.998\times10^{8}\,\mathrm{m/s},\qquad
@@ -218,7 +218,7 @@ All numbers are quoted to four significant figures unless otherwise noted.
 = \frac{1.0546}{6.582}\times10^{-18}
 = 0.16023\times10^{-18}
 = 1.6023\times10^{-19}\ \mathrm{J/eV},
-\]  
+\]
 
 which matches the elementary charge $e=1.602\times10^{-19}\,\mathrm{J/eV}$ to the quoted precision. The two unit systems are therefore consistent.
 
@@ -226,12 +226,12 @@ which matches the elementary charge $e=1.602\times10^{-19}\,\mathrm{J/eV}$ to th
 
 \[
 c^{2} = (2.998\times10^{8})^{2}=8.988\times10^{16}\ \mathrm{m^{2}/s^{2}}.
-\]  
+\]
 
 \[
 m_{e}c^{2}= (9.109\times10^{-31})\times(8.988\times10^{16})
 = 8.187\times10^{-14}\ \mathrm{J}.
-\]  
+\]
 
 In electronvolts:
 
@@ -248,7 +248,7 @@ Angular frequency:
 \omega_{0}= \frac{2\,m_{e}c^{2}}{\hbar_{\mathrm{J\,s}}}
 = \frac{2\times8.187\times10^{-14}}{1.0546\times10^{-34}}
 = 1.5526\times10^{21}\ \mathrm{rad/s}.
-\]  
+\]
 
 Ordinary frequency:
 
@@ -256,14 +256,14 @@ Ordinary frequency:
 f_{0}= \frac{\omega_{0}}{2\pi}
 = \frac{1.5526\times10^{21}}{6.2832}
 = 2.471\times10^{20}\ \mathrm{Hz}.
-\]  
+\]
 
 Cross‑check in eV units:
 
 \[
 \omega_{0}= \frac{2\times0.5111\ \mathrm{MeV}}{6.582\times10^{-16}\ \mathrm{eV\cdot s}}
 =1.553\times10^{21}\ \mathrm{rad/s},
-\]  
+\]
 
 agreeing to four figures.
 
@@ -279,7 +279,7 @@ a_{0}= \frac{\hbar_{\mathrm{J\,s}}}{2m_{e}c}
 
 ### Step 5 – Illustrative gapped Dirac material
 
-Take a band gap $2\Delta$ with $\Delta=0.1\ \mathrm{eV}$, so $E_{+}-E_{-}=2\Delta=0.2\ \mathrm{eV}$. The ordinary frequency is  
+Take a band gap $2\Delta$ with $\Delta=0.1\ \mathrm{eV}$, so $E_{+}-E_{-}=2\Delta=0.2\ \mathrm{eV}$. The ordinary frequency is
 
 \[
 f = \frac{E_{+}-E_{-}}{h}
@@ -287,18 +287,18 @@ f = \frac{E_{+}-E_{-}}{h}
 = \frac{0.2}{6.2832\times6.582\times10^{-16}}
 = \frac{0.2}{4.136\times10^{-15}}
 = 4.836\times10^{13}\ \mathrm{Hz}.
-\]  
+\]
 
 The corresponding period is $T=1/f=2.0678\times10^{-14}\ \mathrm{s}\approx20.7\ \mathrm{fs}$.
 
 ### Step 6 – Scaling law
 
-Because $\omega_{\mathrm{ZB}}=(E_{+}-E_{-})/\hbar$, the ordinary frequency obeys  
+Because $\omega_{\mathrm{ZB}}=(E_{+}-E_{-})/\hbar$, the ordinary frequency obeys
 
 \[
 f = \frac{E_{+}-E_{-}}{h}
 = \bigl(2.418\times10^{14}\ \mathrm{Hz/eV}\bigr)\times (E_{+}-E_{-}),
-\]  
+\]
 
 where the conversion factor follows from $1/(4.136\times10^{-15}\ \mathrm{eV\cdot s})=2.418\times10^{14}\ \mathrm{Hz/eV}$. This line converts any measured ZB frequency into a gap measurement and predicts the frequency for any independently known gap.
 
@@ -306,11 +306,11 @@ where the conversion factor follows from $1/(4.136\times10^{-15}\ \mathrm{eV\cdo
 
 The derivations and arithmetic above yield the following concrete results:
 
-- **R1.** The velocity operator obeys the exact Heisenberg‑picture solution (3.3), derived solely from the Clifford anticommutator (3.1).  
-- **R2.** The position operator decomposes as (3.4); the oscillatory term is proportional to $e^{-2iHt/\hbar}$ and therefore carries the beat frequency (3.6).  
-- **R3.** The beat‑frequency theorem (3.6) holds for any Hamiltonian on a Clifford module whose velocity operators satisfy (3.5); the oscillation exists iff the state has support in at least two eigenspaces.  
-- **R4.** For a free electron at rest, the ZB frequency is $f_{0}=2.471\times10^{20}\,\mathrm{Hz}$ and the amplitude scale is $a_{0}=1.931\times10^{-13}\,\mathrm{m}$.  
-- **R5.** For a gapped Dirac material with $\Delta=0.1\,$eV, the ZB frequency is $f=4.836\times10^{13}\,\mathrm{Hz}$, corresponding to a period of $20.7\,$fs.  
+- **R1.** The velocity operator obeys the exact Heisenberg‑picture solution (3.3), derived solely from the Clifford anticommutator (3.1).
+- **R2.** The position operator decomposes as (3.4); the oscillatory term is proportional to $e^{-2iHt/\hbar}$ and therefore carries the beat frequency (3.6).
+- **R3.** The beat‑frequency theorem (3.6) holds for any Hamiltonian on a Clifford module whose velocity operators satisfy (3.5); the oscillation exists iff the state has support in at least two eigenspaces.
+- **R4.** For a free electron at rest, the ZB frequency is $f_{0}=2.471\times10^{20}\,\mathrm{Hz}$ and the amplitude scale is $a_{0}=1.931\times10^{-13}\,\mathrm{m}$.
+- **R5.** For a gapped Dirac material with $\Delta=0.1\,$eV, the ZB frequency is $f=4.836\times10^{13}\,\mathrm{Hz}$, corresponding to a period of $20.7\,$fs.
 - **R6.** The linear scaling law $f=2.418\times10^{14}\,\mathrm{Hz/eV}\times (E_{+}-E_{-})$ provides a universal conversion between measured ZB frequencies and underlying energy gaps.
 
 All results are traceable to the explicit steps in Section 4.
@@ -332,8 +332,8 @@ If an experimental platform exhibits a persistent ZB‑type oscillation while th
 
 ### 6.3 Open questions
 
-- Extension of the hierarchy to systems with continuous spectra or with explicit time‑dependent Hamiltonians.  
-- Interaction effects: how many‑body correlations modify the anticommutator (3.1) and whether the algebraic ownership survives.  
+- Extension of the hierarchy to systems with continuous spectra or with explicit time‑dependent Hamiltonians.
+- Interaction effects: how many‑body correlations modify the anticommutator (3.1) and whether the algebraic ownership survives.
 - Non‑Archimedean formulations suggested by [13] and [14]; [13] proposes an adelic framework mixing Archimedean and 2‑adic channels, and [14] treats Zitterbewegung as a p‑adic observable with ultrametric readout, so reconciling the present Archimedean beat frequency with ultrametric proposals remains an open theoretical direction.
 
 ## Appendix A. Divergence report
@@ -361,27 +361,27 @@ The algebraic ownership framework also invites exploration of how decoherence, m
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**  
-Experimental teams that implement Dirac‑like Hamiltonians on quantum‑simulator platforms—cold‑atom ensembles with spin‑orbit coupling [2], tripod‑scheme laser‑atom setups [4], and trapped‑ion or solid‑state Dirac‑material analogues [1]—are the primary users. If the algebraic‑ownership claim is correct, these teams can replace heuristic trial‑and‑error design with a principled rule: to **induce** Zitterbewegung (ZB) they must prepare a wave packet that has non‑zero overlap with at least two energy eigenspaces of the effective Hamiltonian, and to **suppress** ZB they must filter the state into a single eigenspace. Moreover, the measured ZB frequency can be interpreted directly as the inter‑eigenspace energy gap via the universal conversion  
+**(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**
+Experimental teams that implement Dirac‑like Hamiltonians on quantum‑simulator platforms—cold‑atom ensembles with spin‑orbit coupling [2], tripod‑scheme laser‑atom setups [4], and trapped‑ion or solid‑state Dirac‑material analogues [1]—are the primary users. If the algebraic‑ownership claim is correct, these teams can replace heuristic trial‑and‑error design with a principled rule: to **induce** Zitterbewegung (ZB) they must prepare a wave packet that has non‑zero overlap with at least two energy eigenspaces of the effective Hamiltonian, and to **suppress** ZB they must filter the state into a single eigenspace. Moreover, the measured ZB frequency can be interpreted directly as the inter‑eigenspace energy gap via the universal conversion
 \[
 f = 2.418\times10^{14}\ \mathrm{Hz/eV}\times (E_{+}-E_{-}),
-\]  
+\]
 so that frequency spectroscopy replaces separate gap‑characterisation measurements.
 
-**(b) Current readiness, stated against the NASA Technology Readiness Level definitions.**  
+**(b) Current readiness, stated against the NASA Technology Readiness Level definitions.**
 The work is purely analytical, has not undergone peer review, and provides no hardware prototype; therefore it resides at **TRL 1–2** (observation of basic principles and formulation of the concept). Analytical extensions never exceed **TRL 3** because no experimental validation is included.
 
-**(c) The smallest next experiment, prototype, pilot or calculation that would de‑risk or falsify the result.**  
+**(c) The smallest next experiment, prototype, pilot or calculation that would de‑risk or falsify the result.**
 The minimal test can be carried out on an existing cold‑atom Dirac simulator that already realizes a two‑band Hamiltonian (e.g. the setup of [2] or [4]). The procedure is:
 
-1. **Prepare** a Gaussian wave packet with equal population in the positive‑ and negative‑energy bands.  
-2. **Measure** the centre‑of‑mass oscillation and extract the ordinary frequency \(f\). Using the known band gap \(\Delta\) (e.g. \(\Delta=0.1\ \mathrm{eV}\)) the beat‑frequency prediction is \(f_{\text{pred}} = 4.836\times10^{13}\ \mathrm{Hz}\) (Section 4, Step 5).  
-3. **Filter** the same preparation into a single band (e.g. by adiabatic ramping or band‑selective Raman transfer) and repeat the measurement.  
+1. **Prepare** a Gaussian wave packet with equal population in the positive‑ and negative‑energy bands.
+2. **Measure** the centre‑of‑mass oscillation and extract the ordinary frequency \(f\). Using the known band gap \(\Delta\) (e.g. \(\Delta=0.1\ \mathrm{eV}\)) the beat‑frequency prediction is \(f_{\text{pred}} = 4.836\times10^{13}\ \mathrm{Hz}\) (Section 4, Step 5).
+3. **Filter** the same preparation into a single band (e.g. by adiabatic ramping or band‑selective Raman transfer) and repeat the measurement.
 
 A **falsification** occurs if (i) the observed frequency deviates from \(f_{\text{pred}}\) beyond the quoted four‑figure precision, or (ii) a residual oscillation of comparable amplitude persists after single‑band filtering. Both outcomes would contradict the claim that ZB is exclusively a two‑eigenspace interference effect.
 
-**(d) Engineering, manufacturing or deployment constraints that would bind first.**  
-The de‑risking experiment is limited by:  
+**(d) Engineering, manufacturing or deployment constraints that would bind first.**
+The de‑risking experiment is limited by:
 
 | Constraint | Reason |
 |------------|--------|
@@ -392,10 +392,10 @@ The de‑risking experiment is limited by:
 
 These constraints arise directly from the arithmetic and spectral relations derived in Sections 3–4.
 
-**(e) Order‑of‑magnitude cost or performance bounds.**  
+**(e) Order‑of‑magnitude cost or performance bounds.**
 No cost or performance inputs are derived in the present analysis; consequently quantitative cost projections are omitted and identified as an open question for future engineering studies.
 
-**(f) Direct risks or misuse paths, where one exists.**  
+**(f) Direct risks or misuse paths, where one exists.**
 A potential misuse is the **misidentification of any high‑frequency oscillation** as Zitterbewegung without verifying the two‑eigenspace occupation condition. Such a mistake could lead to erroneous gap estimates or to the design of control protocols that target a non‑existent resource. The present criterion provides a safeguard: any claimed ZB observation must be accompanied by (i) evidence of coherent population in at least two eigenspaces and (ii) frequency agreement with the beat‑frequency formula.
 
 ## 8. Conclusion
@@ -403,10 +403,6 @@ A potential misuse is the **misidentification of any high‑frequency oscillatio
 The Zitterbewegung oscillation is owned by the algebra. From the single Clifford anticommutator $\{H,\alpha_j\}=2cp_j$ — derived from the relations, not from any representation — the exact operator solution $\alpha_j(t)=cp_jH^{-1}+Z_j e^{-2iHt/\hbar}$ follows, the position splits into drift, shift, and interference, and the observable oscillation occurs exactly when two eigenspaces are coherently populated, at the beat frequency $\omega_{\mathrm{ZB}}=(E_{+}-E_{-})/\hbar$. Calculus produces the solution, trigonometry notates it, and geometry only pictures it. The numerical consequences are concrete: $f_{0}=2.471\times10^{20}\,\mathrm{Hz}$ and amplitude $1.931\times10^{-13}\,\mathrm{m}$ for the rest‑frame electron, and $f=4.836\times10^{13}\,\mathrm{Hz}$ for an illustrative $0.1\,$eV‑gap Dirac material, with the universal conversion $f=2.418\times10^{14}\,\mathrm{Hz/eV}\times(E_{+}-E_{-})$. The claim converts ZB from a Dirac‑equation curiosity into a spectral diagnostic and a design rule — populate two eigenspaces to create it, filter to remove it — and it stands or falls on a single test: eigenspace‑filtered wave‑packet dynamics on an existing simulator platform.
 
 Future extensions of the hierarchy to curved‑spacetime backgrounds and interacting Hamiltonians are straightforward in principle: one only needs to verify that the anticommutator (3.1) or its analogue (3.5) holds for the modified velocity operators. **Assumption:** the Hamiltonian remains self‑adjoint with a discrete, non‑degenerate spectrum. Under this assumption the same beat‑frequency argument applies, predicting that any additional interaction‑induced energy splitting will appear as a corresponding ZB component, observable at the frequency set by the new gap via the conversion factor of Section 4. This projection invites experimental verification on platforms capable of engineering curvature‑analogous gauge fields or controlled many‑body interactions.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. new sections: Appendix A. Divergence report; Appendix B. Claim attribution. references 14 -> 9. length 5604 -> 4363 words.
 
 ## Provenance and AI Involvement
 

@@ -8,13 +8,13 @@ The feasibility of a single, explicitly constructible quantum object—a “Base
 
 Quantum hardware designers and theoretical physicists seeking a substrate that can host Standard‑Model‑like structure without presupposing particle primitives face a concrete obstacle: current superconducting processors cannot prepare and verify a candidate Base State at the 100‑qubit scale. The Tianyan‑287 processor’s gate and readout fidelities translate into a full‑register verification ceiling of only $25\%$, far below the $50\%$ threshold required to falsify the Base State hypothesis. If a hardware platform could achieve the derived readout fidelity of $F_{r}^{*}\approx0.9986$ (Section 4.8) while maintaining gate error rates, a structured Base State could be experimentally tested. This paper therefore addresses the following contributions:
 
-* **C1** – Derivation of per‑operation error rates and composite error summaries (Section 4.1).  
-* **C2** – Quantification of the Hilbert‑space dimension and the parameter‑counting compression gap (Section 4.2).  
-* **C3** – Calculation of the two‑qubit serial budget at $50\%$ aggregate fidelity (Section 4.3).  
-* **C4** – Determination of the full‑register readout fidelity ceiling (Section 4.4).  
-* **C5** – Evaluation of a representative 105‑qubit circuit fidelity (Section 4.5).  
-* **C6** – Projection of required readout fidelity for a representative circuit to meet the verification threshold (Section 4.8).  
-* **C7** – Presentation of a three‑stage falsification protocol (Section 3.4).  
+* **C1** – Derivation of per‑operation error rates and composite error summaries (Section 4.1).
+* **C2** – Quantification of the Hilbert‑space dimension and the parameter‑counting compression gap (Section 4.2).
+* **C3** – Calculation of the two‑qubit serial budget at $50\%$ aggregate fidelity (Section 4.3).
+* **C4** – Determination of the full‑register readout fidelity ceiling (Section 4.4).
+* **C5** – Evaluation of a representative 105‑qubit circuit fidelity (Section 4.5).
+* **C6** – Projection of required readout fidelity for a representative circuit to meet the verification threshold (Section 4.8).
+* **C7** – Presentation of a three‑stage falsification protocol (Section 3.4).
 
 ## 2. Background and Related Work
 
@@ -23,16 +23,6 @@ We review twelve supplied works and extract a specific methodological or technic
 **[1]** presents an evidence‑driven state‑merging (EDSM) algorithm for recovering finite‑state models from noisy data — a template for inferring a Base State’s equivalence classes from measurement statistics [1].
 
 We assume a 105‑qubit superconducting processor (Tianyan‑287) with single‑qubit, two‑qubit, and readout fidelities of $99.90\%$, $99.56\%$, and $98.7\%$, respectively; these assumed numbers constitute the sole quantitative hardware inputs for our audit, and no citation is attached to them.
-
-
-
-
-
-
-
-
-
-
 
 **[8]** introduces dagger Frobenius algebras as a categorical encoding of compositional structure [8]; this provides a formal language for expressing the compositional productivity condition of a Base State.
 
@@ -54,8 +44,8 @@ $$
 $$
 where $|\psi_{0}\rangle$ is normalized (or a density operator $\rho_{0}$ with $\operatorname{Tr}\rho_{0}=1$) and $\mathcal{R}$ is a declared readout map. The candidate **hosts** a target structure $\mathcal{T}$ (the Standard Model) if:
 
-1. **Preparation** – $|\psi_{0}\rangle$ is preparable from a product state by a circuit of finite depth.  
-2. **Verifiability** – there exists a statistical test whose pass probability exceeds a threshold $\theta$ for $|\psi_{0}\rangle$ and falls below $\theta$ for any declared alternative.  
+1. **Preparation** – $|\psi_{0}\rangle$ is preparable from a product state by a circuit of finite depth.
+2. **Verifiability** – there exists a statistical test whose pass probability exceeds a threshold $\theta$ for $|\psi_{0}\rangle$ and falls below $\theta$ for any declared alternative.
 3. **Compositional productivity** – admissible operations form a closed algebraic structure rich enough to encode the interaction pattern of $\mathcal{T}$; minimally the symmetry group $\mathcal{G}$ must contain a subgroup matching $SU(3)\times SU(2)\times U(1)$.
 
 The Lie‑algebra dimensions are $\dim SU(3)=8$, $\dim SU(2)=3$, $\dim U(1)=1$, giving a minimal gauge algebra dimension $d_{\mathcal{G}}=12$.
@@ -80,8 +70,8 @@ A pure state $|\psi\rangle\in\mathcal{H}_N$ is specified, up to global phase, by
 
 Following [1], we propose:
 
-* **Stage P (Preparation)** – Prepare $|\psi_{0}\rangle$ on the full register; record $n_{1},n_{2},n_{r}$.  
-* **Stage V (Verification)** – Run a statistical test with threshold $\theta=0.5$; the candidate fails if $F_{\mathrm{circ}}<\theta$.  
+* **Stage P (Preparation)** – Prepare $|\psi_{0}\rangle$ on the full register; record $n_{1},n_{2},n_{r}$.
+* **Stage V (Verification)** – Run a statistical test with threshold $\theta=0.5$; the candidate fails if $F_{\mathrm{circ}}<\theta$.
 * **Stage C (Composition)** – Demonstrate one non‑trivial closed composition (e.g., a teleportation‑grade transfer as in [3]).
 
 ## 4. Analysis
@@ -252,15 +242,15 @@ Hence achieving $\theta=0.5$ for this circuit class would require readout error 
 
 All quantitative statements below are direct outputs of Section 4.
 
-1. **Per‑operation errors** – $\epsilon_{1}=1.0\times10^{-3}$, $\epsilon_{2}=4.4\times10^{-3}$, $\epsilon_{r}=1.3\times10^{-2}$ (Section 4.1).  
-2. **Per‑operation summary** – $\bar{F}\approx99.39\%$, $P_{\mathrm{err}}\approx1.83\%$ (Section 4.1).  
-3. **Hilbert‑space size** – $D_{105}\approx4.056\times10^{31}$; generic pure state requires $2^{106}-2\approx8.113\times10^{31}$ reals (Section 4.2).  
-4. **Two‑qubit serial budget** – $n_{\max}=157$ (or $154$ with a final readout) (Section 4.3).  
-5. **Readout ceiling** – $F_{\mathrm{ro}}\approx0.2532$ (Section 4.4).  
-6. **Representative circuit fidelity** – $F_{\mathrm{circ}}\approx0.1467$ (Section 4.5).  
-7. **Gate headroom** – $\approx128$ combined layers with perfect readout; real readout consumes $1.98\times$ the $\theta=0.5$ budget (Section 4.6).  
-8. **Toy relational coverage** – $\phi\le0.3925$ (Section 4.7).  
-9. **Gauge algebra dimension** – $d_{\mathcal{G}}=12$ (Section 3.1).  
+1. **Per‑operation errors** – $\epsilon_{1}=1.0\times10^{-3}$, $\epsilon_{2}=4.4\times10^{-3}$, $\epsilon_{r}=1.3\times10^{-2}$ (Section 4.1).
+2. **Per‑operation summary** – $\bar{F}\approx99.39\%$, $P_{\mathrm{err}}\approx1.83\%$ (Section 4.1).
+3. **Hilbert‑space size** – $D_{105}\approx4.056\times10^{31}$; generic pure state requires $2^{106}-2\approx8.113\times10^{31}$ reals (Section 4.2).
+4. **Two‑qubit serial budget** – $n_{\max}=157$ (or $154$ with a final readout) (Section 4.3).
+5. **Readout ceiling** – $F_{\mathrm{ro}}\approx0.2532$ (Section 4.4).
+6. **Representative circuit fidelity** – $F_{\mathrm{circ}}\approx0.1467$ (Section 4.5).
+7. **Gate headroom** – $\approx128$ combined layers with perfect readout; real readout consumes $1.98\times$ the $\theta=0.5$ budget (Section 4.6).
+8. **Toy relational coverage** – $\phi\le0.3925$ (Section 4.7).
+9. **Gauge algebra dimension** – $d_{\mathcal{G}}=12$ (Section 3.1).
 10. **Projections** – $F_{2}^{400}\approx0.1714$ (best case) and $F_{r}^{*}\approx0.9986$ (required readout) (Section 4.8).
 
 **Status of the hypothesis.** Under the supplied hardware numbers and the $\theta=0.5$ threshold, the Base State hypothesis remains **unfalsified but unconfirmed**: no current platform can prepare and verify a structured candidate on the full register, yet no principle forbids it.
@@ -270,16 +260,16 @@ All quantitative statements below are direct outputs of Section 4.
 **Limitations of the audit.** The multiplicative error model ignores crosstalk, leakage, idle decay, and state‑preparation errors; consequently all fidelity numbers are optimistic upper bounds. Real hardware would likely perform worse, strengthening the qualitative conclusion that readout is the dominant bottleneck.
 
 **Falsifiers.** The program would be falsified if any of the following occurs:
-1. A structured, symmetry‑constrained family is proven incapable of embedding a $d_{\mathcal{G}}=12$ gauge algebra with the required closure.  
-2. Empirical studies demonstrate that readout fidelities cannot be improved beyond the current $0.987$ by any architectural technique (e.g., majority voting, repeated measurement).  
+1. A structured, symmetry‑constrained family is proven incapable of embedding a $d_{\mathcal{G}}=12$ gauge algebra with the required closure.
+2. Empirical studies demonstrate that readout fidelities cannot be improved beyond the current $0.987$ by any architectural technique (e.g., majority voting, repeated measurement).
 3. Model‑recovery methods akin to [1] are shown to require sample complexity scaling with $D_{105}$ rather than with a structured family size, rendering verification infeasible even with perfect gates.
 
 **What would strengthen the claim.** Demonstrating a closed composition (Stage C) on a structured candidate—e.g., a teleportation‑grade transfer of a non‑trivial relational state—would move the hypothesis from unfalsified toward testable.
 
-**Open questions.**  
-* How does symmetry constrain quantum state designs (open per [7])?  
-* Can the categorical framework of [8] express the full $SU(3)\times SU(2)\times U(1)$ gauge structure without particle ontology?  
-* How can circuit‑based excited‑state algorithms [5] be adapted to probe dynamics of a Base State?  
+**Open questions.**
+* How does symmetry constrain quantum state designs (open per [7])?
+* Can the categorical framework of [8] express the full $SU(3)\times SU(2)\times U(1)$ gauge structure without particle ontology?
+* How can circuit‑based excited‑state algorithms [5] be adapted to probe dynamics of a Base State?
 
 The QNFO entries [9]–[11] provide only positional context and do not contribute quantitative constraints.
 
@@ -291,10 +281,10 @@ The QNFO entries [9]–[11] provide only positional context and do not contribut
 
 **(c) Smallest next experiment.** A minimal pilot would measure the readout fidelity of a 105‑qubit register after applying error‑mitigation techniques (e.g., repeated measurement, majority voting). The experiment would aim to achieve $F_{r}^{\text{meas}}\ge0.9986$; failure to reach this value would falsify Projection 2 and thus falsify the feasibility of Stage V for the representative circuit.
 
-**(d) Engineering constraints.**  
-* **Readout fidelity** – current $0.987$ must be improved by an order of magnitude; this may require hardware redesign of resonators or quantum‑limited amplifiers.  
-* **Gate error independence** – the multiplicative model assumes uncorrelated errors; correlated noise would further reduce budget.  
-* **Circuit depth** – the gate‑budget headroom of $\approx128$ layers assumes perfect readout; any additional idle or decoherence time reduces this margin.  
+**(d) Engineering constraints.**
+* **Readout fidelity** – current $0.987$ must be improved by an order of magnitude; this may require hardware redesign of resonators or quantum‑limited amplifiers.
+* **Gate error independence** – the multiplicative model assumes uncorrelated errors; correlated noise would further reduce budget.
+* **Circuit depth** – the gate‑budget headroom of $\approx128$ layers assumes perfect readout; any additional idle or decoherence time reduces this margin.
 * **Scalability** – extending beyond 105 qubits multiplies the readout log‑budget, exacerbating the bottleneck.
 
 **(e) Projected cost/performance bounds.** Assuming a linear scaling of readout hardware cost with qubit count and a per‑qubit upgrade cost of \$10 k (an industry‑typical figure for superconducting readout chains), a 105‑qubit upgrade to achieve $F_{r}^{*}$ would cost on the order of \$1.05 M. This projection is labeled as an assumption‑based estimate and should be treated as a rough guide.
@@ -304,10 +294,6 @@ The QNFO entries [9]–[11] provide only positional context and do not contribut
 ## 8. Conclusion
 
 We defined a Base State as a preparable, verifiable, compositionally closed quantum object and audited its feasibility on an assumed 105‑qubit superconducting platform whose fidelity parameters are stated in Section 4. The audit reveals a compression gap of roughly thirty orders of magnitude between generic states and indexable states, a full‑register readout ceiling $F_{\mathrm{ro}}\approx0.2532$ against a verification threshold $\theta=0.5$, a two‑qubit serial budget of $157$ gates ($154$ with one readout), and a projected required readout fidelity $F_{r}^{*}\approx0.9986$. These are quantitative obstructions, not no‑go principles; improved hardware or architectural workarounds could relax them. The three‑stage falsification protocol and explicit falsifiers provide a concrete roadmap for future experimental tests. The Base State hypothesis thus remains an open, falsifiable research program.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 10. length 4763 -> 2854 words.
 
 ## Provenance and AI Involvement
 
