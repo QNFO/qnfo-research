@@ -1,18 +1,8 @@
----
-ISNI: 0000000526456062
-author: Rowan Brad Quni
-email: rowan.quni@qnfo.org
-website: http://qnfo.org
-ORCID: https://orcid.org/0009-0002-4317-5604
-robots: By accessing this content, you agree to https://qnfo.org/LICENSE. Non-commercial use only. Attribution required.
-DC.rights: https://qnfo.org/LICENSE. Users are bound by terms upon access.
-created: 2025-04-20T01:03:31Z
-modified: 2025-05-09T03:21:52Z
-title: 11 What Can We Know
-aliases: [Philosophy of Science]
----
+# Philosophy of Science
 
-# [[Philosophy of Science]]
+## Abstract
+
+Previous chapters have critically examined the foundations of modern physics, revealing deep challenges to our understanding of reality, substance, causality, structure, methodology, and even the process of scientific knowing itself. These challenges suggest limitations in our current scientific theories’ ability to represent the world adequately. This chapter shifts the focus slightly, addressing a related but distinct question: Are there inherent limits not just to specific scientific theories, but to our very systems of knowledge, logic, and formal reasoning themselves? Can any sufficiently complex system achieve complete self-description or prove its own foundations? This inquiry delves into the fascinating territory of Formal Systems, Self-Reference, and the profound limitations revealed by mathematical logic, most notably through Kurt Gödel’s Incompleteness Theorems and related paradoxes like Russell’s Paradox. We will define what constitutes a formal system amenable to such analysis and explore the rigorous arguments demonstrating inherent boundaries to proof, consistency verification, and computation. [...]
 
 # Chapter 11: What Can We Know? Gödel, Computation, Paradoxes, and the Limits of Formal Systems
 
@@ -79,9 +69,6 @@ Relating this back to the broader themes of this work, these formal limitations 
 Understanding these formal limits is crucial for a mature philosophy of science and a realistic epistemology. It cautions against unrealistic expectations of finality, absolute certainty, or complete formalization in our scientific endeavors. It highlights the potential gap between our formal descriptions (theories, models) and the reality they attempt to capture, suggesting that truth may always transcend proof within any given system. It underscores the importance of meta-theoretic reasoning, empirical grounding (in physics), and potentially non-formalizable intuition or insight in advancing knowledge beyond the strict confines of established formalisms. Knowing what we *can* know formally also helps delineate the boundaries where other modes of inquiry—empirical investigation, philosophical critique, conceptual innovation—become essential. The question “What can we know?” is thus answered, in part, by Gödel: within any powerful formal system, not everything true is provable, and the system’s own consistency cannot be internally secured, revealing fundamental boundaries to formalized knowledge.
 
 [[12 Where Do We Stand]]
-
-
-
 
 ## Verification and Computational Artifacts
 

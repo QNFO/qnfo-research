@@ -1,12 +1,4 @@
----
-title: "A Lower Bound on Energy Cost per Logical-Qubit Operation in Surface-Code Quantum Error Correction"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-09-03"
-license: "CC BY 4.0"
-doi: ""
-version: "2.0.1"
-status: "published"
----
+# A Lower Bound on Energy Cost per Logical-Qubit Operation in Surface-Code Quantum Error Correction
 
 ## Abstract
 
@@ -119,11 +111,6 @@ A convention-explicit energy model for the rotated surface code, with N_c = 2 d^
 [3] Lavasani, A., G. Zhu, and M. Barkeshli. 2019. "Universal logical gates with constant overhead: instantaneous Dehn twists for hyperbolic quantum codes." arXiv:1901.11029.
 
 [4] QNFO. 2025. "Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation." the QNFO archive. https://papers.qnfo.org/papers/thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation/.
-
-## Changelog
-
-- v2.0 (2026-09-03): all quantitative predictions computed by the deposited verification script; prior-work positioning added (Sections 2 and 6); HTML and PDF renderings added to the deposit; abstract rewritten with computed values, no deferred claims.
-- v1.0 (2026-09-03): initial short-form record.
 
 ## Verification
 
