@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/adaptive-thick-skin"
   },
   "declared": {
-    "version": "2.0.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "8e2c4c76c7e0e0a12138546208219396342f61807e8e480a650d9a9c440e5d8d",
       "bytes": 49220,
       "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "2216e17baa6940e1f8ed058f3f6b2a6612147e822fd4a44869a4dc658fda2bd9",
+      "bytes": 48752,
+      "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
       "git_commit": null
