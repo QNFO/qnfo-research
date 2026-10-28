@@ -26,8 +26,6 @@ Throughout we separate what is derived, what is computed from stated inputs, wha
 
 ## 2. Background and Related Work
 
-
-
 **Continuous-time QEC.** Reference [1] investigates continuous-time quantum error correction (CTQEC), in which both noise and error-correcting operations are processes continuous in time, based on continuous weak measurements and feedback, analyzed from the subsystem principle — the statement that protected information is identified with a subsystem $\mathcal{H}^{A}$ of the system Hilbert space such that a CPTP recovery map restores the reduced state after noise. Its outlook notes that constructing optimal CTQEC protocols remains open and that equilibrium code-space fidelity could be useful for assessing performance under non-Markovian decoherence. CTQEC is the nearest active foil to our proposal: it removes the discrete measurement circuit but retains the feedback loop, whereas a genuinely passive scheme would rely on the energy landscape of the encoding geometry alone.
 
 **Entanglement-assisted codes.** Reference [2] gives a self-contained introduction to entanglement-assisted quantum error-correcting codes (EAQECCs), in which the encoder may append not only ancillas but also ebits — pre-shared entanglement between sender and receiver — before the encoding unitary. Its conclusions state that this entanglement can increase either the communication rate or the number of correctable errors, and that the framework extends the stabilizer formalism while allowing quantum codes to be built from classical linear codes without the dual-containing constraint. The relevance here is structural: if ultrametric confinement fails for independent quantum errors, pre-shared entanglement across distant tree branches is one candidate mechanism for restoring correction capacity, and the EAQECC formalism of [2] is the language in which such a modification would be expressed.
@@ -238,11 +236,6 @@ The classical recursive threshold is genuine: the map $f$ iterated three times s
 ## 8. Conclusion
 
 We formalized a conjectured passive fault-tolerance scheme on the Bruhat–Tits tree, derived the barrier conjecture $E_{\text{barrier}}(d)=2^{d}\,\epsilon$ from the ultrametric cut structure, and analyzed the classical evidence by explicit computation: iterated eight-fold majority voting suppresses $p=0.4$ through $0.1736704$, $0.0055485$, and $2.905\times10^{-10}$ over three levels, confirming a genuine recursive threshold mechanism, while the reported zero-error result bounds the logical error probability only at $2.9957\times10^{-5}$ even for $N=10^{5}$ trials. The quantum question — whether the strong triangle inequality confines superposed and entangled error paths — remains open, stated as Hypothesis Q with explicit falsification criteria and a named smallest test: a classical Monte Carlo of the depolarizing channel on depth-$3$ versus depth-$4$ trees, whose outcome either transfers the threshold or kills the proposal. The contribution is a precise, testable formulation of the quantization gap, not a resolution of it.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.0.0 (2026-10-27, from 1.0.1): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 10. length 4552 -> 5854 words.
 
 ## Provenance and AI Involvement
 
