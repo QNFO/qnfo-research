@@ -2,10 +2,10 @@
 
 ## Abstract
 
-The conventional tower of number systems—\(\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}\subset\mathbb{C}\)—augmented by the \(p\)-adic fields \(\mathbb{Q}_{p}\) and the adele ring \(\mathbb{A}\) is usually presented as a sequence of completions without a unifying generative principle. Practitioners in physics, logic, and computer science lack a quantitative criterion for choosing among these systems, which leads to ad‑hoc model selection, ambiguous foundational arguments, and undocumented information loss when finite‑precision arithmetic is projected onto the continuum. This paper supplies a quantitative layer by defining a family of enclosure operators \(E_{i}\) that generate each stratum from a primitive mark and by introducing a loss functional  
+The conventional tower of number systems—\(\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}\subset\mathbb{C}\)—augmented by the \(p\)-adic fields \(\mathbb{Q}_{p}\) and the adele ring \(\mathbb{A}\) is usually presented as a sequence of completions without a unifying generative principle. Practitioners in physics, logic, and computer science lack a quantitative criterion for choosing among these systems, which leads to ad‑hoc model selection, ambiguous foundational arguments, and undocumented information loss when finite‑precision arithmetic is projected onto the continuum. This paper supplies a quantitative layer by defining a family of enclosure operators \(E_{i}\) that generate each stratum from a primitive mark and by introducing a loss functional
 \[
 \Lambda_{i\to j}(\text{params})=\log_{2}N_{i}(\text{params})-\log_{2}N_{j}(\text{params}),
-\]  
+\]
 where \(N_{i}\) counts distinguishable states in stratum \(S_{i}\). For the tree‑to‑continuum (Monna) projection we compute \(\Lambda_{6\to4}=7\) bits at depth \(n=10\), base \(p=2\) and real precision \(\varepsilon=2^{-3}\); we prove the exact linear law \(\Lambda_{6\to4}(n)=n-3\) at fixed \(\varepsilon\) and identify the loss‑free matching depth \(n=3\). Finite simultaneous‑valuation products over the primes \(\{2,3,5\}\) yield \(30\) states at depth 1 and \(900\) at depth 2. All numbers are derived by hand; no simulation or external measurement is used. The result converts a philosophical thesis into a family of falsifiable, countable claims and specifies the minimal computational experiment that would test them.
 
 ## 1. Introduction
@@ -16,11 +16,11 @@ The measurement‑stratigraphy program proposes that the history of number syste
 
 We posit a primitive mark \(M\) and a family of enclosure operators \(E_{i}\), each a closure‑type operator whose application to the previous stratum yields the next. For each stratum we state the minimal algebraic structure generated, the canonical map to the following stratum, and a distinguishable‑state count where a finite count exists. The counts support a loss functional, which we compute in full arithmetic for the tree‑to‑continuum cross‑stratum comparison. Four falsifiability conditions are stated so that a single counterexample kills the corresponding claim.
 
-**Contributions.**  
-1. Explicit state‑count derivations for the tally, real‑enclosure, and \(p\)-adic strata at finite depth, with every arithmetic step shown (Section 4, Derivations 1–3).  
-2. The corrected Monna cross‑stratum loss budget: \(\Lambda_{6\to4}=7\) bits at \((p=2,n=10,\varepsilon=2^{-3})\), the exact linear law \(\Lambda_{6\to4}(n)=n-3\) at fixed precision, the vanishing of the loss at matched depth \(n=3\), and the explicit reclassification of this quantity as cross‑stratum rather than adjacent‑stratum loss (Section 4, Derivations 4–5; Results R1–R2).  
-3. Finite simultaneous‑valuation product counts of \(30\) and \(900\) over the primes \(\{2,3,5\}\) at depths 1 and 2 (Section 4, Derivation 6).  
-4. The non‑dyadic no‑matching result: for \(p=3\) and \(\varepsilon=2^{-3}\) no integer depth yields zero loss because the required depth \(n=3/\log_{2}3\approx1.893\) is not an integer (Section 4, Derivation 7).  
+**Contributions.**
+1. Explicit state‑count derivations for the tally, real‑enclosure, and \(p\)-adic strata at finite depth, with every arithmetic step shown (Section 4, Derivations 1–3).
+2. The corrected Monna cross‑stratum loss budget: \(\Lambda_{6\to4}=7\) bits at \((p=2,n=10,\varepsilon=2^{-3})\), the exact linear law \(\Lambda_{6\to4}(n)=n-3\) at fixed precision, the vanishing of the loss at matched depth \(n=3\), and the explicit reclassification of this quantity as cross‑stratum rather than adjacent‑stratum loss (Section 4, Derivations 4–5; Results R1–R2).
+3. Finite simultaneous‑valuation product counts of \(30\) and \(900\) over the primes \(\{2,3,5\}\) at depths 1 and 2 (Section 4, Derivation 6).
+4. The non‑dyadic no‑matching result: for \(p=3\) and \(\varepsilon=2^{-3}\) no integer depth yields zero loss because the required depth \(n=3/\log_{2}3\approx1.893\) is not an integer (Section 4, Derivation 7).
 5. Four falsifiability conditions F1–F4 for the stratification, the loss functional, the operator list, and the adequacy of \(\Lambda\) (Section 3.4).
 
 ## 2. Background and Related Work
@@ -51,19 +51,19 @@ Together these works provide concrete instances of the operators, the state‑co
 
 ### 3.1 The mark and the distinction operation
 
-We begin with an undifferentiated mark \(M\) satisfying the idempotent law  
+We begin with an undifferentiated mark \(M\) satisfying the idempotent law
 \[
 MM = M,
-\]  
-the *Calling* rule of the Laws of Form calculus (assumed). A *distinction operation* \(D\) partitions a structure into distinguishable classes. An *enclosure operator* \(E\) is a closure‑type operator on structures satisfying  
+\]
+the *Calling* rule of the Laws of Form calculus (assumed). A *distinction operation* \(D\) partitions a structure into distinguishable classes. An *enclosure operator* \(E\) is a closure‑type operator on structures satisfying
 \[
 S\subseteq E(S),\qquad E(E(S))=E(S),\qquad S\subseteq T\;\Rightarrow\;E(S)\subseteq E(T).
 \]
 
-Each stratum is defined recursively as  
+Each stratum is defined recursively as
 \[
 S_{i}=E_{i}(S_{i-1}),\qquad i=1,\dots,7,
-\]  
+\]
 with the operators indexed by their target stratum.
 
 ### 3.2 The strata
@@ -83,125 +83,125 @@ The recovery claims that \(E_{4}\) yields \(\mathbb{R}\), \(E_{5}\) yields \(\ma
 
 ### 3.3 Morphisms and the loss functionals
 
-Between adjacent strata \(S_{i}\to S_{i+1}\) we take the canonical map induced by the operator. The *adjacent‑stratum information‑loss functional* is  
+Between adjacent strata \(S_{i}\to S_{i+1}\) we take the canonical map induced by the operator. The *adjacent‑stratum information‑loss functional* is
 \[
 \Lambda_{i\to i+1}(\text{params})=\log_{2}N_{i}(\text{params})-\log_{2}N_{i+1}(\text{params}),
-\]  
+\]
 the base‑2 logarithm of the ratio of distinguishable‑state counts.
 
-**Cross‑stratum loss functional.** For any ordered pair of strata \(i,j\) with finite counts we define  
+**Cross‑stratum loss functional.** For any ordered pair of strata \(i,j\) with finite counts we define
 \[
 \Lambda_{i\to j}(\text{params})=\log_{2}N_{i}(\text{params})-\log_{2}N_{j}(\text{params}),
-\]  
-which reduces to the adjacent‑stratum functional when \(j=i+1\). The Monna projection \(\pi_{M}\) maps a depth‑\(n\), base‑\(p\) tree (state count \(N_{6}(n)=p^{n}\)) onto a line at precision \(\varepsilon\) (state count \(N_{4}(\varepsilon)=1/\varepsilon\)); source and target are strata 6 and 4, which are not adjacent. Consequently the Monna loss is a *cross‑stratum* quantity  
+\]
+which reduces to the adjacent‑stratum functional when \(j=i+1\). The Monna projection \(\pi_{M}\) maps a depth‑\(n\), base‑\(p\) tree (state count \(N_{6}(n)=p^{n}\)) onto a line at precision \(\varepsilon\) (state count \(N_{4}(\varepsilon)=1/\varepsilon\)); source and target are strata 6 and 4, which are not adjacent. Consequently the Monna loss is a *cross‑stratum* quantity
 \[
 \Lambda_{\text{Monna}}(n,p,\varepsilon)=\Lambda_{6\to4}(n,p,\varepsilon)=n\log_{2}p-\log_{2}\!\bigl(1/\varepsilon\bigr).
 \]
 
 ### 3.4 Falsifiability conditions
 
-* **F1 (stratification).** Exhibit a number system in the historical sequence that no closure operator over the mark can generate.  
-* **F2 (loss functional).** Exhibit a projection whose state‑count loss decreases as the source is refined at fixed target precision.  
-* **F3 (operator list).** Exhibit a completion of \(\mathbb{Q}\) outside the list \(\{\mathbb{R},\mathbb{Q}_{p}:p\text{ prime}\}\). By Ostrowski’s theorem as stated in [7] every non‑trivial absolute value on \(\mathbb{Q}\) is equivalent either to the Archimedean one or to a \(p\)-adic one, so the theorem itself asserts that no such completion exists; F3 therefore functions as a consistency check on the operator list.  
+* **F1 (stratification).** Exhibit a number system in the historical sequence that no closure operator over the mark can generate.
+* **F2 (loss functional).** Exhibit a projection whose state‑count loss decreases as the source is refined at fixed target precision.
+* **F3 (operator list).** Exhibit a completion of \(\mathbb{Q}\) outside the list \(\{\mathbb{R},\mathbb{Q}_{p}:p\text{ prime}\}\). By Ostrowski’s theorem as stated in [7] every non‑trivial absolute value on \(\mathbb{Q}\) is equivalent either to the Archimedean one or to a \(p\)-adic one, so the theorem itself asserts that no such completion exists; F3 therefore functions as a consistency check on the operator list.
 * **F4 (\(\Lambda\) adequacy).** Exhibit two intuitively different projections with identical \(\Lambda\) but markedly different information content.
 
 ## 4. Analysis
 
 All inputs are either definitions of Section 3 or explicitly stated here; every arithmetic step is shown.
 
-**Input 1.** Tally depth \(n=9\). (Chosen parameter.)  
-**Input 2.** Prime \(p=2\), tree depth \(n=10\). (Chosen parameter.)  
-**Input 3.** Real precision \(\varepsilon=2^{-3}\) (unit interval partitioned into cells of width \(2^{-3}\)). (Chosen parameter.)  
-**Input 4.** Primes \(\{2,3,5\}\) for the finite adele‑type product. (Chosen parameter.)  
-**Input 5.** Prime \(p=3\) for the non‑dyadic analysis. (Chosen parameter.)  
+**Input 1.** Tally depth \(n=9\). (Chosen parameter.)
+**Input 2.** Prime \(p=2\), tree depth \(n=10\). (Chosen parameter.)
+**Input 3.** Real precision \(\varepsilon=2^{-3}\) (unit interval partitioned into cells of width \(2^{-3}\)). (Chosen parameter.)
+**Input 4.** Primes \(\{2,3,5\}\) for the finite adele‑type product. (Chosen parameter.)
+**Input 5.** Prime \(p=3\) for the non‑dyadic analysis. (Chosen parameter.)
 **Input 6.** Projection parameters for a non‑dyadic example: \(p=3\), \(n=5\), \(\varepsilon=10^{-2}\). (Assumed for illustration.)
 
 ### Derivation 1 (tally states)
 
-With \(n=9\) marks the distinguishable counts are \(\{0,1,\dots,9\}\), so  
+With \(n=9\) marks the distinguishable counts are \(\{0,1,\dots,9\}\), so
 \[
 N_{1}(9)=9+1=10.
 \]
 
 ### Derivation 2 (real‑enclosure states)
 
-The unit interval \([0,1]\) partitioned into cells of width \(\varepsilon=2^{-3}\) contains  
+The unit interval \([0,1]\) partitioned into cells of width \(\varepsilon=2^{-3}\) contains
 \[
 N_{4}(\varepsilon)=\frac{1}{\varepsilon}= \frac{1}{2^{-3}} = 2^{3}=8
-\]  
+\]
 distinguishable cells.
 
 ### Derivation 3 (\(p\)-adic tree states)
 
-The residue ring \(\mathbb{Z}/p^{n}\mathbb{Z}\) with \(p=2\), \(n=10\) has exactly  
+The residue ring \(\mathbb{Z}/p^{n}\mathbb{Z}\) with \(p=2\), \(n=10\) has exactly
 \[
 N_{6}(10)=2^{10}=1024
-\]  
+\]
 elements. Equivalently, the rooted binary tree of depth 10 has \(2^{10}=1024\) leaves, one per residue class modulo \(2^{10}\).
 
 ### Derivation 4 (Monna cross‑stratum loss)
 
-The Monna projection \(\pi_{M}\) maps the depth‑10 binary tree onto the real line at precision \(\varepsilon=2^{-3}\). As a cross‑stratum comparison \(\Lambda_{6\to4}\) we obtain  
+The Monna projection \(\pi_{M}\) maps the depth‑10 binary tree onto the real line at precision \(\varepsilon=2^{-3}\). As a cross‑stratum comparison \(\Lambda_{6\to4}\) we obtain
 \[
 \Lambda_{6\to4}= \log_{2}N_{6}(10)-\log_{2}N_{4}(\varepsilon)
 = \log_{2}(1024)-\log_{2}(8)=10-3=7.
-\]  
-Checking via the ratio form,  
+\]
+Checking via the ratio form,
 \[
 \Lambda_{6\to4}= \log_{2}\!\left(\frac{1024}{8}\right)=\log_{2}(128)=7,
-\]  
+\]
 and \(2^{7}=128\) confirms the ratio.
 
 ### Derivation 5 (linearity and vanishing)
 
-Fix \(\varepsilon=2^{-3}\) and vary depth \(n\). Since \(N_{6}(n)=2^{n}\) and \(N_{4}(\varepsilon)=2^{3}\),  
+Fix \(\varepsilon=2^{-3}\) and vary depth \(n\). Since \(N_{6}(n)=2^{n}\) and \(N_{4}(\varepsilon)=2^{3}\),
 \[
 \Lambda_{6\to4}(n)=\log_{2}(2^{n})-\log_{2}(2^{3})=n-3,
-\]  
-which is strictly increasing in \(n\). At \(n=3\) the loss is  
+\]
+which is strictly increasing in \(n\). At \(n=3\) the loss is
 \[
 \Lambda_{6\to4}(3)=3-3=0,
-\]  
+\]
 so the depth‑3 binary tree and the precision‑\(2^{-3}\) continuum have identical state counts \(2^{3}=8\) and the projection is loss‑free there.
 
 ### Derivation 6 (finite simultaneous‑valuation products)
 
-Take the primes \(\{2,3,5\}\). At depth 1 the simultaneous‑valuation state space is the product of residue rings \(\mathbb{Z}/2\mathbb{Z}\times\mathbb{Z}/3\mathbb{Z}\times\mathbb{Z}/5\mathbb{Z}\), with count  
+Take the primes \(\{2,3,5\}\). At depth 1 the simultaneous‑valuation state space is the product of residue rings \(\mathbb{Z}/2\mathbb{Z}\times\mathbb{Z}/3\mathbb{Z}\times\mathbb{Z}/5\mathbb{Z}\), with count
 \[
 N_{7}^{(1)}=2\cdot3\cdot5=30.
-\]  
-At depth 2 it is \(\mathbb{Z}/4\mathbb{Z}\times\mathbb{Z}/9\mathbb{Z}\times\mathbb{Z}/25\mathbb{Z}\), with count  
+\]
+At depth 2 it is \(\mathbb{Z}/4\mathbb{Z}\times\mathbb{Z}/9\mathbb{Z}\times\mathbb{Z}/25\mathbb{Z}\), with count
 \[
 N_{7}^{(2)}=4\cdot9\cdot25=900.
-\]  
+\]
 Both products are finite because each factor is finite; the Chinese remainder theorem makes the simultaneous residue classes independent, so the total count is the product of the individual counts.
 
 ### Derivation 7 (non‑dyadic no‑matching)
 
-Fix \(\varepsilon=2^{-3}\) and take \(p=3\). Zero loss requires  
+Fix \(\varepsilon=2^{-3}\) and take \(p=3\). Zero loss requires
 \[
 n\log_{2}3=\log_{2}(1/\varepsilon)=3,
-\]  
-so the required depth is  
+\]
+so the required depth is
 \[
 n=\frac{3}{\log_{2}3}.
-\]  
-We compute \(\log_{2}3=\ln 3/\ln 2\approx1.584963\), hence  
+\]
+We compute \(\log_{2}3=\ln 3/\ln 2\approx1.584963\), hence
 \[
 n\approx\frac{3}{1.584963}=1.892789\approx1.893.
-\]  
+\]
 Since \(n\) must be an integer depth, no integer solution exists; at \(n=1\) the loss is \(\Lambda_{6\to4}(1)=1.584963-3=-1.415037\) bits (the tree is coarser than the target), and at \(n=2\) it is \(\Lambda_{6\to4}(2)=3.169925-3=0.169925\) bits (the tree is already finer). The loss jumps across zero without vanishing.
 
 ### Derivation 8 (projected loss for a non‑dyadic example)
 
-Assume parameters \(p=3\), \(n=5\), \(\varepsilon=10^{-2}\). Then  
+Assume parameters \(p=3\), \(n=5\), \(\varepsilon=10^{-2}\). Then
 \[
 \log_{2}(1/\varepsilon)=\log_{2}100=\frac{\ln 100}{\ln 2}\approx6.643856,
-\]  
-and  
+\]
+and
 \[
 \Lambda_{6\to4}=5\log_{2}3-\log_{2}100\approx5\times1.584963-6.643856\approx1.280957\;\text{bits}.
-\]  
+\]
 We report this as a projection under the stated assumptions.
 
 ## 5. Results
@@ -221,10 +221,10 @@ All quantities below are obtained from the explicit derivations of Section 4; 
 | Non‑dyadic no‑matching depth (base 3) | No integer solution; required \(n\approx1.893\) | Derivation 7 |
 | Projected loss for \((p=3,n=5,\varepsilon=10^{-2})\) | \(\approx1.28\) bits | Derivation 8 |
 
-**Result R1.** The Monna cross‑stratum loss obeys the exact linear law  
+**Result R1.** The Monna cross‑stratum loss obeys the exact linear law
 \[
 \Lambda_{6\to4}(n)=n-3\;\text{bits}
-\]  
+\]
 for base \(p=2\) and precision \(\varepsilon=2^{-3}\); increasing the tree depth strictly increases the information loss relative to a fixed‑precision continuum target.
 
 **Result R2.** A loss‑free matching occurs at the dyadic pair \((n=3,\varepsilon=2^{-3})\), where the \(2\)-adic tree and the real interval have identical state counts (\(2^{3}=8\)). No integer depth yields zero loss for the non‑dyadic base \(p=3\) at the same precision.
@@ -234,59 +234,59 @@ for base \(p=2\) and precision \(\varepsilon=2^{-3}\); increasing the tree depth
 ## 6. Discussion
 
 ### Limitations
-* The recovery claims for strata 4, 5, and 7 remain conjectural; state‑count arithmetic is verified only for strata 0, 1, 3, and 6 at finite depth.  
-* The loss functional \(\Lambda\) counts *states* but not *structure*: two projections can destroy the same number of bits while destroying very different algebraic features (e.g., order versus branching).  
-* The Monna analysis assumes the tree is exactly a \(p\)-adic ball in state count; a more general tree‑like limit with a different branching profile would alter \(\Lambda\).  
-* The finite adele‑type product of Derivation 6 is a toy: the true adele ring is a restricted product including the real factor, and the count of 30 says nothing about its topology.  
+* The recovery claims for strata 4, 5, and 7 remain conjectural; state‑count arithmetic is verified only for strata 0, 1, 3, and 6 at finite depth.
+* The loss functional \(\Lambda\) counts *states* but not *structure*: two projections can destroy the same number of bits while destroying very different algebraic features (e.g., order versus branching).
+* The Monna analysis assumes the tree is exactly a \(p\)-adic ball in state count; a more general tree‑like limit with a different branching profile would alter \(\Lambda\).
+* The finite adele‑type product of Derivation 6 is a toy: the true adele ring is a restricted product including the real factor, and the count of 30 says nothing about its topology.
 * \(\Lambda\) is defined only for finite state counts; at infinite depth both source and target counts diverge, requiring renormalisation or a rate formulation.
 
 ### Failure modes
-* **Non‑canonical realizations.** The existence of many valid digit sets for a given base (e.g., \(\{1,2\}\) for base \(-2\)) shows that a single enclosure operator can admit multiple inequivalent concrete realizations; the operator, not the digit set, determines the stratum [5].  
-* **Operator‑list incompleteness.** Ostrowski’s theorem guarantees that every non‑trivial absolute value on \(\mathbb{Q}\) is equivalent either to the Archimedean absolute value or to a \(p\)-adic one [7]. If a number system in the historical sequence required a completion outside \(\{\mathbb{R},\mathbb{Q}_{p}:p\text{ prime}\}\), the present operator list would be incomplete, falsifying F3.  
+* **Non‑canonical realizations.** The existence of many valid digit sets for a given base (e.g., \(\{1,2\}\) for base \(-2\)) shows that a single enclosure operator can admit multiple inequivalent concrete realizations; the operator, not the digit set, determines the stratum [5].
+* **Operator‑list incompleteness.** Ostrowski’s theorem guarantees that every non‑trivial absolute value on \(\mathbb{Q}\) is equivalent either to the Archimedean absolute value or to a \(p\)-adic one [7]. If a number system in the historical sequence required a completion outside \(\{\mathbb{R},\mathbb{Q}_{p}:p\text{ prime}\}\), the present operator list would be incomplete, falsifying F3.
 * **\(\Lambda\) inadequacy.** Two intuitively different projections could share the same \(\Lambda\) value while differing dramatically in preserved structure, mirroring the failure of classical \(\beta\)-numbers in Carnot groups [2]; this would falsify F4 and motivate a stratified refinement of \(\Lambda\).
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Primary users and decision impact.**  
-Researchers who must choose a numeric representation for formal models—particularly in mathematical physics, constructive analysis, and exact‑arithmetic software—are the principal users of the loss functional $\Lambda$ and the state‑count formulas derived in Sections 4–5. When a simulation requires a target real precision $\varepsilon$, the user can compute the bit‑loss  
+**(a) Primary users and decision impact.**
+Researchers who must choose a numeric representation for formal models—particularly in mathematical physics, constructive analysis, and exact‑arithmetic software—are the principal users of the loss functional $\Lambda$ and the state‑count formulas derived in Sections 4–5. When a simulation requires a target real precision $\varepsilon$, the user can compute the bit‑loss
 \[
 \Lambda_{6\to4}(n,p,\varepsilon)=n\log_{2}p-\log_{2}\!\bigl(1/\varepsilon\bigr)
-\]  
+\]
 (Derivation 5) for any candidate $p$‑adic depth $n$. If $\Lambda_{6\to4}=0$, the $p$‑adic tree can replace the real interval without any information loss; the dyadic case $p=2$, $n=3$, $\varepsilon=2^{-3}$ provides the first such loss‑free matching (Result R2). Consequently, a modeler can decide to store data in a binary‑tree structure of depth 3 rather than in floating‑point format, thereby guaranteeing that no bits are discarded by the projection to $\mathbb{R}$.
 
-**(b) Technology readiness.**  
+**(b) Technology readiness.**
 The work is purely analytical, has not undergone peer review, and involves no hardware or software implementation. According to NASA’s Technology Readiness Level definitions, it resides at TRL 1–2 (basic principles observed). Analytical extensions never exceed TRL 3; therefore no claim of manufacturing or deployment readiness is made.
 
-**(c) Minimal next experiment.**  
+**(c) Minimal next experiment.**
 A concrete computational experiment that would falsify the monotonicity claim of F2 (that $\Lambda_{6\to4}(n)$ increases with $n$ for fixed $\varepsilon$) consists of the following steps, expressed conditionally:
 
-1. Generate the residue set $\mathbb{Z}/p^{n}\mathbb{Z}$ for a chosen odd prime $p$ (e.g., $p=3$) and depth $n\in\{1,2,3\}$.  
-2. Map each residue class to a sub‑interval of $[0,1]$ of width $\varepsilon$ (e.g., $\varepsilon=10^{-2}$) by a deterministic Monna‑type rule.  
-3. Count the number of distinct real cells $N_{4}(\varepsilon)=1/\varepsilon$ (Derivation 2) and compute the empirical loss $\Lambda_{\text{emp}}=\log_{2}N_{6}(n)-\log_{2}N_{4}(\varepsilon)$.  
-4. Compare $\Lambda_{\text{emp}}$ with the predicted value $\Lambda_{6\to4}=n\log_{2}p-\log_{2}(1/\varepsilon)$ (Derivation 5).  
+1. Generate the residue set $\mathbb{Z}/p^{n}\mathbb{Z}$ for a chosen odd prime $p$ (e.g., $p=3$) and depth $n\in\{1,2,3\}$.
+2. Map each residue class to a sub‑interval of $[0,1]$ of width $\varepsilon$ (e.g., $\varepsilon=10^{-2}$) by a deterministic Monna‑type rule.
+3. Count the number of distinct real cells $N_{4}(\varepsilon)=1/\varepsilon$ (Derivation 2) and compute the empirical loss $\Lambda_{\text{emp}}=\log_{2}N_{6}(n)-\log_{2}N_{4}(\varepsilon)$.
+4. Compare $\Lambda_{\text{emp}}$ with the predicted value $\Lambda_{6\to4}=n\log_{2}p-\log_{2}(1/\varepsilon)$ (Derivation 5).
 
 If for any $(p,n,\varepsilon)$ the measured loss deviates by more than $0.1$ bits from the predicted value, the linear law $\Lambda_{6\to4}(n)=n\log_{2}p-\log_{2}(1/\varepsilon)$ would be falsified, thereby invalidating F2.
 
-**(d) First‑order engineering constraints.**  
+**(d) First‑order engineering constraints.**
 
-*Data representation.*  The experiment requires storing $p^{n}$ residues; this imposes a memory requirement of at least $p^{n}$ integers (Derivation 3).  
+*Data representation.*  The experiment requires storing $p^{n}$ residues; this imposes a memory requirement of at least $p^{n}$ integers (Derivation 3).
 
-*Precision handling.*  The real target demands $1/\varepsilon$ cells; for $\varepsilon=10^{-2}$ this is $100$ cells (Derivation 2).  
+*Precision handling.*  The real target demands $1/\varepsilon$ cells; for $\varepsilon=10^{-2}$ this is $100$ cells (Derivation 2).
 
-*Computational throughput.*  Mapping each of the $p^{n}$ residues to a real cell entails $O(p^{n})$ elementary operations; runtime therefore scales linearly with $p^{n}$.  
+*Computational throughput.*  Mapping each of the $p^{n}$ residues to a real cell entails $O(p^{n})$ elementary operations; runtime therefore scales linearly with $p^{n}$.
 
-*Software tooling.*  Exact integer arithmetic (e.g., arbitrary‑precision libraries) is needed to avoid overflow when $p^{n}$ exceeds native word size.  
+*Software tooling.*  Exact integer arithmetic (e.g., arbitrary‑precision libraries) is needed to avoid overflow when $p^{n}$ exceeds native word size.
 
 All of these constraints follow directly from the state‑count formulas; any deviation would constitute an open question for future work.
 
-**(e) Projected cost and performance bounds (assumptions).**  
-Assume a single elementary mapping operation costs $c_{\text{op}}=10^{-6}\,\text{s}$ (typical for a modern CPU integer operation). The total runtime $T$ for depth $n$ and base $p$ is then  
+**(e) Projected cost and performance bounds (assumptions).**
+Assume a single elementary mapping operation costs $c_{\text{op}}=10^{-6}\,\text{s}$ (typical for a modern CPU integer operation). The total runtime $T$ for depth $n$ and base $p$ is then
 \[
 T = c_{\text{op}}\;p^{n}.
-\]  
+\]
 For the dyadic loss‑free case $p=2$, $n=3$ this yields $T \approx 10^{-6}\times2^{3}=8\times10^{-6}\,\text{s}$, well within interactive limits. For the non‑dyadic example $p=3$, $n=5$ the projection gives $T \approx 10^{-6}\times3^{5}=2.43\times10^{-4}\,\text{s}$. These figures are projections based on the arithmetic cost model and the state‑count $N_{6}(n)=p^{n}$; actual timings will depend on implementation details.
 
-**(f) Direct risks and misuse pathways.**  
+**(f) Direct risks and misuse pathways.**
 Treating the scalar loss $\Lambda$ as a complete measure of suitability for replacing a real‑valued representation ignores the structural differences highlighted in the Limitations (Section 6). Deploying a $p$‑adic data structure solely because it yields a lower $\Lambda$ could introduce hidden bugs in algorithms that rely on the order properties of $\mathbb{R}$. Moreover, the cost projection assumes idealised operation costs; real systems may exhibit latency spikes, memory fragmentation, or security vulnerabilities when handling large $p^{n}$ tables. Awareness of these risks is essential before any engineering adoption.
 
 ## 9. Conclusion
@@ -294,14 +294,6 @@ Treating the scalar loss $\Lambda$ as a complete measure of suitability for repl
 Overall, the stratified distinction approach offers a unifying lens for interpreting the emergence of classical number systems as successive information‑theoretic expansions of a primitive mark. By grounding each operator in explicit state‑count formulas and by exposing the quantitative trade‑offs through the loss functional $\Lambda$, the framework makes concrete predictions that can be tested in future computational or experimental settings. The methodology also suggests pathways for extending the hierarchy—such as incorporating non‑canonical digit encodings, exploring alternative branching structures in the tree‑to‑continuum projection, or refining $\Lambda$ with stratified $\beta$‑number techniques—to capture richer structural aspects beyond mere state counts. These extensions promise to deepen the connection between foundational mathematics and practical measurement, and to clarify the role of different completions of $\mathbb{Q}$ in both theoretical and applied contexts.
 
 The quantitative framework presented here opens avenues for systematic evaluation of number‑system choices in modeling and computation, allowing practitioners to balance precision, information loss, and implementation constraints in a principled manner.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 12 -> 11. length 4465 -> 3640 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 11 -> 11. length 3688 -> 3932 words.
-- Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 11 -> 14. length 4004 -> 4026 words.
-- Version 2.3.0 (2026-10-20, from 2.2.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 14 -> 11. length 4129 -> 4099 words.
-- Version 2.4.0 (2026-10-21, from 2.3.0): revised against the current literature, re-reviewed and re-verified. references 11 -> 10. length 4235 -> 3949 words.
 
 ## Provenance and AI Involvement
 

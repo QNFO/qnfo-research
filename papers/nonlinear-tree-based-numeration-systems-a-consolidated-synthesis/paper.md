@@ -1,11 +1,6 @@
-# Nonlinear Tree-Based Numeration Systems: Consolidated Synthesis
+# Nonlinear Tree-Based Numeration Systems: A Consolidated Synthesis
 
-**Author:** QNFO | **Date:** 2026-06-29
-**License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-
----
-
-## 0. Abstract
+## Abstract
 
 Positional notation — the ordinary decimal and binary systems that underlie all computation — is natively an ultrametric tree. The digit string is a path from root to leaf; the base is a branching factor; the distance between two numbers is the depth of their lowest common ancestor. This insight, formalized through the $b$-adic valuation $d(x,y)=b^{-v_b(x-y)}$, unifies five research threads — distance-dependent weighting (Rofa 2013), hereditary binary compression (Tarau 2013), rational base representation trees (Akiyama et al. 2018), automata-theoretic formalism (Charlier & Kreczman 2025, Lecomte & Rigo 2001), and historical/biological parallels (Chrisomalis 2010) — and opens extensions into tropical geometry, perfectoid spaces, quantum computing, and interface design. This document synthesizes the full investigation.
 
@@ -248,7 +243,3 @@ Pages: deep.qwav.tech, papers.qnfo.org
 ---
 
 *Synthesized from: five-thread deep-dive, extensions & future directions analysis, live Cloudflare infrastructure audit (28 Workers, ask-qwav v2.8, 109 papers), and the Ultrametric Foundation thesis.*
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.

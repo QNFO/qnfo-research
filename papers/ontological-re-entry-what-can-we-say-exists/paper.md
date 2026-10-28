@@ -11,9 +11,9 @@ Resource‑constrained agents—such as embedded AI controllers, low‑power sen
 This paper therefore asks: **what can a finite‑entropy observer legitimately claim exists, and what is the minimal physical cost of those claims?** We answer by constructing a finite‑distinction framework, deriving explicit counting bounds, and connecting them to Landauer’s erasure principle. The analysis reveals three concrete consequences: (1) the space of admissible existence predicates is astronomically larger than the set reachable by short formulas; (2) each maintained distinction incurs a non‑zero energy cost; (3) aggressive compression of the distinction space eliminates individual objects, leaving only coarse structure.
 
 The contributions are:
-1. A formal definition of a finite distinction space and of admissible existence predicates, with explicit counting bounds (Section 4, derived in Section 5).  
-2. A thermodynamic admissibility criterion derived from the erasure cost of distinctions [7] (Section 4.3, quantified in Section 5).  
-3. A definition of ontological re‑entry modeled on query rewriting against an ontology [1] (Section 4.4).  
+1. A formal definition of a finite distinction space and of admissible existence predicates, with explicit counting bounds (Section 4, derived in Section 5).
+2. A thermodynamic admissibility criterion derived from the erasure cost of distinctions [7] (Section 4.3, quantified in Section 5).
+3. A definition of ontological re‑entry modeled on query rewriting against an ontology [1] (Section 4.4).
 4. An analysis of failure modes, including false‑premise commitments observed for multimodal models [5] and definitional fragmentation documented for decentralization [8] (Section 5.6).
 
 ## 2. Background and Related Work
@@ -72,26 +72,26 @@ $$
 
 ### 3.1 Distinction spaces
 
-A **distinction space** is a pair \(D_{N}=(S_{N},d_{u})\) where  
+A **distinction space** is a pair \(D_{N}=(S_{N},d_{u})\) where
 
 \[
 S_{N}=\{0,1\}^{N}
 \]
 
-is the set of binary strings of length \(N\) and  
+is the set of binary strings of length \(N\) and
 
 \[
 d_{u}:S_{N}\times S_{N}\rightarrow\mathbb{Q}_{\ge 0}
 \]
 
-is an ultrametric satisfying  
+is an ultrametric satisfying
 
 \[
 d_{u}(x_{i},x_{j})\le\max\{d_{u}(x_{i},x_{k}),\,d_{u}(x_{k},x_{j})\}
 \quad\forall x_{i},x_{j},x_{k}\in S_{N}.
 \]
 
-Realising the geometry with a \(b\)-ary tree of depth \(L\) yields  
+Realising the geometry with a \(b\)-ary tree of depth \(L\) yields
 
 \[
 N = L\log_{2}b,\qquad |S_{N}| = b^{L}=2^{N}.
@@ -101,7 +101,7 @@ The ultrametric construction follows the standard hierarchical clustering used i
 
 ### 3.2 Admissible existence predicates and counting bound
 
-An **existence predicate** over \(D_{N}\) is a subset \(E\subseteq S_{N}\).  The predicate is **admissible** iff there exists a finite Boolean formula \(\varphi\) over the \(N\) base coordinates such that  
+An **existence predicate** over \(D_{N}\) is a subset \(E\subseteq S_{N}\).  The predicate is **admissible** iff there exists a finite Boolean formula \(\varphi\) over the \(N\) base coordinates such that
 
 \[
 E=\{x\in S_{N}\mid \varphi(x)=\text{true}\}.
@@ -109,7 +109,7 @@ E=\{x\in S_{N}\mid \varphi(x)=\text{true}\}.
 
 Two predicates are extensionally equivalent when they define the same subset of \(S_{N}\).
 
-**Proposition 3.1.** The number of extensionally distinct admissible predicates over \(D_{N}\) is exactly  
+**Proposition 3.1.** The number of extensionally distinct admissible predicates over \(D_{N}\) is exactly
 
 \[
 2^{2^{N}}.
@@ -121,7 +121,7 @@ The combinatorial explosion described in Proposition 3.1 underpins the need fo
 
 ### 3.3 Thermodynamic admissibility
 
-Landauer’s principle states that erasing a single bit at ambient temperature \(T_{\mathrm{env}}\) incurs a minimal energy cost  
+Landauer’s principle states that erasing a single bit at ambient temperature \(T_{\mathrm{env}}\) incurs a minimal energy cost
 
 \[
 E_{\mathrm{bit}} = k_{B}\,T_{\mathrm{env}}\,\ln 2,
@@ -129,14 +129,14 @@ E_{\mathrm{bit}} = k_{B}\,T_{\mathrm{env}}\,\ln 2,
 
 where \(k_{B}=1.380649\times10^{-23}\,\mathrm{J\,K^{-1}}\) [7].  In the computational‑energy literature, the cost of “forgetting” information is identified with this erasure energy [8].
 
-Consider an observer that cycles its memory at rate \(f_{\mathrm{cycle}}\) and erases \(N_{\mathrm{dist}}\) distinctions per cycle.  The **erasure power** is  
+Consider an observer that cycles its memory at rate \(f_{\mathrm{cycle}}\) and erases \(N_{\mathrm{dist}}\) distinctions per cycle.  The **erasure power** is
 
 \[
 P_{\mathrm{erase}} = f_{\mathrm{cycle}}\;N_{\mathrm{dist}}\;k_{B}\,T_{\mathrm{env}}\,\ln 2.
 \tag{1}
 \]
 
-If the observer must maintain \(N\) distinctions continuously over a coherence time \(\tau\), the available power budget \(P_{\mathrm{obs}}\) must satisfy  
+If the observer must maintain \(N\) distinctions continuously over a coherence time \(\tau\), the available power budget \(P_{\mathrm{obs}}\) must satisfy
 
 \[
 N \le \frac{P_{\mathrm{obs}}\;\tau}{k_{B}\,T_{\mathrm{env}}\,\ln 2}.
@@ -147,13 +147,13 @@ Equations (1)–(2) provide a hard thermodynamic ceiling on the number of dist
 
 ### 3.4 Ontological re‑entry as query rewriting
 
-Let \(\mathcal{O}\) be an ontology expressed in a high‑level vocabulary \(V_{\mathrm{high}}\).  A **re‑entry map**  
+Let \(\mathcal{O}\) be an ontology expressed in a high‑level vocabulary \(V_{\mathrm{high}}\).  A **re‑entry map**
 
 \[
 r:V_{\mathrm{high}}\longrightarrow\mathcal{P}(S_{N})
 \]
 
-assigns each high‑level predicate \(p\in V_{\mathrm{high}}\) an admissible existence predicate \(r(p)\subseteq S_{N}\).  The map is **lossless** when for any entailment \(p_{1}\models p_{2}\) in \(\mathcal{O}\) we have  
+assigns each high‑level predicate \(p\in V_{\mathrm{high}}\) an admissible existence predicate \(r(p)\subseteq S_{N}\).  The map is **lossless** when for any entailment \(p_{1}\models p_{2}\) in \(\mathcal{O}\) we have
 
 \[
 r(p_{1})\subseteq r(p_{2}).
@@ -165,31 +165,31 @@ This formalisation mirrors the query‑rewriting pipeline of ontological databas
 
 The analytical pipeline proceeds as follows:
 
-1. **Select distinction budget** \(N\) (e.g. \(N=64\) to model a 64‑bit processor).  
-2. **Enumerate admissible predicates** using Proposition 3.1 to obtain the total count \(2^{2^{N}}\).  
-3. **Restrict to short formulas** by fixing a literal bound \(L_{\max}\) (e.g. \(L_{\max}=9\)) and counting conjunctions  
+1. **Select distinction budget** \(N\) (e.g. \(N=64\) to model a 64‑bit processor).
+2. **Enumerate admissible predicates** using Proposition 3.1 to obtain the total count \(2^{2^{N}}\).
+3. **Restrict to short formulas** by fixing a literal bound \(L_{\max}\) (e.g. \(L_{\max}=9\)) and counting conjunctions
 
    \[
    N_{\text{short}}=\sum_{k=1}^{L_{\max}}\binom{N}{k}2^{k}.
    \tag{3}
    \]
 
-   The fraction of reachable predicates is then  
+   The fraction of reachable predicates is then
 
    \[
    f_{\text{reach}} = \frac{N_{\text{short}}}{2^{2^{N}}}.
    \tag{4}
    \]
 
-4. **Compute thermodynamic budget** using (1)–(2) for a chosen cycle rate \(f_{\text{cycle}}\) and observer power \(P_{\text{obs}}\).  
-5. **Apply ultrametric compression** by specifying a tree depth \(L\) and branching factor \(b\); the compression factor is  
+4. **Compute thermodynamic budget** using (1)–(2) for a chosen cycle rate \(f_{\text{cycle}}\) and observer power \(P_{\text{obs}}\).
+5. **Apply ultrametric compression** by specifying a tree depth \(L\) and branching factor \(b\); the compression factor is
 
    \[
    \kappa = \frac{b^{L_{\text{fine}}}}{b^{L_{\text{coarse}}}} = b^{L_{\text{fine}}-L_{\text{coarse}}}.
    \tag{5}
    \]
 
-   Assuming uniform random placement of \(m\) objects into the fine balls, the expected number of resolvable objects after merging is  
+   Assuming uniform random placement of \(m\) objects into the fine balls, the expected number of resolvable objects after merging is
 
    \[
    m_{\text{real}} = b^{L_{\text{coarse}}}\;\lambda e^{-\lambda},
@@ -200,7 +200,7 @@ The analytical pipeline proceeds as follows:
 
    This Poisson‑based estimate follows the occupancy analysis used in probabilistic ontology studies [9].
 
-6. **Identify unre‑enterable predicates** by comparing the precision required by a high‑level predicate (\(n_{\mathrm{prec}}\) bits) with the distinction budget \(N\).  Excess precision  
+6. **Identify unre‑enterable predicates** by comparing the precision required by a high‑level predicate (\(n_{\mathrm{prec}}\) bits) with the distinction budget \(N\).  Excess precision
 
    \[
    \Delta n = n_{\mathrm{prec}} - N
@@ -346,16 +346,16 @@ All numbers are derived directly from the arithmetic steps shown above; no exter
 
 The analytical pipeline yields the following concrete outcomes:
 
-1. **Combinatorial explosion of admissible predicates.**  
+1. **Combinatorial explosion of admissible predicates.**
    For a modest $N=64$ distinction budget the space of admissible existence predicates is astronomically large ($\approx10^{5.553\times10^{18}}$), yet only $1.53\times10^{13}$ of them are reachable by short Boolean formulas. The reachable fraction is effectively zero.
 
-2. **Thermodynamic floor for distinction maintenance.**  
+2. **Thermodynamic floor for distinction maintenance.**
    Erasing a single distinction at room temperature costs $2.87\times10^{-21}\,$J. Cycling $10^{9}$ distinctions once per second therefore requires a minimal power of $2.87\times10^{-12}\,$W. Scaling linearly, a nanowatt observer can sustain at most $3.48\times10^{8}$ distinctions per second (Eq. 4.5).
 
-3. **Compression‑induced ontology collapse.**  
+3. **Compression‑induced ontology collapse.**
    An ultrametric tree with $L=40$ levels ($N=40$) compresses $2^{30}$ fine balls into $2^{10}$ coarse balls, a factor of $1.05\times10^{6}$. Under uniform spreading of $10^{5}$ objects, the probability that any coarse ball contains exactly one object is $3.78\times10^{-41}$, yielding an expected number of resolvable objects essentially zero. Survival of individuals requires compression no deeper than level $r\approx23$, i.e. $b^{L-r}\gtrsim10^{5}$.
 
-4. **Resolution collapse threshold.**  
+4. **Resolution collapse threshold.**
    Any high‑level predicate demanding more than $N$ bits of precision (e.g. $n_{\mathrm{prec}}=100$) cannot be faithfully re‑entered; the excess $36$ bits cause unre‑enterability (Section 5.8).
 
 These results together define a quantitative bridge between ontological commitments, logical expressibility, and physical resource limits.
@@ -385,42 +385,42 @@ Other failure modes include:
 
 ### 7.3 Open questions
 
-* How does the framework extend to probabilistic ontologies where existence predicates are weighted rather than crisp sets?  
-* What are the implications for quantum‑computational models, where qubits encode superpositions rather than classical bits?  
+* How does the framework extend to probabilistic ontologies where existence predicates are weighted rather than crisp sets?
+* What are the implications for quantum‑computational models, where qubits encode superpositions rather than classical bits?
 * Can adaptive compression schemes (e.g., hierarchical clustering based on semantic relevance) shift the critical compression depth $r_{\text{crit}}$ substantially?
 
 ## 8. Practical Implications and Engineering Pathways
 
-### (a) Primary users and decision impact  
+### (a) Primary users and decision impact
 
-* **Embedded AI designers** (e.g., micro‑robotics, edge sensors) can use the derived $N_{\max}$ to decide how many binary features (object detections, state flags) a low‑power controller may maintain without exceeding its energy budget.  
-* **Ontology engineers** (e.g., developers of graph‑based ontologies for decentralization [8]) can assess whether a proposed high‑level classification scheme can be faithfully re‑entered given the target hardware’s distinction budget.  
+* **Embedded AI designers** (e.g., micro‑robotics, edge sensors) can use the derived $N_{\max}$ to decide how many binary features (object detections, state flags) a low‑power controller may maintain without exceeding its energy budget.
+* **Ontology engineers** (e.g., developers of graph‑based ontologies for decentralization [8]) can assess whether a proposed high‑level classification scheme can be faithfully re‑entered given the target hardware’s distinction budget.
 * **Legal‑domain system builders** (as in [3]) can evaluate whether their Retrieval‑Augmented Generation pipelines respect the distinction budget implied by their power envelope.
 
-### (b) Technology readiness  
+### (b) Technology readiness
 
 The present work is a purely analytical study that has not undergone peer review; according to NASA’s scale it resides at **TRL 2** (technology concept formulation).
 
-### (c) Minimal de‑risking experiment  
+### (c) Minimal de‑risking experiment
 
 A feasible pilot is to program a low‑power microcontroller (e.g., an ARM Cortex‑M0) to toggle a set of $N$ binary flags at a controlled rate $f_{\text{cycle}}$ while measuring its instantaneous power draw with a high‑resolution source‑meter. The experiment would:
 
-1. Vary $N$ from $10^{6}$ to $10^{9}$ and $f_{\text{cycle}}$ from $0.1$ Hz to $10$ Hz.  
-2. Compare the observed power $P_{\text{obs}}$ to the Landauer‑based prediction $P_{\text{erase}} = f_{\text{cycle}}\,N\,k_{B}T\ln2$.  
+1. Vary $N$ from $10^{6}$ to $10^{9}$ and $f_{\text{cycle}}$ from $0.1$ Hz to $10$ Hz.
+2. Compare the observed power $P_{\text{obs}}$ to the Landauer‑based prediction $P_{\text{erase}} = f_{\text{cycle}}\,N\,k_{B}T\ln2$.
 
 If $P_{\text{obs}}$ consistently exceeds the prediction by orders of magnitude, the model’s quantitative relevance for engineering design is confirmed; a deviation where $P_{\text{obs}}$ falls *below* the prediction would falsify the thermodynamic admissibility criterion.
 
-### (d) Engineering constraints  
+### (d) Engineering constraints
 
-* **Measurement precision**: Detecting power at the picowatt level ($10^{-12}$ W) requires specialized instrumentation; otherwise the experiment cannot resolve the Landauer floor.  
-* **Clock stability**: Accurate control of $f_{\text{cycle}}$ is needed to ensure the erasure rate matches the theoretical model.  
-* **Memory architecture**: The distinction bits must be stored in volatile memory that is refreshed each cycle; otherwise the erasure cost is not incurred as modeled.  
+* **Measurement precision**: Detecting power at the picowatt level ($10^{-12}$ W) requires specialized instrumentation; otherwise the experiment cannot resolve the Landauer floor.
+* **Clock stability**: Accurate control of $f_{\text{cycle}}$ is needed to ensure the erasure rate matches the theoretical model.
+* **Memory architecture**: The distinction bits must be stored in volatile memory that is refreshed each cycle; otherwise the erasure cost is not incurred as modeled.
 
 These constraints are directly derived from the equations in Section 5.
 
-### (e) Order‑of‑magnitude projections  
+### (e) Order‑of‑magnitude projections
 
-Assuming an ideal reversible implementation (no erasures) and a nanowatt power budget, Eq. 4.5 projects a maximal distinction throughput of  
+Assuming an ideal reversible implementation (no erasures) and a nanowatt power budget, Eq. 4.5 projects a maximal distinction throughput of
 
 \[
 N_{\max}\approx3.48\times10^{8}\;\text{bits s}^{-1}.
@@ -428,9 +428,9 @@ N_{\max}\approx3.48\times10^{8}\;\text{bits s}^{-1}.
 
 Conversely, a realistic microcontroller operating at $10^{-9}$ W would support only $\sim3.5\times10^{5}$ bits s$^{-1}$, illustrating the steep gap between the theoretical limit and practical devices.
 
-### (f) Risks and misuse  
+### (f) Risks and misuse
 
-* **Ontological over‑assertion**: Engineers might be tempted to claim existence of fine‑grained entities without verifying that their hardware satisfies the derived distinction budget, leading to brittle systems that fail under power constraints.  
+* **Ontological over‑assertion**: Engineers might be tempted to claim existence of fine‑grained entities without verifying that their hardware satisfies the derived distinction budget, leading to brittle systems that fail under power constraints.
 * **Security implications**: An adversary could deliberately overload a low‑power device’s distinction budget (e.g., by forcing excessive state updates) to induce denial‑of‑service, exploiting the linear relationship between $N$ and $P_{\text{erase}}$.
 
 Mitigation strategies include incorporating budget checks into system‑level design tools and enforcing conservative safety margins.
@@ -439,18 +439,11 @@ Mitigation strategies include incorporating budget checks into system‑level de
 
 By formalizing ontology as a set of admissible predicates over a finite‑distinction space, we have linked logical expressibility, combinatorial explosion, and thermodynamic cost. The analysis shows that:
 
-* The space of admissible existence claims grows doubly exponentially with the number of binary distinctions, yet syntactically reachable predicates form a vanishingly small subset.  
-* Maintaining or erasing distinctions incurs an unavoidable energy cost given by Landauer’s principle; this yields a hard upper bound on the number of distinctions a low‑power observer can sustain.  
+* The space of admissible existence claims grows doubly exponentially with the number of binary distinctions, yet syntactically reachable predicates form a vanishingly small subset.
+* Maintaining or erasing distinctions incurs an unavoidable energy cost given by Landauer’s principle; this yields a hard upper bound on the number of distinctions a low‑power observer can sustain.
 * Aggressive compression of the distinction space collapses individual objects, leaving only coarse structure as ontologically viable.
 
 These findings provide a quantitative criterion for when re‑entry is physically admissible and suggest concrete engineering checks for resource‑constrained systems. Future work should explore probabilistic ontologies, quantum‑computational extensions, and empirical validation of the thermodynamic bounds.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Results; Discussion; Practical Implications and Engineering Pathways; Conclusion; Appendix A. Divergence report; Appendix B. Claim attribution. references 12 -> 10. length 3939 -> 3867 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix B. Claim attribution; Appendix B. Claim attribution. references 10 -> 9. length 3910 -> 3366 words.
-- Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples; Appendix B. Claim attribution. references 9 -> 12. length 3445 -> 4616 words.
-- Version 2.3.0 (2026-10-21, from 2.2.0): revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 12 -> 9. length 4730 -> 4164 words.
 
 ## Provenance and AI Involvement
 
