@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "topological-extension-hypothesis",
+  "paper": {
+    "path": "papers/topological-extension-hypothesis/paper.md",
+    "title": "Topological Extension Hypothesis",
+    "url": "https://papers.qnfo.org/papers/topological-extension-hypothesis"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "topological-extension-hypothesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "a8244185b5f47632ae23eff24e5e91946f21ee84a55146489f0ca14de3cabd27",
+      "bytes": 93346,
+      "recorded_at": "2026-10-28",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
