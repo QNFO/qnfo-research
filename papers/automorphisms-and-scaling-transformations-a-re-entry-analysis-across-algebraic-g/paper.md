@@ -396,10 +396,6 @@ If a direct computation of $D\,\phi_{\mathrm{uni}}\,D^{-1}$ for $D=\operatorname
 
 We have introduced a three‑part conjugation test that determines when a scaling transformation acts trivially, centralizes, or rescales parameters of an automorphism. Explicit arithmetic shows that anisotropic dilations rescale shear coefficients by the ratio of diagonal entries, scalar dilations act trivially, and Jacobian determinants are invariant under diagonal conjugation. In the Cayley–Dickson tower the count of associative quaternion rings grows by a factor of $5$, with a per‑doubling exponent of $\log_{2}5$ and a density growth factor of $2.5$. Cone combinatorics at Picard number two exhibit a universal involution, and pure symmetric outer automorphisms admit a generator count of $n(n-1)$ plus a product of factor automorphism groups. Discrete‑scaling rigidity follows from Euler’s totient function, linking number‑theoretic bounds to scaling behavior. The framework is limited to linear settings and low‑dimensional cones, and its predictions are falsifiable by direct symbolic computation. Future work will explore extensions to non‑linear automorphisms, higher Picard numbers, and automated integration into symbolic‑computation pipelines.
 
-## Version History
-
-- Version 2.1.0 (2026-10-20, from 2.0.0): revised against the current literature, re-reviewed and re-verified. references 9 -> 12. length 6386 -> 4906 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.30.0-refs-extend). Language models were tools in that process; they are not authors. The named author is accountable for the content.
