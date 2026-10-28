@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantifying-structural-unification-and-epistemic-scaffolding-in-scientific-progress",
+  "paper": {
+    "path": "papers/quantifying-structural-unification-and-epistemic-scaffolding-in-scientific-progress/paper.md",
+    "title": "Quantifying Structural Unification and Epistemic Scaffolding in Scientific Progress",
+    "url": "https://papers.qnfo.org/papers/quantifying-structural-unification-and-epistemic-scaffolding-in-scientific-progress"
+  },
+  "declared": {
+    "version": "2.1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantifying-structural-unification-and-epistemic-scaffolding-in-scientific-progress"
+  },
+  "snapshots": [
+    {
+      "sha256": "6eb060eb725b1b7681dc92d0f70938b5cf22786fce847e52292033c655ba8671",
+      "bytes": 88354,
+      "recorded_at": "2026-10-28",
+      "basis": "deposit",
+      "version": "2.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
