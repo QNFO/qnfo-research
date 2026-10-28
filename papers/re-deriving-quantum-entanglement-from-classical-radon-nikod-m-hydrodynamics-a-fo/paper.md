@@ -9,10 +9,10 @@ Engineers designing quantum‑network hardware and protocol designers optimizing
 Engineers designing quantum‑network hardware and protocol designers optimizing entanglement distribution must treat multipartite entanglement as a scarce physical resource that enables secret sharing, distributed sensing, and fault‑tolerant computation. The practical problem is that Bell‑violating correlations impose stringent constraints on any underlying local‑realist description: a protocol whose correctness proof assumes GHZ‑type statistics cannot be re‑implemented on a substrate whose correlations obey classical bounds. If the Hydrodynamic Stability Hypothesis (HSH) were correct, it would provide a local‑realist, classical‑measure‑theoretic foundation for these resources, eliminating the need for non‑local explanations and potentially simplifying network‑level design. The decision that changes with the result is whether researchers invest effort in a classical re‑derivation of entangled statistics, and if so which axiom of such a derivation they should expect to give up first. A falsification that identifies the specific axiom(s) under strain converts an open philosophical program into a bounded engineering decision.
 
 Our contributions are:
-1. Formalization of the strong form of HSH as four minimal axioms (Section 3.1).  
-2. Derivation of the quantum GHZ stabilizer values and the classical pointwise product constraint \(P_{1}P_{2}P_{3}P_{4}=+1\) from the axioms, with full arithmetic (Sections 4.1–4.2).  
-3. Quantitative Mermin and CHSH violation analysis, with violation factors \(2\) and \(\sqrt{2}\approx1.414214\) (Sections 4.3–4.4).  
-4. A complete four‑branch fork of axiom relaxations that follows from the incompatibility (Section 4.5).  
+1. Formalization of the strong form of HSH as four minimal axioms (Section 3.1).
+2. Derivation of the quantum GHZ stabilizer values and the classical pointwise product constraint \(P_{1}P_{2}P_{3}P_{4}=+1\) from the axioms, with full arithmetic (Sections 4.1–4.2).
+3. Quantitative Mermin and CHSH violation analysis, with violation factors \(2\) and \(\sqrt{2}\approx1.414214\) (Sections 4.3–4.4).
+4. A complete four‑branch fork of axiom relaxations that follows from the incompatibility (Section 4.5).
 5. A labeled projection of the temporal resolution required for particle‑tracking simulations of the locality claim, conditional on stated assumptions (Section 4.6).
 
 ## 2. Background and Related Work
@@ -161,18 +161,18 @@ The derivation establishes that the conjunction
 \]
 is incompatible with the GHZ stabilizer statistics. The complete fork of consistent relaxations is:
 
-1. **Relax A2 (locality of response functions).** Allow the outcome functions \(A_{i}\) to depend on distant settings, thereby abandoning local realism in its response‑function form.  
-2. **Relax A4 (setting freedom).** Permit correlations between \(\lambda\) and the measurement settings (superdeterminism), which would remove the single‑distribution assumption used to promote the pointwise identity to the observed correlations.  
-3. **Relax A1 (classical probability grounding).** Replace the Kolmogorov measure space with a non‑classical probability structure, abandoning the Radon–Nikodým grounding that defines HSH.  
+1. **Relax A2 (locality of response functions).** Allow the outcome functions \(A_{i}\) to depend on distant settings, thereby abandoning local realism in its response‑function form.
+2. **Relax A4 (setting freedom).** Permit correlations between \(\lambda\) and the measurement settings (superdeterminism), which would remove the single‑distribution assumption used to promote the pointwise identity to the observed correlations.
+3. **Relax A1 (classical probability grounding).** Replace the Kolmogorov measure space with a non‑classical probability structure, abandoning the Radon–Nikodým grounding that defines HSH.
 4. **Retain all four axioms and accept contradiction.** Concede that the model cannot reproduce the GHZ stabilizer values, i.e., that it is empirically refuted on these correlations.
 
 Every branch falsifies the strong claim that HSH simultaneously satisfies A1–A4 and reproduces GHZ statistics. The verdict therefore identifies an incompatibility of the conjunction, not a unique culprit axiom, and the choice among branches is a research decision rather than a derivation.
 
 ### 4.6 Simulation timescale projection (explicitly labeled projection)
 
-**Assumptions.**  
-(P1) The transport speed is bounded by \(v_{\max}=c=3.0\times10^{8}\ \mathrm{m\,s^{-1}}\).  
-(P2) The spatial barrier width is \(L=1.0\times10^{-3}\ \mathrm{m}\) (laboratory scale).  
+**Assumptions.**
+(P1) The transport speed is bounded by \(v_{\max}=c=3.0\times10^{8}\ \mathrm{m\,s^{-1}}\).
+(P2) The spatial barrier width is \(L=1.0\times10^{-3}\ \mathrm{m}\) (laboratory scale).
 (P3) The simulation timestep must be at most one‑tenth of the propagation time (a resolution convention), applied uniformly to all barrier widths.
 
 **Derivation.** Minimum propagation time:
@@ -209,29 +209,29 @@ These projections are conditional on P1–P3 and establish the temporal resoluti
 
 All quantitative statements below follow directly from the arithmetic in Section 4.
 
-1. **Quantum GHZ correlations** (Section 4.1): \(\langle XXX\rangle_{Q}=+1\); \(\langle XYY\rangle_{Q}=\langle YXY\rangle_{Q}=\langle YYX\rangle_{Q}=-1\).  
-2. **Classical pointwise constraint** (Section 4.2): \(P_{1}P_{2}P_{3}P_{4}=+1\) pointwise (consequence of A2 alone); with A4 this yields \(\langle P_{1}P_{2}P_{3}P_{4}\rangle_{\mu}=+1\), conflicting with the quantum product \(-1\).  
-3. **Mermin bound** (Section 4.3): classical \(M_{\mathrm{LHV}}=2\); quantum \(M_{\mathrm{Q}}=4\); violation factor \(2\).  
-4. **CHSH bound** (Section 4.4): classical bound \(2\); quantum maximum \(2\sqrt{2}\approx2.828427\); violation factor \(\sqrt{2}\approx1.414214\).  
-5. **Falsification verdict** (Section 4.5): the conjunction of A1–A4 is incompatible with the GHZ stabilizer statistics; the fork of consistent relaxations has four branches (relax A2, relax A4, relax A1, or retain all and accept empirical refutation).  
+1. **Quantum GHZ correlations** (Section 4.1): \(\langle XXX\rangle_{Q}=+1\); \(\langle XYY\rangle_{Q}=\langle YXY\rangle_{Q}=\langle YYX\rangle_{Q}=-1\).
+2. **Classical pointwise constraint** (Section 4.2): \(P_{1}P_{2}P_{3}P_{4}=+1\) pointwise (consequence of A2 alone); with A4 this yields \(\langle P_{1}P_{2}P_{3}P_{4}\rangle_{\mu}=+1\), conflicting with the quantum product \(-1\).
+3. **Mermin bound** (Section 4.3): classical \(M_{\mathrm{LHV}}=2\); quantum \(M_{\mathrm{Q}}=4\); violation factor \(2\).
+4. **CHSH bound** (Section 4.4): classical bound \(2\); quantum maximum \(2\sqrt{2}\approx2.828427\); violation factor \(\sqrt{2}\approx1.414214\).
+5. **Falsification verdict** (Section 4.5): the conjunction of A1–A4 is incompatible with the GHZ stabilizer statistics; the fork of consistent relaxations has four branches (relax A2, relax A4, relax A1, or retain all and accept empirical refutation).
 6. **Simulation timescale projections** (Section 4.6, conditional on P1–P3): for \(L=1.0\times10^{-3}\ \mathrm{m}\), \(t_{\min}=3.333333\times10^{-12}\ \mathrm{s}\), \(\Delta t\le3.333333\times10^{-13}\ \mathrm{s}\), \(N_{\mathrm{steps}}=10\); for \(L=1.0\ \mathrm{m}\) under the same convention, \(t_{\min}=3.333333\times10^{-9}\ \mathrm{s}\), \(\Delta t\le3.333333\times10^{-10}\ \mathrm{s}\), \(N_{\mathrm{steps}}=10\); under the alternative fixed‑timestep convention, \(N_{\mathrm{steps}}=1.0000001\times10^{4}\approx1.0\times10^{4}\) for \(L=1.0\ \mathrm{m}\), the excess above \(10^{4}\) reflecting the rounding of the fixed timestep to \(3.333333\times10^{-13}\ \mathrm{s}\). In general under P3, \(t_{\min}=L/v_{\max}\), \(\Delta t\le t_{\min}/10\), \(N_{\mathrm{steps}}=10\) for every \(L\).
 
 ## 6. Discussion
 
 **Scope of the falsification.** The derivation shows that the strong claim of HSH—local classical measure theory reproducing GHZ‑type Bell‑violating correlations—is untenable as a conjunction. It does not identify a unique axiom that must be abandoned, and it does not address weaker versions that relax A2, reinterpret locality at the level of the flow \(\Phi_{t}\), or restrict the claim to states and measurements outside the GHZ stabilizer set.
 
-**Potential escapes.**  
-1. The formalization A1–A4 is our own interpretation; [10] does not publish a numbered axiom list, so an alternative formalization might locate the failure elsewhere. Any such formalization must still reproduce the four stabilizer values, and the counting argument of Section 4.2 applies to any model with local binary response functions and a setting‑independent hidden‑variable distribution.  
-2. Stochastic response functions do not escape: the identity \(P_{1}P_{2}P_{3}P_{4}=+1\) holds pointwise for every assignment of the six local outcomes, so averaging over any distribution preserves it.  
+**Potential escapes.**
+1. The formalization A1–A4 is our own interpretation; [10] does not publish a numbered axiom list, so an alternative formalization might locate the failure elsewhere. Any such formalization must still reproduce the four stabilizer values, and the counting argument of Section 4.2 applies to any model with local binary response functions and a setting‑independent hidden‑variable distribution.
+2. Stochastic response functions do not escape: the identity \(P_{1}P_{2}P_{3}P_{4}=+1\) holds pointwise for every assignment of the six local outcomes, so averaging over any distribution preserves it.
 3. The connection between basins of attraction (A3) and the Born rule is not derived here; a separate probabilistic mechanism might alter the mapping from \(\rho_{\psi}\) to observed frequencies, but it cannot change the algebraic constraint, which precedes any frequency mapping.
 
 **What would falsify the present result.** The central claim is the incompatibility of A1–A4 with the GHZ stabilizer statistics. A single concrete counterexample would overturn it: an explicit construction of local deterministic (or stochastic) response functions \(A_{i}(\lambda_{i},s_{i})\) on a classical probability space, with a setting‑independent \(\lambda\)‑distribution, that reproduce all four stabilizer values \(\langle XXX\rangle=+1\), \(\langle XYY\rangle=\langle YXY\rangle=\langle YYX\rangle=-1\). Equivalently, any demonstration that the pointwise product \(P_{1}P_{2}P_{3}P_{4}\) can equal \(-1\) for some assignment of six binary local outcomes would invalidate the counting argument, since the argument rests on each outcome appearing exactly twice in the product. Absent such a construction, the algebra is closed: six factors, each squared, is an identity in \(\{-1,+1\}^{6}\).
 
-**Limitations.**  
-- The formalization A1–A4 is an interpretation of [10]; a different formalization could shift which axiom bears the contradiction, though not the existence of a contradiction for any local‑response, setting‑free model.  
-- The timescale projections depend on the assumed barrier width \(L\) and the generous speed bound \(v_{\max}=c\); other parameter choices scale the numbers linearly, and P3’s one‑tenth rule is a resolution convention, not a physical law. The projections are not requirements of every particle‑tracking simulation.  
-- The analysis treats only the four GHZ stabilizer measurements; other settings (e.g., \(YYY\)) are omitted because they do not affect the contradiction.  
-- The derivation assumes binary outcomes \(\pm1\); extensions to higher‑dimensional outcomes are not considered.  
+**Limitations.**
+- The formalization A1–A4 is an interpretation of [10]; a different formalization could shift which axiom bears the contradiction, though not the existence of a contradiction for any local‑response, setting‑free model.
+- The timescale projections depend on the assumed barrier width \(L\) and the generous speed bound \(v_{\max}=c\); other parameter choices scale the numbers linearly, and P3’s one‑tenth rule is a resolution convention, not a physical law. The projections are not requirements of every particle‑tracking simulation.
+- The analysis treats only the four GHZ stabilizer measurements; other settings (e.g., \(YYY\)) are omitted because they do not affect the contradiction.
+- The derivation assumes binary outcomes \(\pm1\); extensions to higher‑dimensional outcomes are not considered.
 - The CHSH cross‑check is a restatement of the Bell constraint for convex mixtures of factorized local models, as embodied in the Correlation History theorem of [11]; it does not constitute a new theorem.
 
 **Failure modes.** If a construction of local deterministic (or stochastic) response functions satisfying A1–A4 and reproducing all four stabilizer values were exhibited, the pointwise product argument would be invalidated, falsifying the present falsification. Likewise, an empirical demonstration that the GHZ stabilizer statistics admit a local stochastic model with \(\langle P_{1}P_{2}P_{3}P_{4}\rangle_{\mu}=-1\) would overturn the argument.
@@ -255,13 +255,6 @@ All quantitative statements below follow directly from the arithmetic in Section
 ## 8. Conclusion
 
 By formalizing the Hydrodynamic Stability Hypothesis as four minimal axioms and deriving the algebraic pointwise product constraint \(P_{1}P_{2}P_{3}P_{4}=+1\), we have shown that the hypothesis cannot simultaneously satisfy locality, measurement‑setting freedom, and reproduce the GHZ stabilizer statistics of quantum mechanics. The resulting Mermin and CHSH violations quantify the gap between the classical bound and quantum predictions. Projection of the required simulation timescales clarifies the engineering demands of any particle‑tracking test of the hypothesis. The strong, local‑realist version of HSH is therefore falsified; any viable classical re‑grounding must relax at least one of the axioms.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 8. length 4794 -> 3079 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix B. Claim attribution. references 8 -> 9. length 3115 -> 3593 words.
-- Version 2.2.0 (2026-10-21, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples; Appendix A. Divergence. sections folded or removed: Appendix A. Divergence report. references 9 -> 9. length 3661 -> 4099 words.
-- Version 2.3.0 (2026-10-21, from 2.2.0): revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report. sections folded or removed: Extended Derivations and Worked Examples; Appendix A. Divergence. references 9 -> 11. length 4209 -> 3745 words.
 
 ## Provenance and AI Involvement
 

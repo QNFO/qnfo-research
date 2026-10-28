@@ -41,8 +41,6 @@ Seven works frame this analysis; each contributes a specific method, result, or 
 
 **[7] The prior reconciled analysis.** This work asks whether the re-entry form of the calculus of indications can simultaneously function as a binary prohibition law, reconciling three independent analyses that produced different formal conventions by adopting the strictest as primary [7]. Its results section reports exactly the counts re-derived here: $1$ of $4$ unary laws satisfies the prohibition condition, the unique law has no fixed point and period $T_{2} = 2$, exactly $2$ of $27$ ternary laws satisfy it (the two $3$-cycles, each of period $3$), the density ratio is $27/8 = 3.375$, and the entropy increment is $\log_{2} 3 - 1 = 0.5849625$ bits. Its discussion states that the primary impossibility result is definitional, not empirical, and that a different reading of "prohibition law" changes the result class entirely, since the forbidden-word model admits settled configurations such as the all-zeros sequence. The present paper re-derives these numbers with every arithmetic step shown, adds the applied reading, and states the falsification conditions explicitly.
 
-
-
 ## 3. Methods
 
 ### 3.1 Formal objects (primary convention)
