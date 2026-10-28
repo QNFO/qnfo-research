@@ -127,10 +127,6 @@ A natural generalization considers $\mathbb{Z}_n$ parafermion zero modes, which 
 
 We have shown that the braid group representation on $N$ anyons constrains the modular data of a non-Abelian topological order up to finite gauge ambiguity, but does not uniquely determine the global $S$-matrix without specifying the underlying spin structure. For Majorana zero modes in 2D topological superconductors, the braid representation $\rho(\sigma_i) = \frac{1}{\sqrt{2}}(1 + \gamma_{i+1}\gamma_i)$ uniquely fixes the local $F$ and $R$ symbols of the Ising category, thereby determining the $T$-matrix. The fusion rules are rigidly classified as Ising type ($\sigma \times \sigma = 1 + \psi$), and no alternative non-Abelian fusion rules are consistent with the Majorana Clifford algebra and the super-modular structure. The global $S$-matrix, however, depends on the spin structure of the underlying manifold, reflecting the fermionic nature of the topological order. This distinction between local braiding data and global modular data is a fundamental feature of fermionic topological phases and has direct implications for topological quantum computation and interferometric probes of anyonic statistics.
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 [1] M. Freedman, M. Larsen, and Z. Wang, "A Modular Functor Which is Universal for Quantum Computation," Commun. Math. Phys. 227, 605 (2002). arXiv:quant-ph/0001108.
