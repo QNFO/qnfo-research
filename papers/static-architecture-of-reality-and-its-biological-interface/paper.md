@@ -156,10 +156,6 @@ The paper's central interpretive claim is that the extremal architectures of the
 
 This paper remediated three errata in [5] — the retracted corpus-scan claim, the overstrong exact-identity claim, and the unsupported status table — by withdrawing what lacked reproducible support, replacing it with explicitly labeled assumptions and a three-tier taxonomy (exact identity, shared universality class, structural analogy), and relabeling the dependent status entries as working judgments. It added a quantitative worked example drawn from [1]: full derivations of the extremal internal-vertex counts $m = (n-2)/2$ (even $n$) and $m = (n-1)/2$ (odd $n$) for the $M_1$-minimal trees, verification of the bounds $M_1 \geq 9n - 16$ (even $n$) and $M_1 \geq 9n - 15$ (odd $n$) by direct computation at $n = 10$ ($M_1 = 74$) and $n = 9$ ($M_1 = 66$), evaluation of the $M_2$ bound $M_2 \geq 11n - 27$ at $n = 8, 9, 10, 12$ ($61, 72, 83, 105$), and the observation that at $n = 9$ both optimization problems are compatible with extremal trees of $m = 4$ internal vertices and $N = 13$ vertices. The convergence reading of that observation is offered as a falsifiable interpretation, with the simultaneous-extremal enumeration of Section 7 as its decisive test. The paper's lasting contribution is methodological: a convergence claim is only as strong as the tier it is honestly assigned, and a self-audit is only as good as the reproducible procedure behind it.
 
-## Version History
-
-- Version 2.0.0 (2026-10-28, from 1.0.0): rewritten in full through the research pipeline. new sections: Abstract; Introduction; Background and Related Work; Methods; Analysis; Results. sections folded or removed: §1. Introduction: What; §2. The; §3.; §4. Gallery of; §5. The; §6. The Superdeterministic. references 0 -> 5. length 5954 -> 7111 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.39.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

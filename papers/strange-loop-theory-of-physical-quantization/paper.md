@@ -1,14 +1,8 @@
-## The Strange
-Loop Theory of Physical Quantization
+# Strange Loop Theory of Physical Quantization
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers **Publication Date:** 2025-10-22
-**Version:** 1.0
+## Abstract
 
-**Abstract:** Starting from a single axiom—the Principle
+Starting from a single axiom—the Principle
 of Informational Stability—this theory derives the necessity of a
 self-referential (strange loop) topology, demonstrating that physical
 reality, with its quantized properties and computational dynamics, is
@@ -441,8 +435,6 @@ structure to have a fixed-point property.
 **Conclusion:** Any viable stability mechanism must be
 a self-referential topological structure with integer-valued invariants
 and a guaranteed fixed point.
-
-
 
 ### References
 

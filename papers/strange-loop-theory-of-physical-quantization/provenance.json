@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/strange-loop-theory-of-physical-quantization"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "affd5f8b050febbf58a9dbbd11d5429ea50d5e4551393748f5a1e08e8a4032bb",
       "bytes": 20185,
       "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "d62b7524c1d61e362add7463669cd3601f8fb25ba0a184bba75c5e3d686a402f",
+      "bytes": 19934,
+      "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
       "git_commit": null
