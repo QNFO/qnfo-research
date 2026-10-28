@@ -199,10 +199,6 @@ The Monte Carlo protocol of Section 3.4 is proposed but not executed; no simulat
 
 We have formulated a thermodynamic feasibility limit for actively corrected gate-based quantum computing: a critical qubit count $N_c$ at which Kapitza-limited heat extraction can no longer balance QEC-driven dissipation, beyond which decoherence is thermally enforced regardless of code distance. Under explicitly stated assumptions we computed $N_c = 390$ for a quadratic-overhead model and $N_c \approx 738$ for an exponential-overhead model, with all arithmetic shown, together with sensitivities ($190$; $3{,}990$), logical-qubit budgets ($15$ at $d=5$; $7$ at $d=7$), and a stability bound ($4 \times 10^{-7}\ \mathrm{W\,K^{-1}}$ per qubit). The conjecture is falsifiable through measurement of its input parameters and through the proposed Monte Carlo microenvironment protocol. If it survives, the scalability debate shifts from algorithmic overhead to heat-flow physics, and passive topological substrates become not an alternative implementation but the only thermodynamically consistent route past the threshold.
 
-## Version History
-
-- Version 2.0.1 (2026-10-19, from 2.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - The drafting, reconciliation, review, revision, and checking of this paper were proposed to be performed by the QNFO automated research pipeline (qnfo-research-exec 0.18.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
