@@ -1,33 +1,8 @@
----
-author: Rowan Brad Quni
-email: rowan.quni@qnfo.org
-website: http://qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-robots: By accessing this content, you agree to https://qnfo.org/LICENSE. Non-commercial use only. Attribution required.
-DC.rights: https://qnfo.org/LICENSE. Users are bound by terms upon access.
-modified: 2025-09-27T10:59:50Z
-title: Proton Football
-aliases:
-  - Proton Football
----
+# Proton Football
 
-# “Proton Football”
+## Abstract
 
-## Epistemological Schism and the Transmogrification of Modern Particle Physics
-
-**How the “God Particle” Was Demoted to Just a “Mechanism” in the *Standard Model of Particle Physics***
-
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO
-**Contact:** rowan.quni@qnfo.org
-**ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062
-**URL:** https://papers.qnfo.org/papers
-**Publication Date:** 2025-09-27
-**Version:** 2.0.0
-
----
+How the “God Particle” Was Demoted to Just a “Mechanism” in the Standard Model of Particle Physics*** A profound epistemological schism exists at the foundation of contemporary high-energy physics: a systemic conflict between its operational reality as a relativistic quantum field theory and the particle-centric narrative used for institutional branding, public communication, and pedagogical framing. This dissonance is not a superficial matter of semantics but an ontological inconsistency that fosters methodological hypocrisy, distorts public understanding, and contributes to the current crisis of falsifiability in theoretical physics. The analysis of this schism begins with the formal duality of the Standard Model, contrasting its rigorous field-theoretic structure with the historically and pragmatically entrenched language of particles, a conflict exemplified by institutional outreach efforts that prioritize intuitive but obsolete classical models over the counter-intuitive but accurate principles of quantum field theory.
 
 ### 1. Epistemological Schism Between Quantum Field Reality and Particle-Centric Narrative
 
@@ -186,11 +161,6 @@ To pay down the epistemological debt created by misleading narratives, instituti
 The experience of the naturalness crisis and the failure of the particle-hunting paradigm mandate a set of non-negotiable principles for the construction of any true successor theory to the Standard Model. These principles demand completeness, closure, and structural integrity. A successor theory must provide a complete ontology that resolves the most profound omissions of the Standard Model, including the integration of a consistent, testable theory of quantum gravity and a first-principles, non-anthropic explanation for the cosmological dark sector. A true fundamental theory should not be riddled with arbitrary numbers that must be measured by experiment. It must achieve explanatory closure by deriving its own parameters from internal consistency, including an ab initio derivation of all fundamental constants and mass hierarchies, thereby eliminating the 19+ arbitrary free parameters of the Standard Model. Finally, the successor theory must resolve the hierarchy problem and other fine-tuning puzzles through an intrinsic, structural mechanism that restores technical naturalness, possessing an intrinsic protection of all scalar masses from large radiative corrections without recourse to fine-tuning or anthropic arguments.
 
 ---
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
-
 
 ## References
 

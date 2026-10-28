@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/proton-football"
   },
   "declared": {
-    "version": "2.0.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": "2.0.0",
       "git_commit": "45e67cdb862323b127b8f0ab5b97f41933e16d77"
+    },
+    {
+      "sha256": "58d8236941ffa8adbe288c50f72c7c861994b28015e729f2edcd1af7e4f8b71e",
+      "bytes": 46168,
+      "recorded_at": "2026-10-28",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []
