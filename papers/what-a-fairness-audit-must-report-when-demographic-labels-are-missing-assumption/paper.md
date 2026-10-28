@@ -2,10 +2,10 @@
 
 ## Abstract
 
-Fairness audits of machine‑learning systems publish group‑level rates such as selection rates, yet the protected labels required for those rates are often missing for a substantial fraction of the audited population, and no settled rule dictates what an audit must disclose in that case. The practical gap is that an oversight reader cannot determine from the published numbers whether the reported rate would survive, shrink, or reverse if the unlabeled records were labeled. This paper closes the gap with an assumption‑free worst‑case analysis. For any published rate we derive the exact interval  
+Fairness audits of machine‑learning systems publish group‑level rates such as selection rates, yet the protected labels required for those rates are often missing for a substantial fraction of the audited population, and no settled rule dictates what an audit must disclose in that case. The practical gap is that an oversight reader cannot determine from the published numbers whether the reported rate would survive, shrink, or reverse if the unlabeled records were labeled. This paper closes the gap with an assumption‑free worst‑case analysis. For any published rate we derive the exact interval
 \[
 [\hat{p}(1-m),\ \hat{p}(1-m)+m]
-\]  
+\]
 containing the full‑population rate under any pattern of missingness, where \(\hat{p}\) is the labeled‑subset rate and \(m\) the missing‑label fraction; the interval width equals \(m\) exactly. For a two‑group disparity the assumption‑free interval has width \(m_{1}+m_{2}\), independent of the rates: a reported gap of \(0.10\) with missingness rates \(0.6\) and \(0.5\) is compatible with any true gap in \([-0.475,\ 0.625]\). We also derive a determinacy rule—certification of a threshold \(\delta_{\min}\) is impossible exactly when the shifted threshold \(\delta_{\min}+p_{B}\) lies inside \([p_{\min,A},\,p_{\max,A}]\), while \(m<\delta_{\min}\) guarantees that some certification is possible whatever the point estimate. In a mixed‑completeness example with \(n=1000\), \(k=800\), \(\hat{p}_{A}=0.30\) and a fully labeled comparison rate of \(0.35\), the rate interval is \([0.24,\ 0.44]\), the four‑fifths ratio interval is \([0.686,\ 1.257]\), the verdict is indeterminate, and under an expected‑case outcome‑rate assumption the label‑recovery target is \(134\) labels. The framework converts incomplete labels from an unstated caveat into a computed, reportable quantity with a concrete remediation target.
 
 ## 1. Introduction
@@ -16,12 +16,12 @@ If the gap were closed, the oversight reader would see, next to every published 
 
 The paper builds that disclosure rule from first principles and adopts a deliberately conservative stance. No assumption is made about the mechanism that causes labels to be missing—neither missing‑at‑random nor ignorable nor adversarial—because in the audit setting the missingness may be precisely what an adversarial or negligent process produces. Instead worst‑case bounds are computed over all assignments of the unlabeled records; the bounds depend only on two numbers the audit already has, the labeled fraction and the observed rate among labeled records. The worst case is tight, so the intervals reported are the narrowest any assumption‑free method can give; any narrower interval would smuggle in an assumption about missingness that the audit must then state and defend. The price of this conservatism is width, and a second contribution quantifies that price so an audit designer can decide when assumption‑free reporting is informative and when it is not.
 
-**Contributions.**  
-- An exact worst‑case interval \([\hat{r}_{g}(1-m_{g}),\ \hat{r}_{g}(1-m_{g})+m_{g}]\) containing any group’s full‑population rate given its labeled‑subset rate \(\hat{r}_{g}\) and missingness rate \(m_{g}\), with width exactly \(m_{g}\) (Section 4.1).  
-- The result that the width of the assumption‑free interval on a two‑group disparity equals \(m_{1}+m_{2}\), independent of the rates, with the worked example \([-0.475,\ 0.625]\) for a reported gap of \(0.10\) (Section 4.2).  
-- A determinacy rule—certification of a threshold \(\delta_{\min}\) is impossible exactly when \(\delta_{\min}+p_{B}\) lies inside \([p_{\min,A},\,p_{\max,A}]\), with \(m<\delta_{\min}\) sufficient for some certification whatever the point estimate—and a shortcut condition \(\hat{g}>m_{1}+m_{2}\) that guarantees a positive disparity (Section 4.3), together with the exact necessary‑and‑sufficient condition and a counter‑example showing the shortcut is not necessary (Section 4.4).  
-- A worked numerical audit in the mixed‑completeness case: for \(n=1000\), \(k=800\), \(\hat{p}_{A}=0.30\) against a fully labeled comparison rate of \(0.35\), the rate interval is \([0.24,\ 0.44]\), the four‑fifths ratio interval is \([0.686,\ 1.257]\), the verdict is indeterminate, and under an expected‑case outcome‑rate assumption the label‑recovery target is \(134\) labels (Section 4.5).  
-- A combined treatment of missingness and finite‑sample binomial error, showing that at near‑complete labeling (\(m_{1}=m_{2}=0.02\), \(n_{g}=980\)) sampling contributes a half‑width of approximately \(0.0313\) against a missingness half‑width of \(0.01\), and that at \(m=0.2\) missingness contributes roughly \(3.1\) times more uncertainty than sampling (Section 4.6).  
+**Contributions.**
+- An exact worst‑case interval \([\hat{r}_{g}(1-m_{g}),\ \hat{r}_{g}(1-m_{g})+m_{g}]\) containing any group’s full‑population rate given its labeled‑subset rate \(\hat{r}_{g}\) and missingness rate \(m_{g}\), with width exactly \(m_{g}\) (Section 4.1).
+- The result that the width of the assumption‑free interval on a two‑group disparity equals \(m_{1}+m_{2}\), independent of the rates, with the worked example \([-0.475,\ 0.625]\) for a reported gap of \(0.10\) (Section 4.2).
+- A determinacy rule—certification of a threshold \(\delta_{\min}\) is impossible exactly when \(\delta_{\min}+p_{B}\) lies inside \([p_{\min,A},\,p_{\max,A}]\), with \(m<\delta_{\min}\) sufficient for some certification whatever the point estimate—and a shortcut condition \(\hat{g}>m_{1}+m_{2}\) that guarantees a positive disparity (Section 4.3), together with the exact necessary‑and‑sufficient condition and a counter‑example showing the shortcut is not necessary (Section 4.4).
+- A worked numerical audit in the mixed‑completeness case: for \(n=1000\), \(k=800\), \(\hat{p}_{A}=0.30\) against a fully labeled comparison rate of \(0.35\), the rate interval is \([0.24,\ 0.44]\), the four‑fifths ratio interval is \([0.686,\ 1.257]\), the verdict is indeterminate, and under an expected‑case outcome‑rate assumption the label‑recovery target is \(134\) labels (Section 4.5).
+- A combined treatment of missingness and finite‑sample binomial error, showing that at near‑complete labeling (\(m_{1}=m_{2}=0.02\), \(n_{g}=980\)) sampling contributes a half‑width of approximately \(0.0313\) against a missingness half‑width of \(0.01\), and that at \(m=0.2\) missingness contributes roughly \(3.1\) times more uncertainty than sampling (Section 4.6).
 - A disclosure checklist specifying the minimum set of numbers an audit must publish when labels are incomplete (Section 5) and a discussion of practical implications (Section 7).
 
 ## 2. Background and Related Work
@@ -48,18 +48,18 @@ Across these works, none computes a certifiability threshold for group rates und
 
 An audit covers a population of \(n\) records partitioned into protected groups \(g=1,\dots,G\); the two‑group case carries the derivations and the extension to more groups is by repetition. Each record has an outcome \(Y\in\{0,1\}\) used by the audit (e.g., selected or not selected) and, in principle, a group label. For group \(g\),
 
-- \(N_{g}\) is the true number of records belonging to group \(g\);  
-- \(n_{g}\le N_{g}\) is the number with a usable label;  
+- \(N_{g}\) is the true number of records belonging to group \(g\);
+- \(n_{g}\le N_{g}\) is the number with a usable label;
 - \(k_{g}\) is the number of labeled records with outcome \(1\).
 
-Define the missingness rate and the labeled‑subset outcome rate as  
+Define the missingness rate and the labeled‑subset outcome rate as
 
 \[
 m_{g}=1-\frac{n_{g}}{N_{g}},\qquad
 \hat{r}_{g}=\frac{k_{g}}{n_{g}}.
 \]
 
-The quantity of interest to an oversight reader is the full‑population rate  
+The quantity of interest to an oversight reader is the full‑population rate
 
 \[
 r_{g}=\frac{\text{outcome‑1 records in group }g}{N_{g}}.
@@ -77,10 +77,10 @@ No assumption is made about which records are unlabeled or why. Formally, the au
 
 Under the framework, an audit with incomplete labels publishes, for each group rate:
 
-1. the point estimate \(\hat{r}_{g}\) on labeled records;  
-2. the missing‑label fraction (\(m_{g}\) in the known‑group‑size regime, \(m\) in the pooled regime);  
-3. the worst‑case interval \([r_{\min,g},\,r_{\max,g}]\) derived in Section 4.1;  
-4. a determinacy verdict for each disparity threshold \(\delta_{\min}\) of interest (Section 4.3);  
+1. the point estimate \(\hat{r}_{g}\) on labeled records;
+2. the missing‑label fraction (\(m_{g}\) in the known‑group‑size regime, \(m\) in the pooled regime);
+3. the worst‑case interval \([r_{\min,g},\,r_{\max,g}]\) derived in Section 4.1;
+4. a determinacy verdict for each disparity threshold \(\delta_{\min}\) of interest (Section 4.3);
 5. the minimum number of labels to recover, \(\Delta k\), that would make the verdict determinate (Section 4.5).
 
 Items 1 and 2 are directly computable from any audit’s own data; items 3–5 are closed‑form computations on the same counts and constitute the novel contributions of this paper.
@@ -91,7 +91,7 @@ A ratio threshold of \(0.8\) (the four‑fifths rule) is used as a concrete exam
 
 ### 3.5 Sampling error
 
-The worst‑case interval covers missingness only. Labeled records are a finite sample, so \(\hat{r}_{g}\) also carries binomial sampling error with standard error  
+The worst‑case interval covers missingness only. Labeled records are a finite sample, so \(\hat{r}_{g}\) also carries binomial sampling error with standard error
 
 \[
 \mathrm{SE}_{g}= \sqrt{\frac{\hat{r}_{g}\,(1-\hat{r}_{g})}{n_{g}}}.
@@ -113,7 +113,7 @@ r_{g}^{\min}= \frac{k_{g}}{N_{g}} = \hat{r}_{g}\,(1-m_{g}),
 r_{g}^{\max}= \frac{k_{g}+(N_{g}-n_{g})}{N_{g}} = \hat{r}_{g}\,(1-m_{g})+m_{g}.
 \]
 
-Every value in \([r_{g}^{\min},\,r_{g}^{\max}]\) is attained by some assignment of outcomes to unlabeled records, so the interval is exact. Its width is  
+Every value in \([r_{g}^{\min},\,r_{g}^{\max}]\) is attained by some assignment of outcomes to unlabeled records, so the interval is exact. Its width is
 
 \[
 r_{g}^{\max}-r_{g}^{\min}=m_{g}.
@@ -132,7 +132,7 @@ Let \(\Delta = r_{1}-r_{2}\). With \(\ell_{i}= \hat{r}_{i}(1-m_{i})\) and \(u_{i
 \Delta^{\max}= u_{1}-\ell_{2}= \hat{r}_{1}(1-m_{1})+m_{1}-\hat{r}_{2}(1-m_{2}).
 \]
 
-The width is  
+The width is
 
 \[
 \Delta^{\max}-\Delta^{\min}=m_{1}+m_{2}.
@@ -142,7 +142,7 @@ The width is
 
 #### Worked example
 
-Group A: \(N_{1}=1000\), \(n_{1}=400\), \(k_{1}=100\).  
+Group A: \(N_{1}=1000\), \(n_{1}=400\), \(k_{1}=100\).
 Group B: \(N_{2}=1000\), \(n_{2}=500\), \(k_{2}=75\).
 
 \[
@@ -180,13 +180,13 @@ A reader who wants to affirm “group 1 is selected at a higher rate than grou
 \Delta^{\min}\ge (\hat{r}_{1}-m_{1})-(\hat{r}_{2}+m_{2}) = \hat{g}-(m_{1}+m_{2}).
 \]
 
-Hence the sufficient condition  
+Hence the sufficient condition
 
 \[
 \hat{g}>m_{1}+m_{2}\ \Longrightarrow\ \Delta^{\min}>0.
 \]
 
-The exact necessary‑and‑sufficient condition is  
+The exact necessary‑and‑sufficient condition is
 
 \[
 \hat{r}_{1}(1-m_{1}) > \hat{r}_{2}(1-m_{2}) + m_{2}.
@@ -194,7 +194,7 @@ The exact necessary‑and‑sufficient condition is
 
 Both conditions are checkable by the reader from the disclosed numbers.
 
-For a policy‑set disparity threshold \(\delta_{\min}\) and a fully labeled comparison group B with known rate \(p_{B}\), the disparity \(D=p_{A}-p_{B}\) is bounded by  
+For a policy‑set disparity threshold \(\delta_{\min}\) and a fully labeled comparison group B with known rate \(p_{B}\), the disparity \(D=p_{A}-p_{B}\) is bounded by
 
 \[
 D_{\min}=p_{\min,A}-p_{B},\qquad D_{\max}=p_{\max,A}-p_{B}.
@@ -204,13 +204,13 @@ Certification of “no actionable disparity” is possible only if \(D_{\max}<\d
 
 ### 4.4 The shortcut is sufficient but not necessary
 
-The shortcut \(\hat{g}>m_{1}+m_{2}\) can fail while the exact condition holds. Counter‑example:  
+The shortcut \(\hat{g}>m_{1}+m_{2}\) can fail while the exact condition holds. Counter‑example:
 
 \[
 \hat{r}_{1}=0.8,\ m_{1}=0.2,\qquad \hat{r}_{2}=0.2,\ m_{2}=0.5.
 \]
 
-Then  
+Then
 
 \[
 \ell_{1}=0.8\times0.8=0.64,\qquad u_{2}=0.2\times0.5+0.5=0.6,
@@ -222,7 +222,7 @@ while \(\hat{g}=0.6\) and \(m_{1}+m_{2}=0.7\), so the shortcut fails. The exact 
 
 ### 4.5 Worked numerical audit in the pooled regime
 
-Inputs: total population \(n=1000\); total labeled records \(k=800\); overall missing fraction  
+Inputs: total population \(n=1000\); total labeled records \(k=800\); overall missing fraction
 
 \[
 m=1-\frac{800}{1000}=0.2.
@@ -230,7 +230,7 @@ m=1-\frac{800}{1000}=0.2.
 
 Labeled‑subset rate for group A: \(\hat{p}_{A}=0.30\) (i.e., \(k_{A}=240\) outcome‑1 records among the \(800\) labeled). Fully labeled comparison rate for group B: \(p_{B}=0.35\).
 
-**Rate interval.**  
+**Rate interval.**
 
 \[
 p_{\min,A}= \hat{p}_{A}(1-m)=0.30\times0.8=0.24,
@@ -238,7 +238,7 @@ p_{\min,A}= \hat{p}_{A}(1-m)=0.30\times0.8=0.24,
 p_{\max,A}= p_{\min,A}+m=0.24+0.2=0.44.
 \]
 
-**Four‑fifths ratio interval.**  
+**Four‑fifths ratio interval.**
 
 \[
 R_{\min}= \frac{0.24}{0.35}=0.68571\ldots\approx0.686,\qquad
@@ -247,20 +247,20 @@ R_{\max}= \frac{0.44}{0.35}=1.25714\ldots\approx1.257.
 
 Point estimate \(\hat{R}=0.30/0.35\approx0.857\) lies above the four‑fifths threshold \(0.8\), but \(0.8\in[0.686,1.257]\); therefore the audit cannot certify compliance nor adverse impact. The verdict is **indeterminate**.
 
-**Label‑recovery target (expected‑case assumption).**  
-Assume recovered labels have the same outcome rate as the existing labeled subset (\(\hat{p}_{A}=0.30\)). Let \(\Delta k\) be the number of additional labels recovered, reducing the missing fraction to  
+**Label‑recovery target (expected‑case assumption).**
+Assume recovered labels have the same outcome rate as the existing labeled subset (\(\hat{p}_{A}=0.30\)). Let \(\Delta k\) be the number of additional labels recovered, reducing the missing fraction to
 
 \[
 m' = 1-\frac{k+\Delta k}{n}.
 \]
 
-Compliance requires  
+Compliance requires
 
 \[
 p_{\min,A}' = \hat{p}_{A}(1-m') \ge 0.8\,p_{B}=0.28.
 \]
 
-Solving  
+Solving
 
 \[
 0.30\,(1-m') \ge 0.28 \;\Longrightarrow\; 1-m' \ge \frac{0.28}{0.30}=0.\overline{933},
@@ -342,26 +342,26 @@ For a two‑group disparity the combined half‑width is twice this amount, i.e.
 
 *All numbers in this section are computed in Section 4 from inputs stated there; no simulation, external data, or empirical measurement is reported.*
 
-**Closed‑form results.**  
-1. Exact worst‑case interval on a group’s full‑population rate: \([\hat{r}_{g}(1-m_{g}),\ \hat{r}_{g}(1-m_{g})+m_{g}]\) with width exactly \(m_{g}\) (Section 4.1).  
-2. Width of the assumption‑free interval on a two‑group disparity: \(m_{1}+m_{2}\), independent of the rates (Section 4.2).  
+**Closed‑form results.**
+1. Exact worst‑case interval on a group’s full‑population rate: \([\hat{r}_{g}(1-m_{g}),\ \hat{r}_{g}(1-m_{g})+m_{g}]\) with width exactly \(m_{g}\) (Section 4.1).
+2. Width of the assumption‑free interval on a two‑group disparity: \(m_{1}+m_{2}\), independent of the rates (Section 4.2).
 3. Determinacy rule: certification of a threshold \(\delta_{\min}\) is impossible exactly when \(\delta_{\min}+p_{B}\) lies inside \([p_{\min,A},\,p_{\max,A}]\); \(m<\delta_{\min}\) guarantees that some certification is possible whatever the point estimate; the exact necessary‑and‑sufficient condition for a positive disparity is \(\hat{r}_{1}(1-m_{1})>\hat{r}_{2}(1-m_{2})+m_{2}\) (Sections 4.3–4.4).
 
-**Worked numerical results.**  
-4. Example of Section 4.2 (\(m_{1}=0.6\), \(m_{2}=0.5\), reported gap \(0.10\)): disparity interval \([-0.475,\ 0.625]\), width \(1.100=m_{1}+m_{2}\); sign of the gap is not certifiable.  
-5. Counter‑example of Section 4.4 (\(\hat{r}_{1}=0.8\), \(m_{1}=0.2\), \(\hat{r}_{2}=0.2\), \(m_{2}=0.5\)): \(\Delta^{\min}=0.04>0\) while the shortcut \(\hat{g}>m_{1}+m_{2}\) fails (\(0.6<0.7\)).  
-6. Pooled‑regime audit of Section 4.5 (\(n=1000\), \(k=800\), \(\hat{p}_{A}=0.30\), \(p_{B}=0.35\)): rate interval \([0.24,\ 0.44]\); four‑fifths ratio interval \([0.686,\ 1.257]\); point estimate \(0.857\); verdict **indeterminate** because the threshold \(0.8\) lies inside the interval; conditional label‑recovery target \(134\) labels under the expected‑case assumption, and no finite target under the fully adversarial model.  
-7. Uncertainty decomposition (Section 4.6):  
-   - Near‑complete labeling (\(m_{1}=m_{2}=0.02\), \(n_{g}=980\)): sampling half‑width per group \(0.027111\); disparity sampling contribution \(0.05422177\); missingness contribution \(0.04\); total disparity half‑width \(0.09422177\).  
+**Worked numerical results.**
+4. Example of Section 4.2 (\(m_{1}=0.6\), \(m_{2}=0.5\), reported gap \(0.10\)): disparity interval \([-0.475,\ 0.625]\), width \(1.100=m_{1}+m_{2}\); sign of the gap is not certifiable.
+5. Counter‑example of Section 4.4 (\(\hat{r}_{1}=0.8\), \(m_{1}=0.2\), \(\hat{r}_{2}=0.2\), \(m_{2}=0.5\)): \(\Delta^{\min}=0.04>0\) while the shortcut \(\hat{g}>m_{1}+m_{2}\) fails (\(0.6<0.7\)).
+6. Pooled‑regime audit of Section 4.5 (\(n=1000\), \(k=800\), \(\hat{p}_{A}=0.30\), \(p_{B}=0.35\)): rate interval \([0.24,\ 0.44]\); four‑fifths ratio interval \([0.686,\ 1.257]\); point estimate \(0.857\); verdict **indeterminate** because the threshold \(0.8\) lies inside the interval; conditional label‑recovery target \(134\) labels under the expected‑case assumption, and no finite target under the fully adversarial model.
+7. Uncertainty decomposition (Section 4.6):
+   - Near‑complete labeling (\(m_{1}=m_{2}=0.02\), \(n_{g}=980\)): sampling half‑width per group \(0.027111\); disparity sampling contribution \(0.05422177\); missingness contribution \(0.04\); total disparity half‑width \(0.09422177\).
    - Moderate missingness (\(m=0.2\)): missingness width \(0.2\); sampling half‑width \(0.031756\); ratio \(6.30\); combined per‑rate half‑width \(0.231756\).
 
 **Disclosure checklist.**  An audit with incomplete protected labels must publish, for each reported rate and each reported disparity:
 
-1. Point estimate \(\hat{r}_{g}\) (or \(\hat{g}\) for a disparity) together with the labeled count \(n_{g}\).  
-2. Missing‑label fraction \(m_{g}\) (or overall \(m\) in the pooled regime).  
-3. Worst‑case interval \([\hat{r}_{g}(1-m_{g}),\ \hat{r}_{g}(1-m_{g})+m_{g}]\) (or disparity interval with width \(m_{1}+m_{2}\)).  
-4. Determinacy verdict for each policy threshold \(\delta_{\min}\) (or ratio threshold \(\rho_{\min}=0.8\)) using the exact condition, not the shortcut.  
-5. Conditional label‑recovery target \(\Delta k\) together with the explicit assumption under which it holds (expected‑case versus adversarial).  
+1. Point estimate \(\hat{r}_{g}\) (or \(\hat{g}\) for a disparity) together with the labeled count \(n_{g}\).
+2. Missing‑label fraction \(m_{g}\) (or overall \(m\) in the pooled regime).
+3. Worst‑case interval \([\hat{r}_{g}(1-m_{g}),\ \hat{r}_{g}(1-m_{g})+m_{g}]\) (or disparity interval with width \(m_{1}+m_{2}\)).
+4. Determinacy verdict for each policy threshold \(\delta_{\min}\) (or ratio threshold \(\rho_{\min}=0.8\)) using the exact condition, not the shortcut.
+5. Conditional label‑recovery target \(\Delta k\) together with the explicit assumption under which it holds (expected‑case versus adversarial).
 6. Sampling half‑width \(1.96\,\mathrm{SE}_{g}\) and a statement of whether missingness or sampling dominates at the audit’s labeling level.
 
 Items 1 and 2 are directly computable from any audit’s own counts; items 3–6 are closed‑form arithmetic on the same counts, imposing no additional data‑collection burden.
@@ -374,20 +374,20 @@ The framework’s strength is that its intervals are exact and its inputs are tw
 
 **The expected‑case / adversarial gap.**  The label‑recovery target of \(134\) holds only while recovered labels behave like the labeled subset.  If missingness is informative—e.g. if the people who declined to report their group are systematically more likely to have outcome 1—then recovery shifts \(\hat{p}_{A}\) away from \(0.30\) and the target moves.  The adversarial answer (no finite target) is the honest bound, but it is also the least actionable.  Reporting both numbers lets the reader see how much hinges on the missingness mechanism.
 
-**Failure modes of deployment.**  Three are foreseeable.  
-1. An audit team may publish the checklist items but bury the interval in an appendix, reproducing the original problem one layer down; the checklist specifies placement next to the rate for this reason, but placement is a norm, not a theorem.  
-2. The shortcut \(\hat{g}>m_{1}+m_{2}\) may be implemented instead of the exact condition, producing false negatives for determinacy as in Section 4.4 and wrongly halting deployments that the exact condition would certify.  
+**Failure modes of deployment.**  Three are foreseeable.
+1. An audit team may publish the checklist items but bury the interval in an appendix, reproducing the original problem one layer down; the checklist specifies placement next to the rate for this reason, but placement is a norm, not a theorem.
+2. The shortcut \(\hat{g}>m_{1}+m_{2}\) may be implemented instead of the exact condition, producing false negatives for determinacy as in Section 4.4 and wrongly halting deployments that the exact condition would certify.
 3. The additive combination of sampling and missingness uncertainty in Section 4.6 is conservative and approximate; a reader who treats \(0.09422177\) as an exact confidence statement over‑reads it.
 
 **What would falsify the main result.**  The central claim is that the assumption‑free disparity interval has width exactly \(m_{1}+m_{2}\) and that no narrower interval is valid without a missingness assumption.  A single counter‑example would falsify it: any admissible assignment of unlabeled records (as defined in Section 3.2) whose true disparity falls outside \([\hat{r}_{1}(1-m_{1})-\hat{r}_{2}(1-m_{2})-m_{2},\ \hat{r}_{1}(1-m_{1})+m_{1}-\hat{r}_{2}(1-m_{2})]\).  The derivation in Section 4.2 shows such an assignment cannot exist because the interval endpoints are attained by extremal assignments; however, if a reviewer argues that some joint constraints on group sizes \(N_{g}\) restrict admissible assignments, the intervals would shrink and the exactness claim would be wrong for that admissibility set.
 
-**Limitations list.**  
-- *No missingness model.*  Results hold under any mechanism; sensitivity is linear—halving \(m\) halves the width.  
-- *Binary outcomes.*  Extensions to multi‑category or continuous outcomes require re‑derivation; the ratio form also requires \(p_{B}>0\).  
-- *Two groups.*  Derivations cover \(G=2\); for more groups the interval applies pairwise, and a joint statement over all \(G\) rates is a different, harder object not derived here.  
-- *Known denominators.*  The known‑group‑size regime requires \(N_{g}\); the pooled regime requires only \(n\) and \(k\), but its per‑group interpretation assumes the labeled subgroup’s composition is known, which is a middle regime between the two.  
-- *Additive uncertainty combination.*  Section 4.6 adds half‑widths; the true joint distribution of sampling and missingness error is not derived, so the combined number is an upper‑bound approximation.  
-- *Threshold provenance.*  The four‑fifths threshold \(0.8\) is used as an example; the framework does not derive which threshold a regulator should use, and the certifiability verdicts change with \(\delta_{\min}\) linearly through the rule \(m<\delta_{\min}\).  
+**Limitations list.**
+- *No missingness model.*  Results hold under any mechanism; sensitivity is linear—halving \(m\) halves the width.
+- *Binary outcomes.*  Extensions to multi‑category or continuous outcomes require re‑derivation; the ratio form also requires \(p_{B}>0\).
+- *Two groups.*  Derivations cover \(G=2\); for more groups the interval applies pairwise, and a joint statement over all \(G\) rates is a different, harder object not derived here.
+- *Known denominators.*  The known‑group‑size regime requires \(N_{g}\); the pooled regime requires only \(n\) and \(k\), but its per‑group interpretation assumes the labeled subgroup’s composition is known, which is a middle regime between the two.
+- *Additive uncertainty combination.*  Section 4.6 adds half‑widths; the true joint distribution of sampling and missingness error is not derived, so the combined number is an upper‑bound approximation.
+- *Threshold provenance.*  The four‑fifths threshold \(0.8\) is used as an example; the framework does not derive which threshold a regulator should use, and the certifiability verdicts change with \(\delta_{\min}\) linearly through the rule \(m<\delta_{\min}\).
 - *No behavioural model of the auditor.*  The checklist assumes the audit publishes what it should; nothing in the arithmetic enforces disclosure.
 
 **Open questions.**  How the intervals compose across many audited subgroups (the interaction with the gerrymandering concern of [6]) is open; whether partial missingness models—e.g. a stated bound on the outcome rate among unlabeled records—are a useful middle ground between the adversarial and expected‑case answers is open; and how oversight readers actually weigh a wide interval against a point estimate is an empirical question this paper does not address.
@@ -409,10 +409,6 @@ The framework’s strength is that its intervals are exact and its inputs are tw
 ## 8. Conclusion
 
 When protected labels are incomplete, the rate a fairness audit publishes is silently a rate on the labeled subset, and the reader’s uncertainty about the full‑population rate is exactly the missing‑label fraction.  This paper made that uncertainty computable: the assumption‑free interval on a group’s rate has width \(m_{g}\); the interval on a two‑group disparity has width \(m_{1}+m_{2}\), independent of the rates; certification of a threshold is impossible exactly when the shifted threshold lies inside the interval, with \(m<\delta_{\min}\) sufficient for some certification whatever the point estimate; and the shortcut screening test for a positive gap is sufficient but not necessary, so the exact condition must be the published verdict.  In the worked pooled audit, a point estimate of \(0.857\) against the four‑fifths threshold resolves to an interval \([0.686,\ 1.257]\) and an indeterminate verdict, with a conditional remediation price of \(134\) labels that holds only while recovered labels behave like the labeled subset—and no guarantee from any partial recovery under the adversarial model, while full recovery of the 200 unlabeled labels always yields a determinate verdict.  The uncertainty decomposition shows a crossover: below roughly \(m\approx0.05\) sampling error dominates and the audit should report both half‑widths; above it, missingness dominates by a factor that grows linearly.  The deliverable is a six‑item disclosure checklist whose every entry is closed‑form arithmetic on counts the audit already holds.  The framework’s stance is conservative by construction: it certifies nothing it cannot prove under the worst admissible missingness, and it names, in every indeterminate case, exactly what evidence would change the verdict.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. references 11 -> 10. length 7783 -> 5760 words.
 
 ## Provenance and AI Involvement
 
