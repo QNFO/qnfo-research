@@ -8,14 +8,14 @@ Re‑entry, the self‑referential insertion of a distinction into its own indic
 
 Quantum‑device engineers and condensed‑matter experimentalists face a practical bottleneck: without quantitative benchmarks linking abstract self‑referential concepts to measurable device parameters, proposals to exploit “re‑entry” remain speculative and cannot be engineered. Sub‑kelvin cryogenic platforms cost millions of dollars and consume significant power; solid‑state quantum simulators require precise control of population manifolds, edge tunneling, and calorimetric responses, yet designers lack clear numerical targets that would indicate whether a re‑entry‑type mechanism is observable. If the quantitative anchors derived here hold, designers could (i) select operating temperatures that resolve the required energy splittings, (ii) engineer devices whose heat‑capacity anomalies match the two‑level Schottky fingerprint, and (iii) benchmark transport anomalies against a linearized figure of merit, thereby turning re‑entry from a philosophical notion into a testable engineering specification.
 
-**Contributions.**  
-- **C1.** Formal definition of re‑entry as a recursive operator $\mathcal{R}[d]=d\circ\mathcal{R}[d]$ (Section 3).  
-- **C2.** Classification of three re‑entry modes with concrete literature anchors (Section 3).  
-- **C3.** Fully shown derivations of thermal energy scales at 0.1 K, 1 K, and 20 K (Section 4.1).  
-- **C4.** Exact solution for the Schottky‑anomaly peak position $x^{*}=2.3993$ and height $C_{\max}=0.439\,R\approx3.65$ J mol$^{-1}$ K$^{-1}$ (Section 4.2).  
-- **C5.** Stoichiometric tolerance window calculations for the pyrochlore solid solution (Section 4.4).  
-- **C6.** Synthesis‑scale thermal energy and pressure conversion (Section 4.5).  
-- **C7.** Explicit statement of falsifiability protocols for each mode (Section 3.5).  
+**Contributions.**
+- **C1.** Formal definition of re‑entry as a recursive operator $\mathcal{R}[d]=d\circ\mathcal{R}[d]$ (Section 3).
+- **C2.** Classification of three re‑entry modes with concrete literature anchors (Section 3).
+- **C3.** Fully shown derivations of thermal energy scales at 0.1 K, 1 K, and 20 K (Section 4.1).
+- **C4.** Exact solution for the Schottky‑anomaly peak position $x^{*}=2.3993$ and height $C_{\max}=0.439\,R\approx3.65$ J mol$^{-1}$ K$^{-1}$ (Section 4.2).
+- **C5.** Stoichiometric tolerance window calculations for the pyrochlore solid solution (Section 4.4).
+- **C6.** Synthesis‑scale thermal energy and pressure conversion (Section 4.5).
+- **C7.** Explicit statement of falsifiability protocols for each mode (Section 3.5).
 
 ## 2. Background and Related Work
 
@@ -27,11 +27,7 @@ This section situates the three re‑entry modes in the literature cited below.
 
 *Cryogenic enabling technology.* The phonon‑blocked junction refrigerator paper explicitly states that “the very low energy of the fundamental excitations… requires temperature well below 1 K” and proposes semiconductor micro‑coolers as a solution, giving the operating point used in Section 4.1 [3].
 
- 
-
 *Thermodynamic re‑entry.* The phase‑transition analysis demonstrates that lambda and Schottky anomalies arise from latent heat of nucleation‑and‑growth transitions, motivating the two‑level Schottky model used in Section 4.2 [5].
-
-
 
 *Stoichiometric tolerance.* The pyrochlore solid‑solution work gives the oxygen‑deficiency range $-0.4<y<0.5$, the synthesis temperature $1600^{\circ}$C, and the pressure $10^{-5}$ Torr, which we convert to quantitative windows and energies in Sections 4.4 and 4.5 [4].
 
@@ -64,7 +60,7 @@ links the passage time $T_{\mathrm{pass}}$ to the minimum gap $\Delta_{\min}$.
 
 ### 3.3 Mode II: tunneling re‑entry at edges
 
-In paired fractional quantum Hall states, the edge defines the topological phase. Tunneling of quasiparticle amplitude into or across that edge is re‑entry because the bulk‑generated quasiparticle acts on the boundary that defines it. 
+In paired fractional quantum Hall states, the edge defines the topological phase. Tunneling of quasiparticle amplitude into or across that edge is re‑entry because the bulk‑generated quasiparticle acts on the boundary that defines it.
 
 ### 3.4 Mode III: thermodynamic re‑entry (anomalies)
 
@@ -92,7 +88,7 @@ All input numbers are quoted with their sources; every arithmetic step is shown.
 
 ### 4.1 Thermal energy scales (inputs from [3], [6])
 
-- **Boltzmann constant** $k_B=8.617333\times10^{-5}\ \mathrm{eV/K}$ (physical constant).  
+- **Boltzmann constant** $k_B=8.617333\times10^{-5}\ \mathrm{eV/K}$ (physical constant).
 - **Temperatures** We assume $T_1=1\ \mathrm{K}$ and $T_2=0.1\ \mathrm{K}$ (sub‑kelvin regime); $T_3=20\ \mathrm{K}$ (transport‑anomaly temperature) [6].
 
 Derivations:
@@ -161,8 +157,6 @@ $$
 P=10^{-5}\times133.322=1.33322\times10^{-3}\ \mathrm{Pa}.
 $$
 
-
-
 ### 4.6 Mode I design constraint (structural)
 
 The adiabaticity condition requires
@@ -175,85 +169,77 @@ No numerical values are supplied; the expression defines the quantity that a Mod
 
 Numbers derived in Section 4 are reported without additional interpretation.
 
-1. **Thermal energy scales**  
-   $E_T(1\ \mathrm{K})=8.62\times10^{-5}\ \mathrm{eV}$,  
-   $E_T(0.1\ \mathrm{K})=8.62\times10^{-6}\ \mathrm{eV}$,  
+1. **Thermal energy scales**
+   $E_T(1\ \mathrm{K})=8.62\times10^{-5}\ \mathrm{eV}$,
+   $E_T(0.1\ \mathrm{K})=8.62\times10^{-6}\ \mathrm{eV}$,
    $E_T(20\ \mathrm{K})=1.72\times10^{-3}\ \mathrm{eV}$.
 
-2. **Schottky peak (Mode III anchor)**  
-   Peak position $x^{*}=2.3993$ (i.e. $T^{*}=0.4168\,\Delta/k_B$),  
+2. **Schottky peak (Mode III anchor)**
+   Peak position $x^{*}=2.3993$ (i.e. $T^{*}=0.4168\,\Delta/k_B$),
    Peak height $C_{\max}=0.439\,R\approx3.65\ \mathrm{J\,mol^{-1}\,K^{-1}}$.
 
    Example: for $\Delta=1.72\times10^{-3}$ eV (the $20$ K thermal scale) the peak temperature is
 $$
 T^{*}=\frac{\Delta}{x^{*}k_{B}}=\frac{1.72\times10^{-3}\ \mathrm{eV}}{2.3993\times8.617333\times10^{-5}\ \mathrm{eV/K}}.
 $$
-Evaluating the denominator: $2.3993\times8.617333\times10^{-5}=2.0679\times10^{-4}\ \mathrm{eV/K}$. 
+Evaluating the denominator: $2.3993\times8.617333\times10^{-5}=2.0679\times10^{-4}\ \mathrm{eV/K}$.
 Thus $T^{*}=\frac{1.72\times10^{-3}}{2.0679\times10^{-4}}=8.32\ \mathrm{K}$ (rounded to two decimal places).
 
-3. **Mode II status (non‑computed, flagged)**  
+3. **Mode II status (non‑computed, flagged)**
    No tunneling exponent or transport figure of merit is derived; Mode II remains qualitatively anchored (Section 4.3).
 
-4. **Stoichiometric window (platform tolerance)**  
+4. **Stoichiometric window (platform tolerance)**
    Width $\Delta y=0.9$, midpoint $y_{\mathrm{mid}}=0.05$, excess‑side advantage $11.1\%$.
 
-5. **Synthesis scales**  
+5. **Synthesis scales**
    Temperature $T=1873.15\ \mathrm{K}$, thermal energy $k_B T=0.16142\ \mathrm{eV}$, pressure $P=1.333\times10^{-3}\ \mathrm{Pa}$.
-
-
-
-
 
 6. **Non‑computed quantity (flagged)** – adiabatic‑passage design constraint (Section 4.6).
 
 ## 6. Discussion
 
-**Limitations.**  
-- The taxonomy is classificatory; it does not generate novel predictions beyond the standard Schottky fingerprint.  
--   
--   
+**Limitations.**
+- The taxonomy is classificatory; it does not generate novel predictions beyond the standard Schottky fingerprint.
+-
+-
 - No numerical values for tunneling exponents or adiabatic gaps are available, so Mode II and Mode I remain qualitatively anchored.
 
-**Failure modes.**  
-- If a device exhibits a self‑referential behavior that does not satisfy the recursive equation $\mathcal{R}[d]=d\circ\mathcal{R}[d]$, the taxonomy would be too narrow.  
-- If a measured heat‑capacity anomaly yields a peak position violating $\Delta=2.3993\,k_B T^{*}$, the thermodynamic re‑entry anchor would be falsified.  
+**Failure modes.**
+- If a device exhibits a self‑referential behavior that does not satisfy the recursive equation $\mathcal{R}[d]=d\circ\mathcal{R}[d]$, the taxonomy would be too narrow.
+- If a measured heat‑capacity anomaly yields a peak position violating $\Delta=2.3993\,k_B T^{*}$, the thermodynamic re‑entry anchor would be falsified.
 - If all three modes collapse to a single underlying mechanism without distinct observables, the taxonomy would lose explanatory power.
 
-**What would falsify the claims.**  
-1. Observation of a coherent return where the fidelity falls below the thermal floor $k_B T/\Delta$ despite $\Delta\gg k_B T$.  
-2. Measured tunneling exponents that are statistically indistinguishable across paired fractional quantum Hall states, contradicting the Mode II signature.  
+**What would falsify the claims.**
+1. Observation of a coherent return where the fidelity falls below the thermal floor $k_B T/\Delta$ despite $\Delta\gg k_B T$.
+2. Measured tunneling exponents that are statistically indistinguishable across paired fractional quantum Hall states, contradicting the Mode II signature.
 3. Heat‑capacity peak whose position or height deviates from the derived $x^{*}$ and $C_{\max}$ beyond experimental uncertainty.
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Intended users and design impact.**  
+**(a) Intended users and design impact.**
 Quantum‑device engineers designing solid‑state simulators, superconducting qubits, or topological devices can employ the quantitative anchors to set operating temperatures, target energy splittings, and benchmark transport anomalies. For example, a superconducting qubit platform aiming to observe coherent adiabatic re‑entry must ensure $\Delta_{\min}\gg8.62\times10^{-6}$ eV (the 0.1 K thermal floor) to keep thermal errors below 1 %.
 
-**(b) Technology readiness.**  
+**(b) Technology readiness.**
 The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at TRL 2 (formulation of concept and analytical proof‑of‑concept).
 
-**(c) Minimal next experiment.**  
+**(c) Minimal next experiment.**
 A decisive test of Mode III is a calorimetric measurement on a material exhibiting a Schottky‑type anomaly. The experiment would (i) determine the level splitting $\Delta$ via independent spectroscopy, (ii) measure $C(T)$ across the anomaly, and (iii) verify whether the peak satisfies $\Delta=2.3993\,k_B T^{*}$ and $C_{\max}=0.439\,R$. Observation of a systematic deviation would falsify the thermodynamic re‑entry anchor.
 
-**(d) Engineering constraints.**  
-- **Temperature control:** Sub‑kelvin refrigeration (down to 0.1 K) is required to resolve splittings on the order of $10^{-6}$ eV.  
-- **Heat‑capacity sensitivity:** Micro‑calorimetry with resolution better than $0.1\,R$ is needed to detect the $0.439\,R$ peak.  
-- **Magnetic field stability:** Linearized figure of merit $\eta$ assumes an average response;   
+**(d) Engineering constraints.**
+- **Temperature control:** Sub‑kelvin refrigeration (down to 0.1 K) is required to resolve splittings on the order of $10^{-6}$ eV.
+- **Heat‑capacity sensitivity:** Micro‑calorimetry with resolution better than $0.1\,R$ is needed to detect the $0.439\,R$ peak.
+- **Magnetic field stability:** Linearized figure of merit $\eta$ assumes an average response;
 - **Material synthesis:** Reproducing the pyrochlore stoichiometry demands synthesis at $1600^{\circ}$C and $10^{-5}$ Torr, as quantified in Section 4.5.
 
-**(e) Order‑of‑magnitude cost projection (assumption‑based).**  
+**(e) Order‑of‑magnitude cost projection (assumption‑based).**
 Assuming a commercial dilution refrigerator costing \$1 M provides the required sub‑kelvin environment, and a micro‑calorimeter system adds \$200 k, the total capital outlay for a Mode III test is on the order of \$1.2 M. This projection assumes no additional custom tooling and is labeled as a rough estimate.
 
-**(f) Risks and misuse.**  
+**(f) Risks and misuse.**
 The re‑entry framework could be misapplied to any nonlinear phenomenon by retroactively labeling it “re‑entrant,” diluting its explanatory value. The falsifiability protocol (Section 3.5) is intended to guard against such over‑extension.
 
 ## 8. Conclusion
 
 We asked whether re‑entry, the self‑referential operation identified in the Laws of Form tradition, has operational content in solid‑state devices. Our answer is a classification and a set of fully shown quantitative anchors. Re‑entry was formalized as a recursive map $\mathcal{R}[d]=d\circ\mathcal{R}[d]$ on a device’s distinction space and realized in three modes: coherent adiabatic re‑entry (population returned to its originating manifold, per [2]), tunneling re‑entry (quasiparticle amplitude re‑entering the edge that defines it, per [4]), and thermodynamic re‑entry (latent heat re‑entering the heat capacity across a transition, per [5]). The computed anchors are: thermal scales $E_T=8.62\times10^{-5}$ eV, $8.62\times10^{-6}$ eV, and $1.72\times10^{-3}$ eV at 1 K, 0.1 K, and 20 K respectively; the two‑level Schottky peak at $x^{*}=2.3993$ with height $C_{\max}=0.439\,R\approx3.65$ J mol$^{-1}$ K$^{-1}$; stoichiometric window $\Delta y=0.9$ with $11.1\%$ asymmetry; synthesis thermal energy $k_BT=0.16142$ eV and pressure $1.33\times10^{-3}$ Pa;  These anchors enable concrete design decisions for solid‑state platforms and define clear falsification criteria. The immediate next step is the Mode I experiment flagged in Section 4.6, which must first measure the minimum gap $\Delta_{\min}$ and the matrix element $|\langle m|\partial_{\lambda}H|n\rangle|$.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report. references 10 -> 7. length 4395 -> 2395 words.
 
 ## Provenance and AI Involvement
 

@@ -2,10 +2,10 @@
 
 ## Abstract
 
-Photosynthetic antennae achieve near‑unity excitation‑energy‑transfer (EET) efficiency on sub‑picosecond timescales, yet modelers must decide whether to allocate expensive non‑Markovian boson‑mediated simulations or inexpensive Markovian dephasing master equations. Earlier applicability tests suffered from three defects: (i) a coupling range broader than experimentally reported values, (ii) a dimensionally inconsistent transfer‑time expression, and (iii) memory‑ratio windows derived from those errors. We assume excitonic coupling magnitude $|V|\in[50,75]\;\mathrm{cm^{-1}}$ and site‑energy difference $\Delta\in[110,180]\;\mathrm{cm^{-1}}$ for the FMO BChl 3–4 dimer. and employ the dimensionally correct transfer‑time formula  
+Photosynthetic antennae achieve near‑unity excitation‑energy‑transfer (EET) efficiency on sub‑picosecond timescales, yet modelers must decide whether to allocate expensive non‑Markovian boson‑mediated simulations or inexpensive Markovian dephasing master equations. Earlier applicability tests suffered from three defects: (i) a coupling range broader than experimentally reported values, (ii) a dimensionally inconsistent transfer‑time expression, and (iii) memory‑ratio windows derived from those errors. We assume excitonic coupling magnitude $|V|\in[50,75]\;\mathrm{cm^{-1}}$ and site‑energy difference $\Delta\in[110,180]\;\mathrm{cm^{-1}}$ for the FMO BChl 3–4 dimer. and employ the dimensionally correct transfer‑time formula
 \[
 \tau_{T}= \frac{\Delta}{2\pi c V^{2}} .
-\]  
+\]
 From this we obtain a transfer‑time interval $0.1038\text{–}0.3822\;\mathrm{ps}$, a single‑hop trapping efficiency $\eta=0.999001$, and memory‑ratio windows $R_{\mathrm{fast}}\in[0.26,0.96]$ (fast bath $\tau_{B}=0.1\;\mathrm{ps}$) and $R_{\mathrm{slow}}\in[2.6,9.6]$ (slow bath $\tau_{B}=1\;\mathrm{ps}$). All realistic slow‑mode scenarios therefore lie in the non‑Markovian sector. We further derive a falsifiable scaling $\delta\Gamma^{*}/\Gamma^{*}\approx R$ for the shift of the optimal dephasing rate when $R\gtrsim0.5$. The memory‑ratio rule thus provides a quantitative, analytically derived guideline for allocating computational effort in EET modelling.
 
 ## 1. Introduction
@@ -14,12 +14,12 @@ Designers of bio‑inspired photovoltaic devices and researchers interpreting ul
 
 Two‑decade‑old theory shows that environmental dephasing can assist transport, raising EET efficiencies above $90\%$ in the FMO complex within a fully Markovian treatment [2]. We assume a fast solvent‑like bath correlation time $\tau_{B}=0.1\;\mathrm{ps}$. We assume excitonic coupling magnitude $|V|$ between $50$ and $75\;\mathrm{cm^{-1}}$ and site‑energy difference $\Delta$ between $110$ and $180\;\mathrm{cm^{-1}}$ for the BChl 3–4 dimer. These experimentally grounded ranges define a realistic parameter box that is narrower than the ranges used in earlier applicability analyses [9]. [1] argues that quantitative interpretation of transient‑thermal‑grating transients requires a forward model that consistently connects energy deposition, heat transport, and detection. We therefore require dimensional consistency for the transfer‑time expression.
 
-**Contributions.**  
-1. Derivation of the optimal dephasing rate $\Gamma^{*}=\Delta$ and optimal hopping rate $k^{*}=V^{2}/\Delta$ for the two‑site Haken–Strobl model (Section 4.1).  
-2. Correction of the transfer‑time formula to $\tau_{T}= \Delta/(2\pi c V^{2})$, dimensional verification, and evaluation at the four corners of the experimental box, yielding $\tau_{T}\in[0.1038,\,0.3822]\;\mathrm{ps}$ (Section 4.2).  
-3. Computation of the single‑hop trapping‑limited efficiency $\eta=0.999001$ using trap and recombination rates (Section 4.3).  
-4. Exhaustive calculation of memory ratios over the full experimental box, giving $R_{\mathrm{fast}}\in[0.26,0.96]$ and $R_{\mathrm{slow}}\in[2.6,9.6]$ (Section 4.4).  
-5. A corner‑by‑corner sensitivity analysis showing that the classification is monotone over the reported box, with the single transitional corner identified explicitly (Section 4.5).  
+**Contributions.**
+1. Derivation of the optimal dephasing rate $\Gamma^{*}=\Delta$ and optimal hopping rate $k^{*}=V^{2}/\Delta$ for the two‑site Haken–Strobl model (Section 4.1).
+2. Correction of the transfer‑time formula to $\tau_{T}= \Delta/(2\pi c V^{2})$, dimensional verification, and evaluation at the four corners of the experimental box, yielding $\tau_{T}\in[0.1038,\,0.3822]\;\mathrm{ps}$ (Section 4.2).
+3. Computation of the single‑hop trapping‑limited efficiency $\eta=0.999001$ using trap and recombination rates (Section 4.3).
+4. Exhaustive calculation of memory ratios over the full experimental box, giving $R_{\mathrm{fast}}\in[0.26,0.96]$ and $R_{\mathrm{slow}}\in[2.6,9.6]$ (Section 4.4).
+5. A corner‑by‑corner sensitivity analysis showing that the classification is monotone over the reported box, with the single transitional corner identified explicitly (Section 4.5).
 6. A falsifiable projection that the non‑Markovian correction to the optimal dephasing rate scales as $\delta\Gamma^{*}/\Gamma^{*}\approx R$ for $R\gtrsim0.5$, together with its refutation condition (Sections 5 and 6).
 
 ## 2. Background and Related Work
@@ -40,11 +40,9 @@ Two‑decade‑old theory shows that environmental dephasing can assist transpor
 
 **Prior applicability analysis.** The earlier version of this study [9] performed an applicability analysis; the present work adopts experimentally reported parameter ranges and a dimensionally consistent transfer‑time formula.
 
- 
+**Non‑Markovian boson‑mediated framework.**
 
-**Non‑Markovian boson‑mediated framework.** 
-
-**Vibronic coherence in photosystem II.** 
+**Vibronic coherence in photosystem II.**
 
 Collectively, these works define the experimentally realistic parameter regime, the theoretical foundations of DAT, and the methodological motivation for a timescale‑based re‑entry criterion.
 
@@ -52,34 +50,34 @@ Collectively, these works define the experimentally realistic parameter regime, 
 
 ### 3.1 Toy model and corrected dephasing dissipator
 
-We consider the two‑site Haken–Strobl Hamiltonian in the single‑excitation manifold  
+We consider the two‑site Haken–Strobl Hamiltonian in the single‑excitation manifold
 
 \[
 H_{S}= \frac{\Delta}{2}\,\sigma_{z}+V\,\sigma_{x},
-\]  
+\]
 
 where $\sigma_{x},\sigma_{z}$ are Pauli matrices on the two‑site basis, $\Delta$ is the site‑energy difference, and $V$ is the excitonic coupling. Site 2 carries a trap with rate $\kappa$.
 
-The correct pure‑dephasing Lindblad generator with jump operator $\sigma_{z}$ is  
+The correct pure‑dephasing Lindblad generator with jump operator $\sigma_{z}$ is
 
 \[
 \mathcal{L}_{\phi}[\rho]=-\frac{\Gamma}{2}\,[\sigma_{z},[\sigma_{z},\rho]],
-\]  
+\]
 
 which leaves populations invariant and damps the coherence $\rho_{12}$ as $\dot{\rho}_{12}=-2\Gamma\,\rho_{12}$. This form replaces the defective term $-(\Gamma/2)(1-\sigma_{z}^{2}/2)$, which reduces to a multiple of the identity and generates no dephasing.
 
 ### 3.2 Re‑entry criterion
 
-The memory ratio is defined as  
+The memory ratio is defined as
 
 \[
 R=\frac{\tau_{B}}{\tau_{T}},
-\]  
+\]
 
 with $\tau_{B}$ the bath correlation time and $\tau_{T}$ the intrinsic single‑hop transfer time (Section 4.2). Thresholds are conventions chosen to render the criterion falsifiable:
 
-* $R\lesssim0.1$: Markovian reduction suffices.  
-* $0.1<R<0.5$: Transitional regime; error estimation required.  
+* $R\lesssim0.1$: Markovian reduction suffices.
+* $0.1<R<0.5$: Transitional regime; error estimation required.
 * $R\gtrsim0.5$: Non‑Markovian framework required.
 
 ### 3.3 Input parameters
@@ -99,7 +97,7 @@ All parameters are either taken directly from the cited literature or explicitly
 
 ### 4.1 Optimal dephasing rate and hopping rate
 
-In the strong‑disorder limit $V\ll\Delta$, adiabatic elimination of the coherences in the Haken–Strobl master equation with the corrected pure‑dephasing generator yields the hopping rate  
+In the strong‑disorder limit $V\ll\Delta$, adiabatic elimination of the coherences in the Haken–Strobl master equation with the corrected pure‑dephasing generator yields the hopping rate
 
 \[
 k(\Gamma)=\frac{2V^{2}\,\Gamma}{\Gamma^{2}+\Delta^{2}}.
@@ -112,7 +110,7 @@ Differentiating with respect to $\Gamma$:
 =2V^{2}\,\frac{\Delta^{2}-\Gamma^{2}}{(\Gamma^{2}+\Delta^{2})^{2}}.
 \]
 
-Setting the derivative to zero gives $\Delta^{2}-\Gamma^{2}=0$, i.e.  
+Setting the derivative to zero gives $\Delta^{2}-\Gamma^{2}=0$, i.e.
 
 \[
 \Gamma^{*}=\Delta.
@@ -135,7 +133,7 @@ Evaluating $k^{*}=V^{2}/\Delta$ at the four corners of the experimental box:
 | 3 (max V, max Δ) | $75$ | $180$ | $31.2500$ |
 | 4 (max V, min Δ) | $75$ | $110$ | $51.1364$ |
 
-Thus  
+Thus
 
 \[
 k^{*}\in[13.89,\,51.14]\;\mathrm{cm^{-1}}.
@@ -177,7 +175,7 @@ The optimal hopping rate $k^{*}$ has units of wavenumber ($\mathrm{cm^{-1}}$). C
 \end{aligned}
 \]
 
-Hence  
+Hence
 
 \[
 \tau_{T}\in[0.1038,\,0.3822]\;\mathrm{ps}.
@@ -185,13 +183,13 @@ Hence
 
 ### 4.3 Trapping‑limited efficiency $\eta$
 
-The recombination rate is  
+The recombination rate is
 
 \[
 \gamma_{\mathrm{rec}} = \frac{1}{\tau_{e}} = \frac{1}{1\;\mathrm{ns}} = 10^{-3}\;\mathrm{ps^{-1}}.
 \]
 
-The single‑hop trapping efficiency for a trap rate $\kappa$ and recombination $\gamma_{\mathrm{rec}}$ is  
+The single‑hop trapping efficiency for a trap rate $\kappa$ and recombination $\gamma_{\mathrm{rec}}$ is
 
 \[
 \eta = \frac{\kappa}{\kappa+\gamma_{\mathrm{rec}}}
@@ -214,7 +212,7 @@ R_{\mathrm{slow}} = \frac{1\;\mathrm{ps}}{\tau_{T}} \in \left[\frac{1}{0.3822},\
 = [2.6162,\,9.6322].
 \]
 
-Rounding to two significant figures gives  
+Rounding to two significant figures gives
 
 \[
 R_{\mathrm{fast}}\in[0.26,0.96],\qquad
@@ -231,14 +229,14 @@ Because $R=\tau_{B}\,2\pi cV^{2}/\Delta$ is monotone increasing in $V$ and decre
 
 All numerical values follow directly from the derivations in Section 4.
 
-1. **Optimal dephasing rate:** $\Gamma^{*}= \Delta$, ranging from $110$ to $180\;\mathrm{cm^{-1}}$.  
-2. **Optimal hopping rate:** $k^{*}=V^{2}/\Delta$, ranging from $13.89$ to $51.14\;\mathrm{cm^{-1}}$.  
-3. **Transfer time:** $\tau_{T}=0.1038\text{–}0.3822\;\mathrm{ps}$, with the representative corner values $0.1038\;\mathrm{ps}$ (min) and $0.3822\;\mathrm{ps}$ (max).  
-4. **Single‑hop efficiency:** $\eta=0.999001$.  
-5. **Memory ratios:** $R_{\mathrm{fast}}\in[0.26,0.96]$, $R_{\mathrm{slow}}\in[2.6,9.6]$.  
+1. **Optimal dephasing rate:** $\Gamma^{*}= \Delta$, ranging from $110$ to $180\;\mathrm{cm^{-1}}$.
+2. **Optimal hopping rate:** $k^{*}=V^{2}/\Delta$, ranging from $13.89$ to $51.14\;\mathrm{cm^{-1}}$.
+3. **Transfer time:** $\tau_{T}=0.1038\text{–}0.3822\;\mathrm{ps}$, with the representative corner values $0.1038\;\mathrm{ps}$ (min) and $0.3822\;\mathrm{ps}$ (max).
+4. **Single‑hop efficiency:** $\eta=0.999001$.
+5. **Memory ratios:** $R_{\mathrm{fast}}\in[0.26,0.96]$, $R_{\mathrm{slow}}\in[2.6,9.6]$.
 6. **Sensitivity:** $R_{\mathrm{slow}}$ always exceeds $0.5$; $R_{\mathrm{fast}}$ falls below $0.5$ for two corners: $(V,\Delta)=(50,180)$ with $R_{\mathrm{fast}}=0.2616$, and $(V,\Delta)=(50,110)$ with $R_{\mathrm{fast}}=0.4281$.
 
-**Projection.** If $R\gtrsim0.5$, the non‑Markovian framework predicts a shift of the optimal dephasing rate $\delta\Gamma^{*}$ that scales as  
+**Projection.** If $R\gtrsim0.5$, the non‑Markovian framework predicts a shift of the optimal dephasing rate $\delta\Gamma^{*}$ that scales as
 
 \[
 \frac{\delta\Gamma^{*}}{\Gamma^{*}} \approx R,
@@ -250,16 +248,16 @@ with a proportionality constant of order unity and an uncertainty factor of two 
 
 ### Limitations
 
-* **Two‑site abstraction.** Real light‑harvesting complexes contain multiple pigments, static disorder, and multiple pathways; the single‑hop efficiency $\eta$ therefore represents an upper bound.  
-* **Threshold conventions.** The $R$ thresholds are chosen for falsifiability; alternative thresholds would shift the transitional window but not the qualitative conclusion that slow vibrational modes demand a non‑Markovian treatment.  
-* **Weak‑coupling assumption.** The Haken–Strobl rate formula assumes $V\ll\Delta$ and weak system‑bath coupling; strong coupling would invalidate the analytic $k(\Gamma)$ expression and require the exact non‑Markovian treatment. At the corner $(V,\Delta)=(75,110)$ the ratio $V/\Delta\approx0.68$ strains this assumption, so the $k^{*}$ and $\tau_{T}$ values there carry the largest model error.  
-* **Assumed bath times.** Both $\tau_{B}=0.1\;\mathrm{ps}$ and $\tau_{B}=1\;\mathrm{ps}$ are assumptions; only the fast value is motivated by the sub‑100‑fs relaxation resolved in single complexes [7]. The classification of a given real bath depends directly on these assumed values.  
+* **Two‑site abstraction.** Real light‑harvesting complexes contain multiple pigments, static disorder, and multiple pathways; the single‑hop efficiency $\eta$ therefore represents an upper bound.
+* **Threshold conventions.** The $R$ thresholds are chosen for falsifiability; alternative thresholds would shift the transitional window but not the qualitative conclusion that slow vibrational modes demand a non‑Markovian treatment.
+* **Weak‑coupling assumption.** The Haken–Strobl rate formula assumes $V\ll\Delta$ and weak system‑bath coupling; strong coupling would invalidate the analytic $k(\Gamma)$ expression and require the exact non‑Markovian treatment. At the corner $(V,\Delta)=(75,110)$ the ratio $V/\Delta\approx0.68$ strains this assumption, so the $k^{*}$ and $\tau_{T}$ values there carry the largest model error.
+* **Assumed bath times.** Both $\tau_{B}=0.1\;\mathrm{ps}$ and $\tau_{B}=1\;\mathrm{ps}$ are assumptions; only the fast value is motivated by the sub‑100‑fs relaxation resolved in single complexes [7]. The classification of a given real bath depends directly on these assumed values.
 * **Vibronic effects excluded.** The reported $180\;\mathrm{cm^{-1}}$ modes with Huang–Rhys factor $0.03$ [4] and the fs‑scale vibronic coherences documented for FMO and LHCII [11] are outside the pure‑dephasing model; they could modify $\tau_{T}$ and the thresholds.
 
 ### Failure modes
 
-1. **Bimodal baths.** A bath comprising both fast and slow components would invalidate a single $\tau_{B}$; a spectral‑density‑weighted ratio would be needed.  
-2. **Strong coupling.** If $V$ approached $\Delta$, the denominator $\Gamma^{2}+\Delta^{2}$ would no longer be dominated by $\Delta^{2}$, breaking the optimality condition $\Gamma^{*}=\Delta$.  
+1. **Bimodal baths.** A bath comprising both fast and slow components would invalidate a single $\tau_{B}$; a spectral‑density‑weighted ratio would be needed.
+2. **Strong coupling.** If $V$ approached $\Delta$, the denominator $\Gamma^{2}+\Delta^{2}$ would no longer be dominated by $\Delta^{2}$, breaking the optimality condition $\Gamma^{*}=\Delta$.
 3. **Resonant vibronic bridges.** Specific vibrational modes acting as resonant bridges could enhance coherent transport beyond the dephasing‑based estimate, as the vibronic‑coherence review [11] makes plausible for modes in the $200\text{–}500\;\mathrm{cm^{-1}}$ range.
 
 ### Falsification condition
@@ -272,8 +270,8 @@ One could argue that the importance of non‑Markovian effects is already establ
 
 ### Open questions
 
-1. What is the exact prefactor linking $\delta\Gamma^{*}$ to $R$?  
-2. How does the memory‑ratio criterion generalize to multi‑site networks with path‑dependent $\tau_{T}$?  
+1. What is the exact prefactor linking $\delta\Gamma^{*}$ to $R$?
+2. How does the memory‑ratio criterion generalize to multi‑site networks with path‑dependent $\tau_{T}$?
 3. Can single‑molecule spectroscopy of the type demonstrated in [7] resolve the predicted backflow signatures in individual complexes?
 
 ## 7. Practical Implications and Engineering Pathways
@@ -284,16 +282,16 @@ One could argue that the importance of non‑Markovian effects is already establ
 
 **(c) Smallest next experiment or calculation.** A full non‑Markovian simulation of the seven‑site FMO Hamiltonian (including an assumed spectral density consistent with atomistic funneling parameters) that computes (i) transient population backflow amplitudes and (ii) the shift in the optimal dephasing rate. The hypothesis is falsified if the computed corrections are $<1\%$ of the Markovian predictions for $R\ge0.5$.
 
-**(d) Engineering and computational constraints.**  
-* **Spectral‑density data.** Accurate $\tau_{B}$ requires high‑resolution spectral densities from atomistic simulations or ultrafast spectroscopy [7].  
-* **Computational load.** A realistic FMO simulation using the non‑Markovian framework typically requires on the order of $10^{4}$ CPU‑hours (order‑of‑magnitude estimate).  
+**(d) Engineering and computational constraints.**
+* **Spectral‑density data.** Accurate $\tau_{B}$ requires high‑resolution spectral densities from atomistic simulations or ultrafast spectroscopy [7].
+* **Computational load.** A realistic FMO simulation using the non‑Markovian framework typically requires on the order of $10^{4}$ CPU‑hours (order‑of‑magnitude estimate).
 * **Parameter uncertainty.** Variations in $V$ and $\Delta$ must be propagated; sensitivity analysis (Section 4.5) shows classification robustness but necessitates careful parameter estimation.
 
-**(e) Order‑of‑magnitude cost projection (projection).** Assuming a cloud HPC price of \$0.10 per CPU‑hour, the minimal full‑scale simulation costs  
+**(e) Order‑of‑magnitude cost projection (projection).** Assuming a cloud HPC price of \$0.10 per CPU‑hour, the minimal full‑scale simulation costs
 
 \[
 \text{Cost}\approx10^{4}\ \text{CPU‑h}\times\$0.10/\text{CPU‑h}= \$1{,}000,
-\]  
+\]
 
 with an uncertainty factor of two due to possible variations in parallel efficiency.
 
@@ -302,20 +300,6 @@ with an uncertainty factor of two due to possible variations in parallel efficie
 ## 8. Conclusion
 
 We formulated and applied a quantitative timescale‑based re‑entry test for the non‑Markovian boson‑mediated transport framework in photosynthetic light‑harvesting. Using experimentally reported FMO dimer parameters ($V\in[50,75]\;\mathrm{cm^{-1}}$, $\Delta\in[110,180]\;\mathrm{cm^{-1}}$) we derived $\Gamma^{*}=\Delta$, $k^{*}=V^{2}/\Delta$, $\tau_{T}=0.1038\text{–}0.3822\;\mathrm{ps}$, and a single‑hop efficiency ceiling $\eta=0.999001$. Comparing $\tau_{T}$ with bath correlation times spanning $0.1\!-\!1\;\mathrm{ps}$ yields memory ratios $R$ that place fast solvent‑like modes in a transitional window and slow intramolecular modes firmly in the non‑Markovian sector. Sensitivity analysis over the full experimentally reported ranges confirms that $R>0.5$ persists for all realistic slow‑mode scenarios. Consequently, the boson‑mediated non‑Markovian framework re‑enters light‑harvesting modelling precisely when $\tau_{B}\gtrsim0.5\,\tau_{T}$, and it predicts a memory‑scaled shift of the optimal dephasing rate, a hypothesis that can be tested by full‑scale simulations. The memory‑ratio rule thus offers modelers a concrete, analytically derived guideline for allocating computational effort in the study of excitation‑energy transfer.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report. references 10 -> 8. length 3328 -> 2515 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples; Appendix B. Claim attribution. references 8 -> 10. length 2555 -> 3312 words.
-- Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 10 -> 9. length 3387 -> 2798 words.
-- Version 2.3.0 (2026-10-20, from 2.2.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix B. Claim attribution. references 9 -> 9. length 2906 -> 2755 words.
-- Version 2.4.0 (2026-10-20, from 2.3.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix B. Claim attribution. references 9 -> 9. length 2895 -> 3015 words.
-- Version 2.5.0 (2026-10-21, from 2.4.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 9 -> 9. length 3185 -> 2853 words.
-- Version 2.6.0 (2026-10-21, from 2.5.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 9 -> 8. length 3047 -> 2934 words.
-- Version 2.7.0 (2026-10-22, from 2.6.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 8 -> 9. length 3152 -> 2834 words.
-- Version 2.8.0 (2026-10-23, from 2.7.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 9 -> 8. length 3076 -> 2988 words.
-- Version 2.9.0 (2026-10-24, from 2.8.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 8 -> 10. length 3254 -> 3222 words.
-- Version 2.10.0 (2026-10-25, from 2.9.0): revised against the current literature, re-reviewed and re-verified. references 10 -> 11. length 3512 -> 3402 words.
 
 ## Provenance and AI Involvement
 
