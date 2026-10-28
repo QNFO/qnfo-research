@@ -1,14 +1,8 @@
-# Post-Quantum Synthesis
+# POST QUANTUM SYNTHESIS
 
-## A Complete Framework for
-Physics
+## Abstract
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers **Publication Date:** 2025-09-23
-**Version**: 1.0
+For over a century, physics has been captivated by a perceived intrinsic strangeness of the world, mistaking mathematical models for reality itself. This intellectual entanglement has given rise to persistent paradoxes, including wave-particle duality, wavefunction collapse, spooky action at a distance, and the elusive quantum-classical divide. The Post-Quantum Synthesis (PQS) presents an act of intellectual liberation, completing the quantum revolution by correcting the central misunderstanding that has fueled these paradoxes. This transforms physics from a collection of mysteries into a single, coherent, and rational framework for understanding the universe. Fundamentally, the universe is continuous, local, and deterministic, while measurements are inherently discrete. Quantum Mechanics is thus posited as the logically necessary and unique calculus bridging these two domains. This framework represents the final synthesis in understanding physical reality.
 
 ### Preamble: The End of
 the Quantum Illusion
@@ -2583,9 +2577,6 @@ That is enough.
 
 That is everything.
 
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 Einstein, A. (1916). Die Grundlage der allgemeinen
