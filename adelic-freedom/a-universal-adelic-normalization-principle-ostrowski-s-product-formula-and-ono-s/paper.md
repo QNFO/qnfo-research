@@ -51,15 +51,15 @@ These twelve works provide the empirical and theoretical landscape against which
 
 Fix a number field $k$ with place set $\Sigma_{k}$.
 
-**Layer A (cohomological gluing).** For a torus $T/k$ with character lattice $\widehat{T}$ (free abelian of rank $n=\dim T$) and Galois action of $G_{k}=\mathrm{Gal}(\bar{k}/k)$, Ono’s theory gives the exact sequence  
+**Layer A (cohomological gluing).** For a torus $T/k$ with character lattice $\widehat{T}$ (free abelian of rank $n=\dim T$) and Galois action of $G_{k}=\mathrm{Gal}(\bar{k}/k)$, Ono’s theory gives the exact sequence
 
-$$0\to T(k)\to T(\mathbb{A}_{k})\xrightarrow{\delta}\mathrm{H}^{1}(k,\widehat{T})^{\vee}\to\Sha(T)\to 0,$$  
+$$0\to T(k)\to T(\mathbb{A}_{k})\xrightarrow{\delta}\mathrm{H}^{1}(k,\widehat{T})^{\vee}\to\Sha(T)\to 0,$$
 
 where $\delta$ is the idelic connecting map and $(\cdot)^{\vee}$ denotes Pontryagin dual. This sequence is the global consistency condition: it forces the volume of $T(\mathbb{A}_{k})/T(k)$ to be determined by $\mathrm{H}^{1}(k,\widehat{T})$ and $\Sha(T)$.
 
-**Layer B (idelic integration).** Each $T(k_{v})$ carries a Haar measure $\omega_{v}$, normalized so that for all but finitely many $v$ the measure of the local integral model equals 1; convergence factors $\lambda_{v}$ make the product measure finite. The Tamagawa number is  
+**Layer B (idelic integration).** Each $T(k_{v})$ carries a Haar measure $\omega_{v}$, normalized so that for all but finitely many $v$ the measure of the local integral model equals 1; convergence factors $\lambda_{v}$ make the product measure finite. The Tamagawa number is
 
-$$\tau(T)=\operatorname{vol}_{\omega}\bigl(T(\mathbb{A}_{k})/T(k)\bigr)$$  
+$$\tau(T)=\operatorname{vol}_{\omega}\bigl(T(\mathbb{A}_{k})/T(k)\bigr)$$
 
 under this canonical normalization. The *normalization freedom* is the choice of $\{\omega_{v}\}$; the *forced value* is $\tau(T)$.
 
@@ -67,10 +67,10 @@ under this canonical normalization. The *normalization freedom* is the choice of
 
 **Definition 3.1 (Normalization datum).** A *universal adelic normalization datum* is a family $m=\{m_{v}\}_{v\in\Sigma_{k}}$ of measures or trivializations on local objects $X_{v}$, together with a *gluing cocycle* $\rho:\prod_{v}X_{v}\to C$ into a cohomology group $C$ measuring the obstruction to descending the family to a global object $X$.
 
-**Schema.** The aggregate of local normalization factors satisfies  
+**Schema.** The aggregate of local normalization factors satisfies
 
-$$\prod_{v}\mathrm{Norm}_{v}(m_{v})=\nu(X),\qquad 
-\nu(X)=\frac{|\mathrm{H}^{1}_{\mathrm{glue}}|}{|\Sha_{\mathrm{glue}}|},$$  
+$$\prod_{v}\mathrm{Norm}_{v}(m_{v})=\nu(X),\qquad
+\nu(X)=\frac{|\mathrm{H}^{1}_{\mathrm{glue}}|}{|\Sha_{\mathrm{glue}}|},$$
 
 where $\mathrm{H}^{1}_{\mathrm{glue}}$ and $\Sha_{\mathrm{glue}}$ are the cohomology and obstruction groups attached to $\rho$.
 
@@ -94,7 +94,7 @@ Every input is stated with its source; every arithmetic step is shown.
 
 **Inputs.** Normalized absolute values satisfy $|p|_{p}=p^{-1}$, $|q|_{p}=1$ for $q\neq p$, and $|x|_{\infty}=|x|_{\mathbb{R}}$. Prime factorization $12=2^{2}\cdot3$, so $x=12/5=2^{2}\cdot3^{1}\cdot5^{-1}$. Valuations: $v_{2}(x)=2$, $v_{3}(x)=1$, $v_{5}(x)=-1$, $v_{p}(x)=0$ otherwise.
 
-**Local factors.**  
+**Local factors.**
 
 \[
 |x|_{\infty}= \frac{12}{5}=2.4,\qquad
@@ -105,13 +105,13 @@ Every input is stated with its source; every arithmetic step is shown.
 
 All other $|x|_{p}=1$.
 
-**Product.**  
+**Product.**
 
 \[
 \prod_{v}|x|_{v}=2.4\times\frac{1}{4}\times\frac{1}{3}\times5.
 \]
 
-Step‑by‑step: $2.4\times\frac{1}{4}=0.6$; $0.6\times\frac{1}{3}=0.2$; $0.2\times5=1.0$. Hence  
+Step‑by‑step: $2.4\times\frac{1}{4}=0.6$; $0.6\times\frac{1}{3}=0.2$; $0.2\times5=1.0$. Hence
 
 \[
 \prod_{v}\Bigl|\frac{12}{5}\Bigr|_{v}=1.
@@ -125,7 +125,7 @@ Step‑by‑step: $2.4\times\frac{1}{4}=0.6$; $0.6\times\frac{1}{3}=0.2$; $0.2\t
 \prod_{v}|2|_{v}=2\cdot\frac{1}{2}\cdot\prod_{p\neq2}1=1.
 \]
 
-**Adelic height.** Using the standard metric $\max(1,|\cdot|_{v})$ (as in [3] and [4]),  
+**Adelic height.** Using the standard metric $\max(1,|\cdot|_{v})$ (as in [3] and [4]),
 
 \[
 |2/3|_{\infty}= \frac{2}{3},\quad
@@ -134,7 +134,7 @@ Step‑by‑step: $2.4\times\frac{1}{4}=0.6$; $0.6\times\frac{1}{3}=0.2$; $0.2\t
 |2/3|_{p}=1\;(p\neq2,3).
 \]
 
-Hence  
+Hence
 
 \[
 H(2/3)=\max(1,2/3)\cdot\max(1,1/2)\cdot\max(1,3)\cdot\prod_{p\neq2,3}\max(1,1)
@@ -143,7 +143,7 @@ H(2/3)=\max(1,2/3)\cdot\max(1,1/2)\cdot\max(1,3)\cdot\prod_{p\neq2,3}\max(1,1)
 
 ### 4.3 Tamagawa number of $\mathbb{G}_{m}$ over $\mathbb{Q}$
 
-**Input 1.** $\widehat{\mathbb{G}_{m}}=\mathbb{Z}$ with trivial $G_{\mathbb{Q}}$‑action. Continuous homomorphisms $G_{\mathbb{Q}}\to\mathbb{Z}$ are trivial, so  
+**Input 1.** $\widehat{\mathbb{G}_{m}}=\mathbb{Z}$ with trivial $G_{\mathbb{Q}}$‑action. Continuous homomorphisms $G_{\mathbb{Q}}\to\mathbb{Z}$ are trivial, so
 
 \[
 \mathrm{H}^{1}(\mathbb{Q},\widehat{\mathbb{G}_{m}})=0,\qquad |\mathrm{H}^{1}|=1.
@@ -151,7 +151,7 @@ H(2/3)=\max(1,2/3)\cdot\max(1,1/2)\cdot\max(1,3)\cdot\prod_{p\neq2,3}\max(1,1)
 
 **Input 2.** $\Sha(\mathbb{G}_{m})=0$ because a rational number that is a unit at every place must be $\pm1$; thus $|\Sha|=1$.
 
-**Ono value.**  
+**Ono value.**
 
 \[
 \tau(\mathbb{G}_{m})=\frac{|\mathrm{H}^{1}|}{|\Sha|}= \frac{1}{1}=1.
@@ -161,29 +161,29 @@ H(2/3)=\max(1,2/3)\cdot\max(1,1/2)\cdot\max(1,3)\cdot\prod_{p\neq2,3}\max(1,1)
 
 ### 4.4 Norm‑one torus of $\mathbb{Q}(i)/\mathbb{Q}$
 
-Let $K=\mathbb{Q}(i)$, $G=\mathrm{Gal}(K/\mathbb{Q})=\{1,\sigma\}$, and $T=R^{1}_{K/\mathbb{Q}}\mathbb{G}_{m}$ defined by  
+Let $K=\mathbb{Q}(i)$, $G=\mathrm{Gal}(K/\mathbb{Q})=\{1,\sigma\}$, and $T=R^{1}_{K/\mathbb{Q}}\mathbb{G}_{m}$ defined by
 
 \[
 1\to T\to\mathrm{Res}_{K/\mathbb{Q}}\mathbb{G}_{m}\xrightarrow{N_{K/\mathbb{Q}}}\mathbb{G}_{m}\to1.
 \]
 
-**Input 1 (character lattice).** $\widehat{\mathrm{Res}_{K/\mathbb{Q}}\mathbb{G}_{m}}=\mathbb{Z}[G]=\mathbb{Z}\oplus\mathbb{Z}\sigma$. The norm map on characters is $1+\sigma$, so  
+**Input 1 (character lattice).** $\widehat{\mathrm{Res}_{K/\mathbb{Q}}\mathbb{G}_{m}}=\mathbb{Z}[G]=\mathbb{Z}\oplus\mathbb{Z}\sigma$. The norm map on characters is $1+\sigma$, so
 
 \[
 \widehat{T}= \ker\bigl(\mathbb{Z}[G]\xrightarrow{1+\sigma}\mathbb{Z}\bigr)
 =\{a+b\sigma\mid a+b=0\}\cong\mathbb{Z},
-\]  
+\]
 
 with $\sigma$ acting by $-1$ (sign representation).
 
-**Input 2 ($\mathrm{H}^{1}(\mathbb{Q},\widehat{T})$).** For the cyclic group $G$ acting by sign on $\mathbb{Z}$, standard cyclic cohomology gives  
+**Input 2 ($\mathrm{H}^{1}(\mathbb{Q},\widehat{T})$).** For the cyclic group $G$ acting by sign on $\mathbb{Z}$, standard cyclic cohomology gives
 
 \[
 \mathrm{H}^{1}(G,\mathbb{Z}_{\mathrm{sign}})
 =\frac{\ker N}{(\sigma-1)\mathbb{Z}},
-\]  
+\]
 
-where $N=1+\sigma$ acts as $a\mapsto a+(-a)=0$, so $\ker N=\mathbb{Z}$; $(\sigma-1)\mathbb{Z}=2\mathbb{Z}$. Hence  
+where $N=1+\sigma$ acts as $a\mapsto a+(-a)=0$, so $\ker N=\mathbb{Z}$; $(\sigma-1)\mathbb{Z}=2\mathbb{Z}$. Hence
 
 \[
 \mathrm{H}^{1}(\mathbb{Q},\widehat{T})\cong\mathbb{Z}/2\mathbb{Z},\qquad |\mathrm{H}^{1}|=2.
@@ -191,7 +191,7 @@ where $N=1+\sigma$ acts as $a\mapsto a+(-a)=0$, so $\ker N=\mathbb{Z}$; $(\sigma
 
 **Input 3 ($\Sha(T)$).** The Hasse norm theorem for cyclic extensions states that an element of $\mathbb{Q}^{\times}$ is a norm from $K$ iff it is a norm locally everywhere. Consequently the local‑to‑global map on $\mathrm{H}^{1}(\mathbb{Q},T)\cong\mathbb{Q}^{\times}/N_{K/\mathbb{Q}}K^{\times}$ is injective on the kernel side, giving $\Sha(T)=0$ and $|\Sha|=1$.
 
-**Ono value.**  
+**Ono value.**
 
 \[
 \tau(T)=\frac{|\mathrm{H}^{1}|}{|\Sha|}= \frac{2}{1}=2.
@@ -201,13 +201,13 @@ where $N=1+\sigma$ acts as $a\mapsto a+(-a)=0$, so $\ker N=\mathbb{Z}$; $(\sigma
 
 ### 4.5 The cokernel criterion
 
-Define the local‑to‑global restriction on characters  
+Define the local‑to‑global restriction on characters
 
 \[
 \rho:\widehat{T}\longrightarrow\prod_{v}\widehat{T}_{v}^{I_{v}},
-\]  
+\]
 
-where $\widehat{T}_{v}^{I_{v}}$ denotes inertia invariants at $v$. The computations of Sections 4.3–4.4 give  
+where $\widehat{T}_{v}^{I_{v}}$ denotes inertia invariants at $v$. The computations of Sections 4.3–4.4 give
 
 \[
 \tau(T)=1\iff |\operatorname{coker}(\rho)|=1\ \text{and}\ \Sha(T)=0.
@@ -215,7 +215,7 @@ where $\widehat{T}_{v}^{I_{v}}$ denotes inertia invariants at $v$. The computati
 
 * For $\mathbb{G}_{m}$ over $\mathbb{Q}$: $\widehat{T}=\mathbb{Z}$, each $\widehat{T}_{v}^{I_{v}}=\mathbb{Z}$, and $\operatorname{coker}(\rho)$ is the class group of $\mathbb{Q}$, of order 1; hence $\tau=1$.
 * For $T=R^{1}_{\mathbb{Q}(i)/\mathbb{Q}}\mathbb{G}_{m}$: $\widehat{T}\cong\mathbb{Z}$ with sign action; at the ramified places $v=2,\infty$ the local invariant groups are trivial, producing $\operatorname{coker}(\rho)$ of order 2, reproducing $\tau(T)=2$.
-* For $\mathbb{G}_{m}$ over a general number field $k$, $\operatorname{coker}(\rho)$ is the class group $C_{k}$, and the schema predicts $\tau(\mathbb{G}_{m,k})\neq1$ exactly when $h_{k}>1$, matching the analytic class‑number formula  
+* For $\mathbb{G}_{m}$ over a general number field $k$, $\operatorname{coker}(\rho)$ is the class group $C_{k}$, and the schema predicts $\tau(\mathbb{G}_{m,k})\neq1$ exactly when $h_{k}>1$, matching the analytic class‑number formula
 
 \[
 \operatorname{Res}_{s=1}\zeta_{k}(s)=\frac{2^{r_{1}}(2\pi)^{r_{2}}h_{k}R_{k}}{w_{k}\sqrt{|D_{k}|}}.
@@ -248,45 +248,45 @@ The forced value equals 1 precisely when the gluing cokernel and obstruction g
 
 We report only quantities computed in Section 4, with full arithmetic shown there.
 
-* **R1.** $\displaystyle\prod_{v}\Bigl|\frac{12}{5}\Bigr|_{v}=2.4\times\frac{1}{4}\times\frac{1}{3}\times5=1$ (Section 4.1).  
-* **R2.** $\displaystyle\prod_{v}|2|_{v}=2\cdot\frac{1}{2}=1$ (Section 4.2).  
-* **R3.** The adelic height $H(2/3)=1\cdot1\cdot3=3$ (Section 4.2).  
-* **R4.** $\tau(\mathbb{G}_{m})=1$ over $\mathbb{Q}$, derived both from the residue of $\zeta(s)$ at $s=1$ and from Ono’s formula with $|\mathrm{H}^{1}|=1$, $|\Sha|=1$ (Section 4.3).  
-* **R5.** $\tau\bigl(R^{1}_{\mathbb{Q}(i)/\mathbb{Q}}\mathbb{G}_{m}\bigr)=2$, using $|\mathrm{H}^{1}|=2$, $|\Sha|=1$ (Section 4.4).  
+* **R1.** $\displaystyle\prod_{v}\Bigl|\frac{12}{5}\Bigr|_{v}=2.4\times\frac{1}{4}\times\frac{1}{3}\times5=1$ (Section 4.1).
+* **R2.** $\displaystyle\prod_{v}|2|_{v}=2\cdot\frac{1}{2}=1$ (Section 4.2).
+* **R3.** The adelic height $H(2/3)=1\cdot1\cdot3=3$ (Section 4.2).
+* **R4.** $\tau(\mathbb{G}_{m})=1$ over $\mathbb{Q}$, derived both from the residue of $\zeta(s)$ at $s=1$ and from Ono’s formula with $|\mathrm{H}^{1}|=1$, $|\Sha|=1$ (Section 4.3).
+* **R5.** $\tau\bigl(R^{1}_{\mathbb{Q}(i)/\mathbb{Q}}\mathbb{G}_{m}\bigr)=2$, using $|\mathrm{H}^{1}|=2$, $|\Sha|=1$ (Section 4.4).
 * **R6.** For $\mathbb{G}_{m}$ over $\mathbb{Q}$, $|\operatorname{coker}(\rho)|=1$ and $\Sha=0$ give $\tau=1$; for the norm‑one torus, $|\operatorname{coker}(\rho)|=2$ and $\Sha=0$ give $\tau=2$ (Section 4.5).
 
 ## 6. Discussion
 
 **Limitations.** The central claim—that Ostrowski’s product formula and Ono’s Tamagawa number formula are specializations of one universal adelic normalization principle—is a conjectural unification, verified only on flagship cases where both sides were already independently known. The schema of Section 3 is a bookkeeping framework, not a new theorem: the exactness of the idelic cohomology sequence (Layer A) and Tate’s thesis (Layer B) are classical, and our contribution is their joint packaging plus the cokernel criterion of Section 4.5. We have not proved that the schema applies beyond the classified cases of Section 4.6; in particular we have not shown that the Bloch–Kato Tamagawa number conjecture ([1], [2]) fits the schema at full strength—only that its formal shape (local Euler factors aggregating to an $L$‑value) is compatible with it.
 
-**Failure modes.**  
-1. *Functional dependence.* The same local data $\{|2/3|_{v}\}$ force the product formula value 1 but the adelic height $H(2/3)=3$ under the max‑functional; any application of the schema must specify the aggregation functional explicitly.  
-2. *Normalization misidentification.* As illustrated by the poset/Wick‑product corrections of [6], an incorrect combinatorial normalization yields a wrong canonical value; our criterion detects this only if the cocycle $\rho$ is correctly identified.  
+**Failure modes.**
+1. *Functional dependence.* The same local data $\{|2/3|_{v}\}$ force the product formula value 1 but the adelic height $H(2/3)=3$ under the max‑functional; any application of the schema must specify the aggregation functional explicitly.
+2. *Normalization misidentification.* As illustrated by the poset/Wick‑product corrections of [6], an incorrect combinatorial normalization yields a wrong canonical value; our criterion detects this only if the cocycle $\rho$ is correctly identified.
 3. *Decorative adelic invocations.* Works such as [9] and [11] satisfy the surface grammar of the schema without a load‑bearing constraint lattice; the three tests (T1)–(T3) of Section 4.6 guard against this, but they have been applied only to the twelve supplied works.
 
 **What would falsify the claims.** The unification conjecture would be falsified by a natural adelic statement satisfying (T1) and (T2) whose forced aggregate value cannot be expressed as $|\mathrm{H}^{1}_{\mathrm{glue}}|/|\Sha_{\mathrm{glue}}|$ for any choice of gluing cocycle; or by a torus for which the cokernel criterion of Section 4.5 predicts a Tamagawa number that disagrees with the independently known value (e.g., a norm‑one torus of a quadratic field with class number > 1). Either outcome would show that the product formula and Tamagawa numbers do not share a single underlying normalization mechanism.
 
-**Open questions.**  
-(i) Does the schema extend to the Jacobian Tamagawa product formula of [7] with the four factors each interpreted as a gluing layer?  
-(ii) Does the categorical identification of [5] upgrade the schema from analogy to a single functor?  
-(iii) Can the arithmetic Hodge index theorem of [4] be sharpened from an inequality‑valued constraint to an equality‑valued one within the schema?  
-(iv) Do the equidistribution measures of [3] admit a cohomological gluing interpretation, or only the measure‑theoretic one given here?  
-(v) How does the speculative adelic QFT program of [10] need to be modified to acquire a genuine gluing cocycle?  
+**Open questions.**
+(i) Does the schema extend to the Jacobian Tamagawa product formula of [7] with the four factors each interpreted as a gluing layer?
+(ii) Does the categorical identification of [5] upgrade the schema from analogy to a single functor?
+(iii) Can the arithmetic Hodge index theorem of [4] be sharpened from an inequality‑valued constraint to an equality‑valued one within the schema?
+(iv) Do the equidistribution measures of [3] admit a cohomological gluing interpretation, or only the measure‑theoretic one given here?
+(v) How does the speculative adelic QFT program of [10] need to be modified to acquire a genuine gluing cocycle?
 
 The supplied bibliography contains exactly twelve works; all are cited, so related‑work coverage is bounded by that list.
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Intended users and decision impact.**  
+**(a) Intended users and decision impact.**
 *Number‑theorists and arithmetic geometers* will use the UANP to decide whether a newly encountered adelic statement (e.g., a Tamagawa number for a torus arising in a descent calculation) can be reduced to a cohomological computation of $\mathrm{H}^{1}$ and $\Sha$. *Cryptographers* designing protocols that rely on adelic volume normalizations (e.g., lattice‑based schemes over number fields) can replace heuristic normalizations with the canonical value predicted by the schema, thereby eliminating a source of implementation error.
 
 **(b) Technology readiness.** The work is purely analytical, has not been peer‑reviewed, and therefore resides at **TRL 1** (basic principles observed and reported).
 
 **(c) Smallest next experiment.** Compute the Tamagawa number of the norm‑one torus $R^{1}_{\mathbb{Q}(\sqrt{-3})/\mathbb{Q}}\mathbb{G}_{m}$, whose class number is 1 but whose unit group has order 6. The experiment consists of (i) determining $\widehat{T}$, (ii) computing $\mathrm{H}^{1}(\mathbb{Q},\widehat{T})$ via cyclic cohomology, and (iii) checking $\Sha(T)=0$ via the Hasse norm theorem. If the resulting $\tau(T)$ differs from the cokernel‑criterion prediction $|\operatorname{coker}(\rho)|\cdot w_{K}/w_{\mathbb{Q}}$, the UANP would be falsified.
 
-**(d) Engineering constraints.**  
-*Data*: Accurate class‑group and unit‑group data for the number field $K$ are required; these are obtained from standard computational algebra systems (e.g., PARI/GP).  
-*Computation*: Explicit Galois cohomology of the sign representation must be performed; for quadratic extensions this reduces to elementary kernel/cokernel calculations as in Section 4.4.  
+**(d) Engineering constraints.**
+*Data*: Accurate class‑group and unit‑group data for the number field $K$ are required; these are obtained from standard computational algebra systems (e.g., PARI/GP).
+*Computation*: Explicit Galois cohomology of the sign representation must be performed; for quadratic extensions this reduces to elementary kernel/cokernel calculations as in Section 4.4.
 *Regulation*: No regulatory constraints apply, as the work is purely mathematical.
 
 **(e) Order‑of‑magnitude projections.** Assuming the class‑group of a quadratic field with discriminant $|D|\le10^{6}$ can be computed in $O(10^{2})$ CPU‑seconds, the total time to verify the UANP for any such field (including cohomology and $\Sha$ checks) is projected to be $<10^{3}$ seconds on a modern workstation. This projection assumes the availability of standard number‑theoretic libraries and the correctness of the Hasse norm theorem implementation.
