@@ -24,13 +24,13 @@ The relevant literature spans natural language processing, social computing, aud
 
 **Sound event localization and detection [3].** Sound event localization and detection (SELD) unifies sound event detection with direction‑of‑arrival estimation, inheriting the challenges of both tasks — noise, reverberation, interference, polyphony, and non‑stationarity of sound sources — plus the additional challenge of assigning correct correspondence between detections and sources; error analysis identifies what makes the task difficult. Polyphony and non‑stationarity are precisely the conditions under which naive Poisson rate estimates for acoustic events fail, and the correspondence problem is an event‑identity ambiguity that our counting formalism must treat as a systematic uncertainty.
 
-**Closed‑loop evaluation of world models [4].** Generative world models can now simulate worlds with striking visual realism, raising the question of whether they endow embodied agents with predictive perception for decision making; progress has been limited by fragmented evaluation, since most benchmarks adopt open‑loop protocols emphasizing visual quality in isolation, and the World‑in‑World benchmark evaluates world models in a closed‑loop world. For event frequencies, closed‑loop evaluation matters because an agent’s actions change which events it subsequently observes: the effective event rate experienced by an embodied agent is action‑conditioned, and simulated worlds are a controlled laboratory where event counts are exactly known by construction. 
+**Closed‑loop evaluation of world models [4].** Generative world models can now simulate worlds with striking visual realism, raising the question of whether they endow embodied agents with predictive perception for decision making; progress has been limited by fragmented evaluation, since most benchmarks adopt open‑loop protocols emphasizing visual quality in isolation, and the World‑in‑World benchmark evaluates world models in a closed‑loop world. For event frequencies, closed‑loop evaluation matters because an agent’s actions change which events it subsequently observes: the effective event rate experienced by an embodied agent is action‑conditioned, and simulated worlds are a controlled laboratory where event counts are exactly known by construction.
 
 **Algorithmicity of the world [5].** A test based on algorithmic complexity theory and an experimental evaluation of Levin’s universal distribution was proposed to identify evidence for or against the claim that the world is algorithmic in nature, implemented as a statistical comparison of the frequency distributions of data from physical sources on the one hand and repositories of information on the other. This is the closest methodological antecedent to our question: it treats the frequency distribution of observed data as a diagnostic of the world’s underlying structure. Our radix‑locking tests are a narrower, parametric cousin: where [5] compares whole frequency distributions against a universal prior, we test a specific one‑parameter family of log‑periodic structures.
 
 **Radio impulsive events and dark matter [6].** The Murchison Widefield Array recorded impulsive radio events in the quiet solar corona at frequencies 98, 120, 132, and 160 MHz, and it has been proposed that these events are the direct manifestation of dark matter annihilation events within the axion quark nugget (AQN) framework, building on prior arguments about AQN annihilation events. [6] reports impulsive radio events in the quiet solar corona at 98, 120, 132 and 160 MHz recorded by the Murchison Widefield Array and proposes an axion quark nugget dark matter interpretation; we use it as our worked example. [6] reports the frequency values 98, 120, 132 and 160 MHz but no event counts or rates, so our test concerns the frequency *values* as a candidate radix‑locked set, not the temporal statistics of the impulses.
 
-**Brane‑world gravity [7].** The Hamiltonian theory of brane‑world gravity presents a canonical formulation in which a four‑dimensional brane is embedded in a five‑dimensional bulk, enabling the study of physical phenomena via Hamiltonian equations. The specific point borrowed from [7] is its canonical Hamiltonian separation of bulk from brane dynamics for a four‑dimensional brane in a five‑dimensional bulk; we use that separation as the template for the rule, stated formally in Section 3.1, that a frequency claim must state whether it refers to the world‑side event‑generating process or to the detector‑side observation process, and we do not claim any further dynamical content from [7]. 
+**Brane‑world gravity [7].** The Hamiltonian theory of brane‑world gravity presents a canonical formulation in which a four‑dimensional brane is embedded in a five‑dimensional bulk, enabling the study of physical phenomena via Hamiltonian equations. The specific point borrowed from [7] is its canonical Hamiltonian separation of bulk from brane dynamics for a four‑dimensional brane in a five‑dimensional bulk; we use that separation as the template for the rule, stated formally in Section 3.1, that a frequency claim must state whether it refers to the world‑side event‑generating process or to the detector‑side observation process, and we do not claim any further dynamical content from [7].
 
 **Frequency separation for real‑world super‑resolution [8].** Most super‑resolution methods assume paired low‑resolution/high‑resolution images or a known down‑scaling operator; while effective on benchmarks, they often fail to produce convincing results in real‑world settings, and a frequency‑separation approach has been proposed for the real‑world case. The analogy is direct: methods calibrated on idealized observation models fail on actual‑world streams whose degradation operator is unknown, and the fix involves separating frequency bands — the same move we make by separating the world‑side event process from detector‑side degradation before inferring rates.
 
@@ -43,7 +43,7 @@ The relevant literature spans natural language processing, social computing, aud
 Let the world generate an event process with unobserved rate $\lambda_w$ (events per unit time in some class $c$). A detector $D$ with sensitivity window $W_D$ and threshold $\theta_D$ produces detections. We model the detected count in observation time $T_{\text{obs}}$ as Poisson:
 
 $$
-N_D \sim \text{Poisson}(\lambda_D T_{\text{obs}}), \qquad 
+N_D \sim \text{Poisson}(\lambda_D T_{\text{obs}}), \qquad
 \lambda_D = \eta_D(\theta_D, W_D)\,\lambda_w,
 $$
 
@@ -62,7 +62,7 @@ $$
 The structural alternative to the homogeneous null $\lambda_t = \lambda_0$ is a log‑periodic modulation of the rate,
 
 $$
-\lambda_t = \lambda_0 \left[1 + \epsilon_p \cos\!\left(\omega_p \ln \frac{t}{t_0}\right)\right], \qquad 
+\lambda_t = \lambda_0 \left[1 + \epsilon_p \cos\!\left(\omega_p \ln \frac{t}{t_0}\right)\right], \qquad
 \omega_p = \frac{2\pi}{\ln p},
 $$
 
@@ -110,22 +110,22 @@ All inputs are stated with their sources; all arithmetic is shown step by step.
 **Input (from [10]):** $\omega_p = 2\pi/\ln(p)$, $p \in \{2,3,5,7\}$. Constants: $2\pi = 6.283185$; $\ln 2 = 0.693147$; $\ln 3 = 1.098612$; $\ln 5 = 1.609438$; $\ln 7 = 1.945910$.
 
 $$
-\omega_2 = \frac{6.283185}{0.693147} = 9.064722, \qquad 
+\omega_2 = \frac{6.283185}{0.693147} = 9.064722, \qquad
 \text{check: } 0.693147 \times 9.064722 = 6.283185.
 $$
 
 $$
-\omega_3 = \frac{6.283185}{1.098612} = 5.719203, \qquad 
+\omega_3 = \frac{6.283185}{1.098612} = 5.719203, \qquad
 \text{check: } 1.098612 \times 5.719203 = 6.283185.
 $$
 
 $$
-\omega_5 = \frac{6.283185}{1.609438} = 3.903962, \qquad 
+\omega_5 = \frac{6.283185}{1.609438} = 3.903962, \qquad
 \text{check: } 1.609438 \times 3.903962 = 6.283185.
 $$
 
 $$
-\omega_7 = \frac{6.283185}{1.945910} = 3.228919, \qquad 
+\omega_7 = \frac{6.283185}{1.945910} = 3.228919, \qquad
 \text{check: } 1.945910 \times 3.228919 = 6.283185.
 $$
 
@@ -136,7 +136,7 @@ $$
 $$
 
 $$
-\frac{\omega_2}{\omega_5} = \frac{1.609438}{0.693147} = 2.321929 = \log_2 5, \qquad 
+\frac{\omega_2}{\omega_5} = \frac{1.609438}{0.693147} = 2.321929 = \log_2 5, \qquad
 \frac{\omega_3}{\omega_5} = \frac{1.609438}{1.098612} = 1.464974 = \log_3 5.
 $$
 

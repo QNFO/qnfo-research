@@ -1,17 +1,8 @@
-# Gauge-Invariant
-Field Theory of Signal-Worker Interactions
+# Gauge-Invariant Field Theory of Signal-Worker Interactions
 
-## Deriving
-the Logical Cloning Prohibition from First Principles of Quantum
-Architectonics
+## Abstract
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers **Date:**
-2026-02-03 **Version:** 2.0.0
-
-**Abstract**: The transition of Quantum Architectonics
+The transition of Quantum Architectonics
 from a materials-centric discipline to a fundamental ontology of
 information-matter interaction necessitates a rigorous field-theoretic
 description. This study bridges that gap by promoting the Signal-Worker
@@ -948,12 +939,6 @@ separation breaks down (e.g., in extremely high-energy density
 architectures), corrections from quantum gravity may become relevant.
 However, for all foreseeable quantum technologies, the effective field
 theory presented here remains the appropriate description.
-
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
-
 
 ## References
 

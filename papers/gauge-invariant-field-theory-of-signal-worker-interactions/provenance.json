@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/gauge-invariant-field-theory-of-signal-worker-interactions"
   },
   "declared": {
-    "version": "2.0.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "fabc3b0b8d811a399946899158b4f7bbacea5c7bdd1f5d32325bb776a6ac9040",
       "bytes": 56040,
       "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "6a0217cff36bcd6204f9e7d9576efc52c42099f2c74a4d50c15727180edb0a0a",
+      "bytes": 55636,
+      "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
       "git_commit": null
