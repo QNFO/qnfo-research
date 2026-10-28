@@ -10,30 +10,16 @@ Fault‑tolerant quantum computation relies on a classical decoding layer that c
 
 Neural decoders promise learned inference at constant time, but most published architectures hard‑code the code family: the input representation (e.g., a $d\times d\times R$ syndrome tensor) encodes geometry directly into the network. POLYMECHANON [1, 2] proposes a different contract: the decoder consumes only the DEM, a code‑agnostic object any stabiliser code under any expressible noise model can emit, rendered as a tripartite graph with all input features computed from the code as data. If this contract holds at scale, a code designer would compile a DEM and run a single training job—reported to take from hours to a few days on four GPUs—rather than commissioning a bespoke decoder, and a real‑time control stack could budget a fixed, error‑rate‑independent per‑shot decoding cost.
 
-**Contributions.**  
-1. **Quantitative translation.** We convert the reported relative improvements into improvement factors, threshold‑equivalent shifts, distance‑equivalent readings, and throughput budgets, with every input number traced to [1, 2] and all assumptions explicitly labeled.  
-2. **Structural analysis.** We derive exact node and edge counts for canonical DEMs, establish an $O(d^{2}R)$ scaling law, and construct a cheap non‑isomorphism certificate that bounds what any DEM‑only decoder can achieve.  
+**Contributions.**
+1. **Quantitative translation.** We convert the reported relative improvements into improvement factors, threshold‑equivalent shifts, distance‑equivalent readings, and throughput budgets, with every input number traced to [1, 2] and all assumptions explicitly labeled.
+2. **Structural analysis.** We derive exact node and edge counts for canonical DEMs, establish an $O(d^{2}R)$ scaling law, and construct a cheap non‑isomorphism certificate that bounds what any DEM‑only decoder can achieve.
 3. **Critical appraisal.** We identify size‑generalization, DEM fidelity, and hardware‑asymmetric latency comparison as the principal risks, and we propose concrete falsification experiments for each.
 
 ## 2. Background and Related Work
 
 **POLYMECHANON decoder [1, 2].** The decoder ingests a DEM represented as a tripartite graph of detectors, error mechanisms, and logical observables. Its headline claims are: up to 25 % fewer logical failures than correlated MWPM on the rotated surface code; up to 16 % fewer failures than BP+OSD on the $[[130,4,6]]$ qLDPC code; decoding time independent of physical error rate, a few ms per shot on a single GPU versus a few tens of ms on a single CPU core; a cross‑code model that stays within 10 % of BP+OSD on seen families but fails to generalize to unseen larger codes; and confidence‑based post‑selection that lowers the logical error rate by more than an order of magnitude while retaining >90 % of shots. These statements constitute the sole empirical inputs to our derivations.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**QNFO frameworks [10–13].**    
+**QNFO frameworks [10–13].**
 
 ## 3. Methods
 
@@ -41,11 +27,11 @@ Neural decoders promise learned inference at constant time, but most published a
 
 **Analytical pipeline.**
 
-1. **Claim extraction.** From [1, 2] we extract five headline claims (C1–C5) listed in the Introduction.  
-2. **Unit normalization.** “X % fewer logical failures’’ is interpreted as a relative reduction factor $F=1-X/100$.  
-3. **Model‑based translation.** We employ the sub‑threshold scaling ansatz $p_L(p,d)=A\,(p/p_{\mathrm{th}})^{\lceil d/2\rceil}$, noting that it is well supported for surface codes and heuristic for qLDPC codes.  
-4. **Structural sizing.** The DEM is modeled as an attributed tripartite graph $G=(D\cup M\cup L,E)$. Node and edge counts are derived for canonical cases under explicitly stated construction conventions.  
-5. **Throughput budgeting.** Latency claims are bounded using the published qualitative ranges; a neutral‑atom‑style cycle budget $T_{\mathrm{cycle}}=10$ ms is introduced as a projection parameter.  
+1. **Claim extraction.** From [1, 2] we extract five headline claims (C1–C5) listed in the Introduction.
+2. **Unit normalization.** “X % fewer logical failures’’ is interpreted as a relative reduction factor $F=1-X/100$.
+3. **Model‑based translation.** We employ the sub‑threshold scaling ansatz $p_L(p,d)=A\,(p/p_{\mathrm{th}})^{\lceil d/2\rceil}$, noting that it is well supported for surface codes and heuristic for qLDPC codes.
+4. **Structural sizing.** The DEM is modeled as an attributed tripartite graph $G=(D\cup M\cup L,E)$. Node and edge counts are derived for canonical cases under explicitly stated construction conventions.
+5. **Throughput budgeting.** Latency claims are bounded using the published qualitative ranges; a neutral‑atom‑style cycle budget $T_{\mathrm{cycle}}=10$ ms is introduced as a projection parameter.
 
 All derived quantities trace to [1, 2] plus explicitly labeled assumptions; no numbers are invented.
 
@@ -53,7 +39,7 @@ All derived quantities trace to [1, 2] plus explicitly labeled assumptions; 
 
 ### 4.1 Improvement factor and effective threshold shift (C1)
 
-Input [1, 2]: up to 25 % fewer logical failures than correlated MWPM.  
+Input [1, 2]: up to 25 % fewer logical failures than correlated MWPM.
 Improvement factor:
 $$F_1 = 1 - 0.25 = 0.75.$$
 
@@ -63,8 +49,8 @@ $$\left(\frac{p_{\mathrm{th}}^{\mathrm{MWPM}}}{p_{\mathrm{th}}^{\mathrm{POLY}}}\
 \frac{p_{\mathrm{th}}^{\mathrm{POLY}}}{p_{\mathrm{th}}^{\mathrm{MWPM}}}
 =\left(\frac{4}{3}\right)^{1/m}.$$
 
-* At $d=5$ ($m=3$): $\ln(4/3)=0.287682$; $0.287682/3=0.095894$; $e^{0.095894}=1.100642$, i.e. $\approx 10.06$ % relative threshold improvement.  
-* At $d=7$ ($m=4$): $0.287682/4=0.071921$; $e^{0.071921}=1.074570$, i.e. $\approx 7.46$ % improvement.  
+* At $d=5$ ($m=3$): $\ln(4/3)=0.287682$; $0.287682/3=0.095894$; $e^{0.095894}=1.100642$, i.e. $\approx 10.06$ % relative threshold improvement.
+* At $d=7$ ($m=4$): $0.287682/4=0.071921$; $e^{0.071921}=1.074570$, i.e. $\approx 7.46$ % improvement.
 * At $d=9$ ($m=5$): $0.287682/5=0.057536$; $e^{0.057536}=1.059224$, i.e. $\approx 5.92$ % improvement.
 
 **Distance‑equivalent reading.** At fixed threshold with $r=0.5$:
@@ -73,7 +59,7 @@ One odd‑distance step ($\Delta d=2$) multiplies $p_L$ by $0.5$, so the 25 % 
 
 ### 4.2 qLDPC improvement (C2)
 
-Input [1, 2]: up to 16 % fewer logical failures than BP+OSD on $[[130,4,6]]$.  
+Input [1, 2]: up to 16 % fewer logical failures than BP+OSD on $[[130,4,6]]$.
 Improvement factor:
 $$F_2 = 1 - 0.16 = 0.84,$$
 with $m=\lceil6/2\rceil=3$.
@@ -82,12 +68,12 @@ Threshold ratio:
 $$\frac{p_{\mathrm{th}}^{\mathrm{POLY}}}{p_{\mathrm{th}}^{\mathrm{BP+OSD}}}
 =\left(\frac{1}{0.84}\right)^{1/3}.$$
 
-Arithmetic: $1/0.84=1.190476$; $\ln(1.190476)=0.174353$; $0.174353/3=0.058118$; $e^{0.058118}=1.059840$.  
+Arithmetic: $1/0.84=1.190476$; $\ln(1.190476)=0.174353$; $0.174353/3=0.058118$; $e^{0.058118}=1.059840$.
 Thus the equivalent relative threshold improvement is $\approx 5.98$ %.
 
 ### 4.3 Latency and throughput (C3)
 
-Input [1, 2]: “a few ms’’ per shot on one GPU versus “a few tens of ms’’ on one CPU core (for $[[130,4,6]]$).  
+Input [1, 2]: “a few ms’’ per shot on one GPU versus “a few tens of ms’’ on one CPU core (for $[[130,4,6]]$).
 We instantiate “a few ms’’ as $t_{\mathrm{G}}\in[2,5]$ ms and “a few tens of ms’’ as $t_{\mathrm{B}}\in[20,50]$ ms.
 
 Speedup bounds:
@@ -103,7 +89,7 @@ $$\text{GPU: } \frac{1}{0.0035}\approx285.7\ \text{shots s}^{-1},\qquad
 
 ### 4.4 Post‑selection consistency (C5)
 
-Input [1, 2]: confidence‑based post‑selection reduces logical error by >10× while retaining >90 % of shots.  
+Input [1, 2]: confidence‑based post‑selection reduces logical error by >10× while retaining >90 % of shots.
 Let retained fraction $f=0.9$, post‑selected rate $p_L' = p_L/10$, and discarded‑shot rate $p_L^{\mathrm{disc}}$. Conservation of failures:
 $$p_L = f\,p_L' + (1-f)\,p_L^{\mathrm{disc}}.$$
 
@@ -119,8 +105,8 @@ $$\frac{10}{0.9}\approx11.1\times.$$
 
 ### 4.5 DEM graph sizing (structural derivation)
 
-**Surface code, phenomenological noise.**  
-Detectors: $N_D=(d^{2}-1)(R-1)$.  
+**Surface code, phenomenological noise.**
+Detectors: $N_D=(d^{2}-1)(R-1)$.
 At $d=8$, $R=8$: $d^{2}-1=63$, $R-1=7$, $N_D=63\times7=441$.
 
 Mechanisms: $n=d^{2}=64$ data qubits → $128$ data‑error mechanisms per round (each flips 2 detectors); $63$ measurement‑error mechanisms per round (each flips 1 detector). Over $7$ rounds:
@@ -136,10 +122,10 @@ $$N_{\text{nodes}}=441+1337+1=1779,\qquad
 N_{\text{edges}}=2233+448=2681.$$
 All counts scale as $O(d^{2}R)$.
 
-**$[[130,4,6]]$ qLDPC (projection).**  
-Detectors per round: $n-k=126$.  
-Assume $4$ mechanisms per qubit per round (circuit‑level noise multiplier).  
-Mechanisms per round: $4\times130=520$, yielding $\approx1040$ detector edges and $\approx520$ logical edges per round.  
+**$[[130,4,6]]$ qLDPC (projection).**
+Detectors per round: $n-k=126$.
+Assume $4$ mechanisms per qubit per round (circuit‑level noise multiplier).
+Mechanisms per round: $4\times130=520$, yielding $\approx1040$ detector edges and $\approx520$ logical edges per round.
 At $R=8$:
 $$N_{\text{nodes}}\approx126\times8 + 520\times8 + 4 = 5172,$$
 $$N_{\text{edges}}\approx(1040+520)\times8 = 12480.$$
@@ -159,42 +145,40 @@ $$\frac{p_L^{\mathrm{cross}}}{p_L^{\mathrm{BP+OSD}}}\le1.10.$$
 Combined with the dedicated‑model factor $F_2=0.84$ on $[[130,4,6]]$, the worst‑case penalty of the cross‑code model versus a dedicated model is
 $$\frac{1.10}{0.84}=1.3095\approx1.31.$$
 
-
-
 ## 5. Results
 
-1. **Surface‑code improvement factor.** $F_1=0.75$; equivalent threshold improvements: $\approx 10.06$ % at $d=5$, $\approx 7.46$ % at $d=7$, $\approx 5.92$ % at $d=9$; distance‑equivalent exponent gain $0.415$ ($\approx$half a distance step at $r=0.5$).  
-2. **qLDPC improvement factor.** $F_2=0.84$; equivalent threshold improvement $\approx 5.98$ %; encoding rate $k/n=4/130\approx3.08\%$.  
-3. **Latency (conditional).** Speedup bounded in $[4\times,25\times]$, midpoint $\approx 10$×; projected throughputs $≈286$ shots s$^{-1}$ (GPU) vs $≈29$ shots s$^{-1}$ (CPU).  
-4. **Post‑selection (conditional).** >10× error reduction at >90 % retention requires discarded‑shot failure rate $\approx 9.1$× base; throughput cost $≈11.1\%$; accuracy‑per‑throughput gain $≈11.1\times$.  
-5. **DEM sizing.** Surface code ($d=8$, $R=8$): 441 detectors, 1 337 mechanisms, 1 779 nodes, 2 681 edges, $O(d^{2}R)$.  
-   $[[130,4,6]]$ ($R=8$): $\approx 5$ 172 nodes, $\approx 12$ 480 edges (projection).  
-6. **Non‑isomorphism certificate.** Part‑size vectors differ for all integer $R$, proving the two DEMs non‑isomorphic.  
+1. **Surface‑code improvement factor.** $F_1=0.75$; equivalent threshold improvements: $\approx 10.06$ % at $d=5$, $\approx 7.46$ % at $d=7$, $\approx 5.92$ % at $d=9$; distance‑equivalent exponent gain $0.415$ ($\approx$half a distance step at $r=0.5$).
+2. **qLDPC improvement factor.** $F_2=0.84$; equivalent threshold improvement $\approx 5.98$ %; encoding rate $k/n=4/130\approx3.08\%$.
+3. **Latency (conditional).** Speedup bounded in $[4\times,25\times]$, midpoint $\approx 10$×; projected throughputs $≈286$ shots s$^{-1}$ (GPU) vs $≈29$ shots s$^{-1}$ (CPU).
+4. **Post‑selection (conditional).** >10× error reduction at >90 % retention requires discarded‑shot failure rate $\approx 9.1$× base; throughput cost $≈11.1\%$; accuracy‑per‑throughput gain $≈11.1\times$.
+5. **DEM sizing.** Surface code ($d=8$, $R=8$): 441 detectors, 1 337 mechanisms, 1 779 nodes, 2 681 edges, $O(d^{2}R)$.
+   $[[130,4,6]]$ ($R=8$): $\approx 5$ 172 nodes, $\approx 12$ 480 edges (projection).
+6. **Non‑isomorphism certificate.** Part‑size vectors differ for all integer $R$, proving the two DEMs non‑isomorphic.
 7. **Cross‑code penalty bracket (conditional).** $[1.0,1.31]$ relative to the dedicated model.
 
 ## 6. Discussion
 
-**Limitations.**  
-(i) The threshold translations rely on the $\lceil d/2\rceil$ ansatz, which is well supported for surface codes but heuristic for qLDPC codes; the qLDPC figures are therefore illustrative.  
-(ii) All quantitative inputs are drawn from the abstract of [1, 2]; the “up to X %’’ phrasing denotes best‑case performance, so typical performance may be lower.  
-(iii) The latency bounds compare GPU to CPU hardware and thus overstate any hardware‑neutral advantage; a same‑hardware comparison is not derivable from the source.  
-(iv) The qLDPC graph‑size projection assumes a mechanism multiplier of 4; the true multiplier is unspecified, so the node/edge counts are approximate.  
+**Limitations.**
+(i) The threshold translations rely on the $\lceil d/2\rceil$ ansatz, which is well supported for surface codes but heuristic for qLDPC codes; the qLDPC figures are therefore illustrative.
+(ii) All quantitative inputs are drawn from the abstract of [1, 2]; the “up to X %’’ phrasing denotes best‑case performance, so typical performance may be lower.
+(iii) The latency bounds compare GPU to CPU hardware and thus overstate any hardware‑neutral advantage; a same‑hardware comparison is not derivable from the source.
+(iv) The qLDPC graph‑size projection assumes a mechanism multiplier of 4; the true multiplier is unspecified, so the node/edge counts are approximate.
 (v) The isomorphism argument uses part‑size vectors, a weak invariant; stronger invariants could tighten the ceiling but are not required for the present claim.
 
-**Failure modes of the DEM‑only paradigm.**  
-*Size generalization.* Message‑passing receptive fields are local; larger codes exhibit correlation structures exceeding the receptive field of networks trained on smaller graphs, as observed in transfer‑learning literature [4, 8].  
-*Representational ceiling.* DEM‑isomorphic codes cannot be distinguished, limiting any decoder that relies solely on the DEM.  
-*Density.* The DEM size is fixed by code and noise model, so the decoder processes a dense graph even when the syndrome is sparse, potentially losing the latency advantage of defect‑centric approaches [7].  
+**Failure modes of the DEM‑only paradigm.**
+*Size generalization.* Message‑passing receptive fields are local; larger codes exhibit correlation structures exceeding the receptive field of networks trained on smaller graphs, as observed in transfer‑learning literature [4, 8].
+*Representational ceiling.* DEM‑isomorphic codes cannot be distinguished, limiting any decoder that relies solely on the DEM.
+*Density.* The DEM size is fixed by code and noise model, so the decoder processes a dense graph even when the syndrome is sparse, potentially losing the latency advantage of defect‑centric approaches [7].
 *Training cost opacity.* The abstract reports training times (hours to days on four GPUs) but does not quantify total computational cost, which must be considered in system‑level budgeting.
 
-**Falsification experiments.**  
-1. **Post‑selection test.** Measure discarded‑shot failure rate; if it is < 9 × base, the >10× reduction claim is falsified.  
-2. **Latency parity test.** Run POLYMECHANON and BP+OSD on identical GPU hardware; if the measured speedup falls below 4×, the latency claim is falsified.  
-3. **Cross‑code generalization test.** Train a single model on small surface‑code DEMs and evaluate on unseen larger qLDPC DEMs without retraining; a failure to achieve performance within the $[1.0,1.31]$ penalty bracket falsifies the structural‑class explanation.  
-4. **Threshold extrapolation test.** Verify that the observed logical‑error reduction matches the predicted threshold shift at multiple distances; deviation beyond the reported “up to X %’’ range falsifies the ansatz‑based translation.  
+**Falsification experiments.**
+1. **Post‑selection test.** Measure discarded‑shot failure rate; if it is < 9 × base, the >10× reduction claim is falsified.
+2. **Latency parity test.** Run POLYMECHANON and BP+OSD on identical GPU hardware; if the measured speedup falls below 4×, the latency claim is falsified.
+3. **Cross‑code generalization test.** Train a single model on small surface‑code DEMs and evaluate on unseen larger qLDPC DEMs without retraining; a failure to achieve performance within the $[1.0,1.31]$ penalty bracket falsifies the structural‑class explanation.
+4. **Threshold extrapolation test.** Verify that the observed logical‑error reduction matches the predicted threshold shift at multiple distances; deviation beyond the reported “up to X %’’ range falsifies the ansatz‑based translation.
 5. **Training‑cost accounting.** Compare total GPU‑hours required for a new code family against the claimed “hours to days’’; a significantly higher cost would challenge the practicality claim.
 
-**Open questions.** Can spectral invariants [11] be used to cluster DEMs and guide curriculum learning? Does a queuing‑network analysis [3] yield a baseline that a GNN must surpass to justify its cost? Are multi‑view aggregation strategies [9] effective for combining detector, mechanism, and logical‑observable messages?  
+**Open questions.** Can spectral invariants [11] be used to cluster DEMs and guide curriculum learning? Does a queuing‑network analysis [3] yield a baseline that a GNN must surpass to justify its cost? Are multi‑view aggregation strategies [9] effective for combining detector, mechanism, and logical‑observable messages?
 
 ## 7. Practical Implications and Engineering Pathways
 
@@ -204,7 +188,7 @@ $$\frac{1.10}{0.84}=1.3095\approx1.31.$$
 
 **(c) Minimal next experiment.** Build a prototype decoder that ingests a DEM for a rotated surface code at $d=5$ and $d=7$, measures logical error rate across a range of physical error rates, and records per‑shot wall‑clock time on the same GPU/CPU hardware. Success criteria: (i) observed logical‑error reduction $\ge$ 20 % relative to correlated MWPM (matching the “up to 25 %’’ claim) and (ii) measured GPU latency $\le$ 5 ms per shot, confirming a speedup $\ge$ 5× over the CPU baseline. Failure of either criterion falsifies the main quantitative claims.
 
-**(d) Engineering constraints.** The DEM construction requires full knowledge of detector‑mechanism‑observable relationships; any omission degrades input fidelity. GPU memory limits bound the maximum DEM size that can be processed in a single forward pass; for large qLDPC codes the $O(d^{2}R)$ node count may exceed typical GPU capacities, necessitating graph‑partitioning or out‑of‑core techniques (open question).  
+**(d) Engineering constraints.** The DEM construction requires full knowledge of detector‑mechanism‑observable relationships; any omission degrades input fidelity. GPU memory limits bound the maximum DEM size that can be processed in a single forward pass; for large qLDPC codes the $O(d^{2}R)$ node count may exceed typical GPU capacities, necessitating graph‑partitioning or out‑of‑core techniques (open question).
 
 **(e) Projected cost/performance bounds.** Assuming the latency ranges $t_{\mathrm{G}}\in[2,5]$ ms and $t_{\mathrm{B}}\in[20,50]$ ms from § 4.3, the projected speedup is $[4\times,25\times]$ with a midpoint of $10\times$. The projected throughput at the midpoint is $≈286$ shots s$^{-1}$ per GPU versus $≈29$ shots s$^{-1}$ per CPU core, implying a hardware‑cost advantage of roughly one GPU per ten CPU cores for comparable decoding rates. These projections are explicitly labeled as conditional on the latency statements in the abstract.
 
