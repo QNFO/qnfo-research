@@ -1,12 +1,5 @@
 # p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models
 
-**Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-07-05 | **Version:** v1.0
-**License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-**Project:** QLoF Extension — Program D, Phase 3
-**Prerequisites:** Phase 1 — "p-Adic Braid Groups on Bruhat-Tits Buildings" (v1.0, https://papers.qnfo.org/papers) | Phase 2 — "The p-Adic Temperley-Lieb Parameter" (v1.0, https://papers.qnfo.org/papers)
-
----
-
 ## Abstract
 
 Phases 1–2 established the p-adic braid group $B_n(\mathbb{Q}_p)$ on Bruhat-Tits buildings and identified the Temperley-Lieb parameter $\delta$ as a p-adic cyclotomic unit, yielding a p-adic Markov trace and Jones polynomial $V_L^p(t) \in \mathbb{Z}_p[\zeta_{2p^k}]$. In this third phase, we complete the chain from braid groups to anyons at non-archimedean places by constructing p-adic anyon models via the quantum group $U_q(\mathfrak{sl}_2)$ at $q = \zeta_{2p^k}$, a primitive $2p^k$-th root of unity in $\bar{\mathbb{Q}}_p$. We define the restricted quantum group $\bar{U}_q(\mathfrak{sl}_2)$ over the p-adic integer ring $\mathbb{Z}_p[\zeta_{2p^k}]$, classify its finite-dimensional irreducible representations as p-adic anyon types, and compute the fusion rules via the p-adic Verlinde algebra. The $S$-matrix and $T$-matrix take values in $\mathbb{Z}_p[\zeta_{2p^k}] \subset \bar{\mathbb{Q}}_p$ rather than $\mathbb{C}$, endowing the modular tensor category with an ultrametric structure. We compute the braiding matrices ($R$-matrix) for tensor products of anyon representations and show that the p-adic valuation of braiding amplitudes provides a natural hierarchical gate model: computations at higher p-adic precision correspond to deeper levels of the Bruhat-Tits building. For the p-adic analog of the Fibonacci anyon ($p=5$, $k=3$), we exhibit explicit $F$-matrices and $R$-matrices valued in $\mathbb{Z}_5[\zeta_{10}]$ and demonstrate that the p-adic valuation stratifies braiding operations into precision levels, eliminating the continuous approximation overhead of the Solovay-Kitaev theorem. The results establish that p-adic anyons constitute a well-defined mathematical framework for topological quantum computation with ultrametric computational structure.
@@ -434,8 +427,6 @@ The adelic product over all places yields the complete theory. Phase 4 will form
 6. **Classification of p-adic MTCs:** What is the complete classification of modular tensor categories over p-adic fields? This is the p-adic analog of the classification of MTCs over $\mathbb{C}$.
 
 ---
-
-
 
 ## References
 

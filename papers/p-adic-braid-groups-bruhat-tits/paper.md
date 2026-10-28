@@ -1,12 +1,5 @@
 # p-Adic Braid Groups on Bruhat-Tits Buildings
 
-**Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-07-05 | **Version:** v1.0
-**License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-**Project:** QLoF Extension — Program D, Phase 1
-**DOI:** Pending
-
----
-
 ## Abstract
 
 The standard braid group $B_n$ is defined as the fundamental group of the configuration space of $n$ distinct points in $\mathbb{R}^2$, $\pi_1(\text{Conf}_n(\mathbb{R}^2))$. This construction is inherently archimedean: it relies on the continuous topology of $\mathbb{R}^2$ to define braiding as continuous path homotopy. By Ostrowski's theorem, the archimedean absolute value $|\cdot|_\infty$ is only one of infinitely many inequivalent completions of $\mathbb{Q}$. We construct the p-adic braid group $B_n(\mathbb{Q}_p)$ on the Bruhat-Tits tree $\mathcal{T}_p$ for $\text{SL}_2(\mathbb{Q}_p)$. The construction replaces continuous paths in $\mathbb{R}^2$ with geodesic edge-paths in the $(p+1)$-regular ultrametric tree. We prove that $B_n(\mathbb{Q}_p)$ satisfies the standard braid relations and admits a surjection onto the symmetric group $S_n$, establishing it as a genuine braid group. We identify the fundamental structural difference: the ultrametric geometry of $\mathcal{T}_p$ eliminates continuous homotopy in favor of discrete tree distance, making braid words inherently finite and p-adically graded. This provides the foundation for defining p-adic anyons and ultrametric topological quantum computation.
@@ -242,7 +235,7 @@ def bruhat_tits_tree(p, depth=5):
             children = list(range(vertex_count, vertex_count + p))
             tree[v] = children
             vertex_count += p
-            new_vertices.extend(children)  
+            new_vertices.extend(children)
         tree[d+1] = new_vertices
     return tree
 ```
@@ -315,8 +308,6 @@ We have defined the p-adic braid group $B_n(\mathbb{Q}_p)$ on the Bruhat-Tits tr
 The construction bridges two previously disconnected mathematical domains: the algebraic p-adic framed braid groups of Juyumaya-Lambropoulou and the geometric Bruhat-Tits theory of Serre. The synthesis suggests that braid groups — and by extension, anyon physics and topological QC — are not uniquely archimedean phenomena but exist at every completion of $\mathbb{Q}$, with the classical theory being merely the special case at the $\infty$ place.
 
 ---
-
-
 
 ## References
 

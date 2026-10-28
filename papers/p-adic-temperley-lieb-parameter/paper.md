@@ -1,13 +1,5 @@
 # The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial
 
-**Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-07-05 | **Version:** v1.0
-**License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-**Project:** QLoF Extension — Program D, Phase 2
-**DOI:** Pending
-**Prerequisite:** Phase 1 — "p-Adic Braid Groups on Bruhat-Tits Buildings" (v1.0)
-
----
-
 ## Abstract
 
 In Phase 1, we defined the p-adic braid group $B_n(\mathbb{Q}_p)$ on the Bruhat-Tits tree $\mathcal{T}_p$ and showed it satisfies the standard braid relations. Here we complete the connection to the Temperley-Lieb algebra and the Jones polynomial at non-archimedean places. The TL algebra parameter $\delta = -A^2 - A^{-2}$, when $A$ is taken to be a primitive $2p^k$-th root of unity in $\bar{\mathbb{Q}}_p$, is shown to be a **p-adic cyclotomic unit** — specifically $\delta$ belongs to $\mathbb{Z}_p[\zeta_{2p^k}]^\times \cap (1 - \zeta_{2p^k})\mathbb{Z}_p[\zeta_{2p^k}]$ and has positive p-adic valuation. We construct a **p-adic Markov trace** on $\text{TL}_n(\delta)$ valued in $\mathbb{Q}_p(\zeta_{2p^k})$ and prove it satisfies all Markov axioms (spherical, Markov property), yielding a **p-adic Jones polynomial** $V_L^p(t) \in \mathbb{Z}_p[\zeta_{2p^k}]$ for any link $L$. The p-adic Jones polynomial is a refinement of the classical Jones polynomial: reduction modulo the uniformizer $\pi = 1 - \zeta_{2p^k}$ recovers the classical polynomial modulo $p$-adic valuation information. We prove that $V_L^p(t)$ detects p-adic distinctions invisible to the classical Jones polynomial and connects to Iwasawa theory via the characteristic ideal of the cyclotomic $\mathbb{Z}_p$-extension.
@@ -296,37 +288,36 @@ The Iwasawa Main Conjecture relates p-adic L-functions to characteristic ideals 
 def p_adic_kauffman_bracket(link_diagram, p, k):
     """
     Compute the p-adic Kauffman bracket for a link diagram.
-    
+
     Args:
         link_diagram: Link diagram as planar graph
         p: prime
         k: level (A = zeta_{2p^k})
-    
+
     Returns:
         Bracket value in Z_p[zeta_{2p^k}]
     """
     A = cyclotomic_root(p, k)  # zeta_{2p^k}
     delta = -(A**2 + A**(-2))
-    
+
     def bracket(diagram):
         # Base case: disjoint circles
         if is_disjoint_circles(diagram):
             n = count_circles(diagram)
             return delta**n
-        
+
         # Find a crossing
         crossing = find_crossing(diagram)
         if crossing is None:
             return delta**count_circles(diagram)
-        
+
         # Skein relation: resolve crossing
         D0 = smooth_0(diagram, crossing)  # parallel smoothing
         D1 = smooth_1(diagram, crossing)  # perpendicular smoothing
-        
-        return A * bracket(D0) + A**(-1) * bracket(D1)
-    
-    return bracket(link_diagram)
 
+        return A * bracket(D0) + A**(-1) * bracket(D1)
+
+    return bracket(link_diagram)
 
 def p_adic_jones(link_diagram, p, k):
     """Compute the p-adic Jones polynomial."""
@@ -402,8 +393,6 @@ $$\text{TL}_n(\delta_p) \to B_n(\mathbb{Q}_p) \to \text{p-adic Jones polynomial 
 The next phase will construct the **p-adic anyon models** — representations of $B_n(\mathbb{Q}_p)$ acting on $\mathbb{Z}_p$-modules — completing the non-archimedean analog of the Kauffman program.
 
 ---
-
-
 
 ## References
 
