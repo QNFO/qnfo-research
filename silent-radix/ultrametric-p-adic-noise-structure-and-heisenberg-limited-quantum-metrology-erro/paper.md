@@ -10,30 +10,30 @@ Engineers of quantum sensors—including magnetometers, atomic clocks, and rotat
 
 The candidate mechanism examined here is an ultrametric—equivalently $p$‑adic—hierarchical structure of the decoherence process. The strong triangle inequality $d(x,z)\le\max\{d(x,y),d(y,z)\}$ forces error events that belong to nested clusters to be nested rather than independent, so that the probability of the union of level‑wise error events is the maximum of the level probabilities, not their sum. This paper derives the quantitative consequences of that nesting axiom, without claiming that physical decoherence has been demonstrated to be ultrametric. The falsifiable hypothesis is that decoherence obeys the nesting law; Section 6 specifies the experimental signatures whose observation would falsify the claim.
 
-**Contributions.**  
-- **C1.** Derivation of the max‑of‑levels error probability $P_{\mathrm{U}}=\varepsilon_0p^{-L}$ (Section 3.3).  
-- **C2.** Exact ratio $P_{\mathrm{A}}/P_{\mathrm{U}}=2047$ for $p=2$, $L=10$, $\varepsilon_0=10^{-2}$ (Section 4.1).  
-- **C3.** Propagation of $P_{\mathrm{U}}$ to GHZ QFI and demonstration of Heisenberg scaling $\Delta\theta\propto N^{-1}$ (Section 4.2).  
-- **C4.** Identification of the optimized product‑probe competitor with sensitivity $\Delta\theta^{\mathrm{prod}}\approx8.4946\times10^{-4}$ at $N=1024$, $\gamma=10^{-2}$ (Section 4.4).  
+**Contributions.**
+- **C1.** Derivation of the max‑of‑levels error probability $P_{\mathrm{U}}=\varepsilon_0p^{-L}$ (Section 3.3).
+- **C2.** Exact ratio $P_{\mathrm{A}}/P_{\mathrm{U}}=2047$ for $p=2$, $L=10$, $\varepsilon_0=10^{-2}$ (Section 4.1).
+- **C3.** Propagation of $P_{\mathrm{U}}$ to GHZ QFI and demonstration of Heisenberg scaling $\Delta\theta\propto N^{-1}$ (Section 4.2).
+- **C4.** Identification of the optimized product‑probe competitor with sensitivity $\Delta\theta^{\mathrm{prod}}\approx8.4946\times10^{-4}$ at $N=1024$, $\gamma=10^{-2}$ (Section 4.4).
 - **C5.** Falsifiability protocol based on nested‑event statistics and scaling measurements (Sections 6.2 and 7).
 
 ## 2. Background and Related Work
 
-**Ultrametric data analysis.** Reference [1] models anomaly and change by embedding data in an ultrametric space derived from correspondence analysis of cross‑tabulation counts, thereby providing a constructive route from raw records to an induced ultrametric hierarchy.  
+**Ultrametric data analysis.** Reference [1] models anomaly and change by embedding data in an ultrametric space derived from correspondence analysis of cross‑tabulation counts, thereby providing a constructive route from raw records to an induced ultrametric hierarchy.
 
-**Markov processes on $p$‑adic spaces.** Reference [2] shows that stationary Markov processes on ultrametric spaces embeddable in $\mathbb{Q}_p$ reduce to pseudo‑differential equations on $\mathbb{Q}_p$, supplying the mathematical machinery for the hierarchical noise process defined in Section 3.  
+**Markov processes on $p$‑adic spaces.** Reference [2] shows that stationary Markov processes on ultrametric spaces embeddable in $\mathbb{Q}_p$ reduce to pseudo‑differential equations on $\mathbb{Q}_p$, supplying the mathematical machinery for the hierarchical noise process defined in Section 3.
 
-**Noise as a foundational category.** Reference [3] discusses noise in the context of quantum and classical systems.  
+**Noise as a foundational category.** Reference [3] discusses noise in the context of quantum and classical systems.
 
-**$p$‑adic statistical mechanics.** Reference [4] studies the three‑state $p$‑adic Potts model on a Cayley tree and discusses phase transitions of the model.  
+**$p$‑adic statistical mechanics.** Reference [4] studies the three‑state $p$‑adic Potts model on a Cayley tree and discusses phase transitions of the model.
 
-**$p$‑adic quantum mechanics.** Reference [5] develops complex‑valued wave functions on $p$‑adic arguments, justifying the use of ordinary complex probe states together with $p$‑adic‑valued noise amplitudes.  
+**$p$‑adic quantum mechanics.** Reference [5] develops complex‑valued wave functions on $p$‑adic arguments, justifying the use of ordinary complex probe states together with $p$‑adic‑valued noise amplitudes.
 
-**Ultrametric models of natural structure.** Reference [6] presents a $p$‑adic model of DNA sequence and the genetic code.  
+**Ultrametric models of natural structure.** Reference [6] presents a $p$‑adic model of DNA sequence and the genetic code.
 
-**Ultrametric functional analysis.** Reference [7] proves ultrametric versions of embedding and extension theorems, guaranteeing that the ultrametric lattice postulated in Section 3 is mathematically robust.  
+**Ultrametric functional analysis.** Reference [7] proves ultrametric versions of embedding and extension theorems, guaranteeing that the ultrametric lattice postulated in Section 3 is mathematically robust.
 
-**Hierarchic quantum systems.** Reference [8] introduces the $p$‑adic wavelet transform as a tool for describing hierarchic quantum systems, motivating the level decomposition used in the noise model.  
+**Hierarchic quantum systems.** Reference [8] introduces the $p$‑adic wavelet transform as a tool for describing hierarchic quantum systems, motivating the level decomposition used in the noise model.
 
 **Program documents.** Reference [9] proposes passive error resilience through ultrametric geometry, arguing that metrological tasks avoid the thermodynamic overhead of active error correction. Reference [11] proposes falsifiable tests of the ultrametric program.
 
@@ -216,34 +216,34 @@ At fixed total averaging time the improvement factor is $\sqrt{p^{L}}=p^{L/2}=4$
 
 All results are model‑derived projections conditional on the nesting axiom of Section 3.6, for the primary inputs $p=2$, $L=10$, $\varepsilon_0=10^{-2}$, $N=1024$.
 
-- **R1.** $P_{\mathrm{U}}=9.765625\times10^{-6}$, $P_{\mathrm{A}}=1.9990234375\times10^{-2}$, ratio $2047$ (exact).  
-- **R2.** $\Delta\theta_{\mathrm{U}}\approx9.7657\times10^{-4}$, $\Delta\theta_{\mathrm{A}}\approx9.42\times10^{5}$, ratio $\approx9.65\times10^{8}$.  
-- **R3.** Scaling law $\Delta\theta_{\mathrm{U}}=1/(N-\varepsilon_0)$, yielding Heisenberg scaling for $N\gg\varepsilon_0$.  
-- **R4.** Optimized product‑probe sensitivity $\Delta\theta^{\mathrm{prod}}\approx8.4946\times10^{-4}$ at $N=1024$, $\gamma=10^{-2}$.  
+- **R1.** $P_{\mathrm{U}}=9.765625\times10^{-6}$, $P_{\mathrm{A}}=1.9990234375\times10^{-2}$, ratio $2047$ (exact).
+- **R2.** $\Delta\theta_{\mathrm{U}}\approx9.7657\times10^{-4}$, $\Delta\theta_{\mathrm{A}}\approx9.42\times10^{5}$, ratio $\approx9.65\times10^{8}$.
+- **R3.** Scaling law $\Delta\theta_{\mathrm{U}}=1/(N-\varepsilon_0)$, yielding Heisenberg scaling for $N\gg\varepsilon_0$.
+- **R4.** Optimized product‑probe sensitivity $\Delta\theta^{\mathrm{prod}}\approx8.4946\times10^{-4}$ at $N=1024$, $\gamma=10^{-2}$.
 - **R5.** Small‑register projection: per‑run improvement factor $16$ and fixed‑time factor $4$ for $p=2$, $L=4$.
 
 ## 6. Discussion
 
 ### 6.1 Limitations and failure modes
 
-- **Conjectural axiom.** The analysis assumes that decoherence events obey the nested‑event structure of Section 3.3. If real decoherence exhibits partial independence across levels, the max‑of‑levels law fails and all ultrametric numbers collapse to the Archimedean column.  
-- **Competitor strength.** At $N=1024$ the optimized product probe outperforms the ultrametric GHZ probe in absolute sensitivity; the claim therefore rests on asymptotic scaling rather than a fixed‑$N$ advantage.  
-- **Prime dependence.** The effective prime $p$ is a model parameter; empirical identification of $p$ may differ from the illustrative choice $p=2$, altering quantitative suppression but not the max‑versus‑sum structure.  
+- **Conjectural axiom.** The analysis assumes that decoherence events obey the nested‑event structure of Section 3.3. If real decoherence exhibits partial independence across levels, the max‑of‑levels law fails and all ultrametric numbers collapse to the Archimedean column.
+- **Competitor strength.** At $N=1024$ the optimized product probe outperforms the ultrametric GHZ probe in absolute sensitivity; the claim therefore rests on asymptotic scaling rather than a fixed‑$N$ advantage.
+- **Prime dependence.** The effective prime $p$ is a model parameter; empirical identification of $p$ may differ from the illustrative choice $p=2$, altering quantitative suppression but not the max‑versus‑sum structure.
 - **Archimedean comparison convention.** Using the sum $P_{\mathrm{A}}$ as the Archimedean benchmark yields an upper bound on the independent‑event probability; intersection corrections would only reduce $P_{\mathrm{A}}$ and strengthen the ultrametric claim.
 
 ### 6.2 Falsifiability
 
-The paradigm is rejected if any of the following measurements are obtained (with statistical significance $>5\sigma$):  
-1. Empirical union probability $P_{\mathrm{meas}}$ equals the sum of level probabilities $\sum_k\Pr(E_k)$ rather than the maximum $\max_k\Pr(E_k)$.  
-2. GHZ coherence decays exponentially in $N$ with no observable $p^{-L}$ suppression.  
-3. The fitted decay per level is inconsistent with any integer prime $p$ (i.e., the effective factor is not $p^{-1}$ for integer $p$).  
+The paradigm is rejected if any of the following measurements are obtained (with statistical significance $>5\sigma$):
+1. Empirical union probability $P_{\mathrm{meas}}$ equals the sum of level probabilities $\sum_k\Pr(E_k)$ rather than the maximum $\max_k\Pr(E_k)$.
+2. GHZ coherence decays exponentially in $N$ with no observable $p^{-L}$ suppression.
+3. The fitted decay per level is inconsistent with any integer prime $p$ (i.e., the effective factor is not $p^{-1}$ for integer $p$).
 
 Conversely, observing saturation of the union probability at the maximum and a scaling $\Delta\theta\propto N^{-1}$ across a range of $N$ would support the ultrametric hypothesis.
 
 ### 6.3 Open questions
 
-1. Applying the correspondence‑analysis pipeline of [1] to real error logs would convert the conjectural axiom into an estimated ultrametric object.  
-2. Investigating $p$‑dependence using the $p$‑adic Potts framework of [4] could reveal phase‑transition‑like behavior in the noise process.  
+1. Applying the correspondence‑analysis pipeline of [1] to real error logs would convert the conjectural axiom into an estimated ultrametric object.
+2. Investigating $p$‑dependence using the $p$‑adic Potts framework of [4] could reveal phase‑transition‑like behavior in the noise process.
 3. Extending the model to mixed ultrametric‑Archimedean noise, as suggested by adelic constructions in [5], would interpolate between the two columns of Section 5.
 
 ## 7. Practical Implications and Engineering Pathways
@@ -263,10 +263,6 @@ Conversely, observing saturation of the union probability at the maximum and a s
 ## 8. Conclusion
 
 By formalizing decoherence as a $p$‑adic hierarchical stochastic process, the analysis demonstrates that ultrametric nesting transforms the union of level‑wise error probabilities from a sum to a maximum, yielding an ultrametric corruption probability $P_{\mathrm{U}}=\varepsilon_0/N$ for balanced hierarchies. Propagation of this probability through GHZ‑state QFI shows that Heisenberg scaling $\Delta\theta\propto N^{-1}$ is retained, whereas independent dephasing collapses GHZ coherence exponentially. The ultrametric advantage manifests in asymptotic scaling rather than fixed‑point sensitivity, and a concrete falsifiability protocol is provided. The work thus offers a clear, quantitative target for experimental investigation of ultrametric noise structures in quantum metrology.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 10. length 4414 -> 2736 words.
 
 ## Provenance and AI Involvement
 

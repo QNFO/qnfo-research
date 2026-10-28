@@ -202,10 +202,6 @@ The sufficient condition for p-adic advantage follows from the model: the applic
 
 We formalized the conjecture that p-adic, ultrametric arithmetic enables energy-proportional precision computing. Under explicit assumptions ($e_d = 0.01$ pJ, $e_a = 0.001$ pJ at 45 nm, $p = 2$), a digit-serial p-adic MAC with energy $E_p(k) = k^2 e_d + k e_a$ beats a $3.7$ pJ floating-point MAC for up to $k^* = 19$ digits at 45 nm and a $0.9$ pJ MAC for up to $k^* = 9$ digits at 7 nm; at a $10^{-2}$ error tolerance ($k = 7$), the computed saving is $86.57\%$ at 45 nm and $44.78\%$ at 7 nm, and a labeled projection for a heterogeneous $10^9$-MAC workload gives a $58.0\%$ total-energy saving with a computed sensitivity band of $-25.5\%$ to $87.2\%$. The sufficient condition for p-adic advantage is an application precision demand below the break-even digit count, with a positive precision-weighted fraction of qualifying MACs. The result is a modeling contribution whose assumptions — especially $e_d$ and the realizability of digit-terminable memory streaming — define the empirical agenda: extracted digit-cell energies, precision profiles of real workloads, and prototype digit-serial arrays. If those confirm the model, ultrametric arithmetic offers a principled route to joules-per-compute scaling with precision, complementing the Archimedean fixed-width paradigm rather than replacing it.
 
-## Version History
-
-- Version 2.0.0 (2026-10-27, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 8. length 4001 -> 5539 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.39.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
