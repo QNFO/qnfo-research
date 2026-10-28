@@ -1,16 +1,8 @@
----
-ISNI: 0000000526456062
-author: Rowan Brad Quni
-email: rowan.quni@qnfo.org
-website: http://qnfo.org
-ORCID: https://orcid.org/0009-0002-4317-5604
-robots: By accessing this content, you agree to https://qnfo.org/LICENSE. Non-commercial use only. Attribution required.
-DC.rights: https://qnfo.org/LICENSE. Users are bound by terms upon access.
-created: 2025-04-22T04:50:39Z
-modified: 2025-05-09T03:21:53Z
-title: 3 Mechanics
-aliases: [Implied Discretization and the Limits of Modeling Continuous Reality]
----
+# 3 Mechanics
+
+## Abstract
+
+To fully grasp the profound consequences of implied discretization, it is essential to delve into the specific mechanics of how numbers are commonly represented and manipulated within digital computers. While various number systems exist, the overwhelming standard for scientific and engineering computation is floating-point arithmetic, typically conforming to the specifications laid out in the IEEE 754 standard. Understanding this standard provides a concrete framework for analyzing how the inherent limitations of finite representation lead inevitably to the discretization effects that challenge the modeling of continuous systems. It reveals precisely where the digital representation diverges from the mathematical ideal of the real number line.
 
 # Implied Discretization and the Limits of Modeling Continuous Reality
 
@@ -121,5 +113,3 @@ The crucial point is that *all* these methods rely on representing numbers using
 ---
 
 [4 Impacts](releases/2025/Implied%20Discretization/4%20Impacts.md)
-
-

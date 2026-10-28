@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/7-autaxys-defined"
   },
   "declared": {
-    "version": "2.1.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "6024a2e153c8c76c3e58b7da324b174258ceb82af846f7f6ecf2515a48ee2617",
       "bytes": 71286,
       "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "ada0f8abb2480411400d6e790b12e023cee19323e2e0cc1ea657598498828655",
+      "bytes": 70840,
+      "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.1.0",
       "git_commit": null

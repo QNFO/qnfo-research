@@ -1,11 +1,6 @@
-## Autaxys
-and Autology: A Frequency-Centric Process Ontology Driven by the
-Generative Cycle and Autaxic Trilemma
+# Autaxys Defined
 
-**Version:** 2.1.0
-**Author:** [Rowan Brad
-Quni](mailto:rowan.quni@qnfo.org) Principal Investigator, [QNFO](https://qnfo.org/)
-ORCID: 0009-0002-4317-5604
+## Abstract
 
 The Autaxys Framework proposes a fundamental physics ontology where
 reality is an intrinsically dynamic, self-generating, and
@@ -1202,7 +1197,3 @@ Reality”. https://papers.qnfo.org/papers (2025).
 [14] Quni, R.B. “Frequency as the Foundation”. DOI:
 https://papers.qnfo.org/papers (2025). (Derivation of mass-frequency
 equivalence).
-## Changelog
-
-- v2.1.0: Added a Prior Work and Related Literature section that places this paper among 2 related QNFO papers.
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
