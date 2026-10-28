@@ -332,12 +332,6 @@ The main result most vulnerable to falsification is R4, the shot-budget claim. A
 
 The uniqueness of a qubit's operational identification is a property of the calibration dynamics, not of the underlying physical system. When the composite operator $T=\Gamma\circ\Phi$ is a contraction, Banach's theorem guarantees a unique fixed point and the circularity is benign: for the illustrative parameters $L=0.6$, $d_{0}=1$, $\varepsilon=10^{-3}$, convergence takes $n=14$ iterations. When $T$ is non-contractive, either multiple discrete fixed points, as in the two-branch model with fixed points $x_{A}^{*}=0$ and $x_{B}^{*}=1$, or continuous $SO(3)$ symmetry orbits can arise, and the resulting ontological underdetermination cannot be resolved by the loop alone. The quantitative criteria derived here—an iteration count, a shot budget of $N=2.649159\times10^{6}$ for $\delta=10^{-3}$ at $\alpha=0.01$, and a minimal detectable asymmetry $\epsilon_{\min}\approx5.001\times10^{-3}$ at $10^{4}$ shots—give hardware designers concrete thresholds for deciding when the standard pipeline suffices and when an out-of-loop, leakage-resolving probe must be engineered. Future work would extend the scalar analysis to multi-parameter loops with measured Jacobians, incorporate correlated noise of the kind the dephasing literature treats, and execute the minimal discriminating experiment proposed in Section 7(c) on representative transmon, trapped-ion, and spin platforms.
 
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 12 -> 9. length 4793 -> 3808 words.
-- Version 2.1.0 (2026-10-22, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence Report; Appendix B. Claim Attribution. references 9 -> 8. length 3856 -> 4166 words.
-- Version 2.2.0 (2026-10-27, from 2.1.0): revised against the current literature, re-reviewed and re-verified. references 8 -> 10. length 4248 -> 4635 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.39.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
