@@ -11,35 +11,21 @@ Quantum engineers and theorists rely on the Harmonic Paradigm’s claim that the
 We answer by (i) defining a place‑resolved distance $\alpha_v$ from a flowing system to the HO fixed point, (ii) deriving RG flows toward each fixed point, and (iii) testing whether the adelic product formula imposes a non‑trivial linkage between places. Our conclusion is option (c): attraction exists in every place but with spectrally different fixed points, and adelic constraints bind only amplitudes, not spectra.
 
 **Contributions.**
-- A place‑resolved RG framework defining $\alpha_v(\ell)=\alpha_v(0)\,e^{-\gamma_v\ell}$ independently at each Ostrowski place (Section 3).  
-- An exact spectral contrast: constant Archimedean gaps versus geometric $p$‑adic gaps with ratio $p$, computed for $p=2,3,5$ (Section 4, A3).  
-- Vertex‑count formulas for Bruhat–Tits trees and cumulative counts through depth 5 (Section 4, A2).  
-- A negative adelic‑linkage result: $\prod_v\alpha_v(\ell)$ varies with $\ell$ unless $\sum_v\gamma_v=0$ (Section 4, A5).  
-- Identification of the adelic constraint on amplitudes, not eigenvalues (Section 4, A6).  
-- A cross‑place gap‑ratio divergence showing $\Delta E^{(\infty)}/\Delta E^{(p)}_n$ grows as $p^{n+1}/(p-1)$ (Section 4, A7).  
+- A place‑resolved RG framework defining $\alpha_v(\ell)=\alpha_v(0)\,e^{-\gamma_v\ell}$ independently at each Ostrowski place (Section 3).
+- An exact spectral contrast: constant Archimedean gaps versus geometric $p$‑adic gaps with ratio $p$, computed for $p=2,3,5$ (Section 4, A3).
+- Vertex‑count formulas for Bruhat–Tits trees and cumulative counts through depth 5 (Section 4, A2).
+- A negative adelic‑linkage result: $\prod_v\alpha_v(\ell)$ varies with $\ell$ unless $\sum_v\gamma_v=0$ (Section 4, A5).
+- Identification of the adelic constraint on amplitudes, not eigenvalues (Section 4, A6).
+- A cross‑place gap‑ratio divergence showing $\Delta E^{(\infty)}/\Delta E^{(p)}_n$ grows as $p^{n+1}/(p-1)$ (Section 4, A7).
 - The verdict that the attractor claim undergoes structural transformation (Section 5, R6).
 
 ## 2. Background and Related Work
 
 The harmonic oscillator has been studied in a variety of quantum‑theoretic contexts that inform the present place‑resolved analysis.
 
-[1] describes a QHO charger‑battery system with Hamiltonian \(\mathcal{H}=\omega_{o}a^{\dagger}a+\omega_{o}b^{\dagger}b+g(ab^{\dagger}+a^{\dagger}b)+F(ae^{i\omega_{f}t}+a^{\dagger}e^{-i\omega_{f}t})\).  
+[1] describes a QHO charger‑battery system with Hamiltonian \(\mathcal{H}=\omega_{o}a^{\dagger}a+\omega_{o}b^{\dagger}b+g(ab^{\dagger}+a^{\dagger}b)+F(ae^{i\omega_{f}t}+a^{\dagger}e^{-i\omega_{f}t})\).
 
-[2] proves the equivalence between the harmonic‑oscillator propagator and the fractional Fourier transform and establishes Strichartz estimates on Pilipovic and modulation spaces, thereby supplying analytic tools that extend to non‑Archimedean functional settings.  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
+[2] proves the equivalence between the harmonic‑oscillator propagator and the fractional Fourier transform and establishes Strichartz estimates on Pilipovic and modulation spaces, thereby supplying analytic tools that extend to non‑Archimedean functional settings.
 
 ## 3. Methods
 
@@ -108,7 +94,7 @@ for all $\ell$. We test whether the adelic product formula forces such a relatio
 
 All numbers below are derived from the stated inputs; no external data are used.
 
-**A1. Product formula verification (three rationals).**  
+**A1. Product formula verification (three rationals).**
 
 *Input 1:* $x=2/3$, with $p=2$ and $p=3$.
 \[
@@ -143,7 +129,7 @@ Product:
 4\times\frac13\times\frac34 = 1.
 \]
 
-**A2. Bruhat–Tits vertex counts up to depth 5.**  
+**A2. Bruhat–Tits vertex counts up to depth 5.**
 
 For $p=2$ the $(p+1)$‑regular tree has branching factor $3$.
 \[
@@ -183,7 +169,7 @@ S_3(5)=1+4+12+36+108+324=485.
 Closed form $S_3(5)=1+4\frac{3^{5}-1}{2}=1+4\times121=485.
 \]
 
-**A3. Spectral gap comparison for $p=2,3,5$.**  
+**A3. Spectral gap comparison for $p=2,3,5$.**
 Normalize $\hbar\omega=E_0=1$.
 
 Archimedean gaps:
@@ -228,7 +214,7 @@ ratio $5$.
 \alpha_v(60)=e^{-6}\approx0.002478752.
 \]
 
-**A5. Product‑of‑distances linkage (three places).**  
+**A5. Product‑of‑distances linkage (three places).**
 With places $v=\infty$, $v=2$, $v=3$, equal $\gamma=0.1$ and $\alpha_v(0)=1$,
 \[
 \prod_v\alpha_v(\ell)=e^{-0.3\ell},
@@ -241,7 +227,7 @@ $$
 $$
 mirroring A1. This binds amplitudes, not eigenvalues, allowing constant Archimedean gaps and geometric $p$‑adic gaps to coexist.
 
-**A7. Cross‑place gap‑ratio divergence.**  
+**A7. Cross‑place gap‑ratio divergence.**
 With $\hbar\omega=E_0=1$, the ratio of the Archimedean gap to a $p$‑adic gap at level $n$ is
 \[
 \frac{\Delta E^{(\infty)}_n}{\Delta E^{(p)}_n}
@@ -275,12 +261,12 @@ For $p=2$ and $n=5$,
 
 In this section we deepen the analytical core of the paper by (i) extending the RG‑distance calculation to a family of decay rates, (ii) analysing the sensitivity of the cross‑place product $\prod_v\alpha_v(\ell)$ to the choice of primes, and (iii) comparing our place‑resolved spectral picture with results from the broader literature cited in the bibliography.
 
-### 1. Generalised RG‑distance with variable decay constants  
+### 1. Generalised RG‑distance with variable decay constants
 
-The linearised flow (Section 3.3) gives  
+The linearised flow (Section 3.3) gives
 \[
 \alpha_v(\ell)=\alpha_v(0)\,e^{-\gamma_v\ell}.
-\]  
+\]
 In the main text we set $\gamma_v=0.1$ for illustration. To assess robustness we now treat $\gamma_v$ as a free parameter and compute the distance at three representative RG scales $\ell\in\{10,30,50\}$ for three decay rates $\gamma_v\in\{0.05,0.10,0.20\}$, keeping $\alpha_v(0)=1$. The table below follows directly from the exponential formula; no external data are introduced.
 
 | $\gamma_v$ | $\ell=10$ | $\ell=30$ | $\ell=50$ |
@@ -291,27 +277,27 @@ In the main text we set $\gamma_v=0.1$ for illustration. To assess robustness we
 
 All numbers are obtained by elementary exponentiation; for example the entry for $\gamma_v=0.10$, $\ell=30$ is $e^{-0.1\times30}=e^{-3}\approx0.04978707$.
 
-### 2. Sensitivity of the product‑of‑distances to the set of primes  
+### 2. Sensitivity of the product‑of‑distances to the set of primes
 
-The product hypothesis examined in A5 reads  
+The product hypothesis examined in A5 reads
 \[
 \Pi(\ell)\equiv\prod_{v\in\{\infty,p_1,p_2,\dots\}}\alpha_v(\ell)=e^{-\bigl(\gamma_\infty+\sum_i\gamma_{p_i}\bigr)\ell}.
-\]  
-If we include the first $k$ primes $p_1=2,\dots,p_k$, and assume a common non‑Archimedean decay $\gamma_{p}=0.1$, the exponent becomes $-\bigl(\gamma_\infty+k\times0.1\bigr)\ell$. Taking $\gamma_\infty=0.1$ (the same value as the $p$‑adic places) we obtain  
+\]
+If we include the first $k$ primes $p_1=2,\dots,p_k$, and assume a common non‑Archimedean decay $\gamma_{p}=0.1$, the exponent becomes $-\bigl(\gamma_\infty+k\times0.1\bigr)\ell$. Taking $\gamma_\infty=0.1$ (the same value as the $p$‑adic places) we obtain
 
 \[
 \Pi_k(\ell)=e^{-0.1(1+k)\ell}.
-\]  
+\]
 
-For $\ell=20$ the explicit values are  
+For $\ell=20$ the explicit values are
 
-* $k=1$ (only $p=2$): $\Pi_1(20)=e^{-0.1\times2\times20}=e^{-4}=0.018315639$;  
-* $k=2$ ( $p=2,3$): $\Pi_2(20)=e^{-0.1\times3\times20}=e^{-6}=0.002478752$;  
+* $k=1$ (only $p=2$): $\Pi_1(20)=e^{-0.1\times2\times20}=e^{-4}=0.018315639$;
+* $k=2$ ( $p=2,3$): $\Pi_2(20)=e^{-0.1\times3\times20}=e^{-6}=0.002478752$;
 * $k=3$ ( $p=2,3,5$): $\Pi_3(20)=e^{-0.1\times4\times20}=e^{-8}=0.0003354626$.
 
 Thus the product decays exponentially with the number of included primes, confirming the analytic statement in A5 that constancy would require $\sum_v\gamma_v=0$.
 
-### 3. Comparison with related works  
+### 3. Comparison with related works
 
 | Bibliographic entry | Specific point from the source | Relation to our analysis |
 |---------------------|--------------------------------|--------------------------|
@@ -324,86 +310,79 @@ Thus the product decays exponentially with the number of included primes, confir
 | **[11]** (Is the Harmonic Oscillator an Infrared Attractor in All Places?) – The introductory excerpt repeats the central claim that “the harmonic oscillator … is the universal infrared attractor of bosonic systems.” Our extended derivations confirm that the attractor property persists at each place, albeit with place‑specific spectra, thus refining the statement of the source. |
 | **[12]** (The Harmonic Paradigm Under Ostrowski’s Theorem) – The excerpt presents the adelic product formula $\prod_v|q|_v=1$ and stresses its role in connecting all completions. Section A6 of our paper uses exactly this identity to argue that amplitudes, not eigenvalues, are constrained across places, in direct agreement with the source. |
 
-### 4. Worked example: a limiting case with vanishing decay  
+### 4. Worked example: a limiting case with vanishing decay
 
-Consider the hypothetical limit $\gamma_v\to0$ for all places. From the RG solution we obtain $\alpha_v(\ell)=\alpha_v(0)$, i.e. the distance from the fixed point does not decay. Consequently  
+Consider the hypothetical limit $\gamma_v\to0$ for all places. From the RG solution we obtain $\alpha_v(\ell)=\alpha_v(0)$, i.e. the distance from the fixed point does not decay. Consequently
 \[
 \Pi(\ell)=\prod_v\alpha_v(0)=\text{const},
-\]  
+\]
 independently of $\ell$. This limiting case reproduces the “strong place‑invariance” scenario discussed in the Introduction (option a). However, the explicit calculations in Sections A4–A5 show that any non‑zero $\gamma_v$ (as required for genuine attraction) immediately breaks constancy, confirming that the structural‑transformation verdict (option c) is the only one compatible with a non‑trivial RG flow.
 
-### 5. Sensitivity to the branching factor of the Bruhat–Tits tree  
+### 5. Sensitivity to the branching factor of the Bruhat–Tits tree
 
-Our vertex‑count formula $g_p(n)=(p+1)p^{\,n-1}$ assumes a regular $(p+1)$‑valent tree. If the underlying graph were instead $(p+2)$‑regular, the count would become $g'_p(n)=(p+2)p^{\,n-1}$. The cumulative count through depth 5 would then be  
+Our vertex‑count formula $g_p(n)=(p+1)p^{\,n-1}$ assumes a regular $(p+1)$‑valent tree. If the underlying graph were instead $(p+2)$‑regular, the count would become $g'_p(n)=(p+2)p^{\,n-1}$. The cumulative count through depth 5 would then be
 
 \[
 S'_p(5)=1+(p+2)\frac{p^{5}-1}{p-1}.
-\]  
+\]
 
-For $p=2$, $S'_2(5)=1+4\frac{32-1}{1}=1+124=125$, compared with the $94$ obtained in A2. This sensitivity analysis shows that the precise combinatorial factor depends on the chosen regularity, but the exponential growth $ \sim p^{N}$ remains unchanged, preserving the qualitative conclusion that vertex multiplicities explode with depth. 
+For $p=2$, $S'_2(5)=1+4\frac{32-1}{1}=1+124=125$, compared with the $94$ obtained in A2. This sensitivity analysis shows that the precise combinatorial factor depends on the chosen regularity, but the exponential growth $ \sim p^{N}$ remains unchanged, preserving the qualitative conclusion that vertex multiplicities explode with depth.
 
-### 6. Summary of extensions  
+### 6. Summary of extensions
 
-* The exponential decay of $\alpha_v(\ell)$ is robust across a wide range of decay constants, as demonstrated by the explicit table.  
-* The product‑of‑distances hypothesis fails generically; its dependence on the number of included primes is analytically quantified.  
-*   
+* The exponential decay of $\alpha_v(\ell)$ is robust across a wide range of decay constants, as demonstrated by the explicit table.
+* The product‑of‑distances hypothesis fails generically; its dependence on the number of included primes is analytically quantified.
+*
 * Limiting‑case and sensitivity analyses confirm that the structural‑transformation verdict is the only one compatible with a genuine attractive RG flow and with the adelic product constraint on amplitudes.
 
 ### 6.7. Limitations, failure modes and open questions
 
-**Limitations.**  
-- The $p$‑adic level formula $E^{(p)}_n=E_0\,p^{-n}$ is a modeling assumption; consequently, all quantitative statements that depend on this ladder (R2, R3, R7) inherit this status.  
-- The linearized RG flow with $\gamma_v=0.1$ is illustrative; real systems may exhibit non‑exponential behavior.  
+**Limitations.**
+- The $p$‑adic level formula $E^{(p)}_n=E_0\,p^{-n}$ is a modeling assumption; consequently, all quantitative statements that depend on this ladder (R2, R3, R7) inherit this status.
+- The linearized RG flow with $\gamma_v=0.1$ is illustrative; real systems may exhibit non‑exponential behavior.
 - The linkage test examined only a three‑place product of distances; richer adelic constraints (e.g., involving local $L$‑factors) remain unexplored.
 
-**Failure modes and self‑critique.**  
-- If the true $p$‑adic spectrum possessed constant gaps, R2 and R7 would collapse and the verdict would shift toward preservation (option a).  
+**Failure modes and self‑critique.**
+- If the true $p$‑adic spectrum possessed constant gaps, R2 and R7 would collapse and the verdict would shift toward preservation (option a).
 - If generic $p$‑adic systems exhibited $\gamma_p<0$, the verdict would move toward mixed preservation/repulsion (option b).
 
-**What would falsify the claims.**  
-1. An exact $p$‑adic spectrum with constant gaps would falsify R2 and R7.  
-2. A derivation forcing $\sum_v\gamma_v=0$ from adelic dynamics would falsify R5 and revive a strong place‑invariance claim.  
+**What would falsify the claims.**
+1. An exact $p$‑adic spectrum with constant gaps would falsify R2 and R7.
+2. A derivation forcing $\sum_v\gamma_v=0$ from adelic dynamics would falsify R5 and revive a strong place‑invariance claim.
 3. If the semi‑classical measure structure were found to be place‑independent, it would challenge the premise that arithmetic matters for attractor structure.
 
-**Open questions.**  
-- Does the equivalence between the harmonic‑oscillator propagator and the fractional Fourier transform admit a $p$‑adic analogue on $p$‑adic modulation spaces ([2])?  
-- Do the damped‑oscillator solutions possess $p$‑adic counterparts with the same dynamical completeness?  
+**Open questions.**
+- Does the equivalence between the harmonic‑oscillator propagator and the fractional Fourier transform admit a $p$‑adic analogue on $p$‑adic modulation spaces ([2])?
+- Do the damped‑oscillator solutions possess $p$‑adic counterparts with the same dynamical completeness?
 - An open question is whether a universal mass scale for bosonic fields admits a place‑resolved version.
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Intended users and decision impact.**  
-The primary beneficiaries are quantum‑information theorists and designers of bosonic quantum hardware (e.g., bosonic error‑correcting codes, quantum memories, and quantum batteries). If the place‑resolved attractor picture holds, these practitioners must augment existing design tools with a *place‑specific spectral module*: the Archimedean module uses the constant gap $\Delta E_\infty=\hbar\omega$, while a $p$‑adic module employs the geometric ladder $E^{(p)}_n=E_0\,p^{-n}$ and the associated degeneracies $g_p(n)=(p+1)p^{\,n-1}$. Consequently, performance estimators that assume a universal gap must be revised to select the appropriate gap model based on the mathematical framework (real versus $p$‑adic) employed in a given theoretical study.  
+**(a) Intended users and decision impact.**
+The primary beneficiaries are quantum‑information theorists and designers of bosonic quantum hardware (e.g., bosonic error‑correcting codes, quantum memories, and quantum batteries). If the place‑resolved attractor picture holds, these practitioners must augment existing design tools with a *place‑specific spectral module*: the Archimedean module uses the constant gap $\Delta E_\infty=\hbar\omega$, while a $p$‑adic module employs the geometric ladder $E^{(p)}_n=E_0\,p^{-n}$ and the associated degeneracies $g_p(n)=(p+1)p^{\,n-1}$. Consequently, performance estimators that assume a universal gap must be revised to select the appropriate gap model based on the mathematical framework (real versus $p$‑adic) employed in a given theoretical study.
 
-**(b) Technology readiness.**  
+**(b) Technology readiness.**
 The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level (TRL) definitions, it resides at **TRL 1–2** (observation of basic principles) and does not exceed **TRL 3** (analytical proof‑of‑concept). No manufacturing or hardware readiness is claimed.
 
-**(c) Minimal next test.**  
-A numerical computation of a $p$‑adic harmonic‑oscillator Hamiltonian would directly test the modeling assumption $E^{(p)}_n=E_0\,p^{-n}$. The calculation should evaluate the level spacings $\Delta E^{(p)}_n$ for a chosen prime $p$ (e.g., $p=2$) and compare the ratio $\Delta E^{(p)}_n/\Delta E^{(p)}_{n+1}$ with the predicted value $p$.  
+**(c) Minimal next test.**
+A numerical computation of a $p$‑adic harmonic‑oscillator Hamiltonian would directly test the modeling assumption $E^{(p)}_n=E_0\,p^{-n}$. The calculation should evaluate the level spacings $\Delta E^{(p)}_n$ for a chosen prime $p$ (e.g., $p=2$) and compare the ratio $\Delta E^{(p)}_n/\Delta E^{(p)}_{n+1}$ with the predicted value $p$.
 *Falsification criterion:* if the computed ratio deviates from $p$ beyond numerical tolerance (e.g., $|\,\Delta E^{(p)}_n/\Delta E^{(p)}_{n+1}-p\,|>10^{-3}$), then the geometric ladder model and the structural‑transformation verdict of Section 5 (R2, R5, R6) are falsified.
 
-**(d) Engineering constraints.**  
-- **Mathematical tools:** Accurate $p$‑adic functional‑analysis libraries are required to represent operators on $\mathbb{Q}_p$ and to solve the eigenvalue problem (derived in Section 4).  
-- **Computational resources:** High‑precision $p$‑adic arithmetic is needed to resolve deep tree levels (e.g., depth $N\ge5$) because the vertex count $S_p(N)=1+(p+1)\frac{p^{N}-1}{p-1}$ grows exponentially (A2).  
-- **Modeling assumptions:** The vertex‑count formula assumes a regular $(p+1)$‑valent Bruhat–Tits tree (Section 3.2). Any deviation from regularity would alter degeneracies $g_p(n)$ and thus the predicted spectral density. This assumption remains an open question until a concrete $p$‑adic physical system is identified.  
-- **Data and validation:** Validation of the amplitude‑level adelic constraint $\prod_v |\Psi(x)|_v=1$ (A6) requires evaluation of wavefunction amplitudes at rational arguments across all places; such data are not presently available, representing an open data requirement.  
+**(d) Engineering constraints.**
+- **Mathematical tools:** Accurate $p$‑adic functional‑analysis libraries are required to represent operators on $\mathbb{Q}_p$ and to solve the eigenvalue problem (derived in Section 4).
+- **Computational resources:** High‑precision $p$‑adic arithmetic is needed to resolve deep tree levels (e.g., depth $N\ge5$) because the vertex count $S_p(N)=1+(p+1)\frac{p^{N}-1}{p-1}$ grows exponentially (A2).
+- **Modeling assumptions:** The vertex‑count formula assumes a regular $(p+1)$‑valent Bruhat–Tits tree (Section 3.2). Any deviation from regularity would alter degeneracies $g_p(n)$ and thus the predicted spectral density. This assumption remains an open question until a concrete $p$‑adic physical system is identified.
+- **Data and validation:** Validation of the amplitude‑level adelic constraint $\prod_v |\Psi(x)|_v=1$ (A6) requires evaluation of wavefunction amplitudes at rational arguments across all places; such data are not presently available, representing an open data requirement.
 
-**(e) Cost / performance projections.**  
+**(e) Cost / performance projections.**
 No quantitative cost or performance bounds are presented, because all numerical results in the paper are derived analytically (Section 4) or labeled as projections with explicit assumptions (e.g., the exponential decay $\alpha_v(\ell)=e^{-\gamma_v\ell}$ with $\gamma_v=0.1$ in A4). Consequently, any cost estimate would be a speculative projection without grounding in derived inputs and is therefore omitted.
 
-**(f) Risks and misuse.**  
+**(f) Risks and misuse.**
 A potential misuse is the unwarranted extrapolation of the $p$‑adic spectral model to engineering specifications for physical devices, despite the fact that the $p$‑adic oscillator remains a mathematical construct without experimental confirmation. Deploying design tools that assume $p$‑adic gap ratios without first validating the underlying spectrum could lead to over‑optimistic performance forecasts for bosonic hardware. Users should treat the $p$‑adic module as a theoretical extension pending empirical verification.
-
 
 ## 10. Conclusion
 
 We asked whether the harmonic oscillator’s status as an IR attractor is place‑invariant. Within a place‑resolved RG framework, with explicit derivations and clearly labeled modeling assumptions, we find that the oscillator can attract in each place but with spectrally distinct fixed points—constant gaps in ℝ versus geometric gaps in ℚ$_{p}$ organized on Bruhat–Tits tree levels. The adelic product formula constrains amplitudes, not spectra, imposing no linkage between place‑wise attractor distances. Thus the Harmonic Paradigm’s attractor thesis is not an Archimedean artifact (attraction is not reversed) but also not strongly place‑invariant; it is structurally transformed. The most urgent open task is the exact computation of the $p$‑adic oscillator spectrum, which would turn the present model‑based conclusions into rigorous theorems.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix B. Claim attribution. references 14 -> 10. length 4137 -> 2753 words.
-- Version 2.1.0 (2026-10-23, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 10 -> 8. length 2793 -> 2752 words.
-- Version 2.2.0 (2026-10-24, from 2.1.0): revised against the current literature, re-reviewed and re-verified. references 8 -> 9. length 2816 -> 3907 words.
 
 ## Provenance and AI Involvement
 
