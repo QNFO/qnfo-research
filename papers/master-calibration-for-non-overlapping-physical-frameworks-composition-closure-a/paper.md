@@ -12,18 +12,18 @@ A systematic inventory of such fractures enumerates 29 distinct unresolved bifur
 
 This paper therefore asks two questions: (i) under what conditions does a master calibration exist, and (ii) how large is the combinatorial burden of enforcing global consistency? The analysis formalizes frameworks as calibrated theories over disjoint domains, defines translation maps with explicit error budgets, bounds composition failure by cycle‑closure error, and applies counting arguments to the 29‑schism inventory [9] and to a modeled seven‑domain family. This revision corrects two quantitative errors of the published version (the chain‑length consistency claim and the correlation estimate) and strengthens the treatment of correlated failures with exact Fréchet bounds.
 
-**Contributions.**  
-- **C1** – Formal definitions of framework, translation map, composition failure, and master calibration (Section 3).  
-- **C2** – Derivation of the pairwise‑map count $\binom{29}{2}=406$ and composition‑constraint count $\binom{29}{3}=3654$, with the exact constraint‑to‑map ratio $9.0$ (Section 4, Derivation 1).  
-- **C3** – Pairwise‑capacity result for a seven‑domain family: $\binom{7}{2}=21$ pairs against 29 schisms, so at least 8 schisms remain unassigned under the one‑schism‑per‑pair assumption (Section 4, Derivation 2).  
-- **C4** – Two‑framework corner: a pair of frameworks carries no composition constraint, illustrated by the Feynman–Shor bifurcation (Section 4, Derivation 2′).  
-- **C5** – Three‑framework closure bound $\Delta_{\gamma}\le3.4965\times10^{-3}$ for edge errors $10^{-3}$, $2\times10^{-3}$, and $5\times10^{-4}$ (Section 4, Derivation 3).  
-- **C6** – Structural‑versus‑conventional classification criterion, including the chain‑length bound $k\le\ln(1-\tau)/\ln(1-\varepsilon_{\min})\approx0.0995$ at $\tau=10^{-3}$, $\varepsilon_{\min}=10^{-2}$, with the corrected statement that no multi‑edge chain is admissible at this tolerance (Section 4, Derivation 4).  
-- **C7** – Genericity projection $P_{\mathrm{master}}=p^{3654}=6.34\times10^{-168}$ at $p=0.9$, the threshold count $\binom{n}{3}\le43.71$, and the maximal family size $n_{\max}=7$ (Section 4, Derivation 5).  
-- **C8** – Corrected correlation analysis: the published estimate $P_{\mathrm{corr}}\approx3.38$ exceeds unity and is rejected; exact Fréchet bounds place the joint success probability for a seven‑framework family in $[0,0.9]$, while the independent value is $0.9^{35}\approx0.02503$ (Section 4, Derivation 5′).  
-- **C9** – Mediated‑translation price $1-(1-\varepsilon)^{2}=0.0199$ for $\varepsilon=10^{-2}$ (Section 4, Derivation 7).  
-- **C10** – Sensitivity analysis of closure error under uniform scaling, $\Delta'_{\gamma}=1.7491\times10^{-3}$ at scaling factor $f=0.5$ (Section 4, Derivation 8).  
-- **C11** – Required per‑edge error $\varepsilon\le3.33\times10^{-4}$ for a three‑edge loop to meet tolerance $\tau=10^{-3}$ (Section 4, Derivation 9).  
+**Contributions.**
+- **C1** – Formal definitions of framework, translation map, composition failure, and master calibration (Section 3).
+- **C2** – Derivation of the pairwise‑map count $\binom{29}{2}=406$ and composition‑constraint count $\binom{29}{3}=3654$, with the exact constraint‑to‑map ratio $9.0$ (Section 4, Derivation 1).
+- **C3** – Pairwise‑capacity result for a seven‑domain family: $\binom{7}{2}=21$ pairs against 29 schisms, so at least 8 schisms remain unassigned under the one‑schism‑per‑pair assumption (Section 4, Derivation 2).
+- **C4** – Two‑framework corner: a pair of frameworks carries no composition constraint, illustrated by the Feynman–Shor bifurcation (Section 4, Derivation 2′).
+- **C5** – Three‑framework closure bound $\Delta_{\gamma}\le3.4965\times10^{-3}$ for edge errors $10^{-3}$, $2\times10^{-3}$, and $5\times10^{-4}$ (Section 4, Derivation 3).
+- **C6** – Structural‑versus‑conventional classification criterion, including the chain‑length bound $k\le\ln(1-\tau)/\ln(1-\varepsilon_{\min})\approx0.0995$ at $\tau=10^{-3}$, $\varepsilon_{\min}=10^{-2}$, with the corrected statement that no multi‑edge chain is admissible at this tolerance (Section 4, Derivation 4).
+- **C7** – Genericity projection $P_{\mathrm{master}}=p^{3654}=6.34\times10^{-168}$ at $p=0.9$, the threshold count $\binom{n}{3}\le43.71$, and the maximal family size $n_{\max}=7$ (Section 4, Derivation 5).
+- **C8** – Corrected correlation analysis: the published estimate $P_{\mathrm{corr}}\approx3.38$ exceeds unity and is rejected; exact Fréchet bounds place the joint success probability for a seven‑framework family in $[0,0.9]$, while the independent value is $0.9^{35}\approx0.02503$ (Section 4, Derivation 5′).
+- **C9** – Mediated‑translation price $1-(1-\varepsilon)^{2}=0.0199$ for $\varepsilon=10^{-2}$ (Section 4, Derivation 7).
+- **C10** – Sensitivity analysis of closure error under uniform scaling, $\Delta'_{\gamma}=1.7491\times10^{-3}$ at scaling factor $f=0.5$ (Section 4, Derivation 8).
+- **C11** – Required per‑edge error $\varepsilon\le3.33\times10^{-4}$ for a three‑edge loop to meet tolerance $\tau=10^{-3}$ (Section 4, Derivation 9).
 - **C12** – Falsifiability criteria: a three‑subsystem closure test whose outcome would refute the first‑order composition model, and the statement that an $n\ge10$ family with all commuting squares would contradict the combinatorial bound $n_{\max}=7$ (Section 8).
 
 ## 2. Background and Related Work
@@ -68,13 +68,13 @@ The restriction to $S_{ij}$ is essential: in domain‑drift scenarios calibratio
 
 ### 3.3 Composition and closure
 
-For composable translations $\tau_{ij}$ and $\tau_{jk}$, the composed error obeys the first‑order bound  
+For composable translations $\tau_{ij}$ and $\tau_{jk}$, the composed error obeys the first‑order bound
 
 $$\varepsilon_{ij\circ jk}\le\varepsilon_{ij}+\varepsilon_{jk}+\varepsilon_{ij}\,\varepsilon_{jk}.$$
 
 **Definition 3.3 (Composition failure).** Failure occurs if there exists $x\in\tau_{ij}^{-1}(S_{jk})\cap S_{ik}$ such that $(\tau_{jk}\circ\tau_{ij})(x)\neq\tau_{ik}(x)$.
 
-For a cycle $\gamma$ with edges $e\in\gamma$ and errors $\varepsilon_e$, the *closure error* satisfies  
+For a cycle $\gamma$ with edges $e\in\gamma$ and errors $\varepsilon_e$, the *closure error* satisfies
 
 $$\Delta_{\gamma}\le 1-\prod_{e\in\gamma}(1-\varepsilon_e).$$
 
@@ -120,23 +120,23 @@ All inputs are stated with sources or as explicit assumptions, and all arithmeti
 
 Treat the 29 bifurcations as 29 frameworks.
 
-Unordered pairwise translation maps:  
+Unordered pairwise translation maps:
 
 $$\binom{29}{2}=\frac{29\times28}{2}=406.$$
 
-Unordered triples (each yielding one independent square constraint):  
+Unordered triples (each yielding one independent square constraint):
 
 $$\binom{29}{3}=\frac{29\times28\times27}{6}=3654.$$
 
-Constraint‑to‑map ratio:  
+Constraint‑to‑map ratio:
 
 $$\frac{3654}{406}=9.0,$$
 
-exact because  
+exact because
 
 $$\frac{\binom{N}{3}}{\binom{N}{2}}=\frac{N-2}{3}=\frac{27}{3}=9.$$
 
-*Factor‑2 reading.* If each bifurcation is counted as two opposite‑direction frameworks ($N=58$), then  
+*Factor‑2 reading.* If each bifurcation is counted as two opposite‑direction frameworks ($N=58$), then
 
 $$\binom{58}{2}=1653,\qquad \binom{58}{3}=30856,$$
 
@@ -144,11 +144,11 @@ and the ratio becomes $\frac{30856}{1653}\approx18.667$.
 
 ### Derivation 2: pairwise capacity for the seven‑domain family
 
-Unordered pairs for $n=7$:  
+Unordered pairs for $n=7$:
 
 $$P=\binom{7}{2}=21.$$
 
-Assuming *one‑schism‑per‑pair*, each of the $29$ bifurcations must be assigned a distinct unordered pair. Since $29>21$, at most $21$ bifurcations can be assigned, leaving  
+Assuming *one‑schism‑per‑pair*, each of the $29$ bifurcations must be assigned a distinct unordered pair. Since $29>21$, at most $21$ bifurcations can be assigned, leaving
 
 $$29-21=8$$
 
@@ -156,7 +156,7 @@ unassigned. Thus at least eight schisms lie outside any pairwise reduction invol
 
 ### Derivation 2′: two‑framework corner
 
-For $m=2$ ontologies:  
+For $m=2$ ontologies:
 
 $$\binom{2}{2}=1,\qquad \binom{2}{3}=0.$$
 
@@ -166,52 +166,52 @@ Hence a pair of frameworks carries no composition constraint; any single transla
 
 Edge errors: $\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$, $\varepsilon_{31}=5\times10^{-4}$.
 
-Compute  
+Compute
 
 $$1-\varepsilon_{12}=0.999,\quad 1-\varepsilon_{23}=0.998,\quad 1-\varepsilon_{31}=0.9995.$$
 
-Product:  
+Product:
 
-$$0.999\times0.998=0.997002,$$  
+$$0.999\times0.998=0.997002,$$
 $$0.997002\times0.9995=0.996503499.$$
 
-Closure bound:  
+Closure bound:
 
 $$\Delta_{\gamma}\le1-0.996503499=0.003496501\approx3.4965\times10^{-3}.$$
 
 ### Derivation 4: chain‑length bound for structural versus conventional classification
 
-Given a minimum edge error $\varepsilon_{\min}=10^{-2}$ and tolerance $\tau$, a chain of $k$ edges yields  
+Given a minimum edge error $\varepsilon_{\min}=10^{-2}$ and tolerance $\tau$, a chain of $k$ edges yields
 
 $$\Delta=1-(1-\varepsilon_{\min})^{k}.$$
 
-Solving $\Delta\le\tau$ for $k$ gives  
+Solving $\Delta\le\tau$ for $k$ gives
 
 $$k\le\frac{\ln(1-\tau)}{\ln(1-\varepsilon_{\min})}.$$
 
-For $\tau=10^{-3}$ and $\varepsilon_{\min}=10^{-2}$,  
+For $\tau=10^{-3}$ and $\varepsilon_{\min}=10^{-2}$,
 
 $$k\le\frac{\ln(0.999)}{\ln(0.99)}\approx0.0995.$$
 
-Since the bound is below 1, **no** chain of one or more edges meets the tolerance; any longer chain is structural at this tolerance.  
+Since the bound is below 1, **no** chain of one or more edges meets the tolerance; any longer chain is structural at this tolerance.
 
 (Projection for a looser tolerance is omitted because it does not apply to the primary tolerance of interest.)
 
 ### Derivation 5: genericity projection for the full 29‑framework inventory
 
-Assume each independent square constraint succeeds with probability $p=0.9$ and that successes are independent (Input 8). The probability that *all* $3654$ constraints succeed is  
+Assume each independent square constraint succeeds with probability $p=0.9$ and that successes are independent (Input 8). The probability that *all* $3654$ constraints succeed is
 
 $$P_{\mathrm{master}}=p^{3654}=0.9^{3654}.$$
 
-Compute the exponent: $\ln(0.9)=-0.1053605$, so  
+Compute the exponent: $\ln(0.9)=-0.1053605$, so
 
 $$\ln P_{\mathrm{master}}=3654\times(-0.1053605)=-384.987.$$
 
-Converting to base 10 gives  
+Converting to base 10 gives
 
 $$P_{\mathrm{master}}=10^{-167.19}\approx6.34\times10^{-168}.$$
 
-For a family of size $n$, the number of independent constraints is $\binom{n}{3}$. Requiring $P_{\mathrm{master}}\ge0.01$ gives  
+For a family of size $n$, the number of independent constraints is $\binom{n}{3}$. Requiring $P_{\mathrm{master}}\ge0.01$ gives
 
 $$0.9^{\binom{n}{3}}\ge0.01\;\Longrightarrow\;\binom{n}{3}\le\frac{\ln(0.01)}{\ln(0.9)}\approx43.71.$$
 
@@ -219,11 +219,11 @@ The largest integer $n$ satisfying $\binom{n}{3}\le43.71$ is $n_{\max}=7$, since
 
 ### Derivation 5′: corrected correlation analysis for a seven‑framework family
 
-The independent value for a seven‑framework family (35 constraints) is  
+The independent value for a seven‑framework family (35 constraints) is
 
 $$P_{\mathrm{ind}}=0.9^{35}\approx0.02503.$$
 
-Exact Fréchet bounds for the joint success probability of $35$ events each with marginal $0.9$ are  
+Exact Fréchet bounds for the joint success probability of $35$ events each with marginal $0.9$ are
 
 $$0\le P_{\mathrm{joint}}\le\min_{i}p_i=0.9.$$
 
@@ -231,44 +231,44 @@ Thus the independent value $0.02503$ lies well within the admissible interval; a
 
 ### Derivation 6: energy‑window factors and mean schisms per domain
 
-From Input 4, the abstract energy window is  
+From Input 4, the abstract energy window is
 
 $$\frac{1\ \mathrm{TeV}}{0.5\ \mathrm{TeV}}=2.$$
 
-The preface window is  
+The preface window is
 
 $$\frac{1.5\ \mathrm{TeV}}{0.5\ \mathrm{TeV}}=3.$$
 
-Mean schisms per domain under a uniform distribution:  
+Mean schisms per domain under a uniform distribution:
 
 $$\frac{N_{\mathrm{schism}}}{n}=\frac{29}{7}=4.142857\approx4.14.$$
 
 ### Derivation 7: price of mediated translation
 
-A mediated translation replaces a direct edge of error $\varepsilon$ by two edges each of error $\varepsilon$. The effective error becomes  
+A mediated translation replaces a direct edge of error $\varepsilon$ by two edges each of error $\varepsilon$. The effective error becomes
 
 $$\Delta_{\text{mediated}}=1-(1-\varepsilon)^{2}=2\varepsilon-\varepsilon^{2}.$$
 
-For $\varepsilon=10^{-2}$,  
+For $\varepsilon=10^{-2}$,
 
 $$\Delta_{\text{mediated}}=2\times10^{-2}-(10^{-2})^{2}=0.02-0.0001=0.0199.$$
 
 ### Derivation 8: sensitivity of closure error to uniform scaling
 
-Scale all edge errors of Derivation 3 by factor $f$. The original product is $P=0.996503499$. The scaled product is  
+Scale all edge errors of Derivation 3 by factor $f$. The original product is $P=0.996503499$. The scaled product is
 
 $$P'(f)=(1-f\varepsilon_{12})(1-f\varepsilon_{23})(1-f\varepsilon_{31}).$$
 
-For $f=0.5$:  
+For $f=0.5$:
 
 $$1-0.5\varepsilon_{12}=0.9995,\quad 1-0.5\varepsilon_{23}=0.999,\quad 1-0.5\varepsilon_{31}=0.99975.$$
 
-Product:  
+Product:
 
-$$0.9995\times0.999=0.9985005,$$  
+$$0.9995\times0.999=0.9985005,$$
 $$0.9985005\times0.99975=0.9982508749.$$
 
-Closure bound:  
+Closure bound:
 
 $$\Delta'_{\gamma}=1-0.9982508749=0.0017491251\approx1.7491\times10^{-3}.$$
 
@@ -276,7 +276,7 @@ Thus halving all edge errors roughly halves the closure bound.
 
 ### Derivation 9: per‑edge error requirement for a three‑edge loop
 
-For a three‑edge loop with identical edge error $\varepsilon$, the closure bound is  
+For a three‑edge loop with identical edge error $\varepsilon$, the closure bound is
 
 $$\Delta=1-(1-\varepsilon)^{3}\le\tau.$$
 
@@ -324,60 +324,60 @@ No divergent claims were identified among the source drafts. All substantive sta
 
 The analytical framework developed in Sections 4–5 quantifies three intertwined obstacles to a master‑calibration effort: (i) a combinatorial overload of square‑constraint equations relative to the number of available pairwise maps, (ii) a first‑order closure‑error budget that quickly exceeds realistic tolerances, and (iii) an exponential decay of the joint success probability under the independence assumption for constraint satisfaction. Together these results delimit the feasible size of any globally calibrated family of frameworks and identify which schisms are structural (inherently unbridgeable) versus conventional (bridgeable at cost).
 
-### Limitations  
+### Limitations
 The quantitative conclusions rest on a set of explicit assumptions:
 
-1. **Independence of square constraints** – each of the $\binom{N}{3}=3654$ independent composition constraints is assumed to succeed with probability $p=0.9$ independently of all others (Input 8). Correlations would raise the joint failure probability and tighten the bound on admissible family size.  
-2. **Uniform per‑edge error floor** – a minimum translation error $\varepsilon_{\min}=10^{-2}$ is taken from the systematic limit identified in 21 cm cosmology, where foregrounds are $10^{4}$–$10^{5}$ times brighter than the signal [6]. If actual edges can be calibrated more tightly, the chain‑length bound (Derivation 4) would relax; if they are worse, even a single edge would be structural.  
-3. **One‑schism‑per‑pair allocation** – the pairwise‑capacity argument (Derivation 2) assumes that each of the 29 schisms must be assigned to a distinct unordered pair of the candidate $n=7$ domains. Allowing multiple schisms per pair would increase the number of assignable schisms but would also require additional translation maps, thereby inflating the constraint‑to‑map ratio.  
-4. **First‑order composition bound** – the closure‑error inequality $\Delta_{\gamma}\le1-\prod_{e\in\gamma}(1-\varepsilon_{e})$ neglects higher‑order interaction terms that could either mitigate or exacerbate error accumulation in longer cycles.  
-5. **Fixed tolerance $\tau=10^{-3}$** – all chain‑length and per‑edge requirements are derived for this tolerance. A looser tolerance would admit longer chains (the $k=4$ projection in Derivation 4) but would also reduce the scientific utility of the resulting calibration.  
-6. **Sufficient overlap $S_{ij}$ for test batteries** – the definition of translation error presumes a community‑agreed test battery that can be evaluated on each overlap (Section 3.2). In practice, constructing such batteries may be non‑trivial, and an underspecified battery would artificially lower measured $\varepsilon_{ij}$.  
+1. **Independence of square constraints** – each of the $\binom{N}{3}=3654$ independent composition constraints is assumed to succeed with probability $p=0.9$ independently of all others (Input 8). Correlations would raise the joint failure probability and tighten the bound on admissible family size.
+2. **Uniform per‑edge error floor** – a minimum translation error $\varepsilon_{\min}=10^{-2}$ is taken from the systematic limit identified in 21 cm cosmology, where foregrounds are $10^{4}$–$10^{5}$ times brighter than the signal [6]. If actual edges can be calibrated more tightly, the chain‑length bound (Derivation 4) would relax; if they are worse, even a single edge would be structural.
+3. **One‑schism‑per‑pair allocation** – the pairwise‑capacity argument (Derivation 2) assumes that each of the 29 schisms must be assigned to a distinct unordered pair of the candidate $n=7$ domains. Allowing multiple schisms per pair would increase the number of assignable schisms but would also require additional translation maps, thereby inflating the constraint‑to‑map ratio.
+4. **First‑order composition bound** – the closure‑error inequality $\Delta_{\gamma}\le1-\prod_{e\in\gamma}(1-\varepsilon_{e})$ neglects higher‑order interaction terms that could either mitigate or exacerbate error accumulation in longer cycles.
+5. **Fixed tolerance $\tau=10^{-3}$** – all chain‑length and per‑edge requirements are derived for this tolerance. A looser tolerance would admit longer chains (the $k=4$ projection in Derivation 4) but would also reduce the scientific utility of the resulting calibration.
+6. **Sufficient overlap $S_{ij}$ for test batteries** – the definition of translation error presumes a community‑agreed test battery that can be evaluated on each overlap (Section 3.2). In practice, constructing such batteries may be non‑trivial, and an underspecified battery would artificially lower measured $\varepsilon_{ij}$.
 7. **Neglect of mediating‑domain auxiliary assumptions** – the mediated‑translation price (Derivation 7) inherits the fragile odometry assumption flagged in road‑marking calibration [3]; failure of that auxiliary capability would convert a conventional obstruction into a structural one.
 
 Sensitivity analysis shows that relaxing any of the above assumptions can shift the maximal admissible family size $n_{\max}$ by at most one or two units, but the exponential dependence of $P_{\mathrm{master}}$ on the number of constraints ensures that the qualitative conclusion—global calibration is only feasible for very small families—remains robust.
 
-### Failure modes  
+### Failure modes
 If actual translation errors exceed $\varepsilon_{\min}=10^{-2}$, the chain‑length bound $k\le\ln(1-\tau)/\ln(1-\varepsilon_{\min})\approx0.0995$ (Derivation 4) implies that even a single edge violates the tolerance, rendering the corresponding schism structural. Correlated failures among square constraints would drive the joint success probability toward the Fréchet upper bound of $0.9$, dramatically shrinking the feasible $n_{\max}$. Insufficient overlap $S_{ij}$ would make the test battery undefined, causing $\varepsilon_{ij}$ to be unmeasurable and the corresponding map to be unusable. Finally, any mediating domain that cannot guarantee locally accurate odometry would invalidate the price reduction claimed in Derivation 7.
 
-### Falsifiability criteria  
-A concrete falsification test follows directly from Result R3. Assemble three subsystems that implement translations $\tau_{12}$, $\tau_{23}$ and $\tau_{31}$ with edge errors $\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$ and $\varepsilon_{31}=5\times10^{-4}$ (the values used in Derivation 3). Measure each $\varepsilon_{ij}$ on a common test battery, compute the closure error  
+### Falsifiability criteria
+A concrete falsification test follows directly from Result R3. Assemble three subsystems that implement translations $\tau_{12}$, $\tau_{23}$ and $\tau_{31}$ with edge errors $\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$ and $\varepsilon_{31}=5\times10^{-4}$ (the values used in Derivation 3). Measure each $\varepsilon_{ij}$ on a common test battery, compute the closure error
 \[
 \Delta_{\gamma}=1-(1-\varepsilon_{12})(1-\varepsilon_{23})(1-\varepsilon_{31}),
-\]  
-and compare it to the theoretical bound $3.4965\times10^{-3}$. Observation of $\Delta_{\gamma}>3.5\times10^{-3}$ would falsify the first‑order composition model and, by extension, the combinatorial success probability $P_{\mathrm{master}}$ derived under independence.  
+\]
+and compare it to the theoretical bound $3.4965\times10^{-3}$. Observation of $\Delta_{\gamma}>3.5\times10^{-3}$ would falsify the first‑order composition model and, by extension, the combinatorial success probability $P_{\mathrm{master}}$ derived under independence.
 
-A second falsification avenue concerns the combinatorial bound on family size. Construct a family of $n\ge10$ frameworks together with translation maps that satisfy all $\binom{n}{3}$ square constraints (i.e., all commuting squares). Successful demonstration of such a family would directly contradict the maximal admissible size $n_{\max}=7$ obtained from the inequality $0.9^{\binom{n}{3}}\ge0.01$ (Derivation 5).  
+A second falsification avenue concerns the combinatorial bound on family size. Construct a family of $n\ge10$ frameworks together with translation maps that satisfy all $\binom{n}{3}$ square constraints (i.e., all commuting squares). Successful demonstration of such a family would directly contradict the maximal admissible size $n_{\max}=7$ obtained from the inequality $0.9^{\binom{n}{3}}\ge0.01$ (Derivation 5).
 
-### Open questions  
-* How do realistic correlation structures among translation errors modify the Fréchet bounds and the resulting $n_{\max}$?  
-* Can higher‑order cycle analysis (length $\ge$ 4) produce tighter closure‑error bounds than the first‑order product formula?  
-* What systematic procedures can generate community‑wide test batteries that are both expressive enough to detect subtle translation failures and robust to domain‑drift effects highlighted in uncertainty‑calibration studies [7]?  
-* To what extent can mediating domains be engineered to relax the odometry assumption without introducing new structural schisms?  
+### Open questions
+* How do realistic correlation structures among translation errors modify the Fréchet bounds and the resulting $n_{\max}$?
+* Can higher‑order cycle analysis (length $\ge$ 4) produce tighter closure‑error bounds than the first‑order product formula?
+* What systematic procedures can generate community‑wide test batteries that are both expressive enough to detect subtle translation failures and robust to domain‑drift effects highlighted in uncertainty‑calibration studies [7]?
+* To what extent can mediating domains be engineered to relax the odometry assumption without introducing new structural schisms?
 
-### Self‑critique  
+### Self‑critique
 The combinatorial argument treats each schism as an independent binary obstacle, which may overstate the difficulty of global calibration. If a single translation map can simultaneously resolve multiple related schisms (e.g., through a shared physical principle), the effective number of constraints would drop, potentially raising $n_{\max}$. Conversely, the first‑order error composition bound may underestimate error accumulation in highly coupled cycles, making the presented closure‑error estimates optimistic. Future work must therefore refine both the counting model and the error‑propagation algebra to assess whether the present limits are tight or merely conservative.
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Primary users and decision impact.**  
+**(a) Primary users and decision impact.**
 The quantitative feasibility test derived in Sections 4–5 is directly relevant to (i) project‑planning committees for future high‑energy‑physics facilities (e.g. circular $e^{+}e^{-}$ colliders, linear colliders), (ii) engineering teams developing magnetic‑confinement fusion reactors, and (iii) designers of fault‑tolerant quantum‑computing hardware.  For a proposed set of $n$ frameworks the committee can compute the unordered‑pair capacity $\binom{n}{2}$ and compare it with the known number of schisms $N_{\mathrm{schism}}=29$ [10].  If $\binom{n}{2}<N_{\mathrm{schism}}$, the decision‑making process must either (1) reduce the family size, (2) allocate mediating observables for the unassigned schisms, or (3) accept that those schisms remain structural and allocate resources to domain‑specific calibration efforts.  This quantitative test replaces ad‑hoc estimates of “calibration budget” with a concrete combinatorial bound.
 
-**(b) Technology readiness.**  
+**(b) Technology readiness.**
 The analysis is purely analytical, based on definitions, combinatorial counting, and first‑order error‑budget algebra.  No hardware prototype has been built and no empirical validation has been performed.  Accordingly the work resides at **Technology Readiness Level 1–2** (basic principles observed, technology concept formulated).  The analytical framework never exceeds **TRL 3** because it does not incorporate a validated prototype.
 
-**(c) Minimal pilot experiment.**  
+**(c) Minimal pilot experiment.**
 A concrete falsification test consists of assembling three subsystems that implement the translations $\tau_{12}$, $\tau_{23}$ and $\tau_{31}$ with the edge errors used in Result R3 ($\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$, $\varepsilon_{31}=5\times10^{-4}$).  The experiment would:
 
-1. **Measure** each $\varepsilon_{ij}$ on a common test‑battery (Section 3.2) by counting the fraction of propositions on which the translation disagrees with the native rendering of the target framework.  
-2. **Compute** the closure error  
-   $$\Delta_{\gamma}=1-(1-\varepsilon_{12})(1-\varepsilon_{23})(1-\varepsilon_{31})$$  
-   (Derivation 3).  
-3. **Compare** the measured $\Delta_{\gamma}$ to the theoretical bound $3.4965\times10^{-3}$ (Result R3).  
+1. **Measure** each $\varepsilon_{ij}$ on a common test‑battery (Section 3.2) by counting the fraction of propositions on which the translation disagrees with the native rendering of the target framework.
+2. **Compute** the closure error
+   $$\Delta_{\gamma}=1-(1-\varepsilon_{12})(1-\varepsilon_{23})(1-\varepsilon_{31})$$
+   (Derivation 3).
+3. **Compare** the measured $\Delta_{\gamma}$ to the theoretical bound $3.4965\times10^{-3}$ (Result R3).
 
 Observation of $\Delta_{\gamma}>3.5\times10^{-3}$ would falsify the first‑order composition model and invalidate the genericity projection that underlies the maximal‑family‑size estimate $n_{\max}=7$.
 
-**(d) Engineering and deployment constraints.**  
+**(d) Engineering and deployment constraints.**
 
 | Constraint | Description |
 |------------|-------------|
@@ -388,7 +388,7 @@ Observation of $\Delta_{\gamma}>3.5\times10^{-3}$ would falsify the first‑orde
 | Domain‑specific active control | For the CFETR fusion concept, active control of resistive‑wall‑mode stabilization is required in $80\%$ of steady‑state scenarios [4]; this illustrates a domain‑specific calibration challenge that must be addressed before a mediating link can be trusted. |
 | Independence assumption | The genericity projection assumes independent success of each of the $\binom{N}{3}=3654$ square constraints with probability $p=0.9$ (Input 8).  Correlated failures would increase the effective failure probability and tighten the bound on $n_{\max}$ (Section 6). |
 
-**(e) Projected performance bounds (projections).**  
+**(e) Projected performance bounds (projections).**
 All quantitative statements below are derived from the analytical results or are explicitly labeled as projections with stated assumptions.
 
 | Quantity | Projection | Assumptions |
@@ -400,25 +400,15 @@ All quantitative statements below are derived from the analytical results or are
 | Maximal admissible family size for $>1\%$ success | $n_{\max}=7$ | $\binom{n}{3}\le43.71$ derived from $0.9^{\binom{n}{3}}\ge0.01$ (Derivation 5). |
 | Independent joint success probability for a seven‑framework family | $0.02503$ | $p^{35}=0.9^{35}$ (Derivation 5′). |
 
-**(f) Direct risks and misuse pathways.**  
-* Misclassification of conventional schisms as structural could lead to premature abandonment of viable translation strategies and unnecessary allocation of resources to domain‑specific observables.  
-* Overreliance on the independence assumption for square‑constraint success (Input 8) may cause severe underestimation of the true failure probability; positive correlations can inflate the joint failure probability and effectively reduce the feasible $n_{\max}$ (Section 6).  
-* The test‑battery definition may become a bottleneck if the community cannot agree on a sufficiently rich set of propositions; an underspecified battery would yield artificially low $\varepsilon_{ij}$ values and mask structural incompatibilities.  
+**(f) Direct risks and misuse pathways.**
+* Misclassification of conventional schisms as structural could lead to premature abandonment of viable translation strategies and unnecessary allocation of resources to domain‑specific observables.
+* Overreliance on the independence assumption for square‑constraint success (Input 8) may cause severe underestimation of the true failure probability; positive correlations can inflate the joint failure probability and effectively reduce the feasible $n_{\max}$ (Section 6).
+* The test‑battery definition may become a bottleneck if the community cannot agree on a sufficiently rich set of propositions; an underspecified battery would yield artificially low $\varepsilon_{ij}$ values and mask structural incompatibilities.
 * Mediating‑domain implementations inherit the fragile auxiliary assumptions identified in the road‑marking work (e.g. locally accurate odometry) [3]; failure of these auxiliary capabilities would convert a conventional obstruction into a structural one.
 
 ## 10. Conclusion
 
 The analytical framework developed herein quantifies the combinatorial and error‑budget limits that any master‑calibration effort must respect when attempting to bridge the 29 identified physical schisms. By counting pairwise translation maps, enumerating independent composition constraints, and propagating first‑order closure errors, the study shows that only modest families of frameworks (at most seven) can be globally calibrated with realistic per‑edge accuracies. The derived closure‑error bound for a three‑framework loop, the genericity‑projection success probability, and the mediated‑translation price together provide concrete decision metrics for programme planners in high‑energy physics, fusion engineering, and quantum‑hardware development. The falsifiability criteria and minimal pilot experiment outlined in Section 9 give a clear pathway for empirical validation. Consequently, the work delineates a practical roadmap: allocate calibration resources to domain pairs that admit admissible translations, employ mediating domains where cost‑effective, and accept structural schisms as intrinsic barriers beyond the identified family size. This roadmap enables informed allocation of scientific and engineering effort across fragmented theoretical domains.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report; Appendix B. Claim attribution. references 11 -> 11. length 4644 -> 3852 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 11 -> 9. length 3896 -> 3718 words.
-- Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 9. length 3798 -> 4701 words.
-- Version 2.3.0 (2026-10-20, from 2.2.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 9. length 4823 -> 4146 words.
-- Version 2.4.0 (2026-10-20, from 2.3.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 10. length 4312 -> 6871 words.
-- Version 2.5.0 (2026-10-23, from 2.4.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution; Appendix A. Divergence report; Appendix B. Claim attribution. references 10 -> 8. length 7079 -> 4507 words.
-- Version 2.6.0 (2026-10-24, from 2.5.0): revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution. references 8 -> 12. length 4759 -> 5621 words.
 
 ## Provenance and AI Involvement
 
