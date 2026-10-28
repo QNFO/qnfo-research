@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-88e63b81-ee57-4cc5-bb4d-1cda46f5e5c8",
+    "slug": "topological-extension-hypothesis",
+    "cycle": "cycle-404",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.39.3-codeagent",
+    "finished_at": "2026-10-28T04:24:42.721Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "c3823ee482d2aa9f56a915c2039e1bab64e09e14f7cd5c12edd8194092c7f354",
+      "bytes": 150583,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "0e189a4134e980445a22e967f5cbcb6cd31831101362edaede4a3c8a146edb4f",
+      "bytes": 37519,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "762d87d730d906e3d2f393573ff47c31fe26bc8c8765baed4b759231c2f0e020",
+      "bytes": 2607,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "539211782d972ea1d10673eca20cd4cc03968230098f093602209a29311642a8",
+      "bytes": 2143,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "85ed62ce09bd61f2ef4d0b14442c60fb214d296f3813f222bf1afb30114e8132",
+      "bytes": 14253,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "dcd57da6451ce257c73bd41002d9fd91da87d0477b8cf4033521f123372be039",
+      "bytes": 10604,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "9aa1c66ff957e01d8205174e44d789d8a44d73ddd69cc14a5eb1e4d5bd3cda04",
+      "bytes": 16728,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "df2f296ea9d5dffee84515d63d11d927bd7161a476659bff8c7f1495d24ba54a",
+      "bytes": 15448,
+      "role": "draft"
+    }
+  }
+}
