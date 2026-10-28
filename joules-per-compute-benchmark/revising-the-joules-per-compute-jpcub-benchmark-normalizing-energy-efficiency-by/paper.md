@@ -1,12 +1,4 @@
----
-title: "Revising the Joules-per-Compute (JPCUB) Benchmark: Normalizing Energy Efficiency by Logical-Qubit Operations"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-09-03"
-license: "CC BY 4.0"
-doi: ""
-version: "2.0.0"
-status: "published"
----
+# Revising the Joules-per-Compute (JPCUB) Benchmark: Normalizing Energy Efficiency by Logical-Qubit Operations
 
 ## Abstract
 
@@ -93,11 +85,6 @@ The joules-per-compute benchmark should be normalized by logical-qubit operation
 [3] Lavasani, A., G. Zhu, and M. Barkeshli. 2019. "Universal logical gates with constant overhead: instantaneous Dehn twists for hyperbolic quantum codes." arXiv:1901.11029.
 
 [4] QNFO. 2025. "Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation." the QNFO archive. https://papers.qnfo.org/papers/thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation/.
-
-## Changelog
-
-- v2.0 (2026-09-03): the normalization argument is stated with computed overhead factors at five distances; the logarithmic-gap analysis (reaching 4.87 orders of magnitude at d = 21) is added; prior-work positioning added (Sections 2 and 6); HTML and PDF renderings added to the deposit; abstract rewritten with computed values, no deferred claims.
-- v1.0 (2026-09-03): initial short-form record.
 
 ## Verification
 

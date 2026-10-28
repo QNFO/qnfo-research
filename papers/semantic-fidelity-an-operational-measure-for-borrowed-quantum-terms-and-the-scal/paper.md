@@ -169,26 +169,23 @@ We evaluate $k^{*}$ for selected $\delta$ values while keeping $\varepsilon=0.9$
 
 Thus, for more modest per‑element divergences the crossing scale grows rapidly, while highly divergent elements reach the threshold after only a few repetitions.
 
-
-
 ## 5. Results
 
-- **R1.** Per‑element divergence for “photon” at a balanced beamsplitter: $D_{TV}^{(1)}=1/2$, $F_S^{(1)}=1/2$ (Section 4.1).  
-- **R2.** Compounded divergence for $k$ independent elements: $D_{TV}^{(k)}=1-2^{-k}$ (Section 4.2).  
-- **R3.** Decision‑relevance crossing at $k^{*}=4$ elements ($\approx$ 8 photonic particles) for $\varepsilon=0.9$ (Section 4.2).  
-- **R4.** Projection: under the assumption of perfect independence, “photon” becomes misleading at $n^{*}=8$ qubits of photonic‑interference hardware (Section 4.2).  
-  
-- **R6.** Sensitivity analysis showing $k^{*}$ as a function of per‑element divergence $\delta$ (Section 4.3).  
+- **R1.** Per‑element divergence for “photon” at a balanced beamsplitter: $D_{TV}^{(1)}=1/2$, $F_S^{(1)}=1/2$ (Section 4.1).
+- **R2.** Compounded divergence for $k$ independent elements: $D_{TV}^{(k)}=1-2^{-k}$ (Section 4.2).
+- **R3.** Decision‑relevance crossing at $k^{*}=4$ elements ($\approx$ 8 photonic particles) for $\varepsilon=0.9$ (Section 4.2).
+- **R4.** Projection: under the assumption of perfect independence, “photon” becomes misleading at $n^{*}=8$ qubits of photonic‑interference hardware (Section 4.2).
 
+- **R6.** Sensitivity analysis showing $k^{*}$ as a function of per‑element divergence $\delta$ (Section 4.3).
 
 ## 6. Discussion
 
 ### 6.1 Limitations
 
-1. **Idealised ontologies.** The divergence calculations compare two perfect theoretical models (bosonic photons vs. distinguishable qubits) rather than noisy physical devices. Real beamsplitters exhibit partial indistinguishability and loss, which would reduce the observed $D_{TV}$.  
-2. **Independence assumption.** The compounding law presumes statistical independence and factorisation of the $k$ elements. Shared sources, mode‑matching, and control electronics introduce correlations that can either attenuate or amplify the effective divergence.  
-3. **Threshold choice.** The decision‑relevance threshold $\varepsilon=0.9$ is a design‑team stipulation; different engineering contexts may adopt stricter or looser values, shifting $k^{*}$ according to $\ln(1-\varepsilon)/\ln(1-\delta)$.  
-  
+1. **Idealised ontologies.** The divergence calculations compare two perfect theoretical models (bosonic photons vs. distinguishable qubits) rather than noisy physical devices. Real beamsplitters exhibit partial indistinguishability and loss, which would reduce the observed $D_{TV}$.
+2. **Independence assumption.** The compounding law presumes statistical independence and factorisation of the $k$ elements. Shared sources, mode‑matching, and control electronics introduce correlations that can either attenuate or amplify the effective divergence.
+3. **Threshold choice.** The decision‑relevance threshold $\varepsilon=0.9$ is a design‑team stipulation; different engineering contexts may adopt stricter or looser values, shifting $k^{*}$ according to $\ln(1-\varepsilon)/\ln(1-\delta)$.
+
 5. **Scope of terms.** We have demonstrated the method only for “photon”. Extending the analysis to other borrowed terms such as “quasiparticle” or “measurement” would require explicit native‑ontology predictions, which are beyond the scope of the present work.
 
 ### 6.2 Falsification condition
@@ -197,9 +194,9 @@ If a high‑fidelity simulation of $k=4$ independent photonic interferometers (i
 
 ### 6.3 Open questions
 
-- How does partial indistinguishability (parameterised by a visibility $V$) modify the per‑element divergence $\delta$?  
-- What is the appropriate $\varepsilon$ for safety‑critical quantum‑control software versus exploratory research?  
-- Can the measure be integrated into automated design‑space‑exploration tools to flag semantic drift early?  
+- How does partial indistinguishability (parameterised by a visibility $V$) modify the per‑element divergence $\delta$?
+- What is the appropriate $\varepsilon$ for safety‑critical quantum‑control software versus exploratory research?
+- Can the measure be integrated into automated design‑space‑exploration tools to flag semantic drift early?
 - How does the measure behave in fault‑tolerant error‑corrected cycles where logical operations are compiled from many physical gates?
 
 ## 7. Practical Implications and Engineering Pathways
@@ -210,23 +207,17 @@ If a high‑fidelity simulation of $k=4$ independent photonic interferometers (i
 
 **(c) Minimal next experiment.** Build a photonic testbed comprising four nominally independent $50/50$ beamsplitters fed by identical photon‑pair sources. Measure the empirical outcome distribution over the “same vs. split” observable and compute the empirical $D_{TV}^{(4)}$. An observed $D_{TV}^{(4)}\le 0.5$ would falsify the current compounding prediction; $D_{TV}^{(4)}\ge 0.9$ would confirm it.
 
-**(d) Engineering constraints.**  
-- **Independence:** Requires spatially separated sources and independent phase‑stabilisation loops to approximate factorisation.  
-- **Detection efficiency:** High‑efficiency photon‑number‑resolving detectors are needed to avoid loss‑induced bias.  
-- **Mode matching:** Imperfect mode overlap directly reduces the native‑ontology bunching probability, altering $\delta$.  
+**(d) Engineering constraints.**
+- **Independence:** Requires spatially separated sources and independent phase‑stabilisation loops to approximate factorisation.
+- **Detection efficiency:** High‑efficiency photon‑number‑resolving detectors are needed to avoid loss‑induced bias.
+- **Mode matching:** Imperfect mode overlap directly reduces the native‑ontology bunching probability, altering $\delta$.
 These constraints follow from the assumptions listed in Section 4.2.
-
-
 
 **(f) Risks and misuse.** Over‑reliance on $F_S$ without considering hardware‑specific error correlations could lead to premature dismissal of useful terminology. If a design team treats $F_S$ as a hard safety threshold rather than a guideline, it may unnecessarily constrain innovation. Proper contextualisation of $\varepsilon$ and of the underlying assumptions mitigates these risks.
 
 ## 8. Conclusion
 
 We have introduced **operational semantic fidelity** $F_S^{(n)}=1-D_{TV}^{(n)}$ as a quantitative, vocabulary‑neutral diagnostic for assessing when a borrowed quantum term becomes decision‑relevantly misleading. Applying the framework to the term “photon” yields a per‑element divergence of $1/2$, a compounding law $D_{TV}^{(k)}=1-2^{-k}$, and a crossing scale of $k^{*}=4$ ($\approx$ 8 photonic qubits) for a design‑team threshold $\varepsilon=0.9$.  The measure converts ontological concerns into actionable engineering specifications, while its limitations—idealised models, independence assumptions, and threshold arbitrariness—are explicitly stated. A concrete four‑interferometer experiment is proposed to validate or falsify the compounding prediction, establishing a clear pathway from theory to practice.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report; Appendix B. Claim attribution. references 12 -> 10. length 3937 -> 2917 words.
 
 ## Provenance and AI Involvement
 
