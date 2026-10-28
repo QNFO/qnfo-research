@@ -10,17 +10,15 @@ Superconducting quantum processors face a scaling bottleneck: surface‑code err
 
 A recent planar fluxonium‑GKP experiment attacks this asymmetry. Heavy fluxonium—a superconducting artificial atom with a large shunt capacitance and an inductive loop—has a bit‑flip lifetime taken as $T_1^{\mathrm{bf}} = 451~\mu\mathrm{s}$ for the purpose of analysis, representing an order‑of‑magnitude improvement over prior transmon ancillas. Integrated on a planar Archimedean spiral resonator, the platform enables finite‑energy GKP state preparation, measurement‑free stabilization, and rapid fluxonium reset, yielding a logical‑lifetime extension factor of $F = 1.59 \pm 0.05$.
 
-If the error‑budget arithmetic behind these numbers holds, the design decision it changes is concrete: QEC architects can treat the ancilla bit‑flip channel as secondary rather than dominant, and fabrication planners can adopt fully planar bosonic QEC instead of bulky 3D‑cavity approaches.  
+If the error‑budget arithmetic behind these numbers holds, the design decision it changes is concrete: QEC architects can treat the ancilla bit‑flip channel as secondary rather than dominant, and fabrication planners can adopt fully planar bosonic QEC instead of bulky 3D‑cavity approaches.
 
-**Contributions.**  
-1. **Error‑budget arithmetic.** From the reported $T_1^{\mathrm{bf}}$ and $F$, we derive the ancilla bit‑flip rate, the corrected and uncorrected logical lifetimes, the per‑cycle error probabilities, and the residual error‑channel strength, with every arithmetic step shown (Section 4).  
-2. **Architectural context.** We situate the result within continuous‑time QEC, beyond‑qubit encodings, entanglement‑assisted codes, and a resource‑commensurable comparison of bosonic versus surface codes (Section 2).  
-3. **Cross‑platform analogy.** We draw an analogy to multi‑spin molecular qubits, where a slow dominant error channel dictates correction‑cycle design (Section 2).  
+**Contributions.**
+1. **Error‑budget arithmetic.** From the reported $T_1^{\mathrm{bf}}$ and $F$, we derive the ancilla bit‑flip rate, the corrected and uncorrected logical lifetimes, the per‑cycle error probabilities, and the residual error‑channel strength, with every arithmetic step shown (Section 4).
+2. **Architectural context.** We situate the result within continuous‑time QEC, beyond‑qubit encodings, entanglement‑assisted codes, and a resource‑commensurable comparison of bosonic versus surface codes (Section 2).
+3. **Cross‑platform analogy.** We draw an analogy to multi‑spin molecular qubits, where a slow dominant error channel dictates correction‑cycle design (Section 2).
 4. **Falsifiability.** We state explicitly which measurements would falsify the claim that planar fluxonium‑GKP is the leading route to scalable bosonic QEC (Section 6).
 
 ## 2. Background and Related Work
-
-
 
 **Continuous‑time QEC.** Reference [2] develops a continuous‑time formalism in which noise and correction are modeled as concurrent processes, using the subsystem principle to isolate protected information. The measurement‑free stabilization of [1] is a discrete‑time analogue: repeated coherent correction cycles replace continuous weak measurement, and the CTQEC framework supplies the language for the limit in which the correction period $T_{\mathrm{cyc}}$ becomes short compared with oscillator error timescales.
 
@@ -40,19 +38,19 @@ Reference [13] investigates logical‑error scaling for geometrically inspired
 
 Our method is *derived‑metric analysis*: a small set of reported numbers is propagated through standard QEC error‑budget relations to obtain quantities the experiment implies but does not state directly. No simulation is performed; every result is either exact arithmetic on reported inputs or a labeled projection with stated assumptions.
 
-**Inputs.**  
-- $I_1$: ancilla bit‑flip lifetime $T_1^{\mathrm{bf}} = 451~\mu\mathrm{s}$, uncertainty $\pm 70~\mu\mathrm{s}$ (reported in [1],[3]).  
-- $I_2$: logical‑lifetime extension factor $F = 1.59$, uncertainty $\pm 0.05$ (reported in [1],[3]).  
-- $I_3$: assumed correction‑cycle duration $T_{\mathrm{cyc}} = 10~\mu\mathrm{s}$ (assumption).  
-- $I_4$: assumed transmon baseline bit‑flip lifetime $T_1^{\mathrm{tm}} = 30~\mu\mathrm{s}$ (assumption representative of prior 3D‑cavity demonstrations).  
-- $I_5$: assumed flip‑to‑logical conversion factor $\eta = 0.1$ (assumption about the fraction of ancilla flips that corrupt the logical state).  
+**Inputs.**
+- $I_1$: ancilla bit‑flip lifetime $T_1^{\mathrm{bf}} = 451~\mu\mathrm{s}$, uncertainty $\pm 70~\mu\mathrm{s}$ (reported in [1],[3]).
+- $I_2$: logical‑lifetime extension factor $F = 1.59$, uncertainty $\pm 0.05$ (reported in [1],[3]).
+- $I_3$: assumed correction‑cycle duration $T_{\mathrm{cyc}} = 10~\mu\mathrm{s}$ (assumption).
+- $I_4$: assumed transmon baseline bit‑flip lifetime $T_1^{\mathrm{tm}} = 30~\mu\mathrm{s}$ (assumption representative of prior 3D‑cavity demonstrations).
+- $I_5$: assumed flip‑to‑logical conversion factor $\eta = 0.1$ (assumption about the fraction of ancilla flips that corrupt the logical state).
 - $I_6$: photon‑budget ratios $5$–$40\times$ fewer photons for bosonic codes versus surface codes at $p_L = 10^{-6}$ (reported in [10]).
 
-**Defining relations.**  
-1. Ancilla bit‑flip rate: $\displaystyle \Gamma_{\mathrm{bf}} = \frac{1}{T_1^{\mathrm{bf}}}$.  
-2. Corrected logical decay rate: $\displaystyle \Gamma_L^{(1)} = \frac{\Gamma_L^{(0)}}{F}$, with $\Gamma_L^{(i)} = 1/T_L^{(i)}$.  
-3. Per‑cycle bit‑flip probability (Poisson model): $\displaystyle p_{\mathrm{bf}}(T_{\mathrm{cyc}}) = 1 - e^{-\Gamma_{\mathrm{bf}} T_{\mathrm{cyc}}} \approx \Gamma_{\mathrm{bf}} T_{\mathrm{cyc}}$ for $\Gamma_{\mathrm{bf}} T_{\mathrm{cyc}} \ll 1$.  
-4. Steady‑state ancilla‑induced logical error rate: $\displaystyle \Gamma_{\mathrm{anc}} = \eta\,\Gamma_{\mathrm{bf}}$, independent of $T_{\mathrm{cyc}}$.  
+**Defining relations.**
+1. Ancilla bit‑flip rate: $\displaystyle \Gamma_{\mathrm{bf}} = \frac{1}{T_1^{\mathrm{bf}}}$.
+2. Corrected logical decay rate: $\displaystyle \Gamma_L^{(1)} = \frac{\Gamma_L^{(0)}}{F}$, with $\Gamma_L^{(i)} = 1/T_L^{(i)}$.
+3. Per‑cycle bit‑flip probability (Poisson model): $\displaystyle p_{\mathrm{bf}}(T_{\mathrm{cyc}}) = 1 - e^{-\Gamma_{\mathrm{bf}} T_{\mathrm{cyc}}} \approx \Gamma_{\mathrm{bf}} T_{\mathrm{cyc}}$ for $\Gamma_{\mathrm{bf}} T_{\mathrm{cyc}} \ll 1$.
+4. Steady‑state ancilla‑induced logical error rate: $\displaystyle \Gamma_{\mathrm{anc}} = \eta\,\Gamma_{\mathrm{bf}}$, independent of $T_{\mathrm{cyc}}$.
 5. Uncertainty propagation for a function $q = f(I_1,I_2)$ with independent inputs: $\displaystyle \sigma_q^2 = \left(\frac{\partial f}{\partial I_1}\right)^2 \sigma_{I_1}^2 + \left(\frac{\partial f}{\partial I_2}\right)^2 \sigma_{I_2}^2$.
 
 All arithmetic follows the steps detailed in Section 4.
@@ -115,7 +113,7 @@ Uncertainty propagation:
 
 Hence $p_{\mathrm{bf}}^{\mathrm{flx}} = 0.0219 \pm 0.0034$ (2.19 % $\pm$ 0.34 %).
 
-**Transmon baseline (input $I_4$).**  
+**Transmon baseline (input $I_4$).**
 
 \[
 \Gamma_{\mathrm{bf}}^{\mathrm{tm}} = \frac{1}{3.0\times10^{-5}} = 3.333\times10^{4}~\mathrm{s}^{-1},
@@ -191,13 +189,13 @@ Hence the fluxonium platform delivers an effective $8.0$–$64\times$ photon‑b
 
 All quantities below are derived in Section 4 from the inputs $I_1$–$I_6$ (or are explicitly labeled projections).
 
-- **R1 (computed).** Ancilla bit‑flip rate: $\Gamma_{\mathrm{bf}} = (2.22 \pm 0.34)\times10^{3}~\mathrm{s}^{-1}$.  
-- **R2 (computed).** Fraction of logical decay removed: $0.371 \pm 0.020$ (37.1 %). Residual fraction: $0.629 \pm 0.020$.  
-- **R3 (computed, assumption $T_{\mathrm{cyc}}=10~\mu\mathrm{s}$).** Per‑cycle ancilla error: $p_{\mathrm{bf}}^{\mathrm{flx}} = 0.0219 \pm 0.0034$ (2.19 % $\pm$ 0.34 %).  
-- **R4 (computed, assumption $T_1^{\mathrm{tm}}=30~\mu\mathrm{s}$).** Transmon baseline per‑cycle error: $p_{\mathrm{bf}}^{\mathrm{tm}} \approx 0.283$ (28.3 %). Ratio of per‑cycle errors: $12.9$. Ratio of rates: $15.0$.  
-- **R5 (structural).** Steady‑state ancilla‑induced logical error rate equals $\eta\,\Gamma_{\mathrm{bf}}$, independent of cycle speed.  
-- **R6 (projection).** With $\eta=0.1$, the ancilla‑limited corrected logical lifetime is $T_L^{(1)} \approx 4.51~\mathrm{ms}$.  
-- **R7 (projection).** Photon‑budget advantage range: $8.0$–$64\times$ fewer photons per logical qubit versus surface codes, under the linearity assumption.  
+- **R1 (computed).** Ancilla bit‑flip rate: $\Gamma_{\mathrm{bf}} = (2.22 \pm 0.34)\times10^{3}~\mathrm{s}^{-1}$.
+- **R2 (computed).** Fraction of logical decay removed: $0.371 \pm 0.020$ (37.1 %). Residual fraction: $0.629 \pm 0.020$.
+- **R3 (computed, assumption $T_{\mathrm{cyc}}=10~\mu\mathrm{s}$).** Per‑cycle ancilla error: $p_{\mathrm{bf}}^{\mathrm{flx}} = 0.0219 \pm 0.0034$ (2.19 % $\pm$ 0.34 %).
+- **R4 (computed, assumption $T_1^{\mathrm{tm}}=30~\mu\mathrm{s}$).** Transmon baseline per‑cycle error: $p_{\mathrm{bf}}^{\mathrm{tm}} \approx 0.283$ (28.3 %). Ratio of per‑cycle errors: $12.9$. Ratio of rates: $15.0$.
+- **R5 (structural).** Steady‑state ancilla‑induced logical error rate equals $\eta\,\Gamma_{\mathrm{bf}}$, independent of cycle speed.
+- **R6 (projection).** With $\eta=0.1$, the ancilla‑limited corrected logical lifetime is $T_L^{(1)} \approx 4.51~\mathrm{ms}$.
+- **R7 (projection).** Photon‑budget advantage range: $8.0$–$64\times$ fewer photons per logical qubit versus surface codes, under the linearity assumption.
 - **R8 (consistency check).** The relative uncertainty of $\Gamma_{\mathrm{bf}}$ (15.5 %) matches that of $T_1^{\mathrm{bf}}$, confirming correct propagation.
 
 No new measurements or simulations are reported.
@@ -216,35 +214,27 @@ No new measurements or simulations are reported.
 
 **Failure mode 4: spiral‑resonator loss.** The planar resonator trades mode volume for integration; a low quality factor would increase photon‑loss‑induced logical errors, eroding the photon‑budget advantage. Direct $Q$‑factor measurements at the operating photon number would test this risk.
 
-
-
-
-
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Primary users and design impact.** Quantum‑hardware architects designing superconducting processors will use the derived ancilla error budget to justify selecting heavy fluxonium ancillas over transmons for planar bosonic QEC modules. The per‑cycle error probability $p_{\mathrm{bf}}^{\mathrm{flx}}=2.19\%$ informs the allowable correction‑cycle duration and reset specifications.  
+**(a) Primary users and design impact.** Quantum‑hardware architects designing superconducting processors will use the derived ancilla error budget to justify selecting heavy fluxonium ancillas over transmons for planar bosonic QEC modules. The per‑cycle error probability $p_{\mathrm{bf}}^{\mathrm{flx}}=2.19\%$ informs the allowable correction‑cycle duration and reset specifications.
 
-**(b) Technology readiness.** The work is purely analytical, based on published numbers and uncertainty propagation, and has not undergone peer review. According to NASA TRL definitions, it resides at TRL 1–2 (basic principles observed) and does not exceed TRL 3 (analytical proof‑of‑concept).  
+**(b) Technology readiness.** The work is purely analytical, based on published numbers and uncertainty propagation, and has not undergone peer review. According to NASA TRL definitions, it resides at TRL 1–2 (basic principles observed) and does not exceed TRL 3 (analytical proof‑of‑concept).
 
-**(c) Smallest next experiment.** A targeted experiment would (i) measure the fluxonium pure‑dephasing time $T_2$ under the bias point used for GKP stabilization, (ii) quantify the actual GKP squeezing (in dB) achieved in the planar resonator, and (iii) record the fluxonium reset latency. Observation of $T_2 \gg T_{\mathrm{cyc}}$, sufficient squeezing for error correction, and reset $<10~\mu\mathrm{s}$ would support the assumptions; any violation would falsify the projected logical lifetime and photon‑budget advantage.  
+**(c) Smallest next experiment.** A targeted experiment would (i) measure the fluxonium pure‑dephasing time $T_2$ under the bias point used for GKP stabilization, (ii) quantify the actual GKP squeezing (in dB) achieved in the planar resonator, and (iii) record the fluxonium reset latency. Observation of $T_2 \gg T_{\mathrm{cyc}}$, sufficient squeezing for error correction, and reset $<10~\mu\mathrm{s}$ would support the assumptions; any violation would falsify the projected logical lifetime and photon‑budget advantage.
 
-**(d) Engineering constraints.**  
-- **Materials & fabrication:** Heavy fluxonium requires large inductive loops and high‑quality shunt capacitors; planar spiral resonators demand precise lithography to achieve the targeted mode volume and $Q$ factor.  
-- **Timing & control:** Fast reset circuitry must deliver sub‑10 µs reset pulses without inducing excess dephasing.  
-- **Squeezing generation:** Achieving $\ge 11.2$ dB squeezing in the microwave domain may require high‑power parametric drives and low‑noise amplification chains.  
-- **Calibration:** Accurate calibration of $T_1^{\mathrm{bf}}$ and $T_2$ is essential for reliable error‑budget propagation.  
+**(d) Engineering constraints.**
+- **Materials & fabrication:** Heavy fluxonium requires large inductive loops and high‑quality shunt capacitors; planar spiral resonators demand precise lithography to achieve the targeted mode volume and $Q$ factor.
+- **Timing & control:** Fast reset circuitry must deliver sub‑10 µs reset pulses without inducing excess dephasing.
+- **Squeezing generation:** Achieving $\ge 11.2$ dB squeezing in the microwave domain may require high‑power parametric drives and low‑noise amplification chains.
+- **Calibration:** Accurate calibration of $T_1^{\mathrm{bf}}$ and $T_2$ is essential for reliable error‑budget propagation.
 
-**(e) Projected cost/performance bounds.** Assuming the linear photon‑budget scaling, the effective photon advantage of $8$–$64\times$ translates to a proportional reduction in cryogenic wiring and packaging complexity. No absolute dollar figures are provided because they depend on fabrication processes and component pricing not derived in this work.  
+**(e) Projected cost/performance bounds.** Assuming the linear photon‑budget scaling, the effective photon advantage of $8$–$64\times$ translates to a proportional reduction in cryogenic wiring and packaging complexity. No absolute dollar figures are provided because they depend on fabrication processes and component pricing not derived in this work.
 
 **(f) Risks and misuse.** Over‑reliance on the ancilla‑error reduction without addressing oscillator loss or insufficient squeezing could lead to premature claims of scalability. Designers must verify that the oscillator error budget truly dominates before discarding transmon‑based approaches.
 
 ## 8. Conclusion
 
 By propagating the reported heavy‑fluxonium lifetime and logical‑lifetime extension through explicit error‑budget relations, we have quantified the ancilla bit‑flip rate, the fractional logical‑decay reduction, the per‑cycle ancilla error probability, and the steady‑state ancilla‑induced logical error floor. The analysis shows that the fluxonium ancilla lifts the dominant error channel, enabling a modest but concrete improvement in logical lifetime and a projected $8$–$64\times$ photon‑budget advantage over surface codes. However, the modest extension factor, potential dephasing, squeezing limitations, reset latency, and resonator loss constitute critical failure modes that must be experimentally verified. The derived metrics provide a clear target for hardware engineers and a falsifiable framework for future experimental work.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report. references 12 -> 9. length 4094 -> 2806 words.
 
 ## Provenance and AI Involvement
 

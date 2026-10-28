@@ -11,10 +11,10 @@ Engineers who must stabilize fragile quantum or mesoscopic states—such as supe
 A prior feasibility analysis [9] restated the Signal as a discrete‑time controller block, derived output transformations for integrator‑type dynamics, and bounded passivity degradation caused by output quantization. That work produced arithmetic‑checkable quantities but stopped at the block‑diagram level, omitted connections to the corpus’s thermodynamic arguments, and left the engineering pathway unspecified. This paper completes the arc and, in doing so, corrects an interpretive error in the predecessor’s quantization analysis: the published Section 4.3 stated that the quantization budget is tolerable only for states *small enough* that \(\delta\sum_k x_k^{2}\) stays above \(5.0\); the inequality in fact requires states *large enough*, because the dissipation term must exceed the degradation budget. The corrected interpretation is derived in Section 4.3 and confirmed by the structure of the inequality itself: the net margin is \(\delta\sum_k x_k^{2} - \Delta_{\text{quant}}\), which is non‑positive when the dissipation is too small, i.e., when states are too small.
 
 Contributions are:
-1. A block‑diagram formalization of the Signal‑Worker decomposition as a discrete‑time passivity problem (Section 3).  
-2. Exact derivations, with every arithmetic step shown, of the output maps under which pure and leaky integrator Signals are passive, including a counterexample for the naive output (Section 4).  
-3. A worst‑case quantization degradation bound (\(5.0\) energy units over \(100\) steps at \(q = 0.1\)) with the corrected state‑magnitude threshold \(x_\ast \ge 0.726\), and an illustrative example quantifying delay margin, quantization energy cost, attractor radius, and robustness budget (Sections 4.3–4.4, summarized in Section 5).  
-4. A mapping between the derived dissipation rate \(\delta\) and the corpus’s passive‑versus‑driven distinction (Section 6).  
+1. A block‑diagram formalization of the Signal‑Worker decomposition as a discrete‑time passivity problem (Section 3).
+2. Exact derivations, with every arithmetic step shown, of the output maps under which pure and leaky integrator Signals are passive, including a counterexample for the naive output (Section 4).
+3. A worst‑case quantization degradation bound (\(5.0\) energy units over \(100\) steps at \(q = 0.1\)) with the corrected state‑magnitude threshold \(x_\ast \ge 0.726\), and an illustrative example quantifying delay margin, quantization energy cost, attractor radius, and robustness budget (Sections 4.3–4.4, summarized in Section 5).
+4. A mapping between the derived dissipation rate \(\delta\) and the corpus’s passive‑versus‑driven distinction (Section 6).
 5. A practical pathway: identification of users, TRL assessment, the smallest next test, and the primary engineering constraints (Section 7).
 
 ## 2. Background and Related Work
@@ -165,16 +165,16 @@ y_k = (1-\alpha)x_k + \frac{1}{2}u_k,
 V(x_{k+1})-V(x_k) \le u_k y_k - \delta x_k^{2}.
 \]
 
-**Numerical verification for \(\alpha=0.1\).**  
+**Numerical verification for \(\alpha=0.1\).**
 \(\beta = 0.9\), \(\gamma = 0.5\), \(\delta = 0.1 - 0.005 = 0.095\).
 
-*Zero supply:* \(x_0=2\), \(u_0=0\) → \(x_1=0.9\times2=1.8\).  
-\(V(x_0)=2\), \(V(x_1)=1.62\), \(\Delta V=-0.38\).  
+*Zero supply:* \(x_0=2\), \(u_0=0\) → \(x_1=0.9\times2=1.8\).
+\(V(x_0)=2\), \(V(x_1)=1.62\), \(\Delta V=-0.38\).
 \(-\delta x_0^{2}= -0.095\times4 = -0.38\). Equality holds.
 
-*With supply:* \(x_0=2\), \(u_0=0.5\) → \(x_1=0.9\times2+0.5=2.3\).  
-\(V(x_1)=2.645\), \(\Delta V=0.645\).  
-\(y_0=0.9\times2+0.5\times0.5=2.05\), \(u_0 y_0=1.025\).  
+*With supply:* \(x_0=2\), \(u_0=0.5\) → \(x_1=0.9\times2+0.5=2.3\).
+\(V(x_1)=2.645\), \(\Delta V=0.645\).
+\(y_0=0.9\times2+0.5\times0.5=2.05\), \(u_0 y_0=1.025\).
 \(\Delta V - u_0 y_0 = -0.38 = -\delta x_0^{2}\). Inequality holds with margin \(0.38\).
 
 **Counterexample for the naive output.** With \(y_k = x_k\) (\(\beta=1,\gamma=0\)) and \(\alpha=0.1\),
@@ -188,10 +188,10 @@ At \(x_k=1\), \(u_k=-1\) the expression equals \(-0.095 + 0.1 + 0.5 = 0.505 > 0\
 
 ### 4.3 Quantization degradation bound
 
-**Assumptions.**  
-(i) Uniform output quantization with resolution \(q=0.1\) ⇒ \(|y_k - y_k^{q}| \le q/2 = 0.05\).  
-(ii) The Worker receives the quantized output, so the actual supply is \(u_k y_k^{q}\).  
-(iii) Input magnitude bounded: \(|u_k| \le U_{\max}=1\).  
+**Assumptions.**
+(i) Uniform output quantization with resolution \(q=0.1\) ⇒ \(|y_k - y_k^{q}| \le q/2 = 0.05\).
+(ii) The Worker receives the quantized output, so the actual supply is \(u_k y_k^{q}\).
+(iii) Input magnitude bounded: \(|u_k| \le U_{\max}=1\).
 (iv) Horizon \(N=100\) steps.
 
 **Derivation.** Per‑step supply error:
@@ -262,26 +262,26 @@ Safety ratio:
 \rho = \frac{M_n}{\ell_d}= \frac{0.375}{0.0796}\approx 4.71.
 \]
 
-**Quantization energy cost.**  
+**Quantization energy cost.**
 
 \[
 E_q \le \frac{\Delta}{2}\,u_{\max}= \frac{0.05}{2}\times1.0 = 0.025\ \text{J}.
 \]
 
-Nominal per‑packet supply bound \(E_0 = u_{\max}^{2}=1.0\ \text{J}\).  
+Nominal per‑packet supply bound \(E_0 = u_{\max}^{2}=1.0\ \text{J}\).
 Relative overhead:
 
 \[
 \frac{E_q}{E_0}= \frac{0.025}{1.0}=0.025 = 2.5\%.
 \]
 
-**Attractor radius.**  
+**Attractor radius.**
 
 \[
 r_q = \frac{\Delta/2}{\lambda_W}= \frac{0.025}{0.5}=0.05.
 \]
 
-**Robustness budget.**  
+**Robustness budget.**
 Combined margin \(M=0.6\). The Signal’s margin erosion tolerance is \(\delta < \epsilon_S = 0.1\). Fraction of combined margin:
 
 \[
@@ -318,21 +318,21 @@ All results are direct outputs of the derivations in Section 4.
 
 **The corrected interpretation and why the error mattered.** The predecessor’s Section 4.3 claimed that the quantization budget is tolerable only for states *small enough* that \(\delta\sum_k x_k^{2}\) stays above \(5.0\). The inequality \(\delta\sum_k x_k^{2} \ge \Delta_{\text{quant}}\) admits the opposite reading: dissipation must reach the budget, and dissipation grows with state magnitude. A second reading of the same derivation confirms the correction: at constant magnitude \(x_\ast\), the threshold \(x_\ast \ge 0.726\) is a *lower* bound, so states below it fail and states above it pass. The practical consequence reverses: small‑signal operation is the fragile regime, not the safe one, and a designer must either increase signal amplitude, reduce \(q\), shorten \(N\), or reduce \(U_{\max}\) to protect small states.
 
-**Limitations and failure modes.**  
-1. *Postulated dynamics.* The integrator models are assumptions; any different Signal dynamics require a new storage‑function derivation.  
-2. *Quadratic storage.* The analysis relies on \(V(x)=\tfrac{1}{2}x^{2}\); alternative storage functions could alter passivity conclusions.  
-3. *Scalar system.* Extensions to multi‑input, multi‑state systems are non‑trivial and not covered.  
-4. *Illustrative parameters.* Numbers in Section 4.4 are chosen for illustration; real systems will have different values.  
-5. *Bounded input and finite horizon.* The quantization budget scales linearly with \(N\) and \(U_{\max}\); longer horizons or larger inputs increase degradation.  
-6. *Delay model.* The margin proxy \(\rho\) is heuristic; a full \(\sigma\)-stability proof of the kind performed in [2] would be required for rigorous guarantees.  
-7. *Model uncertainty.* As shown in [4], parametric uncertainty can invalidate safety guarantees, and adaptive mechanisms are needed to retain them; the robustness budget R7 quantifies only a first‑order erosion.  
-8. *Packet loss.* The analysis does not incorporate weakly‑hard loss sequences; the LMI framework of [7] would be needed for such extensions.  
+**Limitations and failure modes.**
+1. *Postulated dynamics.* The integrator models are assumptions; any different Signal dynamics require a new storage‑function derivation.
+2. *Quadratic storage.* The analysis relies on \(V(x)=\tfrac{1}{2}x^{2}\); alternative storage functions could alter passivity conclusions.
+3. *Scalar system.* Extensions to multi‑input, multi‑state systems are non‑trivial and not covered.
+4. *Illustrative parameters.* Numbers in Section 4.4 are chosen for illustration; real systems will have different values.
+5. *Bounded input and finite horizon.* The quantization budget scales linearly with \(N\) and \(U_{\max}\); longer horizons or larger inputs increase degradation.
+6. *Delay model.* The margin proxy \(\rho\) is heuristic; a full \(\sigma\)-stability proof of the kind performed in [2] would be required for rigorous guarantees.
+7. *Model uncertainty.* As shown in [4], parametric uncertainty can invalidate safety guarantees, and adaptive mechanisms are needed to retain them; the robustness budget R7 quantifies only a first‑order erosion.
+8. *Packet loss.* The analysis does not incorporate weakly‑hard loss sequences; the LMI framework of [7] would be needed for such extensions.
 9. *Discontinuity treatment.* Quantization is treated as an additive bounded perturbation, following the perturbation view of [8]; regularity conditions required by that theorem are not verified here.
 
-**What would falsify the claims.**  
-* A concrete Signal dynamics specification for which no storage function \(V_S\) satisfies the dissipation inequality for any output map of the form \(y_k=\beta x_k+\gamma u_k\).  
-* An arithmetic error in the counterexample margin (e.g., if the computed margin were not \(+0.505\) under the naive output).  
-* A demonstration that the corrected threshold direction is wrong: a construction in which states smaller than \(0.726\) retain a non‑negative net margin under the stated assumptions would falsify the corrected interpretation.  
+**What would falsify the claims.**
+* A concrete Signal dynamics specification for which no storage function \(V_S\) satisfies the dissipation inequality for any output map of the form \(y_k=\beta x_k+\gamma u_k\).
+* An arithmetic error in the counterexample margin (e.g., if the computed margin were not \(+0.505\) under the naive output).
+* A demonstration that the corrected threshold direction is wrong: a construction in which states smaller than \(0.726\) retain a non‑negative net margin under the stated assumptions would falsify the corrected interpretation.
 * Empirical evidence that the corpus’s passive structural control requires the Signal to inject energy without prior supply, contradicting the passive‑controller interpretation.
 
 ****Limitations list (assumptions and sensitivity).**
@@ -346,50 +346,43 @@ All results are direct outputs of the derivations in Section 4.
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**  
+**(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**
 The immediate users are control engineers and theorists tasked with evaluating or formalizing claims from the Signal‑Worker research programme. The result gives them a concrete certification target: a storage‑function inequality with the explicit output map $y_k=(1-\alpha)x_k+\tfrac{1}{2}u_k$ (for a leaky Signal) or $y_k=x_k+\tfrac{1}{2}u_k$ (for a pure integrator). If the result holds, the design parameter that must be implemented is the corrected output map; any implementation that reports the naive state output $y_k=x_k$ would violate passivity. A second user group is designers of passivity‑based controller structures; the iFIR pattern of [1] provides a template for constructing a Signal block that satisfies the derived output map by design rather than by postulate. Beyond these groups the work is foundational: it establishes the form of a certification question that any future physical or simulated Signal must satisfy before a deployment decision can be made.
 
-**(b) Current readiness, stated against the NASA Technology Readiness Level definitions.**  
+**(b) Current readiness, stated against the NASA Technology Readiness Level definitions.**
 The work is purely analytical, has not been peer‑reviewed, and contains no experimental or simulation validation. Accordingly it resides at Technology Readiness Level 1–2 (basic principles observed and reported; formulation of a concept). Analytical work of this kind never exceeds TRL 3, and no manufacturing or deployment readiness can be claimed.
 
-**(c) The smallest next test, prototype, pilot or calculation that would de‑risk or falsify the result: what is measured and which outcome refutes it.**  
-The smallest de‑risking step is a calculation rather than a physical experiment. Given any concrete specification of Signal dynamics (e.g., a discrete‑time model supplied by the corpus or a candidate physical scaffold), one would attempt to fit a storage function $V_S(x)$—starting with the quadratic ansatz $V_S=\tfrac{1}{2}x^2$—such that the dissipation inequality  
-$$V_S(x_{k+1})-V_S(x_k)\le u_k\,y_k-\delta\,x_k^2$$  
+**(c) The smallest next test, prototype, pilot or calculation that would de‑risk or falsify the result: what is measured and which outcome refutes it.**
+The smallest de‑risking step is a calculation rather than a physical experiment. Given any concrete specification of Signal dynamics (e.g., a discrete‑time model supplied by the corpus or a candidate physical scaffold), one would attempt to fit a storage function $V_S(x)$—starting with the quadratic ansatz $V_S=\tfrac{1}{2}x^2$—such that the dissipation inequality
+$$V_S(x_{k+1})-V_S(x_k)\le u_k\,y_k-\delta\,x_k^2$$
 holds for all admissible $(x_k,u_k)$. Failure to find any output map of the form $y_k=\beta x_k+\gamma u_k$ that satisfies the inequality for the given dynamics would falsify the central claim. A second, equally minimal step is a numerical simulation of the leaky integrator with quantized output ($q=0.1$) over $N=100$ steps under the bound $|u_k|\le1$; observing a cumulative supply error exceeding the derived bound $\Delta_{\text{quant}}=5.0$ energy units would falsify the quantization‑budget claim.
 
-**(d) The engineering, manufacturing or deployment constraints that would bind first (materials, tolerances, components, data, compute, energy, cost drivers, scale‑up, regulation), each stated only when the grounding supports it or Section 4 derives it; otherwise list it as an open question.**  
-1. *Specification data.* No engineering step is possible until an explicit Signal dynamics model is provided; this is the primary binding constraint today (derived from the lack of corpus equations).  
-2. *Quantization resolution.* The degradation bound $\Delta_{\text{quant}}=N\,U_{\max}\,q/2$ shows that the actuator/output resolution $q$ and the horizon $N$ are the first numerical design constraints once a dynamics model exists.  
-3. *Channel delay and loss.* The safety‑ratio $\rho$ depends on transport delay $T_d$ and crossover frequency $\omega_c$; any increase in $T_d$ erodes $\rho$ and must be bounded to keep $\rho>1$ (heuristic from Section 4.4).  
-4. *Model uncertainty.* The robustness‑budget analysis (Section 4.4) limits allowable erosion of the combined margin $M$ to $16.7\%$; parameter‑identification error must therefore be kept below this fraction.  
-5. *Packet loss.* Weakly‑hard loss constraints described in [7] are not yet integrated with the dissipation inequality; handling loss sequences remains an open question.  
+**(d) The engineering, manufacturing or deployment constraints that would bind first (materials, tolerances, components, data, compute, energy, cost drivers, scale‑up, regulation), each stated only when the grounding supports it or Section 4 derives it; otherwise list it as an open question.**
+1. *Specification data.* No engineering step is possible until an explicit Signal dynamics model is provided; this is the primary binding constraint today (derived from the lack of corpus equations).
+2. *Quantization resolution.* The degradation bound $\Delta_{\text{quant}}=N\,U_{\max}\,q/2$ shows that the actuator/output resolution $q$ and the horizon $N$ are the first numerical design constraints once a dynamics model exists.
+3. *Channel delay and loss.* The safety‑ratio $\rho$ depends on transport delay $T_d$ and crossover frequency $\omega_c$; any increase in $T_d$ erodes $\rho$ and must be bounded to keep $\rho>1$ (heuristic from Section 4.4).
+4. *Model uncertainty.* The robustness‑budget analysis (Section 4.4) limits allowable erosion of the combined margin $M$ to $16.7\%$; parameter‑identification error must therefore be kept below this fraction.
+5. *Packet loss.* Weakly‑hard loss constraints described in [7] are not yet integrated with the dissipation inequality; handling loss sequences remains an open question.
 6. *Physical implementation.* No material, tolerance, or regulatory constraints can be listed until a concrete Signal hardware or scaffold is proposed; these remain open questions.
 
-**(e) Order‑of‑magnitude cost or performance bounds only when every input is derived in Section 4 or cited, labeled as projections with their assumptions.**  
-- *Dissipation‑rate range.* From $\delta=\alpha-\alpha^{2}/2$ with $\alpha\in[0,1]$ we obtain $0\le\delta\le0.5$ (maximum at $\alpha=1$). This is a projection derived directly from the formula in Section 4.2.  
-- *Quantization‑budget scaling.* The worst‑case cumulative degradation is $\Delta_{\text{quant}}=N\,U_{\max}\,q/2$. At the operating point $N=100$, $U_{\max}=1$, $q=0.1$ this yields $\Delta_{\text{quant}}=5.0$ energy units (Section 4.3). Doubling $q$ to $0.2$ would double the budget to $10.0$, assuming $N$ and $U_{\max}$ unchanged. Halving $q$ to $0.05$ would halve it to $2.5$, under the same assumptions.  
-- *Per‑packet quantization energy cost.* With $\Delta=0.05$ and $u_{\max}=1$, the excess energy per packet is $E_q\le(\Delta/2)u_{\max}=0.025$ J, i.e. $2.5\%$ of the nominal supply bound $E_0=u_{\max}^{2}=1.0$ J (Section 4.4).  
-- *Attractor radius.* Using the contraction constant $\lambda_W=0.5\ \text{s}^{-1}$, the guaranteed attractor radius is $r_q=(\Delta/2)/\lambda_W=0.05$ (Section 4.4).  
+**(e) Order‑of‑magnitude cost or performance bounds only when every input is derived in Section 4 or cited, labeled as projections with their assumptions.**
+- *Dissipation‑rate range.* From $\delta=\alpha-\alpha^{2}/2$ with $\alpha\in[0,1]$ we obtain $0\le\delta\le0.5$ (maximum at $\alpha=1$). This is a projection derived directly from the formula in Section 4.2.
+- *Quantization‑budget scaling.* The worst‑case cumulative degradation is $\Delta_{\text{quant}}=N\,U_{\max}\,q/2$. At the operating point $N=100$, $U_{\max}=1$, $q=0.1$ this yields $\Delta_{\text{quant}}=5.0$ energy units (Section 4.3). Doubling $q$ to $0.2$ would double the budget to $10.0$, assuming $N$ and $U_{\max}$ unchanged. Halving $q$ to $0.05$ would halve it to $2.5$, under the same assumptions.
+- *Per‑packet quantization energy cost.* With $\Delta=0.05$ and $u_{\max}=1$, the excess energy per packet is $E_q\le(\Delta/2)u_{\max}=0.025$ J, i.e. $2.5\%$ of the nominal supply bound $E_0=u_{\max}^{2}=1.0$ J (Section 4.4).
+- *Attractor radius.* Using the contraction constant $\lambda_W=0.5\ \text{s}^{-1}$, the guaranteed attractor radius is $r_q=(\Delta/2)/\lambda_W=0.05$ (Section 4.4).
 
 All these numbers are algebraic consequences of the formulas derived in Section 4 and the illustrative parameters explicitly listed there; they are therefore projections with the stated assumptions.
 
-**(f) Direct risks or misuse paths, where one exists.**  
-- The principal risk is rhetorical misuse: citing the passivity results as empirical validation of the Signal‑Worker ontology would be misleading, because the analysis only shows internal consistency of a block‑diagram abstraction on postulated dynamics.  
-- A second misuse would be transferring the illustrative quantitative values (e.g., $\rho\approx4.71$, $2.5\%$ overhead) to real systems without re‑deriving them for the actual parameters; such transfer would overstate performance.  
-- Finally, reliance on the quadratic storage function may conceal cases where alternative storage functions are needed, leading designers to overlook potential instability if the true Signal dynamics deviate from the assumed integrator form.  
+**(f) Direct risks or misuse paths, where one exists.**
+- The principal risk is rhetorical misuse: citing the passivity results as empirical validation of the Signal‑Worker ontology would be misleading, because the analysis only shows internal consistency of a block‑diagram abstraction on postulated dynamics.
+- A second misuse would be transferring the illustrative quantitative values (e.g., $\rho\approx4.71$, $2.5\%$ overhead) to real systems without re‑deriving them for the actual parameters; such transfer would overstate performance.
+- Finally, reliance on the quadratic storage function may conceal cases where alternative storage functions are needed, leading designers to overlook potential instability if the true Signal dynamics deviate from the assumed integrator form.
 
 These risks highlight the need for careful model validation before applying the certification criteria to physical systems.
 
 ## 9. Conclusion
 
 We have completed the feasibility arc for the Signal‑Worker ontology's central engineering question. The Signal, modeled as a discrete‑time controller block, is exactly passive as a pure integrator under the output map $y_k = x_k + \frac{1}{2}u_k$ and strictly passive as a leaky integrator under $y_k = (1-\alpha)x_k + \frac{1}{2}u_k$ with dissipation rate $\delta = \alpha - \frac{\alpha^{2}}{2}$ — a result that fails under the naive state output, with counterexample margin $+0.505$. Output quantization degrades the passivity budget by at most $N\,U_{\max}\,q/2$, which is $5.0$ energy units at the stated operating point. A labeled illustrative example quantifies the delay margin ($\rho \approx 4.71$), quantization energy cost ($2.5\%$ per packet), attractor radius ($r_q = 0.05$), and robustness budget ($16.7\%$ margin erosion tolerance). The dissipation rate $\delta$ provides the corpus's passive‑versus‑driven distinction a tunable control‑theoretic analogue, though the mapping remains uncalibrated because the corpus supplies no dynamical equations or numerical complexity values. The hypothesis is well‑posed and internally consistent at the block‑diagram level; it resides at Technology Readiness Level 1–2 as pure analysis; and the smallest next test is the fitting of a storage function to any concrete Signal dynamics, with failure defined as the nonexistence of any output map rendering the dissipation inequality satisfied.
-
-
-
-  
-
-
-
 
 ## Appendix A. Divergence Report
 
@@ -415,15 +408,6 @@ No divergent claims were identified among the independent drafts. All substantiv
 | C14 | Primary constraints before implementation are (i) specification of Signal dynamics, (ii) quantization resolution, (iii) channel delay and loss, (iv) model uncertainty. | Draft A, Draft B, Draft C |
 | C15 | Order‑of‑magnitude bounds: $\delta \in [0,0.5]$ for $\alpha \in [0,1]$; $\Delta_{\text{quant}} = N U_{\max} q/2$. | Draft A, Draft B, Draft C |
 | C16 | Risks include misinterpreting the analytical passivity results as empirical validation of the Signal‑Worker ontology. | Draft A, Draft B, Draft C |
-
-## Version History
-
-- Version 2.0.1 (2026-10-19, from 2.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.0.2 (2026-10-19, from 2.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.0.3 (2026-10-19, from 2.0.2): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.1.0 (2026-10-19, from 2.0.3): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence Report; Appendix B. Claim Attribution. references 10 -> 10. length 7200 -> 4650 words.
-- Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 10 -> 10. length 4747 -> 4837 words.
-- Version 2.3.0 (2026-10-22, from 2.2.0): revised against the current literature, re-reviewed and re-verified. references 10 -> 10. length 4957 -> 5414 words.
 
 ## Provenance and AI Involvement
 
