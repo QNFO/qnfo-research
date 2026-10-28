@@ -260,10 +260,6 @@ Uncertainty on these projections is dominated by the unknown simulator constant 
 
 We formalized Zitterbewegung as a candidate observable signature of mixing between the Archimedean place and the 2-adic place: a spectral-gap Proposition shows any such coupling forces an oscillation at $\Omega = \sqrt{(\Delta E)^2 + 4|g|^2}/\hbar$; explicit derivations give $\omega_{\mathrm{ZBW}} = 1.55268 \times 10^{21}\,\mathrm{rad\,s^{-1}}$ and $\lambda_C = 3.8616 \times 10^{-13}\,\mathrm{m}$; the prime 2 is structurally minimal via its 3-regular Bruhat–Tits tree; and a trapped-ion protocol with projected factor-of-$4$ amplitude suppression per confinement step makes the claim falsifiable. The causal adelic interpretation remains a hypothesis; the simulation program is its test.
 
-## Version History
-
-- Version 2.0.0 (2026-10-27, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 12. length 4022 -> 5940 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.39.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
