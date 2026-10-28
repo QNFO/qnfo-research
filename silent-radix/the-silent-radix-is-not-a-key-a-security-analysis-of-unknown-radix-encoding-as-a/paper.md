@@ -49,7 +49,7 @@ Let $\Sigma$ be a plaintext alphabet of $m$ symbols (for concreteness, English l
 Encryption of a plaintext $P=s_{1}s_{2}\dots s_{n}$ of $n$ symbols proceeds in two steps:
 
 1. Map each symbol to its digit: $d_{i}=\pi(s_{i})$ for $i=1,\dots,n$.
-2. Interpret the digit string $d_{1}d_{2}\dots d_{n}$ as a positional numeral in base $B$, i.e., compute the integer  
+2. Interpret the digit string $d_{1}d_{2}\dots d_{n}$ as a positional numeral in base $B$, i.e., compute the integer
 
 $$C=\sum_{i=1}^{n}d_{i}\,B^{\,n-i}.$$
 
@@ -59,11 +59,11 @@ This is the encoding core of the scheme described as Silent Radix Encryption in 
 
 ### 3.2 Key space and adversary model
 
-The key space is  
+The key space is
 
-$$\mathcal{K}=\{(B,\pi):B\in\{2,\dots,B_{\max}\},\ \pi\in\mathrm{Sym}(m)\},$$  
+$$\mathcal{K}=\{(B,\pi):B\in\{2,\dots,B_{\max}\},\ \pi\in\mathrm{Sym}(m)\},$$
 
-where $\mathrm{Sym}(m)$ is the set of bijections from $\Sigma$ to $\{0,\dots,m-1\}$. Its size is  
+where $\mathrm{Sym}(m)$ is the set of bijections from $\Sigma$ to $\{0,\dots,m-1\}$. Its size is
 
 $$|\mathcal{K}|=(B_{\max}-1)\cdot m!.$$
 
@@ -92,19 +92,19 @@ With $m=26$ and $B_{\max}=2^{16}=65536$:
 - Number of admissible radices: $B_{\max}-1=65535$.
 - Number of digit maps: $26!$.
 
-Compute $\log_{2}(26!)$. We have $26!=403291461126605635584000000\approx4.0329\times10^{26}$. Then  
+Compute $\log_{2}(26!)$. We have $26!=403291461126605635584000000\approx4.0329\times10^{26}$. Then
 
 $$\log_{2}(26!)=\log_{10}(4.0329\times10^{26})\times\log_{2}10=26.6055\times3.32193=88.38\text{ bits}.$$
 
 Step by step: $\log_{10}(4.0329)=0.6055$, so $\log_{10}(26!)=26.6055$; multiplying by $\log_{2}10=3.32193$ gives $88.38$.
 
-The radix contributes $\log_{2}65535$ bits. Since $65535=2^{16}-1=2^{16}(1-2^{-16})$,  
+The radix contributes $\log_{2}65535$ bits. Since $65535=2^{16}-1=2^{16}(1-2^{-16})$,
 
 $$\log_{2}65535=16+\log_{2}(1-2^{-16})\approx16-2^{-16}\cdot\log_{2}e\approx16-0.000022=15.99998,$$
 
 which we carry as $16.00$ bits rounded to two decimals.
 
-Total key entropy:  
+Total key entropy:
 
 $$H(K)=\log_{2}\big[(B_{\max}-1)\cdot26!\big]=16.00+88.38=104.38\text{ bits}.$$
 
@@ -118,17 +118,17 @@ The only structural difference from a textbook substitution cipher is segmentati
 
 ### 4.3 Unicity distance
 
-The unicity distance for a cipher with key entropy $H(K)$ over a redundant source with redundancy $D$ bits per symbol is  
+The unicity distance for a cipher with key entropy $H(K)$ over a redundant source with redundancy $D$ bits per symbol is
 
 $$n_{0}=\frac{H(K)}{D}.$$
 
-With $H(K)=104.38$ bits (Section 4.1) and the assumed redundancy $D=0.70$ bits/symbol (assumption $A_{1}$):  
+With $H(K)=104.38$ bits (Section 4.1) and the assumed redundancy $D=0.70$ bits/symbol (assumption $A_{1}$):
 
 $$n_{0}=\frac{104.38}{0.70}=149.1\text{ symbols}.$$
 
 Arithmetic: $104.38/0.70=149.114\ldots$, rounded to $149.1$.
 
-For the radix alone (if $\pi$ were public and only $B$ secret):  
+For the radix alone (if $\pi$ were public and only $B$ secret):
 
 $$n_{0}^{(\text{radix})}=\frac{16.00}{0.70}=22.9\text{ symbols}.$$
 
@@ -142,21 +142,21 @@ Thus a single ciphertext of roughly $150$ symbols suffices, in principle, to det
 
 (a) Under the correct $B'=B$, the digit string is $\pi(s_{1})\dots\pi(s_{n})$, so digit frequencies equal plaintext letter frequencies permuted by $\pi$. In particular, the most frequent digit occurs with relative frequency $p_{\max}=0.12$ (assumption $A_{2}$).
 
-(b) Under a wrong $B'\neq B$, the integer $C$ behaves as an arbitrary integer in base $B'$, and its digits are spread over $B'$ values. As an explicitly labeled projection we assume a uniformity heuristic: under a wrong $B'$ the $n$ digits are approximately uniformly distributed over $B'$ values, giving an expected most‑common‑digit frequency of roughly $1/B'$ (plus $O(1/n)$). For $B'\ge2^{16}$ and $n=1000$ this is at most about $10^{-3}$, versus $0.12$ for the correct base. The gap between the two hypotheses is therefore at least  
+(b) Under a wrong $B'\neq B$, the integer $C$ behaves as an arbitrary integer in base $B'$, and its digits are spread over $B'$ values. As an explicitly labeled projection we assume a uniformity heuristic: under a wrong $B'$ the $n$ digits are approximately uniformly distributed over $B'$ values, giving an expected most‑common‑digit frequency of roughly $1/B'$ (plus $O(1/n)$). For $B'\ge2^{16}$ and $n=1000$ this is at most about $10^{-3}$, versus $0.12$ for the correct base. The gap between the two hypotheses is therefore at least
 
 $$\frac{0.12}{10^{-3}}=7864.32.$$
 
-Cost of Stage 1: for each candidate $B'\in\{2,\dots,B_{\max}\}$, extracting the $n$ base‑$B'$ digits of $C$ costs $O(n)$ division steps. Total  
+Cost of Stage 1: for each candidate $B'\in\{2,\dots,B_{\max}\}$, extracting the $n$ base‑$B'$ digits of $C$ costs $O(n)$ division steps. Total
 
 $$W_{1}\le(B_{\max}-1)\cdot c\cdot n,$$
 
-with $c=1$ digit‑extraction step per digit. For $B_{\max}=2^{16}$ and $n=1000$:  
+with $c=1$ digit‑extraction step per digit. For $B_{\max}=2^{16}$ and $n=1000$:
 
 $$W_{1}\le65535\times1000=65\,535\,000=6.5535\times10^{7}\text{ digit operations}.$$
 
 At $10^{8}$ operations/s this is $0.66$ s; at $10^{9}$ ops/s it is $0.066$ s. Granting a factor‑of‑100 overhead for histogram bookkeeping yields at most a minute on a single core.
 
-**Stage 1b: consistency check on digit‑map range.** The observed maximum digit value $d_{\max}$ satisfies $B\ge d_{\max}+1$, and the number of distinct digits observed bounds $m$ from below. The probability that a symbol with probability $p_{\min}=0.005$ fails to appear in $n=1000$ symbols is  
+**Stage 1b: consistency check on digit‑map range.** The observed maximum digit value $d_{\max}$ satisfies $B\ge d_{\max}+1$, and the number of distinct digits observed bounds $m$ from below. The probability that a symbol with probability $p_{\min}=0.005$ fails to appear in $n=1000$ symbols is
 
 $$(1-p_{\min})^{n}=0.995^{1000}=e^{1000\ln0.995}=e^{-5.01254}=0.006654.$$
 
@@ -166,15 +166,15 @@ Thus with probability $0.993346$ the full letter‑frequency profile appears, al
 
 ### 4.5 Brute‑force benchmark and the irrelevance of key‑space size
 
-Exhaustive search over $\mathcal{K}$ would require testing $|\mathcal{K}|=2^{104.38}\approx2.64\times10^{31}$ keys. At a hypothetical $10^{9}$ keys/s:  
+Exhaustive search over $\mathcal{K}$ would require testing $|\mathcal{K}|=2^{104.38}\approx2.64\times10^{31}$ keys. At a hypothetical $10^{9}$ keys/s:
 
 $$T_{\text{bf}}=\frac{2.64\times10^{31}}{10^{9}}\text{ s}=2.64\times10^{22}\text{ s}.$$
 
-Converting to years ($3.156\times10^{7}$ s/year):  
+Converting to years ($3.156\times10^{7}$ s/year):
 
 $$T_{\text{bf}}=\frac{2.64\times10^{22}}{3.156\times10^{7}}=8.36\times10^{14}\text{ years}.$$
 
-The structural attack of Section 4.4 therefore succeeds in under a second on a single core, a factor of roughly  
+The structural attack of Section 4.4 therefore succeeds in under a second on a single core, a factor of roughly
 
 $$\frac{8.36\times10^{14}\text{ years}}{0.66\text{ s}\times(1\text{ year}/3.156\times10^{7}\text{ s})}\approx4.0\times10^{22}$$
 
@@ -265,10 +265,10 @@ The analysis and derivations presented herein were produced entirely by the auto
 
 ## 9. Future Work
 
-- **Noise‑augmented variants.** Investigate constructions that add random noise to the integer $C$ before transmission and evaluate whether the histogram‑discrimination test of Section 4.4 retains its gap factor under the same language‑model assumptions.  
-- **Transformed ciphertexts.** Formalize security models for schemes that publish a function $f(C)$ (e.g., a hash or a masked value) instead of the bare positional integer, as identified in the falsification condition of Section 6. Derive the corresponding unicity distance and attack cost.  
-- **Alternative alphabets.** Extend the entropy and unicity‑distance calculations to alphabets with $m\neq26$ (e.g., binary or Unicode subsets) and quantify how the key‑space entropy $H(K)=\log_{2}[(B_{\max}-1)\cdot m!]$ and redundancy $D$ affect the required ciphertext length.  
-- **Prototype validation.** Build the minimal software prototype described in Section 7(c), measure the empirical radix‑recovery success rate for $n\in\{150,500,1000\}$ symbols, and compare the observed runtime against the analytical bound $W_{1}\le6.5535\times10^{7}$ digit operations.  
+- **Noise‑augmented variants.** Investigate constructions that add random noise to the integer $C$ before transmission and evaluate whether the histogram‑discrimination test of Section 4.4 retains its gap factor under the same language‑model assumptions.
+- **Transformed ciphertexts.** Formalize security models for schemes that publish a function $f(C)$ (e.g., a hash or a masked value) instead of the bare positional integer, as identified in the falsification condition of Section 6. Derive the corresponding unicity distance and attack cost.
+- **Alternative alphabets.** Extend the entropy and unicity‑distance calculations to alphabets with $m\neq26$ (e.g., binary or Unicode subsets) and quantify how the key‑space entropy $H(K)=\log_{2}[(B_{\max}-1)\cdot m!]$ and redundancy $D$ affect the required ciphertext length.
+- **Prototype validation.** Build the minimal software prototype described in Section 7(c), measure the empirical radix‑recovery success rate for $n\in\{150,500,1000\}$ symbols, and compare the observed runtime against the analytical bound $W_{1}\le6.5535\times10^{7}$ digit operations.
 - **Quantum‑resistance assessment.** Although the present analysis shows no quantum advantage for the pure encoding core, explore whether adding quantum‑hard primitives (e.g., lattice‑based KEMs) on top of the radix layer can yield a composite scheme whose overall security exceeds that of its components.
 
 ## 9. Future Work (continued)
@@ -291,35 +291,31 @@ The analysis therefore supplies a concrete, reproducible benchmark for any futur
 
 ## 10. Practical Implications and Engineering Pathways
 
-**(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**  
+**(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**
 The primary users are security architects and standards reviewers who maintain Cryptographic Bills of Materials (CBOMs).  [5] describes CBOM methodology as the mechanism by which organisations decide which deployed cryptographic mechanisms to trust and which to retire.  If the present analysis is accepted, any primitive whose security rests solely on a “silent radix’’ must be re‑classified from a cipher to an obfuscation technique and consequently removed from the cipher tier of a CBOM.  The same conclusion applies to non‑expert implementers of lightweight protocols, because [7] explicitly notes that mechanisms whose security depends on subtle parameters are precisely those that non‑expert deployers cannot evaluate.  Furthermore, [1] argues that security claims must be falsifiable and verifiable; the present negative result provides a concrete falsifiable claim that can be used in policy documents to forbid the adoption of silent‑radix schemes.
 
-**(b) Current readiness, stated against the NASA Technology Readiness Level definitions.**  
+**(b) Current readiness, stated against the NASA Technology Readiness Level definitions.**
 The work consists of a formal model, entropy calculation, unicity‑distance analysis and a derived two‑stage ciphertext‑only attack.  No implementation, simulation or peer‑reviewed validation has been performed.  Accordingly the work resides at TRL 1–2 (basic principles observed and formulated) and does not exceed TRL 3 (analytical proof‑of‑concept).
 
-**(c) The smallest next experiment, prototype, pilot or calculation that would de‑risk or falsify the result.**  
+**(c) The smallest next experiment, prototype, pilot or calculation that would de‑risk or falsify the result.**
 A minimal software prototype would (i) implement the encoding of Section 3.1 for a 26‑symbol alphabet, (ii) generate synthetic English texts of length $n = 1000$ symbols using the source model $A_{1}$–$A_{3}$, (iii) apply the Stage 1 histogram test of Section 4.4 to recover the radix, and (iv) report the proportion of trials in which the correct radix is ranked first by the maximum‑digit‑frequency statistic.  The experiment is conditional: *if* the observed radix‑recovery success rate falls below $0.5$ for $n = 1000$, the discrimination gap of Section 4.4 would be falsified and the main negative claim would require revision.
 
-**(d) The engineering, manufacturing or deployment constraints that would bind first.**  
+**(d) The engineering, manufacturing or deployment constraints that would bind first.**
 The attack analysis assumes (i) an English‑language source with per‑symbol redundancy $D = 0.70$ bits/symbol (assumption $A_{1}$) and (ii) digit‑frequency parameters $p_{\max}=0.12$ and $p_{\min}=0.005$ (assumptions $A_{2}$, $A_{3}$).  Accurate estimation of these parameters is therefore the primary constraint; any deviation in the actual plaintext distribution directly affects the histogram discrimination gap.  No hardware, material or manufacturing constraints arise because the primitive under analysis transmits only an integer $C$ and does not require specialised components.  The need for a reliable language model mirrors the observation in [6] that practical key‑management schemes must rely on multiple independent high‑entropy inputs rather than a single obscure parameter.
 
-**(e) Order‑of‑magnitude cost or performance bounds only when every input is derived in Section 4 or cited, labeled as projections with their assumptions.**  
-Using the digit‑extraction cost model of Section 4.4 ($c=1$ operation per digit) and $n=1000$ symbols, the total number of digit operations required for exhaustive radix enumeration is  
-$$W_{1}\le (B_{\max}-1)\cdot n = 65\,535 \times 1000 = 6.5535\times10^{7}\ \text{digit operations}.$$  
-Assuming a conservative processing rate of $10^{8}$ elementary operations s\(^{-1}\) on a single core, the wall‑clock time projection is  
-$$t = \frac{6.5535\times10^{7}}{10^{8}} = 0.66\ \text{s}.$$  
+**(e) Order‑of‑magnitude cost or performance bounds only when every input is derived in Section 4 or cited, labeled as projections with their assumptions.**
+Using the digit‑extraction cost model of Section 4.4 ($c=1$ operation per digit) and $n=1000$ symbols, the total number of digit operations required for exhaustive radix enumeration is
+$$W_{1}\le (B_{\max}-1)\cdot n = 65\,535 \times 1000 = 6.5535\times10^{7}\ \text{digit operations}.$$
+Assuming a conservative processing rate of $10^{8}$ elementary operations s\(^{-1}\) on a single core, the wall‑clock time projection is
+$$t = \frac{6.5535\times10^{7}}{10^{8}} = 0.66\ \text{s}.$$
 A factor‑of‑100 overhead for histogram bookkeeping yields a projected runtime of roughly one minute, as stated in Section 4.4.  These figures are direct projections from the arithmetic in Section 4.
 
-**(f) Direct risks or misuse paths, where one exists.**  
+**(f) Direct risks or misuse paths, where one exists.**
 The principal misuse risk is the adoption of silent‑radix encoding as a lightweight encryption or key‑encapsulation mechanism by designers who interpret the large key‑space size ($2^{104.38}$ keys) as a security guarantee.  Because the structural attack succeeds on a single short ciphertext, such deployment would provide only obfuscation and no real confidentiality, exposing protected data to trivial ciphertext‑only analysis.  The mitigation is the policy change described in part (a): any proposal that relies exclusively on radix secrecy must be rejected during CBOM review and flagged as non‑compliant with verifiable security standards.
 
 ## 8. Conclusion (continued)
 
 In sum, the analytical evidence presented demonstrates that the secrecy of a radix alone cannot provide cryptographic security: the key‑space entropy is quickly eclipsed by statistical attacks that recover the base and reduce the problem to a classical monoalphabetic substitution. Consequently, any design that relies solely on “silent radix” obscurity should be classified as obfuscation and excluded from cryptographic inventories, standards, and post‑quantum migration plans. Future work must focus on augmenting the primitive with additional hardening mechanisms—such as noise injection, ciphertext transformation, or integration with established hard problems—if any meaningful security is to be achieved.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. new sections: Appendix A. Divergence report; Appendix B. Claim attribution; Future Work; Future Work (continued); Conclusion (continued). sections folded or removed: Conclusion. references 11 -> 10. length 5621 -> 6379 words.
 
 ## Provenance and AI Involvement
 
