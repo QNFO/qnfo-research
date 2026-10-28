@@ -15,10 +15,10 @@ This paper develops a different signal. Suppose two LLMs, trained independently�
 The key structural insight is that the shared‑bias null hypothesis makes different predictions depending on question type. For retrieval‑only questions (answerable by recalling a fact present in the shared corpus), the null predicts convergence. For multi‑step synthesis questions (requiring construction of a novel reasoning chain), the null predicts convergence only if the shared corpus contains the full argument—precisely what distinguishes a genuinely fringe claim from a merely obscure one. Convergence on multi‑step synthesis arguments therefore discriminates between correctness and shared bias in a way that convergence on retrieval answers does not.
 
 Our contributions are:
-1. An explicit Bayesian model with a three‑way hypothesis space, per‑question‑type likelihoods, and a closed‑form $N$‑model cascade (Section 3).  
-2. Fully worked numerical derivations with all arithmetic shown, under two documented parameterizations, including a trap‑claim analysis and a sensitivity analysis over the null’s convergence probability (Section 4).  
-3. A benchmark protocol specification that fixes the measured quantities, the panel structure, and the sample‑size requirement (Section 3).  
-4. A statement of limitations, failure modes, falsification conditions, and an engineering pathway from analytical framework to a de‑risking pilot (Sections 6 and 7).  
+1. An explicit Bayesian model with a three‑way hypothesis space, per‑question‑type likelihoods, and a closed‑form $N$‑model cascade (Section 3).
+2. Fully worked numerical derivations with all arithmetic shown, under two documented parameterizations, including a trap‑claim analysis and a sensitivity analysis over the null’s convergence probability (Section 4).
+3. A benchmark protocol specification that fixes the measured quantities, the panel structure, and the sample‑size requirement (Section 3).
+4. A statement of limitations, failure modes, falsification conditions, and an engineering pathway from analytical framework to a de‑risking pilot (Sections 6 and 7).
 
 We do not report empirical measurements; every number is computed from stated assumptions in Section 4 or labeled as a projection in Section 5.
 
@@ -48,8 +48,8 @@ Fix a scientific claim $C$. An evaluator run is a pair $(M_i, q)$: model $M_i$ a
 
 We compare three mutually exclusive hypotheses:
 
-- $H_1$ (correctness): $C$ is correct, and each model's output is produced by a partially truth‑tracking, independent reasoning process.  
-- $H_2$ (shared bias): $C$'s apparent support is an artifact of shared training‑corpus bias; both models retrieve or reproduce the same corpus‑level pattern.  
+- $H_1$ (correctness): $C$ is correct, and each model's output is produced by a partially truth‑tracking, independent reasoning process.
+- $H_2$ (shared bias): $C$'s apparent support is an artifact of shared training‑corpus bias; both models retrieve or reproduce the same corpus‑level pattern.
 - $H_3$ (coincidence): $C$ is incorrect and the models' agreement is coincidental.
 
 Let $A$ denote the observed convergence event. The likelihoods are parameters to be estimated by the benchmark of Section 3.4:
@@ -84,10 +84,10 @@ i.e., evidence *against* the reliability of the reasoning pipeline on this claim
 
 ### 3.4 Benchmark protocol
 
-The protocol has four arms:  
-1. Ground‑truth fringe claims with known truth values, spanning retrieval‑like and synthesis‑like question types.  
-2. Trap claims as in Section 3.3.  
-3. A retrieval/synthesis split in which the same claims are evaluated under both question types, to test the prediction $K_R\approx 1 < K_S$.  
+The protocol has four arms:
+1. Ground‑truth fringe claims with known truth values, spanning retrieval‑like and synthesis‑like question types.
+2. Trap claims as in Section 3.3.
+3. A retrieval/synthesis split in which the same claims are evaluated under both question types, to test the prediction $K_R\approx 1 < K_S$.
 4. A model panel of at least two independently trained LLMs, with argument structures extracted by a fixed parser and convergence scored by a paraphrase‑robust matcher applied by a blinded rater.
 
 The measured quantity is the empirical convergence rate per arm, from which empirical Bayes factors are estimated; discriminative power is the separation of $K$ across arms. No empirical numbers are reported in this paper.
@@ -112,7 +112,7 @@ All numbers below are either stated inputs with sources or computed here with fu
 
 ### 4.2 Parameterization 1: question‑type split, conservative prior
 
-**Derivation 1 (retrieval arm).**  
+**Derivation 1 (retrieval arm).**
 
 \[
 K_R = \frac{p^{R}_c}{p^{R}_b} = \frac{0.9}{0.9} = 1.
@@ -120,7 +120,7 @@ K_R = \frac{p^{R}_c}{p^{R}_b} = \frac{0.9}{0.9} = 1.
 
 A Bayes factor of 1 leaves posterior odds equal to prior odds; retrieval convergence carries zero evidential weight.
 
-**Derivation 2 (synthesis arm, two models).**  
+**Derivation 2 (synthesis arm, two models).**
 
 \[
 K_S = \frac{p^{S}_c}{p^{S}_b} = \frac{0.4}{0.05} = 8.
@@ -147,8 +147,8 @@ O_N = \frac{1}{9}\cdot 8^{\,N-1},\qquad
 P_N = \frac{O_N}{1+O_N}.
 \]
 
-- $N=2$: $P_2 \approx 0.4706$ (as above).  
-- $N=3$: $O_3 = \frac{64}{9} \approx 7.1111$, $P_3 = \frac{7.1111}{8.1111} \approx 0.8767$.  
+- $N=2$: $P_2 \approx 0.4706$ (as above).
+- $N=3$: $O_3 = \frac{64}{9} \approx 7.1111$, $P_3 = \frac{7.1111}{8.1111} \approx 0.8767$.
 - $N=4$: $O_4 = \frac{512}{9} \approx 56.8889$, $P_4 = \frac{56.8889}{57.8889} \approx 0.9827$.
 
 Each additional model contributes $\log_{10} 8 \approx 0.903$ orders of magnitude of Bayes factor.
@@ -161,7 +161,7 @@ Each additional model contributes $\log_{10} 8 \approx 0.903$ orders of magnitud
 
 With $\ln 8 \approx 2.0794$ and $\ln 171 \approx 5.1422$, $(N-1) \ge 2.473$, so $N = 4$. This matches the explicit values above.
 
-**Derivation 5 (trap arm).**  
+**Derivation 5 (trap arm).**
 
 \[
 K_T = \frac{\epsilon_T^{2}}{p^{T}_b} = \frac{0.1^{2}}{0.9} = \frac{0.01}{0.9} \approx 0.0111.
@@ -178,8 +178,8 @@ Convergence on a trap answer drives the posterior from $0.1$ down to approximate
 
 **Derivation 6 (sensitivity to $p^{S}_b$).** Holding $p^{S}_c = 0.4$ and the prior $0.1$ fixed:
 
-- $p^{S}_b = 0.02$: $K_S = 20$, $O_2 = \frac{20}{9} \approx 2.222$, $P_2 = \frac{2.222}{3.222} \approx 0.690$.  
-- $p^{S}_b = 0.10$: $K_S = 4$, $O_2 = \frac{4}{9} \approx 0.444$, $P_2 = \frac{0.444}{1.444} \approx 0.308$.  
+- $p^{S}_b = 0.02$: $K_S = 20$, $O_2 = \frac{20}{9} \approx 2.222$, $P_2 = \frac{2.222}{3.222} \approx 0.690$.
+- $p^{S}_b = 0.10$: $K_S = 4$, $O_2 = \frac{4}{9} \approx 0.444$, $P_2 = \frac{0.444}{1.444} \approx 0.308$.
 - $p^{S}_b = 0.20$: $K_S = 2$, $O_2 = \frac{2}{9} \approx 0.222$, $P_2 = \frac{0.222}{1.222} \approx 0.182$.
 
 The posterior is highly sensitive to the null’s convergence probability.
@@ -214,8 +214,8 @@ Unanimous agreement of $M$ models on one claim requires $M-1$ independent matche
 P(\text{unanimous}) = \left(p_e^{(1)}\right)^{M-1}=4^{-(M-1)}.
 \]
 
-- $M=3$: $4^{-2}=0.0625$.  
-- $M=5$: $4^{-4}=0.003906$.  
+- $M=3$: $4^{-2}=0.0625$.
+- $M=5$: $4^{-4}=0.003906$.
 - $M=7$: $4^{-6}=0.000244$.
 
 These reproduce the values reported in related protocol designs and illustrate the rarity of chance unanimity.
@@ -224,11 +224,11 @@ These reproduce the values reported in related protocol designs and illustrate t
 
 All numbers below are computed in Section 4 from the explicitly labeled illustrative assumptions; no empirical measurements are reported.
 
-1. **Retrieval arm.** $K_R = 1$: retrieval convergence carries zero evidential weight (Derivation 1).  
-2. **Synthesis arm, two models.** $K_S = 8$; posterior odds $O_2 = 8/9 \approx 0.8889$; posterior $P_2 = 8/17 \approx 0.4706$ (Derivation 2).  
-3. **$N$‑model cascade.** $P_3 \approx 0.8767$ and $P_4 \approx 0.9827$, with each additional model contributing $\log_{10} 8 \approx 0.903$ orders of magnitude (Derivation 3).  
-4. **Panel size.** A posterior of at least $0.95$ requires $N = 4$ models (Derivation 4).  
-5. **Trap arm.** $K_T \approx 0.0111$; two‑model convergence on a trap answer drives the posterior to $P^{T}_2 \approx 0.00123$ (Derivation 5).  
+1. **Retrieval arm.** $K_R = 1$: retrieval convergence carries zero evidential weight (Derivation 1).
+2. **Synthesis arm, two models.** $K_S = 8$; posterior odds $O_2 = 8/9 \approx 0.8889$; posterior $P_2 = 8/17 \approx 0.4706$ (Derivation 2).
+3. **$N$‑model cascade.** $P_3 \approx 0.8767$ and $P_4 \approx 0.9827$, with each additional model contributing $\log_{10} 8 \approx 0.903$ orders of magnitude (Derivation 3).
+4. **Panel size.** A posterior of at least $0.95$ requires $N = 4$ models (Derivation 4).
+5. **Trap arm.** $K_T \approx 0.0111$; two‑model convergence on a trap answer drives the posterior to $P^{T}_2 \approx 0.00123$ (Derivation 5).
 6. **Sensitivity to $p^{S}_b$.** Holding $p^{S}_c = 0.4$ and the prior fixed, the two‑model posterior is $\approx 0.690$ at $p^{S}_b = 0.02$, $\approx 0.308$ at $p^{S}_b = 0.10$, and $\approx 0.182$ at $p^{S}_b = 0.20$ (Derivation 6).
 
 **Projection (labeled).** If the benchmark measures $p^{S}_b$ within the range $[0.02,0.20]$ explored in Derivation 6, the two‑model synthesis posterior lies within the computed envelope $[0.182,0.690]$ for a $0.1$ prior; the uncertainty bound is exactly the sensitivity range, and no tighter projection is warranted without measured likelihoods.
@@ -251,9 +251,9 @@ All numbers below are computed in Section 4 from the explicitly labeled illust
 
 **(c) Smallest next experiment.** Conduct the four‑arm benchmark with a panel of $N=2$ independently trained LLMs on a pilot set of $Q=10$ fringe claims (five retrieval‑type, five synthesis‑type) and $Q_T=5$ trap claims. Measure empirical $p^{S}_b$ and $p^{S}_c$; if the observed $K_S$ deviates substantially from the assumed value 8, the analytical conclusions would be falsified.
 
-**(d) Engineering constraints.**  
-- *Model independence*: Requires access to LLMs trained on non‑overlapping data corpora; otherwise the $H_2$ hypothesis may dominate.  
-- *Argument‑structure parser*: Must reliably extract ordered proposition sequences; parser errors directly affect convergence counts.  
+**(d) Engineering constraints.**
+- *Model independence*: Requires access to LLMs trained on non‑overlapping data corpora; otherwise the $H_2$ hypothesis may dominate.
+- *Argument‑structure parser*: Must reliably extract ordered proposition sequences; parser errors directly affect convergence counts.
 - *Computation budget*: Each evaluator run incurs inference cost; while per‑query cost can be mitigated by architectural advances such as those described in [8], the total number of runs ($R_{\text{total}} = 1000$ for a full benchmark) still demands scalable compute resources.
 
 **(e) Projected cost/performance bounds.** Assuming an average inference cost of \$0.001 per model query (a plausible figure given high‑concurrency techniques in [8]), the full benchmark ($R_{\text{total}} = 1000$ runs) would cost approximately \$1.00 in compute alone. The resulting posterior range $[0.182,0.690]$ for two‑model synthesis convergence (Derivation 6) quantifies the performance envelope without empirical measurement.
@@ -263,10 +263,6 @@ All numbers below are computed in Section 4 from the explicitly labeled illust
 ## 8. Conclusion
 
 We formalized cross‑model LLM convergence on scientific claims as Bayesian evidence, separating truth‑tracking correctness, shared‑corpus bias, and coincidence. Under explicitly labeled illustrative assumptions, two‑model convergence on multi‑step synthesis questions yields a Bayes factor of 8 and a posterior of $\frac{8}{17} \approx 0.471$ from a $0.1$ prior; four models yield $\approx 0.983$; convergence on engineered trap claims yields $K_T \approx 0.0111$ and a posterior of $\approx 0.0012$, i.e., evidence against reliability; and the two‑model posterior spans $\approx 0.182$ to $\approx 0.690$ as the null’s synthesis‑convergence probability varies from $0.20$ to $0.02$. The framework’s diagnostic value therefore hinges on a single measurable quantity, the null’s convergence probability on synthesis questions, and on the structural prediction $K_R \approx 1 < K_S$, both testable by the specified four‑arm benchmark. No empirical measurements are reported here; the benchmark protocol is the proposed next step.
-
-## Version History
-
-- Version 2.0.1 (2026-10-19, from 2.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 

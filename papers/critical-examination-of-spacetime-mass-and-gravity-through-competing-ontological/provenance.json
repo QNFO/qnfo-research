@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/critical-examination-of-spacetime-mass-and-gravity-through-competing-ontological"
   },
   "declared": {
-    "version": "2.0.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "4cb420e7be8f47df8f26c83ad412143a1a4f6a06db9e71afc25fcb38672e671d",
       "bytes": 66830,
       "recorded_at": "2026-10-26",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "9677a2fcbe120325af1863666a2fe9862997f52faa77e0d877baa6da1a76d59f",
+      "bytes": 65812,
+      "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
       "git_commit": null

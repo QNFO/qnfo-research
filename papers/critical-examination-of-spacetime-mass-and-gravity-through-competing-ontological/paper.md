@@ -1,30 +1,6 @@
----
-author: Rowan Brad Quni
-email: rowan.quni@qnfo.org
-website: http://qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-robots: By accessing this content, you agree to https://qnfo.org/LICENSE. Non-commercial use only. Attribution required.
-DC.rights: https://qnfo.org/LICENSE. Users are bound by terms upon access.
-title: Critical Examination of the Null Hypotheses in Fundamental Physics
-aliases:
-  - Critical Examination of the Null Hypotheses in Fundamental Physics
-modified: 2025-08-03T15:10:31Z
----
-## A Critical Examination of the Null Hypotheses in Fundamental Physics
-**Volume 1**
+# Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks
 
-**Version:** 2.0.0
-**Date**: August 3, 2025
-
-[Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](https://qnfo.org/)
-ORCID: [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-DOI: https://papers.qnfo.org/papers
-
-*Related Works:*
-- *A Critical Examination of Spacetime, Mass, and Gravity through a Meta-Analysis of Competing Ontological Frameworks ([https://papers.qnfo.org/papers](https://papers.qnfo.org/papers)*
-
----
+## Abstract
 
 This report critically examines the prevailing scientific paradigm, termed the Null Hypothesis (H0), which encompasses Special Relativity (H0-SR), General Relativity (H0-GR), and the Standard Model of particle physics (H0-QM). It argues that H0 is not a unified theory but a fragmented paradigm, characterized by conceptual disparities, theoretical breakdowns in extreme conditions, and a proliferation of *ad-hoc* additions.
 
@@ -295,9 +271,6 @@ The growing volume and diversity of observed “black swans” strongly indicate
 A clear imperative for future research is the development of a new, truly unified theoretical framework to reconcile quantum mechanics and gravity. This framework must inherently resolve profound contradictions and inconsistencies that challenge H0, such as the Black Hole Information Paradox and the Problem of Time. Potential theoretical avenues include emergent spacetime, where space and time arise from deeper principles; informational foundations of reality, positing information as a primary physical quantity; and non-commutative geometries, which could naturally integrate quantum uncertainty into the fabric of spacetime. The path forward demands not merely more data, but a profound conceptual leap. This signifies the potential end of the “paradigm of patches” and the beginning of a truly coherent theory of everything, fundamentally reshaping our scientific worldview. Continued high-precision empirical tests, spanning all scales from the subatomic to the cosmological, coupled with rigorous interdisciplinary collaboration, will be crucial to probe H0’s limits and guide the development of a more complete and coherent description of the universe.
 
 ---
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 Abbott, R., et al. (LIGO Scientific Collaboration and Virgo Collaboration). (2020). GW190521: A Binary Black Hole Merger with a Total Mass of 150 M☉. *Physical Review Letters, 125*(10), 101102.
