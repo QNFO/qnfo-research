@@ -1,17 +1,18 @@
-# Holographic Quantum Error Correction on Bruhat–Tits Trees: A Conditional Threshold and Resource Analysis at $10^{-4}$
+# Holographic Quantum Error Correction on Bruhat–Tits Trees: A Conditional Threshold and Resource Analysis at $10^{-4}$
 
 ## Abstract
+
 The holographic quantum error‑correction (QEC) architecture that implements encoding as a renormalization‑group (RG) flow on a Bruhat–Tits tree $\mathcal{T}_p$ claims a physical error‑rate threshold $\epsilon_{th}\ge10^{-4}$. No hardware data accompany the proposal, so we construct a fully explicit conditional model: (i) independent site errors on a regular tree of valency $q=p+1$, (ii) a concatenation‑style logical‑error law $\epsilon_L=A(\epsilon/\epsilon_{th})^{(d+1)/2}$ with $A=1$, (iii) a reliability target $P_{fail}\le0.01$ over $T=10^{9}$ correction cycles at a cycle rate $f_c=10^{6}\,\mathrm{s^{-1}}$. Solving the model yields (a) zero logical protection at $\epsilon=\epsilon_{th}=10^{-4}$, (b) a distance $d\ge21$ code sufficient at $\epsilon=10^{-5}$, requiring $88{,}573$ physical sites per logical qubit and a measurement bandwidth of $8.8573\times10^{10}\,\mathrm{s^{-1}}$, (c) a shallow $d=11$ code viable only if $\epsilon\le1.4678\times10^{-6}$, and (d) an exponential resource explosion when operating at $\epsilon=5\times10^{-5}$. An alternative quadratic‑map convention shows the threshold equals $1/\kappa$, so the $10^{-4}$ target holds iff $\kappa\le10^{4}$. The analysis demonstrates internal consistency of the threshold claim but reveals extreme resource demands; the claim’s fate hinges on measurable quantities $\kappa$, $A$, and error correlations that the original proposal does not provide.
 
 ## 1. Introduction
-Quantum computers must protect fragile quantum information against physical errors; the cost of that protection determines whether a design can be deployed in practice. Current hardware platforms typically support at most a few hundred high‑fidelity qubits, while fault‑tolerant architectures often require orders of magnitude more physical qubits and continuous syndrome measurement. The holographic QEC architecture of [9] proposes to encode logical information by an RG flow on a $p$‑adic Bruhat–Tits tree $\mathcal{T}_p$, and it asserts a physical error‑rate threshold $\epsilon_{th}\ge10^{-4}$. If the claim holds, a modest physical error rate of $10^{-5}$ would suffice to achieve a logical failure probability below $1\%$ over $10^{9}$ cycles, potentially enabling medium‑scale quantum algorithms with far fewer resources than conventional surface‑code stacks. Conversely, if the threshold is unattainable, the architecture would demand prohibitive qubit counts and measurement bandwidths, rendering it impractical for near‑term devices.  
+Quantum computers must protect fragile quantum information against physical errors; the cost of that protection determines whether a design can be deployed in practice. Current hardware platforms typically support at most a few hundred high‑fidelity qubits, while fault‑tolerant architectures often require orders of magnitude more physical qubits and continuous syndrome measurement. The holographic QEC architecture of [9] proposes to encode logical information by an RG flow on a $p$‑adic Bruhat–Tits tree $\mathcal{T}_p$, and it asserts a physical error‑rate threshold $\epsilon_{th}\ge10^{-4}$. If the claim holds, a modest physical error rate of $10^{-5}$ would suffice to achieve a logical failure probability below $1\%$ over $10^{9}$ cycles, potentially enabling medium‑scale quantum algorithms with far fewer resources than conventional surface‑code stacks. Conversely, if the threshold is unattainable, the architecture would demand prohibitive qubit counts and measurement bandwidths, rendering it impractical for near‑term devices.
 
-**Contributions.**  
-- **C1.** Derivation that at $\epsilon=\epsilon_{th}=10^{-4}$ the logical error per cycle equals $1$, i.e. no protection (Section 4.1).  
-- **C2.** Closed‑form distance requirement $d\ge2\frac{\ln(0.01/(TA))}{\ln(\epsilon/\epsilon_{th})}-1$ and its evaluation $d\ge21$ at $\epsilon=10^{-5}$ (Section 4.2).  
-- **C3.** Exact qubit‑overhead $N_{\text{phys}}=V_{3}(11)=265{,}720$ and measurement bandwidth $B=2.6572\times10^{11}\,\mathrm{s^{-1}}$ for the $d=21$ code (Sections 4.4–4.5).  
-- **C4.** Requirement $\epsilon\le1.4678\times10^{-6}$ for a shallow $d=11$ code (Section 4.3).  
-- **C5.** Resource explosion for $\epsilon=5\times10^{-5}$: $d\ge73$, $N_{\text{phys}}\approx2.25\times10^{17}$, $B\approx2.25\times10^{23}\,\mathrm{s^{-1}}$ (Section 4.6).  
+**Contributions.**
+- **C1.** Derivation that at $\epsilon=\epsilon_{th}=10^{-4}$ the logical error per cycle equals $1$, i.e. no protection (Section 4.1).
+- **C2.** Closed‑form distance requirement $d\ge2\frac{\ln(0.01/(TA))}{\ln(\epsilon/\epsilon_{th})}-1$ and its evaluation $d\ge21$ at $\epsilon=10^{-5}$ (Section 4.2).
+- **C3.** Exact qubit‑overhead $N_{\text{phys}}=V_{3}(11)=265{,}720$ and measurement bandwidth $B=2.6572\times10^{11}\,\mathrm{s^{-1}}$ for the $d=21$ code (Sections 4.4–4.5).
+- **C4.** Requirement $\epsilon\le1.4678\times10^{-6}$ for a shallow $d=11$ code (Section 4.3).
+- **C5.** Resource explosion for $\epsilon=5\times10^{-5}$: $d\ge73$, $N_{\text{phys}}\approx2.25\times10^{17}$, $B\approx2.25\times10^{23}\,\mathrm{s^{-1}}$ (Section 4.6).
 - **C6.** Alternative quadratic‑map analysis showing $\epsilon_{th}=1/\kappa$ and the condition $\kappa\le10^{4}$ (Section 4.8).
 
 ## 2. Background and Related Work
@@ -38,12 +39,12 @@ We cite eight works and extract a specific point from each.
 ### 3.1 Convention 1 (primary): distance‑based conditional model
 Assumptions (A1)–(A7) are listed in the main text and reproduced here for completeness:
 
-- **(A1)** Independent site errors with physical error rate $\epsilon$ per correction cycle.  
-- **(A2)** Logical error law $\displaystyle \epsilon_L(d,\epsilon)=A\Bigl(\frac{\epsilon}{\epsilon_{th}}\Bigr)^{(d+1)/2}$ with $A=1$.  
-- **(A3)** Hypothesis $\epsilon_{th}\ge10^{-4}$; we evaluate at the boundary $\epsilon_{th}^{(0)}=10^{-4}$.  
-- **(A4)** Reliability target $P_{fail}=1-(1-\epsilon_L)^T\le0.01$.  
-- **(A5)** Run length $T=10^{9}$ cycles.  
-- **(A6)** Cycle rate $f_c=10^{6}\,\mathrm{s^{-1}}$.  
+- **(A1)** Independent site errors with physical error rate $\epsilon$ per correction cycle.
+- **(A2)** Logical error law $\displaystyle \epsilon_L(d,\epsilon)=A\Bigl(\frac{\epsilon}{\epsilon_{th}}\Bigr)^{(d+1)/2}$ with $A=1$.
+- **(A3)** Hypothesis $\epsilon_{th}\ge10^{-4}$; we evaluate at the boundary $\epsilon_{th}^{(0)}=10^{-4}$.
+- **(A4)** Reliability target $P_{fail}=1-(1-\epsilon_L)^T\le0.01$.
+- **(A5)** Run length $T=10^{9}$ cycles.
+- **(A6)** Cycle rate $f_c=10^{6}\,\mathrm{s^{-1}}$.
 - **(A7)** Tree valency $q=p+1=3$ (i.e. $p=2$).
 
 ### 3.2 Tree volume (qubit overhead)
@@ -75,8 +76,8 @@ We also consider the recursion $p_{\ell+1}=\kappa\,p_{\ell}^{\,2}$ with constant
 ## 4. Analysis
 All inputs are labelled with their provenance.
 
-**Input 1.** $\epsilon_{th}^{(0)}=10^{-4}$ (A3).  
-**Input 2.** $\epsilon=10^{-5}$ (assumed operating point).  
+**Input 1.** $\epsilon_{th}^{(0)}=10^{-4}$ (A3).
+**Input 2.** $\epsilon=10^{-5}$ (assumed operating point).
 **Input 3.** $T=10^{9}$ (A5), $P_{fail}\le0.01$ (A4), $A=1$ (A2), $q=3$ (A7), $f_c=10^{6}\,\mathrm{s^{-1}}$ (A6).
 
 ### 4.1 No protection at the threshold
@@ -138,67 +139,63 @@ Solving $p^{*}=\kappa(p^{*})^{2}$ gives $p^{*}=1/\kappa$. Identifying $p_{0}\sim
 ## 5. Results
 All numbers derive from Section 4.
 
-- **R1.** At $\epsilon=\epsilon_{th}^{(0)}$ logical error per cycle $\epsilon_L=1$ (zero protection).  
-- **R2.** At $\epsilon=10^{-5}$ the reliability target requires $d\ge21$ ($R=10$).  
-- **R3.** $N_{\text{phys}}=265{,}720$ physical sites per logical qubit for $d=22$ on $\mathcal{T}_3$.  
-- **R4.** Measurement bandwidth $B=2.6572\times10^{11}\,\mathrm{s^{-1}}$ per logical qubit at $f_c=10^{6}\,\mathrm{s^{-1}}$.  
-- **R5.** A $d=11$ code meets the target only if $\epsilon\le1.4678\times10^{-6}$ ($\approx$ 68‑fold below the hypothesized threshold).  
-- **R6.** At $\epsilon=5\times10^{-5}$ the required resources explode to $N_{\text{phys}}\approx2.25\times10^{17}$ and $B\approx2.25\times10^{23}\,\mathrm{s^{-1}}$.  
+- **R1.** At $\epsilon=\epsilon_{th}^{(0)}$ logical error per cycle $\epsilon_L=1$ (zero protection).
+- **R2.** At $\epsilon=10^{-5}$ the reliability target requires $d\ge21$ ($R=10$).
+- **R3.** $N_{\text{phys}}=265{,}720$ physical sites per logical qubit for $d=22$ on $\mathcal{T}_3$.
+- **R4.** Measurement bandwidth $B=2.6572\times10^{11}\,\mathrm{s^{-1}}$ per logical qubit at $f_c=10^{6}\,\mathrm{s^{-1}}$.
+- **R5.** A $d=11$ code meets the target only if $\epsilon\le1.4678\times10^{-6}$ ($\approx$ 68‑fold below the hypothesized threshold).
+- **R6.** At $\epsilon=5\times10^{-5}$ the required resources explode to $N_{\text{phys}}\approx2.25\times10^{17}$ and $B\approx2.25\times10^{23}\,\mathrm{s^{-1}}$.
 - **R7.** Under Convention 2 the threshold condition is $\kappa\le10^{4}$.
 
 ## 6. Discussion
 
-**(a) Intended users and design impact.**  
+**(a) Intended users and design impact.**
 Quantum‑hardware architects and system engineers evaluating holographic QEC would use the derived resource formulas to decide whether to adopt the Bruhat–Tits‑tree encoding. If the physical error rate can be pushed below $10^{-5}$, the architecture demands $≈9\times10^{4}$ physical qubits and a measurement bandwidth of $≈9\times10^{10}$ events s\(^{-1}\) per logical qubit. If only $5\times10^{-5}$ is achievable, the required qubit count exceeds $10^{17}$, which is infeasible with any foreseeable technology.
 
-**(b) Technology readiness.**  
+**(b) Technology readiness.**
 The analysis is purely analytical, unreviewed, and based on assumed error models; according to NASA TRL definitions it resides at TRL 2 (concept formulation).
 
-**(c) Minimal de‑risking experiment.**  
+**(c) Minimal de‑risking experiment.**
 A decisive experiment is to implement a small‑scale RG decoder for $\mathcal{T}_3$ (e.g., $R=2$, $d=5$) on a superconducting or trapped‑ion platform, measure the effective amplification constant $\kappa$ by injecting known error rates $\epsilon$ and observing logical failure probabilities. Observation of $\kappa>10^{4}$ would falsify the $10^{-4}$ threshold claim under Convention 2; failure to achieve logical error suppression at $\epsilon=10^{-5}$ for $d=21$ would falsify the distance‑based claim.
 
-**(d) Engineering constraints.**  
-- **Qubit count:** $N_{\text{phys}}$ scales as $V_q(R)$; fabricating $≈9\times10^{4}$ high‑fidelity qubits is already at the edge of current integration limits.  
-- **Measurement bandwidth:** $B$ scales linearly with $f_c$ and $V_q(R)$;   
-- **Classical decoding:** Tree‑structured syndrome data exhibit low reuse and irregular access patterns (as noted in [3]), implying that conventional CPUs may become a bottleneck; reconfigurable DSP fabrics ([7]) are a plausible mitigation.  
+**(d) Engineering constraints.**
+- **Qubit count:** $N_{\text{phys}}$ scales as $V_q(R)$; fabricating $≈9\times10^{4}$ high‑fidelity qubits is already at the edge of current integration limits.
+- **Measurement bandwidth:** $B$ scales linearly with $f_c$ and $V_q(R)$;
+- **Classical decoding:** Tree‑structured syndrome data exhibit low reuse and irregular access patterns (as noted in [3]), implying that conventional CPUs may become a bottleneck; reconfigurable DSP fabrics ([7]) are a plausible mitigation.
 - **Correlation handling:** The model assumes independent site errors (A1); correlated noise would increase effective $A$ and raise required $d$.
 
-**(e) Projected cost and performance bounds (projections).**  
+**(e) Projected cost and performance bounds (projections).**
 Assuming a $1$ USD per physical qubit (a rough engineering projection) and a $10$ ns per measurement event, the $d=21$ configuration would cost roughly $8.9\times10^{4}$ USD per logical qubit and consume $≈0.9$ W of readout power (projected from $B\times10$ ns). These figures are labeled as projections because they rely on assumed unit costs and timing.
 
-**(f) Risks and misuse.**  
+**(f) Risks and misuse.**
 If designers assume the $10^{-4}$ threshold holds without verifying $\kappa$ or error correlations, they may overcommit resources to an architecture that cannot meet reliability targets, leading to wasted fabrication effort. Conversely, the high‑bandwidth measurement requirement could incentivize the deployment of insecure high‑speed readout channels, exposing the system to side‑channel attacks.
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Intended users and design impact.**  
+**(a) Intended users and design impact.**
 Quantum‑hardware architects and system engineers who must decide whether to adopt a holographic QEC stack will use the resource formulas derived in Sections 4–5. If a physical error rate can be pushed below $10^{-5}$, the architecture requires roughly $9\times10^{4}$ physical qubits per logical qubit and a measurement event rate of $8.8573\times10^{10}\,\mathrm{s^{-1}}$ (R3, R4). Should the achievable error rate be only $5\times10^{-5}$, the required qubit count explodes to $\approx2.25\times10^{17}$ and the bandwidth to $\approx2.25\times10^{23}\,\mathrm{s^{-1}}$ (R6), which is beyond any foreseeable technology. Designers can therefore rule the holographic scheme in only when the error budget satisfies the distance requirement $d\ge21$ at $\epsilon=10^{-5}$.
 
-**(b) Technology readiness.**  
+**(b) Technology readiness.**
 The analysis is a purely analytical, unreviewed study that enumerates assumptions (A1)–(A7) and (A1′)–(A3′). According to NASA’s Technology Readiness Level definitions, this places the work at **TRL 2** (concept formulation).
 
-**(c) Minimal de‑risking experiment.**  
+**(c) Minimal de‑risking experiment.**
 A decisive prototype consists of a depth‑2 RG decoder on a $\mathcal{T}_{3}$ ball of radius $R=2$ ($d=5$). The experiment injects a known physical error rate $\epsilon$ into the bulk sites, measures the logical failure probability over $T=10^{6}$ cycles, and extracts the effective amplification constant $\kappa$ from the quadratic recursion $p_{\ell+1}=\kappa p_{\ell}^{2}$. An observed $\kappa>10^{4}$ would falsify the $10^{-4}$ threshold claim under Convention 2; a logical failure probability exceeding $0.01$ at $\epsilon=10^{-5}$ would falsify the distance‑based claim (R2).
 
-**(d) Engineering constraints.**  
-- **Qubit count:** $N_{\text{phys}}=V_{3}(R)$ scales exponentially with radius $R$ (Section 4.4). Fabricating $≈9\times10^{4}$ high‑fidelity qubits already pushes the limits of current integration densities.  
-- **Measurement bandwidth:** $B=V_{3}(R)f_{c}$ (Section 4.5) imposes a wall analogous to the bandwidth bottleneck identified for graph‑structured workloads in [3].  
-- **Classical decoding:** Tree‑based syndrome data exhibit low reuse and irregular access patterns, matching the memory‑bandwidth stress described in [3] and the need for specialized accelerators noted in [7].  
-- **Error correlations:** Assumption (A1) of independent site errors may be violated in realistic hardware; correlated noise would increase the effective prefactor $A$ and raise the required distance (Section 6).  
+**(d) Engineering constraints.**
+- **Qubit count:** $N_{\text{phys}}=V_{3}(R)$ scales exponentially with radius $R$ (Section 4.4). Fabricating $≈9\times10^{4}$ high‑fidelity qubits already pushes the limits of current integration densities.
+- **Measurement bandwidth:** $B=V_{3}(R)f_{c}$ (Section 4.5) imposes a wall analogous to the bandwidth bottleneck identified for graph‑structured workloads in [3].
+- **Classical decoding:** Tree‑based syndrome data exhibit low reuse and irregular access patterns, matching the memory‑bandwidth stress described in [3] and the need for specialized accelerators noted in [7].
+- **Error correlations:** Assumption (A1) of independent site errors may be violated in realistic hardware; correlated noise would increase the effective prefactor $A$ and raise the required distance (Section 6).
 - **Amplification constant $\kappa$:** Measuring $\kappa$ is required to validate Convention 2; any $\kappa$ exceeding $10^{4}$ eliminates the $10^{-4}$ threshold (Derivation 8).
 
-**(e) Projected cost and performance bounds (projections).**  
+**(e) Projected cost and performance bounds (projections).**
 Assuming a unit cost of \$1 per physical qubit (engineering projection) and a per‑measurement latency of 10 ns (projection), the $d=21$ configuration would cost roughly \$8.9 × 10⁴ per logical qubit and consume about $0.9$ W of readout power ($8.8573\times10^{10}$ events $s^{-1}$ × 10 ns). These figures are labeled as projections because they rely on the stated unit cost and latency assumptions rather than measured values.
 
-**(f) Risks and misuse paths.**  
+**(f) Risks and misuse paths.**
 If designers accept the $10^{-4}$ threshold without experimentally confirming $\kappa$ or the independence of errors, they may allocate billions of dollars to a qubit fabric that cannot meet the reliability target, leading to catastrophic resource waste. Moreover, the extreme measurement bandwidth required at marginal error rates could drive the deployment of ultra‑high‑speed readout channels that lack adequate side‑channel shielding, opening avenues for information leakage attacks. Careful validation of the underlying assumptions before large‑scale investment is therefore essential.
 
 ## 9. Conclusion
 We presented a fully explicit conditional analysis of the holographic QEC architecture that encodes via RG flow on a Bruhat–Tits tree. The analysis shows that exactly at the claimed threshold $\epsilon_{th}=10^{-4}$ there is no logical protection; achieving a $1\%$ failure probability over $10^{9}$ cycles at $\epsilon=10^{-5}$ requires a distance‑21 code with $88{,}573$ physical sites and a measurement bandwidth of $8.8573\times10^{10}$ events s\(^{-1}\) per logical qubit. A shallow $d=11$ code would need an error rate $≈1.5\times10^{-6}$. Operating at half the threshold inflates the required qubit count to $≈2.25\times10^{17}$, demonstrating the extreme sensitivity of resource demands to the error margin. In the quadratic‑map view, the threshold condition reduces to $\kappa\le10^{4}$. The threshold hypothesis is mathematically consistent but practically demanding; its ultimate validity depends on measurable parameters ($\kappa$, $A$, error correlations) that are not supplied by the original proposal.
-
-## Version History
-
-- Version 2.0.1 (2026-10-19, from 2.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 
