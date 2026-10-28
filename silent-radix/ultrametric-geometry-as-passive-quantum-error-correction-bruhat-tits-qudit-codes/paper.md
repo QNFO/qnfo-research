@@ -15,11 +15,11 @@ which implies that two balls are either nested or disjoint. The combinatorial sk
 Our contribution is threefold. First, we formalize “ultrametric geometric QEC”: we define the code, the error model, and the correctable error sets, and we prove a nesting lemma (Lemma 1) from which correctability of all weight‑$\le t$ errors follows. Second, we derive the code parameters exactly: $n_t=1+(p+1)(p^{t}-1)/(p-1)$ physical qudits per logical qudit and distance $d=2t+1$. Third, we compute, with full arithmetic, the passive logical failure probability under an independent depolarizing‑style noise model and compare it, as a clearly labeled projection with stated assumptions, to an active baseline with noisy syndrome extraction. We do not present simulation data; every quantitative claim in this paper is either an exact combinatorial identity, an analytic computation shown step by step, or a projection whose assumptions are stated explicitly.
 
 **Contributions.**
-- Lemma 1 (nesting/disjointness of equal‑radius balls) and its proof (Section 4.1).  
-- Proposition 1 (correctability of all weight‑$\le t$ error sets and conditional distance $d=2t+1$) (Section 4.2).  
-- Exact code‑size formula $n_t=1+(p+1)(p^{t}-1)/(p-1)$ (Section 4.1).  
-- Analytic passive logical failure probability $P_{\mathrm{pass}}\approx9.98\times10^{-6}$ for $p=3$, $t=1$, $\varepsilon=10^{-3}$ (Section 4.3).  
-- Projection of a $\approx4.08$‑fold advantage over an active distance‑3 baseline under assumptions (A1)–(A4) (Section 4.4).  
+- Lemma 1 (nesting/disjointness of equal‑radius balls) and its proof (Section 4.1).
+- Proposition 1 (correctability of all weight‑$\le t$ error sets and conditional distance $d=2t+1$) (Section 4.2).
+- Exact code‑size formula $n_t=1+(p+1)(p^{t}-1)/(p-1)$ (Section 4.1).
+- Analytic passive logical failure probability $P_{\mathrm{pass}}\approx9.98\times10^{-6}$ for $p=3$, $t=1$, $\varepsilon=10^{-3}$ (Section 4.3).
+- Projection of a $\approx4.08$‑fold advantage over an active distance‑3 baseline under assumptions (A1)–(A4) (Section 4.4).
 
 ## 2. Background and Related Work
 
@@ -29,7 +29,7 @@ We review the literature that frames this proposal, stating for each work the sp
 
 **Entanglement‑assisted codes.** The entanglement‑assisted QEC literature provides a self‑contained introduction to codes that use shared entanglement between encoder and decoder as a resource, and shows that this extension includes the usual stabilizer theory as a special case while allowing quantum codes to be built from classical linear codes without imposing the dual‑containing constraint [2]. Our codes are not entanglement‑assisted; the protection mechanism is local geometry rather than a shared resource.
 
-**Qudit algorithms.** 
+**Qudit algorithms.**
 
 **Classical‑to‑quantum coding surveys.**  Our work responds to exactly this difficulty by seeking protection in a classical mathematical structure—the ultrametric tree—rather than in channel‑specific coding tricks.
 
@@ -182,10 +182,10 @@ $$
 
 ### 4.4 Active baseline comparison (labeled projection)
 
-**Assumptions (explicitly stated; this is a projection).**  
-(A1) The active baseline is a generic distance‑3 code on the same $n_1=5$ data qudits.  
-(A2) Each protection epoch requires one syndrome‑extraction round in which every data qudit participates in at least one gate/measurement interaction with additional error rate $\varepsilon_m$.  
-(A3) Errors combine as $1-(1-\varepsilon)(1-\varepsilon_m)$ per qudit.  
+**Assumptions (explicitly stated; this is a projection).**
+(A1) The active baseline is a generic distance‑3 code on the same $n_1=5$ data qudits.
+(A2) Each protection epoch requires one syndrome‑extraction round in which every data qudit participates in at least one gate/measurement interaction with additional error rate $\varepsilon_m$.
+(A3) Errors combine as $1-(1-\varepsilon)(1-\varepsilon_m)$ per qudit.
 (A4) We take the pessimistic‑for‑us‑but‑standard case $\varepsilon_m=\varepsilon=10^{-3}$.
 
 Effective per‑qudit error:
@@ -265,11 +265,11 @@ All numbers below are computed in Section 4 with fully shown arithmetic; none 
 
 **(c) Smallest next experiment.** A minimal prototype consists of five physical qutrits ($p=3$) arranged in the star‑shaped ball $B_1(v_0)$ of the Bruhat–Tits tree. The experiment would (i) initialise a logical state using a symmetric encoding (to be defined), (ii) apply a single protection epoch of independent depolarising noise with calibrated error rate $\varepsilon$, and (iii) measure the logical error probability. The outcome that would falsify the passive‑failure prediction is a measured logical failure rate $P_{\mathrm{exp}}$ that deviates from the analytically computed $P_{\mathrm{pass}}\approx9.98\times10^{-6}$ by more than a factor of two, after accounting for statistical uncertainty.
 
-**(d) Engineering constraints.**  
-- **Qudit hardware:** The scheme requires qutrits (or higher‑dimensional qudits) with controllable nearest‑neighbour Hecke‑type interactions.  
-- **Gate locality:** Hecke operators must be implementable as local averaging over the $p+1$ forward neighbours; this imposes a constraint on the connectivity of the physical layout.  
-- **Error‑rate calibration:** Accurate knowledge of the physical depolarising rate $\varepsilon$ per epoch is needed to compare with the analytic prediction.  
-- **State preparation:** The symmetric encoder assumed in Proposition 1 must be realised; without an explicit construction this remains an open engineering task.  
+**(d) Engineering constraints.**
+- **Qudit hardware:** The scheme requires qutrits (or higher‑dimensional qudits) with controllable nearest‑neighbour Hecke‑type interactions.
+- **Gate locality:** Hecke operators must be implementable as local averaging over the $p+1$ forward neighbours; this imposes a constraint on the connectivity of the physical layout.
+- **Error‑rate calibration:** Accurate knowledge of the physical depolarising rate $\varepsilon$ per epoch is needed to compare with the analytic prediction.
+- **State preparation:** The symmetric encoder assumed in Proposition 1 must be realised; without an explicit construction this remains an open engineering task.
 All other constraints (materials, cost, scale‑up) are currently open questions because they depend on the eventual encoder design.
 
 **(e) Projected cost/performance bounds.** Under the assumptions used in Sections 4.3–4.4 (independent depolarising noise $\varepsilon=10^{-3}$, five‑qudit block, passive correction only) the logical failure probability is projected to be $P_{\mathrm{pass}}\approx9.98\times10^{-6}$, giving a suppression factor of $\varepsilon/P_{\mathrm{pass}}\approx100.2$ relative to an unencoded qudit. Compared with an active distance‑3 baseline under the same $\varepsilon$ and additional measurement error $\varepsilon_m=\varepsilon$, the passive scheme is projected to improve the logical failure rate by a factor of $\approx4.08$. These numbers are analytic projections; any engineering estimate of hardware cost must treat them as conditional on the existence of a symmetric encoder.
@@ -279,10 +279,6 @@ All other constraints (materials, cost, scale‑up) are currently open questions
 ## 8. Conclusion
 
 We have formalised a passive quantum error‑correction scheme in which logical qudits live on balls of the Bruhat–Tits tree $T_{p+1}$, proved a nesting lemma implying that equal‑radius balls are nested or disjoint, derived the exact code parameters $n_t = 1 + (p+1)(p^{t}-1)/(p-1)$ and the conditional distance $d = 2t+1$, and computed analytically that under independent depolarising noise at $\varepsilon = 10^{-3}$ the flagship $p=3$, $t=1$ block fails with probability $\approx9.98\times10^{-6}$ per epoch, a suppression of $\approx100.2$ over an unencoded qudit and, as an explicitly labelled projection under stated assumptions, a factor $\approx4.08$ over an active distance‑3 baseline with noisy syndrome extraction. The scheme’s promise is real but conditional on constructing an explicit symmetric encoder; we have stated the assumptions, the failure modes, and the falsification criteria plainly so that the proposal can be tested rather than taken on trust.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 11. length 3740 -> 3859 words.
 
 ## Provenance and AI Involvement
 
