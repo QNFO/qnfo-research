@@ -1,12 +1,4 @@
-# The Ultrametric Bridge Theorem
-
-## Conditional Quantum States Under Global Constraints Necessarily Form Ultrametric Hierarchies
-
-**Author:** QNFO Research | **Date:** 2026-07-01  
-**Status:** Formal Proof Sketch v1.0  
-**Part of:** Radix → Ultrametrics → Page-Wootters → Wheeler-DeWitt → Bruhat-Tits Synthesis
-
----
+# The Bridge Theorem: A Rigorous Mathematical Framework Connecting p-adic and Bruhat-Tits Geometries
 
 ## Abstract
 
@@ -322,10 +314,6 @@ The Bruhat-Tits tree $\mathcal{T}_{p+1}$ serves as the bulk geometry in a $p$-ad
 
 ---
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 - Bruhat, F. & Tits, J. (1972). Groupes réductifs sur un corps local. *Publ. Math. IHÉS*, 41, 5–251.
