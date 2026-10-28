@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "scale-divergence-problem",
+  "paper": {
+    "path": "papers/scale-divergence-problem/paper.md",
+    "title": "Scale-Divergence Problem",
+    "url": "https://papers.qnfo.org/papers/scale-divergence-problem"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "scale-divergence-problem"
+  },
+  "snapshots": [
+    {
+      "sha256": "4e6d85bb28924117aa0e241e9c75bc1796a4e5d26aeace4509528dc240a09ecb",
+      "bytes": 42890,
+      "recorded_at": "2026-10-28",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
