@@ -1,18 +1,8 @@
----
-author: Rowan Brad Quni-Gudzinas
-email: rowan.quni@qnfo.org
-title: Meta-Analysis of Categorical Equivalence and Scale Invariance
-Author: Rowan Brad Quni-Gudzinas  
-Affiliation: QNFO  
-Email: rowan.quni@qnfo.org  
-ORCID: 0009-0002-4317-5604  
-ISNI: 0000000526456062  
-Version: 1.0  
-Date: 2025-09-15
-aliases:
-  - Meta-Analysis of Categorical Equivalence and Scale Invariance
-modified: 2025-09-15T16:12:42Z
----
+# Meta-Analysis of Categorical Equivalence and Scale Invariance
+
+## Abstract
+
+The primary research question for this deliverable investigates the precise mathematical conditions under which the two documented categorical approaches to renormalization group (RG) flow—Sharpe’s model categories versus the Harm framework’s natural transformations—are either equivalent or complementary. Secondary questions explore which mathematical structures in quantum field theory (QFT) can be fully characterized as categorical equivalences through RG flow, how beta functions correspond to categorical properties within each framework, and what physical phenomena are uniquely describable by one framework but not the other.
 
 ## Research Plan: Meta-Analysis of Categorical Equivalence and Scale Invariance
 
@@ -479,7 +469,6 @@ The plan accurately represents the distinction between “fundamental scale inva
 ### 14.0 Conclusion
 
 This research plan is not merely aligned with the overarching generative focal point; it embodies it completely. The roadmap systematically advances each core component of the framework through rigorous theoretical meta-analysis, while maintaining proper scientific positioning and accurately representing the mathematical structures documented in the literature. Each deliverable addresses a specific gap in understanding while contributing to the coherent development of the category-theoretic framework for scale-invariant wave mechanics as a relational approach to physical theory. This structured approach ensures that the investigation into categorical equivalence and scale invariance will yield a robust and well-supported theoretical contribution.
-
 
 ## Verification and Computational Artifacts
 
