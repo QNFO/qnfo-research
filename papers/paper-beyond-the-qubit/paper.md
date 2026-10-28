@@ -1,34 +1,8 @@
----
-title: "Beyond the Qubit: Constructive Paradigms for Post-Particle Computation"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-08
-series: "The Qubit Delusion --- Phase II"
-abstract: |
- If "The Qubit Delusion" diagnosed the epistemic failure at the heart of quantum
- computing --- the projection of particle ontology onto a relational, field-theoretic
- reality --- then this companion paper asks the constructive question: what comes next?
- We begin with an ontological stripping: what does quantum mechanics actually demand
- of a computational substrate, once all anthropocentric and classical baggage is
- removed? From this foundation we survey alternative computational paradigms
- (measurement-based, continuous-variable, topological, field-theoretic, analog) that
- are more faithful to quantum reality than the qubit-gate-circuit scaffold. We then
- assess which of these are commercially manufacturable --- not in theory, but under the
- actual constraints of materials, thermodynamics, and industrial economics. Finally,
- we ask whether "quantum computing" itself is the right frame at all, or whether the
- deeper lesson --- that computation is a physical process and the substrate IS the
- algorithm --- points toward wholly different computational architectures: thermodynamic,
- neuromorphic, optical, and biological systems where the physics does the computing
- directly rather than being force-fit into a discrete symbolic scaffold.
-keywords:
- - quantum computing
- - alternative computing architectures
- - relational quantum mechanics
- - measurement-based quantum computing
- - neuromorphic computing
- - thermodynamic computing
- - quantum foundations
- - philosophy of computation
----
+# Beyond the Qubit: Constructive Paradigms for Post-Particle Computation
+
+## Abstract
+
+If "The Qubit Delusion" diagnosed the epistemic failure at the heart of quantum computing --- the projection of particle ontology onto a relational, field-theoretic reality --- then this companion paper asks the constructive question: what comes next? We begin with an ontological stripping: what does quantum mechanics actually demand of a computational substrate, once all anthropocentric and classical baggage is removed? From this foundation we survey alternative computational paradigms (measurement-based, continuous-variable, topological, field-theoretic, analog) that are more faithful to quantum reality than the qubit-gate-circuit scaffold. We then assess which of these are commercially manufacturable --- not in theory, but under the actual constraints of materials, thermodynamics, and industrial economics. [...]
 
 # 1. The Question Behind the Critique
 
@@ -42,7 +16,7 @@ correlated quantum systems.
 
 But diagnosis without prescription is incomplete. If the qubit is a scaffold,
 not an invariant, then what IS the invariant? If the gate-circuit model is a
-map-territory confusion, what does the territory actually look like? And --- 
+map-territory confusion, what does the territory actually look like? And ---
 most practically --- if $35 billion and two decades of global effort have
 produced zero commercially viable quantum computers under the incumbent
 paradigm, are there alternative architectures that might actually deliver
@@ -54,7 +28,7 @@ This paper addresses four questions:
  metaphysics, and anthropocentric baggage, what does the quantum formalism
  actually demand of a computational substrate?
 
-2. **What is the solution space?** Which alternative computational paradigms --- 
+2. **What is the solution space?** Which alternative computational paradigms ---
  measurement-based, continuous-variable, topological, field-theoretic, analog
  --- are faithful to quantum reality, and how mature are they?
 
@@ -62,7 +36,7 @@ This paper addresses four questions:
  manufacturable under real engineering, thermodynamic, and economic
  constraints?
 
-4. **Is "quantum computing" even the right frame?** Or does the deeper lesson --- 
+4. **Is "quantum computing" even the right frame?** Or does the deeper lesson ---
  that computation IS a physical process, and the substrate determines what
  can be computed efficiently --- point toward architectures where the physics
  does the computing directly, without being forced into a discrete symbolic
@@ -275,7 +249,7 @@ states. This represents the most commercially advanced MBQC effort.
 
 **Core idea:** Replace discrete qubits --- two-level quantum systems --- with
 continuous quantum variables: the quadrature amplitudes of the electromagnetic
-field (position and momentum analogs). Qumodes --- the CV analog of qubits --- 
+field (position and momentum analogs). Qumodes --- the CV analog of qubits ---
 live in an infinite-dimensional Hilbert space, and computation proceeds through
 Gaussian operations (squeezing, displacement, beam-splitting) supplemented by
 non-Gaussian operations for universality.
@@ -324,7 +298,7 @@ of the braid, not on the detailed trajectory, providing intrinsic protection
 against local noise.
 
 **Ontological fidelity:** High, in a specific sense. TQC recognizes that
-quantum information is fundamentally about global, relational structure --- 
+quantum information is fundamentally about global, relational structure ---
 the topology of particle trajectories --- rather than about local states of
 individual particles. The "qubit" in TQC is not a physical two-level system
 but a topological degree of freedom that is distributed across multiple
@@ -661,7 +635,7 @@ event-driven, and co-locating memory and computation.
  SpiNNaker use conventional CMOS technology with neuromorphic architectures.
  Loihi 2 achieves ~15 pJ per synaptic operation, compared to ~100 pJ for
  equivalent operations on conventional processors.
-- **Memristive neuromorphic systems:** Memristors --- resistors with memory --- 
+- **Memristive neuromorphic systems:** Memristors --- resistors with memory ---
  can implement synapses directly in analog hardware, performing
  matrix-vector multiplication with O(1) energy per operation regardless
  of matrix size.
@@ -897,8 +871,3 @@ The present paper departs from the [Thermodynamic Imperative](https://papers.qnf
 The relationship between the present paper and the [Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons](https://papers.qnfo.org/papers/adelic-synthesis-pattern-particle) is more complex and involves both continuity and tension. The Adelic Synthesis paper constructed a unified framework in which an anyon is an adelic object—a single arithmetic pattern that manifests differently at each completion of \(\mathbb{Q}\), with the familiar archimedean Fibonacci anyon being merely the \(\infty\)-place avatar. It proposed the Adelic Topological Quantum Computation (ATQC) paradigm, in which computational gates exploit place-crossing transitions (adelic Hecke operators) rather than continuous braiding, potentially eliminating the Solovay-Kitaev overhead entirely. The present paper's survey of topological quantum computing in Section 3.3 acknowledges the theoretical elegance of encoding information in global, relational structures—the topology of particle trajectories—and notes that this aligns with the relational picture of computation. However, the present paper assesses TQC as experimentally extremely challenging, noting that the existence of non-abelian anyons was only confirmed in 2020, and that Microsoft's Majorana program has faced contested evidence. The present paper does not engage with the adelic extension of TQC at all; it treats topological quantum computing as a paradigm that is theoretically elegant but not commercially manufacturable, without reference to the p-adic or adelic constructions.
 
 This silence is telling. The Adelic Synthesis paper is, in a sense, the most radical expression of the "correlation-first" principle that the present paper advocates: it rejects the particle-qubit in favor of a relational, global, topological substrate, and it explicitly frames the anyon as an adelic pattern rather than a particle. The present paper's Principle 2—"Correlation over particle: Encode information in correlation structures (entanglement, phase coherence, collective modes) rather than in local states of individual degrees of freedom"—could be read as a direct endorsement of the adelic perspective. Yet the present paper's Principle 5—"Manufacturability as first-class constraint"—implicitly judges the adelic program as premature. The Adelic Synthesis paper itself acknowledges that its experimental realization is an open question, proposing Bethe lattice quantum spin liquids and ultrametric cold atom systems as candidate platforms, but conceding that these are speculative. The present paper, by contrast, insists that a computational paradigm must be "physically realizable, scalable, and—for commercial viability—manufacturable under industrial constraints." The adelic program, whatever its ontological fidelity, has no such pathway. The present paper's survey of alternative quantum paradigms in Section 3 includes measurement-based, continuous-variable, topological, and analog approaches, but not the adelic or p-adic frameworks; these are absent because they lack the engineering maturity that the present paper demands. The present paper thus both inherits and disciplines the Adelic Synthesis's core insight: the correlation structure is the computational primitive, but that insight must be realized in systems that can actually be built, which is why the present paper ultimately moves beyond quantum computing altogether to thermodynamic, neuromorphic, and optical architectures.
-
-## Changelog
-
-- v2.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.

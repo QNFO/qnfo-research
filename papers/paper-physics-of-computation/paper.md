@@ -1,37 +1,8 @@
----
-title: "The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-08
-series: "The Qubit Delusion --- Phase III"
-abstract: |
- Every claim about quantum computing --- whether it will revolutionize industry or
- never deliver --- ultimately rests on what the laws of physics actually permit. This
- paper examines the fundamental physical limits on computation: the Landauer bound
- on thermodynamic cost, the Margolus-Levitin theorem on quantum speed limits, and the
- Bremermann limit on maximum computational throughput. We show that these limits,
- properly understood, neither validate quantum computing's extraordinary claims nor
- foreclose the possibility of post-classical advantage. Instead, they define the
- honest boundaries within which any computational paradigm --- classical, quantum, or
- otherwise --- must operate. We then examine reversible computing as the only paradigm
- that can approach the true physical limits, and assess whether quantum computing's
- error-correction overhead --- which multiplies the physical resource cost by factors
- of 10^2 to 10^3 --- pushes fault-tolerant quantum computation beyond the
- thermodynamic envelope of practical devices. Finally, we propose a falsifiable
- criterion for "physical computational advantage": a device must solve a commercially
- relevant problem at lower total energy cost (joules per solution) than any classical
- alternative. No existing quantum computer satisfies this criterion, and the
- thermodynamic analysis suggests that fault-tolerant machines operating under
- standard error-correction protocols may never do so.
-keywords:
- - Landauer limit
- - Margolus-Levitin theorem
- - Bremermann limit
- - reversible computing
- - thermodynamic computing
- - quantum computing
- - computational limits
- - physics of computation
----
+# The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing
+
+## Abstract
+
+Phase III of the Qubit Delusion series. Examines fundamental physical limits on computation: Landauer bound, Margolus-Levitin theorem, Bremermann limit, Bekenstein bound. Shows that quantum error-correction overhead (1e2-1e3 physical operations per logical operation) multiplies thermodynamic cost beyond what any polynomial algorithmic speedup can overcome. Proposes a falsifiable criterion: joules per solution on commercially relevant problems. Assesses all major quantum platforms against this criterion. Identifies reversible computing as the only paradigm that can approach the true physical limits.
 
 # 1. Introduction: The Question Physics Must Answer
 
@@ -78,7 +49,7 @@ computing and its alternatives. We will find that:
 
 3. The Bremermann limit --- approximately 1.36 × 10^50 bits per second per
  kilogram --- is the maximum computational throughput of any material system.
- While this is an enormous number, the *energy efficiency* of computation --- 
+ While this is an enormous number, the *energy efficiency* of computation ---
  the Bremermann limit divided by the energy required --- tells a different
  story: there is an inescapable trade-off between speed and energy, and
  quantum error correction multiplies the energy cost without increasing
@@ -255,7 +226,7 @@ physicists to calibrate and maintain. And it was manufactured in
 volumes of millions of units, not hand-built in academic cleanrooms.
 
 The throughput problem is not insurmountable. If the quantum algorithm
-provides an exponential speedup, the logical gate rate is irrelevant --- 
+provides an exponential speedup, the logical gate rate is irrelevant ---
 the quantum computer will still vastly outperform the classical one for
 sufficiently large problem sizes. But for problems with polynomial
 speedup, the constant-factor overhead of error correction may consume
@@ -455,7 +426,7 @@ temperature, require no error correction, and their energy cost is
 dominated by the oscillator/memristive array, not by per-operation
 erasure. For optimization problems (MAX-CUT, TSP, portfolio
 optimization), Ising machines may already achieve joules-per-solution
-advantage over classical solvers running on conventional hardware --- 
+advantage over classical solvers running on conventional hardware ---
 though not over classical solvers running on specialized hardware
 (FPGAs, ASICs). The comparison must be apples-to-apples.
 
@@ -569,7 +540,3 @@ people funding them.
 - @Crow2016: D. Crow et al., "Measurement-Free Quantum Error Correction," Phys. Rev. A 93, 042314 (2016).
 - @Snider2012: G. L. Snider et al., "Minimum Energy for Computation, Theory vs. Experiment," IEEE Trans. Nanotechnol. 11, 406 (2012).
 - @Davies2018: M. Davies et al., "Loihi: A Neuromorphic Manycore Processor with On-Chip Learning," IEEE Micro 38, 82 (2018).
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.

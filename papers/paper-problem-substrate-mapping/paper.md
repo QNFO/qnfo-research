@@ -1,35 +1,8 @@
----
-title: "The Problem-Substrate Mapping: A Framework for Honest Computational Investment"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-08
-series: "The Qubit Delusion --- Phase IV"
-abstract: |
- Three papers have established that the qubit-gate-circuit model is an epistemic
- failure, that alternative paradigms exist with greater ontological fidelity, and
- that fundamental physical limits impose honest boundaries on what any computational
- paradigm can deliver. This paper turns from critique to portfolio: given everything
- we now know, what should we actually build? We propose a systematic framework for
- matching computational problem classes to optimal physical substrates --- the
- Problem-Substrate Mapping --- and derive concrete investment theses for near-term
- (1-3 year), medium-term (3-7 year), and long-term (7-15 year) horizons. For each
- problem class (optimization, linear algebra, probabilistic inference, quantum
- simulation, cryptography, general-purpose computation), we identify the physical
- substrate that minimizes joules-per-solution at commercially relevant scale and
- assess its current technology readiness level. The resulting portfolio allocates
- roughly 40% to thermodynamic/analog computing, 25% to photonic/optical, 15% to
- neuromorphic, 10% to analog quantum simulation, 5% to reversible classical, and
- 5% to fault-tolerant quantum --- a dramatic departure from the ~90% allocation to
- gate-model quantum computing that characterizes current public and private investment.
-keywords:
- - computational investment
- - problem-substrate mapping
- - thermodynamic computing
- - neuromorphic computing
- - optical computing
- - quantum computing
- - technology portfolio
- - R&D strategy
----
+# The Problem-Substrate Mapping: A Framework for Honest Computational Investment
+
+## Abstract
+
+Phase IV of the Qubit Delusion series. Translates the critique into a concrete investment portfolio: matching computational problem classes (optimization, linear algebra, probabilistic inference, quantum simulation, cryptography, general-purpose) to optimal physical substrates (Ising machines, optical processors, neuromorphic, analog quantum simulators, reversible classical, fault-tolerant QC). Proposes a standardized five-question evaluation framework with red flags and green flags. The resulting portfolio allocates ~45% to thermodynamic/analog, 25% to optical, 20% to neuromorphic, and ~10% to quantum — a near-inversion of current R&amp;D allocation where gate-model QC absorbs ~60%.
 
 # 1. Introduction: From Critique to Portfolio
 
@@ -46,14 +19,14 @@ The first three papers in this series have established a foundation:
  optical --- exist with greater ontological fidelity and, in many cases, better
  commercial manufacturability.
 
-- **Phase III** ("The Physics of Computation"): Fundamental physical limits --- 
+- **Phase III** ("The Physics of Computation"): Fundamental physical limits ---
  Landauer, Margolus-Levitin, Bremermann, Bekenstein --- define honest boundaries
  within which any computational paradigm must operate. Quantum error correction
  multiplies the thermodynamic cost of computation by 10² to 10³, meaning that
  only exponential algorithmic speedups can overcome the joules-per-solution
  penalty.
 
-This paper turns from critique to construction. Given everything we now know --- 
+This paper turns from critique to construction. Given everything we now know ---
 about the epistemic failure of the qubit model, about the landscape of
 alternatives, about the fundamental physical limits --- what should we actually
 *build*? What should investors fund? What should government research agencies
@@ -153,7 +126,7 @@ probabilistic inference through spike-based stochastic computation.
 
 ## 2.4 Quantum Simulation
 
-**What it is:** Simulating the behavior of quantum many-body systems --- 
+**What it is:** Simulating the behavior of quantum many-body systems ---
 molecules, materials, nuclear matter, quantum fields --- that are
 exponentially hard to simulate on classical computers due to the exponential
 growth of the Hilbert space.
@@ -202,7 +175,7 @@ joules-per-solution analysis from Phase III suggests this is thermodynamically
 possible but commercially distant --- the cryogenic and error-correction
 overhead is enormous.
 
-**Natural substrate match:** Fault-tolerant universal quantum computers --- 
+**Natural substrate match:** Fault-tolerant universal quantum computers ---
 the very paradigm that Phases I-III critique. For this specific problem
 class, the critique does not apply: the exponential algorithmic speedup
 can, in principle, overcome the thermodynamic overhead. The question is
@@ -287,7 +260,7 @@ silicon photonics leverages the same fabs that produce CMOS electronics.
 (N > 1,000), optical processors can achieve 10² to 10³× energy advantage
 over GPUs. The optical path dissipates essentially zero energy; the energy
 cost is dominated by laser power and photodetection. Unlike electronic
-processors, the energy per operation does NOT scale with matrix size --- 
+processors, the energy per operation does NOT scale with matrix size ---
 the light does the computation "for free."
 
 **Near-term investment thesis (1-3 years):** Deploy optical processors as
@@ -330,7 +303,7 @@ follow as the technology matures.
 chemistry, materials science).
 
 **How it works:** A controllable quantum system --- cold atoms in an optical
-lattice, trapped ions, Rydberg atom arrays, or superconducting circuits --- 
+lattice, trapped ions, Rydberg atom arrays, or superconducting circuits ---
 is engineered to have the same Hamiltonian as the target quantum system.
 The simulator evolves under its natural dynamics, and measurements of
 correlation functions yield the quantities of interest. No error correction
@@ -405,7 +378,7 @@ surface-code threshold --- a genuine scientific achievement --- but at a
 scale (105 qubits) that is 10⁵× smaller than what is needed for useful
 computation.
 
-**Joules-per-solution advantage:** Potentially enormous for factoring --- 
+**Joules-per-solution advantage:** Potentially enormous for factoring ---
 if a fault-tolerant quantum computer can be built. The joules-per-solution
 crossover for Shor's algorithm on 2048-bit RSA is estimated at ~10⁷
 physical qubits, requiring a cryogenic infrastructure of unprecedented
@@ -579,7 +552,7 @@ says it can actually produce returns.
 
 In the language of investment: this is a value portfolio in a field
 dominated by growth speculation. It will not produce the highest
-narrative returns. But it may produce the highest actual returns --- 
+narrative returns. But it may produce the highest actual returns ---
 measured in joules per solution, not in press releases per quarter.
 
 ---
@@ -594,7 +567,3 @@ measured in joules per solution, not in press releases per quarter.
 - @Honjo2021: T. Honjo et al., "100,000-Spin Coherent Ising Machine," Sci. Adv. 7, eabh0952 (2021).
 - @Gheorghiu2019: C. Gheorghiu et al., "Quantum Resource Estimation for Large Scale Quantum Algorithms," arXiv:1904.01360 (2019).
 - @Snider2012: G. L. Snider et al., "Minimum Energy for Computation, Theory vs. Experiment," IEEE Trans. Nanotechnol. 11, 406 (2012).
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
