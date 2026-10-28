@@ -2,10 +2,10 @@
 
 ## Abstract
 
-Quantum measurement is presently modeled as an instantaneous stochastic collapse, a postulate that conflicts with the continuous unitary dynamics of the Schrödinger equation and hampers the error budgets of quantum hardware. A deterministic alternative is proposed: by adding a minimal linear drag term to the Madelung hydrodynamic formulation, Hamiltonian eigenstate densities become exact fixed points of a contractive flow, and “quantum jumps’’ emerge as continuous relaxation events. The damped Madelung equations are derived, linearized about the harmonic‑oscillator ground state, and closed‑form level‑to‑level relaxation times  
+Quantum measurement is presently modeled as an instantaneous stochastic collapse, a postulate that conflicts with the continuous unitary dynamics of the Schrödinger equation and hampers the error budgets of quantum hardware. A deterministic alternative is proposed: by adding a minimal linear drag term to the Madelung hydrodynamic formulation, Hamiltonian eigenstate densities become exact fixed points of a contractive flow, and “quantum jumps’’ emerge as continuous relaxation events. The damped Madelung equations are derived, linearized about the harmonic‑oscillator ground state, and closed‑form level‑to‑level relaxation times
 \[
 t_{n\to n-1}=\frac{\ln\!\bigl[(n+\tfrac12)/(n-\tfrac12)\bigr]}{2\gamma}
-\]  
+\]
 are obtained. For a representative damping \(\gamma=10^{9}\,\mathrm{s^{-1}}\) the ground‑state perturbations decay with universal rate \(\gamma/2\), the per‑period phase‑space contraction factor is \(0.881911\) at \(\gamma/\omega=0.01\), and a phenomenological diffusion‑versus‑relaxation hierarchy yields \(t_{D}\approx2.2\times10^{-13}\,\mathrm{s}\ll\tau_{E}=1.0\times10^{-9}\,\mathrm{s}\). The Born rule is retained as an explicit ensemble assumption rather than derived. The program yields testable structural predictions—accelerating relaxation with excitation and deterministic continuous trajectories—while remaining analytically tractable. If validated, the approach re‑grounds quantum statistics in classical measure theory and replaces wavefunction collapse with a computable relaxation process.
 
 ## 1. Introduction
@@ -14,12 +14,12 @@ Quantum processors must repeatedly measure qubit states to extract computational
 
 This paper investigates precisely that possibility. By augmenting the Madelung hydrodynamic equations with a linear drag term, we obtain a dissipative fluid whose stationary eigenstate densities remain exact fixed points. Linear stability analysis shows that all perturbation modes decay at a universal rate \(\gamma/2\), with an overdamped crossover at \(\gamma=\hbar k^{2}/m\). Closed‑form level‑to‑level relaxation times are derived, revealing a characteristic acceleration of relaxation for higher excitations. The Born rule is introduced as an explicit, testable ensemble assumption rather than an axiom.
 
-**Contributions.**  
-- **C1.** Derivation of the damped Madelung equations and demonstration that eigenstate densities are exact fixed points of the flow (Section 4.1).  
-- **C2.** Linearized analysis showing universal decay rate \(\gamma/2\) for all wavenumbers, with overdamped crossover at \(\gamma=\hbar k^{2}/m\) (Section 4.2).  
-- **C3.** Closed‑form level‑to‑level relaxation law \(t_{n\to n-1}=\ln[(n+\tfrac12)/(n-\tfrac12)]/(2\gamma)\) and quantitative predictions for \(t_{1\to0}\) and \(t_{2\to1}\) (Section 4.3).  
-- **C4.** Per‑period phase‑space contraction factors and a phenomenological comparison between relaxation and diffusion timescales (Sections 4.4–4.5).  
-- **C5.** Proposes a falsification study design that would test whether deterministic maps can reproduce Born‑rule probabilities, thereby treating the Born rule as an explicit ensemble assumption (Section 4.7).  
+**Contributions.**
+- **C1.** Derivation of the damped Madelung equations and demonstration that eigenstate densities are exact fixed points of the flow (Section 4.1).
+- **C2.** Linearized analysis showing universal decay rate \(\gamma/2\) for all wavenumbers, with overdamped crossover at \(\gamma=\hbar k^{2}/m\) (Section 4.2).
+- **C3.** Closed‑form level‑to‑level relaxation law \(t_{n\to n-1}=\ln[(n+\tfrac12)/(n-\tfrac12)]/(2\gamma)\) and quantitative predictions for \(t_{1\to0}\) and \(t_{2\to1}\) (Section 4.3).
+- **C4.** Per‑period phase‑space contraction factors and a phenomenological comparison between relaxation and diffusion timescales (Sections 4.4–4.5).
+- **C5.** Proposes a falsification study design that would test whether deterministic maps can reproduce Born‑rule probabilities, thereby treating the Born rule as an explicit ensemble assumption (Section 4.7).
 - **C6.** Specification of a falsification protocol targeting the \(n\)‑dependence of relaxation times and the continuity of trajectories (Sections 3.3 and 7).
 
 ## 2. Background and Related Work
@@ -292,71 +292,66 @@ We report only quantities computed in Section 4, plus clearly labeled projecti
 
 **Result 6 (hardware statistics).** Average fidelity \(99.39\%\); qubit‑weighted composite fidelity \(98.73\%\).
 
-**Result 7 (projection).** Assuming an engineered measurement‑induced effective damping \(\gamma=10^{6}\,\mathrm{s^{-1}}\), the first‑level relaxation time is  
+**Result 7 (projection).** Assuming an engineered measurement‑induced effective damping \(\gamma=10^{6}\,\mathrm{s^{-1}}\), the first‑level relaxation time is
 \[
 t_{1\to0}=0.549306\times10^{-6}\,\mathrm{s}=5.49\times10^{-7}\,\mathrm{s}\approx0.55\,\mu\mathrm{s}.
-\]  
+\]
 Uncertainty arises solely from the assumed \(\gamma\).
 
 **Result 8 (protocol status).** The double‑slit and Stern–Gerlach tests are specified but not executed; no simulation outcomes are reported.
 
 ## 6. Discussion
 
-**Limitations.**  
-- The energy‑decay derivation (D1) relies on orbit averaging and holds only for \(\gamma\ll\omega\); strong damping requires the full linearized analysis of Section 4.2.  
-- The Lyapunov‑type argument guarantees attractivity of the fixed‑point set but does not ensure convergence to a *unique* eigenstate; degenerate spectra or additional attractors could yield mixed outcomes.  
-- Identifying excited‑state population with excess mechanical energy (Section 4.3) is a projection approximation, not a derivation from the field equations.  
-- The drag coefficient \(\gamma\) is phenomenological; its microscopic origin, system‑size dependence, and relation to environmental decoherence remain open questions.  
-- The diffusion estimate in Section 4.5 uses the Einstein relation outside its strict overdamped regime; its quantitative relevance to the underdamped dynamics is uncertain.  
+**Limitations.**
+- The energy‑decay derivation (D1) relies on orbit averaging and holds only for \(\gamma\ll\omega\); strong damping requires the full linearized analysis of Section 4.2.
+- The Lyapunov‑type argument guarantees attractivity of the fixed‑point set but does not ensure convergence to a *unique* eigenstate; degenerate spectra or additional attractors could yield mixed outcomes.
+- Identifying excited‑state population with excess mechanical energy (Section 4.3) is a projection approximation, not a derivation from the field equations.
+- The drag coefficient \(\gamma\) is phenomenological; its microscopic origin, system‑size dependence, and relation to environmental decoherence remain open questions.
+- The diffusion estimate in Section 4.5 uses the Einstein relation outside its strict overdamped regime; its quantitative relevance to the underdamped dynamics is uncertain.
 
-**Failure modes.**  
-1. Measurement perturbations that inject energy faster than dissipation removes it, leading to persistent oscillations rather than relaxation.  
-2. Endpoint statistics that remain stable across initial‑condition ensembles but deviate from Born‑rule weights, falsifying Assumption B while leaving the dynamics intact.  
+**Failure modes.**
+1. Measurement perturbations that inject energy faster than dissipation removes it, leading to persistent oscillations rather than relaxation.
+2. Endpoint statistics that remain stable across initial‑condition ensembles but deviate from Born‑rule weights, falsifying Assumption B while leaving the dynamics intact.
 3. Observed discontinuities or step‑size‑sensitive trajectories, directly falsifying the continuous‑relaxation hypothesis.
 
 **What would falsify the claims.** The predicted acceleration of relaxation with excitation (the \(n\)‑dependence of \(t_{n\to n-1}\)) is a sharp structural signature. Measured relaxation times in silicon‑dot qubits that *increase* with excitation level, or that are independent of \(n\), would falsify the linear‑drag model in its current form. A proposed test following the protocol of Section 3.3—preparing a superposition, applying a controlled measurement‑like kick, and measuring the post‑kick relaxation‑time distribution—would directly target this prediction.
 
-**Arguing against ourselves.**  
-- The linear drag term is introduced ad hoc; without a microscopic derivation the model could be fitted post hoc to any observed relaxation time.  
-- The framework explains stability but not *selection*: without deriving the basin measure, the model predicts relaxation to *some* eigenstate but not with the Born‑rule frequencies.  
-- The time‑relaxation limit established in [3] concerns weak solutions of the quantum hydrodynamics system, not convergence to discrete eigenstate basins; thus the mathematical anchor is analogical rather than deductive.  
+**Arguing against ourselves.**
+- The linear drag term is introduced ad hoc; without a microscopic derivation the model could be fitted post hoc to any observed relaxation time.
+- The framework explains stability but not *selection*: without deriving the basin measure, the model predicts relaxation to *some* eigenstate but not with the Born‑rule frequencies.
+- The time‑relaxation limit established in [3] concerns weak solutions of the quantum hydrodynamics system, not convergence to discrete eigenstate basins; thus the mathematical anchor is analogical rather than deductive.
 Progress requires either a microscopic derivation of \(\gamma\) and the basin measure or a systematic experimental program to fix these phenomenological parameters.
 
 ## 7. Practical Implications and Engineering Pathways
 
-### (a) Primary users and decision impact  
+### (a) Primary users and decision impact
 Quantum hardware engineers and error‑correction architects would use the derived relaxation times to design measurement circuits that deliberately introduce controlled damping, thereby steering qubit states toward desired eigenstates with predictable latency. Quantum algorithm developers could incorporate the deterministic relaxation model into simulation tools, replacing stochastic collapse modules with continuous dissipative dynamics, which may simplify resource estimation for measurement‑heavy algorithms.
 
-### (b) Technology readiness  
+### (b) Technology readiness
 The work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, it resides at TRL 2 (technology concept formulation). No hardware or software prototype has been built.
 
-### (c) Minimal next experiment  
+### (c) Minimal next experiment
 A proposed numerical experiment would implement the damped Madelung equations for a one‑dimensional double‑slit potential, using a spatial grid fine enough to resolve the quantum potential. The experiment would measure (i) continuity of individual fluid trajectories and (ii) the endpoint distribution over detectors. Observation of any trajectory discontinuity or a detector distribution that deviates from the Born‑rule weights would falsify the hypothesis. The required outcome to refute the main claim is a statistically significant detection of a step‑size‑dependent artifact or a non‑Born‑rule histogram.
 
-### (d) Engineering constraints  
-- **Material and device constraints.** Implementing a linear drag term in a superconducting circuit requires a controllable coupling to a dissipative bath; the coupling strength must be tunable to achieve the target \(\gamma\).  
-- **Computational constraints.** Numerical integration of the damped Madelung equations demands high‑resolution grids to avoid artificial attractors; the required memory scales with the inverse cube of the spatial step size.  
+### (d) Engineering constraints
+- **Material and device constraints.** Implementing a linear drag term in a superconducting circuit requires a controllable coupling to a dissipative bath; the coupling strength must be tunable to achieve the target \(\gamma\).
+- **Computational constraints.** Numerical integration of the damped Madelung equations demands high‑resolution grids to avoid artificial attractors; the required memory scales with the inverse cube of the spatial step size.
 - **Measurement constraints.** Verifying continuous trajectories experimentally would need time‑resolved state tomography with sub‑nanosecond resolution, which is presently at the edge of available hardware.
 
-### (e) Projected cost and performance bounds (projection)  
-Assuming a superconducting platform can engineer \(\gamma=10^{6}\,\mathrm{s^{-1}}\) via a calibrated resistive shunt, the projected first‑level relaxation time is \(t_{1\to0}\approx0.55\,\mu\mathrm{s}\). If the same hardware can sustain this dissipation without degrading coherence beyond the reported readout fidelity (\(98.7\%\)), the overall measurement latency could be reduced by roughly a factor of two relative to the current readout cycle (\(\sim1\,\mu\mathrm{s}\)). 
+### (e) Projected cost and performance bounds (projection)
+Assuming a superconducting platform can engineer \(\gamma=10^{6}\,\mathrm{s^{-1}}\) via a calibrated resistive shunt, the projected first‑level relaxation time is \(t_{1\to0}\approx0.55\,\mu\mathrm{s}\). If the same hardware can sustain this dissipation without degrading coherence beyond the reported readout fidelity (\(98.7\%\)), the overall measurement latency could be reduced by roughly a factor of two relative to the current readout cycle (\(\sim1\,\mu\mathrm{s}\)).
 
 The present work therefore provides (i) a derivation of the damped Madelung equations that preserve eigenstate densities as exact fixed points (Sec 4.1), (ii) a linear stability analysis yielding the universal decay rate $\gamma/2$ and the overdamped crossover condition $\gamma=\hbar k^{2}/m$ (Sec 4.2), (iii) closed‑form level‑to‑level relaxation times $t_{n\to n-1}=\ln[(n+\tfrac12)/(n-\tfrac12)]/(2\gamma)$ with explicit numerical examples (Sec 4.3), (iv) quantitative phase‑space contraction factors and a diffusion‑versus‑relaxation timescale hierarchy (Sec 4.4–4.5), and (v) a concrete falsification protocol based on the $n$‑dependence of relaxation times and trajectory continuity (Sec 3.3, 7). These results establish a deterministic, continuous alternative to the conventional collapse postulate and delineate the empirical program required to assess its validity.
 
 ## Conclusion
 
-We have developed a hydrodynamic‑relaxation research program in which quantum jumps are reinterpreted as continuous, deterministic relaxation events in a damped Madelung fluid. The established results are: (i) adding linear drag $-m\gamma\mathbf{v}$ to the Madelung momentum equation leaves the continuity equation unchanged and preserves eigenstate densities as exact fixed points (Section 4.1); (ii) linearization about the harmonic‑oscillator ground state shows every perturbation mode decays at rate $\gamma/2$, with an overdamped crossover at $\gamma=\hbar k^{2}/m$ (Section 4.2); (iii) the damped flow yields closed‑form level‑to‑level relaxation times 
+We have developed a hydrodynamic‑relaxation research program in which quantum jumps are reinterpreted as continuous, deterministic relaxation events in a damped Madelung fluid. The established results are: (i) adding linear drag $-m\gamma\mathbf{v}$ to the Madelung momentum equation leaves the continuity equation unchanged and preserves eigenstate densities as exact fixed points (Section 4.1); (ii) linearization about the harmonic‑oscillator ground state shows every perturbation mode decays at rate $\gamma/2$, with an overdamped crossover at $\gamma=\hbar k^{2}/m$ (Section 4.2); (iii) the damped flow yields closed‑form level‑to‑level relaxation times
 $$
 t_{n\to n-1}=\frac{1}{2\gamma}\ln\frac{n+\tfrac12}{\,n-\tfrac12\,},
-$$ 
+$$
 giving $t_{1\to0}=0.549306/\gamma$ and $t_{2\to1}=0.255413/\gamma$ (Sections 4.3–4.4); (iv) per‑period phase‑space contraction factors and a diffusion‑versus‑relaxation timescale hierarchy are quantified (Sections 4.4–4.5); and (v) a concrete falsification protocol based on the $n$‑dependence of relaxation times and the continuity of trajectories is specified (Sections 3.3 and 7). These findings provide a deterministic, continuous alternative to the conventional collapse postulate and delineate a clear experimental program to assess its validity.
 
 In summary, the present work supplies a mathematically explicit, analytically tractable framework that connects dissipative Madelung dynamics to observable measurement‑induced relaxation. Future efforts will (a) derive the phenomenological damping coefficient $\gamma$ from microscopic open‑system models, (b) extend the analysis to multi‑mode and interacting quantum fields, and (c) execute the pre‑registered numerical experiments described in Section 3.3. By confronting the structural predictions—accelerating relaxation with excitation, deterministic continuous trajectories, and basin statistics matching Born weights—with empirical data, the program will either substantiate a reformulation of quantum measurement as a hydrodynamic relaxation process or be falsified, thereby clarifying the role of attractor dynamics in quantum foundations.
-
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 11 -> 8. length 3857 -> 2978 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): revised against the current literature, re-reviewed and re-verified. references 8 -> 10. length 3026 -> 3486 words.
 
 ## Provenance and AI Involvement
 

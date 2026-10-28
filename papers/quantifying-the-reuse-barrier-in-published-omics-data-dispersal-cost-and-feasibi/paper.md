@@ -12,11 +12,11 @@ If the dispersal barrier could be quantified per study, three things change. A j
 
 **Contributions**
 
-- A staged formalisation of the omics discovery pipeline as a five‑stage multi‑agent workflow, with the coordination structure of each stage stated explicitly (Section 3).  
-- A dispersal model of a published study with closed‑form expressions for reproduction success probability and expected retrieval cost, evaluated numerically under stated assumptions: manual success 0.32768 versus agent success $\approx$ 0.9606 at k = 5, p = 0.8, r = 2 (Sections 3 and 4.4–4.5).  
-- A derived token‑and‑call cost model for the retrieval stage, giving 60 400 tokens and 30 calls per paper before screening, and 169 400 tokens with a 10:1 screening ratio (Section 4.1).  
-- A derived information‑theoretic bound on the reanalysis specification, giving Hartley entropy $\approx$ 83.05 bits at F = 25 and a Shannon‑entropy comparison (Section 4.2).  
-- A sensitivity decomposition showing that dispersal breadth k dominates the barrier and that agent retries substitute for per‑location reliability (Sections 4.4–4.7).  
+- A staged formalisation of the omics discovery pipeline as a five‑stage multi‑agent workflow, with the coordination structure of each stage stated explicitly (Section 3).
+- A dispersal model of a published study with closed‑form expressions for reproduction success probability and expected retrieval cost, evaluated numerically under stated assumptions: manual success 0.32768 versus agent success $\approx$ 0.9606 at k = 5, p = 0.8, r = 2 (Sections 3 and 4.4–4.5).
+- A derived token‑and‑call cost model for the retrieval stage, giving 60 400 tokens and 30 calls per paper before screening, and 169 400 tokens with a 10:1 screening ratio (Section 4.1).
+- A derived information‑theoretic bound on the reanalysis specification, giving Hartley entropy $\approx$ 83.05 bits at F = 25 and a Shannon‑entropy comparison (Section 4.2).
+- A sensitivity decomposition showing that dispersal breadth k dominates the barrier and that agent retries substitute for per‑location reliability (Sections 4.4–4.7).
 - A statement of which observations would falsify the central claims, a limitations list naming every assumption, and a practical pathway from the analytical result to a first measurement (Sections 7 and 7).
 
 ## 2. Background and Related Work
@@ -45,10 +45,10 @@ $$
 S_1 \rightarrow S_2 \rightarrow S_3 \rightarrow S_4 \rightarrow S_5
 $$
 
-- $S_1$ (corpus scan): identify candidate papers and determine whether omics data exist for each.  
-- $S_2$ (asset location): locate raw data deposits in public repositories and any intermediate data files.  
-- $S_3$ (protocol extraction): reconstruct the analysis pipeline from main text, supplementary files, and code repositories.  
-- $S_4$ (reanalysis execution): run the reconstructed pipeline on the located data, with a verifier that the pipeline either runs and reproduces a reported result or it does not.  
+- $S_1$ (corpus scan): identify candidate papers and determine whether omics data exist for each.
+- $S_2$ (asset location): locate raw data deposits in public repositories and any intermediate data files.
+- $S_3$ (protocol extraction): reconstruct the analysis pipeline from main text, supplementary files, and code repositories.
+- $S_4$ (reanalysis execution): run the reconstructed pipeline on the located data, with a verifier that the pipeline either runs and reproduces a reported result or it does not.
 - $S_5$ (synthesis): aggregate reanalysed outputs across studies into a common, searchable form.
 
 Each stage $S_i$ has an input context $C_i$, an output record $O_i$, and a message channel to downstream stages, in the sense of coordinated multi‑agent communication [2].
@@ -85,9 +85,9 @@ which for the no‑retry case $r=0$ reduces to $E[N]=1/p$. The expected total re
 
 The token cost model takes as free parameters:
 
-- Paper length in tokens $L$ (derived from word count).  
-- Number of consulted documents per paper $D$.  
-- Number of decision fields to extract $F$.  
+- Paper length in tokens $L$ (derived from word count).
+- Number of consulted documents per paper $D$.
+- Number of decision fields to extract $F$.
 - Tokens per extraction call overhead $f_{\text{oh}}$.
 
 All values are stated assumptions of this analysis, not measurements. Section 4.1 uses these parameters to compute token and call costs.
@@ -136,7 +136,7 @@ $$
 
 **Bracketing.** For $F\in\{10,40\}$, holding other inputs fixed:
 
-- Lower bound: $T_{\text{total}}=10400+10000+(5+10)\times500+10\times1000=37900$ tokens; $N_{\text{calls}}=15$.  
+- Lower bound: $T_{\text{total}}=10400+10000+(5+10)\times500+10\times1000=37900$ tokens; $N_{\text{calls}}=15$.
 - Upper bound: $T_{\text{total}}=10400+10000+(5+40)\times500+40\times1000=82900$ tokens; $N_{\text{calls}}=45$.
 
 If the corpus‑scan stage $S_1$ must screen $S=10$ candidate papers per accepted paper, each at $L_{\text{tok}}=10400$ tokens with one call of overhead $500$, the screening cost is $10\times(10400+500)=109000$ tokens, and the full retrieval stage for one accepted paper is
@@ -159,7 +159,7 @@ $$
 
 Bracket for $F\in\{10,40\}$:
 
-- Lower: $H_0=10\times3.3219=33.22$ bits.  
+- Lower: $H_0=10\times3.3219=33.22$ bits.
 - Upper: $H_0=40\times3.3219=132.88$ bits.
 
 **Shannon comparison.** If the most common value of each field has probability $p=0.5$ and the remaining $0.5$ is spread over the other nine values, then per field the resolved entropy is at most
@@ -230,8 +230,8 @@ Values: $k=2\to0.64$, $k=3\to0.512$, $k=4\to0.4096$, $k=5\to0.32768$, $k=8\to0.1
 
 Holding $k=5$, $r=0$:
 
-- $p=0.6\to P_{\text{rep}}=0.6^{5}=0.07776$  
-- $p=0.8\to P_{\text{rep}}=0.32768$  
+- $p=0.6\to P_{\text{rep}}=0.6^{5}=0.07776$
+- $p=0.8\to P_{\text{rep}}=0.32768$
 - $p=0.95\to P_{\text{rep}}=0.77378$
 
 Retrieval retries substitute for per‑location skill: $P_{\text{loc}}(0.6,2)=1-0.4^{3}=0.936$, so a weaker retriever with retries ($0.936$ per location) outperforms a stronger one without ($0.8$ per location).
@@ -264,44 +264,44 @@ The results below are the numerical consequences of the closed forms in Section�
 
 ## 6. Extended Derivations and Worked Examples
 
-The token‑and‑call cost model can be expressed as a function of the screening ratio $S$, the main‑text token count $L_{\text{tok}}$, the per‑call overhead $f_{\text{oh}}$, and the retrieval‑stage total $T_{\text{total}}$ derived in Section 4.1.  
+The token‑and‑call cost model can be expressed as a function of the screening ratio $S$, the main‑text token count $L_{\text{tok}}$, the per‑call overhead $f_{\text{oh}}$, and the retrieval‑stage total $T_{\text{total}}$ derived in Section 4.1.
 \[
 C_{\text{full}}(S)=S\bigl(L_{\text{tok}}+f_{\text{oh}}\bigr)+T_{\text{total}}.
-\]  
-Using the stated inputs $L_{\text{tok}}=10\,400$, $f_{\text{oh}}=500$, $T_{\text{total}}=60\,400$, the baseline $S=10$ yields  
+\]
+Using the stated inputs $L_{\text{tok}}=10\,400$, $f_{\text{oh}}=500$, $T_{\text{total}}=60\,400$, the baseline $S=10$ yields
 \[
 C_{\text{full}}(10)=10\,(10\,400+500)+60\,400=109\,000+60\,400=169\,400\ \text{tokens},
-\]  
+\]
 exactly the figure reported in Section 4.1.  If the screening ratio is halved to $S=5$, the cost drops to $84\,500$ tokens; if $S$ is doubled to $20$, the cost rises to $254\,800$ tokens.  This linear dependence on $S$ makes the screening policy a primary lever for controlling overall budget.
 
-Redundancy in source consultation multiplies the context‑reading term of Section 4.1.  With $m$ independent sources per field, the context cost becomes $T_{\text{ctx}}=m\cdot F\cdot1000$ tokens.  The total retrieval cost without screening is therefore  
+Redundancy in source consultation multiplies the context‑reading term of Section 4.1.  With $m$ independent sources per field, the context cost becomes $T_{\text{ctx}}=m\cdot F\cdot1000$ tokens.  The total retrieval cost without screening is therefore
 \[
 T_{\text{retr}}(m)=T_{\text{total}}-25\,000+m\cdot F\cdot1000,
-\]  
-where $25\,000$ tokens is the $F=25$ baseline context term.  Substituting $F=25$ gives:  
+\]
+where $25\,000$ tokens is the $F=25$ baseline context term.  Substituting $F=25$ gives:
 
-* $m=1$: $T_{\text{retr}}=60\,400$ tokens (the original baseline).  
-* $m=3$: $T_{\text{retr}}=60\,400-25\,000+75\,000=110\,400$ tokens, matching the value in Section 4.8.  
-* $m=5$: $T_{\text{retr}}=60\,400-25\,000+125\,000=160\,400$ tokens.  
+* $m=1$: $T_{\text{retr}}=60\,400$ tokens (the original baseline).
+* $m=3$: $T_{\text{retr}}=60\,400-25\,000+75\,000=110\,400$ tokens, matching the value in Section 4.8.
+* $m=5$: $T_{\text{retr}}=60\,400-25\,000+125\,000=160\,400$ tokens.
 
 Thus each additional redundant source adds $25\,000$ tokens, a linear trade‑off between resilience and expense.
 
-The resilience analysis mirrors the Byzantine‑resilient distributed optimisation literature.  Mapping each consulted source to a worker as in [4] and [5], a majority‑vote scheme tolerates up to  
+The resilience analysis mirrors the Byzantine‑resilient distributed optimisation literature.  Mapping each consulted source to a worker as in [4] and [5], a majority‑vote scheme tolerates up to
 \[
 t_{\max}=\Bigl\lfloor\frac{m-1}{2}\Bigr\rfloor
-\]  
+\]
 corrupt sources.  For $m=5$, $t_{\max}=2$, meaning two faulty documents can be outvoted while still preserving the correct protocol field.  The token overhead for this $m$ is exactly the $T_{\text{ctx}}$ term derived above, confirming that Byzantine‑style fault tolerance is purchasable in tokens.
 
 Our five‑stage pipeline (Section 3) can be read as a structured agentic search loop: an LLM‑driven agent explores candidate protocol reconstructions, a verifier evaluates each candidate by whether the reanalysis runs and reproduces a reported result, and feedback drives refinement.  Stage $S_{3}$ (protocol extraction) plays the explore role, $S_{4}$ (reanalysis execution) implements the verifier, and the downstream $S_{5}$ aggregates successful candidates into a common searchable form.
 
-Model‑selection cost considerations from the LiveBench audit [9] and [10] provide a concrete monetary scaling.  DeepSeek V4 Pro 0813 achieves the best mathematics‑price performance at a reported $0.044$ USD per benchmark run and supports a $1\,\text{M}$‑token context window.  Assuming a benchmark run processes the full $1\,\text{M}$ tokens, the implied per‑token price is  
+Model‑selection cost considerations from the LiveBench audit [9] and [10] provide a concrete monetary scaling.  DeepSeek V4 Pro 0813 achieves the best mathematics‑price performance at a reported $0.044$ USD per benchmark run and supports a $1\,\text{M}$‑token context window.  Assuming a benchmark run processes the full $1\,\text{M}$ tokens, the implied per‑token price is
 \[
 c_{\text{token}}=\frac{0.044\ \text{USD}}{1\,000\,000}=4.4\times10^{-8}\ \text{USD/token}.
-\]  
-Applying this rate to the full retrieval cost for $S=10$ gives a monetary estimate of  
+\]
+Applying this rate to the full retrieval cost for $S=10$ gives a monetary estimate of
 \[
 \text{Cost}_{\text{USD}}=169\,400\times4.4\times10^{-8}\approx7.5\times10^{-3}\ \text{USD},
-\]  
+\]
 i.e. less than one cent per paper.  Even with redundancy $m=5$ (160 400 tokens) the cost remains under $0.01$ USD, illustrating that token‑based budgeting is financially negligible for current LLM pricing while still dominating computational planning.
 
 Finally, examining the limiting behaviour of the reproduction‑success formula $P_{\text{rep}}(k,p,r)=\bigl[1-(1-p)^{\,r+1}\bigr]^{k}$ shows that as the per‑attempt reliability $p\rightarrow1$, the per‑location success $P_{\text{loc}}\rightarrow1$ regardless of retries $r$, and consequently $P_{\text{rep}}\rightarrow1$ for any dispersal breadth $k$.  The expected number of visits per artifact $E[N]$ from Section 3.4 simplifies to $E[N]\rightarrow1$ because the geometric series collapses when $1-p\rightarrow0$.  Thus in the idealised limit of perfectly reliable locations the dispersal barrier disappears entirely, confirming that $k$ dominates only when $p$ is bounded away from 1.
@@ -312,11 +312,11 @@ The central claim of this paper is that the omics reuse barrier decomposes into 
 
 **Limitations.** The result rests on the following assumptions, each with its sensitivity:
 
-1. **Independence of artifact retrievals.** $P_{\text{rep}}=P_{\text{loc}}^{k}$ assumes failures are uncorrelated. Correlated failures would alter the effective $k$ and shift the barrier.  
-2. **Homogeneous $p$ across artifacts and locations.** Real per‑location success varies; a heterogeneous model would replace $P_{\text{loc}}^{k}$ with $\prod_i P_{\text{loc},i}$.  
-3. **Binary artifact model.** Artifacts are treated as retrieved or not; semantic difficulty and partial information are ignored.  
-4. **Token‑cost parameters.** Values for $L$, $D$, $F$, and $f_{\text{oh}}$ are assumed; different papers may exhibit substantially different token budgets.  
-5. **Information‑theoretic cardinalities.** The geometric‑mean cardinality $\bar n=10$ is an assumption; actual field cardinalities may be larger or smaller, affecting $H_0$ and $H$.  
+1. **Independence of artifact retrievals.** $P_{\text{rep}}=P_{\text{loc}}^{k}$ assumes failures are uncorrelated. Correlated failures would alter the effective $k$ and shift the barrier.
+2. **Homogeneous $p$ across artifacts and locations.** Real per‑location success varies; a heterogeneous model would replace $P_{\text{loc}}^{k}$ with $\prod_i P_{\text{loc},i}$.
+3. **Binary artifact model.** Artifacts are treated as retrieved or not; semantic difficulty and partial information are ignored.
+4. **Token‑cost parameters.** Values for $L$, $D$, $F$, and $f_{\text{oh}}$ are assumed; different papers may exhibit substantially different token budgets.
+5. **Information‑theoretic cardinalities.** The geometric‑mean cardinality $\bar n=10$ is an assumption; actual field cardinalities may be larger or smaller, affecting $H_0$ and $H$.
 6. **Redundancy factor $m$ for resilience.** The choice $m=3$ is illustrative; higher redundancy improves resilience at higher token cost.
 
 **Falsifiability.** An observation that would falsify the central claim is a systematic empirical measurement showing that, for a representative corpus of omics papers, the end‑to‑end reproduction success probability does not follow the $k$‑dependent exponential decay predicted by $P_{\text{rep}}=p^{k}$ even when per‑location success $p$ is measured directly. Such a deviation would indicate that the independence or homogeneity assumptions are violated in practice.
@@ -345,11 +345,6 @@ Future work will extend the present analytical framework to incorporate heteroge
 ## 9. Conclusion
 
 This paper turned the qualitative observation that most published omics data are functionally inaccessible for computational reuse [1] into a parameterized model with closed‑form outputs. A published study is characterized by its dispersal breadth $k$, per‑location retrieval reliability $p$, and the fraction $R$ of protocol fields the published record resolves. Under the stated assumptions ($k = 5$, $p = 0.8$), a manual reproduction succeeds with probability $0.32768$; an agent with two retries succeeds with probability $\approx$ $0.9606$ at essentially the same expected visit count ($6.20$ vs $6.25$), because retries substitute for per‑location reliability at almost no additional expected effort. The retrieval stage costs $60\,400$ tokens and $30$ calls per paper before screening, or $169\,400$ tokens at a $10\!:\!1$ screening ratio, and resilience to corrupted sources is purchasable in tokens ($110\,400$ tokens per paper at $m = 3$ sources), with any monetary conversion left as an explicitly assumed per‑token price. The information‑theoretic framing, adopting the dual Hartley/Shannon structure of [11], shows the specification space ($H_0 = 83.05$ bits at $F = 25$) is about twice what a typical paper resolves ($H \leq 41.5$ bits), which locates the binding constraint in publication practice rather than agent capability. Every number follows from the closed‑form expressions and the explicitly stated inputs; no empirical measurements are claimed. The model’s value is that it names exactly what the first measurement must record—$k$, location spread, $p$, and $R$ on a real corpus—and specifies what outcome would falsify the central claim. If those measurements confirm the parameterization, deposition policy and agent budgeting acquire concrete, optimizable targets; if they refute it, the model will have failed in a way that itself produces the field’s first quantitative picture of the reuse barrier.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.0.0 (2026-10-20, from 1.0.1): rewritten in full through the research pipeline. new sections: Extended Derivations and Worked Examples. references 12 -> 8. length 6746 -> 4455 words.
 
 ## Provenance and AI Involvement
 
