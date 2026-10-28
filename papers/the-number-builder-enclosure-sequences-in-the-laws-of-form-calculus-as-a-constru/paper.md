@@ -10,17 +10,15 @@ Engineers and scientists who require guaranteed numerical approximations—such 
 
 The contributions of this paper are:
 
-- **C1.** Definition of enclosure sequences and their interpretation as rational intervals (Section 2).  
-- **C2.** Proof of uniqueness of the limit and explicit error bound for any nested enclosure family (Proposition 1, Section 3).  
-- **C3.** Proof of closure under addition, multiplication, and reciprocal with computable width propagation (Proposition 2, Section 3).  
-- **C4.** Full arithmetic derivation of an enclosure for \(e\) with width \(\frac{1}{4320}\) (Section 4.2).  
-- **C5.** Computation of the halving schedule’s step count \(n=20\) needed for width \(<10^{-6}\) (Section 4.1).  
-- **C6.** Projection of a Machin‑type enclosure for \(\pi\) with width \(\le2.98\times10^{-8}\) after five steps (Section 4.3).  
+- **C1.** Definition of enclosure sequences and their interpretation as rational intervals (Section 2).
+- **C2.** Proof of uniqueness of the limit and explicit error bound for any nested enclosure family (Proposition 1, Section 3).
+- **C3.** Proof of closure under addition, multiplication, and reciprocal with computable width propagation (Proposition 2, Section 3).
+- **C4.** Full arithmetic derivation of an enclosure for \(e\) with width \(\frac{1}{4320}\) (Section 4.2).
+- **C5.** Computation of the halving schedule’s step count \(n=20\) needed for width \(<10^{-6}\) (Section 4.1).
+- **C6.** Projection of a Machin‑type enclosure for \(\pi\) with width \(\le2.98\times10^{-8}\) after five steps (Section 4.3).
 - **C7.** Discussion of falsifiability conditions, limitations, and a concrete next experiment (Sections 5–7).
 
 ## 2. Background and Related Work
-
-
 
 [3] investigates algorithmic constructions of capacity‑achieving codes, illustrating how constructive methods can be applied to combinatorial objects, a perspective relevant to building enclosure sequences.
 
@@ -99,7 +97,7 @@ Both schedules are expressible as finite LoF expressions with a re‑entry const
 
 ### 3.4 Propositions
 
-**Proposition 1 (Unique limit with explicit rate).**  
+**Proposition 1 (Unique limit with explicit rate).**
 Let \((a_{n},b_{n})\) be an enclosure sequence with \(w_{n}\to0\). Then there exists a unique real
 \[
 x\in\bigcap_{n}[a_{n},b_{n}],
@@ -123,16 +121,16 @@ b-a\le b_{n}-a_{n}=w_{n}\quad\forall n
 \]
 and \(w_{n}\to0\), we obtain \(a=b=:x\). For any \(n\), \(x\in[a_{n},b_{n}]\) gives the claimed bounds. \(\square\)
 
-**Proposition 2 (Closure under arithmetic).**  
+**Proposition 2 (Closure under arithmetic).**
 Let \(x\) and \(y\) have enclosure sequences with widths \(w^{(x)}_{n}\) and \(w^{(y)}_{n}\). Then
 
-- *Addition*:  
+- *Addition*:
 \[
 [x^{+}_{n},y^{+}_{n}]=[a^{(x)}_{n}+a^{(y)}_{n},\;b^{(x)}_{n}+b^{(y)}_{n}],\qquad
 w^{(x+y)}_{n}=w^{(x)}_{n}+w^{(y)}_{n}.
 \]
 
-- *Multiplication*:  
+- *Multiplication*:
 \[
 [x^{\times}_{n},y^{\times}_{n}]
 =
@@ -191,12 +189,12 @@ All numbers in this section are derived from the stated inputs; no external data
 
 ### 4.1 Halving re‑entry: step count for a target width
 
-**Inputs.**  
-- Initial width \(w_{0}=1\) (unit interval \([0,1]\)).  
-- Target width \(10^{-6}\).  
+**Inputs.**
+- Initial width \(w_{0}=1\) (unit interval \([0,1]\)).
+- Target width \(10^{-6}\).
 - Halving rule: \(w_{n}=2^{-n}w_{0}\).
 
-**Derivation.**  
+**Derivation.**
 We require
 \[
 2^{-n}<10^{-6}\quad\Longleftrightarrow\quad2^{n}>10^{6}.
@@ -221,7 +219,7 @@ w_{20}=2^{-20}
 
 Thus the halving builder reaches a \(10^{-6}\)-enclosure in **20** re‑entry steps, i.e. after transmitting **20 bits** of decision information.
 
-**Addition under halving.**  
+**Addition under halving.**
 Proposition 2 gives
 \[
 w^{(x+y)}_{n}=w^{(x)}_{n}+w^{(y)}_{n}=2^{-n}+2^{-n}=2^{-(n-1)}.
@@ -230,12 +228,12 @@ Hence the sum converges exponentially, and one extra halving step restores any t
 
 ### 4.2 Series re‑entry: a fully explicit enclosure of \(e\)
 
-**Input (standard identity).**  
+**Input (standard identity).**
 \[
 e=\sum_{k=0}^{\infty}\frac{1}{k!}.
 \]
 
-**Tail bound.**  
+**Tail bound.**
 For \(k\ge n+1\),
 \[
 k!\ge (n+1)!\,(n+2)^{\,k-(n+1)}.
@@ -250,7 +248,7 @@ R_{n}
 \]
 where the last inequality follows from \((n+1)^{2}\ge n(n+2)\), which holds for all \(n\ge1\).
 
-**Take \(n=6\).**  
+**Take \(n=6\).**
 Then
 \[
 R_{6}\le\frac{1}{6!\cdot6}
@@ -259,7 +257,7 @@ R_{6}\le\frac{1}{6!\cdot6}
 \approx2.3148\times10^{-4}.
 \]
 
-**Partial sum.**  
+**Partial sum.**
 \[
 S_{6}
 =\sum_{k=0}^{6}\frac{1}{k!}
@@ -272,7 +270,7 @@ S_{6}
 =\frac{1957}{720}.
 \]
 
-**Enclosure.**  
+**Enclosure.**
 Multiplying numerator and denominator by \(6\) yields
 \[
 \frac{1957}{720}
@@ -293,12 +291,12 @@ All arithmetic steps are shown explicitly; no external computation is invoked.
 
 ### 4.3 Projected Machin‑type enclosure for \(\pi\)
 
-**Inputs.**  
-- Initial width \(w_{0}= \tfrac{1}{4}\) (e.g., the interval \([0,\tfrac{1}{2}]\) containing \(\pi/4\)).  
-- Assumed contraction ratio per re‑entry step \(r<\tfrac{1}{25}\).  
+**Inputs.**
+- Initial width \(w_{0}= \tfrac{1}{4}\) (e.g., the interval \([0,\tfrac{1}{2}]\) containing \(\pi/4\)).
+- Assumed contraction ratio per re‑entry step \(r<\tfrac{1}{25}\).
 - Number of steps \(k=5\).
 
-**Derivation (projection).**  
+**Derivation (projection).**
 After \(k\) steps the width satisfies
 \[
 w_{k}\le w_{0}\,r^{k}
@@ -347,41 +345,37 @@ If a computable real \(x\) is exhibited for which **no** finite LoF expression w
 
 ### 6.3 Open questions
 
-- Can the guardedness condition be relaxed while preserving convergence?  
-- Is there a systematic method to translate any Type‑Two computable real into a series‑re‑entry schedule with provable contraction ratios?  
-- How does the expressive power of LoF re‑entry compare to other minimal calculi (e.g., combinatory logic) for representing computable reals?  
+- Can the guardedness condition be relaxed while preserving convergence?
+- Is there a systematic method to translate any Type‑Two computable real into a series‑re‑entry schedule with provable contraction ratios?
+- How does the expressive power of LoF re‑entry compare to other minimal calculi (e.g., combinatory logic) for representing computable reals?
 - Can the framework be extended to incorporate valuation (e.g., \(p\)-adic) axes as suggested in [10]?
 
 ## 7. Practical Implications and Engineering Pathways
 
-**(a) Intended users and impact.**  
+**(a) Intended users and impact.**
 Researchers developing exact‑real libraries, proof‑assistant developers (Lean, Coq), and formal verification engineers would use the Number Builder framework to replace heavyweight Turing‑machine encodings with compact LoF specifications. A verified Number Builder for a constant would allow a proof assistant to reason about that constant’s arithmetic properties without importing an external real‑analysis library.
 
-**(b) Technology readiness.**  
+**(b) Technology readiness.**
 The work is purely analytical, has not undergone peer review, and consists of formal derivations only. According to NASA’s Technology Readiness Level (TRL) definitions, it resides at **TRL 2** (technology concept formulated).
 
-**(c) Smallest next experiment.**  
+**(c) Smallest next experiment.**
 Implement the halving and series re‑entry schedules in a lightweight interpreter for LoF expressions (e.g., a Python prototype). The experiment would *measure* the width of the interval after each step for the \(e\) enclosure and verify that it matches the derived bound \(1/4320\). If the measured width exceeds the bound, the underlying arithmetic implementation or the schedule definition is incorrect, thereby falsifying the derived result.
 
-**(d) Engineering constraints.**  
-- **Data representation:** Rational endpoints must be stored exactly (e.g., as pairs of arbitrary‑precision integers).  
-- **Compute:** The interpreter must support guarded recursion to avoid non‑terminating unfolding.  
-- **Precision:** Arbitrary‑precision arithmetic is required to avoid rounding errors that could invalidate width calculations.  
+**(d) Engineering constraints.**
+- **Data representation:** Rational endpoints must be stored exactly (e.g., as pairs of arbitrary‑precision integers).
+- **Compute:** The interpreter must support guarded recursion to avoid non‑terminating unfolding.
+- **Precision:** Arbitrary‑precision arithmetic is required to avoid rounding errors that could invalidate width calculations.
 - **Verification:** Formal proof of the interpreter’s correctness would be needed before deployment in a proof‑assistant context.
 
-**(e) Projected cost/performance bounds.**  
+**(e) Projected cost/performance bounds.**
 Assuming an hourly rate of $150, an implementation effort of 200 person‑hours yields a projected cost of $30,000 (including developer salaries). The performance bound for the \(e\) enclosure is a single‑step width of \(2.31\times10^{-4}\); after six steps the width would be below \(3.6\times10^{-5}\), demonstrating rapid convergence.
 
-**(f) Risks and misuse.**  
+**(f) Risks and misuse.**
 A potential misuse path is the belief that a Number Builder automatically yields a *canonical* representation of a real, leading to over‑reliance on a particular enclosure schedule without verifying its convergence properties. Users must ensure that the schedule satisfies the guardedness and computable‑decay conditions before trusting the resulting interval.
 
 ## 8. Conclusion
 
 We have introduced enclosure sequences as a bridge between Spencer‑Brown’s Laws of Form and computable analysis. By formalizing the interpretation of re‑entry expressions as rational intervals, we proved uniqueness of limits (Proposition 1) and closure under the basic field operations (Proposition 2). The explicit derivations for \(e\) and the halving schedule demonstrate that concrete numerical bounds can be obtained entirely within the LoF framework. The projected Machin‑type enclosure for \(\pi\) illustrates how further analytic constants may be approached, pending verification of contraction assumptions. The Number Builder Conjecture remains open; its resolution would establish a minimal, mark‑based foundation for all computable reals and open a new avenue for formal verification of numerical mathematics.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): rewritten in full through the research pipeline. new sections: Results; Discussion; Practical Implications and Engineering Pathways; Conclusion; Provenance and AI Involvement; Appendix A. Divergence report. references 11 -> 11. length 3120 -> 3506 words.
 
 ## Provenance and AI Involvement
 

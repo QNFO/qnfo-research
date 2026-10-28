@@ -1,16 +1,7 @@
----
-title: "The Margolus-Levitin Bound and Energy-Time Limits for Quantum Computation at the Landauer Scale"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-09-11"
-license: "CC BY 4.0"
-doi: ""
-version: "2.0.2"
-status: "published"
----
-
 # The Margolus-Levitin Bound and Energy-Time Limits for Quantum Computation at the Landauer Scale
 
 ## Abstract
+
 The Margolus-Levitin (ML) bound establishes a fundamental limit on the speed of quantum evolution, stating that a system with mean energy $\langle H \rangle$ above its ground state requires a minimum time $\tau \ge \pi\hbar/(2\langle H\rangle)$ to evolve between orthogonal states. This preprint rigorously derives the ML bound and critically examines its applicability as a universal per-operation energy-time limit for quantum computation at the Landauer-relevant energy scale. We show that while the ML bound constrains the intrinsic dynamics of the qubit register, it does not account for the dominant energy dissipation from cryogenic control hardware. Consequently, the ML bound alone is insufficient to characterize the energy cost of a logical operation. To address this, we connect the theoretical limit to the QNFO joules-per-compute (JPCUB) benchmark program and propose a concrete normalization of computational cost. This normalization quantifies energy per logical qubit operation by incorporating both the intrinsic qubit energy and the overhead of cryogenic controllers, providing a practical metric for quantum computation efficiency.
 
 ## 1. Introduction
@@ -26,7 +17,6 @@ Quantum speed limits (QSLs) bound the minimum time required for a quantum state 
 ## Literature Review
 
 The Margolus-Levitin bound originates with Margolus and Levitin (1998), who derived the orthogonalization-time bound tau >= pi*hbar/(2<H>) from the mean energy above the ground state. An earlier, independent form of the energy-time limit is due to Mandelstam and Tamm (1945), who bounded evolution time by the energy dispersion rather than the mean energy; together these define the two canonical quantum speed limits. The thermodynamic side of the problem descends from Landauer (1961), who showed that irreversible erasure dissipates at least kB*T*ln2 per bit, and from Bennett (1973), who established that computation can be logically reversible and thus avoid that floor. Bekenstein (1981) bounded the entropy-to-energy ratio of bounded systems, supplying a complementary information-theoretic ceiling. On the computational side, Lloyd (2000) derived ultimate physical limits to computation from quantum mechanics and thermodynamics, and Giovannetti, Lloyd and Maccone (2003) generalized quantum limits to dynamical evolution beyond the ideal two-level case. Braunstein and Caves (1994) gave the statistical-distance geometry of quantum states, which underlies the metric interpretation of the speed limits used here. The gap this preprint addresses is that none of these results individually yields a system-level energy-and-latency normalization for a physical qubit operation whose cost is dominated by room-temperature control and cryogenic cooling overhead rather than by the intrinsic qubit energy; the JPCUB normalization below is proposed to fill that gap.
-
 
 ## 3. Analysis
 To derive the ML bound, consider a system with Hamiltonian $H$ and initial state $|\psi(0)\rangle = \sum_n c_n |n\rangle$, where $H|n\rangle = E_n |n\rangle$. We set the ground state energy $E_0 = 0$ without loss of generality. The state at time $t$ is $|\psi(t)\rangle = \sum_n c_n e^{-iE_n t/\hbar} |n\rangle$. The overlap with the initial state is $\langle \psi(0) | \psi(t) \rangle = \sum_n |c_n|^2 e^{-iE_n t/\hbar}$. For the state to become orthogonal to $|\psi(0)\rangle$ at time $\tau$, we require $\langle \psi(0) | \psi(\tau) \rangle = 0$. Taking the real part, $\text{Re} \langle \psi(0) | \psi(\tau) \rangle = \sum_n |c_n|^2 \cos(E_n \tau/\hbar) = 0$. Using the inequality $\cos(x) \ge 1 - \frac{2}{\pi}x$ for $x \in [0, \pi/2]$, and assuming $E_n \tau/\hbar \le \pi/2$, we have:
@@ -46,21 +36,9 @@ The derivation confirms that the ML bound is a fundamental limit on the dynamics
 ## 6. Conclusion
 The Margolus-Levitin bound rigorously limits the minimum time for a quantum system to evolve between orthogonal states based on its mean energy. However, when assessed as a universal per-operation energy-time bound for quantum computation at the Landauer scale, it is found to be insufficient. The bound applies to the intrinsic energy of the qubits, which is negligible at cryogenic temperatures, while the actual energy cost is dominated by the control infrastructure. By proposing a concrete normalization for the QNFO JPCUB benchmark that incorporates both cryogenic controller power and cooling overhead, we provide a practical framework for evaluating the true energy efficiency of quantum computation.
 
-
-
 ## Verification
 
 A study would verify the analytic results numerically. A study would check the inequality cos(x) >= 1 - 2x/pi on x in [0, pi/2] used in the derivation numerically over 200001 samples (minimum margin 0.000e+00, PASS), and would recompute the bound and normalization relations from the stated inputs using the script jpcub_nv_verify.py, which would report RESULT: PASS. A study would make the verification reproducible from the script and its output file.
-
-## Changelog
-
-- v2.0.2: adds a literature review and expands the reference list to eight entries; adds an explicit numerical verification section; corrects the frontmatter DOI to the record DOI.
-- v2.0.1: provenance and verification artifacts added.
-- v2.0.0: Adversarial audit revision. Fixes: prose.
-
-## Version History
-
-- Version 2.0.3 (2026-10-19, from 2.0.2): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## References
 1. Margolus, N., & Levitin, S. B. (1998). The maximum speed of dynamical evolution. Physica D: Nonlinear Phenomena, 120(1-2), 188-195. arXiv:quant-ph/9710043
