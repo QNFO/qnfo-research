@@ -1,24 +1,6 @@
----
-author: Rowan Brad Quni-Gudzinas
-email: rowan.quni@qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-modified: 2025-09-09T11:47:21Z
-title: Universe as Self-Proving Theorem
-aliases:
-  - Universe as Self-Proving Theorem
----
+# Universe as Self-Proving Theorem
 
-## Universe as Self-Proving Theorem
-
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO
-**Email**: rowan.quni@qnfo.org
-**ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062
-**URL:** https://papers.qnfo.org/papers
-**Version**: 1.0
-**Date**: 2025-09-09
+## Abstract
 
 This document establishes a **Geometric Unification Framework** positing that the universe is a self-proving theorem, where physical laws and fundamental constants emerge as necessary consequences of its inherent logical and geometric consistency. The framework employs category theory as its foundational language, precisely delineating classical and quantum realities through axiomatically distinct categorical structures. This approach demonstrates that foundational limits in logic and physics, such as the no-cloning theorem and Gödel’s incompleteness theorems, are not arbitrary constraints but unavoidable theorems derived from the universe’s intrinsic categorical architecture. The document details how spacetime, fundamental particles, and cosmological parameters are not arbitrary but are rigorously derivable from the spectral properties of geometric operators on a compact Calabi-Yau threefold manifold within a higher-dimensional Cosmic Category. This includes specific derivations for the Standard Model’s fermion generations, the resolution of the cosmological constant problem via spectral dimension flow, and the reinterpretation of quantum measurement as a functorial restriction to Boolean contexts. The framework asserts that the existence of the universe’s pre-geometric origin is a logically necessary theorem. Testable predictions are identified across quantum information science, multi-messenger astronomy, and high-energy particle physics, providing empirical falsification avenues. This rigorous synthesis redefines the cosmos not as merely described by mathematics, but as mathematics executing its own existence through an elegant, inevitable, and fundamentally unified geometric computation.
 
@@ -3189,7 +3171,3 @@ This section provides a comprehensive table of mathematical variables and expres
 | $SU(3)$                           | Special unitary group of degree 3 (gauge group of strong force)                                    | Quantum Field Theory, Standard Model                                        |
 
 ---
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
