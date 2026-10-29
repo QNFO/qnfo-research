@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-928ce9ca-6690-4a06-a537-44fecf8afceb",
+    "slug": "the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the",
+    "cycle": "cycle-406",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.40.4-codeagent",
+    "finished_at": "2026-10-29T06:43:47.874Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "06cc8a50be281ea0a786dd1dccdc4afd02bacf5508267358252ed86fb0015692",
+      "bytes": 58108,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "e51de61dc60d370a047dd28883f62f3edc9da3ba188b9959d502a6b02376d86f",
+      "bytes": 34537,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "416f993a3fe88c1bffa0e63550207e5e72c15e078a4787497c6522395bdde73d",
+      "bytes": 2833,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "b9f3aa9f1ea067ab327a1363e0f7024e1dd4fef8a0546a97099529288995b1e9",
+      "bytes": 4007,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "d8e208ae63e6eead2c075296c5464c4308f02fca0830949064a74a94c5763873",
+      "bytes": 18850,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "24394eb0e25036446563c914159bf6dbac352883c26da12b09d410be5f600096",
+      "bytes": 10876,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "2ad7b889e66e7d5b54d82b1d3c4fc8ba1dd283313214c9a64059ea91fc851cb4",
+      "bytes": 14494,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "66675ffea70124d7d3480b3e33840b5dabff513f90b2bf67ab22e1e5e8f75374",
+      "bytes": 23883,
+      "role": "draft"
+    }
+  }
+}

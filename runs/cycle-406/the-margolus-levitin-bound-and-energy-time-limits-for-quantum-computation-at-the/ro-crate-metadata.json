@@ -1,0 +1,444 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-406: The Margolus-Levitin Bound and Energy-Time Limits for Quantum Computation at the Landauer Scale",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-406",
+      "qnfo:runPath": "runs/cycle-406/the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the",
+      "qnfo:slug": "the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-29T06:43:47.874Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "The Margolus-Levitin Bound and Energy-Time Limits for Quantum Computation at the Landauer Scale",
+      "url": "https://papers.qnfo.org/papers/the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0805.4250",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0805.4250"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2004.09787",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2004.09787"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2301.10063",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2301.10063"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2305.10101",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2305.10101"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2307.16854",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2307.16854"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.23237",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.23237"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.22658",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.22658"
+    },
+    {
+      "@id": "https://doi.org/10.1038/35023282",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1038/35023282"
+    },
+    {
+      "@id": "https://doi.org/10.1103/PhysRevA.67.052109",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1103/PhysRevA.67.052109"
+    },
+    {
+      "@id": "https://doi.org/10.1103/PhysRevD.23.287",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1103/PhysRevD.23.287"
+    },
+    {
+      "@id": "https://doi.org/10.1103/PhysRevLett.72.3439",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1103/PhysRevLett.72.3439"
+    },
+    {
+      "@id": "https://doi.org/10.1147/rd.176.0525",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1147/rd.176.0525"
+    },
+    {
+      "@id": "https://doi.org/10.1147/rd.53.0183",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1147/rd.53.0183"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2199",
+      "sha256": "60d7ac0b1825ccddd2041eb2d304bd1318bc715ea4503bd41609949af66413fb",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "58108",
+      "sha256": "06cc8a50be281ea0a786dd1dccdc4afd02bacf5508267358252ed86fb0015692",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "34537",
+      "sha256": "e51de61dc60d370a047dd28883f62f3edc9da3ba188b9959d502a6b02376d86f",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2833",
+      "sha256": "416f993a3fe88c1bffa0e63550207e5e72c15e078a4787497c6522395bdde73d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4007",
+      "sha256": "b9f3aa9f1ea067ab327a1363e0f7024e1dd4fef8a0546a97099529288995b1e9",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18850",
+      "sha256": "d8e208ae63e6eead2c075296c5464c4308f02fca0830949064a74a94c5763873",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "10876",
+      "sha256": "24394eb0e25036446563c914159bf6dbac352883c26da12b09d410be5f600096",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14494",
+      "sha256": "2ad7b889e66e7d5b54d82b1d3c4fc8ba1dd283313214c9a64059ea91fc851cb4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "23883",
+      "sha256": "66675ffea70124d7d3480b3e33840b5dabff513f90b2bf67ab22e1e5e8f75374",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0805.4250"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2004.09787"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2301.10063"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2305.10101"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2307.16854"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.23237"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.22658"
+        },
+        {
+          "@id": "https://doi.org/10.1038/35023282"
+        },
+        {
+          "@id": "https://doi.org/10.1103/PhysRevA.67.052109"
+        },
+        {
+          "@id": "https://doi.org/10.1103/PhysRevD.23.287"
+        },
+        {
+          "@id": "https://doi.org/10.1103/PhysRevLett.72.3439"
+        },
+        {
+          "@id": "https://doi.org/10.1147/rd.176.0525"
+        },
+        {
+          "@id": "https://doi.org/10.1147/rd.53.0183"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-29T06:43:47.874Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
