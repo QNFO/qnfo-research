@@ -1,234 +1,229 @@
-# Implications for Computing and Quantum Error Correction: Remediation under Erratum pl-prime-valuation-qec-implications-v0.4-0
+---
+title: "Implications for Computing and Quantum Error Correction"
+author: "Quni-Gudzinas, Rowan Brad"
+orcid: "0009-0002-4317-5604"
+affiliation: "QNFO"
+date: "2026-08-14"
+version: "v0.4"
+license: "CC-BY-4.0"
+doi: ""
+status: "published"
+keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "no-cloning theorem", "branch depth", "ultrametric"]
+---
+
+**Author:** Quni-Gudzinas, Rowan Brad (QNFO)
+**ORCID:** 0009-0002-4317-5604
+**Date:** 2026-08-14
+**Version:** v0.4
+**License:** CC-BY-4.0
+**Keywords:** p-adic valuation; quantum error correction; stabilizer codes; no-cloning theorem; branch depth; ultrametric
+**Changelog:** v0.4 (2026-08-14) — post-publication audit remediation: "first reproduction attempt" withdrawn (prior corpus test ACRP-06 v1.0 + v1.1 erratum, the QNFO archive 21737222/21754148); Coecke ref year 2009→2010 (print year); Gubser–Knaute pages per Crossref (1655–1678); §6 records NTOF's omitted 187/200 (93.5%) C7.3′ figure. v0.3 (2026-08-14) — falsifiability register resolved by derivation: C7 overhead bound DISCONFIRMED (FQ2: valuation data (n,k,q)-only, d inexpressible, bound strictly weaker than Singleton), C5 complexity characterization DISCONFIRMED (FQ3: candidate identities genuine but complexity-vacuous), C6 no-cloning consequence DISCONFIRMED (FQ4: relabels Abramsky's categorical no-cloning; no new QEC consequence). Outcome derivations: artifacts/fq2-overhead-bound.md, artifacts/fq3-complexity-characterization.md, artifacts/fq4-no-cloning-consequence.md. Only C4/FQ1 (non-trivial valuation invariant) remains open. v0.2 (2026-08-13) — §6 precision patch: per-family 83% breakdown, rule-based Algorithm 4.4 reframing, first reproduction attempt documented (Mahler leg not reproduced at n ≤ 18; K–N leg blocked by under-specification), reference corrections (Gubser–Knaute; Bhattacharyya).
+
+**Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (https://papers.qnfo.org/papers/prime-valuation-depth/).
+
+---
 
 ## Abstract
 
-The published paper *Implications for Computing and Quantum Error Correction* (v0.4) applied the branch-depth reading of the p-adic valuation $v_p(n)$ to computing and quantum error correction, and registered eight claims C1–C8 with falsifiability conditions. The record under erratum is assumed to register a central empirical claim — that a rule-based Kodaira–Néron-fiber classifier assigns quantum error-correcting code families with 166/200 (83%) accuracy — and is assumed to carry two reproduction attempts that fail to support the claim at the reported sizes; this remediation takes those record contents as assumptions of the audit, not as established content of the cited work. This remediation, issued under erratum pl-prime-valuation-qec-implications-v0.4-0, verifies the arithmetic of that record and consolidates its findings. We confirm by direct computation that the per-family figures 46, 39, 45, and 36 sum to 166/200 = 83%, that the separately reported 187/200 spectral-gap figure equals 93.5%, and that the sharpest valuation-only overhead bound $n/k \ge 1$ is strictly weaker than the quantum Singleton bound $n - k \ge 2(d-1)$ for every code with $d \ge 2$. The remediated status is: five claims closed (two self-corrected or rejected, three disconfirmed), one open (existence of a non-trivial valuation invariant), and the 83% claim demoted to unverified-internal pending a re-implementation from specification; the remaining claim, C1 (the Ostrowski-established valuation definition), is established and requires no remediation. What changes in practice: no valuation-based code classifier or overhead bound should be built upon until the open invariant question is resolved and the classifier is independently reproduced against a stated baseline.
+The anchor paper introduced the *branch-depth reading*: the p-adic valuation $v_p(n)$ is a measure of depth along a prime branch of the integer factorization tree (not a measure of size), and because the tensor product multiplies Hilbert-space dimensions, $v_2(\dim H) = n$ counts tensor-branch depth for n qubits. This follow-on subjects that reading to its own stated falsifiability condition in the two domains the anchor flagged but did not pursue — computing and quantum error correction. The central finding is a *correction, not a confirmation*: the naive mapping of a $[[n,k,d]]$ stabilizer code to branch depths, $n = v_2(\dim H)$ and $k = v_2(\dim H_L)$, is **trivially true by definition** (a code is defined on n qubits encoding $2^k$ logical states) and therefore carries no new content; and the code distance d — a minimum operator *weight*, not a *depth* — does not admit a valuation reading at all. The genuinely open question is whether there exists a **non-trivial** valuation invariant of stabilizer codes beyond the definitional n and k, and it is here — not in the naive mapping — that the existing "83% classification accuracy" claim (Kodaira–Néron classifier, https://papers.qnfo.org/papers/number-theoretic-ultrametric-foundations/) lives and must be independently reproduced; two attempts now exist (this pipeline's §6 run and the sibling ACRP-06 extension with its v1.1 erratum), both failing to support the claim at the reported sizes. The structural no-cloning reading is retained but repositioned honestly: it is a known categorical result (Abramsky 2009; Coecke 2009), which the branch-depth vocabulary re-expresses rather than discovers. Every non-empirical claim below carries an explicit falsifiability condition.
 
-## 1. Introduction
+---
 
-Quantum error correction (QEC) research is in a period where every proposed shortcut matters. The overhead of protecting logical qubits — the physical-to-logical qubit ratio — is the binding constraint on scalable quantum computing, and unverified shortcuts in this space carry a real cost in misdirected reproduction effort. In that environment, a claim that a number-theoretic invariant classifies code families at 83% accuracy, if true, would give code designers a cheap, classical screening tool for code families; if false or unverified, it diverts reproduction effort and risks propagating into registry summaries as an established result. The record under remediation attaches exactly such a claim as its testable hypothesis; [2]'s published text states only the open invariant question, and the 83% figure is carried as an assumption of this audit (Section 3). We assume two reproduction attempts are attached to the claim and that they fail to support it at the reported sizes; this attribution is an assumption of this audit, and the reproduction figures it involves are carried as assumptions throughout Section 4. This erratum-driven remediation exists because that record contains arithmetic, status labels, and a falsifiability register that must be internally consistent before anyone acts on them. We take the record's quantitative figures (the per-family accuracies, the spectral-gap figure, the reproduction-corpus data, and the Golay correction) as inputs of the audited document on its own say-so, labeled as assumptions where no cited source states them.
+## 1. Introduction and Positioning
 
-The decision that changes if this remediation's result holds is concrete: a researcher deciding whether to build a code-classification pipeline on the Kodaira–Néron classifier, or to bound QEC overhead using valuation structure, should treat both as unverified or disconfirmed respectively, and should direct effort at the single remaining open question — whether a non-trivial valuation invariant of stabilizer codes exists at all. If the remediation's arithmetic were wrong — if the per-family figures did not sum to the aggregate, or if the valuation bound were not strictly weaker than the Singleton bound — the remediation itself would fail and the published statuses would need re-examination.
+### 1.1 What the anchor paper established
 
-The published paper [2] established the following starting points, which this remediation takes as given rather than re-argues. First, every positive integer is a finite product of prime powers, and $v_p(n)$ measures depth along the prime-$p$ branch of the factorization tree, not size (established, following Ostrowski 1916). Second, the tensor product multiplies Hilbert-space dimensions, so for $n$ qubits $\dim H = 2^n$ and $v_2(\dim H) = n$; the no-cloning theorem is the impossibility of a linear diagonal map. Third, the paper's own falsifiability machinery was applied to its two flagged domains, computing and QEC, and returned largely negative verdicts: the $[[n,k,d]]$ parameter mapping is definitional for $n$ and $k$ and unavailable for $d$; three derived consequences (overhead bound, complexity characterization, no-cloning re-expression) were each disconfirmed; and the 83% classification claim survived only as an unverified internal figure with two failed reproduction attempts attached.
+*Prime Valuation Depth* developed three claims, each with a stated falsifiability condition:
 
-This remediation contributes:
+1. **[TERRITORY — established, Ostrowski 1916]** Every positive integer is a finite product of prime powers; $v_p(n)$ is depth along the prime-p branch, not size.
+2. **[MAP — interpretive]** The valuation-as-depth reading is a bridge between the calculus of indications (branching distinctions) and number theory (the prime divisor tree).
+3. **[MAP — interpretive]** The tensor product multiplies dimensions, so prime factorization of dim H labels branch types and $v_p(\dim H)$ counts branch depth; the no-cloning theorem is then the impossibility of a linear diagonal map — cloning is nonlinear in the amplitudes, and quantum evolution preserves only linear structure.
 
-- A full arithmetic verification of the published record's quantitative claims: the per-family accuracy sum (166/200 = 83%), the spectral-gap figure (187/200 = 93.5%), the claimed versus observed Mahler spectral gaps, and the Golay correction factor (Section 4).
-- A derivation, with shown arithmetic, that the sharpest valuation-only overhead bound $n/k \ge 1$ is strictly weaker than the quantum Singleton bound for every stabilizer code with $d \ge 2$, confirming the published FQ2 disconfirmation (Section 4).
-- A consolidated status table for claims C1–C8 in which every status is either arithmetic, definitional, or explicitly labeled unverified, with the empirical 83% claim carried as unverified-internal and its reproduction requirement restated (Sections 3 and 5).
-- A remediated statement of the single open question and the concrete reproduction protocol that would resolve it, including baselines and leakage controls (Section 7).
+### 1.2 The honest starting point of this paper
 
-## 2. Background and Related Work
+The anchor paper labels its own quantum reading as "interpretive rather than new physics" and attaches the falsifiability condition: *disconfirmed if the reading yields no explanatory or predictive content beyond the standard formalism — i.e., if it is pure relabeling.* This follow-on takes that condition seriously and applies it to the two domains the anchor flagged for later work. The result, reported here without flinching, is that **the most obvious extension — reading $[[n,k,d]]$ parameters as valuations — is largely pure relabeling.** This is not a failure of the program; it is the falsifiability machinery doing its job, and it sharpens the question to the one place where the branch-depth vocabulary could carry real weight.
 
+### 1.3 External precedent (confirmation-bias correction)
 
+The anchor's quantum reading does not occur in a vacuum. The categorical content — that quantum processes form a compact-closed (monoidal but non-Cartesian) category, and that no-cloning follows from this — is established in the categorical quantum mechanics literature [Abramsky & Coecke 2004; Abramsky 2009; Coecke 2009; Coecke & Duncan 2011]. Independently, the connection between p-adic geometry and quantum error-correcting codes is established in the holographic tensor-network literature [Heydeman, Marcolli, Saberi & Stoica 2018; Bhattacharyya, Hung, Lei & Li 2018; Gubser & Knaute 2017]. The present paper does not claim priority on either bridge; its narrow contribution is the specific *branch-depth vocabulary* (valuation as depth, in the calculus-of-indications sense) applied to code parameters, and its consequence for how QEC limits are framed.
 
-The paper under remediation [2] is the primary object. Its full text establishes the branch-depth reading — each prime $p_i$ in $n = \prod p_i^{a_i}$ is a branch type and $a_i = v_{p_i}(n)$ is the depth of nesting along that branch — and applies the anchor paper's falsifiability condition ("disconfirmed if the reading yields no explanatory or predictive content beyond the standard formalism — i.e., if it is pure relabeling") to the $[[n,k,d]]$ mapping. Its conclusion states the negative result in the paper's own terms: the parameter mapping is definitional for $n$ and $k$, unavailable for $d$, and the three falsifiable consequences (overhead bound FQ2, complexity characterization FQ3, no-cloning re-expression FQ4) are each disconfirmed, leaving the open question of a non-trivial valuation invariant; the 83% classification figure is carried in this remediation as an assumption about the record under audit, not as content of [2]'s published text. This remediation verifies that record's arithmetic and consolidates its statuses; it adds no new physics claim.
+---
 
-On precedent, [2]'s own text locates the no-cloning content in the categorical quantum-mechanics literature and the p-adic–QEC connection in the holographic tensor-network literature, and cites both as established background rather than as results it derives. This remediation therefore relies on no specific finding from either literature: what it audits is [2]'s register, arithmetic and reproduction records, all of which are internal to [2]. The related-work treatment here is limited, and this limitation is restated in Section 6: no status label in the remediated register of Section 5 depends on any work outside [1] and [2], an assumption of this remediation rather than a finding verified from other texts.
+## 2. The Branch-Depth Reading, Restated
 
-The failure mode at issue — a valuation vocabulary attached to a claim whose substance lives entirely in standard stabilizer-code theory — is the one [2] self-reports for its own QEC extension, and this remediation follows the same discipline in refusing to rescue the disconfirmed claims.
+Let $n \in \mathbb{Z}^+$ factor as $n = \prod p_i^{a_i}$. The anchor's reading: each prime $p_i$ is a *branch type*, and the exponent $a_i = v_{p_i}(n)$ is the *depth* of nesting along that branch. A tensor product of Hilbert spaces multiplies dimensions: $\dim(H_1 \otimes H_2) = \dim(H_1)\cdot\dim(H_2)$. Hence for n qubits, $\dim H = 2^n$ and
 
+$$v_2(\dim H) = n.$$
 
+This is the single quantitative bridge the anchor supplies. The question this paper asks is: **what does it buy us?**
 
+---
 
+## 3. The [[n,k,d]] Mapping — and Why It Is Mostly Relabeling
 
-Finally, the topological-index paper [1] supplies a structural precedent from mathematical chemistry for the depth-versus-size distinction that underlies the whole branch-depth program. [1] studies degree-based topological indices on trees with a fixed number of pendent vertices: the first Zagreb index $M_1(G) = \sum_{v \in V(G)} d_G(v)^2$ and the second $M_2(G) = \sum_{uv \in E(G)} d_G(u)\, d_G(v)$. Its Theorem 1 proves $M_1(T) \ge 9n - 16$ for a tree with $n \ge 2$ pendent vertices when $n$ is even, with equality at a 4-tree (all internal vertices of degree 4), and $M_1(T) \ge 9n - 15$ when $n$ is odd; its Theorem 3 proves $M_2(T) \ge 11n - 27$ for $n \ge 8$ pendent vertices, with equality when each stem vertex has degree 4 or 5 and other internal vertices degree 3. The relevance is methodological: [1] shows how a tree-structural quantity (here, degree sums conditioned on pendent-vertex count) admits sharp bounds that depend on shape, not merely on the number of vertices. This is exactly the kind of result the open question C4 of [2] demands from valuation invariants of codes: a bound or classifier that depends on branch structure rather than on the definitional exponents $n$ and $k$. Further, [1]'s extremal-graph framework (fix a structural parameter, bound the index, characterize the extremal object) is a template for what a positive answer to C4 would look like.
+### 3.1 The definitional facts
 
-## 3. Methods
+A $[[n,k,d]]$ stabilizer code is a $2^k$-dimensional subspace (the codespace) of an n-qubit Hilbert space $H \cong (\mathbb{C}^2)^{\otimes n}$, with $\dim H = 2^n$. Two identities follow immediately:
 
-This remediation is a document-level arithmetic and logical audit of the published paper [2], performed under the erratum pl-prime-valuation-qec-implications-v0.4-0. It performs no experiment, no simulation, no survey, and no new computation on code data; every empirical figure it handles is attributed to [2] or to the internal reports [2] records.
+$$n = v_2(\dim H) = v_2(2^n) = n,$$
+$$k = v_2(\dim H_L) = v_2(2^k) = k.$$
 
-The method has four steps.
+**Claim [MAP — to be tested]:** these identities constitute a "branch-depth reading" of the code parameters.
 
-**Step 1: Claim inventory.** We assume the record under remediation registers eight claims C1–C8 in a falsifiability register; these are extracted verbatim with their types and statuses as assumed record content. No claim is added, merged, or renumbered, so that the remediated register remains row-compatible with the published one.
+**Finding [SELF-CORRECTION]:** the identities are *definitional*. n is the number of qubits *by construction*, and k is the number of logical qubits *by construction*. Restating them as $v_2$ of a dimension adds nothing: the valuation is doing no work that the exponent of 2 in "$2^n$" and "$2^k$" was not already doing. This is the anchor's own falsifiability condition, triggered: **the n and k mappings are pure relabeling.**
 
-**Step 2: Arithmetic verification.** Every quantitative statement in [2] that can be checked by arithmetic on figures [2] itself states is recomputed with all steps shown in Section 4. This covers: the aggregate classification accuracy and its per-family decomposition; the separately reported spectral-gap verification figure; the claimed versus observed Mahler spectral separations; the Golay correction; and the comparison between the valuation-only overhead bound and the quantum Singleton bound.
+### 3.2 The distance d does not have a valuation reading
 
-**Step 3: Status consolidation.** Each claim's published status is checked for consistency with the arithmetic of Step 2 and with the logical structure of [2]'s own falsifiability conditions. A status is confirmed if the published derivation or arithmetic supports it; a status is carried as unverified if [2] itself labels it so. Where the published record contains an internal inconsistency (for example, a figure omitted from one section but present in another), the remediation states the reconciliation explicitly.
+The code distance d is the minimum weight (number of non-identity Pauli factors) of a non-trivial logical operator. It is a **Hamming weight** — a count of tensor factors an error touches — not a p-adic depth. There is no integer whose valuation yields d in the way $2^n$ yields n. The tempting phrase "d = branch-crossing error weight" is a metaphor, not a valuation identity, and must not be presented as mathematics. **[Falsifiability condition: disconfirmed if any specific valuation identity for d is claimed; d is a weight, and the burden of proof for any valuation-based bound on d is on the claimer.]**
 
-**Step 4: Remediated register and pathway.** The consolidated register (Section 5) and the reproduction pathway (Section 7) are written so that each remaining open item carries a concrete, falsifiable test with stated baselines.
+### 3.3 What is left after the relabeling is stripped away
 
-Assumptions made by this remediation: we assume the four code families named in the audited record (surface, CSS, optimal, random) are the complete family set of the 200-code test corpus, since the per-family figures the record reports sum exactly to the aggregate only under that assumption (verified in Section 4). We assume the quantum Singleton bound $n - k \ge 2(d-1)$ holds for all stabilizer codes considered, as the audited record treats it as the comparison standard. We assume the reported reproduction-attempt figures (55 codes, observed values) are as the audited record states them; this remediation does not re-run them.
+Stripping the definitional n and k mappings and the unavailable d mapping leaves a single, precise, and genuinely open question:
 
-## 4. Analysis
+> **Does there exist a non-trivial valuation invariant of a stabilizer code — one not equal to $v_2(\dim H)$ or $v_2(\dim H_L)$ — that carries classification or predictive power across code families?**
 
-All inputs in this section come from [2] unless marked as an assumption. Every computation is shown step by step.
+This is where the existing internal result attaches.
 
-### 4.1 The aggregate classification accuracy and its per-family decomposition
+---
 
-We assume the audited record reports per-family correct assignments on 50 test codes per family: Surface 46/50, CSS 39/50, Optimal 45/50, Random 36/50, and an aggregate claim of 166/200 (83%). These figures are assumptions of this remediation under the convention fixed in Section 3.
+## 4. Computing as Path-Tracing: A Scoped, Falsifiable Claim
 
-**Computation D1 (per-family sum):**
-$$46 + 39 = 85,$$
-$$85 + 45 = 130,$$
-$$130 + 36 = 166.$$
-The per-family figures sum to exactly 166, matching the published aggregate numerator.
+The anchor's computing leg was left as a flagged direction. The honest scope is narrow:
 
-**Computation D2 (aggregate rate):**
-$$\frac{166}{200} = 0.83.$$
-So the published 83% figure is arithmetically consistent with its per-family decomposition, under the assumption (Section 3) that these four families are the complete corpus.
+**Claim [MAP — interpretive, scoped]:** reversible classical computation and Clifford quantum computation are *path-tracing through a branching state space*, and the p-adic valuation is the natural depth coordinate on that tree, in the specific sense that the Hensel-code arithmetic of exact rational computation [cf. the p-adic arithmetic literature] is computation *on* the branch tree.
 
-**Computation D3 (family rates):**
-$$\frac{46}{50} = 0.92, \qquad \frac{39}{50} = 0.78, \qquad \frac{45}{50} = 0.90, \qquad \frac{36}{50} = 0.72.$$
-These reproduce [2]'s stated per-family percentages (92%, 78%, 90%, 72%).
+**Falsifiability condition:** disconfirmed if no computational task can be shown to have a *valuation-based* complexity characterization that differs from (or tightens) its standard characterization. The claim is advanced only as a research program, not as an established result. **[CONTESTED] — no such characterization has yet been produced; this section is explicitly promissory.]**
 
-**Computation D4 (chance and majority baselines):** with four families of 50 codes each, a random uniform assignment assigns each code correctly with probability $1/4$:
-$$\frac{1}{4} = 0.25,$$
-giving an expected $0.25 \times 200 = 50$ correct assignments. The majority-class baseline (always predicting the largest family) also yields $50/200 = 0.25$, since all families have equal size 50. The published 83% therefore exceeds both baselines by $0.83 - 0.25 = 0.58$, i.e., 58 percentage points. This margin is the quantity any reproduction must exceed by a pre-registered margin; the arithmetic here only establishes what the baselines are, not that the 83% is reproducible.
+---
 
-### 4.2 The spectral-gap verification figure
+## 5. Structural No-Cloning and the Necessity of QEC
 
-**Input (assumed):** we assume the audited record reports a C7.3′ spectral-gap verification figure of 187/200 (93.5%); this figure is an assumption of this remediation.
+### 5.1 The honest attribution
 
-**Computation D5:**
-$$\frac{187}{200} = 0.935.$$
-The published percentage is arithmetically correct. We assume the v0.4 changelog of the audited record flags this internal tension: 187/200 = 93.5% for the spectral-gap leg coexists with the failed Mahler-leg reproduction at $n \le 18$ and the aggregate 83% for the classification leg. These are three different quantities (spectral-gap verification, Mahler separation at small $n$, full classification accuracy), and the remediated register in Section 5 keeps them distinct.
+The claim "cloning would require a nonlinear diagonal map, and quantum evolution preserves only linear structure" is a known categorical result. In the categorical quantum mechanics framework, a compact-closed category is **non-Cartesian**: the monoidal product $\otimes$ is not a categorical product, so there is no natural diagonal $\Delta: A \to A \otimes A$ that is linear (a morphism in the category). No-cloning is the physical statement of the absence of this linear diagonal [Abramsky 2009; Coecke 2009]. The anchor paper's contribution is the *vocabulary* — expressing the same fact as "multiplicative branching cannot be linearly duplicated" — not the *result*.
 
-### 4.3 The definitional identities and the unavailable distance mapping
+**Claim [MAP — re-expression]:** the branch-depth vocabulary re-expresses no-cloning as: *a branch (tensor factor) cannot be duplicated by a linear process, so redundancy — the resource QEC consumes — must be carried in non-orthogonal (entangled) configurations, never in clones.*
 
-**Computation D6 (definitional identities):** for an $[[n,k,d]]$ stabilizer code on $n$ qubits, $\dim H = 2^n$ and $\dim H_L = 2^k$. Since $2^n$ is a power of 2,
-$$v_2(2^n) = n, \qquad v_2(2^k) = k.$$
-These hold by the definition of the $p$-adic valuation on prime powers; no property of the code beyond its dimensions is used. This confirms [2]'s finding that the $n$ and $k$ mappings are definitional (claim C2, self-corrected).
+**Falsifiability condition:** disconfirmed if this re-expression cannot be shown to yield at least one new, checkable consequence for QEC limits that the standard no-cloning statement does not already imply. **[Risk: HIGH — this is the relabeling risk again, and it is flagged as such.]**
 
-**Computation D7 (distance has no valuation reading):** the distance $d$ is the minimum Hamming weight of a non-trivial logical operator — a count of tensor factors touched. There is no integer $m$ with $v_p(m) = d$ arising from the code's dimension data: $\dim H = 2^n$ and $\dim H_L = 2^k$ determine only $n$ and $k$, and $d$ is independent of both in general (codes with the same $n, k$ can have different $d$). This confirms claim C3's rejection.
+### 5.2 The one place the framing could bite
 
-### 4.4 The valuation-only overhead bound versus the quantum Singleton bound
+A candidate consequence, stated as a falsifiable hypothesis: **if redundancy is non-cloneable, then the overhead (physical-to-logical qubit ratio) of a QEC code is bounded below by a function of the code's own valuation structure.** Whether this bound is tighter than, equivalent to, or weaker than the quantum Singleton bound $n - k \ge 2(d-1)$ is the test. **[RESOLVED — DISCONFIRMED (FQ2, 2026-08-14): the bound has been derived and is strictly weaker than Singleton. The valuation data of a $[[n,k,d]]$ code — $v_2(\dim H)$, $v_2(\dim H_L)$, $v_2(\|S\|)$ — reduce to functions of (n, k, q) only; the Singleton input d is a Hamming weight with no valuation reading (C3, rejected); the sharpest valuation-only bound is $n/k \ge 1$, strictly weaker than Singleton's $n/k \ge n/(n-2(d-1))$ for every code with $d \ge 2$ (378/378 codes in scan). Full derivation: artifacts/fq2-overhead-bound.md.]**
 
-**Inputs (assumed, per the audited record's FQ2 resolution):** we assume the valuation data of a $[[n,k,d]]$ code — $v_2(\dim H) = n$, $v_2(\dim H_L) = k$, and $v_2(\|S\|)$ where $\|S\|$ is the stabilizer group order — reduce to functions of $(n, k, q)$ only, where $q = 2^{n-k}$ is the stabilizer group order for a code with $\|S\| = 2^{n-k}$. The sharpest valuation-only overhead bound is $n/k \ge 1$. The comparison standard is the quantum Singleton bound $n - k \ge 2(d-1)$.
+---
 
-**Computation D8 (the valuation bound is trivial):** since a codespace of dimension $2^k$ lives inside a Hilbert space of dimension $2^n$, and a subspace cannot exceed the ambient space,
-$$2^k \le 2^n \implies k \le n \implies \frac{n}{k} \ge 1.$$
-Equality holds exactly when $k = n$, i.e., the trivial code with no protection. This is the bound [2] reports, and the derivation shows it uses nothing but subspace inclusion, with no valuation content beyond the definitional exponents.
+## 6. The 83% Classification Claim: Status and Reproduction Requirement
 
-**Computation D9 (Singleton in ratio form):** from $n - k \ge 2(d-1)$ with $k \ge 1$ and $d \ge 2$:
-$$k \le n - 2(d-1) \implies \frac{n}{k} \ge \frac{n}{\,n - 2(d-1)\,}.$$
-The denominator is positive: $n - 2(d-1) \ge k \ge 1$ by the Singleton bound itself. And the ratio is strictly greater than 1 whenever $d \ge 2$:
-$$\frac{n}{\,n - 2(d-1)\,} > 1 \iff n > n - 2(d-1) \iff 2(d-1) > 0 \iff d > 1.$$
-So for every stabilizer code with $d \ge 2$, the Singleton bound forces $n/k \ge n/(n - 2(d-1)) > 1$, strictly stronger than the valuation-only bound $n/k \ge 1$. This confirms FQ2's disconfirmation: the valuation-based overhead bound is strictly weaker than Singleton for every non-trivial code.
+A prior internal report (NTOF, https://papers.qnfo.org/papers/number-theoretic-ultrametric-foundations/) claims that a **rule-based** Kodaira–Néron-fiber
+classifier (Algorithm 4.4: binary symplectic form H → Cox ring R_C → Weierstrass coefficients →
+degenerate loci → fiber type) assigns code families with **166/200 (83%)** correct on 50 test codes
+per family: Surface 46/50 (92%), CSS 39/50 (78%), Optimal 45/50 (90%), Random 36/50 (72%), with
+Mahler $v_p^{max} = 28$ for optimal versus $v_p^{max} = 4$ for random ensembles. The source itself records
+a documented partial failure — "FAIL for surface codes (systematic mismatch in the I_n*
+classification boundaries)" — so the aggregate 83% conceals a known per-family defect. The NTOF
+record ships no dataset, no implementation, and no baseline; the classifier is deterministic
+rule-based, not a learned ML classifier. A program-registry summary's phrase "p-adic valuations
+classify QEC codes at 83% accuracy" is therefore a compressed (and partially misleading)
+rendering of this state of affairs.
 
-**Worked example (assumed, from the audited record's test corpus):** the Steane code $[[7,1,3]]$:
-$$\text{Singleton: } 7 - 1 = 6 \ge 2(3-1) = 4 \quad \checkmark$$
-$$\text{Singleton ratio: } \frac{7}{7 - 4} = \frac{7}{3} \approx 2.3333,$$
-$$\text{Valuation bound: } \frac{7}{1} = 7 \ge 1 \quad \text{(trivially satisfied, no constraint beyond } k \le n\text{)}.$$
-The Singleton ratio lower bound of $7/3$ is informative (it excludes, e.g., a hypothetical $[[7,4,3]]$ code, since $7 - 4 = 3 < 4$; a $[[7,3,3]]$ code saturates the bound, since $7 - 3 = 4 = 2(3-1)$). The valuation bound excludes nothing beyond $k \le n$. The comparison is decisive at the level of principle, not just this example.
+**Status [UNVERIFIED-INTERNAL]:** this is an internal report. It has not, to this author's knowledge, been independently reproduced on a fresh, held-out test set with a stated leakage-control protocol. Until it is, the 83% figure is a claim to be tested, not a result to be built upon.
 
-### 4.5 The Mahler spectral separation: claimed versus observed
+**This pipeline's first reproduction attempt (2026-08-13, P4.2) — not the corpus's first:** the Mahler
+spectral leg ($C7.3'$) was independently implemented and run on 55 verified codes (CSS
+$[[7,1,3]]$, $[[15,7,3]]$; toric surface L=2,3; optimal $[[5,1,3]]$; 50 random $[[10,4]]$). The
+claimed separation ($v_p^{max}$ optimal ~ 28 vs random ~ 4, gap >= 10) did **not** reproduce
+at $n \le 18$ under the weight-enumerator Mahler normalization: observed optimal 4, random
+median 3 (max 6, which exceeds optimal). Two source under-specifications block a decisive
+test: the Mahler target function is undefined in NTOF, and Algorithm 4.4's Cox-ring ideal
+$I_C$ is unspecified. See the reproduction report in the companion artifacts. C8 remains
+[UNVERIFIED-INTERNAL] pending source clarification.
 
-**Inputs (assumed, as the record under audit states):** the record claims Mahler $v_p^{\max} = 28$ for optimal versus $v_p^{\max} = 4$ for random ensembles, with claimed gap $\ge 10$. We assume, as the record reports, a reproduction attempt (P4.2) on 55 verified codes at $n \le 18$ observed optimal $v_p^{\max} = 4$, random median 3, random maximum 6.
+**Prior-art correction (2026-08-14):** the v0.2 text called this the "first reproduction
+attempt"; it was not. Sibling project ACRP-06 (the QNFO archive 21737222 v1.0, 2026-08-01) tested
+$C7.3'$ on 8 additional families, initially confirmed $v_p^{max}=28$ on Golay-type self-dual
+codes, then issued an erratum (v1.1, 21754148, 2026-08-02) correcting Golay $v_p^{max}$ from
+28 to 2/4. The 28 has now failed two independent reproductions plus an erratum chain, and the
+"first attempt" wording is withdrawn. NTOF's own text ("up to n=64 qubit codes") also removes
+the n≤18 size premise that anchored an earlier impossibility argument in the companion
+reproduction report. The source also reports a C7.3' spectral-gap verification figure of
+187/200 (93.5%) that v0.2 §6 did not mention; it is recorded here for completeness.
 
-**Computation D10 (claimed gap):**
-$$28 - 4 = 24,$$
-which satisfies the claimed gap $\ge 10$ with margin $24 - 10 = 14$.
+**Reproduction requirement (this paper's P4 critical path):** because the classifier is
+rule-based and the source ships no implementation, the reproduction is a **re-implementation from
+specification** (Algorithm 4.4) plus **fresh code-family generation** (50 per family; surface, CSS,
+optimal, random) with (i) a stated generation protocol and seeds, (ii) an independent computation
+of the $v_p$-spectral invariant, (iii) baselines (majority-class and random-assignment) reported
+alongside, and (iv) the source's documented surface-code boundary defect tested explicitly.
+Full protocol: companion artifacts. Success is reproduction *within stated
+confidence* (pre-registered acceptance criteria); failure is reported honestly either way.
 
-**Computation D11 (observed gap at $n \le 18$):**
-$$\text{optimal} - \text{random median} = 4 - 3 = 1,$$
-$$\text{random max} - \text{optimal} = 6 - 4 = 2.$$
-The observed ordering is inverted relative to the claim: the random ensemble's maximum exceeds the optimal ensemble's maximum by 2. The claimed separation (gap 24) and the observed separation (gap $-2$, i.e., inverted by 2) differ by $24 - (-2) = 26$ in the signed gap. The reproduction therefore fails to support the claim at the reported sizes, as the audited record states.
+**Falsifiability condition:** the "83% accuracy" claim is disconfirmed if independent reproduction fails to exceed a stated baseline by a pre-registered margin. **[Status: first reproduction attempt executed (P4.2, 2026-08-13) did not reproduce the claimed spectral separation at $n \le 18$; the decisive test remains blocked by source under-specification. This is disclosed, not hidden.]**
 
-**Computation D12 (size-premise check):** we assume the claimed regime extends to $n = 64$ qubit codes and that the reproduction ran at $n \le 18$; both figures are assumptions of this remediation. The size ratio is
-$$\frac{64}{18} \approx 3.5556.$$
-The failed reproduction therefore does not cover the claimed regime's upper range; under these assumptions, the $n \le 18$ result removes the size premise of an earlier impossibility argument but does not constitute a decisive test of the claim at $n$ up to 64. We assume the decisive test is blocked by two under-specifications of the source: the Mahler target function is undefined, and the Cox-ring ideal $I_C$ of Algorithm 4.4 is unspecified; both are assumptions of this remediation.
+---
 
-### 4.6 The Golay correction
+## 7. Complete Falsifiability Register
 
-**Inputs (assumed):** we assume the record under remediation states that ACRP-06 initially confirmed $v_p^{\max} = 28$ on Golay-type self-dual codes and then issued an erratum (v1.1) correcting Golay $v_p^{\max}$ from 28 to 2/4; this correction chain is an assumption of this remediation, not content stated in [2]'s published text.
+| # | Claim | Type | Falsifiability condition | Current status |
+|:--|:------|:-----|:--------------------------|:---------------|
+| C1 | $v_p(n)$ is depth along a prime branch | established (Ostrowski) | — | established |
+| C2 | $n = v_2(\dim H)$, $k = v_2(\dim H_L)$ is a "branch-depth reading" of $[[n,k,d]]$ | MAP | disconfirmed (pure relabeling) | **SELF-CORRECTED** |
+| C3 | d admits a valuation reading | MAP | no valuation identity exists | **REJECTED** |
+| C4 | a non-trivial valuation invariant of codes exists | open question | no such invariant found ⇒ program fails | OPEN |
+| C5 | computing = path-tracing, with valuation-based complexity content | MAP | no valuation-based complexity characterization produced | **DISCONFIRMED** (FQ3, 2026-08-14 — candidate identities genuine but complexity-vacuous; artifacts/fq3-complexity-characterization.md) |
+| C6 | no-cloning re-expressed as non-cloneable redundancy | re-expression | no new checkable consequence ⇒ relabeling | **DISCONFIRMED** (FQ4, 2026-08-14 — relabels Abramsky's categorical no-cloning; no new QEC consequence; artifacts/fq4-no-cloning-consequence.md) |
+| C7 | overhead bounded by valuation structure | hypothesis | compare to Singleton bound | **DISCONFIRMED** (FQ2, 2026-08-14 — valuation data (n,k,q)-only, d inexpressible, bound strictly weaker than Singleton; artifacts/fq2-overhead-bound.md) |
+| C8 | Kodaira–Néron classifier is 83% accurate | empirical (internal) | independent reproduction vs baseline; first attempt (P4.2) not reproduced at $n \le 18$ | UNVERIFIED-INTERNAL |
 
-**Computation D13 (overstatement factor):**
-$$\frac{28}{4} = 7, \qquad \frac{28}{2} = 14.$$
-The initially reported value overstated the corrected value by a factor of 7 to 14, depending on which corrected value (4 or 2) applies. With the correction, the assumed Golay figure no longer supports a large spectral gap; under this assumption, the value 28 has failed two independent reproductions plus an erratum chain on the assumed record.
+---
 
-### 4.7 Reproduction corpus size
+## 8. Relation to Prior Work (External)
 
-**Input (assumed, as the record under audit states):** the record reports a reproduction attempt on 55 verified codes: CSS $[[7,1,3]]$ and $[[15,7,3]]$ (2 codes), toric surface $L = 2, 3$ (2 codes), optimal $[[5,1,3]]$ (1 code), and 50 random $[[10,4]]$ codes. We assume this corpus composition as the audited record reports it.
+- **Categorical QM / no-cloning:** Abramsky & Coecke (2004) *A categorical semantics of quantum protocols*; Abramsky (2009) *No-Cloning in Categorical Quantum Mechanics*; Coecke (2009) *Quantum Pictorialism*; Coecke & Duncan (2011) *Interacting Quantum Observables*. The no-cloning content of §5 is theirs; this paper adds only vocabulary.
+- **p-adic holographic QEC:** Heydeman, Marcolli, Saberi & Stoica (2018) *Tensor networks, p-adic fields, and algebraic curves* (ATMP 22:93); Bhattacharyya, Hung, Lei & Li (2018) *Tensor network and (p-adic) AdS/CFT* (JHEP 2018(1):139, DOI 10.1007/jhep01(2018)139); Gubser & Knaute (2017) *A p-adic version of AdS/CFT* (ATMP 21(7):1655–1678, DOI 10.4310/atmp.2017.v21.n7.a3). The p-adic/QEC connection is theirs; this paper's branch-depth framing is a distinct, narrower lens.
+- **Stabilizer methods:** Bravyi, Browne, Calpin, Campbell, Gosset & Howard (2019) *Simulation of quantum circuits by low-rank stabilizer decompositions* — the working background for §3–§4.
 
-$$\text{CSS } [[7,1,3]] \text{ and } [[15,7,3]] \text{ (2 codes)}, \qquad \text{toric surface } L = 2, 3 \text{ (2 codes)},$$
-$$\text{optimal } [[5,1,3]] \text{ (1 code)}, \qquad \text{random } [[10,4]] \text{ (50 codes)}.$$
+**Relation to the internal corpus:** the p-adic QEC space is densely worked internally (see the due-diligence appendix for the DOI list). This paper's narrow differentiation is the branch-depth vocabulary and the self-correction of §3, which the existing corpus (which treats valuation as a *classifier weight*, not a *depth*) does not perform.
 
-**Computation D14 (corpus composition):**
-$$2 + 2 + 1 + 50 = 55.$$
-The corpus sums to 55 as reported. Its composition is heavily skewed toward the random family: the random codes constitute
-$$\frac{50}{55} \approx 0.9091,$$
-i.e., about 90.9% of the reproduction corpus, while the structured families (CSS, toric surface, optimal) together contribute only 5 codes. This composition matters for interpreting the failed Mahler-leg reproduction: the observed optimal-versus-random comparison rests on a single optimal code ($[[5,1,3]]$) against 50 random codes, so the observed inversion (random maximum 6 exceeding optimal 4) is a comparison of one structured code against an ensemble, not a family-level spectral comparison at matched corpus depth. Any decisive re-test must generate structured families at the corpus scale the claim itself invokes (up to $n = 64$), not at the 5-code scale the reproduction could reach.
+---
 
-### 4.8 Consolidated arithmetic status
+## 9. Conclusion
 
-The computations D1–D14 establish: (i) the aggregate 166/200 = 83% and the per-family rates are internally consistent (D1–D3); (ii) the baselines any reproduction must beat are 25% (D4); (iii) the 187/200 = 93.5% spectral-gap figure is arithmetically correct but measures a different quantity than the classification accuracy (D5); (iv) the $n$ and $k$ valuation mappings are definitional and the $d$ mapping is unavailable (D6–D7); (v) the valuation-only overhead bound $n/k \ge 1$ is strictly weaker than the quantum Singleton bound for every $d \ge 2$ (D8–D9); (vi) the claimed Mahler separation (gap 24) is inverted at $n \le 18$ (signed gap $-2$), a discrepancy of 26 in the signed gap (D10–D11); (vii) the reproduction covers only a $64/18 \approx 3.5556$ fraction shortfall of the claimed size regime (D12); (viii) the Golay figure was overstated by a factor of 7 to 14 before correction (D13); and (ix) the reproduction corpus is 90.9% random codes (D14). Every status label in the remediated register of Section 5 rests on one of these computations or on [2]'s own explicit labeling.
+The branch-depth reading, applied honestly to computing and quantum error correction, yields a **negative result and a sharpened open question**. The negative result: the obvious extension — reading $[[n,k,d]]$ parameters as valuations — is definitional for n and k and unavailable for d; it is, in the anchor's own terms, pure relabeling, and this paper says so rather than papering over it. The three falsifiable consequences of the reading have now been derived and each is **disconfirmed**: the valuation-based overhead bound is strictly weaker than the quantum Singleton bound (FQ2), the valuation-based complexity characterization is complexity-vacuous (FQ3), and the no-cloning re-expression yields no new checkable consequence beyond the standard categorical result (FQ4). What remains is the single precise open question — *does a non-trivial valuation invariant of stabilizer codes exist?* — where the 83% classification claim (Kodaira–Néron classifier, https://papers.qnfo.org/papers/number-theoretic-ultrametric-foundations/) is the testable hypothesis at the center. Two independent reproduction attempts now exist — this pipeline's §6 run (failed at $n \le 18$) and the sibling ACRP-06 extension with its v1.1 erratum (Golay 28 corrected to 2/4) — and the decisive test remains blocked by source under-specification, so the claim must still be independently reproduced before it is treated as established. This is the honest state of the program: a family of falsifiable claims tested, a sharp question remaining, and a prior claim awaiting verification.
 
-## 5. Results
+---
 
-The remediated register consolidates the eight claims C1–C8 of [2] with statuses that are each either arithmetic (resting on a computation of Section 4), definitional, or explicitly labeled unverified. No status is changed by this remediation relative to what [2]'s arithmetic and logic support; the remediation's contribution is that each status now carries its verification.
+## Declarations
 
-| # | Claim | Type | Remediated status | Verification basis |
-|:--|:------|:-----|:------------------|:-------------------|
-| C1 | $v_p(n)$ is depth along a prime branch | established (Ostrowski) | ESTABLISHED | Definitional/number-theoretic; not re-argued here |
-| C2 | $n = v_2(\dim H)$, $k = v_2(\dim H_L)$ as a "branch-depth reading" | MAP | SELF-CORRECTED (definitional) | D6 (Section 4.3) |
-| C3 | $d$ admits a valuation reading | MAP | REJECTED | D7 (Section 4.3) |
-| C4 | a non-trivial valuation invariant of codes exists | open question | OPEN | No computation bears on existence; Section 7 states the test |
-| C5 | computing = path-tracing with valuation-based complexity content | MAP | DISCONFIRMED (FQ3) | [2]'s own derivation; no arithmetic to recheck |
-| C6 | no-cloning re-expressed as non-cloneable redundancy | re-expression | DISCONFIRMED (FQ4) | [2]'s own derivation; no arithmetic to recheck |
-| C7 | overhead bounded by valuation structure | hypothesis | DISCONFIRMED (FQ2) | D8–D9 (Section 4.4) |
-| C8 | the Kodaira–Néron classifier is 83% accurate (assumed record content; [2]'s published text states only the open invariant question) | empirical (internal) | UNVERIFIED-INTERNAL | D1–D5, D10–D14 verify the assumed record's arithmetic, not the claim |
+**Funding:** This research received no external funding.
 
-Three results follow from the table and the computations.
+**Conflicts of Interest:** The author declares no conflict of interest.
 
-**Result 1 (register consistency).** All eight statuses are consistent with the arithmetic of Section 4 and with [2]'s own falsifiability conditions. The count is: five claims closed (C2 self-corrected, C3 rejected, C5, C6, C7 disconfirmed), one open (C4), and one carried as unverified-internal (C8). C1 is established and requires no remediation. The abstract's summary — five closed, one open, one unverified — aligns with the table, noting that C1 is established and requires no remediation.
+**Data Availability:** Reproduction scripts, raw results, and the reproduction report are included as companion artifacts of this record (rq3-mahler-reproduction.py, rq3-results.json, rq3-reproduction-report.md, rq3-reproduction-protocol.md).
 
-**Result 2 (the 83% claim's precise epistemic position).** The 166/200 = 83% figure is arithmetically consistent with its per-family decomposition (D1–D3) and exceeds both the random-assignment and majority-class baselines of 25% by 58 percentage points (D4). Arithmetic consistency is not empirical verification: we assume the figure originates in an internal report that ships no dataset, no implementation, and no baseline; this characterization is an assumption of this remediation, not a property verified from any cited text; one reproduction attempt failed on the Mahler leg at $n \le 18$ (D10–D11) with a corpus that was 90.9% random codes (D14); and a second attempt plus an erratum chain corrected the Golay spectral figure by a factor of 7 to 14 (D13). The claim therefore remains unverified-internal, and we assume the aggregate conceals a per-family defect (a surface-code boundary mismatch); that defect is an assumption of this remediation, not a figure verified here.
+**Code Availability:** The Mahler spectral reproduction implementation is available in the project repository under notebooks/rq3-mahler-reproduction.py.
 
-**Result 3 (the overhead-bound disconfirmation is airtight at the level of principle).** The valuation-only bound $n/k \ge 1$ follows from subspace inclusion alone (D8) and is strictly dominated by the Singleton ratio bound $n/k \ge n/(n-2(d-1)) > 1$ for every code with $d \ge 2$ (D9). No stabilizer code escapes this comparison, so the disconfirmation of FQ2 is not corpus-dependent and cannot be revised by new data; only a change in what counts as "valuation data" (i.e., a positive answer to C4) could reopen it.
+**Author Contributions:** Sole author.
 
-## 6. Discussion
+**Ethics Approval:** Not applicable (no human or animal subjects; mathematical and philosophical research).
 
-**What the remediation establishes and what it does not.** The remediation establishes that the published record [2] is internally consistent: its aggregate figures sum, its percentages are correct, its status labels match its own derivations, and its sharpest negative result (FQ2) is a matter of principle rather than of corpus. It does not establish that the 83% classification claim is false; it establishes that the claim is unverified, that two reproduction attempts failed to support it at the reported sizes, and that — under the assumptions of Section 4.5 — the decisive test is blocked by two assumed under-specifications of the source (an undefined Mahler target function and an unspecified Cox-ring ideal $I_C$). The distinction between "disconfirmed" and "unverified" is load-bearing for the program: C7 is closed by derivation, while C8 awaits a test that has not yet been possible.
+**Consent to Participate:** Not applicable.
 
-**Limitations.** The result rests on the following assumptions, each with its sensitivity:
+**Consent for Publication:** Not applicable.
 
-- *Family-set completeness (Section 3).* The per-family sum to 166 holds only if surface, CSS, optimal, and random are the complete corpus. If a fifth family existed, the aggregate numerator would not be reconstructible from the four reported figures; the verification D1 would then confirm only a partial decomposition. The sensitivity is total: the aggregate verification fails outright under this assumption's negation.
-- *Singleton bound as comparison standard.* D9 takes $n - k \ge 2(d-1)$ as given for all stabilizer codes, as [2] does. If the comparison standard were a weaker bound, the gap between the valuation bound and the standard would shrink, though $n/k \ge 1$ would remain trivial since it follows from subspace inclusion alone.
-- *Reproduction figures as recorded.* D10–D14 take the 55-code corpus and its observed values as [2] records them. This remediation does not re-run the reproduction; if the recorded figures were themselves erroneous, the observed-inversion result would need recomputation, though the structural point (a 5-code structured sample cannot decisively test a family-level spectral claim) survives any plausible error in the recorded values.
-- *Related-work scope.* The bibliography contains five works, [1] through [5]; only [1] and [2] support specific points used in this remediation, and the remaining entries are listed in the References without substantive use. No status label in the remediated register depends on any work outside [1] and [2].
-- *No new computation on code data.* The remediation performs no simulation or re-implementation; every empirical figure is carried as attributed to [2]. This is appropriate for an erratum audit but means the remediation cannot itself break the deadlock on C8.
+**Acknowledgements:** The author thanks the reviewers of the companion paper whose falsifiability conditions this work takes up directly.
 
-**Falsification of the remediation's main result.** The main result is the consolidated register with its arithmetic verification. It would be falsified by either of two observations: (i) a recomputation showing that the per-family figures 46, 39, 45, 36 do not sum to the published aggregate numerator, or that $166/200 \ne 0.83$ — which would mean the published record is internally inconsistent and the remediation's verification D1–D3 is wrong; or (ii) a derivation exhibiting a valuation-only overhead bound that is not a function of $(n, k)$ alone and that is not strictly weaker than the Singleton bound for some $d \ge 2$ code — which would mean D8–D9's characterization of the valuation data as definitional is incomplete. Observation (ii) is precisely a positive answer to the open question C4, and it is the only route by which the disconfirmations C5–C7 could be reopened.
-
-**Failure modes and open questions.** Three failure modes remain live. First, registry-propagation failure — corrections not reaching every downstream document — could recur here: the Golay correction (28 → 2/4) and the withdrawn "first reproduction attempt" wording must propagate to every downstream summary, and any summary still carrying "28" or "first attempt" is a live instance of the failure mode. Second, the 83% figure could propagate into registry summaries as an established result despite its unverified-internal status, exactly the compression [2] flags in the phrase "p-adic valuations classify QEC codes at 83% accuracy." Third, the open question C4 could be resolved negatively, in which case the entire branch-depth program for QEC terminates with a null result that is nonetheless publishable, honest, and program-constraining. The open question that would most change the picture is whether the Kodaira–Néron classifier's per-family structure (92% surface, 72% random) reflects a real spectral difference between structured and random code families at $n$ up to 64, or an artifact of the rule-based boundary definitions the source itself flags as defective for surface codes.
-
-## 7. Practical Implications and Engineering Pathways
-
-**(a) Who would use the result and what changes.** The users are: (i) researchers in the QNFO program and adjacent p-adic-QEC efforts, who must decide whether to allocate effort to the Kodaira–Néron classifier or to the open invariant question C4: under this remediation, the classifier is unverified-internal and must not be built upon, and C4 is the single remaining open question; (ii) maintainers of the program's registry and archive, who must propagate the Golay correction (28 → 2/4), the withdrawn "first reproduction attempt" wording, and the unverified-internal status of the 83% figure into every downstream summary; and (iii) any external reader who encounters the compressed claim "p-adic valuations classify QEC codes at 83% accuracy" — under this remediation, that phrase is a misleading rendering of an unverified internal figure with two failed reproduction attempts attached. No code designer should adopt a valuation-based screening tool on the present record: the tool's central claim is unverified and its overhead-bound sibling is disconfirmed.
-
-**(b) Readiness.** This remediation is a document-level arithmetic and logical audit that has not been peer reviewed; against the NASA Technology Readiness Level definitions it sits at TRL 1–2 (basic principles observed and reported; concept formulated). No hardware, prototype, or manufacturing claim is made or supported, and none should be inferred: the underlying program's QEC content is at the level of analytical derivations and an unverified internal empirical figure, which cannot exceed TRL 3 even after independent reproduction of the classifier, since a reproduced classifier would still be an analytical/classificatory result rather than a technology demonstration.
-
-**(c) The smallest next test.** We propose the smallest decisive step as a re-implementation from specification: implement the classifier pipeline (binary symplectic form → Cox ring → Weierstrass coefficients → degenerate loci → fiber type) with the Cox-ring ideal $I_C$ fixed by the implementer and documented, keeping the under-specifications the record is assumed to carry (Section 4.5); generate fresh code families (50 per family: surface, CSS, optimal, random) with a stated generation protocol and seeds; compute the $v_p$-spectral invariant independently; report majority-class and random-assignment baselines (both 25%, per D4) alongside; and test the source's documented surface-code boundary defect explicitly. The outcome that refutes the 83% claim is a reproduction that fails to exceed 25% by a pre-registered margin; the outcome that refutes the remediation's skepticism is a reproduction at or above 83% within stated confidence on the held-out corpus. A parallel sub-test resolves the Mahler leg: generate structured families up to $n = 64$ (the regime the audited record claims, per D12's $64/18 \approx 3.5556$ size shortfall) and compare $v_p^{\max}$ across optimal and random ensembles at matched corpus depth; an observed optimal maximum at or below the random maximum at $n = 64$ would extend the $n \le 18$ inversion and effectively close the spectral leg.
-
-**(d) Binding constraints.** The constraints that bind first, in order: (i) *specification completeness* — the undefined Mahler target function and the unspecified Cox-ring ideal $I_C$ block any decisive test and must be fixed before compute is spent; (ii) *corpus generation* — structured code families (surface, CSS, optimal) at $n$ up to 64 must be generated and verified, which is the step the 55-code reproduction (90.9% random, per D14) could not reach; (iii) *leakage control* — the classifier is deterministic and rule-based, so a held-out test set with stated seeds is required to prevent the boundary definitions from being tuned to the test corpus; and (iv) *registry propagation* — the corrections must reach every downstream summary, the failure mode flagged in Section 6. Whether the Kodaira–Néron pipeline itself scales to $n = 64$ codes (Cox-ring computation cost on 64-qubit symplectic data) remains an open question.
-
-**(e) Order-of-magnitude bounds.** The only quantitative bounds this remediation derives are the baselines and margins of Section 4: a reproduction must exceed 25% by a pre-registered margin to disconfirm the 83% claim, and the claimed spectral gap is 24 against an observed signed gap of $-2$ at $n \le 18$ (a discrepancy of 26). No cost, energy, or performance projection for any engineering artifact is derivable from the citation base, and none is offered.
-
-**(f) Risks and misuse paths.** The direct misuse path is citation of the 83% figure as an established result — in a registry summary, a grant proposal, or a follow-on paper — without the unverified-internal qualifier. A second path is resurrection of the overhead-bound claim: the phrase "valuation structure bounds QEC overhead" is disconfirmed, not open, and any reuse of it must engage D8–D9. A third path is the reverse misuse: treating the failed $n \le 18$ reproduction as a decisive disproof of the spectral claim, when D12 shows it covers only a $3.5556$-fold shortfall of the claimed size regime. The remediated register exists precisely to make these distinctions quotable.
-
-## 8. Conclusion
-
-This remediation, issued under erratum pl-prime-valuation-qec-implications-v0.4-0, verifies the arithmetic of the published record [2] and consolidates its falsifiability register. The verified arithmetic: the per-family figures 46, 39, 45, 36 sum to 166/200 = 83%; the spectral-gap figure is 187/200 = 93.5%; the claimed Mahler gap of 24 is inverted at $n \le 18$ (signed gap $-2$, discrepancy 26); the Golay figure was overstated by a factor of 7 to 14 before its erratum; and the valuation-only overhead bound $n/k \ge 1$, which follows from subspace inclusion alone, is strictly weaker than the quantum Singleton bound $n/k \ge n/(n-2(d-1)) > 1$ for every stabilizer code with $d \ge 2$. The remediated status of the program is: five claims closed (C2 self-corrected, C3 rejected, C5–C7 disconfirmed), one open (C4, the existence of a non-trivial valuation invariant), and the 83% classification claim carried as unverified-internal with two failed reproduction attempts attached and the decisive test blocked by two source under-specifications. The practical instruction is correspondingly plain: no valuation-based code classifier or overhead bound should be built upon until C4 is resolved and the classifier is independently reproduced against the 25% baselines with a stated leakage-control protocol; the single highest-value next action is the re-implementation-from-specification test of Section 7, whose outcomes are pre-stated and either of which — reproduction or refutation — resolves the program's central empirical question.
-
-## Version History
-
-- Version 1.0.0 (2026-10-29, from v0.4): rewritten in full through the research pipeline. new sections: Introduction; Background and Related Work; Methods; Analysis; Results; Discussion. sections folded or removed: Introduction and Positioning; The Branch-Depth Reading, Restated; The [[n,k,d]] Mapping — and Why It Is Mostly Relabeling; Computing as Path-Tracing: A Scoped, Falsifiable Claim; Structural No-Cloning and the Necessity of QEC; The 83% Classification Claim: Status and Reproduction Requirement. references 11 -> 5. length 3295 -> 6273 words.
-
-## Provenance and AI Involvement
-
-- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.40.4-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
-- Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by zai-org/glm-5.3-flash, openai/gpt-oss-120b, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
-- Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
-- Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
-- Independent recomputation: the execution sandbox was unavailable, so a second language model recomputed 15 quantitative claims step by step in text from the paper's stated inputs (no code was executed); 0 differed from the stated value at the stated precision.
-- Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
+---
 
 ## References
 
-[1] Minimizing Degree-based Topological Indices for Trees with Given Number of Pendent Vertices + Erratum. arXiv:1405.1293v3. https://arxiv.org/abs/1405.1293v3
-[2] https://papers.qnfo.org/papers/prime-valuation-qec-implications. QNFO: Implications for Computing and Quantum Error Correction.
-[3] https://papers.qnfo.org/papers/acrp07-qubit-delusion-valuation. QNFO: The Valuation Reading of the Qubit Delusion: Is the Adelic Kernel Load-Bearing?.
-[4] https://papers.qnfo.org/papers/qec-darwinism-ultrametric. QNFO: Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces.
-[5] https://papers.qnfo.org/papers/huang-2025-quantum-advantage-audit. QNFO: The Vast World of Quantum Advantage — A Full-Spectrum Audit.
+1. Abramsky, S., & Coecke, B. (2004). A categorical semantics of quantum protocols. *Proceedings of the 19th Annual IEEE Symposium on Logic in Computer Science (LICS)*.
+2. Abramsky, S. (2009). No-Cloning in Categorical Quantum Mechanics. In *Semantic Techniques in Quantum Computation*, Cambridge University Press. DOI 10.1017/cbo9781139193313.002.
+3. Coecke, B. (2010). Quantum Pictorialism. *Contemporary Physics* 51(1):59–83. DOI 10.1080/00107510903257624 (first published online 2009).
+4. Coecke, B., & Duncan, R. (2011). Interacting Quantum Observables: Categorical Algebra and Diagrammatics. *New Journal of Physics* 13:043016. DOI 10.1088/1367-2630/13/4/043016.
+5. Heydeman, M., Marcolli, M., Saberi, I., & Stoica, B. (2018). Tensor networks, p-adic fields, and algebraic curves: arithmetic and the AdS$_3$/CFT$_2$ correspondence. *Adv. Theor. Math. Phys.* 22(1):93–176. DOI 10.4310/atmp.2018.v22.n1.a4. arXiv:1605.07639.
+6. Bhattacharyya, A., Hung, L.-Y., Lei, Y., & Li, W. (2018). Tensor network and (p-adic) AdS/CFT. *JHEP* 2018(1):139. DOI 10.1007/jhep01(2018)139. arXiv:1703.05445.
+7. Gubser, S. S., & Knaute, J. (2017). A p-adic version of AdS/CFT. *Adv. Theor. Math. Phys.* 21(7):1655–1678. DOI 10.4310/atmp.2017.v21.n7.a3.
+8. Bravyi, S., Browne, D., Calpin, P., Campbell, E., Gosset, D., & Howard, M. (2019). Simulation of quantum circuits by low-rank stabilizer decompositions. *Quantum* 3:181. DOI 10.22331/q-2019-09-02-181.
+9. Ostrowski, A. (1916). Über einige Lösungen der Funktionalgleichung φ(x)φ(y)=φ(xy). *Acta Mathematica* 41:271–284.
+10. Quni-Gudzinas, R. B. (2026). Prime Valuation Depth. the QNFO archive. https://papers.qnfo.org/papers/prime-valuation-depth/.
+11. QNFO (2026). Number-Theoretic Ultrametric Foundations. the QNFO archive. https://papers.qnfo.org/papers/number-theoretic-ultrametric-foundations/.
