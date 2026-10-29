@@ -45,6 +45,14 @@
       "basis": "revision",
       "version": "2.0.2",
       "git_commit": null
+    },
+    {
+      "sha256": "1832bff03971db211844fbb4aa2623efb3f258ffcf3142d4e6961b909b0659c8",
+      "bytes": 21121,
+      "recorded_at": "2026-10-29",
+      "basis": "revision",
+      "version": "2.0.2",
+      "git_commit": null
     }
   ],
   "events": []
