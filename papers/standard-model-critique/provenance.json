@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "standard-model-critique",
+  "paper": {
+    "path": "papers/standard-model-critique/paper.md",
+    "title": "Standard Model",
+    "url": "https://papers.qnfo.org/papers/standard-model-critique"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "standard-model-critique"
+  },
+  "snapshots": [
+    {
+      "sha256": "7d60d3556b3adb6d50d89391e620fce5d8f9126000cc3b6470c3bab151a0f241",
+      "bytes": 19773,
+      "recorded_at": "2026-10-29",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
