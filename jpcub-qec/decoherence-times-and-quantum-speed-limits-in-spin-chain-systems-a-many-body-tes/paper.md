@@ -1,12 +1,4 @@
----
-title: "Decoherence Times and Quantum Speed Limits in Spin-Chain Systems: A Many-Body Testbed for Energy-Time Uncertainty"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-09-03"
-license: "CC BY 4.0"
-doi: ""
-version: "2.0.1"
-status: "published"
----
+# Decoherence Times and Quantum Speed Limits in Spin-Chain Systems: A Many-Body Testbed for Energy-Time Uncertainty
 
 ## Abstract
 
@@ -121,11 +113,6 @@ For a dephasing-limited spin-chain substrate, the coherence time and the quantum
 [4] Andrzejewski, K., K. Bolonek-Lason, and P. Kosinski. 2023. "Note on the Margolus-Levitin quantum speed limit for arbitrary fidelity." arXiv:2307.16854.
 
 [5] Sonnerborn, O. 2025. "Systems that saturate the Margolus-Levitin quantum speed limit." arXiv:2511.23237.
-
-## Changelog
-
-- v2.0 (2026-09-03): all quantitative claims computed by the deposited verification script; the crossover criterion Gamma = 4f stated and verified across the six-cell table; prior-work positioning added (Sections 2 and 6); HTML and PDF renderings added to the deposit; abstract rewritten with computed values, no deferred claims.
-- v1.0 (2026-09-03): initial short-form record.
 
 ## Verification
 

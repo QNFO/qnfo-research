@@ -14,11 +14,11 @@ Second, the most interesting correctness targets for a quantum walk are not gene
 
 Beyond the one‑dimensional Hadamard walk, modern experimental proposals employ coin‑free staggered walks on arbitrary graphs [8] and open‑system simulations that evolve density matrices under realistic noise channels [6]. Existing verification results cover only the line‑walk; extending the contract set to these broader contexts is essential for the growing ecosystem of quantum‑walk applications.
 
-**Contributions.**  
-- (i) Formal contracts K1–K8 for discrete‑time quantum‑walk simulators, including graph‑generalized support (K7) and trace‑conservation (K6) extensions.  
-- (ii) Explicit cost derivations for dense and sparse unitarity checks, simulation multiplication count, verification overhead, clause‑count growth, and graph‑generalized speedup, with all arithmetic shown (Section 4).  
-- (iii) Projection of a double‑precision drift bound and of a block‑diagonalization cost for the 3‑cycle periodicity contract.  
-- (iv) Falsification conditions for each contract family.  
+**Contributions.**
+- (i) Formal contracts K1–K8 for discrete‑time quantum‑walk simulators, including graph‑generalized support (K7) and trace‑conservation (K6) extensions.
+- (ii) Explicit cost derivations for dense and sparse unitarity checks, simulation multiplication count, verification overhead, clause‑count growth, and graph‑generalized speedup, with all arithmetic shown (Section 4).
+- (iii) Projection of a double‑precision drift bound and of a block‑diagonalization cost for the 3‑cycle periodicity contract.
+- (iv) Falsification conditions for each contract family.
 - (v) Practical implications for quantum‑algorithm developers, library maintainers, and hardware‑control engineers (Section 7).
 
 ## 2. Background and Related Work
@@ -112,49 +112,49 @@ We explicitly separate assumptions from results drawn from cited works:
 
 All input numbers below are either model definitions (Section 3), structural facts derived from them, numbers proven in cited works, or explicitly labeled projections. Arithmetic is shown step‑by‑step.
 
-**Derivation 1 (state‑space dimension, line walk).**  
-Inputs: $d_c=2$; $N_t=2t+1$.  
-$$d_t = d_c(2t+1)=2(2t+1).$$  
-For $t=10^{3}$: $2t+1=2001$, $d_{1000}=2\times2001=4002$.  
+**Derivation 1 (state‑space dimension, line walk).**
+Inputs: $d_c=2$; $N_t=2t+1$.
+$$d_t = d_c(2t+1)=2(2t+1).$$
+For $t=10^{3}$: $2t+1=2001$, $d_{1000}=2\times2001=4002$.
 For $t=10^{6}$: $2t+1=2\,000\,001$, $d_{10^{6}}=2\times2\,000\,001=4\,000\,002$.
 
-**Derivation 2 (dense unitarity‑check cost).**  
-Input: $d_t=4002$.  
+**Derivation 2 (dense unitarity‑check cost).**
+Input: $d_t=4002$.
 $$d_t^{2}=4002\times4002=16\,016\,004,$$
 $$d_t^{3}=d_t^{2}\times d_t=16\,016\,004\times4002=64\,096\,048\,008.$$
 
-**Derivation 3 (sparse unitarity‑check cost).**  
-Each column of $\hat{U}$ has $k=2$ non‑zeros.  
+**Derivation 3 (sparse unitarity‑check cost).**
+Each column of $\hat{U}$ has $k=2$ non‑zeros.
 $$4d_t^{2}=4\times16\,016\,004=64\,064\,016.$$
 Speedup factor:
 $$\frac{d_t^{3}}{4d_t^{2}}=\frac{d_t}{4}=\frac{4002}{4}=1000.5.$$
 
-**Derivation 4 (unitarity constraint count).**  
+**Derivation 4 (unitarity constraint count).**
 $$d_t(d_t+1)=4002\times4003=16\,020\,006.$$
 
-**Derivation 5 (simulation multiplication count).**  
-Each site requires $8$ real multiplications per step (Section 3.1).  
-Occupied sites at step $s$ $\le$ $2s+1$.  
+**Derivation 5 (simulation multiplication count).**
+Each site requires $8$ real multiplications per step (Section 3.1).
+Occupied sites at step $s$ $\le$ $2s+1$.
 \[
 M_t=\sum_{s=1}^{t}8(2s+1)=8\sum_{s=1}^{t}(2s+1)=8\bigl[t(t+2)\bigr]=8t(t+2).
 \]
 For $t=1000$: $M_{1000}=8\times1000\times1002=8\,016\,000$.
 
-**Derivation 6 (verification overhead ratio).**  
+**Derivation 6 (verification overhead ratio).**
 Normalization check per step costs $2d_t$ multiplications; two checks (input and output) cost $4d_t$. Simulation per step costs $8d_t$ (Derivation 5). Ratio:
 \[
 \frac{4d_t}{8d_t}=\frac12,
 \]
 i.e. a $50\%$ overhead independent of $t$.
 
-**Derivation 7 (contract clause count, naive scheme).**  
+**Derivation 7 (contract clause count, naive scheme).**
 Per‑step contracts: 2 preconditions (input normalization, input support) + 3 postconditions (output normalization, output support, coin correctness) = $5$ clauses. For $t$ steps:
 \[
 K_t=5t.
 \]
 Thus $K_{1000}=5\,000$, $K_{100}=500$.
 
-**Derivation 8 (floating‑point drift bound, projection).**  
+**Derivation 8 (floating‑point drift bound, projection).**
 IEEE double precision unit roundoff $\varepsilon_{\text{fp}}=2^{-52}\approx2.2204\times10^{-16}$. Each output amplitude involves $4$ roundings (two products, each with real and imaginary parts). Worst‑case relative drift after $t$ steps:
 \[
 \delta_t\le4t\,\varepsilon_{\text{fp}}.
@@ -164,27 +164,27 @@ For $t=10^{6}$:
 \delta_{10^{6}}\le4\times10^{6}\times2.2204\times10^{-16}=8.8816\times10^{-10}\approx8.88\times10^{-10}.
 \]
 
-**Derivation 9 (graph‑generalized sparse‑over‑dense speedup).**  
-Assume $N=100$ vertices, each column of the staggered walk’s step operator has $k=\Delta=3$ non‑zeros.  
-Dense cost: $N^{3}=100^{3}=1\,000\,000$ multiply‑adds.  
-Sparse cost: $k^{2}N^{2}=3^{2}\times100^{2}=9\times10\,000=90\,000$ multiply‑adds.  
+**Derivation 9 (graph‑generalized sparse‑over‑dense speedup).**
+Assume $N=100$ vertices, each column of the staggered walk’s step operator has $k=\Delta=3$ non‑zeros.
+Dense cost: $N^{3}=100^{3}=1\,000\,000$ multiply‑adds.
+Sparse cost: $k^{2}N^{2}=3^{2}\times100^{2}=9\times10\,000=90\,000$ multiply‑adds.
 Speedup:
 \[
 \frac{N^{3}}{k^{2}N^{2}}=\frac{N}{k}=\frac{100}{3}\approx33.33.
 \]
 
-**Derivation 10 (periodicity block‑diagonalization cost, projection).**  
+**Derivation 10 (periodicity block‑diagonalization cost, projection).**
 The 3‑cycle step operator $U$ is $3\times3$. Block‑diagonalization via the Fourier matrix $F$ requires forming $FUF^{\dagger}$, which entails two matrix multiplications of size $3$: each costs $3^{3}=27$ multiply‑adds. Performing the similarity transform for three symmetry sectors yields $3\times27=81$ multiply‑adds; adding the cost of extracting eigenvalues (assumed $3\times117=351$ multiply‑adds) gives a total projected cost
 \[
 C_{\text{bd}}=81+351=432\ \text{multiply‑adds}.
 \]
 This is a projection based on the assumed algorithmic steps.
 
-**Derivation 11 (trace‑conservation check cost).**  
+**Derivation 11 (trace‑conservation check cost).**
 For a density matrix $\rho_t$ of dimension $d_t$, trace $\operatorname{Tr}(\rho_t)=\sum_{i=1}^{d_t}\rho_{ii}$. Computing the trace requires $d_t$ additions and no multiplications. Comparing to $1$ within tolerance $\varepsilon$ adds $d_t$ subtractions. Hence total cost $2d_t$ additions, zero multiplications, i.e. a factor‑of‑2 saving relative to the $2d_t$ multiplications needed for the probability‑conservation check (K2).
 
-**Derivation 12 (verified fraction of benchmark functions).**  
-From [7]: $23$ of $26$ functions were fully proved.  
+**Derivation 12 (verified fraction of benchmark functions).**
+From [7]: $23$ of $26$ functions were fully proved.
 \[
 \frac{23}{26}=0.884615\approx88.5\%.
 \]
@@ -195,40 +195,40 @@ All derivations above are either exact arithmetic or explicitly labeled projecti
 
 All numbers below are either computed in Section 4 with shown arithmetic or are projections with clearly stated assumptions.
 
-- State‑vector dimension: $d_{1000}=4002$, $d_{10^{6}}=4\,000\,002$ (Derivation 1).  
-- Dense unitarity‑check cost: $64\,096\,048\,008$ multiply‑adds; projected time $64.1$ s at $r=10^{9}$ s\(^{-1}\) (Derivation 2).  
-- Sparse unitarity‑check cost: $64\,064\,016$ multiply‑adds; speedup factor $1000.5$ (Derivation 3).  
-- Unitarity constraint count: $16\,020\,006$ (Derivation 4).  
-- Simulation multiplication count: $M_{1000}=8\,016\,000$ (Derivation 5).  
-- Verification overhead: $50\%$ (Derivation 6).  
-- Naive contract clause count: $K_{1000}=5\,000$ (Derivation 7).  
-- Projected double‑precision drift bound after $10^{6}$ steps: $\delta_{10^{6}}\approx8.88\times10^{-10}$ (Derivation 8).  
-- Graph‑generalized sparse‑over‑dense speedup: $\approx33.33$ for $N=100$, $k=3$ (Derivation 9).  
-- Periodicity block‑diagonalization projected cost: $432$ multiply‑adds (Derivation 10).  
-- Trace‑conservation check cost: $2d_t$ additions, zero multiplications (Derivation 11).  
+- State‑vector dimension: $d_{1000}=4002$, $d_{10^{6}}=4\,000\,002$ (Derivation 1).
+- Dense unitarity‑check cost: $64\,096\,048\,008$ multiply‑adds; projected time $64.1$ s at $r=10^{9}$ s\(^{-1}\) (Derivation 2).
+- Sparse unitarity‑check cost: $64\,064\,016$ multiply‑adds; speedup factor $1000.5$ (Derivation 3).
+- Unitarity constraint count: $16\,020\,006$ (Derivation 4).
+- Simulation multiplication count: $M_{1000}=8\,016\,000$ (Derivation 5).
+- Verification overhead: $50\%$ (Derivation 6).
+- Naive contract clause count: $K_{1000}=5\,000$ (Derivation 7).
+- Projected double‑precision drift bound after $10^{6}$ steps: $\delta_{10^{6}}\approx8.88\times10^{-10}$ (Derivation 8).
+- Graph‑generalized sparse‑over‑dense speedup: $\approx33.33$ for $N=100$, $k=3$ (Derivation 9).
+- Periodicity block‑diagonalization projected cost: $432$ multiply‑adds (Derivation 10).
+- Trace‑conservation check cost: $2d_t$ additions, zero multiplications (Derivation 11).
 - Verified fraction of benchmark functions: $88.5\%$ (Derivation 12).
 
 ## 6. Discussion
 
-**Limitations.**  
-- The cost model counts elementary operations, not wall‑clock time; projected times rely on an assumed rate $r=10^{9}$ multiply‑adds s\(^{-1}\).  
-- The $50\%$ overhead bound assumes the worst‑case support size $2t+1$ at every step; actual walks may occupy fewer sites, reducing overhead.  
-- The drift bound assumes linear accumulation of roundoff errors; cancellation or ill‑conditioned amplitudes could violate it.  
-- The block‑diagonalization cost $432$ multiply‑adds is a projection based on assumed algorithmic steps; a concrete implementation may differ.  
-- The graph‑generalized speedup assumes exactly $k=\Delta$ non‑zeros per column; irregular graphs could have varying sparsity.  
-- The periodicity contract (K5) relies on the criterion proved in [4]; it does not guarantee that any implementation of the 3‑cycle will exhibit the same numerical stability.  
+**Limitations.**
+- The cost model counts elementary operations, not wall‑clock time; projected times rely on an assumed rate $r=10^{9}$ multiply‑adds s\(^{-1}\).
+- The $50\%$ overhead bound assumes the worst‑case support size $2t+1$ at every step; actual walks may occupy fewer sites, reducing overhead.
+- The drift bound assumes linear accumulation of roundoff errors; cancellation or ill‑conditioned amplitudes could violate it.
+- The block‑diagonalization cost $432$ multiply‑adds is a projection based on assumed algorithmic steps; a concrete implementation may differ.
+- The graph‑generalized speedup assumes exactly $k=\Delta$ non‑zeros per column; irregular graphs could have varying sparsity.
+- The periodicity contract (K5) relies on the criterion proved in [4]; it does not guarantee that any implementation of the 3‑cycle will exhibit the same numerical stability.
 - The statistical‑limit contract (K8) is not quantified here; verifying convergence to the weak limit of [5] would require empirical histogram testing, outside the scope of this analytical work.
 
 **Failure modes and falsification.** The framework is falsified if any of the following observations occurs:
-1. A faithful simulator (exact arithmetic) violates K1–K3, contradicting the algebraic derivations of Section 3.2.  
-2. Measured drift of a concrete implementation exceeds the projected bound $4t\,\varepsilon_{\text{fp}}$ by an order of magnitude, refuting the linear‑accumulation model.  
-3. The observed speedup of a sparse unitarity check falls significantly below the predicted factor $d_t/4$ (or $N/k$ for graphs), indicating hidden overheads not captured by the multiply‑add count.  
+1. A faithful simulator (exact arithmetic) violates K1–K3, contradicting the algebraic derivations of Section 3.2.
+2. Measured drift of a concrete implementation exceeds the projected bound $4t\,\varepsilon_{\text{fp}}$ by an order of magnitude, refuting the linear‑accumulation model.
+3. The observed speedup of a sparse unitarity check falls significantly below the predicted factor $d_t/4$ (or $N/k$ for graphs), indicating hidden overheads not captured by the multiply‑add count.
 4. The trace check for an open‑system simulator fails to conserve $\operatorname{Tr}(\rho)$ within tolerance, contradicting the trace‑preserving property of the channels in [6].
 
-**Open questions.**  
-- Whether the inductive verification scheme (discharging a single lemma and applying it $t$ times) achieves the projected constant lemma cost in practice.  
-- How statistical contracts for discrete‑event simulators [2] can be composed with the algebraic contracts defined here.  
-- The precise cost of block‑diagonalization for larger periodic graphs beyond the 3‑cycle.  
+**Open questions.**
+- Whether the inductive verification scheme (discharging a single lemma and applying it $t$ times) achieves the projected constant lemma cost in practice.
+- How statistical contracts for discrete‑event simulators [2] can be composed with the algebraic contracts defined here.
+- The precise cost of block‑diagonalization for larger periodic graphs beyond the 3‑cycle.
 - Extensions of the graph‑support closure contract (K7) to dynamic graphs where edges appear or disappear during the walk.
 
 ## 7. Practical Implications and Engineering Pathways
@@ -239,17 +239,17 @@ All numbers below are either computed in Section 4 with shown arithmetic or ar
 
 **(c) Minimal next experiment.** Implement the sparse unitarity‑check routine on an existing quantum‑walk simulation library (e.g., a Python or C++ implementation of the Hadamard walk). Measure wall‑clock time for the dense check, the sparse check, and the row‑norm check at $t=10^{3}$, and compare the observed speedup to the predicted factor $d_t/4=1000.5$ (or $N/k\approx33.33$ for the graph case). A measured speedup significantly below the predicted factor would falsify the sparse‑check cost model, indicating hidden overheads (e.g., memory‑access patterns) not captured by the multiply‑add count.
 
-**(d) Engineering constraints.**  
-- Availability of a processor capable of $10^{9}$ multiply‑adds per second for the projected time estimate.  
-- Memory layout that stores the sparse representation of $\hat{U}$ (or the staggered walk operator) with exactly $k$ non‑zeros per column to achieve the $k^{2}d^{2}$ cost.  
-- Accurate IEEE‑754 double‑precision arithmetic to validate the drift bound projection.  
-- For graph‑generalized walks, a static graph representation that permits constant‑time distance queries for the support‑closure check (K7).  
+**(d) Engineering constraints.**
+- Availability of a processor capable of $10^{9}$ multiply‑adds per second for the projected time estimate.
+- Memory layout that stores the sparse representation of $\hat{U}$ (or the staggered walk operator) with exactly $k$ non‑zeros per column to achieve the $k^{2}d^{2}$ cost.
+- Accurate IEEE‑754 double‑precision arithmetic to validate the drift bound projection.
+- For graph‑generalized walks, a static graph representation that permits constant‑time distance queries for the support‑closure check (K7).
 If any of these constraints cannot be satisfied, the projected performance figures become open questions.
 
-**(e) Cost and performance projections.** Assuming a processor delivering $r=10^{9}$ multiply‑adds s\(^{-1}\):  
-- Dense unitarity‑check for $t=10^{3}$: $\approx64.1$ s.  
-- Sparse unitarity‑check for $t=10^{3}$: $\approx0.064$ s, reflecting the speedup factor $1000.5$.  
-- Graph‑generalized sparse check for $N=100$, $k=3$: $90\,000$ multiply‑adds $\approx0.09$ s, a $33.33\times$ speedup over the dense $1\,000\,000$ multiply‑adds.  
+**(e) Cost and performance projections.** Assuming a processor delivering $r=10^{9}$ multiply‑adds s\(^{-1}\):
+- Dense unitarity‑check for $t=10^{3}$: $\approx64.1$ s.
+- Sparse unitarity‑check for $t=10^{3}$: $\approx0.064$ s, reflecting the speedup factor $1000.5$.
+- Graph‑generalized sparse check for $N=100$, $k=3$: $90\,000$ multiply‑adds $\approx0.09$ s, a $33.33\times$ speedup over the dense $1\,000\,000$ multiply‑adds.
 - Periodicity block‑diagonalization cost: $432$ multiply‑adds $\approx0.000432$ s.
 
 **(f) Risks and misuse.** The framework could be misapplied to certify simulators that implement approximations (e.g., Trotter‑Suzuki decompositions) without adapting the contracts to reflect approximation error, leading to a false sense of correctness. Users must ensure that the contracts match the actual algorithmic semantics of their simulator and that any approximations are explicitly reflected in additional contract clauses.
@@ -257,10 +257,6 @@ If any of these constraints cannot be satisfied, the projected performance figur
 ## 8. Conclusion
 
 We framed discrete‑time quantum‑walk simulator verification as contract extraction and discharge, extending the prior one‑dimensional framework to graph‑generalized staggered walks and open‑system density‑matrix evolutions. Eight contracts (K1–K8) were defined, and their computational costs were derived with explicit arithmetic: a sparse‑over‑dense unitarity‑check speedup of $d_t/4=1000.5$ for the line walk, a graph‑generalized speedup of $N/k\approx33.33$, a constant $50\%$ verification overhead, a naive clause count $K_t=5t$, a projected double‑precision drift bound $\delta_{10^{6}}\approx8.88\times10^{-10}$, and a block‑diagonalization cost of $432$ multiply‑adds for the 3‑cycle periodicity contract. All quantitative claims are either computed here with shown arithmetic or explicitly labeled projections with stated assumptions. The framework supplies a decision procedure for quantum‑algorithm developers and simulator engineers, and it identifies concrete falsification conditions that future experimental or implementation work can test.
-
-## Version History
-
-- Version 2.0.1 (2026-10-19, from 2.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 
