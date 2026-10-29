@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-406/the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "60d7ac0b1825ccddd2041eb2d304bd1318bc715ea4503bd41609949af66413fb"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "the-margolus-levitin-bound-and-energy-time-limits-for-quantum-computation-at-the"
@@ -31,6 +38,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.3",
+      "git_commit": null
+    },
+    {
+      "sha256": "b17e7595a655b5b380cc5094e8368a0ae21de9f385bb5ffd8e5cadaeaafd7981",
+      "bytes": 35049,
+      "recorded_at": "2026-10-29",
+      "basis": "revision",
+      "version": "3.0.0",
       "git_commit": null
     }
   ],
