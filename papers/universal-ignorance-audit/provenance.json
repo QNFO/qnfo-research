@@ -1,0 +1,37 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "universal-ignorance-audit",
+  "paper": {
+    "path": "papers/universal-ignorance-audit/paper.md",
+    "title": "The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing",
+    "url": "https://papers.qnfo.org/papers/universal-ignorance-audit"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-408/universal-ignorance-audit",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "714c263df048e132852c29c12a9ab1de4d3e8da06934adc8e3d117f1e4a6438c"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "universal-ignorance-audit"
+  },
+  "snapshots": [
+    {
+      "sha256": "8eb67b8ddfd0eba0400a581bbf0c13b61b5ce5d4206f73bdc425d33c3ed69307",
+      "bytes": 36254,
+      "recorded_at": "2026-10-29",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
