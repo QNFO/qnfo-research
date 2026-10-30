@@ -1,0 +1,436 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-409: Recursive Self-Consistency",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-409",
+      "qnfo:runPath": "runs/cycle-409/recursive-self-consistency",
+      "qnfo:slug": "recursive-self-consistency",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-10-30T08:31:10.860Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/recursive-self-consistency"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/recursive-self-consistency",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Recursive Self-Consistency",
+      "url": "https://papers.qnfo.org/papers/recursive-self-consistency"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1405.1293",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1405.1293"
+    },
+    {
+      "@id": "https://doi.org/10.1002/9780470316979",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1002/9780470316979"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-4612-5046-0",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1007/978-1-4612-5046-0"
+    },
+    {
+      "@id": "https://doi.org/10.1007/BF01696781",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1007/BF01696781"
+    },
+    {
+      "@id": "https://doi.org/10.1007/BF02345020",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1007/BF02345020"
+    },
+    {
+      "@id": "https://doi.org/10.1051/0004-6361/201833910",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1051/0004-6361/201833910"
+    },
+    {
+      "@id": "https://doi.org/10.1103/PhysRev.160.1113",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1103/PhysRev.160.1113"
+    },
+    {
+      "@id": "https://doi.org/10.1103/PhysRevD.27.2885",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1103/PhysRevD.27.2885"
+    },
+    {
+      "@id": "https://doi.org/10.1515/9781400882427",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1515/9781400882427"
+    },
+    {
+      "@id": "https://doi.org/10.2307/1989171",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.2307/1989171"
+    },
+    {
+      "@id": "https://doi.org/10.4064/fm-3-1-133-181",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.4064/fm-3-1-133-181"
+    },
+    {
+      "@id": "https://doi.org/10.4310/ATMP.1998.v2.n2.a1",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.4310/ATMP.1998.v2.n2.a1"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2144",
+      "sha256": "97e1e38087bd41ba876ea6d9f5b6021273e135e28f656eb06321c2f63be84078",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "72261",
+      "sha256": "1b75bdfcd53eac6fc5f0987d8e38f295e83d8d1fa9214133f544fcca1c022501",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "45220",
+      "sha256": "9f4c56826558d26aa507e1c28f1fe2590d31e4551d2c4497658b82014d6a8e44",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3174",
+      "sha256": "f90045e57301f36f6149ad5bbb9577f1beae5f69c6cbfcb3db54b524f58000cb",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4115",
+      "sha256": "f7fceb928d334fb6f2421485ec9d518c9115f133cbd98c341602b0d78ff59d5d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11468",
+      "sha256": "f09aa5ce615501137c9cca0be5c2b953ffaec4d3411a67608f2cc1df862a0126",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "6854",
+      "sha256": "fa095824a2d9d960e7be1ed7ecaec370aa8f65489f574cb70729da30a060c3c6",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14736",
+      "sha256": "e332eb2476a3bcc1be8cded727e4d466b839e82cdcf32b75da61d9fb0bf37683",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19556",
+      "sha256": "162e492fb1059fabfd8ed5bb47d2806918ba0667ef171c255b3a82bd353a58d8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1405.1293"
+        },
+        {
+          "@id": "https://doi.org/10.1002/9780470316979"
+        },
+        {
+          "@id": "https://doi.org/10.1007/978-1-4612-5046-0"
+        },
+        {
+          "@id": "https://doi.org/10.1007/BF01696781"
+        },
+        {
+          "@id": "https://doi.org/10.1007/BF02345020"
+        },
+        {
+          "@id": "https://doi.org/10.1051/0004-6361/201833910"
+        },
+        {
+          "@id": "https://doi.org/10.1103/PhysRev.160.1113"
+        },
+        {
+          "@id": "https://doi.org/10.1103/PhysRevD.27.2885"
+        },
+        {
+          "@id": "https://doi.org/10.1515/9781400882427"
+        },
+        {
+          "@id": "https://doi.org/10.2307/1989171"
+        },
+        {
+          "@id": "https://doi.org/10.4064/fm-3-1-133-181"
+        },
+        {
+          "@id": "https://doi.org/10.4310/ATMP.1998.v2.n2.a1"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-10-30T08:31:10.860Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
