@@ -1,0 +1,68 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-a492d9b0-d15e-4d74-b3b4-6bd1544c2646",
+    "slug": "number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+    "cycle": "cycle-410",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.40.9-errata-claim-fair",
+    "finished_at": "2026-10-31T06:13:39.624Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "0bd29f9519d3e963182dd1dd7893e11a47b1d47ee4f592d50f14a3067518fbb0",
+      "bytes": 67847,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "8b0b2868fb9cc1ccd4eb7a78e626145620d505c795ffaaa0ca9c31f7d12ae994",
+      "bytes": 39069,
+      "role": "reconciliation"
+    },
+    "review-report.md": {
+      "sha256": "2f0b1a792420a41217b7f22a371c3989707c245c1979a0acfab07049c96aa1a7",
+      "bytes": 2579,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "f3cad7179d07c3af31e55e2d4285cd65a32c8d82a195b8d8dbfa0dd7036ff82a",
+      "bytes": 14921,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "42980072f1a7addad657e291137a105111276f5c3cbde193abd4fb2a36bfeee0",
+      "bytes": 10354,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "f9928cb351c389df9eecca3ec8208eccdfa9cea5719e0cc96d02bdfaefc50c26",
+      "bytes": 23230,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "1936782af397c66a8870afdeb76d3790e9750e46df4cff0ce91a69615114e9f8",
+      "bytes": 20747,
+      "role": "draft"
+    }
+  }
+}
