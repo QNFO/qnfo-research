@@ -47,6 +47,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "5cb5c238ac55f8526e6fbea4e7922c511c48e7d9cfbba3a4b0f2c74bee8a88c0"
+    },
+    {
+      "path": "runs/cycle-410/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "127d413a59b190dc7f3b89754db1b144d0ab17b3dd9c0b00033fda8e5041ceb8"
     }
   ],
   "identifiers": {
@@ -76,6 +82,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.4.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "588fbd82026fcca4a20df7205d576ef172777e5166bcdc79e42e0bc4a5c7f536",
+      "bytes": 40390,
+      "recorded_at": "2026-10-31",
+      "basis": "revision",
+      "version": "3.0.0",
       "git_commit": null
     }
   ],
