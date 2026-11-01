@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "scale-invariant-physics",
+  "paper": {
+    "path": "papers/scale-invariant-physics/paper.md",
+    "title": "Scale-Invariant Reality",
+    "url": "https://papers.qnfo.org/papers/scale-invariant-physics"
+  },
+  "declared": {
+    "version": "0.12",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "scale-invariant-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "9b03cc60eb6da1415b4c618804f0b4c96ebc8f51b1adf6193b136f83fea3be2b",
+      "bytes": 761232,
+      "recorded_at": "2026-11-01",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
