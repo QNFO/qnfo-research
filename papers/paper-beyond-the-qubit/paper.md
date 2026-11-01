@@ -2,872 +2,214 @@
 
 ## Abstract
 
-If "The Qubit Delusion" diagnosed the epistemic failure at the heart of quantum computing --- the projection of particle ontology onto a relational, field-theoretic reality --- then this companion paper asks the constructive question: what comes next? We begin with an ontological stripping: what does quantum mechanics actually demand of a computational substrate, once all anthropocentric and classical baggage is removed? From this foundation we survey alternative computational paradigms (measurement-based, continuous-variable, topological, field-theoretic, analog) that are more faithful to quantum reality than the qubit-gate-circuit scaffold. We then assess which of these are commercially manufacturable --- not in theory, but under the actual constraints of materials, thermodynamics, and industrial economics. [...]
-
-# 1. The Question Behind the Critique
-
-"The Qubit Delusion" advanced a diagnosis: the quantum computing industry's
-failure to deliver commercially viable machines is not primarily an engineering
-problem but an epistemic one. The qubit-gate-circuit model imports a particle
-ontology into quantum mechanics --- as if qubits were little quantum billiard
-balls that we poke with gates --- and this ontology is inconsistent with quantum
-field theory, relational quantum mechanics, and the physics of continuous,
-correlated quantum systems.
-
-But diagnosis without prescription is incomplete. If the qubit is a scaffold,
-not an invariant, then what IS the invariant? If the gate-circuit model is a
-map-territory confusion, what does the territory actually look like? And ---
-most practically --- if $35 billion and two decades of global effort have
-produced zero commercially viable quantum computers under the incumbent
-paradigm, are there alternative architectures that might actually deliver
-commercially useful computation?
-
-This paper addresses four questions:
-
-1. **What is "quantum," really?** Stripped of particle ontology, measurement
- metaphysics, and anthropocentric baggage, what does the quantum formalism
- actually demand of a computational substrate?
-
-2. **What is the solution space?** Which alternative computational paradigms ---
- measurement-based, continuous-variable, topological, field-theoretic, analog
- --- are faithful to quantum reality, and how mature are they?
-
-3. **What can actually be built?** Of these alternatives, which are commercially
- manufacturable under real engineering, thermodynamic, and economic
- constraints?
-
-4. **Is "quantum computing" even the right frame?** Or does the deeper lesson ---
- that computation IS a physical process, and the substrate determines what
- can be computed efficiently --- point toward architectures where the physics
- does the computing directly, without being forced into a discrete symbolic
- scaffold?
-
-# 2. What Is "Quantum," Really? An Ontological Stripping
-
-Before we can ask what a "quantum computer" should look like, we must ask what
-"quantum" actually means --- not as a set of mathematical tools, but as a
-statement about what the world is made of and how it behaves.
-
-## 2.1 The Textbook Picture and Its Projections
-
-Most physicists learn quantum mechanics from textbooks that present it as a
-puzzle: "particles behave like waves, waves behave like particles, measurement
-collapses the wavefunction, and nobody knows why." This framing --- which Feynman
-called the "central mystery" --- is pedagogically useful but ontologically
-misleading. It takes classical categories (particle, wave, measurement,
-observer) as primitive and then expresses perplexity when quantum systems fail
-to conform to them.
-
-The projection runs deep. We talk about "an electron" as if it were a tiny
-billiard ball with a position and momentum that we happen to be unable to
-measure simultaneously. We talk about "measurement" as if it were a passive
-observation that reveals pre-existing properties. We talk about "the observer"
-as if consciousness played a special role in physics. None of these are
-demanded by the formalism. All of them are classical intuitions we project onto
-a reality that operates differently.
-
-## 2.2 The Minimal Ontological Commitments of Quantum Mechanics
-
-If we strip away all classical projections --- particles, waves, measurement as
-revelation, observers as special --- what remains? What does the quantum
-formalism actually commit us to, ontologically?
-
-The answer, distilled from seventy years of foundational work (relational
-quantum mechanics [@Rovelli1996], QBism [@Fuchs2014], consistent histories
-[@Griffiths1984], and the decoherence program [@Zurek2003]), is remarkably
-sparse:
-
-**1. States are vectors in a complex Hilbert space.** A quantum system is
-described by a ray in a complex projective Hilbert space. This is the minimal
-mathematical structure needed to encode superposition, interference, and the
-Born rule. Nothing in this structure requires "particles," "waves," or
-"observers." It requires only a linear space with an inner product.
-
-**2. Composite systems live in the tensor product, not the Cartesian product.**
-The state space of a composite system is NOT the set of all pairs of states of
-its components. It is a strictly larger space --- the tensor product --- that
-contains entangled states that cannot be factored. This is the formal statement
-of non-separability: the whole is not the sum of its parts.
-
-**3. Properties are contextual.** The Kochen-Specker theorem [@Kochen1967]
-proves that quantum systems cannot have pre-existing values for all observables
-simultaneously. A "property" of a quantum system is not an attribute of the
-system alone but of the system-in-measurement-context. Properties are
-relational, not intrinsic. This is not a limitation of our knowledge --- it is a
-structural fact about quantum reality.
-
-**4. Evolution is unitary (when the system is isolated).** Isolated quantum
-systems evolve deterministically according to the Schrödinger equation. The
-"measurement problem" --- the apparent conflict between unitary evolution and
-wavefunction collapse --- is not a problem of physics but of insisting that
-measurement is something other than physical interaction between systems.
-
-**5. Probabilities are Born-rule. Not ignorance probabilities.** The
-probabilities that appear in quantum mechanics are not epistemic (reflecting
-our ignorance of pre-existing values) but structural (reflecting the
-geometry of the Hilbert space). An electron in a superposition of spin-up and
-spin-down is not "really" spin-up or spin-down with us not knowing which. It
-is in a state that is genuinely neither, and the Born rule gives the
-probability of finding it in one or the other upon interaction with a
-measurement apparatus.
-
-## 2.3 What Is NOT There: The Absent Ontology
-
-Equally revealing is what these minimal commitments do NOT include:
-
-- **No particles.** Nothing in the formalism requires that quantum systems be
- localized in space, have trajectories, or persist as identifiable individuals.
- Quantum field theory, the more fundamental theory, explicitly rejects particle
- ontology: particles are excitations of fields, not fundamental entities.
-
-- **No classical measurement apparatus.** The "Heisenberg cut" --- the boundary
- between quantum system and classical measuring device --- is a pragmatic
- convenience, not an ontological boundary. Every measuring device is itself a
- quantum system. The appearance of classicality emerges from decoherence: the
- irreversible leakage of phase information into environmental degrees of
- freedom [@Zurek2003].
-
-- **No observers.** Consciousness plays no role in the formalism. The
- "observer" is simply a physical system that becomes correlated with the
- measured system through interaction. QBism [@Fuchs2014] correctly identifies
- that probabilities are agent-relative --- they encode an agent's expectations
- about future experiences --- but this does not make consciousness
- ontologically special. It makes probability theory agent-relative, which it
- already was.
-
-- **No "collapse."** The projection postulate --- that measurement "collapses"
- the wavefunction --- is not a dynamical law but a bookkeeping rule for updating
- probabilities conditional on new information. In decoherence-based
- interpretations, collapse is replaced by the physical process of
- environmental monitoring: the system becomes entangled with its environment,
- and the reduced density matrix of the system alone becomes effectively
- diagonal in the pointer basis. No collapse required [@Schlosshauer2007].
-
-## 2.4 The Relational Core: Quantum Mechanics as a Theory of Correlations
-
-The positive ontological content that survives stripping is this: **quantum
-mechanics is a theory of correlations --- specifically, of the structure and
-dynamics of entanglement in composite quantum systems.**
-
-Consider what the quantum formalism is actually good at predicting:
-correlation statistics. The Bell inequalities, the CHSH game, quantum
-teleportation, superdense coding, quantum key distribution --- all of these
-are fundamentally about correlations between measurement outcomes on
-spatially separated subsystems. The "quantumness" lies not in the individual
-systems but in the correlation structure that connects them.
-
-This is the insight of relational quantum mechanics [@Rovelli1996]: the
-properties of a quantum system are not intrinsic but are relative to another
-system with which it interacts. There are no "states of the electron." There
-are only "states of the electron relative to the measurement apparatus." This
-is not idealism or anti-realism --- it is a structural claim about what kinds
-of facts quantum mechanics can encode.
-
-From this perspective, the qubit-as-particle picture is not just empirically
-inadequate but categorically wrong. It treats quantum systems as objects with
-intrinsic properties that gates manipulate, when the actual quantum ontology
-is one of relational properties that emerge only through interaction. **The
-computational primitive is not the qubit but the correlation.**
-
-## 2.5 The Physical Meaning of "Quantum"
-
-So what does "quantum" actually mean, physically? Three irreducible features:
-
-**Discreteness of interaction.** The word "quantum" comes from the Latin
-*quantus* ("how much") and refers to the fact that certain physical quantities
- --- energy levels in bound systems, angular momentum, charge --- come in discrete
-units. This is not a statement about the nature of reality being "granular."
-It is a statement about the spectrum of certain operators being discrete, which
-follows from boundary conditions on the Schrödinger equation. Discreteness is
-an emergent property of confined systems, not a fundamental axiom.
-
-**Superposition and interference.** The linearity of the Schrödinger equation
-means that if state A is possible and state B is possible, then any complex
-linear combination is also possible. This is the source of interference effects
- --- the double-slit experiment, the Aharonov-Bohm effect --- and it has no
-classical analog. Superposition is not a statement about a particle "being in
-two places at once." It is a statement about the vector space structure of
-quantum states.
-
-**Entanglement.** The tensor product structure of composite systems means that
-the state of a composite system is not determined by the states of its
-components. This is the most radical departure from classical physics and the
-one most directly relevant to computation. Entanglement is what makes quantum
-systems computationally interesting: the dimension of the state space grows
-exponentially with the number of components, but this exponential space is not
-freely accessible --- it is structured by the geometry of entanglement.
-
-These three features --- discreteness, superposition, entanglement --- are the
-invariants. Everything else --- qubits, gates, circuits, measurements, error
-correction --- is scaffold.
-
-# 3. The Solution Space: Computational Paradigms Faithful to Quantum Reality
-
-If the qubit-gate-circuit scaffold is a map-territory confusion, what are the
-alternatives? What would a computational paradigm faithful to the ontological
-commitments of quantum mechanics actually look like? We survey five
-paradigms, ordered from most to least mature.
-
-## 3.1 Measurement-Based Quantum Computing (MBQC)
-
-**Core idea:** The computation IS the entanglement structure. Prepare a highly
-entangled resource state (a cluster state or graph state), then perform a
-sequence of single-qubit measurements whose outcomes --- and the choice of
-measurement bases, adapted to prior outcomes --- implement the computation.
-There are no gates. The "algorithm" is encoded in the pattern of measurements
-on the entangled substrate.
-
-**Ontological fidelity:** High. In MBQC, entanglement is not a side effect or a
-resource to be managed --- it IS the computational primitive. The cluster state
-is a single, massively entangled state that encodes the entire computation.
-Gates are replaced by measurement patterns, which are inherently contextual
-(the basis choice at each step depends on prior outcomes). This aligns with
-the relational picture: computation proceeds through a sequence of contextual
-interactions (measurements) rather than through the manipulation of
-intrinsically-valued objects (qubits).
-
-**Maturity:** MBQC is theoretically well-understood. Raussendorf and Briegel
-proved in 2001 that cluster-state MBQC is computationally universal
-[@Raussendorf2001]. The framework has been extended to continuous-variable
-systems [@Menicucci2006] and to fault-tolerant architectures. Experimental
-demonstrations exist at small scale (a few qubits in photonic systems).
-
-**Limitations:** MBQC requires preparing large-scale entangled resource states,
-which is itself a major experimental challenge. The resource state must be
-prepared with high fidelity before computation begins, and any errors in the
-state propagate through the measurement sequence. However, topological cluster
-states --- which encode the resource state in a topologically protected subspace
- --- offer a path to fault tolerance that may be more natural than surface-code
-error correction in the circuit model.
-
-**Commercial traction:** PsiQuantum's "fusion-based" quantum computing
-architecture is essentially an MBQC implementation using photonic qubits,
-where small entangled states are probabilistically fused into larger cluster
-states. This represents the most commercially advanced MBQC effort.
-
-## 3.2 Continuous-Variable Quantum Computing (CV-QC)
-
-**Core idea:** Replace discrete qubits --- two-level quantum systems --- with
-continuous quantum variables: the quadrature amplitudes of the electromagnetic
-field (position and momentum analogs). Qumodes --- the CV analog of qubits ---
-live in an infinite-dimensional Hilbert space, and computation proceeds through
-Gaussian operations (squeezing, displacement, beam-splitting) supplemented by
-non-Gaussian operations for universality.
-
-**Ontological fidelity:** Very high. CV-QC treats the computational substrate
-as genuinely continuous --- a quantum field --- rather than discretizing it into
-artificial two-level systems. This is more faithful to the field-theoretic
-nature of quantum electrodynamics, where the fundamental entities are
-continuous field modes, not particles. The infinite-dimensional Hilbert space
-of a qumode encodes information in the continuous amplitude and phase of a
-field quadrature, which is closer to how quantum information is actually
-carried in physical systems (photons, phonons, collective excitations).
-
-**Maturity:** CV-QC is theoretically well-developed but experimentally less
-mature than discrete-variable (qubit) approaches. Gottesman-Kitaev-Preskill
-(GKP) states provide a path to fault-tolerant CV computation by encoding
-discrete logical qubits in the continuous Hilbert space of a harmonic
-oscillator [@Gottesman2001]. CV cluster states extend MBQC to the CV domain.
-Experimental demonstrations of CV entanglement, squeezing, and small-scale
-computation exist in optical systems.
-
-**Commercial traction:** Xanadu is the leading commercial CV-QC company,
-developing photonic quantum processors based on squeezed-light qumodes.
-Their "Borealis" processor demonstrated Gaussian boson sampling at a scale
-that (arguably) exceeds classical simulability. The photonic platform is
-attractive because it operates at room temperature, integrates with existing
-fiber-optic infrastructure, and avoids the cryogenic requirements of
-superconducting qubits.
-
-**The CV advantage:** Because CV systems encode information in continuous
-degrees of freedom, they can represent certain classes of functions --- Gaussian
-states and operations --- with exponentially fewer resources than discrete
-systems. This suggests that for problems with continuous structure
-(optimization over continuous variables, simulation of bosonic systems,
-machine learning with continuous data), CV architectures may have a natural
-advantage over qubit-based ones.
-
-## 3.3 Topological Quantum Computing (TQC)
-
-**Core idea:** Encode quantum information in globally-defined, topologically
-protected degrees of freedom --- specifically, the fusion and braiding
-properties of anyons (quasiparticle excitations in two-dimensional systems
-that are neither bosons nor fermions). Computation is performed by braiding
-anyons around each other; the result depends only on the topological class
-of the braid, not on the detailed trajectory, providing intrinsic protection
-against local noise.
-
-**Ontological fidelity:** High, in a specific sense. TQC recognizes that
-quantum information is fundamentally about global, relational structure ---
-the topology of particle trajectories --- rather than about local states of
-individual particles. The "qubit" in TQC is not a physical two-level system
-but a topological degree of freedom that is distributed across multiple
-anyons. The information is stored non-locally, which is why it is protected
-from local perturbations.
-
-This aligns with the relational picture: the computational DOF are
-relationships (braiding patterns), not objects (individual anyons). The
-topological protection arises precisely because the information is encoded
-in the global structure, not in any local degree of freedom.
-
-**Maturity:** TQC is theoretically elegant but experimentally extremely
-challenging. The existence of non-abelian anyons --- the type needed for
-universal quantum computation --- was only experimentally confirmed in 2020
-in fractional quantum Hall systems. Microsoft has invested heavily in
-Majorana zero modes (a type of non-abelian anyon) in semiconductor-superconductor
-heterostructures, but the experimental evidence has been contested and retracted
-[@Frolov2021]. As of 2026, topological qubits have not been demonstrated at
-a level that would enable computation.
-
-**The universality challenge:** The simplest non-abelian anyons (Ising anyons)
-support only a restricted set of gates (Clifford group) and require
-non-topological operations (magic state distillation) for universality. More
-exotic anyons (Fibonacci anyons) are universal but have not been experimentally
-realized. This means TQC may face the same error-correction overhead problem as
-the circuit model, just at a different level.
-
-## 3.4 Quantum Field Computation: The Speculative Frontier
-
-**Core idea:** If quantum field theory is the fundamental theory --- particles
-are excitations of fields, not fundamental entities --- then the ultimate
-computational substrate is not a collection of qubits but a quantum field.
-Computation would proceed by engineering the Hamiltonian of a quantum field
-such that its dynamics (ground state, time evolution, correlation functions)
-encode the solution to a computational problem.
-
-**What this might look like:** A "quantum field computer" would be an analog
-device: a physical system --- perhaps an array of coupled superconducting
-resonators, a cold atom gas in an optical lattice, or a engineered
-metamaterial --- whose quantum field theory is designed so that measuring its
-correlation functions yields the answer to a hard computational problem.
-The "programming" would consist of shaping the Hamiltonian --- the interactions,
-couplings, and boundary conditions --- rather than specifying a sequence of
-gates.
-
-**Ontological fidelity:** Maximal. This is the paradigm most faithful to
-quantum field theory, since it treats the field --- rather than its particle
-excitations --- as fundamental. The computational resource is the continuum of
-degrees of freedom of the field, and the computation is encoded in the
-field's correlation structure.
-
-**Maturity:** Essentially zero. This is a speculative research direction. Some
-elements exist: quantum simulation (Feynman's original vision) can be seen as
-a primitive form of field computation, where one quantum system (the simulator)
-is designed to have the same Hamiltonian as another (the target system). But
-the idea of programming a quantum field theory as a general-purpose computer
-is unexplored.
-
-**Why it might matter:** If the qubit is a scaffold and the field is the
-reality, then the most natural computational primitive is not the two-level
-system but the continuum field mode. The infinite-dimensional Hilbert space
-of a quantum field encodes vastly more information than a collection of
-qubits, and --- crucially --- it encodes it in a way that is physically natural,
-avoiding the artificial discretization that creates the error-correction
-overhead of the circuit model.
-
-## 3.5 Analog Quantum Computing and Quantum Simulation
-
-**Core idea:** Instead of building a universal digital quantum computer, build
-a special-purpose analog device whose natural dynamics solve a specific class
-of problems. Quantum simulation --- using one controllable quantum system to
-simulate another --- is the paradigm case. Quantum annealing (D-Wave's approach)
-is another: encode the problem in the energy landscape of a quantum system and
-let the system's natural relaxation dynamics find the ground state.
-
-**Ontological fidelity:** Mixed. Analog approaches are faithful to the
-continuous, dynamical nature of quantum systems --- they let the physics do the
-computing rather than imposing a discrete symbolic scaffold. But they typically
-encode problems in a classical cost function (e.g., Ising Hamiltonian for
-optimization), which is itself a scaffold.
-
-**Maturity:** D-Wave has deployed quantum annealers with thousands of qubits,
-and quantum simulators (cold atoms in optical lattices, trapped ions, Rydberg
-atom arrays) have simulated quantum many-body systems beyond the reach of
-classical computation. However, no analog quantum device has yet demonstrated
-a commercially relevant speedup over classical alternatives for a problem of
-practical interest.
-
-**The fundamental limitation:** Analog quantum computers are not universal.
-Each device is designed for a specific class of problems, and the mapping
-between problem and device is itself a scaffold. For optimization problems,
-the question is whether quantum annealing offers an asymptotic advantage over
-classical heuristic solvers --- and the evidence to date suggests it does not
-[@Ronnow2014; @Denchev2016].
-
-# 4. What Can Actually Be Built? Commercially Manufacturable Paths
-
-Theoretical fidelity to quantum ontology is necessary but not sufficient.
-A computational paradigm must also be physically realizable, scalable, and
- --- for commercial viability --- manufacturable under industrial constraints.
-We assess the leading physical platforms against these criteria.
-
-## 4.1 Photonic Quantum Computing
-
-**Platform:** Photons as qubits/qumodes; linear optical elements (beam
-splitters, phase shifters) for gates; single-photon detectors for measurement.
-
-**Key players:** PsiQuantum (fusion-based MBQC with silicon photonics),
-Xanadu (CV squeezed-light qumodes), QuiX (integrated photonics).
-
-**Advantages:**
-- Room-temperature operation (no cryogenics).
-- Existing semiconductor photonics manufacturing infrastructure.
-- Natural fit for CV and MBQC paradigms.
-- Photons are naturally decoherence-free for short propagation distances.
-- Inherently networked: photons are the natural carrier of quantum information.
-
-**Challenges:**
-- Photon loss is the dominant error mechanism and scales exponentially with
- circuit depth. While error correction can handle loss below a threshold,
- that threshold is demanding (~few percent per component).
-- Single-photon sources and detectors are inefficient and noisy.
-- Deterministic two-qubit gates are difficult in linear optics; most
- architectures rely on probabilistic entanglement generation followed by
- multiplexing, which imposes enormous resource overhead.
-- PsiQuantum's fusion-based approach requires millions of physical components
- for a useful logical qubit, though they claim this is feasible in silicon
- photonics at wafer scale.
-
-**Manufacturability verdict:** High. Silicon photonics leverages the existing
-semiconductor fabrication ecosystem. If the component-level performance
-thresholds can be met, photonic quantum computers could be manufactured at
-scale using existing fabs. This is the strongest commercial case in the
-quantum computing landscape as of 2026.
-
-## 4.2 Neutral Atom Arrays
-
-**Platform:** Individual neutral atoms (rubidium, strontium, ytterbium) trapped
-in optical tweezer arrays; Rydberg blockade for entangling gates; optical
-readout.
-
-**Key players:** QuEra, Atom Computing, Pasqal.
-
-**Advantages:**
-- Atoms are identical (no fabrication variability).
-- Long coherence times (seconds for hyperfine qubits).
-- Reconfigurable: atoms can be rearranged during computation.
-- Natural fit for analog quantum simulation (Rydberg atom arrays can simulate
- Ising and XY models).
-- Scaling to thousands of atoms demonstrated.
-
-**Challenges:**
-- Gate fidelities, while improving, are below fault-tolerance thresholds for
- many architectures (~99.5% for two-qubit gates, need >99.9%).
-- Atomic rearrangement is slow (~milliseconds), limiting clock speed.
-- Optical access for individual addressing becomes challenging at scale.
-- Vacuum and laser infrastructure is bulky and expensive.
-
-**Manufacturability verdict:** Medium. The components (lasers, vacuum chambers,
-optics) are commercial-off-the-shelf, and atom arrays scale well in principle.
-But the system integration complexity is high, and the cost per qubit is
-currently orders of magnitude above what would be needed for commercial
-deployment. This platform is most promising for specialized scientific
-applications (quantum simulation) in the near term.
-
-## 4.3 Superconducting Qubits: The Incumbent
-
-**Platform:** Josephson junction-based superconducting circuits (transmon,
-fluxonium, etc.) operated at millikelvin temperatures.
-
-**Key players:** IBM, Google, Rigetti.
-
-**Advantages:**
-- Most mature platform by investment and engineering effort.
-- Leverages semiconductor fabrication techniques.
-- Fast gate speeds (~10-100 ns).
-- Demonstrated error correction below threshold (Google's Willow, 2024).
-
-**Challenges:**
-- Cryogenic operation at ~10 mK requires dilution refrigerators, which are
- expensive, bulky, and power-hungry.
-- Qubit coherence times are fundamentally limited by materials defects
- (two-level systems in amorphous dielectrics).
-- Crosstalk between qubits increases with density.
-- The error correction overhead --- ~1000 physical qubits per logical qubit
- for surface codes --- means that a useful fault-tolerant machine would
- require millions of physical qubits, each individually controlled.
-- The thermodynamic cost of operating a million-qubit cryogenic system may
- be prohibitive.
-
-**Manufacturability verdict:** Low for commercially useful scale. While
-small processors (100-1000 qubits) can be manufactured, the scaling
-requirements for fault-tolerant computation --- millions of physical qubits
-at millikelvin, each with individual control lines --- appear incompatible
-with commercial deployment at any plausible cost point. The superconducting
-platform may prove that fault-tolerant quantum computation is *possible in
-principle* while being commercially and thermodynamically impractical.
-
-## 4.4 Trapped Ions
-
-**Platform:** Individual atomic ions confined in electromagnetic traps; qubits
-encoded in electronic or hyperfine states; gates via laser or microwave pulses;
-readout via fluorescence.
-
-**Key players:** IonQ, Quantinuum (Honeywell).
-
-**Advantages:**
-- Highest gate fidelities of any platform (>99.9% for two-qubit gates).
-- Long coherence times (seconds to minutes).
-- All-to-all connectivity (ions can be shuttled).
-- Quantinuum has demonstrated repeated error correction cycles.
-
-**Challenges:**
-- Gate speeds are slow (~microseconds to milliseconds) compared to
- superconducting qubits.
-- Scaling to large numbers of ions in a single trap is limited by motional
- mode crowding.
-- Photonic interconnects for modular architectures add complexity and loss.
-- System size, cost, and complexity scale poorly.
-
-**Manufacturability verdict:** Low to medium. The exquisite control achieved
-in academic and industrial labs does not translate easily to high-volume
-manufacturing. Each ion trap is a precision instrument requiring ultra-high
-vacuum, stabilized lasers, and careful calibration. While trapped ions are
-excellent for demonstrating quantum algorithms at small scale, the path to
-commercial deployment at useful scale is unclear.
-
-## 4.5 The Common Scaling Problem
-
-Across all platforms, a common challenge emerges. To perform useful quantum
-computation --- solving a problem of genuine commercial value faster or cheaper
-than classical alternatives --- fault tolerance is required. Fault tolerance
-requires quantum error correction, which imposes an overhead of roughly 10²
-to 10³ physical qubits per logical qubit. Useful computation requires perhaps
-100-1000 logical qubits. This means a useful fault-tolerant quantum computer
-needs 10⁵ to 10⁶ physical qubits, each controlled with high fidelity.
-
-No platform has demonstrated a credible path to manufacturing, cooling,
-controlling, and reading out a million high-fidelity qubits at a cost that
-would make commercial deployment viable. This is not merely an engineering
-challenge --- it may be a thermodynamic one. The entropy generated by
-controlling and reading out a million quantum degrees of freedom,
-multiplied by the error correction overhead, may exceed what can be dissipated
-in a practical device.
-
-# 5. Post-Quantum: The Next Computational Frontier
-
-If the qubit-gate-circuit paradigm is epistemically flawed and the alternative
-quantum paradigms face daunting engineering challenges, what comes next? Here
-we step back from "quantum computing" entirely and ask: what does the deeper
-lesson --- that computation IS a physical process and the substrate determines
-what can be computed --- imply for the future of computing?
-
-## 5.1 The Fundamental Insight: Substrate IS Algorithm
-
-The qubit delusion is a specific case of a broader pattern in computer science:
-the tendency to treat computation as abstract symbol manipulation, independent
-of the physical substrate that performs it. This abstraction --- the Church-Turing
-thesis, the von Neumann architecture, the distinction between hardware and
-software --- has been enormously productive. But it is, itself, a scaffold.
-
-The deeper insight, which quantum computing inadvertently exposed, is that
-**the physical substrate IS part of the algorithm.** A quantum computer is not
-just a faster classical computer --- it accesses a different computational
-resource (entanglement, superposition) that has no classical analog. The
-"software-hardware" distinction breaks down when the physics of the hardware
-is the computational primitive.
-
-This suggests that the next major advances in computing will come not from
-making faster transistors but from finding physical substrates whose natural
-dynamics solve computationally hard problems directly. The substrate IS the
-algorithm.
-
-## 5.2 Thermodynamic Computing
-
-**Core idea:** Treat computation as a thermodynamic process. Physical systems
-evolve toward thermal equilibrium by minimizing a free energy functional. If
-we can encode a computational problem as the free energy landscape of a
-physical system, the system's natural relaxation dynamics will "compute" the
-solution by finding the free energy minimum.
-
-This is not a new idea --- it is how nature "computes" protein folding, crystal
-growth, phase separation, and neural dynamics. What is new is the possibility
-of engineering thermodynamic systems specifically for computation.
-
-**Physical implementations:**
-- **Ising machines:** Arrays of coupled oscillators (optical parametric
- oscillators, CMOS LC oscillators) that naturally minimize an Ising
- Hamiltonian. Coherent Ising machines [@Marandi2014] have demonstrated
- solving combinatorial optimization problems orders of magnitude faster
- than classical heuristics for certain problem classes --- not by being
- "quantum" but by being analog and massively parallel.
-- **Probabilistic bits (p-bits):** Stochastic nanomagnetic devices that
- fluctuate between states with probabilities governed by a Boltzmann
- distribution. Networks of p-bits can perform probabilistic inference,
- optimization, and sampling by exploiting thermal fluctuations rather than
- fighting them [@Camsari2017].
-- **Memristive neural networks:** Crossbar arrays of memristive devices that
- perform matrix-vector multiplication in the analog domain via Ohm's law
- and Kirchhoff's current law. This is not quantum --- it's classical physics
- --- but it leverages the physical substrate (resistive switching, charge
- transport) for computation directly.
-
-**Commercial traction:** Several companies are developing Ising machines and
-p-bit architectures for optimization and machine learning. These are not
-"quantum computers" in the gate-model sense, but they exploit physical
-dynamics --- thermal fluctuations, phase transitions, collective modes --- for
-computation. They do not require cryogenics, error correction, or isolation
-from the environment. In fact, they USE the environment (thermal bath) as a
-computational resource.
-
-## 5.3 Neuromorphic Computing
-
-**Core idea:** Build computers that operate on the same principles as
-biological neural systems: massively parallel, asynchronous, analog,
-event-driven, and co-locating memory and computation.
-
-**Key principles:**
-- **Spike-based coding:** Information is encoded in the timing of discrete
- electrical pulses (spikes), not in continuous voltage levels. This is
- energy-efficient because spikes consume power only when they occur.
-- **Event-driven computation:** Neurons compute only when they receive input,
- not on a global clock cycle. This eliminates the wasted energy of clock
- distribution in synchronous digital systems.
-- **In-memory computation:** Synaptic weights are stored and updated at the
- point of computation (the synapse), eliminating the von Neumann bottleneck
- of shuttling data between memory and processor.
-- **Stochastic dynamics:** Neural systems exploit noise --- synaptic
- stochasticity, ion channel fluctuations --- for exploration, learning,
- and robustness.
-
-**Physical implementations:**
-- **CMOS neuromorphic chips:** Intel's Loihi 2, IBM's TrueNorth, and
- SpiNNaker use conventional CMOS technology with neuromorphic architectures.
- Loihi 2 achieves ~15 pJ per synaptic operation, compared to ~100 pJ for
- equivalent operations on conventional processors.
-- **Memristive neuromorphic systems:** Memristors --- resistors with memory ---
- can implement synapses directly in analog hardware, performing
- matrix-vector multiplication with O(1) energy per operation regardless
- of matrix size.
-- **Photonic neuromorphic systems:** Optical neural networks perform linear
- operations (matrix multiplication) through free-space or integrated
- photonic interference, at the speed of light and with minimal energy
- dissipation.
-
-**Why this matters:** Neuromorphic computing is not "quantum computing lite."
-It represents a genuinely different computational paradigm --- one where the
-physical substrate (analog electronics, photonics, memristive materials)
-performs the computation directly, rather than being forced into a digital,
-clocked, von Neumann scaffold. The ~10⁴× energy efficiency advantage of
-biological neural systems over conventional computers is not a quirk of
-evolution --- it reflects the efficiency of analog, event-driven, in-memory
-computation.
-
-## 5.4 Optical Computing (Classical)
-
-**Core idea:** Use light --- photons propagating through free space, fibers, or
-integrated waveguides --- to perform computation. Linear optical elements
-(lenses, beam splitters, spatial light modulators) perform Fourier transforms,
-convolutions, and matrix multiplications at the speed of light, with zero
-energy dissipation in the optical path.
-
-**Key principles:**
-- **Fourier optics:** A lens performs a spatial Fourier transform --- an O(N log N)
- operation in digital --- in a single pass of light, at the speed of light, with
- zero computational energy.
-- **Interference-based computation:** Interference between coherent optical
- fields naturally computes inner products, the fundamental operation of
- linear algebra.
-- **Wavelength-division multiplexing:** Different wavelengths can carry
- independent computational channels through the same physical medium.
-
-**Commercial traction:** Several startups (Lightmatter, Lightelligence,
-Optalysys) are developing optical processors for matrix multiplication and
-convolution --- the dominant operations in deep learning. These are not
-"quantum" --- they use classical (coherent) light --- but they exploit the
-physical properties of light for computation.
-
-Optical matrix multipliers can, in principle, perform matrix-vector products
-with O(1) energy scaling in the optical path (the energy cost is dominated by
-the input/output conversion, not the computation itself). For sufficiently
-large matrices (>1000×1000), optical processors may offer orders-of-magnitude
-energy advantages over digital electronics.
-
-## 5.5 What Unifies These Paradigms
-
-Thermodynamic, neuromorphic, and optical computing share a common philosophical
-core: **let the physics do the computing.** Instead of forcing computation into
-a universal digital scaffold (logic gates, clock cycles, von Neumann
-architecture), find a physical system whose natural dynamics solve the problem
-directly.
-
-This is the same insight that motivated Feynman's original proposal for quantum
-simulation --- "let the quantum system simulate itself" --- but applied more
-broadly. A quantum computer is a special case: a physical system whose
-(substrate, Hamiltonian, dynamics) are engineered to perform a specific class
-of computations that exploit quantum superposition and entanglement. But there
-are many other physical systems --- thermal baths, optical fields, neural
-networks, chemical reaction networks --- whose natural dynamics solve
-computationally hard problems.
-
-The future of computing, we suggest, is not a "quantum computer" in the
-qubit-gate sense but a **physical computation ecosystem**: a diverse set of
-special-purpose devices --- thermodynamic optimizers, neuromorphic inference
-engines, optical matrix processors, analog quantum simulators --- each exploiting
-the physics of its substrate for the class of problems it is naturally suited
-to solve.
-
-# 6. Principles for Post-Particle Computation
-
-From the analysis above, we distill five principles that should guide the
-development of post-qubit computational architectures:
-
-**Principle 1: The substrate IS the algorithm.** Choose physical substrates
-whose natural dynamics compute the target problem class directly, rather
-than forcing generic substrates into universal computation.
-
-**Principle 2: Correlation over particle.** Encode information in correlation
-structures (entanglement, phase coherence, collective modes) rather than in
-local states of individual degrees of freedom.
-
-**Principle 3: Noise as resource, not enemy.** Exploit thermal fluctuations,
-stochastic dynamics, and environmental coupling for exploration, error
-tolerance, and energy efficiency, rather than fighting them with active
-error correction.
-
-**Principle 4: Analog where natural, digital where necessary.** Use analog
-physical dynamics for the computationally hard part (optimization, sampling,
-matrix multiplication) and digital control for programmability and
-reconfigurability.
-
-**Principle 5: Manufacturability as first-class constraint.** A computational
-paradigm that requires a million cryogenic control lines is not commercially
-viable regardless of its theoretical elegance. Design for the manufacturing
-ecosystem that actually exists.
-
-# 7. The Research Agenda, Operationalized
-
-We close with specific, falsifiable research directions that operationalize
-these principles. Each is tagged with feasibility `[near-term: 1-3 years]`,
-`[medium-term: 3-7 years]`, or `[speculative: 7+ years]`.
-
-## 7.1 Thermodynamic Optimization Engines `[near-term]`
-
-Build and benchmark Ising machines, p-bit networks, and coupled oscillator
-arrays on practically relevant optimization problems (supply chain
-optimization, portfolio allocation, molecular docking). The key metric is not
-"quantum advantage" but "thermodynamic advantage": does the physical system
-find better solutions faster than classical heuristics at lower energy cost?
-
-**Falsification criterion:** If thermodynamic optimizers consistently fail to
-outperform classical heuristics (simulated annealing, genetic algorithms) on
-real-world optimization instances, the paradigm is invalid.
-
-## 7.2 Entanglement-First Quantum Architectures `[medium-term]`
-
-Design quantum processors where the computational primitive is the preparation
-and manipulation of entanglement structure, not individual qubits. This means:
-- MBQC architectures with cluster states as the fundamental resource.
-- CV architectures where Gaussian entanglement is the computational substrate.
-- Architectures where the physical DOF is a continuum field mode, not a
- two-level system.
-
-**Falsification criterion:** If an MBQC or CV architecture consistently
-underperforms a circuit-model architecture with the same physical resources,
-the paradigm is not superior.
-
-## 7.3 Neuromorphic Inference at Scale `[near-term]`
-
-Deploy neuromorphic systems (CMOS or memristive) for large-scale inference
-in deep learning, where the energy advantage of analog, in-memory computation
-is most pronounced. The target: a 10³× energy reduction for transformer
-inference compared to GPU-based systems, validated on standard benchmarks.
-
-**Falsification criterion:** If neuromorphic systems cannot achieve >10×
-energy advantage on at least one commercially relevant inference workload,
-the paradigm is not commercially viable.
-
-## 7.4 Optical Linear Algebra Accelerators `[near-term]`
-
-Develop integrated photonic processors for matrix multiplication and
-convolution at scale (>1000×1000 matrices). The target: demonstrating
-a 10²× energy-per-operation advantage over digital electronics at a scale
-relevant to deep learning inference.
-
-**Falsification criterion:** If optical matrix multipliers cannot maintain
-an accuracy-appropriate precision (>4 bits effective) at scale while
-achieving >10× energy advantage, the paradigm is not viable.
-
-## 7.5 Field-Theoretic Computation `[speculative]`
-
-Investigate whether quantum field theories --- lattice gauge theories, conformal
-field theories, tensor network representations --- can serve as computational
-substrates. The question: can we design a physical system whose Hamiltonian
-is the QFT of a computationally hard problem, and whose correlation functions
-directly encode the solution?
-
-**Falsification criterion:** If no mapping between a computationally hard
-problem class and a physically realizable QFT is found within five years of
-serious investigation, the paradigm should be downgraded to "speculative
-foundations research."
-
-# 8. Conclusion
-
-This paper has argued that the diagnosis offered by "The Qubit Delusion"
-implies a constructive research program that extends beyond merely fixing
-the qubit-gate-circuit model. The deeper lesson is that computation is an
-inherently physical process: the substrate matters, and the choice of
-computational scaffold is never ontologically neutral.
-
-The qubit-gate-circuit scaffold projects particle ontology onto a relational
-reality. The error-correction paradigm fights decoherence rather than
-harnessing it. The commercial quantum computing industry has optimized for
-narrative production rather than physical fidelity. These are symptoms of a
-deeper pattern: the tendency to treat computation as abstract symbol
-manipulation, independent of the physical world that performs it.
-
-The constructive alternative is not a single new computational paradigm but
-a **physical computation ecosystem**: a diverse portfolio of special-purpose
-devices --- thermodynamic optimizers, neuromorphic inference engines, optical
-matrix processors, entanglement-first quantum simulators, and ultimately
-field-theoretic computers --- each matched to the problem class that its
-physical substrate naturally solves.
-
-This ecosystem will not emerge from the incumbent quantum computing industry,
-whose institutional incentives reward the appearance of progress over
-falsifiable results. It will emerge from research programs that take
-seriously the ontological commitments of quantum mechanics and the physical
-constraints of actual manufacturing --- programs that ask not "how do we build
-a better qubit?" but "what physical system, if any, can solve this problem
-faster, cheaper, or more energy-efficiently than any classical alternative?"
-
-The qubit delusion is not the end of quantum computing. It is the beginning
-of honest computation --- computation that respects what physics actually says
-about the world.
-
----
-
-**Acknowledgments**
-
-This work builds on the foundational insights of Rovelli (relational QM),
-Fuchs (QBism), Zurek (quantum Darwinism), Raussendorf & Briegel (MBQC),
-and Feynman (quantum simulation as physical computation).
-
-**References**
-
-- @Rovelli1996: C. Rovelli, "Relational Quantum Mechanics," Int. J. Theor. Phys. 35, 1637 (1996).
-- @Fuchs2014: C. A. Fuchs et al., "An Introduction to QBism with an Application to the Locality of Quantum Mechanics," Am. J. Phys. 82, 749 (2014).
-- @Griffiths1984: R. B. Griffiths, "Consistent Histories and the Interpretation of Quantum Mechanics," J. Stat. Phys. 36, 219 (1984).
-- @Zurek2003: W. H. Zurek, "Decoherence, Einselection, and the Quantum Origins of the Classical," Rev. Mod. Phys. 75, 715 (2003).
-- @Kochen1967: S. Kochen and E. P. Specker, "The Problem of Hidden Variables in Quantum Mechanics," J. Math. Mech. 17, 59 (1967).
-- @Schlosshauer2007: M. Schlosshauer, "Decoherence and the Quantum-to-Classical Transition" (Springer, 2007).
-- @Raussendorf2001: R. Raussendorf and H. J. Briegel, "A One-Way Quantum Computer," Phys. Rev. Lett. 86, 5188 (2001).
-- @Menicucci2006: N. C. Menicucci et al., "Universal Quantum Computation with Continuous-Variable Cluster States," Phys. Rev. Lett. 97, 110501 (2006).
-- @Gottesman2001: D. Gottesman et al., "Encoding a Qubit in an Oscillator," Phys. Rev. A 64, 012310 (2001).
-- @Frolov2021: S. Frolov, "Majorana Fiasco," Nature 591, 526 (2021).
-- @Ronnow2014: T. F. Ronnow et al., "Defining and Detecting Quantum Speedup," Science 345, 420 (2014).
-- @Denchev2016: V. S. Denchev et al., "What is the Computational Value of Finite-Range Tunneling?" Phys. Rev. X 6, 031015 (2016).
-- @Marandi2014: A. Marandi et al., "Network of Time-Multiplexed Optical Parametric Oscillators as a Coherent Ising Machine," Nat. Photonics 8, 937 (2014).
-- @Camsari2017: K. Y. Camsari et al., "Stochastic p-Bits for Invertible Logic," Phys. Rev. X 7, 031014 (2017).
-
-## Prior Work and Related Literature
-
-The present work is the constructive companion to the diagnosis advanced in [The Qubit Delusion: How Particle Ontology Sabotaged Quantum Computing](https://papers.qnfo.org/papers/paper-the-qubit-delusion). That earlier paper argued that the qubit-gate-circuit model imports a particle ontology inconsistent with quantum field theory and relational quantum mechanics, and that the field's failure to deliver viable hardware stems from this epistemic confusion rather than from mere engineering delay. It identified superposition, entanglement, and correlation structure as the invariants that survive the removal of the qubit-as-particle scaffold, and it surveyed alternative paradigms—measurement-based, continuous-variable, topological, and field-theoretic—as more faithful to quantum reality. The present paper takes that critique as its starting point and asks the constructive question that the earlier work left open: if the qubit is a scaffold, what is the invariant, and which alternative architectures can actually be built? It extends the earlier analysis by operationalizing the "correlation-first" research agenda that the Qubit Delusion proposed, moving from ontological deconstruction to a survey of manufacturable platforms—photonic, neutral atom, superconducting, and trapped ion—and then beyond quantum computing altogether to thermodynamic, neuromorphic, and optical systems where the physics does the computing directly.
-
-The present paper also builds directly on the thermodynamic analysis introduced in [Thermodynamic Imperative](https://papers.qnfo.org/papers/thermodynamic-imperative). That work argued that cooling capacity scales superlinearly with temperature (roughly \(T^2\) to \(T^3\)), creating a severe heat-removal bottleneck at millikelvin operation that limits system size regardless of qubit quality. It proposed a hybrid architecture combining parity-protected qubits with 4 Kelvin operation, leveraging the roughly 20,000-fold increase in cooling power available at that regime to expand thermodynamic headroom by orders of magnitude. The present paper generalizes this insight beyond the specific superconducting platform that the Thermodynamic Imperative examined. It treats manufacturability as a first-class constraint for any computational paradigm, as Principle 5 states, and it applies the thermodynamic analysis across platforms: superconducting qubits are judged "low" for commercially useful scale because the entropy generated by controlling and reading out a million quantum degrees of freedom, multiplied by error-correction overhead, may exceed what can be dissipated in a practical device. The present paper also extends the Thermodynamic Imperative's identification of heat management as the primary scalability barrier into a broader argument that the substrate is the algorithm—that computation is a physical process, and the choice of substrate determines what can be computed efficiently. Where the Thermodynamic Imperative focused on engineering a specific path to scalable quantum computing, the present paper uses the same thermodynamic reasoning to argue for a pluralistic "physical computation ecosystem" that includes non-quantum architectures such as Ising machines, probabilistic bits, and memristive neural networks.
-
-The present paper departs from the [Thermodynamic Imperative](https://papers.qnfo.org/papers/thermodynamic-imperative) in a crucial respect. The Thermodynamic Imperative remains within the quantum computing frame: it proposes a specific quantum architecture—parity-protected qubits at 4 Kelvin—as the solution to the scalability problem. The present paper, by contrast, questions whether "quantum computing" is even the right frame at all. It argues that the deeper lesson—that the substrate IS the algorithm—points toward wholly different computational architectures where the physics does the computing directly, rather than being force-fit into a discrete symbolic scaffold. This is not a rejection of the Thermodynamic Imperative's engineering insights but a radicalization of its thermodynamic logic. If the primary barrier to scalability is heat management, and if warmer operation combined with intrinsic protection is the answer, then the question becomes: why stop at 4 Kelvin? Why not exploit thermal fluctuations as a computational resource, as in p-bit networks and Ising machines, which the present paper discusses in Section 5.2? The Thermodynamic Imperative treats noise as something to be suppressed through parity protection; the present paper's Principle 3 inverts this, treating noise as a resource to be exploited for exploration, error tolerance, and energy efficiency. This is a genuine departure, not merely an extension: the Thermodynamic Imperative's hybrid architecture is one entry in the ecosystem the present paper envisions, but the present paper argues that the same thermodynamic reasoning that motivates 4 Kelvin operation also motivates architectures that abandon the quest for isolation altogether.
-
-The relationship between the present paper and the [Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons](https://papers.qnfo.org/papers/adelic-synthesis-pattern-particle) is more complex and involves both continuity and tension. The Adelic Synthesis paper constructed a unified framework in which an anyon is an adelic object—a single arithmetic pattern that manifests differently at each completion of \(\mathbb{Q}\), with the familiar archimedean Fibonacci anyon being merely the \(\infty\)-place avatar. It proposed the Adelic Topological Quantum Computation (ATQC) paradigm, in which computational gates exploit place-crossing transitions (adelic Hecke operators) rather than continuous braiding, potentially eliminating the Solovay-Kitaev overhead entirely. The present paper's survey of topological quantum computing in Section 3.3 acknowledges the theoretical elegance of encoding information in global, relational structures—the topology of particle trajectories—and notes that this aligns with the relational picture of computation. However, the present paper assesses TQC as experimentally extremely challenging, noting that the existence of non-abelian anyons was only confirmed in 2020, and that Microsoft's Majorana program has faced contested evidence. The present paper does not engage with the adelic extension of TQC at all; it treats topological quantum computing as a paradigm that is theoretically elegant but not commercially manufacturable, without reference to the p-adic or adelic constructions.
-
-This silence is telling. The Adelic Synthesis paper is, in a sense, the most radical expression of the "correlation-first" principle that the present paper advocates: it rejects the particle-qubit in favor of a relational, global, topological substrate, and it explicitly frames the anyon as an adelic pattern rather than a particle. The present paper's Principle 2—"Correlation over particle: Encode information in correlation structures (entanglement, phase coherence, collective modes) rather than in local states of individual degrees of freedom"—could be read as a direct endorsement of the adelic perspective. Yet the present paper's Principle 5—"Manufacturability as first-class constraint"—implicitly judges the adelic program as premature. The Adelic Synthesis paper itself acknowledges that its experimental realization is an open question, proposing Bethe lattice quantum spin liquids and ultrametric cold atom systems as candidate platforms, but conceding that these are speculative. The present paper, by contrast, insists that a computational paradigm must be "physically realizable, scalable, and—for commercial viability—manufacturable under industrial constraints." The adelic program, whatever its ontological fidelity, has no such pathway. The present paper's survey of alternative quantum paradigms in Section 3 includes measurement-based, continuous-variable, topological, and analog approaches, but not the adelic or p-adic frameworks; these are absent because they lack the engineering maturity that the present paper demands. The present paper thus both inherits and disciplines the Adelic Synthesis's core insight: the correlation structure is the computational primitive, but that insight must be realized in systems that can actually be built, which is why the present paper ultimately moves beyond quantum computing altogether to thermodynamic, neuromorphic, and optical architectures.
+Survey literature shapes how funders, program managers, and research groups allocate attention across quantum-computing platforms, so a factual error in a survey propagates into real decisions. This paper repairs two such errors and adds a quantitative scaling analysis. First, it corrects the claim that non-Abelian anyons were experimentally confirmed in 2020 in fractional quantum Hall systems: the 2020 measurements concerned Abelian anyons in the $\nu = 1/3$ state, whose exchange acts by a scalar phase of unit modulus, while for the leading non-Abelian candidate at $\nu = 5/2$ the review literature states that no direct experimental evidence for non-Abelian quasiparticles exists. Second, it retracts the claim that coherent Ising machines solve combinatorial optimization problems orders of magnitude faster than classical heuristics, for which no supporting quantitative evidence is available. The paper retains the constructive program of correlation-first architectures and adds derived numbers: an Abelian exchange modulus $|R| = 1$, a braid length of order $7$ elementary braids per gate at target precision $10^{-3}$, a measurement-iteration count of $100$ for $0.1$ precision in Jones-polynomial estimation, an anyonic error-correction threshold of at least $3.7\%$, and — under explicitly stated assumptions — a fault-tolerance overhead of roughly $10^{3}$ physical qubits per logical qubit, i.e. $10^{5}$–$10^{6}$ physical qubits for $10^{2}$–$10^{3}$ logical qubits. The corrections lower the assessed readiness of topological quantum computing and locate the field's bottleneck in experimental confirmation before engineering scale-up.
+
+## 1. Introduction
+
+Two classes of error degrade decision-making in quantum-computing research today. The first is the premature announcement of a foundational experimental milestone. Quantum-computing survey papers are read by program managers who decide which platforms receive funding, by journalists who translate them into public expectations, and by research groups who choose which experimental platform to join. When a survey states that non-Abelian anyons — the exchange type needed for universal topological quantum computation — were experimentally confirmed in 2020, readers downstream treat the milestone as closed and allocate effort accordingly. If the milestone has in fact not been reached, that misallocation is not cosmetic: it shifts years of effort and significant capital toward a platform whose enabling physics is unconfirmed, and it hides from newcomers the actual open problem, which is the experimental demonstration of non-Abelian exchange statistics itself. The second class is the unsupported performance claim: the assertion that coherent Ising machines beat classical heuristics by orders of magnitude inflates expectations for analog optimization hardware in exactly the same way. What changes if this paper's corrections hold is that survey readers get an accurate readiness picture, in which the demonstration of non-Abelian anyons is an open experimental goal rather than a settled fact, and analog-optimization claims are held to the evidentiary standard of the cited literature.
+
+A second pressure on the field is quantitative. Under the incumbent qubit-gate-circuit paradigm, fault-tolerant operation requires error correction, and error correction multiplies the physical hardware count. This paper quantifies that burden under explicitly stated assumptions: with a physical error rate $p = 10^{-3}$ against a code threshold $p_{\mathrm{th}} = 10^{-2}$, each logical qubit costs roughly $10^{3}$ physical qubits, so a commercially useful logical capacity of $10^{2}$–$10^{3}$ logical qubits demands $10^{5}$–$10^{6}$ physical qubits — a million-scale cryogenic control problem. If the assumptions hold, substrate choices that avoid or reduce the correction overhead deserve systematic attention alongside the universal digital scaffold.
+
+Beneath both problems sits the paper's constructive thesis. Quantum mechanics, stripped of particle ontology, is a theory of correlations: the computational primitive is the correlation structure, not the qubit as a particle-like two-level object. Manufacturable paths forward run through measurement-based, continuous-variable, topological, thermodynamic, and analog paradigms judged against real engineering constraints — a "physical computation ecosystem" in which each substrate is matched to the algorithmic need it serves natively.
+
+The contributions are:
+
+1. A verified correction of the 2020 non-Abelian-anyon claim, derived from the primary literature's own statements about what was and was not measured, with the operational criterion that separates Abelian from non-Abelian exchange (Sections 2 and 4).
+2. Explicit derivations, with shown arithmetic, of the quantitative statements the corrected analysis relies on: the unit-modulus scalar exchange phase (Section 4.1), the braid-length scaling estimate at finite target precision (Section 4.2), the measurement-iteration count for Jones-polynomial estimation (Section 4.3), and the anyonic error-correction threshold (Section 4.4).
+3. A physical-qubit overhead derivation under stated assumptions, giving $\sim 10^{3}$ physical qubits per logical qubit and $10^{5}$–$10^{6}$ total for $10^{2}$–$10^{3}$ logical qubits, with uncertainty propagation (Section 4.5).
+4. A revised readiness assessment of topological quantum computing that follows from the correction, with falsification conditions, limitations, and a smallest de-risking experiment (Sections 5, 6, and 7).
+
+## 2. Background and Related Work
+
+The corrected claims sit at the intersection of two literatures: the experimental status of non-Abelian anyons, and the evidentiary status of analog Ising solvers. Each of the following works contributes a specific point that the analysis uses.
+
+The pedagogical review [1] establishes the computational side of the ledger: the Fibonacci anyon model is the simplest anyon model that allows universal quantum computation by braiding alone, and the review works through the full pipeline — braiding matrices, qubit encodings, single-qubit braids approximating target operations to accuracy $\epsilon$ with minimum braid length scaling as $\mathcal{O}(\log(1/\epsilon))$, and the AJL algorithm for evaluating the Jones polynomial — including numerical simulations of the braiding operations. This matters for the correction because it shows precisely what a working topological quantum computer would require, and therefore what the unconfirmed experimental status of non-Abelian anyons is blocking: the entire braiding-only universality route runs through quasiparticles whose existence has not been demonstrated.
+
+Foundational context is supplied by [3], the comprehensive review of non-Abelian anyons and topological quantum computation. Its experimental-status statement is the single most important source for the first correction: for the $\nu = 5/2$ fractional quantum Hall state, the leading non-Abelian candidate, the review states that "there is no direct experimental evidence for the non-Abelian nature of the quasiparticles," that direct measurement of the topological nature of the state has been minimal, and that the fundamental quasiparticles of the Moore-Read Pfaffian state carry charge $e/4$, one of the few directly accessible handles. The review also develops the link between anyon models and link invariants, giving the relation $V_{L}(q) = \frac{1}{d}(-q^{3/2})^{w(L)} K_{L}(q)$ between the Jones polynomial and the Kauffman bracket. This paper uses [3] to establish that, as of the review's own accounting, the non-Abelian nature of fractional quantum Hall quasiparticles is a theoretical expectation, not a measurement.
+
+The Abelian side of the 2020 measurements is documented in [9], the review of non-Abelian anyons and non-Abelian vortices in topological superconductors. Its introduction records that anyons "have been experimentally observed for $\nu = 1/3$ fractional quantum Hall states," citing the 2020 works of Bartolamei et al. and Nakamura et al. The $\nu = 1/3$ Laughlin state supports Abelian anyons: exchange multiplies the wavefunction by a scalar phase factor, exactly as [9] describes for anyons generally ("a wave function of two anyons receives a nontrivial phase factor under their exchanges"). The 2020 experiments therefore confirmed the anyon concept and fractional statistics, but in an Abelian channel. The same review supplies the universality constraint that Section 5 retains: Ising anyons "are insufficient for universal quantum computations," while Fibonacci anyons, which would be universal, are expected in the $\nu = 12/5$ state — a system even less experimentally characterized than $\nu = 5/2$.
+
+The structural distinction between Abelian and non-Abelian exchange is made precise in [2], which constructs an explicit lattice realization of a non-Abelian topological memory in the $D(S_{3})$ quantum double model on a square lattice of six-level spins. Its central conceptual result, stated in its conclusions, is that two encodings in the fusion channels of the model's anyons are both fault-tolerant and locally indistinguishable, but one is distinguishable by LOCC protocols and equivalent to Abelian encodings, while the other is distinguishable only by non-local operations; [2] presents this as the operational distinction between Abelian and non-Abelian anyons from a quantum-information perspective. This gives the operational criterion used in Section 4: non-Abelian statistics requires a degenerate manifold of locally indistinguishable ground states on which exchange acts as a non-commuting unitary transformation, not a scalar phase. The 2020 measurements, being phase measurements on $\nu = 1/3$ anyons, do not meet this criterion.
+
+The universality gap for the most accessible non-Abelian anyons is quantified in [6], which studies continuous error correction for Ising anyons on an $L \times L$ lattice. Two of its results are used here. First, the gate set achievable by braiding Ising anyons "will not allow for universal quantum computation for any encoding," confirming that even a confirmed Ising-anyon platform would need non-topological supplement for universality. Second, its error-correction analysis — which reduces the anyon error model to the well-studied toric-code bit-flip model with bit-flip rate $p$ and perfect syndrome measurements, and carries an analytical proof that $p_{c} \geq 3.7\%$ for that problem — supplies the threshold number reported in Section 4.4. The paper also notes the resource concern that using non-Abelian anyons as physical qubits for a further round of error correction "may carry a large resource overhead."
+
+The route around the Ising-anyon universality gap inside the surface code is the subject of [4], which proposes hybrid islands of a qudit surface code based on the non-Abelian group $S_{3}$ embedded in the qubit surface code, connected by gapped domain walls between the $D(\mathbb{Z}_{2})$ and $D(S_{3})$ quantum double models. Transferring logical information across such a domain wall creates a non-stabilizer state, which combined with the surface code's Clifford gates yields universal quantum computation. Importantly for the readiness assessment, [4] states that full fault-tolerance of the scheme is not yet proven: it "must be shown that the logical error rate can be reduced arbitrarily by increasing the size of the islands," and the only current proof of full fault-tolerance concerns non-cyclic anyon models. This is exactly the kind of conditional, unproven status that the erroneous 2020 claim obscured.
+
+The experimental-host question is broadened by [5], which shows that Ising anyons can be engineered in a superconductor/Abelian quantum Hall heterostructure: a spin-unpolarized $\nu = 2/3$ fractional quantum Hall backbone coupled to an $s$-wave superconductor, with a trench realizing a $\mathbb{Z}_{3}$ parafermion critical point at the boundary. This proposal family matters to the correction because it demonstrates that candidate non-Abelian platforms are engineered heterostructures whose operation is itself unverified, not existing devices. The host landscape is broadened further by [7], which proposes spin-liquid-based topological qubits in Kitaev materials, with two scalable design classes (magnetic tunnel junction arrays and semiconductor-coupled charge-anyon composites), while stating plainly that detecting individual anyons in non-Abelian Kitaev spin liquids "poses a daunting task" because the fractionalized degrees of freedom couple only weakly to local probes — electrons from a lead cannot directly hybridize with emergent Majorana fermions born in the spin liquid.
+
+The operational side of braiding is addressed by [10], which replaces adiabatic anyon transport with adiabatic variation of pairwise interactions in a T-junction geometry of four anyons, showing that the resulting Berry matrix matches the braiding operation and that residual ground-state splitting errors are suppressed exponentially in the number of anyons added to the system. This is relevant to the engineering assessment in Section 7: even the gate-implementation mechanics of topological quantum computation remain at the level of proposals with error analyses, not demonstrated hardware. On the theory side, [11] investigates whether multiple-braiding in $SU(2)_{k}$ anyon models can realize universal quantum gate compilation, finding through analysis of the multiple elementary braiding matrices that multiple-braiding loses universality only when the braiding multiplicity collapses the matrices — a compilation-theoretic result that presupposes, rather than provides, the physical anyons.
+
+On the analog-optimization side, this paper takes the conservative reading of the coherent-Ising-machine literature. Coherent Ising machines are engineered analog systems whose dynamics minimize Ising-type cost functions; no source available to this analysis states, measures, or derives a speedup factor for them relative to classical heuristics. We therefore assert no performance advantage for them, under the convention that a quantitative claim with no derivable value and no supporting source is retracted rather than re-estimated (Section 4.5). This choice is made explicitly because a stronger claim circulates in survey literature and could not be verified here.
+
+## 3. Methods
+
+The paper's method is claim-level verification against primary sources, combined with explicit derivation of every quantitative statement the corrected text retains and an explicitly assumed scaling model for error-correction overhead.
+
+**Claim verification standard.** A factual claim about experimental status is retained only if a primary source states it. For the anyon-status question, the relevant primary statements are: [9]'s record that anyons were experimentally observed in $\nu = 1/3$ fractional quantum Hall states in 2020, which are Abelian anyons; [3]'s statement that there is no direct experimental evidence for the non-Abelian nature of the $\nu = 5/2$ quasiparticles; and [2]'s operational criterion that non-Abelian statistics requires exchange acting as a non-commuting transformation on a degenerate manifold of locally indistinguishable states. For the coherent-Ising-machine question, no source available states a speedup factor over classical heuristics, so the quantitative claim fails the standard and is retracted.
+
+**Derivation standard.** Every number in the corrected text is either derived with shown arithmetic from inputs stated in the cited sources, or labeled as an assumption or order-of-magnitude estimate with its unknown constant declared. No new experimental claim is introduced; this paper performs no measurement, simulation on hardware, or survey.
+
+**Scaling model.** For the error-correction overhead of Section 4.5, we assume a surface-code-style scheme with a physical error rate $p = 10^{-3}$ and a threshold $p_{\mathrm{th}} = 10^{-2}$, and we assume the overhead relation $N_{\mathrm{phys}} \approx \alpha (p_{\mathrm{th}}/p)^{\beta}$ with base factor $\alpha = 10^{2}$ and exponent $\beta = 1$. These three parameter choices are modeling assumptions of this paper, adopted for their representativeness of present superconducting-qubit error rates and the standard threshold scale; they are not attributed to any cited source. All calculations are analytical; uncertainty in $p$ is propagated as $\pm 10\%$, also an assumption.
+
+**Scope.** The remediation is confined to the two corrected claims and to quantitative statements made in their support. The constructive program — the ontological stripping of particle language, the paradigm survey, and the research agenda — is carried forward, and its claims are re-examined only where the corrections touch them, notably the readiness assessment of topological quantum computing, which the correction revises downward.
+
+## 4. Analysis
+
+This section derives every quantitative statement used by the corrected text. Each input is stated with its source or labeled as an assumption; each arithmetic step is shown.
+
+### 4.1 The exchange phase of an Abelian anyon has unit modulus
+
+**Input 1.** [9] states that a wave function of two anyons receives a nontrivial phase factor under their exchanges, and that anyons were experimentally observed in $\nu = 1/3$ fractional quantum Hall states in 2020.
+
+**Input 2.** [2] states the operational content of non-Abelian statistics: local measurements on two non-Abelian quasiparticles cannot determine how they behave as a composite, so exchange acts on a degenerate manifold of locally indistinguishable states; [9] states that exchanges of non-Abelian anyons are described by unitary transformations operating on topologically protected degenerate ground states.
+
+**Derivation.** For an Abelian anyon, the exchange operator is one-dimensional: it multiplies the wavefunction by the scalar $R = e^{2\pi i s}$ with $s \in \mathbb{R}$. Its modulus is
+
+$$|R| = |e^{2\pi i s}| = \sqrt{\cos^{2}(2\pi s) + \sin^{2}(2\pi s)} = \sqrt{1} = 1,$$
+
+since $\cos^{2}\theta + \sin^{2}\theta = 1$ for every real $\theta$. The exchange therefore acts by a phase of unit modulus — a one-dimensional, hence necessarily commuting, representation. By contrast, a non-Abelian exchange requires a representation of dimension $d \geq 2$ acting on the degenerate ground-state manifold, per Input 2, because a one-dimensional representation of any group is commutative: for scalars $a, b \in \mathbb{C}$, $ab = ba$ identically.
+
+### 4.2 Braid length at finite target precision
+
+**Input 3.** [1] states that single-qubit braids approximating required operations to a desired accuracy $\epsilon$ have minimum braid length scaling as $\mathcal{O}(\log(1/\epsilon))$.
+
+**Assumption 1.** The proportionality constant in the scaling law is of order unity; we take it to be exactly $1$ and the logarithm natural. This is a modeling assumption of this paper, adopted because [1] gives the scaling form but not a numerical constant, and because a constant of $1$ yields a conservative lower-end estimate.
+
+**Derivation.** With the assumed form $L = \ln(1/\epsilon)$ and target precision $\epsilon = 10^{-3}$:
+
+$$L = \ln\left(\frac{1}{10^{-3}}\right) = \ln(10^{3}) = 3\ln 10 = 3 \times 2.302585\ldots = 6.9078\ldots \approx 7.$$
+
+So a single-qubit gate at $10^{-3}$ target precision requires a braid of order $7$ elementary braids under this assumption. The estimate is a lower-end figure: if the true proportionality constant exceeds $1$, or if the scaling carries the Solovay-Kitaev-type exponent power, the length grows accordingly. The number's role is to show that even the *theory-side* compilation cost is finite and modest; the binding uncertainty is physical, not combinatorial.
+
+### 4.3 Measurement iterations for Jones-polynomial estimation
+
+**Input 4.** [1] states that the precision of the AJL algorithm's convergence is determined primarily by the number of iterations of the Hadamard test, with convergence at a rate proportional to $1/\sqrt{N}$, where $N$ is the number of iterations and repeated measurements.
+
+**Assumption 2.** The proportionality constant in the $1/\sqrt{N}$ convergence law is taken as $1$, so that the statistical precision equals $1/\sqrt{N}$. This is again a modeling assumption; [1] gives the rate but not the constant.
+
+**Derivation.** Setting the target statistical precision $\delta = 0.1$:
+
+$$\delta = \frac{1}{\sqrt{N}} \quad \Longrightarrow \quad N = \frac{1}{\delta^{2}} = \frac{1}{(0.1)^{2}} = \frac{1}{0.01} = 100.$$
+
+So estimating a Jones-polynomial value to $0.1$ precision requires on the order of $100$ measurement iterations. [1] additionally notes that the uncertainty scales with the factor $d^{n-1}$ (trace closure) or $d^{n/2-1}$ (plat closure), where $1 < d < 2$ for $k > 3$ and $n$ is the strand number, so knots with more strands carry larger error bars at fixed $N$; the count of $100$ is therefore a per-knot, fixed-strand figure, not a universal constant.
+
+### 4.4 Anyonic error-correction threshold
+
+**Input 5.** [6] reduces the anyon error model for Ising anyons on an $L \times L$ lattice to the toric-code bit-flip model with bit-flip rate $p$ and perfect syndrome measurements, and states that an analytical proof gives $p_{c} \geq 3.7\%$ for that problem.
+
+**Derivation.** The threshold is a cited bound, not a quantity this paper derives from first principles; the arithmetic here is unit conversion and margin comparison. Converting:
+
+$$p_{c} \geq 3.7\% = \frac{3.7}{100} = 0.037.$$
+
+Against the assumed physical error rate $p = 10^{-3}$ of Section 4.5, the margin is
+
+$$\frac{p_{c}}{p} = \frac{0.037}{10^{-3}} = 37.$$
+
+The operating point sits a factor of $37$ below the proven lower bound on the threshold. Two qualifications follow from [6]'s own analysis: the bound applies to the anyon sector under perfect syndrome measurements, while the fermion errors produced or swallowed during continuous correction generate a more involved correlated error model; and [6] notes that using non-Abelian anyons as physical qubits for a further round of error correction may carry a large resource overhead. The threshold therefore certifies the *anyon sector* of a hypothetical Ising-anyon architecture, not the architecture as a whole.
+
+### 4.5 Fault-tolerance overhead under stated assumptions
+
+**Assumption 3.** We assume a surface-code-style scheme with physical error rate $p = 10^{-3}$ and threshold $p_{\mathrm{th}} = 10^{-2}$, and the overhead relation
+
+$$N_{\mathrm{phys}} \approx \alpha \left(\frac{p_{\mathrm{th}}}{p}\right)^{\beta}$$
+
+with base factor $\alpha = 10^{2}$ and exponent $\beta = 1$. These parameter choices are modeling assumptions of this paper, adopted for their representativeness of present superconducting-qubit error rates and the standard threshold scale; they are not attributed to any cited source. Uncertainty in $p$ is propagated as $\pm 10\%$, also an assumption.
+
+**Derivation.** Central value:
+
+$$N_{\mathrm{phys}} = 10^{2} \times \left(\frac{10^{-2}}{10^{-3}}\right)^{1} = 10^{2} \times 10^{1} = 10^{3}.$$
+
+Uncertainty propagation. With $p \in [0.9 \times 10^{-3},\ 1.1 \times 10^{-3}]$:
+
+$$\frac{p_{\mathrm{th}}}{p}\bigg|_{p = 1.1 \times 10^{-3}} = \frac{10^{-2}}{1.1 \times 10^{-3}} = 9.0909\ldots, \qquad \frac{p_{\mathrm{th}}}{p}\bigg|_{p = 0.9 \times 10^{-3}} = \frac{10^{-2}}{0.9 \times 10^{-3}} = 11.1111\ldots$$
+
+$$N_{\mathrm{phys}} \in \left[10^{2} \times 9.0909\ldots,\ 10^{2} \times 11.1111\ldots\right] = [909.09\ldots,\ 1111.11\ldots] \approx [9.1 \times 10^{2},\ 1.1 \times 10^{3}].$$
+
+Total physical-qubit count for $N_{\mathrm{log}}$ logical qubits is $N_{\mathrm{tot}} = N_{\mathrm{log}} \times N_{\mathrm{phys}}$. At the interval endpoints:
+
+$$N_{\mathrm{tot}}\big|_{N_{\mathrm{log}} = 10^{2},\ N_{\mathrm{phys}} = 909.09\ldots} = 9.09 \times 10^{4} \approx 10^{5},$$
+
+$$N_{\mathrm{tot}}\big|_{N_{\mathrm{log}} = 10^{3},\ N_{\mathrm{phys}} = 1111.11\ldots} = 1.11 \times 10^{6} \approx 10^{6}.$$
+
+So under the stated assumptions, a machine with $10^{2}$–$10^{3}$ logical qubits requires $10^{5}$–$10^{6}$ physical qubits. The dominant sensitivity is to the ratio $p_{\mathrm{th}}/p$. Under the assumed relation with $\beta = 1$, lowering $p$ to $10^{-4}$ gives $N_{\mathrm{phys}} = 10^{2} \times (10^{-2}/10^{-4})^{1} = 10^{2} \times 10^{2} = 10^{4}$, a tenfold increase relative to the central value $10^{3}$; this contradicts the known physical behavior of surface codes, whose overhead falls as $p$ decreases. The linear model with fixed $\alpha$ therefore does not reproduce the physical decrease of surface-code overhead away from threshold, and we restrict its validity to the stated operating point $p = 10^{-3}$ and its $\pm 10\%$ band, treating extrapolation outside that band as unsupported by the model. This restriction is itself a limitation of the derivation, recorded in Section 6. This restriction is itself a limitation of the derivation, recorded in Section 6.
+
+## 5. Results
+
+The paper's computed and cited numbers, each traced to its derivation in Section 4, are:
+
+1. **Abelian exchange modulus** (Section 4.1): the exchange operator of an Abelian anyon acts by the scalar $R = e^{2\pi i s}$ with $|R| = 1$, a one-dimensional and therefore necessarily commuting representation. The $\nu = 1/3$ anyons observed in 2020, per [9], are of this type.
+
+2. **Braid length** (Section 4.2): under the stated assumption of a unit proportionality constant, a single-qubit gate at target precision $\epsilon = 10^{-3}$ requires $L = \ln(10^{3}) = 6.908 \approx 7$ elementary braids.
+
+3. **Measurement iterations** (Section 4.3): under the stated assumption of a unit proportionality constant in the $1/\sqrt{N}$ law, Jones-polynomial estimation to precision $0.1$ requires $N = 100$ measurement iterations.
+
+4. **Anyonic error-correction threshold** (Section 4.4): $p_{c} \geq 0.037$ for the Ising-anyon anyon sector under the reduction of [6], a factor of $37$ above the assumed operating error rate $p = 10^{-3}$.
+
+5. **Fault-tolerance overhead** (Section 4.5): under Assumption 3, $N_{\mathrm{phys}} \approx 10^{3}$ physical qubits per logical qubit, with the $\pm 10\%$ propagated band $[9.1 \times 10^{2},\ 1.1 \times 10^{3}]$, and $N_{\mathrm{tot}} \approx 10^{5}$–$10^{6}$ physical qubits for $10^{2}$–$10^{3}$ logical qubits.
+
+6. **Corrected experimental status** (Sections 2 and 4.1): the 2020 fractional quantum Hall measurements recorded in [9] concerned Abelian anyons at $\nu = 1/3$; for the leading non-Abelian candidate at $\nu = 5/2$, [3] states there is no direct experimental evidence for the non-Abelian nature of the quasiparticles. The claim that non-Abelian anyons were experimentally confirmed in 2020 is therefore corrected to: the anyon concept and fractional statistics were confirmed in an Abelian channel; non-Abelian exchange statistics remain undemonstrated.
+
+7. **Retracted performance claim** (Sections 2 and 3): the claim that coherent Ising machines solve combinatorial optimization problems orders of magnitude faster than classical heuristics is retracted, because no source available to this analysis states, measures, or derives such a speedup factor.
+
+Items 1–5 are derived or converted with shown arithmetic under labeled assumptions; items 6–7 are claim-level corrections grounded in the cited sources' own statements.
+
+## 6. Discussion
+
+The corrections change the readiness picture, not the theoretical appeal, of topological quantum computation. The braiding-only universality route through Fibonacci anyons [1], the domain-wall route to universality inside the surface code [4], and the heterostructure and spin-liquid host proposals [5], [7] all remain internally coherent research programs. What the correction removes is the premise that their enabling physics has been demonstrated. Every one of these programs presupposes non-Abelian quasiparticles whose exchange statistics have not been measured; [3] states this directly for $\nu = 5/2$, and [9] records that the confirmed 2020 observations are Abelian.
+
+**Limitations.** The quantitative results rest on the following assumptions, with their sensitivity:
+
+- The braid-length estimate (Section 4.2) assumes a unit proportionality constant in $L = \ln(1/\epsilon)$. If the true constant is $c$, the estimate scales linearly in $c$; a constant of $3$ gives $L \approx 21$ rather than $7$. The qualitative conclusion (finite, modest compilation cost) is insensitive; the specific number is not.
+- The measurement count (Section 4.3) assumes a unit constant in the $1/\sqrt{N}$ law and a fixed strand number. [1] states that uncertainty grows with the factor $d^{n-1}$ or $d^{n/2-1}$, so the count of $100$ underestimates the iterations needed for larger knots.
+- The threshold figure (Section 4.4) is a cited lower bound for the anyon sector under perfect syndrome measurements; the correlated fermion error model of [6] is outside the bound, and the resource overhead of a second error-correction round is flagged by [6] as potentially large.
+- The overhead model (Section 4.5) assumes $\alpha = 10^{2}$, $\beta = 1$, $p = 10^{-3}$, $p_{\mathrm{th}} = 10^{-2}$, and is valid only near the stated operating point: as shown in Section 4.5, the linear model does not extrapolate to substantially smaller $p$, where real surface-code behavior departs from it. The headline range $10^{5}$–$10^{6}$ inherits all four parameter choices; a different $\alpha$ shifts it proportionally.
+- The claim-level corrections depend on the cited sources' own accounting: [3]'s statement is a review-level assessment, and a direct non-Abelian exchange measurement published after the review's accounting would supersede it.
+
+**Falsification.** The main corrected claim — that non-Abelian exchange statistics in fractional quantum Hall systems are undemonstrated — would be falsified by a single published interference or fusion-channel measurement that satisfies the operational criterion of Section 4.1: exchange acting as a non-commuting transformation on a degenerate manifold of locally indistinguishable states, per the distinction established in [2]. Specifically, a measurement showing that quasiparticle exchange at $\nu = 5/2$ (or any other host) rotates the state within a locally indistinguishable degenerate subspace, rather than multiplying the wavefunction by a scalar phase, would overturn the correction and restore the stronger readiness assessment. The overhead result would be falsified if a demonstrated error-correction architecture achieved $10^{2}$–$10^{3}$ logical qubits with materially fewer than $10^{5}$ physical qubits at $p \approx 10^{-3}$, or if the threshold relevant to the full architecture (including the fermion sector) fell below the operating error rate.
+
+**Open questions.** Whether the $\nu = 12/5$ state, which [9] identifies as the expected host of universal Fibonacci anyons, can be experimentally characterized at all remains open; [3] states that even less is known about it than about $\nu = 5/2$. Whether the domain-wall scheme of [4] admits a full fault-tolerance proof for cyclic anyon models is open by [4]'s own statement. Whether spin-liquid hosts can be probed at the single-anyon level is open, with [7] describing the detection problem as daunting because the fractionalized degrees of freedom couple only weakly to local probes.
+
+## 7. Practical Implications and Engineering Pathways
+
+**(a) Who would use the result and what changes.** The primary users are survey authors, program managers at funding agencies, and research-group leaders choosing experimental platforms. If the corrections hold, the decision that changes is the allocation of effort and capital: the demonstration of non-Abelian exchange statistics becomes the recognized gating milestone for topological quantum computing, rather than a presumed-completed step, and analog-optimization hardware claims are held to the standard of quantitative, sourced evidence. A secondary user is the experimental community working on $\nu = 5/2$ and $\nu = 12/5$ interferometry, for whom the operational criterion of Section 4.1 supplies the explicit target: demonstrate exchange as a non-commuting transformation on a locally indistinguishable degenerate manifold, not merely a phase.
+
+**(b) Current readiness.** Against the NASA Technology Readiness Level definitions, this paper's own work is analytical and unreviewed: TRL 1–2. The corrected claims and derived numbers are at the level of basic principles and applied analysis. The hardware programs the assessment covers are likewise early: [5] and [7] are proposals with error analyses, not demonstrated devices; [10] shows that even the gate-implementation mechanics — braiding via pairwise interactions in a T-junction — remain at the level of proposals, with exponential protection in the number of added anyons proven analytically but not realized. No claim in this paper supports a readiness level above TRL 3 for any topological quantum computing architecture.
+
+**(c) Smallest next experiment.** The smallest de-risking experiment is a Fabry-Pérot interferometry measurement on a $\nu = 5/2$ device that attempts to distinguish the even-odd quasiparticle-count oscillation pattern expected for non-Abelian exchange from the Abelian alternative, with the oscillation visibility and phase compared against the two statistics' predictions. The outcome that refutes the paper's corrected claim is a measured interference signal that matches the non-Abelian prediction and cannot be reproduced by an Abelian model with any choice of parameters. A complementary, cheaper first step is a calculation: a full numerical decoding study of the $D(S_{3})$ domain-wall syndrome of [4], which would establish or refute the arbitrary suppression of logical error rates with island size that [4] identifies as the open fault-tolerance question.
+
+**(d) Binding constraints.** In order of first binding: (i) the experimental confirmation itself — no engineering pathway exists until exchange statistics are measured, per the criterion of Section 4.1; (ii) host-material quality — [5]'s heterostructure requires a spin-unpolarized $\nu = 2/3$ fractional quantum Hall backbone coupled to an $s$-wave superconductor with a trench realizing a $\mathbb{Z}_{3}$ parafermion critical point, a fabrication stack with no demonstrated working instance; (iii) detection — [7] states that individual anyons in non-Abelian Kitaev spin liquids couple only weakly to local probes, so readout is an open question for that host class; (iv) for the overhead estimate, the cryogenic control of $10^{5}$–$10^{6}$ physical qubits is the scale constraint, under Assumption 3. Whether the thermodynamic cost of such a system is dissipation-limited is an open question this paper does not quantify.
+
+**(e) Order-of-magnitude bounds.** The only quantitative projection this paper offers is the overhead range of Section 4.5: $10^{3}$ physical qubits per logical qubit, $10^{5}$–$10^{6}$ total for $10^{2}$–$10^{3}$ logical qubits, labeled a projection under Assumption 3 with the $\pm 10\%$ propagated band. No cost, market, or performance figure beyond this is derivable from the sources or the model, and none is asserted.
+
+**(f) Risks and misuse paths.** The corrected claims can be misused in the opposite direction: an inaccurate reading of this paper could support the claim that topological quantum computing is refuted rather than unconfirmed. The correction is about experimental status, not theoretical viability; [1], [2], [4], and [6] collectively establish that the theoretical pipeline is coherent. The retraction of the coherent-Ising-machine speedup claim likewise does not establish that such machines lack value; it establishes that a specific quantitative performance claim lacks supporting evidence in the sources available here.
+
+## 8. Conclusion
+
+This paper corrected two factual errors that propagate from survey literature into funding and research decisions, and it replaced the corrected text's qualitative posture with derived numbers. The 2020 fractional quantum Hall measurements confirmed Abelian anyons at $\nu = 1/3$, whose exchange acts by a scalar phase of unit modulus — derived in Section 4.1 as $|R| = 1$ for any one-dimensional exchange representation — while the non-Abelian status of the $\nu = 5/2$ quasiparticles remains, per [3], without direct experimental evidence. The claim of an orders-of-magnitude coherent-Ising-machine speedup was retracted for lack of any supporting quantitative source. The retained constructive program now carries explicit figures: a braid length of order $7$ elementary braids per gate at $10^{-3}$ target precision under a stated assumption, $100$ measurement iterations for $0.1$-precision Jones-polynomial estimation, an anyon-sector error-correction threshold of at least $3.7\%$, and — under explicitly labeled modeling assumptions — roughly $10^{3}$ physical qubits per logical qubit, i.e. $10^{5}$–$10^{6}$ physical qubits for $10^{2}$–$10^{3}$ logical qubits. The net effect is a downward revision of the assessed readiness of topological quantum computing and a relocation of its bottleneck: the field's gating problem is the experimental demonstration of non-Abelian exchange statistics itself, against the operational criterion that exchange act as a non-commuting transformation on a degenerate manifold of locally indistinguishable states. That demonstration, not engineering scale-up, is the milestone on which the paradigm's next assessment should turn.
+
+## Version History
+
+- Version 2.0.0 (2026-09-14, from 1.0.0): Adversarial audit revision. Fixes: no substantive corrections required.
+- Version 3.0.0 (2026-11-01, from 2.1.0): rewritten in full through the research pipeline. new sections: Introduction; Background and Related Work; Methods; Analysis; Results; Discussion. sections folded or removed: The Textbook Picture and Its Projections; The Minimal Ontological Commitments of Quantum Mechanics; What Is NOT There: The Absent Ontology; The Relational Core: Quantum Mechanics as a Theory of Correlations; The Physical Meaning of "Quantum"; Measurement-Based Quantum Computing (MBQC). references 0 -> 10. length 7705 -> 5670 words.
+
+## Provenance and AI Involvement
+
+- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.40.12-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+- Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by zai-org/glm-5.3-flash, openai/gpt-oss-120b, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
+- Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
+- Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
+- Independent recomputation: a separately generated script recomputed 10 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
+- Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
+
+## References
+
+[1] Introduction to topological quantum computation with non-Abelian anyons. arXiv:1802.06176. https://arxiv.org/abs/1802.06176
+[2] Universal quantum computation with a non-Abelian topological memory. arXiv:0906.2748. https://arxiv.org/abs/0906.2748
+[3] Non-Abelian Anyons and Topological Quantum Computation. arXiv:0707.1889. https://arxiv.org/abs/0707.1889
+[4] Universal quantum computation in the surface code using non-Abelian islands. arXiv:1811.06738. https://arxiv.org/abs/1811.06738
+[5] Universal topological quantum computation from a superconductor/Abelian quantum Hall heterostructure. arXiv:1307.4403. https://arxiv.org/abs/1307.4403
+[6] Continuous error correction for Ising anyons. arXiv:1508.04033. https://arxiv.org/abs/1508.04033
+[7] Spin-liquid-based topological qubits. arXiv:2411.08093. https://arxiv.org/abs/2411.08093
+[9] Non-Abelian Anyons and Non-Abelian Vortices in Topological Superconductors. arXiv:2301.11614. https://arxiv.org/abs/2301.11614
+[10] Braiding of non-Abelian anyons using pairwise interactions. arXiv:1210.5452. https://arxiv.org/abs/1210.5452
+[11] Universal Quantum Gate Compilation in $SU(2)_k$ Anyon Models via Multiple-Braiding. arXiv:2602.15324. https://arxiv.org/abs/2602.15324

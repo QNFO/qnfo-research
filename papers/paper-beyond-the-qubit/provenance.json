@@ -16,7 +16,14 @@
       }
     ]
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-415/paper-beyond-the-qubit",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f5798d6239f614192264f41cdc3ce5a254d2f98d3b728ec8ec4e89970cfaeb9a"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "paper-beyond-the-qubit"
@@ -44,6 +51,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "45271e9a2ba3c5d419490b50fe2091c5f6c465948786edd54001bb398682fa45",
+      "bytes": 41404,
+      "recorded_at": "2026-11-01",
+      "basis": "revision",
+      "version": "3.0.0",
       "git_commit": null
     }
   ],
