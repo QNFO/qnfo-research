@@ -1,0 +1,452 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-416: Syntactic Token Calculus: Deriving Particle‑like Normal Forms from Distinction Operations",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-416",
+      "qnfo:runPath": "runs/cycle-416/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op",
+      "qnfo:slug": "syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-01T05:23:54.729Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Syntactic Token Calculus: Deriving Particle‑like Normal Forms from Distinction Operations",
+      "url": "https://papers.qnfo.org/papers/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1307.2403",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1307.2403"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1310.6813",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1310.6813"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1501.07018",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1501.07018"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1505.07163",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1505.07163"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1511.05697",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1511.05697"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1807.02058",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1807.02058"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2204.06719",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2204.06719"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2210.12187",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2210.12187"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2304.08872",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2304.08872"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.01661",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.01661"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.14307",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.14307"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2508.14670",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2508.14670"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2605.19005",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2605.19005"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2607.22524",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2607.22524"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2198",
+      "sha256": "9f94edc4cc74e4b77a61ed930ba5665a691da7e46afcf55c5925ad92cb5aad49",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "79476",
+      "sha256": "dc1ba557f098f0cc2b63a0bde83adfc788781b1401ca4c8ef3afcc6a1a8ebde7",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "38247",
+      "sha256": "990b583a5a027db1dc69426d428976a8faba3cbaa09ab5ecf11fd14bce143055",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1312",
+      "sha256": "e10fe96e7f3e71db9997801bf6fa1d786394561737147e3ffb2f0efe316825c7",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2540",
+      "sha256": "cf7c5ac2e5767ba69ec58f84eb367f47fb55d2a7b58afae88ece90f894cd82b7",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9505",
+      "sha256": "91762e3044a2190429f339eb65eee090866a6baff87915d229bc40497ce24735",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "6276",
+      "sha256": "af268e73fa4db7c8a4201b3d01e51da3bcff36a3343b008573851ba408564a7a",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18348",
+      "sha256": "f091ed82bb0fb4a6ea6a63363a3ddb013430b57a66cf7d3b7320c751783cfbad",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25206",
+      "sha256": "4784b2b72e0bcb08b9d17be3216a26585b9549215470a6ea56bb5670e5668529",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1307.2403"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1310.6813"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1501.07018"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1505.07163"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1511.05697"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1807.02058"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2204.06719"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2210.12187"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2304.08872"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.01661"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.14307"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2508.14670"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2605.19005"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2607.22524"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-01T05:23:54.729Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-e5e3d4fa-9573-493c-a0de-af10bdb0da3c",
+    "slug": "syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op",
+    "cycle": "cycle-416",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.40.12-codeagent",
+    "finished_at": "2026-11-01T05:23:54.729Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "dc1ba557f098f0cc2b63a0bde83adfc788781b1401ca4c8ef3afcc6a1a8ebde7",
+      "bytes": 79476,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "990b583a5a027db1dc69426d428976a8faba3cbaa09ab5ecf11fd14bce143055",
+      "bytes": 38247,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "e10fe96e7f3e71db9997801bf6fa1d786394561737147e3ffb2f0efe316825c7",
+      "bytes": 1312,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "cf7c5ac2e5767ba69ec58f84eb367f47fb55d2a7b58afae88ece90f894cd82b7",
+      "bytes": 2540,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "91762e3044a2190429f339eb65eee090866a6baff87915d229bc40497ce24735",
+      "bytes": 9505,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "af268e73fa4db7c8a4201b3d01e51da3bcff36a3343b008573851ba408564a7a",
+      "bytes": 6276,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "f091ed82bb0fb4a6ea6a63363a3ddb013430b57a66cf7d3b7320c751783cfbad",
+      "bytes": 18348,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "4784b2b72e0bcb08b9d17be3216a26585b9549215470a6ea56bb5670e5668529",
+      "bytes": 25206,
+      "role": "draft"
+    }
+  }
+}
