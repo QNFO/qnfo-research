@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-78bdb896-a81c-460a-a3de-b9bc16603def",
+    "slug": "lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
+    "cycle": "cycle-411",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.40.12-codeagent",
+    "finished_at": "2026-11-01T01:53:47.250Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "4269931f368836cbfaa91e98956294e989ba90b21bdb9cc790d9c8e69122f265",
+      "bytes": 54571,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "eb618a54f7745452c0f70b61ecb69e7314f6d4150baa9abf2fc702533210417d",
+      "bytes": 33008,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "d95bfbe8baebbe4cb5bcc970749fefc200eced4ec74efda23699d99f981e941c",
+      "bytes": 3378,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "a91c5b3031729b11c49bdcf8ac6b2dbc12b60f795c6257ac5abb5449edaa2c20",
+      "bytes": 3730,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "a67ee888281981fcece2758802923c04a27156ba3ba1f02edb848d59c51df88f",
+      "bytes": 13099,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "79c46840e572243992778ab8de8578c47af48bd556a085736ebdc1e85df04abb",
+      "bytes": 6524,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "7d5ab736eb1f1e5decc3130883bc7f3f4fd8f168cdb518ad7b25c5c4ead5cddd",
+      "bytes": 26480,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "30fda1a336ed627198520b42d60895ac254886dc5cd18b3ad70719920f59644a",
+      "bytes": 17020,
+      "role": "draft"
+    }
+  }
+}
