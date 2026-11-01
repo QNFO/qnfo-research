@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "two-faced-scientific-methodology",
+  "paper": {
+    "path": "papers/two-faced-scientific-methodology/paper.md",
+    "title": "Two-Faced Scientific Methodology",
+    "url": "https://papers.qnfo.org/papers/two-faced-scientific-methodology"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "two-faced-scientific-methodology"
+  },
+  "snapshots": [
+    {
+      "sha256": "8940dd7b9965c8d0c5a5dba0cef5ef425425b10f32d7116b91d1bc6cea9ac4ae",
+      "bytes": 27610,
+      "recorded_at": "2026-11-01",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
