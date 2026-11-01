@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-0263d3d6-54c3-49a5-a38a-db7348d6a59e",
+    "slug": "ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach",
+    "cycle": "cycle-413",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.40.12-codeagent",
+    "finished_at": "2026-11-01T03:44:42.234Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "9fd330c3d5c64e5227eb8477e97875543c7dcd85df9ab65daea7a166a3538243",
+      "bytes": 56133,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "b74a5b1d5abb451f9434cd28711126a6b5364c95fc4814b022051a337e75e83d",
+      "bytes": 43062,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "0b0a125efba417410d8edf3c0ee17d7f119bc29de469d7d948420183ea8735c8",
+      "bytes": 5302,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "efe497d6e217e1271c4d58b1d06309624385aa50ae3bac01daca33a8d1432d59",
+      "bytes": 3389,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "16f86551ae124db13c6bc025844893711f2a43132c408156941e21d98dd66904",
+      "bytes": 15435,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "efabac9ac16186142a60734940ee50fa4af027973cb580e2865e87da7b4b9352",
+      "bytes": 8395,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "d8886eecd14ce7e9c9cc3c76cb542790501c234fd019a6c3af50d7b3f90e091b",
+      "bytes": 27064,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "24b28eaf534db42de96378c10ea1119549fd3ff839d7dde880ccf03cab6e20ea",
+      "bytes": 11272,
+      "role": "draft"
+    }
+  }
+}
