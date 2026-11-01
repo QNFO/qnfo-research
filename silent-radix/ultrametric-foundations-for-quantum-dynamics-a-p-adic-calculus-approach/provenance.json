@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-413/ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d152e459af3f1cd8b7a5ec69395223ecfdb483ae08290b3bce5c3e56a0ef60f5"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "ultrametric-foundations-for-quantum-dynamics-a-p-adic-calculus-approach"
@@ -23,6 +30,14 @@
       "recorded_at": "2026-10-26",
       "basis": "deposit",
       "version": "1.0.1",
+      "git_commit": null
+    },
+    {
+      "sha256": "181eb96b37f8873a45d5d06bb85631c4c259ff4aa5f90776f21513433495f9c9",
+      "bytes": 43369,
+      "recorded_at": "2026-11-01",
+      "basis": "revision",
+      "version": "2.0.0",
       "git_commit": null
     }
   ],
