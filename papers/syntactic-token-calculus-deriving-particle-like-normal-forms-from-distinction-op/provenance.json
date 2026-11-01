@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-416/syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9f94edc4cc74e4b77a61ed930ba5665a691da7e46afcf55c5925ad92cb5aad49"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "syntactic-token-calculus-deriving-particle-like-normal-forms-from-distinction-op"
@@ -23,6 +30,14 @@
       "recorded_at": "2026-10-26",
       "basis": "deposit",
       "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "4adcf96ac5aaf89e226775a331fda2d5fa1bf8c49c4721ba686cd428dcfd1d45",
+      "bytes": 38406,
+      "recorded_at": "2026-11-01",
+      "basis": "revision",
+      "version": "2.0.0",
       "git_commit": null
     }
   ],
