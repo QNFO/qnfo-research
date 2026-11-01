@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "map-is-not-the-universe",
+  "paper": {
+    "path": "papers/map-is-not-the-universe/paper.md",
+    "title": "Math is NOT the Universe",
+    "url": "https://papers.qnfo.org/papers/map-is-not-the-universe"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "map-is-not-the-universe"
+  },
+  "snapshots": [
+    {
+      "sha256": "8ac36e61c3ff1f4af2b8197ee4ac765db3983bd312c0fb6e748e71f2ae6958e6",
+      "bytes": 95789,
+      "recorded_at": "2026-11-01",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
