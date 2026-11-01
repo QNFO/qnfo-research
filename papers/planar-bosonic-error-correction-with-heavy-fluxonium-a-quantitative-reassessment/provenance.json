@@ -23,6 +23,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "107c1483857fe7f3707ecc2330354c306830439ed08c960a2a6f9169feea84b7"
+    },
+    {
+      "path": "runs/cycle-414/planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e0f44891a32667b5aa58b7c515be573e44b8dee07496c538e86e374f2f08f43d"
     }
   ],
   "identifiers": {
@@ -52,6 +58,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "8c3a2a6e567ba09b5e7c7442f773918d51ec4f5e75119b5e87920cb6d9f8ae8a",
+      "bytes": 39198,
+      "recorded_at": "2026-11-01",
+      "basis": "revision",
+      "version": "3.0.0",
       "git_commit": null
     }
   ],
