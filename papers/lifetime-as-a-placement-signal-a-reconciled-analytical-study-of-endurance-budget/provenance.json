@@ -29,6 +29,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "d70d4646d21b866de414356ea5c82fe883817604e65be0d2636eeb7bc4c79734"
+    },
+    {
+      "path": "runs/cycle-411/lifetime-as-a-placement-signal-a-reconciled-analytical-study-of-endurance-budget",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "67f18b9d0846f5ee7b75f06c6b9f13db8ef5c835ab62c9fcc369ad1fc53263be"
     }
   ],
   "identifiers": {
@@ -58,6 +64,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "eab1365a7d786deb05b5473dc4316083e41a649cf66c6ff178ea1cd6aafe7ae8",
+      "bytes": 33548,
+      "recorded_at": "2026-11-01",
+      "basis": "revision",
+      "version": "3.0.0",
       "git_commit": null
     }
   ],
