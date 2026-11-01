@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-45bbc62e-7268-4b04-9869-9e1e8bacdf48",
+    "slug": "planar-bosonic-error-correction-with-heavy-fluxonium-a-quantitative-reassessment",
+    "cycle": "cycle-414",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.40.12-codeagent",
+    "finished_at": "2026-11-01T05:11:25.507Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "d27c564db529fdc43007fd891bbcb0cc737f83ba547fe5dfa939cba92cc0956e",
+      "bytes": 46337,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "002443050f93e5e189228a31124bb7e0ae711ee9e3acab6279ed8ace91f290d7",
+      "bytes": 38768,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "07cf6fa9c6b4b307f9384532c9f2b0035716622abf56d243a3ed91cee4a70497",
+      "bytes": 2876,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "cf4d1ee19c88bcb84b19a4ee639629d55615d46ac3c0ded65486235191fd2d9f",
+      "bytes": 4082,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "6cb7a052b87a0b9e90e807bb4ebed0cca51e40c3012cb7d368ac0c78a5533aaa",
+      "bytes": 14631,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "5e81c7e799ea04e9de06bb5150b3acc512756568b2f48f09870449df9645bfe0",
+      "bytes": 7615,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "371f760235a67cc459061626ff222b7fcd85f4379c316b41d07a1124c1d987ec",
+      "bytes": 20798,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "76b5fbdcceaebfebcb50fbe50f141dd2749cf643a5c8f902c873571262e756b8",
+      "bytes": 21559,
+      "role": "draft"
+    }
+  }
+}
