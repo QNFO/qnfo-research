@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-ff2578e5-0c3a-435f-b395-1358cdd9b52b",
+    "slug": "ultrametric-state-counting-a-p-adic-alternative-to-planck-s-black-body-statistic",
+    "cycle": "cycle-417",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.44.3",
+    "finished_at": "2026-11-01T23:24:51.216Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "dd849b489f7fba401f3f45f1dc26b3e7fe62dd484c0cb5b5d3eca2e4ce3d7cd6",
+      "bytes": 58719,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "9ab812b8a2dfa71eacb0a870027edb32afe29419ab8088588c379575722ea2d2",
+      "bytes": 34951,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "0e4305091d1af4a03fcf92ae9eb0baa3ebba397f88496c86f9aa94475edf948c",
+      "bytes": 10965,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "6701f1dad8ef296fc612b472f06cc9c62066d952ff169a5497f2485d79532bb1",
+      "bytes": 11758,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "6fb1b741f068664e350db2920b5752995a668892a3513868be9f36331d2a43ab",
+      "bytes": 15896,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "b7fc1d85cf23832f0672700ae3445051fdba569479950a789fbc60bf711575cf",
+      "bytes": 8689,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "36fc0017a808aa695e7be102d9a5683c2531cd9aacd8e51f3ab1f24223d705ab",
+      "bytes": 24854,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "d4086a22338756438357a38c98d792584e710379e15d7c0219b30677c0367423",
+      "bytes": 34703,
+      "role": "draft"
+    }
+  }
+}
