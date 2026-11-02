@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "049748d5-8980-479e-a19e-209e8e8ebe10",
+    "slug": "decryption-capable-analog-machines-bounded-state-conditions-under-which-key-sear",
+    "cycle": "cycle-421",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.44.7-codeagent",
+    "finished_at": "2026-11-02T09:49:41.292Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "8c2bdf0c8719822ff4467b902aa11c90dde90a6a48454d28a1cca25aec02e8d6",
+    "bytes": 48528,
+    "path": "papers/decryption-capable-analog-machines-bounded-state-conditions-under-which-key-sear/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "746c4d4ec33b635418a9538c2b2b4b543bb06690b7df8326c6c41ffaa0a7d50f",
+      "bytes": 50519,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "086b2608c43a166220cdd3d9571694ce5e8f15636a4e83b5f7650f7d815d9ec1",
+      "bytes": 48529,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "4346b6c1906d750cdd5f848153fea84002bb22b7f09ea2c9a869c8fba527633f",
+      "bytes": 5238,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "9aaf4d3f52d62126b8f7ee41a3894381f6f5d412b424a96f6beb69bbe992551d",
+      "bytes": 4789,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "31fec6b701cee72f11d7386bfa6aa4ba6eee489cc462ba0b5af81b058342719b",
+      "bytes": 17958,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "1fd66303568516ad84413bc3cedf2baad9e6a53d197ae7fbdc3ce7c2b408e3aa",
+      "bytes": 9888,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "b8098c22cd46964e4611063caa5a8df8084af26cfeba164facecd020c7e4b2c1",
+      "bytes": 25103,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "e812a8bb7c3cb3c315ec9ea509896966a5a3ee01c4f6aeaae061b0f1c94f439f",
+      "bytes": 25583,
+      "role": "draft"
+    }
+  }
+}

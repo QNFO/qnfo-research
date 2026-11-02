@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "decryption-capable-analog-machines-bounded-state-conditions-under-which-key-sear",
+  "paper": {
+    "path": "papers/decryption-capable-analog-machines-bounded-state-conditions-under-which-key-sear/paper.md",
+    "title": "Decryption-Capable Analog Machines: Bounded-State Conditions under Which Key Search Implies Universal Computation",
+    "url": "https://papers.qnfo.org/papers/decryption-capable-analog-machines-bounded-state-conditions-under-which-key-sear"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-421/decryption-capable-analog-machines-bounded-state-conditions-under-which-key-sear",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "41365609d8a839b45fc603905b7d907df6b8ff48e50050efd617bb346f98c114"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "049748d5-8980-479e-a19e-209e8e8ebe10"
+    ],
+    "living_paper_slug": "decryption-capable-analog-machines-bounded-state-conditions-under-which-key-sear"
+  },
+  "snapshots": [
+    {
+      "sha256": "8c2bdf0c8719822ff4467b902aa11c90dde90a6a48454d28a1cca25aec02e8d6",
+      "bytes": 48528,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
