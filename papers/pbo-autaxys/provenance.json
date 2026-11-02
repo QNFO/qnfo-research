@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "pbo-autaxys",
+  "paper": {
+    "path": "papers/pbo-autaxys/paper.md",
+    "title": "Pillar 3: PBO/Autaxys — Pattern-Based Ontology as Intrinsic Self-Ordering",
+    "url": "https://papers.qnfo.org/papers/pbo-autaxys"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "pbo-autaxys"
+  },
+  "snapshots": [
+    {
+      "sha256": "f040f716ede979277bf06d2de3e7f95c20455410762b6a8399eca3776f541912",
+      "bytes": 29309,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

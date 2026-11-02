@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "pattern-particle-unification",
+  "paper": {
+    "path": "papers/pattern-particle-unification/paper.md",
+    "title": "One Table, Two Regimes: Standard-Model Particles and Condensed-Matter Excitations as Patterns on the Bruhat-Tits Tree",
+    "url": "https://papers.qnfo.org/papers/pattern-particle-unification"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "pattern-particle-unification"
+  },
+  "snapshots": [
+    {
+      "sha256": "96585c85a7613aac751ec1674ff25bd39fd044fadf60ec040a53803d0fbfb9b8",
+      "bytes": 34366,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.5",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
