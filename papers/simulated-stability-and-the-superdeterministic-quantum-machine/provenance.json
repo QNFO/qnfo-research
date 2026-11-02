@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "simulated-stability-and-the-superdeterministic-quantum-machine",
+  "paper": {
+    "path": "papers/simulated-stability-and-the-superdeterministic-quantum-machine/paper.md",
+    "title": "Simulated Stability and the Superdeterministic Quantum Machine",
+    "url": "https://papers.qnfo.org/papers/simulated-stability-and-the-superdeterministic-quantum-machine"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "simulated-stability-and-the-superdeterministic-quantum-machine"
+  },
+  "snapshots": [
+    {
+      "sha256": "3caa1b9fc163847438189fdb93ad2c8ee836362861ea194d9a2ab0ca8db2bbd8",
+      "bytes": 162643,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,12 +1,6 @@
-# Silent-Radix Cryptography:
-## Exploiting the Base Ambiguity of Positional Notation as a Cryptographic Primitive
+# Silent-Radix Cryptography: Exploiting the Base Ambiguity of Positional Notation as a Cryptographic Primitive
 
-**Author:** QNFO | **Date:** 2026-06-29
-**License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-
----
-
-### Abstract
+## Abstract
 
 The observation that a positional numeral cannot internally specify its own
 base — the "silent radix" problem identified in §1.1 of the Ultrametric
@@ -19,8 +13,6 @@ same decimal digit string $N$, must solve a variant of the integer knapsack
 problem where the weights ($b^i$) are unknown: given $N = \sum d_i \cdot 10^i$,
 find $b$ such that $K = \sum d_i \cdot b^i$ decodes the ciphertext correctly.
 For $b \sim 2^{128}$, brute force is infeasible.
-
----
 
 ## 1. Mathematical Foundation
 
@@ -323,13 +315,3 @@ mathematical representation and the practice of information security.
 *This chapter extends the Ultrametric Foundation thesis (§1.1, §2.1)
 with a concrete cryptographic application. Prototype implementation
 available at `_silent_radix.py`.*
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
-
-
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "signal-worker-boundary-confinement",
+  "paper": {
+    "path": "papers/signal-worker-boundary-confinement/paper.md",
+    "title": "Signal-Worker Boundary Confinement: A Corrected Ontology of Surface vs Bulk Transport",
+    "url": "https://papers.qnfo.org/papers/signal-worker-boundary-confinement"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "signal-worker-boundary-confinement"
+  },
+  "snapshots": [
+    {
+      "sha256": "382a297af02f6bfd9c5f6100f22219edc1be61a81413d5dd5b3ef354e9d51d27",
+      "bytes": 28336,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -3,7 +3,7 @@
   "slug": "silent-radix-synthesis",
   "paper": {
     "path": "silent-radix/silent-radix-synthesis/paper.md",
-    "title": "Silent-Radix Cryptography:",
+    "title": "Silent-Radix Cryptography: Exploiting the Base Ambiguity of Positional Notation as a Cryptographic Primitive",
     "url": "https://papers.qnfo.org/papers/silent-radix-synthesis"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "e3a1322ac934475831d44ae6fb645af999067195"
+    },
+    {
+      "sha256": "0d62162f7cb6cb6afd7b1138d7085d0952f1582556570a59e0f38965025f51bc",
+      "bytes": 13888,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

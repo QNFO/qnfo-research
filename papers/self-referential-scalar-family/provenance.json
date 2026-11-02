@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "self-referential-scalar-family",
+  "paper": {
+    "path": "papers/self-referential-scalar-family/paper.md",
+    "title": "The Self-Referential Scalar Family: e, the Half-Turn, and the Unification of Information Theory, Statistics, Thermodynamics, and QND Measurement in the Adelic Picture",
+    "url": "https://papers.qnfo.org/papers/self-referential-scalar-family"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "self-referential-scalar-family"
+  },
+  "snapshots": [
+    {
+      "sha256": "5ea0abb9eebbb68903c39f6a27118830e1becf43f12d7d8d79c25c53ba3084f9",
+      "bytes": 36994,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.3.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
