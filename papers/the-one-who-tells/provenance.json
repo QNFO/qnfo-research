@@ -24,6 +24,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "dc887fadc3e640a4ef12af43ae37d6d872028f53"
+    },
+    {
+      "sha256": "4ff0b99fd800f6edc869f2d12f48384652dd69044cda08fa8897b1137d2525c0",
+      "bytes": 31441,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
     }
   ],
   "events": []

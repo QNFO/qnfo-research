@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-morita-p-adic-gamma-function-computation-adelic-structure-and-the-factoring-",
+  "paper": {
+    "path": "adelic-freedom/the-morita-p-adic-gamma-function-computation-adelic-structure-and-the-factoring-/paper.md",
+    "title": "The Morita p-Adic Gamma Function: Computation, Adelic Structure, and the Factoring Question",
+    "url": "https://papers.qnfo.org/papers/the-morita-p-adic-gamma-function-computation-adelic-structure-and-the-factoring-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-morita-p-adic-gamma-function-computation-adelic-structure-and-the-factoring-"
+  },
+  "snapshots": [
+    {
+      "sha256": "ed9a59d5421a0606e7f8a2864a504bda47960b62f631e666a86fa2ccbb1a4022",
+      "bytes": 23762,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "0.4",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

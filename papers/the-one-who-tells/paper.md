@@ -1,8 +1,6 @@
 # The One Who Tells
 
-## A
-Personal Essay Based on Knowing Patterns: An
-Epistemology for People Tired of Being Fixed
+## A Personal Essay Based on Knowing Patterns: An Epistemology for People Tired of Being Fixed
 
 A few days ago, I published [an
 article about being tired of reading self-help books](https://medium.com/@QNFO/im-done-reading-books-to-become-a-better-person-a8b5a3f7fcd3). Tired of the
@@ -367,8 +365,7 @@ Epistemology for People Tired of Being Fixed](https://rwnq8.github.io/knowing-pa
 distributed without profit or capture. The full text of Chapter 6 is
 included below.*
 
-# Appendix: Chapter 6—The
-Stories We Tell
+# Appendix: Chapter 6—The Stories We Tell
 
 *[Complete text from Knowing Patterns: An Epistemology for People
 Tired of Being Fixed]*
@@ -390,8 +387,7 @@ This is not a problem. The problem is that we forget we are telling
 stories. The story becomes *reality*—the way things actually
 are—and any alternative story feels like a lie.
 
-## The Story You Tell About
-Yourself
+## The Story You Tell About Yourself
 
 You have a story about who you are. It goes something like this:
 
@@ -414,8 +410,7 @@ The story is a pattern—a way of organizing experience into a shape
 that makes sense. And like all patterns, it is real without being
 fixed.
 
-## Narrative Identity as
-Attractor
+## Narrative Identity as Attractor
 
 In Chapter 4, we described the self as an attractor—a characteristic
 shape of responding. The stories you tell about yourself are part of
@@ -473,8 +468,7 @@ you stop having to believe everything it says. Not because you label it
 That’s just trading one story for another. But because you recognize it
 for what it is: a pattern of narration, not a window onto reality.
 
-## The Problem with “Finding
-Your Story”
+## The Problem with “Finding Your Story”
 
 The self-help industry has commercialized narrative identity. “Find
 your story.” “Own your narrative.” “Rewrite your past to change your
@@ -566,4 +560,3 @@ The relationship between the present essay and these earlier works is one of ext
 ## Changelog
 
 - v1.1.0: Added a Prior Work and Related Literature section that places this paper among 2 related QNFO papers.
-
