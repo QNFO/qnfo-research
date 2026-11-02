@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantitative-simulation-of-the-brains-cognitive-architecture",
+  "paper": {
+    "path": "papers/quantitative-simulation-of-the-brains-cognitive-architecture/paper.md",
+    "title": "Quantitative Simulation of the Brain's Cognitive Architecture",
+    "url": "https://papers.qnfo.org/papers/quantitative-simulation-of-the-brains-cognitive-architecture"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantitative-simulation-of-the-brains-cognitive-architecture"
+  },
+  "snapshots": [
+    {
+      "sha256": "2649b3edbbf2f94145d3d83c327f9dabbe621129f51f5fa00164635716e8f5d5",
+      "bytes": 51500,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

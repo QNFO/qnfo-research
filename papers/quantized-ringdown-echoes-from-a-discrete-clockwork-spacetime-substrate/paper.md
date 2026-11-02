@@ -1,10 +1,10 @@
 # Quantized Ringdown Echoes from a Discrete Clockwork Spacetime Substrate
 
 ## Abstract
+
 Gravitational‑wave observations of binary‑black‑hole mergers provide direct access to the post‑merger ringdown, a regime traditionally modeled by a smooth superposition of quasi‑normal modes (QNMs). A discrete computational substrate for spacetime predicts that the ringdown should contain a comb‑like series of equally spaced spectral lines—“quantized echoes”—instead of a continuous chirp. Existing analyses assume equal‑interval echoes or ignore discreteness altogether, leaving a gap in tests of the clockwork hypothesis. We model the substrate as an Abelian clockwork chain with \(N\!+\!1\) sites, integer gear ratio \(q>1\), and explicit‑breaking parameter \(\epsilon\). Using the hierarchy \(q^{-N}\) to set the fundamental time step, we derive a line‑spacing formula \(\Delta f_{\rm eff}= f_{\rm QNM}\,q^{-N}\) and an amplitude suppression factor \(\mathcal{A}_{\rm echo}= \epsilon^{N}\). For a representative merger with \(f_{\rm QNM}=250\;\mathrm{Hz}\), \(q=3\), \(N=10\), and \(\epsilon=0.1\), we obtain \(\Delta f_{\rm eff}\approx4.2\times10^{-3}\;\mathrm{Hz}\) and \(\mathcal{A}_{\rm echo}\approx10^{-10}\) relative to the dominant QNM. These numbers place the predicted comb well below current detector noise but within reach of next‑generation facilities. The result offers a falsifiable discriminator between continuous general relativity and a discrete clockwork spacetime.
 
-## 1. Introduction
-Gravitational‑wave observatories face a concrete and unresolved question: does the remnant of a binary‑black‑hole merger possess an event horizon or a reflective surface? The distinction matters because a horizonless remnant would return trapped radiation as delayed “echoes,” whereas a true horizon absorbs all post‑merger radiation. Current echo searches treat the spacing and amplitude of such echoes as free phenomenological parameters, limiting the interpretability of null results and the confidence of any marginal detection. This gap blocks a direct test of discrete‑spacetime models and delays potential breakthroughs in quantum‑gravity phenomenology. A detection of a regular comb of spectral lines with spacing derived from an underlying discrete substrate would provide a sharp, falsifiable discriminator between continuous general relativity and a discrete/clockwork spacetime, guiding detector design and data‑analysis strategies.
+## 1. Introduction Gravitational‑wave observatories face a concrete and unresolved question: does the remnant of a binary‑black‑hole merger possess an event horizon or a reflective surface? The distinction matters because a horizonless remnant would return trapped radiation as delayed “echoes,” whereas a true horizon absorbs all post‑merger radiation. Current echo searches treat the spacing and amplitude of such echoes as free phenomenological parameters, limiting the interpretability of null results and the confidence of any marginal detection. This gap blocks a direct test of discrete‑spacetime models and delays potential breakthroughs in quantum‑gravity phenomenology. A detection of a regular comb of spectral lines with spacing derived from an underlying discrete substrate would provide a sharp, falsifiable discriminator between continuous general relativity and a discrete/clockwork spacetime, guiding detector design and data‑analysis strategies.
 
 **Contributions.**  
 - **C1.** Derivation of the quantized line‑spacing formula \(\Delta f_{\rm eff}= f_{\rm QNM}\,q^{-N}\) from an Abelian clockwork model (Section 3, derived in Section 4).  
@@ -12,8 +12,7 @@ Gravitational‑wave observatories face a concrete and unresolved question: does
 - **C3.** Numerical evaluation of \(\Delta f_{\rm eff}\) and \(\mathcal{A}_{\rm echo}\) for a representative BBH merger (Section 5).  
 - **C4.** Assessment of observational feasibility and proposal of the minimal next analysis experiment (Section 7).  
 
-## 2. Background and Related Work
-The clockwork mechanism generates exponential hierarchies through a lattice of interacting fields. In its simplest Abelian realization, a set of \(N\!+\!1\) complex scalars \(\phi_{j}\) with nearest‑neighbor couplings exhibits a gear ratio \(q>1\) and an explicit‑breaking parameter \(\epsilon\) [1, § 1.1]. This structure underlies the hierarchical suppression factors used in our model.
+## 2. Background and Related Work The clockwork mechanism generates exponential hierarchies through a lattice of interacting fields. In its simplest Abelian realization, a set of \(N\!+\!1\) complex scalars \(\phi_{j}\) with nearest‑neighbor couplings exhibits a gear ratio \(q>1\) and an explicit‑breaking parameter \(\epsilon\) [1, § 1.1]. This structure underlies the hierarchical suppression factors used in our model.
 
 Supersymmetric extensions preserve the clockwork hierarchy for axions, saxions, and axinos, demonstrating that the exponential pattern survives additional symmetry constraints [2, § II]. Although the supersymmetric context is not directly required for GW phenomenology, it confirms the robustness of the hierarchy under model variations.
 
@@ -54,8 +53,7 @@ Because the observable signal is the Fourier transform of the time‑domain ring
 \]
 All derivations assume linear perturbations on a stationary background and neglect back‑reaction of the echo signal on the geometry.
 
-## 4. Analysis
-We evaluate the formulas for a representative BBH merger with the following inputs, each drawn from the literature or stated as explicit assumptions:
+## 4. Analysis We evaluate the formulas for a representative BBH merger with the following inputs, each drawn from the literature or stated as explicit assumptions:
 
 | Symbol | Value | Source |
 |--------|-------|--------|
@@ -277,17 +275,14 @@ These extended derivations substantiate the quantitative claims of Sections 4�
 3. **Neglect of back‑reaction.** The echo amplitude may be further attenuated by energy loss into the horizon.  
 4. **Detector bandwidth.** The effective spacing \(\Delta f_{\rm eff}\) is below the typical frequency resolution of current analyses.  
 
-### Falsifiability
-A detection of a regular comb with spacing \(\Delta f_{\rm eff}\) consistent with the hierarchy \(q^{-N}\) would support the discrete substrate hypothesis. Conversely, a null result with sensitivity below \(\mathcal{A}_{\rm echo}=10^{-10}\) across the relevant frequency band would falsify the specific clockwork parameter choice.
+### Falsifiability A detection of a regular comb with spacing \(\Delta f_{\rm eff}\) consistent with the hierarchy \(q^{-N}\) would support the discrete substrate hypothesis. Conversely, a null result with sensitivity below \(\mathcal{A}_{\rm echo}=10^{-10}\) across the relevant frequency band would falsify the specific clockwork parameter choice.
 
 ### Open Questions
 - How does the clockwork hierarchy emerge from a full quantum‑gravity theory?  
 - Can the gear ratio \(q\) be linked to topological invariants such as winding numbers [11]?  
 - What is the impact of accretion‑driven horizon formation on the persistence of the comb [6]?
 
-## 8. Practical Implications and Engineering Pathways
-**(a) Intended users and design impact.**  
-Gravitational‑wave data‑analysis teams and next‑generation detector designers would incorporate a matched‑filter bank targeting a comb‑like spectrum with spacing \(\Delta f_{\rm eff}\). Confirmation would motivate the inclusion of ultra‑high‑resolution spectral estimators in future pipelines.
+## 8. Practical Implications and Engineering Pathways **(a) Intended users and design impact.** Gravitational‑wave data‑analysis teams and next‑generation detector designers would incorporate a matched‑filter bank targeting a comb‑like spectrum with spacing \(\Delta f_{\rm eff}\). Confirmation would motivate the inclusion of ultra‑high‑resolution spectral estimators in future pipelines.
 
 **(b) Technology readiness.**  
 The work is purely analytical and has not undergone peer review; it resides at NASA Technology Readiness Level 1–2.
@@ -306,8 +301,7 @@ Assuming a detector strain noise of \(S_h^{1/2}=10^{-24}\,\mathrm{Hz}^{-1/2}\) a
 **(f) Risks and misuse.**  
 Misinterpreting instrumental artifacts as a quantized comb could lead to false claims of new physics. Rigorous statistical validation and independent replication are essential to mitigate this risk.
 
-## 9. Conclusion
-We have presented a concrete, analytically derived prediction for quantized spectral lines in the gravitational‑wave ringdown of binary‑black‑hole mergers, arising from a discrete clockwork spacetime substrate. The line spacing \(\Delta f_{\rm eff}\approx4.2\times10^{-3}\;\mathrm{Hz}\) and amplitude suppression \(\mathcal{A}_{\rm echo}\approx10^{-10}\) follow directly from the clockwork hierarchy parameters \(q\) and \(N\). While current detectors lack the sensitivity to observe such a faint comb, the prediction is falsifiable with next‑generation facilities and targeted data‑analysis techniques. Confirmation would provide unprecedented empirical evidence for a fundamentally discrete spacetime, reshaping our understanding of quantum gravity.
+## 9. Conclusion We have presented a concrete, analytically derived prediction for quantized spectral lines in the gravitational‑wave ringdown of binary‑black‑hole mergers, arising from a discrete clockwork spacetime substrate. The line spacing \(\Delta f_{\rm eff}\approx4.2\times10^{-3}\;\mathrm{Hz}\) and amplitude suppression \(\mathcal{A}_{\rm echo}\approx10^{-10}\) follow directly from the clockwork hierarchy parameters \(q\) and \(N\). While current detectors lack the sensitivity to observe such a faint comb, the prediction is falsifiable with next‑generation facilities and targeted data‑analysis techniques. Confirmation would provide unprecedented empirical evidence for a fundamentally discrete spacetime, reshaping our understanding of quantum gravity.
 
 ## Provenance and AI Involvement
 
