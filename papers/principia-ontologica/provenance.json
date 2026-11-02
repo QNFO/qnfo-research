@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "principia-ontologica",
+  "paper": {
+    "path": "papers/principia-ontologica/paper.md",
+    "title": "Principia Ontologica",
+    "url": "https://papers.qnfo.org/papers/principia-ontologica"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "principia-ontologica"
+  },
+  "snapshots": [
+    {
+      "sha256": "ce0bfb24d7f836fb9475dc8d97b9f121dc979e4b767f4d9c7255e74f40f6b7d5",
+      "bytes": 427583,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

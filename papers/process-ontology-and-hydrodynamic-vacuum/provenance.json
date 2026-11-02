@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "process-ontology-and-hydrodynamic-vacuum",
+  "paper": {
+    "path": "papers/process-ontology-and-hydrodynamic-vacuum/paper.md",
+    "title": "Process Ontology and Hydrodynamic Vacuum",
+    "url": "https://papers.qnfo.org/papers/process-ontology-and-hydrodynamic-vacuum"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "process-ontology-and-hydrodynamic-vacuum"
+  },
+  "snapshots": [
+    {
+      "sha256": "973d94f075270e29d0e66d14e2f556e0861f6aabb2d036de95aafb198fb9541b",
+      "bytes": 43608,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -11,23 +11,13 @@ status: "published"
 keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "no-cloning theorem", "branch depth", "ultrametric"]
 ---
 
-**Author:** Quni-Gudzinas, Rowan Brad (QNFO)
-**ORCID:** 0009-0002-4317-5604
-**Date:** 2026-08-14
-**Version:** v0.4
-**License:** CC-BY-4.0
-**Keywords:** p-adic valuation; quantum error correction; stabilizer codes; no-cloning theorem; branch depth; ultrametric
-**Changelog:** v0.4 (2026-08-14) — post-publication audit remediation: "first reproduction attempt" withdrawn (prior corpus test ACRP-06 v1.0 + v1.1 erratum, the QNFO archive 21737222/21754148); Coecke ref year 2009→2010 (print year); Gubser–Knaute pages per Crossref (1655–1678); §6 records NTOF's omitted 187/200 (93.5%) C7.3′ figure. v0.3 (2026-08-14) — falsifiability register resolved by derivation: C7 overhead bound DISCONFIRMED (FQ2: valuation data (n,k,q)-only, d inexpressible, bound strictly weaker than Singleton), C5 complexity characterization DISCONFIRMED (FQ3: candidate identities genuine but complexity-vacuous), C6 no-cloning consequence DISCONFIRMED (FQ4: relabels Abramsky's categorical no-cloning; no new QEC consequence). Outcome derivations: artifacts/fq2-overhead-bound.md, artifacts/fq3-complexity-characterization.md, artifacts/fq4-no-cloning-consequence.md. Only C4/FQ1 (non-trivial valuation invariant) remains open. v0.2 (2026-08-13) — §6 precision patch: per-family 83% breakdown, rule-based Algorithm 4.4 reframing, first reproduction attempt documented (Mahler leg not reproduced at n ≤ 18; K–N leg blocked by under-specification), reference corrections (Gubser–Knaute; Bhattacharyya).
+# Implications for Computing and Quantum Error Correction
 
 **Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (https://papers.qnfo.org/papers/prime-valuation-depth/).
-
----
 
 ## Abstract
 
 The anchor paper introduced the *branch-depth reading*: the p-adic valuation $v_p(n)$ is a measure of depth along a prime branch of the integer factorization tree (not a measure of size), and because the tensor product multiplies Hilbert-space dimensions, $v_2(\dim H) = n$ counts tensor-branch depth for n qubits. This follow-on subjects that reading to its own stated falsifiability condition in the two domains the anchor flagged but did not pursue — computing and quantum error correction. The central finding is a *correction, not a confirmation*: the naive mapping of a $[[n,k,d]]$ stabilizer code to branch depths, $n = v_2(\dim H)$ and $k = v_2(\dim H_L)$, is **trivially true by definition** (a code is defined on n qubits encoding $2^k$ logical states) and therefore carries no new content; and the code distance d — a minimum operator *weight*, not a *depth* — does not admit a valuation reading at all. The genuinely open question is whether there exists a **non-trivial** valuation invariant of stabilizer codes beyond the definitional n and k, and it is here — not in the naive mapping — that the existing "83% classification accuracy" claim (Kodaira–Néron classifier, https://papers.qnfo.org/papers/number-theoretic-ultrametric-foundations/) lives and must be independently reproduced; two attempts now exist (this pipeline's §6 run and the sibling ACRP-06 extension with its v1.1 erratum), both failing to support the claim at the reported sizes. The structural no-cloning reading is retained but repositioned honestly: it is a known categorical result (Abramsky 2009; Coecke 2009), which the branch-depth vocabulary re-expresses rather than discovers. Every non-empirical claim below carries an explicit falsifiability condition.
-
----
 
 ## 1. Introduction and Positioning
 

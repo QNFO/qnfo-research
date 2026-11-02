@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "programming-the-vacuum",
+  "paper": {
+    "path": "papers/programming-the-vacuum/paper.md",
+    "title": "Programming the Vacuum",
+    "url": "https://papers.qnfo.org/papers/programming-the-vacuum"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "programming-the-vacuum"
+  },
+  "snapshots": [
+    {
+      "sha256": "3cf683ae220d771885efacf61f693ca60f97f4dd0fcc4295f4f81f7f2e1c1602",
+      "bytes": 62093,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
