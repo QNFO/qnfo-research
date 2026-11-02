@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "s10-observer",
+  "paper": {
+    "path": "papers/s10-observer/paper.md",
+    "title": "The Observer Inside the Tree: Can Self-Location in an Ultrametric Structure Resolve the Inside/Outside Schism?",
+    "url": "https://papers.qnfo.org/papers/s10-observer"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "s10-observer"
+  },
+  "snapshots": [
+    {
+      "sha256": "3a512838c3b3cead4e3e8e9b8fa03af099494e94e31d33448b461fcb4ad96f35",
+      "bytes": 28432,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

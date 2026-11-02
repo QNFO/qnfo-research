@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ringbauer-qudit-due-diligence",
+  "paper": {
+    "path": "papers/ringbauer-qudit-due-diligence/paper.md",
+    "title": "Trapped-Ion Qudit Quantum Computing: Due-Diligence Assessment of the Ringbauer Program",
+    "url": "https://papers.qnfo.org/papers/ringbauer-qudit-due-diligence"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ringbauer-qudit-due-diligence"
+  },
+  "snapshots": [
+    {
+      "sha256": "3f66660c85c67dcd1ef4330edb3f363f2b26a207a4828fdb44411bf37c14d6d6",
+      "bytes": 10514,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.4",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

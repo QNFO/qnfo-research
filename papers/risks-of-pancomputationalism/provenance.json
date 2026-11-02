@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "risks-of-pancomputationalism",
+  "paper": {
+    "path": "papers/risks-of-pancomputationalism/paper.md",
+    "title": "Risks of Pancomputationalism",
+    "url": "https://papers.qnfo.org/papers/risks-of-pancomputationalism"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "risks-of-pancomputationalism"
+  },
+  "snapshots": [
+    {
+      "sha256": "c4b39ae2cf7d946297aee3b51bac1e5afbf692749922bc149905174571974e4c",
+      "bytes": 144146,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
