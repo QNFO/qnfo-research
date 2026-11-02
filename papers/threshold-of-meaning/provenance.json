@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "threshold-of-meaning",
+  "paper": {
+    "path": "papers/threshold-of-meaning/paper.md",
+    "title": "The Threshold of Meaning",
+    "url": "https://papers.qnfo.org/papers/threshold-of-meaning"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "threshold-of-meaning"
+  },
+  "snapshots": [
+    {
+      "sha256": "fb3f73acc0c8894617199bfec6a8ab96e72494a94cd8ec146794fea78f99fd8d",
+      "bytes": 285507,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

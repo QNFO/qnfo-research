@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamics-of-knowing",
+  "paper": {
+    "path": "papers/thermodynamics-of-knowing/paper.md",
+    "title": "Thermodynamics of Knowing",
+    "url": "https://papers.qnfo.org/papers/thermodynamics-of-knowing"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamics-of-knowing"
+  },
+  "snapshots": [
+    {
+      "sha256": "30b995b77433a4c8ee965cad6df609f1e5e0aa4ab03ee3b24d5e7c797aa810f9",
+      "bytes": 60209,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamics-of-structural-persistence",
+  "paper": {
+    "path": "papers/thermodynamics-of-structural-persistence/paper.md",
+    "title": "Thermodynamics of Structural Persistence (Topological Memory)",
+    "url": "https://papers.qnfo.org/papers/thermodynamics-of-structural-persistence"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamics-of-structural-persistence"
+  },
+  "snapshots": [
+    {
+      "sha256": "7039e3f205e5168552d43491741dcbe7d3ee31ed3c79979c1dd20169d2f00896",
+      "bytes": 160514,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

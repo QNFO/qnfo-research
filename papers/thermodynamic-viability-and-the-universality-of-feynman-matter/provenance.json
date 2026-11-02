@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-viability-and-the-universality-of-feynman-matter",
+  "paper": {
+    "path": "papers/thermodynamic-viability-and-the-universality-of-feynman-matter/paper.md",
+    "title": "Thermodynamic Viability and the Universality of Feynman Matter",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-viability-and-the-universality-of-feynman-matter"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-viability-and-the-universality-of-feynman-matter"
+  },
+  "snapshots": [
+    {
+      "sha256": "8d88802d55cf0b900f013e46f6b65b4bb773c995d3483fabd29dfe4d4335c238",
+      "bytes": 189958,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
