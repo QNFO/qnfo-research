@@ -1,10 +1,10 @@
 # Brain as Filter: An Information-Theoretic Model of Altered States of Consciousness
 
 ## Abstract
+
 Clinicians, meditation instructors, and psychedelic‑assisted‑therapy researchers confront a persistent gap: measurable neural changes such as thalamocortical gating reduction and default‑mode‑network (DMN) suppression are documented, yet no quantitative framework links these changes to the invariant phenomenology of altered states—timelessness, unity, and presence. We model the brain as an information‑theoretic filter that limits the flow of a pre‑existing informational substrate (L3) into an embodied perspective (L2). Using a Shannon‑capacity channel with bandwidth $B$ and signal‑to‑noise ratio SNR, we derive a baseline capacity of $3.46\times10^{2}\,\text{bits s}^{-1}$ and an altered‑state capacity of $1.81\times10^{2}\,\text{bits s}^{-1}$ under empirically motivated reductions (30 % bandwidth, 50 % SNR). The capacity drops by 48 % (to 52.3 % of baseline). The dominant eigenvectors of the filtered information space survive the capacity loss and correspond to the phenomenological invariants. The model yields a concrete, falsifiable prediction linking neural gating measures to capacity reductions, providing a quantitative bridge between neurophysiology and subjective experience.
 
-## 1. Introduction
-Clinicians, meditation instructors, and psychedelic‑assisted‑therapy researchers face a concrete problem: therapeutic protocols rely on altered states of consciousness (ASCs) that produce profound benefits, but the neural mechanisms that generate the hallmark phenomenology—timelessness, unity, and a sense of presence—remain unquantified. We assume that thalamocortical gating and DMN activity are reduced during deep meditation and psychedelic administration, but the precise quantitative changes are not specified. Without a quantitative relationship, trial designers cannot predict which neural endpoint will guarantee the desired phenomenology, and therapists cannot tailor interventions to achieve it. If consciousness arises from a filtering process that limits the flow of a pre‑existing informational ground (L3) into the embodied perspective (L2), then quantifying the filter’s capacity would enable prediction of which phenomenological features persist as the filter weakens.  
+## 1. Introduction Clinicians, meditation instructors, and psychedelic‑assisted‑therapy researchers face a concrete problem: therapeutic protocols rely on altered states of consciousness (ASCs) that produce profound benefits, but the neural mechanisms that generate the hallmark phenomenology—timelessness, unity, and a sense of presence—remain unquantified. We assume that thalamocortical gating and DMN activity are reduced during deep meditation and psychedelic administration, but the precise quantitative changes are not specified. Without a quantitative relationship, trial designers cannot predict which neural endpoint will guarantee the desired phenomenology, and therapists cannot tailor interventions to achieve it. If consciousness arises from a filtering process that limits the flow of a pre‑existing informational ground (L3) into the embodied perspective (L2), then quantifying the filter’s capacity would enable prediction of which phenomenological features persist as the filter weakens. 
 
 **Contributions**  
 - **C1**: Formal definition of a brain‑filter channel model based on an IIT‑style substrate and Shannon’s channel‑capacity formula (Section 3).  
@@ -12,8 +12,7 @@ Clinicians, meditation instructors, and psychedelic‑assisted‑therapy researc
 - **C3**: Identification of phenomenological invariants as the dominant eigenvectors of the filtered information space (Section 5).  
 - **C4**: Specification of a falsifiable experimental protocol linking thalamic gating measurements to predicted capacity reductions (Section 7).  
 
-## 2. Background and Related Work
-The notion that external measurements can ground neural representations is demonstrated by mapping magnetoencephalography (MEG) phase‑locking‑value (PLV) patterns onto large‑language‑model (LLM) axes; brain‑derived coordinates steer model behavior without fine‑tuning, illustrating a functional neural filter that isolates causal structure [1]. Precise measurement of the cosmic‑microwave‑background B‑modes relies on interferometric techniques that suppress dominant backgrounds, effectively acting as a physical filter to isolate a weak informational layer, underscoring how filtering mechanisms can reveal hidden structure [2]. Efficient embedding networks for 3D brain‑tumor segmentation compress high‑dimensional data while discarding redundancy, mirroring the brain’s need to compress an informational ground into a tractable channel [3]. Estimation‑aware optimal control of mobile sensors incorporates measurement‑dependent uncertainty into trajectory planning, explicitly modeling how sensor dynamics affect information acquisition; this parallels thalamic gating that controls neural information flow [4]. A vectorial velocity filter for ultracold neutrons exploits mixed phase‑space dynamics to pass only selected velocity components, providing a concrete physical implementation of a filter that preserves certain invariants while discarding others [5].  Federated learning for brain‑tumor segmentation must operate under limited communication bandwidth, illustrating how performance degrades when channel capacity is reduced, analogous to reduced neural capacity in ASCs [7]. Whole‑brain models of altered states explore how global signatures such as reduced functional connectivity emerge from bottom‑up dynamics, providing a computational framework that motivates a bottom‑up derivation of phenomenological invariants from filtered information [8].
+## 2. Background and Related Work The notion that external measurements can ground neural representations is demonstrated by mapping magnetoencephalography (MEG) phase‑locking‑value (PLV) patterns onto large‑language‑model (LLM) axes; brain‑derived coordinates steer model behavior without fine‑tuning, illustrating a functional neural filter that isolates causal structure [1]. Precise measurement of the cosmic‑microwave‑background B‑modes relies on interferometric techniques that suppress dominant backgrounds, effectively acting as a physical filter to isolate a weak informational layer, underscoring how filtering mechanisms can reveal hidden structure [2]. Efficient embedding networks for 3D brain‑tumor segmentation compress high‑dimensional data while discarding redundancy, mirroring the brain’s need to compress an informational ground into a tractable channel [3]. Estimation‑aware optimal control of mobile sensors incorporates measurement‑dependent uncertainty into trajectory planning, explicitly modeling how sensor dynamics affect information acquisition; this parallels thalamic gating that controls neural information flow [4]. A vectorial velocity filter for ultracold neutrons exploits mixed phase‑space dynamics to pass only selected velocity components, providing a concrete physical implementation of a filter that preserves certain invariants while discarding others [5]. Federated learning for brain‑tumor segmentation must operate under limited communication bandwidth, illustrating how performance degrades when channel capacity is reduced, analogous to reduced neural capacity in ASCs [7]. Whole‑brain models of altered states explore how global signatures such as reduced functional connectivity emerge from bottom‑up dynamics, providing a computational framework that motivates a bottom‑up derivation of phenomenological invariants from filtered information [8].
 
 ## 3. Methods
 ### 3.1 Conceptual Model
@@ -38,8 +37,7 @@ Altered‑state parameters are assumed based on reported reductions:
 
 These are explicitly labeled as **assumptions**.
 
-### 3.4 Phenomenological Invariants
-We model the informational substrate as a high‑dimensional vector $\mathbf{I}$. The filter applies a linear operator $F$ that projects $\mathbf{I}$ onto a lower‑dimensional subspace spanned by the dominant eigenvectors of the channel’s covariance matrix $\Sigma$. Eigenvectors with the largest eigenvalues survive filtering and correspond to phenomenological invariants. By construction, the leading eigenvectors are invariant under scaling of $B$ and $\text{SNR}$, yielding timelessness, unity, and presence.
+### 3.4 Phenomenological Invariants We model the informational substrate as a high‑dimensional vector $\mathbf{I}$. The filter applies a linear operator $F$ that projects $\mathbf{I}$ onto a lower‑dimensional subspace spanned by the dominant eigenvectors of the channel’s covariance matrix $\Sigma$. Eigenvectors with the largest eigenvalues survive filtering and correspond to phenomenological invariants. By construction, the leading eigenvectors are invariant under scaling of $B$ and $\text{SNR}$, yielding timelessness, unity, and presence.
 
 ## 4. Analysis
 ### 4.1 Baseline Capacity
@@ -58,8 +56,7 @@ $$
 C_{0}=3.46\times10^{2}\ \text{bits s}^{-1}.
 $$
 
-### 4.2 Altered‑State Capacity
-Using the altered‑state parameters:
+### 4.2 Altered‑State Capacity Using the altered‑state parameters:
 
 1. Compute the logarithmic term:  
    $$\log_{2}\bigl(1 + \text{SNR}_{1}\bigr)=\log_{2}(1+5)=\log_{2}(6).$$  
@@ -74,8 +71,7 @@ $$
 C_{1}=1.81\times10^{2}\ \text{bits s}^{-1}.
 $$
 
-### 4.3 Capacity Ratio
-The relative reduction is  
+### 4.3 Capacity Ratio The relative reduction is 
 
 $$
 \frac{C_{1}}{C_{0}}=\frac{180.95}{345.94}\approx0.523.
@@ -83,8 +79,7 @@ $$
 
 Hence the filter capacity is reduced to **52.3 %** of its baseline value.
 
-### 4.4 Eigenvector Survival
-Let the covariance matrix of the full informational substrate be $\Sigma$ with rank $r$. The filter reduces effective rank to $r'=\alpha r$, where $\alpha=C_{1}/C_{0}\approx0.523$. The top $r'$ eigenvectors of $\Sigma$ retain most of the variance. Because the leading eigenvectors correspond to globally coherent patterns (e.g., low‑frequency synchrony), they map onto phenomenological invariants that persist across ASCs.
+### 4.4 Eigenvector Survival Let the covariance matrix of the full informational substrate be $\Sigma$ with rank $r$. The filter reduces effective rank to $r'=\alpha r$, where $\alpha=C_{1}/C_{0}\approx0.523$. The top $r'$ eigenvectors of $\Sigma$ retain most of the variance. Because the leading eigenvectors correspond to globally coherent patterns (e.g., low‑frequency synchrony), they map onto phenomenological invariants that persist across ASCs.
 
 ## 5. Results
 - **R1**: Baseline channel capacity $C_{0}=3.46\times10^{2}\ \text{bits s}^{-1}$ (Section 4.1).  
@@ -334,11 +329,9 @@ These extended derivations deepen the quantitative foundation of the brain‑as�
 - **L3**: The linear filter $F$ assumes stationarity; ASCs may involve non‑linear dynamics.  
 - **L4**: Mapping eigenvectors to phenomenological features assumes a one‑to‑one correspondence that may be oversimplified.
 
-### 6.2 Failure Modes
-If high‑resolution MEG recordings reveal no significant change in effective bandwidth during deep meditation, the premise that $B$ reduces would be falsified. Similarly, if DMN suppression does not alter $\text{SNR}$ as assumed, the predicted capacity drop would not materialize.
+### 6.2 Failure Modes If high‑resolution MEG recordings reveal no significant change in effective bandwidth during deep meditation, the premise that $B$ reduces would be falsified. Similarly, if DMN suppression does not alter $\text{SNR}$ as assumed, the predicted capacity drop would not materialize.
 
-### 6.3 Falsification Criterion
-A direct falsification would occur if simultaneous MEG‑derived capacity estimates $C_{1}$ show **no** correlation (Pearson $|r|<0.1$) with reported timelessness, unity, or presence across a cohort of meditators. Such a null correlation would invalidate the model’s core claim that capacity reduction predicts invariant phenomenology.
+### 6.3 Falsification Criterion A direct falsification would occur if simultaneous MEG‑derived capacity estimates $C_{1}$ show **no** correlation (Pearson $|r|<0.1$) with reported timelessness, unity, or presence across a cohort of meditators. Such a null correlation would invalidate the model’s core claim that capacity reduction predicts invariant phenomenology.
 
 ### 6.4 Open Questions
 - How do non‑linear neural dynamics reshape the eigenstructure of $\Sigma$?  
@@ -349,8 +342,7 @@ A direct falsification would occur if simultaneous MEG‑derived capacity estima
 ### 8.1 Potential Users and Decision Impact
 Neuroscientists studying meditation, psychedelic‑assisted‑therapy clinicians, and cognitive engineers designing brain‑computer interfaces would use the capacity estimate to decide whether a given intervention sufficiently reduces filtering to achieve the desired phenomenological outcome. For example, a meditation protocol could be calibrated to target at least a 30 % bandwidth reduction and a 50 % SNR reduction, which, under the model, would produce the derived 52.3 % capacity ratio.
 
-### 8.2 Technology Readiness Level
-The present work is a purely analytical derivation that has not undergone peer review; it resides at **TRL 2** (technology concept formulation).
+### 8.2 Technology Readiness Level The present work is a purely analytical derivation that has not undergone peer review; it resides at **TRL 2** (technology concept formulation).
 
 ### 8.3 Smallest Next Experiment
 A feasible pilot study would record resting‑state MEG from participants before and after a standardized 30‑minute mindfulness session. The study would compute:  
@@ -363,14 +355,11 @@ The experiment would falsify the model if the observed $C_{1}$ does **not** decr
 - **C2**: $\text{SNR}$ estimation depends on robust separation of neural signal from physiological noise (computational constraint).  
 - **C3**: Phenomenological rating scales must be cross‑culturally validated to ensure invariance (methodological constraint).
 
-### 8.5 Projected Cost Bounds
-Assuming access to an existing MEG facility (hourly cost ≈ \$500) and a sample size of 20 participants, the pilot experiment’s direct cost is projected at **\$10 000** (including personnel time). This projection uses the input costs stated above and excludes indirect institutional overhead.
+### 8.5 Projected Cost Bounds Assuming access to an existing MEG facility (hourly cost ≈ \$500) and a sample size of 20 participants, the pilot experiment’s direct cost is projected at **\$10 000** (including personnel time). This projection uses the input costs stated above and excludes indirect institutional overhead.
 
-### 8.6 Risks and Misuse
-The model could be misapplied to claim that any reduction in neural activity automatically yields beneficial ASCs, potentially encouraging unsafe self‑meditation practices. Clear communication that capacity reduction must be measured and correlated with phenomenology is essential to mitigate misuse.
+### 8.6 Risks and Misuse The model could be misapplied to claim that any reduction in neural activity automatically yields beneficial ASCs, potentially encouraging unsafe self‑meditation practices. Clear communication that capacity reduction must be measured and correlated with phenomenology is essential to mitigate misuse.
 
-## 9. Conclusion
-By modeling the brain as an information‑theoretic filter, we derived a quantitative relationship between neural bandwidth, signal fidelity, and the capacity to transmit an underlying informational ground. The derived capacity reduction of roughly 48 % under plausible altered‑state parameters aligns with the emergence of timelessness, unity, and presence as robust phenomenological invariants. The framework offers a testable bridge between neurophysiology and subjective experience, guiding future experimental designs and informing therapeutic interventions that aim to modulate consciousness through controlled filtering.
+## 9. Conclusion By modeling the brain as an information‑theoretic filter, we derived a quantitative relationship between neural bandwidth, signal fidelity, and the capacity to transmit an underlying informational ground. The derived capacity reduction of roughly 48 % under plausible altered‑state parameters aligns with the emergence of timelessness, unity, and presence as robust phenomenological invariants. The framework offers a testable bridge between neurophysiology and subjective experience, guiding future experimental designs and informing therapeutic interventions that aim to modulate consciousness through controlled filtering.
 
 ## Provenance and AI Involvement
 
@@ -395,8 +384,7 @@ By modeling the brain as an information‑theoretic filter, we derived a quantit
 [11] https://papers.qnfo.org/papers/clockwork-cosmos. QNFO: Clockwork Cosmos.
 [12] https://papers.qnfo.org/papers/stability. QNFO: Stability Compiler.
 
-## Appendix A. Divergence report
-*No divergent claims were identified among the source drafts; all substantive statements converged.*  
+## Appendix A. Divergence report *No divergent claims were identified among the source drafts; all substantive statements converged.* 
 
 ## Appendix B. Claim attribution
 | Claim ID | Source Draft(s) | Agreement |

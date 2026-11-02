@@ -4,8 +4,6 @@
 
 We prove that under a global constraint of the form $\hat{H}|\Psi\rangle = 0$ (the Wheeler-DeWitt equation), conditional quantum states produced by the Page-Wootters mechanism $|\psi(\tau)\rangle_R = \langle\tau|_C |\Psi\rangle_{CR}$ naturally organize into an ultrametric hierarchy. The proof proceeds in three stages: (1) the global constraint induces equivalence relations on clock readings via identical conditional states, producing an ultrametric quotient; (2) the fidelity overlap matrix between conditional states satisfies the Parisi ultrametricity condition under generic clock spectra with discrete scale invariance; (3) the ultrametric hierarchy determines the radix $p$ and the Bruhat-Tits building encoding clock-frame transformations. This theorem establishes the mathematical bridge previously identified as `[my conjecture]` in the synthesis.
 
----
-
 ## 1. Setup and Definitions
 
 ### 1.1 Hilbert Space Structure
