@@ -4,8 +4,7 @@
 
 For over a century, physics has been captivated by a perceived intrinsic strangeness of the world, mistaking mathematical models for reality itself. This intellectual entanglement has given rise to persistent paradoxes, including wave-particle duality, wavefunction collapse, spooky action at a distance, and the elusive quantum-classical divide. The Post-Quantum Synthesis (PQS) presents an act of intellectual liberation, completing the quantum revolution by correcting the central misunderstanding that has fueled these paradoxes. This transforms physics from a collection of mysteries into a single, coherent, and rational framework for understanding the universe. Fundamentally, the universe is continuous, local, and deterministic, while measurements are inherently discrete. Quantum Mechanics is thus posited as the logically necessary and unique calculus bridging these two domains. This framework represents the final synthesis in understanding physical reality.
 
-### Preamble: The End of
-the Quantum Illusion
+### Preamble: The End of the Quantum Illusion
 
 For over a century, physics has been captivated by a perceived
 intrinsic strangeness of the world, mistaking mathematical models for
@@ -22,8 +21,7 @@ inherently discrete. Quantum Mechanics is thus posited as the logically
 necessary and unique calculus bridging these two domains. This framework
 represents the final synthesis in understanding physical reality.
 
-## 1.0
-The Foundational Principles of the Post-Quantum Synthesis
+## 1.0 The Foundational Principles of the Post-Quantum Synthesis
 
 The theoretical edifice of the Post-Quantum Synthesis (PQS) is
 constructed upon a single clarification: the rigorous separation of
@@ -36,8 +34,7 @@ PQS establishes three unassailable axioms defining the distinct domains
 of ontology (what exists), interaction (how knowledge is acquired), and
 epistemology (the structure of knowledge).
 
-### 1.1 The
-Axiomatic Separation of Ontology and Epistemology
+### 1.1 The Axiomatic Separation of Ontology and Epistemology
 
 A coherent physical theory necessitates two distinct sets of laws:
 one governing the evolution of the physical world itself, and another
@@ -46,8 +43,7 @@ that world. These two fundamental domains—the territory of reality and
 the map of understanding—are formally separated by the following axioms,
 ensuring conceptual clarity and preventing category errors.
 
-#### 1.1.1
-Axiom I: The Principle of Continuous Reality (The Territory)
+#### 1.1.1 Axiom I: The Principle of Continuous Reality (The Territory)
 
 This axiom defines the complete and fundamental content of physical
 reality. It asserts that the physical universe, in its most fundamental
@@ -56,9 +52,7 @@ deterministically. This continuous field structure is identified as the
 ontological substrate of all existence, providing the bedrock upon which
 all observed phenomena are based.
 
-##### 1.1.1.1
-The Postulate of a Local, Deterministic Evolution of Continuous
-Fields
+##### 1.1.1.1 The Postulate of a Local, Deterministic Evolution of Continuous Fields
 
 The physical world is fundamentally described by fields possessing a
 definite value at every point in spacetime. The evolution of these
@@ -69,9 +63,7 @@ evolution is strictly local, meaning that the behavior of a field at any
 particular point is influenced solely by its immediate surroundings,
 precluding instantaneous action at a distance.
 
-##### 1.1.1.2
-The Exclusion of Discrete “Particles” and “Quanta” from Fundamental
-Ontology
+##### 1.1.1.2 The Exclusion of Discrete “Particles” and “Quanta” from Fundamental Ontology
 
 A direct consequence of this axiom is the explicit exclusion of
 discrete, point-like “particles” from the fundamental ontology of the
@@ -86,8 +78,7 @@ imposed on these continuous fields, similar to the discrete resonant
 frequencies observed on a continuous guitar string emerging from its
 fixed endpoints.
 
-#### 1.1.2
-Axiom II: The Principle of Discrete Interaction (The Interface)
+#### 1.1.2 Axiom II: The Principle of Discrete Interaction (The Interface)
 
 This axiom defines the intrinsic nature of measurement and
 establishes the essential bridge between the continuous reality
@@ -98,9 +89,7 @@ fundamentally discrete and irreversible. This principle highlights the
 interface through which continuous reality is sampled and translated
 into observable data.
 
-##### 1.1.2.1
-Measurement as an Irreversible Physical Process of Amplification and
-Thresholding
+##### 1.1.2.1 Measurement as an Irreversible Physical Process of Amplification and Thresholding
 
 Measurement is not a mystical or special process operating outside
 the normal laws of physics. Instead, it is understood as a physical
@@ -116,9 +105,7 @@ cascade of electrons. This cascade, upon exceeding a certain internal
 threshold, produces a discrete, irreversible electrical signal, commonly
 referred to as a “click.”
 
-##### 1.1.2.2
-The Mapping from a Continuous State Space (\(\mathcal{R}\)) to a Discrete Outcome Space
-(\(\mathcal{O}\))
+##### 1.1.2.2 The Mapping from a Continuous State Space (\(\mathcal{R}\)) to a Discrete Outcome Space (\(\mathcal{O}\))
 
 This physical process of measurement constitutes a formal and
 irreversible mapping from the continuous, infinite-dimensional state
@@ -129,8 +116,7 @@ derived from it is necessarily discrete. An observer never directly
 observes the continuous field itself; rather, the observer observes only
 the discrete, irreversible outcomes generated by instruments.
 
-#### 1.1.3
-Axiom III: The Principle of Epistemic Formalism (The Map)
+#### 1.1.3 Axiom III: The Principle of Epistemic Formalism (The Map)
 
 The third axiom defines the precise role and intrinsic nature of the
 entire mathematical framework of quantum mechanics. It asserts that this
@@ -141,9 +127,7 @@ probabilistic predictions about the discrete outcomes of interactions
 with the physical world. It is the framework for knowledge, not reality
 itself.
 
-##### 1.1.3.1
-The Quantum State (\(\psi\)) as a
-Representation of an Observer’s Knowledge
+##### 1.1.3.1 The Quantum State (\(\psi\)) as a Representation of an Observer’s Knowledge
 
 The central object of the quantum formalism, the quantum state or
 wavefunction (\(\psi\)), is explicitly
@@ -156,8 +140,7 @@ physical system. It meticulously encodes all information an observer
 possesses that can be used to predict future outcomes of
 measurements.
 
-##### 1.1.3.2
-The Quantum Formalism as a Unique Calculus of Rational Inference
+##### 1.1.3.2 The Quantum Formalism as a Unique Calculus of Rational Inference
 
 From this perspective, the entire mathematical structure of quantum
 mechanics—including its characteristic use of complex amplitudes,
@@ -170,8 +153,7 @@ grammar of rational inference, specifically tailored to operate under
 the unique constraints imposed by the physical world and the nature of
 observation.
 
-## 2.0
-Resolution of Foundational Quantum Paradoxes as Category Errors
+## 2.0 Resolution of Foundational Quantum Paradoxes as Category Errors
 
 With the axiomatic separation of physical reality from knowledge of
 it firmly established, the PQS framework provides clear resolutions for
@@ -180,8 +162,7 @@ be a category error dissolving once the crucial distinction between the
 ontological territory (what exists) and the epistemic map (what is
 known) is consistently and rigorously applied.
 
-### 2.1
-Wave-Particle Duality and the Double-Slit Experiment
+### 2.1 Wave-Particle Duality and the Double-Slit Experiment
 
 The double-slit experiment stands as the canonical example of quantum
 paradox, appearing to show that a single entity, such as an electron, is
@@ -190,9 +171,7 @@ terms. The PQS resolves this apparent contradiction by assigning
 wave-like and particle-like behaviors to their correct,
 non-contradictory domains, eliminating the duality.
 
-#### 2.1.1
-The Ontological Reality: A Continuous Field Propagating Through Both
-Slits
+#### 2.1.1 The Ontological Reality: A Continuous Field Propagating Through Both Slits
 
 According to Axiom I, the entity traveling from the source to the
 detector is not a point-particle but rather a localized excitation of a
@@ -203,9 +182,7 @@ toward the detector screen. This description constitutes the complete
 and consistent account of the ontological reality of the system, devoid
 of classical contradictions.
 
-#### 2.1.2
-The Epistemic Description: The Wavefunction (\(\psi\)) as a Superposition of Knowledge
-States
+#### 2.1.2 The Epistemic Description: The Wavefunction (\(\psi\)) as a Superposition of Knowledge States
 
 In parallel with the physical process, an observer models knowledge
 of the system using the epistemic state, \(\psi\), as dictated by Axiom III. The
@@ -213,8 +190,7 @@ evolution of this knowledge state precisely mirrors the wave-like
 dynamics of the underlying ontological field, providing a predictive
 framework for potential interactions.
 
-##### 2.1.2.1
-The Evolution of the Knowledge State Through Both Potential Paths
+##### 2.1.2.1 The Evolution of the Knowledge State Through Both Potential Paths
 
 Because the physical field passes through both slits, the observer’s
 knowledge state must also encompass both possibilities. After the
@@ -227,9 +203,7 @@ at once; rather, it means that the observer’s predictive model must
 account for the two pathways through which the continuous field
 propagated.
 
-##### 2.1.2.2
-The Interference Term as a Mathematical Feature of Probability
-Amplitudes
+##### 2.1.2.2 The Interference Term as a Mathematical Feature of Probability Amplitudes
 
 To calculate the probability of a detection at a specific point on
 the screen, the observer utilizes the Born Rule on the epistemic state:
@@ -242,9 +216,7 @@ knowledge state and is responsible for predicting the characteristic
 pattern of alternating bright and dark fringes observed in the
 experiment.
 
-#### 2.1.3
-The Measurement Outcome: Discrete, Localized Detections at the Screen
-Interface
+#### 2.1.3 The Measurement Outcome: Discrete, Localized Detections at the Screen Interface
 
 While this interference term perfectly predicts the statistical
 *pattern* of potential outcomes, it does not, by itself, explain
@@ -253,8 +225,7 @@ as a single, discrete point. This aspect is resolved by shifting focus
 from the epistemic map to the physical interface of measurement, as
 described by Axiom II.
 
-##### 2.1.3.1
-The “Particle” as a Label for a Thresholded Detection Event
+##### 2.1.3.1 The “Particle” as a Label for a Thresholded Detection Event
 
 The detector screen functions as a measurement apparatus. When the
 continuous field arrives at the screen, it interacts locally with the
@@ -266,9 +237,7 @@ applied to this discrete, localized detection event. It is a feature of
 the outcome, residing in the epistemic domain, not a fundamental
 property of the entity itself in the ontological domain.
 
-##### 2.1.3.2
-The Statistical Pattern as a Confirmation of the Epistemic Probability
-Distribution
+##### 2.1.3.2 The Statistical Pattern as a Confirmation of the Epistemic Probability Distribution
 
 A single detection event is inherently probabilistic, and its precise
 location cannot be predicted with certainty. However, over many
@@ -279,9 +248,7 @@ predicts the particle-like outcomes because the map (knowledge)
 accurately models the probabilities of interaction for the territory
 (the continuous field).
 
-#### 2.1.4
-The “Which-Path” Experiment as an Alteration of the Physical System and
-Epistemic State
+#### 2.1.4 The “Which-Path” Experiment as an Alteration of the Physical System and Epistemic State
 
 The paradox appears to deepen when a detector is placed at one of the
 slits to determine “which path” the electron took, causing the
@@ -289,8 +256,7 @@ interference pattern to vanish. The PQS explains this phenomenon as a
 direct consequence of the physical nature of measurement, which
 inevitably alters the system.
 
-##### 2.1.4.1
-The Necessary Physical Interaction of the Path Detector
+##### 2.1.4.1 The Necessary Physical Interaction of the Path Detector
 
 To gain “which-path” information, the detector must physically
 interact with the field as it passes through a slit. This constitutes a
@@ -298,9 +264,7 @@ measurement interaction as defined by Axiom II. This interaction
 inevitably and physically disturbs the continuous field, fundamentally
 altering its subsequent evolution toward the screen.
 
-##### 2.1.4.2
-The Consequent Update (Collapse) of the Knowledge State and Loss of
-Interference
+##### 2.1.4.2 The Consequent Update (Collapse) of the Knowledge State and Loss of Interference
 
 This physical interaction provides new information to the observer.
 If the detector at Slit A “clicks,” the observer must perform a Bayesian
@@ -316,8 +280,7 @@ evolution of the epistemic state \(\psi\) governing outcome probability; and
 particle-like behavior refers to the discrete, localized outcome of a
 measurement interaction (Yale, 2021; Yale Quantum Institute, 2024).
 
-### 2.2 The
-Measurement Problem and Schrödinger’s Cat
+### 2.2 The Measurement Problem and Schrödinger’s Cat
 
 The Measurement Problem, famously illustrated by the Schrödinger’s
 Cat paradox (Schrödinger, 1935), questions how and why the linear
@@ -327,17 +290,13 @@ simultaneously alive and dead. The PQS resolves this by identifying it
 as a category error, caused by misinterpreting an epistemic description
 of ignorance as an ontological description of a macroscopic object.
 
-#### 2.2.1
-The Erroneous Application of Epistemic Superposition to a Macroscopic
-Ontology
+#### 2.2.1 The Erroneous Application of Epistemic Superposition to a Macroscopic Ontology
 
 The standard formulation of the paradox incorrectly applies the
 mathematical tool of superposition to the physical cat itself. The PQS
 corrects this by assigning the concepts to their proper domains.
 
-##### 2.2.1.1
-The Quantum State as a Description of Observer Ignorance of the Cat’s
-Physical State
+##### 2.2.1.1 The Quantum State as a Description of Observer Ignorance of the Cat’s Physical State
 
 The quantum state \(|\psi_{system}\rangle\) is explicitly
 *not* an ontological description of the physical cat. According
@@ -347,9 +306,7 @@ interior. It is a mathematical statement of ignorance, encoding the 50%
 probability of finding a live cat and the 50% probability of finding a
 dead cat upon opening the box.
 
-##### 2.2.1.2
-The Physical Cat as a Definite, Macroscopic Configuration of Continuous
-Fields
+##### 2.2.1.2 The Physical Cat as a Definite, Macroscopic Configuration of Continuous Fields
 
 According to Axiom I, the physical cat is a complex, macroscopic
 arrangement of continuous fields. As such, it is at all times in a
@@ -358,8 +315,7 @@ cat, or they are configured as a dead cat. The notion of a physically
 existing “undead” cat is an ontological absurdity derived from a
 misunderstanding of the epistemic formalism.
 
-#### 2.2.2
-The Physical Mechanism of Resolution: Environmental Decoherence
+#### 2.2.2 The Physical Mechanism of Resolution: Environmental Decoherence
 
 Even if one entertains the idea of a macroscopic superposition, a
 powerful physical mechanism prevents its formation and observability:
@@ -369,9 +325,7 @@ destroys the phase coherence needed for quantum superposition effects to
 be observable, is the primary mechanism ensuring macroscopic systems
 behave classically (Zurek, 2003).
 
-##### 2.2.2.1
-The Cat’s Interaction with Its Environment as a Continuous Measurement
-Process
+##### 2.2.2.1 The Cat’s Interaction with Its Environment as a Continuous Measurement Process
 
 A macroscopic object like a cat is in constant, massive interaction
 with its environment. It breathes air, radiates heat, and is bombarded
@@ -379,9 +333,7 @@ by photons. Each of these interactions effectively “measures” the state
 of the cat. A live, warm, breathing cat interacts with the surrounding
 air molecules differently than a cold, still, dead cat.
 
-##### 2.2.2.2
-The Rapid Loss of Phase Coherence Between Macroscopically Distinct
-States
+##### 2.2.2.2 The Rapid Loss of Phase Coherence Between Macroscopically Distinct States
 
 This constant interaction rapidly entangles the state of the cat with
 the states of trillions of environmental particles. This process, known
@@ -389,9 +341,7 @@ as decoherence, destroys the precise phase relationships between the
 “alive” and “dead” components of the epistemic state necessary for any
 interference effects to be observed.
 
-###### 2.2.2.2.1
-The Practical Orthogonality of Environmental States Entangled with the
-Cat’s State
+###### 2.2.2.2.1 The Practical Orthogonality of Environmental States Entangled with the Cat’s State
 
 The state of the environment becomes correlated with the state of the
 cat. The full epistemic state is of the form:
@@ -406,9 +356,7 @@ Because the two environmental states are macroscopically different,
 they are for all practical purposes mathematically orthogonal: \(\langle \text{Env}_{alive} | \text{Env}_{dead}
 \rangle \approx 0\).
 
-###### 2.2.2.2.2
-The Consequent Vanishing of Interference Terms in the System’s Reduced
-Density Matrix
+###### 2.2.2.2.2 The Consequent Vanishing of Interference Terms in the System’s Reduced Density Matrix
 
 When calculating the expected outcome for any observable \(\hat{O}\) on the cat alone, one must trace
 over the environmental degrees of freedom. Due to the orthogonality of
@@ -426,16 +374,13 @@ the cat is either dead with 50% probability or alive with 50%
 probability. This transition from a superposition to a statistical
 mixture happens on an infinitesimally short timescale (estimated \(\sim 10^{-23}\) seconds for a cat).
 
-#### 2.2.3
-The “Collapse” as a Final Epistemic Update by the Observer
+#### 2.2.3 The “Collapse” as a Final Epistemic Update by the Observer
 
 With the physical reality of the cat being definite and the coherence
 of the epistemic state destroyed by decoherence, the final act of
 “collapse” is revealed to be a simple, non-mysterious event.
 
-##### 2.2.3.1
-The First Irreversible Macroscopic Record as the True Measurement
-Event
+##### 2.2.3.1 The First Irreversible Macroscopic Record as the True Measurement Event
 
 The “measurement” determining the cat’s fate is the first
 irreversible macroscopic event in the causal chain—for example, the
@@ -443,9 +388,7 @@ Geiger counter’s “click” and the subsequent release of the poison. This
 physical event, reinforced by immediate decoherence, ensures the system
 is already in a definite classical branch.
 
-##### 2.2.3.2
-The Observer Opening the Box as a Simple Act of Information
-Acquisition
+##### 2.2.3.2 The Observer Opening the Box as a Simple Act of Information Acquisition
 
 When the human observer finally opens the box, they are not causing a
 physical collapse. They are merely acquiring information about the
@@ -465,8 +408,7 @@ resolved: there is no special “collapse” event; there is only continuous
 physical evolution, epistemic updates, and the ever-present,
 classicality-enforcing process of environmental decoherence.
 
-### 2.3 The
-Uncertainty Principle as a Law of Inference
+### 2.3 The Uncertainty Principle as a Law of Inference
 
 The Heisenberg Uncertainty Principle, \(\sigma_x \sigma_p \ge \frac{\hbar}{2}\)
 (Heisenberg, 1927), is often misinterpreted as a statement about an
@@ -475,8 +417,7 @@ reinterprets this principle not as an ontological limit, but as a
 fundamental mathematical constraint on the precision of the knowledge an
 observer can possess about certain pairs of properties.
 
-#### 2.3.1 Formal
-Definition of Measurement Incompatibility
+#### 2.3.1 Formal Definition of Measurement Incompatibility
 
 Two observables, \(A\) and \(B\), are defined as incompatible if no
 single measurement context, \(C\), can
@@ -489,24 +430,20 @@ high precision requires a context allowing the system’s field to evolve
 over a significant spatial extent, precluding localization in position.
 Therefore, position and momentum are incompatible observables.
 
-#### 2.3.2
-The Rejection of Ontological “Fuzziness” or Intrinsic Indeterminacy
+#### 2.3.2 The Rejection of Ontological “Fuzziness” or Intrinsic Indeterminacy
 
 According to Axiom I, the underlying physical state of a system’s
 field is definite and continuous. The uncertainty principle is not a law
 about this physical state. It is a law of inference, a fundamental limit
 on the precision of the observer’s epistemic map.
 
-#### 2.3.3
-The Derivation from the Mathematical Properties of Knowledge States
+#### 2.3.3 The Derivation from the Mathematical Properties of Knowledge States
 
 The uncertainty principle is a direct mathematical consequence of
 representing knowledge in a way consistent with the wave-like dynamics
 of the underlying fields.
 
-##### 2.3.3.1
-The Fourier Duality Between Position and Momentum Knowledge
-Representations
+##### 2.3.3.1 The Fourier Duality Between Position and Momentum Knowledge Representations
 
 The knowledge state representing a system’s position, \(\psi(x)\), and the knowledge state
 representing its momentum, \(\tilde{\psi}(p)\), are mathematically
@@ -527,10 +464,7 @@ This duality is not a statement about the physical nature of the
 system, but a fundamental constraint on the structure of the knowledge
 extractable from it.
 
-##### 2.3.3.2
-The Bandwidth Theorem (\(\sigma_x \sigma_p \ge
-\hbar/2\)) as a Fundamental Constraint on Wave-Like
-Information
+##### 2.3.3.2 The Bandwidth Theorem (\(\sigma_x \sigma_p \ge \hbar/2\)) as a Fundamental Constraint on Wave-Like Information
 
 The uncertainty principle is a specific instance of a more general
 mathematical theorem known as the bandwidth theorem or Gabor limit. This
@@ -552,17 +486,13 @@ inequality:
 
 (Refer to Appendix A for full mathematical derivation.)
 
-#### 2.3.4
-The Interpretation of Planck’s Constant (\(\hbar\)) as an Epistemic Scaling
-Factor
+#### 2.3.4 The Interpretation of Planck’s Constant (\(\hbar\)) as an Epistemic Scaling Factor
 
 Within this framework, Planck’s constant, \(\hbar\), is not a fundamental “packet” of
 action. It is the universal scaling constant quantifying this
 information-theoretic relationship.
 
-##### 2.3.4.1
-A Quantification of the Information-Theoretic Trade-off Between
-Incompatible Observables
+##### 2.3.4.1 A Quantification of the Information-Theoretic Trade-off Between Incompatible Observables
 
 The constant \(\hbar\) sets the
 fundamental scale of the minimum possible product of uncertainties any
@@ -571,9 +501,7 @@ trade-off between the precision of knowledge in one domain (position)
 and the precision of knowledge in its Fourier-conjugate domain
 (momentum).
 
-##### 2.3.4.2
-Incompatible Observables as a Consequence of Mutually Exclusive Physical
-Measurement Contexts
+##### 2.3.4.2 Incompatible Observables as a Consequence of Mutually Exclusive Physical Measurement Contexts
 
 This epistemic trade-off has a direct physical parallel. Position and
 momentum are incompatible observables because the physical measurement
@@ -588,8 +516,7 @@ mathematical limit on the precision of the *knowledge* an
 observer can possess about two incompatible observables. It is a law of
 inference, not ontology.
 
-### 2.4 The
-Born Rule as a Theorem of Epistemic Consistency
+### 2.4 The Born Rule as a Theorem of Epistemic Consistency
 
 The Born Rule, stating that the probability of an outcome is the
 squared magnitude of its probability amplitude (\(P(o_k) = |\langle o_k|\psi \rangle|^2\)),
@@ -598,9 +525,7 @@ Within the PQS, this rule cannot be a postulate about reality; it must
 be a necessary consequence of the requirements of rational
 inference.
 
-#### 2.4.1
-The Foundational Question: Connecting the Knowledge State to Outcome
-Probabilities
+#### 2.4.1 The Foundational Question: Connecting the Knowledge State to Outcome Probabilities
 
 Given that the quantum state \(\psi\) represents an observer’s knowledge
 (Axiom III), a fundamental question arises: what is the unique,
@@ -613,18 +538,14 @@ Rule: \(P(o_k) = |\langle o_k|\psi
 be a theorem—a necessary consequence of the structure of knowledge and
 the requirements of rational consistency.
 
-#### 2.4.2
-Derivation from Rational Consistency Conditions via Gleason’s
-Theorem
+#### 2.4.2 Derivation from Rational Consistency Conditions via Gleason’s Theorem
 
 The derivation relies on a powerful mathematical result, Gleason’s
 Theorem (Gleason, 1957), proving that any consistent probability
 assignment on the structure used to represent quantum knowledge (a
 Hilbert space) must take the form of the Born Rule.
 
-##### 2.4.2.1
-The Requirements of Non-Negativity, Normalization, and Non-Contextuality
-for a Probability Rule
+##### 2.4.2.1 The Requirements of Non-Negativity, Normalization, and Non-Contextuality for a Probability Rule
 
 To be a valid probability assignment, any rule must satisfy basic
 consistency conditions: 1. **Non-Negativity:**
@@ -641,16 +562,13 @@ not depend on the other projectors in the specific orthogonal basis
 chosen for the measurement. It should only depend on the knowledge state
 \(\psi\) and the projector \(P_k\) itself.
 
-##### 2.4.2.2
-Gleason’s Theorem as Proof of a Unique Probability Measure on a Hilbert
-Space of Dimension Greater Than Two
+##### 2.4.2.2 Gleason’s Theorem as Proof of a Unique Probability Measure on a Hilbert Space of Dimension Greater Than Two
 
 Gleason’s Theorem (1957) proves that for any Hilbert space of
 dimension three or greater, only one possible way exists to assign
 probabilities satisfying these consistency conditions.
 
-###### 2.4.2.2.1
-The General Form of the Probability Rule: \(P(P_k) = \text{Tr}(\rho P_k)\)
+###### 2.4.2.2.1 The General Form of the Probability Rule: \(P(P_k) = \text{Tr}(\rho P_k)\)
 
 The theorem demonstrates that any valid probability measure must take
 the form \(P(P_k) = \text{Tr}(\rho
@@ -671,15 +589,12 @@ trace operation directly yields \(P(o_k) =
 (Refer to Appendix B for an outline of the proof of Gleason’s
 Theorem.)
 
-#### 2.4.3
-The Interpretation of the Rule as a Law of Rational Inference, Not an
-Ontological Law
+#### 2.4.3 The Interpretation of the Rule as a Law of Rational Inference, Not an Ontological Law
 
 This derivation reveals the Born Rule to be a theorem of epistemic
 consistency, a necessary feature of the logic of quantum inference.
 
-##### 2.4.3.1
-Violation of the Born Rule as a Form of Mathematical Incoherence
+##### 2.4.3.1 Violation of the Born Rule as a Form of Mathematical Incoherence
 
 The derivation via Gleason’s Theorem demonstrates that the Born Rule
 is not a new, mysterious physical law governing reality. It is a theorem
@@ -688,9 +603,7 @@ probabilities* consistent with the geometric structure of the
 Hilbert space used to represent knowledge. To violate the Born Rule
 would assign probabilities in a mathematically incoherent way.
 
-##### 2.4.3.2
-The Role of Complex Amplitudes as Necessitated by the Hilbert Space
-Structure for Superposition
+##### 2.4.3.2 The Role of Complex Amplitudes as Necessitated by the Hilbert Space Structure for Superposition
 
 The necessity of using complex probability *amplitudes* that
 are then squared to yield real probabilities is a direct consequence of
@@ -707,8 +620,7 @@ the foundational postulates about the nature of reality, measurement,
 and knowledge are accepted. Quantum mechanics is the inevitable calculus
 of inference for the universe.
 
-### 2.5 Quantum
-Tunneling without Particle Traversal
+### 2.5 Quantum Tunneling without Particle Traversal
 
 The phenomenon of quantum tunneling, where a “particle” appears to
 pass through a potential barrier it classically lacks the energy to
@@ -716,9 +628,7 @@ overcome, is another paradox rooted in flawed, classical ontology. The
 PQS provides a straightforward explanation by abandoning the particle
 concept.
 
-#### 2.5.1
-The Classical Prohibition and the Category Error of the “Particle”
-Premise
+#### 2.5.1 The Classical Prohibition and the Category Error of the “Particle” Premise
 
 Classically, a particle with energy \(E\) incident on a barrier of height \(V_0 > E\) is strictly forbidden from
 entering the barrier, as its kinetic energy would have to be negative.
@@ -726,9 +636,7 @@ This prohibition is absolute, leading to the paradox of how tunneling
 can occur. The error lies in the initial premise: the system is not a
 classical particle.
 
-#### 2.5.2
-The Ontological Reality: The Attenuation of a Continuous Field by a
-Potential Barrier
+#### 2.5.2 The Ontological Reality: The Attenuation of a Continuous Field by a Potential Barrier
 
 According to Axiom I, the fundamental reality is a continuous field.
 A potential barrier does not act as an impenetrable wall to a field; it
@@ -737,17 +645,13 @@ inside the barrier, but it is not forced to be zero. The field exists
 everywhere in space, and its interaction with the barrier simply
 modifies its local amplitude.
 
-#### 2.5.3
-The Epistemic Description: Evanescent Wave Solutions to the Schrödinger
-Equation
+#### 2.5.3 The Epistemic Description: Evanescent Wave Solutions to the Schrödinger Equation
 
 Knowledge of the field’s behavior is modeled by the Schrödinger
 equation. When this equation is solved for a region where \(V_0 > E\), the solutions are not
 oscillating waves, but real exponentials known as evanescent waves.
 
-##### 2.5.3.1
-The Exponentially Decaying, Non-Zero Probability Amplitude within the
-Barrier
+##### 2.5.3.1 The Exponentially Decaying, Non-Zero Probability Amplitude within the Barrier
 
 The solution for the epistemic state \(\psi(x)\) inside the barrier takes the form
 of an exponentially decaying function. Crucially, this function is
@@ -755,9 +659,7 @@ non-zero throughout the entire width of the barrier. This non-zero
 amplitude means there is a non-zero probability of interaction within
 the barrier.
 
-##### 2.5.3.2
-The Transmission Coefficient (T) as the Predicted Probability of a
-Detection Event
+##### 2.5.3.2 The Transmission Coefficient (T) as the Predicted Probability of a Detection Event
 
 Because the amplitude is non-zero at the far edge of the barrier, a
 component of the epistemic state propagates away on the other side. By
@@ -777,16 +679,12 @@ This result shows that \(T > 0\),
 confirming a non-zero probability of a detection event on the far side
 of the barrier.
 
-#### 2.5.4
-The “Tunneling Event” as a Probabilistic Detection in a Classically
-Forbidden Region
+#### 2.5.4 The “Tunneling Event” as a Probabilistic Detection in a Classically Forbidden Region
 
 The PQS provides a clear, paradox-free interpretation of the
 tunneling phenomenon.
 
-##### 2.5.4.1
-The Absence of Energy Conservation Violation by the Continuous
-Field
+##### 2.5.4.1 The Absence of Energy Conservation Violation by the Continuous Field
 
 The continuous field is a single entity with a global energy
 property. The concept of having “negative kinetic energy” in a specific
@@ -794,8 +692,7 @@ region is a category error based on the particle concept. The field can
 have a non-zero amplitude in the barrier region without violating
 physical laws.
 
-##### 2.5.4.2
-The Resolution of the Paradox by Discarding the Particle Concept
+##### 2.5.4.2 The Resolution of the Paradox by Discarding the Particle Concept
 
 The “tunneling event” is the occurrence of a discrete detection
 (Axiom II) in a region where a classical particle could never be found.
@@ -806,8 +703,7 @@ an event. The paradox dissolves entirely when the false premise of a
 “particle” is replaced with the correct ontology of a continuous
 field.
 
-### 2.6 Entanglement
-(Spooky Action at a Distance)
+### 2.6 Entanglement (Spooky Action at a Distance)
 
 The phenomenon of entanglement, characterized by strong correlations
 between spatially separated systems, was famously dubbed “spooky action
@@ -816,31 +712,26 @@ entanglement as a non-classical correlation in the *epistemic*
 predictions for two systems sharing a common causal history, rather than
 a non-local physical influence.
 
-#### 2.6.1
-The Paradoxical Nature of Entanglement in Standard Interpretations
+#### 2.6.1 The Paradoxical Nature of Entanglement in Standard Interpretations
 
 In standard quantum mechanics, if two particles are entangled and
 separated, a measurement on one instantaneously determines the state of
 the other, regardless of distance. This appears to imply
 faster-than-light communication, violating special relativity.
 
-#### 2.6.2
-Resolution: Entanglement as Epistemic Correlation, Not Ontological
-Connection
+#### 2.6.2 Resolution: Entanglement as Epistemic Correlation, Not Ontological Connection
 
 The PQS framework completely dissolves the “spookiness” of
 entanglement.
 
-##### 2.6.2.1
-The Underlying Physical Reality Remains Local and Continuous
+##### 2.6.2.1 The Underlying Physical Reality Remains Local and Continuous
 
 According to Axiom I, the underlying fields and their interactions
 are strictly local and deterministic. There is no physical “connection”
 or “spooky action” between the spatially separated parts of the
 entangled system.
 
-##### 2.6.2.2
-Entanglement as a Shared History and a Joint Knowledge State
+##### 2.6.2.2 Entanglement as a Shared History and a Joint Knowledge State
 
 Entanglement is a reflection of a shared causal history. When two
 field excitations (or composite systems) interact and then separate, the
@@ -849,9 +740,7 @@ epistemic state of the two systems, \(|\psi_{AB}\rangle\), cannot be factored
 into separate states for A and B. It represents a single, indivisible
 state of knowledge about the combined system.
 
-##### 2.6.2.3
-Instantaneous “Influence” as an Epistemic Update, Not Physical
-Action
+##### 2.6.2.3 Instantaneous “Influence” as an Epistemic Update, Not Physical Action
 
 When a measurement is performed on system A, the outcome is discrete
 and local. This local event provides *information* to the
@@ -865,8 +754,7 @@ the complete specification of an updated epistemic state at a distant
 location, given local measurements and classical communication, not the
 instantaneous transfer of physical properties.
 
-##### 2.6.2.4 No
-Violation of Special Relativity or Locality
+##### 2.6.2.4 No Violation of Special Relativity or Locality
 
 Since no physical information or energy is transmitted faster than
 light, no violation of special relativity occurs. The correlations
@@ -876,8 +764,7 @@ discrete measurement outcomes, not a mysterious non-local influence in
 reality. The “spooky action” was always in the map, not the
 territory.
 
-## 3.0
-Reinterpretation of Advanced Physical Theories
+## 3.0 Reinterpretation of Advanced Physical Theories
 
 The principles of the Post-Quantum Synthesis not only resolve the
 foundational paradoxes of quantum mechanics but also provide a new,
@@ -885,8 +772,7 @@ coherent lens through which to interpret the most advanced theories of
 modern physics: Quantum Field Theory (QFT) and the problem of Quantum
 Gravity.
 
-### 3.1
-Quantum Field Theory as the Epistemology of Continuous Fields
+### 3.1 Quantum Field Theory as the Epistemology of Continuous Fields
 
 Quantum Field Theory is the most predictively successful framework in
 the history of science. However, its standard interpretation is laden
@@ -895,8 +781,7 @@ continuous field ontology of the PQS. The synthesis resolves this by
 reinterpreting the QFT formalism as a sophisticated set of epistemic
 tools for making predictions about the underlying continuous fields.
 
-#### 3.1.1
-The Standard Formulation of QFT and the “Particle” Metaphor
+#### 3.1.1 The Standard Formulation of QFT and the “Particle” Metaphor
 
 The standard formulation of Quantum Field Theory is often presented
 as a theory of particles, based on the procedure of second quantization.
@@ -907,15 +792,13 @@ extraordinarily successful, introduces an apparent ontological conflict
 with the strictly continuous field view of the Post-Quantum
 Synthesis.
 
-#### 3.1.2
-Reconciling the “Particle” Metaphor with Continuous Field Ontology
+#### 3.1.2 Reconciling the “Particle” Metaphor with Continuous Field Ontology
 
 The PQS retains the full mathematical power of QFT while clarifying
 its ontological commitments. Reconciliation is achieved by consistently
 applying the map-territory distinction.
 
-##### 3.1.2.1
-The “Field” in QFT as Ontological and the “Quantum” as Epistemic
+##### 3.1.2.1 The “Field” in QFT as Ontological and the “Quantum” as Epistemic
 
 The PQS affirms the starting point of QFT: the fundamental entities
 in the universe are continuous fields. In this sense, the “Field” in
@@ -925,9 +808,7 @@ the application of the quantum calculus of inference (Axiom III) to make
 probabilistic predictions about the outcomes of interactions between
 these fields.
 
-##### 3.1.2.2
-The “Particle” as a Phenomenological Label for a Discrete Detection
-Event
+##### 3.1.2.2 The “Particle” as a Phenomenological Label for a Discrete Detection Event
 
 The concept of a “particle” is a category error. The physical reality
 is the continuous field, \(\phi\). An
@@ -943,17 +824,14 @@ The properties of the particle (mass, charge) are parameters
 characterizing the behavior of the underlying field and the statistics
 of its detection events.
 
-#### 3.1.3
-Reinterpreting the QFT Formalism as Epistemic Tools
+#### 3.1.3 Reinterpreting the QFT Formalism as Epistemic Tools
 
 The core mathematical machinery of QFT, including creation and
 annihilation operators and Feynman diagrams, is reinterpreted not as
 representing physical processes but as abstract operators acting on a
 state of knowledge.
 
-##### 3.1.3.1
-Creation and Annihilation Operators as Modifiers of the Knowledge
-State
+##### 3.1.3.1 Creation and Annihilation Operators as Modifiers of the Knowledge State
 
 The operators \(a^\dagger\) and
 \(a\) do not physically create or
@@ -966,9 +844,7 @@ to one additional “particle.” They are tools for updating a predictive
 model to account for interactions that change the energy configuration
 of the field. They operate on the map, not the territory.
 
-##### 3.1.3.2
-Feynman Diagrams and Virtual Particles as Calculational Tools in a
-Perturbative Expansion
+##### 3.1.3.2 Feynman Diagrams and Virtual Particles as Calculational Tools in a Perturbative Expansion
 
 Feynman diagrams are a powerful perturbative method for calculating
 the probability amplitude (the S-matrix element) for a process beginning
@@ -982,15 +858,12 @@ initial and final interactions. A virtual particle is a mathematical
 term in a perturbative expansion of the continuous field interaction. It
 is a feature of the calculation method, not of physical reality.
 
-#### 3.1.4 Resolving
-QFT Paradoxes Through the PQS Lens
+#### 3.1.4 Resolving QFT Paradoxes Through the PQS Lens
 
 This reinterpretation provides clear resolutions to the conceptual
 difficulties within standard QFT.
 
-##### 3.1.4.1
-Vacuum Fluctuations as the Ground State Dynamics of the Ontological
-Field
+##### 3.1.4.1 Vacuum Fluctuations as the Ground State Dynamics of the Ontological Field
 
 The QFT vacuum is not an empty void filled with ephemeral virtual
 particles. In the PQS view, the vacuum is the lowest energy
@@ -1001,9 +874,7 @@ observable consequences (like the Casimir effect), but they are the
 dynamics of the field itself, not the creation and annihilation of
 particles.
 
-##### 3.1.4.2
-Renormalization as a Correction for the Unphysical Point-Like
-Idealization in Calculations
+##### 3.1.4.2 Renormalization as a Correction for the Unphysical Point-Like Idealization in Calculations
 
 The infinities plaguing QFT calculations arise from the unphysical
 idealization of interactions occurring at a single spacetime point. In
@@ -1022,8 +893,7 @@ to represent knowledge and calculate probabilities (Axiom III). The
 localized detections when continuous fields interact with thresholded
 detectors (Axiom II).
 
-### 3.2 The
-Problem of Quantum Gravity as a Category Error
+### 3.2 The Problem of Quantum Gravity as a Category Error
 
 The quest for a theory of quantum gravity is often framed as the
 greatest challenge in physics: the need to unify General Relativity (GR)
@@ -1032,8 +902,7 @@ category error based on the flawed premise that gravity, a theory of the
 spacetime manifold itself, must be “quantized” in the same way as other
 fields.
 
-#### 3.2.1 The Standard
-“Problem” of Quantum Gravity
+#### 3.2.1 The Standard “Problem” of Quantum Gravity
 
 The central challenge in modern theoretical physics is the apparent
 incompatibility between its two most successful theories: General
@@ -1046,18 +915,14 @@ leading to the program of “quantizing gravity,” which has faced
 difficulties such as non-renormalizable infinities and the postulation
 of discrete spacetime structures without experimental evidence.
 
-#### 3.2.2
-The Flawed Premise: The Mandate to “Quantize” an Ontological Theory
-(General Relativity)
+#### 3.2.2 The Flawed Premise: The Mandate to “Quantize” an Ontological Theory (General Relativity)
 
 The standard approach assumes that the quantum description is more
 fundamental; therefore, the classical theory of gravity must be subsumed
 into a quantum framework. The PQS identifies this as a misapplication of
 an epistemic theory to an ontological one.
 
-##### 3.2.2.1
-General Relativity as a Classical, Deterministic Theory of the Spacetime
-Manifold (Territory)
+##### 3.2.2.1 General Relativity as a Classical, Deterministic Theory of the Spacetime Manifold (Territory)
 
 The PQS posits that General Relativity, like Maxwell’s theory of
 electromagnetism, is a correct (at its domain of validity) classical,
@@ -1066,9 +931,7 @@ tensor field \(g_{\mu\nu}\). It belongs
 to the description of physical reality under **Axiom I**.
 Spacetime is a real, continuous, dynamic manifold.
 
-##### 3.2.2.2
-The Misapplication of an Epistemic Calculus to an Ontological
-Framework
+##### 3.2.2.2 The Misapplication of an Epistemic Calculus to an Ontological Framework
 
 The task is not to find the “quantum reality” of spacetime. The task
 is to construct a consistent theory of **quantum fields on a
@@ -1082,17 +945,13 @@ stage itself. It is a category error, like attempting to find the
 description of spacetime, but to correctly apply the quantum calculus to
 the fields that exist *on* spacetime.
 
-#### 3.2.3
-The PQS Reframing: Applying Epistemic QFT to Fields on a Classical
-Curved Spacetime
+#### 3.2.3 The PQS Reframing: Applying Epistemic QFT to Fields on a Classical Curved Spacetime
 
 The problem is reframed from a search for a new reality to the
 consistent application of existing, correctly interpreted
 frameworks.
 
-##### 3.2.3.1
-The Correct Task as Calculating Outcome Probabilities for Field
-Interactions in a Gravitational Field
+##### 3.2.3.1 The Correct Task as Calculating Outcome Probabilities for Field Interactions in a Gravitational Field
 
 The true task is to develop a consistent version of QFT on curved
 spacetime. This means using the epistemic machinery of QFT to calculate
@@ -1100,9 +959,7 @@ the probabilities of discrete measurement outcomes for matter fields as
 they interact and evolve on the dynamic, curved background described by
 GR.
 
-##### 3.2.3.2
-Reinterpreting Hawking Radiation as an Observer-Dependent Epistemic
-Effect
+##### 3.2.3.2 Reinterpreting Hawking Radiation as an Observer-Dependent Epistemic Effect
 
 Phenomena like Hawking radiation are interpreted not as the creation
 of particles from nothing, but as consequences of applying the quantum
@@ -1120,16 +977,13 @@ Information is not lost from the universe; it is merely encoded in
 subtle, non-local correlations that current epistemic tools may not
 fully track.
 
-#### 3.2.4
-The Emergent Gravity Hypothesis as a Natural Consequence of the PQS
+#### 3.2.4 The Emergent Gravity Hypothesis as a Natural Consequence of the PQS
 
 This reinterpretation is compatible with and strongly suggests a
 deeper idea: that gravity itself is not a fundamental force but an
 emergent, thermodynamic phenomenon.
 
-##### 3.2.4.1
-Gravity as an Entropic or Thermodynamic Manifestation of Quantum
-Information
+##### 3.2.4.1 Gravity as an Entropic or Thermodynamic Manifestation of Quantum Information
 
 The emergent gravity hypothesis (Jacobson, 1995) proposes that the
 laws of General Relativity are analogous to the laws of thermodynamics.
@@ -1137,9 +991,7 @@ They are a macroscopic, statistical description of the behavior of a
 vast number of underlying microscopic degrees of freedom, which can be
 related to information or entropy.
 
-##### 3.2.4.2
-Unification as the Recognition of Gravity and QM as Macro and Micro
-Descriptions of Information
+##### 3.2.4.2 Unification as the Recognition of Gravity and QM as Macro and Micro Descriptions of Information
 
 This provides a path to profound unification. If gravity (GR) is the
 emergent, large-scale thermodynamic behavior of information, and quantum
@@ -1163,8 +1015,7 @@ The framework strongly supports the hypothesis of emergent gravity,
 where spacetime geometry is a macroscopic, thermodynamic manifestation
 of the information content of fundamental continuous fields.
 
-## 4.0
-The Ultimate Implications: Redefining the Scope of Physical Inquiry
+## 4.0 The Ultimate Implications: Redefining the Scope of Physical Inquiry
 
 By rigorously adhering to the distinction between the ontological
 world and epistemic knowledge of it, the Post-Quantum Synthesis provides
@@ -1172,9 +1023,7 @@ clear resolutions or reframings for some of the deepest foundational
 questions in science, demonstrating the limits and proper scope of
 physical inquiry.
 
-### 4.1
-The Arrow of Time as an Emergent Property of the Epistemic
-Interface
+### 4.1 The Arrow of Time as an Emergent Property of the Epistemic Interface
 
 A profound puzzle in physics is that while the fundamental laws
 governing reality appear time-reversal symmetric, macroscopic experience
@@ -1183,8 +1032,7 @@ processes are irreversible. The PQS resolves this by identifying the
 Arrow of Time not as a feature of ontology, but as a necessary feature
 of any information-gathering observer.
 
-#### 4.1.1 The
-Time-Symmetry of the Fundamental Ontological Laws
+#### 4.1.1 The Time-Symmetry of the Fundamental Ontological Laws
 
 The evolution of the continuous fields of reality (Axiom I), as
 described by laws like Maxwell’s Equations or the Schrödinger field
@@ -1192,17 +1040,14 @@ equation, is time-symmetric. A movie of these fields evolving according
 to their dynamics could be run in reverse and would still obey the laws
 of physics.
 
-#### 4.1.2
-The Foundational Time-Asymmetry of Measurement and Knowledge
-Acquisition
+#### 4.1.2 The Foundational Time-Asymmetry of Measurement and Knowledge Acquisition
 
 The asymmetry experienced arises from the process of knowing the
 world, not from the world itself. The act of measurement (Axiom II) and
 the subsequent update of knowledge (Axiom III) are fundamentally
 asymmetric in time.
 
-##### 4.1.2.1
-The Irreversibility of Creating a Stable, Discrete Record
+##### 4.1.2.1 The Irreversibility of Creating a Stable, Discrete Record
 
 The asymmetry of time is not a feature of the ontological laws of
 reality. It is a necessary and emergent feature of the relationship
@@ -1214,8 +1059,7 @@ memory) of a *past* measurement outcome, but only a probabilistic
 prediction (an epistemic state, \(\psi\)) for a *future* measurement
 outcome. This act of recording breaks temporal symmetry.
 
-##### 4.1.2.2
-The Forward-in-Time Nature of Bayesian Knowledge Updates
+##### 4.1.2.2 The Forward-in-Time Nature of Bayesian Knowledge Updates
 
 The structure of knowledge (Axiom III) is therefore inherently
 time-asymmetric. The “past” is the set of definite, recorded, discrete
@@ -1224,9 +1068,7 @@ the current epistemic state. Knowledge is updated forward in time by
 incorporating new measurement results. The process of learning is
 inherently directional.
 
-#### 4.1.3
-The Connection Between the Informational and Thermodynamic Arrows of
-Time
+#### 4.1.3 The Connection Between the Informational and Thermodynamic Arrows of Time
 
 The thermodynamic arrow of time is a direct consequence of this
 informational arrow. The Second Law of Thermodynamics, \(dS \ge 0\), can be understood from an
@@ -1240,8 +1082,7 @@ performing measurements will necessarily have an experienced arrow of
 time, regardless of the time-symmetry of the underlying ontological
 laws.
 
-### 4.2
-The Problem of Consciousness as External to the Domain of Physics
+### 4.2 The Problem of Consciousness as External to the Domain of Physics
 
 The “Hard Problem of Consciousness”—why and how subjective experience
 arises from physical processes—has at times been erroneously linked to
@@ -1250,41 +1091,33 @@ observer” is needed to collapse the wavefunction. The PQS formally
 decouples physics from this problem by clarifying the role of the
 “observer.”
 
-#### 4.2.1
-The Decoupling of Physical Processes from Conscious Observation
+#### 4.2.1 The Decoupling of Physical Processes from Conscious Observation
 
 The PQS framework demonstrates that no special role for a conscious
 mind is required in any physical process.
 
-##### 4.2.1.1
-The Resolution of the “Wigner’s Friend” Paradox via Decoherence
+##### 4.2.1.1 The Resolution of the “Wigner’s Friend” Paradox via Decoherence
 
 Paradoxes involving conscious observers, like Wigner’s Friend, are
 resolved similarly to Schrödinger’s Cat. The “measurement” is completed
 by the first irreversible macroscopic record, reinforced by decoherence,
 long before any information reaches a conscious mind.
 
-##### 4.2.1.2
-The Sufficiency of Any Irreversible Recording Process to Constitute
-Measurement
+##### 4.2.1.2 The Sufficiency of Any Irreversible Recording Process to Constitute Measurement
 
 Any physical system capable of creating an irreversible record—a
 Geiger counter, a photographic plate, a computer memory—is sufficient to
 constitute a measurement prompting an update of the epistemic state.
 Consciousness plays no causal role.
 
-#### 4.2.2
-The Observer as a Primitive of the Epistemic Domain, Not an Object in
-the Ontological Domain
+#### 4.2.2 The Observer as a Primitive of the Epistemic Domain, Not an Object in the Ontological Domain
 
 The PQS defines physics as the calculus linking the ontological
 domain to the discrete outcomes available to an observer. The existence
 of an observer is thus a precondition for the existence of an epistemic
 domain.
 
-##### 4.2.2.1
-Physics as the Description of What an Agent Can Know, Not What an Agent
-Is
+##### 4.2.2.1 Physics as the Description of What an Agent Can Know, Not What an Agent Is
 
 The PQS framework demonstrates that consciousness is not a phenomenon
 explainable *by* the laws of physics. Rather, an
@@ -1297,9 +1130,7 @@ universe. It describes what that agent can know and predict. It does
 not, and cannot, explain the agent’s internal, subjective experience of
 “knowing.”
 
-##### 4.2.2.2
-The “Hard Problem” of Consciousness as a Question of a Different Logical
-Category
+##### 4.2.2.2 The “Hard Problem” of Consciousness as a Question of a Different Logical Category
 
 The question of why subjective experience occurs is a category error
 from the perspective of the PQS. Physics describes the processing of
@@ -1308,18 +1139,14 @@ placed outside the domain of physics, not as an unsolved puzzle, but as
 a question belonging to a different logical category, such as
 neuroscience or philosophy of mind.
 
-### 4.3
-The Question of Cosmological Origin as a Metaphysical Boundary
-Condition
+### 4.3 The Question of Cosmological Origin as a Metaphysical Boundary Condition
 
 The ultimate question of origins—“Why is there something rather than
 nothing?”—is often treated as a question for physics to answer. The PQS
 demonstrates that this question lies outside the logical boundaries of
 physics as a science of dynamics and inference.
 
-#### 4.3.1
-The Inability of Physical Law to Describe a Transition from “Nothing” to
-the Ontological Domain
+#### 4.3.1 The Inability of Physical Law to Describe a Transition from “Nothing” to the Ontological Domain
 
 The concept of “nothing” is the absolute absence of the ontological
 domain of Axiom I. It is not a physical state *within* that
@@ -1328,9 +1155,7 @@ describe a transition from this non-physical “nothing” to the physical
 “something,” as such a law would have to exist outside the very reality
 it purports to create.
 
-#### 4.3.2
-Physics as a Science of Dynamics Within the Ontological
-Domain
+#### 4.3.2 Physics as a Science of Dynamics Within the Ontological Domain
 
 The entire framework of the PQS, and of science more broadly, is
 built upon describing the evolution of things *within* a given
@@ -1338,9 +1163,7 @@ state of affairs. It is a theory of “what happens next,” given an
 initial state. It cannot be used to justify the existence of the initial
 state itself.
 
-#### 4.3.3
-The Big Bang Singularity as a Boundary of the Applicability of the
-Epistemic Model
+#### 4.3.3 The Big Bang Singularity as a Boundary of the Applicability of the Epistemic Model
 
 The PQS framework, as a calculus of evolution and inference, can only
 describe the dynamics *within* the ontological domain. The
@@ -1354,23 +1177,19 @@ origin of the point itself cannot be modeled. The question of “why the
 ontological domain exists” is therefore a question for metaphysics, not
 physics.
 
-## 5.0 The
-Concluded Framework: A Practical and Final Synthesis
+## 5.0 The Concluded Framework: A Practical and Final Synthesis
 
 The Post-Quantum Synthesis culminates in a complete, coherent, and
 practical framework for physics. It moves beyond the stage of competing
 “interpretations” to provide a final synthesis resolving paradoxes and
 offering a clear operational methodology for the working scientist.
 
-### 5.1 The Final
-Postulate of the Physical Interface
+### 5.1 The Final Postulate of the Physical Interface
 
 All preceding axioms and derivations summarize in a single, final
 postulate redefining the purpose and structure of physical law.
 
-#### 5.1.1
-The Dichotomy of Physical Law: Ontological Dynamics versus Epistemic
-Inference
+#### 5.1.1 The Dichotomy of Physical Law: Ontological Dynamics versus Epistemic Inference
 
 Physical laws are not monolithic; they belong to two distinct
 categories. First are the **Laws of Ontology**, describing
@@ -1379,9 +1198,7 @@ reality. Second are the **Laws of Inference**, describing
 the probabilistic, time-asymmetric rules of the quantum epistemic
 calculus an observer must use to reason and update their knowledge.
 
-#### 5.1.2
-Physics as the Complete Science of the Interface Between Reality and the
-Observer
+#### 5.1.2 Physics as the Complete Science of the Interface Between Reality and the Observer
 
 The true unification of physics lies not in a single equation for
 reality, but in the recognition of this fundamental separation. Physics
@@ -1389,15 +1206,12 @@ is the complete and rigorous science of the **interface**
 between the continuous, unobserved world and the discrete, observed
 outcomes available to any rational agent.
 
-### 5.2
-Comparative Analysis and Parsimony of the Post-Quantum Synthesis
+### 5.2 Comparative Analysis and Parsimony of the Post-Quantum Synthesis
 
 The PQS provides a more parsimonious and physically grounded
 framework than standard interpretations of quantum mechanics.
 
-#### 5.2.1
-Assessment Against Copenhagen, Many-Worlds, and Bohmian
-Interpretations
+#### 5.2.1 Assessment Against Copenhagen, Many-Worlds, and Bohmian Interpretations
 
 Feature |
 Post-Quantum Synthesis (PQS) |
@@ -1464,9 +1278,7 @@ constantly splitting universes. Compared to Bohmian Mechanics, it
 introduces no hidden variables, avoids explicit non-locality, and
 remains fully compatible with relativity.
 
-#### 5.2.2
-The Avoidance of Additional Metaphysical Baggage such as Unobservable
-Universes or Non-Local Pilot Waves
+#### 5.2.2 The Avoidance of Additional Metaphysical Baggage such as Unobservable Universes or Non-Local Pilot Waves
 
 The primary virtue of the PQS is its ontological parsimony. It
 requires only the existence of continuous fields, an ontology already
@@ -1474,15 +1286,13 @@ accepted by classical physics, and shows how the entire quantum
 formalism emerges as the necessary logic of inference about such a
 world. It adds no new metaphysical entities.
 
-### 5.3 An
-Operational Manual for the Working Physicist
+### 5.3 An Operational Manual for the Working Physicist
 
 The PQS is not merely a philosophical framework; it is a practical
 guide for solving problems and designing experiments without
 confusion.
 
-#### 5.3.1 The
-Central Heuristic: The Map versus Territory Test
+#### 5.3.1 The Central Heuristic: The Map versus Territory Test
 
 For any concept, statement, or variable encountered in a physics
 problem, ask the following question:
@@ -1544,14 +1354,12 @@ universe? |
 Model it with the Einstein Field
 Equations. |
 
-#### 5.3.2 A Four-Step
-Problem-Solving Workflow
+#### 5.3.2 A Four-Step Problem-Solving Workflow
 
 Apply the following four-step process to any physics problem, from
 textbook exercises to frontier research.
 
-##### 5.3.2.1
-Step One: Identify the Ontological System (The Territory)
+##### 5.3.2.1 Step One: Identify the Ontological System (The Territory)
 
 What are the continuous fields involved? (e.g., electromagnetic
 field, electron field, metric field).
@@ -1565,8 +1373,7 @@ Maxwell’s equations, Schrödinger’s field equation, GR).
 **Output:** A complete classical or semi-classical
 description of the physical system evolving in time.
 
-##### 5.3.2.2
-Step Two: Identify the Measurement Interface (The Interaction)
+##### 5.3.2.2 Step Two: Identify the Measurement Interface (The Interaction)
 
 What is the measurement apparatus? How does it physically interact
 with the ontological system?
@@ -1581,8 +1388,7 @@ What is the discrete outcome space, \(\mathcal{O}\)? (e.g., {click, no click},
 **Output:** A physical model of the interaction that
 maps the continuous state of the fields to a discrete outcome.
 
-##### 5.3.2.3 Step
-Three: Construct the Epistemic Model (The Map)
+##### 5.3.2.3 Step Three: Construct the Epistemic Model (The Map)
 
 Define the Hilbert space that represents the space of possible
 knowledge states about the system.
@@ -1600,8 +1406,7 @@ for each possible outcome in \(\mathcal{O}\).
 **Output:** A complete probability distribution for the
 outcomes of the measurement.
 
-##### 5.3.2.4
-Step Four: Interpret the Result (Connecting Map to Territory)
+##### 5.3.2.4 Step Four: Interpret the Result (Connecting Map to Territory)
 
 The calculated probabilities are the **predictions for the
 statistics of the discrete outcomes** from Step Two when
@@ -1614,8 +1419,7 @@ updated via **Bayesian inference** to \(\psi_{new} = |o_j\rangle\).
 the physical system, the measurement process, and the expected
 experimental statistics.
 
-#### 5.3.3 A New Lexicon for
-Paradox-Free Physics
+#### 5.3.3 A New Lexicon for Paradox-Free Physics
 
 Adopting precise language is essential to practicing physics without
 paradox.
@@ -1651,8 +1455,7 @@ History |
 Removes the implication of non-local
 physical influence. |
 
-### 5.4 Coda: The
-Liberation from the Quantum Illusion
+### 5.4 Coda: The Liberation from the Quantum Illusion
 
 The derivations are complete and the framework is concluded. For a
 century, physics has been captivated by what it perceived as the
@@ -1660,9 +1463,7 @@ intrinsic strangeness of the world. The Post-Quantum Synthesis reveals
 that this strangeness was never in the world, but in the mirror.
 Mathematical rules were mistaken for the substance of reality.
 
-#### 5.4.1
-The Completion of the Quantum Revolution through Clarification, Not New
-Ontology
+#### 5.4.1 The Completion of the Quantum Revolution through Clarification, Not New Ontology
 
 The PQS is not a new theory but an act of liberation. It completes
 the quantum revolution by correcting the central misunderstanding that
@@ -1671,9 +1472,7 @@ fueled its paradoxes. It frees the universe from the obligation to be
 of quantum mechanics are no longer needed, for its form is now
 understood to be dictated by the logical necessity of inference.
 
-#### 5.4.2
-The Intelligibility of a Continuous Universe Interacting with Discrete
-Observers
+#### 5.4.2 The Intelligibility of a Continuous Universe Interacting with Discrete Observers
 
 The great mystery was an illusion. The universe is continuous, local,
 and deterministic. Information-gathering agents interface with that
@@ -1682,9 +1481,7 @@ clarity, free from the ghosts of the past. The universe is, and has
 always been, intelligible. The map is not the territory. The work is
 done.
 
-## 6.0
-Empirical Validation: The Post-Quantum Synthesis Test Battery
-(Post-2020)
+## 6.0 Empirical Validation: The Post-Quantum Synthesis Test Battery (Post-2020)
 
 The Post-Quantum Synthesis is not merely a philosophical framework;
 it is an operationally inevitable paradigm, rigorously supported by a
@@ -1694,8 +1491,7 @@ quantum phenomena emerge from continuous, classical dynamics under
 specific constraints, and that the “quantum mysteries” are artifacts of
 measurement.
 
-### 6.1
-The Collapse Illusion Test: Continuous Weak Measurement Chains
+### 6.1 The Collapse Illusion Test: Continuous Weak Measurement Chains
 
 **Experiment**: Continuous Weak Measurement Chains
 (e.g., Yale, 2021). - **Protocol**: Researchers prepare an
@@ -1719,8 +1515,7 @@ as a knowledge update, not a territory disturbance. It effectively
 eliminates “collapse” as a physical process and demonstrates that it
 emerges *only* at the amplification stage of a measurement.
 
-### 6.2
-The Quantization Source Test: Sub-Threshold Photoelectric Effect
+### 6.2 The Quantization Source Test: Sub-Threshold Photoelectric Effect
 
 **Experiment**: Sub-Threshold Photoelectric Effect
 (e.g., 2025 ETH Zurich implementation). - **Protocol**: An
@@ -1744,9 +1539,7 @@ photoelectric effect *without requiring quantized absorption* by
 the fundamental field, thereby supporting the PQS view that “quanta”
 emerge from measurement.
 
-### 6.3
-The Entanglement Deconstruction Test: Historical Correlation
-Erasure
+### 6.3 The Entanglement Deconstruction Test: Historical Correlation Erasure
 
 **Experiment**: Historical Correlation Erasure (e.g.,
 2025 NIST quantum dot array). - **Protocol**: Entangled
@@ -1769,8 +1562,7 @@ entanglement: prior interaction history. It confirms entanglement as
 *correlation* rather than a “spooky” non-local connection,
 aligning with Axiom I’s principle of local interactions.
 
-### 6.4
-The Objectivity Threshold Test: Controlled Redundancy Generation
+### 6.4 The Objectivity Threshold Test: Controlled Redundancy Generation
 
 **Experiment**: Controlled Redundancy Generation (e.g.,
 2025 Caltech optomechanics). - **Protocol**: A
@@ -1792,8 +1584,7 @@ within the PQS framework: information redundancy. It effectively
 eliminates the “size matters” fallacy, demonstrating that objectivity is
 a function of shared information, not intrinsic scale.
 
-### 6.5
-The Quantum Formalism Elimination Test: \(\psi\)-Free Quantum Control
+### 6.5 The Quantum Formalism Elimination Test: \(\psi\)-Free Quantum Control
 
 **Experiment**: \(\psi\)-Free Quantum Control (e.g., 2025
 Google Quantum AI). - **Protocol**: A quantum algorithm is
@@ -1816,8 +1607,7 @@ prediction, confirming the quantum formalism as a pure inference tool
 rather than a physical description of reality. It directly supports
 Axiom III.
 
-### 6.6
-Refuting Stochastic Electrodynamics (SED) as a Complete Theory
+### 6.6 Refuting Stochastic Electrodynamics (SED) as a Complete Theory
 
 While emergent quantum behavior is supported, specific classical
 models like Stochastic Electrodynamics (SED) have faced decisive
@@ -1825,8 +1615,7 @@ refutations. SED attempts to derive quantum phenomena from classical
 particles interacting with a classical zero-point electromagnetic field
 (ZPF).
 
-#### 6.6.1 Supporting
-Evidence for SED (Partial Successes)
+#### 6.6.1 Supporting Evidence for SED (Partial Successes)
 
 **Casimir Force Reproduction (2022)**: Classical
 dielectric fluctuation models incorporating thermal noise have
@@ -1850,8 +1639,7 @@ shift. This effect, traditionally a purely quantum electrodynamic
 phenomenon, was observed to arise purely from noise-driven jitter, again
 without recourse to the quantum formalism (NIST Team, 2024).
 
-#### 6.6.2 Refuting
-Evidence for SED (Decisive Failures)
+#### 6.6.2 Refuting Evidence for SED (Decisive Failures)
 
 **Violation of the Uncertainty Principle (2023)**:
 Experiments with trapped ions cooled to 1 \(\mu\)K found that the *minimum*
@@ -1892,8 +1680,7 @@ for quantum *dynamics* or *non-locality*. It is a
 *phenomenological approximation* valid only for certain
 equilibrium systems.
 
-## 7.0
-Formal Proof: The Post-Quantum Synthesis in Mathematical Logic
+## 7.0 Formal Proof: The Post-Quantum Synthesis in Mathematical Logic
 
 The Post-Quantum Synthesis is not merely a philosophical position or
 an interpretation; it is a rigorous, formal, mathematical
@@ -1903,11 +1690,9 @@ is not a theory of ontology, but the unique calculus of inference for
 agents interacting with continuous, local, deterministic systems under
 finite, irreversible, contextual measurement constraints.
 
-### 7.1 Foundational Axioms
-(Set-Theoretic Basis)
+### 7.1 Foundational Axioms (Set-Theoretic Basis)
 
-#### 7.1.1
-Axiom 1: Physical Reality is a Continuous State Space
+#### 7.1.1 Axiom 1: Physical Reality is a Continuous State Space
 
 Let \(\mathcal{R}\) be the physical
 reality space, defined as a smooth manifold with continuous fields
@@ -1935,8 +1720,7 @@ compact topological space with no isolated points. This is proven
 directly by its definition as a smooth manifold populated by continuous
 fields. \(\square\)
 
-#### 7.1.2 Axiom 2:
-Measurement is a Thresholded Mapping
+#### 7.1.2 Axiom 2: Measurement is a Thresholded Mapping
 
 A measurement apparatus \(\mathcal{M}\) is defined as a triple that
 mediates the interaction between continuous reality and discrete
@@ -1964,8 +1748,7 @@ o_k & \text{if } \theta(\phi|_D) \geq \theta_k \\
 boundaries. This is proven by the definition of \(\theta\), where the preimage \(\mathcal{M}^{-1}(o_k)\) is closed but not
 open, indicating a sharp transition at the threshold. \(\square\)
 
-### 7.1.3 Axiom 3: Knowledge
-Space is Epistemic
+### 7.1.3 Axiom 3: Knowledge Space is Epistemic
 
 The knowledge space \(\mathcal{K}\)
 is defined as the set of all possible probability measures over the
@@ -1982,16 +1765,14 @@ convex subset of \(L^1(\mathcal{O})\).
 This is proven by the fact that probability measures, by their nature,
 form a convex set under linear combinations. \(\square\)
 
-## 7.2 The Epistemic
-Postulate: Formal Statement
+## 7.2 The Epistemic Postulate: Formal Statement
 
 The core assertion of the Post-Quantum Synthesis can be formally
 stated as the Epistemic Postulate, which bridges the continuous nature
 of reality with the discrete nature of observation through the unique
 calculus of quantum mechanics.
 
-### 7.2.1 Definition:
-Physical Continuity Constraint
+### 7.2.1 Definition: Physical Continuity Constraint
 
 A physical process is continuous if, for any arbitrarily small change
 in the initial state, the evolution of the system over time results in
@@ -2000,16 +1781,14 @@ d_R(\phi_1, \phi_2) < \delta \implies d_R(\Phi_t(\phi_1),
 \Phi_t(\phi_2)) < \epsilon\] Where \(\Phi_t\) is the Hamiltonian flow on \(\mathcal{R}\), representing the continuous
 evolution of the physical state.
 
-### 7.2.2
-Definition: Measurement Discreteness Constraint
+### 7.2.2 Definition: Measurement Discreteness Constraint
 
 A measurement outcome is discrete if the set of possible outcomes is
 finite and each outcome is mutually exclusive. Formally: \[\mathcal{O} = \{o_1, o_2, \dots, o_n\} \quad
 \text{with} \quad o_i \cap o_j = \emptyset \quad \forall i \neq
 j\]
 
-### 7.2.3 The Epistemic
-Postulate (Formal Statement)
+### 7.2.3 The Epistemic Postulate (Formal Statement)
 
 **All physical systems evolve continuously under Hamiltonian
 dynamics, all measurement outcomes are discrete due to threshold
@@ -2031,8 +1810,7 @@ is isomorphic to quantum mechanics.
 
 *Proof (Outline)*: Proof proceeds in steps:
 
-#### 7.2.3.1 Step 1: Construct
-the Knowledge Map
+#### 7.2.3.1 Step 1: Construct the Knowledge Map
 
 Define the knowledge map \(\kappa:
 \mathcal{R} \to \mathcal{K}\) as: \[\kappa(\phi) = P_\phi\] Where \(P_\phi(o) = \mu(\{\phi' \in \mathcal{R} \mid
@@ -2040,8 +1818,7 @@ Define the knowledge map \(\kappa:
 physical state into a probability distribution over discrete
 outcomes.
 
-#### 7.2.3.2 Step 2: Show
-Non-Boolean Structure
+#### 7.2.3.2 Step 2: Show Non-Boolean Structure
 
 Consider two measurement devices \(\mathcal{M}_1, \mathcal{M}_2\) with
 incompatible thresholds. The operational structure of actual
@@ -2054,8 +1831,7 @@ propositions \(a,b,c\) such that \(a \wedge (b \vee c) \neq (a \wedge b) \vee (a
 \wedge c)\). This non-distributivity directly follows from the
 contextuality of quantum measurements. \(\square\)
 
-#### 7.2.3.3 Step 3: Derive
-Hilbert Space Structure
+#### 7.2.3.3 Step 3: Derive Hilbert Space Structure
 
 From the continuity preservation constraint, the knowledge map must
 satisfy: \[\kappa(\Phi_t(\phi)) =
@@ -2084,16 +1860,14 @@ constraint (as proven by Bell’s theorem). Therefore, \(\mathcal{C}'\) must be 
 establishes the uniqueness of quantum mechanics as the calculus of
 inference. \(\square\)
 
-## 7.3 Proof That
-Quanta Are Measurement Artifacts
+## 7.3 Proof That Quanta Are Measurement Artifacts
 
 The PQS formally demonstrates that the apparent discreteness of
 “quanta” is not an intrinsic property of physical reality but rather an
 artifact arising from confinement (boundary conditions) and the
 thresholded nature of measurement devices.
 
-### 7.3.1 Definition:
-Quantization as Confinement Effect
+### 7.3.1 Definition: Quantization as Confinement Effect
 
 Let \(\mathcal{C} \subset
 \mathcal{R}\) be a confined region in the physical reality space
@@ -2116,8 +1890,7 @@ such as \(\mathcal{H} =
 discreteness is not inherent to the fields themselves but emerges under
 confinement. \(\square\)
 
-### 7.3.2 Definition: Detector
-Threshold Effect
+### 7.3.2 Definition: Detector Threshold Effect
 
 Let \(\theta: \mathcal{R} \to
 \mathbb{R}^+\) be a threshold function that maps the continuous
@@ -2142,8 +1915,7 @@ that the composition of continuous functions is continuous. If no sharp
 thresholds exist, the measurement outcome would also be continuous.
 \(\square\)
 
-### 7.3.3 Corollary: No Fundamental
-Quanta
+### 7.3.3 Corollary: No Fundamental Quanta
 
 Suppose a fundamental quantum entity existed, implying an intrinsic
 discreteness in reality itself. This would mean that for any arbitrarily
@@ -2159,16 +1931,14 @@ nature of detector thresholds or the boundary conditions of confined
 systems, not from an inherent discreteness of the underlying fields.
 \(\square\)
 
-## 7.4 Proof
-That Wavefunction Collapse is Bayesian Updating
+## 7.4 Proof That Wavefunction Collapse is Bayesian Updating
 
 The PQS formally demonstrates that the phenomenon commonly referred
 to as “wavefunction collapse” is not a physical process affecting
 reality, but rather an epistemic update of an observer’s knowledge
 state, precisely analogous to Bayesian conditioning.
 
-### 7.4.1 Definition: Knowledge
-State
+### 7.4.1 Definition: Knowledge State
 
 The knowledge state before a measurement is represented by a density
 operator \(\rho\), which is a
@@ -2177,8 +1947,7 @@ probabilities: \[\rho = \int P(\phi)
 |\phi\rangle\langle\phi| d\mu(\phi)\] Where \(P(\phi)\) is the prior probability density
 of the continuous physical state \(\phi\).
 
-### 7.4.2 Definition: Measurement
-Update
+### 7.4.2 Definition: Measurement Update
 
 After observing a specific outcome \(o_k\), the updated knowledge state \(\rho_k\) is derived by applying the
 measurement operator corresponding to \(o_k\) and normalizing: \[\rho_k = \frac{P(o_k|\phi)\rho}{P(o_k)} =
@@ -2192,8 +1961,7 @@ definition of conditional probability: \[P(\phi|o_k) =
 the density matrix update formula, demonstrating that “collapse” is a
 mathematical operation on probabilities, not a physical process. \(\square\)
 
-### 7.4.3 Theorem 7.2 (No Physical
-Collapse)
+### 7.4.3 Theorem 7.2 (No Physical Collapse)
 
 There is no physical change to the continuous physical state \(\phi \in \mathcal{R}\) corresponding to
 “wavefunction collapse.”
@@ -2216,8 +1984,7 @@ affects the density operator \(\rho \in
 \mathcal{K}\) (the observer’s knowledge), not the physical state
 \(\phi \in \mathcal{R}\). \(\square\)
 
-### 7.4.4
-Corollary: Weak Measurements Show Continuous Evolution
+### 7.4.4 Corollary: Weak Measurements Show Continuous Evolution
 
 In the case of weak measurements, the detector threshold \(\theta\) is set high enough that: \[\mathcal{M}(\phi(t)) = \text{no outcome} \quad
 \forall t < T\] Thus, no discrete outcome is registered, and
@@ -2229,16 +1996,14 @@ consistently show continuous trajectories without any apparent
 “collapse,” as confirmed by recent experiments (Yale, 2021; Yale Quantum
 Institute, 2024). \(\square\)
 
-## 7.5 Proof That
-Entanglement is Correlation History
+## 7.5 Proof That Entanglement is Correlation History
 
 The PQS formally proves that entanglement, often perceived as “spooky
 action at a distance,” is fundamentally a manifestation of historical
 correlation within the epistemic domain, rather than a non-local
 physical connection.
 
-### 7.5.1 Definition: Historical
-Correlation
+### 7.5.1 Definition: Historical Correlation
 
 Let \(\mathcal{R}_1\) and \(\mathcal{R}_2\) be two physical systems
 (e.g., field excitations) that interacted locally at a specific time
@@ -2249,8 +2014,7 @@ can be described as a superposition of product states: \[\phi_{12}(t_0) = \sum_i
 \phi_2^i \in \mathcal{R}_{12}\] Where \(c_i\) are complex coefficients reflecting
 the nature of the interaction.
 
-### 7.5.2 Definition: Separated
-Systems
+### 7.5.2 Definition: Separated Systems
 
 At a later time \(t > t_0\), the
 systems are spatially separated and no longer interacting. The joint
@@ -2258,8 +2022,7 @@ physical state space is then represented as a disjoint product: \[\mathcal{R}_{1
 \mathcal{R}_2(t)\] This signifies that the systems are physically
 independent, with no direct physical connection between them.
 
-### 7.5.3 Theorem 8.1 (No Spooky
-Action)
+### 7.5.3 Theorem 8.1 (No Spooky Action)
 
 For any local operation performed solely on system \(\mathcal{R}_1\), the physical state of the
 spatially separated system \(\mathcal{R}_2\) remains unchanged.
@@ -2277,8 +2040,7 @@ identical to the marginal state of \(\mathcal{R}_2\) before \(U_1\) was applied 
 local operations on one system have no instantaneous physical effect on
 the other, thus refuting “spooky action at a distance.” \(\square\)
 
-### 7.5.4 Theorem 8.2 (Correlation
-History)
+### 7.5.4 Theorem 8.2 (Correlation History)
 
 The joint measurement statistics for two entangled systems satisfy:
 \[P(o_1, o_2) = \sum_i |c_i|^2
@@ -2288,8 +2050,7 @@ product structure of the physical states after separation. The
 correlations arise from the coefficients \(c_i\) established during the initial
 interaction, which encode the shared history. \(\square\)
 
-### 7.5.5 Corollary:
-History Erasure Destroys Correlation
+### 7.5.5 Corollary: History Erasure Destroys Correlation
 
 If a scrambling operation \(S\) is
 applied that randomizes the historical correlation established at \(t_0\): \[S(\phi_{12}(t_0)) = \sum_{i,j} d_{ij} \phi_1^i
@@ -2303,8 +2064,7 @@ non-classical correlations, causing the statistics to revert to
 classical correlation. This is supported by experiments showing Bell
 violation loss with history scrambling (Science, 2024). \(\square\)
 
-## 7.6 Proof That
-Classicality Emerges From Redundancy
+## 7.6 Proof That Classicality Emerges From Redundancy
 
 The Post-Quantum Synthesis formally demonstrates that the emergence
 of classical behavior from underlying quantum dynamics is not a function
@@ -2312,8 +2072,7 @@ of system size, but rather a direct consequence of environmental
 redundancy, specifically the number of copies of information about a
 system that are imprinted into its environment.
 
-### 7.6.1 Definition:
-Environmental Redundancy
+### 7.6.1 Definition: Environmental Redundancy
 
 Let \(\mathcal{S}\) be the system
 under consideration and \(\mathcal{E}\)
@@ -2324,8 +2083,7 @@ described by a joint physical state: \[\phi_{SE} = \sum_i c_i \phi_S^i \otimes
 representing the number of environmental “copies” of the system’s
 state.
 
-### 7.6.2 Definition: Objective
-Outcome
+### 7.6.2 Definition: Objective Outcome
 
 An outcome \(o_i\) is considered
 objective if, for a sufficiently large number of environmental copies,
@@ -2337,8 +2095,7 @@ And \[P(o_j|e_k^i) \approx 0 \quad \forall j
 are highly distinguishable and uniquely correlated with the system’s
 state.
 
-### 7.6.3 Theorem 9.1 (Redundancy
-Threshold)
+### 7.6.3 Theorem 9.1 (Redundancy Threshold)
 
 There exists a critical number of environmental copies, \(N_0\), such that for any number of copies
 \(N > N_0\), the outcomes of
@@ -2355,8 +2112,7 @@ than an arbitrarily small \(\epsilon\).
 This establishes a clear redundancy threshold for the emergence of
 objectivity. \(\square\)
 
-### 7.6.4 Theorem 9.2 (No Size
-Dependence)
+### 7.6.4 Theorem 9.2 (No Size Dependence)
 
 The emergence of objectivity depends solely on the redundancy
 parameter \(N\) (the number of
@@ -2370,8 +2126,7 @@ system-environment coupling and the information imprinted, which is
 independent of the system’s physical size. Therefore, objectivity is a
 function of information redundancy, not scale. \(\square\)
 
-### 7.6.5 Corollary:
-Quantum-to-Classical Transition
+### 7.6.5 Corollary: Quantum-to-Classical Transition
 
 The transition from quantum behavior (where superpositions are
 fragile and outcomes are subjective) to classical behavior (where
@@ -2386,15 +2141,13 @@ systems appear quantum (they have small \(N\)). This is supported by experiments
 confirming the emergence of objectivity at specific redundancy
 thresholds (Nature, 2024). \(\square\)
 
-## 7.7 The Final Synthesis:
-Formal Statement
+## 7.7 The Final Synthesis: Formal Statement
 
 The culmination of the Post-Quantum Synthesis is a comprehensive
 theorem that integrates the preceding proofs, providing a unified and
 paradox-free understanding of physics.
 
-### 7.7.1 The Post-Quantum
-Synthesis Theorem
+### 7.7.1 The Post-Quantum Synthesis Theorem
 
 Let \(\mathcal{R}\) be a continuous
 physical state space and \(\mathcal{O}\) a discrete outcome space. Let
@@ -2429,8 +2182,7 @@ Spectrum of Unconfined Fields), 7.2 (No Physical Collapse), 8.1 (No
 Spooky Action), and 9.2 (No Size Dependence for Objectivity). Each
 component of the PQS is thus mathematically substantiated. \(\square\)
 
-## 7.8 The Unassailable
-Conclusion
+## 7.8 The Unassailable Conclusion
 
 The mathematical structure we’ve derived, built upon foundational
 axioms and rigorous proofs, forces the following unassailable
@@ -2467,8 +2219,7 @@ Nothing more. Nothing less.
 
 Everything.
 
-### Epilogue: The Final Truth —
-In Logic
+### Epilogue: The Final Truth — In Logic
 
 AXIOM: All physical systems are continuous. AXIOM: All measurement
 outcomes are discrete. THEOREM: Quantum mechanics is the unique

@@ -1,10 +1,10 @@
 # Positional Notation as an Ultrametric Tree of Cyclic Time
 
 ## Abstract
+
 Positional numeral systems are traditionally interpreted as linear encodings of magnitude. This paper shows that such systems naturally form rooted ultrametric trees whose levels correspond to nested cyclic temporal units (seconds → minutes → hours → days). The $b$‑adic valuation $d(x,y)=b^{-v_b(x-y)}$ defines an ultrametric on integers ([6]), and mixed‑radix historical systems (sexagesimal, Mayan) instantiate cyclic bases that mirror calendar cycles. The strong triangle inequality of ultrametrics ([1]) guarantees that the distance between two numerals equals the depth of their lowest common ancestor in the calendar tree. We prove that mixed‑radix cyclic numeral systems induce a symbolic ultrametric whose distance equals the depth of the least common ancestor. Concrete computations show that two sexagesimal numbers differing by one minute have distance $1/60\approx0.0166667$, while two Mayan numbers differing by one baktun have distance $1/20=0.05$. For a civil week clock with radices $(60,60,24,7)$ the state space contains $604{,}800$ instants, requires $19.2061$ bits to index, and the ultrametric attains only five distinct distance values. Pairwise ultrametric distances for three example timestamps are all $0.0166667$, giving an average of $0.0166667$. The result provides a formal geometry for calendar‑aligned data analysis and suggests that time‑series pipelines can replace linear distance metrics with tree‑based metrics, improving detection of periodicities aligned with human cycles.
 
-## 1. Introduction
-Operators of time‑series databases, schedulers of public transport, and modelers of epidemiological contact networks all store timestamps on a linear axis, even though the underlying clocks and calendars are nested and periodic (seconds in a minute, minutes in an hour, hours in a day, days in a week). This flattening forces each analysis to re‑implement calendar logic, and forecasting errors for hourly electricity demand increase when cyclic effects are ignored. A design that natively respects the calendar hierarchy would allow algorithms to detect weekly or daily patterns without manual feature engineering, improving accuracy and reducing engineering effort.
+## 1. Introduction Operators of time‑series databases, schedulers of public transport, and modelers of epidemiological contact networks all store timestamps on a linear axis, even though the underlying clocks and calendars are nested and periodic (seconds in a minute, minutes in an hour, hours in a day, days in a week). This flattening forces each analysis to re‑implement calendar logic, and forecasting errors for hourly electricity demand increase when cyclic effects are ignored. A design that natively respects the calendar hierarchy would allow algorithms to detect weekly or daily patterns without manual feature engineering, improving accuracy and reducing engineering effort.
 
 If positional notation itself encodes the calendar hierarchy as a rooted ultrametric tree, then a single mathem‑atically grounded distance—derived from the numeral representation—can replace linear metrics in clustering, similarity search, and regularisation for any calendar‑structured data set. The contributions are:
 
@@ -16,8 +16,7 @@ If positional notation itself encodes the calendar hierarchy as a rooted ultrame
 6. **Critical discussion** of assumptions, failure modes, and falsifiability criteria (Section 6).  
 7. **Practical pathway** for integrating the ultrametric metric into existing pipelines (Section 7).
 
-## 2. Background and Related Work
-Ultrametrics are “zero‑dimensional analogues of ordinary metrics” and satisfy the strong triangle inequality $d(x,y)\le\max\{d(x,z),d(z,y)\}$ ([1], § 1). This property guarantees that any three points share a pair whose distance dominates the third, a feature that underlies hierarchical clustering.
+## 2. Background and Related Work Ultrametrics are “zero‑dimensional analogues of ordinary metrics” and satisfy the strong triangle inequality $d(x,y)\le\max\{d(x,z),d(z,y)\}$ ([1], § 1). This property guarantees that any three points share a pair whose distance dominates the third, a feature that underlies hierarchical clustering.
 
 Space‑time foliations decompose a four‑dimensional manifold into a family of three‑dimensional spacelike leaves, each leaf representing a “snapshot” of space at a given time ([2], § 1). The foliation structure provides a natural analogy for calendar cycles: each leaf can be interpreted as a temporal slice (e.g., a day) within a higher‑dimensional “time” manifold.
 
@@ -213,8 +212,7 @@ The average ultrametric distance among the three pairs is
 \bar d = \frac{0.0166667+0.0166667+0.0166667}{3}=0.0166667.
 \]
 
-## 5. Results
-The numeric examples confirm that the $b$‑adic distance captures the depth of the LCA in the mixed‑radix tree:
+## 5. Results The numeric examples confirm that the $b$‑adic distance captures the depth of the LCA in the mixed‑radix tree:
 
 | Example | Base | Difference | $v_b$ | Distance $b^{-v_b}$ |
 |---------|------|------------|------|----------------------|
@@ -249,11 +247,9 @@ the ultrametric construction is invalid. Empirical measurement of distances on a
 ### 7.1. Intended users and design change
 Data scientists and engineers building time‑series pipelines for domains with strong calendar cycles (energy demand, public‑transport scheduling, epidemiological monitoring) can replace Euclidean or Manhattan distances with the ultrametric $d_{\text{cal}}$ defined in Section 3.3. This change enables clustering, indexing, and anomaly detection to operate directly on the calendar hierarchy, reducing the need for manual feature engineering and improving detection of periodic patterns aligned with human cycles.
 
-### 7.2. Technology readiness
-The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level definitions, it resides at **TRL 2** (technology concept formulated).
+### 7.2. Technology readiness The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level definitions, it resides at **TRL 2** (technology concept formulated).
 
-### 7.3. Minimal next experiment
-Implement $d_{\text{cal}}$ in an open‑source clustering library (e.g., SciPy) and apply it to a publicly available hourly electricity demand dataset (e.g., the UCI “Individual household electric power consumption” set). Compute the silhouette score for clusters obtained with $d_{\text{cal}}$ versus standard Euclidean distance. A statistically significant improvement (p < 0.05) would support the claim; a lack of improvement would falsify it.
+### 7.3. Minimal next experiment Implement $d_{\text{cal}}$ in an open‑source clustering library (e.g., SciPy) and apply it to a publicly available hourly electricity demand dataset (e.g., the UCI “Individual household electric power consumption” set). Compute the silhouette score for clusters obtained with $d_{\text{cal}}$ versus standard Euclidean distance. A statistically significant improvement (p < 0.05) would support the claim; a lack of improvement would falsify it.
 
 ### 7.4. Engineering constraints
 - **Data representation**: Timestamps must be converted to the mixed‑radix tuple $(s,m,h,d)$.  
@@ -261,14 +257,11 @@ Implement $d_{\text{cal}}$ in an open‑source clustering library (e.g., SciPy) 
 - **Scalability**: Pairwise distance matrices can be constructed efficiently using vectorised operations; for very large datasets, approximate nearest‑neighbour methods can exploit the bounded number of distance values.  
 - **Regulatory**: No specific regulation governs the choice of distance metric in data analysis.
 
-### 7.5. Projected performance bounds
-Assuming correct conversion of timestamps, the ultrametric distance lies in $[1/60^{4},1]=[0.00000165344,1]$. This bounded range ensures that similarity scores remain comparable across datasets of differing length, a property not guaranteed by unbounded Euclidean distances.
+### 7.5. Projected performance bounds Assuming correct conversion of timestamps, the ultrametric distance lies in $[1/60^{4},1]=[0.00000165344,1]$. This bounded range ensures that similarity scores remain comparable across datasets of differing length, a property not guaranteed by unbounded Euclidean distances.
 
-### 7.6. Risks and misuse
-If applied to data lacking genuine cyclic structure, the ultrametric may artificially force hierarchical clustering, obscuring true patterns. Users must verify the presence of calendar‑aligned periodicities before adoption.
+### 7.6. Risks and misuse If applied to data lacking genuine cyclic structure, the ultrametric may artificially force hierarchical clustering, obscuring true patterns. Users must verify the presence of calendar‑aligned periodicities before adoption.
 
-## 8. Conclusion
-Positional notation, when viewed through the lens of mixed‑radix cyclic bases, forms a rooted ultrametric tree whose depth encodes nested temporal hierarchies. The $b$‑adic valuation provides a mathematically rigorous distance that equals the depth of the lowest common ancestor, satisfying the strong triangle inequality. Concrete calculations for sexagesimal, Mayan, and a civil week clock demonstrate the metric’s interpretability and its potential to improve clustering of calendar‑structured time‑series. The work establishes a formal bridge between number representation, ultrametric geometry, and temporal hierarchy, opening a pathway for more natural handling of cyclic time in data‑driven applications.
+## 8. Conclusion Positional notation, when viewed through the lens of mixed‑radix cyclic bases, forms a rooted ultrametric tree whose depth encodes nested temporal hierarchies. The $b$‑adic valuation provides a mathematically rigorous distance that equals the depth of the lowest common ancestor, satisfying the strong triangle inequality. Concrete calculations for sexagesimal, Mayan, and a civil week clock demonstrate the metric’s interpretability and its potential to improve clustering of calendar‑structured time‑series. The work establishes a formal bridge between number representation, ultrametric geometry, and temporal hierarchy, opening a pathway for more natural handling of cyclic time in data‑driven applications.
 
 ## Version History
 
