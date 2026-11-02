@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "universe-category-functor",
+  "paper": {
+    "path": "papers/universe-category-functor/paper.md",
+    "title": "The Universe Category: A Single Functor Encoding Quantization, Stability, and Factorization",
+    "url": "https://papers.qnfo.org/papers/universe-category-functor"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "universe-category-functor"
+  },
+  "snapshots": [
+    {
+      "sha256": "a1b9b6662ff9b686ea1f99b6f17f0f45671e1a7dff05fa9021fc9792535760ee",
+      "bytes": 15842,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

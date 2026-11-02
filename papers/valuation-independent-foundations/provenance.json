@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "valuation-independent-foundations",
+  "paper": {
+    "path": "papers/valuation-independent-foundations/paper.md",
+    "title": "Valuation Without R: A Category-Theoretic Foundation for Finite Measurement",
+    "url": "https://papers.qnfo.org/papers/valuation-independent-foundations"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "valuation-independent-foundations"
+  },
+  "snapshots": [
+    {
+      "sha256": "3a739469ee053aaaec046a3b857628c9a7eae386b451c600106bfc9c151324c5",
+      "bytes": 33582,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.8.1-zenodo-real",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

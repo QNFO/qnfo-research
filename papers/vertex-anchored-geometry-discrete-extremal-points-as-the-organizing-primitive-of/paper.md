@@ -170,25 +170,20 @@ The analysis rests on exact combinatorial counting and the strong triangle inequ
 
 ## 7. Practical Implications and Engineering Pathways
 
-### (a) Potential users and decision impact
-The primary users are theoretical physicists constructing $p$‑adic models of quantum fields, mathematicians studying Bruhat–Tits buildings, and data scientists employing ultrametric clustering. Adoption of the vertex‑anchored primitive simplifies model specification: algorithms can treat each vertex as the unique carrier of metric information, eliminating the need for arbitrary center selection in hierarchical clustering and for redundant constraint handling in polystochastic optimisation.
+### (a) Potential users and decision impact The primary users are theoretical physicists constructing $p$‑adic models of quantum fields, mathematicians studying Bruhat–Tits buildings, and data scientists employing ultrametric clustering. Adoption of the vertex‑anchored primitive simplifies model specification: algorithms can treat each vertex as the unique carrier of metric information, eliminating the need for arbitrary center selection in hierarchical clustering and for redundant constraint handling in polystochastic optimisation.
 
-### (b) Technology readiness
-The work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level (TRL) definitions, it resides at **TRL 2** (technology concept formulation).
+### (b) Technology readiness The work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level (TRL) definitions, it resides at **TRL 2** (technology concept formulation).
 
-### (c) Minimal next experiment
-A modest computational prototype would generate a $q$‑homogeneous tree (e.g., $q=3$, depth $k=5$), assign a synthetic object of size $S$, and compute apparent sizes at each admissible distance $d_k$. The experiment would verify that successive apparent sizes differ by exactly the factor $q$. Refutation occurs if any ratio deviates from $q$ beyond floating‑point tolerance.
+### (c) Minimal next experiment A modest computational prototype would generate a $q$‑homogeneous tree (e.g., $q=3$, depth $k=5$), assign a synthetic object of size $S$, and compute apparent sizes at each admissible distance $d_k$. The experiment would verify that successive apparent sizes differ by exactly the factor $q$. Refutation occurs if any ratio deviates from $q$ beyond floating‑point tolerance.
 
 ### (d) Engineering constraints
 - **Data structure:** The tree must support exact integer branching; any approximation in branching factor would break the $N_k=q^{k}$ relation.
 - **Compute:** Integer arithmetic suffices; no floating‑point rounding is required for the combinatorial counts.
 - **Scale‑up:** Extending to depths $k>20$ demands storage proportional to $q^{k}$, which grows exponentially; practical implementations must therefore limit depth or use on‑the‑fly generation.
 
-### (e) Projected cost/performance (projection)
-Assuming a prototype that stores each vertex as a 64‑bit identifier, the memory requirement for $q=2$, $k=20$ is $N_{20}\times8\text{ bytes}=1{,}048{,}576\times8\approx8.00\text{ MiB}$. This projection follows directly from the ball‑count formula and standard integer size assumptions.
+### (e) Projected cost/performance (projection) Assuming a prototype that stores each vertex as a 64‑bit identifier, the memory requirement for $q=2$, $k=20$ is $N_{20}\times8\text{ bytes}=1{,}048{,}576\times8\approx8.00\text{ MiB}$. This projection follows directly from the ball‑count formula and standard integer size assumptions.
 
-### (f) Risks and misuse
-No immediate misuse pathways are apparent; however, misapplying the vertex‑anchored model to systems that are not ultrametric (e.g., Euclidean spaces) would lead to erroneous conclusions.
+### (f) Risks and misuse No immediate misuse pathways are apparent; however, misapplying the vertex‑anchored model to systems that are not ultrametric (e.g., Euclidean spaces) would lead to erroneous conclusions.
 
 ## 8. Conclusion
 
