@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "from-operational-axioms-to-field-axioms-an-audit-of-the-gpt-to-wightman-reconstr",
+  "paper": {
+    "path": "papers/from-operational-axioms-to-field-axioms-an-audit-of-the-gpt-to-wightman-reconstr/paper.md",
+    "title": "From Operational Axioms to Field Axioms: An Audit of the GPT-to-Wightman Reconstruction Claim for Systems with Infinitely Many Degrees of Freedom",
+    "url": "https://papers.qnfo.org/papers/from-operational-axioms-to-field-axioms-an-audit-of-the-gpt-to-wightman-reconstr"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-425/from-operational-axioms-to-field-axioms-an-audit-of-the-gpt-to-wightman-reconstr",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9c8851196d65d5b1c5cc5586e21b6d2a8c14e2405ac4605053a4d591961e97da"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "e3c3349a-646a-4db0-95f8-d08cb0e8d6c8"
+    ],
+    "living_paper_slug": "from-operational-axioms-to-field-axioms-an-audit-of-the-gpt-to-wightman-reconstr"
+  },
+  "snapshots": [
+    {
+      "sha256": "24f9b6df5d0b05845a284b0ca01ac0dd42ed3da6af5d8d6f38ea31b695cfa228",
+      "bytes": 65843,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

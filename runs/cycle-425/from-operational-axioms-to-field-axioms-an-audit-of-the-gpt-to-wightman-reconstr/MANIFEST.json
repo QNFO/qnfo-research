@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "e3c3349a-646a-4db0-95f8-d08cb0e8d6c8",
+    "slug": "from-operational-axioms-to-field-axioms-an-audit-of-the-gpt-to-wightman-reconstr",
+    "cycle": "cycle-425",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.2",
+    "finished_at": "2026-11-02T19:41:16.735Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "24f9b6df5d0b05845a284b0ca01ac0dd42ed3da6af5d8d6f38ea31b695cfa228",
+    "bytes": 65843,
+    "path": "papers/from-operational-axioms-to-field-axioms-an-audit-of-the-gpt-to-wightman-reconstr/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "9cfc187c253e4f5ed9bd5f1be580e7d0df52ffc0a77e4f151a3969364acf13ec",
+      "bytes": 47787,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "24f9b6df5d0b05845a284b0ca01ac0dd42ed3da6af5d8d6f38ea31b695cfa228",
+      "bytes": 65843,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "89467e11e2c2d2e9993b49616605a78a30127c158835c17679ce6f3a95a41370",
+      "bytes": 4959,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "658512afe012c8cc7af2822f97d7c9c37070f2271fd132258728356a3d3569ec",
+      "bytes": 4192,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "6f0b158b556b6498fa8856413e7bc5fd278faf6a4bcb419b81644fb4b386b2d3",
+      "bytes": 7641,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "dc0c1990a8b39310ff8d555a50475e83c1b2b5a4b300ec1654446bb81042eedd",
+      "bytes": 4404,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "2f77509e9ecfa5399efa722a83cc95412366f4400567d187bca73571eda381d7",
+      "bytes": 20495,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "fca2ef04379d419cc518ba174e9f4696fa02ed4826316bed2d54f6cc9fc9bdb7",
+      "bytes": 37975,
+      "role": "draft"
+    }
+  }
+}
