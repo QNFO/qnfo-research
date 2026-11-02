@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "anthropocentric-decryption-key",
+  "paper": {
+    "path": "papers/anthropocentric-decryption-key/paper.md",
+    "title": "The Decryption Key: Cognitive Architecture as the Hidden Radix of Physical Measurement",
+    "url": "https://papers.qnfo.org/papers/anthropocentric-decryption-key"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "anthropocentric-decryption-key"
+  },
+  "snapshots": [
+    {
+      "sha256": "453608fc8b41f95d43aa0ea3782f63421317e22ed19428467cdf9ddb3f6ff5cc",
+      "bytes": 16825,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

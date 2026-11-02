@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "anthropometric-fossils",
+  "paper": {
+    "path": "papers/anthropometric-fossils/paper.md",
+    "title": "Anthropometric Fossils: A Systematic Catalog of Human Cognitive Imprints in the International System of Units",
+    "url": "https://papers.qnfo.org/papers/anthropometric-fossils"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "anthropometric-fossils"
+  },
+  "snapshots": [
+    {
+      "sha256": "6033df3e9ea245ba117242a979fa65bd0c964cc368ace131f1cb8c13541ca73e",
+      "bytes": 13379,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
