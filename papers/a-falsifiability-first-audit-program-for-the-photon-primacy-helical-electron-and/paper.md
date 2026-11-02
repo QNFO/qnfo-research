@@ -1,14 +1,14 @@
 # A Falsifiability‑First Audit Program for the Photon‑Primacy, Helical‑Electron, and Adelic‑Mass Claim Cluster
 
 ## Abstract
+
 The photon‑primacy / helical‑electron / adelic‑mass cluster proposes that particle rest‑energies arise from photonic circulation, that electron spin is literal helical motion at twice the Compton frequency, and that mass ratios encode arithmetic structure on Bruhat–Tits trees. The literature surrounding these ideas is fragmented and lacks a systematic, falsifiability‑driven audit methodology. We present a **Falsifiability‑First Audit Program (FFAP)** that (i) extracts every explicit claim from the QNFO corpus, (ii) maps each claim onto a concrete experimental observable or logical kill condition, (iii) enumerates the full combinatorial test space, and (iv) derives statistically rigorous significance thresholds that respect multiple‑testing constraints. Using the sixteen published records of the Trapped‑Ion Ultrametric Testbed [10], the two regimes identified in the pattern‑table paper [9], and the two particle catalogs (elementary vs. quasiparticle) also defined in [9], we obtain **64 distinct claim‑regime‑catalog triples**. Assuming a per‑test Type I error of 5 % the naïve family‑wise error rate exceeds 96 %; a Bonferroni correction yields a per‑test significance level of **α = 7.8 × 10⁻⁴**.
 
 Concrete numerical audits are performed for the most salient sub‑claims: the muon‑electron mass‑ratio integer hypothesis is falsified at ≈ 10⁵ σ, the tau‑electron ratio requires a 5.2‑fold improvement in tau‑mass precision to reach 5 σ, the cross‑ratio \((m_\tau/m_\mu)/(m_\mu/m_e)\) is rejected at 161 σ, the binary‑prime‑power hypothesis for the muon‑electron ratio is rejected (δ = 0.306), and the unextended helical‑electron model fails a parameter‑count audit. A feasibility projection for the trapped‑ion ultrametric test shows that, under standard‑quantum‑limit assumptions, a depth‑4 test would demand ≈ 10¹⁰ coherent cycles (≈ 11.6 days), whereas a Heisenberg‑limited protocol would reduce this to ≈ 10 s.
 
 The framework is deliberately minimalistic, exposing its own failure modes (independence assumptions, incomplete claim catalogues, over‑correction) and providing a transparent work‑breakdown structure for community adoption. By foregrounding falsifiability, the FFAP transforms a speculative ultrametric quantum dynamics program into a testable scientific discipline.
 
-## 1. Introduction
-Speculative theoretical programs that reinterpret fundamental quantities often evade empirical refutation because they lack a pre‑registered mapping from claim to observable. The **photon‑primacy / helical‑electron / adelic‑mass** cluster is a vivid example. Its three pillars are
+## 1. Introduction Speculative theoretical programs that reinterpret fundamental quantities often evade empirical refutation because they lack a pre‑registered mapping from claim to observable. The **photon‑primacy / helical‑electron / adelic‑mass** cluster is a vivid example. Its three pillars are
 
 1. **Photon primacy** – massive particles are emergent configurations of photons;
 2. **Helical electron** – the electron’s rest energy originates from a light‑speed helical circulation, giving spin ½ as literal orbital angular momentum;
@@ -20,8 +20,7 @@ We therefore propose the **Falsifiability‑First Audit Program (FFAP)**, a meta
 
 The remainder of the paper proceeds as follows. Section 2 surveys eight methodological works that inform the audit design. Section 3 details the construction of the claim register, the mapping to experimental regimes, the definition of kill conditions, and the computational workflow. Section 4 presents the full arithmetic derivation of the test space and of the quantitative audits of the most salient sub‑claims. Section 5 reports the numerical outcomes. Section 6 discusses limitations, potential failure modes of the audit itself, and open questions. Section 7 concludes with a roadmap for community adoption.
 
-## 2. Background and Related Work
-A falsifiability‑oriented audit draws on diverse strands of computer science, mathematics, and physics. The following eight works illustrate the methodological foundations we adapt.
+## 2. Background and Related Work A falsifiability‑oriented audit draws on diverse strands of computer science, mathematics, and physics. The following eight works illustrate the methodological foundations we adapt.
 
 1. **Pseudomonads and Descent** [1] introduces a categorical framework for tracking dependencies across multiple layers of abstraction. Its discussion of “four single‑authored papers” and an “introductory chapter” provides a concrete example of hierarchical documentation that we emulate when structuring claim metadata.
 
@@ -43,8 +42,7 @@ These works collectively justify the FFAP’s emphasis on systematic documentati
 
 ## 3. Methods
 
-### 3.1 Claim Extraction and Cataloguing
-We surveyed the two QNFO sources that directly enumerate the relevant claim set:
+### 3.1 Claim Extraction and Cataloguing We surveyed the two QNFO sources that directly enumerate the relevant claim set:
 
 | Source | Content |
 |--------|---------|
@@ -53,8 +51,7 @@ We surveyed the two QNFO sources that directly enumerate the relevant claim set:
 
 Each record is parsed for a formal statement of the form “the measured cross‑ratio R satisfies R = f(p)”, where f is a p‑adic function. The extraction yields a claim register **C** = {c₁,…,c₁₆}.
 
-### 3.2 Regime and Catalog Mapping
-For each claim cᵢ we generate two regime‑specific instances (Standard‑Model S, Condensed‑Matter C) and, for each regime, two catalog instances (elementary E, quasiparticle Q). The Cartesian product yields
+### 3.2 Regime and Catalog Mapping For each claim cᵢ we generate two regime‑specific instances (Standard‑Model S, Condensed‑Matter C) and, for each regime, two catalog instances (elementary E, quasiparticle Q). The Cartesian product yields
 
 \[
 T = \{(c_i,\text{regime},\text{catalog})\mid i=1\ldots16,\;\text{regime}\in\{S,C\},\;\text{catalog}\in\{E,Q\}\},
@@ -68,8 +65,7 @@ N_t = 16 \times 2 \times 2 = 64.
 
 Thus the audit must evaluate **64 distinct hypothesis tests** to exhaustively cover the claim space.
 
-### 3.3 Kill Conditions
-Following the evidence‑grading standard of [12] we assign each sub‑claim a **kill condition (KC)** that, if satisfied, falsifies the claim:
+### 3.3 Kill Conditions Following the evidence‑grading standard of [12] we assign each sub‑claim a **kill condition (KC)** that, if satisfied, falsifies the claim:
 
 | KC | Description |
 |----|-------------|
@@ -77,8 +73,7 @@ Following the evidence‑grading standard of [12] we assign each sub‑claim a
 | **KC2** (cross‑ratio consistency) – The cross‑ratio extraction must reproduce known constants (e.g. α) within the frozen input precision; a matched‑null control must not achieve comparable agreement. |
 | **KC3** (integer‑log concentration) – For a chosen prime p, the fractional part of logₚ(ratio) must lie within a tolerance ε for all tested ratios; the joint chance probability under a uniform null must be reported. |
 
-### 3.4 Statistical Thresholds
-Each hypothesis test uses a per‑test Type I error α₀ = 0.05. Controlling the **family‑wise error rate (FWER)** over Nₜ = 64 tests yields the Bonferroni‑adjusted per‑test significance level
+### 3.4 Statistical Thresholds Each hypothesis test uses a per‑test Type I error α₀ = 0.05. Controlling the **family‑wise error rate (FWER)** over Nₜ = 64 tests yields the Bonferroni‑adjusted per‑test significance level
 
 \[
 \alpha_{\text{Bonf}} = \frac{0.05}{64}=7.8125\times10^{-4}.
@@ -90,8 +85,7 @@ The naïve (uncorrected) FWER is
 \text{FWER}_{\text{naïve}} = 1-(1-\alpha_0)^{N_t}=1-(0.95)^{64}\approx0.9625.
 \]
 
-### 3.5 Computational Workflow
-The audit pipeline proceeds as follows:
+### 3.5 Computational Workflow The audit pipeline proceeds as follows:
 
 A study would acquire data from the trapped‑ion simulator (real‑time fluorescence counts).
 2. **Pre‑processing** to extract cross‑ratio estimates using a Cloud DIKW‑style parallel clustering (Section 2).
@@ -116,9 +110,7 @@ All software components are open‑source and containerized to guarantee reprodu
 
 The derivations are shown in the table; the arithmetic follows directly from the definitions.
 
-### 4.2 Muon‑Electron Mass‑Ratio Integer Hypothesis (C1)
-Claim: \(m_\mu/m_e = 207\).
-Measured ratio (CODATA 2022): \(R_\mu = 206.7682830\) with relative uncertainty \(σ_{\!rel}=1.1\times10^{-8}\).
+### 4.2 Muon‑Electron Mass‑Ratio Integer Hypothesis (C1) Claim: \(m_\mu/m_e = 207\). Measured ratio (CODATA 2022): \(R_\mu = 206.7682830\) with relative uncertainty \(σ_{\!rel}=1.1\times10^{-8}\).
 
 *Absolute deviation*
 \[
@@ -137,8 +129,7 @@ Measured ratio (CODATA 2022): \(R_\mu = 206.7682830\) with relative uncertai
 
 **Result:** the integer hypothesis is falsified at ≈ 10⁵ σ (KC2 = F0).
 
-### 4.3 Tau‑Electron Mass‑Ratio Integer Hypothesis (C2)
-Claim: \(m_\tau/m_e = 3477\).
+### 4.3 Tau‑Electron Mass‑Ratio Integer Hypothesis (C2) Claim: \(m_\tau/m_e = 3477\).
 
 Using PDG 2024 values: \(m_\tau = 1776.86\pm0.12\) MeV, \(m_e = 0.51099895\) MeV.
 
@@ -171,8 +162,7 @@ To reach a 5 σ exclusion we require
 
 Thus a τ‑mass precision of ± 0.023 MeV (≈ 5‑fold better) would adjudicate the claim at the conventional 5 σ level.
 
-### 4.4 Cross‑Ratio Rationality Test (C3)
-Define
+### 4.4 Cross‑Ratio Rationality Test (C3) Define
 
 \[
 \mathcal{R}= \frac{m_\tau/m_\mu}{m_\mu/m_e}= \frac{R_\tau}{R_\mu}= \frac{3477.2283}{206.7682830}=16.8171.
@@ -198,8 +188,7 @@ Propagated uncertainty (quadrature of the two ratios)
 
 Hence the rational‑integer hypothesis for the cross‑ratio is falsified at ≈ 161 σ.
 
-### 4.5 Helical‑Electron Radius (C4)
-Photon‑primacy implies the electron Compton frequency
+### 4.5 Helical‑Electron Radius (C4) Photon‑primacy implies the electron Compton frequency
 
 \[
 \nu_C = \frac{m_e c^{2}}{h}=1.23558996\times10^{20}\;\text{Hz}.
@@ -220,8 +209,7 @@ r = \frac{c}{2\pi\nu_{\text{zit}}}= \frac{2.99792458\times10^{8}}{2\pi\times2.47
 
 Direct spatial probing at this scale is beyond current capabilities; only indirect spectroscopic sidebands at \(2\nu_C\) could provide evidence. Under KC1 (parameter‑count) the model has f = 1 fitted parameter (identifying ω_int with the Compton frequency) but predicts n = 0 independent quantities, thus fails the audit (grade F).
 
-### 4.6 Binary‑Prime‑Power Test (C5)
-The simplest adelic hypothesis posits that
+### 4.6 Binary‑Prime‑Power Test (C5) The simplest adelic hypothesis posits that
 
 \[
 \log_{2}\!\left(\frac{m_\mu}{m_e}\right) \in \mathbb{Z}.
@@ -241,8 +229,7 @@ Distance to nearest integer (8)
 
 Since δ₂ ≫ α_{\!Bonf}, the binary‑prime‑power hypothesis is rejected (KC3 = F).
 
-### 4.7 Chance Baseline for Integer‑Log Concentration (C6)
-For a tolerance ε = 0.05, the probability that a single ratio’s fractional log lies within ε of an integer under a uniform null is 2ε = 0.10. Testing two independent ratios (μ/e and τ/μ) gives a joint null probability
+### 4.7 Chance Baseline for Integer‑Log Concentration (C6) For a tolerance ε = 0.05, the probability that a single ratio’s fractional log lies within ε of an integer under a uniform null is 2ε = 0.10. Testing two independent ratios (μ/e and τ/μ) gives a joint null probability
 
 \[
 P_{\text{null}} = (2ε)^{2}=0.01.
@@ -250,8 +237,7 @@ P_{\text{null}} = (2ε)^{2}=0.01.
 
 Both ratios fail the ε‑criterion for p = 2 and p = 3, so the adelic‑mass claim does not survive this test (grade F for the binary/ternary versions). A weakened “rational‑concentration” version remains ungraded pending a more refined null model.
 
-### 4.8 Projected Ion‑Trap Discrimination Power (C7)
-The trapped‑ion register [10] specifies an ultrametric signal that must be distinguished from an Archimedean baseline at a relative scale ρ. Assuming a readout contrast η = 10⁻³ and ρ = 10⁻², the standard‑quantum‑limit (SQL) number of coherent cycles required is
+### 4.8 Projected Ion‑Trap Discrimination Power (C7) The trapped‑ion register [10] specifies an ultrametric signal that must be distinguished from an Archimedean baseline at a relative scale ρ. Assuming a readout contrast η = 10⁻³ and ρ = 10⁻², the standard‑quantum‑limit (SQL) number of coherent cycles required is
 
 \[
 N_{\text{SQL}} \approx \left(\frac{1}{\eta\rho}\right)^{2}= \left(\frac{1}{10^{-5}}\right)^{2}=10^{10}.
@@ -298,8 +284,7 @@ All numbers are derived from the frozen inputs (CODATA 2022, PDG 2024) and t
 3. **Coincidence inflation:** Near‑matches such as the fractional part of log₂ ≈ ln 2 are inevitable when many constants are examined; the audit flags such coincidences and refuses to count them as evidence.
 4. **Projection fragility:** The ion‑trap cycle estimate varies dramatically with ρ; without an empirical measurement of ρ the projection remains speculative.
 
-### 6.3 What Would Falsify the Audit’s Meta‑Claim
-A study would capture the claim cluster using numeric kill conditions. A single defensible derivation that predicts a new observable **without** introducing additional fitted parameters (i.e., f ≤ n) and survives all KC checks would falsify our grade‑F verdicts for the helical‑electron and adelic‑mass sub‑claims, forcing a revision of the audit’s grading rubric.
+### 6.3 What Would Falsify the Audit’s Meta‑Claim A study would capture the claim cluster using numeric kill conditions. A single defensible derivation that predicts a new observable **without** introducing additional fitted parameters (i.e., f ≤ n) and survives all KC checks would falsify our grade‑F verdicts for the helical‑electron and adelic‑mass sub‑claims, forcing a revision of the audit’s grading rubric.
 
 ### 6.4 Open Questions
 - Can the adelic‑mass hypothesis be reformulated into a **sharp inequality** (analogous to the Penrose inequality [3]) that survives the integer‑log concentration test?
@@ -309,8 +294,7 @@ A study would capture the claim cluster using numeric kill conditions. A single 
 
 Addressing these questions will require coordinated theoretical work (to sharpen kill conditions) and experimental development (to realize the ion‑trap protocols).
 
-## 7. Conclusion
-We have constructed a **Falsifiability‑First Audit Program (FFAP)** for the photon‑primacy, helical‑electron, and adelic‑mass claim cluster. By enumerating a **64‑test matrix**, applying a **Bonferroni‑adjusted α = 7.8 × 10⁻⁴**, and performing explicit quantitative audits of the most salient sub‑claims, we demonstrate that:
+## 7. Conclusion We have constructed a **Falsifiability‑First Audit Program (FFAP)** for the photon‑primacy, helical‑electron, and adelic‑mass claim cluster. By enumerating a **64‑test matrix**, applying a **Bonferroni‑adjusted α = 7.8 × 10⁻⁴**, and performing explicit quantitative audits of the most salient sub‑claims, we demonstrate that:
 
 * The muon‑electron integer hypothesis and the cross‑ratio rationality hypothesis are decisively falsified.
 * The tau‑electron integer hypothesis is currently compatible with data but would be adjudicated at 5 σ with a modest (≈ 5‑fold) improvement in τ‑mass precision.

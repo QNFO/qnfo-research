@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-deterministic-unified-theory",
+  "paper": {
+    "path": "papers/a-deterministic-unified-theory/paper.md",
+    "title": "Deterministic Unified Theory",
+    "url": "https://papers.qnfo.org/papers/a-deterministic-unified-theory"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "a-deterministic-unified-theory"
+  },
+  "snapshots": [
+    {
+      "sha256": "9b4dc3f5ccad0e0e652458ce69aab9fada27d2fa436e389a8b35257a139a0a39",
+      "bytes": 247612,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
