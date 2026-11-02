@@ -62,25 +62,15 @@ Recent work has begun to treat uncountability itself as a computational object r
 
 The paper is analytical and constructive. Its method has four parts.
 
-### 3.1 Structure isolation
-We list the mathematical structures that continuum physics actually invokes:
-(i) a linearly ordered field for coordinates and observables;
-(ii) density, so that between any two distinct states another state exists;
-(iii) the existence of limits, so that derivatives, integrals, and solutions of differential equations are defined;
-(iv) a topology fine enough to define continuity and convergence;
-(v) separability in the practical sense that a countable dense subset exists, which makes coordinates, series expansions, and finite encodings possible. No structures beyond these are assumed.
+### 3.1 Structure isolation We list the mathematical structures that continuum physics actually invokes: (i) a linearly ordered field for coordinates and observables; (ii) density, so that between any two distinct states another state exists; (iii) the existence of limits, so that derivatives, integrals, and solutions of differential equations are defined; (iv) a topology fine enough to define continuity and convergence; (v) separability in the practical sense that a countable dense subset exists, which makes coordinates, series expansions, and finite encodings possible. No structures beyond these are assumed.
 
-### 3.2 Counting and density arguments
-We prove countability and density of the computable reals by explicit counting: programs are finite bit strings, and the number of bit strings of length at most $n$ is $P(n)=2^{\,n+1}-1$. Density follows because the rationals are computable and dense. A complementary measure‑theoretic lens computes the Lebesgue measure of $\mathbb{R}_c$ by countable subadditivity. All arithmetic is shown in Section 4.
+### 3.2 Counting and density arguments We prove countability and density of the computable reals by explicit counting: programs are finite bit strings, and the number of bit strings of length at most $n$ is $P(n)=2^{\,n+1}-1$. Density follows because the rationals are computable and dense. A complementary measure‑theoretic lens computes the Lebesgue measure of $\mathbb{R}_c$ by countable subadditivity. All arithmetic is shown in Section 4.
 
-### 3.3 Indistinguishability framework
-An experiment $E$ is modeled as a physical process with a finite set of possible outcome records $R_E$, of size $|R_E|$, bounded by the instrument’s resolution and acquisition window. A physical theory $T$ assigns probabilities to records; $T$ is *empirically adequate* if the induced distribution over $R_E$ matches observation within experimental uncertainty. Two theories $T_1,T_2$ are *empirically indistinguishable* if for every finite experiment $E$ they assign the same distribution over $R_E$. The indistinguishability claim of Section 4.3 is then a statement about record sets, not about ontology.
+### 3.3 Indistinguishability framework An experiment $E$ is modeled as a physical process with a finite set of possible outcome records $R_E$, of size $|R_E|$, bounded by the instrument’s resolution and acquisition window. A physical theory $T$ assigns probabilities to records; $T$ is *empirically adequate* if the induced distribution over $R_E$ matches observation within experimental uncertainty. Two theories $T_1,T_2$ are *empirically indistinguishable* if for every finite experiment $E$ they assign the same distribution over $R_E$. The indistinguishability claim of Section 4.3 is then a statement about record sets, not about ontology.
 
-### 3.4 Observable‑preservation argument
-We consider a generic physical theory $\mathcal{T}$ whose state space is $\mathbb{R}^k$ and whose observables are continuous functions $O:\mathbb{R}^k\to\mathbb{R}$. For any experimental tolerance $\delta$, uniform continuity on compact subsets yields a neighbourhood radius $\eta$ such that states within $\eta$ give observable values within $\delta$; a finite dyadic grid of spacing below $\eta$ then suffices to reproduce every observable value to within tolerance. This connects the abstract record argument to the concrete finite‑precision practice of simulation.
+### 3.4 Observable‑preservation argument We consider a generic physical theory $\mathcal{T}$ whose state space is $\mathbb{R}^k$ and whose observables are continuous functions $O:\mathbb{R}^k\to\mathbb{R}$. For any experimental tolerance $\delta$, uniform continuity on compact subsets yields a neighbourhood radius $\eta$ such that states within $\eta$ give observable values within $\delta$; a finite dyadic grid of spacing below $\eta$ then suffices to reproduce every observable value to within tolerance. This connects the abstract record argument to the concrete finite‑precision practice of simulation.
 
-### Definitions
-A real number $x$ is *computable* if there exists an algorithm (Turing machine) that, given $k$, outputs a rational $q_k$ with $|q_k-x|<2^{-k}$. A *computable surrogate* of a continuum theory $T$ is a theory $T_c$ stated over $\mathbb{R}_c$ (or over $\mathbb{Q}$ with explicit limit procedures) that agrees with $T$ on all computable inputs and computable parameters.
+### Definitions A real number $x$ is *computable* if there exists an algorithm (Turing machine) that, given $k$, outputs a rational $q_k$ with $|q_k-x|<2^{-k}$. A *computable surrogate* of a continuum theory $T$ is a theory $T_c$ stated over $\mathbb{R}_c$ (or over $\mathbb{Q}$ with explicit limit procedures) that agrees with $T$ on all computable inputs and computable parameters.
 
 ## 4. Analysis
 
