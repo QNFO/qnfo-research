@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-revolutionary-beginners-guide-to-quantum-computing-why-we-dont-have-quantum-computers-yet-and-what-the-geometric-alt",
+  "paper": {
+    "path": "papers/the-revolutionary-beginners-guide-to-quantum-computing-why-we-dont-have-quantum-computers-yet-and-what-the-geometric-alt/paper.md",
+    "title": "The Revolutionary Beginner's Guide to Quantum Computing: Why We Don't Have Quantum Computers Yet â€” and What the Geometric Alternative Offers",
+    "url": "https://papers.qnfo.org/papers/the-revolutionary-beginners-guide-to-quantum-computing-why-we-dont-have-quantum-computers-yet-and-what-the-geometric-alt"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-revolutionary-beginners-guide-to-quantum-computing-why-we-dont-have-quantum-computers-yet-and-what-the-geometric-alt"
+  },
+  "snapshots": [
+    {
+      "sha256": "b7457c68e2e1d4f2b15c49fe2bd020b66e353468aab57aa4162f2c501c7cfd84",
+      "bytes": 150523,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v1.3.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

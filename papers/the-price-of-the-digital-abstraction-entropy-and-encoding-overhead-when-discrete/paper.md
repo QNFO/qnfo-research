@@ -22,7 +22,7 @@ Forcing continuous phenomena into discrete representations creates measurable ov
 * **[1]** reports that the digital‑twin model has emerged from the interaction of cyber‑physical systems with sensors, IoT, machine learning and AI, illustrating how a continuous physical process is operated through a discrete digital representation.  
 * **[2]** argues that existing digital fashion archives are unsuitable for everyday trend analysis and builds a new archive (CAT STREET) of street‑level fashion images from 1970–2017.  
 * **[3]** notes that MPEG‑21 Digital Item Declaration provides an XML‑based standard for representing compound digital assets in a discrete format, exemplifying the overhead of encoding continuous media.  
-  
+
 * **[6]** presents EviPlant, a system that packages digital forensic evidence into discrete, distributable artifacts.  
 * **[7]** studies a national‑scale digital medicines platform, reporting on system performance for 1.5 million queries.  
 * **[9]** develops Project Rosetta, which analyzes approximation entropy and the fractal limits of digital physics, motivating the quantification of what a digital representation discards.  
@@ -298,14 +298,11 @@ If the transmon is regarded as a native qudit rather than a forced qubit, the �
 
 ## 7. Practical Implications and Engineering Pathways
 
-### (a) Intended users and decision impact  
-Quantum‑hardware architects, fault‑tolerant compiler designers, and system‑level resource modelers are the primary users. The register‑entropy floor informs the required classical control bandwidth; the binary‑encoding overhead guides the choice of radix (e.g., adopting a power‑of‑two cutoff to eliminate idle qubits); the linear entropy distortion quantifies the extra entropy that must be tracked when using Pauli‑twirled error models. If the projected bookkeeping exceeds available bandwidth, designers may opt for native qudit codes or analog error‑mitigation strategies.
+### (a) Intended users and decision impact Quantum‑hardware architects, fault‑tolerant compiler designers, and system‑level resource modelers are the primary users. The register‑entropy floor informs the required classical control bandwidth; the binary‑encoding overhead guides the choice of radix (e.g., adopting a power‑of‑two cutoff to eliminate idle qubits); the linear entropy distortion quantifies the extra entropy that must be tracked when using Pauli‑twirled error models. If the projected bookkeeping exceeds available bandwidth, designers may opt for native qudit codes or analog error‑mitigation strategies.
 
-### (b) Technology readiness  
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept formulated).
+### (b) Technology readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept formulated).
 
-### (c) Minimal next experiment  
-A tabletop experiment can test the distortion law. The procedure would be: (i) prepare a transmon in the excited state $|1\rangle$, (ii) allow it to relax for a calibrated time to achieve $\gamma\approx10^{-3}$, (iii) perform quantum process tomography to reconstruct the effective channel, (iv) implement Pauli twirling by applying random Pauli gates before and after the relaxation, (v) compute the environment entropy from the measured Kraus probabilities and compare the excess $\Delta H$ to the predicted $1.5\times10^{-3}$ bits. Observation of a statistically significant excess matching the prediction would support the result; a measured excess indistinguishable from zero would falsify it.
+### (c) Minimal next experiment A tabletop experiment can test the distortion law. The procedure would be: (i) prepare a transmon in the excited state $|1\rangle$, (ii) allow it to relax for a calibrated time to achieve $\gamma\approx10^{-3}$, (iii) perform quantum process tomography to reconstruct the effective channel, (iv) implement Pauli twirling by applying random Pauli gates before and after the relaxation, (v) compute the environment entropy from the measured Kraus probabilities and compare the excess $\Delta H$ to the predicted $1.5\times10^{-3}$ bits. Observation of a statistically significant excess matching the prediction would support the result; a measured excess indistinguishable from zero would falsify it.
 
 ### (d) Engineering constraints  
 
