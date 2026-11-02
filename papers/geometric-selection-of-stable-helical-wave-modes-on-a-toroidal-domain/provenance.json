@@ -17,6 +17,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "01479dcdcf6b1fc41fa98507de0653cf3482f22ff0f12414edb35cb37fdf31ab"
+    },
+    {
+      "path": "runs/cycle-420/geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "cbda4b288f9a7338ebe09980edacbf7fa12c1caeb8b7fce27c0e8cd0599ad5b6"
     }
   ],
   "identifiers": {

@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "a6abe09d-1d45-4cb2-9501-e2ce3ad8b46a",
+    "slug": "geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain",
+    "cycle": "cycle-420",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.44.6-codeagent",
+    "finished_at": "2026-11-02T07:41:24.451Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "f7476c773dcfdf991556da0c6bcb49cfa50a2c22433eebfa6c1cd51d1c526f02",
+    "bytes": 25600,
+    "path": "papers/geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "ef7a83481ffcd2bd7d17a99ebb324ab84b020f867a593c12adf29a740874be98",
+      "bytes": 47586,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "af008e8c8356b3063efb9c232b76f7936679938341fd7a725dc14ea55411f71f",
+      "bytes": 25601,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "dbe6a2830b9889975e2e90bfbcb53bf0a885d483c39fbe0d0fac6d30f27c1e5c",
+      "bytes": 1778,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "e4531e342550ddb9af9ca456ccadbea6089946b4547100280dcac9ed20639551",
+      "bytes": 9452,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "d9d639f1d3d5bf6293684f5b4f81a7db923f4891490c7be4745f338ae8e25804",
+      "bytes": 14478,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "c0f3cfaa6438670afc0b28f363c92c5e8730af65d0c0e6439b9a14f845ca4a91",
+      "bytes": 9277,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "979c8f88567cf83ffd513d30a049151d753d5de0976f08e3f12b4fc54db5eaef",
+      "bytes": 20380,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "9714b650ded8722a105e8af5f6cd4bc4030d86b4ef5d33634ee68783f7f5ea2e",
+      "bytes": 16871,
+      "role": "draft"
+    }
+  }
+}
