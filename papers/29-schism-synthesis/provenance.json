@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "29-schism-synthesis",
+  "paper": {
+    "path": "papers/29-schism-synthesis/paper.md",
+    "title": "The Hidden Fractures: Self-Referential Calibration and the 29 Schisms of Physics",
+    "url": "https://papers.qnfo.org/papers/29-schism-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "29-schism-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "07a640649bdd938b3bdfc5e3b42ad842c23a172170d205d35ae215a0c6e4516e",
+      "bytes": 43824,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

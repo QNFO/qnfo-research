@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "2-context",
+  "paper": {
+    "path": "papers/2-context/paper.md",
+    "title": "2. Historical Context and Literature Review",
+    "url": "https://papers.qnfo.org/papers/2-context"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "2-context"
+  },
+  "snapshots": [
+    {
+      "sha256": "c4acc6c3bdcae3d1a04d4e01552e291326f7d02107837a2171b1aea71fe02c0a",
+      "bytes": 25016,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "1-crisis-of-abstraction",
+  "paper": {
+    "path": "papers/1-crisis-of-abstraction/paper.md",
+    "title": "The Simplicity of Reality: Deconstructing the Mathematical Epicycles of Modern Physics",
+    "url": "https://papers.qnfo.org/papers/1-crisis-of-abstraction"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "1-crisis-of-abstraction"
+  },
+  "snapshots": [
+    {
+      "sha256": "362c138eaa87387bf70e3413c28c9daaf82fa42eac9c862762b1f8ddce971167",
+      "bytes": 71672,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

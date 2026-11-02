@@ -1,10 +1,10 @@
 # Emergent Spacetime from Autaxic Relational Dynamics: Quantitative Scaling Laws and Galactic Rotation
 
 ## Abstract
+
 The prevailing view treats spacetime as a pre‑existing arena, a stance that blocks unified descriptions of gravitation and quantum phenomena and incurs large research expenditures. A concrete quantitative gap exists because existing emergent‑spacetime proposals lack computable, falsifiable measures of the geometric structure produced by a relational substrate. We adopt a purely analytical approach that (i) maps the autaxic relational effort metric onto the universal rotation‑curve relation, (ii) models the substrate as a $d$‑dimensional lattice of process‑events, and (iii) derives three explicit scaling results. The galactic‑rotation calculation yields $V\approx1.41$ (in units $G=M=1$) for $M=10$ and $r=5$. The lattice analysis gives an expected boundary‑touching step count $2n/(dL)=0.667$ for $d=3$, $L=100$, $n=100$; a path‑count $(2d-1)^{r}=9{,}765{,}625$ for $d=3$, $r=10$; and identifies $d=3$ as the marginal dimension separating recurrent from transient influence propagation. If these results hold, theoretical work can replace dark‑matter parametrizations with relational‑effort predictions and guide simulation design with measurable scaling laws, thereby reshaping research priorities in quantum gravity and astrophysics.
 
-## 1. Introduction
-Cosmologists, high‑energy physicists, and philosophers of physics confront a persistent impasse: the inability of General Relativity and the Standard Model to jointly describe the large‑scale structure of the universe and quantum phenomena. This impasse costs billions of dollars in research programmes and blocks the design of technologies that would rely on a quantum‑consistent description of gravity, such as precision spacetime navigation or quantum‑enhanced gravitational‑wave detectors. If spacetime can be derived as an emergent relational construct, then the design of future experiments and the policy decisions governing large‑scale astrophysical surveys would shift from probing unknown dark components to testing relational dynamics and measurable scaling laws.
+## 1. Introduction Cosmologists, high‑energy physicists, and philosophers of physics confront a persistent impasse: the inability of General Relativity and the Standard Model to jointly describe the large‑scale structure of the universe and quantum phenomena. This impasse costs billions of dollars in research programmes and blocks the design of technologies that would rely on a quantum‑consistent description of gravity, such as precision spacetime navigation or quantum‑enhanced gravitational‑wave detectors. If spacetime can be derived as an emergent relational construct, then the design of future experiments and the policy decisions governing large‑scale astrophysical surveys would shift from probing unknown dark components to testing relational dynamics and measurable scaling laws.
 
 **Contributions**  
 - **C1.** Formal mapping of the autaxic relational effort metric onto the universal rotation‑curve equation (Section 4).  
@@ -18,15 +18,14 @@ Cosmologists, high‑energy physicists, and philosophers of physics confront a p
 ## 2. Background and Related Work
 1. **Wave‑packet Talbot dynamics** – [1] shows that quadratic phase factors in wave‑packet evolution generate structured interference patterns, illustrating how global features emerge from local phase relations, a motif echoed in autaxic boundary‑crossing arguments.  
 2. **Cohomological proof of Cartan conjugacy** – [2] provides a rigorous algebraic method for classifying structures, informing our use of cohomological tools to identify invariant relational patterns within autaxic dynamics.  
-  
-  
-  
-  
-  
+
   
 
-## 3. Methods
-We treat autaxic process‑patterns as discrete events linked by a relational “effort” metric $E$, defined as the number of fundamental relational updates required to propagate influence between two events. To connect $E$ to observable kinematics we adopt three sets of assumptions.
+  
+
+  
+
+## 3. Methods We treat autaxic process‑patterns as discrete events linked by a relational “effort” metric $E$, defined as the number of fundamental relational updates required to propagate influence between two events. To connect $E$ to observable kinematics we adopt three sets of assumptions.
 
 ### 3.1 Galactic‑rotation branch
 1. **Assumption A1 (Newtonian limit).** On galactic scales the emergent relational metric reduces to an effective Newtonian potential $\Phi(r)=-M/r$, where $M$ is the total emergent mass‑energy associated with the dense autaxic pattern cluster.  
@@ -77,8 +76,7 @@ P(10)= (2\times3-1)^{10}=5^{10}=9{,}765{,}625.
 \]
 For comparison, $d=2$, $r=10$ yields $P(10)=3^{10}=59{,}049$.
 
-### 4.4 Dimensional marginality
-Random‑walk theory states that in dimensions $d\le2$ walks are recurrent (return to the origin with probability 1) whereas for $d\ge3$ they are transient (non‑unit return probability). The calculation of the return probability $p_{\text{return}}$ involves the lattice Green’s function; its known critical dimension is $d_{\text{c}}=2$. However, when the walk is constrained by the boundary‑touching condition of B2, the marginal dimension shifts to $d=3$, because the expected boundary‑touching count $\langle B\rangle$ becomes $<1$ only for $d\ge3$ given fixed $n$ and $L$. Thus $d=3$ separates regimes where emergent geometric influence can percolate (transient) from regimes where it remains confined (recurrent).
+### 4.4 Dimensional marginality Random‑walk theory states that in dimensions $d\le2$ walks are recurrent (return to the origin with probability 1) whereas for $d\ge3$ they are transient (non‑unit return probability). The calculation of the return probability $p_{\text{return}}$ involves the lattice Green’s function; its known critical dimension is $d_{\text{c}}=2$. However, when the walk is constrained by the boundary‑touching condition of B2, the marginal dimension shifts to $d=3$, because the expected boundary‑touching count $\langle B\rangle$ becomes $<1$ only for $d\ge3$ given fixed $n$ and $L$. Thus $d=3$ separates regimes where emergent geometric influence can percolate (transient) from regimes where it remains confined (recurrent).
 
 ## 5. Results
 - Galactic rotation speed: $V\approx1.41$ (units $G=M=1$).  
@@ -224,8 +222,7 @@ Recent work on geometrogenesis emphasizes that spacetime emergence can be unders
 - **L4.** The path‑count approximation $(2d-1)^{r}$ ignores self‑avoidance constraints that become significant for large $r$ on finite lattices.  
 - **L5.** The marginal‑dimension argument relies on the specific boundary‑touching criterion; other emergence measures could shift the critical dimension.
 
-### Falsifiability
-The main galactic result would be falsified if high‑precision rotation‑curve measurements at radii where $M/r$ is well constrained systematically deviate from $V=\sqrt{M/r}$ by more than observational uncertainties, and the deviation cannot be attributed to baryonic modelling. The lattice scaling results would be falsified if simulations of a $d$‑dimensional process‑event lattice produce boundary‑touching frequencies or path counts that differ from the analytic predictions beyond statistical fluctuations.
+### Falsifiability The main galactic result would be falsified if high‑precision rotation‑curve measurements at radii where $M/r$ is well constrained systematically deviate from $V=\sqrt{M/r}$ by more than observational uncertainties, and the deviation cannot be attributed to baryonic modelling. The lattice scaling results would be falsified if simulations of a $d$‑dimensional process‑event lattice produce boundary‑touching frequencies or path counts that differ from the analytic predictions beyond statistical fluctuations.
 
 ### Open Questions
 - How can the proportionality constant $\alpha$ be derived from first‑principles autaxic dynamics?  
@@ -233,8 +230,7 @@ The main galactic result would be falsified if high‑precision rotation‑curve
 - Can the relational effort metric be linked to an effective stress‑energy tensor in a relativistic extension?  
 - How does the marginal dimension $d=3$ relate to observed spacetime dimensionality beyond the specific boundary‑touching measure?
 
-## 8. Practical Implications and Engineering Pathways
-(a) **Potential Users.** The results are directly relevant to theoretical physicists and astrophysicists developing models of galactic dynamics, as well as to computational scientists constructing simulations of emergent spacetime.  
+## 8. Practical Implications and Engineering Pathways (a) **Potential Users.** The results are directly relevant to theoretical physicists and astrophysicists developing models of galactic dynamics, as well as to computational scientists constructing simulations of emergent spacetime. 
 
 (b) **Readiness Level.** The work is a purely analytical study that has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (concept formulation).  
 
@@ -251,8 +247,7 @@ The main galactic result would be falsified if high‑precision rotation‑curve
 
 (f) **Risks/Misuse.** Over‑interpreting the relational‑effort prediction as a definitive replacement for dark‑matter models without thorough empirical validation could misguide funding decisions and theoretical research directions.
 
-## 9. Conclusion
-By embedding the autaxic relational effort metric within the universal rotation‑curve relation and by modeling the relational substrate as a $d$‑dimensional lattice, we have produced concrete, testable quantitative predictions. The galactic‑rotation calculation reproduces the Newtonian result $V\approx1.41$ for chosen parameters, while the lattice analysis yields explicit scaling laws for boundary‑touching steps, influence‑path counts, and a marginal dimensionality $d=3$. These results demonstrate that emergent‑spacetime concepts can be rendered quantitatively falsifiable, providing a bridge between foundational theory and observable astrophysical phenomena. Future work will aim to derive the proportionality constant $\alpha$ from autaxic dynamics, extend the analysis to relativistic regimes, and validate the lattice predictions through dedicated simulations.
+## 9. Conclusion By embedding the autaxic relational effort metric within the universal rotation‑curve relation and by modeling the relational substrate as a $d$‑dimensional lattice, we have produced concrete, testable quantitative predictions. The galactic‑rotation calculation reproduces the Newtonian result $V\approx1.41$ for chosen parameters, while the lattice analysis yields explicit scaling laws for boundary‑touching steps, influence‑path counts, and a marginal dimensionality $d=3$. These results demonstrate that emergent‑spacetime concepts can be rendered quantitatively falsifiable, providing a bridge between foundational theory and observable astrophysical phenomena. Future work will aim to derive the proportionality constant $\alpha$ from autaxic dynamics, extend the analysis to relativistic regimes, and validate the lattice predictions through dedicated simulations.
 
 ## Version History
 
