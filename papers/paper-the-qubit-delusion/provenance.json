@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "paper-the-qubit-delusion",
+  "paper": {
+    "path": "papers/paper-the-qubit-delusion/paper.md",
+    "title": "The Qubit Delusion: How Particle Ontology Sabotaged Quantum Computing",
+    "url": "https://papers.qnfo.org/papers/paper-the-qubit-delusion"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "paper-the-qubit-delusion"
+  },
+  "snapshots": [
+    {
+      "sha256": "c16b2e6eb3bf6cb411f27a01cdda80da2ece363e7913167e6d47411cdddfd852",
+      "bytes": 49651,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

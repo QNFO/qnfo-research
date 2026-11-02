@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "paper-manifesto-honest-computation",
+  "paper": {
+    "path": "papers/paper-manifesto-honest-computation/paper.md",
+    "title": "Manifesto for Honest Computation",
+    "url": "https://papers.qnfo.org/papers/paper-manifesto-honest-computation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "paper-manifesto-honest-computation"
+  },
+  "snapshots": [
+    {
+      "sha256": "b85982fecf573ede883dee6421edcd463e54253ad61fa1b233e28631733b310c",
+      "bytes": 23886,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
