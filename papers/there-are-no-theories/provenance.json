@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "there-are-no-theories",
+  "paper": {
+    "path": "papers/there-are-no-theories/paper.md",
+    "title": "There Are No Theories",
+    "url": "https://papers.qnfo.org/papers/there-are-no-theories"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "there-are-no-theories"
+  },
+  "snapshots": [
+    {
+      "sha256": "d6a5ad7938da1fd1f2dff39a45c37adb55b4e362731a8d81db7dc6aa9cdfadf1",
+      "bytes": 80184,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

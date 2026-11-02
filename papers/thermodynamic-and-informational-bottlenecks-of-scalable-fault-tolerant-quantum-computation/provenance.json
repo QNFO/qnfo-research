@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation",
+  "paper": {
+    "path": "papers/thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation/paper.md",
+    "title": "Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation"
+  },
+  "snapshots": [
+    {
+      "sha256": "a20625261747d60a4a21dbf85b082be1f77a6780538cbd914c371dfee0ccfa8c",
+      "bytes": 163624,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

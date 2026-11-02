@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-and-topological-constraints-on-biological-quantum-processing",
+  "paper": {
+    "path": "papers/thermodynamic-and-topological-constraints-on-biological-quantum-processing/paper.md",
+    "title": "THERMODYNAMIC AND TOPOLOGICAL CONSTRAINTS ON BIOLOGICAL QUANTUM PROCESSING",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-and-topological-constraints-on-biological-quantum-processing"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-and-topological-constraints-on-biological-quantum-processing"
+  },
+  "snapshots": [
+    {
+      "sha256": "283cfb7c3207bd7fe99712f4f0a5f4afc55a7e1bf04b3b5aee3a4a0f352c23c0",
+      "bytes": 53512,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
