@@ -1,16 +1,14 @@
-# Quantum Coherence in Photosystem II: Environment-Assisted Transport and the Role of Vibronic Coupling in Biological Light-Harvesting
-
-**Author:** QNFO  
-**Date:** 2026-07-11  
-**License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-
 ---
+author: "QNFO"
+date: "2026-07-11"
+license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
+---
+
+# Quantum Coherence in Photosystem II: Environment-Assisted Transport and the Role of Vibronic Coupling in Biological Light-Harvesting
 
 ## Abstract
 
 The discovery of long-lived quantum coherence in photosynthetic light-harvesting complexes—first reported in the Fenna-Matthews-Olson (FMO) complex in 2007—fundamentally challenged the assumption that biological systems operate exclusively in the classical regime at physiological temperatures. Over the subsequent two decades, experimental and theoretical work has revealed a nuanced picture: quantum coherence persists on femtosecond-to-picosecond timescales and contributes to the remarkable near-unity quantum efficiency of photosynthetic energy transfer. We review the current state of evidence across multiple photosynthetic systems, with emphasis on Photosystem II (PSII), and synthesize recent theoretical developments including environment-assisted quantum transport (ENAQT), vibronic enhancement, and the role of non-Markovian spectral densities. We identify three open questions: (1) whether coherence is functional or epiphenomenal, (2) how the protein scaffold actively tunes spectral densities to optimize transport, and (3) what design principles from biological light-harvesting can inform artificial quantum technologies. We propose that PSII's oxygen-evolving complex provides a uniquely constrained testbed for resolving these questions.
-
----
 
 ## 1. Introduction
 

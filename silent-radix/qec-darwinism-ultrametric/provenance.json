@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "qec-darwinism-ultrametric",
+  "paper": {
+    "path": "silent-radix/qec-darwinism-ultrametric/paper.md",
+    "title": "Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces",
+    "url": "https://papers.qnfo.org/papers/qec-darwinism-ultrametric"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "qec-darwinism-ultrametric"
+  },
+  "snapshots": [
+    {
+      "sha256": "01cafb515541eb1fd73a0a7d67774defb10e5916825b7d1b446b2449543421be",
+      "bytes": 61269,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v1.11",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

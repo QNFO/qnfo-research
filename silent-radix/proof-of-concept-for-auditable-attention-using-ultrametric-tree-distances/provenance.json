@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "proof-of-concept-for-auditable-attention-using-ultrametric-tree-distances",
+  "paper": {
+    "path": "silent-radix/proof-of-concept-for-auditable-attention-using-ultrametric-tree-distances/paper.md",
+    "title": "Proof-of-Concept for Auditable Attention using Ultrametric Tree Distances",
+    "url": "https://papers.qnfo.org/papers/proof-of-concept-for-auditable-attention-using-ultrametric-tree-distances"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "proof-of-concept-for-auditable-attention-using-ultrametric-tree-distances"
+  },
+  "snapshots": [
+    {
+      "sha256": "fac4e79c9a43f18906a112ea18c5ca6aa4b8af36d50d01fb423a88753aa80af1",
+      "bytes": 50974,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

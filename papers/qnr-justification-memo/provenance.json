@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "qnr-justification-memo",
+  "paper": {
+    "path": "papers/qnr-justification-memo/paper.md",
+    "title": "The ℚ-vs-ℝ Question: Why Physical Law Requires Only the Rational Numbers",
+    "url": "https://papers.qnfo.org/papers/qnr-justification-memo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "qnr-justification-memo"
+  },
+  "snapshots": [
+    {
+      "sha256": "919f48877fede7ec869df95e9c7e61ad98413bfe8ed3cf583132bed8b82e91db",
+      "bytes": 35982,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "5.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
