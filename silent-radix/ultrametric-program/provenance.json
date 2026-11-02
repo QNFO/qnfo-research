@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-program",
+  "paper": {
+    "path": "silent-radix/ultrametric-program/paper.md",
+    "title": "The Ultrametric Program: One Structural Object Across Seven Research Domains, and Its Falsifiable Tests",
+    "url": "https://papers.qnfo.org/papers/ultrametric-program"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-program"
+  },
+  "snapshots": [
+    {
+      "sha256": "25ad56603284f47f99e900f7aea22140f45be3a75f77dc6cf5a423dfed26f1c3",
+      "bytes": 37037,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v2.5.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

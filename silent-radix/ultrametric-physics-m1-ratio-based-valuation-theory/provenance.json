@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/ultrametric-physics-m1-ratio-based-valuation-theory"
   },
   "declared": {
-    "version": "2.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -37,6 +37,14 @@
       "basis": "backfill",
       "version": "2.0",
       "git_commit": "678f62f9e2810b7dd3737eeea2c8efa1f369c7b8"
+    },
+    {
+      "sha256": "314567ad4d041e08b43c7a68bf73bfa133d9e818f8d516f08e2c139743ffe34c",
+      "bytes": 14710,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

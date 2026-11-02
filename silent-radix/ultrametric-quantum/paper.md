@@ -1,12 +1,8 @@
-# Ultrametric Quantum Computing: Tree-Topology Error Correction
-
-**Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-06-29 | **License:** CC-BY-4.0
+# Qudit Quantum Error Correction
 
 ## Abstract
 
 The observation that positional notation carries a native ultrametric tree structure extends into quantum computing through the tensor-product architecture of qubit registers. We formalize three theses: (I) a tree-topology quantum processor confines errors to subtrees via the strong triangle inequality, elevating the error-correction threshold; (II) a 3D-integrated superconducting architecture realizing a 7-ary tree of depth 3 (343 physical qubits) is manufacturable with current fabrication technology; (III) an on-chip bank of prime-frequency resonators enables spectral engineering of the tree's error-confinement properties. We implement a numerical simulation comparing tree-topology and grid-topology codes, deriving threshold estimates and error-propagation statistics. The chapter extends the Ultrametric Foundation thesis (§12) with formal derivations, architecture specifications, simulation results, and a mapping to the broader research program.
-
----
 
 ## 1. The Ultrametric Structure of Quantum State Space
 
@@ -106,52 +102,52 @@ def tree_distance(i, j, branching=2):
 def simulate_tree_errors(n_qubits, branching, n_shots, p_err):
     """Simulate error propagation on tree topology."""
     depth = int(np.log(n_qubits) / np.log(branching))
-    
+
     crossing_errors = 0
     total_shots = 0
-    
+
     for _ in range(n_shots):
         # Apply independent errors
         errors = np.random.random(n_qubits) < p_err
         error_qubits = np.where(errors)[0]
-        
+
         if len(error_qubits) < 2:
             continue
-        
+
         total_shots += 1
         # Check if errors span across tree (different major branches)
         branches = set(q // (n_qubits // branching) for q in error_qubits)
         if len(branches) >= 2:
             crossing_errors += 1
-    
+
     return crossing_errors / max(total_shots, 1)
 
 def simulate_grid_errors(n_qubits_side, n_shots, p_err):
     """Simulate error propagation on 2D grid."""
     n_qubits = n_qubits_side * n_qubits_side
-    
+
     def grid_distance(i, j):
         xi, yi = i % n_qubits_side, i // n_qubits_side
         xj, yj = j % n_qubits_side, j // n_qubits_side
         return abs(xi - xj) + abs(yi - yj)
-    
+
     crossing_errors = 0
     total_shots = 0
-    
+
     for _ in range(n_shots):
         errors = np.random.random(n_qubits) < p_err
         error_qubits = np.where(errors)[0]
-        
+
         if len(error_qubits) < 2:
             continue
-        
+
         total_shots += 1
         # Check if errors span half the grid
-        max_dist = max(grid_distance(q1, q2) 
+        max_dist = max(grid_distance(q1, q2)
                        for q1 in error_qubits for q2 in error_qubits)
         if max_dist > n_qubits_side:
             crossing_errors += 1
-    
+
     return crossing_errors / max(total_shots, 1)
 
 # Run comparison
@@ -362,13 +358,9 @@ Execution: `python _quantum_sim.py --depth 3 --branching 7 --shots 10000 --error
 2. Pastawski, F., Yoshida, B., Harlow, D., & Preskill, J. (2015). Holographic quantum error-correcting codes. *JHEP*, 2015(6), 149. `[established]`
 3. Gottesman, D. (1997). Stabilizer codes and quantum error correction. *arXiv:quant-ph/9705052*. `[established]`
 4. Bravyi, S., & Kitaev, A. (1998). Quantum codes on a lattice with boundary. *arXiv:quant-ph/9811052*. `[established]`
-5. Quni-Gudzinas, R. B. (2026). The Ultrametric Foundation. Zenodo. DOI: `10.5281/zenodo.21046214`. `[EXTERNAL-SOURCE]`
-6. Quni-Gudzinas, R. B. (2026). Nonlinear Tree-Based Numeration Systems: A Consolidated Synthesis. Zenodo. DOI: `10.5281/zenodo.21046213`. `[EXTERNAL-SOURCE]`
+5. Quni-Gudzinas, R. B. (2026). The Ultrametric Foundation. `[EXTERNAL-SOURCE]`
+6. Quni-Gudzinas, R. B. (2026). Nonlinear Tree-Based Numeration Systems: A Consolidated Synthesis. `[EXTERNAL-SOURCE]`
 7. Devoret, M. H., & Schoelkopf, R. J. (2013). Superconducting circuits for quantum information. *Science*, 339(6124), 1169–1174. `[established]`
 8. Arute, F., et al. (2019). Quantum supremacy using a programmable superconducting processor. *Nature*, 574, 505–510. `[established]`
 9. Google Quantum AI. (2023). Suppressing quantum errors by scaling a surface code logical qubit. *Nature*, 614, 676–681. `[established]`
 10. Rosenberg, D., et al. (2017). 3D integrated superconducting qubits. *npj Quantum Information*, 3(42). `[established]`
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.

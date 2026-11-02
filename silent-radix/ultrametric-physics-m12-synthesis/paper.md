@@ -8,6 +8,10 @@ aliases:
 modified: 2026-04-06T08:02:32Z
 ---
 
+# Ultrametric Physics Research Plan
+
+## Abstract
+
 # **ULTRAMETRIC PHYSICS RESEARCH PLAN: RATIO-BASED FOUNDATIONS**
 **Version 2.0**
 **Date: April 6, 2026**
@@ -274,17 +278,3 @@ This research plan presents a focused, executable program for developing ultrame
 The constrained methodology (0.5 FTE PI, LLM-assisted, open dissemination) demonstrates that significant foundational progress is possible without traditional resources. The 12-module structure ensures consistency and quality control while covering the essential components of the framework.
 
 **Ultimate Goal**: A **paradigm shift** from number-based to ratio-based physics, developed with strict empirical discipline and rigorous mathematical foundations.
-
-## Prior Work and Related Literature
-
-[Five Pillars, One Structure: Consilient Convergence in QNFO Research](https://papers.qnfo.org/papers/wbs-6-five-pillars-consilient-synthesis) identifies five independent research programs converging on a single claim: ultrametric non-Archimedean mathematics provides the correct state-space geometry for physics, computation, and optimization, with the Archimedean description as a limit-point readout. That paper presents valuation theory, the Bruhat-Tits tree, Ostrowski’s theorem, and the adelic ring as a shared “Adelic Core” underlying silent-radix cryptography, adelic physics, pattern-based ontology, the qubit-delusion critique, and number-theoretic ultrametric foundations. The present research plan builds directly on this convergence, but departs from its prime-centered p-adic core. Rather than treating integer primes as the fundamental valuations, the plan makes arbitrary scaling ratios q ∈ ℝ⁺ — π, φ, e, and other dimensionless ratios — the basic objects. The Bruhat-Tits tree is retained as the fundamental substrate, but it is reparameterized by edge weight log q and boundary dimension log N/log q. The plan’s Module 1 formalizes valuations with arbitrary scaling ratios, Module 2 constructs Bruhat-Tits trees parameterized by q and residue field size N, Module 4 extends the adelic framework to general number fields, and Module 12 proposes an adelic universe A = ℝ × ∏_q K_q. In this way the consilience’s shared kernel is preserved while its valuation-theoretic base is generalized from p-adic primes to ratio-based parameters.
-
-[Adelic Constraints on Quantum Field Theory — Phase 3 Synthesis](https://papers.qnfo.org/papers/adelic-constraints-on-quantum-field-theory-phase-3-synthesis) concludes that the adelic framework is a structural meta-theory: it constrains the form of physical laws — bounded renormalization-group flow, rational cross-ratio invariants, adelic consistency — without determining specific coefficient values. That paper explicitly falsifies the coincidence log(m_μ/m_e)/π ≈ 16/3 as numerological and states that the adelic structure “is the zeta function.” The present research plan accepts this structural characterization but extends its scope. The plan does not attempt to derive fermion mass ratios or other flavor-sector numbers; instead, it applies ratio-based ultrametric structure to quantum error correction, quantum gate theory, thermodynamic limits, the Wheeler-DeWitt equation, emergent Lorentz symmetry, cosmology, and consciousness. This is a departure from the Phase 3 verdict in emphasis: where the earlier synthesis treats the absence of numerical predictions as a boundary, the present plan treats the ratio-based discrete hierarchy itself as the object to be developed, with predictions sought at the level of structural and architectural consequences — for example, error suppression scaling as ε_L ∼ q^(-d), Lorentz violations scaling with q^(-d), and cosmological parameters expressed as ratios. The plan’s Module 3 likewise develops a Vladimirov-type operator with scaling ratio q, whose normalization constant and eigenvalues are expressed as powers of q rather than as decimal or p-adic quantities, and Module 8 formulates a discrete Wheeler-DeWitt equation on trees with kinetic term from scaling ratio q.
-
-[A Consilient Gap Synthesis of the QNFO/QWAV Research Portfolio](https://papers.qnfo.org/papers/consilient-gap-synthesis) catalogues unresolved gaps across the broader research ecosystem and reports that zero gaps currently block individual project progress. More importantly for the present plan, it records a gap closed in advance: the cross-ratio synthesis concludes that the Compton count is a cross-ratio between the target particle and the background Planck substrate, and that fundamental particles and quasiparticles are ontologically identical on the Bruhat-Tits tree — both are cross-ratios of frequencies against different reference backgrounds, making the distinction anthropocentric rather than metaphysical. The present research plan builds on this ontological unification by placing ratio-based valuations at the center of the framework. Module 11’s Monna map, described as a projection from discrete ratio-based states to continuous experience, and Module 12’s adelic ontology, with “fundamental discreteness with emergent continuity,” extend the cross-ratio result into a general picture of measurement and consciousness. The plan’s key innovation — dimensionless scaling ratios independent of any base representation — can be read as a generalization of that cross-ratio conclusion: if physical identity is itself a cross-ratio, then the underlying substrate should be described by ratios, not by decimal digits or p-adic valuations alone.
-
-
-## Changelog
-
-- v1.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.
-

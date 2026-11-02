@@ -1,19 +1,10 @@
 # ULTRAMETRIC PHYSICS
 
-## RESEARCH PLAN
+## Abstract
 
-**Author:** Rowan Brad Quni-Gudzinas
+This research plan presents a framework for ultrametric physics based on fundamental scaling ratios rather than anthropocentric number representations. The core insight: physical reality is described by dimensionless scaling ratios (π, φ, e, α, etc.) that operate on hierarchical discrete structures, independent of any base representation (decimal, binary, etc.) or continuum assumptions. Key Innovations: 1. Ratio-Based Valuations: Scaling bases q ∈ ℝ⁺ as pure ratios, not decimal numbers 2. Base-Invariant Formulations: All mathematics independent of representation (decimal/binary/etc.) 3. Hierarchical Discrete Reality: Bruhat-Tits trees as fundamental substrate 4. Unified Framework: Addressing quantum computation, quantum gravity, and measurement theory simultaneously 5. Constrained Methodology: 0.5 FTE PI, LLM-assisted, open dissemination at papers.qnfo.org/ResearchGate
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers
-**Date:** 2026-04-06 **Version:** 2.0
-
-## EXECUTIVE
-SUMMARY: THE RATIO-CENTRIC PARADIGM
+## EXECUTIVE SUMMARY: THE RATIO-CENTRIC PARADIGM
 
 This research plan presents a framework for ultrametric physics based
 on **fundamental scaling ratios** rather than
@@ -33,8 +24,7 @@ quantum computation, quantum gravity, and measurement theory
 simultaneously 5. **Constrained Methodology**: 0.5 FTE PI,
 LLM-assisted, open dissemination at papers.qnfo.org/ResearchGate
 
-## RESEARCH
-CONSTRAINTS AND METHODOLOGY
+## RESEARCH CONSTRAINTS AND METHODOLOGY
 
 ### Resources:
 
@@ -72,19 +62,16 @@ upload
 
 **Dissemination**: Social media with the QNFO archive links
 
-## RESEARCH MODULES (12
-MODULES)
+## RESEARCH MODULES (12 MODULES)
 
 *Prioritized for consistency and quality control based on existing
 progress and monograph “Ultrametric Physics: From Discrete Hierarchical
 Geometry to Intrinsic Fault Tolerance and Quantum Gravity”
 (0.10.md)*
 
-### FOUNDATIONAL
-MATHEMATICS (Modules 1-4)
+### FOUNDATIONAL MATHEMATICS (Modules 1-4)
 
-#### Module 1:
-Ratio-Based Valuation Theory
+#### Module 1: Ratio-Based Valuation Theory
 
 **Core Concept**: Scaling ratios q as fundamental, not
 integer primes **Research Questions:** 1. How to formalize
@@ -101,8 +88,7 @@ defining ratio-based valuation framework, with theorems/proofs for q =
 never written in decimal form; base-invariant formulations; physical
 interpretation as fundamental scaling ratio.
 
-#### Module
-2: Bruhat-Tits Trees with Scaling Ratios
+#### Module 2: Bruhat-Tits Trees with Scaling Ratios
 
 **Core Concept**: Trees with edge weight log q,
 independent of q’s decimal representation **Research
@@ -119,8 +105,7 @@ visualizations.
 expansion); boundary dimension = log N/log q (pure ratio); physical
 interpretation: q as scale separation ratio.
 
-#### Module
-3: Vladimirov Operator and Ratio-Based Calculus
+#### Module 3: Vladimirov Operator and Ratio-Based Calculus
 
 **Core Concept**: Pseudodifferential operator with
 scaling ratio q **Research Questions:** 1. How to define
@@ -136,8 +121,7 @@ to tree Laplacians.
 in terms of q; eigenvalues as powers of scaling ratio; base-independent
 formulations.
 
-#### Module
-4: Adelic Theory for General Number Fields
+#### Module 4: Adelic Theory for General Number Fields
 
 **Core Concept**: Extend adelic framework beyond ℚ to
 fields with fundamental scaling ratios **Research
@@ -154,11 +138,9 @@ consistency proofs.
 scaling ratios as fundamental parameters; connection to multiple scale
 hierarchies in physics.
 
-### QUANTUM
-COMPUTATION THEORY (Modules 5-7)
+### QUANTUM COMPUTATION THEORY (Modules 5-7)
 
-#### Module 5:
-Ratio-Based Quantum Error Correction
+#### Module 5: Ratio-Based Quantum Error Correction
 
 **Core Concept**: Error suppression ε_L ∼ q^(-d) ε_P
 with scaling ratio q **Research Questions:** 1. How does
@@ -174,8 +156,7 @@ comparison tables.
 architecture; optimization over q space; physical implementation
 considerations.
 
-#### Module 6:
-Quantum Gate Theory on Ratio-Based Trees
+#### Module 6: Quantum Gate Theory on Ratio-Based Trees
 
 **Core Concept**: Universal gate sets from tree
 automorphisms with scaling ratio q **Research Questions:**
@@ -192,8 +173,7 @@ implementations.
 compilation as path finding in ratio space; complexity dependent on log
 q.
 
-#### Module 7:
-Thermodynamic Limits with Scaling Ratios
+#### Module 7: Thermodynamic Limits with Scaling Ratios
 
 **Core Concept**: Minimum energy requirements scale with
 q^d **Research Questions:** 1. What are fundamental
@@ -209,11 +189,9 @@ conventional architectures.
 temperature limits depend on log q; thermodynamic advantages of
 ratio-based structures.
 
-### QUANTUM
-GRAVITY AND COSMOLOGY (Modules 8-10)
+### QUANTUM GRAVITY AND COSMOLOGY (Modules 8-10)
 
-#### Module
-8: Wheeler-DeWitt Equation on Ratio-Based Trees
+#### Module 8: Wheeler-DeWitt Equation on Ratio-Based Trees
 
 **Core Concept**: Discrete WdW equation with kinetic
 term from scaling ratio q **Research Questions:** 1. How to
@@ -228,8 +206,7 @@ implementations.
 **Key Insight**: Time as navigation in ratio-scaled
 tree; WdW operator depends on q; connection to cosmic evolution.
 
-#### Module
-9: Emergent Lorentz Symmetry from Scaling Ratios
+#### Module 9: Emergent Lorentz Symmetry from Scaling Ratios
 
 **Core Concept**: Lorentz group emerges from
 automorphisms with scaling ratio q **Research Questions:**
@@ -243,8 +220,7 @@ group emergence, q-c relations, Lorentz violation predictions.
 **Key Insight**: Speed of light related to log q;
 Lorentz violations scale with q^(-d); testable predictions.
 
-#### Module
-10: Cosmological Dynamics from Ratio-Based Navigation
+#### Module 10: Cosmological Dynamics from Ratio-Based Navigation
 
 **Core Concept**: Scale factor a(t) from tree branching
 statistics with scaling ratio q **Research Questions:** 1.
@@ -259,11 +235,9 @@ simulations.
 **Key Insight**: Cosmological parameters as ratios;
 inflation as accelerated branching; testable CMB predictions.
 
-### CONSCIOUSNESS
-AND SYNTHESIS (Modules 11-12)
+### CONSCIOUSNESS AND SYNTHESIS (Modules 11-12)
 
-#### Module
-11: Monna Map as Ratio-Based Consciousness Interface
+#### Module 11: Monna Map as Ratio-Based Consciousness Interface
 
 **Core Concept**: M: K → ℝ as projection from discrete
 ratio-based states to continuous experience **Research
@@ -278,8 +252,7 @@ model, neural implementation hypotheses, hard problem resolution.
 information processing; qualia as specific ratio patterns; measurement
 as projection.
 
-#### Module
-12: Synthesis: Adelic Ontology and Ratio-Based Unification
+#### Module 12: Synthesis: Adelic Ontology and Ratio-Based Unification
 
 **Core Concept**: Comprehensive synthesis based on
 monograph “Ultrametric Physics” **Research Questions:** 1.
@@ -296,18 +269,15 @@ testable predictions.
 comprehensive mathematical arena; each scaling ratio q as a “layer” of
 reality; fundamental discreteness with emergent continuity.
 
-## EXECUTION TIMELINE
-AND MILESTONES
+## EXECUTION TIMELINE AND MILESTONES
 
-### Phase 1:
-Foundational Completion (Weeks 1-4)
+### Phase 1: Foundational Completion (Weeks 1-4)
 
 Complete Modules 1-4: Mathematical foundations
 
 **Deliverables**: 4 the QNFO archive deposits (Modules 1-4)
 
-### Phase 2:
-Core Theory Development (Weeks 5-12)
+### Phase 2: Core Theory Development (Weeks 5-12)
 
 Develop Modules 5-10: Quantum computation and gravity
 
@@ -315,8 +285,7 @@ Implement computational simulations
 
 **Deliverables**: 6 the QNFO archive deposits (Modules 5-10)
 
-### Phase 3:
-Synthesis and Completion (Weeks 13-16)
+### Phase 3: Synthesis and Completion (Weeks 13-16)
 
 Develop Modules 11-12: Consciousness and synthesis
 
@@ -327,8 +296,7 @@ Complete framework documentation
 **Deliverables**: 3 the QNFO archive deposits (Modules 11-12,
 synthesis)
 
-## QUALITY METRICS
-AND SUCCESS CRITERIA
+## QUALITY METRICS AND SUCCESS CRITERIA
 
 ### Mathematical Rigor:
 
@@ -338,8 +306,7 @@ Internal consistency across modules
 
 Base-invariance verification
 
-### Computational
-Soundness:
+### Computational Soundness:
 
 Executable Python code in chat environment
 
@@ -347,8 +314,7 @@ Code documentation and examples
 
 Symbolic verification of analytical results
 
-### Physical
-Plausibility:
+### Physical Plausibility:
 
 Connection to known physics where required
 
@@ -356,8 +322,7 @@ Testable predictions identified
 
 Consistency with empirical constraints
 
-### Interdisciplinary
-Coherence:
+### Interdisciplinary Coherence:
 
 Connections between modules clearly articulated
 
@@ -365,8 +330,7 @@ Synthesis across quantum computation, gravity, consciousness
 
 Philosophical consistency
 
-### Dissemination
-Impact:
+### Dissemination Impact:
 
 the QNFO archive downloads and views
 
@@ -376,8 +340,7 @@ Social media discussion and sharing
 
 Citation in related work
 
-## RISK MITIGATION
-STRATEGIES
+## RISK MITIGATION STRATEGIES
 
 ### Theoretical Risks:
 
@@ -411,11 +374,9 @@ communication
 
 **Platform changes**: Primary archiving at papers.qnfo.org
 
-## EXPECTED
-CONTRIBUTIONS AND IMPACT
+## EXPECTED CONTRIBUTIONS AND IMPACT
 
-### Theoretical
-Contributions:
+### Theoretical Contributions:
 
 Complete ratio-based ultrametric physics framework
 
@@ -427,8 +388,7 @@ Ratio-based consciousness model via Monna map
 
 Unification of computation, gravity, and measurement
 
-### Methodological
-Innovations:
+### Methodological Innovations:
 
 LLM-assisted theoretical physics methodology
 
@@ -438,8 +398,7 @@ Open science practices for theoretical physics
 
 Base-invariant mathematical formulations
 
-### Practical
-Applications:
+### Practical Applications:
 
 Quantum computing architectures with geometric protection
 
@@ -449,8 +408,7 @@ Consciousness criteria for artificial systems
 
 Hierarchical material design principles
 
-## CONCLUSION: THE
-RATIO-CENTRIC PARADIGM
+## CONCLUSION: THE RATIO-CENTRIC PARADIGM
 
 This research plan presents a focused, executable program for
 developing ultrametric physics based on fundamental scaling ratios. By
@@ -468,4 +426,3 @@ of the framework.
 **Ultimate Goal**: A **paradigm shift**
 from number-based to ratio-based physics, developed with strict
 empirical discipline and rigorous mathematical foundations.
-

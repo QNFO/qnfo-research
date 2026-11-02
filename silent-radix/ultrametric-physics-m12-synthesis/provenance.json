@@ -3,7 +3,7 @@
   "slug": "ultrametric-physics-m12-synthesis",
   "paper": {
     "path": "silent-radix/ultrametric-physics-m12-synthesis/paper.md",
-    "title": "**ULTRAMETRIC PHYSICS RESEARCH PLAN: RATIO-BASED FOUNDATIONS**",
+    "title": "Ultrametric Physics Research Plan",
     "url": "https://papers.qnfo.org/papers/ultrametric-physics-m12-synthesis"
   },
   "declared": {
@@ -24,6 +24,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "9a9746b3858455f2fc2efe1978ec3b3f7c8bc4f7"
+    },
+    {
+      "sha256": "aac055864f71730eaf2839bad0c4388fc0c7d92325b17ddd3c89e877835c7a51",
+      "bytes": 14435,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.0.0",
+      "git_commit": null
     }
   ],
   "events": []
