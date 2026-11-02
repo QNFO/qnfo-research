@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "critical-examination-of-the-null-hypotheses-in-fundamental-physics",
+  "paper": {
+    "path": "papers/critical-examination-of-the-null-hypotheses-in-fundamental-physics/paper.md",
+    "title": "Critical Examination of the Null Hypotheses in Fundamental Physics",
+    "url": "https://papers.qnfo.org/papers/critical-examination-of-the-null-hypotheses-in-fundamental-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "critical-examination-of-the-null-hypotheses-in-fundamental-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "a67924b5c3418943aba6b6bef7812eb529a6c566c9b2e8d339b22506ab349560",
+      "bytes": 40724,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.2.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
