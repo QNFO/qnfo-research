@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cei-invariance-architectures-as-equivalence-classes-of-causal-density-and-energy",
+  "paper": {
+    "path": "papers/cei-invariance-architectures-as-equivalence-classes-of-causal-density-and-energy/paper.md",
+    "title": "CEI Invariance: Architectures as Equivalence Classes of Causal Density and Energy Fidelity",
+    "url": "https://papers.qnfo.org/papers/cei-invariance-architectures-as-equivalence-classes-of-causal-density-and-energy"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-422/cei-invariance-architectures-as-equivalence-classes-of-causal-density-and-energy",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "a6b9aa7f9f42e0b7f152b8ec7f506acf8974f049cdab15a3b7d35c0d41e9872a"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "d6776402-bcb2-4c09-85d8-d4f3179bbb7b"
+    ],
+    "living_paper_slug": "cei-invariance-architectures-as-equivalence-classes-of-causal-density-and-energy"
+  },
+  "snapshots": [
+    {
+      "sha256": "8bc44a88f36b4c2bec6e91cdf133af7df28983c623910a13579789027e1f9836",
+      "bytes": 43020,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
