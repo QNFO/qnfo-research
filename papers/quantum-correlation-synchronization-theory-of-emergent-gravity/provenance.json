@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantum-correlation-synchronization-theory-of-emergent-gravity",
+  "paper": {
+    "path": "papers/quantum-correlation-synchronization-theory-of-emergent-gravity/paper.md",
+    "title": "Placeholder functions for demonstration",
+    "url": "https://papers.qnfo.org/papers/quantum-correlation-synchronization-theory-of-emergent-gravity"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantum-correlation-synchronization-theory-of-emergent-gravity"
+  },
+  "snapshots": [
+    {
+      "sha256": "e4875c84ed889dcade7daedddb63bb54243e290b5cfc9064bdd4dc4ec632b6e3",
+      "bytes": 66329,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

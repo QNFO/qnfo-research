@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantum-architectonics",
+  "paper": {
+    "path": "papers/quantum-architectonics/paper.md",
+    "title": "Quantum Architectonics",
+    "url": "https://papers.qnfo.org/papers/quantum-architectonics"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantum-architectonics"
+  },
+  "snapshots": [
+    {
+      "sha256": "14aa11de410da9f5f79b49c45539d828ee147699eede68caffa3f1fec869972a",
+      "bytes": 55523,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

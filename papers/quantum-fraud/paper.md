@@ -5,8 +5,7 @@ Particle Snipe Hunt (And Counting)**
 
 *[Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](http://QNFO.org)*
 
-## Birth Of a Mathematical
-Cult
+## Birth Of a Mathematical Cult
 
 In 1900, Max Planck, desperate to salvage the failing theory of
 blackbody radiation, scribbled down an equation that would change
@@ -32,8 +31,7 @@ where mathematical elegance replaced empirical rigor, and where
 **the greatest fraud was not in the data, but in the
 dogma.**
 
-## Planck’s
-Desperation: The Original Sin of Quantum Fraud
+## Planck’s Desperation: The Original Sin of Quantum Fraud
 
 **The Ultraviolet Catastrophe and the Rise of Mathematical
 Fakery**
@@ -82,9 +80,7 @@ fundamental question of whether photons were truly fundamental particles
 or just a useful theoretical construct remained open, rooted in Planck’s
 original mathematical expediency.
 
-## Einstein’s
-“Biggest Blunder” And the Resurrection of Mathematical
-Ghosts
+## Einstein’s “Biggest Blunder” And the Resurrection of Mathematical Ghosts
 
 **The Cosmological Constant: A Fudge Factor That Refuses to
 Die**
@@ -135,8 +131,7 @@ this “vacuum catastrophe” persists, highlighting the deeply problematic
 and unresolved nature of Λ as both a concept and a component of our
 universe.
 
-## Dark
-Matter: The Invisible Empire of Unfalsifiable Physics
+## Dark Matter: The Invisible Empire of Unfalsifiable Physics
 
 **From Zwicky’s Missing Mass to a Multi-Billion-Dollar Wild
 Goose Chase**
@@ -202,12 +197,9 @@ debated, that modifications to gravity could also account for such
 phenomena, meaning the Bullet Cluster highlights a gravitational anomaly
 rather than undisputedly confirming unseen particles.
 
-## Dirac’s
-Antimatter: When Physics Embraced Mathematical Fantasy as
-Fact
+## Dirac’s Antimatter: When Physics Embraced Mathematical Fantasy as Fact
 
-### Negative
-Energy, “Holes” in the Void, and the Triumph of Absurdity
+### Negative Energy, “Holes” in the Void, and the Triumph of Absurdity
 
 In 1928, Paul Dirac formulated a groundbreaking equation successfully
 merging quantum mechanics with special relativity to describe the
@@ -252,11 +244,9 @@ anticipated a new piece of reality, further cementing the notion that
 mathematical consistency could sometimes trump physical intuition or
 observability.
 
-## String
-Theory, Multiverses, and the Abandonment of Science
+## String Theory, Multiverses, and the Abandonment of Science
 
-### When Math Became a
-Religion
+### When Math Became a Religion
 
 By the late 20th century, a significant portion of theoretical
 physics seemed to have drifted away from its empirical roots, fully
@@ -317,8 +307,7 @@ explore genuinely new observational frontiers, but to validate the
 intricate, pre-existing mathematical structures physicists have already
 constructed.
 
-## Cult Of
-Mathematical Wishful Thinking
+## Cult Of Mathematical Wishful Thinking
 
 For well over a century, a narrative critical of theoretical physics
 suggests it has operated according to a dangerous, repeating credo. This
@@ -384,4 +373,3 @@ The present paper also builds upon the constructive alternative developed in [Qu
 ## Changelog
 
 - v1.1.0: Added a Prior Work and Related Literature section that places this paper among 2 related QNFO papers.
-
