@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "reconstructive-ontology-of-brouwerian-intuitionism",
+  "paper": {
+    "path": "papers/reconstructive-ontology-of-brouwerian-intuitionism/paper.md",
+    "title": "Reconstructive Ontology of Brouwerian Intuitionism",
+    "url": "https://papers.qnfo.org/papers/reconstructive-ontology-of-brouwerian-intuitionism"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "reconstructive-ontology-of-brouwerian-intuitionism"
+  },
+  "snapshots": [
+    {
+      "sha256": "196c71f32c4b88087216c7e1b1d39d60c72f60fecb88681ca6f350d06c044d70",
+      "bytes": 68992,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
