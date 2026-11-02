@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "treatise-on-waves",
+  "paper": {
+    "path": "papers/treatise-on-waves/paper.md",
+    "title": "Waves Do Math",
+    "url": "https://papers.qnfo.org/papers/treatise-on-waves"
+  },
+  "declared": {
+    "version": "1.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "treatise-on-waves"
+  },
+  "snapshots": [
+    {
+      "sha256": "5a2f714c11e862a53451306d754ef85feb7528a637daa5f09a654336c988e354",
+      "bytes": 130231,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

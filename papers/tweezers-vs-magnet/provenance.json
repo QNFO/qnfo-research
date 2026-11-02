@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "tweezers-vs-magnet",
+  "paper": {
+    "path": "papers/tweezers-vs-magnet/paper.md",
+    "title": "Tweezers Magnet",
+    "url": "https://papers.qnfo.org/papers/tweezers-vs-magnet"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "tweezers-vs-magnet"
+  },
+  "snapshots": [
+    {
+      "sha256": "27a068c1ea00a0497941a312fa4bf0bd15b5bcd5e4acb66bff3e88833fd6f44c",
+      "bytes": 56575,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

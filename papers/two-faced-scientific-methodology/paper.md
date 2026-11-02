@@ -1,7 +1,8 @@
-# Two-Faced Scientific Methodology
+---
+orcid: "[0009-0002-4317-5604](https://ORCID.org/0009-0002-4317-5604)"
+---
 
-## “Two-Faced” Scientific
-Methodology
+# Two-Faced Scientific Methodology
 
 **How Theoretical Attractor States Resist
 Falsification**
@@ -9,8 +10,6 @@ Falsification**
 [Rowan Brad Quni](mailto:rowan.quni@qnfo.org)
 
 Principal Investigator, [QNFO](https://qnfo.org)
-
-ORCID: [0009-0002-4317-5604](https://ORCID.org/0009-0002-4317-5604)
 
 Modern scientific practice often exhibits a significant disconnect
 between its idealized self-image and its actual operational procedures,
