@@ -1,8 +1,6 @@
 # Standard Model
 
-### Standard
-Model Critique: Formal Deconstruction of an Incomplete Paradigm and the
-Methodological Imperative for a Successor Theory
+### Standard Model Critique: Formal Deconstruction of an Incomplete Paradigm and the Methodological Imperative for a Successor Theory
 
 **Author:** Rowan Brad Quni-Gudzinas
 **Affiliation:** QNFO **Contact:**
@@ -39,8 +37,7 @@ methodological imperative for a successor theory that satisfies the
 foundational principles of Ontological Completeness, Explanatory
 Closure, Technical Naturalness, and Unification.
 
-### I. Formal
-Architecture and Consistency
+### I. Formal Architecture and Consistency
 
 The structure of the Standard Model is the source of both its
 predictive power and its inherent constraints. Its architecture is
@@ -91,15 +88,13 @@ contribution (\(+3/4\)) [1]. This
 required algebraic conspiracy between seemingly independent sectors
 lacks internal explanatory derivation.
 
-### II.
-Foundational Deficits and Structural Incompleteness
+### II. Foundational Deficits and Structural Incompleteness
 
 The Standard Model’s claim to be a fundamental theory is profoundly
 undermined by systematic deficits that confirm its status as an
 incomplete model.
 
-#### II.A.
-Ontological Incompleteness and the Cosmological Crisis
+#### II.A. Ontological Incompleteness and the Cosmological Crisis
 
 The SM fails the test of ontological completeness by ignoring
 gravitational interactions and the vast majority of the universe’s
@@ -136,8 +131,7 @@ quantified by the CKM matrix, is insufficient by 8 to 10 orders of
 magnitude (\(\eta_B^{\text{SM}} \lesssim
 10^{-18}\)) [4].
 
-#### II.B. Lack of
-Explanatory Closure
+#### II.B. Lack of Explanatory Closure
 
 A fundamental theory must derive its internal structure and constants
 from first principles. The Standard Model fails this test by requiring
@@ -151,8 +145,7 @@ phase (\(\theta_{\text{QCD}}\)) [3].
 This overwhelming dependence on external empirical input renders the SM
 a descriptive, rather than predictive, framework.
 
-#### II.C. Crisis of
-Technical Naturalness
+#### II.C. Crisis of Technical Naturalness
 
 The Standard Model violates the principle of naturalness, which
 demands that parameters should not require extreme fine-tuning to
@@ -180,9 +173,7 @@ provides no symmetry mechanism to suppress this parameter, its minuscule
 observed value constitutes an independent, severe fine-tuning
 paradox.
 
-### III.
-Empirical Falsifications: Precision Anomalies and
-Contradictions
+### III. Empirical Falsifications: Precision Anomalies and Contradictions
 
 Beyond its internal deficiencies, the Standard Model is confronted by
 a growing portfolio of high-significance experimental results that
@@ -215,8 +206,7 @@ colossal statistical discrepancy challenges the fundamental consistency
 and relational structure of the Standard Model’s electroweak
 sector.
 
-### IV. Verdict
-and Methodological Imperative
+### IV. Verdict and Methodological Imperative
 
 The cumulative weight of these theoretical deficits and empirical
 contradictions leads to an inescapable conclusion: the Standard Model is
@@ -247,8 +237,7 @@ spanning the strong, weak, electromagnetic, and gravitational forces,
 must emerge as distinct manifestations of a single, unified mathematical
 framework.
 
-### V.
-Conclusion: Framing Unanswered Questions
+### V. Conclusion: Framing Unanswered Questions
 
 The greatest and most enduring legacy of the Standard Model is
 precisely its definitive failure: its quantitative rigor has

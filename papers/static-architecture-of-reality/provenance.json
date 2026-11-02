@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "static-architecture-of-reality",
+  "paper": {
+    "path": "papers/static-architecture-of-reality/paper.md",
+    "title": "Static Architecture of Reality",
+    "url": "https://papers.qnfo.org/papers/static-architecture-of-reality"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "static-architecture-of-reality"
+  },
+  "snapshots": [
+    {
+      "sha256": "97fd841f400a173d18a27c9bb4273f2303298958a4e5fedade8a05afa98f4092",
+      "bytes": 182152,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
