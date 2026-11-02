@@ -1,10 +1,10 @@
 # Ultrametric Nested Semantic Graphs: A Language‑Neutral Meaning Representation
 
 ## Abstract
+
 Cross‑lingual semantic parsing and retrieval degrade for agglutinative and polysynthetic languages because a single surface word can encode an entire proposition, making token‑level matching ineffective. The missing component is a language‑neutral representation whose pairwise distances obey a provable consistency law. We define **Ultrametric Nested Semantic Graphs (UNSGs)** as rooted hierarchical graphs built from constituency parses by adding sibling edges, and we restrict the distance to the leaf set, defining it as the height of the lowest common ancestor (LCA). The distance satisfies the strong triangle inequality, guaranteeing ultrametricity. We correct earlier planarity claims by exhibiting a non‑planar counterexample and qualify the planar‑slope bound to the subclass of planar UNSGs that are nested pseudotrees. Exact combinatorial costs are derived: $58\,786$ binary bracketings for a 12‑word sentence, $1\,860\,480$ injective node mappings for a 5‑node pattern in a 20‑node graph, and a $500\times$ compression from pairwise distances to tree parameters at $n=1{,}000$ nodes. These results provide a mathematically rigorous, language‑neutral foundation for subgraph‑matching retrieval across typologically diverse languages.
 
-## 1. Introduction
-Multilingual language technology must serve languages across the full morphological spectrum. In isolating languages such as English, one surface word roughly carries one meaning unit, and keyword indexing works. We assume that in agglutinative languages such as Turkish, and in polysynthetic languages such as Mohawk or Inuktitut, a single word can encode the verb, its arguments, negation, aspect, and evidentiality simultaneously. This costs practitioners concretely today: We assume that cross‑lingual search engines built on token matching experience low recall for polysynthetic queries. machine translation for low‑resource polysynthetic languages suffers from data sparsity inflated by explosive lexical inventories; and corpus indexing for these languages requires exhaustive morphological analyzers that mostly do not exist. If sentences from all typologies could be mapped to one language‑neutral structure with a mathematically controlled distance, a single parser design, a single index, and a single retrieval algorithm could serve all of them, and the retrieval decision for a polysynthetic word‑sentence would change from “token overlap, usually zero” to “subgraph distance against a stored graph”.
+## 1. Introduction Multilingual language technology must serve languages across the full morphological spectrum. In isolating languages such as English, one surface word roughly carries one meaning unit, and keyword indexing works. We assume that in agglutinative languages such as Turkish, and in polysynthetic languages such as Mohawk or Inuktitut, a single word can encode the verb, its arguments, negation, aspect, and evidentiality simultaneously. This costs practitioners concretely today: We assume that cross‑lingual search engines built on token matching experience low recall for polysynthetic queries. machine translation for low‑resource polysynthetic languages suffers from data sparsity inflated by explosive lexical inventories; and corpus indexing for these languages requires exhaustive morphological analyzers that mostly do not exist. If sentences from all typologies could be mapped to one language‑neutral structure with a mathematically controlled distance, a single parser design, a single index, and a single retrieval algorithm could serve all of them, and the retrieval decision for a polysynthetic word‑sentence would change from “token overlap, usually zero” to “subgraph distance against a stored graph”.
 
 This paper introduces **Ultrametric Nested Semantic Graphs (UNSGs)**, a rooted graph obtained from a parse tree, whose leaf‑to‑leaf distance is the height of their lowest common ancestor (LCA). The distance inherits the strong triangle inequality $d(x,z)\le\max\{d(x,y),d(y,z)\}$, the defining property of ultrametrics [1], which guarantees that every triple of leaves forms an isosceles triangle with the two longer sides equal and enables single‑scalar pruning in distance‑based retrieval.
 
@@ -20,13 +20,11 @@ This paper introduces **Ultrametric Nested Semantic Graphs (UNSGs)**, a rooted g
 9. Limitations, a falsifiability condition, and open questions (Section 7).  
 10. Practical implications, technology readiness assessment, and a minimal de‑risking experiment (Section 8).
 
-## 2. Background and Related Work
-The notion of an ultrametric space, defined by the strong triangle inequality $d(x,z)\le\max\{d(x,y),d(y,z)\}$ [1, §1.1], provides a natural formalism for hierarchical similarity. Comb‑metric constructions generate compact ultrametric spaces from functions $f\colon I\to[0,\infty)$; we define the pseudo‑distance $\bar d_f(s,t)=\max_{(s\wedge t,\,s\vee t)}f$ as part of our own development. Square‑contact representations embed planar graphs as interior‑disjoint axis‑aligned squares, guaranteeing that adjacency corresponds to side contact [2, §1]. This representation underlies geometric realizations of hierarchical graphs. The work [5] concerns planar drawings with few slopes for Halin graphs and nested pseudotrees; we assume that for a planar UNSG the planar slope number satisfies $psn(G)\le\max\{4,\Delta\}$. Word‑representable split graphs are characterized by semi‑transitive orientations; the representation number for this class remains an open question. Generalized path algebras provide a matrix‑unit framework for representing algebras with weak relations [8, §1], while hyper‑loop algebras furnish a module‑theoretic setting for finite‑dimensional representations over non‑algebraically closed fields [6, §Introduction]. The rings of symmetric polynomials form an inverse system whose limit is the ring of symmetric functions; this structure motivates an analogy to the bosonic Fock space representation, which we discuss in our algebraic encoding. Together, these works supply the topological, geometric, combinatorial, and algebraic tools required to construct and analyze UNSGs.
+## 2. Background and Related Work The notion of an ultrametric space, defined by the strong triangle inequality $d(x,z)\le\max\{d(x,y),d(y,z)\}$ [1, §1.1], provides a natural formalism for hierarchical similarity. Comb‑metric constructions generate compact ultrametric spaces from functions $f\colon I\to[0,\infty)$; we define the pseudo‑distance $\bar d_f(s,t)=\max_{(s\wedge t,\,s\vee t)}f$ as part of our own development. Square‑contact representations embed planar graphs as interior‑disjoint axis‑aligned squares, guaranteeing that adjacency corresponds to side contact [2, §1]. This representation underlies geometric realizations of hierarchical graphs. The work [5] concerns planar drawings with few slopes for Halin graphs and nested pseudotrees; we assume that for a planar UNSG the planar slope number satisfies $psn(G)\le\max\{4,\Delta\}$. Word‑representable split graphs are characterized by semi‑transitive orientations; the representation number for this class remains an open question. Generalized path algebras provide a matrix‑unit framework for representing algebras with weak relations [8, §1], while hyper‑loop algebras furnish a module‑theoretic setting for finite‑dimensional representations over non‑algebraically closed fields [6, §Introduction]. The rings of symmetric polynomials form an inverse system whose limit is the ring of symmetric functions; this structure motivates an analogy to the bosonic Fock space representation, which we discuss in our algebraic encoding. Together, these works supply the topological, geometric, combinatorial, and algebraic tools required to construct and analyze UNSGs.
 
 ## 3. Methods
 
-### 3.1 Graph Construction
-Given a sentence $S$, a constituency parser yields a rooted tree $T=(V_T,E_T)$ whose leaves are lexical tokens and whose internal nodes are constituents. The **Ultrametric Nested Semantic Graph** is $G=(V,E)$ with $V=V_T$ and  
+### 3.1 Graph Construction Given a sentence $S$, a constituency parser yields a rooted tree $T=(V_T,E_T)$ whose leaves are lexical tokens and whose internal nodes are constituents. The **Ultrametric Nested Semantic Graph** is $G=(V,E)$ with $V=V_T$ and 
 
 \[
 E = E_T \;\cup\; \bigl\{\{u,v\} : u,v \text{ are distinct children of the same parent in } T\bigr\}.
@@ -34,8 +32,7 @@ E = E_T \;\cup\; \bigl\{\{u,v\} : u,v \text{ are distinct children of the same p
 
 The second set adds an undirected **sibling edge** for every pair of siblings in $T$.
 
-### 3.2 Ultrametric Distance on the Leaf Set
-Define the **height** $h\colon V\to\mathbb{Z}_{\ge0}$ recursively by $h(\ell)=0$ for every leaf $\ell$ and $h(v)=1+\max\{h(c):c \text{ child of } v\}$ for internal $v$. For leaves $\ell_1,\ell_2$ define  
+### 3.2 Ultrametric Distance on the Leaf Set Define the **height** $h\colon V\to\mathbb{Z}_{\ge0}$ recursively by $h(\ell)=0$ for every leaf $\ell$ and $h(v)=1+\max\{h(c):c \text{ child of } v\}$ for internal $v$. For leaves $\ell_1,\ell_2$ define 
 
 \[
 d(\ell_1,\ell_2)=h\bigl(\operatorname{LCA}(\ell_1,\ell_2)\bigr),\qquad d(\ell,\ell)=0.
@@ -43,8 +40,7 @@ d(\ell_1,\ell_2)=h\bigl(\operatorname{LCA}(\ell_1,\ell_2)\bigr),\qquad d(\ell,\e
 
 The restriction to the leaf set guarantees the identity‑of‑indiscernibles property $d(\ell,\ell)=0$, which fails for internal nodes.
 
-### 3.3 Comb‑Metric Realization
-Fix an ordering $\ell_1,\dots,\ell_m$ of the leaves by a depth‑first traversal of $T$ and place leaf $\ell_i$ at position $s_i\in[0,m]$ with $s_i$ increasing. Define a piecewise‑constant function $f\colon[0,m]\to[0,\infty)$ whose value on the interval between consecutive leaf positions equals the height of the LCA of the two leaves bracketing that interval, and $f=0$ at leaf positions. Then for $s_i<s_j$  
+### 3.3 Comb‑Metric Realization Fix an ordering $\ell_1,\dots,\ell_m$ of the leaves by a depth‑first traversal of $T$ and place leaf $\ell_i$ at position $s_i\in[0,m]$ with $s_i$ increasing. Define a piecewise‑constant function $f\colon[0,m]\to[0,\infty)$ whose value on the interval between consecutive leaf positions equals the height of the LCA of the two leaves bracketing that interval, and $f=0$ at leaf positions. Then for $s_i<s_j$ 
 
 \[
 \bar d_f(s_i,s_j)=\sup_{(s_i,s_j)} f = \max_{i\le k<j} h\bigl(\operatorname{LCA}(\ell_k,\ell_{k+1})\bigr),
@@ -52,19 +48,15 @@ Fix an ordering $\ell_1,\dots,\ell_m$ of the leaves by a depth‑first traversal
 
 and one verifies that $\bar d_f(s_i,s_j)=h(\operatorname{LCA}(\ell_i,\ell_j))$, so $\bar d_f$ coincides with $d$ on the leaf set.
 
-### 3.4 Planar Embedding and Slope Bound (Qualified)
-The maximum degree $\Delta$ of $G$ is governed by the branching factor of $T$: a node of $T$ with $b$ children contributes a sibling clique $K_b$, so $\Delta\ge b+1$. The source result [5] proves $psn(G)\le\max\{4,\Delta\}$ for nested pseudotrees and Halin graphs. Because UNSGs are not planar in general (see Section 4.2), the bound transfers only under the condition that a UNSG is planar and belongs to the class covered by [5]. When $\Delta\le3$ (binary parses) and the graph is planar, the bound would imply $psn(G)\le4$.
+### 3.4 Planar Embedding and Slope Bound (Qualified) The maximum degree $\Delta$ of $G$ is governed by the branching factor of $T$: a node of $T$ with $b$ children contributes a sibling clique $K_b$, so $\Delta\ge b+1$. The source result [5] proves $psn(G)\le\max\{4,\Delta\}$ for nested pseudotrees and Halin graphs. Because UNSGs are not planar in general (see Section 4.2), the bound transfers only under the condition that a UNSG is planar and belongs to the class covered by [5]. When $\Delta\le3$ (binary parses) and the graph is planar, the bound would imply $psn(G)\le4$.
 
-### 3.5 Mapping to Word‑Representable Split Graphs
-Let $C$ be the set of internal nodes and $I$ the set of leaves of $T$. In $G$, leaves form an independent set (no leaf‑leaf sibling edge), while internal nodes may be connected via tree edges and sibling cliques. This structure motivates a comparison with split graphs, which consist of a clique $C$ and an independent set $I$. Word‑representable split graphs are characterized by semi‑transitive orientations, but their representation number remains unknown [4]; the mapping places UNSGs within this broader class without claiming isomorphism.
+### 3.5 Mapping to Word‑Representable Split Graphs Let $C$ be the set of internal nodes and $I$ the set of leaves of $T$. In $G$, leaves form an independent set (no leaf‑leaf sibling edge), while internal nodes may be connected via tree edges and sibling cliques. This structure motivates a comparison with split graphs, which consist of a clique $C$ and an independent set $I$. Word‑representable split graphs are characterized by semi‑transitive orientations, but their representation number remains unknown [4]; the mapping places UNSGs within this broader class without claiming isomorphism.
 
-### 3.6 Algebraic Encoding
-Let $\Lambda$ be a generalized path algebra with weak relations as defined in [8]. Assign to each vertex $v\in V$ an idempotent $e_v$ from a complete orthogonal set $\{e_{ii}\}_I$, and to each edge $(u,v)$ a bimodule $A_{uv}$. The resulting $\{A_{ij}\}$‑module system encodes the graph structure. Filtering the tree by depth yields a tower of subalgebras analogous to the inverse system of symmetric polynomial rings described in [3], providing a representation‑theoretic perspective on UNSGs.
+### 3.6 Algebraic Encoding Let $\Lambda$ be a generalized path algebra with weak relations as defined in [8]. Assign to each vertex $v\in V$ an idempotent $e_v$ from a complete orthogonal set $\{e_{ii}\}_I$, and to each edge $(u,v)$ a bimodule $A_{uv}$. The resulting $\{A_{ij}\}$‑module system encodes the graph structure. Filtering the tree by depth yields a tower of subalgebras analogous to the inverse system of symmetric polynomial rings described in [3], providing a representation‑theoretic perspective on UNSGs.
 
 ## 4. Analysis
 
-### 4.1 Strong Triangle Inequality (Leaf Distance)
-For leaves $x,y,z$, let $a=\operatorname{LCA}(x,y)$, $b=\operatorname{LCA}(y,z)$, and $c=\operatorname{LCA}(x,z)$. By the tree property, one of $a,b,c$ is an ancestor of the other two. Suppose $c$ is the deepest common ancestor among the three pairs. Then $h(c)=\max\{h(a),h(b)\}$, and  
+### 4.1 Strong Triangle Inequality (Leaf Distance) For leaves $x,y,z$, let $a=\operatorname{LCA}(x,y)$, $b=\operatorname{LCA}(y,z)$, and $c=\operatorname{LCA}(x,z)$. By the tree property, one of $a,b,c$ is an ancestor of the other two. Suppose $c$ is the deepest common ancestor among the three pairs. Then $h(c)=\max\{h(a),h(b)\}$, and 
 
 \[
 d(x,z)=h(c)\le\max\{h(a),h(b)\}=\max\{d(x,y),d(y,z)\},
@@ -72,11 +64,9 @@ d(x,z)=h(c)\le\max\{h(a),h(b)\}=\max\{d(x,y),d(y,z)\},
 
 establishing the strong triangle inequality for all leaf triples.
 
-### 4.2 Planarity Counterexample
-Consider a parse tree whose root has five children, each a leaf. The sibling edges form a $K_5$ clique among the five leaves. $K_5$ is non‑planar, so the resulting UNSG is non‑planar. Hence the unconditional planarity claim of the earlier version is false. Planarity holds for trees whose maximum branching factor $b\le4$, because the sibling cliques are then at most $K_4$; however, clique size alone does not guarantee the entire UNSG is planar.
+### 4.2 Planarity Counterexample Consider a parse tree whose root has five children, each a leaf. The sibling edges form a $K_5$ clique among the five leaves. $K_5$ is non‑planar, so the resulting UNSG is non‑planar. Hence the unconditional planarity claim of the earlier version is false. Planarity holds for trees whose maximum branching factor $b\le4$, because the sibling cliques are then at most $K_4$; however, clique size alone does not guarantee the entire UNSG is planar.
 
-### 4.3 Qualified Planar‑Slope Bound
-When a UNSG is planar and belongs to the nested pseudotree class, the bound from [5] applies:  
+### 4.3 Qualified Planar‑Slope Bound When a UNSG is planar and belongs to the nested pseudotree class, the bound from [5] applies: 
 
 \[
 psn(G)\le\max\{4,\Delta\}.
@@ -84,13 +74,11 @@ psn(G)\le\max\{4,\Delta\}.
 
 For binary parses ($\Delta\le3$) that are planar, this yields $psn(G)\le4$, but the bound remains conditional because not all planar UNSGs satisfy the nested pseudotree property.
 
-### 4.4 Comb‑Metric Consistency
-Using the construction of Section 3.3, compute $\bar d_f$ for the leaves of the numeric example in Section 6.1. The maximum $f$ value on the interval between any two leaf positions equals the height of their LCA, reproducing the distances $2,2,1$ reported there. Thus the finite comb metric is isometric to the leaf‑distance ultrametric.
+### 4.4 Comb‑Metric Consistency Using the construction of Section 3.3, compute $\bar d_f$ for the leaves of the numeric example in Section 6.1. The maximum $f$ value on the interval between any two leaf positions equals the height of their LCA, reproducing the distances $2,2,1$ reported there. Thus the finite comb metric is isometric to the leaf‑distance ultrametric.
 
 ### 4.5 Combinatorial Cost Calculations
 
-#### 4.5.1 Binary Bracketings for a 12‑Word Sentence
-The number of binary bracketings of a sequence of $n$ words equals the Catalan number $C_{n-1}$:  
+#### 4.5.1 Binary Bracketings for a 12‑Word Sentence The number of binary bracketings of a sequence of $n$ words equals the Catalan number $C_{n-1}$: 
 
 \[
 C_{n-1}= \frac{1}{n}\binom{2(n-1)}{n-1}.
@@ -107,8 +95,7 @@ C_{11} &= \frac{1}{12}\binom{22}{11} \\
 \end{aligned}
 \]
 
-#### 4.5.2 Injective Node Mappings for a 5‑Node Pattern in a 20‑Node Graph
-The number of injective mappings (ordered selections) of $k$ distinct pattern nodes into $n$ graph nodes is the falling factorial $P(n,k)=n\,(n-1)\dots (n-k+1)$.  
+#### 4.5.2 Injective Node Mappings for a 5‑Node Pattern in a 20‑Node Graph The number of injective mappings (ordered selections) of $k$ distinct pattern nodes into $n$ graph nodes is the falling factorial $P(n,k)=n\,(n-1)\dots (n-k+1)$. 
 
 \[
 \begin{aligned}
@@ -120,8 +107,7 @@ P(20,5) &= 20 \times 19 \times 18 \times 17 \times 16 \\
 \end{aligned}
 \]
 
-#### 4.5.3 Parameter Compression at $n=1{,}000$ Nodes
-Pairwise distances in a fully connected graph of $n$ nodes:
+#### 4.5.3 Parameter Compression at $n=1{,}000$ Nodes Pairwise distances in a fully connected graph of $n$ nodes:
 
 \[
 \frac{n(n-1)}{2}= \frac{1{,}000 \times 999}{2}= 499\,500.
@@ -148,8 +134,7 @@ All results follow directly from the formal derivations in Sections 3 and 4.
 
 ## 6. Extended Derivations and Worked Examples
 
-### 1. Deeper numeric illustration of the LCA‑height distance  
-Consider the sentence **“The quick brown fox jumps”**. A constituency parser yields the tree $T$ (heights in parentheses):
+### 1. Deeper numeric illustration of the LCA‑height distance Consider the sentence **“The quick brown fox jumps”**. A constituency parser yields the tree $T$ (heights in parentheses):
 
 - $S$ (height 3)  
   - $NP$ (height 2) containing leaf *The* (height 0) and subtree $NP'$ (height 1)  
@@ -212,14 +197,11 @@ The ring of symmetric polynomials $B_n=\mathbb{Z}[x_1,\dots,x_n]^{\mathfrak{S}_n
 \]
 which mirrors the inverse system $B_1 \leftarrow B_2 \leftarrow \cdots$ described in [3, §1]. The limit algebra $\Lambda_\infty$ therefore encodes the full UNSG and mirrors the inverse system of symmetric polynomial rings described in [3]; the analogy suggests a similar hierarchical structure, though no isomorphism to the bosonic Fock space is claimed. This correspondence supplies a representation‑theoretic bridge between UNSGs and the symmetric‑function construction of [3].
 
-### 5. Semantic‑memory grounding of ultrametricity  
-We hypothesize that semantic memory may inherently rely on ultrametric topologies, a perspective suggested by projective geometric frameworks [9]. The UNSG leaf‑distance, being an ultrametric by construction, therefore provides a formal substrate for that claim: hierarchical semantic relations are captured by the LCA‑height metric, and the strong triangle inequality guarantees that any three concepts form an isosceles configuration, suggesting a correspondence with hierarchical semantic organization. This alignment supplies a cognitive justification for the mathematical design of UNSGs.
+### 5. Semantic‑memory grounding of ultrametricity We hypothesize that semantic memory may inherently rely on ultrametric topologies, a perspective suggested by projective geometric frameworks [9]. The UNSG leaf‑distance, being an ultrametric by construction, therefore provides a formal substrate for that claim: hierarchical semantic relations are captured by the LCA‑height metric, and the strong triangle inequality guarantees that any three concepts form an isosceles configuration, suggesting a correspondence with hierarchical semantic organization. This alignment supplies a cognitive justification for the mathematical design of UNSGs.
 
-### 6. Hierarchical state mapping and cognitive‑linguistic models  
-The ratio‑based adelic physics paper emphasizes that **hierarchical state mappings translate discrete tree structures into continuous outputs** [10]. In UNSGs the mapping $s_\ell\mapsto h(\operatorname{LCA})$ (Section 3.3) performs precisely this translation: each leaf $\ell$ acquires a real‑valued coordinate $s_\ell$ on $[0,m]$, and the piecewise‑constant function $f$ encodes the hierarchical state. The resulting continuous ultrametric space can be interpreted as a cognitive‑linguistic representation where discrete syntactic distinctions are embedded in a real‑valued metric space, as advocated in [10, §1.4].
+### 6. Hierarchical state mapping and cognitive‑linguistic models The ratio‑based adelic physics paper emphasizes that **hierarchical state mappings translate discrete tree structures into continuous outputs** [10]. In UNSGs the mapping $s_\ell\mapsto h(\operatorname{LCA})$ (Section 3.3) performs precisely this translation: each leaf $\ell$ acquires a real‑valued coordinate $s_\ell$ on $[0,m]$, and the piecewise‑constant function $f$ encodes the hierarchical state. The resulting continuous ultrametric space can be interpreted as a cognitive‑linguistic representation where discrete syntactic distinctions are embedded in a real‑valued metric space, as advocated in [10, §1.4].
 
-### 7. Primitive distinctions as the syntactic seed  
-The QNFO work on syntactic generation treats **the primitive act of making a distinction** as the foundational syntactic token [11]. In the UNSG construction (Section 3.1) the root node $S$ embodies exactly this primitive distinction: it separates the sentence into constituent substructures. The sibling edges added between children of a node correspond to the juxtaposition operation described in [11, §1.3]. Thus the entire graph can be seen as a systematic elaboration of primitive distinctions, grounding the formalism in the philosophical account of [11].
+### 7. Primitive distinctions as the syntactic seed The QNFO work on syntactic generation treats **the primitive act of making a distinction** as the foundational syntactic token [11]. In the UNSG construction (Section 3.1) the root node $S$ embodies exactly this primitive distinction: it separates the sentence into constituent substructures. The sibling edges added between children of a node correspond to the juxtaposition operation described in [11, §1.3]. Thus the entire graph can be seen as a systematic elaboration of primitive distinctions, grounding the formalism in the philosophical account of [11].
 
 ### 8. Block‑diagonal LCA matrix and ultrametric attention  
 The proof‑of‑concept paper on auditable attention demonstrates that **the LCA matrix of a binary‑tree encoder is block‑diagonal**, enabling $O(n)$ attention computation [12]. For a binary tree of depth 2 with leaves $\{l_1,l_2,l_3,l_4\}$ the LCA matrix $M$ is
@@ -234,8 +216,7 @@ M=
 \]
 which becomes block‑diagonal after permuting leaves to group siblings. In the binary‑tree case shown, each internal node defines a block of leaves sharing the same LCA height, yielding a block‑diagonal LCA matrix. Consequently, attention mechanisms that use a monotone function of $M$ enjoy the $O(n)$ computational advantage proved in [12, §5.7]; extending this advantage to arbitrary UNSGs remains a conjecture.
 
-### 9. Sensitivity of the planar‑slope bound to branching factor  
-Recall the bound $psn(G)\le\max\{4,\Delta\}$ from [5]. The maximum degree $\Delta$ of a UNSG equals the maximum branching factor $b$ of its parse tree plus one (the parent edge). If a polysynthetic verb yields $b=10$, then $\Delta=11$ and the bound becomes $psn(G)\le 11$. Conversely, for binary parses ($b\le2$) we have $\Delta\le3$, and the bound collapses to $psn(G)\le4$. This linear sensitivity follows directly from the definition of $\Delta$ and the theorem in [5, §3].
+### 9. Sensitivity of the planar‑slope bound to branching factor Recall the bound $psn(G)\le\max\{4,\Delta\}$ from [5]. The maximum degree $\Delta$ of a UNSG equals the maximum branching factor $b$ of its parse tree plus one (the parent edge). If a polysynthetic verb yields $b=10$, then $\Delta=11$ and the bound becomes $psn(G)\le 11$. Conversely, for binary parses ($b\le2$) we have $\Delta\le3$, and the bound collapses to $psn(G)\le4$. This linear sensitivity follows directly from the definition of $\Delta$ and the theorem in [5, §3].
 
 ### 10. Summary of new quantitative results  
 
@@ -257,8 +238,7 @@ These worked examples reinforce the theoretical claims of the paper, demonstrate
 - **Representation number**: The mapping to word‑representable split graphs inherits the unknown representation number, limiting combinatorial characterizations [4].  
 - **Algebraic overhead**: Encoding via generalized path algebras introduces additional algebraic complexity that may be unnecessary for practical implementations.
 
-### 7.2 Falsifiability
-If a parsed sentence yields three leaves $x,y,z$ such that  
+### 7.2 Falsifiability If a parsed sentence yields three leaves $x,y,z$ such that 
 
 \[
 d(x,z) > \max\{d(x,y),d(y,z)\},
@@ -294,8 +274,7 @@ Assuming $\Delta\le3$, the planar drawing can be realized with at most four edge
 **(f) Risks and misuse**  
 Deploying UNSG‑based retrieval without validating parser accuracy could lead to false positives in cross‑lingual search, especially for low‑resource languages where parsing errors are prevalent. Overreliance on the ultrametric assumption may obscure nuanced semantic differences not captured by hierarchical structure alone.
 
-## 9. Conclusion
-This paper introduced Ultrametric Nested Semantic Graphs as a mathematically rigorous, language‑neutral meaning representation. By defining distances via LCA height on the leaf set, the representation inherits the strong triangle inequality of ultrametrics, enabling efficient subgraph‑matching retrieval across typologically diverse languages. The analysis provided a concrete numeric illustration, a corrected planarity assessment, a qualified planar‑slope bound, exact combinatorial cost calculations, and connections to established graph‑theoretic and algebraic frameworks. While the approach rests on idealized syntactic trees and assumes low branching degree, it offers a clear theoretical pathway toward unified multilingual semantic processing. Future work will focus on empirical validation with parallel corpora, extensions to non‑tree syntactic phenomena, and exploitation of the algebraic encoding for algorithmic inference.
+## 9. Conclusion This paper introduced Ultrametric Nested Semantic Graphs as a mathematically rigorous, language‑neutral meaning representation. By defining distances via LCA height on the leaf set, the representation inherits the strong triangle inequality of ultrametrics, enabling efficient subgraph‑matching retrieval across typologically diverse languages. The analysis provided a concrete numeric illustration, a corrected planarity assessment, a qualified planar‑slope bound, exact combinatorial cost calculations, and connections to established graph‑theoretic and algebraic frameworks. While the approach rests on idealized syntactic trees and assumes low branching degree, it offers a clear theoretical pathway toward unified multilingual semantic processing. Future work will focus on empirical validation with parallel corpora, extensions to non‑tree syntactic phenomena, and exploitation of the algebraic encoding for algorithmic inference.
 
 ## Version History
 

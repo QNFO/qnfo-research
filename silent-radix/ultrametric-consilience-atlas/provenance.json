@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-consilience-atlas",
+  "paper": {
+    "path": "silent-radix/ultrametric-consilience-atlas/paper.md",
+    "title": "Ultrametric Consilience Atlas: Cross-Domain Applications of p-Adic Mathematical Structure",
+    "url": "https://papers.qnfo.org/papers/ultrametric-consilience-atlas"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-consilience-atlas"
+  },
+  "snapshots": [
+    {
+      "sha256": "a305f82f2641ff0105dbc84f56fdd5fe1bcc237694ebbfdb1a1ceb5fb1ab8f6b",
+      "bytes": 31885,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
