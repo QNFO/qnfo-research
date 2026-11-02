@@ -1,12 +1,5 @@
 # Adelic Synthesis: The Pattern-Particle Correspondence and the Complete Arithmetic Theory of Anyons
 
-**Author:** Rowan Brad Quni-Gudzinas | **Date:** 2026-07-05 | **Version:** 2.0.0
-**License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-**Project:** QLoF Extension — Program D: p-adic Anyons (Phase 4 — Adelic Synthesis)
-**Cross-References:** Phase 1 [DOI: 10.5281/zenodo.21208366] | Phase 2 [DOI: 10.5281/zenodo.21208368] | Phase 3 [DOI: 10.5281/zenodo.21208491] | Research Plan [DOI: 10.5281/zenodo.21208370]
-
----
-
 ## Abstract
 
 The prior three phases of this program constructed p-adic anyon theories at individual finite places: p-adic braid groups on Bruhat-Tits buildings (Phase 1), the Temperley-Lieb parameter as p-adic cyclotomic units with the p-adic Jones polynomial (Phase 2), and anyon fusion and braiding via restricted quantum groups at roots of unity over p-adic fields (Phase 3). Each phase treated a single non-archimedean place in isolation. This capstone paper constructs the **adelic synthesis**: the unified framework that treats an "anyon" as an adelic object — a single arithmetic pattern that manifests differently at each completion of $\mathbb{Q}$, with the familiar archimedean Fibonacci anyon being merely the $\infty$-place avatar of a richer adelic entity.
@@ -14,8 +7,6 @@ The prior three phases of this program constructed p-adic anyon theories at indi
 We construct the **adelic braid group** $\mathbb{B}_n(\mathbb{A})$ on the adele ring $\mathbb{A}$, the **adelic Temperley-Lieb algebra** $\mathbb{TL}(\mathbb{A})$, and the **adelic anyon fusion category** $\mathcal{F}(\mathbb{A})$, proving that all three are restricted products over all places of $\mathbb{Q}$ of their place-specific counterparts. The central result — termed the **Pattern-Particle Correspondence** — states that an anyon type is an adelic representation of $U_q(\mathfrak{sl}_2)$ evaluated at the cyclotomic place $q = \zeta_{p^k}$ for each $p$, together with the archimedean specialization $q = e^{i\pi/(k+2)}$. The adelic Verlinde algebra factorizes as a restricted tensor product: $\mathcal{V}(\mathbb{A}) \cong \bigotimes'_p \mathcal{V}(\mathbb{Q}_p) \otimes \mathcal{V}(\mathbb{R})$.
 
 Physical implications are profound: the adelic framework predicts that the "same" anyon type carries distinct observable signatures at different places — topological entanglement entropy, braid phases, and fusion multiplicities all acquire p-adic filtration structures absent from the purely archimedean theory. We propose the **Adelic Topological Quantum Computation (ATQC)** paradigm in which computational gates exploit place-crossing transitions (adelic Hecke operators) rather than continuous braiding, potentially eliminating the Solovay-Kitaev overhead entirely.
-
----
 
 ## 1. Introduction: From Places to the Adelic Whole
 
@@ -419,10 +410,6 @@ The road ahead leads to adelic Chern-Simons theory, the Langlands program, and �
 
 ---
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 1. Ostrowski, A. (1918). Über einige Lösungen der Funktionalgleichung $\varphi(x)\varphi(y)=\varphi(xy)$. *Acta Math*. [@Ostrowski1918]
@@ -442,10 +429,10 @@ The road ahead leads to adelic Chern-Simons theory, the Langlands program, and �
 15. Jimbo, M. (1985). A q-difference analogue of U(g) and the Yang-Baxter equation. *Lett. Math. Phys*. [@Jimbo1985]
 16. Bourbaki, N. (1968). *Groupes et algèbres de Lie*, Ch. 4-6. Hermann. [@Bourbaki1968]
 17. Abramenko, P. & Brown, K.S. (2008). *Buildings: Theory and Applications*. Springer. [@AbramenkoBrown2008]
-18. Quni-Gudzinas, R.B. (2026a). p-Adic Braid Groups on Bruhat-Tits Buildings. Zenodo. DOI: 10.5281/zenodo.21208366 [@QuniGudzinas2026a]
-19. Quni-Gudzinas, R.B. (2026b). The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial. Zenodo. DOI: 10.5281/zenodo.21208368 [@QuniGudzinas2026b]
-20. Quni-Gudzinas, R.B. (2026c). p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models. Zenodo. DOI: 10.5281/zenodo.21208491 [@QuniGudzinas2026c]
-21. Quni-Gudzinas, R.B. (2026d). Beyond the Archimedean Anyon — Research Plan. Zenodo. DOI: 10.5281/zenodo.21208370 [@QuniGudzinas2026d]
+18. Quni-Gudzinas, R.B. (2026a). p-Adic Braid Groups on Bruhat-Tits Buildings. the QNFO archive. https://papers.qnfo.org/papers [@QuniGudzinas2026a]
+19. Quni-Gudzinas, R.B. (2026b). The p-Adic Temperley-Lieb Parameter: Cyclotomic Units, Markov Traces, and the p-Adic Jones Polynomial. the QNFO archive. https://papers.qnfo.org/papers [@QuniGudzinas2026b]
+20. Quni-Gudzinas, R.B. (2026c). p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models. the QNFO archive. https://papers.qnfo.org/papers [@QuniGudzinas2026c]
+21. Quni-Gudzinas, R.B. (2026d). Beyond the Archimedean Anyon — Research Plan. the QNFO archive. https://papers.qnfo.org/papers [@QuniGudzinas2026d]
 22. Tate, J. (1967). Fourier analysis in number fields and Hecke's zeta-functions. In *Algebraic Number Theory* (Cassels & Fröhlich, eds.). [@Tate1967]
 23. Langlands, R.P. (1970). Problems in the theory of automorphic forms. *Lecture Notes in Math*. [@Langlands1970]
 24. Weil, A. (1967). *Basic Number Theory*. Springer. [@Weil1967]
@@ -453,4 +440,4 @@ The road ahead leads to adelic Chern-Simons theory, the Langlands program, and �
 
 ---
 
-*PADIC-ANYONS-PHASE4 v1.0 — Adelic Synthesis: The Pattern-Particle Correspondence. Unifies Phases 1-3 into the adelic framework. 9 sections, 25 references. Next: publication pipeline (PDF → Zenodo → Pages → R2 → KG).*
+*PADIC-ANYONS-PHASE4 v1.0 — Adelic Synthesis: The Pattern-Particle Correspondence. Unifies Phases 1-3 into the adelic framework. 9 sections, 25 references. Next: publication pipeline (PDF → the QNFO archive → Pages → R2 → KG).*

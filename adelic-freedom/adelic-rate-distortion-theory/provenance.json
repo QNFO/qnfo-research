@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-rate-distortion-theory",
+  "paper": {
+    "path": "adelic-freedom/adelic-rate-distortion-theory/paper.md",
+    "title": "Adelic Rate-Distortion Theory: The p-Adic Distortion Measure and the Adelic Information-Rate Function",
+    "url": "https://papers.qnfo.org/papers/adelic-rate-distortion-theory"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-rate-distortion-theory"
+  },
+  "snapshots": [
+    {
+      "sha256": "8c27c1b3de78b60517110af51d31a094fa1176f05b139e6946de873d1af2909d",
+      "bytes": 25481,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

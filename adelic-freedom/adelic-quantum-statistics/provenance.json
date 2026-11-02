@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-quantum-statistics",
+  "paper": {
+    "path": "adelic-freedom/adelic-quantum-statistics/paper.md",
+    "title": "Quantum Statistics from the Adelic Product Formula: The Squarefree Origin of the Fermi-Dirac/Bose-Einstein Distinction",
+    "url": "https://papers.qnfo.org/papers/adelic-quantum-statistics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-quantum-statistics"
+  },
+  "snapshots": [
+    {
+      "sha256": "6eda234345ec880cad6cb56e38da9e693fa1bbd8b1eaec87115b7b1218482c14",
+      "bytes": 27745,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
