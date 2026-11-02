@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "statistics-of-possibility",
+  "paper": {
+    "path": "papers/statistics-of-possibility/paper.md",
+    "title": "Statistics is the Bridge",
+    "url": "https://papers.qnfo.org/papers/statistics-of-possibility"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "statistics-of-possibility"
+  },
+  "snapshots": [
+    {
+      "sha256": "8dae8bab8340bc806666a06b1c9c19df9868768ceab6583a3dd4a6636284b4bd",
+      "bytes": 10366,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "structural-mediation-of-planckian-dissipation-in-strongly-correlated-electron-systems",
+  "paper": {
+    "path": "papers/structural-mediation-of-planckian-dissipation-in-strongly-correlated-electron-systems/paper.md",
+    "title": "Structural Mediation of Planckian Dissipation in Strongly Correlated Electron Systems",
+    "url": "https://papers.qnfo.org/papers/structural-mediation-of-planckian-dissipation-in-strongly-correlated-electron-systems"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "structural-mediation-of-planckian-dissipation-in-strongly-correlated-electron-systems"
+  },
+  "snapshots": [
+    {
+      "sha256": "3725af2971ae5ba9a3f8e496da036aeef24497f512061d964a621b9a50e2fc63",
+      "bytes": 99531,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
