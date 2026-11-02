@@ -4,8 +4,7 @@
 
 The adjective “natural” is invoked across quantitative sciences to suggest privileged status for units, conventions, or datasets.  This paper formalizes three explicit criteria for a measurement convention to be genuinely natural—ratio/relabeling invariance, additivity, and constant‑freedom—and audits the bit‑versus‑nat distinction against them. We compute $\ln 2 = 0.6931471806$, the conversion constant $\log_{2}e = 1.4426950$, the fair‑coin entropy ($1$ bit = $0.6931471806$ nats), the uniform‑three‑outcome entropy ($1.5849572$ bits = $1.0986086$ nats), the differential entropy of a unit‑variance Gaussian ($1.4189385$ nats = $2.0470955$ bits), and the scaling shift $\ln a$ for differential entropy under $Y=aX$. All derivations are shown step‑by‑step. Both units satisfy ratio invariance, additivity, and constant‑freedom, and they fail continuous rescaling invariance in identical form; no criterion discriminates them. Consequently, the claim that the nat is mathematically more natural than the bit is rhetorical. A bibliometric audit of eight works shows that “natural” appears in three independent senses—mathematical, sociolinguistic, and distributional—none of which satisfy the mathematical criteria. Credibility for quantitative measurement in the surveyed corpus rests on consensus standardization, repeatability, and reproducibility, not on naturalness of units. Falsification conditions and a minimal empirical test are presented.
 
-## 1. Introduction
-Engineers designing communication protocols, data‑compression algorithms, and machine‑learning pipelines must decide whether to express information quantities in bits or nats. The choice influences software libraries, hardware documentation, and interoperability standards; a mismatch can lead to conversion errors, increased implementation effort, and ambiguous specifications. Standards bodies and researchers therefore seek a principled justification for preferring one unit over the other. If a “genuinely natural” unit existed, adopting it would simplify design, reduce conversion overhead, and provide a universal convention for future systems.
+## 1. Introduction Engineers designing communication protocols, data‑compression algorithms, and machine‑learning pipelines must decide whether to express information quantities in bits or nats. The choice influences software libraries, hardware documentation, and interoperability standards; a mismatch can lead to conversion errors, increased implementation effort, and ambiguous specifications. Standards bodies and researchers therefore seek a principled justification for preferring one unit over the other. If a “genuinely natural” unit existed, adopting it would simplify design, reduce conversion overhead, and provide a universal convention for future systems.
 
 This paper audits the claim that the nat—derived from the natural logarithm—is such a genuinely natural unit. We ask whether the bit‑versus‑nat distinction satisfies explicit mathematical criteria that would make one unit objectively preferable. Our contributions are:
 
@@ -51,16 +50,14 @@ $$
 Q_{\text{bits}} = \frac{Q_{\text{nats}}}{\ln 2} = Q_{\text{nats}} \cdot \log_{2}e .
 $$
 
-### 3.2 Criteria for mathematical naturalness
-We evaluate a candidate unit against four explicit criteria:
+### 3.2 Criteria for mathematical naturalness We evaluate a candidate unit against four explicit criteria:
 
 * **C1 (Ratio/relabeling invariance).** For any two quantities $Q_1,Q_2$ measured under the convention, the ratio $Q_1/Q_2$ is independent of the chosen convention; for discrete systems the measure is unchanged under any bijective relabeling of outcomes; for continuous systems the measure is invariant under coordinate rescaling.
 * **C2 (Additivity).** For independent systems $X$ and $Y$, $I(X,Y)=I(X)+I(Y)$.
 * **C3 (Constant‑freedom).** The measure does not introduce an arbitrary constant that changes qualitative conclusions (e.g., sign, zero set) when the base changes.
 * **C4 (Discrimination).** The pair of candidate units differs on at least one of C1–C3.
 
-### 3.3 Cross‑sense and corpus audit
-For senses 2 and 3 of “natural,” we perform a qualitative audit: each entry’s load‑bearing property (per‑language grammatical diversity in [1], hard syntax of Java in [2], human labor cost in [3], temporal‑language mismatch in [4], transparency concerns in [5], repeatability in [7], intrinsic dimension $d_{\text{data}}$ in [8]) is extracted and examined for mathematical invariance. No quantitative computation is possible because the entries provide no numbers. We also compute a descriptive bibliometric count of the corpus (Section 4.7).
+### 3.3 Cross‑sense and corpus audit For senses 2 and 3 of “natural,” we perform a qualitative audit: each entry’s load‑bearing property (per‑language grammatical diversity in [1], hard syntax of Java in [2], human labor cost in [3], temporal‑language mismatch in [4], transparency concerns in [5], repeatability in [7], intrinsic dimension $d_{\text{data}}$ in [8]) is extracted and examined for mathematical invariance. No quantitative computation is possible because the entries provide no numbers. We also compute a descriptive bibliometric count of the corpus (Section 4.7).
 
 ## 4. Analysis
 
@@ -162,8 +159,7 @@ h_{e}(Y)= -\int_{0}^{a}\tfrac1a\ln\tfrac1a\,dy = -\ln\tfrac1a = \ln a .
 \]
 Hence $h_{e}(Y)=h_{e}(X)+\ln a$. In bits the shift is $\log_{2}a$. Differential entropy therefore lacks invariance under rescaling for both bases.
 
-### 4.4 Criterion C4 (discrimination)
-Table 4.4 summarizes the checks:
+### 4.4 Criterion C4 (discrimination) Table 4.4 summarizes the checks:
 
 | Criterion | Bit | Nat | Discriminates? |
 |---|---|---|---|
@@ -188,8 +184,7 @@ A message of $n=10^{6}$ fair‑coin flips carries
 H = n\ \text{bits}=10^{6}\ \text{bits}=10^{6}\times\ln 2 =6.931472\times10^{5}\ \text{nats}.
 \]
 
-### 4.6 Cross‑sense audit (qualitative)
-Entries [1]–[5], [7], [8] provide no quantitative data; their load‑bearing properties (per‑language grammatical diversity, hard syntax of Java, human labor cost, temporal‑language mismatch, transparency concerns, intrinsic dimension $d_{\text{data}}$, repeatability of QSM) are not invariant under any mathematical symmetry. Thus the sociolinguistic and distributional senses of “natural” do not satisfy the criteria of Section 3.2.
+### 4.6 Cross‑sense audit (qualitative) Entries [1]–[5], [7], [8] provide no quantitative data; their load‑bearing properties (per‑language grammatical diversity, hard syntax of Java, human labor cost, temporal‑language mismatch, transparency concerns, intrinsic dimension $d_{\text{data}}$, repeatability of QSM) are not invariant under any mathematical symmetry. Thus the sociolinguistic and distributional senses of “natural” do not satisfy the criteria of Section 3.2.
 
 ### 4.7 Corpus composition (descriptive bibliometric count)
 The bibliography contains $N_{\text{total}}=8$ entries:
@@ -250,8 +245,7 @@ The three shares sum to 100 %.
 
 **(f) Risks and misuse.** Misinterpretation of the result as rendering unit choice irrelevant for all engineering contexts could lead to neglect of domain‑specific conventions (e.g., bits in digital communication standards). Clear communication that the conclusion concerns only the mathematical invariance criteria, not practical ergonomics, mitigates this risk.
 
-## 8. Conclusion
-We audited the claim that the nat is a “genuinely natural” information measure using three explicit mathematical criteria: ratio invariance, additivity, and constant‑freedom. All arithmetic shows that bits and nats differ solely by the positive constant $c=\log_{2}e=1.4426950$; both satisfy discrete relabeling invariance and additivity, both fail continuous rescaling invariance in the same way, and no criterion discriminates them. Hence the naturalness claim that separates bits from nats is rhetorical rather than mathematical. The term “natural” in the surveyed corpus migrates across three independent senses—mathematical, sociolinguistic, and distributional—only the first admits a computational audit. Credibility for quantitative measurement in the corpus’s measurement‑focused entries rests on consensus standardization, repeatability, and reproducibility, not on naturalness of units. We provided explicit falsification conditions and outlined a minimal empirical test to de‑risk the conclusions.
+## 8. Conclusion We audited the claim that the nat is a “genuinely natural” information measure using three explicit mathematical criteria: ratio invariance, additivity, and constant‑freedom. All arithmetic shows that bits and nats differ solely by the positive constant $c=\log_{2}e=1.4426950$; both satisfy discrete relabeling invariance and additivity, both fail continuous rescaling invariance in the same way, and no criterion discriminates them. Hence the naturalness claim that separates bits from nats is rhetorical rather than mathematical. The term “natural” in the surveyed corpus migrates across three independent senses—mathematical, sociolinguistic, and distributional—only the first admits a computational audit. Credibility for quantitative measurement in the corpus’s measurement‑focused entries rests on consensus standardization, repeatability, and reproducibility, not on naturalness of units. We provided explicit falsification conditions and outlined a minimal empirical test to de‑risk the conclusions.
 
 ## Provenance and AI Involvement
 

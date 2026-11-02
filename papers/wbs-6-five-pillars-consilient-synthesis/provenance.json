@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "wbs-6-five-pillars-consilient-synthesis",
+  "paper": {
+    "path": "papers/wbs-6-five-pillars-consilient-synthesis/paper.md",
+    "title": "Five Pillars, One Structure: Consilient Convergence in QNFO Research",
+    "url": "https://papers.qnfo.org/papers/wbs-6-five-pillars-consilient-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "wbs-6-five-pillars-consilient-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "1ab74e6111c01f25154aefbf82821c09c4f616abfb1194a6973d0a7975e361e6",
+      "bytes": 25211,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

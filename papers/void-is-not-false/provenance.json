@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "void-is-not-false",
+  "paper": {
+    "path": "papers/void-is-not-false/paper.md",
+    "title": "The Void Is Not False: Recovering the Unmarked State in Logic from the Calculus of Indications",
+    "url": "https://papers.qnfo.org/papers/void-is-not-false"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "void-is-not-false"
+  },
+  "snapshots": [
+    {
+      "sha256": "4ceb369ad6b838e7ebb9abcc153725c53ae6f4a4c0cfefcd28f97ff0ca3e7c7f",
+      "bytes": 14538,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

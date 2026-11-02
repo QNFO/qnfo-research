@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "visual-graphs-vs-matrices-epistemic-design",
+  "paper": {
+    "path": "papers/visual-graphs-vs-matrices-epistemic-design/paper.md",
+    "title": "Visual Graphs vs Matrices: Epistemic Limits, Cognitive Preference, and the Design of Understandable Computation",
+    "url": "https://papers.qnfo.org/papers/visual-graphs-vs-matrices-epistemic-design"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "visual-graphs-vs-matrices-epistemic-design"
+  },
+  "snapshots": [
+    {
+      "sha256": "c4d997cfef4370aad0ad5e540893447d72dc25f8b981d634b76048fe1402051e",
+      "bytes": 19134,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

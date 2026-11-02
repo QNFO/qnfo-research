@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "wave-built-world",
+  "paper": {
+    "path": "papers/wave-built-world/paper.md",
+    "title": "Wave-Built World",
+    "url": "https://papers.qnfo.org/papers/wave-built-world"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "wave-built-world"
+  },
+  "snapshots": [
+    {
+      "sha256": "08779432fe9c7e079faaf8c972b33b69c374e8a497c3cfadc9ed14751ec12172",
+      "bytes": 119645,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
