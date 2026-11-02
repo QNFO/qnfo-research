@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "research-purpose-utility",
+  "paper": {
+    "path": "papers/research-purpose-utility/paper.md",
+    "title": "The Purpose Principle: Grounding Research in Reality, Utility, and Premise-Depth",
+    "url": "https://papers.qnfo.org/papers/research-purpose-utility"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "research-purpose-utility"
+  },
+  "snapshots": [
+    {
+      "sha256": "df9a94ba87667943b759afed8209068e05ac30fd3f222e5d88446a8dfc01f33b",
+      "bytes": 20157,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

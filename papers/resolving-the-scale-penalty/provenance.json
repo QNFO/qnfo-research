@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "resolving-the-scale-penalty",
+  "paper": {
+    "path": "papers/resolving-the-scale-penalty/paper.md",
+    "title": "RESOLVING THE SCALE PENALTY",
+    "url": "https://papers.qnfo.org/papers/resolving-the-scale-penalty"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "resolving-the-scale-penalty"
+  },
+  "snapshots": [
+    {
+      "sha256": "0193070f53ccd81f19b58215a85f325e21634ad86a5ddfce237e62ac17b824b2",
+      "bytes": 219719,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

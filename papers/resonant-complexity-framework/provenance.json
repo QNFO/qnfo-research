@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "resonant-complexity-framework",
+  "paper": {
+    "path": "papers/resonant-complexity-framework/paper.md",
+    "title": "Resonant Complexity Framework",
+    "url": "https://papers.qnfo.org/papers/resonant-complexity-framework"
+  },
+  "declared": {
+    "version": "1.2",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "resonant-complexity-framework"
+  },
+  "snapshots": [
+    {
+      "sha256": "6b6618507e584cd8e2f3259636432fe98a886c3a049087653d14841198d34dbc",
+      "bytes": 385069,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

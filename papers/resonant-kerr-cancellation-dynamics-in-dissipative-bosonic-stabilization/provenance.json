@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "resonant-kerr-cancellation-dynamics-in-dissipative-bosonic-stabilization",
+  "paper": {
+    "path": "papers/resonant-kerr-cancellation-dynamics-in-dissipative-bosonic-stabilization/paper.md",
+    "title": "Resonant Kerr-Cancellation Dynamics",
+    "url": "https://papers.qnfo.org/papers/resonant-kerr-cancellation-dynamics-in-dissipative-bosonic-stabilization"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "resonant-kerr-cancellation-dynamics-in-dissipative-bosonic-stabilization"
+  },
+  "snapshots": [
+    {
+      "sha256": "234e645b923975440fa1f7ae690ad1e095aa0ebd1c7837ab3e66dc4098f47259",
+      "bytes": 42188,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
