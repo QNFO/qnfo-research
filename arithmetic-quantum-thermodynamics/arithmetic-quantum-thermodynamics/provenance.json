@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "arithmetic-quantum-thermodynamics",
+  "paper": {
+    "path": "arithmetic-quantum-thermodynamics/arithmetic-quantum-thermodynamics/paper.md",
+    "title": "The Corrected Primon-Gas Dictionary: Zeta Partition Functions and the Discipline of Arithmetic Interpretations",
+    "url": "https://papers.qnfo.org/papers/arithmetic-quantum-thermodynamics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "arithmetic-quantum-thermodynamics"
+  },
+  "snapshots": [
+    {
+      "sha256": "d6ab3b427b2276c914e68fcd9d7f854877a6dd8a55f75682c0f25ae4a3d81bfe",
+      "bytes": 21461,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

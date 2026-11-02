@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "asymmetric-electron-transport-arising-from-intrinsic-structural-chirality",
+  "paper": {
+    "path": "papers/asymmetric-electron-transport-arising-from-intrinsic-structural-chirality/paper.md",
+    "title": "ASYMMETRIC ELECTRON TRANSPORT ARISING FROM INTRINSIC STRUCTURAL CHIRALITY",
+    "url": "https://papers.qnfo.org/papers/asymmetric-electron-transport-arising-from-intrinsic-structural-chirality"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "asymmetric-electron-transport-arising-from-intrinsic-structural-chirality"
+  },
+  "snapshots": [
+    {
+      "sha256": "4e69a35890675a7dc5b93d164900d5d720068fd2db671d30b68bbdaf11106d4a",
+      "bytes": 47879,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

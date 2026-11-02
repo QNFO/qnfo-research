@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "auditing-bqnn",
+  "paper": {
+    "path": "papers/auditing-bqnn/paper.md",
+    "title": "Auditing the BQNN: Does a Tunable Quantum Neural Network on Trapped-Ion and Superconducting Hardware Demonstrate a Route to Near-Term Quantum Advantage?",
+    "url": "https://papers.qnfo.org/papers/auditing-bqnn"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "auditing-bqnn"
+  },
+  "snapshots": [
+    {
+      "sha256": "fb30f6dd5d83e255c3d84b680716d18364ad5bc718d60deb6ec56016e67ecec3",
+      "bytes": 27493,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

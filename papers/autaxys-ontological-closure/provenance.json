@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "autaxys-ontological-closure",
+  "paper": {
+    "path": "papers/autaxys-ontological-closure/paper.md",
+    "title": "Autaxys Ontological Closure: When Is a Physical Quantity Computationally Real?",
+    "url": "https://papers.qnfo.org/papers/autaxys-ontological-closure"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "autaxys-ontological-closure"
+  },
+  "snapshots": [
+    {
+      "sha256": "65f8978e5cb309c207a4f75511872741d2b251eae14de0796fdbd0720893e2c3",
+      "bytes": 33659,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

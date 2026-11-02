@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "autaxys-and-its-generative-engine",
+  "paper": {
+    "path": "papers/autaxys-and-its-generative-engine/paper.md",
+    "title": "Autaxys and its Generative Engine",
+    "url": "https://papers.qnfo.org/papers/autaxys-and-its-generative-engine"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "autaxys-and-its-generative-engine"
+  },
+  "snapshots": [
+    {
+      "sha256": "a9bc93e933deb117348a7ae027938dba8a245b543f123403efc21773a472cdcd",
+      "bytes": 37431,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
