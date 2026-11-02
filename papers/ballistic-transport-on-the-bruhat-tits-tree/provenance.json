@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ballistic-transport-on-the-bruhat-tits-tree",
+  "paper": {
+    "path": "papers/ballistic-transport-on-the-bruhat-tits-tree/paper.md",
+    "title": "Bruhat-Tits Tree as a Unifying Geometric Object",
+    "url": "https://papers.qnfo.org/papers/ballistic-transport-on-the-bruhat-tits-tree"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ballistic-transport-on-the-bruhat-tits-tree"
+  },
+  "snapshots": [
+    {
+      "sha256": "3ec9d6e5e5154c98ae4c2792aa2616e7f1e50d8fc43c326fe47ad3662c7c392c",
+      "bytes": 86861,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

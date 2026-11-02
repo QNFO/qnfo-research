@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "autonomous-dissipative-quantum-processing",
+  "paper": {
+    "path": "papers/autonomous-dissipative-quantum-processing/paper.md",
+    "title": "Autonomous Dissipative Quantum Processing",
+    "url": "https://papers.qnfo.org/papers/autonomous-dissipative-quantum-processing"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "autonomous-dissipative-quantum-processing"
+  },
+  "snapshots": [
+    {
+      "sha256": "2a84e65997ba7ebf5a0812a5dac34e6f4e57ad099c60be4725d1217bf3667b72",
+      "bytes": 31920,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
