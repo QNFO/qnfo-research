@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "winding-number-as-hidden-variable",
+  "paper": {
+    "path": "papers/winding-number-as-hidden-variable/paper.md",
+    "title": "Winding Number as Hidden Variable",
+    "url": "https://papers.qnfo.org/papers/winding-number-as-hidden-variable"
+  },
+  "declared": {
+    "version": "1.0.2",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "winding-number-as-hidden-variable"
+  },
+  "snapshots": [
+    {
+      "sha256": "24319b439dfe6b524bfcd6a7c736dd8f018cb003f13e267eb81004807a4113e8",
+      "bytes": 33807,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
