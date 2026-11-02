@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "coherent-tunneling",
+  "paper": {
+    "path": "papers/coherent-tunneling/paper.md",
+    "title": "Coherent Tunneling",
+    "url": "https://papers.qnfo.org/papers/coherent-tunneling"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "coherent-tunneling"
+  },
+  "snapshots": [
+    {
+      "sha256": "131a4c2510a556b656893d9ac43f45f4b5cef07f4963c5c4461b1bdc988a2037",
+      "bytes": 130983,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

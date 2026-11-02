@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cmb-higher-n-point-functions",
+  "paper": {
+    "path": "papers/cmb-higher-n-point-functions/paper.md",
+    "title": "Searching for P-Adic Log-Periodic Signatures in the Cosmic Microwave Background Bispectrum: Upper Bounds from Planck 2018",
+    "url": "https://papers.qnfo.org/papers/cmb-higher-n-point-functions"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cmb-higher-n-point-functions"
+  },
+  "snapshots": [
+    {
+      "sha256": "8bb6b8744ba7615c9523de836d0026f74eda7a7c99a39f549db094cff65541c9",
+      "bytes": 18713,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

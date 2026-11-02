@@ -1,10 +1,10 @@
 # Cocycle Solving in Cognition: Ultrametric Reaction Times and Analogy Depth
 
 ## Abstract
+
 Cognitive consistency and analogical difficulty are pervasive challenges for psychologists, educators, and artificial‑intelligence designers. Existing Euclidean models cannot capture the hierarchical constraints that appear in belief networks and analogy spaces. We therefore propose a formalism in which the brain enforces a cocycle (flatness) condition on an associative graph, yielding a globally ultrametric semantic topology. From this topology we derive explicit reaction‑time (RT) predictions that grow linearly with the ultrametric depth of a stimulus, and we formalize “analogy depth’’ as the projective cross‑ratio of the four terms in an A : B :: C : D problem. Using the strong triangle inequality from ultrametric theory ([1]), the hierarchical processing view of thalamocortical loops ([2]), and the embodied complexity framework ([3]), we compute concrete RT values (e.g., a depth‑4 stimulus predicts 400 ms) and difficulty scores (e.g., a cross‑ratio of 9 predicts $\approx 220$ ms). These quantitative results are derived analytically without fitting to empirical data, establishing a testable bridge between topological constraint satisfaction and observable behavior. If validated, the model would reframe belief revision, cognitive dissonance, and analogy solving as instances of cocycle solving on an ultrametric tree, offering a hard geometric foundation for cognitive science and a design principle for hierarchical AI systems.
 
-## 1. Introduction
-Human learners, clinicians, and AI developers repeatedly encounter situations in which a set of beliefs or concepts must be reconciled into a globally consistent configuration. In education, students waste hours revising contradictory facts; in clinical settings, patients experience cognitive dissonance that impairs decision making; in AI, hierarchical language models struggle to maintain logical coherence across long contexts. The cost of these inconsistencies is measurable in lost learning efficiency, increased therapy duration, and degraded model performance. A theory that predicts when and how such inconsistencies resolve would enable designers to construct curricula, therapeutic protocols, and architectures that proactively maintain global consistency.
+## 1. Introduction Human learners, clinicians, and AI developers repeatedly encounter situations in which a set of beliefs or concepts must be reconciled into a globally consistent configuration. In education, students waste hours revising contradictory facts; in clinical settings, patients experience cognitive dissonance that impairs decision making; in AI, hierarchical language models struggle to maintain logical coherence across long contexts. The cost of these inconsistencies is measurable in lost learning efficiency, increased therapy duration, and degraded model performance. A theory that predicts when and how such inconsistencies resolve would enable designers to construct curricula, therapeutic protocols, and architectures that proactively maintain global consistency.
 
 We hypothesize that the brain maintains global consistency by solving a cocycle (flatness) condition on an associative graph of concepts. The cocycle condition forces the sum of signed “differences’’ around any closed loop to vanish, which mathematically imposes an ultrametric structure on the semantic space. In an ultrametric tree, the distance between two concepts is the height of their lowest common ancestor, and the strong triangle inequality guarantees that all triplets form isosceles triangles with the two longer sides equal. Consequently, reaction times (RTs) to semantic probes should increase with the depth of the lowest common ancestor, and the difficulty of an analogy A : B :: C : D should scale with the projective cross‑ratio of the four leaf nodes.
 
@@ -15,8 +15,7 @@ We hypothesize that the brain maintains global consistency by solving a cocycle 
 4. Numerical examples: depth‑4 stimulus predicts $RT=280\,$ms; cross‑ratio = 9 predicts $D\approx220\,$ms (Section 5).  
 5. Discussion of falsification criteria and practical pathways for psychologists and AI engineers (Sections 6–7).
 
-## 2. Background and Related Work
-The present work builds on a diverse set of ultrametric and hierarchical models.
+## 2. Background and Related Work The present work builds on a diverse set of ultrametric and hierarchical models.
 
 [1] establishes the defining strong triangle inequality $d(x,y)\le\max\{d(x,z),d(z,y)\}$ for ultrametrics, providing the mathematical foundation for the hierarchical distance metric we adopt.
 
@@ -119,8 +118,7 @@ D &= k\,\log(\mathrm{CR}) \\
 \]
 Rounded to the nearest millisecond, $D\approx220\,$ms.
 
-### 4.4 Sensitivity to Parameters
-The RT prediction is linear in $b$; a 10 % increase in $b$ raises $RT(4)$ by $8\,$ms. The analogy difficulty is logarithmically sensitive to $\mathrm{CR}$; doubling $\mathrm{CR}$ increases $D$ by $k\log(2)\approx69.3\,$ms.
+### 4.4 Sensitivity to Parameters The RT prediction is linear in $b$; a 10 % increase in $b$ raises $RT(4)$ by $8\,$ms. The analogy difficulty is logarithmically sensitive to $\mathrm{CR}$; doubling $\mathrm{CR}$ increases $D$ by $k\log(2)\approx69.3\,$ms.
 
 ## 5. Results
 - For a depth‑4 semantic pair, the model predicts a reaction time of **280 ms**.  
@@ -144,8 +142,7 @@ These results are direct consequences of the analytical derivations in Section�
 - **Non‑linear RT scaling**: Empirical RTs may show saturation at high depths, contradicting the linear model.  
 - **Cross‑ratio ambiguity**: Different embeddings of the same analogy could yield distinct $\mathrm{CR}$ values, undermining reproducibility.
 
-### 6.3 Falsification Criterion
-A single experiment that measures RTs for a set of semantic priming pairs spanning depths $L=1$ to $L=5$ and finds a statistically significant deviation from the linear relationship $RT = a + bL$ (e.g., curvature or plateau) would falsify the core RT prediction. Similarly, if difficulty ratings for analogies do not correlate with $\log(\mathrm{CR})$ across a diverse stimulus set, the analogy‑depth claim would be falsified.
+### 6.3 Falsification Criterion A single experiment that measures RTs for a set of semantic priming pairs spanning depths $L=1$ to $L=5$ and finds a statistically significant deviation from the linear relationship $RT = a + bL$ (e.g., curvature or plateau) would falsify the core RT prediction. Similarly, if difficulty ratings for analogies do not correlate with $\log(\mathrm{CR})$ across a diverse stimulus set, the analogy‑depth claim would be falsified.
 
 ### 6.4 Open Questions
 - How does the brain implement the cocycle condition at the neuronal level?  
@@ -158,25 +155,20 @@ A single experiment that measures RTs for a set of semantic priming pairs spanni
 - **Neuroscience researchers** may employ the cocycle framework to interpret hierarchical activation patterns observed in thalamocortical loops ([2]).  
 - **AI system architects** can embed an ultrametric tree in language models to enforce global consistency, potentially reducing hallucinations.
 
-### (b) Technology Readiness
-The present work is a purely analytical study that has not undergone peer review; it therefore resides at **Technology Readiness Level 2** (concept formulation).
+### (b) Technology Readiness The present work is a purely analytical study that has not undergone peer review; it therefore resides at **Technology Readiness Level 2** (concept formulation).
 
-### (c) Minimal Next Experiment
-A controlled semantic‑priming experiment measuring RTs for word pairs whose lowest common ancestor depths are $L\in\{1,2,3,4,5\}$ would directly test the linear RT prediction. The experiment would falsify the model if the regression slope differs significantly from the assumed $b=50\,$ms per level.
+### (c) Minimal Next Experiment A controlled semantic‑priming experiment measuring RTs for word pairs whose lowest common ancestor depths are $L\in\{1,2,3,4,5\}$ would directly test the linear RT prediction. The experiment would falsify the model if the regression slope differs significantly from the assumed $b=50\,$ms per level.
 
 ### (d) Engineering Constraints
 - **Depth labeling**: Accurate assignment of ultrametric depth to stimuli requires a validated hierarchical taxonomy of concepts.  
 - **Measurement precision**: RT recordings must have millisecond resolution to detect the predicted $50\,$ms per‑level increments.  
 - **Cross‑ratio computation**: Requires a consistent embedding of analogy items into the same ultrametric tree; otherwise $\mathrm{CR}$ values are incomparable.
 
-### (e) Projected Performance Bounds
-Assuming the parameter projections ($a=200\,$ms, $b=50\,$ms, $k=100\,$ms) hold, the model predicts that any semantic pair with depth $L\le6$ will yield RT $\le 500\,$ms, and any analogy with $\mathrm{CR}\le16$ will produce difficulty $D\le 277\,$ms. These bounds are derived directly from the arithmetic in Section 4.
+### (e) Projected Performance Bounds Assuming the parameter projections ($a=200\,$ms, $b=50\,$ms, $k=100\,$ms) hold, the model predicts that any semantic pair with depth $L\le6$ will yield RT $\le 500\,$ms, and any analogy with $\mathrm{CR}\le16$ will produce difficulty $D\le 277\,$ms. These bounds are derived directly from the arithmetic in Section 4.
 
-### (f) Risks and Misuse
-If designers over‑rely on the linear RT model without empirical validation, they may underestimate the cognitive load of deep hierarchical material, leading to curricula that are too dense. In AI, enforcing an ultrametric constraint without flexibility could suppress creative generation.
+### (f) Risks and Misuse If designers over‑rely on the linear RT model without empirical validation, they may underestimate the cognitive load of deep hierarchical material, leading to curricula that are too dense. In AI, enforcing an ultrametric constraint without flexibility could suppress creative generation.
 
-## 8. Conclusion
-We have introduced a cocycle‑solving framework that endows semantic representations with an ultrametric topology. From this topology we derived explicit, analytically tractable predictions for reaction times and analogy difficulty, demonstrated through concrete numerical examples. The model unifies disparate strands of ultrametric theory ([1]–[8]) with cognitive neuroscience observations of hierarchical processing ([2], [3]) and provides a clear set of falsifiable hypotheses. Future work should empirically test the depth‑RT relationship and explore neural implementations of the cocycle condition, thereby advancing a hard geometric foundation for cognition.
+## 8. Conclusion We have introduced a cocycle‑solving framework that endows semantic representations with an ultrametric topology. From this topology we derived explicit, analytically tractable predictions for reaction times and analogy difficulty, demonstrated through concrete numerical examples. The model unifies disparate strands of ultrametric theory ([1]–[8]) with cognitive neuroscience observations of hierarchical processing ([2], [3]) and provides a clear set of falsifiable hypotheses. Future work should empirically test the depth‑RT relationship and explore neural implementations of the cocycle condition, thereby advancing a hard geometric foundation for cognition.
 
 ## 9. Extended Literature Synthesis
 
