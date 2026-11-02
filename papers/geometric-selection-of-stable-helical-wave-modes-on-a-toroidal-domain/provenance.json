@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain",
+  "paper": {
+    "path": "papers/geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain/paper.md",
+    "title": "Geometric Selection of Stable Helical Wave Modes on a Toroidal Domain",
+    "url": "https://papers.qnfo.org/papers/geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-419/geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "01479dcdcf6b1fc41fa98507de0653cf3482f22ff0f12414edb35cb37fdf31ab"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "a6abe09d-1d45-4cb2-9501-e2ce3ad8b46a"
+    ],
+    "living_paper_slug": "geometric-selection-of-stable-helical-wave-modes-on-a-toroidal-domain"
+  },
+  "snapshots": [
+    {
+      "sha256": "f7476c773dcfdf991556da0c6bcb49cfa50a2c22433eebfa6c1cd51d1c526f02",
+      "bytes": 25600,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
