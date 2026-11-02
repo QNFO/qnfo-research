@@ -4,8 +4,7 @@
 
 Classical simulation of quantum circuits is increasingly organized as repeated‑run workloads—variational‑parameter sweeps, noisy multishot studies, and error‑correction cycles—so that the cost of a workload, not a single circuit, determines feasibility. Mixed‑state targets arise from noise channels, thermal ensembles, and decohered registers, yet most existing benchmarks address only pure‑state workloads and therefore underestimate difficulty. This paper fills the gap by defining a benchmark specification that (i) selects a family of mixed‑state anchors whose entanglement cost is exactly known via the additivity of entanglement of formation on two‑Bell‑state mixtures; (ii) computes those anchor costs with full arithmetic; and (iii) embeds the anchors in a three‑layer memory‑and‑energy cost model that scales the representation overhead as $R_n=2^{n}$ and projects energy consumption using a DRAM‑traffic coefficient and an orchestration factor [10]. The exact anchor values are $E_F=1.000000$, $0.811278$, and $0.468996$ ebits at mixing parameters $p=0.5$, $0.25$, and $0.9$, respectively, with zero sensitivity at $p=0.5$. For a 10‑qubit register the mixed‑state memory overhead is $1024\times$ (16 MiB vs 16 KiB) and the projected energy per $10^{4}$‑step workload is $33.554432$ J under the stated assumptions. By anchoring benchmark difficulty to provable information‑theoretic quantities, the specification enables future work on more complex mixed states to be measured against a rigorously defined baseline.
 
-## 1. Introduction
-Quantum‑algorithm developers, high‑performance‑computing (HPC) centers, and hardware vendors face a concrete obstacle: classical simulators must allocate memory and energy that grow dramatically when the target state is mixed rather than pure, but existing benchmark suites report only pure‑state costs. For a 10‑qubit simulation, a pure‑state vector requires $2^{10}=1024$ complex amplitudes ($\approx$ 16 KiB in double precision), whereas a full density matrix needs $4^{10}=1{,}048{,}576$ amplitudes ($\approx$ 16 MiB). The resulting factor‑1024 memory increase can dominate procurement budgets and dictate whether a workload fits on a given node. Moreover, mixed‑state workloads appear in variational quantum eigensolver (VQE) sweeps, noisy multishot studies, and quantum error‑correction (QEC) cycles, all of which are central to near‑term quantum‑software stacks. If a benchmark could quantify the *information‑theoretic* difficulty of such workloads, designers could decide whether to invest in larger memory systems, redesign algorithms to reduce mixedness, or adopt alternative simulation techniques.
+## 1. Introduction Quantum‑algorithm developers, high‑performance‑computing (HPC) centers, and hardware vendors face a concrete obstacle: classical simulators must allocate memory and energy that grow dramatically when the target state is mixed rather than pure, but existing benchmark suites report only pure‑state costs. For a 10‑qubit simulation, a pure‑state vector requires $2^{10}=1024$ complex amplitudes ($\approx$ 16 KiB in double precision), whereas a full density matrix needs $4^{10}=1{,}048{,}576$ amplitudes ($\approx$ 16 MiB). The resulting factor‑1024 memory increase can dominate procurement budgets and dictate whether a workload fits on a given node. Moreover, mixed‑state workloads appear in variational quantum eigensolver (VQE) sweeps, noisy multishot studies, and quantum error‑correction (QEC) cycles, all of which are central to near‑term quantum‑software stacks. If a benchmark could quantify the *information‑theoretic* difficulty of such workloads, designers could decide whether to invest in larger memory systems, redesign algorithms to reduce mixedness, or adopt alternative simulation techniques.
 
 The “so what?” is that without a rigorously anchored mixed‑state benchmark, performance claims remain incomparable and hardware procurement decisions are based on optimistic pure‑state estimates. By providing exact entanglement‑cost anchors and a transparent scaling model, this work enables stakeholders to (i) compare simulators on a common difficulty scale, (ii) forecast memory and energy budgets for realistic mixed‑state workloads, and (iii) plan incremental improvements that are provably beneficial.
 
@@ -16,8 +15,7 @@ The “so what?” is that without a rigorously anchored mixed‑state benchmark
 4. Specification of a workload‑level benchmark that combines anchor costs, representation overhead, and three‑layer energy budgeting (Section 3).
 5. Practical pathway for experimental validation and assessment of the benchmark’s assumptions (Section 7).
 
-## 2. Background and Related Work
-The benchmark design draws on structural analogies, methodological precedents, and quantitative insights from the supplied bibliography.
+## 2. Background and Related Work The benchmark design draws on structural analogies, methodological precedents, and quantitative insights from the supplied bibliography.
 
 * **[1]** proves that the elasticity Hilbert complex with mixed boundary conditions is closed and compact on bounded strong Lipschitz domains, using abstract functional‑analytic arguments and regular decompositions. This structural analogy motivates a benchmark that must handle “mixed conditions’’—partially coherent, partially decohered registers—before quantitative estimates are introduced.
 * **[2]** proposes an estimation‑aware optimal‑control method for mobile‑sensor target tracking, emphasizing that planning must account for uncertainty in the estimated target state. We adopt this design principle by requiring the benchmark to incorporate the uncertainty (mixedness) of the simulated quantum state.
@@ -32,8 +30,7 @@ The benchmark design draws on structural analogies, methodological precedents, a
 
 ## 3. Methods
 
-### 3.1 Design goals
-The benchmark specification consists of three components:
+### 3.1 Design goals The benchmark specification consists of three components:
 
 1. **Anchor states.** A parametric family $\rho_{p}$ of two‑qubit mixed states whose entanglement cost $E_{C}(\rho_{p})$ is exactly known by the additivity results of [5].
 2. **Workload wrapper.** A repeated‑run workload that sweeps the mixing parameter $p$ (analogous to a VQE parameter sweep) and repeats a fixed $p$ for $S$ shots (analogous to noisy multishot studies), following the workload‑level framing of [9].
@@ -57,8 +54,7 @@ R_{n}=\frac{4^{n}}{2^{n}}=2^{n}.
 $$
 This ratio constitutes the *representation‑overhead* layer. The composite difficulty score for a workload is defined in Section 4.4.
 
-## 4. Analysis
-All input numbers are either definitions, standard constants, or values taken from cited sources. Every arithmetic step is shown.
+## 4. Analysis All input numbers are either definitions, standard constants, or values taken from cited sources. Every arithmetic step is shown.
 
 ### 4.1 Entanglement of formation of $\rho_{p}$
 
@@ -150,8 +146,7 @@ E_{\text{workload}}=S\times E_{\text{step}}=10^{4}\times3.3554432\times10^{-3}=3
 $$
 Both numbers are explicit projections under the stated coefficients.
 
-## 5. Results
-All values are either computed in Section 4 or labeled as projections with stated assumptions.
+## 5. Results All values are either computed in Section 4 or labeled as projections with stated assumptions.
 
 | $p$ | $E_{F}(\rho_{p})$ (ebits) |
 |-----|---------------------------|
@@ -211,8 +206,7 @@ Assuming the DRAM coefficient and orchestration factor above, a $10^{4}$‑step 
 **(f) Risks and misuse.**
 If the benchmark is applied to simulators that do not store full density matrices, the memory‑overhead layer would overestimate resource needs, potentially discouraging the adoption of efficient approximate methods. Conversely, using the benchmark to justify hardware purchases without validating the underlying DRAM energy coefficient could lead to over‑provisioned systems.
 
-## 8. Conclusion
-We have defined a mixed‑state benchmark that anchors simulation difficulty to exactly computable entanglement‑cost quantities, derived explicit memory‑overhead and energy‑projection formulas, and provided concrete numerical values for representative workloads. The specification offers a reproducible baseline for future extensions to richer mixed‑state families and for empirical validation of scaling assumptions. By exposing the exponential memory penalty and the linear energy scaling under explicit three‑layer assumptions, the benchmark equips developers and architects with quantitative guidance for designing and evaluating mixed‑state quantum‑simulation pipelines.
+## 8. Conclusion We have defined a mixed‑state benchmark that anchors simulation difficulty to exactly computable entanglement‑cost quantities, derived explicit memory‑overhead and energy‑projection formulas, and provided concrete numerical values for representative workloads. The specification offers a reproducible baseline for future extensions to richer mixed‑state families and for empirical validation of scaling assumptions. By exposing the exponential memory penalty and the linear energy scaling under explicit three‑layer assumptions, the benchmark equips developers and architects with quantitative guidance for designing and evaluating mixed‑state quantum‑simulation pipelines.
 
 ## Provenance and AI Involvement
 
