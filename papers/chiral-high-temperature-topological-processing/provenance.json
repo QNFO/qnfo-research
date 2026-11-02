@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "chiral-high-temperature-topological-processing",
+  "paper": {
+    "path": "papers/chiral-high-temperature-topological-processing/paper.md",
+    "title": "Chiral High-Temperature Topological Processing",
+    "url": "https://papers.qnfo.org/papers/chiral-high-temperature-topological-processing"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "chiral-high-temperature-topological-processing"
+  },
+  "snapshots": [
+    {
+      "sha256": "c0819b28a14d8c79848c598da3fd946e324a29998ff026ab14d610aa98acb2a1",
+      "bytes": 13014,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

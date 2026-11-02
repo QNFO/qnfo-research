@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "chapter-4",
+  "paper": {
+    "path": "papers/chapter-4/paper.md",
+    "title": "Part II: Historical Perspectives on Information States",
+    "url": "https://papers.qnfo.org/papers/chapter-4"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "chapter-4"
+  },
+  "snapshots": [
+    {
+      "sha256": "ee5f749a6a17c2bdb9139a78e0a5a8e1ac8da348f452a997efbd21d3c7a5865a",
+      "bytes": 18322,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
