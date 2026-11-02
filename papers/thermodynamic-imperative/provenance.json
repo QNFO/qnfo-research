@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-imperative",
+  "paper": {
+    "path": "papers/thermodynamic-imperative/paper.md",
+    "title": "Thermodynamic Imperative",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-imperative"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-imperative"
+  },
+  "snapshots": [
+    {
+      "sha256": "9bde5e720f86f59d1d8491f7f30ce96cafc1a0252ca2800d62338edcca4c8cb9",
+      "bytes": 48062,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-stability-of-a-filamentary-vacuum",
+  "paper": {
+    "path": "papers/thermodynamic-stability-of-a-filamentary-vacuum/paper.md",
+    "title": "THERMODYNAMIC STABILITY OF A FILAMENTARY VACUUM",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-stability-of-a-filamentary-vacuum"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-stability-of-a-filamentary-vacuum"
+  },
+  "snapshots": [
+    {
+      "sha256": "0f3592e2d0d602d5badef35ab2d143b0a2d54e96d0e0a78c9c2941ecf5e95682",
+      "bytes": 48979,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

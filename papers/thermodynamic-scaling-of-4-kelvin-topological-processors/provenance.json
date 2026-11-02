@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-scaling-of-4-kelvin-topological-processors",
+  "paper": {
+    "path": "papers/thermodynamic-scaling-of-4-kelvin-topological-processors/paper.md",
+    "title": "Thermodynamic Scaling of 4-Kelvin Topological Processors",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-scaling-of-4-kelvin-topological-processors"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-scaling-of-4-kelvin-topological-processors"
+  },
+  "snapshots": [
+    {
+      "sha256": "c8b5b2f142321c48136b9171ba5a87a9d7a0321afa382e333bdfe78a2faa79aa",
+      "bytes": 140652,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
