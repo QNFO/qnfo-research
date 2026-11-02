@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-speed-of-light-as-the-tracing-capacity-of-a-distributed-estimation-vacuum-ca",
+  "paper": {
+    "path": "papers/the-speed-of-light-as-the-tracing-capacity-of-a-distributed-estimation-vacuum-ca/paper.md",
+    "title": "The Speed of Light as the Tracing Capacity of a Distributed-Estimation Vacuum: Causal Bandwidth, Stability Thresholds, and Divergence Times",
+    "url": "https://papers.qnfo.org/papers/the-speed-of-light-as-the-tracing-capacity-of-a-distributed-estimation-vacuum-ca"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-424/the-speed-of-light-as-the-tracing-capacity-of-a-distributed-estimation-vacuum-ca",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "c53bef517c0ecd9761414a1833f9a33221c027322b6b23fa66ef567cf541d0a8"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "ef301542-aaa5-4556-9c6d-4d0a16ff790b"
+    ],
+    "living_paper_slug": "the-speed-of-light-as-the-tracing-capacity-of-a-distributed-estimation-vacuum-ca"
+  },
+  "snapshots": [
+    {
+      "sha256": "f8aa6bb7e792bd202ff3c2e8bc8de12bd327ae422f4349b2d5fa0ad33dbe6acb",
+      "bytes": 43546,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

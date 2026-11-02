@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "ef301542-aaa5-4556-9c6d-4d0a16ff790b",
+    "slug": "the-speed-of-light-as-the-tracing-capacity-of-a-distributed-estimation-vacuum-ca",
+    "cycle": "cycle-424",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.2",
+    "finished_at": "2026-11-02T19:11:17.435Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "f8aa6bb7e792bd202ff3c2e8bc8de12bd327ae422f4349b2d5fa0ad33dbe6acb",
+    "bytes": 43546,
+    "path": "papers/the-speed-of-light-as-the-tracing-capacity-of-a-distributed-estimation-vacuum-ca/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "0dd11d20eea7088292d9ba0236257f21bbde1f8a312ddc1c68ff4465f51a6e1c",
+      "bytes": 48238,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "f8aa6bb7e792bd202ff3c2e8bc8de12bd327ae422f4349b2d5fa0ad33dbe6acb",
+      "bytes": 43546,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "4152591ab7b33344c7f1a2d7db3cacb7f2d6a3d86aa3729519ecaf436575de96",
+      "bytes": 5828,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "9caca5c83f7c45614733a8a6641970fad4ddf257adf740c4a84b8fbe5b50f345",
+      "bytes": 3090,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "8d4f866b6e83e04fda8ba2b4c83f9f98855b586e3eac04860cf153dba3497112",
+      "bytes": 16405,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "e5866b47dec3e1bf6082ac9a3cd14c25f0567bfff661f5cdf7694a889e956c4e",
+      "bytes": 7973,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "1e6538f35206ea0dd93ed1d32f054566fe47e3b84a40f3fc34395c52528a5219",
+      "bytes": 22841,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "7a2b2531b621ce9fa42c2edc1f33ba447a873471f2babe4e9bd3f3642364359a",
+      "bytes": 16399,
+      "role": "draft"
+    }
+  }
+}
