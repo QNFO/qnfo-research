@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "x3.3-bosonic-codes-native-encoding",
+  "paper": {
+    "path": "papers/x3.3-bosonic-codes-native-encoding/paper.md",
+    "title": "Bosonic Codes as the Native Encoding: Resource-Commensurable Comparison of Cat, GKP, Binomial, and Surface Codes",
+    "url": "https://papers.qnfo.org/papers/x3.3-bosonic-codes-native-encoding"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "x3.3-bosonic-codes-native-encoding"
+  },
+  "snapshots": [
+    {
+      "sha256": "5d0a106d79010f8ce3410b027f74e7773d2ddcc4cd98d9a85d0299a073a1fd8d",
+      "bytes": 35128,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

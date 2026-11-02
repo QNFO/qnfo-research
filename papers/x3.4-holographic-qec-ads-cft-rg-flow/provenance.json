@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "x3.4-holographic-qec-ads-cft-rg-flow",
+  "paper": {
+    "path": "papers/x3.4-holographic-qec-ads-cft-rg-flow/paper.md",
+    "title": "Holographic QEC as AdS/CFT RG Flow on Bruhat–Tits Trees",
+    "url": "https://papers.qnfo.org/papers/x3.4-holographic-qec-ads-cft-rg-flow"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "x3.4-holographic-qec-ads-cft-rg-flow"
+  },
+  "snapshots": [
+    {
+      "sha256": "f0806c9afae3677b6f4cde9eb240fa1527b969c955af4411f28822c7a2a10875",
+      "bytes": 27300,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-adelic-observable",
+  "paper": {
+    "path": "adelic-freedom/zbw-adelic-observable/paper.md",
+    "title": "Zitterbewegung: From Archimedean Puzzle to Adelic Observable",
+    "url": "https://papers.qnfo.org/papers/zbw-adelic-observable"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-adelic-observable"
+  },
+  "snapshots": [
+    {
+      "sha256": "6bead40d02cddaf029192e7023018fd8d7c400695ce2d8f4e78289a05b4ef361",
+      "bytes": 24007,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

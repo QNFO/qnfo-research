@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-majorana-tqc-p1-zbw-padic-observable",
+  "paper": {
+    "path": "papers/zbw-majorana-tqc-p1-zbw-padic-observable/paper.md",
+    "title": "Zitterbewegung as a p-Adic Observable: Ultrametric Readout and Intrinsic Topological Protection",
+    "url": "https://papers.qnfo.org/papers/zbw-majorana-tqc-p1-zbw-padic-observable"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-majorana-tqc-p1-zbw-padic-observable"
+  },
+  "snapshots": [
+    {
+      "sha256": "fc35ef33d1ef48d811d892b57ab3168abf5a58b4be6ca576a61d7f83bf8adfa5",
+      "bytes": 32408,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

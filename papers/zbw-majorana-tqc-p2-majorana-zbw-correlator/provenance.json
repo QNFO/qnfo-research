@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-majorana-tqc-p2-majorana-zbw-correlator",
+  "paper": {
+    "path": "papers/zbw-majorana-tqc-p2-majorana-zbw-correlator/paper.md",
+    "title": "Majorana Zitterbewegung Current Correlator: Vanishing ZBW Signal as a Z2 Topological Invariant",
+    "url": "https://papers.qnfo.org/papers/zbw-majorana-tqc-p2-majorana-zbw-correlator"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-majorana-tqc-p2-majorana-zbw-correlator"
+  },
+  "snapshots": [
+    {
+      "sha256": "d7d80905588cb73f5c00c6dd249eabd6e918c98cb1a14b23841137dee6a5872c",
+      "bytes": 14513,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
