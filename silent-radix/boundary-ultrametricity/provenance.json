@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "boundary-ultrametricity",
+  "paper": {
+    "path": "silent-radix/boundary-ultrametricity/paper.md",
+    "title": "Boundary Ultrametricity: The Tree vs. ∂∞𝒯 Distinction, Applied to the ZBW Transition Graph",
+    "url": "https://papers.qnfo.org/papers/boundary-ultrametricity"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "boundary-ultrametricity"
+  },
+  "snapshots": [
+    {
+      "sha256": "f77450f5b083577df724add2b779fe70e6b7db5fe9d591a1a171807e9e7876f7",
+      "bytes": 12789,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

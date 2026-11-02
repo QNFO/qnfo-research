@@ -1,10 +1,10 @@
-# Born Rule as Haar Measure on $p$‑Adic Tree Balls: A Structural Derivation and Its Implications for Quantum Statistics
+# Born Rule as Haar Measure on $p$‑Adic Tree Balls: A Structural Derivation and Its Implications for Quantum Statistics
 
 ## Abstract
+
 Quantum theory postulates the Born rule without a deeper structural justification, and Bell‑type correlations are usually interpreted as non‑local. This gap hinders deterministic reconstructions of quantum mechanics and inflates the engineering overhead of quantum‑information technologies that must treat randomness as a primitive. We model the static ultrametric Bruhat–Tits tree of $p$‑adic balls as a branching sample space and derive quantum probabilities from the Haar (topological) measure of these balls. Using the $p$‑adic norm $|x|_{p}=p^{-r}$, the definition of closed balls $B_{r}(a)=\{x\in\mathbb{Q}_{p}\mid|x-a|_{p}\le p^{r}\}$, and the identification of the ball hierarchy with the tree, we prove that a ball at depth $k$ carries measure $p^{-k}$. For $p=2$, depth 1 yields measure $0.5$, reproducing the Born probability of a balanced qubit; for $p=3$, depth 1 yields $1/3$, reproducing the Born probability of an equal‑amplitude three‑outcome interferometer. A deterministic shared‑ancestor model on the same tree yields CHSH correlations that can be analyzed, but it does not attain the maximal quantum value $2\sqrt{2}$; achieving that remains an open question. The result changes practice by providing a geometry‑based foundation for the Born rule, enabling deterministic design of quantum‑information protocols and offering a concrete superdeterministic alternative to non‑local explanations.
 
-## 1. Introduction
-Current quantum‑technology platforms—quantum computers, quantum‑secure communication links, and high‑precision metrology—rely on the Born rule to predict measurement outcomes. The rule is taken as an axiom; its lack of derivation inflates the conceptual cost of scaling quantum devices because engineers must assume an unexplained probabilistic layer that cannot be optimized or verified beyond statistical sampling. If quantum probabilities could be derived from a static geometric structure, then the design of error‑correction codes, measurement protocols, and device certification could be grounded in deterministic mathematics rather than empirical post‑selection.
+## 1. Introduction Current quantum‑technology platforms—quantum computers, quantum‑secure communication links, and high‑precision metrology—rely on the Born rule to predict measurement outcomes. The rule is taken as an axiom; its lack of derivation inflates the conceptual cost of scaling quantum devices because engineers must assume an unexplained probabilistic layer that cannot be optimized or verified beyond statistical sampling. If quantum probabilities could be derived from a static geometric structure, then the design of error‑correction codes, measurement protocols, and device certification could be grounded in deterministic mathematics rather than empirical post‑selection.
 
 The concrete problem is therefore: **How can the Born rule be obtained from a well‑defined mathematical object that also yields the observed Bell‑type correlations without invoking non‑locality?** The answer would enable a redesign of quantum‑information theory where probabilities are emergent, not fundamental, potentially reducing the overhead of randomness extraction and simplifying the interpretation of experimental violations of the CHSH inequality.
 
@@ -14,8 +14,7 @@ The concrete problem is therefore: **How can the Born rule be obtained from a we
 - **C3.** Presentation of a deterministic shared‑ancestor correlation model; its CHSH performance is analyzed but does not reach the maximal quantum bound (Section 7).  
 - **C4.** Specification of an engineering pathway: TRL 2 analytical result, minimal three‑path interferometer experiment, and identification of implementation constraints (Section 8).
 
-## 2. Background and Related Work
-Non‑Archimedean probability models have been explored in $p$‑adic quantum mechanics. The introduction of [1] emphasizes that probabilities valued in $\mathbb{Q}_{p}$ satisfy the strong triangle inequality $|x+y|_{p}\le\max\{|x|_{p},|y|_{p}\}$, providing the ultrametric foundation for $p$‑adic measures. Section 2.1 of [1] defines the $p$‑adic norm $|x|_{p}=p^{-r}$ for $x=p^{r}\frac{n}{m}$, which we use to assign a size to each ball.
+## 2. Background and Related Work Non‑Archimedean probability models have been explored in $p$‑adic quantum mechanics. The introduction of [1] emphasizes that probabilities valued in $\mathbb{Q}_{p}$ satisfy the strong triangle inequality $|x+y|_{p}\le\max\{|x|_{p},|y|_{p}\}$, providing the ultrametric foundation for $p$‑adic measures. Section 2.1 of [1] defines the $p$‑adic norm $|x|_{p}=p^{-r}$ for $x=p^{r}\frac{n}{m}$, which we use to assign a size to each ball.
 
 The topology of $\mathbb{Q}_{p}$ is described in [2]. Its § 2.2 introduces the closed ball $B_{r}(a)=\{x\in\mathbb{Q}_{p}\mid|x-a|_{p}\le p^{r}\}$ and notes that any two balls are either disjoint or nested, a property that underlies the tree structure. The same section states that the space is totally disconnected, ensuring that each ball can be treated as an isolated outcome in a probability space.
 
@@ -31,8 +30,7 @@ Phase‑transition analysis of the $p$‑adic Potts model on a Cayley tree shows
 
  
 
-## 3. Methods
-We model the sample space as the infinite rooted $p$‑adic tree $\Gamma$ of order $p$, where each vertex has $p$ children. Each vertex corresponds to a closed ball $B_{-n}(a)$ of radius $p^{-n}$ centered at a $p$‑adic point $a$. The Haar measure $\mu$ on the compact additive group $\mathbb{Z}_{p}$ is the unique translation‑invariant probability measure satisfying $\mu(\mathbb{Z}_{p})=1$.
+## 3. Methods We model the sample space as the infinite rooted $p$‑adic tree $\Gamma$ of order $p$, where each vertex has $p$ children. Each vertex corresponds to a closed ball $B_{-n}(a)$ of radius $p^{-n}$ centered at a $p$‑adic point $a$. The Haar measure $\mu$ on the compact additive group $\mathbb{Z}_{p}$ is the unique translation‑invariant probability measure satisfying $\mu(\mathbb{Z}_{p})=1$.
 
 The construction proceeds as follows:
 
@@ -229,8 +227,7 @@ A single observation that would falsify the main result is an empirical probabil
 - How can complex phases and interference patterns be incorporated into the ultrametric framework?
 - Is there a dynamical principle that selects the appropriate prime $p$ for a given experimental context?
 
-## 8. Practical Implications and Engineering Pathways
-**(a) Intended users and design impact.** The primary users are quantum‑information theorists and engineers designing error‑correction and measurement‑certification protocols. If probabilities are understood as Haar measures, deterministic tree‑based generators can replace stochastic sampling modules, potentially reducing randomness‑generation overhead and simplifying calibration.
+## 8. Practical Implications and Engineering Pathways **(a) Intended users and design impact.** The primary users are quantum‑information theorists and engineers designing error‑correction and measurement‑certification protocols. If probabilities are understood as Haar measures, deterministic tree‑based generators can replace stochastic sampling modules, potentially reducing randomness‑generation overhead and simplifying calibration.
 
 **(b) Technology readiness.** The work is a purely analytical derivation that has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept formulation).
 
@@ -253,8 +250,7 @@ This sets the target precision for a falsification test.
 
 **(f) Risks and misuse.** Over‑interpreting the deterministic model as a proof that quantum randomness is illusory could lead to premature claims about eliminating randomness in cryptographic protocols. The model must be applied only within its domain (static ultrametric geometry) and not extrapolated to all quantum phenomena without further validation.
 
-## 9. Conclusion
-We have shown that the Haar (topological) measure on $p$‑adic balls of the Bruhat–Tits tree yields probabilities of the form $p^{-k}$, which directly reproduce the Born rule for quantum states whose squared amplitudes are rational powers of a chosen prime $p$. Explicit arithmetic derivations demonstrate that for $p=2$ a binary measurement yields probability $1/2$, and for $p=3$ a three‑outcome equal‑amplitude interferometer yields probability $1/3$. A deterministic shared‑ancestor correlation model on the same tree yields CHSH correlations that do not reach the maximal quantum value $2\sqrt{2}$, offering a superdeterministic perspective that remains to be fully developed. The framework is currently at TRL 2; the proposed three‑path interferometer experiment provides a concrete falsification test. Validation would reinterpret the wavefunction as an epistemic bookkeeping device and open avenues for deterministic quantum‑information engineering based on ultrametric geometry.
+## 9. Conclusion We have shown that the Haar (topological) measure on $p$‑adic balls of the Bruhat–Tits tree yields probabilities of the form $p^{-k}$, which directly reproduce the Born rule for quantum states whose squared amplitudes are rational powers of a chosen prime $p$. Explicit arithmetic derivations demonstrate that for $p=2$ a binary measurement yields probability $1/2$, and for $p=3$ a three‑outcome equal‑amplitude interferometer yields probability $1/3$. A deterministic shared‑ancestor correlation model on the same tree yields CHSH correlations that do not reach the maximal quantum value $2\sqrt{2}$, offering a superdeterministic perspective that remains to be fully developed. The framework is currently at TRL 2; the proposed three‑path interferometer experiment provides a concrete falsification test. Validation would reinterpret the wavefunction as an epistemic bookkeeping device and open avenues for deterministic quantum‑information engineering based on ultrametric geometry.
 
 ## Version History
 
