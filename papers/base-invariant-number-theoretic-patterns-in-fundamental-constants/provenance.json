@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "base-invariant-number-theoretic-patterns-in-fundamental-constants",
+  "paper": {
+    "path": "papers/base-invariant-number-theoretic-patterns-in-fundamental-constants/paper.md",
+    "title": "Base-Invariant Number-Theoretic Patterns in Fundamental Constants",
+    "url": "https://papers.qnfo.org/papers/base-invariant-number-theoretic-patterns-in-fundamental-constants"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "base-invariant-number-theoretic-patterns-in-fundamental-constants"
+  },
+  "snapshots": [
+    {
+      "sha256": "4eece196f7efddf2c9ff4840d6f3bd223693e320c998c32ec7c72d8f44328282",
+      "bytes": 47807,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "biological-and-engineered-computational-systems",
+  "paper": {
+    "path": "papers/biological-and-engineered-computational-systems/paper.md",
+    "title": "Biological and Engineered Computational Systems",
+    "url": "https://papers.qnfo.org/papers/biological-and-engineered-computational-systems"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "biological-and-engineered-computational-systems"
+  },
+  "snapshots": [
+    {
+      "sha256": "89fbefdfdedde8157ca5b8acf547a696af3ff56752a5d1f027030550d0c6edb0",
+      "bytes": 62789,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
