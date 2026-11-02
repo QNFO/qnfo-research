@@ -1,10 +1,10 @@
 # Cascading Bayesian Dependency Model of Scientific Paradigm Transitions
 
 ## Abstract
+
 Scientific and technological progress often proceeds through a sequence of paradigm shifts, yet early‑stage bottlenecks can disproportionately suppress the expected value of later breakthroughs. Existing analyses treat each transition as independent, ignoring the multiplicative propagation of uncertainty. This work formalises paradigm shifts as a Markov‑Bayesian cascade in which the conditional probability $P(\text{Era}_n\mid\text{Era}_{n-1})$ governs the evolution of scientific states. We construct a Bayesian network, derive closed‑form expressions for cumulative expected value (EV), and perform an explicit arithmetic analysis using empirical results from Bayesian vine‑copula model selection [3]. The analysis yields a cumulative improvement factor of $0.692$ and a success proportion of $70.25\%$ across the three informative benchmark scenarios. These numbers demonstrate that early‑stage pessimistic branches can dominate the cascade, indicating a choke-node effect under the stated projection assumptions. We further develop a sensitivity‑factorisation theorem that identifies early eras whose transition probabilities dominate total sensitivity. The result suggests that targeted mitigation of early bottlenecks could raise the overall EV of future paradigms, reshaping research policy and funding allocation.
 
-## 1. Introduction
-The development of fault‑tolerant quantum computers faces material‑science bottlenecks that delay the realisation of topological qubits.  If the cumulative expected value (EV) of downstream quantum‑algorithm breakthroughs could be restored, governments and firms could schedule large‑scale deployment earlier than currently projected. Current decision‑making treats each technological stage—materials, device fabrication, algorithm design—as independent, thereby overlooking the multiplicative risk that early pessimistic outcomes impose on later stages. This paper asks: **Do early‑stage “choke nodes” dominate the EV of entire paradigm cascades, and can a Bayesian cascade model quantify that effect?**  
+## 1. Introduction The development of fault‑tolerant quantum computers faces material‑science bottlenecks that delay the realisation of topological qubits. If the cumulative expected value (EV) of downstream quantum‑algorithm breakthroughs could be restored, governments and firms could schedule large‑scale deployment earlier than currently projected. Current decision‑making treats each technological stage—materials, device fabrication, algorithm design—as independent, thereby overlooking the multiplicative risk that early pessimistic outcomes impose on later stages. This paper asks: **Do early‑stage “choke nodes” dominate the EV of entire paradigm cascades, and can a Bayesian cascade model quantify that effect?** 
 
 **Contributions**  
 - C1. Formal definition of a Markov‑Bayesian cascade for paradigm transitions (Section 3.1).  
@@ -13,8 +13,7 @@ The development of fault‑tolerant quantum computers faces material‑science b
 - C4. Quantitative result that early‑stage pessimism reduces overall EV to $69.2\%$ of the optimistic baseline (Section 5).  
 - C5. Sensitivity‑factorisation theorem identifying choke nodes and a projection of potential EV gains from early‑stage mitigation (Section 3.5, Section 5).  
 
-## 2. Background and Related Work
-Institutional inertia in scientific outreach has been documented by the International Particle Physics Outreach Group (IPPOG), which has provided systematic education programmes since 1997 and now serves as a strategic pillar for sustaining long‑term support of fundamental research [1]. This illustrates how early‑stage institutional choices can shape downstream research ecosystems.  
+## 2. Background and Related Work Institutional inertia in scientific outreach has been documented by the International Particle Physics Outreach Group (IPPOG), which has provided systematic education programmes since 1997 and now serves as a strategic pillar for sustaining long‑term support of fundamental research [1]. This illustrates how early‑stage institutional choices can shape downstream research ecosystems. 
 
 Bayesian Epistemology with Weighted Authority (BEWA) introduces a formal architecture that conditions belief updates on authoritative source domains, enforcing epistemic legitimacy through information‑theoretic constraints (Goldwasser 1998; Meyer & van der Hoek 2003) [2]. BEWA’s emphasis on weighted belief propagation motivates our cascade’s conditional transition matrices.  
 
@@ -161,8 +160,7 @@ All numerical results in Results 1 and 2 are directly derived from the arith
 - **L4. Sample Size**: Each scenario uses $100$ replications; statistical uncertainty around $\alpha_k$ is not propagated.  
 - **L5. Projection Assumptions**: The sensitivity‑based and inertia projections rely on assumed upstream masses, downstream values, and mixture percentages; actual values may differ.  
 
-### 6.2 Falsification Criterion
-If an empirical study of a historical technology cascade (e.g., vacuum‑tube → transistor → integrated circuit) yields a cumulative improvement factor $\Phi_{\text{emp}}$ that exceeds $0.90$ while early‑stage relative improvements remain below $0.85$, the choke‑node hypothesis would be falsified because the observed EV would not be dominated by early pessimistic branches.
+### 6.2 Falsification Criterion If an empirical study of a historical technology cascade (e.g., vacuum‑tube → transistor → integrated circuit) yields a cumulative improvement factor $\Phi_{\text{emp}}$ that exceeds $0.90$ while early‑stage relative improvements remain below $0.85$, the choke‑node hypothesis would be falsified because the observed EV would not be dominated by early pessimistic branches.
 
 ### 6.3 Open Questions
 - How do feedback loops between non‑adjacent eras affect cascade dynamics?  
@@ -173,25 +171,20 @@ If an empirical study of a historical technology cascade (e.g., vacuum‑tube 
 ### 7.1 Intended Users and Decision Impact
 Research funding agencies and large‑scale technology consortia would use the cascade model to prioritise early‑stage risk mitigation. If the model, under the stated proxy inputs, predicts a $31\%$ EV loss due to an early choke node, agencies could allocate additional resources to material‑science programmes (e.g., anyon‑pinning mitigation) to raise $\alpha_1$ from $0.81$ to $0.90$, thereby increasing overall EV by $11\%$.
 
-### 7.2 Technology Readiness Level
-The present work is a purely analytical study that has not undergone peer review; according to NASA definitions, it resides at **TRL 1–2** (basic principles observed and reported).
+### 7.2 Technology Readiness Level The present work is a purely analytical study that has not undergone peer review; according to NASA definitions, it resides at **TRL 1–2** (basic principles observed and reported).
 
-### 7.3 Minimal Next Experiment
-A pilot study should construct a three‑era Bayesian cascade for a concrete technology (e.g., superconducting qubit → error‑corrected logical qubit → fault‑tolerant processor). The experiment would measure conditional success probabilities $P(S_n\mid S_{n-1})$ via controlled prototype benchmarks. Observation of a cumulative $\Phi_{\text{pilot}}$ significantly lower than the product of independent stage improvements would confirm the choke‑node effect; a $\Phi_{\text{pilot}}$ close to $1.0$ would refute it.
+### 7.3 Minimal Next Experiment A pilot study should construct a three‑era Bayesian cascade for a concrete technology (e.g., superconducting qubit → error‑corrected logical qubit → fault‑tolerant processor). The experiment would measure conditional success probabilities $P(S_n\mid S_{n-1})$ via controlled prototype benchmarks. Observation of a cumulative $\Phi_{\text{pilot}}$ significantly lower than the product of independent stage improvements would confirm the choke‑node effect; a $\Phi_{\text{pilot}}$ close to $1.0$ would refute it.
 
 ### 7.4 Engineering Constraints
 - **Data Availability**: Accurate conditional probabilities require extensive benchmark data for each stage.  
 - **Computational Resources**: Estimating high‑dimensional transition matrices may demand Markov‑chain Monte Carlo sampling as in hierarchical GP models [5].  
 - **Model Specification**: Proper scoring rules [7] must be employed to avoid dependence on arbitrary prior scales.  
 
-### 7.5 Projected Cost Bounds (Projection)
- This projection assumes linear cost scaling and identical marginal returns across stages.
+### 7.5 Projected Cost Bounds (Projection) This projection assumes linear cost scaling and identical marginal returns across stages.
 
-### 7.6 Risks and Misuse
-If policymakers allocate disproportionate funds to early stages without verifying the conditional independence assumption, they may create over‑engineered solutions that do not translate into downstream gains, leading to inefficient resource use.
+### 7.6 Risks and Misuse If policymakers allocate disproportionate funds to early stages without verifying the conditional independence assumption, they may create over‑engineered solutions that do not translate into downstream gains, leading to inefficient resource use.
 
-## 8. Conclusion
-We introduced a Markov‑Bayesian cascade framework for modelling scientific paradigm transitions and derived closed‑form expressions for cumulative expected value. Using empirical relative log‑likelihood improvements from Bayesian vine‑copula model selection, we quantified the cascade’s cumulative improvement factor as $0.692$ and demonstrated that early‑stage choke nodes can reduce overall EV by over $30\%$. The sensitivity‑factorisation theorem provides a computable definition of choke nodes and a basis for targeted early‑stage mitigation. The analysis highlights the strategic importance of mitigating early bottlenecks, offers a falsifiable prediction for future empirical cascade studies, and supplies a quantitative tool for research‑policy decision‑making.
+## 8. Conclusion We introduced a Markov‑Bayesian cascade framework for modelling scientific paradigm transitions and derived closed‑form expressions for cumulative expected value. Using empirical relative log‑likelihood improvements from Bayesian vine‑copula model selection, we quantified the cascade’s cumulative improvement factor as $0.692$ and demonstrated that early‑stage choke nodes can reduce overall EV by over $30\%$. The sensitivity‑factorisation theorem provides a computable definition of choke nodes and a basis for targeted early‑stage mitigation. The analysis highlights the strategic importance of mitigating early bottlenecks, offers a falsifiable prediction for future empirical cascade studies, and supplies a quantitative tool for research‑policy decision‑making.
 
 ## Provenance and AI Involvement
 

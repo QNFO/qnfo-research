@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cancellation-rule",
+  "paper": {
+    "path": "papers/cancellation-rule/paper.md",
+    "title": "The Ontology of Boundary-Crossing: Spencer-Brown Cancellation Rule Defended",
+    "url": "https://papers.qnfo.org/papers/cancellation-rule"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cancellation-rule"
+  },
+  "snapshots": [
+    {
+      "sha256": "d0069431f3427669724b8bf5c553f295601d0319ca68500b934129141d2786d1",
+      "bytes": 32109,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

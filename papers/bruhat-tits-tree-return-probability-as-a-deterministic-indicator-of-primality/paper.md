@@ -1,10 +1,10 @@
 # Bruhat‑Tits Tree Return Probability as a Deterministic Indicator of Primality
 
 ## Abstract
+
 Primality testing underlies RSA, Diffie–Hellman, and elliptic‑curve cryptography, yet widely deployed algorithms such as Miller–Rabin remain probabilistic and require several random bases to achieve negligible error.  The gap is a lack of a deterministic, constant‑time certificate that can be evaluated with elementary arithmetic.  We encode an integer $N$ as an automorphism of the $p\!=\!2$ Bruhat–Tits tree $\mathcal{T}_{2}$, construct the quotient graph $\mathcal{G}_{N}$, and analyse the simple random walk on $\mathcal{G}_{N}$.  For prime $N$ the quotient collapses to a $2$‑vertex cycle, yielding a two‑step return probability $P_{N}(2)=1$.  For composite $N$ the quotient remains an infinite $3$‑regular tree, whose spectral radius is $\rho=2\sqrt{2}/3$, giving $P_{N}(2)=\rho^{2}=8/9\approx0.88888889$.  The discrete derivative $\Delta P_{N}=P_{N}(2)-P_{N}(0)$ therefore differs by $1/9\approx0.11111111$ between the two regimes.  We derive these numbers from the tree’s valency, the standard spectral‑radius formula for regular trees, and the structural collapse of the quotient.  The resulting deterministic decision rule—accept $N$ as prime if $P_{N}(2)>0.95$—is provably correct under the stated assumptions and can be evaluated in $O(\log N)$ operations.  If validated, the method would replace probabilistic tests with a single‑step spectral‑geometric certificate, eliminating residual error and simplifying key‑generation pipelines.
 
-## 1. Introduction
-Large‑scale cryptographic protocols such as RSA, Diffie–Hellman, and elliptic‑curve schemes require the generation of large prime numbers.  Current practice relies on probabilistic primality tests (e.g., Miller–Rabin) that, while fast, only guarantee correctness with a tunable error probability; achieving a negligible failure rate demands multiple random bases, increasing both computation time and the theoretical attack surface.  For a financial institution generating RSA keys, each additional Miller–Rabin round adds milliseconds of latency and leaves a non‑zero probability that a composite modulus could be mistakenly accepted, potentially compromising security.
+## 1. Introduction Large‑scale cryptographic protocols such as RSA, Diffie–Hellman, and elliptic‑curve schemes require the generation of large prime numbers. Current practice relies on probabilistic primality tests (e.g., Miller–Rabin) that, while fast, only guarantee correctness with a tunable error probability; achieving a negligible failure rate demands multiple random bases, increasing both computation time and the theoretical attack surface. For a financial institution generating RSA keys, each additional Miller–Rabin round adds milliseconds of latency and leaves a non‑zero probability that a composite modulus could be mistakenly accepted, potentially compromising security.
 
 A deterministic test that certifies primality in a bounded number of elementary operations would eliminate this residual risk and streamline key‑generation pipelines.  The present work addresses this need by exploiting the spectral geometry of the $p$‑adic Bruhat–Tits tree $\mathcal{T}_{p}$ for $p=2$.  An integer $N$ can be represented as an automorphism $\phi_{N}$ acting on $\mathcal{T}_{2}$; the quotient graph $\mathcal{G}_{N}=\mathcal{T}_{2}/\langle\phi_{N}\rangle$ inherits the tree’s regularity when $N$ is composite, but collapses to a finite $2$‑vertex cycle when $N$ is prime.  A simple random walk on $\mathcal{G}_{N}$ therefore exhibits a two‑step return probability $P_{N}(2)$ that is exactly $1$ for primes and exactly $8/9$ for composites.
 
@@ -17,8 +17,7 @@ If the early‑time discrete derivative $\Delta P_{N}=P_{N}(2)-P_{N}(0)$ can be 
 4. Presentation of a deterministic decision rule and analysis of its computational complexity (Section 5).  
 5. Critical discussion of assumptions, falsifiability, and practical deployment pathways (Sections 6–8).
 
-## 2. Background and Related Work
-The Bruhat–Tits tree $\mathcal{T}_{p}$ is a regular infinite graph that encodes the lattice structure of $\mathrm{GL}_{2}(\mathbb{Q}_{p})$; each vertex has a valency equal to the number of its neighbours [1, § Conventions on graphs and walks].  For $p=2$ the tree is $3$‑regular, a fact used throughout our analysis.
+## 2. Background and Related Work The Bruhat–Tits tree $\mathcal{T}_{p}$ is a regular infinite graph that encodes the lattice structure of $\mathrm{GL}_{2}(\mathbb{Q}_{p})$; each vertex has a valency equal to the number of its neighbours [1, § Conventions on graphs and walks]. For $p=2$ the tree is $3$‑regular, a fact used throughout our analysis.
 
 In the $p$‑adic AdS/CFT correspondence the tree plays the role of a discrete bulk geometry.  The tree’s regularity and its boundary $\mathbb{Q}_{p}$ are highlighted in the construction of BTZ‑type black holes on $\mathcal{T}_{p}$ [2, § 1 Introduction] and in the formalisation of the tree as a combinatorial object [3, § 1 Introduction].  These works establish that the tree admits a natural coordinate system and a well‑defined Laplacian operator.
 
@@ -49,8 +48,7 @@ inherits the adjacency relation from $\mathcal{T}_{2}$.
 
 These structural claims are discussed in [1] and [3].
 
-### 3.3 Simple random walk and return probability
-On any graph $\mathfrak{g}$ we define a simple random walk by moving at each discrete time step to a uniformly random neighbour.  Let $P_{N}(t)$ denote the probability that a walk started at a distinguished origin vertex $o\in\mathcal{G}_{N}$ is back at $o$ after $t$ steps.  By definition $P_{N}(0)=1$ for all $N$.
+### 3.3 Simple random walk and return probability On any graph $\mathfrak{g}$ we define a simple random walk by moving at each discrete time step to a uniformly random neighbour. Let $P_{N}(t)$ denote the probability that a walk started at a distinguished origin vertex $o\in\mathcal{G}_{N}$ is back at $o$ after $t$ steps. By definition $P_{N}(0)=1$ for all $N$.
 
 The **early‑time derivative** we study is the discrete difference
 \[
@@ -138,8 +136,7 @@ must correspond to a prime $N$ under the stated assumptions.  Conversely, $P_{N}
 
 The computational cost of evaluating $P_{N}(2)$ is dominated by constructing the quotient graph $\mathcal{G}_{N}$, which requires testing whether $M_{N}$ has finite order.  This can be done by checking whether $M_{N}$ has eigenvalues that are roots of unity in $\mathbb{Q}_{2}$, an operation that runs in $O(\log N)$ time using standard $p$‑adic arithmetic.
 
-## 5. Results
-Applying the analysis to concrete integers yields the following table (derived directly from Section 4):
+## 5. Results Applying the analysis to concrete integers yields the following table (derived directly from Section 4):
 
 | $N$ | Structure of $\mathcal{G}_{N}$ | $P_{N}(2)$ (computed) | Decision (threshold $0.95$) |
 |-----|--------------------------------|-----------------------|-----------------------------|
