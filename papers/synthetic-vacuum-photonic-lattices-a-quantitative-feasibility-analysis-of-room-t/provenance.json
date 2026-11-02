@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "synthetic-vacuum-photonic-lattices-a-quantitative-feasibility-analysis-of-room-t",
+  "paper": {
+    "path": "papers/synthetic-vacuum-photonic-lattices-a-quantitative-feasibility-analysis-of-room-t/paper.md",
+    "title": "Synthetic Vacuum Photonic Lattices: A Quantitative Feasibility Analysis of Room-Temperature, Gauge-Protected Fibonacci Anyon Computing",
+    "url": "https://papers.qnfo.org/papers/synthetic-vacuum-photonic-lattices-a-quantitative-feasibility-analysis-of-room-t"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-427/synthetic-vacuum-photonic-lattices-a-quantitative-feasibility-analysis-of-room-t",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1853826abfb7f08cf2cc8c110524957b5ba1fcb5452db6e2d0da256d0f12c1fc"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "152cef79-577b-453c-a3f6-02f5f789d740"
+    ],
+    "living_paper_slug": "synthetic-vacuum-photonic-lattices-a-quantitative-feasibility-analysis-of-room-t"
+  },
+  "snapshots": [
+    {
+      "sha256": "053799445b381884baa25b2ff682caa8060cb8077c7e6b2cf9580aa5086a37f5",
+      "bytes": 46364,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

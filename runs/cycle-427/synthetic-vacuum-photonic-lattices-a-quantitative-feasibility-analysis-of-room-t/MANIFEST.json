@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "152cef79-577b-453c-a3f6-02f5f789d740",
+    "slug": "synthetic-vacuum-photonic-lattices-a-quantitative-feasibility-analysis-of-room-t",
+    "cycle": "cycle-427",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-02T23:11:10.412Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "053799445b381884baa25b2ff682caa8060cb8077c7e6b2cf9580aa5086a37f5",
+    "bytes": 46364,
+    "path": "papers/synthetic-vacuum-photonic-lattices-a-quantitative-feasibility-analysis-of-room-t/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "9f665776e1f1434415d2a3bc1a504d837faf11a8525eaf453da778b52406b300",
+      "bytes": 42408,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "053799445b381884baa25b2ff682caa8060cb8077c7e6b2cf9580aa5086a37f5",
+      "bytes": 46364,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "aa4b65a33554464f96b135ee2a9fcd2e75dcadade4419594b5b31a351fccf94e",
+      "bytes": 3964,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "4dcdd22b325a67b3c3c6e6712c72552d75824eee6c95b25205c49e87a5115162",
+      "bytes": 5367,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "3ea7a7f1cd89205ea47ebff048574c538c3910e475445780e7017ccb98bd7192",
+      "bytes": 7034,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "d9ea0e1858fce8aa7d32cae2cc3849fda11d46b2f6e6902491607c6ee85c7b33",
+      "bytes": 2385,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "d83d8e9842637a7e233d15b1238b3a26a1c6f06a24cb59fa1362ddb8b5b0c23a",
+      "bytes": 20803,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "aa69e60fab99807f67f93863c5260c018348258864656e0be7db17508ccc907d",
+      "bytes": 27486,
+      "role": "draft"
+    }
+  }
+}
