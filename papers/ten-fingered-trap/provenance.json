@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ten-fingered-trap",
+  "paper": {
+    "path": "papers/ten-fingered-trap/paper.md",
+    "title": "Ten-Fingered Trap",
+    "url": "https://papers.qnfo.org/papers/ten-fingered-trap"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ten-fingered-trap"
+  },
+  "snapshots": [
+    {
+      "sha256": "eecae5120e06ffc9c2518a81854693dd63a57d4c01702e793396def76ac0c96d",
+      "bytes": 24262,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

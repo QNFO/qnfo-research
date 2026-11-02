@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "tate-adelic-template",
+  "paper": {
+    "path": "adelic-freedom/tate-adelic-template/paper.md",
+    "title": "Tate's Thesis as a Template for Adelic Quantum Mechanics: Local-Global Structure and the Emergence of Archimedean Artifacts",
+    "url": "https://papers.qnfo.org/papers/tate-adelic-template"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "tate-adelic-template"
+  },
+  "snapshots": [
+    {
+      "sha256": "1b1f77cbf1b979c91817652e9df8c12d65fa868f71c811b48363c325665e1069",
+      "bytes": 42633,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

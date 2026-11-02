@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-adelic-constraints-project-a-complete-account",
+  "paper": {
+    "path": "adelic-freedom/the-adelic-constraints-project-a-complete-account/paper.md",
+    "title": "The Adelic Constraints Project — A Complete Account",
+    "url": "https://papers.qnfo.org/papers/the-adelic-constraints-project-a-complete-account"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-adelic-constraints-project-a-complete-account"
+  },
+  "snapshots": [
+    {
+      "sha256": "938b890fd0ae3b9e3a7a71ed6d961309ab95f9b62aad0a91aa8d378224f07843",
+      "bytes": 94836,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "0.6",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
