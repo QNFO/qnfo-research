@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "correlated-universe",
+  "paper": {
+    "path": "papers/correlated-universe/paper.md",
+    "title": "Open Thinkers Guide to the Universe",
+    "url": "https://papers.qnfo.org/papers/correlated-universe"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "correlated-universe"
+  },
+  "snapshots": [
+    {
+      "sha256": "89f90ba6eb2bf6822741e80c1c1791c81da33f032a45d3f41edcfa10cae25a97",
+      "bytes": 23695,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
