@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "relaxation-equation-mechanism",
+  "paper": {
+    "path": "papers/relaxation-equation-mechanism/paper.md",
+    "title": "A Pre-Registered Falsification of Deterministic Measurement-Triggered Relaxation",
+    "url": "https://papers.qnfo.org/papers/relaxation-equation-mechanism"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "relaxation-equation-mechanism"
+  },
+  "snapshots": [
+    {
+      "sha256": "df2d29f542026e486dc451a6ebc3dd80752b2cc373b0893ff0a1e6eac2a4baac",
+      "bytes": 21566,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

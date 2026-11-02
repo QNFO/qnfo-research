@@ -1,10 +1,10 @@
 # Regular Ternary Tree Codes and Symmetric Exponential Energy Barriers for Passive Quantum Error Correction
 
 ## Abstract
+
 Quantum error correction (QEC) currently relies on active syndrome extraction, which incurs large qubit overheads. A conjectured passive scheme encodes logical information on the vertices of a regular ternary Bruhat–Tits tree, exploiting the ultrametric triangle inequality to create an energy barrier that grows exponentially with tree depth. Existing work on binary Bruhat–Tits trees reports a barrier that protects only a single logical state because the root’s odd branching forces tie‑breaking asymmetry. We replace the binary root by a regular ternary branching, derive analytically that the minimum leaf‑flip barrier is \(B(d)=2^{d}\) for both logical states, and conjecture that zero logical errors could be achieved for depths \(d\ge 7\) when the physical error probability satisfies \(p_{\mathrm{err}}\le 0.40\). Using explicit combinatorial counting we compute (i) the barrier value at depth seven (\(B(7)=128\)), (ii) the code parameters \(n_{t}=1+(p+1)(p^{t}-1)/(p-1)\) for \(p=3\) and \(t=1,2\), and (iii) the logical failure probability under independent depolarizing noise \(\varepsilon=10^{-3}\), obtaining \(P_{\mathrm{pass}}\approx9.98\times10^{-6}\) and a suppression factor \(\varepsilon/P_{\mathrm{pass}}\approx100.2\). We also analyze a classical eight‑fold majority‑vote recursion, obtaining three concatenated error probabilities \(p^{(1)}=0.1736704\), \(p^{(2)}\approx0.0055489\), and \(p^{(3)}\approx2.905\times10^{-10}\). These results suggest that ultrametric tree geometry can provide a passive fault‑tolerance mechanism with exponential barrier scaling, opening a new design space for QEC architectures that avoids active measurement overhead.
 
-## 1. Introduction
-Large‑scale quantum processors are limited by the overhead required for active quantum error correction: each logical qubit typically consumes a large number of physical qubits, and the continuous syndrome measurement circuitry introduces additional error channels. The cost of this overhead blocks near‑term quantum advantage in algorithms that demand deep circuits, such as quantum chemistry simulations and fault‑tolerant quantum algorithms. If a passive protection mechanism could suppress logical errors without repeated measurements, the required qubit budget would shrink dramatically, enabling higher‑depth computations on existing hardware.
+## 1. Introduction Large‑scale quantum processors are limited by the overhead required for active quantum error correction: each logical qubit typically consumes a large number of physical qubits, and the continuous syndrome measurement circuitry introduces additional error channels. The cost of this overhead blocks near‑term quantum advantage in algorithms that demand deep circuits, such as quantum chemistry simulations and fault‑tolerant quantum algorithms. If a passive protection mechanism could suppress logical errors without repeated measurements, the required qubit budget would shrink dramatically, enabling higher‑depth computations on existing hardware.
 
 The present work addresses this gap by investigating regular ternary tree codes on Bruhat–Tits trees. Prior studies of binary Bruhat–Tits trees (p=2) have shown that the root’s odd branching forces a tie‑breaking rule that protects only one logical state, limiting the barrier to a single direction of error propagation. We assume that extending to a regular ternary root removes this asymmetry. By moving to a regular ternary tree—every node has three children—we eliminate the tie‑breaking asymmetry and obtain a symmetric barrier that protects both logical states. The central hypothesis is that the ultrametric distance between opposite logical states equals the cophenetic height of the tree, yielding an energy barrier \(E_{\text{barrier}}(d)=2^{d}\) that grows exponentially with depth \(d\).
 
@@ -18,8 +18,7 @@ If the hypothesis holds, a quantum processor that encodes logical qubits on a de
 - **C5.** Discussion of limitations, falsification criteria, and a concrete experimental pathway (Section 6).  
 - **C6.** Practical implications for quantum hardware designers, including TRL assessment and next‑step prototype (Section 7).
 
-## 2. Background and Related Work
-The literature on aggregation models, ternary codes, and tree‑based formalisms provides several technical ingredients that we adapt to the present problem.
+## 2. Background and Related Work The literature on aggregation models, ternary codes, and tree‑based formalisms provides several technical ingredients that we adapt to the present problem.
 
 *Quadrature domains* in internal aggregation models satisfy an additivity property \(\mathcal{L}(A\oplus B)=\mathcal{L}(A)+\mathcal{L}(B)\) for bounded open sets \(A,B\subset\mathbb{R}^{d}\) [1]. This additive structure motivates the use of tree‑like compositions where the total “mass” (here, error weight) of a subtree is the sum of its children, a principle that underlies our barrier derivation.
 
@@ -138,8 +137,7 @@ The suppression factor relative to an unencoded qudit is
 \approx100.2.
 \]
 
-### 4.5 Recursive Majority‑Vote Probabilities
-Take the physical error rate \(p=0.4\).
+### 4.5 Recursive Majority‑Vote Probabilities Take the physical error rate \(p=0.4\).
 
 **First level (8‑fold majority).** Using (5):
 \[
@@ -225,8 +223,7 @@ The main result—that a regular ternary tree yields a symmetric exponential bar
 ### 7.1 Potential Users and Design Impact
 Quantum hardware architects designing fault‑tolerant processors could adopt regular ternary tree encodings as a passive layer beneath active error correction. If the barrier scaling holds, the logical error budget would be reduced, allowing fewer ancilla qubits for syndrome extraction and potentially simplifying control electronics.
 
-### 7.2 Technology Readiness Level
-The present work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (technology concept formulation) according to NASA definitions. No fabrication or experimental validation has been performed.
+### 7.2 Technology Readiness Level The present work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (technology concept formulation) according to NASA definitions. No fabrication or experimental validation has been performed.
 
 ### 7.3 Smallest Next Experiment
 A minimal prototype would consist of a three‑level ternary tree of physical qubits (total \(n_{2}=17\) for \(p=3, t=2\)). The experiment would:
@@ -241,14 +238,11 @@ Observation of a logical error rate exceeding the analytically predicted logical
 - **E3.** Accurate calibration of depolarizing error rates is essential to compare measured logical error probabilities with the binomial predictions of (4).  
 - **E4.** Scaling to deeper trees will increase qubit count roughly as \(n_{t}=2\cdot3^{t}-1\); hardware resources must accommodate this exponential growth.
 
-### 7.5 Projected Cost and Performance Bounds (Projection)
-Assuming a superconducting qubit cost of \$5,000 per physical qubit and a depth‑\(d=5\) ternary tree (243 leaves), the hardware cost estimate is \(5{,}000\times243\approx\$1.2\) M. The projected logical error probability after three concatenation levels is \(2.9\times10^{-10}\), yielding a logical error per million logical operations of \(2.9\times10^{-4}\), far below typical surface‑code thresholds.
+### 7.5 Projected Cost and Performance Bounds (Projection) Assuming a superconducting qubit cost of \$5,000 per physical qubit and a depth‑\(d=5\) ternary tree (243 leaves), the hardware cost estimate is \(5{,}000\times243\approx\$1.2\) M. The projected logical error probability after three concatenation levels is \(2.9\times10^{-10}\), yielding a logical error per million logical operations of \(2.9\times10^{-4}\), far below typical surface‑code thresholds.
 
-### 7.6 Risks and Misuse
-If the barrier is over‑estimated, designers may under‑provision error mitigation, leading to unexpected logical failures in critical quantum algorithms. Moreover, the passive nature could be misapplied to error models (e.g., coherent leakage) where active correction remains essential.
+### 7.6 Risks and Misuse If the barrier is over‑estimated, designers may under‑provision error mitigation, leading to unexpected logical failures in critical quantum algorithms. Moreover, the passive nature could be misapplied to error models (e.g., coherent leakage) where active correction remains essential.
 
-## 8. Conclusion
-We have presented a rigorous analytical framework for regular ternary tree codes on Bruhat–Tits trees, demonstrating that the symmetric exponential barrier \(B(d)=2^{d}\) protects both logical states. Exact combinatorial calculations yield concrete code parameters, logical failure probabilities, and suppression factors that substantiate the promise of passive quantum error correction. While the results are conditional on the existence of a symmetric encoder and on the validity of the independent depolarizing noise model, the derived thresholds and barrier scaling provide clear, testable predictions. The next step is an experimental prototype that implements a depth‑two ternary ball and measures logical error rates, thereby falsifying or confirming the central hypothesis. Successful validation would open a new avenue for low‑overhead fault tolerance in quantum processors.
+## 8. Conclusion We have presented a rigorous analytical framework for regular ternary tree codes on Bruhat–Tits trees, demonstrating that the symmetric exponential barrier \(B(d)=2^{d}\) protects both logical states. Exact combinatorial calculations yield concrete code parameters, logical failure probabilities, and suppression factors that substantiate the promise of passive quantum error correction. While the results are conditional on the existence of a symmetric encoder and on the validity of the independent depolarizing noise model, the derived thresholds and barrier scaling provide clear, testable predictions. The next step is an experimental prototype that implements a depth‑two ternary ball and measures logical error rates, thereby falsifying or confirming the central hypothesis. Successful validation would open a new avenue for low‑overhead fault tolerance in quantum processors.
 
 ## Provenance and AI Involvement
 

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "relativistic-topological-superfluid",
+  "paper": {
+    "path": "papers/relativistic-topological-superfluid/paper.md",
+    "title": "Relativistic Topological Superfluid",
+    "url": "https://papers.qnfo.org/papers/relativistic-topological-superfluid"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "relativistic-topological-superfluid"
+  },
+  "snapshots": [
+    {
+      "sha256": "bb90916e4514176904c1e7ddffa3a40a23b377c2b9497835a25d7114fd0792da",
+      "bytes": 108847,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

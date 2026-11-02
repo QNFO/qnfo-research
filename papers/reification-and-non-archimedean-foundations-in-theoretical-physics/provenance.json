@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "reification-and-non-archimedean-foundations-in-theoretical-physics",
+  "paper": {
+    "path": "papers/reification-and-non-archimedean-foundations-in-theoretical-physics/paper.md",
+    "title": "REIFICATION AND NON-ARCHIMEDEAN FOUNDATIONS IN THEORETICAL PHYSICS",
+    "url": "https://papers.qnfo.org/papers/reification-and-non-archimedean-foundations-in-theoretical-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "reification-and-non-archimedean-foundations-in-theoretical-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "7eac1667a2148eaac5f11fa85d10be89e683046c293882ae8f5ba26171998f11",
+      "bytes": 89866,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
