@@ -4,8 +4,7 @@
 
 EXPERIENCE
 
-## Deconstructing the
-Interface of Perception
+## Deconstructing the Interface of Perception
 
 **Author:** Rowan Brad Quni-Gudzinas
 **Contact:** rowan.quni@outlook.com **ORCID:**
@@ -13,8 +12,7 @@ Interface of Perception
 **URL:** https://papers.qnfo.org/papers/architecture-of-experience/ **Date:**
 2026-02-09 **Version:** 1.0 |
 
-## CHAPTER 1: THE LIMITS
-OF DIRECT SENSATION
+## CHAPTER 1: THE LIMITS OF DIRECT SENSATION
 
 ### 1.1 The Narrow Bandwidth
 
@@ -402,8 +400,7 @@ trapped inside the translator, forever separated from the original text.
 We must use reason and science to decipher what the signals actually
 mean.
 
-## CHAPTER 2: THE CONSTRUCTING
-MIND
+## CHAPTER 2: THE CONSTRUCTING MIND
 
 ### 2.1 Filling the Gaps
 
@@ -701,8 +698,7 @@ mind, and the mind shapes the perception of the world. To understand
 reality, we must understand the instrument that is measuring it. We must
 look at the lens as well as the landscape.
 
-## CHAPTER 3: THE
-RELATIVITY OF MEASUREMENT
+## CHAPTER 3: THE RELATIVITY OF MEASUREMENT
 
 ### 3.1 The Flexible Ruler
 
@@ -978,8 +974,7 @@ projection of a higher reality. We are watching a flat screen, trying to
 deduce the depth of the world it depicts. We are flatlanders dreaming of
 spheres.
 
-## CHAPTER 4: THE DISSOLUTION
-OF MATTER
+## CHAPTER 4: THE DISSOLUTION OF MATTER
 
 ### 4.1 The Myth of Solidity
 
@@ -1407,8 +1402,7 @@ mathematical structure. The architecture of our experience, which feels
 so solid and real, is built upon a foundation of abstract, informational
 patterns. The universe is not made of things; it is made of ideas.
 
-## CHAPTER 5: THE UNCERTAINTY
-OF STATE
+## CHAPTER 5: THE UNCERTAINTY OF STATE
 
 ### 5.1 The State of Potential
 
@@ -1528,8 +1522,7 @@ in the cosmos; it is a defect in our lens. We are finite beings trying
 to measure an infinite subtlety. The uncertainty is the friction of our
 own clumsy grasp on the world.
 
-### 5.3 The Connection Across
-Space
+### 5.3 The Connection Across Space
 
 Quantum entanglement is perhaps the most famous and least understood
 feature of modern physics. It describes a scenario where two particles
@@ -1745,8 +1738,7 @@ understanding; it is the opening of a door. It invites us to see the
 world not as a collection of dead objects, but as a living web of
 relationships. We are woven into that web.
 
-## CHAPTER 6: THE
-INFORMATIONAL SUBSTRATE
+## CHAPTER 6: THE INFORMATIONAL SUBSTRATE
 
 ### 6.1 The Universal Code
 
@@ -1855,8 +1847,7 @@ We are informational structures that have evolved within a larger
 informational system. We are bits that have become self-aware, trying to
 understand the program we are running in.
 
-### 6.3 The Conservation of
-Information
+### 6.3 The Conservation of Information
 
 One of the most fundamental principles in physics is the conservation
 of energy. Energy cannot be created or destroyed; it can only change
@@ -2111,8 +2102,7 @@ not just the output; we are also part of the processor. Our actions and
 choices are inputs into the next step of the calculation. We are
 participants in the unfolding computation of reality.
 
-## CHAPTER 7: THE CONSTRUCTED
-SOCIETY
+## CHAPTER 7: THE CONSTRUCTED SOCIETY
 
 ### 7.1 The Symbolic Layer
 

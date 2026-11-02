@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "arithmetic-cut-discrimination",
+  "paper": {
+    "path": "papers/arithmetic-cut-discrimination/paper.md",
+    "title": "Discriminating the Arithmetic Cut: Matched-Level-Density Null Models for the Primon-Gas Specific Heat and Spectral Correlations",
+    "url": "https://papers.qnfo.org/papers/arithmetic-cut-discrimination"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "arithmetic-cut-discrimination"
+  },
+  "snapshots": [
+    {
+      "sha256": "dc54d011089fe5166d5fca4dab544a5b526f658265f865675545927d280a558e",
+      "bytes": 16093,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

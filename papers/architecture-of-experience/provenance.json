@@ -3,7 +3,7 @@
   "slug": "architecture-of-experience",
   "paper": {
     "path": "papers/architecture-of-experience/paper.md",
-    "title": "Architecture of Experience",
+    "title": "THE ARCHITECTURE OF",
     "url": "https://papers.qnfo.org/papers/architecture-of-experience"
   },
   "declared": {
@@ -22,6 +22,14 @@
       "bytes": 135558,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "04021142d5f58c7c222e6cc12793d7ea3c893e84cabf4c4ceb5452dc6e20f4e8",
+      "bytes": 135558,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
       "version": "1.1.0",
       "git_commit": null
     }

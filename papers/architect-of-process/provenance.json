@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "architect-of-process",
+  "paper": {
+    "path": "papers/architect-of-process/paper.md",
+    "title": "Architect of Process",
+    "url": "https://papers.qnfo.org/papers/architect-of-process"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "architect-of-process"
+  },
+  "snapshots": [
+    {
+      "sha256": "7bac811ebce46df8cc1b74b85b9293f25e9e942ea0319e84a53b85f34ed20d87",
+      "bytes": 12873,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

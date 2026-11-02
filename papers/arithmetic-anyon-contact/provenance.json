@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "arithmetic-anyon-contact",
+  "paper": {
+    "path": "papers/arithmetic-anyon-contact/paper.md",
+    "title": "Arithmetic Anyons: The Bounded-Occupation Family, Gentile Statistics, and the Roots of Unity That Carry Braid Phases",
+    "url": "https://papers.qnfo.org/papers/arithmetic-anyon-contact"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "arithmetic-anyon-contact"
+  },
+  "snapshots": [
+    {
+      "sha256": "bfe3569e111cdc1e5a91fe1a2997c0c7fb8b11910502e7a51d9ba7bb92bd7e89",
+      "bytes": 26342,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
