@@ -1,10 +1,10 @@
 # Superposition as a Projection Artifact of Discrete Tree Geometry
 
 ## Abstract
+
 Quantum superposition underpins quantum computing, interferometry, and macroscopic‑superposition experiments, yet its ontological status remains contested, creating a design bottleneck for error‑correction and measurement hardware. Existing models lack a concrete hidden‑variable construction that reproduces the Hilbert‑space formalism while clarifying why a single outcome is observed. We formulate a deterministic binary‑branching tree of depth $d$ that represents a single hidden‑variable trajectory and define a coarse‑graining map that projects leaf sets onto an effective wavefunction. Explicit arithmetic shows that leaf counting yields diagonal probabilities $P=n/2^{d}$, reproducing the Born‑rule diagonal form as a definitional identity. A numerical illustration with $d=5$ gives $P_{A}=0.625$, matching $|a|^{2}$ for $a=\sqrt{0.625}$. We also prove three negative results: (i) a power‑law leaf measure normalises only for exponent 1, (ii) non‑negative leaf measures cannot generate interference cross‑terms without encoding phase, and (iii) deterministic leaf assignments satisfy the CHSH bound $|S|\le2$, implying any empirically adequate tree must be non‑local or contextual. The work therefore delineates precisely which quantum‑mechanical features a discrete‑tree model can reproduce and proposes a concrete interferometric test that would falsify the hypothesis. If validated, the model supplies a design criterion—choosing measurement resolution to enforce a tree depth that preserves the rational probability structure—potentially reducing overhead in quantum hardware.
 
-## 1. Introduction
-Quantum processors, atom interferometers, and macroscopic‑superposition experiments confront a persistent conceptual obstacle: the measurement problem. Engineers must allocate substantial qubit overhead for error correction because the formalism offers no clear account of why a single outcome emerges from a superposed state. If superposition were an artifact of a hidden discrete structure, hardware designers could target the scale at which the underlying tree discretisation becomes relevant, allowing them to set detector resolution and control‑pulse granularity such that the effective tree depth $d$ guarantees rational probabilities $n/2^{d}$ within experimental uncertainty. This shift would replace heuristic error‑correction budgeting with a principled design rule based on the discrete geometry of hidden variables.
+## 1. Introduction Quantum processors, atom interferometers, and macroscopic‑superposition experiments confront a persistent conceptual obstacle: the measurement problem. Engineers must allocate substantial qubit overhead for error correction because the formalism offers no clear account of why a single outcome emerges from a superposed state. If superposition were an artifact of a hidden discrete structure, hardware designers could target the scale at which the underlying tree discretisation becomes relevant, allowing them to set detector resolution and control‑pulse granularity such that the effective tree depth $d$ guarantees rational probabilities $n/2^{d}$ within experimental uncertainty. This shift would replace heuristic error‑correction budgeting with a principled design rule based on the discrete geometry of hidden variables.
 
 **Contributions**  
 - **C1.** Definition of a binary‑branching tree model and coarse‑graining map that yields an effective wavefunction (Section 3).  
@@ -14,8 +14,7 @@ Quantum processors, atom interferometers, and macroscopic‑superposition experi
 - **C5.** Derivation of the CHSH bound $|S|\le2$ for deterministic leaf assignments, showing any empirically adequate tree must be non‑local or contextual (Section 4).  
 - **C6.** Identification of a minimal interferometric falsification test based on visibility and Bell‑type correlations (Section 7).  
 
-## 2. Background and Related Work
-Discrete differential geometry translates smooth geometric notions into combinatorial structures, providing a language for representing configuration spaces as discrete objects rather than continuous manifolds [1]. This motivates the representation of quantum configurations by a tree rather than a smooth Hilbert space.
+## 2. Background and Related Work Discrete differential geometry translates smooth geometric notions into combinatorial structures, providing a language for representing configuration spaces as discrete objects rather than continuous manifolds [1]. This motivates the representation of quantum configurations by a tree rather than a smooth Hilbert space.
 
 Rindler coordinates describe how uniformly accelerated observers experience different mode decompositions of a quantum field [2]. The explicit expressions  
 $$
@@ -97,8 +96,7 @@ P_{B}=|b|^{2}=0.375.
 
 These steps use only the definitions in Section 3; the equality $P_{A}=n_{A}/L$ follows directly from the amplitude definition and is therefore a definitional identity rather than an independent derivation of the Born rule.
 
-### 4.3 Power‑law leaf measure
-Consider a leaf‑weighting function $p_{i}=f_{i}^{\gamma}$ with $f_{i}=1/L$ for all leaves. Normalisation requires $\sum_{i=1}^{L}p_{i}=1$, i.e. $L\,(1/L)^{\gamma}=1$. This yields $L^{1-\gamma}=1$, which holds for all $L$ only when $\gamma=1$. Hence any exponent $\gamma\neq1$ fails to normalise, proving that the linear leaf‑fraction measure is forced.
+### 4.3 Power‑law leaf measure Consider a leaf‑weighting function $p_{i}=f_{i}^{\gamma}$ with $f_{i}=1/L$ for all leaves. Normalisation requires $\sum_{i=1}^{L}p_{i}=1$, i.e. $L\,(1/L)^{\gamma}=1$. This yields $L^{1-\gamma}=1$, which holds for all $L$ only when $\gamma=1$. Hence any exponent $\gamma\neq1$ fails to normalise, proving that the linear leaf‑fraction measure is forced.
 
 ### 4.4 Interference cross‑term impossibility
 With non‑negative leaf measures $p_{i}\ge0$ and phases $\theta_{i}$ drawn uniformly, the coarse‑grained amplitude for a superposition of two branches is  
@@ -118,8 +116,7 @@ S = \langle A_{0}B_{0}\rangle + \langle A_{0}B_{1}\rangle + \langle A_{1}B_{0}\r
 \]
 Because each leaf determines a single outcome for each setting, the algebraic maximum of $|S|$ is $2$, reproducing the classical CHSH bound. Quantum violations ($|S|>2$) therefore require either non‑local leaf assignments or contextual dependence of the leaf on the measurement setting, showing that any empirically adequate tree model must incorporate non‑locality or contextuality.
 
-## 5. Results
-The analytical derivations yield the following concrete numerical results:
+## 5. Results The analytical derivations yield the following concrete numerical results:
 
 - **R1.** For a binary tree of depth $d=5$ with leaf partition $n_{A}=20$, $n_{B}=12$, the coarse‑grained probability for branch $A$ is $P_{A}=0.625$, which equals $|a|^{2}$ for amplitude $a=\sqrt{0.625}$.
 - **R2.** The power‑law leaf measure normalises only for exponent $\gamma=1$.
@@ -135,8 +132,7 @@ These results confirm that the tree construction reproduces diagonal Born‑rule
 - **L3.** Phases $\theta_{k}$ are assumed uniformly distributed; non‑uniform distributions could generate non‑zero cross‑terms but are not derived from the model.  
 - **L4.** The model is deterministic and local; reproducing quantum violations of CHSH requires non‑local or contextual extensions, which are not provided here.
 
-### 6.2 Failure modes and falsification
-A single observation that would falsify the core claim is the detection of a probability that cannot be expressed as $n/2^{d}$ for any integers $n$ and $d$. For example, measuring $P=1/3$ in a two‑path interferometer would contradict the branch‑counting prediction because $1/3$ cannot be written with denominator $2^{d}$.
+### 6.2 Failure modes and falsification A single observation that would falsify the core claim is the detection of a probability that cannot be expressed as $n/2^{d}$ for any integers $n$ and $d$. For example, measuring $P=1/3$ in a two‑path interferometer would contradict the branch‑counting prediction because $1/3$ cannot be written with denominator $2^{d}$.
 
 More decisive falsification requires observing interference visibility or Bell‑type correlations that exceed the limits derived in Sections 4.4 and 4.5. Specifically:
 
@@ -152,11 +148,9 @@ More decisive falsification requires observing interference visibility or Bell�
 ### (a) Intended users and decision impact  
 Quantum hardware designers, experimental physicists building interferometers, and engineers of trapped‑atom platforms would use the branch‑counting result to set measurement resolution $\Delta$ such that the effective depth $d$ guarantees rational probabilities $n/2^{d}$ within statistical uncertainty. This replaces heuristic error‑correction budgeting with a concrete criterion: choose detector bandwidth, timing jitter, and control‑pulse granularity to ensure $d\ge d_{\text{crit}}$, where $d_{\text{crit}}$ is the smallest integer for which the dyadic rational $n/2^{d}$ approximates the target probability within the desired confidence interval.
 
-### (b) Technology readiness  
-The work is purely analytical and has not undergone peer review; it therefore resides at **Technology Readiness Level 2** (formulation of concept and analytical studies). No hardware prototype has been built.
+### (b) Technology readiness The work is purely analytical and has not undergone peer review; it therefore resides at **Technology Readiness Level 2** (formulation of concept and analytical studies). No hardware prototype has been built.
 
-### (c) Minimal next experiment to de‑risk or falsify  
-A feasible pilot test is a Mach‑Zehnder interferometer with a Bose‑Einstein‑condensate source, as demonstrated in [4]. The experiment would target a target probability $P_{\text{target}}=5/8=0.625$ (the dyadic rational $n/2^{d}$ with $d=3$).  
+### (c) Minimal next experiment to de‑risk or falsify A feasible pilot test is a Mach‑Zehnder interferometer with a Bose‑Einstein‑condensate source, as demonstrated in [4]. The experiment would target a target probability $P_{\text{target}}=5/8=0.625$ (the dyadic rational $n/2^{d}$ with $d=3$). 
 
 *Measurement:* Record the relative frequency $f$ of detections in one output port over $N=10^{4}$ trials.  
 *Falsification criterion:* Compute the statistical uncertainty $\sigma=\sqrt{P_{\text{target}}(1-P_{\text{target}})/N}=\sqrt{0.625\times0.375/10^{4}}=\sqrt{2.34375\times10^{-5}}\approx0.0048$. If $|f-P_{\text{target}}|>3\sigma\approx0.0145$, the observed frequency cannot be matched by any dyadic rational with denominator $2^{d}\le2^{7}=0.0078$ resolution, thereby falsifying the branch‑counting hypothesis. Additionally, measuring a non‑zero fringe visibility would falsify the uniform‑phase assumption (Section 4.4).
@@ -180,11 +174,9 @@ C_{\text{sim}} = c_{\text{leaf}}\times L = 10^{-3}\times1024 \approx 1.024.
 $$  
 *Assumptions:* $c_{\text{leaf}}$ approximates the memory‑access cost for a single‑precision operation; the simulation stores only leaf indices and a phase value. This projection illustrates the linear scaling $C_{\text{sim}}\propto2^{d}$ derived from the leaf‑count formula.
 
-### (f) Direct risks and misuse paths  
-If the model were misapplied to claim that quantum randomness is entirely deterministic, it could be used to argue against the necessity of certified quantum randomness in cryptographic key generation. The present work does **not** eliminate intrinsic randomness; it only provides a hidden‑variable reinterpretation that reproduces standard statistical predictions under specific assumptions. Misuse would arise from over‑extending the conclusion beyond the derived branch‑counting rule. Users must retain standard security assumptions that rely on proven quantum randomness.
+### (f) Direct risks and misuse paths If the model were misapplied to claim that quantum randomness is entirely deterministic, it could be used to argue against the necessity of certified quantum randomness in cryptographic key generation. The present work does **not** eliminate intrinsic randomness; it only provides a hidden‑variable reinterpretation that reproduces standard statistical predictions under specific assumptions. Misuse would arise from over‑extending the conclusion beyond the derived branch‑counting rule. Users must retain standard security assumptions that rely on proven quantum randomness.
 
-## 8. Conclusion
-We have presented a deterministic binary‑tree hidden‑variable model that reproduces the diagonal Born‑rule probabilities through a simple leaf‑counting identity. Explicit arithmetic confirms that for depth $d=5$ with leaf partition $n_{A}=20$, $n_{B}=12$, the probability $P_{A}=0.625$ matches $|a|^{2}$ for $a=\sqrt{0.625}$. The analysis also establishes three negative results: (i) the linear leaf‑fraction measure is forced, (ii) non‑negative leaf measures cannot generate interference cross‑terms without embedding phase, and (iii) deterministic leaf assignments satisfy the classical CHSH bound, implying any empirically adequate tree must be non‑local or contextual. The work aligns with discrete differential geometry [1], observer‑dependent mode selection via Rindler coordinates [2], quantum‑walk branching [7], and macroscopic BEC interferometry [4]. It offers a clear pathway for experimental falsification: any observed probability not expressible as $n/2^{d}$, non‑zero fringe visibility under uniform phases, or a CHSH violation would refute the hypothesis. Future work will explore phase‑encoding extensions, irregular branching, and higher‑dimensional generalisations to test the robustness of the projection‑artifact interpretation.
+## 8. Conclusion We have presented a deterministic binary‑tree hidden‑variable model that reproduces the diagonal Born‑rule probabilities through a simple leaf‑counting identity. Explicit arithmetic confirms that for depth $d=5$ with leaf partition $n_{A}=20$, $n_{B}=12$, the probability $P_{A}=0.625$ matches $|a|^{2}$ for $a=\sqrt{0.625}$. The analysis also establishes three negative results: (i) the linear leaf‑fraction measure is forced, (ii) non‑negative leaf measures cannot generate interference cross‑terms without embedding phase, and (iii) deterministic leaf assignments satisfy the classical CHSH bound, implying any empirically adequate tree must be non‑local or contextual. The work aligns with discrete differential geometry [1], observer‑dependent mode selection via Rindler coordinates [2], quantum‑walk branching [7], and macroscopic BEC interferometry [4]. It offers a clear pathway for experimental falsification: any observed probability not expressible as $n/2^{d}$, non‑zero fringe visibility under uniform phases, or a CHSH violation would refute the hypothesis. Future work will explore phase‑encoding extensions, irregular branching, and higher‑dimensional generalisations to test the robustness of the projection‑artifact interpretation.
 
 ## Version History
 

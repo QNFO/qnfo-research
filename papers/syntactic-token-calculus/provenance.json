@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "syntactic-token-calculus",
+  "paper": {
+    "path": "papers/syntactic-token-calculus/paper.md",
+    "title": "Syntactic Token Calculus",
+    "url": "https://papers.qnfo.org/papers/syntactic-token-calculus"
+  },
+  "declared": {
+    "version": "1.6",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "syntactic-token-calculus"
+  },
+  "snapshots": [
+    {
+      "sha256": "37ec03ffa1f2f13f18cac64c8a5efdbfde362f0a72c4308a3df9c328882234fd",
+      "bytes": 10984,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

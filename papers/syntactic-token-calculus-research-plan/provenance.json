@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "syntactic-token-calculus-research-plan",
+  "paper": {
+    "path": "papers/syntactic-token-calculus-research-plan/paper.md",
+    "title": "Syntactic Token Calculus Research Plan",
+    "url": "https://papers.qnfo.org/papers/syntactic-token-calculus-research-plan"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "syntactic-token-calculus-research-plan"
+  },
+  "snapshots": [
+    {
+      "sha256": "4edb5a82a377bd68df7a618a81d72aadd22c29e2fe615a15e3df683a78ef6f8b",
+      "bytes": 61788,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

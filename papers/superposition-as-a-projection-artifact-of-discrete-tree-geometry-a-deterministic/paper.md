@@ -1,10 +1,10 @@
 # Superposition as a Projection Artifact of Discrete Tree Geometry: A Deterministic Toy Model for Quantum Statistics
 
 ## Abstract
+
 Quantum technologies rely on the Born rule, interference, and Bell‑type correlations, yet the ontological status of superposition remains debated. Existing interpretations either postulate a fundamentally probabilistic wavefunction or invoke many‑world branching, leaving the measurement problem unresolved. This work fills the gap by constructing a deterministic binary‑tree model of depth $N$ whose hidden leaf $\lambda$ is projected onto a coarse‑grained measurement basis. Analytic derivations show that (i) for any depth the induced outcome weights equal the class‑volume ratios; for a balanced tree of depth $N=10$ the probabilities are $P_{0}=P_{1}=0.5$, reproducing the Born rule, while a biased coarse‑graining at $N=3$ yields $P_{0}=0.625$, $P_{1}=0.375$ (a $0.125$ deviation); (ii) the per‑class rounding error never exceeds $2^{-(N+1)}$, giving a concrete bound of $3.2552\times10^{-4}$ for the non‑dyadic target $|\alpha|^{2}=1/3$ at $N=10$; (iii) interference‑like visibility is exactly $V=|n_{1}-n_{2}|/(n_{1}+n_{2})$, e.g. $V=0.25$ for $n_{1}=40$, $n_{2}=24$ at $N=12$; (iv) Bell‑CHSH correlations obey the classical bound $S\le2$, with explicit deterministic strategies attaining $S=2$ but never exceeding it. The result reinterprets quantum statistics as a projection artifact of a hidden deterministic geometry, offering falsifiable finite‑depth signatures and a new perspective on error‑budget allocation in quantum hardware design.
 
-## 1. Introduction
-Quantum engineers, metrologists, and foundational physicists confront a persistent obstacle: repeated measurements on identically prepared systems yield probabilistic outcomes that follow the Born rule, yet the underlying dynamics appear unitary and deterministic. The measurement problem incurs practical costs—additional error‑correction overhead, ambiguous data interpretation, and stalled progress toward scalable quantum computers. If superposition were an emergent artifact of a discrete underlying geometry rather than a fundamental ontological feature, then collapse would be reinterpreted as Bayesian updating on a hidden deterministic trajectory, and the design of quantum algorithms could exploit the geometry directly.
+## 1. Introduction Quantum engineers, metrologists, and foundational physicists confront a persistent obstacle: repeated measurements on identically prepared systems yield probabilistic outcomes that follow the Born rule, yet the underlying dynamics appear unitary and deterministic. The measurement problem incurs practical costs—additional error‑correction overhead, ambiguous data interpretation, and stalled progress toward scalable quantum computers. If superposition were an emergent artifact of a discrete underlying geometry rather than a fundamental ontological feature, then collapse would be reinterpreted as Bayesian updating on a hidden deterministic trajectory, and the design of quantum algorithms could exploit the geometry directly.
 
 This paper demonstrates that a deterministic path through a binary configuration tree of depth $N$, when projected onto a resolution‑limited measurement basis, reproduces the statistical structure of quantum superposition. The key insight is that coarse‑graining partitions the $2^{N}$ leaf nodes into equivalence classes whose volumes scale with depth; the relative class volumes generate the Born‑rule weights. The model also predicts finite‑depth deviations that are experimentally accessible, thereby providing a falsifiable signature.
 
@@ -16,8 +16,7 @@ This paper demonstrates that a deterministic path through a binary configuration
 5. Proof that Bell‑CHSH correlations obey the classical bound $S\le2$ for any local hidden‑variable assignment on the tree, together with explicit strategies attaining $S=2$ (Section 4.4).  
 6. Specification of experimental tests that can falsify the finite‑depth predictions (Section 7).
 
-## 2. Background and Related Work
-Discrete differential geometry replaces smooth structures with combinatorial counterparts. Bobenko and Suris describe this field as “the development of discrete equivalents of notions and methods of smooth surface theory” [1], establishing a precedent for modeling physical configurations with finite elements.
+## 2. Background and Related Work Discrete differential geometry replaces smooth structures with combinatorial counterparts. Bobenko and Suris describe this field as “the development of discrete equivalents of notions and methods of smooth surface theory” [1], establishing a precedent for modeling physical configurations with finite elements.
 
 Thermalisation studies in relativistic quantum field theory reveal that a probe interacting with a superposition of environmental states fails to thermalise because “for each amplitude the probe interacts with a different set of modes” [2]. This motivates interpreting superposition as a structural effect of the underlying configuration space.
 
@@ -146,8 +145,7 @@ P_{1}=\frac{3}{8}=0.375.
 
 These numbers deviate from the Born rule by $0.125$, providing a falsifiable finite‑depth signature.
 
-### 4.3 Joint Probabilities for Two Coarse‑Grainings
-Consider $\Gamma_{A}$ based on the most significant bit and $\Gamma_{B}$ based on the second‑most significant bit for $N=3$. The leaf labels in binary are $000$ to $111$. The intersection sizes are:
+### 4.3 Joint Probabilities for Two Coarse‑Grainings Consider $\Gamma_{A}$ based on the most significant bit and $\Gamma_{B}$ based on the second‑most significant bit for $N=3$. The leaf labels in binary are $000$ to $111$. The intersection sizes are:
 
 | $(j_{A},j_{B})$ | Leaves | Count |
 |----------------|--------|-------|
@@ -274,11 +272,9 @@ The model makes concrete falsifiable predictions:
 ### (a) Intended Users and Design Impact
 Quantum hardware designers and algorithm developers can use the result to reinterpret error budgets: instead of attributing stochastic measurement outcomes solely to wavefunction collapse, they can model them as deterministic hidden‑path projections, enabling error‑mitigation strategies that target the coarse‑graining process (e.g., adaptive detector calibration).  
 
-### (b) Technology Readiness Level
-The work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (technology concept formulation).  
+### (b) Technology Readiness Level The work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (technology concept formulation). 
 
-### (c) Minimal Next Experiment
-A tabletop interferometric setup employing a cascade of $N=3$ 50:50 beam splitters to generate eight path amplitudes, followed by a detector that groups the first four paths into outcome 0 and the remaining four into outcome 1, constitutes the smallest experiment. Measuring the outcome frequencies and comparing them to the predicted $0.625$ vs. $0.375$ ratio directly tests the finite‑depth bias hypothesis. Observation of a $0.5$–$0.5$ split would falsify the model’s finite‑depth prediction.  
+### (c) Minimal Next Experiment A tabletop interferometric setup employing a cascade of $N=3$ 50:50 beam splitters to generate eight path amplitudes, followed by a detector that groups the first four paths into outcome 0 and the remaining four into outcome 1, constitutes the smallest experiment. Measuring the outcome frequencies and comparing them to the predicted $0.625$ vs. $0.375$ ratio directly tests the finite‑depth bias hypothesis. Observation of a $0.5$–$0.5$ split would falsify the model’s finite‑depth prediction. 
 
 ### (d) Engineering Constraints
 - **Component precision**: Beam‑splitter reflectivity must be controlled to within $<1\%$ to avoid unintentionally introducing bias.  
@@ -286,14 +282,11 @@ A tabletop interferometric setup employing a cascade of $N=3$ 50:50 beam splitte
 - **Phase stability**: Phase stability across the interferometer arms is required so that any observed deviation originates from the coarse‑graining rather than uncontrolled interference.  
 - **Scalability**: Extending to larger $N$ demands exponential growth in optical components, posing practical limits.  
 
-### (e) Projected Performance Bounds
-[Projection] Assuming ideal 50:50 beam splitters and perfect detector grouping, the statistical uncertainty is projected as follows. For $M$ independent repetitions the binomial standard deviation is $\sigma=\sqrt{P(1-P)/M}$. With $P=0.5$ and $M=10^{6}$ this yields $\sigma=\sqrt{0.5\times0.5/10^{6}}=\sqrt{0.25\times10^{-6}}=\sqrt{2.5\times10^{-7}}=5.0\times10^{-4}$. Hence $\sigma\approx5\times10^{-4}$, allowing detection of deviations larger than $10^{-3}$.  
+### (e) Projected Performance Bounds [Projection] Assuming ideal 50:50 beam splitters and perfect detector grouping, the statistical uncertainty is projected as follows. For $M$ independent repetitions the binomial standard deviation is $\sigma=\sqrt{P(1-P)/M}$. With $P=0.5$ and $M=10^{6}$ this yields $\sigma=\sqrt{0.5\times0.5/10^{6}}=\sqrt{0.25\times10^{-6}}=\sqrt{2.5\times10^{-7}}=5.0\times10^{-4}$. Hence $\sigma\approx5\times10^{-4}$, allowing detection of deviations larger than $10^{-3}$. 
 
-### (f) Risks and Misuse Paths
-If the deterministic‑path interpretation were misapplied to claim that quantum randomness can be eliminated, it could lead to over‑optimistic expectations for error‑free quantum computation. The model explicitly acknowledges residual stochasticity arising from coarse‑graining; therefore, any engineering effort must retain robust statistical analysis.
+### (f) Risks and Misuse Paths If the deterministic‑path interpretation were misapplied to claim that quantum randomness can be eliminated, it could lead to over‑optimistic expectations for error‑free quantum computation. The model explicitly acknowledges residual stochasticity arising from coarse‑graining; therefore, any engineering effort must retain robust statistical analysis.
 
-## 8. Conclusion
-We have presented a deterministic, discrete‑tree model in which quantum superposition emerges as a projection artifact of coarse‑graining a hidden deterministic trajectory. Analytic derivations show that for sufficiently deep trees the induced outcome weights reproduce the Born rule, while finite‑depth trees generate measurable deviations bounded by $2^{-(N+1)}$. Interference‑like correlations and visibility are reproduced by integer arithmetic on overlapping class volumes, and Bell‑type correlations obey the classical CHSH bound, demonstrating that non‑local tree connections alone cannot generate quantum violations. The model reframes the measurement problem as Bayesian updating on a hidden path and offers concrete experimental tests at modest depths. Future work will explore extensions to multi‑qubit systems, connections to Hilbert‑space formalism, and physical mechanisms that could generate coarse‑graining bias.
+## 8. Conclusion We have presented a deterministic, discrete‑tree model in which quantum superposition emerges as a projection artifact of coarse‑graining a hidden deterministic trajectory. Analytic derivations show that for sufficiently deep trees the induced outcome weights reproduce the Born rule, while finite‑depth trees generate measurable deviations bounded by $2^{-(N+1)}$. Interference‑like correlations and visibility are reproduced by integer arithmetic on overlapping class volumes, and Bell‑type correlations obey the classical CHSH bound, demonstrating that non‑local tree connections alone cannot generate quantum violations. The model reframes the measurement problem as Bayesian updating on a hidden path and offers concrete experimental tests at modest depths. Future work will explore extensions to multi‑qubit systems, connections to Hilbert‑space formalism, and physical mechanisms that could generate coarse‑graining bias.
 
 ## Version History
 
