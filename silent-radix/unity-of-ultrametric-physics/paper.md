@@ -1,13 +1,12 @@
 # Unity of Ultrametric Physics
 
-## A
-Self-Contained Development from First Principles
+## A Self-Contained Development from First Principles
 
 **Author:** Rowan Brad Quni-Gudzinas
 **Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
 **ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
 **ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** [10.5281/zenodo.19929764](http://doi.org/10.5281/zenodo.19929764)
+**DOI:** https://papers.qnfo.org/papers
 **Date:** 2026-04-30 **Version:** 0.7.1
 
 **Abstract.** This document develops a unified framework
@@ -258,11 +257,9 @@ to locate specific definitions, theorems, or equations.
 VI (Experimental Protocols) contain actionable computational and
 experimental designs.
 
-# Part I: Mathematical
-Foundations
+# Part I: Mathematical Foundations
 
-## Chapter 1: Sets,
-Relations, and Operations
+## Chapter 1: Sets, Relations, and Operations
 
 We begin at the logical beginning. A **set** is a
 collection of distinct objects, called its **elements**. We
@@ -328,8 +325,7 @@ e\). - **Distributive**: \(a \cdot (b + c) = a \cdot b + a \cdot c\)
 and \((a + b) \cdot c = a \cdot c + b \cdot
 c\).
 
-## Chapter 2: Numbers and
-Their Properties
+## Chapter 2: Numbers and Their Properties
 
 ### 2.1 From Naturals to Rationals
 
@@ -357,8 +353,7 @@ is a field.
 |y|_\infty\). 3. \(|x + y|_\infty \leq
 |x|_\infty + |y|_\infty\). (Triangle inequality)
 
-### 2.2 Prime
-Factorization and the p-adic Valuation
+### 2.2 Prime Factorization and the p-adic Valuation
 
 **Theorem 2.3 (Fundamental Theorem of Arithmetic).**
 Every integer \(n > 1\) can be
@@ -382,8 +377,7 @@ v_p(y)\).
 divisible by \(p\) when the valuations
 differ. \(\square\)
 
-## Chapter 3: Distance and
-Metric Spaces
+## Chapter 3: Distance and Metric Spaces
 
 **Definition 3.1 (Metric space).** A
 **metric** on a set \(X\)
@@ -418,8 +412,7 @@ n \geq N: d(x_m, x_n) < \varepsilon\). A space is
 **Theorem 3.7 (Metric completion).** Every metric space
 has a unique (up to isometry) completion. The completion of \(\mathbb{Q}\) with respect to \(d_\infty(x, y) = |x - y|_\infty\) is \(\mathbb{R}\), the real numbers.
 
-## Chapter 4: The Ultrametric
-Inequality
+## Chapter 4: The Ultrametric Inequality
 
 **Definition 4.1 (Ultrametric).** A metric \(d\) is an **ultrametric** if
 it satisfies the **strong triangle inequality**:
@@ -461,8 +454,7 @@ common ancestor (LCA).
 geometrically, trees. Hierarchy is not incidental to ultrametric
 geometry — it is its essence.
 
-## Chapter 5: The p-adic
-Absolute Value
+## Chapter 5: The p-adic Absolute Value
 
 **Definition 5.1 (p-adic absolute value).** For a fixed
 prime \(p\):
@@ -509,9 +501,7 @@ only if the set \(\{|n \cdot 1| : n \in
 
 # Part II: The p-Adic Universe
 
-## Chapter 6: The
-Field \(\mathbb{Q}_p\) of p-adic
-Numbers
+## Chapter 6: The Field \(\mathbb{Q}_p\) of p-adic Numbers
 
 **Definition 6.1 (\(\mathbb{Q}_p\)).** The **field
 of p-adic numbers** \(\mathbb{Q}_p\) is the completion of \(\mathbb{Q}\) with respect to the p-adic
@@ -562,8 +552,7 @@ compact, **totally disconnected** (the only connected
 subsets are singletons), and zero-dimensional (there is a basis of
 clopen sets).
 
-## Chapter 7:
-Functions and Analysis on \(\mathbb{Q}_p\)
+## Chapter 7: Functions and Analysis on \(\mathbb{Q}_p\)
 
 **Definition 7.1 (Continuity).** \(f\) is continuous at \(x_0\) if \(\forall \varepsilon > 0, \exists \delta > 0:
 |x - x_0|_p < \delta \implies |f(x) - f(x_0)| <
@@ -598,8 +587,7 @@ f(x)}{|x - y|_p^{1+\alpha}} \, d\mu(y)\]
 \hat{f}(\xi)\). This is the p-adic analogue of \(\widehat{-\nabla^2 f}(k) = |k|^2
 \hat{f}(k)\).
 
-## Chapter 8: The
-Adele Ring — Where All Worlds Meet
+## Chapter 8: The Adele Ring — Where All Worlds Meet
 
 **Definition 8.1 (Places of \(\mathbb{Q}\)).** \(\mathcal{P} = \{\infty\} \cup \{p \text{
 prime}\}\). The normalized absolute values are \(\|x\|_\infty = |x|_\infty\) and \(\|x\|_p = |x|_p\).
@@ -641,11 +629,9 @@ coordinates are synchronized. The non-Archimedean sectors are the
 **ultrametric bulk**; the Archimedean sector is the
 boundary we experience.
 
-# Part III: Physics on
-Ultrametric Spaces
+# Part III: Physics on Ultrametric Spaces
 
-## Chapter 9: Ultrametric
-Quantum Mechanics
+## Chapter 9: Ultrametric Quantum Mechanics
 
 **Definition 9.1 (Hilbert space).** \(\mathcal{H}_p = L^2(\mathbb{Q}_p, d\mu)\),
 the space of square-integrable complex-valued functions with respect to
@@ -689,8 +675,7 @@ n\) of the Euclidean harmonic oscillator.
 p^{-t \cdot v_p(x-y)}\). The quantum mechanical propagator is
 obtained by analytic continuation.
 
-### 9.5 Comparison:
-Archimedean vs. Ultrametric QM
+### 9.5 Comparison: Archimedean vs. Ultrametric QM
 
 Feature |
 Archimedean QM |
@@ -725,8 +710,7 @@ Distance values |
 Continuous range |
 Discrete set |
 
-## Chapter 10:
-Ultrametric Quantum Field Theory
+## Chapter 10: Ultrametric Quantum Field Theory
 
 **Definition 10.1 (Scalar field).** A scalar field on
 ultrametric spacetime is a function \(\phi:
@@ -769,8 +753,7 @@ m^2}\]
 converges for any \(m > 0\), in
 contrast to the quadratically divergent Archimedean counterpart.
 
-### 10.5 p-Adic AdS/CFT
-Correspondence
+### 10.5 p-Adic AdS/CFT Correspondence
 
 The Bruhat–Tits tree \(\mathcal{T}_p\) — the infinite \((p+1)\)-regular tree — is the p-adic
 analogue of anti-de Sitter (AdS) space. Its boundary is \(\partial\mathcal{T}_p = \mathbb{P}^1(\mathbb{Q}_p)
@@ -787,8 +770,7 @@ p-adic conformal field theory on the boundary. The AdS/CFT dictionary
 translates between the Archimedean and ultrametric descriptions of
 physics.
 
-## Chapter
-11: Adelic Quantum Mechanics — The Unity Framework
+## Chapter 11: Adelic Quantum Mechanics — The Unity Framework
 
 **Postulate 3 (Adelic state space).**
 
@@ -846,8 +828,7 @@ contributes to \(\Lambda\) — this is
 **dark energy**. Both are calculable from p-adic dynamics,
 not added by hand.
 
-### 11.5
-Renormalization Group Flow with p-Adic Contributions
+### 11.5 Renormalization Group Flow with p-Adic Contributions
 
 **Theorem 11.5 (Adelic beta functions).** For a gauge
 theory with coupling \(g\):
@@ -867,8 +848,7 @@ functions, unify at \(M_{\text{GUT}} \approx 2
 staircase pattern** visible in precision measurements at future
 colliders.
 
-## Chapter
-11a: Adelic String Theory — The Veneziano Amplitude
+## Chapter 11a: Adelic String Theory — The Veneziano Amplitude
 
 ### The Original Clue
 
@@ -936,8 +916,7 @@ p^{-s})^{-1}\). Divergent sums in physics, when replaced by their
 adelic completions, become finite. The cosmological constant receives a
 natural exponentially small value from this regularization.
 
-## Chapter
-11b: Primordial Inflation from Tree Unfreezing
+## Chapter 11b: Primordial Inflation from Tree Unfreezing
 
 In the Unity framework, the early universe is described by the full
 adelic spacetime \(\mathcal{S} = \mathbb{R}
@@ -988,8 +967,7 @@ oscillations in Planck data have set upper limits \(A_2 < 0.01\) at 95% CL. CMB-
 improve sensitivity to \(A_2 <
 0.001\).
 
-## Chapter
-11c: The Thermal History of the Ultrametric Universe
+## Chapter 11c: The Thermal History of the Ultrametric Universe
 
 **Theorem 11c.1 (Phase transitions as tree level
 freeze-out).** As the universe cools from \(T \sim M_{\text{Pl}}\) to \(T \sim T_0\), p-adic tree levels freeze out
@@ -1035,11 +1013,9 @@ p^{-n} \Lambda_p\). For \(p=5\),
 \(\Omega_{\text{DM}} h^2 \sim 0.12\)
 via the thermal freeze-out mechanism translated to the tree setting.
 
-# Part IV: The Unity
-Architecture
+# Part IV: The Unity Architecture
 
-## Chapter 12: Spacetime
-as a Bruhat–Tits Tree
+## Chapter 12: Spacetime as a Bruhat–Tits Tree
 
 **Architecture Principle 1 (Tree spacetime).** At the
 Planck scale, continuous spacetime is replaced by a Bruhat–Tits tree —
@@ -1073,8 +1049,7 @@ energy \(E\), only tree levels with
 active. As energy increases, more levels unfreeze, increasing the
 effective dimensionality of spacetime.
 
-## Chapter 12b:
-Black Holes in Ultrametric Geometry
+## Chapter 12b: Black Holes in Ultrametric Geometry
 
 **Definition 12b.1 (Ultrametric black hole).** A black
 hole is a finite subtree \(\mathcal{B} \subset
@@ -1120,8 +1095,7 @@ formed in the early universe carry p-adic entropy. Their evaporation
 spectrum may show discrete features at frequencies \(f_n^{(p)} \sim p^{-n} f_{\text{Pl}}\),
 testable with gamma-ray telescopes (Fermi-LAT, HAWC, CTA).
 
-## Chapter 12c: The
-Tree Holographic Principle
+## Chapter 12c: The Tree Holographic Principle
 
 **Theorem 12c.1 (Tree holography).** The Bruhat–Tits
 tree \(\mathcal{T}_p\) of depth \(N\) is a **holographic
@@ -1158,11 +1132,9 @@ explicit, discrete realization of the holographic principle. The
 emergence of spacetime from the boundary is a theorem for tree
 geometries.
 
-## Chapter
-12d: Quantum Measurement on Ultrametric Trees
+## Chapter 12d: Quantum Measurement on Ultrametric Trees
 
-### Decoherence Without
-Observers
+### Decoherence Without Observers
 
 **Theorem 12d.1 (Tree-induced decoherence).** In
 ultrametric quantum mechanics, measurement is not a fundamental process
@@ -1200,8 +1172,7 @@ probability of outcome \(i\) is \(p_i = \rho_{ii}(t \to \infty) = |\langle i | \
 \rangle|^2\), recovering the Born rule from the unitary dynamics
 on the full tree + boundary system.
 
-## Chapter 13: From
-Trees to the Standard Model
+## Chapter 13: From Trees to the Standard Model
 
 **Architecture Principle 3 (Gauge symmetries from tree
 automorphisms).** Gauge fields are connections on the Bruhat–Tits
@@ -1279,11 +1250,9 @@ predicts **normal ordering** with \(m_1 < m_2 < m_3\), consistent with
 current global fits (\(\Delta\chi^2 \approx
 10\) in favor of normal ordering).
 
-## Chapter
-13b: The Higgs Mechanism on the Bruhat–Tits Tree
+## Chapter 13b: The Higgs Mechanism on the Bruhat–Tits Tree
 
-### The Higgs as a
-Boundary-to-Bulk Tunneling Field
+### The Higgs as a Boundary-to-Bulk Tunneling Field
 
 The scalar Higgs doublet is not a fundamental field living on the
 Archimedean boundary. It is the **zero-mode of a bulk scalar on
@@ -1310,8 +1279,7 @@ For \(N_{\text{EW}} \approx 112\):
 \(v \sim 10^{19} \cdot 2^{-56} \sim
 246\) GeV.
 
-### Tree-Induced Yukawa
-Couplings
+### Tree-Induced Yukawa Couplings
 
 Fermion Yukawa couplings arise from the overlap of the Higgs
 zero-mode with fermion wavefunctions at different tree depths: \(y_f = y_0 \cdot \langle \psi_f | \Phi_0 | \psi_f
@@ -1320,8 +1288,7 @@ zero-mode with fermion wavefunctions at different tree depths: \(y_f = y_0 \cdot
 at that depth couple strongly (top quark: \(y_t \sim 1\)), while fermions at shallower
 or deeper levels couple weakly (electron: \(y_e \sim 10^{-6}\)).
 
-## Chapter 13c: The
-Strong CP Problem and Axions
+## Chapter 13c: The Strong CP Problem and Axions
 
 ### The Problem
 
@@ -1353,8 +1320,7 @@ is:
 for \(N_{\text{QCD}} \approx 60\),
 naturally satisfying the experimental bound.
 
-### The Axion as a
-Tree-Level Winding Mode
+### The Axion as a Tree-Level Winding Mode
 
 **Theorem 13c.3 (Axion emergence).** The axion \(a(x)\) is the phase of the bulk scalar
 field that winds around closed loops in the tree: \(a(x) = f_a \cdot \theta_{\text{tree}}(x)\),
@@ -1376,11 +1342,9 @@ future haloscope experiments. The axion–photon coupling receives
 tree-dependent corrections that are calculable from the tree
 geometry.
 
-## Chapter 13d:
-Supersymmetry on the Tree
+## Chapter 13d: Supersymmetry on the Tree
 
-### Does the Tree Require
-Supersymmetry?
+### Does the Tree Require Supersymmetry?
 
 **Theorem 13d.1 (Tree SUSY).** The Bruhat–Tits tree
 admits a natural **grading** by tree depth: vertices at
@@ -1438,8 +1402,7 @@ spectrum should show **geometric mass splittings**: \(m_{\tilde{f}} \sim p^{\pm 
 This is a smoking-gun signature distinguishing tree SUSY from the
 MSSM.
 
-## Chapter 14: The Unity
-Equations
+## Chapter 14: The Unity Equations
 
 ### 14.1 The Unity Action
 
@@ -1481,8 +1444,7 @@ with the adelic covariant derivative \(D_\mu = \partial_\mu - i g_\infty A_\mu^{
 axion, and emergent SUSY sectors each contribute their respective
 actions as described in the preceding chapters.
 
-### 14.2 The Unity–Einstein
-Equations
+### 14.2 The Unity–Einstein Equations
 
 \[R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} +
 \Lambda g_{\mu\nu} = 8\pi G_N \left( T_{\mu\nu}^{(\infty)} + \sum_p
@@ -1509,11 +1471,9 @@ M_{\text{SUSY}})\]
 Staircase gauge coupling unification occurs at \(M_{\text{GUT}} \sim 2 \times 10^{16}\)
 GeV.
 
-## Chapter 14b:
-Quantum Gravity from Tree Fluctuations
+## Chapter 14b: Quantum Gravity from Tree Fluctuations
 
-### The Graviton as an
-Edge-Length Fluctuation
+### The Graviton as an Edge-Length Fluctuation
 
 In the Unity framework, gravity is not a separate force. It is the
 **dynamics of the tree geometry itself**.
@@ -1543,8 +1503,7 @@ emergent Lorentz group \(\mathrm{SO}(1,3)\). The “edge fluctuation”
 field transforms as a symmetric traceless tensor under this group — spin
 2.
 
-### Derivation of the
-Einstein–Hilbert Action
+### Derivation of the Einstein–Hilbert Action
 
 **Theorem 14b.3 (EH action from tree entropy).** The
 Einstein–Hilbert action emerges from the entanglement entropy of the
@@ -1567,8 +1526,7 @@ are automatically regulated. Perturbative quantum gravity, which is
 non-renormalizable in the continuum, becomes **finite and
 predictive** when the tree truncation is taken into account.
 
-## Chapter 14c: The
-Cosmological Constant Problem
+## Chapter 14c: The Cosmological Constant Problem
 
 ### The Problem
 
@@ -1602,8 +1560,7 @@ Its smallness is a consequence of the vastness of the tree — and the
 vastness is itself a consequence of the number of e-folds of tree
 inflation.
 
-## Chapter 14d:
-Grand Unification from Tree Branching
+## Chapter 14d: Grand Unification from Tree Branching
 
 ### \(\mathrm{SU}(5)\) from the \(p=2,3\) Trees
 
@@ -1638,8 +1595,7 @@ and \(M_{\text{GUT}} \approx 2 \times
 
 # Part V: Implementations
 
-## Chapter 15: Computational
-Architecture
+## Chapter 15: Computational Architecture
 
 ### 15.1 The Tree Computer
 
@@ -1843,8 +1799,7 @@ M_GUT = 2e16 GeV, N_GUT = 50, g_GUT = 0.5
 Super-K limit: > 1.6 × 10^{34} years (p → e⁺π⁰)
 Hyper-K sensitivity: ~10^{35} years
 
-## Chapter 15b:
-Quantum Error Correction on Trees
+## Chapter 15b: Quantum Error Correction on Trees
 
 **Theorem 15b.1 (Tree QECC).** The Bruhat–Tits tree is a
 **concatenated quantum error-correcting code**. Each vertex
@@ -1875,8 +1830,7 @@ computer built on the ultrametric architecture (Chapter 16, Architecture
 tree geometry itself encodes logical qubits redundantly across physical
 qudits.
 
-## Chapter 16: Physical
-Architectures
+## Chapter 16: Physical Architectures
 
 Architecture |
 Description |
@@ -1910,14 +1864,11 @@ leaf. Parent–child entangling gates, sibling permutation gates. Built-in
 QECC at hardware level (Chapter 15b). |
 Theory |
 
-# Part VI: Experimental
-Protocols
+# Part VI: Experimental Protocols
 
-## Chapter
-17: High-Energy Physics — Anomalies and Predictions
+## Chapter 17: High-Energy Physics — Anomalies and Predictions
 
-### Protocol 1:
-Step-like Cross Section at the LHC
+### Protocol 1: Step-like Cross Section at the LHC
 
 **Prediction:** For \(2 \to
 2\) scattering at center-of-mass energy \(\sqrt{s}\):
@@ -1953,16 +1904,14 @@ HL-LHC |
 — |
 3000 fb\(^{-1}\) |
 
-### Protocol 2: Lepton
-Universality Hierarchy
+### Protocol 2: Lepton Universality Hierarchy
 
 **Prediction:** \(R_K^{(e/\mu)} = 1 + \delta_2 + \delta_3\),
 \(R_K^{(\mu/\tau)} = 1 + \delta_3\),
 with \(\delta_2 \sim 10^{-2}\), \(\delta_3 \sim 10^{-3}\). LHCb Run 2: \(R_K = 0.846^{+0.044}_{-0.041}\), consistent
 with unity at \(1.5\sigma\).
 
-## Chapter 17a:
-Explaining Current Anomalies
+## Chapter 17a: Explaining Current Anomalies
 
 ### The Muon \(g-2\) Anomaly
 
@@ -2016,8 +1965,7 @@ channels is dictated by the p-adic character overlaps — a discriminating
 signature against generic \(Z'\) or
 leptoquark models.
 
-## Chapter 17b: Dark
-Matter Direct Detection
+## Chapter 17b: Dark Matter Direct Detection
 
 **Theorem 17b.1 (p-adic DM–nucleon cross-section).**
 
@@ -2067,8 +2015,7 @@ interpreted as p-adic DM, corresponds to \(d_2
 experiments. The Unity framework thus predicts that DAMA’s signal is not
 dark matter.
 
-## Chapter 17c: Future
-Collider Signatures
+## Chapter 17c: Future Collider Signatures
 
 Collider |
 \(\sqrt{s}\) |
@@ -2102,11 +2049,9 @@ Shower development anomalies |
 \sim 10^{36}\) yr for \(N_{\text{GUT}}
 = 50\). Within Hyper-Kamiokande reach.
 
-## Chapter 18: Cosmological
-Probes
+## Chapter 18: Cosmological Probes
 
-### Protocol 4: Dark
-Energy Equation of State
+### Protocol 4: Dark Energy Equation of State
 
 \[w(z) = -1 + \sum_p \eta_p \cdot
 \frac{1}{1 + e^{-\kappa(z - z_p)}}\]
@@ -2131,23 +2076,20 @@ Euclid, Roman |
 \(0.005 \pm 0.003\) |
 Roman |
 
-### Protocol 5: CMB
-Log-Periodic Oscillations
+### Protocol 5: CMB Log-Periodic Oscillations
 
 \(\Delta P(k) / P(k) = A_{\text{LP}}
 \cos(\omega_p \ln(k/k_*) + \phi_p)\) with \(\omega_2 = 9.06\), \(\omega_3 = 5.72\). Planck 2018: \(A_2 < 0.01\) (95% CL). CMB-S4
 sensitivity: \(A_2 < 0.001\).
 
-### Protocol 6:
-Gravitational Wave Background Steps
+### Protocol 6: Gravitational Wave Background Steps
 
 \(\Omega_{\text{GW}}(f)\) has steps
 at \(f_n = 2^{-n} f_0\). NANOGrav
 15-year data: common-spectrum process detected. Test step-like
 vs. power-law model by Bayes factor. LISA: sensitivity to \(f_0 \sim 10^{-3}\) Hz.
 
-## Chapter 18b: Baryon
-Asymmetry Calculation
+## Chapter 18b: Baryon Asymmetry Calculation
 
 **Theorem 18b.1 (Tree baryogenesis).** The
 baryon-to-photon ratio from \(p=2\)
@@ -2174,8 +2116,7 @@ wavefunction phases provide CP violation. 3.
 **Out-of-equilibrium:** Rapid freeze-out of tree levels at
 \(T_{\text{EW}}\) (Chapter 11c).
 
-## Chapter 18c:
-Reheating After Tree Inflation
+## Chapter 18c: Reheating After Tree Inflation
 
 **Theorem 18c.1 (Tree reheating).** After tree inflation
 ends, the inflaton field oscillates — corresponding to coherent
@@ -2196,8 +2137,7 @@ at \(f \sim T_{\text{RH}} / M_{\text{Pl}}
 shape of the peak, with tree-harmonic sub-peaks at multiples of \(2^{-n}\), distinguishes tree reheating from
 other mechanisms.
 
-## Chapter 19:
-Tabletop and Condensed Matter Protocols
+## Chapter 19: Tabletop and Condensed Matter Protocols
 
 ID |
 Protocol |
@@ -2264,8 +2204,7 @@ LISA |
 \(f \sim 10^{-3}\) Hz, tree
 harmonics |
 
-## Chapter 19b: Global
-Likelihood Framework
+## Chapter 19b: Global Likelihood Framework
 
 **Theorem 19b.1 (Combined test).** The eighteen
 protocols of the Unity framework can be combined into a single global
@@ -2326,8 +2265,7 @@ hypothesis.
 
 # Part VII: Appendices
 
-## Appendix A: Full Proofs
-of Key Theorems
+## Appendix A: Full Proofs of Key Theorems
 
 ### A.1 Boundedness Criterion
 
@@ -2388,8 +2326,7 @@ would have smaller absolute value \(<1\), contradicting minimality). For any
 
 ## Appendix B: Reference Tables
 
-### B.1: Tree–Gauge–GUT
-Correspondence
+### B.1: Tree–Gauge–GUT Correspondence
 
 Structure |
 Group |
@@ -2422,8 +2359,7 @@ grading |
 \(\mathcal{N}=1\) SUSY |
 Emergent supersymmetry |
 
-### B.2: Characteristic Energy
-Scales
+### B.2: Characteristic Energy Scales
 
 Depth \(n\) |
 \(\Lambda_n = 2^n\) GeV |
@@ -2461,14 +2397,9 @@ Higgs \(v^2\) |
 \(2.6 \times 10^{120}\) |
 Cosmological constant |
 
-### B.3: Experimental
-Scorecard — Eighteen Protocols
+### B.3: Experimental Scorecard — Eighteen Protocols
 
-# |
-Protocol |
-Experiment |
-Observable |
-Status |
+# | Protocol | Experiment | Observable | Status |
 
 P1 |
 Step \(\sigma(WW)\) at 2.5 TeV |
@@ -2579,8 +2510,7 @@ LISA |
 \(\Omega_{\text{GW}}(f)\) |
 2030s |
 
-## Appendix
-C: Comparison with Other Quantum Gravity Programs
+## Appendix C: Comparison with Other Quantum Gravity Programs
 
 Program |
 UV completion |
@@ -2654,8 +2584,7 @@ tree depth. 11. Quantum gravity as tree edge fluctuations — finite
 perturbative expansion. 12. Cosmological constant from tree-depth
 cancellation.
 
-## Appendix D: Glossary of
-Defined Terms
+## Appendix D: Glossary of Defined Terms
 
 Term |
 Definition |
@@ -2777,11 +2706,9 @@ factorizes adelically |
 =\|\xi\|_p^\alpha \hat{f}(\xi)\); p-adic pseudo-differential
 operator |
 
-## Appendix E: The
-Langlands Program Connection
+## Appendix E: The Langlands Program Connection
 
-### The Deepest Mathematical
-Structure
+### The Deepest Mathematical Structure
 
 The Langlands program is a vast web of conjectures connecting number
 theory, representation theory, and geometry. Its central object is the
@@ -2823,12 +2750,9 @@ structure appears independently in both number theory (Langlands) and
 physics (this document) strongly suggests that ultrametric geometry is
 the correct foundation for fundamental physics.
 
-## Appendix F:
-Systematic Objections and Responses
+## Appendix F: Systematic Objections and Responses
 
-### Objection
-1: “Ultrametric spaces are totally disconnected, but spacetime is
-clearly continuous.”
+### Objection 1: “Ultrametric spaces are totally disconnected, but spacetime is clearly continuous.”
 
 **Response.** The continuity of spacetime is an
 **emergent, large-scale property**. The total
@@ -2839,9 +2763,7 @@ the discrete atomic structure of matter appears continuous. That we
 experience spacetime as continuous is a feature of the framework — it
 explains why continuity emerges — not a bug.
 
-### Objection
-2: “There is no experimental evidence for p-adic or ultrametric
-physics.”
+### Objection 2: “There is no experimental evidence for p-adic or ultrametric physics.”
 
 **Response.** This document lists **eighteen
 specific, falsifiable experimental protocols** — several of which
@@ -2851,9 +2773,7 @@ at \(\sim 4.2\sigma\), CDF \(M_W\) at \(\sim
 \(\sim 2\text{--}3\sigma\)). The
 framework is testable with current and near-future experiments.
 
-### Objection
-3: “The theory has too many free parameters (tree depths,
-couplings).”
+### Objection 3: “The theory has too many free parameters (tree depths, couplings).”
 
 **Response.** The apparent parameters are **not
 independent** — they are determined by the underlying tree
@@ -2863,8 +2783,7 @@ related by \(N_p \approx
 reveal these correlations. If the correlations are not observed, the
 framework is falsified.
 
-### Objection 4: “Why these
-primes? Why 2, 3, 5?”
+### Objection 4: “Why these primes? Why 2, 3, 5?”
 
 **Response.** The primes 2 and 3 are selected by the
 requirement that the tree valence be small enough to produce the
@@ -2876,8 +2795,7 @@ accessible energies. At sufficiently high energies, **all primes
 become active** — a testable prediction for cosmic-ray and
 far-future collider physics.
 
-### Objection
-5: “This is mathematically elegant but physically speculative.”
+### Objection 5: “This is mathematically elegant but physically speculative.”
 
 **Response.** What distinguishes a productive
 speculation from an unproductive one is **falsifiability**.
@@ -2885,9 +2803,7 @@ The Unity framework makes eighteen specific, quantitative predictions.
 That is more than can be said for many established research programs.
 The experiments will decide.
 
-### Objection
-6: “The Veneziano amplitude factorization is a mathematical curiosity,
-not a physical necessity.”
+### Objection 6: “The Veneziano amplitude factorization is a mathematical curiosity, not a physical necessity.”
 
 **Response.** The adelic factorization of the Veneziano
 amplitude is a mathematical **fact**. The question is
@@ -2900,11 +2816,9 @@ theory that claims to describe measurement outcomes. The Unity framework
 is the minimal physical theory that respects the full adelic structure
 of \(\mathbb{Q}\).
 
-## Appendix G: Implementation
-Roadmap
+## Appendix G: Implementation Roadmap
 
-### Phase I (2026–2030):
-Consolidation
+### Phase I (2026–2030): Consolidation
 
 **LHC Run 3:** Search for step-like \(\sigma(WW)\) at \(\sim 2.5\) TeV. Publish template fits.
 
@@ -2921,8 +2835,7 @@ fixed \(\omega_2 = 9.06\), \(\omega_3 = 5.72\).
 **NANOGrav 15-year:** Bayes factor for step-like
 vs. power-law GW background.
 
-### Phase II (2030–2040):
-Precision
+### Phase II (2030–2040): Precision
 
 **HL-LHC:** 3000 fb\(^{-1}\). Test \(\Lambda_2\), \(\Lambda_3\) steps at \(5\sigma\).
 
@@ -2942,8 +2855,7 @@ sub-peaks.
 
 **ADMX-G2:** Axion search in classic window.
 
-### Phase III (2040+):
-Confrontation
+### Phase III (2040+): Confrontation
 
 **FCC-hh:** \(\sqrt{s} =
 100\) TeV. Test \(\Lambda_5\)
@@ -3047,8 +2959,3 @@ studying its shadow on the cave wall.
 definition is given in place. Every theorem is proved or sketched. No
 prior knowledge is assumed beyond the willingness to follow a chain of
 reasoning from nothing to everything.*
-
-## Prior Work and Related Literature
-
-This work builds on the following related research:
-

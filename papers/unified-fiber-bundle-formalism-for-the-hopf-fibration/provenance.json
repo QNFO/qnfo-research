@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "unified-fiber-bundle-formalism-for-the-hopf-fibration",
+  "paper": {
+    "path": "papers/unified-fiber-bundle-formalism-for-the-hopf-fibration/paper.md",
+    "title": "UNIFIED FIBER BUNDLE FORMALISM FOR THE HOPF FIBRATION",
+    "url": "https://papers.qnfo.org/papers/unified-fiber-bundle-formalism-for-the-hopf-fibration"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "unified-fiber-bundle-formalism-for-the-hopf-fibration"
+  },
+  "snapshots": [
+    {
+      "sha256": "c2e8923d9a9ec9b7e0a91b251c52327aef34a7b8f1773163767b352fea7954e7",
+      "bytes": 232938,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

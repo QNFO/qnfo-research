@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "unified-formal-ontology-of-the-correlated-universe",
+  "paper": {
+    "path": "papers/unified-formal-ontology-of-the-correlated-universe/paper.md",
+    "title": "UNIFIED FORMAL ONTOLOGY OF THE CORRELATED UNIVERSE",
+    "url": "https://papers.qnfo.org/papers/unified-formal-ontology-of-the-correlated-universe"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "unified-formal-ontology-of-the-correlated-universe"
+  },
+  "snapshots": [
+    {
+      "sha256": "c2d34bacb80adb8c123ccb36bc3d6a8d043f7f64d43faf9d08cdc242564c225e",
+      "bytes": 326562,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

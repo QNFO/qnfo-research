@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "unified-theory-of-non-archimedean-ontology",
+  "paper": {
+    "path": "papers/unified-theory-of-non-archimedean-ontology/paper.md",
+    "title": "Unified Theory of Non-Archimedean Ontology",
+    "url": "https://papers.qnfo.org/papers/unified-theory-of-non-archimedean-ontology"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "unified-theory-of-non-archimedean-ontology"
+  },
+  "snapshots": [
+    {
+      "sha256": "b69ecdaaed84c3595fb9021958d7436e3c2ece888a67dbbb420baacc4f0e58ab",
+      "bytes": 189989,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
