@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "topology-of-quanta",
+  "paper": {
+    "path": "papers/topology-of-quanta/paper.md",
+    "title": "Topology of Quanta",
+    "url": "https://papers.qnfo.org/papers/topology-of-quanta"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "topology-of-quanta"
+  },
+  "snapshots": [
+    {
+      "sha256": "a05ec3adae37a905c6ecc2fe400ac36fc58e734ca01645c769cb9fc63f5addb4",
+      "bytes": 61647,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
