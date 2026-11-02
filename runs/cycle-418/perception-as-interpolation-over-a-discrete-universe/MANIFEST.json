@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-2a663687-b5b8-4dd9-8d65-feac2b7bcce7",
+    "slug": "perception-as-interpolation-over-a-discrete-universe",
+    "cycle": "cycle-418",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.44.3",
+    "finished_at": "2026-11-02T00:41:03.716Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "9121d94772691a3e814f8762a926440ab0a6474d933120ead07bd6ef5164cdb8",
+      "bytes": 52019,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "09fe0cf3d6fa85f6eab8d79171e3b4512fad351122c97feb2bfe6e73186d9b1c",
+      "bytes": 31241,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "c11459af9767a33dc10b8ea04c1293ffdacdd34a8b24f7e264d4214229a5afb5",
+      "bytes": 4722,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "1ef6ea4ab84562aff3d4b9e9d929af5a59b587af9bcdae7d80c69af6560c44df",
+      "bytes": 747,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "67a4727934887578803c9d3a91b9a146aba64dcba70e1279d53ebc0e29025c8b",
+      "bytes": 4587,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "6b0c45d4c557c9ac61a8e7c0f4711d9cedea03e46167fc02c86dfb1c973ef65c",
+      "bytes": 873,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "6938bc6563616f15c9f40d246be6be7be242d2a7b38dcbcb6faab12a56123a19",
+      "bytes": 14151,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "4cba0f839723d97a6c0333c5053f11b8722ec438c61bde824c22e7dff8a1cc57",
+      "bytes": 28240,
+      "role": "draft"
+    }
+  }
+}

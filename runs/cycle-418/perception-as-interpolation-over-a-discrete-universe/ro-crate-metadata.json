@@ -1,0 +1,436 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-418: Perception as Interpolation over a Discrete Universe",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-418",
+      "qnfo:runPath": "runs/cycle-418/perception-as-interpolation-over-a-discrete-universe",
+      "qnfo:slug": "perception-as-interpolation-over-a-discrete-universe",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-02T00:41:03.716Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/perception-as-interpolation-over-a-discrete-universe"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/perception-as-interpolation-over-a-discrete-universe",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Perception as Interpolation over a Discrete Universe",
+      "url": "https://papers.qnfo.org/papers/perception-as-interpolation-over-a-discrete-universe"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1003.5890",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1003.5890"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1405.1293",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1405.1293"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1405.3707",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1405.3707"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.09606",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.09606"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1712.02224",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1712.02224"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.12097",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.12097"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1906.08358",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1906.08358"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.06882",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.06882"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2112.02716",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2112.02716"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.09057",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.09057"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.07935",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.07935"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.01033",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.01033"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2157",
+      "sha256": "774f96f94b136c8b6f594c39297bd42be6d3668b5c1e8a4fe080bfd6522e5e9d",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52019",
+      "sha256": "9121d94772691a3e814f8762a926440ab0a6474d933120ead07bd6ef5164cdb8",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "31241",
+      "sha256": "09fe0cf3d6fa85f6eab8d79171e3b4512fad351122c97feb2bfe6e73186d9b1c",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4722",
+      "sha256": "c11459af9767a33dc10b8ea04c1293ffdacdd34a8b24f7e264d4214229a5afb5",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "747",
+      "sha256": "1ef6ea4ab84562aff3d4b9e9d929af5a59b587af9bcdae7d80c69af6560c44df",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4587",
+      "sha256": "67a4727934887578803c9d3a91b9a146aba64dcba70e1279d53ebc0e29025c8b",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "873",
+      "sha256": "6b0c45d4c557c9ac61a8e7c0f4711d9cedea03e46167fc02c86dfb1c973ef65c",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14151",
+      "sha256": "6938bc6563616f15c9f40d246be6be7be242d2a7b38dcbcb6faab12a56123a19",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28240",
+      "sha256": "4cba0f839723d97a6c0333c5053f11b8722ec438c61bde824c22e7dff8a1cc57",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1003.5890"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1405.1293"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1405.3707"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.09606"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1712.02224"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.12097"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1906.08358"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.06882"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2112.02716"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.09057"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.07935"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.01033"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-11-02T00:41:03.716Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
