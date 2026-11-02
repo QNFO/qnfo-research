@@ -1,10 +1,10 @@
 # Quantitative Integrity and Reliability Modeling of the Quniverse Autonomous Research Fleet
 
 ## Abstract
+
 Autonomous research fleets must keep serverless worker scripts, databases, and storage buckets operational while publishing cost and performance metrics that external stakeholders can trust. Existing studies treat fleet sizing, failure propagation, and claim validation separately, leaving operators without a unified decision framework. This work fills the gap by presenting an integrated analytical model that jointly captures reliability, monetary impact, and claim‑integrity auditing for the Quniverse fleet. The model combines a Bernoulli failure‑propagation formulation with a mitigation factor derived from the fleet’s own self‑heal and handoff counts, aggregates resource consumption, computes a weighted composite autonomy score, and recomputes every quantitative claim in the fleet’s retraction notice with explicit arithmetic and unit‑dimension checks. Using the count‑derived mitigation factor $\alpha = 1{,}889/(1{,}889+1{,}264) \approx 0.5991$, the model yields an expected $E[F]=1.732$ unresolved worker‑script failures per month (standard deviation $\approx1.284$), a corpus productivity of $9.65$ papers per active project, a high‑severity gap proportion of $11.9\%$, and a baseline composite autonomy score of $4.26$ that rises to $4.66$ when the per‑worker failure probability is halved. The billing‑unit error inflates the perceived monthly spend to $\$11{,}000$, representing a $73.3$‑fold violation of the $\$150$ cap, a $122.2$‑fold violation of the $\$90$ per‑30‑day gate, and a $22.2\%$ exceedance of the gate after correcting the spend to $\$110$. These analytically derived levers enable platform operators, funders, and auditors to size monitoring, budget accurately, and enforce claim integrity at **TRL 2**.
 
-## 1. Introduction
-Platform operators of the Quniverse autonomous research fleet run a continuously active collection of thirty‑six serverless worker scripts, ten SQLite databases, eight vector indexes, and nineteen object‑storage buckets that generate and publish scientific content without human intervention. Two intertwined problems currently block the fleet’s value. First, unplanned downtime arises from script failures and drift between the service registry and the deployed code; failures that escape both the self‑healing layer and human notice accumulate silently. Second, self‑reported metrics may be unreliable. An operator who cannot trust either the failure counts or the dollar figures cannot budget, cannot set alert thresholds, and cannot demonstrate compliance to a funder.
+## 1. Introduction Platform operators of the Quniverse autonomous research fleet run a continuously active collection of thirty‑six serverless worker scripts, ten SQLite databases, eight vector indexes, and nineteen object‑storage buckets that generate and publish scientific content without human intervention. Two intertwined problems currently block the fleet’s value. First, unplanned downtime arises from script failures and drift between the service registry and the deployed code; failures that escape both the self‑healing layer and human notice accumulate silently. Second, self‑reported metrics may be unreliable. An operator who cannot trust either the failure counts or the dollar figures cannot budget, cannot set alert thresholds, and cannot demonstrate compliance to a funder.
 
 If the fleet could reduce its unresolved failure rate, align cost reporting with the actual monetary units, and attach a provenance check to every quantitative claim it publishes, three things would change: research velocity would rise because fewer failures interrupt pipelines, operational cost would fall because failure‑driven overruns would be bounded, and stakeholder trust would be restored because every published number could be recomputed from stated inputs. Conversely, if the reliability model proposed here is wrong, a month of monitoring will show it, and the operator will have lost only the cost of reading a log file.
 
@@ -15,8 +15,7 @@ If the fleet could reduce its unresolved failure rate, align cost reporting with
 - **C4.** Recompute every quantitative claim of the retraction notice, separating the cap‑relative ratio ($73.3$‑fold), the cap‑relative excess ($72.3$‑fold), the gate‑relative ratio ($122.2$‑fold), and the corrected‑spend gate exceedance ($22.2\%$) (Section 4.7–4.9).  
 - **C5.** Specify a minimal pilot—a 30‑day failure‑count measurement and a billing‑feed unit‑dimension check—with explicit refutation thresholds (Section 9.3).
 
-## 2. Background and Related Work
-Analytical reliability and cost modeling provide the methodological foundation of this study.
+## 2. Background and Related Work Analytical reliability and cost modeling provide the methodological foundation of this study.
 
 * **[1]** surveys reliability modeling techniques for communication networks, describing analytical, simulation, and formal‑method approaches such as reliability block diagrams, fault trees, Markov chains, and Bayesian networks. These techniques motivate our choice of a closed‑form Bernoulli model for script failures.  
 * **[2]** studies trajectory‑aware reliability modeling of democratic systems and emphasizes cascading degradation across interacting components. The notion of stress propagation parallels our failure‑propagation formulation where a baseline failure probability is attenuated by a self‑heal factor.  
@@ -30,8 +29,7 @@ Analytical reliability and cost modeling provide the methodological foundation o
 
 Collectively, these works supply building blocks for an integrated analytical framework that addresses reliability, cost, and claim integrity together.
 
-## 3. Methods
-The analytical pipeline consists of four deterministic modules, each expressed in closed form. All calculations are performed symbolically and then evaluated numerically with the input values listed in Section 4. No empirical measurements are introduced.
+## 3. Methods The analytical pipeline consists of four deterministic modules, each expressed in closed form. All calculations are performed symbolically and then evaluated numerically with the input values listed in Section 4. No empirical measurements are introduced.
 
 ### 3.1 Failure‑Propagation Model
 Each of the $N_w$ worker scripts experiences a baseline failure probability $p_f$ per month. A fraction $\alpha$ of failures are resolved automatically (self‑heal). The effective unresolved‑failure probability is  
@@ -53,14 +51,11 @@ A weighted linear model combines three sub‑scores:
 $$C = w_c S_c + w_{sh} S_{sh} + w_{oc} S_{oc},$$  
 with weights $w_c=0.4$, $w_{sh}=0.3$, $w_{oc}=0.3$ taken from the fleet’s internal assessment. Baseline sub‑scores are $S_c=4.5$, $S_{sh}=4.0$, $S_{oc}=4.2$. A $50\%$ reduction in failure probability is modeled as a uniform sub‑score increment $\Delta=0.4$, yielding $S_c'=4.9$, $S_{sh}'=4.4$, $S_{oc}'=4.6$.
 
-### 3.4 Claim‑Integrity Recomputation
-For each quantitative claim extracted from the retraction notice we: (i) parse the quoted numbers; (ii) reconstruct the asserted arithmetic relation; (iii) recompute the relation step‑by‑step; (iv) apply unit‑dimension checks to monetary feeds (a value quoted in dollars must be traceable to a source quoted in the same unit, and a cents‑to‑dollars conversion must divide by $100$); and (v) assign a provenance class following the taxonomy used in the original study. Every ratio reported in Sections 4.7–4.9 names its denominator explicitly, preventing conflation of distinct baselines.
+### 3.4 Claim‑Integrity Recomputation For each quantitative claim extracted from the retraction notice we: (i) parse the quoted numbers; (ii) reconstruct the asserted arithmetic relation; (iii) recompute the relation step‑by‑step; (iv) apply unit‑dimension checks to monetary feeds (a value quoted in dollars must be traceable to a source quoted in the same unit, and a cents‑to‑dollars conversion must divide by $100$); and (v) assign a provenance class following the taxonomy used in the original study. Every ratio reported in Sections 4.7–4.9 names its denominator explicitly, preventing conflation of distinct baselines.
 
-## 4. Analysis
-All arithmetic steps are shown explicitly; no hidden approximations are used.
+## 4. Analysis All arithmetic steps are shown explicitly; no hidden approximations are used.
 
-### 4.1 Expected Failures per Month and the Count‑Derived Mitigation Factor
-Inputs: $N_w=36$ (fleet registry), $p_f=0.12$ (assumed per‑worker monthly failure probability), $H=1{,}889$ self‑heal actions, $X=1{,}264$ handoff actions (retraction‑notice counts).
+### 4.1 Expected Failures per Month and the Count‑Derived Mitigation Factor Inputs: $N_w=36$ (fleet registry), $p_f=0.12$ (assumed per‑worker monthly failure probability), $H=1{,}889$ self‑heal actions, $X=1{,}264$ handoff actions (retraction‑notice counts).
 
 **Mitigation factor from counts.**  
 $$N_{\text{total}} = H + X = 1{,}889 + 1{,}264 = 3{,}153,$$  
@@ -82,18 +77,15 @@ If $\alpha=0.5$ were used, $p_{\text{eff}}^{(0.5)} = 0.12 \times 0.5 = 0.06$, $E
 
 **Sensitivity.** $E[F]$ is linear in both $p_f$ and $(1-\alpha)$. Halving $p_f$ to $0.06$ gives $E[F]=36 \times 0.06 \times 0.400886 = 0.865922 \approx 0.866$. A one‑percentage‑point change in $p_f$ changes $E[F]$ by $36 \times 0.01 \times 0.400886 = 0.144$ failures per month. A change $\Delta\alpha$ changes $E[F]$ by $-36 \times 0.12 \times \Delta\alpha = -4.32\,\Delta\alpha$; for example, reverting from $\alpha=0.5991$ to $\alpha=0.5$ ($\Delta\alpha=-0.0991$) raises $E[F]$ by $0.428$, matching the difference above.
 
-### 4.2 Papers per Active Project
-Inputs: total papers $P_{\text{total}}=917$, active projects $N_{\text{proj}}=95$.  
+### 4.2 Papers per Active Project Inputs: total papers $P_{\text{total}}=917$, active projects $N_{\text{proj}}=95$. 
 
 $$\frac{P_{\text{total}}}{N_{\text{proj}}}= \frac{917}{95}=9.6526\approx 9.65\ \text{papers/project}.$$
 
-### 4.3 High‑Severity Gap Proportion
-Inputs: high‑severity gaps $G_{\text{high}}=5$, total gaps $G_{\text{total}}=42$.  
+### 4.3 High‑Severity Gap Proportion Inputs: high‑severity gaps $G_{\text{high}}=5$, total gaps $G_{\text{total}}=42$. 
 
 $$\frac{G_{\text{high}}}{G_{\text{total}}}= \frac{5}{42}=0.119048\approx 11.9\%.$$
 
-### 4.4 Storage Aggregation
-Inputs: $S_{db}=304\ \text{MB}$, vector‑index rows $34{,}657$ at $512\ \text{B}$ per row.  
+### 4.4 Storage Aggregation Inputs: $S_{db}=304\ \text{MB}$, vector‑index rows $34{,}657$ at $512\ \text{B}$ per row. 
 
 $$S_{vi}=34{,}657 \times 512\ \text{B}=17{,}744{,}384\ \text{B}.$$
 
@@ -103,8 +95,7 @@ $$S_{vi}= \frac{17{,}744{,}384}{1{,}048{,}576}=16.92236328\ \text{MiB}\approx 16
 Assuming MB–MiB interchangeability:  
 $$S_{\text{tot}} = 304 + 16.922 \approx 320.9\ \text{MB}.$$
 
-### 4.5 Composite Autonomy Score
-Baseline sub‑scores $S_c=4.5$, $S_{sh}=4.0$, $S_{oc}=4.2$; weights $w_c=0.4$, $w_{sh}=0.3$, $w_{oc}=0.3$.  
+### 4.5 Composite Autonomy Score Baseline sub‑scores $S_c=4.5$, $S_{sh}=4.0$, $S_{oc}=4.2$; weights $w_c=0.4$, $w_{sh}=0.3$, $w_{oc}=0.3$. 
 
 Baseline score:  
 $$C_{\text{base}} = 0.4\times4.5 + 0.3\times4.0 + 0.3\times4.2 = 4.26.$$
@@ -116,8 +107,7 @@ $$C_{\text{new}} = 0.4\times4.9 + 0.3\times4.4 + 0.3\times4.6 = 4.66.$$
 
 Increment: $C_{\text{new}}-C_{\text{base}} = 0.40$.
 
-### 4.6 Monthly Gateway Spend Projection
-Assumptions: documented cap $S_{\text{cap}}=150$ dollars, extra cost per unresolved failure $c_f=5$ dollars (both from the retraction notice).
+### 4.6 Monthly Gateway Spend Projection Assumptions: documented cap $S_{\text{cap}}=150$ dollars, extra cost per unresolved failure $c_f=5$ dollars (both from the retraction notice).
 
 **Baseline projection (count‑derived $\alpha$).**  
 $$E_{\text{extra}} = 1.731828 \times 5 = 8.65914 \approx \$8.66,$$  
@@ -129,13 +119,11 @@ $$S_{\text{proj}}' = 150 + 4.33 = \$154.33.$$
 
 For reference, using the unsupported $\alpha=0.5$ would give $E_{\text{extra}}=10.80$ and $S_{\text{proj}}=\$160.80$; the count‑derived factor therefore lowers projected spend by $\$2.14$.
 
-### 4.7 Billing‑Unit Misread
-Inputs: unit‑error factor $f_{\text{unit}}=100$ (cents interpreted as dollars), corrected spend $S_{\text{corr}}=\$110$.  
+### 4.7 Billing‑Unit Misread Inputs: unit‑error factor $f_{\text{unit}}=100$ (cents interpreted as dollars), corrected spend $S_{\text{corr}}=\$110$. 
 
 $$S_{\text{misread}} = f_{\text{unit}} \times S_{\text{corr}} = 100 \times 110 = \$11{,}000.$$
 
-### 4.8 Cap‑Violation Ratio and Excess
-Cap $C_{\text{cap}}=\$150$.
+### 4.8 Cap‑Violation Ratio and Excess Cap $C_{\text{cap}}=\$150$.
 
 * **Ratio (misread spend as a multiple of the cap):**  
 $$\frac{S_{\text{misread}}}{C_{\text{cap}}}= \frac{11{,}000}{150}=73.333\approx 73.3\ \text{fold}.$$
@@ -143,8 +131,7 @@ $$\frac{S_{\text{misread}}}{C_{\text{cap}}}= \frac{11{,}000}{150}=73.333\approx 
 * **Excess relative to the cap (how many times the cap is exceeded):**  
 $$\frac{S_{\text{misread}}-C_{\text{cap}}}{C_{\text{cap}}}= \frac{11{,}000-150}{150}= \frac{10{,}850}{150}=72.333\approx 72.3\ \text{fold}.$$
 
-### 4.9 Gate Exceedance
-Gate $G_{\text{gate}}=\$90$ per 30 days.
+### 4.9 Gate Exceedance Gate $G_{\text{gate}}=\$90$ per 30 days.
 
 * **Gate‑relative ratio (misread spend):**  
 $$\frac{S_{\text{misread}}}{G_{\text{gate}}}= \frac{11{,}000}{90}=122.222\approx 122.2\ \text{fold}.$$
@@ -154,8 +141,7 @@ $$\text{Exceedance}= \frac{110-90}{90}\times100 = 22.222\%\approx 22.2\%.$$
 
 All arithmetic steps are shown; no hidden approximations are used.
 
-## 5. Results
-The analytical derivations of Section 4 produce the quantitative outcomes listed below.
+## 5. Results The analytical derivations of Section 4 produce the quantitative outcomes listed below.
 
 | Result | Value | Interpretation |
 |--------|-------|----------------|
@@ -382,8 +368,7 @@ The analysis rests on explicit assumptions, each with a stated sensitivity:
 7. **Independence of failures** under the Bernoulli formulation; correlated failures could alter $E[F]$ and $\sigma_F$.  
 8. **Binomial dispersion** assumes equal per‑worker failure probabilities; heterogeneity would inflate variance.
 
-### 8.2 Potential Failure Modes
-The central claim—that halving $p_f$ improves autonomy and reduces spend—would be falsified if a 30‑day monitoring window showed an observed failure count $F_{\text{obs}}$ deviating from $1.732$ by more than $\pm0.5$, or if the billing conversion yielded a factor other than $100$. A second failure mode is structural: if failures are correlated, the binomial variance underestimates tail risk. A third is cost attribution: if observed spend remains near $158.66$ dollars after reducing $p_f$, the linear cost model is insufficient.
+### 8.2 Potential Failure Modes The central claim—that halving $p_f$ improves autonomy and reduces spend—would be falsified if a 30‑day monitoring window showed an observed failure count $F_{\text{obs}}$ deviating from $1.732$ by more than $\pm0.5$, or if the billing conversion yielded a factor other than $100$. A second failure mode is structural: if failures are correlated, the binomial variance underestimates tail risk. A third is cost attribution: if observed spend remains near $158.66$ dollars after reducing $p_f$, the linear cost model is insufficient.
 
 ### 8.3 Open Questions
 * How does correlation among worker failures affect the aggregate failure count and its variance?  
@@ -397,11 +382,9 @@ The central claim—that halving $p_f$ improves autonomy and reduces spend—wou
 * **Funders and auditors** can rely on the corrected spend figures to assess compliance with the $\$90$ per‑30‑day cost gate and allocate budgets accurately.  
 * **Developers of autonomous agents** can treat the composite autonomy score improvement (from $4.26$ to $4.66$) as a concrete target when refining self‑healing mechanisms and claim‑integrity pipelines.
 
-### 9.2 Technology Readiness Level
-The work is purely analytical, peer‑review‑free, and therefore resides at **TRL 2** (concept formulation and basic analytical studies). Analytical work never exceeds TRL 3.
+### 9.2 Technology Readiness Level The work is purely analytical, peer‑review‑free, and therefore resides at **TRL 2** (concept formulation and basic analytical studies). Analytical work never exceeds TRL 3.
 
-### 9.3 Minimal Next Experiment
-A pilot study would:
+### 9.3 Minimal Next Experiment A pilot study would:
 
 1. **Measure** the actual number of worker‑script failures over a 30‑day window, recording both raw failure events and self‑heal actions.  
 2. **Verify** the billing feed by extracting raw usage in cents and converting to dollars, checking for unit‑dimension consistency.
@@ -413,8 +396,7 @@ If the observed failure count lies outside $[1.66,\,2.66]$ or the billing conver
 * **Billing API access** is required to retrieve raw usage in the original monetary unit (cents).  
 * **Configuration control** to adjust $p_f$ (e.g., by deploying updated health‑check scripts) is needed to test the $50\%$ reduction scenario.
 
-### 9.5 Projected Cost Bounds (Assumptions Stated)
-Assuming the baseline cap $S_{\text{cap}} = 150$ dollars, cost per failure $c_f = 5$ dollars, and the derived $E[F]$ values:
+### 9.5 Projected Cost Bounds (Assumptions Stated) Assuming the baseline cap $S_{\text{cap}} = 150$ dollars, cost per failure $c_f = 5$ dollars, and the derived $E[F]$ values:
 
 * **Baseline projection:** $S_{\text{proj}} = 150 + 1.732 \times 5 = \$158.66$.  
 * **Improved projection:** $S_{\text{proj}}' = 150 + 0.866 \times 5 = \$154.33$.
@@ -428,8 +410,7 @@ These bounds hold provided the failure probability and mitigation factor remain 
 
 Mitigation strategies include periodic empirical validation (Section 9.3) and automated unit‑dimension checks integrated into the deployment pipeline.
 
-## 10. Conclusion
-An integrated analytical framework has been constructed to assess reliability, cost, and claim integrity for the Quniverse autonomous research fleet. By modeling worker‑script failures as Bernoulli trials with a count‑derived self‑heal mitigation factor, aggregating resource consumption, and recomputing all self‑reported quantitative claims, the study identifies concrete levers for improvement:
+## 10. Conclusion An integrated analytical framework has been constructed to assess reliability, cost, and claim integrity for the Quniverse autonomous research fleet. By modeling worker‑script failures as Bernoulli trials with a count‑derived self‑heal mitigation factor, aggregating resource consumption, and recomputing all self‑reported quantitative claims, the study identifies concrete levers for improvement:
 
 * Expected monthly failures are modest ($1.732$) but non‑trivial, suggesting targeted reliability engineering.  
 * Halving the per‑worker failure probability raises the composite autonomy score from $4.26$ to $4.66$ and lowers projected gateway spend from $\$158.66$ to $\$154.33$.  

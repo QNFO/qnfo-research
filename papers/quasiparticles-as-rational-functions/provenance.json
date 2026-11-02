@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quasiparticles-as-rational-functions",
+  "paper": {
+    "path": "papers/quasiparticles-as-rational-functions/paper.md",
+    "title": "Quasiparticles as Rational Functions: Extending ODR to Condensed Matter",
+    "url": "https://papers.qnfo.org/papers/quasiparticles-as-rational-functions"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quasiparticles-as-rational-functions"
+  },
+  "snapshots": [
+    {
+      "sha256": "fb8d34956000c5b35b457bd0940a2f93f61479e21040782d16f3614401328571",
+      "bytes": 18719,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

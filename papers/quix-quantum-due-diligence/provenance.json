@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quix-quantum-due-diligence",
+  "paper": {
+    "path": "papers/quix-quantum-due-diligence/paper.md",
+    "title": "Due Diligence Report: QuiX Quantum",
+    "url": "https://papers.qnfo.org/papers/quix-quantum-due-diligence"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quix-quantum-due-diligence"
+  },
+  "snapshots": [
+    {
+      "sha256": "63e41f37a1f5db2d37e6cb67b927a9250e7fc5c3431bbef5a89028f243f2d77a",
+      "bytes": 25509,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

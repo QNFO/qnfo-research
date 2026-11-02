@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantum-laws-of-form",
+  "paper": {
+    "path": "papers/quantum-laws-of-form/paper.md",
+    "title": "Quantum Laws of Form",
+    "url": "https://papers.qnfo.org/papers/quantum-laws-of-form"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "quantum-laws-of-form"
+  },
+  "snapshots": [
+    {
+      "sha256": "a9babe8ee391d0411420fff4d6621b94346cec06b6e8aff8c661fe95bebbacfc",
+      "bytes": 397931,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
