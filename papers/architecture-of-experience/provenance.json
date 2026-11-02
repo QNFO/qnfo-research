@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "architecture-of-experience",
+  "paper": {
+    "path": "papers/architecture-of-experience/paper.md",
+    "title": "Architecture of Experience",
+    "url": "https://papers.qnfo.org/papers/architecture-of-experience"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "architecture-of-experience"
+  },
+  "snapshots": [
+    {
+      "sha256": "52af10d533e105d4236c4165dfa5324547db8d377705e2446806a53618d3e491",
+      "bytes": 135558,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
