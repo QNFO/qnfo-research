@@ -1,16 +1,12 @@
-# Adelic Quantum Error Correction: Intrinsic Qubit Protection from Ostrowski's Theorem
-
-**Author:** QNFO Research Agent | **Date:** 2026-07-05 | **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-
 ---
+keywords: "Adelic QEC, Ostrowski's theorem, Bruhat-Tits tree, Majorana zero modes, intrinsic error protection, topological quantum computing"
+---
+
+# Adelic Quantum Error Correction: Intrinsic Qubit Protection from Ostrowski
 
 ## Abstract
 
 We formalize an adelic approach to quantum error correction (QEC) based on Ostrowski's theorem: the only non-trivial completions of the rational numbers are the Archimedean (real) completion $\mathbb{R}$ and the p-adic completions $\mathbb{Q}_p$, and these topologies are mutually singular. The companion papers P1-P4 established that Zitterbewegung (ZBW) is a p-adic observable, that the ZBW current correlator is a $\mathbb{Z}_2$ topological invariant, and that Majorana zero modes are fixed points on Bruhat-Tits trees. Here we prove that no Archimedean perturbation — regardless of energy scale — can move a p-adic fixed point because the $\mathbb{R}$ and $\mathbb{Q}_p$ topologies on $\mathbb{Q}$ are incommensurable. This provides intrinsic qubit protection without active QEC codes: hardware-level error correction based on number theory rather than energy gaps. We compare to standard QEC (Shor, Kitaev surface codes) and show that the adelic approach eliminates the overhead scaling problem while maintaining the same error threshold guarantees for any error process representable as an Archimedean perturbation.
-
-**Keywords:** Adelic QEC, Ostrowski's theorem, Bruhat-Tits tree, Majorana zero modes, intrinsic error protection, topological quantum computing
-
----
 
 ## 1. Introduction
 
@@ -137,16 +133,12 @@ The grand synthesis (P7) will unify these results into a single statement: **Phy
 
 ---
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
-1. Zitterbewegung as a p-Adic Observable (P1). QNFO Research (2026). DOI: 10.5281/zenodo.21211007.
-2. Majorana ZBW Current Correlator (P2). QNFO Research (2026). DOI: 10.5281/zenodo.21211139.
-3. Bruhat-Tits Readout Protocol (P3). QNFO Research (2026). DOI: 10.5281/zenodo.21211382.
-4. ZBW as Physical Realization of p-Adic Anyon Braiding (P4). QNFO Research (2026). DOI: 10.5281/zenodo.21214358.
+1. Zitterbewegung as a p-Adic Observable (P1). QNFO Research (2026). https://papers.qnfo.org/papers.
+2. Majorana ZBW Current Correlator (P2). QNFO Research (2026). https://papers.qnfo.org/papers.
+3. Bruhat-Tits Readout Protocol (P3). QNFO Research (2026). https://papers.qnfo.org/papers.
+4. ZBW as Physical Realization of p-Adic Anyon Braiding (P4). QNFO Research (2026). https://papers.qnfo.org/papers.
 5. Ostrowski, A. (1916). Über einige Lösungen der Funktionalgleichung $\phi(x)\phi(y) = \phi(xy)$. Acta Math., 41, 271-284.
 6. Brekke, L., & Freund, P. G. O. (1993). p-Adic numbers in physics. Phys. Rept., 233, 1-66.
 7. Kitaev, A. (2003). Fault-tolerant quantum computation by anyons. Annals Phys., 303, 2-30.

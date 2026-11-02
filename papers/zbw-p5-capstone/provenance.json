@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-p5-capstone",
+  "paper": {
+    "path": "papers/zbw-p5-capstone/paper.md",
+    "title": "The Adelic ZBW Programme: ZBW-Majorana Hypothesis, Ostrowski-QEC Synthesis, and Cross-Programme Consilience",
+    "url": "https://papers.qnfo.org/papers/zbw-p5-capstone"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-p5-capstone"
+  },
+  "snapshots": [
+    {
+      "sha256": "9605e6e919ac3a7e58c5727a2aebbf60f7474c69478b7475505d82f6400af648",
+      "bytes": 25556,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

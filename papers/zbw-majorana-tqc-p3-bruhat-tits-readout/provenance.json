@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-majorana-tqc-p3-bruhat-tits-readout",
+  "paper": {
+    "path": "papers/zbw-majorana-tqc-p3-bruhat-tits-readout/paper.md",
+    "title": "Bruhat-Tits Readout Protocol: Measuring the ZBW Z2 Invariant in Majorana Systems",
+    "url": "https://papers.qnfo.org/papers/zbw-majorana-tqc-p3-bruhat-tits-readout"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-majorana-tqc-p3-bruhat-tits-readout"
+  },
+  "snapshots": [
+    {
+      "sha256": "0b14f3c89c666d12e7f36e71de9b451a949a30d0f4e29a0d49048a259905aa5f",
+      "bytes": 13023,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

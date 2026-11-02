@@ -1,16 +1,12 @@
-# Ultrametric Engine: Deploying a 20-Principle p-Adic Discovery Worker
-
-**Author:** QNFO Research Agent | **Date:** 2026-07-05 | **License:** QNFO Unified License Agreement (QNFO-ULA)
-
 ---
+keywords: "Ultrametric engine, Cloudflare Workers, Bruhat-Tits tree, p-adic discovery, Gromov hyperbolicity, p-adic time clusters"
+---
+
+# Ultrametric Engine: Deploying a 20-Principle p-Adic Discovery Worker
 
 ## Abstract
 
 The theoretical framework developed in P1-P5 requires computational infrastructure to make ultrametric (p-adic) analysis accessible to experimentalists. We specify and deploy an ultrametric discovery engine — a Cloudflare Worker implementing 20 principles from the proven Ask QWAV production system. The Worker provides 27+ API endpoints including Bruhat-Tits tree construction, p-adic ranking via 3-phase discovery, dendrogram visualization data, and spectral analysis (Tate, Amice, intrinsic Amice transforms). Deployed on Cloudflare's edge network with D1, R2, and Vectorize bindings, the engine enables experimentalists to compute Gromov $\delta$ for their Majorana systems, classify ZBW transition graphs as ultrametric or Archimedean, and validate the ZBW Z₂ invariant predictions from P2-P3.
-
-**Keywords:** Ultrametric engine, Cloudflare Workers, Bruhat-Tits tree, p-adic discovery, Gromov hyperbolicity, p-adic time clusters
-
----
 
 ## 1. Architecture
 
@@ -85,13 +81,13 @@ crons = ["*/30 * * * *"]
 function suggestCorrections(query, titles, maxResults=5, maxDistance=5) {
   // Phase 1: Word-level Levenshtein matching (direct hits)
   const wordMatches = findWordMatches(query, titles, maxDistance);
-  
+
   // Phase 2: Ultrametric cluster expansion (structural neighbors)
   const clusterNeighbors = expandClusters(wordMatches, ultrametricTree);
-  
+
   // Phase 3: Tree-based search with strong-triangle pruning
   const treeResults = searchUltrametricTree(query, ultrametricTree, maxDistance);
-  
+
   return mergeResults(wordMatches, clusterNeighbors, treeResults).slice(0, maxResults);
 }
 ```
@@ -103,11 +99,11 @@ function buildUltrametricTree(titles) {
   // Agglomerative single-linkage clustering
   // O(n³) ≈ 15M ops for n=451 — acceptable for Worker execution (2-3s)
   // Only single-linkage guarantees ultrametricity (strong triangle inequality)
-  
+
   const n = titles.length;
   const dist = computeDistanceMatrix(titles);
   const clusters = titles.map((t, i) => ({ id: i, items: [t], height: 0 }));
-  
+
   while (clusters.length > 1) {
     // Find closest pair (single-linkage = min distance between cluster members)
     let minDist = Infinity, minI = 0, minJ = 0;
@@ -117,7 +113,7 @@ function buildUltrametricTree(titles) {
         if (d < minDist) { minDist = d; minI = i; minJ = j; }
       }
     }
-    
+
     // Merge
     const merged = {
       id: nextId++,
@@ -129,7 +125,7 @@ function buildUltrametricTree(titles) {
     clusters.splice(Math.min(minI, minJ), 1);
     clusters.push(merged);
   }
-  
+
   return clusters[0]; // Root of the ultrametric tree
 }
 ```
@@ -239,10 +235,6 @@ The `/gromov-delta` endpoint directly supports P3 Protocol C: experimentalists u
 
 ---
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 1. Zitterbewegung as a p-Adic Observable (P1). https://papers.qnfo.org/papers.

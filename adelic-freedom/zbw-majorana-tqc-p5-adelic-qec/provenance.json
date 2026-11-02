@@ -3,7 +3,7 @@
   "slug": "zbw-majorana-tqc-p5-adelic-qec",
   "paper": {
     "path": "adelic-freedom/zbw-majorana-tqc-p5-adelic-qec/paper.md",
-    "title": "Adelic Quantum Error Correction: Intrinsic Qubit Protection from Ostrowski's Theorem",
+    "title": "Adelic Quantum Error Correction: Intrinsic Qubit Protection from Ostrowski",
     "url": "https://papers.qnfo.org/papers/zbw-majorana-tqc-p5-adelic-qec"
   },
   "declared": {
@@ -29,6 +29,14 @@
       "basis": "backfill",
       "version": null,
       "git_commit": "997d387bce8b0543bc3aa594b472da1a8949560f"
+    },
+    {
+      "sha256": "f13f79c5513a7baacf1fd47503e5bd5bb3cf5f11924920bea16d960232b890e0",
+      "bytes": 10440,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []
