@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "spin-statistics-distinction",
+  "paper": {
+    "path": "papers/spin-statistics-distinction/paper.md",
+    "title": "The Boson/Fermion Distinction: Spin-Statistics as Structural Invariant",
+    "url": "https://papers.qnfo.org/papers/spin-statistics-distinction"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "spin-statistics-distinction"
+  },
+  "snapshots": [
+    {
+      "sha256": "5a45fd9a3e64133677a2b01e4f21793f64526e21f5c8097672d22bffb88e0779",
+      "bytes": 31255,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v1.6",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

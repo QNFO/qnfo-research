@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "stability",
+  "paper": {
+    "path": "papers/stability/paper.md",
+    "title": "Stability Compiler",
+    "url": "https://papers.qnfo.org/papers/stability"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "stability"
+  },
+  "snapshots": [
+    {
+      "sha256": "a5e5749e2c62f8487696bc3c0212de86a94c87026b811a052ee8da07652f0a1b",
+      "bytes": 64723,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

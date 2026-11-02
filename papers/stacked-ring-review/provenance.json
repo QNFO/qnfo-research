@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "stacked-ring-review",
+  "paper": {
+    "path": "papers/stacked-ring-review/paper.md",
+    "title": "Critical Review: The Stacked Ring Shell Model of Atomic Nuclei",
+    "url": "https://papers.qnfo.org/papers/stacked-ring-review"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "stacked-ring-review"
+  },
+  "snapshots": [
+    {
+      "sha256": "02e70ee7760492065d22ece621e905c9c0801c2e043bbed23ceba81ee3e47753",
+      "bytes": 20349,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

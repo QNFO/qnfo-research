@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "standard-deviation-normalization-proof",
+  "paper": {
+    "path": "papers/standard-deviation-normalization-proof/paper.md",
+    "title": "Standard-Deviation Normalization Proof",
+    "url": "https://papers.qnfo.org/papers/standard-deviation-normalization-proof"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "standard-deviation-normalization-proof"
+  },
+  "snapshots": [
+    {
+      "sha256": "227a1b08f9c1f4fdecf9150cb30ed2f75bc2329f4e4cf94fddcc0904a6d1b964",
+      "bytes": 8418,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

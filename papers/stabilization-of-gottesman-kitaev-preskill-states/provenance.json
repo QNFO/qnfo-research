@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "stabilization-of-gottesman-kitaev-preskill-states",
+  "paper": {
+    "path": "papers/stabilization-of-gottesman-kitaev-preskill-states/paper.md",
+    "title": "Stabilization of Gottesman-Kitaev-Preskill States",
+    "url": "https://papers.qnfo.org/papers/stabilization-of-gottesman-kitaev-preskill-states"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "stabilization-of-gottesman-kitaev-preskill-states"
+  },
+  "snapshots": [
+    {
+      "sha256": "0cf72f2b7c7c84e48f5df4f02b848e7c196ebf1b2dd3d592687cc6cb7226aca6",
+      "bytes": 51065,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
