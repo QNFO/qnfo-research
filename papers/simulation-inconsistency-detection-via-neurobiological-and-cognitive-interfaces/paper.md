@@ -1,6 +1,8 @@
-Here is the continuation of the detailed, merged outline for Chapters 3 through 7, structured by chapter, subsection, and paragraph topic.
+# Simulation Inconsistency Detection via Neurobiological and Cognitive Interfaces
 
----
+## Abstract
+
+Here is the continuation of the detailed, merged outline for Chapters 3 through 7, structured by chapter, subsection, and paragraph topic.
 
 ### **Chapter 3: Post-Hoc Narration and Predictive Processing**
 
@@ -356,4 +358,3 @@ The relationship between the present paper and the two earlier works is therefor
 ## Changelog
 
 - v2.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.
-

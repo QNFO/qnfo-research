@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "skeptical-journey-through-conventional-reality",
+  "paper": {
+    "path": "papers/skeptical-journey-through-conventional-reality/paper.md",
+    "title": "A Skeptical Journey Through Conventional Reality",
+    "url": "https://papers.qnfo.org/papers/skeptical-journey-through-conventional-reality"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "skeptical-journey-through-conventional-reality"
+  },
+  "snapshots": [
+    {
+      "sha256": "b4f1e9081cfe58fddc57fe72dc169af7e1c5efab3bb764e7a8af80687d0acd81",
+      "bytes": 13388,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

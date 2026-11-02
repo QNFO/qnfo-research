@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "spacetime-volume-and-fractal-surfaces",
+  "paper": {
+    "path": "papers/spacetime-volume-and-fractal-surfaces/paper.md",
+    "title": "Spacetime Volume and Fractal Surfaces",
+    "url": "https://papers.qnfo.org/papers/spacetime-volume-and-fractal-surfaces"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "spacetime-volume-and-fractal-surfaces"
+  },
+  "snapshots": [
+    {
+      "sha256": "2e23f920dd2b20dcb6ba0883f1ae66b46aec5ad69044c2f1866fb5b1a63531b5",
+      "bytes": 180188,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

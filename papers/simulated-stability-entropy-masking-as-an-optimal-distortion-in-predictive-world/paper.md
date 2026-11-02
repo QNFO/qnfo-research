@@ -1,10 +1,10 @@
 # Simulated Stability: Entropy‑Masking as an Optimal Distortion in Predictive World‑Modeling
 
 ## Abstract
+
 Human and artificial agents must act under irreducible uncertainty, yet empirical observations reveal systematic over‑estimation of control and optimism bias. Existing predictive‑processing accounts treat these distortions as failures of estimation. This paper formalises two complementary analytical accounts of **simulated stability**: (1) an entropy‑masking model that under‑estimates environmental entropy within a free‑energy framework, and (2) a hazard‑compression model that reduces perceived hazard to avoid a distress cost. Both models derive conditions under which deliberate distortion improves expected fitness. The entropy‑masking analysis, parameterised by thalamic non‑sensory afferent proportion (90–95 %) and a compressed latent model success rate (25 %), yields an expected fitness of 0.0844 versus 0.015 for a veridical agent—a relative increase of 462.5 %. The hazard‑compression analysis produces a closed‑form optimum $\alpha^{*}= \max\!\bigl(0,\,1-\lambda c/p\bigr)$; for representative parameters ($p=0.2$, $c=1$, $\lambda=0.1$) the optimal agent under‑estimates hazard by 50 %, inflates effort by 12.5 %, and gains 0.005 fitness units (1.67 % relative). These results predict measurable signatures of simulated stability and outline concrete experimental pathways for falsification.
 
-## 1. Introduction
-Every day, individuals and autonomous systems make decisions—investing in retirement, selecting a career, or navigating a vehicle—based on the belief that their actions can shape future outcomes. When scientific narratives portray the universe as deterministic, many experience existential distress, reduced motivation, and impaired decision‑making, which in aggregate lowers personal well‑being and societal productivity. If cognition represented reality with perfect fidelity, awareness of predetermined outcomes would erode the motivational engine that drives goal‑directed behaviour. Consequently, a mechanism that **masks underlying entropy** and presents a stable, agency‑rich world‑model could be crucial for preserving functional motivation in both biological and artificial agents.
+## 1. Introduction Every day, individuals and autonomous systems make decisions—investing in retirement, selecting a career, or navigating a vehicle—based on the belief that their actions can shape future outcomes. When scientific narratives portray the universe as deterministic, many experience existential distress, reduced motivation, and impaired decision‑making, which in aggregate lowers personal well‑being and societal productivity. If cognition represented reality with perfect fidelity, awareness of predetermined outcomes would erode the motivational engine that drives goal‑directed behaviour. Consequently, a mechanism that **masks underlying entropy** and presents a stable, agency‑rich world‑model could be crucial for preserving functional motivation in both biological and artificial agents.
 
 The present work investigates whether such a mechanism can be derived from first principles of predictive processing. Specifically, we ask two related questions:  
 *Can an agent that intentionally under‑estimates environmental entropy achieve higher expected fitness than an agent that strives for accurate entropy representation?*  
@@ -20,8 +20,7 @@ Answering these questions would explain why simulated stability appears across b
 - **C5.** Numerical signatures of the compression model for representative parameters, including a 50 % hazard under‑estimation, 12.5 % effort inflation, and a 1.67 % relative fitness gain (Section 5).  
 - **C6.** Discussion of limitations, falsification criteria, and practical pathways for deploying simulated stability in autonomous systems (Sections 7–7).
 
-## 2. Background and Related Work
-This paper treats irreducible environmental uncertainty as an explicit modelling assumption: the agent's known‑state set $K_t$ is not assumed to determine the unknown‑state set $U_t$, so no planning procedure operating only on $K_t$ can be guaranteed to resolve every element of $U_t$. This assumption supplies the ontological basis for the entropy that our models allow agents to misrepresent.
+## 2. Background and Related Work This paper treats irreducible environmental uncertainty as an explicit modelling assumption: the agent's known‑state set $K_t$ is not assumed to determine the unknown‑state set $U_t$, so no planning procedure operating only on $K_t$ can be guaranteed to resolve every element of $U_t$. This assumption supplies the ontological basis for the entropy that our models allow agents to misrepresent.
 
 Thalamic anatomy reveals that **90–95 % of afferents to relay nuclei originate from non‑sensory sources** [1, § Thalamic architecture]. This structural feature indicates that cortical input is heavily pre‑processed and potentially biased, supporting the notion that internal models are not passive relays of sensory data.
 
@@ -41,11 +40,9 @@ We introduce a pre‑event divergence signal $\varepsilon_t$ as a modelling cons
 
 As a working hypothesis, we posit that motivation depends on the agent's belief in a malleable future, so that deliberate suppression of represented uncertainty may preserve functional drive; this hypothesis is stated here and is tested only through the analytical models that follow.
 
-## 3. Methods
-We present two analytical models that instantiate simulated stability.
+## 3. Methods We present two analytical models that instantiate simulated stability.
 
-### 3.1 Entropy‑Masking Model
-We adopt a discrete‑time predictive‑processing formalism. At each time step $t$, the agent possesses a known‑state set $K_t$ and an unknown‑state set $U_t$ (as defined by the Asymmetry Theorem [3]). The sensor $S$ updates $K_t$, and the action‑planning function $f$ generates actions $a_t = f(K_t)$.
+### 3.1 Entropy‑Masking Model We adopt a discrete‑time predictive‑processing formalism. At each time step $t$, the agent possesses a known‑state set $K_t$ and an unknown‑state set $U_t$ (as defined by the Asymmetry Theorem [3]). The sensor $S$ updates $K_t$, and the action‑planning function $f$ generates actions $a_t = f(K_t)$.
 
 **Entropy representation.** The true environmental entropy is $H_t$. An accurate‑entropy agent estimates $\hat{H}_t = H_t$. An entropy‑masking agent under‑estimates entropy by a factor $\gamma \in (0,1)$, yielding $\hat{H}_t^{\text{mask}} = \gamma H_t$.
 
@@ -71,8 +68,7 @@ with baseline success probability $S$ of the planning algorithm given the compre
 
 All assumptions are explicit.
 
-### 3.2 Hazard‑Compression Model
-We consider an agent facing a stochastic hazard that occurs with probability $p\in(0,1)$ per episode. The agent can invest effort $E\ge 0$; effort incurs a quadratic cost $cE^{2}/2$ with $c>0$. Success probability, conditional on the hazard not occurring, is $1-p$ and is independent of $E$.
+### 3.2 Hazard‑Compression Model We consider an agent facing a stochastic hazard that occurs with probability $p\in(0,1)$ per episode. The agent can invest effort $E\ge 0$; effort incurs a quadratic cost $cE^{2}/2$ with $c>0$. Success probability, conditional on the hazard not occurring, is $1-p$ and is independent of $E$.
 
 The agent’s subjective model represents only a fraction $\alpha\in[0,1]$ of the hazard:
 \[
@@ -99,8 +95,7 @@ F(\alpha) = E^{*}(\alpha)(1-p) - \frac{c\,E^{*}(\alpha)^{2}}{2} - \lambda \alpha
 
 We seek $\alpha$ that maximises $F(\alpha)$.
 
-## 4. Analysis
-All inputs are stated in Section 3. We compute the two models separately.
+## 4. Analysis All inputs are stated in Section 3. We compute the two models separately.
 
 ### 4.1 Entropy‑Masking Analysis
 1. **Model fidelity for the accurate‑entropy agent** ($\gamma=1$):
@@ -157,7 +152,7 @@ All arithmetic steps are shown.
    Effort $E^{*}= (1-0.1)/1 = 0.9$.  
    Veridical effort $E_{\text{ver}} = (1-0.2)/1 = 0.8$.  
    Effort inflation $= (0.9-0.8)/0.8 = 0.125 = 12.5\%$.
-   
+
    Fitness of the distorted agent:
    \[
    F_{\text{dist}} = 0.9\times0.8 - \frac{0.9^{2}}{2} - 0.1\times0.5\times0.2
@@ -324,17 +319,14 @@ These worked examples demonstrate (i) how measured scene entropy directly modula
 - **L5.** Distress cost $\lambda$ is assumed linear in represented uncertainty; alternative formulations may alter optimal $\alpha$.  
 - **L6.** No empirical validation; results are purely analytical.
 
-### 7.2 Falsification Criteria
-A controlled experiment that implements two agents—one with accurate entropy estimation and one with a fixed masking factor $\gamma=0.7$ (entropy‑masking) or optimal $\alpha^{*}$ (hazard‑compression)—and measures cumulative reward over a large number of trials (e.g., $>10^{4}$) would falsify the main claims if **no statistically significant fitness advantage** is observed for the distorted agent ($p>0.05$). Additionally, observing that hazard under‑estimation does **not** increase as $1/p$ for rare events would falsify the hazard‑compression prediction.
+### 7.2 Falsification Criteria A controlled experiment that implements two agents—one with accurate entropy estimation and one with a fixed masking factor $\gamma=0.7$ (entropy‑masking) or optimal $\alpha^{*}$ (hazard‑compression)—and measures cumulative reward over a large number of trials (e.g., $>10^{4}$) would falsify the main claims if **no statistically significant fitness advantage** is observed for the distorted agent ($p>0.05$). Additionally, observing that hazard under‑estimation does **not** increase as $1/p$ for rare events would falsify the hazard‑compression prediction.
 
 ### 7.3 Open Questions
 - How does the optimal masking factor $\gamma$ vary with environmental volatility and with alternative forms of the baseline success $S$?  
 - Can biological agents be shown to adapt $\gamma$ or $\alpha$ dynamically in response to changing distress costs?  
 - What neural mechanisms could implement the distress cost $\lambda$ posited in the hazard‑compression model?
 
-## 8. Practical Implications and Engineering Pathways
-**(a) Intended users and design impact.**  
-Robotics engineers, AI safety researchers, and clinicians designing motivational interventions can employ the derived principles to tune uncertainty representations. In stochastic domains (e.g., autonomous navigation under uncertain weather), deliberately reducing perceived entropy may prevent paralysis and sustain goal‑directed behaviour.
+## 8. Practical Implications and Engineering Pathways **(a) Intended users and design impact.** Robotics engineers, AI safety researchers, and clinicians designing motivational interventions can employ the derived principles to tune uncertainty representations. In stochastic domains (e.g., autonomous navigation under uncertain weather), deliberately reducing perceived entropy may prevent paralysis and sustain goal‑directed behaviour.
 
 **(b) Technology readiness.**  
 The work is analytical and has not undergone peer review; it resides at **TRL 2** (technology concept formulation).
@@ -354,8 +346,7 @@ Assuming $M=0.8$, $S=0.25$, and $\gamma=0.7$, the masked agent’s expected fitn
 **(f) Risks and misuse.**  
 Deliberate entropy masking could be exploited to create persuasive technologies that inflate users’ sense of control, leading to over‑confidence or manipulation. Ethical guidelines should govern the deployment of such mechanisms, especially in consumer‑facing AI.
 
-## 9. Conclusion
-We have formalised **simulated stability** through two complementary analytical accounts. The entropy‑masking model demonstrates that under‑estimating environmental entropy can yield a relative fitness increase of 462.5 % when compression benefits are substantial. The hazard‑compression model derives a closed‑form optimal distortion factor $\alpha^{*}= \max\!\bigl(0,\,1-\lambda c/p\bigr)$, predicting systematic hazard under‑estimation, effort inflation, and modest fitness gains across hazard regimes. Both results provide a theoretical foundation for the pervasive over‑structured world‑models observed in biology and artificial intelligence, and they outline concrete experimental pathways for validation and ethical deployment.
+## 9. Conclusion We have formalised **simulated stability** through two complementary analytical accounts. The entropy‑masking model demonstrates that under‑estimating environmental entropy can yield a relative fitness increase of 462.5 % when compression benefits are substantial. The hazard‑compression model derives a closed‑form optimal distortion factor $\alpha^{*}= \max\!\bigl(0,\,1-\lambda c/p\bigr)$, predicting systematic hazard under‑estimation, effort inflation, and modest fitness gains across hazard regimes. Both results provide a theoretical foundation for the pervasive over‑structured world‑models observed in biology and artificial intelligence, and they outline concrete experimental pathways for validation and ethical deployment.
 
 ## Provenance and AI Involvement
 
