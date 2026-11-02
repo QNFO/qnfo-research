@@ -1,10 +1,10 @@
-# The Bruhat–Tits Tree as a Unifying Computational Primitive: Confluence, Quantum Walks, and Tree‑Distance Attention  
+# The Bruhat–Tits Tree as a Unifying Computational Primitive: Confluence, Quantum Walks, and Tree‑Distance Attention
 
-## Abstract  
+## Abstract
+
 Hierarchical data, quantum‑amplitude dynamics, and proof‑normalisation each rely on distinct geometric primitives that incur sample‑inefficiency, slow convergence, or non‑confluent reductions. The $p$‑adic Bruhat–Tits tree provides a single ultrametric structure that can replace Euclidean embeddings, accelerate quantum walks, and guarantee unique normal forms for proof search. We formalise token embeddings as prime‑product integers, derive a tree‑distance attention cost of $O(N\log_2 N)$, compute exact vertex counts for finite truncations, analyse a discrete quantum walk on a $3$‑regular tree, and prove confluence of a distinction‑calculus reduction system. Quantitatively, tree‑distance attention reduces elementary operations from $1{,}048{,}576$ to $12{,}286$ for $N=1024$ tokens (a factor of $85.3$), the quantum walk mixes within $7$ steps on a depth‑$5$ tree (effective spectral gap $0.1144$), and the logical error probability per gate is bounded by $2.3\times10^{-7}$. These results suggest that the Bruhat–Tits tree can serve as a shared primitive that improves computational efficiency, accelerates quantum dynamics, and yields reliable proof‑kernel operations.  
 
-## 1. Introduction  
-Developers of large‑scale language models, designers of $p$‑adic quantum algorithms, and engineers of automated theorem provers each confront the cost of representing hierarchical relationships with flat Euclidean embeddings. In natural‑language processing, token similarity is computed with dot‑product attention, requiring $O(N^{2})$ operations for $N$ tokens and leading to sample‑inefficient training on tree‑structured data \([9]\). Quantum algorithm designers must simulate diffusion on high‑dimensional graphs; classical random walks on a Cayley tree converge slowly compared with $p$‑adic quantum walks. Automated theorem provers lack a confluent reduction system that yields a unique normal form for proofs involving self‑reference, forcing costly backtracking \([4]\). If a single computational primitive could replace Euclidean distance, accelerate quantum diffusion, and provide a confluent proof kernel, all three communities would gain a decisive advantage: language models would train with fewer examples, quantum walks would reach target states with fewer steps, and proof assistants would avoid exponential search.  
+## 1. Introduction Developers of large‑scale language models, designers of $p$‑adic quantum algorithms, and engineers of automated theorem provers each confront the cost of representing hierarchical relationships with flat Euclidean embeddings. In natural‑language processing, token similarity is computed with dot‑product attention, requiring $O(N^{2})$ operations for $N$ tokens and leading to sample‑inefficient training on tree‑structured data \([9]\). Quantum algorithm designers must simulate diffusion on high‑dimensional graphs; classical random walks on a Cayley tree converge slowly compared with $p$‑adic quantum walks. Automated theorem provers lack a confluent reduction system that yields a unique normal form for proofs involving self‑reference, forcing costly backtracking \([4]\). If a single computational primitive could replace Euclidean distance, accelerate quantum diffusion, and provide a confluent proof kernel, all three communities would gain a decisive advantage: language models would train with fewer examples, quantum walks would reach target states with fewer steps, and proof assistants would avoid exponential search. 
 
 **Contributions.**  
 1. We define $p$‑adic token embeddings as prime‑product integers and derive a tree‑distance attention cost of $N\log_{2}N$ (Section 4.1).  
@@ -13,8 +13,7 @@ Developers of large‑scale language models, designers of $p$‑adic quantum alg
 4. We prove confluence and termination of a distinction‑calculus reduction system on the tree (Section 4.4).  
 5. We calculate a logical error probability per gate of $2.3\times10^{-7}$ from the simulation parameters of \([8]\) (Section 4.5).  
 
-## 2. Background and Related Work  
-The Bruhat–Tits tree $\mathfrak{t}(k)$ of a local field $k$ encodes maximal orders in the matrix algebra $\mathfrak{A}=\mathbb{M}_{2}(k)$ as a sub‑tree called the *branch* of an order \([1]\). The valency of each vertex equals $p\!+\!1$, where $p$ is the underlying prime, and the distance between vertices is the $p$‑adic valuation $\nu$ of the difference of the corresponding elements \([1]\).  
+## 2. Background and Related Work The Bruhat–Tits tree $\mathfrak{t}(k)$ of a local field $k$ encodes maximal orders in the matrix algebra $\mathfrak{A}=\mathbb{M}_{2}(k)$ as a sub‑tree called the *branch* of an order \([1]\). The valency of each vertex equals $p\!+\!1$, where $p$ is the underlying prime, and the distance between vertices is the $p$‑adic valuation $\nu$ of the difference of the corresponding elements \([1]\). 
 
 Bending the tree to model a $p$‑adic BTZ black hole introduces a novel exponential function on $\mathbb{Q}_{p}$ and a local diffeomorphism that relates the deformed geometry to the pure tree \([2]\). This demonstrates that the tree can support non‑trivial bulk dynamics while preserving a well‑defined coordinate system.  
 
@@ -57,8 +56,7 @@ $$
 $$  
 where $\lambda>0$ is a temperature parameter. Computing all $d_{\mathrm{tree}}(t_{i},t_{j})$ can be done in $O(N\log_{2}N)$ time by sorting tokens according to their $p$‑adic valuations and exploiting the ultrametric property (the distance between two nodes equals the depth of their lowest common ancestor).  
 
-### 3.3 Discrete Quantum Walk on the Tree  
-We consider a discrete‑time quantum walk on a $(p\!+\!1)$‑regular Bruhat–Tits tree. The walk operator $U$ is the product of a coin operator $C$ (the Grover diffusion matrix on a $(p\!+\!1)$‑dimensional coin space) and a shift operator $S$ that moves the walker along edges. For $p=2$, the degree is $3$, and the spectral radius $\rho$ of the underlying classical random walk is \(\rho = \frac{2\sqrt{p}}{p+1} = \frac{2\sqrt{2}}{3}\) \([7]\). The spectral gap $\Delta = 1-\rho$ governs mixing time.  
+### 3.3 Discrete Quantum Walk on the Tree We consider a discrete‑time quantum walk on a $(p\!+\!1)$‑regular Bruhat–Tits tree. The walk operator $U$ is the product of a coin operator $C$ (the Grover diffusion matrix on a $(p\!+\!1)$‑dimensional coin space) and a shift operator $S$ that moves the walker along edges. For $p=2$, the degree is $3$, and the spectral radius $\rho$ of the underlying classical random walk is \(\rho = \frac{2\sqrt{p}}{p+1} = \frac{2\sqrt{2}}{3}\) \([7]\). The spectral gap $\Delta = 1-\rho$ governs mixing time. 
 
 ### 3.4 Distinction‑Calculus Reduction System  
 We define a rewrite rule on tree‑labeled proof terms: if two subterms share the same branch vertex, replace them by a single representative. Formally, for terms $A$ and $B$ with branch vertices $v_{A}$ and $v_{B}$, the rule is  
@@ -167,8 +165,7 @@ t_{\mathrm{cl}}(5)=25,\qquad t_{\mathrm{bal}}(5)=5,\qquad \frac{t_{\mathrm{cl}}}
 \]  
 Thus the ballistic traversal is five times faster than the diffusive one, and the separation scales linearly with $D$.  
 
-### 4.5 Logical Error Probability per Gate  
-From \([8]\) we have:  
+### 4.5 Logical Error Probability per Gate From \([8]\) we have: 
 
 * Tree depth $D=5$.  
 * Energy barrier $\Delta E = 10\,k_{B}T$.  
@@ -210,8 +207,7 @@ These quantitative outcomes substantiate the claim that the Bruhat–Tits tree c
 - **Finite depth.** Quantum‑walk mixing time bounds rely on a depth‑$5$ truncation; deeper trees may exhibit slower convergence.  
 - **Prime pool.** Assigning distinct primes to tokens presumes a sufficiently large prime pool; for vocabularies exceeding the available primes below a given bound, collisions could occur.  
 
-### 6.2 Falsification Criterion  
-If an empirical implementation of tree‑distance attention on a benchmark hierarchical dataset (e.g., a syntactic parse‑tree corpus) fails to achieve at least a $5\%$ reduction in required training epochs compared with standard dot‑product attention, the primary efficiency claim is falsified.  
+### 6.2 Falsification Criterion If an empirical implementation of tree‑distance attention on a benchmark hierarchical dataset (e.g., a syntactic parse‑tree corpus) fails to achieve at least a $5\%$ reduction in required training epochs compared with standard dot‑product attention, the primary efficiency claim is falsified. 
 
 ### 6.3 Open Questions  
 - How does the tree‑distance kernel interact with multi‑head attention and layer normalisation?  
@@ -224,26 +220,22 @@ If an empirical implementation of tree‑distance attention on a benchmark hiera
 - **Quantum hardware designers** may implement $p$‑adic quantum walks on superconducting qubit arrays that naturally map to a $3$‑regular tree topology, exploiting the faster mixing time to accelerate search algorithms.  
 - **Automated theorem provers** can adopt the confluent distinction‑calculus as a choice‑free proof kernel, eliminating backtracking and simplifying proof‑search heuristics.  
 
-### 7.2 Technology Readiness Level  
-The work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (technology concept formulation).  
+### 7.2 Technology Readiness Level The work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (technology concept formulation). 
 
-### 7.3 Smallest Next Experiment  
-Construct a miniature transformer (2 layers, 256 hidden units) that uses tree‑distance attention on a synthetic dataset of binary parse trees (depth ≤ 6). Measure the number of training epochs required to reach $95\%$ accuracy. A result showing **no reduction** in epochs relative to a baseline dot‑product model would falsify the efficiency claim.  
+### 7.3 Smallest Next Experiment Construct a miniature transformer (2 layers, 256 hidden units) that uses tree‑distance attention on a synthetic dataset of binary parse trees (depth ≤ 6). Measure the number of training epochs required to reach $95\%$ accuracy. A result showing **no reduction** in epochs relative to a baseline dot‑product model would falsify the efficiency claim. 
 
 ### 7.4 Engineering Constraints  
 - **Prime‑assignment library.** Efficient generation of large prime sets is required to map vocabularies to distinct primes.  
 - **$p$‑adic arithmetic support.** Existing deep‑learning frameworks lack native $p$‑adic types; a custom kernel must be developed.  
 - **Quantum control precision.** Implementing the coin operator with the required phase coherence on a $3$‑regular connectivity graph demands high‑fidelity two‑qubit gates.  
 
-### 7.5 Projected Cost and Performance Bounds (Projection)  
-Assuming development of a $p$‑adic kernel costs \$12 k (software engineering effort) and that the resulting model reduces GPU hours by a factor of $4$ for a typical $10^{6}$‑token training run, the projected cost saving is approximately \$8 k per run (based on a \$2 k per 1 000 GPU‑hour rate). These figures are **projections** based on the analytical cost reduction derived in Section 4.1.  
+### 7.5 Projected Cost and Performance Bounds (Projection) Assuming development of a $p$‑adic kernel costs \$12 k (software engineering effort) and that the resulting model reduces GPU hours by a factor of $4$ for a typical $10^{6}$‑token training run, the projected cost saving is approximately \$8 k per run (based on a \$2 k per 1 000 GPU‑hour rate). These figures are **projections** based on the analytical cost reduction derived in Section 4.1. 
 
 ### 7.6 Risks and Misuse Paths  
 - **Mis‑representation of hierarchy.** Over‑reliance on ultrametric distance may obscure non‑hierarchical relationships, leading to biased model behaviour.  
 - **Quantum error underestimation.** The logical error bound assumes independent noise; correlated errors could compromise fault‑tolerance, misleading hardware designers.  
 
-## 8. Conclusion  
-We have presented a unified framework that leverages the $p$‑adic Bruhat–Tits tree as a computational primitive across three domains. By embedding tokens as prime products, defining a tree‑distance attention mechanism, analysing a discrete quantum walk, and proving confluence of a distinction‑calculus reduction system, we obtain concrete quantitative benefits: an $>80$‑fold reduction in attention operations for $N=1024$, a mixing time of $7$ steps for a depth‑$5$ quantum walk, and a logical error probability per gate bounded by $2.3\times10^{-7}$. While the analysis rests on idealised assumptions, the derived metrics provide clear targets for experimental validation. Future work will implement the proposed primitives, explore irregular tree structures, and extend the reduction calculus to richer logical languages.
+## 8. Conclusion We have presented a unified framework that leverages the $p$‑adic Bruhat–Tits tree as a computational primitive across three domains. By embedding tokens as prime products, defining a tree‑distance attention mechanism, analysing a discrete quantum walk, and proving confluence of a distinction‑calculus reduction system, we obtain concrete quantitative benefits: an $>80$‑fold reduction in attention operations for $N=1024$, a mixing time of $7$ steps for a depth‑$5$ quantum walk, and a logical error probability per gate bounded by $2.3\times10^{-7}$. While the analysis rests on idealised assumptions, the derived metrics provide clear targets for experimental validation. Future work will implement the proposed primitives, explore irregular tree structures, and extend the reduction calculus to richer logical languages.
 
 ## Provenance and AI Involvement
 
