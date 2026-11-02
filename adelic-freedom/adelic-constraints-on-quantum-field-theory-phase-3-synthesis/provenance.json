@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-constraints-on-quantum-field-theory-phase-3-synthesis",
+  "paper": {
+    "path": "adelic-freedom/adelic-constraints-on-quantum-field-theory-phase-3-synthesis/paper.md",
+    "title": "Adelic Constraints on Quantum Field Theory — Phase 3 Synthesis",
+    "url": "https://papers.qnfo.org/papers/adelic-constraints-on-quantum-field-theory-phase-3-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-constraints-on-quantum-field-theory-phase-3-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "31c7ae657e1bb8ebebb5825b5aa8d515a2020fca1215ebbefe9e6a8bd79ff4d7",
+      "bytes": 26265,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "6.7",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-cross-domain",
+  "paper": {
+    "path": "adelic-freedom/adelic-cross-domain/paper.md",
+    "title": "The Adelic Cross-Domain Program: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat-Tits Trees",
+    "url": "https://papers.qnfo.org/papers/adelic-cross-domain"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-cross-domain"
+  },
+  "snapshots": [
+    {
+      "sha256": "6eee313db880e00514fd4e4c8301118f5eef5b555f16f337af37fc9bd814280c",
+      "bytes": 47667,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "4.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
