@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "bqnn-classical-baseline",
+  "paper": {
+    "path": "papers/bqnn-classical-baseline/paper.md",
+    "title": "The BQNN Classical Baseline: Constructive Falsification of Near-Term Quantum Advantage at a Fifteen-Million-to-One Energy Disadvantage",
+    "url": "https://papers.qnfo.org/papers/bqnn-classical-baseline"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "bqnn-classical-baseline"
+  },
+  "snapshots": [
+    {
+      "sha256": "6af61ab8102c5669e0422069d6d8ba198ab4d1a03bef07ceec5c62fb603b4ef5",
+      "bytes": 24677,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

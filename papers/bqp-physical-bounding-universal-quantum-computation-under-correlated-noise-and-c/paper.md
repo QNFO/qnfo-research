@@ -1,10 +1,10 @@
 # BQP_physical: Bounding Universal Quantum Computation under Correlated Noise and Causality Constraints
 
 ## Abstract
+
 Universal gate‑based quantum computers promise exponential speed‑ups for problems such as integer factorisation, yet commercial‑scale devices remain absent. The gap originates from physical limits that are not captured by the abstract class BQP. We formalise a new class **BQP_physical** that incorporates three concrete constraints: (i) finite signal‑propagation latency across macroscopic processor dimensions, (ii) a correlated‑error floor that grows with qubit count, and (iii) a coherence‑time budget consumed by quantum error correction. Using a processor dimension of 10 m, a per‑gate error target of \(10^{-3}\), a correlated‑error coefficient of \(10^{-5}\) per qubit pair, and a typical superconducting gate duration of 20 ns, we derive (a) a total propagation latency of \(33~\mu\text{s}\) for a depth‑\(10^{3}\) circuit, (b) a maximal viable qubit count of approximately 10 when the logical error budget is relaxed to \(10^{-2}\), and (c) a logical error probability exceeding 1 for a Shor‑scale processor with \(N=10^{4}\) qubits. These quantitative results imply that, without radical architectural changes, Shor‑scale factoring lies outside **BQP_physical**. The framework therefore redirects design effort toward architectures that suppress correlated noise and latency, and provides a concrete analytical benchmark for future experimental validation.
 
-## 1. Introduction
-Significant investment is directed toward building large‑scale quantum processors, but current prototypes host only modest numbers of physical qubits and error‑correction overhead consumes much of the coherence‑time budget. We assume that cryptographically relevant factoring would require on the order of millions of physical qubits.  
+## 1. Introduction Significant investment is directed toward building large‑scale quantum processors, but current prototypes host only modest numbers of physical qubits and error‑correction overhead consumes much of the coherence‑time budget. We assume that cryptographically relevant factoring would require on the order of millions of physical qubits. 
 
 Three intertwined physical constraints block this prospect. First, a processor that spans tens of metres—required to host millions of qubits with realistic wiring and cooling—must respect the finite speed of light. Signal propagation across a 10‑m chip takes at least \(33~\text{ns}\) per hop, and a circuit of depth \(D\) incurs a latency of \(D\times33~\text{ns}\). For depths typical of error‑corrected algorithms (\(D\sim10^{3}\)–\(10^{4}\)), the total latency approaches or exceeds the coherence time of the underlying physical qubits.  
 
@@ -25,8 +25,7 @@ If these three constraints hold, the abstract class BQP, which assumes an ideali
 4. Numerical evaluation showing \(N_{\max}\approx10\) for a relaxed logical‑error budget and that a Shor‑scale processor (\(N=10^{4}\)) exceeds the fault‑tolerance threshold (Section 5).  
 5. Discussion of falsifiability, limitations, and engineering pathways (Sections 6–7).
 
-## 2. Background and Related Work
-Physical realizability of quantum dynamical models has been studied in the context of linear quantum optics. [1] proves that for a class of passive optical components the strict bounded‑real property guarantees physical realizability and provides a low‑frequency error bound for approximations. This establishes that any quantum‑system model must respect a concrete error budget, a principle we extend to large‑scale processors.  
+## 2. Background and Related Work Physical realizability of quantum dynamical models has been studied in the context of linear quantum optics. [1] proves that for a class of passive optical components the strict bounded‑real property guarantees physical realizability and provides a low‑frequency error bound for approximations. This establishes that any quantum‑system model must respect a concrete error budget, a principle we extend to large‑scale processors. 
 
 The emergence of collective phenomena in many‑body systems illustrates how macroscopic behaviour can dominate microscopic rules. In the Hubbard model, [2] shows that antiferromagnetic order persists for all interaction strengths, highlighting that correlated interactions can dominate error dynamics even when individual qubit errors are small.  
 
@@ -46,8 +45,7 @@ Complexity measures for networks are explored in [9]. This provides a quantita
 
 Collectively, these works motivate a formalism that embeds physical error sources into computational complexity, leading to the definition of **BQP_physical**.
 
-## 3. Methods
-We formalise **BQP_physical** as the set of decision problems solvable by a uniform family of quantum circuits \(\{C_n\}\) that satisfy three explicit resource bounds.
+## 3. Methods We formalise **BQP_physical** as the set of decision problems solvable by a uniform family of quantum circuits \(\{C_n\}\) that satisfy three explicit resource bounds.
 
 ### 3.1 Propagation‑Latency Bound
 Let the processor span a linear dimension \(L\) (metres). The one‑way signal propagation time is  
@@ -143,8 +141,7 @@ N = \frac{-99 \pm \sqrt{99^{2} - 4(1)(-100)}}{2}
 
 Positive root: \(N = \frac{2}{2} = 1\). The negative root is discarded. Thus, with \(\alpha = 10^{-5}\) the threshold is already saturated by a single qubit, indicating that the baseline coefficient is overly pessimistic for any multi‑qubit processor.
 
-### 4.3 Correlated‑Error Floor with Optimistic \(\alpha = 10^{-6}\)
-Replace \(\alpha\) by \(10^{-6}\):  
+### 4.3 Correlated‑Error Floor with Optimistic \(\alpha = 10^{-6}\) Replace \(\alpha\) by \(10^{-6}\): 
 
 \[
 p_{\text{tot}}(N) = 10^{-3}N + 10^{-6}N(N-1).
@@ -177,8 +174,7 @@ N = \frac{-999 \pm \sqrt{999^{2} - 4(1)(-1000)}}{2}
 
 Positive root: \(N \approx \frac{2}{2} = 1\). Again the solution collapses to a single qubit, showing that even a ten‑fold reduction in \(\alpha\) does not yield a non‑trivial bound when the logical error budget remains at \(10^{-3}\).
 
-### 4.4 Relaxed Logical‑Error Budget
-If we allow a relaxed logical error budget \(p_{\text{th}}^{\prime}=10^{-2}\) while keeping \(\alpha = 10^{-6}\), the inequality becomes  
+### 4.4 Relaxed Logical‑Error Budget If we allow a relaxed logical error budget \(p_{\text{th}}^{\prime}=10^{-2}\) while keeping \(\alpha = 10^{-6}\), the inequality becomes 
 
 \[
 10^{-3}N + 10^{-6}N(N-1) \le 10^{-2}.
@@ -198,8 +194,7 @@ N_{\max} \approx \frac{p_{\text{th}}^{\prime}}{p} = \frac{10^{-2}}{10^{-3}} = 10
 
 Thus, under a modestly relaxed logical‑error budget, the maximal viable qubit count lies in the single‑digit regime.
 
-### 4.5 QEC Coherence‑Time Budget
-Surface‑code cycles require \(k = 10^{3}\) physical gates per logical gate, each of duration \(\tau_{\text{gate}} = 20~\text{ns}\).  
+### 4.5 QEC Coherence‑Time Budget Surface‑code cycles require \(k = 10^{3}\) physical gates per logical gate, each of duration \(\tau_{\text{gate}} = 20~\text{ns}\). 
 
 \[
 \tau_{\text{log}} = k\,\tau_{\text{gate}} = 10^{3}\times20~\text{ns} = 20~\mu\text{s}.
@@ -213,8 +208,7 @@ C_{\text{max}} = \frac{T_{\text{coh}}}{\tau_{\text{log}}} = \frac{100~\mu\text{s
 
 Therefore, any algorithm requiring more than five logical gate layers cannot be completed before decoherence, unless the coherence time is extended or the gate overhead reduced.
 
-### 4.6 Large‑Scale Shor Scenario (\(N = 10^{4}\))
-We now evaluate the logical error probability for a processor targeting Shor‑scale factoring (\(N = 10^{4}\)). The model used in Section 3.2 is supplemented by a latency‑induced error term \(\tau_{\text{lat}}\,r_{\text{gate}}\), where \(r_{\text{gate}} = 10^{8}~\text{s}^{-1}\) (gate rate).  
+### 4.6 Large‑Scale Shor Scenario (\(N = 10^{4}\)) We now evaluate the logical error probability for a processor targeting Shor‑scale factoring (\(N = 10^{4}\)). The model used in Section 3.2 is supplemented by a latency‑induced error term \(\tau_{\text{lat}}\,r_{\text{gate}}\), where \(r_{\text{gate}} = 10^{8}~\text{s}^{-1}\) (gate rate). 
 
 1. Independent error term:  
    \[
@@ -241,8 +235,7 @@ We now evaluate the logical error probability for a processor targeting Shor‑s
 
 Since logical error probabilities must lie in \([0,1]\), a value exceeding 1 indicates that the combined error budget far surpasses the fault‑tolerance threshold. Even if we cap the probability at 1, the effective error per logical operation is 100 %, rendering error correction impossible.
 
-### 4.7 Modularisation Attempt
-If the processor is partitioned into \(M = 10\) modules each of size \(L = 1~\text{m}\), the latency reduces to  
+### 4.7 Modularisation Attempt If the processor is partitioned into \(M = 10\) modules each of size \(L = 1~\text{m}\), the latency reduces to 
 
 \[
 \tau_{\text{lat}}^{\text{mod}} = \frac{1}{3\times10^{8}} = 3.33\times10^{-9}~\text{s},
@@ -279,8 +272,7 @@ These quantitative outcomes collectively place Shor‑scale factoring well outsi
 - **Processor geometry**: The linear dimension \(L = 10~\text{m}\) is a simplifying assumption; three‑dimensional integration could reduce \(\tau_{\text{prop}}\).  
 - **Error‑budget linearisation**: The total logical error is approximated as a simple sum of independent, correlated, and latency terms, neglecting higher‑order interactions.
 
-### 6.2 Falsifiability
-The central claim—that any Shor‑scale processor with \(N\approx10^{4}\) qubits exceeds the fault‑tolerance threshold under realistic correlated‑error and latency parameters—would be falsified by an experimental demonstration of a fault‑tolerant logical operation on a processor with \(N>10\) qubits, a measured correlated‑error coefficient \(\alpha < 10^{-6}\), and a total logical error per operation below \(10^{-3}\) while respecting the latency bound. Conversely, observation of a correlated‑error floor \(\alpha \ge 10^{-5}\) for such a processor would reinforce the claim.
+### 6.2 Falsifiability The central claim—that any Shor‑scale processor with \(N\approx10^{4}\) qubits exceeds the fault‑tolerance threshold under realistic correlated‑error and latency parameters—would be falsified by an experimental demonstration of a fault‑tolerant logical operation on a processor with \(N>10\) qubits, a measured correlated‑error coefficient \(\alpha < 10^{-6}\), and a total logical error per operation below \(10^{-3}\) while respecting the latency bound. Conversely, observation of a correlated‑error floor \(\alpha \ge 10^{-5}\) for such a processor would reinforce the claim.
 
 ### 6.3 Open Questions
 - How does the correlated‑error floor scale with qubit connectivity topology?  
@@ -288,9 +280,7 @@ The central claim—that any Shor‑scale processor with \(N\approx10^{4}\) qubi
 - What are the thermodynamic limits on \(\tau_{\text{gate}}\) when gate speeds approach the quantum speed limit?  
 - To what extent can three‑dimensional integration reduce the effective propagation latency without introducing new correlated noise channels?  
 
-## 7. Practical Implications and Engineering Pathways
-**(a) Intended users and design impact**  
-Quantum‑hardware architects, funding agencies, and national‑security decision makers constitute the primary users. If the derived bounds hold, design strategies must shift from monolithic scaling toward modular, distributed architectures that minimise correlated noise and latency, and toward technologies that suppress the correlated‑error floor (e.g., phononic band‑gap engineering, improved shielding).
+## 7. Practical Implications and Engineering Pathways **(a) Intended users and design impact** Quantum‑hardware architects, funding agencies, and national‑security decision makers constitute the primary users. If the derived bounds hold, design strategies must shift from monolithic scaling toward modular, distributed architectures that minimise correlated noise and latency, and toward technologies that suppress the correlated‑error floor (e.g., phononic band‑gap engineering, improved shielding).
 
 **(b) Technology readiness**  
 The present work is a purely analytical study that has not undergone peer review; according to NASA’s scale it resides at **TRL 1–2** (basic principles observed). Analytical extensions never exceed **TRL 3**.
@@ -316,8 +306,7 @@ where \(5~\text{M\$}\) per module is derived from current dilution‑refrigerato
 **(f) Risks and misuse**  
 If the community interprets the bound as a definitive impossibility, it may prematurely abandon research into large‑scale quantum error correction. Conversely, under‑estimating the correlated‑error floor could lead to over‑optimistic funding allocations. Transparent reporting of the explicit assumptions (A1–A4, baseline \(\alpha\), and relaxed budgets) mitigates these risks.
 
-## 8. Conclusion
-By integrating explicit physical resource limits—signal latency, correlated error floors, and coherence‑time consumption—into the definition of a new complexity class **BQP_physical**, we have shown that under realistic parameter assumptions the logical error probability for a Shor‑scale quantum processor exceeds the fault‑tolerance threshold. This places integer factorisation of RSA‑2048 outside **BQP_physical**, suggesting that universal gate‑based quantum computing at commercial scale is presently unattainable without breakthroughs that suppress correlated noise below \(10^{-6}\) or radically redesign processor architecture. The analysis provides a concrete falsification pathway and a clear engineering agenda for future work.
+## 8. Conclusion By integrating explicit physical resource limits—signal latency, correlated error floors, and coherence‑time consumption—into the definition of a new complexity class **BQP_physical**, we have shown that under realistic parameter assumptions the logical error probability for a Shor‑scale quantum processor exceeds the fault‑tolerance threshold. This places integer factorisation of RSA‑2048 outside **BQP_physical**, suggesting that universal gate‑based quantum computing at commercial scale is presently unattainable without breakthroughs that suppress correlated noise below \(10^{-6}\) or radically redesign processor architecture. The analysis provides a concrete falsification pathway and a clear engineering agenda for future work.
 
 ## Provenance and AI Involvement
 

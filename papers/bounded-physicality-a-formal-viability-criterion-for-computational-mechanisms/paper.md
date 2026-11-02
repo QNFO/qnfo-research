@@ -1,10 +1,10 @@
 # Bounded Physicality: A Formal Viability Criterion for Computational Mechanisms
 
 ## Abstract
+
 Designers of cryptographic, physical, and artificial‑intelligence systems routinely lack a quantitative filter that separates proposals that can be instantiated within the observable universe from those that inevitably exceed its resource envelope. This paper introduces the **Principle of Bounded Physicality**, which formalizes a viability check by comparing a mechanism’s dominant resource function against cosmological limits on time ($\approx$ $10^{18}$ s) and matter ($\approx$ $10^{80}$ atoms). We (i) derive explicit universal budgets for convertible energy ($\approx$ 1.5 × $10^{70}$ J) and elementary operations ($\approx$ 5.2 × $10^{90}$ ops) from first‑principles assumptions; (ii) define a generic **Resource Scaling Law** for brute‑force key search and obtain closed‑form expressions for time, energy, and hardware mass; (iii) instantiate the **Universe Check** algorithm, which evaluates the scaling law and returns a binary PLAUSIBLE/NON‑VIABLE verdict together with a critical problem size; (iv) apply the algorithm to a 128‑bit symmetric‑key search, obtaining a sequential time of 3.4 × $10^{29}$ s, a required parallelism of 3.4 × $10^{11}$ processors ($\approx$ 3.4 × $10^{8}$ kg hardware), and an energy demand of 9.5 × $10^{17}$ J, all of which satisfy the mass and energy budgets but violate the temporal bound; (v) compute the energy‑limited critical key length n* $\approx$ 301 bits, showing that exhaustive searches up to 256 bits remain physically plausible while 2048‑bit exhaustive search is excluded by a factor of $\approx$ $10^{526}$; and (vi) discuss broader applicability across modified gravity, RNA‑based computation, AI reasoning architectures, and hyper‑computational proposals. The result provides a concrete, reproducible filter that can be applied by cryptographers, physicists, and AI system designers to discard non‑viable proposals early in the design cycle.
 
-## 1. Introduction
-Designers of computational mechanisms constantly confront the question “Can this proposal be built within the physical resources of our universe?” Cryptographers must decide whether exhaustive key‑search attacks are ever executable; physicists proposing exotic hyper‑computational schemes must justify that required energy, time, or precision do not surpass universal limits; AI researchers planning massive reasoning architectures need to know whether hardware mass and power consumption remain viable. Ignoring these constraints leads to two costly failures: (1) research effort wasted on designs that no amount of engineering can realize, and (2) speculative claims that erode scientific credibility. A formal, quantitative filter would let reviewers instantly discard non‑viable proposals, let standards bodies base key‑size recommendations on physical ceilings, and let physicists separate “violates known limits” from “merely difficult”.
+## 1. Introduction Designers of computational mechanisms constantly confront the question “Can this proposal be built within the physical resources of our universe?” Cryptographers must decide whether exhaustive key‑search attacks are ever executable; physicists proposing exotic hyper‑computational schemes must justify that required energy, time, or precision do not surpass universal limits; AI researchers planning massive reasoning architectures need to know whether hardware mass and power consumption remain viable. Ignoring these constraints leads to two costly failures: (1) research effort wasted on designs that no amount of engineering can realize, and (2) speculative claims that erode scientific credibility. A formal, quantitative filter would let reviewers instantly discard non‑viable proposals, let standards bodies base key‑size recommendations on physical ceilings, and let physicists separate “violates known limits” from “merely difficult”.
 
 The **Principle of Bounded Physicality** addresses this gap. It asserts that any mechanism whose dominant resource function—time \(T(n)\), energy \(E(n)\), mass \(M(n)\), precision \(P(n)\), or component count \(C(n)\)—exceeds the known universal limits for non‑trivial problem sizes \(n\) must be deemed **NON‑VIABLE**; otherwise it is **PLAUSIBLE**. The principle is operationalized by (a) deriving a **Resource Scaling Law** for the mechanism under scrutiny, and (b) performing a **Universe Check** that compares order‑of‑magnitude estimates of the resources against the benchmarks \(T_{\max}\approx10^{18}\,\text{s}\) and \(N_{\max}\approx10^{80}\) atoms (mass limit \(M_{\max}=N_{\max}m_{p}\approx1.67\times10^{53}\,\text{kg}\)).
 
@@ -18,15 +18,14 @@ The **Principle of Bounded Physicality** addresses this gap. It asserts that any
 7. Discussion of limitations, falsifiability conditions, and a roadmap for experimental validation (Section 7).  
 8. Practical implications for cryptographers, theoretical physicists, and AI system designers, together with a minimal next‑step prototype proposal (Section 7).
 
-## 2. Background and Related Work
-The viability of physical theories and computational proposals has been expressed as quantitative constraints in several domains. The following works provide concrete points that map onto the bounded‑physicality framework.
+## 2. Background and Related Work The viability of physical theories and computational proposals has been expressed as quantitative constraints in several domains. The following works provide concrete points that map onto the bounded‑physicality framework.
 
 * **[1]** derives the inequality \(\epsilon\varphi''(R)+2\lambda f_{2}''(R)\ge0\) as a *stability criterion* for modified‑gravity models, exemplifying a resource‑type bound (curvature dynamics) that can be expressed as an algebraic inequality.  
 * **[2]** introduces an internal symmetric field \(H_{ab}\) with potential \(V(H)=\frac{\lambda}{4}\operatorname{Tr}(H^{2}-\mathbf{1})^{2}\) and shows that the *signature condition* \(H^{2}=\mathbf{1}\) can be enforced by an auxiliary field, providing a template for embedding viability constraints directly into action functionals.  
 * **[4]** implements a biochemical neural‑network‑like computation using \(N=50\) RNA species and demonstrates retrieval of \(M=3\) stored patterns, establishing a concrete *component‑count* baseline for molecular computation.  
+
   
-  
-  
+
   
 
 These eight works collectively demonstrate that viability criteria can be expressed as algebraic inequalities, component‑count limits, energy budgets, or combinatorial bounds—precisely the quantitative constraints that the Principle of Bounded Physicality unifies.
@@ -95,8 +94,7 @@ Given inputs \((n, f, p, m_{\text{proc}})\), the algorithm proceeds:
 
 All arithmetic steps are displayed in Section 4.
 
-### 3.4 Universal Budgets
-Two budgets are required:
+### 3.4 Universal Budgets Two budgets are required:
 
 * **Energy budget** \(B_{E}\) – total convertible energy of the observable universe.  
 * **Operation budget** \(B_{\text{ops}}^{\text{eff}}\) – maximal number of elementary logical operations that can be performed over the cosmic horizon, limited by both time and Landauer’s bound.
@@ -376,8 +374,7 @@ These worked derivations provide concrete pathways for researchers in physics, n
 
 If any assumption is relaxed in a direction that makes resources larger (e.g., higher per‑operation energy), margins shrink and some PLAUSIBLE verdicts could become marginal or NON‑VIABLE.
 
-### 7.2 Falsifiability
-The central claim—that the Universe Check yields a correct binary classification of physical plausibility—would be falsified if a mechanism classified **NON‑VIABLE** were experimentally demonstrated to complete within the universal limits. Conversely, a mechanism classified **PLAUSIBLE** that later fails because of hidden resource consumption (e.g., cooling power, precision requirements) would expose an omission in the chosen dominant resource function. A systematic empirical study (Section 9) that measures actual resource consumption for a representative sample of mechanisms would provide the needed falsification test.
+### 7.2 Falsifiability The central claim—that the Universe Check yields a correct binary classification of physical plausibility—would be falsified if a mechanism classified **NON‑VIABLE** were experimentally demonstrated to complete within the universal limits. Conversely, a mechanism classified **PLAUSIBLE** that later fails because of hidden resource consumption (e.g., cooling power, precision requirements) would expose an omission in the chosen dominant resource function. A systematic empirical study (Section 9) that measures actual resource consumption for a representative sample of mechanisms would provide the needed falsification test.
 
 ### 7.3 Open Questions
 * How do precision requirements (e.g., quantum error‑correction thresholds) affect the scaling law?  
@@ -394,11 +391,9 @@ The central claim—that the Universe Check yields a correct binary classificati
 
 When the result holds, each user class replaces informal feasibility arguments with a quantitative, binary filter that directly links design parameters (key length, processor count, clock frequency, per‑operation energy) to universal physical limits.
 
-### (b) Technology readiness  
-The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level definitions it resides at **TRL 2** (technology concept formulation).  No hardware or software prototype has been built, so the result does not exceed **TRL 3**.
+### (b) Technology readiness The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level definitions it resides at **TRL 2** (technology concept formulation). No hardware or software prototype has been built, so the result does not exceed **TRL 3**.
 
-### (c) Minimal next experiment  
-A concrete next step is a **software simulation** of the Universe Check applied to a curated set of mechanisms:
+### (c) Minimal next experiment A concrete next step is a **software simulation** of the Universe Check applied to a curated set of mechanisms:
 
 1. Implement the scaling‑law formulas (Eqs. 1–4) and the universal budgets derived in Section 4.  
 2. Input realistic hardware parameters (e.g., $f=10^{9}$ ops s\(^{-1}\), $m_{\text{proc}}=1$ g, $\varepsilon_{\text{L}}=2.8\times10^{-21}$ J).  
@@ -419,8 +414,7 @@ A concrete next step is a **software simulation** of the Universe Check applied 
 
 All constraints are directly traceable to the quantitative derivations in Section 4; no additional speculative constraints are introduced.
 
-### (e) Order‑of‑magnitude cost projection (projection)  
-Assuming a fabrication cost of **\$100 per gram** for ASIC‑style processors (industry‑average estimate) and using the hardware mass $M(p)=3.4\times10^{8}$ kg derived in Section 4.2:
+### (e) Order‑of‑magnitude cost projection (projection) Assuming a fabrication cost of **\$100 per gram** for ASIC‑style processors (industry‑average estimate) and using the hardware mass $M(p)=3.4\times10^{8}$ kg derived in Section 4.2:
 
 \[
 \text{Cost} = 3.4\times10^{8}\ \text{kg}\times10^{5}\ \$/\text{kg}
@@ -443,8 +437,7 @@ Mitigation requires transparent reporting of all assumptions (frequency, mass, e
 * **Theoretical physicists** proposing exotic computation (e.g., hyper‑computers, neutrino‑based processors) can use the principle to filter out designs that would require more mass, energy, or time than the universe provides.  
 * **AI system architects** can evaluate large‑scale reasoning platforms (e.g., MIRROR‑style architectures) for feasibility before committing to massive hardware deployments.
 
-### (b) Technology Readiness
-The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level definitions it resides at **TRL 2** (technology concept formulation).
+### (b) Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA Technology Readiness Level definitions it resides at **TRL 2** (technology concept formulation).
 
 ### (c) Minimal Next Experiment
 A concrete next step is a software simulation of the Universe Check applied to a suite of known mechanisms:
@@ -468,11 +461,9 @@ Assuming a fabrication cost of \$100 per gram of processor (industry‑average A
 \]
 i.e., **\$34 trillion**. This projection rests on the processor mass assumption (\(1\) g) and the cost per mass figure; variations in either input scale the cost linearly.
 
-### (f) Risks and Misuse Paths
-The principle could be misapplied to dismiss legitimate research if overly conservative resource estimates are used. Conversely, it may be exploited to overstate feasibility of marginally viable proposals by under‑estimating hidden costs (e.g., cooling, precision). Careful peer review of the underlying assumptions is essential to mitigate these risks.
+### (f) Risks and Misuse Paths The principle could be misapplied to dismiss legitimate research if overly conservative resource estimates are used. Conversely, it may be exploited to overstate feasibility of marginally viable proposals by under‑estimating hidden costs (e.g., cooling, precision). Careful peer review of the underlying assumptions is essential to mitigate these risks.
 
-## 10. Conclusion
-The Principle of Bounded Physicality provides a rigorous, quantitative filter for assessing the viability of computational mechanisms against the immutable resource envelope of the universe. By deriving explicit universal energy and operation budgets, defining a generic Resource Scaling Law, and implementing a decidable Universe Check, we demonstrated how to separate clearly non‑viable designs from those that, while demanding massive parallelism, remain within mass and energy limits. Application to brute‑force key search yields a critical key length of 301 bits; exhaustive searches beyond this size are excluded, while 128‑ and 256‑bit searches are physically plausible despite practical engineering challenges. Integration of diverse literature examples shows the principle’s broad applicability across physics, cryptography, and AI. Future work will extend the framework to incorporate precision constraints, reversible‑computing limits, and systematic empirical validation through prototype simulations.
+## 10. Conclusion The Principle of Bounded Physicality provides a rigorous, quantitative filter for assessing the viability of computational mechanisms against the immutable resource envelope of the universe. By deriving explicit universal energy and operation budgets, defining a generic Resource Scaling Law, and implementing a decidable Universe Check, we demonstrated how to separate clearly non‑viable designs from those that, while demanding massive parallelism, remain within mass and energy limits. Application to brute‑force key search yields a critical key length of 301 bits; exhaustive searches beyond this size are excluded, while 128‑ and 256‑bit searches are physically plausible despite practical engineering challenges. Integration of diverse literature examples shows the principle’s broad applicability across physics, cryptography, and AI. Future work will extend the framework to incorporate precision constraints, reversible‑computing limits, and systematic empirical validation through prototype simulations.
 
 ## Provenance and AI Involvement
 
