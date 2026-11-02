@@ -7,16 +7,12 @@
     "url": "https://papers.qnfo.org/papers/ultrametric-quantum-gravity-and-computation"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
         "doi": "10.5281/zenodo.22758314",
         "source": "README.md"
-      },
-      {
-        "doi": "10.5281/zenodo.19397516",
-        "source": "paper.md"
       }
     ]
   },
@@ -33,6 +29,14 @@
       "basis": "backfill",
       "version": "1.0",
       "git_commit": "1a26382154d5d1badf362318b159905362358930"
+    },
+    {
+      "sha256": "bdc19215a57f3d7464252005bae160815efd9775c9c816cc0cdec0e2bfcf88f4",
+      "bytes": 15210,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "2.0.0",
+      "git_commit": null
     }
   ],
   "events": []

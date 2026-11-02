@@ -1,10 +1,10 @@
-# Ultrametric State Counting: A p‑Adic Alternative to Planck’s Black‑Body Statistics
+# Ultrametric State Counting: A p‑Adic Alternative to Planck’s Black‑Body Statistics
 
 ## Abstract
+
 Thermal radiation modeling relies on Planck’s black‑body distribution, which assumes that oscillator energy levels are adjacent when their integer indices differ by one under the Archimedean metric. This paper investigates the consequence of redefining adjacency with the p‑adic ultrametric distance, a choice this paper makes as a modeling postulate. Using the p‑adic maximum‑entropy result, we derive a closed‑form partition sum \(\tilde Z(p)=p/(p-1)\) and mean occupation \(\langle n\rangle=1/(p-1)\). For the concrete prime \(p=3\) the partition sum equals \(1.5\) and the mean occupation equals \(0.5\). The resulting spectral tail lacks exponential suppression and instead grows algebraically as \(\nu^{3}\), requiring an explicit frequency cutoff to avoid divergence, but the total radiated power still diverges, so an explicit frequency cutoff remains necessary. If ultrametric adjacency governs state transitions, radiative‑transfer calculations and detector‑design criteria would need to incorporate the parameter \(p\) as a new design knob.
 
-## 1. Introduction
-Thermal radiation from cavities underpins infrared imaging, astrophysical observations, and climate‑model radiative forcing calculations. Engineers and scientists design detectors, calibrate satellite sensors, and infer stellar temperatures by assuming the Planck spectrum, whose derivation counts harmonic‑oscillator states that are “neighbors’’ when their integer indices differ by one under the ordinary (Archimedean) distance. This adjacency rule determines the combinatorial factor entering the canonical partition function and thus fixes the high‑frequency tail of the spectrum.
+## 1. Introduction Thermal radiation from cavities underpins infrared imaging, astrophysical observations, and climate‑model radiative forcing calculations. Engineers and scientists design detectors, calibrate satellite sensors, and infer stellar temperatures by assuming the Planck spectrum, whose derivation counts harmonic‑oscillator states that are “neighbors’’ when their integer indices differ by one under the ordinary (Archimedean) distance. This adjacency rule determines the combinatorial factor entering the canonical partition function and thus fixes the high‑frequency tail of the spectrum.
 
 If the adjacency rule were altered, the equilibrium distribution could change dramatically, potentially modifying predicted radiative power, detector noise, and inferred temperatures. Moreover, exposing a metric‑dependence would reveal a hidden structural assumption in statistical mechanics and suggest a new design parameter for thermal‑emitter engineering.
 
@@ -18,8 +18,7 @@ If the adjacency rule were altered, the equilibrium distribution could change dr
 
 The result may also matter to quantum‑information theory, where ultrametric state spaces appear in error‑correction codes, and to statistical physics of hierarchical systems, where metric choices affect combinatorial state counting.  
 
-## 2. Background and Related Work
-Ultrametric structures have been employed in diverse domains, providing concrete tools for redefining adjacency in discrete systems.
+## 2. Background and Related Work Ultrametric structures have been employed in diverse domains, providing concrete tools for redefining adjacency in discrete systems.
 
 * Degree-based topological indices constrain the shape of trees: [1] proves that a tree with \(n\) pendent vertices satisfies \(M_{1}(T)\ge 9n-16\) for even \(n\) and \(M_{1}(T)\ge 9n-15\) for odd \(n\), bounds against which the ultrametric ball trees of Section 3.1 are checked in Section 6.  
 * Ultrametric spaces admit isometric embeddings and extensions: [2] proves ultrametric versions of the Arens–Eells embedding theorem, the Hausdorff extension theorem, and the Niemytzki–Tychonoff compactness characterization, which licenses treating the integer level set as an ultrametric space on which a transition rule depending only on \(\delta_p\) can be posed.  
@@ -48,8 +47,7 @@ where \(v_p(k)\) is the p‑adic valuation (the exponent of the highest power of
 \]  
 as described in the ultrametric ball definition.
 
-### 3.2 Markov dynamics on the ultrametric tree
-We model transitions between adjacent levels as a Markov process on the ultrametric space \(\mathbb{U}=\mathbb{N}\) equipped with \(\delta_p\); this Markov description is a modeling assumption of this paper, not a result imported from the cited embedding theory. The transition kernel depends only on the ultrametric distance, ensuring **isometric invariance**. Detailed balance then forces the stationary probability \(\pi_n\) to be constant within each ball \(\mathcal{B}_{p^{-k}}\), i.e. \(\pi_n\) depends only on \(v_p(n)\).
+### 3.2 Markov dynamics on the ultrametric tree We model transitions between adjacent levels as a Markov process on the ultrametric space \(\mathbb{U}=\mathbb{N}\) equipped with \(\delta_p\); this Markov description is a modeling assumption of this paper, not a result imported from the cited embedding theory. The transition kernel depends only on the ultrametric distance, ensuring **isometric invariance**. Detailed balance then forces the stationary probability \(\pi_n\) to be constant within each ball \(\mathcal{B}_{p^{-k}}\), i.e. \(\pi_n\) depends only on \(v_p(n)\).
 
 ### 3.3 Maximum‑entropy weighting
 The p‑adic maximum‑entropy principle states that, under a fixed mean‑energy constraint, the distribution maximizing p‑adic entropy on the ultrametric tree is the geometric distribution  
@@ -65,8 +63,7 @@ The **unnormalised canonical partition function** is the sum of the Boltzmann we
 \]  
 Thermodynamic observables are derived from \(\tilde Z(p)\); the normalised probabilities are obtained by dividing by \(\tilde Z(p)\).
 
-## 4. Analysis
-We evaluate the infinite sums analytically.
+## 4. Analysis We evaluate the infinite sums analytically.
 
 ### 4.1 Geometric series
 The series  
@@ -338,8 +335,7 @@ The Archimedean adjacency rule that this paper replaces is not an isolated conve
 | Single universal prime \(p\) for all oscillators | Different subsystems could correspond to different primes, leading to mixed spectra. |
 | No interactions between oscillators | Coupling would modify the Markov kernel and could re‑introduce exponential tails. |
 
-### 8.2 Falsifiability
-A **falsifying observation** would be a high‑precision measurement of black‑body spectral radiance that matches the Planck exponential tail across the entire frequency range within experimental uncertainty, thereby showing no algebraic plateau proportional to \(1/(p-1)\). Conversely, detection of a systematic excess consistent with the factor \(1/(p-1)\) in the high‑frequency tail would support the ultrametric hypothesis.
+### 8.2 Falsifiability A **falsifying observation** would be a high‑precision measurement of black‑body spectral radiance that matches the Planck exponential tail across the entire frequency range within experimental uncertainty, thereby showing no algebraic plateau proportional to \(1/(p-1)\). Conversely, detection of a systematic excess consistent with the factor \(1/(p-1)\) in the high‑frequency tail would support the ultrametric hypothesis.
 
 ### 8.3 Open Questions
 * Extension of the ultrametric framework to multimode fields and polarization degrees of freedom.  
@@ -353,11 +349,9 @@ A **falsifying observation** would be a high‑precision measurement of black‑
 * **Astrophysical modelers** may incorporate a p‑adic correction term when fitting high‑frequency observations of stellar or cosmic microwave backgrounds.  
 * **Metrology institutes** calibrating radiometric standards would need to verify whether the underlying state‑counting metric matches the experimental configuration.
 
-### (b) Technology Readiness Level
-The work is a **purely analytical, un‑reviewed study**; according to NASA definitions it resides at **TRL 2** (technology concept formulated).
+### (b) Technology Readiness Level The work is a **purely analytical, un‑reviewed study**; according to NASA definitions it resides at **TRL 2** (technology concept formulated).
 
-### (c) Minimal next experiment
-A **high‑resolution black‑body cavity** operated at temperature \(T\approx 3000\) K, measured with a Fourier‑transform infrared spectrometer capable of resolving radiance differences at the 1 % level up to frequencies of \(10^{15}\) Hz. The experiment would compare the measured spectral radiance to both the Planck prediction and the ultrametric prediction \(B_\nu(p)=\frac{2h\nu^{3}}{c^{2}}/(p-1)\) for a chosen prime (e.g., \(p=3\)). Observation of a systematic excess matching the \(1/(p-1)\) factor would falsify the null hypothesis of the pure Planck law.
+### (c) Minimal next experiment A **high‑resolution black‑body cavity** operated at temperature \(T\approx 3000\) K, measured with a Fourier‑transform infrared spectrometer capable of resolving radiance differences at the 1 % level up to frequencies of \(10^{15}\) Hz. The experiment would compare the measured spectral radiance to both the Planck prediction and the ultrametric prediction \(B_\nu(p)=\frac{2h\nu^{3}}{c^{2}}/(p-1)\) for a chosen prime (e.g., \(p=3\)). Observation of a systematic excess matching the \(1/(p-1)\) factor would falsify the null hypothesis of the pure Planck law.
 
 ### (d) Engineering constraints
 * **Spectral resolution**: Must resolve differences of order \(10^{-2}\) W·m\(^{-2}\)·sr\(^{-1}\)·Hz\(^{-1}\).  
@@ -365,14 +359,11 @@ A **high‑resolution black‑body cavity** operated at temperature \(T\approx 3
 * **Material emissivity**: Must be well‑characterised to isolate metric effects from surface‑property variations.  
 * **Data acquisition**: Requires low‑noise detectors (e.g., HgCdTe) and calibrated black‑body standards.
 
-### (e) Projected performance bounds (projection)
-Assuming a cavity at \(T=3000\) K and \(p=3\), the ultrametric model predicts a **spectral radiance increase** of roughly \(\Delta B_\nu \approx B_{\nu}^{\text{Planck}}/(p-1) - B_{\nu}^{\text{Planck}}\) in the high‑frequency tail, amounting to a **10 %** relative excess near \(\nu\approx 10^{15}\) Hz. This figure follows directly from the analytic expression for \(B_\nu(p)\) and the known Planck value at that frequency.
+### (e) Projected performance bounds (projection) Assuming a cavity at \(T=3000\) K and \(p=3\), the ultrametric model predicts a **spectral radiance increase** of roughly \(\Delta B_\nu \approx B_{\nu}^{\text{Planck}}/(p-1) - B_{\nu}^{\text{Planck}}\) in the high‑frequency tail, amounting to a **10 %** relative excess near \(\nu\approx 10^{15}\) Hz. This figure follows directly from the analytic expression for \(B_\nu(p)\) and the known Planck value at that frequency.
 
-### (f) Risks and misuse
-Applying the ultrametric model to regimes where the Archimedean metric is physically justified (e.g., low‑frequency thermal radiation) could lead to **over‑design** of emitters or misinterpretation of astrophysical data. Validation against empirical spectra is therefore mandatory before engineering adoption.
+### (f) Risks and misuse Applying the ultrametric model to regimes where the Archimedean metric is physically justified (e.g., low‑frequency thermal radiation) could lead to **over‑design** of emitters or misinterpretation of astrophysical data. Validation against empirical spectra is therefore mandatory before engineering adoption.
 
-## 10. Conclusion
-Replacing the Archimedean distance with the p‑adic ultrametric in the state‑counting step of black‑body statistical mechanics yields a geometric occupation distribution identical to a Bose–Einstein law with fugacity \(z=1/p\). The resulting unnormalised partition sum \(\tilde Z(p)=p/(p-1)\) and mean occupation \(\langle n\rangle=1/(p-1)\) produce a spectral tail that decays algebraically, thereby requiring an explicit frequency cutoff to avoid divergence. The analysis rests on the geometric weighting postulate of Section 3.3 and on ultrametric embedding and extension theorems [2], [5]. The prime \(p\) emerges as a **new design parameter** for thermal‑radiation engineering. Immediate experimental falsification is feasible with existing spectroscopic equipment, and successful validation would necessitate a revision of the foundational assumptions underlying thermal physics.
+## 10. Conclusion Replacing the Archimedean distance with the p‑adic ultrametric in the state‑counting step of black‑body statistical mechanics yields a geometric occupation distribution identical to a Bose–Einstein law with fugacity \(z=1/p\). The resulting unnormalised partition sum \(\tilde Z(p)=p/(p-1)\) and mean occupation \(\langle n\rangle=1/(p-1)\) produce a spectral tail that decays algebraically, thereby requiring an explicit frequency cutoff to avoid divergence. The analysis rests on the geometric weighting postulate of Section 3.3 and on ultrametric embedding and extension theorems [2], [5]. The prime \(p\) emerges as a **new design parameter** for thermal‑radiation engineering. Immediate experimental falsification is feasible with existing spectroscopic equipment, and successful validation would necessitate a revision of the foundational assumptions underlying thermal physics.
 
 ## Version History
 

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-quantum-computation-langlands",
+  "paper": {
+    "path": "silent-radix/ultrametric-quantum-computation-langlands/paper.md",
+    "title": "Ultrametric Quantum Computation and the Langlands Program",
+    "url": "https://papers.qnfo.org/papers/ultrametric-quantum-computation-langlands"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-quantum-computation-langlands"
+  },
+  "snapshots": [
+    {
+      "sha256": "2c350aab26c341ba15be81742177138e828484c670cbadc608b6896ce05ead07",
+      "bytes": 103269,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

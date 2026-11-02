@@ -1,10 +1,10 @@
 # Ultrametric Quantum Computing as the Natural Realization of Adelic Factoring
 
 ## Abstract
+
 Integer factorisation underpins modern public‑key cryptography, yet classical algorithms such as the General Number Field Sieve (GNFS) scale sub‑exponentially and quantum Shor’s algorithm requires fault‑tolerant hardware that remains unavailable. A gap therefore exists between the theoretical promise of quantum advantage and any physically realizable platform. We conjecture that factorisation is fundamentally an adelic problem: the integer’s prime‑power decomposition lives simultaneously in the Archimedean real line and in all non‑Archimedean $p$‑adic completions. Classical and gate‑based quantum algorithms exploit only a subset of this adelic structure. By constructing a **ultrametric quantum computer (UQC)** whose Hilbert space respects the hierarchical geometry of $p$‑adic trees, we can in principle access the full adelic information. Our approach proceeds in three stages: (1) a formal reformulation of GNFS and Shor’s algorithm as adelic factorisation steps, quantifying the “partial” adelic exploitation; (2) a simulation of quantum adiabatic search on ultrametrically organised Hilbert spaces, demonstrating that the adiabatic gap scales polynomially with the $p$‑adic depth; (3) a spin‑glass Hamiltonian model whose low‑energy ultrametric states encode $p$‑adic digit strings, establishing computational universality. Using concrete arithmetic drawn from a toy model, we derive a separation factor of $\approx2.27\times10^{8}$ between a structured adelic transform and a dense baseline, and we verify $p$‑adic norm identities that underpin the ultrametric encoding. The result suggests that, if realised, an UQC would collapse the asymptotic barrier of integer factorisation, turning a security‑critical problem into a tractable ultrametric search.
 
-## 1. Introduction
-The security of RSA, Diffie–Hellman, and related public‑key protocols rests on the computational hardness of the integer factorisation problem (IFP). Modern RSA keys of 2048 bits require billions of core‑years on the best classical implementations, and the record factorisation of the 829‑bit RSA‑250 number required a substantial computational effort. Consequently, any breakthrough that reduces the asymptotic cost of factorisation would destabilise the global cryptographic infrastructure, affecting banking, e‑commerce, and national security.  
+## 1. Introduction The security of RSA, Diffie–Hellman, and related public‑key protocols rests on the computational hardness of the integer factorisation problem (IFP). Modern RSA keys of 2048 bits require billions of core‑years on the best classical implementations, and the record factorisation of the 829‑bit RSA‑250 number required a substantial computational effort. Consequently, any breakthrough that reduces the asymptotic cost of factorisation would destabilise the global cryptographic infrastructure, affecting banking, e‑commerce, and national security. 
 
 Current approaches face two complementary obstacles. Classical algorithms such as GNFS achieve only sub‑exponential scaling because they treat the integer as a single real object, ignoring the rich $p$‑adic structure that naturally decomposes the number into its prime‑power components. Shor’s algorithm, while polynomial in the number of qubits, presupposes a fault‑tolerant gate model that has not been demonstrated at the scale required for 2048‑bit integers; noisy intermediate‑scale quantum (NISQ) devices still fail to maintain coherence over the depth needed for modular exponentiation [2, 4].  
 
@@ -17,8 +17,7 @@ If the IFP is intrinsically adelic—i.e. a problem that lives simultaneously in
 - **C4.** Numerical comparison of a structured adelic transform against a dense baseline using the QNFO toy‑model data [9], yielding a separation factor of $\approx2.27\times10^{8}$ (Section 5).  
 - **C5.** Identification of the minimal experimental test: a three‑prime ($p\in\{2,3,5\}$) ultrametric register on a spin‑glass platform, measuring the $p$‑adic norm of a test rational number (Section 7).
 
-## 2. Background and Related Work
-Ultrametric geometry provides the mathematical foundation for non‑Archimedean analysis. In an ultrametric space the distance satisfies the strong triangle inequality $d(x,y)\le\max\{d(x,z),d(z,y)\}$ [1, Eq. (1.1)], a property that underlies the hierarchical organisation of $p$‑adic numbers.  
+## 2. Background and Related Work Ultrametric geometry provides the mathematical foundation for non‑Archimedean analysis. In an ultrametric space the distance satisfies the strong triangle inequality $d(x,y)\le\max\{d(x,z),d(z,y)\}$ [1, Eq. (1.1)], a property that underlies the hierarchical organisation of $p$‑adic numbers. 
 
 Quantum signal processing (QSP) demonstrates that deep quantum circuits can be compressed while preserving algorithmic optimality, yet noisy hardware still limits circuit depth [2]. This motivates the search for alternative substrates that avoid deep gate sequences.  
 
@@ -40,8 +39,7 @@ Finally, the ultrametric quantum computation programme proposes Bruhat–Tits tr
 
 Collectively, these works motivate a concrete investigation of ultrametric quantum hardware for adelic factorisation.
 
-## 3. Methods
-Our methodology comprises three tightly coupled components.
+## 3. Methods Our methodology comprises three tightly coupled components.
 
 ### 3.1 Adelisation of Classical and Gate‑Based Algorithms
 We begin by expressing the integer $N$ to be factored as an element of the adele ring $\mathbb{A}_{\mathbb{Q}}=\mathbb{R}\times\prod_{p}\mathbb{Q}_{p}$. The factorisation problem becomes the simultaneous solution of the congruences
@@ -80,8 +78,7 @@ J_{ij}=J_{0}\,\exp\!\bigl(-\lambda\,d_{ij}\bigr).
 \]
 The ground‑state manifold of $H_{\text{SG}}$ is known to be ultrametrically organised [1, §5.2]. By mapping each $p$‑adic digit to a spin cluster at a given depth, the low‑energy configurations encode the full $p$‑adic expansion of $N$. Universality follows from the result that any two‑qubit gate is universal [7]; the spin‑glass interactions can be compiled into effective two‑spin gates acting on neighbouring clusters, thereby reproducing any unitary circuit on the ultrametric register.
 
-## 4. Analysis
-We now present explicit arithmetic derivations that quantify the advantage of an adelic‑structured transform over a dense baseline, using a toy‑model data.
+## 4. Analysis We now present explicit arithmetic derivations that quantify the advantage of an adelic‑structured transform over a dense baseline, using a toy‑model data.
 
 ### 4.1 Structured vs. Dense Operation Counts
 The structured transform for the prime set $S=\{2,3,5\}$ with local depth $k_{p}=4$ requires
@@ -141,8 +138,7 @@ The ratio for three primes is
 \]
 identical to the single‑prime ratio because the factor $3$ cancels.
 
-### 4.3 $p$‑adic Norm Verification
-We verify the $p$‑adic norm of the rational number $\frac{45}{14}$ at $p=3$, as stated in [9].
+### 4.3 $p$‑adic Norm Verification We verify the $p$‑adic norm of the rational number $\frac{45}{14}$ at $p=3$, as stated in [9].
 
 Factorisation:
 \[
@@ -185,13 +181,11 @@ q^{2}-q &= 49-7 = 42,\\
 \]
 This matches the value quoted in [9].
 
-### 4.6 FFT Anchor Cost
-A $1024$‑point FFT requires $10{,}240$ elementary operations (approximately $10\log_{2}1024$). This figure is taken directly from [9] and serves as a baseline for comparing structured transforms to classical fast transforms.
+### 4.6 FFT Anchor Cost A $1024$‑point FFT requires $10{,}240$ elementary operations (approximately $10\log_{2}1024$). This figure is taken directly from [9] and serves as a baseline for comparing structured transforms to classical fast transforms.
 
 All derivations above are fully explicit and rely solely on the numerical data supplied in the bibliography.
 
-## 5. Results
-The quantitative analysis yields the following concrete results:
+## 5. Results The quantitative analysis yields the following concrete results:
 
 | Quantity | Value | Interpretation |
 |---|---|---|
@@ -215,8 +209,7 @@ These numbers demonstrate that, even on a modest toy register, the adelic‑stru
 - **L4.** The universality argument relies on generic two‑qubit gates; engineering a physical gate that respects the ultrametric coupling may be non‑trivial.  
 - **L5.** The cost comparison uses operation counts abstracted from algorithmic steps; actual wall‑clock times depend on hardware latency and parallelism.
 
-### 6.2 Falsifiability
-The central claim—that an ultrametric quantum computer can achieve exponential separation from dense implementations—would be falsified if an experimental platform implementing the hierarchical coupling (as required in §3.2) fails to exhibit the predicted adiabatic gap scaling. Concretely, measuring the minimum spectral gap for increasing tree depth $d$ and observing a decay faster than $\exp(-\alpha d)$ would contradict the theoretical bound.
+### 6.2 Falsifiability The central claim—that an ultrametric quantum computer can achieve exponential separation from dense implementations—would be falsified if an experimental platform implementing the hierarchical coupling (as required in §3.2) fails to exhibit the predicted adiabatic gap scaling. Concretely, measuring the minimum spectral gap for increasing tree depth $d$ and observing a decay faster than $\exp(-\alpha d)$ would contradict the theoretical bound.
 
 ### 6.3 Open Questions
 - How does error correction operate on an ultrametric substrate, given the Threshold Theorem conjecture in [10]?  
@@ -231,11 +224,9 @@ The central claim—that an ultrametric quantum computer can achieve exponential
 
 If the ultrametric advantage holds, design decisions would shift from minimizing gate depth on planar chips to engineering exponential coupling decay across hierarchical layers.
 
-### 7.2 Technology Readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 2** (technology concept formulation). No experimental prototype has yet been built.
+### 7.2 Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 2** (technology concept formulation). No experimental prototype has yet been built.
 
-### 7.3 Minimal Next Experiment
-Construct a three‑prime ultrametric register ($p\in\{2,3,5\}$) on a spin‑glass chip with depth $k_{p}=4$. Prepare the rational test state $\frac{45}{14}$ and measure its $3$‑adic norm via energy spectroscopy. Observation of a spectral line corresponding to $|45/14|_{3}=1/9$ would support the encoding; failure to resolve the expected splitting would falsify the ultrametric encoding hypothesis.
+### 7.3 Minimal Next Experiment Construct a three‑prime ultrametric register ($p\in\{2,3,5\}$) on a spin‑glass chip with depth $k_{p}=4$. Prepare the rational test state $\frac{45}{14}$ and measure its $3$‑adic norm via energy spectroscopy. Observation of a spectral line corresponding to $|45/14|_{3}=1/9$ would support the encoding; failure to resolve the expected splitting would falsify the ultrametric encoding hypothesis.
 
 ### 7.4 Engineering Constraints
 - **Hierarchical coupling:** Requires exponential decay of interaction strength with tree depth (see §19.4 of [10]).  
@@ -255,8 +246,7 @@ subject to the assumption that each ultrametric node maps to a physical qubit. T
 - **Resource diversion:** Investment in ultrametric platforms may detract from other quantum error‑correction research.  
 - **Misinterpretation:** The adelic framework is mathematically rigorous but its physical realisation remains speculative; premature claims of “quantum supremacy” could mislead stakeholders.
 
-## 8. Conclusion
-We have presented a comprehensive theoretical framework that recasts integer factorisation as an adelic problem and proposes an ultrametric quantum computer as the natural substrate for its solution. By formalising the partial adelic exploitation of existing algorithms, deriving explicit adiabatic gap scalings, and constructing a spin‑glass Hamiltonian that encodes $p$‑adic digits, we bridge number theory, quantum information, and condensed‑matter physics. Quantitative analysis of a toy adelic register demonstrates an eight‑order‑of‑magnitude operation‑count advantage over dense implementations, and elementary $p$‑adic norm checks confirm the internal consistency of the encoding. While substantial engineering challenges remain—particularly the realization of hierarchical couplings and fault‑tolerant error correction—the proposed pathway offers a concrete target for experimental validation. Success would overturn the current cryptographic paradigm and establish ultrametric quantum computation as a new computational paradigm grounded in adelic mathematics.
+## 8. Conclusion We have presented a comprehensive theoretical framework that recasts integer factorisation as an adelic problem and proposes an ultrametric quantum computer as the natural substrate for its solution. By formalising the partial adelic exploitation of existing algorithms, deriving explicit adiabatic gap scalings, and constructing a spin‑glass Hamiltonian that encodes $p$‑adic digits, we bridge number theory, quantum information, and condensed‑matter physics. Quantitative analysis of a toy adelic register demonstrates an eight‑order‑of‑magnitude operation‑count advantage over dense implementations, and elementary $p$‑adic norm checks confirm the internal consistency of the encoding. While substantial engineering challenges remain—particularly the realization of hierarchical couplings and fault‑tolerant error correction—the proposed pathway offers a concrete target for experimental validation. Success would overturn the current cryptographic paradigm and establish ultrametric quantum computation as a new computational paradigm grounded in adelic mathematics.
 
 ## Provenance and AI Involvement
 

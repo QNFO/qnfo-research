@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-relaxation-dynamics-in-topological-quantum-memory",
+  "paper": {
+    "path": "silent-radix/ultrametric-relaxation-dynamics-in-topological-quantum-memory/paper.md",
+    "title": "Ultrametric Relaxation Dynamics in Topological Quantum Memory",
+    "url": "https://papers.qnfo.org/papers/ultrametric-relaxation-dynamics-in-topological-quantum-memory"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-relaxation-dynamics-in-topological-quantum-memory"
+  },
+  "snapshots": [
+    {
+      "sha256": "12519c6b68f5330d54eddfcb0b4b2b05e57d1300894cf0e1ef32ef6d6b67b0c3",
+      "bytes": 52729,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
