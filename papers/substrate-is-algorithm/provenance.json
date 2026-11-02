@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "substrate-is-algorithm",
+  "paper": {
+    "path": "papers/substrate-is-algorithm/paper.md",
+    "title": "The Substrate Is the Algorithm: A Categorical Formalization of the Strongest Consilience Thread",
+    "url": "https://papers.qnfo.org/papers/substrate-is-algorithm"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": [
+      {
+        "doi": "10.1007/978-3-642-12821-9_2",
+        "source": "paper.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "substrate-is-algorithm"
+  },
+  "snapshots": [
+    {
+      "sha256": "2ee6357a163a6cf35208b834ea9ce7d194bff848b8eccbdd6b5ab415866a454d",
+      "bytes": 14992,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

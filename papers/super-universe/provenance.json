@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "super-universe",
+  "paper": {
+    "path": "papers/super-universe/paper.md",
+    "title": "Super-Universe",
+    "url": "https://papers.qnfo.org/papers/super-universe"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "super-universe"
+  },
+  "snapshots": [
+    {
+      "sha256": "7fa8efe36cfead7edc51ba398939fe857148f9176dceee703861f10b635dc8aa",
+      "bytes": 225750,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

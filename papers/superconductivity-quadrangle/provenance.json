@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "superconductivity-quadrangle",
+  "paper": {
+    "path": "papers/superconductivity-quadrangle/paper.md",
+    "title": "Superconductivity Quadrangle",
+    "url": "https://papers.qnfo.org/papers/superconductivity-quadrangle"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "superconductivity-quadrangle"
+  },
+  "snapshots": [
+    {
+      "sha256": "d4cadaf007a6d53b5d55f45910844fc8e726ff9bac67a9991f0719c9b561fba5",
+      "bytes": 61685,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
