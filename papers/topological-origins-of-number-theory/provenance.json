@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "topological-origins-of-number-theory",
+  "paper": {
+    "path": "papers/topological-origins-of-number-theory/paper.md",
+    "title": "Topological Origins of Number Theory",
+    "url": "https://papers.qnfo.org/papers/topological-origins-of-number-theory"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "topological-origins-of-number-theory"
+  },
+  "snapshots": [
+    {
+      "sha256": "c1a5c35216b7f0960dfa75a72ddedb80ba9c48e646918c89751c2fd75fe0fafd",
+      "bytes": 32707,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

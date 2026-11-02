@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "topological-quantization-and-spectral-filtration",
+  "paper": {
+    "path": "papers/topological-quantization-and-spectral-filtration/paper.md",
+    "title": "Topological Quantization and Spectral Filtration",
+    "url": "https://papers.qnfo.org/papers/topological-quantization-and-spectral-filtration"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "topological-quantization-and-spectral-filtration"
+  },
+  "snapshots": [
+    {
+      "sha256": "b4940223c591a2358b13b2cbc34b2a49cf11b0983c398c827c906a6156eca31a",
+      "bytes": 178466,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "topological-and-computational-unification-of-emergent-agency",
+  "paper": {
+    "path": "papers/topological-and-computational-unification-of-emergent-agency/paper.md",
+    "title": "Topological and Computational Unification of Emergent Agency",
+    "url": "https://papers.qnfo.org/papers/topological-and-computational-unification-of-emergent-agency"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "topological-and-computational-unification-of-emergent-agency"
+  },
+  "snapshots": [
+    {
+      "sha256": "84834c5123d131a77556eb24a6b3fa195f4bb6422bf52df6ff2d4cc4f423d002",
+      "bytes": 78602,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
