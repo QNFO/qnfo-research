@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-418/perception-as-interpolation-over-a-discrete-universe",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "774f96f94b136c8b6f594c39297bd42be6d3668b5c1e8a4fe080bfd6522e5e9d"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "perception-as-interpolation-over-a-discrete-universe"
@@ -23,6 +30,14 @@
       "recorded_at": "2026-10-26",
       "basis": "deposit",
       "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "49c0fac8b0633413adc1b7f3f82c00597827da4bace2c6547b41d9923837d419",
+      "bytes": 31400,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "2.0.0",
       "git_commit": null
     }
   ],
