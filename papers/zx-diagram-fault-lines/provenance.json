@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zx-diagram-fault-lines",
+  "paper": {
+    "path": "papers/zx-diagram-fault-lines/paper.md",
+    "title": "ZX Diagrams at the Seam: Spiders, Pauli Webs, Gadgets, and the Cafeteria Problem of Cross-Disciplinary Imports",
+    "url": "https://papers.qnfo.org/papers/zx-diagram-fault-lines"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zx-diagram-fault-lines"
+  },
+  "snapshots": [
+    {
+      "sha256": "30d0e068c918a85ad94c5fa6abc95875f8192d123c78354865fed55d22d062e6",
+      "bytes": 28479,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "0.4.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

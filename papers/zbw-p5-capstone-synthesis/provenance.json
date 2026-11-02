@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "zbw-p5-capstone-synthesis",
+  "paper": {
+    "path": "papers/zbw-p5-capstone-synthesis/paper.md",
+    "title": "Vanishing ZBW Signal: The ZBW-Majorana Hypothesis as a Unified Framework for Topological Fermion Distinction",
+    "url": "https://papers.qnfo.org/papers/zbw-p5-capstone-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "zbw-p5-capstone-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "23680bb92c162f3958ae14800645395b1b6e6ff8873f56626bfc81cdf32b81bd",
+      "bytes": 25829,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
