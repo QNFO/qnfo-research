@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-p-adic-metrology",
+  "paper": {
+    "path": "silent-radix/ultrametric-p-adic-metrology/paper.md",
+    "title": "Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology",
+    "url": "https://papers.qnfo.org/papers/ultrametric-p-adic-metrology"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ultrametric-p-adic-metrology"
+  },
+  "snapshots": [
+    {
+      "sha256": "d49d82e72fcc2311fb0a51540d94f3113b043e87c7ba3e56543989a3a7c67ff7",
+      "bytes": 24171,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

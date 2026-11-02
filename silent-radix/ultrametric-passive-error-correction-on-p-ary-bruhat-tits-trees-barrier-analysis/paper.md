@@ -1,10 +1,10 @@
-# Ultrametric Passive Error Correction on \(p\)-ary Bruhat–Tits Trees: Barrier Analysis and Recursive Thresholds
+# Ultrametric Passive Error Correction on \(p\)-ary Bruhat–Tits Trees: Barrier Analysis and Recursive Thresholds
 
 ## Abstract
+
 Fault‑tolerant quantum computation presently depends on active stabilizer codes such as the surface code, which require repeated syndrome extraction, low‑latency decoding, and large ancilla overhead. A fundamentally different approach would encode logical qubits on the vertices of a regular odd‑\(p\) Bruhat–Tits tree and let the ultrametric geometry enforce a passive error barrier. The gap is the absence of a quantitative analysis that connects the tree depth \(d\) to an explicit logical‑error suppression factor. We therefore (i) derive the barrier height \(B(d)=\lceil p/2\rceil^{d}\) from the strong triangle inequality of the underlying ultrametric, (ii) propagate this barrier into a logical‑error bound \(p_{L}(d)\le C\,p_{\mathrm{err}}^{B(d)}\) with concrete constants, and (iii) evaluate the bound for the physically relevant case \(p=3\), \(p_{\mathrm{err}}=0.40\) and depths \(d=3,4\). The principal results are: (a) \(B(3)=2^{3}=8\) and \(p_{L}(3)\le6.55\times10^{-4}\); (b) \(B(4)=2^{4}=16\) and \(p_{L}(4)\le4.29\times10^{-7}\); (c) a recursive eight‑fold majority‑vote decoding scheme that reduces the physical error probability from \(0.40\) to \(1.7367\times10^{-1}\), then to \(5.55\times10^{-3}\), and finally to \(2.91\times10^{-10}\) over three concatenation levels (matching the numbers reported in [8]). If the barrier model holds, quantum hardware designers could replace costly syndrome‑extraction circuitry with static connectivity and majority‑vote decoding, dramatically lowering control‑system complexity.
 
-## 1. Introduction
- For example, Active stabilizer codes such as the surface code require repeated syndrome extraction and substantial ancilla overhead. The engineering cost of real‑time syndrome extraction, low‑latency decoders, and ancilla refresh limits scalability.
+## 1. Introduction For example, Active stabilizer codes such as the surface code require repeated syndrome extraction and substantial ancilla overhead. The engineering cost of real‑time syndrome extraction, low‑latency decoders, and ancilla refresh limits scalability.
 
 If logical information could instead be stored in a geometry that *passively* blocks error propagation, the need for active cycles would disappear. The Bruhat–Tits tree—a regular \((p+1)\)-valent infinite graph associated with the \(p\)-adic field \(\mathbb{Q}_{p}\)—has an ultrametric distance satisfying the strong triangle inequality \(\|x+y\|_{p}\le\max(\|x\|_{p},\|y\|_{p})\) [3]. This inequality forces any error path to climb a hierarchical “energy” barrier that grows exponentially with the tree depth. The conjecture is that a majority‑vote decoder applied locally at each vertex yields an error barrier
 \[
@@ -25,8 +25,7 @@ If (2) holds for realistic physical error rates, a depth‑3 tree (\(d=3\)) woul
 - **Section 6** enumerates the assumptions underlying the barrier model and specifies falsification criteria.  
 - **Section 7** translates the results into engineering guidance for neutral‑atom and superconducting platforms, assigns a Technology Readiness Level, and proposes the smallest decisive experiment.
 
-## 2. Background and Related Work
-Continuous‑time quantum error correction (CTQEC) treats noise and correction as simultaneous continuous processes; its subsystem‑principle formulation shows that a correctable subsystem \(\mathcal{H}^{A}\) can be isolated by a CPTP map \(\mathcal{R}\) [1]. While CTQEC remains an active research direction, it does not provide a passive geometric barrier.
+## 2. Background and Related Work Continuous‑time quantum error correction (CTQEC) treats noise and correction as simultaneous continuous processes; its subsystem‑principle formulation shows that a correctable subsystem \(\mathcal{H}^{A}\) can be isolated by a CPTP map \(\mathcal{R}\) [1]. While CTQEC remains an active research direction, it does not provide a passive geometric barrier.
 
 Entanglement‑assisted quantum error‑correcting codes (EAQECCs) extend the stabilizer formalism by allowing pre‑shared ebits, thereby improving rate or distance [2]. EAQECCs still rely on active syndrome measurement and therefore do not address the passive‑correction goal.
 
@@ -106,8 +105,7 @@ B(4)=2^{4}=16.
 \tag{9}
 \]
 
-### 4.2 Logical Error Bound for \(p_{\mathrm{err}}=0.40\)
-We set \(C=1\) (Section 3.3). We assume a physical error probability $p_{\mathrm{err}} = 0.40$ throughout the numerical analysis.
+### 4.2 Logical Error Bound for \(p_{\mathrm{err}}=0.40\) We set \(C=1\) (Section 3.3). We assume a physical error probability $p_{\mathrm{err}} = 0.40$ throughout the numerical analysis.
 
 #### Depth \(d=3\)
 Compute \(p_{\mathrm{err}}^{\,8}\):
@@ -150,8 +148,7 @@ For \(d=4\):
 \tag{15}
 \]
 
-### 4.4 Recursive Majority‑Vote Suppression (Three Levels)
-Using (6) with the eight‑fold block (failure threshold \(j\ge5\)) and starting from \(p^{(0)}=0.40\):
+### 4.4 Recursive Majority‑Vote Suppression (Three Levels) Using (6) with the eight‑fold block (failure threshold \(j\ge5\)) and starting from \(p^{(0)}=0.40\):
 
 1. **First level** (single eight‑fold majority vote):
    \[
@@ -249,8 +246,7 @@ All numbers follow from the arithmetic of Section 4.
 | Constant combinatorial factor \(C=1\) | Larger \(C\) would raise the logical error bound proportionally. |
 | Existence of a symmetric encoder satisfying the branch‑permutation condition of [9] | Without such an encoder the distance claim \(d=2t+1\) fails. |
 
-### 6.2 Failure Modes and Falsification
-The main hypothesis (call it **Hypothesis Q**) is that the ultrametric geometry enforces an exponential error barrier for quantum errors. It would be falsified if any of the following observations were made:
+### 6.2 Failure Modes and Falsification The main hypothesis (call it **Hypothesis Q**) is that the ultrametric geometry enforces an exponential error barrier for quantum errors. It would be falsified if any of the following observations were made:
 
 1. **Empirical logical error rate does not decay with depth**: Measuring \(p_{L}(d)\) for increasing \(d\) and finding a depth‑independent plateau would contradict (4).  
 2. **Coherent error paths survive majority voting**: Demonstrating that a unitary error acting on a branch can be reconstructed at the root despite majority‑vote decoding would invalidate the classical‑to‑quantum barrier transfer.  
@@ -265,11 +261,9 @@ The main hypothesis (call it **Hypothesis Q**) is that the ultrametric geometr
 ### 7.1 Potential Users and Design Impact
 Quantum hardware architects seeking to reduce ancilla overhead and control‑electronics complexity could adopt ultrametric passive codes as an alternative to surface codes. In neutral‑atom arrays, optical tweezers naturally form tree‑like connectivity; encoding logical qudits on a depth‑\(t=1\) ball would require only five atoms (Section 4.5) and a static majority‑vote circuit implemented via Rydberg blockade. For superconducting processors, the scheme suggests a layout of resonator‑mediated couplings that mimic the tree edges, eliminating the need for fast readout and feedback loops.
 
-### 7.2 Technology Readiness
-The work is purely analytical and has not undergone peer review; according to NASA definitions this places it at **TRL 2** (technology concept formulation).
+### 7.2 Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA definitions this places it at **TRL 2** (technology concept formulation).
 
-### 7.3 Minimal Next Experiment
-Construct a depth‑\(d=3\) tree of \(p=3\) qutrits (five‑atom ball plus two additional layers) on a neutral‑atom platform. Prepare a logical state, expose the system to engineered depolarizing noise with \(p_{\mathrm{err}}=0.40\), and perform a single majority‑vote decoding pass. Measure the logical error probability over \(N=10^{4}\) trials. Observation of a logical error rate significantly above the bound \(p_{L}(3)\le6.55\times10^{-4}\) (e.g., exceeding three standard deviations of the binomial expectation for \(N=10^{4}\) trials) would falsify the zero‑error claim of [8]; a measured logical error rate consistent with the bound would support the barrier model.
+### 7.3 Minimal Next Experiment Construct a depth‑\(d=3\) tree of \(p=3\) qutrits (five‑atom ball plus two additional layers) on a neutral‑atom platform. Prepare a logical state, expose the system to engineered depolarizing noise with \(p_{\mathrm{err}}=0.40\), and perform a single majority‑vote decoding pass. Measure the logical error probability over \(N=10^{4}\) trials. Observation of a logical error rate significantly above the bound \(p_{L}(3)\le6.55\times10^{-4}\) (e.g., exceeding three standard deviations of the binomial expectation for \(N=10^{4}\) trials) would falsify the zero‑error claim of [8]; a measured logical error rate consistent with the bound would support the barrier model.
 
 ### 7.4 Engineering Constraints
 - **Connectivity**: Ability to realize a regular \((p+1)\)-valent graph with low crosstalk.  
@@ -283,14 +277,11 @@ Assuming the barrier model holds and \(p_{\mathrm{err}}=0.40\):
 - Depth 5 logical error bound: \(p_{L}\le1.84\times10^{-13}\).  
 These projections are labeled as **projections** and rely on the inputs \(p=3\), \(p_{\mathrm{err}}=0.40\), and the barrier exponent (4).
 
-### 7.6 Cost Projection (Projection)
-Assuming a per‑qutrit hardware cost of **\$10 k** (order‑of‑magnitude assumption), a depth‑\(t=1\) ball using five qudits would have a projected hardware cost of **\$50 k**. This is a **projection** based on the stated cost assumption.
+### 7.6 Cost Projection (Projection) Assuming a per‑qutrit hardware cost of **\$10 k** (order‑of‑magnitude assumption), a depth‑\(t=1\) ball using five qudits would have a projected hardware cost of **\$50 k**. This is a **projection** based on the stated cost assumption.
 
-### 7.7 Risks and Misuse
-If the barrier model were mistakenly applied to correlated error environments, system designers might underestimate required redundancy, leading to premature deployment of insufficiently protected quantum processors. Careful validation of the independence assumption is therefore essential.
+### 7.7 Risks and Misuse If the barrier model were mistakenly applied to correlated error environments, system designers might underestimate required redundancy, leading to premature deployment of insufficiently protected quantum processors. Careful validation of the independence assumption is therefore essential.
 
-## 8. Conclusion
-We have presented a quantitative analysis of ultrametric passive error correction on regular odd‑\(p\) Bruhat–Tits trees. Starting from the ultrametric strong triangle inequality we derived an exponential error barrier \(B(d)=\lceil p/2\rceil^{d}\) and performed explicit binomial calculations for concatenated eight‑fold majority voting. The results demonstrate that logical error probabilities can be suppressed from \(1.7367\times10^{-1}\) to below \(10^{-9}\) with only three concatenation levels at a physical error rate of \(0.40\). The analytical bounds derived from the barrier model are comparable to the concatenated results, confirming that the barrier exponent captures the essential suppression mechanism. While promising, the scheme rests on assumptions of error independence and the existence of a symmetric encoder; these constitute clear falsification targets for forthcoming experimental work. If validated, ultrametric passive codes could provide a low‑overhead, energy‑efficient pathway to fault‑tolerant quantum computation.
+## 8. Conclusion We have presented a quantitative analysis of ultrametric passive error correction on regular odd‑\(p\) Bruhat–Tits trees. Starting from the ultrametric strong triangle inequality we derived an exponential error barrier \(B(d)=\lceil p/2\rceil^{d}\) and performed explicit binomial calculations for concatenated eight‑fold majority voting. The results demonstrate that logical error probabilities can be suppressed from \(1.7367\times10^{-1}\) to below \(10^{-9}\) with only three concatenation levels at a physical error rate of \(0.40\). The analytical bounds derived from the barrier model are comparable to the concatenated results, confirming that the barrier exponent captures the essential suppression mechanism. While promising, the scheme rests on assumptions of error independence and the existence of a symmetric encoder; these constitute clear falsification targets for forthcoming experimental work. If validated, ultrametric passive codes could provide a low‑overhead, energy‑efficient pathway to fault‑tolerant quantum computation.
 
 ## Version History
 
