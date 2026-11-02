@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-426: When Does Spectral Data Constructively Determine Arithmetic Sequences?",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-426",
+      "qnfo:runPath": "runs/cycle-426/when-does-spectral-data-constructively-determine-arithmetic-sequences",
+      "qnfo:slug": "when-does-spectral-data-constructively-determine-arithmetic-sequences",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-02T20:31:55.227Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/when-does-spectral-data-constructively-determine-arithmetic-sequences"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/when-does-spectral-data-constructively-determine-arithmetic-sequences",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "When Does Spectral Data Constructively Determine Arithmetic Sequences?",
+      "url": "https://papers.qnfo.org/papers/when-does-spectral-data-constructively-determine-arithmetic-sequences"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0706.3841",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0706.3841"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1110.5626",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1110.5626"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.02664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.02664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.07866",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.07866"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2010.16064",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2010.16064"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2101.05713",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2101.05713"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2411.15497",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2411.15497"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.21391",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.21391"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2400",
+      "sha256": "445011359872d8992d39d93ff971dd1e1950322311b607071c5989b6e2680da5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51179",
+      "sha256": "6c72a5af2d0e867603be1122271c91db51d567d21babfdf83139f64875161ed5",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "33039",
+      "sha256": "b1173d2bb8516c645a640f5e359a313f9d4ff24f55f0acd9a532d6bc963e7bc1",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "7107",
+      "sha256": "25c0ff6e7117ee139c0f1b4416be66e126d047c2b1aa7e42d59c748954f94a6d",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4114",
+      "sha256": "f704dd08ea94b3eaf404809b0794e43242ce2c5f023c90e86090d7a75fea6d3a",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "12620",
+      "sha256": "a16a266d42edcd569e8f8b6d36c9ff8c2f9b62a2fe05e36d9b250d891c9f6a34",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "8732",
+      "sha256": "853a79c68124e9253dde0fc720411875a20040fe7a335cbadbb64ec875fd948b",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21828",
+      "sha256": "f419bd467cbdf60b22b8324a448606ea2a21b8d1f9e7aa273a501744da3f07d9",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18442",
+      "sha256": "91cf196e80d9f9ad9f55e4cc8ec21fdf5436db275d0a1d7f6b1ee1718b848bcd",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0706.3841"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1110.5626"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.02664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.07866"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2010.16064"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2101.05713"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2411.15497"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.21391"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-02T20:31:55.227Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "4a9d6c50-97d7-4306-8396-f41950b5de40",
+    "slug": "when-does-spectral-data-constructively-determine-arithmetic-sequences",
+    "cycle": "cycle-426",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.2",
+    "finished_at": "2026-11-02T20:31:55.227Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "2cbcafdd378224aa15aa082f604ff3ed2955c7aef91d6683ca41ff87bdd635f0",
+    "bytes": 33040,
+    "path": "papers/when-does-spectral-data-constructively-determine-arithmetic-sequences/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "6c72a5af2d0e867603be1122271c91db51d567d21babfdf83139f64875161ed5",
+      "bytes": 51179,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "b1173d2bb8516c645a640f5e359a313f9d4ff24f55f0acd9a532d6bc963e7bc1",
+      "bytes": 33039,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "25c0ff6e7117ee139c0f1b4416be66e126d047c2b1aa7e42d59c748954f94a6d",
+      "bytes": 7107,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "f704dd08ea94b3eaf404809b0794e43242ce2c5f023c90e86090d7a75fea6d3a",
+      "bytes": 4114,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "a16a266d42edcd569e8f8b6d36c9ff8c2f9b62a2fe05e36d9b250d891c9f6a34",
+      "bytes": 12620,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "853a79c68124e9253dde0fc720411875a20040fe7a335cbadbb64ec875fd948b",
+      "bytes": 8732,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "f419bd467cbdf60b22b8324a448606ea2a21b8d1f9e7aa273a501744da3f07d9",
+      "bytes": 21828,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "91cf196e80d9f9ad9f55e4cc8ec21fdf5436db275d0a1d7f6b1ee1718b848bcd",
+      "bytes": 18442,
+      "role": "draft"
+    }
+  }
+}

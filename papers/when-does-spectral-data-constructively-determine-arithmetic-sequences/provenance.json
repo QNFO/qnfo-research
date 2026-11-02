@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "when-does-spectral-data-constructively-determine-arithmetic-sequences",
+  "paper": {
+    "path": "papers/when-does-spectral-data-constructively-determine-arithmetic-sequences/paper.md",
+    "title": "When Does Spectral Data Constructively Determine Arithmetic Sequences?",
+    "url": "https://papers.qnfo.org/papers/when-does-spectral-data-constructively-determine-arithmetic-sequences"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-426/when-does-spectral-data-constructively-determine-arithmetic-sequences",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "445011359872d8992d39d93ff971dd1e1950322311b607071c5989b6e2680da5"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "4a9d6c50-97d7-4306-8396-f41950b5de40"
+    ],
+    "living_paper_slug": "when-does-spectral-data-constructively-determine-arithmetic-sequences"
+  },
+  "snapshots": [
+    {
+      "sha256": "2cbcafdd378224aa15aa082f604ff3ed2955c7aef91d6683ca41ff87bdd635f0",
+      "bytes": 33040,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
