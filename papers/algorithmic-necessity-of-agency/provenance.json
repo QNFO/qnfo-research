@@ -3,7 +3,7 @@
   "slug": "algorithmic-necessity-of-agency",
   "paper": {
     "path": "papers/algorithmic-necessity-of-agency/paper.md",
-    "title": "Algorithmic-Necessity-of-Agency",
+    "title": "THE ALGORITHMIC NECESSITY",
     "url": "https://papers.qnfo.org/papers/algorithmic-necessity-of-agency"
   },
   "declared": {
@@ -22,6 +22,14 @@
       "bytes": 335491,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "479bd5fc16e8c902f58cbbdb341463e67caea0a9bf5255f83911ca5a74ed3e19",
+      "bytes": 335490,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
       "version": "1.1.0",
       "git_commit": null
     }

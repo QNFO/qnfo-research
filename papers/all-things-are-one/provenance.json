@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "all-things-are-one",
+  "paper": {
+    "path": "papers/all-things-are-one/paper.md",
+    "title": "All Things Are One",
+    "url": "https://papers.qnfo.org/papers/all-things-are-one"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "all-things-are-one"
+  },
+  "snapshots": [
+    {
+      "sha256": "fe387958b17d3e58ae7b61be734e75c0bb582198d8196e81e30e78a09b31b71f",
+      "bytes": 241737,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,8 +1,6 @@
-# AGENTIC COLLAPSE
+# Agentic Collapse
 
-## A
-Time-Delayed Cybernetic Framework for Epistemic Stability in Autonomous
-AI Systems
+## A Time-Delayed Cybernetic Framework for Epistemic Stability in Autonomous AI Systems
 
 **Author:** Rowan Brad Quni-Gudzinas
 **Contact:** rowan.quni@outlook.com **ORCID:**
@@ -40,8 +38,7 @@ Popperian Falsifiability; Cybernetic Control Theory.
 
 # 1. INTRODUCTION
 
-## 1.1 From
-Stochastic Parrots to Autonomous Agents
+## 1.1 From Stochastic Parrots to Autonomous Agents
 
 The trajectory of artificial intelligence has shifted decisively from
 static text generation to dynamic agentic workflows. This transition
@@ -83,8 +80,7 @@ can cascade into a catastrophic failure in the execution phase. The
 system relies on the assumption that the model’s reasoning capabilities
 are robust enough to recover from these deviations.
 
-## 1.2 The System 2
-Illusion: Inference vs. Reasoning
+## 1.2 The System 2 Illusion: Inference vs. Reasoning
 
 The current generation of reasoning models attempts to simulate the
 deliberate, analytical thought processes characteristic of human System
@@ -116,8 +112,7 @@ increasingly confident in a wrong conclusion because it has generated a
 plausible-sounding rationale for it. The verification is not grounded in
 an external truth but in the model’s own internal consistency.
 
-## 1.3 The
-Orchestration Penalty: Complexity vs. Control
+## 1.3 The Orchestration Penalty: Complexity vs. Control
 
 The expansion of AI into multi-agent architectures introduces a
 factorial increase in system complexity that we term the “Orchestration
@@ -139,8 +134,7 @@ exponentially harder than verifying a single agent because the state
 space of possible interactions is vast. The orchestration layer itself
 becomes a source of fragility.
 
-## 1.4 Normative
-Epistemology in Autonomous Loops
+## 1.4 Normative Epistemology in Autonomous Loops
 
 The deployment of autonomous agents in high-stakes environments
 necessitates a return to normative epistemology, specifically the
@@ -162,8 +156,7 @@ agent proposes an action, the validator checks it against a set of
 logical or physical constraints. If the action violates a constraint, it
 is rejected, and the agent is forced to revise its plan.
 
-## 1.5
-Neuro-Symbolic Integration: The Open World Problem
+## 1.5 Neuro-Symbolic Integration: The Open World Problem
 
 The field of neuro-symbolic AI attempts to bridge the gap between
 neural intuition and symbolic rigor, but it faces a fundamental barrier
@@ -185,8 +178,7 @@ or sensory data into a formal representation before it can apply logical
 reasoning. This translation step is itself a probabilistic process,
 subject to error and hallucination.
 
-## 1.6 Regulatory
-Lag: Static Laws for Dynamic Agents
+## 1.6 Regulatory Lag: Static Laws for Dynamic Agents
 
 The rapid advancement of autonomous AI agents has created a
 significant regulatory lag. The International Medical Device Regulators
@@ -206,8 +198,7 @@ deprives it of its primary value: adaptability. There is no established
 methodology for regulating a system that writes its own code or modifies
 its own plans.
 
-## 1.7 Research
-Objective: Modeling Agentic Collapse
+## 1.7 Research Objective: Modeling Agentic Collapse
 
 This research proposes the development of a dynamical model to
 investigate the phenomenon of “Agentic Drift” and the conditions leading
@@ -242,8 +233,7 @@ rigorously grounded in external reality or formal logic.
 dissonance between the agent’s actions and its verification, serving as
 a thermodynamic metric of risk.
 
-## 2.2 System 1 Dynamics:
-The Generative Drive
+## 2.2 System 1 Dynamics: The Generative Drive
 
 The evolution of Semantic Fluency (\(\phi\)) represents the “System 1” component
 of the agent. We model this variable using a logistic growth function,
@@ -259,8 +249,7 @@ highly capable, fluent, and decisive. The coupling term \(-\gamma(\phi - \psi)\)
 if the agent’s confidence outstrips its verification, modeling the
 cognitive process of “stopping to think.”
 
-## 2.3 System 2 Dynamics:
-The Cost of Thought
+## 2.3 System 2 Dynamics: The Cost of Thought
 
 The evolution of Verification Probability (\(\psi\)) represents the “System 2”
 component. We model the rate of verification \(\beta\) as a variable dependent on the
@@ -278,8 +267,7 @@ difficulty of verifying it scales super-linearly. The verifier is
 perpetually running uphill against the increasing slope of the
 generator’s complexity.
 
-## 2.4 Epistemic
-Potential: Accumulating Agentic Drift
+## 2.4 Epistemic Potential: Accumulating Agentic Drift
 
 Epistemic Potential (\(U\)) serves
 as the thermodynamic measure of “Agentic Drift.” It is driven by the
@@ -304,8 +292,7 @@ generator reacts to the verification state from time \(t - \tau_{sys2}\). This l
 “Cost of Thought”—the unavoidable latency of invoking a solver, running
 a script, or querying a database.
 
-## 2.6 The Popperian
-Guillotine in Autonomous Loops
+## 2.6 The Popperian Guillotine in Autonomous Loops
 
 The “Popperian Guillotine” serves as the ultimate safety interlock,
 operationalized as a discrete state reset when Epistemic Potential
@@ -318,8 +305,7 @@ If the agent’s drift becomes too great, the Guillotine severs the
 current chain of thought. This forces the agent to discard its
 unverified context and return to a safe baseline state.
 
-## 2.7 Metastability
-and the Limit Cycle of Agency
+## 2.7 Metastability and the Limit Cycle of Agency
 
 The integration of System 1 drive, System 2 lag, and the Popperian
 Guillotine leads to a new understanding of agentic stability:
@@ -360,8 +346,7 @@ strong attempt to enforce System 2 logic.
 **Guillotine Threshold (\(U_{crit}=0.88\)):** Provides a
 distinct ceiling for the system’s tolerance of uncertainty.
 
-## 3.3 Stochasticity and
-Initialization
+## 3.3 Stochasticity and Initialization
 
 We incorporated stochastic noise terms (\(\sigma_{\phi}=0.06, \sigma_{U}=0.03\)) to
 model the “creative temperature” of the model and measurement
@@ -380,8 +365,7 @@ agent’s state from three time steps prior. The agent committed to a
 high-confidence trajectory before the “System 2” process could assess
 the validity of the first step.
 
-## 4.2 Accumulation of
-Ungrounded Reasoning
+## 4.2 Accumulation of Ungrounded Reasoning
 
 By \(t=20.00\), the gap between what
 the agent “knew” and what it could “prove” widened to nearly \(0.6\). This state represents the
@@ -391,8 +375,7 @@ weight of the agent’s own output due to the Orchestration Penalty. The
 agent was effectively “confabulating” a solution, stacking assumption
 upon assumption.
 
-## 4.3 The Regime of System 2
-Stability
+## 4.3 The Regime of System 2 Stability
 
 Between \(t=40.00\) and \(t=50.00\), the system achieved a fragile
 state of equilibrium, tagged as
@@ -403,8 +386,7 @@ This regime represents the ideal functioning of an agentic system: the
 agent is generating complex plans, and the verifier is successfully
 checking them in near-real-time.
 
-## 4.4 The Stochastic
-Hallucination Spike
+## 4.4 The Stochastic Hallucination Spike
 
 At \(t \approx 60.00\), a stochastic
 noise event pushed Semantic Fluency to an extreme high of \(0.9612\). This “Hallucination Spike”
@@ -413,8 +395,7 @@ increase in \(\phi\) drastically
 increased the Orchestration Penalty, causing the effective verification
 rate to plummet just as the demand for verification peaked.
 
-## 4.5 Anatomy of an Agentic
-Collapse
+## 4.5 Anatomy of an Agentic Collapse
 
 At \(t=62.85\), the Epistemic
 Potential reached \(0.9102\), breaching
@@ -424,8 +405,7 @@ agent’s cognitive architecture. The “System 2” oversight mechanisms
 failed to constrain the “System 1” impulse, leading to a total loss of
 epistemic integrity.
 
-## 4.6 Reset Dynamics and
-Terminal State
+## 4.6 Reset Dynamics and Terminal State
 
 Following the collapse, the Guillotine executed a hard reset. By
 \(t=70.00\), the system stabilized at a

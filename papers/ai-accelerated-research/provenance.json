@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ai-accelerated-research",
+  "paper": {
+    "path": "papers/ai-accelerated-research/paper.md",
+    "title": "The $1,032 Research Program: What Fifty Billion Tokens Taught Me About AI-Accelerated Science",
+    "url": "https://papers.qnfo.org/papers/ai-accelerated-research"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ai-accelerated-research"
+  },
+  "snapshots": [
+    {
+      "sha256": "1dad9f776bdd19e0a84978ca94adf06cfd825f1b12c4df1186fbb520b6aa42cc",
+      "bytes": 13471,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v1.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
