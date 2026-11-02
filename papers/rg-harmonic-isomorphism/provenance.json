@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "rg-harmonic-isomorphism",
+  "paper": {
+    "path": "papers/rg-harmonic-isomorphism/paper.md",
+    "title": "The RG-Harmonic Isomorphism: Renormalization Group Similarities with Harmonic Quantum Mechanics",
+    "url": "https://papers.qnfo.org/papers/rg-harmonic-isomorphism"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "rg-harmonic-isomorphism"
+  },
+  "snapshots": [
+    {
+      "sha256": "1a1123626a0f04382e9111fd440365bd59a79825fcdc9b3939ef678b3ce5cc8b",
+      "bytes": 33196,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

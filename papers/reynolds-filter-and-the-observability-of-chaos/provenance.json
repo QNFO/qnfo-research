@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "reynolds-filter-and-the-observability-of-chaos",
+  "paper": {
+    "path": "papers/reynolds-filter-and-the-observability-of-chaos/paper.md",
+    "title": "REYNOLDS FILTER AND THE OBSERVABILITY OF CHAOS",
+    "url": "https://papers.qnfo.org/papers/reynolds-filter-and-the-observability-of-chaos"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "reynolds-filter-and-the-observability-of-chaos"
+  },
+  "snapshots": [
+    {
+      "sha256": "f656596cf0240ef8121ffda1f9c1889af48356c301a4f5735f9bc45e3d8e4c43",
+      "bytes": 165958,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
