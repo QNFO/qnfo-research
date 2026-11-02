@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cfpe-methodology-v2",
+  "paper": {
+    "path": "papers/cfpe-methodology-v2/paper.md",
+    "title": "CFPE Methodology v2.0: Cascading Bayesian Foresight Engine with Historical Back-Casting Calibration",
+    "url": "https://papers.qnfo.org/papers/cfpe-methodology-v2"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cfpe-methodology-v2"
+  },
+  "snapshots": [
+    {
+      "sha256": "9c0c9cc90424af78563241f616c435ee5746fb5627f4afb8b24b78fd2a25f337",
+      "bytes": 15653,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "category-error-of-the-ego",
+  "paper": {
+    "path": "papers/category-error-of-the-ego/paper.md",
+    "title": "Category Error of the Ego",
+    "url": "https://papers.qnfo.org/papers/category-error-of-the-ego"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "category-error-of-the-ego"
+  },
+  "snapshots": [
+    {
+      "sha256": "29317fc72c1b63679f8cb2ff38c85c6ba9271d6ca3379fa9a8700868c7dda275",
+      "bytes": 289759,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

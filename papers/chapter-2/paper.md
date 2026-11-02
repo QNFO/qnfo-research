@@ -1,10 +1,10 @@
 # The Shaping of Unawareness: A Formal Analysis of Social, Cultural, Technological, and Individual Forces
 
 ## Abstract
+
 Misinformation, algorithmic filter bubbles, and entrenched knowledge gaps hinder public‑health, climate, and democratic decision‑making. Existing accounts describe social hierarchies, cultural norms, technological affordances, and individual biases qualitatively but lack a unified quantitative framework. We fill this gap by (i) formalizing an information‑ecosystem model that integrates ordinal‑game ignorance [1], sparse‑Fourier reconstruction [2], and reinforcement‑learning sample‑efficiency [3]; (ii) deriving explicit arithmetic expressions for (a) the proportion of Fourier coefficients required to recover a $200\times200$ binary image, (b) the step‑per‑hour rate of a robotic‑soccer training task, (c) the average positions processed per GPU‑day in AlphaGo training, and (d) the relevance ceiling of single‑ and two‑agent rate‑limited channels using the collaborative information bottleneck [6]; (iii) evaluating these expressions with data reported in the cited works and with illustrative assumptions. The calculations yield (a) $0.30\%$ of total coefficients needed, (b) $1.32\times10^{7}$ steps h$^{-1}$, (c) $2.14\times10^{4}$ positions GPU$^{-1}$ day$^{-1}$, (d) a single‑channel relevance ceiling of $1$ bit (12.5 % of an assumed $8$‑bit unconstrained relevance) and a two‑channel ceiling of $2$ bits (25 %). These results demonstrate that modest informational resources can generate substantial awareness shifts, that collaborative channels add exactly their rate to the relevance ceiling, and that structural exclusion can eliminate entire relevance components. Policymakers, educators, and platform engineers can therefore use sparsity percentages, throughput bounds, and rate‑relevance trade‑offs to design interventions that are both effective and computationally tractable.
 
-## 1. Introduction
-Public institutions confront costly failures caused by unawareness, including substantial financial losses from vaccine hesitancy, stalled climate negotiations, and expenses combating digital disinformation. Decision‑makers lack a principled method to predict how alterations in social structures, cultural norms, or algorithmic designs will reshape the distribution of awareness across populations. If a quantitative link between these shaping forces and measurable unawareness were available, designers could calibrate interventions—curriculum reforms, platform‑algorithm adjustments, or targeted public‑service campaigns—to achieve desired awareness outcomes with predictable resource expenditures.
+## 1. Introduction Public institutions confront costly failures caused by unawareness, including substantial financial losses from vaccine hesitancy, stalled climate negotiations, and expenses combating digital disinformation. Decision‑makers lack a principled method to predict how alterations in social structures, cultural norms, or algorithmic designs will reshape the distribution of awareness across populations. If a quantitative link between these shaping forces and measurable unawareness were available, designers could calibrate interventions—curriculum reforms, platform‑algorithm adjustments, or targeted public‑service campaigns—to achieve desired awareness outcomes with predictable resource expenditures.
 
 **Contributions.**  
 - **C1.** Formal information‑ecosystem model that unifies ordinal‑game ignorance, sparse‑signal reconstruction, and reinforcement‑learning sample‑efficiency (Section 3).  
@@ -20,8 +20,7 @@ Public institutions confront costly failures caused by unawareness, including su
 - **C11.** Interpretation of quantitative results for policy, education, and platform design (Section 7).  
 - **C12.** Proposal of the smallest empirical test that could falsify the main theoretical claim (Section 7(c)).
 
-## 2. Background and Related Work
-The literature on information shaping provides concrete methodological elements that our model assembles.
+## 2. Background and Related Work The literature on information shaping provides concrete methodological elements that our model assembles.
 
 1. **Ordinal‑game ignorance.** [1] introduces games played under a veil of ignorance where players’ beliefs are subsets of opponents’ actions. It formalizes pessimistic (max‑min) and optimistic (max‑max) decision criteria and defines finite ordinal games as tuples $\Gamma=\langle I,(A_i,\succsim_i)_{i\in I}\rangle$ (Section 2.1). This supplies the epistemic backbone for modeling agents who lack precise probabilistic beliefs about information sources.
 
@@ -41,8 +40,7 @@ The literature on information shaping provides concrete methodological elements 
 
 Collectively, these works supply the methodological building blocks for a unified analytical framework that can predict how changes in social, cultural, technological, or individual parameters affect the measurable level of unawareness.
 
-## 3. Methods
-We construct an analytical model of an information ecosystem comprising four interacting layers and a collaborative information‑bottleneck abstraction.
+## 3. Methods We construct an analytical model of an information ecosystem comprising four interacting layers and a collaborative information‑bottleneck abstraction.
 
 1. **Social‑structural layer.** Agents $i\in I$ belong to hierarchical groups $G$ with access levels $h_i\in\{0,1\}$ (0 = restricted, 1 = full). The probability that agent $i$ receives a piece of information $m$ is $p_{i}^{\text{soc}}=h_i$.
 
@@ -89,8 +87,7 @@ R_k &\ge I(X_k;V_k\mid X_{-k}),\\
 - **A3.** The relevance variable $Y$ is fixed across interventions.  
 - **A4.** Explicit derivations are provided for $K=1$ and $K=2$; extensions to larger $K$ follow the same sum‑rate pattern.
 
-## 4. Analysis
-All numerical derivations use the explicit values reported in the bibliography or the assumptions listed above.
+## 4. Analysis All numerical derivations use the explicit values reported in the bibliography or the assumptions listed above.
 
 ### 4.1 Fourier‑Coefficient Sparsity for a $200\times200$ Binary Image
 - Total coefficients: $N_{\text{coeff}} = 200 \times 200 = 40{,}000$.
@@ -153,8 +150,7 @@ $$
 $$
 Thus the collaborative advantage equals the added agent’s rate, raising the retained fraction to $2/8=0.25$ (25 %).
 
-### 4.7 Zero‑Rate Corollary: Structural Exclusion
-Setting $R_2=0$ (source inaccessible) gives $\mu_2 \le R_1 = 1$ bit. Moreover, if the excluded source carries a component $Y_b$ that is independent of $X_1$, then $I(Y_b;V_1)=0$ regardless of $R_1$, so that component is permanently unreachable. This formalizes the claim in [7] that hierarchies can create information inequalities that eliminate entire relevance components.
+### 4.7 Zero‑Rate Corollary: Structural Exclusion Setting $R_2=0$ (source inaccessible) gives $\mu_2 \le R_1 = 1$ bit. Moreover, if the excluded source carries a component $Y_b$ that is independent of $X_1$, then $I(Y_b;V_1)=0$ regardless of $R_1$, so that component is permanently unreachable. This formalizes the claim in [7] that hierarchies can create information inequalities that eliminate entire relevance components.
 
 ### 4.8 Connection to Coarse‑Belief Unawareness
 In [1] a belief set $B$ of size $|B|$ corresponds to a description rate
@@ -163,8 +159,7 @@ R_{\text{belief}} = \log_2 |B|.
 $$
 If $|B|=4$ out of $16$ possible opponent actions, then $R_{\text{belief}}=2$ bits, a $50\%$ rate deficit relative to the full $4$‑bit description. The $\max\min$ / $\max\max$ decision rules operate on this rate‑limited description, linking the game‑theoretic models of [1] and [5] to the information‑bottleneck framework.
 
-### 4.9 Structural Recoverability
-[2] shows that a structured $200\times200$ binary image is fully determined by $0.2\%$ of its Fourier coefficients. In our model, a strong prior (structure) reduces the required rate: an agent with such a prior can reconstruct the full relevant state from a tiny fraction of the ecosystem’s information, whereas an unstructured agent would need a rate proportional to the full entropy of $Y$.
+### 4.9 Structural Recoverability [2] shows that a structured $200\times200$ binary image is fully determined by $0.2\%$ of its Fourier coefficients. In our model, a strong prior (structure) reduces the required rate: an agent with such a prior can reconstruct the full relevant state from a tiny fraction of the ecosystem’s information, whereas an unstructured agent would need a rate proportional to the full entropy of $Y$.
 
 ## 5. Results
 | Result | Computation | Value |
@@ -194,9 +189,7 @@ All numbers arise directly from the cited sources or from the explicit assumptio
 - **L7. Fixed relevance variable.** Interventions that change what is considered relevant are outside the model’s scope (Assumption A3).  
 - **L8. Two‑agent scope.** Extensions to $K>2$ follow the same sum‑rate pattern but are not explicitly computed.
 
-### Falsifiability
-A single empirical observation that would falsify the main quantitative claim is the discovery of a $200\times200$ binary image that cannot be perfectly reconstructed from the $121$ low‑frequency Fourier coefficients specified in [2]. Such a counterexample would invalidate the sparsity‑percentage result and, by extension, the derived awareness bound $\bar A$.  
-Another falsifier is an empirical demonstration that adding a second independent information source raises an agent’s relevance by more than the second source’s rate $R_2$ (as defined in Section 4.6). If measured relevance gains exceed $R_2$, the upper bound $\mu_2\le R_1+R_2$ would be violated.
+### Falsifiability A single empirical observation that would falsify the main quantitative claim is the discovery of a $200\times200$ binary image that cannot be perfectly reconstructed from the $121$ low‑frequency Fourier coefficients specified in [2]. Such a counterexample would invalidate the sparsity‑percentage result and, by extension, the derived awareness bound $\bar A$. Another falsifier is an empirical demonstration that adding a second independent information source raises an agent’s relevance by more than the second source’s rate $R_2$ (as defined in Section 4.6). If measured relevance gains exceed $R_2$, the upper bound $\mu_2\le R_1+R_2$ would be violated.
 
 ### Open Questions
 - What are the actual rates (bits per symbol) of real information channels such as school curricula, language translation pipelines, or recommendation feeds?  
@@ -211,11 +204,9 @@ Another falsifier is an empirical demonstration that adding a second independent
 - **Platform engineers** can adjust recommendation‑algorithm cut‑offs to ensure that the effective exposure $p_i^{\text{eff}}$ exceeds a target threshold (e.g., $0.6$) for critical health information.  
 - **Information‑policy analysts** can rank interventions by the binding constraint identified in Section 4: if the single‑channel rate is the bottleneck, adding an independent source (R7) yields the exact advantage $R_2$; if a relevance component is excluded (R8), no amount of message redesign can recover it.
 
-### (b) Technology Readiness Level
-The analysis is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept and/or application formulated). Analytical work does not exceed TRL 3.
+### (b) Technology Readiness Level The analysis is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept and/or application formulated). Analytical work does not exceed TRL 3.
 
-### (c) Next Small‑Scale Experiment
-A pilot study would recruit two matched participant groups, give one group access to a single curated information source about a fixed decision task and the other group access to two independent sources, hold total reading time constant, and measure decision‑relevant knowledge with a scored instrument. The model predicts that the knowledge gain of the two‑source group cannot exceed the single‑source gain by more than the incremental information content of the second source (the measured $R_2$). **Falsification criterion:** a two‑source gain exceeding this bound would refute the collaborative‑advantage claim.
+### (c) Next Small‑Scale Experiment A pilot study would recruit two matched participant groups, give one group access to a single curated information source about a fixed decision task and the other group access to two independent sources, hold total reading time constant, and measure decision‑relevant knowledge with a scored instrument. The model predicts that the knowledge gain of the two‑source group cannot exceed the single‑source gain by more than the incremental information content of the second source (the measured $R_2$). **Falsification criterion:** a two‑source gain exceeding this bound would refute the collaborative‑advantage claim.
 
 ### (d) Engineering Constraints
 - **Computational constraint:** FFT implementations must support extraction of low‑frequency components without full‑spectrum computation to maintain the $0.30\%$ data budget.  
@@ -223,14 +214,11 @@ A pilot study would recruit two matched participant groups, give one group acces
 - **Hardware constraint:** Achieving the step‑throughput of $1.32\times10^{7}$ steps h$^{-1}$ demands GPUs with at least $1$ TFLOP sustained performance; lower‑end hardware would reduce $E$.  
 - **Encoder fidelity constraint:** Real intermediaries (media, curricula, feeds) optimize their own objectives, so achieved relevance falls below the rate‑feasible bound by an unquantified gap.
 
-### (e) Projected Cost and Performance Bounds (Projection)
-Assuming a cloud GPU rental cost of $\$0.50$ hour$^{-1}$, the robotic‑training task (68 h) would cost $\$34$ and deliver $9.0\times10^{8}$ steps, yielding a cost‑per‑step of $3.8\times10^{-8}$ USD. This projection assumes the throughput computed in Section 4.2 and no additional overhead.
+### (e) Projected Cost and Performance Bounds (Projection) Assuming a cloud GPU rental cost of $\$0.50$ hour$^{-1}$, the robotic‑training task (68 h) would cost $\$34$ and deliver $9.0\times10^{8}$ steps, yielding a cost‑per‑step of $3.8\times10^{-8}$ USD. This projection assumes the throughput computed in Section 4.2 and no additional overhead.
 
-### (f) Risks and Misuse
-If the sparsity principle is applied to suppress information (e.g., by deliberately limiting coefficient transmission to hide undesirable content), it could exacerbate unawareness rather than alleviate it. Ethical guidelines should mandate that sparsity‑based interventions be transparent and aimed at public benefit. Conversely, actors controlling encoders could exploit the zero‑rate corollary (R8) to eliminate relevance components for targeted populations, a misuse where sparsity principles are deliberately applied to hide undesirable content, potentially exacerbating unawareness.
+### (f) Risks and Misuse If the sparsity principle is applied to suppress information (e.g., by deliberately limiting coefficient transmission to hide undesirable content), it could exacerbate unawareness rather than alleviate it. Ethical guidelines should mandate that sparsity‑based interventions be transparent and aimed at public benefit. Conversely, actors controlling encoders could exploit the zero‑rate corollary (R8) to eliminate relevance components for targeted populations, a misuse where sparsity principles are deliberately applied to hide undesirable content, potentially exacerbating unawareness.
 
-## 8. Conclusion
-By integrating ordinal‑game ignorance, sparse‑signal reconstruction, reinforcement‑learning sample‑efficiency, and collaborative information‑bottleneck constraints, we have produced a quantitative framework that links social, cultural, technological, and individual forces to measurable levels of unawareness. The derived percentages and throughput figures demonstrate that modest informational resources can yield substantial awareness gains, while the rate‑relevance analysis shows that collaborative channels add exactly their rate to the relevance ceiling and that structural exclusion can eliminate entire relevance components. The framework offers policymakers, educators, and platform designers a set of analytically grounded levers for shaping information ecosystems. Future work should empirically validate the sparsity‑awareness relationship, measure real‑world channel rates, and test the collaborative‑advantage prediction in the pilot study proposed in Section 7(c).
+## 8. Conclusion By integrating ordinal‑game ignorance, sparse‑signal reconstruction, reinforcement‑learning sample‑efficiency, and collaborative information‑bottleneck constraints, we have produced a quantitative framework that links social, cultural, technological, and individual forces to measurable levels of unawareness. The derived percentages and throughput figures demonstrate that modest informational resources can yield substantial awareness gains, while the rate‑relevance analysis shows that collaborative channels add exactly their rate to the relevance ceiling and that structural exclusion can eliminate entire relevance components. The framework offers policymakers, educators, and platform designers a set of analytically grounded levers for shaping information ecosystems. Future work should empirically validate the sparsity‑awareness relationship, measure real‑world channel rates, and test the collaborative‑advantage prediction in the pilot study proposed in Section 7(c).
 
 ## Version History
 

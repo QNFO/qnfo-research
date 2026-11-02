@@ -1,10 +1,10 @@
 # Category-Theoretic Unification of Marginalised Formalisms: Translating Invariants across Six Systems
 
 ## Abstract
+
 The marginalisation of six historically rich diagrammatic and logical formalisms—Laws of Form, Existential Graphs, Viable System Model, Catastrophe Theory, Pattern Language, and Polycontextural Logic—prevents researchers in mathematics, computer science, and systems engineering from exploiting their invariant structures. The specific gap is the absence of a rigorous, category‑theoretic translation protocol that can certify whether marginalisation is merely notational. We construct canonical categorical representations for each formalism, prove faithful translation theorems for five of them, and identify a single obstruction in the sheaf‑theoretic approach to Catastrophe Theory. Quantitative outcomes include (i) the exact count of examined formalisms, $N=6$, and (ii) a closed‑form enumeration of mark‑calculus expressions: expressions with $n$ marks and enclosure depth $\le 1$ are counted by the odd‑index Fibonacci numbers $F_{2n+1}$, while normal forms under the three reduction rules are counted by $F_{n+2}$. These results reclassify marginalisation as a notational barrier and provide a reproducible, falsifiable criterion for future investigations.
 
-## 1. Introduction
-Systems engineers, logicians, and theoretical physicists repeatedly encounter specialised diagrammatic languages—such as G. Spencer‑Brown’s *Laws of Form* (LoF) or C. S. Peirce’s *Existential Graphs* (EG)—that encode invariant relationships not captured by mainstream categorical tools. Practitioners lacking access to these invariants must reinvent analogous constructions, incurring additional development time, duplicated proof effort, and missed cross‑disciplinary insights. For example, a systems architect designing a viable organisational structure must manually verify recursive viability conditions that, in a categorical setting, would follow from an endofunctor fixed‑point theorem. The cost of this duplication appears as delayed project milestones and increased error rates in safety‑critical designs.
+## 1. Introduction Systems engineers, logicians, and theoretical physicists repeatedly encounter specialised diagrammatic languages—such as G. Spencer‑Brown’s *Laws of Form* (LoF) or C. S. Peirce’s *Existential Graphs* (EG)—that encode invariant relationships not captured by mainstream categorical tools. Practitioners lacking access to these invariants must reinvent analogous constructions, incurring additional development time, duplicated proof effort, and missed cross‑disciplinary insights. For example, a systems architect designing a viable organisational structure must manually verify recursive viability conditions that, in a categorical setting, would follow from an endofunctor fixed‑point theorem. The cost of this duplication appears as delayed project milestones and increased error rates in safety‑critical designs.
 
 If a rigorous translation of each formalism into standard category theory were available, the same invariants could be reused, automated, and compared across domains. The central hypothesis of this work is therefore:
 
@@ -19,8 +19,7 @@ The paper tests this hypothesis by constructing explicit categorical structures 
 4. Comprehensive discussion of assumptions, failure modes, and falsification criteria (Section 6).  
 5. Practical roadmap for engineers and theorists to adopt the translations (Section 7).
 
-## 2. Background and Related Work
-The present study builds on a spectrum of categorical developments that provide the technical machinery for our translations.
+## 2. Background and Related Work The present study builds on a spectrum of categorical developments that provide the technical machinery for our translations.
 
 *Augmented virtual double categories* supply a setting where horizontal and vertical morphisms coexist, a structure required for the LoF monad. The notion is introduced and motivated in [1], where the authors develop “augmented virtual double categories” to host both horizontal and vertical cells and explain how Yoneda‑style embeddings extend to this double‑dimensional framework.
 
@@ -40,8 +39,7 @@ The present study builds on a spectrum of categorical developments that provide 
 
 Together these works supply the categorical primitives—augmented double categories, adjoint constructions, coalgebraic limits, Drazin theory, oriented enrichment, normed fixed points, equivalence invariance, and dagger structures—that make the six translations possible.
 
-## 3. Methods
-Our methodological pipeline consists of three stages for each formalism $F\in\{\text{LoF},\text{EG},\text{VSM},\text{CT},\text{PL},\text{PC}\}$:
+## 3. Methods Our methodological pipeline consists of three stages for each formalism $F\in\{\text{LoF},\text{EG},\text{VSM},\text{CT},\text{PL},\text{PC}\}$:
 
 1. **Identify the invariant core** of $F$ as described in the original literature (e.g., the distinction operator in LoF, the negation enclosure in EG, the viability recursion in VSM, the unfolding stratification in CT, the pattern composition algebra in PL, the contexture Heyting lattice in PC).
 
@@ -160,11 +158,9 @@ Following [3], we consider the tensor category $\mathcal{T}$ of vector spaces. D
 \]
 Limits and colimits of such comodules exist by the theorem in [3, Proof of (c)], ensuring that pattern composition is captured categorically.
 
-### 4.8 PC Translation
-We construct a site $\mathcal{U}$ whose objects are contexts and whose morphisms are context embeddings. The presheaf $\mathcal{P}:\mathcal{U}^{\mathrm{op}}\to\mathbf{Heyt}$ assigns to each context a Heyting algebra of propositions. By the equivalence‑invariance theorem of [7, § Equivalence invariance], any weak equivalence of contexts induces an isomorphism of the corresponding Heyting algebras, preserving logical invariants.
+### 4.8 PC Translation We construct a site $\mathcal{U}$ whose objects are contexts and whose morphisms are context embeddings. The presheaf $\mathcal{P}:\mathcal{U}^{\mathrm{op}}\to\mathbf{Heyt}$ assigns to each context a Heyting algebra of propositions. By the equivalence‑invariance theorem of [7, § Equivalence invariance], any weak equivalence of contexts induces an isomorphism of the corresponding Heyting algebras, preserving logical invariants.
 
-### 4.9 Obstruction in CT
-The sheaf $\mathcal{S}$ requires that every stratum admits a compatible orientation. In certain catastrophe manifolds (e.g., cusp singularities) the orientation cannot be globally defined without introducing a non‑trivial monodromy. This violates the oriented enrichment condition of [5] and prevents a faithful translation for the full class of CT models. Hence the hypothesis fails for CT in its most general form.
+### 4.9 Obstruction in CT The sheaf $\mathcal{S}$ requires that every stratum admits a compatible orientation. In certain catastrophe manifolds (e.g., cusp singularities) the orientation cannot be globally defined without introducing a non‑trivial monodromy. This violates the oriented enrichment condition of [5] and prevents a faithful translation for the full class of CT models. Hence the hypothesis fails for CT in its most general form.
 
 ## 5. Results
 1. **Formal count of examined systems.** The arithmetic in Section 4.1 yields $N=6$ distinct marginalised formalisms.  
@@ -189,8 +185,7 @@ All quantitative statements are either direct counts (Results 1–2) or follow
 - **Non‑contractive VSM dynamics** would break the Banach‑type fixed‑point guarantee, invalidating the translation.  
 - **Infinite pattern generators** could cause the coalgebra limit to be non‑existent, breaking the PL translation.
 
-### 6.3 Falsification Criterion
-If a concrete CT model with a non‑orientable cusp singularity can be shown to possess an invariant (e.g., a Thom polynomial) that is not recoverable from any sheaf $\mathcal{S}$ satisfying the oriented enrichment of [5], then the universal marginalisation‑as‑notation hypothesis is falsified. This observation directly contradicts Result 3 for CT.
+### 6.3 Falsification Criterion If a concrete CT model with a non‑orientable cusp singularity can be shown to possess an invariant (e.g., a Thom polynomial) that is not recoverable from any sheaf $\mathcal{S}$ satisfying the oriented enrichment of [5], then the universal marginalisation‑as‑notation hypothesis is falsified. This observation directly contradicts Result 3 for CT.
 
 ### 6.4 Open Questions
 - Can the oriented enrichment be relaxed to allow local orientations patched by higher‑categorical coherence data?  
@@ -203,11 +198,9 @@ If a concrete CT model with a non‑orientable cusp singularity can be shown to 
 - **Systems engineers** can replace ad‑hoc viability checks with categorical fixed‑point computations, reducing design verification time.  
 - **Logic designers** can embed EG’s diagrammatic negation into topos‑theoretic proof assistants, enabling automated reasoning about negation without manual diagram manipulation.  
 
-### (b) Technology Readiness Level
-The work is purely analytical, peer‑review‑pending, and has not been implemented in software. Accordingly, it resides at **TRL 2** (concept formulation and proof of principle).
+### (b) Technology Readiness Level The work is purely analytical, peer‑review‑pending, and has not been implemented in software. Accordingly, it resides at **TRL 2** (concept formulation and proof of principle).
 
-### (c) Minimal Next Experiment
-Construct an explicit implementation of the LoF monad $M$ in a proof assistant (e.g., Coq or Agda) and verify that distinct markings map to non‑isomorphic objects. The experiment measures **categorical faithfulness**: if a counterexample is found where two distinct LoF markings become isomorphic under $M$, the translation fails and the hypothesis is falsified.
+### (c) Minimal Next Experiment Construct an explicit implementation of the LoF monad $M$ in a proof assistant (e.g., Coq or Agda) and verify that distinct markings map to non‑isomorphic objects. The experiment measures **categorical faithfulness**: if a counterexample is found where two distinct LoF markings become isomorphic under $M$, the translation fails and the hypothesis is falsified.
 
 ### (d) Engineering Constraints
 - **Formal definitions** of each original formalism must be precisely encoded to feed the translation functors.  
@@ -215,8 +208,7 @@ Construct an explicit implementation of the LoF monad $M$ in a proof assistant (
 - **Orientation data** for CT requires access to stratified manifold charts; lack of global charts is an open constraint.  
 - **Coalgebraic libraries** for PL must support limit constructions in the chosen tensor category.
 
-### (e) Projected Cost and Performance Bounds
-Assuming each translation functor requires $O(1)$ categorical operations per syntactic element, the total computational cost for processing a document containing $m$ elements across all five successfully translated formalisms is bounded by $5m$ basic operations. This projection follows directly from the linearity of the constructions (see Section 4).
+### (e) Projected Cost and Performance Bounds Assuming each translation functor requires $O(1)$ categorical operations per syntactic element, the total computational cost for processing a document containing $m$ elements across all five successfully translated formalisms is bounded by $5m$ basic operations. This projection follows directly from the linearity of the constructions (see Section 4).
 
 ### (f) Risks and Misuse Paths
 - **Misinterpretation of equivalence.** Users might treat categorical isomorphism as semantic identity, overlooking subtle syntactic differences that are meaningful in the original domain.  
@@ -224,8 +216,7 @@ Assuming each translation functor requires $O(1)$ categorical operations per syn
 
 Mitigation strategies include thorough validation of each translation on benchmark examples and explicit documentation of the underlying assumptions.
 
-## 8. Conclusion
-We have demonstrated that five of the six marginalised formalisms—Laws of Form, Existential Graphs, Viable System Model, Pattern Language, and Polycontextural Logic—admit faithful categorical translations that preserve all invariant content. The sixth, Catastrophe Theory, resists a universal translation due to orientation constraints on stratified spaces. The concrete count $N=6$ of examined systems confirms the breadth of the investigation, while the Fibonacci‑based enumeration quantifies the syntactic redundancy that faithful translations must collapse. By reframing marginalisation as a notational barrier, the work opens a unified categorical toolkit for researchers across logic, systems theory, and applied mathematics. Future work will address the orientation obstacle in CT, extend the framework to non‑contractive dynamics, and integrate the translations into automated proof environments.
+## 8. Conclusion We have demonstrated that five of the six marginalised formalisms—Laws of Form, Existential Graphs, Viable System Model, Pattern Language, and Polycontextural Logic—admit faithful categorical translations that preserve all invariant content. The sixth, Catastrophe Theory, resists a universal translation due to orientation constraints on stratified spaces. The concrete count $N=6$ of examined systems confirms the breadth of the investigation, while the Fibonacci‑based enumeration quantifies the syntactic redundancy that faithful translations must collapse. By reframing marginalisation as a notational barrier, the work opens a unified categorical toolkit for researchers across logic, systems theory, and applied mathematics. Future work will address the orientation obstacle in CT, extend the framework to non‑contractive dynamics, and integrate the translations into automated proof environments.
 
 ## Version History
 
