@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "scientific-validity-assessment-toolkit-svat",
+  "paper": {
+    "path": "papers/scientific-validity-assessment-toolkit-svat/paper.md",
+    "title": "Scientific Validity Assessment Toolkit (SVAT)",
+    "url": "https://papers.qnfo.org/papers/scientific-validity-assessment-toolkit-svat"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "scientific-validity-assessment-toolkit-svat"
+  },
+  "snapshots": [
+    {
+      "sha256": "19120be75df0c40e88e9298508e1ddbc97aa8b047608f541065db84923bb9c8a",
+      "bytes": 135073,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

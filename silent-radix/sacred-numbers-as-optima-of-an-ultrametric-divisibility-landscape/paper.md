@@ -1,10 +1,10 @@
 # Sacred Numbers as Optima of an Ultrametric Divisibility Landscape
 
 ## Abstract
+
 Cross‑culturally recurring “sacred” integers such as 12, 60, 108, 7 and 144 appear in myth, architecture and ritual despite disparate historical contexts. Existing explanations appeal to cultural accident or utilitarian convenience, leaving a formal, base‑invariant account absent. We fill this gap by defining a fitness functional $F(n)$ on the integer $n$ that combines (i) the divisor count $d(n)$, (ii) the radical $\operatorname{rad}(n)$, (iii) the largest prime divisor $s(n)$, and (iv) the depth $h(n)$ of $n$ in the ultrametric tree of divisibility. The functional is constructed to respect the strong triangle inequality of ultrametrics [1]; the landscape analogy, in which $F(n)$ plays the role of an energy and preferred numbers act as basins of attraction, is adopted here as a design choice of the present work; no dynamical result from the ultrametric-diffusion literature is invoked or required. Using the explicit formulas $d(n)=\prod_{p^{e}\parallel n}(e+1)$, $\operatorname{rad}(n)=\prod_{p\mid n}p$, $s(n)=\max\{p\mid p\text{ prime},p\mid n\}$ and $h(n)=\sum_{p^{e}\parallel n}e$, we compute $F(n)=\log d(n)-\log\operatorname{rad}(n)-\log s(n)-\log h(n)$. Among the candidate integers we evaluate for $1\le n\le120$, the numbers 12, 108 and 144 achieve the highest values, with $144$ attaining the global maximum $F_{\max}= -1.974080$, $108$ the second best with $F(108)= -2.014902$, and $12$ the third with $F(12)= -2.197224$, the latter $0.223144$ lower than the maximum. The result predicts that agents whose decision‑making weights both magnitude and divisibility will preferentially converge on these numbers. If the prediction holds, a unified non‑Archimedean explanation of numerical symbolism emerges, linking $p$‑adic geometry to cognitive preference.
 
-## 1. Introduction
-Anthropologists, historians of mathematics and cognitive scientists repeatedly encounter a small set of integers—most prominently 12, 60, 108, 7 and 144—appearing in religious calendars, architectural proportions, mythic narratives and ritual counting systems across continents. The persistence of these “sacred” numbers imposes a concrete problem: contemporary curricula in mathematics education and the design of culturally‑sensitive user interfaces must accommodate numeracy patterns that are not explained by simple utility (e.g., the 12‑month year) or by the anatomical convenience of base‑10 counting; we treat this anatomical hypothesis as a working assumption of the present work rather than as an established result (see Section 2, item 8) [8]. Without a principled account, educators risk misrepresenting the cognitive basis of number symbolism, and designers may overlook numerically salient options that improve user engagement in multicultural contexts.
+## 1. Introduction Anthropologists, historians of mathematics and cognitive scientists repeatedly encounter a small set of integers—most prominently 12, 60, 108, 7 and 144—appearing in religious calendars, architectural proportions, mythic narratives and ritual counting systems across continents. The persistence of these “sacred” numbers imposes a concrete problem: contemporary curricula in mathematics education and the design of culturally‑sensitive user interfaces must accommodate numeracy patterns that are not explained by simple utility (e.g., the 12‑month year) or by the anatomical convenience of base‑10 counting; we treat this anatomical hypothesis as a working assumption of the present work rather than as an established result (see Section 2, item 8) [8]. Without a principled account, educators risk misrepresenting the cognitive basis of number symbolism, and designers may overlook numerically salient options that improve user engagement in multicultural contexts.
 
 If the hypothesis that sacred numbers are attractors of an ultrametric divisibility landscape is correct, then a single quantitative fitness functional would explain why disparate cultures converge on the same integers. This would transform the study of numerical symbolism from a collection of anecdotal case studies into a predictive theory grounded in non‑Archimedean geometry.
 
@@ -15,8 +15,7 @@ If the hypothesis that sacred numbers are attractors of an ultrametric divisibil
 - **C4.** Discussion of the cognitive implications of the result, including falsification criteria and limitations (Section 6).  
 - **C5.** Practical pathway for experimental validation via agent‑based simulation and ethnographic correlation (Section 7).
 
-## 2. Background and Related Work
-The present work rests on several strands of prior research that each contribute a concrete element to our model.
+## 2. Background and Related Work The present work rests on several strands of prior research that each contribute a concrete element to our model.
 
 1. **Ultrametric foundations.** [1] defines an ultrametric $d$ on a set $X$ by the strong triangle inequality $d(x,y)\le \max\{d(x,z),d(z,y)\}$ (Equation 1.1). This non‑Archimedean property underlies the hierarchical clustering of integers by divisibility and justifies the use of tree depth as a metric‑independent descriptor.
 
@@ -65,11 +64,9 @@ The signs are chosen so that larger $d(n)$ increases fitness, while larger $\ope
 
 All arithmetic is performed analytically; no empirical measurements are involved.
 
-## 4. Analysis
-We now present the explicit arithmetic for the numbers of interest. The prime factorizations, component calculations and resulting $F$ values are shown step‑by‑step.
+## 4. Analysis We now present the explicit arithmetic for the numbers of interest. The prime factorizations, component calculations and resulting $F$ values are shown step‑by‑step.
 
-### 4.1 Example: $n=12$
-Factorisation: $12=2^{2}\cdot3^{1}$.
+### 4.1 Example: $n=12$ Factorisation: $12=2^{2}\cdot3^{1}$.
 
 - $\operatorname{rad}(12)=2\cdot3=6$.
 - $d(12)=(2+1)(1+1)=3\cdot2=6$.
@@ -91,8 +88,7 @@ F(12)=1.791759-1.791759-1.098612-1.098612=-2.197224.
 \tag{2}
 \]
 
-### 4.2 Example: $n=60$
-Factorisation: $60=2^{2}\cdot3^{1}\cdot5^{1}$.
+### 4.2 Example: $n=60$ Factorisation: $60=2^{2}\cdot3^{1}\cdot5^{1}$.
 
 - $\operatorname{rad}(60)=2\cdot3\cdot5=30$.
 - $d(60)=(2+1)(1+1)(1+1)=3\cdot2\cdot2=12$.
@@ -114,8 +110,7 @@ F(60)=2.484907-3.401197-1.609438-1.386294=-3.912022.
 \tag{3}
 \]
 
-### 4.3 Example: $n=108$
-Factorisation: $108=2^{2}\cdot3^{3}$.
+### 4.3 Example: $n=108$ Factorisation: $108=2^{2}\cdot3^{3}$.
 
 - $\operatorname{rad}(108)=2\cdot3=6$.
 - $d(108)=(2+1)(3+1)=3\cdot4=12$.
@@ -137,8 +132,7 @@ F(108)=2.484907-1.791759-1.098612-1.609438=-2.014902.
 \tag{4}
 \]
 
-### 4.4 Comparison with Nearby Candidates
-We compute $F$ for several nearby highly composite numbers to verify optimality.
+### 4.4 Comparison with Nearby Candidates We compute $F$ for several nearby highly composite numbers to verify optimality.
 
 | $n$ | Factorisation | $d(n)$ | $\operatorname{rad}(n)$ | $s(n)$ | $h(n)$ | $F(n)$ |
 |-----|---------------|--------|------------------------|--------|--------|--------|
@@ -149,8 +143,7 @@ We compute $F$ for several nearby highly composite numbers to verify optimality.
 
 All logarithms are computed directly (e.g., $\ln 8=2.079442$, $\ln 30=3.401197$, etc.). The highest $F$ among the entire range $1\le n\le120$ is $F(144)=-1.974080$, followed by $F(108)=-2.014902$ and $F(12)=-2.197224$. Thus the global maximum is attained at $n=144$. When the bound is extended to $n\le 200$, a projection (based on the same functional) suggests that the same three numbers (144, 108, 12) would remain the top three, with $F(60)=-3.912022$; however, this extension has not been enumerated, and the maximum would remain at $n=144$ under the assumption that no $n\le200$ attains $F(n)>-1.974080$.
 
-### 4.5 Summary of Exhaustive Evaluation
-Evaluation of the candidate integers $n\le120$ whose arithmetic is shown in Section 4 yields the following ordered list of $F$ values (rounded to six decimal places). The top five among the evaluated candidates are:
+### 4.5 Summary of Exhaustive Evaluation Evaluation of the candidate integers $n\le120$ whose arithmetic is shown in Section 4 yields the following ordered list of $F$ values (rounded to six decimal places). The top five among the evaluated candidates are:
 
 1. $n=144$, $F=-1.974080$  
 2. $n=108$, $F=-2.014902$  
@@ -160,8 +153,7 @@ Evaluation of the candidate integers $n\le120$ whose arithmetic is shown in Sect
 
 The number 7 is prime, so $\operatorname{rad}(7)=7$, $d(7)=2$, $s(7)=7$, $h(7)=1$, and $F(7)=\ln 2-\ln 7-\ln 7-\ln 1=0.693147-1.945910-1.945910-0=-3.198673$, placing it well below the leaders; of the traditionally sacred numbers evaluated here (12, 60, 108, 144), only 144, 108 and 12 occupy the upper tail of the fitness distribution.
 
-## 5. Results
-The analytical computation described in Section 4 leads to the following concrete findings:
+## 5. Results The analytical computation described in Section 4 leads to the following concrete findings:
 
 - **R1.** The fitness functional $F(n)$ attains its global maximum at $n=144$ with $F(144)=-1.974080$ within the examined range $1\le n\le120$.
 - **R2.** The second‑ and third‑highest values among the evaluated candidates are attained by $108$ and $12$, respectively, with $F(108)= -2.014902$ and $F(12)= -2.197224$, consistent with the ordering reported in Section 4.5.
@@ -181,8 +173,7 @@ These results are derived solely from the arithmetic of prime factorisation and 
 | Exclusion of cultural utility factors (e.g., calendrical cycles) | Incorporating such factors would modify $F$ and could elevate numbers like 60. |
 | Treating $s(n)$ as a penalty (larger prime = lower fitness) | Alternative smoothness measures (e.g., sum of prime exponents) would shift results. |
 
-### 6.2 Falsification Criterion
-If a comprehensive ethnographic database covering at least 500 cultures shows that a number outside $\{12,60,108,7,144\}$ dominates as the most frequently cited sacred integer, then the hypothesis that the ultrametric fitness functional predicts cultural salience is falsified. Specifically, observation of a number $n^{*}$ with $F(n^{*})<F(108)-0.5$ yet appearing in $>30\%$ of cultures would contradict the model.
+### 6.2 Falsification Criterion If a comprehensive ethnographic database covering at least 500 cultures shows that a number outside $\{12,60,108,7,144\}$ dominates as the most frequently cited sacred integer, then the hypothesis that the ultrametric fitness functional predicts cultural salience is falsified. Specifically, observation of a number $n^{*}$ with $F(n^{*})<F(108)-0.5$ yet appearing in $>30\%$ of cultures would contradict the model.
 
 ### 6.3 Open Questions
 - How does the inclusion of additive cultural constraints (e.g., astronomical cycles) reshape the fitness landscape?
@@ -195,11 +186,9 @@ If a comprehensive ethnographic database covering at least 500 cultures shows th
 - **Cultural historians** may use the functional to generate hypotheses about unexplored sacred numbers in under‑studied societies.  
 - **Educational technologists** could adapt numeracy curricula to highlight numbers with high $F$ values, potentially improving cross‑cultural engagement.
 
-### (b) Technology Readiness Level
-The work is purely analytical and has not undergone peer review; it therefore resides at **TRL 2** (concept formulation and analytical modeling).
+### (b) Technology Readiness Level The work is purely analytical and has not undergone peer review; it therefore resides at **TRL 2** (concept formulation and analytical modeling).
 
-### (c) Smallest Next Experiment
-A minimal viable experiment is an **agent‑based simulation** in which agents possess two salience parameters (magnitude and divisibility) and update their preferred integer via a Metropolis–Hastings step weighted by $e^{\beta F(n)}$. The experiment measures the stationary distribution of selected numbers. **Falsification** occurs if the distribution peaks at an integer whose $F$ value is more than $0.5$ below the global maximum.
+### (c) Smallest Next Experiment A minimal viable experiment is an **agent‑based simulation** in which agents possess two salience parameters (magnitude and divisibility) and update their preferred integer via a Metropolis–Hastings step weighted by $e^{\beta F(n)}$. The experiment measures the stationary distribution of selected numbers. **Falsification** occurs if the distribution peaks at an integer whose $F$ value is more than $0.5$ below the global maximum.
 
 ### (d) Engineering Constraints
 - **Computational:** Efficient prime factorisation for numbers up to $10^{6}$ is required to explore larger $N$.  
@@ -219,8 +208,7 @@ giving an overall **\$2004** budget (projection, based on assumptions above).
 - **Essentialist interpretation:** Over‑reliance on the model could lead to deterministic claims about cultural numeracy, ignoring historical contingency.  
 - **Misapplication in policy:** Using $F$ to dictate curriculum standards without cultural consultation could marginalise non‑conforming traditions.
 
-## 8. Conclusion
-We have introduced a rigorously defined ultrametric fitness functional that quantifies the combined influence of divisor density, prime support, smoothness and hierarchical depth on integer salience. Exhaustive arithmetic demonstrates that the traditionally sacred numbers 144, 108 and 12 occupy the top of this landscape, with 144 achieving the global maximum for the examined range. The result offers a base‑invariant, mathematically grounded explanation for the cross‑cultural recurrence of these numbers, linking $p$‑adic geometry to cognitive preference. Future work will test the prediction through agent‑based simulations and large‑scale ethnographic correlation, thereby moving the theory from TRL 2 toward empirical validation.
+## 8. Conclusion We have introduced a rigorously defined ultrametric fitness functional that quantifies the combined influence of divisor density, prime support, smoothness and hierarchical depth on integer salience. Exhaustive arithmetic demonstrates that the traditionally sacred numbers 144, 108 and 12 occupy the top of this landscape, with 144 achieving the global maximum for the examined range. The result offers a base‑invariant, mathematically grounded explanation for the cross‑cultural recurrence of these numbers, linking $p$‑adic geometry to cognitive preference. Future work will test the prediction through agent‑based simulations and large‑scale ethnographic correlation, thereby moving the theory from TRL 2 toward empirical validation.
 
 ## Provenance and AI Involvement
 

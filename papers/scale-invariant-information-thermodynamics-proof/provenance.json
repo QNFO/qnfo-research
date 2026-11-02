@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "scale-invariant-information-thermodynamics-proof",
+  "paper": {
+    "path": "papers/scale-invariant-information-thermodynamics-proof/paper.md",
+    "title": "Scale-Invariant Information Thermodynamics Proof",
+    "url": "https://papers.qnfo.org/papers/scale-invariant-information-thermodynamics-proof"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "scale-invariant-information-thermodynamics-proof"
+  },
+  "snapshots": [
+    {
+      "sha256": "e6ca17949a05e6c7a35368b41a4a1200794c87bab51f226cd485fdd27fb0a216",
+      "bytes": 9996,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
