@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-ultrametric-foundation-a-unified-thesis-on-number-time-knowledge-and-computa",
+  "paper": {
+    "path": "silent-radix/the-ultrametric-foundation-a-unified-thesis-on-number-time-knowledge-and-computa/paper.md",
+    "title": "The Ultrametric Foundation: A Unified Thesis on Number, Time, Knowledge, and Computation",
+    "url": "https://papers.qnfo.org/papers/the-ultrametric-foundation-a-unified-thesis-on-number-time-knowledge-and-computa"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-ultrametric-foundation-a-unified-thesis-on-number-time-knowledge-and-computa"
+  },
+  "snapshots": [
+    {
+      "sha256": "c60d72a2a6990452df45793eef648fd25b91ebae8d11acd24172cbec3077e47a",
+      "bytes": 56598,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0-draft",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-two-level-lie",
+  "paper": {
+    "path": "papers/the-two-level-lie/paper.md",
+    "title": "The Two-Level Lie: The Transmon Is Not a Qubit — And the Entire Field Knows It",
+    "url": "https://papers.qnfo.org/papers/the-two-level-lie"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "the-two-level-lie"
+  },
+  "snapshots": [
+    {
+      "sha256": "be9b25e88e2a811a9b5a0799b23c032f68888c7b5fc42eaabb0f9c892893bda6",
+      "bytes": 31188,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "2.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
