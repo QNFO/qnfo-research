@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "acrp06-vpmax-extension",
+  "paper": {
+    "path": "papers/acrp06-vpmax-extension/paper.md",
+    "title": "Extending v_p^max Code Classification: Testing the Mahler Spectral Conjecture on Additional Stabilizer Code Families",
+    "url": "https://papers.qnfo.org/papers/acrp06-vpmax-extension"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "acrp06-vpmax-extension"
+  },
+  "snapshots": [
+    {
+      "sha256": "38c0c0f7b2048b59367986f79e83392f20036525d514e61cf7fb30b04d4851a7",
+      "bytes": 9845,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "acrp07-qubit-delusion-valuation",
+  "paper": {
+    "path": "papers/acrp07-qubit-delusion-valuation/paper.md",
+    "title": "The Valuation Reading of the Qubit Delusion: Is the Adelic Kernel Load-Bearing?",
+    "url": "https://papers.qnfo.org/papers/acrp07-qubit-delusion-valuation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "acrp07-qubit-delusion-valuation"
+  },
+  "snapshots": [
+    {
+      "sha256": "8789c0955983de713e1eaf29e174f2b7081c02ea54b2635d012ddf9d6b011203",
+      "bytes": 18863,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

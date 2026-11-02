@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "acrp08-paradigm-forecast",
+  "paper": {
+    "path": "papers/acrp08-paradigm-forecast/paper.md",
+    "title": "When Will Non-Archimedean Geometry Displace the Real Numbers? A Structured Assessment of the Adelic Substrate Thesis",
+    "url": "https://papers.qnfo.org/papers/acrp08-paradigm-forecast"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "acrp08-paradigm-forecast"
+  },
+  "snapshots": [
+    {
+      "sha256": "63205d25a9766c46f6c7d7d29e7b142a999a342e0ea1655ecf40f4d780a55961",
+      "bytes": 33708,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
