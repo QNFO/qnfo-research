@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-genesis-of-the-standard-model",
+  "paper": {
+    "path": "papers/thermodynamic-genesis-of-the-standard-model/paper.md",
+    "title": "THERMODYNAMIC GENESIS OF THE STANDARD MODEL",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-genesis-of-the-standard-model"
+  },
+  "declared": {
+    "version": "1.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-genesis-of-the-standard-model"
+  },
+  "snapshots": [
+    {
+      "sha256": "2f6c07314f74d1e0719d5c326c6db5659e4e5b49a446068b69d19202f93831cc",
+      "bytes": 158714,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

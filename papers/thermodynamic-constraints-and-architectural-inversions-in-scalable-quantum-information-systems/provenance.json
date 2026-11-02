@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems",
+  "paper": {
+    "path": "papers/thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems/paper.md",
+    "title": "Thermodynamic and Quantum Constraints on Scalable Quantum Computing",
+    "url": "https://papers.qnfo.org/papers/thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems"
+  },
+  "declared": {
+    "version": "2.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems"
+  },
+  "snapshots": [
+    {
+      "sha256": "749feb86c9aaa68b2ca32fc67480c79de5f02d266752ec9a1751192574513203",
+      "bytes": 52153,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
