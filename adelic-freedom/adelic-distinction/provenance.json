@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-distinction",
+  "paper": {
+    "path": "adelic-freedom/adelic-distinction/paper.md",
+    "title": "The Adelic Distinction: Physics as Automorphic Representation Theory on the Idele Class Group",
+    "url": "https://papers.qnfo.org/papers/adelic-distinction"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-distinction"
+  },
+  "snapshots": [
+    {
+      "sha256": "dd8d73a1c780fc344240a59c80a7a824508e31579885d692fb1f61f7a9f20475",
+      "bytes": 25582,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.1-draft",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-epistemological-foundations",
+  "paper": {
+    "path": "adelic-freedom/adelic-epistemological-foundations/paper.md",
+    "title": "The Adelic Physics Program: Epistemological Foundations and Communications Framework",
+    "url": "https://papers.qnfo.org/papers/adelic-epistemological-foundations"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-epistemological-foundations"
+  },
+  "snapshots": [
+    {
+      "sha256": "b7e182524ca7f672409ba7ee2def31b084e22e285b95a0746dedbf2ab30abf29",
+      "bytes": 33576,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

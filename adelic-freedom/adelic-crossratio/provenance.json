@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-crossratio",
+  "paper": {
+    "path": "adelic-freedom/adelic-crossratio/paper.md",
+    "title": "Adelic Cross‑Ratio",
+    "url": "https://papers.qnfo.org/papers/adelic-crossratio"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-crossratio"
+  },
+  "snapshots": [
+    {
+      "sha256": "1dd38b870f93ee58ac0f54d85530e1dae02a0041cd93ba6d943dceb9cfe6f9cc",
+      "bytes": 117446,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
