@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "spectral-schism",
+  "paper": {
+    "path": "papers/spectral-schism/paper.md",
+    "title": "Spectral Schism",
+    "url": "https://papers.qnfo.org/papers/spectral-schism"
+  },
+  "declared": {
+    "version": "2.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "spectral-schism"
+  },
+  "snapshots": [
+    {
+      "sha256": "40c18e147b4bdc6f2365beae33b34c3ac2133d92e70c7df8b1e8c8b6588ab2d8",
+      "bytes": 146234,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

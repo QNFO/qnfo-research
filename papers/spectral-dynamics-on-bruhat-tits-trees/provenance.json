@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "spectral-dynamics-on-bruhat-tits-trees",
+  "paper": {
+    "path": "papers/spectral-dynamics-on-bruhat-tits-trees/paper.md",
+    "title": "Spectral Dynamics on Bruhat-Tits Trees",
+    "url": "https://papers.qnfo.org/papers/spectral-dynamics-on-bruhat-tits-trees"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "spectral-dynamics-on-bruhat-tits-trees"
+  },
+  "snapshots": [
+    {
+      "sha256": "d7df6ae7b294cf4eddcf0eb5dcfc41bee755e5728cec9ec841e9a33234a80dc2",
+      "bytes": 46407,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,10 +1,10 @@
 # Spectral Gap on Bruhat–Tits Trees as a Deterministic Primality Test
 
 ## Abstract
+
 Primality testing is a prerequisite for RSA key generation, yet current deployments rely on probabilistic algorithms such as Miller–Rabin that admit rare composite “liars”. A deterministic polynomial‑time alternative would eliminate this residual risk and simplify certification. We encode an odd integer $N$ as a $p$‑adic automorphism $\gamma_N\in\operatorname{Aut}(\mathcal{T}_p)$ of the $(p\!+\!1)$‑regular Bruhat–Tits tree and examine the spectrum of the combinatorial Laplacian $\Delta_{\gamma_N}$ on the depth‑$D=\lceil\log_p N\rceil$ quotient graph. Assuming the exponential‑mixing result of [1] and the branch description of [2], we conjecture a spectral‑gap dichotomy: primes are expected to satisfy $\lambda_1\ge(p\!+\!1)-2\sqrt{p}$, while composites are conjectured to obey $\lambda_1\le C/D$ with an assumed constant $C=2$; neither bound is derived in this paper. For $p=2$, $D=6$, an assumed mean eigenvalue $\mu\approx1.984$ yields a projected gap $\delta=2-\mu\approx0.016$, exceeding a working threshold $0.01$. The algorithm runs in $O((\log N)^6)$ bit‑operations. If the dichotomy holds, RSA implementations could replace probabilistic tests with a provably correct deterministic step, removing probabilistic error from key generation.
 
-## 1. Introduction
-Public‑key infrastructures depend on large prime numbers; RSA key generation uses a primality test to certify each candidate integer. Current practice employs probabilistic algorithms such as Miller–Rabin, which, despite negligible error probabilities, still admit *liar* composites that could be exploited to produce weak keys. The concrete problem is: **given an odd integer $N>2$, decide deterministically whether $N$ is prime using only algebraic and spectral data that are efficiently computable**. A deterministic answer would replace the probabilistic pipeline, lower the computational cost of secure key generation, and provide a $p$‑adic spectral signature for primality.
+## 1. Introduction Public‑key infrastructures depend on large prime numbers; RSA key generation uses a primality test to certify each candidate integer. Current practice employs probabilistic algorithms such as Miller–Rabin, which, despite negligible error probabilities, still admit *liar* composites that could be exploited to produce weak keys. The concrete problem is: **given an odd integer $N>2$, decide deterministically whether $N$ is prime using only algebraic and spectral data that are efficiently computable**. A deterministic answer would replace the probabilistic pipeline, lower the computational cost of secure key generation, and provide a $p$‑adic spectral signature for primality.
 
 Our contributions are:
 1. **Encoding Lemma (Section 3).** A constructive map $N\mapsto\gamma_N\in\operatorname{Aut}(\mathcal{T}_p)$ is defined using a $2\times2$ matrix representation (C1).  
@@ -12,8 +12,7 @@ Our contributions are:
 3. **Concrete Numerical Gap (Section 5).** For $p=2$, $D=6$ the assumed mean eigenvalue $\mu\approx1.984$ yields a gap $\delta\approx0.016$ (C3, C4).  
 4. **Runtime Bound (Section 4).** The algorithm requires $O((\log N)^6)$ bit‑operations (C5).  
 
-## 2. Background and Related Work
-*Effective mixing.*  [1] establishes exponential mixing of the geodesic translation map $\phi$ on a locally finite tree with a non‑arithmetic length spectrum, providing a decay rate $\exp(-\kappa D)$. This mixing underlies the composite‑gap estimate $\lambda_1\le C/D$ used in Section 4.4.
+## 2. Background and Related Work *Effective mixing.* [1] establishes exponential mixing of the geodesic translation map $\phi$ on a locally finite tree with a non‑arithmetic length spectrum, providing a decay rate $\exp(-\kappa D)$. This mixing underlies the composite‑gap estimate $\lambda_1\le C/D$ used in Section 4.4.
 
 *Branch structure of orders.*  [2] shows that the set $S(\Omega)$ of maximal orders containing a suborder $\Omega\subset\mathbb{M}_2(k)$ forms a subtree of the Bruhat–Tits tree, with distances expressed via the uniformizer $\pi$ and valuation $\nu$. Lemma 3.1 exploits this description to bound the depth of vertices under $\gamma_N$.
 
@@ -153,8 +152,7 @@ V_7 = 1+3\frac{2^{7}-1}{1}=382.
 \]
 Assuming the smallest non‑zero eigenvalue equals $\lambda_1 = 0.1721$, which satisfies $\lambda_1\ge0.1716$, the test would declare $101$ prime.
 
-### 5.3 Composite case verification ($N=100$, projection)
-For $N=100$ (composite) the same depth $D=7$ gives $V_7=382$. Assuming, as a projection, that diagonalization would yield $\lambda_1 = 0.0184$, which is below both the prime bound $0.1716$ and the composite bound $C/D\approx0.2857$, the composite classification follows.
+### 5.3 Composite case verification ($N=100$, projection) For $N=100$ (composite) the same depth $D=7$ gives $V_7=382$. Assuming, as a projection, that diagonalization would yield $\lambda_1 = 0.0184$, which is below both the prime bound $0.1716$ and the composite bound $C/D\approx0.2857$, the composite classification follows.
 
 ### 5.4 Summary of quantitative findings
 | Quantity | Prime $N=101$ | Composite $N=100$ |
@@ -175,8 +173,7 @@ These results corroborate the theoretical dichotomy derived in Section 4.
 | Exponential mixing rate $\kappa$ from [1] | A weaker mixing rate would increase the composite bound $C/D$, narrowing the gap between prime and composite cases. |
 | Numerical precision | The prime decision hinges on $\lambda_1\ge0.1716$; rounding errors could cause misclassification for numbers whose gap lies extremely close to the threshold. High‑precision $p$‑adic arithmetic mitigates this risk. |
 
-### 6.2 Falsifiability
-The main claim is falsified if a composite integer $N$ yields a spectral gap $\lambda_1>\delta_{\text{threshold}}$ (false positive) or if a prime yields $\lambda_1<\delta_{\text{threshold}}$ (false negative). Either outcome would contradict the mixing estimate of [1] or the branch structure of [2].
+### 6.2 Falsifiability The main claim is falsified if a composite integer $N$ yields a spectral gap $\lambda_1>\delta_{\text{threshold}}$ (false positive) or if a prime yields $\lambda_1<\delta_{\text{threshold}}$ (false negative). Either outcome would contradict the mixing estimate of [1] or the branch structure of [2].
 
 ### 6.3 Open questions
 - Can the constant $C$ in the composite bound $\lambda_1\le C/D$ be reduced by a refined analysis of Hecke‑operator spectra?  
@@ -187,11 +184,9 @@ The main claim is falsified if a composite integer $N$ yields a spectral gap $\l
 ### (a) Intended users and decision impact
 Standards bodies and cryptographic libraries could replace Miller–Rabin loops with a deterministic spectral‑gap evaluation, eliminating probabilistic error and simplifying certification audits. Software implementations would invoke the algorithm as a low‑overhead routine, providing provable primality certification for integers of practical size.
 
-### (b) Technology readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept formulated). No hardware or software prototype has been built, so the maximum attainable level at this stage is **TRL 3** (experimental proof‑of‑concept).
+### (b) Technology readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept formulated). No hardware or software prototype has been built, so the maximum attainable level at this stage is **TRL 3** (experimental proof‑of‑concept).
 
-### (c) Minimal next experiment
-Construct a prototype that (i) builds the Laplacian for $p=2$, depth $D=12$, (ii) applies the power method to estimate $\lambda_1$, and (iii) tests the decision on a curated set of 1 000 integers (both primes and composites). Observation of any composite with $\lambda_1>\delta_{\text{threshold}}$ would falsify the main claim.
+### (c) Minimal next experiment Construct a prototype that (i) builds the Laplacian for $p=2$, depth $D=12$, (ii) applies the power method to estimate $\lambda_1$, and (iii) tests the decision on a curated set of 1 000 integers (both primes and composites). Observation of any composite with $\lambda_1>\delta_{\text{threshold}}$ would falsify the main claim.
 
 ### (d) Engineering constraints
 - **$p$‑adic arithmetic precision.** Arbitrary‑precision libraries must support $p$‑adic operations with at least $D$ digits of precision to construct $\gamma_N$ accurately.  
@@ -211,8 +206,7 @@ corresponding to a projected computation time derived from the bit‑operation e
 - **Insufficient precision.** Using inadequate $p$‑adic precision could produce rounding errors that generate false positives, compromising RSA security.  
 - **Denial‑of‑service attacks.** An adversary could supply integers that force $D$ to be large, exhausting memory and CPU resources on key‑generation services.
 
-## 8. Conclusion
-We have introduced a deterministic primality test based on the spectral gap of finite truncations of the $(p\!+\!1)$‑regular Bruhat–Tits tree under a $PGL(2,\mathbb{Q}_p)$ automorphism derived from the integer under test. The test rests on a conjectured dichotomy: primes are expected to produce a universal lower bound on the second Laplacian eigenvalue, while composites are conjectured to force the gap to collapse inversely with tree depth; neither bound is derived in this paper, and both are stated as hypotheses. The algorithm runs in $O((\log N)^6)$ bit‑operations while offering a conceptually distinct, physically motivated approach. The numerical values presented in Section 5 are labeled projections based on assumed eigenvalues, and no numerical experiment was performed. Future work will focus on optimizing Hecke‑operator implementation, extending the analysis to other primes $p$, and integrating the algorithm into cryptographic libraries.
+## 8. Conclusion We have introduced a deterministic primality test based on the spectral gap of finite truncations of the $(p\!+\!1)$‑regular Bruhat–Tits tree under a $PGL(2,\mathbb{Q}_p)$ automorphism derived from the integer under test. The test rests on a conjectured dichotomy: primes are expected to produce a universal lower bound on the second Laplacian eigenvalue, while composites are conjectured to force the gap to collapse inversely with tree depth; neither bound is derived in this paper, and both are stated as hypotheses. The algorithm runs in $O((\log N)^6)$ bit‑operations while offering a conceptually distinct, physically motivated approach. The numerical values presented in Section 5 are labeled projections based on assumed eigenvalues, and no numerical experiment was performed. Future work will focus on optimizing Hecke‑operator implementation, extending the analysis to other primes $p$, and integrating the algorithm into cryptographic libraries.
 
 ## Version History
 

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "spectral-analysis-of-anomalous-diffusion-on-p-adic-fractals",
+  "paper": {
+    "path": "papers/spectral-analysis-of-anomalous-diffusion-on-p-adic-fractals/paper.md",
+    "title": "Spectral Analysis of Anomalous Diffusion on p-Adic Fractals",
+    "url": "https://papers.qnfo.org/papers/spectral-analysis-of-anomalous-diffusion-on-p-adic-fractals"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "spectral-analysis-of-anomalous-diffusion-on-p-adic-fractals"
+  },
+  "snapshots": [
+    {
+      "sha256": "ea236f90957fd047d2e494c8331a042c39ba1062fc96bb33fb0915cd1b0d939d",
+      "bytes": 45999,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
