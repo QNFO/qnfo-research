@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ab-initio-architectonics",
+  "paper": {
+    "path": "papers/ab-initio-architectonics/paper.md",
+    "title": "Ab Initio Architectonics",
+    "url": "https://papers.qnfo.org/papers/ab-initio-architectonics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ab-initio-architectonics"
+  },
+  "snapshots": [
+    {
+      "sha256": "f8e948d51f6b3f4c11a29ae2bde42d096c81ccb581450fbd0e71fea18b853899",
+      "bytes": 204167,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
