@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "prime-valuation-depth",
+  "paper": {
+    "path": "papers/prime-valuation-depth/paper.md",
+    "title": "Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading",
+    "url": "https://papers.qnfo.org/papers/prime-valuation-depth"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "prime-valuation-depth"
+  },
+  "snapshots": [
+    {
+      "sha256": "afd8d6600646bee0b1ee204188a8d6ab9eff8ab6a77dcc0eb643a12f46be9d10",
+      "bytes": 23079,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

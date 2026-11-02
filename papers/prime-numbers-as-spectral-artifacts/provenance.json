@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "prime-numbers-as-spectral-artifacts",
+  "paper": {
+    "path": "papers/prime-numbers-as-spectral-artifacts/paper.md",
+    "title": "Prime Numbers as Spectral Artifacts",
+    "url": "https://papers.qnfo.org/papers/prime-numbers-as-spectral-artifacts"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "prime-numbers-as-spectral-artifacts"
+  },
+  "snapshots": [
+    {
+      "sha256": "6c2afe084a6d3597f5300f75aba1e1c5414783cbbac4571b694264660efd82b0",
+      "bytes": 58980,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "pqs-ai-evaluation-audit",
+  "paper": {
+    "path": "papers/pqs-ai-evaluation-audit/paper.md",
+    "title": "PQS AI-Evaluation Audit: Post-Quantum Synthesis Investigation and AI Gate-Check Analysis",
+    "url": "https://papers.qnfo.org/papers/pqs-ai-evaluation-audit"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "pqs-ai-evaluation-audit"
+  },
+  "snapshots": [
+    {
+      "sha256": "5a98dbb798ca7c0f317b1fc8d68a92fbe942301205a93878e0c18782cfe3ffef",
+      "bytes": 135327,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

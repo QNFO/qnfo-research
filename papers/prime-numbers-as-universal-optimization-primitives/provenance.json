@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "prime-numbers-as-universal-optimization-primitives",
+  "paper": {
+    "path": "papers/prime-numbers-as-universal-optimization-primitives/paper.md",
+    "title": "Prime Numbers as Universal Optimization Primitives",
+    "url": "https://papers.qnfo.org/papers/prime-numbers-as-universal-optimization-primitives"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "prime-numbers-as-universal-optimization-primitives"
+  },
+  "snapshots": [
+    {
+      "sha256": "b100ba0d87358cff3fc4225b9468e21ca3fa449a9482a1e884572142441c8d65",
+      "bytes": 24302,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "3.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
