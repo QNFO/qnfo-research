@@ -1,14 +1,14 @@
-# Adelic Factorization of Quantum Dynamics Across All Completions of ℚ
+# Adelic Factorization of Quantum Dynamics Across All Completions of ℚ
 
 ## Abstract
+
 Quantum theory is conventionally built on the Archimedean completion ℝ of the rational field ℚ. Ostrowski’s theorem shows that ℚ possesses infinitely many non‑Archimedean completions ℚ$_{p}$, one for each prime p, suggesting that the choice of ℝ is a convention rather than a necessity. By importing the local–global product structure of Tate’s 1950 thesis, this work proposes an adelic factorization of quantum dynamics in which a global amplitude 𝔸 decomposes as a product of local contributions 𝔸$_{v}$ over all places $v \in${$\infty$,2,3,5,…}. A formal adelic path‑integral is constructed, elementary p‑adic quantum models are outlined, the multiplicative product formula  
 \[
 |x|_\infty \prod_{p\ \text{prime}} |x|_p = 1
 \]  
 is verified for several integers, and a numerical illustration based on fidelity statistics of a 105‑qubit superconducting processor is presented. The arithmetic aggregation yields an exact mean fidelity \(\bar{F}=0.993866\overline{6}\) ($\approx$ 99.3867 %) and an exact product fidelity \(F_{\text{prod}}=0.9816745428\) ($\approx$ 98.16745428 %). These results demonstrate that local‑place metrics can be combined adelically and that the multiplicative structure naturally amplifies imperfections. The conjecture that the Archimedean real numbers emerge from a global consistency condition is thereby rendered testable in future quantum‑information experiments.
 
-## 1. Introduction
-Engineers who operate multi‑component quantum processors face a concrete aggregation problem today. A superconducting device such as the Tianyan‑287 processor provides 105 qubits with single‑qubit gate fidelity 99.90 %, two‑qubit gate fidelity 99.56 %, and readout fidelity 98.7 % [2]; the success probability of a circuit depends on all of them multiplicatively. Choosing how to combine component‑level figures of merit—by averaging, by multiplication, or by some other rule—changes which device counts as better and which upgrades are funded. Today this choice is a convention without a theoretical anchor. The same aggregation question appears, in a deeper form, in the foundations of physics: quantum theory is written over ℝ, and nothing in the standard formalism explains why that particular completion of ℚ is singled out.
+## 1. Introduction Engineers who operate multi‑component quantum processors face a concrete aggregation problem today. A superconducting device such as the Tianyan‑287 processor provides 105 qubits with single‑qubit gate fidelity 99.90 %, two‑qubit gate fidelity 99.56 %, and readout fidelity 98.7 % [2]; the success probability of a circuit depends on all of them multiplicatively. Choosing how to combine component‑level figures of merit—by averaging, by multiplication, or by some other rule—changes which device counts as better and which upgrades are funded. Today this choice is a convention without a theoretical anchor. The same aggregation question appears, in a deeper form, in the foundations of physics: quantum theory is written over ℝ, and nothing in the standard formalism explains why that particular completion of ℚ is singled out.
 
 We take as a starting point the classification of the completions of ℚ: up to equivalence, the non‑trivial absolute values are the standard Archimedean one \(|\cdot|_\infty\) and the p‑adic absolute values \(|\cdot|_p\) for primes p; we use this classification as an assumed mathematical fact rather than as a result attributed here to any single source. The adele ring \(\mathbb{A}_\mathbb{Q}\) is the restricted direct product \(\mathbb{R}\times\!\!\prod'_{p}\mathbb{Q}_p\), in which all but finitely many p‑adic components lie in \(\mathbb{Z}_p\) [11]. If a physical amplitude could be assigned one factor per place, the global object would be an adelic product  
 \[
@@ -25,8 +25,7 @@ The contributions are:
 4. A systematic discussion of limitations, falsifiability criteria, and open mathematical problems (Section 6).  
 5. A practical roadmap for experimental validation, including readiness assessment and next‑step prototype design (Section 7).
 
-## 2. Background and Related Work
-Adelic constructions have been employed in several mathematical contexts that are directly relevant to the present proposal.
+## 2. Background and Related Work Adelic constructions have been employed in several mathematical contexts that are directly relevant to the present proposal.
 
 *Quasi‑adelic measures* on the Berkovich projective line control the distribution of points of small height across all completions of ℚ; Baker‑Rumely and Favre‑Rivera‑Letelier proved an arithmetic equidistribution theorem using such measures [1]. This demonstrates that adelic measures can enforce global consistency conditions, an idea imported here for quantum amplitudes.
 
@@ -54,8 +53,7 @@ The template document [11] supplies the classification of local fields, the de
 
 The companion document [12] proposes a depth‑breadth‑valuation ontology of the physical continuum, framing valuations rather than metrics as the organizing principle of local dynamics; this framing is illustrated by the product‑formula arithmetic of the present paper.
 
-## 3. Methods
-The methodological framework consists of three parallel components.
+## 3. Methods The methodological framework consists of three parallel components.
 
 ### 3.1 Adelic Path‑Integral Construction
 For a classical action functional \(S[x]\), the standard Archimedean path integral is  
@@ -123,8 +121,7 @@ We verify \(|x|_{\infty}\prod_{p}|x|_{p}=1\) for \(x=6,10,12,30\).
 
 In each case the product equals 1 exactly, with no rounding at any step. The number of non‑trivial places equals the number \(\omega(x)\) of distinct prime divisors of \(x\): \(\omega(6)=\omega(10)=\omega(12)=2\) and \(\omega(30)=3\).
 
-### 4.2 Fidelity Aggregates: Full Arithmetic
-All input numbers come from the processor description [2]; none are assumed.
+### 4.2 Fidelity Aggregates: Full Arithmetic All input numbers come from the processor description [2]; none are assumed.
 
 **Step 1: Arithmetic mean.**  
 \[
@@ -183,8 +180,7 @@ Using \(\bar{F}=0.9938666667\) to ten decimal places:
 \]  
 The exact gap is \(\Delta=0.012192123\overline{8}\), i.e. about 1.22 percentage points.
 
-### 4.3 Interpretation
-The arithmetic mean \(\bar{F}=0.993866\overline{6}\) represents a typical local‑place performance, while the product \(F_{\text{prod}}=0.9816745428\) illustrates how multiplicative aggregation across places amplifies small imperfections. In a genuine adelic quantum theory each factor \(f_{i}\) would be associated with a distinct completion (e.g. \(f_{1}\) with \(\infty\), \(f_{2}\) with \(\mathbb{Q}_{2}\), \(f_{3}\) with \(\mathbb{Q}_{3}\)), and the global amplitude would be their product, consistent with the formal definition \(Z_{\mathbb{A}}\) in Section 3.1. The product‑formula verification in Section 4.1 shows that the elementary identity \(|x|_{\infty}\prod_{p}|x|_{p}=1\) holds exactly for the tested integers, providing a concrete arithmetic shadow of the local‑global structure.
+### 4.3 Interpretation The arithmetic mean \(\bar{F}=0.993866\overline{6}\) represents a typical local‑place performance, while the product \(F_{\text{prod}}=0.9816745428\) illustrates how multiplicative aggregation across places amplifies small imperfections. In a genuine adelic quantum theory each factor \(f_{i}\) would be associated with a distinct completion (e.g. \(f_{1}\) with \(\infty\), \(f_{2}\) with \(\mathbb{Q}_{2}\), \(f_{3}\) with \(\mathbb{Q}_{3}\)), and the global amplitude would be their product, consistent with the formal definition \(Z_{\mathbb{A}}\) in Section 3.1. The product‑formula verification in Section 4.1 shows that the elementary identity \(|x|_{\infty}\prod_{p}|x|_{p}=1\) holds exactly for the tested integers, providing a concrete arithmetic shadow of the local‑global structure.
 
 ## 5. Results
 - **Product‑formula verification.** \(|x|_{\infty}\prod_{p}|x|_{p}=1\) holds exactly for \(x=6,10,12,30\) (Section 4.1). The number of non‑trivial places equals \(\omega(x)\), the count of distinct prime divisors.
@@ -205,8 +201,7 @@ These values constitute the sole quantitative outcomes of the present analysis. 
 7. **Potential conflict with relativity.** The ultrametric topology of \(\mathbb{Q}_{p}\) lacks a known compatibility with Lorentz invariance [11].  
 8. **Hybrid dynamics constraints.** Known consistent mixed Archimedean/non‑Archimedean dynamics are stochastic, linear, completely positive, and trace‑preserving, with generic energy non‑conservation [8]; a unitary adelic theory would need to address these issues.
 
-### 6.2 What Would Falsify the Conjecture
-If a quantum circuit engineered to emulate a p‑adic sector yields a global amplitude that deviates systematically from the product of measured local fidelities (beyond statistical noise), the adelic factorization hypothesis would be falsified. Likewise, observation of a physical process that violates the exact product formula \(|x|_{\infty}\prod_{p}|x|_{p}=1\) for rational amplitudes would contradict the underlying adelic consistency condition.
+### 6.2 What Would Falsify the Conjecture If a quantum circuit engineered to emulate a p‑adic sector yields a global amplitude that deviates systematically from the product of measured local fidelities (beyond statistical noise), the adelic factorization hypothesis would be falsified. Likewise, observation of a physical process that violates the exact product formula \(|x|_{\infty}\prod_{p}|x|_{p}=1\) for rational amplitudes would contradict the underlying adelic consistency condition.
 
 ### 6.3 Open Questions
 - How can a physically meaningful p‑adic Hilbert space be constructed while preserving unitarity and probability conservation?  
@@ -226,11 +221,9 @@ Whether \(\Delta\) corresponds to a physically observable effect in a full adeli
 ### (a) Potential Users and Decision Impact
 Theoretical physicists working on foundations of quantum mechanics and quantum‑information engineers designing error‑mitigation protocols would use the adelic factorization framework to assess whether non‑Archimedean contributions could affect logical error rates. If the adelic product accurately predicts global error probabilities, hardware designers might allocate resources to suppress specific local imperfections (e.g., improve readout fidelity) more aggressively than others.
 
-### (b) Technology Readiness
-The present work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, the work resides at TRL 1–2 (basic principles observed and reported).
+### (b) Technology Readiness The present work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, the work resides at TRL 1–2 (basic principles observed and reported).
 
-### (c) Minimal Next Experiment
-A minimal prototype would consist of a quantum circuit that implements a discrete analogue of the p‑adic harmonic oscillator (e.g., using a finite‑field encoding of \(\mathbb{Z}/p^{k}\mathbb{Z}\)) on a superconducting processor. The experiment would measure the local amplitude \(A_{p}\) for a chosen prime \(p\) and compare the product \(A_{\infty}\times A_{p}\) with the directly measured global amplitude \(A_{\text{global}}\). Observation of \(A_{\text{global}}\neq A_{\infty}A_{p}\) beyond statistical noise would falsify the adelic product hypothesis.
+### (c) Minimal Next Experiment A minimal prototype would consist of a quantum circuit that implements a discrete analogue of the p‑adic harmonic oscillator (e.g., using a finite‑field encoding of \(\mathbb{Z}/p^{k}\mathbb{Z}\)) on a superconducting processor. The experiment would measure the local amplitude \(A_{p}\) for a chosen prime \(p\) and compare the product \(A_{\infty}\times A_{p}\) with the directly measured global amplitude \(A_{\text{global}}\). Observation of \(A_{\text{global}}\neq A_{\infty}A_{p}\) beyond statistical noise would falsify the adelic product hypothesis.
 
 ### (d) Engineering Constraints
 - **Encoding of p‑adic numbers.** Requires mapping of \(\mathbb{Q}_{p}\) elements to qubit registers, potentially demanding additional qubits and error‑corrected logical operations.  
@@ -239,14 +232,11 @@ A minimal prototype would consist of a quantum circuit that implements a discret
 
 These constraints are identified from the methodological requirements of Sections 3 and 4; they remain open questions pending implementation.
 
-### (e) Order‑of‑Magnitude Projections
-Assuming a successful encoding of a single p‑adic digit (\(k=1\)) for a prime \(p\approx5\), the additional qubit overhead is estimated at \(\log_{2}p\approx3\) qubits per p‑adic register. With current superconducting technology ($\approx$ \(10^{-3}\) error per two‑qubit gate), the projected increase in overall error probability due to the extra registers is on the order of \(10^{-3}\), comparable to the observed gap \(\Delta\approx1.2\times10^{-2}\). This projection is labeled as an assumption‑based estimate.
+### (e) Order‑of‑Magnitude Projections Assuming a successful encoding of a single p‑adic digit (\(k=1\)) for a prime \(p\approx5\), the additional qubit overhead is estimated at \(\log_{2}p\approx3\) qubits per p‑adic register. With current superconducting technology ($\approx$ \(10^{-3}\) error per two‑qubit gate), the projected increase in overall error probability due to the extra registers is on the order of \(10^{-3}\), comparable to the observed gap \(\Delta\approx1.2\times10^{-2}\). This projection is labeled as an assumption‑based estimate.
 
-### (f) Direct Risks and Misuse
-Misinterpretation of the adelic product as a proven physical law could lead to premature allocation of engineering resources toward speculative hardware modifications. Clear communication that the framework is conjectural and that the numerical illustration is illustrative only mitigates this risk.
+### (f) Direct Risks and Misuse Misinterpretation of the adelic product as a proven physical law could lead to premature allocation of engineering resources toward speculative hardware modifications. Clear communication that the framework is conjectural and that the numerical illustration is illustrative only mitigates this risk.
 
-## 8. Conclusion
-A speculative yet concrete program for factorizing quantum dynamics across all completions of ℚ has been outlined. By leveraging adelic constructions from arithmetic geometry [1, 6] and grounding the discussion in real‑world fidelity data [2], the work demonstrates how local‑place metrics can be combined through an adelic product, yielding a lower overall performance figure. The formal adelic path‑integral, the p‑adic model sketches, the explicit verification of the product formula, and the exact arithmetic aggregation together define a methodological pathway for future research. The central conjecture—that the Archimedean real numbers arise as a global consistency artifact rather than a fundamental necessity—remains open and invites both mathematical refinement (regularization of infinite products, construction of p‑adic Hilbert spaces) and experimental scrutiny (prototype p‑adic simulations on quantum hardware).
+## 8. Conclusion A speculative yet concrete program for factorizing quantum dynamics across all completions of ℚ has been outlined. By leveraging adelic constructions from arithmetic geometry [1, 6] and grounding the discussion in real‑world fidelity data [2], the work demonstrates how local‑place metrics can be combined through an adelic product, yielding a lower overall performance figure. The formal adelic path‑integral, the p‑adic model sketches, the explicit verification of the product formula, and the exact arithmetic aggregation together define a methodological pathway for future research. The central conjecture—that the Archimedean real numbers arise as a global consistency artifact rather than a fundamental necessity—remains open and invites both mathematical refinement (regularization of infinite products, construction of p‑adic Hilbert spaces) and experimental scrutiny (prototype p‑adic simulations on quantum hardware).
 
 ## Version History
 

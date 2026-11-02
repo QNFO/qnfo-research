@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "adelic-quantum-error-correction-code-constructions-beyond-the-stabilizer-formali",
+  "paper": {
+    "path": "adelic-freedom/adelic-quantum-error-correction-code-constructions-beyond-the-stabilizer-formali/paper.md",
+    "title": "Adelic Quantum Error Correction: Code Constructions Beyond the Stabilizer Formalism",
+    "url": "https://papers.qnfo.org/papers/adelic-quantum-error-correction-code-constructions-beyond-the-stabilizer-formali"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "adelic-quantum-error-correction-code-constructions-beyond-the-stabilizer-formali"
+  },
+  "snapshots": [
+    {
+      "sha256": "9c1d06f46c6c325aab0894d09b37ca06324c6ec64a67d7b3305cb0201323d556",
+      "bytes": 18501,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "0.1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
