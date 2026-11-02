@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "universal-computational-topos",
+  "paper": {
+    "path": "papers/universal-computational-topos/paper.md",
+    "title": "Universal Computational Topos",
+    "url": "https://papers.qnfo.org/papers/universal-computational-topos"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "universal-computational-topos"
+  },
+  "snapshots": [
+    {
+      "sha256": "0ff2ef255b513928d0b50722ecdf83bcc4d53dc1b066f38f43cdf22459ad05c3",
+      "bytes": 52665,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

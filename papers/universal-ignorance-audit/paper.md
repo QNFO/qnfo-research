@@ -5,13 +5,14 @@ date: "2026-08-10"
 license: "CC BY-NC-SA 4.0"
 doi: ""
 status: "published"
+keywords: "ignorance; agnotology; epistemic humility; methodology; self-audit; falsifiability; AI-assisted research"
 ---
+
+# The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing
 
 ## Abstract
 
 The Universal Ignorance Audit is a fifteen-question, five-phase method for systematically interrogating the structure of not-knowing in any domain. Where conventional epistemic tools treat ignorance as an absence to be filled, the audit treats it as an active, structured state with architecture: hidden assumptions (scaffolds), representational confusions (map--territory errors), felt anomalies (wobbles), protected zones (taboo and identity-threatening questions), and productive capacities (actionable and relational ignorance). This paper presents the method's development history, its theoretical grounding in agnotology, specified ignorance, epistemic humility, and calibration research, and the complete fifteen-question instrument with administration protocol. It reports the meta-audit -- the audit applied to itself -- which revealed systematic biases (an analytic, individualistic, extractive slant) and generated corrective sibling questions. Three worked applications are summarized: an ultrametric Majorana qubit framework, the braid-group approach to topological quantum computation, and the electron as a case study in renormalized ontology. The method is offered as a portable, content-independent instrument for research self-audit, AI-assisted research governance, and epistemic hygiene.
-
-**Keywords:** ignorance; agnotology; epistemic humility; methodology; self-audit; falsifiability; AI-assisted research
 
 ## 1. Introduction
 

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "universal-hamiltonian-as-process-verb",
+  "paper": {
+    "path": "papers/universal-hamiltonian-as-process-verb/paper.md",
+    "title": "Universal Hamiltonian as Process Verb",
+    "url": "https://papers.qnfo.org/papers/universal-hamiltonian-as-process-verb"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "universal-hamiltonian-as-process-verb"
+  },
+  "snapshots": [
+    {
+      "sha256": "e2c5c6f14c7b3174fd63406a37cddeef2ced0c8699b3c5d41cb2001f77a1aa2c",
+      "bytes": 68221,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

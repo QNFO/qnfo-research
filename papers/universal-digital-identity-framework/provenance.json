@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/universal-digital-identity-framework"
   },
   "declared": {
-    "version": "1.1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -24,6 +24,14 @@
       "basis": "backfill",
       "version": "1.1.0",
       "git_commit": "cd64d463ec00ed17474e13000984fe1afb6d13a1"
+    },
+    {
+      "sha256": "710c73e7590d5a7f54269ec00ebf0467fb25745c99e5ed5f54e8f48c0280cc5f",
+      "bytes": 108143,
+      "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
     }
   ],
   "events": []
