@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "from-extrinsic-teleology-to-existential-autonomy",
+  "paper": {
+    "path": "papers/from-extrinsic-teleology-to-existential-autonomy/paper.md",
+    "title": "From Extrinsic Teleology to Existential Autonomy",
+    "url": "https://papers.qnfo.org/papers/from-extrinsic-teleology-to-existential-autonomy"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "from-extrinsic-teleology-to-existential-autonomy"
+  },
+  "snapshots": [
+    {
+      "sha256": "953a3645ef37edea937193c8b6a90582cc7b57af9e95991326ce25da99e1edc3",
+      "bytes": 16115,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
