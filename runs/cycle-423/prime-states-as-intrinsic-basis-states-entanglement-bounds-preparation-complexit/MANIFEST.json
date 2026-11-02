@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "d8a0758f-f52f-449d-a28f-e114ac9b4cf0",
+    "slug": "prime-states-as-intrinsic-basis-states-entanglement-bounds-preparation-complexit",
+    "cycle": "cycle-423",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.2",
+    "finished_at": "2026-11-02T12:51:24.065Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "ee8e7dce3eff9e17493f38fd399c394bcb2aa299a8e880c953c76b5b9e93d7c1",
+    "bytes": 45947,
+    "path": "papers/prime-states-as-intrinsic-basis-states-entanglement-bounds-preparation-complexit/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "d3cb6c4f5a3ac0ac7a4fad35e03ec84da0b65ed3bf28ae572f9bae9779b3e6b1",
+      "bytes": 46841,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "ee8e7dce3eff9e17493f38fd399c394bcb2aa299a8e880c953c76b5b9e93d7c1",
+      "bytes": 45947,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "b042c122cb394ebce7ae51f1c6a18978ce18d2262f5e0ea05c7c431721b713b1",
+      "bytes": 4311,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "5c04c979f7c5161487124cb25afa3eeac5265a9933f309f1ac8d6a9b12036b92",
+      "bytes": 2559,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "3e91f7e938ec172f987c7e7a44f3b2cdc3b3f1d4e5cd74c29e120a5b6ad80c68",
+      "bytes": 16219,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "755df713a5d384dfefd80f58eacdb5fa5986375b29623062fc85e7838f136732",
+      "bytes": 7977,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "19df3e3fa22e57774a9d2d8778538a7eb255c7a007c8db2e89786ed5a7713a4b",
+      "bytes": 20913,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "5cc778e1b3e80379b55d5a8d95fa7af6d2904fc93633ee87e70fcb0fbd96f8c9",
+      "bytes": 25351,
+      "role": "draft"
+    }
+  }
+}

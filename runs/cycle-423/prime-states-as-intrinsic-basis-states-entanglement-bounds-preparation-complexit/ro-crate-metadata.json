@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-423: Prime States as Intrinsic Basis States: Entanglement Bounds, Preparation Complexity, and the Limits of Classical Emulation",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-423",
+      "qnfo:runPath": "runs/cycle-423/prime-states-as-intrinsic-basis-states-entanglement-bounds-preparation-complexit",
+      "qnfo:slug": "prime-states-as-intrinsic-basis-states-entanglement-bounds-preparation-complexit",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-02T12:51:24.065Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/prime-states-as-intrinsic-basis-states-entanglement-bounds-preparation-complexit"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/prime-states-as-intrinsic-basis-states-entanglement-bounds-preparation-complexit",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Prime States as Intrinsic Basis States: Entanglement Bounds, Preparation Complexity, and the Limits of Classical Emulation",
+      "url": "https://papers.qnfo.org/papers/prime-states-as-intrinsic-basis-states-entanglement-bounds-preparation-complexit"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1003.4015",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1003.4015"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1302.6245",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1302.6245"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1306.0795",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1306.0795"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1405.2490",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1405.2490"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1406.4801",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1406.4801"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1706.00392",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1706.00392"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1711.07996",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1711.07996"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1810.02188",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1810.02188"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2422",
+      "sha256": "bdef374defcad457bfe3057cd43c2baf868dce1c2c83fde3319a0cf3f267e5b5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "46841",
+      "sha256": "d3cb6c4f5a3ac0ac7a4fad35e03ec84da0b65ed3bf28ae572f9bae9779b3e6b1",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "45947",
+      "sha256": "ee8e7dce3eff9e17493f38fd399c394bcb2aa299a8e880c953c76b5b9e93d7c1",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4311",
+      "sha256": "b042c122cb394ebce7ae51f1c6a18978ce18d2262f5e0ea05c7c431721b713b1",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2559",
+      "sha256": "5c04c979f7c5161487124cb25afa3eeac5265a9933f309f1ac8d6a9b12036b92",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16219",
+      "sha256": "3e91f7e938ec172f987c7e7a44f3b2cdc3b3f1d4e5cd74c29e120a5b6ad80c68",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "7977",
+      "sha256": "755df713a5d384dfefd80f58eacdb5fa5986375b29623062fc85e7838f136732",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20913",
+      "sha256": "19df3e3fa22e57774a9d2d8778538a7eb255c7a007c8db2e89786ed5a7713a4b",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25351",
+      "sha256": "5cc778e1b3e80379b55d5a8d95fa7af6d2904fc93633ee87e70fcb0fbd96f8c9",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1003.4015"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1302.6245"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1306.0795"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1405.2490"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1406.4801"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1706.00392"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1711.07996"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1810.02188"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-02T12:51:24.065Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
