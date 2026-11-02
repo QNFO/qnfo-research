@@ -1,10 +1,10 @@
 # Reformulating Quantum Mechanics on Bruhat–Tits Trees: A Deterministic Boundary‑Measure Framework
 
 ## Abstract
+
 Quantum foundations confront the measurement problem and the postulated Born rule $P_i=|c_i|^2$. Existing platforms—type‑I parametric‑down‑conversion sources delivering $10\;\text{kHz}$ coincidences at $200\;\text{mW}$ pump power [1] and superconducting processors achieving $99.90\%$ single‑qubit gate fidelity [2]—demonstrate the empirical success of the standard formalism but leave its axioms unexplained. We rebuild finite‑dimensional quantum mechanics on the ultrametric state space defined by the Bruhat–Tits tree $T_{p}$ of a prime $p$. In this formulation the wavefunction is a deterministic branching path, measurement is the Monna projection from $T_{p}$ to the Archimedean line, and the Born rule emerges as a uniform boundary‑measure fraction. For the regular binary tree ($p=2$) of depth $D=6$ we obtain the explicit probability $P=8/64=0.125$ for a contiguous block of eight leaves. For a qubit with rational amplitudes $c_1=3/5$, $c_2=4/5$ on a $p=5$ tree with $N=2$ levels we derive container measures $9/25=0.36$ and $16/25=0.64$, exactly matching $|c_i|^2$. A general theorem proves that any state whose squared amplitudes are rationals with denominator $p^{N}$ yields boundary‑measure probabilities equal to $|c_i|^2$. The framework also reproduces the CHSH bound $|S|\le2$ for deterministic container assignments. If correct, the approach dissolves the measurement problem, replaces postulated quantization with a geometric rule, and suggests a new class of fault‑tolerant quantum simulators.
 
-## 1. Introduction
-Experimentalists at the “Carlo Novero” laboratory routinely generate polarization‑entangled photon pairs using type‑I parametric down‑conversion crystals, achieving a coincidence rate of $10\;\text{kHz}$ at a pump power of $200\;\text{mW}$ [1]. This rate underpins modern quantum‑communication protocols and metrology. Simultaneously, engineers building superconducting processors (e.g., the Tianyan‑287 platform with $105$ qubits) must mitigate gate errors of $0.10\%$–$0.44\%$ [2]. Both communities rely on the Born rule to translate a computed state vector into predicted outcome frequencies, yet the rule is postulated rather than derived. The lack of a constructive derivation hampers interpretation of deviations, certification of simulators, and the design of architectures that could exploit deeper geometric structure.
+## 1. Introduction Experimentalists at the “Carlo Novero” laboratory routinely generate polarization‑entangled photon pairs using type‑I parametric down‑conversion crystals, achieving a coincidence rate of $10\;\text{kHz}$ at a pump power of $200\;\text{mW}$ [1]. This rate underpins modern quantum‑communication protocols and metrology. Simultaneously, engineers building superconducting processors (e.g., the Tianyan‑287 platform with $105$ qubits) must mitigate gate errors of $0.10\%$–$0.44\%$ [2]. Both communities rely on the Born rule to translate a computed state vector into predicted outcome frequencies, yet the rule is postulated rather than derived. The lack of a constructive derivation hampers interpretation of deviations, certification of simulators, and the design of architectures that could exploit deeper geometric structure.
 
 Reformulating quantum mechanics on an ultrametric state space where probabilities arise from combinatorial geometry would eliminate the measurement problem, provide a deterministic account of collapse, and make quantization a consequence of discrete tree depth. Such a reformulation would directly benefit experimental design (geometric criteria for state preparation), quantum‑information architecture (fault tolerance from tree‑based encoding), and foundational theory (a constructive Born rule).
 
@@ -16,8 +16,7 @@ Reformulating quantum mechanics on an ultrametric state space where probabilitie
 - **C5.** Identification of experimental signatures that would falsify the boundary‑measure hypothesis (Section 6).  
 - **C6.** Practical pathway for a minimal simulation experiment on a depth‑6 binary tree (Section 7).
 
-## 2. Background and Related Work
-The “Carlo Novero” laboratory demonstrates that type‑I PDC crystals of length $1.5\;\text{cm}$ produce bright entangled photon sources with a coincidence rate of $10\;\text{kHz}$ at $200\;\text{mW}$ pump power [1]. This empirical capability motivates any reformulation to be compatible with high‑rate photon‑pair generation.
+## 2. Background and Related Work The “Carlo Novero” laboratory demonstrates that type‑I PDC crystals of length $1.5\;\text{cm}$ produce bright entangled photon sources with a coincidence rate of $10\;\text{kHz}$ at $200\;\text{mW}$ pump power [1]. This empirical capability motivates any reformulation to be compatible with high‑rate photon‑pair generation.
 
 Tianyan’s quantum cloud platform operates $105$‑qubit superconducting processors with single‑qubit gate fidelity $99.90\%$, two‑qubit gate fidelity $99.56\%$, and readout fidelity $98.7\%$ [2]. These figures illustrate the current technological ceiling for gate errors, underscoring the need for a theoretical framework that can explain and possibly reduce such errors.
 
@@ -66,14 +65,11 @@ $$
 $$
 The map $\phi$ pushes the boundary measure $\mu$ to the Lebesgue measure on $[0,1]$ (proved in Section 4).
 
-### 3.5 Dynamics and energy quantization
-Discrete time evolution is taken to be a walk generated by the tree Laplacian $\Delta_{p}$, whose spectral properties on regular trees are known [10]. Energy levels are assigned by depth: a component localized at level $n$ carries energy $E_{n}=n\hbar\omega_{0}$, deriving quantization from tree depth.
+### 3.5 Dynamics and energy quantization Discrete time evolution is taken to be a walk generated by the tree Laplacian $\Delta_{p}$, whose spectral properties on regular trees are known [10]. Energy levels are assigned by depth: a component localized at level $n$ carries energy $E_{n}=n\hbar\omega_{0}$, deriving quantization from tree depth.
 
-### 3.6 Measurement as deterministic projection
-A measurement with outcomes $\{1,\dots,d\}$ corresponds to the deterministic event that the hidden boundary point $x$ lies in container $C_{i}$. The observed outcome is $i$, and the post‑measurement state is the restriction of the path to $C_{i}$. No stochastic postulate is introduced; randomness is epistemic, arising from ignorance of $x$.
+### 3.6 Measurement as deterministic projection A measurement with outcomes $\{1,\dots,d\}$ corresponds to the deterministic event that the hidden boundary point $x$ lies in container $C_{i}$. The observed outcome is $i$, and the post‑measurement state is the restriction of the path to $C_{i}$. No stochastic postulate is introduced; randomness is epistemic, arising from ignorance of $x$.
 
-## 4. Analysis
-All arithmetic steps are shown explicitly.
+## 4. Analysis All arithmetic steps are shown explicitly.
 
 ### 4.1 Tree counting and measure normalization
 Each vertex has $p+1$ neighbours; each non‑root vertex has $p$ children. Hence the number of vertices at level $n\ge1$ is
@@ -139,8 +135,7 @@ Thus
 \mu(C_{2})=16\times\frac{1}{25}=0.64.
 \]
 
-### 4.4 Measure‑preserving property of $\phi$
-For any cylinder $C_{s}$ at level $n$, the image $\phi(C_{s})$ is an interval of length $p^{-n}$ in $[0,1]$. Hence $\lambda(\phi(C_{s}))=p^{-n}=\mu(C_{s})$, where $\lambda$ denotes Lebesgue measure. By standard measure theory, $\phi$ pushes $\mu$ forward to $\lambda$.
+### 4.4 Measure‑preserving property of $\phi$ For any cylinder $C_{s}$ at level $n$, the image $\phi(C_{s})$ is an interval of length $p^{-n}$ in $[0,1]$. Hence $\lambda(\phi(C_{s}))=p^{-n}=\mu(C_{s})$, where $\lambda$ denotes Lebesgue measure. By standard measure theory, $\phi$ pushes $\mu$ forward to $\lambda$.
 
 ### 4.5 CHSH bound for deterministic containers
 Consider two parties, Alice and Bob, each choosing one of two measurement settings, yielding binary outcomes determined by the hidden boundary point $x$. Since each outcome is a deterministic function $A_{a}(x),B_{b}(x)\in\{-1,+1\}$, the CHSH combination
@@ -176,16 +171,14 @@ All numerical values follow directly from the arithmetic in Section 4.
 - **L3.** The theorem requires squared amplitudes to have a denominator that is a power of $p$; arbitrary real amplitudes are outside the proved scope.  
 - **L4.** Deterministic container assignments obey the classical CHSH bound, so the framework cannot reproduce observed Bell‑inequality violations without extension.  
 
-### 6.2 Falsification criterion
-An experiment preparing a qubit in the state $(3/5,4/5)$ and measuring the outcome frequencies over $N=10^{5}$ trials should yield frequencies $f_{1}\approx0.36$, $f_{2}\approx0.64$ with binomial standard deviation $\sigma=\sqrt{P(1-P)/N}\approx0.0015$. Observation of $|f_{i}-P_{i}|>3\sigma$ for either outcome would falsify the boundary‑measure hypothesis.
+### 6.2 Falsification criterion An experiment preparing a qubit in the state $(3/5,4/5)$ and measuring the outcome frequencies over $N=10^{5}$ trials should yield frequencies $f_{1}\approx0.36$, $f_{2}\approx0.64$ with binomial standard deviation $\sigma=\sqrt{P(1-P)/N}\approx0.0015$. Observation of $|f_{i}-P_{i}|>3\sigma$ for either outcome would falsify the boundary‑measure hypothesis.
 
 ### 6.3 Open questions
 - Extending the theorem to arbitrary real amplitudes (e.g., via limits of rational approximations).  
 - Incorporating contextuality to allow Bell‑inequality violation while preserving deterministic hidden‑state structure.  
 - Relating tree depth‑based energy quantization to physical Hamiltonians beyond the phenomenological assignment $E_{n}=n\hbar\omega_{0}$.  
 
-## 7. Practical Implications and Engineering Pathways
-**(a) Intended users and design impact.** The primary users are quantum‑foundations theorists and quantum‑simulation developers. If the boundary‑measure rule holds, quantum simulators could be built on classical software that samples uniformly from $\partial T_{p}$, encoding logical states as branching patterns rather than complex amplitudes, potentially offering intrinsic fault tolerance.
+## 7. Practical Implications and Engineering Pathways **(a) Intended users and design impact.** The primary users are quantum‑foundations theorists and quantum‑simulation developers. If the boundary‑measure rule holds, quantum simulators could be built on classical software that samples uniformly from $\partial T_{p}$, encoding logical states as branching patterns rather than complex amplitudes, potentially offering intrinsic fault tolerance.
 
 **(b) Technology readiness.** The work is purely analytical and unreviewed; according to NASA TRL definitions it resides at TRL 1–2.
 
@@ -197,8 +190,7 @@ An experiment preparing a qubit in the state $(3/5,4/5)$ and measuring the outco
 
 **(f) Risks and misuse.** Over‑generalizing the boundary‑measure rule to all quantum phenomena (e.g., dynamics, entanglement beyond simple partitions) could lead to incorrect predictions. Users must restrict application to the validated domain of static measurement statistics for finite‑dimensional systems with rational squared amplitudes.
 
-## 8. Conclusion
-We have constructed a deterministic reformulation of quantum mechanics on the Bruhat–Tits tree $T_{p}$, proving that the uniform boundary measure reproduces the Born rule for all states whose squared amplitudes are rationals with denominator $p^{N}$. Explicit arithmetic for a binary tree of depth 6 yields $P=0.125$, and a $p=5$ example reproduces probabilities $0.36$ and $0.64$. The framework also respects the CHSH bound, indicating that Bell‑inequality violation remains a decisive test. Limitations concerning finite depth, uniformity, and rational‑amplitude restriction are identified, and a concrete simulation experiment is proposed to falsify or corroborate the central claim. By grounding quantum probabilities in ultrametric geometry, the approach offers a new avenue for addressing the measurement problem and for designing fault‑tolerant quantum information architectures.
+## 8. Conclusion We have constructed a deterministic reformulation of quantum mechanics on the Bruhat–Tits tree $T_{p}$, proving that the uniform boundary measure reproduces the Born rule for all states whose squared amplitudes are rationals with denominator $p^{N}$. Explicit arithmetic for a binary tree of depth 6 yields $P=0.125$, and a $p=5$ example reproduces probabilities $0.36$ and $0.64$. The framework also respects the CHSH bound, indicating that Bell‑inequality violation remains a decisive test. Limitations concerning finite depth, uniformity, and rational‑amplitude restriction are identified, and a concrete simulation experiment is proposed to falsify or corroborate the central claim. By grounding quantum probabilities in ultrametric geometry, the approach offers a new avenue for addressing the measurement problem and for designing fault‑tolerant quantum information architectures.
 
 ## Version History
 

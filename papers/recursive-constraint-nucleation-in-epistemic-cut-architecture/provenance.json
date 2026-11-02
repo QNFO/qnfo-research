@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "recursive-constraint-nucleation-in-epistemic-cut-architecture",
+  "paper": {
+    "path": "papers/recursive-constraint-nucleation-in-epistemic-cut-architecture/paper.md",
+    "title": "Recursive Constraint Nucleation in Epistemic Cut Architecture",
+    "url": "https://papers.qnfo.org/papers/recursive-constraint-nucleation-in-epistemic-cut-architecture"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "recursive-constraint-nucleation-in-epistemic-cut-architecture"
+  },
+  "snapshots": [
+    {
+      "sha256": "ca61f0994f1f091621b19a88d79a87343b88a0714d097338f81e6d273fe8ae22",
+      "bytes": 37322,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

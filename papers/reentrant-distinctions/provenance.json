@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "reentrant-distinctions",
+  "paper": {
+    "path": "papers/reentrant-distinctions/paper.md",
+    "title": "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference",
+    "url": "https://papers.qnfo.org/papers/reentrant-distinctions"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "reentrant-distinctions"
+  },
+  "snapshots": [
+    {
+      "sha256": "ab4f2726a1e557c774b1bbf6251c2bca1b6bcf371bc2cc9c620dcc192b17e6e3",
+      "bytes": 118172,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.9",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
