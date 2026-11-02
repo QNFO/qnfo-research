@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "qwave-qudit-advantage",
+  "paper": {
+    "path": "papers/qwave-qudit-advantage/paper.md",
+    "title": "The Qudit Advantage: System-Level Joules-per-Solution Comparison of a Qudit Architecture Against 17 Conventional Qubit Quantum Computing Platforms",
+    "url": "https://papers.qnfo.org/papers/qwave-qudit-advantage"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "qwave-qudit-advantage"
+  },
+  "snapshots": [
+    {
+      "sha256": "3bb5910ab042141cc89d8cd430f1ba253bbd4d1d7035681b4ca35db5d9a4c718",
+      "bytes": 30606,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.7",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

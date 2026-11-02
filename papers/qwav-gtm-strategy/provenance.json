@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "qwav-gtm-strategy",
+  "paper": {
+    "path": "papers/qwav-gtm-strategy/paper.md",
+    "title": "QWAV Strategy v2.4.1: The Energy-Standard Playbook — Consortium Governance, Verified Precedents, and the JPCUB Road to a Quantum Computing Energy Benchmark",
+    "url": "https://papers.qnfo.org/papers/qwav-gtm-strategy"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "qwav-gtm-strategy"
+  },
+  "snapshots": [
+    {
+      "sha256": "5a2a35da24f75564767516a0cfb0f9b2555fb1e8f27a8e7a01c95373913cae7a",
+      "bytes": 25567,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v2.4.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

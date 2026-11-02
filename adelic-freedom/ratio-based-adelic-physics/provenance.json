@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ratio-based-adelic-physics",
+  "paper": {
+    "path": "adelic-freedom/ratio-based-adelic-physics/paper.md",
+    "title": "Ratio-Based Adelic Physics",
+    "url": "https://papers.qnfo.org/papers/ratio-based-adelic-physics"
+  },
+  "declared": {
+    "version": "1.0.2",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ratio-based-adelic-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "2993fdc7a8990cbe19c6d40027621bdb72f676bce4a35efb698f0d31b0b0f141",
+      "bytes": 68786,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

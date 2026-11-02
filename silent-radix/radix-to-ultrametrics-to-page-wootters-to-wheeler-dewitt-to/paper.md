@@ -1,9 +1,8 @@
-# Radix → Ultrametrics → Page-Wootters → Wheeler-DeWitt → Bruhat-Tits: A Convergent Synthesis (v1.1 — Corrected)
+# Radix to Ultrametrics to Page-Wootters to Wheeler-DeWitt to Bruhat-Tits: A Convergent Synthesis
 
-**Author:** QNFO Research Agent | **Date:** 2026-07-01 (corrected) | **License:** QNFO Unified License Agreement (QNFO-ULA)
-**DOI:** [10.5281/zenodo.21102436](https://doi.org/10.5281/zenodo.21102436) | **Version:** 2.0.0
+## Abstract
 
----
+Convergent synthesis bridging discrete p-adic ultrametrics with continuous quantum geometry via Page-Wootters, Wheeler-DeWitt, and Bruhat-Tits buildings.
 
 ## Abstract (50 words)
 
@@ -224,8 +223,6 @@ If this synthesis is physically meaningful, the following should be observable o
 
 ---
 
-
-
 ## 6.5 Computational Verification (2026-07-01 -- Corrected 2026-07-01)
 
 ### 6.5.1 Ultrametricity of Conditional State Distances [CODE-EXECUTED]
@@ -274,8 +271,6 @@ THEOREM ATTEMPT (FALSIFIED): The claim that D=4 Fourier clock states produce ult
 
 OPEN PROBLEM [my conjecture]: Is there an energy spectrum E_n with number-theoretic structure (Gaussian sums, p-adic characters) that makes the conditional state metric exactly ultrametric for all tau?
 
-
-
 ## 7. Open Problems
 
 1. **Prove ultrametricity:** Construct a rigorous proof that conditional state distances under generic global constraints are approximately ultrametric in the thermodynamic limit, or find a counterexample. The spin glass analogy (Parisi 1979) provides a template but the physical systems differ.
@@ -310,10 +305,6 @@ The chain is mathematically coherent and consilient with established results in 
 
 ---
 
-
-## Changelog
-
-- v2.0.0: Adversarial audit revision. Fixes: no substantive corrections required.
 ## References
 
 ### Foundational (Pre-2000)
@@ -381,10 +372,6 @@ The D=4/N=8 initial pass (reported in §6.5.1) was a **sampling artifact** `[COD
 
 Planck 2018 CMB TT data (via LCDM model fallback — PLA fetch returned 404) was analyzed for $p$-adic log-periodic oscillations $C_\ell = C_\ell^{\Lambda\mathrm{CDM}} \cdot (1 + A \cos(\omega \log(\ell) + \phi))$ for $p \in \{2,3,5,7,11\}$. Autocorrelation $R_p(k)$ computed across all scales. Bayesian evidence $\ln(B)$ negative for all tested $p$, favoring the null model. The 3% amplitude stated in simulation corresponds to $\sim$0.03$\sigma$ for Planck sensitivity — undetectable. CMB-S4 or LiteBIRD sensitivity ($\sim$0.2%) would be required for detection. [Code: `_task10_cmb_analysis.py`]
 
-### Zenodo Publication
-
-**DOI:** [10.5281/zenodo.21102436](https://doi.org/10.5281/zenodo.21102436)  
-**Concept DOI:** 10.5281/zenodo.21102435  
 **Keywords:** ultrametrics, Page-Wootters, Wheeler-DeWitt, Bruhat-Tits, p-adic, emergent time, quantum gravity
 
 ### Knowledge Graph Seeding [EXECUTED]

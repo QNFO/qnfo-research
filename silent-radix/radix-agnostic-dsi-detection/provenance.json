@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "radix-agnostic-dsi-detection",
+  "paper": {
+    "path": "silent-radix/radix-agnostic-dsi-detection/paper.md",
+    "title": "Radix-Agnostic Detection of Discrete Scale Invariance: A Certified Three-Stage Protocol and a Null Result from Planck 2018",
+    "url": "https://papers.qnfo.org/papers/radix-agnostic-dsi-detection"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "radix-agnostic-dsi-detection"
+  },
+  "snapshots": [
+    {
+      "sha256": "f3e3390babd3e0b014bcafa29678d2d58f08b449ace059e189406669b4b9167c",
+      "bytes": 13004,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "v0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

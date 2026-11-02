@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "qwav-decade",
+  "paper": {
+    "path": "papers/qwav-decade/paper.md",
+    "title": "The QWAV Decade: Enterprise p-Adic Computing 2025-2035",
+    "url": "https://papers.qnfo.org/papers/qwav-decade"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "qwav-decade"
+  },
+  "snapshots": [
+    {
+      "sha256": "dbe94032e6bf5ab8baeef92d34bcb112c0ce2c3eb066d5ca813a8faf776b12e1",
+      "bytes": 18277,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
