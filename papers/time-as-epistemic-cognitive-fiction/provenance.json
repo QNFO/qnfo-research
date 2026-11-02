@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "time-as-epistemic-cognitive-fiction",
+  "paper": {
+    "path": "papers/time-as-epistemic-cognitive-fiction/paper.md",
+    "title": "Time as Epistemic Cognitive Fiction",
+    "url": "https://papers.qnfo.org/papers/time-as-epistemic-cognitive-fiction"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "time-as-epistemic-cognitive-fiction"
+  },
+  "snapshots": [
+    {
+      "sha256": "7c2cb75de8f9f705ce38b77c34e37315bc208e1ebe8de6f85dd65491dba2b720",
+      "bytes": 272599,
+      "recorded_at": "2026-11-02",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
