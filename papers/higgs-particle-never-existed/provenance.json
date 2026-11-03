@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "higgs-particle-never-existed",
+  "paper": {
+    "path": "papers/higgs-particle-never-existed/paper.md",
+    "title": "Higgs Particle Never Existed",
+    "url": "https://papers.qnfo.org/papers/higgs-particle-never-existed"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "higgs-particle-never-existed"
+  },
+  "snapshots": [
+    {
+      "sha256": "8fa9bf717f16c0113170597712bbc613d32e932c07c0cfbd8ea53444667395af",
+      "bytes": 38448,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

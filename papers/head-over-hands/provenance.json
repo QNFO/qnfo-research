@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "head-over-hands",
+  "paper": {
+    "path": "papers/head-over-hands/paper.md",
+    "title": "Head Over Hands",
+    "url": "https://papers.qnfo.org/papers/head-over-hands"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "head-over-hands"
+  },
+  "snapshots": [
+    {
+      "sha256": "4bf01ecc3589f54e7fd3865871d8436f0ca4a7c8b34b33e908d37c8ac27a665c",
+      "bytes": 42564,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

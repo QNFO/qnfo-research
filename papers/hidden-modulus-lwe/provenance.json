@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hidden-modulus-lwe",
+  "paper": {
+    "path": "papers/hidden-modulus-lwe/paper.md",
+    "title": "HM-LWE v3.0",
+    "url": "https://papers.qnfo.org/papers/hidden-modulus-lwe"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hidden-modulus-lwe"
+  },
+  "snapshots": [
+    {
+      "sha256": "b934c497b9380b4a7edf054557087ced3279ca61063200e725e2deca723215bf",
+      "bytes": 31882,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "3.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
