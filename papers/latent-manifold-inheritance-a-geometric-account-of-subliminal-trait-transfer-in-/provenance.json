@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "latent-manifold-inheritance-a-geometric-account-of-subliminal-trait-transfer-in-",
+  "paper": {
+    "path": "papers/latent-manifold-inheritance-a-geometric-account-of-subliminal-trait-transfer-in-/paper.md",
+    "title": "Latent Manifold Inheritance: A Geometric Account of Subliminal Trait Transfer in Fine-Tuned Language Models",
+    "url": "https://papers.qnfo.org/papers/latent-manifold-inheritance-a-geometric-account-of-subliminal-trait-transfer-in-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-435/latent-manifold-inheritance-a-geometric-account-of-subliminal-trait-transfer-in-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f03c7daeab6bcab237e6eabc27d2532dbf4aa77f61efe6c62c5ab423c7814fb8"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "e12ae7e4-d808-437d-bdb4-5f4ddf61673b"
+    ],
+    "living_paper_slug": "latent-manifold-inheritance-a-geometric-account-of-subliminal-trait-transfer-in-"
+  },
+  "snapshots": [
+    {
+      "sha256": "6c5afe1444532ef5047a4823e39774fc54eef197d29c49d2c4f772529ef512e4",
+      "bytes": 49209,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

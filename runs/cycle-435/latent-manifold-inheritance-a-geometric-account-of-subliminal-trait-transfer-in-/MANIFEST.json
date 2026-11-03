@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "e12ae7e4-d808-437d-bdb4-5f4ddf61673b",
+    "slug": "latent-manifold-inheritance-a-geometric-account-of-subliminal-trait-transfer-in-",
+    "cycle": "cycle-435",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-03T08:11:13.980Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "6c5afe1444532ef5047a4823e39774fc54eef197d29c49d2c4f772529ef512e4",
+    "bytes": 49209,
+    "path": "papers/latent-manifold-inheritance-a-geometric-account-of-subliminal-trait-transfer-in-/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "1d7600ad83350129afee5d4618e7ee0b20c5f39694bf9254416d7d286f667930",
+      "bytes": 52826,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "6c5afe1444532ef5047a4823e39774fc54eef197d29c49d2c4f772529ef512e4",
+      "bytes": 49209,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "9f353b7365ab846d08509a58c03b83cbb452d69e50824e841ed701fe3bb99dc5",
+      "bytes": 3348,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "bb78a171f8316af3a320265128b4ed5870bb054a2c0082fb3afa1f9658708749",
+      "bytes": 48,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "b9dd43645b0866a68f1e71b19e636f3dcf7109dff207679eff59b5910f611ea3",
+      "bytes": 11531,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "b4ab5a945d4f9702ec76b2f6fd25d7efede3a94080bf0cbeb95c536a4d23089a",
+      "bytes": 6929,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "f7c16d056bdd61b26f63c92d4fa75ae02b521121e67262fde4ad603c2a9c69bf",
+      "bytes": 20741,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "256430607d3c78aa610c216948ed027928a2f55a5c3cd110390291c2b1c5b1a3",
+      "bytes": 29206,
+      "role": "draft"
+    }
+  }
+}
