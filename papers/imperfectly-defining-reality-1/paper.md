@@ -1,8 +1,8 @@
 ---
 modified: 2025-06-21T03:24:20Z
 ---
-## (Imperfectly) Defining Reality
-***Our Human Quest to Construct Reality from Science***
+
+# (Imperfectly) Defining Reality: Our Human Quest to Construct Reality from Science
 
 *Rowan Brad Quni, QNFO*
 
@@ -33,4 +33,3 @@ Taken together, these prior works supply the two poles of the present argument: 
 ## Changelog
 
 - v1.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.
-

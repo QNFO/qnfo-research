@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "infomatics-v1",
+  "paper": {
+    "path": "papers/infomatics-v1/paper.md",
+    "title": "Infomatics: An Axiomatic Framework for Information as Fundamental Substrate",
+    "url": "https://papers.qnfo.org/papers/infomatics-v1"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "infomatics-v1"
+  },
+  "snapshots": [
+    {
+      "sha256": "8f39fcd8851f5238b8ef341037901e8ffddbd01013f18d1dec5983fbbbf8276f",
+      "bytes": 30843,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

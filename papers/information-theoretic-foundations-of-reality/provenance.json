@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "information-theoretic-foundations-of-reality",
+  "paper": {
+    "path": "papers/information-theoretic-foundations-of-reality/paper.md",
+    "title": "Information-Theoretic Scale Management",
+    "url": "https://papers.qnfo.org/papers/information-theoretic-foundations-of-reality"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "information-theoretic-foundations-of-reality"
+  },
+  "snapshots": [
+    {
+      "sha256": "bdfdcedbd6942b08c4b351dc3c9460ee151e88ddfadc14f76d69fc29bb8215fc",
+      "bytes": 49764,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
