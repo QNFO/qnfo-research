@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "finite-precision-oc-convergence",
+  "paper": {
+    "path": "papers/finite-precision-oc-convergence/paper.md",
+    "title": "Finite Specification, Ontological Indeterminism: The Gisin–Del Santo Program Converges with Autaxys Ontological Closure",
+    "url": "https://papers.qnfo.org/papers/finite-precision-oc-convergence"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "finite-precision-oc-convergence"
+  },
+  "snapshots": [
+    {
+      "sha256": "557f4a215d1a19528447a0e3a05b490f7166a489fa96e6fcebcff465157da9d4",
+      "bytes": 31248,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

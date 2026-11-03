@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "finite-distinction-quantum-mechanics",
+  "paper": {
+    "path": "papers/finite-distinction-quantum-mechanics/paper.md",
+    "title": "Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics",
+    "url": "https://papers.qnfo.org/papers/finite-distinction-quantum-mechanics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "finite-distinction-quantum-mechanics"
+  },
+  "snapshots": [
+    {
+      "sha256": "bbc26cc41825640b39e700bcb211d3e5ba08d937ca5eef9ba5a7ea2dfaf3dbaf",
+      "bytes": 30677,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

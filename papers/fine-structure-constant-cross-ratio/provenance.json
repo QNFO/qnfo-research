@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "fine-structure-constant-cross-ratio",
+  "paper": {
+    "path": "papers/fine-structure-constant-cross-ratio/paper.md",
+    "title": "Fine-Structure Constant as a Cross-Ratio: A Geometric Reframing of α",
+    "url": "https://papers.qnfo.org/papers/fine-structure-constant-cross-ratio"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "fine-structure-constant-cross-ratio"
+  },
+  "snapshots": [
+    {
+      "sha256": "4aa8506a92075257b0e6af1f2c0c9bcf726cd89a66e6b2b7e184f9edbebcc24d",
+      "bytes": 30345,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "0.8",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

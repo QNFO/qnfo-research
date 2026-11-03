@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "fft-computational-langlands",
+  "paper": {
+    "path": "papers/fft-computational-langlands/paper.md",
+    "title": "Harmonic Analysis is Langlands — The Fast Fourier Transform as the Computational Langlands Correspondence for GL(1)",
+    "url": "https://papers.qnfo.org/papers/fft-computational-langlands"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "fft-computational-langlands"
+  },
+  "snapshots": [
+    {
+      "sha256": "90a167b9231636b6be9aa15940fe211c222378e62c3c4f3f519d78a69f6d4e5d",
+      "bytes": 26736,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "2.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
