@@ -1,10 +1,10 @@
 # Monna‑Map Projection of Ultrametric Thought as a Geometric Explanation for Hallucination in Large Language Models
 
 ## Abstract
+
 Large language models (LLMs) frequently generate hallucinations—statements that are unsupported by the underlying knowledge base. Existing accounts attribute this to data noise or insufficient training, but they do not explain why certain content is systematically lost. We propose that token generation implements a Monna‑map‑like projection from a hierarchical (ultrametric) embedding space onto a linear token stream, and that hallucinations are the inevitable information loss of this many‑to‑one, order‑reversing flattening. Building on the strong triangle inequality of ultrametrics [1] and on empirical observations of hallucination in vision‑LLMs [2], we derive a quantitative relationship between tree depth, truncation of $p$‑adic digits, and the fraction of detail lost. Using the combinatorial counts of ultrametric‑respecting triangles reported for text corpora [6] we compute the proportion of hierarchical relationships that survive a depth‑limited projection. We also show that a 50 % reduction in hallucination reported for a phase‑wise self‑reward method [5] corresponds to a halving of the effective depth of the projection. Our result predicts that deeper hierarchical representations will exhibit higher hallucination rates, and that any architecture that reduces the effective depth of the Monna projection will mitigate hallucination. This geometric account is testable by measuring ultrametric structure in model embeddings and correlating depth‑dependent information loss with hallucination frequency.
 
-## 1. Introduction
-Enterprises that deploy conversational agents—customer‑service chatbots, medical‑advice assistants, and autonomous planning systems—face costly failures when the agents produce hallucinated statements. In a recent deployment, a financial‑services chatbot generated a fictitious regulatory requirement, leading to a compliance audit with significant operational impact and delayed product rollout. The root cause was not a lack of training data but the model’s inability to faithfully convey fine‑grained details that reside deep in its internal hierarchical knowledge representation. If we could predict which content will be lost during generation, designers could adjust decoding strategies, model architectures, or post‑processing pipelines to avoid costly errors.
+## 1. Introduction Enterprises that deploy conversational agents—customer‑service chatbots, medical‑advice assistants, and autonomous planning systems—face costly failures when the agents produce hallucinated statements. In a recent deployment, a financial‑services chatbot generated a fictitious regulatory requirement, leading to a compliance audit with significant operational impact and delayed product rollout. The root cause was not a lack of training data but the model’s inability to faithfully convey fine‑grained details that reside deep in its internal hierarchical knowledge representation. If we could predict which content will be lost during generation, designers could adjust decoding strategies, model architectures, or post‑processing pipelines to avoid costly errors.
 
 The “so what?” is clear: a principled geometric theory of hallucination would enable **(i)** diagnostic tools that flag high‑risk generations, **(ii)** architectural modifications that preserve deep‑tree information, and **(iii)** quantitative benchmarks that measure the effectiveness of mitigation strategies. Our contributions are:
 
@@ -15,8 +15,7 @@ The “so what?” is clear: a principled geometric theory of hallucination woul
 5. **Empirical connection** – We show that the 50 % hallucination reduction reported for phase‑wise self‑reward [5] corresponds to halving the effective loss fraction $1-\rho$, supporting the geometric hypothesis.  
 6. **Testable predictions** – We outline concrete experiments to measure ultrametric organization in LLM embeddings and to correlate depth‑dependent loss with hallucination frequency (Section 7).
 
-## 2. Background and Related Work
-The strong triangle inequality characterizes ultrametrics: for any three points $x,y,z$ in a set $X$, the distance satisfies $d(x,y)\leq\max\{d(x,z),d(z,y)\}$ [1]. This property yields hierarchical clustering where all triangles are isosceles, a structure that has been proposed as a natural model of mental organization [3].
+## 2. Background and Related Work The strong triangle inequality characterizes ultrametrics: for any three points $x,y,z$ in a set $X$, the distance satisfies $d(x,y)\leq\max\{d(x,z),d(z,y)\}$ [1]. This property yields hierarchical clustering where all triangles are isosceles, a structure that has been proposed as a natural model of mental organization [3].
 
 Hallucinations in multimodal models have been documented extensively. Large Vision‑Language Models (LVLMs) suffer from hallucinations due to limited training data, over‑reliance on language priors, and a “yes‑bias” that leads to fabricated visual details [2]. Pelican mitigates hallucination by decomposing visual claims into sub‑claims, but it does not address the underlying geometric cause of information loss.
 
@@ -82,9 +81,7 @@ Step‑by‑step arithmetic:
 
 Thus $N_{\text{triples}} = 1.331334\times10^{9}$.
 
-### 4.2. Survival Fraction for a Shallow Tree ($D=5$, $k=2$)
-Assume a binary tree ($p=2$) of depth $D=5$ and retain $k=2$ most‑significant digits.  
-Depth‑retention ratio: $\rho = k/D = 2/5 = 0.4$, information‑loss fraction $1-\rho = 0.6$.
+### 4.2. Survival Fraction for a Shallow Tree ($D=5$, $k=2$) Assume a binary tree ($p=2$) of depth $D=5$ and retain $k=2$ most‑significant digits. Depth‑retention ratio: $\rho = k/D = 2/5 = 0.4$, information‑loss fraction $1-\rho = 0.6$.
 
 Number of distinct leaf groups after truncation:
 \[
@@ -104,8 +101,7 @@ f_{\text{survive}} = 0.015625 \times 0.6 = 0.009375.
 \]
 Expressed as a percentage, $f_{\text{survive}} = 0.9375\% \approx \mathbf{0.94\%}$ of ultrametric‑respecting triples survive the projection.
 
-### 4.3. Survival Fraction for a Deep Tree ($L=20$, $k=10$)
-Assume a binary tree ($b=p=2$) of depth $L=20$ with $k=10$ retained digits.
+### 4.3. Survival Fraction for a Deep Tree ($L=20$, $k=10$) Assume a binary tree ($b=p=2$) of depth $L=20$ with $k=10$ retained digits.
 
 Number of source configurations:
 \[
@@ -168,8 +164,7 @@ All numbers are derived from explicit arithmetic (Section 4) or are labeled pr
 - **Uniform depth vs. geometric depth.** The uniform‑source analysis (Section 4.3) ignores the empirically observed depth distribution of facts; Section 4.4 addresses this with a geometric model, but the parameter $q$ is assumed.  
 - **Neglect of decoder dynamics.** The analysis abstracts away from attention, temperature, and beam search, which also influence hallucination.  
 
-### 6.2. Failure Modes and Falsification
-If empirical measurements of ultrametric structure in LLM embeddings reveal that the proportion of hierarchical relationships surviving a depth‑limited projection **does not** correlate with hallucination rates, the core claim is falsified. Concretely, observing a high hallucination rate while $\rho>0.9$ (i.e., $1-\rho<0.1$) would contradict the linear scaling hypothesis.
+### 6.2. Failure Modes and Falsification If empirical measurements of ultrametric structure in LLM embeddings reveal that the proportion of hierarchical relationships surviving a depth‑limited projection **does not** correlate with hallucination rates, the core claim is falsified. Concretely, observing a high hallucination rate while $\rho>0.9$ (i.e., $1-\rho<0.1$) would contradict the linear scaling hypothesis.
 
 ### 6.3. Open Questions
 - How does the branching factor $p$ vary across layers and modalities?  
@@ -182,8 +177,7 @@ If empirical measurements of ultrametric structure in LLM embeddings reveal that
 - **Prompt engineers** may structure prompts to surface higher‑level concepts early, effectively increasing the retained digit budget $k$ for critical information.  
 - **Evaluation teams** can incorporate ultrametric‑structure analyses of hidden states to predict hallucination risk for new model releases.
 
-### 7.2. Technology Readiness
-The work is purely analytical and has not undergone peer review; it therefore resides at **TRL 1–2**. No hardware or software implementation has been demonstrated.
+### 7.2. Technology Readiness The work is purely analytical and has not undergone peer review; it therefore resides at **TRL 1–2**. No hardware or software implementation has been demonstrated.
 
 ### 7.3. Minimal Next Experiment
 A pilot study would:
@@ -197,14 +191,11 @@ The hypothesis is falsified if hallucination rates do not decrease monotonically
 - **Compute:** Computing ultrametric dendrograms for large vocabularies is $O(N\log N)$ and feasible on modern GPUs.  
 - **Data:** No additional training data are required; the experiment operates at inference time.
 
-### 7.5. Projected Cost and Performance Bounds
-Assuming a binary tree ($p=2$) of depth $D=5$, increasing $k$ from 2 to 4 reduces the information‑loss fraction from $0.6$ to $0.2$, predicting an **$\approx$ 66.7 %** reduction in hallucination (projection based on the linear scaling model). This estimate follows directly from the formulas in Sections 4.2 and 4.3.
+### 7.5. Projected Cost and Performance Bounds Assuming a binary tree ($p=2$) of depth $D=5$, increasing $k$ from 2 to 4 reduces the information‑loss fraction from $0.6$ to $0.2$, predicting an **$\approx$ 66.7 %** reduction in hallucination (projection based on the linear scaling model). This estimate follows directly from the formulas in Sections 4.2 and 4.3.
 
-### 7.6. Risks and Misuse
-If practitioners treat the depth‑retention metric as a substitute for thorough safety evaluation, they may overlook other hallucination sources and deploy models with hidden failure modes. Proper validation must accompany any architectural change inspired by this theory.
+### 7.6. Risks and Misuse If practitioners treat the depth‑retention metric as a substitute for thorough safety evaluation, they may overlook other hallucination sources and deploy models with hidden failure modes. Proper validation must accompany any architectural change inspired by this theory.
 
-## 8. Conclusion
-We have presented a geometric theory that models LLM token generation as a Monna‑map projection from an ultrametric knowledge tree onto a linear token stream. By deriving explicit formulas for information loss as a function of retained $p$‑adic digits, and by grounding these formulas in combinatorial counts of ultrametric‑respecting triples from empirical text analyses, we obtain a quantitative predictor of hallucination rates. The alignment of our predictions with a reported 50 % hallucination reduction in a phase‑wise self‑reward system provides preliminary empirical support. Future work should empirically validate the depth‑retention metric across diverse models and explore training objectives that directly maximize $\rho$.
+## 8. Conclusion We have presented a geometric theory that models LLM token generation as a Monna‑map projection from an ultrametric knowledge tree onto a linear token stream. By deriving explicit formulas for information loss as a function of retained $p$‑adic digits, and by grounding these formulas in combinatorial counts of ultrametric‑respecting triples from empirical text analyses, we obtain a quantitative predictor of hallucination rates. The alignment of our predictions with a reported 50 % hallucination reduction in a phase‑wise self‑reward system provides preliminary empirical support. Future work should empirically validate the depth‑retention metric across diverse models and explore training objectives that directly maximize $\rho$.
 
 ## Provenance and AI Involvement
 

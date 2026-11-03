@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "nature-of-zitterbewegung",
+  "paper": {
+    "path": "papers/nature-of-zitterbewegung/paper.md",
+    "title": "Nature of Zitterbewegung",
+    "url": "https://papers.qnfo.org/papers/nature-of-zitterbewegung"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "nature-of-zitterbewegung"
+  },
+  "snapshots": [
+    {
+      "sha256": "80e5c291acd30783da0ef33221fb80515388fc8766d3d7972c1e3d440d8b4655",
+      "bytes": 46559,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

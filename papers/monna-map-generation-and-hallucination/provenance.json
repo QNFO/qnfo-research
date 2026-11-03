@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "monna-map-generation-and-hallucination",
+  "paper": {
+    "path": "papers/monna-map-generation-and-hallucination/paper.md",
+    "title": "Monna Map Generation and Hallucination",
+    "url": "https://papers.qnfo.org/papers/monna-map-generation-and-hallucination"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "monna-map-generation-and-hallucination"
+  },
+  "snapshots": [
+    {
+      "sha256": "17fb948146f1e1e071b086879300d45d8d35977153637f2ffb7fa6fbe5fa7926",
+      "bytes": 17690,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

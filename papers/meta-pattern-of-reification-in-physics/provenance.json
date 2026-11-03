@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "meta-pattern-of-reification-in-physics",
+  "paper": {
+    "path": "papers/meta-pattern-of-reification-in-physics/paper.md",
+    "title": "Meta-Pattern of Reification in Physics",
+    "url": "https://papers.qnfo.org/papers/meta-pattern-of-reification-in-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "meta-pattern-of-reification-in-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "8137fc00a4f7c5c61e557a57d86f035b43ac5faa7e31814511bd506b3ec5c282",
+      "bytes": 258974,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
