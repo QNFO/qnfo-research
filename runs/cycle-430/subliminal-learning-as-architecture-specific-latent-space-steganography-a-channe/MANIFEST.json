@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "e93dfc75-3ef1-47ed-bd1e-6e8eeb696a51",
+    "slug": "subliminal-learning-as-architecture-specific-latent-space-steganography-a-channe",
+    "cycle": "cycle-430",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-03T02:44:14.358Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "1171089b915dd4aaaf90ff8e4e5f60d24807128bfaf19b6c74f17d95acac3f7e",
+    "bytes": 40438,
+    "path": "papers/subliminal-learning-as-architecture-specific-latent-space-steganography-a-channe/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "89e2d9fe419c42c241120bb0884f145dd03293792322e387cb75f90bb7ffbbf8",
+      "bytes": 46678,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "1171089b915dd4aaaf90ff8e4e5f60d24807128bfaf19b6c74f17d95acac3f7e",
+      "bytes": 40438,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "281cd9dbb3f19b79254f31ca7de634e0299e6be1b484f8a7e24f103a282a2c57",
+      "bytes": 4399,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "0ba63e9689c9ed7a2bcaf15b37255214caa56f6213def9db26613047e1b6ae4f",
+      "bytes": 3278,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "f84ed775e3787d2cbe74fa3d7da16836b44e438ad6ce0de8ff043897c1d73d54",
+      "bytes": 15368,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "3c845f9469d31c8543b6cd7b9d82bc11e9ff8762b4674f0fc895997452640537",
+      "bytes": 7224,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "a5083398718b2210fe47dfb7ad4a55f3231271034489aea69f9459a3dba54c9c",
+      "bytes": 12750,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "1770f12b2f065eb194c76f412427d0c73e191a7113c5c0f27d38094b83603d21",
+      "bytes": 25076,
+      "role": "draft"
+    }
+  }
+}

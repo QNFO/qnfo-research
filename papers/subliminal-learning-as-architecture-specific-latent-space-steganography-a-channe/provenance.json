@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "subliminal-learning-as-architecture-specific-latent-space-steganography-a-channe",
+  "paper": {
+    "path": "papers/subliminal-learning-as-architecture-specific-latent-space-steganography-a-channe/paper.md",
+    "title": "Subliminal Learning as Architecture-Specific Latent-Space Steganography: A Channel Model for Trait Transfer Under Distillation",
+    "url": "https://papers.qnfo.org/papers/subliminal-learning-as-architecture-specific-latent-space-steganography-a-channe"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-430/subliminal-learning-as-architecture-specific-latent-space-steganography-a-channe",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "5bc5933d884be4372148c1e872874367ca56dab156d5387fa14ab9ea37d9f26a"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "e93dfc75-3ef1-47ed-bd1e-6e8eeb696a51"
+    ],
+    "living_paper_slug": "subliminal-learning-as-architecture-specific-latent-space-steganography-a-channe"
+  },
+  "snapshots": [
+    {
+      "sha256": "1171089b915dd4aaaf90ff8e4e5f60d24807128bfaf19b6c74f17d95acac3f7e",
+      "bytes": 40438,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
