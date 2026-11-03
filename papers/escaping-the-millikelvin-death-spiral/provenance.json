@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "escaping-the-millikelvin-death-spiral",
+  "paper": {
+    "path": "papers/escaping-the-millikelvin-death-spiral/paper.md",
+    "title": "Escaping the Millikelvin Death Spiral",
+    "url": "https://papers.qnfo.org/papers/escaping-the-millikelvin-death-spiral"
+  },
+  "declared": {
+    "version": "1.0.2",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "escaping-the-millikelvin-death-spiral"
+  },
+  "snapshots": [
+    {
+      "sha256": "29b59dd033454c88a8e115a5f50518800ec4ab3e8558eab752bf8e9daa0e3246",
+      "bytes": 133924,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

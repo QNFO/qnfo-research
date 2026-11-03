@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "epistemic-noise-as-computational-resource",
+  "paper": {
+    "path": "papers/epistemic-noise-as-computational-resource/paper.md",
+    "title": "Epistemic Noise as Computational Resource",
+    "url": "https://papers.qnfo.org/papers/epistemic-noise-as-computational-resource"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "epistemic-noise-as-computational-resource"
+  },
+  "snapshots": [
+    {
+      "sha256": "77d733db288f5ca10a5b6e5ac4795fa65c42cc048804acb69e3e60dd0f395cc4",
+      "bytes": 80883,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
