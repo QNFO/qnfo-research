@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hydrodynamic-topological-continuum",
+  "paper": {
+    "path": "papers/hydrodynamic-topological-continuum/paper.md",
+    "title": "Hydrodynamic-Topological Continuum",
+    "url": "https://papers.qnfo.org/papers/hydrodynamic-topological-continuum"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hydrodynamic-topological-continuum"
+  },
+  "snapshots": [
+    {
+      "sha256": "07aa364c76db2b8a95a2110f35e4e4fc7511ed2a0c70e2dd1ace8e0a35bb8288",
+      "bytes": 73710,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

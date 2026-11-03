@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hydrodynamic-gating-of-nuclear-spin-coherence",
+  "paper": {
+    "path": "papers/hydrodynamic-gating-of-nuclear-spin-coherence/paper.md",
+    "title": "Hydrodynamic Gating of Nuclear Spin Coherence v2",
+    "url": "https://papers.qnfo.org/papers/hydrodynamic-gating-of-nuclear-spin-coherence"
+  },
+  "declared": {
+    "version": "2.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hydrodynamic-gating-of-nuclear-spin-coherence"
+  },
+  "snapshots": [
+    {
+      "sha256": "3d69b099098476c4dd41d227f4d91aa9cebda4f0809a2228e8f26209998e4eae",
+      "bytes": 57998,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

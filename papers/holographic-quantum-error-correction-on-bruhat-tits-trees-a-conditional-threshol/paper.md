@@ -4,8 +4,7 @@
 
 The holographic quantum error‑correction (QEC) architecture that implements encoding as a renormalization‑group (RG) flow on a Bruhat–Tits tree $\mathcal{T}_p$ claims a physical error‑rate threshold $\epsilon_{th}\ge10^{-4}$. No hardware data accompany the proposal, so we construct a fully explicit conditional model: (i) independent site errors on a regular tree of valency $q=p+1$, (ii) a concatenation‑style logical‑error law $\epsilon_L=A(\epsilon/\epsilon_{th})^{(d+1)/2}$ with $A=1$, (iii) a reliability target $P_{fail}\le0.01$ over $T=10^{9}$ correction cycles at a cycle rate $f_c=10^{6}\,\mathrm{s^{-1}}$. Solving the model yields (a) zero logical protection at $\epsilon=\epsilon_{th}=10^{-4}$, (b) a distance $d\ge21$ code sufficient at $\epsilon=10^{-5}$, requiring $88{,}573$ physical sites per logical qubit and a measurement bandwidth of $8.8573\times10^{10}\,\mathrm{s^{-1}}$, (c) a shallow $d=11$ code viable only if $\epsilon\le1.4678\times10^{-6}$, and (d) an exponential resource explosion when operating at $\epsilon=5\times10^{-5}$. An alternative quadratic‑map convention shows the threshold equals $1/\kappa$, so the $10^{-4}$ target holds iff $\kappa\le10^{4}$. The analysis demonstrates internal consistency of the threshold claim but reveals extreme resource demands; the claim’s fate hinges on measurable quantities $\kappa$, $A$, and error correlations that the original proposal does not provide.
 
-## 1. Introduction
-Quantum computers must protect fragile quantum information against physical errors; the cost of that protection determines whether a design can be deployed in practice. Current hardware platforms typically support at most a few hundred high‑fidelity qubits, while fault‑tolerant architectures often require orders of magnitude more physical qubits and continuous syndrome measurement. The holographic QEC architecture of [9] proposes to encode logical information by an RG flow on a $p$‑adic Bruhat–Tits tree $\mathcal{T}_p$, and it asserts a physical error‑rate threshold $\epsilon_{th}\ge10^{-4}$. If the claim holds, a modest physical error rate of $10^{-5}$ would suffice to achieve a logical failure probability below $1\%$ over $10^{9}$ cycles, potentially enabling medium‑scale quantum algorithms with far fewer resources than conventional surface‑code stacks. Conversely, if the threshold is unattainable, the architecture would demand prohibitive qubit counts and measurement bandwidths, rendering it impractical for near‑term devices.
+## 1. Introduction Quantum computers must protect fragile quantum information against physical errors; the cost of that protection determines whether a design can be deployed in practice. Current hardware platforms typically support at most a few hundred high‑fidelity qubits, while fault‑tolerant architectures often require orders of magnitude more physical qubits and continuous syndrome measurement. The holographic QEC architecture of [9] proposes to encode logical information by an RG flow on a $p$‑adic Bruhat–Tits tree $\mathcal{T}_p$, and it asserts a physical error‑rate threshold $\epsilon_{th}\ge10^{-4}$. If the claim holds, a modest physical error rate of $10^{-5}$ would suffice to achieve a logical failure probability below $1\%$ over $10^{9}$ cycles, potentially enabling medium‑scale quantum algorithms with far fewer resources than conventional surface‑code stacks. Conversely, if the threshold is unattainable, the architecture would demand prohibitive qubit counts and measurement bandwidths, rendering it impractical for near‑term devices.
 
 **Contributions.**
 - **C1.** Derivation that at $\epsilon=\epsilon_{th}=10^{-4}$ the logical error per cycle equals $1$, i.e. no protection (Section 4.1).
@@ -15,8 +14,7 @@ Quantum computers must protect fragile quantum information against physical erro
 - **C5.** Resource explosion for $\epsilon=5\times10^{-5}$: $d\ge73$, $N_{\text{phys}}\approx2.25\times10^{17}$, $B\approx2.25\times10^{23}\,\mathrm{s^{-1}}$ (Section 4.6).
 - **C6.** Alternative quadratic‑map analysis showing $\epsilon_{th}=1/\kappa$ and the condition $\kappa\le10^{4}$ (Section 4.8).
 
-## 2. Background and Related Work
-We cite eight works and extract a specific point from each.
+## 2. Background and Related Work We cite eight works and extract a specific point from each.
 
 **[9]** defines the holographic QEC proposal as an RG flow on a Bruhat–Tits tree and states that the analysis is *conditional* at a threshold $10^{-4}$.
 
@@ -36,8 +34,7 @@ We cite eight works and extract a specific point from each.
 
 ## 3. Methods
 
-### 3.1 Convention 1 (primary): distance‑based conditional model
-Assumptions (A1)–(A7) are listed in the main text and reproduced here for completeness:
+### 3.1 Convention 1 (primary): distance‑based conditional model Assumptions (A1)–(A7) are listed in the main text and reproduced here for completeness:
 
 - **(A1)** Independent site errors with physical error rate $\epsilon$ per correction cycle.
 - **(A2)** Logical error law $\displaystyle \epsilon_L(d,\epsilon)=A\Bigl(\frac{\epsilon}{\epsilon_{th}}\Bigr)^{(d+1)/2}$ with $A=1$.
@@ -70,18 +67,15 @@ $$
 d\ge2\,\frac{\ln\!\bigl(0.01/(TA)\bigr)}{\ln\!\bigl(\epsilon/\epsilon_{th}\bigr)}-1 .
 $$
 
-### 3.5 Convention 2 (complementary): quadratic RG map
-We also consider the recursion $p_{\ell+1}=\kappa\,p_{\ell}^{\,2}$ with constant amplification $\kappa>0$. Fixed points satisfy $p^{*}=0$ and $p^{*}=1/\kappa$, so the threshold equals $\epsilon_{th}=1/\kappa$.
+### 3.5 Convention 2 (complementary): quadratic RG map We also consider the recursion $p_{\ell+1}=\kappa\,p_{\ell}^{\,2}$ with constant amplification $\kappa>0$. Fixed points satisfy $p^{*}=0$ and $p^{*}=1/\kappa$, so the threshold equals $\epsilon_{th}=1/\kappa$.
 
-## 4. Analysis
-All inputs are labelled with their provenance.
+## 4. Analysis All inputs are labelled with their provenance.
 
 **Input 1.** $\epsilon_{th}^{(0)}=10^{-4}$ (A3).
 **Input 2.** $\epsilon=10^{-5}$ (assumed operating point).
 **Input 3.** $T=10^{9}$ (A5), $P_{fail}\le0.01$ (A4), $A=1$ (A2), $q=3$ (A7), $f_c=10^{6}\,\mathrm{s^{-1}}$ (A6).
 
-### 4.1 No protection at the threshold
-Setting $\epsilon=\epsilon_{th}^{(0)}$ gives $\epsilon/\epsilon_{th}=1$ and thus $\epsilon_L=A\cdot1^{(d+1)/2}=1$. Logical failure per cycle equals $1$, i.e. the encoded state is destroyed every cycle.
+### 4.1 No protection at the threshold Setting $\epsilon=\epsilon_{th}^{(0)}$ gives $\epsilon/\epsilon_{th}=1$ and thus $\epsilon_L=A\cdot1^{(d+1)/2}=1$. Logical failure per cycle equals $1$, i.e. the encoded state is destroyed every cycle.
 
 ### 4.2 Required distance at $\epsilon=10^{-5}$
 \[
@@ -130,14 +124,11 @@ V_{3}(36)=1+3\frac{3^{36}-1}{2}
 B=V_{3}(36)\,f_c\approx2.2514\times10^{23}\,\mathrm{s^{-1}} .
 \]
 
-### 4.7 Consistency of conventions
-Convention 2 yields $p_{\ell}= \kappa^{2^{\ell}-1}p_{0}^{\,2^{\ell}}$, reproducing the exponential suppression of errors with depth. The two conventions are not quantitatively equivalent; we use Convention 1 for all concrete resource numbers.
+### 4.7 Consistency of conventions Convention 2 yields $p_{\ell}= \kappa^{2^{\ell}-1}p_{0}^{\,2^{\ell}}$, reproducing the exponential suppression of errors with depth. The two conventions are not quantitatively equivalent; we use Convention 1 for all concrete resource numbers.
 
-### 4.8 Threshold as unstable fixed point
-Solving $p^{*}=\kappa(p^{*})^{2}$ gives $p^{*}=1/\kappa$. Identifying $p_{0}\sim\epsilon$ leads to $\epsilon_{th}=1/\kappa$, so the $10^{-4}$ target holds iff $\kappa\le10^{4}$.
+### 4.8 Threshold as unstable fixed point Solving $p^{*}=\kappa(p^{*})^{2}$ gives $p^{*}=1/\kappa$. Identifying $p_{0}\sim\epsilon$ leads to $\epsilon_{th}=1/\kappa$, so the $10^{-4}$ target holds iff $\kappa\le10^{4}$.
 
-## 5. Results
-All numbers derive from Section 4.
+## 5. Results All numbers derive from Section 4.
 
 - **R1.** At $\epsilon=\epsilon_{th}^{(0)}$ logical error per cycle $\epsilon_L=1$ (zero protection).
 - **R2.** At $\epsilon=10^{-5}$ the reliability target requires $d\ge21$ ($R=10$).
@@ -194,8 +185,7 @@ Assuming a unit cost of \$1 per physical qubit (engineering projection) and a 
 **(f) Risks and misuse paths.**
 If designers accept the $10^{-4}$ threshold without experimentally confirming $\kappa$ or the independence of errors, they may allocate billions of dollars to a qubit fabric that cannot meet the reliability target, leading to catastrophic resource waste. Moreover, the extreme measurement bandwidth required at marginal error rates could drive the deployment of ultra‑high‑speed readout channels that lack adequate side‑channel shielding, opening avenues for information leakage attacks. Careful validation of the underlying assumptions before large‑scale investment is therefore essential.
 
-## 9. Conclusion
-We presented a fully explicit conditional analysis of the holographic QEC architecture that encodes via RG flow on a Bruhat–Tits tree. The analysis shows that exactly at the claimed threshold $\epsilon_{th}=10^{-4}$ there is no logical protection; achieving a $1\%$ failure probability over $10^{9}$ cycles at $\epsilon=10^{-5}$ requires a distance‑21 code with $88{,}573$ physical sites and a measurement bandwidth of $8.8573\times10^{10}$ events s\(^{-1}\) per logical qubit. A shallow $d=11$ code would need an error rate $≈1.5\times10^{-6}$. Operating at half the threshold inflates the required qubit count to $≈2.25\times10^{17}$, demonstrating the extreme sensitivity of resource demands to the error margin. In the quadratic‑map view, the threshold condition reduces to $\kappa\le10^{4}$. The threshold hypothesis is mathematically consistent but practically demanding; its ultimate validity depends on measurable parameters ($\kappa$, $A$, error correlations) that are not supplied by the original proposal.
+## 9. Conclusion We presented a fully explicit conditional analysis of the holographic QEC architecture that encodes via RG flow on a Bruhat–Tits tree. The analysis shows that exactly at the claimed threshold $\epsilon_{th}=10^{-4}$ there is no logical protection; achieving a $1\%$ failure probability over $10^{9}$ cycles at $\epsilon=10^{-5}$ requires a distance‑21 code with $88{,}573$ physical sites and a measurement bandwidth of $8.8573\times10^{10}$ events s\(^{-1}\) per logical qubit. A shallow $d=11$ code would need an error rate $≈1.5\times10^{-6}$. Operating at half the threshold inflates the required qubit count to $≈2.25\times10^{17}$, demonstrating the extreme sensitivity of resource demands to the error margin. In the quadratic‑map view, the threshold condition reduces to $\kappa\le10^{4}$. The threshold hypothesis is mathematically consistent but practically demanding; its ultimate validity depends on measurable parameters ($\kappa$, $A$, error correlations) that are not supplied by the original proposal.
 
 ## Provenance and AI Involvement
 

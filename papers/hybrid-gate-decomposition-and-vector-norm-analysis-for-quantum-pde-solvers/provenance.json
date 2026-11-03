@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hybrid-gate-decomposition-and-vector-norm-analysis-for-quantum-pde-solvers",
+  "paper": {
+    "path": "papers/hybrid-gate-decomposition-and-vector-norm-analysis-for-quantum-pde-solvers/paper.md",
+    "title": "Hybrid Gate Decomposition and Vector-Norm Analysis for Quantum PDE Solvers",
+    "url": "https://papers.qnfo.org/papers/hybrid-gate-decomposition-and-vector-norm-analysis-for-quantum-pde-solvers"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hybrid-gate-decomposition-and-vector-norm-analysis-for-quantum-pde-solvers"
+  },
+  "snapshots": [
+    {
+      "sha256": "279ad3a9eaabab97bfabc66fe3cd52985e1a44ae6270401f86ad7aa389bc7897",
+      "bytes": 60384,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
