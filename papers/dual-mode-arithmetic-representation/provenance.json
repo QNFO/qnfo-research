@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "dual-mode-arithmetic-representation",
+  "paper": {
+    "path": "papers/dual-mode-arithmetic-representation/paper.md",
+    "title": "Dual-Mode Arithmetic Representation",
+    "url": "https://papers.qnfo.org/papers/dual-mode-arithmetic-representation"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "dual-mode-arithmetic-representation"
+  },
+  "snapshots": [
+    {
+      "sha256": "157f0f74499f24cda2d5cbc4f8c8665528cdf6d82e09e88822f12fb67abe9e73",
+      "bytes": 38361,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

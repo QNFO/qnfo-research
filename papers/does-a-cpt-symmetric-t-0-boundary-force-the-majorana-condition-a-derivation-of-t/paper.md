@@ -1,10 +1,10 @@
 # Does a CPT‑Symmetric $t=0$ Boundary Force the Majorana Condition? A Derivation of the Cross‑Sheet Conjugation Constraint
 
 ## Abstract
+
 Neutrinoless double‑beta decay experiments invest tonne‑scale resources to test whether neutrinos are Majorana particles, a question that currently lacks a dynamical explanation. A proposed dynamical origin is a CPT‑symmetric cosmological boundary at $t=0$ that might enforce the Majorana reality condition $\psi=\psi^{c}$. We formalize the $t=0$ CPT boundary as a constraint on the spinor bundle and derive the most general local, gauge‑invariant boundary condition compatible with CPT invariance. The derivation shows that CPT invariance forces only a cross‑sheet (or antipodal‑point) charge‑conjugation relation $\psi_{+}(0,\mathbf{x})=\eta\,B\,\psi_{-}^{c}(0,\mathbf{x})$ with $|\eta|=1$, never a pointwise Majorana condition. Imposing $\psi=\psi^{c}$ would require every constrained field to carry zero $U(1)$ charge; counting the Standard Model Weyl fields shows that $14/15\approx93.3\%$ of fermionic degrees of freedom per generation would be forced neutral, contradicting observation. Consequently, the boundary condition reduces to the standard Majorana‑neutrino hypothesis for neutral fields only. This result removes the expectation that a cosmological boundary could make neutrinoless double‑beta decay mandatory, preserving the experimental program’s discriminating role.
 
-## 1. Introduction
-The Majorana Demonstrator and related tonne‑scale germanium experiments devote $\approx40\,$kg of $^{76}$Ge detectors to search for neutrinoless double‑beta decay, targeting a background of $4$ counts per tonne‑year in a $4\,$keV region of interest around the $2039\,$keV $Q$‑value and a Majorana‑neutrino mass sensitivity below $50\,$meV [1, 2]. If the decay is observed, it would confirm that neutrinos are their own antiparticles, a property that currently lacks a dynamical origin. A theoretical mechanism that forces the Majorana condition $\psi=\psi^{c}$ from first principles would turn the experimental search into a confirmation exercise, reshaping detector design, exposure planning, and budget allocation. Conversely, if the cosmological boundary condition is too weak to enforce $\psi=\psi^{c}$, the experimental program remains essential for deciding between Majorana and Dirac neutrinos.  
+## 1. Introduction The Majorana Demonstrator and related tonne‑scale germanium experiments devote $\approx40\,$kg of $^{76}$Ge detectors to search for neutrinoless double‑beta decay, targeting a background of $4$ counts per tonne‑year in a $4\,$keV region of interest around the $2039\,$keV $Q$‑value and a Majorana‑neutrino mass sensitivity below $50\,$meV [1, 2]. If the decay is observed, it would confirm that neutrinos are their own antiparticles, a property that currently lacks a dynamical origin. A theoretical mechanism that forces the Majorana condition $\psi=\psi^{c}$ from first principles would turn the experimental search into a confirmation exercise, reshaping detector design, exposure planning, and budget allocation. Conversely, if the cosmological boundary condition is too weak to enforce $\psi=\psi^{c}$, the experimental program remains essential for deciding between Majorana and Dirac neutrinos. 
 
 We ask whether a CPT‑symmetric boundary at the cosmological singularity $t=0$ can derive the pointwise Majorana condition for fermion fields. By treating the boundary as a constraint on the spinor bundle, we derive the most general local, gauge‑invariant boundary condition compatible with CPT invariance and examine its implications for charged and neutral fields.  
 
@@ -14,8 +14,7 @@ We ask whether a CPT‑symmetric boundary at the cosmological singularity $t=0$ 
 3. Numerical cross‑checks linking the abstract constraint to experimental observables: Compton‑scale quantities, $^{76}$Ge isotope count, and projected half‑life sensitivity (Sections 4.4–4.5).  
 4. Assessment of practical implications for neutrino‑mass experiments and cosmological model building (Section 7).
 
-## 2. Background and Related Work
-The Majorana Demonstrator fields $\approx40\,$kg of enriched $^{76}$Ge detectors and aims for a background of $4$ counts per tonne‑year in the $4\,$keV region of interest around the $2039\,$keV $Q$‑value [1]. The program’s technical goal includes achieving an effective Majorana‑neutrino mass sensitivity below $50\,$meV [2], establishing the experimental relevance of confirming the Majorana nature of neutrinos.  
+## 2. Background and Related Work The Majorana Demonstrator fields $\approx40\,$kg of enriched $^{76}$Ge detectors and aims for a background of $4$ counts per tonne‑year in the $4\,$keV region of interest around the $2039\,$keV $Q$‑value [1]. The program’s technical goal includes achieving an effective Majorana‑neutrino mass sensitivity below $50\,$meV [2], establishing the experimental relevance of confirming the Majorana nature of neutrinos. 
 
 Neutrinoless double‑beta decay can occur only if neutrinos are Majorana particles, thereby violating lepton‑number conservation; this motivates theoretical mechanisms that could naturally produce Majorana fermions. We adopt this as a standard background assumption.  
 
@@ -62,8 +61,7 @@ $$
 $$
 with $|\eta|=1$ and $B$ effecting charge reversal.
 
-### 4.2 Charge counting and incompatibility of a pointwise Majorana condition
-A pointwise Majorana condition $\psi=\psi^{c}$ forces the field to be invariant under charge conjugation, which flips the $U(1)$ charge $q\to -q$. Therefore the condition can hold only for fields with $q=0$.  
+### 4.2 Charge counting and incompatibility of a pointwise Majorana condition A pointwise Majorana condition $\psi=\psi^{c}$ forces the field to be invariant under charge conjugation, which flips the $U(1)$ charge $q\to -q$. Therefore the condition can hold only for fields with $q=0$. 
 
 In the Standard Model each generation contains 15 Weyl fermions: the left‑handed quark doublet $Q_L$ provides $6$ Weyl fields (three colors each of up‑type charge $+\tfrac{2}{3}$ and down‑type charge $-\tfrac{1}{3}$), the right‑handed up‑type singlet $u_R$ adds $3$ Weyl fields of charge $+\tfrac{2}{3}$, the right‑handed down‑type singlet $d_R$ adds $3$ Weyl fields of charge $-\tfrac{1}{3}$, the left‑handed lepton doublet $L_L$ contributes $2$ Weyl fields (a neutral neutrino and a charged lepton of charge $-1$), and the right‑handed charged lepton $e_R$ contributes $1$ Weyl field of charge $-1$. Thus $14$ of the $15$ Weyl fields per generation carry non‑zero charge, i.e. a fraction $14/15\approx93.3\%$. The fraction of fields that would be forced neutral by a pointwise Majorana condition is  
 $$
@@ -73,8 +71,7 @@ Explicit arithmetic: $14\div15=0.933333\ldots$, rounded to one decimal place giv
 
 Since the observed spectrum contains charged fermions, a boundary‑forced pointwise Majorana condition is inconsistent with the Standard Model.
 
-### 4.3 Cross‑sheet versus pointwise condition
-The derived relation $\psi_{+}=\eta\,B\,\psi_{-}^{c}$ pairs fields of opposite charge on opposite sheets (or antipodal points on a single sheet). Dropping the sheet index and the spatial reflection would be required to obtain $\psi=\psi^{c}$, but neither step follows from CPT invariance alone. Hence the boundary condition does **not** impose a pointwise Majorana reality condition.
+### 4.3 Cross‑sheet versus pointwise condition The derived relation $\psi_{+}=\eta\,B\,\psi_{-}^{c}$ pairs fields of opposite charge on opposite sheets (or antipodal points on a single sheet). Dropping the sheet index and the spatial reflection would be required to obtain $\psi=\psi^{c}$, but neither step follows from CPT invariance alone. Hence the boundary condition does **not** impose a pointwise Majorana reality condition.
 
 ### 4.4 Numerical cross‑checks: Compton scale quantities
 The Compton angular frequency of the electron is
@@ -122,16 +119,14 @@ where $\epsilon$ is detection efficiency (assumed $0.8$), $B=4$ counts/(tonne·y
 - **Neglect of gravitational back‑reaction** – The derivation treats the spinor field on a fixed background; coupling to dynamical gravity could introduce extra terms.  
 - **Simplified gauge group** – Only a single $U(1)$ factor is considered. Extensions to non‑abelian gauge groups may affect the charge‑reversal mapping $B$.  
 
-### Falsifiability
-Observation of a charged fermion exhibiting Majorana‑type lepton‑number‑violating processes (e.g., a charged lepton double‑beta decay) would directly falsify the claim that the $t=0$ CPT boundary cannot enforce a pointwise Majorana condition for charged fields. Conversely, a definitive null result in all charged‑lepton lepton‑number‑violation searches, combined with a positive neutrinoless double‑beta decay signal, would be consistent with the derived cross‑sheet constraint.
+### Falsifiability Observation of a charged fermion exhibiting Majorana‑type lepton‑number‑violating processes (e.g., a charged lepton double‑beta decay) would directly falsify the claim that the $t=0$ CPT boundary cannot enforce a pointwise Majorana condition for charged fields. Conversely, a definitive null result in all charged‑lepton lepton‑number‑violation searches, combined with a positive neutrinoless double‑beta decay signal, would be consistent with the derived cross‑sheet constraint.
 
 ### Open Questions
 - How does the cross‑sheet charge‑conjugation relation manifest in cosmological observables such as the cosmic microwave background or relic neutrino background?  
 - Can the Zitterbewegung‑based observable $\langle j^\mu(x) j^\nu(0) \rangle$ proposed in [7, 8] be employed to test the cross‑sheet constraint experimentally?  
 - What are the implications for theories with additional $U(1)$ symmetries or hidden sectors?
 
-## 7. Practical Implications and Engineering Pathways
-**(a) Intended users and decision impact** – Neutrino‑mass experimental collaborations (e.g., Majorana Demonstrator, LEGEND) can use the result to justify continued investment in searches for neutrinoless double‑beta decay, as the cosmological boundary does not render the decay inevitable. Cosmologists developing CPT‑symmetric bounce models can incorporate the cross‑sheet constraint without invoking an unrealistic universal Majorana condition.  
+## 7. Practical Implications and Engineering Pathways **(a) Intended users and decision impact** – Neutrino‑mass experimental collaborations (e.g., Majorana Demonstrator, LEGEND) can use the result to justify continued investment in searches for neutrinoless double‑beta decay, as the cosmological boundary does not render the decay inevitable. Cosmologists developing CPT‑symmetric bounce models can incorporate the cross‑sheet constraint without invoking an unrealistic universal Majorana condition. 
 
 **(b) Technology Readiness Level** – The work is a purely analytical derivation that has not yet undergone peer review; it therefore resides at TRL 2.  
 
@@ -143,8 +138,7 @@ Observation of a charged fermion exhibiting Majorana‑type lepton‑number‑vi
 
 **(f) Risks and misuse** – Misinterpretation of the cross‑sheet constraint as a proof that all fermions must be Majorana could lead to misguided experimental priorities. Clear communication that only neutral fields are affected mitigates this risk.
 
-## 8. Conclusion
-We have formalized a CPT‑symmetric cosmological boundary at $t=0$ as a constraint on the spinor bundle and derived the most general local, gauge‑invariant boundary condition compatible with CPT invariance. The analysis shows that CPT invariance enforces a cross‑sheet charge‑conjugation relation rather than a pointwise Majorana reality condition. Enforcing $\psi=\psi^{c}$ would require $93.3\%$ of Standard Model Weyl fermions to be electrically neutral, contradicting observation. Consequently, the boundary does not compel neutrinoless double‑beta decay, preserving the essential role of experimental searches. The result clarifies the theoretical landscape for CPT‑symmetric cosmologies and provides concrete guidance for future experimental tests.
+## 8. Conclusion We have formalized a CPT‑symmetric cosmological boundary at $t=0$ as a constraint on the spinor bundle and derived the most general local, gauge‑invariant boundary condition compatible with CPT invariance. The analysis shows that CPT invariance enforces a cross‑sheet charge‑conjugation relation rather than a pointwise Majorana reality condition. Enforcing $\psi=\psi^{c}$ would require $93.3\%$ of Standard Model Weyl fermions to be electrically neutral, contradicting observation. Consequently, the boundary does not compel neutrinoless double‑beta decay, preserving the essential role of experimental searches. The result clarifies the theoretical landscape for CPT‑symmetric cosmologies and provides concrete guidance for future experimental tests.
 
 ## Provenance and AI Involvement
 

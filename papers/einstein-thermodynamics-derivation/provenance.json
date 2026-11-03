@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "einstein-thermodynamics-derivation",
+  "paper": {
+    "path": "papers/einstein-thermodynamics-derivation/paper.md",
+    "title": "Derivation of Einstein from Thermodynamics",
+    "url": "https://papers.qnfo.org/papers/einstein-thermodynamics-derivation"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "einstein-thermodynamics-derivation"
+  },
+  "snapshots": [
+    {
+      "sha256": "d40e9e2bdc4666360d5e7d1d5e8d27ca8befede811aae4fb689eeaa8039887c6",
+      "bytes": 29750,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

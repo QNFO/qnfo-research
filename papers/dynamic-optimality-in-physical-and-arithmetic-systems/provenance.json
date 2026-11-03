@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "dynamic-optimality-in-physical-and-arithmetic-systems",
+  "paper": {
+    "path": "papers/dynamic-optimality-in-physical-and-arithmetic-systems/paper.md",
+    "title": "Dynamic Optimality in Physical and Arithmetic Systems",
+    "url": "https://papers.qnfo.org/papers/dynamic-optimality-in-physical-and-arithmetic-systems"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "dynamic-optimality-in-physical-and-arithmetic-systems"
+  },
+  "snapshots": [
+    {
+      "sha256": "6dc1eb26951fa311006e7b4f36dab05944be2918d4174f2038e45b055002a3aa",
+      "bytes": 124321,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

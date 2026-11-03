@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "double-pendulum-as-a-topological-bridge",
+  "paper": {
+    "path": "papers/double-pendulum-as-a-topological-bridge/paper.md",
+    "title": "Double Pendulum as a Topological Bridge",
+    "url": "https://papers.qnfo.org/papers/double-pendulum-as-a-topological-bridge"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "double-pendulum-as-a-topological-bridge"
+  },
+  "snapshots": [
+    {
+      "sha256": "e520105d9bf330409390f61bf4eecb6cad52ccce534d7cee00a0c62eef8c079a",
+      "bytes": 71778,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
