@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "4d46c98c-5c73-496c-91a6-366137d8e908",
+    "slug": "operational-axioms-do-not-select-the-standard-model-a-formal-audit-of-a-generali",
+    "cycle": "cycle-431",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-03T03:23:16.105Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "36881485e98807ac51d273dd721588799f24575e7cf3f5f5feb2e900aa0d02e3",
+    "bytes": 50846,
+    "path": "papers/operational-axioms-do-not-select-the-standard-model-a-formal-audit-of-a-generali/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "884441fa8f06d82d194324318815d5a139042e5c6d550c65e3d8b37a01a4becf",
+      "bytes": 47906,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "36881485e98807ac51d273dd721588799f24575e7cf3f5f5feb2e900aa0d02e3",
+      "bytes": 50846,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "c8a2104ff06fb444fc7cacc44a5292db78bc3e49f9c45b0f6b951d9e3c8147e1",
+      "bytes": 5078,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "8f02c1b8de22990a9ebb0dba40b015bc08c418f9253db6cfe7e006242b7b8442",
+      "bytes": 2754,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "95fc9c11e4e2af14aac070d23bee6b1cbb27c8420a35190760eb34b83b2450d0",
+      "bytes": 11440,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "b6ff23af48a522a6b9adbd4153db4fab77f31cb5b98dcee6d44f7c2f7b0e75a7",
+      "bytes": 6392,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "ed73b039ff77d99b8e0aa4b5d94896774fc6e3b04ac03f647288c0617d984689",
+      "bytes": 18722,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "ac3f1d5d0a6f1ff73b6b92245f526342a856c1051a025fe74c184c1a8cb4a34c",
+      "bytes": 23791,
+      "role": "draft"
+    }
+  }
+}
