@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "non-markovian-hamiltonian-dynamics-of-boson-mediated-energy-transfer",
+  "paper": {
+    "path": "papers/non-markovian-hamiltonian-dynamics-of-boson-mediated-energy-transfer/paper.md",
+    "title": "Non-Markovian Hamiltonian Dynamics of Boson-Mediated Energy Transfer",
+    "url": "https://papers.qnfo.org/papers/non-markovian-hamiltonian-dynamics-of-boson-mediated-energy-transfer"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "non-markovian-hamiltonian-dynamics-of-boson-mediated-energy-transfer"
+  },
+  "snapshots": [
+    {
+      "sha256": "83299f4fe619e21448023bf57f9e56b2a9bd081eddf41929a7976f09b286bfb9",
+      "bytes": 54521,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

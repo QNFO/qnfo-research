@@ -4,8 +4,6 @@
 
 Positional notation — the ordinary decimal and binary systems that underlie all computation — is natively an ultrametric tree. The digit string is a path from root to leaf; the base is a branching factor; the distance between two numbers is the depth of their lowest common ancestor. This insight, formalized through the $b$-adic valuation $d(x,y)=b^{-v_b(x-y)}$, unifies five research threads — distance-dependent weighting (Rofa 2013), hereditary binary compression (Tarau 2013), rational base representation trees (Akiyama et al. 2018), automata-theoretic formalism (Charlier & Kreczman 2025, Lecomte & Rigo 2001), and historical/biological parallels (Chrisomalis 2010) — and opens extensions into tropical geometry, perfectoid spaces, quantum computing, and interface design. This document synthesizes the full investigation.
 
----
-
 ## 1. The Core Theorem: Positional Notation as an Ultrametric Tree
 
 **Theorem (Native Ultrametric of Positional Notation).** `[established]` In any integer base $b \ge 2$, the distance between two integers measured by the highest power of $b$ dividing their difference is exactly the $b$-adic valuation:

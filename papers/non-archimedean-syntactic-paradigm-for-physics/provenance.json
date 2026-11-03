@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "non-archimedean-syntactic-paradigm-for-physics",
+  "paper": {
+    "path": "papers/non-archimedean-syntactic-paradigm-for-physics/paper.md",
+    "title": "Non-Archimedean Syntactic Paradigm for Physics",
+    "url": "https://papers.qnfo.org/papers/non-archimedean-syntactic-paradigm-for-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "non-archimedean-syntactic-paradigm-for-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "61df3e124cb423ef830ef19c8c4c2a6297e772d76b15c905032a5652ba7af2fc",
+      "bytes": 26935,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
