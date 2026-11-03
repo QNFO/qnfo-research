@@ -1,110 +1,50 @@
-# Conversation Log - Protocol
-V8.2
+# Conversation Log - Protocol V8.2
 
-# Optimized
-for Machine Parsing and downstream AI Analysis
+# Optimized for Machine Parsing and downstream AI Analysis
 
-# Emphasizes
-Explicit Extraction, Structural Representation, and Embedded Schema
+# Emphasizes Explicit Extraction, Structural Representation, and Embedded Schema
 
-# Default
-Scope is Entire Available History unless Specified Otherwise by
-User
+# Default Scope is Entire Available History unless Specified Otherwise by User
 
 # —- SCHEMA DEFINITION (v8.2) —-
 
-# Root Keys:
-Metadata, initial_trigger, Turns, final_state
+# Root Keys: Metadata, initial_trigger, Turns, final_state
 
-# Metadata:
-Keys Include outline_id, source_thread_identifier, processing_datetime,
-scope_processed [Default: Full | Range: T_start-T_end], Counts,
-Language, protocol_version (v8.2), inferred_general_subject,
-protocol_applied. # Added scope_processed
+# Metadata: Keys Include outline_id, source_thread_identifier, processing_datetime, scope_processed [Default: Full | Range: T_start-T_end], Counts, Language, protocol_version (v8.2), inferred_general_subject, protocol_applied. # Added scope_processed
 
-# initial_trigger:
-Keys Include turn_id (T0 or T1), Speaker, Content. (Represents Start of
-Entire conversation)
+# initial_trigger: Keys Include turn_id (T0 or T1), Speaker, Content. (Represents Start of Entire conversation)
 
-# Turns:
-List of Turn Objects within the Processed scope
+# Turns: List of Turn Objects within the Processed scope
 
-# Turn
-Object: Keys Include turn_id (T# - Absolute Numbering from Conversation
-start), Speaker, Timestamp (Optional ISO 8601), Elements (List of
-Element Objects)
+# Turn Object: Keys Include turn_id (T# - Absolute Numbering from Conversation start), Speaker, Timestamp (Optional ISO 8601), Elements (List of Element Objects)
 
-# Element
-Object: Keys Include element_id (T#_E# - Absolute numbering),
-element_type, extraction_confidence [High|Medium|Low], Content (String -
-Key phrase/minimal summary), Attributes (Dict), Links (List of Link
-Objects)
+# Element Object: Keys Include element_id (T#_E# - Absolute numbering), element_type, extraction_confidence [High|Medium|Low], Content (String - Key phrase/minimal summary), Attributes (Dict), Links (List of Link Objects)
 
-# Element
-Types & Specific Attributes: (Controlled Vocabularies Are
-case-sensitive)
+# Element Types & Specific Attributes: (Controlled Vocabularies Are case-sensitive)
 
-# Concept_Mention:
-Attributes: { Context: [Defined|Debated|Example|Mentioned],
-definition_source_id: [ID|Null] }
+# Concept_Mention: Attributes: { Context: [Defined|Debated|Example|Mentioned], definition_source_id: [ID|Null] }
 
-# Question:
-Attributes: { question_type:
-[Factual|Clarification|Hypothetical|Confirmation|Rhetorical|Open_Ended],
-answer_status: [Answered|Partially_Answered|Unanswered] }
+# Question: Attributes: { question_type: [Factual|Clarification|Hypothetical|Confirmation|Rhetorical|Open_Ended], answer_status: [Answered|Partially_Answered|Unanswered] }
 
-# Assertion:
-Attributes: { assertion_type:
-[Claim|Premise|Conclusion|Definition|Observation], evidence_cited:
-[String|None], stance_expressed: [Supports|Opposes|Neutral|Ambivalent]
-[Optional: Target_ID], stance_strength:
-[Strong|Moderate|Weak|Unspecified], confidence_expressed:
-[High|Medium|Low|Speculative], argument_id: [Arg#|Null] }
+# Assertion: Attributes: { assertion_type: [Claim|Premise|Conclusion|Definition|Observation], evidence_cited: [String|None], stance_expressed: [Supports|Opposes|Neutral|Ambivalent] [Optional: Target_ID], stance_strength: [Strong|Moderate|Weak|Unspecified], confidence_expressed: [High|Medium|Low|Speculative], argument_id: [Arg#|Null] }
 
-# Reference_Mention:
-Attributes: { reference_type:
-[Video|Book|Theory|Person|Paper|URL|Dataset|Other], stated_purpose:
-[Example|Evidence|Source_Concept|Comparison|Background|Unspecified]
-}
+# Reference_Mention: Attributes: { reference_type: [Video|Book|Theory|Person|Paper|URL|Dataset|Other], stated_purpose: [Example|Evidence|Source_Concept|Comparison|Background|Unspecified] }
 
-# Interaction_Marker:
-Attributes: { interaction_type:
-[Agreement_Direct|Disagreement_Direct|Clarification_Request|Clarification_Provided|Correction_Factual|Correction_Interpretive|Self_Correction|Topic_Shift_Initiated|Topic_Shift_Accepted|Synthesis_Attempt|Question_Answer_Indicator|Acknowledgment|Hedge|Emphasis],
-target_element_id: [ID], target_turn: [N] }
+# Interaction_Marker: Attributes: { interaction_type: [Agreement_Direct|Disagreement_Direct|Clarification_Request|Clarification_Provided|Correction_Factual|Correction_Interpretive|Self_Correction|Topic_Shift_Initiated|Topic_Shift_Accepted|Synthesis_Attempt|Question_Answer_Indicator|Acknowledgment|Hedge|Emphasis], target_element_id: [ID], target_turn: [N] }
 
-# Stated_Conclusion:
-Attributes: { Scope: [Topic_String|Sub_Thread|Overall_Thread],
-agreement_level: [Explicitly_Agreed|Unilaterally_Stated|Disputed] }
+# Stated_Conclusion: Attributes: { Scope: [Topic_String|Sub_Thread|Overall_Thread], agreement_level: [Explicitly_Agreed|Unilaterally_Stated|Disputed] }
 
-# Stated_Unresolved_Aspect:
-Attributes: { aspect_type:
-[Open_Question|Acknowledged_Limitation|Deferred_Topic|Point_of_Confusion]
-}
+# Stated_Unresolved_Aspect: Attributes: { aspect_type: [Open_Question|Acknowledged_Limitation|Deferred_Topic|Point_of_Confusion] }
 
-# Conflict_Detected:
-Attributes: { conflict_type: [Direct_Contradiction|Opposing_Stance] } #
-Links Identify Conflicting Elements
+# Conflict_Detected: Attributes: { conflict_type: [Direct_Contradiction|Opposing_Stance] } # Links Identify Conflicting Elements
 
-# Processing_Issue:
-Attributes: { issue_type:
-[Ambiguous_Speaker|Ambiguous_Reference|Unclear_Intent|Parsing_Failure|Missing_Context|Link_Uncertainty],
-target_turn: [N] }
+# Processing_Issue: Attributes: { issue_type: [Ambiguous_Speaker|Ambiguous_Reference|Unclear_Intent|Parsing_Failure|Missing_Context|Link_Uncertainty], target_turn: [N] }
 
-# Link
-Object: Keys Include target_id (Element ID), link_type
-[Responds_To|Clarifies|Counters|Supports|Premise_For_Conclusion|Conclusion_From_Premise|Builds_Upon|Elaborates_On_Concept|Seeks_Clarification_Of|Refers_To|Summarizes|Exemplifies|Conflicts_With|…]
-Target IDs Should Ideally Be within Scope, but May Link outside if
-Necessary and Clearly Identifiable
+# Link Object: Keys Include target_id (Element ID), link_type [Responds_To|Clarifies|Counters|Supports|Premise_For_Conclusion|Conclusion_From_Premise|Builds_Upon|Elaborates_On_Concept|Seeks_Clarification_Of|Refers_To|Summarizes|Exemplifies|Conflicts_With|…] Target IDs Should Ideally Be within Scope, but May Link outside if Necessary and Clearly Identifiable
 
-# Argument
-Grouping: Assertions (Premise/Conclusion) Belonging to the Same Explicit
-Argument Share an argument_id. See Guideline 3.8
+# Argument Grouping: Assertions (Premise/Conclusion) Belonging to the Same Explicit Argument Share an argument_id. See Guideline 3.8
 
-# final_state:
-Keys Include open_question_ids (List), stated_conclusion_ids (List),
-unresolved_topic_descriptions (List), detected_conflict_ids (List),
-processing_issues (List of Processing_Issue Element Objects).
-Reflects State at the End of the Processed scope.
+# final_state: Keys Include open_question_ids (List), stated_conclusion_ids (List), unresolved_topic_descriptions (List), detected_conflict_ids (List), processing_issues (List of Processing_Issue Element Objects). Reflects State at the End of the Processed scope.
 
 # —- END SCHEMA DEFINITION —-
 
@@ -136,8 +76,7 @@ processing_protocol_version: “v8.2”
 
 # —- INITIAL TRIGGER —-
 
-# Represents
-the Actual Start of the Conversation, regardless of Scope Processed
+# Represents the Actual Start of the Conversation, regardless of Scope Processed
 
 initial_trigger:
 
@@ -152,8 +91,7 @@ of writing.”
 
 # —- CONVERSATIONAL TURNS —-
 
-# Includes
-ONLY Turns within the Processed Scope (default=all)
+# Includes ONLY Turns within the Processed Scope (default=all)
 
 turns:
 
@@ -872,8 +810,7 @@ target_id: T37_E3 link_type: Responds_To
 
 # —- FINAL STATE SUMMARY —-
 
-# Reflects
-the State at the End of the Processed Scope
+# Reflects the State at the End of the Processed Scope
 
 final_state:
 
@@ -906,4 +843,3 @@ The present protocol continues a line of work in which formal protocol design is
 ## Changelog
 
 - v1.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.
-

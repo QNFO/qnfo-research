@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "llm-model-audit-2026-08-13",
+  "paper": {
+    "path": "papers/llm-model-audit-2026-08-13/paper.md",
+    "title": "Prioritizing Large Language Models for Scientific Research and Agentic AI: A LiveBench-Grounded Audit (August 2026)",
+    "url": "https://papers.qnfo.org/papers/llm-model-audit-2026-08-13"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "llm-model-audit-2026-08-13"
+  },
+  "snapshots": [
+    {
+      "sha256": "ccba5c629c1b3625b5e5a36b7eae3c76b07b2d104a637dae712f2cc6d47fcfd9",
+      "bytes": 14741,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
