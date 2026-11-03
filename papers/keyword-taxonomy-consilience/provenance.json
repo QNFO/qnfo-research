@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "keyword-taxonomy-consilience",
+  "paper": {
+    "path": "papers/keyword-taxonomy-consilience/paper.md",
+    "title": "The Consilience of the QNFO Keyword Taxonomy: Ultrametric Structure as a Testable Compression Prior",
+    "url": "https://papers.qnfo.org/papers/keyword-taxonomy-consilience"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "keyword-taxonomy-consilience"
+  },
+  "snapshots": [
+    {
+      "sha256": "f4846990267b8bfedba9c144464ef49f8b17fe7f7b231d3749d7d613e650aa2d",
+      "bytes": 32443,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "2.4.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

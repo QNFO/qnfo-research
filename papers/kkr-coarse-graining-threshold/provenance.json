@@ -1,0 +1,35 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "kkr-coarse-graining-threshold",
+  "paper": {
+    "path": "papers/kkr-coarse-graining-threshold/paper.md",
+    "title": "Information-theoretic Limits on Programmatic Specification of Biological Systems",
+    "url": "https://papers.qnfo.org/papers/kkr-coarse-graining-threshold"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": [
+      {
+        "doi": "10.64898/2026.07.27.740886",
+        "source": "paper.md"
+      }
+    ]
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "kkr-coarse-graining-threshold"
+  },
+  "snapshots": [
+    {
+      "sha256": "1a7d2b2e548cd9c211670c8311a6e9cb3d9a2bd5f636196a174433cc49d5b78b",
+      "bytes": 2414,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

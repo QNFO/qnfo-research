@@ -1,5 +1,4 @@
-# Knowing
-Patterns: An Epistemology for People Tired of Being Fixed
+# Knowing Patterns: An Epistemology for People Tired of Being Fixed
 
 **Version 0.3**
 
@@ -270,8 +269,7 @@ A pattern is a set of relations that persists across perturbations.
 That is it. That is the whole ontology. Not atoms. Not substances. Not
 souls. Patterns.
 
-## Repetition + Difference +
-Relation
+## Repetition + Difference + Relation
 
 A pattern has three ingredients, and all three must be present at
 once.
@@ -301,8 +299,7 @@ dynamic, a depressive episode, a river’s meander, a neural network’s
 firing pattern, the shape of your day. Same structure at every
 scale.
 
-## The Pattern Is Not the
-Instance
+## The Pattern Is Not the Instance
 
 Crucial distinction: the pattern is not any single occurrence.
 
@@ -353,8 +350,7 @@ systems, neural networks, consciousness. Each level is a pattern built
 on the relations of the level below. Each level has its own dynamics,
 its own stability, its own capacity for change.
 
-## Patterns All the
-Way Down — and All the Way Up
+## Patterns All the Way Down — and All the Way Up
 
 This is the missing piece in most self-help, most psychology, most
 everyday thinking. We treat the “self” as a thing, and then we are
@@ -478,8 +474,7 @@ habit. It is something else.
 
 That something else is a pattern.
 
-## Pattern vs. Habit: The
-Distinction
+## Pattern vs. Habit: The Distinction
 
 |
 Habit |
@@ -752,8 +747,7 @@ something you *have*. Attention is the medium in which your
 patterns take shape. You do not direct attention. You *are* your
 attention, organized into a particular shape.
 
-## The Myth of Volitional
-Attention
+## The Myth of Volitional Attention
 
 There is a cultural story: you can choose what to focus on. If you
 are distracted, you lack discipline. Practice focus, and you will
@@ -789,8 +783,7 @@ This is the noun trap applied to attention. It treats “focus” as a
 thing you possess, rather than a pattern that emerges from a system of
 relations.
 
-## Attention as Field, Not
-Spotlight
+## Attention as Field, Not Spotlight
 
 Attention is not a spotlight you aim but a field that takes shape in
 response to conditions.
@@ -838,8 +831,7 @@ attention that have stabilized under particular conditions. Change the
 conditions, and the shape changes. Not because you “cured” your
 procrastination. Because the pattern had nothing else to do.
 
-## Conditions That Shape
-Attention
+## Conditions That Shape Attention
 
 **Environment.** The physical space — noise, visual
 complexity, associations, history. A room where you have always worked
@@ -938,8 +930,7 @@ This is not a problem. The problem is that we forget we are telling
 stories. The story becomes *reality*, and any alternative story
 feels like a lie.
 
-## The Story You Tell About
-Yourself
+## The Story You Tell About Yourself
 
 You have a story about who you are. It goes something like: I was
 born in [place] to [parents]. My childhood was [description]. Something
@@ -959,8 +950,7 @@ The story is a pattern — a way of organizing experience into a shape
 that makes sense. And like all patterns, it is real without being
 fixed.
 
-## Narrative Identity as
-Attractor
+## Narrative Identity as Attractor
 
 Chapter 4 described the self as an attractor. The stories you tell
 about yourself are part of that attractor. They stabilize it. They give
@@ -1014,8 +1004,7 @@ thinking” and replace it with “positive thinking.” That is trading one
 story for another. But because you recognize it for what it is: a
 pattern of narration, not a window onto reality.
 
-## The Problem with Finding
-Your Story
+## The Problem with Finding Your Story
 
 The self-help industry has commercialized narrative identity. “Find
 your story.” “Own your narrative.” “Rewrite your past to change your
@@ -1084,8 +1073,7 @@ into each other. And it leads to a persistent error: when something goes
 wrong, we look for the cause inside the person, because the context is
 just background.
 
-## The Error of Internal
-Attribution
+## The Error of Internal Attribution
 
 Psychologists call this the fundamental attribution error. When we
 see someone act, we attribute behavior to personality rather than
@@ -1105,8 +1093,7 @@ This is a comforting story for those with the privilege of
 controllable environments. It is a cruel story for those who do not have
 that privilege.
 
-## Behavior Is Not in the
-Person
+## Behavior Is Not in the Person
 
 Behavior is not a property of persons. It is a property of
 *person-environment systems*.
@@ -1214,8 +1201,7 @@ context is not a productivity hack. It is a recognition that the self
 and the environment are not separate things to be optimized but a single
 pattern to be seen.
 
-# 8. Other People as
-Pattern-Mirrors
+# 8. Other People as Pattern-Mirrors
 
 The previous chapter argued that you are not separate from your
 environment. This chapter extends that argument to the most important
@@ -1256,8 +1242,7 @@ You are not one person who acts differently around different people.
 You are a different person *with* different people. The person is
 the relation.
 
-## How Patterns Lock Into Each
-Other
+## How Patterns Lock Into Each Other
 
 Human patterns *couple*. When two people spend time together,
 their patterns synchronize. Speech rates align. Postures mirror.
@@ -1286,8 +1271,7 @@ is forming. The grief is real. But so is the discovery that they were
 not who they thought they were — because “who they were” was partly a
 product of that specific relational configuration.
 
-## You Are Not the Same
-Person with Everyone
+## You Are Not the Same Person with Everyone
 
 If you are not the same person with everyone, “who am I, really?” has
 no stable answer. The answer depends on who you are with. The self is
@@ -1301,8 +1285,7 @@ attractor is not a thing. It is a tendency that emerges from the history
 of your relational couplings. And it can shift when the relational field
 shifts.
 
-## The Therapeutic Myth
-of the Isolated Self
+## The Therapeutic Myth of the Isolated Self
 
 Much therapy treats the individual as the unit of analysis. The
 problem is inside you. Insight into your own patterns is the solution.
@@ -1341,8 +1324,7 @@ room. Go be with someone who challenges you. Notice what arises. That
 arising — that specific shape of irritation, defense, longing, or ease —
 is you-in-relation. It is the only “you” that actually exists.
 
-## The Freedom in Relational
-Seeing
+## The Freedom in Relational Seeing
 
 Seeing the self as relational means you are not stuck with your
 patterns — not because you can change them through effort, but because
@@ -1379,8 +1361,7 @@ small shift in a single relation — a *tilt* — that cascades
 through the system. Not because the tilt is powerful. Because the rest
 of the system reorganizes around it.
 
-## The Myth of the Heroic
-Breakthrough
+## The Myth of the Heroic Breakthrough
 
 The self-help industry loves the story of the heroic breakthrough.
 The person who hits rock bottom, makes a dramatic decision, and
@@ -1515,8 +1496,7 @@ attentional. Finding the right tilt is experimental, not heroic. The
 pattern already wants to shift. It is waiting for a condition to shift
 around.
 
-# 10. The Economics of
-Brokenness
+# 10. The Economics of Brokenness
 
 The previous chapters described patterns. This chapter describes the
 industry that built itself on the noun trap.
@@ -1555,8 +1535,7 @@ Third: the idea that self-work is never complete — you must
 constantly “do the work,” “stay on top of your growth.” The product is
 not a solution. The product is a relationship.
 
-## The Pathologization of
-Normal Variation
+## The Pathologization of Normal Variation
 
 Human beings vary in mood, energy, attention, sociability,
 sensitivity, ambition. This variation is normal. It is not a collection
@@ -1620,8 +1599,7 @@ engagement. The industry profits from your continued sense of lack.
 This is not a conspiracy. It is a structural alignment. The incentive
 to make you feel broken is built into the attention economy.
 
-## The Alternative Is Not
-Anti-Help
+## The Alternative Is Not Anti-Help
 
 This chapter is not saying that therapy is useless, that medication
 never helps, that all self-help authors are charlatans, or that
@@ -1736,8 +1714,7 @@ essential — not as experts who fix you, but as mirrors who help you see.
 The knowledge frame repositions others: from authorities who tell you
 what is wrong, to companions who witness your noticing.
 
-## The Question That Changes
-Everything
+## The Question That Changes Everything
 
 The shift between frames can be triggered by a single question:
 
@@ -1760,8 +1737,7 @@ answer or a solution — something shifts. The pattern reveals itself. Not
 because you figured it out. Because you stopped trying to fix it long
 enough to see it.
 
-## Help and Knowledge Are Not
-Opposites
+## Help and Knowledge Are Not Opposites
 
 Help and knowledge are not binary. You can receive help without
 losing epistemic agency. You can see a therapist without framing
@@ -1822,8 +1798,7 @@ The capture default is the noun trap applied to knowledge. It treats
 knowledge as a product, a commodity, property — rather than as a
 relation.
 
-## What Capture Does to
-Knowledge
+## What Capture Does to Knowledge
 
 Captured knowledge changes the relationship between knower and
 known.
@@ -1862,8 +1837,7 @@ it describes.
 This is why the book is free. Not because it is valueless. Because
 the value it offers is incompatible with the capture frame.
 
-## The Gift Economy of
-Knowledge
+## The Gift Economy of Knowledge
 
 This book participates in a tradition older than the market: the gift
 economy of knowledge.
@@ -1930,8 +1904,7 @@ freedom is structural: no purchase, no subscription, no expectation. The
 book enacts the pattern it describes — and that enactment is part of
 what it says.
 
-# 13. Pattern Literacy as
-Daily Practice
+# 13. Pattern Literacy as Daily Practice
 
 This is the chapter where the book would normally give you a plan.
 Seven days. Exercises. Habits to install. Journaling prompts.
@@ -2075,8 +2048,7 @@ intention, no purpose, no interest in your well-being. It simply
 
 And that impersonality, once seen, is not cold. It is liberating.
 
-## The Relief of Not Being a
-Problem
+## The Relief of Not Being a Problem
 
 You have been told — implicitly or explicitly — that you are a
 problem to be solved. Your anxiety, your procrastination, your
@@ -2101,8 +2073,7 @@ because it was fixed. Because it is a river.
 You are not a problem. You are a pattern. The pattern does not need
 fixing. It needs seeing.
 
-## The Impersonality of
-Patterns
+## The Impersonality of Patterns
 
 This is the hardest part: patterns are impersonal.
 
@@ -2126,8 +2097,7 @@ identity. Not your fate. Just a pattern that happens to be present. You
 do not need to fight it. You need to change the conditions — or notice
 they are already changing.
 
-## The Quiet Dignity of Being
-a Pattern
+## The Quiet Dignity of Being a Pattern
 
 There is a dignity in being a pattern that is not available to being
 a broken thing.
@@ -2145,8 +2115,7 @@ you are a process. The process can be painful. It can be beautiful. It
 can be both. But it is not a problem to solve. It is a pattern to
 witness.
 
-## The Pattern Does Not
-Care, But You Can
+## The Pattern Does Not Care, But You Can
 
 Here is the paradox.
 
@@ -2181,8 +2150,7 @@ see it — and caring without fixing becomes possible. The shift is not in
 the pattern. The shift is in the relationship to the pattern. And that
 shift is the heart of pattern literacy.
 
-# 15. Afterword: What to Do
-with This Book
+# 15. Afterword: What to Do with This Book
 
 This book is over. What remains is what you do with it — which, if
 the book has done its work, is nothing at all.
@@ -2260,8 +2228,7 @@ never a broken thing. You were a pattern of knowing that had forgotten
 it was a pattern. The forgetting was the only problem. And the
 forgetting has been addressed.
 
-# Appendix A: A
-Short Glossary of Pattern Concepts
+# Appendix A: A Short Glossary of Pattern Concepts
 
 This glossary defines key terms used in the book in accessible
 language. These are not rigorous academic definitions. They are
@@ -2343,8 +2310,7 @@ pattern reorganizes around. A one-degree change in a ship’s heading does
 not move it immediately, but over time it arrives in a different
 ocean.
 
-# Appendix B: Questions
-That Aren’t Advice
+# Appendix B: Questions That Aren’t Advice
 
 These are not journaling prompts. They are not exercises. They are
 questions that, asked sincerely and without demand for an answer, can
@@ -2397,8 +2363,7 @@ uncertainty right now? - What is here, before I name it?
 There are no right answers. Only the asking. And the asking, repeated
 over time, changes the shape of attention.
 
-# Appendix C: Pointers
-(Not Recommendations)
+# Appendix C: Pointers (Not Recommendations)
 
 Authors, texts, and traditions that resonate with pattern thinking.
 Not a reading list. Not an endorsement of complete bodies of work. Just
@@ -2507,4 +2472,3 @@ The present book also builds on [Emergent Universality from Symmetric Rules: Rul
 ## Changelog
 
 - v1.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.
-
