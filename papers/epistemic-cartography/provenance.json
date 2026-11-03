@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "epistemic-cartography",
+  "paper": {
+    "path": "papers/epistemic-cartography/paper.md",
+    "title": "Epistemic Cut",
+    "url": "https://papers.qnfo.org/papers/epistemic-cartography"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "epistemic-cartography"
+  },
+  "snapshots": [
+    {
+      "sha256": "8dde51928e555585ac29a73559b0a2fbcfc395e45431252d99d5fce50a9eab0c",
+      "bytes": 98711,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

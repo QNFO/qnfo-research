@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "epistemic-mirror",
+  "paper": {
+    "path": "papers/epistemic-mirror/paper.md",
+    "title": "An Epistemic Mirror",
+    "url": "https://papers.qnfo.org/papers/epistemic-mirror"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "epistemic-mirror"
+  },
+  "snapshots": [
+    {
+      "sha256": "22e7ab2d38b8f61d9de4468c8f7b5774f5699a32c30bba168838250da38a6574",
+      "bytes": 25657,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

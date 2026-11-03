@@ -1,6 +1,6 @@
-## A
-Computable Framework for the Validation of Non-Empirical Scientific
-Progress: From Algorithmic Compression to Epistemic Dynamics
+# Epistemic Dynamics
+
+## A Computable Framework for the Validation of Non-Empirical Scientific Progress: From Algorithmic Compression to Epistemic Dynamics
 
 **Author:** Rowan Brad Quni-Gudzinas
 **Affiliation:** QNFO **Contact:**
@@ -32,9 +32,7 @@ of **Compression** (compressive efficiency) and an axis of
 **Fecundity** (heuristic power to enable future
 discovery).
 
-### 1.0
-Deconstruction of Scientific Progress and the Emergence of an
-Epistemological Gap
+### 1.0 Deconstruction of Scientific Progress and the Emergence of an Epistemological Gap
 
 To construct a rigorous model for evaluating scientific advancement,
 one must first deconstruct the monolithic concept of “progress” into its
@@ -48,8 +46,7 @@ structures, or to refine the very methods of inquiry—we can reveal the
 intricate machinery that drives scientific evolution and identify the
 critical gaps in its logical foundation.
 
-#### 1.1 A
-Functional Taxonomy of Scientific Contribution
+#### 1.1 A Functional Taxonomy of Scientific Contribution
 
 A first-principles analysis of scientific work reveals a functional
 taxonomy of three distinct, yet highly interrelated, categories of
@@ -106,8 +103,7 @@ infrastructure that enables G-type and S-type work to proceed by shaping
 the very framework within which scientific questions are asked and
 answered.
 
-#### 1.2 The Validation Metric
-Problem
+#### 1.2 The Validation Metric Problem
 
 The deconstruction of scientific progress into G, S, and E types,
 while clarifying their respective roles, simultaneously exposes a
@@ -129,9 +125,7 @@ threatens the integrity of scientific inquiry, as it allows theoretical
 work to drift away from empirical grounding without clear criteria for
 evaluation.
 
-### 2.0
-An Idealized Solution via Algorithmic Information Theory and Its
-Inherent Computability Crisis
+### 2.0 An Idealized Solution via Algorithmic Information Theory and Its Inherent Computability Crisis
 
 To resolve the validation metric problem, it is necessary to
 translate the subjective virtues of parsimony and explanatory power into
@@ -140,8 +134,7 @@ framework of **Algorithmic Information Theory (AIT)**
 offers an idealized solution by providing a rigorous definition of
 complexity.
 
-#### 2.1 Formalizing
-Parsimony: The AIT Framework
+#### 2.1 Formalizing Parsimony: The AIT Framework
 
 AIT posits that the deepest understanding of a phenomenon is
 equivalent to the shortest possible description of that phenomenon. By
@@ -178,8 +171,7 @@ gain indicates that the unified theory \(T_U\) is a more algorithmically compres
 (i.e., simpler) description of the combined phenomena of \(T_1\) and \(T_2\), representing an objective increase
 in understanding.
 
-#### 2.2
-The Methodological Crisis of the Idealized Solution
+#### 2.2 The Methodological Crisis of the Idealized Solution
 
 Despite its theoretical elegance, the AIT-based solution is
 ultimately untenable as a practical methodology. The very foundation
@@ -205,9 +197,7 @@ calculated, then \(G_U\) itself cannot
 be calculated. This transforms the problem from a philosophical one into
 a technical one requiring a computable alternative.
 
-### 3.0
-A Pragmatic Methodological Resolution: The Framework of Computable Proxy
-Metrics and Epistemic Accounting
+### 3.0 A Pragmatic Methodological Resolution: The Framework of Computable Proxy Metrics and Epistemic Accounting
 
 To resolve the computability crisis, a pragmatic methodological
 framework must be constructed. This framework abandons the pursuit of a
@@ -304,8 +294,7 @@ that the ultimate value of non-empirical work lies in its demonstrated
 power to make the ground fertile for new empirical discoveries (Dawid,
 2013).
 
-### 4.0 A
-Unifying Dynamical Model of Scientific Progress
+### 4.0 A Unifying Dynamical Model of Scientific Progress
 
 The static metrics are now embedded within a dynamical framework to
 model the evolution of a scientific field. By drawing a formal analogy
@@ -354,8 +343,7 @@ drastically reduces \(U_E\) (resolving
 anomalies) and/or \(S_E\) (providing a
 simpler description).
 
-### 5.0
-Synthesis: The Dual-Vector of Scientific Progress
+### 5.0 Synthesis: The Dual-Vector of Scientific Progress
 
 The preceding deconstruction, critique, and formalization culminate
 in a synthesized perspective that redefines scientific progress not as a
@@ -392,9 +380,7 @@ powerful engines for discovering what is unknown. This dual requirement
 provides a complete, rigorous, and computable foundation for the
 validation of all forms of scientific contribution.
 
-### 6.0
-Conclusion: Towards a Quantitative and Predictive Science of Scientific
-Progress
+### 6.0 Conclusion: Towards a Quantitative and Predictive Science of Scientific Progress
 
 This analysis has moved from a qualitative deconstruction of
 scientific activity to the proposal of a quantitative, computable, and
