@@ -41,6 +41,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "eafd555126b402b639c68a1677de6833b3962fb60b0b49f35fdb0925f38fa78a"
+    },
+    {
+      "path": "runs/cycle-428/ontological-re-entry-what-can-we-say-exists",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e3d9d524f65d3046da6b9f43c611199ab9cc810dc125909b903782ea73ac4c38"
     }
   ],
   "identifiers": {
@@ -70,6 +76,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.3.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "c1df8b5606184397f5609e427fcea795c51746c89c102fce15df1d026409b9df",
+      "bytes": 37778,
+      "recorded_at": "2026-11-03",
+      "basis": "revision",
+      "version": "3.0.0",
       "git_commit": null
     }
   ],
