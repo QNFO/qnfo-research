@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "invariant-patterns-adelic-refactoring",
+  "paper": {
+    "path": "adelic-freedom/invariant-patterns-adelic-refactoring/paper.md",
+    "title": "Invariant Patterns and the Adelic Refactoring of Fundamental Physics",
+    "url": "https://papers.qnfo.org/papers/invariant-patterns-adelic-refactoring"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "invariant-patterns-adelic-refactoring"
+  },
+  "snapshots": [
+    {
+      "sha256": "8383702e4d02a1008450676d12bfe37626e10487ba6449c47a85677add317c4d",
+      "bytes": 41981,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

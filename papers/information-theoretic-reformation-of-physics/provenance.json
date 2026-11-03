@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "information-theoretic-reformation-of-physics",
+  "paper": {
+    "path": "papers/information-theoretic-reformation-of-physics/paper.md",
+    "title": "Information-Theoretic Reformation of Physics",
+    "url": "https://papers.qnfo.org/papers/information-theoretic-reformation-of-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "information-theoretic-reformation-of-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "6b74799ad358281a8df52a35249ace749808d5813354969d41aca5c4a5f1a2ad",
+      "bytes": 26008,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "informational-universe-synthesis",
+  "paper": {
+    "path": "papers/informational-universe-synthesis/paper.md",
+    "title": "The Informational Universe: A Synthesis of Holographic Bounds, Thermodynamic Gravity, and Finite-Dimensional Quantum Constraints",
+    "url": "https://papers.qnfo.org/papers/informational-universe-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "informational-universe-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "14f0dde72c00257889e147eea46ae4ace692f3afb8ad10937a0d23035fcd3fd8",
+      "bytes": 30900,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

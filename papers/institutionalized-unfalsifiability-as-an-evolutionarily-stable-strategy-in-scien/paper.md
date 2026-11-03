@@ -1,12 +1,12 @@
 # Institutionalized Unfalsifiability as an Evolutionarily Stable Strategy in Scientific Incentive Landscapes
 
 ## Abstract
+
 Scientific resource‑allocation systems—funding agencies, journals, tenure committees, and citation markets—reward novelty, narrative coherence, and impact while lacking a formal price for prospective falsification risk. This gap prevents quantitative assessment of whether such incentives systematically favor unfalsifiable research. We construct a minimal two‑strategy evolutionary‑game model in which agents choose between a **Falsifiable (F)** strategy (publish a testable prediction with accuracy $p$) and a **Post‑hoc (P)** strategy (publish a flexible narrative that avoids falsification). Payoffs are parameterized by a confirmed‑prediction reward $b$, a failure cost $c$, and a baseline narrative reward $s$. Using anchored illustrative values $b=2$, $c=1$, $s=1$, $p=0.6$, we derive the rationality threshold  
 $$p^{*}= \frac{s+c}{b+c}= \frac{2}{3}\approx0.6667.$$  
 Because $p=0.6<p^{*}$, the P‑strategy yields a higher payoff ($\pi_P=1.0$ vs. $\pi_F=0.8$) and the replicator dynamics $\dot{x}=-0.2\,x(1-x)$ drive the falsifiable fraction to extinction. Solving $\pi_F=\pi_P$ for $b$ gives a flip point $b_{\text{flip}}\approx2.3333$; modestly raising the prediction reward above this value makes falsifiable practice evolutionarily stable. The result provides a concrete policy lever—adjusting $b$—that can shift scientific ecosystems toward testable research without altering peer‑review criteria.
 
-## 1. Introduction
-Researchers, journal editors, funding agencies, and media outlets together form a **knowledge‑production ecosystem** that decides which scientific claims receive resources, prestige, and career advancement. Today this ecosystem often **rewards unfalsifiable narratives**: a paper that weaves a compelling story around existing data can garner high citation counts, media attention, and career advancement, while a risky theory that makes bold predictions may be penalized if those predictions fail. The **replication crisis** in psychology and the historical dominance of Lysenkoism in Soviet biology illustrate how institutional incentives can suppress falsifiable work, leading to costly scientific dead‑ends and public mistrust. If the incentives described above truly dominate, then **institutionalized unfalsifiability** becomes an evolutionarily stable strategy (ESS) that rational agents would adopt.
+## 1. Introduction Researchers, journal editors, funding agencies, and media outlets together form a **knowledge‑production ecosystem** that decides which scientific claims receive resources, prestige, and career advancement. Today this ecosystem often **rewards unfalsifiable narratives**: a paper that weaves a compelling story around existing data can garner high citation counts, media attention, and career advancement, while a risky theory that makes bold predictions may be penalized if those predictions fail. The **replication crisis** in psychology and the historical dominance of Lysenkoism in Soviet biology illustrate how institutional incentives can suppress falsifiable work, leading to costly scientific dead‑ends and public mistrust. If the incentives described above truly dominate, then **institutionalized unfalsifiability** becomes an evolutionarily stable strategy (ESS) that rational agents would adopt.
 
 Understanding the quantitative conditions under which unfalsifiable narratives dominate enables policymakers to design interventions—such as registered prediction registries, adversarial review, or decoupled funding—that shift the incentive balance toward falsifiable science.  
 
@@ -17,8 +17,7 @@ Understanding the quantitative conditions under which unfalsifiable narratives d
 - **C4.** Sensitivity analysis of the threshold and flip point with respect to $b$, $c$, and $s$ (Section 4).  
 - **C5.** Translation of the result into concrete policy levers for funding agencies, journal editors, and AI‑assisted research pipelines (Section 8).  
 
-## 2. Background and Related Work
-Scientific incentive structures have been modeled using evolutionary‑game concepts across diverse domains. Embedding quality metrics such as the Triplet Generalization Ratio (TGR) are used to measure how well learned embeddings preserve narrative structure in social‑media posts, by sampling over 1,000 ground‑truth triplets, as reported in [1]. The LSST design includes a ten‑year operation plan to achieve deep imaging [2]. We assume $b=2$ as an illustrative baseline reward.      These contributions collectively establish that ESS analysis is a versatile tool for understanding how incentive parameters shape strategic outcomes, motivating its application to scientific reward structures.
+## 2. Background and Related Work Scientific incentive structures have been modeled using evolutionary‑game concepts across diverse domains. Embedding quality metrics such as the Triplet Generalization Ratio (TGR) are used to measure how well learned embeddings preserve narrative structure in social‑media posts, by sampling over 1,000 ground‑truth triplets, as reported in [1]. The LSST design includes a ten‑year operation plan to achieve deep imaging [2]. We assume $b=2$ as an illustrative baseline reward. These contributions collectively establish that ESS analysis is a versatile tool for understanding how incentive parameters shape strategic outcomes, motivating its application to scientific reward structures.
 
 ## 3. Methods
 ### 3.1 Model
@@ -70,8 +69,7 @@ p^{*}= \frac{1+1}{2+1}= \frac{2}{3}\approx0.6667.
 \]
 Since $\pi_F<\pi_P$, the Post‑hoc strategy yields the higher payoff.
 
-### 4.3 Evolutionary stability of the all‑P equilibrium
-At the all‑P state ($x=0$) a rare mutant playing **F** earns $\pi_F=0.8$ against residents earning $\pi_P=1.0$. Because $\pi_F<\pi_P$ for every population composition, the invasion inequality holds for all $\epsilon\in(0,1)$. The strict inequality on the first part of the ESS condition makes the second part vacuous, establishing the all‑P state as a **strict Nash equilibrium** and therefore an **ESS** whenever $p<p^{*}$.
+### 4.3 Evolutionary stability of the all‑P equilibrium At the all‑P state ($x=0$) a rare mutant playing **F** earns $\pi_F=0.8$ against residents earning $\pi_P=1.0$. Because $\pi_F<\pi_P$ for every population composition, the invasion inequality holds for all $\epsilon\in(0,1)$. The strict inequality on the first part of the ESS condition makes the second part vacuous, establishing the all‑P state as a **strict Nash equilibrium** and therefore an **ESS** whenever $p<p^{*}$.
 
 ### 4.4 Replicator dynamics
 \[
@@ -133,8 +131,7 @@ For the flip point $b_{\text{flip}} = (s+(1-p)c)/p$:
 
 These scenarios illustrate how modest policy adjustments can qualitatively reshape the evolutionary landscape.
 
-## 5. Results
-All quantities are derived directly from the arithmetic in Section 4.
+## 5. Results All quantities are derived directly from the arithmetic in Section 4.
 
 | Quantity | Formula & inputs | Value | Interpretation |
 |---|---|---|---|
@@ -338,8 +335,7 @@ These examples demonstrate how abstract payoff parameters can be grounded in con
 - **L6. Origin of unfalsifiable strategies.** Like [7], the model explains persistence, not initial emergence, of post‑hoc narratives.  
 - **L7. Strategy noise.** If agents randomize, the sharp threshold becomes a band.
 
-### 8.2 What would falsify the model
-The model predicts that **increasing the effective prediction reward $b$ above the flip point raises the share of prospectively registered, falsifiable research**. A pilot study that raises $b$ while holding $s$ and $c$ approximately constant, and observes **no increase** (or a decrease) in the fraction of registered predictions, would falsify the central claim. Conversely, an observed increase is consistent but not sufficient proof, because confounding changes in $s$ or $c$ could produce the same effect.
+### 8.2 What would falsify the model The model predicts that **increasing the effective prediction reward $b$ above the flip point raises the share of prospectively registered, falsifiable research**. A pilot study that raises $b$ while holding $s$ and $c$ approximately constant, and observes **no increase** (or a decrease) in the fraction of registered predictions, would falsify the central claim. Conversely, an observed increase is consistent but not sufficient proof, because confounding changes in $s$ or $c$ could produce the same effect.
 
 ### 8.3 Open questions
 - How do citation‑network effects reshape the payoff structure and potentially generate multiple ESSs?  
@@ -351,11 +347,9 @@ The model predicts that **increasing the effective prediction reward $b$ above t
 ### (a) Primary users and decision impact
 The **primary users** are funding‑agency program officers, journal editors, tenure committees, and designers of AI‑assisted research pipelines. Under the baseline parameters, a researcher with $p=0.6$ rationally adopts the post‑hoc strategy because $\pi_P>\pi_F$. The result supplies a **computable policy lever**: raising the confirmed‑prediction reward $b$ above $b_{\text{flip}}\approx2.33$ (for $p=0.6$, $c=1$, $s=1$) makes the falsifiable strategy individually optimal and evolutionarily stable, without altering peer‑review criteria or researcher ability. Concretely, a funding program could allocate extra scoring weight to **pre‑registered predictions** with specified statistical power, thereby increasing the effective $b$.
 
-### (b) Technology readiness level
-The work is **purely analytical** and has not undergone peer review; it resides at **TRL 2** (formulation of basic principles). No hardware, software prototype, or experimental demonstration exists, and analytical work cannot exceed **TRL 3**.
+### (b) Technology readiness level The work is **purely analytical** and has not undergone peer review; it resides at **TRL 2** (formulation of basic principles). No hardware, software prototype, or experimental demonstration exists, and analytical work cannot exceed **TRL 3**.
 
-### (c) Minimal next experiment
-A **pilot policy experiment** within a single funding agency would test the model:
+### (c) Minimal next experiment A **pilot policy experiment** within a single funding agency would test the model:
 
 - **Design:** measure the baseline share $x_0$ of submissions containing prospectively registered predictions; introduce a scoring bonus calibrated to raise the effective $b$ above $2.33$; measure the post‑intervention share $x_1$ after a fixed number of funding cycles.  
 - **Measurement:** proportion of registered predictions, any concurrent changes in narrative‑type rewards $s$, and observed prediction accuracy $p$ (to monitor confounds).  
@@ -367,16 +361,14 @@ A **pilot policy experiment** within a single funding agency would test the mode
 - **Policy alignment:** the bonus must not be offset by existing novelty or impact premiums that effectively raise $s$.  
 - **Open questions:** the elasticity of researcher behavior with respect to $b$, and the cost of building and maintaining the registry, remain to be quantified.
 
-### (e) Projected magnitudes (projections)
-Assuming a modest software development cost of **$10^{5}$ monetary units** to implement a prediction registry and a linear response of strategy share to the payoff gap (as in the replicator equation), raising $b$ by $\Delta b = 0.4$ (from $2$ to $2.4$) yields a falsifiable payoff $\pi_F = 0.6\times2.4 - 0.4 = 1.04$, so the payoff gap becomes $+0.04$ (an increase of $0.24$ from the baseline $-0.2$). Using the time‑to‑equilibrium formula $t = \ln 9 / \kappa$ with $\kappa = 0.04$ gives $t \approx 54.9$ generations for the falsifiable share to rise from $0.1$ to $0.5$. These numbers are model **projections** conditional on the assumed linear response and the assumed registry development cost.
+### (e) Projected magnitudes (projections) Assuming a modest software development cost of **$10^{5}$ monetary units** to implement a prediction registry and a linear response of strategy share to the payoff gap (as in the replicator equation), raising $b$ by $\Delta b = 0.4$ (from $2$ to $2.4$) yields a falsifiable payoff $\pi_F = 0.6\times2.4 - 0.4 = 1.04$, so the payoff gap becomes $+0.04$ (an increase of $0.24$ from the baseline $-0.2$). Using the time‑to‑equilibrium formula $t = \ln 9 / \kappa$ with $\kappa = 0.04$ gives $t \approx 54.9$ generations for the falsifiable share to rise from $0.1$ to $0.5$. These numbers are model **projections** conditional on the assumed linear response and the assumed registry development cost.
 
 ### (f) Risks and misuse
 - **Gaming the registry:** researchers might label retrospective analyses as prospective to capture the higher $b$. Robust timestamping and independent verification are required.  
 - **Equity effects:** institutions with superior experimental capacity could disproportionately benefit from a higher $b$, widening resource gaps. Mitigation could involve collaborative prediction consortia or tiered bonuses.  
 - **Adverse reward shifts:** policies that increase narrative rewards $s$ (e.g., “story‑impact” prizes) unintentionally strengthen the post‑hoc equilibrium, as shown in the adverse reform scenario (Section 4.7). Any reform package must audit both $b$ and $s$ simultaneously.
 
-## 9. Conclusion
-We have formulated a minimal evolutionary‑game model of scientific strategy choice and derived its exact stability structure. Falsifiable practice is individually rational only when $p > p^{*}= (s+c)/(b+c)$; below this threshold the Post‑hoc strategy is a strict Nash equilibrium and therefore an evolutionarily stable strategy, with replicator dynamics driving falsifiable practice to extinction. Under the explicitly assumed parameters $b=2$, $c=1$, $s=1$, $p=0.6$, the threshold is $p^{*}=0.6667$, the payoff gap is $-0.2$, and the flip point is $b\approx2.3333$—a modest reward increase that reverses the equilibrium without altering reviewer judgment or researcher ability. The analysis converts the demarcation problem from a philosophical concern into a computable criterion: whether a knowledge system produces falsifiable science depends on its reward parameters, not on the intrinsic content of its claims. The central empirical prediction—that raising $b$ above the flip point increases the share of prospectively registered research—remains to be tested by the pilot experiment proposed in Section 8. Future work should incorporate network effects, heterogeneous accuracies, and multi‑stage decision processes, and should formalize the funder’s own optimization in the Stackelberg framework of [2].
+## 9. Conclusion We have formulated a minimal evolutionary‑game model of scientific strategy choice and derived its exact stability structure. Falsifiable practice is individually rational only when $p > p^{*}= (s+c)/(b+c)$; below this threshold the Post‑hoc strategy is a strict Nash equilibrium and therefore an evolutionarily stable strategy, with replicator dynamics driving falsifiable practice to extinction. Under the explicitly assumed parameters $b=2$, $c=1$, $s=1$, $p=0.6$, the threshold is $p^{*}=0.6667$, the payoff gap is $-0.2$, and the flip point is $b\approx2.3333$—a modest reward increase that reverses the equilibrium without altering reviewer judgment or researcher ability. The analysis converts the demarcation problem from a philosophical concern into a computable criterion: whether a knowledge system produces falsifiable science depends on its reward parameters, not on the intrinsic content of its claims. The central empirical prediction—that raising $b$ above the flip point increases the share of prospectively registered research—remains to be tested by the pilot experiment proposed in Section 8. Future work should incorporate network effects, heterogeneous accuracies, and multi‑stage decision processes, and should formalize the funder’s own optimization in the Stackelberg framework of [2].
 
 ## Version History
 

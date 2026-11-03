@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "interplay-of-scientific-materialism-human-meaning-and-epistemic-humility",
+  "paper": {
+    "path": "papers/interplay-of-scientific-materialism-human-meaning-and-epistemic-humility/paper.md",
+    "title": "The Interplay of Scientific Materialism, Human Meaning, and Epistemic Humility",
+    "url": "https://papers.qnfo.org/papers/interplay-of-scientific-materialism-human-meaning-and-epistemic-humility"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "interplay-of-scientific-materialism-human-meaning-and-epistemic-humility"
+  },
+  "snapshots": [
+    {
+      "sha256": "1fe15d1cb935a413e89407b4c6fa3d19bbe08c4d764c92bcb6ed2fe5cd3774b5",
+      "bytes": 129422,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
