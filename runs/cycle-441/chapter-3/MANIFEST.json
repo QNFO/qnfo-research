@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-f53531ab-bd97-4f79-88a3-e82d395f4400",
+    "slug": "chapter-3",
+    "cycle": "cycle-441",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.4",
+    "finished_at": "2026-11-03T16:11:16.581Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "f9daeb5f2fd9fd7cc6c17e764a96f9551ab4074505adb98f27daf6a1b879155c",
+      "bytes": 73315,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "4f3f398412def221905b62d1f11ddf311d3c69ede81cf306fe4491d64774b31f",
+      "bytes": 43890,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "1012bceebad47e4ac54fc8771bc6a5e8bfdc8e76266939bde0e409c3f1b13adc",
+      "bytes": 3306,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "3bc48ca08d652d2f8b856b68470847515a8a21fc35e4db992f067268f57aa0f7",
+      "bytes": 3963,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "9fbd2da5b3eae9b406f03ed71e87889ac81ed36c40fd7b3e39da80844456641b",
+      "bytes": 17281,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "3847e56f924c8ab5ae2b4c3c8dd6b48ad8f051af271fd16aa09fd803194a836b",
+      "bytes": 10108,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "4a33e3af042bc8995324859cdcb9dcc8b31a70f23df71f7fef09d75cf87fda00",
+      "bytes": 20641,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "69fa4e52d49fe797fa2e6886e13e2dff9ecf7c0929c8a1df88f62e0d10d0e3ad",
+      "bytes": 15306,
+      "role": "draft"
+    }
+  }
+}
