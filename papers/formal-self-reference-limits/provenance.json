@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "formal-self-reference-limits",
+  "paper": {
+    "path": "papers/formal-self-reference-limits/paper.md",
+    "title": "Formal Self-Reference Limits: Objectification, Anthropocentric Conventions, and the Partial Self-Knowledge of Formal Systems",
+    "url": "https://papers.qnfo.org/papers/formal-self-reference-limits"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "formal-self-reference-limits"
+  },
+  "snapshots": [
+    {
+      "sha256": "c0bc6d4c098440badd5aab2b89810aeda12c0e51327ac841851fa8ae70bc02e1",
+      "bytes": 30902,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.2-draft",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

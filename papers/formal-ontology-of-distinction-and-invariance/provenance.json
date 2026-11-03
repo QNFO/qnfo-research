@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "formal-ontology-of-distinction-and-invariance",
+  "paper": {
+    "path": "papers/formal-ontology-of-distinction-and-invariance/paper.md",
+    "title": "Formal Ontology of Distinction and Invariance",
+    "url": "https://papers.qnfo.org/papers/formal-ontology-of-distinction-and-invariance"
+  },
+  "declared": {
+    "version": "1.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "formal-ontology-of-distinction-and-invariance"
+  },
+  "snapshots": [
+    {
+      "sha256": "cb15756e38177dd34b259aaad1699074d33d8d783a64adb73777e87b26e30d41",
+      "bytes": 36993,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

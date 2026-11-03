@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "formal-framework-for-a-non-local-frequency-based-reality",
+  "paper": {
+    "path": "papers/formal-framework-for-a-non-local-frequency-based-reality/paper.md",
+    "title": "Formal Framework for a Non-Local Frequency-Based Reality",
+    "url": "https://papers.qnfo.org/papers/formal-framework-for-a-non-local-frequency-based-reality"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "formal-framework-for-a-non-local-frequency-based-reality"
+  },
+  "snapshots": [
+    {
+      "sha256": "82d0a91b2601d6d41604845cf366611fee11e3f2c857a43db1e814fd52429d71",
+      "bytes": 67944,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

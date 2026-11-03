@@ -1,10 +1,10 @@
 # Finite‑Prime Valuations in Fundamental Physics: An Adelically Demoted Real‑Number Perspective
 
 ## Abstract
+
 Precision high‑energy experiments, quantum‑information platforms, and cosmological surveys all express predictions as real‑valued numbers, assuming that the Archimedean field alone captures physical reality. The gap is the absence of a systematic demonstration that finite‑prime ( $p$‑adic ) completions are either optional decorations or mathematically required components of any rational observable. We adopt a purely analytical approach: (i) we model selected observables as rational numbers in Planck units, (ii) we compute their $p$‑adic absolute values $|\,\cdot\,|_{p}$ for the first few primes, (iii) we verify the adelic product formula $\prod_{v}|q|_{v}=1$ and derive the redundancy relation $|q|_{\infty}= \prod_{p}|q|_{p}^{-1}$, (iv) we estimate the average number of primes that carry non‑trivial valuation data for reduced fractions with numerator and denominator below $10^{3}$, and (v) we count the discriminating power of valuation tuples over the primes $p\le13$. The exact verification for $q=6/35$ yields a product of $1$, while a second example $q=1001/1000$ reproduces the same result with larger $p$‑adic factors. The average number of non‑trivial primes is $3.94$, and valuation tuples over $p\le13$ distinguish $3.89\times10^{5}$ classes, comparable to the $3.04\times10^{5}$ reduced fractions with denominator $\le10^{3}$. These results imply that the Archimedean place carries no independent information for rational observables; consequently, ultra‑precise measurements of constants such as the fine‑structure constant $\alpha$ become direct probes of hidden $p$‑adic structure. Adoption of adelic modelling would therefore reshape theoretical design choices in collider physics, quantum‑information engineering, and cosmology.
 
-## 1. Introduction
-High‑energy physics, precision metrology, and quantum‑information engineering all rely on numerical predictions expressed as real‑valued quantities. The community — particle‑physicists, accelerator designers, and condensed‑matter experimentalists — spends billions of dollars building facilities (e.g., a $0.5$–$1.5\,$TeV linear collider [2] and X‑ray free‑electron lasers [4]) and performing measurements (e.g., $10^{12}$ $Z$‑bosons at future $e^{+}e^{-}$ colliders [1]) under the assumption that the real number field faithfully captures nature. If the underlying arithmetic is in fact adelic, the current design paradigm blocks the discovery of $p$‑adic contributions that could resolve outstanding puzzles such as the hierarchy problem, dark‑matter origins, or cosmological tensions [7]. A decision to incorporate finite‑prime valuations into theoretical modelling would change the way amplitudes are regularised, how quantisation conditions are derived, and how entropy formulas are interpreted.
+## 1. Introduction High‑energy physics, precision metrology, and quantum‑information engineering all rely on numerical predictions expressed as real‑valued quantities. The community — particle‑physicists, accelerator designers, and condensed‑matter experimentalists — spends billions of dollars building facilities (e.g., a $0.5$–$1.5\,$TeV linear collider [2] and X‑ray free‑electron lasers [4]) and performing measurements (e.g., $10^{12}$ $Z$‑bosons at future $e^{+}e^{-}$ colliders [1]) under the assumption that the real number field faithfully captures nature. If the underlying arithmetic is in fact adelic, the current design paradigm blocks the discovery of $p$‑adic contributions that could resolve outstanding puzzles such as the hierarchy problem, dark‑matter origins, or cosmological tensions [7]. A decision to incorporate finite‑prime valuations into theoretical modelling would change the way amplitudes are regularised, how quantisation conditions are derived, and how entropy formulas are interpreted.
 
 **Contributions.**  
 - **C1.** Exact verification of the adelic product formula for the rational observable $q=6/35$ (Section 4.3) and for $q=1001/1000$ (Section 4.6).  
@@ -14,8 +14,7 @@ High‑energy physics, precision metrology, and quantum‑information engineerin
 - **C5.** Projection of a falsifiability test based on multi‑scale fine‑structure‑constant measurements (Section 7).  
 - **C6.** Practical pathway for theorists and experimentalists to adopt adelic methods (Section 7).  
 
-## 2. Background and Related Work
-The need for new arithmetic frameworks is motivated by several concrete observations in the literature.
+## 2. Background and Related Work The need for new arithmetic frameworks is motivated by several concrete observations in the literature.
 
 The European Particle Physics Strategy Update notes that precise measurements of the $Z$ boson at future $e^{+}e^{-}$ colliders, in particular circular ones, would have $10^{12}$ $Z$‑bosons available [1, § 3.15]. Such unprecedented statistics demand theoretical error budgets well below the $1\,$% level, suggesting that hidden systematic structures (e.g., $p$‑adic contributions) could become dominant.
 
@@ -39,8 +38,7 @@ The European Particle Physics Strategy Update notes that precise measurements of
 
 Collectively, these works demonstrate that (i) precision experiments are reaching regimes where arithmetic subtleties matter, (ii) valuation theory already appears in algebraic contexts relevant to physics, and (iii) concrete experimental platforms exist that could reveal $p$‑adic signatures.
 
-## 3. Methods
-Our methodology is entirely analytical and proceeds in five stages.
+## 3. Methods Our methodology is entirely analytical and proceeds in five stages.
 
 1. **Rationalisation of observables.** We represent a physical quantity as a reduced rational number $q=a/b\in\mathbb{Q}$ in dimensionless (Planck) units. Two concrete examples are used: $q_{1}=6/35$ and $q_{2}=1001/1000$.
 
@@ -190,8 +188,7 @@ E = \sum_{p\le1000}\!\left(\frac{2}{p}-\frac{2}{p^{2}}\right)
 \]
 Rounded to two decimal places, $E\approx3.49$.
 
-### 4.9. Counting distinguishable valuation tuples for $p\le13$
-For each prime $p\le13$ the exponent $v_{p}(q)$ can range from $-\lfloor\log_{p}1000\rfloor$ to $+\lfloor\log_{p}1000\rfloor$, giving $2\lfloor\log_{p}1000\rfloor+1$ possibilities.
+### 4.9. Counting distinguishable valuation tuples for $p\le13$ For each prime $p\le13$ the exponent $v_{p}(q)$ can range from $-\lfloor\log_{p}1000\rfloor$ to $+\lfloor\log_{p}1000\rfloor$, giving $2\lfloor\log_{p}1000\rfloor+1$ possibilities.
 
 \[
 \begin{array}{c|c|c}
@@ -442,9 +439,7 @@ Assuming the pilot re‑uses an existing atomic‑interferometry laboratory (est
 **(f) Direct risks and misuse.**  
 A risk is that the numerical agreement $P\approx1$ could be interpreted as proof of adelic physics without sufficient statistical scrutiny, leading to premature theoretical revisions. To mitigate this, any claim of adelic redundancy must be accompanied by a full uncertainty analysis and independent replication of the dual‑scale $\alpha$ measurement.
 
-## 10. Conclusion
-**(a) Intended users and design impact.**  
-The primary users are theoretical physicists developing quantum‑gravity and beyond‑Standard‑Model models, and experimental collaborations planning next‑generation colliders (e.g., linear colliders [2]) and precision metrology programmes (e.g., fine‑structure‑constant determinations [8]). Adoption of adelic methods would require amplitude‑calculation software to incorporate $p$‑adic terms and would motivate the inclusion of $p$‑adic diagnostics in data‑analysis pipelines.
+## 10. Conclusion **(a) Intended users and design impact.** The primary users are theoretical physicists developing quantum‑gravity and beyond‑Standard‑Model models, and experimental collaborations planning next‑generation colliders (e.g., linear colliders [2]) and precision metrology programmes (e.g., fine‑structure‑constant determinations [8]). Adoption of adelic methods would require amplitude‑calculation software to incorporate $p$‑adic terms and would motivate the inclusion of $p$‑adic diagnostics in data‑analysis pipelines.
 
 **(b) Technology readiness.**  
 The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (formulation of concept and analytical studies).
@@ -467,8 +462,7 @@ Assuming the pilot leverages existing atomic‑interferometry infrastructure ($\
 **(f) Risks and misuse.**  
 Statistical fluctuations could be misinterpreted as $p$‑adic signatures, leading to premature theoretical claims. Rigorous statistical treatment and independent replication are essential to mitigate this risk.
 
-## 11. Conclusion
-We have demonstrated, through explicit arithmetic, that finite‑prime valuations are mathematically indispensable for the adelic product formula to hold for rational observables. The examples $q=6/35$ and $q=1001/1000$ show that the real absolute value alone is insufficient; the contributions of $p=2,3,5,7$ (and $p=2,5,7,11,13$) exactly compensate to yield unity. The redundancy relation $|q|_{\infty}= \prod_{p}|q|_{p}^{-1}$ proves that the Archimedean place carries no independent information for rational observables. Statistical estimates indicate that a typical reduced fraction below $10^{3}$ involves roughly $3.94$ non‑trivial primes, and valuation tuples over $p\le13$ distinguish $3.89\times10^{5}$ classes, comparable to the number of reduced fractions with denominator $\le$ $10^{3}$. These findings suggest that ultra‑precise measurements of constants such as the fine‑structure constant $\alpha$ become direct probes of hidden $p$‑adic structure. By exposing the hidden $p$‑adic layer, the work invites a re‑examination of quantisation conditions, scattering‑amplitude regularisation, and entropy calculations across particle physics, quantum information, and cosmology. The proposed pilot experiment offers a concrete route to either validate or falsify the adelic hypothesis, thereby addressing the anthropocentric bias of a real‑number‑only paradigm.
+## 11. Conclusion We have demonstrated, through explicit arithmetic, that finite‑prime valuations are mathematically indispensable for the adelic product formula to hold for rational observables. The examples $q=6/35$ and $q=1001/1000$ show that the real absolute value alone is insufficient; the contributions of $p=2,3,5,7$ (and $p=2,5,7,11,13$) exactly compensate to yield unity. The redundancy relation $|q|_{\infty}= \prod_{p}|q|_{p}^{-1}$ proves that the Archimedean place carries no independent information for rational observables. Statistical estimates indicate that a typical reduced fraction below $10^{3}$ involves roughly $3.94$ non‑trivial primes, and valuation tuples over $p\le13$ distinguish $3.89\times10^{5}$ classes, comparable to the number of reduced fractions with denominator $\le$ $10^{3}$. These findings suggest that ultra‑precise measurements of constants such as the fine‑structure constant $\alpha$ become direct probes of hidden $p$‑adic structure. By exposing the hidden $p$‑adic layer, the work invites a re‑examination of quantisation conditions, scattering‑amplitude regularisation, and entropy calculations across particle physics, quantum information, and cosmology. The proposed pilot experiment offers a concrete route to either validate or falsify the adelic hypothesis, thereby addressing the anthropocentric bias of a real‑number‑only paradigm.
 
 ## Provenance and AI Involvement
 
