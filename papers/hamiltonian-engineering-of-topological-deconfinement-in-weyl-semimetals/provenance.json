@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hamiltonian-engineering-of-topological-deconfinement-in-weyl-semimetals",
+  "paper": {
+    "path": "papers/hamiltonian-engineering-of-topological-deconfinement-in-weyl-semimetals/paper.md",
+    "title": "Hamiltonian Engineering of Topological Deconfinement in Weyl Semimetals",
+    "url": "https://papers.qnfo.org/papers/hamiltonian-engineering-of-topological-deconfinement-in-weyl-semimetals"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hamiltonian-engineering-of-topological-deconfinement-in-weyl-semimetals"
+  },
+  "snapshots": [
+    {
+      "sha256": "96abea50c3660622dc1e7caa5ef1ebec2fbdf1fe8bf606bb12c45987ce4ee0b5",
+      "bytes": 49708,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

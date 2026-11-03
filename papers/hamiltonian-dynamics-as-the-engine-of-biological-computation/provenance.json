@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "hamiltonian-dynamics-as-the-engine-of-biological-computation",
+  "paper": {
+    "path": "papers/hamiltonian-dynamics-as-the-engine-of-biological-computation/paper.md",
+    "title": "Hamiltonian Dynamics as the Engine of Biological Computation",
+    "url": "https://papers.qnfo.org/papers/hamiltonian-dynamics-as-the-engine-of-biological-computation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "hamiltonian-dynamics-as-the-engine-of-biological-computation"
+  },
+  "snapshots": [
+    {
+      "sha256": "8e368c56466dd95a5fdad5e954dfd2ff43bb00835751e47a52997006c0c9b656",
+      "bytes": 64276,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

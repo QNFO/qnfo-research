@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "harmonic-ostrowski-re-evaluation",
+  "paper": {
+    "path": "papers/harmonic-ostrowski-re-evaluation/paper.md",
+    "title": "The Harmonic Paradigm Under Ostrowski’s Theorem: A p-Adic/Adélic Re-Evaluation with Helical Compton Vortex Synthesis",
+    "url": "https://papers.qnfo.org/papers/harmonic-ostrowski-re-evaluation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "harmonic-ostrowski-re-evaluation"
+  },
+  "snapshots": [
+    {
+      "sha256": "4df47c539ff04fb761907c846fb2d0291d644f13affe55ef7c7026c4f9ae7522",
+      "bytes": 22460,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
