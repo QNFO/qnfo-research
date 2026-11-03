@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "consilient-synthesis-v2",
+  "paper": {
+    "path": "papers/consilient-synthesis-v2/paper.md",
+    "title": "QNFO Consilient Synthesis v2.0: The Shared Adelic Kernel",
+    "url": "https://papers.qnfo.org/papers/consilient-synthesis-v2"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "consilient-synthesis-v2"
+  },
+  "snapshots": [
+    {
+      "sha256": "8a522ad13e8476388d0d1dcf4c666e5dd56edbae14663e9ba4ebc524e1a0c8bc",
+      "bytes": 18437,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "2.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

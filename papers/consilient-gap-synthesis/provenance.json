@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "consilient-gap-synthesis",
+  "paper": {
+    "path": "papers/consilient-gap-synthesis/paper.md",
+    "title": "A Consilient Gap Synthesis of the QNFO/QWAV Research Portfolio",
+    "url": "https://papers.qnfo.org/papers/consilient-gap-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "consilient-gap-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "2aa543121b29c5aad03bf0d1317c6ac7579b9d88403c0050a7328ffc5c29c2b0",
+      "bytes": 21448,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

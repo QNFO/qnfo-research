@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "continuous-signal-processing-for-josephson-junction-readout",
+  "paper": {
+    "path": "papers/continuous-signal-processing-for-josephson-junction-readout/paper.md",
+    "title": "Continuous Signal Processing for Josephson Junction Readout",
+    "url": "https://papers.qnfo.org/papers/continuous-signal-processing-for-josephson-junction-readout"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "continuous-signal-processing-for-josephson-junction-readout"
+  },
+  "snapshots": [
+    {
+      "sha256": "4c82e1478056c4d36f70702eaf84b3e5751d43be6515f9a35430852c2f4a6aa4",
+      "bytes": 39353,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

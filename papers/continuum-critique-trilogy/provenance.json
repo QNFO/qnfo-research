@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "continuum-critique-trilogy",
+  "paper": {
+    "path": "papers/continuum-critique-trilogy/paper.md",
+    "title": "The Continuum Critique Trilogy",
+    "url": "https://papers.qnfo.org/papers/continuum-critique-trilogy"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "continuum-critique-trilogy"
+  },
+  "snapshots": [
+    {
+      "sha256": "73b17d57a99979b1b6ca035c9d798be06bab036ef85eb892914419a7abba836e",
+      "bytes": 27498,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
