@@ -4,8 +4,6 @@
 
 The standard braid group $B_n$ is defined as the fundamental group of the configuration space of $n$ distinct points in $\mathbb{R}^2$, $\pi_1(\text{Conf}_n(\mathbb{R}^2))$. This construction is inherently archimedean: it relies on the continuous topology of $\mathbb{R}^2$ to define braiding as continuous path homotopy. By Ostrowski's theorem, the archimedean absolute value $|\cdot|_\infty$ is only one of infinitely many inequivalent completions of $\mathbb{Q}$. We construct the p-adic braid group $B_n(\mathbb{Q}_p)$ on the Bruhat-Tits tree $\mathcal{T}_p$ for $\text{SL}_2(\mathbb{Q}_p)$. The construction replaces continuous paths in $\mathbb{R}^2$ with geodesic edge-paths in the $(p+1)$-regular ultrametric tree. We prove that $B_n(\mathbb{Q}_p)$ satisfies the standard braid relations and admits a surjection onto the symmetric group $S_n$, establishing it as a genuine braid group. We identify the fundamental structural difference: the ultrametric geometry of $\mathcal{T}_p$ eliminates continuous homotopy in favor of discrete tree distance, making braid words inherently finite and p-adically graded. This provides the foundation for defining p-adic anyons and ultrametric topological quantum computation.
 
----
-
 ## 1. Introduction
 
 ### 1.1 The Archimedean Braid Group

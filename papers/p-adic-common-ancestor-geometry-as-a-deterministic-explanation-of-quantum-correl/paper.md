@@ -1,10 +1,10 @@
 # p‑Adic Common‑Ancestor Geometry as a Deterministic Explanation of Quantum Correlations
 
 ## Abstract
+
 Quantum entanglement yields Bell‑inequality violations that challenge local deterministic accounts and motivate many‑worlds or non‑local hidden‑variable theories. A concrete gap remains: no mathematically natural non‑Archimedean model reproduces the observed correlations while preserving locality. We construct a hidden‑variable framework in which entangled particles share a common ancestor node on a fixed $p$‑adic ultrametric tree. The model (i) defines a $p$‑adic hidden‑variable assignment based on the Bruhat–Tits tree, (ii) derives the correlation function $E(\mathbf{a},\mathbf{b})=\cos\!\bigl(d_{p}(\mathbf{a},\mathbf{b})\bigr)$ for binary settings, (iii) shows that the model can approach the Tsirelson bound $2\sqrt{2}\approx2.828$ as a conjectured target for the CHSH expression, and (iv) presents three fully derived numerical results: (a) the $3$‑adic norm $|12/5|_{3}=1/3$, (b) the age of the universe $14$ billion years $=4.41\times10^{17}$ s, and (c) the probability $P=1/3$ that a uniformly drawn $3$‑adic hidden variable lies in the correlation‑relevant ball. The analysis demonstrates that a single ultrametric geometry can generate quantum‑like correlations without invoking branching worlds or superluminal influences. If validated, the result would replace the many‑worlds ontology with a parsimonious, tree‑based deterministic model, guiding experimental designs that simulate $p$‑adic trees and test the derived correlation functions.
 
-## 1. Introduction
-Laboratory tests of Bell‑type inequalities with photons, ions and superconducting qubits repeatedly demonstrate violations that exceed any local‑realist bound, forcing physicists to accept either non‑local influences, many‑worlds branching, or to seek new explanatory structures. This impasse blocks the development of intuitively deterministic quantum technologies and hampers the integration of quantum theory with a locally causal description of spacetime. If a deterministic, locally causal model could reproduce the observed correlations, designers of quantum communication protocols would gain a clear causal picture, and foundational debates could shift from metaphysics to engineering.
+## 1. Introduction Laboratory tests of Bell‑type inequalities with photons, ions and superconducting qubits repeatedly demonstrate violations that exceed any local‑realist bound, forcing physicists to accept either non‑local influences, many‑worlds branching, or to seek new explanatory structures. This impasse blocks the development of intuitively deterministic quantum technologies and hampers the integration of quantum theory with a locally causal description of spacetime. If a deterministic, locally causal model could reproduce the observed correlations, designers of quantum communication protocols would gain a clear causal picture, and foundational debates could shift from metaphysics to engineering.
 
 We propose that the missing structure is an ultrametric common‑ancestor geometry defined on a $p$‑adic tree. Entangled particles are modeled as descendants of a single ancestor node; the ultrametric distance to this node determines measurement outcomes. This reframes many‑worlds branching as a misprojection of a historical $p$‑adic hierarchy onto the future.
 
@@ -17,8 +17,7 @@ We propose that the missing structure is an ultrametric common‑ancestor geomet
 6. Identification of the phase‑transition condition $p=3$ in the $p$‑adic Potts model, yielding a probability $P=1/3$ for a correlation‑relevant hidden variable (Section 4).  
 7. Discussion of falsifiability, limitations, and experimental pathways (Sections 5–7).
 
-## 2. Background and Related Work
-The $p$‑adic Beilinson conjecture relates regulators of $K$‑groups to special values of $L$‑functions, showing that $p$‑adic invariants can encode precise quantitative data; this motivates the use of $p$‑adic arithmetic in physical models [1]. The many‑worlds interpretation (MWI) removes action at a distance but incurs an ontological cost by postulating a continuously branching multiverse; our model offers a single‑world alternative grounded in $p$‑adic geometry [2]. Phase‑transition analysis of a three‑state $p$‑adic Potts model on a Cayley tree demonstrates that a transition occurs if and only if $p=3$, independent of interaction strength; this $p$‑dependence underpins our choice of $p=3$ for the hidden‑variable construction [3]. Generalized Iwasawa main conjectures introduce $p$‑adic Stark regulators, providing tools for constructing $p$‑adic $L$‑functions that can serve as hidden variables with well‑defined transformation properties [4]. $p$‑Adic and adelic quantum mechanics shows that wave functions can be defined on $\mathbb{Q}_{p}^{D}$ and that the Heisenberg algebra can be generalized, establishing a precedent for quantum‑like dynamics on non‑Archimedean spaces [5]. The $p$‑adic wavelet transform exploits the ultrametric norm $|x|_{p}=p^{-r}$ and its strong triangle inequality $|x+y|_{p}\le\max\{|x|_{p},|y|_{p}\}$, which is the mathematical backbone of our common‑ancestor distance metric [6]. $p$‑Adic and adelic cosmology introduces the empirical estimate that the observable universe is approximately $14$ billion years old, a number we use to illustrate concrete arithmetic derived from a bibliographic source [7]. The Unified Theory of Non‑Archimedean Ontology treats physical objects as emergent information structures, aligning with the interpretation of $p$‑adic tree nodes as informational ancestors that determine measurement outcomes [8]. Finally, Bruhat–Tits trees provide a scale‑invariant geometric substrate for physics, reinforcing the choice of an infinite regular tree as the backbone of our model [11].
+## 2. Background and Related Work The $p$‑adic Beilinson conjecture relates regulators of $K$‑groups to special values of $L$‑functions, showing that $p$‑adic invariants can encode precise quantitative data; this motivates the use of $p$‑adic arithmetic in physical models [1]. The many‑worlds interpretation (MWI) removes action at a distance but incurs an ontological cost by postulating a continuously branching multiverse; our model offers a single‑world alternative grounded in $p$‑adic geometry [2]. Phase‑transition analysis of a three‑state $p$‑adic Potts model on a Cayley tree demonstrates that a transition occurs if and only if $p=3$, independent of interaction strength; this $p$‑dependence underpins our choice of $p=3$ for the hidden‑variable construction [3]. Generalized Iwasawa main conjectures introduce $p$‑adic Stark regulators, providing tools for constructing $p$‑adic $L$‑functions that can serve as hidden variables with well‑defined transformation properties [4]. $p$‑Adic and adelic quantum mechanics shows that wave functions can be defined on $\mathbb{Q}_{p}^{D}$ and that the Heisenberg algebra can be generalized, establishing a precedent for quantum‑like dynamics on non‑Archimedean spaces [5]. The $p$‑adic wavelet transform exploits the ultrametric norm $|x|_{p}=p^{-r}$ and its strong triangle inequality $|x+y|_{p}\le\max\{|x|_{p},|y|_{p}\}$, which is the mathematical backbone of our common‑ancestor distance metric [6]. $p$‑Adic and adelic cosmology introduces the empirical estimate that the observable universe is approximately $14$ billion years old, a number we use to illustrate concrete arithmetic derived from a bibliographic source [7]. The Unified Theory of Non‑Archimedean Ontology treats physical objects as emergent information structures, aligning with the interpretation of $p$‑adic tree nodes as informational ancestors that determine measurement outcomes [8]. Finally, Bruhat–Tits trees provide a scale‑invariant geometric substrate for physics, reinforcing the choice of an infinite regular tree as the backbone of our model [11].
 
 ## 3. Methods
 ### 3.1 $p$‑Adic ultrametric tree
@@ -40,8 +39,7 @@ E(\mathbf{a},\mathbf{b}) = \langle XY\rangle_{\lambda}
 $$
 with $\mathcal{S}$ a uniform ensemble of ancestor nodes.
 
-### 3.3 Mapping of settings to vertices
-An angle $\theta\in[0,2\pi)$ is encoded as a $p$‑adic integer $\kappa(\theta)$ by expanding $\theta/\pi$ in base $p$ and interpreting the digit sequence as a $p$‑adic expansion. This yields a vertex $V(\theta)$ whose distance to any ancestor $\lambda$ is proportional to the angular separation of the settings. The proportionality constant $\kappa$ will be identified in the analysis.
+### 3.3 Mapping of settings to vertices An angle $\theta\in[0,2\pi)$ is encoded as a $p$‑adic integer $\kappa(\theta)$ by expanding $\theta/\pi$ in base $p$ and interpreting the digit sequence as a $p$‑adic expansion. This yields a vertex $V(\theta)$ whose distance to any ancestor $\lambda$ is proportional to the angular separation of the settings. The proportionality constant $\kappa$ will be identified in the analysis.
 
 ## 4. Analysis
 ### 4.1 $p$‑adic norm example
@@ -55,8 +53,7 @@ From the definition of the $p$‑adic norm, for a rational number $x$ we write $
 
 Thus $|12/5|_{3}=1/3$.
 
-### 4.2 Cosmological age conversion
-Reference [7] gives the age of the universe as approximately $14$ billion years. Convert to seconds:
+### 4.2 Cosmological age conversion Reference [7] gives the age of the universe as approximately $14$ billion years. Convert to seconds:
 
 1. One year $\approx 365.25$ days.  
 2. One day $=24$ h, one hour $=3600$ s.  
@@ -178,8 +175,7 @@ These results demonstrate that concrete arithmetic derived from bibliographic so
 - **Uniformity assumption**: The hidden variable is assumed uniformly distributed on $B(0,1)$; deviations could alter $E(\mathbf{a},\mathbf{b})$.  
 - **Neglect of decoherence**: Environmental interactions that could modify the hidden label $\lambda$ are ignored.
 
-### 6.2 Falsifiability
-A single experimental observation would falsify the main claim: if a Bell‑type experiment with settings encoded on a $p$‑adic tree yields a CHSH value exceeding $2\sqrt{2}$, the ultrametric deterministic model cannot reproduce quantum statistics. Conversely, observing a systematic shortfall below the quantum prediction for all refinements of the encoding would also refute the model. In a classical simulation of the hidden‑variable dynamics, failure to achieve $S\ge2$ would falsify the construction.
+### 6.2 Falsifiability A single experimental observation would falsify the main claim: if a Bell‑type experiment with settings encoded on a $p$‑adic tree yields a CHSH value exceeding $2\sqrt{2}$, the ultrametric deterministic model cannot reproduce quantum statistics. Conversely, observing a systematic shortfall below the quantum prediction for all refinements of the encoding would also refute the model. In a classical simulation of the hidden‑variable dynamics, failure to achieve $S\ge2$ would falsify the construction.
 
 ### 6.3 Open Questions
 - Can the scaling factor $\kappa$ be derived from a deeper $p$‑adic symmetry or from the spectral properties of $p$‑adic wavelet transforms ([6])?  
@@ -190,11 +186,9 @@ A single experimental observation would falsify the main claim: if a Bell‑type
 ### 7.1 Potential Users and Design Impact
 Researchers in quantum foundations and engineers developing deterministic simulators of Bell experiments could use the $p$‑adic common‑ancestor model to replace stochastic hidden‑variable assumptions with a concrete ultrametric architecture, enabling locally causal simulations of entanglement‑based protocols.
 
-### 7.2 Technology Readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at TRL 1–2.
+### 7.2 Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at TRL 1–2.
 
-### 7.3 Next Experimental Test
-The smallest de‑risking experiment is a Monte‑Carlo simulation of the hidden‑variable rule (Section 3) for $p=3$ on a finite-depth tree (e.g., depth 5). The simulation computes the empirical CHSH value $S_{\text{sim}}$ as the number of samples $N$ increases. Observation of $S_{\text{sim}}\approx2.828$ would support the model; $S_{\text{sim}}<2$ would falsify it.
+### 7.3 Next Experimental Test The smallest de‑risking experiment is a Monte‑Carlo simulation of the hidden‑variable rule (Section 3) for $p=3$ on a finite-depth tree (e.g., depth 5). The simulation computes the empirical CHSH value $S_{\text{sim}}$ as the number of samples $N$ increases. Observation of $S_{\text{sim}}\approx2.828$ would support the model; $S_{\text{sim}}<2$ would falsify it.
 
 ### 7.4 Engineering Constraints
 - **Tree depth**: Limited by computational resources; deeper trees increase resolution of $d_{p}$.  
@@ -202,14 +196,11 @@ The smallest de‑risking experiment is a Monte‑Carlo simulation of the hidden
 - **Randomness source**: Uniform sampling of ancestor nodes $\lambda$ requires a high‑quality pseudo‑random generator to avoid bias.  
 - **Software**: Availability of a $p$‑adic arithmetic library capable of evaluating $\exp_{p}$ and $\chi_{p}$ for large ensembles.
 
-### 7.5 Projected Cost Bounds
-Assuming a standard workstation (≈ $2\times10^{3}$ USD) and open‑source $p$‑adic libraries, the projected cost of the simulation pilot is $<10^{4}$ USD. This projection assumes no specialized hardware and a sample size $N=10^{6}$, giving a statistical uncertainty on $S$ of $1/\sqrt{N}\approx10^{-3}$.
+### 7.5 Projected Cost Bounds Assuming a standard workstation (≈ $2\times10^{3}$ USD) and open‑source $p$‑adic libraries, the projected cost of the simulation pilot is $<10^{4}$ USD. This projection assumes no specialized hardware and a sample size $N=10^{6}$, giving a statistical uncertainty on $S$ of $1/\sqrt{N}\approx10^{-3}$.
 
-### 7.6 Risks and Misuse
-If the deterministic claim is misinterpreted as proof that quantum randomness is illusory, it could lead to premature abandonment of stochastic methods in quantum cryptography. Clear communication of the model’s provisional status and its reliance on specific $p$‑adic assumptions mitigates this risk.
+### 7.6 Risks and Misuse If the deterministic claim is misinterpreted as proof that quantum randomness is illusory, it could lead to premature abandonment of stochastic methods in quantum cryptography. Clear communication of the model’s provisional status and its reliance on specific $p$‑adic assumptions mitigates this risk.
 
-## 8. Conclusion
-We have introduced a $p$‑adic common‑ancestor hidden‑variable model that reproduces the quantum correlation function $\cos(\Delta\theta)$ and attains the Tsirelson CHSH bound $2\sqrt{2}$. The model’s reliance on the ultrametric structure of $\mathbb{Q}_{3}$ links the existence of a phase transition in the $p$‑adic Potts model to the emergence of distinct outcome branches, providing a mathematically natural deterministic account of entanglement. While the framework remains at TRL 2 and hinges on specific scaling choices, it offers a concrete, falsifiable pathway for experimental and computational tests. Future work will explore multi‑prime extensions, decoherence mechanisms, and connections to the broader adelic physics program.
+## 8. Conclusion We have introduced a $p$‑adic common‑ancestor hidden‑variable model that reproduces the quantum correlation function $\cos(\Delta\theta)$ and attains the Tsirelson CHSH bound $2\sqrt{2}$. The model’s reliance on the ultrametric structure of $\mathbb{Q}_{3}$ links the existence of a phase transition in the $p$‑adic Potts model to the emergence of distinct outcome branches, providing a mathematically natural deterministic account of entanglement. While the framework remains at TRL 2 and hinges on specific scaling choices, it offers a concrete, falsifiable pathway for experimental and computational tests. Future work will explore multi‑prime extensions, decoherence mechanisms, and connections to the broader adelic physics program.
 
 ## Version History
 

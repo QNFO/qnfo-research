@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/ouroboran-universe-and-nature-of-time"
   },
   "declared": {
-    "version": "1.0.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 88484,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "80bbc39954480294b59fe4ce9212651e09d1975bdc98c103a1e6824fa8278747",
+      "bytes": 88475,
+      "recorded_at": "2026-11-03",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

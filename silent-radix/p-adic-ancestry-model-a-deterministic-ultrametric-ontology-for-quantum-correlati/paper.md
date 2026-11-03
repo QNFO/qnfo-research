@@ -1,10 +1,10 @@
 # p‑Adic Ancestry Model: A Deterministic Ultrametric Ontology for Quantum Correlations
 
 ## Abstract
+
 Entangled particles exhibit Bell‑inequality violations that are normally interpreted as evidence for non‑local influences or many‑worlds branching. A concrete alternative is proposed: the **p‑adic ancestry model**, in which the ultrametric structure of a p‑adic tree encodes a fixed hidden‑variable genealogy that determines present‑day correlations. The model replaces co‑existing worlds with a single deterministic ancestor node shared by the particles. We construct an explicit hidden‑variable scheme on a binary Cayley tree, derive its correlation function, and compute the resulting CHSH parameter. Using the prime $p=3$ (the only value that yields a phase transition in the $p$‑adic Potts model [2]) and a tree depth $L=3$, the model reproduces a CHSH value $S=2.724$, which is approximately 3.7% below the Tsirelson bound $2\sqrt2\approx2.828$. The derivation relies on $p$‑adic regulator formulas [1], the existence of $p$‑adic regulators in Iwasawa theory [3], and the mapping of $p$‑adic completions to discrete quantum numbers via Ostrowski’s theorem [8]. We discuss experimental tests, practical implications for quantum‑network engineering, and a roadmap toward a decisive prototype.
 
-## 1. Introduction
-Quantum‑information technologies, from secure communication to quantum‑enhanced sensing, rely on entanglement‑based protocols whose security and performance are guaranteed by Bell‑inequality violations. Current implementations assume that the observed violations stem either from genuine non‑local influences or from a branching multiverse, both of which challenge classical intuitions about causality and locality. If these assumptions are incorrect, engineering designs that depend on “instantaneous” correlations could be vulnerable to hidden systematic errors, and foundational interpretations of quantum mechanics would require revision.
+## 1. Introduction Quantum‑information technologies, from secure communication to quantum‑enhanced sensing, rely on entanglement‑based protocols whose security and performance are guaranteed by Bell‑inequality violations. Current implementations assume that the observed violations stem either from genuine non‑local influences or from a branching multiverse, both of which challenge classical intuitions about causality and locality. If these assumptions are incorrect, engineering designs that depend on “instantaneous” correlations could be vulnerable to hidden systematic errors, and foundational interpretations of quantum mechanics would require revision.
 
 A deterministic, single‑branch explanation would remove the need for super‑luminal signaling or many‑worlds branching, offering a clearer causal picture for quantum‑network designers. The **p‑adic ancestry model** proposes exactly this: entangled particles share a common ancestor node in a hierarchical $p$‑adic state‑space, and the ultrametric distance between measurement settings and that ancestor determines the observed correlation. The model is grounded in several established $p$‑adic results:
 
@@ -23,8 +23,7 @@ A deterministic, single‑branch explanation would remove the need for super‑l
 4. Comprehensive discussion of limitations, falsification criteria, and a concrete experimental protocol (Section 6).  
 5. Translation of the result into practical guidance for quantum‑network engineers and a roadmap for the next prototype (Section 7).
 
-## 2. Background and Related Work
-The p‑adic literature provides several concrete ingredients that motivate the ancestry model.
+## 2. Background and Related Work The p‑adic literature provides several concrete ingredients that motivate the ancestry model.
 
 * **Regulator formulas.** In the $p$‑adic Beilinson conjecture for totally real fields, the regulator $R$ satisfies  
   $$w\sqrt{|D_k|}\,\operatorname{Res}_{s=1}\zeta_k(s)=2^{r_1}(2\pi)^{r_2}\,|\operatorname{Cl}(\mathcal{O}_k)|\,R,$$  
@@ -54,8 +53,7 @@ where $\ell(v,w)$ is the depth of their most recent common ancestor and $p$ is a
 
 A hidden variable $\lambda$ is assigned to each vertex as a real number drawn from a uniform distribution on $[0,1]$. The **ancestral state** shared by two particles is the value $\lambda_{a}$ at their common ancestor node $a$.
 
-### 3.2 Mapping Measurement Settings to Tree Paths
-A measurement setting $\theta\in[0,2\pi)$ is encoded as a binary path of length $L$ from the root: at each level we choose the left (0) or right (1) child according to the binary expansion of $\theta/\pi$. This defines a leaf vertex $v(\theta)$. The two parties, Alice and Bob, choose settings $\theta_A$ and $\theta_B$, yielding leaves $v_A$ and $v_B$.
+### 3.2 Mapping Measurement Settings to Tree Paths A measurement setting $\theta\in[0,2\pi)$ is encoded as a binary path of length $L$ from the root: at each level we choose the left (0) or right (1) child according to the binary expansion of $\theta/\pi$. This defines a leaf vertex $v(\theta)$. The two parties, Alice and Bob, choose settings $\theta_A$ and $\theta_B$, yielding leaves $v_A$ and $v_B$.
 
 ### 3.3 Correlation Function
 The correlation between outcomes $A,B\in\{-1,+1\}$ is defined as  
@@ -134,8 +132,7 @@ We now compute $S(L)$ for successive integer depths.
 
 Thus at depth $L=3$ the model yields $S=2.724$, which exceeds the classical bound $2$ and approaches the Tsirelson bound $2.828$ within approximately $3.7\%$.
 
-## 5. Results
-The analytical expression (5) demonstrates that the CHSH parameter monotonically approaches the Tsirelson bound as the tree depth $L$ increases. For the minimal depth that yields a violation beyond the classical bound by less than $5\%$, we find $L=3$ with $S=2.724$. This depth corresponds to a hidden‑variable resolution of $3^{-3}=0.037$ in the ultrametric space, i.e., a granularity of roughly $1/27$ of the full tree.
+## 5. Results The analytical expression (5) demonstrates that the CHSH parameter monotonically approaches the Tsirelson bound as the tree depth $L$ increases. For the minimal depth that yields a violation beyond the classical bound by less than $5\%$, we find $L=3$ with $S=2.724$. This depth corresponds to a hidden‑variable resolution of $3^{-3}=0.037$ in the ultrametric space, i.e., a granularity of roughly $1/27$ of the full tree.
 
 All numbers arise from the explicit derivations in Section 4; no empirical data were generated. The result is therefore a **projection** based on the model’s assumptions (uniform hidden‑variable distribution, binary encoding of measurement settings, and the choice $p=3$). The projection is labeled accordingly.
 
@@ -151,8 +148,7 @@ All numbers arise from the explicit derivations in Section 4; no empirical dat
 
 If any of these assumptions fail, the predicted $S$ value could deviate substantially from $2.724$.
 
-### 6.2 Falsification Criterion
-The model predicts a specific functional dependence $S(L)=2\sqrt2\,(1-3^{-L})$. An experiment that measures the CHSH parameter for entangled photon pairs at the standard settings and finds a value **inconsistent** with any integer $L$ (i.e., not of the form $2\sqrt2\,(1-3^{-L})$ within experimental uncertainty) would falsify the model. In particular, observing $S>2.73$ would require $L\ge4$, implying a hidden‑variable granularity finer than $3^{-4}=1/81$, which contradicts the model’s finite‑depth construction.
+### 6.2 Falsification Criterion The model predicts a specific functional dependence $S(L)=2\sqrt2\,(1-3^{-L})$. An experiment that measures the CHSH parameter for entangled photon pairs at the standard settings and finds a value **inconsistent** with any integer $L$ (i.e., not of the form $2\sqrt2\,(1-3^{-L})$ within experimental uncertainty) would falsify the model. In particular, observing $S>2.73$ would require $L\ge4$, implying a hidden‑variable granularity finer than $3^{-4}=1/81$, which contradicts the model’s finite‑depth construction.
 
 ### 6.3 Open Questions
 * Extension to multipartite entanglement (GHZ, W states).  
@@ -164,8 +160,7 @@ The model predicts a specific functional dependence $S(L)=2\sqrt2\,(1-3^{-L})$. 
 ### 7.1 Potential Users and Design Impact
 Quantum‑network engineers and protocol designers who rely on Bell‑inequality violations for device‑independent security can use the ancestry model to assess whether observed correlations could arise from a deterministic hidden‑variable structure. If the model holds, security proofs that assume intrinsic non‑locality would need to be revised to incorporate the possibility of a finite‑depth ultrametric hidden variable.
 
-### 7.2 Technology Readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 1–2** (basic principles observed, formulation of concept). No hardware or software has been built.
+### 7.2 Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 1–2** (basic principles observed, formulation of concept). No hardware or software has been built.
 
 ### 7.3 Next Experiment
 A minimal test consists of a standard CHSH experiment with high‑precision photon detectors. The protocol:
@@ -179,14 +174,11 @@ If $S_{\text{exp}}$ deviates from any value $2\sqrt2\,(1-3^{-L})$ for integer $L
 * **Data:** High‑resolution timing to resolve sub‑nanosecond coincidences is needed to ensure that detector jitter does not mask the subtle differences between $S=2.724$ and $S=2.828$.  
 * **Scale‑up:** Extending the model to deeper trees ($L>4$) quickly becomes computationally intensive due to exponential growth of leaf nodes ($3^{L}$).  
 
-### 7.5 Projected Performance Bounds
-Assuming ideal detectors and perfect state preparation, the model predicts a maximal CHSH value of $S_{\max}=2\sqrt2\approx2.828$ as $L\to\infty$. For a realistic depth $L=3$, the projected $S$ is $2.724$ (statistical uncertainty assumed to be $\pm0.01$ as a provisional estimate) under the model’s assumptions.
+### 7.5 Projected Performance Bounds Assuming ideal detectors and perfect state preparation, the model predicts a maximal CHSH value of $S_{\max}=2\sqrt2\approx2.828$ as $L\to\infty$. For a realistic depth $L=3$, the projected $S$ is $2.724$ (statistical uncertainty assumed to be $\pm0.01$ as a provisional estimate) under the model’s assumptions.
 
-### 7.6 Risks and Misuse
-If the model were mistakenly taken as evidence that Bell violations are *not* a resource for device‑independent security, insecure protocols could be deployed. Therefore, any engineering adoption must be accompanied by rigorous experimental validation.
+### 7.6 Risks and Misuse If the model were mistakenly taken as evidence that Bell violations are *not* a resource for device‑independent security, insecure protocols could be deployed. Therefore, any engineering adoption must be accompanied by rigorous experimental validation.
 
-## 8. Conclusion
-We have presented a deterministic, single‑branch ontology for quantum correlations based on the ultrametric structure of a $p$‑adic tree. By fixing the prime to $p=3$—the unique value yielding a phase transition in the $p$‑adic Potts model—and analyzing the correlation function on a finite‑depth tree, we derived an explicit CHSH expression that approaches the Tsirelson bound. The model is firmly rooted in established $p$‑adic mathematics, including regulator formulas [1], Iwasawa‑type $p$‑adic Stark regulators [3], and the mapping of $p$‑adic completions to discrete quantum numbers via Ostrowski’s theorem [8]. While the result currently resides at TRL 1–2, it offers a concrete, falsifiable prediction that can be tested with existing quantum‑optics technology. Confirmation would provide a locally deterministic explanation for Bell‑inequality violations, reshaping foundational interpretations and influencing the design of quantum information systems. Conversely, experimental falsification would reinforce the standard non‑local view and delineate the limits of ultrametric hidden‑variable approaches.
+## 8. Conclusion We have presented a deterministic, single‑branch ontology for quantum correlations based on the ultrametric structure of a $p$‑adic tree. By fixing the prime to $p=3$—the unique value yielding a phase transition in the $p$‑adic Potts model—and analyzing the correlation function on a finite‑depth tree, we derived an explicit CHSH expression that approaches the Tsirelson bound. The model is firmly rooted in established $p$‑adic mathematics, including regulator formulas [1], Iwasawa‑type $p$‑adic Stark regulators [3], and the mapping of $p$‑adic completions to discrete quantum numbers via Ostrowski’s theorem [8]. While the result currently resides at TRL 1–2, it offers a concrete, falsifiable prediction that can be tested with existing quantum‑optics technology. Confirmation would provide a locally deterministic explanation for Bell‑inequality violations, reshaping foundational interpretations and influencing the design of quantum information systems. Conversely, experimental falsification would reinforce the standard non‑local view and delineate the limits of ultrametric hidden‑variable approaches.
 
 ## Version History
 
