@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "84c4817e-f929-4eb5-8a3b-cd4bbc83bc52",
+    "slug": "a-quantized-measurement-action-threshold-as-a-falsifiable-dynamical-phase-transi",
+    "cycle": "cycle-429",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-03T01:51:07.383Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "b3c4707bf46c4dfc4889b5cbd84ebbd1265010cdfa423dce96c589e634152ef5",
+    "bytes": 43417,
+    "path": "papers/a-quantized-measurement-action-threshold-as-a-falsifiable-dynamical-phase-transi/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "4c807c7fde3f1b6774e81a644d0257348e2ab66339f764e192626de0d1e1be78",
+      "bytes": 40008,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "b3c4707bf46c4dfc4889b5cbd84ebbd1265010cdfa423dce96c589e634152ef5",
+      "bytes": 43417,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "3a35bd29ca7da00b6339dd82a4592dd1c52e79daed38722489c38cb06afcd6bc",
+      "bytes": 3134,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "1414fe337b553fe1b1ad08c1eda961eeaaef8af8fd84c4f64a4f44bda2922cbd",
+      "bytes": 4172,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "62003ca6e24c0f7657b02a119fca8035db41654adc03301a9e91ec7adc6e97db",
+      "bytes": 12540,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "af5bc67a8ec52a181beaca5c9ce2aa07d6abfba21fee9f4add697ef9ea0cd3c5",
+      "bytes": 6959,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "befaef390ad0ece48928a9aa960ef375f29a6d0506ec65129f5b5bbf64c947a0",
+      "bytes": 19567,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "7759f52d67f4d909a00941fd00f423342653429f906b9f96708c4ff0b9d2d31f",
+      "bytes": 20402,
+      "role": "draft"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-quantized-measurement-action-threshold-as-a-falsifiable-dynamical-phase-transi",
+  "paper": {
+    "path": "papers/a-quantized-measurement-action-threshold-as-a-falsifiable-dynamical-phase-transi/paper.md",
+    "title": "A Quantized Measurement-Action Threshold as a Falsifiable Dynamical Phase Transition",
+    "url": "https://papers.qnfo.org/papers/a-quantized-measurement-action-threshold-as-a-falsifiable-dynamical-phase-transi"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-429/a-quantized-measurement-action-threshold-as-a-falsifiable-dynamical-phase-transi",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "98791fce51a2227da0436567e5de44ad8099845bd1662a5859893ce435dc01e3"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "84c4817e-f929-4eb5-8a3b-cd4bbc83bc52"
+    ],
+    "living_paper_slug": "a-quantized-measurement-action-threshold-as-a-falsifiable-dynamical-phase-transi"
+  },
+  "snapshots": [
+    {
+      "sha256": "b3c4707bf46c4dfc4889b5cbd84ebbd1265010cdfa423dce96c589e634152ef5",
+      "bytes": 43417,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
