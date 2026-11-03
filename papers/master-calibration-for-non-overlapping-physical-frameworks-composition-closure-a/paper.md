@@ -324,8 +324,7 @@ No divergent claims were identified among the source drafts. All substantive sta
 
 The analytical framework developed in Sections 4–5 quantifies three intertwined obstacles to a master‑calibration effort: (i) a combinatorial overload of square‑constraint equations relative to the number of available pairwise maps, (ii) a first‑order closure‑error budget that quickly exceeds realistic tolerances, and (iii) an exponential decay of the joint success probability under the independence assumption for constraint satisfaction. Together these results delimit the feasible size of any globally calibrated family of frameworks and identify which schisms are structural (inherently unbridgeable) versus conventional (bridgeable at cost).
 
-### Limitations
-The quantitative conclusions rest on a set of explicit assumptions:
+### Limitations The quantitative conclusions rest on a set of explicit assumptions:
 
 1. **Independence of square constraints** – each of the $\binom{N}{3}=3654$ independent composition constraints is assumed to succeed with probability $p=0.9$ independently of all others (Input 8). Correlations would raise the joint failure probability and tighten the bound on admissible family size.
 2. **Uniform per‑edge error floor** – a minimum translation error $\varepsilon_{\min}=10^{-2}$ is taken from the systematic limit identified in 21 cm cosmology, where foregrounds are $10^{4}$–$10^{5}$ times brighter than the signal [6]. If actual edges can be calibrated more tightly, the chain‑length bound (Derivation 4) would relax; if they are worse, even a single edge would be structural.
@@ -337,8 +336,7 @@ The quantitative conclusions rest on a set of explicit assumptions:
 
 Sensitivity analysis shows that relaxing any of the above assumptions can shift the maximal admissible family size $n_{\max}$ by at most one or two units, but the exponential dependence of $P_{\mathrm{master}}$ on the number of constraints ensures that the qualitative conclusion—global calibration is only feasible for very small families—remains robust.
 
-### Failure modes
-If actual translation errors exceed $\varepsilon_{\min}=10^{-2}$, the chain‑length bound $k\le\ln(1-\tau)/\ln(1-\varepsilon_{\min})\approx0.0995$ (Derivation 4) implies that even a single edge violates the tolerance, rendering the corresponding schism structural. Correlated failures among square constraints would drive the joint success probability toward the Fréchet upper bound of $0.9$, dramatically shrinking the feasible $n_{\max}$. Insufficient overlap $S_{ij}$ would make the test battery undefined, causing $\varepsilon_{ij}$ to be unmeasurable and the corresponding map to be unusable. Finally, any mediating domain that cannot guarantee locally accurate odometry would invalidate the price reduction claimed in Derivation 7.
+### Failure modes If actual translation errors exceed $\varepsilon_{\min}=10^{-2}$, the chain‑length bound $k\le\ln(1-\tau)/\ln(1-\varepsilon_{\min})\approx0.0995$ (Derivation 4) implies that even a single edge violates the tolerance, rendering the corresponding schism structural. Correlated failures among square constraints would drive the joint success probability toward the Fréchet upper bound of $0.9$, dramatically shrinking the feasible $n_{\max}$. Insufficient overlap $S_{ij}$ would make the test battery undefined, causing $\varepsilon_{ij}$ to be unmeasurable and the corresponding map to be unusable. Finally, any mediating domain that cannot guarantee locally accurate odometry would invalidate the price reduction claimed in Derivation 7.
 
 ### Falsifiability criteria
 A concrete falsification test follows directly from Result R3. Assemble three subsystems that implement translations $\tau_{12}$, $\tau_{23}$ and $\tau_{31}$ with edge errors $\varepsilon_{12}=10^{-3}$, $\varepsilon_{23}=2\times10^{-3}$ and $\varepsilon_{31}=5\times10^{-4}$ (the values used in Derivation 3). Measure each $\varepsilon_{ij}$ on a common test battery, compute the closure error
@@ -355,8 +353,7 @@ A second falsification avenue concerns the combinatorial bound on family size. C
 * What systematic procedures can generate community‑wide test batteries that are both expressive enough to detect subtle translation failures and robust to domain‑drift effects highlighted in uncertainty‑calibration studies [7]?
 * To what extent can mediating domains be engineered to relax the odometry assumption without introducing new structural schisms?
 
-### Self‑critique
-The combinatorial argument treats each schism as an independent binary obstacle, which may overstate the difficulty of global calibration. If a single translation map can simultaneously resolve multiple related schisms (e.g., through a shared physical principle), the effective number of constraints would drop, potentially raising $n_{\max}$. Conversely, the first‑order error composition bound may underestimate error accumulation in highly coupled cycles, making the presented closure‑error estimates optimistic. Future work must therefore refine both the counting model and the error‑propagation algebra to assess whether the present limits are tight or merely conservative.
+### Self‑critique The combinatorial argument treats each schism as an independent binary obstacle, which may overstate the difficulty of global calibration. If a single translation map can simultaneously resolve multiple related schisms (e.g., through a shared physical principle), the effective number of constraints would drop, potentially raising $n_{\max}$. Conversely, the first‑order error composition bound may underestimate error accumulation in highly coupled cycles, making the presented closure‑error estimates optimistic. Future work must therefore refine both the counting model and the error‑propagation algebra to assess whether the present limits are tight or merely conservative.
 
 ## 7. Practical Implications and Engineering Pathways
 

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "mathematical-structures-underlying-physical-laws-and-statistical-phenomena",
+  "paper": {
+    "path": "papers/mathematical-structures-underlying-physical-laws-and-statistical-phenomena/paper.md",
+    "title": "Mathematical Structures Underlying Physical Laws",
+    "url": "https://papers.qnfo.org/papers/mathematical-structures-underlying-physical-laws-and-statistical-phenomena"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "mathematical-structures-underlying-physical-laws-and-statistical-phenomena"
+  },
+  "snapshots": [
+    {
+      "sha256": "edde08627b110e15bdec62ab17b0a20c4b41821a1532bc24096d301b92d61c85",
+      "bytes": 117106,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

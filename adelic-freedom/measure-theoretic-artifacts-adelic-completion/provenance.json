@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "measure-theoretic-artifacts-adelic-completion",
+  "paper": {
+    "path": "adelic-freedom/measure-theoretic-artifacts-adelic-completion/paper.md",
+    "title": "Measure-Theoretic Artifacts of the Archimedean Place — v2.0: The Completion Problem, the Langlands Connection, and the Adelic Restructuring of Fundamental Physics",
+    "url": "https://papers.qnfo.org/papers/measure-theoretic-artifacts-adelic-completion"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "measure-theoretic-artifacts-adelic-completion"
+  },
+  "snapshots": [
+    {
+      "sha256": "8740d41e6cf14ab09dd64652b1477a273a87f947bad9d1f054ef8da340a94327",
+      "bytes": 24443,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "2.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
