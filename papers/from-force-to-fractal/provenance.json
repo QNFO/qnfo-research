@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "from-force-to-fractal",
+  "paper": {
+    "path": "papers/from-force-to-fractal/paper.md",
+    "title": "From Force to Fractal",
+    "url": "https://papers.qnfo.org/papers/from-force-to-fractal"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "from-force-to-fractal"
+  },
+  "snapshots": [
+    {
+      "sha256": "79f07c0ceb1f6ffcf4001ba0f9fbcad3f2f84962307228b20a7c13b748cb4e54",
+      "bytes": 205221,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

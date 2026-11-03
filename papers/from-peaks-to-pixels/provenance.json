@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "from-peaks-to-pixels",
+  "paper": {
+    "path": "papers/from-peaks-to-pixels/paper.md",
+    "title": "From Peaks to Pixels",
+    "url": "https://papers.qnfo.org/papers/from-peaks-to-pixels"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "from-peaks-to-pixels"
+  },
+  "snapshots": [
+    {
+      "sha256": "d7ea2710ccad4835333aeff3987bd7415da7f0ef651d1f88a5346ef0d776cecd",
+      "bytes": 54893,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

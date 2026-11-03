@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "frequency-valuation-theory",
+  "paper": {
+    "path": "papers/frequency-valuation-theory/paper.md",
+    "title": "Frequency as Valuation Theory: The Rational Ratio at the Heart of Physical Law",
+    "url": "https://papers.qnfo.org/papers/frequency-valuation-theory"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "frequency-valuation-theory"
+  },
+  "snapshots": [
+    {
+      "sha256": "167c0c99acc06dffb8dd24e80c19e434e9d5465643f7716e29bdefadabd31f9a",
+      "bytes": 26470,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

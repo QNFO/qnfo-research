@@ -9,8 +9,7 @@ science and epistemic naturalism compels a fundamental ontological
 reorientation, displacing divinely imposed purpose in favor of an
 intrinsic agency rooted in the ambiguous freedom of the subject.
 
-## The Cognitive
-Dissolution of Supernaturalism
+## The Cognitive Dissolution of Supernaturalism
 
 The evaluation of miraculous phenomena necessitates a rigorous
 application of methodological naturalism, functioning as a primary
@@ -66,8 +65,7 @@ condemned to freedom, required to construct meaning through autonomous
 action within a strictly material world, rather than discovering a
 purpose purportedly written into the cosmos.
 
-## The Collapse of the Serious
-World
+## The Collapse of the Serious World
 
 The systematic invalidation of supernatural causality through
 epistemic naturalism precipitates a catastrophic failure of what De
@@ -129,8 +127,7 @@ individual to constantly reassert their freedom through concrete action,
 accepting that meaning is a finite, human creation rather than an
 infinite, divine command.
 
-## Facticity and the
-Reconstruction of Value
+## Facticity and the Reconstruction of Value
 
 The dissolution of supernatural causality via epistemic naturalism
 necessitates a fundamental ontological pivot: the abandonment of
