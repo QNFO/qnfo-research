@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-4bc6ada0-00df-4723-85f9-51eb896c0588",
+    "slug": "p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl",
+    "cycle": "cycle-436",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-03T09:55:03.717Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "f6749f67bc8072bcb4e78023dd43669f8700dcfc5f3676a8e1151e7728c79f40",
+      "bytes": 45478,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "f80b76a4a5a485b3cadd827c1f29e833d5846f0b7623db6e45d38e2bb4917a0b",
+      "bytes": 37807,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "260e707f9ca3a00adac9d499f02d2c7b25794df45794a5f04f709bafed70b2c7",
+      "bytes": 4617,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "158f10c45b45241d1ab0d5d22cb1aacd9b6207c192c2fa5b9e40ad6b4d0197f1",
+      "bytes": 1221,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "a0f0dab0e6290e1a3340361a4f8cb9cd3922e83c550df134244b076edaae6796",
+      "bytes": 10790,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "d573bc2952382d573979bd2114325ac6e9192836b195c1ed087f87c6585d9e4f",
+      "bytes": 5514,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "9c6b96b5319e8079ef8ffa1832a2f03c00bdfa04ea9e2ee4cd06e2606618cf6d",
+      "bytes": 19194,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "fce2dd8a7252f22feee03d9f6a32e02207f839b69b2e7b35a432e0c53c1fcd1d",
+      "bytes": 15431,
+      "role": "draft"
+    }
+  }
+}
