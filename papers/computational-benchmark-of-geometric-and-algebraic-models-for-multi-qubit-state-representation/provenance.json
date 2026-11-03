@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "computational-benchmark-of-geometric-and-algebraic-models-for-multi-qubit-state-representation",
+  "paper": {
+    "path": "papers/computational-benchmark-of-geometric-and-algebraic-models-for-multi-qubit-state-representation/paper.md",
+    "title": "Computational Benchmark of Geometric and Algebraic Models for Multi-Qubit State Representation",
+    "url": "https://papers.qnfo.org/papers/computational-benchmark-of-geometric-and-algebraic-models-for-multi-qubit-state-representation"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "computational-benchmark-of-geometric-and-algebraic-models-for-multi-qubit-state-representation"
+  },
+  "snapshots": [
+    {
+      "sha256": "b799f1108895700c9d99882ac28428cdf2d76d45e487e8301d467965e0539739",
+      "bytes": 53724,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

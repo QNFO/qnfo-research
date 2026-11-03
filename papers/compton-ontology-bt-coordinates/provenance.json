@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "compton-ontology-bt-coordinates",
+  "paper": {
+    "path": "papers/compton-ontology-bt-coordinates/paper.md",
+    "title": "The Compton-Counting Ontology and the Bruhat-Tits Tree",
+    "url": "https://papers.qnfo.org/papers/compton-ontology-bt-coordinates"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "compton-ontology-bt-coordinates"
+  },
+  "snapshots": [
+    {
+      "sha256": "63f69f38eeb42bd3880b2618bee301feb487b8f12b689b462625e6c87e12e1ce",
+      "bytes": 25515,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

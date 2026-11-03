@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "computable-real-boundary",
+  "paper": {
+    "path": "papers/computable-real-boundary/paper.md",
+    "title": "The Computable Real Boundary: Where Physics Ends and Cognitive Fiction Begins",
+    "url": "https://papers.qnfo.org/papers/computable-real-boundary"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "computable-real-boundary"
+  },
+  "snapshots": [
+    {
+      "sha256": "47180bab570396e728f06ef88cf460426ccbb580b19352a7496df24e602c3b73",
+      "bytes": 17183,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

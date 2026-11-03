@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "computational-simulation-approach-to-non-archimedean-quantum-architectures",
+  "paper": {
+    "path": "papers/computational-simulation-approach-to-non-archimedean-quantum-architectures/paper.md",
+    "title": "Computational Simulation Approach to Non-Archimedean Quantum Architectures",
+    "url": "https://papers.qnfo.org/papers/computational-simulation-approach-to-non-archimedean-quantum-architectures"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "computational-simulation-approach-to-non-archimedean-quantum-architectures"
+  },
+  "snapshots": [
+    {
+      "sha256": "d81effd44b85d2349a1be48100ff77dbe3098d76a62dc7fdf1477b2f75e0b50a",
+      "bytes": 64167,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "computational-simulation-of-geometric-orientation-codes",
+  "paper": {
+    "path": "papers/computational-simulation-of-geometric-orientation-codes/paper.md",
+    "title": "Computational Simulation of Geometric Orientation Codes",
+    "url": "https://papers.qnfo.org/papers/computational-simulation-of-geometric-orientation-codes"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "computational-simulation-of-geometric-orientation-codes"
+  },
+  "snapshots": [
+    {
+      "sha256": "f09c4352b0d013012db5c6645af6cdd0da0031b35bc1d3a4f246367ff672ec3b",
+      "bytes": 39954,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
