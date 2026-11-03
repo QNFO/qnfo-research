@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cryptochrome-magnetoreception",
+  "paper": {
+    "path": "papers/cryptochrome-magnetoreception/paper.md",
+    "title": "Cryptochrome Magnetoreception: The Radical Pair Mechanism and Its Implications for Quantum Biology",
+    "url": "https://papers.qnfo.org/papers/cryptochrome-magnetoreception"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cryptochrome-magnetoreception"
+  },
+  "snapshots": [
+    {
+      "sha256": "3d5247cab667fdf73da51dea71f49692e42ff2ec7631919ab7b324d26c7dadee",
+      "bytes": 14998,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

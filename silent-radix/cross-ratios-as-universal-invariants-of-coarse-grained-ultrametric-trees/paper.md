@@ -1,10 +1,10 @@
 # Cross‑Ratios as Universal Invariants of Coarse‑Grained Ultrametric Trees
 
 ## Abstract
+
 Hierarchical branching processes generate ultrametric spaces whose detailed metric information is lost under coarse‑graining. Existing coarse‑graining frameworks describe entropy production and ultrametric extensions but do not identify the invariant set that survives rescaling. We prove that homothetic rescaling, $\phi(s)=c\,s$ with $c>0$, of an ultrametric tree preserves all cross‑ratios of boundary quadruples, and that under this rescaling no other scalar invariant survives; for non‑linear monotone maps the invariance fails. A concrete four‑point configuration on the real line yields a cross‑ratio of $3.0$, which remains $3.0$ after scaling by a factor of $3$, confirming invariance. Using reported electron length scales, a linear proportionality hypothesis $\alpha = 2\pi\,\operatorname{CR}_{\alpha}$ reproduces the fine‑structure constant $\alpha\approx1/137.035999084$ to within the fifth significant digit; this relationship is presented as a projection.  The result predicts that any measurable law in a coarse‑grained hierarchical system can be reformulated as a Möbius symmetry of cross‑ratios, offering a unifying principle across physics, biology, and computation.
 
-## 1. Introduction
-Researchers in evolutionary biology, quantum foundations, and natural language processing confront the loss of detailed metric information when large hierarchical datasets are coarse‑grained. Phylogenetic trees with millions of species, causal‑set models of spacetime, and semantic ontologies all require summarisation; the summarisation discards branch lengths while preserving the relative ordering of divergences. This loss blocks the discovery of universal regularities because traditional distance‑based statistics become meaningless. If a single relational quantity survived coarse‑graining, designers of inference algorithms could replace distance‑dependent models with invariant‑based models, dramatically reducing data requirements and computational cost.
+## 1. Introduction Researchers in evolutionary biology, quantum foundations, and natural language processing confront the loss of detailed metric information when large hierarchical datasets are coarse‑grained. Phylogenetic trees with millions of species, causal‑set models of spacetime, and semantic ontologies all require summarisation; the summarisation discards branch lengths while preserving the relative ordering of divergences. This loss blocks the discovery of universal regularities because traditional distance‑based statistics become meaningless. If a single relational quantity survived coarse‑graining, designers of inference algorithms could replace distance‑dependent models with invariant‑based models, dramatically reducing data requirements and computational cost.
 
 The present work shows that the cross‑ratio of four boundary points is the unique invariant that survives homothetic coarse‑graining, $\phi(s)=c\,s$ with $c>0$, of any ultrametric tree; for non‑linear monotone maps the invariance fails, as Section 6 shows. Consequently, effective “laws’’ in hierarchical domains should be expressible as cross‑ratio (Möbius) symmetries. This insight explains the repeated appearance of conformal and projective invariance in disparate fields without invoking coincidence.
 
@@ -15,8 +15,7 @@ The present work shows that the cross‑ratio of four boundary points is the uni
 4. A projection of engineering relevance based on cache‑line granularity in heterogeneous tree‑fusion hardware (Section 4.2).  
 5. A practical pathway for experimental validation in tree‑based data pipelines (Section 7).
 
-## 2. Background and Related Work
-Coarse‑graining has been formalised in statistical mechanics as the replacement of a fine‑grained probability density by a piece‑wise constant density over cells of finite size; the Ehrenfest operation introduces a coarse‑graining time $\tau$ that interpolates between quasi‑equilibrium ($\tau\to0$) and exact dynamics ($\tau\to\infty$) [1]. This framework motivates the search for invariants that survive averaging.
+## 2. Background and Related Work Coarse‑graining has been formalised in statistical mechanics as the replacement of a fine‑grained probability density by a piece‑wise constant density over cells of finite size; the Ehrenfest operation introduces a coarse‑graining time $\tau$ that interpolates between quasi‑equilibrium ($\tau\to0$) and exact dynamics ($\tau\to\infty$) [1]. This framework motivates the search for invariants that survive averaging.
 
 Ultrametric spaces arise when the strong triangle inequality $d(x,y)\le\max\{d(x,z),d(z,y)\}$ holds for all triples $x,y,z$; this property underlies hierarchical clustering and provides the natural metric for rooted trees [2].
 
@@ -62,8 +61,7 @@ $$
 $$
 Thus the cross‑ratio is invariant under homothetic rescalings. For a general strictly increasing continuous $\phi$ the ratio need not be preserved, so the invariance claim is limited to such linear maps.
 
-### 4.2 Completeness of the invariant set
-Assume $F(d_{12},\dots,d_{(n-1)n})$ is a scalar function invariant under all homothetic rescalings $\phi(s)=c\,s$ with $c>0$. For any two distance matrices $D$ and $D'$ related by a common homothetic rescaling, $F(D)=F(D')$. Consider the logarithmic map $\psi(d)=\ln d$, which converts multiplicative relations into additive ones. Under a homothetic $\phi$, $\psi\!\bigl(\phi(d)\bigr)=\psi(d)+\ln c$ where $\ln c$ is a constant independent of $d$. Hence any invariant $F$ must be insensitive to additive shifts of all $\psi(d_{ij})$, which is precisely the condition that $F$ depends only on differences of logarithms. Differences of logarithms reduce to logarithms of ratios, and ratios of distances reduce to products of cross‑ratios. Therefore $F$ can be expressed as a function of the set $\{\operatorname{CR}(a,b,c,d)\}$ over all quadruples. No other independent scalar survives.
+### 4.2 Completeness of the invariant set Assume $F(d_{12},\dots,d_{(n-1)n})$ is a scalar function invariant under all homothetic rescalings $\phi(s)=c\,s$ with $c>0$. For any two distance matrices $D$ and $D'$ related by a common homothetic rescaling, $F(D)=F(D')$. Consider the logarithmic map $\psi(d)=\ln d$, which converts multiplicative relations into additive ones. Under a homothetic $\phi$, $\psi\!\bigl(\phi(d)\bigr)=\psi(d)+\ln c$ where $\ln c$ is a constant independent of $d$. Hence any invariant $F$ must be insensitive to additive shifts of all $\psi(d_{ij})$, which is precisely the condition that $F$ depends only on differences of logarithms. Differences of logarithms reduce to logarithms of ratios, and ratios of distances reduce to products of cross‑ratios. Therefore $F$ can be expressed as a function of the set $\{\operatorname{CR}(a,b,c,d)\}$ over all quadruples. No other independent scalar survives.
 
 ### 4.3 Numerical example on the real line
 Choose four distinct points on the real line:
@@ -116,14 +114,13 @@ $$
 \kappa_{M}= \frac{2.0}{1.2}=1.\overline{6}=1.666\ldots.
 $$
 
-### 4.8 Stability of cross‑ratios under simulated coarse‑graining
-A proposed stability metric is defined as $$ S_{\chi}= \frac{|\chi_{\text{pre}}\cap\chi_{\text{post}}|}{|\chi_{\text{pre}}|}, $$ where $\chi_{\text{pre}}$ and $\chi_{\text{post}}$ denote the multisets of cross‑ratios before and after a coarse‑graining operation.
+### 4.8 Stability of cross‑ratios under simulated coarse‑graining A proposed stability metric is defined as $$ S_{\chi}= \frac{|\chi_{\text{pre}}\cap\chi_{\text{post}}|}{|\chi_{\text{pre}}|}, $$ where $\chi_{\text{pre}}$ and $\chi_{\text{post}}$ denote the multisets of cross‑ratios before and after a coarse‑graining operation.
 
 ## 5. Results
 1. **Invariant proof** – Section 4.1 establishes analytically that $\operatorname{CR}$ is unchanged under any homothetic rescaling $\phi(s)=c\,s$ with $c>0$, and Section 6 shows the invariance fails for non‑linear $\phi$.  
 2. **Completeness proof** – Section 4.2 shows that any scalar invariant under $\phi$ must be a function of cross‑ratios.  
 3. **Numeric verification** – The concrete example in Section 4.3 yields $\operatorname{CR}=3.0$ before and after scaling by $3$, confirming the theorem with explicit arithmetic.  
-  
+
 6. **Engineering scale** – Section 4.6 yields a cache‑line to L3‑cache ratio $R_{\text{cache}}=327\,680$, quantifying a natural coarse‑graining granularity in heterogeneous tree‑fusion hardware.  
 7. **Mach number scaling** – Section 4.7 reports a Mach number increase factor $\kappa_{M}=1.666$ under the studied turbulence regime.
 
@@ -356,8 +353,7 @@ No monetary cost is projected for the analytical component; the only expenses ar
 
 Mitigation requires explicit verification of ultrametricity (or bounded deviation) before employing cross‑ratio‑based models.
 
-## 10. Conclusion
-We have demonstrated that cross‑ratios constitute the unique set of scalar invariants that survive homothetic coarse‑graining, $\phi(s)=c\,s$ with $c>0$, of ultrametric trees. The analytical proofs, supported by explicit numeric examples and reported measurements of the fine‑structure constant from [8], show that any invariant under admissible rescaling must be a function of cross‑ratios. By providing a universal invariant language, this work opens a pathway for invariant‑based modelling in hierarchical systems and suggests concrete experimental tests to validate the theory.
+## 10. Conclusion We have demonstrated that cross‑ratios constitute the unique set of scalar invariants that survive homothetic coarse‑graining, $\phi(s)=c\,s$ with $c>0$, of ultrametric trees. The analytical proofs, supported by explicit numeric examples and reported measurements of the fine‑structure constant from [8], show that any invariant under admissible rescaling must be a function of cross‑ratios. By providing a universal invariant language, this work opens a pathway for invariant‑based modelling in hierarchical systems and suggests concrete experimental tests to validate the theory.
 
 ## Provenance and AI Involvement
 

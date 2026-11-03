@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "cryogenically-stabilized-synthetic-lattice-architecture-for-fault-tolerant-quantum-computing",
+  "paper": {
+    "path": "papers/cryogenically-stabilized-synthetic-lattice-architecture-for-fault-tolerant-quantum-computing/paper.md",
+    "title": "CRYOGENICALLY STABILIZED SYNTHETIC LATTICE",
+    "url": "https://papers.qnfo.org/papers/cryogenically-stabilized-synthetic-lattice-architecture-for-fault-tolerant-quantum-computing"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "cryogenically-stabilized-synthetic-lattice-architecture-for-fault-tolerant-quantum-computing"
+  },
+  "snapshots": [
+    {
+      "sha256": "9c74ce62a0387e038da1c20a481f02978c4bf1c84a033dd7a7d2e2dd5a382cbd",
+      "bytes": 40775,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
