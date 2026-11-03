@@ -11,7 +11,14 @@
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-436/p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4b99289d5eb5fa6f75ee77b2a691a81d28791614680e37768cbad5d13a882c3e"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "p-adic-common-ancestor-geometry-as-a-deterministic-explanation-of-quantum-correl"
@@ -31,6 +38,14 @@
       "recorded_at": "2026-11-03",
       "basis": "revision",
       "version": "1.0.1",
+      "git_commit": null
+    },
+    {
+      "sha256": "29de0df09d9156cd06e57187e1a52d53f29e3c5d3a6c0198b8c299e005b59c59",
+      "bytes": 41775,
+      "recorded_at": "2026-11-03",
+      "basis": "revision",
+      "version": "2.0.0",
       "git_commit": null
     }
   ],

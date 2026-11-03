@@ -2,227 +2,303 @@
 
 ## Abstract
 
-Quantum entanglement yields Bell‑inequality violations that challenge local deterministic accounts and motivate many‑worlds or non‑local hidden‑variable theories. A concrete gap remains: no mathematically natural non‑Archimedean model reproduces the observed correlations while preserving locality. We construct a hidden‑variable framework in which entangled particles share a common ancestor node on a fixed $p$‑adic ultrametric tree. The model (i) defines a $p$‑adic hidden‑variable assignment based on the Bruhat–Tits tree, (ii) derives the correlation function $E(\mathbf{a},\mathbf{b})=\cos\!\bigl(d_{p}(\mathbf{a},\mathbf{b})\bigr)$ for binary settings, (iii) shows that the model can approach the Tsirelson bound $2\sqrt{2}\approx2.828$ as a conjectured target for the CHSH expression, and (iv) presents three fully derived numerical results: (a) the $3$‑adic norm $|12/5|_{3}=1/3$, (b) the age of the universe $14$ billion years $=4.41\times10^{17}$ s, and (c) the probability $P=1/3$ that a uniformly drawn $3$‑adic hidden variable lies in the correlation‑relevant ball. The analysis demonstrates that a single ultrametric geometry can generate quantum‑like correlations without invoking branching worlds or superluminal influences. If validated, the result would replace the many‑worlds ontology with a parsimonious, tree‑based deterministic model, guiding experimental designs that simulate $p$‑adic trees and test the derived correlation functions.
+Bell-inequality violations rule out all local deterministic models that assign pre-existing outcomes to each measurement setting, yet a fully locally causal account of entanglement remains the goal of a persistent research program. A specific gap in earlier versions of this work was the claim that a $p$-adic ultrametric tree model "demonstrates" quantum-like correlations: the correlation derivation was not rigorous, an undefined function $\exp_p$ appeared, and the CHSH value $S_{\max}=2\sqrt{2}$ was asserted without intermediate steps while the paper's own sign convention yields $S=0$. This corrected version removes $\exp_p$, restates the correlation function $E(\mathbf{a},\mathbf{b})=\cos(\theta_a-\theta_b)$ as an explicit assumption rather than a derived result, and supplies every arithmetic step of the CHSH evaluation. With the standard CHSH combination $S=\bigl|E(a,b)-E(a,b')+E(a',b)+E(a',b')\bigr|$ and angles $a=0$, $a'=\pi/2$, $b=\pi/4$, $b'=3\pi/4$, the four correlations are $\pm\sqrt{2}/2$ and $S=2\sqrt{2}\approx2.8284$; the earlier convention with $b'=-\pi/4$ gives $S=0$, a sign-and-angle error now documented. Supporting computations give $\bigl|12/5\bigr|_3=1/3$, $P=1/3$ for the correlation-relevant ball, and $4.418064\times10^{17}$ s for an assumed $14\times10^{9}$-year span. The conclusion is retracted to a conditional: the model is consistent with the Tsirelson value if the cosine correlation is granted; deriving that cosine from ultrametric geometry remains open.
 
-## 1. Introduction Laboratory tests of Bell‑type inequalities with photons, ions and superconducting qubits repeatedly demonstrate violations that exceed any local‑realist bound, forcing physicists to accept either non‑local influences, many‑worlds branching, or to seek new explanatory structures. This impasse blocks the development of intuitively deterministic quantum technologies and hampers the integration of quantum theory with a locally causal description of spacetime. If a deterministic, locally causal model could reproduce the observed correlations, designers of quantum communication protocols would gain a clear causal picture, and foundational debates could shift from metaphysics to engineering.
+## 1. Introduction
 
-We propose that the missing structure is an ultrametric common‑ancestor geometry defined on a $p$‑adic tree. Entangled particles are modeled as descendants of a single ancestor node; the ultrametric distance to this node determines measurement outcomes. This reframes many‑worlds branching as a misprojection of a historical $p$‑adic hierarchy onto the future.
+We take as given, as the framing assumption of this work, that laboratory Bell tests violate the CHSH bound $|S|\le2$ that every local deterministic model satisfies, and that the observed values cluster near the Tsirelson bound $2\sqrt{2}\approx2.8284$. This forces working physicists in quantum foundations and quantum-communication engineering to choose among non-local hidden variables, many-worlds branching, or superdeterminism, and that choice is not merely interpretational: we further take as given that certification protocols for entanglement-based key distribution and device-independent randomness expansion are built on the assumption that no local deterministic description reproduces the observed statistics. If a deterministic, locally causal model could reproduce the quantum correlations, protocol designers would gain a constructive causal picture of what the certified non-locality consists of, and the interpretational debate would become an engineering question with a concrete model object to simulate. Conversely, if the candidate model class can be shown incapable of reaching $S>2$ without postulates imported from quantum theory, that negative result sharpens the case that the correlations are genuinely non-classical.
+
+Earlier versions of this work claimed the first outcome: that a hidden-variable model on a $p$-adic Bruhat–Tits tree, in which entangled particles descend from a common ancestor node, "demonstrates that a single ultrametric geometry can generate quantum-like correlations without invoking branching worlds or superluminal influences." That claim was an overclaim. The derivation of the correlation function relied on an undefined function $\exp_p$ applied to imaginary arguments, for which no standard meaning in $p$-adic analysis was given; the CHSH maximum was asserted without intermediate steps while the paper's own sign convention and angle choice produce $S=0$; and a scaling factor $\kappa=\sqrt{2}$ was introduced ad hoc to force agreement with the Tsirelson bound. This version corrects all four defects. The corrected result is weaker and honest: the model, supplemented by an explicitly postulated cosine correlation, reproduces the Tsirelson value with fully shown arithmetic, and the postulate itself is shown to be incompatible with the model's own deterministic outcome rule at the optimal settings — which is precisely the open problem the model must solve to become an explanation rather than a restatement.
 
 **Contributions**
-1. Formal definition of a $p$‑adic hidden‑variable model based on the Bruhat–Tits tree (Section 3).  
-2. Derivation of the correlation function $E(\mathbf{a},\mathbf{b})=\cos\!\bigl(d_{p}(\mathbf{a},\mathbf{b})\bigr)$ (Section 4).  
-3. Full arithmetic computation of the $3$‑adic norm $|12/5|_{3}=1/3$ (Section 4).  
-4. Full arithmetic conversion of the cosmological age $14$ billion years to seconds, $4.41\times10^{17}$ s (Section 4).  
-5. Derivation of the CHSH maximal value $S_{\max}=2\sqrt{2}\approx2.828$ (Section 4).  
-6. Identification of the phase‑transition condition $p=3$ in the $p$‑adic Potts model, yielding a probability $P=1/3$ for a correlation‑relevant hidden variable (Section 4).  
-7. Discussion of falsifiability, limitations, and experimental pathways (Sections 5–7).
 
-## 2. Background and Related Work The $p$‑adic Beilinson conjecture relates regulators of $K$‑groups to special values of $L$‑functions, showing that $p$‑adic invariants can encode precise quantitative data; this motivates the use of $p$‑adic arithmetic in physical models [1]. The many‑worlds interpretation (MWI) removes action at a distance but incurs an ontological cost by postulating a continuously branching multiverse; our model offers a single‑world alternative grounded in $p$‑adic geometry [2]. Phase‑transition analysis of a three‑state $p$‑adic Potts model on a Cayley tree demonstrates that a transition occurs if and only if $p=3$, independent of interaction strength; this $p$‑dependence underpins our choice of $p=3$ for the hidden‑variable construction [3]. Generalized Iwasawa main conjectures introduce $p$‑adic Stark regulators, providing tools for constructing $p$‑adic $L$‑functions that can serve as hidden variables with well‑defined transformation properties [4]. $p$‑Adic and adelic quantum mechanics shows that wave functions can be defined on $\mathbb{Q}_{p}^{D}$ and that the Heisenberg algebra can be generalized, establishing a precedent for quantum‑like dynamics on non‑Archimedean spaces [5]. The $p$‑adic wavelet transform exploits the ultrametric norm $|x|_{p}=p^{-r}$ and its strong triangle inequality $|x+y|_{p}\le\max\{|x|_{p},|y|_{p}\}$, which is the mathematical backbone of our common‑ancestor distance metric [6]. $p$‑Adic and adelic cosmology introduces the empirical estimate that the observable universe is approximately $14$ billion years old, a number we use to illustrate concrete arithmetic derived from a bibliographic source [7]. The Unified Theory of Non‑Archimedean Ontology treats physical objects as emergent information structures, aligning with the interpretation of $p$‑adic tree nodes as informational ancestors that determine measurement outcomes [8]. Finally, Bruhat–Tits trees provide a scale‑invariant geometric substrate for physics, reinforcing the choice of an infinite regular tree as the backbone of our model [11].
+1. A restated $p$-adic hidden-variable model with all assumptions explicit, in which the undefined $\exp_p$ is removed and the phase map is declared an assumption (Section 3).
+2. Full arithmetic for the $3$-adic norm $\bigl|12/5\bigr|_3=1/3$ and the ball probability $P=1/3$, the latter cross-checked against the maximum-entropy $p$-adic distribution of [3] (Section 4).
+3. A corrected, fully derivation-shown CHSH evaluation giving $S=2\sqrt{2}\approx2.8284$ under the standard sign convention, together with the diagnosis that the previously published convention yields $S=0$ (Section 4).
+4. A proof, shown step by step, that the deterministic sign rule of the model cannot produce the postulated cosine correlation at the Tsirelson-optimal settings, so the central claim is downgraded from "demonstrates" to "is consistent with, conditional on an unproven postulate" (Section 4).
+5. A retraction of the ad hoc scaling factor $\kappa=\sqrt{2}$ and of the unqualified conclusion sentence flagged in the erratum, with the corrected conditional statement (Sections 4 and 8).
+6. An illustrative unit conversion, $14\times10^{9}$ years $=4.418064\times10^{17}$ s, now stated as resting on an assumed input rather than a cited measurement (Section 4).
+7. Falsifiability criteria, limitations, and a proposed Monte-Carlo test written as a conditional proposal (Sections 6 and 7).
+
+The ultrametric error-structure question this paper touches also bears on quantum error-correction architecture and on metrology, where ultrametric geometry has been proposed as a passive-resilience resource [4]; the arithmetic corrections here apply wherever the earlier version's numbers were reused.
+
+## 2. Background and Related Work
+
+Ostrowski's theorem classifies every non-trivial absolute value on $\mathbb{Q}$ as equivalent either to the archimedean $|\cdot|_\infty$ or to a $p$-adic $|\cdot|_p$ for some prime $p$, so the real numbers are one completion among infinitely many equally fundamental ones [2]. That work defines the $p$-adic absolute value by writing a nonzero $x\in\mathbb{Q}$ as $x=p^{k}\cdot a/b$ with $p\nmid a$ and $p\nmid b$, giving $|x|_p=p^{-k}$, and states the ultrametric inequality $|x+y|_p\le\max(|x|_p,|y|_p)$, from which it derives the qualitative facts that every triangle is isosceles and all balls are simultaneously open and closed. We use this definition and inequality directly in Section 4 for the norm computation and the ball decomposition. The same work proposes Tate's 1950 thesis as a structural template for adelic quantum mechanics, with the archimedean factor corresponding to the distinguished role of measurement at the $\infty$-place [2]; this frames why a $p$-adic hidden-variable model is a coherent mathematical object rather than a category error, and why measurement outcomes — the object of our model — may be special to the archimedean readout.
+
+The degree-based index literature supplies an independent, variational reason to prefer homogeneous trees. For any tree $T$ with $n\ge2$ pendent vertices, the first Zagreb index satisfies $M_1(T)\ge9n-16$ when $n$ is even, with equality exactly for $4$-trees in which every internal vertex has degree $4$ [1]. The Bruhat–Tits tree $\mathcal{T}_p$ is $(p+1)$-regular, so for $p=3$ it is $4$-regular — precisely the degree at which the bound of [1] is attained. We use this in Section 3 to motivate the choice $p=3$ as the prime whose canonical tree is extremal for a standard degree-based index, a weaker and more honest motivation than the phase-transition argument of the earlier version, which relied on a source no longer in the bibliography and is therefore dropped.
+
+The maximum-entropy structure of $p$-adic entropy gives a concrete probability distribution on the valuation. The $p$-adic maximum-entropy distribution is the geometric distribution $P(v_p(X)=k)=(1-1/p)\,p^{-k}$ on $k=0,1,2,\ldots$, with maximum entropy $H_p^{\max}=1/(p-1)$, and it coincides exactly with the Bose–Einstein occupation distribution at fugacity $z=1/p$ [3]. We use this in Section 4 as an independent check: the tail probability $P(v_p\ge1)=1/p$ of this distribution equals the Haar-measure probability of the correlation-relevant ball computed there, so the uniform-ball assumption and the max-entropy distribution agree on the single number the model extracts. The same work identifies the squarefree restriction with Fermi–Dirac statistics at the same fugacity, with $P(v_p=1\mid\text{squarefree})=1/(p+1)$ [3]; we cite this to show that $p$-adic valuation distributions carry fermionic as well as bosonic structure, which matters for any future attempt to derive outcome statistics rather than postulate them.
+
+On the engineering side, the thermodynamic cost of active quantum error correction is bounded below by Landauer's principle: erasing one bit at temperature $T$ dissipates at least $kT\ln2$, and each error-correction round performs irreversible syndrome measurement, decoding and feedback operations [4]. That work argues that quantum sensing escapes this wall because a sensor needs entanglement across only a small number of probes, of order $N\sim10$, for a single measurement cycle [4]. We use this in Section 7 to explain why an ultrametric model of correlations, if validated, would first matter in sensing and simulation rather than in fault-tolerant computing.
+
+Finally, the adelic quantum error-correction synthesis defines the adele ring $\mathbb{A}=\mathbb{R}\times\prod_p'\mathbb{Q}_p$ with the restricted-product topology and the product formula $\prod|x|_p=1$ on principal ideles, and interprets $\mathbb{Q}_p$ as an ultrametric error space carrying the hierarchical structure of correlated errors [5]. That work states a falsifiable prediction: improving local gate fidelity will make ultrametric error structure more visible, testable with current hardware [5]. We use this prediction in Section 7 as the nearest existing experimental hook for the model class studied here, and we note that our single-prime analysis is a restriction of the adelic setting [5] that a complete account would have to lift.
 
 ## 3. Methods
-### 3.1 $p$‑Adic ultrametric tree
-Let $p$ be a fixed prime. The Bruhat–Tits tree $\mathcal{T}_{p}$ is an infinite $(p+1)$‑regular graph whose vertices correspond to equivalence classes of lattices in $\mathbb{Q}_{p}^{2}$ [11]. The ultrametric distance $d_{p}(x,y)$ between two vertices $x$ and $y$ is defined as the number of edges on the unique geodesic connecting them. This distance satisfies the strong triangle inequality
+
+### 3.1 The ultrametric tree and its metric
+
+Let $p$ be a fixed prime; the analysis fixes $p=3$. The Bruhat–Tits tree $\mathcal{T}_p$ is the infinite $(p+1)$-regular tree whose vertices correspond to homothety classes of lattices in $\mathbb{Q}_p^2$. The graph distance $d_p(x,y)$ between vertices $x,y\in\mathcal{T}_p$ is the number of edges on the unique reduced path joining them. Because $\mathcal{T}_p$ is a tree, this distance satisfies the strong triangle inequality
+
 $$
-d_{p}(x,z)\le\max\{d_{p}(x,y),\,d_{p}(y,z)\}.
+d_p(x,z)\le\max\{d_p(x,y),\,d_p(y,z)\},
 $$
 
-### 3.2 Hidden‑variable assignment
-Each entangled pair is assigned a hidden variable $\lambda\in\mathcal{T}_{p}$ representing the common ancestor node. Measurement settings $\mathbf{a}$ and $\mathbf{b}$ are mapped to distinct vertices $A$ and $B$ on the tree (e.g., by encoding the orientation angle into a $p$‑adic integer). The deterministic outcomes are
-$$
-X = \operatorname{sgn}\!\bigl(\cos\bigl(\pi\,d_{p}(A,\lambda)/L\bigr)\bigr),\qquad
-Y = \operatorname{sgn}\!\bigl(\cos\bigl(\pi\,d_{p}(B,\lambda)/L\bigr)\bigr),
-$$
-where $L=2$ is a normalization constant chosen for binary settings. The correlation function is
-$$
-E(\mathbf{a},\mathbf{b}) = \langle XY\rangle_{\lambda}
-= \frac{1}{N}\sum_{\lambda\in\mathcal{S}} X(\mathbf{a},\lambda)Y(\mathbf{b},\lambda),
-$$
-with $\mathcal{S}$ a uniform ensemble of ancestor nodes.
+which is the defining property of an ultrametric and the reason the geometry is hierarchical rather than Euclidean: every triangle is isosceles with the longest side no longer than the two equal ones, as follows from the corresponding norm property stated in [2].
 
-### 3.3 Mapping of settings to vertices An angle $\theta\in[0,2\pi)$ is encoded as a $p$‑adic integer $\kappa(\theta)$ by expanding $\theta/\pi$ in base $p$ and interpreting the digit sequence as a $p$‑adic expansion. This yields a vertex $V(\theta)$ whose distance to any ancestor $\lambda$ is proportional to the angular separation of the settings. The proportionality constant $\kappa$ will be identified in the analysis.
+The choice $p=3$ is motivated by two facts established in Section 2. First, $\mathcal{T}_3$ is $4$-regular, and the degree-$4$ tree is exactly the extremal tree that attains the tight lower bound $M_1(T)\ge9n-16$ for the first Zagreb index over trees with an even number $n$ of pendent vertices [1], so the homogeneous branching degree of $\mathcal{T}_3$ is variational-optimal among small degrees for a standard tree index. Second, the maximum-entropy $p$-adic distribution at $p=3$ has the simplest nontrivial tail structure, as computed in Section 4.2. The earlier version's motivation via a phase transition occurring iff $p=3$ in a Potts model is retracted in this version, because the source of that result is not among the works this version rests on.
+
+### 3.2 Hidden-variable assignment and the deterministic outcome rule
+
+Each entangled pair is assigned a hidden variable $\lambda\in B(0,1)\subset\mathbb{Q}_3$, the unit ball, representing the common ancestor node. Measurement settings $\mathbf{a},\mathbf{b}$ with polar angles $\theta_a,\theta_b\in[0,2\pi)$ are mapped to phases on the tree. The deterministic outcome rule of the model is
+
+$$
+X(\mathbf{a},\lambda)=\operatorname{sgn}\!\bigl(\cos\bigl(\pi\,d_p(A,\lambda)/L\bigr)\bigr),\qquad
+Y(\mathbf{b},\lambda)=\operatorname{sgn}\!\bigl(\cos\bigl(\pi\,d_p(B,\lambda)/L\bigr)\bigr),
+$$
+
+with $L=2$ and outcomes in $\{\pm1\}$. The correlation function is the ensemble average
+
+$$
+E(\mathbf{a},\mathbf{b})=\langle X(\mathbf{a},\lambda)\,Y(\mathbf{b},\lambda)\rangle_{\lambda}.
+$$
+
+### 3.3 Explicit assumptions
+
+The corrected model rests on four assumptions, stated in one place so that each can be attacked independently.
+
+- **A1 (measure).** The hidden variable $\lambda$ is distributed according to the Haar measure on $B(0,1)=\{x\in\mathbb{Q}_3:\ |x|_3\le1\}$, normalized to total mass $1$.
+- **A2 (encoding).** Each setting angle $\theta$ maps to a vertex $V(\theta)$ of $\mathcal{T}_3$ such that the encoding is refinable without bound; no minimal discretization is imposed.
+- **A3 (correlation postulate).** The ensemble average of the outcome product equals the cosine of the angular difference,
+  $$E(\mathbf{a},\mathbf{b})=\cos(\theta_a-\theta_b).$$
+  This is a postulate, not a derived result. The earlier version purported to derive it from an integral of the additive character $\chi_p$ against a map written as $\exp_p(i\theta)$; that map is retracted, because no standard $p$-adic exponential function on imaginary arguments was defined and none is invoked here. Section 4.4 shows that A3 in fact conflicts with the deterministic rule of Section 3.2 at the Tsirelson-optimal settings, so A3 is an additional structural postulate whose derivation from the tree is the central open problem of the program.
+- **A4 (CHSH convention).** The CHSH combination uses the standard sign arrangement
+  $$S=\bigl|E(a,b)-E(a,b')+E(a',b)+E(a',b')\bigr|.$$
+  The earlier version used $S=\bigl|E(a,b)-E(a,b')\bigr|+\bigl|E(a',b)+E(a',b')\bigr|$ with $b'=-\pi/4$; Section 4.5 shows that this convention and angle choice force $S=0$ for the cosine correlation, which is a convention-and-angle error, not a physical cancellation.
+
+### 3.4 Method of the analysis
+
+Section 4 proceeds by direct arithmetic only: each number is computed from its definition or from an assumption labeled above, every multiplication and addition is shown, and no step is delegated to a cited work. The local CHSH bound is re-derived rather than cited, so that the comparison between the model and the classical limit is self-contained.
 
 ## 4. Analysis
-### 4.1 $p$‑adic norm example
-From the definition of the $p$‑adic norm, for a rational number $x$ we write $x=p^{r}\frac{n}{m}$ with $p\nmid n,m$ and set $|x|_{p}=p^{-r}$ [6]. For $x=12/5$ and $p=3$:
 
-1. Factor $12=3^{1}\cdot4$, so $r=1$, $n=4$, $m=5$ (both $4$ and $5$ are not divisible by $3$).  
-2. Apply the definition:
-   $$
-   |12/5|_{3}=3^{-r}=3^{-1}= \frac{1}{3}.
-   $$
+### 4.1 The $3$-adic norm of $12/5$
 
-Thus $|12/5|_{3}=1/3$.
+By the definition recalled in [2], for a nonzero rational $x$ written as $x=p^{k}\cdot a/b$ with $p\nmid a$ and $p\nmid b$, the $p$-adic absolute value is $|x|_p=p^{-k}$. Take $x=12/5$ and $p=3$.
 
-### 4.2 Cosmological age conversion Reference [7] gives the age of the universe as approximately $14$ billion years. Convert to seconds:
+1. Factor the numerator: $12=3^{1}\cdot4$, and $3\nmid4$.
+2. The denominator $5$ satisfies $3\nmid5$.
+3. Hence $12/5=3^{1}\cdot(4/5)$ with $k=1$, $a=4$, $b=5$.
+4. Apply the definition:
 
-1. One year $\approx 365.25$ days.  
-2. One day $=24$ h, one hour $=3600$ s.  
+$$
+|12/5|_3=3^{-k}=3^{-1}=\frac{1}{3}\approx0.333333.
+$$
+
+The ultrametric inequality of [2] is consistent with this value: $|12|_3=3^{-1}=1/3$ and $|5|_3=3^{0}=1$, and indeed $|12/5|_3=|12|_3/|5|_3=(1/3)/1=1/3$, as multiplicativity requires.
+
+### 4.2 The correlation-relevant ball probability
+
+Under A1, the hidden variable $\lambda$ is Haar-uniform on $B(0,1)$. The unit ball decomposes into $p$ disjoint sub-balls of radius $p^{-1}$, each of equal Haar measure, because multiplication by any element of $3\mathbb{Z}_3$ maps one sub-ball onto another and the Haar measure is translation-invariant. For $p=3$,
+
+$$
+B(0,1)=\bigsqcup_{j=0}^{2}\bigl(j+3\mathbb{Z}_3\bigr),
+$$
+
+so each sub-ball has measure $1/3$ of the total. The correlation-relevant ball is the sub-ball of radius $1/3$, hence
+
+$$
+P\bigl(|\lambda|_3\le\tfrac{1}{3}\bigr)=\frac{1}{3}\approx0.333333.
+$$
+
+Cross-check against the maximum-entropy distribution of [3]. That work gives $P(v_p(X)=k)=(1-1/p)\,p^{-k}$ for $k=0,1,2,\ldots$. For $p=3$:
+
+1. $P(v_3=0)=(1-\tfrac{1}{3})\cdot3^{0}=\tfrac{2}{3}$.
+2. The event $|\lambda|_3\le1/3$ is exactly the event $v_3(\lambda)\ge1$.
+3. Therefore $P(v_3\ge1)=1-P(v_3=0)=1-\tfrac{2}{3}=\tfrac{1}{3}$.
+
+The two independent routes — Haar measure on the ball and the maximum-entropy valuation distribution of [3] — agree on $P=1/3$, so the uniform-ball assumption and the max-entropy distribution coincide on the single number the model extracts. For reference, the same work reports the conditional squarefree probability $P(v_p=1\mid\text{squarefree})=1/(p+1)$, which for $p=3$ gives $1/4$; this number is not used by the model but is recorded to show that other $p$-adic valuation statistics differ from the uniform-ball value and could distinguish distributional assumptions in future work.
+
+### 4.3 Illustrative unit conversion: an assumed $14\times10^{9}$-year span
+
+The span of $14\times10^{9}$ years is an assumption of this computation, not a cited measurement. Convert to seconds:
+
+1. One year $\approx365.25$ days (Julian year).
+2. One day $=24$ h; one hour $=3600$ s.
 3. Seconds per year:
-   $$
-   365.25\times24\times3600 = 31\,557\,600\ \text{s}.
-   $$
-4. Multiply by $14\times10^{9}$ years:
-   $$
-   31\,557\,600 \times 14\times10^{9}
-   = 31\,557\,600 \times 1.4\times10^{10}
-   = 4.418064\times10^{17}\ \text{s}.
-   $$
-Rounded to three significant figures,
+
 $$
-4.41\times10^{17}\ \text{s}.
+365.25\times24\times3600=365.25\times86\,400=31\,557\,600\ \text{s}.
 $$
 
-### 4.3 Uniform measure on the $p$‑adic unit ball
-The unit ball $B(0,1)=\{x\in\mathbb{Q}_{p}\mid|x|_{p}\le1\}$ decomposes into $p$ disjoint sub‑balls of radius $p^{-1}$, each of equal Haar measure. Hence the probability that a uniformly drawn $\omega\in B(0,1)$ satisfies $|\omega|_{p}\le p^{-1}$ is
+4. Multiply by $14\times10^{9}$:
+
 $$
-P\bigl(|\omega|_{p}\le p^{-1}\bigr)=\frac{1}{p}.
-$$
-For $p=3$,
-$$
-P_{p=3}= \frac{1}{3}=0.3333\ldots
-\tag{1}
+31\,557\,600\times14\times10^{9}=31\,557\,600\times1.4\times10^{10}=4.418064\times10^{17}\ \text{s}.
 $$
 
-### 4.4 Correlation as cosine
-Using the additive character $\chi_{p}(x)=\exp\!\bigl(2\pi i\{x\}_{p}\bigr)$ and the uniformity of $\lambda$, the expectation reduces to an integral over the $p$‑adic unit circle:
-$$
-E(\mathbf{a},\mathbf{b}) = \int_{B(0,1)} \operatorname{sgn}\!\bigl(\chi_{p}(\omega\cdot\phi(\theta_{a}-\theta_{b}))\bigr)\,d\mu(\omega),
-$$
-where $\phi(\theta)=\exp_{p}(i\theta)$ maps an angle to a $p$‑adic phase. The sign function yields $+1$ when the real part of $\chi_{p}$ is non‑negative and $-1$ otherwise. The integral evaluates to the real part of the character:
-$$
-E(\mathbf{a},\mathbf{b}) = \Re\!\bigl(\chi_{p}(\phi(\theta_{a}-\theta_{b}))\bigr)=\cos(\theta_{a}-\theta_{b}).
-\tag{2}
-$$
-Thus the model reproduces the quantum correlation $\cos\Delta\theta$.
+The result, $4.418064\times10^{17}$ s, is exact given the two stated inputs ($365.25$ d/yr and $14\times10^{9}$ yr); it carries no physical claim beyond the assumption stated.
 
-### 4.5 CHSH bound derivation
-The CHSH combination is
-$$
-S = \bigl|E(a,b)-E(a,b')\bigr| + \bigl|E(a',b)+E(a',b')\bigr|.
-$$
-Choose the standard quantum‑optimal angles
-$$
-a=0,\qquad a'=\frac{\pi}{2},\qquad b=\frac{\pi}{4},\qquad b'=-\frac{\pi}{4}.
-$$
-Using (2):
-\[
-\begin{aligned}
-E(a,b) &= \cos\!\bigl(0-\tfrac{\pi}{4}\bigr)=\frac{\sqrt{2}}{2},\\
-E(a,b') &= \cos\!\bigl(0+\tfrac{\pi}{4}\bigr)=\frac{\sqrt{2}}{2},\\
-E(a',b) &= \cos\!\bigl(\tfrac{\pi}{2}-\tfrac{\pi}{4}\bigr)=\frac{\sqrt{2}}{2},\\
-E(a',b') &= \cos\!\bigl(\tfrac{\pi}{2}+\tfrac{\pi}{4}\bigr)=-\frac{\sqrt{2}}{2}.
-\end{aligned}
-\]
-Insert into $S$:
-\[
-\begin{aligned}
-S &= \bigl|\tfrac{\sqrt{2}}{2}-\tfrac{\sqrt{2}}{2}\bigr|
-     +\bigl|\tfrac{\sqrt{2}}{2}+(-\tfrac{\sqrt{2}}{2})\bigr| \\
-  &= 0 + 0 = 0.
-\end{aligned}
-\]
-The zero result arises because the sign function in (2) yields exact cancellations for this symmetric choice. To obtain the maximal quantum value we allow the ultrametric distance to assume half‑integer values by refining the vertex encoding, which effectively scales the angular argument by a factor
-$$
-\kappa = \sqrt{2},
-$$
-as justified by the hierarchical branching density of $\mathcal{T}_{p}$ (see the discussion of ultrametric refinements in [6]). With the scaled argument $\theta'=\kappa\,\theta$, the four correlation terms become
-\[
-\begin{aligned}
-E(a,b) &= \cos\!\bigl(\kappa\times\tfrac{\pi}{4}\bigr)=\cos\!\bigl(\tfrac{\pi}{2\sqrt{2}}\bigr)\approx0.444,\\
-E(a,b') &= \cos\!\bigl(\kappa\times(-\tfrac{\pi}{4})\bigr)=\cos\!\bigl(\tfrac{\pi}{2\sqrt{2}}\bigr)\approx0.444,\\
-E(a',b) &= \cos\!\bigl(\kappa\times\tfrac{\pi}{4}\bigr)\approx0.444,\\
-E(a',b') &= \cos\!\bigl(\kappa\times(-\tfrac{\pi}{4})\bigr)\approx0.444.
-\end{aligned}
-\]
-Now
-\[
-\begin{aligned}
-S &= \bigl|0.444-0.444\bigr|
-     +\bigl|0.444+0.444\bigr| \\
-  &= 0 + 0.888 \\
-  &= 0.888.
-\end{aligned}
-\]
-Increasing the refinement further allows the effective angles to approach the ideal quantum set $\{0,\pi/2,\pi/2,\pi\}$, yielding
-$$
-S_{\max}=2\sqrt{2}\approx2.828.
-\tag{3}
-$$
-Thus, in the continuum limit of arbitrarily fine ultrametric encoding, the model reproduces the Tsirelson bound.
+### 4.4 The deterministic sign rule cannot produce the cosine postulate
 
-### 4.6 Phase‑transition condition from the $p$‑adic Potts model
-The three‑state $p$‑adic Potts model on a Cayley tree of order two exhibits a phase transition **iff** $p=3$, regardless of interaction strength [3]. Consequently, for $p=3$ the model possesses two distinct Gibbs measures, providing the bifurcation needed for entangled outcome branches. This yields the concrete numerical condition
+The outcome rule of Section 3.2 evaluates $\cos(\pi d/2)$ at integer tree distances $d=d_p(V,\lambda)$. Compute the two cases:
+
 $$
-\boxed{p=3\;\Longleftrightarrow\;\text{phase transition present}}.
-\tag{4}
+\cos\!\left(\frac{\pi d}{2}\right)=
+\begin{cases}
++1, & d\equiv 0 \pmod 4,\\
+0, & d\equiv 1,3 \pmod 4,\\
+-1, & d\equiv 2 \pmod 4.
+\end{cases}
 $$
+
+Because $d_p(V,\lambda)$ is an integer for every pair of tree vertices, the argument $\pi d/2$ takes only the values $0,\pm\pi/2,\pm\pi,\pm3\pi/2,\ldots$, and the cosine takes only the values in the table above. The sign function then gives
+
+$$
+X(\mathbf{a},\lambda)\in\{-1,0,+1\},
+$$
+
+and the value $0$ occurs whenever $d_p(A,\lambda)$ is odd. Two consequences follow immediately.
+
+First, the outcome rule as written does not even produce a binary outcome on all of $B(0,1)$: a fraction of the hidden-variable space — namely the set of $\lambda$ at odd tree distance from $A$ — yields the degenerate outcome $0$. Under the Haar measure of A1, the sub-ball $j+3\mathbb{Z}_3$ containing $A$ contributes the even-distance cases, and the two adjacent sub-balls contribute odd distances; since each sub-ball has measure $1/3$ (Section 4.2), the degenerate outcome has measure at least $2/3$ under any encoding in which $A$ lies in one sub-ball and its neighbors in the others. A model that outputs $0$ on two-thirds of its hidden-variable space is not a model of binary measurements without an additional rule for reassigning the degenerate cases.
+
+Second, even after any repair that maps the degenerate cases to $\pm1$, the correlation $E(\mathbf{a},\mathbf{b})=\langle XY\rangle_\lambda$ is an average of products of numbers in $\{-1,0,+1\}$, so after repair it is an average of numbers in $\{-1,+1\}$ and hence lies in $[-1,1]$ — but the point that matters for the CHSH evaluation is finer: the sign rule produces correlations that are piecewise-constant functions of the tree distances, taking values in a discrete set determined by the sub-ball decomposition. The postulated cosine $E=\cos(\theta_a-\theta_b)$ takes the value $\sqrt{2}/2\approx0.707107$ at the Tsirelson-optimal settings, and no average of $\pm1$-valued products over the three sub-balls of Section 4.2 can equal $\sqrt{2}/2$, because any such average is a rational combination of $1$, $-1$ and $0$ with denominators dividing $3$, hence a rational number, while $\sqrt{2}/2$ is irrational. This is the precise sense in which A3 conflicts with the deterministic rule of Section 3.2: the postulate is not derivable from the tree geometry, and at the optimal settings it is provably unreachable by any deterministic $\pm1$ assignment that depends on $\lambda$ only through the sub-ball structure. The model therefore does not explain the cosine; it assumes it.
+
+### 4.5 The CHSH evaluation with fully shown arithmetic
+
+Under A3 and A4, the correlation function is $E(\mathbf{a},\mathbf{b})=\cos(\theta_a-\theta_b)$ and the CHSH combination is
+
+$$
+S=\bigl|E(a,b)-E(a,b')+E(a',b)+E(a',b')\bigr|.
+$$
+
+Choose the Tsirelson-optimal angles
+
+$$
+a=0,\qquad a'=\frac{\pi}{2},\qquad b=\frac{\pi}{4},\qquad b'=\frac{3\pi}{4}.
+$$
+
+Compute each correlation from $E=\cos(\theta_a-\theta_b)$:
+
+1. $E(a,b)=\cos(0-\pi/4)=\cos(-\pi/4)=\sqrt{2}/2$.
+2. $E(a,b')=\cos(0-3\pi/4)=\cos(-3\pi/4)=-\sqrt{2}/2$.
+3. $E(a',b)=\cos(\pi/2-\pi/4)=\cos(\pi/4)=\sqrt{2}/2$.
+4. $E(a',b')=\cos(\pi/2-3\pi/4)=\cos(-\pi/4)=\sqrt{2}/2$.
+
+Insert into the CHSH combination:
+
+$$
+\begin{aligned}
+S&=\left|\frac{\sqrt{2}}{2}-\left(-\frac{\sqrt{2}}{2}\right)+\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}\right|\\[4pt]
+&=\left|4\cdot\frac{\sqrt{2}}{2}\right|\\[4pt]
+&=2\sqrt{2}\approx2.828427.
+\end{aligned}
+$$
+
+For the local bound, the standard argument is re-derived here for self-containment. For any four correlations $E_1,E_2,E_3,E_4\in[-1,1]$ produced by a deterministic assignment $X(a,\lambda),X(a',\lambda),Y(b,\lambda),Y(b',\lambda)\in\{\pm1\}$ at each fixed $\lambda$, the CHSH combination at that $\lambda$ is
+
+$$
+s(\lambda)=X(a,\lambda)\bigl[Y(b,\lambda)+Y(b',\lambda)\bigr]+X(a',\lambda)\bigl[Y(b,\lambda)-Y(b',\lambda)\bigr].
+$$
+
+Since $Y(b,\lambda)+Y(b',\lambda)$ and $Y(b,\lambda)-Y(b',\lambda)$ cannot both be nonzero (one is $0$ whenever the other is $\pm2$), $|s(\lambda)|=2$ for every $\lambda$. Averaging over $\lambda$ and using $|E_1-E_2+E_3+E_4|\le\langle|s(\lambda)|\rangle=2$ gives the local bound $|S|\le2$; the model value $2\sqrt{2}\approx2.828427$ exceeds it by $2\sqrt{2}-2\approx0.828427$, exactly as quantum mechanics does.
+
+**Diagnosis of the earlier convention.** The earlier version used the combination $S=\bigl|E(a,b)-E(a,b')\bigr|+\bigl|E(a',b)+E(a',b')\bigr|$ with $b'=-\pi/4$. With the same cosine postulate:
+
+1. $E(a,b)=\sqrt{2}/2$, $E(a,b')=\cos(\pi/4)=\sqrt{2}/2$, $E(a',b)=\sqrt{2}/2$, $E(a',b')=\cos(3\pi/4)=-\sqrt{2}/2$.
+2. First term: $\bigl|\sqrt{2}/2-\sqrt{2}/2\bigr|=0$.
+3. Second term: $\bigl|\sqrt{2}/2+(-\sqrt{2}/2)\bigr|=0$.
+4. Total: $S=0+0=0$.
+
+The zero is a convention-and-angle artifact: the angle $b'=-\pi/4$ places $b'$ symmetrically opposite to $b$ relative to $a$, forcing exact cancellation in both absolute-value groups, and the split combination $|E_1-E_2|+|E_3+E_4|$ is not the standard CHSH form. Under the standard combination A4 and the angle $b'=3\pi/4$, the same cosine postulate gives $S=2\sqrt{2}$ with no scaling factor. The ad hoc factor $\kappa=\sqrt{2}$ of the earlier version is retracted: it was introduced to repair a cancellation created by the nonstandard convention, and with the corrected convention it is unnecessary. The corrected result is conditional: the model reaches the Tsirelson value if and only if the cosine postulate A3 is granted, and Section 4.4 shows that A3 is not derivable from the tree.
 
 ## 5. Results
-1. The $3$‑adic norm of $12/5$ is $|12/5|_{3}=1/3$ (Section 4.1).  
-2. The age of the universe expressed in seconds is $4.41\times10^{17}\ \text{s}$ (Section 4.2).  
-3. The probability that a uniformly drawn $3$‑adic hidden variable lies in the correlation‑relevant ball is $P=1/3\approx0.3333$ (Section 4.3).  
-4. The correlation function derived analytically equals $\cos(\Delta\theta)$ (Section 4.4).  
-5. The CHSH expression attains the maximal value $S_{\max}=2\sqrt{2}\approx2.828$ in the continuum limit of the ultrametric encoding (Section 4.5).  
-6. The phase‑transition criterion $p=3$ is confirmed (Section 4.6).
 
-These results demonstrate that concrete arithmetic derived from bibliographic sources can be combined with a deterministic ultrametric model to reproduce the quantitative predictions of quantum‑entanglement experiments.
+The results of this paper, each computed in Section 4 with every arithmetic step shown, are:
+
+1. The $3$-adic norm of $12/5$ is $\bigl|12/5\bigr|_3=1/3\approx0.333333$ (Section 4.1).
+2. The probability that a Haar-uniform hidden variable $\lambda\in B(0,1)\subset\mathbb{Q}_3$ lies in the correlation-relevant sub-ball of radius $1/3$ is $P=1/3\approx0.333333$, and this value is independently reproduced by the maximum-entropy valuation distribution of [3] via $P(v_3\ge1)=1-P(v_3=0)=1-2/3=1/3$ (Section 4.2).
+3. An assumed span of $14\times10^{9}$ years equals $4.418064\times10^{17}$ s at $365.25$ days per year; the input is an assumption of the computation, not a cited measurement (Section 4.3).
+4. The deterministic sign rule of Section 3.2 cannot produce the postulated cosine correlation at the Tsirelson-optimal settings: the rule yields outcomes in $\{-1,0,+1\}$ with the degenerate value on at least $2/3$ of the hidden-variable space, and any repaired $\pm1$ rule produces correlations that are rational combinations over the three sub-balls, which cannot equal the irrational value $\sqrt{2}/2$ (Section 4.4).
+5. Under the standard CHSH convention A4 and the cosine postulate A3, the model gives $S=2\sqrt{2}\approx2.828427$ at the angles $a=0$, $a'=\pi/2$, $b=\pi/4$, $b'=3\pi/4$, exceeding the re-derived local bound $|S|\le2$ by $0.828427$; the earlier convention with $b'=-\pi/4$ gives $S=0$, and the scaling factor $\kappa=\sqrt{2}$ is retracted as unnecessary (Section 4.5).
+
+The central claim is accordingly downgraded: the model is *consistent with* the Tsirelson value conditional on an explicitly postulated cosine correlation; it does not *derive* that correlation, and Section 4.4 proves the postulate conflicts with the model's own deterministic outcome rule at the optimal settings.
 
 ## 6. Discussion
+
 ### 6.1 Limitations
-- **Discrete encoding**: The mapping from measurement settings to tree vertices is assumed arbitrarily refinable; physical implementations may impose a minimal discretization.  
-- **Scaling factor $\kappa$**: The factor $\sqrt{2}$ is introduced to match the Tsirelson bound; a first‑principles derivation within the $p$‑adic framework remains open.  
-- **Single‑prime choice**: The analysis fixes $p=3$; extending to other primes may break the correlation match (see [3]).  
-- **Uniformity assumption**: The hidden variable is assumed uniformly distributed on $B(0,1)$; deviations could alter $E(\mathbf{a},\mathbf{b})$.  
-- **Neglect of decoherence**: Environmental interactions that could modify the hidden label $\lambda$ are ignored.
 
-### 6.2 Falsifiability A single experimental observation would falsify the main claim: if a Bell‑type experiment with settings encoded on a $p$‑adic tree yields a CHSH value exceeding $2\sqrt{2}$, the ultrametric deterministic model cannot reproduce quantum statistics. Conversely, observing a systematic shortfall below the quantum prediction for all refinements of the encoding would also refute the model. In a classical simulation of the hidden‑variable dynamics, failure to achieve $S\ge2$ would falsify the construction.
+- **The correlation postulate is unproven and provably non-derivable at the optimal settings.** The result $S=2\sqrt{2}$ rests entirely on A3. Section 4.4 shows that the deterministic sign rule produces only rational correlations over the sub-ball decomposition, so the irrational value $\sqrt{2}/2$ is unreachable from the tree geometry as formulated. Any future derivation of the cosine must modify either the outcome rule, the measure A1, or the encoding A2.
+- **Degenerate outcomes.** The sign rule outputs $0$ on odd-distance hidden variables; the repair that maps these to $\pm1$ is unspecified, and different repairs give different correlations.
+- **Discrete encoding.** The mapping from measurement settings to tree vertices is assumed arbitrarily refinable (A2); a physical or computational implementation imposes a minimal discretization, and the effect of a finite digit budget on $E$ is not computed here.
+- **Single prime.** The analysis fixes $p=3$; the adelic setting of [5] treats all primes simultaneously, and nothing in this paper shows that the $p=3$ construction extends to, or is consistent with, the product formula $\prod|x|_p=1$ on principal ideles stated in [5].
+- **Uniformity assumption.** The Haar measure A1 is an assumption; the agreement with the maximum-entropy distribution of [3] holds only on the single number $P=1/3$, and other distributional assumptions (for example the squarefree restriction of [3], which gives $P(v_p=1\mid\text{squarefree})=1/(p+1)=1/4$ at $p=3$) would change the extracted probability.
+- **No decoherence.** Environmental interactions that could modify the hidden label $\lambda$ are ignored; the model addresses ideal measurements only.
+- **Narrow literature base.** This paper rests on only 5 available works, and its literature treatment is correspondingly narrow; no survey of the Bell-inequality or hidden-variable literature beyond these works is attempted, and the framing assumptions of Section 1 are not sourced from the works cited here.
+- **Motivation for $p=3$ is weak.** The variational motivation via the Zagreb bound $M_1(T)\ge9n-16$ of [1] is a degree-counting fact about finite trees, not a physical argument; it motivates $p=3$ only in the loose sense that $\mathcal{T}_3$ is $4$-regular and degree-$4$ trees attain the bound of [1].
 
-### 6.3 Open Questions
-- Can the scaling factor $\kappa$ be derived from a deeper $p$‑adic symmetry or from the spectral properties of $p$‑adic wavelet transforms ([6])?  
-- How does the model extend to multipartite entanglement and higher‑dimensional Hilbert spaces?  
-- What role do multiple primes play in a unified adelic description of quantum correlations ([5], [11])?  
+### 6.2 What would falsify the claims
+
+The main conditional result — that the model with A3 and A4 gives $S=2\sqrt{2}$ — is a mathematical identity given the assumptions, so it is falsified only by attacking the assumptions. The observation that would falsify the *program* is a completed derivation, from the tree geometry alone, of a correlation function $E(\theta_a,\theta_b)$ that is provably not of cosine form at fine encoding; conversely, a derivation of $E=\cos(\theta_a-\theta_b)$ from a modified outcome rule would overturn the central negative finding of Section 4.4. A concrete computational falsifier of the model as a whole is the Monte-Carlo test of Section 7.3: if the simulated hidden-variable rule with any natural repair of the degenerate outcomes yields $S_{\text{sim}}<2$ at all tested encodings, the model class cannot reproduce even the classical violation threshold, and the cosine postulate would stand exposed as an import from quantum theory with no ultrametric origin. On the empirical side, the prediction of [5] that improving local gate fidelity makes ultrametric error structure more visible is a testable companion claim; a null result at high gate fidelity would remove the nearest experimental hook for the model class.
+
+### 6.3 Open questions
+
+- Can a modified outcome rule — for example one that assigns outcomes by sub-ball membership rather than by the sign of $\cos(\pi d/2)$ — reproduce the cosine exactly, or is the cosine provably out of reach for any deterministic rule on $\mathcal{T}_3$ with a translation-invariant measure?
+- Does the conflict found in Section 4.4 persist at other primes, or does the $(p+1)$-regular branching of $\mathcal{T}_p$ for larger $p$ change the rationality obstruction?
+- How would a complete account lift the single-prime analysis to the adele ring of [5], and what role would the archimedean readout emphasized in [2] play in the measurement step?
+- Can the maximum-entropy and Fermi–Dirac valuation statistics of [3] be used to derive outcome probabilities rather than postulate them?
 
 ## 7. Practical Implications and Engineering Pathways
-### 7.1 Potential Users and Design Impact
-Researchers in quantum foundations and engineers developing deterministic simulators of Bell experiments could use the $p$‑adic common‑ancestor model to replace stochastic hidden‑variable assumptions with a concrete ultrametric architecture, enabling locally causal simulations of entanglement‑based protocols.
 
-### 7.2 Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at TRL 1–2.
+### 7.1 Who would use the result and what changes
 
-### 7.3 Next Experimental Test The smallest de‑risking experiment is a Monte‑Carlo simulation of the hidden‑variable rule (Section 3) for $p=3$ on a finite-depth tree (e.g., depth 5). The simulation computes the empirical CHSH value $S_{\text{sim}}$ as the number of samples $N$ increases. Observation of $S_{\text{sim}}\approx2.828$ would support the model; $S_{\text{sim}}<2$ would falsify it.
+Researchers in quantum foundations and engineers building deterministic simulators of Bell-test experiments are the named users. If the conditional result holds and the cosine postulate is eventually derived from the tree, simulator designers could replace stochastic hidden-variable sampling with a concrete ultrametric architecture, and certification protocols for entanglement-based key distribution would gain a constructive causal picture of what the certified non-locality consists of. If the negative result of Section 4.4 stands, protocol designers gain the assurance that this ultrametric model class cannot undermine device-independent certification without importing quantum postulates. Until the postulate is derived, the result changes no engineering practice; it is foundational work whose value is the sharpened statement of what must be derived.
 
-### 7.4 Engineering Constraints
-- **Tree depth**: Limited by computational resources; deeper trees increase resolution of $d_{p}$.  
-- **Encoding precision**: Mapping continuous angles to discrete $p$‑adic integers must preserve the intended ultrametric distances.  
-- **Randomness source**: Uniform sampling of ancestor nodes $\lambda$ requires a high‑quality pseudo‑random generator to avoid bias.  
-- **Software**: Availability of a $p$‑adic arithmetic library capable of evaluating $\exp_{p}$ and $\chi_{p}$ for large ensembles.
+### 7.2 Technology readiness
 
-### 7.5 Projected Cost Bounds Assuming a standard workstation (≈ $2\times10^{3}$ USD) and open‑source $p$‑adic libraries, the projected cost of the simulation pilot is $<10^{4}$ USD. This projection assumes no specialized hardware and a sample size $N=10^{6}$, giving a statistical uncertainty on $S$ of $1/\sqrt{N}\approx10^{-3}$.
+This work is purely analytical and has not been peer reviewed. Against the NASA Technology Readiness Level definitions it resides at TRL 1–2: basic principles are stated and the arithmetic is shown, but no proof-of-concept application exists. Analytical work of this kind cannot exceed TRL 3, and no manufacturing or deployment readiness is claimed.
 
-### 7.6 Risks and Misuse If the deterministic claim is misinterpreted as proof that quantum randomness is illusory, it could lead to premature abandonment of stochastic methods in quantum cryptography. Clear communication of the model’s provisional status and its reliance on specific $p$‑adic assumptions mitigates this risk.
+### 7.3 The smallest next test
 
-## 8. Conclusion We have introduced a $p$‑adic common‑ancestor hidden‑variable model that reproduces the quantum correlation function $\cos(\Delta\theta)$ and attains the Tsirelson CHSH bound $2\sqrt{2}$. The model’s reliance on the ultrametric structure of $\mathbb{Q}_{3}$ links the existence of a phase transition in the $p$‑adic Potts model to the emergence of distinct outcome branches, providing a mathematically natural deterministic account of entanglement. While the framework remains at TRL 2 and hinges on specific scaling choices, it offers a concrete, falsifiable pathway for experimental and computational tests. Future work will explore multi‑prime extensions, decoherence mechanisms, and connections to the broader adelic physics program.
+The smallest de-risking calculation is a Monte-Carlo simulation of the hidden-variable rule of Section 3.2 for $p=3$ on a finite-depth tree (depth $5$), written as a proposal: the simulation would sample $\lambda$ uniformly from a discretized $B(0,1)$, apply the outcome rule with a stated repair of the degenerate cases, and compute the empirical CHSH value $S_{\text{sim}}$ as the sample size $N$ grows. The outcome $S_{\text{sim}}\approx2.828$ would support the cosine postulate as emergent; the outcome $S_{\text{sim}}<2$ at all tested encodings would falsify the model class as a reproduction of quantum correlations. Given the rationality obstruction of Section 4.4, the expected outcome is the falsifier, which is itself informative: it would confirm that the cosine must come from elsewhere.
+
+### 7.4 Engineering constraints that would bind first
+
+- **Encoding precision.** Mapping continuous angles to discrete $p$-adic integers must preserve the intended ultrametric distances; the digit budget bounds the achievable angular resolution and is the first binding constraint in any simulation.
+- **Randomness source.** Uniform sampling of ancestor nodes $\lambda$ requires a high-quality pseudo-random generator; bias in the sampler would distort $E$ in ways that could mimic or mask a violation.
+- **Software.** A $p$-adic arithmetic library capable of evaluating norms, ball decompositions and characters for large ensembles is required; the undefined $\exp_p$ of the earlier version must not reappear.
+- **Tree depth versus compute.** Deeper trees refine the distance resolution but increase the sample cost linearly in depth and the encoding precision requirement exponentially; the trade-off is unquantified here and is an open question.
+
+### 7.5 Projected cost bounds (projection)
+
+As a projection with stated assumptions: assuming a standard workstation at approximately $2\times10^{3}$ USD, open-source $p$-adic libraries, no specialized hardware, and a sample size $N=10^{6}$, the statistical uncertainty on $S_{\text{sim}}$ scales as $1/\sqrt{N}\approx10^{-3}$, and the projected cost of the simulation pilot is below $10^{4}$ USD. These figures assume the workstation cost and the sample size as inputs; they are not derived from the model.
+
+### 7.6 Risks and misuse
+
+If the deterministic claim is misread as evidence that quantum randomness is illusory, it could prompt premature abandonment of stochastic methods in quantum cryptography. The corrected paper mitigates this by stating the result conditionally: the model reproduces the Tsirelson value only if a cosine postulate is granted, and that postulate is shown to conflict with the model's own outcome rule. Any reuse of the earlier version's numbers should note the corrections documented here, in particular the $S=0$ artifact of the earlier convention.
+
+## 8. Conclusion
+
+This paper corrected four defects in an earlier claim that a $p$-adic common-ancestor hidden-variable model demonstrates quantum-like correlations. The undefined function $\exp_p$ is removed; the correlation function $E(\mathbf{a},\mathbf{b})=\cos(\theta_a-\theta_b)$ is restated as an explicit postulate rather than a derived result; the CHSH evaluation is supplied with every arithmetic step, giving $S=2\sqrt{2}\approx2.828427$ under the standard convention and angles, and documenting that the earlier convention with $b'=-\pi/4$ yields $S=0$; and the ad hoc scaling factor $\kappa=\sqrt{2}$ is retracted as a repair of that convention artifact. The corrected conclusion is conditional: the model is consistent with the Tsirelson value if the cosine postulate is granted, and the postulate is shown to be unreachable from the model's own deterministic outcome rule at the optimal settings, since the rule produces only rational correlations over the sub-ball decomposition while $\sqrt{2}/2$ is irrational. Deriving the cosine from ultrametric geometry — or proving it cannot be done — is the central open problem of this program, and the Monte-Carlo test proposed in Section 7.3 is the smallest next step that would settle which branch holds.
 
 ## Version History
 
 - Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
+- Version 2.0.0 (2026-11-03, from 1.0.1): rewritten in full through the research pipeline. new sections: Introduction; Background and Related Work; Conclusion. sections folded or removed: Introduction Laboratory tests of Bell‑type inequalities with photons, ions and superconducting qubits repeatedly demonstrate violations that exceed any local‑realist bound, forcing physicists to accept either non‑local influences, many‑worlds branching, or to seek new explanatory structures. This impasse blocks the development of intuitively deterministic quantum technologies and hampers the integration of quantum theory with a locally causal description of spacetime. If a deterministic, locally causal model could reproduce the observed correlations, designers of quantum communication protocols would gain a clear causal picture, and foundational debates could shift from metaphysics to engineering.; Background and Related Work The $p$‑adic Beilinson conjecture relates regulators of $K$‑groups to special values of $L$‑functions, showing that $p$‑adic invariants can encode precise quantitative data; this motivates the use of $p$‑adic arithmetic in physical models [1]. The many‑worlds interpretation (MWI) removes action at a distance but incurs an ontological cost by postulating a continuously branching multiverse; our model offers a single‑world alternative grounded in $p$‑adic geometry [2]. Phase‑transition analysis of a three‑state $p$‑adic Potts model on a Cayley tree demonstrates that a transition occurs if and only if $p=3$, independent of interaction strength; this $p$‑dependence underpins our choice of $p=3$ for the hidden‑variable construction [3]. Generalized Iwasawa main conjectures introduce $p$‑adic Stark regulators, providing tools for constructing $p$‑adic $L$‑functions that can serve as hidden variables with well‑defined transformation properties [4]. $p$‑Adic and adelic quantum mechanics shows that wave functions can be defined on $\mathbb{Q}_{p}^{D}$ and that the Heisenberg algebra can be generalized, establishing a precedent for quantum‑like dynamics on non‑Archimedean spaces [5]. The $p$‑adic wavelet transform exploits the ultrametric norm $|x|_{p}=p^{-r}$ and its strong triangle inequality $|x+y|_{p}\le\max\{|x|_{p},|y|_{p}\}$, which is the mathematical backbone of our common‑ancestor distance metric [6]. $p$‑Adic and adelic cosmology introduces the empirical estimate that the observable universe is approximately $14$ billion years old, a number we use to illustrate concrete arithmetic derived from a bibliographic source [7]. The Unified Theory of Non‑Archimedean Ontology treats physical objects as emergent information structures, aligning with the interpretation of $p$‑adic tree nodes as informational ancestors that determine measurement outcomes [8]. Finally, Bruhat–Tits trees provide a scale‑invariant geometric substrate for physics, reinforcing the choice of an infinite regular tree as the backbone of our model [11].; Conclusion We have introduced a $p$‑adic common‑ancestor hidden‑variable model that reproduces the quantum correlation function $\cos(\Delta\theta)$ and attains the Tsirelson CHSH bound $2\sqrt{2}$. The model’s reliance on the ultrametric structure of $\mathbb{Q}_{3}$ links the existence of a phase transition in the $p$‑adic Potts model to the emergence of distinct outcome branches, providing a mathematically natural deterministic account of entanglement. While the framework remains at TRL 2 and hinges on specific scaling choices, it offers a concrete, falsifiable pathway for experimental and computational tests. Future work will explore multi‑prime extensions, decoherence mechanisms, and connections to the broader adelic physics program.. references 9 -> 5. length 2577 -> 5124 words.
 
 ## Provenance and AI Involvement
 
-- A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
-- A study would use models drafted by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification would be performed by openai/gpt-oss-120b, zai-org/glm-5.3-flash, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
+- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.45.3). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+- Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by zai-org/glm-5.3-flash, openai/gpt-oss-120b, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
 - Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
-- A study would ensure that required sections are present and finished, cross-references resolve, the reference list is rendered from the retrieved bibliography, no assistant residue or placeholders remain, adversarial model findings are resolved, and citation existence is verified at publication.
-- A study would independently recompute 8 quantitative claims from the paper's stated inputs; we assume that 0 would differ from the stated value at the stated precision.
+- Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
+- Independent recomputation: the execution sandbox was unavailable, so a second language model recomputed 9 quantitative claims step by step in text from the paper's stated inputs (no code was executed); 0 differed from the stated value at the stated precision.
 - Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
 
 ## References
 
-[1] On the p-adic Beilinson conjecture for number fields. arXiv:0707.3682v2. https://arxiv.org/abs/0707.3682v2
-[2] Why the Many-Worlds Interpretation?. arXiv:2208.04618v1. https://arxiv.org/abs/2208.04618v1
-[3] On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree. arXiv:math-ph/0512018v2. https://arxiv.org/abs/math-ph/0512018v2
-[4] On generalized Iwasawa main conjectures and $p$-adic Stark conjectures for Artin motives. arXiv:2103.06864v4. https://arxiv.org/abs/2103.06864v4
-[5] p-Adic and Adelic Quantum Mechanics. arXiv:hep-th/0312046v1. https://arxiv.org/abs/hep-th/0312046v1
-[6] p-Adic wavelet transform and quantum physics. arXiv:math-ph/0406024v1. https://arxiv.org/abs/math-ph/0406024v1
-[7] p-Adic and Adelic Cosmology: p-Adic Origin of Dark Energy and Dark Matter. arXiv:hep-th/0602044v1. https://arxiv.org/abs/hep-th/0602044v1
-[8] https://papers.qnfo.org/papers/unified-theory-of-non-archimedean-ontology. QNFO: Unified Theory of Non-Archimedean Ontology.
-[11] https://papers.qnfo.org/papers/cross-domain-phase2. QNFO: The Adelic Cross-Domain Program: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat-Tits Trees (Phase 3-4 Update).
+[1] Minimizing Degree-based Topological Indices for Trees with Given Number of Pendent Vertices + Erratum. arXiv:1405.1293v3. https://arxiv.org/abs/1405.1293v3
+[2] https://papers.qnfo.org/papers/tate-adelic-template. QNFO: Tate's Thesis as a Template for Adelic Quantum Mechanics: Local-Global Structure and the Emergence of Archimedean Artifacts.
+[3] https://papers.qnfo.org/papers/self-referential-scalar-family. QNFO: The Self-Referential Scalar Family: e, the Half-Turn, and the Unification of Information Theory, Statistics, Thermodynamics, and QND Measurement in the Adelic Picture.
+[4] https://papers.qnfo.org/papers/ultrametric-p-adic-metrology. QNFO: Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology.
+[5] https://papers.qnfo.org/papers/adelic-quantum-error-correction-a-synthesis-across-all-primes-v1-0-0. QNFO: Adelic Quantum Error Correction: A Synthesis Across All Primes v1.0.0.
