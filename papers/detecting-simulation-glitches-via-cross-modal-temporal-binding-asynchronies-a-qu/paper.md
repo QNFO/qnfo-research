@@ -1,10 +1,10 @@
 # Detecting Simulation Glitches via Cross‑Modal Temporal Binding Asynchronies: A Quantitative Framework
 
 ## Abstract
+
 The hypothesis that reality is rendered by a digital substrate predicts observable asynchronies at the interface where visual and auditory streams are produced by independent clocks. Existing multimodal models achieve near‑chance performance on temporal‑glitch detection (we assume an average accuracy of $50.77\%$, corresponding to $p_0=0.5077$, as a baseline). We first compute the statistical power required to detect a $5\%$ deviation from this baseline, finding that $1\,536$ independent video trials are needed for $95\%$ confidence. Next, we model a discrete render clock as a uniform quantizer and derive its contribution to latency variance ($\sigma_q \approx 4.81\ \text{ms}$ at $60\ \text{Hz}$). Comparing the resulting mixture distribution to a pure Gaussian yields a Kolmogorov‑Smirnov distance $D \approx 0.057$, which requires $\approx 566$ trials per condition to reject the null at $\alpha = 0.05$. We also calculate sample sizes for detecting a $10\ \text{ms}$ mean offset ($\approx 397$ trials per condition) and a $10\%$ widening of the temporal binding window ($\approx 433$ trials per condition). These results provide concrete, falsifiable criteria for psychophysical experiments that can either confirm simulation‑induced jitter or bound its magnitude.
 
-## 1. Introduction
-Human observers rely on precise temporal coordination between visual and auditory streams to bind events into unified percepts. In everyday life, a mismatch of more than a few tens of milliseconds disrupts speech intelligibility, motor coordination, and social interaction. We assume that audiovisual latency thresholds of interest are on the order of tens of milliseconds, and that exceeding such thresholds can affect performance in demanding tasks. If reality were simulated by a digital engine that renders each sensory modality on independent threads, the engine’s scheduler would inevitably introduce stochastic jitter beyond the limits of typical biological neural conduction. Detecting such jitter would provide the first empirical foothold for testing the simulation hypothesis.
+## 1. Introduction Human observers rely on precise temporal coordination between visual and auditory streams to bind events into unified percepts. In everyday life, a mismatch of more than a few tens of milliseconds disrupts speech intelligibility, motor coordination, and social interaction. We assume that audiovisual latency thresholds of interest are on the order of tens of milliseconds, and that exceeding such thresholds can affect performance in demanding tasks. If reality were simulated by a digital engine that renders each sensory modality on independent threads, the engine’s scheduler would inevitably introduce stochastic jitter beyond the limits of typical biological neural conduction. Detecting such jitter would provide the first empirical foothold for testing the simulation hypothesis.
 
 The concrete problem, therefore, is to determine whether cross‑modal temporal binding windows (TBWs) measured in human participants ever exceed the variability predicted by known neurophysiology. Answering this question would enable designers of high‑fidelity simulators, neuro‑engineers, and policymakers to assess whether observed asynchronies are artefacts of a simulated substrate or merely the result of ordinary neural noise.
 
@@ -16,8 +16,7 @@ The concrete problem, therefore, is to determine whether cross‑modal temporal 
 - **C5.** Sample‑size formulas for detecting a 10 ms mean offset and a 10 % widening of the TBW (Section 4.5).  
 - **C6.** Specification of a psychophysical protocol that leverages the derived sample sizes to test for simulation‑induced cross‑modal jitter (Section 5).  
 
-## 2. Background and Related Work
-Cross‑modal perception research spans several methodological strands that inform the present analysis.
+## 2. Background and Related Work Cross‑modal perception research spans several methodological strands that inform the present analysis.
 
 [1] models a spherical target irradiated by laser beams at 49° and 131° with respect to the polar axis, evaluating irradiation non‑uniformity under super‑Gaussian profiles and optimizing the scheme via Polar Direct Drive.
 
@@ -142,8 +141,7 @@ n-1 = 2\left(\frac{z_{0.975}+z_{0.80}}{0.1906}\right)^2
 $$
 so $n \approx 433$ per condition.
 
-### 4.6 Inter‑Hemisphere Delay Considerations
-Assuming corpus callosum transfer times lie in $[5,25]$ ms, a single‑frame artifact at 60 Hz ($\Delta = 16.667$ ms) falls within this range and is therefore not discriminative on its own. Discriminative evidence would require (i) a lattice pattern in the inter‑hemispheric difference distribution (detectable with the KS test in Section 4.4) or (ii) systematic scaling of the delay with scene complexity, which has no known neurophysiological basis.
+### 4.6 Inter‑Hemisphere Delay Considerations Assuming corpus callosum transfer times lie in $[5,25]$ ms, a single‑frame artifact at 60 Hz ($\Delta = 16.667$ ms) falls within this range and is therefore not discriminative on its own. Discriminative evidence would require (i) a lattice pattern in the inter‑hemispheric difference distribution (detectable with the KS test in Section 4.4) or (ii) systematic scaling of the delay with scene complexity, which has no known neurophysiological basis.
 
 ## 5. Results
 - **R1. Baseline accuracy.** We assume a baseline accuracy of $p_0=0.5077$ (approximately $50.77\%$) for temporal‑glitch detection (Section 4.1).  
@@ -170,17 +168,14 @@ All numbers arise from explicit arithmetic using sourced values or clearly state
 - **F2.** Non‑Gaussian physiological noise could produce a KS distance comparable to $0.057$, causing false rejections of the null.  
 - **F3.** Correlated trials (e.g., within‑subject dependence) would reduce the effective $N$, inflating required trial counts.  
 
-### 6.3 Falsifiability Criterion
-A well‑timed experiment with $n \ge 600$ trials per condition, using presentation hardware verified to sub‑millisecond precision, would falsify the render‑clock hypothesis if it finds (a) no mean offset beyond the $z$‑test threshold, (b) no KS rejection of the Gaussian null beyond $D_{\text{crit}} = 1.36/\sqrt{n}$, and (c) no load‑ or complexity‑dependent structure in the variance test. Conversely, a statistically significant KS rejection together with a lattice spacing matching a plausible render‑clock period would support the hypothesis, provided alternative non‑simulation explanations (e.g., hardware jitter) are ruled out.
+### 6.3 Falsifiability Criterion A well‑timed experiment with $n \ge 600$ trials per condition, using presentation hardware verified to sub‑millisecond precision, would falsify the render‑clock hypothesis if it finds (a) no mean offset beyond the $z$‑test threshold, (b) no KS rejection of the Gaussian null beyond $D_{\text{crit}} = 1.36/\sqrt{n}$, and (c) no load‑ or complexity‑dependent structure in the variance test. Conversely, a statistically significant KS rejection together with a lattice spacing matching a plausible render‑clock period would support the hypothesis, provided alternative non‑simulation explanations (e.g., hardware jitter) are ruled out.
 
 ### 6.4 Open Questions
 - How robust are the KS and variance signatures to realistic, non‑Gaussian attentional fluctuations?  
 - Can neuroimaging markers (e.g., phase‑locking value at 40 Hz) provide an independent test of the quantization hypothesis?  
 - What is the effect of adaptive rendering strategies on the predicted lattice structure?  
 
-## 7. Practical Implications and Engineering Pathways
-**(a) Intended Users and Decision Impact.**  
-Psychophysicists and perception laboratories planning to test the simulation hypothesis will use the derived effect sizes ($D \approx 0.057$, $\sigma_q \approx 4.8\ \text{ms}$) and sample‑size formulas to decide whether to allocate EEG/MEG beam time and participant budget. Designers of audiovisual synchrony calibration standards (broadcast, videoconferencing, clinical fitting) can use the null‑survival outcome to certify that their standards measure pure neurophysiology; a rejection would indicate that current standards conflate neural and simulation artefacts, prompting redesign.
+## 7. Practical Implications and Engineering Pathways **(a) Intended Users and Decision Impact.** Psychophysicists and perception laboratories planning to test the simulation hypothesis will use the derived effect sizes ($D \approx 0.057$, $\sigma_q \approx 4.8\ \text{ms}$) and sample‑size formulas to decide whether to allocate EEG/MEG beam time and participant budget. Designers of audiovisual synchrony calibration standards (broadcast, videoconferencing, clinical fitting) can use the null‑survival outcome to certify that their standards measure pure neurophysiology; a rejection would indicate that current standards conflate neural and simulation artefacts, prompting redesign.
 
 **(b) Technology Readiness Level.**  
 The work is purely analytical and has not undergone peer review; it therefore resides at TRL 1–2, consistent with NASA’s definitions for early‑stage concepts.
@@ -203,8 +198,7 @@ This projection assumes no additional software licensing fees.
 **(f) Risks and Misuse.**  
 If the methodology were misapplied to claim definitive evidence for a simulated reality without meeting the prescribed sample‑size and hardware‑precision requirements, it could fuel pseudoscientific narratives. Strict adherence to the statistical thresholds and hardware verification mitigates this risk.
 
-## 8. Conclusion
-By grounding the analysis in publicly reported performance metrics from vision‑language models and formal statistical theory, we have established quantitative baselines for temporal‑glitch detection and derived the experimental scale required to detect modest, simulation‑consistent cross‑modal asynchronies. The framework provides concrete, falsifiable tests for the simulation hypothesis at the mind‑world interface and offers actionable guidance for engineers and researchers seeking to ensure perceptual fidelity in neuro‑technological and immersive systems.
+## 8. Conclusion By grounding the analysis in publicly reported performance metrics from vision‑language models and formal statistical theory, we have established quantitative baselines for temporal‑glitch detection and derived the experimental scale required to detect modest, simulation‑consistent cross‑modal asynchronies. The framework provides concrete, falsifiable tests for the simulation hypothesis at the mind‑world interface and offers actionable guidance for engineers and researchers seeking to ensure perceptual fidelity in neuro‑technological and immersive systems.
 
 ## Provenance and AI Involvement
 

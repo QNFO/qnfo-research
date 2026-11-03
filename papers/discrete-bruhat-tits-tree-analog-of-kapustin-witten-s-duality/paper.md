@@ -1,10 +1,10 @@
 # Discrete Bruhat–Tits Tree Analog of Kapustin–Witten S‑Duality
 
 ## Abstract
+
 The Kapustin–Witten construction identifies S‑duality of four‑dimensional $\mathcal{N}=4$ supersymmetric Yang–Mills theory with the geometric Langlands correspondence on a Riemann surface $C$ [2]. This framework is limited to the Archimedean place, leaving the non‑Archimedean (p‑adic) sector unexplored. We close this gap by formulating a discrete gauge theory on the Bruhat–Tits tree $\mathcal{T}_p$, the $p$‑adic analogue of $C$, and by defining a tree‑level S‑duality involution that exchanges electric Wilson operators with magnetic ’t Hooft operators. Using the combinatorial structure of $\mathcal{T}_p$, we derive exact counts of vertices, edges, and comparable event pairs for depth $D=10$ at $p=2$, obtaining $V_{10}=3070$ vertices, $C_{10}=27\,651$ comparable ordered pairs, and a comparability fraction $f_{10}\approx5.87\times10^{-3}$. These numbers are obtained by explicit arithmetic (Section 4). The resulting discrete Langlands correspondence maps harmonic functions on $\mathcal{T}_p$ to eigenfunctions of Hecke operators, reproducing known p‑adic geometric Langlands statements [8]. Our analysis shows that the tree‑level S‑duality is mathematically well‑defined and physically plausible, suggesting that Langlands duality is a unified physical duality across all places. If the construction holds, it provides a concrete pathway to embed p‑adic physics into the broader Langlands program and to test S‑duality beyond the Archimedean realm.
 
-## 1. Introduction
-Physicists seeking a non‑perturbative formulation of quantum gravity confront a concrete obstacle: all established quantum field theories and string‑theoretic dualities are built on the Archimedean completion $\mathbb{R}$ of the rational numbers, while the adelic structure of $\mathbb{Q}$ predicts infinitely many non‑Archimedean completions $\mathbb{Q}_p$ [8]. This omission blocks any attempt to formulate a unified duality that respects the full adelic symmetry of number theory, and it prevents the use of p‑adic tools (e.g., ultrametric analysis) in high‑energy physics. A breakthrough would be a construction in which the S‑duality of $\mathcal{N}=4$ SYM, central to the Kapustin–Witten geometric Langlands program [2], admits a p‑adic counterpart. Such a construction would extend the physical interpretation of Langlands duality from the $\infty$‑place to every prime $p$, thereby providing a unified “adelic Langlands” framework.
+## 1. Introduction Physicists seeking a non‑perturbative formulation of quantum gravity confront a concrete obstacle: all established quantum field theories and string‑theoretic dualities are built on the Archimedean completion $\mathbb{R}$ of the rational numbers, while the adelic structure of $\mathbb{Q}$ predicts infinitely many non‑Archimedean completions $\mathbb{Q}_p$ [8]. This omission blocks any attempt to formulate a unified duality that respects the full adelic symmetry of number theory, and it prevents the use of p‑adic tools (e.g., ultrametric analysis) in high‑energy physics. A breakthrough would be a construction in which the S‑duality of $\mathcal{N}=4$ SYM, central to the Kapustin–Witten geometric Langlands program [2], admits a p‑adic counterpart. Such a construction would extend the physical interpretation of Langlands duality from the $\infty$‑place to every prime $p$, thereby providing a unified “adelic Langlands” framework.
 
 In this work we answer the question: *Can the Kapustin–Witten S‑duality be realized on the Bruhat–Tits tree $\mathcal{T}_p$, the natural p‑adic analogue of a Riemann surface?* We answer affirmatively by (i) defining a discrete gauge theory on $\mathcal{T}_p$, (ii) constructing a tree‑level involution that exchanges electric Wilson loops with magnetic ’t Hooft loops, and (iii) demonstrating that harmonic functions on $\mathcal{T}_p$ become eigenfunctions of Hecke operators under this involution, reproducing known p‑adic geometric Langlands statements [8].
 
@@ -15,8 +15,7 @@ In this work we answer the question: *Can the Kapustin–Witten S‑duality be r
 4. **Discrete Langlands correspondence** – Section 5 shows that the S‑duality map sends harmonic functions on $\mathcal{T}_p$ to eigenfunctions of Hecke operators, matching the p‑adic geometric Langlands description [8].  
 5. **Practical roadmap** – Section 7 outlines the user community (theoretical physicists and number theorists), assesses technology readiness (TRL 2), proposes the smallest feasible prototype (depth‑3 tree simulation), and lists constraints and falsification criteria.
 
-## 2. Background and Related Work
-The present study builds on several strands of prior research, each providing a concrete element that we incorporate into our construction.
+## 2. Background and Related Work The present study builds on several strands of prior research, each providing a concrete element that we incorporate into our construction.
 
 1. **S‑duality in string amplitudes.**  The S‑matrix of D‑brane world‑volume gauge fields respects a Ward identity associated with S‑duality, as demonstrated for three‑point amplitudes of non‑abelian gauge bosons [2]. This establishes that S‑duality can be encoded at the level of scattering amplitudes, motivating our search for an operator‑level duality on a discrete space.
 
@@ -81,8 +80,7 @@ A function $f:V(\mathcal{T}_p)\to\mathbb{C}$ is **harmonic** if for every vertex
 \]
 Hecke operators $T_n$ act on functions by averaging over vertices at distance $n$ from a given vertex. Using the S‑duality map $\mathcal{S}$, we prove that if $f$ is harmonic then $T_n f$ is an eigenfunction of the magnetic ’t Hooft algebra, reproducing the p‑adic geometric Langlands eigen‑sheaf condition [8].
 
-## 4. Analysis
-All combinatorial quantities are derived from the regularity of $\mathcal{T}_p$.
+## 4. Analysis All combinatorial quantities are derived from the regularity of $\mathcal{T}_p$.
 
 ### 4.1 Vertex count per depth
 At depth $d\ge1$, each vertex has $p$ children (the parent edge is excluded). Hence
@@ -116,8 +114,7 @@ f_D = \frac{C_D}{\binom{V_D}{2}}.
 \tag{4.4}
 \]
 
-### 4.5 Explicit computation for $p=2$, $D=10$
-We now substitute $p=2$ and $D=10$.
+### 4.5 Explicit computation for $p=2$, $D=10$ We now substitute $p=2$ and $D=10$.
 
 1. **Per‑depth vertices** from (4.1):
    \[
@@ -179,13 +176,11 @@ f_D \sim \frac{2(p-1)D}{(p+1)p^{D}} \;\to\;0,
 \]
 showing that almost all vertex pairs are incomparable, a hallmark of ultrametric spaces.
 
-### 4.7 Spectral radius of the adjacency operator
-Assuming the standard spectral radius of the adjacency operator on a $(p+1)$‑regular tree is $2\sqrt{p}$, for $p=2$ we obtain $\rho(A)=2\sqrt{2}\approx2.8284271$ (projection).
+### 4.7 Spectral radius of the adjacency operator Assuming the standard spectral radius of the adjacency operator on a $(p+1)$‑regular tree is $2\sqrt{p}$, for $p=2$ we obtain $\rho(A)=2\sqrt{2}\approx2.8284271$ (projection).
 
 All numbers above are derived solely from the regularity of $\mathcal{T}_p$ and elementary arithmetic; no simulation or external data are used.
 
-## 5. Results
-The discrete gauge theory and S‑duality map defined in Section 3 satisfy the following exact statements:
+## 5. Results The discrete gauge theory and S‑duality map defined in Section 3 satisfy the following exact statements:
 
 | Result | Statement | Source |
 |--------|-----------|--------|
@@ -225,11 +220,9 @@ A **falsifying observation** would be the detection of a non‑trivial $\ell^2$ 
 ### 7.1 Intended users and decision impact
 The primary users are **theoretical physicists** working on S‑duality, geometric Langlands, and p‑adic string theory, as well as **number theorists** interested in adelic formulations of physical dualities. If the discrete S‑duality holds, researchers can replace continuous gauge‑theoretic calculations on $C$ with combinatorial computations on $\mathcal{T}_p$, dramatically simplifying certain non‑perturbative analyses and enabling explicit checks of p‑adic Langlands predictions.
 
-### 7.2 Technology readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 2** (technology concept formulated).
+### 7.2 Technology readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 2** (technology concept formulated).
 
-### 7.3 Minimal next experiment
-Construct a **depth‑3** simulation of $\mathcal{T}_p$ (e.g., $p=2$, $D=3$) on a standard workstation. Implement the discrete gauge action, compute Wilson line expectation values for a set of short paths, apply the involution $\mathcal{S}$, and verify that the transformed ’t Hooft line expectation matches the original Wilson value within numerical precision. **Refutation criterion:** a systematic discrepancy exceeding statistical fluctuations would falsify the involution.
+### 7.3 Minimal next experiment Construct a **depth‑3** simulation of $\mathcal{T}_p$ (e.g., $p=2$, $D=3$) on a standard workstation. Implement the discrete gauge action, compute Wilson line expectation values for a set of short paths, apply the involution $\mathcal{S}$, and verify that the transformed ’t Hooft line expectation matches the original Wilson value within numerical precision. **Refutation criterion:** a systematic discrepancy exceeding statistical fluctuations would falsify the involution.
 
 ### 7.4 Engineering constraints
 - **Computational resources:** The simulation requires only $O(p^{D})$ memory; for $p=2$, $D=3$, this is $V_3=1+3+6+12=22$ vertices, trivial for any modern computer.
@@ -242,11 +235,9 @@ Assuming the depth‑3 prototype succeeds, scaling to depth $D$ yields:
 - **Computation time** $O(V_D)$ for evaluating all Wilson lines of length $\le D$.
 These projections follow directly from the combinatorial formulas derived in Section 4.
 
-### 7.6 Risks and misuse
-A potential risk is **over‑interpretation** of the discrete model as a full physical theory, leading to premature claims about p‑adic spacetime. Researchers must treat the construction as a **toy model** for testing duality concepts, not as a replacement for established continuum formulations.
+### 7.6 Risks and misuse A potential risk is **over‑interpretation** of the discrete model as a full physical theory, leading to premature claims about p‑adic spacetime. Researchers must treat the construction as a **toy model** for testing duality concepts, not as a replacement for established continuum formulations.
 
-## 8. Conclusion
-We have presented a concrete discrete analogue of the Kapustin–Witten S‑duality on the Bruhat–Tits tree $\mathcal{T}_p$. By defining a lattice gauge theory with a branching constraint, constructing an explicit Wilson/’t Hooft exchange involution, and proving that harmonic functions become Hecke eigenfunctions under this map, we extend the geometric Langlands correspondence to the non‑Archimedean setting. Exact combinatorial analysis yields closed‑form vertex and comparability counts, confirming that the tree’s ultrametric structure naturally supports the scarcity of comparable events—a feature mirrored in p‑adic physics. The work opens a pathway for adelic unification of dualities and invites experimental verification through modest depth‑3 simulations. Future research will explore dynamical matter, higher‑derivative corrections, and connections to p‑adic AdS/CFT.
+## 8. Conclusion We have presented a concrete discrete analogue of the Kapustin–Witten S‑duality on the Bruhat–Tits tree $\mathcal{T}_p$. By defining a lattice gauge theory with a branching constraint, constructing an explicit Wilson/’t Hooft exchange involution, and proving that harmonic functions become Hecke eigenfunctions under this map, we extend the geometric Langlands correspondence to the non‑Archimedean setting. Exact combinatorial analysis yields closed‑form vertex and comparability counts, confirming that the tree’s ultrametric structure naturally supports the scarcity of comparable events—a feature mirrored in p‑adic physics. The work opens a pathway for adelic unification of dualities and invites experimental verification through modest depth‑3 simulations. Future research will explore dynamical matter, higher‑derivative corrections, and connections to p‑adic AdS/CFT.
 
 ## Provenance and AI Involvement
 
