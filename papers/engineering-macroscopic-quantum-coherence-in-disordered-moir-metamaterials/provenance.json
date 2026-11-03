@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "engineering-macroscopic-quantum-coherence-in-disordered-moir-metamaterials",
+  "paper": {
+    "path": "papers/engineering-macroscopic-quantum-coherence-in-disordered-moir-metamaterials/paper.md",
+    "title": "Engineering Macroscopic Quantum Coherence in Disordered Moiré Metamaterials",
+    "url": "https://papers.qnfo.org/papers/engineering-macroscopic-quantum-coherence-in-disordered-moir-metamaterials"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "engineering-macroscopic-quantum-coherence-in-disordered-moir-metamaterials"
+  },
+  "snapshots": [
+    {
+      "sha256": "9aa4af568c0d68f152cd29302abb8277310122255da290fcd3544c505ec98179",
+      "bytes": 122712,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

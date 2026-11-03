@@ -1,10 +1,10 @@
 # Ensemble Drafting: A Draft‑Then‑Verify Framework Unifying Population‑Level Ensemble Control and Speculative Inference
 
 ## Abstract
+
 Many computational and control systems share a hidden structure: a cheap, imperfect proposal mechanism produces candidate outputs, and an expensive, authoritative mechanism verifies them in a single pass. We call this abstraction *ensemble drafting* and formalize it with three parameters—per‑unit draft acceptance probability $\alpha$, draft‑to‑target cost ratio $\rho$, and verification cost ratio $\nu$. From these we derive the expected accepted throughput $E_k[A]=(1-\alpha^{k})/(1-\alpha)$ and the throughput gain $S(k)=E_k[A]/(\rho k+\nu)$. For a strong single drafter ($\alpha=0.8$, $\rho=0.1$, $\nu=1$) we compute the optimal draft length $k^{*}=7$ and gain $S_{\max}=2.324367$. Extending to $m$ independent drafters yields a pooled acceptance probability $\alpha_m=1-(1-\alpha)^m$. For two weak drafters ($\alpha=0.5$, $\alpha_2=0.75$, doubled draft cost) the optimal gain improves from $1.346154$ to $1.525391$, a relative gain of $13.3\%$. For three drafters the relative gain ranges from $1.251877$ to $1.330302$ as per‑drafter quality falls from $\alpha=0.6$ to $\alpha=0.4$. All quantitative results are analytical projections with every arithmetic step shown; the independence assumption is identified as the principal failure mode and explicit falsification criteria are given.
 
-## 1. Introduction
-Engineers who operate large populations of similar systems, and engineers who serve inference from large models, face the same economic problem: the authoritative mechanism is accurate but expensive, while the cheap alternative is fast but occasionally wrong. In swarm robotics a broadcast control signal is applied to thousands of agents, yet only a subset follow the intended trajectory, forcing a costly verification step such as visual inspection or high‑precision sensing to confirm mission success. In large‑scale language‑model inference draft transformers generate tokens that a large model must verify, inflating wall‑clock time. The verification cost dominates system latency and energy consumption, limiting deployment in latency‑sensitive applications such as autonomous driving or interactive multimodal assistants. If a principled framework could predict the optimal draft length and the benefit of pooling multiple weak drafters, system designers could choose draft‑to‑verify parameters that minimize latency while preserving correctness, directly improving throughput and energy efficiency.
+## 1. Introduction Engineers who operate large populations of similar systems, and engineers who serve inference from large models, face the same economic problem: the authoritative mechanism is accurate but expensive, while the cheap alternative is fast but occasionally wrong. In swarm robotics a broadcast control signal is applied to thousands of agents, yet only a subset follow the intended trajectory, forcing a costly verification step such as visual inspection or high‑precision sensing to confirm mission success. In large‑scale language‑model inference draft transformers generate tokens that a large model must verify, inflating wall‑clock time. The verification cost dominates system latency and energy consumption, limiting deployment in latency‑sensitive applications such as autonomous driving or interactive multimodal assistants. If a principled framework could predict the optimal draft length and the benefit of pooling multiple weak drafters, system designers could choose draft‑to‑verify parameters that minimize latency while preserving correctness, directly improving throughput and energy efficiency.
 
 **Contributions.**  
 1. We introduce a minimal stochastic model of ensemble drafting with three parameters ($\alpha$, $\rho$, $\nu$) and extend it to $m$ independent drafters, deriving the pooled acceptance probability $\alpha_m=1-(1-\alpha)^m$ (Section 3).  
@@ -12,8 +12,7 @@ Engineers who operate large populations of similar systems, and engineers who se
 3. We quantify the ensemble‑diversity trade‑off by comparing single‑drafter and multi‑drafter configurations, and we enumerate the assumptions whose violation would falsify the results (Sections 4–6).  
 4. We translate the analytical results into practical guidance for system designers, specifying readiness level, next‑step experiments, and engineering constraints (Section 9).
 
-## 2. Background and Related Work
-We discuss nine works, each cited for a specific result its own text states.
+## 2. Background and Related Work We discuss nine works, each cited for a specific result its own text states.
 
 *Speculative decoding for multimodal models.* TABED performs test‑time adaptive ensemble drafting for robust speculative decoding in large vision‑language models, and reports a wall‑time speedup of $1.74\times$ [4]. We adopt its draft‑then‑verify loop as the computational analogue of our abstract process, and in Section 6 we check that our gain formula reproduces the reported $1.74\times$ under calibration.
 
@@ -49,8 +48,7 @@ The model has three parameters:
 * $\rho>0$: cost of drafting one unit, measured in units of the target’s per‑unit cost.  
 * $\nu>0$: cost of one verification pass, likewise normalized.
 
-### 3.2 Ensemble drafting with $m$ independent drafters
-With $m$ independent drafters we assume the pooled proposal is accepted if at least one drafter’s unit is correct. Under independence of drafter errors, the effective acceptance probability is
+### 3.2 Ensemble drafting with $m$ independent drafters With $m$ independent drafters we assume the pooled proposal is accepted if at least one drafter’s unit is correct. Under independence of drafter errors, the effective acceptance probability is
 
 $$
 \alpha_m = 1-(1-\alpha)^m .
@@ -64,8 +62,7 @@ $$
 
 This mirrors the population‑level broadcast of ensemble control [5, 8]; the pooled acceptance probability $\alpha_m$ plays the role of a first‑moment sufficient statistic.
 
-### 3.3 Objective
-Let $A_k$ be the number of accepted units in a round with draft length $k$. The throughput gain is
+### 3.3 Objective Let $A_k$ be the number of accepted units in a round with draft length $k$. The throughput gain is
 
 $$
 S(k)=\frac{E_k[A]}{\rho k+\nu},
@@ -93,11 +90,9 @@ evaluated at each configuration’s own optimal $k^{*}$.
 
 Results derived under A1 alone are marked *combinatorial*; results using A2–A4 are marked *cost‑dependent*.
 
-## 4. Analysis
-All arithmetic is shown step‑by‑step; inputs are stated at each use. Results are analytical projections under A1–A4.
+## 4. Analysis All arithmetic is shown step‑by‑step; inputs are stated at each use. Results are analytical projections under A1–A4.
 
-### 4.1 Expected accepted units
-Because acceptance of the first $i$ units requires $i-1$ consecutive correct drafts,
+### 4.1 Expected accepted units Because acceptance of the first $i$ units requires $i-1$ consecutive correct drafts,
 
 $$
 \Pr(A_k\ge i)=\alpha^{\,i-1},\qquad 1\le i\le k,
@@ -120,8 +115,7 @@ E_7[A]=\frac{1-0.2097152}{1-0.8}
       =\frac{0.7902848}{0.2}=3.951424.
 \]
 
-### 4.2 Continuous optimality condition
-Maximize $f(k)=(1-\alpha^{k})/(\rho k+\nu)$ for real $k>0$. Setting $f'(k)=0$ yields
+### 4.2 Continuous optimality condition Maximize $f(k)=(1-\alpha^{k})/(\rho k+\nu)$ for real $k>0$. Setting $f'(k)=0$ yields
 
 $$
 \frac{-\alpha^{k}\ln\alpha\,(\rho k+\nu)-\rho(1-\alpha^{k})}{(\rho k+\nu)^{2}}=0,
@@ -146,8 +140,7 @@ $$
 
 LHS $=0.2097152$, difference $=0.001097$, confirming $k^{*}\approx7$.
 
-### 4.3 Discrete optimum and gain (single drafter)
-We evaluate $S(k)=E_k[A]/(0.1k+1)$ for $\alpha=0.8$, $\rho=0.1$, $\nu=1$:
+### 4.3 Discrete optimum and gain (single drafter) We evaluate $S(k)=E_k[A]/(0.1k+1)$ for $\alpha=0.8$, $\rho=0.1$, $\nu=1$:
 
 | $k$ | $\alpha^{k}$ | $E_k[A]$ | $\rho k+\nu$ | $S(k)$ |
 |---|---|---|---|---|
@@ -160,8 +153,7 @@ We evaluate $S(k)=E_k[A]/(0.1k+1)$ for $\alpha=0.8$, $\rho=0.1$, $\nu=1$:
 
 The discrete maximum occurs at $k^{*}=7$ with $S_{\max}=2.324367$.
 
-### 4.4 Two‑drafter ensemble versus one weak drafter
-*Single weak drafter.* $\alpha=0.5$, $\rho=0.1$, $\nu=1$ gives $E_k[A]=2(1-0.5^{k})$ and $S(k)=E_k[A]/(0.1k+1)$. Table:
+### 4.4 Two‑drafter ensemble versus one weak drafter *Single weak drafter.* $\alpha=0.5$, $\rho=0.1$, $\nu=1$ gives $E_k[A]=2(1-0.5^{k})$ and $S(k)=E_k[A]/(0.1k+1)$. Table:
 
 | $k$ | $E_k[A]$ | $S(k)$ |
 |---|---|---|
@@ -188,8 +180,7 @@ Optimal $k^{*}=5$, $S_{\text{ens}}=1.525391$.
 S_{\text{rel}}=\frac{1.525391}{1.346154}=1.133147\;\;(13.3\%).
 \]
 
-### 4.5 Three‑drafter illustration (moderate quality)
-Parameters: $\alpha=0.6$, $m=3$, $k=4$, $\rho=0.05$, $\nu=1$.
+### 4.5 Three‑drafter illustration (moderate quality) Parameters: $\alpha=0.6$, $m=3$, $k=4$, $\rho=0.05$, $\nu=1$.
 
 *Pooled acceptance.*
 
@@ -232,8 +223,7 @@ S_{\text{single}}=\frac{2.176}{0.05\times4+1}
 S_{\text{rel}}=\frac{2.270076473}{1.813333}=1.251877.
 \]
 
-### 4.6 Sensitivity to drafter quality
-We repeat the three‑drafter calculation with $\alpha=0.4$ (weaker drafters).
+### 4.6 Sensitivity to drafter quality We repeat the three‑drafter calculation with $\alpha=0.4$ (weaker drafters).
 
 \[
 \alpha_3=1-(1-0.4)^3=1-0.6^{3}=1-0.216=0.784,
@@ -272,8 +262,7 @@ S_{\text{rel}}=\frac{1.800341}{1.353333}=1.330302.
 
 Thus weaker individual drafters increase the benefit of pooling.
 
-### 4.7 Asymptotic behavior for large draft length
-For fixed $\alpha\in(0,1)$, $\rho>0$, $\nu>0$, as $k\to\infty$ we have $\alpha^{k}\to0$, so
+### 4.7 Asymptotic behavior for large draft length For fixed $\alpha\in(0,1)$, $\rho>0$, $\nu>0$, as $k\to\infty$ we have $\alpha^{k}\to0$, so
 
 \[
 E_k[A]\to\frac{1}{1-\alpha},\qquad
@@ -282,8 +271,7 @@ S(k)\to\frac{1}{(1-\alpha)(\rho k+\nu)}\xrightarrow{k\to\infty}0.
 
 Hence the gain function always attains a finite maximum at some finite $k^{*}$; extending the draft indefinitely is never optimal. This analytic limit justifies the discrete search performed in Sections 4.3–4.6.
 
-### 4.8 Sensitivity to draft cost $\rho$
-Holding $\alpha$ and $\nu$ constant, the continuous optimality condition can be rearranged to solve for $k^{*}$ as a function of $\rho$:
+### 4.8 Sensitivity to draft cost $\rho$ Holding $\alpha$ and $\nu$ constant, the continuous optimality condition can be rearranged to solve for $k^{*}$ as a function of $\rho$:
 
 \[
 k^{*}(\rho)=\frac{1}{\rho}\Bigl(\frac{-\ln\alpha}{\alpha^{k^{*}}}-\nu\Bigr).
@@ -299,8 +287,7 @@ Because $\alpha^{k^{*}}$ itself depends on $\rho$, we evaluate numerically for $
 
 Increasing draft cost shifts the optimum toward shorter drafts and reduces the maximal gain, confirming the intuition that higher drafting overhead discourages long drafts.
 
-## 5. Results
-All numbers below are analytical projections computed in Section 4 under assumptions A1–A4; none are measurements.
+## 5. Results All numbers below are analytical projections computed in Section 4 under assumptions A1–A4; none are measurements.
 
 * **R1 (single strong drafter).** $\alpha=0.8$, $\rho=0.1$, $\nu=1$: $E_7[A]=3.951424$, $k^{*}=7$, $S_{\max}=2.324367$ (Sections 4.1, 4.3).  
 * **R2 (two weak drafters vs. one weak drafter).** $\alpha=0.5$, $\rho=0.1$, $\nu=1$: $S_{\text{single}}=1.346154$ at $k^{*}=3$; $\alpha_2=0.75$, $\rho_2=0.2$, $S_{\text{ens}}=1.525391$ at $k^{*}=5$; relative gain $13.3\%$ (Section 4.4).  
@@ -493,8 +480,7 @@ System architects of large‑scale language‑model inference pipelines, designe
 
 If the derived $k^{*}$ and $S_{\max}$ are adopted, inference latency can be reduced by the predicted gain factor (e.g., $2.32\times$ for a strong drafter) without sacrificing output correctness.
 
-### (b) Technology readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 1–2** (basic principles observed, technology concept formulated). No manufacturing or hardware components are involved, so the work never exceeds **TRL 3**.
+### (b) Technology readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 1–2** (basic principles observed, technology concept formulated). No manufacturing or hardware components are involved, so the work never exceeds **TRL 3**.
 
 ### (c) Smallest next experiment
 A minimal pilot would implement a speculative‑decoding loop for a modest‑size language model (e.g., 2.7 B parameters) with a draft model of known per‑token accuracy $\alpha$ (measured on a held‑out validation set). The experiment would:
@@ -511,14 +497,11 @@ If the measured $S(k)$ peak lies at a $k$ different from the predicted $k^{*}$ b
 * **Correlation monitoring.** In multi‑drafter settings, mechanisms to ensure statistical independence (e.g., different random seeds, distinct model architectures) are required; otherwise A2 fails.  
 * **Scalability of $m$.** As $m$ grows, memory bandwidth for simultaneous draft generation may become a bottleneck, an open question not captured by the current cost model.
 
-### (e) Projected cost and performance bounds (projections)
-Assuming a GPU that processes one token at $0.5$ ms (draft cost) and one verification pass at $5$ ms (verification cost), we have $\rho=0.1$, $\nu=1$ in normalized units. For a strong drafter ($\alpha=0.8$) the projected maximal throughput gain is $S_{\max}=2.324367$, implying a **~57 % reduction in wall‑clock time** per accepted token relative to naïve verification. For two weak drafters ($\alpha=0.5$) the projected relative gain is $13.3\%$, i.e., **~12 % reduction** in wall‑clock time. These bounds hold under the stated assumptions and the assumed values of $\alpha$, $\rho$, $\nu$.
+### (e) Projected cost and performance bounds (projections) Assuming a GPU that processes one token at $0.5$ ms (draft cost) and one verification pass at $5$ ms (verification cost), we have $\rho=0.1$, $\nu=1$ in normalized units. For a strong drafter ($\alpha=0.8$) the projected maximal throughput gain is $S_{\max}=2.324367$, implying a **~57 % reduction in wall‑clock time** per accepted token relative to naïve verification. For two weak drafters ($\alpha=0.5$) the projected relative gain is $13.3\%$, i.e., **~12 % reduction** in wall‑clock time. These bounds hold under the stated assumptions and the assumed values of $\alpha$, $\rho$, $\nu$.
 
-### (f) Direct risks or misuse paths
-If designers overestimate $\alpha$ (e.g., by measuring draft accuracy on a distribution that differs from deployment data), the predicted $k^{*}$ may be too large, causing excessive verification failures and increased latency. In safety‑critical control of physical swarms, an overly optimistic $k^{*}$ could lead to insufficient verification of critical commands, risking mission failure. Mitigation requires conservative $\alpha$ estimates and runtime monitoring of acceptance rates.
+### (f) Direct risks or misuse paths If designers overestimate $\alpha$ (e.g., by measuring draft accuracy on a distribution that differs from deployment data), the predicted $k^{*}$ may be too large, causing excessive verification failures and increased latency. In safety‑critical control of physical swarms, an overly optimistic $k^{*}$ could lead to insufficient verification of critical commands, risking mission failure. Mitigation requires conservative $\alpha$ estimates and runtime monitoring of acceptance rates.
 
-## 10. Conclusion
-Ensemble drafting abstracts the shared draft‑then‑verify structure of speculative decoding for language and vision‑language models [3] and population‑level broadcast control [5, 8]. With three parameters ($\alpha$, $\rho$, $\nu$) it yields closed‑form expressions $E_k[A]=(1-\alpha^{k})/(1-\alpha)$ and $S(k)=E_k[A]/(\rho k+\nu)$, concrete operating points ($k^{*}=7$, $S=2.324367$ for a strong single drafter), and a quantified ensemble‑diversity trade‑off ($13.3\%$ relative gain for two weak drafters over one, $1.251877$ to $1.330302$ for three drafters as quality falls). Every number is a projection with shown arithmetic, and the framework’s value lies in making its assumptions—above all drafter independence—explicit and falsifiable. The analytical results provide system designers with a principled tool to balance draft quality, draft cost, and verification overhead, guiding the engineering of faster, more energy‑efficient draft‑then‑verify pipelines across language‑model inference, swarm control, and high‑throughput simulation.
+## 10. Conclusion Ensemble drafting abstracts the shared draft‑then‑verify structure of speculative decoding for language and vision‑language models [3] and population‑level broadcast control [5, 8]. With three parameters ($\alpha$, $\rho$, $\nu$) it yields closed‑form expressions $E_k[A]=(1-\alpha^{k})/(1-\alpha)$ and $S(k)=E_k[A]/(\rho k+\nu)$, concrete operating points ($k^{*}=7$, $S=2.324367$ for a strong single drafter), and a quantified ensemble‑diversity trade‑off ($13.3\%$ relative gain for two weak drafters over one, $1.251877$ to $1.330302$ for three drafters as quality falls). Every number is a projection with shown arithmetic, and the framework’s value lies in making its assumptions—above all drafter independence—explicit and falsifiable. The analytical results provide system designers with a principled tool to balance draft quality, draft cost, and verification overhead, guiding the engineering of faster, more energy‑efficient draft‑then‑verify pipelines across language‑model inference, swarm control, and high‑throughput simulation.
 
 ## Version History
 
