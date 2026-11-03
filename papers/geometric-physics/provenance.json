@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "geometric-physics",
+  "paper": {
+    "path": "papers/geometric-physics/paper.md",
+    "title": "COMMUTATIVE PHYSICS",
+    "url": "https://papers.qnfo.org/papers/geometric-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "geometric-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "8bca717eabd40dc78647845b0add509cadac370cd4542876e795bd3b81175df1",
+      "bytes": 67480,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

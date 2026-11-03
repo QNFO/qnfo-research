@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "general-theory-of-process",
+  "paper": {
+    "path": "papers/general-theory-of-process/paper.md",
+    "title": "General Theory of Process",
+    "url": "https://papers.qnfo.org/papers/general-theory-of-process"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "general-theory-of-process"
+  },
+  "snapshots": [
+    {
+      "sha256": "5e18b2e21ed57a1a769f8e70c1e296ae894b4d046348b77fba7b9a29e7b1d3a5",
+      "bytes": 116043,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

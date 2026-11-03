@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "funding-strategy-2026-08-13",
+  "paper": {
+    "path": "papers/funding-strategy-2026-08-13/paper.md",
+    "title": "QNFO Funding Strategy — Verified Funder Landscape & Shortlist",
+    "url": "https://papers.qnfo.org/papers/funding-strategy-2026-08-13"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "funding-strategy-2026-08-13"
+  },
+  "snapshots": [
+    {
+      "sha256": "8ca3fc7e5f485386aca2f601dfdded0eb6411f9f25440af7575e8a6924cfa334",
+      "bytes": 17276,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
