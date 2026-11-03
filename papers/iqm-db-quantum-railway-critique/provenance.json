@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "iqm-db-quantum-railway-critique",
+  "paper": {
+    "path": "papers/iqm-db-quantum-railway-critique/paper.md",
+    "title": "Deep-Dive Research & Critique: IQM/Deutsche Bahn Hybrid Quantum Railway Scheduling",
+    "url": "https://papers.qnfo.org/papers/iqm-db-quantum-railway-critique"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "iqm-db-quantum-railway-critique"
+  },
+  "snapshots": [
+    {
+      "sha256": "1cbfb53f4137f76f8cf2a40681c056b1ba0d76ced8c567966ecff205ede1b640",
+      "bytes": 19811,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
