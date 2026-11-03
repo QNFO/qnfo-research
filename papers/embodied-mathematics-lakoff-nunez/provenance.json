@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "embodied-mathematics-lakoff-nunez",
+  "paper": {
+    "path": "papers/embodied-mathematics-lakoff-nunez/paper.md",
+    "title": "Embodied Mathematics After Lakoff & Nunez: A QNFO Perspective",
+    "url": "https://papers.qnfo.org/papers/embodied-mathematics-lakoff-nunez"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "embodied-mathematics-lakoff-nunez"
+  },
+  "snapshots": [
+    {
+      "sha256": "40ecfed902b0aab734a3895f6e1c63238700fa078869149de7d5e37def5154e6",
+      "bytes": 24761,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

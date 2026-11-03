@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "electron-hook-treatise",
+  "paper": {
+    "path": "papers/electron-hook-treatise/paper.md",
+    "title": "A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics, Thermodynamics, and Computation",
+    "url": "https://papers.qnfo.org/papers/electron-hook-treatise"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "electron-hook-treatise"
+  },
+  "snapshots": [
+    {
+      "sha256": "ec7ae8591c9f12df278ebc8d106b78adb3823370ae950f00149c7774f643a48b",
+      "bytes": 142679,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "0.3.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
