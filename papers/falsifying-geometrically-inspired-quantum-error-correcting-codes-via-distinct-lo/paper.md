@@ -1,12 +1,12 @@
 # Falsifying Geometrically Inspired Quantum Error‑Correcting Codes via Distinct Logical‑Error Scaling
 
 ## Abstract
+
 Geometric constructions of quantum error‑correcting codes (QECCs) have been proposed as alternatives to standard topological codes, yet their physical relevance remains ambiguous. Existing proposals lack a testable prediction that distinguishes them from surface‑code scaling of logical error rates. We identify this gap and formulate a falsifiability criterion: a geometrically motivated code must exhibit a logical error scaling  
 \(p_{L}\propto p_{\mathrm{phys}}^{\,d/2}\)  
 where \(p_{\mathrm{phys}}\) is the physical error probability per qubit and \(d\) the code distance, in contrast to the surface‑code scaling \(p_{L}\propto p_{\mathrm{phys}}^{\,d}\). We develop a systematic method to extract the exponent from any stabilizer description, simulate the associated Lindblad dynamics, and compute the expected logical error curve. Using experimentally reported ancilla bit‑flip rates from a fluxonium‑based bosonic QEC platform \([8]\) together with the derived scaling law, we obtain a concrete numerical prediction: for a physical error probability \(p_{\mathrm{phys}}=2.19\times10^{-2}\) and distance \(d=5\), the geometric code predicts \(p_{L}=7.1\times10^{-5}\) whereas the surface code predicts \(p_{L}=5.1\times10^{-9}\). This separation is experimentally resolvable with current superconducting hardware. Our result changes the design decision for quantum architects: if the geometric scaling holds, logical qubits can be realized with fewer physical resources, but the criterion also provides a clear falsification pathway.
 
-## 1. Introduction
-Large‑scale quantum computers require fault‑tolerant logical qubits. Presently, the dominant approach is the two‑dimensional surface code, which demands thousands of physical qubits per logical qubit and a logical error rate that scales as \(p_{L}\approx A\,(p_{\mathrm{phys}})^{d}\) with code distance \(d\) \([8]\). This resource overhead blocks near‑term deployment of error‑corrected algorithms and inflates the cost of quantum processors.  
+## 1. Introduction Large‑scale quantum computers require fault‑tolerant logical qubits. Presently, the dominant approach is the two‑dimensional surface code, which demands thousands of physical qubits per logical qubit and a logical error rate that scales as \(p_{L}\approx A\,(p_{\mathrm{phys}})^{d}\) with code distance \(d\) \([8]\). This resource overhead blocks near‑term deployment of error‑corrected algorithms and inflates the cost of quantum processors. 
 
 A growing body of work proposes QECCs derived from non‑standard geometric foundations—\(p\)-adic, Bruhat–Tits, or geometric‑algebraic constructions—claiming that their stabilizer structure yields a more favorable logical error exponent \([7]\). However, without a quantitative scaling law, these proposals remain speculative: any observed logical error rate could be attributed to experimental imperfections rather than to a distinct theoretical prediction.  
 
@@ -23,8 +23,7 @@ with a constant \(C\) of order unity, then for a given physical error budget the
 - **C3.** Application of the procedure to a fluxonium‑based bosonic QEC platform using reported ancilla error rates \([8]\), yielding a falsifiable prediction (Section 5).  
 - **C4.** Discussion of limitations, falsification conditions, and practical pathways for experimental verification (Sections 6–7).  
 
-## 2. Background and Related Work
-Geometric scaling of physical quantities has been studied in high‑energy physics, where the gluon distribution exhibits a power‑law dependence on a single scaling variable \(Q/Q_{s}(x)\) \([1]\). The authors solve the DGLAP evolution equations with boundary conditions on the critical line \(Q^{2}=Q_{s}^{2}(x)\) and find that the scaling exponent \(\lambda\) controls the preservation of geometric scaling at small \(x\). This demonstrates how a single exponent can encode non‑trivial physical behavior, motivating our focus on exponent extraction for QECCs.
+## 2. Background and Related Work Geometric scaling of physical quantities has been studied in high‑energy physics, where the gluon distribution exhibits a power‑law dependence on a single scaling variable \(Q/Q_{s}(x)\) \([1]\). The authors solve the DGLAP evolution equations with boundary conditions on the critical line \(Q^{2}=Q_{s}^{2}(x)\) and find that the scaling exponent \(\lambda\) controls the preservation of geometric scaling at small \(x\). This demonstrates how a single exponent can encode non‑trivial physical behavior, motivating our focus on exponent extraction for QECCs.
 
 Distinct‑value estimation in databases requires careful statistical analysis of sampling errors \([2]\). The authors identify a latent parameter—the average uniform class size—that governs estimator variance. Their methodology of isolating a single governing parameter from a high‑dimensional data set informs our approach to reducing the stabilizer description to a single logical‑error exponent.
 
@@ -155,8 +154,7 @@ p_{L}^{\mathrm{SC}} = 10^{-8.295} \approx 5.07\times10^{-9}.
 \tag{18}
 \]
 
-### 4.4 Comparison
-The geometric scaling predicts a logical error rate roughly three orders of magnitude larger than the surface‑code prediction for the same physical error budget and distance. This quantitative gap is experimentally resolvable: measuring logical error probabilities at the \(10^{-5}\)–\(10^{-9}\) level is within the capability of current superconducting qubit readout chains \([8]\).
+### 4.4 Comparison The geometric scaling predicts a logical error rate roughly three orders of magnitude larger than the surface‑code prediction for the same physical error budget and distance. This quantitative gap is experimentally resolvable: measuring logical error probabilities at the \(10^{-5}\)–\(10^{-9}\) level is within the capability of current superconducting qubit readout chains \([8]\).
 
 ## 5. Results
 - **R1 (computed).** Ancilla bit‑flip rate \(\Gamma_{\mathrm{bf}} = 2.22\times10^{3}\,\mathrm{s}^{-1}\) (derived from \(T_{1}^{\mathrm{bf}}\) in \([8]\)).  
@@ -190,11 +188,9 @@ where \(\epsilon\) is the combined statistical and systematic uncertainty (taken
 ### 7(a) Potential Users and Decision Impact
 Quantum hardware architects and fault‑tolerance engineers would use the scaling criterion to decide whether to invest in developing geometric QECCs. If the geometric exponent \(\frac{d}{2}\) holds, a logical qubit could be realized with a smaller distance, reducing the required number of physical qubits and control lines. Conversely, a falsified scaling would redirect resources toward optimizing surface‑code implementations.
 
-### 7(b) Technology Readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (concept formulation and analytical studies).
+### 7(b) Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (concept formulation and analytical studies).
 
-### 7(c) Minimal Next Experiment
-The smallest de‑risking experiment is a benchmark test on a superconducting processor implementing a geometric stabilizer set (e.g., a small‑scale code with \(d=5\)). The experiment measures the logical error probability after a fixed number of error‑correction cycles, using the ancilla bit‑flip rate from \([8]\) as the physical error source. Observation of a logical error rate consistent with Eq. (15) would support the geometric scaling; a rate near Eq. (18) would falsify it.
+### 7(c) Minimal Next Experiment The smallest de‑risking experiment is a benchmark test on a superconducting processor implementing a geometric stabilizer set (e.g., a small‑scale code with \(d=5\)). The experiment measures the logical error probability after a fixed number of error‑correction cycles, using the ancilla bit‑flip rate from \([8]\) as the physical error source. Observation of a logical error rate consistent with Eq. (15) would support the geometric scaling; a rate near Eq. (18) would falsify it.
 
 ### 7(d) Engineering Constraints
 - **Error‑rate source:** The ancilla bit‑flip channel dominates the error budget; its rate must be characterized as in \([8]\).  
@@ -202,14 +198,11 @@ The smallest de‑risking experiment is a benchmark test on a superconducting pr
 - **Stabilizer implementation:** Non‑local stabilizers may require multi‑qubit gates with higher error rates, potentially violating the independent‑error assumption.  
 - **Readout fidelity:** Accurate logical error estimation demands readout errors below \(10^{-3}\), achievable with quantum‑limited amplifiers \([8]\).
 
-### 7(e) Projected Cost and Performance Bounds
-Assuming a superconducting chip with 100 mm² area and a per‑qubit fabrication cost of \$0.10, a surface‑code logical qubit at distance five requires roughly \(5^{2}=25\) physical qubits, costing \$2.5. A geometric code with the same distance would need the same number of qubits but could, in principle, operate at a larger physical error probability, potentially allowing a reduction of the required cryogenic cooling power by up to 30 % (projection based on the higher tolerated \(p_{\mathrm{phys}}\)). These figures are **projections** and rest on the assumptions of independent errors and constant \(C\).
+### 7(e) Projected Cost and Performance Bounds Assuming a superconducting chip with 100 mm² area and a per‑qubit fabrication cost of \$0.10, a surface‑code logical qubit at distance five requires roughly \(5^{2}=25\) physical qubits, costing \$2.5. A geometric code with the same distance would need the same number of qubits but could, in principle, operate at a larger physical error probability, potentially allowing a reduction of the required cryogenic cooling power by up to 30 % (projection based on the higher tolerated \(p_{\mathrm{phys}}\)). These figures are **projections** and rest on the assumptions of independent errors and constant \(C\).
 
-### 7(f) Risks and Misuse
-If the geometric scaling were mistakenly taken as a guaranteed improvement without experimental verification, hardware designers might under‑engineer error mitigation, leading to premature deployment of unreliable logical qubits. The falsifiability criterion mitigates this risk by providing a clear experimental test before large‑scale adoption.
+### 7(f) Risks and Misuse If the geometric scaling were mistakenly taken as a guaranteed improvement without experimental verification, hardware designers might under‑engineer error mitigation, leading to premature deployment of unreliable logical qubits. The falsifiability criterion mitigates this risk by providing a clear experimental test before large‑scale adoption.
 
-## 8. Conclusion
-We have formulated a concrete falsifiability criterion for geometrically inspired QECCs based on a distinct logical‑error scaling law. By extracting a stabilizer interaction degree from the code’s algebraic description, we derived the scaling \(p_{L}\propto p_{\mathrm{phys}}^{\,d/2}\) and compared it quantitatively to the surface‑code law. Using experimentally reported ancilla error rates from a fluxonium‑based bosonic platform, we produced a numerical prediction that separates the two scalings by three orders of magnitude for a modest code distance. This prediction is experimentally testable with current superconducting technology, offering a decisive pathway to either validate or falsify the geometric QECC paradigm. The result informs quantum system designers about the trade‑offs between novel geometric constructions and established topological codes, and it establishes a rigorous benchmark for future theoretical proposals.
+## 8. Conclusion We have formulated a concrete falsifiability criterion for geometrically inspired QECCs based on a distinct logical‑error scaling law. By extracting a stabilizer interaction degree from the code’s algebraic description, we derived the scaling \(p_{L}\propto p_{\mathrm{phys}}^{\,d/2}\) and compared it quantitatively to the surface‑code law. Using experimentally reported ancilla error rates from a fluxonium‑based bosonic platform, we produced a numerical prediction that separates the two scalings by three orders of magnitude for a modest code distance. This prediction is experimentally testable with current superconducting technology, offering a decisive pathway to either validate or falsify the geometric QECC paradigm. The result informs quantum system designers about the trade‑offs between novel geometric constructions and established topological codes, and it establishes a rigorous benchmark for future theoretical proposals.
 
 ## Provenance and AI Involvement
 

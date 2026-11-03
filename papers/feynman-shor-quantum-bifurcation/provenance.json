@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "feynman-shor-quantum-bifurcation",
+  "paper": {
+    "path": "papers/feynman-shor-quantum-bifurcation/paper.md",
+    "title": "Feynman-Shor Quantum Bifurcation",
+    "url": "https://papers.qnfo.org/papers/feynman-shor-quantum-bifurcation"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "feynman-shor-quantum-bifurcation"
+  },
+  "snapshots": [
+    {
+      "sha256": "13844ed5f891da1722b401c1fbf2e5a505c6aba9d2d798b49baf391905a794b5",
+      "bytes": 154366,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

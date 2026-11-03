@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "falsifiability-kill-criteria",
+  "paper": {
+    "path": "papers/falsifiability-kill-criteria/paper.md",
+    "title": "Killing the Framework: Seven Criteria for the Falsification of Adelic Physics",
+    "url": "https://papers.qnfo.org/papers/falsifiability-kill-criteria"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "falsifiability-kill-criteria"
+  },
+  "snapshots": [
+    {
+      "sha256": "cb11b38a4529ad35b4461e6c9fcde0bb506a79b9824c65d34c19097af2bbe677",
+      "bytes": 78393,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.8-gate-compliant",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

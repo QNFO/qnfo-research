@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "falsifiability-crisis",
+  "paper": {
+    "path": "papers/falsifiability-crisis/paper.md",
+    "title": "The Falsifiability Crisis in Contemporary Physics: LCDM, the Standard Model, and the Measurement-Exercise Trap",
+    "url": "https://papers.qnfo.org/papers/falsifiability-crisis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "falsifiability-crisis"
+  },
+  "snapshots": [
+    {
+      "sha256": "a550fe7ad10dcbf247dadbd2af7f73ee9b7d30502b971600bca5c5b0c1ec2125",
+      "bytes": 37882,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

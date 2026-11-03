@@ -19,8 +19,7 @@ When a claim survives because the task, noise model, or classical baseline is si
 - (iv) Quantitative infrastructure statistics linking the framework to open datasets and platforms [5], [6], [8] (Section 4).
 - (v) An explicit list of failure modes and falsification conditions for the framework itself (Section 6).
 
-## 2. Background and Related Work
-**[1] Effective identifiability criteria for tensors and polynomials.** The paper defines a tensor $T$ to be $h$‑identifiable when it admits a unique decomposition into $h$ rank‑one tensors and calls a criterion *effective* if it holds on a dense, open subset of rank‑$h$ tensors. This notion of genericity is the direct template for our effective falsification criteria.
+## 2. Background and Related Work **[1] Effective identifiability criteria for tensors and polynomials.** The paper defines a tensor $T$ to be $h$‑identifiable when it admits a unique decomposition into $h$ rank‑one tensors and calls a criterion *effective* if it holds on a dense, open subset of rank‑$h$ tensors. This notion of genericity is the direct template for our effective falsification criteria.
 
 **[2] Non‑Commutative Gebauer‑Moeller Criteria.** The work adapts the Gebauer‑Moeller pruning strategy from commutative Gröbner‑basis computation to non‑commutative polynomial rings and presents experimental data illustrating performance improvements. We import the lesson that an audit must prune checks that are provably irrelevant.
 
@@ -55,11 +54,9 @@ F(\mathcal{K}) = \sum_{i=1}^{5} w_i\,s_i.
 $$
 Decision rule: $F\ge0.8$ → *falsifiable‑ready*; $0.5\le F<0.8$ → *conditionally falsifiable*; $F<0.5$ → *structurally unfalsifiable*.
 
-### 3.4 Termination
-Mirroring the finite‑step decision procedure of [7], each $s_i$ is decided by inspecting a finite document set (the claim, its supplement, and the baseline code), so the total procedure is a finite composition of finite checks. If $F<0.8$, the framework outputs the ordered list of criteria with $s_i<1$, weighted by $w_i$, as a constructive repair path.
+### 3.4 Termination Mirroring the finite‑step decision procedure of [7], each $s_i$ is decided by inspecting a finite document set (the claim, its supplement, and the baseline code), so the total procedure is a finite composition of finite checks. If $F<0.8$, the framework outputs the ordered list of criteria with $s_i<1$, weighted by $w_i$, as a constructive repair path.
 
-### 3.5 Genericity caveat and pruning requirement
-Following [1], we would like criteria that hold on a dense, open subset of the space of claims. However, “dense open’’ is a topological notion with no canonical measure on claim space; we therefore use it only heuristically and require the criteria to hold for *all* well‑formed claims, not merely generically. Additionally, following the Gebauer‑Moeller strategy of eliminating unnecessary critical pairs before they arise [2], the protocol must specify which checks are *not* required, so that audit cost remains finite.
+### 3.5 Genericity caveat and pruning requirement Following [1], we would like criteria that hold on a dense, open subset of the space of claims. However, “dense open’’ is a topological notion with no canonical measure on claim space; we therefore use it only heuristically and require the criteria to hold for *all* well‑formed claims, not merely generically. Additionally, following the Gebauer‑Moeller strategy of eliminating unnecessary critical pairs before they arise [2], the protocol must specify which checks are *not* required, so that audit cost remains finite.
 
 ## 4. Analysis
 
@@ -130,8 +127,7 @@ so specification completeness is necessary for falsifiable‑ready status.
 
 All quantities in this section are exact or rounded from exact fractions; none are empirical measurements.
 
-## 5. Results
-We report only quantities computed in Section 4, plus clearly labeled projections.
+## 5. Results We report only quantities computed in Section 4, plus clearly labeled projections.
 
 1. **Index normalization:** $\sum_{i=1}^{5} w_i = 1.00$ exactly.
 2. **Gap density:** $42$ gaps across $5$ categories [10] yield $\bar{g}=8.4$ gaps per category; at least one category deviates from the mean by $\ge0.4$ gaps.
@@ -144,8 +140,7 @@ We report only quantities computed in Section 4, plus clearly labeled projecti
 
 No empirical, simulated, or measured quantities are reported.
 
-## 6. Discussion
-**Limitations.** The scoring function $s_i\in\{0,0.5,1\}$ is coarse, and the weight vector $\mathbf{w}$ is a design choice rather than data‑driven. Different weights could reorder repair priorities; the necessity proof for $C_1$ holds whenever $w_1>0.20$, but robustness for other weights is not proven. Gap‑distribution data from [10] lack per‑category counts, preventing identification of the most gap‑dense category. Per‑language token averages from [8] mask known language‑wise heterogeneity; using $\bar{t}$ as a guarantee would be erroneous.
+## 6. Discussion **Limitations.** The scoring function $s_i\in\{0,0.5,1\}$ is coarse, and the weight vector $\mathbf{w}$ is a design choice rather than data‑driven. Different weights could reorder repair priorities; the necessity proof for $C_1$ holds whenever $w_1>0.20$, but robustness for other weights is not proven. Gap‑distribution data from [10] lack per‑category counts, preventing identification of the most gap‑dense category. Per‑language token averages from [8] mask known language‑wise heterogeneity; using $\bar{t}$ as a guarantee would be erroneous.
 
 **The cadence convention.** Derivation 3 shows a genuine convention choice: $8/4=2.0$ weeks per transition versus $8/5=1.6$ weeks per version. We adopt the transition convention because intervals, not labels, convey scheduling information. Readers needing per‑label density can use the convention‑independent $d=0.625$ versions per week.
 
@@ -191,8 +186,7 @@ Assuming an auditor spends on average $10$ hours to gather and verify each cri
 **(f) Direct risks and misuse.**
 The index could be misapplied to dismiss legitimate claims if auditors assign $0.5$ scores arbitrarily or interpret ambiguous specifications harshly. Conversely, overly generous scoring could let low‑quality claims pass. Mitigation requires transparent scoring rubrics, community‑wide calibration of $w_i$, and open peer review of audit reports.
 
-## 8. Conclusion
-We have constructed a five‑criterion falsification framework for quantum‑advantage claims, with a composite index $F$, fixed weights, explicit decision thresholds, guaranteed termination, and a constructive repair path. The framework draws its structure from effective identifiability criteria [1], critical‑pair elimination [2], finite‑step universality decision with constructive failure [7], and the model‑relativity lessons of the falsification debate in consciousness studies [3]. It is grounded operationally in the stochastic‑indicator vocabulary of open quantum dynamics [4] and the open‑replication standards exemplified by open hardware platforms [5], constraint registries [6], and open large‑scale data pipelines [8]. Quantitative anchors—$8.4$ gaps per category, $2.0$ weeks per roadmap transition (or $0.625$ versions per week), $\approx1.333$ days per gap under uniform pacing, $1.5\times10^{11}$ tokens per language as an upper bound, and worked index values $F=0.675$ and $F=0.10$—were derived with fully shown arithmetic from stated inputs. The framework’s own falsification conditions are stated, and its principal weakness—the conventionality of weights and thresholds—is flagged as the first target for empirical calibration.
+## 8. Conclusion We have constructed a five‑criterion falsification framework for quantum‑advantage claims, with a composite index $F$, fixed weights, explicit decision thresholds, guaranteed termination, and a constructive repair path. The framework draws its structure from effective identifiability criteria [1], critical‑pair elimination [2], finite‑step universality decision with constructive failure [7], and the model‑relativity lessons of the falsification debate in consciousness studies [3]. It is grounded operationally in the stochastic‑indicator vocabulary of open quantum dynamics [4] and the open‑replication standards exemplified by open hardware platforms [5], constraint registries [6], and open large‑scale data pipelines [8]. Quantitative anchors—$8.4$ gaps per category, $2.0$ weeks per roadmap transition (or $0.625$ versions per week), $\approx1.333$ days per gap under uniform pacing, $1.5\times10^{11}$ tokens per language as an upper bound, and worked index values $F=0.675$ and $F=0.10$—were derived with fully shown arithmetic from stated inputs. The framework’s own falsification conditions are stated, and its principal weakness—the conventionality of weights and thresholds—is flagged as the first target for empirical calibration.
 
 ## Provenance and AI Involvement
 
