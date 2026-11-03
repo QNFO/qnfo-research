@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-432: Specification-Induced Deadlock in Zero-Tolerance Agent Protocols: A State-Machine Analysis of the Capability–Invocation Gap",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-432",
+      "qnfo:runPath": "runs/cycle-432/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine",
+      "qnfo:slug": "specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-03T04:01:13.134Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Specification-Induced Deadlock in Zero-Tolerance Agent Protocols: A State-Machine Analysis of the Capability–Invocation Gap",
+      "url": "https://papers.qnfo.org/papers/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1407.7468",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1407.7468"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2106.14835",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2106.14835"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2203.08975",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2203.08975"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.11841",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.11841"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.16216",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.16216"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2501.08928",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2501.08928"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.04820",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.04820"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.14074",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.14074"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2422",
+      "sha256": "2bccb2181071cded85e39090fae076d6a6e83eb8e7cba66c4d39d1acb02192a3",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "44691",
+      "sha256": "09ae8d5cf007635b79695a01dc6082af2a316b310ffcc2b96fb6366185d02e79",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "45623",
+      "sha256": "ded3810fc7378ab12ed68a61986c6fd2a00d6fb25ebc058cdb1bbe1f4156425d",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4272",
+      "sha256": "b20e5c3656ae129b6a4ecb7a5d27173ebbdf519298e1fc4fde0626f55a3d8570",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4054",
+      "sha256": "efafc695b25b2babeb77b0de88cd09190996f06ad5e936018b91721b0487c8bd",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14193",
+      "sha256": "4b071df5921fb2dfce1b2fdefc8fe62b9b75feb6d00b33df4456319440eabbe5",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "7881",
+      "sha256": "97672bef4df288acd8c289662549592369de1ea1ecb89399c01838f12a47a6ed",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16630",
+      "sha256": "d6f9e26989605a22fc7d481a43ae1f9ca2eec9839c2611b8d039588b27f430e8",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "31542",
+      "sha256": "305d8ab0b9338881247cbe42fc35811e51cbd5fbe217e88aabb59f94e35feeb4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1407.7468"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2106.14835"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2203.08975"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.11841"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.16216"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2501.08928"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.04820"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.14074"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-03T04:01:13.134Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine",
+  "paper": {
+    "path": "papers/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine/paper.md",
+    "title": "Specification-Induced Deadlock in Zero-Tolerance Agent Protocols: A State-Machine Analysis of the Capability–Invocation Gap",
+    "url": "https://papers.qnfo.org/papers/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-432/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2bccb2181071cded85e39090fae076d6a6e83eb8e7cba66c4d39d1acb02192a3"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "d88aebbe-af80-4b55-aee2-49d5f7158b06"
+    ],
+    "living_paper_slug": "specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine"
+  },
+  "snapshots": [
+    {
+      "sha256": "ded3810fc7378ab12ed68a61986c6fd2a00d6fb25ebc058cdb1bbe1f4156425d",
+      "bytes": 45623,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

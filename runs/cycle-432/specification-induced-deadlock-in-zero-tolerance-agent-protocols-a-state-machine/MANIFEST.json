@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "d88aebbe-af80-4b55-aee2-49d5f7158b06",
+    "slug": "specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine",
+    "cycle": "cycle-432",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-03T04:01:13.134Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "ded3810fc7378ab12ed68a61986c6fd2a00d6fb25ebc058cdb1bbe1f4156425d",
+    "bytes": 45623,
+    "path": "papers/specification-induced-deadlock-in-zero-tolerance-agent-protocols-a-state-machine/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "09ae8d5cf007635b79695a01dc6082af2a316b310ffcc2b96fb6366185d02e79",
+      "bytes": 44691,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "ded3810fc7378ab12ed68a61986c6fd2a00d6fb25ebc058cdb1bbe1f4156425d",
+      "bytes": 45623,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "b20e5c3656ae129b6a4ecb7a5d27173ebbdf519298e1fc4fde0626f55a3d8570",
+      "bytes": 4272,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "efafc695b25b2babeb77b0de88cd09190996f06ad5e936018b91721b0487c8bd",
+      "bytes": 4054,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "4b071df5921fb2dfce1b2fdefc8fe62b9b75feb6d00b33df4456319440eabbe5",
+      "bytes": 14193,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "97672bef4df288acd8c289662549592369de1ea1ecb89399c01838f12a47a6ed",
+      "bytes": 7881,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "d6f9e26989605a22fc7d481a43ae1f9ca2eec9839c2611b8d039588b27f430e8",
+      "bytes": 16630,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "305d8ab0b9338881247cbe42fc35811e51cbd5fbe217e88aabb59f94e35feeb4",
+      "bytes": 31542,
+      "role": "draft"
+    }
+  }
+}
