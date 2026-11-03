@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "constant-gap-sculpted-hamiltonians-for-factoring-and-np-hard-optimization-analyt",
+  "paper": {
+    "path": "papers/constant-gap-sculpted-hamiltonians-for-factoring-and-np-hard-optimization-analyt/paper.md",
+    "title": "Constant-Gap Sculpted Hamiltonians for Factoring and NP-Hard Optimization: Analytic Gap Scaling and the Location of the Exponential Cost",
+    "url": "https://papers.qnfo.org/papers/constant-gap-sculpted-hamiltonians-for-factoring-and-np-hard-optimization-analyt"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-444/constant-gap-sculpted-hamiltonians-for-factoring-and-np-hard-optimization-analyt",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "aaf14d2f00e6164ecbd4882ae754a985c1b239584fb24398e9eb1c8a576086e9"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "9dbefdca-4330-4c8c-9667-7cd6d1d70cfa"
+    ],
+    "living_paper_slug": "constant-gap-sculpted-hamiltonians-for-factoring-and-np-hard-optimization-analyt"
+  },
+  "snapshots": [
+    {
+      "sha256": "07f2e1644dc841a2afd44cb640195eb0457bbb81f2a28d12f8352f819f5dad8d",
+      "bytes": 36188,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
