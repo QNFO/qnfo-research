@@ -17,6 +17,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "84df37c916766c3fa28b2e0754880f76d37ff5f16bff6753e995d87b639c71d3"
+    },
+    {
+      "path": "runs/cycle-442/ultrametric-quantum-error-correction-on-bruhat-tits-trees-energy-barriers-classi",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "bdc2d99238b234c6ca17e4383a8d4e22362d170fff981a3d29b66153086cfe47"
     }
   ],
   "identifiers": {
@@ -46,6 +52,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "d5a097f66339e7e08aa8669570061f4d32fd770b94918d606d9bf4c888f6e92d",
+      "bytes": 52746,
+      "recorded_at": "2026-11-03",
+      "basis": "revision",
+      "version": "2.1.0",
       "git_commit": null
     }
   ],
