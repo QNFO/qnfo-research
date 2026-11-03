@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-fe1c4f26-e2b6-45cc-9915-192e164aea3c",
+    "slug": "chapter-4",
+    "cycle": "cycle-439",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.4",
+    "finished_at": "2026-11-03T13:21:20.155Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "74ed4783756cec9cda5adc8eba454e1d699a8da78b843ed42fbe510310cd3c03",
+      "bytes": 59977,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "d0ccf33ce46e08bea76df0ee97772680d1f721b4bb618a96de16db9ceb0e6a1d",
+      "bytes": 35488,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "f85896509a7cff9011d88e3782e0adb48db2865b76f86f050a504f9f64c36bf6",
+      "bytes": 6010,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "9b2fa105f54ddce6fa494bdf7b68b77663f5cdad5642824a030c314b25570ad9",
+      "bytes": 5692,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "4e86a4701e3c9c2c7b80cc02aed4259d21190bf2c30645f0d74a22ba70ba87e6",
+      "bytes": 7511,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "9c479af3ab6e526cdd9bc9d98fa4b4b9f765f1069190d342fcfde01d270a634b",
+      "bytes": 5224,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "0e1efb749eabd7293f7e9c3d744a0ca573c24064643da4ba0ac127f242d154b5",
+      "bytes": 20265,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "14ca09ed5d14ac4ecce2ea3342eb4330959940cd11152b7b4becb54bfc427141",
+      "bytes": 29051,
+      "role": "draft"
+    }
+  }
+}
