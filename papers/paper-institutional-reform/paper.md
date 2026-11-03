@@ -35,6 +35,12 @@ keywords:
  - technology bubbles
 ---
 
+# Institutional Reform: Fixing the Epistemic Incentive Structure of Post-Classical Computing
+
+## Abstract
+
+The first four papers in this series established that quantum computing's failure is epistemic (Phase I), surveyed alternatives (Phase II), examined physical limits (Phase III), and proposed an investment portfolio (Phase IV). This paper addresses the institutional question: why did $35 billion of investment over two decades produce zero commercially viable quantum computers, and how do we prevent this from happening again? We diagnose the institutional incentive structure that rewards narrative production over falsifiable results --- the misalignment between venture capital fund horizons and quantum computing development timelines, the capture of government research agencies by private interests, the absence of independent verification protocols with enforcement mechanisms, and the regulatory vacuum in which quantum computing claims are made without consequence. We propose five institutional reforms: (1) an Advanced Computing Projects Agency modeled on DARPA's successful structure but restricted to post-classical computing; (2) mandatory independent verification for any quantum computing claim above a materiality threshold; (3) structural separation of quantum hardware R&D from quantum software and services; (4) reform of government procurement to require joules-per-solution metrics; and (5) creation of a public registry of claims with time-bound falsification criteria. We argue that without institutional reform, any technological advances in post-classical computing will be captured and distorted by the same incentive structures that produced the quantum computing bubble.
+
 # 1. Introduction: The Question No One Asks
 
 Four papers have established a foundation. The qubit is a scaffold, not an
@@ -662,4 +668,3 @@ The earlier formal work on epistemic incentives established the analytic vocabul
 ## Changelog
 
 - v1.1.0: Added a Prior Work and Related Literature section that places this paper among 2 related QNFO papers.
-

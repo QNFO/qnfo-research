@@ -6,8 +6,6 @@ In Phase 1, we defined the p-adic braid group $B_n(\mathbb{Q}_p)$ on the Bruhat-
 
 [established] The TL algebra parameter at a p-adic place is a p-adic cyclotomic unit. The resulting p-adic Jones polynomial is a non-archimedean invariant of links.
 
----
-
 ## 1. Introduction
 
 ### 1.1 The Temperley-Lieb — Braid — Jones Chain

@@ -1,10 +1,10 @@
 # p‑adic Ultrametric Embeddings for Explainable Hierarchical AI Representations
 
 ## Abstract
+
 High‑stakes AI systems—such as medical diagnosis, autonomous driving, and financial risk assessment—are impeded by opaque internal representations that prevent regulators and users from trusting model decisions. Existing post‑hoc explainability methods rely on Euclidean embeddings that obscure the hierarchical structure inherent in many decision problems. This work addresses the gap by proposing a learnable mapping $\phi\!:\!\mathbb{R}^{n}\!\rightarrow\!\mathbb{Q}_{p}$ that embeds neural‑network activations into a $p$‑adic ultrametric space. The mapping is constructed from quantized activations and base‑$p$ digit expansion, guaranteeing that the induced $p$‑adic distance $d_{p}=p^{-k}$ where $k$ is the index of the first differing digit, i.e. the depth of the lowest common ancestor in the induced decision tree. We derive an explicit hierarchical loss, prove analytically that the ultrametric distance corresponds to tree depth, and compute a concrete example with $p=3$ that yields $d_{p}=1/729\approx1.37\times10^{-3}$ and a tree depth of 3. Additional derivations include the depth–capacity law $p^{D}$ leaves at depth $D$, a prime‑selection overhead rule for a 1000‑class taxonomy, and a storage analysis for a 128‑component, 8‑digit representation showing that the naïve digit-per-byte encoding requires $1024$ bytes versus $512$ bytes for 32‑bit floats, i.e., a $2\times$ increase that motivates a compression scheme. The result implies that explanations reduce to tracing a taxonomy branch rather than interpreting high‑dimensional vectors. If validated, model developers can replace Euclidean latent spaces with $p$‑adic ones, achieving interpretable hierarchical representations without sacrificing predictive performance.
 
-## 1. Introduction
-Regulators, clinicians, and safety‑critical engineers face a concrete barrier: modern deep neural networks (DNNs) produce decisions that cannot be readily justified to end‑users, leading to costly delays in certification, loss of public trust, and, in extreme cases, unsafe deployments. For example, a hospital’s AI‑assisted radiology system must explain why a particular image was classified as malignant; without a transparent rationale, the system cannot be approved for clinical use, incurring millions of dollars in postponed adoption. The decision that would change the status quo is the ability to present a concise, hierarchical explanation that aligns with domain taxonomies (e.g., disease ontologies) rather than a high‑dimensional vector that only experts can decode.
+## 1. Introduction Regulators, clinicians, and safety‑critical engineers face a concrete barrier: modern deep neural networks (DNNs) produce decisions that cannot be readily justified to end‑users, leading to costly delays in certification, loss of public trust, and, in extreme cases, unsafe deployments. For example, a hospital’s AI‑assisted radiology system must explain why a particular image was classified as malignant; without a transparent rationale, the system cannot be approved for clinical use, incurring millions of dollars in postponed adoption. The decision that would change the status quo is the ability to present a concise, hierarchical explanation that aligns with domain taxonomies (e.g., disease ontologies) rather than a high‑dimensional vector that only experts can decode.
 
 Existing explainability techniques—saliency maps, surrogate models, and dimensionality‑reduction visualizations—operate in Euclidean spaces and thus inherit the “flat” geometry that obscures hierarchical relationships. A representation that natively respects hierarchy would allow explanations to be expressed as a path in a tree, directly mapping to domain knowledge and satisfying regulatory requirements for traceability.
 
@@ -16,8 +16,7 @@ Existing explainability techniques—saliency maps, surrogate models, and dimens
 - **C5.** We discuss limitations, falsifiability criteria, and a minimal experimental protocol to validate the approach (Section 6).  
 - **C6.** We outline practical pathways for integrating $p$‑adic embeddings into AI pipelines, including readiness assessment and cost projections (Section 7).
 
-## 2. Background and Related Work
-Hierarchical representations have been explored from several angles. 
+## 2. Background and Related Work Hierarchical representations have been explored from several angles. 
 
 Reference [2] defines the error metrics MSE, RMSE, MaxAE, RE, and $R^{2}$ used for evaluating surrogate models, which we adopt for assessing hierarchical fidelity of our ultrametric embeddings.
 
@@ -57,14 +56,11 @@ $$
 $$
 where $\mathcal{P}$ is a set of pairwise constraints and $\ell_{ij}$ is the desired tree depth between samples $i$ and $j$ (derived from $\mathcal{T}$). This loss penalizes deviations between the ultrametric distance and the prescribed hierarchy.
 
-### 3.4 Choice of prime $p$
-The prime $p$ determines the branching factor of the induced tree. Larger $p$ yields finer granularity but increases the number of required digits for a given resolution. In practice we treat $p$ as a hyper‑parameter and select it by cross‑validation on a held‑out hierarchy validation set.
+### 3.4 Choice of prime $p$ The prime $p$ determines the branching factor of the induced tree. Larger $p$ yields finer granularity but increases the number of required digits for a given resolution. In practice we treat $p$ as a hyper‑parameter and select it by cross‑validation on a held‑out hierarchy validation set.
 
-### 3.5 Storage considerations
-Storing the $p$‑adic representation requires $nQ$ digits per sample. For a network with $n=128$ components and $Q=8$ digits, the total number of base‑$p$ digits is $128\times8=1024$. Because the naïve digit-per-byte encoding therefore uses $1024$ bytes against $512$ bytes for the 32‑bit floats, it increases the footprint by a factor of $2$; a compression or packing scheme would be required to achieve any storage reduction, and designing such a scheme is an open engineering problem.
+### 3.5 Storage considerations Storing the $p$‑adic representation requires $nQ$ digits per sample. For a network with $n=128$ components and $Q=8$ digits, the total number of base‑$p$ digits is $128\times8=1024$. Because the naïve digit-per-byte encoding therefore uses $1024$ bytes against $512$ bytes for the 32‑bit floats, it increases the footprint by a factor of $2$; a compression or packing scheme would be required to achieve any storage reduction, and designing such a scheme is an open engineering problem.
 
-## 4. Analysis
-All numbers below are derived explicitly from the stated inputs.
+## 4. Analysis All numbers below are derived explicitly from the stated inputs.
 
 ### 4.1 Concrete example
 Consider two activation vectors:
@@ -74,8 +70,7 @@ Consider two activation vectors:
 \]
 We choose $p=3$ and $Q=2$ (two base‑3 digits per component).
 
-#### 4.1.1 Quantization
-For each component we compute $\tilde{a}= \lfloor 3^{2} a\rfloor /3^{2}$.
+#### 4.1.1 Quantization For each component we compute $\tilde{a}= \lfloor 3^{2} a\rfloor /3^{2}$.
 
 | Component | $3^{2}a$ | $\lfloor\cdot\rfloor$ | $\tilde{a}$ |
 |-----------|----------|----------------------|------------|
@@ -86,8 +81,7 @@ For each component we compute $\tilde{a}= \lfloor 3^{2} a\rfloor /3^{2}$.
 | $a^{(2)}_{2}=0.190$ | $1.71$ | $1$ | $1/9$ |
 | $a^{(2)}_{3}=0.880$ | $7.92$ | $7$ | $7/9$ |
 
-#### 4.1.2 Base‑3 digit expansion
-Each quantized value $\tilde{a}=d_{1}p^{-1}+d_{2}p^{-2}$.
+#### 4.1.2 Base‑3 digit expansion Each quantized value $\tilde{a}=d_{1}p^{-1}+d_{2}p^{-2}$.
 
 - $5/9 = 1\cdot3^{-1}+2\cdot3^{-2}$ → $(d_{1},d_{2})=(1,2)$.
 - $1/9 = 0\cdot3^{-1}+1\cdot3^{-2}$ → $(0,1)$.
@@ -103,8 +97,7 @@ Thus the concatenated digit sequences (ordered by component) are:
 \end{aligned}
 \]
 
-#### 4.1.3 First differing digit
-Comparing the six digits:
+#### 4.1.3 First differing digit Comparing the six digits:
 
 \[
 \begin{array}{c|cccccc}
@@ -123,8 +116,7 @@ d_{p}=3^{-k}=3^{-6}= \frac{1}{3^{6}} = \frac{1}{729}\approx 1.3717\times10^{-3}.
 
 Because each component contributes $Q=2$ digits, the component‑level depth is $\lceil k/Q\rceil = \lceil 6/2\rceil = 3$. Thus the LCA depth is 3, consistent with the digit‑wise interpretation.
 
-### 4.2 Depth–capacity law
-A $p$‑ary tree of depth $D$ has $p^{D}$ leaves.
+### 4.2 Depth–capacity law A $p$‑ary tree of depth $D$ has $p^{D}$ leaves.
 
 - For $p=2$, $D=8$: $2^{8}=256$ leaves.  
 - For $p=2$, $D=12$: $2^{12}=4096$ leaves.  
@@ -132,16 +124,14 @@ A $p$‑ary tree of depth $D$ has $p^{D}$ leaves.
 
 These values illustrate how modest increases in depth rapidly expand capacity.
 
-### 4.3 Prime‑selection overhead rule
-Consider a taxonomy with $L_{\text{tax}}=3$ levels and branching factor $B=10$ (e.g., a 1000‑class hierarchy: $10^{3}=1000$ leaves). The number of digits required per level when using prime $p$ is $\lceil\log_{p} B\rceil$.
+### 4.3 Prime‑selection overhead rule Consider a taxonomy with $L_{\text{tax}}=3$ levels and branching factor $B=10$ (e.g., a 1000‑class hierarchy: $10^{3}=1000$ leaves). The number of digits required per level when using prime $p$ is $\lceil\log_{p} B\rceil$.
 
 - For $p=2$: $\log_{2}10\approx3.322$, so $\lceil3.322\rceil=4$ digits per level → total digits $D=3\times4=12$.  
 - For $p=11$: $\log_{11}10\approx0.958$, so $\lceil0.958\rceil=1$ digit per level → total digits $D=3\times1=3$.
 
 Thus $p=2$ needs 12 digits while $p=11$ needs only 3, confirming the overhead rule.
 
-### 4.4 Storage reduction calculation
-Assume $n=128$ components and $Q=8$ digits per component.
+### 4.4 Storage reduction calculation Assume $n=128$ components and $Q=8$ digits per component.
 
 - Total digits: $nQ = 128\times8 = 1024$ digits.  
 - If each digit is stored in 8 bits (sufficient for $p\le256$), the memory required is $1024\times8 = 8192$ bits = $1024$ bytes.  
@@ -160,8 +150,7 @@ If the anomaly instead differs at the second digit, $k=2$ and $d_{p}=3^{-2}=1/9$
 \]
 Thus the ultrametric distance can separate anomalies by factors up to $81$, illustrating a clear quantitative margin.
 
-## 5. Results
-The analytical derivations yield the following concrete numbers:
+## 5. Results The analytical derivations yield the following concrete numbers:
 
 | Quantity | Computation | Value |
 |----------|-------------|-------|
@@ -365,8 +354,7 @@ The derivations above (1) formalise the $p$–$Q$ trade‑off, (2) generalise st
 - **L4. Scalability.** The concatenation scheme grows linearly with $n$ and $Q$, potentially leading to very long $p$‑adic expansions for high‑dimensional networks.  
 - **L5. Training dynamics.** The hierarchical loss $\mathcal{L}_{\text{hier}}$ adds a non‑smooth term; gradient‑based optimization may require careful scheduling.
 
-### 7.2 Failure modes
-If the learned $\phi$ fails to preserve the prescribed hierarchy (e.g., $d_{p}$ does not correlate with $\ell_{ij}$), the explanations will be misleading. This can happen when the network overfits the primary prediction task and ignores the hierarchical regularizer.
+### 7.2 Failure modes If the learned $\phi$ fails to preserve the prescribed hierarchy (e.g., $d_{p}$ does not correlate with $\ell_{ij}$), the explanations will be misleading. This can happen when the network overfits the primary prediction task and ignores the hierarchical regularizer.
 
 ### 7.3 Falsifiability
 A single observation that would falsify the main claim is the empirical measurement of a **distortion** greater than 2 between Euclidean pairwise distances and $p$‑adic ultrametric distances on a benchmark hierarchy (e.g., the ImageNet class taxonomy). Specifically, if the mean distortion
@@ -384,8 +372,7 @@ exceeds 2, the correspondence between ultrametric depth and hierarchical simil
 ### 8.1 Intended users and decision impact
 Model developers and AI regulators are the primary users. By replacing Euclidean latent spaces with $p$‑adic ultrametric embeddings, developers can generate explanations that are directly interpretable as paths in a decision taxonomy, satisfying regulatory traceability requirements without redesigning the underlying predictive architecture.
 
-### 8.2 Technology readiness
-The work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, it resides at **TRL 2** (technology concept and/or application formulated).
+### 8.2 Technology readiness The work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, it resides at **TRL 2** (technology concept and/or application formulated).
 
 ### 8.3 Minimal next experiment
 A pilot study would embed activations from a pre‑trained image classifier (e.g., ResNet‑50) on a subset of ImageNet classes with a known hierarchical taxonomy. The experiment would:
@@ -400,14 +387,11 @@ If the mean distortion exceeds the falsifiability threshold of 2, the hypothes
 - **Memory**: storing $nQ$ digits per sample; for $n=1024$, $Q=3$, this is $3072$ base‑$p$ digits, easily represented as integers.  
 - **Compute**: digit extraction is $O(nQ)$, negligible compared to forward passes of modern DNNs.
 
-### 7.5 Projected cost and performance
-Assuming a forward‑pass cost of $C_{\text{fp}}=10^{-3}$ seconds per sample on a GPU, the additional $p$‑adic embedding cost is $C_{\phi}=nQ\,\alpha$, with $\alpha\approx10^{-7}$ seconds per digit operation. For $n=1024$, $Q=3$, $C_{\phi}\approx3.1\times10^{-4}$ seconds, i.e., a **31 %** overhead relative to $C_{\text{fp}}$. This projection assumes no additional memory‑bandwidth bottlenecks.
+### 7.5 Projected cost and performance Assuming a forward‑pass cost of $C_{\text{fp}}=10^{-3}$ seconds per sample on a GPU, the additional $p$‑adic embedding cost is $C_{\phi}=nQ\,\alpha$, with $\alpha\approx10^{-7}$ seconds per digit operation. For $n=1024$, $Q=3$, $C_{\phi}\approx3.1\times10^{-4}$ seconds, i.e., a **31 %** overhead relative to $C_{\text{fp}}$. This projection assumes no additional memory‑bandwidth bottlenecks.
 
-### 7.6 Risks and misuse
-If practitioners present ultrametric explanations without validating the fidelity of the hierarchy, users may be misled into over‑trusting model decisions. Moreover, the deterministic nature of $\phi$ could be exploited to fabricate plausible explanations that do not reflect true model reasoning.
+### 7.6 Risks and misuse If practitioners present ultrametric explanations without validating the fidelity of the hierarchy, users may be misled into over‑trusting model decisions. Moreover, the deterministic nature of $\phi$ could be exploited to fabricate plausible explanations that do not reflect true model reasoning.
 
-## 10. Conclusion
-We introduced a mathematically grounded method for embedding neural‑network activations into a $p$‑adic ultrametric space, thereby converting high‑dimensional representations into hierarchical structures amenable to transparent explanations. The explicit derivation demonstrates that the $p$‑adic distance $d_{p}=p^{-k}$ encodes the depth of the lowest common ancestor in the induced decision tree, enabling explanations to be expressed as simple tree traversals. While the approach is currently at an early analytical stage (TRL 2), a minimal pilot experiment can validate its practical utility. Future work will explore adaptive digit allocation, integration with training pipelines, and large‑scale empirical evaluation on benchmark hierarchies.
+## 10. Conclusion We introduced a mathematically grounded method for embedding neural‑network activations into a $p$‑adic ultrametric space, thereby converting high‑dimensional representations into hierarchical structures amenable to transparent explanations. The explicit derivation demonstrates that the $p$‑adic distance $d_{p}=p^{-k}$ encodes the depth of the lowest common ancestor in the induced decision tree, enabling explanations to be expressed as simple tree traversals. While the approach is currently at an early analytical stage (TRL 2), a minimal pilot experiment can validate its practical utility. Future work will explore adaptive digit allocation, integration with training pipelines, and large‑scale empirical evaluation on benchmark hierarchies.
 
 ## Provenance and AI Involvement
 

@@ -1,10 +1,10 @@
-# p‑Adic Lift‑and‑Shift: Transplanting Elementary Calculus to the 2‑adic Tree and a Primary‑Education Blueprint  
+# p‑Adic Lift‑and‑Shift: Transplanting Elementary Calculus to the 2‑adic Tree and a Primary‑Education Blueprint
 
-## Abstract  
+## Abstract
+
 Elementary analysis is taught exclusively on the Archimedean real line, yet many scientific domains—hierarchical data mining, ultrametric phylogenetics, and quantum error correction—operate naturally on non‑Archimedean structures. This paper closes the gap by (i) formally identifying the points at which real‑calculus proofs fail in the field $\mathbb{Q}_{p}$, (ii) proving a Fundamental Theorem of Calculus for the Volkenborn integral on Mahler bases and verifying it on the basis function $\binom{x}{1}=x$ and the Bernoulli antiderivative relation $\Delta B_{1}(x)=x$, (iii) deriving concrete numerical bounds from the $p$‑adic van Lint–Seidel inequality, and (iv) proposing a six‑year primary‑curriculum built on the binary ($p=2$) tree metaphor, complete with a manipulatives set of $63$ tiles, a $480$‑hour instructional budget, and a falsifiable pilot protocol. Using the inequality from [8] we compute a bound $n_{\max}=10$ for a $10$‑dimensional $2$‑adic space with common angle $\gamma=0.5$. We also compute the Volkenborn integrals $\int_{\mathbb{Z}_{2}}x\,dx=-\tfrac12$ and $\int_{\mathbb{Z}_{2}}x^{2}\,dx=\tfrac16$, and verify $\Delta B_{1}(x)=x$ for the Bernoulli antiderivative. The result changes practice by providing a mathematically rigorous pathway to teach ultrametric intuition as a native number sense, thereby expanding the pedagogical toolkit beyond the Archimedean monopoly.
 
-## 1. Introduction  
-Current mathematics curricula worldwide introduce limits, continuity, derivatives, and integrals only through the real number line. Primary‑school teachers, textbook authors, and education policymakers therefore face a **structural blind spot**: children never encounter the hierarchical, tree‑like geometry that underlies many modern scientific models. The blind spot blocks the development of early intuition for hierarchical reasoning and hinders the design of algorithms that exploit ultrametric embeddings for data mining, as highlighted in [1]. If a curriculum could make the **$2$‑adic tree** a native mental model, students would acquire the ability to reason about limits and integrals on a discrete hierarchy by age 11, opening a design space for tools that replace Euclidean approximations with exact ultrametric calculations.  
+## 1. Introduction Current mathematics curricula worldwide introduce limits, continuity, derivatives, and integrals only through the real number line. Primary‑school teachers, textbook authors, and education policymakers therefore face a **structural blind spot**: children never encounter the hierarchical, tree‑like geometry that underlies many modern scientific models. The blind spot blocks the development of early intuition for hierarchical reasoning and hinders the design of algorithms that exploit ultrametric embeddings for data mining, as highlighted in [1]. If a curriculum could make the **$2$‑adic tree** a native mental model, students would acquire the ability to reason about limits and integrals on a discrete hierarchy by age 11, opening a design space for tools that replace Euclidean approximations with exact ultrametric calculations. 
 
 A primary‑level mastery of ultrametric calculus would (a) enable future engineers to design algorithms that respect hierarchical constraints without costly Euclidean approximations, (b) provide a conceptual bridge to $p$‑adic quantum models discussed in [3] and [5], and (c) foster interdisciplinary transfer of methods such as the Volkenborn integral to fields ranging from genetics [6] to financial clustering [1].  
 
@@ -16,8 +16,7 @@ A primary‑level mastery of ultrametric calculus would (a) enable future engine
 5. **Curriculum blueprint** – a six‑year progression, manipulable binary‑tree set of $63$ pieces, a $480$‑hour instructional budget, and a mapping from Mahler degree to educational milestone (Section 5).  
 6. **Pilot protocol** – a concrete, falsifiable study design to test acquisition of the $p$‑adic Fundamental Theorem in Grade 2 (Section 7).  
 
-## 2. Background and Related Work  
-The ultrametric perspective has already proven useful in several domains.  
+## 2. Background and Related Work The ultrametric perspective has already proven useful in several domains. 
 
 * [1] demonstrates that **ultrametric embeddings** can be induced from cross‑tabulation data, enabling hierarchical anomaly detection via a $\chi^{2}$‑based metric. The paper’s conclusion that “a hierarchy associated with an ultrametric can be induced” provides a concrete example of turning raw data into a tree structure, which motivates our educational tree metaphor.  
 
@@ -41,11 +40,9 @@ which we later use to obtain a concrete numeric bound on the number of linearly 
 
 Together these works establish that (i) ultrametric structures are naturally present in data, (ii) $p$‑adic analysis is mathematically necessary for many physical models, and (iii) low‑prime $p$‑adic systems are both expressive and tractable.
 
-## 3. Methods  
-Our approach consists of three tightly coupled components: (a) a **formal lift‑and‑shift** mapping real‑calculus statements to $p$‑adic analogues, (b) a **Volkenborn–Mahler framework** that supplies the analytic backbone, and (c) a **curricular design** that translates the mathematics into manipulatives and lesson plans.  
+## 3. Methods Our approach consists of three tightly coupled components: (a) a **formal lift‑and‑shift** mapping real‑calculus statements to $p$‑adic analogues, (b) a **Volkenborn–Mahler framework** that supplies the analytic backbone, and (c) a **curricular design** that translates the mathematics into manipulatives and lesson plans. 
 
-### 3.1. Failure‑point Taxonomy  
-We begin with a standard list of real‑analysis lemmas (e.g., the Archimedean property, the Heine–Cantor uniform continuity theorem, the mean‑value theorem). For each lemma we test the defining hypothesis in $\mathbb{Q}_{p}$ using the non‑Archimedean norm $|\cdot|_{p}$. The following table summarizes the outcome (proofs omitted for brevity).  
+### 3.1. Failure‑point Taxonomy We begin with a standard list of real‑analysis lemmas (e.g., the Archimedean property, the Heine–Cantor uniform continuity theorem, the mean‑value theorem). For each lemma we test the defining hypothesis in $\mathbb{Q}_{p}$ using the non‑Archimedean norm $|\cdot|_{p}$. The following table summarizes the outcome (proofs omitted for brevity). 
 
 | Real Lemma | $p$‑adic Status | Reason |
 |------------|----------------|--------|
@@ -56,11 +53,9 @@ We begin with a standard list of real‑analysis lemmas (e.g., the Archimedean p
 
 The taxonomy isolates the **minimal axiom set** needed for a $p$‑adic calculus: completeness of $\mathbb{Q}_{p}$, existence of the Volkenborn measure $\mu_{V}$ on $\mathbb{Z}_{p}$, and the Mahler basis $\{\binom{x}{k}\}_{k\ge0}$.  
 
-### 3.2. Lift‑and‑Shift Procedure  
-The lift‑and‑shift procedure has three steps. First, **lift**: an object defined over $\mathbb{R}$ is replaced by its rational representative, since $\mathbb{Q}$ is dense in $\mathbb{R}$ and in every $\mathbb{Q}_{p}$ [5]. Second, **shift**: the rational object is completed in the $p$‑adic norm $|\cdot|_{p}$ instead of the Archimedean norm $|\cdot|_{\infty}$, placing it in $\mathbb{Q}_{p}$ [4]. Third, **re‑base**: any construction that fails under the shift because it depends on Archimedean properties is replaced by its non‑Archimedean functional counterpart, specifically the Volkenborn integral replacing the Riemann integral and the Mahler basis $\{\binom{x}{n}\}_{n \geq 0}$ replacing the monomial basis $\{x^{n}\}$.  
+### 3.2. Lift‑and‑Shift Procedure The lift‑and‑shift procedure has three steps. First, **lift**: an object defined over $\mathbb{R}$ is replaced by its rational representative, since $\mathbb{Q}$ is dense in $\mathbb{R}$ and in every $\mathbb{Q}_{p}$ [5]. Second, **shift**: the rational object is completed in the $p$‑adic norm $|\cdot|_{p}$ instead of the Archimedean norm $|\cdot|_{\infty}$, placing it in $\mathbb{Q}_{p}$ [4]. Third, **re‑base**: any construction that fails under the shift because it depends on Archimedean properties is replaced by its non‑Archimedean functional counterpart, specifically the Volkenborn integral replacing the Riemann integral and the Mahler basis $\{\binom{x}{n}\}_{n \geq 0}$ replacing the monomial basis $\{x^{n}\}$. 
 
-### 3.3. Modified Axiom Set  
-The minimal modified axiom set for elementary calculus on $\mathbb{Q}_{p}$ is:
+### 3.3. Modified Axiom Set The minimal modified axiom set for elementary calculus on $\mathbb{Q}_{p}$ is:
 
 - (A1) Metric structure: $d(x,y)=|x-y|_{p}$ with $|x|_{p}=p^{-k_{0}(x)}$, satisfying $|x+y|_{p}\le\max\{|x|_{p},|y|_{p}\}$ [4].  
 - (A2) Completeness: every Cauchy sequence in $\mathbb{Q}_{p}$ converges in $\mathbb{Q}_{p}$ [5].  
@@ -70,8 +65,7 @@ The minimal modified axiom set for elementary calculus on $\mathbb{Q}_{p}$ is:
 - (A6) Basis: continuous locally analytic functions admit a Mahler expansion $f(x)=\sum_{n\ge0}a_{n}\binom{x}{n}$.  
 - (A7) Translation invariance of the Haar measure on $\mathbb{Z}_{p}$, which underwrites the Fundamental Theorem.  
 
-### 3.4. Curriculum Design Method  
-The curriculum is designed by a mapping rule: each proved statement of Section 4 is assigned a manipulable metaphor whose physical structure is isomorphic to the statement’s mathematical content, and the six‑year sequence is budgeted under explicit assumptions. We assume a program of 40 instructional weeks per year with 2 hours of mathematics per week, giving $40\times2=80$ hours per year and $6\times80=480$ hours total. All hour figures are design assumptions, not measurements.  
+### 3.4. Curriculum Design Method The curriculum is designed by a mapping rule: each proved statement of Section 4 is assigned a manipulable metaphor whose physical structure is isomorphic to the statement’s mathematical content, and the six‑year sequence is budgeted under explicit assumptions. We assume a program of 40 instructional weeks per year with 2 hours of mathematics per week, giving $40\times2=80$ hours per year and $6\times80=480$ hours total. All hour figures are design assumptions, not measurements. 
 
 ## 4. Analysis  
 ### 4.1. Fundamental Theorem of $p$‑adic Calculus  
@@ -121,8 +115,7 @@ We claim
 \]  
 confirming the theorem numerically.  
 
-### 4.2. Volkenborn Integrals of $x$ and $x^{2}$  
-Using the definition (A5) with $f(x)=x$ and $N=p^{n}$:  
+### 4.2. Volkenborn Integrals of $x$ and $x^{2}$ Using the definition (A5) with $f(x)=x$ and $N=p^{n}$: 
 
 \[
 \int_{\mathbb{Z}_{p}} x\,dx = \lim_{n\to\infty}p^{-n}\sum_{k=0}^{p^{n}-1}k
@@ -142,8 +135,7 @@ For $f(x)=x^{2}$ we use $\sum_{k=0}^{N-1}k^{2}= \frac{N(N-1)(2N-1)}{6}$:
 
 Both results hold for $p=2$, yielding $-\tfrac12$ and $\tfrac16$ respectively.  
 
-### 4.3. Bernoulli Antiderivative Verification  
-The first Bernoulli polynomial is $B_{1}(x)=\frac{x^{2}}{2}-\frac{x}{2}$. Compute the forward difference $\Delta B_{1}(x)=B_{1}(x+1)-B_{1}(x)$:  
+### 4.3. Bernoulli Antiderivative Verification The first Bernoulli polynomial is $B_{1}(x)=\frac{x^{2}}{2}-\frac{x}{2}$. Compute the forward difference $\Delta B_{1}(x)=B_{1}(x+1)-B_{1}(x)$: 
 
 \[
 \begin{aligned}
@@ -179,23 +171,20 @@ N_{\text{tiles}}=\sum_{i=0}^{5}2^{i}=2^{6}-1=63,
 \]  
 derived from the geometric series formula $\sum_{i=0}^{k}2^{i}=2^{k+1}-1$.  
 
-### 4.6. Curriculum Budget Computation  
-Assuming 40 instructional weeks per year and 2 hours of mathematics per week, the total instructional budget is  
+### 4.6. Curriculum Budget Computation Assuming 40 instructional weeks per year and 2 hours of mathematics per week, the total instructional budget is 
 
 \[
 \text{Hours}=40\times2\times6=480\;\text{hours}.
 \]  
 
-### 4.7. Projected Material Cost (Projection)  
-Assuming a production cost of $0.50$ USD per tile, the total material cost for a full kit is  
+### 4.7. Projected Material Cost (Projection) Assuming a production cost of $0.50$ USD per tile, the total material cost for a full kit is 
 
 \[
 \text{Cost}=63\times0.50\;\text{USD}=31.5\;\text{USD},
 \]  
 labeled as a **projection** because the per‑tile price is an industry‑average estimate.  
 
-### 4.8. Projected Learning Outcome (Projection)  
-Assuming a pilot cohort of 30 students and typical classroom engagement rates, we **project** that at least $70\%$ will correctly state the $p$‑adic FTC for linear functions after the Grade 2 module. This projection rests on the assumption that the concrete example $f(x)=x$ and the manipulatives are used as described.  
+### 4.8. Projected Learning Outcome (Projection) Assuming a pilot cohort of 30 students and typical classroom engagement rates, we **project** that at least $70\%$ will correctly state the $p$‑adic FTC for linear functions after the Grade 2 module. This projection rests on the assumption that the concrete example $f(x)=x$ and the manipulatives are used as described. 
 
 ## 5. Results  
 1. **Fundamental Theorem proved** for all Mahler‑convergent functions and verified arithmetically for the linear function $f(x)=x$ (Section 4.1). The theorem guarantees that students can reason about “area under a $p$‑adic curve” using only discrete sums of Mahler coefficients.  
@@ -226,8 +215,7 @@ Assuming a pilot cohort of 30 students and typical classroom engagement rate
 
 If any of these assumptions fails, the derived numeric results (e.g., $n_{\max}=10$) may no longer hold in the intended pedagogical context.  
 
-### 6.2. Falsifiability  
-The **main claim**—that a six‑year $2$‑adic curriculum can convey the FTC to primary students—would be falsified if a controlled pilot (Section 7) shows **less than 30 %** of participants achieving the Grade 2 FTC benchmark after instruction, despite identical manipulatives and lesson plans. Such an outcome would indicate that the lift‑and‑shift abstraction is insufficient for early cognition.  
+### 6.2. Falsifiability The **main claim**—that a six‑year $2$‑adic curriculum can convey the FTC to primary students—would be falsified if a controlled pilot (Section 7) shows **less than 30 %** of participants achieving the Grade 2 FTC benchmark after instruction, despite identical manipulatives and lesson plans. Such an outcome would indicate that the lift‑and‑shift abstraction is insufficient for early cognition. 
 
 ### 6.3. Open Questions  
 * Can the Mahler‑based derivative be visualized without algebraic symbols, perhaps via tree‑pruning animations?  
@@ -239,8 +227,7 @@ The **main claim**—that a six‑year $2$‑adic curriculum can convey the FTC 
 * **Who:** Curriculum developers for national elementary standards, teachers of mathematics (Grades 1–6), and educational‑technology designers.  
 * **Decision/Design Change:** Adoption of a **binary‑tree manipulatives kit** and integration of Mahler‑basis lessons into existing “functions and graphs” units.  
 
-### (b) Technology Readiness  
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept formulated).  
+### (b) Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions it resides at **TRL 2** (technology concept formulated). 
 
 ### (c) Smallest next experiment  
 A **pilot study** with a single classroom of 30 students (Grades 2–3) that (i) introduces the $2$‑adic tree tiles, (ii) teaches the $p$‑adic FTC for $f(x)=x$, and (iii) measures the proportion of students who can correctly state  
@@ -254,15 +241,13 @@ A **pilot study** with a single classroom of 30 students (Grades 2–3) th
 * **Data:** Mahler coefficients up to degree 5 must be pre‑computed for example functions; these are trivial to generate analytically.  
 * **Compute:** No digital computation required for classroom use.  
 
-### (e) Projected cost (projection)  
-Assuming a production cost of $0.50$ USD per tile, the total material cost for a full kit is $31.5$ USD (Section 4.7).  
+### (e) Projected cost (projection) Assuming a production cost of $0.50$ USD per tile, the total material cost for a full kit is $31.5$ USD (Section 4.7). 
 
 ### (f) Risks and misuse  
 * **Risk of misinterpretation:** Teachers might present $p$‑adic limits as “smaller than any real number,” leading to misconceptions about size. Mitigation requires explicit framing of the non‑Archimedean norm.  
 * **Misuse in assessment:** Standardized tests that rely on real‑number intuition could penalize students trained on $p$‑adic concepts unless accommodations are made.  
 
-## 8. Conclusion  
-We have identified the precise points where real‑analysis fails in $\mathbb{Q}_{p}$, supplied a rigorous Fundamental Theorem of $p$‑adic calculus based on the Volkenborn integral and Mahler expansions, derived concrete Volkenborn integrals and a numeric bound $n_{\max}=10$ from $p$‑adic equiangular‑line theory, and translated these results into a concrete six‑year primary‑education program built on a binary‑tree manipulatives set of $63$ pieces and a $480$‑hour instructional budget. The proposed curriculum offers a pathway to embed ultrametric intuition as a native number sense, thereby expanding the analytical toolbox available to future scientists and engineers.
+## 8. Conclusion We have identified the precise points where real‑analysis fails in $\mathbb{Q}_{p}$, supplied a rigorous Fundamental Theorem of $p$‑adic calculus based on the Volkenborn integral and Mahler expansions, derived concrete Volkenborn integrals and a numeric bound $n_{\max}=10$ from $p$‑adic equiangular‑line theory, and translated these results into a concrete six‑year primary‑education program built on a binary‑tree manipulatives set of $63$ pieces and a $480$‑hour instructional budget. The proposed curriculum offers a pathway to embed ultrametric intuition as a native number sense, thereby expanding the analytical toolbox available to future scientists and engineers.
 
 ## Provenance and AI Involvement
 
