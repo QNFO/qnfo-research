@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "jpcub-competitive-landscape",
+  "paper": {
+    "path": "joules-per-compute-benchmark/jpcub-competitive-landscape/paper.md",
+    "title": "JPCUB Competitive Landscape v2.0: System-Level Joules-per-Solution Estimates for 17 Quantum Computing Platforms from Published Specifications",
+    "url": "https://papers.qnfo.org/papers/jpcub-competitive-landscape"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "jpcub-competitive-landscape"
+  },
+  "snapshots": [
+    {
+      "sha256": "e7448a4f5cb9906e06f93c53e927f275ef91577a2039e514ec7289969a3f093e",
+      "bytes": 47030,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v2.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

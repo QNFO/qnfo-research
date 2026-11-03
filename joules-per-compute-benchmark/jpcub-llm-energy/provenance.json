@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "jpcub-llm-energy",
+  "paper": {
+    "path": "joules-per-compute-benchmark/jpcub-llm-energy/paper.md",
+    "title": "Joules-per-Solution for Stochastic and Agentic Inference: Benchmarking Frontier and Agentic LLMs Against the Human Brain",
+    "url": "https://papers.qnfo.org/papers/jpcub-llm-energy"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "jpcub-llm-energy"
+  },
+  "snapshots": [
+    {
+      "sha256": "1882ab4495e9ea34c3ff144355963f67c53b38e6978f780108cadf5c72650086",
+      "bytes": 26612,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v1.1.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

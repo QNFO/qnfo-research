@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "joules-per-solution-metric",
+  "paper": {
+    "path": "joules-per-compute-benchmark/joules-per-solution-metric/paper.md",
+    "title": "The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions for Honest Computational Benchmarking",
+    "url": "https://papers.qnfo.org/papers/joules-per-solution-metric"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "joules-per-solution-metric"
+  },
+  "snapshots": [
+    {
+      "sha256": "7b68ac14bf7cb427dd78c5c33809049ad4ea8a56707d5ff8debb766f47d9fab5",
+      "bytes": 33715,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
