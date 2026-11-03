@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "new-school-of-athens",
+  "paper": {
+    "path": "papers/new-school-of-athens/paper.md",
+    "title": "New School of Athens",
+    "url": "https://papers.qnfo.org/papers/new-school-of-athens"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "new-school-of-athens"
+  },
+  "snapshots": [
+    {
+      "sha256": "bf1ef745fec952878b0992869cd9f0bc69e5a63b2274a700b6517de046e9674b",
+      "bytes": 14162,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

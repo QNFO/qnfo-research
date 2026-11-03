@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "no-thing-there",
+  "paper": {
+    "path": "papers/no-thing-there/paper.md",
+    "title": "No Thing There: Control, Readout, and Self-Referential Metrology in Engineered Quantum Systems",
+    "url": "https://papers.qnfo.org/papers/no-thing-there"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "no-thing-there"
+  },
+  "snapshots": [
+    {
+      "sha256": "c492b97ff98bbb72ef8cacc69ef10b1aaf3dba1fcd0d0c74cd929c06a9ef8510",
+      "bytes": 44494,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "new-foundation-for-physics",
+  "paper": {
+    "path": "papers/new-foundation-for-physics/paper.md",
+    "title": "NEW LANGUAGE FOR MATH",
+    "url": "https://papers.qnfo.org/papers/new-foundation-for-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "new-foundation-for-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "9493483d1b72ffe2c3ecf20147693e54abfc832b65f136cf00c91a3de0c81eb6",
+      "bytes": 258899,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

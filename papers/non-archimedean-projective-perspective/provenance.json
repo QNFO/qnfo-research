@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "non-archimedean-projective-perspective",
+  "paper": {
+    "path": "papers/non-archimedean-projective-perspective/paper.md",
+    "title": "Non-Archimedean Projective Perspective: The Monna Map as a Visual Rendering Interface",
+    "url": "https://papers.qnfo.org/papers/non-archimedean-projective-perspective"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "non-archimedean-projective-perspective"
+  },
+  "snapshots": [
+    {
+      "sha256": "5e2641dfff2571847479a9f57e2eb832fb998a2b5c616b27bf13cbd91c4bcec5",
+      "bytes": 17869,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
