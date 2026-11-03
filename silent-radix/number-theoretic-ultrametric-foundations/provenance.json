@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "number-theoretic-ultrametric-foundations",
+  "paper": {
+    "path": "silent-radix/number-theoretic-ultrametric-foundations/paper.md",
+    "title": "Number-Theoretic Ultrametric Foundations: A Unified p-adic Framework for Error-Correcting Code Classification",
+    "url": "https://papers.qnfo.org/papers/number-theoretic-ultrametric-foundations"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "number-theoretic-ultrametric-foundations"
+  },
+  "snapshots": [
+    {
+      "sha256": "b70e0b67ddf0baeaf458b85fe2312fccdee1c1d9130f174e91f3d4b515de7d22",
+      "bytes": 43601,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

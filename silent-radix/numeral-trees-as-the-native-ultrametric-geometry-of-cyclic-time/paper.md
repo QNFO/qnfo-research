@@ -1,10 +1,10 @@
 # Numeral Trees as the Native Ultrametric Geometry of Cyclic Time
 
 ## Abstract
+
 Cyclic timestamps are stored linearly but intrinsically form mixed‑radix positional strings that nest hour, day, month, and finer cycles. Existing pipelines treat timestamps as points on the real line, ignoring this hierarchy and causing mis‑grouping across cycle boundaries. The gap is a lack of a mathematically grounded distance that respects the hierarchical nesting of calendar cycles. We formalize the numeral tree as a mixed‑radix ultrametric space, derive explicit distance values for each calendar level, and prove that the resulting distance satisfies the strong triangle inequality. The principal quantitative results are the ultrametric distances $d_{\text{mix}}=24^{-1}=0.0416667$ for an hour‑level difference, $30^{-1}=0.0333333$ for a day‑level difference, and $12^{-1}=0.0833333$ for a month‑level difference (Section 4). These values follow directly from the branching factors and require no simulation. The result changes practice by providing a low‑cost, analytically exact distance for clustering cyclic temporal data, enabling tree‑structured counters in embedded hardware, and offering a concrete hypothesis for ultrametric perception in numerical cognition.
 
-## 1. Introduction
-Engineers of embedded systems, data‑scientists analyzing seasonal patterns, and educators teaching number sense all confront the same obstacle: **cyclic timestamps are forced into a linear metric that ignores the hierarchical nesting of second → minute → hour → day → month**. The cost is twofold. First, clustering algorithms that treat timestamps as points on the real line mis‑group events that are close in a cyclic sense (e.g., 23:59 → 00:01). Second, cognitive models that assume a linear mental number line cannot explain why children rapidly grasp magnitude relationships across orders of magnitude. If the *native* geometry of timestamps were recognized as an ultrametric tree, then a simple distance function would automatically respect cyclic nesting, and the brain’s logarithmic number sense could be re‑interpreted as ultrametric tree perception.
+## 1. Introduction Engineers of embedded systems, data‑scientists analyzing seasonal patterns, and educators teaching number sense all confront the same obstacle: **cyclic timestamps are forced into a linear metric that ignores the hierarchical nesting of second → minute → hour → day → month**. The cost is twofold. First, clustering algorithms that treat timestamps as points on the real line mis‑group events that are close in a cyclic sense (e.g., 23:59 → 00:01). Second, cognitive models that assume a linear mental number line cannot explain why children rapidly grasp magnitude relationships across orders of magnitude. If the *native* geometry of timestamps were recognized as an ultrametric tree, then a simple distance function would automatically respect cyclic nesting, and the brain’s logarithmic number sense could be re‑interpreted as ultrametric tree perception.
 
 **So what?** A mathematically grounded ultrametric for cyclic time would (i) improve clustering of temporal data without bespoke feature engineering, (ii) enable hardware designers to embed cycle‑aware timers using tree‑structured counters, and (iii) provide a unified explanation for the observed logarithmic scaling of number discrimination.
 
@@ -14,8 +14,7 @@ Engineers of embedded systems, data‑scientists analyzing seasonal patterns, an
 - **C3.** Proof that the derived distance satisfies the strong triangle inequality (Section 4).  
 - **C4.** Discussion of cognitive and engineering implications, including a concrete next experiment (Section 7).
 
-## 2. Background and Related Work
-The present work builds on a diverse literature that links trees, ultrametrics, and cyclic structures.
+## 2. Background and Related Work The present work builds on a diverse literature that links trees, ultrametrics, and cyclic structures.
 
 1. **Ultrametric foundations.** [1] defines an ultrametric as a metric satisfying the strong triangle inequality $d(x,y)\le \max\{d(x,z),d(z,y)\}$ (Equation (1.1)). This property underlies all subsequent constructions.  
 2. **Space‑time foliations.** [2] introduces a foliation $\Sigma$ of a 4‑manifold $M$ into 3‑dimensional spacelike leaves and a projection $\pi\colon M\to\mathcal N$ whose fibres are the leaves (§ 2). The leaf space $\mathcal N$ is a one‑dimensional manifold, providing a natural model for a *cyclic* time dimension that can be discretized into a tree of leaves.  
@@ -41,8 +40,7 @@ In cognitive science, the hypothesis that humans employ an ultrametric mental re
 
 Collectively, these strands of research substantiate the claim that the mixed‑radix numeral tree is not merely a convenient mathematical abstraction but a structure that recurs across disciplines, from phylogenetics and number theory to digital hardware and cognitive modeling. By grounding the distance function $d_{\text{mix}}$ in this interdisciplinary context, the present work bridges theoretical ultrametric geometry with practical applications in data analysis and system design.
 
-## 3. Methods
-We model a numeral in base $b\ge2$ as a finite path from the root of a rooted $b$‑ary tree to a leaf. Each digit $d_k\in\{0,\dots,b-1\}$ labels the edge at depth $k$. The *depth* of the lowest common ancestor (LCA) of two leaves equals the number of shared trailing digits. The $b$‑adic valuation $v_b(n)$ is the exponent of the highest power of $b$ dividing $n$. For integers $x,y$, define  
+## 3. Methods We model a numeral in base $b\ge2$ as a finite path from the root of a rooted $b$‑ary tree to a leaf. Each digit $d_k\in\{0,\dots,b-1\}$ labels the edge at depth $k$. The *depth* of the lowest common ancestor (LCA) of two leaves equals the number of shared trailing digits. The $b$‑adic valuation $v_b(n)$ is the exponent of the highest power of $b$ dividing $n$. For integers $x,y$, define 
 
 $$
 d_b(x,y)=b^{-v_b(x-y)}.
@@ -58,17 +56,14 @@ $$
 
 where $\delta_k=1$ if the components differ at level $k$ and $0$ otherwise. Because only the first differing level contributes a factor $b_k^{-1}$, the product reduces to a single factor, matching the ultrametric property.
 
-## 4. Analysis
-We derive explicit distances for a concrete mixed‑radix calendar: **hour** (base $24$), **day** (base $30$), **month** (base $12$). The branching factors are taken from standard civil time conventions.
+## 4. Analysis We derive explicit distances for a concrete mixed‑radix calendar: **hour** (base $24$), **day** (base $30$), **month** (base $12$). The branching factors are taken from standard civil time conventions.
 
 ### 4.1. Input numbers
 - Hour branching factor: $b_{\text{hour}}=24$.  
 - Day branching factor: $b_{\text{day}}=30$.  
 - Month branching factor: $b_{\text{month}}=12$.
 
-### 4.2. Derivation steps
-Consider two timestamps  
-$t_1=(h_1=10,\;d_1=15,\;m_1=5)$ and $t_2=(h_2=11,\;d_2=15,\;m_2=5)$.
+### 4.2. Derivation steps Consider two timestamps $t_1=(h_1=10,\;d_1=15,\;m_1=5)$ and $t_2=(h_2=11,\;d_2=15,\;m_2=5)$.
 
 1. Compare hour components: $h_1\neq h_2$ → first differing level is *hour*.  
 2. According to the mixed‑radix ultrametric, the distance is the reciprocal of the hour branching factor:  
@@ -102,8 +97,7 @@ $$
 
 Rounded to seven significant digits: $0.0833333$.
 
-### 4.3. Verification of the strong triangle inequality
-Take $t_1$, $t_2$, $t_3$ as above.
+### 4.3. Verification of the strong triangle inequality Take $t_1$, $t_2$, $t_3$ as above.
 
 - $d(t_1,t_2)=24^{-1}=0.0416667$  
 - $d(t_2,t_3)=\max\{d(t_2,t_1),d(t_1,t_3)\}= \max\{0.0416667,0.0333333\}=0.0416667$  
@@ -111,8 +105,7 @@ Take $t_1$, $t_2$, $t_3$ as above.
 
 Since $d(t_1,t_3)\le \max\{d(t_1,t_2),d(t_2,t_3)\}$, the strong triangle inequality holds, as required by the definition in [1].
 
-## 5. Results
-The analysis yields the following concrete ultrametric distances for the mixed‑radix calendar tree:
+## 5. Results The analysis yields the following concrete ultrametric distances for the mixed‑radix calendar tree:
 
 | Pair of timestamps | First differing level | Computed distance |
 |--------------------|-----------------------|-------------------|
@@ -145,11 +138,9 @@ These numbers are derived solely from the branching factors and the valuation fo
 - **Embedded‑system designers** can implement tree‑structured counters (e.g., a 24‑branch hour counter feeding a 30‑branch day counter) that compute distances with a single table lookup, reducing arithmetic overhead.  
 - **Cognitive psychologists** gain a quantitative hypothesis for experiments probing number sense across orders of magnitude.
 
-### 7.2. Technology readiness
-The work is purely analytical and has not undergone peer review; it therefore resides at **TRL 1–2**. No prototype has been built, and no empirical validation has been performed.
+### 7.2. Technology readiness The work is purely analytical and has not undergone peer review; it therefore resides at **TRL 1–2**. No prototype has been built, and no empirical validation has been performed.
 
-### 7.3. Smallest next experiment
-Construct a depth‑2 hardware counter: an 8‑bit hour counter (branching $24$) feeding a 5‑bit day counter (branching $30$). Measure the latency of computing $d_{\text{mix}}$ between two timestamps using a comparator that identifies the first differing level. The experiment falsifies the result if the measured latency exceeds that of a conventional linear subtraction by more than a factor of $2$.
+### 7.3. Smallest next experiment Construct a depth‑2 hardware counter: an 8‑bit hour counter (branching $24$) feeding a 5‑bit day counter (branching $30$). Measure the latency of computing $d_{\text{mix}}$ between two timestamps using a comparator that identifies the first differing level. The experiment falsifies the result if the measured latency exceeds that of a conventional linear subtraction by more than a factor of $2$.
 
 ### 7.4. Engineering constraints
 - **Materials:** Standard CMOS logic for counters; no exotic materials required.  
@@ -157,8 +148,7 @@ Construct a depth‑2 hardware counter: an 8‑bit hour counter (branching $24$)
 - **Data:** Requires storage of branching factors ($24$, $30$, $12$) in firmware.  
 - **Compute:** Only bitwise comparisons are needed; the algorithm is $O(1)$ in depth.
 
-### 7.5. Projected performance bounds (projection)
-Assuming a $100\,$MHz clock and a comparator that checks three fields sequentially, the projected worst‑case latency is  
+### 7.5. Projected performance bounds (projection) Assuming a $100\,$MHz clock and a comparator that checks three fields sequentially, the projected worst‑case latency is 
 
 $$
 \text{Latency} \le 3 \times \frac{1}{100\text{ MHz}} = 30\text{ ns},
@@ -166,11 +156,9 @@ $$
 
  This projection assumes ideal pipeline behavior and no additional control logic.
 
-### 7.6. Risks and misuse
-If the ultrametric distance is applied indiscriminately to non‑cyclic data (e.g., financial timestamps), it could obscure genuine linear trends. Users must verify that the data possess a hierarchical cyclic structure before adopting $d_{\text{mix}}$.
+### 7.6. Risks and misuse If the ultrametric distance is applied indiscriminately to non‑cyclic data (e.g., financial timestamps), it could obscure genuine linear trends. Users must verify that the data possess a hierarchical cyclic structure before adopting $d_{\text{mix}}$.
 
-## 8. Conclusion
-We have formalized the numeral tree as a mixed‑radix ultrametric space, derived explicit distances that respect cyclic nesting, and proved that the resulting distance satisfies the strong triangle inequality. The derived distances ($0.0416667$, $0.0333333$, $0.0833333$) follow directly from branching factors and guarantee consistent hierarchical clustering. This framework offers a low‑cost, mathematically rigorous tool for cyclic time analysis, a plausible explanation for the brain’s logarithmic number sense, and a clear engineering pathway for tree‑structured counters. Future work will empirically test the cognitive hypothesis and prototype the hardware counter described in Section 7.3.
+## 8. Conclusion We have formalized the numeral tree as a mixed‑radix ultrametric space, derived explicit distances that respect cyclic nesting, and proved that the resulting distance satisfies the strong triangle inequality. The derived distances ($0.0416667$, $0.0333333$, $0.0833333$) follow directly from branching factors and guarantee consistent hierarchical clustering. This framework offers a low‑cost, mathematically rigorous tool for cyclic time analysis, a plausible explanation for the brain’s logarithmic number sense, and a clear engineering pathway for tree‑structured counters. Future work will empirically test the cognitive hypothesis and prototype the hardware counter described in Section 7.3.
 
 ## Version History
 

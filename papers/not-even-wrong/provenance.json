@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "not-even-wrong",
+  "paper": {
+    "path": "papers/not-even-wrong/paper.md",
+    "title": "Not Even Wrong",
+    "url": "https://papers.qnfo.org/papers/not-even-wrong"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "not-even-wrong"
+  },
+  "snapshots": [
+    {
+      "sha256": "6233191f99853e67d7754381337fd2c6a48fec21d914228706c3865ef4de0a7f",
+      "bytes": 45028,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

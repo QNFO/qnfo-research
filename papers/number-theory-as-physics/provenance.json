@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "number-theory-as-physics",
+  "paper": {
+    "path": "papers/number-theory-as-physics/paper.md",
+    "title": "Number Theory as Physics",
+    "url": "https://papers.qnfo.org/papers/number-theory-as-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "number-theory-as-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "3b44a40c307c552a150bc6b84f4f5e5c53c5aad5580522ac8d2cff203390d918",
+      "bytes": 400056,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
