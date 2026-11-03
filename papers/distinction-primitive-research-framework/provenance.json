@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "distinction-primitive-research-framework",
+  "paper": {
+    "path": "papers/distinction-primitive-research-framework/paper.md",
+    "title": "Distinction, Number, and the Empirical Filter: The Pre-Arithmetic Research Framework",
+    "url": "https://papers.qnfo.org/papers/distinction-primitive-research-framework"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "distinction-primitive-research-framework"
+  },
+  "snapshots": [
+    {
+      "sha256": "cbbaa6a59bba478ecafaff883e9e534023b3696a1f052d3766d393ea87d526e8",
+      "bytes": 15769,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

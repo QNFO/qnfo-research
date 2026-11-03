@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "distinction-lattice-framework",
+  "paper": {
+    "path": "papers/distinction-lattice-framework/paper.md",
+    "title": "Distinction-Lattice Framework: Eigenforms, Bisimulation, and the Realizability Boundary of Self-Reference",
+    "url": "https://papers.qnfo.org/papers/distinction-lattice-framework"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "distinction-lattice-framework"
+  },
+  "snapshots": [
+    {
+      "sha256": "e15b4ef611ad16ad5d981fdf11d54982aa074d88578d5d55c7935ea767210b17",
+      "bytes": 8978,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.2.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

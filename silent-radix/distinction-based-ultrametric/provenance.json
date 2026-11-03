@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "distinction-based-ultrametric",
+  "paper": {
+    "path": "silent-radix/distinction-based-ultrametric/paper.md",
+    "title": "The Distinction-Based Ultrametric: A Hierarchy Distance Without Primes, and the Statistical Test of Arithmetic Structure in Physical Spectra",
+    "url": "https://papers.qnfo.org/papers/distinction-based-ultrametric"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "distinction-based-ultrametric"
+  },
+  "snapshots": [
+    {
+      "sha256": "b9b9c0405d5ddb134a1efcd58ce137f02c01643b10bcf93b18f97dd7896fc97a",
+      "bytes": 18637,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
