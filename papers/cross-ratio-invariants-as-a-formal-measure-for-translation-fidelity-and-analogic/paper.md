@@ -1,10 +1,10 @@
 # Cross‑Ratio Invariants as a Formal Measure for Translation Fidelity and Analogical Reasoning
 
 ## Abstract
+
 Machine translation (MT) and analogical reasoning both require semantic representations that remain stable under surface‑form changes. Existing similarity measures such as cosine distance ignore projective structure, limiting their ability to capture deep relational meaning. This work addresses the gap by proposing a cross‑ratio invariant $\chi(A,B;C,D)$ computed over word‑embedding vectors as a coordinate‑free semantic measure. Building on the cycles‑cross‑ratio invariant introduced for Lie‑sphere geometry [1] and the strict cross‑ratio invariance under projective maps [11], we formalize $\chi$ for quadruples of embedding points, prove its invariance under any fractional linear transformation, and derive a closed‑form analogy‑completion formula. Using sentence‑level weighting statistics from domain‑adaptation corpora [8] we compute concrete data‑reduction proportions (51.1 % of sentences, 28.1 % of tokens). Combining this reduction with beam‑search pruning speeds of up to 43 % [2] yields a projected overall decoding speedup of roughly 510 % ($\approx$ 5.1 × faster) under an independence assumption. We also enumerate the combinatorial budget of candidate invariants for a 10 000‑item vocabulary and estimate the minimal sample size ($\approx$ 85 aligned pairs) required to detect a modest correlation ($r=0.30$) with 80 % power. The result suggests that cross‑ratio preservation can serve as a lightweight, mathematically grounded proxy for translation adequacy and analogy correctness, offering a new evaluation pathway for low‑resource MT system design and analogical benchmark construction.
 
-## 1. Introduction
-Global communication increasingly relies on neural machine translation (NMT) services that must render content accurately across thousands of language pairs. Translation providers, multilingual content platforms, and international NGOs face costly failures when translations distort meaning, leading to misinformation, legal liability, and wasted computational resources. Low‑resource language teams translating water‑sanitation‑hygiene guidelines for Indian tribal children or earthquake‑preparedness material for Indonesian communities work with little parallel data and few human experts [4]. Current NMT decoders use beam search to approximate the most probable output [2]; enlarging the beam improves BLEU scores but reduces throughput, while pruning techniques can recover up to 43 % of decoder speed [2] without degrading quality. Analogical reasoning tasks such as SAT‑style “A : B :: C : ?” also suffer from representations that ignore relational structure, limiting AI systems’ ability to generalize across domains.
+## 1. Introduction Global communication increasingly relies on neural machine translation (NMT) services that must render content accurately across thousands of language pairs. Translation providers, multilingual content platforms, and international NGOs face costly failures when translations distort meaning, leading to misinformation, legal liability, and wasted computational resources. Low‑resource language teams translating water‑sanitation‑hygiene guidelines for Indian tribal children or earthquake‑preparedness material for Indonesian communities work with little parallel data and few human experts [4]. Current NMT decoders use beam search to approximate the most probable output [2]; enlarging the beam improves BLEU scores but reduces throughput, while pruning techniques can recover up to 43 % of decoder speed [2] without degrading quality. Analogical reasoning tasks such as SAT‑style “A : B :: C : ?” also suffer from representations that ignore relational structure, limiting AI systems’ ability to generalize across domains.
 
 If a semantic measure that is invariant under projective transformations could be computed efficiently, then (i) translation systems could be evaluated and guided by a quantity that remains stable across paraphrases and language boundaries, and (ii) analogical inference could be reduced to a cross‑ratio completion problem. This would enable designers to select models and hyper‑parameters that maximize invariant preservation, potentially improving translation adequacy and analogy performance without additional data.
 
@@ -17,8 +17,7 @@ If a semantic measure that is invariant under projective transformations could b
 6. **Enumeration** of the candidate‑invariant budget for a 10 000‑item vocabulary and a sample‑size calculation for a correlation test (Section 4.4–4.5).  
 7. **Practical pathway** for NMT engineers to incorporate cross‑ratio preservation checks, including readiness assessment, next‑step experiment, and constraints (Section 7).
 
-## 2. Background and Related Work
-The notion of a cross‑ratio originates in projective geometry as an anharmonic invariant of four collinear points. Recent extensions to higher‑dimensional objects provide a rich toolbox for invariant‑based analysis.
+## 2. Background and Related Work The notion of a cross‑ratio originates in projective geometry as an anharmonic invariant of four collinear points. Recent extensions to higher‑dimensional objects provide a rich toolbox for invariant‑based analysis.
 
 *Cycles‑Cross‑Ratio* [1] introduces a cycles‑cross‑ratio invariant for four cycles (circles or lines) in Lie‑sphere geometry and demonstrates that it yields a Möbius‑invariant distance between spheres. The paper shows that the invariant can be defined in any projective space equipped with a bilinear pairing, and that fractional linear transformations preserve it (Section 3 of [1]).
 
@@ -52,14 +51,11 @@ $$
 
 where $\|\cdot\|$ denotes the Euclidean norm. This mirrors the classic cross‑ratio of four points on a line and inherits projective invariance when the embedding vectors are transformed by any invertible linear map followed by a translation, as shown in the cycles‑cross‑ratio construction [1].
 
-### 3.2 Invariance under Projective Transformations
-Consider a fractional linear (projective) transformation $T(z)=\frac{\alpha z+\beta}{\gamma z+\delta}$ with $\alpha\delta-\beta\gamma\neq0$. Substituting $T$ into the definition of $\chi$ and simplifying (see Section 4.1) yields $\chi(T(A),T(B);T(C),T(D))=\chi(A,B;C,D)$, exactly the statement of the Projective Invariance Theorem [11].
+### 3.2 Invariance under Projective Transformations Consider a fractional linear (projective) transformation $T(z)=\frac{\alpha z+\beta}{\gamma z+\delta}$ with $\alpha\delta-\beta\gamma\neq0$. Substituting $T$ into the definition of $\chi$ and simplifying (see Section 4.1) yields $\chi(T(A),T(B);T(C),T(D))=\chi(A,B;C,D)$, exactly the statement of the Projective Invariance Theorem [11].
 
-### 3.3 Data‑Weighting Procedure
-Following the sentence‑level weighting scheme of [8], each out‑of‑domain sentence $s$ receives a binary weight $w_{s}\in\{0,1\}$ based on the logarithmic difference of two language‑model probabilities. Sentences with $w_{s}=0$ are discarded before training. This reduces the effective corpus size while retaining sentences most similar to the target domain.
+### 3.3 Data‑Weighting Procedure Following the sentence‑level weighting scheme of [8], each out‑of‑domain sentence $s$ receives a binary weight $w_{s}\in\{0,1\}$ based on the logarithmic difference of two language‑model probabilities. Sentences with $w_{s}=0$ are discarded before training. This reduces the effective corpus size while retaining sentences most similar to the target domain.
 
-### 3.4 Analogy‑Completion Formula
-Given three scalar coordinates $a,b,c$ (obtained by projecting embeddings onto a fixed scalar $\phi$) and a target cross‑ratio value $k$, solving $\chi(a,b;c,d)=k$ for $d$ yields
+### 3.4 Analogy‑Completion Formula Given three scalar coordinates $a,b,c$ (obtained by projecting embeddings onto a fixed scalar $\phi$) and a target cross‑ratio value $k$, solving $\chi(a,b;c,d)=k$ for $d$ yields
 
 $$
 d \;=\; \frac{(a-c)\,b - k\,(b-c)\,a}{(a-c) - k\,(b-c)}.
@@ -252,8 +248,7 @@ T = Q \times 10^{-6}\,\text{s}
 | Sentence‑level weighting based on LM log‑difference | May discard sentences containing rare but semantically crucial constructions. |
 | Euclidean norm in $\chi$ definition | Alternative norms (e.g., cosine) could alter invariance properties and empirical behavior. |
 
-### 6.2 Falsifiability
-The central claim—that **higher cross‑ratio preservation scores predict higher translation quality**—would be falsified if a statistically significant correlation (p < 0.05) between CRPS and sentence‑level BLEU cannot be observed across multiple language pairs and domains. The falsification experiment is detailed in Section 7(c).
+### 6.2 Falsifiability The central claim—that **higher cross‑ratio preservation scores predict higher translation quality**—would be falsified if a statistically significant correlation (p < 0.05) between CRPS and sentence‑level BLEU cannot be observed across multiple language pairs and domains. The falsification experiment is detailed in Section 7(c).
 
 ### 6.3 Open Questions
 - How does $\chi$ behave for sub‑word embeddings (e.g., byte‑pair encodings) used in low‑resource NMT [2]?  
@@ -267,8 +262,7 @@ The central claim—that **higher cross‑ratio preservation scores predict high
 
 If CRPS proves predictive, translation pipelines would shift from purely probability‑based decoding to a hybrid scheme that also enforces invariant preservation, potentially reducing the need for large beam sizes.
 
-### 7.2 Technology Readiness Level
-The work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (concept formulation and basic principles observed).
+### 7.2 Technology Readiness Level The work is purely analytical and has not undergone peer review; therefore it resides at **TRL 2** (concept formulation and basic principles observed).
 
 ### 7.3 Next Experiment (De‑risking / Falsification)
 A minimal empirical study would:
@@ -282,15 +276,13 @@ A minimal empirical study would:
 - **Computational cost**: Exhaustive quadruple enumeration is $O(n^{4})$; for long sentences, sampling strategies must be employed.  
 - **Data‑selection pipeline**: Must integrate the LM‑based weighting from [8] without altering the underlying language‑model architecture.  
 
-### 7.5 Projected Cost and Performance Bounds (Projection)
-Assuming an average sentence length of 20 tokens, each sentence yields 4 845 quadruples. Processing one quadruple costs $10^{-6}$ seconds on a modern CPU. For the weighted corpus ($2{,}633{,}109$ sentences) the total compute time is $\approx$ 3.5 hours on a single core, . Scaling to a multi‑core server reduces wall‑clock time proportionally.
+### 7.5 Projected Cost and Performance Bounds (Projection) Assuming an average sentence length of 20 tokens, each sentence yields 4 845 quadruples. Processing one quadruple costs $10^{-6}$ seconds on a modern CPU. For the weighted corpus ($2{,}633{,}109$ sentences) the total compute time is $\approx$ 3.5 hours on a single core, . Scaling to a multi‑core server reduces wall‑clock time proportionally.
 
 ### 7.6 Risks and Misuse
 - **Over‑reliance on invariant scores** could cause developers to ignore other quality signals (e.g., fluency), potentially degrading user experience.  
 - **Adversarial manipulation**: An attacker could craft sentences that artificially inflate $\chi$ without improving meaning, misleading evaluation metrics.
 
-## 8. Conclusion
-We have introduced a projective‑geometry‑inspired cross‑ratio invariant $\chi$ for word‑embedding quadruples and argued that its preservation offers a coordinate‑free semantic criterion for translation fidelity and analogical reasoning. By grounding the analysis in established geometric theory [1, 11] and leveraging concrete corpus statistics [8], we derived explicit data‑reduction ratios (51.1 % sentences, 28.1 % tokens) and projected a combined decoding speedup of roughly 525 % when paired with beam‑search pruning [2]. We also provided a closed‑form analogy‑completion formula, enumerated the anharmonic orbit of a representative $\chi$ value, and quantified the combinatorial budget and sample‑size requirements for empirical validation. The proposed framework opens a pathway for NMT engineers to embed invariant preservation into model training and evaluation, while offering a clear experimental protocol for falsification. Future work will implement the CRPS pipeline on multilingual benchmarks, explore efficient sampling of quadruples, and investigate extensions to higher‑dimensional invariants.
+## 8. Conclusion We have introduced a projective‑geometry‑inspired cross‑ratio invariant $\chi$ for word‑embedding quadruples and argued that its preservation offers a coordinate‑free semantic criterion for translation fidelity and analogical reasoning. By grounding the analysis in established geometric theory [1, 11] and leveraging concrete corpus statistics [8], we derived explicit data‑reduction ratios (51.1 % sentences, 28.1 % tokens) and projected a combined decoding speedup of roughly 525 % when paired with beam‑search pruning [2]. We also provided a closed‑form analogy‑completion formula, enumerated the anharmonic orbit of a representative $\chi$ value, and quantified the combinatorial budget and sample‑size requirements for empirical validation. The proposed framework opens a pathway for NMT engineers to embed invariant preservation into model training and evaluation, while offering a clear experimental protocol for falsification. Future work will implement the CRPS pipeline on multilingual benchmarks, explore efficient sampling of quadruples, and investigate extensions to higher‑dimensional invariants.
 
 ## Provenance and AI Involvement
 

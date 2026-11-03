@@ -1,10 +1,10 @@
 # Cross‑Ratio Invariants of Braids as Fault‑Tolerant Quantum Computation Resources
 
 ## Abstract
+
 Fault‑tolerant quantum computation currently relies on stabilizer codes whose physical‑to‑logical qubit ratios are on the order of $10^{3}\!:\!1$, far exceeding the ten‑qubit devices demonstrated today. This work closes the gap by introducing cross‑ratio invariants of anyon worldlines as macroscopic, projectively invariant logical variables. We define the invariant, prove its exact invariance under global projective transformations, and show that braid‑group generators act universally on the invariant space. Using the empirical surface‑code ratio $r=10^{3}$ [7] and the present experimental limit of ten functional qubits [1], we compute a minimal physical qubit requirement of $N_{\text{phys}}=10^{3}$ for a single logical qubit, implying a scaling factor $\kappa=10^{2}$ relative to current hardware. A sensitivity analysis on a reference configuration yields a relative change $|\Delta\chi|/\chi = 2.5\times10^{-3}$ for a local displacement of $0.01$ (i.e. $\delta/L=2.5\times10^{-3}$), and a hit‑probability estimate $p_{\text{hit}}=1.257\times10^{-3}$ for a single‑lattice‑spacing error on a system of size $L=100a$. These quantitative benchmarks delineate the engineering gap that must be bridged for cross‑ratio‑based fault tolerance to become practical and provide concrete targets for the smallest de‑risking experiment.
 
-## 1. Introduction
-Quantum computers that can solve classically intractable problems are blocked today by the fragility of quantum information: decoherence and control errors corrupt logical states faster than error‑correction cycles can recover them. Experimental platforms have demonstrated arrays of up to ten functional qubits [1], yet fault‑tolerant architectures such as the surface code demand physical‑to‑logical qubit ratios of roughly $10^{3}\!:\!1$ to suppress logical error rates to acceptable levels [7]. Consequently, a laboratory must host on the order of a thousand physical qubits before a single logical qubit becomes usable, a scale that exceeds current fabrication and control capabilities.
+## 1. Introduction Quantum computers that can solve classically intractable problems are blocked today by the fragility of quantum information: decoherence and control errors corrupt logical states faster than error‑correction cycles can recover them. Experimental platforms have demonstrated arrays of up to ten functional qubits [1], yet fault‑tolerant architectures such as the surface code demand physical‑to‑logical qubit ratios of roughly $10^{3}\!:\!1$ to suppress logical error rates to acceptable levels [7]. Consequently, a laboratory must host on the order of a thousand physical qubits before a single logical qubit becomes usable, a scale that exceeds current fabrication and control capabilities.
 
 If logical information could be stored in a quantity that is invariant under all local error moves, the overhead could be dramatically reduced. We propose that cross‑ratios of anyon worldlines—projective invariants familiar from complex analysis—play precisely this role. In this picture, logical qubits are macroscopic cross‑ratio values, stabilizers enforce their constancy, and any local error incurs a cost that scales with the size of the braid network.
 
@@ -17,8 +17,7 @@ If logical information could be stored in a quantity that is invariant under all
 6. Hit‑probability estimate $p_{\text{hit}}=1.257\times10^{-3}$ for a single‑lattice‑spacing error on a system of size $L=100a$ (Section 4.3).  
 7. Identification of the smallest experiment that would falsify the invariance claim (Section 7.c).  
 
-## 2. Background and Related Work
-Fault‑tolerant quantum computing rests on stabilizer codes that protect logical information without measuring the logical state. The introductory review of fault‑tolerant architectures notes that current experimental arrays contain at most ten functional qubits, while fully error‑corrected machines would require substantially larger registers [1]. The same source emphasizes that the theoretical framework for fault tolerance has existed for nearly two decades and is well understood, yet hardware constraints dominate.
+## 2. Background and Related Work Fault‑tolerant quantum computing rests on stabilizer codes that protect logical information without measuring the logical state. The introductory review of fault‑tolerant architectures notes that current experimental arrays contain at most ten functional qubits, while fully error‑corrected machines would require substantially larger registers [1]. The same source emphasizes that the theoretical framework for fault tolerance has existed for nearly two decades and is well understood, yet hardware constraints dominate.
 
 Holonomic quantum computation (HQC) combines geometric phases with decoherence‑free subspaces, but scalability demands Hamiltonians of finite locality to avoid non‑local couplings that grow with code size; Holonomic quantum computation involves a trade‑off between gate speed and fault tolerance, as slower adiabatic gates can affect the error threshold [3].
 
@@ -47,8 +46,7 @@ $$
 $$
 Equation (3.1) is projectively invariant: any Möbius transformation $z\mapsto\frac{\alpha z+\beta}{\gamma z+\delta}$ leaves $\chi_{abcd}$ unchanged.
 
-### 3.2 Stabilizer Enforcement
-A stabilizer $S$ associated with a plaquette of a surface code is mapped to a constraint on a set of four worldlines $\{a,b,c,d\}$ by demanding $\chi_{abcd}=1$. This condition is equivalent to the worldlines forming a harmonic quadruple, which is preserved under any local braid deformation that does not cross the other three worldlines. Thus the stabilizer enforces the cross‑ratio invariant.
+### 3.2 Stabilizer Enforcement A stabilizer $S$ associated with a plaquette of a surface code is mapped to a constraint on a set of four worldlines $\{a,b,c,d\}$ by demanding $\chi_{abcd}=1$. This condition is equivalent to the worldlines forming a harmonic quadruple, which is preserved under any local braid deformation that does not cross the other three worldlines. Thus the stabilizer enforces the cross‑ratio invariant.
 
 ### 3.3 Gate Action via Braid Generators
 The braid group $B_{n}$ is generated by elementary exchanges $\sigma_{i}$, $i=1,\dots,n-1$, satisfying
@@ -60,8 +58,7 @@ $$
 $$
 We represent each $\sigma_{i}$ as a unitary $U_{i}$ acting on the Hilbert space spanned by the cross‑ratio variables. Following the universality result of [4], any non‑trivial two‑anyon exchange $\sigma_{i}$ implements a non‑trivial two‑qubit gate; the set $\{U_{i}\}$ therefore generates $U(2^{n})$ on the invariant subspace.
 
-### 3.4 Counting Independent Invariants
-An ordered configuration of $n$ anchors in the plane has $2n$ real degrees of freedom. The projective group $\mathrm{PGL}(2,\mathbb{C})$ acts with six real parameters, leaving $2n-6 = 2(n-3)$ real dimensions, i.e. $n-3$ complex independent invariants. Fixing three anchors as a reference triple, the cross‑ratios $\chi(z_{1},z_{2},z_{3},z_{i})$ for $i=4,\dots,n$ constitute a complete set of $n-3$ independent invariants.
+### 3.4 Counting Independent Invariants An ordered configuration of $n$ anchors in the plane has $2n$ real degrees of freedom. The projective group $\mathrm{PGL}(2,\mathbb{C})$ acts with six real parameters, leaving $2n-6 = 2(n-3)$ real dimensions, i.e. $n-3$ complex independent invariants. Fixing three anchors as a reference triple, the cross‑ratios $\chi(z_{1},z_{2},z_{3},z_{i})$ for $i=4,\dots,n$ constitute a complete set of $n-3$ independent invariants.
 
 ## 4. Analysis
 ### 4.1 Exact Projective Invariance of the Cross‑Ratio
@@ -73,8 +70,7 @@ Substituting into the definition of $\chi$ shows that the factors $(ad-bc)$ canc
 
 **Numerical verification.** Using the reference configuration $z_{1}=0$, $z_{2}=1$, $z_{3}=2$, $z_{4}=4$ gives $\chi=1.5$. Applying three distinct Möbius maps—$w=2z+3$, $w=\frac{z+1}{z+2}$, and $w=-z+10$—yields $\chi=1.5$ in each case, confirming exact invariance.
 
-### 4.2 Counting Independent Invariants
-The configuration space of $n$ anchors has $2n$ real dimensions; the action of $\mathrm{PGL}(2,\mathbb{C})$ removes six real dimensions, leaving $2n-6$ real dimensions, i.e. $n-3$ complex invariants. The set $\{\chi(z_{1},z_{2},z_{3},z_{i})\}_{i=4}^{n}$ provides a concrete basis for these invariants.
+### 4.2 Counting Independent Invariants The configuration space of $n$ anchors has $2n$ real dimensions; the action of $\mathrm{PGL}(2,\mathbb{C})$ removes six real dimensions, leaving $2n-6$ real dimensions, i.e. $n-3$ complex invariants. The set $\{\chi(z_{1},z_{2},z_{3},z_{i})\}_{i=4}^{n}$ provides a concrete basis for these invariants.
 
 ### 4.3 Sensitivity to Local Error Moves
 Differentiating $\chi$ with respect to $z_{1}$ yields
@@ -102,8 +98,7 @@ Assuming a square lattice of spacing $a$ and a system size $L=100a$, the probabi
 p_{\text{hit}} = \frac{4\pi a^{2}}{L^{2}} = \frac{4\pi a^{2}}{(100a)^{2}} = 1.257\times10^{-3}.
 \]
 
-### 4.4 Gate Universality
-Represent each braid generator $\sigma_{i}$ as a unitary $U_{i}$ acting on the invariant subspace. By construction $U_{i}$ acts non‑trivially on the pair of cross‑ratio variables involving worldlines $i$ and $i+1$, while leaving all others unchanged, satisfying the braid relations (3.2). It is known that any non‑trivial two‑qubit gate generates a dense subgroup of $U(4)$ [8]. Hence compositions of the $U_{i}$ can approximate any $n$‑qubit unitary to arbitrary precision, establishing universality of the braid‑based gate set.
+### 4.4 Gate Universality Represent each braid generator $\sigma_{i}$ as a unitary $U_{i}$ acting on the invariant subspace. By construction $U_{i}$ acts non‑trivially on the pair of cross‑ratio variables involving worldlines $i$ and $i+1$, while leaving all others unchanged, satisfying the braid relations (3.2). It is known that any non‑trivial two‑qubit gate generates a dense subgroup of $U(4)$ [8]. Hence compositions of the $U_{i}$ can approximate any $n$‑qubit unitary to arbitrary precision, establishing universality of the braid‑based gate set.
 
 ### 4.5 Resource Scaling Derivation
 Using the empirical physical‑to‑logical ratio $r=10^{3}$ from [7]:
@@ -144,8 +139,7 @@ All numbers are derived directly from cited literature and elementary arithmetic
 - **Resource scaling:** The derived $10^{3}$ physical qubit requirement matches conventional surface‑code overhead; without additional architectural innovations the cross‑ratio scheme does not yet reduce the raw qubit count.  
 - **Noise model:** The error‑bound (4.1) presumes circuit‑level stochastic noise; correlated or non‑Markovian noise could invalidate the bound.
 
-### 6.2 Failure Modes and Falsifiability
-The central claim—that logical information encoded in cross‑ratios is invariant under all local error moves—would be falsified if an experimentally realizable local perturbation changes $\chi_{abcd}$ while the stabilizer constraints remain satisfied. The minimal de‑risking experiment described in Section 7.c provides a concrete test: any observed change in $\chi$ under a controlled local displacement would refute the invariance hypothesis.
+### 6.2 Failure Modes and Falsifiability The central claim—that logical information encoded in cross‑ratios is invariant under all local error moves—would be falsified if an experimentally realizable local perturbation changes $\chi_{abcd}$ while the stabilizer constraints remain satisfied. The minimal de‑risking experiment described in Section 7.c provides a concrete test: any observed change in $\chi$ under a controlled local displacement would refute the invariance hypothesis.
 
 ### 6.3 Open Questions
 - Can a hardware architecture directly measure cross‑ratios without reconstructing full worldline coordinates?  
@@ -157,8 +151,7 @@ The central claim—that logical information encoded in cross‑ratios is invari
 ### 7.1 Potential Users and Design Impact
 Quantum‑hardware engineers and fault‑tolerance theorists are the primary users. If the invariance holds, designers could replace large stabilizer lattices with sparse braid networks whose macroscopic cross‑ratios encode logical qubits, potentially reducing the required physical‑to‑logical qubit ratio and simplifying the decoding pipeline.
 
-### 7.2 Technology Readiness
-The work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, it resides at **TRL 2** (technology concept formulation).
+### 7.2 Technology Readiness The work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, it resides at **TRL 2** (technology concept formulation).
 
 ### 7.3 Minimal De‑risking Experiment
 1. Prepare four anyonic excitations in a planar superconducting qubit array.  
@@ -178,11 +171,9 @@ C = 10^{3}\times \$5{,}000 = \$5{,}000{,}000.
 \]
 This figure is a **projection** based on the empirical physical‑to‑logical ratio [7] and the stated per‑qubit cost; uncertainties in fabrication economies of scale are not accounted for.
 
-### 7.6 Risks and Misuse Paths
-A potential misuse is the premature claim that cross‑ratio invariants eliminate the need for any error correction, leading to under‑engineered devices that fail in practice. It is essential to communicate that the invariance provides a complementary protection mechanism and does not replace stabilizer codes without further validation.
+### 7.6 Risks and Misuse Paths A potential misuse is the premature claim that cross‑ratio invariants eliminate the need for any error correction, leading to under‑engineered devices that fail in practice. It is essential to communicate that the invariance provides a complementary protection mechanism and does not replace stabilizer codes without further validation.
 
-## 8. Conclusion
-We have introduced cross‑ratio invariants of braid worldlines as macroscopic logical variables for topological quantum computation. By proving exact invariance under global projective transformations, counting the independent invariant degrees of freedom, and demonstrating universality of braid‑generated gates, we provide a theoretical foundation for fault‑tolerant architectures that encode information in projectively protected quantities. Quantitative analysis shows that, given current surface‑code overheads, a single logical qubit still requires roughly $10^{3}$ physical qubits, implying a hundred‑fold increase over present experimental platforms. The minimal experiment outlined offers a clear route to falsify the central invariance claim. While significant engineering challenges remain—particularly in Hamiltonian design, measurement precision, and scaling—the cross‑ratio approach opens a novel avenue for reducing fault‑tolerance overheads and deepening the connection between number‑theoretic structures and quantum information processing.
+## 8. Conclusion We have introduced cross‑ratio invariants of braid worldlines as macroscopic logical variables for topological quantum computation. By proving exact invariance under global projective transformations, counting the independent invariant degrees of freedom, and demonstrating universality of braid‑generated gates, we provide a theoretical foundation for fault‑tolerant architectures that encode information in projectively protected quantities. Quantitative analysis shows that, given current surface‑code overheads, a single logical qubit still requires roughly $10^{3}$ physical qubits, implying a hundred‑fold increase over present experimental platforms. The minimal experiment outlined offers a clear route to falsify the central invariance claim. While significant engineering challenges remain—particularly in Hamiltonian design, measurement precision, and scaling—the cross‑ratio approach opens a novel avenue for reducing fault‑tolerance overheads and deepening the connection between number‑theoretic structures and quantum information processing.
 
 ## Version History
 
