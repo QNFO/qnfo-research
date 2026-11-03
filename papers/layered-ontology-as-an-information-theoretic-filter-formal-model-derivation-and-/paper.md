@@ -1,10 +1,10 @@
 # Layered Ontology as an Information‑Theoretic Filter: Formal Model, Derivation, and Testable Predictions
 
 ## Abstract
+
 Altered states of consciousness—near‑death experiences, psychedelic intoxication, and deep meditation—produce striking phenomenology (loss of self‑model, timelessness, unity) but lack quantitative links to measurable neural dynamics, hampering clinical design and theoretical discrimination. We formalize the brain‑filter hypothesis as a discrete‑time communication channel whose capacity is \(C = B\log_{2}(1+\mathrm{SNR})\). Using sensor specifications from robotics literature (angular accuracy \(0.5^{\circ}\), localization precision \(2\;\mathrm{cm}\), detection range \(250\;\mathrm{m}\)) we compute a raw per‑sample information budget of \(36.40\) bits. Assuming the brain attenuates this budget by a factor \(\alpha\), a 20 % reduction in filtering (\(\alpha=0.8\)) yields a per‑sample information reduction of \(13.10\) bits and an observable shift of \(6.18\) bits relative to a modest 10 % reduction. These quantitative shifts predict measurable increases in neural entropy and mutual information during altered states. The result offers a falsifiable bridge between phenomenology and information theory, guiding neuroimaging and psychophysics protocols.
 
-## 1. Introduction
-Patients, clinicians, and researchers confronting altered states of consciousness face a persistent gap: phenomenological reports (e.g., loss of self‑model, timelessness, unity) lack quantitative links to measurable neural dynamics, limiting the design of interventions that could harness or mitigate such states. Near‑death experiences can influence end‑of‑life decision making, psychedelic therapy is being evaluated for treatment‑resistant depression, and meditation practices are incorporated into stress‑reduction programs. All three domains would benefit from a principled prediction: **if the brain functions as a filter that limits the flow of information from a fundamental informational substrate to conscious awareness, then states that reduce filtering should produce a predictable increase in the effective information capacity of neural processing**. Demonstrating this link would enable clinicians to monitor the depth of filtering via neuroimaging metrics and to design protocols that target specific informational thresholds.
+## 1. Introduction Patients, clinicians, and researchers confronting altered states of consciousness face a persistent gap: phenomenological reports (e.g., loss of self‑model, timelessness, unity) lack quantitative links to measurable neural dynamics, limiting the design of interventions that could harness or mitigate such states. Near‑death experiences can influence end‑of‑life decision making, psychedelic therapy is being evaluated for treatment‑resistant depression, and meditation practices are incorporated into stress‑reduction programs. All three domains would benefit from a principled prediction: **if the brain functions as a filter that limits the flow of information from a fundamental informational substrate to conscious awareness, then states that reduce filtering should produce a predictable increase in the effective information capacity of neural processing**. Demonstrating this link would enable clinicians to monitor the depth of filtering via neuroimaging metrics and to design protocols that target specific informational thresholds.
 
 **Contributions.**  
 - **C1.** Formalization of the brain‑filter hypothesis as a discrete‑time communication channel and derivation of its capacity expression (Section 3).  
@@ -13,8 +13,7 @@ Patients, clinicians, and researchers confronting altered states of consciousnes
 - **C4.** Identification of falsifiable signatures (neural entropy rise, increased mutual information, phenomenological markers) and discussion of limitations (Section 6).  
 - **C5.** Specification of a minimal pilot experiment and engineering constraints for empirical validation (Section 7).
 
-## 2. Background and Related Work
-The present work draws on concrete methodological and empirical points from eight distinct studies.
+## 2. Background and Related Work The present work draws on concrete methodological and empirical points from eight distinct studies.
 
 1. **Tightly coupled visual‑inertial optimization.** VIGS‑SLAM “tightly couples visual and inertial constraints within a unified optimization framework” and achieves robust real‑time tracking even under degraded visual input [1]. This demonstrates how coupling distinct information streams can increase overall system robustness, an analogy we exploit for brain‑filter coupling.
 
@@ -56,8 +55,7 @@ C_{\alpha}= B\log_{2}\!\bigl(1+\alpha^{2}\,\mathrm{SNR}_{0}\bigr),
 \]
 with \(\mathrm{SNR}_{0}=P_{\text{raw}}/P_{\text{noise}}\) the raw (unfiltered) ratio.
 
-### 3.2. Mapping sensor specifications to raw information
-We treat each sensory modality as an independent sub‑channel. For a typical embodied observer equipped with a radar sensor (angular accuracy \(0.5^{\circ}\), detection range \(250\;\mathrm{m}\)) and a visual‑inertial system (localization precision \(2\;\mathrm{cm}\)), we compute the number of distinguishable states per sample.
+### 3.2. Mapping sensor specifications to raw information We treat each sensory modality as an independent sub‑channel. For a typical embodied observer equipped with a radar sensor (angular accuracy \(0.5^{\circ}\), detection range \(250\;\mathrm{m}\)) and a visual‑inertial system (localization precision \(2\;\mathrm{cm}\)), we compute the number of distinguishable states per sample.
 
 - **Orientation channel.** The full circle spans \(360^{\circ}\). With resolution \(\Delta\theta=0.5^{\circ}\), the number of distinct orientation bins is
 \[
@@ -82,11 +80,9 @@ The raw per‑sample information budget is the sum
 I_{\text{raw}} = I_{\theta}+I_{p}.
 \]
 
-### 3.3. Relating capacity to phenomenology
-We posit that phenomenological signatures (loss of self‑model, timelessness, unity) emerge when the effective capacity \(C_{\alpha}\) exceeds a threshold \(C_{\text{crit}}\). Altered states are hypothesized to reduce \(\alpha\) (weaker filtering), thereby increasing \(C_{\alpha}\). The model predicts a proportional increase in neural entropy and mutual information between sensory streams and cortical activity.
+### 3.3. Relating capacity to phenomenology We posit that phenomenological signatures (loss of self‑model, timelessness, unity) emerge when the effective capacity \(C_{\alpha}\) exceeds a threshold \(C_{\text{crit}}\). Altered states are hypothesized to reduce \(\alpha\) (weaker filtering), thereby increasing \(C_{\alpha}\). The model predicts a proportional increase in neural entropy and mutual information between sensory streams and cortical activity.
 
-## 4. Analysis
-All numerical inputs are taken directly from the cited literature.
+## 4. Analysis All numerical inputs are taken directly from the cited literature.
 
 1. **Orientation information.**  
    - Input: angular accuracy \(0.5^{\circ}\) [5].  
@@ -208,8 +204,7 @@ These numbers are derived directly from sensor specifications in the literature 
 - **L5. Bandwidth estimate.** The 30 Hz frame rate is typical for visual‑inertial SLAM but may not reflect the effective sampling rate of cortical processing.  
 - **L6. Omitted modalities.** Auditory, proprioceptive, and interoceptive streams are excluded, potentially underestimating total information.
 
-### 6.2. Failure modes and falsification
-A single observation that would falsify the main claim is **the absence of any statistically significant increase in neural entropy or mutual information during states reported to reduce filtering (e.g., psychedelics) despite a documented phenomenological shift**. If high‑resolution neuroimaging (e.g., MEG) shows no change in entropy beyond measurement noise, the hypothesis that reduced \(\alpha\) yields measurable capacity increase would be refuted.
+### 6.2. Failure modes and falsification A single observation that would falsify the main claim is **the absence of any statistically significant increase in neural entropy or mutual information during states reported to reduce filtering (e.g., psychedelics) despite a documented phenomenological shift**. If high‑resolution neuroimaging (e.g., MEG) shows no change in entropy beyond measurement noise, the hypothesis that reduced \(\alpha\) yields measurable capacity increase would be refuted.
 
 ### 6.3. Open questions
 - How does the brain implement the Bayesian filter implied by the model?  
@@ -222,25 +217,20 @@ A single observation that would falsify the main claim is **the absence of any s
 - **Neuroengineers** designing brain‑computer interfaces (BCIs) may exploit the filter model to modulate \(\alpha\) via stimulation, enhancing information throughput for prosthetic control.  
 - **Philosophers of mind** gain a quantitative framework to discuss the relationship between phenomenology and information flow.
 
-### 7.2. Technology readiness
-The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 1–2** (basic principles observed, technology concept formulated).
+### 7.2. Technology readiness The work is purely analytical and has not undergone peer review; according to NASA TRL definitions, it resides at **TRL 1–2** (basic principles observed, technology concept formulated).
 
-### 7.3. Minimal next experiment
-A pilot study recording high‑density EEG during a controlled psychedelic session should compute **sample‑wise Shannon entropy** of the multichannel signal. The experiment must test whether entropy increases by at least **\(0.5\) bits per sample** (the predicted per‑sample shift) compared to a matched placebo condition. Failure to observe this increase would falsify the model.
+### 7.3. Minimal next experiment A pilot study recording high‑density EEG during a controlled psychedelic session should compute **sample‑wise Shannon entropy** of the multichannel signal. The experiment must test whether entropy increases by at least **\(0.5\) bits per sample** (the predicted per‑sample shift) compared to a matched placebo condition. Failure to observe this increase would falsify the model.
 
 ### 7.4. Engineering constraints
 - **Sensor fidelity.** Accurate angular and positional measurements are required; the radar angular accuracy of \(0.5^{\circ}\) and visual‑inertial localization precision of \(2\;\mathrm{cm}\) set the lower bound on observable information.  
 - **Sampling rate.** The 30 Hz frame rate limits temporal resolution; higher‑rate neural recordings may be needed to capture rapid capacity changes.  
 - **Signal‑to‑noise calibration.** Estimating neural noise power is essential for converting entropy changes into SNR variations.
 
-### 7.5. Projected performance bounds (projection)
-Assuming the same sensor specifications and a 20 % reduction in \(\alpha\), the model projects a **per‑sample information increase of \(6.18\) bits**, corresponding to a **\(0.21\) bits s\(^{-1}\)** rise in channel capacity (given \(B=30\) Hz). This projection rests on the assumptions listed in Section 3.2 and the arithmetic in Section 4.
+### 7.5. Projected performance bounds (projection) Assuming the same sensor specifications and a 20 % reduction in \(\alpha\), the model projects a **per‑sample information increase of \(6.18\) bits**, corresponding to a **\(0.21\) bits s\(^{-1}\)** rise in channel capacity (given \(B=30\) Hz). This projection rests on the assumptions listed in Section 3.2 and the arithmetic in Section 4.
 
-### 7.6. Risks and misuse
-If the model were misapplied to claim that any increase in neural entropy is beneficial, it could encourage unsafe dosing of psychoactive substances. Ethical oversight and clear communication of the model’s limits are required to prevent such misuse.
+### 7.6. Risks and misuse If the model were misapplied to claim that any increase in neural entropy is beneficial, it could encourage unsafe dosing of psychoactive substances. Ethical oversight and clear communication of the model’s limits are required to prevent such misuse.
 
-## 8. Conclusion
-We have formalized the hypothesis that the brain functions as an information‑theoretic filter, derived a concrete per‑sample information budget from real sensor specifications, and predicted a measurable increase in neural information capacity when filtering is reduced. The quantitative predictions are directly testable with modern neuroimaging techniques, offering a bridge between phenomenology, information theory, and experimental neuroscience. Future work will refine the filter parameterization, incorporate additional sensory modalities, and validate the model empirically.
+## 8. Conclusion We have formalized the hypothesis that the brain functions as an information‑theoretic filter, derived a concrete per‑sample information budget from real sensor specifications, and predicted a measurable increase in neural information capacity when filtering is reduced. The quantitative predictions are directly testable with modern neuroimaging techniques, offering a bridge between phenomenology, information theory, and experimental neuroscience. Future work will refine the filter parameterization, incorporate additional sensory modalities, and validate the model empirically.
 
 ## Version History
 

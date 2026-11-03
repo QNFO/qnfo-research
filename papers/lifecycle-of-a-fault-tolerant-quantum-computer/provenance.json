@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "lifecycle-of-a-fault-tolerant-quantum-computer",
+  "paper": {
+    "path": "papers/lifecycle-of-a-fault-tolerant-quantum-computer/paper.md",
+    "title": "Lifecycle of a Fault-Tolerant Quantum Computer",
+    "url": "https://papers.qnfo.org/papers/lifecycle-of-a-fault-tolerant-quantum-computer"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "lifecycle-of-a-fault-tolerant-quantum-computer"
+  },
+  "snapshots": [
+    {
+      "sha256": "649c3590bedeee036093ee27a6528d1397792975ae33c242e0743d99275201e6",
+      "bytes": 137434,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
