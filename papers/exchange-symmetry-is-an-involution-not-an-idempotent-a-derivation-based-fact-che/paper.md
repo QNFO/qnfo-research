@@ -1,10 +1,10 @@
 # Exchange Symmetry Is an Involution, Not an Idempotent: A Derivation‑Based Fact‑Check
 
 ## Abstract
+
 The claim that particle exchange is idempotent, that the two‑particle configuration space is the three‑sphere $S^{3}$, that the spin‑statistics theorem holds without qualification, and that non‑Abelian anyons are idempotent appears in recent speculative notes. This paper addresses the gap between those statements and established theory by applying a derivation‑based fact‑checking pipeline: logical decomposition of each sub‑claim, alignment with concrete source material, and explicit arithmetic verification of auxiliary quantitative claims. Using the exchange‑phase relation $R=e^{2\pi i s}$, we show that the exchange operator satisfies $E^{2}=\mathbb{I}$ (involution) rather than $E^{2}=E$ (idempotence). Topological analysis demonstrates that the configuration space of two identical particles in three dimensions is $\bigl(\mathbb{R}^{3}\times\mathbb{R}^{3}\bigr)/\mathbb{Z}_{2}$, not $S^{3}$. The spin‑statistics theorem is shown to rely on Lorentz invariance, microcausality, and a positive‑energy spectrum, limiting its applicability. For an illustrative anyon with spin $s=1/3$, the idempotency condition fails, yielding $|R^{2}-R|=\sqrt{3}\approx1.732$. Quantitative verification of the Reality‑Distortion Room volume ($61.875\ \text{m}^{3}$) and total participant‑minutes ($600\ \text{min}$) illustrates the arithmetic rigor of the method. The results safeguard theoretical and experimental programs that depend on correct exchange symmetry properties.
 
-## 1. Introduction
-Researchers developing quantum‑computing architectures, topological quantum‑field models, and high‑energy‑physics curricula rely on the spin‑statistics connection to predict particle behavior, design error‑correction codes, and interpret experimental data. If the exchange operation were idempotent rather than involutive, the algebraic foundation of fermionic antisymmetry would collapse, jeopardizing the design of fermionic simulators and the classification of anyonic excitations. An incorrect identification of the two‑particle configuration space as the three‑sphere would mislead topological analyses of braid groups, affecting proposals for fault‑tolerant quantum gates. Moreover, asserting that non‑Abelian anyons are idempotent would invalidate braiding‑based computational schemes that depend on non‑trivial fusion rules. Clarifying these misconceptions prevents the propagation of erroneous theoretical tools into experimental programs and educational material, thereby safeguarding resource allocation in quantum‑technology projects.
+## 1. Introduction Researchers developing quantum‑computing architectures, topological quantum‑field models, and high‑energy‑physics curricula rely on the spin‑statistics connection to predict particle behavior, design error‑correction codes, and interpret experimental data. If the exchange operation were idempotent rather than involutive, the algebraic foundation of fermionic antisymmetry would collapse, jeopardizing the design of fermionic simulators and the classification of anyonic excitations. An incorrect identification of the two‑particle configuration space as the three‑sphere would mislead topological analyses of braid groups, affecting proposals for fault‑tolerant quantum gates. Moreover, asserting that non‑Abelian anyons are idempotent would invalidate braiding‑based computational schemes that depend on non‑trivial fusion rules. Clarifying these misconceptions prevents the propagation of erroneous theoretical tools into experimental programs and educational material, thereby safeguarding resource allocation in quantum‑technology projects.
 
 **Contributions.**  
 - **C1.** Formal proof that particle exchange is an involution, not an idempotent, derived from the exchange‑phase relation $R=e^{2\pi i s}$ (Section 4.1).  
@@ -13,8 +13,7 @@ Researchers developing quantum‑computing architectures, topological quantum‑
 - **C4.** Demonstration that the spin‑statistics theorem requires Lorentz invariance, microcausality, and a positive‑energy spectrum (Section 4.3).  
 - **C5.** Refutation of the idempotence of non‑Abelian anyons by evaluating the idempotency condition for an illustrative anyon with $s=1/3$ (Section 4.4).  
 
-## 2. Background and Related Work
-The present analysis draws on eight distinct sources that illustrate how automated fact‑checking and quantitative verification can be applied to foundational physics statements.
+## 2. Background and Related Work The present analysis draws on eight distinct sources that illustrate how automated fact‑checking and quantitative verification can be applied to foundational physics statements.
 
 1. **[1]** describes a pipeline that ranks claims by “check‑worthiness” scores, providing a transparent logical decomposition framework that parallels our own methodology.  
 2. **[2]** introduces deterministic threshold rules for algorithmic triage, informing our decision to treat the exchange‑phase relation as a deterministic logical rule.  
@@ -27,8 +26,7 @@ The present analysis draws on eight distinct sources that illustrate how automat
 
 These works collectively demonstrate that rigorous, data‑driven verification methods are applicable beyond their original domains and can be repurposed to assess foundational physics statements.
 
-## 3. Methods
-Our methodology follows a four‑stage pipeline executed entirely by symbolic derivation and arithmetic.
+## 3. Methods Our methodology follows a four‑stage pipeline executed entirely by symbolic derivation and arithmetic.
 
 1. **Logical Decomposition.** The target note is split into four atomic sub‑claims: (i) exchange idempotence, (ii) configuration‑space topology $S^{3}$, (iii) unconditional spin‑statistics theorem, and (iv) anyon idempotence. Each sub‑claim is restated as a formal proposition $P_{i}$.  
 2. **Source Alignment.** For each $P_{i}$ we locate supporting or contradicting statements in the bibliography and in the exchange‑phase relation $R=e^{2\pi i s}$. Numeric data from the bibliography are recorded with provenance.  
@@ -59,8 +57,7 @@ $$
 $$
 Removing the diagonal (coincident points) and quotient‑identifying yields a space homeomorphic to $\bigl(\mathbb{R}^{3}\times\mathbb{R}^{3}\bigr)/\mathbb{Z}_{2}$, whose fundamental group is $\pi_{1}= \mathbb{Z}_{2}$. The three‑sphere $S^{3}$ has trivial $\pi_{1}$, so it cannot represent the configuration space of indistinguishable particles in three dimensions. Hence the $S^{3}$ claim is incorrect.
 
-### 4.3 Domain of the Spin‑Statistics Theorem
-The spin‑statistics theorem, as proved in relativistic quantum field theory, relies on three inputs: (i) Lorentz invariance, (ii) microcausality (local commutativity), and (iii) a positive‑energy spectrum. Removing any of these inputs invalidates the derivation. Consequently, the theorem does **not** hold under arbitrary non‑relativistic or non‑local frameworks.
+### 4.3 Domain of the Spin‑Statistics Theorem The spin‑statistics theorem, as proved in relativistic quantum field theory, relies on three inputs: (i) Lorentz invariance, (ii) microcausality (local commutativity), and (iii) a positive‑energy spectrum. Removing any of these inputs invalidates the derivation. Consequently, the theorem does **not** hold under arbitrary non‑relativistic or non‑local frameworks.
 
 ### 4.4 Anyon Idempotence Evaluation  
 

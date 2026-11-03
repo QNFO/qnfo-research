@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "factoring-adelic-complexity-v2",
+  "paper": {
+    "path": "adelic-freedom/factoring-adelic-complexity-v2/paper.md",
+    "title": "FACTORING, Adelic Complexity, and the Silent-Radix Principle",
+    "url": "https://papers.qnfo.org/papers/factoring-adelic-complexity-v2"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "factoring-adelic-complexity-v2"
+  },
+  "snapshots": [
+    {
+      "sha256": "392ef4d10f95ffaaaa8b19725d3e6fdf8b5cee48eade9c5e797466d7e75bfeca",
+      "bytes": 35629,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

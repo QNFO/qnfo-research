@@ -1,10 +1,10 @@
 # Factorization Barriers as Trapping of Random Walks on Bruhat–Tits Trees
 
 ## Abstract
+
 Hard integer factorization underlies RSA security, yet current primality testing relies on probabilistic algorithms that retain a non‑zero error probability. A concrete gap exists: no deterministic, efficiently computable test guarantees primality without residual risk. We address this gap by modeling the $p$‑adic boundary as the infinite $(p\!+\!1)$‑regular Bruhat–Tits tree $\mathfrak{t}_p$ and interpreting factorization difficulty as geometric trapping of a simple random walk in the tree bulk. Our analytical approach (i) derives the exact vertex count $V_D$ of a depth‑$D$ truncation of $\mathfrak{t}_p$, (ii) applies the mixing‑time lower bound for $d$‑regular graphs to obtain explicit step bounds, and (iii) incorporates the deterministic spectral‑gap dichotomy observed for prime‑induced versus composite‑induced subtrees. For $p=2$ and $D=7$ we compute $V_7=382$, obtain a mixing‑time lower bound $T_{\mathrm{mix}}\ge4.33\ln n$ ($\approx$ 25.7 steps for $n=382$ and $\approx$ 59.8 steps for $n=10^{6}$), and show that a prime yields $\lambda_1\ge0.1716$ while a composite satisfies $\lambda_1\le C/D$ (projection with $C=1$ gives $\lambda_1\le0.1429$). If the spectral‑gap dichotomy holds, RSA key generation could replace probabilistic tests with a deterministic, tree‑based protocol, eliminating certification risk and reducing computational overhead.
 
-## 1. Introduction
-RSA key generation requires the selection of large prime numbers; the security of the resulting public‑key infrastructure hinges on the inability of an adversary to factor the modulus $N=pq$ or to mistake a composite for a prime. Current pipelines employ probabilistic primality tests such as Miller–Rabin, which, despite negligible error rates, still admit rare “liar” composites that must be filtered by additional deterministic checks. This residual uncertainty translates into extra computational cost and a non‑zero risk of deploying weak keys, a risk that scales with the worldwide volume of generated keys. A deterministic test that certifies primality without probabilistic error would eliminate this risk, streamline key‑generation pipelines, and simplify regulatory compliance for cryptographic hardware.
+## 1. Introduction RSA key generation requires the selection of large prime numbers; the security of the resulting public‑key infrastructure hinges on the inability of an adversary to factor the modulus $N=pq$ or to mistake a composite for a prime. Current pipelines employ probabilistic primality tests such as Miller–Rabin, which, despite negligible error rates, still admit rare “liar” composites that must be filtered by additional deterministic checks. This residual uncertainty translates into extra computational cost and a non‑zero risk of deploying weak keys, a risk that scales with the worldwide volume of generated keys. A deterministic test that certifies primality without probabilistic error would eliminate this risk, streamline key‑generation pipelines, and simplify regulatory compliance for cryptographic hardware.
 
 Our research posits that the arithmetic obstruction preventing factorization can be re‑interpreted as a trapping phenomenon for a simple random walk on the bulk of the Bruhat–Tits tree $\mathfrak{t}_p$, the $(p\!+\!1)$‑regular infinite tree that serves as the $p$‑adic analogue of hyperbolic space. In the $p$‑adic holographic dictionary, boundary data (e.g., the $p$‑adic valuation of an integer) correspond to bulk geodesic lengths; a factorization process that stalls on the boundary should therefore correspond to a random walker becoming confined in deep, exponentially branching arms of $\mathfrak{t}_p$. If such confinement can be quantified by spectral gaps of the tree Laplacian or by hitting‑time statistics, then the hard arithmetic problem is reduced to a tractable statistical‑mechanics problem.
 
@@ -14,8 +14,7 @@ Our research posits that the arithmetic obstruction preventing factorization can
 - **C3.** Identification of a prime‑versus‑composite spectral‑gap dichotomy using deterministic observations from [11] and the spectral interval from [9].  
 - **C4.** Presentation of practical engineering pathways for deterministic primality testing in RSA key generation.
 
-## 2. Background and Related Work
-The Bruhat–Tits tree has been employed in several arithmetic and geometric contexts. In **[1]** the set $S(\Omega)$ of maximal orders containing a suborder $\Omega\subset\mathbb{M}_2(k)$ is shown to form a full subtree of $\mathfrak{t}_k$, establishing a direct link between algebraic orders and tree geometry; the authors also introduce “branch distance” formulas involving the uniformizer $\pi$ and the valuation $\nu$, which we later exploit to relate integer valuations to tree depths.
+## 2. Background and Related Work The Bruhat–Tits tree has been employed in several arithmetic and geometric contexts. In **[1]** the set $S(\Omega)$ of maximal orders containing a suborder $\Omega\subset\mathbb{M}_2(k)$ is shown to form a full subtree of $\mathfrak{t}_k$, establishing a direct link between algebraic orders and tree geometry; the authors also introduce “branch distance” formulas involving the uniformizer $\pi$ and the valuation $\nu$, which we later exploit to relate integer valuations to tree depths.
 
 Random walks on tree‑like structures exhibit dramatically slower exploration dynamics than on loopy networks. **[2]** reports that both the vertex discovery rate and the mean topological displacement are considerably reduced on trees, and that the mean first‑passage time (MFPT) displays a logarithmic dependence on system size. These observations motivate the use of hitting‑time statistics as a probe of trapping.
 
@@ -70,11 +69,9 @@ T_{\mathrm{mix}}(G_n)\;\ge\;\frac{d}{(d-2)\,\log(d-1)}\,\log n.
 \tag{3}
 \]
 
-### 3.3 Mapping Integers to Tree Automorphisms
-Following the encoding lemma of [11], an odd integer $N>2$ is mapped to an automorphism $\gamma_N\in\operatorname{Aut}(\mathcal{T}_p)$ via a $2\times2$ matrix representation over $\mathbb{Q}_p$. The depth $D(N)$ of the minimal invariant subtree under $\gamma_N$ is extracted from the $p$‑adic valuation $\nu(N)$. In practice we treat $D$ as a parameter supplied by the integer under test.
+### 3.3 Mapping Integers to Tree Automorphisms Following the encoding lemma of [11], an odd integer $N>2$ is mapped to an automorphism $\gamma_N\in\operatorname{Aut}(\mathcal{T}_p)$ via a $2\times2$ matrix representation over $\mathbb{Q}_p$. The depth $D(N)$ of the minimal invariant subtree under $\gamma_N$ is extracted from the $p$‑adic valuation $\nu(N)$. In practice we treat $D$ as a parameter supplied by the integer under test.
 
-### 3.4 Computational Assumptions
-All derivations are analytical; no numerical simulation is performed. Where a numerical value is required but not supplied by the bibliography, we label the result as a projection and state the assumption explicitly (e.g., assuming $C=1$ in (2) for illustration).
+### 3.4 Computational Assumptions All derivations are analytical; no numerical simulation is performed. Where a numerical value is required but not supplied by the bibliography, we label the result as a projection and state the assumption explicitly (e.g., assuming $C=1$ in (2) for illustration).
 
 ## 4. Analysis
 ### 4.1 Vertex Count Verification
@@ -132,8 +129,7 @@ Hence a graph with one million vertices requires at least $60$ steps to mix.
 
 Both examples illustrate the logarithmic scaling predicted by (4).
 
-### 4.4 Spectral‑Gap Dichotomy
-Table 5.4 of [11] provides the following data:
+### 4.4 Spectral‑Gap Dichotomy Table 5.4 of [11] provides the following data:
 
 | Quantity | Prime $N=101$ | Composite $N=100$ |
 |----------|----------------|-------------------|
@@ -158,8 +154,7 @@ Thus the prime case exhibits a gap strictly larger than the composite bound, con
 
 All arithmetic steps are displayed explicitly.
 
-## 5. Results
-The analytical derivations above yield concrete quantitative predictions for the behavior of simple random walks on depth‑$7$ truncations of the binary Bruhat–Tits tree:
+## 5. Results The analytical derivations above yield concrete quantitative predictions for the behavior of simple random walks on depth‑$7$ truncations of the binary Bruhat–Tits tree:
 
 1. **Vertex count.** The truncation $T_2^{(7)}$ contains exactly $382$ vertices (Section 4.1).  
 2. **Mixing time.** Any simple random walk on this graph requires at least $25.7$ steps to mix (Section 4.3, Example 1); the general bound $T_{\mathrm{mix}}\ge4.33\ln n$ predicts $59.8$ steps for $n=10^{6}$ (Section 4.3, Example 2).  
@@ -175,8 +170,7 @@ These results substantiate the conjectured link between factorization difficulty
 - **L4.** The prime spectral‑gap lower bound $0.1716$ and the composite collapse are empirical observations from [11] that have not been proved analytically; they remain hypotheses.  
 - **L5.** The present work does not model the full $p$‑adic holographic dictionary or bulk‑boundary correlators; only the static Laplacian spectrum is considered.
 
-### 6.2 Failure Modes and Falsification
-The main claim—that a prime induces $\lambda_1\ge0.1716$ while a composite forces $\lambda_1\le C/D$—would be falsified if a composite integer $N$ were found such that the second Laplacian eigenvalue of its associated truncation exceeds the threshold $\delta_{\text{threshold}}=0.01$ (as stipulated in [11]) or, more stringently, exceeds $0.1716$. Conversely, observing a prime with $\lambda_1<0.01$ would also falsify the dichotomy.
+### 6.2 Failure Modes and Falsification The main claim—that a prime induces $\lambda_1\ge0.1716$ while a composite forces $\lambda_1\le C/D$—would be falsified if a composite integer $N$ were found such that the second Laplacian eigenvalue of its associated truncation exceeds the threshold $\delta_{\text{threshold}}=0.01$ (as stipulated in [11]) or, more stringently, exceeds $0.1716$. Conversely, observing a prime with $\lambda_1<0.01$ would also falsify the dichotomy.
 
 ### 6.3 Open Questions
 - How does the depth $D(N)$ scale with the size of $N$ for general $p$?  
@@ -188,8 +182,7 @@ The main claim—that a prime induces $\lambda_1\ge0.1716$ while a composite for
 ### (a) Potential Users and Decision Impact
 Cryptographic library developers and hardware security module (HSM) manufacturers are the primary stakeholders. If the spectral‑gap test reliably distinguishes primes from composites, these actors could replace probabilistic Miller–Rabin pipelines with a deterministic tree‑based routine, eliminating the need for multiple random bases and reducing the probability of false‑positive composites. This would streamline key‑generation workflows and simplify certification audits.
 
-### (b) Technology Readiness
-The present work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, it resides at **TRL 2** (technology concept formulated) and does not exceed **TRL 3** (analytical proof‑of‑concept).
+### (b) Technology Readiness The present work is purely analytical and has not undergone peer review; according to NASA’s Technology Readiness Level definitions, it resides at **TRL 2** (technology concept formulated) and does not exceed **TRL 3** (analytical proof‑of‑concept).
 
 ### (c) Smallest Next Experiment
 The minimal de‑risking experiment is the prototype described in the “minimal next experiment” of [11]:
@@ -205,14 +198,11 @@ Observation of any composite with $\lambda_1>0.01$ would falsify the main claim.
 - **C4.** Numerical precision must be sufficient to resolve eigenvalues near the $0.01$ threshold.  
 - **C5.** Regulatory acceptance would require formal verification that the spectral‑gap test cannot be spoofed by crafted composites.
 
-### (e) Projected Cost and Performance (Projection)
-Assuming a modern CPU can perform $10^9$ floating‑point operations per second, constructing the Laplacian for $V_{12}=12\,286$ vertices and executing $100$ power‑method iterations would require roughly $1.2\times10^6$ operations, i.e. **$\approx$ 1 ms** of CPU time. This projection assumes $C=1$ in (2) and neglects $p$‑adic overhead.
+### (e) Projected Cost and Performance (Projection) Assuming a modern CPU can perform $10^9$ floating‑point operations per second, constructing the Laplacian for $V_{12}=12\,286$ vertices and executing $100$ power‑method iterations would require roughly $1.2\times10^6$ operations, i.e. **$\approx$ 1 ms** of CPU time. This projection assumes $C=1$ in (2) and neglects $p$‑adic overhead.
 
-### (f) Risks and Misuse
-If the spectral‑gap test were adopted without thorough validation, an adversary could craft composite numbers that artificially inflate $\lambda_1$ (e.g., by embedding a prime‑like subtree), potentially leading to acceptance of insecure keys. Therefore, any deployment must include a fallback probabilistic test or a rigorous proof that the mapping $N\mapsto\gamma_N$ cannot be manipulated to spoof the gap.
+### (f) Risks and Misuse If the spectral‑gap test were adopted without thorough validation, an adversary could craft composite numbers that artificially inflate $\lambda_1$ (e.g., by embedding a prime‑like subtree), potentially leading to acceptance of insecure keys. Therefore, any deployment must include a fallback probabilistic test or a rigorous proof that the mapping $N\mapsto\gamma_N$ cannot be manipulated to spoof the gap.
 
-## 8. Conclusion
-We have presented an analytical framework that translates the arithmetic difficulty of integer factorization into a trapping problem for simple random walks on the Bruhat–Tits tree. By deriving exact vertex counts, applying established mixing‑time lower bounds, and invoking the deterministic spectral‑gap observations of [11], we obtain concrete, computable diagnostics that differentiate primes from composites. While the conjectured prime‑versus‑composite spectral‑gap dichotomy remains to be rigorously proved, the derived quantities provide clear quantitative targets for experimental validation. If confirmed, the approach offers a deterministic, polynomial‑time alternative to probabilistic primality testing, with immediate relevance to RSA key generation and broader cryptographic practice.
+## 8. Conclusion We have presented an analytical framework that translates the arithmetic difficulty of integer factorization into a trapping problem for simple random walks on the Bruhat–Tits tree. By deriving exact vertex counts, applying established mixing‑time lower bounds, and invoking the deterministic spectral‑gap observations of [11], we obtain concrete, computable diagnostics that differentiate primes from composites. While the conjectured prime‑versus‑composite spectral‑gap dichotomy remains to be rigorously proved, the derived quantities provide clear quantitative targets for experimental validation. If confirmed, the approach offers a deterministic, polynomial‑time alternative to probabilistic primality testing, with immediate relevance to RSA key generation and broader cryptographic practice.
 
 ## Provenance and AI Involvement
 

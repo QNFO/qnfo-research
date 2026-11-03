@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "exchange-phase-logical-scalar",
+  "paper": {
+    "path": "papers/exchange-phase-logical-scalar/paper.md",
+    "title": "The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus",
+    "url": "https://papers.qnfo.org/papers/exchange-phase-logical-scalar"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "exchange-phase-logical-scalar"
+  },
+  "snapshots": [
+    {
+      "sha256": "87584dce46b0272a0f6c96d5b9eefd65532cebdecbc7fd43befc7184235aed8f",
+      "bytes": 27583,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

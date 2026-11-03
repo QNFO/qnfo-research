@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "excluded-middle-as-computational-boundary",
+  "paper": {
+    "path": "papers/excluded-middle-as-computational-boundary/paper.md",
+    "title": "Excluded Middle as Computational Boundary",
+    "url": "https://papers.qnfo.org/papers/excluded-middle-as-computational-boundary"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "excluded-middle-as-computational-boundary"
+  },
+  "snapshots": [
+    {
+      "sha256": "e3c0587b2f64f971fc75a234a2798852b8a15cb69e368abe8908588cb0699c93",
+      "bytes": 259484,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
