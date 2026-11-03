@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-information-theoretic-electromagnetism-proof",
+  "paper": {
+    "path": "papers/emergent-information-theoretic-electromagnetism-proof/paper.md",
+    "title": "Emergent Information-Theoretic Electromagnetism Proof",
+    "url": "https://papers.qnfo.org/papers/emergent-information-theoretic-electromagnetism-proof"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-information-theoretic-electromagnetism-proof"
+  },
+  "snapshots": [
+    {
+      "sha256": "4d1b14dcba5a781150ed193fd472761c7f1ac500dae4b9dd8cf684faa6ae80f1",
+      "bytes": 38894,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

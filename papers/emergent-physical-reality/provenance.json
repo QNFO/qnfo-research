@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-physical-reality",
+  "paper": {
+    "path": "papers/emergent-physical-reality/paper.md",
+    "title": "Emergent Physical Reality",
+    "url": "https://papers.qnfo.org/papers/emergent-physical-reality"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-physical-reality"
+  },
+  "snapshots": [
+    {
+      "sha256": "72aee068513b97b366d5faf4f8df3d8df7628c2a0bf53d07711f161c0bcfb8de",
+      "bytes": 31765,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

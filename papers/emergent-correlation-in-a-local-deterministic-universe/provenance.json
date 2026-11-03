@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-correlation-in-a-local-deterministic-universe",
+  "paper": {
+    "path": "papers/emergent-correlation-in-a-local-deterministic-universe/paper.md",
+    "title": "EMERGENT CORRELATION IN A LOCAL-DETERMINISTIC UNIVERSE",
+    "url": "https://papers.qnfo.org/papers/emergent-correlation-in-a-local-deterministic-universe"
+  },
+  "declared": {
+    "version": "1.0.1",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-correlation-in-a-local-deterministic-universe"
+  },
+  "snapshots": [
+    {
+      "sha256": "4d1ab20cb6e8e498bb3d0adab6290a329c2c843ece891da12b5a4d8fa2e46a46",
+      "bytes": 172043,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

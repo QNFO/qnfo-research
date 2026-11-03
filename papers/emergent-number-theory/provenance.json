@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "emergent-number-theory",
+  "paper": {
+    "path": "papers/emergent-number-theory/paper.md",
+    "title": "EMERGENT NUMBER THEORY",
+    "url": "https://papers.qnfo.org/papers/emergent-number-theory"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "emergent-number-theory"
+  },
+  "snapshots": [
+    {
+      "sha256": "fac308a49c30ee32c812075115f229cda73372590a44f1d0fdd4d665b18a8862",
+      "bytes": 48542,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
