@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "computing-machines",
+  "paper": {
+    "path": "papers/computing-machines/paper.md",
+    "title": "Computing After Silicon: A History-Constrained Forecast of Computing Machine Evolution, 2026-2050",
+    "url": "https://papers.qnfo.org/papers/computing-machines"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "computing-machines"
+  },
+  "snapshots": [
+    {
+      "sha256": "beaf3774a7f5b66e85fd35a6912b992ce836131dce406d403c3398a81326684d",
+      "bytes": 18214,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "computational-toolkit-for-p-adic-spacetime",
+  "paper": {
+    "path": "papers/computational-toolkit-for-p-adic-spacetime/paper.md",
+    "title": "Computational Toolkit for p-Adic Spacetime",
+    "url": "https://papers.qnfo.org/papers/computational-toolkit-for-p-adic-spacetime"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "computational-toolkit-for-p-adic-spacetime"
+  },
+  "snapshots": [
+    {
+      "sha256": "41371b93d7c46ff51c8634beec1cfb7c057ba60986cec1797b25cec2a7e71672",
+      "bytes": 37546,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
