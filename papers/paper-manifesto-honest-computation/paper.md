@@ -27,7 +27,11 @@ keywords:
  - research ethics
 ---
 
-# Preamble
+# Manifesto for Honest Computation
+
+## Abstract
+
+Five papers have traced an arc from diagnosis to prescription. The qubit is a scaffold, not an invariant. Alternative paradigms exist. Physical limits are real. A diversified portfolio is rational. Institutions must be reformed. This final paper --- the Manifesto --- synthesizes these findings into principles for honest computation and a call to action for investors, researchers, policymakers, and the public. We propose five principles: (1) the substrate IS the algorithm; (2) correlation over particle; (3) joules per solution as the universal metric; (4) falsifiability as a condition of funding; and (5) institutional independence of verification. We propose a specific resource reallocation --- from the ~60% currently consumed by gate-model quantum computing toward thermodynamic, optical, neuromorphic, and analog quantum simulation --- and a Falsification Pledge by which institutions commit to pre-registering computational claims with time-bound success criteria. Computation is too important to be left to narrative production. The future of computing is honest, or it is nothing.
 
 Computation is the most important technology of the twenty-first century.
 It determines what we can know, what we can build, what we can cure, and

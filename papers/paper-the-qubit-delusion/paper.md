@@ -32,6 +32,12 @@ keywords:
   - innovation economics
 ---
 
+# The Qubit Delusion: How Particle Ontology Sabotaged Quantum Computing
+
+## Abstract
+
+The quantum computing industry has absorbed approximately $35 billion in global investment over two decades while delivering zero commercially viable machines. This paper argues that the failure is not merely an engineering delay but an epistemic crisis: the dominant qubit-gate-circuit model of quantum computation imports a particle ontology that is inconsistent with quantum field theory, relational quantum mechanics, and the physics of continuous, correlated systems. Through systematic deconstruction of the scaffolds underlying quantum computing -- qubit-as-particle, gate-as-discrete-operation, decoherence-as-enemy, error-correction-as-classical-coding -- we identify the invariants that survive scaffold removal (superposition, entanglement, correlation structure, phase coherence) and examine alternative computational paradigms (measurement-based, continuous-variable, topological, and field-theoretic) that are more faithful to quantum reality. We combine ontological analysis with empirical forensics -- a reproducibility scorecard of twenty major milestone claims, a comparative bubble-morphology analysis situating the quantum computing capital structure alongside historical technology bubbles, and a press-release-versus-preprint claim-gap analysis -- to assess whether the field is producing science or narrative assets. The evidence suggests a systematic map-territory confusion operating at industrial scale, sustained by institutional incentives that reward optimism over falsification. We conclude with a constructive research agenda grounded in field-theoretic and relational quantum computation.
+
 # 1. Introduction
 
 In October 2019, Google announced "quantum supremacy" --- a 53-qubit processor,
