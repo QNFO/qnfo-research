@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "completeness-senses-levi-civita",
+  "paper": {
+    "path": "papers/completeness-senses-levi-civita/paper.md",
+    "title": "Completeness Senses and the Levi-Civita Field: Ordered Non-Archimedean Number Systems Beyond Ostrowski's Classification",
+    "url": "https://papers.qnfo.org/papers/completeness-senses-levi-civita"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "completeness-senses-levi-civita"
+  },
+  "snapshots": [
+    {
+      "sha256": "5a34de666ccf65727f8b7d5ee49a03df8946687cf10adadcb1cf6e55ba823cb0",
+      "bytes": 14737,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.1.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "commercial-pathways-to-room-temperature-topological-quantum-computation",
+  "paper": {
+    "path": "papers/commercial-pathways-to-room-temperature-topological-quantum-computation/paper.md",
+    "title": "Commercial Pathways to Room-Temperature Topological Quantum Computation",
+    "url": "https://papers.qnfo.org/papers/commercial-pathways-to-room-temperature-topological-quantum-computation"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "commercial-pathways-to-room-temperature-topological-quantum-computation"
+  },
+  "snapshots": [
+    {
+      "sha256": "8234e565c1808eb89a6042c71ea3bd7c66f02f2ebc8bc200ff679b7a53fbedc5",
+      "bytes": 17392,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
