@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "measurement-stratigraphy",
+  "paper": {
+    "path": "papers/measurement-stratigraphy/paper.md",
+    "title": "The History and Future of Measurement Stratigraphy, Number Theory, and Valuation Theory",
+    "url": "https://papers.qnfo.org/papers/measurement-stratigraphy"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "measurement-stratigraphy"
+  },
+  "snapshots": [
+    {
+      "sha256": "4128901a21d9e631b60bb1f7ecd60cfc45c7f26a0c2708edeb4c5345d57548ef",
+      "bytes": 40998,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "3.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

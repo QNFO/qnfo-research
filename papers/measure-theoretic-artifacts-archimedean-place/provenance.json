@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "measure-theoretic-artifacts-archimedean-place",
+  "paper": {
+    "path": "papers/measure-theoretic-artifacts-archimedean-place/paper.md",
+    "title": "Measure-Theoretic Artifacts of the Archimedean Place: A Complete Taxonomy and the Adelic Restructuring of Fundamental Science",
+    "url": "https://papers.qnfo.org/papers/measure-theoretic-artifacts-archimedean-place"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "measure-theoretic-artifacts-archimedean-place"
+  },
+  "snapshots": [
+    {
+      "sha256": "95aade260afced21645601f8b9f8b51d3c25d775ac79d6ad9ffec59e9e609842",
+      "bytes": 38492,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "mechanistic-ethics-and-the-biology-of-meaning",
+  "paper": {
+    "path": "papers/mechanistic-ethics-and-the-biology-of-meaning/paper.md",
+    "title": "Mechanistic-Ethics",
+    "url": "https://papers.qnfo.org/papers/mechanistic-ethics-and-the-biology-of-meaning"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "mechanistic-ethics-and-the-biology-of-meaning"
+  },
+  "snapshots": [
+    {
+      "sha256": "a8f850d275af061cae0b9ca3253597b07415642dfc29a93e0c58c2426b30a256",
+      "bytes": 464132,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
