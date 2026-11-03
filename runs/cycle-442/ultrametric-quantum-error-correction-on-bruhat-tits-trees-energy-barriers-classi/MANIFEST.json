@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-c748d10e-f7ae-4bfc-bd43-484e9f935ec4",
+    "slug": "ultrametric-quantum-error-correction-on-bruhat-tits-trees-energy-barriers-classi",
+    "cycle": "cycle-442",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.4",
+    "finished_at": "2026-11-03T16:41:16.224Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "ed1b883ff211443fa2821540b7a3d0ab65090ccf0f55789068b5365f4c0719eb",
+      "bytes": 94791,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "5bdd886125c233fd48366cf87737271e7dbceca823ad18e8a94ad517f8e17cea",
+      "bytes": 52185,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "66a294b8cdc8aaf9cf58695c03078681fb33b6e9b04c5fe5e93caaf31fd1790d",
+      "bytes": 4012,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "00b59a4760b06d1787830d7beac9550761319ed50546cbd060960c9f410b8103",
+      "bytes": 2418,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "2ff468991cd4909b0f1b49cd7d239edf8216b1737aaf72d3060edb871f8e2e29",
+      "bytes": 14269,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "30504fd9d16beab27fa7a0c0351da9ca1839a3ac1f7b986f8e4d2d097515cf94",
+      "bytes": 8320,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "ac3ce642bb75d9807df5ef307018dcf39b8f9e7a11a15976db4a465345a132e0",
+      "bytes": 29456,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "457236aa6cd6e120ea400b2a4bb33493f4a1552618415af85ed087025ef39ab0",
+      "bytes": 19013,
+      "role": "draft"
+    }
+  }
+}
