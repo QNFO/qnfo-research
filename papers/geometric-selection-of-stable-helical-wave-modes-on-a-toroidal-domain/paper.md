@@ -1,10 +1,10 @@
 # Geometric Selection of Stable Helical Wave Modes on a Toroidal Domain
 
 ## Abstract
+
 Tokamak magnetic field lines, toroidal microwave resonators, and toroidal waveguides all suffer from mode instability that forces costly redesigns or limits operational performance. Existing stability criteria rely on material parameters, plasma profiles, or detailed numerical eigenmode simulations, and no purely geometric predictor of which helical modes persist has been established. We derive a quantization condition for scalar and electromagnetic waves confined to a toroidal boundary by enforcing constructive interference separately around the toroidal (major) and poloidal (minor) cycles. The condition reduces to a rational winding requirement, $R/a = m/n$, where $R$ and $a$ are the major and minor radii and $(m,n)$ are positive integers. For an assumed torus with $R = 0.50\;\text{m}$ and $a = 0.10\;\text{m}$ the smallest admissible pair is $(m,n) = (5,1)$, giving wavenumber $k = 10\;\text{rad·m}^{-1}$ and electromagnetic frequency $f \approx 4.77 \times 10^{8}\;\text{Hz}$. With an assumed manufacturing tolerance of $\pm 0.5\%$ on both radii, the projected frequency uncertainty is $\Delta f \approx 2.4 \times 10^{6}\;\text{Hz}$. If validated, the rule lets designers of fusion devices, resonators, and waveguides guarantee mode stability from geometry alone, before any material-specific simulation or prototype is committed.
 
-## 1. Introduction
-Instabilities of helical wave modes in toroidal configurations limit the performance of magnetic confinement fusion devices, degrade the quality factor of toroidal microwave resonators, and cause unwanted attenuation in toroidal waveguides. In a tokamak, uncontrolled drift of field-line resonances leads to rapid energy loss, requiring expensive magnetic-coil redesign and reducing plasma confinement time. In toroidal resonators, mode mixing forces the use of exotic materials or active feedback, raising fabrication cost and complexity. The design decision that would remove these burdens is a geometry-only predictor that tells an engineer, before any simulation or prototype, whether a given toroidal shape supports a stable helical mode.
+## 1. Introduction Instabilities of helical wave modes in toroidal configurations limit the performance of magnetic confinement fusion devices, degrade the quality factor of toroidal microwave resonators, and cause unwanted attenuation in toroidal waveguides. In a tokamak, uncontrolled drift of field-line resonances leads to rapid energy loss, requiring expensive magnetic-coil redesign and reducing plasma confinement time. In toroidal resonators, mode mixing forces the use of exotic materials or active feedback, raising fabrication cost and complexity. The design decision that would remove these burdens is a geometry-only predictor that tells an engineer, before any simulation or prototype, whether a given toroidal shape supports a stable helical mode.
 
 Current practice evaluates stability through magnetohydrodynamic eigenmode analysis, finite-element electromagnetic solvers, or empirical scaling laws that depend on plasma pressure, wall conductivity, and detailed geometry. These approaches require extensive computation and obscure the role of the torus's intrinsic shape. A selector that depends only on the radii $R$ and $a$ and the integer winding numbers $(m,n)$ could be evaluated on paper, collapsing one stage of the design loop.
 
@@ -19,8 +19,7 @@ We therefore ask: does toroidal geometry alone dictate which helical wave modes 
 
 The selection rule is independent of material specifics, so it may also bear on any system in which waves propagate on a doubly periodic closed surface, such as acoustic cavities with toroidal chambers or optical structures with toroidal symmetry, insofar as the same two-cycle phase-closure argument applies.
 
-## 2. Background and Related Work
-The present work draws on several strands of geometric and wave-theoretic literature, each contributing a specific concept that the derivation uses or extends.
+## 2. Background and Related Work The present work draws on several strands of geometric and wave-theoretic literature, each contributing a specific concept that the derivation uses or extends.
 
 Coarse selectors provide a formalism for choosing elements from finite subsets in a way that respects macro-uniformity. In [1] a finitary selector is defined as a macro-uniform mapping $f:\mathcal{F}_{G}\rightarrow\mathcal{F}_{G}$ satisfying $f(A)\in A$ for each finite set $A$. This notion of a structure-respecting choice motivates our use of the term *geometric selector* for stable wave modes: the torus admits only those windings that satisfy the closure condition.
 
@@ -40,8 +39,7 @@ Helical geometry as a unifying physical structure is argued in [8], the α-π-He
 
 These eight works collectively illustrate that geometry, topology, and coarse-grained selection mechanisms can dictate physical outcomes independently of material details. Our contribution synthesizes them into a concrete, falsifiable selection rule for toroidal wave modes.
 
-## 3. Methods
-We consider a perfectly conducting torus of major radius $R$ (distance from the center of the tube to the symmetry axis) and minor radius $a$ (radius of the tube). In toroidal coordinates $(\phi,\theta)$ the surface is parametrised by
+## 3. Methods We consider a perfectly conducting torus of major radius $R$ (distance from the center of the tube to the symmetry axis) and minor radius $a$ (radius of the tube). In toroidal coordinates $(\phi,\theta)$ the surface is parametrised by
 
 $$
 \mathbf{r}(\phi,\theta)=\big(R+a\cos\theta\big)\,\hat{\mathbf{x}}+a\sin\theta\,\hat{\mathbf{z}},
@@ -93,8 +91,7 @@ $$
 - A3: The wave amplitude is infinitesimal (linear approximation); nonlinear amplitude-dependent dispersion is ignored.
 - A4: The winding numbers $(m,n)$ are exact integers; near-rational ratios are not assigned lifetimes in this model.
 
-## 4. Analysis
-We evaluate the selection rule for a concrete torus geometry representative of a small-scale toroidal resonator. All input numbers are assumptions of this paper, stated here: $R = 0.50\;\text{m}$, $a = 0.10\;\text{m}$, $c = 3.00\times10^{8}\;\text{m·s}^{-1}$.
+## 4. Analysis We evaluate the selection rule for a concrete torus geometry representative of a small-scale toroidal resonator. All input numbers are assumptions of this paper, stated here: $R = 0.50\;\text{m}$, $a = 0.10\;\text{m}$, $c = 3.00\times10^{8}\;\text{m·s}^{-1}$.
 
 1. Compute the radius ratio:
 $$
@@ -148,8 +145,7 @@ The expected frequency band for the stable mode is $4.77\times10^{8}\pm2.4\times
 
 All arithmetic steps are shown explicitly; no hidden approximations are used.
 
-## 5. Results
-The analysis yields the following concrete numerical outputs, all computed in Section 4:
+## 5. Results The analysis yields the following concrete numerical outputs, all computed in Section 4:
 
 | Quantity | Symbol | Value | Units |
 |----------|--------|-------|-------|
@@ -175,8 +171,7 @@ The derivation rests on the following idealizations, each with its sensitivity:
 5. **Neglect of curvature-induced mode coupling** — higher-order geometric perturbations that couple toroidal and poloidal harmonics are omitted; such coupling can shift effective phase accumulation beyond the two-cycle model.
 6. **Convention dependence** — the numerical outputs follow from the two-cycle convention adopted in Section 3. Under the alternative combined-phase convention the admissible wavelength set differs (the $\lambda_{11}\approx 9.42478\;\text{m}$ example in Section 3); the qualitative claim that rationality selects stable modes is common to both conventions, but the specific frequencies are not.
 
-### Falsification Criterion
-A direct falsification of the main claim would occur if an experiment built a torus with $R/a = 5$ within measurement uncertainty and observed that the $(5,1)$ helical mode decayed rapidly despite the rational winding condition. Conversely, observation of a pronounced, persistent resonance at the predicted frequency $4.77\times10^{8}\;\text{Hz}$ (within the projected $\pm2.4\times10^{6}\;\text{Hz}$ band) at exactly this ratio, and its absence at nearby irrational ratios, would support the selector. A single well-characterised counterexample — a stable, long-lived mode at a clearly irrational winding ratio under conditions satisfying A1–A3 — would invalidate the geometric selector hypothesis.
+### Falsification Criterion A direct falsification of the main claim would occur if an experiment built a torus with $R/a = 5$ within measurement uncertainty and observed that the $(5,1)$ helical mode decayed rapidly despite the rational winding condition. Conversely, observation of a pronounced, persistent resonance at the predicted frequency $4.77\times10^{8}\;\text{Hz}$ (within the projected $\pm2.4\times10^{6}\;\text{Hz}$ band) at exactly this ratio, and its absence at nearby irrational ratios, would support the selector. A single well-characterised counterexample — a stable, long-lived mode at a clearly irrational winding ratio under conditions satisfying A1–A3 — would invalidate the geometric selector hypothesis.
 
 ### Open Questions
 - How robust is the selection rule to small geometric perturbations, and what decay rate follows from a given departure from exact rationality?
@@ -192,11 +187,9 @@ Addressing these questions requires numerical eigenmode simulations and experime
 - **Toroidal resonator engineers** can set the major-to-minor radius ratio to a low-order rational number (for example 2, 3, or 5) to target a high-$Q$ helical mode at a desired frequency, replacing iterative electromagnetic simulation with a geometric calculation at the concept stage.
 - **Waveguide manufacturers** can exploit the rule to design compact toroidal waveguides that support single-mode operation without lossy dielectric liners.
 
-### (b) Technology Readiness Level
-The work is a purely analytical study that has not undergone peer review. According to the NASA TRL definitions it resides at **TRL 2** (technology concept formulation): the basic principles are stated and the concept has been formulated analytically, but no experimental proof of concept exists. Analytical work of this kind cannot exceed TRL 3, and no hardware, manufacturing, or deployment readiness is claimed.
+### (b) Technology Readiness Level The work is a purely analytical study that has not undergone peer review. According to the NASA TRL definitions it resides at **TRL 2** (technology concept formulation): the basic principles are stated and the concept has been formulated analytically, but no experimental proof of concept exists. Analytical work of this kind cannot exceed TRL 3, and no hardware, manufacturing, or deployment readiness is claimed.
 
-### (c) Minimal De-risking Experiment
-The smallest experiment is a precision-machined toroidal cavity with adjustable minor radius. The study would:
+### (c) Minimal De-risking Experiment The smallest experiment is a precision-machined toroidal cavity with adjustable minor radius. The study would:
 
 1. Fabricate a torus with $R = 0.50\;\text{m}$ and a removable inner sleeve to vary $a$ around $0.10\;\text{m}$.
 2. Excite the cavity with a broadband antenna and measure the quality factor $Q$ of the candidate $(5,1)$ mode with a network analyzer as $a$ is varied.
@@ -212,14 +205,11 @@ A pronounced $Q$ maximum at the rational ratio would support the selection rule;
 
 Whether these constraints bind in practice, and which binds first for a given device class, is an open question for future engineering studies; the present analysis does not rank them.
 
-### (e) Order-of-Magnitude Projection
-The only quantitative projection carried from Section 4 is the frequency tolerance band: with an assumed $\pm0.5\%$ tolerance on both radii, $\Delta f \approx 2.4\times10^{6}\;\text{Hz}$ around $f \approx 4.77\times10^{8}\;\text{Hz}$. This projection assumes the tolerance is the dominant error source, that A1–A4 hold, and that no additional dispersion or loading shifts the frequency. No cost, market, or performance figures beyond this band are derived, and none are claimed.
+### (e) Order-of-Magnitude Projection The only quantitative projection carried from Section 4 is the frequency tolerance band: with an assumed $\pm0.5\%$ tolerance on both radii, $\Delta f \approx 2.4\times10^{6}\;\text{Hz}$ around $f \approx 4.77\times10^{8}\;\text{Hz}$. This projection assumes the tolerance is the dominant error source, that A1–A4 hold, and that no additional dispersion or loading shifts the frequency. No cost, market, or performance figures beyond this band are derived, and none are claimed.
 
-### (f) Risks and Misuse
-If the rationality condition is applied without accounting for material dispersion or plasma effects, designers may over-estimate mode stability, leading to premature commitment of designs that suffer unexpected losses. Validation against the minimal experiment above is therefore essential before any large-scale adoption; the selector is a screening rule at the concept stage, not a substitute for full-wave or MHD verification.
+### (f) Risks and Misuse If the rationality condition is applied without accounting for material dispersion or plasma effects, designers may over-estimate mode stability, leading to premature commitment of designs that suffer unexpected losses. Validation against the minimal experiment above is therefore essential before any large-scale adoption; the selector is a screening rule at the concept stage, not a substitute for full-wave or MHD verification.
 
-## 8. Conclusion
-We have shown that the stability of helical wave modes on a toroidal domain can be predicted from geometry alone under the model's assumptions. Enforcing constructive interference on each fundamental cycle yields the rational winding condition $R/a = m/n$, and a concrete example demonstrates that a torus with $R = 0.50\;\text{m}$ and $a = 0.10\;\text{m}$ satisfies it for $(m,n) = (5,1)$, giving $k = 10\;\text{rad·m}^{-1}$ and $f \approx 4.77\times10^{8}\;\text{Hz}$, with a projected tolerance band of $\pm2.4\times10^{6}\;\text{Hz}$ under an assumed $\pm0.5\%$ radius tolerance. This geometric selector offers a low-cost, analytically tractable screening tool for fusion devices, resonators, and waveguides, at TRL 2. Its limitations — perfect geometry, vacuum dispersion, linearity, exact rationality, and convention dependence — are stated explicitly, and a tabletop cavity experiment with a defined falsification criterion provides a clear path from theory to practice.
+## 8. Conclusion We have shown that the stability of helical wave modes on a toroidal domain can be predicted from geometry alone under the model's assumptions. Enforcing constructive interference on each fundamental cycle yields the rational winding condition $R/a = m/n$, and a concrete example demonstrates that a torus with $R = 0.50\;\text{m}$ and $a = 0.10\;\text{m}$ satisfies it for $(m,n) = (5,1)$, giving $k = 10\;\text{rad·m}^{-1}$ and $f \approx 4.77\times10^{8}\;\text{Hz}$, with a projected tolerance band of $\pm2.4\times10^{6}\;\text{Hz}$ under an assumed $\pm0.5\%$ radius tolerance. This geometric selector offers a low-cost, analytically tractable screening tool for fusion devices, resonators, and waveguides, at TRL 2. Its limitations — perfect geometry, vacuum dispersion, linearity, exact rationality, and convention dependence — are stated explicitly, and a tabletop cavity experiment with a defined falsification criterion provides a clear path from theory to practice.
 
 ## Provenance and AI Involvement
 

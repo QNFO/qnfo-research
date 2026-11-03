@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "glossary",
+  "paper": {
+    "path": "papers/glossary/paper.md",
+    "title": "Glossary",
+    "url": "https://papers.qnfo.org/papers/glossary"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "glossary"
+  },
+  "snapshots": [
+    {
+      "sha256": "887587c2efe0e7e233b08c679b2b3ed700257f802322766c984aeafd5ec404ad",
+      "bytes": 149304,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
