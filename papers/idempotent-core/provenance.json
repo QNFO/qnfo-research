@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "idempotent-core",
+  "paper": {
+    "path": "papers/idempotent-core/paper.md",
+    "title": "The Idempotent Core: Quantity as Broken Distinction and the Hidden Assumptions of Arithmetic and Algebra",
+    "url": "https://papers.qnfo.org/papers/idempotent-core"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "idempotent-core"
+  },
+  "snapshots": [
+    {
+      "sha256": "d08912638135a70484f3c50e8b5675d27fb809b0d94ebfc63008f12d718afcae",
+      "bytes": 18516,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v1.3",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "identity-of-zero",
+  "paper": {
+    "path": "papers/identity-of-zero/paper.md",
+    "title": "Identity of Zero",
+    "url": "https://papers.qnfo.org/papers/identity-of-zero"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "identity-of-zero"
+  },
+  "snapshots": [
+    {
+      "sha256": "9d88e51d5d0db83e73e62b906e683257800872c07e5b6aa643cb735a191a04b3",
+      "bytes": 27832,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

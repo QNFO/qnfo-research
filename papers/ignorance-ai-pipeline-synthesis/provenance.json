@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ignorance-ai-pipeline-synthesis",
+  "paper": {
+    "path": "papers/ignorance-ai-pipeline-synthesis/paper.md",
+    "title": "Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-Assisted Research Pipeline",
+    "url": "https://papers.qnfo.org/papers/ignorance-ai-pipeline-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "ignorance-ai-pipeline-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "a448f35bb55b5a94ab805f25097259926a0d370aec6fc5e3c5b18ce0c701a207",
+      "bytes": 21721,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.2.2",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
