@@ -1,3 +1,7 @@
+---
+keywords: "Ostrowski theorem, Planck units, dimensional analysis, Buckingham Pi theorem, dimensionless reformulation, place democracy, p-adic completions, 5-smooth semigroup, adele ring, Bruhat–Tits tree, cross-ratio, ratio primacy, running coupling, Tate thesis, Hensel codes, Hecke algebra, ultrametric noise, renormalization group, Standard Model"
+---
+
 # The Ostrowski Dimensionless Reformulation: A Systematic Compilation of Fundamental Physics Equations in Planck Units
 
 ## Abstract
@@ -7,10 +11,6 @@ We present the definitive edition of the Ostrowski Dimensionless Reformulation (
 This v4.0 edition integrates the full 53-formula compilation with a refined conceptual framework developed through structured adversarial review (v2.3–v3.0 red-team audit). Six core refinements replace prior overclaims with precise, defensible positions. All formulas are systematically reduced to their dimensionless equivalents in Planck units and organized by discipline. In response to the red-team audit, overclaims regarding p-adic ontology, Euclidean π portability, and the adelic path integral are corrected.
 
 New in v4.0: Detailed step-by-step derivations of the most important reformulations (Appendix A), expanded cross-domain bridges (B1–B8), a five-program research roadmap, and an updated calibration register. The paper serves as both a reference compendium and a methodological manifesto: it demonstrates that modern physics can be expressed entirely in terms of pure-number ratios, and that this reframing opens concrete computational and theoretical pathways — including exact rational arithmetic via Hensel codes, Bruhat–Tits tree mass spectra, and ultrametric noise signatures in quantum experiments.
-
-**Keywords:** Ostrowski theorem, Planck units, dimensional analysis, Buckingham Pi theorem, dimensionless reformulation, place democracy, p-adic completions, 5-smooth semigroup, adele ring, Bruhat–Tits tree, cross-ratio, ratio primacy, running coupling, Tate thesis, Hensel codes, Hecke algebra, ultrametric noise, renormalization group, Standard Model
-
-***
 
 ## 1 Introduction
 
