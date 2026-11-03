@@ -17,6 +17,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "d213d0dc7b69ee67f52e4f4dae21b6adc85fb3e64b2f82ae43b5ea0eb828df85"
+    },
+    {
+      "path": "runs/cycle-438/the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "e8d191b5843b1eafb530398b68eaa40ee6f4eaf6b06b0efd349a2e53d4521a16"
     }
   ],
   "identifiers": {

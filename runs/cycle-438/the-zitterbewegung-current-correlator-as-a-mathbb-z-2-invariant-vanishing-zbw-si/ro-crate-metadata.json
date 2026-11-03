@@ -1,0 +1,388 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-438: The Zitterbewegung Current Correlator as a $\\mathbb{Z}_2$ Invariant: Vanishing ZBW Signal as a Hardware-Level Diagnostic of the Majorana Condition",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-438",
+      "qnfo:runPath": "runs/cycle-438/the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si",
+      "qnfo:slug": "the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-03T12:41:38.927Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "The Zitterbewegung Current Correlator as a $\\mathbb{Z}_2$ Invariant: Vanishing ZBW Signal as a Hardware-Level Diagnostic of the Majorana Condition",
+      "url": "https://papers.qnfo.org/papers/the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1109.4790",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1109.4790"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1403.4976",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1403.4976"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1609.06419",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1609.06419"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1905.01264",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1905.01264"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2102.03050",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2102.03050"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2201.08127",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2201.08127"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2421",
+      "sha256": "e8d191b5843b1eafb530398b68eaa40ee6f4eaf6b06b0efd349a2e53d4521a16",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51382",
+      "sha256": "33da09f5b6cb98a4aede2ad21e6ed487c284a5978c2487a4f46f6275fd0c03a2",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48927",
+      "sha256": "5c9ff16e5af25aed2a7106c2db8602ceb2a077e3f69a19a6771c37d854b29151",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2481",
+      "sha256": "d7f07cebb96c63a7c30ab67d6f380a85ab608666ae807346b2b2e03e9e9bb1ac",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "6911",
+      "sha256": "ba231876677db881cbf8c22ffa2be2b63e7e60fb10fc78ace82338f306be070f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8402",
+      "sha256": "2d36a1f265b2369e17d9112ec8c81131ba6061f7bf188e939cb72b8015d925d2",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "3011",
+      "sha256": "0a518c62be0aba61fb849a3711ad9a79ba111eb7940362b0abf7e9566255d2cc",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17198",
+      "sha256": "23a04e793189b251249dff452aec1be11f2895f0a5f4e982cbad40e0310d7e83",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20372",
+      "sha256": "3ae79f5c432da74f76d2c8d673a9de2a0aab3188a1dbab1be4adc836c9ca27da",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1109.4790"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1403.4976"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1609.06419"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1905.01264"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2102.03050"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2201.08127"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 0,
+      "endTime": "2026-11-03T12:41:38.927Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
