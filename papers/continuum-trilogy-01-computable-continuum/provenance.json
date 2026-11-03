@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "continuum-trilogy-01-computable-continuum",
+  "paper": {
+    "path": "papers/continuum-trilogy-01-computable-continuum/paper.md",
+    "title": "The Computable Continuum: Depth Without Breadth",
+    "url": "https://papers.qnfo.org/papers/continuum-trilogy-01-computable-continuum"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "continuum-trilogy-01-computable-continuum"
+  },
+  "snapshots": [
+    {
+      "sha256": "b6d6b554f0d9b7cb2b67d6bba0fc73abc5730c5009466f99a040051a0aa9ef50",
+      "bytes": 21409,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

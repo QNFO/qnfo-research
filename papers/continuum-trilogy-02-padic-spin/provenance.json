@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "continuum-trilogy-02-padic-spin",
+  "paper": {
+    "path": "papers/continuum-trilogy-02-padic-spin/paper.md",
+    "title": "P-adic Spin, Information, and Ultrametric Internal Quantum Numbers",
+    "url": "https://papers.qnfo.org/papers/continuum-trilogy-02-padic-spin"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "continuum-trilogy-02-padic-spin"
+  },
+  "snapshots": [
+    {
+      "sha256": "2016ec9251ab97791951e8319192c706c395e750c9081c224af9bc72638e2efb",
+      "bytes": 22868,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

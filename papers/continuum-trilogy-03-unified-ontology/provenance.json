@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "continuum-trilogy-03-unified-ontology",
+  "paper": {
+    "path": "papers/continuum-trilogy-03-unified-ontology/paper.md",
+    "title": "Depth, Breadth, and Valuation: A Unified Ontology of the Physical Continuum",
+    "url": "https://papers.qnfo.org/papers/continuum-trilogy-03-unified-ontology"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "continuum-trilogy-03-unified-ontology"
+  },
+  "snapshots": [
+    {
+      "sha256": "47e1675be4c200507c2d53cb53cc51249658462bc69deed2ff7f173d3076ebd9",
+      "bytes": 21824,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.1.1",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

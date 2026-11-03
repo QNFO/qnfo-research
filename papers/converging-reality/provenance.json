@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "converging-reality",
+  "paper": {
+    "path": "papers/converging-reality/paper.md",
+    "title": "Monistic Reality",
+    "url": "https://papers.qnfo.org/papers/converging-reality"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "converging-reality"
+  },
+  "snapshots": [
+    {
+      "sha256": "ad963d85501e0add58877e4fe741cec84c62398be773c2db56b58ccbd08ce607",
+      "bytes": 89752,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
