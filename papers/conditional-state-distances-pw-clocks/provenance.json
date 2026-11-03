@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "conditional-state-distances-pw-clocks",
+  "paper": {
+    "path": "papers/conditional-state-distances-pw-clocks/paper.md",
+    "title": "Conditional State Distances in Page-Wootters Quantum Clocks: When Does Ultrametricity Emerge?",
+    "url": "https://papers.qnfo.org/papers/conditional-state-distances-pw-clocks"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "conditional-state-distances-pw-clocks"
+  },
+  "snapshots": [
+    {
+      "sha256": "4bf29a4f726f0efcae81f54267018230a5cca272a3e36999d488acb404f07f41",
+      "bytes": 29998,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "consilience-physics-number-theory",
+  "paper": {
+    "path": "papers/consilience-physics-number-theory/paper.md",
+    "title": "Consilience Between Physics and Number Theory: Convergent Theses from Ostrowski's Theorem to Adelic Quantum Mechanics",
+    "url": "https://papers.qnfo.org/papers/consilience-physics-number-theory"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "consilience-physics-number-theory"
+  },
+  "snapshots": [
+    {
+      "sha256": "3d2122276d75cd76e747a7acc43859bdde3e4247dd4d6b77217bcbeb9b54d8f9",
+      "bytes": 27875,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

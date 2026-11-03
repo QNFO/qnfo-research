@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "connecting-geometrogenesis-and-biogenesis",
+  "paper": {
+    "path": "papers/connecting-geometrogenesis-and-biogenesis/paper.md",
+    "title": "Connecting Geometrogenesis and Biogenesis",
+    "url": "https://papers.qnfo.org/papers/connecting-geometrogenesis-and-biogenesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "connecting-geometrogenesis-and-biogenesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "c9e93c79ab34676a059bbd9d03bd490ef2a7f41ebfffdab7bc11bfc9b8207092",
+      "bytes": 212370,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

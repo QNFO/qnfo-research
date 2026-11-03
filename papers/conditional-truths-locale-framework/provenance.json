@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "conditional-truths-locale-framework",
+  "paper": {
+    "path": "papers/conditional-truths-locale-framework/paper.md",
+    "title": "Conditional Truths and the Locale Framework: Map, Territory, and the Rendering Interface",
+    "url": "https://papers.qnfo.org/papers/conditional-truths-locale-framework"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "conditional-truths-locale-framework"
+  },
+  "snapshots": [
+    {
+      "sha256": "9b71669a9558fc1e6283eb383c5432bf4677908fceac225c9b7fb2f423b3da07",
+      "bytes": 31835,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "v0.4",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

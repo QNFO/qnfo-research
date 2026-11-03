@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "consilience-framework",
+  "paper": {
+    "path": "papers/consilience-framework/paper.md",
+    "title": "The Consilience Framework: From Valuation Theory to the Void — A Cross-Domain Synthesis",
+    "url": "https://papers.qnfo.org/papers/consilience-framework"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "consilience-framework"
+  },
+  "snapshots": [
+    {
+      "sha256": "5507751db0b41e31ca0d5ea005ccd3bc662b727972fb512344307fe3ce32e92e",
+      "bytes": 33136,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "0.4.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
