@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "87c80d14-ef99-4d98-8eb1-71b3f4cdccda",
+    "slug": "the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si",
+    "cycle": "cycle-437",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.4",
+    "finished_at": "2026-11-03T12:36:36.678Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "202607aa89013fe420fbb60a8a31adb056490dd7610ee0504c4583c8489cabf1",
+    "bytes": 49007,
+    "path": "papers/the-zitterbewegung-current-correlator-as-a-mathbb-z-2-invariant-vanishing-zbw-si/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "33da09f5b6cb98a4aede2ad21e6ed487c284a5978c2487a4f46f6275fd0c03a2",
+      "bytes": 51382,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "202607aa89013fe420fbb60a8a31adb056490dd7610ee0504c4583c8489cabf1",
+      "bytes": 49007,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "d7f07cebb96c63a7c30ab67d6f380a85ab608666ae807346b2b2e03e9e9bb1ac",
+      "bytes": 2481,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "ba231876677db881cbf8c22ffa2be2b63e7e60fb10fc78ace82338f306be070f",
+      "bytes": 6911,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "a875ade2b7b32a41a84c95e19e97d8896890e9a1a88abff7d5cfd009b76a0473",
+      "bytes": 16781,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "085ea552d2a2d57032f7184213874f083c92bffd682221e7c2e2c8055edf2081",
+      "bytes": 10287,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "23a04e793189b251249dff452aec1be11f2895f0a5f4e982cbad40e0310d7e83",
+      "bytes": 17198,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "3ae79f5c432da74f76d2c8d673a9de2a0aab3188a1dbab1be4adc836c9ca27da",
+      "bytes": 20372,
+      "role": "draft"
+    }
+  }
+}
