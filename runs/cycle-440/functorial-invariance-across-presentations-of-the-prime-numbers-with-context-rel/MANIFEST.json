@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-d6553529-1e4e-4ff1-afc6-fc2716e17f9e",
+    "slug": "functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel",
+    "cycle": "cycle-440",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.4",
+    "finished_at": "2026-11-03T13:21:19.914Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "430e54fec5bd3f42a993c5592d8a5b6a338f574ecb7866e9db99bc525ad9d3b8",
+      "bytes": 94548,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "e686ebc00a46216e16e4d7b6f7b975722f0c8dab0b6712ca8c3c5b210135f122",
+      "bytes": 60223,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "c91eba6ba1f33776dccc3a1977fcb5736607fb0d397ffec670b7593fc1fe0a9d",
+      "bytes": 3808,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "814ff595c8d58fa99163d85d1cfcbbce126c2bbc475408f50f2cb6bb8ca13e1c",
+      "bytes": 5432,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "6f350e0917ce8dea18d5dd7951ce990f7d7a866a2456a77b09e02df489fa1e95",
+      "bytes": 47799,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "1acc81e79bdb28162f4e9df61c4fe2f71e9e45dce20b98b7b8be2a7a745f96ad",
+      "bytes": 45229,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "7c747279c8530b33a759ef0ece973832e804a5381b4e6c718540acc53f60a179",
+      "bytes": 25361,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "842f95b7220daafa3f1a73f11815213cb7dc551084ced28e5b294bf34900ab57",
+      "bytes": 4962,
+      "role": "draft"
+    }
+  }
+}
