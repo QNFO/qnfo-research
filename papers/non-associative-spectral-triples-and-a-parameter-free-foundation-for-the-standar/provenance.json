@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar",
+  "paper": {
+    "path": "papers/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar/paper.md",
+    "title": "Non‑Associative Spectral Triples and a Parameter‑Free Foundation for the Standard Model",
+    "url": "https://papers.qnfo.org/papers/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-434/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9194f62ca507c22b1b20c3612a653b6770d9678ddde7dc5a735478635bfea943"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "c5007c0c-5d72-4235-9887-b92335056951"
+    ],
+    "living_paper_slug": "non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar"
+  },
+  "snapshots": [
+    {
+      "sha256": "c922479dd3a4cd03b66253a117917a3925f98c2b886bc782113b937937c92043",
+      "bytes": 34019,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

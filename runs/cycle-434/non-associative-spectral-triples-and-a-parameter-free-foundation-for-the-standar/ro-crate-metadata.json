@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-434: Non‑Associative Spectral Triples and a Parameter‑Free Foundation for the Standard Model",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-434",
+      "qnfo:runPath": "runs/cycle-434/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar",
+      "qnfo:slug": "non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-03T06:41:08.664Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Non‑Associative Spectral Triples and a Parameter‑Free Foundation for the Standard Model",
+      "url": "https://papers.qnfo.org/papers/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0707.4385",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0707.4385"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1009.0997",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1009.0997"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1208.6015",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1208.6015"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2103.14334",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2103.14334"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2309.06637",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2309.06637"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.07848",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.07848"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2607.05476",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2607.05476"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.10567",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.10567"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2421",
+      "sha256": "9194f62ca507c22b1b20c3612a653b6770d9678ddde7dc5a735478635bfea943",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "52272",
+      "sha256": "8e7f1dc9a5751a586c47629782f37ce37ce16e14af8ad3b5a5390181ef0e455a",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "34020",
+      "sha256": "491c9f852469bcd62456b3a2ba3be8a6aab97a47b787d2e7f769e884a25b6bee",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "10473",
+      "sha256": "28ee2a242c8ff331b06e0c54e2ecc9fea604c8ae94e55b21a2ae60bfe8a33f08",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48",
+      "sha256": "bb78a171f8316af3a320265128b4ed5870bb054a2c0082fb3afa1f9658708749",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15061",
+      "sha256": "8fc507f978a18f6d5af586671f4efd95defb3cbe2ce6ce2b8e0c28d6cb4eadd2",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "8939",
+      "sha256": "981c1bb76d12135141ba31bbe30c991cd5be046ac73890f6f8c8019da24ce983",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "18172",
+      "sha256": "3f8a727c5a5fd388e7215fdf6a1627deabfb6e1ba10dbf86cd14af441c7626bf",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14196",
+      "sha256": "60245621291ec43e191ac7615bc1071079421517fa5867fd91051a72bdea3afd",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0707.4385"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1009.0997"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1208.6015"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2103.14334"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2309.06637"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.07848"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2607.05476"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.10567"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-03T06:41:08.664Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

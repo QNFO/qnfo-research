@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "c5007c0c-5d72-4235-9887-b92335056951",
+    "slug": "non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar",
+    "cycle": "cycle-434",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.3",
+    "finished_at": "2026-11-03T06:41:08.664Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "c922479dd3a4cd03b66253a117917a3925f98c2b886bc782113b937937c92043",
+    "bytes": 34019,
+    "path": "papers/non-associative-spectral-triples-and-a-parameter-free-foundation-for-the-standar/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "8e7f1dc9a5751a586c47629782f37ce37ce16e14af8ad3b5a5390181ef0e455a",
+      "bytes": 52272,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "491c9f852469bcd62456b3a2ba3be8a6aab97a47b787d2e7f769e884a25b6bee",
+      "bytes": 34020,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "28ee2a242c8ff331b06e0c54e2ecc9fea604c8ae94e55b21a2ae60bfe8a33f08",
+      "bytes": 10473,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "bb78a171f8316af3a320265128b4ed5870bb054a2c0082fb3afa1f9658708749",
+      "bytes": 48,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "8fc507f978a18f6d5af586671f4efd95defb3cbe2ce6ce2b8e0c28d6cb4eadd2",
+      "bytes": 15061,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "981c1bb76d12135141ba31bbe30c991cd5be046ac73890f6f8c8019da24ce983",
+      "bytes": 8939,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "3f8a727c5a5fd388e7215fdf6a1627deabfb6e1ba10dbf86cd14af441c7626bf",
+      "bytes": 18172,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "60245621291ec43e191ac7615bc1071079421517fa5867fd91051a72bdea3afd",
+      "bytes": 14196,
+      "role": "draft"
+    }
+  }
+}
