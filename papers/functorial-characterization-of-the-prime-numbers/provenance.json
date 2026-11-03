@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "functorial-characterization-of-the-prime-numbers",
+  "paper": {
+    "path": "papers/functorial-characterization-of-the-prime-numbers/paper.md",
+    "title": "Functorial Characterization of the Prime Numbers",
+    "url": "https://papers.qnfo.org/papers/functorial-characterization-of-the-prime-numbers"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "functorial-characterization-of-the-prime-numbers"
+  },
+  "snapshots": [
+    {
+      "sha256": "05e1e4ef744f6b6ee2437099cfdafb3cee4aacb1035613c1c2a5d566ecf4e395",
+      "bytes": 19694,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

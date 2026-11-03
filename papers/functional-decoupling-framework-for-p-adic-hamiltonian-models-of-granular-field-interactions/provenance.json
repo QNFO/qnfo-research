@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "functional-decoupling-framework-for-p-adic-hamiltonian-models-of-granular-field-interactions",
+  "paper": {
+    "path": "papers/functional-decoupling-framework-for-p-adic-hamiltonian-models-of-granular-field-interactions/paper.md",
+    "title": "Functional Decoupling Framework for p-adic Hamiltonian Models of Granular Field Interactions",
+    "url": "https://papers.qnfo.org/papers/functional-decoupling-framework-for-p-adic-hamiltonian-models-of-granular-field-interactions"
+  },
+  "declared": {
+    "version": "1.0",
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "functional-decoupling-framework-for-p-adic-hamiltonian-models-of-granular-field-interactions"
+  },
+  "snapshots": [
+    {
+      "sha256": "7478024980796e8fdf5b3d66a68518860f0660f065ac843f6b5207ec465c1d54",
+      "bytes": 54368,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
