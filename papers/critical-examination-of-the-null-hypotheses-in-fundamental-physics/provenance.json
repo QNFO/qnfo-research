@@ -3,7 +3,7 @@
   "slug": "critical-examination-of-the-null-hypotheses-in-fundamental-physics",
   "paper": {
     "path": "papers/critical-examination-of-the-null-hypotheses-in-fundamental-physics/paper.md",
-    "title": "Critical Examination of the Null Hypotheses in Fundamental Physics",
+    "title": "Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks",
     "url": "https://papers.qnfo.org/papers/critical-examination-of-the-null-hypotheses-in-fundamental-physics"
   },
   "declared": {
@@ -22,6 +22,14 @@
       "bytes": 40724,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.2.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "0e29fcfb2f89d79b8b20e3bf3efadb43c5691f83b3352beb273962631a3ec699",
+      "bytes": 40751,
+      "recorded_at": "2026-11-03",
+      "basis": "revision",
       "version": "1.2.0",
       "git_commit": null
     }

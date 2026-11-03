@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "counterfactual-physics",
+  "paper": {
+    "path": "papers/counterfactual-physics/paper.md",
+    "title": "Counterfactual Physics: What If p-Adic Methods Had Won?",
+    "url": "https://papers.qnfo.org/papers/counterfactual-physics"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "counterfactual-physics"
+  },
+  "snapshots": [
+    {
+      "sha256": "e084e775694b191a5e2cdd9a34a450a26b512cb6cfa90a0ddc8cd7550e5f3285",
+      "bytes": 20175,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

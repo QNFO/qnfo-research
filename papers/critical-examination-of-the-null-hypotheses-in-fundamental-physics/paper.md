@@ -15,7 +15,7 @@ version: "1.1"
 date: "August 3, 2025"
 ---
 
-# Critical Examination of the Null Hypotheses in Fundamental Physics
+# Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks
 
 **Research Plan**
 ## A Critical Examination of Spacetime, Mass, and Gravity through a Meta-Analysis of Competing Ontological Frameworks
