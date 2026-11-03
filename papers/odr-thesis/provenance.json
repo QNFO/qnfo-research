@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "odr-thesis",
+  "paper": {
+    "path": "papers/odr-thesis/paper.md",
+    "title": "ODR Thesis: The Compton Count as the Only Primitive",
+    "url": "https://papers.qnfo.org/papers/odr-thesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "odr-thesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "cd6b75b1c1f6c327f99ad9065565a64b2a04bcc9d719d5b3c55d393875d50083",
+      "bytes": 23134,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

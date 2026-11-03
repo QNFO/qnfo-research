@@ -1,0 +1,30 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "odr-thesis-five-question-synthesis",
+  "paper": {
+    "path": "papers/odr-thesis-five-question-synthesis/paper.md",
+    "title": "ODR Thesis: The Compton Count as the Only Primitive — A Five-Question Synthesis",
+    "url": "https://papers.qnfo.org/papers/odr-thesis-five-question-synthesis"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [],
+  "identifiers": {
+    "research_queue_ids": [],
+    "living_paper_slug": "odr-thesis-five-question-synthesis"
+  },
+  "snapshots": [
+    {
+      "sha256": "d4534ef18e3249f71ccb5a2d6c0f2bf313482b2450d13982c2fec85e8a301d45",
+      "bytes": 23164,
+      "recorded_at": "2026-11-03",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
