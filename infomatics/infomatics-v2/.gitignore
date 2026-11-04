@@ -1,0 +1,35 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+*.egg-info/
+
+# Build
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+
+# Ephemeral scripts
+_*.py
+_*.json
+_*.sql
+_*.log
+
+# Temp
+tmp/
+temp/
