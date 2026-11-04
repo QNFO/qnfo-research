@@ -231,29 +231,3 @@ We formulated a conjectural ultrametric readout of Zitterbewegung in which the o
 [10] https://papers.qnfo.org/papers/zbw-adelic-observable/. QNFO: Zitterbewegung: From Archimedean Puzzle to Adelic Observable.
 [11] https://papers.qnfo.org/papers/zbw-majorana-tqc-p2-majorana-zbw-correlator/. QNFO: Majorana Zitterbewegung Current Correlator: Vanishing ZBW Signal as a Z2 Topological Invariant.
 [12] https://papers.qnfo.org/papers/zbw-majorana-tqc-p1-zbw-padic-observable/. QNFO: Zitterbewegung as a p-Adic Observable: Ultrametric Readout and Intrinsic Topological Protection.
-
-## Appendix A. Divergence report
-
-The independent drafts diverged on one substantive convention, documented here and resolved in the main text as follows.
-
-- **D1 (assignment of the invariant).** Draft A assigns the $\mathbb{Z}_2$ invariant to a fixed physical scale — the parity $\nu(\omega_C) \bmod 2$ of the tree level of the Compton frequency — yielding a window-independent $\chi = 1$. Draft B assigns it to a measurement-window-dependent crossing count, $\nu_{\mathrm{cc}}(\Delta t) = N(\Delta t) \bmod 2$ with $N(\Delta t) = \lfloor \omega_C \Delta t / \pi \rfloor$, yielding a window-dependent bit. The disagreement is a choice of object (scale vs. count), not of arithmetic; both drafts agree on the underlying parity structure and on all computed numbers. **Resolution:** the main text (Sections 3.3 and 3.5) presents both conventions, adopts the tree-level convention as primary (Section 3.3, Result 1) and the crossing-count protocol as complementary (Section 3.5, Result 4), and notes that they coincide in structural content — a discrete, parity-classified readout — while assigning the invariant to different objects.
-
-No other divergences between drafts were identified: the numerical values $\omega_C$, $\log_2 \omega_C$, $\nu(\omega_C)$, $\nu(\lambda_C)$, $\chi$, $d_{\mathcal{T}}$, $\Delta$, $T_{\mathrm{ZBW}}$, and the crossing counts were convergent across drafts.
-
-## Appendix B. Claim attribution
-
-| Claim | Substance | Drafts | Status |
-|---|---|---|---|
-| C1 | $\omega_C = 7.7636 \times 10^{20}\ \mathrm{s}^{-1}$ from $m_e c^2 / \hbar$ | A, B, C | CONVERGENT |
-| C2 | $\log_2 \omega_C = 69.3951$, $\nu(\omega_C) = 69$ | A, B, C | CONVERGENT |
-| C3 | $\lambda_C = 3.8616 \times 10^{-13}\ \mathrm{m}$, $\log_2 \lambda_C = -41.2359$, $\nu(\lambda_C) = -42$ | A, B | CONVERGENT |
-| C4 | $\chi = 69 \bmod 2 = 1$ | A, B, C | CONVERGENT |
-| C5 | $\log_2 \omega_C + \log_2 \lambda_C = 28.1592 = \log_2 c$ | A, B | CONVERGENT |
-| C6 | Tree distance $d_{\mathcal{T}} = 111$; deviation $\Delta = 82.8408$ | A, B | CONVERGENT |
-| C7 | Fractional position $\omega_C = 2^{69} \times 1.3150$ ($0.3951$ octaves) | A | SINGLE |
-| C8 | $T_{\mathrm{ZBW}} = 8.0926 \times 10^{-21}\ \mathrm{s}$; Nyquist $\Delta t \leq 4.0467 \times 10^{-21}\ \mathrm{s}$ | A, B | CONVERGENT |
-| C9 | Invariant assigned to fixed scale $\nu(\omega_C) \bmod 2$ | A | DIVERGENT (see D1) |
-| C10 | Invariant assigned to window-dependent crossing count $\nu_{\mathrm{cc}}(\Delta t)$ | B | DIVERGENT (see D1) |
-| C11 | Crossing counts $N = 247, 2471, 4942$ with $|N|_2 = 1, 1, 0.5$ | B | SINGLE |
-| C12 | Conservation of $\chi$ under isometric ultrametric evolution via [2] | A, C | CONVERGENT |
-| C13 | Detection channels: spin noise spectroscopy, EELS/RIXS, Majorana platforms (qualitative projection) | A, B, C | CONVERGENT ||
