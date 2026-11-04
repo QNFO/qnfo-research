@@ -162,38 +162,3 @@ We constructed a non-equilibrium thermodynamic model of neuromorphic computation
 [10] https://papers.qnfo.org/papers/thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation/. QNFO: Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation.
 [11] https://papers.qnfo.org/papers/thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems/. QNFO: Thermodynamic and Quantum Constraints on Scalable Quantum Computing.
 [12] https://papers.qnfo.org/papers/paper-physics-of-computation/. QNFO: The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing.
-
-## Appendix A. Divergence report
-
-**D1. Applicability of quantum error-correction overhead to neuromorphic hardware.** Draft A applies a combined multiplier η = 10² × η_QEC ≈ 3.16×10⁴ (algorithmic prefactor from [1] times median QEC overhead from [10]) directly to neuromorphic logical operations, obtaining an optimal E_op of 5.0×10⁻¹³ J under a 0.5 W / 1 TOPS scenario. Drafts B and C apply no QEC multiplier to neuromorphic operations, arguing (B, §2; C, §2/§4.8) that the 10²–10³ overhead of [10,11,12] is specific to fault-tolerant quantum architectures, and that neuromorphic hardware avoids it entirely; C instead introduces an optional classical redundancy factor r as a labeled assumption. *Underlying convention disagreement:* whether "quantum-inspired" algorithms running on classical neuromorphic hardware inherit quantum error-correction costs. *Resolution:* the main text adopts the B/C convention (no QEC multiplier; optional classical redundancy r), because two independent drafts converge on the structural argument and A's application of a quantum-QEC factor to non-quantum hardware lacks a mechanism. A's 0.5 pJ / 1 TOPS scenario is retained as a documented alternative convention, not as the main result.
-
-**D2. Power budget and scale.** Draft A assumes P_max = 0.5 W and v_target = 10¹² ops/s (chip-level TOPS framing). Draft C assumes P_budget = 100 mW with N_s = 10⁶ synapses and per-synapse event rates. Draft B uses per-channel and per-chip floor framing with N = 10⁶ synapses at 1% activity. *Underlying disagreement:* chip class (high-performance module vs. embedded envelope) and accounting unit (logical TOPS vs. synaptic events). *Resolution:* the main text adopts C's embedded-envelope framing (100 mW, 10⁶ synapses) because it yields a fully explicit, self-consistent parameter set; A's scenario is reported here for completeness. Under A's convention, the power-budget constraint gives E_op ≤ P/v_target = 0.5/10¹² = 5.0×10⁻¹³ J, with the Margolus–Levitin ceiling v_max = 2P/h = 1.51×10³³ ops/s non-binding—consistent with the main text's finding that quantum limits are inert.
-
-**D3. Optimal operating point.** Draft A reports E_op* = 5.0×10⁻¹³ J (0.5 pJ) as the optimum of a weighted cost functional. Draft C reports ≈5.0×10⁻¹⁴ J at the 400 Hz crossover. Draft B reports a practical floor of ~110 fJ/op (range 10 fJ–1 pJ) and a fundamental floor of 2.87×10⁻²¹ J. *Underlying disagreement:* different objective functions (weighted energy/speed cost vs. minimum of a three-term decomposition vs. leakage+I/O practical floor) and different parameter sets. *Resolution:* the main text adopts C's three-term decomposition optimum, which follows from the explicitly stated parameter set; the spread across drafts (5×10⁻¹⁴–5×10⁻¹³ J) reflects parameter assumptions, not physical disagreement, and all drafts agree the value lies ≥10⁷ above the Landauer floor.
-
-**D4. Role of the Margolus–Levitin bound.** All three drafts agree the quantum speed limit does not bind (A: ceiling 1.51×10³³ ops/s far above target; B: crossover at 58 fs; C: RC limit binds by ~10¹²). CONVERGENT; no conflict.
-
-## Appendix B. Claim attribution
-
-| Claim | Drafts | Status |
-|-------|--------|--------|
-| C1. Landauer floor = k_B T ln 2 ≈ 2.87×10⁻²¹ J at 300 K | A, B, C | CONVERGENT |
-| C2. Margolus–Levitin / quantum speed limit is numerically inert at realistic neuromorphic operating points | A, B, C | CONVERGENT |
-| C3. Rayleigh dissipation potential is the appropriate constitutive dissipation law | A, B, C | CONVERGENT |
-| C4. Nambu non-equilibrium thermodynamics justifies local reduction of spiking dynamics | A, B, C | CONVERGENT |
-| C5. Quantum-inspired algorithms carry polynomial overheads eroding practical advantage [1] | A, B, C | CONVERGENT |
-| C6. Classical circuits can host quantum-inspired information processing [7] | A, B, C | CONVERGENT |
-| C7. QEC overhead of 10²–10³ multiplies thermodynamic cost in fault-tolerant quantum computing [10,11,12] | A, B, C | CONVERGENT |
-| C8. QEC/algorithmic overhead multiplier applies to neuromorphic logical operations (η ≈ 3.16×10⁴) | A | SINGLE (contra B, C) → DIVERGENT (D1) |
-| C9. Optimal E_op = 5.0×10⁻¹³ J under 0.5 W / 1 TOPS scenario | A | SINGLE (contra B, C) → DIVERGENT (D2, D3) |
-| C10. Power budget 0.5 W, target 10¹² ops/s | A | SINGLE → DIVERGENT (D2) |
-| C11. Power budget 100 mW, N_s = 10⁶ synapses, per-synapse event-rate framing | C (B compatible) | CONVERGENT (B, C) |
-| C12. Three-term decomposition (Landauer + switching + leakage) with crossover f_cross = 400 Hz | C (B qualitatively: leakage/I/O dominate) | CONVERGENT (B, C) |
-| C13. Fundamental energy–speed trade-off is flat across realistic clock rates; observed trade-offs are engineering effects | B, C | CONVERGENT |
-| C14. Practical floor set by leakage and I/O, not fundamental bounds; ~10⁴–10¹⁰ headroom above Landauer | B, C | CONVERGENT |
-| C15. 12-month falsifiable predictions on existing hardware | B, C | CONVERGENT |
-| C16. Adiabatic charging yields ~7.4× efficiency gain at 90% recovery | C | SINGLE |
-| C17. Classical redundancy factor r multiplies logical energy per event (system-level lesson of QEC) | C (A structurally similar via η) | CONVERGENT (A, C, different magnitudes; see D1) |
-| C18. Damage/fiber-bundle formalism as template for synapse wear | A, B, C | CONVERGENT |
-| C19. Coupled adsorption–diffusion analogy for synapse state dynamics | A, B, C | CONVERGENT |
-| C20. Critical slowing near non-equilibrium instabilities breaks linear force–flux assumptions | A, B, C | CONVERGENT |
