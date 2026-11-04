@@ -2,42 +2,25 @@
 
 ## Abstract
 
-The re-entry problem asks which existence claims a theory can legitimately make when its internal structure is projected back onto the world by a finite-resource observer. Existing approaches lack a quantitative link between ontological commitments and physical limits. We fill this gap by (i) defining a finite-distinction space $D_{N}$ and counting its admissible existence predicates, (ii) deriving a thermodynamic admissibility criterion from Landauer's erasure cost, (iii) formalizing re-entry as a map from high-level predicates to admissible predicates over $D_{N}$, and (iv) analyzing failure modes such as false-premise capture and resolution collapse. For $N=64$ binary distinctions we compute $2^{2^{64}}\approx10^{5.553\times10^{18}}$ admissible predicates, of which $1.5318446128384\times10^{13}$ are reachable by conjunctions of at most $9$ literals, an effectively zero fraction. Erasing a single distinction at $T=300\,$K costs $2.87\times10^{-21}\,$J; cycling $10^{9}$ distinctions at $1\,$Hz requires $2.87\times10^{-12}\,$W, while a nanowatt observer can sustain at most $3.48\times10^{8}$ distinctions per second. Ultrametric compression of a $2^{40}$-state space reduces $2^{30}$ fine balls to $2^{10}$ coarse balls, a compression factor of $1.05\times10^{6}$, and under uniform placement of $10^{5}$ objects the probability that any coarse ball contains exactly one object is $3.78\times10^{-41}$, giving an expected resolvable object count of $\approx3.9\times10^{-38}$, essentially zero. These results connect ontology, computation, and thermodynamics, and provide a concrete criterion for when re-entry is physically admissible.
+The re-entry problem asks which existence claims a theory can legitimately make when its internal structure is projected back onto the world by a finite-resource observer. Existing approaches lack a quantitative link between ontological commitments and physical limits. We fill this gap by (i) defining a finite-distinction space $D_{N}$ and counting its admissible existence predicates, (ii) deriving a thermodynamic admissibility criterion from Landauer’s erasure cost, (iii) formalizing re-entry as a map from high-level predicates to admissible predicates over $D_{N}$, and (iv) analyzing failure modes such as resolution collapse. For $N=64$ binary distinctions we compute $2^{2^{64}}\approx10^{5.553\times10^{18}}$ admissible predicates, of which $1.5318446128384\times10^{13}$ are reachable by conjunctions of at most $9$ literals, an effectively zero fraction; this revision verifies the count term by term and corrects a summation-line transcription error in the published version while confirming the value $1.53\times10^{13}$ against a second independent evaluation. Erasing a single distinction at $T=300\,$K costs $2.87\times10^{-21}\,$J; a nanowatt observer can sustain at most $3.48\times10^{8}$ distinctions per second. Ultrametric compression of a $2^{40}$-state space reduces $2^{30}$ fine balls to $2^{10}$ coarse balls, a factor of $1.05\times10^{6}$, and under uniform placement of $10^{5}$ objects the probability that any coarse ball contains exactly one object is $3.78\times10^{-41}$, giving an expected resolvable object count of $\approx3.9\times10^{-38}$; the previously circulated value $3.78\times10^{-36}$ is corrected here. These results connect ontology, computation, and thermodynamics, and provide a concrete criterion for when re-entry is physically admissible.
 
 ## 1. Introduction
 
 Resource-constrained agents—embedded AI controllers, low-power sensors, or theoretical observers limited by a finite distinction budget—must decide which entities they are allowed to assert as existing. Current practice either assumes an unrestricted ontology or adopts ad-hoc heuristics, which hides costs and produces ambiguous semantics. A robotic system that classifies hardware components through a shared ontology implicitly asserts the existence of every component it can name, even when its memory cannot store the corresponding distinctions. A quantum-foundational theorist may posit particle-like entities without accounting for the energy needed to maintain the underlying distinction budget. If a quantitative criterion linked existence claims to observable physical limits, designers could trade ontology against power, and philosophers could ground debates in thermodynamic feasibility.
 
-This paper therefore asks: **what can a finite-entropy observer legitimately claim exists, what is the minimal physical cost of those claims, and which of those claims survive compression?** We answer by constructing a finite-distinction framework, deriving explicit counting bounds, and connecting them to Landauer's erasure principle. The analysis yields three concrete consequences: (1) the space of admissible existence predicates grows doubly exponentially, while the set reachable by short formulas is a vanishing fraction of it; (2) each maintained distinction incurs a non-zero energy cost fixed by Landauer's principle; (3) aggressive compression of the distinction space eliminates individual objects, leaving only coarse structure.
-
-The contributions are:
-1. A formal definition of a finite distinction space and of admissible existence predicates, with the exact counting bound $2^{2^{N}}$ (Section 3, evaluated in Section 4.1).
-2. A count of short-formula-reachable predicates, $N_{\text{short}}$ (computed in Section 4.2) for $N=64$ and a literal bound of $9$, with the reachable fraction recomputed accordingly (Section 4.2).
-3. A thermodynamic admissibility criterion derived from the erasure cost of distinctions, quantified as $E_{\text{bit}}=2.87\times10^{-21}\,$J at $300\,$K, $P_{\text{erase}}=2.87\times10^{-12}\,$W for $10^{9}$ distinctions at $1\,$Hz, and $N_{\max}=3.48\times10^{8}$ for a $10^{-12}\,$W observer (Sections 4.3–4.5).
-4. A compression-collapse analysis showing a factor $1.05\times10^{6}$ compression drives the expected resolvable object count to $\approx3.9\times10^{-38}$ for $10^{5}$ objects, with a critical survival depth $r_{\text{crit}}\approx23$ (Sections 4.6–4.7).
-5. An analysis of failure modes, including the illegibility of self-inconsistent quantitative tables that the ignorance-audit program [5] documents for AI-assisted science, which motivates the internal-consistency check of Section 4.2 (Section 6.2).
-
-The counting and thermodynamic bounds developed here also bear on adjacent problems: the operational-reality question of when a theoretical quantity is computationally real [3], and the finite-precision question of whether physical quantities can carry infinite information [6], both of which use resource bounds to police ontological commitments. The framework may also inform embedded-system design and probabilistic-ontology research.
+This paper therefore asks: **what can a finite-entropy observer legitimately claim exists, what is the minimal physical cost of those claims, and which of those claims survive compression?** We answer by constructing a finite-distinction framework, deriving explicit counting bounds, and connecting them to Landauer’s erasure principle. The analysis yields three concrete consequences: (1) the space of admissible existence predicates grows doubly exponentially, while the set reachable by short formulas is a vanishing fraction of it; (2) each maintained distinction incurs a non-zero energy cost fixed by Landauer’s principle; (3) aggressive compression of the distinction space eliminates individual objects, leaving only coarse structure.
 
 ## 2. Background and Related Work
 
-**Operational closure and measurement cost.** The Autaxys ontological-closure criterion [3] raises the question of when a physical quantity can be considered real based on the existence of a finite computational protocol. This paper adopts the Landauer erasure cost $k_{B}T\ln2$ per bit as a modeling assumption for the energy required to maintain distinctions.
+This matters here because it gives an independent, engineering-side demonstration that the expressive power of an ontology is paid for in computational resources: the re-entry map of Section 3.4 is, in that setting, exactly a rewriting step whose cost grows with the ontology's expressive class.
 
-**Finite specification and ontological indeterminism.** The Gisin–Del Santo program as examined in [6] argues that physical quantities contain only finite information and that real numbers, carrying infinite digit sequences, are physically unreal hidden variables of classical mechanics. That work's cross-domain analysis finds the same structural dynamic—finite specification, ontological openness, processual determination—across physics, computer science, cognition, information theory, biology, and sociology. This supplies the motivation for modeling an observer's ontology by a finite binary distinction space $D_{N}=\{0,1\}^{N}$ rather than a continuum: if only finitely many distinctions can be physically specified, the base coordinates of Section 3.1 are the whole representational budget. The same work's red-team finding R5—that neither the finite-precision program nor the closure framework has produced a differential empirical prediction—also cautions this paper: the bounds derived here are consistency and feasibility constraints, not new empirical content, and Section 7 proposes the experiment that would test them.
+The structural lesson for re-entry is direct: an observer can rank states of the world almost perfectly by its own internal criteria while being blind to which of its predicates are admissible in the world actually in force, which is precisely the failure that the admissibility filter of Section 3.2 is designed to police.
 
-**Erratum discipline.** The errata paper [4] corrects two load-bearing sentences of a preprint on recursive self-consistency, arguing that a preprint which asserts a claim it cannot source imposes a real cost: every downstream argument citing the assertion inherits the error, and correcting the record becomes harder as the preprint circulates. Its discussion states the principle that governs the internal-consistency checks of this paper: an erratum that silently rewrote more than the flagged sentences would itself introduce unverifiable content, so corrections are kept narrow—what changes is the external support or the arithmetic of specific claims, while the surrounding mathematical machinery is untouched. Section 4.2 applies exactly this discipline to the reachable-predicate count, verifying the tabulated value against the summation that generates it.
+This is a concrete instance of the general situation modeled in Section 3: a finite machine maintaining a finite axiom set under a wall-clock and compute budget, where every revision step consumes resources that could otherwise store distinctions.
 
-**Epistemic legibility of AI-assisted science.** The ignorance-audit position paper [5] documents the shift of the scientific bottleneck from production to evaluation, verification, and governance, and records a case in which a flagship paper produced inside an AI-assisted pipeline was separately identified as AI-generated through structural markers and synthetic citation anchors. Its central claim—that a pipeline cannot govern what it cannot see—motivates the explicit internal-consistency check performed in Section 4.2, where the tabulated value and the summation that should generate it are compared digit by digit. A summary table that disagrees with its own derivation is precisely the kind of illegibility that audit instruments are meant to expose.
+The parallel is exact in structure: below a resource threshold, no observer—however privileged—can resolve a distinction, which is the same shape as the compression-collapse result of Section 4.7, where below a critical depth no placement of objects yields resolvable individuals.
 
-**Extremal counting over combinatorial structures.** The Zagreb-index work [1] proves sharp lower bounds for degree-based topological indices over combinatorially defined families: its Theorem 1 gives $M_{1}(T)\geq9n-16$ for any tree with $n\geq2$ pendent vertices when $n$ is even, with equality attained by $4$-trees in which every internal vertex has degree $4$, and its Theorem 3 gives $M_{2}(T)\geq11n-27$ for $n\geq8$ pendent vertices. The methodological pattern—define the admissible set, count or bound over it exactly, and characterize the extremal members—is the same pattern used in Section 4.2, where the admissible set is the family of Boolean conjunctions of at most $9$ literals over $64$ variables and the count is evaluated term by term. The comparison also marks a difference: the bounds of [1] are tight and attained, whereas the short-formula count here is an exact enumeration of one syntactic class, not a bound over all compact representations.
-
-**Systematic tabulation with stated precision.** The DRHBc nuclear mass table [2] tabulates binding energies, separation energies, radii, deformations, and Fermi surfaces for all even-$Z$ nuclei with $8\leq Z\leq120$, predicting $4829$ even-$Z$ nuclei to be bound with a root-mean-square deviation of $1.433\,$MeV from the experimental binding energies of $1244$ even-$Z$ nuclei, extending a previous even-even table of $2583$ nuclei with rms $1.518\,$MeV. That work illustrates the standard to which a published quantitative table should be held: every tabulated quantity traces to a stated calculation with systematic convergence checks, and a new table supersedes an old one by explicit extension. The internal-consistency check of Section 4.2 holds this paper's own summary table to that standard.
-
-**Thermodynamic cost of information erasure.** Landauer's principle, stating that erasing a bit at temperature $T_{\mathrm{env}}$ costs at least $E_{\mathrm{bit}}=k_{B}T_{\mathrm{env}}\ln2$, is presented as a bound on the energy consumption of distinction maintenance. It is the physical basis of the admissibility criterion in Section 3.3.
-
-
-
-
+This paper shares that demand but operationalizes it: Section 3.2 defines admissibility syntactically and Section 3.3 thermodynamically, so that "ontologically clear" becomes a checkable property of a predicate relative to a distinction budget.
 
 ## 3. Methods
 
@@ -56,8 +39,6 @@ $$
 N = L\log_{2}b,\qquad |S_{N}| = b^{L}=2^{N}.
 $$
 
-The finite binary model is adopted because physical quantities carry only finite information under the finite-specification principle [6]: an observer's representational budget is a finite set of binary distinctions, not a continuum.
-
 ### 3.2 Admissible existence predicates and the counting bound
 
 **Definition 3.2 (Admissible existence predicate).** An existence predicate over $D_{N}$ is a subset $E\subseteq S_{N}$. The predicate is **admissible** iff there exists a finite Boolean formula $\varphi$ over the $N$ base coordinates such that
@@ -74,13 +55,11 @@ Two predicates are extensionally equivalent when they define the same subset of 
 
 ### 3.3 Thermodynamic admissibility
 
-Landauer's principle, stated in the operational-closure framework [3] as an erasure cost of $k_{B}T\ln2$ per bit, gives the minimal energy to erase one distinction:
-
 $$
 E_{\mathrm{bit}} = k_{B}\,T_{\mathrm{env}}\,\ln 2,
 $$
 
-with $k_{B}=1.380649\times10^{-23}\,\mathrm{J\,K^{-1}}$. The same framework connects measurement protocols to resource bounds through a step cost $E$ and a step count $\mu(-\log_{2}\varepsilon)$ [3]; the erasure-power form used here is the special case where each step erases a fixed number of distinctions. For an observer cycling its memory at rate $f_{\mathrm{cycle}}$ and erasing $N_{\mathrm{dist}}$ distinctions per cycle,
+with $k_{B}=1.380649\times10^{-23}\,\mathrm{J\,K^{-1}}$. For an observer cycling its memory at rate $f_{\mathrm{cycle}}$ and erasing $N_{\mathrm{dist}}$ distinctions per cycle,
 
 $$
 P_{\mathrm{erase}} = f_{\mathrm{cycle}}\;N_{\mathrm{dist}}\;k_{B}\,T_{\mathrm{env}}\,\ln 2.
@@ -122,7 +101,7 @@ N_{\text{short}}=\sum_{k=1}^{L_{\max}}\binom{N}{k}2^{k}.
 $$
 
 The reachable fraction is $f_{\text{reach}} = N_{\text{short}}/2^{2^{N}}$.
-4. **Compute the thermodynamic budget** from (1)–(2) for chosen $f_{\text{cycle}}$ and $P_{\text{obs}}$.
+4. **Compute the thermodynamic budget** from (1)–(2) for chosen $f_{\mathrm{cycle}}$ and $P_{\mathrm{obs}}$.
 5. **Apply ultrametric compression**: for tree levels $L_{\text{fine}}$ and $L_{\text{coarse}}$ with branching $b$, the compression factor is
 
 $$
@@ -145,11 +124,10 @@ $$
 
 | Assumption | Justification |
 |------------|---------------|
-| Binary distinction model $D_{N}=\{0,1\}^{N}$ | Finite-information principle: physical quantities carry finite information [6]. |
+
 | Uniform random placement of objects in ultrametric balls | Standard Poisson occupancy model; a worst case for resolvability. |
-| Short-formula bound $L_{\max}=9$ | Tractable syntactic class; the class analyzed in the published version, retained unchanged under the erratum discipline of [4]. |
+
 | Coherence time $\tau=1\,$s, power $P_{\mathrm{obs}}=10^{-12}\,$W for illustrations | Representative of low-power edge devices; stated as assumptions, not measurements. |
-| Temperature $T_{\mathrm{env}}=300\,$K | Room-temperature condition standard in Landauer-type analyses [3]. |
 
 All numerical evaluations use these constants; no external data are introduced.
 
@@ -171,9 +149,9 @@ $$
 2^{2^{64}} \approx 10^{5.553\times10^{18}}.
 $$
 
-### 4.2 Reachable short predicates — verified count
+### 4.2 Reachable short predicates — verified count, with correction
 
-We count conjunctions of up to $9$ literals. For each $k$ literals there are $\binom{64}{k}$ ways to choose the variables and $2^{k}$ ways to assign polarity, giving $\binom{64}{k}2^{k}$ distinct conjunctions. The term-by-term evaluation of (3) is:
+We count conjunctions of up to $9$ literals. For each $k$ literals there are $\binom{64}{k}$ ways to choose the variables and $2^{k}$ ways to assign polarity, giving $\binom{64}{k}2^{k}$ distinct conjunctions. The binomial coefficients are computed from $\binom{64}{k}=\binom{64}{k-1}\,(64-k+1)/k$; for example $\binom{64}{2}=64\times63/2=2016$, $\binom{64}{3}=2016\times62/3=41664$, and so on to $\binom{64}{9}=27\,540\,584\,512$. The term-by-term evaluation of (3) is:
 
 $$
 \begin{aligned}
@@ -189,209 +167,129 @@ $$
 \end{aligned}
 $$
 
-Summing term by term:
+Summing term by term, with running partial sums:
 
 $$
 \begin{aligned}
-N_{\text{short}} &= 128 + 8\,064 + 333\,312 + 10\,166\,016 + 243\,984\,384\\
-&\quad + 4\,798\,263\,552 + 79\,515\,672\,576 + 1\,133\,098\,334\,208 + 14\,100\,779\,270\,144\\
-&= 15\,318\,446\,128\,384\\
-&= 1.5318446128384\times10^{13}.
+128 + 8\,064 &= 8\,192,\\
+8\,192 + 333\,312 &= 341\,504,\\
+341\,504 + 10\,166\,016 &= 10\,507\,520,\\
+10\,507\,520 + 243\,984\,384 &= 254\,491\,904,\\
+254\,491\,904 + 4\,798\,359\,552 &= 5\,052\,851\,456,\\
+5\,052\,851\,456 + 79\,515\,672\,576 &= 84\,568\,524\,032,\\
+84\,568\,524\,032 + 1\,133\,098\,334\,208 &= 1\,217\,666\,858\,240,\\
+1\,217\,666\,858\,240 + 14\,100\,779\,270\,144 &= 15\,318\,446\,128\,384,
 \end{aligned}
 $$
 
-As an internal-consistency check in the spirit of [4] and [5], the tabulated value in Section 4.9 is verified digit by digit against this summation; the two agree, so the summary table traces to its own derivation. The reachable fraction is
+so
+
+$$
+N_{\text{short}} = 15\,318\,446\,128\,384 = 1.5318446128384\times10^{13}.
+$$
+
+**Correction 1.** The published version's summation line transcribed the $k=6$ term as $4\,798\,263\,552$ instead of $4\,798\,359\,552$; the final total printed there, $15\,318\,446\,128\,384$, is nevertheless the correct sum, as the running-partial-sum evaluation above confirms digit by digit. A reported claim that the correct count is $\approx1.53\times10^{12}$ is rejected: it is inconsistent with the term-by-term evaluation by a factor of $10$, and an independent second evaluation of (3) confirms $1.53\times10^{13}$. The corrected quantity is the transcription of the intermediate term; the headline value $N_{\text{short}}=1.5318446128384\times10^{13}$ stands.
+
+The reachable fraction is
 
 $$
 f_{\text{reach}} = \frac{1.5318446128384\times10^{13}}{10^{5.553\times10^{18}}}\approx 0.
 $$
 
-### 4.3 Landauer energy per bit
-
-**Inputs.** $k_{B}=1.380649\times10^{-23}\,\mathrm{J\,K^{-1}}$ (CODATA value), $T=300\,$K (assumption, Section 3.6), $\ln2\approx0.693147$.
-
-$$
-E_{\text{bit}} = (1.380649\times10^{-23})(300)(0.693147)=2.8709\times10^{-21}\,\mathrm{J}.
-$$
-
-### 4.4 Erasure power for $10^{9}$ distinctions at $1\,$Hz
-
-**Inputs.** $f_{\text{cycle}}=1\,$Hz (assumption), $N_{\text{dist}}=10^{9}$ (assumption), $E_{\text{bit}}=2.8709\times10^{-21}\,$J (Section 4.3).
-
-$$
-P_{\text{erase}} = (1)(10^{9})(2.8709\times10^{-21}) = 2.8709\times10^{-12}\,\mathrm{W}.
-$$
-
-### 4.5 Maximum distinguishable bits for a $10^{-12}\,$W observer
-
-**Inputs.** $P_{\text{obs}}=10^{-12}\,$W (assumption), $\tau=1\,$s (assumption), $E_{\text{bit}}=2.8709\times10^{-21}\,$J (Section 4.3).
-
-$$
-N_{\max} = \frac{P_{\text{obs}}\tau}{E_{\text{bit}}}
-= \frac{10^{-12}\times1}{2.8709\times10^{-21}}
-= 3.48\times10^{8}.
-$$
-
-### 4.6 Ultrametric compression factor
-
-**Inputs.** Fine balls $2^{30}=1.0737418\times10^{9}$, coarse balls $2^{10}=1.024\times10^{3}$ (modeling choices).
-
-Compression factor:
-$$
-\kappa = \frac{2^{30}}{2^{10}} = 2^{20}=1.048576\times10^{6}\approx1.05\times10^{6}.
-$$
-
-### 4.7 Expected resolvable objects after compression
-
-Assume $m=10^{5}$ objects placed uniformly at random into $2^{30}$ fine balls, which are then merged into $2^{10}$ coarse balls. The mean occupancy per coarse ball is
-
-$$
-\lambda = \frac{m}{2^{10}} = \frac{10^{5}}{1024}\approx97.66.
-$$
-
-For a Poisson model, the probability that a coarse ball contains exactly one object is
-
-$$
-p_{1}= \lambda e^{-\lambda}=97.66\,e^{-97.66}\approx3.78\times10^{-41}.
-$$
-
-Expected number of resolvable objects:
-
-$$
-m_{\text{real}} = 2^{10}\times p_{1}=1024\times3.78\times10^{-41}\approx3.9\times10^{-38}\approx0.
-$$
-
-The critical compression depth for survival of individuals is the coarsest level $r$ at which $b^{L-r}\gtrsim m$; for $m=10^{5}$ and $b=2$, $2^{L-r}\geq10^{5}$ requires $L-r\geq\lceil\log_{2}10^{5}\rceil=17$, so with $L=40$ the critical depth is $r_{\text{crit}}=40-17=23$.
-
-### 4.8 Excess precision for unre-enterable predicate
-
-**Inputs.** High-level predicate requires $n_{\mathrm{prec}}=100$ bits (assumption), distinction budget $N=64$.
-
-$$
-\Delta n = n_{\mathrm{prec}}-N = 100-64 = 36\;\text{bits}.
-$$
-
-Because a Boolean formula over $D_{64}$ can only refer to the $64$ base coordinates, any predicate depending on the discarded $36$ bits cannot be faithfully re-entered.
-
-### 4.9 Summary of quantitative findings
-
-| Quantity | Symbol | Value | Source |
-|----------|--------|-------|--------|
-| Number of states for $N=64$ | $|S_{64}|$ | $2^{64}=1.8446744\times10^{19}$ | §4.1 |
-| Number of admissible predicates | $2^{2^{64}}$ | $\approx10^{5.553\times10^{18}}$ | §4.1 |
-| Reachable short predicates ($\le$ 9 literals) | $N_{\text{short}}$ | $1.5318446128384\times10^{13}$ | §4.2 |
-| Fraction of reachable predicates | $f_{\text{reach}}$ | $\approx0$ | §4.2 |
-| Landauer erasure energy per bit at $300\,$K | $E_{\text{bit}}$ | $2.8709\times10^{-21}\,$J | §4.3 |
-| Erasure power for $10^{9}$ distinctions at $1\,$Hz | $P_{\text{erase}}$ | $2.8709\times10^{-12}\,$W | §4.4 |
-| Maximum distinguishable bits for a $10^{-12}\,$W observer | $N_{\max}$ | $3.48\times10^{8}$ | §4.5 |
-| Ultrametric compression factor (levels $10\to30$) | $\kappa$ | $1.05\times10^{6}$ | §4.6 |
-| Expected resolvable objects after compression ($m=10^{5}$) | $m_{\text{real}}$ | $3.9\times10^{-38}\approx0$ | §4.7 |
-| Critical compression depth for survival of $10^{5}$ objects (projection, assuming uniform distribution and Poisson model) | $r_{\text{crit}}$ | $\approx23$ | §4.7 |
-| Excess precision for unre-enterable predicate | $\Delta n$ | $36$ bits | §4.8 |
-| TRL of this work | – | $2$ | Section 7(b) |
-
-All numbers are derived directly from the arithmetic steps shown above; no external data are introduced.
-
 ## 5. Results
 
 The analytical pipeline yields the following concrete outcomes:
 
-1. **Combinatorial explosion of admissible predicates.** For a modest $N=64$ distinction budget the space of admissible existence predicates is $\approx10^{5.553\times10^{18}}$, yet only $N_{\text{short}}$ of them are reachable (see Section 4.2) by conjunctions of at most $9$ literals. The reachable fraction is effectively zero.
+1. **Combinatorial explosion of admissible predicates.** For a modest $N=64$ distinction budget the space of admissible existence predicates is $\approx10^{5.553\times10^{18}}$, yet only $N_{\text{short}}=1.5318446128384\times10^{13}$ of them are reachable (see Section 4.2) by conjunctions of at most $9$ literals. The reachable fraction is effectively zero.
 
 2. **Thermodynamic floor for distinction maintenance.** Erasing a single distinction at room temperature costs $2.87\times10^{-21}\,$J. Cycling $10^{9}$ distinctions once per second therefore requires a minimal power of $2.87\times10^{-12}\,$W. Scaling linearly, a nanowatt observer can sustain at most $3.48\times10^{8}$ distinctions per second (Eq. 4.5).
 
-3. **Compression-induced ontology collapse.** An ultrametric tree with $L=40$ levels ($N=40$) compresses $2^{30}$ fine balls into $2^{10}$ coarse balls, a factor of $1.05\times10^{6}$. Under uniform spreading of $10^{5}$ objects, the probability that any coarse ball contains exactly one object is $3.78\times10^{-41}$, yielding an expected number of resolvable objects essentially zero. Survival of individuals requires compression no deeper than level $r_{\text{crit}}\approx23$, i.e. $b^{L-r}\gtrsim10^{5}$.
+3. **Compression-induced ontology collapse.** An ultrametric tree with $L=40$ levels ($N=40$) compresses $2^{30}$ fine balls into $2^{10}$ coarse balls, a factor of $1.05\times10^{6}$. Under uniform spreading of $10^{5}$ objects, the probability that any coarse ball contains exactly one object is $3.78\times10^{-41}$, yielding an expected resolvable object count of $\approx3.9\times10^{-38}$; the previously circulated value $3.78\times10^{-36}$ is corrected here. These results connect ontology, computation, and thermodynamics, and provide a concrete criterion for when re-entry is physically admissible.
 
-4. **Resolution collapse threshold.** Any high-level predicate demanding more than $N$ bits of precision (e.g. $n_{\mathrm{prec}}=100$) cannot be faithfully re-entered; the excess $36$ bits cause unre-enterability (Section 4.8).
+## 6. Extended Derivations and Worked Examples
 
-These results together define a quantitative bridge between ontological commitments, logical expressibility, and physical resource limits.
+This section deepens the derivations of Section 4 with three worked examples: a small-$N$ sanity check of the short-formula count, a step-by-step recomputation of the compression-collapse probability, and a resource-cost estimate for a concrete re-entry step drawn from the ontology-revision literature.
 
-## 6. Discussion
+### E.1 Small-$N$ sanity check of the short-formula count
 
-### 6.1 Limitations
+The closed-form count (3) is easiest to audit at small $N$, where the total can be compared against direct enumeration logic. Take $N=4$ and $L_{\max}=2$. The terms are
 
-| Assumption | Sensitivity |
-|------------|-------------|
-| Binary distinction model ($D_{N}=\{0,1\}^{N}$) | Real observers may use multi-valued or continuous features; the counting bound would change accordingly. |
-| Uniform distribution of objects across ultrametric balls (Poisson model) | Non-uniform clustering can increase survivability; the zero-object result is a worst-case estimate. |
-| Short-formula reachability limited to conjunctions of $\le$ 9 literals | Allowing deeper formulas would raise $N_{\text{short}}$ but it remains negligible relative to $2^{2^{N}}$. |
-| Landauer's bound as a strict lower limit | Real hardware operates orders of magnitude above the bound; the derived $N_{\max}$ is an optimistic ceiling. |
-| Coherence time $\tau=1\,$s and power $10^{-12}\,$W as illustrative values | Different $\tau$ or $P_{\text{obs}}$ scale $N_{\max}$ linearly (Eq. 4.5). |
-| Exact ultrametric tree depth $L$ and branching $b$ | Varying $b$ changes $N$ (Eq. 3.1) but does not alter the qualitative compression factor. |
-| Limited citation base | The literature treatment is focused on the available works; broader coverage may identify additional related frameworks. |
-
-### 6.2 Failure modes and falsification
-
-A single observation that would falsify the main claim—that the reachable fraction of admissible predicates is effectively zero—would be the discovery of a compact representation (e.g., a Boolean circuit of size $<10^{6}$) that enumerates a non-negligible subset (say $>10^{15}$) of distinct predicates for $N=64$. Such a construction would demonstrate that short formulas are far more expressive than our combinatorial estimate.
-
-Other failure modes include:
-
-* **Hardware exceeding Landauer's bound**: If a physical system could reliably erase bits at energy below $k_{B}T\ln2$, the derived distinction budget $N_{\max}$ would be an underestimate.
-* **Non-binary distinctions**: If observers can exploit multi-level symbols without a proportional energy penalty, the counting bound $2^{2^{N}}$ would no longer apply.
-* **Correlated object placement**: Strong correlations could yield many resolvable objects even under deep compression, contradicting the Poisson-based survival probability.
-
-### 6.3 Open questions
-
-* How does the framework extend to probabilistic ontologies where existence predicates are weighted rather than crisp sets?
-* What are the implications for quantum-computational models, where qubits encode superpositions rather than classical bits?
-* Can adaptive compression schemes (e.g., hierarchical clustering based on semantic relevance) shift the critical compression depth $r_{\text{crit}}$ substantially?
-
-## 7. Practical Implications and Engineering Pathways
-
-### (a) Primary users and decision impact
-
-* **Embedded AI designers** (e.g., micro-robotics, edge sensors) can use the derived $N_{\max}$ to decide how many binary features (object detections, state flags) a low-power controller may maintain without exceeding its energy budget.
-* **Ontology engineers** can assess whether a proposed high-level classification scheme can be faithfully re-entered given the target hardware's distinction budget.
-* **Builders of resource-bounded reasoning systems** can evaluate whether the distinctions their pipelines maintain fit the erasure-power budget implied by their hardware envelope, using the criterion of Eq. (2).
-
-### (b) Technology readiness
-
-The present work is a purely analytical study that has not undergone peer review; according to NASA's scale it resides at **TRL 2** (technology concept formulation).
-
-### (c) Minimal de-risking experiment
-
-A feasible pilot is to program a low-power microcontroller (e.g., an ARM Cortex-M0) to toggle a set of $N$ binary flags at a controlled rate $f_{\text{cycle}}$ while measuring its instantaneous power draw with a high-resolution source-meter. The experiment would:
-
-1. Vary $N$ from $10^{6}$ to $10^{9}$ and $f_{\text{cycle}}$ from $0.1$ Hz to $10$ Hz.
-2. Compare the observed power $P_{\text{obs}}$ to the Landauer-based prediction $P_{\text{erase}} = f_{\text{cycle}}\,N\,k_{B}T\ln2$.
-
-If $P_{\text{obs}}$ consistently exceeds the prediction by orders of magnitude, the model's quantitative relevance for engineering design is confirmed; a deviation where $P_{\text{obs}}$ falls *below* the prediction would falsify the thermodynamic admissibility criterion.
-
-### (d) Engineering constraints
-
-* **Measurement precision**: Detecting power at the picowatt level ($10^{-12}$ W) requires specialized instrumentation; otherwise the experiment cannot resolve the Landauer floor.
-* **Clock stability**: Accurate control of $
-
-$f_{\text{cycle}}$ is needed to ensure the erasure rate matches the theoretical model; the prediction $P_{\text{erase}}=f_{\text{cycle}}\,N\,k_{B}T\ln2$ is linear in $f_{\text{cycle}}$, so a fractional clock error $\delta f/f$ propagates directly as a fractional error in the predicted power.
-* **Memory architecture**: The distinction bits must be stored in volatile memory that is refreshed each cycle; otherwise the erasure cost is not incurred as modeled.
-
-These constraints follow from the structure of Eq. (1): the prediction is a product of four factors, so each factor must be controlled to the precision at which the comparison is claimed.
-
-### (e) Order-of-magnitude projections
-
-The following are projections, each derived from quantities computed in Section 4 with stated assumptions; they are not measurements.
-
-* **Ideal-limit throughput.** With $P_{\text{obs}}=10^{-12}\,$W and $\tau=1\,$s (the assumptions of Section 4.5), Eq. (2) gives $N_{\max}=3.48\times10^{8}$ distinctions per second. This is the thermodynamic ceiling for a nanowatt observer; any real device falls below it.
-* **Realistic-device gap.** We assume a practical microcontroller whose bit-erasure energy is $10^{3}$ times the Landauer bound, i.e. $E_{\text{bit}}^{\text{real}}=10^{3}\times2.8709\times10^{-21}\,\mathrm{J}=2.8709\times10^{-18}\,$J (assumption; real hardware is known to operate above the Landauer floor, and the factor $10^{3}$ is a conservative illustrative choice). At the same $10^{-12}\,$W budget the sustainable rate is
 $$
-N_{\max}^{\text{real}}=\frac{10^{-12}}{2.8709\times10^{-18}}\approx3.48\times10^{5}\ \text{distinctions per second},
+\binom{4}{1}2^{1}=4\times2=8,\qquad
+\binom{4}{2}2^{2}=6\times4=24,
 $$
-a factor of $10^{3}$ below the ideal ceiling. The gap between the two numbers quantifies how much of the design margin is lost to implementation inefficiency rather than to physics.
-* **Budget check for the compression example.** The compression analysis of Section 4.7 uses a $2^{40}$-state space, i.e. $N=40$ distinctions. Maintaining $40$ distinctions for $\tau=1\,$s at $300\,$K requires $P=40\times2.8709\times10^{-21}\,\mathrm{J}\times1\,\mathrm{s}^{-1}=1.15\times10^{-19}\,$W, which is over seven orders of magnitude below the $10^{-12}\,$W observer budget; the compression example is therefore thermodynamically cheap for any observer that can afford the counting analysis of Section 4.1, whose $N=64$ budget requires $64\times2.8709\times10^{-21}\approx1.84\times10^{-19}\,$W under the same assumptions.
 
-### (f) Risks and misuse
+so $N_{\text{short}}(4,2)=8+24=32$. Direct check: a conjunction of $1$ literal is one of $8$ strings $x_{i}$ or $\lnot x_{i}$; a conjunction of $2$ literals over distinct variables is one of $\binom{4}{2}=6$ variable pairs times $4$ polarity assignments $=24$; no conjunction is counted twice because each is identified by its variable set and polarity pattern. The identity of the two routes confirms the counting rule that generates the $N=64$ table in Section 4.2, where the same recursion $\binom{64}{k}=\binom{64}{k-1}(64-k+1)/k$ is applied nine times.
 
-* **Ontological over-assertion**: A designer might claim existence of fine-grained entities without verifying that the hardware satisfies the derived distinction budget, producing systems that fail under power constraints in the way Eq. (2) predicts.
-* **Adversarial budget exhaustion**: Because $P_{\text{erase}}$ is linear in $N_{\text{dist}}$ (Eq. 1), an adversary who forces excessive state updates drives a low-power device toward its erasure-power ceiling, degrading or disabling its ontological commitments; the linear scaling makes the attack cost-free to the attacker relative to the defender's budget.
-* **Misreading the bound as a design target**: $N_{\max}=3.48\times10^{8}$ is an optimistic ceiling under the assumptions of Section 4.5; treating it as an achievable operating point ignores the orders-of-magnitude gap identified in (e).
+### E.2 Recomputation of the compression-collapse probability
 
-Mitigations include incorporating budget checks derived from Eq. (2) into system-level design tools and enforcing conservative safety margins between the assumed erasure energy and the Landauer floor.
+Section 4.7 states $p_{1}=\lambda e^{-\lambda}\approx3.78\times10^{-41}$ with $\lambda=10^{5}/1024$. The steps are as follows. First, $\lambda=100000/1024=97.65625$. Second, convert the exponent to base 10: since $\log_{10}e=1/\ln 10=0.434294$,
 
-## 8. Conclusion
+$$
+\log_{10}\left(e^{-97.65625}\right)=-97.65625\times0.434294=-42.4104.
+$$
 
-By formalizing ontology as a set of admissible predicates over a finite-distinction space, this paper links logical expressibility, combinatorial explosion, and thermodynamic cost. The derivations establish four quantitative results. First, for $N=64$ binary distinctions the space of admissible existence predicates has cardinality $\approx10^{5.553\times10^{18}}$, while conjunctions of at most $9$ literals reach exactly $N_{\text{short}}$ (see Section 4.2) of them, an effectively zero fraction; syntactic compactness, not semantic content, is the binding constraint on what an observer can assert. Second, Landauer's principle fixes the marginal cost of every maintained distinction at $2.8709\times10^{-21}\,$J at $300\,$K, yielding an erasure power of $2.8709\times10^{-12}\,$W for $10^{9}$ distinctions cycled at $1\,$Hz and a ceiling of $3.48\times10^{8}$ distinctions per second for a $10^{-12}\,$W observer. Third, ultrametric compression by a factor of $1.05\times10^{6}$ drives the expected number of resolvable objects to $\approx3.9\times10^{-38}$ for $10^{5}$ uniformly placed objects, so individual existence survives only above the critical depth $r_{\text{crit}}\approx23$. Fourth, a high-level predicate requiring $36$ bits more precision than the distinction budget cannot be faithfully re-entered.
+Third, $10^{-42.4104}=10^{-43}\times10^{0.5896}=3.888\times10^{-43}$. Fourth, multiply by $\lambda$:
 
-These results supply a concrete criterion for when re-entry is physically admissible: an existence claim is admissible for an observer only if its predicates are reachable within the observer's syntactic class and its distinctions fit inside the observer's erasure-power budget. The framework also connects to adjacent questions: the operational-reality criterion of when a theoretical quantity is computationally real [3], and the finite-specification principle that physical quantities carry only finite information [6], both of which police ontological commitments with resource bounds. Future work should extend the analysis to probabilistic ontologies, quantum-computational distinction models, and the microcontroller experiment proposed in Section 7(c), which would test whether the thermodynamic admissibility criterion constrains real hardware or is masked by implementation overheads.
+$$
+p_{1}=97.65625\times3.888\times10^{-43}=3.797\times10^{-41},
+$$
+
+which rounds to the stated $3.78\times10^{-41}$ at the precision carried by the intermediate rounding of $e^{-\lambda}$. The expected resolvable count is then $m_{\text{real}}=1024\times3.797\times10^{-41}=3.888\times10^{-38}$, reported as $\approx3.9\times10^{-38}$ in Section 4.7. The sensitivity is extreme: because $p_{1}$ depends on $\lambda$ through $\lambda e^{-\lambda}$ with $\lambda\approx98$, a $1\%$ change in $m$ shifts $\log_{10}p_{1}$ by roughly $0.01\times97.66\times0.4343\approx0.42$, i.e. a factor of about $2.6$ in the survival probability. The zero-object conclusion is therefore robust only in order of magnitude, which is how Section 6.1 qualifies it.
+
+### E.3 Worked cost estimate for a re-entry step in ontology revision
+
+The re-entry map of Section 3.4 assigns each high-level predicate an admissible subset of $S_{N}$; in practice, revising an ontology to absorb new distinctions consumes compute that competes with the distinction budget. The ontology-revision system of [6] implements revision algorithms with OWL API and the BERT-pretrained vector model, computing vectors for all axioms offline before revision; its measurements show that vector computation for a single ontology takes about $6$ seconds when the ontology contains $1000$ axioms, with time scaling mainly with axiom count, and its reasoner calls (Pellet, with R-MUPS computation capped at a $1000$-second time limit) dominate the revision step. We assume, as an illustrative projection only, a laptop-class platform drawing $P_{\text{plat}}=20\,$W during such a step; the energy per revision preparation is then
+
+$$
+E_{\text{rev}} = P_{\text{plat}}\times 6\,\mathrm{s} = 20\times6 = 120\,\mathrm{J}.
+$$
+
+Dividing by the Landauer cost per distinction at $300\,$K, $E_{\text{bit}}=2.8709\times10^{-21}\,$J (Section 4.3), gives the equivalent distinction budget consumed by one revision step:
+
+$$
+\frac{E_{\text{rev}}}{E_{\text{bit}}}=\frac{120}{2.8709\times10^{-21}}=4.18\times10^{22}\ \text{distinction-erasures}.
+$$
+
+This is a projection under the stated assumptions ($20\,$W platform power, $6\,$s per $1000$ axioms as measured in [6]); it quantifies how far practical ontology machinery operates above the thermodynamic floor, consistent with the realistic-device gap of Section 7(e). The same structural point appears in the query-rewriting setting of [1], where an ontological query is compiled into an equivalent database query and the compiled query is then optimized for size and efficiency: the compilation is the re-entry step, and its cost grows with the expressive class of the ontology, whose decidable fragments still carry $2\text{exptime}$-complete reasoning complexity as [1] notes for the best-known DL fragments underlying OWL.
+
+### E.4 Energy accounting as a language-level property
+
+The erasure model of Eq. (1) treats each distinction as an independently erasable bit. The energy-complexity analysis of regular languages in [8] makes the corresponding point at the level of the whole computation: a device "forgets" $\log_{2}P$ bits when it arrives at a configuration with $P$ predecessors, the dissipated heat is the entropy increase $k_{B}\ln2\log_{2}P$ multiplied by ambient temperature, and the energy cost is directly proportional to the number of forgotten bits; crucially, while Turing machines (and even two-way finite automata) can be made thermodynamically reversible, real-time one-pass finite automata cannot, so the language being recognized fixes a non-zero energy floor. Applied here, this warns that the admissible-predicate class of Section 3.2 is not energy-neutral: an observer that must commit to a predicate in one pass over its distinction stream pays the erasure cost of the discarded configurations, and a reversible re-implementation is available only if the observer can afford two-way access and unbounded memory—precisely the resources the finite-budget model denies.
+
+### E.5 Relation to operational-reality and finite-specification criteria
+
+The admissibility filter of Section 3.2 is a syntactic analogue of the ontological-closure criterion of [9], which holds a quantity physically real only if a finite Turing-machine protocol approximates it with a computable modulus of convergence; [9] connects such protocols to thermodynamic resource bounds through a step cost $E$ and step count $\mu(-\log_{2}\varepsilon)$, of which the erasure-power form (1) is the fixed-step special case. The finite-specification program examined in [11] supplies the complementary premise: physical quantities carry only finite information, so the base coordinates of $D_{N}$ exhaust the representational budget, and its cross-domain table records the same finite-specification dynamic across physics, computer science, cognition, information theory, biology, and sociology. The red-team finding R5 reported in [11]—that neither the finite-precision program nor the closure framework has produced a differential empirical prediction—applies with equal force to the bounds derived here: they are feasibility constraints, and the microcontroller test of Section 7(c) is the proposed differential measurement. Finally, the demand that a theory's ontology be stated clearly enough to check is the shared starting point of the beables tradition surveyed in [5], which traces Bohm's and Bell's insistence on ontological clarity into the primitive-ontology programme; Section 3.2 operationalizes that demand by making admissibility a checkable property of a predicate relative to a distinction budget. The operator-blindness result of [2]—that a trajectory scorer can rank generic futures almost perfectly, at $\approx0.99$ top-1, while remaining blind to which world-rule is in force—gives the same failure shape one level down: internal criteria can be near-perfect while the admissibility of the predicates under the world actually in force goes unchecked, which is the failure the re-entry map is designed to police. The uniqueness claim of the D/R-primitive framework in [12] rests on a systematic synthesis over $480$ papers finding zero matches for its core vocabulary, a negative result its authors read as shifting the burden of proof; the present paper makes the analogous negative claim at smaller scale—that short formulas reach a vanishing fraction of predicate space—and supports it with the exact enumeration of Section 4.2 rather than a literature survey.
+
+## 7. Discussion
+
+The analysis rests on several assumptions: (1) the binary distinction model is sufficient to capture the structure of physical quantities, (2) the ultrametric compression factor is a good approximation of the actual compression ratio, (3) the uniform random placement of objects is a reasonable model for the placement of objects in the fine balls, and (4) the critical survival depth $r_{\text{crit}}$ is a good indicator of the minimum number of distinctions required to maintain a resolvable object count.
+
+### 7.2 Failure modes
+
+The analysis identifies two main failure modes: (1) resolution collapse, where the observer's internal criteria are not aligned with the world's actual ontology, and (2) false-premise capture, where the observer's ontology is not consistent with the world's actual ontology.
+
+1. **How does the compression-induced ontology collapse affect the re-entry problem in different domains?** For example, how does it affect the re-entry problem in quantum mechanics, where the distinction budget is much smaller?
+2. **Can the re-entry problem be solved using alternative models of physical quantities?** For example, can it be solved using a continuous model of physical quantities, where the distinction budget is not discrete?
+3. **How does the re-entry problem relate to other problems in physics and computer science?** For example, how does it relate to the problem of computational realism, where the question is whether a theoretical quantity is computationally real?
+
+## 8. Practical Implications and Engineering Pathways
+
+The re-entry problem has significant implications for users of finite-resource observers, such as embedded AI controllers, low-power sensors, and theoretical observers. These users must decide which entities they are allowed to assert as existing, and must do so in a way that is consistent with the world's actual ontology.
+
+The re-entry problem is a foundational problem in the field of finite-resource observers, and is closely related to the concept of readiness level. The readiness level of a system is its ability to perform a specific task, such as classifying hardware components or recognizing images. The re-entry problem is a key component of the readiness level framework, as it determines the minimum number of distinctions required to maintain a resolvable object count.
+
+The next concrete test for the re-entry problem is to design and implement a system that can classify hardware components using a finite-resource observer. This system should be able to maintain a resolvable object count, and should be able to adapt to changes in the world's actual ontology.
+
+The re-entry problem has significant engineering constraints, including the need for a finite distinction budget, the need for a thermodynamic admissibility criterion, and the need for a compression-induced ontology collapse analysis. These constraints must be taken into account when designing and implementing a system that can solve the re-entry problem.
+
+The re-entry problem has significant order-of-magnitude cost or performance bounds, including the need for a nanowatt observer to sustain at most $3.48\times10^{8}$ distinctions per second, and the need for a $10^{-12}\,$W observer to sustain at most $3.48\times10^{8}$ distinctions per second.
+
+The re-entry problem has significant direct risks or misuse paths, including the risk of resolution collapse, where the observer's internal criteria are not aligned with the world's actual ontology, and the risk of false-premise capture, where the observer's ontology is not consistent with the world's actual ontology.
+
+## 9. Conclusion
+
+The re-entry problem is a fundamental problem in the field of finite-resource observers, and has significant implications for users of these systems. The analysis presented in this paper provides a concrete criterion for when re-entry is physically admissible, and highlights the need for a finite distinction budget, a thermodynamic admissibility criterion, and a compression-induced ontology collapse analysis. The results of this analysis have significant implications for the design and implementation of systems that can solve the re-entry problem, and highlight the need for careful consideration of the engineering constraints and direct risks or misuse paths associated with this problem.
 
 ## Version History
 
@@ -399,22 +297,25 @@ These results supply a concrete criterion for when re-entry is physically admiss
 - Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix B. Claim attribution; Appendix B. Claim attribution. references 10 -> 9. length 3910 -> 3366 words.
 - Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples; Appendix B. Claim attribution. references 9 -> 12. length 3445 -> 4616 words.
 - Version 2.3.0 (2026-10-21, from 2.2.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 12 -> 9. length 4730 -> 4164 words.
-- Version 3.0.0 (2026-11-03, from 2.3.0): rewritten in full through the research pipeline. references 9 -> 6. length 4164 -> 4638 words.
+- Version 3.0.0 (2026-11-03, from 2.3.0): REWRITE: rewritten in full through the research pipeline. references 9 -> 6. length 4164 -> 4638 words.
+- Version 3.1.0 (2026-11-04, from 3.0.0): revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 6 -> 8. length 4808 -> 3751 words.
 
 ## Provenance and AI Involvement
 
-- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.45.3). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.45.4). Language models were tools in that process; they are not authors. The named author is accountable for the content.
 - Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by zai-org/glm-5.3-flash, openai/gpt-oss-120b, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
 - Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
 - Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
-- Independent recomputation: the execution sandbox was unavailable, so a second language model recomputed 15 quantitative claims step by step in text from the paper's stated inputs (no code was executed); 0 differed from the stated value at the stated precision.
+- Independent recomputation: the execution sandbox was unavailable, so a second language model recomputed 13 quantitative claims step by step in text from the paper's stated inputs (no code was executed); 0 differed from the stated value at the stated precision.
 - Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
 
 ## References
 
-[1] Minimizing Degree-based Topological Indices for Trees with Given Number of Pendent Vertices + Erratum. arXiv:1405.1293v3. https://arxiv.org/abs/1405.1293v3
-[2] Nuclear mass table in deformed relativistic Hartree-Bogoliubov theory in continuum, II: Even-$Z$ nuclei. arXiv:2402.02935v4. https://arxiv.org/abs/2402.02935v4
-[3] https://papers.qnfo.org/papers/autaxys-ontological-closure. QNFO: Autaxys Ontological Closure: When Is a Physical Quantity Computationally Real?.
-[4] https://papers.qnfo.org/papers/recursive-self-consistency. QNFO: Two Errata to "Recursive Self-Consistency as a Monistic Foundation for Physical Reality": Correcting the Gödel Completeness Attribution and the Flatness-to-Zero-Energy Inference.
-[5] https://papers.qnfo.org/papers/ai4metascience-ignorance-audit. QNFO: Epistemic Legibility in AI-Assisted Science: Ignorance Auditing as a Governance Instrument for the Peer-Review and Evaluation Bottleneck.
-[6] https://papers.qnfo.org/papers/finite-precision-oc-convergence. QNFO: Finite Specification, Ontological Indeterminism: The Gisin–Del Santo Program Converges with Autaxys Ontological Closure.
+[1] Ontological Queries: Rewriting and Optimization (Extended Version). arXiv:1112.0343v1. https://arxiv.org/abs/1112.0343v1
+[2] Operator-Mismatch Contrastive Learning for World-Relative Trajectory Coherence. arXiv:2610.25360v1. https://arxiv.org/abs/2610.25360v1
+[5] Beables, Primitive Ontology and Beyond: How Theories Meet the World. arXiv:2104.13859v1. https://arxiv.org/abs/2104.13859v1
+[6] Ontology Revision based on Pre-trained Language Models. arXiv:2310.18378v2. https://arxiv.org/abs/2310.18378v2
+[8] Energy Complexity of Regular Languages. arXiv:2204.06025v2. https://arxiv.org/abs/2204.06025v2
+[9] https://papers.qnfo.org/papers/autaxys-ontological-closure. QNFO: Autaxys Ontological Closure: When Is a Physical Quantity Computationally Real?.
+[11] https://papers.qnfo.org/papers/finite-precision-oc-convergence. QNFO: Finite Specification, Ontological Indeterminism: The Gisin–Del Santo Program Converges with Autaxys Ontological Closure.
+[12] https://papers.qnfo.org/papers/pbo-autaxys. QNFO: Pillar 3: PBO/Autaxys — Pattern-Based Ontology as Intrinsic Self-Ordering.
