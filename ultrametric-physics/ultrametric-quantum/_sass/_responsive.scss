@@ -1,0 +1,27 @@
+// ─── Responsive ──────────────────────────────────
+@media (max-width: $bp-tablet) {
+  .sidebar { transform: translateX(-100%); &.open { transform: translateX(0); } }
+  .main-content { margin-left: 0; width: 100%; max-width: 100%; padding: 0 $sp-md $sp-2xl; margin-top: $topbar-height; }
+  .mobile-top-bar { display: flex; }
+  .hero { margin: 0 calc(-1 * #{$sp-md}) $sp-xl; padding: $sp-2xl $sp-md $sp-xl; border-radius: 0;
+    h1 { font-size: 1.6rem; }
+    .subtitle { font-size: 1rem; }
+    &::after { left: $sp-md; right: $sp-md; }
+  }
+  .chapter-nav-inner { flex-direction: column; gap: $sp-sm; }
+  .chapter-nav-btn { width: 100%; justify-content: center; }
+  .fab { bottom: $sp-md; right: $sp-md; }
+  .footer-content { flex-direction: column; }
+}
+@media (max-width: $bp-phone) {
+  .main-content { padding: 0 $sp-sm $sp-lg; }
+  .hero { margin: 0 calc(-1 * #{$sp-sm}) $sp-md; padding: $sp-xl $sp-sm;
+    h1 { font-size: 1.4rem; }
+    .subtitle { font-size: 0.9rem; }
+    &::after { left: $sp-sm; right: $sp-sm; }
+  }
+  h2 { font-size: 1.2rem; }
+  h3 { font-size: 1.05rem; }
+  table { font-size: 0.78rem; th, td { padding: $sp-xs $sp-sm; } }
+  pre code { font-size: 0.76rem; }
+}

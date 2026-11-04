@@ -1,0 +1,331 @@
+{
+  "core": [
+    {
+      "title": "Possibility of obtaining a non-relativistic proof of the spin-statistics theorem in the Galilean frame",
+      "authors": [
+        "Gabriel D. Puccini",
+        "Hector Vucetich"
+      ],
+      "summary": "Here we explore the possibility to obtain a non-relativistic proof of the spin-statistics theorem. First, we examine the structure of axioms and theorems involved in a relativistic Schwinger-like proof of the spin-statistics relation. Second, starting from this structure we identify the relativistic",
+      "id": "0407208v3",
+      "year": "2004"
+    },
+    {
+      "title": "A Convex-Analytical Proof of the Fundamental Theorem of Algebra",
+      "authors": [
+        "Clément de Seguins Pazzis"
+      ],
+      "summary": "A weak version of Birkhoff's generalization of the Perron-Frobenius theorem states that every endomorphism of a finite-dimensional real vector that leaves invariant a non-degenerate closed convex cone has an eigenvector in that cone.   Here, we show that this theorem, whose proof relies only upon ba",
+      "id": "2504.06695v1",
+      "year": "2025"
+    },
+    {
+      "title": "An Inductive Proof of the Berry-Esseen Theorem for Character Ratios",
+      "authors": [
+        "Jason Fulman"
+      ],
+      "summary": "Bolthausen used a variation of Stein's method to give an inductive proof of the Berry-Esseen theorem for sums of independent, identically distributed random variables. We modify this technique to prove a Berry-Esseen theorem for character ratios of a random representation of the symmetric group on t",
+      "id": "0503227v2",
+      "year": "2005"
+    },
+    {
+      "title": "Weyl-gauge invariant proof of the Spin-Statistics Theorem",
+      "authors": [
+        "Enrico Santamato",
+        "Francesco De Martini"
+      ],
+      "summary": "The traditional standard theory of quantum mechanics is unable to solve the spin-statistics problem, i.e. to justify the utterly important \\qo{Pauli Exclusion Principle} but by the adoption of the complex standard relativistic quantum field theory. In a recent paper (Ref. [1]) we presented a proof o",
+      "id": "1604.06253v1",
+      "year": "2016"
+    },
+    {
+      "title": "An Algebraic Spin and Statistics Theorem",
+      "authors": [
+        "Daniele Guido",
+        "Roberto Longo"
+      ],
+      "summary": "A spin-statistics theorem and a PCT theorem are obtained in the context of the superselection sectors in Quantum Field Theory on a 4-dimensional space-time. Our main assumption is the requirement that the modular groups of the von Neumann algebras of local observables associated with wedge regions a",
+      "id": "9406005v2",
+      "year": "1994"
+    },
+    {
+      "title": "Friendship theorem: A combinatorial proof",
+      "authors": [
+        "Vineeth Chintala"
+      ],
+      "summary": "We present an elementary combinatorial proof of the celebrated Friendship theorem. The proof involves looking at independent sets and constructing a bound on their size which forces a contradiction.",
+      "id": "2402.05504v2",
+      "year": "2024"
+    },
+    {
+      "title": "A new proof of the Nonsolvable Signalizer Functor Theorem",
+      "authors": [
+        "Paul Flavell"
+      ],
+      "summary": "The Signalizer Functor Method as developed by Gorenstein and Walter played a fundamental role in the first proof of the Classification of the Finite Simple Groups. It plays a similar role in the new proof of the Classification in the Gorenstein-Lyons-Solomon book series. The key results are Glauberm",
+      "id": "1609.08311v1",
+      "year": "2016"
+    },
+    {
+      "title": "A Simple Proof of Sharkovsky's Theorem Rerevisited",
+      "authors": [
+        "Bau-Sen Du"
+      ],
+      "summary": "Based on various strategies and a new general doubling operator, we obtain several simple proofs of the celebrated Sharkovsky's cycle coexistence theorem. A simple non-directed graph proof which is especially suitable for a calculus course right after the introduction of Intermediate Value Theorem i",
+      "id": "0711.3892v9",
+      "year": "2007"
+    }
+  ],
+  "violations": [
+    {
+      "title": "An Algebraic Spin and Statistics Theorem",
+      "authors": [
+        "Daniele Guido",
+        "Roberto Longo"
+      ],
+      "summary": "A spin-statistics theorem and a PCT theorem are obtained in the context of the superselection sectors in Quantum Field Theory on a 4-dimensional space-time. Our main assumption is the requirement that the modular groups of the von Neumann algebras of local observables associated with wedge regions a",
+      "id": "9406005v2",
+      "year": "1994"
+    },
+    {
+      "title": "Spin and Statistics and First Principles",
+      "authors": [
+        "Sergio Doplicher"
+      ],
+      "summary": "It was shown in the early Seventies that, in Local Quantum Theory (that is the most general formulation of Quantum Field Theory, if we leave out only the unknown scenario of Quantum Gravity) the notion of Statistics can be grounded solely on the local observable quantities (without assuming neither ",
+      "id": "0907.5313v2",
+      "year": "2009"
+    },
+    {
+      "title": "Spin and statistics in quantum gravity",
+      "authors": [
+        "H. F. Dowker",
+        "R. D. Sorkin"
+      ],
+      "summary": "We present a review of the spin and statistics of topological geons, particles in 3+1 quantum gravity. They can have half-odd-integral spin and fermionic statistics and since the underlying gravitational field is tensorial and bosonic, this is an example of ``emergent'' non-trivial spin and statisti",
+      "id": "0101042v1",
+      "year": "2001"
+    },
+    {
+      "title": "Simulation of braiding anyons using Matrix Product States",
+      "authors": [
+        "Babatunde M. Ayeni",
+        "Sukhwinder Singh",
+        "Robert N. C. Pfeifer"
+      ],
+      "summary": "Anyons exist as point like particles in two dimensions and carry braid statistics which enable interactions that are independent of the distance between the particles. Except for a relatively few number of models which are analytically tractable, much of the physics of anyons remain still unexplored",
+      "id": "1509.00903v2",
+      "year": "2015"
+    },
+    {
+      "title": "Fermionic anyons: entanglement and quantum computation from a resource-theoretic perspective",
+      "authors": [
+        "Allan Tosta",
+        "Antônio C. Lourenço",
+        "Daniel Brod"
+      ],
+      "summary": "Quantum computational models can be approached via the lens of resources needed to perform computational tasks, where a computational advantage is achieved by consuming specific forms of quantum resources, or, conversely, resource-free computations are classically simulable. Can we similarly identif",
+      "id": "2306.00795v2",
+      "year": "2023"
+    },
+    {
+      "title": "Experimental simulation of fractional statistics of abelian anyons in the Kitaev lattice-spin model",
+      "authors": [
+        "Jiang-Feng Du",
+        "Jing Zhu",
+        "Ming-Guang Hu"
+      ],
+      "summary": "In two-dimensions, the laws of physics even permit the existence of anyons which exhibit fractional statistics ranging continuously from bosonic to fermionic behaviour. They have been responsible for the fractional quantum Hall effect and proposed as candidates for naturally fault-tolerant quantum c",
+      "id": "0712.2694v1",
+      "year": "2007"
+    },
+    {
+      "title": "A Novel Spin-Statistics Theorem in (2 + 1)d Chern-Simons Gravity",
+      "authors": [
+        "A. P. Balachandran",
+        "E. Batista",
+        "I. P. Costa e Silva"
+      ],
+      "summary": "It has been known for some time that topological geons in quantum gravity may lead to a complete violation of the canonical spin-statistics relation : there may exist no connection between spin and statistics for a pair of geons. We present an algebraic description of quantum gravity in (2 + 1)d bas",
+      "id": "0005286v2",
+      "year": "2000"
+    },
+    {
+      "title": "The Spin-Statistics Theorem for Anyons and Plektons in d=2+1",
+      "authors": [
+        "Jens Mund"
+      ],
+      "summary": "We prove the spin-statistics theorem for massive particles obeying braid group statistics in three-dimensional Minkowski space. We start from first principles of local relativistic quantum theory. The only assumption is a gap in the mass spectrum of the corresponding charged sector, and a restrictio",
+      "id": "0801.3621v2",
+      "year": "2008"
+    }
+  ],
+  "circumvention": [
+    {
+      "title": "Spin and statistics in quantum gravity",
+      "authors": [
+        "H. F. Dowker",
+        "R. D. Sorkin"
+      ],
+      "summary": "We present a review of the spin and statistics of topological geons, particles in 3+1 quantum gravity. They can have half-odd-integral spin and fermionic statistics and since the underlying gravitational field is tensorial and bosonic, this is an example of ``emergent'' non-trivial spin and statisti",
+      "id": "0101042v1",
+      "year": "2001"
+    },
+    {
+      "title": "A Spin-Statistics Theorem for Certain Topological Geons",
+      "authors": [
+        "H. F. Dowker",
+        "R. D. Sorkin"
+      ],
+      "summary": "We review the mechanism in quantum gravity whereby topological geons, particles made from non-trivial spatial topology, are endowed with nontrivial spin and statistics. In a theory without topology change there is no obstruction to ``anomalous'' spin-statistics pairings for geons. However, in a sum-",
+      "id": "9609064v1",
+      "year": "1996"
+    },
+    {
+      "title": "Spin and Statistics and First Principles",
+      "authors": [
+        "Sergio Doplicher"
+      ],
+      "summary": "It was shown in the early Seventies that, in Local Quantum Theory (that is the most general formulation of Quantum Field Theory, if we leave out only the unknown scenario of Quantum Gravity) the notion of Statistics can be grounded solely on the local observable quantities (without assuming neither ",
+      "id": "0907.5313v2",
+      "year": "2009"
+    },
+    {
+      "title": "Topological Spin-Statistics Theorem for Strings",
+      "authors": [
+        "A. P. Balachandran",
+        "W. D. McGlinn",
+        "L. O'Raifeartaigh"
+      ],
+      "summary": "Recently, a topological proof of the spin-statistics Theorem has been proposed for a system of point particles which does not require relativity or field theory, but assumes the existence of antiparticles. We extend this proof to a system of string loops in three space dimensions and show that by as",
+      "id": "9202052v1",
+      "year": "1992"
+    },
+    {
+      "title": "Differential Degradation Vulnerabilities in Censorship Circumvention Systems",
+      "authors": [
+        "Zhen Sun",
+        "Vitaly Shmatikov"
+      ],
+      "summary": "Several recently proposed censorship circumvention systems use encrypted network channels of popular applications to hide their communications. For example, a Tor pluggable transport called Snowflake uses the WebRTC data channel, while a system called Protozoa substitutes content in a WebRTC video-c",
+      "id": "2409.06247v1",
+      "year": "2024"
+    },
+    {
+      "title": "Topological phenomena at topological defects",
+      "authors": [
+        "Zhi-Kang Lin",
+        "Qiang Wang",
+        "Yang Liu"
+      ],
+      "summary": "There are two prominent applications of the mathematical concept of topology to the physics of materials: band topology, which classifies different topological insulators and semimetals, and topological defects that represent immutable deviations of a solid lattice from its ideal crystalline form. W",
+      "id": "2208.05082v1",
+      "year": "2022"
+    },
+    {
+      "title": "Detecting Anti-dumping Circumvention: A Network Approach",
+      "authors": [
+        "Luca Barbaglia",
+        "Christophe Croux",
+        "Ines Wilms"
+      ],
+      "summary": "Despite the increasing integration of the global economic system, anti-dumping measures are a common tool used by governments to protect their national economy. In this paper, we propose a methodology to detect cases of anti-dumping circumvention through re-routing trade via a third country. Based o",
+      "id": "2207.05394v1",
+      "year": "2022"
+    },
+    {
+      "title": "Just add WATER: WebAssembly-based Circumvention Transports",
+      "authors": [
+        "Erik Chi",
+        "Gaukas Wang",
+        "J. Alex Halderman"
+      ],
+      "summary": "As Internet censors rapidly evolve new blocking techniques, circumvention tools must also adapt and roll out new strategies to remain unblocked. But new strategies can be time consuming for circumventors to develop and deploy, and usually an update to one tool often requires significant additional e",
+      "id": "2312.00163v3",
+      "year": "2023"
+    }
+  ],
+  "photonic": [
+    {
+      "title": "An Overview of the Anomalous Soft Photons in Hadron Production",
+      "authors": [
+        "Cheuk-Yin Wong"
+      ],
+      "summary": "Productions of soft photon with low transverse momenta in high-energy hadron-hadron collisions and $e^+$-$e^-$ annihilations indicate that they are consistently produced in excess of what are predicted by electromagnetic bremsstrahlung when hadrons (mostly mesons) are produced, but they agree with e",
+      "id": "1404.0040v1",
+      "year": "2014"
+    },
+    {
+      "title": "Comparison of Deep Inelastic Electron-Photon Scattering Data with the Herwig and Phojet Monte Carlo Models",
+      "authors": [
+        " ALEPH Collaboration",
+        " L3 Collaboration",
+        " OPAL Collaboration"
+      ],
+      "summary": "Deep inelastic electron-photon scattering is studied in the Q**2 range from 1.2 to 30 GeV**2 using the LEP1 data taken with the ALEPH, L3 and OPAL detectors at centre-of-mass energies close to the mass of the Z boson. Distributions of the measured hadronic final state are corrected to the hadron lev",
+      "id": "0010041v1",
+      "year": "2000"
+    },
+    {
+      "title": "Spin and statistics in quantum gravity",
+      "authors": [
+        "H. F. Dowker",
+        "R. D. Sorkin"
+      ],
+      "summary": "We present a review of the spin and statistics of topological geons, particles in 3+1 quantum gravity. They can have half-odd-integral spin and fermionic statistics and since the underlying gravitational field is tensorial and bosonic, this is an example of ``emergent'' non-trivial spin and statisti",
+      "id": "0101042v1",
+      "year": "2001"
+    },
+    {
+      "title": "Fermi-point scenario for emergent gravity",
+      "authors": [
+        "G. E. Volovik"
+      ],
+      "summary": "Let us assume that gravity is an emergent low-energy phenomenon arising from a topologically stable defect in momentum space -- the Fermi point. What are the consequences? We discuss the natural values of fermion masses and cosmological constant; flatness of the Universe; bounds on Lorentz violation",
+      "id": "0709.1258v3",
+      "year": "2007"
+    },
+    {
+      "title": "Developmentally motivated emergence of compositional communication via template transfer",
+      "authors": [
+        "Tomasz Korbak",
+        "Julian Zubek",
+        "Łukasz Kuciński"
+      ],
+      "summary": "This paper explores a novel approach to achieving emergent compositional communication in multi-agent systems. We propose a training regime implementing template transfer, the idea of carrying over learned biases across contexts. In our method, a sender-receiver pair is first trained with disentangl",
+      "id": "1910.06079v1",
+      "year": "2019"
+    },
+    {
+      "title": "Quantum properties of general gauge theories with composite and external fields",
+      "authors": [
+        "S. Falkenberg",
+        "B. Geyer",
+        "P. Moshin"
+      ],
+      "summary": "The generating functionals of Green's functions with composite and external fields are considered in the framework of BV and BLT quantization methods for general gauge theories. The corresponding Ward identities are derived and the gauge dependence is investigated",
+      "id": "9712204v3",
+      "year": "1997"
+    },
+    {
+      "title": "Inevitable emergence of composite gauge bosons",
+      "authors": [
+        "Mahiko Suzuki"
+      ],
+      "summary": "A simple theorem is proved: When a gauge-invariant local field theory is written in terms of matter fields alone, a composite gauge boson or bosons must be formed dynamically. The theorem results from the fact that the Noether current vanishes in such theories. The proof is carried out by use of the",
+      "id": "1707.01589v1",
+      "year": "2017"
+    },
+    {
+      "title": "Measuring non-trivial compositionality in emergent communication",
+      "authors": [
+        "Tomasz Korbak",
+        "Julian Zubek",
+        "Joanna Rączaszek-Leonardi"
+      ],
+      "summary": "Compositionality is an important explanatory target in emergent communication and language evolution. The vast majority of computational models of communication account for the emergence of only a very basic form of compositionality: trivial compositionality. A compositional protocol is trivially co",
+      "id": "2010.15058v2",
+      "year": "2020"
+    }
+  ]
+}

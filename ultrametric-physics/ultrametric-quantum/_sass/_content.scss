@@ -1,0 +1,54 @@
+// ─── Content ────────────────────────────────────
+// In-page TOC
+.inpage-toc {
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: $sp-lg $sp-xl;
+  margin-bottom: $sp-xl;
+  box-shadow: var(--shadow-sm);
+  
+  .toc-title {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--color-text-muted); margin-bottom: $sp-sm;
+  }
+}
+.toc-list {
+  a {
+    display: block; padding: 3px 0; font-size: 0.88rem; color: var(--color-text-secondary);
+    border-left: 2px solid transparent; padding-left: $sp-sm; transition: all $transition-fast;
+    &:hover { color: var(--color-accent); text-decoration: none; }
+    &.active { color: var(--color-accent); border-left-color: var(--color-accent); font-weight: 600; }
+  }
+  .toc-h2 { padding-left: $sp-sm; font-weight: 500; }
+  .toc-h3 { padding-left: $sp-xl; font-size: 0.82rem; }
+}
+
+// Tables
+table {
+  width: 100%; border-collapse: collapse; margin: $sp-lg 0; font-size: 0.88rem;
+  border-radius: 10px; overflow: hidden; border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  
+  thead {
+    background: var(--color-table-header);
+    th { padding: $sp-sm $sp-md; text-align: left; font-weight: 700; color: var(--color-heading); border-bottom: 2px solid var(--color-border); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+  }
+  tbody {
+    tr { border-bottom: 1px solid var(--color-border-light); transition: background $transition-fast;
+      &:last-child { border-bottom: none; }
+      &:nth-child(even) { background: var(--color-table-stripe); }
+      &:hover { background: var(--color-table-hover); }
+    }
+    td { padding: $sp-sm $sp-md; vertical-align: top; }
+  }
+}
+
+// Definition lists
+dl { margin: $sp-lg 0; 
+  dt { font-weight: 700; margin-top: $sp-md; font-size: 0.9rem; color: var(--color-heading); }
+  dd { margin-left: $sp-xl; color: var(--color-text-secondary); margin-bottom: $sp-sm; }
+}
+
+// Content-visibility optimization
+h2 + *, h3 + * { content-visibility: auto; contain-intrinsic-size: 200px; }

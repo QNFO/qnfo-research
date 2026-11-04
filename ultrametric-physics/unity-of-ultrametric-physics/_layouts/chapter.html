@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:true,tags:'ams'},svg:{fontCache:'global'},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}};</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="site-title">Ultrametricity</a>
+      <button class="nav-toggle">☰</button>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <div class="nav-dropdown"><span>Contents ▾</span><div class="dropdown-content">
+          <a href="{{ '/chapters/00-prologue/' | relative_url }}">Prologue</a>
+          <a href="{{ '/chapters/01-sets-numbers/' | relative_url }}">1. Sets &amp; Numbers</a>
+          <a href="{{ '/chapters/02-distance-metrics/' | relative_url }}">2. Distance</a>
+          <a href="{{ '/chapters/03-ultrametric-inequality/' | relative_url }}">3. Ultrametric</a>
+          <a href="{{ '/chapters/04-p-adic-numbers/' | relative_url }}">4. p-adic</a>
+          <a href="{{ '/chapters/05-bruhat-tits-tree/' | relative_url }}">5. Tree</a>
+          <a href="{{ '/chapters/06-ultrametric-qm/' | relative_url }}">6. QM</a>
+          <a href="{{ '/chapters/07-ultrametric-qft/' | relative_url }}">7. QFT</a>
+          <a href="{{ '/chapters/08-adelic-theory/' | relative_url }}">8. Adelic</a>
+          <a href="{{ '/chapters/13-quantum-computation/' | relative_url }}">13. QC</a>
+          <a href="{{ '/chapters/16-experimental-protocols/' | relative_url }}">16. Experiments</a>
+          <a href="{{ '/chapters/appendix-a-proofs/' | relative_url }}">A: Proofs</a>
+        </div></div>
+      </div>
+    </div>
+  </nav>
+  <main class="content">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    <nav class="chapter-nav">
+      {% if page.previous_chapter %}<a href="{{ page.previous_chapter | relative_url }}">← {{ page.previous_title | default: "Previous" }}</a>{% endif %}
+      {% if page.next_chapter %}<a href="{{ page.next_chapter | relative_url }}">{{ page.next_title | default: "Next" }} →</a>{% endif %}
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Rowan Brad Quni-Gudzinas. <a href="https://github.com/rwnq8/unity-of-ultrametric-physics">GitHub</a></p>
+  </footer>
+  <script>document.querySelector('.nav-toggle').addEventListener('click',function(){document.querySelector('.nav-links').classList.toggle('active');});</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+title: Ultrametric Quantum Computation
+description: An MVP Program for Passive Geometric Fault Tolerance — a comprehensive case for hierarchical tree-structured quantum hardware.
+baseurl: "/ultrametric-quantum"
+url: "https://rwnq8.github.io"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  footnote_backlink: "↩"
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

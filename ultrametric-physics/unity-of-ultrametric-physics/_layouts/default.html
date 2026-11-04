@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$$'],['\\[','\\]']], processEscapes: true, tags: 'ams' },
+      svg: { fontCache: 'global' },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="site-title">Ultrametricity</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <div class="nav-dropdown">
+          <span>Contents ▾</span>
+          <div class="dropdown-content">
+            <a href="{{ '/chapters/00-prologue/' | relative_url }}">Prologue</a>
+            <a href="{{ '/chapters/01-sets-numbers/' | relative_url }}">1. Sets &amp; Numbers</a>
+            <a href="{{ '/chapters/02-distance-metrics/' | relative_url }}">2. Distance &amp; Metrics</a>
+            <a href="{{ '/chapters/03-ultrametric-inequality/' | relative_url }}">3. Ultrametric Inequality</a>
+            <a href="{{ '/chapters/04-p-adic-numbers/' | relative_url }}">4. p-adic Universe</a>
+            <a href="{{ '/chapters/05-bruhat-tits-tree/' | relative_url }}">5. Bruhat-Tits Tree</a>
+            <a href="{{ '/chapters/06-ultrametric-qm/' | relative_url }}">6. Ultrametric QM</a>
+            <a href="{{ '/chapters/07-ultrametric-qft/' | relative_url }}">7. Ultrametric QFT</a>
+            <a href="{{ '/chapters/08-adelic-theory/' | relative_url }}">8. Adelic Theory</a>
+            <a href="{{ '/chapters/09-spacetime-tree/' | relative_url }}">9. Spacetime as Tree</a>
+            <a href="{{ '/chapters/10-standard-model/' | relative_url }}">10. Standard Model</a>
+            <a href="{{ '/chapters/11-unity-equations/' | relative_url }}">11. Unity Equations</a>
+            <a href="{{ '/chapters/12-quantum-gravity/' | relative_url }}">12. Quantum Gravity</a>
+            <a href="{{ '/chapters/13-quantum-computation/' | relative_url }}">13. Quantum Computation</a>
+            <a href="{{ '/chapters/14-computational-architecture/' | relative_url }}">14. Architecture</a>
+            <a href="{{ '/chapters/15-physical-architectures/' | relative_url }}">15. Physical Realization</a>
+            <a href="{{ '/chapters/16-experimental-protocols/' | relative_url }}">16. HEP Protocols</a>
+            <a href="{{ '/chapters/17-cosmological-probes/' | relative_url }}">17. Cosmology</a>
+            <a href="{{ '/chapters/18-tabletop-experiments/' | relative_url }}">18. Tabletop</a>
+            <a href="{{ '/chapters/appendix-a-proofs/' | relative_url }}">A: Proofs</a>
+            <a href="{{ '/chapters/appendix-d-glossary/' | relative_url }}">D: Glossary</a>
+          </div>
+        </div>
+        <a href="https://github.com/rwnq8/unity-of-ultrametric-physics">GitHub</a>
+      </div>
+    </div>
+  </nav>
+  <main class="content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Rowan Brad Quni-Gudzinas. ORCID: <a href="https://orcid.org/0009-0002-4317-5604">0009-0002-4317-5604</a> | <a href="https://github.com/rwnq8/unity-of-ultrametric-physics">GitHub</a></p>
+  </footer>
+  <script>document.querySelector('.nav-toggle').addEventListener('click',function(){document.querySelector('.nav-links').classList.toggle('active');});</script>
+</body>
+</html>

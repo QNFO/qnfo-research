@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>QNFO 100-Year Forecast v2.0</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#c9d1d9;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff;--red:#f85149;--yellow:#d2991d;--purple:#bc8cff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:2rem}
+header{text-align:center;padding:2rem 0;border-bottom:1px solid var(--border);margin-bottom:2rem}
+header h1{font-size:1.8rem;color:var(--blue)}
+.ev-row{display:flex;justify-content:center;gap:2rem;margin:2rem 0;flex-wrap:wrap}
+.ev-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;text-align:center;min-width:140px}
+.ev-card .label{color:var(--muted);font-size:.8rem;text-transform:uppercase}
+.ev-card .value{font-size:2.5rem;font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin:2rem 0}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem}
+.card h3{color:var(--blue);margin-bottom:1rem;font-size:1rem}
+.row{display:flex;justify-content:space-between;padding:.5rem 0;border-bottom:1px solid var(--border)}
+.row:last-child{border-bottom:none}
+.bar{height:8px;background:var(--border);border-radius:4px;overflow:hidden;margin:.5rem 0}
+.bar-fill{height:100%;border-radius:4px}
+.bar-green{background:var(--green)}
+.bar-blue{background:var(--blue)}
+.bar-red{background:var(--red)}
+.bar-purple{background:var(--purple)}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th,td{text-align:left;padding:.75rem;border-bottom:1px solid var(--border)}
+th{color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:.75rem;font-weight:600}
+.badge-green{background:rgba(63,185,80,.15);color:var(--green)}
+.badge-red{background:rgba(248,81,73,.15);color:var(--red)}
+.badge-yellow{background:rgba(210,153,29,.15);color:var(--yellow)}
+.badge-blue{background:rgba(88,166,255,.15);color:var(--blue)}
+.mermaid-container{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin:2rem 0;overflow-x:auto}
+.mermaid-container h3{color:var(--blue);margin-bottom:1rem}
+.footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 0;border-top:1px solid var(--border);margin-top:3rem}
+</style>  <meta property="og:title" content="QNFO 100-Year Paradigm Forecast v2.0 — Interactive Dashboard">
+  <meta property="og:description" content="Calibrated Bayesian cascade model across 4 eras (2026-2126+). Cascade EV: 6.5% [4-9%]. 8 attack vectors. Interactive Mermaid DAG.">
+  <meta property="og:image" content="https://cfpe-dashboard.pages.dev/og-image.png">
+  <meta property="og:url" content="https://cfpe-dashboard.pages.dev">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="QNFO 100-Year Paradigm Forecast v2.0">
+  <meta name="twitter:description" content="Calibrated Bayesian cascade: 6.5% EV. 4 eras. 8 attack vectors. CMB-S4 is the linchpin.">
+  <meta name="twitter:image" content="https://cfpe-dashboard.pages.dev/og-image.png">
+  <meta name="description" content="QNFO 100-Year Paradigm Forecast v2.0: Calibrated Bayesian cascade model across 4 eras (2026-2126+). Cascade EV: 6.5% [4-9%]. 8 independent attack vectors. Interactive Mermaid DAG.">
+  <meta name="keywords" content="quantum computing,paradigm forecasting,Bayesian cascade,scenario testing,superdeterminism,FCI,bio-spintronics,geometric constants,QNFO">
+  <link rel="canonical" href="https://cfpe-dashboard.pages.dev">
+</head>
+<body><div class="container">
+<header><h1>QNFO 100-Year Paradigm Forecast v2.0</h1><p>Calibrated Bayesian Cascade | 4 Eras · 2026–2126+ | 8 Attack Vectors</p></header>
+<div class="ev-row"><div class="ev-card"><div class="label">Full Cascade EV</div><div class="value" style="color:var(--green)">6.5%</div></div><div class="ev-card"><div class="label">Range</div><div class="value" style="color:var(--yellow)">4-9%</div></div><div class="ev-card"><div class="label">Eras</div><div class="value" style="color:var(--blue)">4</div></div><div class="ev-card"><div class="label">Attack Vectors</div><div class="value" style="color:var(--purple)">8</div></div></div>
+<div class="mermaid-container"><h3>Cascade DAG (v2.0 Calibrated)</h3><div class="mermaid">graph TD
+E1O["Era 1: FCI Opt (8%)"]-->|35%|E2O["Era 2: Bio-Spin (15%)"]
+E1B["Era 1: Continuity (82%)"]-->|15%|E2B["Era 2: Gate QC (64%)"]
+E1P["Era 1: Stagnation (10%)"]-->|3%|E2P["Era 2: Ceiling (21%)"]
+NV["NV-Diamond (15%)"]-->|50%|E3O["Era 3: Hydro (33%)"]
+E2O-->|42%|E3O
+E2B-->|28%|E3B["Era 3: Std QM (47%)"]
+E2P-->|5%|E3P["Era 3: Null (35%)"]
+E3O-->|20%|E4O["Era 4: Geometric (13%)"]
+E3B-->|12%|E4B["Era 4: Anthropic (45%)"]
+E3P-->|2%|E4P["Era 4: Eddington (57%)"]
+style E1O fill:#1a3a1a,stroke:#3fb950,color:#3fb950
+style E1B fill:#1a2a3a,stroke:#58a6ff,color:#58a6ff
+style NV fill:#2a1a3a,stroke:#bc8cff,color:#bc8cff</div></div>
+<div class="cards"><div class="card"><h3>Era 1 (2026-2036): FCI / Topological QC</h3>
+<div class="row"><span>Continuity (Gate-Based QC)</span><strong style="color:var(--blue)">82%</strong></div><div class="bar"><div class="bar-fill bar-blue" style="width:82%"></div></div>
+<div class="row"><span>Stagnation</span><strong style="color:var(--red)">10%</strong></div><div class="bar"><div class="bar-fill bar-red" style="width:10%"></div></div>
+<div class="row"><span>FCI Breakthrough</span><strong style="color:var(--green)">8%</strong></div><div class="bar"><div class="bar-fill bar-green" style="width:8%"></div></div>
+</div><div class="card"><h3>Era 2 (2036-2046): Room-Temp QC</h3>
+<div class="row"><span>Continuity (Gate QC wins)</span><strong style="color:var(--blue)">64%</strong></div><div class="bar"><div class="bar-fill bar-blue" style="width:64%"></div></div>
+<div class="row"><span>Bio-Spintronics</span><strong style="color:var(--green)">15%</strong></div><div class="bar"><div class="bar-fill bar-green" style="width:15%"></div></div>
+<div class="row"><span>NV-Diamond Centers</span><strong style="color:var(--purple)">15%</strong></div><div class="bar"><div class="bar-fill bar-purple" style="width:15%"></div></div>
+<div class="row"><span>Ceiling</span><strong style="color:var(--red)">21%</strong></div><div class="bar"><div class="bar-fill bar-red" style="width:21%"></div></div>
+</div><div class="card"><h3>Era 3 (2046-2076): Foundations</h3>
+<div class="row"><span>Standard QM persists</span><strong style="color:var(--blue)">47%</strong></div><div class="bar"><div class="bar-fill bar-blue" style="width:47%"></div></div>
+<div class="row"><span>Hydrodynamic validated</span><strong style="color:var(--green)">33%</strong></div><div class="bar"><div class="bar-fill bar-green" style="width:33%"></div></div>
+<div class="row"><span>Null Results</span><strong style="color:var(--red)">35%</strong></div><div class="bar"><div class="bar-fill bar-red" style="width:35%"></div></div>
+<div class="row"><span>CSL wins (wildcard)</span><strong style="color:var(--purple)">12%</strong></div><div class="bar"><div class="bar-fill bar-purple" style="width:12%"></div></div>
+</div><div class="card"><h3>Era 4 (2076-2126+): Constants</h3>
+<div class="row"><span>Eddington's Ghost</span><strong style="color:var(--red)">57%</strong></div><div class="bar"><div class="bar-fill bar-red" style="width:57%"></div></div>
+<div class="row"><span>Landscape persists</span><strong style="color:var(--blue)">45%</strong></div><div class="bar"><div class="bar-fill bar-blue" style="width:45%"></div></div>
+<div class="row"><span>Geometric breakthrough</span><strong style="color:var(--green)">13%</strong></div><div class="bar"><div class="bar-fill bar-green" style="width:13%"></div></div>
+<div class="row"><span>String absorbs (wildcard)</span><strong style="color:var(--purple)">8%</strong></div><div class="bar"><div class="bar-fill bar-purple" style="width:8%"></div></div>
+</div><div class="card"><h3>Top Signposts to Monitor</h3><table><tr><th>Signpost</th><th>Date</th><th>Era</th></tr><tr><td>NV center T2 >1s at 300K (gate demos)</td><td>2028</td><td>Era 2</td></tr><tr><td>FCI anyon braiding >99% fidelity</td><td>2029</td><td>Era 1</td></tr><tr><td>Gate QC >5000 qubits without thermal issues</td><td>2029</td><td>Era 1</td></tr><tr><td>Room-temp 2-qubit gate (any substrate)</td><td>2032</td><td>Era 2</td></tr><tr><td>CMB-S4 log-periodic detection/null</td><td>~2035</td><td>Era 3</td></tr></table></div></div>
+<div class="footer">
+<p><strong>DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21389377" style="color:var(--blue)">10.5281/zenodo.21389377</a></p>
+<p><strong>Previous:</strong> <a href="https://zenodo.org/records/21366522" style="color:var(--blue)">v1.0.0</a> | <strong>Methodology:</strong> CFPE Methodology v2.0</p>
+<p>QNFO 100-Year Paradigm Forecast v2.0 | 2026-07-16</p>
+</div>
+</div><script>mermaid.initialize({startOnLoad:true,theme:'dark',themeVariables:{primaryColor:'#1a2a3a',primaryTextColor:'#c9d1d9',lineColor:'#58a6ff'}});</script></body></html>

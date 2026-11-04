@@ -1,0 +1,33 @@
+// ─── Syntax Highlighting ────────────────────────
+.highlight {
+  background: var(--color-code-bg);
+  
+  .c, .c1, .cm, .cs { color: #8b7355; font-style: italic; }   // comments
+  .k, .kd, .kn, .kp, .kr, .kt { color: #b8730a; font-weight: 700; } // keywords
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx { color: #0d9488; } // strings
+  .n, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nx, .py { color: #2d2a26; } // names
+  .m, .mf, .mh, .mi, .mo { color: #7c4dff; }                   // numbers
+  .o, .ow { color: #b8730a; }                                   // operators
+  .p { color: #6b6560; }                                        // punctuation
+  .nv, .vc, .vg, .vi { color: #c62828; }                        // variables
+  .err { color: #c62828; background: #ffebee; }
+  .gd { color: #c62828; background: #ffebee; }
+  .gi { color: #2e7d32; background: #e8f5e9; }
+  .go { color: #9c9590; }
+  .gs { font-weight: 700; }
+}
+
+[data-theme="dark"] .highlight {
+  .c, .c1, .cm, .cs { color: #6b6560; }
+  .k, .kd, .kn, .kp, .kr, .kt { color: #d4942b; }
+  .s, .s1, .s2 { color: #2dd4bf; }
+  .n, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nx, .py { color: #d4cfc8; }
+  .m, .mf, .mh, .mi, .mo { color: #b388ff; }
+  .o, .ow { color: #d4942b; }
+  .p { color: #9c9590; }
+  .nv, .vc, .vg, .vi { color: #ef5350; }
+  .err { color: #ef5350; background: #3e1010; }
+  .gd { color: #ef5350; background: #3e1010; }
+  .gi { color: #66bb6a; background: #102e15; }
+  .go { color: #6b6560; }
+}

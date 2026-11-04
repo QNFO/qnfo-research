@@ -1,0 +1,950 @@
+{
+  "H1_EM_knots": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "Coupled by Design: Computing Kerr-Newman Quasinormal Modes with a Hybrid SpectralPINN Solver",
+        "authors": [
+          "Alexandre M. Pombo"
+        ],
+        "arxiv": "2607.14216v1",
+        "published": "2026-07-15",
+        "summary": "We extend our \\texttt{SpectralPINN} solver to the computation of Kerr-Newman quasinormal modes by applying it to solve the system of two coupled master PDEs -- advancing from the single, separable equation of the uncharged Kerr limit to a genuinely coupled two-field problem. The coupling between the"
+      },
+      {
+        "title": "Radiative Maxwell Scattering on Slowly Rotating Weakly Charged Kerr-Newman Black Holes",
+        "authors": [
+          "Bobby Eka Gunara",
+          " Mulyanto",
+          "Emir Syahreza Fadhilla"
+        ],
+        "arxiv": "2604.09298v2",
+        "published": "2026-04-10",
+        "summary": "We study real source-free Maxwell fields on slowly rotating, weakly charged Kerr-Newman exteriors and set up a finite-energy scattering theory after removal of the stationary Coulomb sector. The conserved electric and magnetic fluxes account exactly for the two-dimensional stationary non-decaying pa"
+      },
+      {
+        "title": "Interacting Kerr-Newman Electromagnetic Fields",
+        "authors": [
+          "Sajad Aghapour",
+          "Lars Andersson",
+          "Kjell Rosquist"
+        ],
+        "arxiv": "2405.12602v2",
+        "published": "2024-05-21",
+        "summary": "In this paper, we study some of the properties of the $G \\to 0$ limit of the Kerr-Newman solution of Einstein-Maxwell equations. Noting Carter's observation of the near equality between the $g = 2$ gyromagnetic ratio in the Kerr-Newman solution and that of the electron, we discuss additional such co"
+      },
+      {
+        "title": "The Dirac -- Kerr-Newman electron",
+        "authors": [
+          "Alexander Burinskii"
+        ],
+        "arxiv": "hep-th/0507109v4",
+        "published": "2005-07-12",
+        "summary": "We discuss the relation of the Kerr-Newman spinning particle to the Dirac electron and show that the Dirac equation may naturally be incorporated into Kerr-Schild formalism as a master equation controlling the Kerr-Newman geometry. As a result, the Dirac electron acquires an extended space-time stru"
+      },
+      {
+        "title": "Boosted Kerr-Newman Black Holes",
+        "authors": [
+          "Rafael F. Aranha",
+          "Rodrigo Maier"
+        ],
+        "arxiv": "2407.16587v2",
+        "published": "2024-07-23",
+        "summary": "In this paper we obtain a new solution of Einstein field equations which describes a boosted Kerr-Newman black hole relative to a Lorentz frame at future null infinity. To simplify our analysis we consider a particular configuration in which the boost is aligned with the black hole angular momentum."
+      },
+      {
+        "title": "Gravitational lensing and frame dragging of light in the Kerr-Newman and the Kerr-Newman-(anti) de Sitter black hole spacetimes",
+        "authors": [
+          "G. V. Kraniotis"
+        ],
+        "arxiv": "1401.7118v5",
+        "published": "2014-01-28",
+        "summary": "The null geodesics that describe photon orbits in the spacetime of a rotating electrically charged black hole (Kerr-Newman) are solved exactly including the contribution from the cosmological constant. We derive elegant closed form solutions for relativistic observables such as the deflection angle "
+      },
+      {
+        "title": "Kerr-Newman black holes with stationary charged scalar clouds",
+        "authors": [
+          "Shahar Hod"
+        ],
+        "arxiv": "1406.1179v2",
+        "published": "2014-06-04",
+        "summary": "It is shown that Kerr-Newman black holes can support linear charged scalar fields in their exterior regions. To that end, we solve analytically the Klein-Gordon wave equation for a stationary charged massive scalar field in the background of a near-extremal Kerr-Newman black hole. In particular, we "
+      },
+      {
+        "title": "Removal of Closed Timelike Curves in Kerr-Newman Spacetime",
+        "authors": [
+          "Hongsu Kim"
+        ],
+        "arxiv": "gr-qc/0207014v2",
+        "published": "2002-07-02",
+        "summary": "A simple yet systematic new algorithm to investigate the global structure of Kerr-Newman spacetime is suggested. Namely, the global structure of θ=const. timelike submanifolds of Kerr-Newman metric are studied by introducing a new time coordinate slightly different from the usual Boyer-Lindquist tim"
+      },
+      {
+        "title": "Nonexistence of Majorana fermions in Kerr-Newman type spacetimes with nontrivial charge",
+        "authors": [
+          "Hequn Zhang",
+          "Xiao Zhang"
+        ],
+        "arxiv": "2404.19213v2",
+        "published": "2024-04-30",
+        "summary": "We show that the Dirac equation is separated into four differential equations for time-period Majarana fermions in Kerr-Newman, Kerr-Newman-(A)dS spacetimes. Although they can not be transformed into radial and angular equations, the four differential equations yield two algebraic identities. When t"
+      },
+      {
+        "title": "Kerr-Newman black holes with scalar hair",
+        "authors": [
+          "Jorge F. M. Delgado",
+          "Carlos A. R. Herdeiro",
+          "Eugen Radu"
+        ],
+        "arxiv": "1608.00631v2",
+        "published": "2016-08-01",
+        "summary": "We construct electrically charged Kerr black holes (BHs) with scalar hair. Firstly, we take an uncharged scalar field, interacting with the electromagnetic field only indirectly, via the background metric. The corresponding family of solutions, dubbed Kerr-Newman BHs with ungauged scalar hair, reduc"
+      }
+    ]
+  },
+  "H1_topological_EM": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "Conjugate Generators of Knot and Link Groups",
+        "authors": [
+          "Jason Callahan"
+        ],
+        "arxiv": "0806.3452v2",
+        "published": "2008-06-20",
+        "summary": "This note shows that if two elements of equal trace (e.g., conjugate elements) generate an arithmetic two-bridge knot or link group, then the elements are parabolic. This includes the figure-eight knot and Whitehead link groups. Similarly, if two conjugate elements generate the trefoil knot group, t"
+      },
+      {
+        "title": "On Generalized Knot Groups",
+        "authors": [
+          "Xiao-Song Lin",
+          "Sam Nelson"
+        ],
+        "arxiv": "math/0407050v4",
+        "published": "2004-07-04",
+        "summary": "Generalized knot groups G_n(K) were introduced first by Wada and Kelly independently. The classical knot group is the first one G_1(K) in this series of finitely presented groups. For each natural number n, G_1(K) is a subgroup of G_n(K) so the generalized knot groups can be thought of as extensions"
+      },
+      {
+        "title": "Knot spinning",
+        "authors": [
+          "Greg Friedman"
+        ],
+        "arxiv": "math/0410606v2",
+        "published": "2004-10-28",
+        "summary": "This is an introduction to the construction of higher-dimensional knots by spinning methods. Simple spinning of classical knots was introduced by E. Artin in 1926, and several generalizations have followed. These include twist spinning, superspinning or p-spinning, frame spinning, roll spinning, and"
+      },
+      {
+        "title": "Groups of locally-flat disk knots and non-locally-flat sphere knots",
+        "authors": [
+          "Greg Friedman"
+        ],
+        "arxiv": "math/0404143v1",
+        "published": "2004-04-06",
+        "summary": "The classical knot groups are the fundamental groups of the complements of smooth or piecewise-linear (PL) locally-flat knots. For PL knots that are not locally-flat, there is a pair of interesting groups to study: the fundamental group of the knot complement and that of the complement of the ``boun"
+      },
+      {
+        "title": "Billiard knots in a cylinder",
+        "authors": [
+          "Christoph Lamm",
+          "Daniel Obermeyer"
+        ],
+        "arxiv": "math/9811006v1",
+        "published": "1998-11-02",
+        "summary": "We define cylinder knots as billiard knots in a cylinder. We present a necessary condition for cylinder knots: after dividing cylinder knots by possible rotational symmetries we obtain ribbon knots. We obtain an upper bound for the number of cylinder knots with two fixed parameters (out of three). I"
+      },
+      {
+        "title": "The 500 simplest hyperbolic knots",
+        "authors": [
+          "Abhijit Champanerkar",
+          "Ilya Kofman",
+          "Timothy Mullen"
+        ],
+        "arxiv": "1307.4439v3",
+        "published": "2013-07-16",
+        "summary": "We identify all hyperbolic knots whose complements are in the census of orientable one-cusped hyperbolic manifolds with eight ideal tetrahedra. We also compute their Jones polynomials."
+      },
+      {
+        "title": "Minimal Diagrams of Free Knots",
+        "authors": [
+          "Tomas Boothby",
+          "Allison Henrich",
+          "Alexander Leaf"
+        ],
+        "arxiv": "1008.3163v4",
+        "published": "2010-08-18",
+        "summary": "Manturov recently introduced the idea of a free knot, i.e. an equivalence class of virtual knots where equivalence is generated by crossing change and virtualization moves. He showed that if a free knot diagram is associated to a graph that is irreducibly odd, then it is minimal with respect to the "
+      },
+      {
+        "title": "Factorization formulas and computations of higher-order Alexander invariants for homologically fibered knots",
+        "authors": [
+          "Hiroshi Goda",
+          "Takuya Sakasai"
+        ],
+        "arxiv": "1004.3326v3",
+        "published": "2010-04-20",
+        "summary": "Homologically fibered knots are knots whose exteriors satisfy the same homological conditions as fibered knots. In our previous paper, we observed that for such a knot, higher-order Alexander invariants defined by Cochran, Harvey and Friedl are generally factorized into the part of the Magnus matrix"
+      },
+      {
+        "title": "Unknotting numbers and triple point cancelling numbers of torus-covering knots",
+        "authors": [
+          "Inasa Nakamura"
+        ],
+        "arxiv": "1206.1126v2",
+        "published": "2012-06-06",
+        "summary": "It is known that any surface knot can be transformed to an unknotted surface knot or a surface knot which has a diagram with no triple points by a finite number of 1-handle additions. The minimum number of such 1-handles is called the unknotting number or the triple point cancelling number, respecti"
+      },
+      {
+        "title": "On the complexity of meander-like diagrams of knots",
+        "authors": [
+          "Yury Belousov"
+        ],
+        "arxiv": "2312.05014v2",
+        "published": "2023-12-08",
+        "summary": "It is known that each knot has a semimeander diagram (i. e. a diagram composed of two smooth simple arcs), however the number of crossings in such a diagram can only be roughly estimated. In the present paper we provide a new estimate of the complexity of the semimeander diagrams. We prove that for "
+      }
+    ]
+  },
+  "H2_RT_entanglement": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "Holographic Entanglement Entropy: An Overview",
+        "authors": [
+          "Tatsuma Nishioka",
+          "Shinsei Ryu",
+          "Tadashi Takayanagi"
+        ],
+        "arxiv": "0905.0932v2",
+        "published": "2009-05-07",
+        "summary": "In this article, we review recent progresses on the holographic understandings of the entanglement entropy in the AdS/CFT correspondence. After reviewing the general idea of holographic entanglement entropy, we will explain its applications to confinement/deconfinement phase transitions, black hole "
+      },
+      {
+        "title": "Holographic entanglement entropy close to crossover/phase transition in strongly coupled systems",
+        "authors": [
+          "Shao-Jun Zhang"
+        ],
+        "arxiv": "1608.03072v3",
+        "published": "2016-08-10",
+        "summary": "We investigate the behavior of entanglement entropy in the holographic QCD model proposed by Gubser et al. By choosing suitable parameters of the scalar self-interaction potential, this model can exhibit various types of phase structures: crossover, first order and second order phase transitions. We"
+      },
+      {
+        "title": "Interacting CFTs for all couplings: Thermal versus Entanglement Entropy at Large $N$",
+        "authors": [
+          "Seth Grable"
+        ],
+        "arxiv": "2205.15383v5",
+        "published": "2022-05-30",
+        "summary": "In this paper, I calculate the large $N$ limit of marginal $O(N)$ models with non-polynomial potentials in arbitrary odd dimensions $d$. This results in a new class of interacting pure conformal field theories (CFTs) in $d=3+4n$ for any $n \\in \\mathbb{Z}_+$. Similarly, in $d=3+4n$ I calculate the th"
+      },
+      {
+        "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+        "authors": [
+          "Shinsei Ryu",
+          "Tadashi Takayanagi"
+        ],
+        "arxiv": "hep-th/0603001v2",
+        "published": "2006-02-28",
+        "summary": "A holographic derivation of the entanglement entropy in quantum (conformal) field theories is proposed from AdS/CFT correspondence. We argue that the entanglement entropy in d+1 dimensional conformal field theories can be obtained from the area of d dimensional minimal surfaces in AdS_{d+2}, analogo"
+      },
+      {
+        "title": "Holographic entanglement entropy probes (non)locality",
+        "authors": [
+          "Jose L. F. Barbon",
+          "Carlos A. Fuertes"
+        ],
+        "arxiv": "0803.1928v2",
+        "published": "2008-03-13",
+        "summary": "We study the short-distance structure of geometric entanglement entropy in certain theories with a built-in scale of nonlocality. In particular we examine the cases of Little String Theory and Noncommutative Yang-Mills theory, using their AdS/CFT descriptions. We compute the entanglement entropy via"
+      },
+      {
+        "title": "A Note on Holographic Weyl Anomaly and Entanglement Entropy",
+        "authors": [
+          "Rong-Xin Miao"
+        ],
+        "arxiv": "1309.0211v3",
+        "published": "2013-09-01",
+        "summary": "We develop a general approach to simplify the derivation of the holographic Weyl anomaly. As an application, we derive the holographic Weyl anomaly from general higher derivative gravity in asymptotically $AdS_{5}$ and $AdS_{7}$. Interestingly, to derive all the central charges of 4d and 6d CFTs, we"
+      },
+      {
+        "title": "AdS/CFT correspondence and Geometry",
+        "authors": [
+          "Ioannis Papadimitriou",
+          "Kostas Skenderis"
+        ],
+        "arxiv": "hep-th/0404176v2",
+        "published": "2004-04-23",
+        "summary": "In the first part of this paper we provide a short introduction to the AdS/CFT correspondence and to holographic renormalization. We discuss how QFT correlation functions, Ward identities and anomalies are encoded in the bulk geometry. In the second part we develop a Hamiltonian approach to the meth"
+      },
+      {
+        "title": "Positivity, entanglement entropy, and minimal surfaces",
+        "authors": [
+          "Horacio Casini",
+          "Marina Huerta"
+        ],
+        "arxiv": "1203.4007v2",
+        "published": "2012-03-18",
+        "summary": "The path integral representation for the Renyi entanglement entropies of integer index n implies these information measures define operator correlation functions in QFT. We analyze whether the limit $n\\rightarrow 1$, corresponding to the entanglement entropy, can also be represented in terms of a pa"
+      },
+      {
+        "title": "A Note on the Bach Tensor in AdS/CFT",
+        "authors": [
+          "Enrique Alvarez",
+          "Jorge Conde",
+          "Lorenzo Hernandez"
+        ],
+        "arxiv": "hep-th/0206140v3",
+        "published": "2002-06-17",
+        "summary": "This paper has been superseded by hep-th/0303164, \"The Dirichlet Obstruction in AdS/CFT\""
+      },
+      {
+        "title": "The dynamics of quark-gluon plasma and AdS/CFT",
+        "authors": [
+          "Romuald A. Janik"
+        ],
+        "arxiv": "1003.3291v1",
+        "published": "2010-03-17",
+        "summary": "In these pedagogical lectures, we present the techniques of the AdS/CFT correspondence which can be applied to the study of real time dynamics of a strongly coupled plasma system. These methods are based on solving gravitational Einstein's equations on the string/gravity side of the AdS/CFT correspo"
+      }
+    ]
+  },
+  "H2_emergent_space": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "Fermi-point scenario for emergent gravity",
+        "authors": [
+          "G. E. Volovik"
+        ],
+        "arxiv": "0709.1258v3",
+        "published": "2007-09-09",
+        "summary": "Let us assume that gravity is an emergent low-energy phenomenon arising from a topologically stable defect in momentum space -- the Fermi point. What are the consequences? We discuss the natural values of fermion masses and cosmological constant; flatness of the Universe; bounds on Lorentz violation"
+      },
+      {
+        "title": "Measuring non-trivial compositionality in emergent communication",
+        "authors": [
+          "Tomasz Korbak",
+          "Julian Zubek",
+          "Joanna Rączaszek-Leonardi"
+        ],
+        "arxiv": "2010.15058v2",
+        "published": "2020-10-28",
+        "summary": "Compositionality is an important explanatory target in emergent communication and language evolution. The vast majority of computational models of communication account for the emergence of only a very basic form of compositionality: trivial compositionality. A compositional protocol is trivially co"
+      },
+      {
+        "title": "Mitigating undesirable emergent behavior arising between driver and semi-automated vehicle",
+        "authors": [
+          "Timo Melman",
+          "Niek Beckers",
+          "David Abbink"
+        ],
+        "arxiv": "2006.16572v3",
+        "published": "2020-06-30",
+        "summary": "Emergent behavior arising in a joint human-robot system cannot be fully predicted based on an understanding of the individual agents. Typically, robot behavior is governed by algorithms that optimize a reward function that should quantitatively capture the joint system's goal. Although reward functi"
+      },
+      {
+        "title": "Biology and Compositionality: Empirical Considerations for Emergent-Communication Protocols",
+        "authors": [
+          "Travis LaCroix"
+        ],
+        "arxiv": "1911.11668v2",
+        "published": "2019-11-26",
+        "summary": "Significant advances have been made in artificial systems by using biological systems as a guide. However, there is often little interaction between computational models for emergent communication and biological models of the emergence of language. Many researchers in language origins and emergent c"
+      },
+      {
+        "title": "Emergent 1-form symmetries",
+        "authors": [
+          "Aleksey Cherman",
+          "Theodore Jacobson"
+        ],
+        "arxiv": "2304.13751v2",
+        "published": "2023-04-26",
+        "summary": "We explore the necessary conditions for 1-form symmetries to emerge in the long-distance limit when they are explicitly broken at short distances. A minimal requirement is that there exist operators which become topological at long distances and that these operators have non-trivial correlation func"
+      },
+      {
+        "title": "Emergence of gravity from interacting simplices",
+        "authors": [
+          "Sung-Sik Lee"
+        ],
+        "arxiv": "gr-qc/0609107v5",
+        "published": "2006-09-25",
+        "summary": "We consider a statistical model of interacting 4-simplices fluctuating in an N-dimensional target space. We argue that a gravitational theory may arise as a low energy effective theory in a strongly interacting phase where the simplices form clusters with an emergent space and time with the Euclidea"
+      },
+      {
+        "title": "Emergent Response Planning in LLMs",
+        "authors": [
+          "Zhichen Dong",
+          "Zhanhui Zhou",
+          "Zhixuan Liu"
+        ],
+        "arxiv": "2502.06258v3",
+        "published": "2025-02-10",
+        "summary": "In this work, we argue that large language models (LLMs), though trained to predict only the next token, exhibit emergent planning behaviors: $\\textbf{their hidden representations encode future outputs beyond the next token}$. Through simple probing, we demonstrate that LLM prompt representations en"
+      },
+      {
+        "title": "Emergent quantum mechanics without wave functions",
+        "authors": [
+          "Johannes Mesa Pascasio",
+          "Siegfried Fussy",
+          "Herbert Schwabl"
+        ],
+        "arxiv": "1602.04932v1",
+        "published": "2016-02-16",
+        "summary": "We present our model of an Emergent Quantum Mechanics which can be characterized by \"realism without pre-determination\". This is illustrated by our analytic description and corresponding computer simulations of Bohmian-like \"surreal\" trajectories, which are obtained classically, i.e. without the use"
+      },
+      {
+        "title": "Avoiding hashing and encouraging visual semantics in referential emergent language games",
+        "authors": [
+          "Daniela Mihai",
+          "Jonathon Hare"
+        ],
+        "arxiv": "1911.05546v1",
+        "published": "2019-11-13",
+        "summary": "There has been an increasing interest in the area of emergent communication between agents which learn to play referential signalling games with realistic images. In this work, we consider the signalling game setting of Havrylov and Titov and investigate the effect of the feature extractor's weights"
+      },
+      {
+        "title": "Emergent second law for non-equilibrium steady states",
+        "authors": [
+          "Nahuel Freitas",
+          "Massimiliano Esposito"
+        ],
+        "arxiv": "2109.04906v4",
+        "published": "2021-09-10",
+        "summary": "The Gibbs distribution universally characterizes states of thermal equilibrium. In order to extend the Gibbs distribution to non-equilibrium steady states, one must relate the self-information $\\mathcal{I}(x) = -\\log(P_\\text{ss}(x))$ of microstate $x$ to measurable physical quantities. This is a cen"
+      }
+    ]
+  },
+  "H3_landauer": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "Landauer Principle and General Relativity",
+        "authors": [
+          "L. Herrera"
+        ],
+        "arxiv": "2003.07436v1",
+        "published": "2020-03-16",
+        "summary": "We endeavour to illustrate the physical relevance of the Landauer principle applying it to different important issues concerning the theory of gravitation. We shall first analyze, in the context of general relativity, the consequences derived from the fact, implied by Landauer principle, that inform"
+      },
+      {
+        "title": "Modified Landauer principle according to Tsallis entropy",
+        "authors": [
+          "L. Herrera"
+        ],
+        "arxiv": "2411.07897v1",
+        "published": "2024-11-12",
+        "summary": "The Landauer principle establishes a lower bound in the amount of energy that should be dissipated in the erasure of one bit of information. The specific value of this dissipated energy is tightly related to the definition of entropy. In this article, we present a generalization of the Landauer prin"
+      },
+      {
+        "title": "Deductive Verification of Unmodified Linux Kernel Library Functions",
+        "authors": [
+          "Denis Efremov",
+          "Mikhail Mandrykin",
+          "Alexey Khoroshilov"
+        ],
+        "arxiv": "1809.00626v1",
+        "published": "2018-09-03",
+        "summary": "This paper presents results from the development and evaluation of a deductive verification benchmark consisting of 26 unmodified Linux kernel library functions implementing conventional memory and string operations. The formal contract of the functions was extracted from their source code and was r"
+      },
+      {
+        "title": "Heterogeneity and Disorder: Contributions of Rolf Landauer",
+        "authors": [
+          "Bertrand I. Halperin",
+          "David J. Bergman"
+        ],
+        "arxiv": "0910.0993v1",
+        "published": "2009-10-06",
+        "summary": "Rolf Landauer made important contributions to many branches of science. Within the broad area of transport in disordered media, he wrote seminal papers on electrical conduction in macroscopically inhomogeneous materials, as well as fundamental analyses of electron transport in quantum mechanical sys"
+      },
+      {
+        "title": "Radio Microlensing: Past, Present & Near Future",
+        "authors": [
+          "L. V. E. Koopmans",
+          "A. G. de Bruyn",
+          "C. D. Fassnacht"
+        ],
+        "arxiv": "astro-ph/0011034v1",
+        "published": "2000-11-01",
+        "summary": "Strongly correlated non-intrinsic variability between 5 and 8.5 GHz has been observed in one of the lensed images of the gravitational lens B1600+434. These non-intrinsic (i.e. `external') variations are interpreted as `radio-microlensing' of relativistic micro-arsec-scale jet components in the sour"
+      },
+      {
+        "title": "Experimental verification of Landauer's principle in erasure of nanomagnetic memory bits",
+        "authors": [
+          "J. Hong",
+          "B. Lambson",
+          "S. Dhuey"
+        ],
+        "arxiv": "1411.6730v1",
+        "published": "2014-11-25",
+        "summary": "In 1961, R. Landauer proposed the principle that logical irreversibility is associated with physical irreversibility and further theorized that the erasure of information is fundamentally a dissipative process. Landauer posited that a fundamental energy cost is incurred by the erasure of information"
+      },
+      {
+        "title": "Information and thermodynamics: Experimental verification of Landauer's erasure principle",
+        "authors": [
+          "Antoine Bérut",
+          "Artyom Petrosyan",
+          "Sergio Ciliberto"
+        ],
+        "arxiv": "1503.06537v1",
+        "published": "2015-03-23",
+        "summary": "We present an experiment in which a one-bit memory is constructed, using a system of a single colloidal particle trapped in a modulated double-well potential. We measure the amount of heat dissipated to erase a bit and we establish that in the limit of long erasure cycles the mean dissipated heat sa"
+      },
+      {
+        "title": "Experimental study of energy-minimizing point configurations on spheres",
+        "authors": [
+          "Brandon Ballinger",
+          "Grigoriy Blekherman",
+          "Henry Cohn"
+        ],
+        "arxiv": "math/0611451v3",
+        "published": "2006-11-15",
+        "summary": "In this paper we report on massive computer experiments aimed at finding spherical point configurations that minimize potential energy. We present experimental evidence for two new universal optima (consisting of 40 points in 10 dimensions and 64 points in 14 dimensions), as well as evidence that th"
+      },
+      {
+        "title": "Partial Verification as a Substitute for Money",
+        "authors": [
+          "Sofia Ceppi",
+          "Ian Kash",
+          "Rafael Frongillo"
+        ],
+        "arxiv": "1812.07312v2",
+        "published": "2018-12-18",
+        "summary": "Recent work shows that we can use partial verification instead of money to implement truthful mechanisms. In this paper we develop tools to answer the following question. Given an allocation rule that can be made truthful with payments, what is the minimal verification needed to make it truthful wit"
+      },
+      {
+        "title": "Experimental Cryptographic Verification for Near-Term Quantum Cloud Computing",
+        "authors": [
+          "Xi Chen",
+          "Bin Cheng",
+          "Zhaokai Li"
+        ],
+        "arxiv": "1808.07375v2",
+        "published": "2018-08-22",
+        "summary": "Recently, there are more and more organizations offering quantum-cloud services, where any client can access a quantum computer remotely through the internet. In the near future, these cloud servers may claim to offer quantum computing power out of reach of classical devices. An important task is to"
+      }
+    ]
+  },
+  "H3_reversible": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "Thermodynamics of low-dimensional trapped Fermi gases",
+        "authors": [
+          "Francisco J. Sevilla"
+        ],
+        "arxiv": "1612.02496v1",
+        "published": "2016-12-08",
+        "summary": "The effects of low dimensionality on the thermodynamics of a Fermi gas trapped by isotropic power law potentials are analyzed. Particular attention is given to different characteristic temperatures that emerge, at low dimensionality, in the thermodynamic functions of state and in the thermodynamic s"
+      },
+      {
+        "title": "Generalized Reversible Computing",
+        "authors": [
+          "Michael P. Frank"
+        ],
+        "arxiv": "1806.10183v1",
+        "published": "2018-06-26",
+        "summary": "Landauer's Principle that information loss from a computation implies entropy increase can be rigorously proved from mathematical physics. However, carefully examining its detailed formulation reveals that the traditional identification of logically reversible computational operations with bijective"
+      },
+      {
+        "title": "Reversible Computing with Fast, Fully Static, Fully Adiabatic CMOS",
+        "authors": [
+          "Michael P. Frank",
+          "Robert W. Brocato",
+          "Brian D. Tierney"
+        ],
+        "arxiv": "2009.00448v2",
+        "published": "2020-08-28",
+        "summary": "To advance the energy efficiency of general digital computing far beyond the thermodynamic limits that apply to conventional digital circuits will require utilizing the principles of reversible computing. It has been known since the early 1990s that reversible computing based on adiabatic switching "
+      },
+      {
+        "title": "Dynamics and Thermodynamics of a model with long-range interactions",
+        "authors": [
+          "Alessandro Pluchino",
+          "Vito Latora",
+          "Andrea Rapisarda"
+        ],
+        "arxiv": "cond-mat/0410213v1",
+        "published": "2004-10-08",
+        "summary": "The dynamics and the thermodynamics of particles/spins interacting via long-range forces display several unusual features with respect to systems with short-range interactions. The Hamiltonian Mean Field (HMF) model, a Hamiltonian system of N classical inertial spins with infinite-range interactions"
+      },
+      {
+        "title": "Thermodynamic Phase Stability, Structural, Mechanical, Optoelectronic, and Thermoelectric Properties of the III-V Semiconductor AlSb for Energy Conversion Applications",
+        "authors": [
+          "Iskandar Raufov",
+          "Dilshod Nematov",
+          "Saidjafar Murodzoda"
+        ],
+        "arxiv": "2512.22277v2",
+        "published": "2025-12-25",
+        "summary": "This study presents a first principles investigation of the structural, thermodynamic, electronic, optical and thermoelectric properties of aluminum antimonide (AlSb) in its cubic (F-43m) and hexagonal (P63mc) phases. Both structures are dynamically and mechanically stable, as confirmed by phonon ca"
+      },
+      {
+        "title": "Design of Adiabatic Logic for a Quantum CNOT Gate",
+        "authors": [
+          "V. Corato",
+          "P. Silvestrini",
+          "L. Stodolsky"
+        ],
+        "arxiv": "cond-mat/0205514v3",
+        "published": "2002-05-24",
+        "summary": "We examine the realization of a quantum CNOT gate by adiabatic operations.The principles of such systems and their analysis are briefly discussed and a model consisting of two weakly coupled double- potential well qubits is studied numerically. Regions of the parameter space with suitable well-defin"
+      },
+      {
+        "title": "Quantum Foundations of Classical Reversible Computing",
+        "authors": [
+          "Michael P. Frank",
+          "Karpur Shukla"
+        ],
+        "arxiv": "2105.00065v3",
+        "published": "2021-04-30",
+        "summary": "The reversible computation paradigm aims to provide a new foundation for general classical digital computing that is capable of circumventing the thermodynamic limits to the energy efficiency of the conventional, non-reversible digital paradigm. However, to date, the essential rationale for and anal"
+      },
+      {
+        "title": "Thermodynamics of non-local materials: extra fluxes and internal powers",
+        "authors": [
+          "Mauro Fabrizio",
+          "Barbara Lazzari",
+          "Roberta Nibbi"
+        ],
+        "arxiv": "1104.3000v1",
+        "published": "2011-04-15",
+        "summary": "The most usual formulation of the Laws of Thermodynamics turns out to be suitable for local or simple materials, while for non-local systems there are two different ways: either modify this usual formulation by introducing suitable extra fluxes or express the Laws of Thermodynamics in terms of inter"
+      },
+      {
+        "title": "Adiabatic Quantum Computing for Random Satisfiability Problems",
+        "authors": [
+          "Tad Hogg"
+        ],
+        "arxiv": "quant-ph/0206059v2",
+        "published": "2002-06-11",
+        "summary": "The discrete formulation of adiabatic quantum computing is compared with other search methods, classical and quantum, for random satisfiability (SAT) problems. With the number of steps growing only as the cube of the number of variables, the adiabatic method gives solution probabilities close to 1 f"
+      },
+      {
+        "title": "Experimental implementation of local adiabatic evolution algorithms by an NMR quantum information processor",
+        "authors": [
+          "Avik Mitra",
+          "Arindam Ghosh",
+          "Ranabir Das"
+        ],
+        "arxiv": "quant-ph/0503060v2",
+        "published": "2005-03-05",
+        "summary": "Quantum adiabatic algorithm is a method of solving computational problems by evolving the ground state of a slowly varying Hamiltonian. The technique uses evolution of the ground state of a slowly varying Hamiltonian to reach the required output state. In some cases, such as the adiabatic versions o"
+      }
+    ]
+  },
+  "H4_padic": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "p-Adic and Adelic Quantum Mechanics",
+        "authors": [
+          "Branko Dragovich"
+        ],
+        "arxiv": "hep-th/0312046v1",
+        "published": "2003-12-04",
+        "summary": "p-Adic mathematical physics emerged as a result of efforts to find a non-Archimedean approach to the spacetime and string dynamics at the Planck scale. One of its main achievements is a successful formulation and development of p-adic and adelic quantum mechanics, which have complex-valued wave func"
+      },
+      {
+        "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+        "authors": [
+          "Farrukh Mukhamedov",
+          "Utkir Rozikov",
+          "Jose Fernando F. Mendes"
+        ],
+        "arxiv": "math-ph/0512018v2",
+        "published": "2005-12-07",
+        "summary": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only "
+      },
+      {
+        "title": "p-Adic and Adelic Cosmology: p-Adic Origin of Dark Energy and Dark Matter",
+        "authors": [
+          "Branko Dragovich"
+        ],
+        "arxiv": "hep-th/0602044v1",
+        "published": "2006-02-04",
+        "summary": "A brief review of p-adic and adelic cosmology is presented. In particular, p-adic and adelic aspects of gravity, classical cosmology, quantum mechanics, quantum cosmology and the wave function of the universe are considered. p-Adic worlds made of p-adic matters, which are different from real world o"
+      },
+      {
+        "title": "p-Adic TGD: Mathematical Ideas",
+        "authors": [
+          "M. Pitkänen"
+        ],
+        "arxiv": "hep-th/9506097v2",
+        "published": "1995-06-15",
+        "summary": "The mathematical basis of p-adic Higgs mechanism discussed in papers hep-th@xxx.lanl.gov 9410058-62 is considered in this paper. The basic properties of p-adic numbers, of their algebraic extensions and the so called canonical identification between positive real numbers and p-adic numbers are descr"
+      },
+      {
+        "title": "p-Adic wavelet transform and quantum physics",
+        "authors": [
+          "M. V. Altaisky"
+        ],
+        "arxiv": "math-ph/0406024v1",
+        "published": "2004-06-13",
+        "summary": "p-Adic wavelet transform is considered as a possible tool for the description of hierarchic quantum systems"
+      },
+      {
+        "title": "p-Adic description of Higgs mechanism I: p-Adic square root and p-adic light cone",
+        "authors": [
+          "M. Pitkänen"
+        ],
+        "arxiv": "hep-th/9410058v3",
+        "published": "1994-10-10",
+        "summary": "This paper is the first one in the series devoted to the calculation of particle mass spectrum in Topological GeometroDynamics. TGD Universe is critical at quantum level and an attractive idea to realize criticality is via conformal invariance. Ordinary real numbers do not allow this but if one assu"
+      },
+      {
+        "title": "p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound",
+        "authors": [
+          "K. Mahesh Krishna"
+        ],
+        "arxiv": "2408.00810v3",
+        "published": "2024-08-01",
+        "summary": "We introduce the notion of p-adic equiangular lines and derive the first fundamental relation between common angle, dimension of the space and the number of lines. More precisely, we show that if $\\{τ_j\\}_{j=1}^n$ is p-adic $γ$-equiangular lines in $\\mathbb{Q}^d_p$, then \\begin{align*} (1) \\quad\\qua"
+      },
+      {
+        "title": "On Measurements, Numbers and p-Adic Mathematical Physics",
+        "authors": [
+          "Branko Dragovich"
+        ],
+        "arxiv": "1206.3106v1",
+        "published": "2012-05-23",
+        "summary": "In this short paper I consider relation between measurements, numbers and p-adic mathematical physics. p-Adic numbers are not result of measurements, but nevertheless they play significant role in description of some systems and phenomena. We illustrate their ability for applications referring to so"
+      },
+      {
+        "title": "Fundamentals of p-adic multiple L-functions and evaluation of their special values",
+        "authors": [
+          "Hidekazu Furusho",
+          "Yasushi Komori",
+          "Kohji Matsumoto"
+        ],
+        "arxiv": "1508.07185v2",
+        "published": "2015-08-28",
+        "summary": "We construct $p$-adic multiple $L$-functions in several variables, which are generalizations of the classical Kubota-Leopoldt $p$-adic $L$-functions, by using a specific $p$-adic measure. Our construction is from the $p$-adic analytic side of view, and we establish various fundamental properties of "
+      },
+      {
+        "title": "An introduction to p-adic period rings",
+        "authors": [
+          "Xavier Caruso"
+        ],
+        "arxiv": "1908.08424v1",
+        "published": "2019-08-22",
+        "summary": "This paper is the augmented notes of a course I gave jointly with Laurent Berger in Rennes in 2014. Its aim was to introduce the periods rings B crys and B dR and state several comparison theorems between{é}tale and crystalline or de Rham cohomologies for p-adic varieties."
+      }
+    ]
+  },
+  "H4_ultrametric": {
+    "count": 0,
+    "papers": []
+  },
+  "H5_spin_stats": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "A Topological Proof for a Version of Artin's Induction Theorem",
+        "authors": [
+          "Müge Saadetoğlu"
+        ],
+        "arxiv": "2301.07061v1",
+        "published": "2023-01-17",
+        "summary": "We define a Euler characteristic $χ(X,G)$ for a finite cell complex $X$ with a finite group $G$ acting cellularly on it. Then, each $K_{i}(X)$ (a complex vector space with basis the $i$-cells of $X$) is a representation of $G$, and we define $χ(X,G)$ to be the alternating sum of the representations "
+      },
+      {
+        "title": "Topological Spin-Statistics Theorem for Strings",
+        "authors": [
+          "A. P. Balachandran",
+          "W. D. McGlinn",
+          "L. O'Raifeartaigh"
+        ],
+        "arxiv": "hep-th/9202052v1",
+        "published": "1992-02-14",
+        "summary": "Recently, a topological proof of the spin-statistics Theorem has been proposed for a system of point particles which does not require relativity or field theory, but assumes the existence of antiparticles. We extend this proof to a system of string loops in three space dimensions and show that by as"
+      },
+      {
+        "title": "Radio Microlensing: Past, Present & Near Future",
+        "authors": [
+          "L. V. E. Koopmans",
+          "A. G. de Bruyn",
+          "C. D. Fassnacht"
+        ],
+        "arxiv": "astro-ph/0011034v1",
+        "published": "2000-11-01",
+        "summary": "Strongly correlated non-intrinsic variability between 5 and 8.5 GHz has been observed in one of the lensed images of the gravitational lens B1600+434. These non-intrinsic (i.e. `external') variations are interpreted as `radio-microlensing' of relativistic micro-arsec-scale jet components in the sour"
+      },
+      {
+        "title": "A topological proof of the Hell-Nešetřil dichotomy",
+        "authors": [
+          "Sebastian Meyer",
+          "Jakub Opršal"
+        ],
+        "arxiv": "2409.12627v2",
+        "published": "2024-09-19",
+        "summary": "We provide a new proof of a theorem of Hell and Nešetřil [J. Comb. Theory B, 48(1):92-110, 1990] using tools from topological combinatorics based on ideas of Lovász [J. Comb. Theory, Ser. A, 25(3):319-324, 1978]. The Hell-Nešetřil Theorem provides a dichotomy of the graph homomorphism problem. It st"
+      },
+      {
+        "title": "Weyl-gauge invariant proof of the Spin-Statistics Theorem",
+        "authors": [
+          "Enrico Santamato",
+          "Francesco De Martini"
+        ],
+        "arxiv": "1604.06253v1",
+        "published": "2016-04-21",
+        "summary": "The traditional standard theory of quantum mechanics is unable to solve the spin-statistics problem, i.e. to justify the utterly important \\qo{Pauli Exclusion Principle} but by the adoption of the complex standard relativistic quantum field theory. In a recent paper (Ref. [1]) we presented a proof o"
+      },
+      {
+        "title": "A Convex-Analytical Proof of the Fundamental Theorem of Algebra",
+        "authors": [
+          "Clément de Seguins Pazzis"
+        ],
+        "arxiv": "2504.06695v1",
+        "published": "2025-04-09",
+        "summary": "A weak version of Birkhoff's generalization of the Perron-Frobenius theorem states that every endomorphism of a finite-dimensional real vector that leaves invariant a non-degenerate closed convex cone has an eigenvector in that cone.   Here, we show that this theorem, whose proof relies only upon ba"
+      },
+      {
+        "title": "Possibility of obtaining a non-relativistic proof of the spin-statistics theorem in the Galilean frame",
+        "authors": [
+          "Gabriel D. Puccini",
+          "Hector Vucetich"
+        ],
+        "arxiv": "quant-ph/0407208v3",
+        "published": "2004-07-27",
+        "summary": "Here we explore the possibility to obtain a non-relativistic proof of the spin-statistics theorem. First, we examine the structure of axioms and theorems involved in a relativistic Schwinger-like proof of the spin-statistics relation. Second, starting from this structure we identify the relativistic"
+      },
+      {
+        "title": "Friendship theorem: A combinatorial proof",
+        "authors": [
+          "Vineeth Chintala"
+        ],
+        "arxiv": "2402.05504v2",
+        "published": "2024-02-08",
+        "summary": "We present an elementary combinatorial proof of the celebrated Friendship theorem. The proof involves looking at independent sets and constructing a bound on their size which forces a contradiction."
+      },
+      {
+        "title": "An Inductive Proof of the Berry-Esseen Theorem for Character Ratios",
+        "authors": [
+          "Jason Fulman"
+        ],
+        "arxiv": "math/0503227v2",
+        "published": "2005-03-11",
+        "summary": "Bolthausen used a variation of Stein's method to give an inductive proof of the Berry-Esseen theorem for sums of independent, identically distributed random variables. We modify this technique to prove a Berry-Esseen theorem for character ratios of a random representation of the symmetric group on t"
+      },
+      {
+        "title": "The Prime Number Theorem via Karamata's proof of the Landau-Ingham Tauberian theorem",
+        "authors": [
+          "Michael Mueger"
+        ],
+        "arxiv": "1311.2491v2",
+        "published": "2013-11-11",
+        "summary": "This is an exposition, in 12 pages including all prerequisites and a generalization, of Karamata's little known elementary proof of the Landau-Ingham Tauberian theorem, a result in real analysis from which the Prime Number Theorem follows in a few lines. We believe this to be the most transparent of"
+      }
+    ]
+  },
+  "H5_skyrmion": {
+    "count": 10,
+    "papers": [
+      {
+        "title": "Analyzing complex functional brain networks: fusing statistics and network science to understand the brain",
+        "authors": [
+          "Sean L. Simpson",
+          "F. DuBois Bowman",
+          "Paul J. Laurienti"
+        ],
+        "arxiv": "1302.5721v3",
+        "published": "2013-02-22",
+        "summary": "Complex functional brain network analyses have exploded over the last eight years, gaining traction due to their profound clinical implications. The application of network science (an interdisciplinary offshoot of graph theory) has facilitated these analyses and enabled examining the brain as an int"
+      },
+      {
+        "title": "Equivalence of distance-based and RKHS-based statistics in hypothesis testing",
+        "authors": [
+          "Dino Sejdinovic",
+          "Bharath Sriperumbudur",
+          "Arthur Gretton"
+        ],
+        "arxiv": "1207.6076v3",
+        "published": "2012-07-25",
+        "summary": "We provide a unifying framework linking two classes of statistics used in two-sample and independence testing: on the one hand, the energy distances and distance covariances from the statistics literature; on the other, maximum mean discrepancies (MMD), that is, distances between embeddings of distr"
+      },
+      {
+        "title": "Natural statistics for spectral samples",
+        "authors": [
+          "E. Di Nardo",
+          "P. McCullagh",
+          "D. Senato"
+        ],
+        "arxiv": "1302.5892v2",
+        "published": "2013-02-24",
+        "summary": "Spectral sampling is associated with the group of unitary transformations acting on matrices in much the same way that simple random sampling is associated with the symmetric group acting on vectors. This parallel extends to symmetric functions, k-statistics and polykays. We construct spectral k-sta"
+      },
+      {
+        "title": "Statistical and computational trade-offs in estimation of sparse principal components",
+        "authors": [
+          "Tengyao Wang",
+          "Quentin Berthet",
+          "Richard J. Samworth"
+        ],
+        "arxiv": "1408.5369v2",
+        "published": "2014-08-22",
+        "summary": "In recent years, sparse principal component analysis has emerged as an extremely popular dimension reduction technique for high-dimensional data. The theoretical challenge, in the simplest case, is to estimate the leading eigenvector of a population covariance matrix under the assumption that this e"
+      },
+      {
+        "title": "Saddlepoint approximations for likelihood ratio like statistics with applications to permutation tests",
+        "authors": [
+          "John Kolassa",
+          "John Robinson"
+        ],
+        "arxiv": "1203.3106v1",
+        "published": "2012-03-14",
+        "summary": "We obtain two theorems extending the use of a saddlepoint approximation to multiparameter problems for likelihood ratio-like statistics which allow their use in permutation and rank tests and could be used in bootstrap approximations. In the first, we show that in some cases when no density exists, "
+      },
+      {
+        "title": "Special section on statistics in the atmospheric sciences",
+        "authors": [
+          "Montserrat Fuentes",
+          "Peter Guttorp",
+          "Michael L. Stein"
+        ],
+        "arxiv": "0901.3469v1",
+        "published": "2009-01-22",
+        "summary": "With the possible exception of gambling, meteorology, particularly precipitation forecasting, may be the area with which the general public is most familiar with probabilistic assessments of uncertainty. Despite the heavy use of stochastic models and statistical methods in weather forecasting and ot"
+      },
+      {
+        "title": "Cramér-type moderate deviations for Studentized two-sample $U$-statistics with applications",
+        "authors": [
+          "Jinyuan Chang",
+          "Qi-Man Shao",
+          "Wen-Xin Zhou"
+        ],
+        "arxiv": "1407.4546v7",
+        "published": "2014-07-17",
+        "summary": "Two-sample $U$-statistics are widely used in a broad range of applications, including those in the fields of biostatistics and econometrics. In this paper, we establish sharp Cramér-type moderate deviation theorems for Studentized two-sample $U$-statistics in a general framework, including the two-s"
+      },
+      {
+        "title": "Wavelet methods in statistics: Some recent developments and their applications",
+        "authors": [
+          "Anestis Antoniadis"
+        ],
+        "arxiv": "0712.0283v1",
+        "published": "2007-12-03",
+        "summary": "The development of wavelet theory has in recent years spawned applications in signal processing, in fast algorithms for integral transforms, and in image and function representation methods. This last application has stimulated interest in wavelet applications to statistics and to the analysis of ex"
+      },
+      {
+        "title": "Rejoinder to \"Equi-energy sampler with applications in statistical inference and statistical mechanics\"",
+        "authors": [
+          "S. C. Kou",
+          "Qing Zhou",
+          "Wing H. Wong"
+        ],
+        "arxiv": "math/0611224v1",
+        "published": "2006-11-08",
+        "summary": "Rejoinder to ``Equi-energy sampler with applications in statistical inference and statistical mechanics'' by Kou, Zhou and Wong [math.ST/0507080]"
+      },
+      {
+        "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+        "authors": [
+          "Cedric De Boom",
+          "Michael Reusens"
+        ],
+        "arxiv": "2306.04338v1",
+        "published": "2023-06-07",
+        "summary": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+ "papers": {
+  "paper-adelic-shannon-v2": {
+   "concept_doi": "10.5281/zenodo.21698976",
+   "latest_deposit_id": "22024240",
+   "versions": [
+    {
+     "doi": "10.5281/zenodo.21698976",
+     "deposit_id": "21698976",
+     "tag": "v1.0",
+     "published_at": "2026-07-30",
+     "description": "Initial publication (v2.1 of paper)"
+    },
+    {
+     "doi": "10.5281/zenodo.21710934",
+     "deposit_id": "21710934",
+     "tag": "v1.1",
+     "published_at": "2026-07-31",
+     "description": "Added provenance bundle"
+    },
+    {
+     "doi": "10.5281/zenodo.22024240",
+     "deposit_id": "22024240",
+     "tag": "v1.2",
+     "published_at": "2026-08-20",
+     "description": "Updated paper + full provenance set (references.bib, citation-audit, html)"
+    }
+   ]
+  },
+  "adelic-entropic-numbers": {
+   "concept_doi": "10.5281/zenodo.21698978",
+   "latest_deposit_id": "21710935",
+   "versions": [
+    {
+     "doi": "10.5281/zenodo.21698978",
+     "deposit_id": "21698978",
+     "tag": "v1.0",
+     "published_at": "2026-07-30",
+     "description": "Initial publication (v1.1 of paper)"
+    },
+    {
+     "doi": "10.5281/zenodo.21710935",
+     "deposit_id": "21710935",
+     "tag": "v1.1",
+     "published_at": "2026-07-31",
+     "description": "Added provenance bundle"
+    }
+   ]
+  },
+  "adelic-rate-distortion": {
+   "concept_doi": "10.5281/zenodo.21705076",
+   "latest_deposit_id": "21710936",
+   "versions": [
+    {
+     "doi": "10.5281/zenodo.21705076",
+     "deposit_id": "21705076",
+     "tag": "v1.0",
+     "published_at": "2026-07-30",
+     "description": "Initial publication (v1.0 of paper)"
+    },
+    {
+     "doi": "10.5281/zenodo.21710936",
+     "deposit_id": "21710936",
+     "tag": "v1.1",
+     "published_at": "2026-07-31",
+     "description": "Added provenance bundle"
+    }
+   ]
+  }
+ }
+}

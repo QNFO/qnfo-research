@@ -1,0 +1,139 @@
+// ─── Theme: CSS Custom Properties ────────────────
+:root {
+  // Backgrounds — warm cream palette
+  --color-bg: #faf8f5;
+  --color-bg-raised: #ffffff;
+  --color-bg-subtle: #f5f1eb;
+  
+  // Text — warm charcoal
+  --color-text: #2d2a26;
+  --color-text-strong: #1a1714;
+  --color-text-secondary: #6b6560;
+  --color-text-muted: #9c9590;
+  
+  // Headings
+  --color-heading: #1a1714;
+  
+  // Accent — rich amber/gold
+  --color-accent: #b8730a;
+  --color-accent-hover: #965e08;
+  --color-accent-light: rgba(184,115,10,0.08);
+  --color-accent-glow: rgba(184,115,10,0.18);
+  --color-accent-soft: #fdf6ed;
+  
+  // Secondary accent — deep teal
+  --color-teal: #0d9488;
+  --color-teal-light: rgba(13,148,136,0.08);
+  
+  // Code
+  --color-code-bg: #f5f1eb;
+  --color-code-text: #2d2a26;
+  
+  // Blockquote
+  --color-blockquote-bg: #fdf6ed;
+  --color-blockquote-border: #b8730a;
+  
+  // Borders
+  --color-border: #e8e3dc;
+  --color-border-light: #f0ece6;
+  
+  // Tables
+  --color-table-header: #f5f1eb;
+  --color-table-stripe: #faf8f5;
+  --color-table-hover: #fdf6ed;
+  
+  // Callouts
+  --color-callout-info-bg: #f0f9f8;
+  --color-callout-info-border: #0d9488;
+  --color-callout-warning-bg: #fef9f0;
+  --color-callout-warning-border: #b8730a;
+  
+  // Overlay
+  --color-overlay: rgba(0,0,0,0.55);
+  
+  // Shadows
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.08);
+  --shadow-xl: 0 20px 60px rgba(0,0,0,0.12);
+  
+  // Hero — warm dark gradient
+  --color-hero-bg: linear-gradient(160deg, #1a1714 0%, #2d2820 40%, #3d3428 100%);
+  --color-hero-text: #faf8f5;
+  --color-hero-subtitle: #c4b8a8;
+  --color-hero-accent: #d4942b;
+  
+  // Sidebar — deep warm dark
+  --color-sidebar-bg: #1a1714;
+  --color-sidebar-text: #c4b8a8;
+  --color-sidebar-text-muted: #7a7268;
+  --color-sidebar-active: #faf8f5;
+  --color-sidebar-hover: #2d2820;
+  --color-sidebar-accent: #d4942b;
+  
+  // Sidebar search
+  --sidebar-search-bg: rgba(255,255,255,0.06);
+  --sidebar-search-border: rgba(255,255,255,0.08);
+  --sidebar-search-focus: rgba(212,148,43,0.3);
+}
+
+// Dark theme
+[data-theme="dark"] {
+  --color-bg: #151310;
+  --color-bg-raised: #1d1a16;
+  --color-bg-subtle: #1a1714;
+  
+  --color-text: #d4cfc8;
+  --color-text-strong: #ede8e0;
+  --color-text-secondary: #9c9590;
+  --color-text-muted: #6b6560;
+  --color-heading: #ede8e0;
+  
+  --color-accent: #d4942b;
+  --color-accent-hover: #e0a840;
+  --color-accent-light: rgba(212,148,43,0.12);
+  --color-accent-glow: rgba(212,148,43,0.2);
+  --color-accent-soft: #242018;
+  
+  --color-teal: #2dd4bf;
+  --color-teal-light: rgba(45,212,191,0.1);
+  
+  --color-code-bg: #1d1a16;
+  --color-code-text: #d4cfc8;
+  --color-blockquote-bg: #201c16;
+  --color-blockquote-border: #d4942b;
+  --color-border: #2d2820;
+  --color-border-light: #242018;
+  
+  --color-table-header: #1d1a16;
+  --color-table-stripe: #181512;
+  --color-table-hover: #242018;
+  
+  --color-callout-info-bg: #0d2623;
+  --color-callout-info-border: #2dd4bf;
+  --color-callout-warning-bg: #241e14;
+  --color-callout-warning-border: #d4942b;
+  
+  --color-overlay: rgba(0,0,0,0.75);
+  
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.4);
+  --shadow-xl: 0 20px 60px rgba(0,0,0,0.5);
+  
+  --color-hero-bg: linear-gradient(160deg, #0c0a08 0%, #151310 40%, #1d1a16 100%);
+  --color-hero-text: #ede8e0;
+  --color-hero-subtitle: #9c9590;
+  --color-hero-accent: #d4942b;
+  
+  --color-sidebar-bg: #0f0d0b;
+  --color-sidebar-text: #9c9590;
+  --color-sidebar-text-muted: #5c554c;
+  --color-sidebar-active: #ede8e0;
+  --color-sidebar-hover: #1a1714;
+  --color-sidebar-accent: #d4942b;
+  
+  --sidebar-search-bg: rgba(255,255,255,0.04);
+  --sidebar-search-border: rgba(255,255,255,0.06);
+  --sidebar-search-focus: rgba(212,148,43,0.2);
+}

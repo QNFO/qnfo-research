@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>CFPE Methodology v2.0</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#c9d1d9;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff;--red:#f85149;--yellow:#d2991d;--purple:#bc8cff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:2rem}
+header{text-align:center;padding:2rem 0;border-bottom:1px solid var(--border);margin-bottom:2rem}
+header h1{font-size:1.8rem;color:var(--blue)}
+header p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin:2rem 0}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem}
+.card h3{color:var(--blue);margin-bottom:1rem;font-size:1rem}
+.row{display:flex;justify-content:space-between;padding:.5rem 0;border-bottom:1px solid var(--border)}
+.row:last-child{border-bottom:none}
+.bar{height:8px;background:var(--border);border-radius:4px;overflow:hidden;margin:.5rem 0}
+.bar-fill{height:100%;border-radius:4px}
+.bar-green{background:var(--green)}
+.bar-blue{background:var(--blue)}
+.bar-red{background:var(--red)}
+.bar-purple{background:var(--purple)}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th,td{text-align:left;padding:.75rem;border-bottom:1px solid var(--border)}
+th{color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:.75rem;font-weight:600}
+.badge-green{background:rgba(63,185,80,.15);color:var(--green)}
+.badge-red{background:rgba(248,81,73,.15);color:var(--red)}
+.badge-yellow{background:rgba(210,153,29,.15);color:var(--yellow)}
+.mermaid-container{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin:2rem 0;overflow-x:auto}
+.mermaid-container h3{color:var(--blue);margin-bottom:1rem}
+.footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 0;border-top:1px solid var(--border);margin-top:3rem}
+</style>  <meta property="og:title" content="CFPE Methodology v2.0 — Bayesian Foresight Engine">
+  <meta property="og:description" content="Cascading Bayesian Foresight Engine with historical back-casting calibration (1976-2026, 1950-2000, 1926-1976). 5 biases identified and corrected.">
+  <meta property="og:url" content="https://cfpe-methodology-dash.pages.dev">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="description" content="CFPE Methodology v2.0: Cascading Bayesian Foresight Engine with back-casting calibration.">
+  <meta name="keywords" content="Bayesian forecasting,paradigm shift,back-casting,scenario testing,methodology">
+</head>
+<body><div class="container">
+<header><h1>CFPE Methodology v2.0</h1><p>Cascading Bayesian Foresight Engine — Back-Casting Calibrated</p></header>
+<div class="cards">
+<div class="card"><h3>Methodology Pipeline (8 Stages)</h3>
+<div class="row"><span>S0: Domain Scoping</span><span class="badge badge-green">PASS</span></div>
+<div class="row"><span>S1: Finding Synthesis</span><span class="badge badge-green">PASS</span></div>
+<div class="row"><span>S2: Candidate Generation</span><span class="badge badge-green">PASS</span></div>
+<div class="row"><span>S3: Assumption Audit</span><span class="badge badge-green">PASS</span></div>
+<div class="row"><span>S4: Adversarial Red-Team</span><span class="badge badge-green">PASS (0% survival)</span></div>
+<div class="row"><span>S5: Bayesian Cascade Model</span><span class="badge badge-green">PASS</span></div>
+<div class="row"><span>S6: Thesis Optimization</span><span class="badge badge-green">PASS</span></div>
+<div class="row"><span>S7: Research Roadmap</span><span class="badge badge-green">PASS</span></div>
+<div class="row"><span>S8: Calibration Register</span><span class="badge badge-green">PASS</span></div>
+</div>
+<div class="card"><h3>Back-Casting Calibration</h3>
+<table><tr><th>Back-Cast</th><th>Years</th><th>Key Finding</th></tr>
+<tr><td>1976 → 2026</td><td>50</td><td>CFPE underpredicted technological shifts by 5-10x</td></tr>
+<tr><td>1950 → 2000</td><td>50</td><td>Overpredicted speculative tech (fusion, flying cars)</td></tr>
+<tr><td>1926 → 1976</td><td>50</td><td>Underpredicted engineering shifts, overpredicted theory</td></tr>
+</table>
+</div>
+<div class="card"><h3>Validation Tests</h3>
+<div class="row"><span>T1: Back-casting accuracy</span><span class="badge badge-green">PASS (>60%)</span></div>
+<div class="row"><span>T2: Calibration error</span><span class="badge badge-yellow">PARTIAL</span></div>
+<div class="row"><span>T3: Adversarial robustness</span><span class="badge badge-green">PASS (0% survival)</span></div>
+<div class="row"><span>T4: Evidence grading</span><span class="badge badge-yellow">NEEDS WORK</span></div>
+<div class="row"><span>T5: Temporal resolution</span><span class="badge badge-yellow">PENDING</span></div>
+</div>
+<div class="card"><h3>Systematic Biases Identified</h3>
+<table><tr><th>Bias</th><th>Correction</th></tr>
+<tr><td>Underconfidence in near-term tech</td><td>Era 1 tech priors x3.0</td></tr>
+<tr><td>Overconfidence in speculative theory</td><td>Era 3-4 theory priors x0.3</td></tr>
+<tr><td>Engineering vs theory asymmetry</td><td>3:1 asymmetry correction</td></tr>
+<tr><td>"Already in pipeline" blindness</td><td>Add precursor detection module</td></tr>
+<tr><td>Continuity baseline overconfidence</td><td>Adjust per field's rate of change</td></tr>
+</table>
+</div>
+</div>
+<div class="card"><h3>Reference Class Base Rates</h3>
+<table><tr><th>Domain</th><th>Shifts/Decade</th></tr>
+<tr><td>Computing/IT</td><td>~3</td></tr>
+<tr><td>Physics (fundamental)</td><td>~0.3</td></tr>
+<tr><td>Biology</td><td>~0.5</td></tr>
+<tr><td>All science (aggregate)</td><td>~1.0</td></tr>
+</table>
+</div>
+</div>
+<div class="footer">
+<p><strong>DOI:</strong> <a href="https://doi.org/10.5281/zenodo.21389352" style="color:var(--blue)">10.5281/zenodo.21389352</a></p>
+<p>CFPE Methodology v2.0 | QNFO Research Collective | 2026-07-16</p>
+</div>
+</div></body></html>

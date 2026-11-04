@@ -1,0 +1,31 @@
+<nav class="chapter-nav" aria-label="Chapter navigation">
+  <div class="chapter-nav-inner">
+    {% if page.prev %}
+    <a href="{{ page.prev }}" class="chapter-nav-btn prev">
+      <span class="nav-arrow">←</span>
+      <span class="nav-label">Previous</span>
+      <span class="nav-title" id="prev-title"></span>
+    </a>
+    {% else %}
+    <span class="chapter-nav-btn prev disabled">
+      <span class="nav-arrow">←</span>
+      <span class="nav-label">Previous</span>
+    </span>
+    {% endif %}
+    
+    <span class="chapter-nav-position">{{ page.title }}</span>
+    
+    {% if page.next %}
+    <a href="{{ page.next }}" class="chapter-nav-btn next">
+      <span class="nav-title" id="next-title"></span>
+      <span class="nav-label">Next</span>
+      <span class="nav-arrow">→</span>
+    </a>
+    {% else %}
+    <span class="chapter-nav-btn next disabled">
+      <span class="nav-label">Next</span>
+      <span class="nav-arrow">→</span>
+    </span>
+    {% endif %}
+  </div>
+</nav>

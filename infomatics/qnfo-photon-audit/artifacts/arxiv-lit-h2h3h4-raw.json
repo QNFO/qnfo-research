@@ -1,0 +1,651 @@
+{
+  "h2": [
+    {
+      "title": "Holographic entanglement entropy close to crossover/phase transition in strongly coupled systems",
+      "authors": [
+        "Shao-Jun Zhang"
+      ],
+      "summary": "We investigate the behavior of entanglement entropy in the holographic QCD model proposed by Gubser et al. By choosing suitable parameters of the scalar self-interaction potential, this model can exhibit various types of phase structures: crossover, first order and second order phase transitions. We use entanglement entropy to probe the crossover/p",
+      "id": "1608.03072",
+      "year": "2016"
+    },
+    {
+      "title": "Adding the algebraic Ryu-Takayanagi formula to the algebraic reconstruction theorem",
+      "authors": [
+        "Mingshuai Xu",
+        "Haocheng Zhong"
+      ],
+      "summary": "A huge progress in studying holographic theories is that holography can be interpreted via the quantum error correction, which makes equal the entanglement wedge reconstruction, the Jafferis-Lewkowycz-Maldacena-Suh formula, the radial commutativity and the Ryu-Takayanagi formula. We call the equivalence the reconstruction theorem, whose infinite-di",
+      "id": "2411.06361",
+      "year": "2024"
+    },
+    {
+      "title": "Holographic Entanglement Entropy: An Overview",
+      "authors": [
+        "Tatsuma Nishioka",
+        "Shinsei Ryu",
+        "Tadashi Takayanagi"
+      ],
+      "summary": "In this article, we review recent progresses on the holographic understandings of the entanglement entropy in the AdS/CFT correspondence. After reviewing the general idea of holographic entanglement entropy, we will explain its applications to confinement/deconfinement phase transitions, black hole entropy and covariant formulation of holography.",
+      "id": "0905.0932",
+      "year": "2009"
+    },
+    {
+      "title": "A Note on Holographic Weyl Anomaly and Entanglement Entropy",
+      "authors": [
+        "Rong-Xin Miao"
+      ],
+      "summary": "We develop a general approach to simplify the derivation of the holographic Weyl anomaly. As an application, we derive the holographic Weyl anomaly from general higher derivative gravity in asymptotically $AdS_{5}$ and $AdS_{7}$. Interestingly, to derive all the central charges of 4d and 6d CFTs, we make no use of equations of motion. Following Mye",
+      "id": "1309.0211",
+      "year": "2013"
+    },
+    {
+      "title": "Positivity, entanglement entropy, and minimal surfaces",
+      "authors": [
+        "Horacio Casini",
+        "Marina Huerta"
+      ],
+      "summary": "The path integral representation for the Renyi entanglement entropies of integer index n implies these information measures define operator correlation functions in QFT. We analyze whether the limit $n\\rightarrow 1$, corresponding to the entanglement entropy, can also be represented in terms of a path integral with insertions on the region's bounda",
+      "id": "1203.4007",
+      "year": "2012"
+    },
+    {
+      "title": "Holographic entanglement entropy probes (non)locality",
+      "authors": [
+        "Jose L. F. Barbon",
+        "Carlos A. Fuertes"
+      ],
+      "summary": "We study the short-distance structure of geometric entanglement entropy in certain theories with a built-in scale of nonlocality. In particular we examine the cases of Little String Theory and Noncommutative Yang-Mills theory, using their AdS/CFT descriptions. We compute the entanglement entropy via the holographic ansatz of Ryu and Takayanagi to c",
+      "id": "0803.1928",
+      "year": "2008"
+    },
+    {
+      "title": "Null wave front as Ryu-Takayanagi surface",
+      "authors": [
+        "Jun Tsujimura",
+        "Yasusada Nambu"
+      ],
+      "summary": "The Ryu-Takayanagi formula provides the entanglement entropy of quantum field theory as an area of the minimal surface (Ryu-Takayangi surface) in a corresponding gravity theory. There are some attempts to understand the formula as a flow rather than as a surface. In this paper, we propose that null rays emitted from the AdS boundary can be regarded",
+      "id": "2003.13374",
+      "year": "2020"
+    },
+    {
+      "title": "Strong subadditivity and the covariant holographic entanglement entropy formula",
+      "authors": [
+        "Robert Callan",
+        "Jianyang He",
+        "Matthew Headrick"
+      ],
+      "summary": "Headrick and Takayanagi showed that the Ryu-Takayanagi holographic entanglement entropy formula generally obeys the strong subadditivity (SSA) inequality, a fundamental property of entropy. However, the Ryu-Takayanagi formula only applies when the bulk spacetime is static. It is not known whether the covariant generalization proposed by Hubeny, Ran",
+      "id": "1204.2309",
+      "year": "2012"
+    },
+    {
+      "title": "Tensor network state correspondence and holography",
+      "authors": [
+        "Sukhwinder Singh"
+      ],
+      "summary": "In recent years, tensor network states have emerged as a very useful conceptual and simulation framework to study quantum many-body systems at low energies. In this paper, we describe a particular way in which any given tensor network can be viewed as a representation of two different quantum many-body states. The two quantum many-body states are s",
+      "id": "1701.04778",
+      "year": "2017"
+    },
+    {
+      "title": "From Path Integrals to Tensor Networks for AdS/CFT",
+      "authors": [
+        "Masamichi Miyaji",
+        "Tadashi Takayanagi",
+        "Kento Watanabe"
+      ],
+      "summary": "In this paper, we discuss tensor network descriptions of AdS/CFT from two different viewpoints. First, we start with an Euclidean path-integral computation of ground state wave functions with a UV cut off. We consider its efficient optimization by making its UV cut off position dependent and define a quantum state at each length scale. We conjectur",
+      "id": "1609.04645",
+      "year": "2016"
+    },
+    {
+      "title": "Consistency Conditions for an AdS/MERA Correspondence",
+      "authors": [
+        "Ning Bao",
+        "ChunJun Cao",
+        "Sean M. Carroll",
+        "Aidan Chatwin-Davies"
+      ],
+      "summary": "The Multi-scale Entanglement Renormalization Ansatz (MERA) is a tensor network that provides an efficient way of variationally estimating the ground state of a critical quantum system. The network geometry resembles a discretization of spatial slices of an AdS spacetime and \"geodesics\" in the MERA reproduce the Ryu-Takayanagi formula for the entang",
+      "id": "1504.06632",
+      "year": "2015"
+    },
+    {
+      "title": "Tensor network renormalization yields the multi-scale entanglement renormalization ansatz",
+      "authors": [
+        "Glen Evenbly",
+        "Guifre Vidal"
+      ],
+      "summary": "We show how to build a multi-scale entanglement renormalization ansatz (MERA) representation of the ground state of a many-body Hamiltonian $H$ by applying the recently proposed \\textit{tensor network renormalization} (TNR) [G. Evenbly and G. Vidal, arXiv:1412.0732] to the Euclidean time evolution operator $e^{-βH}$ for infinite $β$. This approach ",
+      "id": "1502.05385",
+      "year": "2015"
+    },
+    {
+      "title": "MERA: A Comprehensive LLM Evaluation in Russian",
+      "authors": [
+        "Alena Fenogenova",
+        "Artem Chervyakov",
+        "Nikita Martynov",
+        "Anastasia Kozlova"
+      ],
+      "summary": "Over the past few years, one of the most notable advancements in AI research has been in foundation models (FMs), headlined by the rise of language models (LMs). As the models' size increases, LMs demonstrate enhancements in measurable aspects and the development of new qualitative features. However, despite researchers' attention and the rapid gro",
+      "id": "2401.04531",
+      "year": "2024"
+    },
+    {
+      "title": "Entanglement, Tensor Networks and Black Hole Horizons",
+      "authors": [
+        "Javier Molina-Vilaplana",
+        "Javier Prior"
+      ],
+      "summary": "We elaborate on a previous proposal by Hartman and Maldacena on a tensor network which accounts for the scaling of the entanglement entropy in a system at a finite temperature. In this construction, the ordinary entanglement renormalization flow given by the class of tensor networks known as the Multi Scale Entanglement Renormalization Ansatz (MERA",
+      "id": "1403.5395",
+      "year": "2014"
+    },
+    {
+      "title": "Fermi-point scenario for emergent gravity",
+      "authors": [
+        "G. E. Volovik"
+      ],
+      "summary": "Let us assume that gravity is an emergent low-energy phenomenon arising from a topologically stable defect in momentum space -- the Fermi point. What are the consequences? We discuss the natural values of fermion masses and cosmological constant; flatness of the Universe; bounds on Lorentz violation; etc.",
+      "id": "0709.1258",
+      "year": "2007"
+    },
+    {
+      "title": "Group field theory as the microscopic description of the quantum spacetime fluid: a new perspective on the continuum in quantum gravity",
+      "authors": [
+        "Daniele Oriti"
+      ],
+      "summary": "We introduce the group field theory (GFT) formalism for non-perturbative quantum gravity, and present it as a potential unifying framework for several other quantum gravity approaches, i.e. loop quantum gravity and simplicial quantum gravity ones. We then argue in favor of and present in detail what we believe is a new GFT perspective on the emerge",
+      "id": "0710.3276",
+      "year": "2007"
+    },
+    {
+      "title": "Entanglement Entropy and Causal Set Theory",
+      "authors": [
+        "Yasaman K. Yazdi"
+      ],
+      "summary": "We review a formulation of the entanglement entropy of a quantum scalar field in terms of its spacetime two-point correlation functions. We discuss applications of this formulation to studying entanglement entropy in various settings in causal set theory. These settings include sprinklings of causal diamonds in various dimensions in flat spacetime,",
+      "id": "2212.13586",
+      "year": "2022"
+    },
+    {
+      "title": "Causal Sets: Quantum gravity from a fundamentally discrete spacetime",
+      "authors": [
+        "Petros Wallden"
+      ],
+      "summary": "In order to construct a quantum theory of gravity, we may have to abandon certain assumptions we were making. In particular, the concept of spacetime as a continuum substratum is questioned. Causal Sets is an attempt to construct a quantum theory of gravity starting with a fundamentally discrete spacetime. In this contribution we review the whole a",
+      "id": "1001.4041",
+      "year": "2010"
+    },
+    {
+      "title": "Emergent/Quantum Gravity: Macro/Micro Structures of Spacetime",
+      "authors": [
+        "B. L. Hu"
+      ],
+      "summary": "Emergent gravity views spacetime as an entity emergent from a more complete theory of interacting fundamental constituents valid at much finer resolution or higher energies, usually assumed to be above the Planck energy. In this view general relativity is an effective theory valid only at long wavelengths and low energies. For any presumed known th",
+      "id": "0903.0878",
+      "year": "2009"
+    },
+    {
+      "title": "Directions in Causal Set Quantum Gravity",
+      "authors": [
+        "Sumati Surya"
+      ],
+      "summary": "In the causal set approach to quantum gravity the spacetime continuum arises as an approximation to a fundamentally discrete substructure, the causal set, which is a locally finite partially ordered set. The causal set paradigm was elucidated in a classic paper by Bombelli, Lee, Meyer and Sorkin in 1987. While early kinematical results already show",
+      "id": "1103.6272",
+      "year": "2011"
+    },
+    {
+      "title": "Emergence of Riemannian Quantum Geometry",
+      "authors": [
+        "Hal M. Haggard",
+        "Jerzy Lewandowski",
+        "Hanno Sahlmann"
+      ],
+      "summary": "In this chapter we take up the quantum Riemannian geometry of a spatial slice of spacetime. While researchers are still facing the challenge of observing quantum gravity, there is a geometrical core to loop quantum gravity that does much to define the approach. This core is the quantum character of its geometrical observables: space and spacetime a",
+      "id": "2302.02840",
+      "year": "2023"
+    },
+    {
+      "title": "Capacity and quantum geometry of parametrized quantum circuits",
+      "authors": [
+        "Tobias Haug",
+        "Kishor Bharti",
+        "M. S. Kim"
+      ],
+      "summary": "To harness the potential of noisy intermediate-scale quantum devices, it is paramount to find the best type of circuits to run hybrid quantum-classical algorithms. Key candidates are parametrized quantum circuits that can be effectively implemented on current devices. Here, we evaluate the capacity and trainability of these circuits using the geome",
+      "id": "2102.01659",
+      "year": "2021"
+    },
+    {
+      "title": "Quantum Graphity: a model of emergent locality",
+      "authors": [
+        "Tomasz Konopka",
+        "Fotini Markopoulou",
+        "Simone Severini"
+      ],
+      "summary": "Quantum graphity is a background independent model for emergent locality, spatial geometry and matter. The states of the system correspond to dynamical graphs on N vertices. At high energy, the graph describing the system is highly connected and the physics is invariant under the full symmetric group acting on the vertices. We present evidence that",
+      "id": "0801.0861",
+      "year": "2008"
+    },
+    {
+      "title": "Energetics of the Quantum Graphity Universe",
+      "authors": [
+        "Samuel A. Wilkinson",
+        "Andrew D. Greentree"
+      ],
+      "summary": "Quantum graphity is a background independent model for emergent geometry, in which space is represented as a complete graph. The high-energy pre-geometric starting point of the model is usually considered to be the complete graph, however we also consider the empty graph as a candidate pre-geometric state. The energetics as the graph evolves from e",
+      "id": "1409.2557",
+      "year": "2014"
+    }
+  ],
+  "h3": [
+    {
+      "title": "Landauer Principle and General Relativity",
+      "authors": [
+        "L. Herrera"
+      ],
+      "summary": "We endeavour to illustrate the physical relevance of the Landauer principle applying it to different important issues concerning the theory of gravitation. We shall first analyze, in the context of general relativity, the consequences derived from the fact, implied by Landauer principle, that information has mass. Next, we shall analyze the role pl",
+      "id": "2003.07436",
+      "year": "2020"
+    },
+    {
+      "title": "Modified Landauer principle according to Tsallis entropy",
+      "authors": [
+        "L. Herrera"
+      ],
+      "summary": "The Landauer principle establishes a lower bound in the amount of energy that should be dissipated in the erasure of one bit of information. The specific value of this dissipated energy is tightly related to the definition of entropy. In this article, we present a generalization of the Landauer principle based on the Tsallis entropy. Some consequen",
+      "id": "2411.07897",
+      "year": "2024"
+    },
+    {
+      "title": "Generalized Reversible Computing",
+      "authors": [
+        "Michael P. Frank"
+      ],
+      "summary": "Landauer's Principle that information loss from a computation implies entropy increase can be rigorously proved from mathematical physics. However, carefully examining its detailed formulation reveals that the traditional identification of logically reversible computational operations with bijective transformations of the full digital state space i",
+      "id": "1806.10183",
+      "year": "2018"
+    },
+    {
+      "title": "Landauer Principle and Thermodynamics of Computation",
+      "authors": [
+        "Pritam Chattopadhyay",
+        "Avijit Misra",
+        "Tanmoy Pandit",
+        "Goutam Paul"
+      ],
+      "summary": "According to the Landauer principle, any logically irreversible process accompanies entropy production, which results in heat dissipation in the environment. Erasing of information, one of the primary logically irreversible processes, has a lower bound on heat dissipated into the environment, called the Landauer bound (LB). However, the practical e",
+      "id": "2506.10876",
+      "year": "2025"
+    },
+    {
+      "title": "Generalising Landauer's Principle",
+      "authors": [
+        "O. J. E. Maroney"
+      ],
+      "summary": "In a recent paper [Mar05] it is argued that to properly understand the thermodynamics of Landauer's Principle it is necessary extend the concept of logical operations to include indeterministic operations. Here we examine the thermodynamics of such operations in more detail, extending the work of Landuaer[Lan61] to include indeterministic operation",
+      "id": "quant-ph/0702094",
+      "year": "2007"
+    },
+    {
+      "title": "Time, Space, and Energy in Reversible Computing",
+      "authors": [
+        "Paul Vitanyi"
+      ],
+      "summary": "We survey results of a quarter century of work on computation by reversible general-purpose computers (in this setting Turing machines), and general reversible simulation of irreversible computations, with respect to energy-, time- and space requirements.",
+      "id": "cs/0504088",
+      "year": "2005"
+    },
+    {
+      "title": "Compositional Reversible Computation",
+      "authors": [
+        "Jacques Carette",
+        "Chris Heunen",
+        "Robin Kaarsgaard",
+        "Amr Sabry"
+      ],
+      "summary": "Reversible computing is motivated by both pragmatic and foundational considerations arising from a variety of disciplines. We take a particular path through the development of reversible computation, emphasizing compositional reversible computation. We start from a historical perspective, by reviewing those approaches that developed reversible exte",
+      "id": "2405.20842",
+      "year": "2024"
+    },
+    {
+      "title": "Reversible Computation in Wireless Communications",
+      "authors": [
+        "Harun Siljak"
+      ],
+      "summary": "This chapter presents the pioneering work in applying reversible computation paradigms to wireless communications. These applications range from developing reversible hardware architectures for underwater acoustic communications to novel distributed optimisation procedures in large radio-frequency antenna arrays based on reversing Petri nets. Throu",
+      "id": "1911.09104",
+      "year": "2019"
+    },
+    {
+      "title": "Ballistic reversible gates matched to bit storage: Plans for an efficient CNOT gate using fluxons",
+      "authors": [
+        "Kevin D. Osborn",
+        "Waltraut Wustmann"
+      ],
+      "summary": "New computing technologies are being sought near the end of CMOS transistor scaling, meanwhile superconducting digital, i.e., single-flux quantum (SFQ), logic allows incredibly efficient gates which are relevant to the impending transition. In this work we present a proposed reversible logic, including gate simulations and schematics under the name",
+      "id": "1806.08011",
+      "year": "2018"
+    },
+    {
+      "title": "The Thermodynamic Costs of Pure Dephasing in Quantum Heat Engines: Quasistatic Efficiency at Finite Power",
+      "authors": [
+        "Raphael Weber",
+        "Susana F. Huelga",
+        "Martin B. Plenio"
+      ],
+      "summary": "Quantum heat engines are commonly believed to achieve their optimal efficiency only when operated quasi-statically. When running at finite power, however, they suffer effective friction due to the generation of coherences and transitions between energy eigenstates. It was noted that it is possible to increase the power of a quantum heat engine usin",
+      "id": "2312.05375",
+      "year": "2023"
+    },
+    {
+      "title": "A Cost- Effective Design of Reversible Programmable Logic Array",
+      "authors": [
+        "Pradeep Singla",
+        "Naveen Kr. Malik"
+      ],
+      "summary": "In the recent era, Reversible computing is a growing field having applications in nanotechnology, optical information processing, quantum networks etc. In this paper, the authors show the design of a cost effective reversible programmable logic array using VHDL. It is simulated on xilinx ISE 8.2i and results are shown. The proposed reversible Progr",
+      "id": "1204.5525",
+      "year": "2012"
+    },
+    {
+      "title": "Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It",
+      "authors": [
+        "Jae Hyung Yee"
+      ],
+      "summary": "The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the background field method, which enables one to compute the",
+      "id": "hep-th/9707234",
+      "year": "1997"
+    },
+    {
+      "title": "The Great Inequality In A Hamiltonian Planetary Theory",
+      "authors": [
+        "F. Varadi",
+        "M. Ghil",
+        "W. M. Kaula",
+        " Keywords"
+      ],
+      "summary": "The Jupiter-Saturn 2:5 near-commensurability is analyzed in a fully analytic Hamiltonian planetary theory. Computations for the Sun-Jupiter-Saturn system, extending to the third order of the masses and to the 8th degree in the eccentricities and inclinations, reveal an unexpectedly sensitive dependence of the solution on initial data and its likely",
+      "id": "chao-dyn/9311011",
+      "year": "1993"
+    },
+    {
+      "title": "A Universal Two--Bit Gate for Quantum Computation",
+      "authors": [
+        "A. Barenco"
+      ],
+      "summary": "We prove the existence of a class of two--input, two--output gates any one of which is universal for quantum computation. This is done by explicitly constructing the three--bit gate introduced by Deutsch [Proc.~R.~Soc.~London.~A {\\bf 425}, 73 (1989)] as a network consisting of replicas of a single two--bit gate.",
+      "id": "quant-ph/9505016",
+      "year": "1995"
+    },
+    {
+      "title": "Computational class field theory",
+      "authors": [
+        "Henri Cohen",
+        "Peter Stevenhagen"
+      ],
+      "summary": "Class field theory furnishes an intrinsic description of the abelian extensions of a number field that is in many cases not of an immediate algorithmic nature. We outline the algorithms available for the explicit computation of such extensions.",
+      "id": "0802.3843",
+      "year": "2008"
+    },
+    {
+      "title": "Limits of Adiabatic Clocking in Quantum-dot Cellular Automata",
+      "authors": [
+        "Jacob Retallick",
+        "Konrad Walus"
+      ],
+      "summary": "Ultimate bounds on the maximum operating frequency of networks of quantum dot cellular automata devices have yet to be established. We consider the adiabaticity of such networks in the two-state approximation where clocking is achieved via modulation of the inter-dot tunneling barriers. Estimates of the maximum operating frequency that would allow ",
+      "id": "1911.00122",
+      "year": "2019"
+    },
+    {
+      "title": "Quantum Computing with Electron Spins in Quantum Dots",
+      "authors": [
+        "L. M. K. Vandersypen",
+        "R. Hanson",
+        "L. H. Willems van Beveren",
+        "J. M. Elzerman"
+      ],
+      "summary": "We present a set of concrete and realistic ideas for the implementation of a small-scale quantum computer using electron spins in lateral GaAs/AlGaAs quantum dots. Initialization is based on leads in the quantum Hall regime with tunable spin-polarization. Read-out hinges on spin-to-charge conversion via spin-selective tunneling to or from the leads",
+      "id": "quant-ph/0207059",
+      "year": "2002"
+    },
+    {
+      "title": "Classical Reversible Computation by Quantum Coherence",
+      "authors": [
+        "Daniel Loss"
+      ],
+      "summary": "Rising energy demand from data-center and AI applications has renewed interest in reversible computation, where logic need not dissipate heat at every step if information is uncomputed. Implementations have so far been classical: adiabatic CMOS reduces dissipation by slowing charge motion but is still limited by the threshold physics of transistors",
+      "id": "2607.06219",
+      "year": "2026"
+    }
+  ],
+  "h4": [
+    {
+      "title": "From Data to the p-Adic or Ultrametric Model",
+      "authors": [
+        "Fionn Murtagh"
+      ],
+      "summary": "We model anomaly and change in data by embedding the data in an ultrametric space. Taking our initial data as cross-tabulation counts (or other input data formats), Correspondence Analysis allows us to endow the information space with a Euclidean metric. We then model anomaly or change by an induced ultrametric. The induced ultrametric that we are ",
+      "id": "0809.0492",
+      "year": "2008"
+    },
+    {
+      "title": "p-Adic and Adelic Quantum Mechanics",
+      "authors": [
+        "Branko Dragovich"
+      ],
+      "summary": "p-Adic mathematical physics emerged as a result of efforts to find a non-Archimedean approach to the spacetime and string dynamics at the Planck scale. One of its main achievements is a successful formulation and development of p-adic and adelic quantum mechanics, which have complex-valued wave functions of p-adic and adelic arguments, respectively",
+      "id": "hep-th/0312046",
+      "year": "2003"
+    },
+    {
+      "title": "Application of $p$-adic analysis methods in describing Markov processes on ultrametric spaces isometrically embeddable into $\\mathbb{Q}_{p}$",
+      "authors": [
+        "A. Kh. Bikulov",
+        "A. P. Zubarev"
+      ],
+      "summary": "We propose a method for describing stationary Markov processes on the class of ultrametric spaces $\\mathbb{U}$ isometrically embeddable in the field $\\mathbb{Q}_{p}$ of $p$-adic numbers. This method is capable of reducing the study of such processes to the investigation of processes on $\\mathbb{Q}_{p}$. Thereby the traditional machinery of $p$-adic",
+      "id": "1504.03629",
+      "year": "2015"
+    },
+    {
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "authors": [
+        "Farrukh Mukhamedov",
+        "Utkir Rozikov",
+        "Jose Fernando F. Mendes"
+      ],
+      "summary": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only if $p=3$ for any value (non zero) of interactions.",
+      "id": "math-ph/0512018",
+      "year": "2005"
+    },
+    {
+      "title": "p-Adic and Adelic Cosmology: p-Adic Origin of Dark Energy and Dark Matter",
+      "authors": [
+        "Branko Dragovich"
+      ],
+      "summary": "A brief review of p-adic and adelic cosmology is presented. In particular, p-adic and adelic aspects of gravity, classical cosmology, quantum mechanics, quantum cosmology and the wave function of the universe are considered. p-Adic worlds made of p-adic matters, which are different from real world of ordinary matter, are introduced. Real world and ",
+      "id": "hep-th/0602044",
+      "year": "2006"
+    },
+    {
+      "title": "p-Adic description of Higgs mechanism I: p-Adic square root and p-adic light cone",
+      "authors": [
+        "M. Pitkänen"
+      ],
+      "summary": "This paper is the first one in the series devoted to the calculation of particle mass spectrum in Topological GeometroDynamics. TGD Universe is critical at quantum level and an attractive idea to realize criticality is via conformal invariance. Ordinary real numbers do not allow this but if one assumes that in long length scales p-adic topology rep",
+      "id": "hep-th/9410058",
+      "year": "1994"
+    },
+    {
+      "title": "A p-Adic Model of DNA Sequence and Genetic Code",
+      "authors": [
+        "Branko Dragovich",
+        "Alexandra Dragovich"
+      ],
+      "summary": "Using basic properties of p-adic numbers, we consider a simple new approach to describe main aspects of DNA sequence and genetic code. Central role in our investigation plays an ultrametric p-adic information space which basic elements are nucleotides, codons and genes. We show that a 5-adic model is appropriate for DNA sequence. This 5-adic model,",
+      "id": "q-bio/0607018",
+      "year": "2006"
+    },
+    {
+      "title": "Pseudodifferential p-adic vector fields and pseudodifferentiation of a composite p-adic function",
+      "authors": [
+        "S. Albeverio",
+        "S. V. Kozyrev"
+      ],
+      "summary": "We discuss transformation of p-adic pseudodifferential operators (in the one-dimensional and multidimensional cases) with respect to p-adic maps which correspond to automorphisms of the tree of balls in the corresponding p-adic spaces.   In the dimension one we find a rule of transformation for pseudodifferential operators. In particular we find th",
+      "id": "1105.1506",
+      "year": "2011"
+    },
+    {
+      "title": "Physics Briefing Book",
+      "authors": [
+        " European Strategy for Particle Physics Preparatory Group"
+      ],
+      "summary": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an importan",
+      "id": "1910.11775",
+      "year": "2019"
+    },
+    {
+      "title": "From Dual Models to String Theory",
+      "authors": [
+        "Peter Goddard"
+      ],
+      "summary": "A personal view is given of the development of string theory out of dual models, including the analysis of the structure of the physical states and the proof of the No-Ghost Theorem, the quantization of the relativistic string, and the calculation of fermion-fermion scattering.",
+      "id": "0802.3249",
+      "year": "2008"
+    },
+    {
+      "title": "Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96",
+      "authors": [
+        " NLC ZDR Design Group",
+        " NLC Physics Working Group",
+        "S. Kuhlman"
+      ],
+      "summary": "We present the current expectations for the design and physics program of an e+e- linear collider of center of mass energy 500 GeV -- 1 TeV. We review the experiments that would be carried out at this facility and demonstrate its key role in exploring physics beyond the Standard Model over the full range of theoretical possibilities. We then show t",
+      "id": "hep-ex/9605011",
+      "year": "1996"
+    },
+    {
+      "title": "The arithmetic Hodge index theorem for adelic line bundles II",
+      "authors": [
+        "Xinyi Yuan",
+        "Shou-Wu Zhang"
+      ],
+      "summary": "This is the second paper of a series. It extends the results of the first paper from number fields to finitely generated fields, based on the recent theory of adelic line bundles of the same authors. We prove an arithmetic Hodge index theorem for these adelic line bundles, and apply the theorem to obtain a rigidity property of the sets of preperiod",
+      "id": "1304.3539",
+      "year": "2013"
+    },
+    {
+      "title": "A concise review of Rydberg atom based quantum computation and quantum simulation",
+      "authors": [
+        "Xiaoling Wu",
+        "Xinhui Liang",
+        "Yaoqi Tian",
+        "Fan Yang"
+      ],
+      "summary": "Quantum information processing based on Rydberg atoms emerged as a promising direction two decades ago. Recent experimental and theoretical progresses have shined exciting light on this avenue. In this concise review, we will briefly introduce the basics of Rydberg atoms and their recent applications in associated areas of neutral atom quantum comp",
+      "id": "2012.10614",
+      "year": "2020"
+    },
+    {
+      "title": "Energetics of Rydberg-atom Quantum Computing",
+      "authors": [
+        "Óscar Alves",
+        "Marco Pezzutto",
+        "Yasser Omar"
+      ],
+      "summary": "While extensive research over the past decades has been dedicated to developing scalable quantum computers, the question of their energetic performance has only gained attention more recently, but its importance is now recognized. In fact, quantum computers can only be a viable alternative if their energy cost scales favorably, and some research ha",
+      "id": "2601.03141",
+      "year": "2026"
+    },
+    {
+      "title": "Polarimetric Light-Pulse Atom Interferometer: Two-Level Scheme",
+      "authors": [
+        "A. Zh. Muradyan"
+      ],
+      "summary": "A new type of atomic interferometer is proposed, in which the traditional method of measuring the state of an atom is replaced by the technique of polarization spectroscopy using the working substance of a clot of condensate of two-level atoms. As a result, the atomic interferometer is freed from needing the above-mentioned multiple repetitions, wh",
+      "id": "2506.16885",
+      "year": "2025"
+    },
+    {
+      "title": "Large Scale (Multiphoton) Evolution of Atomic Energy Level's Mean Momentum for Single-Photon Absorption/Emission Process",
+      "authors": [
+        "A. Zh. Muradyan",
+        "H. L. Haroutyunyan"
+      ],
+      "summary": "It is shown that a two-level atom, being initially in general superposition state of ground and excited energy levels with mutually different momentum distributions there, gets a large scale evolution in the energy levels momentum distribution. As a consequence the mean momentum of each individual energy level also gets large scale changes, more th",
+      "id": "physics/9909050",
+      "year": "1999"
+    },
+    {
+      "title": "Fractional quantum anomalous Hall phase for Raman superarray of Rydberg atoms",
+      "authors": [
+        "Ting-Fung Jeffrey Poon",
+        "Xin-Chi Zhou",
+        "Bao-Zong Wang",
+        "Tian-Hua Yang"
+      ],
+      "summary": "Rydberg atom arrays offer promising platforms for quantum simulation of correlated quantum matter and raise great interests. This work proposes a novel stripe-lattice model with Raman superarray of Rydberg atoms to realize bosonic fractional quantum anomalous Hall (FQAH) phase. Two types of Rydberg states, arranged in a supperarray configuration an",
+      "id": "2302.13104",
+      "year": "2023"
+    },
+    {
+      "title": "Continuous Quantum Aperture: Beamforming with a Single-Vapor-Cell Rydberg Receiver",
+      "authors": [
+        "Mingyao Cui",
+        "Qunsong Zeng",
+        "Minze Chen",
+        "Yilin Wang"
+      ],
+      "summary": "Beamforming is conventionally understood as a collective property of many discrete antenna elements in both communication and radar fields, which links angular selectivity to array size, element spacing, and band-specific hardware. Here we uncover a fundamentally different beamforming mechanism achieved by a Rydberg atomic receiver: a Rydberg-atom ",
+      "id": "2604.09068",
+      "year": "2026"
+    },
+    {
+      "title": "The origin of the spin glass transition in a model geometrically frustrated magnet",
+      "authors": [
+        "W. Bisson",
+        "A. S. Wills"
+      ],
+      "summary": "Highly frustrated systems have macroscopically degenerate ground states that lead to novel properties. In magnetism its consequences underpin exotic and technologically important effects, such as, high temperature superconductivity, colossal magnetoresistence, and the anomalous Hall effect. One of the enduring mysteries of frustrated magnetism is w",
+      "id": "cond-mat/0608234",
+      "year": "2006"
+    },
+    {
+      "title": "Ultrametricity in 3D Edwards-Anderson spin glasses",
+      "authors": [
+        "Silvio Franz",
+        "Federico Ricci-Tersenghi"
+      ],
+      "summary": "We perform an accurate test of Ultrametricity in the aging dynamics of the three dimensional Edwards-Anderson spin glass. Our method consists in considering the evolution in parallel of two identical systems constrained to have fixed overlap. This turns out to be a particularly efficient way to study the geometrical relations between configurations",
+      "id": "cond-mat/9903130",
+      "year": "1999"
+    },
+    {
+      "title": "Simulation of Spin Glass with a Variable-system-size Ensemble",
+      "authors": [
+        "Yukito Iba"
+      ],
+      "summary": "In this paper, we introduce a dynamical Monte Carlo algorithm for spin models in which the number of the spins fluctuates from zero to a given number by addition and deletion of spins with a probabilistic rule. Such simulations are realized with a variable-system-size ensemble, a mixture of canonical ensembles each of which corresponds to a system ",
+      "id": "cond-mat/9811053",
+      "year": "1998"
+    },
+    {
+      "title": "Is dynamic ultrametricity observable in spin glasses?",
+      "authors": [
+        "Ludovic Berthier",
+        "Jean-Louis Barrat",
+        "Jorge Kurchan"
+      ],
+      "summary": "We investigate the dynamics of spin glasses from the `rheological' point of view, in which aging is suppressed by the action of small, non-conservative forces. The different features can be expressed in terms of the scaling of relaxation times with the magnitude of the driving force, which plays the role of the critical parameter. Stated in these t",
+      "id": "cond-mat/0006161",
+      "year": "2000"
+    }
+  ]
+}

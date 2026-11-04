@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="Rowan Brad Quni-Gudzinas">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/og-image.svg">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | replace:'.html','' }}">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "{{ page.title | default: site.title }}",
+    "author": { "@type": "Person", "name": "Rowan Brad Quni-Gudzinas" },
+    "datePublished": "2026-05-02",
+    "description": "{{ page.description | default: site.description }}",
+    "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+    "inLanguage": "en"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script>!function(){var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}();</script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ site.time | date: '%s' }}">
+  {% if page.katex %}<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">{% endif %}
+  {% if page.math %}
+  <script>
+  {% raw %}
+    MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:true},options:{ignoreHtmlClass:'no-mathjax'}};
+  {% endraw %}
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    setTimeout(function(){if(typeof MathJax==='undefined'){document.querySelectorAll('.MathJax_Preview').forEach(function(e){e.style.display='inline';});}},5000);
+  </script>
+  {% endif %}
+  {% if page.clipboard %}<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>{% endif %}
+  {% if page.analytics and page.no-tracking != true %}{% include google-analytics.html %}{% endif %}
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="progress-bar" id="progress-bar"></div>
+  <noscript><div class="noscript-banner">JavaScript enhances this page. All content is readable without it.</div></noscript>
+  <div class="top-bar">
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <span class="top-title">Ultrametric Paradigm</span>
+    <button class="theme-toggle-mobile" aria-label="Toggle theme">🌙</button>
+  </div>
+  <div class="sidebar-overlay"></div>
+  <div class="app-container">
+    {% include sidebar.html %}
+    <main class="main-content" id="main-content">
+      {% if page.chapter %}{% include breadcrumbs.html %}{% endif %}
+      <div class="hero" id="top">
+        <h1>The Ultrametric Paradigm</h1>
+        <p class="subtitle">How the Choice of Geometry Determines Everything</p>
+        <div class="hero-meta">
+          <span>Rowan Brad Quni-Gudzinas</span>
+          <span>2026-05-03</span>
+          <span class="reading-time">~X min read</span>
+          <span>v0.9.1</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#start-reading" class="btn-primary">Start Reading</a>
+          <a href="#chapter-transition-network" class="btn-outline">Chapter Map</a>
+          <a href="#quick-reference-card" class="btn-outline">Quick Reference</a>
+          <button class="btn-outline theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </div>
+      {% if page.toc %}{% include toc.html %}{% endif %}
+      {% if page.prev or page.next %}{% include chapter-nav.html position="top" %}{% endif %}
+      <div id="content-area">
+        <span id="start-reading"></span>
+        {{ content }}
+      </div>
+      {% if page.prev or page.next %}{% include chapter-nav.html position="bottom" %}{% endif %}
+      {% include footer.html %}
+    </main>
+  </div>
+  <div class="fab" id="fab" title="Back to top (long-press for theme)">↑</div>
+  {% if page.js %}<script src="{{ site.baseurl }}/assets/js/main.js?v={{ site.time | date: '%s' }}"></script>{% endif %}
+  {% if page.search %}<script src="{{ site.baseurl }}/assets/js/search.js?v={{ site.time | date: '%s' }}"></script>{% endif %}
+  <script>
+    (function(){var t=document.documentElement.getAttribute('data-theme');document.querySelectorAll('.theme-toggle,.theme-toggle-mobile').forEach(function(b){b.textContent=t==='dark'?'☀️':'🌙';});})();
+  </script>
+</body>
+</html>

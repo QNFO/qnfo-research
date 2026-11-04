@@ -41,3 +41,22 @@ Cite the repository with `CITATION.cff`; cite a paper by its address `https://pa
 original repository to where it lives now (including DOIs); the audit that led to the consolidation, with its numbers, is
 [`docs/REPOSITORY-AUDIT-2026-10-26.md`](docs/REPOSITORY-AUDIT-2026-10-26.md). Original repositories stay archived on
 GitHub, not deleted.
+
+## Research programs (folded 2026-11-04, history preserved)
+
+Each program repository was merged by subtree into the directory of the same name; the original repositories are archived, not deleted.
+
+| Directory | Original |
+|---|---|
+| `ultrametric-physics/` | QNFO/ultrametric-physics |
+| `laws-of-form/` | QNFO/laws-of-form |
+| `cfpe/` | QNFO/cfpe |
+| `infomatics/` | QNFO/infomatics |
+| `odr-thesis/` | QNFO/odr-thesis |
+| `adelic-shannon-theory/` | QNFO/adelic-shannon-theory |
+| `qec-darwinism-ultrametric/` | QNFO/qec-darwinism-ultrametric |
+| `consilient-gap-synthesis/` | QNFO/consilient-gap-synthesis |
+| `reentrant-distinctions/` | QNFO/reentrant-distinctions |
+| `informational-universe/` | QNFO/informational-universe |
+| `revolutionary-quantum-guide/` | QNFO/revolutionary-quantum-guide |
+| `cwi-qec-poster-2026/` | QNFO/cwi-qec-poster-2026 |

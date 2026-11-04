@@ -1,0 +1,25 @@
+# GitHub Pages configuration for hierarchical-universe
+title: The Hierarchical Universe
+description: How one geometric structure unifies numbers, computation, physics, and meaning
+baseurl: "/hierarchical-universe"
+url: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# Exclude from build
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .git
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null

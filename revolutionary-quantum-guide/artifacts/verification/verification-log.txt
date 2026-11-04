@@ -1,0 +1,53 @@
+[PASS] Carnot COP at 20 mK: computed=6.66711e-05 claimed=6.7e-05
+[PASS] Min. wall power per watt at 20 mK: computed=14999 W claimed=15000.0 W
+[PASS] Wall power at 30% of Carnot: computed=49996.7 W claimed=50000.0 W
+[PASS] Carnot COP at 4 K: computed=0.0135135 claimed=0.0135
+[PASS] Wall power per watt at 4 K: computed=74 W claimed=75.0 W
+[PASS] 4 K is N x colder than 300 K: computed=75x claimed=75.0x
+[PASS] 20 mK is N x colder than 300 K: computed=15000x claimed=15000.0x
+[PASS] Cooling gap (1 W / 50 uW): computed=20000x claimed=20000.0x
+[PASS] 240 kW at 10,000 logical qubits: computed=240000 W claimed=240000.0 W
+[PASS] 24 MW at 1M logical qubits: computed=2.4e+07 W claimed=24000000.0 W
+[PASS] LDPC 10x improvement -> 24 kW: computed=24000 W claimed=24000.0 W
+[PASS] 1 W/logical -> 50 kW wall; x10k = 500 MW: computed=5e+08 W claimed=500000000.0 W
+[PASS] Landauer limit at 20 mK: computed=1.91399e-25 J claimed=1.9e-25 J
+        (v1.1 stated 2e-23 J — corrected in v1.2 to 1.91399e-25 J)
+        (note: k_B T ln2 at 2 K = 1.91e-23 J — the v1.1 figure matches 2 K, not 20 mK)
+[PASS] He-3/He-4 phase separation: computed=0.87 K claimed=0.87 K
+[PASS] d=3 -> d=5 improvement (pct pts): computed=0.114 pp claimed=0.114 pp
+[PASS] Linear extrapolation to d=11: computed=2.572 % claimed=2.6 %
+        (v1.1 stated 2.4 % — corrected in v1.2 to 2.572 %)
+[PASS] Errors at ~2.6% over 1e6 gates: computed=25720 claimed=26000.0
+        (v1.1 stated 24000.0 — corrected in v1.2 to 25720)
+[PASS] Google 2023 Lambda per cycle: computed=2.14 claimed=2.14
+[PASS] Error-rate gap (orders of magnitude): computed=13 claimed=13.0
+[PASS] Surface code d=11 physical qubits: computed=241 claimed=241.0
+[PASS] Surface code d=11 stabilizers: computed=120 claimed=120.0
+[PASS] 2048-bit RSA physical qubits: computed=2e+07 claimed=20000000.0
+[PASS] Bit-flip advantage (50 / 10.9): computed=4.58716x claimed=4.6x
+[PASS] Depolarizing advantage (75 / 1.0): computed=75x claimed=75.0x
+[PASS] Tree code d=11-equivalent vs surface (241/40): computed=6.025x claimed=6.0x
+        (v1.1 stated 20.0x — corrected in v1.2 to 6.025x)
+[PASS] Encoding rate 1 - 1/p at p=2: computed=0.5 claimed=0.5
+[PASS] 4 K vs 20 mK temperature ratio: computed=200x claimed=200.0x
+        (v1.1 stated 100.0x — corrected in v1.2 to 200x)
+[PASS] 4 K vs 10 mK temperature ratio: computed=400x claimed=400.0x
+[PASS] LHC 1.9 K vs 20 mK ratio (~100x warmer): computed=95x claimed=95.0x
+[PASS] 2^50 (~quadrillion): computed=1.1259e+15 claimed=1126000000000000.0
+[PASS] Grover iterations pi*sqrt(N)/4, N=1e6: computed=785.398 claimed=785.4
+[PASS] Grover speedup claim: 500,000/1,000 = 500x (consistent with guide's ~1,000-step
+       overhead round-up; exact iteration count is 785)
+[PASS] AES-128 Grover sqrt = 2^64: computed=1.84467e+19 claimed=1.8446744073709552e+19
+[PASS] 'Billion billion times worse' is a rough order-of-magnitude characterization:
+       range of ratios is 1e-4/1e-27=1e23 to 1e-3/1e-18=1e15; 1e18 sits inside it
+[PASS] E1+E2 cost vs $300,000 cap: computed=260000 $ claimed=260000.0 $
+
+======================================================================
+SUMMARY: 35 PASS / 0 FAIL
+v1.1 -> v1.2 corrections verified in this run:
+  - Landauer limit at 20 mK
+  - Linear extrapolation to d=11
+  - Errors at ~2.6% over 1e6 gates
+  - Tree code d=11-equivalent vs surface (241/40)
+  - 4 K vs 20 mK temperature ratio
+======================================================================

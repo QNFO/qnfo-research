@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5a3a"/>
+      <stop offset="50%" style="stop-color:#4a7c59"/>
+      <stop offset="100%" style="stop-color:#6b9e7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="200" font-family="system-ui,-apple-system,sans-serif" font-size="58" font-weight="700" fill="#ffffff">The Ultrametric Paradigm</text>
+  <text x="80" y="290" font-family="system-ui,-apple-system,sans-serif" font-size="30" font-weight="400" fill="rgba(255,255,255,0.85)">How the Choice of Geometry Determines Everything</text>
+  <rect x="80" y="340" width="140" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <text x="80" y="420" font-family="system-ui,-apple-system,sans-serif" font-size="22" fill="rgba(255,255,255,0.6)">Rowan Brad Quni-Gudzinas · 2026 · v0.9.1</text>
+  <circle cx="1020" cy="480" r="200" fill="rgba(255,255,255,0.04)"/>
+  <text x="1020" y="510" font-family="system-ui,-apple-system,sans-serif" font-size="90" text-anchor="middle" fill="rgba(255,255,255,0.12)">🌳</text>
+</svg>

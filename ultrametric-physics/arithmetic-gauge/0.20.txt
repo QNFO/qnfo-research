@@ -1,0 +1,1946 @@
+--- PAGE 1 ---
+A glimpse into the Ultrametric spectrum
+An Huang
+Department of Mathematics, Brandeis University, 415 South Street, Waltham, MA 02453, U.S.A.
+Christian Baadsgaard Jepsen
+School of Physics, Korea Institute for Advanced Study, Seoul 02455, Korea
+(Dated: January 8, 2026)
+The non-relativistic string spectrum is built from integer-spaced energy quanta in such a way
+that the high-temperature asymptotics, via the Hardy-Ramanujan formula for integer partitions,
+reduces to standard two-dimensional thermodynamics. Here we explore deformed realizations of
+this behavior motivated by p-adic string theory and Lorentzian versions thereof with a non-trivial
+spectrum. Westudythemicrostatescalingthatresultsonassociatingquantumharmonicoscillators
+to the normal modes of tree-graphs rather than string graphs and observe that Hardy-Ramanujan
+scaling is not realized. But by computing the eigenvalues of the derivative operator on the p-adic
+circle and by determining the eigenspectrum of the Neumann-to-Dirichlet operator, we uncover a
+spectrumofexponentiallygrowingenergiesbutwithexponentiallygrowingdegeneraciesbalancedin
+suchawaythatHardy-Ramanujanscalingisrealized,butmodulatedwithlog-periodicfluctuations.
+CONTENTS their applicability to systems based on hierarchical or-
+der. Systems organized according to a regular hierarchi-
+cal pattern exhibit a high degree of symmetry and allow
+I. Introduction and Summary 1
+for rigorous derivations, like Freeman Dyson’s proof of a
+II. Non-relativistic String Entropy 3 second order phase transition [35], and they admit their
+owntypesofconformalfieldtheories[36]andholography
+III. Tree Normal Modes 4 [37,38]. Withinthepastfiveyearshierarchicalorderhas
+A. Neumann Trees 5 been successfully realized in an AMO lab [39] as part
+B. Dirichlet Trees 6 of an experiment which managed to interpolate between
+linear and 2-adic order, after engineering spin couplings
+C. Periodic Trees 7
+inspired by the model put forward in [40, 41]. Moreover,
+IV. The Ultrametric String Spectrum 8 hierarchical behavior can emerge in low energy limits of
+moregenerallatticesystems[42],[43]. Butatthelevelof
+V. Ultrametric String Entropy 11 the spectrum, p-adic string theory in the Freund-Olson
+A. Entropy of Neumann Trees 12 formulation is trivial: it contains only the tachyon. This
+deficiency ultimately hails from the overly simple world-
+VI. Discussion 12 sheet geometry, consisting simply of an infinite regular
+Acknowledgements 14 tree-graph without any separation of spatial and tempo-
+ral directions. The goal of the present paper is to pave
+A. Deriving the full high temperature expansion of the way for a refinement of the Freund-Olson proposal
+the free energy 14 thattooisfoundedonthehierarchical,ultrametricnorm
+but which captures more features of genuine string the-
+B. The Neumann-to-Dirichlet operator and its ory, including the presence of a tower of states [44].
+eigenvalues 17 Unitarity and Lorentz symmetry come together in
+string theory in a profound and intricate manner that
+References 19 this paper will not seek to generalize. We will content
+ourselves with the more modest objective of obtaining
+an ultrametric theory that gives rise to microstates ex-
+I. INTRODUCTION AND SUMMARY hibitingtheentropyscalingofthenon-relativisticstring.
+In the non-relativistic limit, as we review in more detail
+in Section II, the string spectrum is built from an in-
+An important ongoing endeavor in theoretical physics
+finite tower of harmonic oscillators with integer-spaced
+consists in trying to understand the conditions under
+energy quanta such that the degeneracy of any energy
+which string theory provides the unique UV complete
+E = NE with N ∈ N is encapsulated by the integer
+quantum theory [1–12]. The alternatives that have 0
+partition function Ω(N). By a famous theorem due to
+been explored as part of this effort include notions of
+Hardy and Ramanujan, this function asymptotes to
+string theory founded on p-adic numbers [13–17] and q-
+deformations of the usual string [18–34]. The study of Ω(N)∼4−13−1/2N−1exp(π (cid:112) 2N/3) (1)
+theories defined over p-adic numbers and based on the
+ultrametric p-adic norm derive physical motivation from for large N, a behavior that implies an entropy that
+6202
+naJ
+7
+]ht-peh[
+1v83730.1062:viXra
+
+--- PAGE 2 ---
+2
+scales as the square root of energy, in keeping with two- spaced normal modes. This feature too can be found
+dimensionalthermodynamics. Thesubjectofthepresent in the above-mentioned attempts to q-deform string the-
+investigation, then, is to ascertain whether microstates ory, but unlike the usual focus of those attempts, in the
+realizing the same entropy scaling can be realized in the present case the spacings are exponentially increasing
+ultrametric setting. rather than decreasing. On its own, the effect of such
+From a discretized perspective, a string can be viewed a more sparse spacing of normal modes is to decrease
+as an infinite, regular, connected graph of coordination the entropy. But we encounter too an opposite entropy-
+number two. This viewpoint is particularly natural in increasing effect in the phenomenon of an exponentially
+the context of matrix models, where discretized world- growing normal mode degeneracy. Can these two effects
+sheetsoftwo-dimensionalstringtheoryarisesfromindex be balanced against each other to achieve the desired
+contractions of matrix fields [45]. The starting point for scaling? In the final part of this paper, we answer the
+our query is to investigate the resultant normal mode questionintheaffirmative,subjecttoanimportantqual-
+spectrum if we generalize the string-graph to a regular ification concerning log-periodic fluctuations.
+tree-graph of coordination number p+1 with p ∈ N, ie. Theclosedstringcanbequantizedbyperformingafo-
+to the infinite graph known as the Bruhat-Tits tree or liation of the worldsheet into circles S1. The eigenvalues
+the Bethe lattice. More precisely, we will look at finite of the derivative operator acting on the set of functions
+graphs and study their infinite system size limit. In the defined on the circle concur with the integer spectrum of
+caseofthestringgraph,thislimitislargelyinsensitiveto the string. In the case where p is a prime power, there is
+boundary conditions: irrespectively of whether you im- definedanalternativekindofcircleU p givenbythesetof
+poseDirichlet,Neumann,orperiodboundaryconditions, numbers that have unit norm with respect to the ultra-
+the infinite system limit produces an integer spectrum. metric norm |·| p . The type of derivative that can be de-
+But for finite tree-graphs with p>1, the fraction of ver- finedinthiscontextistheso-calledderivativeVladimirov
+ticessituatedattheboundaryconstituteafinitefraction derivative,andinSectionIVwecomputetheeigenvalues
+of all vertices even in the macroscopic limit, in conse- of this operator when acting the p-adic units U p . Label-
+quence of which the spectrum changes drastically with inganeigenvalueλanditsassociateddegeneracyρasλ ρ ,
+the choice of boundary condition. We review the various sothatthespectrumE (1) ofthestandardnon-relativistic
+possibilities in turn: string, up to an overall normalization, can be written as
+InSectionIIIAwereviewthespectrumofregulartree-
+E ={1 , 2 , 3 , 4 , 5 , 6 , ...}, (2)
+graphssubjecttoNeumannboundaryconditions. Inthis (1) 1 1 1 1 1 1
+case a non-trivial spectrum arises in the infinite-system the eigenvalue sets E for the first few values of p are
+(p)
+limit, with normal mode frequencies for p > 1 growing given by
+exponentially and also exhibiting an exponential growth
+E ={2 , 5 , 11 , 23 , 47 , 95 , ...},
+in normal mode degeneracy. (2) 1 2 4 8 16 32
+InSectionIIIBwereviewthespectrumofregulartree- E ={1 , 5 , 17 , 53 , 161 , 485 , ...}, (3)
+(3) 1 4 12 36 108 324
+graphs subject to Dirichlet boundary conditions. The
+E ={1 , 7 , 37 , 187 , 937 , 4687 , ...}.
+(5) 3 16 80 400 2000 10000
+upshotisthatforp>1, thespectrumbecomesinfinitely
+gapped in the macroscopic limit. For increasing p, the spacings between eigenvalues in-
+In Section IIIC we analyze tree-graphs subject to pe- crease, but so too does the growth of degeneracies. In
+riodicboundaryconditions. Whileafinitestringhasbut Appendix B we show that up to an overall mass shift,
+two endpoints to identify with each other, finite tree- thesespectraandtheireigenfunctionsalsofurnishtheso-
+graphspossessamultitudeofboundaryverticesthatcan lutiontotheeigen-problemfortheNeumann-to-Dirichlet
+beidentifiedwitheachotherinmanifoldways. Theguid- operator on U p .
+ing principle we adopt here is to insist on translational InSectionVwestudythethermodynamicsthatensue
+invariance, which in the language of graph theory trans- whenweassociateaquantumharmonicoscillatortoeach
+latesintotheconditionofvertextransitivity. Thegraphs of the eigenmodes in E (p) . The counting of microstates
+we obtain on performing a boundary identification ac- foragivenprepresentsavariationofintegerpartitioning
+cordingtothisstipulationturnouttobeidenticaltothe where only a specific set of exponentially spread integers
+familyofgraphsknownasMooregraphs. Aclassification are permitted in the partition, but where one has to ac-
+of these graphs exists in the math literature and allows count for the multiplicity of those allowed integers. For
+us to rigorously conclude that a macroscopic limit of pe- example, in the case p = 2, for the value N = 10, there
+riodic tree-graphs exists only in the string case p=1. are four microstates, Ω (2) (10)=4, associated to the fol-
+lowing partitionings:
+Whilethefirstsimplisticapproachofassociatingquan-
+tum harmonic oscillators to tree-graphs does not achieve
+2+2+2+2+2, 5 +5 , 5 +5 , 5 +5 .
+a a a b b b
+thegoalofrealizingmicrostateswiththedesiredthermo-
+dynamicscaling, theanalysisdoesuncover—particularly Via a saddle point approximation of the thermal parti-
+in the Neumann case—an important feature that will be tion function, we can determinethe large N asymptotics
+part of our subsequent proposed formalism for the ul- of this counting. In a strict sense, it is impossible to re-
+trametric string, namely the property of exponentially cover the exponentiated square root behavior of (1) for
+
+--- PAGE 3 ---
+3
+the type of spectra we study since the granularity inher- obtainsapartitionfunctiongivenbythereciprocalofthe
+ent in a sequence of mostly forbidden integers interlaced Dedekind eta function,
+withsparse,highlydegenerateallowedintegersinducesa
+∞
+modulation in Ω (p) (N) that is not present in (1). But if Z =eβε/24 (cid:89) 1 = 1 . (8)
+weinquireoftheaveragedasymptoticsΩ governingthe 1−e−βεk η (cid:0)iβε(cid:1)
+(p) k=1 2π
+envelope underlyingthemodulations, thenindeed we re-
+ThefreeenergyF isobtainedfromthepartitionfunction
+cover the desired Hardy-Ramanujan type behavior, e.g.,
+via the standard relation
+for p=2,
+√ 1
+F = − logZ. (9)
+Ω (2) (N)∼#N−a exp(c N) (4) β
+5 1 π (cid:114) 2 A high temperature expansion of the free energy can be
+with a= − , c= . worked out straightforwardly using a known formula re-
+4 6log2 3 log2
+lating the logarithm of the Dedekind eta function to the
+√
+G Eisenstein series [47]:
+The exponentiated N behavior holds true for any p, 2
+and from this behavior we are able to show that the ul- d (cid:2) (cid:3)
+−4πi log η(τ) =G (τ). (10)
+trametric spectrum indeed provides a set of microstate dτ 2
+energiesthatatlowtemperaturesproducesthestandard
+TheEistensteinseriesthemselvesadmitofconvergentse-
+two-dimensional energy-entropy relation:
+ries expressions [48]:
+√
+logΩ (p) ∼ E. (5) 2(2πi)2k (cid:88) ∞
+G (τ)=2ζ(2k)+ σ (n)e2πinτ, (11)
+2k (2k−1)! 2k−1
+We conclude the paper in Section VI by discussing the
+n=1
+resultsofthispaperandoutliningsomefuturedirections.
+whereζ(2k)istheRiemann-zetafunctionandσ (n)is
+2k−1
+the divisor function. Using equations (10) and (11), one
+findsthefull,convergenthigh-temperatureexpansionfor
+II. NON-RELATIVISTIC STRING ENTROPY
+the free energy, including non-perturbative corrections,
+In this section we review the entropy that ensues from F =− π2 − 1 log( βε )− 1 (cid:88) ∞ σ 1 (n) exp (cid:16) −n 4π2(cid:17) .
+the integer-spaced non-relativistic string spectrum. As 6β2ε 2β 2π β n βε
+n=1
+previously observed in [46], evaluating the high temper-
+(12)
+aturepartitionfunctionofthissystemviaasaddle-point
+approximation provides a short physics-based derivation To determine the asymptotic density of states, we intro-
+of the Hardy-Ramanujan formula for the asymptotics of duce an entropy function given by
+the integer partition function. We will provide a few
+S(β)=βE−βF , (13)
+extra details in this analysis, including the full sum of
+non-perturbativecorrectionstothehigh-temperatureex-
+andcomputethehightemperaturedensityofstatesΩ(E)
+pansionofthestringpartitionfunction. Subsequently,in
+via the entropy, using the standard formula that results
+SectionV,weextendthisanalysistoultrametricsystems
+from a saddle point evaluation of the path integral:
+with exponentially spaced and exponentially degenerate
+(cid:2) (cid:3)
+spectra. exp S(β )
+0
+Ω(E)≈ , (14)
+Whether subject to Neumann, Dirichlet, or peri- (cid:112)
+2πS′′(β )
+0
+odic boundary condition, the classical string exhibits an
+integer-spacedspectrumofnormalmodes,andsowetake where β is the solution to the saddle point equation
+0
+asourstartingpointthefollowingclassicalenergyvalues:
+0=S′(β ). (15)
+0
+E =εk, k ∈N. (6)
+k Toworkoutthedensityofstatesinawaythatwillallow
+us to re-use part of the derivation later, we express the
+Inthequantumtheoryweassociateaquantumharmonic
+leading terms in the entropy at low temperature as
+oscillator to each of these normal modes, resulting in a
+partition function that is given by A
+S ≈βE+ +Blog(βε)−C, (16)
+βε
+∞ ∞
+Z = (cid:89)(cid:88) e−β(ℓ+ 2 1)Ek. (7) where in thisspecific case the constants A, B, and C are
+given by
+k=1ℓ=0
+Carrying out the sum over n and regulating the zero- π2 1 1
+A= , B = , C = log(2π). (17)
+pointcontributionsviaRiemannzetaregularization, one 6 2 2
+
+--- PAGE 4 ---
+4
+Inthisnotationthesaddlepointvalueoftheinversetem- Thetaskathandcanbeviewedasthatofdetermining
+perature is given by to leading order at small β by thenormalmodesofanoscillatingcobweb. Itwillbeim-
+portanttonotethatattheclassicallevel,theeigenvalues
+(cid:114)
+A λ of the graph Laplacian are proportional to the square
+β = , (18)
+c εE of the normal mode frequency ω,
+and the asymptotic density of states evaluates to λ∝ω2, (22)
+(cid:114)
+Ω(E)≈ 1 e √ −C AB 2 + 4 1(cid:0)ε(cid:1)B 2 + 4 3 exp (cid:104) 2 A E(cid:105) , (19) with the proportionality constant depending on the pre-
+ε 2 π E ε cise details of the microscopic model, which will not be
+important for our purposes of ascertaining thermody-
+which for the values given in (17) results in the asymp-
+namic scalings.
+totic formula
+Under the coordinatization of the tree introduced
+(cid:114)
+1 (cid:104) 2E(cid:105) above, the equations of motion (21) can be written out
+Ω(E)≈ √ exp π . (20)
+more explicitly as
+4 3E 3ε
+By working out the saddle point expansion to higher or- p+1
+(cid:88)
+ders, one can compute sub-leading corrections, similar λϕ c =(p+1)ϕ c − ϕ i ,
+to the higher order terms in Hardy’s and Ramanujan’s i=1
+asymptotic series formula for the integer partition func- p
+(cid:88)
+tion. But the method due to Rademacher offers a supe- λϕ i =(p+1)ϕ i −ϕ c − ϕ ij , (23)
+rior expansion in that it produces a convergent series. j=1
+p
+(cid:88)
+λϕ =(p+1)ϕ −ϕ − ϕ .
+ij1...jℓ ij1...jℓ ij1...jℓ−1 ij1...jℓ+1
+III. TREE NORMAL MODES jℓ+1=1
+For the outermost dynamical fields with ℓ = L−1, the
+Inthissectionwereviewthespectrumofnormalmodes
+form of the equation of motion depends crucially on the
+forthe(p+1)-regularfractaltree-graphsubjecttodiffer-
+boundaryconditions. Andthisdependencyinturnleads
+ent boundary conditions. Owing to the absence of cycles
+to the normal mode spectra differing drastically depend-
+on the tree-graph, the spectrum is readily solvable, as
+ingonthetypeofboundaryconditions. Wenowproceed
+has been observed at various times in the mathematics,
+to study in turn the spectra ensuing from the different
+condensed matter, and high energy theory literature, see
+typesofboundaryconditions,withSubsectionsIIIAand
+e.g. [49–54].
+IIIB surveying the known spectra resulting from Dirich-
+The approach we adopt is to solve the equations of
+letandNeumannboundaryconditionsrespectively,while
+motion for a finite, cut-off version of the tree and to
+Subsection IIIC studies the notion of periodic trees. A
+subsequently take the infinite system limit. The type
+simple fact that we will make use of in these subsections
+of finite tree we consider, sometimes referred to in the
+literature as the Cayley tree, consists of a central vertex
+c along with all the vertices situated within a distance
+ϕ1211 ϕ1122
+of L edges from c, as shown on Figure 1. As also shown ϕ1212 ϕ1121
+on the figure, we label the field on the central vertex ϕ
+c
+,
+ϕ1221 ϕ121 ϕ112
+ϕ1112
+the fields on its neighbors ϕ , and the further neighbor
+i ϕ1111
+fields ϕ ij1...jℓ with ℓ≤L−1, where i∈{1,...,p+1} and ϕ1222 ϕ122 ϕ12 ϕ11 ϕ111
+j 1 ,
+T
+..
+h
+.,
+e
+j
+n
+ℓ
+o
+∈
+rm
+{1
+a
+,
+l
+.
+m
+..,
+o
+p
+d
+}
+e
+.
+spectrumisdeterminedbytheeigen-
+ϕ2111 ϕ 1 ϕ3222
+value equation for the graph Laplacian □: ϕ211 ϕ322 ϕ3221
+ϕ2112
+λϕ =□ϕ = (cid:88) (ϕ −ϕ ), (21) ϕ21 ϕ c ϕ32
+x x x y ϕ3212
+y∼x ϕ2121 ϕ212 ϕ 2 ϕ 3 ϕ321
+where x ∼ y indicates that vertices x and y are adja- ϕ3211
+ϕ2122
+c
+th
+en
+e
+t
+g
+.
+ra
+H
+p
+e
+h
+re
+de
+w
+gr
+e
+ee
+a
+s
+re
+of
+w
+fr
+o
+e
+r
+e
+k
+d
+in
+o
+g
+m
+i
+ϕ
+n
+x
+a
+∈
+s
+R
+im
+a
+p
+r
+l
+e
+ifi
+o
+e
+n
+d
+e-
+s
+d
+e
+i
+t
+m
+up
+en
+w
+si
+h
+on
+er
+a
+e
+l ϕ2211 ϕ221
+ϕ22 ϕ31 ϕ312
+ϕ3122
+[55]. We permit ourselves this simplification since the
+ϕ2212
+ϕ222 ϕ311 ϕ3121
+thermodynamic scaling (5) of the non-relativistic string
+ϕ2221 ϕ3112
+is insensitive to the transverse directions (although the ϕ2222 ϕ3111
+coefficient does depend on the number of transverse di-
+rections), whereas we will find that the scaling (5) is not FIG. 1. The fractal tree for p = 2 with a cutoff imposed at
+realized for quantum trees. L=4 edges from a central vertex.
+
+--- PAGE 5 ---
+5
+isthatthetotalnumberN ofnodesonthetreeisgiven λ
+p,L
+by
+12
+L (cid:88) −1 pL(p+1)−2
+N =1+(p+1) pn = . (24) 10
+p,L p−1
+n=0
+8
+6
+A. Neumann Trees
+4
+Imposing Neumann boundary conditions means that
+2
+foreachedgefieldϕ ,weassignthesamevalueto
+ij1...jL−1
+eachofitspneighborfieldsinthedirectionawayfromthe degeneracy
+centre of the graph: ϕ ij1...jL =ϕ ij1...jL−1 . Consequently, 72 1 -172 7 -1 1 7 72 73 74 75 76 77 78 79 710 711 712 72-1
+theoutermostequationofmotionisinthiscasegivenby
+FIG. 2. Plot of the values of λ grouped according to their
+λϕ ij1...jL−1 =ϕ ij1...jL−1 −ϕ ij1...jL−2 , (25) associated degeneracies for the finite fractal tree with p = 7
+and L = 14. At the lowest degeneracy, the smallest value of
+Tosolvetheequationsofmotion,onecanusetheequa- λ is exactly zero, while at higher degeneracies the smallest
+tion for the outermost fields ϕ ij1...jL−1 to eliminate them values are slightly above zero.
+infavorofthesecond-outermostfieldsϕ provided
+ij1...jL−2
+that λ̸=1: λ
+1
+ϕ ij1...jL−1 = 1−λ ϕ ij1...jL−2 . (26) 12
+10
+Subsequently, one can use the e.o.m. for the second-
+outermost fields to eliminate them in favor of ϕ 8
+provided that p+1−λ̸= p :
+ij1...jL−3
+1−λ 6
+1 4
+ϕ = ϕ , (27)
+ij1...jL−2 h(1−λ) ij1...jL−3
+2
+where we have introduced a function defined by
+p
+h(x)≡p+1−λ− . (28) FIG. 3. Plot of the values of λ for the 54 solutions to the
+x equation h53(1−λ) = 0 for p = 7. The value of the first
+By iterating this process of eliminating a field in favor of solution is about 1.191·10−45.
+its inner neighbor until one reaches the central field, one
+obtains a polynomial equation in λ, whose roots provide
+• ForeachoftheL+1rootsofthepolynomialequa-
+values of frequencies for which normal modes exist:
+tion
+p+1
+λϕ =(p+1)ϕ − ϕ , (29) p+1
+c c hL−1(1−λ) c p+1−λ= (30)
+hL−1(1−λ)
+where hL−1(1−λ) signifies the function h(x) applied via
+there is a unique normal mode.
+function composition L−1 times to the value x=1−λ.
+Thecaseswherethisiterativeeliminationalgorithmcan- • For each of the L roots of the polynomial equation
+not be applied to derive equation (29) are those where
+λ has a value such that hℓ(1 − λ) = 0 for any ℓ ∈ hL−1(1−λ)=0 (31)
+1,...,L−1. Such values of λ too yield allowed normal
+modes, but modes of a different, degenerate kind. When there are p independent normal modes.
+hL−1(1−λ) = 0, the equations of motion demand that
+• For any ℓ∈{1,...,L−1} the polynomial equation
+ϕ =0,whiletheequationofmotionforϕ itselfimposes
+c c
+theconstraint (cid:80)p i= + 1 1ϕ i =0sothatforeachsuchvalueof hℓ−1(1−λ)=0 (32)
+λ the normal modes exhibit a p-fold degeneracy. Mean-
+while, when hL−1−n(1−λ)=0, the equations of motion has ℓ roots and for each of these there are (p2 −
+require that all the innermost fields up to and including 1)pL−ℓ−1 independent normal modes.
+ϕ mustvanish, whilethenon-vanishingfieldsare
+su
+ij
+b
+1
+j
+..
+e
+.
+c
+jn
+t
+−
+t
+1
+o the constraints
+(cid:80)p
+ϕ =0. The above set of normal modes and degeneracies pro-
+jn=1 ij1...jn
+The upshot is that the finite fractal tree has the fol- videthecompletesolutiontotheequationsofmotionfor
+lowing normal modes: Neumann boundary conditions. As a simple check, it is
+
+--- PAGE 6 ---
+6
+straightforward to verify that we recover the total num- withcorrectionsbeingsuppressedexponentiallyinℓcom-
+ber of nodes on the tree given in equation (24) when we pared to this expression. This exponential spacing in
+sum over the multiplicities for each eigenvalue: eigenvalues λ leads to an exponential spacing in eigen-
+frequencies ω via (22).
+L−1
+(L+1)+pL+ (cid:88) ℓ(p2−1)pL−ℓ−1 =N . (33) Toobtaintheinfinitesystemlimitofthespectrum,we
+p,L
+must take the L → ∞ limit of the eigenvalues λ while
+ℓ=1
+rescaling them in such a way that the difference between
+Setting p = 1, the spectrum reduces to the known, non-
+first and second eigenvalues remain constant. For p>1,
+degenerate normal mode frequencies of the discretized a finite limit value for ω2 is obtained by taking the L
+string, as the solutions to (30) for p=1 are given by
+going to infinity limit of the product (λN ). In this
+p,L
+(cid:16) πn (cid:17) limit, the only eigenvalues of λ that do not get pushed
+λ=4sin2 with n∈{0,1,2,...,L}, (34)
+2L+1 offtoinfinityintheproduct(λN p,L )arethelowestlying
+eigenvalues approximated by (37), along with the zero
+while the p=1 solutions to (31) are given by
+mode, which is present for any value of L. Writing ℓ =
+λ=4sin2
+(cid:16)π(n− 1
+2
+)(cid:17)
+with n∈{1,2,...,L}, (35)
+L−1−n with n ∈ N
+0
+and taking the L → ∞ limit, we
+arrive at the following spectrum of non-zero frequencies
+2L+1
+ω and associated degeneracies ρ ,
+n n
+and the normal modes determined by (32) fall out of the
+spectrum as their multiplicities are zero for p=1. ω =ω pn/2, (38)
+n 0
+Meanwhile, for the trees with p > 1, the spectra are
+ρ =p, ρ =(p2−1)pn−1, for n>0,
+qualitativelydifferent. Tobetterunderstandthiscase,we 0 n
+invite the reader to inspect Figures 2 and 3, which plot
+where the value of the lowest frequency ω depends on
+0
+eigenvalues in the case p = 7. In Figure 2, we plot the
+the specific microscopic model [57].
+allowed eigenvalues as a function of their degeneracies
+for a system size of L = 16 and in Figure 3 we plot
+the eigenvalues with ℓ = 53, determined form equation
+B. Dirichlet Trees
+(35). An important feature to observe is that at any
+fixed degeneracy, as the system size becomes large, all
+To impose Dirichlet boundary conditions, we set to
+but one of the allowed value of λ organize themselves
+zero all the non-dynamical outer fields: ϕ = 0.
+into a smooth sinusoidal curve, with the exception being ij1...jL
+This results in the outermost equations of motion tak-
+a single point that approaches zero exponentially in L.
+ing the form
+If one were to take a large system limit L→∞ without
+simultaneously rescaling λ, one would obtain a system
+λϕ =(p+1)ϕ −ϕ . (39)
+with an infinite ground state degeneracy. But as in the
+ij1...jL−1 ij1...jL−1 ij1...jL−2
+familiarp=1stringcase,themoresuitablelargesystem If λ = p+1, this equation stipulates that the second-
+limitisobtainedbyperforminganappropriatescalingof outermostfieldsmustvanish: ϕ =0. Meanwhile,
+ij1...jL−2
+λ with system size as the limit is taken. However, under for λ ̸= p + 1, equation (39) can be straightforwardly
+thisrescalingthereisaqualitativedifferencebetweenthe solved for the outermost field:
+cases p = 1 and p > 1 in that for p = 1, the sinusoidal
+1
+band of λ values touches zero and survives in the large λϕ = ϕ . (40)
+system limit, whereas for p>1 the band is pushed off to ij1...jL−1 p+1−λ ij1...jL−2
+infinitywithonlythelowestvalueofλateachdegeneracy
+Plugging this solution into the second-outermost equa-
+surviving in the large system limit.
+tion of motion yields
+To determine the precise p > 1 spectrum in the large
+systemlimit,itishelpfultorewritetheequationhℓ−1(1−
+λϕ =(p+1)ϕ −ϕ (41)
+λ)=0 into the following more explicit form [56]:
+ij1...jL−2 ij1...jL−2 ij1...jL−3
+p
+− ϕ .
+(cid:0) (cid:1)(cid:0) (cid:1)ℓ p+1−λ ij1...jL−2
+0= g(λ)+p−1+λ p+1−λ−g(λ) +
+(36)
+(cid:0) (cid:1)(cid:0) (cid:1)ℓ If p+1−λ=p/(p+1−λ), this equation stipulates that
+g(λ)−p+1−λ p+1−λ+g(λ) ,
+ϕ = 0. Otherwise (41) can be used to solve for
+ij1...jL−3
+where g(λ)≡ (cid:112) (p−1)2−λ(2p+2−λ). ϕ ij1...jL−2 in terms of ϕ ij1...jL−3 :
+Taylor expanding the right-hand side of equation (36) to 1
+ϕ = ϕ , (42)
+linear order in λ andsolving the resultant equation for λ ij1...jL−2 h(p+1−λ) ij1...jL−3
+yieldstheapproximatesolutionforthelowesteigenvalue,
+the only one that survives the large system limit, where the function h(x) was defined in (28). As in the
+Neumann case, this procedure of solving for fields in
+(p−1)2
+λ ≈ ≈(p−1)2p−ℓ−1, (37) terms of their inwardly neighbors—provided the value
+ℓ pℓ+1+1−(p−1)ℓ of λ does not require them to vanish—can be iterated
+
+--- PAGE 7 ---
+7
+all the way to the center of the graph, leading to the unlike the string case, as the cutoff size L is increased,
+equation theboundarypointsofthetreegrowexponentially,lead-
+ing to a proliferation of possible periodic identifications.
+p+1
+λϕ =(p+1)ϕ − ϕ , (43) However,withaviewtowardssinglingoutthemostsym-
+c c hL−1(p+1−λ) c
+metric, integrable special case and the closest analog of
+providedthathℓ(p+1−λ)̸=0forℓ∈{0,1,...,L−1}. In the closed string, we impose a constraint on the periodic
+identification by demanding that all vertices of the re-
+consequence, the spectrum is determined by the values
+sulting graph are equivalent. Phrased more precisely, we
+of λ that are solutions to the equations
+require that the resultant graph after identifying bound-
+hℓ(p+1−λ)=0 for ℓ∈{0,...,L−1} or (44) ary vertices of the finite tree has the property that any
+vertex can be mapped to any other via a graph auto-
+p+1
+p+1−λ= . (45) morphism, ie. the graph is vertex-transitive. Figure 4
+hL−1(p+1−λ)
+shows an example of how such a graph is constructed by
+The equations (44) admit a set of closed-form solutions identifying boundary vertices of a finite tree.
+that, in the special case of isotropic normal modes, were One consequence of the requirement of vertex-
+also observed in [58]: transitivity is that the resultant graph must be regular.
+Hence, theerstwhileboundaryverticesmusthavedegree
+λ =p+1−2 √ p cos (cid:0) nπ (cid:1) , (46) p+1,whichmeansthatboundaryverticesarenotidenti-
+ℓ,n ℓ+2 fied pairwise but that instead the set of boundary points
+where n ∈ {1,...,ℓ + 1} is an index that labels differ- are partitioned into equivalence classes with p+1 mem-
+ent solutions for fixed ℓ. For our purposes it will also bers in each class.
+be important to note the multiplicities of each of these Asecondconsequenceconcernsthecyclesinthegraph,
+solutions: whichareintroducedbyimposingperiodicboundarycon-
+ditions. In order for a cycle starting at the center vertex
+(cid:40)
+p, for ℓ=L−1 to return to the center vertex, the trail must traverse L
+multiplicity(λ )= (47)
+ℓ,n (p2−1)pL−ℓ−2 otherwise edges to reach the erstwhile boundary vertices and then
+musttraverseaminimumofLadditionaledgestoreturn
+Asfortheequation(45),ittooadmitsanalyticsolutions, to the center. But since we demand that all vertices are
+each of multiplicity one, given in terms of polynomial equivalent, we conclude that the minimum length of any
+roots: cycle, ie. the girth of the graph, is 2L. Hence, on taking
+theinfinitesizelimit,cyclesoffinitelengthareexpunged.
+√ (cid:16) 1 (cid:17)
+λ L,n =p+1+ p t n + t , (48) ForthevaluesofpandLforwhichitispossibletocon-
+n struct a vertex-transitive graph by identifying boundary
+where t denotes any member of one of the L+1 conju- vertices of the finite tree, we will denote the resulting
+n
+gate pairs of roots of the equation graph as T(c). Some members of this family of graphs
+p,L
+areknownintheliteraturebyspecialnames. Inparticu-
+t2L+2(pt2 −1)+t2 −p
+0= n n n . (49) lar,T(c) istheHeawoodgraph,T(c) istheTutte-Coxeter
+t2 −1 2,3 2,4
+n graph, and T(c) is the Tutte 12-cage. More generally, a
+The eigenvalues and multiplicities listed above make up 2,6
+cage in graph theory is defined as a regular graph with
+the full set of solutions to the Dirichlet problem on the
+thepropertythatthereexistsnootherregulargraphwith
+Cayley tree [59]. In the limit when L becomes very
+fewer vertices and the same girth.
+large, it can be checked that up to an O(1/L3) correc- The total number of vertices N(c) of the graph T(c)
+tion,thesmallestoftheeigenvaluesλ in(48)tendsto p,L p,L
+√ L,n can be determined simply by subtracting from the ver-
+p+1−2 pcos( π ), which is also the smallest of the
+L+1 tices N of the tree given in Equation (24) the fraction
+p,L
+eigenvalues λ ℓ,n in (46). One immediate conclusion then p ofthe(p+1)pL−1 boundaryverticesremovedbythe
+is that in the large system limit, the spectrum becomes p+1
+identification:
+trivial for p > 1. For to obtain the spectrum of eigen-
+frequencies ω in the L → ∞, the eigenvalues λ must be pL(p+1)−2 2(pL−1)
+N(c) = −pL = . (50)
+multiplied with the system size N p,L to keep energy dif- p,L p−1 p−1
+ferences finite. But for Dirichlet boundary conditions,
+the product N λ tends to infinity as L → ∞, and so This number N(c) exactly agrees with the known mini-
+p,L p,L
+the system becomes infinitely gapped [60]. mumnumberofverticesforacageofgirth2L. Itfollows
+that the graph T(c), whenever such exists, is a cage and
+p,L
+what is known in the graph theory literature as a Moore
+C. Periodic Trees graph [61].
+Itisnothardtoseethatperiodicidentificationsubject
+Implementing periodic boundary conditions amounts to vertex equivalence can produce at most one graph up
+toperforminganidentificationofboundaryvertices. But to isomorphism, so that any answer for fixed p and L is
+
+--- PAGE 8 ---
+8
+ϕ12 each normal mode proves inadequate to achieve our aim
+ϕ22 ϕ1 ofHardy-Ramanujanscaling. Itappearsthelatticemod-
+ϕ12 ϕ11
+ϕ1 ϕ2 ϕc els are simply too na¨ıve.
+The present section adopts a more abstract approach,
+ϕ21 ϕc ϕ32 ϕ21 ϕ3 operating directly in the continuum limit, which will
+ϕ2 ϕ3 lead us to a spectrum for which Hardy-Ramanujan scal-
+ϕ31
+ing is realized. This section serves to derive the spec-
+ϕ22 ϕ31
+ϕ32 trum, while Section V derives the resulting asymptotic
+ϕ11 microstatecountingonassociatinganinfinitesetofquan-
+tumharmonicoscillatorstothespectrum. Toobtainthe
+FIG. 4. By identifying boundary vertices of a finite tree, one
+spectrum, we will now restrict p to be a prime number
+canconstructavertex-transitivegraph. Forthisexamplewith
+[64]. In this case the boundary of the infinite (p+1)-
+p = 2 and L = 3, the resulting graph T(c) is the Heawood
+2,3 regular tree admits of an identification with the contin-
+graph.
+uous field of p-adic numbers Q [65]. In Appendix B we
+p
+define the Neumann-to-Dirichlet operator for the regu-
+lartree-graphandshowhow,uptoanoverallshiftanda
+guaranteedtobeuniqueprovideditexists. Thequestion
+choiceofnormalization,theeigenspectrumofthatopera-
+is, then, does it exist? As it happens, the precise math-
+torrecoversthespectrumobtainedinthepresentsection.
+ematical question of uniqueness was asked and answered
+As mentioned in the introduction, one perspective on
+by Robert Singleton in 1966 [62]. Singleton proved that,
+the integer-spaced string spectrum is to view it as aris-
+forpanyintegergreaterthanone, (p+1)-regulargraphs
+ing from the integer-valued eigenvalues of the derivative
+of girth 2L and size N(c) as given in equation (50) do
+p,L operator when acting on functions defined on the circle.
+not exist unless L∈{1,2,3,4,6}.
+In the context of the p-adic numbers, the circle can be
+The case L = 1 is trivial: T(c) is the (p+1)−regular identified as the set of numbers with unit p-adic norm,
+p,1
+graph with two vertices.
+The case L = 2 is also quite simple: T(c) is the com- U p ={x∈Q p (cid:12) (cid:12) |x| p =1}. (51)
+p,2
+plete bipartite graph K . Meanwhile,theusualnotionofalocalderivativeoperator
+p+1,p+1
+But for L = 3, things start to get more complicated. is absent and instead there exists a bi-local derivative
+Whenever T(c) exists, it can be identified with the inci- operator known as the Vladimirov derivative. Given a
+dence graph p, o 3 f the projective plane, and so T(c) exists function π : U p → C on the circle, up to a choice of
+p,3 normalization convention, the Vladimirov derivative D
+if and only if a finite projective plane of order p exists.
+acts as
+It follows that T(c) exists whenever p is a prime power,
+p,3 (cid:90) π(x)−π(y)
+but it is an open problem for what other values of p, if
+Dπ(x)= dy . (52)
+any, aprojectiveplaneexists; itisknownnottoexistfor U p |y−x|2 p
+p=6 and p=10 [63], but even for p=12 the answer is
+In fact, this is a variation of the original Vladimirov
+unknown.
+derivative. For more details of this operator and its gen-
+Meanwhile, for L = 4 and L = 6, T(c) and T(c) exist
+p,4 p,6 eralization to the Tate curve, see [66].
+for any prime power p, as follows from the existence of
+Ashortderivationshowsthateigenfunctionsaremade
+generalized polygon incidence structures.
+up of the set of multiplicative characters, ie. the set of
+The fact that cages of size N p ( , c L ) as given in (50) and functions π : U p → C that posses the property that for
+girth 2L do not exist for L > 6 (except for the p = 1 any z,x∈U it holds true that
+p
+case of chain graphs) implies that for fixed p > 1, there
+exist only a finite set of periodic trees. Therefore, it is π(zx)=π(z)π(x). (53)
+not possible to take an infinite system limit.
+For when π is a multiplicative character, performing a
+change of variables that sets y = zx and using the fact
+that dy =|x| dz =dz, equation (52) can be rewritten as
+p
+IV. THE ULTRAMETRIC STRING SPECTRUM
+(cid:90) π(x)−π(zx)
+Dπ(x)= dz (54)
+InSectionIIIweanalyzedthenormalmodespectraof U p
+|zx−x|2
+p
+infinite regular trees. Under Neumann boundary condi- (cid:90) 1−π(z)
+=π(x) dz ≡π(x)λ , (55)
+tion we obtained an exponentially spaced spectrum with |z−1|2 π
+an exponentially growing degeneracy, and these features U p p
+willbeessentialtotheultrametricHardy-Ramanujanmi- where the eigenvalue λ of the Vladimirov derivative as-
+π
+crostate counting whose derivation constitute a core re- sociated to the character π is given by
+sult of this paper. But the lattice models of Section III (cid:90) 1−π(z)
+and the microstate counting of the quantum trees ob- λ = dz . (56)
+π |z−1|2
+tained by associating a quantum harmonic oscillator to U p p
+
+--- PAGE 9 ---
+9
+To understand the characters and their eigenvalues it is carrying a measure factor of 1/p2. One way to work out
+useful to know that the characters can be classed into the possible values for the characters is to identify the
+families according to their conductors. We recall that p(p−1)possiblevaluesof{c ,c }withthemultiplicative
+1 2
+each p-adic unit x ∈ U admits of a unique p-nary ex- group of units modulo p2, ie. the group (Z/p2Z)×. This
+p
+pansion: group is a cyclic group of order p(p−1) and, letting g
+beanygenerator, thefullsetofmultiplicativecharacters
+∞
+(cid:88) are given as follows, where j ∈{1,...,p(p−1)},
+x= c pn−1, with c ∈{0,...,p−1}, c ̸=0.
+n n 1
+n=1 (57) π(g)=ep( 2 p π − i 1) j. (60)
+For a character π to have conductor C, means that π(x) However,ofthesep(p−1)characters,thecharacterswith
+only depends on the values c for n≤C. j ∈ {p,2p,...,(p−1)p} actually have conductor one or
+n
+zero, so we will not consider these but instead focus ex-
+∗ Conductor zero ∗ clusively on the p(p−1)−(p−1)=(p−1)2 other char-
+acters.
+There exists a single unique character of conductor zero, Now,inrelatingp-adicnumbersz ∈U to(Z/pZ)×,it
+p
+namely the trivial character, for which π(x) = 1 for all
+can be seen that when |z−1| =1/p, the coordinates c
+x∈U p . For this character the eigenvalue is immediately and c have values associated p to the elements g0, gp−1 1 ,
+2
+seen to equal zero. g2(p−1),... g(p−1)2. And when |z −1| = 1, the coordi-
+p
+nates {c ,c } get mapped to the remaining elements of
+∗ Conductor one ∗ 1 2
+the multiplicative group. From this, one arrives at the
+For a less trivial example, let us consider the characters following expression for the eigenvalues:
+of conductor 1, ie. the characters that depend on an
+argument x only through c 1 ∈ {1,...,p − 1}. We can 1 (cid:18) (cid:88) p−1 1−e 2 p πijℓ (cid:88) p−2 (cid:88) p−1 1−e2πijℓ+ p ( ( p p − − 1 1 ) ) ℓ2 (cid:19)
+think of the possible values of c 1 as being the elements λ π = p2 (1/p)2 + 12
+of the multiplicative group F×
+p
+. This group is cyclic with ℓ=1 ℓ=1ℓ2=0
+each non-unit element being a generator of the group. 2
+=p+1− . (61)
+Suppose g is one of these p−2 generators. Then, up to p
+congruence modulo p2, each possible value of c can be
+1
+expressed as gℓ with 0≤ℓ≤p−2. From this, it follows Againthej-dependencedropsout,indicatingnowa(p−
+that we consistently obtain a multiplicative character π 1)2-fold degeneracy. We refer the reader to Figure 5 for
+of conductor 1 by setting, for any j ∈{1,...,p−2}, an explicit implementation of this computation in the
+case p=3.
+π(gℓ)=ep 2 − iπ 1 jℓ. (58)
+∗ Conductor three ∗
+From the p − 2 choices of j (which can equivalently
+be thought of as the freedom to choose any generator Our list of examples is beginning to grow lengthy, but
+g ∈{2,...,p−1}), the whole set of multiplicative charac- we will include also the case of conductor 3 before pro-
+ters of order 1 is constructed. Let us now compute the ceedingtothegeneralcase,asthislastexamplewillmake
+eigenvalue (56) for such a character. Since the integrand it easier to parse the general computation.
+depends only on z through its value of c 1 , the integral The set of possible values for {c 1 ,c 2 ,c 3 } can be iden-
+reduces to a finite sum over p−1 terms, each carrying tified with the multiplicative group (Z/p3Z)×, which is
+a factor of 1/p owing to the standard normalization of again cyclic and which has order p2(p−1). The values
+p-adic numbers (cid:82) dz = p−1, of the multiplicative characters when evaluated on any
+U p p generator g are given by
+1(cid:88) p−2 1−ep 2 − πi 1 jℓ p−1 2πi j
+λ
+π
+=
+p 12
+=
+p
+. (59) π(g)=ep2(p−1) , (62)
+ℓ=1
+with 1 ≤ j ≤ p2(p−1), where the characters with j ∈
+We observe that the characters of conductor 1 are all {p,...,(p−1)p2} have conductor zero, one, or two, and
+degenerate since j is absent from the right-hand side of so will not be consider here.
+(59). In fact it will turn out that all multiplicative char- Mappingtheelementsofz ∈U to(Z/p3Z)× viatheir
+p
+acters of any fixed conductor are degenerate.
+coordinates {c ,c ,c }, one finds that
+1 2 3
+∗ Conductor two ∗ • |z−1| = p−2 when z is mapped to gp(p−1)ℓ with
+p
+ℓ∈{0,...,p−1}.
+Weproceednowtotheconsidermultiplicativecharacters
+ofconductortwo. Inthiscasetheeigenvalueintegral(56) • |z−1|
+p
+= p−1 when z is mapped to g(p−1)(ℓ1+pℓ2)
+reduces to a sum over c - and c -values with each term with ℓ ∈{1,...,p−1} and ℓ ∈{0,...,p−1}.
+1 2 1 2
+
+--- PAGE 10 ---
+10
+g0 g2 g4 g1 g5 g3
+π(g)=e2π
+6
+ij
+0 3 6 1 4 7 2 5 8
+1 (cid:18) 1−π(g)2 1−π(g)4 1−π(g)1 1−π(g)5 1−π(g)3(cid:19) 10
+λ = + + + + =
+π 32 (1/3)2 (1/3)2 12 12 12 3
+FIG. 5. Computation of the eigenvalue for the multiplicative character of conductor two for p = 3. The 3-adic units U are
+3
+congruent to 1, 4, 7, 2, 5, and 8 mod 9. These six numbers form a group under multiplication, and we can pick two as a
+generator g=2. The eigenvalue has a four-fold degeneracy as j can assume any of the values 1, 2, 4, and 5.
+g0 g6 g12 g2 g8 g14 g16 g4 g10 g1 g13 g7 g5 g17 g11 g3 g15 g9
+0 9 18 3 12 21 6 15 24 1 10 19 4 13 22 7 16 25 2 11 20 5 14 23 8 17 26
+π(g)=e2
+1
+π
+8
+ij
+1 (cid:18) 1−π(g)6 1−π(g)12 1−π(g)2 1−π(g)8 1−π(g)14 1−π(g)16 1−π(g)4 1−π(g)10
+λ = + + + + + + + +OOOOO
+π 33 (1/9)2 (1/9)2 (1/3)2 (1/3)2 (1/3)2 (1/3)2 (1/3)2 (1/3)2
+1−π(g)1 1−π(g)13 1−π(g)7 1−π(g)5 1−π(g)17 1−π(g)11 1−π(g)3 1−π(g)15 1−π(g)9(cid:19) 34
++ + + + + + + + =
+12 12 12 12 12 12 12 12 12 3
+FIG. 6. Computation of the eigenvalue for the multiplicative character of conductor three for p = 3. Modulo 27, the 3-
+adic units U are congruent to the set of numbers {1,10,19,4,13,22,7,16,25,2,11,20,5,14,23,8,17,26} and these numbers
+3
+form a cyclic group under multiplication mod 27. There is an 12-fold degeneracy as j can assume any value in the set
+{1,2,4,5,7,8,10,11,13,14,16,17}.
+• |z−1| =1whenz ismappedtoanyotherelement 1 to pn−1(p−1) and not divisible with p, and the char-
+p
+of (Z/p3Z)×. acter eigenvalues can be determined from the formula
+From this, the (p−1)2p eigenvalues for the characters of
+conductor three evaluate to the following:
+1
+(cid:18)
+(cid:88)
+p−1
+1−e
+2
+p
+πijℓ
+(cid:88)
+p−1
+(cid:88)
+p−1
+1−e
+2πijℓ1+
+p2
+pℓ2 λ
+π
+=
+p
+1
+n
+(cid:18) (cid:88) p−11−
+(1
+e
+/
+x
+p
+p
+n
+(
+−
+2
+1
+π p
+)
+i
+2
+jℓ) + (64)
+λ = +
+π p3 (1/p2)2 (1/p)2 ℓ=1
+ℓ=1 (cid:88) p−2 (cid:88) p−1 (cid:88) p−1 1 ℓ − 1= e 1 2 ℓ π 2 i = jℓ 0 +(p−1 p )ℓ (p 2 − + 1 p ) (p−1)ℓ3 (cid:19) n (cid:88) −1 (cid:88) p−1 (cid:88) p−1 1−exp( ( 2 1 p π k / ij pn (cid:80) − k h k = )2 1 ph−1ℓ h ) +
++
+12
+k=2ℓ1=1ℓ2,...,ℓk=0
+ℓ=
+2
+1ℓ2=0ℓ3=0
+(cid:88)
+p−2
+(cid:88)
+p−1 1−exp (cid:2)
+(p−
+2
+1
+π
+)
+i
+p
+j
+n−1
+(ℓ+(p−1) (cid:80)n
+h=2
+ph−2ℓ
+h
+) (cid:3) (cid:19)
+=p2+p− . (63) 12
+p ℓ=1ℓ2,...,ℓn=0
+2
+See Figure 6 for an explicit implementation of the calcu- λ=(p+1)pn−2− . (65)
+p
+lation for p=3.
+∗ Conductor n ∗
+We have now determined the full set of eigenvalues and
+After the warm-up of working out the eigenvalues for degeneracies for the Vladirov derivative acting on func-
+characters of conductors one through three, it is not dif- tionsonthep-adicunitsU . Uptoanoveralldimension-
+p
+ficulttoestablishthegeneralformulaforconductornby ful constant that we will label ε, it is this set of eigenval-
+thesamemethod. Bymappingp-adicnumbersz ∈U to ues that we denominate as the ultrametric string spec-
+p
+(Z/pnZ)×,onefindsthatthemultiplicativecharactersof trum. The conclusion of the present section is that this
+conductorncanbelabelledbyanintegerj runningfrom spectrum is given by the following set of energy values
+
+--- PAGE 11 ---
+11
+E and associated degeneracies ρ : anddegeneraciesgivenin(66)turnouttovanishexactly,
+n n
+E =ε (cid:16)p+1 pn− 2(cid:17) , n∈N. (cid:88) ρ(n)E n = (67)
+n p2 p n∈N
+∞
+ρ(1)=p−2, (66) (p−2)ε p−1 + (cid:88) (p−1)2pn−2ε (cid:16)p+1 pn− 2(cid:17) =0.
+p p2 p
+ρ(n)=(p−1)2pn−2 for n>1. n=2
+Intheabsenceofazero-pointcontribution, thepartition
+function at inverse temperature β is given by
+V. ULTRAMETRIC STRING ENTROPY
+(cid:89)
+∞ (cid:18)
+(cid:88)
+∞ (cid:19)ρ(n)
+(cid:89)
+∞ (cid:18)
+1
+(cid:19)ρ(n)
+Z = e−βℓEn = . (68)
+InSectionIVwederivedwhatwedubbedtheultramet- 1−e−βEn
+n=1 ℓ=1 n=1
+ric string spectrum. The spectrum displays a qualitative
+similaritytothenormalmodesoftheinfinitefractaltree The free energy F and entropy S follow from the par-
+withNeumannboundaryconditionsreviewedinIIIAin- tition function and energy E according to the standard
+sofar as these spectra consist of exponentially spaced relations
+energy levels with exponentially growing degeneracies.
+1
+While these spectra are purely classical, the present sec- F =− logZ, S =βE+logZ. (69)
+β
+tion studies the quantum mechanical system that arises
+on promoting each energy level to the energy quantum
+Our present goal is to understand the large temperature
+of a quantum harmonic oscillator.
+asymptotics of these functions. For the usual string, we
+In direct analogy with the non-relativistic string re-
+sawinequation(12)thatitwaspossibletodetermineall
+viewed in Section II, the infinite set of quantum oscilla-
+terms in the small β expansion of the free energy. The
+tors gives rise to a multiplicity of possible microstates at
+same turns out to be true in this ultrametric setting, as
+any given energy. At a low value of energy, the exact to-
+we show in Appendix A.
+tal multiplicity can be determined via the combinatorial Athightemperature,F scalesasβ−2 toleadingorder,
+problem of counting all possible ways of adding together
+justasintheusualstringcase,butthereisanimportant
+oscillator quanta to obtain the given energy. The objec- distinction to be made. For now the product β2F no
+tive of the present section is to compute the asymptotic
+longer has a single limit value at small β, rather, as we
+behaviorofthemultiplicityatlargeenergiesandthereby
+show explicitly in Appendix A, there is a limit set:
+determine the relation between energy and entropy at
+large temperature. lim εβ2F =− (cid:88) c n (βε)−2 lo π g in p , (70)
+Before we write down the partition function for the β→0
+n∈Z
+quantumsystem,letusaddressthequestionofzeropoint
+(p−1)2Γ(1+ 2πin)ζ(2+ 2πin)
+energy. In the usual string case, as we saw in Section II, with c = logp logp . (71)
+thedivergentzero-pointcontributionadmitsofRiemann n logp (p+1)1+2 lo π g in p
+zeta regularization, and including this contribution re-
+sultsinthepartitionfunctionbeingpreciselyareciprocal The limit set can alternatively be re-expressed as a
+Dedekindetafunction. Moreover,inthecaseof24trans- Fourier series in log(βε):
+verse directions, the regulated energy offset produced by
+lim εβ2F =−c + (72)
+the zero-point energies shifts the ground state into the 0
+β→0
+tachyonic value of the bosonic string: (cid:88) (cid:26) (cid:16) 2π (cid:17) (cid:16) 2π (cid:17)(cid:27)
+A cos log(βε)n +B sin log(βε)n ,
+∞ n logp n logp
+(cid:88) n n∈N
+24· =12ζ(−1)=−1.
+2 where A =−c −c and B =i(c −c ). (73)
+n n −n n n −n
+n=1
+For small values of p, the oscillations are highly sup-
+In the case of the ultrametric spectrum, the zero-point
+pressed, e.g. for p=2:
+contribution to the partition function is again divergent.
+Thedivergencemanifestsitselfintheformofageometric
+series with a common ratio greater than one. Arguably, A 1(cid:12) (cid:12) ≈1.418·10−6, B 1(cid:12) (cid:12) ≈−7.027·10−6. (74)
+c p=2 c p=2
+themostnaturalregulatorconsistinreplacingsuchadi- 0 0
+vergentserieswiththeresummedanswer,whichamounts But for larger values of p, the oscillations become in-
+to performing an analytic continuation in the value of p, creasingly pronounced, and in the large p limit one finds
+starting from complex values with |p|<1 and then con- that
+tinuingtothedesiredprimevalue. Underthisregulariza-
+A B
+tionscheme,thetotalcontributionfromthe1/2termsof ∀n>0: lim n =−2, lim n =0. (75)
+thequantumharmonicoscillatorsforthepreciseenergies p→∞ c 0 p→∞ c 0
+
+--- PAGE 12 ---
+12
+Log-periodicfluctuationsareaknownphenomenoninthe (38), grows as pn like in the ultrametric spectrum, the
+thermodynamicsontree-graphs,seeforexample[67–71]. energy levels grow only as pn/2. As the energy levels are
+The consequence of such limiting behavior is the result less sparse, ultimately there are more ways to piece to-
+announcedintheintroduction: thehightemperatureen- getherenergyquantatoobtainanygiventotalenergyE.
+tropyexhibitsamodulatedHardy-Ramanujantypescal- More precisely, the asymptotic total degeneracy at large
+√
+ing. To see this more precisely, we first write down the energy E turns out to scale not as e# E, but rather as
+expression for the entropy up to zeroth order in β: e#E2/3. To justify this statement and uncover the coef-
+ficient in the exponent, one can first compute the free
+A
+S(β)≈ βE+ +Blog(βε)−C+ (76) energyforthesystembuiltoutofquantumharmonicos-
+βε
+cillators associated to the Neumann-tree normal modes,
+(p−1)2 (cid:88) Γ(1+ 2πin ) ζ(2+ 2 lo π g in p )+ 2β p εζ(1+ 2 lo π g in p ) , letting ε=ℏω 0 , with the result that
+logp logp (cid:16) (cid:17)1+2πin p ε
+0̸=n∈Z (p+1)βε logp F = log(1−e−βε)− (80)
+β p1/2+1+p−1/2
+whereA,B,andC arep-dependentconstantswhosepre- −2 p2−1 (cid:88) ∞ Γ(2+ 4 lo π g in p )ζ(3+ 4 lo π g in p )
+c
+a
+i
+s
+s
+y
+e
+m
+f
+p
+o
+t
+r
+o
+m
+t
+s
+ic
+a
+f
+r
+o
+e
+rm
+gi
+o
+v
+f
+en
+th
+i
+e
+n
+to
+(A
+ta
+2
+l
+0
+d
+)
+e
+,
+g
+(
+e
+A
+ne
+2
+r
+1
+a
+)
+c
+,
+y
+a
+a
+n
+t
+d
+e
+(
+n
+A
+er
+2
+g
+2
+y
+).
+E
+T
+ca
+h
+n
+e βplogp
+n=−∞
+(βε)2+4
+lo
+π
+g
+in
+p
+again be computed from the entropy via the standard − p2−1 (cid:88) ∞ p−nlog (cid:16) 1−e−βεp−n/2 (cid:17) .
+formula that follows from a saddle-point approximation pβ
+of the partition function, n=0
+Again we witness the presence of log-periodic fluctua-
+(cid:2) (cid:3)
+exp S(β )
+0 tions,buttheenvelopeF hasaleadinghigh-temperature
+Ω (E)= , (77)
+asym (cid:112)
+2πS′′(β ) behavior given by
+0
+whereβ isthefunctionofE thatsolvesthesaddlepoint 2(p2−1)ζ(3)
+0 F =− +.... (81)
+equation 0 = S′(β ). Equivalently, at large tempera- plogpβ3ε2
+0
+tures, β (E) is the inverse function to
+0 Henceweseethattheaveragedtotalenergyhasaleading
+(cid:88) ∞ p2k scaling given by
+E(β )=ε(p−1)2(p+1) . (78)
+0 eβ0ε(p+1)pk −1 ∂ 4(p2−1)ζ(3)
+k=0 E = (βF)≈ , (82)
+∂β plogpβ3ε2
+We have not found a way to analytically invert the func-
+tion (78) and for this reason we cannot provide a closed- whiletheleadingscalingfortheentropyenvelopeisgiven
+form expressions for Ω (E). However, if we consider by
+asym
+thekindofaveragedasymptoticsthatensuesondropping
+the log-periodic fluctuations, then we can write down a S =β2 ∂ F ≈ 6(p2−1)ζ(3) ∼E 2/3 . (83)
+∂β plogpβ2ε2
+closed-formanswersimplybyreusingtheearlierequation
+(19)withthemodifiedvaluesofA,B,andC tofindthat Comparing equations (82) and (83), we see that
+the coarse-grained overall degeneracy Ω (E) is given
+asym
+asymptotically by S ≈3
+(cid:16)(p2−1)ζ(3)(cid:17)1/3
+(E/ε)2/3. (84)
+2plogp
+(cid:104) (cid:113) (cid:105)
+exp (p−1)π 2E/ε
+3(p+1)logp This equation makes it clear that, unlike the ultrametric
+Ω (E)∝ , (79)
+asym E 5 4 − p(p (p + − 1) 1) lo 2 gp spectrum, the Neumann-tree spectrum behaves qualita-
+tively different from the non-relativistic string, and in
+wherewehaveomittedaratherlengthyp-dependentnor- thissenseitis not appropriate tothinkofthetree-graph
+malizationconstant. Figure7showsplotscomparingex- asmerelyaone-parameterdeformationthatrecoversthe
+actdegeneracies totheaveraged andunaveragedasymp- usual string when the coordination number of the tree
+totic formulas. is set to two. While the string free energy scales with
+temperature squared as an energy density in one spatial
+dimensionthefreeenergyofthetree—evenwhensetting
+A. Entropy of Neumann Trees aside the modulations—effectively behaves as an energy
+density in two spatial dimensions.
+In Section IIIA, we reviewed the normal mode spec-
+trum of the infinite (p+1)-regular tree with Neumann
+boundary conditions. We mentioned in the introduction VI. DISCUSSION
+that this spectrum does not produce Hardy-Ramanujan
+scaling for the degeneracy. The reason for this fact is es- The core results we have sought to communicate with
+sentiallythatwhilethedegeneracy,asshowninequation the present paper consist in the following:
+
+--- PAGE 13 ---
+13
+1.15 1.008
+8
+1.10 1.006
+6 1.004
+1.05
+1.002
+4
+1.00 1.000
+2 0.95 0.998
+0.996
+0 10 20 30 40 E 0.90 0 500 1000 1500 E 0 500 1000 1500 E
+logΩ exact logΩ asymp logΩ asymp Ω Ω a e s x y a m ct p Ω Ω a e s x y a m ct p l l o o g g Ω Ω a e s x y a m ct p l l o o g g Ω Ω a e s x y a m ct p
+1.20 1.0010
+1.15
+400
+1.10 1.0005
+300 1.05
+1.00 1.0000
+200 0.95
+0.90 0.9995
+100
+0.85
+0 0 10000 20000 30000 40000 E 0.80 0 10000 20000 30000 40000 E 0.9990 0 10000 20000 30000 40000 E
+FIG. 7. Plots of the exact ultrametric degeneracies along with the averaged and unaveraged asymptotic values for p=3 and
+ε = 3/2. The two plots in each of the three columns differ only by their plot regions, with the lower half displaying a wider
+range of energies. The exact degeneracy oscillates around a mean asymptotic value, as correctly captured by the unaveraged
+asymptotic function. The three sets of datapoints on the lower left-hand figure almost coincide, giving the impression of a
+single curve.
+1) the precise determination of the eigenvalue spectrum cal microscopic model of dynamical graphs that produce
+of the Vladimirov derivative when acting on the p-adic smooth objects in a large N limit, string graphs consti-
+units U , as given in equation (66), and also realized as tute a unique family of translationally invariant objects
+p
+the spectrum of the p-adic Neumann-to-Dirichlet opera- whose oscillation modes are of a particularly simple an-
+tor computed in Appendix B, and alytically tractable kind.
+On a mathematical note, the microstate scalings con-
+2) a saddle-point evaluation of the partition function of
+sequent to linearly spaced quantum harmonic oscillator
+the quantum theory built from the infinite set of oscilla-
+energy quanta are determined generally by a theorem
+tors with energy quanta matching this spectrum, reveal-
+known as Meinardu’s theorem [73]. The types of mod-
+ingthat,asinstringtheory,Hardy-Ramanujanscalingis
+els we have considered raise the broader question of how
+realized,bywhichwemeanthat,atlargetotalenergyE,
+√ this theorem may be expanded, in ways similar to the
+thetotaldegeneracyscalesase# E asshowninequation
+variations of integer partitioning explored in [74–77], to
+(79).
+exponentially spaced and degenerate oscillator energies
+Animportantqualificationtothesecondpoint,however, obtainable from p-adic spectral theory.
+is that the leading scaling is modulated by a periodic Another question to address is whether a symmetry
+function in logE [72]. But compared to the overall en- property akin to modular invariance is present for the
+velope, the fluctuations are of sufficiently small size that ultrametric partition functions. For the non-relativistic
+the energy remains a growing function of the tempera- string spectrum reviewed in Section II, the modular in-
+(cid:113)
+tureandtheentropyaconcavefunctionoftheenergy,so variance of the partition function Z(βε) = βεZ(4π2)
+thatthefluctuationsdonotcompromisethermodynamic 2π βε
+isequivalenttothewell-knownpropertyoftheDedekind
+stability. √
+eta function that η(−1) = −iτη(τ). In the high-
+τ
+While the ultrametric spectrum that we computed di- temperature expansion (12) for the free energy, modular
+rectly in a continuum space of p-adic numbers displays invariancemanifestsitselfinthepropertythatthepower
+stringy microstate growth, we witnessed in Section VA series in β terminates but is supplemented by an infinite
+how more crude attempts at constructing string theory towerofnon-perturbativecorrectionsinβ. Inthecaseof
+deformationsbyreplacingstring-graphswithtree-graphs theultrametricfreeenergystudiedinSectionV,thehigh
+fail to realize this scaling. And in Section IIIC we saw temperatureexpansion(A19)ofthefreeenergydoesnot
+how discretized closed strings occupy a special place in terminate, based on which a notion of modular invari-
+graph theory: they furnish the only infinite family of ance is not be expected. This fact could be construed
+regular, vertex transitive graphs of maximal girth. In as a shortcoming of the models, possibly modified in a
+physics parlance, this fact entails that in a hypotheti- refinement thereof, or could simply be taken as a sign
+
+--- PAGE 14 ---
+14
+that the torus manifold is not applicable to the geome- positions but also on some of the digits in the p-nary ex-
+triesrelevanttotheultrametricmodels. Besidesmodular pansion(57). Underthisdefinition,theultrametricspec-
+invariance, the integer partition function is host to sev- trummeetsthebasicrequirementforbeingassociatedto
+eral important mathematical properties—recurrence re- stateswithaninfinitetowerofspins. Butamorerefined
+lations, modular arithmetic patterns, relations to theta understanding of the representation theoretic properties
+functions, the Rademacher expansion—many with phys- of ultrametric states is a necessary prerequisite to de-
+ical applications, and it remains to be determined how veloping a full-fledged Lorentzian incarnation of p-adic
+many extend to the ultrametric setting. string theory. Such knowledge too is needed to combine
+As mentioned in the introduction, within the commu- vibrationaldegreesoffreedomwithtranslationaldittoto
+nity of physicists who study the S-matrix bootstrap, the obtain the full partition function, which in string theory
+past few years have seen an increase of interest in puta- leads to the discovery of the Hagedorn temperature.
+tive q-deformed string amplitudes with an exponentially A mathematical classification theorem due to Os-
+spaced tower of energy levels, although research in this trowski provides a precise sense in which the real and
+direction has mostly focused on energy levels with expo- p-adicnumberstogetherprovidethefullrangeofperspec-
+nentiallydecreasingspacing, ratherthanincreasingasin tivesthatcanbebroughttobearonanythingfoundedon
+the present survey. It may be worth remarking than in rationalnumbers. Apossibleimplicationisthatthereex-
+such q-deformed amplitudes the momentum-dependence ists a notion of completeness according to which the free
+is required to enter via the logarithm of Mandelstam in- string spectrum and the ultrametric spectrum furnish a
+variants. In what is perhaps an unrelated comment, we completeclassofintegrablesystems. Withinthecontext
+note here that while the eigenfunctions of the derivative of a sparsely coupled family of spin-chains that interpo-
+operatorontherealcircleareaninteger-labeledfamilyof latebetween2-adicandlocalcoupling,[41]demonstrated
+additive characters, we witnessed in Section IV that the that while the level spacings of the local and ultramet-
+eigenfunctionsoftheVladimirovderivativeonthep-adic ric spin chains followed a Poisson distribution, the spin
+circle U p are the integer-labeled family of multiplicative chainatthemidpointfarthestfromanynotionoflocality
+characters. exhibitedWigner-Dysonlevelspacings. Ifthislessonap-
+To further investigate the extent to which the ultra- plies more broadly, one could envision the real spectrum
+metricspectrumcomputedinSectionIVisassociatedto and the ultrametric spectra for all p as marking a set of
+a genuine and complete physical theory, it will be neces- integrable outer endpoints for the convex hull of a space
+sarytodevelopamorerefinedunderstandingofthestates that carries chaos in its interior.
+associated to these energies, and if possible to work out
+a set of raising and lowering operators and determine if
+an underlying notion of Virasoro algebra may be defined
+Acknowledgements
+for such operators. Unless this step can be performed, it
+is hard to imagine that p-adic string theory can be ele-
+vatedtoaLorentziantheorywithanon-trivialspectrum AH and CBJ are grateful to SIMIS for its hospitality
+containing more than a single tachyonic scalar. In the during a crucial phase of this work. The work of AH
+context of p-adic AdS/CFT [78], it has been argued [79] is supported by Simons collaboration grant No. 708790.
+that the notion of spin is associated to correlator depen- TheworkofCBJissupportedbytheKoreaInstitutefor
+dencies not just on norms of differences of p-adic valued Advanced Study (KIAS) Grant No. PG095901.
+Appendix A: Deriving the full high temperature expansion of the free energy
+In this appendix we explicitly work out the high temperature expansion for the free energy of the ultrametric
+spectrum that we studied in Section V. As a first step we split the free energy F into two pieces,
+(p−1)2
+F =εF (βε)+ f(βε) (A1)
+1 β2ε
+where we have defined two functions of b=βε given by
+p−2 (cid:18) (cid:104) p−1(cid:105)(cid:19)
+F (b)≡ log 1−exp −b , (A2)
+1 b p
+(cid:88) ∞ (cid:18) (cid:104) (cid:16)1+p 2(cid:17)(cid:105)(cid:19)
+f(b)≡b pk−1log 1−exp −b pk− .
+p p
+k=1
+
+--- PAGE 15 ---
+15
+Let us first consider F . The small b expansion here follows from the following identity, where B are the Bernoulli
+1 ℓ
+numbers,
+∞
+log(1−e−x)=logx+ (cid:88) B ℓ xℓ. (A3)
+ℓ2Γ(ℓ)
+ℓ=1
+We therefore have that
+∞
+F (b)=
+p−2
+log
+(cid:16)
+b
+p−1(cid:17)
++
+p−2(cid:88) B
+ℓ bℓ
+(cid:16)p−1(cid:17)ℓ
+. (A4)
+1 b p b ℓ2Γ(ℓ) p
+ℓ=1
+Next we turn to f. This function is given in terms of a semi-infinite sum, but we find it convenient to recast it as a
+bi-infinite sum minus a correction:
+f(b)=f −f , (A5)
+1 2
+with the two terms given as
+(cid:88) ∞ (cid:18) (cid:104) (cid:16) 2(cid:17)(cid:105)(cid:19)
+f ≡ b pklog 1−exp −b (1+p)pk− , (A6)
+1 p
+k=−∞
+(cid:88) −1 (cid:18) (cid:104) (cid:16) 2(cid:17)(cid:105)(cid:19)
+f ≡ b pklog 1−exp −b (1+p)pk− . (A7)
+2 p
+k=−∞
+The advantage to having a sum over all the integers in f is that it permits us to invoke Poission resummation to
+1
+infer that
+(cid:88) ∞ (cid:90) (cid:18) (cid:104) (cid:16) 2(cid:17)(cid:105)(cid:19)
+f =b dxe2πinxpxlog 1−exp −b (1+p)px− . (A8)
+1 p
+R
+n=−∞
+Expandingthelogarithmaccordingtothestandardidentitylog(1−ϵ)=− (cid:80)∞ ϵn/nandcarryingoutthexintegral,
+n=1
+one finds that
+(cid:16) (cid:17) (cid:16) (cid:17)
+f = − b (cid:88) ∞ (cid:88) ∞ e2bm/p Γ 1+ 2 lo π g in p =− b (cid:88) ∞ Li (e2b/p) Γ 1+ 2 lo π g in p , (A9)
+1 logp n=−∞m=1 m (cid:16) bm(p+1) (cid:17)1+2 lo π g in p logp n=−∞ 2+2 lo π g in p (cid:16) b(p+1) (cid:17)1+2 lo π g in p
+where we evaluated the sum over m in terms of the polylogarithm function. The advantage to this re-writing is that
+the small b expansion of f then follows from the known expansion of the polylogarithm function. In the case when
+1
+n=0, we need the expansion of the dilogarithm,
+Li (ex)= π2 +x−iπx−xlogx+ (cid:88) ∞ B m−1 (−x)m, (A10)
+2 6 (m−1)m!
+m=2
+while for other values of n, the polylogarithm has the expansion
+Li 2+2 lo π g in p (ex)= −x1+2 lo π g in pe−2 lo π g 2 p n Γ(−1−i l 2 o π g n p )+ (cid:88) ∞ ζ(2+ 2 l m o π g i ! n p −m) xm for n̸=0. (A11)
+m=0
+Next let us work out the small b expansion of f defined in (A7). For the term with k = −1 the argument of the
+2
+logarithm is positive while we pick up an imaginary piece for other values of k:
+b (cid:18) (cid:104) (cid:16)p−1(cid:17)(cid:105)(cid:19) (cid:88) ∞ (cid:32) (cid:16) (cid:104) (cid:16)2 (cid:17)(cid:105) (cid:19)(cid:33)
+f = log 1−exp −b +b p−k iπ+log exp b −(1+p)p−k −1 (A12)
+2 p p p
+k=2
+∞
+= b logb+ b log (cid:16)p−1(cid:17) + b (cid:88) B n bn (cid:16)p−1(cid:17)n +b iπ +f , (A13)
+p p p p n2Γ(n) p p(p−1) 2,2
+n=1
+
+--- PAGE 16 ---
+16
+where we again made use of (A3) and the last term is defined by
+(cid:88) ∞ (cid:16) (cid:104) 2−(p+1)p1−k(cid:105) (cid:17)
+f =b p−klog exp b −1 (A14)
+2,2 p
+k=2
+= b (cid:88) ∞ p−k (cid:32) log (cid:16) b 2−(p+1)p−k(cid:17) +b 2−(p+1)p−k + (cid:88) ∞ B n (cid:16) b 2−(p+1)p−k(cid:17)n (cid:33) . (A15)
+p p 2p n2Γ(n) p
+k=1 n=2
+Note that in evaluating the negative-argument logarithm in (A12), we made a choice of branch cut. We chose the cut
+necessary for the difference of f and f to produce the real function f. For on carrying out the sum over n in (A9),
+1 2
+f picks up an imaginary piece owing to the first term on the right-hand side of (A11) and this piece, together with
+1
+an imaginary piece owing to the third term on the right-hand side of (A10), precisely cancel the imaginary piece in
+f . To see this, we first note that
+2
+Γ(1+ 2πin)Γ(−1− 2πin) 1−coth(2nπ2)
+e−2 lo π g 2 p n logp logp =π logp , (A16)
+logp 2nπ−ilogp
+and then we observe that
+b (cid:88) π (cid:16) 2 (cid:17)1+2 lo π g in p =b πi −b 2πi , (A17)
+2nπ−ilogp p(p+1) p(p−1) p(p+1)logp
+n̸=0
+the which two terms exactly cancel the imaginary part of f .
+1
+Having now determined the high temperature expansions for F , f , and f , we find the expansion for the free
+1 1 2
+energy by adding the pieces together according to the identity.
+(p−1)2
+F =εF + (f −f ). (A18)
+1 β2ε 1 2
+When the dust settles, one finds that
+(cid:18) (cid:19) (cid:18) (cid:33)
+F
+ε = − b
+1
+2 A+
+(cid:88)
+c n
+b−2
+lo
+π
+g
+in
+p −
+1
+b B logb+
+(cid:88)
+(cid:101) c n
+b−2
+lo
+π
+g
+in
+p −C (A19)
+n∈Z\{0} n∈Z\{0}
+∞ ∞
+− (cid:88) bℓ (cid:88) d ℓ,n b−2 lo π g in p − (cid:88) K ℓ bℓ−1,
+ℓ=0 n∈Z ℓ=2
+where A, B, C, c , c , d , and K are p-independent constants given explicitly by
+n (cid:101)n ℓ,n ℓ
+π2(p−1)2
+A= , (A20)
+6(p+1)logp
+2(p−1)2
+B =1− , (A21)
+p(p+1)logp
+1 p−1 2(p−1)2(cid:16) 1−log2(cid:17) (p−1)2 (cid:88) ∞ (cid:16)2−(p+1)p−k(cid:19)
+C = − log( )− 1+ − p−klog (A22)
+p p p(p+1) logp p p
+k=1
+−(p−1)2 (cid:88) πcoth(2 lo π g 2 p n)(cid:16) 2 (cid:17)1+2 lo π g in p ,
+2nπ−ilogp p(p+1)
+n̸=0
+(p−1)2Γ(1+ 2πin)ζ(2+ 2πin) 2(p−1)2Γ(1+ 2πin)ζ(1+ 2πin)
+c = logp logp , c = logp logp , (A23)
+n logp (p+1)1+2
+lo
+π
+g
+in
+p
+(cid:101)n plogp (p+1)1+2
+lo
+π
+g
+in
+p
+
+--- PAGE 17 ---
+17
+4(p−1)2Γ(1+ 2πin)ζ(2πin −ℓ) (2/p)ℓ
+d = logp logp , (A24)
+ℓ,n p2logp (p+1)1+2
+lo
+π
+g
+in
+p
+(2+ℓ)!
+K = 1 (cid:18) (p−1)2 (cid:88) ∞ p−k(cid:0)2−(p+1)p−k (cid:1)ℓ + (cid:0)p−1(cid:1)ℓ (cid:19) B ℓ . (A25)
+ℓ p p p ℓ2Γ(ℓ)
+k=1
+As a practical remark, we note that an obstacle to high precision numerical checks of the expansion (A19) to high
+order in b is that the determination of the constant C requires the evaluation of the following sum
+S ≡ (cid:88) πcoth(2 lo π g 2 p n)(cid:16) 2 (cid:17)1+2 lo π g in p (A26)
+2nπ−ilogp p(p+1)
+n̸=0
+4π (cid:88) ∞ 2π2n 2πncos (cid:0) l 2 o π g n p log( p(p 2 +1) ) (cid:1) −logpsin (cid:0) l 2 o π g n p log( p(p 2 +1) ) (cid:1)
+= coth( ) , (A27)
+p(p+1) logp 4π2n2+(logp)2
+n=1
+which converges slowly. A way to overcome this obstacle is to rewrite the sum by adding and subtracting back a
+carefully chosen piece:
+coth(2π2n) (cid:18) coth(2π2n) 1 (logp)2 (logp)4(cid:19) (cid:18) 1 (logp)2 (logp)4(cid:19)
+logp = logp − + − + − + . (A28)
+4π2n2+(logp)2 4π2n2+(logp)2 4π2n2 16π4n4 64π6n6 4π2n2 16π4n4 64π6n6
+The sum over n in (A27) now converges much faster when carried out over the first piece on the right-hand side of
+(A28), whilethesumoverthesecondpiececanbeevaluatedanalyticallytoproduceafinitesumoverpolylogarithms.
+Including higher order terms in 1/n when adding and subtracting in (A28) further speeds up numerical evaluations.
+Appendix B: The Neumann-to-Dirichlet operator finite tree by R (N). See Figure 8 for an example. For
+p
+and its eigenvalues any N, the boundary of R (N) is identified as the out-
+p
+most layer of R (N), i.e. the collection of vertexes with
+p
+In this appendix we show that the ultrametric spec- distance N from the root. Given any function f(x) on
+trumcomputedinSectionIVadmitsofanalternativein- the boundary, there is a unique harmonic extension of it
+terpretation: the eigenfunctions and degeneracies and— to R p , denoted by F(x). Now, for any vertex x on the
+uptoanoverallshift—theeigenvaluesaswellalsoprovide boundary, there is a unique neighbor x′ of x on R p (N).
+the eigenspectrum of the Neumann-to-Dirichlet operator As in Zabrodin [16], we define the normal derivative of
+D′ onU . Wefirstdefinethisoperatorbeforeproceeding F(x) at x by pN−1(F(x)−F(x′)). The linear operator
+p
+to compute its eigenspectrum. D′ on the space of functions on the boundary of R p (N),
+It is a classical result in harmonic analysis that the isthendefinedbymappingf(x)tothenormalderivative
+positive semi-definite square root of the Laplacian on a of F(x).
+unitcircle,canbeinterpretedasaNeumann-to-Dirichlet Next, we show that continuous characters of U p with
+boundary operator: i.e. given a suitable function f(x) conductor ≤ N diagonalize D′ on R p (N): i.e. they are
+on the circle, there is a unique harmonic extension F(x) eigenvectors of D′, and they form a basis of the space of
+tothedisk. Themapfromf(x)tothenormalderivative functions on the boundary of R p (N).
+of F(x) coincides with the positive semi-definite square Let ξ l be such a character with conductor l ≤ N.
+root of the Laplacian. The boundary of R p (N) is identified with the quotient
+In the following, we define a Neumann-to-Dirichlet U p /(1 + pNZ p ). One has the obvious quotient map
+boundary operator D′ on a leaf of the Bruhat-Tits tree U p /(1 + pNZ p ) → U p /(1 + plZ p ). So ξ l gives rise to
+T p , which is a rooted tree R p with root degree p − 1, a function f l (x) on the boundary of R p (N) by the pull-
+and degree p + 1 for any other vertex. One has a bi- back. Denote by F l (x) the unique harmonic extension
+jection from the asymptotic boundary of R p : i.e. non- of f l (x) to R p (N). Denote the root by r. We have the
+backtracking semi-infinite rays on R from the root, to following simple observations:
+p
+elements of U . So D′ is to be compared with D, the First, if l = N, then for each vertex x′ in the 2nd
+p
+Vladimirov derivative given in equation (52). outmostlayerofR p (N),i.e. avertexwithdistanceN−1
+(cid:80)
+To define D′, we first truncate R p by a radius N ∈N: fromtheroot, x∼x′,d(x,r)=N F l (x)=0. Thisisbecause
+i.e. distance from the root. We denote the truncated when x′ is the identity element of Z∗/(1+pN−1Z ), its
+p p
+
+--- PAGE 18 ---
+18
+neighborsontheboundaryofR (N)consistofthekernel difference amounts only to an overall shift and a choice
+p
+ofthequotientmapU /(1+pNZ )→U /(1+pN−1Z ). of normalization.
+p p p p
+Foranyotherx′,itsneighborsontheboundaryofR (N) Forthisspectrum,thehigh-temperatureentropyagain
+p
+is a shift of the kernel of the quotient map by a group exhibits Hardy-Ramanujan scaling, though subleading
+element. ξ can not restrict to a constant on the kernel, terms differ from the thermodynamics of the Vladimirov
+l
+since if that’s the case, then it restricts to a constant on eigenspectrumgivenin(66). Tobemoreprecise,wehave
+the set of neighbors on the boundary of R (N) for any just determined the Neumann-to-Dirichlet spectrum to
+p
+x′, which would then force the conductor to be less than be given—in addition to a zero eigenvalue whose eigen-
+l. Therefore ξ restricts to a non-trivial character on the function is the trivial character—by
+l
+kernel, which implies our observation.
+E =εpn for n∈N , (B4)
+Second, if l < N, then for each vertex x′ in the 2nd n 0
+outmost layer of R (N), F (x) restricts to a constant. ρ(0)=p−2, ρ(n>0)=(p−1)2pn−1,
+p l
+In this case, let y′ be a vertex with d(r,y′) = l−1, we
+have (cid:80) y∼y′,d(y,r)=l F l (y) = 0. This is because for any whereE n istheeigenvaluewhoseρ(n)eigenfunctionsare
+givenbythemultiplicativecharactersofconductorn+1.
+y with d(y,r) = l, F (y) = cF (x) where x is a vertex
+l l
+On associating a quantum harmonic oscillator to each
+with d(x,r) = N, and x lies on the same rooted ray as
+normalmode,theresultingpartitionfunction—including
+y, where c is a nonzero constant independent of y. This
+the zero-point energy—is given by
+will become apparent once we perform a computation
+below for the harmonic extension. For the same reason ∞ (cid:18) ∞ (cid:19)ρ(k)
+as above, F l can not restrict to a constant on neighbors Z = (cid:89) (cid:88) e−βEk(ℓ+ 2 1) . (B5)
+of y′ with distance l from the root. So our claim follows.
+k=0 ℓ=0
+Next, assume 1 ≤ l ≤ N. We perform a calculation
+Regulatingthezero-pointenergywithgeometricsumma-
+of the harmonic extension up to the (l−1)-th layer of
+tion as in (67), the ground state is now tachyonic:
+R (N). Infact,weonlyperformthecomputationforthe
+p
+p el o e r m ti e o n n t o o f f R U p ( / N (1 ) + th p a N t − is 1Z ext ) e , n u d p ed to b t a h c e k ( f l ro − m 1) t - h t e h i l d a e y n e t r it o y f (cid:88) ∞ ρ(k)E k = ε (cid:18) (p−2)+ (cid:88) ∞ (p−1)2pn−1pn (cid:19)
+p p
+2 2
+R (N). The other cases will follow obviously.
+p k=0 n=1
+For this, we denote by a the value of F along this ε
+k = − . (B6)
+portion on vertices with distance k from the root. By p+1
+the definition of harmonic extension, we have
+By a simpler version of the same steps used in Ap-
+pendix A and letting b = βε again, the full high-
+(p+1)a =a +pa , (B1)
+k−1 k−2 k temperature expansion of the free energy can be worked
+out with the result that:
+where l ≤ k ≤ N. By definition, a = 1. By our
+N
+second observation, we have a = 0. In fact, F takes F 1
+l−1 =− logZ (B7)
+zero value on any vertex with distance less than l to the ε b
+r (B oo 1 t ) . s T t h ip e u s l e a b te ou a nd re a c r u y r c si o v n e di p t r io o n b s le t m oge w t h h o e s r e w s i o th lu e ti q o u n at c i a o n n =− (p−1)2 (cid:88) ∞ ζ(2+ 2 lo π g in p )Γ(1+ 2 lo π g in p ) − log(b/p)
+straightforwardly be determined to be
+plogp
+n=−∞
+b2+2
+lo
+π
+g
+in
+p
+b
+1−pl−k−1 − (cid:88) ∞
+ℓ2
+B
+Γ(
+ℓ
+ℓ)
+p
+p
+l
+l
++
++1
+p
+−
+−
+1
+2 bℓ−1. (B8)
+a = for l−1≤k ≤N. (B2)
+k 1−pl−N−1 ℓ=2
+Incidentally, the zero-point energy has precisely such a
+Fromtheforegoing,weseeclearlythatf(x)isaneigen- value that F contains no term of order b0. Again we
+function of D′. Denote the eigenvalue by λ . We have observe a leading F ∼ b−2 scaling modulated by log-
+N,l
+periodic fluctuations. By a saddle point approximation
+1−p−1 of the partition function, one finds that in this case
+λ N,l =pN−1(1−a N−1 )=pl−1 1−p−(N−l+1) . (B3) thecoarse-graineddegeneracythatprovidestheenvelope
+about which the fluctuations oscillate is given by:
+Now,lettingN →∞,theeigenvaluehasalimitgivenby 1 π (cid:16)(p−1)2(cid:17)3/4(cid:16)ε(cid:17)5
+pl−1(1−p−1). Ω (E)= 4× (B9)
+asymp ε2p 6plogp E
+Finally, the constant character lies obviously in the
+(cid:115)
+kernel of D′. So in conclusion, we see that D′ and D (cid:104) 2 E(cid:105)
+exp π(p−1) ,
+share the eigenvectors and their multiplicities. For both 3plogp ε
+operators,theeigenvaluesdependonlyontheconductor.
+Their eigenvalues also share the same leading power de- withtheleadingexponentbeingidenticaltothatofequa-
+pendence on p, yet the eigenvalues are different. But the tion (79) but with subleading factors differing.
+
+--- PAGE 19 ---
+19
+d(·,r)
+4 a 4 ω2a 4 ω4a 4 ωa 4 ω5a 4 ω3a 4
+3 a 3 ω2a 3 ω4a 3 ωa 3 ω5a 3 ω3a 3
+2 a 2 ω2a 2 ω4a 2 ωa 2 ω5a 2 ω3a 2
+1 0
+r
+0 0
+FIG.8. HarmonicextensionF(x)ofamultiplicativecharacterofconductorl=2forthecaseofthetruncatedfinitetreeR (N)
+l p
+with p=3 and N =4. Whenever x is a vertex whose distance from the root vertex r is less than l, we have that f(x)=0. In
+this example, ω =e2π 6 ij where j ∈{1,2,4,5}. In our normalization convention a 4 =1 while a 2 and a 3 are determined by the
+equations (p+1)a =pa +a and (p+1)a =pa .
+3 4 2 2 3
+[1] V. Kumar and W. Taylor, String Universality in Six 4, L83 (1987).
+Dimensions, Adv. Theor. Math. Phys. 15, 325 (2011), [14] B. Grossman, p-adic strings, the weil conjectures and
+arXiv:0906.0987 [hep-th]. anomalies, Physics Letters B 197, 101 (1987).
+[2] A. Belin, C. A. Keller, and A. Maloney, Per- [15] P.G.O.FreundandM.Olson,NonarchimedeanStrings,
+mutation Orbifolds in the large N Limit, An- Phys. Lett. B 199, 186 (1987).
+nales Henri Poincar´e 10.1007/s00023-016-0529-y (2015), [16] A.V.Zabrodin,NonarchimedeanStringsandBruhat-tits
+arXiv:1509.01256 [hep-th]. Trees, Commun. Math. Phys. 123, 463 (1989).
+[3] S. Caron-Huot, Z. Komargodski, A. Sever, and A. Zhi- [17] A. Huang, B. Stoica, and S.-T. Yau, General relativity
+boedov,StringsfromMassiveHigherSpins: TheAsymp- from p-adic strings, Adv. Theor. Math. Phys. 26, 1203
+toticUniquenessoftheVenezianoAmplitude,JHEP10, (2022), arXiv:1901.02013 [hep-th].
+026, arXiv:1607.04253 [hep-th]. [18] D. Coon, Uniqueness of the veneziano representation,
+[4] A.SeverandA.Zhiboedov,OnFineStructureofStrings: Physics Letters B 29, 669 (1969).
+The Universal Correction to the Veneziano Amplitude, [19] F. Figueroa and P. Tourkine, Unitarity and Low Energy
+JHEP 06, 054. ExpansionoftheCoonAmplitude,Phys.Rev.Lett.129,
+[5] S.-J. Lee, W. Lerche, and T. Weigand, Emergent 121602 (2022), arXiv:2201.12331 [hep-th].
+strings from infinite distance limits, JHEP 02, 190, [20] N. Geiser and L. W. Lindwasser, Properties of infinite
+arXiv:1910.01135 [hep-th]. product amplitudes: Veneziano, Virasoro, and Coon,
+[6] Y.-t.Huang,J.-Y.Liu,L.Rodina,andY.Wang,Carving JHEP 12, 112, arXiv:2207.08855 [hep-th].
+out the Space of Open-String S-matrix, JHEP 04, 195, [21] J. Chakravarty, P. Maity, and A. Mishra, On the pos-
+arXiv:2008.02293 [hep-th]. itivity of Coon amplitude in D = 4, JHEP 10, 043,
+[7] J. Kaplan and S. Kundu, Closed Strings and Weak arXiv:2208.02735 [hep-th].
+Gravity from Higher-Spin Causality, JHEP 02, 145, [22] C. Cheung and G. N. Remmen, Veneziano variations:
+arXiv:2008.05477 [hep-th]. how unique are string amplitudes?, JHEP 01, 122,
+[8] A.Guerrieri,J.Penedones,andP.Vieira,WhereIsString arXiv:2210.12163 [hep-th].
+Theory in the Space of Scattering Amplitudes?, Phys. [23] N. Geiser and L. W. Lindwasser, Generalized
+Rev. Lett. 127, 081601 (2021), arXiv:2102.02847 [hep- Veneziano and Virasoro amplitudes, JHEP 04, 031,
+th]. arXiv:2210.14920 [hep-th].
+[9] N. Arkani-Hamed, C. Cheung, C. Figueiredo, and G. N. [24] J. Maldacena and G. N. Remmen, Accumulation-
+Remmen, Multiparticle Factorization and the Rigidity point amplitudes in string theory, JHEP 08, 152,
+of String Theory, Phys. Rev. Lett. 132, 091601 (2024), arXiv:2207.06426 [hep-th].
+arXiv:2312.07652 [hep-th]. [25] R. Bhardwaj, S. De, M. Spradlin, and A. Volovich,
+[10] C. Cheung, A. Hillman, and G. N. Remmen, Bootstrap On unitarity of the Coon amplitude, JHEP 08, 082,
+Principle for the Spectrum and Scattering of Strings, arXiv:2212.00764 [hep-th].
+Phys. Rev. Lett. 133, 251601 (2024), arXiv:2406.02665 [26] C.CheungandG.N.Remmen,Stringydynamicsfroman
+[hep-th]. amplitudesbootstrap,Phys.Rev.D108,026011(2023),
+[11] C.Cheung,A.Hillman,andG.N.Remmen,Uniqueness arXiv:2302.12263 [hep-th].
+criteria for the Virasoro-Shapiro amplitude, Phys. Rev. [27] C. B. Jepsen, Cutting the Coon amplitude, JHEP 06,
+D 111, 086034 (2025), arXiv:2408.03362 [hep-th]. 114, arXiv:2303.02149 [hep-th].
+[12] C. Cheung, G. N.Remmen, F.Sciotti,andM. Tarquini, [28] Y. Li and H.-Y. Sun, Towards α′-finiteness: q-deformed
+Strings from Almost Nothing, arXiv (2025), 2508.09246 open string amplitude, arXiv (2023), 2307.13117 [hep-
+[hep-th]. th].
+[13] I.Volovich,p-adicstring,ClassicalandQuantumGravity [29] N. Geiser, The Baker-Coon-Romans N-point amplitude
+
+--- PAGE 20 ---
+20
+and an exact field theory limit of the Coon amplitude, versus extended states, Journal of Physics Communica-
+JHEP 10, 010, arXiv:2311.04130 [hep-th]. tions 4, 105010 (2020), arXiv:2001.11814 [cond-mat].
+[30] A. Almheiri and F. K. Popov, Holography on the quan- [51] M.Ostilli,C.G.Bezerra,andG.Viswanathan,Spectrum
+tum disk, JHEP 06, 070, arXiv:2401.05575 [hep-th]. of the tight-binding model on cayley trees and compari-
+[31] C. Eckner, F. Figueroa, and P. Tourkine, Regge boot- son with bethe lattices, Physical Review E 105, 034123
+strap: From linear to nonlinear trajectories, Phys. Rev. (2022), arXiv:2106.06879 [cond-mat].
+D 111, 126005 (2025), arXiv:2401.08736 [hep-th]. [52] G. Mahan, Energy bands of the bethe lattice, Physical
+[32] K. C. Rigatos and B. Wang, Coon unitarity via partial Review B 63, 155110 (2001).
+waves or: how I learned to stop worrying and love the [53] M.Solomyak,Onthespectrumofthelaplacianonregular
+harmonic numbers, Phys. Rev. D 110, 126024 (2024), metric trees, Waves in Random Media 14, S155 (2003).
+arXiv:2401.13031 [hep-th]. [54] M.Solomyak,Laplaceandschro¨dingeroperatorsonregu-
+[33] B. Wang, Positivity of the hypergeometric Coon ampli- lar metric trees: the discrete spectrum case, in Function
+tude, JHEP 04, 143, arXiv:2403.00906 [hep-th]. Spaces, Differential Operators and Nonlinear Analysis:
+[34] A. Belaey, T. G. Mertens, and J. Papalini, Probing the The Hans Triebel Anniversary Volume (Springer, 2003)
+singularity at the holographic screen via q-holography, pp. 161–181, arXiv:0111023 [math].
+arXiv (2025), 2507.13873 [hep-th]. [55] A complication present more generally is that a clean
+[35] F. J. Dyson, Existence of a phase transition in a one- separationofoscillationsalongindependentandidentical
+dimensional Ising ferromagnet, Commun. Math. Phys. transversedirectionsdoesnotsubsistbeyondthespecial
+12, 91 (1969). case of chain graphs. In the more general case, the form
+[36] E.Melzer,Nonarchimedeanconformalfieldtheories,Int. oftheoscillationmodesthatdonotchangeedgelengths
+J. Mod. Phys. A 4, 4877 (1989). to first order in displacement will depend on the details
+[37] S. S. Gubser, J. Knaute, S. Parikh, A. Samberg, and of the graph’s embedding into target space, as studied
+P.Witaszczyk,p-adicAdS/CFT,Commun.Math.Phys. within the field of rigidity theory.
+352, 1019 (2017), arXiv:1605.01061 [hep-th]. [56] Whiletheequationhℓ−1(1−λ)=0canbeshowntoimply
+[38] M.Heydeman,M.Marcolli,I.Saberi,andB.Stoica,Ten- (36), the converse is not true as (36) has two additional
+sor networks, p-adic fields, and algebraic curves: arith- roots.However,asthesmallestrootsissharedbythetwo
+meticandtheAdS /CFT correspondence,Adv.Theor. equations, the approximation (37) remains valid.
+3 2
+Math. Phys. 22, 93 (2018), arXiv:1605.07639 [hep-th]. [57] In the simplest model where we consider the fields ϕ
+x
+[39] A. Periwal, E. S. Cooper, P. Kunkel, J. F. Wienand, as representing small transverse oscillations of a cobweb
+E. J. Davis, and M. Schleier-Smith, Programmable in- stretchedalongasinglespatialdirectionandthinkofthe
+teractions and emergent geometry in an array of atom vertices as beads of mass m, with the edges connecting
+clouds, Nature 600, 630 (2021), [Erratum: Nature 603, themservingasspringswithauniformspringconstantk,
+E29 (2022)], arXiv:2106.04070 [quant-ph]. wehavetherelationλ=mω2/k.Toobtainafinitetotal
+[40] S. S. Gubser, C. Jepsen, Z. Ji, and B. Trundy, Contin- mass M = mN , the individual bead mass m must
+p,L
+uumlimitsofsparsecouplingpatterns,Phys.Rev.D98, scaleas1/N .Usingthefactthatthespringconstants
+p,L
+045009 (2018), arXiv:1805.07637 [hep-th]. of springs in parallel are directly additive while those
+[41] G. Bentsen, T. Hashizume, A. S. Buyskikh, E. J. Davis, of springs in series are reciprocally additive, one finds
+A.J.Daley,S.S.Gubser,andM.Schleier-Smith,Treelike that K = (cid:16) 2· 2 (cid:80)L−1p−n (cid:17)−1 k = p2−1 k. For
+interactions and fast scrambling with cold atoms, Phys. p+1 n=0 4p(1−p−L)
+p > 1, K has a finite limit as L → ∞ whereas in the
+Rev.Lett.123,130601(2019),arXiv:1905.11430[quant-
+case p = 1 the relation is K = k/(2L). For p = 1 then,
+ph].
+using equations (34) and (35), the L→∞ limit at fixed
+[42] H. Yan, C. B. Jepsen, and Y. Oz, p-adic hologra-
+M and K then reproduces the familiar string spectrum
+phy from the hyperbolic fracton model, JHEP 08, 096,
+(cid:113) (cid:113)
+arXiv:2306.07203 [hep-th]. with integer spacing: ω = kλ = K2L(2L+1)λ →
+[43] See also [80] for recent work on quantum hierarchical (cid:113) m M L→∞
+models and [81] for recent work on critical phenomena π M Kn with n ∈ N 0 . For p > 1 meanwhile, K can be
+on the Bethe lattice. held fixed in the infinite system limit, with the normal
+[44] Seealso[82–85]foralternativeapproachestop-adicquan- mode spectrum determined from the infinite L limit of
+tummechanicsandforrelatednotionsofstatisticalfield ω2 = λk = (λN )4p(1−p−L)K, which results in (38)
+theory [86, 87]. m (cid:112) p,L p2−1 M
+with ω =2 pK/M.
+[45] I. R. Klebanov, String theory in two-dimensions, in 0
+[58] S. Ebert, H.-Y. Sun, and M.-Y. Zhang, Probing holog-
+SpringSchoolonStringTheoryandQuantumGravity(to
+raphy in p-adic CFT, Phys. Rev. D 107, 126011 (2023),
+be followed by Workshop) (1991) arXiv:hep-th/9108019.
+arXiv:1911.06313 [hep-th].
+[46] M. N. Tran, M. V. N. Murthy, and R. K. Bhaduri, On
+[59] On a technical note, the roots for different values of ℓ
+thequantumdensityofstatesandpartitioninganinteger,
+sometimesoverlapsothatonemustaddtogetherthere-
+Annals Phys. 311, 204 (2004), arXiv:math-ph/0309020.
+spective multiplicities to get the total degeneracy. E.g.,
+[47] See e.g. equation (10) of [88].
+for p = 2 and L = 6, the eigenvalue λ = 3 has a to-
+[48] See e.g. equation (3) of [89].
+tal degeneracy of 64, which comes from a multiplicity-
+[49] K.S.TikhonovandA.D.Mirlin,Fractalityofwavefunc-
+one λ eigenvalue, a multiplicity-3 λ eigenvalue,
+tionsonacayleytree: Differencebetweentreeandlocally L,n L−2,n
+amultiplicity-12λ eigenvalue,andamultiplicity-48
+treelikegraphwithoutboundary,PhysicalReviewB94, L−4,n
+λ eigenvalue.
+184203 (2016), arXiv:1608.00331 [cond-mat]. L−6,n
+[60] One could attempt to obtain a non-trivial spectrum
+[50] D. Aryal and S. Kettemann, Complete solution of the
+through the introduction by hand of a mass term that
+tight binding model on a cayley tree: strongly localised
+
+--- PAGE 21 ---
+21
+effectively replaces the graph Laplacian □ in (21) with [79] S. S. Gubser, C. Jepsen, and B. Trundy, Spin in
+√
+□−(p+1−2 p). But this does not lead to a sensi- p-adic AdS/CFT, J. Phys. A 52, 144004 (2019),
+√
+ble spectrum either. For since λ −(p+1− p) = arXiv:1811.02538 [hep-th].
+L−ℓ,n
+√ pn2π2 +O(1/L4) with no ℓ dependence on the right- [80] L. Capizzi, G. Giachetti, A. Santini, and M. Col-
+hand L2 side, this mass shift results in an infinitely degen- lura, Spreading of a local excitation in a quantum hi-
+erate ground state on taking the L→∞ limit. erarchical model, Phys. Rev. B 106, 134210 (2022),
+[61] B.Bolloba´s,Moderngraphtheory,Vol.184(SpringerSci- arXiv:2207.06790 [quant-ph].
+ence & Business Media, 1998). [81] R. Banerjee, N. Delporte, S. Sen, and R. Toriumi, Crit-
+[62] R.Singleton,Onminimalgraphsofmaximumevengirth, ical Phenomena on the Bethe Lattice, arXiv (2026),
+Journal of Combinatorial Theory 1, 306 (1966). 2601.01961 [hep-th].
+[63] C. W. Lam, The search for a finite projective plane of [82] W. A. Zu´n˜iga-Galindo, Non-Archimedean quantum me-
+order 10, The American mathematical monthly 98, 305 chanics via quantum groups, Nucl. Phys. B 985, 116021
+(1991). (2022), arXiv:2210.03071 [math-ph].
+[64] The whole analysis can also be straightforwardly ex- [83] W.A.Zu´n˜iga-Galindo,Thep-AdicSchro¨dingerequation
+tendedtothecaseswhenpisaprimepower: p=pnwith and the two-slit experiment in quantum mechanics, An-
+n ∈ N and p ∈ P. In this case the set of p-adic numbers nalsPhys.469,169747(2024),arXiv:2308.01283[quant-
+Q isreplacedwiththedegreenunramifiedextensionof ph].
+p
+Q . [84] W. A. Zu´n˜iga-Galindo, -adic quantum mechanics, the
+p
+[65] On a technical note, since the boundary of the tree also Dirac equation, and the violation of Einstein causality,
+includesthepointatinfinite,theboundaryspaceshould J. Phys. A 57, 305301 (2024), arXiv:2312.02744 [quant-
+more precisely be identified with the projective space ph].
+P1(Q ). [85] W. A. Zu´n˜iga-Galindo, 2-Adic Quantum Mechan-
+p
+[66] A.Huang,R.Rohrlich,Y.Sun,andE.Whyman,Green’s ics, Continuous-Time Quantum Walks, and the
+function on the Tate curve, arXiv:2512.24935 (2026). Space Discreteness, Fortsch. Phys. 73, e70019 (2025),
+[67] B.Derrida,C.Itzykson,andJ.M.Luck,OscillatoryCrit- arXiv:2502.16416 [quant-ph].
+icalAmplitudesinHierarchicalModels,Commun.Math. [86] W.A.Zu´n˜iga-Galindo,p-adicstatisticalfieldtheoryand
+Phys. 94, 115 (1984). deep belief networks, Physica A 612, 128492 (2023),
+[68] R. F. S. Andrade, Emergence of log-periodic oscillations arXiv:2207.13877 [math-ph].
+inperiodicandaperiodicisingmodels,BrazilianJournal [87] W. A. Zu´n˜iga-Galindo, C. He, and B. A. Zambrano-
+of Physics 30, 671 (2000). Luna, p-Adic statistical field theory and convolutional
+[69] O. Costin and G. Giacomin, Oscillatory critical ampli- deepBoltzmannmachines,PTEP2023,063A01(2023),
+tudes in hierarchical models and the tail of the harris arXiv:2302.03817 [hep-th].
+random variable, arXiv:1206.1468 (2012). [88] E.W.Weisstein,DedekindEtaFunction,MathWorld–A
+[70] G.Calcagni,Complexdimensionsandtheirobservability, Wolfram Resource 10.1016/j.aop.2003.12.004 (2025).
+Phys. Rev. D 96, 046001 (2017), arXiv:1705.01619 [gr- [89] E. W. Weisstein, Eisenstein Series, MathWorld–A Wol-
+qc]. fram Resource 10.1016/j.aop.2003.12.004 (2025).
+[71] P.D.BhoyarandP.M.Gade,Emergenceoflogarithmic- [90] V. Gorbenko, S. Rychkov, and B. Zan, Walking, Weak
+periodic oscillations in contact process with topological first-order transitions, and Complex CFTs, JHEP 10,
+disorder, Physical Review E 103, 022115 (2021). 108, arXiv:1807.11512 [hep-th].
+[72] While the present work focuses on the entropy and free [91] V. Gorbenko, S. Rychkov, and B. Zan, Walking, Weak
+energy of non-relativistic quantum systems and every- first-order transitions, and Complex CFTs II. Two-
+thing is real, in the context of relativistic CFT correla- dimensional Potts model at Q>4, SciPost Phys. 5, 050
+tors,suchlog-periodicfluctuationswouldbeindicativeof (2018), arXiv:1808.04380 [hep-th].
+a complex CFT [90, 91]. [92] L.-Y. Hung, W. Li, and C. M. Melby-Thompson, p-adic
+[73] G.Meinardus,Asymptotischeaussagenu¨berpartitionen, CFT is a holographic tensor network, JHEP 04, 170,
+Mathematische Zeitschrift 59, 388 (1953). arXiv:1902.01411 [hep-th].
+[74] H.-K. Hwang, Limit theorems for the number of sum- [93] K.OkunishiandT.Takayanagi,Statisticalmechanicsap-
+mands in integer partitions, Journal of Combinatorial proach to the holographic renormalization group: Bethe
+Theory, Series A 96, 89 (2001). lattice Ising model and p-adic AdS/CFT, PTEP 2024,
+[75] B.L.Granovsky,D.Stark,andM.Erlihson,Meinardus’ 013A03 (2024), arXiv:2310.12601 [cond-mat.stat-mech].
+theoremonweightedpartitions: Extensionsandaproba- [94] K. Okunishi and T. Nishino, Holographic Analysis of
+bilisticproof,AdvancesinAppliedMathematics41,307 Boundary Correlation Functions for the Hyperbolic-
+(2008). Lattice Ising Model, PTEP 2024, 093A02 (2024),
+[76] B. L. Granovsky and D. Stark, A meinardus theorem arXiv:2407.14689 [cond-mat.stat-mech].
+with multiple singularities, Communications in Mathe- [95] F.Qu,EffectivefieldtheoriesonsubspacesoftheBruhat-
+matical Physics 314, 329 (2012). Tits tree, JHEP 06, 175, arXiv:2402.03730 [hep-th].
+[77] M.Latapy,Partitionsofanintegerintopowers,Discrete [96] A.HuangandC.B.Jepsen,Finitetemperatureatfinite
+Mathematics & Theoretical Computer Science (2001). places, JHEP 03, 097, arXiv:2408.04199 [hep-th].
+[78] Thefoundingreferencesare[37]and[38],seealso[92]for [97] A. Mondal, S. Parikh, P. Pradhan, and R. Sengar, To-
+its tensor-network implementation and [93–97] for more ward holography on biregular trees, Phys. Rev. D 112,
+recent work on the subject. 086011 (2025), arXiv:2507.20886 [hep-th].
