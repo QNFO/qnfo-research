@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+  <meta property="og:image" content="{% if page.og-image %}{{ site.url }}{{ site.baseurl }}{{ page.og-image }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/img/og-image.png{% endif %}">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="twitter:image" content="{% if page.og-image %}{{ site.url }}{{ site.baseurl }}{{ page.og-image }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/img/og-image.png{% endif %}">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "{{ page.title | default: site.title | escape }}",
+    "description": "{{ page.description | default: site.description | escape }}",
+    "author": { "@type": "Person", "name": "Rowan Brad Quni-Gudzinas" },
+    "datePublished": "2026-05-03",
+    "url": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}",
+    "inLanguage": "en"
+  }
+  </script>
+  
+  <!-- Favicon (emoji SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌳%3C/text%3E%3C/svg%3E">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  
+  <!-- Site Stylesheet -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ site.time | date: '%s' }}">
+  
+  {% if page.math %}
+  <!-- MathJax Configuration -->
+  {% raw %}
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'no-mathjax'
+      },
+      startup: {
+        pageReady: function() {
+          var preview = document.querySelectorAll('.MathJax_Preview');
+          var ready = MathJax.startup.defaultPageReady();
+          if (preview.length) {
+            setTimeout(function() {
+              preview.forEach(function(e) { e.style.display = 'none'; });
+            }, 100);
+          }
+          return ready;
+        }
+      }
+    };
+  </script>
+  {% endraw %}
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    setTimeout(function(){
+      if(typeof MathJax==='undefined'){
+        document.querySelectorAll('.MathJax_Preview').forEach(function(e){e.style.display='inline';});
+      }
+    },5000);
+  </script>
+  {% endif %}
+  
+  {% if page.clipboard %}
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+  {% endif %}
+  
+  {% if page.analytics and page.no-tracking != true %}
+  {% include google-analytics.html %}
+  {% endif %}
+  
+  <!-- Inline critical CSS for above-the-fold -->
+  <style>
+    body{visibility:hidden;}
+    body.loaded{visibility:visible;}
+    .skip-link{position:absolute;top:-100px;left:0;background:var(--color-accent);color:#fff;padding:8px 16px;z-index:10000;border-radius:0 0 4px 0;transition:top .2s}
+    .skip-link:focus{top:0}
+    .progress-bar{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);z-index:9999;width:0;transition:width .1s linear}
+    .app-container{display:flex;min-height:100vh}
+    .main-content{flex:1;max-width:860px;margin:0 auto;padding:2rem 1.5rem 4rem;margin-left:280px;width:calc(100% - 280px)}
+    @media(max-width:1024px){.main-content{margin-left:0;width:100%;max-width:100%;padding:1rem 1rem 3rem}}
+  </style>
+</head>
+<body>
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  
+  <!-- Progress bar -->
+  <div class="progress-bar" id="progress-bar"></div>
+  
+  <!-- Mobile top bar -->
+  <header class="mobile-top-bar" aria-hidden="true">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span class="menu-icon"></span>
+    </button>
+    <span class="mobile-title">{{ site.title }}</span>
+    <button class="theme-toggle-mobile" id="theme-toggle-mobile" aria-label="Toggle dark mode">☀️</button>
+  </header>
+  
+  <!-- Sidebar overlay (mobile) -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar" aria-label="Table of Contents">
+      {% include sidebar.html %}
+    </aside>
+    
+    <!-- Main content -->
+    <main class="main-content" id="main-content">
+      {% if page.chapter %}
+      {% include breadcrumbs.html %}
+      {% endif %}
+      
+      {{ content }}
+      
+      {% if page.chapter %}
+      {% include chapter-nav.html position="bottom" %}
+      {% endif %}
+      
+      {% include footer.html %}
+    </main>
+  </div>
+  
+  <!-- Floating action button -->
+  <div class="fab" id="fab" aria-label="Scroll to top (long press for theme)">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </div>
+  
+  <!-- No-JS fallback -->
+  <noscript>
+    <div style="background:#ff9800;color:#000;padding:12px 16px;text-align:center;font-family:sans-serif;position:fixed;bottom:0;left:0;right:0;z-index:10000">
+      JavaScript enhances this page (search, theme toggle, navigation). All content is readable without it.
+    </div>
+  </noscript>
+  
+  <script>
+    // Theme — must run before first paint
+    (function(){
+      var saved = localStorage.getItem('theme');
+      var prefers = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var theme = saved || prefers;
+      document.documentElement.setAttribute('data-theme', theme);
+      document.body.classList.add('loaded');
+    })();
+  </script>
+  
+  {% if page.js %}
+  <script src="{{ site.baseurl }}/assets/js/main.js?v={{ site.time | date: '%s' }}"></script>
+  {% endif %}
+  
+  {% if page.search %}
+  <script src="{{ site.baseurl }}/assets/js/search.js?v={{ site.time | date: '%s' }}"></script>
+  {% endif %}
+</body>
+</html>

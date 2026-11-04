@@ -1,0 +1,833 @@
+--- PAGE 1 ---
+9002
+raM
+42
+3v0702060/hp-tnauq:viXra
+Continuous-time quantum walks
+on ultrametric spaces
+Norio KONNO
+DepartmentofAppliedMathematics, FacultyofEngineering,YokohamaNationalUniversity
+Hodogaya, Yokohama240-8501, Japan
+konno@ynu.ac.jp
+Abstract
+We introduceacontinuous-time quantumwalk on an ultrametricspace correspond-
+ingtothesetofp-adicintegers andcomputeits time-averaged probability distribution.
+It is shown that localization occurs for any location of the ultrametric space for the
+walk. This result presents a striking contrast to the classical random walk case. More-
+over we clarify a difference between the ultrametric space and other graphs, such as
+cycle graph, line, hypercube and complete graph, for the localization of the quantum
+case. Our quantum walk may be useful for a quantum search algorithm on a tree-like
+hierarchical structure.
+1 Introduction
+Continuous-time classical random walks on ultrametric spaces have been investigated by
+some groupsto describe therelaxation processes incomplex systems, such asglasses, clusters
+and proteins [1, 2, 3, 4, 5, 6, 7, 8]. On the other hand, a continuous-time quantum walk,
+which is a quantum version of the classical random walk, has been widely studied by various
+researchers for some important graphs, such as cycle graph, line, hypercube and complete
+graph, with the hope of finding a new quantum algorithmic technique [9, 10, 11, 12, 13, 14,
+15, 16, 17, 18]. However any result is not known for a quantum walk on the ultrametric
+space. This is a motivation for our present work. Excellent surveys of quantum walks are
+given in Refs. [19, 20].
+Let X be a set and let ρ be a metric on X. The pair (X,ρ) is called a metric space.
+Moreover if ρ has the strong triangle inequality:
+ρ(x,z) ≤ max(ρ(x,y),ρ(y,z)),
+for any x,y,z ∈ X, then ρ is said to be an ultrametric. A set endowed with an ultrametric is
+called an ultrametric space. Let p be a prime number and Q be the field of p-adic numbers.
+p
+Key words and phrases. Quantum walks; ultrametric space; p-adic integers.
+1
+
+--- PAGE 2 ---
+Z denotesthesetofp-adicintegers. ThenZ isasubringofQ andZ = {x ∈ Q : |x| ≤ 1},
+p p p p p p
+where | · | is the p-adic absolute value. Remark that the metric ρ (x,y) = |x − y| is an
+p p p
+ultrametric. Every x ∈ Z can be expanded in the following way:
+p
+x = y +y p+y p2 +···+y pn +··· ,
+0 1 2 n
+where y ∈ {0,1,...,p−1} for any n. See Ref. [21] for more details. It is important that
+n
+Z can be represented by the bottom infinite regular Cayley tree of degree p, T(p), in which
+p
+every branch at each level splits into p other branches. So we consider a continuous-time
+quantum walk on the bottom of T(p) at level (or depth) M, denoted by T (p) .
+M
+(p)
+We calculate the probability distribution of the quantum walk on T . From this, we
+M
+(p)
+obtain the time-averaged probability distribution on T and then take a limit as M → ∞.
+M
+On the other hand, first we take the limit as M → ∞ and then we derive the time-averaged
+probability distribution. It is shown that the first limit result coincides with the second one,
+that is, time-averaged operation and M-limit one are commutative. By using the results,
+we clarify a difference between classical and quantum cases. A striking difference is that
+localizationoccursatanysiteforawideclassofquantumwalks. Furthermorewecomparethe
+results of ultrametric space with those of other graphs, such as cyclic graph, line, hypercube
+and complete graph in the quantum case. Some applications of p-adic analysis in physics
+and biology were reported [21]. Social network models based on the ultrametric distance
+were presented and studied [22, 23]. The disease spreading on a hierarchical metapopulation
+model was investigated [24]. Our quantum walk on the ultrametric space may be useful for
+designing a new quantum search algorithm on the graph with a hierarchical structure.
+This paper is organized as follows. Section 2 is devoted to the definition of a continuous-
+(p)
+time quantum walk on T . Our results are shown in Sec. 3. We review corresponding
+M
+results for continuous-time classical random walks in Sec. 4. Section 5 contains results on
+other graphs for the quantum case. Conclusion is given in Sec. 6.
+2 Definition of Quantum Walk
+For M ≥ 0 and x ∈ Z , the closed p-adic ball B (p) (x) of radius p−M with center x is defined
+p M
+by
+B (p) (x) = {y ∈ Z : ρ (x,y) ≤ p −M}.
+M p p
+EachballB (p) (x)ofradiusp−M canberepresentedasafiniteunionofdisjointballsB (p) (x )
+M M+1 m
+of radius p−(M+1):
+p−1
+(p) (p)
+B (x) = B (x ),
+M M+1 m
+m=0
+[
+for suitable x ,x ,...,x ∈ Z , so we have
+0 1 p−1 p
+pM−1
+Z = B (p) (m).
+p M
+m=0
+[
+2
+
+--- PAGE 3 ---
+When p = 3,
+31−1 32−1
+Z = B (3) (m) = B (3) (k),
+p 1 2
+m=0 k=0
+[ [
+and
+(3) (3) (3) (3)
+B (0) = B (0)∪B (3)∪B (6),
+1 2 2 2
+(3) (3) (3) (3)
+B (1) = B (1)∪B (4)∪B (7),
+1 2 2 2
+(3) (3) (3) (3)
+B (2) = B (2)∪B (5)∪B (8).
+1 2 2 2
+We define the distance between two balls B and B as
+1 2
+ρ (B ,B ) = inf{ρ (x,y) : x ∈ B ,y ∈ B }.
+p 1 2 p 1 2
+We observe that end points of a regular Cayley tree with p degree at level M may be
+represented as a set of disconnected balls {B (p) (0),B (p) (1),...,B (p) (pM − 1)} with radius
+M M M
+p−M covering Z . So we can consider pM balls {B (p) (0),B (p) (1),...,B (p) (pM − 1)} as pM
+p M M M
+points {0,1,...,pM −1}, denoted by T (p) .
+M
+(p)
+As in the case of classical random walk, let ψ (i,j) be amplitude of a jump from the ball
+M
+B (p) (i) to the ball B (p) (j) separated by p-adic distance p−(M−k). Here we put ǫ = ǫ (p) (k) =
+M M k M
+(p) (p) (p)
+ψ (i,j). Remark that ψ (i,j) = ψ (j,i).
+M M M
+We consider p = 3 and M = 2. In this case, ǫ is given by
+k
+(3) (3) (3) (3)
+ǫ = ψ (0,3) = ψ (0,6) = ψ (3,0) = ψ (3,6)
+1 2 2 2 2
+(3) (3) (3) (3)
+= ψ (6,0) = ψ (6,3) = ψ (1,4) = ψ (1,7) = ··· ,
+2 2 2 2
+(3) (3) (3)
+ǫ = ψ (0,1) = ψ (0,4) = ··· = ψ (0,8)
+2 2 2 2
+(3) (3) (3)
+= ψ (3,1) = ψ (3,4) = ··· = ψ (3,8) = ··· ,
+2 2 2
+······ .
+Let I and J denote the n×n identity matrix and the all-one n×n matrix. We define a
+n n
+pM ×pM symmetric matrix H (p) on T (p) which is treated as the Hamiltonian of the quantum
+M M
+system as follows: for any M = 1,2,...,
+(p) (p)
+H = I ⊗H +(J −I )⊗ǫ I ,
+M+1 p M p p M+1 pM
+(p)
+H = ǫ I +ǫ (J −I ),
+1 0 p 1 p p
+where ǫ ∈ R(j = 0,1,2,...) and R is the set of real numbers.
+j
+(p)
+The evolution of continuous-time quantum walk on T is governed by the following
+M
+unitary matrix:
+U (p) (t) = eitH M (p) .
+M
+3
+
+--- PAGE 4 ---
+(p)
+The amplitude wave function at time t, |Ψ (t)i, is defined by
+M
+(p) (p) (p)
+|Ψ (t)i = U (t)|Ψ (0)i.
+M M M
+In this paper we take |Ψ (p) (0)i = [1,0,0,...,0]T as an initial state, where T denotes the
+M
+transposed operator.
+(p) (p)
+The (n+ 1)-th coordinate of |Ψ (t)i is denoted by |Ψ (n,t)i which is the amplitude
+M M
+wave function at site n at time t for n = 0,1,...,pM −1. The probability finding the walker
+(p)
+is at site n at time t on T is given by
+M
+(p) (p) (p)
+P (n,t) = hΨ (n,t)|Ψ (n,t)i.
+N N N
+3 Our Results
+Let {η : m = 0,1,...,M} be defined by
+m
+ǫ −ǫ if m = 0,
+0 1
+η = ǫ +(p−1) m pk−1ǫ −pmǫ if m = 1,2,...,M −1,
+m  0 k=1 k m+1
+0 if m = M.
+
+P
+ (p)
+Direct computation yields that {η : m = 0,1,...,M} is the set of eigenvalues of H
+m M
+and eigenvectors for η are given in the following way, see Ref. [1] for p = 2 case. Let
+m
+ω = ω = exp(2πi/p). Put
+p
+n n
+0 = [0,0,...,0], 1 = [1,1,...,1].
+n n
+The pM−1(p−1) eigenvectors fo z r η }| are { z }| {
+0
+u (1) = [1,ω,ω2,...,ωp−1,0 ]T,
+0 pM−p
+u (2) = [1,ω2,ω4,...,ω2(p−1),0 ]T,
+0 pM−p
+...
+u (p−1) = [1,ω(p−1),ω2(p−1),...,ω(p−1)2 ,0 ]T,
+0 pM−p
+u (p) = [0 ,1,ω,ω2,...,ωp−1,0 ]T,
+0 p pM−2p
+u (p+1) = [0 ,1,ω2,ω4,...,ω2(p−1),0 ]T,
+0 p pM−2p
+...
+u (2(p−1)) = [0 ,1,ω(p−1),ω2(p−1),...,ω(p−1)2 ,0 ]T,
+0 p pM−2p
+...
+u (pM−1(p−1)) = [0 ,1,ω(p−1),ω2(p−1),...,ω(p−1)2 ]T.
+0 pM−p
+4
+
+--- PAGE 5 ---
+The pM−2(p−1) eigenvectors for η are
+1
+u (1) = [1 ,ω1 ,ω21 ,...,ωp−11 ,0 ]T,
+1 p p p p pM−p2
+u (2) = [1 ,ω21 ,ω41 ,...,ω2(p−1)1 ,0 ]T,
+1 p p p p pM−p2
+...
+u (p−1) = [1 ,ω(p−1)1 ,ω2(p−1)1 ,...,ω(p−1)2 1 ,0 ]T,
+1 p p p p pM−p2
+u (p) = [0 ,1 ,ω1 ,ω21 ,...,ωp−11 ,0 ]T,
+1 p2 p p p p pM−2p2
+u (p+1) = [0 ,1 ,ω21 ,ω41 ,...,ω2(p−1)1 ,0 ]T,
+1 p2 p p p p pM−2p2
+...
+u (2(p−1)) = [0 ,1 ,ω(p−1)1 ,ω2(p−1)1 ,...,ω(p−1)2 1 ,0 ]T,
+1 p2 p p p p pM−p2
+...
+u (pM−2(p−1)) = [0 ,1 ,ω(p−1)1 ,ω2(p−1)1 ,...,ω(p−1)2 1 ]T.
+1 pM−p2 p p p p
+We have pM−(k+1)(p − 1) eigenvectors for η (k = 2,3,...,M − 1) similarly. So the p − 1
+k
+eigenvectors for η are
+M−1
+u M−1 (1) = [1 pM−1 ,ω1 pM−1 ,ω21 pM−1 ,...,ωp−11 pM−1 ]T,
+u M−1 (2) = [1 pM−1 ,ω21 pM−1 ,ω41 pM−1 ,...,ω2(p−1)1 pM−1 ]T,
+...
+u M−1 (p−1) = [1 pM−1 ,ω(p−1)1 pM−1 ,ω2(p−1)1 pM−1 ,...,ω(p−1)2 1 pM−1 ]T.
+Finally the eigenvector for η is only [1 ]T.
+M pM
+Throughout this paper, we assume that
+0 < ǫ < ǫ < ··· < ǫ < ǫ .
+M M−1 2 1
+Theassumptionimpliesthatourquantumwalkclassdoesnotbelongtoaclassofcontinuous-
+time quantum walks given bythe adjacency matrixof thegraphonwhich the walk isdefined,
+see Ref. [18].
+Remarkthatthediagonalcomponentǫ isanirrelevantphasefactorinthewaveevolution.
+0
+So the probability distribution at time t, {P (p) (n,t) : n = 0,1,...,pM −1}, does not depend
+M
+on ǫ and we put
+0
+M
+ǫ = −(p−1)
+pk−1ǫ
+< 0,
+0 k
+k=1
+X
+as in the classical case. We should note that ǫ < 0 < ǫ < ǫ < ··· < ǫ < ǫ is
+0 M M−1 2 1
+equivalent to η < η < ··· < η < η = 0.
+0 1 M−1 M
+Let V (p) = {pk−1,pk−1 +1,...,pk −1}(k = 1,2,...,M) and V (p) = {0}. Remark that
+k 0
+M V (p) = {0,1,...,pM −1} and |V (p) | = (p−1)pk−1 for k = 1,2,...,M, where |A| is the
+k=0 k k
+number of elements in a set A. By using the eigenvectors, we obtain the amplitude of the
+S (p)
+quantum walk on T :
+M
+5
+
+--- PAGE 6 ---
+Lemma 3.1
+M−1
+(p−1) p
+−(m+1)eitηm
++p
+−M
+
+m=0
+   X if n ∈ V (p) ,
+ 0
+
+
+
+M−1
+|Ψ M (p) (n,t)i =     −p −keitηk−1 +(p−1) p −(m+1)eitηm +p −M
+
+
+ m=k
+X
+if n ∈ V (p) (k = 1,2,...,M −1),
+k
+   p −M(−eitηM−1 +1)
+
+
+  if n ∈ V (p) .
+  M
+
+
+The definition of P (p) (   n,t) implies
+M
+Proposition 3.2
+M−1 2
+(p−1) p
+−(m+1)cos(tη
+)+p
+−M
+m
+ ( )
+m=0
+ 
+
+X M−1 2
+   +(p−1)2 p −(m+1)sin(tη )
+ m
+
+ ( )
+     if n ∈ V (p) , m X =0
+ 0
+   M−1 2
+P
+M
+(p) (n,t) =  
+   −p
+−kcos(tη
+k−1 )+(p−1) p
+−(m+1)cos(tη
+m )+p
+−M
+  ( )
+m=k
+X M−1 2
+
+ + −p
+−ksin(tη
+)+(p−1) p
+−(m+1)sin(tη
+)
+  k−1 m
+      if ( n ∈ V (p) (k = 1,2,...,M − m X 1 = ) k , )
+    2p −2M(1−cos(tη k ))
+  M−1
+   if n ∈ V (p) ,
+ M
+
+
+
+ (p) (p)
+If n = 0, then P (0,t) is the return probability of the walk on T . For p = 3 and
+M M
+M = 2 case, we obtain
+{41+24cos(t(η −η ))+12cos(tη )+4cos(tη )}/34
+0 1 0 1
+if n = 0,
+
+{14−12cos(t(η −η ))−6cos(tη )+4cos(tη )}/34
+P (3) (n,t) =   0 1 0 1
+2   if n = 1,2,
+
+
+ 2{1−cos(tη )}/34
+1
+if n = 3,4,...,8.
+
+
+
+
+In general, P (p) (n,t   ) does not converge as t → ∞ for any fixed n. So we introduce a
+M
+(p)
+time-averaged distribution of P (n,t) as follows:
+M
+1 t
+P¯(p)
+(n) = lim P
+(p)
+(n,s)ds, (3.1)
+M t→∞ t M
+Z0
+if the right-hand side of Eq. (3.1) exists. Then Proposition 3.2 gives
+6
+
+--- PAGE 7 ---
+Theorem 3.3
+p−1 2
++ if n ∈ V (p) ,
+p+1 (p+1)p2M 0
+ 2 1 1
+P¯(p) (n) =  + if n ∈ V (p) (k = 1,2,...,M −1),
+M    p+1 p2k−1 p2M k
+  2 (cid:18) (cid:19)
+if n ∈ V (p) .
+p2M M
+
+
+
+
+
+It is interesting
+
+to note that
+P¯(p)
+(n) does not depend on {ǫ : k = 0,1,...,M}. In the case
+M k
+of p = 3 and M = 2, we have
+41 14 2
+P¯(3)
+(0) = ,
+P¯(3)
+(1) =
+P¯(3)
+(2) = ,
+P¯(3)
+(3) = ··· =
+P¯(3)
+(8) = .
+2 34 2 2 34 2 2 34
+The following result is immediate from Theorem 3.3.
+Corollary 3.4
+p−1
+if n ∈ V (p) ,
+lim
+P¯(p)
+(n) =
+p+1 0
+M→∞ M   2 if n ∈ V (p) (k = 1,2,...).
+ (p+1)p2k−1 k
+
+Here we consider the mean distance from 0 at time t defined by
+M
+d
+(p)
+(t) = p
+−(M−k)P (p)
+(n,t).
+M M
+X
+k=1 n∈XV(p)
+k
+Then its time-averaged mean distance is given by
+M
+d
+¯(p)
+= p
+−(M−k)P¯(p)
+(n).
+M M
+X
+k=1 n∈XV(p)
+k
+From Theorem 3.3, we get
+2(p−1)(M −1) 2 {(p−1)(p+1)2 +1}p2M−2 −1
+¯(p)
+d = + .
+M (p+1)pM (p+1)2p3M−1
+(cid:2) (cid:3)
+This gives
+pM 2(p−1)
+¯(p)
+lim d = .
+M→∞ M M p+1
+(p) (p) (p)
+NextwetakealimitasM → ∞first. WedefineP∞ (n,t)byP∞ (n,t) = lim
+M→∞
+P
+M
+(n,t),
+if the right-hand side of the equation exists. By Proposition 3.2, we obtain
+7
+
+--- PAGE 8 ---
+Proposition 3.5
+∞ 2
+(p−1)2 p −(m+1)cos(tη )
+m
+ 
+( )
+  m X =0
+   ∞ 2
+
+   + p −(m+1)sin(tη )
+ m
+ 
+ ( )
+   m X =0
+P ∞ (p)(n,t) =     if n ∈ V 0 (p) , 
+  ∞ 2
+
+
+−p
+−kcos(tη
+)+(p−1) p
+−(m+1)cos(tη
+)
+k−1 m
+( )
+    m X =k ∞ 2
+
+    + −p −ksin(tη k−1 )+(p−1) p −(m+1)sin(tη m )
+  ( )
+ m=k
+   if n ∈ V (p) (k = 1,2,...). X
+  k
+
+
+
+
+ (p)
+In a similar way, a time-averaged distribution P∞ (n,t) is given by
+1 t
+P¯(p)(n) = lim P(p)(n,s)ds, (3.2)
+∞ ∞
+t→∞ t
+Z0
+if the right-hand side of Eq. (3.2) exists. Combining Theorem 3.3 with Proposition 3.5 yields
+Corollary 3.6 For any n = 0,1,2,..., we have
+P¯(p)(n) = lim P¯(p) (n) > 0.
+∞ M→∞ M
+Furthermore,
+lim P¯(p)(n) = δ (n),
+∞ 0
+p→∞
+where δ (n) = 1, if n = m, = 0, if n 6= m.
+m
+In general, we say that localization occurs at site n if the time-averaged probability at
+the site is positive. Therefore the localization occurs at any site for both any finite M and
+M → ∞ limit cases.
+4 Classical Case
+In this section we review three classical examples and clarify a difference between classical
+(p)
+and quantum walks. Let P (n,t) be the probability that a classical random walker starting
+c
+from 0 is located at site n at time t on Z .
+p
+(p)
+In the case of a linear landscape, the transition rate on T has the form
+M
+ǫ = w p
+−(1+α)(k−M),
+k 0
+8
+
+--- PAGE 9 ---
+for w > 0 and α > 0. Then Avetisov et al. [4] showed a power decay law in M → ∞ limit:
+0
+1
+P(p)(0,t) ∼ (t → ∞),
+c t1/α
+where f(t) ∼ g(t)(t → ∞) means there exist positive constants C and C such that
+1 2
+f(t) f(t)
+C ≤ liminf ≤ limsup ≤ C .
+1 2
+t→∞ g(t) t→∞ g(t)
+(p)
+For a logarithmic landscape case, the transition rate on T is
+M
+1
+ǫ = w p
+−(k−M)
+,
+k 0 (log(1+p−(k−M)))α
+for w > 0 and α > 1. The following stretched exponential decay law (the Kohlrausch-
+0
+Williams-Watts law) was proved by Avetisov et al. [5] in M → ∞ limit:
+log(P(p)(0,t)) ∼ −t1/α (t → ∞).
+c
+(p)
+In the case of an exponential landscape, the transition rate on T has the form
+M
+ǫ = w p
+−(k−M)exp(−αp(k−M)),
+k 0
+for w > 0 and α > 0. Then Avetisov et al. [5] obtained a logarithmic decay law taking a
+0
+limit as M → ∞:
+1
+P(p)(0,t) ∼ (t → ∞).
+c logt
+The above three facts imply that the localization does not occur at position 0. In contrast
+to the classical case, the localization occurs at any position for our quantum case.
+5 Quantum Case for Other Graphs
+We consider the time-averaged probability distribution for continuous-time quantum walk
+starting from a site on other graphs, such as cycle graph, line, hypercube and complete
+graph. Then the Hamiltonian of the walk is given by the adjacency matrix of the graph.
+In the case of a cycle graph C with N sites, we have obtained the following result [14]:
+N
+1 2R (n)
+P¯ (n) = + N ,
+N
+N N2
+for any n = 0,1,...,N −1, where
+−1/2 if N = odd, ξ 6= 0 (mod2π),
+2n
+R (n) = −1 if N = even, ξ 6= 0 (mod2π),
+N  2n
+N¯ if ξ = 0 (mod2π).
+ 2n
+
+9
+
+--- PAGE 10 ---
+¯
+Here ξ = 2πj/N, N = [(N − 1)/2], and [x] is the smallest integer greater than x. When
+j
+N = odd (i.e., N¯ = (N −1)/2),
+N−1
+1 N −1 1 1 1 1
+P¯ = + , − ,..., − ,
+N N N2 N N2 N N2
+z }| {
+(cid:16) (cid:17)
+when N = even (i.e., N¯ = (N −2)/2),
+(N−2)/2 (N−2)/2
+1 N −2 1 2 1 2 1 N −2 1 2 1 2
+P¯ = + , − ,..., − , + , − ,..., − .
+N N N2 N N2 N N2 N N2 N N2 N N2
+z }| { z }| {
+(cid:16) (cid:17)
+Then we have
+lim P¯ (n) = 0,
+N
+N→∞
+for any n.
+In Z case, the probability distribution P(n,t) of the walk starting from the origin at
+location n and time t is given by
+P(n,t) = J2(t),
+n
+where J (t) is the Bessel function of the first kind of order n, see Ref. [15], for example. The
+n
+asymptotic behavior of J (t) at infinity is as follows:
+n
+2 4n2 −1
+J (t) = cos(t−θ(n))−sin(t−θ(n)) +O(t
+−2)
+, t → ∞,
+n
+πt 8t
+r (cid:18) (cid:19)
+where θ(n) = (2n+1)π/4, see page 195 in Ref. [25]. From this fact and |J (t)| ≤ 1 for any
+n
+t and n (see page 31 in Ref. [25]), we obtain
+1 t
+P¯(n) = lim J2(s)ds = 0,
+t→∞ t n
+Z0
+for any n ∈ Z.
+Next we consider the quantum walk starting from a site, denoted by 0, on a hypercube
+with 2N sites, W . Then the probability finding the walker at site n at time t is
+N
+P (n,t) =
+cos(t/N)2(N−k)sin(t/N)2k
+if n ∈ V (0 ≤ k ≤ N),
+N k
+where V = {x ∈ W : ||x|| = k} and ||x|| is the path length from 0 to x in W . A derivation
+k N N
+is shown in Ref. [18]. From the result we see that
+−1
+1 N 2k 2(N −k)
+P¯ (n) = ,
+N 22N k k N −k
+(cid:18) (cid:19) (cid:18) (cid:19)(cid:18) (cid:19)
+if n ∈ V (0 ≤ k ≤ N). For example, when N = 4,
+k
+35/128 if n ∈ V ∪V ,
+0 4
+P¯ (n) = 5/128 if n ∈ V ∪V ,
+4 1 3
+
+3/128 if n ∈ V .
+ 2
+ 10
+
+--- PAGE 11 ---
+In general N, we have
+lim P¯ (n) = 0,
+N
+N→∞
+for any n = 0,1,.... Moreover if we let
+P¯ (V ) = P¯ (n),
+N k N
+n
+X
+∈Vk
+for k = 0,1,...,N, then we get
+1 2k 2(N −k)
+P¯ (V ) = ,
+N k
+22N k N −k
+(cid:18) (cid:19)(cid:18) (cid:19)
+since |V | = N!/(N −k)!k!. It is interesting to note that this probability corresponds to a
+k
+well-known arcsin law for the classical random walk.
+Therefore, in three cases, C (cycle graph) and W (N-cube) as N → ∞ and Z, the
+N N
+localization does not occur at any location.
+In the case of the complete graph with N sites, K , the Hamiltonian H is defined by
+N N
+H = I − NJ . Then eigenvalues of H are η = 0,η = η = ··· = η = −N. The
+N N N N 0 1 2 N−1
+eigenvectors are given by the Vandermonde matrix, see Ref. [11]. Then direct computation
+yields
+(N −1)2 +1+2(N −1)cos(Nt)
+if n = 0,
+P (n,t) =
+N2
+N  2(1−cos(Nt))
+ if n = 1,2,...,N −1.
+
+N2
+
+Therefore 
+(N −1)2 +1
+if n = 0,
+P¯ (n) = N2
+N  2
+ if n = 1,2,...,N −1.
+ N2
+So we have  
+lim P¯ (n) = δ (n),
+N 0
+N→∞
+for any n = 0,1,.... Therefore the localization occurs at only n = 0 site. This corresponds
+to our case for p → ∞.
+6 Conclusion
+We have derived the expression of the probability distribution of a continuous-time quantum
+walk on T (p) corresponding to Z in the M → ∞ limit. As a result, we obtained
+M p
+P¯(p)(n) = lim P¯(p) (n) > 0, (n = 0,1,2,...),
+∞ M→∞ M
+11
+
+--- PAGE 12 ---
+for a class of ǫ satisfying
+k
+ǫ < 0 < ǫ < ǫ < ··· < ǫ < ǫ .
+0 M M−1 2 1
+Therefore the localization occurs at any location. For C (cycle graph) and W (N-cube)
+N N
+as N → ∞ and Z cases, the localization does not happen at any location. For K (complete
+N
+graph) as N → ∞ case, the localization occurs at only 0 site. In three typical classical cases,
+the localization does not occur even at 0 site. We hope that this property of our quantum
+walk can be useful in a search problem on a tree-like hierarchical structure.
+Acknowledgments The author is grateful to Naoki Masuda, Shigeki Matsutani and Etsuo
+Segawa for valuable discussions and comments.
+References
+[1] A. T. Ogielski and D. L. Stein, Dynamics on ultrametric spaces, Physical Review Letters, 55,
+1634-1637 (1985).
+[2] V. A. Avetisov, A. H. Bikulov and S. V. Kozyrev, Application of p-adic analysis to models of
+breakingof replica symmetry, Journal of Physics A: Mathematical and General, 32, 8785-8791
+(1999).
+[3] G. Parisi and N. Sourlas, P-adic numbers and replica symmetry breaking, European Physical
+Journal B, 14, 535-542 (2000).
+[4] V. A. Avetisov, A. H. Bikulov, S. V. Kozyrev and V. A. Osipov, p-adic models of ultrametric
+diffusion constrained by hierarchical energy landscapes, Journal of Physics A: Mathematical
+and General, 35, 177-189 (2002).
+[5] V. A. Avetisov, A. Kh. Bikulov and V. Al. Osipov, p-adic description of characteristic relax-
+ation in complex systems, Journal of Physics A: Mathematical and General, 36, 4239-7246
+(2003).
+[6] S. K. Nechaev and O. A. Vasilyev, On metric structure of ultrametric spaces, Journal of
+Physics A: Mathematical and General, 37, 3783-3803 (2004).
+[7] S. V. Kozyrev, V. Al. Osipov and V. A. Avetisov, Non degenerate ultrametric diffusion,
+cond-mat/0403440.
+[8] K. Lukierska-Walasek and K. Topolski, Random walk on p-adics in glassy systems,
+cond-mat/0505585.
+[9] A. M. Childs, E. Farhi and S. Gutmann, An example of the difference between quantum and
+classical random walks, Quantum Information Processing, 1, 35-43 (2002).
+[10] A. Childs, E. Deotto, R. Cleve, E. Farhi, S. Gutmann and D. Spielman, Exponential algo-
+rithmic speedup by quantum walk, in Proceedings of the 35th Annual ACM Symposium on
+Theory of Computing, 59-68 (2003).
+[11] A. Ahmadi,R.Belk, C.Tamon andC.Wendler, Onmixingincontinuous-time quantumwalks
+on some circulant graphs, Quantum Information and Computation, 3, 611-618 (2003).
+12
+
+--- PAGE 13 ---
+[12] W.Adamczak, K.Andrew,P.HernbergandC.Tamon, Anoteongraphsresistant toquantum
+uniform mixing, quant-ph/0308073.
+[13] D. ben-Avraham, E. Bollt and C. Tamon, One-dimensional continuous-time quantum walks,
+Quantum Information Processing, 3, 295-308 (2004).
+[14] N. Inui, K. Kasahara, Y. Konishi and N. Konno, Evolution of continuous-time quantum ran-
+dom walks on circles, Fluctuation and Noise Letters, 5, 73-83 (2005).
+[15] N. Konno, Limit theorem for continuous-time quantum walk on the line, Physical Review E,
+72, 026113 (2005).
+[16] D. Solenov and L. Fedichkin, Continuous-time quantum walks on a cycle graph,
+quant-ph/0506096.
+[17] L. Fedichkin, D. Solenov and C. Tamon, Mixing and decoherence in continuous-time quantum
+walks on cycles, quant-ph/0509163.
+[18] M. A. Jafarizadeh and S. Salimi, Investigation of continuous-time quantum walk via spectral
+distribution associated with adjacency matrix, quant-ph/0510174.
+[19] J. Kempe, Quantum random walks - an introductory overview, Contemporary Physics, 44,
+307-327 (2003).
+[20] B. Tregenna, W. Flanagan, W. Maile and V. Kendon, Controlling discrete quantum walks:
+coins and initial states, New Journal of Physics, 5, 83 (2003).
+[21] A. Yu. Khrennikov and M. Nilsson, P-adic Deterministic and Random Dynamics (Kluwer
+Academic Publishers, 2004).
+[22] D.J.Watts, P.S.DoddsandM.E.J.Newman,Identityandsearchinsocialnetworks,Science,
+296, 1302-1305 (2002).
+[23] P. S. Dodds, D. J. Watts and C. F. Sabel, Information exchange and the robustness of orga-
+nizational networks, Proc. Natl. Acad. Sci. USA, 100, 12516-12521 (2003).
+[24] D. J. Watts, R. Muhamad, D. C. Medina and P. S. Dodds, Multiscale, resurgent epidemics in
+a hierarchical metapopulation model, Proc. Natl. Acad. Sci. USA, 102, 11157-11162 (2005).
+[25] G. N. Watson, A Treatise on the Theory of Bessel Functions, 2nd edition (Cambridge Univer-
+sity Press, Cambridge, 1944).
+13

@@ -1,0 +1,43 @@
+{
+  "publication_title": "The Ultrametric Sieve: A Consilience of Number, Nature, Mind, and Form",
+  "version": "1.0.0",
+  "semantic_versioning": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0,
+    "version_change_notes": "Initial publication"
+  },
+  "artifacts": [
+    {
+      "path": "ARTIFACT-MANIFEST.json",
+      "category": "data",
+      "size_bytes": 9639,
+      "sha256": "22f6872e7b6c75e0174249e4e86a5c4d1f7972a9eeed9bf33b8508d5193d1f0f"
+    },
+    {
+      "path": "README.md",
+      "category": "source_document",
+      "size_bytes": 1799,
+      "sha256": "35284bb585f47fbf819ef02af568cabfc1247b9f1d8dbfad8398bc21c020edf1"
+    },
+    {
+      "path": "ULTRAMETRIC-SIEVE-v1.0.0.pdf",
+      "category": "primary_output",
+      "size_bytes": 156135,
+      "sha256": "7514c47b7d749614054b420499bae878cd62f5f727f23ed706d59a6ead7b1620"
+    },
+    {
+      "path": "ULTRAMETRIC-SIEVE.md",
+      "category": "source_document",
+      "size_bytes": 18394,
+      "sha256": "fbd8667e6d075e7b984b8fee140a5a0022d04fbb246ef9f6abbdccbf702e9543"
+    }
+  ],
+  "generated_at": "2026-06-19T04:39:10.228241+00:00",
+  "total_files": 4,
+  "categories_count": {
+    "data": 1,
+    "source_document": 2,
+    "primary_output": 1
+  }
+}

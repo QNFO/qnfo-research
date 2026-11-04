@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article class="chapter-content">
+  <header class="hero">
+    {% if page.chapter-number %}
+    <div class="chapter-badge">Chapter {{ page.chapter-number }}</div>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    <div class="hero-meta">
+      {% include reading-time.html %}
+      {% if page.author %}
+      <span class="meta-sep">·</span>
+      <span>{{ page.author }}</span>
+      {% endif %}
+      {% if page.date %}
+      <span class="meta-sep">·</span>
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %d, %Y' }}</time>
+      {% endif %}
+    </div>
+  </header>
+  
+  {% if page.toc %}
+  {% include toc.html %}
+  {% endif %}
+  
+  {% if page.prev or page.next %}
+  {% include chapter-nav.html position="top" %}
+  {% endif %}
+  
+  <div class="chapter-body">
+    {{ content }}
+  </div>
+  
+  {% if page.prev or page.next %}
+  {% include chapter-nav.html position="bottom" %}
+  {% endif %}
+</article>

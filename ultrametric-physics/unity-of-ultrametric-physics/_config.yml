@@ -1,0 +1,33 @@
+﻿title: "Ultrametricity — From the Act of Distinction to a Unified Theory of Physics"
+description: "Starting from Spencer-Brown's primitive act of drawing a distinction: ultrametric geometry, p-adic quantum computation, Bruhat-Tits spacetime, and 18 experimental protocols. No prior mathematics required."
+baseurl: "/unity-of-ultrametric-physics"
+url: "https://rwnq8.github.io"
+author: "Rowan Brad Quni-Gudzinas"
+email: "rowan.quni@outlook.com"
+orcid: "0009-0002-4317-5604"
+isni: "0000000526456062"
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "chapters"
+    values:
+      layout: "chapter"
+
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:name/

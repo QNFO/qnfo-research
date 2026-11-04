@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# DeepChat
+.deepchat/
+
+# Build artifacts (keep versioned PDFs only)
+_*.py
+*.aux
+*.log
+*.out

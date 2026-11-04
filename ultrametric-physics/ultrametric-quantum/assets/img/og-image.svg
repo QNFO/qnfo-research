@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1714"/>
+      <stop offset="50%" style="stop-color:#2d2820"/>
+      <stop offset="100%" style="stop-color:#3d3428"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b8730a"/>
+      <stop offset="100%" style="stop-color:#d4942b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Decorative tree motif -->
+  <g opacity="0.06">
+    <line x1="600" y1="200" x2="600" y2="100" stroke="#d4942b" stroke-width="2"/>
+    <line x1="600" y1="150" x2="400" y2="100" stroke="#d4942b" stroke-width="1.5"/>
+    <line x1="600" y1="150" x2="800" y2="100" stroke="#d4942b" stroke-width="1.5"/>
+    <line x1="400" y1="120" x2="300" y2="80" stroke="#d4942b" stroke-width="1"/>
+    <line x1="400" y1="120" x2="500" y2="80" stroke="#d4942b" stroke-width="1"/>
+    <line x1="800" y1="120" x2="700" y2="80" stroke="#d4942b" stroke-width="1"/>
+    <line x1="800" y1="120" x2="900" y2="80" stroke="#d4942b" stroke-width="1"/>
+  </g>
+  
+  <rect x="80" y="80" width="1040" height="3" fill="url(#accent)" rx="2"/>
+  
+  <text x="80" y="210" font-family="Inter,-apple-system,sans-serif" font-size="52" font-weight="800" fill="#faf8f5" letter-spacing="-2">ULTRAMETRIC QUANTUM</text>
+  <text x="80" y="278" font-family="Inter,-apple-system,sans-serif" font-size="52" font-weight="800" fill="#faf8f5" letter-spacing="-2">COMPUTATION</text>
+  
+  <text x="80" y="345" font-family="Inter,-apple-system,sans-serif" font-size="22" fill="#c4b8a8" font-weight="400" letter-spacing="-0.3">An MVP Program for Passive Geometric Fault Tolerance</text>
+  
+  <line x1="80" y1="385" x2="320" y2="385" stroke="#d4942b" stroke-width="1.5" opacity="0.5"/>
+  
+  <text x="80" y="440" font-family="Inter,-apple-system,sans-serif" font-size="16" fill="#8b8070" font-weight="500">Rowan Brad Quni-Gudzinas</text>
+  
+  <circle cx="80" cy="540" r="4" fill="#b8730a"/>
+  <circle cx="100" cy="540" r="4" fill="#c4831c"/>
+  <circle cx="120" cy="540" r="4" fill="#d4942b"/>
+  
+  <text x="150" y="546" font-family="JetBrains Mono,monospace" font-size="13" fill="#6b6560">rwnq8.github.io/ultrametric-quantum</text>
+</svg>

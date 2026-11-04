@@ -1,0 +1,28 @@
+title: The Ultrametric Paradigm
+description: A Formal System of Distinction and Invariance
+baseurl: "/ultrametric-paradigm"
+url: "https://rwnq8.github.io"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  footnote_backlink: "↩"
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+exclude:
+  - SYSTEM_PROMPT.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - vendor/
+  - node_modules/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

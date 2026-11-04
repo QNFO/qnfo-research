@@ -1,0 +1,872 @@
+--- PAGE 1 ---
+Introduction
+p-Adicmodelsincomplexsystems
+UltrametricityinQuantumChaos
+Ultrametricity in physics of complex
+systems: from proteins to quantum chaos.
+Vladimir Al. Osipov
+May 24, 2025
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 2 ---
+Introduction
+UtrametricmodelsinMathematicalPhysics
+p-Adicmodelsincomplexsystems
+ComplexSystem
+UltrametricityinQuantumChaos
+There are several motivations in physics and mathematics to
+investigate ultrametric and p-adic mathematical models.
+Breakdown of the Archimedean axiom at the Planck scale.
+The number field invariance principle: Fundamental physical
+laws should be invariant under the change of the number
+fields.
+Application of p-adic numbers to cryptography: they serve as
+a primitive in the selection of the secure elliptic curves
+allowing to solve the problem of counting the number of
+solutions in finite fields of the bivariate polynomial equations
+P(X,Y) = 0.
+Ultrametric spaces are adequate mathematical instrument for
+investigation of hierarchical structures appearing in some
+phenomena of the complex systems, where p-adics can be
+used as a toy model.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 3 ---
+Introduction
+UtrametricmodelsinMathematicalPhysics
+p-Adicmodelsincomplexsystems
+ComplexSystem
+UltrametricityinQuantumChaos
+ComplexSystem
+The prototype of a completely disordered
+system (order 0) is the ideal gas; no infor-
+mation can be stored and its complexity is
+zero.
+Theprototypeofacompletelyorderedsys-
+tem is the ideal crystal (order 1); no infor-
+mation can be stored and its complexity is
+zero.
+Acomplexsystemisasystemcomposedof
+many components that may interact with
+each other. The main question: How the
+system’spartsgiverisetothecollectivebe-
+haviours,andhowthesysteminteractswith
+theenvironment?
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 4 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Spinglasses–aparadigmaticexampleofcomplexsystem
+The spin-glass Hamiltonian
+(cid:88)
+H{σ} = − J σ σ ,
+i,j i j
+i,j
+Thecouplingconstantsarerandomlydistributedvalueswithrespecttosomegiven
+probability. TheSherrington-Kirkpatrickmodel(1975)
+dP[J]= (cid:89) √ dJi,j e− J 2 i 2 ∆ ,j
+2π∆
+i,j
+Disordered interactions result in “frustration”.
+Thesignsalongtheedgesindicatewhethertwoneighbor-
+ingspinsprefertopointinthesame(+)oropposite(-)
+directions.Itisthereforeimpossibletosatisfyallthecou-
+plingssimultaneouslyonthesquareplaquette.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 5 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Hierarchicalstructureofthefree-energylandscape
+The history dependent thermodynamic effects lead to the picture of
+free-energy landscape of the hierarchically nesting metastable states
+(Dotsenko et al., 1990; Refregier et al., 1987).
+AtafixedtemperatureT,thesystemevolutioncorrespondsto
+theslowexplorationofthenumerousmetastablestates(atlevel
+T). WhengoingfromT toT−∆T,thefree-energyvalleys
+subdivideintosmallerones,separatedbynewbarriers(levelT−
+∆T).
+Forlargeenough∆T(andinthelimitedexperimentaltimewin-
+dow),thetransitionscanonlytakeplacebetweenthesubvalleys
+insidethemainvalleys,insuchawaythatthepopulationrates
+ofthemainvalleysareuntouched,keepingthememoryofthe
+previousconfigurationatT.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 6 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Replicatrick
+Theaveragedoverdisorderfreeenergy
+(cid:90)
+<F[J]> =−T <logZ[J]> =−T dP[J]logZ[J].
+J J
+Thereplicamethodovercomesthedifficultyofthecalculationofthelogarithmofthe
+partitionfunctionZ byreplacingitwithncopiesofZ throughtheidentity
+Zn−1
+logZ = lim
+n→0 n
+Intheanalysisnistakentobeinteger,whiletheanalyticcontinuationn→0andthe
+thermodynamiclimitN→∞areassumed.
+Replicashaveexactlythesamecouplingbutevolvesindependently. Theoverlap
+parameter(i –thelatticeindexandα,β arereplicaindexes)
+Q = 1 (cid:88) N σασβ, 0≤Q ≤1.
+α,β N i i α,β
+i=1
+OneissearchingforthesaddlepointsolutionsoverQ.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 7 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+ParisiMatrix
+The completely broken replica symmetry solution is
+given by the Parisi matrix with block hierarchical
+structure, which possesses the p-adic parametriza-
+tion.
+Q =ρ(|ℓ(α)−ℓ(β)| ), α,β∈{1,2,...,pκ}
+α,β p
+κ κ
+ℓ: α=1+ (cid:88) aipi−1−→ℓ(α)=p−κ(cid:88) aipi−1,
+i=1 i=1
+0≤ai ≤p−1, ℓ∈p−κZ p/Z p.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 8 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+DynamicsonUltrametriclandscape
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 9 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+DynamicsonUltrametriclandscape
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 10 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+DynamicsonUltrametriclandscape
+AAvetisov,AKhBikulovandVAlOsipovJ.Phys.A:Math.Gen.36(2003)4239–4246
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 11 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Frauenfelderhypothesis
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 12 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Myoglobin–the“hydrogeneatom”ofbiophisics
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 13 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+CO-rebindingkineticstoMb
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 14 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+p-Adicmodel
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 15 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Theoryandexperimentcomparizon
+AAvetisov,AHBikulov,SVKozyrevandVAOsipovJ.Phys.A:Math.Gen.35(2002)177–189
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 16 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+p-adic diffusion equation:
+∂f(x,t) =Dβf(x,t)
+∂t x
+wherex ∈Q p,t∈R,β∼
+T
+1. Offersanaccurateand
+universaldescriptionoftheproteinconformationdynamics.
+Thedescriptiontakesintoaccountthesymmetryproperties
+(hierarchicalself-similarity)ofthestatespaceonly.
+The ultrametric diffusion equation with a drift term:
+∂f(x,t) (cid:90) e−βU(|x,y|) (cid:16) (cid:17)
+= dµ(y) eβE(y)f(y,t)−eβE(x)f(x,t)
+∂t |x,y|
+X
+Itdescribesdiffusiononanarbitrary
+hierarchicalenergylandscape. Theadditional
+termsgenerateadriftinthespace.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 17 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Block-rectangular hierarchical matrix
+Block-rectangular hierarchical matrix:
+ q0 q1 q0 q1 
+   q q 0 1 q q 1 0 q2 q q 0 1 q q 1 0 q2   
+    q1 q0 q0 q1 q1 q0 q0 q1     .
+ 
+
+q2 q
+q
+0
+1
+q
+q
+1
+0
+q2 q
+q
+0
+1
+q
+q
+1
+0
+ 
+
+q1 q0 q1 q0
+Hereq2 isa4×2matrix. Themodeldescribesultrametric
+diffusionwithaconstantdrift.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 18 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Parisimatrixasanoperatoronasetofsymbolicsequences
+TensorproductrepresentationofParisimatrix.
+Hilbert2r dimensionalspace: H2r =h⊗h⊗···⊗h,letω∈H2r.
+r
+Qˆω= (cid:88) aγSˆ γω, Sˆ γω=ω1⊗···⊗ωr−γ⊗sˆωr−γ+1⊗···⊗sˆωr,
+γ=0 (cid:124) (cid:123)(cid:122) (cid:125) (cid:124) (cid:123)(cid:122) (cid:125)
+r−γ γ
+whereaγ’sarearbitrary,andsˆisaprojection: sˆ|1>=1|1>,sˆ|0>=0|0>.
+Qˆ isaParisimatrixinthebasisof|0>and|1>andhaseigenvaluesλ(µ)=(cid:80)µ
+γ=0
+aγ
+withmult(λ(µ))=2r−µ−1.
+Translation operator Tˆ It makes one step shift
+Tˆω ⊗···⊗ω ⊗ω =ω ⊗ω ⊗···⊗ω , ω ∈h.
+1 r−1 r r 1 r−1 j
+ |1> |0> 
+|1> |0>
+ 
+Tˆ=   · ·  ,
+ · · 
+ 
+ · · 
+|1> |0>
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 19 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Block-rectangularhierarchicalmatrices
+The family of operators is introduced as the products
+Qˆ = TˆQˆ,
+Thus the evolution generated by Qˆ is a composition of ultrametric
+diffusion Qˆ and deterministic process induced by Tˆ.
+ q0 q1 q0 q1 
+   q q 0 1 q q 1 0 q2 q q 0 1 q q 1 0 q2   
+    q1 q0 q0 q1 q1 q0 q0 q1     .
+ 
+
+q2 q
+q
+0
+1
+q
+q
+1
+0
+q2 q
+q
+0
+1
+q
+q
+1
+0
+ 
+
+q1 q0 q1 q0
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 20 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Spectralproblem.
+ThespectralproblemforthematrixQˆ forprimer
+ λ(r), m=r;
+
+Λ(m;ν;j)= e2πij/r(cid:0) λ(0)(cid:1)1−m/r(cid:81)ℓ (cid:0) λ(i)λ(i−1)...λ(1)(cid:1)νi/r , 1<m<r−1;
+i=1
+λ(0),
+m=0.
+Thecorrespondingmultiplicitiesaregivenby
+
+1, m=r;
+mult (cid:16) Λ(m;ν) (cid:17) =
+
+( ( p r− − m− ( 1 r ) − (cid:80) (cid:16) m i 1 − νi + 1 )! )! (cid:81) (p i − νi 1 ! ) , r−1−1 (cid:17) m 1< = m 0. <r−1;
+r
+whereλ(µ)=(cid:80)µ
+γ=0
+aγ areeigenvaluesoftheParisimatrixandνi istheconstrained
+partitionofm: (cid:80)ℓ
+i=1
+iνi =m,suchthat(cid:80)ℓ
+i=1
+νi ≤r−m.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 21 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Mappingontotheinformationdiskmodel
+The family of operators
+Qˆ =TˆQˆ,
+Thus the evolution generated by Qˆ is a composition of ultrametric
+diffusion Qˆ and deterministic process induced by Tˆ.
+Ultrametric diffusion with a Errors generation model in
+constant drift information sequences
+Initialstageoftheprocess.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 22 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Theinformationcarrier(”disk”)consistsofr cells. Eachofthemcontainsa
+digit{0,1}. Atthediscreetmomentsoftimet=0,1,... discrotatesonestep
+clockwise,att=ℓ≤r thepointerS pointstotheℓthcell.
+Thenoiseaffectsthecellsplaced“rightwards”tothepointS. Theprobability
+toaffectγ consecutivecellsisgivenbyaγ ((cid:80)r
+γ=0
+aγ =1). Thecontentofeach
+affectedcellisreplacedbyanysymbolfrom{0,1}withequalprobability.
+Eachstateofthedisccanbedescribedbyavec
+r
+torw ∈H2r:
+(cid:88) (cid:79)
+w(t)= w
+J
+(t)|e
+J
+>, |ej >= |j
+k
+⟩, j
+k
+∈{0,1},
+J k=1
+wherew (t)areprobabilitiestofindthedischavinginformationalcontent
+J
+encodedbythesequenceofsymbolsJ=[j1j2...jr].
+Theresultofℓstepstimeevolutionisdescribedbytheoperator
+ 
+ℓ r
+(cid:89) Tˆ(cid:88) aγSˆ γ=(TˆQˆ)ℓ=Qˆℓ
+i=1 γ=0
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 23 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+Estimationoflosses.
+Themomentgenerationfunction
+AnauxiliaryoperatorEˆ
+Eˆ =(1+eαP)⊗(1+eαP)⊗···⊗(1+eαP);
+1=|0⟩⟨0|+|1⟩⟨1|, P=|0⟩⟨1|+|1⟩⟨0|,
+sothat<J|Eˆ|J′>=ekα,withk beingthenumberofdifferentsymbols(compared
+pairwise)inthesequencesJ andJ′.
+Themomentgenerationfunction
+R
+ℓ
+(α)=<J0|Tˆ−ℓ EˆQˆℓ|J0>.
+Themeanvalueofthechangesaccumulatedinthediskafterℓrotationsandits
+squaredisplacementare
+<k >
+t=ℓ
+= ∂αR
+ℓ
+(α)|α=0;
+<(k−<k >)2>
+t=ℓ
+= ∂
+α
+2R
+ℓ
+(α)|α=0−<k >2
+t=ℓ
+.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 24 ---
+Spinglasses–aparadigmaticexample
+Introduction
+p-AdicmodeloftheCO-rebindingkineticstoMb
+p-Adicmodelsincomplexsystems
+Block-rectangularhierarchicalmatrices
+UltrametricityinQuantumChaos
+Modelofinformationsequences
+NumberoferrorsstatisticsafterfullturnincaseofBoltzmannnoise.
+Theprobabilitiesaγ areproportionalto
+e−βγ withparameterβ∼1/T (inverse
+temperature).
+β≪1: Athightemperatures<k >∼ r andvar(k)∼ r. Almosteverycellare
+affected. Theprobabilitythatexactlyk
+2
+cellschangethe
+4 ircontentis2−r(cid:0)r(cid:1)
+k
+(Binomialdistribution).
+β≫1: Therandomisingeventscausedbythenoisearerareandmostlyaffect
+onecellonly. Oneobservestheequality<k >≃var(k)(Poisonprocess).
+β∼1: Thevariancereachesitsmaximalvalue.
+GutkinB.,OsipovV.Al.J.Stat.Phys.143(2011)72
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 25 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Quantumchaos
+Eigenvalue spasing distributions for
+various quantum chaos systems.
+Sinai Billiard (a), a hydrogen atom
+in a strong magnetic field (b), a
+NO molecule (c), acoustic modes
+2
+of a Sinai shaped quartz block (d),
+a chaotic microwave cavity (e), vi-
+bration modes of a stadium shaped
+plate (f). Both classical and quan-
+tum systems can be modelled with
+the Wigner distribution,
+p(s)=sβe−ξs2
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 26 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+PeriodicorbitsinQuantumchaos
+Oneinterestedinstatistics(correlations)ofenergylevelsofachaoticquantum
+system.
+Gutzwillertraceformula(ℏ→0),thedensityofenergylevels
+(cid:88) (cid:88)
+(cid:18)i (cid:19)
+ρ(E)= δ(E−εn)≃ W(E) +Re Aγexp
+ℏ
+Sγ(E)
+n (cid:124) (cid:123)(cid:122) (cid:125) γ∈P.O.
+smoothpart
+Sγ istheclassicalactioncalculatedalongtheperiodicorbitγ,Aγ includes
+inversedensityofneighbouringtrajectories.
+Formfactorcorrelationsofεn ⇔correlationsofSγ
+K(τ)= (cid:90) dεe−iετ <ρ(E+ε)ρ(E−ε)>≃ (cid:88) AγA∗
+γ′
+exp (cid:18)
+ℏ
+i ∆S γγ′(E,ε) (cid:19)
+γγ′
+Classificationoftrajectorieswithrespecttotheircontribution?
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 27 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+(cid:90) (cid:18) (cid:19)
+(cid:88) i
+K(τ) = dεe−iετ < ρ(E+ε)ρ(E−ε) >≃ A A∗ exp ∆S
+γ γ′ ℏ γγ′
+γγ′
+Classification of trajectories on their contribution:
+1. diagonal approximation by Berry, γ = γ′;
+2. Sieber-Richter pairs, γ ̸= γ′ ∃ encounter;
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 28 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Backer’smap
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 29 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Thefrequencyrepresentationofsequences.
+We do not interested in absolute position of symbols in the
+sequence. The local filling is of our interest.
+ThesimplestchaoticsystemistheBacker’smap: anycyclicsymbolicsequence
+encodestheperiodicorbit.
+Example: thecyclicsequence[001],
+  [00] 1
+0
+[01] 1
+ 0 
+[10] 1
+1
+[11] 0
+Thevectoroffrequenciesx =(1110)containsinformationabouttheencounters.
+2(3)
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 30 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+p-closesequences
+p
+p-closeness (γ ∼ β)
+Two cyclic sequences of equal lengths, γ and β, are p-close if their
+frequency vectors are equal x [γ] = x [β].
+p p
+p
+Properties of ∼
+p p p
+If γ ∼ α and γ ∼ β, then α ∼ β (transitivity);
+p+1 p
+If γ ∼ α then γ ∼ α (nesting).
+All symbolic sequences of a given length can be distributed over
+hierarchically nested clusters.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 31 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 32 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Periodicsequencesofthelengthn=11
+Clusteringofcyclicbinarysequencesofthelengthn=11(onlyhalfofthetree,94
+sequencesoutof188,isshown). Theend-pointsrepresentthesequences,thenumbers
+inthecirclesgivethetotalnumberofsequencesinthecorrespondingcluster.
+Themaximalbranchinglevelofthetreeispmax =
+(cid:6)n−
+2
+3(cid:7)
++1.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 33 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Ultrametricsonasetofcyclicsymbolicsequences
+Ultrametric distance on the set of
+cyclic symbolic sequences:
+d(α,β)=e−pmax p =max(p)
+max
+α∼pβ
+d(α,β)≤d(α,γ)+d(β,γ);
+(cid:18) (cid:19)
+d(α,β)≤max d(α,γ),d(β,γ) .
+What are statistics of clusters?
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 34 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Someresultsregardingtheclustersizes
+Thetotalnumberofclustersintheregimeoffinitep andn≫1growsas
+1n2p−1(1+O(1/n))
+4
+Theasymp√toticfortheaveragesizesofclusters,<∥C∥>.
+–Forn≲ 2p theaverageclustersizeisone,<∥C∥>≈1,andthenumberof
+clustersisalmostequaltothetotalnumberofcyclicsequences.
+–For2p/2≪n≪2p onecanfindthatlog<∥C∥>∼n2.
+–Forn≫2p theaveragesizeis<∥C∥>= 2n (cid:16) 2p−1(cid:17)2p−2 (1+O(1/n)).
+n nπ
+Furthergrowthofngiveslog<∥C∥>∼n.
+(N = 2p−1 = 256)
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 35 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Someresultsregardingtheclusterdistributions
+Thesizeofthelargestcluster,∥Cmax∥inthelimitoflongsequencesn≫1and
+finitep behaveslike∥Cmax∥= (cid:16) 2
+n
+n(cid:17)(cid:16)
+π
+2p
+n
+(cid:17)2p−2 (cid:0) 1+O(n−1) (cid:1) .
+Theprobabilitydensitythatarandomlychosencyclicsequencebelongstoa
+clusterofthesizelessthent∥Cmax∥,t∈[0,1],itis(n≫1)
+(−logt)2p−2−1
+ρ(t)= .
+(2p−2−1)!
+Probabilitytofindk randomlychosensequencesofthesamelengthtobe
+belongingtothesamecluster: (cid:0)1(cid:1)2p−2(cid:16) 2p(cid:17)(k−1)2p−2 (cid:0) 1+O(n−1) (cid:1) .
+k πn
+Exactdistributionofclustersizesforthe
+casep=3atn=70(uppergreen)and
+n=47(lowerred)isshownincomparison
+withtheasymptoticexpression
+P(t)=t(1−logt)(dashedblueline)and
+t∥Cmax∥,t∈[0,1],.
+GutkinB.,OsipovV.Al.Nonlinearity26(2013)177
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 36 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Exactlysolvablemany-bodyquantumchaosmodel
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 37 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Exactlysolvablemany-bodyquantumchaosmodel
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 38 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Exactlysolvablemany-bodyquantumchaosmodel
+The unitary evolution opera-
+tor acts in the discrete time-
+steps, the single step evolu-
+tion is a product U =U U
+K I
+Dual evolution operators
+U=U
+K
+[g]U
+I
+[f
+h
+,fv]
+U˜=U
+K
+[fv]U
+I
+[f
+h
+,g] U˜=U
+K
+[f
+h
+]U
+I
+[g,fv]
+Theoperatorswithtildearenotnecessaryunitary.
+Theoperatorswithtildeareunitaryifthematriceswiththesymbolsg,f
+h
+andfv are
+unitaryandsatisfytheHadamardproperty: u†=u,and (cid:12) (cid:12)ui,j (cid:12) (cid:12)= (cid:12) (cid:12)u
+k,ℓ
+(cid:12) (cid:12).
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 39 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+Exactlysolvablemany-bodyquantumchaosmodel
+Theproblemofcorrelationfunctionforthepartiallyunitarydualquantumchaoticmapisexactlysolvable.
+C(t)=<Φinit|Tˆt−2|Φ
+final
+>∝λt
+1
+∝e−t|lnλ1|
+Theoperatorswithtildearenotnecessaryunitary.
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
+
+--- PAGE 40 ---
+QuantumChaos
+Introduction
+Periodicorbits
+p-Adicmodelsincomplexsystems
+p-closesequences
+UltrametricityinQuantumChaos
+Exactlysolvablemany-bodyquantumchaosmodel
+ThekickedIsingspin-latticemodel
+Initialandfinalstatesareconnectedbyalinecomposedofiden-
+ticalunitcellsalongthelight-coneadge
+Thetransfermatrixhasblockhierarchicalstructure
+C(t) =< Φ |Tˆt−2|Φ >
+init final
+NONLINEARITY,NONLOCALITYANDULTRAMETRICITY Ultrametricityinphysicsofcomplexsystems VladimirOsipov
