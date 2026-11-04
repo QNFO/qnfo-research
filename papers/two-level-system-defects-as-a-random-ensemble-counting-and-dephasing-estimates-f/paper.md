@@ -511,42 +511,6 @@ The principal result is the conversion of two assumed densities and two assumed 
 
 Future experimental efforts should therefore focus on quantifying the defect density $\rho$ and the spectral profile of TLSs in realistic tunnel barriers, enabling direct validation of the Poisson‑based counting model and the dephasing formulas, and providing the necessary feedback to refine the statistical framework for practical yield optimization.
 
-## Appendix A. Divergence report
-
-No divergent claims were identified among the drafts. All substantive quantitative and qualitative statements are convergent across the source drafts.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|---|---|---|---|
-| C1 | Barrier volume $V = 4\times10^{-23}\ \mathrm{m^{3}}$ computed from $A=2\times10^{-14}\ \mathrm{m^{2}}$ and $d=2\times10^{-9}\ \mathrm{m}$. | A, B, C | CONVERGENT |
-| C2 | Fractional coupling window $f_{\Gamma}=2\times10^{-3}$ from $\Gamma=10^{6}\ \mathrm{s^{-1}}$ and $\Delta_{0}=10^{9}\ \mathrm{s^{-1}}$. | A, B, C | CONVERGENT |
-| C3 | Mean strongly‑coupled defect count per junction $\lambda = 0.08$. | A, B, C | CONVERGENT |
-| C4 | Single‑junction probability $P_{1}=0.0769$ (Poisson $1-e^{-\lambda}$). | A, B, C | CONVERGENT |
-| C5 | Chip‑level mean count $\lambda_{\mathrm{chip}}=8$ for $N_{j}=100$. | A, B, C | CONVERGENT |
-| C6 | Chip‑level probability $P_{\mathrm{chip}}=0.99966$ (Poisson $1-e^{-8}$). | A, B, C | CONVERGENT |
-| C7 | Spectral‑model near‑resonance mean count $\lambda=0.105263$ and $P_{\ge1}=0.0999$. | A, B, C | CONVERGENT |
-| C8 | Mean defect spacing $\bar{s}=190\ \mathrm{MHz}$ from $B=19\ \mathrm{GHz}$ and $\bar{N}_{d}=100$. | A, B, C | CONVERGENT |
-| C9 | Dispersive dephasing rate $\Gamma_{\varphi}^{(\mathrm{disp})}=5\ \mathrm{s^{-1}}$ and $T_{\varphi}=0.2\ \mathrm{s}$ for $n=5$ defects. | A, B, C | CONVERGENT |
-| C10 | Telegraph‑noise dephasing rate $\Gamma_{\varphi}^{(\mathrm{tn})}=1.25\times10^{3}\ \mathrm{s^{-1}}$ and $T_{\varphi}=800\ \mu\mathrm{s}$. | A, B, C | CONVERGENT |
-| C11 | Sensitivity: $P_{1}$ scales linearly with defect density $\rho$; ten‑fold reduction of $\rho$ yields $P_{1}=0.0080$ and $P_{\mathrm{chip}}=0.5507$. | A, B, C | CONVERGENT |
-| C12 | Sensitivity: $\Gamma_{\varphi}^{(\mathrm{disp})}$ scales as $(g/\Delta)^{2}$; ten‑fold reduction of detuning to $10\ \mathrm{MHz}$ raises $\Gamma_{\varphi}^{(\mathrm{disp})}$ to $100\ \mathrm{s^{-1}}$ ( $T_{\varphi}=2\ \mathrm{ms}$ ). | A, B, C | CONVERGENT |
-| C13 | Sensitivity: $\Gamma_{\varphi}^{(\mathrm{tn})}$ scales as $\varepsilon^{2}/\gamma$; ten‑fold slower switching ($\gamma=10^{5}\ \mathrm{s^{-1}}$) gives $T_{\varphi}=80\ \mu\mathrm{s}$. | A, B, C | CONVERGENT |
-| C14 | Falsification of counting model: observation of a per‑junction defect count distribution that deviates significantly from Poisson (e.g., variance $\neq$ mean) would refute the model. | A, B, C | CONVERGENT |
-| C15 | Falsification of dephasing models: measured $T_{\varphi}$ that does not follow the predicted quadratic dependence on $\varepsilon$ or inverse dependence on $\gamma$ would refute the telegraph‑noise model. | A, B, C | CONVERGENT |
-| C16 | Practical implication (a): fabrication teams can invert $P_{1}=\!1-e^{-\rho V f_{\Gamma}}$ to set a target defect density $\rho^{\mathrm{target}}$ for a desired yield. | A, B, C | CONVERGENT |
-| C17 | Practical implication (b): analytical work without experimental validation resides at TRL 1–2. | A, B, C | CONVERGENT |
-| C18 | Practical implication (c): smallest next test is a retrospective analysis of existing multi‑junction spectroscopy data to compare the observed defect count histogram with the Poisson prediction. | A, B, C | CONVERGENT |
-| C19 | Practical implication (d): primary constraint is the lack of measured defect‑density data; obtaining a systematic per‑junction defect census is required before quantitative design use. | A, B, C | CONVERGENT |
-| C20 | Practical implication (e): ten‑fold reduction of $\rho$ projects $P_{1}$ from $7.7\%$ to $0.8\%$ and $P_{\mathrm{chip}}$ from $99.966\%$ to $55.07\%$. | A, B, C | CONVERGENT |
-| C21 | Practical implication (f): misuse risk is presenting the assumed density $10^{24}\ \mathrm{m^{-3}}$ as a measured value. | A, B, C | CONVERGENT |
-
-**Future Outlook.** Integrating the statistical TLS model into computer‑aided design (CAD) flows will require the experimental pipeline described in Section 9(c) to supply calibrated values of $\rho$, $f_{\Gamma}$, and coupling statistics for each fabrication process. Once such calibrated inputs are available, the closed‑form expressions derived in Sections 4–5 can be embedded as lightweight analytical modules that predict yield and coherence budgets without resorting to costly full‑scale simulations. The adoption pathway therefore hinges on closing the measurement loop and iteratively refining the assumed parameters, turning the present analytical scaffold into a practical engineering tool.
-
-Future experimental validation of the assumed defect density $\rho$ and the uniform spectral distribution, for example by applying the multi‑photon spectroscopy and strain‑tuning protocol of [6] to a statistically significant ensemble of junctions, will determine whether the analytical framework can be adopted as a practical yield‑prediction tool.
-
-The analytical framework introduced here therefore offers a concrete, low‑overhead tool for early‑stage yield estimation and coherence budgeting in superconducting‑qubit fabrication pipelines. By grounding design decisions in statistically derived probabilities and dephasing estimates, engineers can prioritize process improvements, allocate spectroscopy resources efficiently, and set realistic performance targets before committing to costly device runs. The next logical step is to validate the assumed defect density and spectral uniformity through systematic multi‑junction spectroscopy, thereby closing the loop between theory and practice and enabling the model to transition from a conceptual aid to an operational design standard.
-
 ## 8. Practical Implications and Engineering Pathways
 
 **(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**
