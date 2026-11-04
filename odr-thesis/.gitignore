@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.swp
+
+# Allow: docs/, artifacts/, releases/, and all .md files
+!docs/
+!artifacts/
+!releases/
+!*.md
+!*.pdf
