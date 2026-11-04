@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-minimal-generative-grammar-of-coordination-making-the-enactive-theory-of-langu",
+  "paper": {
+    "path": "papers/a-minimal-generative-grammar-of-coordination-making-the-enactive-theory-of-langu/paper.md",
+    "title": "A Minimal Generative Grammar of Coordination: Making the Enactive Theory of Language Falsifiable in Multi-Agent Simulation",
+    "url": "https://papers.qnfo.org/papers/a-minimal-generative-grammar-of-coordination-making-the-enactive-theory-of-langu"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-449/a-minimal-generative-grammar-of-coordination-making-the-enactive-theory-of-langu",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4380456fde637f633c3c90e28b8eaacc166fc4ca4ce45c1152b3e1c69b60e283"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "8f54da13-36ad-4235-a737-78ef5f6b664b"
+    ],
+    "living_paper_slug": "a-minimal-generative-grammar-of-coordination-making-the-enactive-theory-of-langu"
+  },
+  "snapshots": [
+    {
+      "sha256": "5fbe2295c590cec4eb5006d2329816eaf3d5d44756702ad7c8bd8274fac314ca",
+      "bytes": 47222,
+      "recorded_at": "2026-11-04",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
