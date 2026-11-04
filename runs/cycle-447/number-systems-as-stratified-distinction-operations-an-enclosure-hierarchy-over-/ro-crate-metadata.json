@@ -1,0 +1,428 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-447: Number Systems as Stratified Distinction Operations: An Enclosure Hierarchy over the Mark",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-447",
+      "qnfo:runPath": "runs/cycle-447/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "qnfo:slug": "number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-04T11:01:11.639Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Number Systems as Stratified Distinction Operations: An Enclosure Hierarchy over the Mark",
+      "url": "https://papers.qnfo.org/papers/number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0706.3841",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0706.3841"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0804.2190",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0804.2190"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1108.1171",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1108.1171"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1405.1293",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1405.1293"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1511.08784",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1511.08784"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1902.03268",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1902.03268"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.12657",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.12657"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2007.12042",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2007.12042"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2111.04538",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2111.04538"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2112.15164",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2112.15164"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2310.17310",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2310.17310"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2193",
+      "sha256": "d38aa1fba205c176a51ca095c458ddf4723a544a25d1f05172ad9976300c43d0",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "100312",
+      "sha256": "6d2d37a121acb9be282fb9c54064fc2ec5af36ebb4cc03d39fefa3b58ea9cfd2",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "46925",
+      "sha256": "095efba457ff77c05287e8fd5dcb917d0b4b6eea59ee906a9e174ddce7c807f1",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4835",
+      "sha256": "113cb1baf98413933ab6b0c2c7315b1af2cd1f381c932f94318498b01edb8ee1",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3245",
+      "sha256": "ad9ee7612e933b3d457778e934634069dcd6d5b2fd04724887b4b3fc2e829f0f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14381",
+      "sha256": "c67e4801ce9260dbbc390b1c432bfb5c24528e276885d00ac5eaae417dd45e87",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "7581",
+      "sha256": "6ba41301e5cada10824d9b0be5f95d1af72aea52421434b47a56b30390777972",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "44653",
+      "sha256": "24432b9724061db4310bdcad68c8a3cebf6ea84e7b8d5195a05b21b4e2df9b58",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16908",
+      "sha256": "6c803ffdce5964e5f2f0f6eecaa830f50815ee540ef983db503fa3f35a3e9577",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0706.3841"
+        },
+        {
+          "@id": "https://arxiv.org/abs/0804.2190"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1108.1171"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1405.1293"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1511.08784"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1902.03268"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.12657"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2007.12042"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2111.04538"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2112.15164"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2310.17310"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-04T11:01:11.639Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

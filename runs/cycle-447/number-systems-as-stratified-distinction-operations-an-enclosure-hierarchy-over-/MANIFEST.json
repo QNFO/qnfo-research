@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-4f0c925a-83e2-4fc0-8b13-ff9a1ca2aa72",
+    "slug": "number-systems-as-stratified-distinction-operations-an-enclosure-hierarchy-over-",
+    "cycle": "cycle-447",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.4",
+    "finished_at": "2026-11-04T11:01:11.639Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "6d2d37a121acb9be282fb9c54064fc2ec5af36ebb4cc03d39fefa3b58ea9cfd2",
+      "bytes": 100312,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "095efba457ff77c05287e8fd5dcb917d0b4b6eea59ee906a9e174ddce7c807f1",
+      "bytes": 46925,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "113cb1baf98413933ab6b0c2c7315b1af2cd1f381c932f94318498b01edb8ee1",
+      "bytes": 4835,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "ad9ee7612e933b3d457778e934634069dcd6d5b2fd04724887b4b3fc2e829f0f",
+      "bytes": 3245,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "c67e4801ce9260dbbc390b1c432bfb5c24528e276885d00ac5eaae417dd45e87",
+      "bytes": 14381,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "6ba41301e5cada10824d9b0be5f95d1af72aea52421434b47a56b30390777972",
+      "bytes": 7581,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "24432b9724061db4310bdcad68c8a3cebf6ea84e7b8d5195a05b21b4e2df9b58",
+      "bytes": 44653,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "6c803ffdce5964e5f2f0f6eecaa830f50815ee540ef983db503fa3f35a3e9577",
+      "bytes": 16908,
+      "role": "draft"
+    }
+  }
+}
