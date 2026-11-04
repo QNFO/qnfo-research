@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-tree-encoding-for-passive-quantum-error-confinement-support-confinem",
+  "paper": {
+    "path": "silent-radix/ultrametric-tree-encoding-for-passive-quantum-error-confinement-support-confinem/paper.md",
+    "title": "Ultrametric Tree Encoding for Passive Quantum Error Confinement: Support Confinement, Barrier Models, and the Limits of the Strong Triangle Inequality",
+    "url": "https://papers.qnfo.org/papers/ultrametric-tree-encoding-for-passive-quantum-error-confinement-support-confinem"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-450/ultrametric-tree-encoding-for-passive-quantum-error-confinement-support-confinem",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "2159a506e665deb56ebc85cd2e0e14a3a4feb139201682df22a6f529359069a0"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "731e41c6-83b4-495f-968c-59d5334e510d"
+    ],
+    "living_paper_slug": "ultrametric-tree-encoding-for-passive-quantum-error-confinement-support-confinem"
+  },
+  "snapshots": [
+    {
+      "sha256": "ddc726c685674d79c62f848c0aec5630bed7bf6e36ba4d045da760b83ddf0c2f",
+      "bytes": 41767,
+      "recorded_at": "2026-11-04",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

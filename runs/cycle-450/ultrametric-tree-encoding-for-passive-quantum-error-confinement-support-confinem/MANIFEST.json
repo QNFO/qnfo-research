@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "731e41c6-83b4-495f-968c-59d5334e510d",
+    "slug": "ultrametric-tree-encoding-for-passive-quantum-error-confinement-support-confinem",
+    "cycle": "cycle-450",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.49.2",
+    "finished_at": "2026-11-04T21:11:27.369Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "ddc726c685674d79c62f848c0aec5630bed7bf6e36ba4d045da760b83ddf0c2f",
+    "bytes": 41767,
+    "path": "silent-radix/ultrametric-tree-encoding-for-passive-quantum-error-confinement-support-confinem/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "5b91ef195fe32123d297c12dcbe498698a8ffadf79eb969f5430da5384450603",
+      "bytes": 48434,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "ddc726c685674d79c62f848c0aec5630bed7bf6e36ba4d045da760b83ddf0c2f",
+      "bytes": 41767,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "7dac2ad756968b89da0c57266239fd5df0aeff82d3e1e501b7377097a35d35e9",
+      "bytes": 1823,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "0127c841a87c2a91905574f5f10a56eb3ab375b99e5774ffefdd1d187feb3624",
+      "bytes": 1804,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "bd9a49128423db5259d2dda9571f825e660ba39f4d9a1ac96e57e1a5a4d369b8",
+      "bytes": 2758,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "6d5eef315d60d9f348a2f8facde77b02c131229569fc44dd1b3d1b15aa49e5d3",
+      "bytes": 159,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "59b2e811ce93959eb38012fc4013b53858713378c8087dcbc4c49dc3fdc79374",
+      "bytes": 23958,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "b634269b834a35e12e07bd388b0f0ebcb865804aa6f13f67221b6746a159eeaf",
+      "bytes": 11504,
+      "role": "draft"
+    }
+  }
+}
