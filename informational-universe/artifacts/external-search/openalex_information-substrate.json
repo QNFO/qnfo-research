@@ -1,0 +1,65 @@
+{
+  "project": "QNFO.INM.001",
+  "phase": "P1",
+  "date": "2026-08-05",
+  "source": "OpenAlex search (mailto=research@qnfo.org)",
+  "queries": [
+    {
+      "label": "information primary physics",
+      "note": "broad, dominated by materials/physics reviews"
+    },
+    {
+      "label": "it from bit Wheeler",
+      "top_hit": "Wheeler, Information Physics Quantum: The Search for Links (2018), cited 753"
+    },
+    {
+      "label": "quantum reconstruction information axioms",
+      "top_hit": "Hardy, Reformulating and Reconstructing Quantum Theory (2011), cited 101"
+    },
+    {
+      "label": "distinction observer information foundation",
+      "note": "mixed; Wheeler 2018 top"
+    },
+    {
+      "label": "Landauer physical information thermodynamics",
+      "top_hit": "Experimental verification of Landauer's principle (2012 Nature), cited 1260"
+    },
+    {
+      "label": "adelic p-adic information",
+      "top_hits": [
+        "Adelic model of harmonic oscillator (1994)",
+        "p-adic CFT holographic tensor network (2019)"
+      ]
+    },
+    {
+      "label": "chiribella informational derivation",
+      "note": "colloquium Q coherence, discord reviews dominate"
+    },
+    {
+      "label": "Masanes Mueller probabilistic theory",
+      "note": "no-go theorems, GPTs; the 2011/2015 originals not in top-5 via this query"
+    }
+  ],
+  "key_foundations": [
+    {
+      "id": "Wheeler-itfrombit",
+      "title": "Information, Physics, Quantum: The Search for Links",
+      "cited": 753
+    },
+    {
+      "id": "Hardy-2011",
+      "title": "Reformulating and Reconstructing Quantum Theory",
+      "cited": 101
+    },
+    {
+      "id": "Landauer-2012",
+      "title": "Experimental verification of Landauer's principle",
+      "cited": 1260
+    },
+    {
+      "id": "adelic-harmonic-osc",
+      "title": "Adelic model of harmonic oscillator (1994)"
+    }
+  ],
+  "note": "Chiribella and Masanes-Muller primary citations (2010-2012) require targeted DOI fetches in P2 — general queries returned review-adjacent hits."
+}
