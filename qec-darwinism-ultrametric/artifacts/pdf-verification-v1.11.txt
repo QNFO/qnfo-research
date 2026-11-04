@@ -1,0 +1,11 @@
+PDF U+FFFD verification — v1.11 (2026-08-16)
+=================================================
+build-pdf.py naive byte-scan reported U+FFFD=1 (EF BF BD at raw offset 314,473).
+Deep verification: all 61 FlateDecode streams decompressed -> 0 decoded EF BF BD hits;
+built HTML contains 0 U+FFFD; source md contains 0 U+FFFD (non-ASCII set: em/en dash,
+section sign, END OF PROOF U+220E, accented Latin — all render via embedded fonts).
+CONCLUSION: the single raw-byte hit is a compressed-stream coincidence (false positive
+of the naive byte-scan verifier). The rendered PDF is clean. Kaizen: build-pdf.py
+verifier should decompress FlateDecode streams before counting U+FFFD (or count only
+uncompressed regions) to avoid false-positive gate failures on large PDFs.
+Evidence: qec_stream_probe.py output (61 streams, decoded hits: 0).

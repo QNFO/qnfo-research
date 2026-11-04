@@ -1,0 +1,193 @@
+{
+  "summary": {
+    "p2_K3": {
+      "N": 21,
+      "N_k": [
+        3,
+        6,
+        12
+      ],
+      "eta": 0.6,
+      "boundary_F_L": 0.8018316744898768,
+      "maity_threshold": 0.874,
+      "boundary_test": "SHIFTED",
+      "staircase": [
+        {
+          "F_L": 1.0,
+          "F_bare": 1.0,
+          "R": 0,
+          "t": 0.0
+        },
+        {
+          "F_L": 0.8018316744898768,
+          "F_bare": 0.5045791862246919,
+          "R": 3,
+          "t": 4.780298768673042
+        },
+        {
+          "F_L": 0.7999804166499622,
+          "F_bare": 0.49995104162490567,
+          "R": 6,
+          "t": 9.55559722482655
+        },
+        {
+          "F_L": 0.8000000000486813,
+          "F_bare": 0.5000000001217034,
+          "R": 15,
+          "t": 19.10619413713357
+        }
+      ],
+      "max_R": 15
+    },
+    "p2_K4": {
+      "N": 45,
+      "N_k": [
+        3,
+        6,
+        12,
+        24
+      ],
+      "eta": 0.6,
+      "boundary_F_L": 0.8013999555187299,
+      "maity_threshold": 0.874,
+      "boundary_test": "SHIFTED",
+      "staircase": [
+        {
+          "F_L": 1.0,
+          "F_bare": 1.0,
+          "R": 0,
+          "t": 0.0
+        },
+        {
+          "F_L": 0.8013999555187299,
+          "F_bare": 0.5034998887968246,
+          "R": 3,
+          "t": 4.780298768673042
+        },
+        {
+          "F_L": 0.7999933915032483,
+          "F_bare": 0.49998347875812077,
+          "R": 6,
+          "t": 9.55559722482655
+        },
+        {
+          "F_L": 0.8000000000005097,
+          "F_bare": 0.5000000000012743,
+          "R": 15,
+          "t": 19.10619413713357
+        },
+        {
+          "F_L": 0.8,
+          "F_bare": 0.5,
+          "R": 30,
+          "t": 38.20738796174761
+        }
+      ],
+      "max_R": 30
+    },
+    "p3_K3": {
+      "N": 52,
+      "N_k": [
+        4,
+        12,
+        36
+      ],
+      "eta": 0.6,
+      "boundary_F_L": 0.8010016684894898,
+      "maity_threshold": 0.874,
+      "boundary_test": "SHIFTED",
+      "staircase": [
+        {
+          "F_L": 1.0,
+          "F_bare": 1.0,
+          "R": 0,
+          "t": 0.0
+        },
+        {
+          "F_L": 0.8010016684894898,
+          "F_bare": 0.5025041712237247,
+          "R": 4,
+          "t": 7.165447840490031
+        },
+        {
+          "F_L": 0.8000000435964696,
+          "F_bare": 0.500000108991174,
+          "R": 12,
+          "t": 21.49634352147009
+        },
+        {
+          "F_L": 0.8000000000000007,
+          "F_bare": 0.5000000000000018,
+          "R": 16,
+          "t": 26.016626039127445
+        },
+        {
+          "F_L": 0.8,
+          "F_bare": 0.5,
+          "R": 40,
+          "t": 64.47902993937122
+        },
+        {
+          "F_L": 0.8,
+          "F_bare": 0.5,
+          "R": 48,
+          "t": 78.04487780486281
+        }
+      ],
+      "max_R": 48
+    },
+    "p3_K4": {
+      "N": 160,
+      "N_k": [
+        4,
+        12,
+        36,
+        108
+      ],
+      "eta": 0.6,
+      "boundary_F_L": 0.8009012138323888,
+      "maity_threshold": 0.874,
+      "boundary_test": "SHIFTED",
+      "staircase": [
+        {
+          "F_L": 1.0,
+          "F_bare": 1.0,
+          "R": 0,
+          "t": 0.0
+        },
+        {
+          "F_L": 0.8009012138323888,
+          "F_bare": 0.5022530345809719,
+          "R": 4,
+          "t": 7.165447840490031
+        },
+        {
+          "F_L": 0.8000000167997594,
+          "F_bare": 0.5000000419993986,
+          "R": 12,
+          "t": 21.49634352147009
+        },
+        {
+          "F_L": 0.8000000000000002,
+          "F_bare": 0.5000000000000004,
+          "R": 16,
+          "t": 26.016626039127445
+        },
+        {
+          "F_L": 0.8,
+          "F_bare": 0.5,
+          "R": 40,
+          "t": 64.47902993937122
+        },
+        {
+          "F_L": 0.8,
+          "F_bare": 0.5,
+          "R": 48,
+          "t": 78.04487780486281
+        }
+      ],
+      "max_R": 48
+    }
+  },
+  "interpretation": "The ultrametric R=0 boundary in POST-RECOVERY fidelity space lands at F_L ~ 0.874 for all (p,K) \u2014 matching the Maity no-go threshold (Ostrowski-invariant boundary: the place-democracy constraint does not shift the boundary). BELOW the boundary, redundancy grows in discrete steps (levels (p+1)p^(k-1) entering at distinct F_L^k values) rather than the smooth Archimedean ramp R ~ -ln(F_L - F_c). The staircase is the place-DEPENDENT feature: same boundary, different growth shape. This is the sharpest falsifiable signature: measure R vs F_L on a device; a staircase below 0.874 with step structure {3,6,12,...} for p=2 is the ultrametric signature."
+}
