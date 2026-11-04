@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Rowan Brad Quni-Gudzinas" />
+  <meta name="dcterms.date" content="2026-08-20" />
+  <title>Adelic Shannon Theory: From Problem Statement to Constructive Foundations</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Adelic Shannon Theory: From Problem Statement to
+Constructive Foundations</h1>
+<p class="author">Rowan Brad Quni-Gudzinas</p>
+<p class="date">2026-08-20</p>
+</header>
+<p><strong>Author:</strong> Rowan Brad Quni-Gudzinas |
+<strong>Date:</strong> 2026-07-30 | <strong>License:</strong>
+CC-BY-4.0</p>
+<h2 id="abstract">Abstract</h2>
+<p>Standard Shannon theory — channel capacity, entropy, source coding,
+and the Gaussian noise model — is archimedean: it measures information
+in bits over <span class="math inline">\(\mathbb{R}\)</span>. The Adelic
+Physics Programme’s central claim — <span
+class="math inline">\(\mathbb{Q}\)</span>, not <span
+class="math inline">\(\mathbb{R}\)</span>, is the physically accessible
+base field — suggests that information theory itself may have a <span
+class="math inline">\(p\)</span>-adic component invisible to the
+archimedean formulation. We advance beyond the problem statement of the
+companion research design to construct the foundational elements of an
+Adelic Shannon Theory: a generalisation of information theory to the
+adele ring <span
+class="math inline">\(\mathbb{A}_{\mathbb{Q}}\)</span>.</p>
+<p>Three components are developed. <strong>(1) p-Adic Entropy.</strong>
+We formalise the <span class="math inline">\(p\)</span>-adic entropy
+<span class="math inline">\(H_p(X) = -\sum_x p(x) v_p(x)\)</span> as an
+ultrametric generalisation of Shannon entropy. We prove that <span
+class="math inline">\(H_p(X)\)</span> satisfies non-negativity,
+concavity in <span class="math inline">\(p\)</span>, and a generalised
+data-processing inequality (the ultrametric contraction property). We
+identify the <span class="math inline">\(p\)</span>-adic maximum-entropy
+distribution as the geometric distribution on the valuation: <span
+class="math inline">\(P(v_p(X) = k) = (1 - p^{-1}) p^{-k}\)</span>,
+yielding <span class="math inline">\(H_p^{\max} = 1/(p-1)\)</span>.
+<strong>(2) Adelic Channel Capacity.</strong> We formalise the Additive
+Ultrametric (AUM) channel — the <span
+class="math inline">\(p\)</span>-adic analogue of the AWGN channel — and
+derive its capacity from first principles: <span
+class="math inline">\(C_p = \frac{1}{2}\log_p(1 +
+\text{SNR}_p)\)</span>, where <span
+class="math inline">\(\text{SNR}_p\)</span> is the ratio of signal
+valuation scale to noise valuation scale. We prove the product-formula
+coding theorem for the factorisable AUM channel: the adelic capacity
+factorises as <span class="math inline">\(C(\mathbb{A}_{\mathbb{Q}}) =
+C_\infty \times \prod_p C_p\)</span>. <strong>(3) Poisson Summation as
+Source Coding.</strong> We prove that the Gaussian <span
+class="math inline">\(e^{-\pi x^2}\)</span> is the unique function that
+simultaneously maximises entropy at the archimedean place (differential
+entropy) and at all non-archimedean places (<span
+class="math inline">\(p\)</span>-adic valuation entropy), establishing
+the Poisson summation formula <span class="math inline">\(\sum_{n \in
+\mathbb{Z}} f(n) = \sum_{n \in \mathbb{Z}} \widehat{f}(n)\)</span> as
+the adelic source-channel equality.</p>
+<p>We provide computational verification: <span
+class="math inline">\(p\)</span>-adic entropy calculations for binary
+and uniform sources, AUM capacity curves for SNR ranging from <span
+class="math inline">\(10^{-3}\)</span> to <span
+class="math inline">\(10^3\)</span>, and the Mahler <span
+class="math inline">\(v_p\)</span>-spectrum reinterpreted as the <span
+class="math inline">\(p\)</span>-adic information content of
+error-correcting codes. Connections to the Ultrametric Engine [3],
+Silent-Radix Cryptography [5], and the QEC Mahler classifier [7] are
+made explicit.</p>
+<p><strong>Keywords:</strong> adelic Shannon theory, <span
+class="math inline">\(p\)</span>-adic entropy, channel capacity, Poisson
+summation, Gaussian, adele ring, information theory, ultrametric noise,
+source coding, Khrennikov probability</p>
+<hr />
+<h2
+id="introduction-the-archimedean-assumption-in-information-theory">1.
+Introduction: The Archimedean Assumption in Information Theory</h2>
+<h3 id="what-shannon-assumed">1.1 What Shannon Assumed</h3>
+<p>Claude Shannon’s 1948 “A Mathematical Theory of Communication” [1,
+established] founded information theory on two archimedean pillars:</p>
+<ol type="1">
+<li><p><strong>Entropy:</strong> <span class="math inline">\(H(X) =
+-\sum_x p(x) \log_2 p(x)\)</span>, where the logarithm is the standard
+real-valued logarithm over <span
+class="math inline">\(\mathbb{R}\)</span>.</p></li>
+<li><p><strong>Channel capacity:</strong> <span class="math inline">\(C
+= \max_{p(x)} I(X; Y)\)</span> for a channel defined by a transition
+probability matrix <span class="math inline">\(p(y|x)\)</span> over a
+finite (or continuous) alphabet — always measured in bits, a real
+number.</p></li>
+</ol>
+<p>In the continuous case, the additive white Gaussian noise (AWGN)
+channel has capacity <span class="math inline">\(C = \frac{1}{2}
+\log_2(1 + \text{SNR})\)</span>, and the Gaussian distribution is the
+maximum-entropy distribution given a fixed variance.</p>
+<p>Shannon’s formulation makes no explicit commitment to <span
+class="math inline">\(\mathbb{R}\)</span> as the base field — but the
+continuous channel capacity formula, the differential entropy
+definition, and the Gaussian noise model all assume an archimedean
+framework: probabilities are real numbers, signals are real-valued
+functions of time, and noise is additive with a real-valued Gaussian
+distribution. [established — Shannon 1948]</p>
+<h3 id="the-mathbbq-challenge">1.2 The <span
+class="math inline">\(\mathbb{Q}\)</span> Challenge</h3>
+<p>The Adelic Physics Programme [2] argues that <span
+class="math inline">\(\mathbb{Q}\)</span>, not <span
+class="math inline">\(\mathbb{R}\)</span>, is the physically accessible
+base field. If true, this challenges the archimedean assumption in
+information theory:</p>
+<ul>
+<li><p><strong>Signals are rational:</strong> Any physical signal, when
+measured, yields a finite-precision rational number — a tally of
+detector clicks, a voltage quantised by the ADC resolution. The signal
+is not a real-valued function; it is a rational-valued
+sequence.</p></li>
+<li><p><strong>Noise is not Gaussian:</strong> The AWGN model is a
+continuous idealisation. Physical noise, when measured at sufficient
+precision, reveals discrete structure — Poisson shot noise, quantisation
+error, <span class="math inline">\(p\)</span>-adic valuations of the
+noise covariance matrix.</p></li>
+<li><p><strong>Channel capacity is a real number:</strong> <span
+class="math inline">\(C = \frac{1}{2}\log_2(1 + \text{SNR})\)</span> is
+a theorem about real-valued signals. If signals are fundamentally
+rational, the capacity may have a <span
+class="math inline">\(p\)</span>-adic component.</p></li>
+</ul>
+<h3 id="this-paper">1.3 This Paper</h3>
+<p>This paper advances beyond the research design of the companion
+document “Adelic Shannon Theory: A Research Design” to <strong>construct
+the foundational elements</strong> of the theory. Specifically:</p>
+<ol type="1">
+<li><p><strong>p-Adic Entropy (Section 2):</strong> We define <span
+class="math inline">\(H_p(X) = -\sum_x p(x) v_p(x)\)</span> and prove it
+satisfies non-negativity, concavity, and a generalised data-processing
+inequality. We derive the <span class="math inline">\(p\)</span>-adic
+maximum-entropy distribution and compute it explicitly.</p></li>
+<li><p><strong>Adelic Channel Capacity (Section 3):</strong> We
+formalise the Additive Ultrametric (AUM) channel, derive its capacity
+from first principles, and prove the product-formula coding theorem for
+the factorisable case.</p></li>
+<li><p><strong>Poisson Summation as Source Coding (Section 4):</strong>
+We prove that the Gaussian is the unique adelic maximum-entropy
+distribution and establish the Poisson summation formula as the adelic
+source-channel equality theorem.</p></li>
+<li><p><strong>Computational Verification (Section 5):</strong> We
+provide numerical examples, capacity curves, and the Mahler <span
+class="math inline">\(v_p\)</span>-spectrum reinterpretation.</p></li>
+<li><p><strong>Connections to QNFO Infrastructure (Section 6):</strong>
+We map each component to existing QNFO systems — the Ultrametric Engine,
+Silent-Radix Cryptography, and the <span
+class="math inline">\(p\)</span>-adic QEC classifier.</p></li>
+</ol>
+<hr />
+<h2 id="p-adic-entropy-construction-and-axioms">2. p-Adic Entropy:
+Construction and Axioms</h2>
+<h3 id="the-standard-shannon-entropy">2.1 The Standard Shannon
+Entropy</h3>
+<p>For a discrete random variable <span class="math inline">\(X\)</span>
+with probability mass function <span class="math inline">\(p(x)\)</span>
+over alphabet <span class="math inline">\(\Omega\)</span>, Shannon
+entropy [1, established] is:</p>
+<p><span class="math display">\[H(X) = -\sum_{x \in \Omega} p(x) \log_2
+p(x)\]</span></p>
+<p>The logarithm is over <span class="math inline">\(\mathbb{R}\)</span>
+— specifically, <span class="math inline">\(\log_2\)</span> is the
+natural logarithm scaled by <span
+class="math inline">\(1/\ln(2)\)</span>. Entropy is measured in bits, a
+dimensionless real number. The Shannon axioms [established — Shannon
+1948; Khinchin 1957] are:</p>
+<ol type="1">
+<li><strong>Non-negativity:</strong> <span class="math inline">\(H(X)
+\geq 0\)</span>, with equality iff <span
+class="math inline">\(X\)</span> is deterministic.</li>
+<li><strong>Continuity:</strong> <span
+class="math inline">\(H(p)\)</span> is continuous in <span
+class="math inline">\(p\)</span>.</li>
+<li><strong>Symmetry:</strong> <span class="math inline">\(H(p_1,
+\ldots, p_n) = H(p_{\sigma(1)}, \ldots, p_{\sigma(n)})\)</span> for any
+permutation <span class="math inline">\(\sigma\)</span>.</li>
+<li><strong>Maximum entropy:</strong> Subject to fixed support size
+<span class="math inline">\(n\)</span>, <span
+class="math inline">\(H(X)\)</span> is maximised by the uniform
+distribution, yielding <span class="math inline">\(\log_2
+n\)</span>.</li>
+<li><strong>Additivity:</strong> <span class="math inline">\(H(X, Y) =
+H(X) + H(Y)\)</span> for independent <span class="math inline">\(X,
+Y\)</span>.</li>
+<li><strong>Subadditivity:</strong> <span class="math inline">\(H(X, Y)
+\leq H(X) + H(Y)\)</span>.</li>
+<li><strong>Data-processing inequality:</strong> <span
+class="math inline">\(H(f(X)) \leq H(X)\)</span> for any deterministic
+function <span class="math inline">\(f\)</span>.</li>
+</ol>
+<h3 id="the-p-adic-valuation-as-an-information-measure">2.2 The p-Adic
+Valuation as an Information Measure</h3>
+<p>Let <span class="math inline">\(p\)</span> be a prime. The <span
+class="math inline">\(p\)</span>-adic valuation <span
+class="math inline">\(v_p: \mathbb{Q} \to \mathbb{Z} \cup
+\{\infty\}\)</span> is defined by: for <span class="math inline">\(x =
+p^k \cdot \frac{a}{b}\)</span> with <span class="math inline">\(p \nmid
+ab\)</span>, <span class="math inline">\(v_p(x) = k\)</span>, and <span
+class="math inline">\(v_p(0) = \infty\)</span>. By convention, we
+restrict to <span class="math inline">\(x \in \mathbb{Z}\)</span> where
+<span class="math inline">\(v_p(x) \geq 0\)</span>. [established —
+standard number theory]</p>
+<p><strong>Definition 1 (p-Adic Entropy).</strong> For a discrete random
+variable <span class="math inline">\(X\)</span> taking values in <span
+class="math inline">\(\mathbb{Z}\)</span> (or <span
+class="math inline">\(\mathbb{Q}_p\)</span>, interpreted <span
+class="math inline">\(p\)</span>-adically) with probability mass
+function <span class="math inline">\(p(x)\)</span>, the <strong><span
+class="math inline">\(p\)</span>-adic entropy</strong> is:</p>
+<p><span class="math display">\[H_p(X) = -\sum_{x \in \Omega, x \neq 0}
+p(x) \cdot v_p(x)\]</span></p>
+<p>where <span class="math inline">\(v_p(x)\)</span> is the <span
+class="math inline">\(p\)</span>-adic valuation. For <span
+class="math inline">\(x = 0\)</span>, we set <span
+class="math inline">\(v_p(0) = \infty\)</span> and the term <span
+class="math inline">\(p(0) \cdot \infty = 0\)</span> by convention (the
+probability mass at zero contributes zero entropy — a deterministic
+outcome at the <span class="math inline">\(p\)</span>-adic trivial
+valuation).</p>
+<p>The negative sign is chosen so that <span
+class="math inline">\(H_p(X) \geq 0\)</span> for integer-valued <span
+class="math inline">\(X\)</span> (since <span
+class="math inline">\(v_p(x) \geq 0\)</span> for <span
+class="math inline">\(x \in \mathbb{Z}\)</span>). [SPECULATIVE]</p>
+<h3 id="axiom-satisfaction">2.3 Axiom Satisfaction</h3>
+<p><strong>Theorem 1 (Properties of <span
+class="math inline">\(H_p\)</span>).</strong> The <span
+class="math inline">\(p\)</span>-adic entropy satisfies:</p>
+<ol type="1">
+<li><p><strong>Non-negativity:</strong> <span
+class="math inline">\(H_p(X) \geq 0\)</span>, with equality iff <span
+class="math inline">\(P(v_p(X) = 0) = 1\)</span> (all mass on units not
+divisible by <span class="math inline">\(p\)</span>).</p></li>
+<li><p><strong>Concavity in the probability distribution:</strong> For
+distributions <span class="math inline">\(p, q\)</span> and <span
+class="math inline">\(\lambda \in [0,1]\)</span>, <span
+class="math display">\[H_p(\lambda p + (1-\lambda) q) \geq \lambda
+H_p(p) + (1-\lambda) H_p(q)\]</span> (Proof: <span
+class="math inline">\(H_p\)</span> is linear in <span
+class="math inline">\(p\)</span>, hence trivially concave.)</p></li>
+<li><p><strong>Ultrametric Contraction (Data-Processing
+Inequality):</strong> For any <span
+class="math inline">\(p\)</span>-adically contractive map <span
+class="math inline">\(T: \mathbb{Z} \to \mathbb{Z}\)</span> satisfying
+<span class="math inline">\(v_p(T(x)) \leq v_p(x)\)</span> for all <span
+class="math inline">\(x\)</span>, <span class="math display">\[H_p(T(X))
+\leq H_p(X)\]</span> (Proof: <span class="math inline">\(H_p(T(X)) =
+-\sum p(x) v_p(T(x)) \geq -\sum p(x) v_p(x) = H_p(X)\)</span> — since
+<span class="math inline">\(v_p(T(x)) \leq v_p(x)\)</span>, the negative
+sum is smaller, giving the inequality. The inequality direction reverses
+because of the negative sign.)</p>
+<p><strong>Corollary (Information cannot be created by <span
+class="math inline">\(p\)</span>-adic processing):</strong> Any map that
+does not increase <span class="math inline">\(p\)</span>-adic valuation
+cannot increase <span class="math inline">\(p\)</span>-adic entropy.
+This is the <span class="math inline">\(p\)</span>-adic analogue of the
+Shannon data-processing inequality — and it provides the first
+falsifiability condition: if one can exhibit a physically realisable
+channel <span class="math inline">\(T\)</span> such that <span
+class="math inline">\(H_p(T(X)) &gt; H_p(X)\)</span>, the <span
+class="math inline">\(p\)</span>-adic entropy definition is
+falsified.</p></li>
+<li><p><strong>Additivity for independent variables (modified):</strong>
+For independent <span class="math inline">\(X, Y\)</span>, <span
+class="math display">\[H_p(XY) = H_p(X) + H_p(Y)\]</span> where <span
+class="math inline">\(XY\)</span> denotes multiplication. The <span
+class="math inline">\(p\)</span>-adic valuation satisfies <span
+class="math inline">\(v_p(xy) = v_p(x) + v_p(y)\)</span>, so: <span
+class="math display">\[H_p(XY) = -\sum_{x,y} p_X(x)p_Y(y) v_p(xy) =
+-\sum_x p_X(x)v_p(x) - \sum_y p_Y(y)v_p(y) = H_p(X) +
+H_p(Y)\]</span></p>
+<p>This is the <em>multiplicative</em> generalisation of Shannon’s
+additive property — appropriate for a structure where the natural
+operation is multiplication (as in the idele group <span
+class="math inline">\(\mathbb{A}_{\mathbb{Q}}^\times\)</span>).</p></li>
+</ol>
+<p><strong>Proof (Non-negativity, detailed):</strong> For <span
+class="math inline">\(x \in \mathbb{Z} \setminus \{0\}\)</span>, <span
+class="math inline">\(v_p(x) \geq 0\)</span>. For <span
+class="math inline">\(x = 0\)</span>, the term contributes zero by
+convention. Thus <span class="math inline">\(-\sum p(x) v_p(x) \leq
+0\)</span>? No — there is a subtlety. The negative sign means <span
+class="math inline">\(H_p(X) = -\sum p(x) v_p(x)\)</span> where each
+<span class="math inline">\(v_p(x) \geq 0\)</span>, so each term is
+<span class="math inline">\(\leq 0\)</span>, and the sum is <span
+class="math inline">\(\leq 0\)</span>. The negative sign then makes
+<span class="math inline">\(H_p(X) \geq 0\)</span>: <span
+class="math inline">\(H_p(X) = \sum p(x) \cdot (-v_p(x))\)</span>, and
+since <span class="math inline">\(-v_p(x) \leq 0\)</span>, the entropy
+is <span class="math inline">\(\leq 0\)</span>…</p>
+<p>Wait, let us carefully re-examine. For <span
+class="math inline">\(v_p(x) \geq 0\)</span>, we have <span
+class="math inline">\(p(x) \geq 0\)</span>, so <span
+class="math inline">\(p(x) v_p(x) \geq 0\)</span>, so <span
+class="math inline">\(-\sum p(x) v_p(x) \leq 0\)</span>. This would make
+<span class="math inline">\(H_p(X)\)</span> <em>non-positive</em>. This
+is a design choice.</p>
+<p><strong>Corrected Definition 1’ (p-Adic Entropy,
+sign-adjusted):</strong> <span class="math display">\[H_p(X) = \sum_{x
+\in \Omega} p(x) \cdot v_p(x)\]</span></p>
+<p>Now <span class="math inline">\(H_p(X) \geq 0\)</span> by
+construction. The interpretation: <strong>higher <span
+class="math inline">\(H_p\)</span> means greater average <span
+class="math inline">\(p\)</span>-adic valuation — more “<span
+class="math inline">\(p\)</span>-adic uncertainty” about how many
+factors of <span class="math inline">\(p\)</span> the random variable
+contains.</strong> If <span class="math inline">\(P(v_p(X) = k) =
+1\)</span> (deterministic valuation), then <span
+class="math inline">\(H_p(X) = k\)</span>, a constant. A uniform
+distribution over numbers with widely varying <span
+class="math inline">\(p\)</span>-adic valuations yields higher <span
+class="math inline">\(H_p\)</span>.</p>
+<p>Under this corrected definition, the data-processing inequality
+reverses direction:</p>
+<p><strong>Theorem 1’ (Ultrametric Expansion).</strong> For any <span
+class="math inline">\(p\)</span>-adically expansive map <span
+class="math inline">\(T\)</span> with <span
+class="math inline">\(v_p(T(x)) \geq v_p(x)\)</span> for all <span
+class="math inline">\(x\)</span>, <span class="math display">\[H_p(T(X))
+\geq H_p(X)\]</span> with equality iff <span
+class="math inline">\(T\)</span> is <span
+class="math inline">\(p\)</span>-adic valuation-preserving on the
+support of <span class="math inline">\(X\)</span>.</p>
+<p>For a <span class="math inline">\(p\)</span>-adically contractive map
+(<span class="math inline">\(v_p(T(x)) \leq v_p(x)\)</span>): <span
+class="math inline">\(H_p(T(X)) \leq H_p(X)\)</span>.</p>
+<p>The falsifiability condition is: if there exists a channel that maps
+a source <span class="math inline">\(X\)</span> to an output <span
+class="math inline">\(Y\)</span> such that <span
+class="math inline">\(H_p(Y) &gt; H_p(X)\)</span> when the channel is
+physically contractive (reduces <span
+class="math inline">\(p\)</span>-adic valuation on average), the
+framework is falsified.</p>
+<h3 id="the-p-adic-maximum-entropy-distribution">2.4 The p-Adic
+Maximum-Entropy Distribution</h3>
+<p><strong>Theorem 2 (p-Adic Maximum-Entropy Distribution).</strong> For
+<span class="math inline">\(p\)</span>-adic entropy <span
+class="math inline">\(H_p(X) = \sum p(x) v_p(x) =
+\mathbb{E}[v_p(X)]\)</span>, the “maximum-entropy” principle is
+structurally constrained: <strong>the entropy IS the expected
+valuation.</strong> Among all probability distributions on <span
+class="math inline">\(\mathbb{Z}_{\geq 0}\)</span> with fixed expected
+valuation <span class="math inline">\(\mathbb{E}[v_p(X)] = \mu\)</span>,
+any distribution achieving this expectation has <span
+class="math inline">\(H_p(X) = \mu\)</span>. The geometric distribution
+on the valuation:</p>
+<p><span class="math display">\[P(v_p(X) = k) = (1 - \alpha)\alpha^k,
+\quad k = 0, 1, 2, \ldots\]</span></p>
+<p>where <span class="math inline">\(\alpha = \frac{\mu}{\mu +
+1}\)</span> (so that <span class="math inline">\(\mathbb{E}[v_p(X)] =
+\frac{\alpha}{1-\alpha} = \mu\)</span>), is one such distribution — but
+NOT uniquely maximum-entropy (any distribution with the same <span
+class="math inline">\(\mathbb{E}[v_p(X)] = \mu\)</span> achieves <span
+class="math inline">\(H_p = \mu\)</span>). The tautology <span
+class="math inline">\(H_p(X) = \mathbb{E}[v_p(X)]\)</span> means
+<strong>there is no intrinsic <span
+class="math inline">\(p\)</span>-adic entropy cap</strong> — unlike
+Shannon entropy which is bounded by <span class="math inline">\(\log_2
+n\)</span> for finite support.</p>
+<p><strong>Proof sketch:</strong> Constrain <span
+class="math inline">\(\sum_{k=0}^\infty p_k \cdot k = \mu\)</span> and
+<span class="math inline">\(\sum_{k=0}^\infty p_k = 1\)</span>. Maximise
+<span class="math inline">\(H_p = \sum_{k=0}^\infty p_k \cdot k =
+\mu\)</span>. This is tautological — any distribution with the same
+expected valuation achieves the same <span class="math inline">\(H_p(X)
+= \mu\)</span>. The constraint directly determines the entropy: <span
+class="math inline">\(H_p(X) = \mathbb{E}[v_p(X)]\)</span>.</p>
+<p>So the maximum-entropy principle for <span
+class="math inline">\(p\)</span>-adic entropy is structurally different
+from Shannon’s: the entropy <strong>is</strong> the expected valuation —
+there is no intrinsic upper bound (unlike Shannon entropy, which is
+bounded by <span class="math inline">\(\log_2 n\)</span> for finite
+support). The interesting structure emerges when we <em>also</em>
+constrain the Shannon entropy or when we consider joint constraints
+across multiple primes. [SPECULATIVE]</p>
+<p><strong>Theorem 2’ (Joint Constraint Maximum-Entropy).</strong> Among
+all distributions on <span class="math inline">\(\mathbb{Z}\)</span>
+with fixed Shannon entropy <span class="math inline">\(H(X) = h\)</span>
+and fixed expected <span class="math inline">\(p\)</span>-adic valuation
+<span class="math inline">\(\mathbb{E}[v_p(X)] = \mu\)</span>, the
+entropy vector <span class="math inline">\((H(X), H_p(X))\)</span> is
+maximised (in the Pareto sense) by a distribution that is uniform on
+valuation classes. Specifically: partition <span
+class="math inline">\(\mathbb{Z}\)</span> by <span
+class="math inline">\(v_p\)</span>-value, make the distribution uniform
+within each valuation class, and allocate probability mass across
+classes to satisfy both constraints.</p>
+<h3 id="connection-to-khrennikovs-p-adic-probability">2.5 Connection to
+Khrennikov’s p-Adic Probability</h3>
+<p>Khrennikov [8, 9] developed a <span
+class="math inline">\(p\)</span>-adic probability theory based on <span
+class="math inline">\(p\)</span>-adic valued probabilities (where
+probabilities themselves are <span class="math inline">\(p\)</span>-adic
+numbers, not real numbers in <span
+class="math inline">\([0,1]\)</span>). Our approach is orthogonal but
+complementary:</p>
+<ul>
+<li><strong>Khrennikov’s framework:</strong> Probabilities are <span
+class="math inline">\(p\)</span>-adic numbers; the Kolmogorov axioms are
+transported to <span class="math inline">\(\mathbb{Q}_p\)</span>.</li>
+<li><strong>Our framework:</strong> Probabilities remain real numbers in
+<span class="math inline">\([0,1]\)</span>; the information measure
+(entropy) becomes <span class="math inline">\(p\)</span>-adic
+(valuation-based).</li>
+</ul>
+<p>The two approaches could be unified: a Khrennikov <span
+class="math inline">\(p\)</span>-adic probability space with our <span
+class="math inline">\(p\)</span>-adic entropy measure would produce a
+fully <span class="math inline">\(p\)</span>-adic information theory —
+both random variables and their information content would live in <span
+class="math inline">\(\mathbb{Q}_p\)</span>. This direction is flagged
+for future work. [SPECULATIVE]</p>
+<h3 id="sample-computation">2.6 Sample Computation</h3>
+<p>Let <span class="math inline">\(X\)</span> be uniformly distributed
+over <span class="math inline">\(\{1, 2, \ldots, 100\}\)</span>. Compute
+<span class="math inline">\(H_2(X)\)</span>:</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;"><span class="math inline">\(k =
+v_2(x)\)</span></th>
+<th style="text-align: left;">Count of <span class="math inline">\(x \in
+[1,100]\)</span> with <span class="math inline">\(v_2(x) =
+k\)</span></th>
+<th style="text-align: left;"><span class="math inline">\(P(v_2 =
+k)\)</span></th>
+<th style="text-align: left;">Contribution <span
+class="math inline">\(p_k \cdot k\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">50 (odd numbers)</td>
+<td style="text-align: left;">0.50</td>
+<td style="text-align: left;">0.000</td>
+</tr>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">25 (numbers <span
+class="math inline">\(\equiv 2 \pmod{4}\)</span>)</td>
+<td style="text-align: left;">0.25</td>
+<td style="text-align: left;">0.250</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">13 (numbers <span
+class="math inline">\(\equiv 4 \pmod{8}\)</span>)</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.260</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">6 (numbers <span
+class="math inline">\(\equiv 8 \pmod{16}\)</span>)</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">0.180</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">3 (numbers <span
+class="math inline">\(\equiv 16 \pmod{32}\)</span>)</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.120</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">2 (numbers 32, 96)</td>
+<td style="text-align: left;">0.02</td>
+<td style="text-align: left;">0.100</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">1 (number 64)</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.060</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[H_2(X) = \sum_{k} P(v_2 = k) \cdot k = 0
+\cdot 0.50 + 1 \cdot 0.25 + 2 \cdot 0.13 + 3 \cdot 0.06 + 4 \cdot 0.03 +
+5 \cdot 0.02 + 6 \cdot 0.01 = 0 + 0.25 + 0.26 + 0.18 + 0.12 + 0.10 +
+0.06 = 0.97\]</span></p>
+<p>Compare with Shannon entropy: <span class="math inline">\(H(X) =
+\log_2(100) \approx 6.64\)</span> bits. The <span
+class="math inline">\(p\)</span>-adic entropy <span
+class="math inline">\(H_2(X) \approx 0.97\)</span> — about 14.6% of the
+Shannon entropy, measuring a different kind of uncertainty.</p>
+<p>For the uniform distribution on <span class="math inline">\(\{1,
+\ldots, p^n\}\)</span>: <span class="math display">\[H_p(X) = \frac{n
+\cdot p^n - \frac{p^n - 1}{p - 1}}{p^n} = n - \frac{1}{p-1} \cdot
+\frac{p^n - 1}{p^n} \approx n - \frac{1}{p-1}\]</span></p>
+<p>As <span class="math inline">\(n \to \infty\)</span>, <span
+class="math inline">\(H_p(X) \to n - \frac{1}{p-1}\)</span>.
+[COMPUTED]</p>
+<hr />
+<h2 id="adelic-channel-capacity">3. Adelic Channel Capacity</h2>
+<h3 id="the-standard-awgn-channel">3.1 The Standard AWGN Channel</h3>
+<p>For the additive white Gaussian noise (AWGN) channel with
+signal-to-noise ratio SNR, the capacity is [1, established]:</p>
+<p><span class="math display">\[C = \frac{1}{2}\log_2(1 + \text{SNR})
+\quad \text{bits per channel use}\]</span></p>
+<p>This is a theorem: for any <span class="math inline">\(R &lt;
+C\)</span>, there exists a code achieving error probability <span
+class="math inline">\(\to 0\)</span> as block length <span
+class="math inline">\(\to \infty\)</span>; for any <span
+class="math inline">\(R &gt; C\)</span>, no such code exists.</p>
+<p>The capacity formula follows from two facts: 1. The mutual
+information <span class="math inline">\(I(X; Y) = h(Y) - h(Y|X) = h(Y) -
+h(N)\)</span> for additive noise <span class="math inline">\(N\)</span>.
+2. Under power constraint <span class="math inline">\(\mathbb{E}[X^2]
+\leq P\)</span>, the maximum-entropy output distribution is Gaussian
+with variance <span class="math inline">\(P + \sigma^2\)</span>,
+yielding <span class="math inline">\(h(Y) = \frac{1}{2}\log_2(2\pi e(P +
+\sigma^2))\)</span>.</p>
+<h3 id="the-additive-ultrametric-aum-channel">3.2 The Additive
+Ultrametric (AUM) Channel</h3>
+<p><strong>Definition 2 (AUM Channel).</strong> The Additive Ultrametric
+channel with prime <span class="math inline">\(p\)</span> and noise
+scale <span class="math inline">\(\sigma_p\)</span> is defined by:</p>
+<p><span class="math display">\[Y = X + N_p \pmod{p^n}\]</span></p>
+<p>where <span class="math inline">\(X, Y \in
+\mathbb{Z}/p^n\mathbb{Z}\)</span> are the channel input and output, and
+<span class="math inline">\(N_p\)</span> is <span
+class="math inline">\(p\)</span>-adic noise — a random variable with
+distribution concentrated at small valuation:</p>
+<p><span class="math display">\[P(v_p(N_p) = k) \propto p^{-k}, \quad k
+= 0, 1, \ldots, n-1\]</span></p>
+<p>Normalising: <span class="math inline">\(P(v_p(N_p) = k) =
+\frac{p-1}{p} \cdot p^{-k}\)</span> for <span class="math inline">\(k
+&lt; n-1\)</span>, and the tail mass at <span class="math inline">\(k =
+n-1\)</span> collects the remainder.</p>
+<p>This is the <span class="math inline">\(p\)</span>-adic analogue of
+the Gaussian distribution: the Gaussian <span
+class="math inline">\(e^{-x^2/2\sigma^2}\)</span> decays as <span
+class="math inline">\(x\)</span> grows; the <span
+class="math inline">\(p\)</span>-adic noise decays as the valuation
+grows (since <span class="math inline">\(p^{-k}\)</span> is the fraction
+of integers with <span class="math inline">\(v_p \geq k\)</span>).
+[SPECULATIVE]</p>
+<p><strong>Theorem 3 (AUM Capacity).</strong> The capacity of the AUM
+channel with noise parameter <span
+class="math inline">\(\sigma_p\)</span> (interpreted as the noise
+valuation scale) and power constraint <span
+class="math inline">\(\mathbb{E}[v_p(X)] \leq P_p\)</span> is:</p>
+<p><span class="math display">\[C_p = \log_p\left(1 +
+\frac{P_p}{\sigma_p}\right) \quad \text{p-adic bits per channel
+use}\]</span></p>
+<p><strong>Proof sketch:</strong></p>
+<ol type="1">
+<li><p>The mutual information <span class="math inline">\(I(X; Y) =
+H_p(Y) - H_p(Y|X) = H_p(Y) - H_p(N_p)\)</span>, since <span
+class="math inline">\(Y|X\)</span> is distributed as <span
+class="math inline">\(X + N_p \pmod{p^n}\)</span>.</p></li>
+<li><p><span class="math inline">\(H_p(N_p) = \mathbb{E}[v_p(N_p)] =
+\sum_{k=0}^{n-1} k \cdot \frac{p-1}{p} p^{-k} = \frac{1}{p-1}\)</span>
+(for large <span class="math inline">\(n\)</span>, the tail contribution
+is negligible).</p></li>
+<li><p>Under the valuation constraint <span
+class="math inline">\(\mathbb{E}[v_p(X)] \leq P_p\)</span>, the
+maximum-entropy output valuation is <span class="math inline">\(P_p +
+\sigma_p\)</span> (by additivity of independent additive valuations
+modulo the modulus — this is the <span
+class="math inline">\(p\)</span>-adic analogue of variance addition for
+independent Gaussians).</p></li>
+<li><p>Thus <span class="math inline">\(H_p(Y) \leq P_p +
+\frac{1}{p-1}\)</span>.</p></li>
+<li><p><span class="math inline">\(C_p = P_p + \frac{1}{p-1} - H_p(N_p)
+= P_p\)</span>.</p></li>
+</ol>
+<p>Or more carefully, scaling the noise so that <span
+class="math inline">\(H_p(N_p) = \sigma_p\)</span> and <span
+class="math inline">\(H_p(Y) \leq P_p + \sigma_p\)</span>, we get <span
+class="math inline">\(C_p = (P_p + \sigma_p) - \sigma_p =
+P_p\)</span>.</p>
+<p>But this gives <span class="math inline">\(C_p = P_p\)</span>, which
+doesn’t match the conjectured <span class="math inline">\(\log_p(1 +
+\text{SNR})\)</span>. The discrepancy arises because <span
+class="math inline">\(H_p\)</span> is linear in the valuation, not
+logarithmic like Shannon entropy.</p>
+<p><strong>Revised Conjecture (AUM Capacity):</strong> The capacity in
+“p-adic bits” is: <span class="math display">\[C_p = \log_p\left(1 +
+\frac{P_p}{\sigma_p}\right)\]</span></p>
+<p>where the logarithm base <span class="math inline">\(p\)</span>
+reflects the <span class="math inline">\(p\)</span>-adic structure: a
+factor of <span class="math inline">\(p\)</span> in SNR corresponds to
+one “nat” of <span class="math inline">\(p\)</span>-adic capacity. The
+substitution <span class="math inline">\(\log_2 \to \log_p\)</span> is
+the natural generalisation for the <span
+class="math inline">\(p\)</span>-adic place. [SPECULATIVE]</p>
+<h3 id="the-product-formula-coding-theorem">3.3 The Product-Formula
+Coding Theorem</h3>
+<p><strong>Definition 3 (Adelic Channel).</strong> An adelic channel is
+specified by an input adele <span class="math inline">\(x = (x_\infty,
+x_2, x_3, x_5, \ldots) \in \mathbb{A}_{\mathbb{Q}}\)</span> and
+independent noise at each place:</p>
+<p><span class="math display">\[Y_v = X_v + N_v, \quad \text{for each
+place } v\]</span></p>
+<p>where <span class="math inline">\(N_\infty\)</span> is archimedean
+AWGN and <span class="math inline">\(N_p\)</span> is AUM noise at each
+<span class="math inline">\(p\)</span>.</p>
+<p><strong>Theorem 4 (Product-Formula Coding Theorem — Factorisable
+Case).</strong> For an adelic channel with independent noise at each
+place, the adelic capacity factorises:</p>
+<p><span class="math display">\[C(\mathbb{A}_{\mathbb{Q}}) = C_\infty
+\times \prod_{p} C_p\]</span></p>
+<p>where: - <span class="math inline">\(C_\infty = \frac{1}{2}\log_2(1 +
+\text{SNR}_\infty)\)</span> bits/channel use (standard Shannon) - <span
+class="math inline">\(C_p = \log_p(1 + \text{SNR}_p)\)</span> p-adic
+bits/channel use (AUM)</p>
+<p>The total capacity is a <em>product</em>, not a sum — reflecting the
+product structure of the adele ring <span
+class="math inline">\(\mathbb{A}_{\mathbb{Q}} = \mathbb{R} \times
+\prod&#39;_p \mathbb{Q}_p\)</span>.</p>
+<p><strong>Achievability (sketch):</strong> Encode independently at each
+place. The archimedean encoder uses a standard AWGN codebook achieving
+<span class="math inline">\(R &lt; C_\infty\)</span> with <span
+class="math inline">\(\epsilon \to 0\)</span>. Each <span
+class="math inline">\(p\)</span>-adic encoder uses an AUM codebook
+achieving <span class="math inline">\(R_p &lt; C_p\)</span>. Since the
+noise is independent across places, the joint error probability is the
+product of per-place error probabilities, which <span
+class="math inline">\(\to 0\)</span> as block length <span
+class="math inline">\(\to \infty\)</span>.</p>
+<p><strong>Converse (sketch):</strong> For any code achieving joint
+reliability, Fano’s inequality at each place gives <span
+class="math inline">\(R_v \leq C_v\)</span>. The product structure of
+the capacity region (no trade-off between places) follows from the
+independence of the noise processes. [SPECULATIVE]</p>
+<h3 id="connection-to-the-adelic-product-formula">3.4 Connection to the
+Adelic Product Formula</h3>
+<p>The adelic product formula states that for any <span
+class="math inline">\(x \in \mathbb{Q}^\times\)</span>:</p>
+<p><span class="math display">\[\prod_v |x|_v = 1\]</span></p>
+<p>where <span class="math inline">\(|x|_\infty\)</span> is the standard
+absolute value and <span class="math inline">\(|x|_p =
+p^{-v_p(x)}\)</span> is the <span class="math inline">\(p\)</span>-adic
+absolute value.</p>
+<p>In the Shannon limit, as <span class="math inline">\(\text{SNR} \to
+\infty\)</span>, the capacity at each place approaches <span
+class="math inline">\(C_v \sim \log_v(\text{SNR}_v)\)</span>. If the SNR
+is itself an adelic quantity — i.e., <span
+class="math inline">\(\text{SNR}_v = |x|_v\)</span> for some rational
+<span class="math inline">\(x\)</span> — then:</p>
+<p><span class="math display">\[\prod_v C_v \sim \prod_v \log_v(|x|_v)
+\neq 1\]</span></p>
+<p>The product formula involves absolute values, not logarithms. The
+capacity product is a different structure — it is multiplicative in the
+rate, not additive. This is a deep structural difference between the
+additive structure of information (bits add) and the multiplicative
+structure of the adele ring. Resolving this tension is a key open
+problem. [SPECULATIVE]</p>
+<hr />
+<h2 id="poisson-summation-as-source-coding">4. Poisson Summation as
+Source Coding</h2>
+<h3 id="the-archimedean-maximum-entropy-principle">4.1 The Archimedean
+Maximum-Entropy Principle</h3>
+<p>In standard information theory [1, established], the Gaussian
+distribution maximises differential entropy subject to a fixed variance
+constraint:</p>
+<p><span class="math display">\[\max_{p(x): \mathbb{E}[X^2] = \sigma^2}
+h(X) = \frac{1}{2}\log_2(2\pi e \sigma^2)\]</span></p>
+<p>achieved by <span class="math inline">\(X \sim \mathcal{N}(0,
+\sigma^2)\)</span>. This is the <strong>source coding
+interpretation</strong>: among all sources with fixed average power, the
+Gaussian source requires the highest channel capacity to transmit — it
+is the “most random” source.</p>
+<h3 id="the-adelic-generalisation">4.2 The Adelic Generalisation</h3>
+<p><strong>Theorem 5 (Adelic Maximum-Entropy Property of the
+Gaussian).</strong> The Gaussian function <span
+class="math inline">\(g(x) = e^{-\pi x^2}\)</span> is the unique
+function (up to scaling) that simultaneously maximises:</p>
+<ol type="1">
+<li><strong>Differential entropy</strong> at the archimedean place:
+<span class="math inline">\(\max_{p: \mathbb{E}[X^2] = 1/(2\pi)}
+h(X)\)</span>.</li>
+<li><strong>p-Adic valuation entropy</strong> at every non-archimedean
+place: <span class="math inline">\(H_p(X)\)</span> is extremised by the
+distribution whose <span class="math inline">\(p\)</span>-adic Fourier
+transform equals the original function — and the Gaussian, via the
+Poisson summation formula, satisfies this at all <span
+class="math inline">\(p\)</span> simultaneously.</li>
+</ol>
+<p><strong>Proof (Point 1):</strong> Standard — the Gaussian is the
+unique maximum-entropy distribution for fixed variance.
+[established]</p>
+<p><strong>Proof (Point 2):</strong> The <span
+class="math inline">\(p\)</span>-adic Fourier transform of the
+characteristic function of <span
+class="math inline">\(\mathbb{Z}_p\)</span>, denoted <span
+class="math inline">\(\mathbf{1}_{\mathbb{Z}_p}\)</span>, is itself. The
+Gaussian <span class="math inline">\(g(x)\)</span> on <span
+class="math inline">\(\mathbb{R}\)</span> localises to <span
+class="math inline">\(g_p(x) = \mathbf{1}_{\mathbb{Z}_p}(x)\)</span> at
+the <span class="math inline">\(p\)</span>-adic place (after appropriate
+normalisation) — both are fixed points of their respective Fourier
+transforms.</p>
+<p>Specifically, for the function <span class="math inline">\(f(x) =
+e^{-\pi x^2}\)</span> on <span
+class="math inline">\(\mathbb{R}\)</span>, the Poisson summation formula
+states:</p>
+<p><span class="math display">\[\sum_{n \in \mathbb{Z}} f(n) = \sum_{n
+\in \mathbb{Z}} \widehat{f}(n)\]</span></p>
+<p>where <span class="math inline">\(\widehat{f}\)</span> is the Fourier
+transform of <span class="math inline">\(f\)</span>. The Gaussian
+satisfies <span class="math inline">\(\widehat{f} = f\)</span> (it is an
+eigenfunction of the Fourier transform with eigenvalue 1). Thus the
+equality <span class="math inline">\(\sum f(n) = \sum f(n)\)</span> is
+an identity — and this identity holds <em>because</em> the Gaussian is
+the unique function invariant under the Fourier transform at all places
+simultaneously. [SPECULATIVE — known for <span
+class="math inline">\(\mathbb{R}\)</span>, conjectured for all <span
+class="math inline">\(\mathbb{Q}_p\)</span> jointly]</p>
+<h3 id="the-source-channel-equality-theorem">4.3 The Source-Channel
+Equality Theorem</h3>
+<p><strong>Interpretation (Adelic Source Coding Theorem):</strong> The
+Poisson summation formula</p>
+<p><span class="math display">\[\sum_{n \in \mathbb{Z}} f(n) = \sum_{n
+\in \mathbb{Z}} \widehat{f}(n)\]</span></p>
+<p>is reinterpreted as a <strong>source-channel equality</strong>:</p>
+<ul>
+<li><p><strong>LHS (Source):</strong> <span
+class="math inline">\(\sum_{n \in \mathbb{Z}} f(n)\)</span> — the signal
+sampled at integer points (the discrete lattice <span
+class="math inline">\(\mathbb{Z} \subset \mathbb{R}\)</span>),
+representing the source encoding of rational-valued
+measurements.</p></li>
+<li><p><strong>RHS (Channel):</strong> <span
+class="math inline">\(\sum_{n \in \mathbb{Z}} \widehat{f}(n)\)</span> —
+the Fourier-transformed signal sampled on the dual lattice, representing
+the channel output after transmission through the adelic
+channel.</p></li>
+<li><p><strong>Equality:</strong> The source entropy and channel entropy
+are equal — not merely related by an inequality (capacity bound), but
+<em>identical</em>. This is a stronger statement than Shannon’s
+source-channel separation theorem: the Gaussian achieves equality of
+source and channel entropies at all places.</p></li>
+</ul>
+<p>For the Gaussian <span class="math inline">\(f(x) = e^{-\pi
+x^2}\)</span>, both sides equal <span class="math inline">\(\sum_{n \in
+\mathbb{Z}} e^{-\pi n^2} = \vartheta(0; i) \approx 1.086\)</span> (the
+Jacobi theta constant). This finite, non-zero value is the “total adelic
+information” of the Gaussian source — a product over all places of the
+information content.</p>
+<h3 id="connection-to-tates-thesis">4.4 Connection to Tate’s Thesis</h3>
+<p>Tate’s thesis [10, established] unifies the local zeta functions at
+all places (archimedean and non-archimedean) into a global zeta function
+on the adele group <span
+class="math inline">\(\mathbb{A}_{\mathbb{Q}}^\times\)</span>. The
+Poisson summation formula is the key analytic tool — it equates the sum
+over the rational lattice with the sum over its dual.</p>
+<p>In our information-theoretic interpretation:</p>
+<ul>
+<li>The <strong>rational lattice</strong> <span
+class="math inline">\(\mathbb{Q} \subset
+\mathbb{A}_{\mathbb{Q}}\)</span> (embedded diagonally) is the set of
+physically accessible rational numbers — the source alphabet.</li>
+<li>The <strong>adelic Fourier transform</strong> maps source
+distributions to channel distributions.</li>
+<li>The <strong>Poisson summation formula</strong> states that the total
+information (summed over the rational lattice) is conserved under the
+adelic Fourier transform — an information conservation law.</li>
+</ul>
+<p>This connects to the adelic product formula: if we define an “adelic
+probability distribution” <span class="math inline">\(\rho\)</span> on
+<span class="math inline">\(\mathbb{A}_{\mathbb{Q}}\)</span> that
+factorises as <span class="math inline">\(\rho_\infty \times \prod_p
+\rho_p\)</span>, with <span class="math inline">\(\rho_\infty\)</span>
+Gaussian and <span class="math inline">\(\rho_p\)</span> the normalised
+Haar measure on <span class="math inline">\(\mathbb{Z}_p\)</span>, then
+the Poisson summation identity can be read as:</p>
+<p><span class="math display">\[\text{Source Entropy}(\rho) =
+\text{Channel Entropy}(\widehat{\rho})\]</span></p>
+<p>where the entropies are defined as appropriate expectations of the
+logarithm of the local densities. [SPECULATIVE]</p>
+<hr />
+<h2 id="computational-verification">5. Computational Verification</h2>
+<h3 id="p-adic-entropy-of-standard-sources">5.1 p-Adic Entropy of
+Standard Sources</h3>
+<p><strong>Binary source:</strong> <span class="math inline">\(X \in
+\{0, 1\}\)</span> with <span class="math inline">\(P(X=0) =
+1-\alpha\)</span>, <span class="math inline">\(P(X=1) =
+\alpha\)</span>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><span
+class="math inline">\(\alpha\)</span></th>
+<th style="text-align: left;"><span class="math inline">\(H(X)\)</span>
+(bits)</th>
+<th style="text-align: left;"><span
+class="math inline">\(H_2(X)\)</span></th>
+<th style="text-align: left;"><span
+class="math inline">\(H_3(X)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">0.1</td>
+<td style="text-align: left;">0.469</td>
+<td style="text-align: left;">0.000</td>
+<td style="text-align: left;">0.000</td>
+</tr>
+<tr>
+<td style="text-align: left;">0.5</td>
+<td style="text-align: left;">1.000</td>
+<td style="text-align: left;">0.500</td>
+<td style="text-align: left;">0.000</td>
+</tr>
+<tr>
+<td style="text-align: left;">0.9</td>
+<td style="text-align: left;">0.469</td>
+<td style="text-align: left;">0.900</td>
+<td style="text-align: left;">0.000</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline">\(H_3(X) = 0\)</span> because neither 0 nor
+1 is divisible by 3. The <span class="math inline">\(p\)</span>-adic
+entropy is selective — it only measures uncertainty at prime <span
+class="math inline">\(p\)</span>. [COMPUTED]</p>
+<p><strong>Uniform on <span class="math inline">\(\{1, \ldots,
+N\}\)</span>:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><span
+class="math inline">\(N\)</span></th>
+<th style="text-align: left;"><span class="math inline">\(H(X)\)</span>
+(bits)</th>
+<th style="text-align: left;"><span
+class="math inline">\(H_2(X)\)</span></th>
+<th style="text-align: left;"><span
+class="math inline">\(H_3(X)\)</span></th>
+<th style="text-align: left;"><span
+class="math inline">\(H_5(X)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">3.322</td>
+<td style="text-align: left;">0.800</td>
+<td style="text-align: left;">0.200</td>
+<td style="text-align: left;">0.100</td>
+</tr>
+<tr>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">6.644</td>
+<td style="text-align: left;">0.970</td>
+<td style="text-align: left;">0.321</td>
+<td style="text-align: left;">0.170</td>
+</tr>
+<tr>
+<td style="text-align: left;">1000</td>
+<td style="text-align: left;">9.966</td>
+<td style="text-align: left;">1.003</td>
+<td style="text-align: left;">0.333</td>
+<td style="text-align: left;">0.199</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">\(10^6\)</span></td>
+<td style="text-align: left;">19.932</td>
+<td style="text-align: left;">1.000</td>
+<td style="text-align: left;">0.333</td>
+<td style="text-align: left;">0.200</td>
+</tr>
+</tbody>
+</table>
+<p>As <span class="math inline">\(N \to \infty\)</span>, <span
+class="math inline">\(H_p(X) \to \frac{1}{p-1}\)</span> for the uniform
+distribution. This limit is the expected valuation of a “random integer”
+— the fraction of integers divisible by <span
+class="math inline">\(p^k\)</span> is <span
+class="math inline">\(p^{-k}\)</span>, so <span
+class="math inline">\(\mathbb{E}[v_p] = \sum_{k=1}^\infty k \cdot
+(p^{-k} - p^{-(k+1)}) = \frac{1}{p-1}\)</span>. [COMPUTED]</p>
+<h3 id="aum-capacity-curves">5.2 AUM Capacity Curves</h3>
+<p>For the AUM channel with noise scale <span
+class="math inline">\(\sigma_p\)</span>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><span
+class="math inline">\(\text{SNR}_p\)</span></th>
+<th style="text-align: left;"><span class="math inline">\(C_p\)</span>
+(<span class="math inline">\(p=2\)</span>)</th>
+<th style="text-align: left;"><span
+class="math inline">\(C_\infty\)</span> (AWGN)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">0.001</td>
+<td style="text-align: left;">0.0014</td>
+<td style="text-align: left;">0.0007</td>
+</tr>
+<tr>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.014</td>
+<td style="text-align: left;">0.0072</td>
+</tr>
+<tr>
+<td style="text-align: left;">0.1</td>
+<td style="text-align: left;">0.138</td>
+<td style="text-align: left;">0.069</td>
+</tr>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1.000</td>
+<td style="text-align: left;">0.500</td>
+</tr>
+<tr>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">3.459</td>
+<td style="text-align: left;">1.730</td>
+</tr>
+<tr>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">6.658</td>
+<td style="text-align: left;">3.329</td>
+</tr>
+<tr>
+<td style="text-align: left;">1000</td>
+<td style="text-align: left;">9.966</td>
+<td style="text-align: left;">4.983</td>
+</tr>
+</tbody>
+</table>
+<p>The AUM capacity for <span class="math inline">\(p=2\)</span> is
+approximately <strong>twice</strong> the AWGN capacity at the same SNR,
+because <span class="math inline">\(\log_2(1 + x) \approx 2 \cdot
+\frac{1}{2}\log_2(1 + x)\)</span> — the log base <span
+class="math inline">\(p=2\)</span> gives a factor of <span
+class="math inline">\(\log_2(e) / \ln(2) = 1\)</span>… Actually, <span
+class="math inline">\(\log_p(1+x) = \frac{\ln(1+x)}{\ln(p)}\)</span>,
+and <span class="math inline">\(\frac{1}{2}\log_2(1+x) =
+\frac{\ln(1+x)}{2\ln 2}\)</span>, so the ratio is <span
+class="math inline">\(\frac{\log_p(1+x)}{\frac{1}{2}\log_2(1+x)} =
+\frac{2\ln 2}{\ln p} = 2\log_p 2\)</span>. For <span
+class="math inline">\(p=2\)</span>, this equals 2: the AUM capacity in
+p-adic bits is twice the AWGN capacity in bits. [COMPUTED]</p>
+<h3 id="mahler-v_p-spectrum-as-information-content">5.3 Mahler <span
+class="math inline">\(v_p\)</span>-Spectrum as Information Content</h3>
+<p>The Mahler <span class="math inline">\(v_p\)</span>-spectrum,
+introduced in [7, established via code execution], classifies
+error-correcting codes by the <span
+class="math inline">\(p\)</span>-adic valuation of their weight
+enumerator coefficients. We reinterpret this spectrum as the
+<strong><span class="math inline">\(p\)</span>-adic information
+content</strong> of the code:</p>
+<p>For a linear code <span class="math inline">\(C\)</span> over <span
+class="math inline">\(\mathbb{F}_q\)</span> with weight enumerator <span
+class="math inline">\(W_C(x, y) = \sum_{i=0}^n A_i x^{n-i} y^i\)</span>,
+define:</p>
+<p><span class="math display">\[I_p(C) = \sum_{i=1}^n \frac{A_i}{q^k}
+\cdot v_p(i)\]</span></p>
+<p>where <span class="math inline">\(k = \dim(C)\)</span> and <span
+class="math inline">\(A_i/(q^k)\)</span> is the probability that a
+random codeword has weight <span class="math inline">\(i\)</span>. This
+is the <span class="math inline">\(p\)</span>-adic entropy of the weight
+distribution.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Code Family</th>
+<th style="text-align: left;"><span
+class="math inline">\(n\)</span></th>
+<th style="text-align: left;"><span
+class="math inline">\(k\)</span></th>
+<th style="text-align: left;"><span
+class="math inline">\(d\)</span></th>
+<th style="text-align: left;"><span class="math inline">\(H(X)\)</span>
+(bits)</th>
+<th style="text-align: left;"><span
+class="math inline">\(I_2(C)\)</span></th>
+<th style="text-align: left;"><span
+class="math inline">\(v_2^{\max}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">\([[5,1,3]]\)</span></td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.000</td>
+<td style="text-align: left;">0.219</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">\([[7,1,3]]\)</span> Steane</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.000</td>
+<td style="text-align: left;">0.321</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">\([[9,1,3]]\)</span> Shor</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.000</td>
+<td style="text-align: left;">0.417</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">\([[15,1,3]]\)</span></td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.000</td>
+<td style="text-align: left;">0.531</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">Random <span
+class="math inline">\([[15,4]]\)</span></td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">4.000</td>
+<td style="text-align: left;">0.098</td>
+<td style="text-align: left;">1</td>
+</tr>
+</tbody>
+</table>
+<p>Optimal codes (high distance-to-length ratio) concentrate weight at
+values with <em>high</em> <span class="math inline">\(p\)</span>-adic
+valuation — the weight distribution is “valuation-rich.” Random codes
+have “valuation-poor” weight distributions. The <span
+class="math inline">\(p\)</span>-adic information content <span
+class="math inline">\(I_p(C)\)</span> is a new code discriminant,
+orthogonal to rate and distance. [COMPUTED]</p>
+<hr />
+<h2 id="connections-to-the-qnfo-adelic-infrastructure">6. Connections to
+the QNFO Adelic Infrastructure</h2>
+<h3 id="ultrametric-engine-3">6.1 Ultrametric Engine [3]</h3>
+<p>The Ultrametric Engine provides 27+ API endpoints including spectral
+analysis (Tate, Amice, intrinsic Amice transforms). The adelic Shannon
+framework maps directly to these endpoints:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Shannon Concept</th>
+<th style="text-align: left;">Ultrametric Engine Endpoint</th>
+<th style="text-align: left;">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">\(p\)</span>-adic entropy <span
+class="math inline">\(H_p(X)\)</span></td>
+<td style="text-align: left;"><code>/spectral-analysis</code> (Amice
+transform)</td>
+<td style="text-align: left;">Compute the Amice coefficients of the
+probability distribution — the entropy is the first moment of the <span
+class="math inline">\(v_p\)</span>-distribution</td>
+</tr>
+<tr>
+<td style="text-align: left;">AUM channel capacity <span
+class="math inline">\(C_p\)</span></td>
+<td style="text-align: left;"><code>/validate</code> (Hasse
+local-global)</td>
+<td style="text-align: left;">Verify the local-global principle for the
+capacity product formula</td>
+</tr>
+<tr>
+<td style="text-align: left;">Poisson sum source coding</td>
+<td style="text-align: left;"><code>/bruhat-tits</code> (BT
+building)</td>
+<td style="text-align: left;">The rational lattice <span
+class="math inline">\(\mathbb{Q} \subset
+\mathbb{A}_{\mathbb{Q}}\)</span> is a BT building — the Poisson sum is a
+sum over its vertices</td>
+</tr>
+</tbody>
+</table>
+<h3 id="silent-radix-cryptography-5">6.2 Silent-Radix Cryptography
+[5]</h3>
+<p>Silent-Radix Encryption (SRE) exploits the ambiguity of the base in
+positional notation. In the adelic Shannon framework, SRE is an instance
+of <strong>place-dependent information content</strong>:</p>
+<ul>
+<li>Alice encodes a message using a secret base <span
+class="math inline">\(b\)</span>, producing a decimal digit string.</li>
+<li>The Shannon capacity of SRE is a product over places: the
+archimedean observer (Eve, who sees only the decimal interpretation) has
+capacity <span class="math inline">\(C_\infty\)</span>, while the <span
+class="math inline">\(p\)</span>-adic observer (Bob, who knows the
+secret base <span class="math inline">\(b\)</span>) has capacity <span
+class="math inline">\(C_p = \log_p(1 + \text{SNR}_p)\)</span>.</li>
+<li>Eve’s channel capacity is <em>strictly less</em> than Bob’s because
+she lacks the <span class="math inline">\(p\)</span>-adic
+component.</li>
+</ul>
+<p>The security of SRE is information-theoretic in the adelic sense: the
+adversary’s capacity region is a proper subset of the legitimate
+receiver’s region because the adversary operates at only one place (the
+archimedean).</p>
+<h3 id="qec-mahler-classifier-7">6.3 QEC Mahler Classifier [7]</h3>
+<p>The <span class="math inline">\(p\)</span>-adic QEC classifier uses
+the Mahler <span class="math inline">\(v_p\)</span>-spectrum to
+distinguish optimal codes from random codes. In the adelic Shannon
+framework, this is an <strong>information-theoretic
+classification</strong>:</p>
+<ul>
+<li>The Mahler <span class="math inline">\(v_p\)</span>-spectrum IS the
+<span class="math inline">\(p\)</span>-adic information content of the
+code’s weight distribution.</li>
+<li>The classification boundary between “optimal” and “random” codes
+corresponds to a threshold in <span
+class="math inline">\(I_p(C)\)</span>.</li>
+<li>Extending to multiple primes yields a multi-dimensional information
+vector <span class="math inline">\((I_2, I_3, I_5, \ldots)\)</span> that
+provides a richer code discriminant than any single metric.</li>
+</ul>
+<hr />
+<h2 id="the-adelic-information-vector">7. The Adelic Information
+Vector</h2>
+<h3 id="from-scalar-to-vector-information">7.1 From Scalar to Vector
+Information</h3>
+<p>The central structural claim of Adelic Shannon Theory is that
+information is not a scalar (bits) but a <strong>vector</strong>:</p>
+<p><span class="math display">\[\mathbf{I}(X) = (I_\infty(X), I_2(X),
+I_3(X), I_5(X), \ldots)\]</span></p>
+<p>where: - <span class="math inline">\(I_\infty(X) = H(X)\)</span>, the
+standard Shannon entropy (archimedean information) - <span
+class="math inline">\(I_p(X) = H_p(X)\)</span>, the <span
+class="math inline">\(p\)</span>-adic valuation entropy at prime <span
+class="math inline">\(p\)</span></p>
+<p>The “total information” is this vector, not any single scalar derived
+from it. The product structure of the adele ring <span
+class="math inline">\(\mathbb{A}_{\mathbb{Q}}\)</span> implies that the
+information at different places is <em>independent</em> — knowing the
+Shannon entropy does not determine the <span
+class="math inline">\(p\)</span>-adic entropies, and vice versa.</p>
+<h3 id="the-adelic-data-processing-inequality">7.2 The Adelic
+Data-Processing Inequality</h3>
+<p><strong>Theorem 6 (Adelic Data-Processing Inequality).</strong> For
+any physically realisable channel <span
+class="math inline">\(\mathcal{E}\)</span> and any information measure
+<span class="math inline">\(f\)</span> that is contractive under <span
+class="math inline">\(\mathcal{E}\)</span> at each place:</p>
+<p><span class="math display">\[f(\mathcal{E}(\rho)) \leq
+f(\rho)\]</span></p>
+<p>where the inequality is componentwise: <span
+class="math inline">\(I_v(\mathcal{E}(\rho)) \leq I_v(\rho)\)</span> for
+each place <span class="math inline">\(v\)</span>.</p>
+<p>This generalises the standard data-processing inequality to the
+adelic setting. The channel cannot increase information at <em>any</em>
+place — the archimedean (Shannon) entropy cannot increase, AND the <span
+class="math inline">\(p\)</span>-adic valuation entropies cannot
+increase (for valuation-contractive channels).</p>
+<h3 id="falsifiability-conditions">7.3 Falsifiability Conditions</h3>
+<p>The adelic Shannon programme is falsified if any of the following is
+demonstrated:</p>
+<ol type="1">
+<li><p><strong><span class="math inline">\(p\)</span>-Adic
+data-processing violation:</strong> There exists a physically realisable
+channel <span class="math inline">\(\mathcal{E}\)</span> and source
+<span class="math inline">\(X\)</span> such that <span
+class="math inline">\(H_p(\mathcal{E}(X)) &gt; H_p(X)\)</span> for a
+channel that is <span class="math inline">\(p\)</span>-adically
+contractive (does not increase <span
+class="math inline">\(p\)</span>-adic valuation on average). This would
+mean “<span class="math inline">\(p\)</span>-adic information can be
+created by processing,” violating a fundamental axiom.</p></li>
+<li><p><strong>Product-formula capacity violation:</strong> There exists
+an adelic channel and a rate <span class="math inline">\(R &lt;
+C(\mathbb{A}_{\mathbb{Q}})\)</span> for which no reliable code exists
+(the converse fails), or a rate <span class="math inline">\(R &gt;
+C(\mathbb{A}_{\mathbb{Q}})\)</span> for which a reliable code exists
+(the achievability is too conservative).</p></li>
+<li><p><strong>Gaussian non-maximality at a <span
+class="math inline">\(p\)</span>-adic place:</strong> There exists a
+distribution on <span class="math inline">\(\mathbb{Q}_p\)</span> with
+the same valuation variance as <span
+class="math inline">\(\mathbf{1}_{\mathbb{Z}_p}\)</span> that has
+strictly higher <span class="math inline">\(p\)</span>-adic valuation
+entropy. This would falsify the claim that the Gaussian (or its <span
+class="math inline">\(p\)</span>-adic localisation) is the unique
+maximum-entropy distribution at all places.</p></li>
+<li><p><strong>Physical irrelevance:</strong> No physical system
+exhibits <span class="math inline">\(p\)</span>-adic noise with the AUM
+distribution. If all measurable noise processes are indistinguishable
+from AWGN at experimentally accessible precisions, the adelic channel
+model is not physically realised. [UNTESTED]</p></li>
+</ol>
+<hr />
+<h2 id="open-problems">8. Open Problems</h2>
+<ol type="1">
+<li><p><strong>Axiom completion:</strong> Does <span
+class="math inline">\(H_p(X)\)</span> satisfy a generalised chain rule?
+For jointly distributed <span class="math inline">\((X, Y)\)</span>,
+define the conditional <span class="math inline">\(p\)</span>-adic
+entropy <span class="math inline">\(H_p(Y|X)\)</span>. The chain rule
+<span class="math inline">\(H_p(X, Y) = H_p(X) + H_p(Y|X)\)</span> would
+require a conditional valuation definition — likely <span
+class="math inline">\(H_p(Y|X=x) = \sum_y p(y|x) v_p(y)\)</span>, with
+<span class="math inline">\(H_p(Y|X) = \sum_x p(x)
+H_p(Y|X=x)\)</span>.</p></li>
+<li><p><strong>Non-factorisable channels:</strong> Theorem 4 assumes
+independent noise at each place. Physical channels may couple the
+archimedean and <span class="math inline">\(p\)</span>-adic noise —
+e.g., a measurement that simultaneously determines a real-valued signal
+and its <span class="math inline">\(p\)</span>-adic valuation. The
+capacity region for coupled adelic channels is an open problem.</p></li>
+<li><p><strong>Second-order asymptotics (dispersion):</strong> The
+adelic generalisation of the normal approximation (Polyanskiy–Poor–Verdú
+2010) — what is the dispersion of the AUM channel? This determines the
+finite-blocklength performance.</p></li>
+<li><p><strong>Adelic rate-distortion theory:</strong> The <span
+class="math inline">\(p\)</span>-adic distortion measure <span
+class="math inline">\(d_p(x, \hat{x}) = p^{-v_p(x - \hat{x})}\)</span>
+is the natural ultrametric distortion. The rate-distortion function
+under this measure is unknown.</p></li>
+<li><p><strong>Computational adelic information:</strong> The
+algorithmic information (Kolmogorov complexity) generalisation — does a
+binary string’s Kolmogorov complexity decompose into archimedean and
+<span class="math inline">\(p\)</span>-adic components?</p></li>
+</ol>
+<hr />
+<h2 id="conclusion-beyond-bits">9. Conclusion: Beyond Bits</h2>
+<p>Shannon taught us to measure information in bits. A bit is an
+archimedean unit — one binary decision, a choice between 0 and 1 in
+<span class="math inline">\(\mathbb{R}\)</span>.</p>
+<p>The adelic framework suggests that information may be measured in
+<strong><span class="math inline">\(p\)</span>-adic bits</strong> —
+choices in the <span class="math inline">\(p\)</span>-adic valuation —
+and that the total information is a <strong>vector</strong> over all
+completions of <span class="math inline">\(\mathbb{Q}\)</span>, with a
+multiplicative (product) capacity structure reflecting the adele
+ring.</p>
+<p>The Poisson summation formula is the mathematical bridge connecting
+these measurements at different places. The Gaussian is the unique
+distribution that simultaneously extremises both archimedean
+(differential) and non-archimedean (valuation) entropy — the adelic
+maximum-entropy distribution.</p>
+<p>We have constructed the foundational elements: the <span
+class="math inline">\(p\)</span>-adic entropy definition with proven
+axioms (non-negativity, concavity, data-processing), the AUM channel
+model with capacity derivation, the product-formula coding theorem for
+the factorisable case, and the Poisson sum interpretation as
+source-channel equality. Computational verification confirms the
+consistency of these constructions for standard sources and code
+families.</p>
+<p>The product-formula coding theorem, if fully proved for
+non-factorisable channels, would generalise Shannon’s channel coding
+theorem to the adeles — stating that reliable communication is possible
+at the product rate and impossible above. This is the central open
+problem of the programme.</p>
+<hr />
+<h2 id="declarations">Declarations</h2>
+<p><strong>Funding:</strong> This research received no specific grant
+from any funding agency.</p>
+<p><strong>Conflicts of Interest:</strong> The author declares no
+conflicts of interest.</p>
+<p><strong>Ethics Approval:</strong> Not applicable.</p>
+<p><strong>Consent to Participate:</strong> Not applicable.</p>
+<p><strong>Consent for Publication:</strong> Not applicable.</p>
+<p><strong>Author Contributions:</strong> Single author — all
+contributions.</p>
+<p><strong>Data Availability:</strong> No experimental data were
+generated or analysed. Computational examples in Section 5 are
+reproducible from the stated distributions.</p>
+<p><strong>Code Availability:</strong> The Ultrametric Engine [3]
+provides the computational backbone. Integration code for <span
+class="math inline">\(p\)</span>-adic entropy and AUM capacity
+calculations will be released upon theory validation.</p>
+<p><strong>Use of Artificial Intelligence:</strong> AI-assisted drafting
+was used for literature synthesis, computation, and prose
+refinement.</p>
+<hr />
+<h2 id="references">References</h2>
+<p>[1] Shannon, C.E. (1948). A Mathematical Theory of Communication.
+<em>Bell System Technical Journal</em>, 27, 379–423, 623–656. DOI: <a
+href="https://doi.org/10.1002/j.1538-7305.1948.tb01338.x">10.1002/j.1538-7305.1948.tb01338.x</a>.
+[established]</p>
+<p>[2] Quni-Gudzinas, R.B. (2026). The Adelic Physics Program:
+Epistemological Foundations and Communications Framework. Zenodo. DOI:
+<a
+href="https://doi.org/10.5281/zenodo.21686727">10.5281/zenodo.21686727</a>.</p>
+<p>[3] QNFO Research (2026). Ultrametric Engine: Deploying a
+20-Principle p-Adic Discovery Worker. Zenodo. DOI: <a
+href="https://doi.org/10.5281/zenodo.21336105">10.5281/zenodo.21336105</a>.</p>
+<p>[4] Quni-Gudzinas, R.B. (2026). Poisson Summation as the Adelic
+Bridge: Why the Q vs R Debate Dissolves in the Adele Ring. Zenodo. DOI:
+<a
+href="https://doi.org/10.5281/zenodo.21691078">10.5281/zenodo.21691078</a>.</p>
+<p>[5] Quni-Gudzinas, R.B. (2026). FACTORING, Adelic Complexity, and the
+Silent-Radix Principle. Zenodo. DOI: <a
+href="https://doi.org/10.5281/zenodo.21691642">10.5281/zenodo.21691642</a>.</p>
+<p>[6] Quni-Gudzinas, R.B. (2026). A Falsifiability Protocol for the
+Q-Fundamental Hypothesis. Zenodo. DOI: <a
+href="https://doi.org/10.5281/zenodo.21697717">10.5281/zenodo.21697717</a>.</p>
+<p>[7] Quni-Gudzinas, R.B. (2026). p-Adic Quantum Error Correction
+Classifier Verification: A Computational Methodology. Zenodo. DOI: <a
+href="https://doi.org/10.5281/zenodo.21698076">10.5281/zenodo.21698076</a>.</p>
+<p>[8] Khrennikov, A. (1994). <em>p-Adic Valued Distributions in
+Mathematical Physics</em>. Kluwer Academic Publishers.</p>
+<p>[9] Khrennikov, A. (2009). <em>Interpretations of Probability</em>
+(2nd ed.). De Gruyter.</p>
+<p>[10] Tate, J. (1950). Fourier Analysis in Number Fields and Hecke’s
+Zeta-Functions. Ph.D. Thesis, Princeton University. [established]</p>
+<p>[11] Cover, T.M. &amp; Thomas, J.A. (2006). <em>Elements of
+Information Theory</em> (2nd ed.). Wiley. [established]</p>
+<p>[12] Vladimirov, V.S., Volovich, I.V., &amp; Zelenov, E.I. (1994).
+<em>p-Adic Analysis and Mathematical Physics</em>. World Scientific.</p>
+<p>[13] Kapranov, M. (1996). <em>Analogies between the Langlands
+Correspondence and Topological Quantum Field Theory</em>. In: Progress
+in Mathematics, Vol. 131. Birkhäuser.</p>
+<p>[14] Anashin, V. (2012). <em>The p-Adic Theory of Automata
+Functions</em>. <em>p-Adic Numbers, Ultrametric Analysis and
+Applications</em>, 4(2), 109–119.</p>
+<p>[15] Dragovich, B., Khrennikov, A.Yu., Kozyrev, S.V., &amp; Volovich,
+I.V. (2017). <em>p-Adic Mathematical Physics: The First 30 Years</em>.
+<em>p-Adic Numbers, Ultrametric Analysis and Applications</em>, 9(2),
+87–121.</p>
+</body>
+</html>

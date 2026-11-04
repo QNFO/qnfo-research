@@ -1,0 +1,27 @@
+# Build artifacts
+*.build.md
+*.build.tex
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+_*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.temp
+
+# Publish scripts
+_publish.py
+
