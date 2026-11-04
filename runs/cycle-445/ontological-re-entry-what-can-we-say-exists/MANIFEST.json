@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-692850b7-8b7e-461d-8b7e-9530c1bc7f48",
+    "slug": "ontological-re-entry-what-can-we-say-exists",
+    "cycle": "cycle-445",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.45.4",
+    "finished_at": "2026-11-04T00:54:24.400Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "8524be038632aebfd6345dbef1437925257b63429b0fec0b09abf816cba92b33",
+      "bytes": 88634,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "f21e9881ad976b6d6db1fe927d38abbd11439235304b12be5485abacbff4db98",
+      "bytes": 28995,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "f71b06a86703a25505b33f002d6a456f67981b72602c3aff7b38f12b13cb69d1",
+      "bytes": 38,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "5a7542afa7a2957f1b801dac9fb87e67662d0aa2b553eee5b3561cf27e3d7904",
+      "bytes": 4439,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "3de9366e02e75851125eb5d52c00fcd16778103c1a6b41cca69cbc8f02ac1b00",
+      "bytes": 17098,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "62a7053abd804d2c594c749f9bb88b274b3434e776620ce5ce8f692b1d2d45cf",
+      "bytes": 8950,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "8bdbe38246308efcc0bf5e09998f2752aa9b3ccaee7d2e0702e0cb9f9dcd1770",
+      "bytes": 21453,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "756f1b189eb58d9dfc529918eeecf4bc9d66a07050c7f7ba9f34458882d9ee48",
+      "bytes": 24459,
+      "role": "draft"
+    }
+  }
+}
