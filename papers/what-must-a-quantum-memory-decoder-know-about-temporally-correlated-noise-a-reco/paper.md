@@ -202,26 +202,3 @@ We have reconciled three independent expository drafts of the study of decoders 
 [11] QNFO: Spectral Benchmarking of Holographic Quantum Simulations
 [12] QNFO: Auditing the BQNN: Does a Tunable Quantum Neural Network on Trapped-Ion and Superconducting Hardware Demonstrate a Route to Near-Term Quantum Advantage?
 [13] QNFO: The Physics of Computation: Fundamental Limits and the Honest Boundaries of Post-Classical Computing
-
-## Appendix A. Divergence report
-
-**D1 (calibration-scaling convention): DIVERGENT.** Draft A writes the calibration bound with an explicit target-loss prefactor, $N \geq \theta^{-d_X}/\epsilon$, yielding $N = 10^{7}$ intervals at $\theta = 10^{-2}$, $d_X = 3$, $\epsilon = 0.1$ (and $10^{5}$ for the two-interval variant). Draft C writes the scaling proportionally, $N_{\mathrm{cyc}} \propto \theta^{-d_X}$, with no prefactor. The disagreement is a convention about whether the abstract states a prefactor; no supplied text states any prefactor, so the main text adopts draft C's proportional convention and records draft A's here. Under draft A's convention all interval counts in Section 5, item 3, are multiplied by $1/\epsilon = 10$ at $\epsilon = 0.1$.
-
-**D2 (illustrative angle): DIVERGENT.** Drafts A/B use $\theta = 10^{-2}$ (Assumption A3); draft C uses $\theta = 0.05$ (Assumption A5). Both are illustrative choices not taken from [1]; the main text reports both instances.
-
-**D3 (mechanism derivation): SINGLE.** Only draft C supplies the symmetric-disagreement derivation of the $\frac{1}{2}$ bound; drafts A and B state the bound without derivation. The main text uses draft C's derivation, explicitly labeled as an idealization (Assumption A1).
-
-## Appendix B. Claim attribution
-
-| Claim | Source drafts | Status |
-|---|---|---|
-| C1: Two sign models with identical syndrome statistics and the same SPP | A, B, C | CONVERGENT |
-| C2: Worst-case fidelity loss of the model-agnostic decoder approaches $1/2$ despite full syndrome access | A, B, C | CONVERGENT |
-| C3: Calibration interval count scales as $\theta^{-d_X}$ ($\mathrm{H}_1$) | B, C (A with prefactor variant) | CONVERGENT on scaling; DIVERGENT on prefactor (Appendix A, D1) |
-| C4: Two-interval schedule reduces scaling to $\theta^{-2}$ ($\mathrm{H}_2$) | B, C | CONVERGENT |
-| C5: Twirling-record statement ($\mathrm{H}_3$) | B, C | CONVERGENT |
-| C6: Symmetric-disagreement derivation of the $1/2$ bound | C | SINGLE |
-| C7: Per-qubit error probability $p_X \approx \theta^2/4$ and $d_X = 3$ instance | B | SINGLE |
-| C8: Storage-time projection $N_{\mathrm{dis}} \approx \pi/(2\theta)$ | C | SINGLE |
-| C9: Draft A prefactor convention $N \geq \theta^{-d_X}/\epsilon$ | A | SINGLE (DIVERGENT convention, Appendix A, D1) |
-| C10: Significance argument via QNFO overhead of $10^{2}$–$10^{3}$ operations per logical operation [13] and audit framing [12] | A, B | CONVERGENT |
