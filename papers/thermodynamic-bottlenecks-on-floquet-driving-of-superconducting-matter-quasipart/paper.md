@@ -166,20 +166,3 @@ We have presented a transparent, arithmetic‑driven analysis of thermodynamic b
 [9] https://papers.qnfo.org/papers/superconductivity-quadrangle/. QNFO: Superconductivity Quadrangle.
 [10] https://papers.qnfo.org/papers/unifying-photosynthetic-energy-transduction-and-ambient-superconductivity/. QNFO: Unifying Photosynthetic Energy Transduction and Ambient Superconductivity.
 [11] https://papers.qnfo.org/papers/thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems/. QNFO: Thermodynamic and Quantum Constraints on Scalable Quantum Computing.
-
-## Appendix A. Divergence report
-
-The cooling‑power parameter $P_{\rm cool}$ appears with two conflicting values in the source drafts: $1\times10^{-4}\ \mathrm{W}$ (adopted in the main text) and $1\times10^{-5}\ \mathrm{W}$ (mentioned as a divergent choice).  We have chosen the larger, more optimistic value $1\times10^{-4}\ \mathrm{W}$ for all calculations, documenting the alternative in this appendix.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|----------------|-----------|
-| C1 | Pair‑breaking threshold $f_{\rm pb}\approx88\ \mathrm{GHz}$ | A, B, C | CONVERGENT |
-| C2 | Poisoning‑limited absorbed power $P_{\rm abs}^{\rm max}\approx5.8\times10^{-19}\ \mathrm{W}$ | A, B, C | CONVERGENT |
-| C3 | Cavity steady‑state quasiparticle density $\approx1.0\times10^{11}\ \mathrm{m^{-3}}$ | A, B, C | CONVERGENT |
-| C4 | Ratio to thermal density $\sim9\times10^{31}$ | A, B, C | CONVERGENT |
-| C5 | Admissible field $E_{\max}\approx14.1\ \mathrm{V\,m^{-1}}$ | A, B, C | CONVERGENT |
-| C6 | Required field $E_{\rm req}\approx4.6\times10^{5}\ \mathrm{V\,m^{-1}}$ | A, B, C | CONVERGENT |
-| C7 | Electron temperature under allocated power $T_e\approx1.4\ \mathrm{K}$ | A, B, C | CONVERGENT |
-| C8 | Cooling‑power divergence $P_{\rm cool}=10^{-4}\ \mathrm{W}$ vs $10^{-5}\ \mathrm{W}$ | A, B | DIVERGENT |
