@@ -1,0 +1,13 @@
+{
+  "concept_doi": "10.5281/zenodo.21710999",
+  "latest_deposit_id": "21711000",
+  "versions": [
+    {
+      "doi": "10.5281/zenodo.21711000",
+      "deposit_id": "21711000",
+      "tag": "v1.0",
+      "published_at": "2026-07-31",
+      "description": "Initial publication — 8-page PDF, zero rendering errors, provenance bundle"
+    }
+  ]
+}
