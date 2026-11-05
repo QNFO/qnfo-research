@@ -1,11 +1,8 @@
----
-author: "QNFO |"
-date: "2026-07-25 |"
-license: "QNFO-ULA"
-doi: "https://papers.qnfo.org/papers"
----
-
 # Five Pillars, One Structure: Consilient Convergence in QNFO Research
+
+## Abstract
+
+Five independent QNFO research programs converge on a single structural insight: ultrametric (non-Archimedean) mathematics provides the correct state-space geometry for fundamental physics, quantum computation, and optimization.
 
 ## Introduction
 

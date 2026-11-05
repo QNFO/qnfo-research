@@ -134,10 +134,6 @@ Collectively, these results falsify the conjecture that the Wheeler–DeWitt zer
 
 ## 8. Conclusion We have subjected the conjecture that the Wheeler–DeWitt zero‑mode constitutes a Majorana‑type topological zero mode to a rigorous structural test. The hidden $U(1,1)$ symmetry yields a particle‑hole‑like involution but fails to satisfy the Bogoliubov–de Gennes particle–hole condition. The WDW operator possesses Fredholm index 0, in stark contrast to the non‑zero chiral index that underpins protection in Dirac‑type Majorana systems. Spectral analysis shows that $E=0$ is not isolated, and the benchmark exponential splitting $e^{-L/\xi}=4.54\times10^{-5}$ illustrates the magnitude of protection that is absent. Consequently, the Wheeler–DeWitt zero‑mode does **not** inherit the defining hallmarks of a Majorana zero mode, and proposals to exploit it as a decoherence‑free resource lack a solid theoretical foundation.
 
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. references 8 -> 8. length 3251 -> 3113 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.29.0-terminal-rearmed). Language models were tools in that process; they are not authors. The named author is accountable for the content.

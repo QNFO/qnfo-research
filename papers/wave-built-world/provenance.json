@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/wave-built-world"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "2cfe551113048503dcd11fe05fb758a972a80f6e721cab2079a4c9bb30b811ec",
       "bytes": 126019,
       "recorded_at": "2026-11-03",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "5a93d0c433b02a26a03d58308dbfd772544131bde3255c121c638dc9bf864be9",
+      "bytes": 126539,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

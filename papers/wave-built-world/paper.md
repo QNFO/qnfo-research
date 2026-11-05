@@ -1,13 +1,10 @@
 # Wave-Built World
 
-## Wave-Built World: How Six Fundamental Principles Generate Complexity from Atoms to Cognition
+*Wave-Built World: How Six Fundamental Principles Generate Complexity from Atoms to Cognition*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Email:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000000526456062 **DOI:**
-https://papers.qnfo.org/papers/wave-built-world/ **Version:** 1.0
-**Date:** 2025-09-03
+## Abstract
+
+The observable universe, in all its astonishing diversity and intricate organization, is not a static collection of isolated objects but a ceaseless dance of dynamic processes. From the quantum fluctuations that shape the very fabric of spacetime itself to the rhythmic swing of pendulums, the majestic propagation of light across cosmic distances, and the intricate, electrophysiological symphony of the human brain, all discernible phenomena, at their most fundamental level, exhibit characteristics deeply rooted in the behavior of waves. This report asserts that beneath the apparent chaos and unique specificity of individual systems, a profound and elegant simplicity orchestrates existence: the cosmos is fundamentally a “wave-built world.”
 
 ### Part I: Introduction - The Generative Grammar of the Universe
 
