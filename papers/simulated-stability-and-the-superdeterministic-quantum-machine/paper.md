@@ -1,19 +1,6 @@
 # Simulated Stability and the Superdeterministic Quantum Machine
 
-## Reconciling Cognitive World-Models with the Clockwork Universe
-
-**Author:** Rowan Brad Quni-Gudzinas
-
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/simulated-stability-and-the-superdeterministic-quantum-machine/ **Date:**
-2026-03-05
-
-**Version:** 1.0
+*Reconciling Cognitive World-Models with the Clockwork Universe*
 
 ## CHAPTER 1: The Physical Reality of Superdeterminism and Entropy
 

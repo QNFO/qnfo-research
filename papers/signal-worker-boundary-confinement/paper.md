@@ -1,16 +1,3 @@
----
-title: "Signal-Worker Boundary Confinement: A Corrected Ontology of Surface vs Bulk Transport"
-author: "Quni-Gudzinas, Rowan Brad"
-orcid: "0009-0002-4317-5604"
-affiliation: "QNFO"
-date: "2026-08-17"
-version: "v0.3"
-license: "CC-BY-4.0"
-doi: ""
-status: "published"
-keywords: ["Signal-Worker ontology", "topological insulators", "bulk-boundary correspondence", "Meissner effect", "quantum Hall effect", "non-Hermitian skin effect", "skin effect", "bundled conductors", "Litz wire", "band structure", "Weyl semimetals", "Cooper pairs", "spin-statistics theorem"]
----
-
 # Signal-Worker Boundary Confinement: A Corrected Ontology of Surface vs Bulk Transport
 
 ## Abstract
