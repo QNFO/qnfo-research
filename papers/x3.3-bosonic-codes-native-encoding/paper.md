@@ -1,16 +1,3 @@
----
-title: "Bosonic Codes as the Native Encoding — Resource-Commensurable Comparison of Cat, GKP, Binomial, and Surface Codes"
-subtitle: "X3.3 — Why the Harmonic Oscillator's IR Attractor Status Implies Bosonic Codes Are the Correct QEC Substrate"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-23"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "pending"
-status: "published"
-series: "QNFO Cross-Domain Phase — X3.3"
-parent: "Master Work Plan v2.0 — Cross-Domain Phase X1-X6"
-prerequisites: "X3.1 (Bosonic QEC ↔ RG Fixed Points), X3.2 (Bosonic QEC on Bruhat–Tits Trees), Harmonic Paradigm V4.0 §6 (https://papers.qnfo.org/papers/harmonische-paradigma-kappa-siit-v4/)"
----
-
 # Bosonic Codes as the Native Encoding: Resource-Commensurable Comparison of Cat, GKP, Binomial, and Surface Codes
 
 *X3.3 — Why the Harmonic Oscillator's IR Attractor Status Implies Bosonic Codes Are the Correct QEC Substrate*

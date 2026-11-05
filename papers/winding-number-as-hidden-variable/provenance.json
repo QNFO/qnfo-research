@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/winding-number-as-hidden-variable"
   },
   "declared": {
-    "version": "1.0.2",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 33807,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "136f24203b8264a61c8d106feaf4528da95ffc19ab625552af30561f222d8231",
+      "bytes": 33538,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

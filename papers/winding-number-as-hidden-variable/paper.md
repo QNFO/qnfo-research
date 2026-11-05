@@ -1,13 +1,8 @@
 # Winding Number as Hidden Variable
 
-## A Topological Foundation for Physics from Pre-Geometric Computation
+*A Topological Foundation for Physics from Pre-Geometric Computation*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/winding-number-as-hidden-variable/ **Publication Date:** 2025-10-16
-**Version:** 1.0.2
+## Abstract
 
 This paper proposes that physical reality emerges from a
 pre-geometric substrate based on the circle \(S^1\), with its integer winding numbers
