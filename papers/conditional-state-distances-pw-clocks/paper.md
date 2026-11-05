@@ -1,9 +1,3 @@
----
-author: "QNFO Research |"
-date: "2026-07-01 |"
-license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
----
-
 # Conditional State Distances in Page-Wootters Quantum Clocks: When Does Ultrametricity Emerge?
 
 ## Abstract
@@ -315,8 +309,6 @@ These predictions are falsifiable [my conjecture]. The theorem would be disconfi
 ### 6.3.3 Relationship to the General Theorem
 
 Theorem 6.3 specializes Theorem 6.1 to D=4 by exploiting the specific geometry of $\mathcal{B}(\operatorname{PGL}(4,\mathbb{Q}_p))$. The general theorem guarantees ultrametricity for any diagonal $\hat{H}_{CR}$; the D=4 special case additionally establishes the correspondence between conditional state geometry and 4D spacetime structure through the building's automorphism group and simplicial dimension. The D=4 case is distinguished by the coincidence $\dim(\mathcal{B}) = D-1 = 3$, which makes the building a natural geometric model for 3+1 dimensional quantum gravity.
-
-
 
 ## 7. Conclusions and Open Questions
 

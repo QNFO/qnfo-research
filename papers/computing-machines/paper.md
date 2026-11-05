@@ -1,13 +1,3 @@
----
-title: "Computing After Silicon: A History-Constrained Forecast of Computing Machine Evolution, 2026–2050"
-author: "QNFO Research"
-date: "2026-07-30"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "computing paradigms, Moore's Law, quantum computing, heterogeneous computing, technology forecasting, counterfactual backcasting, neuromorphic computing"
----
-
 # Computing After Silicon: A History-Constrained Forecast of Computing Machine Evolution, 2026-2050
 
 ## Abstract

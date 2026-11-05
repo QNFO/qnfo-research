@@ -1,13 +1,3 @@
----
-title: "Conditional Truths and the Locale Framework: Map, Territory, and the Rendering Interface"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-17"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
-abstract: "Every physical statement is a conditional truth: it holds only within a locale --- a specified vacuum or symmetry sector, background geometry, medium, energy scale, or observer frame. This paper formalizes the resulting locale framework in four moves. First, a catalog of conditional truths (photon mass, spin, energy conservation, the second law, the electron's charge and mass, the vacuum) shows that the interesting physics lives at the seams where a rule fails to transfer. Second, the map-territory distinction: pedagogical maps fail at seams, and the ontological territory is the invariant relational structure --- the transformation law, the commutation algebra, the gauge-invariant observable --- that transfers across locales; ontic structural realism is engaged as a named imported premise, with its critics. Third, the rendering interface: an observer constrained to first-person observations inside a rendering experiences the metric of the image space, not the substrate; no finite set of such observations decides whether the substrate metric is Archimedean or ultrametric (the Monna-map underdetermination, generalized beyond the visual case); what cannot be decided can still be probed --- a rendering with structure leaks structure. Fourth, scale primitives: stripped of anthropocentric units, frequency is a recurrence count, the fine-structure constant is a ratio, and temperature is a derivative; by Ostrowski's theorem the Archimedean real line is one completion of the rationals among many. Why a reader should care: the framework turns 'conditional truth' from a footnote into a first-class epistemic category with a falsifiable core (the metric of the substrate is not decidable from inside the interface) and identifies what survives --- counts, ratios, and structure leaks. Premise-depth disclosure: 'locale' and 'interface' are unanalyzable primitives; the structural-realist ontology is imported (Ladyman-Ross), not derived; the completion-to-background isomorphism is a pedagogical unification, not a discovery; the paper proposes no dynamical theory of seams."
----
-
 # Conditional Truths and the Locale Framework: Map, Territory, and the Rendering Interface
 
 ## Abstract

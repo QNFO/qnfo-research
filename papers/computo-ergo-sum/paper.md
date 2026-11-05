@@ -1,13 +1,8 @@
 # Computo Ergo Sum
 
-## Computo Ergo Sum: Hilbert’s Sixth Problem and Its Realization in the Self-Computing Universe (𝒞)
+*Computo Ergo Sum: Hilbert’s Sixth Problem and Its Realization in the Self-Computing Universe (𝒞)*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers/computo-ergo-sum/ **Version**: 1.0
-**Date**: 2025-09-12
+## Abstract
 
 This paper resolves Hilbert’s sixth problem by introducing the
 **Self-Computing Universe Framework (𝒞)**, a meta-axiomatic
