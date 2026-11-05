@@ -1,7 +1,3 @@
----
-keywords: "rational numbers, real numbers, base field, measurement theory, Ostrowski's theorem, adelic physics, Bekenstein bound, constructive mathematics, falsifiability"
----
-
 # The ℚ-vs-ℝ Question: Why Physical Law Requires Only the Rational Numbers
 
 ## Abstract

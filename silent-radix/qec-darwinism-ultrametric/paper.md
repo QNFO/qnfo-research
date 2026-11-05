@@ -1,15 +1,3 @@
----
-title: "Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-16"
-license: "cc-by-4.0"
-doi: ""
-status: "published"
-version: "v1.11"
-arxiv_target: "2608.03944"
-keywords: ["quantum error correction", "quantum darwinism", "ultrametric", "bruhat-tits tree", "p-adic", "ostrowski", "no-go theorem", "measurement stratigraphy", "consilience"]
----
-
 # Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces
 
 > **Auditing Target:** Maity et al., *Exact Tradeoff Between Quantum Error Correction
