@@ -1,15 +1,10 @@
 # Projective Geometric Frameworks for Semantic Structures
 
-## Addressing the Gap Between Statistical Approximation and Formal Invariants in Large Language Models
+*Addressing the Gap Between Statistical Approximation and Formal Invariants in Large Language Models*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/projective-geometric-frameworks-for-semantic-structures/
-**Date:** 2026-04-14 **Version:** 1.0
+## Abstract
 
-**Abstract**: Current critical literature often
+Current critical literature often
 dismisses Large Language Models (LLMs) as statistical parrots operating
 via mere stochastic approximation, yet their capacity for cross-lingual
 zero-shot inference suggests the internalization of deep, invariant
@@ -35,11 +30,6 @@ from an invariant manifold—we provide the mathematical foundation for
 ballistic transport on Bruhat-Tits trees. This framework shifts AI
 safety from opaque statistical alignment to transparent, spatial
 verification.
-
-**Keywords**: Projective Geometry, Semantic Structures,
-Cross-Ratio Invariants, Ultrametricity, Mechanistic Interpretability,
-Provably Correct AI, \(p\)-adic
-Numbers
 
 ## 1.0 Introduction: The Geometric Paradigm of Meaning
 

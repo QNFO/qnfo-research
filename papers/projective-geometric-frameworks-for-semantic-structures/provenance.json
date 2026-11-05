@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/projective-geometric-frameworks-for-semantic-structures"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 40474,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "6454b7a33495b89750878068e3b6e9c589ac5dc93af7fb2724dc325c96c70cba",
+      "bytes": 39924,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

@@ -1,15 +1,10 @@
 # Programming the Vacuum
 
-## A Unified Hamiltonian Engineering Framework for Optimization and Spectral Synthesis
+*A Unified Hamiltonian Engineering Framework for Optimization and Spectral Synthesis*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/programming-the-vacuum/ **Date:**
-2026-01-08 **Version:** 1.0
+## Abstract
 
-**Abstract**: The exponential growth of Hilbert space
+The exponential growth of Hilbert space
 dimensions presents a fundamental barrier to the classical simulation of
 quantum systems, necessitating a paradigm shift from algorithmic
 simulation to physical instantiation. This study validates the “Inverted
@@ -32,10 +27,6 @@ challenges, these findings establish a robust theoretical and
 algorithmic foundation for “Programming the Vacuum,” suggesting that the
 universe is not merely a simulator but a universal computational
 engine.
-
-**Keywords:** Hamiltonian Engineering, Inverted CTD
-Thesis, Riemann Zeros, Ising Machines, Quantum Simulation, Inverse
-Spectral Problem, Physical Oracles
 
 ## 1.0 Introduction
 

@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "[0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](http://isni.org/isni/0000000526456062)"
-doi: "https://papers.qnfo.org/papers/proof-of-concept-for-auditable-attention-using-ultrametric-tree-distances/"
-date: "2026-04-19"
-version: "1.0"
----
-
 # Proof-of-Concept for Auditable Attention using Ultrametric Tree Distances
 
 ## Abstract
