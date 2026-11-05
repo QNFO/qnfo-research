@@ -162,12 +162,3 @@ We formalized the p-adic Temperley–Lieb parameter as δ_p = p + p⁻¹ and pro
 [10] https://papers.qnfo.org/papers/ballistic-transport-on-the-bruhat-tits-tree/. QNFO: Bruhat-Tits Tree as a Unifying Geometric Object.
 [11] https://papers.qnfo.org/papers/harmonic-adelic-completions/. QNFO: The Adelic Completion of the Harmonic Paradigm: A Five-Pillar Red-Team Assessment.
 [12] https://papers.qnfo.org/papers/cross-domain-phase2/. QNFO: The Adelic Cross-Domain Program: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat-Tits Trees (Phase 3-4 Update).
-
-## Appendix A. Divergence report
-
-**D1. Definition of the p-adic TL parameter (C10).**
-- Draft A: |δ|_p of a *rational approximation* δ ≈ 7071/5000, i.e., the p-adic norm of a real-valued surrogate for the loop parameter. This is rejected: the norm of an approximation depends on the arbitrary choice of approximant (7071/5000 has v_p = 0 for p ∉ {3, 7071, 5000}, so |δ|_p = 1 for almost all p), carries no structural information, and is not invariant under re-approximation.
-- Draft B: δ_p = q + q⁻¹ with q a p-adic root of unity. This is rejected as non-canonical: p-adic roots of unity of order m exist in ℚ_p only when m | (p − 1), so the definition is not uniform in p, and the choice among available orders is arbitrary.
-- Draft C: δ_p = p + p⁻¹ ∈ ℚ_p, with q replaced by the uniformizer. **Adopted.** This is the unique choice adapted to the p-adic norm itself (the uniformizer is the element defining the valuation), it is defined for every prime, and it makes every valuation computation uniform: v_p(δ_p) = −1, v_p(d_n) = −n (proved for n = 2, 3).
-
-**Resolution of D1:** the paper uses δ_p = p + p⁻¹ throughout (Section 3.1); Drafts A and B are rejected for the reasons above, and the divergence is closed. No further items were flagged; the divergence report is complete.

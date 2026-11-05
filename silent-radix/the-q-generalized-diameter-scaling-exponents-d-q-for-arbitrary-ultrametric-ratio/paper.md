@@ -124,30 +124,3 @@ We defined the q-generalized α-diameter D_q^α = ln(1/α)/ln q, proved its mono
 [10] https://papers.qnfo.org/papers/ultrametric-physics-m12-synthesis/. QNFO: Ultrametric Physics Research Plan.
 [11] https://papers.qnfo.org/papers/fine-structure-constant-cross-ratio/. QNFO: Fine-Structure Constant as a Cross-Ratio: A Geometric Reframing of α.
 [12] https://papers.qnfo.org/papers. QNFO: Adelic Core Synthesis: Cross-Domain Foundations of Adelic QFT.
-
-## Appendix A. Divergence report
-
-**D1 (core definition of D_q^α) — DIVERGENT, three-way.** Draft A defines D_q^α as a generalized fractional Jackson q-derivative, an infinite series over q-powers of f with generalized binomial coefficients, reducing to the Jackson derivative at α = 1 (benchmark: D_{0.6}^{0.5} x²|_{x=5} ≈ 14.33 via three-term truncation). Draft B defines D_q^α as a Rényi-type multifractal exponent, D_q^α = (1/(1−α)) lim log Z_n(α)/(n log q) on refining ultrametric partitions (benchmarks: uniform Cantor spectrum flat at ln 2/ln 3 = 0.63093; biased (1/3, 2/3) spectrum decreasing from 0.63093 to 0.36907; D_{2.5}^0 = 0.75647). Draft C defines D_q^α = ln(1/α)/ln q, a logarithmic depth of the electron-scale α-gap (benchmarks: D₂^α = 7.09841, etc.). *Underlying convention:* each draft fixes a different meaning of the pair (q, α) — (scaling ratio, derivative order), (refinement ratio, moment order), (rung size, physical fine-structure constant). These are incompatible definitions sharing a symbol; no arithmetic reconciliation is possible without choosing one. *Resolution:* the main text adopts Draft C's convention, because it is the only one in which α is a stated physical input tied to the QNFO cross-ratio program [11], all its numerical claims are exact closed-form arithmetic with no truncation or limit-taking, and its structural properties (monotonicity, covariance, multiplicativity) are provable rather than truncation-dependent. Drafts A and B are recorded here as alternative conventions; their numerical results are not asserted in the main text and are not comparable to the adopted values (they answer different questions). No silent merge was performed.
-
-**D2 (axis of monotonicity) — DIVERGENT.** Draft B proves/verifies monotonicity of its exponent in the moment order α; Draft C proves monotonicity of its depth in the base q. These are monotonicity statements about different objects under the divergent definitions of D1; the main text retains only the q-monotonicity of the adopted convention.
-
-**D3 (role of strategy/engineering documents [1], [2], [4]) — DIVERGENT in emphasis, convergent in substance.** Draft A treats [1], [2], [4] as substantive motivation (scaling ladders in collider staging, hierarchical time scales in MHD); Drafts B and C treat them as rhetorical/positional calibration only, noting explicitly that they contain no scaling content. *Resolution:* the main text follows B/C (calibration framing), which is the more defensible reading of those sources; A's stronger motivational reading is recorded here.
-
-**D4 (physical scope) — DIVERGENT.** Draft A claims applicability to ultrametric SIR dynamics and fusion MHD modeling via its derivative operator; Draft C claims only unit-conversion utility for such models. *Resolution:* the conservative C claim is adopted; A's stronger claim depends on the rejected definition in D1.
-
-## Appendix B. Claim attribution
-
-| # | Claim | Drafts | Status |
-|---|-------|--------|--------|
-| C1 | D_q^α is a fractional Jackson q-derivative (series definition) | A | SINGLE (divergent; see D1) |
-| C2 | D_q^α is a Rényi multifractal exponent on refining partitions | B | SINGLE (divergent; see D1) |
-| C3 | D_q^α = ln(1/α)/ln q, a base-dependent depth of the α-gap | C | SINGLE (adopted; see D1) |
-| C4 | Ultrametric = strong triangle inequality; balls nest hierarchically | B, C | CONVERGENT |
-| C5 | [3] supplies ultrametric embedding/extension/compactness theorems licensing transfer of functionals | A, B, C | CONVERGENT |
-| C6 | [5]: correspondence analysis induces sequential ultrametrics from data; branch ratios are data-determined | A, B, C | CONVERGENT |
-| C7 | [6]: ultrametric Cantor sets carry scale- and reparametrisation-invariant valuation | A, B, C | CONVERGENT |
-| C8 | [8]: ultrametric SIR model builds hierarchies via contact-time clustering; p-adic parameterization fixes q = p | B, C | CONVERGENT |
-| C9 | [1], [2], [4] contain no scaling content and are cited as rhetorical/positional calibration only | B, C | CONVERGENT (A's stronger motivational reading recorded in D3) |
-| C10 | Monotonicity of D_q^α in the base q | C | SINGLE (adopted; see D2) |
-| C11 | Base covariance: D_q(R) ln q = ln R, invariant across bases | C | SINGLE (adopted; see D1) |
-| C12 | D_q^α applies to epidemic/MHD models as unit conversion, not as new dynamics | C | SINGLE (adopted; see D4) |

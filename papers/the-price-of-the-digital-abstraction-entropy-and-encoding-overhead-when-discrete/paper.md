@@ -328,16 +328,6 @@ If designers interpret the entropy distortion as a hard limit on logical error r
 
 We have analytically quantified four concrete overheads that arise when forcing a continuous bosonic substrate into a discrete Pauli error framework: a register‑entropy floor of $\log_{2}12\approx3.585$ bits per mode per use; a base truncation entropy of $\ln6\approx1.792$ nats ($\approx2.585$ bits); a binary‑encoding inefficiency $\eta\approx0.896$ with dimension overhead $4/3$; and a Pauli‑twirling entropy distortion of $1.5\times10^{-3}$ bits at $\gamma=10^{-3}$ (ratio $\approx1.131$), obeying the exact linear law $\Delta H=3\gamma/2$. The discarded Hilbert‑space weight for a cold mode is $\approx3.19\times10^{-13}$. These quantities demonstrate that the digital abstraction carries a measurable bookkeeping price and a linear entropy excess that scales with physical damping. Future experimental verification of the distortion law will determine whether the overhead constitutes a fundamental resource penalty or a mitigable engineering artifact.
 
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report; Appendix B. Claim attribution. references 12 -> 9. length 4247 -> 3388 words.
-- Version 1.2.0 (2026-10-20, from 1.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 9 -> 9. length 3433 -> 3142 words.
-- Version 1.3.0 (2026-10-21, from 1.2.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 9 -> 10. length 3211 -> 4916 words.
-- Version 1.4.0 (2026-10-21, from 1.3.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 10 -> 10. length 5016 -> 3267 words.
-- Version 1.5.0 (2026-10-22, from 1.4.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 10 -> 10. length 3400 -> 3204 words.
-- Version 1.6.0 (2026-10-23, from 1.5.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 10 -> 10. length 3361 -> 4401 words.
-- Version 1.7.0 (2026-10-24, from 1.6.0): revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 10 -> 8. length 4589 -> 2905 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.32.1-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
