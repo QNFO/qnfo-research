@@ -161,10 +161,6 @@ Quantum‑hardware engineers and cryptographic system designers could employ the
 
 ## 8. Conclusion By projecting a finite $3$‑adic Bruhat‑Tits tree onto the real interval via the Monna map, we obtain a deterministic mechanism that reproduces the uniform probability distribution and Shannon entropy expected from quantum‑mechanical randomness. The explicit entropy calculation and the derived log‑periodic modulation provide concrete, testable predictions. If experimental verification confirms these predictions, the paradigm of intrinsic quantum randomness would be supplanted by a geometric, deterministic substrate, opening pathways to deterministic QRNG hardware and fault‑tolerant quantum gate designs rooted in $p$‑adic tree topologies.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.25.0-wai-width-governor). Language models were tools in that process; they are not authors. The named author is accountable for the content.

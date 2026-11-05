@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/new-school-of-athens"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 14162,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "6d96f30600d7b7460bb9b9e455369043dc93d6d0e26aac00c59b275a16fa3a6b",
+      "bytes": 14613,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

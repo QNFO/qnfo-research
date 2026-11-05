@@ -1,16 +1,13 @@
 # NEW LANGUAGE FOR MATH
 
-## A Category-Theoretic Reframing of Causal Set Theory: From Sets to Processes, Relations to Functors
+*A Category-Theoretic Reframing of Causal Set Theory: From Sets to Processes, Relations to Functors*
+
+## Abstract
+
+This report presents a fundamental reframing of Causal Set Theory (CST) within the language of category theory, establishing a relational process ontology (RPO) for fundamental physics. By recasting causal sets as small, thin categories, this framework achieves a categorical reification of causality, where causal relations (morphisms) become ontologically primary to events (objects). The dynamics of spacetime growth are modeled as a quantum sequential growth functor, leading to a functorial path integral whose measure is canonically defined by a Kan extension, resolving a key ambiguity in quantum gravity. The emergence of manifold-likeness is rigorously framed as a sheaf condition on a classifying topos, while the semi-classical limit of General Relativity arises from a categorical adjunction, with Einstein’s equations expressed as a natural transformation. Unification is achieved by modeling matter as causal excitations over this relational substrate, and the framework provides a combinatorial origin for the Born rule and quantum entanglement, suggesting quantum mechanics is an effective statistical theory of a deeper, processual reality. [...]
 
 **A Unified Ontology of Becoming for Quantum Gravity and
 Fundamental Physics**
-
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers **Version**: 1.0.1
-**Date**: 2025-09-13
 
 This report presents a fundamental reframing of Causal Set Theory
 (CST) within the language of category theory, establishing a

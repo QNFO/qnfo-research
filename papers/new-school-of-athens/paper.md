@@ -1,12 +1,10 @@
 # New School of Athens
 
-## On the Necessity of Reintegrating the Platonic and Aristotelian Modes of Inquiry
+*On the Necessity of Reintegrating the Platonic and Aristotelian Modes of Inquiry*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/new-school-of-athens/ **Date:**
-2026-01-22 **Version:** 1.0
+## Abstract
+
+Raphael’s School of Athens is more than a masterpiece of the High Renaissance; it is a near-perfect visual schema of the central tension in Western thought. At its focal point, Plato’s finger directs our gaze upward, to a transcendent realm of Forms, of pure pattern and a priori truth. Beside him, Aristotle’s hand lies open, palm down, grounding philosophy in the empirical, the particular, the world as it is perceived and categorized. For centuries, this tableau has been read as a grand divergence, the moment the unified pursuit of knowledge fractured into two warring traditions: rationalism and empiricism, theory and observation, metaphysics and physics.
 
 ### The Broken Fresco: An Introduction to the Great Divorce
 

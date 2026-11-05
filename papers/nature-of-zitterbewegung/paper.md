@@ -1,15 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-email: "rowan.quni@qnfo.org"
-orcid: "0009-0002-4317-5604"
-isni: "0000 0005 2645 6062"
-doi: "https://papers.qnfo.org/papers/nature-of-zitterbewegung/"
-publication date: "2025-09-24"
-version: "1.0"
----
-
 # Nature of Zitterbewegung
+
+## Abstract
+
+Zitterbewegung, a profound and counterintuitive prediction of relativistic quantum mechanics, describes an intrinsic property of fundamental matter lacking a direct classical counterpart. This phenomenon challenges conventional notions of particle motion, revealing a deeper layer of reality governed by the interplay of relativity, quantum mechanics, and the structure of the quantum vacuum. Zitterbewegung, German for “trembling motion,” describes a predicted, rapid, high-frequency oscillatory motion in the position of a fundamental relativistic particle, such as an electron. This motion is not a response to any external force; it is an intrinsic and inescapable quiver constituting part of the particle’s existence, even when at rest or moving with constant momentum. It represents a ceaseless, microscopic jitter underlying the smooth, macroscopic trajectory associated with a particle’s path.
 
 ### 1.0 Defining Zitterbewegung as the Fundamental Quiver of Relativistic Matter
 
