@@ -211,10 +211,6 @@ Theoretical physicists developing background‑independent string models would u
 
 ## 8. Conclusion We have shown that a product of \(D\) Bruhat–Tits trees, with a directed causal edge, can generate an emergent \((D\!-\!1,1)\) Minkowski spacetime in an adelic scaling limit. Consistency conditions derived from anomaly cancellation, supersymmetric continuum limits, and automorphism‑group gauge symmetries restrict the viable dimensions to \(D=10\) or \(D=11\), matching the critical dimensions of superstring and M‑theory. Explicit calculations reproduce black‑hole‑AdS horizon radii and demonstrate that the product boundary has covering dimension \(D\). The framework offers a background‑independent, combinatorial foundation for string theory, opening a pathway toward lattice‑type models rooted in non‑Archimedean geometry. Future work will focus on numerical simulations using the toolkit of [8] and on resolving the exponential causal‑cone growth to achieve exact Minkowski‑like causality.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models would be tools in that process; they are not authors. The named author would be accountable for the content.

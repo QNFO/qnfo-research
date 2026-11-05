@@ -1,13 +1,10 @@
 # Emergent Information-Theoretic Electromagnetism Proof
 
-## FORMAL DERIVATION OF EMERGENT ELECTROMAGNETISM FROM INFORMATION SYMMETRIES
+*FORMAL DERIVATION OF EMERGENT ELECTROMAGNETISM FROM INFORMATION SYMMETRIES*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers **Publication Date:** 2025-09-28
-**Version:** 1.0.1
+## Abstract
+
+This document presents a comprehensive formal derivation of gauge forces from information-theoretic principles, with a specific focus on the emergence of electromagnetism from information symmetries and the relationship between quantum electrodynamics (QED) and classical electrodynamics (Maxwell’s equations). The derivations are grounded in the Quni-Gudzinas Framework for Scale-Invariant Information-Theoretic Physics, which posits that fundamental physical laws emerge from information-theoretic principles rather than being fundamental in themselves.
 
 ### I. Introduction
 

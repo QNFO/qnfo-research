@@ -1,13 +1,8 @@
 # Emergent Computation
 
-## An Analysis of the Physical Computation Paradigm Shift from Abstract Logic to Embodied Dynamics
+*An Analysis of the Physical Computation Paradigm Shift from Abstract Logic to Embodied Dynamics*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/emergent-computation/ **Publication Date:** 2025-09-30
-**Version:** 1.0
+## Abstract
 
 The classical Turing-von Neumann architecture, which has defined the
 digital epoch, is confronting insurmountable energetic and structural

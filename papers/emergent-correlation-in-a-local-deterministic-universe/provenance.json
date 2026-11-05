@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/emergent-correlation-in-a-local-deterministic-universe"
   },
   "declared": {
-    "version": "1.0.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 172043,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "ddcde17999fc1337319d57c5646b8ec3786573f1cb878120568ba3845d0c5a32",
+      "bytes": 171529,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

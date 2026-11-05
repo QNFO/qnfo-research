@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/emergent-information-theoretic-electromagnetism-proof"
   },
   "declared": {
-    "version": "1.0.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "21711c59ec5f2498b2e245c60610f062eb8b28bebb683b70e2ad957550362513",
       "bytes": 45318,
       "recorded_at": "2026-11-04",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "135cbde4e4e267c5d50cc4831b5fcaf27e66992fff1f863a20561490b9517e2e",
+      "bytes": 45643,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

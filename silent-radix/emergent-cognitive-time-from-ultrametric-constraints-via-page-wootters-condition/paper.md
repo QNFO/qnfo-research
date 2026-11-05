@@ -208,11 +208,6 @@ All numbers below are those derived in Section 4; none are measured.
 
 We have formalized a conjecture that cognitive temporal order can be derived rather than imported. The semantic state space is a static ultrametric overlap matrix obeying a multiplicative cocycle condition; ordered evolution is extracted by conditioning the joint constrained distribution on the internally ordered phase states of a reference population, following the Page–Wootters conditional-time construction. The derivable bookkeeping is concrete: for $N=64$ leaves the cocycle condition supplies $N_c=41664$ equations on $N_f=2016$ free overlaps (ratio $\rho=62/3\approx 20.67$), conditioning across $M=10$ reference states adds at most $N_{\mathrm{PW}}=184320$ agreement conditions, and a theta reference at $8\ \mathrm{Hz}$ with $10$ bins yields an elementary step $\Delta t=12.5\ \mathrm{ms}$ and a reaction-time lattice $\mathrm{RT}(k)=t_0+12.5\,k\ \mathrm{ms}$ with spacing in the $10$–$16.67\ \mathrm{ms}$ theta-band range. The construction's value, if it survives falsification, is that the timing parameters of a cognitive model stop being free: they are fixed by a measurable internal reference subsystem, and the same construction applies to biological and synthetic substrates alike. The falsification path is short and cheap — a comb test on existing reaction-time data and a trajectory-enumeration simulation — and either outcome sharpens the field's understanding of where cognitive time comes from.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 1.0.2 (2026-10-19, from 1.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

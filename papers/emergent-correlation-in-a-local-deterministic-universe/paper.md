@@ -1,15 +1,10 @@
 # EMERGENT CORRELATION IN A LOCAL-DETERMINISTIC UNIVERSE
 
-## A COMPUTATIONAL PROOF-OF-PRINCIPLE
+*A COMPUTATIONAL PROOF-OF-PRINCIPLE*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/emergent-correlation-in-a-local-deterministic-universe/ **Date:**
-2025-12-22 **Version:** 1.0.1
+## Abstract
 
-**Abstract**: This paper investigates the foundational
+This paper investigates the foundational
 schism between the ontological coherence of superdeterminism and its
 epistemic rejection by the scientific community. Superdeterminism, a
 proposed solution to quantum non-locality, preserves locality and
@@ -39,10 +34,6 @@ ontologically parsimonious framework, and its rejection is a pragmatic,
 procedural defense of the epistemic conditions necessary for the
 practice of science, revealing a profound but necessary tension between
 the nature of reality and our capacity to know it.
-
-**Keywords:** Superdeterminism, Quantum Foundations,
-Bell’s Theorem, Measurement Independence, Philosophy of Science,
-Cellular Automata, Emergent Correlation
 
 # 1.0 INTRODUCTION & PROBLEM STATEMENT
 
