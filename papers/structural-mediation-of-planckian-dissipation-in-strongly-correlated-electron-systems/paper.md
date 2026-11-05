@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/structural-mediation-of-planckian-dissipation-in-strongly-correlated-electron-systems/"
-date: "2026-02-03"
-version: "1.0"
----
-
 # Structural Mediation of Planckian Dissipation in Strongly Correlated Electron Systems
 
 *A Universal Architectonic Approach*

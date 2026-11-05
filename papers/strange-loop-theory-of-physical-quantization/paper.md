@@ -1,7 +1,3 @@
----
-keywords: "strange loop, quantization, topological invariants, information stability, self-reference, Lefschetz number, winding number, Zitterbewegung, holography, paraconsistent logic, computational physics"
----
-
 # Strange Loop Theory of Physical Quantization
 
 ## Abstract

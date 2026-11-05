@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/structural-vs-driven-quantum-coherence/"
-date: "2026-01-31"
-version: "1.0"
----
-
 # Structural vs Driven Quantum Coherence
 
 *A Proposed ‘Signal-Worker’ Framework for Ambient Superconductivity*
