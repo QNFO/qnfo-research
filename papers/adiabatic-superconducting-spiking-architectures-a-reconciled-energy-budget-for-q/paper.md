@@ -128,32 +128,3 @@ We have presented a fully derived, reconciled energy budget for a quantum-inspir
 [10] https://papers.qnfo.org/papers/syntactic-generation-primitive-distinctions/. QNFO: Syntactic Generation.
 [11] https://papers.qnfo.org/papers/paper-beyond-the-qubit/. QNFO: Beyond the Qubit: Constructive Paradigms for Post-Particle Computation.
 [12] https://papers.qnfo.org/papers/thermodynamic-viability-and-the-universality-of-feynman-matter/. QNFO: Thermodynamic Viability and the Universality of Feynman Matter.
-
-## Appendix A. Divergence report
-
-**D1. Baseline energy per event (A vs. B vs. C).** Draft A used a cited CMOS baseline of 10 pJ/spike and an ASIC baseline of 1.2 pJ/spike from [2]. Draft B derived its own baseline from first principles (½CV² = 0.5 fJ for a 1 fF/1 V node), arguing that cited spiking figures conflate system-level costs. Draft C assumed 10 pJ per synaptic event as a representative spiking-core figure. *Convention behind the disagreement:* A compares against reported system measurements; B compares physically matched switching events; C compares against a stated assumption. **Resolution:** the reconciled text adopts the 10 pJ spiking baseline as primary (the only baseline tied to reported measurements, per A and C) and reports sensitivity against 1.2 pJ and 1 pJ, while noting (per B) that per-event and per-computation comparisons are not equivalent. No divergence is silently resolved.
-
-**D2. Node design point (B vs. C).** Draft B used C = 1 fF, V = 1 V, R = 100 Ω, τ = 10 ns (E_ad = 5 × 10⁻²¹ J). Draft C used C = 100 fF, V = 0.5 mV, R = 10 kΩ, T = 10 ns (E_ad = 2.5 × 10⁻²¹ J). *Convention:* B chose a generic small CMOS-like node to make the comparison conservative in voltage; C chose junction-physics-native parameters (millivolt gap scale), arguing the superconducting gap sets V. **Resolution:** C's design point is adopted because it is physically native to the proposed substrate; B's parameters are retained in the divergence record. Both yield zJ-scale event energies, so the qualitative conclusion is robust to this choice.
-
-**D3. Crediting the quantum-inspired low-rank factor (A vs. B/C).** Draft A divided the per-spike energy by an operation-count reduction factor ρ = 10 attributed to [4]. Drafts B and C declined to credit any such factor, B explicitly citing [4]'s finding that quantum-inspired speedups lose to tuned classical baselines once constants are measured. **Resolution:** the reconciled text does *not* credit ρ in the numerical budget, treating low-rank representation as a qualitative design element requiring empirical validation on NeuroBench/NeuroMorse workloads. This is the conservative choice; adopting A's factor would only strengthen the conclusion.
-
-**D4. Cryogenic penalty treatment (A vs. B/C).** Draft A estimated a ~100 J-per-J-removed cooling penalty "for discussion only," excluding it from the primary budget. Draft B computed a wall-plug multiplier (10% of Carnot), reporting 704×; the reconciled arithmetic gives 1/0.001430 ≈ 699×, which is applied. Draft C assumed a 10⁻⁴-class efficiency for chip-scale cooling (~10 W per mW at 4.2 K). *Convention:* A treats cooling as a second-order discussion item; B and C treat it as a first-class budget item. **Resolution:** the reconciled text adopts B/C's convention: the ≈699× multiplier is computed and applied (Step 9), and C's system-level caveat (Step 10) is retained. The conclusion survives: even at the wall plug the reduction exceeds 10⁶×.
-
-**D5. Headline result magnitude (A vs. B vs. C).** A reported 0.01 µJ per 10⁶ events (10⁻¹⁴ J/event); B reported 3.52 × 10⁻¹⁸ J/event wall-plug; C reported 7.5 × 10⁻²¹ J/event cold. These are not contradictory but reflect D1–D4; the reconciled headline is C's 7.5 zJ cold / 5.28 × 10⁻¹⁸ J wall-plug, with A's per-million-event framing recoverable as 7.5 × 10⁻¹⁵ J per 10⁶ events cold.
-
-## Appendix B. Claim attribution
-
-| # | Claim | Sources | Status |
-|---|-------|---------|--------|
-| C1 | Adiabatic charging reduces dissipation by factor RC/T relative to CV² | A, B, C | CONVERGENT |
-| C2 | Superconducting (Josephson) substrate enables millivolt-scale, near-zero-loss spiking nodes | A, B, C | CONVERGENT |
-| C3 | CMOS spiking baseline ~10 pJ/event; ASIC ~1.2 pJ/event (from [2]) | A, C | CONVERGENT |
-| C4 | Node design point: C = 100 fF, V = 0.5 mV, R = 10 kΩ, T = 10 ns | C (B divergent: 1 fF/1 V/100 Ω) | SINGLE (adopted; D2) |
-| C5 | Total event energy 7.5 zJ (2.5 zJ adiabatic + 5 zJ static leakage); static leakage dominates | C | SINGLE |
-| C6 | Wall-plug cryogenic multiplier ≈ 699× at 10% of Carnot; wall-plug event energy 5.24 × 10⁻¹⁸ J | B (applied to C's numbers) | CONVERGENT (methodology B; number recomputed per D4) |
-| C7 | System-level viability is conditional on workload intensity; cryogenic overhead dominates sparse workloads | B, C | CONVERGENT |
-| C8 | Node-level reduction vs. 10 pJ baseline ≈ 1.33 × 10⁹; ≥50% target exceeded with large margin | A, B, C | CONVERGENT (magnitudes differ per D1–D5; conclusion agrees) |
-| C9 | Quantum-inspired low-rank factor ρ = 10 credited in energy budget | A (B, C divergent) | DIVERGENT (D3; not credited) |
-| C10 | Breakeven ramp time is a central design constraint | B (C convergent via T/RC ≥ 10 and static-leakage optimum) | CONVERGENT |
-| C11 | Thermal margin E_event/(k_B·T_bath) ≈ 129 at 4.2 K; error suppression exp(−43.1) ≈ 1.9 × 10⁻¹⁹ | C | SINGLE (derived, Step 7) |
-| C12 | Wall-plug reduction vs. 10 pJ baseline ≈ 1.9 × 10⁶; system-level victory requires ~10⁹ events/s-equivalent workload | B, C | CONVERGENT (Steps 9–10) |
