@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-12ca333e-8e9d-4e13-8bbc-86c7d05e97f1",
+    "slug": "braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+    "cycle": "cycle-452",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.54.0",
+    "finished_at": "2026-11-05T19:41:20.497Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "d126e88a7924bd10f2ee4937d20171d1b90a380c8c04ff16459d658519a8e4b4",
+      "bytes": 68446,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "a1b56acc3c069825a7267702352c07a15e55f3c73c79a287d21c2015fb45ae3b",
+      "bytes": 29792,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "bb78a171f8316af3a320265128b4ed5870bb054a2c0082fb3afa1f9658708749",
+      "bytes": 48,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "f6eb33fcbbb34adb030aaf96b0991a37c55838a3ccc5edb366300092bf78a0eb",
+      "bytes": 2647,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "144284d1b4f29a26cc10d0ed2fccb2f5828e6a9df670d2bc3b40e42b798ac238",
+      "bytes": 8529,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "a2e33b6a61b443b690aa6c6c6ac9a5e7ce39d50556f65ad2ae7178bcfcf612fb",
+      "bytes": 6157,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "b0868ab1b8475569fd6ac78a74705e297ff4ff16863e3df5e66214f7721c1f77",
+      "bytes": 21584,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "6f927b8fd3ca988f0ba39a95d8faaf190dd0c258c5dceac37f3af52642a08b8d",
+      "bytes": 14176,
+      "role": "draft"
+    }
+  }
+}

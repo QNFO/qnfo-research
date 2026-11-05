@@ -1,0 +1,452 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-452: Braid Group Representations and the Uniqueness of Modular Data: The Ising Test Case and General Limitations",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-452",
+      "qnfo:runPath": "runs/cycle-452/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "qnfo:slug": "braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-05T19:41:20.497Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Braid Group Representations and the Uniqueness of Modular Data: The Ising Test Case and General Limitations",
+      "url": "https://papers.qnfo.org/papers/braid-group-representations-and-the-uniqueness-of-modular-data-the-ising-test-ca"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0710.1063",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0710.1063"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1009.0241",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1009.0241"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1105.5048",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1105.5048"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1401.5329",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1401.5329"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1708.06476",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1708.06476"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1903.00463",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1903.00463"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1906.08153",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1906.08153"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.02664",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.02664"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1909.02098",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1909.02098"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2003.02496",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2003.02496"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.07866",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.07866"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.19647",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.19647"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2505.16817",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2505.16817"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.06203",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.06203"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2189",
+      "sha256": "45b6360248fc2bc590a5b8a8be05c7a6058804d06a259fc3da3d4c49fca083b2",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "68446",
+      "sha256": "d126e88a7924bd10f2ee4937d20171d1b90a380c8c04ff16459d658519a8e4b4",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29792",
+      "sha256": "a1b56acc3c069825a7267702352c07a15e55f3c73c79a287d21c2015fb45ae3b",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48",
+      "sha256": "bb78a171f8316af3a320265128b4ed5870bb054a2c0082fb3afa1f9658708749",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2647",
+      "sha256": "f6eb33fcbbb34adb030aaf96b0991a37c55838a3ccc5edb366300092bf78a0eb",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "8529",
+      "sha256": "144284d1b4f29a26cc10d0ed2fccb2f5828e6a9df670d2bc3b40e42b798ac238",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "6157",
+      "sha256": "a2e33b6a61b443b690aa6c6c6ac9a5e7ce39d50556f65ad2ae7178bcfcf612fb",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21584",
+      "sha256": "b0868ab1b8475569fd6ac78a74705e297ff4ff16863e3df5e66214f7721c1f77",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14176",
+      "sha256": "6f927b8fd3ca988f0ba39a95d8faaf190dd0c258c5dceac37f3af52642a08b8d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0710.1063"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1009.0241"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1105.5048"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1401.5329"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1708.06476"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1903.00463"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1906.08153"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.02664"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1909.02098"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2003.02496"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.07866"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.19647"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2505.16817"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.06203"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-05T19:41:20.497Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
