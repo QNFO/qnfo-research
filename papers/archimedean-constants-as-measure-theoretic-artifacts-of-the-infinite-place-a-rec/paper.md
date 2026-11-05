@@ -224,22 +224,3 @@ We exhibited, with fully displayed arithmetic, that in four canonical settings -
 [10] https://papers.qnfo.org/papers/consilience-framework/. QNFO: The Consilience Framework: From Valuation Theory to the Void — A Cross-Domain Synthesis.
 [11] https://papers.qnfo.org/papers/measure-theoretic-artifacts-adelic-completion/. QNFO: Measure-Theoretic Artifacts of the Archimedean Place — v2.0: The Completion Problem, the Langlands Connection, and the Adelic Restructuring of Fundamental Physics.
 [12] https://papers.qnfo.org/papers/non-anthropocentric-natural-units/. QNFO: Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem.
-
-## Appendix A. Divergence report
-
-One divergence was detected between drafts: the choice of the primary $p$-adic 'Gaussian-type' object. Draft A used the local zeta integral $Z_p(s) = \int_{\mathbb{Z}_p} |x|_p^s\,dx_p$ with the multiplicative character, yielding $Z_p(s) = (1 - p^{-1})/(1 - p^{-(s+1)})$; Draft B used the additive-character integral $G_p = \int_{\mathbb{Z}_p} e^{2\pi i\{x\}_p}\,dx_p$, yielding $G_p = 1$ exactly. Both are correct under the shared normalization $\mathrm{vol}(\mathbb{Z}_p) = 1$; the disagreement is a convention choice, not a mathematical conflict. Resolution: the main text (Section 4.3) reports both normalizations and marks the comparison $G_{\infty} = \sqrt{\pi} \approx 1.7724539$ versus $G_p = 1$ explicitly, with the convention divergence documented here. No other divergences were found: the product-formula examples (Section 4.1), the Gaussian split (Section 4.2), the functional-equation check (Section 4.4), and the reciprocity example (Section 4.5) were convergent across drafts.
-
-## Appendix B. Claim attribution
-
-| Claim | Source drafts | Status |
-|---|---|---|
-| C1: Product formula exact for $x = 2$ and $x = 12$ | A, B, C | CONVERGENT |
-| C2: Gaussian split $I_1^2 = 2\pi \cdot \frac{1}{2} = \pi$, $G_{\infty} = \sqrt{\pi} \approx 1.7724539$ | A, B | CONVERGENT |
-| C3: $G_p = 1$ exactly for every prime $p$ | B, C | CONVERGENT |
-| C4: $Z_p(s) = (1 - p^{-1})/(1 - p^{-(s+1)})$; $Z_2(2) = 4/7 \approx 0.5714286$ | A, B | CONVERGENT |
-| C5: $\Lambda(2) = \Lambda(-1) = \pi/6 \approx 0.5235988$ | A, B, C | CONVERGENT |
-| C6: Partial Euler product $P_5 = 900/576 = 1.5625$; residual factor $\approx 3.307$ | A | SINGLE |
-| C7: Quadratic reciprocity worked example $(2/7) = 1$, two solutions mod 7 | B, C | CONVERGENT |
-| C8: Adelic QM factorization; measurement as Archimedean projection $\pi_{\infty}$ | A, B | CONVERGENT |
-| C9: Verification program (V1)-(V2) as labeled projections with stated assumptions | A, C | CONVERGENT |
-| C10: Choice of $Z_p(s)$ versus $G_p$ as the primary $p$-adic Gaussian-type object | A vs B | DIVERGENT (resolved: both reported; see Appendix A) |
