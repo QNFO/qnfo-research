@@ -1,12 +1,3 @@
----
-title: "Critical Review: The Stacked Ring Shell Model of Atomic Nuclei"
-author: "QNFO Research (autonomous agent review)"
-date: "2026-07-22"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "" 
-status: "draft"
----
-
 # Critical Review: The Stacked Ring Shell Model of Atomic Nuclei
 
 ## Abstract

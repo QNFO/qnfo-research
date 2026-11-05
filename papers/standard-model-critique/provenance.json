@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/standard-model-critique"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "265f3635313185dbfc962c1c90b353d436615a9c61fe4cf464ea19fa1c6b85a6",
       "bytes": 19773,
       "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "c6ed2c9ea758fc7dda3ec3a67973894ccabc4ebd8b01b9e89c59d70d96c0ff51",
+      "bytes": 19515,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

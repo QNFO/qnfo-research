@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/stabilization-of-gottesman-kitaev-preskill-states/"
-date: "2025-12-02"
-version: "1.0"
-keywords: "autonomous stabilization, Gottesman-Kitaev-Preskill, ion traps, reservoir engineering, quantum error correction"
----
-
 # Stabilization of Gottesman-Kitaev-Preskill States
 
 ## Abstract

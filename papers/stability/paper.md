@@ -1,15 +1,10 @@
 # Stability Compiler
 
-## CONTEXTUAL PERSISTENCE VIA THE TOPOLOGICAL EXTENSION FRAMEWORK
+*CONTEXTUAL PERSISTENCE VIA THE TOPOLOGICAL EXTENSION FRAMEWORK*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers **Publication
-Date:** 2025-11-29 **Version:** 1.0
+## Abstract
 
-**Abstract**: The modeling of fundamental entities as
+The modeling of fundamental entities as
 zero-dimensional points creates singularities across physics and network
 engineering. Current regularization methods like renormalization are
 procedural patches that fail to explain the origin of finite scales.
@@ -23,11 +18,6 @@ linear point-source models, the TEF predicts finite interaction ranges
 and convergence times without ad-hoc subtractions. This establishes a
 dynamic-modal ontology where physical particles and abstract routes are
 unified as topologically protected attractors.
-
-**Keywords**: Chameleon mechanism; Route flap damping;
-Nonlinear field theory; Spectral geometry; Metastable attractors;
-Soliton dynamics; Effective potential; Lieb-Robinson bound; Structural
-realism; Interdomain routing
 
 ## 1.0 INTRODUCTION
 

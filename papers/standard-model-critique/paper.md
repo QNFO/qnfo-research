@@ -1,13 +1,8 @@
 # Standard Model
 
-### Standard Model Critique: Formal Deconstruction of an Incomplete Paradigm and the Methodological Imperative for a Successor Theory
+*Standard Model Critique: Formal Deconstruction of an Incomplete Paradigm and the Methodological Imperative for a Successor Theory*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/standard-model-critique/ **Publication Date:** 2025-09-26
-**Version:** 1.0
+## Abstract
 
 The Standard Model (SM) of particle physics represents the most
 precise and empirically successful framework devised for describing

@@ -1,13 +1,10 @@
 # Standard-Deviation Normalization Proof
 
-## Fundamental Role of Standard-Deviation Normalization in a Scale-Invariant Statistical Framework
+*Fundamental Role of Standard-Deviation Normalization in a Scale-Invariant Statistical Framework*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/standard-deviation-normalization-proof/ **Publication Date:** 2025-09-28
-**Version:** 1.0
+## Abstract
+
+Let \((\Omega, \mathcal{F}, P)\)be a probability space, and let \(X\)be a real-valued random variable defined on this space, representing a physical observable. Assume \(X\)has a well-defined mean \(\mu = \mathbb{E}[X]\)and finite, positive variance \(\sigma^2 = \mathbb{E}[(X - \mu)^2] > 0\). Let \(\mathcal{M}\)be a statistical manifold representing a family of probability distributions \(\{p(x|\theta)\}_{\theta \in \Theta}\), where \(\theta\)are parameters. Assume the family includes location-scale distributions of the form \(p(x|\mu, \sigma) = \sigma^{-1} f((x-\mu)/\sigma)\), where \(f\)is a fixed probability density.
 
 ### Given
 

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/standard-deviation-normalization-proof"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "f77d999071e333a06f07eac8b312419ffabd4e8abe263466903e24c2e184ebef",
       "bytes": 15285,
       "recorded_at": "2026-11-04",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "e0c507a6d8b33c3dbac61626e58e9f0664bd511ce47850ff3675118deb13f082",
+      "bytes": 15642,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null
