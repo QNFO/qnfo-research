@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/thermodynamic-genesis-of-the-standard-model"
   },
   "declared": {
-    "version": "1.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 158714,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "052f855f6d2fe375c2856518c3a0fb36270a40e2472da3673e04e21d72e9d769",
+      "bytes": 158200,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

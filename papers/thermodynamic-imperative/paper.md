@@ -1,15 +1,10 @@
 # Thermodynamic Imperative
 
-### Why Colder Isn’t Better for Quantum Scalability
+*Why Colder Isn’t Better for Quantum Scalability*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/thermodynamic-imperative/ **Date:**
-2025-12-14 **Version:** 1.0
+## Abstract
 
-**Abstract**: Standard quantum computing paradigms
+Standard quantum computing paradigms
 assume that minimizing temperature is the primary pathway to coherence,
 driving massive investment in millikelvin dilution refrigeration.
 However, a fundamental thermodynamic paradox remains unsolved: cooling
@@ -25,10 +20,6 @@ coherence times. This redefines the scalability frontier, establishing
 that the optimal operating point for million-qubit systems lies not at
 the coldest possible temperature, but at the thermodynamic intersection
 of cooling capacity and intrinsic error suppression.
-
-**Keywords:** Thermodynamic Scalability, Parity
-Protection, 4 Kelvin Operation, Cryogenic Engineering, Quantum
-Volume
 
 ## 1.0 INTRODUCTION
 

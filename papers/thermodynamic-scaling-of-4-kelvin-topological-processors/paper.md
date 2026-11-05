@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/thermodynamic-scaling-of-4-kelvin-topological-processors/"
-date: "2025-12-11"
-version: "1.0"
-keywords: "topological quantum computing, twistronics, Bi-2212, high-temperature superconductivity, RSFQ logic, edge deployment"
----
-
 # Thermodynamic Scaling of 4-Kelvin Topological Processors
 
 ## Abstract

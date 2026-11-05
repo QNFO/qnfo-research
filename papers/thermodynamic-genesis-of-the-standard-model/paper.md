@@ -1,15 +1,10 @@
 # THERMODYNAMIC GENESIS OF THE STANDARD MODEL
 
-### COMPARATIVE KINETIC ANALYSIS OF RANK-42 VS. LOW-RANK TOPOLOGIES
+*COMPARATIVE KINETIC ANALYSIS OF RANK-42 VS. LOW-RANK TOPOLOGIES*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/thermodynamic-genesis-of-the-standard-model/ **Date:**
-2026-01-01 **Version:** 1.1
+## Abstract
 
-**Abstract**: This paper investigates the thermodynamic
+This paper investigates the thermodynamic
 viability of the Base State-Disturbance ontology, which posits that the
 Standard Model emerges from a topological phase transition in the early
 universe. We hypothesize that the vacuum is the ground state of a
@@ -33,10 +28,6 @@ validation of the “Low-Rank Desert” hypothesis and suggest that dark
 matter is a natural consequence of a high-rank topological genesis. The
 results establish thermodynamic selection as a primary principle in
 determining the structure of the vacuum.
-
-**Keywords:** Topological Order, String-Net
-Condensation, Emergent Gauge Theory, Cosmological Phase Transitions,
-Dark Matter, Modular Tensor Categories, Walker-Wang Models
 
 ## 1.0 INTRODUCTION & LITERATURE REVIEW
 
