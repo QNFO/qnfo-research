@@ -1,15 +1,12 @@
 # Mathematical Structures Underlying Physical Laws
 
-## Mathematical Structures Underlying Physical Laws and Statistical Phenomena
+*Mathematical Structures Underlying Physical Laws and Statistical Phenomena*
+
+## Abstract
+
+This work addresses the foundational schism in modern physics, which arises from the perceived incompatibility between classical continuous, deterministic reality and quantum discrete, probabilistic phenomena. The Post-Quantum Synthesis (PQS) framework resolves this by asserting that the universe is fundamentally continuous, local, and deterministic, while observation is intrinsically discrete. Quantum mechanics is presented as the unique calculus of inference bridging these domains. The Gaussian archetype is identified as a universal mathematical structure, manifesting across both physical laws and statistical phenomena. Its intrinsic properties—convolutional stability, self-Fourier characteristic, and maximum entropy—establish it as a fixed-point attractor. This framework systematically resolves long-standing quantum paradoxes, such as wave-particle duality, the measurement problem, and entanglement, by reclassifying them as category errors. [...]
 
 ### The Gaussian Archetype as Fundamental Structure of Physical Reality
-
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers/mathematical-structures-underlying-physical-laws-and-statistical-phenomena/ **Publication Date:** 2025-09-24
-**Version**: 1.0
 
 This work addresses the foundational schism in modern physics, which
 arises from the perceived incompatibility between classical continuous,

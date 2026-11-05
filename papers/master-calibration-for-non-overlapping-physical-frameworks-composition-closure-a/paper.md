@@ -299,27 +299,6 @@ The following numerical results are obtained from the derivations in Section 4
 - Scaled closure error with $f=0.5$: $1.7491\times10^{-3}$ (Derivation 8).
 - Required per‑edge error for a three‑edge loop: $\varepsilon\le3.33\times10^{-4}$ (Derivation 9).
 
-## Appendix A. Divergence report
-
-No divergent claims were identified among the source drafts. All substantive statements converge on the same quantitative values and logical arguments.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | Formal definitions of framework, translation map, composition failure, and master calibration (Section 3). | A, B, C | Convergent |
-| C2 | Pairwise‑map count $\binom{29}{2}=406$ and composition‑constraint count $\binom{29}{3}=3654$, ratio $9.0$ (Derivation 1). | A, B, C | Convergent |
-| C3 | Pairwise‑capacity for a seven‑domain family: $\binom{7}{2}=21$ pairs, leaving at least eight unassigned schisms (Derivation 2). | A, B, C | Convergent |
-| C4 | Two‑framework corner carries no composition constraint (Derivation 2′). | A, B, C | Convergent |
-| C5 | Three‑framework closure bound $\Delta_{\gamma}\le3.4965\times10^{-3}$ for edge errors $10^{-3}$, $2\times10^{-3}$, $5\times10^{-4}$ (Derivation 3). | A, B, C | Convergent |
-| C6 | Chain‑length bound $k\le\frac{\ln(1-\tau)}{\ln(1-\varepsilon_{\min})}\approx0.0995$ at $\tau=10^{-3}$, $\varepsilon_{\min}=10^{-2}$ (Derivation 4). | A, B, C | Convergent |
-| C7 | Genericity projection $P_{\mathrm{master}}=p^{3654}=6.34\times10^{-168}$, maximal family size $n_{\max}=7$ for $>1\%$ success (Derivation 5). | A, B, C | Convergent |
-| C8 | Corrected correlation analysis: independent joint success $0.9^{35}\approx0.02503$, Fréchet bounds $[0,0.9]$ (Derivation 5′). | A, B, C | Convergent |
-| C9 | Mediated‑translation price $1-(1-\varepsilon)^{2}=0.0199$ for $\varepsilon=10^{-2}$ (Derivation 7). | A, B, C | Convergent |
-| C10 | Sensitivity of closure error under uniform scaling, $\Delta'_{\gamma}=1.7491\times10^{-3}$ at $f=0.5$ (Derivation 8). | A, B, C | Convergent |
-| C11 | Required per‑edge error $\varepsilon\le3.33\times10^{-4}$ for a three‑edge loop to meet tolerance $\tau=10^{-3}$ (Derivation 9). | A, B, C | Convergent |
-| C12 | Falsifiability criteria: three‑subsystem closure test and $n\ge10$ family contradiction (Section 8). | A, B, C | Convergent |
-
 ## 6. Discussion
 
 The analytical framework developed in Sections 4–5 quantifies three intertwined obstacles to a master‑calibration effort: (i) a combinatorial overload of square‑constraint equations relative to the number of available pairwise maps, (ii) a first‑order closure‑error budget that quickly exceeds realistic tolerances, and (iii) an exponential decay of the joint success probability under the independence assumption for constraint satisfaction. Together these results delimit the feasible size of any globally calibrated family of frameworks and identify which schisms are structural (inherently unbridgeable) versus conventional (bridgeable at cost).

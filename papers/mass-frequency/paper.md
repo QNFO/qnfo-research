@@ -1,12 +1,10 @@
 # MASS-FREQUENCY
 
-## The Mass-Frequency Nexus: Unifying Reality and Computation |
+*The Mass-Frequency Nexus: Unifying Reality and Computation |*
 
-**Version:** 1.0 **Date**: August 5,
-2025 |
+## Abstract
 
-[Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](https://qnfo.org/) ORCID: [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-DOI: https://papers.qnfo.org/papers/mass-frequency/ |
+[Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](https://qnfo.org/) ORCID: [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604) DOI: https://papers.qnfo.org/papers/mass-frequency/ | Related Works: - Quantum Resonance Computing (QRC): The Path Forward for Quantum Computing ([DOI: https://papers.qnfo.org/papers](https://papers.qnfo.org/papers)) - Natural Units: Universe’s Hidden Code ([DOI: https://papers.qnfo.org/papers](https://papers.qnfo.org/papers)) - Harmonic Resonance Computing: Harnessing the Fundamental Frequencies of Reality for a Novel Computational Paradigm ([DOI: https://papers.qnfo.org/papers](https://papers.qnfo.org/papers)) - The Mass-Frequency Identity (m=ω): Matter, Energy, Information, and Consciousness as a Unified Process Ontology of Reality ([DOI: https://papers.qnfo.org/papers](https://papers.qnfo.org/papers))* |
 
 *Related Works:* - *Quantum Resonance Computing (QRC): The
 Path Forward for Quantum Computing ([DOI:

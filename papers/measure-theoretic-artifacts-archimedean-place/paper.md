@@ -1,11 +1,3 @@
----
-author: "QNFO — QWAV / QNFO"
-date: "2026-07-26"
-version: "1.0"
-license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
-doi: "https://papers.qnfo.org/papers **Cross-References:** - Consilience Between Physics and Number Theory (https://papers.qnfo.org/papers) - The Adelic Physics Program: A Grand Synthesis (P7) - Fine-Structure Constant as a Cross-Ratio (https://papers.qnfo.org/papers/fine-structure-constant-cross-ratio/) - Completion Failures Under Ostrowski's Theorem (Catalog v2.0) - QNFO Consilient Synthesis 2026-07-24 - Adelic Synthesis: Pattern-Particle Correspondence - Bridge Theorem: Conditional State Distances in PW Clocks - Quantum Laws of Form (https://papers.qnfo.org/papers) - Adelic QEC: Intrinsic Qubit Protection from Ostrowski's Theorem (P5) - Number-Theoretic Ultrametric Foundations"
----
-
 # Measure-Theoretic Artifacts of the Archimedean Place: A Complete Taxonomy and the Adelic Restructuring of Fundamental Science
 
 ## Abstract
