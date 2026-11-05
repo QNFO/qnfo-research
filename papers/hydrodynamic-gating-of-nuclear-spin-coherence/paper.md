@@ -1,15 +1,10 @@
 # Hydrodynamic Gating of Nuclear Spin Coherence v2
 
-## A Viscoelastic Mechanism for Quantum Cognition
+*A Viscoelastic Mechanism for Quantum Cognition*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/hydrodynamic-gating-of-nuclear-spin-coherence/ **Date:**
-2025-12-07 **Version:** 2.0
+## Abstract
 
-**Abstract**: Standard neurobiological models assume the
+Standard neurobiological models assume the
 mammalian brain is too warm and wet to sustain macroscopic quantum
 states, creating a “thermal wall” that seemingly precludes quantum
 cognition. However, the “viscosity paradox” of the cytoplasm reveals
@@ -26,9 +21,6 @@ pathway is proposed that filters decoherent magnesium isotopes. This
 hydrodynamic framework resolves the thermal constraint, identifying the
 Posner molecule as a viable biological qubit protected by the rheology
 of the cell itself.
-
-**Keywords:** Quantum Biology, Posner Molecule,
-Viscoelasticity, Nuclear Spin, Mitochondrial Genesis
 
 ## 1.0 INTRODUCTION: THE RHEOLOGY OF MIND
 

@@ -1,16 +1,13 @@
 # Higgs Particle Never Existed
 
-## The $13.25 Billion Category Error: Why the Higgs ‘Particle’ Never Existed
+*The $13.25 Billion Category Error: Why the Higgs ‘Particle’ Never Existed*
+
+## Abstract
+
+The 2012 announcement of the discovery of a new boson at the Large Hadron Collider (LHC) was interpreted as the detection of the Higgs particle, a foundational component of the Standard Model. This document presents a formal proof, derived from the first principles of quantum field theory, measurement theory, and Bayesian inference, that this interpretation constitutes a category error. The observed 125 GeV signal is demonstrated to be a statistical feature—the mode of a likelihood function—whose properties are overwhelmingly determined by the finite resolution of the detector, rather than an ontological entity corresponding to a discrete, localized particle. An axiomatic analysis of Quantum Field Theory (QFT) establishes that the Higgs field, which possesses a non-zero decay width, cannot support the asymptotic particle states required for a particle ontology. Furthermore, a measurement-theoretic proof quantifies that detector resolution effects account for 99.999816% of the observed signal width, rendering the intrinsic width of the resonance unobservable. [...]
 
 **A Formal Proof of the Higgs Field Resonance as a Statistical
 and Ontological Category Error**
-
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact Information:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers/higgs-particle-never-existed/ **Publication Date:** 2025-09-20
-**Version**: 1.0
 
 The 2012 announcement of the discovery of a new boson at the Large
 Hadron Collider (LHC) was interpreted as the detection of the Higgs

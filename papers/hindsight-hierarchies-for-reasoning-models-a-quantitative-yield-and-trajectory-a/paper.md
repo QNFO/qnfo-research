@@ -231,10 +231,6 @@ The central result is that the loop of [1] is economically viable under a wide b
 
 The hindsight-hierarchies loop of [1], [2] converts supplied solutions into idea supervision at a per-round clean amplification $A = mrp$, and this single product determines its viability: the loop beats direct fine-tuning on solutions exactly when $mrp > 1$, giving a break-even extraction precision of $p > 1/3$ at $m = 5$, $r = 0.6$. Under illustrative assumptions ($P = 10^4$, $N_0 = 10^3$, $\sigma = 0.1$), five rounds grow the solved corpus to $N_5 = 4685.59$ problems and accumulate $42791.26$ clean idea pairs, a $42.79\times$ amplification of the seed corpus, while the model-generated corpus fraction reaches $78.66\%$, making extraction precision, not solve rate, the binding quantity. The analysis is entirely projection: its value is that it converts an untested proposal into a falsifiable one, with the smallest decisive experiment being an expert audit of $\hat{A} = \hat{m}\hat{r}\hat{p}$ on a few dozen supplied solutions, refutable at a cost of expert-days rather than training runs. If that measurement clears unity with margin, the loop's frontier advance becomes limited by the supply of human-written sample solutions rather than by the model's current solve rate, which is the specific design change the analysis was undertaken to enable.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.16.0-revise-retry). Language models were tools in that process; they are not authors. The named author is accountable for the content.
