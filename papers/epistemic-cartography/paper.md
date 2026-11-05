@@ -1,13 +1,8 @@
 # Epistemic Cut
 
-## A Formal Epistemology of Boundary-Aware Physics
+*A Formal Epistemology of Boundary-Aware Physics*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers **Publication Date:** 2025-09-28
-**Version:** 1.0
+## Abstract
 
 An inquiry into the foundational principles of physics necessitates a
 rigorous examination of the relationship between reality and the

@@ -16,8 +16,6 @@ Many computational and control systems share a hidden structure: a cheap, imperf
 
 *Speculative decoding for multimodal models.* TABED performs test‑time adaptive ensemble drafting for robust speculative decoding in large vision‑language models, and reports a wall‑time speedup of $1.74\times$ [4]. We adopt its draft‑then‑verify loop as the computational analogue of our abstract process, and in Section 6 we check that our gain formula reproduces the reported $1.74\times$ under calibration.
 
-
-
 *Verification as costly authority.* DRAFT presents a formally verified constructive proof of the consistency of Peano arithmetic that uses ordinal assignments, in which a cheap preparatory phase is checked by a heavyweight correctness phase [3]. This asymmetry between preparation and verification is exactly the division of labor that our parameter $\nu$ prices.
 
 *Decoupling of independent components.* The theory of master functions for perturbations of vacuum spherically‑symmetric spacetimes decomposes perturbations into scalar, vector, and tensor harmonics that evolve independently [5]. Our independence assumption A2 for $m$ drafters mirrors this decoupling: the joint behavior factorizes into per‑drafter terms.
@@ -502,10 +500,6 @@ If the measured $S(k)$ peak lies at a $k$ different from the predicted $k^{*}$ b
 ### (f) Direct risks or misuse paths If designers overestimate $\alpha$ (e.g., by measuring draft accuracy on a distribution that differs from deployment data), the predicted $k^{*}$ may be too large, causing excessive verification failures and increased latency. In safety‑critical control of physical swarms, an overly optimistic $k^{*}$ could lead to insufficient verification of critical commands, risking mission failure. Mitigation requires conservative $\alpha$ estimates and runtime monitoring of acceptance rates.
 
 ## 10. Conclusion Ensemble drafting abstracts the shared draft‑then‑verify structure of speculative decoding for language and vision‑language models [3] and population‑level broadcast control [5, 8]. With three parameters ($\alpha$, $\rho$, $\nu$) it yields closed‑form expressions $E_k[A]=(1-\alpha^{k})/(1-\alpha)$ and $S(k)=E_k[A]/(\rho k+\nu)$, concrete operating points ($k^{*}=7$, $S=2.324367$ for a strong single drafter), and a quantified ensemble‑diversity trade‑off ($13.3\%$ relative gain for two weak drafters over one, $1.251877$ to $1.330302$ for three drafters as quality falls). Every number is a projection with shown arithmetic, and the framework’s value lies in making its assumptions—above all drafter independence—explicit and falsifiable. The analytical results provide system designers with a principled tool to balance draft quality, draft cost, and verification overhead, guiding the engineering of faster, more energy‑efficient draft‑then‑verify pipelines across language‑model inference, swarm control, and high‑throughput simulation.
-
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples; Extended Derivations and Worked Examples; Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 8 -> 9. length 3893 -> 4783 words.
 
 ## Provenance and AI Involvement
 

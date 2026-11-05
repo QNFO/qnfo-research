@@ -1,13 +1,8 @@
 # Entropic-Operational Paradigm
 
-## The Entropic-Operational Paradigm: Reclaiming Physics from Mathematical Abstraction
+*The Entropic-Operational Paradigm: Reclaiming Physics from Mathematical Abstraction*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/entropic-operational-paradigm/ **Publication
-Date:** 2025-11-23 **Version:** 1.0
+## Abstract
 
 **Thesis:** Gravity, spacetime, and quantum mechanics
 are not fundamental geometric structures, but emergent artifacts of
