@@ -1,15 +1,10 @@
 # Superfluid Vacuum Theory
 
-## The Hydrodynamic Emergence of Quantum Mechanics
+*The Hydrodynamic Emergence of Quantum Mechanics*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/superfluid-vacuum-theory/ **Publication
-Date:** 2025-11-26 **Version:** 1.0
+## Abstract
 
-**Abstract**: The historical incompatibility between
+The historical incompatibility between
 general relativity and quantum mechanics is identified not as a
 fundamental paradox of nature, but as an artifact of the “binning
 error”—the methodological fallacy of mistaking emergent topological
@@ -27,11 +22,6 @@ the mathematical bridge between the Navier-Stokes and Schrödinger
 equations, reinterpret quantum field theory as an effective theory of
 hydrodynamic turbulence, and propose chiral vacuum birefringence as a
 definitive falsification vector.
-
-**Keywords**: Vacuum Theory (SVT); Emergent Quantum
-Mechanics; Topological Solitons; Madelung Transformation; Analog
-Gravity;Chiral Vacuum Birefringence; Quantum Potential; Deterministic
-Quantum Mechanics; Navier-Stokes Equations; Geometric Spin Glass
 
 ## 1. Introduction
 

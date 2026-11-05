@@ -1,19 +1,10 @@
 # Super-Universe
 
-## An Informational Ontology from Non-Archimedean Geometry to Consciousness
+*An Informational Ontology from Non-Archimedean Geometry to Consciousness*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/super-universe/ **Date:**
-2026-03-31 **Version:** 1.0
-
-**Abstract**: The central problem of modern theoretical
+The central problem of modern theoretical
 physics resides in the irreconcilable conflict between quantum mechanics
 and general relativity, alongside the persistent philosophical mystery
 of consciousness. This monograph proposes a radical ontological

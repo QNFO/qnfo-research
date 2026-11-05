@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/superdeterministic-amplification-of-macroscopic-neural-state-vectors"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 79505,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "80db5411eee3319c5bfdd6a8cc83ea17a7a98d045948877d4a3b807bb962fde4",
+      "bytes": 79186,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

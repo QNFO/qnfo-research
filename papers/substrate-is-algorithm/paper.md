@@ -1,13 +1,3 @@
----
-title: "The Substrate Is the Algorithm: A Categorical Formalization of the Strongest Consilience Thread"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
-version: "1.0"
-keywords: "substrate, algorithm, category theory, monoidal category, Church-Turing, consilience, endomorphism"
----
-
 # The Substrate Is the Algorithm: A Categorical Formalization of the Strongest Consilience Thread
 
 ## Abstract
@@ -141,9 +131,3 @@ audit for computability-overreach]
 - Consilient Synthesis v2.0 (the QNFO archive https://papers.qnfo.org/papers) — Thread 3 passed red-team verbatim; the five instances
 - Adelic QEC P5, Ultrametric Foundations, Silent Radix, PBO/Autaxys, Qubit Delusion Phase IV — the five pillars
 - Boundary Ultrametricity (the QNFO archive https://papers.qnfo.org/papers/boundary-ultrametricity/) — the companion ACRP-02 correction (0-hyperbolic vs ultrametric) that sharpens the Adelic QEC instance's claim
-
-## Version History
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| 1.0 | 2026-07-31 | Initial formalization (ACRP-05 deliverable) |

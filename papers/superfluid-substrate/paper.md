@@ -1,15 +1,10 @@
 # Superfluid Substrate
 
-### A Unified Topological Resolution to Foundational Physical Paradoxes
+*A Unified Topological Resolution to Foundational Physical Paradoxes*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/superfluid-substrate/ **Date:**
-2025-12-17 **Version:** 1.0
+## Abstract
 
-**Abstract**: The paradoxes limiting contemporary
+The paradoxes limiting contemporary
 physics—from the vacuum energy catastrophe to the thermodynamic scaling
 of quantum computers—are artifacts of a static ontology. A unified
 framework is defined where physical systems are topological modes within
@@ -23,9 +18,6 @@ quantum computing, leveraging the topological gap of twisted Bi-2212
 enable 4-Kelvin operation, and this logic is extended to biological
 robustness via non-Hermitian skin effects in the Posner-Pyrophosphatase
 axis.
-
-**Keywords:** running vacuum model, twistronics,
-topological protection, Posner molecule, thermodynamic inversion
 
 ## 1.0 INTRODUCTION
 

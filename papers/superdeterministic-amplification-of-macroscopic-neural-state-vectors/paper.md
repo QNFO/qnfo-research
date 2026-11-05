@@ -1,19 +1,10 @@
 # Superdeterministic Amplification of Macroscopic Neural State Vectors
 
-## Reconciling Quantum Biophysics with the Clockwork Universe
+*Reconciling Quantum Biophysics with the Clockwork Universe*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/superdeterministic-amplification-of-macroscopic-neural-state-vectors/ **Date:**
-2026-03-05 **Version:** 1.0
-
-**Abstract**: The historical consensus in biophysics has
+The historical consensus in biophysics has
 long maintained that the human brain is a strictly classical
 thermodynamic system, arguing that the “warm, wet, and noisy” biological
 environment forces rapid quantum decoherence. However, emerging
