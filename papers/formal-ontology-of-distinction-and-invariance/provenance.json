@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/formal-ontology-of-distinction-and-invariance"
   },
   "declared": {
-    "version": "1.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 36993,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "3797aebb245a61fb8ce4c7a4f7c4b8e19d533dec52a6b1ee7c6696057f999d84",
+      "bytes": 36620,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

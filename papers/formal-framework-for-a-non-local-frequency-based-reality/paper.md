@@ -1,9 +1,3 @@
----
-modified: 2025-08-03T11:43:10Z
-version: "1.1"
-date: "2025-08-03"
----
-
 # Formal Framework for a Non-Local Frequency-Based Reality
 
 ## Abstract

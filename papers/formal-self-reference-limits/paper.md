@@ -1,15 +1,3 @@
----
-title: "Formal Self-Reference Limits: Objectification, Anthropocentric Conventions, and the Partial Self-Knowledge of Formal Systems"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-14"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-version: "v0.2-draft"
-affiliation: "QNFO"
-orcid: "0009-0002-4317-5604"
----
-
 # Formal Self-Reference Limits: Objectification, Anthropocentric Conventions, and the Partial Self-Knowledge of Formal Systems
 
 ## Abstract

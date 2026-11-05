@@ -1,15 +1,10 @@
 # Formal Ontology of Distinction and Invariance
 
-## A Syntactic Token Calculus as the Foundation of Reality
+*A Syntactic Token Calculus as the Foundation of Reality*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/formal-ontology-of-distinction-and-invariance/
-**Date:** 2026-04-11 **Version:** 1.1
+## Abstract
 
-**Abstract**: This document presents the complete,
+This document presents the complete,
 self-compliant synthesis of the Ontic Relational Patternism framework.
 Starting from a single primitive syntactic token—the
 **mark**—and three context-closed reduction rules (Calling,
