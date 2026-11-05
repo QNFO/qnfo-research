@@ -1,7 +1,3 @@
----
-keywords: "Zitterbewegung, Majorana fermion, topological invariant, $\\mathbb{Z}_2$ diagnostic, Bruhat--Tits tree, topological quantum computing, ultrametric readout"
----
-
 # The Adelic ZBW Programme: ZBW-Majorana Hypothesis, Ostrowski-QEC Synthesis, and Cross-Programme Consilience
 
 ## Abstract

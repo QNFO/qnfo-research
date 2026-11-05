@@ -1,7 +1,3 @@
----
-keywords: "Adelic QEC, Ostrowski's theorem, Bruhat-Tits tree, Majorana zero modes, intrinsic error protection, topological quantum computing"
----
-
 # Adelic Quantum Error Correction: Intrinsic Qubit Protection from Ostrowski
 
 ## Abstract

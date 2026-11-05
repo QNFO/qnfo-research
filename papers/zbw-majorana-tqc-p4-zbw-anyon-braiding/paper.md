@@ -1,7 +1,3 @@
----
-keywords: "Zitterbewegung, p-adic anyons, Bruhat-Tits tree, Majorana zero modes, topological quantum computing, adelic synthesis"
----
-
 # Zitterbewegung as the Physical Realization of p-Adic Anyon Braiding
 
 ## Abstract

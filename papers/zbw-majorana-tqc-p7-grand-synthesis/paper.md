@@ -1,7 +1,3 @@
----
-keywords: "Adelic physics, Ostrowski's theorem, Zitterbewegung, Bruhat-Tits tree, p-adic quantum mechanics, topological quantum computing, grand synthesis"
----
-
 # The Adelic Physics Program: A Grand Synthesis
 
 ## Abstract

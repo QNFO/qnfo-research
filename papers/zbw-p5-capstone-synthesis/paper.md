@@ -1,14 +1,3 @@
----
-title: "Vanishing ZBW Signal: The ZBW-Majorana Hypothesis as a Unified Framework for Topological Fermion Distinction"
-author: "Rowan Quni"
-date: "2026-07-25"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-superseded_by: "zbw-p5-capstone"
-keywords: "Zitterbewegung, Majorana fermion, topological invariant, $\\mathbb{Z}_2$ diagnostic, Bruhat--Tits tree, topological quantum computing, ultrametric readout"
----
-
 # Vanishing ZBW Signal: The ZBW-Majorana Hypothesis as a Unified Framework for Topological Fermion Distinction
 
 ## Abstract
