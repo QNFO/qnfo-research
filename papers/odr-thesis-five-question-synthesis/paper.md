@@ -1,13 +1,3 @@
----
-title: "ODR Thesis: The Compton Count as the Only Primitive — A Five-Question Synthesis"
-author: "QNFO"
-date: "2026-08-03"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
-keywords: "Ontological Distribution of Reality, Bruhat–Tits tree, Compton frequency, p-adic valuation, place-democracy, quasiparticles, particle ontology, silo failure, consilience"
----
-
 # ODR Thesis: The Compton Count as the Only Primitive — A Five-Question Synthesis
 
 ## Abstract

@@ -1,15 +1,10 @@
 # Operationalizing Generalized Symmetries
 
-## A Falsifiable Dictionary for Anyon Halos and Stretched Exponential Splitting in Moiré Superlattices
+*A Falsifiable Dictionary for Anyon Halos and Stretched Exponential Splitting in Moiré Superlattices*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/operationalizing-generalized-symmetries/ **Date:**
-2026-01-09 **Version:** 1.0
+## Abstract
 
-**Abstract**: The experimental realization of Fractional
+The experimental realization of Fractional
 Chern Insulators (FCIs) in twisted moiré superlattices has opened a new
 frontier for topological physics, yet the classification of their
 underlying generalized symmetries remains theoretically abstract. This
@@ -32,10 +27,6 @@ accessible to current experiments. These findings provide a rigorous
 “Halo-Hair Dictionary” for identifying non-Abelian topological orders
 using standard Scanning Tunneling Microscopy (STM) and transport
 techniques.
-
-**Keywords:** Generalized Symmetries, Moiré
-Superlattices, Anyon Halos, SymTFT, Holography, Topological Qubits,
-Stretched Exponential Splitting
 
 ## **1.0 Introduction** |
 
