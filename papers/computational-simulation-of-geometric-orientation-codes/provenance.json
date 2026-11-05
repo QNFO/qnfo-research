@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/computational-simulation-of-geometric-orientation-codes"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 39954,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "599013c20a53d64bfd67824ba2df79f9154b245a25415125e2e74aa4e6e277ca",
+      "bytes": 39420,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

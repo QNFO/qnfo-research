@@ -1,18 +1,10 @@
 # Computational Simulation of Geometric Orientation Codes
 
-## Addressing Isotropic Assumptions in Quantum Error Correction
+*Addressing Isotropic Assumptions in Quantum Error Correction*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/computational-simulation-of-geometric-orientation-codes/
-**Date:** 2026-04-09 **Version:** 1.0
-
-**Abstract**: Fault-tolerant quantum computing requires
+Fault-tolerant quantum computing requires
 robust error correction traditionally met using planar topologies that
 assume noise is perfectly isotropic. However, recent astrophysical
 measurements suggest the universe possesses fundamental anisotropic
@@ -35,10 +27,6 @@ universal planar code. We propose inducing artificial 100:1 noise biases
 via magnetic gradients to physically test these architectures. This
 establishes geometric orientation codes as potentially viable
 architectural blueprints for next-generation quantum processors.
-
-**Keywords**: Quantum Error Correction, Anisotropic
-Noise, Geometric Codes, Lorentz Violation, Surface Codes, Fault
-Tolerance, Spatial Orientation
 
 ## 1.0 Introduction
 

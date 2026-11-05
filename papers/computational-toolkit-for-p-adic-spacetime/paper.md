@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/computational-toolkit-for-p-adic-spacetime/"
-date: "2026-04-04"
-version: "1.0"
-keywords: "p-adic quantum mechanics, Bruhat-Tits tree, computational methodology, wavelet analysis, topological quantum error correction, non-Archimedean spacetime, phenomenological simulation"
----
-
 # Computational Toolkit for p-Adic Spacetime
 
 ## Abstract

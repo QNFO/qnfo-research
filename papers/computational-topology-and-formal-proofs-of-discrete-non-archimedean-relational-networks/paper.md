@@ -1,19 +1,10 @@
 # Computational Topology and Formal Proofs of Discrete Non-Archimedean Relational Networks
 
-## Addressing Continuous Macroscopic Geometry vs. Discrete Relational Topology in Quantum Gravity
+*Addressing Continuous Macroscopic Geometry vs. Discrete Relational Topology in Quantum Gravity*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/computational-topology-and-formal-proofs-of-discrete-non-archimedean-relational-networks/ **Date:**
-2026-03-20 **Version:** 1.0
-
-**Abstract**: The fundamental reconciliation of quantum
+The fundamental reconciliation of quantum
 mechanics with macroscopic geometry requires a departure from continuous
 Archimedean manifolds, substituting them with discrete non-Archimedean
 topologies at the Planck scale. This foundational shift is
@@ -37,10 +28,6 @@ ontological reality remains a timeless, self-contained relational
 network, where apparent dynamic evolution is the statistical byproduct
 of embedded biological subgraphs traversing hierarchical information
 topologies subject to Poincaré recurrence.
-
-**Keywords**: Non-Archimedean Topology, Quantum Gravity,
-Wheeler-DeWitt Equation, p-Adic Space, Holographic Principle,
-Bruhat-Tits Tree, Epistemic Time
 
 ## 1.0 Introduction and Foundational Context
 

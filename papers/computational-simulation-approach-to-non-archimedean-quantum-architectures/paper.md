@@ -1,15 +1,10 @@
 # Computational Simulation Approach to Non-Archimedean Quantum Architectures
 
-## Addressing Continuous Analog Fragility through Ultrametric Geometric Robustness
+*Addressing Continuous Analog Fragility through Ultrametric Geometric Robustness*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/computational-simulation-approach-to-non-archimedean-quantum-architectures/
-**Date:** 2026-04-16 **Version:** 1.0
+## Abstract
 
-**Abstract**: The prevailing quantum computing paradigm
+The prevailing quantum computing paradigm
 is fundamentally constrained by the continuous analog fragility inherent
 to Archimedean spaces, resulting in uncontrolled linear error
 accumulation that demands massive active correction overheads. To
@@ -33,11 +28,6 @@ geometric fault tolerance. These findings carry implications for the
 future of post-NISQ hardware, formally bridging holographic tensor
 network theory with applied digital emulation to outline a scalable
 computational substrate.
-
-**Keywords**: non-Archimedean computation, p-adic
-quantum state space, ultrametric geometric fault tolerance, van der Put
-Neural Networks, Bruhat-Tits tree automorphisms, Bounded Algorithmic
-Number hardware
 
 ## 1.0 Introduction and Contextual Motivation
 

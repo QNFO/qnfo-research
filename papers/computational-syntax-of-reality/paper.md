@@ -1,15 +1,10 @@
 # Computational Syntax of Reality
 
-## Addressing the Continuous-Discrete Tension via Syntactic Token Calculus
+*Addressing the Continuous-Discrete Tension via Syntactic Token Calculus*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/computational-syntax-of-reality/
-**Date:** 2026-04-12 **Version:** 1.0
+## Abstract
 
-**Abstract**: The persistent reliance on continuous,
+The persistent reliance on continuous,
 substance-based ontologies in theoretical physics has precipitated a
 crisis of non-renormalizable infinities, demanding a radical shift
 toward discrete relational foundations. By shifting to an epistemic

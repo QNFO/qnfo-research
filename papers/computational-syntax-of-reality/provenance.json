@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/computational-syntax-of-reality"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 59227,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "9ad1b06aafa5210982451a30ffab7d727621e0b16a3da07cd736bd048d21b20f",
+      "bytes": 58868,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

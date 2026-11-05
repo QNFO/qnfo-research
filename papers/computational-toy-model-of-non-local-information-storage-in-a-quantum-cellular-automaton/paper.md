@@ -1,16 +1,3 @@
----
-title: "A Computational Toy Model of Non-Local Information Storage in a Quantum Cellular Automaton"
-author: "Rowan Brad Quni-Gudzinas"
-ORCID: "0009-0002-4317-5604"
-ISNI: "0000000526456062"
-doi: ""
-date: "2026-08-19"
-version: "1.1.2"
-status: published
-license: "CC-BY-4.0"
-keywords: ["Quantum Cellular Automata", "Holographic Principle", "Quantum Error Correction", "Mutual Information", "Entanglement Entropy", "Toy Models"]
----
-
 # Computational Toy Model of Non-Local Information Storage in a Quantum Cellular Automaton
 
 ## Abstract
