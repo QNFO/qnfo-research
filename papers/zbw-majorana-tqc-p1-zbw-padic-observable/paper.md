@@ -1,10 +1,3 @@
----
-author: "QNFO Research Agent |"
-date: "2026-07-05 |"
-license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
-keywords: "Zitterbewegung, Majorana fermion, p-adic observable, ultrametric topology, Bruhat-Tits tree, topological quantum computing, intrinsic dynamical decoupling"
----
-
 # Zitterbewegung as a p-Adic Observable: Ultrametric Readout and Intrinsic Topological Protection
 
 ## Abstract
@@ -171,10 +164,7 @@ Whether these conjectures survive experimental scrutiny is an empirical question
 
 ---
 
-
-
 ---
-
 
 ## 4b. Dirac vs Majorana Bruhat-Tits Comparison
 
@@ -215,9 +205,7 @@ The correct interpretation is: **the Majorana constraint does not make the ZBW g
 
 Does the Majorana graph's slightly increased non-ultrametricity flow from a physical source (the C-matrix introduces phase structure that resists tree projection) or from the choice of coupling model (the factor-1/2 reduction for Majorana self-interference)? This question can be resolved by a full QFT calculation of the Majorana ZBW transition amplitudes.
 
-
 ---
-
 
 ## 5b. p-Adic Valuation of the Mass Parameter
 
@@ -245,9 +233,7 @@ The Bruhat-Tits tree for $\mathbb{Q}_2$ is an infinite regular tree where vertic
 
 This fixed point is a **topological invariant**: no continuous (Archimedean) perturbation to the Hamiltonian can move it, because the $\mathbb{Q}_2$ and $\mathbb{R}$ topologies on $\mathbb{Q}$ are mutually singular `[established, Ostrowski's theorem]`. This is the mathematical basis for intrinsic qubit protection without QEC.
 
-
 ---
-
 
 ## 6b. Expanded Experimental Protocols
 
@@ -310,9 +296,7 @@ This fixed point is a **topological invariant**: no continuous (Archimedean) per
 
 **Falsifiability:** Disconfirmed if $\delta_{\text{Majorana}} \geq \delta_{\text{Dirac}}$ with statistical significance, OR if both are far from zero (indicating neither system has ultrametric structure).
 
-
 ---
-
 
 ## 7b. Connection to p-Adic Anyons and Adelic QEC
 
@@ -336,9 +320,7 @@ The long-term research program implied by this work is an **adelic formulation o
 
 This adelic perspective unifies seemingly disparate phenomena: the Compton-scale oscillation (Archimedean ZBW), the topological protection of Majorana zero modes (p-adic ZBW), and the measurement problem (choosing the correct completion for readout).
 
-
 ---
-
 
 ## 8b. Falsifiability Scorecard
 
@@ -367,7 +349,6 @@ The fastest path to falsification (or confirmation) of the central hypothesis is
 1. **Protocol A (3-6 months):** Spin noise spectroscopy can be performed with existing Majorana nanowire experimental setups. No new hardware required.
 2. **Protocol C (6-12 months):** Gromov δ measurement requires moderate experimental effort (N ≈ 20 states, existing transport measurement techniques).
 3. **Protocol B (1-3 years):** Hensel lifting requires advances in trapped-ion state preparation at the fidelity needed for 2-bit → 8-bit lifting. More challenging but highest-impact.
-
 
 ## References
 

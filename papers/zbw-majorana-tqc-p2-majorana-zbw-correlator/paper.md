@@ -1,10 +1,3 @@
----
-author: "QNFO Research Agent |"
-date: "2026-07-05 |"
-license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
-keywords: "Zitterbewegung, Majorana fermion, current correlator, topological invariant, quantum field theory, $\\mathbb{Z}_2$ diagnostic"
----
-
 # Majorana Zitterbewegung Current Correlator: Vanishing ZBW Signal as a Z2 Topological Invariant
 
 ## Abstract

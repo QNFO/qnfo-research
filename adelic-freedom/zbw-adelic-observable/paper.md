@@ -1,12 +1,3 @@
----
-title: "Zitterbewegung: From Archimedean Puzzle to Adelic Observable"
-author: "QNFO Research"
-date: "2026-07-26"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
----
-
 # Zitterbewegung: From Archimedean Puzzle to Adelic Observable
 
 ## Abstract

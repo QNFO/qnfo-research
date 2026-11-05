@@ -1,16 +1,3 @@
----
-title: "Holographic QEC as AdS/CFT RG Flow on Bruhat–Tits Trees"
-subtitle: "X3.4 — Tensor Networks, p-Adic Holography, and the Tree as Bulk Geometry"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-24"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "pending"
-status: "published"
-series: "QNFO Cross-Domain Phase — X3.4"
-parent: "Master Work Plan v2.0 — Cross-Domain Phase X1–X6 (https://papers.qnfo.org/papers/rg-harmonic-synthesis/)"
-prerequisites: "X2.1 (p-Adic HO Spectra on Bruhat–Tits Trees), X3.1 (Bosonic QEC ↔ RG Fixed Points), X3.2 (Bosonic QEC on Bruhat–Tits Trees), X3.3 (Bosonic Codes as the Native Encoding), X5.3 (Efimov–SM Mass Spectrum)"
----
-
 # Holographic QEC as AdS/CFT RG Flow on Bruhat–Tits Trees
 
 *X3.4 — Tensor Networks, p-Adic Holography, and the Tree as Bulk Geometry*

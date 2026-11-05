@@ -1,10 +1,3 @@
----
-author: "QNFO Research Agent |"
-date: "2026-07-05 |"
-license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
-keywords: "Zitterbewegung, Majorana fermion, Z₂ topological invariant, spin noise spectroscopy, EELS, RIXS, Bruhat-Tits tree, Gromov hyperbolicity"
----
-
 # Bruhat-Tits Readout Protocol: Measuring the ZBW Z2 Invariant in Majorana Systems
 
 ## Abstract
