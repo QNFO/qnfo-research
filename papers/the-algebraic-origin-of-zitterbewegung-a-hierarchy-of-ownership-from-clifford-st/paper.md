@@ -336,29 +336,6 @@ If an experimental platform exhibits a persistent ZB‑type oscillation while th
 - Interaction effects: how many‑body correlations modify the anticommutator (3.1) and whether the algebraic ownership survives.
 - Non‑Archimedean formulations suggested by [13] and [14]; [13] proposes an adelic framework mixing Archimedean and 2‑adic channels, and [14] treats Zitterbewegung as a p‑adic observable with ultrametric readout, so reconciling the present Archimedean beat frequency with ultrametric proposals remains an open theoretical direction.
 
-## Appendix A. Divergence report
-
-No divergent claims were identified among the independent drafts; all substantive claims converged on the same statements and derivations.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source |
-|---|---|---|
-| C1 | A closed‑form operator derivation of the velocity and position dynamics, $\alpha_j(t)=c p_j H^{-1}+Z_j e^{-2iHt/\hbar}$ and the corresponding position decomposition, from the single algebraic input $\{H,\alpha_j\}=2c p_j$ (Section 3). | This paper |
-| C2 | A generalization theorem: for any Hamiltonian on a Clifford module whose velocity operators satisfy $\{H,\gamma_a\}=2\,\mathcal{O}$, the oscillation exists exactly when two eigenspaces are coherently populated, and its frequency always equals the inter‑eigenspace beat frequency $(E_{+}-E_{-})/\hbar$ (Sections 3–4). | This paper |
-| C3 | Fully worked numerical evaluations of the rest‑frame electron case ($f_{0}=2.471\times10^{20}\,$Hz, amplitude $a_{0}=1.931\times10^{-13}\,$m) and of an illustrative gapped Dirac material ($f=4.836\times10^{13}\,$Hz at $\Delta=0.1\,$eV) (Section 4). | This paper |
-| C4 | A falsifiable experimental signature – eigenspace‑filtered wave‑packet dynamics – and an assessment of readiness, blockers, and the smallest next test on existing simulator platforms (Sections 6–7). | This paper |
-| R1 | Exact operator solution $\alpha_j(t)=c p_j H^{-1}+Z_j e^{-2iHt/\hbar}$ and position decomposition (3.4) hold for any representation of the Clifford relations. | This paper |
-| R2 | Beat‑frequency theorem: observable ZB oscillation occurs iff two eigenspaces are populated, with angular frequency $\omega_{\mathrm{ZB}}=(E_{+}-E_{-})/\hbar$. | This paper |
-| R3 | Rest‑frame electron numbers: $f_{0}=2.471\times10^{20}\,$Hz, $a_{0}=1.931\times10^{-13}\,$m. | This paper |
-| R4 | Material‑scale numbers for $\Delta=0.1\,$eV: $f=4.836\times10^{13}\,$Hz, period $20.7\,$fs. | This paper |
-| R5 | Universal scaling $f=2.418\times10^{14}\,\mathrm{Hz/eV}\times(E_{+}-E_{-})$. | This paper |
-| R6 | Suppression prediction: preparing a wave packet wholly in one eigenspace eliminates the ZB term identically. | This paper |
-
-Overall, the algebraic ownership framework unifies the disparate observations of Zitterbewegung across platforms and provides a clear, representation‑independent criterion for its presence. The derived beat‑frequency relation together with the eigenspace‑filtering test constitute concrete tools for experimental design and interpretation, turning Zitterbewegung from a theoretical curiosity into a practical spectroscopic diagnostic.
-
-The algebraic ownership framework also invites exploration of how decoherence, many‑body interactions, and curved‑spacetime backgrounds modify the anticommutator structure and the resulting beat‑frequency relation. Addressing these extensions will clarify the limits of the conjecture and guide the design of next‑generation quantum‑simulator experiments.
-
 ## 7. Practical Implications and Engineering Pathways
 
 **(a) Who would use the result and which decision, design parameter, process or policy changes if it holds.**

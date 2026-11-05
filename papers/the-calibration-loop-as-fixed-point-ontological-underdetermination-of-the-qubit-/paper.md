@@ -299,10 +299,6 @@ The central claim—that the standard calibration loop cannot distinguish a two�
 
 We have formalized the calibration hierarchy of engineered qubits as an iterated map, derived its contraction condition, and quantified the iteration count required to reach the readout noise floor. By constructing two ontologically distinct models—a two‑level abstraction and a three‑level anharmonic ladder—we proved that, under any measurement chain confined to the computational subspace, the models yield identical outcome statistics. Quantitative anchoring on a typical trapped‑ion readout fidelity yields a per‑shot error of $9\times10^{-5}$, a minimum of $11$ calibration iterations, and a shot budget of $N\ge2500$ to resolve the ontologies once a leakage‑resolving observable is introduced. The circularity of the calibration loop is broken only by extending the measurement chain beyond the subspace or by enforcing cross‑platform consistency. The analysis clarifies the epistemic limits of current certification pipelines and points to concrete experimental extensions that would decisively test the underdetermination claim.
 
-## Version History
-
-- Version 1.1.0 (2026-10-19, from 1.0.0): revised against the current literature, re-reviewed and re-verified. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report; Appendix B. Claim attribution. references 11 -> 10. length 4216 -> 3873 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.27.6-revision-nonregress). Language models were tools in that process; they are not authors. The named author is accountable for the content.

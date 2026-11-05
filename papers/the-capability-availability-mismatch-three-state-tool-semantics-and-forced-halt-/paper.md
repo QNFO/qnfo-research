@@ -225,10 +225,6 @@ Any signaling mechanism whose per-task cost is below $0.27\,c_{t}$ is cheaper th
 
 Agent protocols that assume a binary tool-availability model are underspecified on a third state — capability present, permission denied — that per-tenant and per-budget gating makes common. We formalized the mismatch: a three-state semantics over capability and permission, a definition of protocol compliance over it, and a classification of protocol designs by well-definedness. The combinatorial result is that a binary protocol over $k$ gated tools is specification-complete on $(2/3)^{k}$ of the true state space ($32/243 \approx 0.132$ at $k=5$; a $57.7\times$ state-space gap at $k=10$). The computability result is that deciding whether an arbitrary protocol loop halts compliantly is undecidable, so well-definedness must be built in by syntactic restriction rather than verified after the fact. The economic projection, under stated rates, is a mismatch probability of $0.27$ per gated invocation and a signaling break-even threshold of $0.27\,c_{t}$ per task. The design rule that follows — separate capability from permission, signal the disabled state explicitly, and define compliance over all three states — removes the forced-halt/violation dilemma by construction. The smallest experiment that would confirm or refute the practical claim is a three-condition gate study measuring forced-halt and fabricated-fetch rates; until such measurements exist, the numbers here are projections and the framework is a specification proposal, not a validated deployment practice.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.5-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

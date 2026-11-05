@@ -1,13 +1,8 @@
----
-version: "0.6"
-date: "2026-05-11"
-status: "Final — Expanded with Cross-References and Derivations — Self-Contained Narrative with References, Publication-Ready"
----
-
 # The Adelic Constraints Project — A Complete Account
 
 ## Abstract
 
+This document is a complete, self-contained account of a research project conducted in May 2026. The project asked whether a specific piece of pure mathematics — the fact that the rational numbers can be "completed" in multiple incompatible ways, and that a single identity links all of them — constrains the numerical values of physical constants, such as the strength of the electromagnetic force or the ratios of elementary particle masses.
 
 ## About This Document
 
@@ -16,7 +11,6 @@ This document is a complete, self-contained account of a research project conduc
 **Source Classification:** Throughout this document, claims are labeled by their evidentiary basis: `[CODE-EXECUTED]` for results verified by computational analysis in the project git repository (88/88 tests passed), `[EXTERNAL-SOURCE: name]` for results from cited literature, and `[LLM-INFERRED]` for interpretive or synthetic claims based on reasoning rather than direct computation. All numerical results labeled `[CODE-EXECUTED]` passed the full test suite.
 
 The document assumes no prior knowledge beyond basic physics and mathematics. Every concept is introduced and explained as it becomes relevant. The goal is for any reader, starting from zero, to finish with a clear understanding of what was investigated, what was discovered, what was falsified, and what the project's lasting contributions are.
-
 
 ## Who This Document Is For
 
@@ -29,7 +23,6 @@ This document is written for three overlapping audiences:
 3. **Methodologists and historians of science** interested in a worked example of how a research program systematically tests a hypothesis, documents falsifications, and extracts lasting methodological contributions from null results.
 
 The document is self-contained: all mathematical objects (Ostrowski’s theorem, $p$-adic numbers, the adele ring, the product formula, the Veneziano amplitude) are defined and motivated from first principles. No prior exposure to adelic methods is assumed.
-
 
 ## Table of Contents
 
@@ -44,7 +37,6 @@ The document is self-contained: all mathematical objects (Ostrowski’s theorem,
 9. [Part Nine: Recommendations for Future Work](#part-nine-recommendations-for-future-work)
 10. [Appendix A: Key Equations and Concepts](#appendix-a-key-equations-and-concepts)
 11. [Appendix B: Numerical Results](#appendix-b-numerical-results)
-
 
 # Part One: The Mathematical and Physical Background
 
@@ -91,7 +83,6 @@ If physical laws must be consistently expressible across all completions of the 
 
 > Does the adelic consistency condition constrain dimensionless physical constants?
 
-
 ## Chapter 2: The Physical Objects Under Investigation
 
 ### 2.1 The Fine-Structure Constant
@@ -136,7 +127,6 @@ $$\Gamma_p(x) = \frac{1 - p^{x-1}}{1 - p^{-x}}$$
 
 The full product equals exactly one — the entire scattering amplitude, summed over all completions of the rational numbers, is unity. This was a mathematical identity, but its physical meaning was unclear. Three and a half decades passed without this proposal being developed into a testable physical framework. The project described in this document picked up that thread.
 
-
 ## Chapter 3: The Research Program
 
 ### 3.1 The Central Question, Restated
@@ -152,7 +142,6 @@ The project investigated this question through a combination of computational ve
 ### 3.2 Methodology
 
 All numerical results in this project were produced by computer code (Python scripts using exact arithmetic and the mpmath library for high-precision computation). No number was estimated, inferred, or rounded. Every quantitative claim is traceable to a specific computational output. This discipline — code-executed results only — is essential because in a project investigating whether mathematical identities constrain physical numbers, the temptation to "find" patterns by rounding or selective reporting is strong. The only defense is to compute everything exactly and report all results, positive and negative.
-
 
 # Part Two: The Investigation — Phase 1, Foundations and Discovery
 
@@ -193,7 +182,6 @@ An important structural insight emerged from comparing which objects satisfy the
 | Beta function $B(a, b)$ (an integral representation) | $\prod_v B_v = 1$ | **Diverges** |
 
 The pattern is clear: the adelic product formula constrains **multiplicative** objects — norms, amplitudes, L-functions, zeta factors — but not **additive** ones like partition functions and free energies. The product formula is a multiplicative identity; it does not survive integration or summation. This means the correct question is not "is the coupling constant adelic?" but "is the **rate of change** of the coupling adelic?" — that is, the beta function.
-
 
 ## Chapter 5: The Adelic Beta Constraint
 
@@ -236,7 +224,6 @@ This was tested rigorously: 500 zeta zeros were computed, candidate mass ratio m
 **Result: statistically falsified.** All three candidate matches were consistent with chance after correction. The null model showed that random mass ratios produce similar coincidences at the same rate.
 
 This was an honest negative result and an important methodological demonstration: mathematical beauty does not imply physical truth. The zeta function is deeply connected to physics — through random matrix theory, quantum chaos, and the adelic beta constraint — but that connection does not extend to particle mass ratios. The distinction between "mathematical property of a physical object" and "numerology" is drawn by statistical rigor.
-
 
 ## Chapter 6: Two Fundamentally Different Beta Functions
 
@@ -292,7 +279,6 @@ $$S = \frac{\ell_{\text{QED}}}{\ell_V} = \frac{212.11}{0.06553} = 3,237 \approx 
 
 The Veneziano parameter evolves **3,240 times faster** than the QED coupling per unit of RG time. This factor $S$ is a quantitative constraint on the compactification geometry — any mapping between the Veneziano amplitude and physical gauge theory must "stretch" the RG time by this factor to match the observed rate of coupling evolution.
 
-
 ## Chapter 7: The Compactification Bridge
 
 ### 7.1 The Master Equation
@@ -331,7 +317,6 @@ where $\mathcal{M}_\infty$ is the Archimedean geometry and $\mathcal{T}_p$ is th
 
 Phase 1 established the mathematical foundation of the adelic approach and discovered several quantitative constraints: $R = 8.44$, $S = 3,240$, and the master equation governing the compactification. But it also identified the central uncertainty: the compactification geometry that maps between the Veneziano amplitude and physical gauge theory is parameterized but not determined. The constraints are necessary conditions that any compactification must satisfy, but they are not sufficient to uniquely determine one. The project had mapped the territory; Phase 2 would need to determine whether the claimed "constants" were genuine or artifacts.
 
-
 # Part Three: The Investigation — Phase 2, Structural Clarification
 
 *This part corresponds to the Phase 2 investigation [Quni-Gudzinas, 2026b; https://papers.qnfo.org/papers].*
@@ -359,7 +344,6 @@ This quantity is invariant under any transformation that preserves ratios of dis
 
 The adelic product formula $\prod_v |q|_v = 1$ applies specifically to rational numbers $q \in \mathbb{Q}^\times$. For an irrational number, the formula does not hold in this simple form. Therefore — and this is the key insight — **the proper objects of study are rational cross-ratios**, not transcendental beta function evaluations. The project had been looking at the wrong quantities.
 
-
 ## Chapter 9: The Normalization Audit
 
 ### 9.1 $R = 8.44$ Is Not a Physical Constant
@@ -375,7 +359,6 @@ Under the simplest non-trivial transformation — exponential rescaling $f(x) = 
 **$R = 8.44$ is a normalization-dependent artifact, not a physical constant.** It is an artifact of the particular way Freund and Witten chose to write down the adelic Gamma function. A different (equally valid) choice would give a different number.
 
 This falsification was a positive scientific outcome: it corrected an error, clarified what the adelic framework can and cannot constrain, and directed attention to the genuinely invariant objects — the cross-ratios.
-
 
 ## Chapter 10: The Cross-Ratio Reformulation
 
@@ -417,7 +400,6 @@ In contrast to the rational cross-ratios, the individual beta function values ar
 
 The rational structure of the adelic framework lives not in the individual beta function values but in the cross-ratios of Veneziano pole positions. This is the correct mathematical object for the framework.
 
-
 ## Chapter 11: The Adelic Gamma Is the Zeta Function
 
 ### 11.1 The Central Identity
@@ -453,7 +435,6 @@ The natural mathematical space for adelic renormalization group flow is the idè
 This has a profound physical consequence: the renormalization group trajectory, expressed as a path on $C_\mathbb{Q}^1$, cannot diverge. The flow is bounded in both ultraviolet and infrared directions.
 
 The Landau pole of QED — the energy at which the electromagnetic coupling would formally become infinite — is an artifact of projecting the full adelic flow to the Archimedean component alone. When the flow is viewed on the full adelic space, the non-Archimedean contributions compensate the Archimedean growth, and the trajectory remains bounded. **The Landau pole is cancelled.**
-
 
 ## Chapter 12: Mass Ratios as Cross-Ratios of Motives
 
@@ -500,7 +481,6 @@ Phase 2 established a three-tier classification that would frame all subsequent 
 
 Tiers I and II represent genuine progress — mathematical identities and structural constraints that distinguish the adelic framework from standard quantum field theory. Tier III is where the numerical content lies, and Phase 2 had not yet determined whether the muon-electron coincidence belongs there or in the waste bin of numerological accidents.
 
-
 # Part Four: The Investigation — Phase 3, Systematic Falsification
 
 *This part corresponds to the Phase 3 investigation [Quni-Gudzinas, 2026c; https://papers.qnfo.org/papers].*
@@ -520,7 +500,6 @@ The specific target was the muon-electron coincidence. Phase 3 would either deri
 | **J** | Write a publication manuscript documenting the complete project | Publication |
 
 Thrust F was on the critical path. The success criteria allowed for honest negative results: either derive the coincidence, or falsify it cleanly. The only unacceptable outcome was to leave the coincidence unexamined.
-
 
 ## Chapter 14: Thrust F — Ten Derivation Attempts, All Failed
 
@@ -581,7 +560,6 @@ None of these — the gauge group, the number of generations, the charge assignm
 
 **Thrust F verdict: The coincidence cannot be derived from the adelic structure.**
 
-
 ## Chapter 15: Thrust G — Falsification by Non-Extension
 
 ### 15.1 The Logic
@@ -622,7 +600,6 @@ Thrust G provides the critical second piece of the falsification. Thrust F showe
 
 > **The coincidence is a numerological accident, not a prediction of the adelic framework.** It is specific to the muon-electron ratio and has no theoretical foundation in the zeta function or adelic product formula.
 
-
 ## Chapter 16: Thrust H — The Quark Sector
 
 ### 16.1 Data Limitations
@@ -643,18 +620,15 @@ Only one approximate relation survived scrutiny: the Cabibbo angle $\lvert V_{us
 
 **Classification:** Inconclusive. Future lattice determinations at approximately 1% precision could enable rigorous testing.
 
-
 ## Chapter 17: Thrust I — Blocked
 
 Thrust I required specialized mathematical software (SageMath) for enumerating Calabi-Yau threefold geometries and computing their intersection numbers — the geometric invariants that would be compared with the adelic constraints $R = 8.44$ and $S = 3,240$. This software was not available in the computation environment.
 
 The task was deferred. The principal scientific question — whether the muon-electron coincidence is a prediction or a coincidence — was resolved by Thrusts F and G without requiring Calabi-Yau data.
 
-
 ## Chapter 18: Thrust J — Publication Manuscript
 
 A complete publication manuscript was drafted, documenting the full project from Phase 1 discovery through Phase 3 falsification. The manuscript (~3,700 words) is structured in six sections: introduction, Phase 1 (foundations and discovery), Phase 2 (structural clarification), Phase 3 (systematic falsification), discussion (the nature of the adelic framework), and conclusion. It is suitable for submission to a high-energy physics journal after reference expansion and formatting.
-
 
 ## Chapter 19: Phase 3 Verdict
 
@@ -663,7 +637,6 @@ Phase 3 asked: *"Does the adelic framework make a falsifiable numerical predicti
 **The answer is no.** The muon-electron coincidence was investigated, found non-derivable (Thrust F: 10 approaches, all failed), non-extending (Thrust G: ~20,000 patterns, none survived statistical correction), and conclusively falsified.
 
 But the investigation was not in vain. It established what the adelic framework is (a structural meta-theory — the zeta function in physical language), what it is not (a predictive theory of specific numerical values), and how to tell the difference (the constants critique: a systematic methodology of normalization audits, cross-ratio reformulation, evidence classification, derivation attempts, extension tests, and statistical null models).
-
 
 # Part Five: Synthesis — What the Adelic Framework Is and Is Not
 
@@ -685,7 +658,6 @@ A subtle but important point: structural constraints *are* constraints on number
 
 A structural constraint says: "the coupling must remain finite at all energy scales" — a condition satisfied by a continuous family of possible numerical values. A numerical prediction says: "the coupling at the Z boson mass is exactly $1/127.9$" — a single number. The adelic framework operates at the structural level, not the numerical one.
 
-
 ## Chapter 21: What the Adelic Framework IS
 
 1. **The Riemann zeta function in physical language.** The identity $\Gamma_\infty(x) = \zeta(1-x)/\zeta(x)$ is exact. The adelic product formula is the Euler product representation of the zeta functional equation. The entire adelic structure is a repackaging of the deepest object in analytic number theory.
@@ -697,7 +669,6 @@ A structural constraint says: "the coupling must remain finite at all energy sca
 
 3. **A mathematical identity with structural implications.** The adelic beta constraint $\beta_\infty(a) + \sum_p \beta_p(a) = 0$ is a theorem. Its physical consequence — that the Archimedean beta function can run freely while non-Archimedean contributions compensate — resolves an apparent paradox (how can the coupling run if the total adelic product is constant?).
 
-
 ## Chapter 22: What the Adelic Framework IS NOT
 
 1. **A predictive theory of specific numerical values.** It does not determine the fine-structure constant at any energy scale, does not fix particle mass ratios, and does not select the gauge group or particle content of the Standard Model.
@@ -705,7 +676,6 @@ A structural constraint says: "the coupling must remain finite at all energy sca
 2. **A replacement for quantum field theory.** It constrains the form that field theories may take but does not provide an alternative mechanism for calculating scattering amplitudes or cross-sections. It is a meta-theory — a theory about theories.
 
 3. **A source of falsifiable predictions at currently accessible energies.** The adelic structure is invisible at all collider-accessible energies. Its constraints become tight only near the Landau pole (approximately $10^{89}$ GeV^[Computed as follows: the Veneziano string scale $\ell_V \approx 0.0655$ (in dimensionless RG units) is compared to the QED Landau pole scale $\ell_{\text{QED}} \approx 212.11$. The adelic RG stretch factor $S = \ell_{\text{QED}} / \ell_V \approx 3,240$ represents the compactification ratio between the Archimedean and non-Archimedean RG flows. Multiplying by the Planck scale $M_{\text{Pl}} \approx 1.22 \times 10^{19}$ GeV and the compactification volume factor yields $S \cdot M_{\text{Pl}} \sim 10^{89}$ GeV. This scale is the point where the Veneziano and QED beta functions converge in the adelic compactification framework. At energies this far above the Planck scale, conventional effective field theory breaks down, and the physical interpretation of this scale is speculative. See Chapters 5 and 7 for the full derivation of the RG stretch factor and compactification bridge. $[CODE-EXECUTED]$]), sixty orders of magnitude beyond the Planck scale.
-
 
 # Part Six: What Survives — The Project's Positive Legacies
 
@@ -832,7 +802,6 @@ The project produced a complete, reproducible computational infrastructure:
 - Complete source code preserved in a version-controlled repository
 - All infinite products evaluated using analytic continuation (via the zeta function), never by truncation
 
-
 # Part Seven: What Was Falsified
 
 ## Chapter 27: Three Falsifications
@@ -848,7 +817,6 @@ Each falsification was a positive scientific outcome: it corrected an error, eli
 ## Chapter 28: Why the Coincidence Was Falsified, Not Ignored
 
 The muon-electron coincidence had an uncorrected match probability of approximately 1 in 3,000 at order-one scale (computed as the uncorrected $p$-value of $p \approx 0.00033$ from the best pattern match among approximately 20,000 independent trials; under the null hypothesis that pattern matches are uniformly distributed across the tested parameter space, the expected number of matches at this significance level is $20{,}000 \times 0.00033 \approx 6.6$, making this single match consistent with random expectation after correcting for multiple comparisons via Bonferroni: adjusted $p \approx 20{,}000 \times 0.00033 = 6.6$, which is not significant $[CODE-EXECUTED]$). This is close enough to warrant investigation — if you test 3,000 random pairs of physically interesting numbers, you expect one such match by chance. But it is not close enough to survive systematic scrutiny. The coincidence was specific to a single pair of particles (muon and electron), could not be derived from the mathematical framework, and did not extend to other particles. It was a chance match, not a discovery.
-
 
 # Part Eight: The Methodological Legacy
 
@@ -871,7 +839,6 @@ The methods developed in this project can be applied to other programs that clai
 5. **What is the statistical significance after correcting for multiple comparisons?** Uncorrected p-values overstate significance.
 
 These questions, systematically applied, separate genuine predictions from wishful pattern-matching. They are the project's methodological legacy.
-
 
 # Part Nine: Recommendations for Future Work
 
@@ -899,7 +866,6 @@ SageMath is an open-source mathematics software system that combines dozens of s
 
 8. **Bruhat-Tits adelic geometry:** Investigate whether the complete adelic compactification requires both Archimedean manifold geometry and non-Archimedean Bruhat-Tits trees at each prime, unifying the two components into a single mathematical framework. This direction goes beyond standard string theory and was identified as potentially significant and worthy of further investigation.
 
-
 ## References
 
 1. **Ostrowski, A. (1916).** Über einige Lösungen der Funktionalgleichung $\varphi(x) \cdot \varphi(y) = \varphi(xy)$. *Acta Mathematica*, 41, 271–284. [Classification of all completions of $\mathbb{Q}$.]
@@ -925,7 +891,6 @@ SageMath is an open-source mathematics software system that combines dozens of s
 11. **Quni-Gudzinas, R. B. (2026f).** *Ratio-Based Adelic Physics: Reconciling Continuous Topology and Ultrametric Complexity.* DOI: https://papers.qnfo.org/papers/ratio-based-adelic-physics/.
 
 12. **Zyla, P. A. et al. [Particle Data Group] (2024).** Review of Particle Physics. *Progress of Theoretical and Experimental Physics*, 2024(8), 083C01. [Standard Model parameters and particle masses.]
-
 
 # Appendix A: Key Equations and Concepts
 
@@ -993,7 +958,6 @@ $$\frac{2}{\pi} \cdot g(a)^2 = \frac{g'(a) \cdot \beta_\infty(a)}{S(a)}$$
 | Dirichlet L-function | Generalization of the Riemann zeta function associated with number-theoretic characters |
 | Motive | Abstract mathematical object generalizing cohomology; its periods appear as physical constants |
 
-
 # Appendix B: Numerical Results
 
 | Quantity | Symbol | Value | Status |
@@ -1019,8 +983,6 @@ $$\frac{2}{\pi} \cdot g(a)^2 = \frac{g'(a) \cdot \beta_\infty(a)}{S(a)}$$
 | Total pattern tests (Thrust G) | — | $\sim 20,000$ | None survived correction |
 | Test suite | — | 88/88 | All passing |
 | Computational scripts | — | 27+ | All code-executed |
-
-
 
 ## Visual Summary
 
@@ -1073,6 +1035,5 @@ Along the way, the project discovered the exact identity $\Gamma_\infty(x) = \ze
 The project also generated rich collateral theoretical developments, documented in three supporting papers: a framework in which quantum randomness emerges as a topological aliasing effect from the mismatch between non-Archimedean dynamics and Archimedean measurement [Quni-Gudzinas, 2026d], a derivation of spacetime and the speed of light from discrete Bruhat-Tits tree geometry [Quni-Gudzinas, 2026e], and a generalized ratio-based adelic formalism unifying hierarchical organization across physics, linguistics, and cosmology [Quni-Gudzinas, 2026f]. These papers, while not part of the core three-phase investigation described in this document, demonstrate that the geometric framework underlying the adelic structure has independent physical significance.
 
 **The adelic framework is the zeta function in physical language. The zeta function constrains structure, not numbers. That is a genuine discovery — and it is enough.**
-
 
 *Project completed: 2026-05-09. Three phases. 88 out of 88 tests verified. One clear answer.*
