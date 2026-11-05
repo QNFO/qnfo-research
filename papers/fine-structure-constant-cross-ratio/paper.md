@@ -1,22 +1,3 @@
----
-title: "Fine-Structure Constant as a Cross-Ratio: A Geometric Reframing of α"
-author: Rowan Brad Quni-Gudzinas
-orcid: 0009-0002-4317-5604
-isni: 0000000526456062
-date: 2026-07-12
-version: 1.0
-doi: ""
-license: QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
-abstract: >
-  The fine-structure constant $\alpha \approx 1/137.036$ is reframed as the cross-ratio of two
-  measurable electron length scales (classical radius $r_e$ / Compton wavelength $\lambda_C$).
-  This reveals projective invariance in $\alpha$, connects to integer-ratio precision experiments,
-  and integrates five mathematical formalisms: adelic, projective, topological, syntactic, and
-  hierarchical. Version 1.0 adds the adelically extended cross-ratio on Bruhat–Tits buildings
-  (§7.7), explicit falsifiability conditions (§8.4), and synthesis with the QNFO adelic physics
-  program (July 2026).
----
-
 # Fine-Structure Constant as a Cross-Ratio: A Geometric Reframing of α
 
 ## Abstract

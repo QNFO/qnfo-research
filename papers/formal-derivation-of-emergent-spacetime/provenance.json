@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/formal-derivation-of-emergent-spacetime"
   },
   "declared": {
-    "version": "1.0.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 38820,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "f41df1e5a9b784d01ac833176cf0e24dd7fec4b36cc539ed959c546cd2bdf00e",
+      "bytes": 38415,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

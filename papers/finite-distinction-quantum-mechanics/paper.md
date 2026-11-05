@@ -1,16 +1,3 @@
----
-title: "Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics"
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-date: "2026-08-20"
-license: "CC-BY-4.0"
-status: "published"
-version: "1.0.2"
-locked: "2026-08-21 (P9 verification-prose remediation)"
-doi: ""
-concept_doi: "https://papers.qnfo.org/papers"
----
-
 # Finite-Distinction Quantum Mechanics: Unitary Evolution and Superposition as the Large-Distinction Limit of Stochastic Thermodynamics
 
 ## Abstract

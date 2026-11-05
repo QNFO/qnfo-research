@@ -1,13 +1,3 @@
----
-title: "Finite Specification, Ontological Indeterminism: The Gisin--Del Santo Program Converges with Autaxys Ontological Closure"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-28"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "PENDING-the QNFO archive"
-status: "draft"
-keywords: "finite-precision physics, ontological closure, indeterminism, real numbers, hidden variables, intuitionistic mathematics, constructive mathematics, D/R procedures, computable reals, creative time, consilience"
----
-
 # Finite Specification, Ontological Indeterminism: The Gisin–Del Santo Program Converges with Autaxys Ontological Closure
 
 ## Abstract

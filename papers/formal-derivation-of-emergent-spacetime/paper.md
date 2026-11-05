@@ -1,19 +1,10 @@
 # Formal Derivation of Emergent Spacetime to the Bruhat-Tits Tree
 
-## Addressing Discrete Combinatorial Geometry vs. Continuum Spacetime Physics
+*Addressing Discrete Combinatorial Geometry vs. Continuum Spacetime Physics*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers **Date:**
-2026-03-31 **Version:** 1.0.1
-
-**Abstract**: The fundamental incompatibility between
+The fundamental incompatibility between
 the continuous spacetime of general relativity and the
 background-dependent time of quantum mechanics suggests that time is not
 a fundamental constituent of reality. This paper addresses the
@@ -38,10 +29,6 @@ specific observational signatures, such as unique log-periodic
 fluctuations in the energy-dependent delays of high-energy photons,
 providing a testable pathway to empirically validate the breakdown of
 Lorentz invariance at the discrete Planck scale.
-
-**Keywords**: Bruhat-Tits tree, p-adic AdS/CFT, emergent
-spacetime, speed of light, Wheeler-DeWitt equation, zeta-regularization,
-combinatorial geometry
 
 ## 1.0 Introduction
 
