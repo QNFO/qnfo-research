@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/static-architecture-of-reality"
   },
   "declared": {
-    "version": "1.0.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 182152,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "0b0743775a261a190add12976c1c34673e0109fb1178d4426f87bf9da8e0c519",
+      "bytes": 181870,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

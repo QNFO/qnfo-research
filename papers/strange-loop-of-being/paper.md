@@ -1,15 +1,10 @@
 # Strange Loop Formal Derivation
 
-## The Strange Loop Theory of Physical Quantization: A Formal Derivation
+*The Strange Loop Theory of Physical Quantization: A Formal Derivation*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-**Publication Date:** 2025-10-22
-**Version:** 1.2.0
+## Abstract
 
-**Abstract**: This paper presents a rigorous
+This paper presents a rigorous
 mathematical derivation of the Standard Model of particle physics as the
 unique, stable solution to a universal fixed-point equation. Starting
 from the Principle of Informational Stability—the axiom that the
@@ -30,11 +25,6 @@ bounds matching experimental measurements. This top-down derivation from
 a single axiomatic principle provides a coherent framework that unifies
 quantum mechanics, relativity, and information theory while explaining
 why the universe is quantized rather than merely describing how.
-
-**Keywords:** strange loop, quantization, topological
-invariants, information stability, self-reference, Lefschetz number,
-winding number, Zitterbewegung, holography, paraconsistent logic,
-computational physics
 
 ### 1.0 Overall Proposition/Goal
 

@@ -1,17 +1,6 @@
 # Static Architecture of Reality
 
-## A Discrete Relational Synthesis
-
-**Author:** Rowan Brad Quni-Gudzinas
-
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/static-architecture-of-reality/ **Date:**
-2026-03-21 **Version:** 1.0.1
+*A Discrete Relational Synthesis*
 
 ## Chapter 1: Articulating the Core Ontological Claim
 

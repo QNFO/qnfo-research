@@ -38,8 +38,6 @@ Emergent time and emergent light speed from a static tree have been derived form
 
 The convergent synthesis literature supplies both the detectability numbers used in this paper and a no‑go theorem that constrains the observer model. The synthesis chain runs from a radix $p$ through the p‑adic numbers $\mathbb{Q}_p$, the ultrametric $d_p(x,y)=|x-y|_p$, tree hierarchy, and Bruhat–Tits buildings, with the Wheeler–DeWitt equation $H|\Psi\rangle=0$ eliminating external time and Page–Wootters conditioning producing clock states whose correlation structure is conjectured to be ultrametric [6]. Two results from that work are used quantitatively here. First, its CMB detectability analysis reports that a 3% p‑adic amplitude in simulated Planck data lies at the edge of detectability and that the signal must exceed 5% for Planck detection, with public Planck data enabling an analysis of under one hour [6]; Section 4.5 adopts the 5% threshold and derives $\sigma_\epsilon\approx 0.01$ under an explicitly stated reading of the significance figure. Second, its formal no‑go theorem proves that for any finite‑dimensional real energy spectrum with non‑negative weights, the Page–Wootters conditional state distance $d(\tau_1,\tau_2)=1-\bigl|\sum_n w_n e^{-iE_n(\tau_1-\tau_2)}\bigr|$ is not strictly ultrametric for all $\tau_1,\tau_2$ unless the clock is trivial (one state, or all energies equal), because a non‑constant ultrametric on the connected space $\mathbb{R}$ would require clopen balls, of which $\mathbb{R}$ has none [6]. The same work reports that a $D=4$ Fourier‑clock construction was falsified by its own distance spectrum, which had 29 distinct values for $N=30$ states [6]. This no‑go theorem is carried as a structural limitation in Section 6: the observer worldlines of the present model live on the tree and inherit its ultrametric, but the conditional states that would define an observer's clock are provably non‑ultrametric in any non‑trivial Archimedean parametrization, so the reconciliation of the two is an open problem, not a solved step.
 
-
-
 ## 3. Methods
 
 ### 3.1 Definition of the static p‑adic tree
@@ -323,11 +321,6 @@ The observational content is the log‑periodic modulation $P(k)=P_0(k)\,[1+\eps
 Three corrections to prior statements of the model were carried through the derivations. The detection and null‑result thresholds are now derived, under an explicitly stated convention, rather than asserted. The prediction now specifies its amplitude, phase, period, and uncertainty, and no quantitative comparison to existing CMB data is claimed. The chordality claim is downgraded: trees are vacuously chordal under the stated graph‑theoretic convention, but realizing the holographic entropy vectors of [3] on the p‑adic tree remains an open requirement, not a construction.
 
 The result rests on assumptions that are stated rather than hidden: the conversion factor $\lambda$, the embedding constant $c$, the $p^{2n/3}$ area ansatz, the one‑bit‑per‑node assignment, and the adopted reading of the detectability figures. The no‑go theorem of [6] — that Page–Wootters conditional state distances are not ultrametric except for trivial clocks — stands as a direct structural threat to the observer model and marks the reconciliation of Archimedean clock states with the tree's ultrametric as the central open problem. If the proposed reanalysis returns $\epsilon<0.01$, the binary‑tree hypothesis is excluded at current sensitivity; if it returns $\epsilon>0.05$ at period $\ln 2$, the search for an inflaton potential acquires a discrete‑geometry alternative to constrain. Either outcome is a usable result, which is what the prior unfalsifiable statement could not provide.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.0.0 (2026-11-01, from 1.0.1): rewritten in full through the research pipeline. references 11 -> 6. length 3207 -> 6196 words.
 
 ## Provenance and AI Involvement
 

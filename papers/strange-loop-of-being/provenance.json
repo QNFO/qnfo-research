@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/strange-loop-of-being"
   },
   "declared": {
-    "version": "1.2.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "0931167a134335793b831599feaee2a987d8736e136e41185c6316308ccdf72f",
       "bytes": 169215,
       "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.2.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "5bcd7d14b6aaeedfdd55e431930c761f8f1a49df49df9fc1c491e74bd3acc9e4",
+      "bytes": 168786,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.2.0",
       "git_commit": null

@@ -1,8 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas / QNFO"
-version: "2026-09-26 **Format:** printable HTML poster (A0 landscape, A0 portrait, 16:9 digital variants) plus this markdown source."
----
-
 # From Statements to Questions: AI as Epistemic Repair Infrastructure
 
 *Thesis*
