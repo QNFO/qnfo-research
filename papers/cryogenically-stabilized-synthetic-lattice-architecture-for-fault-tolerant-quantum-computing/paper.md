@@ -1,15 +1,10 @@
 # CRYOGENICALLY STABILIZED SYNTHETIC LATTICE
 
-## CRYOGENICALLY STABILIZED SYNTHETIC LATTICE ARCHITECTURE FOR FAULT-TOLERANT QUANTUM COMPUTING
+*CRYOGENICALLY STABILIZED SYNTHETIC LATTICE ARCHITECTURE FOR FAULT-TOLERANT QUANTUM COMPUTING*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/cryogenically-stabilized-synthetic-lattice-architecture-for-fault-tolerant-quantum-computing/ **Publication
-Date:** 2025-11-25 **Version:** 1.0
+## Abstract
 
-**Abstract**: We present the design and physical
+We present the design and physical
 operating principles of a rack-mountable photonic hardware platform
 designed to instantiate a synthetic vacuum capable of passive quantum
 error rejection. Unlike conventional quantum processors that rely on
@@ -23,12 +18,6 @@ maintained at 80 K using a Stirling cryocooler and a polycrystalline
 diamond heat spreader, eliminating the need for dilution refrigeration.
 This architecture represents a pivot from simulating quantum physics to
 physically instantiating protected quantum phases of matter.
-
-**Keywords:** Topological photonics, continuous-variable
-quantum computing, thin-film lithium niobate (TFLN), measurement-based
-quantum computing (MBQC), cryogenic integrated circuits, 4D Quantum Hall
-effect, optical parametric oscillation (OPO), silicon nitride photonics,
-Second Chern number, cryo-fluidic cooling
 
 ### 1.0 INTRODUCTION
 

@@ -289,11 +289,6 @@ i.e. an absolute gain of **11.47 %**. Similar projections apply to CIFAR‑100
 
 ## 8. Conclusion We have demonstrated that likelihood ratios in additive Gaussian and Poisson channels, as well as mutual information in Gaussian feature alignment, can be expressed exactly as cross‑ratios of four auxiliary quantities. This establishes the cross‑ratio as a **universal atom of meaning** that unifies statistical inference, information theory, and fundamental physics. Numerical illustrations of the fine‑structure constant and a simple geometric cross‑ratio, together with the average 25.96 % gain of PL‑MIA, provide concrete evidence of the framework’s predictive power. While the theory currently resides at TRL 2, the outlined minimal experiment offers a clear path toward empirical validation. Future work will focus on scalable computation of cross‑ratios in high‑dimensional settings, learning‑based extraction mechanisms, and broader applications across physics, economics, and cognitive science.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 1.0.2 (2026-10-19, from 1.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

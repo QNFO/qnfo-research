@@ -1,9 +1,3 @@
----
-author: "QNFO"
-date: "2026-07-11"
-license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
----
-
 # Cryptochrome Magnetoreception: The Radical Pair Mechanism and Its Implications for Quantum Biology
 
 ## Abstract

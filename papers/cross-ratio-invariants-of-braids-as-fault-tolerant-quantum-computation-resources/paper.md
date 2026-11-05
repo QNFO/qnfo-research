@@ -175,10 +175,6 @@ This figure is a **projection** based on the empirical physical‑to‑logical r
 
 ## 8. Conclusion We have introduced cross‑ratio invariants of braid worldlines as macroscopic logical variables for topological quantum computation. By proving exact invariance under global projective transformations, counting the independent invariant degrees of freedom, and demonstrating universality of braid‑generated gates, we provide a theoretical foundation for fault‑tolerant architectures that encode information in projectively protected quantities. Quantitative analysis shows that, given current surface‑code overheads, a single logical qubit still requires roughly $10^{3}$ physical qubits, implying a hundred‑fold increase over present experimental platforms. The minimal experiment outlined offers a clear route to falsify the central invariance claim. While significant engineering challenges remain—particularly in Hamiltonian design, measurement precision, and scaling—the cross‑ratio approach opens a novel avenue for reducing fault‑tolerance overheads and deepening the connection between number‑theoretic structures and quantum information processing.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
