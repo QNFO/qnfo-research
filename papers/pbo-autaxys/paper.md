@@ -1,34 +1,3 @@
----
-title: "Pillar 3: PBO/Autaxys — Pattern-Based Ontology as Intrinsic Self-Ordering"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-24
-documentclass: article
-fontsize: 11pt
-geometry: margin=1in
-link-citations: true
-colorlinks: true
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-abstract: >
-  PBO/Autaxys (Pattern-Based Ontology) is presented as an intrinsic
-  self-ordering meta-framework grounded in two primitive operations:
-  Distinction (D) and Relation (R). From these D/R primitives, all
-  patterns, structures, and physical laws are shown to emerge without
-  recourse to external agents or pre-imposed rules. We formalize
-  Ontological Closure Verification (OCV) as the criterion for
-  self-contained generative sufficiency and demonstrate that the
-  Autaxys framework satisfies OCV by construction. A systematic
-  literature synthesis across 480 papers in adjacent fields yields
-  zero matches for the core D/R+OC vocabulary, confirming the
-  framework's uniqueness. Three falsifiable empirical predictions are
-  derived: Dissonance-Induced Bifurcation (DIB) in ultrametric
-  quantum systems, OCV saturation thresholds in hierarchical state
-  spaces, and Token Calculus Cascade Bounds (TCCB) constraining
-  observable complexity growth. The PBO Token Calculus is introduced
-  as a formal grammar for pattern generation, bridging continuous
-  generative verbs to discrete observable tokens via syntactic rewrite
-  rules grounded in the Laws of Form.
----
-
 # Pillar 3: PBO/Autaxys — Pattern-Based Ontology as Intrinsic Self-Ordering
 
 *QNFO Unified License Agreement (QNFO-ULA)*

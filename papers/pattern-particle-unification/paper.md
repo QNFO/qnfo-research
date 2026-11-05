@@ -1,16 +1,3 @@
----
-title: "One Table, Two Regimes: Standard-Model Particles and Condensed-Matter Excitations as Patterns on the Bruhat-Tits Tree"
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-ORCID: "0009-0002-4317-5604"
-date: "2026-08-19"
-license: "cc-by-4.0"
-doi: ""
-status: "published"
-version: "v0.5"
-keywords: "Bruhat-Tits tree; spin-statistics; anyons; quasiparticles; p-adic physics; unification"
----
-
 # One Table, Two Regimes: Standard-Model Particles and Condensed-Matter Excitations as Patterns on the Bruhat-Tits Tree
 
 ## Abstract

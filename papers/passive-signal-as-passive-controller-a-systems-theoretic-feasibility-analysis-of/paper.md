@@ -384,31 +384,6 @@ These risks highlight the need for careful model validation before applying the 
 
 We have completed the feasibility arc for the Signal‑Worker ontology's central engineering question. The Signal, modeled as a discrete‑time controller block, is exactly passive as a pure integrator under the output map $y_k = x_k + \frac{1}{2}u_k$ and strictly passive as a leaky integrator under $y_k = (1-\alpha)x_k + \frac{1}{2}u_k$ with dissipation rate $\delta = \alpha - \frac{\alpha^{2}}{2}$ — a result that fails under the naive state output, with counterexample margin $+0.505$. Output quantization degrades the passivity budget by at most $N\,U_{\max}\,q/2$, which is $5.0$ energy units at the stated operating point. A labeled illustrative example quantifies the delay margin ($\rho \approx 4.71$), quantization energy cost ($2.5\%$ per packet), attractor radius ($r_q = 0.05$), and robustness budget ($16.7\%$ margin erosion tolerance). The dissipation rate $\delta$ provides the corpus's passive‑versus‑driven distinction a tunable control‑theoretic analogue, though the mapping remains uncalibrated because the corpus supplies no dynamical equations or numerical complexity values. The hypothesis is well‑posed and internally consistent at the block‑diagram level; it resides at Technology Readiness Level 1–2 as pure analysis; and the smallest next test is the fitting of a storage function to any concrete Signal dynamics, with failure defined as the nonexistence of any output map rendering the dissipation inequality satisfied.
 
-## Appendix A. Divergence Report
-
-No divergent claims were identified among the independent drafts. All substantive statements in the manuscript are convergent across the source versions.
-
-## Appendix B. Claim Attribution
-
-| Claim ID | Statement (as in the paper) | Source Draft(s) |
-|----------|-----------------------------|-----------------|
-| C1 | The pure integrator is exactly passive under the output $y_k = x_k + \tfrac{1}{2}u_k$. | Draft A, Draft B, Draft C |
-| C2 | The leaky integrator is strictly passive under $y_k = (1-\alpha)x_k + \tfrac{1}{2}u_k$ with dissipation rate $\delta = \alpha - \tfrac{\alpha^{2}}{2}$. | Draft A, Draft B, Draft C |
-| C3 | For $\alpha = 0.1$ the dissipation margin is $-0.095\,x_k^{2}$. | Draft A, Draft B, Draft C |
-| C4 | The naive output $y_k = x_k$ fails passivity, with counterexample margin $+0.505$ at $x_k = 1,\;u_k = -1$. | Draft A, Draft B, Draft C |
-| C5 | Uniform output quantization with resolution $q = 0.1$ yields a worst‑case cumulative passivity degradation $\Delta_{\text{quant}} = 5.0$ energy units over $N = 100$ steps. | Draft A, Draft B, Draft C |
-| C6 | The delay phase lag at $\omega_c = 1.0\ \text{rad/s}$ and transport delay $T_d = 0.5\ \text{s}$ is $\phi_d = 0.5\ \text{rad} \approx 28.65^{\circ}$. | Draft A, Draft B, Draft C |
-| C7 | The safety ratio $\rho = M_n / \ell_d \approx 4.71$. | Draft A, Draft B, Draft C |
-| C8 | Quantization energy cost per packet is $E_q = 0.025\ \text{J}$, i.e. $2.5\%$ of the nominal supply bound $E_0 = 1.0\ \text{J}$. | Draft A, Draft B, Draft C |
-| C9 | Attractor radius due to quantization is $r_q = 0.05$ (normalized Worker units). | Draft A, Draft B, Draft C |
-| C10 | Robustness budget allows margin erosion up to $16.7\%$ of the combined loop margin before Signal passivity fails. | Draft A, Draft B, Draft C |
-| C11 | The dissipation rate $\delta$ provides a control‑theoretic analogue of the corpus’s passive‑versus‑driven distinction. | Draft A, Draft B, Draft C |
-| C12 | The work is at Technology Readiness Level 1–2 (analytical, unreviewed). | Draft A, Draft B, Draft C |
-| C13 | The smallest next test is fitting a storage function to any concrete Signal dynamics; failure is the inability to satisfy the dissipation inequality for any output map of the form $y_k = \beta x_k + \gamma u_k$. | Draft A, Draft B, Draft C |
-| C14 | Primary constraints before implementation are (i) specification of Signal dynamics, (ii) quantization resolution, (iii) channel delay and loss, (iv) model uncertainty. | Draft A, Draft B, Draft C |
-| C15 | Order‑of‑magnitude bounds: $\delta \in [0,0.5]$ for $\alpha \in [0,1]$; $\Delta_{\text{quant}} = N U_{\max} q/2$. | Draft A, Draft B, Draft C |
-| C16 | Risks include misinterpreting the analytical passivity results as empirical validation of the Signal‑Worker ontology. | Draft A, Draft B, Draft C |
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.32.0-no-registrar). Language models were tools in that process; they are not authors. The named author is accountable for the content.
