@@ -1,14 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/correlated-universe/"
-date: "2026-03-16"
-version: "1.0"
----
-
 # Open Thinkers Guide to the Universe
+
+## Abstract
+
+The standard cosmological model describes an expansion of matter and energy into a pre-existing spatial vacuum, conceptualizing the universe as a fragmentation event. However, the thermodynamic state of the early universe presents a significant anomaly for models based on random expansion. Astrophysical measurements indicate the early universe existed in a state of exceptionally low entropy, providing the necessary ordered conditions for subsequent stellar and chemical formation. Furthermore, the uniform temperature of the Cosmic Microwave Background (CMB) radiation across vastly separated regions suggests these areas were structurally correlated before metric space expanded. Shifting from a paradigm of fragmented expansion to one of unified unfolding offers a different ontological baseline. The universe can be modeled as originating from a fully integrated informational state containing the parameters for subsequent complexity. In this primordial condition, physical distance and the separation of fundamental forces had not yet emerged, rendering the system absolutely unified.
 
 ## The Primordial Correlation and Superdeterminism
 

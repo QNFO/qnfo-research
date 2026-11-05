@@ -1,15 +1,10 @@
 # Monistic Reality
 
-## Unified Information, Consciousness, and Collective Intelligence
+*Unified Information, Consciousness, and Collective Intelligence*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/converging-reality/ **Publication Date:** 2025-10-22
-**Version:** 1.0
+## Abstract
 
-**Abstract**: This paper presents a monistic reality
+This paper presents a monistic reality
 framework that unifies fundamental physics, consciousness, and
 collective intelligence within a single mathematical architecture. This
 framework posits that reality is fundamentally a pre-geometric
@@ -29,10 +24,6 @@ integration demonstrates how information exists ontologically
 independent of perception, with multiple perceivers having correlated
 realities through shared information structures formalized by
 category-theoretic mappings.
-
-**Keywords**: monism, pre-geometric reality,
-Hamiltonian, superposition, epistemic boundaries, collective
-intelligence, strange loops, TQFT, cross-domain mappings
 
 ### 1.0 A Comprehensive Monistic Framework
 

@@ -1,13 +1,3 @@
----
-title: "Counterfactual Physics: What If p-Adic Methods Had Won?"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-genre: "A — Epistemic"
----
-
 # Counterfactual Physics: What If p-Adic Methods Had Won?
 
 ## Abstract
@@ -227,9 +217,3 @@ The near-term fork recommendations are achievable from the present. A textbook, 
 **Use of Artificial Intelligence:** This paper was drafted with assistance from large language models (DeepSeek-V4) for text generation, structure, and copyediting. All substantive analysis and conclusions are the author's.
 
 ---
-
-## Version History
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| v0.1 | 2026-07-31 | Initial draft: 4-tier counterfactual analysis, near-term fork recommendations, calibration register entry |

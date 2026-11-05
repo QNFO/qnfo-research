@@ -1,36 +1,3 @@
----
-title: "Depth, Breadth, and Valuation: A Unified Ontology of the Physical Continuum"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-28
-series: "Continuum Trilogy — Paper III"
-version: "1.0.0"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-abstract: |
-  The standard mathematical ontology of the continuum — the real numbers the real numbers with their
-  uncountable cardinality and Dedekind-complete order — conflates three distinct properties
-  with different physical status. We decompose the continuum into three axes: depth
-  (Archimedean completeness), breadth (set-theoretic uncountability), and valuation
-  (ultrametric completions of the rational numbers). Depth is physically real — it is required for dynamics,
-  causality, and connectedness. Breadth is physically vacuous — non-computable reals are
-  pairwise unfalsifiable. Valuation is physically real but not geometric — p-adic
-  completions encode discrete quantum structure (spin, internal numbers, information) with
-  an operational ontology distinct from the Archimedean continuum. The complete physical
-  continuum is the real numbers_c $\times$ Pi_p the rational numbers_p^c — the computable reals together with the computable
-  p-adic numbers at finitely many primes. Ostrowski's theorem is the deep organizing
-  principle: there are no other completions of the rational numbers, so there are no other physically real
-  dimensions of the continuum. The resulting framework — adelic ontological closure —
-  makes specific, falsifiable predictions that no Archimedean-only theory can make.
-keywords:
-  - ontological closure
-  - continuum hypothesis
-  - p-adic physics
-  - adelic
-  - Ostrowski's theorem
-  - computable analysis
-  - foundations of physics
-  - unfalsifiability
----
-
 # Depth, Breadth, and Valuation: A Unified Ontology of the Physical Continuum
 
 ## Abstract
