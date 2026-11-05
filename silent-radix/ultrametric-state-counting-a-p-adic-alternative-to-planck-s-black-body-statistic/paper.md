@@ -365,10 +365,6 @@ The Archimedean adjacency rule that this paper replaces is not an isolated conve
 
 ## 10. Conclusion Replacing the Archimedean distance with the p‑adic ultrametric in the state‑counting step of black‑body statistical mechanics yields a geometric occupation distribution identical to a Bose–Einstein law with fugacity \(z=1/p\). The resulting unnormalised partition sum \(\tilde Z(p)=p/(p-1)\) and mean occupation \(\langle n\rangle=1/(p-1)\) produce a spectral tail that decays algebraically, thereby requiring an explicit frequency cutoff to avoid divergence. The analysis rests on the geometric weighting postulate of Section 3.3 and on ultrametric embedding and extension theorems [2], [5]. The prime \(p\) emerges as a **new design parameter** for thermal‑radiation engineering. Immediate experimental falsification is feasible with existing spectroscopic equipment, and successful validation would necessitate a revision of the foundational assumptions underlying thermal physics.
 
-## Version History
-
-- Version 2.0.0 (2026-11-01, from 1.0.0): rewritten in full through the research pipeline. new sections: Extended Derivations and Worked Examples; Extended Derivations and Worked Examples. references 12 -> 6. length 3815 -> 4380 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.44.3). Language models were tools in that process; they are not authors. The named author is accountable for the content.

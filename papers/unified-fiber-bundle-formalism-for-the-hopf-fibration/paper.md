@@ -1,14 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/unified-fiber-bundle-formalism-for-the-hopf-fibration/"
-date: "2026-01-27"
-version: "1.0"
----
-
 # UNIFIED FIBER BUNDLE FORMALISM FOR THE HOPF FIBRATION
+
+## Abstract
+
+The history of theoretical physics is punctuated by the discovery of mathematical structures that appear with startling ubiquity across disparate scales and domains. From the simple harmonic oscillator describing both planetary orbits and quantum fields to the pervasive role of symmetry groups, these recurring patterns suggest that the universe is built upon a surprisingly small set of fundamental mathematical principles. Among these, the Hopf fibration—a topological mapping that decomposes a 3-sphere (S³) into a family of circles (S¹) parameterized by a 2-sphere (S²)—stands as a singular example of geometric universality. First described by Heinz Hopf in 1931 as a mathematical curiosity, this non-trivial fiber bundle has since been identified as the governing structure behind phenomena ranging from the kinematics of rigid bodies to the quantization of magnetic charge. The recurrence of this specific topology (\(S^3 \to S^2\)) suggests that it is not merely a coincidental feature of specific models, but a fundamental organizing principle of physical reality where continuous symmetries must be reconciled with compact base spaces.
 
 ## CHAPTER 1: INTRODUCTION TO TOPOLOGICAL UNIVERSALITY IN PHYSICS
 

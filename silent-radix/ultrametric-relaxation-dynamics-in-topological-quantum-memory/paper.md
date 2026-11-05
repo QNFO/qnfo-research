@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/ultrametric-relaxation-dynamics-in-topological-quantum-memory/"
-date: "2026-02-14"
-version: "1.0"
----
-
 # Ultrametric Relaxation Dynamics in Topological Quantum Memory
 
 *Addressing the Active Control Limit via P-adic Solenoid Isomorphisms*
