@@ -1,14 +1,10 @@
 # Commercial Pathways to Room-Temperature Topological Quantum Computation
 
-## Commercial Pathways to Room-Temperature Topological Quantum Computation via Intrinsic Quantum Media
+*Commercial Pathways to Room-Temperature Topological Quantum Computation via Intrinsic Quantum Media*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000 0005 2645 6062
-**URL:** https://papers.qnfo.org/papers/commercial-pathways-to-room-temperature-topological-quantum-computation/ **Publication
-Date:** 2025-11-07 **Version:** 1.0
+## Abstract
 
-**Abstract**: The realization of a room-temperature
+The realization of a room-temperature
 topological quantum computer using intrinsic quantum media is predicated
 on the successful engineering and validation of Fractional Chern
 Insulators (FCIs). This document presents a comprehensive, falsifiable
@@ -23,12 +19,6 @@ experimental protocol. By framing the challenge around testable
 hypotheses with explicit validation pathways, this work provides a
 structured, actionable blueprint for transitioning FCI research from
 fundamental discovery to applied technology.
-
-**Keywords**: Topological Quantum Computation;
-Fractional Chern Insulator; Non-Abelian Anyons; Room-Temperature Quantum
-Computing; Quantum Materials Engineering; Dielectric Engineering; Strain
-Engineering; Fabry-Pérot Interferometry; Fibonacci Anyons; Topological
-Energy Gap
 
 ## 1.0 Foundational Principles of Fractional Chern Insulators (FCIs)
 

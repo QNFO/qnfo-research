@@ -1,15 +1,10 @@
 # Coherent Tunneling
 
-## Dissipative Framework for Sub-Cellular Signal Processing
+*Dissipative Framework for Sub-Cellular Signal Processing*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/coherent-tunneling/ **Date:**
-2025-12-05 **Version:** 1.0
+## Abstract
 
-**Abstract**: Standard biological paradigms
+Standard biological paradigms
 conceptualize the organism as a stochastic chemical engine governed by
 reaction-diffusion kinetics. However, this classical view fails to
 account for the thermodynamic anomaly of living matter, which sustains
@@ -22,9 +17,6 @@ Fröhlich-like condensation that shields coherent states from thermal
 decoherence. This mechanism establishes a quantifiable threshold for
 vitality, recontextualizing synaptic transmission as the output of a
 quantum-modulated transducer.
-
-**Keywords:** Fröhlich condensation, dissipative
-structures, exclusion zone water, quantum biology, synaptic gating
 
 ## 1.0 INTRODUCTION: THERMODYNAMIC ANOMALY
 
