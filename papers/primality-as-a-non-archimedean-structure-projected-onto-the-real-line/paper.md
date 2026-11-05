@@ -183,11 +183,6 @@ Beyond these, the framework inherits limitations from the underlying $p$‑adic 
 
 ## 8. Conclusion By projecting $p$‑adic divisibility hierarchies onto the real interval via the Monna map, we have defined a valuation‑based primality functional $P_{p}$ that is well‑defined for every real number in $[0,1]$. The analysis yields exact distributional formulas, an explicit expected valuation, and concrete examples linking $P_{p}$ to classical primes. This bridges the discrete world of integer primality with the continuous realm of real analysis, offering a new lens for both theoretical investigations and practical engineering applications. Future work will explore multi‑base extensions of $P_{p}$, seeking a composite valuation that aggregates information from several primes simultaneously, and will investigate connections to non‑Archimedean dynamical systems such as the action of rational maps on the Berkovich line [4]. Additionally, experimental validation in analog hardware and the development of statistical tests for digit‑uniformity will be pursued to bridge theory and practice. multi‑base extensions, connections to non‑Archimedean dynamics, and experimental validation in physical systems.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 1.0.2 (2026-10-19, from 1.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

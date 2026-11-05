@@ -1,14 +1,10 @@
 # Prime Numbers as Spectral Artifacts
 
-## PRIME NUMBERS AS SPECTRAL ARTIFACTS OF QUANTUM GEOMETRIC SYSTEMS
+*PRIME NUMBERS AS SPECTRAL ARTIFACTS OF QUANTUM GEOMETRIC SYSTEMS*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000 0005 2645 6062
-**URL:** https://papers.qnfo.org/papers/prime-numbers-as-spectral-artifacts/ **Publication
-Date:** 2025-11-09 **Version:** 1.0
+## Abstract
 
-**Abstract**: This establishes a mathematical framework
+This establishes a mathematical framework
 demonstrating that prime numbers emerge as spectral artifacts from a
 continuous quantum geometric substrate, rather than representing
 fundamental discrete entities. Through formal deduction from five
@@ -29,11 +25,6 @@ discrete arithmetic necessarily emerges. The implications extend beyond
 number theory to the foundations of mathematics, quantum physics, and
 our understanding of the relationship between continuity and
 discreteness in mathematical reality.
-
-**Keywords**: Spectral primes; Continuous primes;
-Quantum primes; Base independence; π-φ entanglement; Integer chauvinism;
-Spectral projection; GUE correspondence; Hamiltonian construction; Prime
-emergence
 
 ### 1. Introduction
 

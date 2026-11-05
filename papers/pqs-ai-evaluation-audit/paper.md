@@ -1,26 +1,10 @@
----
-author: Rowan Brad Quni-Gudzinas
-email: rowan.quni@qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-title: Post-Quantum Synthesis
-aliases:
-  - Post-Quantum Synthesis
-modified: 2025-09-23T11:43:35Z
----
-
 # PQS AI-Evaluation Audit: Post-Quantum Synthesis Investigation and AI Gate-Check Analysis
 
-## A Complete Framework for Physics
+*A Complete Framework for Physics*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO
-**Contact:** rowan.quni@qnfo.org
-**ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062
-**URL:** https://papers.qnfo.org/papers
-**Publication Date:** 2025-09-23
-**Version**: 1.0
+## Abstract
+
+Archive of the complete research record investigating the Post-Quantum Synthesis (PQS) framework: a neutral investigation of PQS's four sub-pillars mapped against external literature, plus an earlier-iteration analysis of AI gate-check convergence between Claude and Gemini evaluating PQS independently.
 
 ### Preamble: The End of the Quantum Illusion
 
@@ -1017,7 +1001,6 @@ Not: QuantumMechanics = OntologyTheory
 
 □
 
-
 This framework began with **five axioms** about what is observed:
 
 1.  Fields are continuous.
@@ -1052,7 +1035,6 @@ Only:
 > **A continuous world.  
 > A discrete interface.  
 > And the logic of what can be known.**
-
 
 It is no longer necessary to believe in:
 -   Particles that are waves and waves that are particles.

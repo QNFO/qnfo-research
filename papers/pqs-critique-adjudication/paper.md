@@ -1,12 +1,3 @@
----
-title: "Five Objections, One Standard: An Evidence-Graded Adjudication of a Critique of Post-Quantum Synthesis"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-19"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
----
-
 # Five Objections, One Standard: An Evidence-Graded Adjudication of a Critique of Post-Quantum Synthesis
 
 ## Abstract

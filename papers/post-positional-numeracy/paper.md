@@ -1,15 +1,3 @@
----
-title: "Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-26"
-license: "CC BY 4.0"
-doi: ""
-version: "1.0.1"
-status: "published"
-abstract: |
-  Exact computation on the rationals today inhabits a single completion. Digital arithmetic runs in the real numbers and accepts rounding; exact alternatives run in a single $p$-adic completion through Hensel codes and reconstruct through the Chinese remainder theorem with Farey bounds. This paper develops the multi-place realization that joins the two. A rational number is encoded by its residues at finitely many chosen primes together with a two-sided Archimedean window; the encoding is injective whenever $2B^2 < M$, where $M$ is the product of the chosen prime powers. The adelic product formula — the identity that ties the places of $\mathbb{Q}$ together — becomes a machine-checkable invariant of the arithmetic: every correct encode-compute-decode round-trip of operands whose numerator and denominator factor over the chosen primes satisfies it exactly, and any violation localizes the failing place. All claims are computationally verified: golden values, exhaustive injectivity on small moduli, $10^5$ seeded trials on a window of modulus $M = 810{,}000$, $8 \times 10^4$ componentwise arithmetic checks, and a reconstruction algorithm validated against exhaustive enumeration. A dependency-free reference implementation and a reproducibility statement accompany the paper.
----
-
 # Post-Positional Numeracy: Finite-Adele Encoding and Product-Formula-Verified Exact Rational Arithmetic
 
 ## Abstract
