@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/ultrametric-physics-m6-quantum-gate-theory"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 111393,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "c53efc11196eaad280c60a6591fbf67f8f3f5b36b2ebb5032c8467e295b5ec16",
+      "bytes": 110928,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

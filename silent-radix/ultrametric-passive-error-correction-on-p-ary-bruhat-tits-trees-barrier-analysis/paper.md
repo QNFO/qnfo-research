@@ -41,8 +41,6 @@ The ball‑code construction on Bruhat–Tits trees derives exact code parameter
 
 Intelligent reflecting surfaces (IRS) illustrate the distinction between passive and active hardware: passive IRS elements reflect without amplification, achieving higher spectral efficiency at the cost of path‑loss [7]. This analogy motivates the term “passive” for our ultrametric scheme.
 
-
-
 ## 3. Methods
 ### 3.1 Tree Geometry and Majority‑Vote Decoder
 Consider a regular \((p+1)\)-valent infinite tree \(T_{p+1}\). Each vertex hosts a qudit of dimension \(p\). The ultrametric distance between two vertices is the length of the shortest path to their least common ancestor. The strong triangle inequality guarantees that any error affecting a leaf must traverse all intermediate cuts separating it from the root.
@@ -80,7 +78,6 @@ p^{(k+1)} = \sum_{j=\lceil p/2\rceil+1}^{p+1}\binom{p+1}{j}\bigl(p^{(k)}\bigr)^{
 where the sum runs over the majority‑failure events. For the eight‑fold majority vote used in [8] we set \(p+1=8\) and the failure threshold at \(j\ge5\).
 
 ## 4. Analysis
-
 
 ### 4.1 Barrier Height for \(p=3\)
 From [8] we adopt the barrier conjecture \(E_{\text{barrier}}(d)=2^{d}\) for the binary case. For odd \(p\) the majority threshold is \(\lceil p/2\rceil\). With \(p=3\):
@@ -282,10 +279,6 @@ These projections are labeled as **projections** and rely on the inputs \(p=3\),
 ### 7.7 Risks and Misuse If the barrier model were mistakenly applied to correlated error environments, system designers might underestimate required redundancy, leading to premature deployment of insufficiently protected quantum processors. Careful validation of the independence assumption is therefore essential.
 
 ## 8. Conclusion We have presented a quantitative analysis of ultrametric passive error correction on regular odd‑\(p\) Bruhat–Tits trees. Starting from the ultrametric strong triangle inequality we derived an exponential error barrier \(B(d)=\lceil p/2\rceil^{d}\) and performed explicit binomial calculations for concatenated eight‑fold majority voting. The results demonstrate that logical error probabilities can be suppressed from \(1.7367\times10^{-1}\) to below \(10^{-9}\) with only three concatenation levels at a physical error rate of \(0.40\). The analytical bounds derived from the barrier model are comparable to the concatenated results, confirming that the barrier exponent captures the essential suppression mechanism. While promising, the scheme rests on assumptions of error independence and the existence of a symmetric encoder; these constitute clear falsification targets for forthcoming experimental work. If validated, ultrametric passive codes could provide a low‑overhead, energy‑efficient pathway to fault‑tolerant quantum computation.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 

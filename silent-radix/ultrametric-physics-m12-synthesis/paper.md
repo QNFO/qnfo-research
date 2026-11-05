@@ -1,13 +1,3 @@
----
-author: Rowan Brad Quni-Gudzinas
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-title: "**ULTRAMETRIC PHYSICS RESEARCH PLAN: RATIO-BASED FOUNDATIONS**"
-aliases:
-  - "**ULTRAMETRIC PHYSICS RESEARCH PLAN: RATIO-BASED FOUNDATIONS**"
-modified: 2026-04-06T08:02:32Z
----
-
 # Ultrametric Physics Research Plan
 
 ## Abstract

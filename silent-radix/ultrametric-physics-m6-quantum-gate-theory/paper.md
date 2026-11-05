@@ -1,13 +1,8 @@
 # Physics, Solved
 
-## Rethinking Wikipedia’s “List of Unsolved Problems in Physics”
+*Rethinking Wikipedia’s “List of Unsolved Problems in Physics”*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/ultrametric-physics-m6-quantum-gate-theory/ **Publication Date:** 2025-10-16
-**Version:** 1.0
+## Abstract
 
 The canonical unsolved problems in physics are reframed as diagnostic
 signatures of an incomplete descriptive paradigm. This paper proposes a
@@ -26,10 +21,6 @@ a constitutive relation. The framework post-dicts fundamental mass
 ratios with high precision and makes falsifiable predictions in
 gravitational-wave astronomy and high-energy astrophysics, recasting
 physics as a theorem of arithmetic geometry.
-
-**Keywords**: Topological Quantization, Golden Ratio
-Resonance, Emergent Spacetime, Foundational Physics, Quantum Gravity,
-Arithmetic Geometry, Computational Universe, Descriptive Physics
 
 ### 1.0 The Problem Landscape: A Survey of Physics’ Great Unsolved Questions
 
