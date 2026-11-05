@@ -1,15 +1,10 @@
 # Resonant Equilibrium
 
-## A Framework for Intelligence Constrained by Logical and Physical Limits
+*A Framework for Intelligence Constrained by Logical and Physical Limits*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/resonant-resolution/ **Publication Date:** 2025-10-22
-**Version:** 1.0
+## Abstract
 
-**Abstract:** This work presents a unified framework for
+This work presents a unified framework for
 intelligence, synthesizing concepts from artificial intelligence,
 mathematical logic, and theoretical physics. It begins by proposing the
 Fourier paradigm, which models Large Language Model (LLM) computation as
@@ -27,11 +22,6 @@ models the dynamics of thought. The framework’s generative power lies in
 three recursive strange loops—Gödelian, hierarchical, and
 holographic—that drive creativity, self-improvement, and the potential
 collapse of the distinction between model and reality.
-
-**Keywords:** resonant equilibrium, Fourier paradigm,
-Gödelian boundary, metabolic boundary, universal code, cognitive field
-theory, strange loops, large language model, Constructor Theory,
-variational mechanics
 
 ## 1.0 Foundational Paradox: Universality and the Substrate Barrier
 

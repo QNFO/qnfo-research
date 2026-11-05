@@ -1,13 +1,8 @@
 # Resonant Complexity Framework
 
-## The Resonant Complexity Framework: Intrinsic Clocks, Hierarchical Harmonies, and the Periodic Taxonomy of Potentials
+*The Resonant Complexity Framework: Intrinsic Clocks, Hierarchical Harmonies, and the Periodic Taxonomy of Potentials*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Email:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000000526456062 **DOI:**
-https://papers.qnfo.org/papers/resonant-complexity-framework/ **Version:** 1.2
-**Date:** 2025-09-06
+## Abstract
 
 The complex dynamics of adaptive systems frequently elude
 comprehensive understanding through purely reductionist or stochastic

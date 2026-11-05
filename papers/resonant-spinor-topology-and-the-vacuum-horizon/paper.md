@@ -1,15 +1,10 @@
 # Resonant Spinor Topology and the Vacuum Horizon
 
-## A Relativistic Re-Derivation of Chemical Periodicity
+*A Relativistic Re-Derivation of Chemical Periodicity*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/resonant-spinor-topology-and-the-vacuum-horizon/ **Date:**
-2025-12-08 **Version:** 1.0
+## Abstract
 
-**Abstract**: Standard chemical models assume a scalar
+Standard chemical models assume a scalar
 accumulation of protons defines periodicity. However, the breakdown of
 group homology in superheavy elements remains unexplained by
 electrostatics alone. Here, the periodic table is re-derived as a
@@ -19,9 +14,6 @@ limit with the relativistic contraction of the s-manifold, the chemical
 identity of the G-block is resolved as an entropic dissolution. This
 redefines the element not as a static particle assembly but as a
 resonant mode of the vacuum field.
-
-**Keywords:** Zitterbewegung, Relativistic Quantum
-Chemistry, Vacuum Breakdown, Spinor Topology, Superheavy Elements
 
 ## 1.0 INTRODUCTION: THE SPINOR MANIFOLD
 

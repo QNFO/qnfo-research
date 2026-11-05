@@ -1,15 +1,10 @@
 # RESOLVING THE SCALE PENALTY
 
-### A SIMULATION OF MODEL AMBIGUITY IN CONTINUUM EXTRAPOLATION FROM DATA-SPARSE REGIMES
+*A SIMULATION OF MODEL AMBIGUITY IN CONTINUUM EXTRAPOLATION FROM DATA-SPARSE REGIMES*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/resolving-the-scale-penalty/ **Date:**
-2025-12-31 **Version:** 1.0
+## Abstract
 
-**Abstract**: The theoretical frameworks of the
+The theoretical frameworks of the
 Renormalization Group and Chiral Perturbation Theory mandate that
 continuum extrapolations in lattice QCD should contain logarithmic
 corrections, a phenomenon termed the “Scale Penalty.” However, the
@@ -33,10 +28,6 @@ precision. This demonstrates that data sparsity is a primary obstacle to
 controlling extrapolation systematics and can lead to falsely precise
 but inaccurate results, with significant implications for high-precision
 phenomenology.
-
-**Keywords:** Lattice QCD, Continuum Extrapolation,
-Bayesian Model Selection, Systematic Uncertainty, Renormalization Group,
-Effective Field Theory, Scientific Simulation
 
 ## 1.0 INTRODUCTION & LITERATURE REVIEW
 

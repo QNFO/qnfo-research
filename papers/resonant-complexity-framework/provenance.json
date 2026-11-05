@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/resonant-complexity-framework"
   },
   "declared": {
-    "version": "1.2",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "ea95b0f9c4173749a537fd996a509679ce886f07c769e66f505226a22b20a8fd",
       "bytes": 392126,
       "recorded_at": "2026-11-04",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "cd324df043d536f356cfae097aa5ae94cbdc06dca87e53c6ddb2127b8dca9ba0",
+      "bytes": 391880,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null
