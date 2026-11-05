@@ -1,13 +1,8 @@
 # Derivation of Einstein from Thermodynamics
 
-## FORMAL DERIVATION OF EINSTEIN EQUATIONS FROM THERMODYNAMICS
+*FORMAL DERIVATION OF EINSTEIN EQUATIONS FROM THERMODYNAMICS*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/einstein-thermodynamics-derivation/ **Publication Date:** 2025-09-28
-**Version:** 1.0
+## Abstract
 
 **Objective:** To derive the Einstein field equations of
 general relativity from thermodynamic principles applied to local causal

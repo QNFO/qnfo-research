@@ -1,15 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/dynamic-optimality-in-physical-and-arithmetic-systems/"
-date: "2025-12-21"
-version: "1.0 **Abstract**: The selection of an appropriate abstraction level is a fundamental challenge in scientific modeling. We operationalize this trade-off with “predictive efficiency,” a quantitative objective function defined as the ratio of predictive fidelity to computational cost (\\(O = F/C\\)). We advance the dynamic optimality hypothesis, which asserts that the optimal representational scale for a complex system is not static but follows a predictable, non-monotonic “arc of representation” as the system evolves from disorder to order. To validate this, we employ a dual-track strategy, applying an identical metric to a physical spin chain and an arithmetic state space based on arithmetic topology. Both systems reveal a striking structural isomorphism, exhibiting a U-shaped arc: beginning at a mesoscale optimum, collapsing to the microscale during a chaotic predictive trough, and culminating in macroscopic causal emergence. We further link this information-theoretic efficiency to physical robustness using higher-order tensor stability analysis, demonstrating that optimal macroscopic states correspond to stable local minima (\\(\\lambda_{min} > 0\\)). The findings suggest dynamic, multi-scale adaptation is a universal requirement for efficient modeling in both natural and artificial systems."
-keywords: "Causal Emergence, Predictive Efficiency, Arithmetic Topology, Dynamic Optimality, Tensor Stability, Renormalization Group, Complex Systems."
----
-
 # Dynamic Optimality in Physical and Arithmetic Systems
+
+## Abstract
+
+The selection of an appropriate level of abstraction constitutes a critical and profoundly non-trivial challenge across the entire scientific enterprise. This fundamental problem of representational scale dictates not only the tractability of our models but also their ultimate predictive power in describing the world. From the coarse-grained variables of thermodynamics to the aggregated metrics of macroeconomics, scientific understanding is built upon a hierarchy of descriptions, none of which holds a universal claim to primacy. The core tension arises from a necessary trade-off between the detailed fidelity afforded by a microscopic representation and the robust generalizability often found in a more abstract, coarse-grained one. Choosing the correct scale is not a matter of preference but a central task in the construction of any effective theory, as this decision determines which patterns in a system are identified as signal and which are relegated to the status of noise.
 
 ## 1.0 Introduction and Problem Statement
 

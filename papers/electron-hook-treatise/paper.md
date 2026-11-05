@@ -1,21 +1,6 @@
----
-title: 'A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics, Thermodynamics, and Computation'
-author: 'Rowan Brad Quni-Gudzinas'
-date: '2026-08-16'
-license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: ""
-status: 'published'
-keywords: "quantum foundations, spin-statistics theorem, quasiparticles, Landauer's principle, Ostrowski's theorem, Hilbert space, anyons, thermodynamics of computation, premise depth, falsifiability"
----
-
 # A Critical Treatise on the Load-Bearing Assumptions of Quantum Mechanics, Thermodynamics, and Computation
 
 *The Electron as a Hook*
-
-**Subtitle:** The Electron as a Hook — Full Edition (nine parts, fifty-one chapters)
-**Author:** Rowan Brad Quni-Gudzinas | QNFO Research Foundation
-**Contact:** rowan.quni@qnfo.org | **ORCID:** [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**Version:** v0.3.2 | **Supersedes:** v0.1 (architecture + two research notes), v0.2 (Full Edition), v0.2.1 (prose correction), v0.2.2 (bibliography completion), v0.3 (depth expansion), v0.3.1 (citation remediation)
 
 ## Abstract
 

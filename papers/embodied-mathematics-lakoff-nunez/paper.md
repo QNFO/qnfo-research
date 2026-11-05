@@ -1,13 +1,3 @@
----
-title: "Embodied Mathematics After Lakoff & Núñez: A QNFO Perspective"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-19"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "TBD"
-status: "draft"
-bibliography: refs.bib
----
-
 # Embodied Mathematics After Lakoff & Nunez: A QNFO Perspective
 
 ## Abstract

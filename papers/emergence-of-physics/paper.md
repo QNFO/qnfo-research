@@ -1,13 +1,10 @@
 # Emergence of Physics
 
-## Emergence of Physics and Quantum Mechanics from Statistical and Information-Theoretic Principles
+*Emergence of Physics and Quantum Mechanics from Statistical and Information-Theoretic Principles*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/emergence-of-physics/ **Publication Date:** 2025-09-26
-**Version:** 1.0
+## Abstract
+
+Modern physics seeks to understand the fundamental nature of physical reality and the emergence of its complex structures from first principles. This quest must begin with a rigorous deconstruction of the concept of “laws of nature.” For centuries, physics and philosophy have operated under the assumption that the universe is governed by immutable, objective, and metaphysically robust laws that prescribe the behavior of matter and energy. This concept, however, proves to be an inadequate and ultimately untenable foundation upon which to build a coherent picture of the cosmos. A thorough critique reveals that every major attempt to give a precise, defensible account of what a law of nature is founders on insurmountable logical and philosophical problems. This failure signals that the notion of prescriptive laws is a relic of a pre-scientific, theological worldview, ill-suited to the landscape of modern physics. The necessary conclusion is a shift beyond the search for governing edicts toward a new foundation based not on what reality must do, but on what it can be, as described by the more fundamental principles of symmetry and structural constraint.
 
 ### 1.0. Philosophical Precursor: Inadequacy of “Laws of Nature” as a Foundational Concept
 
