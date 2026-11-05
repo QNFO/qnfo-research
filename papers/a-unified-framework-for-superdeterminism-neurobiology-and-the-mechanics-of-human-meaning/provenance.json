@@ -16,7 +16,14 @@
       }
     ]
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-451/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d3d1c0630f82a1a32e79f5e0063018c718e5a4b6652f99240e69d99c52191a0d"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning"
@@ -44,6 +51,14 @@
       "recorded_at": "2026-11-02",
       "basis": "revision",
       "version": "2.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "b3eacd1be9ce462d030b91891186d45fd10f4b2fb793d25d4e3271201e1477d6",
+      "bytes": 48522,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
+      "version": "2.1.0",
       "git_commit": null
     }
   ],
