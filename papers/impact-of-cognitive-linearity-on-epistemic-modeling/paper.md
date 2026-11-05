@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/impact-of-cognitive-linearity-on-epistemic-modeling/"
-date: "2026-01-23"
-version: "1.0"
----
-
 # Impact of Cognitive Linearity on Epistemic Modeling
 
 *Evidence from Timekeeping and Control Systems*

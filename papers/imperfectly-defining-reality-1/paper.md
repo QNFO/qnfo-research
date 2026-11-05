@@ -1,11 +1,8 @@
----
-modified: 2025-06-21T03:24:20Z
----
-
 # (Imperfectly) Defining Reality: Our Human Quest to Construct Reality from Science
 
-*Rowan Brad Quni, QNFO*
+## Abstract
 
+This inherent drive within the scientific method, particularly as it solidified during the Enlightenment and the subsequent rise of positivism, prioritizes the operationalization and quantification of phenomena. The need for repeatable experiments, shared understanding among researchers, and the construction of predictive frameworks necessitates the creation of precise, often rigid, definitions. Concepts must be pinned down, assigned measurable attributes, and fitted into logical structures. This impulse, deeply rooted in a particular epistemology that values empirical observation and logical analysis as the primary path to knowledge, forms the bedrock of modern scientific practice. It reflects a desire to carve nature into discrete, manageable units that can be isolated, studied, and manipulated. This quest for objective definition is not merely a practical necessity for communication; it embodies a philosophical stance, often implicitly realist, suggesting that these definitions correspond to fundamental, mind-independent features of reality. [...]
 
 **Science has established a counterproductive imperative to “define” any/everything (e.g. absolute zero vs. zero-point energy, constant-yet-relative speed of light) before we actually understand how the universe works. Yes, all models are wrong, but we enshrine ours like theology.**
 
@@ -28,8 +25,3 @@ Related to this is [Anthropometric Fossils: A Systematic Catalog of Human Cognit
 A third strand is [Category-Theoretic Unification of Marginalised Formalisms: Translating Invariants across Six Systems](https://papers.qnfo.org/papers/category-theoretic-unification-of-marginalised-formalisms-translating-invariants), which tests whether marginalised formalisms can be translated into ordinary category theory. It constructs canonical categorical representations for six formalisms, proves faithful translations for five, and identifies a single obstruction in the sheaf-theoretic treatment of Catastrophe Theory, thereby reclassifying marginalisation as largely notational. That result is in tension with the present paper’s emphasis on the limits of definition. The earlier work shows how much can be preserved by rigorous translation; the present paper cautions that even successful translations are models, not reality. The single obstruction in Catastrophe Theory is especially relevant: it is a case where a formal definitional framework fails under conditions of non-orientable stratification. The present paper generalizes this kind of failure to the boundary problems encountered wherever a definition is pushed beyond the framework in which it was formed.
 
 Taken together, these prior works supply the two poles of the present argument: definitions are necessary tools for coordination and inquiry, but they are human constructs that carry cognitive and theoretical baggage and can become obstacles when reified. The present paper does not abandon definition; it asks that definitions be held provisionally, with awareness of their origins and limits.
-
-
-## Changelog
-
-- v1.1.0: Added a Prior Work and Related Literature section that places this paper among 3 related QNFO papers.

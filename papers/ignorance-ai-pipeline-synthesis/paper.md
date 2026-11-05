@@ -1,13 +1,3 @@
----
-title: "Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-Assisted Research Pipeline"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-10"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
-keywords: "AI-assisted research; AI generation detection; ignorance; epistemic humility; research integrity; falsifiability; publication ethics"
----
-
 # Knowing What We Do Not Know: Ignorance Auditing, AI-Generation Detection, and the Epistemic Lessons of an AI-Assisted Research Pipeline
 
 ## Abstract
