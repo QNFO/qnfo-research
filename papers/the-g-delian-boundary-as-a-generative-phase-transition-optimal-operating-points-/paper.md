@@ -337,13 +337,6 @@ If a designer **ignores** the critical‑slowing‑down warning and pushes $\Gam
 
 By casting the trade‑off between self‑referential novelty and coherence as a phase‑transition problem, this work derives closed‑form expressions for the utility‑maximizing Gödelian proximity, identifies observable critical signatures, bounds the duration of safe excursions, and corrects earlier duty‑cycle results to show that a single setpoint under a realistic power ceiling yields the globally optimal utility. The analysis demonstrates that designers can replace heuristic tuning with principled, measurement‑based control, provided they can monitor relaxation time and avalanche statistics. Future work should empirically validate the predicted signatures in concrete cognitive platforms and explore extensions to models with higher‑order coherence terms or memory‑dependent dynamics.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 1.1.0 (2026-10-19, from 1.0.1): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Divergence report; Appendix B. Claim attribution. references 10 -> 9. length 5614 -> 3965 words.
-- Version 1.2.0 (2026-10-20, from 1.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 9 -> 8. length 4022 -> 4544 words.
-- Version 1.3.0 (2026-10-20, from 1.2.0): revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 8 -> 8. length 4631 -> 3246 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.30.0-refs-extend). Language models were tools in that process; they are not authors. The named author is accountable for the content.
@@ -363,19 +356,3 @@ By casting the trade‑off between self‑referential novelty and coherence as a
 [7] Robust Beamforming Design for Intelligent Reflecting Surface Aided Cognitive Radio Systems with Imperfect Cascaded CSI. arXiv:2004.04595v4. https://arxiv.org/abs/2004.04595v4
 [9] https://papers.qnfo.org/papers/resonant-resolution. QNFO: Resonant Equilibrium.
 [11] https://papers.qnfo.org/papers/epistemic-mirror. QNFO: An Epistemic Mirror.
-
-## Appendix A. Divergence report
-
-The two drafts converged on all quantitative claims and on the overall logical structure. The only divergence concerned the presence of a reference to an “Appendix B” in the discussion of the Lagrangian upper bound (Section 4.4). Draft A explicitly mentioned “see Appendix B,” whereas Draft B did not include such a reference. The reconciled version retains the reference and supplies Appendix B to satisfy the citation.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source drafts | Agreement status |
-|---|---|---|---|
-| C1 | $\Gamma^{*}=\sqrt{\alpha/(\alpha+2)}$, $\Gamma^{*}=0.7071$, $U^{*}=0.25\,N_{0}$ | A, B | CONVERGENT |
-| C2a | Critical slowing down $\tau=100\,\tau_{0}$ at $\Gamma=0.99$ | A, B | CONVERGENT |
-| C2b | Avalanche mean size $\langle s\rangle=100$ at $m=0.99$ | A, B | CONVERGENT |
-| C3 | Excursion‑duration bound $\tau_{\text{exc}}=24.39\,t_{0}$ | A, B | CONVERGENT |
-| C4a | Single‑setpoint optimum $\Gamma=\sqrt{0.3}=0.5477$, $U=0.21\,N_{0}$, improvement $2.56\times$ | A, B | CONVERGENT |
-| C4b | Duty‑cycled benchmark $\bar{U}=0.168\,N_{0}$, improvement $2.05\times$ | A, B | CONVERGENT |
-| C5 | Landauer floor $E_{\min}=2.967\times10^{-21}\,$J per bit | A, B | CONVER

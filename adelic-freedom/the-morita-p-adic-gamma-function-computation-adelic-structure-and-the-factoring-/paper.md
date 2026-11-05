@@ -1,18 +1,8 @@
----
-author: Rowan Brad Quni-Gudzinas
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-title: The Morita p-Adic Gamma Function
-aliases:
-  - The Morita p-Adic Gamma Function
-modified: 2026-05-11T10:11:53Z
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-doi: "https://papers.qnfo.org/papers"
-version: "0.4"
-date: "2026-05-11"
----
-
 # The Morita p-Adic Gamma Function: Computation, Adelic Structure, and the Factoring Question
+
+## Abstract
+
+<p>The Morita p-adic Gamma function $\Gamma_p(n) = (-1)^n \prod_{k=1,\,p \nmid k}^{n-1} k$ is a p-adic analytic object that interpolates factorials while explicitly skipping multiples of $p$. This document provides a self-contained exposition: the definition and functional equation, a computational implementation with benchmarks, the Freund-Witten adelic Beta identity and its regularization, the relationship to the completed Riemann zeta function, and a rigorous analysis of whether the adelic st
 
 **Abstract.** The Morita p-adic Gamma function $\Gamma_p(n) = (-1)^n \prod_{k=1,\,p \nmid k}^{n-1} k$ is a p-adic analytic object that interpolates factorials while explicitly skipping multiples of $p$. This document provides a self-contained exposition: the definition and functional equation, a computational implementation with benchmarks, the Freund-Witten adelic Beta identity and its regularization, the relationship to the completed Riemann zeta function, and a rigorous analysis of whether the adelic structure enables integer factorization. Every quantitative claim is verified by Python computation. The core finding: $\Gamma_p$ encodes p-divisibility directly (the ratio $|\Gamma_p(n+1)/\Gamma_p(n)|$ equals $1$ exactly when $p \mid n$), but this observation does not yield a factoring algorithm—the index circularity, computational cost, and the regularization dependence of the adelic product provide fundamental obstructions. The genuine value of the Morita Gamma function lies in its connections to Gauss sums, p-adic L-functions, and the adelic formulation of the Riemann Hypothesis.
 
