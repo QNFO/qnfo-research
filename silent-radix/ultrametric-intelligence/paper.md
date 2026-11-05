@@ -1,13 +1,10 @@
 # ultrametric-paradigm
 
-## A Non-Archimedean Foundation for Artificial General Intelligence
+*A Non-Archimedean Foundation for Artificial General Intelligence*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers
-**Date:** 2026-04-30 **Version:** 1.3
+## Abstract
+
+Intelligence does not float free of its substrate. Every computational system makes an implicit commitment to a geometry—a structure of space that determines what can be represented, how information propagates, and what it means to learn. The history of artificial intelligence can be read as a sequence of such commitments: the discrete graphs of symbolic AI, the continuous vector spaces of connectionism, and the smooth manifolds of deep learning. Each geometry enables certain capabilities and forecloses others.
 
 *The Archimedean axiom—that small quantities accumulate—is not a
 law of thought. It is a habit of measurement.*

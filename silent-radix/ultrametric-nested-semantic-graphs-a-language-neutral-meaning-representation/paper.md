@@ -276,10 +276,6 @@ Deploying UNSG‑based retrieval without validating parser accuracy could lead t
 
 ## 9. Conclusion This paper introduced Ultrametric Nested Semantic Graphs as a mathematically rigorous, language‑neutral meaning representation. By defining distances via LCA height on the leaf set, the representation inherits the strong triangle inequality of ultrametrics, enabling efficient subgraph‑matching retrieval across typologically diverse languages. The analysis provided a concrete numeric illustration, a corrected planarity assessment, a qualified planar‑slope bound, exact combinatorial cost calculations, and connections to established graph‑theoretic and algebraic frameworks. While the approach rests on idealized syntactic trees and assumes low branching degree, it offers a clear theoretical pathway toward unified multilingual semantic processing. Future work will focus on empirical validation with parallel corpora, extensions to non‑tree syntactic phenomena, and exploitation of the algebraic encoding for algorithmic inference.
 
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. references 12 -> 12. length 4219 -> 4280 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.29.0-terminal-rearmed). Language models were tools in that process; they are not authors. The named author is accountable for the content.

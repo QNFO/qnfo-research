@@ -1,20 +1,3 @@
----
-title: "Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-01"
-license: "CC-BY-4.0"
-doi: ""
-status: "published"
-keywords:
-  - ultrametric
-  - p-adic
-  - quantum metrology
-  - quantum error correction
-  - Bruhat-Tits tree
-  - passive error resilience
-  - room-temperature quantum sensing
----
-
 # Passive Error Resilience Through Ultrametric Geometry: A Proposal for p-Adic Quantum Metrology
 
 ## Abstract
