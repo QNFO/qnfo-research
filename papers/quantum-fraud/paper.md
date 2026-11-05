@@ -1,9 +1,11 @@
 # Quantum Fraud
 
+## Abstract
+
+In 1900, Max Planck, desperate to salvage the failing theory of blackbody radiation, scribbled down an equation that would change physics forever—not because it was true, but because it worked. His “quantum hypothesis” was, by his own admission, a “purely formal assumption,” a mathematical trick with no grounding in physical reality. Yet, this act of theoretical desperation set a dangerous precedent: if the numbers fit, the physics could come later—or never at all.
+
 **How an “Act of Desperation” Sent Physics on a 120-Year
 Particle Snipe Hunt (And Counting)**
-
-*[Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](http://QNFO.org)*
 
 ## Birth Of a Mathematical Cult
 

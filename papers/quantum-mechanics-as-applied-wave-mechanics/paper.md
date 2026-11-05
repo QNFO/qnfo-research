@@ -1,12 +1,8 @@
 # Quantum Mechanics as Applied Wave Harmonics
 
-## A Foundational Textbook for Physics Scientists and Students
+*A Foundational Textbook for Physics Scientists and Students*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers/quantum-mechanics-as-applied-wave-mechanics/ **Version**: 2.3.5
+## Abstract
 
 This textbook introduces a deterministic derivation and
 reinterpretation of quantum mechanics from the first principles of

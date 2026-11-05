@@ -1,13 +1,8 @@
 # Placeholder functions for demonstration
 
-## Quantum Correlation Synchronization Theory of Emergent Gravity
+*Quantum Correlation Synchronization Theory of Emergent Gravity*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers/quantum-correlation-synchronization-theory-of-emergent-gravity/ **Version**: 1.0
-**Date**: 2025-09-18
+## Abstract
 
 This paper presents a theoretical framework that unifies quantum
 mechanics and general relativity through the fundamental mechanism of

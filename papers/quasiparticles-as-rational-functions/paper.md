@@ -1,13 +1,3 @@
----
-title: "Quasiparticles as Rational Functions: Extending ODR to Condensed Matter"
-author: "QNFO"
-date: "2026-08-03"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "Ontological Distribution of Reality, Bruhat–Tits tree, quasiparticles, effective mass, Compton frequency, p-adic valuation, place-democracy"
----
-
 # Quasiparticles as Rational Functions: Extending ODR to Condensed Matter
 
 ## Abstract
