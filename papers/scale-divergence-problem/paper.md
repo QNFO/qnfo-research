@@ -1,13 +1,8 @@
 # Scale-Divergence Problem
 
-## The Scale-Divergence Problem: A Foundational Schism in Modern Cosmology`
+*The Scale-Divergence Problem: A Foundational Schism in Modern Cosmology`*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact Information:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers,17167098 **Publication Date:** 2025-09-20
-**Version**: 1.0
+## Abstract
 
 This document provides a rigorous examination of the Scale-Divergence
 Problem, a fundamental schism in modern cosmology that arises from the

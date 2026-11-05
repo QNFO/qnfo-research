@@ -1,10 +1,8 @@
----
-author: "QNFO"
-date: "2026-07-21"
-status: "v1.0 — draft **Companion:** \"The Ontology of Boundary-Crossing\" (https://papers.qnfo.org/papers) **Series:** The Measurement Boundary — Phase 2: S10 Observer"
----
-
 # The Observer Inside the Tree: Can Self-Location in an Ultrametric Structure Resolve the Inside/Outside Schism?
+
+## Abstract
+
+The 29-schisms framework claims to resolve the central schism of quantum foundations — S10, the observer inside vs. outside — by embedding the observer as a node in an ultrametric TREE structure, eliminating the need for an external vantage point. This paper subjects that claim to independent scrutiny across five dimensions: formal self-location (RQ1), comparative analysis against Relational Quantum Mechanics and QBism (RQ2), node privilege (RQ3), self-reference paradoxes (RQ4), and empirical distinguishability (RQ5).
 
 ## §0. Abstract
 

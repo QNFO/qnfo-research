@@ -1,13 +1,8 @@
 # Risks of Pancomputationalism
 
-## The Bedrock and the Abyss: Navigating the Risks of Abstraction and Pancomputationalism in Theories of Emergent Spacetime
+*The Bedrock and the Abyss: Navigating the Risks of Abstraction and Pancomputationalism in Theories of Emergent Spacetime*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers **Version**: 1.0
-**Date**: 2025-09-13
+## Abstract
 
 This paper addresses the profound challenges inherent in developing
 theories of emergent spacetime, which posit that spacetime is not

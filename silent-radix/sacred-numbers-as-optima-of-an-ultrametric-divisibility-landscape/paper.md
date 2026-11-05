@@ -23,8 +23,6 @@ If the hypothesis that sacred numbers are attractors of an ultrametric divisibil
 
 3. **Ultrametric genealogical trees.** [3] models genealogical structures as ultrametric measure spaces (um‑spaces) and discusses decompositions into disjoint open balls, providing the hierarchical set‑theoretic language in which our depth notion is expressed. The notion of “tree depth” $h(n)=\sum_{p^{e}\parallel n}e$ is introduced here as a definition of the present work. Separately, [4] treats landscape dynamics, interbasin kinetics and ultrametric diffusion; we use it only as topical motivation for reading $F(n)$ as an energy on a hierarchical landscape, and invoke no dynamical result of [4].
 
-
-
 5. **Ultrametric Cantor sets and valuations.** [5] studies ultrametric Cantor sets and the growth of measure on them, i.e. how measure accumulates across the levels of a hierarchical set. In the present model we choose the radical $\operatorname{rad}(n)$ as a scale‑free measure of prime support; this choice is a design decision of the present work, and no measure‑growth result of [5] is used in any derivation below.
 
 6. **Data‑driven ultrametric embedding.** We assume that hierarchical clustering is an appropriate cognitive model for divisibility salience; this is a working assumption of the present paper, not a validated finding. The conversion of data into ultrametric form, the topic treated in [6], is the formal machinery that a future test of this assumption would require; we claim no result of [6] for divisibility salience itself, and the assumption stands or falls on future empirical work.
