@@ -1,13 +1,10 @@
 # Information-Theoretic Reformation of Physics
 
-## An Information-Theoretic Reformation of Physics: Refutation of Quantization and Reconstruction from First Principles
+*An Information-Theoretic Reformation of Physics: Refutation of Quantization and Reconstruction from First Principles*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers/information-theoretic-reformation-of-physics/ **Publication Date:** 2025-09-22
-**Version**: 1.0
+## Abstract
+
+Physics must be reoriented around information-theoretic constraints rather than quantum mechanical assumptions. This reorientation requires a critical reevaluation of Planck’s constant as a curve-fitting parameter and the establishment of finite information capacity as a new axiom. The historical elevation of Planck’s constant to a universal constant represents a profound epistemological error that has shaped theoretical physics for over a century. The quantum hypothesis was a mathematical convenience misinterpreted as a fundamental principle. Replacing quantization with finite information constraints resolves mathematical divergences and eliminates the need for non-physical entities such as wavefunction collapse.
 
 ### 1. Foundational Reorientation: Declaring Planck’s Constant a Historical Artifact and Establishing Finite Information as the New Axiom
 

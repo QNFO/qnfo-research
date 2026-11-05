@@ -1,13 +1,8 @@
 # Information-Theoretic Scale Management
 
-## Information-Theoretic Foundations of Reality: A Statistical Framework for Bridging the Census and the Poll
+*Information-Theoretic Foundations of Reality: A Statistical Framework for Bridging the Census and the Poll*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers/information-theoretic-foundations-of-reality/ **Publication Date:** 2025-09-21
-**Version**: 1.0
+## Abstract
 
 Informational Realism posits that reality’s fundamental layer is
 informational. This framework axiomatizes a distinction between the

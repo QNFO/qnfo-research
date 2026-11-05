@@ -1,13 +1,8 @@
 # Information Realism
 
-## Informational Realism: The Structure and Derivation of Physical Reality
+*Informational Realism: The Structure and Derivation of Physical Reality*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers **Publication Date:** 2025-09-21
-**Version**: 1.0
+## Abstract
 
 This manuscript presents a comprehensive theory of Informational
 Realism, a form of Ontic Structural Realism which posits that
@@ -31,10 +26,6 @@ scientific inquiry, and is distinguished from other quantum
 interpretations. The theory culminates in a concrete, falsifiable
 prediction regarding a quantized action floor for measurement, elevating
 it from a philosophical framework to a testable scientific program.
-
-Keywords: Informational Realism, Ontic Structural Realism, Quantum
-Information Theory, Philosophy of Science, Category Theory, Quantum
-Foundations, Measurement Problem, Black Hole Information Paradox
 
 ### 1.0 Ontological Foundations of Informational Realism
 

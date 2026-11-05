@@ -1,13 +1,3 @@
----
-title: "The Informational Universe: A Synthesis of Holographic Bounds, Thermodynamic Gravity, and Finite-Dimensional Quantum Constraints"
-author: "QNFO Research"
-date: "2026-07-21"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
-bibliography: artifacts/refs.bib
----
-
 # Infomatics: An Axiomatic Framework for Information as Fundamental Substrate
 
 ## Abstract

@@ -1,13 +1,3 @@
----
-title: "The Informational Universe: A Synthesis of Holographic Bounds, Thermodynamic Gravity, and Finite-Dimensional Quantum Constraints"
-author: "QNFO Research"
-date: "2026-07-21"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-bibliography: artifacts/refs.bib
----
-
 # The Informational Universe: A Synthesis of Holographic Bounds, Thermodynamic Gravity, and Finite-Dimensional Quantum Constraints
 
 ## Abstract

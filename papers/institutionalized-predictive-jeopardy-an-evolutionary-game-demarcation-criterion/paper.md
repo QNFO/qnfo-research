@@ -279,10 +279,6 @@ This paper set out to convert the demarcation problem from a matter of informal 
 
 The result's empirical content remains untested: no measured institutional payoffs exist in the present sources, and every headline number inherits the calibration assumptions stated in Section 3.2. What the paper establishes is that the criterion is computable, that its levers are identifiable, and that the smallest next test — estimating $p$ and the reward differential on an existing pre-registration dataset — is within reach of current infrastructure. A demarcation test that is short enough to state in one sentence and strong enough to fail is the prerequisite for holding knowledge systems accountable for the resources they claim [11]; this paper supplies the game-theoretic form of such a test and identifies exactly which observations would falsify it.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.7-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
