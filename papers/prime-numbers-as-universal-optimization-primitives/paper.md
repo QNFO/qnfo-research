@@ -1,7 +1,3 @@
----
-keywords: "prime numbers, universal optimization, Morse theory, category theory, computational verification, structural realism, differential topology"
----
-
 # Prime Numbers as Universal Optimization Primitives
 
 ## Abstract

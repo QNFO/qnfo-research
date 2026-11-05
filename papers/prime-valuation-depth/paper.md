@@ -1,20 +1,3 @@
----
-title: "Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-13"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-version: "v0.2"
-keywords:
-  - p-adic valuation
-  - laws of form
-  - calculus of indications
-  - no-cloning theorem
-  - tensor product
-  - Ostrowski's theorem
----
-
 # Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading
 
 ## Abstract

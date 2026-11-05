@@ -1,5 +1,9 @@
 # Principia Ontologica
 
+## Abstract
+
+Human understanding operates through representational models rather than direct reality apprehension. Alfred Korzybski famously articulated this principle, noting that abstractions derived from perception necessarily differ from their source. Cognitive frameworks function as biological data-compression heuristics evolved for survival, not for producing perfect copies of an ultimate territory. Every scientific theory and philosophical system consequently constitutes a specialized map with inherent simplifications. These maps prove useful for navigation and prediction within specific domains of experience. Confusing the symbolic representation with the actual entity it references leads to significant categorical errors. Recognizing this distinction forms the essential first step toward epistemic humility.
+
 ## Information, Non-Archimedean Geometry, and Semantic Self
 
 *A Framework for Cosmology, Consciousness, and Meaning*

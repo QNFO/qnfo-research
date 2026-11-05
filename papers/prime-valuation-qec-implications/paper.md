@@ -1,16 +1,3 @@
----
-title: "Implications for Computing and Quantum Error Correction"
-author: "Quni-Gudzinas, Rowan Brad"
-orcid: "0009-0002-4317-5604"
-affiliation: "QNFO"
-date: "2026-08-14"
-version: "v0.4"
-license: "CC-BY-4.0"
-doi: ""
-status: "published"
-keywords: ["p-adic valuation", "quantum error correction", "stabilizer codes", "no-cloning theorem", "branch depth", "ultrametric"]
----
-
 # Implications for Computing and Quantum Error Correction
 
 **Anchor:** *Prime Valuation Depth: Multiplication as Branching, the Calculus of Indications, and the Structural No-Cloning Reading* (https://papers.qnfo.org/papers/prime-valuation-depth/).
