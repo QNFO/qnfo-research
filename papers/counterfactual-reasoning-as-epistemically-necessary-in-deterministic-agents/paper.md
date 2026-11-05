@@ -30,7 +30,6 @@ The “so what?” is clear: if counterfactual reasoning is normatively required
 
   
 
-
 Together, these works establish that (i) preserving epistemic alternatives aligns with cognitive flow, (ii) measurable performance gains arise from counterfactual modules, (iii) probabilistic plausibility is mathematically sound, (iv) deterministic ontologies are coherent, and (v) unpredictability is a structural consequence rather than a defect.
 
 ## 3. Methods
@@ -232,10 +231,6 @@ These projections follow directly from the arithmetic in Section 4.
 ### 7.6 Risks and misuse Embedding counterfactual reasoning could be misused to generate plausible “what‑if” explanations that mask accountability if presented as genuine alternatives rather than epistemic constructs. Governance policies should require transparent labeling of such explanations as epistemic counterfactuals.
 
 ## 8. Conclusion We have shown that, even in a hard‑deterministic world, maintaining an epistemic‑possibility distribution over hidden variables yields a policy that is never worse and is strictly better whenever a collapsed guess is suboptimal. The corrected weak‑dominance theorem (Theorem 1) formalizes this advantage, and four concrete scenarios illustrate zero, moderate, and larger gains derived from explicit arithmetic. By integrating insights from flow theory, procedural metrics, counterfactual learning, identifiability limits, quantum‑communication, moral‑reasoning, image evaluation, and plausibility theory, the work demonstrates that counterfactual reasoning is both theoretically justified and practically beneficial under determinism. Future research should empirically validate the predicted advantages in large‑scale RL and AI systems, and develop scalable belief‑tracking architectures that respect the engineering constraints identified here.
-
-## Version History
-
-- Version 1.1.0 (2026-10-21, from 1.0.0): revised against the current literature, re-reviewed and re-verified. references 10 -> 10. length 3294 -> 3511 words.
 
 ## Provenance and AI Involvement
 

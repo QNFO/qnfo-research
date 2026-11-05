@@ -1,21 +1,8 @@
----
-author: Rowan Brad Quni
-email: rowan.quni@qnfo.org
-website: http://qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-robots: By accessing this content, you agree to https://qnfo.org/LICENSE. Non-commercial use only. Attribution required.
-DC.rights: https://qnfo.org/LICENSE. Users are bound by terms upon access.
-
-title: Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks
-aliases:
-  - Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks
-modified: 2025-08-03T12:15:37Z
-version: "1.1"
-date: "August 3, 2025"
----
-
 # Critical Examination of Spacetime, Mass, and Gravity through Competing Ontological Frameworks
+
+## Abstract
+
+This document outlines a comprehensive research program designed to conduct a rigorous, comparative meta-analysis concerning the fundamental nature of reality. The program evaluates the Autaxys Process Ontology ($H_A$) against the distinct foundational theories of modern physics: General Relativity ($H_{0-GR}$) and the Standard Model of Particle Physics ($H_{0-SM}$). Each of these established theories is rigorously treated as a separate Null Hypothesis, with the explicit aim of falsifying their foundational assumptions. Adopting a stringent “strict constructionist” methodology, this investigation is exclusively desk-based, focusing intently on the theoretical re-interpretation of foundational scholarly papers and the critical analysis of existing publicly available data. The primary hypothesis ($H_A$) posits that reality is fundamentally a self-generating, computational process operating within a dynamic medium. Within this framework, a cornerstone concept is the identity of mass as intrinsic frequency ($m_0 = \omega_C$). [...]
 
 **Research Plan**
 ## A Critical Examination of Spacetime, Mass, and Gravity through a Meta-Analysis of Competing Ontological Frameworks
