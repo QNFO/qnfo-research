@@ -1,13 +1,3 @@
----
-title: "Searching for P-Adic Log-Periodic Signatures in the Cosmic Microwave Background Bispectrum: Upper Bounds from Planck 2018"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-12"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "p-adic; ultrametric; log-periodic oscillations; CMB bispectrum; non-Gaussianity; discrete scale invariance"
----
-
 # Searching for P-Adic Log-Periodic Signatures in the Cosmic Microwave Background Bispectrum: Upper Bounds from Planck 2018
 
 ## Abstract

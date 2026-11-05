@@ -181,10 +181,6 @@ $$
 
 Finally, the ultrametric SIR model of [7] demonstrates that dynamical processes on hierarchical graphs exhibit phase transitions when the decay exponent of the distance‑dependent interaction crosses a critical value. Translating this insight to cognitive processing suggests that the linear RT scaling may break down beyond a critical depth $L_c$, where the cumulative hierarchical cost saturates due to limited attentional resources. Future empirical work should therefore test for a piecewise‑linear or sigmoidal RT‑depth relationship, providing a direct falsification of the present linear assumption and guiding extensions of the cocycle‑ultrametric theory.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.25.0-wai-width-governor). Language models were tools in that process; they are not authors. The named author is accountable for the content.

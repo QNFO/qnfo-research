@@ -1,5 +1,9 @@
 # Clockwork Cosmos
 
+## Abstract
+
+Classical physics operates on the foundational assumption that space and time form a smooth, infinitely divisible continuum. Providing the mathematical scaffolding for calculus, this geometric model allowed early physicists to calculate macroscopic gravitational trajectories with high reliability. When applied to the smallest scales of physical reality, however, this assumption of infinite divisibility generates mathematical contradictions. Current observational technologies cannot directly measure the structural fabric of the universe below the Planck length, leaving the continuous nature of space empirically unverified. The equations of general relativity produce infinite energy densities when forced to describe interactions at these microscopic coordinates. These breakdowns indicate that the continuous model functions as a macroscopic approximation rather than a fundamental description of reality. Resolving these contradictions requires abandoning the continuous map in favor of a discrete geometric framework.
+
 ## The Neurobiology of a Fixed Universe and the Paradox of Deterministic Meaning
 
 ***Rowan Brad Quni-Gudzinas***

@@ -167,25 +167,3 @@ We have converted the qualitative correspondence of [1] — classical Floquet dy
 [10] https://papers.qnfo.org/papers/thermodynamics-of-knowing/. QNFO: Thermodynamics of Knowing.
 [11] https://papers.qnfo.org/papers/prime-numbers-as-spectral-artifacts/. QNFO: Prime Numbers as Spectral Artifacts.
 [12] https://papers.qnfo.org/papers/unified-fiber-bundle-formalism-for-the-hopf-fibration/. QNFO: UNIFIED FIBER BUNDLE FORMALISM FOR THE HOPF FIBRATION.
-
-## Appendix A. Divergence report
-
-**D1. Relative amplitude correction: 0.5% vs 1% at n̄ = 10⁴.**
-- Draft B derives δ|α|/|α| = 1/(2√n̄) = 0.005 by differentiating |α| = √n̄ (the physically correct first-order amplitude response to a number fluctuation δn).
-- Draft C uses the conservative bound δ = Δn/n̄ = 1/√n̄ = 0.01, treating the full relative number fluctuation as an amplitude-fluctuation bound.
-- Convention behind the disagreement: B computes the expected correction; C bounds the worst case. Resolution: main text reports both, with B's 1/(2√n̄) as the physical scaling and C's 1/√n̄ as the conservative bound (Steps 6, 9). No silent resolution.
-
-**D2. Gauge-inconsistency phase error per cycle.**
-- Draft B: δγ = π/√n̄ (gauge condition enforced) to 2π/√n̄ (unenforced), i.e., 0.031–0.063 rad at n̄ = 10⁴, from coherent-state phase uncertainty Δφ ≈ 1/(2√n̄) times the winding number.
-- Draft C: |⟨δγ⟩| ≤ |γ^cl|·δ = π × 0.01 ≈ 0.0314 rad, from the classical geometric phase scaled by the fluctuation fraction.
-- Convention: B quantifies the phase-reference uncertainty of the field; C bounds the geometric-phase sensitivity to amplitude fluctuations. The two coincide numerically at the lower edge (0.031 rad) because π/√n̄ = π·(1/√n̄). Resolution: main text adopts B's range as the gauge-error statement and retains C's Berry-phase sensitivity (0.0056 rad off resonance; ≤ 3.14×10⁻⁴ rad operational) as a distinct, complementary quantity.
-
-**D3. Entanglement signature: 2% Schmidt-gap deviation vs 0.0027 per-period depletion.**
-- Draft B: Δ_S ≈ 1 − 2/√n̄, giving a 2% deviation from separability at n̄ = 10⁴ (single-excitation leakage model).
-- Draft C: discarded wavefunction weight outside a 3σ classical band ≈ 0.0027 per period (normal tail of the Poisson distribution), accumulating linearly to ~370 periods.
-- Convention: B measures correlation structure (Schmidt gap); C measures probabilistic weight depletion. These are different observables, but both drafts present theirs as "the" entanglement signature of the classical limit. Resolution: main text presents both as complementary observables (Step 10, Result 6) and flags the model dependence of each (leakage model vs Gaussian tail approximation).
-
-**D4. Parameter sets for numerical evaluation.**
-- Draft A: ω_c/2π = 5 GHz, g/ω_c = 0.01, n̄ = 10⁴ → effective drive ν = 10 GHz.
-- Draft C: g/2π = 1 MHz (illustrative circuit-QED Floquet scale), n̄ = 10⁴, ω_c/2π = 5 GHz → quasienergy bound 10 kHz.
-- Convention: A evaluates the emergent drive amplitude in a strong-coupling cavity; C evaluates the correction budget at weak-coupling parameters, where the quasienergy correction is the relevant observable. Resolution: main text uses A's parameter set for the drive-amplitude, gauge-phase, and entanglement results (Steps 1–8, 10) and C's parameter set for the quasienergy correction (Step 9), reporting both explicitly. No silent resolution.
