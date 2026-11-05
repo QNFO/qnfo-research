@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/treatise-on-waves"
   },
   "declared": {
-    "version": "1.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "27e15abc4257e1fa46542c6b66a4bf2be17019182d6bb09dbbacbff6f24808fe",
       "bytes": 135311,
       "recorded_at": "2026-11-04",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "2ec859cd931e976d8140c78bc2ccf02be62a85495a0d7d0386806c00cd652f17",
+      "bytes": 136124,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

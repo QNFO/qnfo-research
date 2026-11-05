@@ -1,8 +1,3 @@
----
-author: "QNFO Research |"
-date: "2026-07-01"
----
-
 # Trapped-Ion Page-Wootters Experiment: Protocol for Testing Ultrametricity
 
 ## Abstract

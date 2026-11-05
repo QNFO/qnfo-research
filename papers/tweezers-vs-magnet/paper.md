@@ -1,13 +1,8 @@
 # Tweezers Magnet
 
-## How Topology Changes Everything About Computing
+*How Topology Changes Everything About Computing*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers **Publication Date:** 2025-10-13
-**Version:** 1.0
+## Abstract
 
 The dominant paradigm in advanced computing, particularly in the
 quantum domain, relies on the precise external control of individual,

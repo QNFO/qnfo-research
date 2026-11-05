@@ -27,7 +27,6 @@ A decisive experiment would be to reproduce the Posner Hamiltonian on a controll
 7. **Cold‑ion simulation overview** [7] provides an overview of trapped‑ion simulation techniques, indicating the experimental feasibility of single‑qubit rotations and MS interactions.  
 8. **Hydrodynamic gating of nuclear spin coherence** [8] discusses the biological relevance of long‑lived nuclear spins, framing the Posner hypothesis as a concrete test case for quantum cognition.  
 
-
 ## 3. Methods
 
 ### 3.1 Posner Spin Hamiltonian
@@ -209,10 +208,6 @@ A four‑qubit dimer simulation on a trapped‑ion processor with native Mølmer
 ### 7.6 Risks and Misuse A potential misuse is over‑interpreting a null result as definitive proof that quantum cognition is impossible, ignoring that the Posner model itself may be incomplete. Clear communication of the falsification limits is essential.
 
 ## 8. Conclusion We have presented a complete, analytically derived mapping of the Posner molecule spin Hamiltonian onto a trapped‑ion quantum processor. By eliminating the Zeeman term via a rotating frame, employing a two‑step second‑order Trotter decomposition for the weak $J$‑coupling, and treating dipolar interactions as a Lindblad channel, the protocol requires only six high‑fidelity MS gates per simulated second and achieves $\approx97\%$ overall fidelity. The combined error budget defines a $3.1\%$ falsification threshold for the five Posner observables. The next logical step is an experimental implementation on existing trapped‑ion hardware, which will either provide the first empirical support for quantum‑biological spin coherence or decisively rule it out.
-
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 11 -> 8. length 4093 -> 2829 words.
 
 ## Provenance and AI Involvement
 

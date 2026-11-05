@@ -1,13 +1,10 @@
 # Waves Do Math
 
-## A Treatise on Waves: The Physical Nature of Reality
+*A Treatise on Waves: The Physical Nature of Reality*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Email:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000000526456062 **DOI:**
-https://papers.qnfo.org/papers/treatise-on-waves/ **Version:** 1.1
-**Date:** 2025-09-06
+## Abstract
+
+Stand at the edge of the ocean. One is at the boundary between two worlds: the solid, seemingly definite world underfoot, and the fluid, ever-changing world of the sea. Intuition tells us these are fundamentally different kinds of existence. Intuition is wrong. This treatise demonstrates that there is only one reality, governed by a single, universal set of principles—the principles of waves. This reality is fractal, meaning the same fundamental patterns of behavior repeat at every conceivable scale. The intricate dance of waves shaping a coastline follows the exact same logic that shapes an atom. To understand one is to possess the key to understanding the other. The apparent macroscopic differences between a water wave and a quantum field excitation are merely differences in scale and the medium’s local properties, not differences in underlying ontological essence. This unified perspective challenges centuries of dualistic thinking, proposing a seamless continuum of existence from the grand cosmic scale to the Planck realm.
 
 ### One Reality, Many Scales
 

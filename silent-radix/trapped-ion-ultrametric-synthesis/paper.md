@@ -1,33 +1,3 @@
----
-title: "The Trapped-Ion Ultrametric Testbed: A Falsifiability Register for Testing p-Adic Structure in Quantum Dynamics"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-20"
-version: "1.4"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
-keywords: ["trapped-ion quantum simulation", "ultrametric physics", "p-adic", "Bruhat-Tits", "zitterbewegung", "Page-Wootters", "dissipative stabilization", "falsifiability", "quantum error correction", "tensor networks"]
-abstract: |
-  Twenty-one published records from a single research program, spanning December 2025 to
-  August 2026, are here organized into one testable claim: trapped-ion quantum simulators
-  are the first near-term platform on which ultrametric (p-adic) structure in quantum
-  dynamics can be accepted or rejected by measurement, and passive, dissipation-structured
-  hardware is the engineering embodiment of that structure. The synthesis contributes a
-  falsifiability register: five observables, each with a pre-registered prediction, a
-  kill-condition, and an apparatus already demonstrated in the cited records. It also
-  records what the program has already ruled out, including the finding that generic
-  Page-Wootters clock-rest coupling violates ultrametricity at a 29-35 percent rate while
-  diagonal coupling yields exact ultrametric structure -- the very asymmetry the trapped-ion
-  protocol measures -- and the economic finding that trapped ions rank last among seventeen
-  platforms on a joules-per-solution basis, making the ion trap a physics testbed rather
-  than a production economics play. The program-level nulls the register must respect are
-  kept on the same ledger: the cosmological log-periodic null, the biophoton anti-ultrametric
-  null, and the ultrametric-QEC independent-error threshold. The paper states its assumptions
-  explicitly: the falsifiable content rests on two named imported inputs, and the claims end
-  where those inputs begin. A practitioner section specifies what can be built today without
-  any new theory.
----
-
 # The Trapped-Ion Ultrametric Testbed: A Falsifiability Register for Testing p-Adic Structure in Quantum Dynamics
 
 ## Abstract

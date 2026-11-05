@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/twisted-cuprate-twistronics/"
-date: "2025-12-18"
-version: "1.0.2"
----
-
 # Twisted Cuprate Twistronics and the Thermodynamic Scaling of Topological Quantum Computation
 
 ## Abstract
