@@ -1,13 +1,3 @@
----
-title: "ZX Diagrams at the Seam: Spiders, Pauli Webs, Gadgets, and the Cafeteria Problem of Cross-Disciplinary Imports"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-19"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
-keywords: ["ZX calculus", "diagrammatic reasoning", "quantum computing", "map-territory", "epistemology", "import provenance"]
----
-
 # ZX Diagrams at the Seam: Spiders, Pauli Webs, Gadgets, and the Cafeteria Problem of Cross-Disciplinary Imports
 
 ## Abstract
@@ -297,7 +287,6 @@ built on that ground, and the boundary between the two has been marked throughou
 
 The satisfaction of a closing diagram is real. So is the discipline of remembering that it
 closed a map, not the world.
-
 
 ## Appendix: Post-publication evidence from QPL 2026 (added in version 0.4, 2026-08-19)
 
