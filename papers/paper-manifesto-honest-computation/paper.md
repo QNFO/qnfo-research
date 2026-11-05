@@ -1,32 +1,3 @@
----
-title: "Manifesto for Honest Computation"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-08
-series: "The Qubit Delusion --- Phase VI (Final Synthesis)"
-abstract: >
- Five papers have traced an arc from diagnosis to prescription. The qubit is a
- scaffold, not an invariant. Alternative paradigms exist. Physical limits are real.
- A diversified portfolio is rational. Institutions must be reformed. This final
- paper --- the Manifesto --- synthesizes these findings into principles for honest
- computation and a call to action for investors, researchers, policymakers, and
- the public. We propose five principles: (1) the substrate IS the algorithm; (2)
- correlation over particle; (3) joules per solution as the universal metric; (4)
- falsifiability as a condition of funding; and (5) institutional independence of
- verification. We propose a specific resource reallocation --- from the ~60% currently
- consumed by gate-model quantum computing toward thermodynamic, optical, neuromorphic,
- and analog quantum simulation --- and a Falsification Pledge by which institutions
- commit to pre-registering computational claims with time-bound success criteria.
- Computation is too important to be left to narrative production. The future of
- computing is honest, or it is nothing.
-keywords:
- - manifesto
- - honest computation
- - post-classical computing
- - quantum computing reform
- - computational principles
- - research ethics
----
-
 # Manifesto for Honest Computation
 
 ## Abstract

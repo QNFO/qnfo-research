@@ -1,40 +1,3 @@
----
-title: "Institutional Reform: Fixing the Epistemic Incentive Structure of Post-Classical Computing"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-08
-series: "The Qubit Delusion --- Phase V"
-abstract: |
- The first four papers in this series established that quantum computing's failure
- is epistemic (Phase I), surveyed alternatives (Phase II), examined physical limits
- (Phase III), and proposed an investment portfolio (Phase IV). This paper addresses
- the institutional question: why did $35 billion of investment over two decades
- produce zero commercially viable quantum computers, and how do we prevent this from
- happening again? We diagnose the institutional incentive structure that rewards
- narrative production over falsifiable results --- the misalignment between venture
- capital fund horizons and quantum computing development timelines, the capture of
- government research agencies by private interests, the absence of independent
- verification protocols with enforcement mechanisms, and the regulatory vacuum in
- which quantum computing claims are made without consequence. We propose five
- institutional reforms: (1) an Advanced Computing Projects Agency modeled on
- DARPA's successful structure but restricted to post-classical computing; (2)
- mandatory independent verification for any quantum computing claim above a materiality
- threshold; (3) structural separation of quantum hardware R&D from quantum software
- and services; (4) reform of government procurement to require joules-per-solution
- metrics; and (5) creation of a public registry of claims with time-bound falsification
- criteria. We argue that without institutional reform, any technological advances in
- post-classical computing will be captured and distorted by the same incentive
- structures that produced the quantum computing bubble.
-keywords:
- - institutional reform
- - quantum computing
- - venture capital
- - research policy
- - DARPA
- - independent verification
- - science policy
- - technology bubbles
----
-
 # Institutional Reform: Fixing the Epistemic Incentive Structure of Post-Classical Computing
 
 ## Abstract
@@ -663,8 +626,3 @@ effort to understand them.
 ## Prior Work and Related Literature
 
 The earlier formal work on epistemic incentives established the analytic vocabulary this paper uses to explain the quantum computing bubble. In [Institutionalized Predictive Jeopardy: An Evolutionary-Game Demarcation Criterion for Knowledge Systems](https://papers.qnfo.org/papers/institutionalized-predictive-jeopardy-an-evolutionary-game-demarcation-criterion), I showed that institutional knowledge systems lack a formal criterion for distinguishing claims that carry prospective falsification risk from claims fitted to evidence after the fact, and modeled the choice as an evolutionary game between a falsifiable strategy and a post-hoc strategy. That paper derived the accuracy threshold \(p^{*}=(s+c)/(b+c)\), demonstrated that under a baseline incentive configuration post-hoc fitting dominates even for a forecaster who is right 60% of the time, and showed that a pre-registration-style reform raising the confirmed-prediction reward reverses the equilibrium. It also derived an antifragility condition under which registered failures raise system reliability and a reform timescale for the transition between equilibria. [Institutionalized Unfalsifiability as an Evolutionarily Stable Strategy in Scientific Incentive Landscapes](https://papers.qnfo.org/papers/institutionalized-unfalsifiability-as-an-evolutionarily-stable-strategy-in-scien) reached the same threshold and flip-point result from a complementary direction, treating unfalsifiability as an evolutionarily stable strategy and anchoring the payoff parameters in concrete numeric statements from the scientific literature. That paper identified the policy lever that follows from the model: raising the confirmed-prediction reward can make falsifiable practice
-
-
-## Changelog
-
-- v1.1.0: Added a Prior Work and Related Literature section that places this paper among 2 related QNFO papers.
