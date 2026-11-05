@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/thermodynamic-viability-and-the-universality-of-feynman-matter/"
-date: "2025-12-23"
-version: "1.0.1"
-keywords: "Feynman Matter, Topological Monism, Thermodynamic Wall, Quantum Computation, Geodesic Evolution, Passive Protection, Adiabatic Quantum Computing"
----
-
 # Thermodynamic Viability and the Universality of Feynman Matter
 
 ## Abstract

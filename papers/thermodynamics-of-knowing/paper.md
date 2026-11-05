@@ -1,14 +1,10 @@
 # Thermodynamics of Knowing
 
-## Hamiltonian Engineering of a Driven-Dissipative Epistemic Engine
+*Hamiltonian Engineering of a Driven-Dissipative Epistemic Engine*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/thermodynamics-of-knowing/ **Date:**
-2026-01-30 **Version:** 1.0
+## Abstract
 
-**Abstract**: This paper re-frames the physical basis of
+This paper re-frames the physical basis of
 knowledge as a non-equilibrium thermodynamic process. We reject
 equilibrium models and identify the “Epistemic Cut” as a dissipative
 phase transition in a driven open quantum system, specifically the Dicke
@@ -1079,9 +1075,7 @@ based on cavity dissipation.”“” # EPR ~ Power Dissipated = Energy/Photon
 n_ss
 ```
 
-
-### Appendix C: Data
-Tables and Visualizations
+### Appendix C: Data Tables and Visualizations
 
 **Table C.1: Paradigm Shift in Epistemic
 Engineering**

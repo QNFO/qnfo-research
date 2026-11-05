@@ -1,13 +1,8 @@
 # Thermodynamic Veto
 
-## Correlated Noise and the Phase Transition of Scalable Quantum Computing
+*Correlated Noise and the Phase Transition of Scalable Quantum Computing*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/thermodynamic-veto/ **Publication
-Date:** 2025-11-27 **Version:** 1.0
+## Abstract
 
 The realization of commercially viable, fault-tolerant quantum
 computing is precluded not by engineering immaturity but by a
