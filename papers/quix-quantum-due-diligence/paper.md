@@ -1,14 +1,3 @@
----
-title: "Due Diligence Report: QuiX Quantum — Europe's Photonic Quantum Computing Champion"
-author: "QNFO Research"
-date: "2026-07-23"
-doi: ""
-status: "published"
-classification: "DD-2026-07-23"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-tags: [photonic-quantum-computing, silicon-nitride-pic, boson-sampling, quantum-architecture, europe-quantum-sovereignty]
----
-
 # Due Diligence Report: QuiX Quantum
 
 ## Executive Summary

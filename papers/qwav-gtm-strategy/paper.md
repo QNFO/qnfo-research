@@ -1,7 +1,3 @@
----
-keywords: "QWAV, JPCUB, joules per solution, energy benchmarking, quantum computing, consortium, standards, SPEC, Green Grid, PUE, MLPerf, QED-C"
----
-
 # QWAV Strategy v2.4.1: The Energy-Standard Playbook — Consortium Governance, Verified Precedents, and the JPCUB Road to a Quantum Computing Energy Benchmark
 
 *QWAV Strategy v2.3 - Consortium & Grant Extension*

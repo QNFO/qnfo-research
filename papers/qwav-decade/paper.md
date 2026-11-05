@@ -1,13 +1,3 @@
----
-title: "The QWAV Decade: Enterprise p-Adic Computing 2025-2035"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-genre: "B — Commercial/Strategy"
----
-
 # The QWAV Decade: Enterprise p-Adic Computing 2025-2035
 
 **Forward-Looking Statements:** This document contains forward-looking statements based on current expectations, estimates, and projections. These statements are not guarantees of future performance and involve risks and uncertainties. Actual results may differ materially. The forecasts, timelines, and market assessments herein are based on publicly available data, published research, and calibrated subjective judgment as of 2026-07-31. All figures marked with a dagger (†) are design targets — not yet demonstrated in industry-wide practice.
@@ -240,9 +230,3 @@ Both paths preserve QWAV's core asset: deep expertise in computing efficiency an
 **Disclaimer:** This document is for informational purposes only and does not constitute investment advice, a solicitation, or an offer to sell securities. Past performance and forecasts are not guarantees of future results.
 
 ---
-
-## Version History
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| v0.1 | 2026-07-31 | Initial draft: 3-era forecast, competitive landscape, p-adic processor concept, pivot paths |

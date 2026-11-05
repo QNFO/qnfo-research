@@ -418,17 +418,6 @@ Mitigation strategies include periodic empirical validation (Section 9.3) and 
 
 The results are ready for validation at **TRL 2** and provide a clear roadmap for pilots that can de‑risk the assumptions and guide the fleet toward higher autonomy and fiscal compliance.
 
-## Version History
-
-- Version 1.4.0 (2026-09-27, from 1.3.0): Correct Appendix B live-census list: drop retired qnfo-goal-author and qnfo-skills-mcp (flagged by CMD RED TEAM 2026-09-28 as an undisclosed internal contradiction). Optional: refresh Appendix A same-day counts.
-- Version 1.4.2 (2026-10-19, from 1.4.1): retracted
-- Version 1.4.2 (2026-10-19, from 1.4.1): retracted
-- Version 1.5.0 (2026-10-19, from 1.4.2): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Abstract; Introduction; Background and Related Work; Methods; Analysis; Results. references 0 -> 9. length 619 -> 2989 words.
-- Version 1.6.0 (2026-10-20, from 1.5.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 9 -> 9. length 3073 -> 3455 words.
-- Version 1.7.0 (2026-10-20, from 1.6.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 9 -> 8. length 3563 -> 4891 words.
-- Version 1.8.0 (2026-10-20, from 1.7.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 8 -> 9. length 5023 -> 4357 words.
-- Version 1.9.0 (2026-10-21, from 1.8.0): revised against the current literature, re-reviewed and re-verified. references 9 -> 13. length 4520 -> 5083 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.30.1-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
@@ -453,20 +442,3 @@ The results are ready for validation at **TRL 2** and provide a clear roadmap 
 [12] https://papers.qnfo.org/papers/quniverse-fleet-lessons. QNFO: Quantitative Integrity and Reliability Modeling of the Quniverse Autonomous Research Fleet.
 [13] https://papers.qnfo.org/papers/auditing-bqnn. QNFO: Auditing the BQNN: Does a Tunable Quantum Neural Network on Trapped-Ion and Superconducting Hardware Demonstrate a Route to Near-Term Quantum Advantage?.
 [14] https://papers.qnfo.org/papers/computing-machines. QNFO: Computing After Silicon: A History-Constrained Forecast of Computing Machine Evolution, 2026-2050.
-
-## Appendix A. Divergence Report
-| Divergence | Draft A Position | Draft B Position | Chosen Convention |
-|------------|------------------|------------------|-------------------|
-| Mitigation factor $\alpha$ | Assumed $\alpha=0.5$ (Section 4.1) | Derived $\alpha=1{,}889/(1{,}889+1{,}264)\approx0.5991$ (Section 4.1) | Adopt count‑derived $\alpha\approx0.5991$ (more faithful to retraction‑notice data). |
-| Expected failures $E[F]$ | $E[F]=2.16$ (using $\alpha=0.5$) | $E[F]=1.732$ (using count‑derived $\alpha$) | Use $E[F]=1.732$ as primary result; retain $E[F]=2.16$ as a conservative bound in Section 6.1. |
-| Monthly gateway spend projection | Baseline $S_{\text{proj}}=\$160.8$ (using $\alpha=0.5$) | Baseline $S_{\text{proj}}=\$158.66$ (using count‑derived $\alpha$) | Report $S_{\text{proj}}=\$158.66$ as baseline; note $S_{\text{proj}}^{(0.5)}=\$160.80$ as a sensitivity case. |
-| Halved $p_f$ spend projection | $S_{\text{proj}}'=\$155.4$ (using $\alpha=0.5$) | $S_{\text{proj}}'=\$154.33$ (using count‑derived $\alpha$) | Use $S_{\text{proj}}'=\$154.33$ as improved scenario; retain $S_{\text{proj}}'^{(0.5)}=\$155.40$ as a sensitivity case. |
-| Billing‑unit ratio reporting | Combined cap‑ratio and gate‑ratio in a single sentence (no explicit excess) | Separate cap‑ratio, cap‑excess, gate‑ratio, and corrected‑spend exceedance | Adopt the separated reporting (Sections 4.8–4.9). |
-| TRL statement | “TRL 2” (Abstract) | “TRL 1–2” (Abstract) | Use “TRL 2” consistently throughout the paper. |
-
-No other substantive divergences were identified.
-
-## Appendix B. Claim Attribution
-| Claim ID | Statement | Source Draft(s) | Agreement Status |
-|----------|-----------|-----------------|------------------|
-| C1 | Der
