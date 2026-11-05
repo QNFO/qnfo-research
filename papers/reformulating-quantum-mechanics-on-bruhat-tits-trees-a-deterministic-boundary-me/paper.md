@@ -192,10 +192,6 @@ All numerical values follow directly from the arithmetic in Section 4.
 
 ## 8. Conclusion We have constructed a deterministic reformulation of quantum mechanics on the Bruhat–Tits tree $T_{p}$, proving that the uniform boundary measure reproduces the Born rule for all states whose squared amplitudes are rationals with denominator $p^{N}$. Explicit arithmetic for a binary tree of depth 6 yields $P=0.125$, and a $p=5$ example reproduces probabilities $0.36$ and $0.64$. The framework also respects the CHSH bound, indicating that Bell‑inequality violation remains a decisive test. Limitations concerning finite depth, uniformity, and rational‑amplitude restriction are identified, and a concrete simulation experiment is proposed to falsify or corroborate the central claim. By grounding quantum probabilities in ultrametric geometry, the approach offers a new avenue for addressing the measurement problem and for designing fault‑tolerant quantum information architectures.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

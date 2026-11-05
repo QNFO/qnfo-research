@@ -1,16 +1,10 @@
 # Relational Patternist Synthesis
 
-## Ontology, Semiotics, and Structural Realism
+*Ontology, Semiotics, and Structural Realism*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/relational-patternist-synthesis/
-**Date:** 2026-04-09 **Version:** 1.0.1
+The Ontological Question: In a universe described by multiple, scale-relative scientific theories (from quantum fields to fluid dynamics to intentional agents), what constitutes a “real” entity, and how do we distinguish objective structure from subjective noise? The Semiotic Question: How can we reconcile the arbitrary, convention-based nature of human language (Saussurean shared meaning) with the existence of universal, objective physical patterns?
 
 ## I. CORE RESEARCH QUESTIONS
 
