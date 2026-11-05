@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers"
-date: "2025-12-16"
-version: "1.0.1"
-keywords: "Quantum Computing, Fault Tolerance, Quantum Error Correction, Thermodynamics, Scalability, Surface Code, Asymptotic Infeasibility"
----
-
 # Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation
 
 ## Abstract

@@ -1,15 +1,10 @@
 # Thermodynamic and Quantum Constraints on Scalable Quantum Computing
 
-### A Consilience of Modeling, Experiment, and Theory
+*A Consilience of Modeling, Experiment, and Theory*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/thermodynamic-constraints-and-architectural-inversions-in-scalable-quantum-information-systems/ **Date:**
-2025-12-19 **Version:** 2.0
+## Abstract
 
-**Abstract**: The central tension in scalable quantum
+The central tension in scalable quantum
 computing lies between the exponential growth of quantum information
 density and the polynomial limits of cryogenic heat extraction. This
 thermodynamic bottleneck motivates an architectural inversion, where
