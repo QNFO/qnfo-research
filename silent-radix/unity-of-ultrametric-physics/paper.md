@@ -1,13 +1,10 @@
 # Unity of Ultrametric Physics
 
-## A Self-Contained Development from First Principles
+*A Self-Contained Development from First Principles*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers
-**Date:** 2026-04-30 **Version:** 0.7.1
+## Abstract
+
+This document develops a unified framework for physics grounded in ultrametric geometry. No prior mathematical knowledge is assumed. Every concept — from the notion of a set to the adelic field equations — is defined in place, every operation explained, and key properties proved. The text can be read as a research manifesto, a technical reference, or a blueprint for implementation. It draws on the adelic factorization of string amplitudes, the hierarchical solution to the Standard Model’s structure problem, the natural UV finiteness of ultrametric quantum field theory, and the holographic encoding of bulk physics on tree boundaries. It culminates in concrete computational architectures and eighteen falsifiable experimental protocols spanning collider physics, cosmology, dark matter detection, and tabletop quantum simulation.
 
 **Abstract.** This document develops a unified framework
 for physics grounded in ultrametric geometry. No prior mathematical

@@ -1,14 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/unified-formal-ontology-of-the-correlated-universe/"
-date: "2026-03-17"
-version: "2.1"
----
-
 # UNIFIED FORMAL ONTOLOGY OF THE CORRELATED UNIVERSE
+
+## Abstract
+
+The universe operates as a unified field of potential rather than a collection of isolated fragments. Classical cosmology traditionally models expansion as a disconnected scattering of independent matter moving through an empty void. This framework proposes a universal state space, where all events remain mathematically balanced against an initial, superdeterministic state. Cellular development reflects this principle, unfolding from a singular pluripotent state rather than assembling randomly from disparate biological parts. A germinating seed demonstrates this architecture, containing complete structural parameters before any physical growth occurs. Recognizing this foundational unity prevents the analytical errors caused by assuming systemic components function autonomously.
 
 ## CHAPTER 1: The Primordial Correlation and Superdeterminism
 

@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/unifying-photosynthetic-energy-transduction-and-ambient-superconductivity/"
-date: "2026-01-21"
-version: "1.0"
-keywords: "Boson-signal ontology, fermion-worker model, photosynthetic isomorphism, ambient superconductivity, Floquet engineering, ENAQT, non-dualistic quantum mechanics"
----
-
 # Unifying Photosynthetic Energy Transduction and Ambient Superconductivity
 
 ## Abstract

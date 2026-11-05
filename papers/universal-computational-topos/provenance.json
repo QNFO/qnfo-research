@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/universal-computational-topos"
   },
   "declared": {
-    "version": "1.0.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 52665,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "db5ca3776b81381e5e94c9205468765ff8b68ec5091af53eac93dc03d7a3a13e",
+      "bytes": 52194,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

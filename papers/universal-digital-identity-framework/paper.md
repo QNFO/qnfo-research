@@ -1,13 +1,10 @@
----
-version: "1.1.0"
-date: "2025-04-29"
-author: "[Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](http://QNFO.org) **Target Audience:** Global Technical Community (IETF, W3C), International Policy Makers, Digital Rights Advocates, ICANN Community, Registry/Registrar Operators, Web3/SSI Developers, P2P Protocol Developers, Application Developers, AI Researchers, Knowledge Management Specialists, Visionaries Shaping the Future Internet"
----
-
 # White Paper: Universal Digital Identity Framework (UDIF)
 
-*The Foundational Protocol for User Sovereignty, Decentralized
-Interaction, and Networked Knowledge*
+*The Foundational Protocol for User Sovereignty, Decentralized Interaction, and Networked Knowledge*
+
+## Abstract
+
+[[#1. Executive Overview: UDIF – The Cornerstone for Digital Sovereignty and Networked Knowledge]] [[#2. The Digital Quagmire: Identity Fragmentation and the Sovereignty Deficit]] [[#2.4. The Unfulfilled Promise: Barriers to Open Knowledge and Collaboration]] [[#2.5. Stifled Synergies: The Absence of Infrastructure for Networked Intelligence]] [[#3. Architecting Liberation: The UDIF Framework and DNS-Powered Discovery]]
 
 ## Table of Contents
 

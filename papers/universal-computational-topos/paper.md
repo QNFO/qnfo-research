@@ -1,14 +1,10 @@
 # Universal Computational Topos
 
-## The Universal Computational Topos and Strange Loops: A Unified Framework for Computational Self-Reference
+*The Universal Computational Topos and Strange Loops: A Unified Framework for Computational Self-Reference*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000 0005 2645 6062
-**URL:** https://papers.qnfo.org/papers/universal-computational-topos/ **Publication
-Date:** 2025-11-03 **Version:** 1.0.1
+## Abstract
 
-**Abstract**: This work presents a comprehensive
+This work presents a comprehensive
 mathematical framework for understanding computational self-reference
 through the unification of hierarchical computational theories and
 meta-computational approaches. We establish that the Computational
@@ -28,11 +24,6 @@ through fixed-point spectra and computational closure operations, with
 significant applications to system design, computational ethics, and
 future research directions in categorical logic and realizability
 theory.
-
-**Keywords**: computational self-reference, topos
-theory, strange loops, computational closure structures, fixed-point
-theorems, categorical logic, participatory computation, geometric
-morphisms, realizability
 
 ## 1.0 The Computational Self-Reference Problem
 

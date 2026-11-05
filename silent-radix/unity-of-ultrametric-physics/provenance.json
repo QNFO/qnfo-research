@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/unity-of-ultrametric-physics"
   },
   "declared": {
-    "version": "0.7.1",
+    "version": null,
     "license": "CC BY 4.0",
     "dois": [
       {
@@ -34,6 +34,14 @@
       "sha256": "e890791f99190eef54fe7ac38e750f865304aa23bcc4d7e92ef5a962a355799e",
       "bytes": 102063,
       "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "049fc24f6ba4455eaa077efe812d2beee2155ef488e5c0963c1b74d343166cb4",
+      "bytes": 102593,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
