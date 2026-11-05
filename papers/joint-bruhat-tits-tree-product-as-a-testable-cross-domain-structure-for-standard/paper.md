@@ -216,10 +216,6 @@ Mitigation requires transparent reporting of all ratios, uncertainties, and the 
 
 ## 8. Conclusion We have placed the joint Bruhat–Tits tree conjecture on a quantitative, falsifiable footing. The joint‑fit probability for eleven SM mass ratios to lie within $2\%$ of the 5‑smooth semigroup $\mathcal{P}$ under a uniform null is $4.19\times10^{-27}$, an astronomically small number that nonetheless remains conditional on the chosen null model and independence assumptions. The continuous spectrum of the natural Laplacian on $\mathcal{T}_{2}$ and $\mathcal{T}_{5}$ is confined to narrow intervals that lack discrete eigenvalues capable of encoding particle masses. Finally, the harmonic‑mean of the three prime log‑periods fails to reproduce the empirical Efimov scaling by a factor of $22.51$. Together, these results strongly suggest that the conjectured universal structure does **not** simultaneously account for SM mass ratios, GKP lattice parameters, and Efimov scaling. The framework, however, yields a clear experimental protocol: precise verification of any single SM ratio or Efimov factor suffices to falsify the conjecture. Future work may explore modified Laplacians, alternative semigroups, or additional primes, but the present analysis demonstrates that the original claim is not supported by the available arithmetic and statistical evidence.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.39-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

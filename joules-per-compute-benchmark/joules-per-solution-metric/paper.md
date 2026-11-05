@@ -1,11 +1,3 @@
----
-author: "QNFO |"
-date: "2026-07-27 |"
-status: "Draft — Phase 5 **Series:** Joules-per-Compute Universal Benchmark (JPCUB) — Paper P0"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-keywords: "computational benchmarking, energy efficiency, joules per operation, Landauer limit, honest computation, quantum computing, neuromorphic computing, AI energy, green computing"
----
-
 # The Joules-per-Solution Metric: Definition, Measurement Protocol, and Anti-Gaming Provisions for Honest Computational Benchmarking
 
 ## Abstract

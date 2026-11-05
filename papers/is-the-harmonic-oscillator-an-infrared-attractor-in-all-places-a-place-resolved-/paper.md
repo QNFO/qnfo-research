@@ -404,24 +404,3 @@ We asked whether the harmonic oscillator’s status as an IR attractor is place�
 [10] https://papers.qnfo.org/papers/rg-harmonic-synthesis. QNFO: The RG-Harmonic Isomorphism: Synthesis of Eight Research Question Deliverables.
 [11] https://papers.qnfo.org/papers/is-the-harmonic-oscillator-an-infrared-attractor-in-all-places-a-place-resolved-. QNFO: Is the Harmonic Oscillator an Infrared Attractor in All Places? A Place‑Resolved Analysis of the Harmonic Paradigm.
 [12] https://papers.qnfo.org/papers/harmonic-ostrowski-re-evaluation. QNFO: The Harmonic Paradigm Under Ostrowski’s Theorem: A p-Adic/Adélic Re-Evaluation with Helical Compton Vortex Synthesis.
-
-## Appendix A. Divergence report
-
-**D1. $p$‑adic spectrum model.** Two drafts adopted the geometric ladder $E^{(p)}_n=E_0\,p^{-n}$ (energies decreasing with tree level). One draft used an alternative $E^{(p)}_n=E_0\,p^{\gamma n}$ with $\gamma=1$ (energies increasing). *Chosen convention:* the decreasing ladder $E^{(p)}_n=E_0\,p^{-n}$, because it yields an IR‑direction consistent with a shrinking gap hierarchy and is used by the majority of drafts.
-
-**D2. Verdict on the attractor trichotomy.** One draft concluded repulsion in the $p$‑adic place by assigning a negative RG coefficient; the other two concluded structural transformation (attraction in both places but spectrally distinct). *Chosen convention:* the structural‑transformation verdict, as it follows from the derived spectra and does not rely on an ad‑hoc sign choice for $\gamma_p$.
-
-**D3. Adelic linkage test design.** One draft tested linkage by forming a numerical product of matched Archimedean and $p$‑adic energy values; the other two tested a product‑of‑distances hypothesis on the RG flow. *Chosen convention:* the product‑of‑distances test, because the attractor claim concerns flow behavior rather than a dimensionful product of energies.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Statement | Source Section(s) | Agreement |
-|----------|-----------|-------------------|-----------|
-| C1 | The adelic product formula holds for $x=2/3$, $5/7$, and $3/4$. | A1 (Analysis) | Convergent |
-| C2 | Bruhat–Tits tree vertex count formula $g_p(n)=(p+1)p^{n-1}$ and cumulative counts $S_2(5)=94$, $S_3(5)=485$. | A2 (Analysis) | Convergent |
-| C3 | $p$‑adic spectral gaps shrink geometrically with ratio $p$ for $p=2,3,5$. | A3 (Analysis) | Convergent |
-| C4 | Exponential RG decay $\alpha_v(\ell)=e^{-\gamma_v\ell}$ with $\gamma_v=0.1$ yields $\alpha_v(20)\approx0.135335$, $\alpha_v(40)\approx0.018316$, $\alpha_v(60)\approx0.002479$. | A4 (Analysis) | Convergent |
-| C5 | Product‑of‑distances $\prod_v\alpha_v(\ell)$ is $\ell$‑dependent unless $\sum_v\gamma_v=0$. | A5 (Analysis) | Convergent |
-| C6 | Adelic product formula constrains amplitudes $|\Psi(x)|_v$ pointwise. | A6 (Analysis) | Convergent |
-| C7 | Cross‑place gap ratio $\Delta E^{(\infty)}/\Delta E^{(p)}_n = p^{n+1}/(p-1)$, giving $64$ for $p=2$, $n=5$. | A7 (Analysis) | Convergent |
-| C16 | The RG‑harmonic mapping onto Bruhat–Tits trees provides a concrete correspondence between RG fixed points and $p$‑adic tree structures. | Background citing [3] | Convergent |

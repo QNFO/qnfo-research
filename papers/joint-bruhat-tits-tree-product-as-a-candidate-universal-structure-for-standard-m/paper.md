@@ -252,30 +252,6 @@ The principal finding of this paper is negative and partial. Of the four pillars
 
 We formalized the joint Bruhat–Tits tree conjecture — that the diagonal embedding of $\mathcal{T}_{2}\times\mathcal{T}_{3}\times\mathcal{T}_{5}$ into $\mathbb{R}_{+}$, with image the Pythagorean semigroup $\mathcal{P}=\{2^{a}3^{b}5^{c}\}$, underlies SM mass ratios, QEC lattice parameters, and Efimov scaling — and evaluated its proposed consequences by exact arithmetic. Three findings survive reconciliation. First, the headline conditional probability for eleven simultaneous 2% mass-ratio fits under the stated uniform null is $(4\times10^{-3})^{11}=4.194304\times10^{-27}$, correcting an erroneous $4.2\times10^{-30}$; the number remains conditional on a per-ratio deviation table that this paper does not compute, and the density of $\mathcal{P}$ in $\mathbb{R}_{+}$ means any confirmatory analysis must control for search freedom over exponent triples. Second, the harmonic-mean Efimov correspondence is falsified: $\lambda_{\text{tree}}=3/(1/\ln 2+1/\ln 3+1/\ln 5)=1.008652$ lies a factor of $22.51$ from the assumed empirical $\lambda\approx22.7$, and the residual near-hit $24$ versus $22.7$ carries no evidential weight. Third, the definitional laws $\ell_{p}(k)=p^{-\operatorname{ord}_{p}(k)}$ (giving $\ell_{2}(12)=0.25$ and product $1/12$) and $S=|\log_{2}L|$ (giving $S=10$ bits at $L=1024$) are exact but physically untested; their smallest falsification tests are a photon-number-resolved transmon loss measurement and a subtree-entropy tomography, both of which are expected to return null outcomes under conventional theory. The gauge-group pillar is blocked at the level asserted by a cardinality obstruction and remains open. The work stands at TRL 1–2: its contribution is not a confirmed structure but a corrected arithmetic, a documented falsification, and a sharpened protocol that any future evaluation of the conjecture must satisfy.
 
-## Appendix A. Divergence Report
-
-The three constituent drafts diverged on the following points; each divergence is documented here with the convention adopted in the main text.
-
-- **D1: Joint fit probability.** Draft A reported $4.2\times10^{-30}$ for eleven simultaneous 2% fits; Draft B's protocol implies $(4\times10^{-3})^{11}$. The disagreement is an arithmetic error in Draft A's evaluation of the power of ten, not a convention difference: $4^{11}=4{,}194{,}304$ forces the exponent $-27$. *Resolution:* the main text uses $4.194304\times10^{-27}$ (Section 4.1).
-- **D2: Efimov correspondence.** Draft A quoted $\lambda_{\text{tree}}=24$ (the Pythagorean vertex $(3,1,0)$, within $5.73\%$ of $22.7$); Draft B derived the harmonic mean of the log-periods as the correspondence. The two conventions are mathematically distinct objects. *Resolution:* the main text evaluates both (Section 4.4); the harmonic mean fails by a factor $22.51$ and the vertex value is retained only as a labeled coincidence, per the density objection.
-- **D3: Statistical framing.** Draft A used the binary/uniform null (Framing A); Draft B used a Gaussian chi-squared framing (Framing B) with a per-ratio deviation table. *Resolution:* both framings are stated (Section 3.2); Framing A is executed conditionally, Framing B is carried as a specified method because Draft B's table was not reproducible from stated inputs (its own summation produced a negative contribution to a sum of squares).
-- **D4: Photon-loss functional form.** Draft A used the multiplicative law $\ell_{p}(k)=p^{-\operatorname{ord}_{p}(k)}$; Draft B used a linear law $\Delta_{\text{photon}}(k)=\varepsilon\,\operatorname{ord}_{p}(k)$ with $\varepsilon\approx0.01$ and appended a transmon measurement table. The forms are mathematically distinct and make different predictions. *Resolution:* the main text carries the multiplicative law because it is exactly computable from its definition; Draft B's measurement table is dropped as unreproducible (Section 3.3).
-- **D5: Gauge group.** One draft asserted the automorphism subgroup is isomorphic to $SU(3)\times SU(2)\times U(1)$; no draft supplied a derivation. *Resolution:* carried strictly as a conjecture with the cardinality obstruction stated (Sections 3.6, 4.5).
-
-## Appendix B. Claim Attribution
-
-| Claim | Drafts | Status |
-|---|---|---|
-| C1: Joint fit probability $(4\times10^{-3})^{11}$ | A (erroneous value), B (protocol) | CONVERGENT in protocol; value corrected in reconciliation |
-| C2: Harmonic-mean Efimov correspondence | B | SINGLE; falsified by reconciliation arithmetic (Section 4.4) |
-| C3: Vertex value $\lambda_{\text{tree}}=24$, within 5.7% | A | SINGLE; retained as labeled coincidence (Section 4.4) |
-| C4: Per-ratio fit table for Framing B | B | SINGLE; dropped, not reproducible from stated inputs |
-| C5: Multiplicative $p$-adic loss law | A | SINGLE; carried as definition (Section 3.3) |
-| C6: Linear loss law with $\varepsilon\approx0.01$ and transmon table | B | SINGLE; dropped as unreproducible; divergence documented (D4) |
-| C7: Entropy law $S=\|\log_{2}L\|$, $S=10$ at $L=1024$ | A, B | CONVERGENT; carried as definitional (Section 4.3) |
-| C8: Gauge group $SU(3)\times SU(2)\times U(1)$ from tree automorphisms | A | SINGLE; carried as conjecture with obstruction (Section 4.5) |
-| C9: Uniform null on $[0,10]$ with absolute window $0.04$ | A, B | CONVERGENT in Framing A; convention caveat stated (Section 4.1) |
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.5-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

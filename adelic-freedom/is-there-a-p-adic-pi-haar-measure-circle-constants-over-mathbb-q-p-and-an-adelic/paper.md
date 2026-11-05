@@ -308,31 +308,3 @@ Thus, the Haar‑measure analysis provides a definitive answer to the question o
 [8] https://papers.qnfo.org/papers/harmonic-ostrowski-re-evaluation. QNFO: The Harmonic Paradigm Under Ostrowski’s Theorem: A p-Adic/Adélic Re-Evaluation with Helical Compton Vortex Synthesis.
 [9] https://papers.qnfo.org/papers/is-there-a-p-adic-pi-haar-measure-circle-constants-over-mathbb-q-p-and-an-adelic. QNFO: Is There a $p$‑Adic $\pi$? Haar‑Measure Circle Constants over $\mathbb{Q}_p$, an Adelic Product Formula, and a Test of the Corpus Conjecture $\pi_p=(p-1)/p$.
 [10] https://papers.qnfo.org/papers/measure-theoretic-artifacts-archimedean-place. QNFO: Measure-Theoretic Artifacts of the Archimedean Place: A Complete Taxonomy and the Adelic Restructuring of Fundamental Science.
-
-## Appendix A. Divergence report
-
-**Divergent claim:**
-- *Alternative norm result.* Writer A does not discuss the effect of changing the sup‑norm, whereas Writer B introduces an anisotropic sup‑norm $\|x\|_{c}=\max(|x_{1}|_{p},c|x_{2}|_{p})$ and derives $\kappa_{p}^{(c)}=(1-p^{-2})/c$ (Step 9). The reconciliation adopts Writer B's convention, since the anisotropic analysis scopes the refutation to the chosen geometric convention and is retained as Step 9 of Section 4.
-
-## Appendix B. Claim attribution
-
-The table below attributes the paper's principal claims to the contributing drafts (A, B, C) and records their agreement status.
-
-| Claim | Statement | Source drafts | Status |
-|-------|-----------|---------------|--------|
-| C1 | $\mu(B_{r})=r^{2}$ under the normalization $\mu(B_{1})=1$ | A, B, C | Convergent |
-| C2 | $C_{p}(r)=r^{2}(1-p^{-2})$ and $\kappa_{p}=1-p^{-2}$ | A, B, C | Convergent |
-| C3 | $\kappa'_{p}=\tfrac12(1-p^{-2})$ using the Archimedean‑style diameter $D'_{p}(r)=2r$ | A, B | Convergent |
-| C4 | Finite product $P_{13}=15482880/25050025\approx0.618078$ | A, B, C | Convergent |
-| C5 | Infinite product $\prod_{p}\kappa_{p}=6/\pi^{2}\approx0.607927$ | A, B, C | Convergent |
-| C6 | All‑place product $\pi\prod_{p}\kappa_{p}=6/\pi\approx1.909859\neq1$ | A, B, C | Convergent |
-| C7 | $\kappa_{p}-(p-1)/p=(p-1)/p^{2}$ and $\kappa_{p}/((p-1)/p)=1+1/p$ | A, B, C | Convergent |
-| C8 | Anisotropic sup‑norm yields $\kappa_{p}^{(c)}=(1-p^{-2})/c$ | B | Single |
-| C9 | Euclidean‑style norm yields $\kappa_{p}^{E}=1-p^{-1}$ | B | Single |
-| C10 | Euler‑factor interpretation of $(1-p^{-2})$ via $p$‑adic $L$‑function interpolation [3] | B | Single |
-| C11 | Adelic product formula $\prod_{v}|q|_{v}=1$ validates the Haar‑measure normalization [10] | B | Single |
-| C12 | Sensitivity bound $|\kappa_{p'}-\kappa_{p}|\le2p^{-2}$ for consecutive primes | A, B | Convergent |
-| C13 | Falsifiability condition: a construction with $\pi_{p}\to\pi$ or a principled product equal to $1$ would refute the conclusion | A, B | Convergent |
-| C14 | Readiness assessment at TRL 1–2 for purely analytical, unreviewed work | A, B | Convergent |
-
-Single‑draft claims C8–C11 were retained because their derivations are displayed in full in Section 4 and Section 5.1 and depend only on definitions stated there; no conflicting derivation exists in the other drafts.
