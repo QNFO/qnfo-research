@@ -1,13 +1,8 @@
 # Identity of Zero
 
-## A Formal Analysis of the Mathematical, Logical, and Informational Identity of Zero
+*A Formal Analysis of the Mathematical, Logical, and Informational Identity of Zero*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers,17246838 **Publication Date:** 2025-10-01
-**Version:** 1.0
+## Abstract
 
 This document presents a formal analysis of the identity of zero
 across mathematical, logical, informational, and physical domains. This

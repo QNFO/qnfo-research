@@ -1,15 +1,10 @@
 # Hydrodynamic-Topological Continuum
 
-## AN INTEGRATED ONTOLOGY OF EMERGENT STABILITY
+*AN INTEGRATED ONTOLOGY OF EMERGENT STABILITY*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/hydrodynamic-topological-continuum/ **Publication
-Date:** 2025-11-27 **Version:** 1.0
+## Abstract
 
-**Abstract**: The reconciliation of general relativity
+The reconciliation of general relativity
 with quantum field theory remains the premier open problem in
 theoretical physics, exemplified by the “vacuum catastrophe”—the
 120-order-of-magnitude discrepancy between the calculated vacuum energy
@@ -23,11 +18,6 @@ stable topological solitons (skyrmions) within the order parameter of
 the condensate, quantum quantization arises from hydrodynamic attractor
 dynamics in the presence of turbulence, and gravity manifests as the
 thermodynamic pressure gradients of the underlying medium.
-
-**Keywords**: Superfluid Vacuum Theory, Analog Gravity,
-Emergent Spacetime, Topological Solitons, Acoustic Metric, Bulk
-Viscosity, Vacuum Catastrophe, Dark Sector, Effective Field Theory,
-Lorentz Invariance Violation
 
 ## 1.0 INTRODUCTION
 

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/hydrodynamic-stability-hypothesis"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 53297,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.1.2",
+      "git_commit": null
+    },
+    {
+      "sha256": "e9062378c96d6ec2f1d48c4645f3aa989d638b2574cec1a6a03784ed094e267f",
+      "bytes": 52750,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.1.2",
       "git_commit": null
     }

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/hydrodynamic-spacetime"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 36418,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "120c46eb1b584c00766720384f846346d6f9f87921961f366bed3cbcaee90072",
+      "bytes": 36111,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.1.0",
       "git_commit": null
     }

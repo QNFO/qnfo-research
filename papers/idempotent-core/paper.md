@@ -1,13 +1,3 @@
----
-title: "The Idempotent Core: Quantity as Broken Distinction and the Hidden Assumptions of Arithmetic and Algebra"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-13"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "idempotence; laws of form; calculus of indications; foundations of arithmetic; linear logic; quantity"
----
-
 # The Idempotent Core: Quantity as Broken Distinction and the Hidden Assumptions of Arithmetic and Algebra
 
 ## Abstract

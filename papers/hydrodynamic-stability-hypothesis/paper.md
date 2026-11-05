@@ -1,15 +1,10 @@
 # Hydrodynamic Stability Hypothesis
 
-## Re-grounding Quantum Mechanics in Classical Measure Theory
+*Re-grounding Quantum Mechanics in Classical Measure Theory*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers **Publication
-Date:** 2025-11-26 **Version:** 1.0
+## Abstract
 
-**Abstract**: This work identifies a “chronological
+This work identifies a “chronological
 fallacy” at the heart of quantum foundations: the axiomatization of
 quantum mechanics by von Neumann (1932) predated the rigorous
 formulation of classical probability by Kolmogorov (1933), creating an
@@ -26,11 +21,6 @@ probability fluid, making the “quantum jump” a continuous, deterministic
 relaxation process. This framework restores a Kolmogorovian probability
 structure to quantum mechanics, resolving the measurement problem
 without abandoning local realism or invoking discontinuous collapse.
-
-**Keywords:** Quantum Foundations; Measurement Problem;
-Madelung Hydrodynamics; Emergent Quantization; Kolmogorov Measure
-Theory; Attractor Dynamics; Weak Measurement; Bohmian Trajectories;
-Geometric Quantum Theory; Hydrodynamic Stability
 
 ## 1.0 Introduction
 

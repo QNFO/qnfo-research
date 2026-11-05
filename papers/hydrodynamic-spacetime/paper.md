@@ -1,15 +1,10 @@
 # SPACETIME CONDENSATE
 
-## Unifying Gravity and Quantum Mechanics via Supercritical Vacuum Physics
+*Unifying Gravity and Quantum Mechanics via Supercritical Vacuum Physics*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers **Publication
-Date:** 2025-11-23 **Version:** 1.0
+## Abstract
 
-**Abstract**: Standard cosmology (\(\Lambda\)CDM) is currently fractured by two
+Standard cosmology (\(\Lambda\)CDM) is currently fractured by two
 statistically significant anomalies: the \(5\sigma\) Hubble tension between
 early-universe (Planck) and late-universe (SH0ES) expansion rates, and
 the 120-order-of-magnitude vacuum catastrophe separating the theoretical

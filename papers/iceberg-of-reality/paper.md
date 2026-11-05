@@ -1,13 +1,8 @@
 # Iceberg of Reality
 
-## The Iceberg of Reality: Deconstructing Our Physical World
+*The Iceberg of Reality: Deconstructing Our Physical World*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Email:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000000526456062 **DOI:**
-https://papers.qnfo.org/papers/iceberg-of-reality/ **Version:** 1.0
-**Date:** 2025-09-04
+## Abstract
 
 The human quest to understand the cosmos has been a journey of
 progressively stripping away familiar assumptions. Each deeper layer of
