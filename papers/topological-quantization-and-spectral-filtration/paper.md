@@ -1,15 +1,10 @@
 # Topological Quantization and Spectral Filtration
 
-## A Superdeterministic Framework for a Prime-Attentive Neural Network (PANN)
+*A Superdeterministic Framework for a Prime-Attentive Neural Network (PANN)*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/topological-quantization-and-spectral-filtration/ **Date:**
-2025-12-24 **Version:** 1.0
+## Abstract
 
-**Abstract**: This paper addresses the geometric crisis
+This paper addresses the geometric crisis
 in discrete computation by establishing a unified framework that
 synthesizes arithmetic topology, non-linear dynamics, and thermodynamic
 optimality. We posit that prime numbers behave as irreducible

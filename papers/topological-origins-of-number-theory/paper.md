@@ -1,13 +1,8 @@
 # Topological Origins of Number Theory
 
-## Topological Origins of Number Theory in Quantum Systems
+*Topological Origins of Number Theory in Quantum Systems*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/topological-origins-of-number-theory/ **Publication Date:** 2025-10-10
-**Version:** 1.0
+## Abstract
 
 This establishes a theoretical framework wherein number-theoretic
 structures, particularly prime factorization, emerge as causal

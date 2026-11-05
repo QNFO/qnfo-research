@@ -1,15 +1,10 @@
 # Topological Signal Processing
 
-## Topological Signal Processing for Next-Generation Physical Computing: Translating Principles from Medical Imaging
+*Topological Signal Processing for Next-Generation Physical Computing: Translating Principles from Medical Imaging*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/topological-signal-processing/ **Publication Date:** 2025-10-22
-**Version:** 1.0
+## Abstract
 
-**Abstract**: The inherent limitations of conventional
+The inherent limitations of conventional
 digital signal processing—specifically the latency and energy
 bottlenecks imposed by analog-to-digital conversion—represent a critical
 barrier for next-generation systems like 6G networks. This paper

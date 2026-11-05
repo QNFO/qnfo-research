@@ -1,14 +1,10 @@
 # Topology of Quanta
 
-## Reconciling Physical Grounding and Mathematical Abstraction through the Hopf Fibration
+*Reconciling Physical Grounding and Mathematical Abstraction through the Hopf Fibration*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/topology-of-quanta/ **Date:**
-2026-01-30 **Version:** 1.0.1
+## Abstract
 
-**Abstract**: The historical development of quantum
+The historical development of quantum
 mechanics was marked by a profound bifurcation between physical
 intuition and mathematical formalism, a divergence often characterized
 as a category error that delayed the integration of topology into
@@ -23,10 +19,6 @@ realized in Hopf insulators. We contend that the rejection of Hilbert’s
 formalist program was an epistemic error that severed mathematics from
 its physical grounding, and that the current resurgence of topological
 physics represents a necessary re-convergence of these disciplines.
-
-**Keywords**: Hopf Fibration, Quantum Foundations,
-Topological Insulators, History of Physics, Fiber Bundles, Epistemic
-Bifurcation, Geometric Quantization
 
 ## 1.0 Introduction: A Bifurcation Problem
 

@@ -1,15 +1,10 @@
 # TOPOLOGICAL HYDRODYNAMICS AND THE SPECTRAL GAP
 
-### DEFINING THE THERMODYNAMIC LIMITS OF ANALOG VACUUM COMPUTATION
+*DEFINING THE THERMODYNAMIC LIMITS OF ANALOG VACUUM COMPUTATION*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/topological-hydrodynamics-and-the-spectral-gap/ **Date:**
-2025-12-17 **Version:** 1.0.1
+## Abstract
 
-**Abstract**: Standard quantum field theory
+Standard quantum field theory
 conceptualizes the vacuum as a probabilistic void, yet phenomenological
 isomorphism with superfluid Helium-3 suggests a deeper hydrodynamic
 ontology. While this topological substrate theoretically supports analog
@@ -25,10 +20,6 @@ viscous decoherence and thermal noise (\(\Delta E < k_B T\)). The findings revea
 that the “Universe as Calculator” thesis is valid strictly at the Planck
 scale, redefining Dark Energy as the dissipative metabolic cost of
 cosmic information processing.
-
-**Keywords:** Superfluid Vacuum, Topological
-Computation, Spectral Gap, Thermodynamic Limits, Dark Energy, Analog
-Factorization
 
 ## 1.0 THE GENESIS OF THE TOPOLOGICAL ARGUMENT
 
