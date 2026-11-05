@@ -232,10 +232,6 @@ These numbers are derived directly from sensor specifications in the literature 
 
 ## 8. Conclusion We have formalized the hypothesis that the brain functions as an information‑theoretic filter, derived a concrete per‑sample information budget from real sensor specifications, and predicted a measurable increase in neural information capacity when filtering is reduced. The quantitative predictions are directly testable with modern neuroimaging techniques, offering a bridge between phenomenology, information theory, and experimental neuroscience. Future work will refine the filter parameterization, incorporate additional sensory modalities, and validate the model empirically.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

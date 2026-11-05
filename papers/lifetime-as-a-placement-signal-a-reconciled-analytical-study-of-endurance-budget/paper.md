@@ -267,12 +267,6 @@ A procurement decision made from the abstract-level ranges of [5] rather than th
 
 This paper corrected an analytical audit of lifetime-aware KV-cache tiering by re-keying every derivation from abstract-level ranges to the per-configuration evaluation numbers that the audited report itself gives. With fully shown arithmetic, the corrected results are: warranty margins of $0.66\times$–$1.86\times$ for the lifetime-aware policy and $0.38\times$–$0.96\times$ for the HBM-first baseline; reported baseline lifetimes of $1.9$–$4.8$ device-years; geometric-mean extensions of $2.10\times$ (tight SLO), $1.50\times$ (loose SLO), and $1.87\times$ overall; write-diversion fractions of $15.97\%$–$66.10\%$; and annualized HBF write budgets of $1.08\times10^{4}$–$3.03\times10^{4}$ writes per cell per year. The correction removes the spurious $2.44\times$ margin ceiling and the $\approx68\%$ diversion endpoint that the abstract-level ranges had introduced, and it shows that only the favorable tail of the reported lifetime range clears a five-year warranty. The principal remaining data gap is the missing baseline write ratio $W_{\mathrm{HBF,base}}/W_{\mathrm{tot}}$, which blocks an absolute sizing of HBM headroom; the smallest de-risking step is the trace-replay experiment of Section 7, whose outcome would either validate the proportionality assumption or falsify the central claim.
 
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. references 13 -> 10. length 5326 -> 3937 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Appendix A. Divergence Report. references 10 -> 9. length 3962 -> 4094 words.
-- Version 3.0.0 (2026-11-01, from 2.1.0): rewritten in full through the research pipeline. references 9 -> 5. length 4094 -> 4206 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.40.12-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

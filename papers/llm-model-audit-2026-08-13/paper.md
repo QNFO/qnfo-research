@@ -1,13 +1,3 @@
----
-title: "Prioritizing Large Language Models for Scientific Research and Agentic AI: A LiveBench-Grounded Audit (August 2026)"
-author: "Quni-Gudzinas, Rowan Brad"
-date: "2026-08-13"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
-keywords: "large language models; model selection; agentic AI; scientific computing; benchmark evaluation; cost optimization"
----
-
 # Prioritizing Large Language Models for Scientific Research and Agentic AI: A LiveBench-Grounded Audit (August 2026)
 
 ## Abstract
