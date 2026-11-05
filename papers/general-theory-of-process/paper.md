@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/general-theory-of-process/"
-date: "2026-01-19"
-version: "1.1.1"
-keywords: "structural isomorphism, process ontology, epistemic precipitation, holographic halo, Hamiltonian instantiation, viscosity of time, artifact zone."
----
-
 # General Theory of Process
 
 *Unifying Physics, Intelligence, and Topology via Structural Isomorphism*

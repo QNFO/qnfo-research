@@ -1,30 +1,8 @@
----
-author: Rowan Brad Quni-Gudzinas
-email: rowan.quni@qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-title: Geometric Unification Framework
-aliases:
-  - Geometric Unification Framework
-modified: 2025-09-08T01:27:44Z
----
-
 # Geometric Unification Framework
 
-## A Geometric Unification Framework
-
-Author: Rowan Brad Quni-Gudzinas
-Affiliation: QNFO
-Email: rowan.quni@qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-https://papers.qnfo.org/papers
-Version: 1.0.1
-Date: 2025-09-08
+## Abstract
 
 The pursuit of a so-called “theory of everything” (TOE) aims to move beyond phenomenological descriptions of nature, establishing an explanatory framework based on fundamental first principles. Such frameworks derive the observed laws of physics and their associated constants not from empirical measurement or *ad hoc* fitting, but from a concise set of core axioms describing reality’s ultimate structure. Theoretical physics posits that these parameters are not arbitrary or contingent; rather, they are necessary and calculable functions of the universe’s geometric scale and intrinsic symmetries. This represents the ultimate aspiration of fundamental physics: a unified theory where the constants shaping reality are derived from spacetime’s very structure, transforming our understanding of the cosmos from a descriptive to a truly explanatory science.
-
----
 
 ### 1.0 Core Architecture
 

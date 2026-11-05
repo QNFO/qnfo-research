@@ -1,5 +1,9 @@
 # COMMUTATIVE PHYSICS
 
+## Abstract
+
+Mathematics serves as the fundamental language through which the intricate laws and diverse phenomena of the physical universe are articulated, modeled, and predicted. The selection of mathematical tools is not a trivial matter; it profoundly shapes our comprehension of reality. Modern physics predominantly relies on mathematical formalisms that, while undeniably powerful and successful in numerous domains, are increasingly being scrutinized for their potential limitations in fully capturing the intrinsic structure of the universe at its most fundamental levels. The base-10 number system, the real number continuum, and Cartesian coordinate frameworks, which form the bedrock of much of our current physical understanding, are essentially human-constructed tools. [...]
+
 **Mathematical Frameworks for Physical Description**
 
 ## 1. Introduction
