@@ -263,10 +263,6 @@ Data scientists and engineers building time‑series pipelines for domains with 
 
 ## 8. Conclusion Positional notation, when viewed through the lens of mixed‑radix cyclic bases, forms a rooted ultrametric tree whose depth encodes nested temporal hierarchies. The $b$‑adic valuation provides a mathematically rigorous distance that equals the depth of the lowest common ancestor, satisfying the strong triangle inequality. Concrete calculations for sexagesimal, Mayan, and a civil week clock demonstrate the metric’s interpretability and its potential to improve clustering of calendar‑structured time‑series. The work establishes a formal bridge between number representation, ultrametric geometry, and temporal hierarchy, opening a pathway for more natural handling of cyclic time in data‑driven applications.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.21.1-kimi-timeout-fallback-1). Language models were tools in that process; they are not authors. The named author is accountable for the content.

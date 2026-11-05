@@ -305,8 +305,6 @@ $$
 
 Since $0.46112<T_{\mathrm{base}}$, the correlated‑leg ensemble would underperform the best single leg.
 
-
-
 ## 5. Results
 
 All quantitative values reported here are taken directly from the arithmetic in Section 4.
@@ -395,10 +393,6 @@ Assuming the design‑point costs $(c_{1},c_{2},c_{3})=(0.2,0.3,0.5)$ and draft 
 ## 8. Conclusion
 
 We presented a unified analytical framework for three disparate population‑level problems: chaotic DNA inversions, broadcast‑controlled first‑order ensembles, and speculative‑decoding ensemble leg drafting. Closed‑form expectations for Hamming divergence, exact first‑moment dynamics, and ensemble throughput under an OR‑fusion rule were derived with fully shown arithmetic. Projections highlighted the sensitivity of performance to independence assumptions and to the distribution of system parameters. The results delineate concrete performance limits that designers can use as benchmarks, while also exposing the key assumptions whose violation would invalidate the gains. Future work will extend the DNA inversion analysis to exact overlap tracking, explore higher‑order moment closures for broadcast control, and incorporate heterogeneous draft qualities and adaptive fusion rules into the ensemble drafting model.
-
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. new sections: Results; Discussion; Practical Implications and Engineering Pathways; Conclusion; Provenance and AI Involvement. references 12 -> 9. length 3586 -> 4249 words.
 
 ## Provenance and AI Involvement
 

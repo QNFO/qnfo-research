@@ -48,8 +48,6 @@ d_b(x,z)=b^{-v_b(x-z)}\le b^{-\min\{k_{xy},k_{yz}\}}=\max\{b^{-k_{xy}},b^{-k_{yz
 $$  
 Thus $d_b$ is an ultrametric. ∎
 
-
-
 ### 3.4 Majority‑Vote Error Model
 Consider a binary error model where each physical qubit fails independently with probability $p$. An eight‑fold majority‑vote decoder declares the logical bit as the majority of eight physical bits. The logical failure probability $p^{(1)}$ is the probability that at least five physical bits fail:  
 $$
