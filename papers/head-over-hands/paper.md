@@ -1,26 +1,10 @@
----
-author: Rowan Brad Quni-Gudzinas
-email: rowan.quni@qnfo.org
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-title: Head Over Hands
-aliases:
-  - Head Over Hands
-modified: 2025-09-15T18:27:24Z
----
-
 # Head Over Hands
 
-## “HEAD OVER HANDS” - A Systemic Analysis of the Prioritization of Conceptual Elegance (*Head*) Over Empirical Reality (*Hands*)
+*“HEAD OVER HANDS” - A Systemic Analysis of the Prioritization of Conceptual Elegance (Head) Over Empirical Reality (Hands)*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO
-**Email**: rowan.quni@qnfo.org
-**ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062
-**URL:** https://papers.qnfo.org/papers
-**Version**: 1.0.1
-**Date**: 2025-09-15
+## Abstract
+
+This provides a systemic analysis of a recurring philosophical and institutional bias that privileges abstract, elegant, and a priori theoretical constructs over messy, inconvenient, and empirical evidence. This pattern is defined here as the Head Over Hands Fallacy. This new term is introduced because existing concepts such as confirmation bias or paradigm rigidity are insufficient. Confirmation bias typically describes an individual cognitive flaw, while “paradigm rigidity” denotes a static condition of a scientific field. Neither term fully captures the active, systemic, and often pathological process of defending a cherished theory (the “Head”) against the verdict of observed reality (the “Hands”). The indispensability of this term lies in its ability to encapsulate a complete, cyclical pattern of behavior—spanning individual psychology, institutional incentives, and philosophical predispositions—that actively suppresses contradictory data to preserve conceptual elegance. The fallacy, therefore, is the predictable tendency to invent auxiliary hypotheses, suppress dissent, and ignore empirical reality to protect a beautiful idea.
 
 >*“A very coarse experimenter... almost always found the results he required, trusting to his head rather than his hands.”* — Sir Humphry Davy’s assessment of John Dalton
 

@@ -29,8 +29,6 @@ These points anchor our derivation of a hierarchical suppression factor that mat
 
 * **[6]** constructs a $5$‑adic model of DNA, showing that ultrametric distances can encode biologically relevant information and exemplifying how discrete prime choices can be tied to physical classification schemes.  
 
-
-
 The five works discussed above collectively demonstrate that (i) ultrametric embeddings can be generated from conventional metric data [1], (ii) $p$‑adic analysis provides the necessary pseudo‑differential operators for Markov processes on ultrametric spaces [2], (iii) $p$‑adic cosmology supplies the dark‑energy context and the adelic framework [3], (iv) a specific physical model selects the prime $p=3$ [4], and (v) discrete prime choices have been tied to physical classification schemes in biology [6]. Building on this foundation, our contribution combines the Vladimirov propagator with a hierarchical tree depth calibrated to the observed dark‑energy suppression, a synthesis not previously reported.
 
 Collectively, these works substantiate the feasibility of modeling physical processes on ultrametric trees, the existence of a privileged prime $p$, and the analytical tools required to formulate $p$‑adic quantum field theory.

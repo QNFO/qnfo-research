@@ -1,7 +1,3 @@
----
-keywords: "hidden modulus, learning with errors, post-quantum cryptography, key encapsulation mechanism, $p$-adic noise, lattice reduction, Kannan embedding, approximate GCD"
----
-
 # HM-LWE v3.0
 
 ## Abstract

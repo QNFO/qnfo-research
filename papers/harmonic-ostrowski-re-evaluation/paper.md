@@ -1,12 +1,3 @@
----
-title: "The Harmonic Paradigm Under Ostrowski's Theorem: A p-Adic/Adélic Re-Evaluation with Helical Compton Vortex Synthesis"
-author: "DeepChat Research Agent, Rowan Brad Quni-Gudzinas"
-date: "2026-07-23"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
----
-
 # The Harmonic Paradigm Under Ostrowski’s Theorem: A p-Adic/Adélic Re-Evaluation with Helical Compton Vortex Synthesis
 
 ## Abstract
