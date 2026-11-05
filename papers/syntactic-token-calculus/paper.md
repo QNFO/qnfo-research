@@ -1,16 +1,10 @@
 # Syntactic Token Calculus
 
-## Module 9: Observer Theory: Monna Projection & Entropy
+*Module 9: Observer Theory: Monna Projection & Entropy*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/syntactic-token-calculus/
-**Date:** 2026-04-13 **Version:** 1.6
+Formalize the observer as a self-enclosing boundary that applies a finite-resolution truncation to the infinite syntactic web. Model thermodynamics, the arrow of time, and quantum decoherence as epistemic artifacts of lossy boundary projection, expressed entirely without numerical probabilities, continuous time parameters, or algebraic variables. A structured synthesis mapping the cited works onto the STC framework. The output is a purely syntactic derivation of observer theory and entropy, proving that the subjective experience of time and disorder is the inevitable consequence of a finite boundary attempting to resolve an infinitely nested topology.
 
 ## Objective
 

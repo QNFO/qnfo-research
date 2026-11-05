@@ -32,14 +32,6 @@ A bound on rounding errors for non‑dyadic amplitudes demonstrates that the max
 
 Bell‑inequality experiments with space‑like separated settings confirm the classical bound $S\le2$ for local hidden‑variable models, illustrating the necessity of non‑local resources for quantum violations [8].
 
-
-
-
-
-
-
-
-
 ## 3. Methods
 ### 3.1 Binary Configuration Tree
 We consider a full binary tree $\mathcal{T}_{N}$ of depth $N\in\mathbb{N}$, where the root is at depth $0$ and each internal node has exactly two children. The total number of leaf nodes is
@@ -287,10 +279,6 @@ Quantum hardware designers and algorithm developers can use the result to reinte
 ### (f) Risks and Misuse Paths If the deterministic‑path interpretation were misapplied to claim that quantum randomness can be eliminated, it could lead to over‑optimistic expectations for error‑free quantum computation. The model explicitly acknowledges residual stochasticity arising from coarse‑graining; therefore, any engineering effort must retain robust statistical analysis.
 
 ## 8. Conclusion We have presented a deterministic, discrete‑tree model in which quantum superposition emerges as a projection artifact of coarse‑graining a hidden deterministic trajectory. Analytic derivations show that for sufficiently deep trees the induced outcome weights reproduce the Born rule, while finite‑depth trees generate measurable deviations bounded by $2^{-(N+1)}$. Interference‑like correlations and visibility are reproduced by integer arithmetic on overlapping class volumes, and Bell‑type correlations obey the classical CHSH bound, demonstrating that non‑local tree connections alone cannot generate quantum violations. The model reframes the measurement problem as Bayesian updating on a hidden path and offers concrete experimental tests at modest depths. Future work will explore extensions to multi‑qubit systems, connections to Hilbert‑space formalism, and physical mechanisms that could generate coarse‑graining bias.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 

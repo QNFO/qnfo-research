@@ -1,28 +1,10 @@
----
-author: Rowan Brad Quni-Gudzinas
-ORCID: 0009-0002-4317-5604
-ISNI: 0000000526456062
-title: "Computational Syntax of Reality: Addressing the Continuous-Discrete Tension via Syntactic Token Calculus"
-aliases:
-  - "Computational Syntax of Reality: Addressing the Continuous-Discrete Tension via Syntactic Token Calculus"
-modified: 2026-04-12T05:14:27Z
----
-
 # Syntactic Token Calculus Research Plan
 
-## Addressing the Continuous-Discrete Tension via Syntactic Token Calculus
+*Addressing the Continuous-Discrete Tension via Syntactic Token Calculus*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/computational-syntax-of-reality/
-**Date:** 2026-04-12
-**Version:** 1.0
+## Abstract
 
-**Abstract**: The persistent reliance on continuous, substance-based ontologies in theoretical physics has precipitated a crisis of non-renormalizable infinities, demanding a radical shift toward discrete relational foundations. By shifting to an epistemic foundation built entirely on a finite substrate of relational boundaries, the Syntactic Token Calculus (STC) organically replaces these problematic geometries. This manuscript formally establishes that physical reality is derived not from pre-existing scalar fields, but from the binary syntax of the ‘Mark’ and the ‘Void’, aligning seamlessly with multiway hypergraph models. By applying universal rewrite rules—Calling, Crossing, and Void elimination—we establish a strictly normalizing, confluent Church-Rosser system. Extracting mass parameters from this discrete web requires the application of the cross-ratio metric, which acts as a non-commutative projective polynomial evaluating topological depth. Our findings computationally prove the topological necessity of the Standard Model while definitively eradicating gravitational infinities. Simulation of the mass cross-ratio maps effectively to empirical observations. Furthermore, the universal crossing rule explicitly forces the hypothesized graviton token to cancel to the Void, proving that gravity is mathematically prevented from existing as a localized particle. Addressing profound gaps in predictive mapping, the STC model strictly forecasts per-mille fractional deviations in Higgs couplings at future lepton colliders and log-periodic oscillations within the CMB angular power spectrum. 
-
----
+The persistent reliance on continuous, substance-based ontologies in theoretical physics has precipitated a crisis of non-renormalizable infinities, demanding a radical shift toward discrete relational foundations. By shifting to an epistemic foundation built entirely on a finite substrate of relational boundaries, the Syntactic Token Calculus (STC) organically replaces these problematic geometries. This manuscript formally establishes that physical reality is derived not from pre-existing scalar fields, but from the binary syntax of the ‘Mark’ and the ‘Void’, aligning seamlessly with multiway hypergraph models. By applying universal rewrite rules—Calling, Crossing, and Void elimination—we establish a strictly normalizing, confluent Church-Rosser system. Extracting mass parameters from this discrete web requires the application of the cross-ratio metric, which acts as a non-commutative projective polynomial evaluating topological depth. Our findings computationally prove the topological necessity of the Standard Model while definitively eradicating gravitational infinities. Simulation of the mass cross-ratio maps effectively to empirical observations. Furthermore, the universal crossing rule explicitly forces the hypothesized graviton token to cancel to the Void, proving that gravity is mathematically prevented from existing as a localized particle. Addressing profound gaps in predictive mapping, the STC model strictly forecasts per-mille fractional deviations in Higgs couplings at future lepton colliders and log-periodic oscillations within the CMB angular power spectrum. 
 
 ## 1.0 Introduction & Theoretical Landscape
 

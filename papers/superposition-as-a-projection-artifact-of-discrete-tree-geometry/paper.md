@@ -23,8 +23,6 @@ x = a^{-1}e^{a\xi}\cosh(a\tau)
 $$  
 illustrate that a change of observer path selects a distinct basis of field excitations. By analogy, each branch of the tree selects a distinct set of hidden variables that project onto the same measurement basis.
 
-
-
 Discrete‑time quantum walks exhibit branching behavior that mirrors the leaf count of the hidden‑variable tree [7].
 
 Non‑Archimedean ontology treats information as the fundamental substrate of reality and identifies hierarchical depth as a measure of informational content [9]. The identification of probability $P=n/2^{d}$ with the fraction of information allocated to a branch follows directly from this perspective.
@@ -177,10 +175,6 @@ $$
 ### (f) Direct risks and misuse paths If the model were misapplied to claim that quantum randomness is entirely deterministic, it could be used to argue against the necessity of certified quantum randomness in cryptographic key generation. The present work does **not** eliminate intrinsic randomness; it only provides a hidden‑variable reinterpretation that reproduces standard statistical predictions under specific assumptions. Misuse would arise from over‑extending the conclusion beyond the derived branch‑counting rule. Users must retain standard security assumptions that rely on proven quantum randomness.
 
 ## 8. Conclusion We have presented a deterministic binary‑tree hidden‑variable model that reproduces the diagonal Born‑rule probabilities through a simple leaf‑counting identity. Explicit arithmetic confirms that for depth $d=5$ with leaf partition $n_{A}=20$, $n_{B}=12$, the probability $P_{A}=0.625$ matches $|a|^{2}$ for $a=\sqrt{0.625}$. The analysis also establishes three negative results: (i) the linear leaf‑fraction measure is forced, (ii) non‑negative leaf measures cannot generate interference cross‑terms without embedding phase, and (iii) deterministic leaf assignments satisfy the classical CHSH bound, implying any empirically adequate tree must be non‑local or contextual. The work aligns with discrete differential geometry [1], observer‑dependent mode selection via Rindler coordinates [2], quantum‑walk branching [7], and macroscopic BEC interferometry [4]. It offers a clear pathway for experimental falsification: any observed probability not expressible as $n/2^{d}$, non‑zero fringe visibility under uniform phases, or a CHSH violation would refute the hypothesis. Future work will explore phase‑encoding extensions, irregular branching, and higher‑dimensional generalisations to test the robustness of the projection‑artifact interpretation.
-
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. references 9 -> 8. length 5104 -> 3123 words.
 
 ## Provenance and AI Involvement
 

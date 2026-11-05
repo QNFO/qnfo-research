@@ -298,10 +298,6 @@ What is established is correspondingly narrower but honestly labeled. The three 
 
 The particle-correspondence claim remains unestablished and is now weaker than in the prior version in two respects: uniqueness of normal forms is no longer claimed, and the depth-5 and depth-6 counts are no longer claimed. What survives is a falsifiable target. The smallest next test is a rewriting engine that generates at most $3^{13} = 1{,}594{,}323$ candidate strings up to depth 6, reduces each to normal form under at least two reduction strategies, and compares the resulting counts and parity distributions against the provisional hypotheses 42 and 114; a count differing by more than a factor of two, or divergent counts across strategies, would refute the combinatorial spectrum on which the correspondence program depends. The work sits at TRL 2, the cost of the decisive experiment is bounded by a standard laptop budget, and the failure mode is cheap to discover. The corrected paper therefore trades an unearned conclusion for a termination theorem, three checkable numbers, and a falsifiable experiment — the configuration in which the STC program can either advance or be retired on evidence.
 
-## Version History
-
-- Version 2.0.0 (2026-11-01, from 1.0.0): rewritten in full through the research pipeline. references 8 -> 10. length 2981 -> 5659 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.40.12-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

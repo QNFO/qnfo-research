@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/syntactic-token-calculus"
   },
   "declared": {
-    "version": "1.6",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 10984,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "e829616fb54f383383617aab17a8bb0b61c3e39f7ad378862f5fdd6b49b1720e",
+      "bytes": 11304,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

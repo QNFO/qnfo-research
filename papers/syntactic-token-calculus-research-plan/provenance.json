@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/syntactic-token-calculus-research-plan"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 61788,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "3d5eedf7a46943a69bd1d79c9f9e28e01a4f18d8ba1dc38bc10bb22b564bd49c",
+      "bytes": 61067,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }
