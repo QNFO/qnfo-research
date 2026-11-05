@@ -1,13 +1,8 @@
 # Emergent Physical Reality
 
-## Physical Reality as a Hierarchical Emergent Structure from Information-Theoretic First Principles
+*Physical Reality as a Hierarchical Emergent Structure from Information-Theoretic First Principles*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers **Publication Date:** 2025-10-07
-**Version:** 1.0
+## Abstract
 
 This work presents a comprehensive, first-principles derivation of
 physical reality, positing that the universe is a hierarchical, emergent

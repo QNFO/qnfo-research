@@ -154,30 +154,6 @@ Using a fully analytic random-unitary QEC model, we have shown with explicit ari
 [13] https://papers.qnfo.org/papers/thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation/. QNFO: Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation.
 [14] https://papers.qnfo.org/papers/operationalizing-generalized-symmetries/. QNFO: Operationalizing Generalized Symmetries.
 
-## Appendix A. Divergence report
-
-**D1. Nature of the quantitative claims (DIVERGENT; convention chosen: analytic derivation with stated assumptions).**
-- Draft A reports specific simulated numerical exponents and thresholds: canonical ν = 2.5, β_F = 0.40, β_M = 0.52, p_c = 0.152; grand-canonical ν = 2.0, β_F = 0.50, β_M = 0.61, p_c = 0.148; fidelity ratio F_C/F_G = 1.34 at p = 0.10; all attributed to a 10⁵-instance simulation of a [[5,1,3]] code that no other draft performed or could verify.
-- Drafts B and C both explicitly refuse to report simulation data: B treats exponent values as hypotheses (β₁ = 1, β₂ = 2) and derives statistical consequences; C derives closed-form fidelities with no simulation.
-- *Convention adopted:* the main text presents only analytically derivable quantities (Part I, from Draft C) and clearly labeled projections with stated assumptions (Part II, from Draft B). Draft A's simulated exponents are SINGLE-source claims (see Appendix B) and are not incorporated into the main results, because they cannot be cross-validated within this corpus and their provenance (a simulation the other drafts did not perform) is unverifiable. Should Draft A's simulation be independently reproduced, its values would replace the hypothesis-driven inputs of Part II.
-
-**D2. Model definition (DIVERGENT; convention chosen: Draft C's success-criterion model).**
-- Draft A defines a [[5,1,3]] stabilizer code with fixed Clifford encoding, depolarizing noise on each qubit, and exact state-vector simulation; it also defines a micro-canonical ensemble with fixed k.
-- Drafts B and C both use the Haar-random unitary encoding of [1,2] with the success criterion "decoding succeeds iff k ≤ t"; B frames the channel/trajectory distinction, C frames the canonical/grand-canonical distinction.
-- *Convention adopted:* the Haar-random model with the k ≤ t success criterion (2 of 3 drafts; directly traceable to [1,2]). Draft A's stabilizer-code variant and its micro-canonical ensemble are noted as a possible extension but are not used, since no other draft corroborates its numerical outputs.
-
-**D3. Interpretation of "ensemble dependence of the transition's existence" (DIVERGENT in mechanism, CONVERGENT in substance).**
-- Draft A treats it as a numerical observation about thresholds shifting between ensembles (Δp_c = 0.004).
-- Drafts B and C treat it structurally: C shows the canonical ensemble has a jump (no critical scaling) while the GC ensemble has a tail-driven scaling regime; B attributes possible exponent differences to non-commuting order of limits.
-- *Convention adopted:* the structural interpretation (C's closed-form jump argument, with B's limit-ordering mechanism as the physical explanation), because it is derivable rather than simulated. Draft A's small threshold shift is consistent with, but weaker than, this reading.
-
-**D4. Status of the Feldman et al. (2026) bound (DIVERGENT in confidence).**
-- Draft A asserts the bound νβ_M ≥ 1/2, extends it to the canonical ensemble, and reports its products (1.30, 1.22) as "saturating" it — though the products exceed 1/2, so "saturation" is a misnomer in A's own arithmetic.
-- Drafts B and C both note the bound is not in the bibliography and cannot be verified; B explicitly labels its assumed bound value as an assumption.
-- *Convention adopted:* the bound is discussed only as reported in [1,2]; we treat its value, form, and validity as unverified. Where Part II invokes a bound-like constraint, it is labeled an assumption, not a verified theorem. Should the Feldman et al. (2026) reference be located and confirmed, its statement would replace the assumed bound of Part II.
-
-**D5. Summary.** All divergences above are resolved in favor of analytically derivable or explicitly labeled content; single-source numerical claims are quarantined in Appendix B.
-
 ## Appendix B. Single-source claim registry
 
 The following claims originate from a single draft (Draft A) and could not be cross-validated within this corpus; they are excluded from the main results and listed here for audit purposes only:

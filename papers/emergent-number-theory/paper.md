@@ -1,5 +1,9 @@
 # EMERGENT NUMBER THEORY
 
+## Abstract
+
+The relationship between discrete number theory and continuous mathematical structures has been a subject of deep investigation in modern mathematics, with several well-established connections. The scholarly landscape reveals a sophisticated understanding of how discrete structures emerge from continuous foundations, while also highlighting unresolved questions that form the basis for this work. Pisot-Vijayaraghavan (PV) theory demonstrates how integer sequences emerge from continuous irrational flows through exponential rounding with quantifiable error bounds. Akiyama and Komornik (2021) rigorously established that Pisot numbers generate integer sequences via exponential rounding with mathematically precise error bounds. For the golden ratio φ (a Pisot number of degree 2 with minimal polynomial $x^2 - x - 1$), the Fibonacci sequence satisfies $|F_n - \phi^n/\sqrt{5}| < 1/2$ for all $n \geq 1$, with the error decaying exponentially as $n$ increases. This demonstrates that the Fibonacci sequence is not primitive but emerges as a rounded projection of a continuous Pisot flow with quantifiable error bounds [akiyama2021].
+
 ## 1.0 State of the Art and Gap Identification
 
 The relationship between discrete number theory and continuous mathematical structures has been a subject of deep investigation in modern mathematics, with several well-established connections. The scholarly landscape reveals a sophisticated understanding of how discrete structures emerge from continuous foundations, while also highlighting unresolved questions that form the basis for this work.

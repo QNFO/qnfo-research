@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/engineering-macroscopic-quantum-coherence-in-disordered-moir-metamaterials/"
-date: "2025-12-24"
-version: "1.0.1"
-keywords: "Moiré Materials, Quantum Percolation, Ginzburg-Landau Theory, Straintronics, Disordered Superconductivity, Twistronics, Computational Physics"
----
-
 # Engineering Macroscopic Quantum Coherence in Disordered Moiré Metamaterials
 
 ## Abstract
