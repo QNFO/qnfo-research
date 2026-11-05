@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/continuous-signal-processing-for-josephson-junction-readout/"
-date: "2026-01-12"
-version: "1.0"
----
-
 # Continuous Signal Processing for Josephson Junction Readout
 
 *Addressing the Discrete Collapse Tension via Parametric Amplification*

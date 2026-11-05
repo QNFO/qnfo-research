@@ -1,33 +1,3 @@
----
-title: "The Computable Continuum: Depth Without Breadth"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-28
-series: "Continuum Trilogy — Paper I"
-version: "1.0.0"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-abstract: |
-  The uncountability of the real numbers is widely regarded as a single mathematical fact, but it conflates
-  two distinct properties: Archimedean completeness (depth) and set-theoretic cardinality
-  explosion (breadth). We demonstrate that all physically relevant properties of the continuum —
-  connectedness, Cauchy completeness with computable modulus, the intermediate value theorem
-  for computable functions, and the ordered-field structure — are preserved by the computable
-  real numbers the real numbers_c, which is countable. We prove that two non-computable reals agreeing on all
-  rational approximations with computable error bounds are physically indistinguishable: no
-  finite measurement protocol can produce distinct predictions for them. The Continuum
-  Hypothesis, Chaitin's Omega, and the existence of non-computable reals are mathematically true
-  (in ZFC) but physically vacuous. The operational ontology of the physical continuum is the real numbers_c,
-  not the real numbers — depth without breadth.
-keywords:
-  - computable analysis
-  - continuum hypothesis
-  - ontological closure
-  - measurement theory
-  - computable reals
-  - unfalsifiability
-  - physical continuum
-  - Specker sequence
----
-
 # The Computable Continuum: Depth Without Breadth
 
 ## Abstract

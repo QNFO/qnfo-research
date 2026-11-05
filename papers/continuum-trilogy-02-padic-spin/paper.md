@@ -1,37 +1,3 @@
----
-title: "P-adic Spin, Information, and Ultrametric Internal Quantum Numbers"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-07-28
-series: "Continuum Trilogy — Paper II"
-version: "1.0.0"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-abstract: |
-  Paper I established that the Archimedean continuum the real numbers_c suffices for all physical dynamics
-  — depth without breadth. Here we complete the picture: what of the ultrametric completions
-  of the rational numbers? We argue that the p-adic numbers the rational numbers_p are not "extra spatial dimensions" in the
-  string-theoretic sense but valuation-theoretic dimensions whose physical role is to encode
-  discrete quantum structure: spin, internal quantum numbers (color, weak isospin, hypercharge),
-  and information-theoretic (hierarchical) properties. The 2-adic Bruhat-Tits tree boundary
-  carries a natural the Z2 grading that matches the spin-statistics distinction. The Standard
-  Model gauge group SU(3) x SU(2) x U(1) decomposes by prime factors, with internal quantum
-  numbers emerging as labels of vertices in Bruhat-Tits buildings at the corresponding primes.
-  Time is Archimedean (Paper I) — connected, dynamical, causal. Spin and information are
-  p-adic — discrete, ultrametric, hierarchical. Ostrowski's theorem — that the real numbers and the rational numbers_p are
-  the only completions of the rational numbers — is the hidden organizing principle behind the structure of
-  quantum observables.
-keywords:
-  - p-adic numbers
-  - Bruhat-Tits buildings
-  - spin-statistics
-  - internal quantum numbers
-  - ultrametric topology
-  - Ostrowski's theorem
-  - adelic physics
-  - Standard Model
-  - string theory
-  - Majorana zero modes
----
-
 # P-adic Spin, Information, and Ultrametric Internal Quantum Numbers
 
 ## Abstract

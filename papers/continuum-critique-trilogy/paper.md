@@ -1,13 +1,3 @@
----
-title: "The Continuum Critique Trilogy: Notation, Constants, and the Adelic Bridge — A Unified Monograph"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-29"
-license: "CC-BY-4.0"
-doi: "PENDING"
-status: "draft"
-keywords: "continuum critique, scaffold-stripping, prime numbers, fine-structure constant, Zitterbewegung, Poisson summation, adelic physics, bifurcation theory, notation problem, category theory"
----
-
 # The Continuum Critique Trilogy
 
 ## Abstract

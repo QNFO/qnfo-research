@@ -1,13 +1,10 @@
 # Continuum is Real
 
-## The Continuum is Real: Quantization as the Binning of a Continuous Reality
+*The Continuum is Real: Quantization as the Binning of a Continuous Reality*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers **Version**: 1.0
-**Date**: 2025-09-18
+## Abstract
+
+For over a century, physics has been defined by an ontological schism. The continuous, deterministic, and local reality described by classical mechanics and general relativity stands in direct opposition to the discrete, probabilistic, and non-local phenomena of quantum mechanics. This division has necessitated a patchwork of competing interpretations, each burdened with paradoxes and philosophical compromises. This paper argues that this crisis stems from a fundamental misinterpretation of evidence, where observational artifacts have been mistaken for fundamental properties of reality. The central thesis is that the universe is not fundamentally quantized; rather, our interaction with the universe is quantized.
 
 ## 1.0 Introduction: A Proposed Resolution to the Ontological Crisis in Physics
 
