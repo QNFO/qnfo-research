@@ -1,7 +1,3 @@
----
-keywords: "JPCUB, joules per solution, quantum computing benchmarking, energy efficiency, competitive landscape, superconducting qubits, trapped ions, neutral atoms, quantum annealing, QWAV"
----
-
 # JPCUB Competitive Landscape v2.0: System-Level Joules-per-Solution Estimates for 17 Quantum Computing Platforms from Published Specifications
 
 ## Abstract

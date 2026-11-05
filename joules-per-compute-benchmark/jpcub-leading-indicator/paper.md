@@ -1,14 +1,3 @@
----
-title: "JPCUB as a Leading Indicator of Computing Paradigm Shifts: Retrospective Validation and Prospective Forecast"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-version: "1.0.0"
-status: "published"
-keywords: "JPCUB, energy efficiency metrics, computing paradigm shifts, Koomey's law, post-silicon computing, benchmarking"
----
-
 # JPCUB as a Leading Indicator of Computing Paradigm Shifts: Retrospective Validation and Prospective Forecast
 
 ## Abstract

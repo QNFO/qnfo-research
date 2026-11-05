@@ -1,15 +1,10 @@
 # KINETIC ISOMORPHISM
 
-## METASTABILITY, RESOLUTION LIMITS, AND THERMODYNAMIC COST OF IDENTITY
+*METASTABILITY, RESOLUTION LIMITS, AND THERMODYNAMIC COST OF IDENTITY*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/kinetic-isomorphism/ **Publication
-Date:** 2025-11-30 **Version:** 1.0
+## Abstract
 
-**Abstract**: The schism between the time-reversible,
+The schism between the time-reversible,
 unitary laws of quantum mechanics and the irreversible, adaptive nature
 of biological systems constitutes a central failure of modern ontology.
 We propose the **kinetic isomorphism**, a unified
