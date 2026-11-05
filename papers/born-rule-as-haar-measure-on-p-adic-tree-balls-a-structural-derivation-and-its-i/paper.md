@@ -24,8 +24,6 @@ $p$‑adic measures are constructed in [4] for $L$‑functions via a specific 
 
 In [5] a $p$‑adic van Lint–Seidel relative bound is proved, demonstrating that the geometry imposes discrete constraints on the number of equiangular lines.
 
-
-
 Phase‑transition analysis of the $p$‑adic Potts model on a Cayley tree shows that a transition occurs iff $p=3$ [1], motivating the special role of $p=3$ in the three‑outcome example.
 
  
@@ -251,10 +249,6 @@ This sets the target precision for a falsification test.
 **(f) Risks and misuse.** Over‑interpreting the deterministic model as a proof that quantum randomness is illusory could lead to premature claims about eliminating randomness in cryptographic protocols. The model must be applied only within its domain (static ultrametric geometry) and not extrapolated to all quantum phenomena without further validation.
 
 ## 9. Conclusion We have shown that the Haar (topological) measure on $p$‑adic balls of the Bruhat–Tits tree yields probabilities of the form $p^{-k}$, which directly reproduce the Born rule for quantum states whose squared amplitudes are rational powers of a chosen prime $p$. Explicit arithmetic derivations demonstrate that for $p=2$ a binary measurement yields probability $1/2$, and for $p=3$ a three‑outcome equal‑amplitude interferometer yields probability $1/3$. A deterministic shared‑ancestor correlation model on the same tree yields CHSH correlations that do not reach the maximal quantum value $2\sqrt{2}$, offering a superdeterministic perspective that remains to be fully developed. The framework is currently at TRL 2; the proposed three‑path interferometer experiment provides a concrete falsification test. Validation would reinterpret the wavefunction as an epistemic bookkeeping device and open avenues for deterministic quantum‑information engineering based on ultrametric geometry.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 

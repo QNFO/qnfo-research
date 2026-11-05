@@ -174,26 +174,3 @@ We treated the Gaussian random-tensor model of booklet cosmology [2] as a quantu
 [12] https://papers.qnfo.org/papers/recursive-self-consistency/. QNFO: Recursive Self-Consistency.
 [13] https://papers.qnfo.org/papers/qec-darwinism-ultrametric/. QNFO: Archimedean Shadows: The QEC-Darwinism Tradeoff in Ultrametric Spaces.
 [14] https://papers.qnfo.org/papers/number-theory-as-physics/. QNFO: Number Theory as Physics.
-
-## Appendix A. Divergence report
-
-**Divergence 1 (recovery-error scaling).** One draft used $\varepsilon \lesssim \sqrt{K/b}$; two drafts used the linear convention $\varepsilon \lesssim K/b$. The disagreement stems from different readings of the asymptotic theorem of [2]: the $\sqrt{K/b}$ draft assumed a decoupling bound in squared Hilbert-Schmidt norm, while the linear drafts took the theorem's stated parameter dependence at face value. Convention adopted for the main text: linear $K/b$, because it matches the theorem statement of [2] and the majority of drafts. Under the alternative convention the headline error at $K = 10^{3}$, $b = 10^{6}$ would be $\sqrt{10^{-3}} \approx 3.16\times10^{-2}$, and all D4/D5 numbers would weaken accordingly.
-
-**Divergence 2 (secondary worked example).** One draft included a secondary example at $b = 2^{10} = 1024$, $K = 2^{5} = 32$; the others evaluated only $b = 10^{6}$. Status: single-source, retained in Section 4 (D4) as a labeled cross-check; it does not affect any headline number.
-
-No other substantive divergences were found. The D1 purity discrepancy was an arithmetic error in one draft, corrected in Section 4, not a convention conflict.
-
-## Appendix B. Claim attribution
-
-| Claim | Content | Drafts | Status |
-|---|---|---|---|
-| C1 | Gaussian model: tripartite Haar-like state, per-arm dimension $b$ | A, B, C | CONVERGENT |
-| C2 | Single-arm purity via Page formula $(b+b^{2})/(b^{3}+1)$ | A, B, C | CONVERGENT (evaluation corrected in Section 4) |
-| C3 | Excess purity $\Delta \sim 1/b^{2}$, $\approx 10^{-12}$ at $b = 10^{6}$ | A, B, C | CONVERGENT |
-| C4 | Single-arm entropy $\approx 19.93$ bits at $b = 10^{6}$ | A, B, C | CONVERGENT |
-| C5 | Recovery-error scaling: linear $K/b$ vs $\sqrt{K/b}$ | A, B vs C | DIVERGENT (Appendix A) |
-| C6 | Markov/union bound: three-pair success $\ge 0.8125$ at $4\times10^{-3}$ | A, B | CONVERGENT |
-| C7 | Pair-purity cross-check $\mathbb{E}[\mathrm{Tr}\,\rho_{AB}^{2}] \approx 1/b^{2}$ | A, B, C | CONVERGENT |
-| C8 | QEC–Quantum Darwinism tension of [13] discussed qualitatively | A, B, C | CONVERGENT |
-| C9 | Physical-$b$ projection $b \sim e^{c}$ with $c \sim 100$ | A | SINGLE (labeled projection) |
-| C10 | Secondary example $b = 1024$, $K = 32$ | C | SINGLE (cross-check) |

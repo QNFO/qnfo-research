@@ -1,15 +1,10 @@
 # Biological and Engineered Computational Systems
 
-## Categorical Equivalence of Biological and Engineered Computational Systems
+*Categorical Equivalence of Biological and Engineered Computational Systems*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/biological-and-engineered-computational-systems/ **Publication Date:** 2025-10-26
-**Version:** 1.0
+## Abstract
 
-**Abstract**: This work establishes the categorical
+This work establishes the categorical
 equivalence between biological and engineered computational systems
 through an explicit mathematical formalism. The central thesis posits
 that these seemingly disparate domains implement equivalent
