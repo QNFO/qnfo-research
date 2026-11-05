@@ -1,12 +1,3 @@
----
-title: "Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem"
-author: "Rowan Brad Quni"
-date: "2026-07-21"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
----
-
 # Non-Anthropocentric Natural Units: From the Bekenstein Bound to Ostrowski's Theorem
 
 ## Abstract

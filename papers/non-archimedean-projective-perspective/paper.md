@@ -1,16 +1,3 @@
----
-title: "Non-Archimedean Projective Perspective: The Monna Map as a Visual Rendering Interface"
-author: "Quni-Gudzinas, Rowan Brad"
-orcid: "0009-0002-4317-5604"
-affiliation: "QNFO"
-date: "2026-08-16"
-version: "v0.2"
-license: "CC-BY-4.0"
-doi: ""
-status: "published"
-keywords: ["non-Archimedean geometry", "ultrametric", "Monna map", "visual perception", "perspective", "projective geometry", "p-adic", "Ostrowski theorem", "ontology", "rendering interface"]
----
-
 # Non-Archimedean Projective Perspective: The Monna Map as a Visual Rendering Interface
 
 ## Abstract

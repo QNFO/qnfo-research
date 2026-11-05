@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "[0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](http://isni.org/isni/0000000526456062)"
-doi: "https://papers.qnfo.org/papers/non-archimedean-syntactic-paradigm-for-physics/"
-date: "2026-04-16"
-version: "1.0"
-keywords: "Syntactic Token Calculus, Non-Archimedean Geometry, Bruhat-Tits Tree, Quantum Error Correction, Discrete Scale Invariance, Monna Map, Ultrametric Topology"
----
-
 # Non-Archimedean Syntactic Paradigm for Physics
 
 ## Abstract
