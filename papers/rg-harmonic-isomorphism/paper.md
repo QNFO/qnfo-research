@@ -1,14 +1,3 @@
----
-title: "The RG-Harmonic Isomorphism: Renormalization Group Similarities with Harmonic Quantum Mechanics"
-subtitle: "A Retrospective Evaluation of Planck, Einstein, and the Quantum Milestone Chain"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-22"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-series: "QNFO Theoretical Physics"
----
-
 # The RG-Harmonic Isomorphism: Renormalization Group Similarities with Harmonic Quantum Mechanics
 
 *A Retrospective Evaluation of Planck, Einstein, and the Quantum Milestone Chain*

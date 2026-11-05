@@ -1,15 +1,10 @@
 # REYNOLDS FILTER AND THE OBSERVABILITY OF CHAOS
 
-### SPECTRAL CONSTRAINTS ON THE EMERGENCE OF UNIVERSAL SCALING
+*SPECTRAL CONSTRAINTS ON THE EMERGENCE OF UNIVERSAL SCALING*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/reynolds-filter-and-the-observability-of-chaos/ **Date:**
-2025-12-22 **Version:** 1.0
+## Abstract
 
-**Abstract**: The transition to turbulence is
+The transition to turbulence is
 characterized by universal scaling laws, specifically the Feigenbaum
 constants, which govern the onset of chaos in nonlinear systems. While
 these constants are traditionally viewed as topological invariants of

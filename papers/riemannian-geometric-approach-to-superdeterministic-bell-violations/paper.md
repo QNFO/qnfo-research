@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/riemannian-geometric-approach-to-superdeterministic-bell-violations/"
-date: "2026-02-09"
-version: "1.0"
-keywords: "Superdeterminism, Invariant Set Theory, Riemannian Geometry, Bell’s Theorem, Quantum Gravity, p-adic Number Theory, Geometric Determinism"
----
-
 # Riemannian-Geometric Approach to Superdeterministic Bell-Violations
 
 ## Abstract

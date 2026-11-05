@@ -1,14 +1,3 @@
----
-title: "The RG-Harmonic Isomorphism: Synthesis of Eight Research Question Deliverables"
-subtitle: "From Transmon to Quantum Gravity — The Universal Grammar of Harmonic Quantum Mechanics"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-22"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
-series: "QNFO Theoretical Physics — Synthesis"
----
-
 # The RG-Harmonic Isomorphism: Synthesis of Eight Research Question Deliverables
 
 *From Transmon to Quantum Gravity — The Universal Grammar of Harmonic Quantum Mechanics*

@@ -1,33 +1,3 @@
----
-title: "Trapped-Ion Qudit Quantum Computing: Due-Diligence Assessment of the Ringbauer Program"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-10"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords:
-  - qudit
-  - trapped ions
-  - quantum computing
-  - light-shift gate
-  - quantum simulation
-  - entanglement
-  - lattice gauge theory
-  - due diligence
-abstract: >
-  This note documents a due-diligence assessment of the trapped-ion qudit quantum
-  computing program led by Martin Ringbauer at the University of Innsbruck. Three
-  publications anchor the assessment: the universal qudit processor demonstration
-  (2022), the native qudit entanglement gate based on a generalized light-shift
-  mechanism (2023), and a lattice gauge theory simulation with ion qudits (2024).
-  All bibliographic metadata, author lists, DOIs, and experimental figures cited
-  here were verified against live Crossref records and the published article body.
-  The note records the measured light-shift gate fidelities by dimension, the
-  quadratic scaling of gate error with qudit dimension, and the relevance of this
-  empirical curve to the dimensional-advantage crossover parameter in qudit
-  benchmarking.
----
-
 # Trapped-Ion Qudit Quantum Computing: Due-Diligence Assessment of the Ringbauer Program
 
 ## Abstract
