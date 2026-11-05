@@ -1,39 +1,3 @@
----
-title: "The Distinction-Based Ultrametric: A Hierarchy Distance Without Primes, and the Statistical Test of Arithmetic Structure in Physical Spectra"
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-orcid: "0009-0002-4317-5604"
-date: "2026-08-28"
-license: "CC BY 4.0"
-status: "published"
-version: "1.0"
-doi: ""
-concept_doi: "https://papers.qnfo.org/papers"
-wbs: "QNFO.UMP.014"
-slug: "distinction-based-ultrametric"
-abstract: |
-  Quantum mechanics is written in one completion of the rational numbers, the real
-  line, though Ostrowski's theorem gives one completion for every prime. A line of
-  work reads physical structure through those other places, but its empirical tests
-  of prime-specific geometry in physical systems have repeatedly returned null
-  results. This paper separates what survives from what does not. The surviving
-  object is not any prime-specific arithmetic but a finite hierarchy distance: the
-  number of distinctions required to separate two states. We state that formula,
-  show it is an ultrametric on any finite hierarchy and independent of the
-  realization chosen (p-adic valuation, formal Laurent series, or plain nested
-  partitions), and verify both claims in deposited, deterministic computation. The
-  empirical question then becomes statistical rather than geometric: do physical
-  spectra carry arithmetic information beyond universal random-matrix statistics?
-  We implement the five observables that test this, validate them on known answers
-  (including a computational confirmation of the Montgomery-Odlyzko pair
-  correlation for the Riemann zeros), and apply them to two real molecular spectra.
-  The first real-data result is negative for arithmetic structure in the
-  pair-correlation channel: neither molecule is GUE-like. The machinery and the
-  pre-registerable null models are deposited, so the question can be asked of
-  larger spectra as they become available. The premises end where a physical length
-  is identified at a p-adic place; everything below that line is computation.
----
-
 # The Distinction-Based Ultrametric: A Hierarchy Distance Without Primes, and the Statistical Test of Arithmetic Structure in Physical Spectra
 
 ## Abstract

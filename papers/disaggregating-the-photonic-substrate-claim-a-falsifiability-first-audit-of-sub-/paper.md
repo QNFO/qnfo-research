@@ -157,9 +157,7 @@ Photonic‑integration engineers designing single‑photon detectors, flexible p
 
 ### 7.5 Projected cost and performance bounds
 
-
-### 7.6 Risks and misuse
-Misinterpretation of the audit as a blanket rejection of all substrate‑engineering research could discourage legitimate engineering advances. Clear communication that the falsification applies only to the specific ontological claim (photon‑primacy) mitigates this risk.
+### 7.6 Risks and misuse Misinterpretation of the audit as a blanket rejection of all substrate‑engineering research could discourage legitimate engineering advances. Clear communication that the falsification applies only to the specific ontological claim (photon‑primacy) mitigates this risk.
 
 ## 8. Conclusion By decomposing the photonic‑substrate claim into four falsifiable sub‑hypotheses and applying explicit quantitative tests drawn from ten peer‑reviewed works, we demonstrate that the ontological core of the claim fails current falsifiability standards. The statistical threshold derived from the 64‑test matrix ($\alpha_{\text{per}}=7.8125\times10^{-4}$) and the integer‑log and growth‑factor tests based on binary flag counts provide concrete, reproducible criteria for future assessments. Engineers should therefore prioritize substrate‑engineering strategies with demonstrated performance (e.g., high‑efficiency SNSPD integration [1], flexible circuits [2], spectral localization [3], topological channel design [4], pre‑geometric black‑hole analogues [5], and monolithic 3D tantala integration [6]) while awaiting decisive experimental evidence that could revive the speculative photon‑primacy hypothesis.
 

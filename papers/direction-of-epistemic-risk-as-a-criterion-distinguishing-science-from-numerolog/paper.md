@@ -263,11 +263,6 @@ If the predictive model’s ERS remains lower while its realized loss prediction
 
 ## 8. Conclusion A quantitative **epistemic‑risk** framework has been introduced that combines Bayesian model evidence with out‑of‑sample predictive scoring to distinguish scientifically predictive theories from numerological constructions. Empirical evidence from sequential Gaussian‑process emulation demonstrates that the required computational effort is tractable, with a 50‑fold simulation‑budget reduction. Application to three historical case studies yields ERS rankings consistent with accepted historiography, and sensitivity analysis confirms robustness to reasonable hyper‑parameter variations. The proposed metric offers a practical tool for funding agencies, reviewers, and research managers to allocate resources toward genuinely predictive science, thereby reducing the institutional reinforcement of numerology.
 
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 8 -> 8. length 3278 -> 3353 words.
-- Version 1.1.1 (2026-10-20, from 1.1.0): wording: 2 sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.29.0-terminal-rearmed). Language models were tools in that process; they are not authors. The named author is accountable for the content.
