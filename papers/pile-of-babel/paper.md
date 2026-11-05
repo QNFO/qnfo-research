@@ -1,15 +1,10 @@
 # PILE OF BABEL
 
-## A Crisis of Conceptual Obscurantism and Rosetta Stone for Deciphering Physics, Deriving Reality from the Simple Arithmetic of the Circle
+*A Crisis of Conceptual Obscurantism and Rosetta Stone for Deciphering Physics, Deriving Reality from the Simple Arithmetic of the Circle*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/pile-of-babel/ **Publication Date:** 2025-10-17
-**Version:** 1.1.1
+## Abstract
 
-**Abstract:** Modern theoretical physics is experiencing
+Modern theoretical physics is experiencing
 a crisis of comprehension characterized by the proliferation of
 abstract, specialized terminology that obscures fundamental, intuitive
 concepts. This phenomenon, termed a new scholasticism, has led to a

@@ -245,11 +245,6 @@ The corrected error‑budget chain establishes what the reported fluxonium ancil
 
 This corrected version propagates the reported heavy-fluxonium ancilla parameters through explicit error-budget arithmetic and repairs two defects of the earlier release. The corrected chain yields an ancilla bit-flip rate $\Gamma_{\mathrm{bf}} = (2.22 \pm 0.34)\times10^{3}~\mathrm{s}^{-1}$, a removal of $37.1\%\pm2.0\%$ of the logical decay rate, a per-cycle ancilla error of $2.19\%\pm0.34\%$ for the assumed $10~\mu\mathrm{s}$ cycle, and a projected ancilla-limited lifetime of $4.51~\mathrm{ms}$ under the stated conversion assumption. The molecular-qubit analogy of the earlier release is withdrawn: the work so cited is a graph-theoretic study of Zagreb indices [1] and supports no error-correction claim. The $8.0$–$64\times$ photon-budget figure is withdrawn: the photon-budget comparison remains the cited $5$–$40\times$ ratio at $p_L = 10^{-6}$ [5], with no multiplication by the extension factor. The analysis shows that the fluxonium ancilla lifts the dominant error channel while leaving $62.9\%$ of the logical decay uncorrected, and it identifies the measurements that would confirm or falsify the chain: dephasing time, achieved squeezing, reset latency, and the $d = 5$ scaling benchmark of [2]. The derived metrics give hardware designers a concrete error-budget target and a falsifiable framework for future planar fluxonium–GKP work.
 
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report. references 12 -> 9. length 4094 -> 2806 words.
-- Version 3.0.0 (2026-11-01, from 2.0.0): rewritten in full through the research pipeline. references 9 -> 5. length 2688 -> 5189 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.40.12-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

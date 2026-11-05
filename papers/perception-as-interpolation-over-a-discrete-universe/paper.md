@@ -244,10 +244,6 @@ No empirical value is reported in this paper; every number above is an analytica
 
 By casting perception as a fractal-IFS-based interpolation operator and repairing the two flagged defects, this corrected version derives a fully displayed error chain, $|e(x)|\le\tfrac12|\psi(x)-\psi(h_i^{-1}(x))|\le\tfrac12\Delta x$, and a corrected falsification criterion in which a reported mean absolute error greater than $0.05\;\text{mm}$ falsifies the model. The bound yields the concrete, testable prediction of $0.05\;\text{mm}$ worst-case error for the assumed $0.1\;\text{mm}$ sampling interval, scales linearly in both the sampling interval and the contraction constant, and provides a quantitative, if hypothesis-dependent, design target for neuroprosthetic and neuromorphic systems. Future work will extend the model to temporal dynamics, adaptive learning of IFS parameters, and multimodal integration, and will add the stricter maximum-error test that the mean-to-worst-case asymmetry leaves open.
 
-## Version History
-
-- Version 2.0.0 (2026-11-02, from 1.0.0): rewritten in full through the research pipeline. references 11 -> 5. length 3687 -> 4029 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.44.3). Language models were tools in that process; they are not authors. The named author is accountable for the content.

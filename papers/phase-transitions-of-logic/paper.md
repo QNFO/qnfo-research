@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/phase-transitions-of-logic/"
-date: "2026-01-20"
-version: "1.0"
----
-
 # Phase Transitions of Logic
 
 *Bose-Einstein and String-Net Condensates as Universal Computational Substrates*
