@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/epistemic-dynamics"
   },
   "declared": {
-    "version": "1.1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "97d8fec817f698bb5b10726059025bca38b5a73afed9723fe5a9f7c6e2883026",
       "bytes": 25484,
       "recorded_at": "2026-11-03",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "4409418fa2eb6cf550e18cea5fef0fbdcf42e787f6efaca1c66c829e8fb8cd37",
+      "bytes": 25230,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

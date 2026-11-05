@@ -1,16 +1,13 @@
 # An Epistemic Mirror
 
-## Consciousness and the Inescapable Boundary Conditions of Cognitive Architectures
+*Consciousness and the Inescapable Boundary Conditions of Cognitive Architectures*
+
+## Abstract
+
+This paper reframes the “hard problem” of consciousness from an intractable ontological mystery to a tractable problem of epistemology. It argues that the explanatory gap is a structurally necessary epistemic boundary condition of any cognitive architecture that employs dimensionality reduction for self-representation. The proposed mechanism is a Dimensionality Mismatch Hypothesis, wherein high-dimensional phenomenal states are irreversibly compressed into low-dimensional descriptive systems like language, making a complete reconstruction mathematically impossible. This framework is grounded in an observable, non-biological analog: the phenomenon of subliminal learning in Large Language Models (LLMs), which demonstrates how meaning can be encoded in high-dimensional geometries inaccessible to low-dimensional analysis, producing “intelligence without introspection.” This reframing necessitates a methodological shift from ontological explanation to epistemic cartography—a science dedicated to mapping the boundaries of cognition by treating descriptive failures as empirical data. [...]
 
 **Tying the “Hard Problem” to Epistemic
 Cartography**
-
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/epistemic-mirror/ **Publication Date:** 2025-09-30
-**Version:** 1.0.1
 
 This paper reframes the “hard problem” of consciousness from an
 intractable ontological mystery to a tractable problem of epistemology.

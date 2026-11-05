@@ -1,13 +1,8 @@
 # Epistemic Dynamics
 
-## A Computable Framework for the Validation of Non-Empirical Scientific Progress: From Algorithmic Compression to Epistemic Dynamics
+*A Computable Framework for the Validation of Non-Empirical Scientific Progress: From Algorithmic Compression to Epistemic Dynamics*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/epistemic-dynamics/ **Publication Date:** 2025-09-30
-**Version:** 1.1.0
+## Abstract
 
 This work provides a formal derivation for a quantitative framework
 to validate non-empirical scientific contributions. It begins by
