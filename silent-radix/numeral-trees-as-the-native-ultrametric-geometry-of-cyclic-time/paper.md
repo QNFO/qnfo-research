@@ -160,10 +160,6 @@ $$
 
 ## 8. Conclusion We have formalized the numeral tree as a mixed‑radix ultrametric space, derived explicit distances that respect cyclic nesting, and proved that the resulting distance satisfies the strong triangle inequality. The derived distances ($0.0416667$, $0.0333333$, $0.0833333$) follow directly from branching factors and guarantee consistent hierarchical clustering. This framework offers a low‑cost, mathematically rigorous tool for cyclic time analysis, a plausible explanation for the brain’s logarithmic number sense, and a clear engineering pathway for tree‑structured counters. Future work will empirically test the cognitive hypothesis and prototype the hardware counter described in Section 7.3.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

@@ -1,11 +1,3 @@
----
-author: "QNFO — QWAV / QNFO"
-date: "2026-07-04"
-version: "1.0.0"
-license: "QNFO Unified License Agreement (QNFO-ULA) **Classification:** QNFO Working Paper — Phase 4: Publication"
-keywords: "$p$-adic valuation, Mahler expansion, Kodaira-Néron classification, Amice transform, quantum error correction, stabilizer codes, Bruhat-Tits buildings, ultrametric topology, spectral analysis, Hecke operators."
----
-
 # Number-Theoretic Ultrametric Foundations: A Unified p-adic Framework for Error-Correcting Code Classification
 
 ## Abstract
