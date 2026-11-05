@@ -1,16 +1,3 @@
----
-title: "Killing the Framework: Seven Criteria for the Falsification of Adelic Physics"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-04"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-wbs: "QNFO.UMP.004"
-genre: "A"
-version: "v0.7-null-equivalence"
-keywords: "falsifiability, adelic physics, p-adic, ultrametric, black hole echoes, dark matter, automorphic representations, Ostrowski theorem, Popperian demarcation"
----
-
 # Killing the Framework: Seven Criteria for the Falsification of Adelic Physics
 
 ## Abstract
@@ -131,7 +118,6 @@ However, KC7 is arguably the *most consequential* criterion. If the adelic frame
 
 **To operationalize.** Publish a derivation of SU(3) × SU(2) × U(1) from the adelic automorphic structure. If the derivation contains a specific, testable ancillary prediction (e.g., a constraint on the number of gauge bosons or coupling-constant relations at unification), that prediction becomes an additional kill criterion. Without a published derivation, KC7 is not a kill criterion; it is a promissory note. [not yet falsifiable]
 
-
 **Core postulate.** The Standard Model gauge group SU(3)_C × SU(2)_L × U(1)_Y — or its unified extension — must be derivable from the adelic framework as the unique low-energy remnant of the automorphic structure. The framework's claim to be a theory of *all* fundamental interactions depends on this.
 
 **Fatal observation.** A proof that SU(3) × SU(2) × U(1) is *fundamentally* incompatible with adelic derivation — not merely that no derivation has been found, but that a specific mathematical obstruction (e.g., the automorphic representation theory of the relevant reductive group forbids this particular gauge structure) exists. Alternatively: discovery of a new fundamental gauge interaction (fifth force) that cannot be embedded in the adelic automorphic structure without breaking the generation or mass-relation predictions.
@@ -182,7 +168,6 @@ This is not unique to the adelic framework. String theory's landscape, inflation
 
 [speculative]
 
-
 The adelic framework exhibits a characteristic asymmetry. The only genuinely lethal observations (KC2: non-automorphic particle, continuous spin) would kill the framework via properties it *shares with standard quantum field theory*. Null results on these do not confirm the adelic framework; they confirm constraints that already exist in conventional physics. The framework's survivable observations are retrodictions, and its fatal observations would refute it only by refuting physics it inherited.
 
 This is not a unique problem. String theory, inflationary cosmology, and many beyond-Standard-Model frameworks face similar challenges. But the adelic framework carries a particular burden because its core mathematical structure — the adele ring, automorphic representations, Bruhat–Tits trees — is remote from experimental probes by design. The very feature that makes it elegant (unification across all completions of ℚ) is also what makes it hard to kill. `[speculative]`
@@ -204,8 +189,6 @@ Blocking this meta-escape requires an additional commitment: for each criterion,
 This is not unique to the adelic framework. String theory's landscape, inflationary cosmology's eternal inflation, and the multiverse all face the same structural problem. The difference is one of degree: a framework with no binding specific predictions is Platonic by default. The path forward (§6) is the attempt to produce binding specific predictions whose failure would cascade to the Platonic form.
 
 [speculative]
-
-
 
 ### 5.2 Symmetric Audit: Falsifiability of the Incumbent Hypotheses
 
@@ -302,9 +285,6 @@ The symmetric audit yields two conclusions:
 
 This does not excuse the adelic framework's unfalsifiability. It contextualizes it. The framework's Grade D is a problem that must be fixed — and the path forward (§6) is the commitment to do so. But the problem is not unique, and the framework's willingness to name it is, in its way, more scientific than programs that maintain Grade D while claiming Grade A. `[speculative]`
 
-
-
-
 ### 5.3 The Independence Requirement: Consilience as the Only Unbiased Evidence Standard
 
 The Eddington case generalizes into a methodological principle that this audit must adopt for *all* frameworks, including the adelic framework's own null results.
@@ -321,8 +301,6 @@ The Eddington case generalizes into a methodological principle that this audit m
 **The corollary for null results.** The same requirement applies to falsification. A single null result (the GWTC-1 echo search, GRB 090510 Lorentz bound) cannot kill a framework with an unbounded amplitude or threshold, and cannot confirm one either. Only a *consilient* null — multiple independent searches with independent templates and error structures all excluding the prediction above a derived bound — is fatal. The adelic framework's KC4 is not merely missing an amplitude bound; it is missing the entire consilience apparatus that would make either detection or exclusion meaningful. `[my conjecture]`
 
 **The grading consequence.** Grades based on "operational kill criteria" alone are insufficient. They must be weighted by (a) whether any confirming observation was independent, and (b) how many independent lines converge. Under this weighting: bare GR drops from A to B (no single clean test; the confirmations are parameter measurements within the PPN family, with only three genuine theory discriminations — §5.4); the adelic framework stays at D (zero independent confirmations); ΛCDM's H₀ tension becomes *more* significant, because it is consilient — multiple independent late-universe methods (Cepheids, TRGB, masers, lensing) agree on the high value, and multiple early-universe methods agree on the low value, which is precisely why the discrepancy is credible rather than an artifact. `[speculative]`
-
-
 
 ### 5.4 The GR Testing Program Under the Same Rigor
 
@@ -358,8 +336,6 @@ To become falsifiable, the framework must deliver five concrete derivations, lis
 **Priority 5 — Hard discretization length scale (KC3).** Derive a minimum scale from the adelic action below which smooth, Lorentz-invariant spacetime is incompatible with the adelic substrate. Until this exists, every experimental null result on Lorentz violation is a non-result for the framework. **Target: Q4 2027. If no scale is derived, KC3 should be classified as structurally unfalsifiable and removed from the kill criteria list.**
 
 These five derivations are not optional embellishments. They are the minimum set of theoretical commitments required for the adelic framework to transition from a mathematical research program to a falsifiable physical theory. If all five derivations fail to materialize by Q4 2027, the framework should be classified as not-yet-falsifiable — not wrong, merely not yet a scientific theory — and the kill criteria should be retired as aspirational rather than operational. [my conjecture]
-
-
 
 ## 7. Data-Driven Falsification Audit: What Existing Observations Already Say
 
@@ -448,9 +424,6 @@ The data-driven audit produces a result that is uncomfortable for both sides.
 **For the null hypotheses:** the incumbent frameworks are not cleanly falsifiable either. ΛCDM faces a live, growing 5σ Hubble tension that currently survives only through auxiliary escape hatches — the very mechanism the paper criticizes. The Standard Model faces a 4.2σ muon anomaly whose null is contested by theory, not resolved. The operational GR composite has never been tested as a whole. The claim that the incumbents are "falsifiable science" while the adelic framework is "unfalsifiable speculation" does not survive contact with the scorecard. The difference is one of degree — and of institutionalization, not of epistemic virtue. `[my conjecture]`
 
 **The honest conclusion:** all frameworks under review occupy positions on a falsifiability spectrum, and none has been cleanly falsified by existing data. Under the Independence Requirement (§5.3), the adelic framework's position is worse than the scorecard alone shows: its null results are *unconsilient* — each is a single search, single template, single error structure — so they neither confirm nor decisively constrain, while its positive predictions have never received a single independent confirmation. The incumbents' tensions, by contrast, are OPERATIONAL under the Null-Equivalence Protocol (§7.6): the H₀ discrepancy is credible precisely because O_T (late-universe measurements) ≠ O_N (ΛCDM early-universe prediction) at measurable precision, and independent late-universe methods agree with each other. What the existing data *does* establish is which frameworks are genuinely at risk: ΛCDM (consilient Hubble tension), the SM (muon anomaly), and — if its operationalized criteria ever produce amplitude bounds — the adelic framework (echo searches ready and waiting, but needing multiple independent searches to be meaningful). The next observation is more likely to falsify an incumbent than to confirm the adelic framework. That is not a vindication of the framework; it is the current balance of empirical risk.
-
-
-
 
 ### 7.6 The Null-Equivalence Protocol: When the Test Predicts What the Null Predicts
 

@@ -28,11 +28,7 @@ T_{\mathrm{mix}}(G_n)\;\ge\;\frac{d}{(d-2)\,\log(d-1)}\,\log n,
 \]
 by coupling the walk on $G_n$ to the walk on the infinite $d$‑regular tree $\mathcal{T}_d$. This bound is directly applicable to our setting with $d=p\!+\!1$.
 
-
-
 The trapping problem with immobile and mobile traps is reviewed in **[7]**. The authors describe the survival probability $Z_{\gamma,t}$ and its dependence on the local time $L_t(x)$ of the walk, highlighting that deep traps can dramatically increase survival times—a phenomenon we reinterpret as prolonged confinement in deep tree branches.
-
-
 
 Deterministic primality testing via spectral gaps on finite truncations of $\mathfrak{t}_p$ is proposed in **[11]**. The authors encode an odd integer $N$ as an automorphism $\gamma_N\in\operatorname{Aut}(\mathcal{T}_p)$, compute the depth $D$ of the induced subtree, and observe that primes yield a lower bound $\lambda_1\ge0.1716$ on the second Laplacian eigenvalue, whereas composites satisfy $\lambda_1\le C/D$. Table 5.4 of [11] lists depth $D=7$ and vertex count $V_D=382$ for both $N=101$ (prime) and $N=100$ (composite), providing the empirical backbone for our quantitative analysis.
 

@@ -1,24 +1,3 @@
----
-title: "The Falsifiability Crisis in Contemporary Physics: LCDM, the Standard Model, and the Measurement-Exercise Trap"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-04"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "TBD"
-status: "draft"
-keywords:
-  - falsifiability
-  - LCDM
-  - Standard Model
-  - Eddington 1919
-  - consilience
-  - Bayesian evidential weight
-  - protective belt
-  - Lakatos
-  - methodology
-  - metascience
-bibliography: docs/references.bib
----
-
 # The Falsifiability Crisis in Contemporary Physics: LCDM, the Standard Model, and the Measurement-Exercise Trap
 
 ## Abstract

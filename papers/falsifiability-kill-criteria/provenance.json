@@ -24,6 +24,14 @@
       "basis": "deposit",
       "version": "v0.8-gate-compliant",
       "git_commit": null
+    },
+    {
+      "sha256": "cc56ec0f85ae1190fcfe0b576832911c7d867ba65ed573c29856ccc3b8a40a6e",
+      "bytes": 77917,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
+      "version": "v0.8-gate-compliant",
+      "git_commit": null
     }
   ],
   "events": []

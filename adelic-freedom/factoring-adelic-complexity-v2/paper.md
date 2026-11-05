@@ -1,13 +1,3 @@
----
-title: "Noise-Augmented Silent Radix Encryption: A Hidden-Modulus LWE Construction"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-27"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "silent radix, hidden radix, $p$-adic LWE, hidden modulus, noise-augmented encryption, key encapsulation mechanism, post-quantum cryptography, lattice reduction, ultrametric"
----
-
 # FACTORING, Adelic Complexity, and the Silent-Radix Principle
 
 ## Abstract
