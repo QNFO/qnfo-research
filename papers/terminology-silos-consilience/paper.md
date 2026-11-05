@@ -1,12 +1,3 @@
----
-title: "Terminology Silos and the Consilience Gap: A Quantitative Audit of Cross-Domain Vocabulary"
-author: Rowan Brad Quni-Gudzinas
-date: 2026-08-24
-version: v1.1
-license: CC BY 4.0
-doi: ""
----
-
 # Terminology Silos and the Consilience Gap: A Quantitative Audit of Cross-Domain Vocabulary
 
 ## Abstract

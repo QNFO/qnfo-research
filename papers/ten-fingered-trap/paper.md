@@ -1,5 +1,9 @@
 # Ten-Fingered Trap
 
+## Abstract
+
+**How Our Decimal Dependence Constrains Scientific Advancement** Our familiar decimal system, base-10, serves as the near-universal standard for numerical representation, so deeply integrated into global commerce, education, and scientific communication that its structure often feels synonymous with the very concept of number itself. Its ubiquity in everyday calculation, measurement, and even the scientific notation used to grasp the cosmos lends it an air of fundamental importance, an almost unquestionable naturalness. However, this perceived inevitability masks a crucial understanding: the system’s dominance appears to stem not from any inherent mathematical superiority or alignment with universal principles, but rather from the practical convenience afforded by human anatomy—specifically, the ten fingers readily available for counting. This anthropocentric origin, rooted in a specific biological contingency rather than abstract mathematical reasoning, forms the crux of a critical examination. [...]
+
 **How Our Decimal Dependence Constrains Scientific
 Advancement**
 

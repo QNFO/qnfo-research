@@ -1,13 +1,3 @@
----
-title: "Tate's Thesis as a Template for Adelic Quantum Mechanics: Local-Global Structure and the Emergence of Archimedean Artifacts"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-26"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
-keywords: "Adelic quantum mechanics, Tate's thesis, Langlands program, Ostrowski's theorem, $p$-adic physics, measurement problem, adelic path integrals"
----
-
 # Tate's Thesis as a Template for Adelic Quantum Mechanics: Local-Global Structure and the Emergence of Archimedean Artifacts
 
 ## Abstract
