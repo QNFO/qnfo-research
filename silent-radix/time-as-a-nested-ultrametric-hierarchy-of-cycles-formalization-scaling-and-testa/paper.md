@@ -151,8 +151,6 @@ Theoretical physicists exploring quantum foundations and quantum‑hardware engi
 - **Environmental isolation.** Magnetic and electric field fluctuations must be suppressed below $10^{-15}\,\mathrm{T}$ as an engineering assumption (not derived from Section 4).  
 - **Data‑acquisition bandwidth.** Sampling rates must exceed $10^{22}\,\mathrm{samples\,s^{-1}}$ to capture the fastest cycles.  
 
-
-
 ### 7.5 Projected Performance Bounds
 Assuming a detector capable of $10^{-22}\,\mathrm{s}$ resolution (a projection labeled as an assumption), the experiment could resolve at least three hierarchical levels: $T_{Z}$, $T_{\alpha}$, and the level‑2 frozen time $t_{2}=8.1\times10^{-19}\,\mathrm{s}$. The projected signal‑to‑noise ratio (SNR) for a single event is estimated as
 \[

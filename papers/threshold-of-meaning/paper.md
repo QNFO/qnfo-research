@@ -1,5 +1,9 @@
 # The Threshold of Meaning
 
+## Abstract
+
+Chapter 1: Defining the Undefinable–Language, Semantics, and the Limits of Words - 1.1 The Problem of Contested Terms: “Life,” “Death,” and “Afterlife”–Historical, legal, biological, and spiritual definitions. - 1.2 Linguistic Registers: Propositional, Performative, Narrative, Poetic–How context dictates meaning. - 1.3 Conceptual Metaphors and Image Schemas: Analyzing DEATH IS DEPARTURE, CONTAINER, and SOURCE-PATH-GOAL. - 1.4 Cross-Linguistic Variations: How different languages lexicalize and grammaticize death and transcendence. - 1.5 The Ineffability Claim: First-person reports and philosophical treatments of experience exceeding language. - 1.6 Linguistic Relativity and the Shaping of Experience (Expanded Draft): The Sapir-Whorf hypothesis as applied to NDEs. Exploration of spatial frames, tense, and evidentiality as filters for experiencing and recalling transcendent events.
+
 ## An Interdisciplinary Synthesis of Life, Death, and the Afterlife
 
 **Preface: On Asking the Question**
