@@ -43,8 +43,6 @@ We review the literature that directly informs our construction, citing specific
 
 **Energy-barrier analysis on Bruhat–Tits trees.**  These results provide concrete benchmarks for our analytic failure probabilities and motivate the quantum extension attempted here.
 
-
-
 In summary, the active-QEC canon [4]–[6] defines the baseline; continuous-time [1] and entanglement-assisted [2] extensions mark nearby research directions; qudit algorithmic work [3] supplies the hardware context; operator-algebra [7] offers a theoretical lens; and ultrametric structural analyses [8] provide the motivating principle. No cited source derives the ball-code parameters $n_t$ and distance $d=2t+1$, or provides a Knill–Laflamme proof for such codes, which constitutes the novelty of the present work.
 
 ## 3. Methods
@@ -285,11 +283,6 @@ All other constraints (materials, cost, scale-up) are currently open questions b
 ## 8. Conclusion
 
 We have formalised a passive quantum error-correction scheme in which logical qudits live on balls of the Bruhat–Tits tree $T_{p+1}$, proved a nesting lemma implying that equal-radius balls are nested or disjoint, derived the exact code parameters $n_t = 1 + (p+1)(p^{t}-1)/(p-1)$ and the conditional distance $d = 2t+1$, and computed analytically that under independent depolarising noise at $\varepsilon = 10^{-3}$ the flagship $p=3$, $t=1$ block fails with probability $\approx9.98\times10^{-6}$ per epoch, a suppression of $\approx100.2$ over an unencoded qudit and, as an explicitly labeled projection under stated assumptions, a factor $\approx4.08$ over an active distance-3 baseline with noisy syndrome extraction. The scheme's promise is real but conditional on constructing an explicit symmetric encoder; we have stated the assumptions, the failure modes, and the falsification criteria plainly so that the proposal can be tested rather than taken on trust.
-
-## Version History
-
-- Version 2.0.0 (2026-10-21, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 11. length 3740 -> 3859 words.
-- Version 2.1.0 (2026-11-03, from 2.0.0): revised against the current literature, re-reviewed and re-verified. references 11 -> 8. length 3859 -> 3588 words.
 
 ## Provenance and AI Involvement
 

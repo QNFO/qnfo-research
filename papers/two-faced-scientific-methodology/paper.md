@@ -1,13 +1,11 @@
----
-orcid: "[0009-0002-4317-5604](https://ORCID.org/0009-0002-4317-5604)"
----
-
 # Two-Faced Scientific Methodology
+
+## Abstract
+
+Modern scientific practice often exhibits a significant disconnect between its idealized self-image and its actual operational procedures, creating a methodological double standard. This allows dominant scientific paradigms, termed theoretical attractor states, to become deeply entrenched and resistant to critical scrutiny and revision. The perpetuation of these paradigms relies less on rigorous empirical falsification than on a selective, and often opportunistic, application of scientific methodologies. Specifically, consensus, internal consistency, and broad explanatory power are frequently prioritized over strict adherence to falsifiability, particularly when evaluating established theories. This can stifle innovation and impede scientific progress by creating a self-reinforcing system where challenges to the dominant view are systematically suppressed. This phenomenon transcends individual bias; it is a systemic issue deeply embedded within the structures and incentives of the scientific community, including funding agencies, academic institutions, peer-review processes, and publication practices. [...]
 
 **How Theoretical Attractor States Resist
 Falsification**
-
-[Rowan Brad Quni](mailto:rowan.quni@qnfo.org)
 
 Principal Investigator, [QNFO](https://qnfo.org)
 

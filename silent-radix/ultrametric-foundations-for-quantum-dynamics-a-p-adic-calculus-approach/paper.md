@@ -267,11 +267,6 @@ This paper set out to determine whether replacing the real line by the $p$-adic 
 
 The result's reach is deliberately limited. It rests on two assumed numbers from a single protocol at a single step count, a single prime, and a single fractional order; it fixes no energy scale, no physical-unit mapping, and no error-correction overhead figure; and the spectral hypothesis of Section 6.4 is labeled as unestablished. What the paper does establish is that ultrametric quantum dynamics, as formulated over $\mathbb{Q}_{p}$ with Vladimirov kinetics, is not merely a formal alternative to the continuum: it produces a specific number, $R=0.176$, and a specific scaling signature, both decidable by the classical cross-check of Section 7.3 before any hardware commitment is made. If the window and the plateau survive that cross-check and a subsequent hardware test, the branching factor $p$ enters the design space of quantum architectures as a concrete parameter; if they do not, the ultrametric program loses its simplest quantitative signature and the burden of proof shifts to other observables. Either outcome is decidable by the experiment this paper specifies.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.0.0 (2026-11-01, from 1.0.1): rewritten in full through the research pipeline. references 8 -> 5. length 4482 -> 5842 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.40.12-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

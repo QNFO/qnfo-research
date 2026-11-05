@@ -1,13 +1,3 @@
----
-title: "Ultrametric Consilience Atlas: Cross-Domain Applications of p-Adic Mathematical Structure"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-genre: "A — Epistemic"
----
-
 # Ultrametric Consilience Atlas: Cross-Domain Applications of p-Adic Mathematical Structure
 
 ## Abstract
@@ -403,9 +393,3 @@ The atlas is not complete — 12 domains is a beginning, not an end. The frontie
 **Use of Artificial Intelligence:** This paper was drafted with assistance from large language models (DeepSeek-V4) for cross-domain synthesis, text generation, structure, and copyediting. All substantive analysis, domain knowledge, and conclusions are the author's.
 
 ---
-
-## Version History
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| v0.1 | 2026-07-31 | Initial draft: 12-domain cross-domain lexicon, domain-by-domain analysis with mini-forecasts and mini-backcasts, synthesis consilience, frontier questions |

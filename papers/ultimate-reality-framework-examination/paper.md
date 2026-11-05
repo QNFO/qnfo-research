@@ -2,6 +2,10 @@
 
 *Version 3.1.1*
 
+## Abstract
+
+The Ultimate Reality Framework Examination (URFE) is a rigorous protocol designed to assess the comprehensiveness, consistency, and explanatory power of theoretical frameworks that purport to describe the fundamental nature of reality. It serves as an “ultimate intellectual stress test,” demanding that candidate theories confront not only the known unknowns within physics and cosmology but also the profound mysteries surrounding existence, consciousness, information, and knowledge itself.
+
 ## 1. Preamble: Defining the Challenge
 
 The Ultimate Reality Framework Examination (URFE) is a rigorous
