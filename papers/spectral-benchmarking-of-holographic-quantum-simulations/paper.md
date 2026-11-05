@@ -1,13 +1,8 @@
 # Spectral Benchmarking of Holographic Quantum Simulations
 
-## A Proposed Framework for Escaping the Artifact Zone
+*A Proposed Framework for Escaping the Artifact Zone*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/spectral-benchmarking-of-holographic-quantum-simulations/ **Date:**
-2026-01-21 **Version:** 1.0 ##
-**Abstract**
+## Abstract
 
 The simulation of quantum gravity on near-term quantum processors is
 hindered by a critical tension between hardware feasibility and physical

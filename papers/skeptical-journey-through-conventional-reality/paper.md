@@ -1,9 +1,11 @@
 # A Skeptical Journey Through Conventional Reality
 
+## Abstract
+
+Journey Through Conventional Reality **Questioning the Foundations Beneath Our Scientific Stories** *Rowan Brad Quni* We live immersed in narratives woven by science–tales of fundamental particles, computational minds, and infinite cosmic possibilities. These stories are powerful, shaping our understanding of existence. Yet, a persistent, nagging skepticism, one grounded not in denial but in the rigorous application of logic and a hard look at the evidence, suggests these narratives might be incomplete, perhaps even fundamentally flawed. When we pull at the threads of conventional wisdom, the grand tapestry often reveals inconsistencies, unaddressed paradoxes, and a reliance on assumptions that crumble under scrutiny. Could it be that the reality we inhabit is structured differently than our standard models suggest, perhaps organized around principles, like information, that remain largely unincorporated into the mainstream view? **The Physicist’s Compass: Methodological Habits and the Allure of Elegance** The pathfinding tools of fundamental physics often include guiding principles like the pursuit of unification, a preference for simplicity, and an assumption of naturalness. [...]
+
 **Questioning the Foundations Beneath Our Scientific
 Stories**
-
-*Rowan Brad Quni*
 
 We live immersed in narratives woven by science–tales of fundamental
 particles, computational minds, and infinite cosmic possibilities. These

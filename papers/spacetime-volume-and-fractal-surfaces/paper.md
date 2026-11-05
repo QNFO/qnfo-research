@@ -1,12 +1,10 @@
 # Spacetime Volume and Fractal Surfaces
 
-## A Theoretical Framework for Holographic Optimization Constraints in Quantum Circuits and Biological Branching Networks
+*A Theoretical Framework for Holographic Optimization Constraints in Quantum Circuits and Biological Branching Networks*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/spacetime-volume-and-fractal-surfaces/ **Date:**
-2026-01-20 **Version:** 1.0 |
+## Abstract
+
+The optimization of complex systems is traditionally bifurcated into distinct frameworks: quantum information theory, which prioritizes the minimization of spacetime volume (circuit complexity), and biophysics, which has historically focused on volume-filling metabolic scaling (WBE model). This study proposes a theoretical framework identifying a structural duality between these domains, suggesting that the minimization of surface area in biological branching networks is holographically dual to the minimization of spacetime volume in quantum circuits. Drawing on the Nambu-Goto action from string theory and the complexity-action conjecture, we define a cross-domain variable dictionary mapping biological branching complexity to quantum circuit width. |
 
 ## Abstract |
 

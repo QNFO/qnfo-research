@@ -1,14 +1,10 @@
 # Spectral Analysis of Anomalous Diffusion on p-Adic Fractals
 
-## Reconciling Riemannian Geometry with Discrete Arithmetic via Geometric Resonances
+*Reconciling Riemannian Geometry with Discrete Arithmetic via Geometric Resonances*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/spectral-analysis-of-anomalous-diffusion-on-p-adic-fractals/ **Date:**
-2026-02-11 **Version:** 1.0
+## Abstract
 
-**Abstract**: The reconcilement of continuous Riemannian
+The reconcilement of continuous Riemannian
 geometry with the discrete arithmetic of the integers remains one of the
 most profound challenges in mathematical physics, particularly regarding
 the spectral interpretation of the Riemann zeros (Berry & Keating,
@@ -38,10 +34,6 @@ ultrametricity is insufficient to capture the “Arithmetic Chaos” without
 broken symmetry. These findings support the “Geometric Factorization”
 hypothesis only insofar as they identify the deep topological
 entanglements—the “knots”—that a geometric unfolding must resolve.
-
-**Keywords**: p-adic numbers, anomalous diffusion,
-spectral dimension, Riemann hypothesis, Bruhat-Tits tree, geometric
-factorization, quantum chaos
 
 ## 1.0 Introduction
 
