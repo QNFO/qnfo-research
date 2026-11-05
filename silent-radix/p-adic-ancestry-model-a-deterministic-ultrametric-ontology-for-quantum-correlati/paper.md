@@ -35,8 +35,6 @@ A deterministic, single‑branch explanation would remove the need for super‑l
 
 * **p‑Adic quantum mechanics.** Complex‑valued wavefunctions on $\mathbb{Q}_p^D$ admit a Hilbert‑space formulation, allowing the definition of observables and unitary evolution in a non‑Archimedean setting [5]. This supplies the necessary quantum‑mechanical backdrop for hidden‑variable dynamics.
 
-
-
 * **p‑Adic light‑cone geometry.** The $p$‑adic square‑root function defines a light‑cone analogue in ultrametric space, providing a geometric picture of causal propagation on the tree [7].
 
 * **Ostrowski’s theorem and quantum numbers.** The theorem classifies completions of $\mathbb{Q}$ as $\mathbb{R}$ and $\mathbb{Q}_p$ for each prime $p$, and the QNFO framework maps $\mathbb{Q}_3$ to a discrete internal degree of freedom relevant for Bell‑type experiments [8]. This mapping justifies the identification of $p=3$ with the discrete internal degree of freedom used in the present model.
@@ -179,10 +177,6 @@ If $S_{\text{exp}}$ deviates from any value $2\sqrt2\,(1-3^{-L})$ for integer $L
 ### 7.6 Risks and Misuse If the model were mistakenly taken as evidence that Bell violations are *not* a resource for device‑independent security, insecure protocols could be deployed. Therefore, any engineering adoption must be accompanied by rigorous experimental validation.
 
 ## 8. Conclusion We have presented a deterministic, single‑branch ontology for quantum correlations based on the ultrametric structure of a $p$‑adic tree. By fixing the prime to $p=3$—the unique value yielding a phase transition in the $p$‑adic Potts model—and analyzing the correlation function on a finite‑depth tree, we derived an explicit CHSH expression that approaches the Tsirelson bound. The model is firmly rooted in established $p$‑adic mathematics, including regulator formulas [1], Iwasawa‑type $p$‑adic Stark regulators [3], and the mapping of $p$‑adic completions to discrete quantum numbers via Ostrowski’s theorem [8]. While the result currently resides at TRL 1–2, it offers a concrete, falsifiable prediction that can be tested with existing quantum‑optics technology. Confirmation would provide a locally deterministic explanation for Bell‑inequality violations, reshaping foundational interpretations and influencing the design of quantum information systems. Conversely, experimental falsification would reinforce the standard non‑local view and delineate the limits of ultrametric hidden‑variable approaches.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 

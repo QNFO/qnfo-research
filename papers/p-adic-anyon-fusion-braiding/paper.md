@@ -1,7 +1,3 @@
----
-keywords: "quantum groups at roots of unity, p-adic anyons, Verma modules, fusion rules, p-adic braiding, restricted quantum group, ultrametric modular tensor category, p-adic Fibonacci anyons, Bruhat-Tits building, non-archimedean topological order"
----
-
 # p-Adic Anyon Fusion and Braiding: Quantum Groups at Roots of Unity, Verma Modules, and Ultrametric Anyon Models
 
 ## Abstract
