@@ -1,15 +1,12 @@
 # Not Even Wrong
 
-## The “Not Even Wrong” Paradigm of String Theory
+*The “Not Even Wrong” Paradigm of String Theory*
+
+## Abstract
+
+This document presents a rigorous, multi-faceted mathematical deconstruction of String Theory’s claim to be a physical theory of nature. Quantitative metrics are systematically derived for its empirical vacuum, unfalsifiability, and information-theoretic cost, while acknowledging its significant mathematical contributions. Utilizing predicate logic, a historically-grounded Bayesian prior, chi-squared hypothesis testing, an executed bibliometric analysis, Shannon entropy, and constrained optimization, each critique is transformed into a robust quantitative verdict. The analysis demonstrates that while String Theory possesses profound mathematical value, its framework is inherently unfalsifiable, its natural phenomenological realizations are empirically challenged by recent LHC data, its academic prominence is disproportionately driven by institutional factors, and its predictive power is crippled by an information-theoretic deficit in vacuum selection. A formal cost-benefit analysis justifies the strategic reallocation of research funding to empirically-connected alternatives, providing a definitive, quantitative verdict on the “Not Even Wrong” paradigm.
 
 **A Formal Mathematical Deconstruction**
-
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact Information:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI**:
-https://papers.qnfo.org/papers/not-even-wrong/ **Publication Date:** 2025-09-21
-**Version**: 1.0
 
 This document presents a rigorous, multi-faceted mathematical
 deconstruction of String Theory’s claim to be a physical theory of

@@ -1,14 +1,10 @@
 # Non-Markovian Hamiltonian Dynamics of Boson-Mediated Energy Transfer
 
-## Addressing the Warm Quantum Paradox in Photosynthetic Complexes
+*Addressing the Warm Quantum Paradox in Photosynthetic Complexes*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/non-markovian-hamiltonian-dynamics-of-boson-mediated-energy-transfer/ **Date:**
-2026-01-27 **Version:** 1.0
+## Abstract
 
-**Abstract**: Photosynthetic light-harvesting complexes
+Photosynthetic light-harvesting complexes
 exhibit near-unity quantum efficiency at physiological temperatures, a
 phenomenon that defies classical thermodynamic expectations and
 challenges standard quantum decoherence models. This “warm quantum”
@@ -28,10 +24,6 @@ matter physics, demonstrating via thermodynamic stability analysis that
 while driven bosonic fields can enhance pairing potentials in synthetic
 materials, Joule heating imposes a strict “Goldilocks” operational
 window for photon-induced superconductivity.
-
-**Keywords:** Quantum Biology, Photosynthesis, Open
-Quantum Systems, Non-Markovian Dynamics, Phonon Antenna,
-Superconductivity, Environment-Assisted Quantum Transport (ENAQT)
 
 ## 1.0 Introduction
 
@@ -999,7 +991,6 @@ dt pass # Placeholder for full propagation |
 avg_eff += sink_accum efficiencies.append(avg_eff / trajectories)
 return efficiencies
 ```
-
 
 ### Appendix C: Data Tables
 

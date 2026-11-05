@@ -277,16 +277,6 @@ The tower of number systems can be read as a sequence of enclosure operations ap
 
 The framework's honest boundary is as important as its results. The recovery claims for strata 4, 5, and 7 remain conjectural; $\Lambda$ and $\Delta$ count states but not structure; the finite adele-type product omits the real factor and the restricted-product topology; and the counts rest on definitions of distinguishable state that an alternative definition could shift by an additive constant or destroy linearity altogether. The next step is the minimal computational experiment of Section 7: recompute $N_{6}(n)$ and $N_{4}(\varepsilon)$ under alternative state-count definitions and check whether the linear law survives. If it does, the choice of number system acquires the measurable criterion this paper set out to supply; if it does not, the negative result sharpens the question in the same way the published version's own limitations sharpened this revision [10].
 
-## Version History
-
-- Version 2.0.0 (2026-10-20, from 1.0.0): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 12 -> 11. length 4465 -> 3640 words.
-- Version 2.1.0 (2026-10-20, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 11 -> 11. length 3688 -> 3932 words.
-- Version 2.2.0 (2026-10-20, from 2.1.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 11 -> 14. length 4004 -> 4026 words.
-- Version 2.3.0 (2026-10-20, from 2.2.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 14 -> 11. length 4129 -> 4099 words.
-- Version 2.4.0 (2026-10-21, from 2.3.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 11 -> 10. length 4235 -> 3949 words.
-- Version 3.0.0 (2026-10-31, from 2.4.0): REWRITE: rewritten in full through the research pipeline. references 10 -> 7. length 3949 -> 5275 words.
-- Version 3.1.0 (2026-11-04, from 3.0.0): revised against the current literature, re-reviewed and re-verified. references 7 -> 13. length 5458 -> 6280 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.45.4). Language models were tools in that process; they are not authors. The named author is accountable for the content.

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/non-markovian-hamiltonian-dynamics-of-boson-mediated-energy-transfer"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 54521,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "a46a99888f77a49bcc343d494a9b0524272248e9c667d713aa6af7b38c5f75b4",
+      "bytes": 54062,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }
