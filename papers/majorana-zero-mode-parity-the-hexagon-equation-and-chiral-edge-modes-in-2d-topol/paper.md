@@ -381,10 +381,6 @@ corresponding to $c=1/2$. Observation of $\kappa_{xy}=0$ (within experimental un
 
 ## 10. Conclusion We have demonstrated that the algebra of Majorana zero‑mode parity operators fixes only the relative phase between the two fusion channels of Ising anyons, leaving an overall Abelian phase undetermined. By enforcing the hexagon equation of the Ising modular tensor category, we uniquely determine this phase, obtain the standard topological spin $\theta_\sigma=e^{i\pi/8}$, and, via the Gauss–Milgram sum, infer a chiral central charge $c=1/2\pmod{8}$. Consequently, a bulk chiral Majorana edge mode is a necessary condition for realizing intrinsic Ising anyons in two‑dimensional topological superconductors. Non‑chiral superconductors cannot satisfy the full set of modular constraints, and their vortices either behave as extrinsic defects or exhibit only Abelian statistics. Our results clarify the precise topological data required for engineering fault‑tolerant Majorana‑based qubits and delineate the experimental signatures that must be verified before such devices can be deployed.
 
-## Version History
-
-- Version 1.1.0 (2026-10-19, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Background and Related Work; Methods; Practical Implications and Engineering Pathways; Practical Implications and Engineering Pathways; Provenance and AI Involvement; Appendix A. Divergence report. sections folded or removed: Background. references 3 -> 10. length 2043 -> 4410 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.27.4-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
@@ -406,18 +402,3 @@ corresponding to $c=1/2$. Observation of $\kappa_{xy}=0$ (within experimental un
 [8] Observability of surface currents in p-wave superconductors. arXiv:1701.04458v1. https://arxiv.org/abs/1701.04458v1
 [10] https://papers.qnfo.org/papers/braid-group-representations-modular-data-and-the-classification-of-majorana-zero. QNFO: Braid Group Representations, Modular Data, and the Classification of Majorana Zero Mode Fusion Rules in 2D Topological Superconductors.
 [11] https://papers.qnfo.org/papers/braid-group-representations-modular-data-and-the-classification-of-majo-5099abb8. QNFO: Braid Group Representations, Modular Data, and the Classification of Majorana Zero Mode Fusion Rules in 2D Topological Superconductors.
-
-## Appendix A. Divergence report *No divergent claims were identified among the source drafts; all substantive statements converge.*
-
-## Appendix B. Claim attribution
-| Claim ID | Statement | Source Draft(s) | Agreement |
-|----------|-----------|-----------------|-----------|
-| C1 | MZM parity fixes relative phase $i$ but leaves overall phase $e^{i\alpha}$ undetermined. | A, B | Convergent |
-| C2 | Hexagon equation forces $\alpha=-\pi/8$, yielding $R^{\sigma\sigma}_1=e^{-i\pi/8}$, $R^{\sigma\sigma}_\psi=e^{3i\pi/8}$, $\theta_\sigma=e^{i\pi/8}$. | A, B | Convergent |
-| C3 | Gauss–Milgram sum gives $c=1/2\pmod{8}$ for $\theta_\sigma=e^{i\pi/8}$. | A, B | Convergent |
-| C4 | Non‑chiral $c=0$ forces $\theta_\sigma=1$, incompatible with hexagon equation. | A, B | Convergent |
-| C5 | Braiding protocol via magnetic‑field rotation in a SOTS device (Ref. [1]). | A, B | Convergent |
-| C6 | Intervortex tunneling splits Majorana degeneracy with exponential‑oscillatory dependence (Ref. [2]). | A, B | Convergent |
-| C7 | Josephson‑vortex Majorana mode described by soliton solution $\phi_s(x)=4\arctan[e^{(x-x_0)/\lambda_J}]$ (Ref. [3]). | A, B | Convergent |
-| C8 | Thermal Hall conductance quantization $\kappa_{xy}=\frac{\pi^2k_B^2}{12h}$ for $c=1/2$ (derived in Section 7). | This paper | Single |
-| … | … | … | … |

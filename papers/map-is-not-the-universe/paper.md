@@ -1,13 +1,8 @@
 # Math is NOT the Universe
 
-## A Map is Not the Universe: Understanding the Manifold, from Fractal Geometry to Deterministic Reality
+*A Map is Not the Universe: Understanding the Manifold, from Fractal Geometry to Deterministic Reality*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers **Version**: 1.0
-**Date**: 2025-09-11 ### Abstract
+## Abstract
 
 This report re-evaluates our Euclidean understanding of reality,
 showing its inadequacy for modern physics. It traces the shift from
