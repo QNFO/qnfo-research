@@ -168,34 +168,6 @@ All numbers below are computed in Section 4 from the stated inputs ($p = 10^{-3}
 
 We reconciled three independent analyses of discrete-time quantum error correction for quantum metrology with CSS codes into a single arithmetic-transparent treatment. Under a stated convention of independent per-qubit errors with probability $p = 10^{-3}$ per correction cycle of duration $\Delta t = 1\,\mu\mathrm{s}$, the $[[7,1,3]]$ Steane code yields a per-cycle logical failure probability $P_{\mathrm{fail}} \approx 2.09 \times 10^{-5}$ and an interrogation window $T_{\max} \approx 23.9\,\mathrm{ms}$ at failure budget $\varepsilon = 0.5$; the $[[9,1,3]]$ Shor code yields $P_{\mathrm{fail}} \approx 3.58 \times 10^{-5}$ and $T_{\max} \approx 14.0\,\mathrm{ms}$. At these parameters the Heisenberg-to-SQL crossover time $T_{\mathrm{cross}} = 1/7\,\mathrm{s} \approx 0.143\,\mathrm{s}$ lies outside the protected window, while reducing $p$ to $10^{-4}$ extends the window to $\approx 2.38\,\mathrm{s}$ and places the crossover comfortably inside — a sensitivity result that identifies physical error rate, not correction period, as the binding constraint under this model. A channel-composition argument shows that recovery applied only after sensing cannot outperform the uncorrected protocol, consistent with the qualitative claim of [2]. All convention choices, one corrected arithmetic slip in a source draft, and the full claim-attribution record are documented in Appendices A and B, so that any reader can re-derive every number from the stated inputs alone.
 
-## Appendix A. Divergence report
-
-The three source drafts (A, B, C) diverged on the following points. Each divergence is stated with both sides and the convention adopted in the main text.
-
-**D1. Error model and figure of merit.** Drafts A and B modeled independent per-qubit Pauli errors with probability $p$ per correction cycle and reported per-cycle logical failure probabilities and interrogation windows; draft C instead reported a continuous-time decoherence rate and a QFI-decay constant. *Convention adopted:* the discrete-time independent-error model (A/B), because it matches the discrete-time correction protocol of [2] and yields hardware-translatable quantities. Draft C's continuous-time picture is recoverable from ours in the limit $\Delta t \to 0$ at fixed $p/\Delta t$.
-
-**D2. Steane failure probability.** Drafts A and B converged on $P_{\mathrm{fail}}^{(\mathrm{Steane})} \approx 2.09 \times 10^{-5}$ at $p = 10^{-3}$; draft C reported the same leading term. *Status:* CONVERGENT, adopted.
-
-**D3. Shor failure probability.** Drafts A and B reported $P_{\mathrm{fail}}^{(\mathrm{Shor})} \approx 3.58 \times 10^{-5}$; draft C reported $3.66 \times 10^{-5}$. *Resolution:* draft C's value contains an addition slip — its own components sum to $3.5749 \times 10^{-5} + 0.0835 \times 10^{-5} = 3.583 \times 10^{-5}$, not $3.658 \times 10^{-5}$. The main text uses $3.58 \times 10^{-5}$ (the corrected sum), and the slip is recorded here rather than silently discarded.
-
-**D4. Window definition.** Draft A defined $T_{\max}$ via expected number of failures $\le \varepsilon$; draft B via cumulative failure probability $\le \varepsilon$; draft C via QFI retention $\ge 1 - \varepsilon$. For small $\varepsilon$ these coincide to leading order: with independent per-cycle failures, the cumulative probability is $1 - e^{-\varepsilon} \approx \varepsilon$ and the QFI retention is $e^{-\varepsilon}$. *Convention adopted:* draft A's definition, with the exact cumulative value $1 - e^{-0.5} \approx 0.393$ and retention $e^{-0.5} = 0.6065$ reported as consistency checks (Section 4.4).
-
-**D5. Crossover convention.** Drafts A and C compared against the ideal SQL $\Delta\omega_{\mathrm{SQL}} = 1/\sqrt{NT}$; draft B used a resource-counted SQL with a factor-of-2 prefactor. *Convention adopted:* the ideal comparison (A/C), with the caveat that finite-$N$ constants are ignored (Section 6, limitation 5). Under draft B's convention $T_{\mathrm{cross}}$ would shift by a factor of order unity, not changing the qualitative conclusion at $p = 10^{-3}$.
-
-## Appendix B. Claim attribution
-
-| Claim | Statement | Drafts | Status |
-|---|---|---|---|
-| C1 | HNLS condition governs achievability of Heisenberg scaling | A, B, C | CONVERGENT |
-| C2 | Discrete-time CSS correction preserves Heisenberg-like scaling over a finite window | A, B, C | CONVERGENT |
-| C3 | Post-hoc recovery gives no metrological advantage | A, B, C | CONVERGENT |
-| C4 | $P_{\mathrm{fail}}^{(\mathrm{Steane})} \approx 2.09 \times 10^{-5}$ at $p = 10^{-3}$ | A, B, C | CONVERGENT |
-| C5 | $P_{\mathrm{fail}}^{(\mathrm{Shor})} \approx 3.58 \times 10^{-5}$ at $p = 10^{-3}$ | A, B ($3.58$) vs C ($3.66$, arithmetic slip) | DIVERGENT — resolved to $3.58 \times 10^{-5}$ (D3) |
-| C6 | Window definition via expected failures $\le \varepsilon$ | A vs B vs C | DIVERGENT — resolved to A's definition (D4) |
-| C7 | Crossover outside window at $p = 10^{-3}$, inside at $p = 10^{-4}$ | A, B | CONVERGENT (C silent) |
-| C8 | QFI retention $\approx 60.7\%$ at window edge (projection) | A, B | CONVERGENT, labeled projection |
-| C9 | Continuous-time decoherence-rate framing | C only | SINGLE — not adopted (D1) |
-
 ## References
 
 [1] TITLE: arXiv Query: search_query=&amp;id_list=2609.40022&amp;start=0&amp;max_results=1

@@ -258,36 +258,3 @@ We have argued that exponential quantum decoherence follows from a single struct
 [10] https://papers.qnfo.org/papers/relaxation-equation-mechanism/. QNFO: A Pre-Registered Falsification of Deterministic Measurement-Triggered Relaxation.
 [11] https://papers.qnfo.org/papers/converging-reality/. QNFO: Monistic Reality.
 [12] https://papers.qnfo.org/papers/lifecycle-of-a-fault-tolerant-quantum-computer/. QNFO: Lifecycle of a Fault-Tolerant Quantum Computer.
-
-## Appendix A. Divergence report
-
-The independent drafts A, B, and C diverged on the following points; in each case the main text adopts one convention, documented here.
-
-- **D1 (Zeno crossover convention).** Draft A stated the crossover as an exact equality $t_{\mathrm{Z}}=\tau_B$; Draft B stated it as an order-of-magnitude relation $t_{\mathrm{Z}}\sim\tau_B$, arguing that the short-time expansion $1-\Gamma_k t^2/\tau_B$ is itself approximate. Adopted: the exact equality $t_{\mathrm{Z}}=\tau_B$ as derived in Section 3.4, with the qualitative statement that the linear regime dominates for $t\gtrsim\tau_B$ retained in the text.
-- **D2 (identifier spelling).** Draft A transcribed the program identifier as "QFNO"; Drafts B and C used "QNFO", matching the bibliography identifiers (e.g., "QNFO: Alpha Pi Project | https://papers.qnfo.org/papers/alpha-pi-project/"). Adopted: "QNFO", per the bibliography.
-- **D3 (threshold projection).** Draft A presented the fault-tolerance threshold projection $p_{\mathrm{th}}\sim10^{-4}$ as a headline result; Draft B objected that the threshold value is folklore, not derived or measured. Adopted: the projection appears only as an explicitly labeled projection with stated assumptions and an inherited order-of-magnitude uncertainty (Section 4.6, Step 5; Results, labeled projection).
-- **D4 (circuit failure formula).** Draft A used the exact binomial $P_{\mathrm{fail}}=1-(1-p)^G$; Draft B used only the exponential approximation $1-e^{-Gp}$. Adopted: the exponential form with the third-order expansion shown explicitly in Section 4.6, noting the exact binomial equivalence in Section 3.5.
-- **D5 (macroscopic mode count).** Draft A used $N_3=10^{23}$ modes for a macroscopic object (Avogadro-scale counting); Draft C argued that environmental correlations reduce the effective count to $N_{\mathrm{eff}}\sim10^{18}$. Adopted: $N_3=10^{23}$ as the stated assumption A4, with the caveat that the linear law applies to $N_{\mathrm{eff}}$ when modes are correlated (Section 6, Limitations).
-
-## Appendix B. Claim attribution
-
-| Claim | Statement | Drafts | Status |
-|---|---|---|---|
-| C1 | Exponential decay law $C(t)=\exp(-\Gamma_{\mathrm{kick}}\sigma_\phi^2 t/2)$ from variance additivity | A, B, C | CONVERGENT |
-| C2 | Worked example: $T_2=200\,\mathrm{s}$ for $\sigma_\phi=10^{-3}\,\mathrm{rad}$, $\Gamma_{\mathrm{kick}}=10^{4}\,\mathrm{s^{-1}}$ | A, B | CONVERGENT |
-| C3 | Zeno crossover at $t_{\mathrm{Z}}=\tau_B$ | A, B | CONVERGENT (value); DIVERGENT (exact vs. order-of-magnitude, resolved as D1) |
-| C4 | $1/N$ scaling of $T_2$ with discriminating ratio $T_2^{(1)}/T_2^{(2)}=10^4$ | A, B, C | CONVERGENT |
-| C5 | Macroscopic mode count $N_3=10^{23}$ | A vs. C | DIVERGENT (resolved as D5: adopted $N_3=10^{23}$ as assumption A4, with the $N_{\mathrm{eff}}$ caveat in Section 6) |
-| C6 | Rate scaling: $T_2$ inversely proportional to $\Gamma_{\mathrm{kick}}$ ($200\,\mathrm{s}$ to $2000\,\mathrm{s}$ for a tenfold reduction) | A, B, C | CONVERGENT |
-| C7 | Systematic-error penalty: correlated kicks degrade coherence $2000\times$ faster ($t_{\mathrm{sys}}=0.1\,\mathrm{s}$ vs. $200\,\mathrm{s}$) | A, B | CONVERGENT |
-| C8 | Circuit failure $P_{\mathrm{fail}}\approx9.995\times10^{-5}$ for $G=10^6$, $p=10^{-10}$; $P_{\mathrm{fail}}\approx0.99995$ for $p=10^{-5}$ | A, B | CONVERGENT (formula); DIVERGENT (exact binomial vs. exponential, resolved as D4) |
-| C9 | Threshold projection $\sigma_\phi\lesssim1.41\times10^{-2}\,\mathrm{rad}$ for $p_{\mathrm{th}}\sim10^{-4}$ | A, B | DIVERGENT (headline result vs. folklore objection, resolved as D3: retained only as an explicitly labeled projection) |
-| C10 | Falsification criteria tied to the pre-registered program of [10] | A, B, C | CONVERGENT |olved as D5) |
-| C6 | Systematic-error penalty factor $2000$ ($t_{\mathrm{sys}}=0.1\,\mathrm{s}$ vs. $200\,\mathrm{s}$) | A, B | CONVERGENT |
-| C7 | Circuit failure $P_{\mathrm{fail}}\approx9.995\times10^{-5}$ ($G=10^6$, $p=10^{-10}$) and $\approx0.99995$ ($p=10^{-5}$) | A, B | CONVERGENT (numbers); DIVERGENT (formula convention, resolved as D4) |
-| C8 | Threshold projection $p_{\mathrm{th}}\sim10^{-4}$, $\sigma_\phi\lesssim1.41\times10^{-2}\,\mathrm{rad}$ (labeled projection, not derived) | A vs. B | DIVERGENT (headline result vs. folklore assumption, resolved as D3) |
-| C9 | Zeno-to-operational timescale ratio $t_{\mathrm{cycle}}/t_{\mathrm{Z}}=2.5\times10^{7}$ for a $40\,\mathrm{MHz}$ cycle and $\tau_B=10^{-15}\,\mathrm{s}$ | A, B, C | CONVERGENT |
-| C10 | Falsification criteria: size threshold beyond $1/N$ prediction, super-inverse rate scaling, experimentally accessible Zeno window, sublinear $N$-dependence in a deterministic-trigger mechanism [10] | A, B, C | CONVERGENT |
-| C11 | Bibliography is adjacent-field, not decoherence literature; limitation flagged in Section 6 | A, B, C | CONVERGENT |thrm{rad}$ | A vs. B | DIVERGENT (resolved as D3) |
-| C9 | Program identifier spelling QNFO vs. QFNO | A vs. B, C | DIVERGENT (resolved as D2) |
-| C10 | Falsification criteria (a)–(d) of Section 6 | A, B, C | CONVERGENT |
