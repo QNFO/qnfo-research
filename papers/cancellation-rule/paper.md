@@ -1,11 +1,8 @@
----
-author: "QNFO Research"
-doi: "https://papers.qnfo.org/papers/cancellation-rule/"
-status: "v1.0 — published"
-date: "2026-07-21"
----
-
 # The Ontology of Boundary-Crossing: Spencer-Brown Cancellation Rule Defended
+
+## Abstract
+
+Systematic defense of Spencer-Brown Cancellation rule: establishes structural isomorphism with quantum measurement collapse via three-outcome dynamics (Varela 1975, corroborated by 29-schisms numerical search 2026). 4-level M-property justification framework. Boson-fermion observer analysis. 14 pages, 7 sections.
 
 ## §0. Abstract
 
@@ -184,7 +181,6 @@ The question is not whether the M-property is "true" — interpreted systems alw
 | The M-property is structurally supported | Supported by crosswalk (CW5) | Three-outcome structural isomorphism, not logical identity |
 
 ---
-
 
 > **Methodological note (§§4.3, 5.2):** The boson-fermion observer analysis is presented as a structural analogy — a recognition that the observer's knowledge (fermionic: occupies one position) and the DIST function's computation (bosonic: requires global knowledge) share the same formal exclusion property. This is NOT a claim that observer knowledge IS governed by quantum statistics. Formalization of this analogy as a mathematical theorem remains an open problem.
 

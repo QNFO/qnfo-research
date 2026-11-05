@@ -223,10 +223,6 @@ If any of these assumptions fail, the derived dimension $D$, inner‑tube volume
 
 ## 8. Conclusion We have presented a concrete mathematical construction in which a $p$‑adic branching fractal replaces the continuous Minkowski manifold and Hamiltonian time evolution. By solving a Wheeler–DeWitt equation on a $p$‑adic tree, we obtained explicit branching solutions, computed the Minkowski dimension of the 3‑adic Cantor string, derived inner‑tube volumes, and obtained exact moments of the $p$‑adic norm. Coarse‑graining yields an effective Schrödinger equation, demonstrating that standard quantum dynamics can emerge from a timeless ultrametric substrate. The framework makes falsifiable predictions amenable to ultrafast optical experiments, offering a clear pathway for empirical assessment. If validated, this approach would reorient the search for quantum‑gravity unification toward non‑Archimedean geometry and branching causal structures.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

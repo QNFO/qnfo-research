@@ -1,5 +1,9 @@
 # Care Is Stronger
 
+## Abstract
+
+Disagreement functions as an inevitable component of human relationships. Political ideology, moral values, and personal life choices frequently create divisions between individuals. This document examines the psychological processes that transform simple disagreement into relational rupture. It further presents a framework of skills derived from empirical research. These skills enable the maintenance of interpersonal care despite profound differences. Our capacity for connection need not be hostage to our need for consensus. The subsequent chapters provide a factual map for navigating that precise terrain.
+
 ## The Psychology of Staying Connected When You Disagree
 
 ## Introduction: The Choice Beneath the Conflict
