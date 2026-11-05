@@ -1,16 +1,10 @@
 # Monna Map Generation and Hallucination
 
-## A Geometric Theory of Communication and Information Loss in Ultrametric Cognition
+*A Geometric Theory of Communication and Information Loss in Ultrametric Cognition*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/monna-map-generation-and-hallucination/
-**Date:** 2026-04-09 **Version:** 1.0
+Every thought you have—a memory, a plan, a sudden insight—arrives not as a neat list of words but as a living structure. It is a branching hierarchy of concepts, where broad categories contain finer details, and relationships are defined by containment and connection rather than sequence. This mental architecture is not merely a metaphor; it has a precise mathematical counterpart known as an ultrametric tree. In such a tree, distance is measured not by ordinary steps but by how deep you must climb to find a common ancestor. Your brain, and the artificial neural networks of modern large language models, naturally organize knowledge this way. Thought, in its deepest geometric essence, is ultrametric.
 
 *Communication is a Monna projection from an ultrametric tree of
 thought onto a linear timeline. Hallucinations are the inevitable

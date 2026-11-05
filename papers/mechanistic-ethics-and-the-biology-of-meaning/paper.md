@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/mechanistic-ethics-and-the-biology-of-meaning/"
-date: "2026-03-04"
-version: "1.0"
----
-
 # Mechanistic-Ethics
 
 ## Chapter 1: The Physics and Biology of Determinism |

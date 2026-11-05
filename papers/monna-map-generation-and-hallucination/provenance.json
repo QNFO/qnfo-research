@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/monna-map-generation-and-hallucination"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 17690,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "94c52d29f04f78833cb5a82ced319a19a716bf9bc3388b5cf0c11937ecb1ccae",
+      "bytes": 18048,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

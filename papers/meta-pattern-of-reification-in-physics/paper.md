@@ -1,14 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "[0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](http://isni.org/isni/0000000526456062)"
-doi: "https://papers.qnfo.org/papers/meta-pattern-of-reification-in-physics/"
-date: "2026-04-16"
-version: "1.0"
----
-
 # Meta-Pattern of Reification in Physics
+
+## Abstract
+
+The practice of physics, like all scientific inquiry, operates through a delicate interplay between the observable world and the conceptual frameworks we construct to understand it. At the heart of this interplay lies a persistent cognitive trap: the tendency to mistake our mathematical models, theoretical constructs, and epistemic labels for mind-independent physical realities. This systematic error—reification—represents a meta-pattern that has shaped the development of physics across centuries, often leading to conceptual stagnation, paradox proliferation, and misallocation of intellectual resources. This chapter defines reification in the specific context of scientific practice, traces its standard sequence, examines the crucial distinction between mathematical scaffolding and physical reality, analyzes the misuse of epistemic labels, explores the psychological and philosophical roots of noun-based thinking, and introduces Spencer-Brown’s calculus of distinction as a foundational alternative. [...]
 
 # Chapter 1: Defining the Meta-Pattern – From Mathematical Tools to Physical Things
 
