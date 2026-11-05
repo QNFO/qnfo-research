@@ -195,8 +195,6 @@ The experiment would measure actual retrieval time (comparisons and wall‑clock
 * **Version‑control DAG management** – Fork/merge policies must preserve the DAG invariant and avoid cycles.  
 * **Storage growth** – The append‑only spine leads to monotonic storage increase; periodic pruning or snapshotting strategies are needed but not derived here (open question).
 
-
-
 These projections rely on the assumptions listed in Section 3 (A1–A5) and the arithmetic of Section 4.
 
 ### 7.6 Risks and Misuse Paths If the hash chain is not periodically audited, an attacker could insert a malicious commit whose hash collides with a legitimate one; however, the birthday probability $4.3\times10^{-60}$ makes such an event practically impossible. Misuse could arise if forks are ignored, leading to silent overwrites of critical provenance information; strict policy enforcement and audit tooling are required to mitigate this risk.

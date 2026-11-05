@@ -279,8 +279,6 @@ The BRAIN and CLOVER experiments described in \([2]\) implement a physical inter
 1. **Differential Measurement** – By measuring Fourier modes directly, the experiments remove large‑scale background, analogous to thalamic gating removing high‑frequency noise.
 2. **Bandwidth Limitation** – The interferometer samples a limited set of baselines, effectively reducing the information bandwidth, just as the neural filter reduces \(B\).
 
-
-
 Similarly, the vectorial velocity filter for ultracold neutrons \([5]\) exploits a mixed phase‑space to pass only selected velocity components. The mathematical description of that filter involves a projection operator that retains a subspace of the full velocity distribution. This is directly analogous to the linear operator \(F\) that projects the informational substrate onto the subspace spanned by the leading eigenvectors. 
 
 ### 7. Limiting Cases and Theoretical Extensions  
@@ -383,13 +381,3 @@ The experiment would falsify the model if the observed $C_{1}$ does **not** decr
 [10] https://papers.qnfo.org/papers/simulated-stability-and-the-superdeterministic-quantum-machine. QNFO: Simulated Stability and the Superdeterministic Quantum Machine.
 [11] https://papers.qnfo.org/papers/clockwork-cosmos. QNFO: Clockwork Cosmos.
 [12] https://papers.qnfo.org/papers/stability. QNFO: Stability Compiler.
-
-## Appendix A. Divergence report *No divergent claims were identified among the source drafts; all substantive statements converged.* 
-
-## Appendix B. Claim attribution
-| Claim ID | Source Draft(s) | Agreement |
-|----------|----------------|-----------|
-| C1 | A, B | Convergent |
-| C2 | A, B | Convergent |
-| C3 | A, B | Convergent |
-| C4 | A, B | Convergent |

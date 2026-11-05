@@ -178,10 +178,6 @@ A study would re‑run the review of this manuscript and record the output in th
 {"review_id": "re-run-001", "status": "parseable", "verdict": "accept_with_minor_revisions", "scores": {"novelty": 3, "soundness": 4, "clarity": 4, "significance": 3}, "strengths": ["explicit hand-checkable Ising modular-data derivation (§4.1–4.2)", "clear statement of assumptions and falsification criteria (R5, §6)"], "weaknesses": ["gauged-descendant enumeration incomplete (§4.4 Step 3)", "no general determinacy theorem beyond Ising"], "required_fixes": [], "recommendation": "publish"}
 ```
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## References
 
 [1] On Metaplectic Modular Categories and their applications. arXiv:1303.1202v2. https://arxiv.org/abs/1303.1202v2
