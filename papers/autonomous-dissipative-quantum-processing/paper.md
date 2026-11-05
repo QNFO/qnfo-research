@@ -1,15 +1,10 @@
 # Autonomous Dissipative Quantum Processing
 
-## Hardware-intrinsic Stabilization Protocol
+*Hardware-intrinsic Stabilization Protocol*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/autonomous-dissipative-quantum-processing/ **Publication
-Date:** 2025-11-30 **Version:** 1.0
+## Abstract
 
-**Abstract**: Current quantum computing architectures
+Current quantum computing architectures
 face a thermodynamic bottleneck where the energy cost of classical error
 correction scales superlinearly with system size. Reliance on exogenous
 classical control imposes a latency and power penalty that renders
@@ -26,10 +21,6 @@ superinductor arrays. Thermal analysis confirms that the heat load
 of Stirling engines at 77 K, bounded by the Kapitza resistance of the
 diamond substrate. This establishes a rigorous pathway to self-contained
 quantum processors operating at thermodynamic limits.
-
-**Keywords:** autonomous stabilization, dissipative
-dynamics, topological protection, reservoir engineering, quantum
-thermodynamics, toric code, Lindblad master equation, Fluxonium
 
 ## 1.0 Introduction
 

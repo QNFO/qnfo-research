@@ -1,7 +1,3 @@
----
-keywords: "Autaxys, Autology, Generative Principle, Pattern-Based Reality, Emergence, Self-Organization, Foundational Ontology, Meta-Logic, Operational Dynamics, Process Philosophy, Intrinsic Order, Spontaneous Symmetry Breaking, Relational Processing."
----
-
 # Autaxys and its Generative Engine
 
 *[Rowan Brad Quni](mailto:rowan.quni@qnfo.org), [QNFO](http://QNFO.org)*

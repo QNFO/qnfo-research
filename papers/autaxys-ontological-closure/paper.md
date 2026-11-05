@@ -1,13 +1,3 @@
----
-title: "Autaxys Ontological Closure: When Is a Physical Quantity Computationally Real?"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-01"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-version: "1.3"
----
-
 # Autaxys Ontological Closure: When Is a Physical Quantity Computationally Real?
 
 ## Abstract

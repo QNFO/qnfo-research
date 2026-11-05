@@ -1,15 +1,10 @@
 # Automated Formal Verification and Combinatorial Reduction of Distinction-Based Calculus
 
-## Resolving the Dichotomy Between ZFC Container Ontology and Boundary-Based Dynamics
+*Resolving the Dichotomy Between ZFC Container Ontology and Boundary-Based Dynamics*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/automated-formal-verification-and-combinatorial-reduction-of-distinction-based-calculus/
-**Date:** 2026-04-19 **Version:** 1.0.3
+## Abstract
 
-**Abstract**: The foundation of modern formal
+The foundation of modern formal
 mathematics has historically rested upon Zermelo-Fraenkel set theory
 with the Axiom of Choice (ZFC), a container-based ontology that often
 conflates zero with the empty set and necessitates arbitrary constraints
@@ -27,10 +22,6 @@ null-pointer paradoxes of the empty set. Replacing static container
 ontologies with deterministic boundary acts paves the way for vastly
 optimized compiler architectures and next-generation type-safe proof
 kernels in systems like Lean and Coq.
-
-**Keywords**: Distinction Calculus, Laws of Form,
-Automated Theorem Proving, ZFC Set Theory, Phase-Distinction Logic,
-Re-entry, p-adic Topology
 
 ## 1.0 Introduction
 
