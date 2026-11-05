@@ -1,30 +1,3 @@
----
-title: "The Revolutionary Beginner's Guide to Quantum Computing"
-subtitle: "Why We Don't Have Quantum Computers Yet — and What the Geometric Alternative Offers"
-authors: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-21"
-doi: ""
-version: "v1.3.3"
-abstract: >
-  A 20-chapter beginner's guide to quantum computing that starts with an honest question
-  — why don't we have quantum computers yet? — rather than the usual "here's what a
-  qubit is." The guide teaches the standard curriculum (qubits, entanglement, algorithms,
-  error correction) accurately, explains why the standard approach faces a thermodynamic
-  wall (a 20,000-fold cooling gap that is Carnot-limited), and introduces the ultrametric
-  alternative: passive geometric fault tolerance on Bruhat-Tits trees, with DOI-registered
-  evidence, computationally validated error thresholds 75 times higher than surface codes
-  (validated by classical simulation; not yet demonstrated on quantum hardware),
-  and three falsifiable predictions that can be tested for under \$300,000.
-keywords: ["quantum computing", "quantum error correction", "ultrametric geometry",
-  “Bruhat-Tits tree”, “thermodynamic wall”, “passive fault tolerance”, “surface code”,
-  “post-quantum cryptography”, “beginner's guide”]
-license: "cc-by-4.0"
-status: "published"
-author: "[Rowan Brad Quni-Gudzinas](mailto://rowan.quni@outlook.com)"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-url: "https://papers.qnfo.org/papers/the-revolutionary-beginners-guide-to-quantum-computing-why-we-dont-have-quantum-computers-yet-and-what-the-geometric-alt/"
----
-
 # The Revolutionary Beginner's Guide to Quantum Computing: Why We Don't Have Quantum Computers Yet â€” and What the Geometric Alternative Offers
 
 *Why We Don't Have Quantum Computers Yet — and What the Geometric Alternative Offers*
@@ -257,7 +230,6 @@ For now, the key insight is this: **the bottleneck in quantum computing is not q
 ---
 
 *End of Part I. Part II (Chapters 4-7) will cover the standard quantum computing curriculum: qubits, superposition, entanglement, quantum algorithms, and quantum error correction — taught clearly, with the awareness developed in Part I.*
-
 
 ### Part II: The Standard Curriculum
 
@@ -498,7 +470,6 @@ But "below threshold" is not the same as "usefully low." The gap between demonst
 
 *End of Part II. Part III (Chapters 8-10) will cover The Reality Check: the surface code plateau, the cryogenic arithmetic, and what quantum computing actually delivers today.*
 
-
 ## Part III: The Reality Check
 
 ---
@@ -626,7 +597,6 @@ The same standard of scrutiny applied to standard QC should be applied to the pr
 
 ### Chapter 10: What Quantum Computing Actually Delivers Today
 
-
 The previous chapters have been critical of quantum computing's failure to deliver on its transformative promises. But quantum technologies are not a monolith. Some quantum technologies deliver practical value **today**, without error correction, without dilution refrigerators, and without the thermodynamic wall. This chapter distinguishes what works now from what doesn't.
 
 #### Quantum Sensing — The Underrated Success Story
@@ -714,7 +684,6 @@ The limitations: QKD requires dedicated optical infrastructure (fiber or line-of
 ---
 
 *End of Part III. Part IV (Chapters 11-14) will cover The Geometric Alternative: ultrametric geometry, the Bruhat-Tits tree, tree codes, and the threshold advantage — the chapter that makes this guide different from every other quantum computing textbook.*
-
 
 ### Part IV: The Geometric Alternative
 
@@ -929,7 +898,6 @@ This is the ultimate significance of the threshold advantage: it is not just tha
 
 *End of Part IV. Part V (Chapters 15-17) will cover The Falsifiable Science: confidence tagging as a methodology, the three experiments (E1-E3) that can test the ultrametric framework, and scenarios for what happens if they pass or fail.*
 
-
 ## Part V: The Falsifiable Science
 
 ---
@@ -1135,7 +1103,6 @@ The reader of this guide is now equipped to watch for both patterns. You know wh
 ---
 
 *End of Part V. Part VI (Chapters 18-20) will complete the guide: The Blueprint — What to Do in 2026, How to Read the Research, and What We Still Don't Know.*
-
 
 ## Part VI: Synthesis and Next Steps
 

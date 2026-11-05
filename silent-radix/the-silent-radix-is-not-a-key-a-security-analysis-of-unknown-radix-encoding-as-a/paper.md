@@ -210,59 +210,6 @@ The result is negative, and its strength depends entirely on the assumptions beh
 
 **Open questions.** Whether the knapsack reduction claimed in [9] is correct is not settled here, and it does not need to be: even a correct reduction to an NP‑hard problem would not help, because the direct attack bypasses the knapsack structure entirely. Whether some non‑encoding layer built on top of the core could be secure is a separate design question, not a rescue of the radix‑as‑trapdoor idea.
 
-## Appendix A. Divergence report
-
-No divergent claims were identified among the source drafts; all substantive claims converge on the same quantitative values and logical arguments.
-
-## Appendix B. Claim attribution
-
-| Claim ID | Source drafts | Agreement status |
-|----------|---------------|------------------|
-| C1 | A, B, C | CONVERGENT |
-| C2 | A, B, C | CONVERGENT |
-| C3 | A, B, C | CONVERGENT |
-| C4 | A, B, C | CONVERGENT |
-| C5 | A, B, C | CONVERGENT |
-| C6 | A, B, C | CONVERGENT |
-| C7 | A, B, C | CONVERGENT |
-| C8 | A, B, C | CONVERGENT |
-| C9 | A, B, C | CONVERGENT |
-| C10 | A, B, C | CONVERGENT |
-| C11 | A, B, C | CONVERGENT |
-| C12 | A, B, C | CONVERGENT |
-| C13 | A, B, C | CONVERGENT |
-| C14 | A, B, C | CONVERGENT |
-| C15 | A, B, C | CONVERGENT |
-| C16 | A, B, C | CONVERGENT |
-| C17 | A, B, C | CONVERGENT |
-| C18 | A, B, C | CONVERGENT |
-| C19 | A, B, C | CONVERGENT |
-| C20 | A, B, C | CONVERGENT |
-| C21 | A, B, C | CONVERGENT |
-| C22 | A, B, C | CONVERGENT |
-| C23 | A, B, C | CONVERGENT |
-| C24 | A, B, C | CONVERGENT |
-| C25 | A, B, C | CONVERGENT |
-| C26 | A, B, C | CONVERGENT |
-| C27 | A, B, C | CONVERGENT |
-| C28 | A, B, C | CONVERGENT |
-| C29 | A, B, C | CONVERGENT |
-| C30 | A, B, C | CONVERGENT |
-| C31 | A, B, C | CONVERGENT |
-| C32 | A, B, C | CONVERGENT |
-| C33 | A, B, C | CONVERGENT |
-| C34 | A, B, C | CONVERGENT |
-| C35 | A, B, C | CONVERGENT |
-| C36 | A, B, C | CONVERGENT |
-| C37 | A, B, C | CONVERGENT |
-| C38 | A, B, C | CONVERGENT |
-| C39 | A, B, C | CONVERGENT |
-| C40 | A, B, C | CONVERGENT |
-
-In summary, the analysis demonstrates that the secrecy of a radix alone cannot provide cryptographic security: the key‑space entropy is quickly eclipsed by statistical attacks that recover the base and reduce the problem to a classical monoalphabetic substitution. Consequently, any design that relies on “silent radix” obscurity must incorporate additional hardening mechanisms—such as noise injection, authenticated encryption layers, or independent secret inputs—to avoid the structural weaknesses identified here. Future work may explore whether such augmentations can restore meaningful security guarantees, but the present result establishes a clear baseline: without extra protection, unknown‑radix encoding offers no advantage over well‑understood substitution ciphers and should be treated as obfuscation rather than encryption.
-
-The analysis and derivations presented herein were produced entirely by the automated QNFO research pipeline, which performed formal modeling, arithmetic recomputation, and structured drafting without human editorial intervention. All quantitative results were independently verified by recomputation scripts, and no external peer review or manual validation has been applied to this version of the manuscript.
-
 ## 9. Future Work
 
 - **Noise‑augmented variants.** Investigate constructions that add random noise to the integer $C$ before transmission and evaluate whether the histogram‑discrimination test of Section 4.4 retains its gap factor under the same language‑model assumptions.

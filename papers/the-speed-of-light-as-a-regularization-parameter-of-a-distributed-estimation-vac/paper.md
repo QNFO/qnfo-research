@@ -277,10 +277,6 @@ No empirical measurement is reported in this paper. Every number above is either
 
 This paper has converted a conjecture — that the speed of light functions as a regularization parameter of a distributed-estimation vacuum — into a formal model with derived quantities and falsification conditions. The lattice estimation model yields an exact causal bound $|v_g| \le v$; a Planck-spaced realization gives a causal bandwidth $\omega_{\max} = 3.710\times 10^{43}\ \mathrm{s^{-1}}$ and $B = 5.905\times 10^{42}\ \mathrm{Hz}$; an assumed first-order response gives a $-20\ \mathrm{dB}$-per-decade suppression of above-cutoff modes, the quantitative signature of early stopping; a stability window $\omega_s = \omega_c\sqrt{\Gamma_0/\gamma_0}$ states the survival criterion as an inequality; and a congestion model produces curvature-like delays, $\Delta\tau = 3.336\times 10^{-12}\ \mathrm{s}$ per metre at $\rho/\rho_c = 10^{-3}$, with a device-scale projection placing a laboratory-accessible cutoff at $4.775\times 10^{10}\ \mathrm{Hz}$ ($1.975\times 10^{-4}\ \mathrm{eV}$) for millimetre-scale geometry. The framework is consistent with the variable-$c$ formalisms of [2] and [3], complements the derivation of $c$ from discrete geometry in [9] by assigning the derived finite speed a stabilizing function, and inherits testable dispersion signatures from the discrete-substrate program of [8] and [11]. The conjecture remains unconfirmed; its value is that it is now stated precisely enough to be refuted — by a simulation in which varying $v$ fails to move the stability edge, or by dispersion searches that find no effect at the predicted parametric level.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.6-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.
