@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/scale-invariant-physics"
   },
   "declared": {
-    "version": "0.12",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "8f1c458aeca0c38e78975a2e8f2ba23997e3d9002f428e4be1c1b932f25b4bc5",
       "bytes": 761232,
       "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "1ec78971b76826d5ff5756bb0f5238be7bff2485d76a95154d156255c5361939",
+      "bytes": 762186,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

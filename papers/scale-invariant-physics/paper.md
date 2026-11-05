@@ -1,13 +1,10 @@
 # Scale-Invariant Reality
 
-## A Scale-Invariant Epistemic Unification of Physics via Information Geometry
+*A Scale-Invariant Epistemic Unification of Physics via Information Geometry*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers **Publication Date:** 2025-09-27
-**Version:** 0.12
+## Abstract
+
+The foundational principles of a scale-free, epistemically-grounded reality establish the philosophical and mathematical bedrock upon which the entire Scale-Invariant Epistemic Framework is constructed. This framework posits that physical reality is fundamentally scale-invariant, with no intrinsic minimum or maximum physical scales, and that our knowledge of this reality is inherently limited by epistemic constraints. The principle of universal scale invariance asserts that the laws of physics maintain consistent mathematical form across all observational scales, from the quantum to the cosmological, with dimensional quantities transforming predictably under scale transformations rather than possessing absolute values. This perspective challenges conventional approaches that introduce fundamental scales such as the Planck length, recognizing these as artifacts of incomplete theoretical descriptions rather than genuine features of physical reality. Simultaneously, the principle of epistemic humility acknowledges the intrinsic limits on observational knowledge imposed by quantum measurement constraints, cosmological horizons, and information-theoretic boundaries. [...]
 
 ### 1. Foundational Principles of a Scale-Free, Epistemically-Grounded Reality
 

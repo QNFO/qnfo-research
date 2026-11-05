@@ -1,13 +1,8 @@
 # Scale-Invariant Information Thermodynamics Proof
 
-## Gravity As Scale-Invariant Information Thermodynamics and Unification of Forces
+*Gravity As Scale-Invariant Information Thermodynamics and Unification of Forces*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/scale-invariant-information-thermodynamics-proof/ **Publication Date:** 2025-09-28
-**Version:** 1.0
+## Abstract
 
 We derive **precise, falsifiable formalisms** showing
 how gravity emerges from scale-invariant information dynamics and how

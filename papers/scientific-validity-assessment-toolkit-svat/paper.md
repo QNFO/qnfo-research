@@ -1,15 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-email: "rowan.quni@qnfo.org"
-orcid: "0009-0002-4317-5604"
-isni: "0000 0005 2645 6062"
-doi: "https://papers.qnfo.org/papers/scientific-validity-assessment-toolkit-svat/"
-publication date: "2025-09-21"
-version: "1.0.1"
----
-
 # Scientific Validity Assessment Toolkit (SVAT)
+
+## Abstract
+
+This document proposes the Scientific Validity Assessment Toolkit (SVAT), a quantitative framework to foster epistemic honesty and ontological rigor in fundamental physics. The SVAT addresses the crisis of reification—the intellectual error of treating model-dependent statistical inferences as concrete physical entities—through systematic instrumental deconvolution. Its methodology is grounded in the Poll vs. Census Principle, which mathematically formalizes measurements as convolutions (the First Axiom of Experimental Physics). The toolkit comprises twelve integrated instruments offering auditable metrics, including the Convolution Effect Coefficient (CEC), Reification Risk Index (RRI), and Bayesian Truth Assessment (BTA). Analysis of the 125 GeV signal reinterprets established findings, classifying the signal as an Apparatus-Dominant Measurement Artifact with a CEC of approximately 614. Further applications to dark matter searches illustrate the SVAT’s broad utility. The SVAT envisions a paradigm shift from a particle-centric to a field-based understanding of reality, ensuring discoveries represent genuine knowledge advancements, not refined instrumental measurements.
 
 **Framework for Epistemic Honesty and Ontological
 Rigor**
