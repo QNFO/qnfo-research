@@ -1,15 +1,10 @@
 # Feynman-Shor Quantum Bifurcation
 
-### Physical Resilience versus Algorithmic Fragility
+*Physical Resilience versus Algorithmic Fragility*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/feynman-shor-quantum-bifurcation/ **Date:**
-2025-12-18 **Version:** 1.0
+## Abstract
 
-**Abstract**: This analysis reconstructs the divergent
+This analysis reconstructs the divergent
 phylogenetic lineages of quantum computing, termed Feynman-Shor
 bifurcation. The field has split into two distinct ontologies: path A
 (mimetic simulation), rooted in Feynman’s original 1982 vision of
@@ -21,9 +16,6 @@ this bifurcation defines the current era of hardware development, the
 two paths are projected to converge at the ultimate physical limits of
 scale and fidelity, resolving into a single, universal paradigm of
 quantum computation.
-
-**Keywords:** quantum simulation, fault-tolerant quantum
-computing, Feynman, Shor’s algorithm, NISQ
 
 ## 1.0 Introduction
 

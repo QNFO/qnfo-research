@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/feynman-shor-quantum-bifurcation"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 154366,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "6377e6fc6ca61d3c1355fc645d80adc41276aaddb02638f5320055d480bb64ca",
+      "bytes": 153933,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

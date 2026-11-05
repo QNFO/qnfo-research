@@ -1,7 +1,3 @@
----
-keywords: "Fast Fourier Transform, Langlands program, harmonic analysis, adele ring, Bruhat--Tits tree, computational complexity, ultrametric quantum computation"
----
-
 # Harmonic Analysis is Langlands — The Fast Fourier Transform as the Computational Langlands Correspondence for GL(1)
 
 ## Abstract
