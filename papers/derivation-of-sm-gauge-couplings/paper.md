@@ -1,13 +1,8 @@
 # Derivation of SM Gauge Couplings
 
-## DERIVATION OF STANDARD MODEL GAUGE COUPLINGS FROM SCALE-INVARIANT INFORMATION THERMODYNAMICS
+*DERIVATION OF STANDARD MODEL GAUGE COUPLINGS FROM SCALE-INVARIANT INFORMATION THERMODYNAMICS*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/derivation-of-sm-gauge-couplings/ **Publication Date:** 2025-09-28
-**Version:** 1.0.1
+## Abstract
 
 **Objective:** To derive the relationship between the
 Standard Model’s gauge couplings and the Kappa information field (\(\kappa(x)\)) using a self-contained,

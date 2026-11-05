@@ -1,12 +1,8 @@
 # Dimensionless Physics
 
-## Dimensionless Physics: A Unified Framework
+*Dimensionless Physics: A Unified Framework*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers/dimensionless-physics/ **Version**: 1.0.1
+## Abstract
 
 This work presents dimensionless physics as the fundamental language
 of nature, demonstrating how all physical laws can be expressed as

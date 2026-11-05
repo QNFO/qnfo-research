@@ -1,13 +1,8 @@
 # Defining Kappa
 
-## Defining Kappa as a Physical Information Framework
+*Defining Kappa as a Physical Information Framework*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/defining-kappa/ **Publication Date:** 2025-09-30
-**Version:** 1.0
+## Abstract
 
 This work introduces a comprehensive physical information framework
 centered on the concept of **Kappa (κ)**, which is
