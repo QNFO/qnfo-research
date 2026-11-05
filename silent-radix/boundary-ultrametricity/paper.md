@@ -1,13 +1,3 @@
----
-title: "Boundary Ultrametricity: The Tree vs. the Boundary Distinction, Applied to the ZBW Transition Graph"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
-version: "1.0"
-keywords: "Bruhat-Tits tree, Gromov hyperbolicity, ultrametric, p-adic, boundary, Zitterbewegung"
----
-
 # Boundary Ultrametricity: The Tree vs. ∂∞𝒯 Distinction, Applied to the ZBW Transition Graph
 
 ## Abstract
@@ -139,9 +129,3 @@ adjacency data (if recovered from the provenance gap) reproduces $\delta_{\mathr
 - ACRP Program Plan v1.1 (R2) — project charter, falsifiability requirements
 - Consilient Synthesis v2.0 (the QNFO archive https://papers.qnfo.org/papers) — C1 correction (boundary metric vs 0-hyperbolic realization), extended here
 - Ultrametric Foundations — the v_p^max classification program (complementary, not affected by this correction)
-
-## Version History
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| 1.0 | 2026-07-31 | Initial formal note (ACRP-02 deliverable) |
