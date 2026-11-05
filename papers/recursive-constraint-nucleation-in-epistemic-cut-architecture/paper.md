@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/recursive-constraint-nucleation-in-epistemic-cut-architecture/"
-date: "2025-12-02"
-version: "1.0"
-keywords: "recursive constraint nucleation, epistemic cut, non-holonomic constraints, semantic closure, assembly index, semiotic density, rate-independence"
----
-
 # Recursive Constraint Nucleation in Epistemic Cut Architecture
 
 ## Abstract

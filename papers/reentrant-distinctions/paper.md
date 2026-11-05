@@ -1,14 +1,8 @@
----
-title: "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-16"
-license: "cc-by-nc-sa-4.0"
-doi: ""
-status: "published"
-version: "v0.9"
----
-
 # The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference
+
+## Abstract
+
+This treatise develops a single thesis: that the primitive act of distinction — the drawing of a boundary between marked and unmarked — generates, under the discipline of re-entry and linear resource management, the constants $e$ and $\pi$, the landscape of completions of the rational numbers, the loop–tree duality of the Langlands program, the mathematical structure of quantum theory, and the grammar of a universal logical language
 
 ## So What? Why Should a Reader Care About This Research?
 
@@ -27,7 +21,6 @@ version: "v0.9"
 **What this treatise does not claim.** No claim that the mark is metaphysically prior to physics (the foundational claim is mathematical, not metaphysical — stated in the Preamble). No new physical predictions beyond re-description of established quantum mechanics (Part VI, explicit). No completed formal proof of the Part VIII system (Appendix D is the open step). No claim that $e$ and $\pi$ have no other origin. What the reader gets: a falsifiable research program, a unified instrument, and an honest boundary map.
 
 ## Part I — Foundations: The Act of Distinction
-
 
 ---
 
@@ -178,7 +171,6 @@ The unit circle as the space of phases is [established] as a mathematical object
 
 ## Part II — The Logical Substrate: Linear and Differential Refinements
 
-
 ---
 
 ### §5. Linear Logic and Resource-Conscious Distinction
@@ -319,7 +311,6 @@ Part II has established the logical substrate: linear discipline (§5), the moda
 ---
 
 ## Part III — The Emergence of Constants: e and pi as Logical Scalars
-
 
 ---
 
@@ -481,7 +472,6 @@ This is the treatise's central technical thesis. The rest of the treatise shows 
 ---
 
 ## Part IV — The Landscape of Numbers: Adelic Geometry through Modal Lenses
-
 
 ---
 
@@ -652,7 +642,6 @@ This reading is [my conjecture]; it is the number-theoretic heart of the treatis
 
 ## Part V — The Langlands Program as Natural Duality
 
-
 ---
 
 ### §18. Automorphic Forms on Loop Spaces
@@ -800,7 +789,6 @@ The Langlands program is treated in this treatise as [established — a major bo
 ---
 
 ## Part VI — Physics of the Re-Entrant Mark
-
 
 ---
 
@@ -970,7 +958,6 @@ This reading is [my conjecture]; the area law is [established]; the statistical 
 
 ## Part VII — Statistics, Information, and Entropy
 
-
 ---
 
 ### §29. The Central Limit Theorem and the Emergence of Gaussian from Distinction Averaging
@@ -1093,7 +1080,6 @@ The claim is [my conjecture]; its formal development (constructing Lévy process
 
 ## Part VIII — The Universal Language: Traced Differential Cohesive Linear Homotopy Type Theory
 
-
 ---
 
 ### §33. Cohesive Homotopy Type Theory: The Shape and the Sharp
@@ -1210,7 +1196,6 @@ The claim of §37.1 is the treatise's universal claim: the re-entrant distinctio
 
 ## Part IX — The Grand Synthesis: The Calculus of Re-Entrant Distinctions
 
-
 ---
 
 ### §38. The Rosetta Stone: A Crosswalk of All Domains
@@ -1301,7 +1286,6 @@ The closing claim is [PHILOSOPHY] — it steps from mathematics and physics into
 ---
 
 ## Appendices
-
 
 ---
 
