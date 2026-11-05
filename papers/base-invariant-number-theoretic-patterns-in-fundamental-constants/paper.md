@@ -1,18 +1,10 @@
 # Base-Invariant Number-Theoretic Patterns in Fundamental Constants
 
-## From Base Invariance to a Democratic Ontology of Scaling Operators
+*From Base Invariance to a Democratic Ontology of Scaling Operators*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/base-invariant-number-theoretic-patterns-in-fundamental-constants/
-**Date:** 2026-04-08 **Version:** 1.0
-
-**Abstract**: This presents a systematic,
+This presents a systematic,
 first‑principles investigation of the mathematical structures that
 underlie fundamental constants, freed from the arbitrariness of
 numeral‑system representation. By focusing exclusively on properties

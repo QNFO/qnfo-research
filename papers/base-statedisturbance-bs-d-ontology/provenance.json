@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/base-statedisturbance-bs-d-ontology"
   },
   "declared": {
-    "version": "1.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 150928,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "91cb9a696f00395a7199ac0eff0a645c26bce0665fa00f97ca7b81f495f77847",
+      "bytes": 150595,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

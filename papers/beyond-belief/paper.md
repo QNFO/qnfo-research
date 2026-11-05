@@ -1,17 +1,10 @@
 # Beyond-Belief
 
-## A Functional Anatomy of Human Ultimate Concern
+*A Functional Anatomy of Human Ultimate Concern*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/beyond-belief/ **Date:**
-2026-03-02 **Version:** 1.0
+If you were to strip away the stained glass, the incense, the holy books, and the political manifestos; if you were to mute the hymns of the cathedral and the chants of the football stadium; if you were to look past the specific names of gods, laws, and scientific theories—what would remain? | You would find a creature terrified of death, desperate for connection, and biologically compelled to find patterns in the chaos. You would find an animal that cannot survive on bread alone but requires meaning as surely as it requires oxygen. |
 
 # PREFACE ## The Machinery of the Soul |
 

@@ -1,14 +1,10 @@
 # Bruhat-Tits Tree as a Unifying Geometric Object
 
-## A Quantum-Native P-adic Framework for Hierarchical Explainable AI
+*A Quantum-Native P-adic Framework for Hierarchical Explainable AI*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/ballistic-transport-on-the-bruhat-tits-tree/ **Date:**
-2026-02-12 **Version:** 1.0
+## Abstract
 
-**Abstract**: Modern artificial intelligence,
+Modern artificial intelligence,
 particularly in high-stakes domains, is hampered by a fundamental
 geometric mismatch: the reliance on continuous, “flat” Euclidean spaces
 to represent intrinsically hierarchical data. This incongruity leads to
@@ -35,10 +31,6 @@ geometrically interpretable path. We propose a formal “holographic
 dictionary” mapping neural network concepts to their geometric
 counterparts, paving the way for a new generation of auditable and
 high-fidelity AI systems.
-
-**Keywords:** p-adic neural networks, ultrametric data
-analysis, Bruhat-Tits tree, quantum walk, explainable AI, arithmetic
-topology, hierarchical clustering
 
 ## 1.0 Introduction
 

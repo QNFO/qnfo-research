@@ -1,15 +1,10 @@
 # Base State–Disturbance (BS-D) Ontology
 
-### Thermodynamic Genesis of a Topological Vacuum via Lattice Annealing
+*Thermodynamic Genesis of a Topological Vacuum via Lattice Annealing*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/base-statedisturbance-bs-d-ontology/ **Date:**
-2025-12-31 **Version:** 1.1
+## Abstract
 
-**Abstract**: This presents the formalization and
+This presents the formalization and
 computational validation of the *Base State–Disturbance (BS-D)
 Ontology*, a framework proposed to resolve the conceptual
 fragmentation between Quantum Field Theory (QFT) and General Relativity.
