@@ -197,11 +197,3 @@ We presented a reconciled, fully auditable analytical framework for concurrency-
 [8] Intra-Team Strategies for Teams Negotiating Against Competitor, Matchers, and Conceders. arXiv:1604.04736v1. https://arxiv.org/abs/1604.04736v1
 [9] Deal Me Maybe: The Role of Emotions in Multi-Agent Negotiation. arXiv:2608.06922v1. https://arxiv.org/abs/2608.06922v1
 [10] https://papers.qnfo.org/papers/quwarp-reconciled-an-analytical-cost-model-assessment-of-workload-level-reuse-pl/. QNFO: QuWARP Reconciled: An Analytical Cost-Model Assessment of Workload-Level Reuse Planning for Quantum Circuit Simulation.
-
-## Appendix A. Divergence report
-
-**D1. Cost accounting convention (DIVERGENT).** Draft A charges purchase cost $p_{\text{cap}}\,P(X \geq 1)$ (one unit), no penalty on total failure, and an excess-commitment penalty $C_e\max(0, \mathbb{E}[X]-1)$. Drafts B and C charge a fulfillment loss on failure ($L_f$ or $L > R$), and per-unit excess cost $\kappa$ or $e$ on $(K-1)^{+}$ unwanted acceptances. **Convention adopted:** form (1) of Section 3.1 (drafts B and C), because it prices the deadline miss explicitly; draft A's convention is reported qualitatively in Section 6.1.
-
-**D2. Acceptance-curve family (DIVERGENT).** Draft B proposed a power quantile curve $q(p) = \bigl((p - p_{\min})/(p_{\max} - p_{\min})\bigr)^{\gamma}$ with $\gamma > 1$, which is convex and bounded above by $1$ at a finite $p_{\max}$; drafts A and C used exponential-form curves $a(p) = 1 - e^{-\lambda(p-c)}$, convex but reaching $1$ only asymptotically, so no finite cap guarantees acceptance. **Convention adopted:** the exponential curve (2) for the main text, for closed-form tractability of the cap formula (6); the bounded-cap implication of the quantile family is noted in Section 4.5.
-
-**D3. Cap–concurrency direction (DIVERGENT).** Draft C's abstract described the optimal cap as "rising in concurrency," but its own derivation — equation (6) here — shows $p^*(n)$ is decreasing in $n$. **Convention adopted:** the derivation; the cap is decreasing in $n$ (parallelism substitutes for concession).

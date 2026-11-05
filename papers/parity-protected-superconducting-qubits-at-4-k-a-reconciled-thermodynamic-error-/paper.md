@@ -189,27 +189,3 @@ We tested the conjecture that a thermodynamic bottleneck at millikelvin temperat
 [10] https://papers.qnfo.org/papers/thermodynamic-and-informational-bottlenecks-of-scalable-fault-tolerant-quantum-computation/. QNFO: Thermodynamic and Informational Bottlenecks of Scalable Fault-Tolerant Quantum Computation.
 [11] https://papers.qnfo.org/papers/thermodynamic-imperative/. QNFO: Thermodynamic Imperative.
 [12] https://papers.qnfo.org/papers/syntactic-generation-primitive-distinctions/. QNFO: Syntactic Generation.
-
-## Appendix A. Divergence report
-
-Three divergences among the independent drafts were reconciled by explicit convention choice:
-
-- **Reference temperature.** One draft used 20 mK as the dilution-refrigerator reference; the reconciled text adopts $T_{\mathrm{cold}} = 0.1$ K (100 mK), matching the motivating input's quoted $k_{B}T \approx 83$ GHz comparison point at 4 K. Convention: 100 mK. Effect on results: the cold-side Boltzmann factor changes (at 20 mK, $\Delta_{\mathrm{Nb}}/k_{B}T = 350/(20.837\times0.02) = 839.9$, i.e., $p_{\mathrm{th}} \approx 10^{-364.8}$), but no headline conclusion depends on the cold-side value; only the warm-side numbers ($S = 150$, $T^{*} \approx 1.82$ K) enter the fault-tolerance argument.
-- **Fault-tolerance threshold.** Drafts used $p_{\mathrm{target}} = 10^{-4}$ and $10^{-3}$. Convention: $10^{-4}$ in the main text, treated as a stated design assumption not attributed to any cited work; sensitivity $S = 15$ ($10^{-3}$) and $S = 1.5$ ($10^{-2}$) is reported in Steps 6 and Results 4.
-- **Millikelvin cooling budget.** Drafts used $P_{\mathrm{mK}} = 1\ \mu\mathrm{W}$ and $P_{\mathrm{mK}} = 10\ \mu\mathrm{W}$ as illustrative budgets. Convention: $P_{\mathrm{mK}} = 1\ \mu\mathrm{W}$, explicitly labeled an assumption; all cooling-power conclusions scale linearly with $P_{\mathrm{mK}}$ (Step 8), and the input-supplied ratio $R_{P} = 2\times10^{4}$ is independent of this choice.
-
-## Appendix B. Claim attribution
-
-| Claim | Source drafts | Status |
-|---|---|---|
-| C1: $k_{B}T/h = 83.35$ GHz at 4 K (Steps 1–2) | A, B, C | CONVERGENT |
-| C2: $p_{\mathrm{th}}^{\mathrm{Nb}}(4\ \mathrm{K}) = 1.50\times10^{-2}$; $\approx 1.1\times10^{-73}$ at 100 mK; penalty $\sim 10^{71.1}$ (Steps 3–4) | A, B, C | CONVERGENT |
-| C3: aluminum excluded at 4 K; $p_{\mathrm{th}}^{\mathrm{Al}}(4\ \mathrm{K}) = 0.590$ under BCS assumption (Step 5) | A, B, C | CONVERGENT |
-| C4: required suppression $S = 150$ against $p_{\mathrm{target}} = 10^{-4}$; $T^{*} \approx 1.82$ K (Steps 6–7) | A, B, C | CONVERGENT |
-| C5: cooling-power dividend $P_{4\,\mathrm{K}} = 20$ mW under $P_{\mathrm{mK}} = 1\ \mu\mathrm{W}$; Carnot ratio $40.5$ (Steps 8–9) | A, B | CONVERGENT |
-| C6: parity-selectivity requirement $S_{\mathrm{par}} < 6.67\times10^{-3}/A$ (Step 10) | A, B | CONVERGENT |
-| C7: illustrative relaxation model, gate error $7.5\times10^{-4}$ under assumed $\Gamma_{0}$, $\Omega$ (Step 11) | B | SINGLE |
-| C8: reference temperature 100 mK vs 20 mK | A vs B | DIVERGENT (Appendix A) |
-| C9: threshold $10^{-4}$ vs $10^{-3}$ | A vs C | DIVERGENT (Appendix A) |
-| C10: $P_{\mathrm{mK}} = 1\ \mu\mathrm{W}$ vs $10\ \mu\mathrm{W}$ | B vs C | DIVERGENT (Appendix A) |
-| C11: unquantified $\mathrm{Nb_{2}O_{5}}$ TLS, ancillary poisoning, readout noise channels (Step 12) | A, B, C | CONVERGENT |

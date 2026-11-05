@@ -130,10 +130,6 @@ Thus two bosonic and three fermionic classes arise, matching the spin‑statisti
 
 ## 8. Conclusion We have formalized the Boundary Token Calculus, proved its termination and confluence, enumerated its irreducible normal forms up to depth three, and derived a linear mass hierarchy $m(d)=\sqrt{2}\,d$ anchored in Korn’s explicit constant. The Catalan‑number count yields five distinct particle‑type classes, and the symmetry‑based statistics assignment reproduces the spin‑statistics correspondence within a purely syntactic framework. The proposed cellular‑automaton prototype offers a concrete experimental route to falsify the central hypothesis. Future work will extend the depth analysis, incorporate gauge structures, and pursue the experimental search for the predicted excited Higgs resonances.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - The QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent) was intended to draft, reconcile, review, revise, and check this paper. Language models were tools in that process; they are not authors. The named author is accountable for the content.
