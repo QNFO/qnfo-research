@@ -218,10 +218,6 @@ Mitigation strategies include thorough validation of each translation on benchma
 
 ## 8. Conclusion We have demonstrated that five of the six marginalised formalisms—Laws of Form, Existential Graphs, Viable System Model, Pattern Language, and Polycontextural Logic—admit faithful categorical translations that preserve all invariant content. The sixth, Catastrophe Theory, resists a universal translation due to orientation constraints on stratified spaces. The concrete count $N=6$ of examined systems confirms the breadth of the investigation, while the Fibonacci‑based enumeration quantifies the syntactic redundancy that faithful translations must collapse. By reframing marginalisation as a notational barrier, the work opens a unified categorical toolkit for researchers across logic, systems theory, and applied mathematics. Future work will address the orientation obstacle in CT, extend the framework to non‑contractive dynamics, and integrate the translations into automated proof environments.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

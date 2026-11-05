@@ -258,10 +258,6 @@ If the identified choke node fails to correspond to a historically decisive tran
 
 ## 8. Conclusion Cascading Bayesian Choke‑Node Forecasting provides a mathematically rigorous, analytically tractable means to capture inter‑era dependencies in long‑horizon paradigm‑shift forecasts. By expressing the total expected value as a function of conditional transition probabilities and ranking those probabilities by their marginal impact, CBCNF isolates the transitions that dominate forecast outcomes. The toy illustration demonstrates a concrete computation of marginal distributions, total EV, and choke‑node sensitivity, establishing a template for future applications to real historical road‑maps. While the approach rests on simplifying assumptions (Markov property, discrete states, static transitions), it offers a clear pathway for systematic stress‑testing of high‑leverage hypotheses, thereby improving the robustness of strategic foresight decisions.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.38-tick-10m-1). Language models were tools in that process; they are not authors. The named author is accountable for the content.
