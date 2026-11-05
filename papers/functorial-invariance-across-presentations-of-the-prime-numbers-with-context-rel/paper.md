@@ -380,12 +380,6 @@ The ultrametric program of [11] begins from the observation that the continuous 
 
 We treated presentations of the primes as objects of a category $\mathbf{RepPrimes}$ and asked which theorems about the primes are invariants of it. The Euler product, Möbius inversion, and the leading asymptotic $\pi(x) \sim x/\log x$ are invariants; the error term $E(x) = \pi(x) - \operatorname{Li}(x)$ is not, because the Legendre sieve's natural comparison function carries the inflation factor $2e^{-\gamma} = 1.1229189642$, visible numerically as a $3.54\%$ excess of the sieve main term $M_{\mathrm{sieve}}(10^6) = 81279.6$ over $\pi(10^6) = 78498$, of which $95.3\%$ is main-term inflation and $4.7\%$ is the fluctuation of $\pi$ below $\operatorname{Li}$. A decidable syntactic test gives a sound, incomplete transfer criterion for first-order statements, and worked illustrations — the spectral constant $\alpha_2 = 0.6601618605$ and the weighted Germain lower bound $2.72069 \times 10^6$ at $x = 10^6$, with projected unweighted scale $1.9693 \times 10^{5}$ under stated assumptions — show the non-invariance mechanism operating on computable, presentation-bound quantities. The two-level atomicity schema explains why primes, uniformizers, and Galois conjugacy classes are each atomic only relative to a factorization system, with the Atomicity Relativity Conjecture verified in three instances and one non-instance but open in general. The framework's boundary is its density-one requirement on interpretation maps; extending it to sparse presentations with a modified invariant class carrying the factor $\delta$, and closing the completeness gap in the transfer test, are the open problems this paper leaves.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 1.0.2 (2026-10-19, from 1.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 1.1.0 (2026-11-03, from 1.0.2): revised against the current literature, re-reviewed and re-verified. new sections: Extended Derivations and Worked Examples. references 8 -> 12. length 7025 -> 8504 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.45.4). Language models were tools in that process; they are not authors. The named author is accountable for the content.

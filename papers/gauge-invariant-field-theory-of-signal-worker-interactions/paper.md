@@ -1,7 +1,3 @@
----
-keywords: "Quantum Field Theory, Quantum Information, Topological Protection, Condensed Matter, Quantum Architectonics, Renormalization Group, Non-Abelian Gauge Theory, Quantum Riemannian Geometry, Bulk-Boundary Correspondence, Symmetry-Protected Topological (SPT) Phases, Ward-Takahashi Identity"
----
-
 # Gauge-Invariant Field Theory of Signal-Worker Interactions
 
 ## Abstract

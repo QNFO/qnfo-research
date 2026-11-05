@@ -1,14 +1,10 @@
 # Functorial Framework for Morphological Computing
 
-## A Functorial Framework for Morphological Computing: A Vectorial, Topologically-Protected Solution to the Residue Number System Reconstruction Paradox
+*A Functorial Framework for Morphological Computing: A Vectorial, Topologically-Protected Solution to the Residue Number System Reconstruction Paradox*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000 0005 2645 6062
-**URL:** https://papers.qnfo.org/papers/functorial-framework-for-morphological-computing/ **Publication
-Date:** 2025-10-31 **Version:** 1.0
+## Abstract
 
-**Abstract**: This work introduces a formal framework
+This work introduces a formal framework
 for morphological computing that resolves the longstanding
 reconstruction paradox in Residue Number System (RNS) arithmetic by
 leveraging the physics of topological quantum matter. Conventional
@@ -28,11 +24,6 @@ Chern vector without any algorithmic post-processing. This approach
 establishes a new paradigm of computation-by-relaxation that is formally
 verifiable, physically robust, and achieves end-to-end energy efficiency
 by eliminating the reconstruction step entirely.
-
-**Keywords**: morphological computing, Residue Number
-Systems, topological quantum matter, functorial framework, category
-theory, Chern insulator, moiré materials, quantum Hall effect, physical
-computation, hardware-software co-design, energy-efficient computing
 
 ### I. State of the Art and Gap Identification
 
