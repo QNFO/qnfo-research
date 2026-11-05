@@ -236,13 +236,6 @@ The classical recursive threshold is genuine as a property of the decoder: the m
 
 We analyzed a conjectured passive fault-tolerance scheme on the Bruhat–Tits tree and corrected two claims of the prior version of this analysis. First, the barrier $E_{\text{barrier}}(d)=2^{d}$ is a posited model, not a derivation from ultrametric geometry: the cut-counting argument counts sites on a level of any rooted binary tree and invokes the strong triangle inequality nowhere, and [9] itself frames the exponential cut as a model of ultrametricity rather than a theorem following from it. Second, the iterated majority-vote cascade at $p=0.4$ — computed here as $0.1736704\to0.0055485\to2.905\times10^{-10}$ over three levels — is a generic property of recursive majority voting on any branching structure and confirms a decoder-level classical fact, not a mechanism of the tree geometry. The reported zero-error result bounds the logical error probability only at $2.9957\times10^{-5}$ even for $N=10^{5}$ trials, and the thermal-activation projections $p_{L}(d)\leq e^{-2^{d}}$ hold only under the posited barrier. The quantum question — whether the strong triangle inequality confines superposed and entangled error paths — remains open, stated as Hypothesis Q with explicit falsification criteria and a named smallest test: a classical Monte Carlo of the depolarizing channel on depth-$3$ versus depth-$4$ trees, whose outcome either transfers the threshold or kills the proposal. The contribution is a precise, testable formulation of the quantization gap, not a resolution of it.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 2.0.0 (2026-10-27, from 1.0.1): REWRITE: rewritten in full through the research pipeline. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 10. length 4552 -> 5854 words.
-- Version 2.1.0 (2026-11-03, from 2.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. references 10 -> 11. length 5854 -> 6942 words.
-- Version 2.2.0 (2026-11-04, from 2.1.0): revised against the current literature, re-reviewed and re-verified. references 11 -> 10. length 7021 -> 6843 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.45.4). Language models were tools in that process; they are not authors. The named author is accountable for the content.
