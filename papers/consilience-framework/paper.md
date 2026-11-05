@@ -1,19 +1,3 @@
----
-title: "The Consilience Framework: From Valuation Theory to the Void — A Cross-Domain Synthesis"
-author: "Rowan Quni-Gudzinas (QNFO/QWAV)"
-date: "2026-08-04"
-version: "0.1.0"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-wbs_codes:
-  - QNFO.CON.002.P4.T1  # Cross-Pillar Consilience — Synthesis Paper
-  - QNFO.CON.002.P4.T2  # Cross-Pillar Consilience — Foundational Chain Memo
-  - QNFO.CON.002.P4.T3  # Cross-Pillar Consilience — Cross-Domain Rosetta Stone
-  - QNFO.CON.002.P4.T4  # Cross-Pillar Consilience — Autonomous LLM Workflow Spec
-  - QNFO.CON.002.P5.T1  # Cross-Pillar Consilience — MCP Tool Implementation
-abstract: >
-  This memo synthesizes two deep-dive conversations on valuation theory and foundational mathematics into a unified framework. We trace the complete hierarchy from the void (unmarked state) through the calculus of distinctions (Laws of Form), ZFC set theory, and Ostrowski's theorem, arriving at a cross-domain consilience: the recognition that Archimedean (continuous, additive) and non-Archimedean (ultrametric, hierarchical) measurement geometries are not merely mathematical curiosities but represent the two fundamental modes of structure generation — "accumulated effort" vs. "shared ancestry." We provide a Universal Consilience Prompt template for automated cross-domain translation of mathematical theorems, an autonomous four-phase LLM research workflow, and explicit mappings onto the QNFO WBS pillars (UMP, SLB, INM, CFE, RES). The kernel insight is that valuation theory, properly understood, bridges the gap between the pre-distinction void and all structured knowledge.
----
-
 # The Consilience Framework: From Valuation Theory to the Void — A Cross-Domain Synthesis
 
 ## Abstract

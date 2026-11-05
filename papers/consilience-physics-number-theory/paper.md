@@ -1,13 +1,3 @@
----
-title: "Consilience Between Physics and Number Theory: Convergent Theses from Ostrowski's Theorem to Adelic Quantum Mechanics"
-author: "QNFO Research Agent"
-date: "2026-07-26"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "[PENDING-the QNFO archive]"
-status: "draft"
-keywords: "Adelic physics, Ostrowski's theorem, zitterbewegung, Bruhat-Tits trees, Riemann zeta function, quantum error correction, p-adic quantum mechanics, Tate's thesis, consilience"
----
-
 # Consilience Between Physics and Number Theory: Convergent Theses from Ostrowski's Theorem to Adelic Quantum Mechanics
 
 ## Abstract

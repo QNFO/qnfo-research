@@ -1,13 +1,3 @@
----
-title: "A Consilient Gap Synthesis of the QNFO/QWAV Research Portfolio"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-04"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "portfolio management, gap analysis, dependency graph, research roadmap, infrastructure audit, knowledge graph synchronization, consilience"
----
-
 # A Consilient Gap Synthesis of the QNFO/QWAV Research Portfolio
 
 ## Abstract
