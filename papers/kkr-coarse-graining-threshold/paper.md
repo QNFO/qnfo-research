@@ -1,10 +1,8 @@
----
-authors: "Tuomo Kiiskinen, Oscar Kivinen, Manuel A Rivas"
-doi: "[10.64898/2026.07.27.740886](https://doi.org/10.64898/2026.07.27.740886)"
-status: "bioRxiv preprint (July 27, 2026) **Code:** [github.com/yuj1r0/itol](https://github.com/yuj1r0/itol) (MIT license)"
----
-
 # Information-theoretic Limits on Programmatic Specification of Biological Systems
+
+## Abstract
+
+Shows via information theory that an organism does not contain enough organism-specific information to specify its own microscopic organization. The genome is a generator specification (not trajectory program). Establishes coarse-graining threshold with dual Hartley/Shannon entropy faces.
 
 ## Executive Summary
 

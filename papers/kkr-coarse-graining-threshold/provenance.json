@@ -9,12 +9,7 @@
   "declared": {
     "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
-    "dois": [
-      {
-        "doi": "10.64898/2026.07.27.740886",
-        "source": "paper.md"
-      }
-    ]
+    "dois": []
   },
   "runs": [],
   "identifiers": {
@@ -27,6 +22,14 @@
       "bytes": 2414,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "v1",
+      "git_commit": null
+    },
+    {
+      "sha256": "e44d5f1a5272d9a6d0304bb0933b2174afbd8edfc0750a54f269c6db044ce24d",
+      "bytes": 2447,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "v1",
       "git_commit": null
     }

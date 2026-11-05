@@ -130,8 +130,6 @@ d(4,9)=4>\max\{d(4,6),d(6,9)\}=2,
 \]  
 violating the ultrametric inequality.
 
-
-
 ## 5. Results The arithmetic checks of Section 4 yield the following concrete numbers:
 
 | Quantity | Derived Value | Source |
@@ -176,10 +174,6 @@ Future work must construct explicit tree Laplacians, compute their spectra numer
 **(f) Risks and misuse.** Misinterpretation of accidental numerical coincidences as evidence for the conjecture could lead to premature engineering decisions in quantum‑hardware design. Care must be taken to distinguish statistically significant alignments from random fluctuations.
 
 ## 8. Conclusion We have articulated a gauge‑invariant spectral conjecture that unifies the zeros of a single $L$‑function across ultrametric tree spectra, hyperbolic cross‑ratio resonances, and cophenetic distances in prime‑factor hierarchies. By grounding the construction in explicit $p$‑adic analytic results, Bernoulli‑number evaluations, Kummer congruences, and sharp phase‑transition conditions, we provided concrete arithmetic evidence that the conjecture is internally consistent. The proposed minimal computational experiment offers a clear falsifiability criterion. While the hypothesis remains untested empirically, its verification would furnish a computable bridge between discrete hierarchical structures and continuous geometric reality, with immediate implications for number theory, quantum error correction, and the Langlands program.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 
