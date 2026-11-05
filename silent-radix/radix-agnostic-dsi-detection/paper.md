@@ -1,13 +1,3 @@
----
-title: "Radix-Agnostic Detection of Discrete Scale Invariance: A Certified Three-Stage Protocol and a Null Result from Planck 2018"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-12"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "discrete scale invariance; log-periodic oscillations; radix; p-adic; ultrametric; CMB"
----
-
 # Radix-Agnostic Detection of Discrete Scale Invariance: A Certified Three-Stage Protocol and a Null Result from Planck 2018
 
 ## Abstract

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/ratio-based-adelic-physics"
   },
   "declared": {
-    "version": "1.0.2",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 68786,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "0f487f132c0ee5e74c235e08693531f8d5b019f65fb4007c57a9ffc09c0fd3b4",
+      "bytes": 68427,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

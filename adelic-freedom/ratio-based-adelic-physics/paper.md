@@ -1,18 +1,10 @@
 # Ratio-Based Adelic Physics
 
-## Reconciling Continuous Topology and Ultrametric Complexity across Spin Glasses, Linguistics, and Cosmology
+*Reconciling Continuous Topology and Ultrametric Complexity across Spin Glasses, Linguistics, and Cosmology*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/ratio-based-adelic-physics/
-**Date:** 2026-04-06 **Version:** 1.0.2
-
-**Abstract**: The tension between continuous Archimedean
+The tension between continuous Archimedean
 spacetime paradigms and discrete, non-Archimedean topological realities
 constitutes the central mathematical bottleneck in modern complexity
 science, hindering the unification of quantum mechanics, spin glass
