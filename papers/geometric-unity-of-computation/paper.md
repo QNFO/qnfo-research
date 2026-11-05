@@ -1,15 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-email: "rowan.quni@qnfo.org"
-orcid: "0009-0002-4317-5604"
-isni: "0000 0005 2645 6062"
-doi: "https://papers.qnfo.org/papers/geometric-unity-of-computation/"
-publication date: "2025-10-24"
-version: "1.0.1"
-keywords: "symplectic geometry, bundle theory, geometric quantization, strange loops, quantum advantage, holographic principle, cross-domain isomorphism, emergent regularity, computational geometry, navigation systems"
----
-
 # Geometric Unity of Computation
 
 ## Abstract

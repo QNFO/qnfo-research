@@ -22,8 +22,6 @@ Our work addresses this gap by (i) defining a categorical model of measurement c
 
 The need for coherent cross‑context measurement has been highlighted in several recent studies. Reference [1] reports a fitted‑avatar PDF file size of 3 263 KB [1], underscoring the importance of consistent pose data across devices. In AR data analytics, a prototype visualizing population‑health biomarkers on the HoloLens notes hardware‑specific constraints [2]. The quantum‑information literature defines global coherence in bipartite discord as a form of coherence not local to either subsystem [3]. The Reality Distortion Room (RDR) experiment studied user locomotion in a spatially augmented environment [4]. Remote assistance via mixed reality required a volumetric communication system that initially suffered from latency above 3 s and was later optimized, illustrating the impact of communication constraints on cross‑context collaboration [5]. Real‑time detection of simulator sickness in VR games relies on psychophysiological signals, motivating objective, context‑consistent metrics [7]. Instant motion tracking systems achieve high frame rates, demonstrating that calibration‑free 6DoF tracking can be deployed at scale [8].  
 
-
-
 ## 3. Methods
 
 ### 3.1 Categorical Representation of Measurement Contexts
@@ -260,10 +258,6 @@ Over‑reliance on the coherence principle could mask systematic calibration err
 ## 8. Conclusion
 
 We have introduced a categorical model that treats measurement contexts as objects linked by deterministic translation morphisms and imposed a global coherence condition that guarantees a unique, context‑consistent assignment of observable values. The model mathematically excludes the existence of a context‑independent terminal object, thereby supporting the thesis that “what a thing is equals the totality of its behaviors across all measurement contexts.” A concrete numerical illustration using the volume of the Reality Distortion Room and the size of a fitted‑avatar PDF demonstrates how empirical data can be embedded within the framework. The analysis yields actionable guidance for AR/VR developers and quantum‑foundational experimenters, outlines a clear path from theory to prototype, and identifies the engineering constraints that must be satisfied. Exact counting results for abstract webs of contexts reveal a trilemma linking global consistency, absence of invariants, and aperiodicity, Future work will extend the framework to stochastic morphisms, continuous families of contexts, and large‑scale deployments, further bridging the gap between abstract coherence constraints and real‑world measurement systems.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 

@@ -1,5 +1,9 @@
 # Glossary
 
+## Abstract
+
+Acoustic/Phononic Systems: Systems that manipulate material vibrations (phonons) to encode information in collective modes and perform computation via controlled phonon-phonon interactions. Acoustic Transducers: Devices that convert electrical signals into sound waves and vice versa, used in QRC to generate or detect frequency patterns. Action Functional: A mathematical functional mapping a system’s “history” or path to a scalar value (the “action”). In General Mechanics, the principle of stationary action (\(\delta S = 0\)) governs the Universal Relational Graph (URG)‘s evolution by selecting the most probable computational histories. (Theory of General Mechanics, Section 12)
+
 ## Foundational Concepts of General Mechanics
 
 **Acoustic/Phononic Systems:** Systems that manipulate
