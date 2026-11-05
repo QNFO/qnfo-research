@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-451: A Unified Framework for Superdeterminism, Neurobiology, and the Mechanics of Human Meaning",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-451",
+      "qnfo:runPath": "runs/cycle-451/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning",
+      "qnfo:slug": "a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-05T09:31:01.517Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "A Unified Framework for Superdeterminism, Neurobiology, and the Mechanics of Human Meaning",
+      "url": "https://papers.qnfo.org/papers/a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1904.03285",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1904.03285"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2005.04544",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2005.04544"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2006.08609",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2006.08609"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2202.04977",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2202.04977"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2205.10616",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2205.10616"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2209.09724",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2209.09724"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.00311",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.00311"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.02455",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.02455"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2177",
+      "sha256": "d3d1c0630f82a1a32e79f5e0063018c718e5a4b6652f99240e69d99c52191a0d",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "73377",
+      "sha256": "53b26990e4571491f8c4910b2fc627a581f0055785ed9e6caf4c22d021bc43be",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48522",
+      "sha256": "b3eacd1be9ce462d030b91891186d45fd10f4b2fb793d25d4e3271201e1477d6",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5278",
+      "sha256": "20a8d77d81dd11577f392d5c785091544d011c4cfb212d9c9e668afdf606e5e9",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2810",
+      "sha256": "45d7eb2fafc1c52ec9fc1784d148fba78e69d48ebc5a780fcb7ac4287d1b442f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11472",
+      "sha256": "dd38a535be5328486438069bee4c0c38aeada629a20851854befc7d24aa358de",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "8141",
+      "sha256": "1cb99936a7acb6ca7e565a11051adfec053a3bf276bf6f36939f0b8bc7739dde",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15162",
+      "sha256": "bf894d1d00eafb9220f653cb7d81d16c3626c414af936c66fc577bf8bc784b13",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "27848",
+      "sha256": "24d72463c7a6eb1af5955b2bbed087982248eaee979165b99a5a814d33717e4d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1904.03285"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2005.04544"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2006.08609"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2202.04977"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2205.10616"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2209.09724"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.00311"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.02455"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-05T09:31:01.517Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

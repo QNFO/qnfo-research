@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-cfb-1000701-a",
+    "slug": "a-unified-framework-for-superdeterminism-neurobiology-and-the-mechanics-of-human-meaning",
+    "cycle": "cycle-451",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.54.0",
+    "finished_at": "2026-11-05T09:31:01.517Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "53b26990e4571491f8c4910b2fc627a581f0055785ed9e6caf4c22d021bc43be",
+      "bytes": 73377,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "b3eacd1be9ce462d030b91891186d45fd10f4b2fb793d25d4e3271201e1477d6",
+      "bytes": 48522,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "20a8d77d81dd11577f392d5c785091544d011c4cfb212d9c9e668afdf606e5e9",
+      "bytes": 5278,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "45d7eb2fafc1c52ec9fc1784d148fba78e69d48ebc5a780fcb7ac4287d1b442f",
+      "bytes": 2810,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "dd38a535be5328486438069bee4c0c38aeada629a20851854befc7d24aa358de",
+      "bytes": 11472,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "1cb99936a7acb6ca7e565a11051adfec053a3bf276bf6f36939f0b8bc7739dde",
+      "bytes": 8141,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "bf894d1d00eafb9220f653cb7d81d16c3626c414af936c66fc577bf8bc784b13",
+      "bytes": 15162,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "24d72463c7a6eb1af5955b2bbed087982248eaee979165b99a5a814d33717e4d",
+      "bytes": 27848,
+      "role": "draft"
+    }
+  }
+}
