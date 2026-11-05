@@ -1,13 +1,3 @@
----
-title: "Distinction, Number, and the Empirical Filter: The Pre-Arithmetic Research Framework"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-29"
-doi: ""
-license: "CC BY 4.0"
-status: "published"
-version: "0.2"
----
-
 # Distinction, Number, and the Empirical Filter: The Pre-Arithmetic Research Framework
 
 ## Abstract

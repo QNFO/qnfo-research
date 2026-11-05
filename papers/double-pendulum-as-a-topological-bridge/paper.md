@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/double-pendulum-as-a-topological-bridge/"
-date: "2026-01-28"
-version: "1.1"
----
-
 # Double Pendulum as a Topological Bridge
 
 *Isomorphisms between Classical Chaos, Quantum Decoherence, and Fractal Phase Space Tiling*

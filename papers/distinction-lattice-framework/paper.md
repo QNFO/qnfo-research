@@ -1,24 +1,3 @@
----
-title: "Distinction-Lattice Framework: Eigenforms, Bisimulation, and the Realizability Boundary of Self-Reference"
-author: "Rowan Brad Quni-Gudzinas"
-date: 2026-09-26
-abstract: |
-  A conservative formal version of the Distinction-Lattice Framework (DLF):
-  stable entities are bisimulation classes of observational behaviour, certified
-  coinductively, with realizability separated from fixed-point existence. This
-  version (v0.2.0, superseding v0.1.1) narrows novelty claims, corrects the
-  JPCUB/Landauer bridge, and records the QNFO archive as not yet assigned.
-keywords:
-  - distinction
-  - realizability
-  - bisimulation
-  - coalgebra
-  - eigenform
-  - fixed point
-  - self-reference
-  - Lawvere diagonal argument
----
-
 # Distinction-Lattice Framework: Eigenforms, Bisimulation, and the Realizability Boundary of Self-Reference
 
 ## Abstract

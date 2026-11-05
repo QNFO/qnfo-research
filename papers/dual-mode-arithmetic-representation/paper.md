@@ -1,14 +1,10 @@
 # Dual-Mode Arithmetic Representation
 
-## Dual-Mode Arithmetic Representation via Functorial Holography
+*Dual-Mode Arithmetic Representation via Functorial Holography*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000 0005 2645 6062
-**URL:** https://papers.qnfo.org/papers/dual-mode-arithmetic-representation/ **Publication
-Date:** 2025-10-28 **Version:** 1.0.1
+## Abstract
 
-**Abstract**: This presents a framework that resolves
+This presents a framework that resolves
 the apparent incompatibility between algebraic and geometric
 representations of natural numbers. We demonstrate that while static
 two-dimensional coordinate systems are informationally incomplete for
@@ -30,11 +26,6 @@ mathematical bridge between historical harmonic computing approaches
 (paramatrons), quantum computational models, and fundamental physics
 through the shared mathematical structure of prime-based spectral
 representations and their connection to gauge symmetries.
-
-**Keywords**: Arithmetic representation, prime
-factorization, holographic duality, category theory, Pontryagin duality,
-phase retrieval, computational complexity, mathematical monism, quantum
-computing, harmonic computing, gauge theory
 
 ## 1.0 Arithmetic Representation Problem
 

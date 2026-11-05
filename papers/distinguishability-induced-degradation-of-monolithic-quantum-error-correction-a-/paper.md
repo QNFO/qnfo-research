@@ -182,24 +182,3 @@ We have reconstructed the core quantitative claims of Ref. [2] with explicit a
 [11] Quantum Error Correction in Quaternionic Hilbert Spaces. arXiv:2504.19833v1. https://arxiv.org/abs/2504.19833v1
 [12] https://papers.qnfo.org/papers/prime-valuation-qec-implications/. QNFO: Implications for Computing and Quantum Error Correction.
 [14] https://papers.qnfo.org/papers/low-overhead-quantum-error-correction-with-boundary-connected-planar-modules-a-r/. QNFO: Low-Overhead Quantum Error Correction with Boundary-Connected Planar Modules: A Reconciled Quantitative Assessment.
-
-## Appendix A. Divergence report
-
-The three independent analyses of the same source material produced checking-time estimates of 4.8 ns, 45 ns, and 16.0 ns at $\Delta\omega = 2\pi\times1$ MHz. The divergence is a convention disagreement, not an arithmetic disagreement: (D1) the 4.8 ns draft used a linear (small-$D$) approximation $D \approx (\Delta\omega\,T_{\mathrm{check}})^2$ together with a different tolerance convention, which under-counts the logarithm and yields a shorter interval; (D2) the 45 ns draft counted the no-jump branch as a separate Kraus operator and folded the resulting rank-$3$ channel into the tolerance budget, effectively loosening $D_{\max}$ and lengthening the interval; (D3) the present draft uses the exact constraint $1 - e^{-(\Delta\omega T_{\mathrm{check}})^2} \le D_{\max}$ with $D_{\max} = 10^{-2}$ and $\sigma \simeq T_{\mathrm{check}}$, giving $T_{\mathrm{check}} \le 1.59577\times10^{-8}$ s $\approx 16.0$ ns. We adopt convention D3 because it uses the exact closed-form distinguishability rather than an approximation and treats the emission subchannel (rank $2$) as the noise process being bounded; the rank-$3$ counting of D2 is retained only as a remark in Section 4.1.
-
-## Appendix B. Claim attribution
-
-The table below maps each quantitative claim of the reconciled paper to its originating draft(s) and agreement status. Drafts are labeled A, B, and C; the reconciled convention adopted in the main text is D3 of Appendix A.
-
-| Claim | Statement | Source draft(s) | Agreement status |
-|---|---|---|---|
-| C1 | Recovered fidelity for an equal-superposition input is $F = \frac{1}{2}(1+\operatorname{Re}s)$, with $s$ the environment-state overlap. | A, B, C | CONVERGENT |
-| C2 | Fidelity lower bound $F \ge 1 - D/2$ with $D = 1 - |s|^2$. | A, B, C | CONVERGENT |
-| C3 | Gaussian-wavepacket overlap $s = e^{-\frac{1}{2}(\Delta\omega\sigma)^2}$ and distinguishability $D = 1 - e^{-(\Delta\omega\sigma)^2}$. | A, B, C | CONVERGENT |
-| C4 | Numerical values of $D$ and $F$ at $x = \Delta\omega\sigma \in \{0.1, 0.5, 1.0, 2.0\}$ (e.g., $D = 9.9502\times10^{-3}$, $F \ge 0.99502$ at $x=0.1$). | A, B, C | CONVERGENT |
-| C5 | Checking-time constraint $T_{\mathrm{check}} \le \sqrt{\ln(1/(1-D_{\max}))}/\Delta\omega$ with $D_{\max} = 10^{-2}$, giving $T_{\mathrm{check}} \le 1.59577\times10^{-8}$ s $\approx 16.0$ ns at $\Delta\omega = 2\pi\times1$ MHz. | C (adopted); A and B used different conventions | DIVERGENT (resolved as D3, Appendix A) |
-| C6 | Checking intervals at $\Delta\omega = 2\pi\times0.1$ MHz ($\approx 160$ ns) and $2\pi\times10$ MHz ($\approx 1.6$ ns) for $D_{\max} = 10^{-2}$; tenfold separation tightens the budget tenfold. | A, B, C | CONVERGENT (scaling); DIVERGENT (absolute values, resolved as D3) |
-| C7 | Alternative tolerance $D_{\max} = 10^{-4}$ at $\Delta\omega = 2\pi\times1$ MHz gives $T_{\mathrm{check}} \le 1.59155\times10^{-9}$ s $\approx 1.6$ ns. | B, C | CONVERGENT |
-| C8 | Kraus-rank statement: $|s| < 1$ raises the emission-subchannel rank from $1$ to $2$; counting the no-jump branch gives rank up to $3$. | A, B | CONVERGENT (rank-2); SINGLE (rank-3 remark, draft B) |
-| C9 | Identification $\sigma \simeq T_{\mathrm{check}}$ as the optimistic shortest-packet assignment. | C | SINGLE |
-| C10 | Divergent checking-time estimates 4.8 ns (draft A), 45 ns (draft B), 16.0 ns (draft C) at $\Delta\omega = 2\pi\times1$ MHz arise from convention differences, not arithmetic errors. | A, B, C | DIVERGENT (documented in Appendix A) |
