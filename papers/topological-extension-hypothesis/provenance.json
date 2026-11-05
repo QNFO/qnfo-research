@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/topological-extension-hypothesis"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "0e328c20826bc62c48707bda0ad685b4afce1f27482bd04a345777aa6a3bf029",
       "bytes": 93347,
       "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "dad0d0774e23b4564e6b19f540b925e73d2bbb22752a20106baa0f13bbf043ab",
+      "bytes": 93006,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.0.0",
       "git_commit": null

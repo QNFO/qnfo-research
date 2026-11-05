@@ -1,15 +1,10 @@
 # Topological Extension Hypothesis
 
-## RESOLVING DIVERGENCES VIA FINITE-SCALE MANIFOLDS IN PHYSICS, ASTROPHYSICS, GEOGRAPHY, AND COGNITION
+*RESOLVING DIVERGENCES VIA FINITE-SCALE MANIFOLDS IN PHYSICS, ASTROPHYSICS, GEOGRAPHY, AND COGNITION*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/topological-extension-hypothesis/ **Publication
-Date:** 2025-11-28 **Version:** 1.0
+## Abstract
 
-**Abstract**: Scientific modeling often relies on
+Scientific modeling often relies on
 zero-dimensional point approximations, leading to mathematical
 singularities and empirical anomalies when resolution increases.
 Existing solutions like renormalization are procedural patches that fail

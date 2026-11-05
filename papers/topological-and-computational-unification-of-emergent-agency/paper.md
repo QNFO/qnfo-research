@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/topological-and-computational-unification-of-emergent-agency/"
-date: "2026-01-21"
-version: "1.0"
-keywords: "Superdeterminism, complex systems, emergent agency, computational irreducibility, fractal invariant sets, constraint networks, Lossless Complexity Index"
----
-
 # Topological and Computational Unification of Emergent Agency
 
 *Addressing the Tension Between Micro-Deterministic Constraints and Macroscopic Stochasticity*

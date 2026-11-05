@@ -1,17 +1,6 @@
 # Topological Aliasing and Holographic Readout
 
-## A Non-Archimedean Framework for Emergent Quantum Stochasticity
-
-**Author:** Rowan Brad Quni-Gudzinas
-
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/topological-aliasing-and-holographic-readout/ **Date:**
-2026-03-23 **Version:** 1.0
+*A Non-Archimedean Framework for Emergent Quantum Stochasticity*
 
 ## 1: The Archimedean Consensus and Its Epistemic Limits
 

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/topological-aliasing-and-holographic-readout"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "0376aee6a0838f6724075eafd7305112a609554087d0d4fc36b4715a809fa16a",
       "bytes": 215616,
       "recorded_at": "2026-11-03",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "daa5eb6bc4ccadc596f90712723b132fc79b141b57cae453b13b1932aa1e435e",
+      "bytes": 215322,
+      "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

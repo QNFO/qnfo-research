@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/time-as-epistemic-cognitive-fiction/"
-date: "2026-03-19"
-version: "1.0"
----
-
 # Time as Epistemic Cognitive Fiction
 
 ## Chapter 1: The Epistemic Nature of Temporal Perception
