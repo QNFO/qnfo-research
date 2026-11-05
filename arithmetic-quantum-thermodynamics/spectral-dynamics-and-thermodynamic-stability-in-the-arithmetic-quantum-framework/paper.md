@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/spectral-dynamics-and-thermodynamic-stability-in-the-arithmetic-quantum-framework/"
-date: "2026-02-14"
-version: "1.0"
-keywords: "p-adic solenoid, Bruhat-Tits tree, ultrametric relaxation, ballistic transport, thermodynamic wall, arithmetic topology, quantum memory"
----
-
 # Spectral Dynamics and Thermodynamic Stability in the Arithmetic Quantum Framework
 
 *Reconciling Ultrametric Geometry with Macroscopic Information Storage*

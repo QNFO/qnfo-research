@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers"
-date: "2026-02-13"
-version: "1.0"
-keywords: "p-adic, Quantum Mechanics, Primality Testing, Quantum Walk, Bruhat-Tits Tree, Spectral Graph Theory, Localization, Deterministic Algorithm, Non-Archimedean Geometry, Hamiltonian Simulation, Computational Number Theory"
----
-
 # Spectral Dynamics on Bruhat-Tits Trees
 
 *A Deterministic P-adic Framework for Primality Testing*

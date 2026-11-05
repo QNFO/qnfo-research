@@ -1,15 +1,10 @@
 # Spectral Schism
 
-## Crystalline Confinement, Diffractive Fluidity, and the Thermodynamic Limit of the Riemann Hypothesis
+*Crystalline Confinement, Diffractive Fluidity, and the Thermodynamic Limit of the Riemann Hypothesis*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/spectral-schism/ **Date:**
-2025-12-05 **Version:** 2.0
+## Abstract
 
-**Abstract**: Standard analytic number theory treats the
+Standard analytic number theory treats the
 Riemann zeros as eigenvalues of a Hermitian operator acting on a rigid
 symplectic manifold. However, the asymptotic diffraction spectrum of the
 prime numbers exhibits fluid-like Lebesgue measure rather than the
@@ -20,9 +15,6 @@ reveals a phase transition where spectral rigidity collapses into
 Anderson localization at the thermodynamic limit. This finding suggests
 the Riemann Hypothesis is an effective field theory that fails at a
 specific Hagedorn temperature of arithmetic disorder.
-
-**Keywords:** spectral rigidity, diffractive fluidity,
-Ford-Maynard limit, Rindler spacetime, Hagedorn temperature
 
 ## 1.0 SPECTRAL RIGIDITY
 

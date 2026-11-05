@@ -208,10 +208,6 @@ corresponding to a projected computation time derived from the bit‑operation e
 
 ## 8. Conclusion We have introduced a deterministic primality test based on the spectral gap of finite truncations of the $(p\!+\!1)$‑regular Bruhat–Tits tree under a $PGL(2,\mathbb{Q}_p)$ automorphism derived from the integer under test. The test rests on a conjectured dichotomy: primes are expected to produce a universal lower bound on the second Laplacian eigenvalue, while composites are conjectured to force the gap to collapse inversely with tree depth; neither bound is derived in this paper, and both are stated as hypotheses. The algorithm runs in $O((\log N)^6)$ bit‑operations while offering a conceptually distinct, physically motivated approach. The numerical values presented in Section 5 are labeled projections based on assumed eigenvalues, and no numerical experiment was performed. Future work will focus on optimizing Hecke‑operator implementation, extending the analysis to other primes $p$, and integrating the algorithm into cryptographic libraries.
 
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 9 -> 8. length 4131 -> 2891 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.28.6-revision-brief-refs). Language models were tools in that process; they are not authors. The named author is accountable for the content.
