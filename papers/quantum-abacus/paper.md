@@ -1,12 +1,8 @@
 # Quantum Abacus
 
-## A Strain-Engineered Platform for Passive, Reversible Fermionic Computation
+*A Strain-Engineered Platform for Passive, Reversible Fermionic Computation*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/quantum-abacus/ **Date:**
-2026-02-09 **Version:** 1.0 ## Abstract
+## Abstract
 
 The scalability of active, gate-based quantum computers is
 fundamentally challenged by the “Thermodynamic Wall,” where the heat

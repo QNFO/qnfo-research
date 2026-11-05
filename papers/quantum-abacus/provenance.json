@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/quantum-abacus"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 65442,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "0a2ad44779ceeca9d7727d393dd0c54bd465e92ae57c598add71ab7a4a63f8bd",
+      "bytes": 65216,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

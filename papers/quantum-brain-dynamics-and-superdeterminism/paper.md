@@ -1,14 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/quantum-brain-dynamics-and-superdeterminism/"
-date: "2026-03-11"
-version: "1.0"
----
-
 # Quantum Brain Dynamics
+
+## Abstract
+
+Historically, scientists viewed the human mind as a purely chemical and electrical machine operating under standard thermodynamic laws. This classical model defines the brain as a complex network of biological wires and chemical baths, where all information processing is governed by the predictable, macroscopic movement of ions and molecules. Electrical impulses travel down cellular extensions to trigger the release of neurotransmitters across microscopic gaps, a process that unfolds with the same mechanical reliability as a simple electrical circuit. These interactions occur on a scale of milliseconds and involve millions of atoms moving in bulk, reinforcing the idea that the brain is fundamentally a slow, wet, and noisy system. The immediate consequence of this view is the assumption that all thought can be reduced to simple fluid dynamics and electrical resistance. Such a perspective aligns perfectly with a deterministic universe where large-scale chemical reactions follow predictable, unbreakable rules. Understanding these macroscopic interactions provides the necessary foundation for questioning what happens at much smaller, faster scales within the cell.
 
 ## CHAPTER 1: The Limits of Classical Neuroscience and the Quantum Shift
 

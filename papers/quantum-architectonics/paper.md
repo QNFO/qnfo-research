@@ -1,14 +1,10 @@
 # Quantum Architectonics
 
-## A Unified Framework for Substrate Engineering via Topological Genesis, Signal-Worker Dynamics, and Multi-Modal Control
+*A Unified Framework for Substrate Engineering via Topological Genesis, Signal-Worker Dynamics, and Multi-Modal Control*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/quantum-architectonics/ **Date:**
-2026-02-07 **Version:** 1.0
+## Abstract
 
-**Abstract**: The engineering of robust,
+The engineering of robust,
 decoherence-resistant topological qubits is currently impeded by a
 fragmented approach to material design that often treats control
 parameters in isolation. This study introduces and computationally
@@ -28,13 +24,6 @@ current reliance on passive geometric confinement. This work bridges the
 gap between abstract theoretical unification and physical realism,
 offering a rigorous blueprint for the next generation of fault-tolerant
 quantum materials.
-
-**Keywords**: Quantum Architectonics, Topological Order,
-Signal-Worker Dynamics, Substrate Engineering, Weyl Semimetals, Phononic
-Metamaterials, Superconducting Quadrangle, Analogue Gravity, Tensor
-Locking, Decoherence Suppression, String-Net Condensation, Lossless
-Complexity Index (LCI), Non-Markovian Dynamics, Strain Engineering,
-Fault-Tolerant Quantum Materials
 
 ## 1.0 Introduction: The Architectonic Imperative
 

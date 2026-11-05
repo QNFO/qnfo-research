@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/quantitative-simulation-of-the-brains-cognitive-architecture"
   },
   "declared": {
-    "version": "1.0.1",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 51500,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "b92f3bb0f4ec5d3e61a0e218ede47b1b07348d8e48e4cb3e948fa81ad8682089",
+      "bytes": 50955,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

@@ -1,15 +1,10 @@
 # Quantitative Simulation of the Brain's Cognitive Architecture
 
-## Addressing the Disconnect Between Abstract Formalisms and Biological Phenomena
+*Addressing the Disconnect Between Abstract Formalisms and Biological Phenomena*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/quantitative-simulation-of-the-brains-cognitive-architecture/
-**Date:** 2026-04-28 **Version:** 1.0.1
+## Abstract
 
-**Abstract**: The human brain seamlessly integrates
+The human brain seamlessly integrates
 noisy local inputs into a globally consistent percept, a phenomenon that
 Euclidean models struggle to adequately explain. Theoretical physics
 suggests that frustrated complex systems settle into hierarchical
@@ -30,10 +25,6 @@ distinct (\(p < 0.001\)). These
 findings offer a computational bridge between molecular ultrametricity
 and macroscopic cognition, addressing critical methodological and
 theoretical disconnects.
-
-**Keywords**: Ultrametricity, Cognitive Architecture,
-Cocycle Condition, Spin Glass Theory, Active Inference, P-adic Analysis,
-Computational Neuroscience
 
 ## 1.0 Introduction
 
