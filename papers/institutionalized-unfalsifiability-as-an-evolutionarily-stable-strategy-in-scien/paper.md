@@ -370,11 +370,6 @@ The **primary users** are funding‑agency program officers, journal editors, te
 
 ## 9. Conclusion We have formulated a minimal evolutionary‑game model of scientific strategy choice and derived its exact stability structure. Falsifiable practice is individually rational only when $p > p^{*}= (s+c)/(b+c)$; below this threshold the Post‑hoc strategy is a strict Nash equilibrium and therefore an evolutionarily stable strategy, with replicator dynamics driving falsifiable practice to extinction. Under the explicitly assumed parameters $b=2$, $c=1$, $s=1$, $p=0.6$, the threshold is $p^{*}=0.6667$, the payoff gap is $-0.2$, and the flip point is $b\approx2.3333$—a modest reward increase that reverses the equilibrium without altering reviewer judgment or researcher ability. The analysis converts the demarcation problem from a philosophical concern into a computable criterion: whether a knowledge system produces falsifiable science depends on its reward parameters, not on the intrinsic content of its claims. The central empirical prediction—that raising $b$ above the flip point increases the share of prospectively registered research—remains to be tested by the pilot experiment proposed in Section 8. Future work should incorporate network effects, heterogeneous accuracies, and multi‑stage decision processes, and should formalize the funder’s own optimization in the Stackelberg framework of [2].
 
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. sections folded or removed: Extended Derivations and Worked Examples. references 11 -> 10. length 4342 -> 3428 words.
-- Version 1.2.0 (2026-10-21, from 1.1.0): revised against the current literature, re-reviewed and re-verified. references 10 -> 8. length 3463 -> 4444 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.30.1-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

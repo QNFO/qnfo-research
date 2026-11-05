@@ -1,13 +1,3 @@
----
-title: "Invariant Patterns and the Adelic Refactoring of Fundamental Physics"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-04"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "invariant patterns, adelic physics, Ostrowski theorem, Bruhat--Tits tree, Compton number, dark matter, holographic principle, p-adic, distinction calculus"
----
-
 # Invariant Patterns and the Adelic Refactoring of Fundamental Physics
 
 ## Abstract

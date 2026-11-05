@@ -1,12 +1,3 @@
----
-title: "Deep-Dive Research & Critique: IQM/Deutsche Bahn Hybrid Quantum Railway Scheduling"
-author: "QNFO Research"
-date: "2026-07-22"
-doi: ""
-status: "draft"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
----
-
 # Deep-Dive Research & Critique: IQM/Deutsche Bahn Hybrid Quantum Railway Scheduling
 
 ## Abstract
