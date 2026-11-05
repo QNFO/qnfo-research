@@ -219,26 +219,3 @@ We formalized recursive model-on-model training as a compression channel and sho
 [12] https://papers.qnfo.org/papers/projective-geometric-frameworks-for-semantic-structures/. QNFO: Projective Geometric Frameworks for Semantic Structures.
 [13] https://papers.qnfo.org/papers/syntactic-generation-primitive-distinctions/. QNFO: Syntactic Generation.
 [14] https://papers.qnfo.org/papers/terminology-silos-consilience/. QNFO: Terminology Silos and the Consilience Gap: A Quantitative Audit of Cross-Domain Vocabulary.
-
-## Appendix A. Divergence report
-
-The reconciled drafts disagreed on the per-generation retention factor: draft conventions included $\rho = 0.90$ (i.e., $\varepsilon = 0.10$), $\rho = 0.85$ (i.e., $\varepsilon = 0.15$), and $\rho = 0.95$ (i.e., $\varepsilon = 0.05$). The disagreement reflects differing priors on how aggressively a recursive training loop discards tail mass; none of the drafts measured $\varepsilon$. **Resolution:** the main text adopts $\varepsilon = 0.15$ ($\rho = 0.85$) as the primary convention because it is the intermediate choice, and reports the alternatives as sensitivity: $\kappa^{\ast}$ is linear in $\varepsilon$ (Derivation 4), so $\kappa^{\ast} = 428.571429\,\varepsilon$ gives $\kappa^{\ast} \approx 42.86$ at $\varepsilon = 0.10$ and $\kappa^{\ast} \approx 21.43$ at $\varepsilon = 0.05$. The secondary-model projection in Derivation 7 uses $\rho = 0.95$ under its own declared parameters and is labeled as such. No other substantive divergences between drafts were identified; convergent claims are listed in Appendix B.
-
-## Appendix B. Claim attribution
-
-| Claim | Substance | Source drafts | Status |
-|---|---|---|---|
-| C1 | Recursive training modeled as a per-generation compression operator retaining $1-\varepsilon$ of tail-entropy mass, yielding geometric decay $H_{\mathrm{tail}}(g) = H_{\mathrm{tail}}(0)(1-\varepsilon)^{g}$ | A, B, C | CONVERGENT |
-| C2 | Consilience modeled as creation of novel cross-domain links from surviving bridge vocabulary, $\Delta C_g = \kappa p_{\mathrm{bridge}} V_g$ | A, B, C | CONVERGENT |
-| C3 | Break-even condition is generation-independent because both compression loss and consilience gain scale as $(1-\varepsilon)^{g}$, reducing to $\kappa \geq \kappa^{\ast}$ | A, B, C | CONVERGENT |
-| C4 | Empirical anchor: $97.2\%$ of external technical vocabulary occurs in exactly one discipline, giving $p_{\mathrm{bridge}} = 0.028$ [14] | A, B, C | CONVERGENT |
-| C5 | One-bit usefulness threshold reached at generation $g = 16$ under $\varepsilon = 0.15$ | A, B | CONVERGENT |
-| C6 | Re-anchoring every $m = 5$ generations sustains $8.90$ bits average tail entropy, a $67.1\%$ uplift | A, B | CONVERGENT |
-| C7 | Secondary pair-counting crossover model with link-independence assumption, reported as a labeled projection | B, C | CONVERGENT |
-| C8 | Choice of primary retention factor $\rho = 0.85$ ($\varepsilon = 0.15$) | A vs. B ($\rho = 0.90$) vs. C ($\rho = 0.95$) | DIVERGENT (resolved in Appendix A) |ed as novel cross-domain links created from surviving bridge vocabulary, with coupling $\kappa$ and empirical anchor $p_{\mathrm{bridge}} = 0.028$ from the $97.2\%$ single-discipline audit [14] | A, B, C | CONVERGENT |
-| C3 | Break-even condition is generation-independent because both sides carry $(1-\varepsilon)^{g}$; reduces to $\kappa \geq \kappa^{\ast} = \varepsilon H_{\mathrm{tail}}(0)/(\beta V_0 p_{\mathrm{bridge}})$ | A, B, C | CONVERGENT |
-| C4 | Primary convention $\varepsilon = 0.15$, $H_{\mathrm{tail}}(0) = 12$ bits, $\beta V_0 = 1$ | B (primary), A and C (as sensitivity) | SINGLE (resolved via Appendix A) |
-| C5 | One-bit usefulness threshold reached at $g = 16$ under $\varepsilon = 0.15$ | A, B | CONVERGENT |
-| C6 | Re-anchoring every $m = 5$ generations with $r = 1$ sustains $\bar{H} = 8.90$ bits, a $67.1\%$ uplift | A, B, C | CONVERGENT |
-| C7 | Secondary pair-counting crossover model with growth condition $\beta_{\mathrm{c}}^{2}\rho^{\gamma} > 1$ and projected $E_{10} \approx 99{,}524$ under $\rho = 0.95$ | C | SINGLE |
-| C8 | Interventions map to break-even terms: diversity enforcement raises $\kappa$, verification raises $\beta$, re-anchoring resets $\varepsilon$ and injects fresh $V_0$, $H_{\mathrm{tail}}(0)$ | A, B | CONVERGENT |

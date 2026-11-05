@@ -1,10 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas \\|"
-date: "2026-08-02 \\|"
-license: "QNFO-ULA: https://legal.qnfo.org/"
-keywords: "Compton frequency, Bruhat--Tits tree, [\\\\(p\\\\)]{.math .inline}-adic physics, dimensionless reformulation, place-democracy, Ostrowski's theorem, Zitterbewegung, combinatorial coordinates"
----
-
 # The Compton-Counting Ontology and the Bruhat-Tits Tree
 
 ## Abstract

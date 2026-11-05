@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/computational-benchmark-of-geometric-and-algebraic-models-for-multi-qubit-state-representation/"
-date: "2026-01-13"
-version: "1.0"
----
-
 # Computational Benchmark of Geometric and Algebraic Models for Multi-Qubit State Representation
 
 ## Abstract

@@ -1,15 +1,3 @@
----
-title: "The Computable Real Boundary: Where Physics Ends and Cognitive Fiction Begins"
-author: "QNFO Research"
-date: "2026-07-28"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
-doi: ""
-bibliography: "docs/bibliography.bib"
-version: "0.1 (Draft)"
-keywords: "computable reals, Laws of Form, Church-Turing thesis, falsifiability, cognitive fiction, Monna-map, ultrametric physics, ontological closure"
----
-
 # The Computable Real Boundary: Where Physics Ends and Cognitive Fiction Begins
 
 ## Abstract
