@@ -1,14 +1,3 @@
----
-title: "The Universe Category: A Single Functor Encoding Quantization, Stability, and Factorization"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-10"
-license: "CC BY 4.0"
-doi: ""
-status: "published"
-orcid: "0009-0002-4317-5604"
-keywords: "category theory, Morse theory, ultrametric geometry, prime factorization, topological invariants, consilience, structural realism"
----
-
 # The Universe Category: A Single Functor Encoding Quantization, Stability, and Factorization
 
 ## Abstract

@@ -1,14 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/universal-hamiltonian-as-process-verb/"
-date: "2026-01-08"
-version: "1.0"
-keywords: "Universal Hamiltonian, Process Ontology, Dedekind Infinite, Wavefunction Collapse, Quantum Thermodynamics, Process Algebra, Structural Realism"
----
-
 # Universal Hamiltonian as Process Verb
 
 *Reconciling Unitary Dynamics with Contextual Collapse via Dedekind Ontologies*

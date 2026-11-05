@@ -1,15 +1,10 @@
 # Universe as a Single Solution
 
-## Reinterpreting Bell’s Theorem in a Globally Constrained System
+*Reinterpreting Bell’s Theorem in a Globally Constrained System*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/universe-as-a-single-solution/ **Publication Date:** 2025-10-18
-**Version:** 1.0
+## Abstract
 
-**Abstract**: This paper re-examines the conclusions
+This paper re-examines the conclusions
 drawn from Bell’s theorem by critically analyzing its third, often
 unexamined, premise: Statistical Independence. While the experimental
 violation of Bell’s inequality has traditionally forced a choice between
@@ -28,10 +23,6 @@ as a “no-go” theorem for local realism, but as a diagnostic tool that
 reveals the necessity of global constraints in any such theory. The
 experimental violations are reinterpreted as the first direct evidence
 for this global structure.
-
-**Keywords**: Bell’s theorem, superdeterminism, local
-realism, statistical independence, global constraints, common cause,
-epistemic probability
 
 ### 1.0 The Bell Dichotomy and the Unexamined Premise
 

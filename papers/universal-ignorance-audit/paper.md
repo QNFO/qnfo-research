@@ -1,13 +1,3 @@
----
-title: "The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-10"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
-keywords: "ignorance; agnotology; epistemic humility; methodology; self-audit; falsifiability; AI-assisted research"
----
-
 # The Universal Ignorance Audit: A Fifteen-Question Method for Systematic Inquiry into the Structure of Not-Knowing
 
 ## Abstract
