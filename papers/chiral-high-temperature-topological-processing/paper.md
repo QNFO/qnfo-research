@@ -1,13 +1,8 @@
 # Chiral High-Temperature Topological Processing
 
-## 4-Kelvin Twistronic Architecture
+*4-Kelvin Twistronic Architecture*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/chiral-high-temperature-topological-processing/ **Date:**
-2025-12-01 **Version:** 1.0
+## Abstract
 
 By replacing active syndrome extraction with passive topological
 protection derived from the 25 meV spectral gap of 45-degree twisted

@@ -1,13 +1,8 @@
 # Chemical Category
 
-## The Chemical Category: How Nineteenth-Century Chemistry Prefigured the Logic of Structure
+*The Chemical Category: How Nineteenth-Century Chemistry Prefigured the Logic of Structure*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers/chemical-category/ **Version**: 1.0
-**Date**: 2025-09-15
+## Abstract
 
 This report posits that the major conceptual challenges of
 nineteenth-century chemistry—the crisis of atomic weights, the
