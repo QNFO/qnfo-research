@@ -24,6 +24,14 @@
       "basis": "deposit",
       "version": "v0.8.1-zenodo-real",
       "git_commit": null
+    },
+    {
+      "sha256": "91b33ded17c52f80fecf1f51fbebc882a9c17dece784dde4c2b719500beb56f5",
+      "bytes": 32109,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
+      "version": "v0.8.1-zenodo-real",
+      "git_commit": null
     }
   ],
   "events": []

@@ -1,13 +1,3 @@
----
-title: "Visual Graphs vs Matrices: Epistemic Limits, Cognitive Preference, and the Design of Understandable Computation"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-20"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-status: "published"
-keywords: ["diagrammatic reasoning", "cognitive dimensions", "ZX calculus", "representation theory", "epistemology", "design"]
----
-
 # Visual Graphs vs Matrices: Epistemic Limits, Cognitive Preference, and the Design of Understandable Computation
 
 ## Abstract

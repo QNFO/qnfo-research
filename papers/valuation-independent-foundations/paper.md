@@ -1,36 +1,3 @@
----
-title: 'Valuation Without R: A Category-Theoretic Foundation for Finite Measurement'
-author: "QNFO"
-date: "2026-08-04"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-wbs: "QNFO.UMP.004"
-abstract: >
-  Measurement in physics is always finite and approximate — yet its mathematical
-  foundations are embedded in the Archimedean continuum of real numbers and the
-  cumulative hierarchy of set theory. We invert this dependency: the act of
-  measurement is axiomatized as a graded distinguishability map $v: \mathcal{S}^2 \to \mathbb{N} \cup \{\infty\}$
-  over a poset of states satisfying the ultrametric inequality, with no dependence
-  on $\mathbb{R}$ or set-theoretic foundations. The category Val of valuation spaces with
-  non-expansive maps is self-contained — $\mathbb{R}$ appears only as a limit idealization.
-  The effective spatial dimension $d$ emerges as the exponent in the asymptotic
-  growth $N(r) \sim q^{d \cdot r}$ of the distinguishability graph at resolution $r$,
-  constrained by the cohomological consistency of the refinement sheaf across
-  resolutions. Falsifiable predictions are pre-registered at Planck-scale
-  resolution: ultrametric clustering in the distinguishability graph $G_r$
-  supersedes Euclidean nearest-neighbor structure at $r > r_c$.
-keywords:
-  - valuation
-  - ultrametric
-  - measurement
-  - p-adic
-  - distinguishability
-  - category theory
-  - dimension emergence
-  - sheaf cohomology
----
-
 # Valuation Without R: A Category-Theoretic Foundation for Finite Measurement
 
 ## Abstract

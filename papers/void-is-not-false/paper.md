@@ -1,13 +1,3 @@
----
-title: "The Void Is Not False: Recovering the Unmarked State in Logic from the Calculus of Indications"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-13"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "void; false; calculus of indications; laws of form; Boolean logic; unmarked state; negation"
----
-
 # The Void Is Not False: Recovering the Unmarked State in Logic from the Calculus of Indications
 
 ## Abstract

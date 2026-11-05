@@ -28,10 +28,6 @@ Studies of partially ordered spin liquids reveal that magnetic excitations can c
 
 The QNFO manuscript on superfluid substrates reports that superfluid helium exhibits negligible viscous damping, offering a contrasting extreme where rotational diffusion is essentially unimpeded [7]. This underscores the importance of viscosity as a control knob for dephasing.
 
-
-
-
-
 ## 3. Methods
 ### 3.1. Dephasing Model
 We model the transverse relaxation time $T_{2}^{*}$ of a spin‑bearing cluster as being limited by rotational diffusion in a viscous medium. The rotational diffusion coefficient $D_{r}$ for a spherical particle of radius $a$ in a Newtonian fluid of viscosity $\eta$ is given by the Stokes–Einstein‑Debye relation:
