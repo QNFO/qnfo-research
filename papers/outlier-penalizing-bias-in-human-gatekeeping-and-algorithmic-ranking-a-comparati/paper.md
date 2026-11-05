@@ -144,10 +144,6 @@ If algorithmic operators over‑emphasize novelty metadata without safeguards, l
 
 ## 8. Conclusion By formalizing gatekeeping as a threshold decision process and instantiating it with Bayesian evidence factors from a cross‑model convergence benchmark, we demonstrate that metadata‑driven optimization can raise algorithmic acceptance of outlier scholarly work by a factor of $\approx 4.7$, while human acceptance remains unchanged. This quantitative asymmetry supports the hypothesis that human bias is opaque and resistant to simple informational interventions, whereas algorithmic bias is statistically transparent and amenable to metadata engineering. The derived result offers a concrete target for empirical validation and informs the design of metadata standards, ranking adjustments, and editorial policies aimed at fostering interdisciplinary innovation.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 A study would be drafted, reconciled, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.43-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

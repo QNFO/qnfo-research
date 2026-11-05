@@ -1,15 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-email: "rowan.quni@qnfo.org"
-orcid: "0009-0002-4317-5604"
-isni: "0000 0005 2645 6062"
-doi: "https://papers.qnfo.org/papers/ouroboran-universe-and-nature-of-time/"
-publication date: "2025-09-25"
-version: "1.0.1"
----
-
 # The Ouroboric Universe and Time
+
+## Abstract
+
+Comprehending time’s fundamental nature exposes a foundational dissonance within modern physics. This arises from the seemingly incommensurable descriptions provided by its two most successful, yet distinct, theoretical pillars: General Relativity and Quantum Mechanics. These frameworks, individually powerful within their domains, employ different languages, assumptions, and conceptualizations of reality, creating a schism that has persisted for decades. A coherent synthesis to address “What is time?” necessitates confronting this dissonance, recognizing it not as an irreconcilable conflict, but as a crucial set of clues pointing toward a deeper, unified, underlying structure where both views hold validity from their limited perspectives. This enduring tension is rooted in a fundamental category error: the mistaken reification of epistemic models, or “maps,” for the ontological reality, or “territory,” itself.
 
 ## 1.0. Foundational Dissonance: Incommensurability of Geometric and Statistical Realities
 

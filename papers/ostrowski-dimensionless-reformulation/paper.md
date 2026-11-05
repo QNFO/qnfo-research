@@ -1,7 +1,3 @@
----
-keywords: "Ostrowski theorem, Planck units, dimensional analysis, Buckingham Pi theorem, dimensionless reformulation, place democracy, p-adic completions, 5-smooth semigroup, adele ring, Bruhat–Tits tree, cross-ratio, ratio primacy, running coupling, Tate thesis, Hensel codes, Hecke algebra, ultrametric noise, renormalization group, Standard Model"
----
-
 # The Ostrowski Dimensionless Reformulation: A Systematic Compilation of Fundamental Physics Equations in Planck Units
 
 ## Abstract
