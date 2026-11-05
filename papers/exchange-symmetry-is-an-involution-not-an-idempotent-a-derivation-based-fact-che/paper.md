@@ -251,8 +251,6 @@ This lower bound sets a *practical* limit on the temporal resolution of human‑
 | Quantitative example | \(s=1/3\) → \(|R^{2}-R|=\sqrt{3}\) | — | — | — | — |
 | Practical implication | Human‑mediated interferometry must respect $\ge$ 0.1 s | — | — | — | Provides explicit latency figure |
 
-
-
 ## 7. Discussion  
 
 ### 7.1 Limitations  

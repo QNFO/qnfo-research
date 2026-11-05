@@ -1,14 +1,10 @@
 # Excluded Middle as Computational Boundary
 
-## A Constructivist Critique of Turing Completeness
+*A Constructivist Critique of Turing Completeness*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/excluded-middle-as-computational-boundary/ **Date:**
-2026-01-27 **Version:** 1.0.1
+## Abstract
 
-**Abstract**: This research investigates the validity of
+This research investigates the validity of
 the constructivist critique of Turing completeness, which is founded
 upon the rejection of the Principle of the Excluded Middle (PEM). By
 employing a systematic, multi-layered framework, this paper deconstructs
@@ -26,11 +22,6 @@ these limitations, reframes the Von Neumann bottleneck as a physical
 manifestation of PEM, and proposes that future architectural paradigms
 may find value in embracing, rather than eliminating, logical
 indeterminacy.
-
-**Keywords:** Intuitionistic Logic, Principle of the
-Excluded Middle (PEM), Brouwer, Turing Completeness, Computability
-Theory, Constructivism, Von Neumann Architecture, Philosophy of
-Computation
 
 ## Chapter 1: Introduction
 

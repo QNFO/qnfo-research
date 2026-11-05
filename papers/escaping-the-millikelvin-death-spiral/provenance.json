@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/escaping-the-millikelvin-death-spiral"
   },
   "declared": {
-    "version": "1.0.2",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 133924,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "ba4a6b08c49a53a4b8c43c1dc4ea05be5c18231e6d7e84786dd02bb4c5e33b9e",
+      "bytes": 133474,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

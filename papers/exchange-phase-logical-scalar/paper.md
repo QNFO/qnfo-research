@@ -1,17 +1,3 @@
----
-title: "The Exchange Phase as a Logical Scalar: R = e^{2πis} from the Re-Entrant Calculus"
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-ORCID: "0009-0002-4317-5604"
-date: "2026-08-16"
-version: "1.3"
-license: "cc-by-4.0"
-doi: ""
-concept_doi: "https://papers.qnfo.org/papers"
-status: "published"
-keywords: "exchange phase; spin-statistics; topological spin; laws of form; re-entrant mark; logical scalar; anyons"
----
-
 # The Exchange Phase as a Logical Scalar: R = e^(2 pi i s) from the Re-Entrant Calculus
 
 ## Abstract

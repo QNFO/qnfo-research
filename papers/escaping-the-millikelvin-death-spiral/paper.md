@@ -1,15 +1,10 @@
 # Escaping the Millikelvin Death Spiral
 
-### A Systems Architecture for High-Tc Topological Processing
+*A Systems Architecture for High-Tc Topological Processing*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/escaping-the-millikelvin-death-spiral/ **Date:**
-2025-12-16 **Version:** 1.0.2
+## Abstract
 
-**Abstract**: Standard quantum architectures rely on
+Standard quantum architectures rely on
 dilution refrigeration to suppress thermal noise, tethering the industry
 to a non-scalable 20 mK thermal floor. The cooling power at millikelvin
 temperatures scales poorly, creating a “mainframe constraint” that
@@ -21,9 +16,6 @@ architecture, a stability margin of \(\Gamma
 \approx 20\) is achieved even with interface losses. This
 architecture eliminates the need for dilution refrigeration, enabling
 scalable, rack-mounted quantum processing.
-
-**Keywords:** twistronics, high-Tc superconductivity,
-RSFQ logic, pulse tube cryogenics, topological protection
 
 ## 1.0 INTRODUCTION
 
