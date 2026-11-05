@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/functional-decoupling-framework-for-p-adic-hamiltonian-models-of-granular-field-interactions"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 54368,
       "recorded_at": "2026-11-03",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "27a55c4b83d8dfdcbf8ad3fa74ed5c1ad11346f39c12c2f59a74bc00f9e25dc6",
+      "bytes": 53840,
+      "recorded_at": "2026-11-05",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

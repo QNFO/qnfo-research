@@ -1,19 +1,10 @@
 # Functional Decoupling Framework for p-adic Hamiltonian Models of Granular Field Interactions
 
-## Addressing Continuous Temporal Evolution versus Discrete Physical Granularity
+*Addressing Continuous Temporal Evolution versus Discrete Physical Granularity*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/functional-decoupling-framework-for-p-adic-hamiltonian-models-of-granular-field-interactions/ **Date:**
-2026-03-12 **Version:** 1.0
-
-**Abstract**: The reconciliation of continuous temporal
+The reconciliation of continuous temporal
 evolution with discrete physical granularity remains a central challenge
 in theoretical physics, requiring novel mathematical approaches to model
 localized action within unbroken fields. This study introduces a
@@ -33,11 +24,6 @@ framework provides a mathematical bridge for integrating discrete wave
 equations with continuous signaling fields, with implications for
 Einstein causality and the deterministic correlated history of
 non-Archimedean spaces.
-
-**Keywords**: p-adic Hamiltonians, functional
-decoupling, non-Archimedean physics, continuous vs discrete fields,
-fractal scale-invariant space, quantum mechanics, theoretical
-physics
 
 ## 1.0 Introduction
 

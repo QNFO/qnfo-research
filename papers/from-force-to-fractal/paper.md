@@ -1,14 +1,10 @@
 # From Force to Fractal
 
-## A Structural Realist Synthesis of Riemannian Manifolds and Invariant Set Theory
+*A Structural Realist Synthesis of Riemannian Manifolds and Invariant Set Theory*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/from-force-to-fractal/ **Date:**
-2026-02-10 **Version:** 1.0
+## Abstract
 
-**Abstract**: The transition from force-based epistemic
+The transition from force-based epistemic
 placeholders to a purely geometric ontic bedrock represents the defining
 trajectory of modern theoretical physics. By synthesizing Ontic
 Structural Realism with contemporary developments in Invariant Set
@@ -33,10 +29,6 @@ preserves structural invariants across scales. This research suggests
 that the “Information Horizon” is a hard geometric limit, and our
 current physical laws are high-resolution maps of a territory we can
 only partially resolve.
-
-**Keywords**: Structural Realism, Invariant Set Theory,
-Fractal Spacetime, p-adic Geometry, Quantum Gravity, Renormalization,
-Epistemic Placeholders
 
 ## 1.0 Introduction: The Ontic Shift
 

@@ -1,15 +1,10 @@
 # Functorial Characterization of the Prime Numbers
 
-## A Functorial Characterization of the Prime Numbers via a HoTT-Realizability-Sheaf Correspondence
+*A Functorial Characterization of the Prime Numbers via a HoTT-Realizability-Sheaf Correspondence*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Affiliation:** QNFO **Contact:**
-rowan.quni@qnfo.org **ORCID:** 0009-0002-4317-5604
-**ISNI:** 0000 0005 2645 6062 **DOI:**
-https://papers.qnfo.org/papers/functorial-characterization-of-the-prime-numbers/ **Publication Date:** 2025-10-27
-**Version:** 1.0
+## Abstract
 
-**Abstract**: This paper presents a complete theoretical
+This paper presents a complete theoretical
 characterization of the set of prime numbers, \(\mathcal{P}\), by demonstrating that it is
 the geometric support of a canonical object constructed via a
 three-stage functorial lift. This process begins in the logical stratum
@@ -27,10 +22,6 @@ in offering a complete, foundational model that explains *how*
 the logical definition of a prime number gives rise to its computational
 and geometric manifestations. The validity of the framework is
 conditional on the Baillie–PSW conjecture.
-
-**Keywords**: prime numbers, homotopy type theory,
-realizability topos, étale sheaf, functorial lift, constructible
-property, arithmetic geometry, foundational mathematics
 
 ### 1.0 The Representational Problem of Primality
 
