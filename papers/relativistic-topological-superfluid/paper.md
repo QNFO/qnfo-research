@@ -1,15 +1,10 @@
 # Relativistic Topological Superfluid
 
-## Resolving the Vacuum Rigidity Paradox via Emergent Gravity and Dynamic Mass Generation
+*Resolving the Vacuum Rigidity Paradox via Emergent Gravity and Dynamic Mass Generation*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/relativistic-topological-superfluid/ **Date:**
-2025-12-09 **Version:** 1.0
+## Abstract
 
-**Abstract**: Standard cosmological models assume a
+Standard cosmological models assume a
 static vacuum energy density, yet this premise conflicts with the
 renormalization group flow of quantum field theory and the fine-tuning
 required for dark energy. Simultaneously, high-energy astrophysical
@@ -24,9 +19,6 @@ kinematics emerge naturally from the superfluid dynamics up to the
 Planck scale. This framework resolves the “Two Vacua” crisis by
 decoupling the dynamic vacuum energy driving cosmic expansion from the
 rigid geometric background governing particle propagation.
-
-**Keywords:** running vacuum model, emergent gravity,
-topological defects, superfluidity, Lorentz invariance violation
 
 ## 1.0 INTRODUCTION: THE TWO VACUA
 

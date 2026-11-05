@@ -226,10 +226,6 @@ These quantitative outcomes connect the geometry of theory space (via $N$ or bas
 
 ## 8. Conclusion We have formalized theory space as a metric flow under the renormalization group, derived an explicit basin‑volume scaling $V_{\rm basin}(N)=1.0258\,N^{-2}$ from inflationary attractor formulas, and linked this geometric quantity to the probability of independent rediscovery of a theory. By coupling the basin‑volume analysis with concrete iteration‑count formulas for dual‑subgradient convergence, we provide a unified quantitative framework that treats physical convergence and intellectual consilience as two faces of the same RG attractor landscape. The framework yields falsifiable predictions about the decline of polygenesis with increasing efold number and about coincidence probabilities for a given basin distribution, offering a practical tool for theory developers and funding bodies to manage redundancy in scientific research. Future work should refine the metric on theory space, incorporate additional observables, and perform the proposed historical audit to test the scaling laws empirically.
 
-## Version History
-
-- Version 1.1.0 (2026-10-20, from 1.0.0): revised against the current literature, re-reviewed and re-verified. references 8 -> 8. length 3035 -> 3097 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.28.7-terminal-hard-review-selfclose). Language models were tools in that process; they are not authors. The named author is accountable for the content.

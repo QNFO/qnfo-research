@@ -1,13 +1,3 @@
----
-title: "A Pre-Registered Falsification of Deterministic Measurement-Triggered Relaxation"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-20"
-license: "CC BY-NC-SA 4.0"
-doi: ""
-version: "1.1"
-status: "published"
----
-
 # A Pre-Registered Falsification of Deterministic Measurement-Triggered Relaxation
 
 ## Abstract
