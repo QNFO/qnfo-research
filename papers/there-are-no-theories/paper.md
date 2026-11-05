@@ -1,13 +1,10 @@
 # There Are No Theories
 
-## There Are No Theories in Category-Theoretic Comprehensive Fundamental Physics
+*There Are No Theories in Category-Theoretic Comprehensive Fundamental Physics*
 
-**Author**: Rowan Brad Quni-Gudzinas
-**Affiliation**: QNFO **Email**:
-rowan.quni@qnfo.org **ORCID**: 0009-0002-4317-5604
-**ISNI**: 0000000526456062 **DOI**:
-https://papers.qnfo.org/papers/there-are-no-theories/ **Version**: 1.0
-**Date**: 2025-09-13
+## Abstract
+
+The long-sought goal of unification in theoretical physics represents more than a mere synthesis of existing theories; it mandates a fundamental shift in perspective. The traditional landscape of physics is one of distinct, specialized theories—from the probabilistic wave mechanics governing microscopic particles to the relativistic field theory of the Standard Model and the geometric theory of gravity—each with its own domain of applicability and foundational principles. These frameworks have achieved remarkable predictive success within their respective regimes. However, this fragmentation has also created a sense of ontological disjointedness, where the boundaries between theories—such as the breakdown of Quantum Field Theory (QFT) in strong gravitational fields or the emergence of classical behavior from quantum superpositions—are seen as fundamental gaps in our understanding. This perspective fundamentally misinterprets the nature of scientific description, erroneously projecting epistemological limitations onto ontological reality. This foundational error necessitates a complete re-evaluation of how unification should be pursued.
 
 ### Introduction: A Unified Understanding
 

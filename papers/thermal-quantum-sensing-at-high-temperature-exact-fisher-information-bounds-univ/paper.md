@@ -389,10 +389,6 @@ temperature‑independent only at $T=0$ and growing linearly with $T$ at high te
 
 All derivations are fully explicit, all arithmetic steps are shown, and the results are directly falsifiable by the minimal experiments described in Section 7. This work makes concrete the general claims of the underlying theory and clarifies the thermodynamic price of heating‑assisted quantum sensing.
 
-## Version History
-
-- Version 1.1.0 (2026-10-19, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Appendix A. Extended Derivations and Worked Examples; Practical Implications and Engineering Pathways; Provenance and AI Involvement. sections folded or removed: Appendix A. Divergence report; Appendix B. Claim attribution. references 9 -> 8. length 3018 -> 3591 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.27.5-revision-claimgate). Language models were tools in that process; they are not authors. The named author is accountable for the content.
