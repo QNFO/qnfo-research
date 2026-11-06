@@ -1,9 +1,5 @@
 # Unified Theory of Non-Archimedean Ontology
 
-## Abstract
-
-URL: https://papers.qnfo.org/papers/unified-theory-of-non-archimedean-ontology/ Date: 2026-03-15 Version: 1.0 The foundational premise of this framework is that the universe is constructed not from matter or energy, but from pure information. In this view, physical objects and phenomena are emergent properties that arise from underlying data structures and their processing. While classical physics regards mass and energy as fundamental, that perspective is considered incomplete here. Reality is modeled as a cosmic computational system processing vast streams of interconnected data, with the tangible world we perceive being a projection of these informational dynamics. The limits of human epistemology have historically obscured this computational nature; by shifting focus from material particles to the data they encode, a new understanding of ontology becomes possible.
-
 ## Chapter 1: Informational Ontology
 
 ### 1.1 The Base of Reality
