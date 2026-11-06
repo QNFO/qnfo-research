@@ -1,13 +1,8 @@
 # Agentic Collapse
 
-## A Time-Delayed Cybernetic Framework for Epistemic Stability in Autonomous AI Systems
+*A Time-Delayed Cybernetic Framework for Epistemic Stability in Autonomous AI Systems*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/agentic-collapse/ **Date:**
-2026-01-02 **Version:** 1.0
+## Abstract
 
 **Abstract** The transition from static Large Language
 Models to dynamic **Autonomous Agents** has introduced a

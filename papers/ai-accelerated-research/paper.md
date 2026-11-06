@@ -1,8 +1,8 @@
 # The $1,032 Research Program: What Fifty Billion Tokens Taught Me About AI-Accelerated Science
 
-*Rowan Brad Quni-Gudzinas — August 2026*
+## Abstract
 
-*Disclosure and method: this essay was drafted with AI assistance under my direction. Every figure traces to a primary record — the platform's own usage exports for the token ledger, and the public registries (the QNFO archive, ORCID, GitHub, the internal knowledge graph, the Cloudflare account) for the output inventory. Nothing here is estimated from memory.*
+A primary-source ledger of a 263-day solo AI-accelerated research program: $1,032.08 API costs, 323,381 requests, 50.11B tokens (96.4% cache-hit), 911 the QNFO archive records; measured ~60-110x cost ratio vs a US postdoc; pre-registered kill criterion Aug 2028.
 
 Between December 1, 2025 and August 20, 2026 — 263 days — I ran a personal research program on **$1,032.08** of DeepSeek API credits. The program spans ultrametric physics, information theory, laws of form, quantum error correction, and the epistemology of AI-assisted research itself. There is no lab, no grant, no institutional budget. The research staff is me, and the machine. This is the ledger of what the machine did, what it cost, and what it taught me about how science gets done when the marginal cost of a research operation falls by orders of magnitude.
 
