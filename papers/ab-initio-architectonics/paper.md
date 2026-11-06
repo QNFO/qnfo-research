@@ -1,13 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/ab-initio-architectonics/"
-date: "2026-02-01"
-version: "1.1"
----
-
 # Ab Initio Architectonics
 
 *Rethinking Fluxonium Qutrits through the Signal-Worker Ontology*
