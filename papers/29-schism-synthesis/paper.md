@@ -1,12 +1,3 @@
----
-title: "The Hidden Fractures: Self-Referential Calibration and the 29 Schisms of Physics"
-author: "QNFO Research"
-date: "2026-07-20"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
----
-
 # The Hidden Fractures: Self-Referential Calibration and the 29 Schisms of Physics
 
 ## Abstract
