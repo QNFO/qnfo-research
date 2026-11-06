@@ -2,6 +2,10 @@
 
 *Reconciling Cognitive World-Models with the Clockwork Universe*
 
+## Abstract
+
+URL: https://papers.qnfo.org/papers/simulated-stability-and-the-superdeterministic-quantum-machine/ Date: 2026-03-05 Superdeterminism is a deterministic interpretation of quantum mechanics. It posits that all events are fundamentally predetermined. This includes the choices made by conscious observers. True randomness does not exist in this model. Every particle follows a strict, unalterable historical trajectory. The future is as fixed as the past. The universe unfolds according to absolute initial conditions.
+
 ## CHAPTER 1: The Physical Reality of Superdeterminism and Entropy
 
 **1.1 Defining Superdeterminism in Quantum
