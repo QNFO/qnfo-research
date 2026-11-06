@@ -1,13 +1,3 @@
----
-title: "Adelic Quantum Error Correction: A Synthesis Across All Primes"
-author: "Rowan Quni-Gudzinas (QNFO/QWAV)"
-date: "2026-06-05"
-license: "QNFO Unified License Agreement (QNFO-ULA) — https://legal.qnfo.org/"
-doi: ""
-abstract: >
-  The $p$-adic quantum error correction program has developed three independent but connected strands: a mathematical theory of $p$-adic stabilizer codes (Phase A), an experimental protocol to test for ultrametric error structure (Phase B), and a hardware co-design proposal for tree-structured qubit layouts (Phase C). These strands share a common origin in the ultrametric geometry of the $p$-adic numbers $\mathbb{Q}_p$, but they treat each prime $p$ in isolation. Number theory provides a deeper unification: the adele ring $\mathbb{A}$, which stitches together all completions of $\mathbb{Q}$ — the real numbers $\mathbb{R}$ (Archimedean) and all $p$-adic fields $\mathbb{Q}_p$ (non-Archimedean) — into a single locally compact topological ring. The adelic product formula $\prod_{p \leq \infty} |x|_p = 1$ implies that contributions from all primes are balanced: what is gained in one completion is lost in another. We propose that quantum error correction should be formulated on the adele ring rather than on any single completion. In this framework, a physical qubit lives in real (Archimedean) spacetime but its errors exhibit ultrametric structure across a hierarchy of primes. The adelic QEC program synthesizes Phases A–C into a unified architecture: $p$-adic codes at each prime protect against hierarchical errors, a real (Archimedean) surface code protects against local errors, and the adelic product formula governs the trade-off between them. We sketch the construction of adelic stabilizer codes over $\mathbb{A}^n$, formulate the adelic code distance as a function of the local distances at each completion, and discuss the physical interpretation: errors in quantum systems may span multiple primes, reflecting deeper arithmetic structure in quantum dynamics.
----
-
 # Adelic Quantum Error Correction: A Synthesis Across All Primes v1.0.0
 
 ## Abstract

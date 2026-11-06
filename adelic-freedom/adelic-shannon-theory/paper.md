@@ -1,13 +1,3 @@
----
-title: "Adelic Shannon Theory: From Problem Statement to Constructive Foundations"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-20"
-license: "CC-BY-4.0"
-doi: ""
-status: "published"
-keywords: "adelic Shannon theory, $p$-adic entropy, channel capacity, Poisson summation, Gaussian, adele ring, information theory, ultrametric noise, source coding, Khrennikov probability"
----
-
 # Adelic Shannon Theory: From Problem Statement to Constructive Foundations
 
 ## Abstract

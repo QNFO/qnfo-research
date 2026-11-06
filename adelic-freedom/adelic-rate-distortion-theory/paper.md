@@ -1,13 +1,3 @@
----
-title: "Adelic Rate-Distortion Theory: The p-Adic Distortion Measure and the Adelic Information-Rate Function"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-30"
-license: "CC-BY-4.0"
-doi: "[PENDING-the QNFO archive]"
-status: "draft"
-keywords: "rate-distortion theory, p-adic distortion, adelic information vector, entropic number, Gaussian source, source coding, adelic compression, Shannon lower bound"
----
-
 # Adelic Rate-Distortion Theory: The p-Adic Distortion Measure and the Adelic Information-Rate Function
 
 ## Abstract

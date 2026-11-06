@@ -1,10 +1,3 @@
----
-author: "Rowan Brad Quni-Gudzinas |"
-date: "2026-07-05 |"
-license: "QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/"
-keywords: "adelic, quantum error correction, Bruhat-Tits, $p$-adic, stabilizer codes, CSS, holography, perfect tensors"
----
-
 # Adelic Quantum Error Correction: Code Constructions Beyond the Stabilizer Formalism
 
 ## Abstract
