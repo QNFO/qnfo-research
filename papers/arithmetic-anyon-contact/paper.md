@@ -1,29 +1,3 @@
----
-title: "Arithmetic Anyons: The Bounded-Occupation Family, Gentile Statistics, and the Roots of Unity That Carry Braid Phases"
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-ORCID: "0009-0002-4317-5604"
-date: "2026-08-27"
-license: "cc-by-4.0"
-status: "published"
-version: "1.0.0"
-doi: ""
-concept_doi: "https://papers.qnfo.org/papers"
-abstract: |
-  Three spatial dimensions admit exactly two exchange statistics for identical particles, and a recent record reads the two occupation distributions as maximum-entropy occupations of one integer lattice under two multiplicity rules, closing with an open correspondence: the bounded-occupation family interpolates between the fermionic and bosonic cases and is proposed as the arithmetic object that intermediate (anyonic) statistics must contact. This paper settles the correspondence computationally. The family is the partition function of Gentile intermediate statistics — an occupation cap per mode — and it carries no exchange phase for any cap: permuting occupation labels yields only the signs $\pm 1$, every observable is invariant under any inserted phase, and the canonical symmetric reading assigns the phase $+1$ for every cap, including the cap that reproduces Fermi counting, where fermions carry $-1$. The correspondence with Fermi counting is therefore a counting isomorphism, not an exchange-phase isomorphism. The arithmetic objects that carry the phases realized in the standard anyon models are multiplicative characters at roots of unity: the Laughlin exchange phase at filling $1/m$ is a primitive $2m$-th root of unity, and the Fibonacci braid eigenvalues are powers of $e^{i\pi/5}$. The prime-gap structure supplies a computable distinguishing observable: the specific heat of the primon gas deviates from the smooth-density-of-states ideal gas at every sampled temperature, by up to roughly three quarters at low temperature, in both statistics. The claims are isomorphisms of mathematical structure; the spin-statistics boundary is respected; every quantitative statement is reproduced by the deposited verification scripts.
-keywords:
-  - anyons
-  - Gentile statistics
-  - Haldane exclusion statistics
-  - roots of unity
-  - Riemann gas
-  - Bose-Einstein statistics
-  - Fermi-Dirac statistics
-  - bounded occupation
-  - zeta function
-bibliography: "references.bib"
----
-
 # Arithmetic Anyons: The Bounded-Occupation Family, Gentile Statistics, and the Roots of Unity That Carry Braid Phases
 
 ## Abstract

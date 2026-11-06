@@ -1,12 +1,3 @@
----
-title: "Anthropometric Fossils — A Systematic Catalog of Human Cognitive Imprints in the International System of Units"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-18"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "PLACEHOLDER"
-status: "draft"
----
-
 # Anthropometric Fossils: A Systematic Catalog of Human Cognitive Imprints in the International System of Units
 
 ## Abstract

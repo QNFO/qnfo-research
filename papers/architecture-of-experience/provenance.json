@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/architecture-of-experience"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "04021142d5f58c7c222e6cc12793d7ea3c893e84cabf4c4ceb5452dc6e20f4e8",
       "bytes": 135558,
       "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "84c88829847a96ecb2bc366b2a0c2998768450799d50e1649a1d800395291fc4",
+      "bytes": 136154,
+      "recorded_at": "2026-11-06",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

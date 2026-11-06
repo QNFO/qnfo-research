@@ -1,16 +1,10 @@
-# THE ARCHITECTURE OF
+# THE ARCHITECTURE OF EXPERIENCE
+
+*Deconstructing the Interface of Perception*
 
 ## Abstract
 
-EXPERIENCE
-
-## Deconstructing the Interface of Perception
-
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-0009-0002-4317-5604 **ISNI:** 0000000526456062
-**URL:** https://papers.qnfo.org/papers/architecture-of-experience/ **Date:**
-2026-02-09 **Version:** 1.0 |
+The universe is saturated with a chaotic ocean of energy that we call the electromagnetic spectrum. This spectrum stretches from the longest radio waves, which can be miles long, to the shortest gamma rays, which are smaller than an atom. Between these two extremes lies an infinite gradation of energy frequencies that carry detailed information about the state of the cosmos. However, the human biological system is not designed to detect this information in its entirety. We are like a simple radio receiver permanently tuned to one single station while a million other channels broadcast in silence. Our eyes can only detect a tiny sliver of this reality, a narrow band we call “visible light.” This band is so small that if the spectrum were a road stretching across a continent, our visual capacity would be less than an inch.
 
 ## CHAPTER 1: THE LIMITS OF DIRECT SENSATION
 
