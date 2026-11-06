@@ -1,7 +1,3 @@
----
-keywords: "Non-Hermitian Topology, Non-Markovian Dynamics, Stochastic Resonance, Adaptive Control, Thermodynamic Computing"
----
-
 # Adaptive Thick Skin
 
 ## Abstract
