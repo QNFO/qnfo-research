@@ -1,12 +1,3 @@
----
-title: "When Will Non-Archimedean Geometry Displace the Real Numbers? A Structured Assessment of the Adelic Substrate Thesis"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-01"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
----
-
 # When Will Non-Archimedean Geometry Displace the Real Numbers? A Structured Assessment of the Adelic Substrate Thesis
 
 ## Abstract

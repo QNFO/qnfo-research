@@ -1,13 +1,3 @@
----
-title: "Extending v_p^max Code Classification: Testing the Mahler Spectral Conjecture on Additional Stabilizer Code Families"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-01"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
-version: "1.0"
-keywords: "v_p^max, Mahler expansion, stabilizer codes, Golay code, 2-adic valuation, code classification"
----
-
 # Extending v_p^max Code Classification: Testing the Mahler Spectral Conjecture on Additional Stabilizer Code Families
 
 ## Abstract
@@ -122,9 +112,3 @@ Status: [PENDING]
 5. Laflamme, R. et al. (1996). Perfect quantum error correcting code. Phys. Rev. Lett. 77, 198.
 6. Kitaev, A.Yu. (2003). Fault-tolerant quantum computation by anyons. Ann. Phys. 303, 2.
 7. Fowler, A.G. et al. (2012). Surface codes: Towards practical large-scale quantum computation. Phys. Rev. A 86, 032324.
-
-## Version History
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| 1.0 | 2026-08-01 | Initial (ACRP-06 deliverable) |

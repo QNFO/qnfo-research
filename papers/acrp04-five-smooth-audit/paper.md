@@ -1,13 +1,3 @@
----
-title: "Statistical Audit of the Pythagorean Semigroup Mass-Ratio Claim"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
-version: "1.0"
-keywords: "3-smooth numbers, mass ratios, look-elsewhere effect, numerology, PDG, Monte Carlo"
----
-
 # Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim
 
 ## Abstract
@@ -203,9 +193,3 @@ Status: [RESOLVED — TRIVIAL PASS]
 - ACRP Program Plan v1.0 (R2: `qnfo-releases/programs/acrp/ADELIC-CORE-PROGRAM-PLAN-v1.0.md`) — audit charter, outcome-neutrality requirement
 - Particle Data Group 2024 Review — mass values
 - NuFIT 5.3 (2024) — neutrino oscillation parameters
-
-## Version History
-
-| Version | Date | Changes |
-|:--------|:-----|:--------|
-| 1.0 | 2026-07-31 | Initial statistical audit (ACRP-04 deliverable) |

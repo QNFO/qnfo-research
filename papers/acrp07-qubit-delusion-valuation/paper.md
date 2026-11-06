@@ -1,12 +1,3 @@
----
-title: "The Valuation Reading of the Qubit Delusion: Is the Adelic Kernel Load-Bearing?"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-01"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
----
-
 # The Valuation Reading of the Qubit Delusion: Is the Adelic Kernel Load-Bearing?
 
 ## Abstract
