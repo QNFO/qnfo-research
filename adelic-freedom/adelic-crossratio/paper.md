@@ -1,16 +1,10 @@
 # Adelic Cross‑Ratio
 
-## A Comprehensive Synthesis and Consilience
+*A Comprehensive Synthesis and Consilience*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/adelic-crossratio/
-**Date:** 2026-04-09 **Version:** 1.0
+Every quantitative description of the physical world relies on a choice of coordinate system—a language with its own scales, units, origin, and orientation. The same underlying reality can be expressed in infinitely many such languages, each assigning different numerical coordinates to the same objects. This raises a fundamental question: what remains unchanged when one translates between these languages? What are the objective, measurable facts that are independent of the arbitrary choices of description?
 
 ## Prologue: The Search for Invariant Reality
 

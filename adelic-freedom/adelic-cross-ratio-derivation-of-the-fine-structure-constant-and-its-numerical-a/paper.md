@@ -25,9 +25,7 @@ If α could be expressed as a geometric or arithmetic invariant, the constant wo
 
   
 
-
-## 3. Methods
-We adopt the following logical chain:
+## 3. Methods We adopt the following logical chain:
 
 1. **Length‑scale definition.** The electron classical radius $r_{e}$ and Compton wavelength $λ_C$ are defined by  
    $$r_e = \frac{e^2}{4\pi\varepsilon_0 m_e c^2},\qquad 

@@ -1,13 +1,3 @@
----
-title: "The Adelic Distinction: Physics as Automorphic Representation Theory on the Idele Class Group"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-04"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "published"
-keywords: "adeles, idele class group, Bruhat-Tits tree, Ostrowski's theorem, automorphic representations, distinction network, product formula, $p$-adic physics, cosmological constant, Riemann hypothesis"
----
-
 # The Adelic Distinction: Physics as Automorphic Representation Theory on the Idele Class Group
 
 ## Abstract

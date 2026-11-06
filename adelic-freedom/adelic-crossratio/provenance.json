@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/adelic-crossratio"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 117446,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "c34a88f32be70a9dcf8df689124aaebffdd1c45270859e35675c3f854d9dedd7",
+      "bytes": 117627,
+      "recorded_at": "2026-11-06",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }
