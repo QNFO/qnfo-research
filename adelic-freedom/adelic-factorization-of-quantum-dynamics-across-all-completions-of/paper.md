@@ -238,10 +238,6 @@ These constraints are identified from the methodological requirements of Section
 
 ## 8. Conclusion A speculative yet concrete program for factorizing quantum dynamics across all completions of ℚ has been outlined. By leveraging adelic constructions from arithmetic geometry [1, 6] and grounding the discussion in real‑world fidelity data [2], the work demonstrates how local‑place metrics can be combined through an adelic product, yielding a lower overall performance figure. The formal adelic path‑integral, the p‑adic model sketches, the explicit verification of the product formula, and the exact arithmetic aggregation together define a methodological pathway for future research. The central conjecture—that the Archimedean real numbers arise as a global consistency artifact rather than a fundamental necessity—remains open and invites both mathematical refinement (regularization of infinite products, construction of p‑adic Hilbert spaces) and experimental scrutiny (prototype p‑adic simulations on quantum hardware).
 
-## Version History
-
-- Version 1.1.0 (2026-10-19, from 1.0.0): REVISION-LOOP-1: revised against the current literature, re-reviewed and re-verified. new sections: Practical Implications and Engineering Pathways; Provenance and AI Involvement. references 12 -> 10. length 2793 -> 3287 words.
-
 ## Provenance and AI Involvement
 
 - This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.27.5-revision-claimgate). Language models were tools in that process; they are not authors. The named author is accountable for the content.

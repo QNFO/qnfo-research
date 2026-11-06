@@ -1,13 +1,3 @@
----
-title: "The Adelic Physics Program: Epistemological Foundations and Communications Framework — A Synthesis and Survey"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-29"
-license: "CC-BY-4.0"
-doi: ""
-status: "published"
-keywords: "adelic physics, Ostrowski's theorem, p-adic numbers, Bruhat-Tits trees, Laws of Form, ontological closure, finite information quantities, Langlands program, quantum foundations, epistemology of physics"
----
-
 # The Adelic Physics Program: Epistemological Foundations and Communications Framework
 
 ## Abstract

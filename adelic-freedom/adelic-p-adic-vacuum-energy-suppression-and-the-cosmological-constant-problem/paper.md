@@ -248,9 +248,7 @@ The result is directly relevant to theoretical cosmologists and high‑energy ph
 
 ### (e) Projected Cost and Performance Bounds
 
-
-### (f) Risks and Misuse Paths
-A possible risk is the misinterpretation of the adelic cancellation as a justification for discarding the cosmological constant problem without experimental verification, leading to premature abandonment of alternative dark‑energy models. Care must be taken to present the result as a hypothesis awaiting falsification.
+### (f) Risks and Misuse Paths A possible risk is the misinterpretation of the adelic cancellation as a justification for discarding the cosmological constant problem without experimental verification, leading to premature abandonment of alternative dark‑energy models. Care must be taken to present the result as a hypothesis awaiting falsification.
 
 ## 8. Conclusion By extending the field of description from the real numbers to the full adele ring, we have shown that the product formula $\prod_{v}|q|_{v}=1$ enforces an exact cancellation of the divergent real‑sector vacuum energy for each rational momentum mode. A concrete arithmetic demonstration for the test mode $q=2$ confirms the cancellation, and a matching condition with $p=3$ yields a residual vacuum energy density of order $10^{-47}\,\text{GeV}^4$, matching the observed dark‑energy density without fine‑tuning. The analysis relies on a sign prescription for $p$‑adic zero‑point energies and a $p^{-k}$ decay law for the $p$‑adic vacuum contribution. While the result is promising, it rests on several assumptions that can be experimentally probed via quantum‑simulation of $p$‑adic oscillators. If validated, the adelic framework would transform the cosmological constant problem from a hierarchy puzzle into a structural identity of number theory, opening a new research direction at the intersection of arithmetic geometry and fundamental physics.
 

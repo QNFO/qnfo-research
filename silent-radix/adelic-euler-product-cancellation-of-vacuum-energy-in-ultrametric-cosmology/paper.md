@@ -22,8 +22,6 @@ Large‑scale structure surveys such as LSST aim to measure dark‑energy parame
 
 Exact quantum‑classical correspondence in minisuperspace models shows that for a Friedmann universe with energy density scaling as $a^{-n}$, the Wheeler–DeWitt equation reproduces classical dynamics when $n=2$ [3]. This illustrates that specific matter‑energy scalings can simplify quantum cosmology, motivating the search for alternative completions of the underlying field theory.
 
-
-
 Non‑singular cyclic cosmologies avoid the initial singularity by introducing exotic fluids with negative effective energy density, yet such fluids typically suffer from quantum instabilities [5].
 
 Ultrametric mathematics supplies the formalism for $p$‑adic spaces. The embedding and extension theorems for ultrametrics [6] guarantee that any finite metric space can be represented as a tree‑like structure (Bethe lattice), which is the natural setting for $p$‑adic field theory. The strong triangle inequality $d(x,y)\le\max\{d(x,z),d(z,y)\}$ (Equation 1.1 in [6]) underpins the hierarchical suppression of high‑frequency modes.
@@ -31,8 +29,6 @@ Ultrametric mathematics supplies the formalism for $p$‑adic spaces. The embedd
 Running vacuum models with spatial curvature show that curvature modifies matter perturbations and can be incorporated into the Friedmann equations [7]. Although these models retain the real number field, they illustrate how additional geometric ingredients affect vacuum dynamics.
 
 The adelic perspective treats the product formula $\prod_{v}|q|_{v}=1$ as a universal invariant that enforces conservation laws and cancels UV divergences [9]. This identity directly links the Archimedean absolute value $|q|_{\infty}$ with all $p$‑adic absolute values $|q|_{p}$, providing the mathematical backbone for the cancellation conjecture.
-
-
 
 Finally, Ostrowski’s theorem classifies all non‑trivial absolute values on $\mathbb{Q}$, showing that the Archimedean and $p$‑adic valuations exhaust the possibilities [10]. This theorem justifies treating the set of completions as exhaustive for number‑theoretic cancellations.
 
@@ -203,10 +199,6 @@ The primary users are theoretical cosmologists and high‑energy physicists deve
 ### 7.6 Risks and Misuse A potential risk is the misinterpretation of the adelic cancellation as justification for discarding all vacuum‑energy contributions in phenomenological models, which could lead to inconsistencies with well‑tested low‑energy physics (e.g. Casimir effect). Careful cross‑validation with established experiments is required.
 
 ## 8. Conclusion We have presented a concrete arithmetic demonstration that the adelic Euler product over all completions of $\mathbb{Q}$ cancels the divergent real‑sector vacuum energy for a representative rational mode. Extending this mechanism to a free scalar field on a regular Bethe lattice yields a matching condition for the $p$‑adic oscillator frequency and a convergence law $b\le p$. The resulting effective vacuum energy density can be reduced to the observed dark‑energy scale without invoking new fields or fine‑tuned counterterms. While the analysis is limited to free fields and relies on a sign prescription for $p$‑adic zero‑point energies, it opens a clear experimental pathway via quantum simulation of $p$‑adic oscillators. Confirmation would constitute a paradigm shift in how vacuum energy is treated in cosmology, turning the cosmological constant problem from a hierarchy issue into a topological identity.
-
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
 
 ## Provenance and AI Involvement
 

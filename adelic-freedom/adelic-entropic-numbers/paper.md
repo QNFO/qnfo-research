@@ -1,13 +1,3 @@
----
-title: "Adelic Entropic Numbers: When the Adelic Information Vector Becomes the Entropic Number"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-30"
-license: "CC-BY-4.0"
-doi: "[PENDING-the QNFO archive]"
-status: "draft"
-keywords: "entropic number, adelic information vector, p-adic entropy, measurement stratigraphy, Gaussian, max-entropy, AI safety, honest numbers"
----
-
 # Adelic Entropic Numbers: When the Adelic Information Vector Becomes the Entropic Number
 
 ## Abstract

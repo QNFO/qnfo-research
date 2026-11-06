@@ -1,27 +1,3 @@
----
-title: "Adelic Quantum Arithmetic: Particles as Prime Factors"
-author: "Rowan Brad Quni-Gudzinas"
-affiliation: "QNFO"
-ORCID: "0009-0002-4317-5604"
-date: "2026-08-27"
-license: "cc-by-4.0"
-status: "published"
-version: "1.1.0"
-doi: ""
-bibliography: "references.bib"
-abstract: |
-  Standard quantum mechanics is written in the Archimedean completion of the rational numbers: Hilbert space over the complex numbers uses only the real place, one among all completions classified by Ostrowski's theorem. The primes are the other places, and their structure is multiplicative — unique factorization — never additive. Two published results show that the statistics binary is the multiplicative readout of a single integer lattice: the unrestricted exponent rule gives the Riemann zeta function and Bose–Einstein occupation; the squarefree rule, each prime dividing at most once, gives a ratio of two zeta values and Fermi–Dirac occupation. A third record settles the continuation: the bounded-occupation family interpolates between the two statistics but carries no exchange phase for any occupation cap; the phases realized in the standard anyon models are multiplicative characters at roots of unity, and the prime-gap structure supplies a computable distinguishing observable in the primon-gas specific heat. This paper renders the line as one readable map — the thesis, the proofs, the adjudicated continuation — and adds what the individual records do not carry: a practitioner-facing crosswalk that reads particle species as prime factors, and a separation of what is proved, what is conjectured, and what is disconfirmed. The claims are isomorphisms of mathematical structure; no physical particle is implied; and the premises end where the identification of a physical temperature at the p-adic place begins.
-keywords:
-  - Bose-Einstein statistics
-  - Fermi-Dirac statistics
-  - adelic quantum mechanics
-  - p-adic places
-  - unique factorization
-  - squarefree integers
-  - Gentile statistics
-  - practitioner crosswalk
----
-
 # Adelic Quantum Arithmetic: Particles as Prime Factors
 
 ## Abstract
