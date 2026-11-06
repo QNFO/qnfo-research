@@ -261,10 +261,6 @@ The central result of this paper is the factor-3.47 gap between the seed fractio
 
 This paper built a typed-agent framework for social dynamics — four particle classes, four interaction channels, an effective potential in the restricted quartic form of [8] — and derived its first quantitative consequences under fully stated assumptions. The principal analytical results are: a critical seed fraction of 0.19231 for the typed model against 0.6667 for the homogeneous baseline, a factor of 3.47; weak-event conversion probabilities of 0.39347 for baryons versus 0.09516 for leptons over 100 days, a ratio of 4.13, with 78.70 projected second-order adopters; a dark-sector reach bias factor of 2.941 at $f_D = 0.66$; a parameter cost of 60 extra couplings with AIC and BIC break-even log-likelihood gains of 60 and 207.24 and a specification cost of 694.18 bits; and a spinodal field $|h_{\text{spin}}| = 0.3849$ for the gravity channel. Following the advice of [7] to be wrong in a meaningful way, the paper states its own falsification condition: if type-targeted seeding shows no advantage over random seeding on real graphs once measured weights are used, the framework's 60 extra parameters buy nothing and it should be discarded. The next step is the simulation study specified in Section 7(c), on the graph families of [4], with snapshot-difference analysis in the sense of [3]; until that is done, every number here is a design-study projection, not a finding about the world.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.18.42-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

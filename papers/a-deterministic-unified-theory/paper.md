@@ -1,14 +1,6 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "[rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)"
-orcid: "0009-0002-4317-5604"
-isni: "0000000526456062"
-url: "https://papers.qnfo.org/papers/a-deterministic-unified-theory/"
-date: "2026-03-12"
-version: "1.0"
----
-
 # Deterministic Unified Theory
+
+## Abstract
 
 **CHAPTER 1: REFRAMING REALITY: BEYOND OBJECTS AND
 RANDOMNESS**

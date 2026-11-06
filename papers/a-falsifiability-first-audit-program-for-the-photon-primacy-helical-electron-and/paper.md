@@ -304,11 +304,6 @@ Addressing these questions will require coordinated theoretical work (to sharpen
 
 The FFAP provides a transparent, reproducible workflow that can be extended to other speculative frameworks. Its value lies not in “killing” the entire cluster but in **identifying precisely which components survive empirical scrutiny and what experimental resources are required to test the remaining open questions**. Future work will refine kill conditions, improve null models, and develop the necessary ion‑trap metrology to close the remaining gaps.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-- Version 1.0.2 (2026-10-19, from 1.0.1): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## References
 
 [1] Pseudomonads and Descent, PhD Thesis (Chapter 1). arXiv:1802.01767v3. https://arxiv.org/abs/1802.01767v3

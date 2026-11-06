@@ -24,6 +24,14 @@
       "basis": "deposit",
       "version": "1.0.1",
       "git_commit": null
+    },
+    {
+      "sha256": "a641428ad643e0a9b55df2f06918b6c489b73e7c34e166e0f6b39adb19027806",
+      "bytes": 35772,
+      "recorded_at": "2026-11-06",
+      "basis": "revision",
+      "version": "1.0.1",
+      "git_commit": null
     }
   ],
   "events": []
