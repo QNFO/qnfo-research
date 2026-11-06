@@ -1,5 +1,9 @@
 # The Generative Engine
 
+## Abstract
+
+The “generative engine” is a conceptual metaphor employed to describe the coherent, interdependent set of fundamental processes (operational dynamics) and inherent regulative principles (meta-logic) that constitute the intrinsic modus operandi of autaxys. It is crucial to clarify that this “engine” is not a separate entity acting on autaxys, nor is it a literal machine with distinct parts. Rather, the generative engine is the dynamic, processual nature of autaxys itself—it is the articulation of how autaxys is and does. Its singular function, from which all else derives, is to spontaneously and continuously generate all discernible order, complexity, and patterned phenomena from an initially undifferentiated state of pure potentiality, without recourse to external input or pre-existing blueprints. This engine is self-sufficient and its rules are immanent.
+
 ***[A New Way of
 Seeing](_New%20Way%20of%20Seeing.md)***
 
