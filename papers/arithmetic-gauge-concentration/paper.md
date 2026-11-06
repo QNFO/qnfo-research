@@ -1,15 +1,10 @@
 # Arithmetic Gauge Concentration
 
-## The Emergence of Prime Determinism via Reynolds-Lévy Projection
+*The Emergence of Prime Determinism via Reynolds-Lévy Projection*
 
-**Author:** Rowan Brad Quni-Gudzinas
-**Contact:** rowan.quni@outlook.com **ORCID:**
-[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
-**ISNI:** [0000000526456062](https://isni.org/isni/0000000526456062)
-**URL:** https://papers.qnfo.org/papers/arithmetic-gauge-concentration/ **Date:**
-2025-12-03 **Version:** 1.0
+## Abstract
 
-**Abstract**: Analytic number theory traditionally
+Analytic number theory traditionally
 relies on probabilistic models to describe the asymptotic distribution
 of prime numbers, treating them as independent random variables.
 However, this approach fails to account for the deterministic rigidity
@@ -26,10 +21,6 @@ terms bounded by the variance decay of high-dimensional measures. This
 framework establishes prime numbers not as fundamental discrete objects,
 but as the emergent structural residues of a symmetry reduction
 process.
-
-**Keywords:** Reynolds operator, geometric
-concentration, arithmetic dynamics, invariant theory, structural
-realism, prime distribution
 
 ## 1.0 Introduction
 

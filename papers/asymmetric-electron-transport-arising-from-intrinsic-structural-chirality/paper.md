@@ -1,15 +1,8 @@
----
-author: "Rowan Brad Quni-Gudzinas"
-email: "rowan.quni@outlook.com"
-orcid: "[0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)"
-isni: "[0000000526456062](https://isni.org/isni/0000000526456062)"
-url: "https://papers.qnfo.org/papers/asymmetric-electron-transport-arising-from-intrinsic-structural-chirality/"
-date: "2025-12-20"
-version: "1.0 **Abstract**: A significant theoretical gap exists between the microscopic observation of chiral electronic structures, such as orbital angular momentum (OAM) monopoles in B20-type semimetals, and the macroscopic measurement of non-reciprocal transport phenomena like the electrical magneto-chiral anisotropy (eMChA), which have been primarily studied in different material classes. To bridge this conceptual gap, this paper develops and analyzes a phenomenological model based on a one-dimensional Langevin equation for a charge carrier. The model incorporates the central hypothesis that intrinsic structural chirality manifests as an asymmetric, velocity-dependent scattering term, parameterized by a dimensionless chirality factor, λ. The methodology involves solving the governing stochastic differential equation numerically for two opposing enantiomers (λ = ±0.1). The simulation results demonstrate a clear and substantial non-reciprocal effect, yielding distinct terminal velocities that correspond to a large chiral asymmetry coefficient of approximately 9.85%. The right-handed system (λ = +0.1) converges to a terminal velocity of 1.0967 (normalized units), while the left-handed system (λ = -0.1) converges to 0.9001. Crucially, the model correctly reproduces the fundamental symmetry of enantiomeric reversal. This work establishes asymmetric scattering as a sufficient and powerful mechanism to explain large non-reciprocal transport effects. The key implication is that the transport signatures of intrinsic chirality should be readily measurable, motivating a targeted experimental search for non-reciprocal effects in the B20 compounds where pristine chiral electronic textures have been confirmed."
-keywords: "Chiral Crystals, Non-Reciprocal Transport, Langevin Dynamics, Topological Semimetals, Orbital Angular Momentum, Asymmetric Scattering, Computational Physics"
----
-
 # ASYMMETRIC ELECTRON TRANSPORT ARISING FROM INTRINSIC STRUCTURAL CHIRALITY
+
+## Abstract
+
+A central objective in modern condensed matter physics is to establish a direct, predictive link between the microscopic quantum properties of a material’s electronic structure and its macroscopic, functional responses. Recent advances in spectroscopy have provided unprecedented insight into the former, yet a quantitative theoretical connection to the latter remains critically absent in the burgeoning field of chiral quantum matter. This study directly confronts this theoretical gap by proposing a minimal, phenomenological model that bridges the microscopic observations of orbital angular momentum (OAM) textures in chiral crystals with their unverified, but hypothesized, macroscopic non-reciprocal transport coefficients. The core thesis posits that the polarity of these OAM monopoles, a ground-state property directly visualized by Yen et al. (2024), must deterministically govern the asymmetry of dissipative carrier scattering events, thereby producing a measurable transport signature.
 
 ## 1.0 INTRODUCTION & PROBLEM STATEMENT
 

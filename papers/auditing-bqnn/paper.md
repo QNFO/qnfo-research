@@ -1,29 +1,3 @@
----
-title: "Auditing the BQNN: Does a Tunable Quantum Neural Network on Trapped-Ion and Superconducting Hardware Demonstrate a Route to Near-Term Quantum Advantage?"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-25"
-series: "The Qubit Delusion — Quantum Advantage Audit"
-status: "draft"
-doi: ""
-abstract: |
-  We audit the BQNN paper by Lakhdar-Hamina et al. (2025, PRL / arXiv:2507.21222v2)
-  which implements a tunable quantum neural network on three quantum computing platforms
-  and claims that the architecture "may offer a route to near-term quantum advantage."
-  Through a complete Phase 1-4 research pipeline — due diligence across the QNFO Knowledge
-  Graph and Vectorize corpus, external literature search across 32 unique papers, and a 9-stage
-  Bayesian deep-dive cascade including a 5-adversary red-team audit — we evaluate every claim
-  against the Physics of Computation criterion (joules-per-solution < classical alternative).
-  We find that the paper's strongest claim — multi-platform QNN benchmarking methodology —
-  is novel and sustained. Its quantum advantage claims, however, rest on N=55 images with
-  overlapping error bars, a single cherry-picked NY image for noise-as-advantage, a fully
-  separable (classically simulable) circuit, and a 7-assumption conjunctive chain for promissory
-  non-simulability. BQNN inference costs approximately 10^9 times the joules-per-solution of
-  equivalent classical binarized network inference. We conclude that the paper is a valuable
-  benchmarking contribution with premature advantage claims, and we issue five calibration
-  register predictions (CAL-BQNN-01 through CAL-BQNN-05) for future verification.
-license: "CC BY 4.0"
----
-
 # Auditing the BQNN: Does a Tunable Quantum Neural Network on Trapped-Ion and Superconducting Hardware Demonstrate a Route to Near-Term Quantum Advantage?
 
 ## Abstract
