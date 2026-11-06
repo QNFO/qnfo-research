@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/all-things-are-one"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 241737,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "8291f7dd4c9d52d23bb95ebd1c8a0fd1660ae4a9f146ba58c3d08c818b3e36ca",
+      "bytes": 242221,
+      "recorded_at": "2026-11-06",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

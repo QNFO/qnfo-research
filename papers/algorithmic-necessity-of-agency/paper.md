@@ -1,23 +1,8 @@
 # THE ALGORITHMIC NECESSITY
 
+*A Unified Framework for Reconciling Quantum Superdeterminism with Evolutionary Neurobiology*
+
 ## Abstract
-
-OF AGENCY
-
-## A Unified Framework for Reconciling Quantum Superdeterminism with Evolutionary Neurobiology
-
-**Author:** Rowan Brad Quni-Gudzinas
-
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/algorithmic-necessity-of-agency/ **Date:**
-2026-03-03 **Version:** 1.0
-
-### ABSTRACT
 
 This treatise presents a comprehensive theoretical synthesis
 resolving the dialectic between the subjective experience of free will

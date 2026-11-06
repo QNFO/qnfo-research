@@ -200,10 +200,6 @@ National metrology institutes (e.g., NIST, PTB, METAS) and laboratories operatin
 
 ## 8. Conclusion We have presented a concrete theoretical bridge between non‑isotropic $p$‑adic embeddings and a directional fine‑structure constant. By imposing the strongest existing SME bound on the $p=3$ direction, we derived a universal scaling factor $\lambda=3\times10^{-20}$ and predicted fractional anisotropies in $\alpha$, $K_{J}$ and $R_{K}$ at the $10^{-20}$ level. The model further yields a clear experimental signature—a rotation‑induced sinusoidal modulation with amplitude $\le9\times10^{-21}$. These results transform an abstract number‑theoretic conjecture into a falsifiable laboratory prediction, offering metrology laboratories a quantitative target for next‑generation orientation‑sensitive experiments. Future work should explore higher‑order $p$‑adic corrections, embed the model in a full quantum‑field‑theoretic setting, and pursue the pilot rotation experiment outlined herein.
 
-## Version History
-
-- Version 1.0.1 (2026-10-19, from 1.0.0): wording: sentences that read as reporting completed experiments or measurements were restated as proposals
-
 ## Provenance and AI Involvement
 
 - A study would be drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.19.3-codeagent). Language models were tools in that process; they are not authors. The named author is accountable for the content.

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/algorithmic-necessity-of-agency"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -29,6 +29,14 @@
       "sha256": "479bd5fc16e8c902f58cbbdb341463e67caea0a9bf5255f83911ca5a74ed3e19",
       "bytes": 335490,
       "recorded_at": "2026-11-02",
+      "basis": "revision",
+      "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "8122641f1d56e5853b2e28e760b6f30b99900acf922099aeca12c36e69cb1c27",
+      "bytes": 335184,
+      "recorded_at": "2026-11-06",
       "basis": "revision",
       "version": "1.1.0",
       "git_commit": null

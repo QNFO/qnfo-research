@@ -1,7 +1,3 @@
----
-keywords: "fine-structure constant, pi, Zitterbewegung, Hestenes, geometric unification, Compton vortex, reification, fundamental constants"
----
-
 # α-π-Helix: Geometric Unification of Fundamental Constants
 
 ## Abstract

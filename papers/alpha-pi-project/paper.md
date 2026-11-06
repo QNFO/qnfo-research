@@ -1,16 +1,10 @@
 # Alpha Pi Project
 
-## From Cardiac Rhythms to Cosmic Fractals
+*From Cardiac Rhythms to Cosmic Fractals*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** [0009-0002-4317-5604](http://orcid.org/0009-0002-4317-5604)
-
-**ISNI:** [0000000526456062](http://isni.org/isni/0000000526456062)
-**DOI:** https://papers.qnfo.org/papers/alpha-pi-project/
-**Date:** 2026-04-09 **Version:** 1.0
+The Alpha Pi project begins with a practical engineering challenge: quantum states are exquisitely fragile, decohering rapidly due to environmental noise. This fragility stems not merely from technical limitations but from a deeper mathematical vulnerability: the continuous real‑number field that underlies standard quantum mechanics. The Bloch sphere—the canonical representation of a qubit’s state—is a smooth, continuous manifold with no discrete boundaries, allowing infinitesimal thermal drifts to accumulate linearly into significant errors. Active quantum error correction (QEC) fights this drift but imposes unsustainable resource burdens: surface codes require physical‑to‑logical qubit ratios of ~1000:1, face thermodynamic walls (Landauer’s principle, Heisenberg back‑action), and hit a signal‑processing ceiling beyond which no classical filtering can eliminate fundamental quantum back‑action.
 
 ## Executive Summary
 

@@ -7,7 +7,7 @@
     "url": "https://papers.qnfo.org/papers/alpha-pi-project"
   },
   "declared": {
-    "version": "1.0",
+    "version": null,
     "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
     "dois": []
   },
@@ -22,6 +22,14 @@
       "bytes": 146876,
       "recorded_at": "2026-11-02",
       "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "db3e7da7ffd5d0d1112a8f9d16b24cf1ac79d70cbca1abd6a64745acbb51b030",
+      "bytes": 147472,
+      "recorded_at": "2026-11-06",
+      "basis": "revision",
       "version": "1.0.0",
       "git_commit": null
     }

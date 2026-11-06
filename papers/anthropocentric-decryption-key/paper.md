@@ -1,12 +1,3 @@
----
-title: "The Decryption Key — Cognitive Architecture as the Hidden Radix of Physical Measurement"
-author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-18"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "PLACEHOLDER"
-status: "draft"
----
-
 # The Decryption Key: Cognitive Architecture as the Hidden Radix of Physical Measurement
 
 ## Abstract

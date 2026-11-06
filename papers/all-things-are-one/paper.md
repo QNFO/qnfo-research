@@ -1,17 +1,10 @@
 # All Things Are One
 
-## The Static Relational Network of Reality
+*The Static Relational Network of Reality*
 
-**Author:** Rowan Brad Quni-Gudzinas
+## Abstract
 
-**Contact:** [rowan.quni@outlook.com](mailto:rowan.quni@outlook.com)
-
-**ORCID:** 0009-0002-4317-5604
-
-**ISNI:** 0000000526456062
-
-**URL:** https://papers.qnfo.org/papers/all-things-are-one/ **Date:**
-2026-03-23 **Version:** 1.0
+Human experience presents a world of objects, events, and continuous flow. Our senses provide a coherent picture of an external reality that seems independent of our minds. This apparent reality, however, is mediated by complex biological and psychological processes. The brain constructs a model of the world from sensory data, and this model becomes our experiential reality. A fundamental question arises: how does the constructed model relate to the underlying ontology? The distinction between what we perceive and what exists independently of perception is a central problem in philosophy and science. This chapter introduces the concept that our experience is an interface, a simplified representation of a more complex substrate.
 
 ## 1: The Interface of Reality
 
