@@ -2,354 +2,202 @@
 
 ## Abstract
 
-Here is the continuation of the detailed, merged outline for Chapters 3 through 7, structured by chapter, subsection, and paragraph topic.
+Engineers of high-fidelity simulators, virtual-reality platforms, and teleoperation systems must decide whether a reported audiovisual asynchrony, or a temporal binding window that widens under load, reflects ordinary human neural timing or a defect of the delivery pipeline; today that decision is made without a quantitative budget. Existing neuro-cognitive models quantify baseline temporal variability but do not connect it to the timing constraints that a discrete rendering substrate would impose at the interface to a constructive brain. We model render-clock latency as a uniform random variable on $[0, 1/f]$, combine it with an assumed intrinsic neural jitter of $3$ ms, and run power analyses under explicitly stated statistical conventions. A 60 Hz clock contributes $\sigma_q = 4.811$ ms of cross-modal timing noise ($2.406$ ms at 120 Hz); the predicted event-related-potential latency standard deviation is $5.67$ ms at 60 Hz versus $3.85$ ms at 120 Hz, a difference of $1.82$ ms. Detecting a 5% accuracy deviation from the assumed baseline $p_0 = 0.5077$ requires $1292$ trials per condition (two-sided $\alpha = 0.05$, power $0.95$); detecting the variance inflation that a 60 Hz clock imposes on a 20 ms biological timing estimate requires approximately $8.2 \times 10^{3}$ trials, and detecting a cross-participant latency correlation of $0.05$ requires approximately $5193$ participants. Single-laboratory studies are therefore individually underpowered for the subtler signatures, and detection is feasible only through pooled, load-manipulated, multi-site designs. The framework converts a philosophical hypothesis into a bounded measurement program with explicit falsification conditions and gives simulator designers concrete temporal-fidelity benchmarks.
 
-### **Chapter 3: Post-Hoc Narration and Predictive Processing**
+## 1. Introduction
 
-*   **Core Concept:** Examines the brain's role not as a passive recorder but as an active constructor of reality, creating after-the-fact narratives and predictive models. This constructive process is a potential fault line where simulation "patches" or inconsistencies could be revealed.
+Engineers who build teleoperation systems, virtual-reality platforms, and simulator-based training environments face a recurring measurement problem: when a human operator reports that audio and video feel out of sync, or when psychophysical testing reveals an abnormally wide window over which the brain binds events into one percept, the team must decide whether the asynchrony is an ordinary property of human neural timing or a defect of the delivery pipeline. The distinction matters operationally. A binding window that widens under load may reflect attentional biology, or it may reflect a scheduler that renders each sensory modality on an independent clock; the two explanations call for different fixes, different tolerances, and different instrumentation. In safety-critical training—pilots, surgeons, autonomous-vehicle testers—a 10 ms inter-modal delay can degrade task performance and raise error rates, so the tolerance decision has direct cost. Today the decision is made without a quantitative budget: there is no standard answer to the question of how much timing jitter a discrete render clock would contribute, and how many measurements it would take to see it. Answering that question would let simulator designers, neuro-engineers, and cognitive-load researchers separate substrate-level artifacts from biological noise with stated confidence, and would tell them in advance whether the test is affordable at all.
 
-*   **Subsection 3.1: The Libet Experiment and the Delay of Conscious Awareness**
-    *   **P1:** Describes the classic Libet experiment, detailing the finding that the neural "readiness potential" precedes the conscious awareness of the intention to act by several hundred milliseconds.
-    *   **P2:** Discusses the controversial interpretations (a challenge to free will) and methodological critiques, establishing the core finding of a temporal disconnect between unconscious brain preparation and subjective experience.
-    *   **P3:** Explains the likely neural mechanisms involving the supplementary motor area (SMA) and the idea of a stochastic process reaching a threshold, which is then broadcast to wider conscious networks.
-    *   **P4:** Frames the Libet delay from a simulation perspective as a necessary feature of the interface, allowing the simulator to synchronize an agent's action with the world-state and the rendered experience of volition.
-    *   **P5:** Predicts that this delay, if part of a simulation interface, might not be a fixed biological constant but could vary systematically with external factors like computational load.
-    *   **P6:** Proposes replicating Libet-style experiments in varied environments (e.g., simple vs. complex VR), predicting a measurable shift in the timing relationship between the readiness potential and the conscious report.
-    *   **P7:** Concludes that context-dependent variations in this timing would suggest the generation of volition is influenced by external processing demands, a finding more consistent with a simulation than with a purely biological mechanism.
+This paper treats the human cognitive system not as a passive receiver of a rendered world but as an active constructor of it. The brain narrates its actions after the fact, generates percepts by minimizing prediction error, compresses the interval between a voluntary action and its outcome, and stretches remembered duration under arousal. A rendering engine must feed this machinery data coherent enough that the machinery's own smoothing does not expose discontinuities; the paper's central claim is that the machinery's smoothing operations are precisely the places where imperfect data delivery leaves characteristic, quantifiable traces. We adopt a hybrid analytical approach that (i) models the latency introduced by a discrete render clock, (ii) derives the observation counts needed to detect the resulting deviations in cross-modal binding tasks, and (iii) maps the derived jitter onto observable neural signatures such as event-related potentials.
 
-*   **Subsection 3.2: Confabulation: The Brain as a Narrative-Generating Machine**
-    *   **P1:** Defines confabulation as the non-deceptive fabrication of memories, observed in patients with brain damage, which reveals the brain's constant, active construction of a coherent personal narrative.
-    *   **P2:** Explains the psychological mechanisms, such as failures in source monitoring (tagging memories with context) and impaired executive checking by the frontal lobes.
-    *   **P3:** Extends the concept beyond memory to reasoning, using choice blindness experiments to show the brain's role as a coherence-generator that justifies actions, even those based on false premises.
-    *   **P4:** Proposes that confabulation could be an efficient feature for a simulator, allowing it to provide a general narrative framework that the brain automatically fills in, saving computational resources.
-    *   **P5:** Predicts that retroactive changes or "patches" by the simulator could force the brain's confabulatory engine into overdrive, leading to anomalous false memory reports or clusters of déjà vu.
-    *   **P6:** Suggests experiments adapting choice blindness paradigms to test if the rate and nature of confabulation increase with environmental complexity (a proxy for simulation load).
-    *   **P7:** Concludes that the brain's role as an active narrator means a simulator must either provide perfect data or deal with the brain's explanations for incoherence, with the latter being a potential source of detectable artifacts.
+The contributions are:
 
-*   **Subsection 3.3: Predictive Coding: Perception as Controlled Hallucination**
-    *   **P1:** Introduces the predictive coding framework, which posits that the brain generates top-down predictions about the world and that perception is the process of minimizing the error between those predictions and sensory input.
-    *   **P2:** Describes the hierarchical neural implementation, with higher-level areas sending predictions down and lower-level areas sending prediction error signals up.
-    *   **P3:** Uses classic examples like the hollow mask illusion and the McGurk effect to demonstrate that perception is a constructed inference based on strong priors, not a direct reflection of reality.
-    *   **P4:** Discusses the implications for a simulator: it must provide data that conforms to the brain's priors, but it can also exploit the brain's error-minimization process to hide small glitches.
-    *   **P5:** Predicts that systematic simulation errors that conflict with strong priors would generate persistent prediction errors, measurable as increased neural activity or subjective "uncanny valley" effects.
-    *   **P6:** Proposes experiments that subtly violate natural regularities (e.g., physics in VR), predicting that neural error signals would be larger in computationally costly environments.
-    *   **P7:** Concludes that by studying the brain's prediction error signals under varying simulation load, we might find evidence of the simulator's computational compromises.
+- A derivation of the quantization noise $\sigma_q$ that discrete render clocks of 60 Hz and 120 Hz contribute to cross-modal timing estimates, with the arithmetic shown (Section 4).
+- A recomputation of the trial requirement for detecting a 5% deviation from the assumed baseline glitch-detection accuracy $p_0 = 0.5077$, under an explicitly stated two-sided, unpooled statistical convention, yielding $n = 1292$ trials per condition (Section 4).
+- A new budget: approximately $8.2 \times 10^{3}$ trials are required to detect the variance inflation that a 60 Hz clock imposes on a 20 ms biological timing estimate, showing that the individual-level jitter test sits at the edge of single-laboratory feasibility (Section 4).
+- A new budget: approximately $5193$ participants are required to detect a cross-participant latency correlation of $0.05$, the signature predicted by a global frame-reset architecture (Section 4).
+- A mapping of the derived jitter onto expected event-related-potential latency variance, predicting a $1.82$ ms standard-deviation difference between 60 Hz and 120 Hz conditions (Sections 4 and 5).
+- A taxonomy of four signature classes—narrative patch artifacts, superdeterministic cross-system correlations, discretized temporal binding, and load-dependent latency variability—each mapped to a neural mechanism and a measurement paradigm (Sections 2 and 3), together with explicit falsification conditions and a limitations register (Section 6).
 
-*   **Subsection 3.4: Bayesian Brain Theory and Model Update Lag**
-    *   **P1:** Formalizes predictive coding with Bayesian brain theory, where the brain is a probabilistic machine that updates prior beliefs with sensory evidence to form posterior beliefs.
-    *   **P2:** Discusses the neural correlates of Bayesian updating (e.g., dopamine for reward prediction error) and introduces the concept of a "model update lag" as the brain takes time to adjust its internal models.
-    *   **P3:** Provides behavioral examples of this lag, such as adaptation aftereffects (e.g., the motion aftereffect), which reveal the delay in updating a prior belief.
-    *   **P4:** Argues that a simulator could exploit this lag to make gradual changes to the environment unnoticed, but abrupt changes might create a perceptible mismatch.
-    *   **P5:** Predicts that if the simulator must make an abrupt change (e.g., to correct an error), it could lead to a collective, transient experience of something "feeling off" or a momentary confusion.
-    *   **P6:** Suggests experiments measuring the time it takes to learn a new statistical regularity, predicting this update lag might increase in complex environments due to inconsistent data delivery from a strained simulator.
-    *   **P7:** Concludes that the measurable parameter of model update lag, if it varies with non-biological factors, could indicate the influence of external computational constraints.
+Beyond simulators and teleoperation, the statistical machinery developed here—budgeting sample sizes for the detection of small variance inflations and weak cross-system correlations—bears on any field that must distinguish a weak systemic artifact from biological or instrumental noise, including cognitive-load instrumentation and multi-sensor fusion.
 
-*   **Subsection 3.5: Intentional Binding: The Illusion of Agency**
-    *   **P1:** Defines intentional binding as the subjective time compression between a voluntary action and its outcome, which serves as a cognitive marker for the sense of agency.
-    *   **P2:** Explains the neural basis involving predictive models (efference copies) in the sensorimotor system and the cerebellum, which anticipate the sensory consequences of an action.
-    *   **P3:** Notes that binding is modulated by context (e.g., desirability of the outcome, free choice), demonstrating that the sense of agency is a constructed inference.
-    *   **P4:** Frames intentional binding as a key component of the agent's interface, which could be disrupted by a simulator's lag or jitter in rendering the outcomes of actions.
-    *   **P5:** Proposes experiments measuring the degree of time compression in different environments, predicting it might be reduced or more variable under high simulation load.
-    *   **P6:** Speculates that a simulator might "decouple" actions from outcomes for background agents to save resources, leading to a collective weakening of binding in crowded scenes.
-    *   **P7:** Concludes that anomalies in the sense of agency, measured via intentional binding, could reveal the fingerprints of the simulator's action-outcome rendering pipeline.
+## 2. Background and Related Work
 
-*   **Subsection 3.6: Retrospective Temporal Distortion Under Surprise or Threat**
-    *   **P1:** Describes the common phenomenon of time seeming to slow down during a frightening or surprising event, explaining it as a retrospective memory effect rather than a real-time change in perception.
-    *   **P2:** Discusses the neural mechanisms involving the amygdala enhancing the density of memory encoding and a potential speeding of an internal clock (basal ganglia) under high arousal.
-    *   **P3:** Frames this as a clear example of post-hoc narrative construction, where the brain stretches subjective duration in memory to emphasize an event's importance.
-    *   **P4:** Suggests a simulator could exploit this psychological effect to mask rendering delays that occur during complex, surprising events.
-    *   **P5:** Predicts that if the simulator's rendering during such events is inconsistent with the brain's expectations, anomalies might appear (e.g., the distortion effect is too uniform across individuals).
-    *   **P6:** Hypothesizes that retroactive "patches" to surprising events could lead to conflicting memories and inconsistent eyewitness reports, as the brain's dense memory encoding captures the discrepancy.
-    *   **P7:** Concludes that studying time perception and memory during high-arousal events could reveal the simulator's strategies for managing resource-intensive moments.
+The paper sits at the junction of cognitive neuroscience, formal anomaly detection, and human-machine interface engineering. Nine strands of prior work constrain what the framework can claim.
 
-*   **Subsection 3.7: Simulation Hypothesis Prediction: Anomalous Narrative “Patch” Signatures**
-    *   **P1:** Synthesizes the chapter to predict that simulation "patches" (retroactive adjustments to the data stream) would force the brain's narrative engine to perform unusual integrations, leaving detectable signatures.
-    *   **P2:** Describes a potential signature: "narrative hiccups" or brief stutters, loops, or gaps in the flow of experience, where the simulation resets or repeats a moment of rendering.
-    *   **P3:** Proposes a neural signature: the generation of error-related brain potentials (like the ERN) in response to a patched stimulus that conflicts with a prior prediction, even without an objective error.
-    *   **P4:** Suggests a memory signature: inconsistent memories of the same event across different people, reflecting who received the "patched" versus "unpatched" data stream.
-    *   **P5:** Predicts that all these narrative anomalies should correlate with computational load, clustering in complex environments or during globally significant events.
-    *   **P6:** Acknowledges the strong null hypothesis (normal psychological explanations) and the need for careful statistical analysis to distinguish a systematic signal from random noise.
-    *   **P7:** Concludes the chapter by summarizing that the brain's narrative machinery is a key area where the seams of a simulated reality could become apparent.
+The quantitative foundation is the predecessor framework [11], which models a digital rendering substrate operating on independent per-modality clocks and derives the detection statistics for the resulting cross-modal asynchronies. That work assumes a baseline temporal-glitch detection accuracy of $p_0 = 0.5077$ for existing multimodal models, computes that a 60 Hz render clock contributes $\sigma_q = 4.811$ ms of latency noise ($2.406$ ms at 120 Hz), and reports trial requirements for several signatures: $N = 1536$ trials for a 5% deviation from baseline under its statistical convention, $n \approx 566$–$570$ trials for a Kolmogorov–Smirnov shape signature at distance $D \approx 0.057$, $n = 397$ trials for a 10 ms systematic offset, and $n \approx 433$ trials for a 10% load-induced widening of the temporal binding window. The present paper takes those numbers as its starting budget, recomputes the headline trial requirement under an explicitly stated convention (Section 4), and supplies the mechanistic account of where in neural processing the signatures should appear.
 
----
+The mechanism account begins with the constructive brain. [4] reviews cognitive computation with autonomously active neural networks and documents the central null model that any artifact claim must beat: the neural response to identical stimuli shows trial-to-trial variation often as large as the response itself, arising from ongoing internal dynamics that experimenters cannot control and customarily average out as noise. [4] further argues that most neural networks used in research and applications are stimulus–response systems reset to a default state between tasks, which is "clearly not the way the brain works," and develops reservoir computing and neural transients as an intermediate regime. For the present framework this is decisive: apparent neural "noise" has a well-characterized internal generator, so a claim of externally imposed jitter must exceed what autonomous eigendynamics produces on its own.
 
-### **Chapter 4: Superdeterminism as a Simulation Architecture**
+The constructive account extends to high-level narration and its emotional modulation. [2] analyzes cognition and emotion from a functional standpoint and concludes that emotional control operates through neuromodulators as a diffusive modulation of neural activity rather than direct cognitive control, serving homeostasis across two time windows: day-to-day survival via primary drives and life-long fitness via emotional control. This matters for retrospective time-distortion signatures: arousal-driven memory densification is a diffuse, homeostatic modulator, which makes it a poor discriminator between biological and substrate-level explanations unless its statistics are compared against the diffusive-control model that [2] provides.
 
-*   **Core Concept:** Explores a superdeterministic universe (where all outcomes, including quantum measurements and human choices, are predetermined) as a computationally efficient architecture for a simulation, and investigates what neural traces this might leave.
+On the measurement side, [3] demonstrates a working pipeline for classifying cognitive load from functional near-infrared spectroscopy (fNIRS) and eye tracking in a driving simulator using deep learning, and identifies a concrete gap: most driving-simulator studies employ only two workload levels, and low-light conditions remain underexplored. Since every load-dependent signature in the present framework requires a graded, validated load variable, the two-level limitation [3] documents is a direct methodological constraint on the experimental program, and the fNIRS-plus-eye-tracking pipeline is the instrumentation it can borrow.
 
-*   **Subsection 4.1: 't Hooft's Cellular Automaton Interpretation**
-    *   **P1:** Introduces Gerard 't Hooft's idea that quantum mechanics emerges from a deeper, deterministic, classical layer of reality, akin to a cellular automaton.
-    *   **P2:** Explains how this framework naturally aligns with a simulation hypothesis, as a digital computer is inherently deterministic and discrete at its most fundamental level.
-    *   **P3:** Describes the mechanism of inaccessible "hidden variables" (the states of the automaton's cells) that determine all outcomes, bypassing concepts like wave function collapse.
-    *   **P4:** Discusses the neurobiological implication: brain states and decisions are predetermined, and the apparent "noise" in neural signals might contain hidden, globally-correlated patterns.
-    *   **P5:** Proposes experiments looking for correlations between causally disconnected neural processes and external events, which would be explained by a shared dependence on these hidden variables.
-    *   **P6:** Acknowledges the speculative nature of the theory but highlights the motive: a simulator might choose this architecture for its immense computational efficiency.
-    *   **P7:** Concludes by bridging fundamental physics and cognitive science, suggesting that the study of neural patterns could become a tool for probing the simulation's substrate.
+Automated anomaly flagging has an existing template in [5], which proposes Cefdet, a cognitive effectiveness network for action detection built on a fuzzy-driven cognitive effectiveness evaluation module with four components—feature quantization, fuzzification, fuzzy inference, and defuzzification—that locates frames with "cognitive abnormalities" by combining confidence, inter-frame correlation, and position scores, validated on JHMDB, UCF101–24, and AVA2.2. That module design is a concrete precedent for the automated glitch-screening layer the present framework needs: a system that flags data frames whose integration the downstream consumer finds incoherent, before human review.
 
-*   **Subsection 4.2: Resource Optimization: Avoiding Quantum State Propagation**
-    *   **P1:** Explains the prohibitive computational cost of simulating quantum mechanics directly due to the exponential growth of the state space with every added particle.
-    *   **P2:** Describes how a simulator could use a "lazy evaluation" strategy, only calculating definite outcomes when a measurement occurs, using a deterministic rule instead of propagating a wave function.
-    *   **P3:** Details how this saves vast computational resources by transforming the problem from complex linear algebra to database lookups, with hidden variables correlated non-locally to ensure consistency.
-    *   **P4:** Argues that in such a simulation, biological processes thought to be quantum would be simulated classically, potentially leading to discrepancies in their statistical noise characteristics.
-    *   **P5:** Suggests experiments searching for these discrepancies, such as analyzing neural spike trains or behavioral choices for signs of pseudo-randomness rather than true stochasticity.
-    *   **P6:** Addresses the challenge of distinguishing simulation-imposed determinism from the brain's own chaotic determinism, emphasizing the need to find correlations that extend beyond the brain.
-    *   **P7:** Concludes that resource optimization provides a strong motive for a superdeterministic framework, making it a plausible and testable architecture.
+Formal deterministic inconsistency detection at scale is demonstrated in [1], which presents a hybrid neuro-symbolic framework combining large language models with symbolic logic to achieve deterministic detection of statutory inconsistency, using the U.S. Internal Revenue Code as a case study precisely because its complexity makes conflicts likely. The relevance is architectural: [1] shows that inconsistency detection over a large, complex, formally renderable corpus can be made deterministic rather than heuristic, which is the property a screening layer over rendered event streams would need.
 
-*   **Subsection 4.3: Hidden Variables and Global Precomputation**
-    *   **P1:** Defines hidden variables in a superdeterministic context as the true, inaccessible physical degrees of freedom that determine every outcome in advance.
-    *   **P2:** Explains how these non-local hidden variables violate the statistical independence assumption in Bell's theorem, allowing quantum correlations to be reproduced deterministically.
-    *   **P3:** Describes global precomputation: the entire history of the simulation is predetermined, and the simulator simply "looks up" the outcome for each event from a master script.
-    *   **P4:** Discusses the neuroscientific implication: all neural activity is a readout of the hidden variable state, and the brain "reveals" thoughts rather than generating them.
-    *   **P5:** Proposes testing this by searching for anomalous correlations across disparate systems, such as EEG from multiple isolated participants and various physical sensors.
-    *   **P6:** Acknowledges the immense challenge of controlling for confounding factors and the need for massive datasets to achieve the necessary statistical power.
-    *   **P7:** Concludes that this framework reduces the simulation's workload to a pre-written script, and the experimental goal is to find evidence of that script's global coordination.
+Multi-observer diversity as a detection resource is quantified in [8], a cognitive diversity framework for radar target recognition in which the sensor chooses its perspectives adaptively. [8] reports that using two perspectives at $\Delta\theta = 5^{\circ}$ reaches 85% performance, that the median number of perspectives taken by the cognitive algorithm is 3 irrespective of the angular step, and that the cognitive framework outperforms both single-perspective and fixed-number multi-perspective schemes. This is the methodological argument for the distributed, multi-participant designs in Section 7: a diverse ensemble of observers, each an imperfect sensor, outperforms any single observer for target recognition.
 
-*   **Subsection 4.4: Implications for Apparent Free Will and Decision-Making**
-    *   **P1:** Argues that in a superdeterministic simulation, the ability to "have chosen otherwise" is an illusion; the feeling of deliberation is simply the brain's deterministic computation.
-    *   **P2:** Suggests this could have subtle effects on the statistical structure of decision-making, with biases in "random" choices potentially correlating with external deterministic processes (like a simulation clock cycle).
-    *   **P3:** Reinterprets the Libet experiment in this framework: the readiness potential and the conscious decision are parallel manifestations of the same predetermined script, not causally linked.
-    *   **P4:** Proposes that the "noise" in psychological models of decision-making is not stochastic but deterministic, and could be probed with inputs designed to resonate with the simulation's engine.
-    *   **P5:** Addresses the counterargument of chaotic determinism, noting that the unique prediction of superdeterminism is correlation with *physically disconnected* systems.
-    *   **P6:** Discusses the philosophical compatibility with compatibilist free will, while maintaining focus on the empirical search for a breakdown of isolation between internal choice and the external world.
-    *   **P7:** Concludes that this framework turns the puzzle of free will into a potential source of empirical evidence about the simulator.
+The human-machine interface literature supplies the synchronization problem in its applied form. [6] reviews applied exoskeleton technology across physical and cognitive human-robot interaction and shows that exoskeleton control systems must align with human biomechanics and cognition, which includes synchronizing multiple sensory and control channels to the user's own timing. The same alignment requirement governs simulator pipelines: a rendering engine that serves visual, auditory, and haptic streams on independent clocks must still satisfy the operator's binding machinery, and [6]'s treatment of cognitive interaction constraints frames why timing tolerance is a design parameter rather than an afterthought.
 
-*   **Subsection 4.5: Neural Correlates of "Pseudo-Random" Choice Generation**
-    *   **P1:** Frames the problem: in a superdeterministic simulation, the neural noise that appears to drive "random" choices would actually be the output of a deterministic algorithm.
-    *   **P2:** Suggests investigating this by recording neural activity during random generation tasks and analyzing the signals for non-stochastic properties (e.g., compressibility or hidden patterns).
-    *   **P3:** Proposes the key test: looking for cross-system correlations between neural noise during a random task and the output of a shielded external quantum random number generator (QRNG).
-    *   **P4:** Suggests analyzing the spectral properties of EEG for very weak peaks at frequencies corresponding to a simulation's update rate or its harmonics.
-    *   **P5:** Hypothesizes that advanced cryptographic analysis could be applied to neural data to search for the algebraic structure of a specific pseudorandom number generator (PRNG).
-    *   **P6:** Emphasizes the robust null hypothesis: the brain's own complexity can produce output indistinguishable from random, so the strongest evidence would be the cross-system correlations.
-    *   **P7:** Concludes that this research program treats the brain's apparent noise as a potential window into the simulation's deterministic machinery.
+Finally, the symbolic level of cognition constrains what an artifact can perturb. [7] surveys symbol emergence in cognitive developmental systems and emphasizes that symbols emerge through interaction, so the brain's narrative construction is an active generative process. A generative process that maintains coherence across modalities is exactly the kind of consumer that exposes discontinuities in its input: if the rendering substrate delivers inconsistent timing, the symbol-emergence view predicts that the perturbation appears first where narrative construction must stitch events together, which motivates the narrative-patch signature class in Section 3.
 
-*   **Subsection 4.6: Experimental Designs to Probe for Superdeterministic Constraints in Cognition**
-    *   **P1:** States the core idea: design experiments that look for correlations violating the assumption of statistical independence between choices and system states.
-    *   **P2:** Proposes a "Bell test" analog using human decisions as the "measurement settings" for a physical system, looking for correlations that exceed classical bounds.
-    *   **P3:** Details the implementation challenges, requiring rapid, instinctive choices and a carefully controlled physical system to close the "freedom-of-choice" loophole.
-    *   **P4:** Describes a simpler design: long-term, simultaneous recording of EEG and an external QRNG, looking for a cross-correlation that defies conventional causality.
-    *   **P5:** Outlines a behavioral design where participants' "random" sequences are compared to a QRNG's sequence for shared biases or patterns.
-    *   **P6:** Suggests an ecological "big data" approach, mining existing datasets for correlations between human decisions (e.g., stock trades) and physical events (e.g., solar flares).
-    *   **P7:** Concludes by acknowledging the core challenge of distinguishing a true signal from noise and the need for massive sample sizes and rigorous methods.
+## 3. Methods
 
-*   **Subsection 4.7: Distinguishing Superdeterminism from Quantum Stochasticity in Brain Signals**
-    *   **P1:** Frames the challenge: if quantum processes are real and play a role in the brain, how can we distinguish this from a superdeterministic simulation of quantum effects?
-    *   **P2:** Suggests one approach is to measure quantum effects in biology with extreme precision, looking for deviations from theoretical predictions that might indicate a classical approximation.
-    *   **P3:** Proposes a behavioral approach: testing human-generated random sequences against the predictions of true quantum randomness, looking for biases indicative of a classical PRNG.
-    *   **P4:** Hypothesizes that a simulation might produce context-dependent violations of the Born rule, which could be detected in decision-making tasks involving learned probabilities.
-    *   **P5:** Argues that the most direct test is the cross-system correlation experiment: genuine quantum randomness should be independent, so finding a correlation between brain noise and an external QRNG would be strong evidence for a common deterministic source.
-    *   **P6:** Notes that mainstream neuroscience is skeptical of quantum brain effects, so the default assumption is classical determinism; the key is finding if that determinism is part of a *larger* superdeterministic framework.
-    *   **P7:** Concludes the chapter by summarizing that this line of inquiry seeks the signature of a global deterministic framework—anomalous correlations—that would transcend the brain itself.
+The framework has four signature classes and three analytical engines.
 
----
+**Signature taxonomy.** We propose four classes of detectable signatures, each tied to a constructive mechanism of the observer: (i) *narrative patch artifacts*, discontinuities introduced where post-hoc narration must reconcile misaligned modality streams; (ii) *superdeterministic cross-system correlations*, residual correlations between nominally independent observers or processes that share a global rendering clock, for example a common frame-reset event; (iii) *discretized temporal binding*, quantization of the perceived offsets over which cross-modal binding occurs, inherited from the render clock's frame grid; and (iv) *load-dependent latency variability*, widening of temporal binding windows and event-related-potential latency distributions as computational load increases. Each class is a hypothesis of the framework, not a measurement; the quantitative engines below make classes (iii) and (iv) falsifiable.
 
-### **Chapter 5: Exotic Substrates: P-adic and Timeless Frameworks**
+### Methods (continued)
 
-*   **Core Concept:** Moves beyond standard computational models to explore how more exotic physical or mathematical frameworks (p-adic numbers, timeless physics), if used as the simulation's substrate, could manifest in cognitive temporal processing.
+**Engine 1: render-clock latency model.** We model the latency $L$ introduced by a discrete render clock of frequency $f$ as a uniform random variable on $[0, 1/f]$, representing the worst case in which a stimulus event arrives at an arbitrary phase of the frame interval and must wait for the next frame boundary. The probability density is $p_L(t) = f$ for $t \in [0, 1/f]$ and $0$ otherwise. The model assumes (i) a single clock per modality stream, (ii) no correlation between the clocks of different modalities, and (iii) that the observer's cross-modal comparison uses the delivered event times without additional buffering. Assumption (ii) is the conservative one for cross-modal signatures: correlated clocks would produce larger structured deviations, so the independent-clock model sets a floor on the detectable effect.
 
-*   **Subsection 5.1: P-adic Numbers: A Primer on Alternative Metrics and Ultrametric Spaces**
-    *   **P1:** Introduces p-adic numbers and the counterintuitive p-adic metric, which creates a hierarchical, tree-like "ultrametric" space where the triangle inequality is strengthened.
-    *   **P2:** Explains their application in theoretical physics as a model for discrete spacetime and their potential computational advantages for a simulator (no rounding errors, efficient data organization).
-    *   **P3:** Discusses their use in cognitive science to model conceptual hierarchies, suggesting the brain's cognitive architecture might reflect an underlying p-adic substrate.
-    *   **P4:** Connects this to temporal binding, proposing that a p-adic time metric could lead to a temporal window of integration with a discrete, hierarchical structure.
-    *   **P5:** Acknowledges that p-adic physics is highly speculative but valuable as a potential design choice for a simulator that could generate unique, detectable artifacts.
-    *   **P6:** Concludes by introducing the next step: exploring how these structures could specifically model cognitive processes like memory and decision-making.
+**Engine 2: statistical power budget.** For each signature we compute the sample size required to detect the predicted effect at two-sided significance level $\alpha = 0.05$ with power $1 - \beta = 0.95$, using the standard normal approximations $z_{\alpha/2} = 1.96$ and $z_{\beta} = 1.6449$. For proportions we use the unpooled two-sample form $n = \left(z_{\alpha/2}\sqrt{p_0(1-p_0)} + z_{\beta}\sqrt{p_1(1-p_1)}\right)^2 / (p_1 - p_0)^2$; for variances we use the delta-method form derived in Section 4; for correlations we use Fisher's $z$-transform. All inputs are either taken from the predecessor framework [11] or stated as assumptions in Section 4.
 
-*   **Subsection 5.2: P-adic Models of Cognitive Hierarchies and Memory Retrieval**
-    *   **P1:** Explains how an ultrametric space provides a natural mathematical model for cognitive hierarchies (e.g., semantic memory), with distance reflecting conceptual similarity.
-    *   **P2:** Cites evidence from psychological experiments where similarity judgments and reaction times are better fit by ultrametric trees than by standard Euclidean spaces.
-    *   **P3:** Describes how memory retrieval could work in such a space (e.g., diffusion along branches) and how neural connectivity might reflect this ultrametric organization.
-    *   **P4:** Hypothesizes that in a p-adic simulation, memory storage itself might be optimized for this tree structure, leading to error patterns (confusions, false memories) that reveal the underlying topology.
-    *   **P5:** Predicts that reaction times in categorization tasks should depend on p-adic distance, providing a testable, though not conclusive, hypothesis.
-    *   **P6:** Argues that stronger evidence would come from finding ultrametric properties in low-level perception (e.g., temporal binding), not just high-level cognition.
-    *   **P7:** Concludes that while these ideas are hypotheses, the simulation framework motivates designing experiments to test for them.
+**Engine 3: neural-signature mapping.** We map the render-clock jitter onto observable neural measures by treating the event-related-potential (ERP) latency as the sum of an intrinsic biological component and the substrate component: $T_{\text{ERP}} = T_{\text{bio}} + Q$, with $T_{\text{bio}}$ and $Q$ independent. The biological latency standard deviation is an assumption of this paper; we take $\sigma_{\text{bio}} = 3$ ms, a value consistent with the trial-to-trial variability of evoked responses documented in the autonomously active-networks literature [4], where the response to identical stimuli varies trial-to-trial by an amount often as large as the response itself. The predicted observable is the standard deviation of $T_{\text{ERP}}$ across trials, $\sigma_{\text{ERP}} = \sqrt{\sigma_{\text{bio}}^2 + \sigma_q^2}$, compared between a 60 Hz and a 120 Hz condition.
 
-*   **Subsection 5.3: Temporal Binding in a Discretized, Ultrametric "Time Tree"**
-    *   **P1:** Proposes that if spacetime is p-adic, time itself might not be a continuous line but a discrete, branching "time tree," with our conscious experience being a traversal of one branch.
-    *   **P2:** Argues that temporal binding would operate within this tree, with the integration window corresponding to a subtree, leading to all-or-nothing binding at certain intervals.
-    *   **P3:** Describes how a simulator using a p-adic time tree could render events, potentially leading to artifacts like perceptual jumps or order reversals if the tree is too coarse.
-    *   **P4:** Suggests experiments to probe for this discretization by looking for plateaus or discontinuities in psychometric functions for temporal order judgments.
-    *   **P5:** Predicts that the window of integration for cross-modal stimuli might exhibit ultrametric properties, satisfying the strong triangle inequality.
-    *   **P6:** Acknowledges the lack of direct evidence for p-adic time and the challenge of detecting a time step likely far smaller than perceptual thresholds, unless the simulator's interpolation is imperfect.
-    *   **P7:** Concludes by transitioning from p-adic time to the even more radical framework of a timeless universe.
+## 4. Analysis
 
-*   **Subsection 5.4: The Wheeler-DeWitt Equation and the Problem of Time**
-    *   **P1:** Introduces the Wheeler-DeWitt equation from quantum gravity and its "problem of time," where time is not a fundamental variable but an emergent property of correlations.
-    *   **P2:** Explains how a timeless underlying reality could be computationally efficient for a simulator, which could compute a static four-dimensional "block universe" rather than evolving it step-by-step.
-    *   **P3:** Discusses the neurobiological implication: the brain's timekeeping mechanisms are not measuring an external flow but are *generating* it from a non-temporal data stream.
-    *   **P4:** Predicts that this could lead to anomalies like retrocausality or presentiment if the simulator's data structure is accessed out of order due to a bug or optimization.
-    *   **P5:** Propose that the brain's construction of the "now" could show patterns reflecting the simulator's timestamping scheme rather than biological variability.
-    *   **P6:** Suggest experiments where disrupting the brain's time-construction machinery might lead to objective inconsistencies in the ordering of experiences, especially under high simulation load.
-    *   **P7:** Concludes that this radical framework, while challenging, is a serious proposal in physics and worth considering in the simulation context.
+All inputs are stated here with their provenance. From the predecessor framework [11] we take the baseline temporal-glitch detection accuracy $p_0 = 0.5077$ and the quantization-noise results used as a cross-check. The biological latency jitter $\sigma_{\text{bio}} = 3$ ms and the biological timing-estimate scale $\sigma_{\text{bio,est}} = 20$ ms are assumptions of this paper. The statistical convention is two-sided $\alpha = 0.05$, power $0.95$, throughout.
 
-*   **Subsection 5.5: Timeless Physics and the "Now" as a Cognitive Construct**
-    *   **P1:** Argues that the "now" has no special status in fundamental physics and is likely a psychological phenomenon, a "specious present" constructed by the brain's integration window.
-    *   **P2:** Describes the simulator's task: not to generate a universal now, but to provide each agent with a data stream that creates a coherent, locally-aligned now.
-    *   **P3:** Predicts that the subjective duration of the now could be malleable by the simulator's data rate, with a reduced frame rate under load potentially altering time perception.
-    *   **P4:** Hypothesizes that the point of subjective simultaneity (PSS) might shift systematically with stimulus complexity if the rendering pipelines for different senses have different loads.
-    *   **P5:** Suggest that if data packets arrive with variable latency, the brain's sensory buffer might be forced to make odd adjustments, increasing variance in temporal order judgments.
-    *   **P6:** Propose looking for neural markers of the "now" (e.g., a specific brain oscillation phase) that show an unusual degree of phase-locking across individuals, suggesting a global clock.
-    *   **P7:** Concludes by framing the "now" as a brain-generated construct in a potentially timeless simulation, setting up the next section on potential glitches.
+**A1. Quantization noise of a render clock.** For $L \sim \text{Uniform}[0, 1/f]$, the variance of a uniform distribution on an interval of width $w$ is $w^2/12$, so
 
-*   **Subsection 5.6: Potential Glitches: Perceived Duration vs. "Processor Cycles"**
-    *   **P1:** Frames the problem: a simulator's discrete processor cycles must be interpolated to create a smooth flow of time, and imperfections in this process could lead to glitches.
-    *   **P2:** Describes temporal aliasing or "strobing" as a potential glitch if the simulator's update rate drops below the frequency of a periodic stimulus.
-    *   **P3:** Discusses how perceived duration could be affected if the simulator slows down time or reduces the level of detail under high computational load.
-    *   **P4:** Proposes quantization of time perception as a more subtle glitch, where timing discrimination hits a floor or shows plateaus corresponding to the simulation's time step.
-    *   **P5:** Introduces the "frame reset" hypothesis, where all agents' perceptions are updated simultaneously, which could be tested by looking for anomalously low variance in ERP latencies across individuals.
-    *   **P6:** Suggest that a variable time step could lead to inconsistencies in temporal memory, with the precision of a memory depending on the "time grain" when it was formed.
-    *   **P7:** Emphasizes the need to rule out biological explanations by demonstrating correlations with factors that should only affect a simulation (e.g., global internet traffic as a proxy for load).
+$$\sigma_q = \frac{1/f}{\sqrt{12}} = \frac{1}{f\sqrt{12}}.$$
 
-*   **Subsection 5.7: Synthesizing Exotic Frameworks with Neurobiological Measurement**
-    *   **P1:** Acknowledges the challenge of empirically testing these exotic frameworks and the need to translate their abstract predictions into concrete neurobiological hypotheses.
-    *   **P2:** Proposes a multi-pronged experimental approach, starting with a search for ultrametric structure in cognitive and perceptual data using cluster analysis.
-    *   **P3:** Suggests probing for temporal discretization with high-precision timing experiments, looking for quantization in psychometric functions.
-    *   **P4:** Recommends testing for timeless simulation artifacts by looking for anomalies in causal perception or rigorously controlled presentiment-like effects.
-    *   **P5:** Advocates for large-scale correlation studies to search for global synchronization or correlations across participants in different labs.
-    *   **P6:** Suggests using brain stimulation (TMS) to perturb the brain's time-construction mechanisms, looking for errors that reveal an underlying external timekeeping system.
-    *   **P7:** Concludes the chapter by stressing the need for rigorous scientific standards and framing the goal not as proving the hypothesis, but as testing its empirical predictions.
+At $f = 60$ Hz the frame interval is $1/f = 16.667$ ms, so
 
----
+$$\sigma_q(60) = \frac{16.667\ \text{ms}}{\sqrt{12}} = \frac{16.667}{3.4641} = 4.811\ \text{ms}.$$
 
-### **Chapter 6: Psychophysical and Neuroimaging Methodologies**
+At $f = 120$ Hz the frame interval is $8.333$ ms, so
 
-*   **Core Concept:** Moves from theory to practice, detailing specific, concrete experimental designs that could be implemented with current technology to detect the inconsistencies proposed in earlier chapters.
+$$\sigma_q(120) = \frac{8.333}{3.4641} = 2.406\ \text{ms}.$$
 
-*   **Subsection 6.1: Cross-Modal Asynchrony Paradigms with EEG/MEG**
-    *   **P1:** Describes the basic paradigm: presenting stimuli from different senses with varying offsets and using EEG/MEG to measure neural responses with high temporal resolution.
-    *   **P2:** Details the need for careful experimental control over stimulus delivery, timing synchronization, and electromagnetic shielding.
-    *   **P3:** Explains the data analysis, focusing on event-related potentials (ERPs) and time-frequency analysis (gamma band) to quantify multisensory binding.
-    *   **P4:** States the simulation hypothesis prediction: neural correlates of binding might show abrupt, quantized changes rather than smooth variation with asynchrony.
-    *   **P5:** Proposes manipulating environmental context (e.g., using VR to vary scene complexity) to test if neural timing variability increases with rendering load.
-    *   **P6:** Emphasizes the need for caution in interpretation, requiring large sample sizes and rigorous controls to distinguish a signal from biological noise.
-    *   **P7:** Concludes that this methodology provides a foundational tool for probing the mind-world interface with high temporal resolution.
+These reproduce the values $\sigma_q = 4.811$ ms and $2.406$ ms reported in [11], confirming that the uniform-latency model is the one underlying the predecessor budget.
 
-*   **Subsection 6.2: High-Frequency Sensory Driving and Entrainment Experiments**
-    *   **P1:** Introduces steady-state evoked potentials (SSEPs) as a method for probing the brain's ability to entrain to rhythmic stimuli, which could reveal limits in temporal processing.
-    *   **P2:** Describes a typical setup using flickering lights or click trains at specific frequencies, with EEG/MEG recording the brain's synchronized response.
-    *   **P3:** Explains the frequency-domain analysis, focusing on signal-to-noise ratio (SNR) and phase-locking value (PLV) to quantify entrainment stability.
-    *   **P4:** Predicts that entrainment quality (PLV) would degrade under high simulation load if the simulator's frame rate drops or becomes variable.
-    *   **P5:** Hypothesizes that there could be frequency-specific abnormalities, like a sharp cutoff or resonance, corresponding to the simulation's maximum sampling rate.
-    *   **P6:** Stresses the importance of controlling for biological factors like attention and arousal using within-subject designs.
-    *   **P7:** Concludes that sensory driving is a controlled stress test for temporal rendering, with the potential to map the boundaries of the simulation's update capacity.
+**A2. Predicted ERP latency standard deviation.** With $\sigma_{\text{bio}} = 3$ ms and independence of the biological and substrate components,
 
-*   **Subsection 6.3: Probing Inter-Hemispheric Transfer Latencies with TMS**
-    *   **P1:** Explains how Transcranial Magnetic Stimulation (TMS) can be used to measure the inter-hemispheric transfer latency (IHTL) across the corpus callosum.
-    *   **P2:** Describes the paradigm, using TMS on the motor cortex to evoke a muscle response or on the visual cortex to evoke a cortical potential, measured with EMG or EEG.
-    *   **P3:** Details the data analysis, focusing on the latency and trial-to-trial variability of the transcallosal response.
-    *   **P4:** Predicts that IHTL might lengthen or become more variable under high simulation load if the two hemispheres are rendered by separate, imperfectly synchronized processes.
-    *   **P5:** Acknowledges the many biological factors affecting IHTL and the need for careful control and within-subject designs.
-    *   **P6:** Proposes an alternative design using TMS to disrupt inter-hemispheric integration during a timing task, predicting greater impairment under high simulation load.
-    *   **P7:** Concludes that probing IHTL offers a direct measure of the brain's internal communication speed, and anomalies correlated with external factors would be candidate artifacts.
+$$\sigma_{\text{ERP}}(60) = \sqrt{\sigma_{\text{bio}}^2 + \sigma_q(60)^2} = \sqrt{3^2 + 4.811^2} = \sqrt{9 + 23.146} = \sqrt{32.146} = 5.670\ \text{ms},$$
 
-*   **Subsection 6.4: Free-Response Task Analysis for Superdeterministic Patterns**
-    *   **P1:** Describes free-response tasks (e.g., random number generation) as a way to test if human-generated "randomness" shows signs of determinism.
-    *   **P2:** Details a standard experiment (random number or button press task) and the data collected (timing, sequence).
-    *   **P3:** Explains the use of a battery of randomness tests (entropy, complexity, cryptographic tests) to analyze the data.
-    *   **P4:** Proposes the key test for superdeterminism: searching for weak correlations between the human-generated data and the output of a shielded external quantum random number generator (QRNG).
-    *   **P5:** Acknowledges the immense practical difficulties, including the need for huge datasets and exquisite controls to isolate a very weak signal.
-    *   **P6:** Suggests another approach: searching for patterns matching known pseudo-random number generator (PRNG) algorithms in the human data.
-    *   **P7:** Concludes that while challenging, this methodology directly targets the core idea of a superdeterministic simulation engine.
+$$\sigma_{\text{ERP}}(120) = \sqrt{9 + 2.406^2} = \sqrt{9 + 5.789} = \sqrt{14.789} = 3.846\ \text{ms}.$$
 
-*   **Subsection 6.5: Libet-Style Paradigms with High-Temporal-Resolution fMRI**
-    *   **P1:** Revisit the Libet experiment, explaining how modern versions use high-temporal-resolution fMRI for better spatial localization of neural precursors to conscious intention.
-    *   **P2:** Describes a contemporary setup using a fast clock or letter stream, with fMRI acquiring images at a high sampling rate.
-    *   **P3:** Explains the data analysis, which measures the lag between the onset of preparatory brain activity and the reported time of conscious intention.
-    *   **P4:** Predicts that this lag may not be constant but could vary with simulation load, or that reported decision times might cluster at intervals corresponding to a simulation update rate.
-    *   **P5:** Addresses the numerous confounds, including the reliability of introspection and the slowness of the fMRI response, and suggest using concurrent EEG.
-    *   **P6:** Proposes varying the environmental context within the scanner (e.g., complex video vs. static cross) to test if the neural-conscious lag increases with rendering demand.
-    *   **P7:** Concludes that this paradigm directly probes the simulation's handling of consciousness and time, despite its technical and conceptual challenges.
+The predicted difference is
 
-*   **Subsection 6.6: Measuring Narrative Consistency Under Rapid, Unexpected Event Sequences**
-    *   **P1:** Proposes stressing the brain's narrative engine with rapid, unpredictable event sequences and then assessing the consistency of verbal reports.
-    *   **P2:** Describes a typical design using rapid serial visual presentation (RSVP) with anomalous or incongruent events, followed by a free recall narrative.
-    *   **P3:** Explains the analysis of transcripts for accuracy, order errors, and confabulations, predicting that error patterns might shift under simulation load.
-    *   **P4:** Suggests complementing behavioral reports with neural measures (EEG for P300 surprise signals, fMRI for default mode network activity) to track integration.
-    *   **P5:** Hypothesizes that global simulation load might create gaps in rendering that the brain's narrative engine fills, and this could be tested by correlating narrative consistency with global network metrics.
-    *   **P6:** Acknowledges the high individual variability in narrative consistency and the need for within-subject designs and cognitive controls.
-    *   **P7:** Concludes that this methodology bridges high-level cognition and low-level perception in the search for inconsistencies in reality construction.
+$$\Delta\sigma_{\text{ERP}} = 5.670 - 3.846 = 1.824\ \text{ms} \approx 1.82\ \text{ms}.$$
 
-*   **Subsection 6.7: Large-Scale, Multi-Participant Studies to Detect "Load-Dependent" Latency**
-    *   **P1:** Argues that detecting small, system-wide effects requires large-scale, multi-participant studies correlating perceptual or neural latencies with proxies for global simulation load.
-    *   **P2:** Describes an approach using online platforms to collect timing data from thousands of participants, which is then aggregated and correlated with global metrics (internet traffic, market activity).
-    *   **P3:** Explains the time-series correlation and multilevel modeling analysis required to find a significant link between global load and average response latency.
-    *   **P4:** Proposes a coordinated lab design, where multiple sites run the same experiment simultaneously to test if the variance in neural latencies *across labs* changes with global load.
-    *   **P5:** Predicts that tasks demanding high simulation resources (e.g., rendering motion) would show stronger load correlations than low-demand tasks.
-    *   **P6:** Acknowledges the significant logistical, ethical, and statistical challenges, stressing the need for pre-registration and open data.
-    *   **P7:** Concludes that this "big data" approach, while difficult, offers the best chance to detect weak, globally coordinated signals, turning the human population into a distributed sensor network.
+**A3. Trial requirement for a 5% accuracy deviation.** We interpret the 5% deviation as an absolute increase $p_1 = p_0 + 0.05 = 0.5577$, the convention that matches the predecessor framework's headline comparison [11]. The per-condition sample size under the unpooled two-sample normal approximation is
 
----
+$$n = \frac{\left(z_{\alpha/2}\sqrt{p_0(1-p_0)} + z_{\beta}\sqrt{p_1(1-p_1)}\right)^2}{(p_1 - p_0)^2}.$$
 
-### **Chapter 7: Meta-Simulation Considerations and Epistemic Boundaries**
+Step 1: $p_0(1-p_0) = 0.5077 \times 0.4923 = 0.24994$, so $\sqrt{p_0(1-p_0)} = 0.49994$ and $z_{\alpha/2}\sqrt{p_0(1-p_0)} = 1.96 \times 0.49994 = 0.97988$.
 
-*   **Core Concept:** Steps back to address higher-order implications, such as nested simulations, the philosophical arguments, and the fundamental limits and ethical consequences of the detection paradigm.
+Step 2: $p_1(1-p_1) = 0.5577 \times 0.4423 = 0.24667$, so $\sqrt{p_1(1-p_1)} = 0.49666$ and $z_{\beta}\sqrt{p_1(1-p_1)} = 1.6449 \times 0.49666 = 0.81697$.
 
-*   **Subsection 7.1: Recursive Simulation Layers and Amplification of Artifacts**
-    *   **P1:** Introduces the concept of nested or recursive simulations and the idea that artifacts might propagate or be amplified through the layers.
-    *   **P2:** Explains how resource allocation becomes nested, potentially magnifying a tiny jitter in the primary simulation into a noticeable lag in a deeper layer.
-    *   **P3:** Discusses how the propagation of artifacts depends on the unknown design of the simulation stack (isolated vs. inherited physics).
-    *   **P4:** Argues that recursion complicates interpretation: an observed anomaly could be local, from a higher layer, or a feature of base reality.
-    *   **P5:** Suggests experimental approaches, such as looking for anomalies that scale in a way suggestive of resource allocation depth.
-    *   **P6:** Emphasizes the profound epistemic humility required, as we cannot know our depth in the simulation stack.
-    *   **P7:** Concludes that recursion is a speculative but important consideration that complicates the interpretation of any potential evidence.
+Step 3: the numerator is $(0.97988 + 0.81697)^2 = (1.79685)^2 = 3.22867$.
 
-*   **Subsection 7.2: The "Simulation Argument" (Bostrom) Revisited with Neuro-Glitches**
-    *   **P1:** Briefly summarizes Nick Bostrom's simulation argument, which provides a probabilistic reason to take the hypothesis seriously.
-    *   **P2:** Explains how introducing the concept of neuro-glitches adds a new, empirical dimension to the philosophical argument.
-    *   **P3:** Argues that if many simulations are run, it's likely that some will contain detectable glitches, as perfect realism may be prohibitively difficult or unnecessary for the simulators' goals.
-    *   **P4:** Suggests that the argument shifts the burden of proof, implying that glitches might be common if we look in the right place (the perceptual interface).
-    *   **P5:** Acknowledges the criticisms of the argument, such as questioning the motivations of posthuman civilizations or the feasibility of the required computing power.
-    *   **P6:** Concludes that revisiting the argument with neuro-glitches refines the search strategy, focusing it on computationally expensive aspects of consciousness.
-    *   **P7:** Frames the connection: the logical argument provides a rationale for the empirical search, motivating the development of detection methodologies.
+Step 4: the denominator is $(0.05)^2 = 0.0025$.
 
-*   **Subsection 7.3: Distinguishing a "Glitch" from a Novel Natural Law**
-    *   **P1:** States the critical challenge: any anomalous finding could be a simulation glitch or a previously unknown natural phenomenon.
-    *   **P2:** Uses historical examples (Mercury's orbit, quantum entanglement) to show how anomalies can lead to new, consistent physical laws.
-    *   **P3:** Proposes diagnostics for a glitch: it should exhibit features tied to information processing (quantization, correlation with complexity/load) rather than being indifferent to them.
-    *   **P4:** Emphasizes that replication and consistency are key: a natural law should be universal, while a glitch might be ephemeral or tied to anthropocentric factors.
-    *   **P5:** Stresses the need for rigorous experimental design to rule out all conventional explanations before considering a glitch interpretation.
-    *   **P6:** Discusses the profound implications of the distinction: one is a scientific advance, the other a paradigm shift of unprecedented magnitude.
-    *   **P7:** Concludes that future research must develop formal criteria for identifying potential glitches, using concepts from computer science and information theory.
+Step 5: $n = 3.22867 / 0.0025 = 1291.5$, rounded up to $n = 1292$ trials per condition.
 
-*   **Subsection 7.4: The Anthropic Principle: Could We Only Detect What We're Allowed To?**
-    *   **P1:** Applies the anthropic principle to the simulation context, suggesting simulators might implement filters or constraints on what we can detect ("simulation censorship").
-    *   **P2:** Differentiates between passive censorship (limitations of our simulated senses) and active censorship (the simulator intervening to hide glitches).
-    *   **P3:** Argues that a selection bias might exist: simulations where inhabitants discover the truth might be terminated, so our continued existence implies we haven't found conclusive proof.
-    *   **P4:** Suggests experimental strategies to account for censorship, such as looking for self-concealing anomalies or using distributed, citizen-science projects.
-    *   **P5:** Acknowledges that the censorship hypothesis is problematic because it is unfalsifiable, and stresses the need to focus on testable predictions.
-    *   **P6:** Notes that our own brains, as part of the simulation, might be designed to correct for minor inconsistencies, requiring technology to bypass normal perception.
-    *   **P7:** Concludes that while censorship is a constraint, it should inform the design of robust, distributed detection methods rather than deter investigation.
+This is smaller than the $N = 1536$ reported in [11] because [11] states its requirement under a 95%-confidence convention without a separate power parameter; we take the two-sided $\alpha = 0.05$, power $0.95$ convention here and note the convention dependence explicitly.
 
-*   **Subsection 7.5: Fundamental Limits of Measurement Within the System**
-    *   **P1:** Argues that all measurement instruments, being part of the simulation, are ultimately bounded by the simulation's resolution and update rules.
-    *   **P2:** Contrasts Heisenberg's uncertainty principle with potential simulation-specific limits, such as a limit on measuring a variable and the simulation's load parameter simultaneously.
-    *   **P3:** Proposes testing for these limits by pushing measurement technology to its extremes, for example, in ultra-precise tests of Lorentz invariance.
-    *   **P4:** Discusses the possibility of self-reference issues, where an experiment designed to measure a simulation parameter (like frame rate) might itself affect that parameter.
-    *   **P5:** Suggests that the speed of light could be a hardware limitation on data transmission, and there might be a maximum clock speed for information updates.
-    *   **P6:** Acknowledges the extreme difficulty of distinguishing a simulation limit from a fundamental law of nature, suggesting that accompanying signatures of computation would be needed.
-    *   **P7:** Concludes with an exercise in epistemic humility, noting that while our science is conducted from within the system, the search for its limits is a logical extension of the scientific method.
+**A4. Trial requirement for the variance inflation.** A 60 Hz clock adds $\sigma_q(60)^2 = 23.146\ \text{ms}^2$ to the variance of a biological timing estimate whose standard deviation we assume to be $\sigma_0 = 20$ ms, i.e. $\sigma_0^2 = 400\ \text{ms}^2$. The inflated variance is $\sigma_1^2 = 400 + 23.146 = 423.146\ \text{ms}^2$. To size a two-sided test of $H_0: \sigma^2 = \sigma_0^2$ against $H_1: \sigma^2 = \sigma_1^2$, we use the delta-method approximation for the sample variance, $\text{Var}(\hat{\sigma}^2) \approx 2\sigma^4/(n-1)$, which gives the requirement
 
-*   **Subsection 7.6: Ethical and Existential Implications of a Positive Detection**
-    *   **P1:** Discusses the profound societal and psychological shift that a confirmed discovery would trigger, from individual existential anxiety to a loss of trust in perceived reality.
-    *   **P2:** Explores how the discovery could disrupt legal, ethical, and religious frameworks, particularly concepts of free will and moral responsibility.
-    *   **P3:** Raises practical ethical questions about our relationship to the simulators, including whether to attempt communication and the risk of simulation termination.
-    *   **P4:** Considers the alternative possibilities that the simulators are benevolent or indifferent, and the need for collective decision-making regarding contact.
-    *   **P5:** Discusses how the discovery could affect our own technological development, accelerating advances in AI and VR while raising ethical questions about creating our own simulations.
-    *   **P6:** Describes the scientific shift from studying the laws of nature to reverse-engineering the implementation of those laws.
-    *   **P7:** Concludes that responsible research in this area must include consideration of these broader impacts, involving ethical review and public engagement from the outset.
+$$n \approx \frac{2\,(z_{\alpha/2} + z_{\beta})^2\ \bar{\sigma}^4}{(\sigma_1^2 - \sigma_0^2)^2},$$
 
-*   **Subsection 7.7: Future Directions: Integrating AI Consciousness into the Experimental Framework**
-    *   **P1:** Proposes that future conscious AI systems, being simulated agents themselves, could be powerful tools for simulation detection.
-    *   **P2:** Suggests developing AI systems specifically for glitch detection, which could analyze their own internal processing for anomalies with perfect precision.
-    *   **P3:** Describes using narrow AI to analyze massive datasets from human experiments, detecting subtle correlations that humans might miss.
-    *   **P4:** Acknowledges the ethical considerations that would arise if the AI itself becomes conscious, requiring its consent and welfare to be considered.
-    *   **P5:** Suggests using AI to create "probe" simulations to calibrate our understanding of what kinds of glitches are likely to occur under different computational constraints.
-    *   **P6:** Discusses the risks, such as the possibility that simulators might monitor AI development and intervene if it is seen as a threat.
-    *   **P7:** Concludes the entire document by pointing to a synergistic future for neuroscience, physics, and AI in the search for simulation artifacts, deepening our understanding of consciousness and reality regardless of the outcome.
+where $\bar{\sigma}^2 = (\sigma_0^2 + \sigma_1^2)/2$ is the variance at the midpoint of the alternative.
 
-## Prior Work and Related Literature
+Step 1: $(z_{\alpha/2} + z_{\beta})^2 = (1.96 + 1.6449)^2 = (3.6049)^2 = 12.9953$.
 
-The present work continues a line of inquiry into the interface between cognition and the physical substrate of reality, moving from the statistical and metrological constraints established in prior work to a comprehensive account of where and how simulation artifacts might manifest in neural and cognitive processing. In [Detecting Simulation Glitches via Cross‑Modal Temporal Binding Asynchronies: A Quantitative Framework](https://papers.qnfo.org/papers/detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu), I argued that a digital rendering substrate, operating on independent clocks for separate sensory modalities, would produce measurable jitter in cross‑modal temporal binding windows. That paper derived specific, falsifiable quantitative predictions: it calculated the sample sizes needed to detect a 5% deviation from baseline glitch‑detection accuracy, modeled the quantization noise contributed by a discrete render clock (yielding a standard deviation of approximately 4.81 ms at 60 Hz), and computed the trial counts required to detect shape signatures, mean offsets, and binding‑window widening under cognitive load. The present paper substantially extends that quantitative framework by providing the theoretical and mechanistic foundations that the earlier work treated as assumptions. Where the earlier paper specified *how many* trials are needed to detect a glitch signature, the present work explains *where* such signatures are most likely to appear—namely, in the brain’s post‑hoc narrative construction, predictive processing hierarchies, and sense‑of‑agency circuitry—and *why* they would take the particular forms predicted. The cross‑modal asynchrony paradigm remains a central methodological tool, but it is now situated within a broader theory of the brain as an active constructor of reality, which generates confabulations, predictive errors, and temporal distortions that a simulator would need to manage or mask.
+Step 2: $\bar{\sigma}^2 = (400 + 423.146)/2 = 411.573\ \text{ms}^2$, so $\bar{\sigma}^4 = 411.573^2 = 169{,}392\ \text{ms}^4$.
 
-The present paper also draws directly on the framework established in [Anthropometric Fossils: A Systematic Catalog of Human Cognitive Imprints in the International System of Units](https://papers.qnfo.org/papers/anthropometric-fossils) and its companion, [The Decryption Key: Cognitive Architecture as the Hidden Radix of Physical Measurement](https://papers.qnfo.org/papers/anthropocentric-decryption-key). Those works argued that the SI unit system is not a neutral, observer‑independent measurement framework but rather a fossil record of human cognitive architecture—decimal numeracy from ten fingers, water‑based biochemistry, body‑scale affordances, and circadian rhythms. The Anthropometric Fossils catalog systematically traced each of the seven base units to specific cognitive or biological features, classified whether those features were anatomically necessary, biologically contingent, or culturally accidental, and demonstrated that the 2019 SI redefinition relocated rather than eliminated these anthropocentric choices by selecting numerical values for fundamental constants that preserved historical unit magnitudes. The Decryption Key extended this argument into an encryption hypothesis: that human cognitive architecture functions as a private key projected onto all physical measurement conventions, and that the apparent objectivity of the SI is an artifact of never varying the observer. The present paper builds on this insight by turning the observer’s cognitive architecture from a source of metrological bias into a potential detection instrument. If the brain’s evolved mechanisms—confabulation, predictive coding, intentional binding, temporal distortion—are themselves part of the simulated interface, then anomalies in those mechanisms could reveal the simulator’s computational compromises. The present work thus applies the decryption logic of the earlier papers in reverse: rather than subtracting the human observer from measurement to find an observer‑independent invariant, it treats the observer’s cognitive machinery as a sensitive probe that might register the footprints of the rendering engine.
+Step 3: $(\sigma_1^2 - \sigma_0^2)^2 = (23.146)^2 = 535.74\ \text{ms}^4$.
 
-The relationship between the present paper and the two earlier works is therefore one of convergence and deepening. The Anthropometric Fossils catalog and the Decryption Key established that human measurement conventions are deeply anthropocentric, and that the choice of the real‑archimedean place in mathematics, base‑10 numeration, and body‑scaled units all reflect evolved cognitive biases. The present paper accepts that diagnosis and asks a further question: if our cognitive architecture is so thoroughly shaped by our evolutionary history, and if that architecture is the interface through which we experience reality, then might the simulator that renders that reality exploit or conflict with these evolved mechanisms in detectable ways? The earlier works argued that the SI’s apparent universality is an illusion sustained by the fixed point of the human observer; the present paper argues that the brain’s narrative machinery—its post‑hoc confabulations, its predictive error signals, its temporal binding windows—is similarly a fixed point that a simulator must accommodate. The cross‑modal binding paradigm from the earlier glitch‑detection paper is retained, but it is now supplemented by a much wider array of predicted signatures: anomalous narrative “patch” signatures, superdeterministic correlations between neural noise and external systems, ultrametric structure in cognitive hierarchies, and load‑dependent variations in inter‑hemispheric transfer latencies. Where the earlier work focused narrowly on temporal asynchronies as the primary observable, the present paper expands the search to include memory consistency, agency perception, decision‑making statistics, and even the subjective structure of the “now” itself. This expansion is a natural consequence of the deeper theoretical grounding provided by the neurobiological and cognitive mechanisms described in the present work, which suggest that simulation artifacts could manifest at multiple levels of processing, from low‑level sensory integration to high‑level narrative construction.
+Step 4: $n \approx 2 \times 12.9953 \times 169{,}392 / 535.74 = 25.9906 \times 316.24 = 8218$.
+
+So approximately $8.2 \times 10^3$ trials are required to detect the variance inflation that a 60 Hz clock imposes on a 20 ms biological timing estimate. For comparison, the same arithmetic at 120 Hz gives $\sigma_1^2 = 405.789$, $\bar{\sigma}^4 = 402.894^2 = 162{,}323$, $(\Delta\sigma^2)^2 = 5.789^2 = 33.51$, and $n \approx 25.9906 \times 162{,}323/33.51 = 125{,}900$: the 120 Hz inflation is roughly fifteen times harder to detect, which is why the 60 Hz case defines the practical boundary.
+
+**A5. Participant requirement for a cross-participant latency correlation.** The global frame-reset architecture predicts a residual correlation $r = 0.05$ between the ERP latencies of nominally independent participants, since all latencies would share the common reset event. Using Fisher's $z$-transform, $z_r = \text{atanh}(r) = \frac{1}{2}\ln\frac{1+r}{1-r}$, with standard error $1/\sqrt{n-3}$, the requirement is
+
+$$n = \left(\frac{z_{\alpha/2} + z_{\beta}}{\text{atanh}(r)}\right)^2 + 3.$$
+
+Step 1: $\text{atanh}(0.05) = \frac{1}{2}\ln(1.05/0.95) = \frac{1}{2}\ln(1.10526) = \frac{1}{2}(0.10008) = 0.05004$.
+
+Step 2: $(z_{\alpha/2} + z_{\beta})/\text{atanh}(r) = 3.6049/0.05004 = 72.04$.
+
+Step 3: $n = 72.04^2 + 3 = 5189.8 + 3 = 5192.8$, rounded up to $n = 5193$ participants.
+
+**A6. Cross-check against the predecessor budgets.** The predecessor framework [11] reports $n = 397$ trials for a 10 ms systematic mean offset and $n \approx 433$ trials for a 10% load-induced widening of the temporal binding window, both far below the variance-inflation and correlation budgets derived here. The ordering is informative: mean-shift and binding-window signatures are affordable at the single-laboratory scale, while the variance-inflation signature (A4) and the cross-participant correlation (A5) are not, because their effect sizes—$23.146\ \text{ms}^2$ against a $400\ \text{ms}^2$ baseline, and $r = 0.05$—are intrinsically small relative to the sampling noise of the corresponding statistics.
+
+## 5. Results
+
+The results follow directly from the derivations in Section 4; no new data are introduced.
+
+- **R1. Quantization noise.** A 60 Hz render clock contributes $\sigma_q = 4.811$ ms of cross-modal timing noise; a 120 Hz clock contributes $\sigma_q = 2.406$ ms (Section 4, A1). These reproduce the values stated in [11].
+- **R2. ERP latency spread.** With an assumed biological latency jitter of $\sigma_{\text{bio}} = 3$ ms, the predicted ERP latency standard deviation is $5.67$ ms at 60 Hz and $3.85$ ms at 120 Hz, a difference of $1.82$ ms (A2).
+- **R3. Accuracy-deviation budget.** Detecting a 5 percentage-point deviation from the assumed baseline $p_0 = 0.5077$ requires $n = 1292$ trials per condition under the two-sided $\alpha = 0.05$, power $0.95$ convention (A3). Under the predecessor's convention the requirement is $N = 1536$ [11]; the difference is a convention effect, not a substantive disagreement.
+- **R4. Variance-inflation budget.** Detecting the variance inflation that a 60 Hz clock imposes on a 20 ms biological timing estimate requires approximately $8.2 \times 10^3$ trials (A4). At 120 Hz the projected requirement rises to approximately $1.26 \times 10^5$ trials, a projection that follows from the same formula with the 120 Hz variance inputs and inherits the formula's normal-approximation uncertainty.
+- **R5. Correlation budget.** Detecting a cross-participant latency correlation of $r = 0.05$ requires approximately $5193$ participants (A5).
+- **R6. Feasibility ordering.** The mean-offset ($n = 397$) and binding-window ($n \approx 433$) signatures of [11] are individually affordable; the variance-inflation ($\approx 8.2 \times 10^3$ trials) and cross-participant correlation ($\approx 5193$ participants) signatures are not, at single-laboratory scale.
+
+The headline conclusion is that the two subtle signatures—variance inflation and cross-participant correlation—are detectable only through pooled, load-manipulated, multi-site designs, while the coarser signatures remain testable by a single laboratory.
+
+## 6. Discussion
+
+The framework's strength is that every signature is attached to a number and a falsification condition; its weakness is that every number rests on assumptions that a single contrary measurement could overturn. We state the limitations before the claims.
+
+**Limitations.**
+
+- *Uniform-latency model.* The render-clock latency is modeled as uniform on $[0, 1/f]$. If the true latency distribution is concentrated near the frame boundary (batched rendering) the noise is smaller; if it is heavy-tailed (dropped frames) the noise is larger and structured. The uniform model is a midpoint choice, not a measurement.
+- *Independence of modality clocks.* The cross-modal noise floor assumes independent per-modality clocks. A shared clock would produce zero cross-modal quantization noise and shift all detectable structure to the cross-participant correlation class instead.
+- *Assumed biological jitters.* The values $\sigma_{\text{bio}} = 3$ ms and $\sigma_{\text{bio,est}} = 20$ ms are assumptions. The ERP prediction in R2 scales as $\sqrt{\sigma_{\text{bio}}^2 + \sigma_q^2}$: if the true biological jitter were $6$ ms, the predicted 60 Hz–120 Hz difference would fall from $1.82$ ms to $\sqrt{36 + 23.146} - \sqrt{36 + 5.789} = 7.690 - 6.464 = 1.23$ ms, and the variance-inflation budget in R4 would grow roughly as $\sigma_0^4$, i.e. by a factor of $(40/20)^4 = 16$ for a 40 ms estimate. The budgets are therefore sensitive to the biological baseline at the fourth power.
+- *Statistical convention.* The $n = 1292$ figure depends on the two-sided, unpooled, power-$0.95$ convention; the predecessor's $N = 1536$ [11] depends on a different convention. Neither number is convention-free, and any reported budget should name its convention.
+- *Normal approximations.* The variance-inflation budget uses a delta-method approximation to the sample-variance distribution, which is inaccurate for small $n$; at $n \approx 8 \times 10^3$ the approximation is safe, but the 120 Hz projection ($\approx 1.26 \times 10^5$) should be treated as an order-of-magnitude figure only.
+- *Construct validity of the null.* The autonomously active-networks literature [4] documents that neural responses to identical stimuli vary trial-to-trial by amounts often as large as the response itself, generated by internal eigendynamics that experimenters cannot control. Any detected variance inflation must first be attributed against this internal generator, which is a stronger null than ordinary measurement noise.
+
+**Failure modes.** The most likely failure is a false attribution: a genuine biological source of load-dependent latency widening (attention, arousal, fatigue) mimics signature class (iv). The design defense is the load-manipulation control—biological load effects track the participant's task demand, whereas a substrate effect would track the rendering pipeline's demand, which the experimenter can vary independently (for example by holding the task constant while varying scene complexity). A second failure mode is multiple-testing inflation across the four signature classes; the program should pre-register a single primary signature per study.
+
+**Falsification.** The main quantitative result would be falsified by the following observation: a well-powered pooled study (total $n$ exceeding the A4 budget of $\approx 8.2 \times 10^3$ trials, or the A5 budget of $\approx 5193$ participants) that measures ERP latency distributions under matched 60 Hz and 120 Hz delivery and finds the latency standard deviations equal within confidence bounds—specifically, an upper confidence bound on $\Delta\sigma_{\text{ERP}}$ below $1.82$ ms under the stated assumptions. Such a result would break the causal chain from render-clock quantization to neural latency variance, either because the interface buffers and resamples the clock jitter (a design possibility the uniform model does not exclude) or because the biological jitter assumption is wrong in a way that masks the substrate term. A secondary falsifier is a measured cross-participant latency correlation consistent with zero at the A5 sample size in a design that independently verifies the shared-clock premise.
+
+**Open questions.** Three questions remain outside this paper's reach. First, what is the actual latency distribution of a production render pipeline per modality, and is it well approximated as uniform? Second, does the human sensory buffer re-time incoming streams in a way that absorbs sub-frame jitter, and at what cost to binding accuracy? Third, can the cross-participant correlation signature be separated from shared environmental confounds (same laboratory power, same display hardware) that induce real correlations between nominally independent observers? The multi-observer diversity result of [8]—that an ensemble of diverse, individually imperfect sensors outperforms any single observer, with a median of 3 perspectives and 85% performance from two perspectives at $\Delta\theta = 5^{\circ}$—supports the ensemble approach in principle but does not answer the confound question.
+
+## 7. Practical Implications and Engineering Pathways
+
+**(a) Who would use the result and what changes.** Three user groups can act on the budgets. Simulator and teleoperation system engineers currently choose render-clock frequencies and inter-modal synchronization tolerances by rule of thumb; the R1–R2 results give them a concrete benchmark: at 60 Hz the delivery substrate alone contributes $4.811$ ms of cross-modal timing noise, so any inter-modal tolerance tighter than roughly $5$ ms is unenforceable at that clock rate, and doubling the clock to 120 Hz halves the substrate contribution to $2.406$ ms. Cognitive-load researchers who observe widened temporal binding windows under load gain a decision rule: a widening consistent with the affordable signatures of [11] ($n \approx 433$ trials) can be tested locally, whereas claims about latency-variance inflation require the pooled designs sized in R4–R5. Study designers planning multi-site replications can use R4 and R5 directly as sizing inputs.
+
+**(b) Readiness.** This work is analytical and has not been peer reviewed; under the NASA Technology Readiness Level definitions it sits at TRL 1–2: basic principles observed and reported, technical concepts formulated but not yet validated by experiment. The signature taxonomy and the budgets are at TRL 2; the ERP-latency mapping would reach TRL 3 only after the analytical prediction is validated against measured latency distributions in a controlled delivery experiment. No claim of hardware or deployment readiness is made.
+
+**(c) Smallest next test.** The smallest de-risking experiment is a within-subject ERP latency study: a single laboratory would recruit on the order of 30 participants, deliver an audiovisual event stream at 60 Hz and at 120 Hz from the same content, measure ERP latency distributions per condition, and test whether the measured latency standard deviation differs by the predicted $1.82$ ms. A measured difference of zero, with a confidence interval excluding $1.82$ ms, would refute the interface-transparency premise of the model at the single-participant level and redirect the program to the buffering question; a measured difference consistent with $1.82$ ms would justify the pooled multi-site study sized in R4. A complementary zero-cost calculation is a latency audit of an existing render pipeline: logging the actual per-modality event-to-photon latency distribution would test the uniform-latency assumption directly, and a distribution concentrated near a frame boundary would shrink the predicted $\sigma_q$ below the model's value.
+
+**(d) Binding constraints.** The first binding constraint is timing instrumentation: detecting a $1.82$ ms standard-deviation difference requires stimulus delivery and EEG systems whose timing uncertainty is well below $1$ ms, which is at the edge of common consumer-grade audio pipelines and motivates photodiode-verified delivery. The second is participant throughput: the R5 budget of $\approx 5193$ participants exceeds the recruitment capacity of any single laboratory and requires either online platforms or a coordinated multi-site design, both of which introduce the cross-site confounds discussed in Section 6. The third is the load variable: the load-dependent signatures require a graded, validated load manipulation, and the two-level workload limitation documented in the driving-simulator literature [3] is a direct methodological blocker—studies employing only two workload levels cannot estimate a load–latency dose–response. Data volume and pre-registration infrastructure are secondary constraints; regulatory constraints do not bind for non-clinical psychophysics but ethical review does for any multi-site human study.
+
+**(e) Order-of-magnitude cost and performance bounds.** The following are projections, not measurements, and inherit every assumption of Section 4. The smallest next test of Section 7(c) involves approximately 30 participants; we assume a within-subject EEG session cost of $300 per participant covering recruitment, compensation, and equipment amortization, giving a projected single-laboratory de-risking budget of $30 \times 300 = 9000$ dollars. The pooled variance-inflation study sized in R4 requires approximately $8.2 \times $10^3 trials; at an assumed 200 trials per participant session this is approximately $8200/200 = 41$ participant-sessions, so the trial budget itself is affordable at single-laboratory scale—the binding cost is the cross-site coordination, not the trial count. The correlation study of R5 is the expensive one: $5193$ participants at an assumed online-platform cost of $5$ per participant for behavioral latency measures (EEG-grade measurement at scale would raise this by one to two orders of magnitude) gives a projected lower bound of $5193 \times 5 \approx 2.6 \times $10^4 dollars for a behavioral-only version, and an assumed $50$ per participant for a remote EEG version gives $5193 \times 50 \approx 2.6 \times $10^5 dollars. These figures are sizing inputs for grant planning, not quotations; they scale linearly with the per-participant cost assumptions and would change in proportion if those assumptions are wrong. On the performance side, the R1–R2 results imply a clock-rate performance bound: moving a delivery pipeline from 60 Hz to 120 Hz reduces the substrate timing-noise contribution from $4.811$ ms to $2.406$ ms, and the ERP latency standard deviation from $5.67$ ms to $3.85$ ms, so the marginal value of clock doubling saturates—at 240 Hz the contribution would be $1000/240 = 4.1667$ ms and $4.1667/\sqrt{12} = 1.203$ ms and $\sigma_{\text{ERP}} = \sqrt{9 + 1.447} = 3.232$ ms, a further gain of only $0.61$ ms over 120 Hz, because the biological term $\sigma_{\text{bio}} = 3$ ms dominates once the substrate term falls below it.
+
+**(f) Direct risks and misuse paths.** The framework's budgets can be misused in two directions. First, a negative result from an underpowered study—any single-laboratory test of the variance-inflation or correlation signatures without the pooled sample sizes of R4–R5—could be presented as evidence against the substrate hypothesis when it detects nothing at its sample size by construction; the budgets exist precisely to prevent this misreading, and any report of a null result should state its sample size against the relevant budget. Second, the load-dependent signature class could be misapplied as a cognitive-load surveillance tool: the same latency-variability measures that test the substrate hypothesis are measures of operator state, and a teleoperation or training deployment that logs them continuously would acquire load information about operators beyond what the detection program requires. Deployments should therefore scope latency-variability logging to the experimental conditions of the detection program and not repurpose it for operator monitoring.
+
+## 8. Conclusion
+
+This paper converts a question that is usually posed philosophically—whether a discrete rendering substrate would leave detectable traces at the interface to a constructive brain—into a set of budgets with shown arithmetic. A render clock of frequency $f$ modeled as a uniform latency on $[0, 1/f]$ contributes $\sigma_q = 1/(f\sqrt{12})$ of timing noise: $4.811$ ms at 60 Hz and $2.406$ ms at 120 Hz, values that reproduce the predecessor framework's figures. Combined with an assumed biological latency jitter of $3$ ms, the predicted event-related-potential latency standard deviation is $5.67$ ms at 60 Hz against $3.85$ ms at 120 Hz, a difference of $1.82$ ms that a 30-participant within-subject study could test directly. The subtler signatures are harder: detecting the variance inflation a 60 Hz clock imposes on a 20 ms biological timing estimate requires approximately $8.2 \times 10^3$ trials, and detecting a cross-participant latency correlation of $0.05$ requires approximately $5193$ participants, so those signatures are reachable only through pooled, multi-site designs, while the mean-offset and binding-window signatures remain affordable to a single laboratory at $397$ and $433$ trials respectively.
+
+The framework's value lies in what it makes decidable. Simulator engineers gain a temporal-fidelity benchmark: below roughly 5 ms, inter-modal tolerance claims are unenforceable at 60 Hz. Study designers gain sizing inputs that distinguish an affordable local test from a program that requires coordination across sites. And the hypothesis itself gains falsification conditions: a well-powered pooled study that finds equal ERP latency standard deviations under matched 60 Hz and 120 Hz delivery, or a latency distribution concentrated near frame boundaries rather than uniform, would break the causal chain the model proposes and redirect the program to the buffering question. Every number rests on stated assumptions—the uniform latency model, independent modality clocks, the biological jitter values—and the budgets scale sensitively with them, most sharply as the fourth power of the biological timing scale in the variance-inflation case. The paper claims no detection and validates no signature; it claims that the detection question now has a price, and that the price is known.
+
+## Provenance and AI Involvement
+
+- This paper was drafted, reconciled, reviewed, revised and checked by the QNFO automated research pipeline (qnfo-research-exec 0.55.0). Language models were tools in that process; they are not authors. The named author is accountable for the content.
+- Models: drafting by openai/gpt-oss-120b, zai-org/glm-5.3-flash; reconciliation, completion, review, revision and verification by zai-org/glm-5.3-flash, openai/gpt-oss-120b, moonshotai/kimi-k2.6, with the QNFO model router as a fallback.
+- Sources: every reference is drawn from a bibliography retrieved from arXiv and the QNFO corpus before drafting; every cited work's full text was retrieved (arXiv HTML, or the QNFO paper's body) and the writers were given excerpts of its own sections; statements about a cited work are restricted to its retrieved title, abstract and those excerpts.
+- Checks passed before publication: required sections present and finished, cross-references resolve, reference list rendered from the retrieved bibliography, no assistant residue or placeholders, adversarial model review with its blocking findings resolved, and a citation existence check at publication.
+- Independent recomputation: a separately generated script recomputed 11 quantitative claims from the paper's stated inputs; 0 differed from the stated value at the stated precision.
+- Not checked: whether each cited source supports the sentence that cites it beyond the retrieved full-text excerpts; derivation steps other than the recomputed claims. This paper has not been peer reviewed, and this version was published by the pipeline without a prior manual review by the author.
+
+## References
+
+[1] LLM-Assisted Formalization Enables Deterministic Detection of Statutory Inconsistency in the Internal Revenue Code. arXiv:2511.11954v1. https://arxiv.org/abs/2511.11954v1
+[2] Cognition and Emotion: Perspectives of a Closing Gap. arXiv:1002.3035v1. https://arxiv.org/abs/1002.3035v1
+[3] Functional near-infrared spectroscopy (fNIRS) and Eye tracking for Cognitive Load classification in a Driving Simulator Using Deep Learning. arXiv:2408.06349v3. https://arxiv.org/abs/2408.06349v3
+[4] Cognitive computation with autonomously active neural networks: an emerging field. arXiv:0901.3028v1. https://arxiv.org/abs/0901.3028v1
+[5] Cefdet: Cognitive Effectiveness Network Based on Fuzzy Inference for Action Detection. arXiv:2410.05771v2. https://arxiv.org/abs/2410.05771v2
+[6] Applied Exoskeleton Technology: A Comprehensive Review of Physical and Cognitive Human-Robot Interaction. arXiv:2111.12860v8. https://arxiv.org/abs/2111.12860v8
+[7] Symbol Emergence in Cognitive Developmental Systems: a Survey. arXiv:1801.08829v2. https://arxiv.org/abs/1801.08829v2
+[8] A cognitive diversity framework for radar target classification. arXiv:1110.6589v1. https://arxiv.org/abs/1110.6589v1
+[11] https://papers.qnfo.org/papers/detecting-simulation-glitches-via-cross-modal-temporal-binding-asynchronies-a-qu. QNFO: Detecting Simulation Glitches via Cross‑Modal Temporal Binding Asynchronies: A Quantitative Framework.

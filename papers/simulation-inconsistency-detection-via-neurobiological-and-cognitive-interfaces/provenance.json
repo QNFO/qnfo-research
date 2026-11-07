@@ -16,7 +16,14 @@
       }
     ]
   },
-  "runs": [],
+  "runs": [
+    {
+      "path": "runs/cycle-453/simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "29c627f0bfbbd8f4be386253289090297fe0ed01d38b68d57cc6bb8fedb88773"
+    }
+  ],
   "identifiers": {
     "research_queue_ids": [],
     "living_paper_slug": "simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces"
@@ -60,6 +67,14 @@
       "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "2.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "af7cf39d6504faacef905c517476602de1aac336c0ed7730da8a41de22b91816",
+      "bytes": 42178,
+      "recorded_at": "2026-11-07",
+      "basis": "revision",
+      "version": "2.2.0",
       "git_commit": null
     }
   ],
