@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "parity-protected-superconducting-qubits-at-4-k-a-thermodynamic-error-budget-and-",
+  "paper": {
+    "path": "papers/parity-protected-superconducting-qubits-at-4-k-a-thermodynamic-error-budget-and-/paper.md",
+    "title": "Parity-Protected Superconducting Qubits at 4 K: A Thermodynamic Error-Budget and Cooling-Crossover Analysis",
+    "url": "https://papers.qnfo.org/papers/parity-protected-superconducting-qubits-at-4-k-a-thermodynamic-error-budget-and-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-455/parity-protected-superconducting-qubits-at-4-k-a-thermodynamic-error-budget-and-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d6b0d6ca654018322cb32eddd7388a7244897cf3a86addd7c384131cde23cdfe"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "c5bbcbd2-7e90-40c4-8ca3-b976e0bbae18"
+    ],
+    "living_paper_slug": "parity-protected-superconducting-qubits-at-4-k-a-thermodynamic-error-budget-and-"
+  },
+  "snapshots": [
+    {
+      "sha256": "3f68fb37231e96f2b489de5195a6637c7da8bec62fb261af7b852f758a6bdcaa",
+      "bytes": 43388,
+      "recorded_at": "2026-11-07",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
