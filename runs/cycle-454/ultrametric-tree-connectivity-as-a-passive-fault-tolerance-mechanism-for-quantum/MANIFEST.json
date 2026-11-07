@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "5d5aa24d-5bd9-4d9c-8c39-526bc38c64f9",
+    "slug": "ultrametric-tree-connectivity-as-a-passive-fault-tolerance-mechanism-for-quantum",
+    "cycle": "cycle-454",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.0",
+    "finished_at": "2026-11-07T18:31:16.824Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "a61a43499ca6880a0ed470bd1cd49c44459e6e57b5a8272431952a86b56379ee",
+    "bytes": 37640,
+    "path": "silent-radix/ultrametric-tree-connectivity-as-a-passive-fault-tolerance-mechanism-for-quantum/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "04476323b0a67dce548cf86278756a1ee1cc19b221eeddd2359a724a43196d47",
+      "bytes": 46532,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "6487e0f022f11dc3a7cf242dec061c439aad6ea8a4588a232497b5dd00873c3a",
+      "bytes": 37639,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "061501d83cdf64f774ecf4e214156b7182b69d7d854019aa83b0c89e769cbe72",
+      "bytes": 4531,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "81c146899dddc7ba76a5543c71868e916be1f6419f93d9a620797f1ff2691999",
+      "bytes": 3777,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "760528eb3903254a4609dcb58a7f8f34c859fcc119b8155fe51e865e5e68a5b2",
+      "bytes": 18373,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "9b5496bb066e0872f193c6fab8dc28f98e8fc5692151db196e8323045e0cb1d1",
+      "bytes": 11208,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "98fcd8f98a60d718a92ac8529a2f9131a42ad654185dfe2788436b1594e2a2f7",
+      "bytes": 19536,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "7f63a857d5825c8b24c91bc0a10fd11e9fb5833bdba5a839409a12bbc8b32f82",
+      "bytes": 19022,
+      "role": "draft"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "ultrametric-tree-connectivity-as-a-passive-fault-tolerance-mechanism-for-quantum",
+  "paper": {
+    "path": "silent-radix/ultrametric-tree-connectivity-as-a-passive-fault-tolerance-mechanism-for-quantum/paper.md",
+    "title": "Ultrametric Tree Connectivity as a Passive Fault-Tolerance Mechanism for Quantum Processors",
+    "url": "https://papers.qnfo.org/papers/ultrametric-tree-connectivity-as-a-passive-fault-tolerance-mechanism-for-quantum"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-454/ultrametric-tree-connectivity-as-a-passive-fault-tolerance-mechanism-for-quantum",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "887dcb62870dae744ec5e3982548690f1fec940d2da229d003e87abdb344d658"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "5d5aa24d-5bd9-4d9c-8c39-526bc38c64f9"
+    ],
+    "living_paper_slug": "ultrametric-tree-connectivity-as-a-passive-fault-tolerance-mechanism-for-quantum"
+  },
+  "snapshots": [
+    {
+      "sha256": "a61a43499ca6880a0ed470bd1cd49c44459e6e57b5a8272431952a86b56379ee",
+      "bytes": 37640,
+      "recorded_at": "2026-11-07",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
