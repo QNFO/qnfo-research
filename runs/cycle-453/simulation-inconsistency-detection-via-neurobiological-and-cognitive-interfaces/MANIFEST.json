@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-cfb-1000701-b",
+    "slug": "simulation-inconsistency-detection-via-neurobiological-and-cognitive-interfaces",
+    "cycle": "cycle-453",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.0",
+    "finished_at": "2026-11-07T14:22:55.172Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "0a759d686fe4172539f7dd5f3ed1e6ac64f9b7843f4aefde3a47a96f53410f85",
+      "bytes": 100010,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "af7cf39d6504faacef905c517476602de1aac336c0ed7730da8a41de22b91816",
+      "bytes": 42178,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "bbbff9a1fa73e58868c25f8073397c17297b41a378206c7095813695f223b4fb",
+      "bytes": 3520,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "3d79008b2d9c05c21e0b04c3e5f05723ffffacf6bfa8c7aa8e0b44ce4679493c",
+      "bytes": 3899,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "37b0e43b6ee8d679557a7a2fe75b6fff6a52a74b110175b294a484b25c22c13a",
+      "bytes": 7625,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "de18882fed938b91866c785d2482dd3f8ecfd2526b1f2194c64be8659c801857",
+      "bytes": 2368,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "b4d0e058f368ce92b6819ceba4d3f4ed14e5f5264b7c84cedd7c1c8ce8913d16",
+      "bytes": 16779,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "5643bfc103ea8734f3cea9d3712d3723446f9e97df16bfbb55bfec2a14b7c270",
+      "bytes": 12346,
+      "role": "draft"
+    }
+  }
+}
