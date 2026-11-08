@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "quantum-kolmogorov-complexity-a-family-of-uncomputable-description-length-measur",
+  "paper": {
+    "path": "papers/quantum-kolmogorov-complexity-a-family-of-uncomputable-description-length-measur/paper.md",
+    "title": "Quantum Kolmogorov Complexity: A Family of Uncomputable Description-Length Measures",
+    "url": "https://papers.qnfo.org/papers/quantum-kolmogorov-complexity-a-family-of-uncomputable-description-length-measur"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-456/quantum-kolmogorov-complexity-a-family-of-uncomputable-description-length-measur",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "43082e17d059dbf8d4a6ffa80cec3efcc38a9c4a74794ee2ef3ff8cd9f0edfd9"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "dbc1533f-e0bb-41e0-9aa3-72c7e3898d97"
+    ],
+    "living_paper_slug": "quantum-kolmogorov-complexity-a-family-of-uncomputable-description-length-measur"
+  },
+  "snapshots": [
+    {
+      "sha256": "53501d2f9d745d9b767467b0925a4cda575fed6405552f3e1a9fe48a327c602f",
+      "bytes": 32962,
+      "recorded_at": "2026-11-08",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

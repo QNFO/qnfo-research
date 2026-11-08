@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "dbc1533f-e0bb-41e0-9aa3-72c7e3898d97",
+    "slug": "quantum-kolmogorov-complexity-a-family-of-uncomputable-description-length-measur",
+    "cycle": "cycle-456",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.0",
+    "finished_at": "2026-11-08T07:21:35.889Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "53501d2f9d745d9b767467b0925a4cda575fed6405552f3e1a9fe48a327c602f",
+    "bytes": 32962,
+    "path": "papers/quantum-kolmogorov-complexity-a-family-of-uncomputable-description-length-measur/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "8222533b07a2fcd18c1ce2b8ac10608b58a133947912c98ed2b1627ea656857c",
+      "bytes": 48333,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "53501d2f9d745d9b767467b0925a4cda575fed6405552f3e1a9fe48a327c602f",
+      "bytes": 32962,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "a06617a4661ad648d4160a354c55fa035b3a24800e6d3f93dc7fcf9eb8ea156b",
+      "bytes": 1968,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "1187a9dd21f657947689e52503142515792ab273958fd6b66f7f25e80f5352ae",
+      "bytes": 2738,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "cf866d6477290a60d90ec90a04aef445d3268cdf9956eb0e49f53bc78f041eb0",
+      "bytes": 11169,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "41a2347cfc7e0322e82f309b1fbaf584ffc20075cf09a0ada47064218a4dd059",
+      "bytes": 6811,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "32da344ca81a1eb9805cbe81fec45fb299319f839959ec159667fa492694ebb7",
+      "bytes": 16033,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "d4e864f196336a712681bd6b8cd6369ade5a497876beaeae3c6e67d76c77835a",
+      "bytes": 18833,
+      "role": "draft"
+    }
+  }
+}
