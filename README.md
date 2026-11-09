@@ -22,6 +22,14 @@ python3 tools/provenance.py reproduce --all
 
 Cite the repository with `CITATION.cff`; cite a paper by its address `https://papers.qnfo.org/papers/<slug>`.
 
+## Author
+
+[Rowan Brad Quni-Gudzinas](https://rwnq8.github.io) is a systems researcher studying autonomous AI systems: how they
+behave, fail and can be audited and governed. The pipeline that writes this repository is that kind of system in
+production, an autonomous research system that drafts, referees, revises, publishes and corrects papers. Its
+objectives, costs and failure record are published in
+[Operating the Quniverse Fleet](https://doi.org/10.5281/zenodo.23079905).
+
 ## Member project repositories (merged 2026-08-04, each by `git subtree`, history preserved)
 
 | Project repo | Subdirectory | Original URL |
