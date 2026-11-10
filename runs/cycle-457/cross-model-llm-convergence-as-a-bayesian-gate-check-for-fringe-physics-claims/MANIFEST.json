@@ -1,0 +1,83 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "27d95019-8cde-44f3-93e1-f5d2e493b1ca",
+    "slug": "cross-model-llm-convergence-as-a-bayesian-gate-check-for-fringe-physics-claims",
+    "cycle": "cycle-457",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.11",
+    "finished_at": "2026-11-10T12:21:10.165Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "b035f67ac74a8b4ec850d43dc19f199aec9f29c1fd51cee32252abfc99e8b91d",
+    "bytes": 37255,
+    "path": "papers/cross-model-llm-convergence-as-a-bayesian-gate-check-for-fringe-physics-claims/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "2b4c47bc3e54375e668594b38d8fb8b5c06d14ac834fe8bb331fe508ac74580b",
+      "bytes": 54096,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "83a4dd4843d170f350b19577895dfa329622f60ab13fab7f7b3ed37fd2eb7efa",
+      "bytes": 37259,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "9a2662d598c8bb1896b9cf30ed8e235a643d7fcd5a2fc0c185b9cee5261f2dc6",
+      "bytes": 7069,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "141f868007554cb51c9a8ffc1cccda43123271ce64e67772ef3e4484fbeac24d",
+      "bytes": 8230,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "fdbdac18c2faadcf1cadf5e1494c179f6ed6f777a34dc1e72121550b64dac4bd",
+      "bytes": 15029,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "228c8db015516d08f646dbcac3323ade20de23d5cf2d27d172de60573d30b259",
+      "bytes": 6874,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "a491dd8df8809d2aae4c42f7c9b63378c11ffff22c86c3fa8510a62564abb870",
+      "bytes": 15775,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "91d407d38338e98e7e14a3afcb0cb6c9ab47e66bc323a4510b2e346b9ee2647d",
+      "bytes": 19849,
+      "role": "draft"
+    },
+    "writer-c-draft.md": {
+      "sha256": "fe15e0d988ab1bf0607138fbb619abd71e7254afe8f5a20b01c750ca829bbef4",
+      "bytes": 28053,
+      "role": "draft"
+    }
+  }
+}
