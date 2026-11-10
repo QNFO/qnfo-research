@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "3bed0877-ca2b-4ef3-a57c-7e1a86eb41e3",
+    "slug": "physical-instantiation-as-selection-of-relational-structure-a-statistical-framew",
+    "cycle": "cycle-458",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-10T20:51:11.695Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "c36dae9b3cc5641ebd977a6e2ed32b320eade271ac0f7d38023d0b4946eda0f0",
+    "bytes": 42539,
+    "path": "papers/physical-instantiation-as-selection-of-relational-structure-a-statistical-framew/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "31bcf74a3d362c561f0ab660741f3abb70c2d0583f736e83cfc16c9003698ceb",
+      "bytes": 43546,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "c36dae9b3cc5641ebd977a6e2ed32b320eade271ac0f7d38023d0b4946eda0f0",
+      "bytes": 42539,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "a6f1f3ce59913a915f0bb0691ff8267b0ea10403dae97c5f36abdd3176c4861a",
+      "bytes": 4118,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "84ff44a934517be92991f92f4b4eef8f8eff131f4d4df7d1401dac4c6bb54f5a",
+      "bytes": 2864,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "b8924841f66fb1aaa024dc8f7548c96c8ca7ad085820a523756372c9d52895bc",
+      "bytes": 15456,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "8185befc55c996991d3e084fb31218babb77115e9e0e13c4e625b2abbe4f051a",
+      "bytes": 8505,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "3853b929522cf4993e6120323dad1c219a4df2196a5e0309ed9993f26b98e45e",
+      "bytes": 18919,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "c770ea10629206a87c440358c7460b1589a2c8a3f7429a2941f80af3b755520e",
+      "bytes": 24415,
+      "role": "draft"
+    }
+  }
+}
