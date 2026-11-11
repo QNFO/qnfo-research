@@ -1,0 +1,83 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "5701cd27-105e-4bfb-8320-991cdc27fa24",
+    "slug": "root-of-unity-quantization-in-su-2-k-chern-simons-fusion-categories",
+    "cycle": "cycle-459",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-11T02:52:07.360Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "86bb7136cd69d24ddc298350223a5db30b4655d46db840cf3d276445503fb245",
+    "bytes": 29374,
+    "path": "papers/root-of-unity-quantization-in-su-2-k-chern-simons-fusion-categories/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "fb62a6f934d1c960039a1ae63ddbcb521e8283bf68e7a0340e05bfcce4d4b17f",
+      "bytes": 34952,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "ebea4aab8affe6ebcec42226703e9c0df4eefeb29f14a01a7685469bafc32bdb",
+      "bytes": 29380,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "49371dfd3993c7319994dd667b2a55a86a949270b4bd1f3d90833ee389a91421",
+      "bytes": 14179,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "fc443ab33d844db5fe2c327861e595d33eb09731847d06e780e13009ecdb1b11",
+      "bytes": 11428,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "62fd45a1e33c5cead7ae2d9287ec45ca27e8dab782eec384596719bf610626d8",
+      "bytes": 8439,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "f5ad8ef4df5d46d3d8f13b5f89c340f970559ce9aab3489ffc22ca1e45063ae9",
+      "bytes": 2814,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "c3c95977eb6355ab6ccbec7a9c501faec853f29a58ef41a453088a3b866737e0",
+      "bytes": 59301,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "6f1305e652213f1e2ecff15ff4babf410a18b5fb2c5838729d3006af835d1cc6",
+      "bytes": 17035,
+      "role": "draft"
+    },
+    "writer-c-draft.md": {
+      "sha256": "401a3e2e82d2a13394182230c6b71833f794b976cf1d9b3d06045357318182f7",
+      "bytes": 15409,
+      "role": "draft"
+    }
+  }
+}

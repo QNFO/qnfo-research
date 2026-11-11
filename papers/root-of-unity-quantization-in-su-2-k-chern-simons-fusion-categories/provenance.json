@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "root-of-unity-quantization-in-su-2-k-chern-simons-fusion-categories",
+  "paper": {
+    "path": "papers/root-of-unity-quantization-in-su-2-k-chern-simons-fusion-categories/paper.md",
+    "title": "Root‑of‑Unity Quantization in SU(2)$_{k}$ Chern‑Simons Fusion Categories",
+    "url": "https://papers.qnfo.org/papers/root-of-unity-quantization-in-su-2-k-chern-simons-fusion-categories"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-459/root-of-unity-quantization-in-su-2-k-chern-simons-fusion-categories",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "d0dfc066b2fb91f6f9280a84b84febc68690e25c483d208dc2588e0970aae65b"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "5701cd27-105e-4bfb-8320-991cdc27fa24"
+    ],
+    "living_paper_slug": "root-of-unity-quantization-in-su-2-k-chern-simons-fusion-categories"
+  },
+  "snapshots": [
+    {
+      "sha256": "86bb7136cd69d24ddc298350223a5db30b4655d46db840cf3d276445503fb245",
+      "bytes": 29374,
+      "recorded_at": "2026-11-11",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}
