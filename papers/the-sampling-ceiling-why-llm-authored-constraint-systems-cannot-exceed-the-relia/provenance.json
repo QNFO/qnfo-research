@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "the-sampling-ceiling-why-llm-authored-constraint-systems-cannot-exceed-the-relia",
+  "paper": {
+    "path": "papers/the-sampling-ceiling-why-llm-authored-constraint-systems-cannot-exceed-the-relia/paper.md",
+    "title": "The Sampling Ceiling: Why LLM-Authored Constraint Systems Cannot Exceed the Reliability of the Model That Authored Them",
+    "url": "https://papers.qnfo.org/papers/the-sampling-ceiling-why-llm-authored-constraint-systems-cannot-exceed-the-relia"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-461/the-sampling-ceiling-why-llm-authored-constraint-systems-cannot-exceed-the-relia",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b09f0fbe9fa47f4cbd258b9692361666c91722ddaa6cdba23f9d10f5d49ff1e1"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "983ca76d-c98a-4dc6-a123-feb4a9056bde"
+    ],
+    "living_paper_slug": "the-sampling-ceiling-why-llm-authored-constraint-systems-cannot-exceed-the-relia"
+  },
+  "snapshots": [
+    {
+      "sha256": "9b202d54573b83c089cfe5529f210dcbfcf30ea5340a3db430cceffa3f0cf845",
+      "bytes": 50642,
+      "recorded_at": "2026-11-11",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

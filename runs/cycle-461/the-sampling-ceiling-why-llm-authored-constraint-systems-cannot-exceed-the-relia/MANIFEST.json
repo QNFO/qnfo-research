@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "983ca76d-c98a-4dc6-a123-feb4a9056bde",
+    "slug": "the-sampling-ceiling-why-llm-authored-constraint-systems-cannot-exceed-the-relia",
+    "cycle": "cycle-461",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-11T18:41:22.242Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "9b202d54573b83c089cfe5529f210dcbfcf30ea5340a3db430cceffa3f0cf845",
+    "bytes": 50642,
+    "path": "papers/the-sampling-ceiling-why-llm-authored-constraint-systems-cannot-exceed-the-relia/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "1898af48f803c2e5351d95c50afc11f70d197dba8ac1642db91ee1d9fe07fe2b",
+      "bytes": 50640,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "9b202d54573b83c089cfe5529f210dcbfcf30ea5340a3db430cceffa3f0cf845",
+      "bytes": 50642,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "853fbde7e7c30f52fdea071646b416984aec2c318ec664ec6abdff5a6be484bd",
+      "bytes": 3828,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "b66b9dd7a289897ae1d87ee7373e0b76a1e2c713b354d2bd0a7a321bc411121a",
+      "bytes": 3476,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "b00c56d74d59f63aed2a0ac8c39361d127580ee787d86301adefd90874b03d7b",
+      "bytes": 16873,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "9f5a4c67a4f868d26d9399e614553e49195713162c41723535c68df8047f1614",
+      "bytes": 8696,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "a812647c8c52067219d1eba7b5edb74bf76ec09eed0d4321fe92bfaf38a8d31d",
+      "bytes": 17075,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "cbfd2b063e0b19678c20c0d3ebd59e94049f2fa32aa37bddd638415e3a4866bb",
+      "bytes": 29631,
+      "role": "draft"
+    }
+  }
+}
