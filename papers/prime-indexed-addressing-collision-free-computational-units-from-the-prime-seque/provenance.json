@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque",
+  "paper": {
+    "path": "papers/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque/paper.md",
+    "title": "Prime-Indexed Addressing: Collision-Free Computational Units from the Prime Sequence, with Entropy and Physicality Bounds",
+    "url": "https://papers.qnfo.org/papers/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-464/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "94d0d4e8d3296e73538986a0f7917b250c13cc2dbeced42da2194af6545f054f"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "5b456a63-fb8f-4eef-afd4-c6d47fc014b3"
+    ],
+    "living_paper_slug": "prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque"
+  },
+  "snapshots": [
+    {
+      "sha256": "6aac1c9dbbf9c773cd844eb2f8335fa7873a8788686b6c15dd108b5fc4d334a4",
+      "bytes": 45792,
+      "recorded_at": "2026-11-12",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-464: Prime-Indexed Addressing: Collision-Free Computational Units from the Prime Sequence, with Entropy and Physicality Bounds",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-464",
+      "qnfo:runPath": "runs/cycle-464/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque",
+      "qnfo:slug": "prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-12T09:02:07.604Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Prime-Indexed Addressing: Collision-Free Computational Units from the Prime Sequence, with Entropy and Physicality Bounds",
+      "url": "https://papers.qnfo.org/papers/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0812.4610",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0812.4610"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1010.2916",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1010.2916"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1208.4233",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1208.4233"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1306.0795",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1306.0795"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1405.2900",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1405.2900"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1406.4801",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1406.4801"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1810.02188",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1810.02188"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.16077",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.16077"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2423",
+      "sha256": "94d0d4e8d3296e73538986a0f7917b250c13cc2dbeced42da2194af6545f054f",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "45079",
+      "sha256": "d721f4fa17c92519efbb7e8f11117604013c2013a73b92e4c0ce2f1407ff9ce4",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "45792",
+      "sha256": "6aac1c9dbbf9c773cd844eb2f8335fa7873a8788686b6c15dd108b5fc4d334a4",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4723",
+      "sha256": "83827b763958f74a1ed4a1bd12530f20c2e37a884e9a3864f44a3eacd4e32422",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3957",
+      "sha256": "f0544f2746f2339b5378000ccaf66f8f00ff7f649304bc2e11809165f57f6520",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16176",
+      "sha256": "dd84563b73b6c89232d09650b8f59547a2b920977a8fd56f4dc7e46f33f0f840",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "8101",
+      "sha256": "94effaf9fea18303990e17e6fa29929fe12e1c46f8f00da797d9e8d6265fc92a",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16266",
+      "sha256": "09b05ed5cb3517dc08b48d9dc84443bf0786d57fae198a31fc88e0fe4fdd1f3c",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "24931",
+      "sha256": "e83782dd7ce6be3e21850622bf07992b23533bd18db6274d8ad821a707e321ae",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0812.4610"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1010.2916"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1208.4233"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1306.0795"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1405.2900"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1406.4801"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1810.02188"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.16077"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-12T09:02:07.604Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

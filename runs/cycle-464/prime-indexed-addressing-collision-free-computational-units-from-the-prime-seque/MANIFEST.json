@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "5b456a63-fb8f-4eef-afd4-c6d47fc014b3",
+    "slug": "prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque",
+    "cycle": "cycle-464",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-12T09:02:07.604Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "6aac1c9dbbf9c773cd844eb2f8335fa7873a8788686b6c15dd108b5fc4d334a4",
+    "bytes": 45792,
+    "path": "papers/prime-indexed-addressing-collision-free-computational-units-from-the-prime-seque/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "d721f4fa17c92519efbb7e8f11117604013c2013a73b92e4c0ce2f1407ff9ce4",
+      "bytes": 45079,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "6aac1c9dbbf9c773cd844eb2f8335fa7873a8788686b6c15dd108b5fc4d334a4",
+      "bytes": 45792,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "83827b763958f74a1ed4a1bd12530f20c2e37a884e9a3864f44a3eacd4e32422",
+      "bytes": 4723,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "f0544f2746f2339b5378000ccaf66f8f00ff7f649304bc2e11809165f57f6520",
+      "bytes": 3957,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "dd84563b73b6c89232d09650b8f59547a2b920977a8fd56f4dc7e46f33f0f840",
+      "bytes": 16176,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "94effaf9fea18303990e17e6fa29929fe12e1c46f8f00da797d9e8d6265fc92a",
+      "bytes": 8101,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "09b05ed5cb3517dc08b48d9dc84443bf0786d57fae198a31fc88e0fe4fdd1f3c",
+      "bytes": 16266,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "e83782dd7ce6be3e21850622bf07992b23533bd18db6274d8ad821a707e321ae",
+      "bytes": 24931,
+      "role": "draft"
+    }
+  }
+}
