@@ -2,10 +2,6 @@
 
 *A Non-Archimedean Framework for Emergent Quantum Stochasticity*
 
-## Abstract
-
-URL: https://papers.qnfo.org/papers/topological-aliasing-and-holographic-readout/ Date: 2026-03-23 Version: 1.0 The foundation of modern physical theories relies heavily on the continuous nature of real numbers. This mathematical framework assumes that space and time can be divided infinitely without encountering structural changes. Physicists adopted this continuous metric during the development of classical mechanics to model smooth trajectories. Calculus requires such continuity to calculate rates of change and areas under curves effectively. Consequently, the Archimedean property became an unquestioned axiom in the formulation of natural laws. This property dictates that any small quantity can exceed a larger one if multiplied sufficiently. The resulting consensus established a paradigm where physical reality mirrors the smooth continuum of standard mathematics.
-
 ## 1: The Archimedean Consensus and Its Epistemic Limits
 
 ### 1.1 The Historical Adoption of Real Numbers in Physics
