@@ -17,6 +17,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "cb95dcc66a0b97f86b41ccba61842110fa02afffe7fddad6c6cb6aa8c544b501"
+    },
+    {
+      "path": "runs/cycle-463/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f7fca348a4682dd63f0546fc7e8d4f7440760ebce2fb28231e6cd2a6ad102895"
     }
   ],
   "identifiers": {
@@ -46,6 +52,14 @@
       "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "5f7f50371b3835188aa094c5e2ebb106a443d7b19936324c29314754215a588c",
+      "bytes": 65882,
+      "recorded_at": "2026-11-12",
+      "basis": "revision",
+      "version": "1.2.0",
       "git_commit": null
     }
   ],
