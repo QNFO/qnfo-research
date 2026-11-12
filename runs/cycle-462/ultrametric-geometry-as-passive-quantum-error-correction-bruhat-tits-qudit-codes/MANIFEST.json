@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-0786b94f-b903-4914-b99b-7d91513f5d25",
+    "slug": "ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes",
+    "cycle": "cycle-462",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-12T02:23:54.049Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "be1ba9a60a6f4d6707531fdf209c32b4ea10f778a89dd0702eb508d5425c773c",
+      "bytes": 75860,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "58c9d0c4cef14b0efea90174c7c520090cea07fdf4c1ada00c15da5be24dcc6f",
+      "bytes": 42529,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "802f41918642e1478df7b8485325eac2557f3064ffea22de4ee4634e007f6418",
+      "bytes": 5426,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "c4cc4af985acdefa60efe7407a789d5027d7e5467ff9b9e6a164e748bda9e574",
+      "bytes": 4379,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "205fd167a281bb8a538e97909b1710e7b8fc55550535ff3db5cff05d7afaec71",
+      "bytes": 14639,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "ae7599fccb758838c85cbbb5e0af56868dc7532a0d92bcd5246747542475d6e6",
+      "bytes": 6544,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "2170e59a55cedbfe8d94491fc9a360df2c28efff8b8eb6e6237a70f534f7ce3d",
+      "bytes": 26161,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "3f11238f61559ad5bbd6a40eaf9ea8968f5ec1385753e5cc0b7d87defe0cb6a3",
+      "bytes": 12581,
+      "role": "draft"
+    }
+  }
+}
