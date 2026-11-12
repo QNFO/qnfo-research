@@ -29,6 +29,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "27c297dc917e063c72edefdbf56140f3974c37bfef7f7ced98121f5e76cfae2e"
+    },
+    {
+      "path": "runs/cycle-462/ultrametric-geometry-as-passive-quantum-error-correction-bruhat-tits-qudit-codes",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "53f103d4b1dbe55189582d56676c7289e465f779697ea633261f2a35652a1929"
     }
   ],
   "identifiers": {
@@ -66,6 +72,14 @@
       "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "2.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "f37d0ad0988e9e231eadc1c98ff5b447c177c59766602bbfa1220f2cf0ea935f",
+      "bytes": 42527,
+      "recorded_at": "2026-11-12",
+      "basis": "revision",
+      "version": "2.2.0",
       "git_commit": null
     }
   ],
