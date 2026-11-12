@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-463: Functorial Invariance Across Presentations of the Prime Numbers, with Context-Relative Quantitative Illustrations",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-463",
+      "qnfo:runPath": "runs/cycle-463/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel",
+      "qnfo:slug": "functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-12T04:11:02.486Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Functorial Invariance Across Presentations of the Prime Numbers, with Context-Relative Quantitative Illustrations",
+      "url": "https://papers.qnfo.org/papers/functorial-invariance-across-presentations-of-the-prime-numbers-with-context-rel"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1212.3602",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1212.3602"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1401.2355",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1401.2355"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1509.00457",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1509.00457"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1710.07827",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1710.07827"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1809.02821",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1809.02821"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1901.09668",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1901.09668"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2303.02030",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2303.02030"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2404.06472",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2404.06472"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2195",
+      "sha256": "f7fca348a4682dd63f0546fc7e8d4f7440760ebce2fb28231e6cd2a6ad102895",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "106981",
+      "sha256": "46fa52560628c0af8ade4546179fa082f26c4f2c2a9d2533a43b040709121050",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "65882",
+      "sha256": "5f7f50371b3835188aa094c5e2ebb106a443d7b19936324c29314754215a588c",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2241",
+      "sha256": "559027f9ecc956c2f569f9e6241b26d21e95a65fd9f435ac3c96a63b3e4a016a",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "11005",
+      "sha256": "2f2f4d97a429ece0eb4787738ea520776e77a78bb17bcbedbc8c68dfbf24e21f",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "16355",
+      "sha256": "7c0d903875f2013ee795280a049fe5b8ba1f527d691faea1e7c2fd8d441c85c0",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "9149",
+      "sha256": "596bb1f5a74656c93d17adce4edbaaf9e36fc5ab7666198a53b7dae8eeb81271",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21601",
+      "sha256": "d33e36faada17418801f88fc2f30790b1c0e1453ee6d9c75f48754482950580d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "25430",
+      "sha256": "8b297ac360c0c5333377fc8edbb5c62c2a3222c1acfd199b357bbada4ee7d181",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1212.3602"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1401.2355"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1509.00457"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1710.07827"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1809.02821"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1901.09668"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2303.02030"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2404.06472"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-12T04:11:02.486Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
