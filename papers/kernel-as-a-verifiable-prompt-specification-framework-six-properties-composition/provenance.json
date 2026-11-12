@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition",
+  "paper": {
+    "path": "papers/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition/paper.md",
+    "title": "KERNEL as a Verifiable Prompt Specification Framework: Six Properties, Composition Bounds, and a Benchmark Design",
+    "url": "https://papers.qnfo.org/papers/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-465/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "9c3aea620e998add9154d3b9b532ba1e828ed515383d589aafe1da2c3c3ec5bd"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "98345df1-b6ee-42f9-b9ba-6a85666b2b45"
+    ],
+    "living_paper_slug": "kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition"
+  },
+  "snapshots": [
+    {
+      "sha256": "ac02f8be544b87b9b93c3407664d7d09a2214266667ee442838953cbbdca9264",
+      "bytes": 48579,
+      "recorded_at": "2026-11-12",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

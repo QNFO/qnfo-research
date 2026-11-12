@@ -1,0 +1,412 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-465: KERNEL as a Verifiable Prompt Specification Framework: Six Properties, Composition Bounds, and a Benchmark Design",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-465",
+      "qnfo:runPath": "runs/cycle-465/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition",
+      "qnfo:slug": "kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-12T09:32:53.073Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "KERNEL as a Verifiable Prompt Specification Framework: Six Properties, Composition Bounds, and a Benchmark Design",
+      "url": "https://papers.qnfo.org/papers/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1402.3849",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1402.3849"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1508.07066",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1508.07066"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2401.06105",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2401.06105"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2403.04708",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2403.04708"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2507.15042",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2507.15042"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.18940",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.18940"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2602.20214",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2602.20214"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.26615",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.26615"
+    },
+    {
+      "@id": "https://doi.org/10.17605/OSF.IO/PV6R3",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.17605/OSF.IO/PV6R3"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2424",
+      "sha256": "9c3aea620e998add9154d3b9b532ba1e828ed515383d589aafe1da2c3c3ec5bd",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "54173",
+      "sha256": "be44f3e1d9245496980d7bac19528648024a7991ed3ee202906061f6bc76425f",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48579",
+      "sha256": "ac02f8be544b87b9b93c3407664d7d09a2214266667ee442838953cbbdca9264",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2839",
+      "sha256": "42f08a20428b70ac4a61a205e75641d3ffc615767a2dcf8cc03e4cd3e97799ad",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3499",
+      "sha256": "62152cf8dac8641f90ff6ce041c601efabd8aa2f17f0b3fe51c4c0f8778d252c",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "20000",
+      "sha256": "7b222976780d69466501cbb5a1e97d63f873dbc7612f1e3f38804baca278b198",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "11493",
+      "sha256": "2af3ff6e96c0fbbdb10d6464785839941a3b206176fa8a7a247bb43ec38d5ef6",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17921",
+      "sha256": "0bbf3a15030fa26aa767b2104711352d1766668927dae519dbe27127c8b22af5",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "29811",
+      "sha256": "289efd14471bfba8c34382cfeff438c402d56def0783eedfa1c234ae0180edd3",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1402.3849"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1508.07066"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2401.06105"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2403.04708"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2507.15042"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.18940"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2602.20214"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.26615"
+        },
+        {
+          "@id": "https://doi.org/10.17605/OSF.IO/PV6R3"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-12T09:32:53.073Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}

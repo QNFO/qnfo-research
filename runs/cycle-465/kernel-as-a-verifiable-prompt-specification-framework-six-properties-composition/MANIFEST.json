@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "98345df1-b6ee-42f9-b9ba-6a85666b2b45",
+    "slug": "kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition",
+    "cycle": "cycle-465",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-12T09:32:53.073Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "ac02f8be544b87b9b93c3407664d7d09a2214266667ee442838953cbbdca9264",
+    "bytes": 48579,
+    "path": "papers/kernel-as-a-verifiable-prompt-specification-framework-six-properties-composition/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "be44f3e1d9245496980d7bac19528648024a7991ed3ee202906061f6bc76425f",
+      "bytes": 54173,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "ac02f8be544b87b9b93c3407664d7d09a2214266667ee442838953cbbdca9264",
+      "bytes": 48579,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "42f08a20428b70ac4a61a205e75641d3ffc615767a2dcf8cc03e4cd3e97799ad",
+      "bytes": 2839,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "62152cf8dac8641f90ff6ce041c601efabd8aa2f17f0b3fe51c4c0f8778d252c",
+      "bytes": 3499,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "7b222976780d69466501cbb5a1e97d63f873dbc7612f1e3f38804baca278b198",
+      "bytes": 20000,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "2af3ff6e96c0fbbdb10d6464785839941a3b206176fa8a7a247bb43ec38d5ef6",
+      "bytes": 11493,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "0bbf3a15030fa26aa767b2104711352d1766668927dae519dbe27127c8b22af5",
+      "bytes": 17921,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "289efd14471bfba8c34382cfeff438c402d56def0783eedfa1c234ae0180edd3",
+      "bytes": 29811,
+      "role": "draft"
+    }
+  }
+}
