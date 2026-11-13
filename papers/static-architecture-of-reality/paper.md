@@ -2,6 +2,10 @@
 
 *A Discrete Relational Synthesis*
 
+## Abstract
+
+URL: https://papers.qnfo.org/papers/static-architecture-of-reality/ Date: 2026-03-21 Version: 1.0.1 Human consciousness presents a world in constant flux. From the rotation of planets to the decay of particles, every measurement confirms a dynamic universe. This experience of temporal flow is so fundamental it structures language, logic, and scientific inquiry. Yet a profound paradox emerges when the foundations of physics are examined with mathematical rigor. The deepest theories of reality, when stripped to their ontological core, suggest a picture of stunning stillness. Quantum gravity, holography, and advanced geometry converge on a architecture devoid of fundamental time. This chapter outlines the central argument that our experience of change is a compelling illusion generated within a static, discrete network of relations.
+
 ## Chapter 1: Articulating the Core Ontological Claim
 
 ### 1.1 The Experiential Paradox of Time and Change
