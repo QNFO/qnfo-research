@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "noether-bounded-computation-conservation-laws-as-native-constraints-on-physical-",
+  "paper": {
+    "path": "papers/noether-bounded-computation-conservation-laws-as-native-constraints-on-physical-/paper.md",
+    "title": "Noether-Bounded Computation: Conservation Laws as Native Constraints on Physical Processors",
+    "url": "https://papers.qnfo.org/papers/noether-bounded-computation-conservation-laws-as-native-constraints-on-physical-"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-469/noether-bounded-computation-conservation-laws-as-native-constraints-on-physical-",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "1e8b7288ba5ce2df4afe8d7b0bad6dec10d9097249e02cb7e0a096ea1e56f81e"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "76b6a117-fb61-4388-98b9-4f17e796b298"
+    ],
+    "living_paper_slug": "noether-bounded-computation-conservation-laws-as-native-constraints-on-physical-"
+  },
+  "snapshots": [
+    {
+      "sha256": "dfff04c03105cb959779808262af8ae2445b6e1722e98fc98437f24840311fcc",
+      "bytes": 46456,
+      "recorded_at": "2026-11-13",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

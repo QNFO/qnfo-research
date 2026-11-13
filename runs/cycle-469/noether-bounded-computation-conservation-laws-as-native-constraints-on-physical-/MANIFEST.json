@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "76b6a117-fb61-4388-98b9-4f17e796b298",
+    "slug": "noether-bounded-computation-conservation-laws-as-native-constraints-on-physical-",
+    "cycle": "cycle-469",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-13T07:52:21.551Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "dfff04c03105cb959779808262af8ae2445b6e1722e98fc98437f24840311fcc",
+    "bytes": 46456,
+    "path": "papers/noether-bounded-computation-conservation-laws-as-native-constraints-on-physical-/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "99394ab688fca315343839ba39e3f348171f7921dc893dade8dd4d74a418a42b",
+      "bytes": 48632,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "dfff04c03105cb959779808262af8ae2445b6e1722e98fc98437f24840311fcc",
+      "bytes": 46456,
+      "role": "reconciliation"
+    },
+    "review-report.md": {
+      "sha256": "be7422e2d0a021b05f54c580fa58dba5ed7343aa3c2254b8fa8561c32ebf904d",
+      "bytes": 5313,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "fec3c571d131e37660c0396ff750fe56710742e0838a9644955c79e72171b3cf",
+      "bytes": 13453,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "b9ca90cfa5a162d949391e42004ac5ad886205b3c4cc7426ecc899365c32f94c",
+      "bytes": 8321,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "8f42a0f7ec607d2732875cac5e03886b1d31e09305b84a43b8a7c9de677c472a",
+      "bytes": 21907,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "b8e1beba5a6d9e6256ad8b53e1f84e01b734bdc12a0d40b264112a9cd39b5c61",
+      "bytes": 23931,
+      "role": "draft"
+    }
+  }
+}
