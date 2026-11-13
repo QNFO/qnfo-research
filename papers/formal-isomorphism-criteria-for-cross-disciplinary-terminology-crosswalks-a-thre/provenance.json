@@ -33,7 +33,21 @@
       "basis": "deposit",
       "version": "1.0.0",
       "git_commit": null
+    },
+    {
+      "sha256": "3a189b279a0f4f0d1b9d1408175f7a18b3910c2e348f6e64bc3074ed917cabaf",
+      "bytes": 50692,
+      "recorded_at": "2026-11-13",
+      "basis": "correction",
+      "version": null,
+      "git_commit": null
     }
   ],
-  "events": []
+  "events": [
+    {
+      "event": "corrected",
+      "at": "2026-11-13",
+      "detail": "CLAIM-INTEGRITY-1"
+    }
+  ]
 }
