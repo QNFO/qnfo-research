@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "c6727950-bcdc-4e38-a5c2-55b453b444cd",
+    "slug": "formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre",
+    "cycle": "cycle-466",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-13T01:02:00.198Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "d2d720c5eac88bf0e58f38de06e183413165980fee4af7592a1c549f20db49dd",
+    "bytes": 50723,
+    "path": "papers/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "ec901a422d070034912bb8c00b785424b46f81ffcfb414cba0577e95128525a1",
+      "bytes": 44731,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "d2d720c5eac88bf0e58f38de06e183413165980fee4af7592a1c549f20db49dd",
+      "bytes": 50723,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "1fe7bf6cced0a50b4512ea697c3f1fe9b921293de06cb97b212e8ed2125f8cae",
+      "bytes": 2728,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "26b2103270f6aeb7ccdb1c28e477c57f1cf5e52d2485a98a3ecb1b185c6b37d5",
+      "bytes": 5169,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "22db8119aafce56081642138665ac00d2e24a2f4f70956e9d9b76f3ce9ab01b8",
+      "bytes": 17478,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "2c6f700e87fa3f8920e7b79d0e1ccf1ada9958bf3d80de997617278bcfcc513f",
+      "bytes": 9111,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "46dc7be641224f1d51756dfa523c88de599a12e1442269d417191f5925be3953",
+      "bytes": 17594,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "d4afd8eb3735083f659d8b4299d8b190329cf000d449b13ab04df47a6f4525a7",
+      "bytes": 21913,
+      "role": "draft"
+    }
+  }
+}

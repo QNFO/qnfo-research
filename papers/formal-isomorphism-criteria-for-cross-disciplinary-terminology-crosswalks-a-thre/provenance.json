@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre",
+  "paper": {
+    "path": "papers/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre/paper.md",
+    "title": "Formal Isomorphism Criteria for Cross-Disciplinary Terminology Crosswalks: A Three-Tier Verification Framework with Decidability and Sample-Size Analysis",
+    "url": "https://papers.qnfo.org/papers/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-466/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "3947470a43d2e670c073d1a1ff4447b9d62b7be50eb1294df42dabbfdae5bba5"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "c6727950-bcdc-4e38-a5c2-55b453b444cd"
+    ],
+    "living_paper_slug": "formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre"
+  },
+  "snapshots": [
+    {
+      "sha256": "d2d720c5eac88bf0e58f38de06e183413165980fee4af7592a1c549f20db49dd",
+      "bytes": 50723,
+      "recorded_at": "2026-11-13",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

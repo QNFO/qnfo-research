@@ -1,0 +1,404 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-466: Formal Isomorphism Criteria for Cross-Disciplinary Terminology Crosswalks: A Three-Tier Verification Framework with Decidability and Sample-Size Analysis",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-466",
+      "qnfo:runPath": "runs/cycle-466/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre",
+      "qnfo:slug": "formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-13T01:02:00.198Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Formal Isomorphism Criteria for Cross-Disciplinary Terminology Crosswalks: A Three-Tier Verification Framework with Decidability and Sample-Size Analysis",
+      "url": "https://papers.qnfo.org/papers/formal-isomorphism-criteria-for-cross-disciplinary-terminology-crosswalks-a-thre"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1609.05170",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1609.05170"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2012.09650",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2012.09650"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2310.05824",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2310.05824"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2402.16139",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2402.16139"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2406.09757",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2406.09757"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2506.20063",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2506.20063"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2512.18859",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2512.18859"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.14837",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.14837"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2423",
+      "sha256": "3947470a43d2e670c073d1a1ff4447b9d62b7be50eb1294df42dabbfdae5bba5",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "44731",
+      "sha256": "ec901a422d070034912bb8c00b785424b46f81ffcfb414cba0577e95128525a1",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "50723",
+      "sha256": "d2d720c5eac88bf0e58f38de06e183413165980fee4af7592a1c549f20db49dd",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2728",
+      "sha256": "1fe7bf6cced0a50b4512ea697c3f1fe9b921293de06cb97b212e8ed2125f8cae",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "5169",
+      "sha256": "26b2103270f6aeb7ccdb1c28e477c57f1cf5e52d2485a98a3ecb1b185c6b37d5",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17478",
+      "sha256": "22db8119aafce56081642138665ac00d2e24a2f4f70956e9d9b76f3ce9ab01b8",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "9111",
+      "sha256": "2c6f700e87fa3f8920e7b79d0e1ccf1ada9958bf3d80de997617278bcfcc513f",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17594",
+      "sha256": "46dc7be641224f1d51756dfa523c88de599a12e1442269d417191f5925be3953",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "21913",
+      "sha256": "d4afd8eb3735083f659d8b4299d8b190329cf000d449b13ab04df47a6f4525a7",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1609.05170"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2012.09650"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2310.05824"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2402.16139"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2406.09757"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2506.20063"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2512.18859"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.14837"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-13T01:02:00.198Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
