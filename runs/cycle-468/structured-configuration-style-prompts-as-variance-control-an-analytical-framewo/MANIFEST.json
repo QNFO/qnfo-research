@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "cef26054-5536-4e57-9944-557e995c29d1",
+    "slug": "structured-configuration-style-prompts-as-variance-control-an-analytical-framewo",
+    "cycle": "cycle-468",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.12",
+    "finished_at": "2026-11-13T04:54:55.604Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "ac4c8152e5a57597118eaf7dd41b37d1489de2ae5aa98a270dac6c2aba87825b",
+    "bytes": 51394,
+    "path": "papers/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "4ae6c3987d79444a7d686fd89fbd0ca93170d678fd6de558a1f039c681fe3bf9",
+      "bytes": 58715,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "ac4c8152e5a57597118eaf7dd41b37d1489de2ae5aa98a270dac6c2aba87825b",
+      "bytes": 51394,
+      "role": "reconciliation"
+    },
+    "review-report.md": {
+      "sha256": "cb713d2d5cc07582a8a1fbd747fe3baafa5465a04a354c5f656be5dd2b755fc7",
+      "bytes": 2291,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "56856e86bb09ab215f3bfbb6c37cfda8e9d94b6e8ba52b6ef730653a1cdd7a3c",
+      "bytes": 17247,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "abab73345d15d3554765307ecf75f7b4f47bfb08ed1a905e67cc7e7d397b81ec",
+      "bytes": 8599,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "a1088692942365534c2a8b3f09d9f338dd2f892c1e06ab07a8cf39cc6ae28f0a",
+      "bytes": 15269,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "692c281650adb29921aaab5c265654dd9057e59fd91a2e914b91ada8b58701a9",
+      "bytes": 28930,
+      "role": "draft"
+    }
+  }
+}

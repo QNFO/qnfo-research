@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "structured-configuration-style-prompts-as-variance-control-an-analytical-framewo",
+  "paper": {
+    "path": "papers/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo/paper.md",
+    "title": "Structured Configuration-Style Prompts as Variance Control: An Analytical Framework for Cross-LLM Output Variance Reduction",
+    "url": "https://papers.qnfo.org/papers/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-468/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "4a6ed5195c0bbb6d82bf71309c78d4b0da7b0507bf56bf29d38655376a38ba24"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "cef26054-5536-4e57-9944-557e995c29d1"
+    ],
+    "living_paper_slug": "structured-configuration-style-prompts-as-variance-control-an-analytical-framewo"
+  },
+  "snapshots": [
+    {
+      "sha256": "ac4c8152e5a57597118eaf7dd41b37d1489de2ae5aa98a270dac6c2aba87825b",
+      "bytes": 51394,
+      "recorded_at": "2026-11-13",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

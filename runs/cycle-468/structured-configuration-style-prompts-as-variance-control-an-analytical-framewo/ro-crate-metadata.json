@@ -1,0 +1,412 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-468: Structured Configuration-Style Prompts as Variance Control: An Analytical Framework for Cross-LLM Output Variance Reduction",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-468",
+      "qnfo:runPath": "runs/cycle-468/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo",
+      "qnfo:slug": "structured-configuration-style-prompts-as-variance-control-an-analytical-framewo",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-13T04:54:55.604Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Structured Configuration-Style Prompts as Variance Control: An Analytical Framework for Cross-LLM Output Variance Reduction",
+      "url": "https://papers.qnfo.org/papers/structured-configuration-style-prompts-as-variance-control-an-analytical-framewo"
+    },
+    {
+      "@id": "https://arxiv.org/abs/0803.1985",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:0803.1985"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.04266",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.04266"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1907.07552",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1907.07552"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1910.09851",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1910.09851"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2412.01287",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2412.01287"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2502.05795",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2502.05795"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2511.15643",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2511.15643"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.08253",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.08253"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2601.21339",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2601.21339"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.19500",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.19500"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2610.01446",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2610.01446"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2260",
+      "sha256": "4a6ed5195c0bbb6d82bf71309c78d4b0da7b0507bf56bf29d38655376a38ba24",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "58715",
+      "sha256": "4ae6c3987d79444a7d686fd89fbd0ca93170d678fd6de558a1f039c681fe3bf9",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "51394",
+      "sha256": "ac4c8152e5a57597118eaf7dd41b37d1489de2ae5aa98a270dac6c2aba87825b",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2291",
+      "sha256": "cb713d2d5cc07582a8a1fbd747fe3baafa5465a04a354c5f656be5dd2b755fc7",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "17247",
+      "sha256": "56856e86bb09ab215f3bfbb6c37cfda8e9d94b6e8ba52b6ef730653a1cdd7a3c",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "8599",
+      "sha256": "abab73345d15d3554765307ecf75f7b4f47bfb08ed1a905e67cc7e7d397b81ec",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "15269",
+      "sha256": "a1088692942365534c2a8b3f09d9f338dd2f892c1e06ab07a8cf39cc6ae28f0a",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "28930",
+      "sha256": "692c281650adb29921aaab5c265654dd9057e59fd91a2e914b91ada8b58701a9",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/0803.1985"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.04266"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1907.07552"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1910.09851"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2412.01287"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2502.05795"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2511.15643"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.08253"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2601.21339"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.19500"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2610.01446"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-13T04:54:55.604Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
