@@ -1,0 +1,500 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "qnfo": "https://qnfo.org/ns/provenance#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "QNFO research run cycle-467: Quantitative Integrity and Reliability Modeling of the Quniverse Autonomous Research Fleet",
+      "description": "Interim and final artifacts of one run of the QNFO automated research pipeline, kept as deposited. MANIFEST.json is the pipeline's own record and is never rewritten; this crate adds the standard packaging, per-file fixity and the stage structure of the run.",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-4317-5604"
+      },
+      "license": {
+        "@id": "https://qnfo.org/legal/license"
+      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/wfrun/process/0.4"
+        }
+      ],
+      "qnfo:cycle": "cycle-467",
+      "qnfo:runPath": "runs/cycle-467/quniverse-fleet-lessons",
+      "qnfo:slug": "quniverse-fleet-lessons",
+      "qnfo:pipelineVersion": "0.8.0-artifact-deposit",
+      "datePublished": "2026-11-13T01:03:08.901Z",
+      "about": {
+        "@id": "https://papers.qnfo.org/papers/quniverse-fleet-lessons"
+      },
+      "hasPart": [
+        {
+          "@id": "MANIFEST.json"
+        },
+        {
+          "@id": "grounding.md"
+        },
+        {
+          "@id": "reconciled-paper.md"
+        },
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        },
+        {
+          "@id": "verification.md"
+        },
+        {
+          "@id": "verification.py"
+        },
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "#grounding"
+        },
+        {
+          "@id": "#drafting"
+        },
+        {
+          "@id": "#reconciliation"
+        },
+        {
+          "@id": "#review"
+        },
+        {
+          "@id": "#verification-original"
+        }
+      ]
+    },
+    {
+      "@id": "https://qnfo.org/legal/license",
+      "@type": "CreativeWork",
+      "name": "QNFO Unified License Agreement v2.1",
+      "identifier": "LicenseRef-QNFO-ULA-2.1"
+    },
+    {
+      "@id": "https://w3id.org/ro/wfrun/process/0.4",
+      "@type": "CreativeWork",
+      "name": "Process Run Crate",
+      "version": "0.4"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-4317-5604",
+      "@type": "Person",
+      "name": "Rowan Brad Quni-Gudzinas"
+    },
+    {
+      "@id": "#cpython",
+      "@type": "SoftwareApplication",
+      "name": "CPython",
+      "description": "Interpreter that ran verification.py in the pipeline; its version was not recorded."
+    },
+    {
+      "@id": "#pipeline",
+      "@type": "SoftwareApplication",
+      "name": "qnfo-research-exec",
+      "url": "https://github.com/QNFO/qnfo-workers/tree/main/qnfo-research-exec",
+      "version": "0.8.0-artifact-deposit"
+    },
+    {
+      "@id": "https://papers.qnfo.org/papers/quniverse-fleet-lessons",
+      "@type": [
+        "CreativeWork",
+        "ScholarlyArticle"
+      ],
+      "name": "Quantitative Integrity and Reliability Modeling of the Quniverse Autonomous Research Fleet",
+      "url": "https://papers.qnfo.org/papers/quniverse-fleet-lessons"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1501.05739",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1501.05739"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1612.01691",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1612.01691"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1612.08910",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1612.08910"
+    },
+    {
+      "@id": "https://arxiv.org/abs/1811.12271",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:1811.12271"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2011.08729",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2011.08729"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2206.11522",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2206.11522"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2301.01850",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2301.01850"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2310.01362",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2310.01362"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2405.18001",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2405.18001"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2503.18102",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2503.18102"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2507.21222",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2507.21222"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2509.00621",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2509.00621"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2510.22224",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2510.22224"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2603.11468",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2603.11468"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2604.20127",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2604.20127"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2607.24647",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2607.24647"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.04738",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.04738"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2608.09622",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2608.09622"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.00879",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.00879"
+    },
+    {
+      "@id": "https://arxiv.org/abs/2609.39392",
+      "@type": "ScholarlyArticle",
+      "identifier": "arXiv:2609.39392"
+    },
+    {
+      "@id": "MANIFEST.json",
+      "@type": "File",
+      "name": "MANIFEST.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2136",
+      "sha256": "f3355d666f1fc9b2af4df67c9114c2d37fff62a0d1ab5c01064a32bf5f187562",
+      "qnfo:role": "manifest",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "grounding.md",
+      "@type": "File",
+      "name": "grounding.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "92093",
+      "sha256": "2c4108f8389061116272f030dec8f17f3b6744c69cd07f6217d964d3e6010373",
+      "qnfo:role": "grounding",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "reconciled-paper.md",
+      "@type": "File",
+      "name": "reconciled-paper.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "48813",
+      "sha256": "02b8c9521cc7f631c5bc6b7f3b29a97e99792e1ae90019fe857a04e13d182687",
+      "qnfo:role": "reconciliation",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report-0.md",
+      "@type": "File",
+      "name": "review-report-0.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3040",
+      "sha256": "62139fbe2531ad638ccb41331448e9b046aa714efeabf037ad22c95a5acd8ca9",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "review-report.md",
+      "@type": "File",
+      "name": "review-report.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "3825",
+      "sha256": "42eb889a8b1b43aa79fb6bac39a2fa2c8405850e06500cff77cf0767a78a5559",
+      "qnfo:role": "review",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.md",
+      "@type": "File",
+      "name": "verification.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "14370",
+      "sha256": "757bcfee431087596dcd020b87a52ec6dcafb31539068a10007e30f1257f16ce",
+      "qnfo:role": "verification-report",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "verification.py",
+      "@type": "File",
+      "name": "verification.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": "6475",
+      "sha256": "f207501753eeeff9de84658dd128c58cbd9c64e9fc7d2fe78f406920ec638dc5",
+      "qnfo:role": "verification-script",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-a-draft.md",
+      "@type": "File",
+      "name": "writer-a-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19165",
+      "sha256": "7001f756c3dea59e452821dd0fb66282e462bab8b2d24884e2be0f25704fa9d4",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "writer-b-draft.md",
+      "@type": "File",
+      "name": "writer-b-draft.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "19935",
+      "sha256": "67ce08963e74ac02df273bf494af69f7e06e22ed2581a2b17df2bcefe890113d",
+      "qnfo:role": "draft",
+      "qnfo:listedInManifest": true
+    },
+    {
+      "@id": "#grounding",
+      "@type": "CreateAction",
+      "name": "Literature grounding",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "grounding.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "https://arxiv.org/abs/1501.05739"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1612.01691"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1612.08910"
+        },
+        {
+          "@id": "https://arxiv.org/abs/1811.12271"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2011.08729"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2206.11522"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2301.01850"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2310.01362"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2405.18001"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2503.18102"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2507.21222"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2509.00621"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2510.22224"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2603.11468"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2604.20127"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2607.24647"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.04738"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2608.09622"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.00879"
+        },
+        {
+          "@id": "https://arxiv.org/abs/2609.39392"
+        }
+      ],
+      "qnfo:sourcesBasis": "extracted-by-regex-from-grounding.md"
+    },
+    {
+      "@id": "#drafting",
+      "@type": "CreateAction",
+      "name": "Independent drafting",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "grounding.md"
+        }
+      ]
+    },
+    {
+      "@id": "#reconciliation",
+      "@type": "CreateAction",
+      "name": "Reconciliation and citation audit",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "writer-a-draft.md"
+        },
+        {
+          "@id": "writer-b-draft.md"
+        }
+      ]
+    },
+    {
+      "@id": "#review",
+      "@type": "CreateAction",
+      "name": "Adversarial review",
+      "instrument": {
+        "@id": "#pipeline"
+      },
+      "result": [
+        {
+          "@id": "review-report-0.md"
+        },
+        {
+          "@id": "review-report.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/CompletedActionStatus"
+      },
+      "qnfo:basis": "inferred-from-procedure",
+      "object": [
+        {
+          "@id": "reconciled-paper.md"
+        }
+      ]
+    },
+    {
+      "@id": "#verification-original",
+      "@type": "CreateAction",
+      "name": "verification.py as run by the pipeline",
+      "instrument": {
+        "@id": "#cpython"
+      },
+      "object": [
+        {
+          "@id": "verification.py"
+        }
+      ],
+      "result": [
+        {
+          "@id": "verification.md"
+        }
+      ],
+      "actionStatus": {
+        "@id": "http://schema.org/FailedActionStatus"
+      },
+      "qnfo:basis": "recorded-in-verification.md",
+      "qnfo:exitCode": 1,
+      "endTime": "2026-11-13T01:03:08.901Z",
+      "description": "endTime is the deposit time; the execution time itself was not recorded."
+    }
+  ]
+}
