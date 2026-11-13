@@ -46,6 +46,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "34b793e279bbf9408756c5b19bbb01b239c7db469968bfaad6aa17d8bb533748"
+    },
+    {
+      "path": "runs/cycle-467/quniverse-fleet-lessons",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "f3355d666f1fc9b2af4df67c9114c2d37fff62a0d1ab5c01064a32bf5f187562"
     }
   ],
   "identifiers": {
@@ -83,6 +89,14 @@
       "recorded_at": "2026-11-05",
       "basis": "revision",
       "version": "1.9.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "02b8c9521cc7f631c5bc6b7f3b29a97e99792e1ae90019fe857a04e13d182687",
+      "bytes": 48813,
+      "recorded_at": "2026-11-13",
+      "basis": "revision",
+      "version": "1.10.0",
       "git_commit": null
     }
   ],
