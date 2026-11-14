@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "intelligence-converges-to-a-metabolically-constrained-resonant-equilibrium-not-a",
+  "paper": {
+    "path": "papers/intelligence-converges-to-a-metabolically-constrained-resonant-equilibrium-not-a/paper.md",
+    "title": "Intelligence Converges to a Metabolically Constrained Resonant Equilibrium, Not a Singularity",
+    "url": "https://papers.qnfo.org/papers/intelligence-converges-to-a-metabolically-constrained-resonant-equilibrium-not-a"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-470/intelligence-converges-to-a-metabolically-constrained-resonant-equilibrium-not-a",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "b8baab793fac6d0d2714c873be69778932b5a97d7cdb4fe9a59bb22759cdfe54"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "bc9558a0-afec-4edd-98f8-10b1b5ff3a87"
+    ],
+    "living_paper_slug": "intelligence-converges-to-a-metabolically-constrained-resonant-equilibrium-not-a"
+  },
+  "snapshots": [
+    {
+      "sha256": "2ca6b52fbd310b5b0d68d2ea2de0300b5ef180e9090793ac6f5e08fc70522ff4",
+      "bytes": 27726,
+      "recorded_at": "2026-11-14",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

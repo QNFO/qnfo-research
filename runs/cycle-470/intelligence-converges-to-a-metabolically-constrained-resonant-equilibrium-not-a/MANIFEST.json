@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "bc9558a0-afec-4edd-98f8-10b1b5ff3a87",
+    "slug": "intelligence-converges-to-a-metabolically-constrained-resonant-equilibrium-not-a",
+    "cycle": "cycle-470",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.14",
+    "finished_at": "2026-11-14T00:14:49.091Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "2ca6b52fbd310b5b0d68d2ea2de0300b5ef180e9090793ac6f5e08fc70522ff4",
+    "bytes": 27726,
+    "path": "papers/intelligence-converges-to-a-metabolically-constrained-resonant-equilibrium-not-a/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "9f1d73487c26495ffe872037b9f4f557968cc2b13bc020cfdbe1796a2eb5bab4",
+      "bytes": 46512,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "b69ce740683cde7fb7a354e12159e637c93c6547e0fab7cb286a9d60f2656f86",
+      "bytes": 27725,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "04a23388f9089645f712e97cb8974278f82d1697882a3886f84f2f59750f3ec8",
+      "bytes": 5875,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "c140c04a3e6c653fdedcff4a997ee7cba240af540bcec44e02e3bc950fcc168c",
+      "bytes": 3876,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "f8e75019fe3cdc2b8782b29ef476bbaef7ce58d6555be42978555b89fabf3f52",
+      "bytes": 11759,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "dc10896e1ae28e6aeebc318c406bf1fbdebb9e8b9fb0da6728dfc90aa9c9be0d",
+      "bytes": 6588,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "23012ae632b38728b5ff2cd798098097382658265f6e6248547a2cd52a0c1af1",
+      "bytes": 16027,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "97e7c48765fc162bce7b97be4bd17ccc375e747e10b127e3bc339afab62434ac",
+      "bytes": 16826,
+      "role": "draft"
+    }
+  }
+}
