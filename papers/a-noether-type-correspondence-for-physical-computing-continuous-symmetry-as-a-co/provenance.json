@@ -1,0 +1,39 @@
+{
+  "schema": "qnfo-paper-provenance/1",
+  "slug": "a-noether-type-correspondence-for-physical-computing-continuous-symmetry-as-a-co",
+  "paper": {
+    "path": "papers/a-noether-type-correspondence-for-physical-computing-continuous-symmetry-as-a-co/paper.md",
+    "title": "A Noether-Type Correspondence for Physical Computing: Continuous Symmetry as a Conserved Computational Resource in Hybrid Intelligence",
+    "url": "https://papers.qnfo.org/papers/a-noether-type-correspondence-for-physical-computing-continuous-symmetry-as-a-co"
+  },
+  "declared": {
+    "version": null,
+    "license": "QNFO-ULA v2.0 (CC BY-NC-SA 4.0 with the QNFO Supplemental Terms, https://legal.qnfo.org/)",
+    "dois": []
+  },
+  "runs": [
+    {
+      "path": "runs/cycle-471/a-noether-type-correspondence-for-physical-computing-continuous-symmetry-as-a-co",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "fa58bdbaca0db02eddb5e76763db8c162f6ec68ce2eff651405bd286f08cc60e"
+    }
+  ],
+  "identifiers": {
+    "research_queue_ids": [
+      "85966b32-90ad-4697-b053-3e9348c40eaf"
+    ],
+    "living_paper_slug": "a-noether-type-correspondence-for-physical-computing-continuous-symmetry-as-a-co"
+  },
+  "snapshots": [
+    {
+      "sha256": "a23f62fbc19ded96a18bbbc71f666623ed09eb2c37688fa331c0c208663bf34a",
+      "bytes": 43445,
+      "recorded_at": "2026-11-15",
+      "basis": "deposit",
+      "version": "1.0.0",
+      "git_commit": null
+    }
+  ],
+  "events": []
+}

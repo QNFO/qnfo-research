@@ -1,0 +1,78 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "85966b32-90ad-4697-b053-3e9348c40eaf",
+    "slug": "a-noether-type-correspondence-for-physical-computing-continuous-symmetry-as-a-co",
+    "cycle": "cycle-471",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.14",
+    "finished_at": "2026-11-15T06:41:42.295Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": {
+    "version": "1.0.0",
+    "sha256": "a23f62fbc19ded96a18bbbc71f666623ed09eb2c37688fa331c0c208663bf34a",
+    "bytes": 43445,
+    "path": "papers/a-noether-type-correspondence-for-physical-computing-continuous-symmetry-as-a-co/paper.md"
+  },
+  "files": {
+    "grounding.md": {
+      "sha256": "9aa6de05bb7e2b3245638da67997a8d66ef36fe10f20a463f4ffbe0821d5c55f",
+      "bytes": 48479,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "bf2bce40992d8cc316454504810096deada28fca70983301a8c765358184e2d9",
+      "bytes": 38943,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "ef5cc09958d604cdf65aef9bcb9048b671fd9ed03f7373f435228a3df14be98c",
+      "bytes": 2690,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "a8b22fbbad6ff6cadfeeb96fac5a12d541178dfb99faa8ff0844f083bf6fc586",
+      "bytes": 1860,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "1728259fb6cf1bfcf64d5f2c87a1c2f27f0f19d953e339e9017735ef9e5349dd",
+      "bytes": 11657,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "2d1c594e3b172e728925b68db22b71152bdead9da686dfae2ec22cb036738203",
+      "bytes": 7159,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "5760fe5e148e7757d1a94e000ae73b1531f8757a3346656f3be482e752aa6978",
+      "bytes": 19960,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "21beafde917bdbebc21e77fe07de461d27e5bc5d24bc9e85fe837c238015b9fc",
+      "bytes": 30024,
+      "role": "draft"
+    }
+  }
+}
