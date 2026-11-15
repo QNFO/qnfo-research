@@ -1,5 +1,9 @@
 # Time as Epistemic Cognitive Fiction
 
+## Abstract
+
+URL: https://papers.qnfo.org/papers/time-as-epistemic-cognitive-fiction/ Date: 2026-03-19 Version: 1.0 Human perception operates as a highly specialized biological interface designed for survival rather than objective truth. The sensory organs gather limited environmental data to construct a workable model of the immediate surroundings. This biological filtering mechanism actively discards vast amounts of fundamental physical information. The resulting mental projection allows organisms to navigate complex environments and secure necessary resources. Evolution prioritizes rapid decision-making over the accurate comprehension of underlying quantum mechanics. Consequently, the brain generates a simplified narrative that masks the true structural complexity of the universe. We experience this heavily edited cognitive output as our primary physical reality.
+
 ## Chapter 1: The Epistemic Nature of Temporal Perception
 
 ### 1.1 The Biological Interface of Reality
