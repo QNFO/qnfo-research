@@ -1,0 +1,73 @@
+{
+  "schema": "qnfo-run-manifest/2",
+  "pipeline": "0.8.0-artifact-deposit",
+  "run": {
+    "id": "rem-rev-e05f2312-b608-49c1-8607-834f35f998e5",
+    "slug": "automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g",
+    "cycle": "cycle-472",
+    "worker": "qnfo-research-exec",
+    "worker_version": "0.55.14",
+    "finished_at": "2026-11-16T04:41:34.918Z"
+  },
+  "models": {
+    "basis": "configured-at-deposit",
+    "writers": [
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "writer_fallbacks": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/zai-org/glm-5.3-flash"
+    ],
+    "stages": [
+      "@cf/zai-org/glm-5.3-flash",
+      "@cf/openai/gpt-oss-120b",
+      "@cf/moonshotai/kimi-k2.6"
+    ]
+  },
+  "paper": null,
+  "files": {
+    "grounding.md": {
+      "sha256": "b766f2d26cc55f05b25fd982bf079eaf5e1455b7710f80728d12d5569261153d",
+      "bytes": 91851,
+      "role": "grounding"
+    },
+    "reconciled-paper.md": {
+      "sha256": "381271208d8198e07d12d4c2637efca47564c23be78ce51b0409822faba2fa6f",
+      "bytes": 44760,
+      "role": "reconciliation"
+    },
+    "review-report-0.md": {
+      "sha256": "15646dca7227fa0fa00a27fbc48145fa6921fd7da641735c3917ad9475773512",
+      "bytes": 2713,
+      "role": "review"
+    },
+    "review-report.md": {
+      "sha256": "c3c156b3b9c899609b1de84d00d1977c9764d6e8438ffa49c2eb04643b8e8fe2",
+      "bytes": 3795,
+      "role": "review"
+    },
+    "verification.md": {
+      "sha256": "f260a6268129c30812aaace9bd6260df4d0fb021f0885c84355bad6a0c47faee",
+      "bytes": 13664,
+      "role": "verification-report"
+    },
+    "verification.py": {
+      "sha256": "6292f2a10ca335108c898e83974d551cf9dcee2e5018512bccaf72df46683c77",
+      "bytes": 8687,
+      "role": "verification-script"
+    },
+    "writer-a-draft.md": {
+      "sha256": "0b0ac348c6635c7c6c5318dab380a4b32c5ccf593e6e7128df1346b6f6b50413",
+      "bytes": 21879,
+      "role": "draft"
+    },
+    "writer-b-draft.md": {
+      "sha256": "0711f7003449c3ae114069b5070930d61e5e42f6eed358b54d1221d7f6f7422a",
+      "bytes": 22917,
+      "role": "draft"
+    }
+  }
+}
