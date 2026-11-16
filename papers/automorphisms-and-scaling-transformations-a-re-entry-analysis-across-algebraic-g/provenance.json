@@ -29,6 +29,12 @@
       "relation": "produced-by",
       "match": "slug-exact",
       "manifest_sha256": "56bea78fda589ee6a54cdf8c08384fa95a1cbb92397355a86a121cf9ae02cc2b"
+    },
+    {
+      "path": "runs/cycle-472/automorphisms-and-scaling-transformations-a-re-entry-analysis-across-algebraic-g",
+      "relation": "produced-by",
+      "match": "slug-exact",
+      "manifest_sha256": "bf23a203af74abc504a9a88dc04cf3cbc529fc219b926b0da35842ff1222c0cf"
     }
   ],
   "identifiers": {
@@ -58,6 +64,14 @@
       "recorded_at": "2026-10-28",
       "basis": "revision",
       "version": "2.1.0",
+      "git_commit": null
+    },
+    {
+      "sha256": "fce197091f12cad2f2adb079ca1538df3c56f1898efcd56c16cfbe1f3ef20865",
+      "bytes": 44738,
+      "recorded_at": "2026-11-16",
+      "basis": "revision",
+      "version": "2.2.0",
       "git_commit": null
     }
   ],
